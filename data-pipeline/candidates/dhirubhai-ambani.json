@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "dhirubhai-ambani",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Dhirubhai Ambani",
+    "aliases": [
+      "Dhirajlal Hirachand Ambani",
+      "Dhirubhai H. Ambani"
+    ],
+    "wikidataId": "Q468364",
+    "birthYear": 1932,
+    "deathYear": 2002,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "wealth_creation"
+    ],
+    "tagIds": [
+      "founder",
+      "leader"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ambani_wikidata",
+      "kind": "wikidata",
+      "title": "Dhirubhai Ambani (Q468364), verified live via the Wikidata API (2026-10-28): label 'Dhirubhai Ambani', description 'Indian business tycoon (1932-2002)', born 1932-12-28, died 2002-07-06, no Korean label, P18 image 'Dhirubhai Ambani 2002 stamp of India.jpg'. Orientation only; not used for any row.",
+      "url": "https://www.wikidata.org/wiki/Q468364"
+    },
+    {
+      "id": "src_ambani_voa",
+      "kind": "press",
+      "title": "Voice of America, report on Dhirubhai Ambani's death (7 July 2002, read in full). CANONICAL SIGNIFICANCE SOURCE: founder of what it calls India's largest private-sector company, who raised capital from middle-class investors through the stock market instead of the elite financial institutions, built a base of about 3.5 million shareholders, and whose critics accused him of manipulating administration and ruthlessly eliminating competition (he called this the price of success).",
+      "url": "https://voanews.com/a/a-13-a-2002-07-07-8-indian/392504.html"
+    },
+    {
+      "id": "src_ambani_thakurta",
+      "kind": "press",
+      "title": "Paranjoy Guha Thakurta, 'The two faces of Dhirubhai Ambani', Seminar issue 521 (2002-03, read in full): critical business journalist's account of the group's growth (Naroda mill, Patalganga, polyester intermediates, Jamnagar), the 1977 public issue and small-town shareholders, Vimal franchising, the 1982 bear-operator episode, and lobbying, with allegations kept separate from documented facts.",
+      "url": "https://india-seminar.com/2003/521/521%20paranjoy%20guha%20thakurta.htm"
+    },
+    {
+      "id": "src_ambani_bustoday",
+      "kind": "press",
+      "title": "Business Today, 'Second time lucky' by Rishi Joshi (31 October 2010, read in full): review of Hamish McDonald's Ambani & Sons with an interview with the author; his heavy Vimal advertising, Reliance as India's largest textile producer in 1979, McDonald's view of the licence-era advantage and of political management, the Goenka feud and the failed Larsen & Toubro bid, and the stalled Indian publication of The Polyester Prince. The McDonald biographies themselves were not opened.",
+      "url": "https://www.businesstoday.in/magazine/book/story/second-time-lucky-15857-2010-10-12"
+    },
+    {
+      "id": "src_ambani_outlook",
+      "kind": "press",
+      "title": "Outlook India, 'Kingmaker's Sceptre' by Alam Srinivas (5 February 2022, read in full): business-journalist retrospective on Reliance's 1977 listing, the 1980s rivalries with Nusli Wadia, Ram Nath Goenka and V.P. Singh, the 1990s European fund-raising, the group's 1999-2000 grassroots refinery and port, and the weakening of the family's political hold.",
+      "url": "https://www.outlookindia.com/business/kingmakers-sceptre-news-282686"
+    },
+    {
+      "id": "src_ambani_tribune",
+      "kind": "press",
+      "title": "The Tribune (Chandigarh), 'President, PM condole Ambani's death' (8 July 2002, read in full): tributes only, calling him an architect of India's entrepreneurial renaissance and capital market; admiring and used only for reputation, not for behaviour.",
+      "url": "https://www.tribuneindia.com/2002/20020708/nation.htm"
+    },
+    {
+      "id": "src_ambani_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Dhirubhai Ambani 2002 stamp of India.jpg' (checked for the portrait only; not used for any scoring).",
+      "url": "https://commons.wikimedia.org/wiki/File:Dhirubhai_Ambani_2002_stamp_of_India.jpg"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.57,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ambani_voa, src_ambani_thakurta, src_ambani_outlook, src_ambani_bustoday | 1957-1979 | independent press + critical journalist + book-review press] VOA says that instead of relying on institutions lending to a small circle of elite families he raised capital from middle-class Indians through the stock market, building a base of about 3.5 million shareholders; Guha Thakurta independently documents the 1977 public issue and small-town investors and his move from trading spices and fabrics to a spinning mill at Naroda and polyester complexes; Business Today (via McDonald) records the heavy Vimal brand push that made Reliance India's largest textile producer by 1979. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 72 / 0.60 to 70 / 0.57 because the 'first to raise capital this way' framing rests on one wire report and the tribute material is admiring, while the 1977 issue itself is independently documented."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ambani_voa, src_ambani_thakurta | 1950s-1970s | independent press + critical journalist] VOA and Guha Thakurta both say he left for Aden as a teenager, worked at a petrol station, came back to Mumbai in the late 1950s with little capital and started a trading business, then bought a small spinning mill and built the Patalganga complex; Guha Thakurta puts group turnover at Rs 70 crore in 1976-77 and about Rs 60,000 crore by 2000. Self-started and well documented by two sources that differ on details (return year 1957 or 1958, starting capital about $300 or Rs 500)."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ambani_thakurta, src_ambani_outlook | 1980s-2000 | critical journalist + business journalist] Guha Thakurta reports he built the Jamnagar refinery in three years and at a capital cost he says was 30% lower than comparable projects, and Outlook records that by 1999-2000 the group had the world's largest grassroots refinery and India's largest port; both also describe heavy debt-funded expansion and, in Outlook, a share-price fall of over 80 per cent after the 1980s attacks and his stroke. The scale of commitments is documented, the personal risk-taking is inferred, so confidence is moderate and impact dual-edged."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_ambani_thakurta, src_ambani_bustoday, src_ambani_outlook | 1980s | critical journalist + book-review press + business journalist] Guha Thakurta documents the 1982 episode in which he took close to a million shares sold by a bear group and demanded delivery, shutting the Bombay exchange for a couple of days; Business Today (via McDonald) and Outlook record his open feuds with Ramnath Goenka and Nusli Wadia, and Business Today calls the Goenka feud a major failure that brought him difficulty. Only the confrontations themselves are used; allegations in these articles are not evidence and are not scored."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ambani_thakurta, src_ambani_voa, src_ambani_tribune | 1977-2002 | critical journalist + wire report + tributes] Guha Thakurta says he called shareholders 'family members', held very large annual general meetings and opened outlets for as many as 100 Vimal franchises in one day, and VOA reports the shareholder base reached about 3.5 million; the Tribune's tributes call him an architect of India's capital market. Reach is documented, but the rhetorical skill is inferred and some of the praise is ceremonial."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "디루바이 암바니"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear photograph found. The only Commons image is a 237 x 312 scan of a 2002 India Post stamp tagged under the Government Open Data Licence of India. A stamp is a designed derivative artwork with no recorded designer, nothing opened shows that the licence covers stamp images (the India Post site could not be opened to read its terms), and the image is very small. Next step: a photograph of him with a named photographer and stated licence, or a written statement of the licence basis from India Post."
+  },
+  "provenance": {
+    "createdAt": "2026-10-28T00:00:00Z",
+    "updatedAt": "2026-10-28T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed HOLD: the only Commons image is 'Dhirubhai Ambani 2002 stamp of India.jpg' (237 x 312), a scan of an India Post stamp (author given as India Post, Government of India, dated 2002-12-28; source links wnsstamps.post and postagestamps.gov.in) with a {{GODL-India}} tag confirmed by a Commons reviewer in 2024. BLOCKERS: (1) a stamp is a designed derivative artwork, not a photograph, and the designer is not recorded; (2) the Government Open Data Licence applies to data published under India's open data policy and nothing opened shows that a stamp image is covered, and postagestamps.gov.in could not be opened to read its terms; (3) at 237 x 312 it is very small. A Commons search for other Dhirubhai Ambani images returned only buildings and family-event photographs, no documented photograph of him. NEXT STEP: obtain a photograph of him with a named photographer and stated licence (for example from a Government of India press office with explicit terms, or a licensed press archive), or a written statement of the GODL basis for the stamp from India Post. No portrait file saved. PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q468364 label 'Dhirubhai Ambani', description 'Indian business tycoon (1932-2002)', born 1932-12-28, died 2002-07-06; matches the lead. No production QID/slug collision (grepped prod59.txt) and no existing candidate file. REGION south_asia. ZERO POLITICS: primary identity is the founder-industrialist of Reliance; his political ties, lobbying, and role in government changes are context and not scored. VOCABULARY: occupations entrepreneur, executive; field business; tags founder, leader; archetypes entrepreneurial_builder, organizational_leader; impact domains entrepreneurial, industrial, wealth_creation (all have EN and KO labels or are listed domains). KOREAN NAME 디루바이 암바니 is a standard transliteration; Wikidata has no Korean label and no dedicated Korean Wikipedia article was found, so it is flagged for lead review. CANONICAL SIGNIFICANCE SOURCE: Voice of America report on his death (https://voanews.com/a/a-13-a-2002-07-07-8-indian/392504.html); Britannica was tried and returned 403. READ in full: VOA, Guha Thakurta (Seminar), Business Today (review of McDonald's Ambani & Sons), Outlook (Alam Srinivas), Tribune tributes (admiring, low weight). PERSPECTIVES: wire-service obituary, critical business journalist, book-review press, business-press retrospective. COUNTER-VOICES: Guha Thakurta's 'two faces' assessment, McDonald's view as relayed by Business Today of licence-era advantage, political management and the Goenka and L&T failures, and VOA's critics. NOT OPENED: Hamish McDonald's The Polyester Prince and Ambani & Sons themselves (known only through reviews), Reliance's own pages and the Jio Institute exhibit (self-material), the Economist and Britannica texts, Asia Sentinel review (paywalled), the Indian Express series. EXCLUSIONS: all allegations (offshore share purchases, loan schemes, alleged import-rule changes, share-price manipulation claims, the 1985 police accusation, Official Secrets Act case, Alvi allegations) are reported by Guha Thakurta as allegations and are NOT scored; the Rs 25 crore settlement and later show-cause matters are not scored. Source figures differ: shareholders 3.5 million (VOA) vs about four million (Guha Thakurta); return to Mumbai 1957 or 1958. SELF-CALIBRATION (agent): top-risk rows reviewed: opportunity_sensing (72/0.60 lowered to 70/0.57: first-to-raise framing rests on one wire report), proactive_agency and persuasiveness (kept). SPARSE PROFILE: five rows, none above 70, four substantive independent sources plus tributes. HANDBACK59: {\"slug\": \"dhirubhai-ambani\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"opportunity_sensing\", \"old_score\": 72, \"old_confidence\": 0.6, \"new_score\": 70, \"new_confidence\": 0.57, \"reason\": \"'first to raise capital this way' framing rests on one wire report and tribute material is admiring; the 1977 issue itself is independently documented\"}], \"reviewed_kept\": [\"proactive_agency\", \"persuasiveness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

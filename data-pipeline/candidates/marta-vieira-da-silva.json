@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "marta-vieira-da-silva",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Marta Vieira da Silva",
+    "aliases": [
+      "Marta",
+      "Marta Silva",
+      "Marta da Silva"
+    ],
+    "wikidataId": "Q228616",
+    "birthYear": 1986,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마르타 비에이라 다 시우바"
+    }
+  },
+  "sources": [
+    {
+      "id": "src_marta_wikidata",
+      "kind": "wikidata",
+      "title": "Marta (Q228616), verified live via the Wikidata API (2026-10-28): label 'Marta', description 'Brazilian footballer (born 1986)', born 19 February 1986, no death date, citizenship Brazil and Sweden, Korean label present, P18 image 'NC Courage vs Orlando Pride (Jun 2024) 073 (cropped).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q228616"
+    },
+    {
+      "id": "src_marta_espn",
+      "kind": "press",
+      "title": "Connor O'Halloran, 'Superstar, trailblazer, icon: The legacy of Brazil's Marta', ESPN (first published July 2024, updated August 2025), read in full: childhood in Dois Riachos, the bus trip to the Vasco da Gama trial, testimony from her first coach Pacheco, her Brazil team-mate Formiga, USWNT player Shannon Boxx and coach Pia Sundhage, the move to Umea in 2004 (stated there as the first time a Brazilian woman played outside Brazil), the 2007 and 2008 final defeats, the repeated collapse of her clubs and leagues, the 2019 post-match speech, the 2024 red card and the 2025 Copa America Femenina return. CANONICAL SIGNIFICANCE SOURCE. Long-form sports journalism built on interviews with people who know her; admiring in tone, and some anecdotes (the coconut-water bets, the Easter skiing contest) are told by friends and a host family.",
+      "url": "https://www.espn.com/soccer/story/_/id/40623580/superstar-trailblazer-icon-legacy-brazil-marta"
+    },
+    {
+      "id": "src_marta_abc",
+      "kind": "press",
+      "title": "Samantha Lewis, 'Obrigado, Marta: Brazilian legend makes way for the future after Paris Olympics final', ABC News Australia (11 August 2024), read in full: her upbringing, the three-day trip to Rio, the 2007 World Cup Golden Ball and Golden Boot, the Maracana footprints, the lack of home support (including a quote from her agent Fabio Farah), her 2019 speech and her handing-on of the team at the 2024 Olympics. Independent analytical feature by an Australian sports journalist; sympathetic, and the agent's quote is an interested voice.",
+      "url": "https://www.abc.net.au/news/2024-08-11/obrigado-marta-brazil-legend-future-paris-olympics-final/104210668"
+    },
+    {
+      "id": "src_marta_fifa",
+      "kind": "institution",
+      "title": "FIFA, 'Marta: I've got a dream' (17 January 2024), read in full: the FIFA Special Award at The Best FIFA Football Awards 2023, the FIFA award for the best goal of the year named after her, her Women's World Cup record of 17 goals across both men's and women's tournaments, her international goal tally at that date, and her own remarks about how the women's game has changed. Governing-body feature; celebratory, and the quotes are her own.",
+      "url": "https://inside.fifa.com/organisation/news/marta-ive-got-a-dream"
+    },
+    {
+      "id": "src_marta_unwomen",
+      "kind": "institution",
+      "title": "UN Women, profile of Goodwill Ambassador Marta Vieira da Silva (unwomen.org), read in full: her appointment in July 2018 as Goodwill Ambassador for women and girls in sport, her earlier UNDP Goodwill Ambassador role (2010-2018), her 2007 Golden Ball and Golden Boot, and a statement of her own about sport and empowerment. Institutional page describing a role she holds; self-quoted and promotional.",
+      "url": "https://www.unwomen.org/en/partnerships/goodwill-ambassadors/marta-vieira-da-silva"
+    },
+    {
+      "id": "src_marta_ballondor",
+      "kind": "award_body",
+      "title": "Ballon d'Or (France Football) feature 'Marta: The Brazilian Queen Who Transformed Women's Football' (published 2026), read in full: her poverty and the exclusion she met as a girl, the bus trip to Rio, women's football's history in Brazil, the club and league collapses she lived through, her records, the FIFA Marta Award, her Go Equal brand and her UN Women role. Award-body editorial: celebratory, and it quotes her mostly from earlier interviews.",
+      "url": "https://ballondor.com/news/posts/marta-the-brazilian-queen-who-transformed-womens-football"
+    },
+    {
+      "id": "src_marta_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'NC Courage vs Orlando Pride (Jun 2024) 073 (cropped).jpg' (photograph by Hameltion, 15 June 2024, CC BY-SA 4.0), checked for the portrait only; not used for any scoring.",
+      "url": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_marta_espn, src_marta_ballondor, src_marta_abc | 2002-2025 | long-form journalism + award-body feature + analytical feature] ESPN and the Ballon d'Or feature both document that her club or league folded repeatedly (Vasco in 2002, then Los Angeles Sol, Gold Pride, Western New York Flash and Tyreso) and that she kept moving to the next team; ESPN reports that she lost a World Cup final and two Olympic finals by 2008 and was still playing at the 2024 Olympics, and she returned for the 2025 Copa America Femenina after announcing her international retirement. Several of these facts are circumstances of the sport around her, so the row rests on her continuing rather than on a quoted act of will."
+    },
+    "competitiveness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_marta_espn | 2003-2024 | long-form journalism] ESPN reports from team-mate Formiga that she stayed after training to take shots against goalkeepers for bets, from a host family that she tried to win a first-ever cross-country ski contest, and from the Orlando Pride media officer that she would not discuss the Olympics 'until she made the team'; it also records a red card at the 2024 Olympics. All of these come from one admiring article. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 74 / 0.55 to 70 / 0.52 because the anecdotes come from one article told by friends and a host family."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_marta_unwomen, src_marta_espn, src_marta_fifa | 2008-2024 | institution page + long-form journalism + governing-body feature] UN Women records two Goodwill Ambassador roles (UNDP 2010-2018, UN Women from 2018); ESPN reports that she asked a UN official to send her to 'the poorest country in the world' (Sierra Leone) and coached a women's match there, and that in her 2019 post-match interview she told younger players women's football 'depends on you to survive'; the Ballon d'Or feature adds her Go Equal brand. These are documented public acts, but they are mostly told in celebratory or promotional sources and the motive is the sources' reading."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_marta_espn, src_marta_ballondor | 2004-2025 | long-form journalism + award-body feature] She moved to Umea in northern Sweden at 17 (ESPN: she arrived in flip-flops, in snow, and did an airport press conference), then played in Sweden and the United States across several clubs and leagues, and ESPN reports that she told her coach she would play left-back or right-back if needed and accepted bench roles in 2023 and 2024. Club moves were often forced by folding teams, so adaptation is shown by how she handled them."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_marta_espn, src_marta_abc, src_marta_ballondor | 2000-2004 | long-form journalism + analytical feature + award-body feature] At 14 she took a three-day bus journey to Rio for a trial, and at 17 accepted a move to Sweden after a club executive contacted her by phone (ESPN says her mentor feared it might be trafficking until the federation vouched for the club). These are two documented leaps into the unknown, but both were also her best route to a professional career and the sources do not show her weighing risk."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_marta_espn, src_marta_abc | 2002-2019 | long-form journalism + analytical feature] ESPN reports from Formiga that she regularly stayed on after training for extra shooting against the goalkeepers, and in the 2019 speech quoted by ABC she urged younger players toward 'training more' and 'taking care of yourself more'. One team-mate anecdote and her own exhortation are the main evidence. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.45 to 58 / 0.42 because the training behaviour rests on a single team-mate anecdote and her own 2019 appeal to others."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/marta-hameltion-2024.jpg",
+    "width": 856,
+    "height": 1189,
+    "source": "Wikimedia Commons, 'NC Courage vs Orlando Pride (Jun 2024) 073 (cropped).jpg', photograph by Hameltion (a Commons photographer in the WikiPortraits programme), taken 15 June 2024 at a North Carolina Courage v Orlando Pride match at WakeMed Soccer Park, Cary, North Carolina. The file page carries camera metadata (Canon EOS R10), structured data naming Hameltion as photographer, 'original creation by uploader', and a CC BY-SA 4.0 licence statement by the copyright holder. This is a crop of the uploader's own photograph; the crop is the file as published (856 x 1189 pixels) and was used as is, with no further cropping, resizing or upscaling.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Hameltion, 15 June 2024, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg",
+    "creator": "Hameltion",
+    "date": "2024-06-15",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-28T00:00:00Z",
+    "updatedAt": "2026-10-28T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / confirmed: Commons file page read; creator Hameltion, a user in the WikiPortraits photographers category, photographed the 15 June 2024 NC Courage v Orlando Pride match; EXIF (Canon EOS R10, 150 mm, time stamps matching the match), structured data 'original creation by uploader' and a first-party CC BY-SA 4.0 statement; the user page lists no other claims. No licence-review tag and no conflicting institutional notice exists (a private photographer, no institution). This follows the Messi precedent (WikiPortraits own-work photograph with camera metadata). Used as published (856 x 1189), never upscaled. PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q228616 label 'Marta', description 'Brazilian footballer (born 1986)', born 1986-02-19, no death date; matches the lead. Not in prod59.txt; no existing candidate for the slug or QID. REGION latin_america (Brazil; career abroad in Sweden and the United States, following the Pele/Messi/Senna precedent). ZERO POLITICS: primary identity is a footballer; UN ambassador roles are advocacy and are used only as an Achievement and for the impact-motivation row, no political office. LIVING SUBJECT: only documented public professional behaviour is scored; family, health, relationships, finances and rumours are excluded (the FIFA article's remark about wishing to become a mother is private life and deliberately unused). VOCABULARY: occupation athlete, field sport, tags sustained_excellence and overcame_adversity, archetype competitive_performer all have EN and KO labels (same set as lionel-messi). KOREAN NAME: the Korean Wikipedia article title and the Wikidata Korean label are both 마르타 비에이라 다 시우바; used as the display name. CANONICAL SIGNIFICANCE SOURCE: ESPN, 'Superstar, trailblazer, icon: The legacy of Brazil's Marta' (https://www.espn.com/soccer/story/_/id/40623580/superstar-trailblazer-icon-legacy-brazil-marta). READ IN FULL: ESPN; ABC News Australia; FIFA; UN Women profile; Ballon d'Or feature. PERSPECTIVES: long-form journalism with team-mates, coaches and opponents interviewed (ESPN); an independent analytical feature that includes a critical view of the Brazilian federation's neglect (ABC); governing body, UN agency and award body (celebratory, and partly her own words). The counter-voice is limited: the 2024 red card (ESPN), the three lost finals and the federation criticism (ABC, ESPN). NOT OPENED: Britannica (HTTP 403), Olympics.com features (blocked), NPR (timed out), The Guardian and BBC (blocked), her Players' Tribune letter (blocked), and her own memoir or any book. EXCLUSIONS: club and international statistics are used only in Achievements and not as trait evidence; the nickname 'Pele in a skirt' is not scored. Sources are mostly sympathetic features, so confidences stay at or below 0.58 and no score is above 72. SELF-GATE FIRST PASS: primary PASS, topOmission PASS, identity PASS, significance-over-novelty PASS, side-project PASS (Go Equal and the UN role are carded only as one clause of card 3). SELF-CALIBRATION: reviewed competitiveness, mastery_orientation, impact_motivation; lowered competitiveness and mastery_orientation, kept impact_motivation.  HANDBACK59: {\"slug\":\"marta-vieira-da-silva\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"competitiveness\",\"old_score\":74,\"old_confidence\":0.55,\"new_score\":70,\"new_confidence\":0.52,\"reason\":\"anecdotes come from one admiring article told by friends and a host family\"},{\"attribute\":\"mastery_orientation\",\"old_score\":62,\"old_confidence\":0.45,\"new_score\":58,\"new_confidence\":0.42,\"reason\":\"rests on a single team-mate anecdote and her own 2019 appeal to others\"}],\"reviewed_kept\":[\"impact_motivation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  }
+}

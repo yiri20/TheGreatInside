@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "octavio-paz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Octavio Paz",
+    "wikidataId": "Q46739",
+    "birthYear": 1914,
+    "deathYear": 1998,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "MX"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_paz_wikidata",
+      "kind": "wikidata",
+      "title": "Octavio Paz (Q46739), verified live via the Wikidata API (2026-10-30): label 'Octavio Paz', description 'Mexican writer, poet an diplomat (1914-1998)', born 1914-03-31, died 1998-04-19; Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q46739"
+    },
+    {
+      "id": "src_paz_nobelbio",
+      "kind": "award_body",
+      "title": "Nobel Foundation, 'Octavio Paz - Biographical', NobelPrize.org (Nobel Prize in Literature 1990), read in full. CANONICAL SIGNIFICANCE SOURCE: the prize body's biography says he wrote The Labyrinth of Solitude, his study of Mexican identity, co-founded the journal Taller, edited Plural and founded Vuelta, and is a poet and prolific essayist in poetics, art criticism and Mexican history and culture. Institutional and admiring in tone; the bibliography was skimmed.",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/paz/biographical/"
+    },
+    {
+      "id": "src_paz_nobelspeech",
+      "kind": "award_body",
+      "title": "Kjell Espmark (Swedish Academy), Presentation Speech for the 1990 Nobel Prize in Literature, NobelPrize.org, read in full. A short critical appreciation of Paz's poetry (Piedra de sol, the 'welding' of thought and sensuousness, love poetry, Indian and Mexican sources). Admiring prize-body source; used for the originality and range rows only. Its passages on politics were read and not scored.",
+      "url": "https://www.nobelprize.org/prizes/literature/1990/ceremony-speech/"
+    },
+    {
+      "id": "src_paz_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Octavio Paz' (biography article), read in full: career summary covering Luna silvestre (1933), Taller, El hijo pródigo, El laberinto de la soledad, Piedra de sol, Blanco and Ladera este, Plural and Vuelta, the Cervantes Prize and the 15-volume Obras completas. Neutral reference summary; the page's AI-generated summary boxes were ignored.",
+      "url": "https://www.britannica.com/biography/Octavio-Paz"
+    },
+    {
+      "id": "src_paz_ca",
+      "kind": "biography",
+      "title": "'Paz, Octavio 1914-1998', Contemporary Authors entry reproduced on Encyclopedia.com (Gale), read in full: biography, list of works and a critical sidelights section quoting reviewers (Alazraki and Oviedo on The Monkey Grammarian, Schulman on Eastern thought and 'burnt water', Ronald Christ on Eagle or Sun?, Luciani and Keates on Sor Juana). A compilation of critics from several journals, independent of the Nobel and Britannica texts.",
+      "url": "https://encyclopedia.com/arts/culture-magazines/paz-octavio-1914-1998"
+    },
+    {
+      "id": "src_paz_pnr",
+      "kind": "press",
+      "title": "Michael Schmidt, editorial in PN Review 216 (March-April 2014) marking Paz's centenary, read in full: an editor and poet recalls three decades of acquaintance, says Paz edited Plural until it was censored and closed and then established Vuelta, and quotes Paz's 1975 speech on the critical word. Personal, admiring and brief; used for the journals only.",
+      "url": "https://pnreview.co.uk/archive/editorial/9003"
+    },
+    {
+      "id": "src_paz_literal",
+      "kind": "press",
+      "title": "'Polemical Paz', essay in Literal Magazine (review of Claire Brewster's 'Responding to Crisis in Contemporary Mexico'), read in full: a reviewer defends Paz against a hostile account while acknowledging some accurate criticism, and describes his role through Plural (1971-1976) and Vuelta (1976-1998). Counter-voice: records that he was attacked harshly by opponents and that Brewster portrays him as unpopular and unable to hear others. Used only for the journals and as a critical perspective; the political content is not scored.",
+      "url": "https://literalmagazine.com/?p=561"
+    },
+    {
+      "id": "src_paz_paris",
+      "kind": "press",
+      "title": "'Octavio Paz, The Art of Poetry No. 42', interview by Alfred MacAdam (Paris Review, issue 119, Summer 1991): only the editors' introduction and the opening answers on his childhood home in Mixoac were readable (the rest is behind a subscription wall). Self-report; not used for any row.",
+      "url": "https://theparisreview.org/interviews/2192/the-art-of-poetry-no-42-octavio-paz"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paz_nobelspeech, src_paz_ca, src_paz_britannica | 1950-1987 | award body + critics compiled + reference] The Swedish Academy's speaker described a poetry that fuses distant times and regions and 'welds' thought and sensuousness, with the long poem Piedra de sol (1957) built on an 'eternal moment'. Critics quoted in Contemporary Authors (Alazraki, Oviedo) found The Monkey Grammarian belongs to no single genre and was 'deliberately written at the edge of genres', and Paz's own long-stated aim was a text at the intersection of poetry, narrative and essay; Renga was written in four languages and Hijos del aire (Airborn) in two with Charles Tomlinson. Britannica notes Blanco (1967) drew on Mallarme and John Cage. Praise is from admiring institutions and reviewers rather than an adversarial source. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 74 / 0.62 to 70 / 0.56 because the support is the prize body, an encyclopedia and compiled critics; no adversarial source on his literary work was opened."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paz_nobelbio, src_paz_ca, src_paz_britannica | 1938-1990 | award body + critics compiled + reference] The Nobel biography calls him a poet and essayist whose prose runs through poetics, literary and art criticism and Mexican history and culture; the entries list books on Marcel Duchamp, Rufino Tamayo, Claude Levi-Strauss, Sor Juana Ines de la Cruz, the surrealists and modern poetry from Romanticism to the avant-garde. Britannica and Contemporary Authors tie his work to Surrealism, existentialism, Buddhism and Hinduism after his years in India, with Schulman describing his adoption of Tantric dualities. The breadth is documented by bibliography and reviewers; individual quality judgments are not independently tested. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.62 to 72 / 0.56 because the breadth is documented by reference works only, with no independent critical assessment of how far the range was real."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paz_nobelbio, src_paz_britannica, src_paz_pnr, src_paz_literal | 1938-1976 | award body + reference + press] As a young writer he co-founded the review Taller (1938, signalling a new generation per the Nobel biography) and, with others, El hijo prodigo (1943); later he edited Plural (1971-1976) and, when it was censored and closed (Schmidt), founded Vuelta in 1976 (Britannica, Nobel biography). Schmidt, an editor who followed the journals, says he modelled his own magazine on them. The founding episodes are well documented; how much each journal's success owed to Paz alone is not separated from his collaborators."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paz_britannica, src_paz_literal, src_paz_pnr | 1976-1998 | reference + press] After Plural was closed he started again with Vuelta, which Britannica says continued to be published until his death in 1998 (22 years), and Literal records him sustaining its polemical, critical output through repeated controversies. Britannica also notes a career from his first book in 1933 to a 15-volume collected works (1994-2004). The evidence for persistence is the long continuous record rather than any adversity-specific account, so the rating is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "옥타비오 파스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/octavio-paz-leffmann-1988.jpg",
+    "width": 644,
+    "height": 888,
+    "source": "Wikimedia Commons file 'Octavio Paz - 1988 Malmo.jpg', photograph taken at the Malmo International Poetry Festival in 1988 by Jonn Leffmann, uploaded to Commons by his own account (user Jonnmann, who identifies himself as Jonn Leffmann on his user page, 23 July 2013) under CC BY 3.0 with a byline requirement. Original 644 x 888 pixels, used at full size; no resizing or upscaling.",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Foto: Jonn Leffmann, Octavio Paz at the Malmo International Poetry Festival, 1988, Wikimedia Commons, CC BY 3.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Octavio_Paz_-_1988_Malm%C3%B6.jpg",
+    "creator": "Jonn Leffmann",
+    "date": "1988",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Octavio_Paz_-_1988_Malm%C3%B6.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / FOUND AN ALTERNATIVE: the lead's P18 'Paz0.jpg' (249x364, no machine-readable author, PD tag) was NOT used. Chosen instead: Commons 'Octavio Paz - 1988 Malmo.jpg' by Jonn Leffmann, CC BY 3.0, 644x888, named photographer who is also the Commons uploader (user page names him and asks for a byline). Caveats: the 'own work' claim is the uploader's own and could not be checked independently, and the image looks like a scan of a printed photograph. Rejected alternatives: Commons 'Octavio Paz 1984.jpg' (Rafael Doniz, CC BY-SA 4.0 cited by uploader to a fototeca site with no permission statement; photographer living) and the 1990 airport-arrival photograph from Mexico City government's Museo Archivo de la Fotografia (CC0 on Flickr, photographer unknown, the archive's right to dedicate it undocumented). PREFLIGHT: QID VERIFIED LIVE (2026-10-30) Q46739 label 'Octavio Paz', description 'Mexican writer, poet an diplomat (1914-1998)', born 1914-03-31, died 1998-04-19; no collision in prod59.txt or data-pipeline/candidates. REGION latin_america (Mexico). ERA 20th_century. VOCABULARY: poet, writer; field literature; tags innovator, cross_disciplinary; archetype creative_creator all have EN and KO labels (grep). ZERO POLITICS: primary identity is poet and essayist; his ambassadorship, the 1968 resignation over Tlatelolco, and his later political polemics (Nicaragua, Mexican elections) were read in the sources and are unscored; independent_thinking and conflict_tolerance rows were deliberately not written because the available evidence for them is political. CANONICAL SIGNIFICANCE SOURCE: Nobel Foundation, 'Octavio Paz - Biographical' (https://www.nobelprize.org/prizes/literature/1990/paz/biographical/). READ: Nobel biography (full), Nobel presentation speech (full), Britannica (full), Contemporary Authors on Encyclopedia.com (full), Schmidt PN Review editorial (full), Literal review essay (full), Paris Review interview (intro and opening only; paywalled). NOT opened: Guillermo Sheridan's and Enrique Krauze's biographical work, Enrico Mario Santi, Brewster's book itself, the New York Times obituary (blocked), the rest of the Paris Review interview. PERSPECTIVES: the Swedish Academy and Nobel Foundation, an encyclopedia, compiled critics from Gale and several journals, a poet-editor who knew him (admiring), and a reviewer defending him against a hostile critic (counter-voice, political). No adversarial source on his literary work was opened, so confidence is capped at 0.62. SELF-CALIBRATION (agent): top-risk rows reviewed: cross_domain_range (76/0.62) and creative_originality (74/0.62) - both rest on admiring institutions plus compiled critics, but several independent critics are quoted, so both kept; proactive_agency kept (founding facts are consistent across four sources). FLAGS: 4 rows, sparse by design; no personality rows from his political conduct. HANDBACK59: {\"slug\": \"octavio-paz\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"cross_domain_range\", \"creative_originality\", \"proactive_agency\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4} RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 74 / 0.62 to 70 / 0.56 because the support is the prize body, an encyclopedia and compiled critics; no adversarial source on his literary work was opened. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.62 to 72 / 0.56 because the breadth is documented by reference works only, with no independent critical assessment of how far the range was real."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kokichi-mikimoto",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mikimoto Kokichi",
+    "aliases": [
+      "Kokichi Mikimoto",
+      "Mikimoto Kōkichi",
+      "The Pearl King"
+    ],
+    "wikidataId": "Q956283",
+    "birthYear": 1858,
+    "deathYear": 1954,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "미키모토 고키치"
+    }
+  },
+  "sources": [
+    {
+      "id": "src_mikimoto_wikidata",
+      "kind": "wikidata",
+      "title": "Mikimoto Kokichi (Q956283), verified live via the Wikidata API (2026-10-30): label 'Mikimoto Kokichi', description 'Japanese businessman (1858-1954)', born 1858 (two birth dates are recorded, 25 January and 10 March, the second being the Gregorian conversion), died 21 September 1954, citizenship Japan, Korean label present, P18 image 'MIKIMOTO Kokichi.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q956283"
+    },
+    {
+      "id": "src_mikimoto_nagai",
+      "kind": "institution",
+      "title": "Kiyohito Nagai, 'A History of the Cultured Pearl Industry', Zoological Science (Zoological Society of Japan, 2013), hosted by the Japan Pearl Promotion Society, read in full (about 20 pages, via pdftotext): CANONICAL SIGNIFICANCE SOURCE. Mikimoto's 1892 red-tide loss and 1893 hemispherical-pearl success, his meeting with Professor Mitsukuri, the start of sales in 1899, the 1907 Nishikawa and Mise patent applications, Mikimoto's agreement with Nishikawa, the sale of spherical pearls in London from 1919, the 'Paris trial' and the 1924 French ruling, and the 1978 claim by C. Denis George that Saville-Kent anticipated the technique. A peer-reviewed historical review by a Japanese pearl scientist; it is sympathetic to the Japanese industry and gives Mikimoto a central place, while crediting Nishikawa and Mise with the piece and injection methods.",
+      "url": "https://jp-pearl.com/wp-content/uploads/2018/01/books002_A-History-of-the-Cultured-Pearl-Industry.pdf"
+    },
+    {
+      "id": "src_mikimoto_pbs",
+      "kind": "press",
+      "title": "PBS NOVA, 'The History of Pearls' (pbs.org), read in the cultured-pearl section: Mikimoto as the noodle maker's son with a hard-working wife Ume, his 1896 and 1908 patents, the independent discoveries by Nishikawa and Mise, the 1916 patent altered so that he could use their method, his purchase of rights to it, the claim that his expansion eclipsed the originators, and his trial-and-error tests of nucleus materials. A popular science article of uncertain authorship; it states that he 'single-handedly launched' the industry in one place and credits others in another, so it is used with that tension noted.",
+      "url": "https://www.pbs.org/wgbh/nova/article/history-pearls/"
+    },
+    {
+      "id": "src_mikimoto_gia",
+      "kind": "institution",
+      "title": "Gemological Institute of America, 'History of Cultured Pearls - Part 1' (4cs.gia.edu, 30 June 2014), read in full: the three Japanese men credited with the cultured pearl (Nishikawa, Mise and Mikimoto), Mise's 1902 trials and 1907 patent, Mikimoto's January 1908 patent for his own implantation process, his 1912 South Sea experiments, his 1916 adoption of the Mise-Nishikawa method and the 1921 market arrival of round cultured pearls. Gemological institute blog; dates differ slightly from Nagai (1919 versus 1921 for the first sales).",
+      "url": "https://4cs.gia.edu/en-us/blog/history-cultured-pearls-part-1"
+    },
+    {
+      "id": "src_mikimoto_maa",
+      "kind": "institution",
+      "title": "Museum of Archaeology and Anthropology, University of Cambridge, photograph record N.121258.HNL (collections.maa.cam.ac.uk), read in full: James Hornell's glass-negative photograph of Mikimoto and Nishikawa on Tatoku Island on 16 July 1907, Hornell's diary comment on the farm's order and prosperity, and curators' notes on Mikimoto (often cited as founder of the first cultured pearl industry), Nishikawa's 1907 piece-method patent (granted 1917), his marriage to Mikimoto's second daughter and his death in 1909. Museum catalogue entry by archive staff; it quotes Eunson's 1956 biography, which was not opened.",
+      "url": "https://collections.maa.cam.ac.uk/photographs/414526"
+    },
+    {
+      "id": "src_mikimoto_ndl",
+      "kind": "archive",
+      "title": "National Diet Library, Japan, 'Portraits of Modern Japanese Historical Figures': entry for Mikimoto Kokichi (ndl.go.jp/portrait/datas/396), read in full: a short biographical note by Library staff (born 1858, died 1954; started pearl-oyster culture in 1890, succeeded with hemispherical pearls in 1893 under Mitsukuri's circle, opened his Tokyo shop in 1899, the round-pearl method invented by Nishikawa and others with his patent in 1908, overseas shops, member of the House of Peers from 1938). Also the source of the portrait file. Not used for scoring beyond corroboration.",
+      "url": "https://www.ndl.go.jp/portrait/datas/396"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mikimoto_nagai, src_mikimoto_pbs, src_mikimoto_gia | 1892-1921 | scholarly review + popular science article + gemological institute] Nagai records that all his experimental oysters in Ago Bay died in a red tide in November 1892, that he nevertheless obtained hemispherical pearls at another site in Toba Bay in 1893, and that he continued to refine methods until spherical pearls were sold in 1919; GIA and PBS give further stages (1908 patent, 1912 South Sea trials, 1916 change of method). The sources describe the sequence of efforts, not his own words or his state of mind."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mikimoto_pbs, src_mikimoto_nagai, src_mikimoto_gia | 1893-1916 | popular science article + scholarly review + gemological institute] PBS says he tried glass, lead, clay and wood as nuclei by trial and error and found round shell nuclei from US mussel shells gave the best success rates; Nagai records experiments on about 27,000 oysters with Nishikawa from September 1907; GIA records his choice of mother-of-pearl beads and later South Sea oyster trials. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 68 / 0.55 to 64 / 0.50 because the nucleus-material detail rests on a single popular article of uncertain authorship, and the 1907 experiments were tests of Nishikawa's method."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mikimoto_nagai, src_mikimoto_maa, src_mikimoto_ndl | 1890-1919 | scholarly review + museum catalogue + national library note] Nagai says that after the 1893 success he set up a full-scale programme for a pearl-culture business, began selling ornaments in 1899 and sold spherical pearls in London from 1919; the Cambridge museum record and the National Diet Library note add the Tokyo shop (1899) and overseas shops (London 1913). The facts are well sourced but the sources are sympathetic to him and give no contemporaneous account of how he chose each step."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mikimoto_nagai, src_mikimoto_gia | 1890-1921 | scholarly review + gemological institute] Nagai explains that natural pearls and Akoya oysters were collapsing from overfishing and that Mikimoto, who dealt in natural pearls, aimed to produce gem-quality pearls and carved out a market in which cultured pearls were treated as jewellery; GIA says his output made pearls affordable. This is a documented business outcome, but it is the authors' reading of his intent."
+    },
+    "collaboration": {
+      "score": 54,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mikimoto_nagai, src_mikimoto_maa, src_mikimoto_pbs | 1893-1916 | scholarly review + museum catalogue + popular science article] Nagai says his work with Professor Mitsukuri produced great success and that he signed an agreement with Nishikawa to test the piece method at his Tatoku laboratory; the Cambridge record notes Nishikawa's marriage into the family. PBS, however, says he used his patent position to eclipse Nishikawa and Mise, and Nagai and GIA show the round-pearl method came from them, so the pattern is partnership with scientists combined with strong control of commercialisation."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mikimoto-kokichi-unknown-1953.jpg",
+    "width": 830,
+    "height": 1200,
+    "source": "Photographic portrait of Mikimoto Kokichi as an old man, photographer unknown, reproduced as the first image on the National Diet Library's online exhibition 'Portraits of Modern Japanese Historical Figures' (entry 396). The exhibition's data identifies the image as taken from the digitised NDL book with persistent ID 2974878, Otodake Iwazo, 'Mikimoto Kokichi' (Seinen Series no. 4, Shakai Kyoiku Kyokai, Tokyo, 1953), which the NDL catalogue lists as published in 1953 with plates; so the photograph was published in Japan in 1953, before 1956. The Library's usage notice says every portrait image in the exhibition is one whose copyright term has expired and may be reused without application, including commercially. The photograph's own date and photographer are not stated. Original 1024 x 1480 pixels, downscaled to 830 x 1200 with no cropping and no upscaling.",
+    "license": "Public domain (copyright term expired; National Diet Library usage notice)",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/about",
+    "attribution": "Photographer unknown, published 1953 in Otodake Iwazo, Mikimoto Kokichi; reproduced by the National Diet Library, Japan, Portraits of Modern Japanese Historical Figures.",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/datas/396",
+    "creator": "Unknown photographer",
+    "date": "published 1953",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.ndl.go.jp/portrait/datas/396"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / resolved: the Commons P18 file carries only an 'unknown author' tag, but its own file page says 'Published in 1953' and cites the NDL book record; I confirmed the same 1024 x 1480 image is image 1 of the NDL Portraits of Modern Japanese Historical Figures entry 396, whose exhibition data names the digitised book pid 2974878 (Otodake Iwazo, Mikimoto Kokichi, Shakai Kyoiku Kyokai, 1953; the NDL catalogue record confirms the title, author, publisher, 1953 date and plates). So the specific photograph's publication before 1956 is documented by the Library itself, the NDL usage page states the copyright terms expired, and no US restoration applies (Japanese term expired before 1996). Caveat: the book itself is viewable only by registered users in Japan, so the page-level placement of the plate was not seen; the NDL exhibition's own sourcing is relied on. Photograph date and photographer unknown; kind likeness. Downscaled only. PREFLIGHT: QID VERIFIED LIVE (2026-10-30) Q956283 label 'Mikimoto Kokichi', description 'Japanese businessman (1858-1954)', born 1858, died 1954-09-21; matches the lead. Not in prod59.txt; no existing candidate for slug or QID. REGION east_asia (Japan). ZERO POLITICS: primary identity is an entrepreneur; his 1938 House of Peers seat is political context, unscored and uncarded. VOCABULARY: occupation entrepreneur, field business, tags founder and innovator, archetype entrepreneurial_builder have EN and KO labels (occupation industrialist is unlabelled and not used). KOREAN NAME: 미키모토 고키치 (Korean Wikipedia title and Wikidata label). ERA 19th_century (born 1858, first success 1893). CANONICAL SIGNIFICANCE SOURCE: Kiyohito Nagai, 'A History of the Cultured Pearl Industry', Zoological Science 2013 (https://jp-pearl.com/wp-content/uploads/2018/01/books002_A-History-of-the-Cultured-Pearl-Industry.pdf). READ: Nagai (full), PBS NOVA (cultured-pearl section), GIA (full), Cambridge MAA record (full), NDL portrait entry. PERSPECTIVES: a scholarly industry history, a popular science article that is partly critical of his dealings with Nishikawa and Mise, a gemological institute, a museum archive record with a 1907 photograph, a national-library note. CREDIT ATTRIBUTION: the round-pearl technique is credited to Nishikawa Tokichi (piece method; application 1907, granted 1917) and Mise Tatsuhei (needle, 1907; the 'Mise-Nishikawa method'); Mikimoto's own contributions were hemispherical pearls (1893, patent 1896), his own implantation patent (1908), a 1916 patent, adoption of the Mise-Nishikawa method and the commercialisation; PBS says he bought rights, GIA says he began using the method in 1916, and Nagai notes C. Denis George's 1978 claim that Saville-Kent anticipated the technique (Nagai doubts it is established). Dates differ between sources (1919 versus 1921 first sales; 1896, 1908 and 1916 patents) and the cards state only what Nagai or two sources agree on. NOT OPENED: Eunson, 'The Pearl King' (1956), Mikimoto company histories (self-report), Kunz and Stevenson, Britannica (blocked), Smithsonian items (none found); no self-report was used. Only about five substantive sources were read: the cap was met for the canonical source and independent perspectives, but there is no first-hand or critical biography, so confidence is held at or below 0.56 and no score is above 70. SELF-GATE FIRST PASS: primary PASS, topOmission PASS, identity PASS, significance-over-novelty PASS, side-project PASS (the pearl-burning and pageant crowns, known only from Wikipedia, are deliberately not used). SELF-CALIBRATION: reviewed experimentation, persistence, collaboration; lowered experimentation only.  HANDBACK59: {\"slug\":\"kokichi-mikimoto\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"experimentation\",\"old_score\":68,\"old_confidence\":0.55,\"new_score\":64,\"new_confidence\":0.5,\"reason\":\"nucleus-material detail rests on one popular article of uncertain authorship; the 1907 experiments tested Nishikawa's method\"}],\"reviewed_kept\":[\"persistence\",\"collaboration\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

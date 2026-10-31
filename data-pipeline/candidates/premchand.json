@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "premchand",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Premchand",
+    "aliases": [
+      "Munshi Premchand",
+      "Dhanpat Rai Srivastava",
+      "Nawab Rai"
+    ],
+    "wikidataId": "Q174152",
+    "birthYear": 1880,
+    "deathYear": 1936,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "editor"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_prem_wikidata",
+      "kind": "wikidata",
+      "title": "Premchand (Q174152), verified live via the Wikidata API (2026-10-30): label 'Premchand', description 'Indian writer of Hindi and Urdu fiction (1880-1936); pioneer of social realism in Hindustani literature', born 1880-07-31, died 1936-10-08; Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q174152"
+    },
+    {
+      "id": "src_prem_eoi",
+      "kind": "biography",
+      "title": "Vasudha Dalmia, 'Premchand', Encyclopedia of India (Gale), reproduced on Encyclopedia.com, read in full. CANONICAL SIGNIFICANCE SOURCE: a scholar's entry that calls him widely regarded as the most important Hindi-Urdu author of the twentieth century, with fourteen novels, three hundred short stories, plays, film scripts, translations and editorials; covers Sevasadan, Nirmala, Godaan, his switch from Urdu to Hindi, his journals and his 1936 address to the Progressive Writers Association. Scholarly and admiring.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/premchand"
+    },
+    {
+      "id": "src_prem_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Premchand' (biography article), read in full: a pioneer in adapting Indian themes to Western literary styles; first renown in Urdu; the short story had not been an accepted form in northern India (except Bengal) until his works; about 250 stories in Manasarovar; Godan as his most celebrated novel. Neutral reference summary; the page's AI-generated summary boxes were ignored.",
+      "url": "https://www.britannica.com/biography/Premchand"
+    },
+    {
+      "id": "src_prem_humanities",
+      "kind": "institution",
+      "title": "Stuart Blackburn, 'Premchand (1880-1936)', Humanities Institute biography sheet (two pages), read in full: a scholar's summary of his career as teacher, writer, publisher and film scriptwriter, the loss-making publishing house, the unsuccessful year in Bombay and his election as first president of the Progressive Writers' Association; mentions the Sahitya Akademi's Premchand Fellowships (2005). Short, neutral, scholarly; its personal-life passages were read and not used.",
+      "url": "https://humanitiesinstitute.org/__static/9cfe211aa389e7b3cb039875369ebca7/premchand(2).pdf?dl=1"
+    },
+    {
+      "id": "src_prem_press",
+      "kind": "press",
+      "title": "Murali Ranganathan, 'Premchand Felt Starting a Publishing House Was the Biggest Mistake of His Life', The Wire (first published in PrintWeek), read in full: a print historian's account drawing on Premchand's Urdu letters to Daya Narain Nigam and on Amrit Rai's biography, covering the planning, funding and eleven-year struggle of the Saraswati Press in Benares (1923), his other jobs (including co-editing Madhuri) and his 1934 letter calling the press the biggest mistake of his life. The letters are his own words, relayed by the historian; Rai's biography itself was not opened.",
+      "url": "https://cms.thewire.in/culture/munshi-premchand-saraswati-press"
+    },
+    {
+      "id": "src_prem_mainstream",
+      "kind": "press",
+      "title": "Pragya Ranjan, 'Morality in Premchand's Kafan: For Dalits or Anti-Dalit?', Mainstream Weekly, vol. 62 no. 36 (7 September 2024), read in full. Counter-voice: records that critics have read the story Kafan either as anti-Dalit or as a representation of Dalit rebelliousness against caste hierarchy, and argues for the second reading with reference to Sadanand Shahi. A single critical essay; the wider Dalit debate (Dharamveer, Brueck, Dalmia) was only seen through search summaries and not opened.",
+      "url": "https://mainstreamweekly.net/article15025.html"
+    },
+    {
+      "id": "src_prem_india",
+      "kind": "institution",
+      "title": "University at Buffalo literary glossary page 'Premchand: about this text' (litgloss), read in full: it reproduces two older web biographies (India Heritage and a biographical note supplied by a contributor) and quotes Amrit Rai's judgment that he 'created the genre of the serious novel and the serious short story in two languages'. Compilation of secondary web texts; admiring and not independent of Rai.",
+      "url": "https://litgloss.buffalo.edu/premchand/about.php"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_prem_britannica, src_prem_eoi, src_prem_india, src_prem_mainstream | 1907-1936 | reference + scholar entry + critic] Britannica calls him a pioneer in adapting Indian themes to Western literary styles and says the short story was not an accepted form in northern India (outside Bengal) until his works appeared; Dalmia describes social realism that links country and city in a way new to Hindi-Urdu fiction, and Godaan as his most mature novel with little utopian relief after the Gandhian resolutions of earlier work. Amrit Rai (via the Buffalo page) says he created the serious novel and short story in Hindi and Urdu. Critics dispute parts of the legacy (the Kafan debate on his portrayal of Dalit characters, per Ranjan), so the originality is a documented but contested one."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_prem_press, src_prem_eoi, src_prem_humanities | 1923-1936 | historian + scholar entry + scholar sheet] He kept the Saraswati Press running for eleven years despite repeated losses (Ranganathan, drawing on his letters), kept publishing his own journals Hans (1930-) and Jagaran (1932-) to the end of his life despite government restrictions and heavy debts (Dalmia), and, per Blackburn, went to Bombay to write film scripts to relieve his debts. Over the same years he produced his major novels (Rangbhoomi, Kayakalp, Gaban, Godaan). The impact is dual-edged because the press and film ventures were costly failures, and the 'biggest mistake' judgment is his own, relayed by the historian."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_prem_press, src_prem_humanities | 1921-1935 | historian + scholar sheet] After resigning from government service he combined many income sources: he raised capital from relatives and friends for a press (about 40 percent his own), personally chose the machines and site, took other posts including co-editor of Madhuri, set up a handloom unit, and took translation and textbook work (Ranganathan); Blackburn adds the move to film scriptwriting. The sources agree that the schemes largely failed financially, and the detail rests mainly on one historian's reading of his letters."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_prem_eoi, src_prem_britannica, src_prem_humanities | 1900-1936 | scholar entry + reference + scholar sheet] Dalmia lists fourteen novels, three hundred short stories, plays, film scripts, translations from English, editorials and essays, written first in Urdu and later in Hindi (at his publishers' suggestion), with his work claimed by both literary streams; Britannica adds that he reached fluency in Hindi only in his middle years. The range is across forms and two literary languages within one field; the quality of each form is not independently tested."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프렘 찬드"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found after one bounded retry. The lead's Wikidata image 'Prem chand.jpg' (194x259) is an uploader's 'own work' claim under CC BY-SA 3.0 for a historic photograph, with no photographer, date or publication documented. Other Commons images were also rejected: the 'Premchand in 1910s/1930s', 'in a turban', 'seated' and 'with Jaishankar Prasad' files are uploader-only 'own work' CC0 claims for old photographs with no source; 'Photo of Premchand.webp' is copied from Britannica with an unknown author and a jurisdiction-only India/1996 public-domain tag; 'Premchand.jpg' is a 1956 book sketch with an unnamed artist; the 1980 stamp image is a reproduction of an Indian government stamp. Next step: find a photograph of Premchand with a documented publication before 1931 (for example in a 1920s Hindi journal such as Madhuri on the Internet Archive or a library scan with date and credit), or a photograph from an archive that states its own terms."
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / CONFIRMED RISKY, HELD after one bounded retry: see portrait.reason for the exact files rejected and next step. PREFLIGHT: QID VERIFIED LIVE (2026-10-30) Q174152 label 'Premchand', description 'Indian writer of Hindi and Urdu fiction (1880-1936); pioneer of social realism in Hindustani literature', born 1880-07-31, died 1936-10-08; no collision in prod59.txt or data-pipeline/candidates. REGION south_asia (India). ERA 19th_century (born 1880; precedent: other south_asia 19th-century-born candidates such as rabindranath-tagore). KOREAN NAME: used the Wikidata Korean label '프렘 찬드' (the lead suggested checking this spelling against kowiki); the unspaced variant 프렘찬드 is an alternative. VOCABULARY: writer, editor; field literature; tags prolific, innovator; archetype creative_creator all have EN and KO labels (grep). Not used because unlabelled: novelist, publisher, playwright. ZERO POLITICS: primary identity is writer; his resignation from government service in response to Gandhi's call, the banned Soz-e-Watan, his nationalist journalism and the Progressive Writers' Association presidency are context and unscored. CANONICAL SIGNIFICANCE SOURCE: Vasudha Dalmia, 'Premchand', Encyclopedia of India (https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/premchand). READ: Dalmia entry (full), Britannica (full), Blackburn Humanities Institute sheet (full), Ranganathan article on the Saraswati Press (full), Ranjan essay on Kafan (full), Buffalo litgloss compilation (full). Seen only as abstract or snippet: Heriot-Watt article on the women's question in Karmabhumi and Godaan (abstract), The Book Review 'Revisiting Rangbhoomi: The Dalit Perspective' (teaser only), Live History India piece on the film Mill Mazdoor (read, not used because of an unsupported salary figure). NOT opened: Amrit Rai's biography 'Kalam ka Sipahi' and its translation, Francesca Orsini, David Rubin, Brueck's 'Problem of Premchand' chapter, Dalmia's essay (blocked by anti-bot page), The Wire's Kafan article (blocked), the novels and his own letters except as quoted by Ranganathan. PERSPECTIVES: a scholar's encyclopedia entry, a general reference work, a scholarly sheet, a print historian drawing on his letters, and a critical essay on the Dalit reading of Kafan (counter-voice, literary reception rather than behaviour). EXCLUSIONS: marriages, family, illness and death were read and not scored or inferred. Confidence capped at 0.58 because the strongest behavioural source (Ranganathan) leans on his own letters. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (70/0.58; supported by Ranganathan plus Dalmia and Blackburn, kept) and creative_originality (68/0.56; relies on Britannica's pioneer claim and Rai's judgment via a compilation, but Dalmia independently supports the realism claim, kept); resourcefulness is the thinnest (single historian) and was already set conservatively. FLAGS: 4 rows, sparse by design. HANDBACK59: {\"slug\": \"premchand\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"persistence\", \"creative_originality\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

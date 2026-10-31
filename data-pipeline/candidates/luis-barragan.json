@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "luis-barragan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Luis Barragán",
+    "aliases": [
+      "Luis Barragan",
+      "Luis Barragán Morfín"
+    ],
+    "wikidataId": "Q243295",
+    "birthYear": 1902,
+    "deathYear": 1988,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "MX"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect"
+    ],
+    "fieldIds": [
+      "architecture"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_barr_wikidata",
+      "kind": "wikidata",
+      "title": "Luis Barragán (Q243295), verified live via the Wikidata API (2026-10-30): label 'Luis Barragán', description 'Mexican architect (1902-1988)', born 1902-03-09, died 1988-11-22; Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q243295"
+    },
+    {
+      "id": "src_barr_pritzker",
+      "kind": "award_body",
+      "title": "The Pritzker Architecture Prize, 'Luis Barragán' laureate page (1980) with jury citation, biography and acceptance-speech extracts, read in full. CANONICAL SIGNIFICANCE SOURCE: says he was trained as an engineer and was self-taught in architecture, was associated with the Guadalajara school in the late 1920s, practised in Guadalajara until 1936 and then in Mexico City, built the Capuchinas chapel, his own house (1948) and Las Arboledas, and had a profound influence on three generations of Mexican architects; the jury honours his 'sublime act of the poetic imagination'. Prize-body source, admiring in tone.",
+      "url": "https://www.pritzkerprize.com/laureates/1980"
+    },
+    {
+      "id": "src_barr_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Luis Barragán' (biography article), read in full: engineer and architect from Guadalajara, travels in Europe from 1924, influence of Ferdinand Bac and Le Corbusier, move to Mexico City in 1935, development of El Pedregal from about 1943 to 1952, notable works and a note that his output was not large. Neutral reference summary.",
+      "url": "https://www.britannica.com/biography/Luis-Barragan"
+    },
+    {
+      "id": "src_barr_domus",
+      "kind": "press",
+      "title": "'Luis Barragán', biography entry in Domus (published 4 September 2019), read in full: an architecture magazine's summary of his career, naming the development plans for Jardines del Pedregal (1945), Jardines del Bosque (1955) and Los Clubes (1964), the Fuente de los Amantes, Casa Gilardi, the Faro del Comercio and the Torres de Satélite (1957, with Mathias Goeritz). Editorial summary; critical judgments are limited.",
+      "url": "https://domusweb.it/en/biographies/luis-barragan.html"
+    },
+    {
+      "id": "src_barr_casa",
+      "kind": "institution",
+      "title": "Fundación de Arquitectura Tapatía Luis Barragán, 'Luis Barragán' biography on the Casa Luis Barragán site, read in full: a chronological account from the foundation that manages his legacy, covering the Pedregal development (1945-1952, when he left the company), Jardines del Bosque, the invitation to build the Ciudad Satélite symbol and his choice of Goeritz as collaborator, the Salk Institute advice (1964), the 1976 Museum of Modern Art exhibition and the awards. Promotional successor institution; used for dates and collaborations only. Its passages on his health were read and not used.",
+      "url": "https://casaluisbarragan.org/eng/en_luisbarragan.html"
+    },
+    {
+      "id": "src_barr_nsi",
+      "kind": "press",
+      "title": "'Depave Paradise', 99% Invisible (podcast episode and transcript), read in full in the transcript: includes the architectural historian Keith Eggener (University of Oregon, author of a book on El Pedregal) on how Barragán chose to keep the lava and native vegetation, hired the photographer Armando Salas Portugal to market the lifestyle, was bought out of the project in the early 1950s, and on the later loss of the lava field and an ecological critique of the subdivision. Counter-voice: Eggener calls him 'a very successful businessman, even a rather rapacious real estate developer' as against the 'mystic monk' of architectural literature. A popular broadcast quoting a scholar.",
+      "url": "https://99percentinvisible.org/episode/depave-paradise/transcript/"
+    },
+    {
+      "id": "src_barr_caa",
+      "kind": "press",
+      "title": "Edward R. Burian, review of Keith L. Eggener, 'Luis Barragán's Gardens of El Pedregal' (Princeton Architectural Press, 2001), caa.reviews (College Art Association), 14 January 2003, read in full: a scholarly review saying Eggener explores the business of speculative land development, the advertising campaign and photography around the subdivision, which was a commercial venture as well as a work of art. Independent academic critical source; Eggener's book itself was not opened.",
+      "url": "https://m.caareviews.org/reviews/491"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_barr_nsi, src_barr_caa, src_barr_britannica | 1945-1952 | popular broadcast quoting a scholar + academic review + reference] Eggener (quoted in 99% Invisible) says the uneven lava field deterred developers but Barragán saw it as an asset and planned to keep the lava and native vegetation, with large lots, and that he hired the photographer Armando Salas Portugal to sell the lifestyle to wealthy buyers; the CAA reviewer confirms the subdivision was a commercial venture with an extensive print and media campaign. Britannica dates his development of El Pedregal from about 1943 to 1952. The impact is dual-edged: the same scholar notes the vision did not survive his early-1950s exit and the subdivision later helped destroy the lava field. The attribution of the lava-as-asset idea rests on one scholar's account relayed by a popular show."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_barr_casa, src_barr_domus, src_barr_nsi | 1945-1964 | foundation + magazine + popular broadcast] He developed the Pedregal project in its totality for a company he was part of, then planned Jardines del Bosque in Guadalajara (1955), promoted the Las Arboledas residential complex in 1957, and took part in Club de Golf Hacienda and Los Clubes (1964) (Casa Luis Barragán, Domus); the foundation says he was already set on the idea of a group of tall vertical elements when the Ciudad Satélite developer invited him in 1957. Eggener (99% Invisible) describes him as a successful businessman as well as an artist. The chronology comes largely from the foundation that manages his legacy; Domus and the scholar's comments are independent but brief."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_barr_casa, src_barr_domus | 1957-1969 | foundation + magazine] For the Torres de Satélite (1957) he invited the sculptor Mathias Goeritz to collaborate, and both sources credit the towers to the two together; the foundation lists partnerships with Juan Sordo Madaleno (Lomas Verdes, 1964-65), Andres Casillas (Cuadra San Cristobal and Casa Egerstrom) and Ricardo Legorreta (the Lomas Verdes fountain), and an invitation from Louis Kahn to advise on the Salk Institute (1964). Evidence is mostly a promotional chronology without detail on how the collaborations worked, so the rating is modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루이스 바라간"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found after one bounded retry. The lead's Wikidata image 'Luis Barragan Morfin 234.jpg' (830x582) was opened: it is a professional-looking black-and-white photograph of the man himself (not a bust or artwork), but its Commons page cites only the uploader's 'own work' claim (Tomjc.55, CC BY-SA 4.0, 2013) with no photographer, date or publication, and the image circulates widely, so the uploader's authorship is doubtful. The only other photographs on Commons, 'Luis Barragan 1981.jpg' and its parent 'JLHernandezMendoza-LuisBarragan 1981.JPG' (uploader Fcarriedo, CC BY 3.0, 'own work', 1981), are a low-resolution snapshot crop (388x485) with the same uploader-only basis; a Sinaloa historical archive Flickr item is 'no known copyright restrictions', which is not a rights basis. Next step: a documented photograph with named photographer and stated licence, for example from the Barragan Foundation, the Pritzker/Hyatt Foundation terms for the 1980 ceremony, or a Wikimedia event photographer."
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / CONFIRMED RISKY, HELD after one bounded retry: see portrait.reason (P18 image is a photograph of the man, not a bust, but with an uploader-only own-work claim). PREFLIGHT: QID VERIFIED LIVE (2026-10-30) Q243295 label 'Luis Barragán', description 'Mexican architect (1902-1988)', born 1902-03-09, died 1988-11-22; no collision in prod59.txt or data-pipeline/candidates. REGION latin_america (Mexico). ERA 20th_century. KOREAN NAME: used the Wikidata Korean label '루이스 바라간'. VOCABULARY: architect; field architecture; tag self_taught (Pritzker biography: architectural skills self-taught); archetype independent_creator all have EN and KO labels (grep). ZERO POLITICS: no political content. STYLE RULE: no row infers personality from the architecture's style, from his reported religiosity or from the 'serenity' and 'mysticism' language of the Pritzker citation and his speech; the Pritzker material was used only for biography and significance. CANONICAL SIGNIFICANCE SOURCE: The Pritzker Architecture Prize, 'Luis Barragán' laureate page (https://www.pritzkerprize.com/laureates/1980). READ: Pritzker page (full), Britannica (full), Domus (full), Casa Luis Barragán foundation biography (full), 99% Invisible transcript (substantial parts through the ecological argument), CAA review of Eggener (first half). NOT opened: Eggener's book, Federica Zanco, Antonio Riggen Martinez, Emilio Ambasz's 1976 MoMA catalogue, Barragan Foundation (Switzerland) material, Britannica's AI boxes (ignored), UNESCO World Heritage page (the identifier tried returned another site), an Afar article (no usable text). PERSPECTIVES: a prize body, a general reference work, an architecture magazine, the legacy foundation (promotional), a scholar quoted on a popular show (counter-voice on the 'mystic monk' image) and an academic review. EXCLUSIONS: his health late in life, religion and private life were read and not scored or inferred. Only three rows are supportable from behaviour; sparse by design. SELF-CALIBRATION (agent): top-risk rows reviewed: opportunity_sensing (66/0.55; rests on one scholar's account relayed by a podcast, corroborated by the CAA review about the commercial campaign, kept) and collaboration (56/0.46; mostly the foundation's chronology, already set low, kept). FLAGS: only 3 rows, so the profile may not reach match eligibility; do not add rows from the architecture's style. HANDBACK59: {\"slug\": \"luis-barragan\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 3, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"opportunity_sensing\", \"collaboration\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

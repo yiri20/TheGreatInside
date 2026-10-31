@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yasujiro-ozu",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yasujiro Ozu",
+    "aliases": [
+      "Ozu Yasujiro",
+      "Yasujirō Ozu",
+      "小津安二郎"
+    ],
+    "wikidataId": "Q55402",
+    "birthYear": 1903,
+    "deathYear": 1963,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "film_director"
+    ],
+    "fieldIds": [
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ozu_wikidata",
+      "kind": "wikidata",
+      "title": "Yasujiro Ozu (Q55402), verified live via the Wikidata API (2026-10-28): label 'Yasujirō Ozu', description 'Japanese film director, screenwriter (1903-1963)', born 1903-12-12, died 1963-12-12, citizenship Japan, Korean label present, P18 image 'Yasujiro Ozu by Shigeru Tanura.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q55402"
+    },
+    {
+      "id": "src_ozu_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'OZU Yasujiro', Portraits of Modern Japanese Historical Figures (English page), read in full. CANONICAL SIGNIFICANCE SOURCE: library-staff biographical note describing him as a film director who joined Shochiku in 1923, directed his first film in 1927, moved from short comic films to realistic portrayals of everyday life, and after the war made films centred on the Japanese family (Late Spring, Early Summer, Tokyo Story, An Autumn Afternoon), noting his lower camera position for every shot as internationally recognised. Short institutional note; no behavioural detail.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/6200/"
+    },
+    {
+      "id": "src_ozu_senses",
+      "kind": "press",
+      "title": "Nick Wrigley, 'Ozu, Yasujiro', Senses of Cinema Great Directors, issue 26 (May 2003), read in full (about 30,000 characters): his background and entry to Shochiku, his own statements about formulating his style without a teacher, Audie Bock on the gap between his life and films, the film-by-film survey, actor Chishu Ryu on his scripting with Kogo Noda, his refusal of CinemaScope, and his reception by the Japanese New Wave. Film-journal career overview; admiring in tone, with the author's personal favourites noted.",
+      "url": "https://www.sensesofcinema.com/2003/great-directors/ozu/"
+    },
+    {
+      "id": "src_ozu_richie63",
+      "kind": "press",
+      "title": "Donald Richie, 'Yasujiro Ozu: The Syntax of His Films', Film Quarterly vol. 17 no. 2 (Winter 1963-64), read in full (JSTOR copy via the Internet Archive): his restricted grammar of the cut, middle shot and low position, structure of return, placement of the cut after the emotional point, accuracy of geography and time. Written in Ozu's lifetime by a Western critic who knew Japanese cinema first-hand; analytical and admiring.",
+      "url": "https://archive.org/details/Richie_Donald_Yasujiro_Ozu"
+    },
+    {
+      "id": "src_ozu_richie_later",
+      "kind": "press",
+      "title": "Donald Richie, 'The Later Films of Yasujiro Ozu', Film Quarterly (JSTOR copy via the Internet Archive), read for the opening sections (about 20,000 characters): Ozu as regarded in Japan as 'the most Japanese' director, his restraint, his avoidance of dissolves and fades with his own quoted remarks, his single recurring subject of the family, and the young Japanese critics who called him old-fashioned. Contemporary critic's essay; includes Ozu's own remarks as reported by Richie.",
+      "url": "https://archive.org/details/Richie_Donald_Later_Films_of_Yasujiro_Ozu"
+    },
+    {
+      "id": "src_ozu_andersen",
+      "kind": "press",
+      "title": "Thom Andersen, 'Ozu Yasujiro: the master of time', BFI Sight and Sound (Directors' Poll, updated 2019), read in full (about 15,000 characters): his system as both conservative and radical, crossing the axis in every cut, shots of empty spaces, his dramaturgy that avoids a single character's viewpoint, assistant Masahiro Shinoda's remark on the low camera, and a reading of his films as depicting economic change. Film-maker/critic essay for the Sight and Sound polls; strongly admiring and openly interpretive, including a Marxist reading Ozu never stated.",
+      "url": "https://www.bfi.org.uk/sight-and-sound/ozu-yasujiro-master-time"
+    },
+    {
+      "id": "src_ozu_berry",
+      "kind": "press",
+      "title": "Chris Berry, review of David Bordwell's 'Ozu and the Poetics of Cinema' (BFI, 1988) in 'Our Problem Cinema: The Challenge of Japanese Cinema', Continuum vol. 4 no. 1 (1990), read in full (about 22,000 characters): Bordwell's findings on Ozu's systematic style, his correction that the camera is level rather than tatami-low and proportional to the subject, his evidence of Ozu's interest in the West against 'traditional Japan' readings, and the reviewer's critique of Bordwell's polemic and of the claim that Ozu's practices were progressive or original. Academic review; Bordwell's book itself was not opened, so his findings reach this profile through the review.",
+      "url": "https://australiancinema.info/readingroom/4.1/Berry1.html"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ozu_andersen, src_ozu_berry, src_ozu_richie63, src_ozu_senses | 1930s-1962 | film-maker critic + academic review + contemporary critic + journal survey] Andersen describes a self-made cinematic language that crosses the axis in every cut and puts empty-space shots between scenes; Berry reports Bordwell's finding that the style is a systematic positive system, not just a negation of Hollywood; Richie and Senses record his reduction of camera movement, fades and dissolves. Counter-voices limit the claim: Berry reports critics who dispute that his practices were progressive or original, since comparable practices exist in traditional Japanese culture, and the New Wave filmmakers called him old-fashioned. Judged from the formal work, not from any statement about his temperament. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 76 / 0.58 to 72 / 0.54 because the originality claim is a critics' reading of the films and is itself challenged by Berry's review of Bordwell; no source documents his process."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ozu_senses, src_ozu_richie63, src_ozu_andersen | 1940s-1962 | collaborator account via journal + contemporary critic + film-maker critic] Senses quotes actor Chishu Ryu that Ozu spent about four months writing a script with Kogo Noda and had made up every image of every shot before shooting, never changing the scenario on set; Richie describes a film built so that each shot has a definite reason, and Andersen describes a closed, coherent system. The Ryu account is an admiring collaborator's recollection reaching this profile second-hand through one journal article, so confidence is held in the mid-fifties. RUBRIC_CORRECTION (lead review, before eligibility): planning_orientation lowered from 76 / 0.56 to 72 / 0.52 because inferred from the formal consistency of the films plus one collaborator's recollection; no documented planning behaviour beyond that."
+    },
+    "perfectionism": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ozu_senses, src_ozu_richie63 | 1940s-1962 | collaborator recollection via journal + contemporary critic] Ryu is quoted that Ozu polished the words so finely that he would not allow the actors a single mistake; Richie writes that removing one shot from an Ozu picture damages it irreparably and calls him a master craftsman with scrupulous treatment of geography and time. Both are about the exactness of the work rather than documented conflict on set, no adversarial account of working with him was read, and the Ryu quote is a loyal collaborator's memory, so the score and confidence are moderate."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ozu_senses, src_ozu_richie_later, src_ozu_berry | 1930s-1959 | journal survey + contemporary critic + academic review] Senses records that he held out for silent filmmaking in 1935 although talkies had reached Japan and, in his own words, wanted nothing to do with CinemaScope, shooting more close-ups instead; Richie quotes him on giving up fades and dissolves on his own judgment from 1932; Berry reports Bordwell's evidence that he engaged with Western cinema rather than simply continuing a Japanese tradition. His claim that he had no teacher is self-report, and Senses also notes he studied many Japanese films by his seniors, so the independence is of method, not isolation."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ozu_senses, src_ozu_richie_later, src_ozu_ndl | 1923-1962 | journal survey + contemporary critic + library note] Senses says he watched large numbers of Japanese films after joining Shochiku in order to study his seniors' techniques; Richie traces a progressive narrowing of his means from the early 1930s into a consistent late style; the library note records a career from assistant cameraman in 1923 to the family films after 1949. A sustained refinement of one craft is documented in the work, while his own motives are only reported through his remarks."
+    },
+    "aesthetic_sensitivity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ozu_richie63, src_ozu_senses, src_ozu_andersen | 1949-1962 | contemporary critic + journal survey + film-maker critic] Richie describes consistent attention to composition, the placement of stills of locations and objects, and tactful timing of the cut; Senses reports that he wanted colour to enhance tone and mood in Equinox Flower and had Floating Weeds photographed by Kazuo Miyagawa; Andersen analyses the empty-space shots. These are choices made in the films, read by critics; no first-hand account of his visual decisions beyond the quoted remarks was read."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오즈 야스지로"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/yasujiro-ozu-tamura-1953.jpg",
+    "width": 804,
+    "height": 1200,
+    "source": "Portrait photograph of Yasujiro Ozu by Shigeru Tamura (1909-1987), taken from the photographic book 'Gendai Nihon no hyakunin' (Bungei Shunju Shinsha, 1953) and shown on the National Diet Library's digital exhibition 'Portraits of Modern Japanese Historical Figures' (the fourth photograph on Ozu's page). The Library's site statement says all images in that exhibition are in the public domain and may be reused, including commercially, with the source cited. The same photograph is on Wikimedia Commons with the Japanese old-photograph public-domain tag and a Library source link. Original 2423 x 3615 pixels, downscaled to 804 x 1200 with no cropping and no upscaling.",
+    "license": "Public domain (National Diet Library, Japan, exhibition statement)",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/e/about/",
+    "attribution": "Shigeru Tamura, 1953; National Diet Library, Japan, Portraits of Modern Japanese Historical Figures",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/e/datas/6200/",
+    "creator": "Shigeru Tamura",
+    "date": "1953",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Yasujiro_Ozu_by_Shigeru_Tanura.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-28T00:00:00Z",
+    "updatedAt": "2026-10-28T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / RESOLVED to found: the Commons file (named photographer Shigeru Tamura, 1909-1987, published in a 1953 book) carries the Japan old-photograph tag, and the National Diet Library's own exhibition page states that all images in 'Portraits of Modern Japanese Historical Figures' are in the public domain and reusable commercially with citation; the identical 2423 x 3615 file is the fourth image on the Library's Ozu page. A photograph published in Japan in 1953 was already out of copyright in Japan before 1996, so no US restoration issue arises. The file was downloaded from the Library and compared with the Commons original (same image, same dimensions). PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q55402 label 'Yasujirō Ozu', description 'Japanese film director, screenwriter (1903-1963)', born 1903-12-12, died 1963-12-12; matches the lead. Not in prod59.txt; no existing candidate for the slug or QID. REGION east_asia (Japan). ZERO POLITICS: primary identity is a film director; his wartime army service and POW detention are not scored. VOCABULARY: occupation film_director, field film, tags craft_focused and systematic_thinker, archetypes creative_creator and independent_creator all have EN and KO labels. Korean name 오즈 야스지로 (Wikidata and Korean Wikipedia standard transliteration). CANONICAL SIGNIFICANCE SOURCE: National Diet Library, 'OZU Yasujiro' (https://www.ndl.go.jp/portrait/e/datas/6200/). READ IN FULL: NDL page, Senses of Cinema, Richie 1963, Berry review, Andersen (BFI); Richie 'Later Films' opening sections (about the first third). PERSPECTIVES: library note, journal career survey with collaborator Chishu Ryu's recollection, a Western critic writing in Ozu's lifetime, an academic review of Bordwell, a film-maker's interpretive essay, and the Japanese New Wave's dismissal reported through Senses and Richie. COUNTER-VOICES: Berry's critique of the claims of originality and progressiveness, the Japanese New Wave calling him traditional, Bordwell's finding (via Berry) that the camera is level rather than tatami-low (so the popular tatami-height explanation is not asserted as fact), and Andersen's reading of the films as economic history that Ozu himself did not state. NOT OPENED: Bordwell's book, Richie's 1974 book (lending only), Britannica, Criterion, the BFI Ozu pages and Roger Ebert (bot walls or 403), Ozu's diaries and Kogo Noda's biography (not accessible). Wikipedia and New World Encyclopedia pages were skimmed for orientation only and cited for nothing. EXCLUSIONS: drinking, family and single life, his mother's death, wartime army service and imprisonment, and personality inferred from the films' style alone are not scored. SPARSE PROFILE: six rows, none above 76, confidence 0.50-0.58. SELF-CALIBRATION (agent): rows reviewed as top risk: creative_originality (76/0.58, kept: four sources from different perspectives and the counter-voices are already reflected), perfectionism (70/0.50, kept: already low and hedged because it rests on one collaborator quote), planning_orientation (76/0.56, kept: also single-collaborator based but corroborated by two critics describing the work's exactness). No rows lowered. HANDBACK59: {\"slug\":\"yasujiro-ozu\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[],\"reviewed_kept\":[\"creative_originality\",\"perfectionism\",\"planning_orientation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6} RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 76 / 0.58 to 72 / 0.54 because the originality claim is a critics' reading of the films and is itself challenged by Berry's review of Bordwell; no source documents his process. RUBRIC_CORRECTION (lead review, before eligibility): planning_orientation lowered from 76 / 0.56 to 72 / 0.52 because inferred from the formal consistency of the films plus one collaborator's recollection; no documented planning behaviour beyond that."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cesar-milstein",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "César Milstein",
+    "aliases": [
+      "Cesar Milstein",
+      "César Milstein CH FRS"
+    ],
+    "wikidataId": "Q155525",
+    "birthYear": 1927,
+    "deathYear": 2002,
+    "isLiving": false,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "AR",
+      "GB"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "biologist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "biology",
+      "medicine",
+      "chemistry"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "innovator",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_milstein_wikidata",
+      "kind": "wikidata",
+      "title": "César Milstein (Q155525) -- verified live via the Wikidata API (2026-10-30): English label 'César Milstein', description 'Argentine biochemist (1927–2002)', Korean label '세사르 밀스테인', born 1927-10-08, died 2002-03-24, citizenship Argentina and United Kingdom, P18 'Milstein lnp restauración.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q155525"
+    },
+    {
+      "id": "src_milstein_nobel_press",
+      "kind": "award_body",
+      "title": "Nobel Assembly at Karolinska Institutet, 'Press release: The 1984 Nobel Prize in Physiology or Medicine' (NobelPrize.org), read in part (summary and the hybridoma section): the prize was awarded jointly to Niels K. Jerne, Georges J.F. Köhler and César Milstein, Jerne for theories on the specificity, development and control of the immune system, Köhler and Milstein for the 1975 hybridoma technique, 'one of the most important methodological advances in biomedicine during the 1970s'; the Nobel facts page gives Milstein a one-third share and the affiliation MRC Laboratory of Molecular Biology, Cambridge. CANONICAL SIGNIFICANCE SOURCE. Award-body text; independent of Milstein.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1984/press-release/"
+    },
+    {
+      "id": "src_milstein_nobel_bio",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'César Milstein - Biographical' (autobiographical note written at the time of the award), read in full: his Buenos Aires chemistry training and PhD, the British Council fellowship and Cambridge PhD, collaboration with Fred Sanger, return to Argentina, resignation and return to Cambridge, Sanger's suggestion that he shift from enzymology to immunology, his appointments, honours and awards. SELF-REPORT and brief; the passage on political persecution in Argentina is not scored.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1984/milstein/biographical/"
+    },
+    {
+      "id": "src_milstein_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'César Milstein' (updated October 2026), read in full: Argentine-British immunologist; 1984 Nobel Prize shared with Georges Köhler and Niels K. Jerne; in 1975, working with Köhler, a Cambridge postdoctoral fellow, he developed monoclonal antibody production by fusing myeloma cells with antibody-producing plasma cells; staff of the MRC Laboratory of Molecular Biology from 1963, head of its Protein and Nucleic Acid Chemistry Division from 1983, dual Argentine and British citizenship, Royal Medal 1982, Copley Medal 1989, Companion of Honour 1994. Reference biography; orientation and shared-credit confirmation.",
+      "url": "https://www.britannica.com/biography/Cesar-Milstein"
+    },
+    {
+      "id": "src_milstein_wib_patent",
+      "kind": "archive",
+      "title": "'The Story of César Milstein and Monoclonal Antibodies: The Patent saga' (whatisbiotechnology.org exhibition, built on Milstein's papers at the Churchill Archives Centre and sponsored by the Medical Research Council), read in full: the MRC's Vickers alerting the National Research Development Corporation before publication, the NRDC's October 1976 reply that it could identify no immediate applications, the political storm including Margaret Thatcher's criticism and the 1980 joint working party report, the Wistar Institute patents made with a cell line Milstein had supplied on a no-patent condition, Nicholas Wade's 1980 Science article with Milstein's own words, his later view that the missed patent was in some ways a blessing, and the note that some doubt how much a patent would have been worth. Curated archival exhibition; the primary documents it displays were not opened.",
+      "url": "https://www.whatisbiotechnology.org/index.php/exhibitions/milstein/patents/The-monoclonal-antibody-patent-saga"
+    },
+    {
+      "id": "src_milstein_nature_2019",
+      "kind": "press",
+      "title": "Nature 575, 47-49 (2019), 'The advent and rise of monoclonal antibodies' (Nature PastCast), page and full transcript read: historian Lara Marks on Milstein's arrival at the LMB in 1963, Köhler's arrival in April 1974, the 1975 paper and the replication crisis after submission, the NRDC's reasoning, the Wistar patents, the collaboration with David Murray of Seralab that laid the basis for early commercialisation, and the humanised Campath antibody; immunologist Greg Winter, Milstein's colleague, on the NRDC never replying, on Milstein not minding much, and on their joint humanisation work with Herman Waldmann. Independent historian plus an admiring close colleague; the page's opening piece by a third scientist was only partly visible (paywalled).",
+      "url": "https://www.nature.com/articles/d41586-019-02840-w"
+    },
+    {
+      "id": "src_milstein_falini_2022",
+      "kind": "press",
+      "title": "Brunangelo Falini, 'Generation of the first monoclonal antibody using mouse hybridomas' (Haematologica, 2022), read in full: describes the 1975 Köhler and Milstein Letter to Nature, notes the result followed decades of effort across biochemistry, cell culture, immunology and somatic cell genetics, and traces how monoclonal antibodies came to underpin diagnosis and treatment in haematology, with roughly 100 monoclonal antibodies approved for clinical use by April 2021. Independent clinical-scientist retrospective.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9713542/"
+    },
+    {
+      "id": "src_milstein_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file pages 'File:Milstein lnp.jpg' and 'File:Milstein lnp restauración.jpg' (161 x 146 scan of a 1984 Bahía Blanca newspaper photograph), checked for the portrait only and rejected.",
+      "url": "https://commons.wikimedia.org/wiki/File:Milstein_lnp_restauraci%C3%B3n.jpg"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_milstein_nobel_press, src_milstein_britannica, src_milstein_falini_2022 | 1975 | award body + biography + clinical retrospective] The Karolinska Assembly credits Köhler and Milstein with the hybridoma technique, fusing antibody-producing cells with myeloma cells to give unlimited monoclonal antibodies of predetermined specificity, calling it one of the most important methodological advances in biomedicine of the 1970s, and Falini notes it achieved a goal that had frustrated scientists for decades while resting on many earlier efforts in cell culture and cell genetics. The idea and execution are shared with Köhler and built on others' work, so the score is firm but not extreme."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_milstein_nature_2019, src_milstein_britannica, src_milstein_nobel_press | 1974-1988 | historian + close colleague + biography + award body] The 1975 technique was a joint Köhler and Milstein result (Nobel press release, Britannica); Marks describes his partnership with the entrepreneur David Murray of Seralab that laid the basis for early commercial distribution of his cell lines, and Winter describes the joint humanisation of the Campath antibody with Herman Waldmann. The collaborations are documented by an independent historian and a colleague who is admiring but a named participant; no source here reports friction in them."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_milstein_nature_2019 | 1975 | historian + close colleague] Marks says that soon after submitting the Nature paper the pair could not replicate the technique and Milstein considered withdrawing the article, and Winter recalls they got it working again only after a lot of 'fiddling around'. The episode is stated by two voices in one audio piece and is brief, so this is a modest strong inference about working through a technical setback."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_milstein_wib_patent, src_milstein_nature_2019 | 1975-1980 | archival exhibition + historian] Milstein supplied his myeloma line widely and asked recipients not to patent products from it, told Nicholas Wade in 1980 that the lab had been more concerned with science than commercial applications, later saw the missed patent as in some ways a blessing, and Marks reads his papers as showing a man who wanted to do right by the world and applied basic science. The NRDC, not Milstein, declined to file; the Wistar patents on products from his cell line and the political criticism show the cost of that open approach, hence dual-edged. His attitude is inferred largely from his own words quoted in one curated exhibition. SELF-CALIBRATION (agent): lowered from 66 / 0.55 to 62 / 0.50 because the trait is inferred from his own quoted remarks on one exhibition page and the non-patenting itself was the NRDC's inaction, not his decision."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "세사르 밀스테인"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear usable photograph found. The only Wikidata P18 and the only images in the Commons category are 'Milstein lnp.jpg' and its restorations, a 161 x 146 scan of a 1984 Bahía Blanca newspaper (La Nueva Provincia) photograph with no credited photographer, tagged both PD-AR-Photo and Not-PD-US-URAA, so it has no US-clear basis and is far too small. A Wellcome Collection catalogue search for Milstein returned only books, archives and ephemera, no portrait image; the Nobel Foundation archive photo carries Nobel Foundation rights and the MRC Laboratory of Molecular Biology and Churchill Archives Centre images carry no stated reuse terms. Next step: obtain a licensed photograph from the Nobel Foundation, the Royal Society or the MRC Laboratory of Molecular Biology with written reuse terms, or a Commons photograph with a named photographer and licence."
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / finding: confirmed, HELD. Commons wikitext: 'Milstein lnp.jpg' source lanueva.com, author Diario La Nueva Provincia de Bahía Blanca, date 1984, 161 x 146, licence tags PD-AR-Photo plus Not-PD-US-URAA (the page itself says it is not clearly public domain in the US); the restoration is a derivative with the same tags. Commons category and title searches (three queries) return only these files; Wellcome catalogue API search 'César Milstein' returned 15 works, none a portrait image; the Nobel Foundation facts page credits the photo to the Nobel Foundation archive (restricted); no Anefo or other documented image was located. One bounded retry done (Commons category page, three search queries, Wellcome works and images search, Nobel facts page); no rights-clear portrait, so HOLD, all research kept. PREFLIGHT: QID VERIFIED LIVE (wbgetentities, 2026-10-30) Q155525: en label 'César Milstein', description 'Argentine biochemist (1927–2002)', ko label '세사르 밀스테인', born 1927-10-08, died 2002-03-24. SLUG/QID CHECK: Q155525 not in prod59.txt, no candidate file existed. VOCABULARY: scientist, biologist, medical_researcher, biology, medicine, chemistry, nobel_laureate, innovator, mentor, scientific_explorer all have EN+KO labels (biochemist and immunologist unlabeled, not used). REGION JUDGEMENT: latin_america retained as assigned by the lead. Repo precedents conflict (Hinton, Molina and Stroustrup are filed by career base, which would give western_europe here; Zewail, Khorana and Chandrasekhar by birth region). Milstein was born and trained in Argentina and held Argentine and British citizenship, but left in 1963 and worked at the Cambridge MRC Laboratory of Molecular Biology until his death. FLAG for lead: western_europe is the career-base alternative; the one-field change is regionCode. ZERO POLITICS: the political persecution that led to his leaving Argentina (his Nobel note) and the Thatcher government's criticism are context only and not scored. NO-PATENT EPISODE: scored carefully inside impact_motivation as a dual-edged documented professional episode; the sources say the MRC alerted the NRDC before publication and the NRDC, after months, declined for lack of identifiable applications (so the non-patenting was an institutional inaction, not a personal refusal); Milstein was relaxed about it, freely shared cells with a no-patent request, later called it in some ways a blessing; Winter says the NRDC suggested coming back with a useful antibody; some historians doubt a patent would have been valuable. No claim that he refused to patent on principle. SHARED CREDIT: the 1984 prize was shared among Jerne (theories), Köhler and Milstein (hybridoma technique), Milstein's share one third; Köhler is the co-originator and Britannica notes he was a Cambridge postdoctoral fellow; no claim that Milstein alone invented monoclonal antibodies. CANONICAL SIGNIFICANCE SOURCE: Nobel Assembly press release 1984 (https://www.nobelprize.org/prizes/medicine/1984/press-release/). READ (6 substantive sources): Nobel press release and facts page, Nobel autobiographical note (self), Britannica, whatisbiotechnology patent-saga exhibition (Churchill Archives based), Nature 2019 PastCast transcript (Marks, Winter), Falini 2022. PERSPECTIVES: award body, reference biography, archival exhibition, independent historian, close colleague (Winter), clinical scientist; self-report. COUNTER-VOICES: Thatcher and the 1980 working party blaming scientists; Wistar patent controversy; sceptics of the value of a patent (all via the exhibition and Nature transcript). NOT OPENED: Royal Society Biographical Memoir (not located in search), Nature and Current Biology obituaries (Current Biology page blocked 403), LMB technology-transfer page (navigation text only), Wellcome Witnesses volume on technology transfer, Nicholas Wade's Science article and Milstein's papers (seen only as quoted by the exhibition), the 1975 paper itself. SELF-CALIBRATION: rows reviewed: collaboration (70 / 0.58), impact_motivation (66 / 0.55), persistence (64 / 0.50). Lowered: impact_motivation 66/0.55 -> 62/0.50, because the trait is inferred from his own quoted remarks on one exhibition page and the non-patenting was the NRDC's inaction. collaboration kept (independent historian plus participant colleague plus award body); persistence kept (already modest). HANDBACK59: {\"slug\":\"cesar-milstein\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":4,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":66,\"old_confidence\":0.55,\"new_score\":62,\"new_confidence\":0.5,\"reason\":\"trait inferred from his own quoted remarks on one exhibition page and the non-patenting was the NRDC's inaction, not his decision\"}],\"reviewed_kept\":[\"collaboration\",\"persistence\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":4}"
+  }
+}

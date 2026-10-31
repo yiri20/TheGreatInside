@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "xuanzang",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Xuanzang",
+    "aliases": [
+      "Hsuan-tsang",
+      "Hiuen Tsiang",
+      "Xuan Zang",
+      "Tripitaka Master Xuanzang"
+    ],
+    "wikidataId": "Q42063",
+    "birthYear": 602,
+    "deathYear": 664,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.tang_dynasty"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "explorer",
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "exploration",
+      "religion",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_xuanzang_wikidata",
+      "kind": "wikidata",
+      "title": "Xuanzang (Q42063), verified live via the Wikidata API (2026-10-28): label 'Xuanzang', description '7th-century Chinese Buddhist monk and scholar (602-664)', Korean label present, image 'Xuanzang w.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q42063"
+    },
+    {
+      "id": "src_xuanzang_er",
+      "kind": "biography",
+      "title": "Encyclopedia of Religion, 'Xuanzang' (via Encyclopedia.com; read in full). CANONICAL SIGNIFICANCE SOURCE: a scholarly entry that says he left China in 627 without official approval, studied at Nalanda, returned in 645 with Buddhist texts and artifacts, wrote the Da Tang xiyu ji, directed a lavishly funded translation project, and later became the prototype of the Tripitaka figure in Journey to the West. It marks several episodes as reported ('we are told'), calls him a 'radical conservative' and says his school's influence in China faded quickly.",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/xuanzang"
+    },
+    {
+      "id": "src_xuanzang_worlderas",
+      "kind": "biography",
+      "title": "World Eras entry 'Xuan Zang' (via Encyclopedia.com; read in full): journey from 629, arrival in India 633, study at Nalanda, return in 645 with 657 texts, and a translation project in which his team of 185 workers translated 1,338 chapters in eighteen years, he himself at least 75 works; the Records as one of the most valuable accounts of the regions. General history reference.",
+      "url": "https://encyclopedia.com/history/news-wires-white-papers-and-books/xuan-zang"
+    },
+    {
+      "id": "src_xuanzang_kaplan",
+      "kind": "press",
+      "title": "Edward H. Kaplan, review of Sally Hovey Wriggins, 'Xuanzang: A Buddhist Pilgrim on the Silk Road', The Historian 60(3), 1998 (read in full via the National Taiwan University Buddhist library copy): treats Xuanzang as an explorer comparable to Zhang Qian, says the book synthesises scholarship, and describes the Records and a colleague's biography as still extant. Academic book review; the book itself was not opened.",
+      "url": "https://buddhism.lib.ntu.edu.tw/FULLTEXT/JR-EPT/edward.htm"
+    },
+    {
+      "id": "src_xuanzang_tricycle",
+      "kind": "press",
+      "title": "Tricycle (Buddhist magazine), review of Wriggins's 'Xuanzang: A Buddhist Pilgrim on the Silk Road' (read in full): says he went to India in 629 despite an imperial ban, nearly died of thirst and was attacked by robbers, returned in 645 with the largest collection of scriptures to reach China, and dictated his experiences to the monk Huili. A sympathetic Buddhist publication retelling the biography tradition.",
+      "url": "https://tricycle.org/?p=1771"
+    },
+    {
+      "id": "src_xuanzang_met",
+      "kind": "institution",
+      "title": "The Metropolitan Museum of Art collection record 45372, 'Portrait of Xuanzang (Genjo) with Attendant', attributed to Kasuga Motomitsu, 14th century (checked for the portrait only; not used for any scoring).",
+      "url": "https://www.metmuseum.org/art/collection/search/45372"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_xuanzang_worlderas, src_xuanzang_er, src_xuanzang_kaplan | 629-664 | history reference + religion reference + academic review] Reference works place a journey of roughly sixteen to eighteen years (departure dated 627 or 629) followed by about eighteen years of translation in Chang'an; the World Eras entry says his team translated 1,338 chapters and he translated at least 75 works himself, and the Encyclopedia of Religion says he was installed as director of the translation project. The span and output are well attested; staying power is inferred from them, not from an independent account of his working habits."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_xuanzang_er, src_xuanzang_tricycle, src_xuanzang_worlderas | 627-645 | religion reference + Buddhist-magazine review + history reference] The Encyclopedia of Religion says he left in 627 'surreptitiously' after failing to secure official approval, Tricycle says he went despite an emperor's ban and nearly died of thirst and was attacked by robbers, and World Eras says he several times barely escaped death crossing Central Asia. Dual-edged because the venture was dangerous and unauthorised. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.52 to 66 / 0.46 because the secret crossing and near-death episodes come from the biography tradition (Huili's hagiographic life) relayed by reference works and reviews, with no independent contemporary check."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_xuanzang_er, src_xuanzang_worlderas, src_xuanzang_kaplan | 629-645 | religion reference + history reference + academic review] The Encyclopedia of Religion says he decided while in his twenties that China no longer held what he needed and sought the best teachers in India, studying at Nalanda and, as reported, excelling in debate; World Eras says he had an excellent knowledge of Sanskrit and was an exacting philologist who set strict rules for translation; Kaplan says he became a recognised authority on Mahayana idealist philosophy. The deliberate pursuit of expert teachers is well documented, though the scholarly reputation is largely reported by admiring or tradition-based sources."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_xuanzang_worlderas, src_xuanzang_er | 645-664 | history reference + religion reference] World Eras says he directed the most productive translation teams in Chinese Buddhist history, with 185 workers, and set exact translation regulations, and the Encyclopedia of Religion says he directed a lavishly funded project. The organised team effort is documented, but nothing read describes how he worked with colleagues day to day, so the row stays modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "현장"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/xuanzang-kasuga-motomitsu-14c.jpg",
+    "width": 740,
+    "height": 1200,
+    "source": "Portrait of Xuanzang with an attendant, hanging scroll in ink and color on silk, attributed to Kasuga Motomitsu, 14th century (Kamakura period), The Metropolitan Museum of Art, object 45372, H. O. Havemeyer Collection, Gift of Horace Havemeyer, 1929. The work is about seven hundred years old, and the museum's open-access record marks the image as public domain. A devotional painting made centuries after the monk's death, so shown as a later depiction and not a likeness. Original museum image 2468 x 4000 pixels, downscaled to 740 x 1200 with no cropping and no upscaling.",
+    "license": "Public domain (artwork by age; museum open-access image)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Attributed to Kasuga Motomitsu, Portrait of Xuanzang (Genjo) with Attendant, 14th century, The Metropolitan Museum of Art, H. O. Havemeyer Collection, Gift of Horace Havemeyer, 1929",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/45372",
+    "creator": "Attributed to Kasuga Motomitsu",
+    "date": "14th century",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/45372"
+  },
+  "provenance": {
+    "createdAt": "2026-10-28T00:00:00Z",
+    "updatedAt": "2026-10-28T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / the Wikidata image 'Xuanzang w.jpg' is a Commons file of a Tokyo National Museum hanging scroll (14th century, Kamakura period, artist unknown, source ColBase item A-10600, PD-Art/PD-old-100 tag), which is old enough, but I preferred a museum page that states its own terms, so used The Metropolitan Museum of Art object 45372, 'Portrait of Xuanzang (Genjo) with Attendant', hanging scroll, ink and color on silk, attributed to Kasuga Motomitsu, 14th century, H. O. Havemeyer Collection, Gift of Horace Havemeyer, 1929. The Met Collection API record for that object states isPublicDomain true (Met Open Access, CC0), and the work is some 700 years old. The Met web page itself was bot-blocked, so the API record was the item-level evidence. Original image 2468 x 4000 downscaled to 740 x 1200 (no upscaling, no cropping). It is a posthumous devotional depiction made some 700 years after the sitter's death, so recorded as a later depiction and not a likeness. PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q42063 label 'Xuanzang', description '7th-century Chinese Buddhist monk and scholar (602-664)', born 602 (also 602-04-06 as a second value), died 664 (also 664-03-07), Korean label 현장 present. No production or candidate slug/QID collision (grepped prod59 and data-pipeline/candidates). REGION east_asia; ERA medieval; historical polity Tang dynasty (existing polity.tang_dynasty key). ZERO POLITICS: primary identity is monk, pilgrim and translator; his refusal of a court post and the Tang strategic interest in his Records are context and not scored. VOCABULARY: occupations scholar, explorer, religious_leader; fields exploration, religion, literature (exploration chosen as the field target as instructed; the translation work is why literature is added; no translator/monk occupation label exists); tags explorer, prolific; archetype scholarly_specialist; all grepped in en.ts and ko.ts. KO NAME: 현장, the Wikidata Korean label and the standard Korean reading of the name. CANONICAL SIGNIFICANCE SOURCE: Encyclopedia of Religion entry 'Xuanzang' (via Encyclopedia.com, https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/xuanzang). READ IN FULL: that entry; the World Eras entry 'Xuan Zang' (Encyclopedia.com); Edward H. Kaplan's review of Sally Hovey Wriggins's 'Xuanzang: A Buddhist Pilgrim on the Silk Road' in The Historian (1998, full text on the Taiwan University Buddhist digital library); the Tricycle review of the same book; the Met collection record. PERSPECTIVES: scholarly religion reference, history reference, academic book review, Buddhist-magazine review. COUNTER-VOICES/CAVEATS: the Encyclopedia of Religion marks details as 'we are told' and says his school's influence in China faded quickly; the departure date is given as 627 in one and 629 in the others and the length of the journey as sixteen to eighteen years; Wikipedia (orientation only) notes a dating inconsistency in Huili's biography; a search summary said Jeffrey Kotyk (T'oung Pao 2020) argues the Daci'en biography is partly Buddhist propaganda, but that article was NOT opened and is not cited. HAGIOGRAPHY SEPARATION: nothing from Journey to the West or legend is used; episodes from Huili's biography are relayed only through the reference works and reviews and the rows say so. NOT OPENED: Britannica (bot-blocked), the Smithsonian Sogdians sidebar (bot-blocked), Brose's biography, Wriggins's book, the Records and the Huili biography themselves. His own record: the Records are his dictated travelogue and are used only for the statement of what they cover. SPARSE PROFILE: four rows, none above 70, confidence 0.45-0.52. SELF-CALIBRATION (agent): top-risk rows reviewed: risk_tolerance (70/0.52 lowered to 66/0.46), persistence (kept), mastery_orientation (kept). HANDBACK59: {\"slug\": \"xuanzang\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"risk_tolerance\", \"old_score\": 70, \"old_confidence\": 0.52, \"new_score\": 66, \"new_confidence\": 0.46, \"reason\": \"the secret border crossing and near-death episodes come from the biography tradition (Huili, a hagiographic source) relayed by reference works and reviews, with no independent contemporary check\"}], \"reviewed_kept\": [\"persistence\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

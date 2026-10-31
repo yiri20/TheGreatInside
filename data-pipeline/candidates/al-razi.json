@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "al-razi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Abu Bakr al-Razi",
+    "aliases": [
+      "Rhazes",
+      "Razi",
+      "Muhammad ibn Zakariya al-Razi",
+      "Abu Bakr Muhammad ibn Zakariyya al-Razi"
+    ],
+    "wikidataId": "Q169234",
+    "birthYear": 865,
+    "deathYear": 925,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.abbasid_caliphate"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "chemist",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "chemistry",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "polymath",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_razi_wikidata",
+      "kind": "wikidata",
+      "title": "Abu Bakr al-Razi (Q169234), verified live via the Wikidata API (2026-10-30): label 'Abu Bakr al-Razi', description 'Persian polymath, physician, chemist and philosopher (854-925)', five different birth years recorded (854, 864, 865, 866), died 925, Korean label 알 라지, portrait images including a Wellcome Collection image. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q169234"
+    },
+    {
+      "id": "src_razi_nlm",
+      "kind": "institution",
+      "title": "U.S. National Library of Medicine, 'Noteworthy: A Look at the Oldest Item in the NLM Collection', NLM in Focus (22 June 2010), read in full. CANONICAL SIGNIFICANCE SOURCE: describes the Comprehensive Book on Medicine (Kitab al-Hawi) as a notebook of medical notations, therapies and clinical cases kept over many years and collected into a book by his assistants and students after his death; says he founded and headed hospitals at Rayy and Baghdad, served the Samanid rulers, and, through curiosity and careful observation, distinguished smallpox from measles for the first time in medical history, which the World Health Organization cited in 1970; and quotes Emilie Savage-Smith that he credited all his sources. Library blog written by a staff writer for a manuscript exhibit; admiring, and the 'for the first time' wording is the library's own claim, which other sources hedge.",
+      "url": "https://infocus.nlm.nih.gov/2010/06/22/nestled_among_the_national_lib/"
+    },
+    {
+      "id": "src_razi_sep",
+      "kind": "biography",
+      "title": "Peter Adamson, 'Abu Bakr al-Razi', Stanford Encyclopedia of Philosophy (copyright 2025), read in full (life and works, medicine and the Doubts, legacy): says he was mainly famous as a doctor from Rayy, reportedly ran hospitals there and in Baghdad and wrote for the governor al-Mansur; that he wrote Doubts about Galen respecting Galen as the greatest medical authority while criticising weak points in his arguments (and at times 'remarkably contentious'); that his own medical theory stays within the Galenic framework; that the Comprehensive Book was compiled by students after his death and is mostly excerpts from Greek and Arabic sources with his own cases used to confirm or disconfirm theories (citing Savage-Smith); that he described detailed alchemical procedures; that his philosophical views are known mostly from hostile reports by authors such as Abu Hatim al-Razi and Nasir-i Khusraw; that Ibn Sina said he overreached his competence, later medical writers wrote refutations of the Doubts, and his works had sixty-seven printed Latin editions before 1700. Academic reference by a specialist; the most careful source read.",
+      "url": "https://plato.stanford.edu/entries/abu-bakr-al-razi/"
+    },
+    {
+      "id": "src_razi_ewb",
+      "kind": "biography",
+      "title": "'al-Razi', Encyclopedia of World Biography (Gale, via encyclopedia.com), read in full: born at Rayy c. 865, music and philosophy in youth, authorities differ on when he began medicine, chief of the municipal hospital at Rayy and later of a Baghdad hospital under al-Muktafi (902-907), later travelled treating rulers and the poor; stresses diet and the doctor-patient relationship; over 230 writings; the Kitab al-Mansuri whose ninth book was in European university curricula to the 16th century; the Kitab al-Hawi as posthumously assembled extracts plus his observations, its Latin form the Continens (1279; printed Brescia 1486); and the smallpox and measles monograph as 'astonishingly original', although smallpox had been described earlier. Includes anecdotes (an eye ailment, refusing eye surgery) that are treated as legend and not used. General reference work; sources are listed only as further reading.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/al-razi"
+    },
+    {
+      "id": "src_razi_holmlund",
+      "kind": "institution",
+      "title": "Helen Holmlund, 'Rhazes: A Pioneer in Clinical Observation', Oklahoma Christian University Journal of Historical Studies 20 (2012), read in the introduction and the opening of the Galen section as reposted on Medievalists.net (the full article was not opened): says he wrote over 200 works, challenged accepted medical beliefs through scepticism of certain Galenic practices, his definition of smallpox and measles and clinical investigation, and quotes the Doubts: 'I am faced with opposing one who is in my eyes the greatest of men.' Undergraduate-level journal article; used only for the quoted statement and as a corroborating framing.",
+      "url": "https://www.medievalists.net/2012/10/rhazes-a-pioneer-in-clinical-observation/"
+    },
+    {
+      "id": "src_razi_naqvi",
+      "kind": "press",
+      "title": "Nasim Hasan Naqvi, 'A Medical Classic: Al-Razi's Treatise on Smallpox and Measles', MuslimHeritage.com (3 January 2012; first printed in the Historical Medicine Equipment Society Bulletin 22, 2009), read through a page summary: says the treatise was written after a discussion with other physicians who asked him for a full description, that he criticised Galen for mentioning smallpox only briefly, that it was translated into Greek and many European languages, and that it was long used in medical teaching. Popular article by a consultant anaesthetist on an advocacy site; no clinical detail of the distinction was extracted, so used only for the writing circumstances.",
+      "url": "https://muslimheritage.com/al-razis-treatise-on-smallpox/"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 63,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_razi_sep, src_razi_holmlund | c.900-925 | academic reference + undergraduate journal article] In the Doubts about Galen he criticised weak arguments in the authority he most admired, and the quoted preface says he was opposing the man who had taught him most; Adamson says the critique is argument-level and his own medical theory stays within the Galenic framework, and later physicians (and Ibn Sina) thought it presumptuous. The independence is therefore documented but bounded. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.52 to 63 / 0.50 because Adamson stresses that he stayed within the Galenic framework and the quoted preface is one passage read through a student article."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_razi_sep, src_razi_ewb | c.880-925 | academic reference + general biography] Surviving and listed works span medicine, philosophy and ethics (The Spiritual Medicine, The Philosophical Way of Life), alchemy with detailed procedures, and by report mathematics, logic, poetry, music and chess; the encyclopedia counts over 230 writings. The range is well attested by titles; the depth in each field is not assessed, and his religious writings survive only in hostile reports and are not used."
+    },
+    "experimentation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_razi_sep, src_razi_nlm, src_razi_ewb | c.890-925 | academic reference + library article + general biography] Adamson says he was a practising alchemist who described chemical procedures in detail and that the Comprehensive Book uses his own observations to confirm or disconfirm theories; the NLM and the encyclopedia credit careful observation in his clinical work. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.48 to 58 / 0.42 because Adamson (citing Savage-Smith) warns the Comprehensive Book is mostly excerpts with case notes used only as counterexamples, so 'clinical experimenter' is easily overstated and no experimental protocol is documented."
+    },
+    "analytical_rigor": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_razi_sep, src_razi_nlm, src_razi_naqvi | c.900-925 | academic reference + library article + popular article] The NLM credits him with separating smallpox from measles by careful observation (the encyclopedia calls the monograph 'astonishingly original' while noting smallpox had been described earlier), and in the Doubts he pointed out where Galen's arguments did not establish their conclusions. Adamson also says the Doubts was at times 'remarkably contentious' and lost sight of Galen's context, so the rigour is real but uneven; the popular article adds only that physicians asked him to write the treatise."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알 라지"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "The lead image (Wellcome Collection L0005053, an imagined portrait) is CC BY 4.0 at Wellcome with no creator, no date and no information on the original artwork, so its age and underlying rights cannot be shown; the other Commons depictions are a snapshot of a book reproduction with a misattributed creator, and a bath-house scene illustrating a legend (Aga Khan Museum folio, 1573-74) that is not a portrait. Next step: find a dated portrait or Latin-edition frontispiece with a stated creator and an item-level public-domain statement."
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / HELD: the Wellcome Collection work 'Portrait of Rhazes (al-Razi) (AD 865 - 925), physician and alchemist who lived in Baghdad' (L0005053, work id vv9w9wg4) is licensed CC BY 4.0 on the Wellcome catalogue (not a Public Domain Mark), and the Wellcome record has no creator, no date, no description of the original and no production data, so the underlying artwork's author and age cannot be shown; Commons repeats only the Wellcome CC BY 4.0 tag with empty artist and date fields. Rejected as an unidentified imagined portrait with no demonstrable age. Alternatives checked and rejected: (1) Commons 'Al-RaziInGerardusCremonensis1250' is a snapshot of a book reproduction (Sadaune) with the creator given as Gerard of Cremona (the text's translator, not an illuminator) and with an uncertain identification of the figure; (2) the Aga Khan Museum folio AKM272.f46v (Nigaristan, Shiraz, 1573-74, Commons PD-Art) is a bath-house scene illustrating a legendary anecdote in which he is a small figure, not a portrait, and the museum's own terms were not opened. BLOCKER: no depiction with documented creator, age and item-level public-domain statement that is a portrait. NEXT STEP: find a dated manuscript or print portrait of Rhazes (for example in Wellcome with a stated creator and date, or a library's open-access Latin edition frontispiece) with an item-level public-domain statement. PREFLIGHT: QID VERIFIED LIVE (2026-10-30) Q169234 label 'Abu Bakr al-Razi', description 'Persian polymath, physician, chemist and philosopher (854-925)', died 925, Wikidata lists five birth years; no production or candidate collision (grepped prod59 and data-pipeline/candidates for the QID and slug). BIRTH YEAR UNCERTAIN: stored as 865, the year in Adamson (SEP) and the Gale biography, with 854 to 866 attested elsewhere and the NLM giving c. 850. REGION west_asia: his base was Rayy (near Tehran) and Baghdad, following the repo precedents al-farabi and al-khwarizmi (west_asia, Abbasid polity) and ferdowsi (Iran); central_asia (as for ibn-sina, who worked in Bukhara) is the alternative but Rayy and Baghdad are not Central Asian, so judged west_asia; polity recorded as the Abbasid caliphate as for al-farabi, although Rayy was under Samanid governors. ERA medieval. ZERO POLITICS: primary identity is physician-philosopher; patrons and court service are context and unscored. VOCABULARY: occupations physician, chemist, philosopher; fields medicine, chemistry, philosophy; tags polymath and prolific; archetype scientific_explorer all have EN and KO labels (grepped en.ts and ko.ts). KOREAN NAME: 알 라지 (Wikidata Korean label, per the assignment). CANONICAL SIGNIFICANCE SOURCE: U.S. National Library of Medicine, NLM in Focus, 'Noteworthy: A Look at the Oldest Item in the NLM Collection' (https://infocus.nlm.nih.gov/2010/06/22/nestled_among_the_national_lib/). READ: NLM article (full), Stanford Encyclopedia of Philosophy by Peter Adamson (full), Encyclopedia of World Biography (full), Holmlund 2012 (intro and Galen section only), Naqvi 2012 (page summary only). Jewish Virtual Library was read and REJECTED as unreliable (it repeats unsupported 'first to' claims such as opium anaesthesia and sulfuric acid). NOT OPENED: Encyclopaedia Iranica (Cloudflare challenge page; not circumvented), Britannica, Goodman and Savage-Smith (known only via Adamson), ibn al-Nadim and ibn abi Usaybi'a (the medieval biographers, so no medieval anecdote is used), the smallpox treatise itself in translation, the Hawi, Kitab al-Mansuri. LEGEND vs SCHOLARSHIP: anecdotes about his hospital practice, his sight and the Samanid-bath story are legendary or late and are not scored; Adamson notes his philosophical and religious views survive mainly through hostile reports and so are not scored. PERSPECTIVES: national medical library, specialist philosophical reference, general biographical reference, undergraduate journal article, popular advocacy article; COUNTER-VOICES: Abu Hatim, Ibn Sina and later refuters of the Doubts (all via Adamson). SELF-CALIBRATION (agent): top-risk rows reviewed: independent_thinking (lowered 66/0.52 to 63/0.50: he stayed within the Galenic framework), experimentation (lowered 62/0.48 to 58/0.42: the Hawi is mostly excerpts), cross_domain_range (kept: attested by many independent title lists and capped at 0.52). FLAGS: only 4 rows (sparse, as expected for a medieval figure); max score 66, max confidence 0.52; no first-person behavioural text was read. HANDBACK59: {\"slug\": \"al-razi\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 66, \"old_confidence\": 0.52, \"new_score\": 63, \"new_confidence\": 0.5, \"reason\": \"Adamson stresses his medical theory stays within the Galenic framework and the preface quote is read through a student article\"}, {\"attribute\": \"experimentation\", \"old_score\": 62, \"old_confidence\": 0.48, \"new_score\": 58, \"new_confidence\": 0.42, \"reason\": \"the Comprehensive Book is mostly excerpts with case notes used only as counterexamples, and no experimental protocol is documented\"}], \"reviewed_kept\": [\"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none (pre-emptively hedged the smallpox 'first' claim and excluded unreliable JVL claims and legends)\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

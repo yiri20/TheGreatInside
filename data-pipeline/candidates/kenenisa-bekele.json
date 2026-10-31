@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kenenisa-bekele",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kenenisa Bekele",
+    "wikidataId": "Q9119",
+    "birthYear": 1982,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "ET"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bekele_wikidata",
+      "kind": "wikidata",
+      "title": "Kenenisa Bekele (Q9119), verified live via the Wikidata API (2026-10-28): label 'Kenenisa Bekele', description 'Ethiopian long-distance runner (track and field)', born 1982-06-13, no death date, Korean label 케네니사 베켈레, P18 images 'Kenenisa Bekele Berlin 17082009 cropped.JPG' and 'Kenenisabekele1.jpg'. Orientation only; not used for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9119"
+    },
+    {
+      "id": "src_bekele_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Kenenisa Bekele' (orientation only; not used as support for any row).",
+      "url": "https://en.wikipedia.org/wiki/Kenenisa_Bekele"
+    },
+    {
+      "id": "src_bekele_spikes",
+      "kind": "institution",
+      "title": "World Athletics Spikes, 'The Underdog' by Cathal Dennehy (20 April 2018, read in full). CANONICAL SIGNIFICANCE SOURCE: three Olympic golds and world titles on track and cross country, the 5000 m and 10,000 m world records, and his move to the marathon with his results from Paris 2014 to London 2017, including the two non-finishes; includes his own stated aim of a marathon world record, which is self-statement.",
+      "url": "https://worldathletics.org/spikes/news/kenenisa-bekele-underdog"
+    },
+    {
+      "id": "src_bekele_iaaf2008",
+      "kind": "institution",
+      "title": "IAAF (World Athletics) news report by David Powell, Beijing, 24 August 2008 (read in full): his Olympic-record wins in the 10,000 m (27:01.17) and 5000 m (12:57.82) at Beijing, the first Ethiopian to do that double since Miruts Yifter in 1980, his second Olympic 10,000 m title after Athens 2004, and his world records at both distances.",
+      "url": "https://www.worldathletics.org/competitions/olympic-games/news/after-distance-double-bekeles-legend-grows"
+    },
+    {
+      "id": "src_bekele_nampa",
+      "kind": "press",
+      "title": "NAMPA/ANA wire report 'More to come from Bekele', as published by Republikein (18 November 2019, read in full): his stop-start marathon record (2014 Paris debut win, 2016 Berlin win, sixth in London 2018), the two-month Nijmegen preparation with physiotherapy, nutrition and monitored training arranged by his manager, weekly mileage rising from about 45 km to 150 km, and the 2:01:41 Berlin win in September 2019, two seconds off the world record; includes quotes from his manager and from him.",
+      "url": "https://www.republikein.com.na/nuus/more-to-come-from-bekele2019-11-18"
+    },
+    {
+      "id": "src_bekele_handbook",
+      "kind": "press",
+      "title": "Marathon Handbook, 'How Kenenisa Bekele Used 5k And 10k Training To Set New Masters Marathon Record' by Jessy Carveth (read in full): the session types he shared for his 2019 Berlin build-up (short intervals such as 12 x 300 m and 30 x 400 m alongside marathon work), and his fourth place in 2:04:19 at Valencia 2023, reported as a masters world record, where he said he believed he could still improve.",
+      "url": "https://marathonhandbook.com/kenenisa-bekele-valencia/"
+    },
+    {
+      "id": "src_bekele_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'File:2024 London Marathon - Kenenisa Bekele.jpg' (checked for the portrait only; not used for any scoring).",
+      "url": "https://commons.wikimedia.org/wiki/File:2024_London_Marathon_-_Kenenisa_Bekele.jpg"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bekele_spikes, src_bekele_nampa, src_bekele_handbook, src_bekele_iaaf2008 | 2008-2023 | governing-body feature + wire report + running press] After his 2008 track double (IAAF) he said it was too early to think of the marathon; by 2014 he had moved up and won his Paris debut (Spikes, NAMPA). For Berlin 2019 his team rebuilt his preparation around a two-month Nijmegen camp with nutrition and physiotherapy support and a rise from about 45 km to 150 km a week (NAMPA), and he mixed 5000 m and 10,000 m-style intervals into marathon training (Marathon Handbook). Change of event and method is documented by three independent outlets; the reasons given are partly his manager's and his own."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bekele_spikes, src_bekele_nampa | 2016-2019 | governing-body feature + wire report] Spikes lists two non-finishes in his last three marathons at April 2018 and NAMPA records a sixth place in London 2018, yet NAMPA reports he returned with a new preparation and won Berlin in September 2019 in 2:01:41, two seconds off the world record; Spikes quotes his continued stated aim of the marathon record. Results and the comeback are reported independently; no health detail is used."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bekele_nampa, src_bekele_handbook, src_bekele_spikes | 2018-2023 | wire report + running press + governing-body feature] NAMPA reports weekly mileage of about 150 km in the monitored Nijmegen build-up with daily feedback on meals to his team; Marathon Handbook lists the structured sessions he shared (for example 12 x 300 m, 30 x 400 m, 20 accelerations in the taper); Spikes also gives build-up weeks above 150 km. Training load and structure are documented, but the sources are largely the team's and his own account, so this is an inference about discipline."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.53,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bekele_iaaf2008, src_bekele_spikes, src_bekele_handbook | 2004-2023 | governing-body report + feature + running press] IAAF documents Olympic-record wins in the 5000 m and 10,000 m at Beijing and a second Olympic 10,000 m title; Spikes quotes him saying the marathon world record is his main motivation, and Marathon Handbook has him at 41 running a reported masters record and saying he can still do better. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 72 / 0.58 to 68 / 0.53 because the motivation claims are his own statements and the results show performance rather than drive itself."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "케네니사 베켈레"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kenenisa-bekele-chan-2024.jpg",
+    "width": 800,
+    "height": 1200,
+    "source": "Wikimedia Commons file 'File:2024 London Marathon - Kenenisa Bekele.jpg': photograph by Katie Chan, own work, taken 21 April 2024 at the TCS London Marathon elite men's race, published under CC BY-SA 4.0. The race bib reads BEKELE. Original 1757 x 2636 pixels, downscaled to 800 x 1200 with no crop and no upscaling. Rights rest on the photographer's own-work licence statement on Commons.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Photo: Katie Chan, 2024, CC BY-SA 4.0",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:2024_London_Marathon_-_Kenenisa_Bekele.jpg",
+    "creator": "Katie Chan",
+    "date": "2024-04-21",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:2024_London_Marathon_-_Kenenisa_Bekele.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / resolved with a better file: both Wikidata P18 images were rejected. 'Kenenisa Bekele Berlin 17082009 cropped.JPG' (284 x 412) is a GFDL self-licence by a Commons uploader on a crop of an erki.nl photo by Erik van Leeuwen uploaded by a third party, so the GFDL grant cannot be verified. 'Kenenisabekele1.jpg' (Ian Robertson, Flickr, 2012) carries CC BY-2.0 with a 2015 Flickr review on Commons, but the Flickr page now shows All Rights Reserved, a licence conflict, so it was rejected. CHOSEN: Commons 'File:2024 London Marathon - Kenenisa Bekele.jpg', photographer Katie Chan (a named Commons contributor), own work, taken 21 April 2024 at the TCS London Marathon, licensed CC BY-SA 4.0, original 1757 x 2636, downscaled to 800 x 1200 with no upscaling or cropping. Identity: the race bib in the image reads BEKELE and the Commons description names him. CAVEATS: rights rest on the photographer's own-work CC BY-SA 4.0 statement (no separate review stamp seen); the file carries Commons' general personality-rights notice for identifiable people; CC BY-SA requires attribution and share-alike. PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q9119 label 'Kenenisa Bekele', description 'Ethiopian long-distance runner (track and field)', born 1982-06-13, no death date, Korean label 케네니사 베켈레; matches the lead. No production QID/slug collision (grepped prod59.txt) and no existing candidate file. REGION sub_saharan_africa (Ethiopia). LIVING SUBJECT: public documented professional behaviour only; his injuries, family and business interests mentioned in the sources are not used for any row or card. ZERO POLITICS: nothing political. VOCABULARY: occupation athlete, field sport, domain athletic, tags competitor and sustained_excellence, archetype competitive_performer are existing labelled ids (used by Kipchoge and Gebrselassie). CANONICAL SIGNIFICANCE SOURCE: World Athletics Spikes, 'The Underdog' (https://worldathletics.org/spikes/news/kenenisa-bekele-underdog); Britannica returned 403. READ in full: Spikes, IAAF Beijing 2008 report, NAMPA wire report, Marathon Handbook; Wikipedia orientation only. PERSPECTIVES: governing-body journalism (2008 and 2018), wire service, running-specialist press. COUNTER-VOICES: Spikes lists his non-finishes and calls him an outside bet; NAMPA records the sixth place in London 2018 and the stop-start marathon record; Marathon Handbook notes he was fourth at Valencia. SELF-MATERIAL: his quotes in Spikes and NAMPA are self-statements and never sole support. NOT OPENED: Olympics.com interview (timed out twice), Britannica, World Athletics athlete profile, race reports, any biography. SPARSE PROFILE: four rows, none above 70, four substantive sources (below the preferred 6 because of timeouts and 403s), flagged for the lead; fewer than 18 attributes by design. Source claims differ: Spikes says 16 world titles across cross country and track, Marathon Handbook says 19 world championship titles; no title count is used in any card. SELF-CALIBRATION (agent): top-risk rows reviewed: achievement_drive (72/0.58 lowered to 68/0.53: motivation claims are his own statements), adaptability (kept: three independent outlets). HANDBACK59: {\"slug\": \"kenenisa-bekele\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"achievement_drive\", \"old_score\": 72, \"old_confidence\": 0.58, \"new_score\": 68, \"new_confidence\": 0.53, \"reason\": \"motivation claims are his own statements and results show performance rather than drive itself\"}], \"reviewed_kept\": [\"adaptability\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

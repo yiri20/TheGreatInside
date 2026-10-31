@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "guru-nanak",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Guru Nanak",
+    "aliases": [
+      "Nanak",
+      "Baba Nanak",
+      "Nanak Dev",
+      "Guru Nanak Dev"
+    ],
+    "wikidataId": "Q83322",
+    "birthYear": 1469,
+    "deathYear": 1539,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "poet"
+    ],
+    "fieldIds": [
+      "religion"
+    ],
+    "impactDomains": [
+      "cultural",
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "mystic"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gurunanak_wikidata",
+      "kind": "wikidata",
+      "title": "Guru Nanak (Q83322), verified live via the Wikidata API (2026-10-30): label 'Guru Nanak', description 'First Sikh Guru and founder of Sikhism', born 1469-04-15, died 1539-09-22 (also 1538 and 1539-05-07 as other values), Korean label present, image 'Mural painting of Guru Nanak from Gurdwara Baba Atal Rai.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q83322"
+    },
+    {
+      "id": "src_gurunanak_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Guru Nanak', written by W. H. McLeod (read in full from the public web page). CANONICAL SIGNIFICANCE SOURCE: revered as founder and first Guru of Sikhism; says little about his life survives except through legend, anecdote and the janamsakhi anthologies; the revelatory experience at about thirty comes from a janamsakhi; his travels cannot be positively identified; four of his hymns refer to Babur's attacks so he had returned to the Punjab by 1520; the last years were spent at Kartarpur where 'it must be assumed' disciples gathered and the foundations of the Sikh community were 'presumably' laid; he chose Angad as successor; the year of death is disputed between 1538 and 1539. Scholarly encyclopedia entry by the historian most associated with the critical study of the sources; it hedges most episodes.",
+      "url": "https://www.britannica.com/biography/Guru-Nanak"
+    },
+    {
+      "id": "src_gurunanak_eos_kartarpur",
+      "kind": "institution",
+      "title": "Encyclopaedia of Sikhism (Punjabi University, Patiala), entry 'Kartarpur', read in full: the village on the right bank of the Ravi to which the settlement owed its origin, where Guru Nanak spent the last two decades of his life with his family, which became the principal seat of the Sikh faith, where Lehna (later Guru Angad) came for instruction and was named successor, and where he died in 1539; the habitation was later washed away by the river. Reference work written from within the Sikh scholarly tradition.",
+      "url": "https://eos.learnpunjabi.org/KARTARPUR.html"
+    },
+    {
+      "id": "src_gurunanak_eos_bala",
+      "kind": "institution",
+      "title": "Encyclopaedia of Sikhism (Punjabi University, Patiala), entry 'Bala Janam Sakhi', read in the first part: explains that the Bala tradition claims eyewitness authenticity through Bhai Bala, that the earliest extant version is dated 1525 in its own opening but that neither modern theory of its origin accepts its self-description because of its 'inconsistencies and fantasies', and that the claim was challenged in the twentieth century without being wholly demolished. Used to separate legend from scholarship; the later sections of the entry were not read.",
+      "url": "https://eos.learnpunjabi.org/BALA%20JANAM%20SAKHI.html"
+    },
+    {
+      "id": "src_gurunanak_webster",
+      "kind": "biography",
+      "title": "John C. B. Webster, 'Guru Nanak and the Historians', Journal of Sikh and Punjab Studies 30:1, read in full (about 85,000 characters via the Global Institute for Sikh Studies PDF): a historiographical survey that says, apart from his own contributions to the Adi Granth, historians rely on janamsakhis written long after his death and 'hagiographic, and hence very problematic'; compares McLeod, Grewal, Pashaura Singh and Gurinder Singh Mann on what he did at Kartarpur (the sangat, dharamsala, langar, a devotional pattern of regular devotion, teaching and daily labour, and the nomination of a successor), and records Mann's critique of McLeod's scepticism. Independent scholarly overview that exposes disagreement; the primary works it discusses were not opened.",
+      "url": "https://www.giss.org/jsps_vol_30/02-webster.pdf"
+    },
+    {
+      "id": "src_gurunanak_kirpalsingh",
+      "kind": "biography",
+      "title": "Kirpal Singh, 'Janamsakhi Tradition: An Analytical Study' (Singh Brothers, Amritsar, 2004), preface, contents and closing chapter 'Light Merges with the Divine Light' read from the publisher's PDF (the remaining roughly 650,000-character text was searched for langar and Kartarpur only): a former head of Punjab Historical Studies at Punjabi University who defends the janamsakhis as preserving authentic data from the hymns and Bhai Gurdas, argues against critics who question their historical validity, and describes Kartarpur worship, the compilation of the Japu with Lehna and the death at Kartarpur. Traditionalist counter-voice to McLeod's scepticism, so used only to show the dispute and for the Kartarpur description.",
+      "url": "https://www.sikhmissionarysociety.org/sms/smspublications/JanamsakhiTraditionAnAnalyticalStudy.pdf"
+    },
+    {
+      "id": "src_gurunanak_wellcome",
+      "kind": "archive",
+      "title": "Wellcome Collection record hjc7d4tw (reference 27298i), 'Page 101: Guru Nanak attended by his musician and holy man. Gouache drawing', unknown artist, Public Domain Mark in the Wellcome catalogue API, checked for the portrait only; not used for any scoring.",
+      "url": "https://wellcomecollection.org/works/hjc7d4tw"
+    }
+  ],
+  "rows": {
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gurunanak_britannica, src_gurunanak_eos_kartarpur, src_gurunanak_webster | c.1520-1539 | scholarly encyclopedia + reference work + historiographical survey] McLeod writes that the last years were spent at Kartarpur, where disciples are assumed to have gathered, 'presumably' the period when the foundations of the Sikh community were laid, and that Nanak chose Angad as successor; the Encyclopaedia of Sikhism has him settling at Kartarpur for his last two decades with Lehna coming for instruction and being named successor; Webster reports that McLeod, Pashaura Singh and Mann all see an organised community there (a pattern of devotion, teaching and daily labour), with Mann going furthest in calling him the founder of a panth with its own institutions. McLeod's own wording is hedged and Mann argues McLeod is too sceptical, so the row rests on community-building that is documented in outline but not in detail."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_gurunanak_britannica, src_gurunanak_webster | c.1500-1539 | scholarly encyclopedia + historiographical survey] Britannica says his teaching went beyond personal liberation to a life of service and lists sharing, honest living and service among his core principles, and Webster reports Pashaura Singh's view that the langar was the first practical expression of his mission to reform society and that Mann sees a deliberately new social order. These describe what he taught and the community's practices rather than recorded personal conduct. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.45 to 58 / 0.40 because the langar claim reaches this profile only through Webster's summary of Pashaura Singh and the 'core principles' list is a doctrinal summary, not behaviour."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gurunanak_britannica, src_gurunanak_webster, src_gurunanak_kirpalsingh | c.1500-1539 | scholarly encyclopedia + survey + traditionalist study] The corpus is the documentary core: many of his devotional hymns survive, composed for communal singing, and Britannica credits him with the Mool Mantar that opens the Adi Granth; Webster notes that historians treat his Adi Granth compositions as universally accepted as his own, and Kirpal Singh describes the compilation of the Japu. The same encyclopedia says the influence of Hindu devotional beliefs is much more apparent than Muslim influence and Mann's claim that he 'stands apart' is a scholar's judgement, so originality is recorded as moderate. Doctrine and miracle accounts were not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "나나크"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/guru-nanak-unknown-19c.jpg",
+    "width": 1200,
+    "height": 970,
+    "source": "Gouache drawing 'Guru Nanak attended by his musician and holy man' (page 101 of an album of Company drawings), unknown artist, Wellcome Collection reference 27298i, collection formed by Henry S. Wellcome. Wellcome's catalogue API marks the digital image with the Public Domain Mark; the Commons description dates it 'likely circa 19th century' (the catalogue itself gives no date). A later devotional picture painted centuries after his death, so shown as a later depiction and not as a likeness. Original image 2964 x 2396 pixels from the Wellcome IIIF server, downscaled to 1200 x 970 with no cropping and no upscaling.",
+    "license": "Public Domain Mark (Wellcome Collection)",
+    "licenseUrl": "https://creativecommons.org/share-your-work/public-domain/pdm/",
+    "attribution": "Unknown artist, Guru Nanak attended by his musician and holy man, gouache, probably 19th century, Wellcome Collection 27298i, Public Domain Mark",
+    "attributionUrl": "https://wellcomecollection.org/works/hjc7d4tw",
+    "creator": "Unknown artist",
+    "date": "probably 19th century",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://wellcomecollection.org/works/hjc7d4tw"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / the Wikidata P18 'Mural painting of Guru Nanak from Gurdwara Baba Atal Rai.jpg' is REJECTED: it is a CC BY-SA photograph (uploader 'own') of a mural attributed to named painters (Jaimal Singh Naqqash 1860-1916, Mehtab Singh Naqqash 1871-1940, Hukum Singh) that the Commons text says was largely repainted in 1971, so the mural is not clearly public domain and the photograph is a derivative of it. The 1839 British Library manuscript depiction on Commons is an uploader's own photograph with the BL page now returning 404, so not used. CHOSEN: Wellcome Collection 27298i (unknown artist, album of Company drawings, Public Domain Mark in the Wellcome API item record; an older Wellcome Images upload on Commons carried CC BY 4.0, both permissive). CAVEAT: the artist and exact date are unknown ('likely circa 19th century' per Commons; Wellcome gives no date), so the age basis rests on Wellcome's item-level Public Domain Mark for a collection assembled before Henry Wellcome's death in 1936; kind historical_depiction. PREFLIGHT: QID VERIFIED LIVE (2026-10-30) Q83322 label 'Guru Nanak', description 'First Sikh Guru and founder of Sikhism', born 1469-04-15, died 1539-09-22 (1538 and 1539-05-07 also listed); no production or candidate slug/QID collision (grepped prod59 and data-pipeline/candidates). REGION south_asia; ERA early_modern (born 1469, like Babur 1483 and Durer 1471); no historical polity key assigned (none in the vocabulary fits Lodi-era Punjab). ZERO POLITICS: primary identity is religious teacher and poet; the Babur-era hymns are historical context only and not scored. VOCABULARY: occupations religious_leader and poet, field religion, tags founder and mystic, archetype social_influencer, all with EN and KO labels (grepped en.ts and ko.ts). KO NAME: Wikidata Korean label, the standard transliteration. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Guru Nanak' by W. H. McLeod (https://www.britannica.com/biography/Guru-Nanak). READ: Britannica in full; Encyclopaedia of Sikhism 'Kartarpur' in full and 'Bala Janam Sakhi' first part; Webster's survey in full; Kirpal Singh 2004 (preface, contents, closing chapter, keyword searches). PERSPECTIVES: critical-historical encyclopedia (McLeod), Sikh scholarly reference, independent historiographical survey, traditionalist defence of the janamsakhis. COUNTER-VOICES: McLeod's scepticism versus Mann and Kirpal Singh; the EOS entry itself rejects the Bala janamsakhi's self-claim. LEGEND VERSUS SCHOLARSHIP: the three-day disappearance and the Mecca story are reported by Britannica as hagiography and are not used; the udasis (journeys) are not scored because Britannica says the route cannot be positively identified. NOT OPENED: Guru Granth Sahib texts, McLeod's books, Gurinder Singh Mann's 2012 article and Pashaura Singh's works (known only through Webster), the Encyclopaedia of Sikhism 'Langar' entry (not reachable). SPARSE PROFILE: three rows, none above 60, confidence 0.40-0.46; no row for travel, persistence or independence because the sources hedge them or the claim would be doctrine. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (62/0.45 lowered to 58/0.40), leadership_drive (kept), creative_originality (kept). HANDBACK59: {\"slug\": \"guru-nanak\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 3, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 62, \"old_confidence\": 0.45, \"new_score\": 58, \"new_confidence\": 0.4, \"reason\": \"the langar claim reaches the profile only through Webster's summary of Pashaura Singh and the core-principles list is a doctrinal summary, not behaviour\"}], \"reviewed_kept\": [\"leadership_drive\", \"creative_originality\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

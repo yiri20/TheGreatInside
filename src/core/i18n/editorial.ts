@@ -10545,6 +10545,312 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1977, after joining the Star Band de Dakar at 16, he and several band members left to form Etoile de Dakar, which promoted a more strongly Africanized version of mbalax sung mostly in Wolof.",
   "youssou-ndour.interpretation.turning_point.1":
     "This is consistent with moving from a joined group to leading his own sound.",
+  /* ---------------------------------------------------------- adi-shankara (Roster59) */
+  "adi-shankara.achievement.1":
+    "He wrote the earliest complete surviving commentaries on the Brahma Sutras, the Bhagavad Gita and the principal Upanishads, systematising the philosophy of nondual Brahman known as Advaita Vedanta.",
+  "adi-shankara.achievement.2":
+    "His independent work the Upadeshasahasri (A Thousand Teachings) is counted among his works, while scholars doubt his authorship of hundreds of other texts attributed to him.",
+  "adi-shankara.achievement.3":
+    "Stanford's encyclopedia calls him the most authoritative philosopher of Advaita Vedanta; tradition credits him with four or five monasteries, a claim that scholars treat as unverified.",
+  "adi-shankara.moment.1":
+    "In his Brahma Sutra commentary he argued against Yogacara idealism and against what he took to be the Madhyamika position that nothing has an essential ground, defending his own account of nondual existence.",
+  "adi-shankara.interpretation.moment.1":
+    "This is consistent with a thinker who built arguments against rival schools as well as expounding scripture.",
+  "adi-shankara.turning_point.1":
+    "Scholars place his work in the eighth century, but dependable records of his life beyond his writings are lacking, and the Shankaravijaya biographies were composed centuries after his death.",
+  "adi-shankara.interpretation.turning_point.1":
+    "This is consistent with a figure whose historical identity rests mainly on his texts rather than on documented events of his life.",
+  /* ---------------------------------------------------------- aziz-sancar (Roster59) */
+  "aziz-sancar.achievement.1":
+    "He worked out how nucleotide excision repair cuts damaged DNA, showing in 1983 that purified UvrA, UvrB and UvrC make dual incisions around a UV lesion, and later reconstituted the human reaction; he shared the 2015 Nobel Prize in Chemistry with Tomas Lindahl and Paul Modrich for the mechanisms of DNA repair.",
+  "aziz-sancar.achievement.2":
+    "As a doctoral student he cloned the gene for photolyase, the enzyme that repairs UV damage with visible light, and later showed that it carries two light-absorbing cofactors and works through a flavin electron-transfer cycle.",
+  "aziz-sancar.achievement.3":
+    "His lab found two human genes related to photolyase, which proved to be cryptochromes, and with collaborators showed they are essential parts of the mammalian circadian clock.",
+  "aziz-sancar.moment.1":
+    "To clone the photolyase gene he first needed a mutant lacking it; the screen failed on the first attempts and he reports it took about 11 months to isolate one.",
+  "aziz-sancar.interpretation.moment.1":
+    "This is consistent with a researcher who kept repeating a difficult experiment until it worked, though the account is largely his own.",
+  "aziz-sancar.moment.2":
+    "After his group reported in 1993 that humans lack photolyase, photolyase-like human genes turned up in 1995; they had no repair activity, and he proposed they were clock proteins and tested that idea.",
+  "aziz-sancar.interpretation.moment.2":
+    "This is consistent with a scientist who reinterpreted his own earlier conclusion when new genes appeared, as told in his own account.",
+  "aziz-sancar.turning_point.1":
+    "In 1996 he proposed that the two photolyase-like human proteins be named cryptochromes and tested whether they act in the circadian clock, moving his lab from DNA repair into clock biology.",
+  "aziz-sancar.interpretation.turning_point.1":
+    "This is consistent with a researcher who extended his work into a neighbouring field and learned it from scratch.",
+  /* ---------------------------------------------------------- cesaria-evora (Roster59) */
+  "cesaria-evora.achievement.1":
+    "She was the best-known performer of morna, Cape Verde's national music, and carried it to audiences around the world.",
+  "cesaria-evora.achievement.2":
+    "Her 1988 album La Diva aux pieds nus, recorded in Paris, began her international career, and Miss perfumado (1992) made her widely popular in Europe and led to a world tour.",
+  "cesaria-evora.achievement.3":
+    "She won a Grammy Award for her album Voz d'Amor, in the Best Contemporary World Music Album category according to the Recording Academy.",
+  "cesaria-evora.moment.1":
+    "Her first major US tour in autumn 1995 drew sell-out performances and standing ovations at the Montreal Jazz Festival that year, according to Contemporary Black Biography.",
+  "cesaria-evora.interpretation.moment.1":
+    "This is consistent with an ability to carry a local style onto very different stages and audiences.",
+  "cesaria-evora.turning_point.1":
+    "In 1988, at 47, she went to Paris at promoter Jose da Silva's invitation and recorded La Diva aux pieds nus, saying she had to record in France because she could find no help in Cape Verde.",
+  "cesaria-evora.interpretation.turning_point.1":
+    "This is consistent with taking up an outside opportunity to continue her career.",
+  /* ---------------------------------------------------------- chung-ju-yung (Roster59) */
+  "chung-ju-yung.achievement.1":
+    "He founded Hyundai Civil Industries in 1947 and built it into the Hyundai group, which grew into construction, shipbuilding, cars and electronics and became South Korea's largest business group.",
+  "chung-ju-yung.achievement.2":
+    "From 1971 to 1974 he built the Ulsan shipyard with no prior shipbuilding experience, borrowing abroad and taking tanker orders before the yard existed; Hyundai later became the world's largest shipbuilder.",
+  "chung-ju-yung.achievement.3":
+    "In the 1960s his firm built South Korea's first cross-country expressway, which TIME says the World Bank had judged economically unviable, and took construction contracts in Thailand and the Middle East.",
+  "chung-ju-yung.moment.1":
+    "With no shipyard and after several banks refused him, he pitched Barclays and won a loan and two tanker orders, building the yard and the ships at the same time.",
+  "chung-ju-yung.interpretation.moment.1":
+    "This is consistent with resourcefulness in securing finance and orders without existing assets.",
+  "chung-ju-yung.turning_point.1":
+    "In 1971 he decided to enter shipbuilding, moving Hyundai from construction into heavy industry, a path that made it a global builder but later helped load the group with debt.",
+  "chung-ju-yung.interpretation.turning_point.1":
+    "This is consistent with a willingness to take large, debt-financed risks.",
+  /* ---------------------------------------------------------- du-fu (Roster59) */
+  "du-fu.achievement.1":
+    "A Tang-dynasty poet, he is considered with Li Bai one of China's greatest poets, and is often called a poet-historian for verse that records the An Lushan Rebellion years.",
+  "du-fu.achievement.2":
+    "His poems on famine, unrest and hardship, many of them autobiographical, are the source of much of what is known of his own life and times.",
+  "du-fu.achievement.3":
+    "In his middle period he developed a new kind of realism that mixed prose and verse and joined private and public subjects, and he is best known for his mastery of regulated verse.",
+  "du-fu.moment.1":
+    "In his middle period he mixed prose and verse and put 'unpoetic' subjects beside traditional poetic ones, in poems such as the five-hundred-word account of his journey to Fengxian.",
+  "du-fu.interpretation.moment.1":
+    "This is consistent with a willingness to depart from established poetic convention, as described by one scholarly summary.",
+  "du-fu.turning_point.1":
+    "In 759 he gave up his official post and took his family west, beginning wandering years in which, according to EBSCO, he devoted himself almost entirely to his writing.",
+  "du-fu.interpretation.turning_point.1":
+    "This is consistent with sustained literary output continuing through years of displacement and poor health.",
+  /* ---------------------------------------------------------- guru-nanak (Roster59) */
+  "guru-nanak.achievement.1":
+    "He is revered as the founder and first Guru of Sikhism, a monotheistic faith centred on meditation on the divine name; the sources agree on little of his life beyond this and his hymns.",
+  "guru-nanak.achievement.2":
+    "Many of his devotional hymns, composed for communal singing, survive in the Adi Granth, which opens with the Mool Mantar that Britannica credits to him.",
+  "guru-nanak.achievement.3":
+    "He spent his last years at Kartarpur, where a community of disciples gathered around him, and he chose his follower Angad as successor before his death.",
+  "guru-nanak.moment.1":
+    "At Kartarpur he gave his followers a daily pattern of devotion, teaching and ordinary labour, according to McLeod's reconstruction as summarised by Webster.",
+  "guru-nanak.interpretation.moment.1":
+    "This is consistent with a leader who built a practical community structure and not only a body of teaching.",
+  "guru-nanak.turning_point.1":
+    "After his travels he settled at Kartarpur in the Punjab by about 1520 and spent his last two decades there, the period when scholars place the foundations of the Sikh community.",
+  "guru-nanak.interpretation.turning_point.1":
+    "This is consistent with a shift from itinerant teaching to deliberately gathering a settled community.",
+  /* ---------------------------------------------------------- hideyo-noguchi (Roster59) */
+  "hideyo-noguchi.achievement.1":
+    "At the Rockefeller Institute for Medical Research he detected the syphilis spirochete in the brains of patients with general paralysis in 1913, which a scholarly biography calls the one enduring accomplishment of his prolific syphilis period.",
+  "hideyo-noguchi.achievement.2":
+    "He isolated Bartonella bacilliformis and showed in animals that Oroya fever and verruga peruana are two forms of one disease.",
+  "hideyo-noguchi.achievement.3":
+    "From 1918 he reported Leptospira icteroides as the cause of yellow fever and a vaccine was made from it, but the claim was discredited by 1927 when the cause was shown to be a virus; he died of yellow fever in Accra in 1928.",
+  "hideyo-noguchi.moment.1":
+    "In Accra in 1927-28 he worked on the yellow fever virus question after the expedition's Adrian Stokes had died, and historians describe his laboratory as confused and his labelling and screening as careless.",
+  "hideyo-noguchi.interpretation.moment.1":
+    "This is consistent with a researcher whose laboratory practice was loose, as described by critical historians.",
+  "hideyo-noguchi.moment.2":
+    "In 1918 he reported a spirochete from patients in Ecuador, produced guinea pig infections without adequate controls, and the Rockefeller Institute distributed a vaccine made from it until 1926.",
+  "hideyo-noguchi.interpretation.moment.2":
+    "This is consistent with a fast, confident experimenter whose controls did not match the strength of his claim.",
+  "hideyo-noguchi.turning_point.1":
+    "In December 1900 he arrived at Simon Flexner's University of Pennsylvania laboratory in Philadelphia with borrowed passage money, and in 1904 he joined the Rockefeller Institute under Flexner, where he stayed for the rest of his career.",
+  "hideyo-noguchi.interpretation.turning_point.1":
+    "This is consistent with a researcher who staked his career on moving abroad with very little support.",
+  /* ---------------------------------------------------------- jeong-yak-yong (Roster59) */
+  "jeong-yak-yong.achievement.1":
+    "A scholar of late Joseon practical learning (Silhak), he wrote on governance, law and the Confucian classics, and his writings were gathered posthumously as the Yeoyudang jeonseo, 154 volumes in 76 books published in 1934-1938.",
+  "jeong-yak-yong.achievement.2":
+    "In exile at Gangjin after 1801 he completed the Mongmin simseo in 1818, a 48-chapter manual for local officials, and his Gyeongse yupyo proposed reforms including a state office to bring in technology.",
+  "jeong-yak-yong.achievement.3":
+    "As an official under King Jeongjo he took part in designing the pontoon bridge over the Han River (1789) and the Hwaseong fortress works (1792), and devised the geojunggi crane, though a historian notes only one unit is recorded in use.",
+  "jeong-yak-yong.moment.1":
+    "In designing the geojunggi he drew on the imported Gigi doseol but cut the iron and copper needed and dropped inessential provisions, concentrating on the basic principle.",
+  "jeong-yak-yong.interpretation.moment.1":
+    "This is consistent with adapting an outside design to local materials and needs.",
+  "jeong-yak-yong.moment.2":
+    "He completed the Mongmin simseo in 1818 in Gangjin, a 48-chapter, 16-volume guide to local administration drawing on his own earlier posts.",
+  "jeong-yak-yong.interpretation.moment.2":
+    "This is consistent with sustained, detailed writing aimed at practical use.",
+  "jeong-yak-yong.turning_point.1":
+    "After the 1801 persecution he spent 18 years in exile, 11 of them at the Dasan Chodang in Gangjin, where much of his writing on governance and the classics was produced.",
+  "jeong-yak-yong.interpretation.turning_point.1":
+    "This is consistent with a shift from official service to sustained scholarly writing.",
+  /* ---------------------------------------------------------- kenenisa-bekele (Roster59) */
+  "kenenisa-bekele.achievement.1":
+    "He set the world records at 5000 m and 10,000 m, which World Athletics' Spikes called untouchable in 2018.",
+  "kenenisa-bekele.achievement.2":
+    "He won Olympic gold in the 10,000 m at Athens 2004 and again at Beijing 2008, where he also won the 5000 m, a double no Ethiopian had managed since 1980.",
+  "kenenisa-bekele.achievement.3":
+    "Moving to the marathon, he won Paris in 2014 and Berlin in 2016, and won Berlin again in 2019 in 2:01:41, two seconds off the world record of the time.",
+  "kenenisa-bekele.moment.1":
+    "For Berlin 2019 his team rebuilt his preparation around a two-month camp in Nijmegen, raising his weekly mileage from about 45 km to 150 km, and he won in 2:01:41.",
+  "kenenisa-bekele.interpretation.moment.1":
+    "This is consistent with adapting methods when earlier approaches were not working.",
+  "kenenisa-bekele.turning_point.1":
+    "After his 2008 track double he said it was too early to think about the marathon, but he made his marathon debut in Paris in 2014 and won it.",
+  "kenenisa-bekele.interpretation.turning_point.1":
+    "This is consistent with a willingness to change events to pursue a new goal.",
+  /* ---------------------------------------------------------- kokichi-mikimoto (Roster59) */
+  "kokichi-mikimoto.achievement.1":
+    "He founded Japan's cultured pearl industry: after losing his first oysters in 1892 he succeeded with hemispherical cultured pearls in 1893, began selling cultured-pearl jewellery in 1899 and sold spherical cultured pearls in London from 1919.",
+  "kokichi-mikimoto.achievement.2":
+    "The round-pearl technique itself is credited to Nishikawa Tokichi and Mise Tatsuhei, who filed patents in 1907; Mikimoto patented his own implantation process in 1908, then from 1916 used the Mise-Nishikawa method and commercialised it.",
+  "kokichi-mikimoto.achievement.3":
+    "When his cultured pearls reached Europe they were attacked as fakes, and a French court ruled in 1924 that they do not differ from natural pearls; his production made pearls affordable.",
+  "kokichi-mikimoto.moment.1":
+    "According to PBS, he tested nucleus materials from glass, lead and clay to wood and found round shell nuclei cut from US mussel shells gave the best success rates.",
+  "kokichi-mikimoto.interpretation.moment.1":
+    "This is consistent with a trial-and-error approach to solving a technical problem.",
+  "kokichi-mikimoto.moment.2":
+    "In November 1892 a red tide killed all his experimental oysters in Ago Bay, yet in 1893 he obtained hemispherical pearls at another experimental site in Toba Bay.",
+  "kokichi-mikimoto.interpretation.moment.2":
+    "This is consistent with persistence after a major setback.",
+  "kokichi-mikimoto.turning_point.1":
+    "After his 1893 success he set up a full-scale programme for a pearl-culture business and in 1899 began selling cultured-pearl ornaments, opening a Tokyo shop, which turned an experiment into a market.",
+  "kokichi-mikimoto.interpretation.turning_point.1":
+    "This is consistent with a tendency to turn a technical result into a business without waiting to be asked.",
+  /* ---------------------------------------------------------- kukai (Roster59) */
+  "kukai.achievement.1":
+    "He travelled to Tang China in 804, studied esoteric Buddhism under Huiguo and returned in 806 with over 200 scriptures and ritual objects to found the Shingon school in Japan.",
+  "kukai.achievement.2":
+    "Emperor Saga granted him Mount Koya in 816 and the imperial temple Toji in 823, which became the centres of the Shingon school.",
+  "kukai.achievement.3":
+    "His writings, among them the Sangō shiiki and a late work on the ten stages of the mind, set out Shingon doctrine, and in 828 he opened a school of arts and sciences open to all regardless of rank.",
+  "kukai.moment.1":
+    "In 812 he agreed to give Saicho the introductory initiation but refused the final one until Saicho had completed his studies, and later declined to lend him a scripture.",
+  "kukai.interpretation.moment.1":
+    "This is consistent with a teacher who insisted that his tradition be learned through the full course of initiation and not from texts alone.",
+  "kukai.turning_point.1":
+    "In 804 he joined the Japanese embassy to Tang China and reached Chang'an, where Huiguo gave him the full initiation into both mandalas shortly before Huiguo died in 805.",
+  "kukai.interpretation.turning_point.1":
+    "This is consistent with a trajectory that turned from private training in Japan to carrying a complete esoteric lineage home.",
+  /* ---------------------------------------------------------- marta-vieira-da-silva (Roster59) */
+  "marta-vieira-da-silva.achievement.1":
+    "She is a six-time FIFA World Player of the Year (2006-2010 and 2018) and the Women's World Cup's record goalscorer with 17 goals, a tally FIFA states is the most in either the men's or women's tournament.",
+  "marta-vieira-da-silva.achievement.2":
+    "She is Brazil's all-time leading scorer with 122 goals and led the team to the 2007 World Cup final, where she won the Golden Ball and Golden Boot, and to Olympic silver medals in 2004, 2008 and 2024.",
+  "marta-vieira-da-silva.achievement.3":
+    "ESPN reports that she was the first Brazilian woman to play abroad when she joined Umea in Sweden; she later became a UN Women Goodwill Ambassador for women and girls in sport and received the FIFA Special Award in 2023, with a FIFA award now named after her.",
+  "marta-vieira-da-silva.moment.1":
+    "After Brazil's 2019 World Cup exit she gave an unplanned televised appeal to younger players, saying women's football 'depends on you to survive' and that there would not be a Marta or a Formiga forever.",
+  "marta-vieira-da-silva.interpretation.moment.1":
+    "This is consistent with a motivation to improve the game for those who follow her.",
+  "marta-vieira-da-silva.moment.2":
+    "At 14 she took a three-day bus journey from Dois Riachos to Rio de Janeiro for a trial at Vasco da Gama and was accepted.",
+  "marta-vieira-da-silva.interpretation.moment.2":
+    "This is consistent with a willingness to take a leap toward a professional career.",
+  "marta-vieira-da-silva.turning_point.1":
+    "In 2004, at 17, she left Brazil for Umea in northern Sweden after scouting at the 2003 World Cup, which ESPN describes as the first time a Brazilian woman had played abroad, and became a leading player there.",
+  "marta-vieira-da-silva.interpretation.turning_point.1":
+    "This is consistent with an ability to adapt to a very different setting.",
+  /* ---------------------------------------------------------- nawal-el-moutawakel (Roster59) */
+  "nawal-el-moutawakel.achievement.1":
+    "She won the first Olympic women's 400 m hurdles at the 1984 Los Angeles Games in 54.61 seconds, becoming Morocco's first Olympic champion and, according to Olympedia, the first woman from an Islamic nation to win Olympic gold; the field was weakened by the Soviet-bloc boycott.",
+  "nawal-el-moutawakel.achievement.2":
+    "Her win is credited by World Athletics, Laureus and Olympedia with opening sport to Arab and Muslim women, and she later organised a large women's road race in Casablanca.",
+  "nawal-el-moutawakel.achievement.3":
+    "She became a leading sports administrator: IAAF council member from 1995, IOC member from the late 1990s, chair of the IOC evaluation commission for the 2012 Games and an IOC Vice-President from 2012.",
+  "nawal-el-moutawakel.moment.1":
+    "After Los Angeles she organised a large women's road race in Casablanca, which Laureus says draws up to 30,000 women a year.",
+  "nawal-el-moutawakel.interpretation.moment.1":
+    "This is consistent with a motivation to widen women's participation in sport.",
+  "nawal-el-moutawakel.moment.2":
+    "After an ankle injury curtailed her post-collegiate season, she worked with her Iowa State coaches in Los Angeles to regain form and won the Olympic final.",
+  "nawal-el-moutawakel.interpretation.moment.2":
+    "This is consistent with persistence in recovering form for a major goal.",
+  "nawal-el-moutawakel.turning_point.1":
+    "After returning to Morocco in 1989-1990 she moved from competing into coaching and then into national and international sports bodies, which the 1999 World Athletics feature quotes her as seeing as necessary to improve women's sport.",
+  "nawal-el-moutawakel.interpretation.turning_point.1":
+    "This is consistent with a tendency to take on roles to change the system around her.",
+  /* ---------------------------------------------------------- octavio-paz (Roster59) */
+  "octavio-paz.achievement.1":
+    "A Mexican poet and essayist whose long poem Piedra de sol (1957) and collections such as Libertad bajo palabra and Blanco made him a central figure in 20th-century Spanish-language poetry, he received the Nobel Prize in Literature in 1990.",
+  "octavio-paz.achievement.2":
+    "In The Labyrinth of Solitude (1950), written while he was in France, he analysed Mexican character, history and culture; Britannica calls it an influential essay, and The Bow and the Lyre (1956) is among his studies of poetry.",
+  "octavio-paz.achievement.3":
+    "He co-founded the review Taller (1938), edited Plural (1971-1976) and, after it was closed, founded the review Vuelta in 1976, which was published until his death in 1998.",
+  "octavio-paz.moment.1":
+    "In The Monkey Grammarian (1974) he wrote a text that critics could not assign to a genre, which one reviewer said sits 'on the edge of genres' and which Paz had long sought as an intersection of poetry, narrative and essay.",
+  "octavio-paz.interpretation.moment.1":
+    "This is consistent with a drive to dissolve genre boundaries in his own work.",
+  "octavio-paz.turning_point.1":
+    "When Plural was censored and closed in 1976, Paz established Vuelta, a new review of literature and ideas that he edited until his death.",
+  "octavio-paz.interpretation.turning_point.1":
+    "This is consistent with rebuilding a project quickly after it was shut down.",
+  /* ---------------------------------------------------------- raja-ram-mohan-roy (Roster59) */
+  "raja-ram-mohan-roy.achievement.1":
+    "Britannica describes him as a religious, social and educational reformer, sometimes called the father of modern India, who founded the Atmiya Sabha (1815), the Anglo-Hindu School (1822), the Vedanta College (1826) and the Brahmo Samaj (1828).",
+  "raja-ram-mohan-roy.achievement.2":
+    "He argued against sati in two published conferences (1818, 1820), and Britannica says his writings emboldened the government's 1829 prohibition of the practice.",
+  "raja-ram-mohan-roy.achievement.3":
+    "He pressed for English-language, Western-style education, opening the Anglo-Hindu School with a curriculum that included science, and was founder and editor of two of India's earliest weekly newspapers.",
+  "raja-ram-mohan-roy.moment.1":
+    "When orthodox members objected to sitting on the Hindu College committee with him, he withdrew from it but, in Alexander Duff's account, kept working for the college from outside.",
+  "raja-ram-mohan-roy.interpretation.moment.1":
+    "This is consistent with pursuing a project's success over his own place in it.",
+  "raja-ram-mohan-roy.moment.2":
+    "After the missionary Joshua Marshman denounced his Precepts of Jesus, he answered with an Appeal to the Christian Public and later a Second and a Final Appeal.",
+  "raja-ram-mohan-roy.interpretation.moment.2":
+    "This is consistent with answering criticism in public rather than withdrawing from the dispute.",
+  "raja-ram-mohan-roy.turning_point.1":
+    "In 1827 he and other Bengalis withdrew support from the Unitarian association, and in 1828 he founded the Brahmo Samaj, against the wishes of his collaborator William Adam.",
+  "raja-ram-mohan-roy.interpretation.turning_point.1":
+    "This is consistent with choosing his own institutional line even when it broke with a close collaborator.",
+  /* ---------------------------------------------------------- samuel-ajayi-crowther (Roster59) */
+  "samuel-ajayi-crowther.achievement.1":
+    "In 1864 he was consecrated at Canterbury as bishop of the Niger territory, described in the Dictionary of African Christian Biography as the first African bishop of the Anglican church, and led the Church Missionary Society's Niger Mission with an African clergy and archdeacons.",
+  "samuel-ajayi-crowther.achievement.2":
+    "He prepared a Yoruba grammar and vocabulary on his voyage home in 1842, translated Scripture into Yoruba for decades, and the Yoruba Bible was published in the 1880s.",
+  "samuel-ajayi-crowther.achievement.3":
+    "He took part in the Niger expeditions of 1841, 1854 and 1857, whose journals the dictionary counts among his scholarly contributions; in 1890 he was forced to resign after accusations about his African staff, though the Society's committee exculpated him.",
+  "samuel-ajayi-crowther.moment.1":
+    "At Gbebe in 1857 he sat in the Galadima's ante-hall as local Mallams did, read John 3 in Hausa, taught the alphabet from an Ibo primer and gave the Galadima an Arabic Bible.",
+  "samuel-ajayi-crowther.interpretation.moment.1":
+    "This is consistent with adjusting his teaching to local custom and languages.",
+  "samuel-ajayi-crowther.moment.2":
+    "On his voyage back to England in 1842 he busied himself with translations and prepared a grammar and vocabulary of Yoruba.",
+  "samuel-ajayi-crowther.interpretation.moment.2":
+    "This is consistent with a sustained, self-directed interest in mastering and documenting languages.",
+  "samuel-ajayi-crowther.turning_point.1":
+    "In 1890 he was forced to resign as bishop after accusations about his African staff reached the Church Missionary Society; the dictionary says he made little effort to counter the charges.",
+  "samuel-ajayi-crowther.interpretation.turning_point.1":
+    "This is consistent with a soft-spoken style that left him slow to defend his staff and his authority.",
+  /* ---------------------------------------------------------- xuanzang (Roster59) */
+  "xuanzang.achievement.1":
+    "A Tang-dynasty Buddhist monk, he travelled to India against an imperial travel ban (reported as 627 or 629), studied at Nalanda and in 645 returned to China with Buddhist texts, reported as 657 works.",
+  "xuanzang.achievement.2":
+    "In Chang'an he directed a state-funded translation project whose team translated 1,338 chapters in eighteen years, with at least 75 works translated by him personally.",
+  "xuanzang.achievement.3":
+    "His Great Tang Records on the Western Regions remains one of the best historical sources for Central and South Asia in his period, and his journey became the basis of the Journey to the West legend.",
+  "xuanzang.moment.1":
+    "After his request to travel west was refused, he left China without official approval to reach the Buddhist homeland, and reports say he several times nearly died crossing Central Asia.",
+  "xuanzang.interpretation.moment.1":
+    "This is consistent with a high tolerance for personal risk in pursuit of a scholarly goal, as told by tradition-based sources.",
+  "xuanzang.turning_point.1":
+    "In 645 he returned to Chang'an to a triumphal welcome and committed the rest of his life to translating the texts he had brought back.",
+  "xuanzang.interpretation.turning_point.1":
+    "This is consistent with a shift from travel and study to long-term organised translation work.",
+  /* ---------------------------------------------------------- yasujiro-ozu (Roster59) */
+  "yasujiro-ozu.achievement.1":
+    "After the war he made films centred on the Japanese family, from Late Spring (1949) through Tokyo Story (1953) to An Autumn Afternoon (1962), a body of work the National Diet Library describes as sad yet humorous.",
+  "yasujiro-ozu.achievement.2":
+    "He developed a rigorously pared-down film language: a nearly motionless camera, plain cuts instead of fades and dissolves, and shots of empty rooms and landscapes between scenes.",
+  "yasujiro-ozu.achievement.3":
+    "His Tokyo Story was voted the Greatest Film of All Time in the BFI Sight and Sound directors' poll.",
+  "yasujiro-ozu.moment.1":
+    "He wrote his scripts over about four months with Kogo Noda, and by the end had fixed every image of every shot, so the scenario was never changed on set, according to actor Chishu Ryu.",
+  "yasujiro-ozu.interpretation.moment.1":
+    "This is consistent with a highly planned way of working.",
+  "yasujiro-ozu.moment.2":
+    "When CinemaScope became popular he said he wanted nothing to do with it, and shot more close-ups and shorter shots instead.",
+  "yasujiro-ozu.interpretation.moment.2":
+    "This is consistent with settling his methods by his own judgment rather than by prevailing trends.",
+  "yasujiro-ozu.turning_point.1":
+    "With Late Spring (1949) he began the postwar run of family stories, retold with variations many times, in his reduced style.",
+  "yasujiro-ozu.interpretation.turning_point.1":
+    "This is consistent with a late-career consolidation of a distinctive personal style.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -20943,6 +21249,312 @@ export const EDITORIAL_KO: Record<string, string> = {
     "16세에 스타 밴드 드 다카르에 들어간 그는 1977년 몇몇 밴드 동료와 함께 나와 에투알 드 다카르를 결성했고, 이 밴드는 대부분 월로프어로 부르는, 더 아프리카적인 음바랄락스를 내세웠다.",
   "youssou-ndour.interpretation.turning_point.1":
     "이는 몸담은 그룹에서 나와 자신의 소리를 이끄는 쪽으로 옮겨간 변화와 부합한다.",
+  /* ---------------------------------------------------------- adi-shankara (Roster59) */
+  "adi-shankara.achievement.1":
+    "브라흐마 수트라, 바가바드 기타, 주요 우파니샤드에 대해 현존하는 가장 이른 완결된 주석을 썼고, 이를 통해 불이일원론 브라만의 철학인 아드바이타 베단타를 체계화했다.",
+  "adi-shankara.achievement.2":
+    "독립 저작인 『우파데샤사하스리(천 가지 가르침)』는 그의 작품으로 꼽히지만, 그의 이름으로 전해지는 수백 편의 다른 문헌에 대해서는 학자들이 저자 여부를 의심한다.",
+  "adi-shankara.achievement.3":
+    "스탠퍼드 철학백과는 그를 아드바이타 베단타의 가장 권위 있는 철학자로 부르며, 전통은 그가 네다섯 곳의 수도원을 세웠다고 전하나 학자들은 이를 검증되지 않은 것으로 본다.",
+  "adi-shankara.moment.1":
+    "브라흐마 수트라 주석에서 그는 요가차라 관념론과, 그가 마디아마카의 입장이라 본 '본질적 근거는 없다'는 견해에 맞서 자신의 불이 존재론을 옹호했다.",
+  "adi-shankara.interpretation.moment.1":
+    "이는 경전을 풀이하는 데 그치지 않고 다른 학파에 맞서 논증을 세운 사상가의 면모와 부합한다.",
+  "adi-shankara.turning_point.1":
+    "학자들은 그의 활동을 8세기로 보지만 그의 저술 외에 신뢰할 만한 생애 기록은 없으며, 『샹카라비자야』 전기들은 그가 죽고 수 세기 뒤에 쓰였다.",
+  "adi-shankara.interpretation.turning_point.1":
+    "이는 생애의 기록된 사건보다 주로 저술에 의해 역사적 정체성이 정해지는 인물의 모습과 부합한다.",
+  /* ---------------------------------------------------------- aziz-sancar (Roster59) */
+  "aziz-sancar.achievement.1":
+    "그는 정제한 UvrA, UvrB, UvrC 단백질이 자외선 손상 부위 양쪽을 이중으로 절단한다는 것을 1983년에 보여 뉴클레오타이드 절제 수선의 작동 방식을 밝혔고, 이후 사람의 반응도 시험관에서 재구성했다. 이 DNA 수선 메커니즘 연구로 2015년 토마스 린달, 폴 모드리치와 노벨 화학상을 공동 수상했다.",
+  "aziz-sancar.achievement.2":
+    "박사과정 때 가시광선으로 자외선 손상을 고치는 효소 광분해효소(포토라이아제)의 유전자를 클로닝했고, 이후 이 효소가 빛을 흡수하는 보조인자 두 개를 지니며 플라빈의 전자 전달 순환으로 작동함을 밝혔다.",
+  "aziz-sancar.achievement.3":
+    "그의 연구실은 광분해효소와 유사한 사람 유전자 두 개를 찾아냈고, 이것이 크립토크롬임을 확인했으며 공동연구자들과 함께 이 단백질이 포유류 생체시계의 핵심 구성 요소임을 보였다.",
+  "aziz-sancar.moment.1":
+    "광분해효소 유전자를 클로닝하려면 먼저 이 유전자가 없는 돌연변이가 필요했는데, 선별 실험은 처음 여러 번 실패했고 그는 성공까지 약 11개월이 걸렸다고 밝힌다.",
+  "aziz-sancar.interpretation.moment.1":
+    "이는 어려운 실험을 성공할 때까지 반복한 연구자의 면모와 부합하지만, 이 이야기는 대체로 본인의 진술에 기댄다.",
+  "aziz-sancar.moment.2":
+    "1993년 사람에게는 광분해효소가 없다고 발표한 뒤, 1995년 광분해효소와 유사한 사람 유전자가 나타났다. 복구 활성이 없다는 것을 확인한 그는 이 유전자들이 생체시계 단백질일 것이라고 보고 그 가설을 검증했다.",
+  "aziz-sancar.interpretation.moment.2":
+    "이는 새 유전자가 나타나자 자신의 이전 결론을 다시 해석한 과학자의 면모와 부합하며, 이 서술은 본인의 설명에 따른 것이다.",
+  "aziz-sancar.turning_point.1":
+    "1996년 그는 광분해효소와 유사한 사람 단백질 두 가지를 크립토크롬이라 부르자고 제안하고 이들이 생체시계에서 작용하는지 검증하기 시작해, 연구실의 중심을 DNA 수선에서 생체시계 연구로 넓혔다.",
+  "aziz-sancar.interpretation.turning_point.1":
+    "이는 인접 분야로 연구를 넓혀 처음부터 배워 나간 연구자의 면모와 부합한다.",
+  /* ---------------------------------------------------------- cesaria-evora (Roster59) */
+  "cesaria-evora.achievement.1":
+    "그녀는 카보베르데의 대표 음악인 모르나의 가장 널리 알려진 가수였고, 이 음악을 전 세계 청중에게 전했다.",
+  "cesaria-evora.achievement.2":
+    "파리에서 녹음한 1988년 음반 『La Diva aux pieds nus』로 국제적 경력이 시작되었고, 1992년 『Miss perfumado』는 유럽에서 폭넓은 인기를 얻어 세계 순회공연으로 이어졌다.",
+  "cesaria-evora.achievement.3":
+    "그녀는 앨범 『Voz d'Amor』로 그래미상을 받았으며, 레코딩 아카데미에 따르면 부문은 최우수 현대 월드 뮤직 앨범이다.",
+  "cesaria-evora.moment.1":
+    "『Contemporary Black Biography』에 따르면 1995년 가을의 첫 대규모 미국 순회공연은 매진을 기록했고 같은 해 몬트리올 재즈 페스티벌에서 기립 박수를 받았다.",
+  "cesaria-evora.interpretation.moment.1":
+    "이는 지역 고유의 음악을 전혀 다른 무대와 청중에게 가져가는 능력과 부합한다.",
+  "cesaria-evora.turning_point.1":
+    "1988년 47세에 프로모터 조제 다 시우바의 초청으로 파리에 가서 『La Diva aux pieds nus』를 녹음했고, 카보베르데에서는 도와줄 사람을 찾지 못해 프랑스에서 녹음해야 했다고 말했다.",
+  "cesaria-evora.interpretation.turning_point.1":
+    "이는 경력을 이어 가기 위해 외부의 기회를 받아들인 것과 부합한다.",
+  /* ---------------------------------------------------------- chung-ju-yung (Roster59) */
+  "chung-ju-yung.achievement.1":
+    "1947년 현대토건을 세워 현대그룹으로 키웠고, 현대는 건설·조선·자동차·전자로 확장되어 한국 최대 규모의 기업집단이 되었다.",
+  "chung-ju-yung.achievement.2":
+    "1971~1974년 조선 경험이 전혀 없는 상태에서 해외 차입을 통해 울산 조선소를 지었고, 조선소가 생기기도 전에 유조선 주문을 받았으며, 현대는 이후 세계 최대 조선사가 되었다.",
+  "chung-ju-yung.achievement.3":
+    "1960년대 그의 회사는 한국 최초의 전국 고속도로를 건설했으며, 타임에 따르면 세계은행은 이 도로의 경제성이 없다고 평가했다. 또한 태국과 중동에서 건설 공사를 수주했다.",
+  "chung-ju-yung.moment.1":
+    "조선소도 없고 여러 은행에서 거절당한 상태에서 바클레이즈를 설득해 대출과 유조선 두 척의 주문을 따냈고, 조선소와 선박을 동시에 지었다.",
+  "chung-ju-yung.interpretation.moment.1":
+    "이는 기존 자산 없이 자금과 주문을 확보하는 기지와 부합한다.",
+  "chung-ju-yung.turning_point.1":
+    "1971년 조선업 진출을 결정하여 현대를 건설업에서 중공업으로 옮겼고, 이 길은 현대를 세계적 조선사로 만들었지만 훗날 그룹의 부채 부담에도 영향을 주었다.",
+  "chung-ju-yung.interpretation.turning_point.1":
+    "이는 큰 규모의 차입 위험을 감수하려는 성향과 부합한다.",
+  /* ---------------------------------------------------------- du-fu (Roster59) */
+  "du-fu.achievement.1":
+    "당나라 시인으로, 이백과 더불어 중국 최고의 시인으로 꼽히며, 안녹산의 난 시기를 기록한 시 때문에 흔히 '시사(詩史)'로 불린다.",
+  "du-fu.achievement.2":
+    "기근과 혼란, 고난을 다룬 그의 시는 대부분 자전적이며, 그 자신의 삶과 시대에 대해 알려진 내용의 상당 부분을 전한다.",
+  "du-fu.achievement.3":
+    "중기에 산문과 운문을 섞고 사적인 주제와 공적인 주제를 결합한 새로운 사실주의를 발전시켰으며, 율시(律詩)의 대가로 가장 잘 알려져 있다.",
+  "du-fu.moment.1":
+    "중기에 그는 산문과 운문을 섞고 전통적인 시적 소재 옆에 '비시적' 소재를 나란히 놓았으며, 봉선으로 가는 길을 읊은 오백 자 시가 그 예이다.",
+  "du-fu.interpretation.moment.1":
+    "이는 한 학술적 개설이 설명하듯 확립된 시적 관습에서 벗어나려는 태도와 부합한다.",
+  "du-fu.turning_point.1":
+    "759년 그는 관직을 버리고 가족과 함께 서쪽으로 떠나 방랑의 세월을 시작했으며, EBSCO에 따르면 이후 거의 전적으로 글쓰기에 몰두했다.",
+  "du-fu.interpretation.turning_point.1":
+    "이는 유랑과 건강 악화 속에서도 이어진 꾸준한 문학적 생산과 부합한다.",
+  /* ---------------------------------------------------------- guru-nanak (Roster59) */
+  "guru-nanak.achievement.1":
+    "그는 신의 이름에 대한 명상을 중심으로 한 일신교 시크교의 창시자이자 첫 번째 구루로 추앙받으며, 그의 생애는 찬가와 이 점을 빼면 확실히 알려진 것이 많지 않다.",
+  "guru-nanak.achievement.2":
+    "공동체 합창을 위해 지은 그의 신앙 찬가 다수가 아디 그란트에 전하며, 이 경전은 브리태니커가 그의 작품으로 보는 물 만트라(근본 만트라)로 시작한다.",
+  "guru-nanak.achievement.3":
+    "그는 말년을 카르타르푸르에서 보냈고 그곳에 제자들의 공동체가 모였으며, 사망 전에 제자 앙가드를 후계자로 지명했다.",
+  "guru-nanak.moment.1":
+    "웹스터가 요약한 맥클라우드의 재구성에 따르면, 그는 카르타르푸르에서 제자들에게 신앙 수행, 가르침, 일상 노동으로 이루어진 하루의 틀을 마련해 주었다.",
+  "guru-nanak.interpretation.moment.1":
+    "이는 가르침만이 아니라 실제 공동체의 틀을 만든 지도자의 모습과 일치한다.",
+  "guru-nanak.turning_point.1":
+    "여행을 마친 그는 1520년경까지 펀자브로 돌아와 카르타르푸르에 정착해 생애의 마지막 20년을 보냈으며, 학자들은 이 시기를 시크 공동체의 토대가 놓인 때로 본다.",
+  "guru-nanak.interpretation.turning_point.1":
+    "이는 순회 전도에서 정착한 공동체를 의도적으로 모으는 방식으로의 전환과 일치한다.",
+  /* ---------------------------------------------------------- hideyo-noguchi (Roster59) */
+  "hideyo-noguchi.achievement.1":
+    "록펠러 의학연구소에서 1913년 전신마비 환자의 뇌에서 매독 스피로헤타를 검출했고, 한 학술 전기는 이를 그의 왕성했던 매독 연구기의 유일하게 지속된 성과로 평가한다.",
+  "hideyo-noguchi.achievement.2":
+    "바르토넬라 바실리포르미스를 분리하고 동물실험으로 오로야열과 베루가 페루아나가 하나의 질병의 두 양상임을 보였다.",
+  "hideyo-noguchi.achievement.3":
+    "1918년부터 렙토스피라 이크테로이데스를 황열의 원인으로 보고했고 이를 이용한 백신이 만들어졌으나, 1927년까지 원인이 바이러스로 밝혀지며 그 주장은 부정되었다. 그는 1928년 아크라에서 황열로 사망했다.",
+  "hideyo-noguchi.moment.1":
+    "1927~28년 아크라에서 탐험대의 아드리안 스토크스가 사망한 뒤 황열 바이러스 연구에 매달렸으며, 역사가들은 그의 실험실이 어수선했고 표지 작업과 선별이 부주의했다고 기술한다.",
+  "hideyo-noguchi.interpretation.moment.1":
+    "이는 비판적 역사가들이 기술하듯 실험실 관리가 느슨했던 연구자의 모습과 부합한다.",
+  "hideyo-noguchi.moment.2":
+    "1918년 에콰도르 환자에게서 스피로헤타를 보고했고 충분한 대조 없이 기니피그 감염을 만들어 냈으며, 록펠러 연구소는 그 균으로 만든 백신을 1926년까지 배포했다.",
+  "hideyo-noguchi.interpretation.moment.2":
+    "이는 빠르고 자신 있게 실험했으나 대조군이 주장의 강도를 뒷받침하지 못한 연구자의 면모와 부합한다.",
+  "hideyo-noguchi.turning_point.1":
+    "1900년 12월 빌린 뱃삯으로 필라델피아의 사이먼 플렉스너 연구실에 도착했고, 1904년 플렉스너가 이끄는 록펠러 연구소에 합류해 평생 그곳에서 연구했다.",
+  "hideyo-noguchi.interpretation.turning_point.1":
+    "이는 거의 지원 없이 해외로 옮겨 경력을 건 연구자의 모습과 부합한다.",
+  /* ---------------------------------------------------------- jeong-yak-yong (Roster59) */
+  "jeong-yak-yong.achievement.1":
+    "조선 후기 실학자인 그는 통치, 법, 유교 경전에 관한 저술을 남겼으며, 그의 글은 사후 『여유당전서』 154권 76책으로 정리되어 1934~1938년에 간행되었다.",
+  "jeong-yak-yong.achievement.2":
+    "1801년 이후 강진 유배지에서 그는 지방 관리를 위한 48권의 지침서 『목민심서』를 1818년에 완성했고, 『경세유표』에서는 기술을 도입할 국가 관청 신설 등의 개혁을 제안했다.",
+  "jeong-yak-yong.achievement.3":
+    "정조 치하의 관리로서 그는 한강 배다리(1789)와 화성 축조(1792) 설계에 참여했고 거중기를 고안했으나, 한 역사학자는 실제 사용이 기록된 거중기가 한 대뿐이라고 지적한다.",
+  "jeong-yak-yong.moment.1":
+    "거중기를 만들 때 그는 수입된 『기기도설』을 참고하되 철과 구리 사용을 줄이고 불필요한 조항을 덜어내 기본 원리에 집중했다.",
+  "jeong-yak-yong.interpretation.moment.1":
+    "이는 외부의 설계를 현지의 재료와 필요에 맞게 고쳐 쓰는 태도와 부합한다.",
+  "jeong-yak-yong.moment.2":
+    "그는 1818년 강진에서 자신의 지방관 경험을 바탕으로 48권 16책의 지방 행정 지침서 『목민심서』를 완성했다.",
+  "jeong-yak-yong.interpretation.moment.2":
+    "이는 실용을 목표로 한 꾸준하고 세밀한 저술과 부합한다.",
+  "jeong-yak-yong.turning_point.1":
+    "1801년 박해 이후 그는 18년간 유배 생활을 했고 그중 11년을 강진 다산초당에서 보냈으며, 통치와 경전에 관한 그의 저술 대부분이 이 시기에 이루어졌다.",
+  "jeong-yak-yong.interpretation.turning_point.1":
+    "이는 관직 생활에서 꾸준한 학문 저술로 활동의 중심이 옮겨 갔음과 부합한다.",
+  /* ---------------------------------------------------------- kenenisa-bekele (Roster59) */
+  "kenenisa-bekele.achievement.1":
+    "5000m와 10,000m 세계 기록을 세웠으며, 월드 애슬레틱스의 스파이크스는 2018년 이 기록들을 '넘볼 수 없는' 것으로 표현했다.",
+  "kenenisa-bekele.achievement.2":
+    "2004년 아테네 올림픽 10,000m에서 금메달을 땄고 2008년 베이징 올림픽에서도 10,000m와 5000m를 석권했으며, 이는 1980년 이후 에티오피아 선수 누구도 이루지 못한 2관왕이었다.",
+  "kenenisa-bekele.achievement.3":
+    "마라톤으로 전향한 뒤 2014년 파리, 2016년 베를린에서 우승했고, 2019년 베를린에서 2시간 1분 41초로 다시 우승해 당시 세계 기록에 2초 차로 다가섰다.",
+  "kenenisa-bekele.moment.1":
+    "2019년 베를린 마라톤을 앞두고 팀은 네이메헌에서의 두 달 캠프를 중심으로 준비 방식을 새로 짰고, 주간 훈련량은 약 45km에서 150km로 늘었으며, 그는 2시간 1분 41초로 우승했다.",
+  "kenenisa-bekele.interpretation.moment.1":
+    "이는 기존 방식이 통하지 않을 때 방법을 바꾸는 적응력과 부합한다.",
+  "kenenisa-bekele.turning_point.1":
+    "2008년 트랙 2관왕 직후에는 마라톤을 생각하기엔 이르다고 했지만, 2014년 파리에서 마라톤에 데뷔해 우승했다.",
+  "kenenisa-bekele.interpretation.turning_point.1":
+    "이는 새로운 목표를 위해 종목을 바꾸려는 의지와 부합한다.",
+  /* ---------------------------------------------------------- kokichi-mikimoto (Roster59) */
+  "kokichi-mikimoto.achievement.1":
+    "그는 일본 양식진주 산업의 토대를 세웠다. 1892년 첫 굴을 잃은 뒤 1893년 반원 양식진주에 성공했고, 1899년 양식진주 장신구를 팔기 시작했으며 1919년부터 런던에서 구형 양식진주를 팔았다.",
+  "kokichi-mikimoto.achievement.2":
+    "구형 진주 기법 자체는 1907년 특허를 낸 니시카와 도키치와 미세 다쓰헤이의 공으로 여겨진다. 미키모토는 1908년 자신의 이식법으로 특허를 냈고 1916년부터 미세-니시카와 방식을 사용해 사업화했다.",
+  "kokichi-mikimoto.achievement.3":
+    "그의 양식진주가 유럽에 들어오자 가짜라는 공격을 받았으나 1924년 프랑스 법원은 양식진주가 천연진주와 다르지 않다고 판결했고, 그의 생산으로 진주는 값이 내렸다.",
+  "kokichi-mikimoto.moment.1":
+    "PBS에 따르면 그는 유리, 납, 점토, 나무 등 여러 핵 재료를 시험했고 미국산 민물 조개껍데기로 만든 둥근 핵이 가장 성공률이 높다는 것을 발견했다.",
+  "kokichi-mikimoto.interpretation.moment.1":
+    "이는 기술적 문제를 시행착오로 풀어 가는 방식과 일치하는 것으로 보인다.",
+  "kokichi-mikimoto.moment.2":
+    "1892년 11월 적조로 아고만의 실험용 굴이 모두 죽었지만, 1893년 도바만의 다른 실험장에서 반원 진주를 얻었다.",
+  "kokichi-mikimoto.interpretation.moment.2":
+    "이는 큰 좌절 뒤에도 계속 나아가는 끈기와 일치하는 것으로 보인다.",
+  "kokichi-mikimoto.turning_point.1":
+    "1893년의 성공 뒤 그는 본격적인 진주 양식 사업 계획을 세우고 1899년 양식진주 장신구 판매를 시작하며 도쿄에 가게를 열어 실험을 시장으로 바꾸었다.",
+  "kokichi-mikimoto.interpretation.turning_point.1":
+    "이는 기술적 성과를 누가 시키지 않아도 사업으로 전환하는 경향과 일치하는 것으로 보인다.",
+  /* ---------------------------------------------------------- kukai (Roster59) */
+  "kukai.achievement.1":
+    "804년 당나라로 건너가 혜과에게 밀교를 배운 뒤, 806년 200점이 넘는 경전과 의례 도구를 가지고 돌아와 일본에 진언종을 세웠다.",
+  "kukai.achievement.2":
+    "사가 천황은 816년 고야산을, 823년 교토의 도지를 그에게 내주었고, 이 두 곳이 진언종의 중심이 되었다.",
+  "kukai.achievement.3":
+    "《삼교지귀》와 만년의 십주심론 같은 저술로 진언 교리를 세웠고, 828년에는 신분에 관계없이 누구에게나 열린 학교 종예종지원을 열었다.",
+  "kukai.moment.1":
+    "812년 그는 사이초에게 입문 관정을 해 주겠다고 승낙했지만, 수학을 마치지 못했다는 이유로 마지막 관정은 거절했고 훗날 경전 대여도 거절했다.",
+  "kukai.interpretation.moment.1":
+    "이는 경전만이 아니라 정식 관정 과정을 통해 가르침을 배워야 한다고 고집한 스승의 모습과 일치한다.",
+  "kukai.turning_point.1":
+    "804년 그는 견당사 일행에 합류해 당나라 장안에 이르렀고, 혜과는 805년 사망하기 직전 그에게 두 만다라의 관정을 모두 전했다.",
+  "kukai.interpretation.turning_point.1":
+    "이는 일본 내 사적 수행에서 완전한 밀교 법맥을 가지고 돌아오는 경로로의 전환과 일치한다.",
+  /* ---------------------------------------------------------- marta-vieira-da-silva (Roster59) */
+  "marta-vieira-da-silva.achievement.1":
+    "FIFA 올해의 여자 선수상을 여섯 차례(2006~2010, 2018) 받았고, 여자 월드컵 통산 17골로 최다 득점자이다. FIFA는 이 기록이 남녀 월드컵을 통틀어 최다라고 밝힌다.",
+  "marta-vieira-da-silva.achievement.2":
+    "브라질 대표팀 역대 최다 득점자(122골)이며, 2007년 월드컵 결승 진출을 이끌며 골든볼과 골든부트를 받았고 올림픽에서 2004·2008·2024년 은메달을 땄다.",
+  "marta-vieira-da-silva.achievement.3":
+    "ESPN은 그가 스웨덴 우메오로 가며 해외에서 뛴 첫 브라질 여성 선수가 되었다고 전한다. 이후 유엔여성기구 스포츠 친선대사가 되었고 2023년 FIFA 특별상을 받았으며, FIFA 상 하나에 그의 이름이 붙었다.",
+  "marta-vieira-da-silva.moment.1":
+    "2019년 월드컵 탈락 직후 그는 계획 없이 방송 인터뷰에서 후배들에게 '여자 축구는 여러분에게 달려 있다'며 마르타도 포르미가도 영원하지 않다고 호소했다.",
+  "marta-vieira-da-silva.interpretation.moment.1":
+    "이는 뒤따르는 선수들을 위해 경기 환경을 개선하려는 동기와 일치하는 것으로 보인다.",
+  "marta-vieira-da-silva.moment.2":
+    "14세에 알라고아스의 도이스리아슈에서 리우데자네이루까지 사흘간 버스를 타고 가 바스쿠 다 가마 테스트를 받았고 합격했다.",
+  "marta-vieira-da-silva.interpretation.moment.2":
+    "이는 프로 선수의 길을 향해 과감히 나서는 태도와 일치하는 것으로 보인다.",
+  "marta-vieira-da-silva.turning_point.1":
+    "2004년 17세에 2003년 월드컵 스카우트를 계기로 스웨덴 북부 우메오로 떠났다. ESPN은 브라질 여성 선수가 해외에서 뛴 첫 사례라고 하며, 그는 이곳에서 정상급 선수로 자리 잡았다.",
+  "marta-vieira-da-silva.interpretation.turning_point.1":
+    "이는 전혀 다른 환경에 적응하는 능력과 일치하는 것으로 보인다.",
+  /* ---------------------------------------------------------- nawal-el-moutawakel (Roster59) */
+  "nawal-el-moutawakel.achievement.1":
+    "1984년 로스앤젤레스 올림픽 첫 여자 400m 허들에서 54초61로 우승해 모로코 최초의 올림픽 챔피언이 되었다. 올림페디아는 이슬람 국가 출신 여성 최초의 올림픽 금메달이라고 하며, 당시 소련권 불참으로 경쟁 구도가 약해진 대회였다.",
+  "nawal-el-moutawakel.achievement.2":
+    "세계육상연맹, 라우레우스, 올림페디아는 그의 우승이 아랍·이슬람권 여성에게 스포츠의 문을 열었다고 평가하며, 그는 이후 카사블랑카에서 대규모 여성 도로 달리기 대회를 조직했다.",
+  "nawal-el-moutawakel.achievement.3":
+    "그는 스포츠 행정가로 성장해 1995년 국제육상연맹 이사회에 들어갔고, 1990년대 후반 IOC 위원이 되었으며 2012년 올림픽 평가위원회 위원장과 2012년부터 IOC 부위원장을 맡았다.",
+  "nawal-el-moutawakel.moment.1":
+    "로스앤젤레스 이후 그는 카사블랑카에서 대규모 여성 달리기 대회를 조직했고, 라우레우스는 매년 최대 3만 명의 여성이 참가한다고 전한다.",
+  "nawal-el-moutawakel.interpretation.moment.1":
+    "이는 여성의 스포츠 참여를 넓히려는 동기와 일치하는 것으로 보인다.",
+  "nawal-el-moutawakel.moment.2":
+    "대학 졸업 후 시즌이 발목 부상으로 단축되었지만, 로스앤젤레스에서 아이오와주립대 코치들과 함께 컨디션을 되찾아 올림픽 결승에서 우승했다.",
+  "nawal-el-moutawakel.interpretation.moment.2":
+    "이는 중요한 목표를 위해 컨디션을 되찾는 끈기와 일치하는 것으로 보인다.",
+  "nawal-el-moutawakel.turning_point.1":
+    "1989~1990년 모로코로 돌아온 뒤 선수 생활에서 지도자, 이어 국내외 스포츠 기구로 활동 무대를 옮겼으며, 1999년 세계육상연맹 기사는 그가 여성 스포츠 개선을 위해 의사결정 영역에 들어가야 한다고 보았다고 전한다.",
+  "nawal-el-moutawakel.interpretation.turning_point.1":
+    "이는 자신을 둘러싼 체계를 바꾸기 위해 직접 역할을 맡는 경향과 일치하는 것으로 보인다.",
+  /* ---------------------------------------------------------- octavio-paz (Roster59) */
+  "octavio-paz.achievement.1":
+    "멕시코의 시인이자 수필가인 그는 장시 『태양의 돌』(1957)과 『말 아래의 자유』, 『블랑코』 같은 시집으로 20세기 스페인어권 시의 중심 인물이 되었고, 1990년 노벨 문학상을 받았다.",
+  "octavio-paz.achievement.2":
+    "프랑스에서 쓴 『고독의 미로』(1950)에서 그는 멕시코의 성격과 역사, 문화를 분석했고, 브리태니커는 이를 영향력 있는 에세이로 평가한다. 『활과 리라』(1956)는 그의 시 연구서 가운데 하나다.",
+  "octavio-paz.achievement.3":
+    "그는 잡지 『탈레르』(1938)를 공동 창간했고 『플루랄』(1971-1976)을 편집했으며, 이 잡지가 폐간된 뒤 1976년 『부엘타』를 창간해 1998년 그가 세상을 떠날 때까지 발행했다.",
+  "octavio-paz.moment.1":
+    "『원숭이 문법학자』(1974)에서 그는 비평가들이 장르를 정하지 못한 글을 썼는데, 한 평자는 이를 '장르의 가장자리'에 있다고 했고 파스는 오래전부터 시, 서사, 에세이의 교차점을 추구해 왔다.",
+  "octavio-paz.interpretation.moment.1":
+    "이는 자신의 작업에서 장르의 경계를 허물려는 지향과 부합한다.",
+  "octavio-paz.turning_point.1":
+    "1976년 『플루랄』이 검열을 받아 폐간되자 파스는 문학과 사상을 다루는 새 잡지 『부엘타』를 창간해 죽을 때까지 편집했다.",
+  "octavio-paz.interpretation.turning_point.1":
+    "이는 중단된 사업을 곧바로 다시 세우는 태도와 부합한다.",
+  /* ---------------------------------------------------------- raja-ram-mohan-roy (Roster59) */
+  "raja-ram-mohan-roy.achievement.1":
+    "브리태니커는 그를 종교·사회·교육 개혁가로 소개하며 '근대 인도의 아버지'로 불리기도 한다고 전한다. 그는 아트미야 사바(1815), 앵글로-힌두 학교(1822), 베단타 대학(1826), 브라흐모 사마지(1828)를 세웠다.",
+  "raja-ram-mohan-roy.achievement.2":
+    "그는 두 편의 대담집(1818년, 1820년)을 펴내 사티(순장 관습)에 반대했고, 브리태니커에 따르면 그의 글은 1829년 정부의 사티 금지 조치에 힘을 실었다.",
+  "raja-ram-mohan-roy.achievement.3":
+    "그는 영어 중심의 서양식 교육을 주장하여 과학을 포함한 교과를 가르치는 앵글로-힌두 학교를 열었고, 인도 최초기의 주간신문 두 곳을 창간하고 편집했다.",
+  "raja-ram-mohan-roy.moment.1":
+    "정통파 인사들이 그와 함께 힌두 대학 위원회에 앉기를 꺼리자 그는 위원회에서 물러났지만, 알렉산더 더프의 증언에 따르면 밖에서 계속 학교를 위해 힘썼다.",
+  "raja-ram-mohan-roy.interpretation.moment.1":
+    "이는 자신의 자리보다 사업의 성공을 우선하는 태도와 부합한다.",
+  "raja-ram-mohan-roy.moment.2":
+    "선교사 조슈아 마시먼이 그의 『예수의 가르침』을 비난하자 그는 『기독교 대중에게 보내는 호소』로 응수했고 이후 제2차, 마지막 호소문을 잇따라 발표했다.",
+  "raja-ram-mohan-roy.interpretation.moment.2":
+    "이는 비판을 피하지 않고 공개적으로 맞서 답하는 태도와 부합한다.",
+  "raja-ram-mohan-roy.turning_point.1":
+    "1827년 그와 다른 벵골인들은 유니테리언 협회에 대한 지원을 끊었고, 1828년 그는 협력자 윌리엄 애덤의 바람과 달리 브라흐모 사마지를 창설했다.",
+  "raja-ram-mohan-roy.interpretation.turning_point.1":
+    "이는 가까운 협력자와 갈라서더라도 자신의 조직 노선을 택하는 독립적 태도와 부합한다.",
+  /* ---------------------------------------------------------- samuel-ajayi-crowther (Roster59) */
+  "samuel-ajayi-crowther.achievement.1":
+    "1864년 그는 캔터베리에서 니제르 지역 주교로 성직 수임을 받았으며, 『아프리카 기독교 인명사전』은 그를 성공회 최초의 아프리카인 주교라고 설명한다. 그는 아프리카인 성직자와 대부제들과 함께 교회선교회의 니제르 선교를 이끌었다.",
+  "samuel-ajayi-crowther.achievement.2":
+    "그는 1842년 귀국 항해 중 요루바어 문법과 어휘집을 준비했고, 수십 년 동안 성경을 요루바어로 번역했으며, 요루바어 성경은 1880년대에 출간되었다.",
+  "samuel-ajayi-crowther.achievement.3":
+    "그는 1841년, 1854년, 1857년의 니제르 탐사에 참여했으며 사전은 그 일지를 그의 학문적 기여로 꼽는다. 1890년 아프리카인 동료들에 대한 비난 끝에 사임을 강요받았으나, 선교회 위원회는 그에게 책임이 없다고 판단했다.",
+  "samuel-ajayi-crowther.moment.1":
+    "1857년 그베베에서 그는 지역 말람들의 관습대로 갈라디마의 현관 홀에 앉아 요한복음 3장을 하우사어로 읽고 이보어 입문서로 글자를 가르쳤으며 갈라디마에게 아랍어 성경을 선물했다.",
+  "samuel-ajayi-crowther.interpretation.moment.1":
+    "이는 가르치는 방식을 현지의 관습과 언어에 맞추려 했던 태도와 부합한다.",
+  "samuel-ajayi-crowther.moment.2":
+    "1842년 영국으로 돌아가는 항해 중 그는 번역에 몰두하여 요루바어 문법과 어휘집을 준비했다.",
+  "samuel-ajayi-crowther.interpretation.moment.2":
+    "이는 언어를 익히고 기록하는 일에 대한 꾸준하고 자발적인 관심과 부합한다.",
+  "samuel-ajayi-crowther.turning_point.1":
+    "1890년 그의 아프리카인 동료들에 대한 비난이 교회선교회에 전달된 뒤 그는 주교직 사임을 강요받았다. 사전은 그가 이 비난에 맞서려는 노력을 거의 하지 않았다고 전한다.",
+  "samuel-ajayi-crowther.interpretation.turning_point.1":
+    "이는 조용한 성품 탓에 동료와 자신의 권위를 방어하는 데 소극적이었음과 부합한다.",
+  /* ---------------------------------------------------------- xuanzang (Roster59) */
+  "xuanzang.achievement.1":
+    "당나라의 승려 현장은 황제의 출국 금지에도 불구하고 인도로 떠나(627년 또는 629년으로 전함) 날란다에서 공부했고, 645년 불전 657부로 전해지는 경전을 가지고 중국으로 돌아왔다.",
+  "xuanzang.achievement.2":
+    "장안에서 국가가 후원하는 번역 사업을 이끌었으며, 그의 팀은 18년 동안 1,338권(장)을 번역했고 그 가운데 최소 75종은 그가 직접 번역했다.",
+  "xuanzang.achievement.3":
+    "그의 『대당서역기』는 당시 중앙아시아와 남아시아에 관한 가장 좋은 사료의 하나로 남아 있으며, 그의 여정은 『서유기』 전설의 바탕이 되었다.",
+  "xuanzang.moment.1":
+    "서쪽으로 가려는 청원이 거부되자 그는 공식 허가 없이 중국을 떠나 불교의 본고장으로 향했고, 기록에 따르면 중앙아시아를 건너는 동안 여러 번 죽을 고비를 넘겼다.",
+  "xuanzang.interpretation.moment.1":
+    "이는 학문적 목표를 위해 개인적 위험을 크게 감수하는 성향과 부합하나, 전승에 기댄 자료에 근거한다.",
+  "xuanzang.turning_point.1":
+    "645년 장안으로 돌아와 성대한 환영을 받은 그는 가져온 경전을 번역하는 일에 여생을 바쳤다.",
+  "xuanzang.interpretation.turning_point.1":
+    "이는 여행과 수학에서 장기적이고 조직적인 번역 작업으로의 전환과 부합한다.",
+  /* ---------------------------------------------------------- yasujiro-ozu (Roster59) */
+  "yasujiro-ozu.achievement.1":
+    "전쟁 뒤 『만춘』(1949)부터 『동경 이야기』(1953), 『꽁치의 맛』(1962)까지 일본의 가족을 다룬 영화를 만들었고, 일본 국립국회도서관은 이 작품들을 슬프면서도 유머가 있다고 설명한다.",
+  "yasujiro-ozu.achievement.2":
+    "그는 거의 움직이지 않는 카메라, 페이드와 디졸브 대신 단순한 컷, 장면 사이에 끼워 넣은 빈 방과 풍경 쇼트로 이루어진 극도로 절제된 영화 언어를 만들어 냈다.",
+  "yasujiro-ozu.achievement.3":
+    "그의 『동경 이야기』는 BFI 사이트 앤드 사운드 감독 투표에서 역대 최고의 영화로 선정되었다.",
+  "yasujiro-ozu.moment.1":
+    "배우 류 치슈에 따르면 그는 노다 고고와 약 넉 달에 걸쳐 시나리오를 썼고, 끝날 무렵에는 모든 쇼트의 모든 이미지를 정해 두어 촬영 현장에서 시나리오를 바꾸지 않았다.",
+  "yasujiro-ozu.interpretation.moment.1":
+    "이는 고도로 계획적인 작업 방식과 부합한다.",
+  "yasujiro-ozu.moment.2":
+    "시네마스코프가 유행할 때 그는 그것과 상관하고 싶지 않다고 말했고, 대신 클로즈업과 더 짧은 쇼트를 더 많이 사용했다.",
+  "yasujiro-ozu.interpretation.moment.2":
+    "이는 유행이 아니라 자신의 판단으로 방식을 정하는 태도와 부합한다.",
+  "yasujiro-ozu.turning_point.1":
+    "『만춘』(1949)으로 그는 전후 가족 이야기 연작을 시작했고, 이후 이 이야기를 변주하며 여러 번 다시 다루었으며 절제된 스타일을 유지했다.",
+  "yasujiro-ozu.interpretation.turning_point.1":
+    "이는 경력 후반에 독자적인 스타일이 굳어진 것과 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

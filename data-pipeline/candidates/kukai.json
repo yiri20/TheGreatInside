@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kukai",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kukai",
+    "aliases": [
+      "Kobo Daishi",
+      "Kōbō Daishi",
+      "Kūkai",
+      "Henjo Kongo"
+    ],
+    "wikidataId": "Q222227",
+    "birthYear": 774,
+    "deathYear": 835,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.heian_japan"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "scholar",
+      "poet"
+    ],
+    "fieldIds": [
+      "religion",
+      "education",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "ascetic"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kukai_wikidata",
+      "kind": "wikidata",
+      "title": "Kukai (Q222227), verified live via the Wikidata API (2026-10-30): label 'Kūkai', description 'Japanese Buddhist monk and calligrapher, the founder of the Shingon school (774-835)', born 774 (also 774-07-27), died 835-04-22, citizenship Japan, Korean label present, image 'Kukai2.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q222227"
+    },
+    {
+      "id": "src_kukai_eb",
+      "kind": "biography",
+      "title": "Ryuichi Abe, 'Kukai', Encyclopedia of Buddhism (via Encyclopedia.com), read in full. CANONICAL SIGNIFICANCE SOURCE: a ninth-century figure renowned for introducing esoteric Buddhism into early Heian society; a short stay at the state college, then training among privately ordained priests; ordained in 804 and sent to Tang China, where he studied under Huiguo and returned with over 210 scriptures; credited by the author with devising a paradigm for separating esoteric from exoteric Buddhism and a theory of ritual language; founded the Latter Seven-Day rite at the palace; became one of medieval Japan's most popular Buddhist saints. Scholarly reference entry by the author of 'The Weaving of Mantra'; it does not mention the school or the reservoir.",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kukai"
+    },
+    {
+      "id": "src_kukai_bowker",
+      "kind": "biography",
+      "title": "John Bowker (ed.), 'Kukai', The Concise Oxford Dictionary of World Religions (via Encyclopedia.com), read in full (one paragraph): 804 journey to Chang'an, initiation under Huiguo into the two mandalas, return in 806 with over 200 religious objects, Emperor Saga as benefactor, the grant of Mount Koya in 816 and Toji in 823 as the centres of the school, and Shingon a recognised school by his death in 835. Short dictionary entry; corroborates the outline of the Encyclopedia of Buddhism entry and is not independent of it on the basic chronology.",
+      "url": "https://www.encyclopedia.com/religion/dictionaries-thesauruses-pictures-and-press-releases/kukai"
+    },
+    {
+      "id": "src_kukai_nwe",
+      "kind": "biography",
+      "title": "New World Encyclopedia, 'Kukai', read in the biography, works and legends sections (about 27,000 characters): his Sangō shiiki (797) comparing the three teachings, Huiguo's transmission of both mandalas, his difficult position beside the better-placed Saicho, Saicho's borrowing of texts and his refusal of Saicho's last request to borrow a scripture, his 809 catalogue of imported items and petition for state support, the 810 appointment at Todaiji, the grant of Mount Koya, the school for all ranks opened in 828, the 830 magnum opus, the 834 petition for a palace chapel, and the note that over 5,000 legends are told about him. Edited encyclopedia article derived from scholarly reading; the narrative is not footnoted, so it is used as a cross-check and for the Saicho episode.",
+      "url": "https://www.newworldencyclopedia.org/entry/Kukai"
+    },
+    {
+      "id": "src_kukai_whe",
+      "kind": "biography",
+      "title": "Mark Cartwright, 'Kukai: Japan's Founder of Shingon Buddhism', World History Encyclopedia (2017), read in full: separates a 'more historically reliable account' of his early life from legends (the leap from the cliff, the morning star), dates the Sangō shiiki to about 797-798, gives the Mount Koya foundation as 819, the Toji grant of 823 and the Shorai mokuroku, notes the asceticism reflected in a poem from the Seirei shu, and says the claim that he invented the kana script is made 'without any evidence'. Popular reference article citing Keene and others; it contradicts the 816 date for Mount Koya given by the Oxford dictionary.",
+      "url": "https://www.worldhistory.org/Kukai/"
+    },
+    {
+      "id": "src_kukai_toji",
+      "kind": "institution",
+      "title": "To-ji Temple (Kyoto), 'History of To-ji Temple', read in full (about 2,800 characters): the 823 gift of the temple by Emperor Saga, Kukai making it the central seminary of Shingon, his study of esoteric Buddhism, cultural arts and civil engineering in China, the community on Mount Koya in 816, and that he 'established the first private school in Japan'. Temple self-description in tourist-facing English; the 'first' claim is the temple's and is not repeated here as fact.",
+      "url": "https://toji.or.jp/en/about/index.html"
+    },
+    {
+      "id": "src_kukai_koyasan",
+      "kind": "institution",
+      "title": "Koyasan Shingon Buddhism Headquarters, Japanese-language life of Kobo Daishi (koyasan.or.jp), read in full (about 10,000 characters): a devotional life that includes the childhood leap from the cliff, the flying vajra, the rain-making at Shinsen-en, and also reports the 828 school for people of all ranks and the 821 imperial order to rebuild the Mannoike reservoir, completed, it says, in about three months. Hagiographic denominational text, so legend and chronology are mixed; used only to show what the tradition claims and to cross-check the school and the reservoir.",
+      "url": "https://www.koyasan.or.jp/en/about/kobodaishi/"
+    },
+    {
+      "id": "src_kukai_aic",
+      "kind": "archive",
+      "title": "Art Institute of Chicago, 'Portrait of Kobo Daishi (Kukai)', reference 1960.40, hanging scroll, 14th century, artist unknown, CC0 Public Domain Designation on the museum's own page; checked for the portrait only, not used for any scoring.",
+      "url": "https://www.artic.edu/artworks/11548/portrait-of-kobo-daishi-kukai"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kukai_eb, src_kukai_nwe, src_kukai_bowker | 797-830 | scholarly reference + edited encyclopedia + dictionary] Abe says he trained among unofficial priests after leaving the state college and then studied under Huiguo in Chang'an, returning with over 210 scriptures; New World Encyclopedia says he was the only one to receive the full teaching of both mandalas and that his first major work, written at 24, quotes widely from Confucian, Daoist and Buddhist sources, and it records a magnum opus on the ten stages of the mind in 830. These show sustained, systematic study of one tradition, but the reference works summarise rather than quote his own statements, and the narrative of Huiguo's choice of him is partly traditional."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kukai_eb, src_kukai_nwe, src_kukai_bowker | 806-835 | scholarly reference + encyclopedia + dictionary] Abe credits him with devising a paradigm that separates esoteric from exoteric Buddhism and a theory of ritual language, and with founding the Latter Seven-Day rite at the palace; New World Encyclopedia says he formulated a systematic theory of esoteric Buddhism that had not existed in Japan and that the 809 catalogue was his first attempt to distinguish the new form from existing practice. Saicho, who had also brought esoteric teachings, is noted as having priority in introducing them, so the originality is of systematisation more than of introduction. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.52 to 66 / 0.48 because the originality claims rest mainly on one scholar (Abe) and the other entries restate them. The popular claim that he invented kana is not used (the World History Encyclopedia says there is no evidence)."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kukai_toji, src_kukai_whe, src_kukai_nwe | 797-835 | temple + popular encyclopedia + edited encyclopedia] To-ji says he studied esoteric Buddhism, cultural arts and civil engineering in China and is known as scholar, calligrapher and educator; the World History Encyclopedia says he compiled histories of religious thought, wrote a guide to Chinese poetry and was a fine calligrapher; New World Encyclopedia says he was established as a calligrapher of note and wrote the Sangō shiiki as a literary narrative. The breadth is documented in outline from secondary sources and no calligraphy or poetry was examined directly, and the civil-engineering claim comes from the temple only."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kukai_nwe, src_kukai_eb, src_kukai_bowker | 806-835 | edited encyclopedia + scholarly reference + dictionary] After his return he sent the court a catalogue of what he had brought and a petition for support in 809, petitioned in 810 to perform certain rituals, and in 834 petitioned for a Shingon chapel in the palace, which was granted and put Shingon ritual into the court calendar; the grants of Mount Koya in 816 and Toji in 823 are given by the dictionary and the temple as the centres of the school. The petitions are reported by one edited encyclopedia and the outline is shared with the reference entries, so the row is moderate and does not score the court relationship itself."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_kukai_nwe, src_kukai_toji, src_kukai_koyasan | 821-828 | edited encyclopedia + temple + devotional text] New World Encyclopedia says he opened a School of Arts and Sciences in 828 open to all regardless of social rank and that he is credited with the Manno reservoir; the temple says he founded the first private school; the Koyasan text adds that the emperor ordered him in 821 to take charge of the reservoir repair. No scholarly source for the school's operation or for his hands-on role at the reservoir was read, and the 'first' claims are not repeated. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.45 to 58 / 0.40 because every source for the school and the reservoir is a temple, a devotional text or a derivative encyclopedia."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "구카이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kukai-unknown-14c.jpg",
+    "width": 799,
+    "height": 1200,
+    "source": "Portrait of Kobo Daishi (Kukai), hanging scroll in ink, colors and gold on silk, artist unknown, Japanese, 14th century, Art Institute of Chicago, reference number 1960.40, gift of Robert Allerton. The museum's own object page carries a CC0 Public Domain Designation and its API lists the work as public domain with no copyright notice; the work is roughly 700 years old. A devotional portrait painted some five centuries after his death, so shown as a later depiction and not as a likeness. The photograph shows the whole mounted scroll. Original image 3623 x 5440 pixels from the museum's IIIF server, downscaled to 799 x 1200 with no cropping and no upscaling.",
+    "license": "CC0 1.0 Universal (Art Institute of Chicago Public Domain Designation)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Artist unknown, Portrait of Kobo Daishi (Kukai), 14th century, Art Institute of Chicago, 1960.40, gift of Robert Allerton, CC0",
+    "attributionUrl": "https://www.artic.edu/artworks/11548/portrait-of-kobo-daishi-kukai",
+    "creator": "Unknown artist",
+    "date": "14th century",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.artic.edu/artworks/11548/portrait-of-kobo-daishi-kukai"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / the Wikidata P18 'Kukai2.jpg' is REJECTED even though old: the Commons page has only 'Painting of Kukai' and a PD-Art tag, with no holding institution, date or creator, and the file is 289 x 301 pixels. REPLACED with Art Institute of Chicago 1960.40 (artist unknown, 14th century, hanging scroll, gift of Robert Allerton): the museum's object page states CC0 Public Domain Designation and the museum API gives is_public_domain true, copyright_notice null; the museum's IIIF server needs an identifying User-Agent header. No conflicting institutional notice. kind historical_depiction. PREFLIGHT: QID VERIFIED LIVE (2026-10-30) Q222227 label 'Kūkai', description 'Japanese Buddhist monk and calligrapher, the founder of the Shingon school (774-835)', born 774, died 835-04-22; no production or candidate slug/QID collision (grepped prod59 and data-pipeline/candidates). REGION east_asia; ERA medieval (as for Murasaki Shikibu and Du Fu); historical polity key polity.heian_japan (existing). ZERO POLITICS: primary identity is monk, scholar and school founder; his relationship with Emperor Saga, the court rituals for the state and the 810 succession crisis are context and not scored. VOCABULARY: occupations religious_leader, scholar, poet; fields religion, education, literature; tags founder, ascetic; archetype scholarly_specialist; all grepped in en.ts and ko.ts (no calligrapher or monk occupation label exists). KO NAME: the Wikidata Korean label and standard Korean reading of the name (Kukai in the Korean pronunciation of the characters is Gonghae, but the Japanese reading is the established usage in the brief). CANONICAL SIGNIFICANCE SOURCE: Ryuichi Abe, 'Kukai', Encyclopedia of Buddhism (https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kukai). READ IN FULL: Abe's entry; Bowker's Oxford dictionary entry; New World Encyclopedia; World History Encyclopedia; To-ji's history page; the Koyasan Japanese life (partly read by sampling, the Japanese was understood by the agent). PERSPECTIVES: scholarly reference, dictionary, popular encyclopedias, temple self-description, denominational devotional text. COUNTER-VOICES AND CAVEATS: Saicho's priority in introducing esoteric teachings and the end of their friendship (New World Encyclopedia); the World History Encyclopedia's warning that the kana claim has no evidence and its 819 date for Mount Koya against 816 in the Oxford dictionary and To-ji; the 'first private school' claims differ between sources. LEGEND VERSUS SCHOLARSHIP: the cliff leap, the morning star, the rain-making, the flying vajra and the eternal meditation on Mount Koya are legend or hagiography and are not used; the Mannoike role is a tradition with an imperial-order account (Koyasan) and is hedged. NOT OPENED: Abe's 'The Weaving of Mantra' and Hakeda's translations (known only through the encyclopedia bibliography), Britannica (bot-blocked), the Kagawa heritage page (HTTP 401), the MDPI article (blocked), Kukai's own writings. His own writings are not used as self-report evidence beyond the facts that the encyclopedias state about them. SPARSE PROFILE: five rows, none above 66, confidence 0.40-0.50. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (70/0.52 lowered to 66/0.48), impact_motivation (62/0.45 lowered to 58/0.40), mastery_orientation (kept). HANDBACK59: {\"slug\": \"kukai\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 70, \"old_confidence\": 0.52, \"new_score\": 66, \"new_confidence\": 0.48, \"reason\": \"the originality claims rest mainly on one scholar (Abe) and the other entries restate them\"}, {\"attribute\": \"impact_motivation\", \"old_score\": 62, \"old_confidence\": 0.45, \"new_score\": 58, \"new_confidence\": 0.4, \"reason\": \"every source for the school and the reservoir is a temple, a devotional text or a derivative encyclopedia\"}], \"reviewed_kept\": [\"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

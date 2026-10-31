@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "chung-ju-yung",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Chung Ju-yung",
+    "aliases": [
+      "Jeong Ju-yung",
+      "Chung Ju-yung",
+      "정주영",
+      "鄭周永"
+    ],
+    "wikidataId": "Q468467",
+    "birthYear": 1915,
+    "deathYear": 2001,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "KR"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business",
+      "engineering"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "engineering"
+    ],
+    "tagIds": [
+      "founder",
+      "leader",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_chung_wikidata",
+      "kind": "wikidata",
+      "title": "Chung Ju-yung (Q468467), verified live via the Wikidata API (2026-10-28): label 'Jeong Ju-yung', Korean label 정주영, description 'South Korean businessman (1915-2001)', born 1915-11-25, died 2001-03-21, P18 image 'Chung Ju-yung.jpg'. Orientation only; not used for any row.",
+      "url": "https://www.wikidata.org/wiki/Q468467"
+    },
+    {
+      "id": "src_chung_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Chung Ju-yung' (orientation only, flagged by Wikipedia itself as needing citations and having promotional wording; not used as support for any row).",
+      "url": "https://en.wikipedia.org/wiki/Chung_Ju-yung"
+    },
+    {
+      "id": "src_chung_time",
+      "kind": "press",
+      "title": "TIME, 'Chung Ju Yung' by Michael Schuman (13 November 2006, read in full). CANONICAL SIGNIFICANCE SOURCE: founder of Hyundai, creator of a leading shipbuilder, carmaker and chip maker, the 1960s expressway the World Bank judged unviable, the first Korean-built tanker and car export, close ties to Park Chung Hee, the later imperious style and debt-driven expansion that broke the group up after 1997.",
+      "url": "https://time.com/archive/6679012/chung-ju-yung"
+    },
+    {
+      "id": "src_chung_csm",
+      "kind": "press",
+      "title": "Christian Science Monitor, 'Industrialist mirrored Korean economy's rise, demise' by Michael Baker, 23 March 2001 (read in full): obituary-style account of his origins, wartime contracts, the shipyard financing pitch to Barclays, family management, the 1997 crisis, and critical analyst comment on family-dominated management.",
+      "url": "https://www.csmonitor.com/2001/0323/p8s1.html"
+    },
+    {
+      "id": "src_chung_lankov",
+      "kind": "press",
+      "title": "The Korea Times, 'Chung Ju-yung: embodiment of Korea's economic miracle' by historian Andrei Lankov (7 September 2011, read in full): wartime U.S. Army contracts through his brother, entry into Park Chung-hee's circle of trusted businessmen, state-urged diversification into shipbuilding and autos, and the opposing leftist reading of the chaebol as neo-colonial.",
+      "url": "https://www.koreatimes.co.kr/www/nation/2019/10/363_94466.html"
+    },
+    {
+      "id": "src_chung_gale",
+      "kind": "biography",
+      "title": "'Hyundai Group', International Directory of Company Histories (Gale, entry by Bob Vincent, c. 1990; read via the Funding Universe and Encyclopedia.com copies): company-history reference describing his autocratic and unconventional management, the 1947 founding, the 1965 Thailand highway, Middle East projects, the 1971 shipbuilding decision, Ulsan financing, the Pony and the early-1990s political and tax clashes.",
+      "url": "https://www.fundinguniverse.com/company-histories/hyundai-group-history/"
+    },
+    {
+      "id": "src_chung_hhi",
+      "kind": "institution",
+      "title": "HD Hyundai Heavy Industries, 'Our Heritage: Founder Story' (read in full; the company's own promotional account, treated as self-material): the 1971 UK technical partners and Barclays loan, the March 1972 start of construction, the VLCC order won with a photograph and a blueprint, the expansion decisions of the 1990s and his time with yard workers.",
+      "url": "https://hd-hhi.com/en/company/heritage/founder-story"
+    },
+    {
+      "id": "src_chung_kt2015",
+      "kind": "press",
+      "title": "The Korea Times, 'Hyundai marks 100th anniversary of late founder Chung's birth' (24 November 2015, read in full): centenary coverage built mostly on Hyundai-linked speakers, so used only for the list of ventures (Seoul-Busan expressway, Seosan reclamation) and flagged as company-framed.",
+      "url": "https://www.koreatimes.co.kr/amp/business/companies/20151124/hyundai-marks-100th-anniversary-of-late-founder-chungs-birth"
+    },
+    {
+      "id": "src_chung_commons",
+      "kind": "archive",
+      "title": "Wikimedia Commons file page 'Chung Ju-yung.jpg' (checked for the portrait only; not used for any scoring).",
+      "url": "https://commons.wikimedia.org/wiki/File:Chung_Ju-yung.jpg"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_chung_csm, src_chung_gale, src_chung_time, src_chung_hhi | 1971-1974, 1980s-1997 | independent press + company-history reference + company page] CSM, the Gale company history and Hyundai's own page agree that in 1971-72 he committed to shipbuilding with no yard, dry dock or prior experience, borrowing from foreign banks (a Barclays loan) and winning tanker orders before the yard existed. TIME says he backed projects others doubted, and that his relentless expansion later left the group buried in debt, which is why the impact is dual-edged. Several independent sources describe the same bet, though the Barclays figure and the pitch come from one article. RUBRIC_CORRECTION (lead review, before eligibility): risk_tolerance lowered from 74 / 0.62 to 72 / 0.58 because the leveraged-bet episodes rest on TIME and Christian Science Monitor retellings and the company's own versions; his autobiography was not opened, so 74 / 0.62 overstates a dual-edged claim."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chung_csm, src_chung_hhi, src_chung_lankov | 1971-1972 | independent press + company page] CSM reports that after several banks refused him he pitched Barclays by showing a 500-won note with a 16th-century turtle ship, then won a loan and two tanker orders; Hyundai's own page tells a different version (a photograph of Mipo Bay and one blueprint); Lankov documents earlier wartime contracts won through his brother's English. The core fact of getting finance and orders without a yard is corroborated, but the anecdote details differ by source. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 72 / 0.60 to 68 / 0.55 because the vivid pitch detail rests on one article and conflicts with the company's own version."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chung_csm, src_chung_time, src_chung_hhi | 1971-1974 | independent press + company page] CSM says several banks turned him down before Barclays agreed, and TIME describes him driving workers through 15-hour days on the first tanker and pressing ahead against doubters, with the yard and ships built in parallel and the first stage finished in about two years (the company page). Repeated refusals followed by completion are documented; the rest is the company's and journalists' framing."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chung_lankov, src_chung_gale, src_chung_csm | 1946-1975 | independent press + company-history reference] Lankov says his brother's English won profitable U.S. Army contracts during the war and that he then led the push to export construction services; the Gale history dates the first overseas venture (Thailand highway) to 1965 and the later Middle East port work; CSM places his 1960s contracts in Southeast Asia and the Middle East. Moves into new markets are well documented, but several were encouraged by the state, so the sensing is shared with policy."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_chung_gale, src_chung_csm, src_chung_time | 1950s-2001 | company-history reference + independent press] The Gale history calls his style autocratic and unconventional; CSM describes orderly, Confucian family management in which each son ran a major company, with limited managerial independence, and analyst Hank Morris calls the management outdated and family-dominated; TIME says he grew imperious with age. Control and direction are documented by independent sources, while their cost is named by the same sources, so the impact is dual-edged."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_chung_time, src_chung_lankov | 1960s-1970s | independent press] TIME says he built the cross-country expressway the World Bank judged economically unviable and exported a Korean-made car to the U.S. while the industry mocked it; Lankov stresses that the diversification came at the government's urging and that Park hand-picked the chaebol, so the independence was within a state-led programme. Hence moderate score and dual-edged impact; the dependence on Park is context, not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "정주영"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/chung-ju-yung-sitler-1998.jpg",
+    "width": 1200,
+    "height": 957,
+    "source": "Photograph by U.S. Air Force Technical Sergeant Renee Sitler, taken 27 October 1998 at the Panmunjom Freedom House, Republic of Korea, released as U.S. Department of Defense Visual Information image DD-SD-00-01862 (Air Force) and carried on Wikimedia Commons with the public domain U.S. Air Force tag. A service member's official photograph is a U.S. government work not subject to copyright. The original DoD page could not be opened, so that link is unverified. Original 1268 x 1012 pixels, downscaled to 1200 x 957 with no crop and no upscaling.",
+    "license": "Public domain (U.S. government work)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photo: Technical Sergeant Renee Sitler, U.S. Air Force, 1998 (public domain, U.S. government work)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Chung_Ju-yung.jpg",
+    "creator": "Technical Sergeant Renee Sitler, U.S. Air Force",
+    "date": "1998-10-27",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Chung_Ju-yung.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-28T00:00:00Z",
+    "updatedAt": "2026-10-28T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed: Commons file 'Chung Ju-yung.jpg' (1268 x 1012), Source = U.S. Department of Defense Visual Information image DD-SD-00-01862 (Air Force), Author Technical Sergeant Renee Sitler, taken 27 October 1998 at Panmunjom Freedom House, Commons tag PD-USGov-Military-Air Force. A U.S. Air Force service member photographing in an official capacity makes it a U.S. government work (17 USC 105), so no URAA question. CAVEAT: the original dodmedia.osd.mil DVIC page is dead and was not reachable via the Internet Archive (rate limited), so the DVIC item page itself could not be opened; the basis rests on the Commons record naming the DoD ID, author and Air Force. File downscaled from 1268 x 1012 to 1200 x 957, no crop, no upscaling. PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q468467 label 'Jeong Ju-yung', description 'South Korean businessman (1915-2001)', born 1915-11-25, died 2001-03-21, Korean label 정주영; matches the lead. No production QID/slug collision (grepped prod59.txt) and no existing candidate file. REGION east_asia. ZERO POLITICS: primary identity founder-builder of Hyundai; his 1992 presidential run and Unification National Party, relationship to Park Chung-hee, and 1998 cattle/North Korea ventures are context only and unscored. VOCABULARY: occupations entrepreneur, executive; fields business, engineering; tags founder, leader, overcame_adversity; archetypes entrepreneurial_builder, organizational_leader (all have EN and KO labels, grepped). KOREAN NAME 정주영 (Wikidata ko label; standard Revised Romanization Jeong Ju-yeong, 'Chung Ju-yung' is the company spelling used here). CANONICAL SIGNIFICANCE SOURCE: TIME, 'Chung Ju Yung' by Michael Schuman, 2006 (https://time.com/archive/6679012/chung-ju-yung); Britannica was tried but returned 403. READ in full: TIME, Christian Science Monitor obituary article, Andrei Lankov in the Korea Times, Korea Times 2015 centenary report, HD Hyundai Heavy founder page (self-material), Gale/Funding Universe Hyundai Group history; Wikipedia for orientation only. PERSPECTIVES: independent English-language press and a historian's column, a company-history reference, the company's own account. COUNTER-VOICES: CSM analyst Hank Morris on family-dominated management and the 1997 crisis, TIME on his imperious style and the debt that broke up the group, Lankov on the leftist neo-colonial reading of the chaebol. SELF-REPORT: his autobiography and memoirs were not opened; company and centenary material is flagged as company-framed and never sole support. NOT OPENED: Britannica, NYT and Guardian obituaries (blocked), Amsden and other scholarly books, Korean-language encyclopedia entries. Not scored: 1992 political run, cattle/North Korea diplomacy, Olympic bid lobbying, succession disputes among sons, tax and political-contribution allegations (Gale reports them only as regulators' charges). Dates differ slightly between sources: yard construction began March 1972; yard opened 1974 (Gale) or Hyundai's page June 1974 ceremony; Korea Times 2015 gives age 86 (Korean counting). SELF-CALIBRATION (agent): top-risk rows reviewed: resourcefulness (72/0.60 lowered to 68/0.55: vivid pitch detail rests on one article and conflicts with the company's own version), risk_tolerance (kept: corroborated by independent press plus company-history reference). HANDBACK59: {\"slug\": \"chung-ju-yung\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"resourcefulness\", \"old_score\": 72, \"old_confidence\": 0.6, \"new_score\": 68, \"new_confidence\": 0.55, \"reason\": \"vivid Barclays pitch detail rests on one article and conflicts with the company's own version\"}], \"reviewed_kept\": [\"risk_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): risk_tolerance lowered from 74 / 0.62 to 72 / 0.58 because the leveraged-bet episodes rest on TIME and Christian Science Monitor retellings and the company's own versions; his autobiography was not opened, so 74 / 0.62 overstates a dual-edged claim."
+  }
+}

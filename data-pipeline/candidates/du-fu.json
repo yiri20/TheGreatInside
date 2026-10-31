@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "du-fu",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Du Fu",
+    "aliases": [
+      "Tu Fu",
+      "Du Gongbu",
+      "Du Zimei",
+      "Du Shaoling"
+    ],
+    "wikidataId": "Q33772",
+    "birthYear": 712,
+    "deathYear": 770,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.tang_dynasty"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dufu_wikidata",
+      "kind": "wikidata",
+      "title": "Du Fu (Q33772), verified live via the Wikidata API (2026-10-28): label 'Du Fu', description 'Tang dynasty Chinese poet (712-770)', Korean label present, image 'Dufu.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q33772"
+    },
+    {
+      "id": "src_dufu_pf",
+      "kind": "institution",
+      "title": "Poetry Foundation, 'Tu Fu' biography (read in full). CANONICAL SIGNIFICANCE SOURCE: considered with Li Po one of China's greatest Tang poets; failed the civil service exam and travelled; wrote of famine, unrest and hardship during the An Lushan Rebellion years; lived in a cottage in Sichuan; often described as a poet-historian, with a translator's remark on the range of his experience. Poetry institution biography with an admiring tone.",
+      "url": "https://poetryfoundation.org/bio/tu-fu"
+    },
+    {
+      "id": "src_dufu_aap",
+      "kind": "institution",
+      "title": "Academy of American Poets, 'Tu Fu' biography (read in full): major Tang poet, twice failed the imperial examinations, travelled and met other writers, moved often in a volatile period, best known for mastery of regulated verse. Short poetry institution biography.",
+      "url": "https://poets.org/poet/tu-fu"
+    },
+    {
+      "id": "src_dufu_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Du Fu', article by Richard P. Benton (2024; read in full): family and education drawn largely from his autobiographical poems, three periods of his work, a new kind of realism in the middle period that mixed prose and verse and joined private and public subjects, the thatched hut and Kuizhou years, and later poems of greater technical prowess. Scholarly encyclopedic summary that depends heavily on his own poems for biography.",
+      "url": "https://www.ebsco.com/research-starters/biography/du-fu"
+    },
+    {
+      "id": "src_dufu_cuhk",
+      "kind": "biography",
+      "title": "Introduction and chronology of The Late Wanderings of Du Fu, Chinese University of Hong Kong Press, publisher sample chapter (read in full; author not named in the sample): says his reputation was slight in his lifetime, that he was 'immensely prolific' so that his poems amount to an autobiography and a chronicle of his times, that tradition has tended to simplify him, and that his decision to leave office in 759 has never been fully understood. Academic monograph introduction with a critical stance on reception.",
+      "url": "https://cup.cuhk.edu.hk/image/catalog/preview/9789882373921_SampleChapter.pdf"
+    },
+    {
+      "id": "src_dufu_wellcome",
+      "kind": "institution",
+      "title": "Wellcome Collection record 'Chinese manuscript Wan-hsiao-t'ang hua-chuan': imaginary portraits of 120 persons from Han to Ming times, printed in 1743 (checked for the portrait only; not used for any scoring).",
+      "url": "https://preview.wellcomecollection.org/works/qbj5uen4"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dufu_ebsco, src_dufu_pf, src_dufu_aap | 746-770 | scholarly encyclopedia + poetry institutions] EBSCO says that in his middle period he developed a new kind of realism, mixing prose and verse, adding 'unpoetic' subjects to poetic ones and joining private and public concerns, and that later works show more complex syntax and technical prowess; the Poetry Foundation notes the range of moods and contents in his poems and the Academy of American Poets his mastery of regulated verse. The innovation is described by one scholarly summary rather than shown by independent comparison. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.55 to 66 / 0.50 because the claim of a new kind of realism rests mainly on one encyclopedic summary, with the poetry institutions supporting range and mastery only in general terms."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dufu_cuhk, src_dufu_ebsco, src_dufu_pf | 746-770 | monograph introduction + scholarly encyclopedia + poetry institution] The CUHK introduction calls him 'immensely prolific' and says his poems amount to an autobiography and chronicle of his times across his wandering; EBSCO says that in his last decade, in poor health, he devoted himself almost entirely to his writing and produced an abundance of mature poetry; the Poetry Foundation says he kept writing about what he witnessed through the rebellion years and his later moves. Sustained output across hardship is well described, but the number and dating of poems were not checked independently."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_dufu_ebsco, src_dufu_aap | 740s-770 | scholarly encyclopedia + poetry institution] EBSCO says that his later poems display greater technical prowess and a higher level of perfection, and the Academy of American Poets describes him as best known for his mastery of regulated verse; EBSCO also relays, from his own late poem, that he began practising calligraphy at age nine. The growth in craft is described by scholarship, but the early-practice detail is self-report and the motive is inferred, so the row stays modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "두보"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/du-fu-shangguan-zhou-1743.jpg",
+    "width": 748,
+    "height": 1086,
+    "source": "Imaginary portrait of Du Fu captioned 'Du Gongbu', a page from the portrait book Wanxiao tang huazhuan by Shangguan Zhou, first printed in 1743 (Wellcome Collection describes the book as imaginary portraits of 120 persons from Han to Ming times; the Metropolitan Museum of Art holds a copy marked public domain). The Commons scan is described by its uploader as taken from a 1921 printing. The design is a 1743 woodblock by an artist dead for centuries, so it is public domain by age. Made about a thousand years after the poet's death, so shown as a later imaginary depiction and not a likeness. Original scan 748 x 1086 pixels, used as is with no cropping and no upscaling.",
+    "license": "Public domain (artwork by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Shangguan Zhou, Du Gongbu (Du Fu), from Wanxiao tang huazhuan, 1743 (scan of a 1921 printing)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Du_Fu.jpg",
+    "creator": "Shangguan Zhou",
+    "date": "1743",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Du_Fu.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-28T00:00:00Z",
+    "updatedAt": "2026-10-28T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / adjusted: the Wikidata image 'Dufu.jpg' (1480 x 2048) is a Qing-palace-collection painting copied from a Chinese website with no author, date or institution given on its Commons page, so it was NOT used; used instead the Commons file 'Du Fu.jpg' (748 x 1086), a page from the imaginary-portrait book Wanxiao tang huazhuan, whose figure caption on the page reads Du Gongbu (a standard title for Du Fu). The book was printed in 1743 and attributed to Shangguan Zhou (Wellcome Collection record 'Wan-hsiao-t'ang hua-chuan': 'Imaginary portraits of 120 persons noted in Chinese history from Han to Ming times. Printed in 1743'; the Metropolitan Museum of Art record 'Drawings of Historical Characters', Shang Guan Zhou, marked public domain). The Commons page says this scan comes from a 1921 printing; either way the design is a 1743 woodblock by an artist dead for centuries, so it is public domain by age in China and the United States, and a scan of a 2D print adds no new copyright. Caveats: the Commons page gives only an uploader note and a 2006 upload, the 1921 detail is the uploader's statement, and the scan source is not an institution. Shown as a later imaginary depiction, not a likeness. No resizing needed (748 x 1086 original). PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q33772 label 'Du Fu', description 'Tang dynasty Chinese poet (712-770)', born 712, died 770, Korean label present. No production or candidate slug/QID collision (grepped prod59 and data-pipeline/candidates). REGION east_asia; ERA medieval; historical polity Tang dynasty (existing polity.tang_dynasty key). ZERO POLITICS: primary identity is poet; his minor official posts, his dismissal and his loyalty to the dynasty are context and not scored. VOCABULARY: occupation poet, field literature, tag prolific, archetype creative_creator, all grepped in en.ts and ko.ts. KO NAME: the Wikidata Korean label, the standard Korean reading of the name. CANONICAL SIGNIFICANCE SOURCE: Poetry Foundation, 'Tu Fu' biography (https://poetryfoundation.org/bio/tu-fu). READ IN FULL: Poetry Foundation; Academy of American Poets 'Tu Fu'; EBSCO Research Starters 'Du Fu' (Salem Press article by Richard P. Benton, 2024); the introduction and chronology of The Late Wanderings of Du Fu (Chinese University of Hong Kong Press sample chapter, author not named in the sample). PERSPECTIVES: two poetry institutions, an encyclopedic scholarly summary, an academic monograph introduction with reception critique. COUNTER-VOICES/CAVEATS: the CUHK introduction says his reputation was slight in his lifetime, that tradition has simplified him as a Confucian hero, and that the decision to leave office has not been fully understood; EBSCO and the CUHK introduction both rely heavily on his own poems for biography, so every row rests on scholarly description of the work, not on inference of personality from the poems. NOT OPENED: Stephen Owen's translation, Eva Shan Chou's book, Hawkes, Britannica (bot-blocked); a search summary only described Owen and Hawkes and they are not cited. SELF-REPORT: the poems quoted by secondary sources are self-report and never sole support. SPARSE PROFILE: three rows, none above 66, confidence at most 0.55. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (70/0.55 lowered to 66/0.50), mastery_orientation (kept), persistence (kept). HANDBACK59: {\"slug\": \"du-fu\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 3, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 70, \"old_confidence\": 0.55, \"new_score\": 66, \"new_confidence\": 0.5, \"reason\": \"the claim of a new kind of realism rests mainly on one encyclopedic summary of scholarly interpretation, with the poetry institutions only supporting range and mastery in general terms\"}], \"reviewed_kept\": [\"persistence\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

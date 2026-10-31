@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "luis-federico-leloir",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Luis Federico Leloir",
+    "aliases": [
+      "Luis F. Leloir",
+      "Luis Leloir"
+    ],
+    "wikidataId": "Q233985",
+    "birthYear": 1906,
+    "deathYear": 1987,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "chemist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "biology",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "founder",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_leloir_wikidata",
+      "kind": "wikidata",
+      "title": "Luis Federico Leloir (Q233985) -- verified live via the Wikidata API (2026-10-30): English label 'Luis Federico Leloir', description 'Argentine biochemist', Korean label '루이스 페데리코 를루아르' (also the Korean Wikipedia article title), born 1906-09-06, died 1987-12-02, citizenship Argentina and France, P18 'Luis Federico Leloir - young.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q233985"
+    },
+    {
+      "id": "src_leloir_nobel_speech",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Presentation Speech' by Professor Karl Myrbäck, member of the Nobel Committee for Chemistry (Nobel Prize in Chemistry 1970), read in full, with the Nobel facts page for the prize motivation. CANONICAL SIGNIFICANCE SOURCE: the prize went to Leloir alone (share 1/1) 'for his discovery of the sugar nucleotides and their function in the biosynthesis of carbohydrates'; the speech says his 1949 discovery overturned the assumption that syntheses were reversals of breakdown reactions, that glycogen synthesis via a sugar nucleotide was found in 1959, and that more than one hundred sugar nucleotides are now known. Prize-committee text; independent of Leloir, retrospective and laudatory in tone.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1970/ceremony-speech/"
+    },
+    {
+      "id": "src_leloir_nobel_bio",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Luis Leloir - Biographical' (note written at the time of the award), read in full: his Buenos Aires medical degree and work with Bernardo Houssay, the year at Cambridge, work in St. Louis and New York, directorship of the Instituto de Investigaciones Bioquímicas Fundación Campomar, early collaborators Caputto, Cardini, Trucco and Paladini, the isolation of glucose 1,6-diphosphate and uridine diphosphate glucose, and later work on trehalose, sucrose, glycogen, starch and dolichol with Cabib, Cardini, Chiriboga and Behrens. Short, factual, self-supplied; used for the sequence of work and the collaborators he names.",
+      "url": "https://www.nobelprize.org/prizes/chemistry/1970/leloir/biographical/"
+    },
+    {
+      "id": "src_leloir_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Luis Federico Leloir' (updated September 2026), read in full: Argentine biochemist, 1970 Nobel Prize in Chemistry; assistant at the Institute of Physiology in Buenos Aires 1934-35, a year at Cambridge, return in 1937, financial support in 1947 to set up the Institute for Biochemical Research, work on lactose and the discovery of sugar nucleotides, glycogen formation and liver enzymes. Short reference biography; orientation only.",
+      "url": "https://www.britannica.com/biography/Luis-Federico-Leloir"
+    },
+    {
+      "id": "src_leloir_dsb",
+      "kind": "biography",
+      "title": "Armando J. Parodi, 'Leloir, Luis Federico' in the Complete Dictionary of Scientific Biography (via Encyclopedia.com), read in full: the training with Houssay and at Cambridge, the 1937-42 fatty acid oxidation and angiotensin work, the founding of the Campomar institute in 1947 in a small old house, the failed lactose-synthesis lead and the switch to studying lactose degradation, the Leloir pathway, trehalose, sucrose, glycogen from UDP-glucose in 1957 and ADP-glucose for starch, the 1956 funding crisis and NIH grant, dolichol work, and a closing section on Leloir the man (funding journals and giving his salary to the institute, working at the bench, no private office). Scholarly biographical entry by a biochemist; the author's own relation to Leloir is not stated in the page read and is not assumed. It is admiring and is the main behavioural source; it also states where Leloir's group was wrong or beaten (the unreplicated lactose claim; lactose synthesis described by Watkins and Hassid in 1961).",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/leloir-luis-federico"
+    },
+    {
+      "id": "src_leloir_conicet",
+      "kind": "institution",
+      "title": "CONICET (Argentina's National Scientific and Technical Research Council), 'Notables de la Ciencia: Luis Federico Leloir - Memorias del Instituto' (in Spanish), read in full: the Instituto de Investigaciones Bioquímicas Fundación Campomar was created at Bernardo Houssay's initiative at the urging of the businessman Jaime Campomar, began work in early 1947, was inaugurated on 20 November 1947, was directed by Leloir from creation until his death in 1987 and was renamed Fundación Instituto Leloir in 2000; the page indexes 20 volumes of institute annual reports 1947-2006 (not opened). National research-council reference page; institution-building evidence.",
+      "url": "https://notablesdelaciencia.conicet.gov.ar/luis-federico-leloir/memorias-del-instituto/"
+    },
+    {
+      "id": "src_leloir_prefectura",
+      "kind": "institution",
+      "title": "Prefectura Naval Argentina, 'Dr. Luis Federico Leloir' (biography page for the research ship named after him, in Spanish), read in full: his Paris birth to Argentine parents, medical degree in 1932 and work under Houssay, the year with Hopkins at Cambridge, the founding of the institute in 1947 in a small four-room house in poor repair where, the page says, rainwater came in but nothing discouraged Leloir, and the link between sugar nucleotides and understanding galactosemia. Government commemorative text; hagiographic and used only to corroborate institutional facts and the conditions of the early institute.",
+      "url": "https://www.argentina.gob.ar/prefecturanaval/buque-cientifico-spa-1-dr-luis-federico-leloir/dr-luis-federico-leloir"
+    },
+    {
+      "id": "src_leloir_portrait",
+      "kind": "archive",
+      "title": "Wikimedia Commons file pages for 'File:Luis Federico Leloir - young.jpg', 'File:Leloir en Campomar 1970.jpg', 'File:Federico Leloir 1982.JPG', 'File:Luisfedericoleloir.jpg' and 'File:Leloir.jpg', checked for the portrait only and none accepted.",
+      "url": "https://commons.wikimedia.org/wiki/File:Luis_Federico_Leloir_-_young.jpg"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leloir_nobel_speech, src_leloir_dsb, src_leloir_nobel_bio | 1947-1983 | prize committee + scholarly entry + self-supplied note] The Nobel presentation speech says that in the twenty years after his 1949 discovery he carried the work forward 'in an admirable manner' and made the primary discoveries that set the path of the field; the Nobel note and Parodi trace the continuous line from UDP-glucose through trehalose, sucrose, glycogen, ADP-glucose for starch and dolichol-linked sugars, and Parodi says he kept working at the bench until a few years before his death. Depth and duration are stated by independent committee text and a scholarly entry; both are retrospective and admiring."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leloir_nobel_bio, src_leloir_dsb | 1945-1970s | self-supplied note + scholarly entry] Leloir recruited Caputto, Trucco, Cardini and Paladini to the new institute and names them and later collaborators Cabib, Chiriboga and Behrens in the Nobel note, and Parodi gives the group credit at specific steps (Caputto's lead on lactose and recognition of the uridine spectrum, Cabib on trehalose phosphate, Cardini on glycogen synthesis) and calls the working atmosphere of his group a pleasure. The prize itself went to Leloir alone. Evidence is from his own note and one admiring entry, with no critical account of the group dynamics, so confidence is modest."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leloir_dsb, src_leloir_prefectura | 1937-1950s | scholarly entry + government commemoration] Parodi says that without a refrigerated centrifuge Leloir wrapped car inner tubes filled with freezing mixture around an old pulley-driven centrifuge, that determining the structure of UDP-glucose was a feat of improvisation given the minimal reagents and equipment, and that he built channels to keep rainwater off the library; the Prefectura page corroborates only the leaking early house. The specific episodes come from one admiring entry. SELF-CALIBRATION (agent): lowered from 66 / 0.48 to 62 / 0.44 because the improvisation episodes depend on a single admiring biographical entry and only the leaking building is corroborated elsewhere."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leloir_dsb, src_leloir_conicet, src_leloir_prefectura | 1947-1983 | scholarly entry + national council + government commemoration] He directed the institute for forty years from a small dilapidated house; when its founder-donor died in 1956 and his heirs ended funding, Parodi says Leloir nearly closed it but applied for and received an NIH grant and kept it going, later moving to a larger building and then a purpose-built one in 1983. The directorship and moves are corroborated by CONICET and the Prefectura; the near-closure and NIH grant are from Parodi alone, and the near-closure is itself a sign of a real decision point, hence a moderate score."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_leloir_dsb | 1947-1957 | scholarly entry] Parodi reports that when a collaborator's earlier claim of lactose synthesis could not be repeated, Leloir proposed studying lactose degradation instead, which led to the galactose pathway, and that his 1957 finding of glycogen synthesis from UDP-glucose showed that the then-accepted phosphorylase route (the Coris' model) was not the main pathway. One source, no direct statement of his reasoning, so this is a strong inference about letting results redirect the programme."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_leloir_conicet, src_leloir_dsb, src_leloir_nobel_bio | 1947-1987 | national council + scholarly entry + self-supplied note] CONICET records that he directed the Campomar institute from its creation in 1947 until his death in 1987; Parodi adds that he built up the group, secured NIH funding after the donor's heirs withdrew, paid for most of the library's journal subscriptions and gave his university salary to the institute, and that the move to new premises in 1983 followed a public-private fundraising committee formed in 1978 (organised by the city's mayor, not by Leloir). Institution-building is documented across three sources; the personal funding details rest on Parodi alone."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루이스 페데리코 를루아르"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear usable photograph found. Commons candidates all fail the strict rule: 'Luis Federico Leloir - young.jpg' (702 x 890) copies an image from a Houssay-foundation web page with no author or date and only a generic PD-AR-Photo tag; 'Leloir en Campomar 1970.jpg' and its crop come from the Archivo General de la Nación's Facebook page, author unknown, generic PD-AR-Photo tag only (a jurisdiction-only claim from an unattributed press photograph); 'Federico Leloir 1982.JPG' and 'Luisfedericoleloir.jpg' (magazine photographs) are tagged Not-PD-US-URAA; 'Leloir.jpg' is 164 x 250 by a named photographer under a PD-self tag uploaded by someone else. The Nobel Foundation archive photograph carries Nobel Foundation rights. Next step: obtain a photograph with a named photographer and written reuse terms (Nobel Foundation, Fundación Instituto Leloir, Archivo General de la Nación item-level record) or an Anefo/Wellcome/NLM image with a documented basis."
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / finding: confirmed, HELD. Commons wikitext checked for five files (see portrait.reason); 'young.jpg' source is a Wayback link to a houssay.org.ar biography page, no author; 'Leloir en Campomar 1970.jpg' dated 1970-10-27 from the Archivo General de la Nación Facebook post, author unknown, tags PD-AR-Photo and FoP-Argentina; the 1982 and 1976 magazine photographs carry Not-PD-US-URAA; 'Leloir.jpg' 164 x 250 uploaded by a third party (user Churlyf) as the work of Arturo Prins under PD-self, so the release is not the author's own. Wellcome and NLM were not searched (one bounded retry spent on the Commons candidates and the Nobel facts page); the Nobel Foundation facts page credits its archive. HOLD, all research kept. PREFLIGHT: QID VERIFIED LIVE (wbgetentities, 2026-10-30) Q233985: en label 'Luis Federico Leloir', description 'Argentine biochemist', ko label '루이스 페데리코 를루아르', born 1906-09-06, died 1987-12-02. SLUG/QID CHECK: Q233985 not in prod59.txt, no candidate file existed. REGION: latin_america (born in Paris to Argentine parents, raised and worked in Buenos Aires; Wikidata also lists France as a citizenship; nationalityCodes AR only, following the Nobel and Britannica descriptions of him as Argentine). VOCABULARY: scientist, chemist, medical_researcher, chemistry, biology, medicine, nobel_laureate, founder, mentor, scientific_explorer all have EN+KO labels (biochemist unlabeled, not used). KOREAN NAME: Korean Wikipedia article title and Wikidata ko label are '루이스 페데리코 를루아르'; the alternative '루이스 레로이르' suggested by the lead was not found in a Korean source in this pass, so the Wikipedia form is used. ZERO POLITICS: the 1943 resignation in solidarity with Houssay after the military government's dismissal of Houssay, and the Peronist-era history, are background in Parodi and the Prefectura page and are not scored or carded. SHARED CREDIT: the 1970 Nobel Prize in Chemistry was awarded to Leloir alone (share 1/1); the institution-building and discoveries were shared with named collaborators (Caputto, Cardini, Trucco, Paladini, Cabib and others), and Houssay recommended him as director and Campomar funded the institute; none of this is hidden. Priority caveats from Parodi: the lactose-synthesis lead failed to replicate and lactose synthesis was described by Watkins and Hassid in 1961; the Coris' phosphorylase model of glycogen synthesis was shown not to be the main route by Leloir and Cardini in 1957. CANONICAL SIGNIFICANCE SOURCE: Nobel Committee presentation speech 1970 by Karl Myrbäck (https://www.nobelprize.org/prizes/chemistry/1970/ceremony-speech/). READ (7 substantive sources): Nobel speech and facts page, Nobel biographical note (self-supplied), Britannica, Parodi's Complete Dictionary of Scientific Biography entry, CONICET page, Prefectura Naval page, plus Commons pages for the portrait. PERSPECTIVES: prize committee, reference biography, scholarly biographical entry, national research council, government commemoration; self-supplied note. COUNTER-VOICE: no adversarial or critical source on Leloir was found; the nearest are Parodi's own account of what his group got wrong or lost priority on (lactose claim, the Coris' model) and the 1956 funding crisis. This is flagged: the behavioural rows rest mainly on one scholarly entry and on laudatory committee and government texts, so confidence is capped low. NOT OPENED: Leloir's Nobel lecture (page text not rendered), his 'Far away and long ago' Annual Review of Biochemistry essay, Kresge, Simoni and Hill JBC 2005 retrospective (blocked 403) and Enrico Cabib's 1970 Science article (not accessed), Parodi's 2006 Ciencia Hoy article, Royal Society or NAS memoirs, Instituto Leloir annual reports, Spanish-language historians of Argentine science. SELF-CALIBRATION: rows reviewed: resourcefulness (66 / 0.48), persistence (66 / 0.50), leadership_drive (64 / 0.52). Lowered: resourcefulness 66/0.48 -> 62/0.44, because the improvisation episodes depend on one admiring entry and only the leaking building is corroborated elsewhere. persistence kept (directorship and moves corroborated by CONICET and the Prefectura); leadership_drive kept (three sources). HANDBACK59: {\"slug\":\"luis-federico-leloir\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"resourcefulness\",\"old_score\":66,\"old_confidence\":0.48,\"new_score\":62,\"new_confidence\":0.44,\"reason\":\"improvisation episodes depend on one admiring biographical entry; only the leaking building is corroborated elsewhere\"}],\"reviewed_kept\":[\"persistence\",\"leadership_drive\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  }
+}

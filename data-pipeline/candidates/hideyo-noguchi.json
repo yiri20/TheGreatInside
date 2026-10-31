@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hideyo-noguchi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hideyo Noguchi",
+    "aliases": [
+      "Noguchi Hideyo",
+      "Seisaku Noguchi",
+      "野口英世"
+    ],
+    "wikidataId": "Q356114",
+    "birthYear": 1876,
+    "deathYear": 1928,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_noguchi_wikidata",
+      "kind": "wikidata",
+      "title": "Hideyo Noguchi (Q356114) -- verified live via Wikidata (2026-10-30): English label 'Hideyo Noguchi', description 'Japanese bacteriologist (1876-1928)', Korean label '노구치 히데요', born 1876-11-09 (Wikidata value), died 1928-05-21, citizenship Japan, P18 image 'Noguchi Hideyo.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q356114"
+    },
+    {
+      "id": "src_noguchi_ndl_entry",
+      "kind": "institution",
+      "title": "National Diet Library (Japan), 'Portraits of Modern Japanese Historical Figures: Noguchi Hideyo' (entry text, read in Japanese) and the site's usage notice. CANONICAL SIGNIFICANCE SOURCE: it describes him as a bacteriologist who went to the United States in 1900, in 1911 achieved a pure culture of the syphilis spirochete at the Rockefeller Institute for Medical Research, received the Imperial Academy prize in 1915 and Academy membership in 1923, and travelled to Central and South America and Africa to find the yellow fever pathogen, dying of the infection in Ghana in 1928. Brief institutional reference text written by library staff; it does not mention the later discrediting of his yellow fever work.",
+      "url": "https://www.ndl.go.jp/portrait/datas/312"
+    },
+    {
+      "id": "src_noguchi_dsb",
+      "kind": "biography",
+      "title": "'Hideyo Noguchi' (Dictionary of Scientific Biography entry, Gale, reproduced on Encyclopedia.com), read in full: training and the passage to Philadelphia under Simon Flexner, the Rockefeller Institute career, the 1913 detection of the syphilis spirochete in the brains of paretics called the sole enduring accomplishment of the period, Oroya fever and verruga peruana shown to be one disease caused by Bartonella bacilliformis, the Leptospira icteroides yellow fever claim and its 1927 discrediting, the work at Accra and his death. Scholarly reference biography by a named historian of science that is openly critical of his technique and conclusions and of how his patrons minimised his faults; its speculation about his state of mind and the manner of his death is not used.",
+      "url": "https://www.encyclopedia.com/people/medicine/medicine-biographies/hideyo-noguchi"
+    },
+    {
+      "id": "src_noguchi_tan_2014",
+      "kind": "press",
+      "title": "Siang Yong Tan and Jill Furubayashi, 'Hideyo Noguchi (1876-1928): Distinguished bacteriologist' (Singapore Medical Journal 55(10), 2014, pp. 550-551), read in full: the Penn and Rockefeller career, the 1909 snake venom monograph, the complement-fixation and luetin tests, the 1913 isolation of the syphilis spirochete from the brains of paresis and tabes patients, Rocky Mountain spotted fever antiserum, Oroya fever and verruga peruana, and a 'dark side' section on the incorrect aetiologies, the Ecuador yellow fever claim with inadequate controls, criticism of his methods and record keeping, non-reproducible syphilis culture claims and criticism of luetin tests on children. Short modern medical-history profile by a physician and a student, citing Plesset and Kita; the sentences about his own health and mental state are explicitly speculative and are not used.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4293967/"
+    },
+    {
+      "id": "src_noguchi_frierson_2010",
+      "kind": "press",
+      "title": "J. Gordon Frierson, 'The Yellow Fever Vaccine: A History' (Yale Journal of Biology and Medicine, 2010), read for the Noguchi sections: his 1918 Ecuador work, the naming of Leptospira icteroides, the vaccine and antiserum made at the Rockefeller Institute and the 7,964 vaccinations he reported, the criticism of the sloppy trial statistics, the 1926 Theiler and Sellards result that his organism was serologically identical to the Weil's disease leptospire, the discontinued distribution, and his 1927-28 work in West Africa. Independent vaccine-history review by a physician-historian, critical of Noguchi's practice in Accra.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2892770/"
+    },
+    {
+      "id": "src_noguchi_kantha_1989",
+      "kind": "press",
+      "title": "S. S. Kantha, 'Hideyo Noguchi's research on yellow fever (1918-1928) in the pre-electron microscopic era' (Kitasato Archives of Experimental Medicine 62(1), 1989, pp. 1-9): only the PubMed abstract was readable. It describes the yellow fever investigations as one of the low points of his career, says his Leptospira icteroides claim was discredited in 1927, and says the paper assesses the causes of his erroneous interpretation. Used for that framing only.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2671469/"
+    },
+    {
+      "id": "src_noguchi_rockefeller_bust",
+      "kind": "institution",
+      "title": "Joseph Luna, 'Hideyo Noguchi's Bust Is Back in Welch Hall' (Rockefeller University, Natural Selections), read in full: his arrival at Flexner's Philadelphia laboratory in 1900, the self-taught preparation for the Japanese medical exam, the syphilis spirochete culture work with filtered rabbit preparations, twenty-five Nobel nominations, the Ecuador yellow fever claim and its doubt when the African cases showed no leptospira, and his death in Accra in 1928. Admiring institutional feature from his own institution that nevertheless recommends the Kita biography for an honest account of his faults.",
+      "url": "https://selections.rockefeller.edu/hideyo-noguchis-bust-is-back-in-welch-hall/"
+    },
+    {
+      "id": "src_noguchi_portrait",
+      "kind": "archive",
+      "title": "University of Oregon Libraries, Special Collections, Doris Ulmann Photograph Collection: 'Hideyo Noguchi [001a] (recto)', photographer Doris Ulmann (1882-1934), 1919, rights statement 'No Copyright - United States' and Public Domain Mark 1.0, checked for the portrait only.",
+      "url": "https://expo.uoregon.edu/spotlight/doris-ulmann/catalog/de39ab1336424ba818fa8206a8e34da6"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_noguchi_dsb, src_noguchi_rockefeller_bust, src_noguchi_tan_2014 | 1897-1928 | scholarly biography + institutional feature + medical profile] He passed the Japanese medical examination from borrowed books, reached Philadelphia in December 1900 unannounced and short of money (DSB), and over a quarter century at the Rockefeller Institute produced 186 listed titles and some 200 papers across syphilis, trachoma, polio, yellow fever and Oroya fever (DSB, Tan). The Rockefeller feature counts twenty-five Nobel nominations; the nominations are not scored. The drive is documented by actions; the DSB's wider remark about 'insatiable ambition' is a judgement and is not used. RUBRIC_CORRECTION (lead review, before eligibility): achievement_drive lowered from 76 / 0.58 to 74 / 0.54 because the drive narrative leans on an insider biography tradition (Flexner), which was not opened, and on admiring institutional features."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_noguchi_dsb, src_noguchi_frierson_2010, src_noguchi_rockefeller_bust | 1900-1928 | scholarly biography + vaccine history + institutional feature] He worked at the yellow fever problem from 1918 in Ecuador, Peru, Mexico and then Accra, and in Accra the historians describe him 'doggedly pursuing' the leptospira idea, infecting about 1,200 monkeys without finding the organism (Frierson; DSB gives over 500 monkeys accumulated). Persistence is documented in three sources; it is dual-edged because the same persistence kept him on a hypothesis that others had tested negative. Monkey counts differ between sources and are not used."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_noguchi_dsb, src_noguchi_rockefeller_bust, src_noguchi_frierson_2010 | 1909-1928 | scholarly biography + institutional feature + vaccine history] He cultured spirochetes in artificial media, filtered rabbit preparations to obtain pure cultures (Rockefeller feature), produced Bartonella bacilliformis cultures and reproduced both Oroya fever and verruga lesions in monkeys (DSB), and made a vaccine and antiserum from his yellow fever organism (Frierson). Bold, high-volume experimenting, but DSB says he applied bacteriological techniques to viral diseases and Frierson that the vaccine trials had 'sloppy statistics', so the mark is middling and dual-edged."
+    },
+    "analytical_rigor": {
+      "score": 38,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_noguchi_frierson_2010, src_noguchi_dsb, src_noguchi_tan_2014, src_noguchi_kantha_1989 | 1918-1927 | vaccine history + scholarly biography + medical profile + abstract] On yellow fever the guinea pig experiments had inadequate controls (Tan), the trial statistics were sloppy and the organism was easily filtered and not infectious to others' animals (Frierson), his technique and conclusions were 'often faulty' (DSB), and Kantha's abstract calls the episode a low point with his claim discredited in 1927. Set against that, the 1913 detection of the spirochete in the brains of paretics is described as the enduring accomplishment (DSB) and the Oroya fever and verruga link held up, so the score is low but not extreme, and dual-edged rather than a pure risk. Four sources agree on the professional criticism; no diagnosis or motive is inferred. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 38 / 0.6 to 38 / 0.55 because the low score rests on modern critical assessments of his later yellow-fever work; part of that judgement is made with hindsight about outcomes, so confidence is lowered while the documented score is kept."
+    },
+    "detail_orientation": {
+      "score": 36,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "[src_noguchi_frierson_2010, src_noguchi_dsb, src_noguchi_tan_2014 | 1918-1928 | vaccine history + scholarly biography + medical profile] Frierson reports that in Accra his laboratory was in confusion and he was careless about labelling and screening; DSB calls him 'disorderly and extravagant' in the laboratory; Tan cites criticism of his poor record keeping. The descriptions are retrospective and come from critical historians, but three independent summaries align on laboratory practice. Not scored from any statement about his health or mind."
+    },
+    "belief_updating": {
+      "score": 45,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_noguchi_dsb, src_noguchi_frierson_2010, src_noguchi_rockefeller_bust | 1924-1928 | scholarly biography + vaccine history + institutional feature] He went to West Africa to test his own leptospira theory where others had reported negative results, and DSB says he apparently confirmed the viral findings in Accra, yet also isolated a bacillus he thought significant and Frierson describes him as still trying to verify his leptospira idea. Mixed documented behaviour with no recorded retraction in the sources read, so a mid-low score with modest confidence and an inference label."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_noguchi_dsb, src_noguchi_frierson_2010, src_noguchi_rockefeller_bust | 1900-1928 | scholarly biography + vaccine history + institutional feature] He crossed to the United States with borrowed passage money and no post, and after Adrian Stokes died of yellow fever in September 1927 he sailed to Africa the next month to work on the disease (DSB, Frierson); he died of yellow fever there. Documented career and field risk-taking; the manner of his infection is disputed and is not interpreted."
+    },
+    "collaboration": {
+      "score": 40,
+      "confidence": 0.45,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_noguchi_dsb, src_noguchi_frierson_2010 | 1927-1928 | scholarly biography + vaccine history] DSB says he tended to work alone on many projects, and Frierson says he was secretive in his behaviour and a source of tension for the West African team; DSB also says the Accra director W. A. Young collaborated closely with him, and he was Flexner's long-term Rockefeller protege. Mostly about the six Accra months in two retrospective accounts. SELF-CALIBRATION (agent): confidence lowered from 0.52 to 0.45 (score kept at 40) because the secretive-behaviour claim concerns the Accra months in essentially one account and the DSB generalisation is an unillustrated summary."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "노구치 히데요"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hideyo-noguchi-ulmann-1919.jpg",
+    "width": 928,
+    "height": 1200,
+    "source": "Photographic portrait of Hideyo Noguchi in a laboratory with culture tubes, by Doris Ulmann (1882-1934), dated 1919 and inscribed by Noguchi, in the Doris Ulmann Photograph Collection, University of Oregon Libraries, Special Collections and University Archives. The Libraries' item record states photographer, date 1919, rights 'No Copyright - United States' and Public Domain Mark 1.0; the photographer died in 1934, so US copyright (life plus 70 years) has expired and the work is not a candidate for URAA restoration. The 6840 x 9320 pixel scan shows the whole mount, inscription and colour target; it was cropped to the photographic print only and downscaled to 928 x 1200, never upscaled.",
+    "license": "Public domain (photographer died 1934; University of Oregon rights statement and Public Domain Mark 1.0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Doris Ulmann, Hideyo Noguchi, 1919, Doris Ulmann Photograph Collection, University of Oregon Libraries, Special Collections and University Archives.",
+    "attributionUrl": "https://expo.uoregon.edu/spotlight/doris-ulmann/catalog/de39ab1336424ba818fa8206a8e34da6",
+    "creator": "Doris Ulmann",
+    "date": "1919",
+    "kind": "likeness",
+    "sourcePageUrl": "https://expo.uoregon.edu/spotlight/doris-ulmann/catalog/de39ab1336424ba818fa8206a8e34da6"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / finding: confirmed, but via a better item than a Rockefeller or Wellcome photo. Rejected: Commons 'Noguchi Hideyo.jpg' (2930 x 4669: unknown author, date 'Taisho era?', source a memorial hall, generic PD-Japan tag only); the NDL 'Portraits of Modern Japanese Historical Figures' plate (739 x 1105, entry 312: printed book plate with signature and stamp, source book not stated, creator and date not stated, though the NDL usage notice says copyright terms have expired); Wellcome items found by search were reproductions from 1947 and 1960 publications (one marked in copyright). CHOSEN: University of Oregon Libraries, Doris Ulmann Photograph Collection item 'Hideyo Noguchi [001a] (recto)': photographer Doris Ulmann (1882-1934), date 1919, rights 'No Copyright - United States', Public Domain Mark 1.0; scan 6840 x 9320 downloaded and opened, cropped to the print and downscaled to 928 x 1200, saved as public/portraits/hideyo-noguchi-ulmann-1919.jpg. Caveats: the record also carries a generic 'Use Restrictions' line saying property rights reside with Special Collections and that publication requests go to the archive; this reads as a statement about the physical collection, not a copyright claim, and the legal basis relied on is the photographer's death in 1934 (life-plus-70 expired in the US); the print is inscribed to a third party and dated by that inscription (March 1919); the uploader-level claim was not needed. PREFLIGHT: QID VERIFIED LIVE: Wikidata Q356114 (2026-10-30): label 'Hideyo Noguchi', description 'Japanese bacteriologist (1876-1928)', ko label '노구치 히데요', born 1876-11-09 per Wikidata (Britannica, DSB and Tan give 24 November 1876), died 1928-05-21. SLUG/QID CHECK: not in prod59.txt (grepped QID and 'noguchi'); no candidate file existed; kitasato-shibasaburo (Q442225) is a separate record whose NDL feature mentions Noguchi. REGION: east_asia: Japanese national who spent his working life at the Rockefeller Institute in New York; region follows nationality and cultural base as with the Kitasato record, and this is a judgement call: a north_america reading by career base is possible; the lead should confirm against the repo's dual-base precedent. VOCABULARY: scientist, medical_researcher, medicine, biology, field_researcher, prolific, scientific_explorer have EN+KO labels (bacteriologist, microbiologist, physician not used or unlabeled as checked). ZERO POLITICS: the Order of the Rising Sun, honorary colonelcy in Ecuador and the Noguchi Africa Prize are not scored; no political content. CAREFUL EXCLUSIONS: sources contain statements that he contracted syphilis, that this might explain paranoia or recklessness, that he may have courted infection ('success or suicide'), and moodiness and unpredictability; all health, mental state, diagnosis and motive inferences are excluded, and the death is treated as a documented outcome only. The criticism of luetin tests on children (Tan: 'accused of unethical human experiments') is a documented controversy relayed by one source and is not scored. DUAL-EDGED OUTCOME: the discrediting of Leptospira icteroides (1927) is treated as a documented professional outcome, scored in analytical_rigor, persistence, experimentation and detail_orientation, and is not turned into a character claim. CANONICAL SIGNIFICANCE SOURCE: National Diet Library 'Portraits of Modern Japanese Historical Figures: Noguchi Hideyo' (https://www.ndl.go.jp/portrait/datas/312), with the DSB entry for the fuller account. READ (6 substantive): NDL entry, Dictionary of Scientific Biography entry, Tan and Furubayashi 2014, Frierson 2010, Rockefeller University feature, Kantha 1989 (abstract only); the Britannica page could be opened only for its fact box and no body text was used. PERSPECTIVES: Japanese national library; scholarly reference biography (critical); modern medical-history profile; independent vaccine historian (critical); his own institution (admiring); historian's abstract. COUNTER-VOICES: Frierson, DSB, Tan and Kantha are all critical of the yellow fever work. NOT OPENED: Flexner's own biography of him, Plesset 'Noguchi and his patrons', Kita 'Dr Noguchi's Journey', Corner's Rockefeller Institute history, Takahashi's Rockefeller Archive Center report, Noguchi's JEM papers (only an abstract page was retrieved), Britannica body text, Japanese-language biographies. Birth date: Wikidata 9 November vs 24 November in other sources; not used in any row. SELF-CALIBRATION: rows reviewed: analytical_rigor, collaboration, belief_updating. Lowered: collaboration confidence 0.52 -> 0.45 (secretive-behaviour claim concerns the Accra months in essentially one account). analytical_rigor kept (four sources agree and the score already reflects the 1913 and Bartonella successes); belief_updating kept (already modest confidence, inference label). HANDBACK59: {\"slug\":\"hideyo-noguchi\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":8,\"self_calibrated_rows\":[{\"attribute\":\"collaboration\",\"old_score\":40,\"old_confidence\":0.52,\"new_score\":40,\"new_confidence\":0.45,\"reason\":\"secretive-behaviour claim concerns the Accra months in essentially one account\"}],\"reviewed_kept\":[\"analytical_rigor\",\"belief_updating\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":8} RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 38 / 0.6 to 38 / 0.55 because the low score rests on modern critical assessments of his later yellow-fever work; part of that judgement is made with hindsight about outcomes, so confidence is lowered while the documented score is kept. RUBRIC_CORRECTION (lead review, before eligibility): achievement_drive lowered from 76 / 0.58 to 74 / 0.54 because the drive narrative leans on an insider biography tradition (Flexner), which was not opened, and on admiring institutional features."
+  }
+}

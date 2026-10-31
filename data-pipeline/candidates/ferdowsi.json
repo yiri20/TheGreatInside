@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ferdowsi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ferdowsi",
+    "aliases": [
+      "Abu'l-Qasim Ferdowsi",
+      "Abolqasem Ferdowsi",
+      "Firdausi",
+      "Firdawsi",
+      "Ferdowsi Tusi"
+    ],
+    "wikidataId": "Q43459",
+    "birthYear": 940,
+    "deathYear": 1020,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "IR"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ferdowsi_wikidata",
+      "kind": "wikidata",
+      "title": "Ferdowsi (Q43459), verified live via the Wikidata API (2026-10-28): label 'Ferdowsi', description 'Persian poet, author of Shahnameh (940-1020)', born 940, died 1020, Korean label '피르다우시', P18 image 'Imaginary depiction of the poet Firdausi' (a Khavarannama folio). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q43459"
+    },
+    {
+      "id": "src_ferdowsi_iranica_shahnama",
+      "kind": "institution",
+      "title": "Encyclopaedia Iranica, headword 'Sah-nama' (Encyclopaedia Iranica Foundation), read in full. CANONICAL SIGNIFICANCE SOURCE: presents the Shahnameh as Iran's national epic, a continuous narrative of the Iranian people that remains accessible to Persian speakers because literary Persian has changed little in a millennium; says Ferdowsi's poem, completed in 1010, is a versification of an earlier prose work completed in 957, and that both poem and poet have been cultural icons since the 12th century, with Iranians gathering at his tomb on national holidays. Short headword page; the sub-articles were not all opened.",
+      "url": "https://www.iranicaonline.org/?p=57303"
+    },
+    {
+      "id": "src_ferdowsi_iranica_life",
+      "kind": "biography",
+      "title": "Djalal Khaleghi-Motlagh, 'Ferdowsi, Abu'l-Qasem i. Life', Encyclopaedia Iranica vol. IX fasc. 5 (1999, updated 2016), read in the life, composition-chronology, patronage, death and social-background sections (about 25,000 of 74,000 characters; the sections on Ferdowsi's education and the later chapters on language and religion were skimmed or not read): the poet's own statements about his age and the poem's chronology, the first version of 994 and later additions, the help of Mansur and later patrons, the tradition of 25 or 30-35 years of work, the legend-heavy account of the visit to Ghazna in Nizami Arudi, and the editor's judgement of which details are legendary or doubtful. Specialist encyclopedia article by a leading Shahnameh editor, written from the poem's own statements; the author sides with Taqizada against Shirani on points of dispute.",
+      "url": "https://iranicaonline.org/articles/ferdowsi-i"
+    },
+    {
+      "id": "src_ferdowsi_iranica_hajw",
+      "kind": "biography",
+      "title": "Djalal Khaleghi-Motlagh, 'Ferdowsi ii. Hajw-nama', Encyclopaedia Iranica vol. IX fasc. 5 (updated 2012), read in full (about 8,000 characters): the lampoon of Mahmud of Ghazna attributed to Ferdowsi, the single account (Nizami Arudi) of his trip to Ghazna and flight to Tabarestan, the judgement that no other credible source records it and that many details cannot be relied on, and the scholarly dispute between Shirani (who thought it fabricated or lost) and Noldeke, Taqizada and others (who accepted it in part). Same author as the Life article, so not independent of it; used for the legend-versus-evidence line.",
+      "url": "https://iranicaonline.org/articles/ferdowsi-ii"
+    },
+    {
+      "id": "src_ferdowsi_iranica_mausoleum",
+      "kind": "biography",
+      "title": "Alireza Shapur Shahbazi, 'Ferdowsi iii. Mausoleum', Encyclopaedia Iranica vol. IX fasc. 5 (updated 2016), read in the first half (about 5,000 of 11,000 characters): the tomb in Tus, the traditions of his burial in his own garden, medieval and later visitors and pilgrims, the 1928-1934 mausoleum built through nationalist initiative to honour the poet who 'preserved Iranian identity', and its later remodelling. Reception history by a different author; used only for his later cultural standing, never as evidence of his behaviour.",
+      "url": "https://iranicaonline.org/articles/ferdowsi-iii"
+    },
+    {
+      "id": "src_ferdowsi_browne",
+      "kind": "biography",
+      "title": "Edward G. Browne, 'A Literary History of Persia, vol. II: From Firdawsi to Sa'di' (Cambridge University Press, 1906; Internet Archive scan), chapter II section on Firdawsi, read in full (about 12,000 characters of the roughly 1.4 million): the primary sources for his life (the poem's own statements, Nizami Arudi's Chahar Maqala, Awfi), the dismissal of the popular tale of his meeting with the Ghazna court poets as fictitious, Noldeke's date of completion and dedication to Ahmad of Khalanjan, the Chahar Maqala account of the payment story, his own caution about it, and his observation that biographical accounts grew with time. Early twentieth-century Western philology; dated and admiring of the poem, but explicitly separates early sources from later legend. The other chapters of the volume were not read.",
+      "url": "https://archive.org/details/b31361560_0002"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ferdowsi_iranica_life, src_ferdowsi_browne | c.977-1010 | specialist encyclopedia article + early-twentieth-century literary history] Khaleghi-Motlagh reads the poet's own statements to date the start of the Shahnameh to about 977 and its completion to 1010, and reports that Nizami Arudi and Attar give 25 years while the satire gives 30 or 35, with the editor himself estimating about 33-35; Browne reports 35 or 25 years of labour and Noldeke's date of completion. The poet's own complaints of poverty, failing eyesight and old age while continuing the work are recorded by Khaleghi-Motlagh. The year figures come from a poem and from tradition, not a dated record, so the score reflects a long documented project, not any inner state."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ferdowsi_iranica_life, src_ferdowsi_browne | 994-1010 | specialist encyclopedia article + early-twentieth-century literary history] Khaleghi-Motlagh records a first version finished by 994 followed by further additions and revision over the next 16 years, and calculates from the poet's own age statements that by 1000 he had composed almost 4,300 of the almost 4,500 verses of the Anushirvan section in about a year. Browne cites the medieval anthologist Awfi on the remarkable uniformity of style and sentiment through so vast a work. Output is inferred from a poem's own chronology and ageing statements, with no daily-habit evidence, so the row stays modest."
+    },
+    "impact_motivation": {
+      "score": 54,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ferdowsi_iranica_life, src_ferdowsi_iranica_shahnama | 977-1010 | specialist encyclopedia article + encyclopedia headword] Khaleghi-Motlagh, citing Noldeke, writes that the poet's attachment to Iran is clear in every line and credits his work with a role in preserving Persian and Iranian historical memory; the headword calls the epic Iran's national epic. This is a scholarly reading of motive from the poem and the poet's landed-gentry background, and the same sources record that he repeatedly sought Mahmud's reward, so the row is low-confidence and not a statement about private feeling. SELF-CALIBRATION (agent): reviewed as a top-risk row (indirect motive inference); lowered from 58 / 0.42 to 54 / 0.38 because the motive is a modern scholar's reading and the sources equally show him pressing for royal reward, which this row cannot discount."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "피르다우시"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "The only candidate with a clear age-based rights basis is the Metropolitan Museum of Art folio from a Khavarannama (about 1476-86, accession 55.184.1, Rogers Fund 1955), flagged public domain in the Met Open Access API and used on Wikimedia Commons under a public-domain-by-age tag as an imaginary depiction of Firdausi. Blocker: it is a scene of several figures (the Met's own title is 'Three Men Before a Castle'), and the Met catalogue text that would say which figure is the poet could not be opened (the Met pages returned a security wall and then HTTP 429 after one retry; a search summary says the folio shows an imagined meeting of Firdausi and the book's author, but does not say which man is which). Identification of the poet rests only on Commons and Wikidata captions, which is not an acceptable basis, and no separate single-figure, rights-clear picture of him exists. Other Commons images are 20th-century paintings or photographs of statues with their own rights. Next step: read the Met catalogue entry for 55.184.1 in a normal browser to confirm which figure is Firdausi, then crop that figure from the Met's public-domain original (2859 x 4000 pixels) and record it as a later depiction, never a likeness.",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/451327"
+  },
+  "provenance": {
+    "createdAt": "2026-10-28T00:00:00Z",
+    "updatedAt": "2026-10-28T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / DOWNGRADED to held: rights are fine (15th-century Persian manuscript folio, Met Open Access isPublicDomain true, Commons PD-Art), but the folio is a multi-figure scene titled by the Met 'Three Men Before a Castle' and I could not read the Met text saying which figure is Firdausi (Met page blocked, one bounded retry returned HTTP 429). See portrait.reason for the exact next step. PREFLIGHT: QID VERIFIED LIVE (2026-10-28) Q43459 label 'Ferdowsi', description 'Persian poet, author of Shahnameh (940-1020)', born 940, died 1020; matches the lead. Not in prod59.txt; no existing candidate for the slug or QID. REGION west_asia (Iran), following the repo precedent for Persian figures (omar-khayyam and abbas-kiarostami are west_asia); central_asia was the alternative because Tus in Khorasan lies in the Samanid-Ghaznavid east, but Iran is mapped to west_asia here. ZERO POLITICS: primary identity is a poet; his dealings with patrons and the Ghaznavid court are used only for his work, and his later nationalist symbolism is reception, not scored. VOCABULARY: occupation poet, field literature, tag craft_focused, archetype creative_creator have EN and KO labels. Korean name 피르다우시 (Korean Wikipedia and Wikidata). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Iranica headword 'Sah-nama' (https://www.iranicaonline.org/?p=57303). READ: Iranica Life (about 25,000 of 74,000 chars), Iranica Hajw-nama (full), Iranica Mausoleum (first half), Iranica Sah-nama headword (full), Browne 1906 chapter II section on Firdawsi (about 12,000 chars). PERSPECTIVES: a modern Iranian scholar who edited the Shahnameh, a modern historian on reception, and a 1906 Western philologist drawing on Noldeke; the poem's own statements reach this profile only through them. COUNTER-VOICES AND LEGEND SEPARATION: Browne and Khaleghi-Motlagh both reject the Daqiqi/Ghazna-poets story and treat the Nizami Arudi account of the payment, the satire and the burial dispute as partly legendary; Iranica reports Shirani's doubt about the satire and others' acceptance of parts of it; sources disagree on birth year (935-6 per Noldeke via Browne; 940 per Iranica), on completion (999 versus 1010) and on death (1020 or 1025). NO ROW scores the Mahmud payment, the bath-house episode, the lampoon, the burial refusal or his religious orientation. NOT OPENED: Britannica (bot wall), Dick Davis's translations and introductions, Olga Davidson's book and its review (paywalled or not accessible), Encyclopaedia of Islam, Nizami Arudi's Chahar Maqala itself, Noldeke. Wikipedia pages were not opened. EXCLUSIONS: his son's death, family, wealth or poverty as personality evidence, religion and the court intrigue are not scored. SPARSE PROFILE (medieval): three rows, none above 72, confidence 0.38-0.52; no padding. SOURCE COUNT: five substantive sources plus the Wikidata orientation entry, below the usual six because only Iranica and Browne were accessible; three of the five are Iranica articles, so independence is limited and flagged. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (58/0.42 lowered to 54/0.38: motive inferred by a scholar from the poem, offset by his documented pressing for royal reward), persistence (72/0.52 kept: the 25-35 year figure appears in the poem, Nizami Arudi, Attar and Browne), discipline (62/0.45 kept: already modest). HANDBACK59: {\"slug\":\"ferdowsi\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":3,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":58,\"old_confidence\":0.42,\"new_score\":54,\"new_confidence\":0.38,\"reason\":\"motive is a scholar's reading of the poem and the same sources show him pressing for royal reward\"}],\"reviewed_kept\":[\"persistence\",\"discipline\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":3}"
+  }
+}

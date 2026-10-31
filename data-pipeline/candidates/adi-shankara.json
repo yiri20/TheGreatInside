@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "adi-shankara",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Adi Shankara",
+    "aliases": [
+      "Shankara",
+      "Śaṅkara",
+      "Shankaracharya",
+      "Adi Sankara"
+    ],
+    "wikidataId": "Q180967",
+    "birthYear": 788,
+    "deathYear": 820,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "theologian"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "religion"
+    ],
+    "impactDomains": [
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_shankara_wikidata",
+      "kind": "wikidata",
+      "title": "Ādi Shankara (Q180967) -- verified live via Wikidata (2026-10-30): English label 'Ādi Shankara', description 'An Indian philosopher and theologian who consolidated the doctrine of Advaita Vedanta and revitalized Sanskrit scholasticism', Korean label '샹카라', birth 788 and death 820 (traditional dates, year only), no citizenship value, P18 image 'Raja Ravi Varma - Sankaracharya.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q180967"
+    },
+    {
+      "id": "src_shankara_sep",
+      "kind": "institution",
+      "title": "Neil Dalal, 'Śaṅkara' (Stanford Encyclopedia of Philosophy, first published 4 October 2021), read in full for the life, works and method sections. CANONICAL SIGNIFICANCE SOURCE: it calls him one of the most widely known and influential Indian philosophers of the classical period and the most authoritative philosopher of Advaita Vedanta, says dates are disputed (788-820 CE by early scholars, 700-750 CE per Nakamura, late seventh to early eighth century per Potter), that there are no dependable historical records of his life beyond his works, that the Śaṅkaravijaya hagiographies were composed several centuries after his death, that he was a systematizer and not a founder, that his earliest complete extant commentaries cover the Brahma Sutras, the Bhagavad Gita and ten principal Upanishads plus the independent Upadeśasāhasrī, that hundreds of other attributed texts are of questionable authorship, and that he 'purportedly' established monastic orders and four or five monasteries. Scholarly university encyclopedia entry; the monastery and travel traditions are treated as unverified.",
+      "url": "https://plato.stanford.edu/entries/shankara/"
+    },
+    {
+      "id": "src_shankara_iep",
+      "kind": "institution",
+      "title": "Sangeetha Menon, 'Advaita Vedanta' (Internet Encyclopedia of Philosophy), history section read in full: that the Advaita tradition predates Śaṅkara and that he acknowledges it in his commentaries, that only Gauḍapāda and Govinda Bhagavadpāda have some historical certainty as earlier teachers, that scholars believe he lived in the eighth century, that his life 'as we understand from the digvijaya texts' is of almost superhuman quality, that his authorship of many attributed texts is established only for some, and that Mandana Miśra's version of Advaita differed from his. Peer-reviewed philosophy encyclopedia written by a professional philosopher; independent of the Stanford entry.",
+      "url": "https://iep.utm.edu/advaita-vedanta/"
+    },
+    {
+      "id": "src_shankara_indology",
+      "kind": "press",
+      "title": "INDOLOGY mailing list thread 'Works attributed to Śaṅkarācārya' (August 2018), messages by David Reigle, Johannes Bronkhorst and Michael Witzel, read in full: that S. K. Belvalkar considered 408 works attributed to Śaṅkarācārya and concluded that 24 were genuine, that Paul Hacker proposed criteria for authenticity, that Sengaku Mayeda tested the Kena Upanishad and Bhagavad Gita commentaries, that Gussner's stylometric study rejected fifteen of seventeen hymns, and that Ray and Sastri disagreed about the Dakṣiṇāmūrti hymn. Informal expert discussion among Sanskritists, used only to show that the authorship question is debated and with the named studies relayed second-hand; the original articles were not opened.",
+      "url": "https://list.indology.info/pipermail/indology/2018-August/048177.html"
+    },
+    {
+      "id": "src_shankara_portrait",
+      "kind": "institution",
+      "title": "Google Arts & Culture, 'Adi Shankaracharya' (Raja Ravi Varma and Ravi Varma Press, circa 1904), collection of The Ganesh Shivaswamy Foundation, Bengaluru, with the Wikimedia Commons file page for the same print, checked for the portrait only.",
+      "url": "https://artsandculture.google.com/asset/adi-shankaracharya-raja-ravi-varma-and-ravi-varma-press/WgFvX3x6i0ckfQ"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_shankara_sep, src_shankara_iep | 8th century | scholarly encyclopedia entries] Through his commentaries (the works scholars accept as his) he is described as constructing novel arguments to defend his positions and critique his philosophical adversaries, for example rejecting Yogacara idealism and the Madhyamika emptiness reading in the Brahma Sutra and Chandogya commentaries (SEP). The same entry says he accepts nonduality on the authority of the Upanishads, not on independent reasoning alone, and left ambiguities that later Advaitins disputed. Inferred from his texts as described by one scholar, so confidence is low; nothing from the hagiographies is used."
+    },
+    "systems_abstraction": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shankara_sep, src_shankara_iep | 8th century | scholarly encyclopedia entries] The SEP calls him a systematizer of Advaita Vedanta who aimed to harmonise diverse and potentially contradictory Upanishadic passages into one exegesis, with commentaries on the Brahma Sutras, the Gita and the principal Upanishads; the IEP places him within an older tradition he himself acknowledges. SELF-CALIBRATION (agent): lowered from 62 / 0.45 to 58 / 0.40 because the harmonising-method claim rests on one encyclopedia entry and the IEP supports only the lineage and the existence of commentaries."
+    },
+    "creative_originality": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_shankara_sep, src_shankara_iep | 8th century | scholarly encyclopedia entries] The SEP calls him an original philosopher who built novel arguments and a pedagogical method, but also a systematizer and not a founder who viewed himself as part of a long lineage; the IEP says the Advaita tradition predates him and he acknowledges it. The balance of originality and inherited framework keeps the score near the middle and dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "샹카라"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/adi-shankara-ravi-varma-press-1904.jpg",
+    "width": 850,
+    "height": 1200,
+    "source": "Colour oleograph print 'Adi Shankaracharya', Raja Ravi Varma and the Ravi Varma Press, circa 1904, 50 x 35 cm, showing him with four disciples, in the collection of The Ganesh Shivaswamy Foundation, Bengaluru (Google Arts & Culture item record) and reproduced on Wikimedia Commons from a 5146 x 7262 pixel scan. A later imagined devotional image made about eleven centuries after the sitter's traditional dates, so it is a depiction and not a likeness. The museum record states the print came from the Ravi Varma Press and was derived from a painting of Ravi Varma, and a Google Arts story cited in the research notes cautions that many Ravi Varma Press prints are not from Ravi Varma's own paintings; the creator is therefore credited to both. Public domain by age: the artist died in 1906 and a print published about 1904 in India is long out of copyright. Downscaled with no cropping to 850 x 1200; not upscaled.",
+    "license": "Public domain (published c. 1904; artist died 1906)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Raja Ravi Varma and Ravi Varma Press, Adi Shankaracharya, circa 1904, collection of The Ganesh Shivaswamy Foundation, Bengaluru, via Google Arts & Culture and Wikimedia Commons.",
+    "attributionUrl": "https://artsandculture.google.com/asset/adi-shankaracharya-raja-ravi-varma-and-ravi-varma-press/WgFvX3x6i0ckfQ",
+    "creator": "Raja Ravi Varma and Ravi Varma Press",
+    "date": "c. 1904",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Raja_Ravi_Varma_-_Sankaracharya.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-30T00:00:00Z",
+    "updatedAt": "2026-10-30T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong for rights (lead) / finding: confirmed. Commons file 'Raja Ravi Varma - Sankaracharya.jpg' (original 5146 x 7262, 33 MB): artist Raja Ravi Varma (1848-1906), title 'Srimad Guru Adi Shankaracharya', circa 1904, oleograph 50 x 35 cm, source Google Arts & Culture; Commons states the artist died in 1906 and the work was published before 1 January 1931 (US public domain) and tags it faithful reproduction of a 2D PD work. Authoritative holder page checked: Google Arts & Culture lists the item as 'Adi Shankaracharya', creators Raja Ravi Varma and Ravi Varma Press, circa 1904, collection of The Ganesh Shivaswamy Foundation, Bengaluru, a chromolithograph print from the Ravi Varma Press 'derived from a painting of Raja Ravi Varma'; the page carries no copyright claim or reproduction restriction on this item (only the platform's general terms). CAVEATS: (1) the Ravi Varma Press was sold by the artist in 1901, and the Arts & Culture story warns many press prints are not from his own paintings, so authorship by Ravi Varma personally is uncertain; the rights basis does not depend on it because a print published c. 1904 in India is public domain by age whoever designed it (a work in the public domain in India in 1996 was not restored under the URAA); (2) the exact publication date is 'circa'; (3) it is a modern devotional imagining, shown as a depiction. PREFLIGHT: QID VERIFIED LIVE: Wikidata Q180967 (2026-10-30): label 'Ādi Shankara', ko label '샹카라', years 788 and 820. SLUG/QID CHECK: not in prod59.txt (grepped QID and 'shankara'; only ravi-shankar, a different person); no candidate file existed. REGION: south_asia. ERA: medieval (8th century). KOREAN NAME: Wikidata Korean label '샹카라' chosen as the standard Korean rendering (아디 샹카라 is a variant). HISTORICAL POLITY: none set, because no suitable labelled polity key exists in the repo (e.g. chanakya uses an unlabelled key); lead may add one. VOCABULARY: philosopher, theologian, philosophy, religion, philosopher, systematic_thinker, scholarly_specialist have EN+KO labels. ZERO POLITICS: the tradition of founding four monasteries and monastic orders is described by the SEP as 'purportedly' and is not scored; no politics. HAGIOGRAPHY VS SCHOLARSHIP: the Śaṅkaravijaya accounts (birth in Kalady, renunciation at a young age, wandering debates, death at 32, founding of mathas, superhuman feats) are legend composed centuries later and are NOT scored and NOT carded as fact; only his authenticated commentaries as described by scholars are used. AUTHORSHIP: SEP and IEP both say authorship of many attributed texts is doubtful; the cards credit only the Brahma Sutra, Gita and principal Upanishad commentaries as widely accepted works, and name no doubtful stotras or the Vivekachudamani. DATES: 788-820 is the traditional dating; scholars (Nakamura, Potter) prefer c. 700-750 or a late 7th to early 8th century; the cards say 'eighth-century'. READ (3 substantive): Stanford Encyclopedia entry (CANONICAL SIGNIFICANCE SOURCE), IEP Advaita Vedanta history section, INDOLOGY thread. Only 3 sources because the evidence base for a medieval philosopher is almost entirely his own texts and scholarly reconstruction, and there is no behavioural biography; this thin base is why confidence is capped at 0.42. PERSPECTIVES: two independent peer-reviewed encyclopedias and a scholars' list discussion. COUNTER-VOICES: SEP notes he accepts nonduality on Upanishadic authority and left ambiguities; scholars dispute authorship, dates and the monastic tradition; no hostile source was located. NOT OPENED: Britannica (blocked, HTTP 403/Cloudflare; only a search snippet was seen and nothing from it is used), Nakamura, Isayeva, Potter, Mayeda, Hacker and Belvalkar originals, the Śaṅkaravijaya texts, a Tsadra Commons wiki page (it asks not to be cited), Advaita Vedanta Home Page and other devotional or partisan sites. SELF-CALIBRATION: rows reviewed: systems_abstraction, analytical_rigor, creative_originality. Lowered: systems_abstraction 62/0.45 -> 58/0.40 (the harmonising-method claim rests on one encyclopedia entry). analytical_rigor and creative_originality kept (already scored at low confidence with dual-edged impact). HANDBACK59: {\"slug\":\"adi-shankara\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":3,\"self_calibrated_rows\":[{\"attribute\":\"systems_abstraction\",\"old_score\":62,\"old_confidence\":0.45,\"new_score\":58,\"new_confidence\":0.4,\"reason\":\"harmonising-method claim rests on one encyclopedia entry; IEP supports only lineage and existence of commentaries\"}],\"reviewed_kept\":[\"analytical_rigor\",\"creative_originality\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":3}"
+  }
+}
