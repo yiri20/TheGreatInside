@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yi-hwang",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yi Hwang",
+    "aliases": ["Toegye", "T'oegye", "Yi Toegye", "Lee Hwang"],
+    "wikidataId": "Q486291",
+    "birthYear": 1501,
+    "deathYear": 1570,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": ["KR"],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": ["philosopher", "scholar", "teacher"],
+    "fieldIds": ["philosophy", "education"],
+    "impactDomains": ["cultural", "educational", "historical"],
+    "tagIds": ["systematic_thinker", "mentor"],
+    "archetypeIds": ["scholarly_specialist"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yh_wikidata",
+      "kind": "wikidata",
+      "title": "Yi Hwang (Q486291), verified live via the Wikidata API (2026-10-31): label 'Yi Hwang', description 'Korean Confucian scholar (1502 -1571)', born 1501, died 1570 in the item's statements, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q486291"
+    },
+    {
+      "id": "src_yh_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Yi Hwang', fetched for orientation (names, dates, the portrait files). Orientation only; never counted as a source for any row.",
+      "url": "https://en.wikipedia.org/wiki/Yi_Hwang"
+    },
+    {
+      "id": "src_yh_aks_bio",
+      "kind": "institution",
+      "title": "Academy of Korean Studies, Encyclopedia of Korean Culture, entry 'Yi Hwang' (Korean, written 1995 by Jeon Du-ha, revised 2025), read in full: his life and posts, his repeated declining of office, the Dosan hermitage school of 1560, the dated list of his studies and writings, the structure of the Ten Diagrams on Sage Learning (naming which diagrams he drew himself), the 260 or so followers, the posthumous Dosan Seowon, and his reception in Japan. CANONICAL SIGNIFICANCE SOURCE: the national academy's reference entry. Single-author, strongly admiring in its evaluation section.",
+      "url": "https://encykorea.aks.ac.kr/Article/E0046626"
+    },
+    {
+      "id": "src_yh_aks_munjip",
+      "kind": "institution",
+      "title": "Academy of Korean Studies, Encyclopedia of Korean Culture, entry 'Toegye seonsaeng munjip' (his collected writings; Korean, written by Jang Yu-seung, revised), read in full: the first edition of 1600 at Dosan Seowon, compiled by his grandson and disciple Jo Mok after 1571 on the model of Zhu Xi's collected works, with its textual errors and its status as a Treasure. Short; about the book, not his conduct.",
+      "url": "https://encykorea.aks.ac.kr/Article/E0076868"
+    },
+    {
+      "id": "src_yh_kalton",
+      "kind": "biography",
+      "title": "Michael C. Kalton (University of Washington, Tacoma), 'Yi Hwang (T'oegye)', faculty web page adapted from a Routledge encyclopedia article, read in full: calls him one of the two most honored thinkers of Korean Neo-Confucianism, describes his retirement from office to study and teach, the Four-Seven debate with Ki Taesung, and the Ten Diagrams on Sage Learning. Short overview by the translator of his Sage Learning; sympathetic.",
+      "url": "https://faculty.washington.edu/mkalton/T%27oegye.htm"
+    },
+    {
+      "id": "src_yh_ivanhoe",
+      "kind": "press",
+      "title": "Philip J. Ivanhoe, 'The historical significance and contemporary relevance of the four-seven debate', Philosophy East and West 65(2), April 2015, pp. 401-429, abstract read (CityUHK Scholars record): describes the extensive and systematic exchanges between Yi Hwang and Gi Dae-seung, their further development by Seong Hon and Yi I, and the debate's relation to Western moral metaphysics and moral psychology. Peer-reviewed article; only the abstract was read.",
+      "url": "https://scholars.cityu.edu.hk/en/publications/the-historical-significance-and-contemporary-relevance-of-the-fou/"
+    },
+    {
+      "id": "src_yh_kim",
+      "kind": "press",
+      "title": "Kim Hyoung-chan (Korea University), 'Toegye's Philosophy as Practical Ethics: A System of Learning, Cultivation, and Practice of Being Human', Korea Journal 47(3), Autumn 2007, pp. 160-190, read in substantial part (open PDF): says the Four-Seven debate began in 1559 with his disciple Ki Dae-seung and that Yi Hwang later restated his formula after Ki's objection; describes his return to Andong and the Dosan Seodang school; and sets out three problems that arise when his concepts are tested against Zhu Xi's philosophy. Independent scholarly article with a critical component.",
+      "url": "https://accesson.kr/kj/assets/pdf/8159/journal-47-3-160.pdf"
+    },
+    {
+      "id": "src_yh_unesco",
+      "kind": "institution",
+      "title": "UNESCO World Heritage Centre, 'Seowon, Korean Neo-Confucian Academies' (inscribed 2019), description and statement of Outstanding Universal Value read: a serial property of nine seowon including Dosan-seowon, which it describes as academies for learning, veneration of scholars and interaction with nature. The text does not discuss Yi Hwang individually; used only for the institutional status of the academy.",
+      "url": "https://whc.unesco.org/en/list/1498/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yh_aks_bio, src_yh_kalton, src_yh_kim | 1546-1570 | national encyclopedia + translator's overview + journal article] After leaving office he spent two decades in study and writing despite repeated recalls (Kalton). The academy's entry dates a continuing series of works: the revision of the Cheonmyeong doseol (age 53), the Jujaseo jeolyo and the Jaseongrok (by 58), the Songwon ihak tongnok draft (63), the Simgyeong humnon (66) and the Ten Diagrams in his late sixties. Sustained output is documented, but the sources are admiring and the dates come from one entry; the volume of his work is not independently counted."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yh_kim, src_yh_ivanhoe | 1559 onward | journal article + abstract] Kim reports that the debate began in 1559 with his disciple Ki Dae-seung, that he first held that the Four Beginnings are the issuance of principle and the Seven Emotions the issuance of material force, and that he later, in response to Ki's opposing idea, restated it as principle issuing with material force following in the first case and the reverse in the second. Ivanhoe describes the exchange as extensive and systematic. The revision is documented in one article's account; how far it was a real change of position, as against a re-wording, is itself disputed in the literature, which was not opened."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yh_ivanhoe, src_yh_kalton, src_yh_kim | 1559-1566 | abstract + overview + journal article] His long exchange with Gi Dae-seung is described as systematic and as setting the agenda for later Korean Neo-Confucian thought (Ivanhoe; Kalton). Kim, a critical reader, argues that some of his concepts, such as the 'issuance of principle', strain the definition of principle in Zhu Xi's system, so the rigour is contested by a scholar of the same tradition. The letters themselves were not opened; the evidence is the scholars' accounts."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yh_aks_bio, src_yh_kim | 1543-1569 | national encyclopedia + journal article] The academy's entry says that from 1543 he resigned from or declined appointments some twenty times, asked for provincial posts to be away from the capital, built a hermitage and then the Dosan school in 1560 and lived there for seven years reading, writing and teaching, and that he went back to the capital only under repeated summons. Kim ties the return to Andong to his wish to pursue Neo-Confucian learning away from court conflict. This documents a strong preference for a self-directed scholarly life; the reasons he gave (illness, duty to parents) and the political context are not scored, and the entry is admiring."
+    },
+    "systems_abstraction": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yh_aks_bio, src_yh_kalton, src_yh_kim | 1568 | national encyclopedia + overview + journal article] The Ten Diagrams on Sage Learning set out, in ten diagrams with texts, cosmology, human nature, moral practice and daily discipline for the young king (Kalton; Kim). The academy's entry notes that most of the items are by earlier writers and that five items (diagrams 3, 5 and 10 and the lower part of 6) are his own, and judges that he arranged the whole as an organic system. That judgement comes from one admiring entry and the diagrams are largely compiled, hence the modest score. SELF-CALIBRATION (agent): lowered from 62 / 0.46 because the 'organic system' claim rests on a single admiring entry and most of the diagram material is inherited."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이황"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Wikidata's P18 is a photograph of a statue (a modern sculpture, derivative work: rejected). The 1000-won banknote portrait and the Korean 'standard portrait' (a modern state-commissioned painting) are modern state artwork: rejected. A search of Commons categories and the 1908 school textbook 'Chodeung Daehan yeoksa' illustrations (the source used for another Joseon scholar) found no illustration of Yi Hwang. The only other Commons item, a Cleveland Museum of Art calligraphy, is not a likeness. Next step: find an old portrait or woodblock print of him (for example held by the Dosan Seowon, a national museum or a pre-1931 book) with an item-level statement of creator, date and terms."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / CONFIRMED HOLD after one bounded retry: Wikidata P18 'Statue of Yi Hwang.jpg' is a statue (derivative work); the banknote and standard portrait are modern state artwork; no 1908 textbook illustration of him on Commons (the Chodeung Daehan yeoksa vol. 4 plates are Taejo, Yi Ji-ran, Hwang Hui, Yi Sun-sin, Gim Deok-ryeong, Non-gae, Jeong Gi-ryong, Yi Won-ik, Im Gyeong-eop, Jeong Yak-yong, Gojong, Min Yeong-hwan, Yeongchinwang). PREFLIGHT: QID VERIFIED LIVE (2026-10-31): Q486291 label 'Yi Hwang', description 'Korean Confucian scholar (1502 -1571)', Wikidata statements born 1501, died 1570; no collision in prod60 or data-pipeline/candidates. DATES: the lead gave 1502-1571, which are the Gregorian-calendar equivalents; Wikidata, the AKS encyclopedia, Kalton, Ivanhoe and Kim all give 1501-1570 (the lunar-calendar years), so 1501/1570 is used for consistency with Wikidata and the sources (flag for the lead). REGION east_asia. ERA early_modern (Joseon, as specified). VOCABULARY: occupations philosopher, scholar, teacher; fields philosophy, education; tags systematic_thinker, mentor; archetype scholarly_specialist; all grepped with EN and KO labels. KOREAN NAME 이황 is the Wikidata and standard form. ZERO POLITICS: his official posts (Daesaseong, Daejehak, the royal lectures) and the Mujin yukjoso memorial are context only and not scored; the Ten Diagrams is scored as a scholarly work, and the refusal of office is recorded only as a documented preference for scholarly life, not as political behaviour. DOSAN: he built the Dosan Seodang (hermitage school) in 1560; Dosan Seowon was founded by local scholars four years after his death (AKS), so the 'founder of the academy' wording is limited to the school he established. CANONICAL SIGNIFICANCE SOURCE: Academy of Korean Studies, Encyclopedia of Korean Culture, 'Yi Hwang' (https://encykorea.aks.ac.kr/Article/E0046626). READ: AKS Yi Hwang and Toegye seonsaeng munjip entries, Kalton overview, Ivanhoe abstract, Kim Hyoung-chan article (large part of the PDF), UNESCO Seowon page; Britannica's 'Yi Hwang' page was fetched but is a stub (only the Korean-literature mention of the Twelve Songs of Mount Do) and is not cited. PERSPECTIVES: Korean national encyclopedia (strongly admiring), a Western translator-scholar, a critical Korean scholar (Kim), a comparative philosopher (Ivanhoe). NOT OPENED: the Toegye jeonjip letters (primary; his letters were therefore not used as self-report), Kalton's 'To Become a Sage' and 'The Four-Seven Debate' books, Edward Chung's book (no abstract was fetched), Dosan Seowon's own site, the UNESCO nomination dossier. EXCLUSIONS: health, family bereavement (father's death at seven months), the honorary posthumous titles and the Japanese reception are context only; no personality inferred from doctrine. FLAGS: 5 sparse rows, none above 64, confidence <= 0.5; no collaboration or discipline row because no source describes his daily conduct apart from the admiring entry. SELF-CALIBRATION (agent): top-risk rows reviewed: systems_abstraction (62/0.46 lowered to 58/0.42), persistence kept (several dated works from one admiring entry plus Kalton), autonomy_need kept (already 58/0.44 dual-edged). HANDBACK60: {\"slug\": \"yi-hwang\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"systems_abstraction\", \"old_score\": 62, \"old_confidence\": 0.46, \"new_score\": 58, \"new_confidence\": 0.42, \"reason\": \"organic-system claim rests on a single admiring entry and most diagram material is inherited\"}], \"reviewed_kept\": [\"persistence\", \"autonomy_need\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

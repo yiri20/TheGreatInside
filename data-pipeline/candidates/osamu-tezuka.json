@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "osamu-tezuka",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Osamu Tezuka",
+    "aliases": [
+      "Tezuka Osamu",
+      "Tezuka Osamu (手塚治虫)",
+      "God of Manga"
+    ],
+    "wikidataId": "Q193300",
+    "birthYear": 1928,
+    "deathYear": 1989,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "artist",
+      "animator"
+    ],
+    "fieldIds": [
+      "art",
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "innovation"
+    ],
+    "tagIds": [
+      "prolific",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tezuka_wikidata",
+      "kind": "wikidata",
+      "title": "Osamu Tezuka (Q193300), verified live via the Wikidata API (2026-10-31): label 'Osamu Tezuka', description 'Japanese cartoonist and animator (1928-1989)', Korean label present, image 'Osamu Tezuka 1951 Scan10008-2.JPG'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q193300"
+    },
+    {
+      "id": "src_tezuka_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Osamu Tezuka', article by Jennifer R. Coker (2024; read in full). CANONICAL SIGNIFICANCE SOURCE: pioneering figure in comics and animation, known in Japan as the god of comics; inspired by Walt Disney; chose graphic arts over medicine; works characterized by humanism and rejection of war; Phoenix series; Astro Boy described as Japan's first animated television series; about 150,000 pages drawn; awards at Venice, Asia and Zagreb festivals. Encyclopedic summary that gives the Mushi/Tezuka Productions founding as 1961, which differs from the company's own dating.",
+      "url": "https://www.ebsco.com/research-starters/history/osamu-tezuka/"
+    },
+    {
+      "id": "src_tezuka_gale",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Tezuka, Osamu 1928-1989' (Gale reference entry, read in full): lists works and awards, quotes Frederik Schodt on his humanism and on the many manga artists and animators who worked with him, records that his animation company was bankrupted by network budget limits before the success of Phoenix, that he never excelled as a businessman, and that his widow declined to act over the similarity between The Lion King and Kimba. Reference entry compiled from reviews and Schodt, mixed admiring and critical.",
+      "url": "https://encyclopedia.com/arts/educational-magazines/tezuka-osamu-1928-1989"
+    },
+    {
+      "id": "src_tezuka_tp",
+      "kind": "institution",
+      "title": "Tezuka Productions, company profile and chronology (read in full; promotional insider source run by his own studio): debut 1946, first story manga New Treasure Island in 1947, about 150,000 manuscript sheets, about 700 titles, more than 1,000 characters and about 60 animation works; chronology of Astro Boy (1963), Jungle Emperor Leo, Phoenix in COM magazine (1966), the Kodansha Manga Award (1977); anecdote that he first refused paperback editions because he cared about page format. Counted as insider evidence only.",
+      "url": "https://tezuka.co.jp/en/company/index.html"
+    },
+    {
+      "id": "src_tezuka_arts",
+      "kind": "institution",
+      "title": "Google Arts & Culture exhibit 'Tezuka Osamu the Dawn of TV animation', by Tezuka Productions (read in full; insider curation quoting his own words): his 1958 move into animation with Toei, the 1961 studio, the 1962 film Tales of the Street Corner, and his account of making weekly 30-minute Astro Boy episodes by cutting the number of pictures. Self-report and promotional; used only for his own described method.",
+      "url": "https://artsandculture.google.com/story/dgWBBNM8pRsA8A"
+    },
+    {
+      "id": "src_tezuka_imagetext",
+      "kind": "biography",
+      "title": "ImageTexT journal, review of Natsu Onoda Power's 'God of Comics: Osamu Tezuka and the Creation of Post-World War II Manga' by Tof Eklund (2021; read in full): independent scholarly review that credits the book with surveying about 150,000 pages of output, shows him at the forefront of shonen manga and arguably shojo manga, notes his vexed relationship with anime and varied depiction of women, and warns that the book overplays his importance and canonizes him. Counter-voice source on a scholarly book (the book itself was not opened).",
+      "url": "https://imagetextjournal.com/review-of-god-of-comics-osamu-tezuka-and-the-creation-of-post-world-war-ii-manga/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tezuka_imagetext, src_tezuka_gale, src_tezuka_ebsco | 1947-1989 | scholarly review + reference entry + encyclopedia] The ImageTexT review of Onoda Power presents him at the forefront of each new development in manga, from boys' manga to arguably girls' manga, and describes her argument that he built a cast of reusable 'actors' rather than stock characters; the Gale entry and EBSCO describe the long-running Phoenix series, a girls' comic, adult works and television adaptations. The reviewer warns that the book overplays his importance, and the star-system idea is a single scholar's thesis the reviewer calls under-explored. SELF-CALIBRATION (agent): lowered from 74 / 0.52 to 70 / 0.50 because the strongest originality claims rest on one scholar's thesis relayed by one review, with the reviewer himself warning of over-canonization."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tezuka_imagetext, src_tezuka_gale, src_tezuka_tp | 1946-1989 | scholarly review + reference entry + insider profile] The independent review cites about 150,000 pages of output over his career and Gale gives the same figure; the Tezuka Productions chronology adds about 700 titles; Gale records that his company was bankrupted by network budget limits and that his fortunes recovered after the success of the Phoenix film, and relays, with 'it is said', that he sometimes slept as little as two hours. The output total is corroborated by an independent review, but the sleep detail is hearsay and unused for the score."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tezuka_ebsco, src_tezuka_gale, src_tezuka_arts | 1946-1989 | encyclopedia + reference entry + insider exhibit] EBSCO and Gale record that he graduated from medical school (licensed physician in 1960) and chose graphic arts, worked across newspaper strips, story manga, girls' comics, television animation and experimental short films such as Memory and Mermaid (1964), and won festival prizes in animation as well as comic awards. The breadth of formats is documented in two independent reference works; his move into animation is also told in his own words in the insider exhibit."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_tezuka_arts, src_tezuka_gale | 1961-1963 | insider exhibit + reference entry] His own account in the Tezuka Productions exhibit says that, to make weekly 30-minute Astro Boy episodes at low cost, he told his staff to reduce the number of pictures and mask the lack of movement with lines; Gale independently records that budget restrictions from the network bankrupted his studio. The method is known mainly from his own recollection through his company, and the independent source shows only the financial outcome. SELF-CALIBRATION (agent): lowered from 62 / 0.44 to 58 / 0.40 because the method rests on his own account relayed by his own studio and the independent source describes only the bankruptcy."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "데즈카 오사무"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/osamu-tezuka-asahi-1953.jpg",
+    "width": 407,
+    "height": 467,
+    "source": "Photograph of Osamu Tezuka from the Asahi Graph issue of 10 June 1953, credited to the Asahi Shimbun company, scanned and hosted on Wikimedia Commons as 'Tezuka Osamu.JPG'. Rights basis: published in Japan in 1953, before 1 January 1958, so public domain in Japan under the transitional rule for old photographs and therefore public domain in the United States (Japanese copyright expired before the 1996 restoration date); Commons tags it as an old-photograph public-domain file with no US-restoration warning. Same basis as the Asahi Graph photograph used for another Japanese subject in this roster. Saved at the Commons original size of 407 x 467, no resizing and no upscaling. Caveat: the individual photographer is not named, and the basis depends on the 1953 publication date given on the file page, which I could not check against the magazine itself. The Wikidata lead (a 1951 photograph, 595 x 508, unknown author) was rejected because its only source is a 1989 book and no earlier publication is documented.",
+    "license": "Public domain (Japan, published before 1958)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Japan-oldphoto",
+    "attribution": "Asahi Shimbun company, Asahi Graph, 10 June 1953, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Tezuka_Osamu.JPG",
+    "creator": "Asahi Shimbun company (photographer not named)",
+    "date": "1953",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Tezuka_Osamu.JPG"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / resolved with a different file: the Wikidata image 'Osamu Tezuka 1951 Scan10008-2.JPG' (595 x 508, unknown author) cites only the 1989 book 'Showa Day by Day' vol. 9 (Kodansha), with no documented publication before 1958, so it was NOT used; used instead 'Tezuka Osamu.JPG' (407 x 467), Asahi Graph, 10 June 1953, Asahi Shimbun company, tagged PD-Japan-oldphoto (published before 1958) with no URAA warning (Commons page opened, 0 URAA mentions), same basis as the Hideki Yukawa portrait in this repo. Other Commons files checked and rejected: a 1961 magazine photo by an art-school publisher (Osamu-Tezuka-1.jpg; published 1961, after the old-photograph cutoff), a 1988 'own work' PNG, a 2016 Flickr photograph of a statue, and a 1980 'own work' crop. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q193300 label 'Osamu Tezuka', description 'Japanese cartoonist and animator (1928-1989)', born 1928-11-03, died 1989-02-09, Korean label '데즈카 오사무'. No production or candidate slug/QID collision (grepped prod60 and data-pipeline/candidates). REGION east_asia; ERA 20th_century (repo precedent: Yukawa, Ozu). ZERO POLITICS: primary identity is manga artist and animator; his humanist and anti-war themes are work content, not scored as activism. VOCABULARY: occupations artist and animator, fields art and film (no comics-specific id exists; chose art for manga and film for animation and recorded the choice), tags prolific and innovator, archetype creative_creator, all grepped in en.ts and ko.ts. KO NAME: Korean Wikidata label, recorded as used. CANONICAL SIGNIFICANCE SOURCE: EBSCO Research Starters 'Osamu Tezuka' (https://www.ebsco.com/research-starters/history/osamu-tezuka/); Britannica returned 404 for the URLs tried. READ IN FULL: EBSCO; Encyclopedia.com/Gale entry; Tezuka Productions company profile; Google Arts & Culture exhibit by Tezuka Productions; ImageTexT review of Onoda Power's God of Comics. PERSPECTIVES: two reference works, an independent scholarly book review with an explicit critical stance, two insider (company) sources. COUNTER-VOICES/CAVEATS: ImageTexT warns of over-canonization, his vexed relation with anime and varied depiction of women; Gale records bankruptcy and poor business sense; dating of the studio founding conflicts across sources (1961 EBSCO and Gale, 1961 or 1962 in the company material, Tezuka Productions itself 1968), so no founding date is carded. NOT OPENED: Schodt's Manga! Manga! and Astro Boy Essays (reached only as quoted by Gale), Onoda Power's book itself, Japan Foundation and NHK material, Britannica. SELF-REPORT: his words in the Google Arts & Culture exhibit are self-report through his own studio and never sole support. SPARSE PROFILE: four rows, none above 70, confidence at most 0.50; no private life, health or family used. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (74/0.52 lowered to 70/0.50), resourcefulness (62/0.44 lowered to 58/0.40), persistence (kept; output total corroborated by an independent review). HANDBACK60: {\"slug\": \"osamu-tezuka\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 74, \"old_confidence\": 0.52, \"new_score\": 70, \"new_confidence\": 0.5, \"reason\": \"strongest originality claims rest on one scholar's thesis relayed by one review whose author warns of over-canonization\"}, {\"attribute\": \"resourcefulness\", \"old_score\": 62, \"old_confidence\": 0.44, \"new_score\": 58, \"new_confidence\": 0.4, \"reason\": \"method known mainly from his own account relayed by his own studio; the independent source shows only the bankruptcy\"}], \"reviewed_kept\": [\"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

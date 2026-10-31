@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "azim-premji",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Azim Premji",
+    "aliases": ["Azim Hasham Premji", "Azim H. Premji"],
+    "wikidataId": "Q380152",
+    "birthYear": 1945,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["executive", "entrepreneur"],
+    "fieldIds": ["business", "technology"],
+    "impactDomains": ["industrial", "entrepreneurial", "technological"],
+    "tagIds": ["leader"],
+    "archetypeIds": ["organizational_leader"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_premji_wikidata",
+      "kind": "wikidata",
+      "title": "Azim Premji (Q380152), verified live via the Wikidata API (2026-10-31): label 'Azim Premji', description 'Indian business tycoon, investor, and philanthropist', born 1945-07-24, no death date, Korean label present, image 'Azim Premji - World Economic Forum Annual Meeting Davos 2009 (crop).jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q380152"
+    },
+    {
+      "id": "src_premji_britannica",
+      "kind": "biography",
+      "title": "Anthony G. Craine and the Editors, 'Azim Premji', Encyclopaedia Britannica, read in full. CANONICAL SIGNIFICANCE SOURCE: chairman of Wipro who guided the company through four decades of diversification and growth into a leader in the software industry; took over the family vegetable-oil business in 1966 after his father's death and diversified into soap, shoes, lightbulbs and hydraulic cylinders; renamed it Wipro in 1977 and moved into computers after IBM left India; built custom software for export, hiring and training the best people; 'boldly broken with tradition' at a time when most Indian fortunes rested on land and factories; the 2001 Azim Premji Foundation (philanthropy not scored). Reference biography.",
+      "url": "https://www.britannica.com/biography/Azim-Premji"
+    },
+    {
+      "id": "src_premji_globe",
+      "kind": "press",
+      "title": "Marcus Gee, 'The world's subsidiary', The Globe and Mail (10 April 2008), read in full: the 1966 takeover and the peanut-weighing change that became the 'Wipro Way', diversification, the move into computers, measurement of everything including customer satisfaction, 12 to 21 weeks of recruit training, Six Sigma training, a refusal to give or accept bribes, the dismissal of an employee over an expense claim and the resulting three-month strike, the decision to move up from low-cost services to consulting, and a banker's view of his professionalism. Journalistic profile, largely admiring and with some of its detail from Premji's own interview and Wipro's own account.",
+      "url": "https://www.theglobeandmail.com/report-on-business/the-worlds-subsidiary/article1054392/"
+    },
+    {
+      "id": "src_premji_bt2005",
+      "kind": "press",
+      "title": "Venkatesha Babu, 'Azim Premji, CEO, Wipro', Business Today (31 July 2005), read in full: the exit of Wipro Technologies chief Vivek Paul, the six-year record of five vice chairmen leaving, the claim by the article that Premji, with 84 percent of the company, 'wants things run his own way', a rival executive's view that Wipro had fallen behind Infosys, and Premji's interview answers on delegation, succession and 'yes men'. Independent business-magazine reporting and the counter-voice for this profile; the interview answers are self-report.",
+      "url": "https://archives.digitaltoday.in/businesstoday/20050731/features1.html"
+    },
+    {
+      "id": "src_premji_gulfnews",
+      "kind": "press",
+      "title": "AFP, 'Azim Premji set to retire next month', Gulf News (6 June 2019), read in full: his retirement as executive chairman on 30 July 2019 after heading Wipro since the late 1960s, the company's growth from a small cooking-fat firm to an IT, consulting and business-services group with $8.5 billion revenue, and the competition from Tata Consultancy Services and Infosys. Short wire report.",
+      "url": "https://gulfnews.com/business/azim-premji-set-to-retire-next-month-1.64433219"
+    },
+    {
+      "id": "src_premji_yourstory",
+      "kind": "press",
+      "title": "'Wipro has a new chairman as Rishad Premji takes over from father Azim Premji', YourStory (August 2019), read in full: 53 years at the head of Wipro, growth from a hydrogenated-fat firm to an IT major, additional businesses in consumer goods, engineering and medical devices, and the caution that Wipro had slipped to fourth place among Indian IT exporters as HCL Technologies moved ahead. Start-up news site; used for the later-career counterweight.",
+      "url": "https://yourstory.com/2019/08/wipro-azim-premji-rishad-premji-chairman"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_premji_britannica, src_premji_globe, src_premji_gulfnews | 1966-2019 | reference biography, daily-newspaper profile, wire report] Britannica traces the move from vegetable fats through soap, shoes, lightbulbs and hydraulic cylinders into computers and then export software; the Globe and Mail adds the later plan to move up from low-cost services to consulting; AFP summarises the result as a cooking-fat firm turned global IT group. The change of business is well attested across three outlets, but they describe outcomes more than his own decisions, and the Business Today and YourStory pieces show Wipro losing ground to rivals later."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_premji_britannica, src_premji_globe | 1977-2008 | reference biography, daily-newspaper profile] Britannica says the government's request that IBM leave India led him to steer Wipro towards computers and that he took advantage of India's large pool of educated software developers; the Globe and Mail says he was one of the first to see the opportunity in exporting repetitive software and services work. The two accounts differ on the year IBM left (Britannica says 1979, the Globe says 1977), and the 'first' language is the journalist's and is not repeated here."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_premji_globe, src_premji_britannica | 1966-2008 | daily-newspaper profile, reference biography] The Globe and Mail says Wipro measures everything from earnings and customer satisfaction to cafeteria food waste, gives new recruits 12 to 21 weeks of full-time training and has sent more than 7,000 staff to learn Six Sigma, and starts the 'Wipro Way' from replacing biting peanuts with weighing them; Britannica says he built a reputation for hiring the best people and training them. The detail is from one long profile based partly on company information, with Britannica confirming only the training emphasis."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_premji_britannica, src_premji_bt2005, src_premji_gulfnews | 1966-2019 | reference biography, business magazine, wire report] Britannica says he returned from Stanford to take charge in 1966 and AFP that he headed Wipro until 2019; Business Today argues that his 84 percent holding and the exits of five vice chairmen in six years show he 'wants things run his own way', while he says in interview that he does not run operations and wants no 'yes men'. The long tenure is documented; the magazine's reading of the exits is an interpretation and his reply is self-report, so the row is moderate with a mixed impact."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_premji_britannica, src_premji_globe | 1966-1990s | reference biography, daily-newspaper profile] Britannica says he 'boldly broken with tradition' by building an IT business at a time when Indian fortunes rested on land and factories, and both sources describe moving into computers and export software from a vegetable-oil base. Neither source quantifies the stakes or reports his own weighing of the risk, and the Business Today piece notes later rivals overtaking Wipro, so the row is a moderate inference."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_premji_globe | 1980s-2008 | daily-newspaper profile] The Globe and Mail says the company fired an employee who claimed a first-class train fare for a second-class trip, that the man's union struck for three months and that Premji would not back down, and that Wipro was among the first in India to refuse to give or accept bribes. It is a single admiring profile with no date for the strike and no second account. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.45 to 58 / 0.40 because the strike and the dismissal rest on one undated anecdote in one source."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아짐 프렘지"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait could be resolved. (1) Wikidata P18 'Azim Premji - World Economic Forum Annual Meeting Davos 2009 (crop).jpg' (1904 x 2484, photographer Monika Flueckiger for the World Economic Forum) is labelled CC BY-SA 2.0 on Commons after a 2009 Flickr review, but the live Flickr page (flickr.com/photos/worldeconomicforum/3488041371) was fetched on 2026-10-31 and now shows licence CC BY-NC-SA 2.0, a conflicting non-commercial licence, so it is rejected as unresolved. The other World Economic Forum files in the Commons category ('Azim H. Premji World Economic Forum 2013', 'Azimpremji.jpg') carry the same Flickr-account licence risk and were not used. (2) Commons has several Indian government photographs (President's, Vice President's and Prime Minister's secretariat releases from the Press Information Bureau, for example the 2011 Padma Vibhushan investiture, 2200 x 2110) tagged with the Indian Government Open Data Licence after a bot review, but the Press Information Bureau page that would state the terms could not be opened, so the licence basis cannot be confirmed from the source, and the photographs show him in ceremonies with officials. (3) An own-work upload from a 2014 convocation is a group scene. Next step: find a single-subject photograph with an openly licensed photo-level licence confirmed on the live source page (for example a Wipro or Azim Premji University press image with a stated open licence), or obtain written permission from a rights holder, or confirm the Press Information Bureau's terms for the government photographs.",
+    "kind": "likeness"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / CONFIRMED RISKY: the live WEF Flickr page for the Davos 2009 photograph shows CC BY-NC-SA 2.0 (licence id 1), conflicting with the Commons CC BY-SA 2.0 label; unresolved, one bounded retry through the Commons category found only other WEF files and PIB government releases whose licence page could not be opened (the PIB page returned no response); HOLD. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q380152 label 'Azim Premji', description 'Indian business tycoon, investor, and philanthropist', born 1945-07-24, no death date; not in prod60 list and no candidate slug exists. REGION south_asia; ERA contemporary. ZERO POLITICS: primary identity is a business executive; Foundation philanthropy and the 2019 handover to his son are context and not scored. LIVING SUBJECT: only documented professional behaviour; no family, health or private life. VOCABULARY: occupations executive and entrepreneur, fields business and technology, impactDomains industrial, entrepreneurial and technological, tag leader, archetype organizational_leader, all grepped in en.ts and ko.ts (philanthropist has no label and is not used; founder is not used because his father founded the company). KO NAME: Wikidata Korean label 아짐 프렘지. CANONICAL SIGNIFICANCE SOURCE: Anthony G. Craine and the Editors, 'Azim Premji', Encyclopaedia Britannica (https://www.britannica.com/biography/Azim-Premji). READ IN FULL: Britannica, Globe and Mail 2008 profile, Business Today 2005 feature, Gulf News/AFP 2019, YourStory 2019 (five substantive sources). PERSPECTIVES: reference biography, Canadian daily profile, Indian business magazine critical of the exits, wire report, start-up news site. COUNTER-VOICES: Business Today (control, vice-chairman exits, Infosys comparison) and YourStory (slipping to fourth place). NOT OPENED: Wharton Knowledge articles and Forbes and ICMR case pages (HTTP 403 or teaser only), Steve Hamm's 'Bangalore Tiger' (known only through reviews and the Globe's mention), Harvard Business School cases, Wipro's own reports; no scholarly source was read, so the evidence is journalism and a reference entry and the confidences are 0.40-0.54 with no score above 68. EXCLUSIONS: philanthropy, wealth rankings, succession and family. SELF-CALIBRATION (agent): top-risk rows reviewed: conflict_tolerance (62/0.45 lowered to 58/0.40), opportunity_sensing (kept), adaptability (kept). HANDBACK60: {\"slug\": \"azim-premji\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"conflict_tolerance\", \"old_score\": 62, \"old_confidence\": 0.45, \"new_score\": 58, \"new_confidence\": 0.4, \"reason\": \"the strike and the dismissal rest on one undated anecdote in one source\"}], \"reviewed_kept\": [\"opportunity_sensing\", \"adaptability\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6}"
+  }
+}

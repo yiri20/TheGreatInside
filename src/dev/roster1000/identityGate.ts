@@ -100,15 +100,50 @@ export function findProductionMatches(production: readonly ProductionLike[], pro
   return out;
 }
 
+export type ReviewDisposition = "same_person" | "different_person" | "uncertain";
+
+export interface GateSummary {
+  slug: string;
+  hardMatches: IdentityMatch[];
+  reviewMatches: IdentityMatch[];
+  /** duplicate: hard match; needs_adjudication: review match with no recorded disposition;
+   *  rejected_same_person / retained / blocked_uncertain follow a recorded review disposition;
+   *  clean: no match at all. */
+  disposition: "clean" | "duplicate" | "needs_adjudication" | "rejected_same_person" | "retained" | "blocked_uncertain";
+  reason?: string;
+}
+
+export function summarize(
+  production: readonly ProductionLike[],
+  probe: IdentityProbe,
+  dispositions: Record<string, { decision: ReviewDisposition; reason: string }> = {},
+): GateSummary {
+  const all = findProductionMatches(production, probe);
+  const hardMatches = all.filter((m) => m.tier !== "review");
+  const reviewMatches = all.filter((m) => m.tier === "review");
+  if (hardMatches.length) return { slug: probe.slug, hardMatches, reviewMatches, disposition: "duplicate" };
+  if (!reviewMatches.length) return { slug: probe.slug, hardMatches, reviewMatches, disposition: "clean" };
+  const d = dispositions[probe.slug];
+  if (!d) return { slug: probe.slug, hardMatches, reviewMatches, disposition: "needs_adjudication" };
+  const disposition = d.decision === "same_person" ? "rejected_same_person" : d.decision === "different_person" ? "retained" : "blocked_uncertain";
+  return { slug: probe.slug, hardMatches, reviewMatches, disposition, reason: d.reason };
+}
+
+// Usage: tsx identityGate.ts <proposed.json> [--json] [--dispositions <file.json>]
 if (process.argv[1] && /identityGate\.(ts|js)$/.test(process.argv[1]) && process.argv[2]) {
   const probes = JSON.parse(readFileSync(process.argv[2], "utf8")) as IdentityProbe[];
+  const dIdx = process.argv.indexOf("--dispositions");
+  const dispositions = dIdx > 0 ? (JSON.parse(readFileSync(process.argv[dIdx + 1]!, "utf8")) as Record<string, { decision: ReviewDisposition; reason: string }>) : {};
   const prod = SEED_PEOPLE as unknown as ProductionLike[];
-  let hard = 0;
-  for (const probe of probes) {
-    const m = findProductionMatches(prod, probe);
-    const h = m.filter((x) => x.tier !== "review");
-    if (h.length) hard++;
-    console.log(`${h.length ? "DUPLICATE" : m.length ? "review   " : "clean    "} ${probe.slug}${m.length ? " :: " + m.map((x) => `${x.tier}->${x.productionSlug} (${x.evidence})`).join("; ") : ""}`);
+  const summaries = probes.map((probe) => summarize(prod, probe, dispositions));
+  if (process.argv.includes("--json")) {
+    console.log(JSON.stringify(summaries, null, 1));
+  } else {
+    for (const s of summaries) {
+      const m = [...s.hardMatches, ...s.reviewMatches];
+      console.log(`${s.disposition.padEnd(20)} ${s.slug}${m.length ? " :: " + m.map((x) => `${x.tier}->${x.productionSlug} (${x.evidence})`).join("; ") : ""}${s.reason ? " | " + s.reason : ""}`);
+    }
+    const count = (d: GateSummary["disposition"]) => summaries.filter((s) => s.disposition === d).length;
+    console.log(`probes ${summaries.length}, hard duplicates ${count("duplicate")}, needing adjudication ${count("needs_adjudication")}, rejected same-person ${count("rejected_same_person")}, blocked uncertain ${count("blocked_uncertain")}`);
   }
-  console.log(`probes ${probes.length}, hard duplicates ${hard}`);
 }

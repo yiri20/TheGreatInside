@@ -10851,6 +10851,135 @@ export const EDITORIAL_EN: Record<string, string> = {
     "With Late Spring (1949) he began the postwar run of family stories, retold with variations many times, in his reduced style.",
   "yasujiro-ozu.interpretation.turning_point.1":
     "This is consistent with a late-career consolidation of a distinctive personal style.",
+  /* ---------------------------------------------------------- andres-bello (Roster60) */
+  "andres-bello.achievement.1":
+    "A Venezuelan-born humanist, he wrote the Silvas Americanas poems in London and, after settling in Chile in 1829, the Gramatica de la lengua castellana (1847), addressed to Spanish-speaking Americans rather than to Spaniards.",
+  "andres-bello.achievement.2":
+    "He was the principal author of the Chilean Civil Code, completed in 1855 and in force from 1857, which several other Latin American countries later adopted in whole or in part.",
+  "andres-bello.achievement.3":
+    "He drafted the statutes of the University of Chile and was its first rector from 1843 until his death in 1865, opening it with the address 'Todas las verdades se tocan'.",
+  "andres-bello.moment.1":
+    "In London from 1812 to 1822 he had no stable work, lived by transcribing Bentham's manuscripts and giving lessons, and kept up his research, including on the Poema del Cid.",
+  "andres-bello.interpretation.moment.1":
+    "This is consistent with continuing scholarly work through a decade of unsettled circumstances.",
+  "andres-bello.moment.2":
+    "In the 1847 grammar he addressed Spanish Americans but kept the common peninsular forms such as vosotros and condemned vulgar forms, seeking a shared norm rather than a forced American one.",
+  "andres-bello.interpretation.moment.2":
+    "This is consistent with a norm-based, systematic treatment of language.",
+  "andres-bello.turning_point.1":
+    "In 1829 he left London for Valparaiso with his family and took a post in the Chilean government, beginning the Chilean period in which, the university says, he did the most fruitful part of his work.",
+  "andres-bello.interpretation.turning_point.1":
+    "This is consistent with a capacity to rebuild a career in a new country.",
+  /* ---------------------------------------------------------- hafez (Roster60) */
+  "hafez.achievement.1":
+    "He wrote the ghazals collected in the Divan, which Britannica counts among the finest lyric poetry of Persia, and which scholars say may have been arranged by others after his death.",
+  "hafez.achievement.2":
+    "As a court poet under several rulers of Shiraz, he used the ghazal rather than the traditional ode for praise poems and cut the praise to a line or two.",
+  "hafez.achievement.3":
+    "His simple, often colloquial verse became so widely loved that many of its lines are used as proverbs and sayings.",
+  "hafez.moment.1":
+    "Britannica says he lectured on the Quran and other theological subjects and wrote commentaries on religious classics, while serving as court poet.",
+  "hafez.interpretation.moment.1":
+    "This is consistent with a poet whose work rested on a scholar's training as well as on court service.",
+  "hafez.turning_point.1":
+    "Around 1368 or 1369 he fell out of favour at the Shiraz court and did not regain his position until about twenty years later, shortly before his death; another entry dates the disfavour to 1366-1376.",
+  "hafez.interpretation.turning_point.1":
+    "This is consistent with a career that was interrupted by changing court fortunes while his work continued.",
+  /* ---------------------------------------------------------- kip-keino (Roster60) */
+  "kip-keino.achievement.1":
+    "Won the 1968 Olympic 1,500 m and the 1972 Olympic 3,000 m steeplechase, adding two silver medals, after setting world records at 3,000 m and 5,000 m in 1965.",
+  "kip-keino.achievement.2":
+    "Became the first great Kenyan middle- or long-distance runner, inspiring many of his countrymen and women to follow in distance running.",
+  "kip-keino.achievement.3":
+    "After retiring in 1973, he and his wife built a home, schools and a foundation for orphans in Eldoret, and he led Kenya's National Olympic Committee from 1999 to 2017.",
+  "kip-keino.moment.1":
+    "At the 1968 Olympics he set a fast pace from the front in the 1,500 m to blunt the favourite Jim Ryun's finishing kick, and won by 20 m.",
+  "kip-keino.interpretation.moment.1":
+    "This is consistent with a race plan built around a known rival's strength.",
+  "kip-keino.moment.2":
+    "In 1987 a Sports Illustrated reporter found the Keinos housing 29 orphans on their farm, paying school fees from a shop and farm income.",
+  "kip-keino.interpretation.moment.2":
+    "This is consistent with a long-running commitment to helping others that he funded himself.",
+  "kip-keino.turning_point.1":
+    "After retiring from the track in 1973 he turned to farming, a school and an orphanage in Eldoret, work the Bristol citation says came to eclipse his role as a champion.",
+  "kip-keino.interpretation.turning_point.1":
+    "This is consistent with a shift of purpose from personal competition to community building.",
+  /* ---------------------------------------------------------- lee-kun-hee (Roster60) */
+  "lee-kun-hee.achievement.1":
+    "As chairman of the Samsung Group from 1987, he launched the 1993 'new management' reform, telling executives in Frankfurt to change everything but their family and to put quality ahead of quantity.",
+  "lee-kun-hee.achievement.2":
+    "Under his chairmanship Samsung built overseas plants and made acquisitions, and by 1996 Samsung Electronics ranked as the world's leading exporter of memory chips.",
+  "lee-kun-hee.achievement.3":
+    "He backed quality with hard decisions: in 1995 he ordered defective mobile phones incinerated, and in 2003 he ordered CRT television production stopped to move to flat-panel sets.",
+  "lee-kun-hee.moment.1":
+    "In 1995 he ordered defective Anycall mobile phones worth 15 billion won incinerated as part of the push to put quality first.",
+  "lee-kun-hee.interpretation.moment.1":
+    "This is consistent with a leader who was willing to absorb a large visible loss to make a quality standard credible.",
+  "lee-kun-hee.moment.2":
+    "In 2003 he ordered the end of CRT television production, which the Korea Times says accounted for 27 percent of sales volume, to focus on plasma and LCD sets.",
+  "lee-kun-hee.interpretation.moment.2":
+    "This is consistent with a willingness to give up a major existing product line ahead of a technology transition.",
+  "lee-kun-hee.turning_point.1":
+    "In June 1993, after leaving day-to-day management to a corporate staff, he changed course and launched the new management revolution from the top, beginning with the Frankfurt meeting of 7 June.",
+  "lee-kun-hee.interpretation.turning_point.1":
+    "This is consistent with a trajectory that moved from a quiet understudy and figurehead to an assertive reformer of the group.",
+  /* ---------------------------------------------------------- muhammad-abduh (Roster60) */
+  "muhammad-abduh.achievement.1":
+    "He led the late-19th-century Islamic modernist movement in Egypt, arguing that religion should be understood by freeing thought from taqlid and that Islam is consistent with reason and modern science.",
+  "muhammad-abduh.achievement.2":
+    "In 1899 he became Mufti of Egypt and worked to reform the religious courts and the administration of endowments; from 1895 he was a leading member of the Al-Azhar administrative council, through which he carried out some reforms.",
+  "muhammad-abduh.achievement.3":
+    "He wrote the Risalat al-tawhid, a systematic treatise on theology from his Beirut lectures, and his Qur'an lectures were expanded with his approval by Rashid Rida into the commentary known as al-Manar.",
+  "muhammad-abduh.moment.1":
+    "As a boy at the Tanta mosque school he ran away because he was bewildered by learning commentaries by rote, and returned only when his uncle persuaded him.",
+  "muhammad-abduh.interpretation.moment.1":
+    "This is consistent with an early impatience with rote learning that later became his argument against taqlid.",
+  "muhammad-abduh.moment.2":
+    "In 1895 he persuaded the khedive to set up an administrative council for Al-Azhar and for ten years was its most prominent member, carrying out some reforms in its organisation.",
+  "muhammad-abduh.interpretation.moment.2":
+    "This is consistent with a reformer who worked through institutions he could reach rather than only through writing.",
+  "muhammad-abduh.turning_point.1":
+    "After meeting al-Afghani he left his phase of extreme asceticism, began studying philosophy (copying Ibn Sina's Isharat by hand) and started writing on social subjects.",
+  "muhammad-abduh.interpretation.turning_point.1":
+    "This is consistent with a shift from inward mystical study toward a broader engagement with philosophy and public questions.",
+  /* ---------------------------------------------------------- osamu-tezuka (Roster60) */
+  "osamu-tezuka.achievement.1":
+    "Known in Japan as the god of comics, he reshaped postwar manga, drawing about 150,000 pages and creating long-running works such as Astro Boy, Jungle Emperor and Phoenix.",
+  "osamu-tezuka.achievement.2":
+    "Astro Boy, adapted from his manga, is described as Japan's first animated television series, and he founded the Mushi Production animation studio to make it.",
+  "osamu-tezuka.achievement.3":
+    "He earned a medical degree but chose a career in graphic arts, and his stories are characterized by humanism and a rejection of war.",
+  "osamu-tezuka.moment.1":
+    "To make weekly 30-minute Astro Boy episodes, he told his staff to reduce the number of pictures and mask the lack of movement with lines, by his own account.",
+  "osamu-tezuka.interpretation.moment.1":
+    "This is consistent with finding a workable low-cost method under production limits, though it is his own account.",
+  "osamu-tezuka.moment.2":
+    "He began the Phoenix series in 1954 and continued it until his death, a story that, as one reviewer put it, spans 4,000 pages across past, future and present.",
+  "osamu-tezuka.interpretation.moment.2":
+    "This is consistent with sustained commitment to a single long-term project over decades.",
+  "osamu-tezuka.turning_point.1":
+    "After graduating from medical school in 1951 and qualifying as a physician in 1960, he chose a career in graphic arts rather than medicine.",
+  "osamu-tezuka.interpretation.turning_point.1":
+    "This is consistent with a decision to commit fully to drawing and storytelling over a conventional professional path.",
+  /* ---------------------------------------------------------- salif-keita (Roster60) */
+  "salif-keita.achievement.1":
+    "He blended Mande music traditions with jazz, rhythm and blues and other international styles to pioneer the Afropop dance-music genre, and became known as the golden voice of Africa.",
+  "salif-keita.achievement.2":
+    "As lead singer of the Rail Band and then Les Ambassadeurs du Motel, bands that Songlines says laid the foundations of popular Malian music, he became one of the country's most celebrated vocalists.",
+  "salif-keita.achievement.3":
+    "His 1987 solo debut Soro, recorded in Paris, introduced his voice to the world, and Moffou (2002), made after his return to Bamako, was released to great acclaim.",
+  "salif-keita.moment.1":
+    "In 1973 he left the Rail Band for the rival Les Ambassadeurs, wanting to write songs that expressed Malian modernity in his own way; a 1974 stadium showdown between the two bands is still remembered.",
+  "salif-keita.interpretation.moment.1":
+    "This is consistent with a musician who prized control over his own songwriting enough to leave an established band.",
+  "salif-keita.moment.2":
+    "During the Soro sessions in Paris the producer recalls that Keita sang even demos and microphone tests as if it were the last time of his life.",
+  "salif-keita.interpretation.moment.2":
+    "This is consistent with a singer who brought full commitment to his craft even in preparatory work.",
+  "salif-keita.turning_point.1":
+    "Around 1984 he moved from Abidjan to Paris to build a solo career, and the resulting album Soro (1987) turned a regional star into an international one.",
+  "salif-keita.interpretation.turning_point.1":
+    "This is consistent with an artist willing to relocate and change his sound to reach a wider audience.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -21555,6 +21684,135 @@ export const EDITORIAL_KO: Record<string, string> = {
     "『만춘』(1949)으로 그는 전후 가족 이야기 연작을 시작했고, 이후 이 이야기를 변주하며 여러 번 다시 다루었으며 절제된 스타일을 유지했다.",
   "yasujiro-ozu.interpretation.turning_point.1":
     "이는 경력 후반에 독자적인 스타일이 굳어진 것과 부합한다.",
+  /* ---------------------------------------------------------- andres-bello (Roster60) */
+  "andres-bello.achievement.1":
+    "베네수엘라 태생의 인문학자인 그는 런던에서 시 「아메리카의 실바스」를 썼고, 1829년 칠레에 정착한 뒤 스페인 사람이 아니라 아메리카의 스페인어 사용자를 위한 『카스티야어 문법』(1847)을 펴냈다.",
+  "andres-bello.achievement.2":
+    "그는 1855년에 완성되어 1857년부터 시행된 칠레 민법전의 주된 집필자였으며, 이 법전은 이후 여러 라틴아메리카 국가가 전부 또는 일부를 채택했다.",
+  "andres-bello.achievement.3":
+    "그는 칠레 대학교의 정관을 기초하고 1843년부터 1865년 사망할 때까지 초대 총장을 지냈으며, 개교 연설 「모든 진리는 서로 맞닿아 있다」로 대학을 열었다.",
+  "andres-bello.moment.1":
+    "1812년부터 1822년까지 런던에서 안정된 직업 없이 벤담의 원고를 필사하고 개인 교습을 하며 생계를 이었고, 『시드의 노래』 연구를 비롯한 연구를 이어갔다.",
+  "andres-bello.interpretation.moment.1":
+    "이는 불안정한 십 년 동안에도 학문적 작업을 이어간 것과 부합한다.",
+  "andres-bello.moment.2":
+    "1847년 문법서에서 그는 아메리카 사람들을 독자로 삼았으나 vosotros 같은 공통의 이베리아 형태를 유지하고 속된 형태를 비판하며 억지로 다른 아메리카 규범을 세우기보다 공통 규범을 추구했다.",
+  "andres-bello.interpretation.moment.2":
+    "이는 규범에 근거한 체계적인 언어 분석과 부합한다.",
+  "andres-bello.turning_point.1":
+    "1829년 그는 가족과 함께 런던을 떠나 발파라이소에 도착해 칠레 정부의 직책을 맡았고, 대학 측은 이 칠레 시기에 그의 가장 풍성한 저작이 이루어졌다고 본다.",
+  "andres-bello.interpretation.turning_point.1":
+    "이는 새로운 나라에서 경력을 다시 세운 적응력과 부합한다.",
+  /* ---------------------------------------------------------- hafez (Roster60) */
+  "hafez.achievement.1":
+    "그는 《디반》에 실린 가젤들을 썼는데, 브리태니커는 이를 페르시아 서정시의 최고 작품 가운데 하나로 꼽으며, 학자들은 이 시집이 그의 사후 다른 사람들이 엮었을 수 있다고 본다.",
+  "hafez.achievement.2":
+    "시라즈 여러 통치자 밑에서 궁정 시인으로 활동하며 전통적인 송시 대신 가젤을 찬가에 썼고, 칭송은 한두 행으로 줄였다.",
+  "hafez.achievement.3":
+    "소박하고 흔히 구어에 가까운 그의 시구는 널리 사랑받아 많은 구절이 속담과 격언으로 쓰이며.",
+  "hafez.moment.1":
+    "브리태니커에 따르면 그는 궁정 시인으로 활동하면서 쿠란과 신학 주제를 강의하고 종교 고전에 대한 주석서를 썼다.",
+  "hafez.interpretation.moment.1":
+    "이는 궁정에서의 활동뿐 아니라 학자로서의 훈련에도 바탕을 둔 시인의 모습과 일치한다.",
+  "hafez.turning_point.1":
+    "1368년 또는 1369년경 그는 시라즈 궁정의 총애를 잃었고 약 20년 뒤 세상을 떠나기 직전에야 지위를 되찾았다. 다른 사전은 총애를 잃은 시기를 1366~1376년으로 본다.",
+  "hafez.interpretation.turning_point.1":
+    "이는 궁정 사정의 변화로 경력이 중단되었지만 작품 활동은 이어졌던 경로와 일치한다.",
+  /* ---------------------------------------------------------- kip-keino (Roster60) */
+  "kip-keino.achievement.1":
+    "1968년 올림픽 1500m와 1972년 올림픽 3000m 장애물 경기에서 금메달을 땄고, 은메달 두 개를 더했으며, 1965년에는 3000m와 5000m 세계 기록을 세웠다.",
+  "kip-keino.achievement.2":
+    "케냐 최초의 위대한 중장거리 선수로서 수많은 케냐인이 장거리 달리기의 길을 걷도록 영감을 주었다.",
+  "kip-keino.achievement.3":
+    "1973년 은퇴한 뒤 아내와 함께 엘도레트에 고아를 위한 집과 학교, 재단을 세웠고 1999년부터 2017년까지 케냐 국가올림픽위원회를 이끌었다.",
+  "kip-keino.moment.1":
+    "1968년 올림픽 1500m에서 그는 우승 후보 짐 라이언의 막판 스퍼트를 무디게 하려고 처음부터 빠른 속도로 앞서 달렸고 20m 차이로 이겼다.",
+  "kip-keino.interpretation.moment.1":
+    "이는 상대의 강점을 겨냥해 경기 계획을 세우는 성향과 일치한다.",
+  "kip-keino.moment.2":
+    "1987년 스포츠 일러스트레이티드 기자는 케이노 부부가 농장에서 고아 29명을 돌보며 가게와 농장 수입으로 학비를 대는 모습을 보도했다.",
+  "kip-keino.interpretation.moment.2":
+    "이는 스스로 비용을 대며 타인을 돕는 일을 오래 이어 온 헌신과 일치한다.",
+  "kip-keino.turning_point.1":
+    "1973년 트랙에서 은퇴한 뒤 엘도레트에서 농장과 학교, 고아원 일에 매진했고, 브리스틀 대학 헌정사는 이 일이 챔피언으로서의 역할을 앞서게 되었다고 전한다.",
+  "kip-keino.interpretation.turning_point.1":
+    "이는 개인적 경쟁에서 공동체를 세우는 일로 목적이 옮겨 갔음과 일치한다.",
+  /* ---------------------------------------------------------- lee-kun-hee (Roster60) */
+  "lee-kun-hee.achievement.1":
+    "1987년 삼성그룹 회장에 오른 그는 1993년 프랑크푸르트에서 임원들에게 가족 빼고 다 바꾸라고 말하며 양보다 질을 앞세우는 신경영을 선언했다.",
+  "lee-kun-hee.achievement.2":
+    "그의 회장 재임 중 삼성은 해외 공장을 짓고 기업을 인수했으며, 1996년 삼성전자는 세계 최대의 메모리 반도체 수출 기업이 되었다.",
+  "lee-kun-hee.achievement.3":
+    "그는 품질을 위해 과감한 결정을 내렸다. 1995년에는 불량 휴대전화를 불태우게 했고, 2003년에는 평판 TV로 옮기기 위해 브라운관 TV 생산을 중단시켰다.",
+  "lee-kun-hee.moment.1":
+    "1995년 그는 품질 우선 방침의 일환으로 150억 원어치의 불량 애니콜 휴대전화를 소각하도록 지시했다.",
+  "lee-kun-hee.interpretation.moment.1":
+    "이는 품질 기준에 신뢰를 주기 위해 눈에 보이는 큰 손실을 감수하려 한 지도자의 모습과 일치한다.",
+  "lee-kun-hee.moment.2":
+    "2003년 그는 당시 전체 판매량의 27퍼센트를 차지하던 브라운관 TV 생산을 중단하고 PDP와 LCD TV에 집중하도록 지시했다.",
+  "lee-kun-hee.interpretation.moment.2":
+    "이는 기술 전환에 앞서 주력 제품 라인을 포기할 수 있는 의지와 일치한다.",
+  "lee-kun-hee.turning_point.1":
+    "1993년 6월 그는 일상 경영을 그룹 참모진에 맡겨 두던 데서 방향을 바꾸어, 6월 7일 프랑크푸르트 회의를 시작으로 위로부터의 신경영 혁신에 나섰다.",
+  "lee-kun-hee.interpretation.turning_point.1":
+    "이는 조용한 후계자이자 상징적 존재에서 그룹을 적극적으로 개혁하는 경영자로 옮겨 간 경로와 일치한다.",
+  /* ---------------------------------------------------------- muhammad-abduh (Roster60) */
+  "muhammad-abduh.achievement.1":
+    "그는 19세기 후반 이집트 이슬람 근대주의 개혁 운동을 이끌며, 타클리드(전통 답습)에서 사유를 해방하고 이슬람이 이성과 근대 과학에 부합한다고 주장했다.",
+  "muhammad-abduh.achievement.2":
+    "1899년 이집트 무프티가 되어 종교 법원과 와크프(기부 재산) 운영을 개혁하려 했고, 1895년부터는 알아즈하르 행정위원회의 중심 인물로서 일부 개혁을 이루었다.",
+  "muhammad-abduh.achievement.3":
+    "베이루트 강의를 바탕으로 체계적인 신학서 《타우히드 논고》를 썼고, 그의 꾸란 강의는 그의 승인 아래 라시드 리다가 확장하여 《알마나르 주석》이 되었다.",
+  "muhammad-abduh.moment.1":
+    "소년 시절 탄타 모스크 학교에서 주석을 암기하는 방식에 당황해 달아났다가, 삼촌의 설득으로 돌아왔다.",
+  "muhammad-abduh.interpretation.moment.1":
+    "이는 훗날 타클리드 비판으로 이어진, 암기식 학습에 대한 이른 조급함과 일치한다.",
+  "muhammad-abduh.moment.2":
+    "1895년 케디브를 설득해 알아즈하르 행정위원회를 설치하게 했고, 10년 동안 가장 두드러진 위원으로서 조직 개혁을 일부 이루었다.",
+  "muhammad-abduh.interpretation.moment.2":
+    "이는 저술만이 아니라 자신이 닿을 수 있는 제도를 통해 일한 개혁가의 모습과 일치한다.",
+  "muhammad-abduh.turning_point.1":
+    "알아프가니를 만난 뒤 극단적 금욕 생활에서 벗어나 철학 공부를 시작하고(이븐 시나의 《이샤라트》를 손수 필사) 사회 문제에 관한 글을 쓰기 시작했다.",
+  "muhammad-abduh.interpretation.turning_point.1":
+    "이는 내면적 신비주의 공부에서 철학과 공적 문제로 관심이 넓어지는 전환과 일치한다.",
+  /* ---------------------------------------------------------- osamu-tezuka (Roster60) */
+  "osamu-tezuka.achievement.1":
+    "일본에서 '만화의 신'으로 불리며 전후 만화를 바꾸었고, 약 15만 장의 원고를 그리며 《아톰》, 《정글 대제》, 《불새》 같은 장기 연재작을 만들었다.",
+  "osamu-tezuka.achievement.2":
+    "그의 만화를 원작으로 한 《아톰》은 일본 최초의 텔레비전 애니메이션 시리즈로 소개되며, 그는 이를 만들기 위해 무시 프로덕션을 세웠다.",
+  "osamu-tezuka.achievement.3":
+    "의학 학위를 받았지만 그래픽 아트의 길을 택했으며, 그의 이야기는 휴머니즘과 전쟁에 대한 거부로 특징지어진다.",
+  "osamu-tezuka.moment.1":
+    "매주 30분짜리 《아톰》을 만들기 위해, 그는 본인의 설명에 따르면 스태프에게 그림 수를 줄이고 선으로 움직임의 부족을 가리자고 말했다.",
+  "osamu-tezuka.interpretation.moment.1":
+    "이는 제작상의 제약 속에서 현실적인 저비용 방식을 찾아내는 모습과 부합하지만, 그 자신의 설명이다.",
+  "osamu-tezuka.moment.2":
+    "그는 1954년 《불새》를 시작해 세상을 떠날 때까지 이어 갔으며, 한 평자의 표현으로는 과거와 미래, 현재를 오가며 4,000쪽에 이르는 이야기이다.",
+  "osamu-tezuka.interpretation.moment.2":
+    "이는 수십 년에 걸쳐 하나의 장기 프로젝트를 이어 간 지속적인 헌신과 부합한다.",
+  "osamu-tezuka.turning_point.1":
+    "1951년 의과대학을 졸업하고 1960년 의사 면허를 땄지만, 그는 의학 대신 그래픽 아트의 길을 택했다.",
+  "osamu-tezuka.interpretation.turning_point.1":
+    "이는 전통적인 직업의 길 대신 그림과 이야기에 전념하기로 한 결정과 부합한다.",
+  /* ---------------------------------------------------------- salif-keita (Roster60) */
+  "salif-keita.achievement.1":
+    "만데 음악 전통을 재즈, 리듬 앤 블루스 등 국제적인 양식과 결합해 아프로팝 댄스 음악 장르를 개척했고, 아프리카의 황금 목소리로 불리게 되었다.",
+  "salif-keita.achievement.2":
+    "레일 밴드와 레 앙바사되르 뒤 모텔의 리드 싱어로서, 말리 대중음악의 토대를 놓은 이 밴드들에서 가장 사랑받는 가수 가운데 한 사람이 되었다.",
+  "salif-keita.achievement.3":
+    "1987년 파리에서 녹음한 솔로 데뷔 음반 《소로》로 세계에 이름을 알렸고, 2001년 바마코로 돌아온 뒤 낸 《모푸》(2002)는 큰 호평을 받았다.",
+  "salif-keita.moment.1":
+    "1973년 그는 말리의 현대성을 자기 방식으로 노래하고 싶어 레일 밴드를 떠나 경쟁 밴드인 레 앙바사되르로 옮겼고, 1974년 두 밴드의 경기장 대결은 지금도 회자된다.",
+  "salif-keita.interpretation.moment.1":
+    "이는 자신의 작곡에 대한 주도권을 중시해 자리 잡은 밴드를 떠난 음악가의 모습과 부합한다.",
+  "salif-keita.moment.2":
+    "파리에서 《소로》를 작업할 때 프로듀서는 케이타가 데모나 마이크 테스트에서도 마지막인 것처럼 노래했다고 회상한다.",
+  "salif-keita.interpretation.moment.2":
+    "이는 준비 단계에서도 전력을 다해 노래하는 장인적 태도와 부합한다.",
+  "salif-keita.turning_point.1":
+    "1984년 무렵 그는 아비장에서 파리로 옮겨 솔로 활동을 시작했고, 그 결과 나온 《소로》(1987)는 지역의 스타를 국제적인 가수로 바꾸어 놓았다.",
+  "salif-keita.interpretation.turning_point.1":
+    "이는 더 넓은 청중을 위해 거처와 음악을 바꾸는 것을 마다하지 않은 예술가의 면모와 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

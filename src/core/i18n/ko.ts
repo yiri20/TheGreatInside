@@ -2328,6 +2328,13 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "person.name.samuel-ajayi-crowther": "새뮤얼 아자이 크라우더",
   "person.name.xuanzang": "현장",
   "person.name.yasujiro-ozu": "오즈 야스지로",
+  "person.name.andres-bello": "안드레스 베요",
+  "person.name.hafez": "하피즈",
+  "person.name.kip-keino": "킵 케이노",
+  "person.name.lee-kun-hee": "이건희",
+  "person.name.muhammad-abduh": "무함마드 압두",
+  "person.name.osamu-tezuka": "데즈카 오사무",
+  "person.name.salif-keita": "살리프 케이타",
 
   // POST-10D STAGE A: `<title>`/`<meta description>` copy — see the matching
   // block in en.ts for the full rationale. Natural Korean, not a literal

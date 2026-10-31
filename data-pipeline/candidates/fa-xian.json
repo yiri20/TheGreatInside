@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fa-xian",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Faxian",
+    "aliases": [
+      "Fa-hsien",
+      "Fa-hien",
+      "Fa Hian",
+      "Faxian of Xin Monastery"
+    ],
+    "wikidataId": "Q312978",
+    "birthYear": 337,
+    "deathYear": 422,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "scholar",
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "exploration",
+      "religion",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_faxian_wikidata",
+      "kind": "wikidata",
+      "title": "Faxian (Q312978), verified live via the Wikidata API (2026-10-31): label 'Faxian', description 'Chinese Buddhist monk (bhikkhu), pilgrim to India, and travelogue author during the Jin and Liu Song dynasties', Korean label 법현. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q312978"
+    },
+    {
+      "id": "src_faxian_er",
+      "kind": "biography",
+      "title": "Encyclopedia of Religion, 'Faxian' by Jan Yun-hua (via Encyclopedia.com; read in full). CANONICAL SIGNIFICANCE SOURCE: calls him the earliest successful Chinese Buddhist pilgrim to India, says he set out from Chang'an in 399 to find complete monastic rules, travelled some thirty kingdoms in fifteen years, returned by sea in 412 with Sanskrit texts, wrote the Foguo ji at colleagues' request in 416 and translated with Buddhabhadra.",
+      "url": "https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/faxian"
+    },
+    {
+      "id": "src_faxian_legge",
+      "kind": "archive",
+      "title": "James Legge, 'A Record of Buddhistic Kingdoms' (1886), Introduction on the life of Fa-hien and the genuineness of the text (Project Gutenberg edition; introduction read in full). A 19th-century translator's view: says little is known beyond his own record, that the text is attested in early catalogues, that Qing editors doubted his reliability, and that his miracle stories are unreliable though he reports what he saw and heard. Dated in places (e.g. the age-25 guess), as later scholars note.",
+      "url": "https://www.gutenberg.org/files/64535/64535-h/64535-h.htm"
+    },
+    {
+      "id": "src_faxian_deeg",
+      "kind": "press",
+      "title": "Max Deeg, 'The Neglected Pilgrim: How Faxian's Record Was Used (and Was Not Used) in Buddhist Studies', Hualin International Journal of Buddhist Studies 2.1 (2019), pp. 16-44 (abstract and opening sections read; later research-history sections skimmed, not read in full): says the Foguo ji was marginalised in 19th- and 20th-century scholarship because it is short, geographically limited and linked to an author about whom little is known, and was mostly used to corroborate or fill gaps in Xuanzang's record.",
+      "url": "https://glorisunglobalnetwork.org/wp-content/uploads/2020/04/hualin2.1_deeg.pdf"
+    },
+    {
+      "id": "src_faxian_zhang",
+      "kind": "press",
+      "title": "Zhang Xuesong, 'The Biography of Faxian: On the Practice and Spread of Chinese Buddhist Precepts during the Jin and Song Dynasties', Hualin International Journal of Buddhist Studies 2.1 (2019), pp. 325-370 (abstract, conclusion and the sections on his return and translation read; the full argument was not checked line by line): an academic paper that stresses his search for and translation of Buddhist monastic rules, notes that its own biographical arguments are partly speculative, and questions common claims about his life dates (suggesting a later birth and possibly a death after 423).",
+      "url": "https://buddhism.lib.ntu.edu.tw/FULLTEXT/JR-MAG/mag609080.pdf"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_faxian_er, src_faxian_zhang | 399-412 | religion encyclopedia + academic paper] The Encyclopedia of Religion says the journey took three years to reach North India, that of the original party three monks turned back at Purusapura, one died crossing the Lesser Snow Mountain and another chose to stay in India, so he completed the mission alone, and that he travelled about thirty kingdoms in fifteen years before translating until his death; Zhang's paper likewise describes his search, return and translation work. The span and the completed return are documented; the details come from his own travel record and the biographical tradition, so confidence is capped."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_faxian_er, src_faxian_legge | 399-412 | religion encyclopedia + 19th-century translator] The Encyclopedia of Religion describes crossing the Tarim basin and the Pamirs, the death of a companion in the snow mountains, and two typhoons on the voyage home, including a landing far from the intended port; Legge says his miracle stories are unreliable but he gives the truth about what he saw and heard. Dual-edged because the hazards were severe and companions died. SELF-CALIBRATION (agent): reviewed as a top-risk row and lowered from 64 / 0.46 to 60 / 0.42 because the dangers are known only from his own travel record and the biographical tradition relayed by one encyclopedia, with no independent contemporary witness."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_faxian_er, src_faxian_zhang, src_faxian_legge | 399-416 | religion encyclopedia + academic paper + translator] The Encyclopedia of Religion says that after full ordination he judged the Vinaya available in China incomplete and vowed to seek complete texts in India, spent 405-407 at a Mahayana monastery in Pataliputra studying Sanskrit and scriptures, copied most texts himself, and studied in Sri Lanka; Zhang's paper centres his career on the search for and translation of monastic rules; Legge notes his journey was undertaken to find complete Vinaya books. The purpose and the study are well documented, but the account of his motives comes mostly from his own record."
+    },
+    "collaboration": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_faxian_er, src_faxian_zhang | 399-420s | religion encyclopedia + academic paper] The Encyclopedia of Religion says he set out with a party of five monks and that all five of his surviving translations were made jointly with the Indian missionary Buddhabhadra; Zhang's paper places the translation of the Mahasanghika Vinaya and related sutras at Daochang Monastery in Jiankang with Buddhabhadra. The joint work is documented but nothing read describes how they worked together, so the row stays modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "법현"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. The Wikidata image of a statue in Singapore is a photograph of a modern sculpture (derivative work) and was rejected. 'Fa Hsien at the ruins of Asoka's palace.jpg' (illustration by Allan Stewart, 1865-1951, in Hutchinson's Story of the Nations) lacks a verified publication year: the Internet Archive copy is undated, the text mentions 1928 events and other editions are dated 1933-34, and Stewart's UK copyright only expired in 2021, so a pre-1931 US public-domain basis is unproven. An 1878-80 Verne engraving (Benett, engraver P. Louis) is age-clear but is an unlabelled mountain scene linked to Faxian only by a Commons category and is not a portrait. Next step: find a Chinese or Japanese woodblock print, hanging scroll or rubbing of Faxian held by a museum with an item-level statement (for example a museum open-access record), or confirm the exact publication year of the Hutchinson volume as 1930 or earlier from a library catalogue. Kind, if resolved: historical depiction."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed: the Wikidata image 'Faxian statue in Maritime Experiential Museum & Aquarium Singapore.jpg' is a photograph of a modern statue (a derivative of the sculptor's work) and was rejected; 'Statues of Faxian and Marco Polo' in the same Commons category is the same kind. The Commons category for Faxian was checked and two old drawings were examined. (1) 'Fa Hsien at the ruins of Asoka's palace.jpg' is an illustration by the British artist Allan Stewart (1865-1951) from 'Hutchinson's Story of the Nations' (London, Hutchinson); the Internet Archive record is undated ('[n.d.]'), Commons guesses the 1920s, but the book's text mentions events of 1928 and Open Library lists editions of 1933 and 1934, so the publication year is unverified; Stewart's UK copyright ended only in 2021, so a US public-domain basis would need a verified publication date before 1931, which I could not obtain: rejected. (2) 'Découverte de la Terre 006.jpg' is an 1878-80 wood engraving signed L. Benett (engraver P. Louis) from Jules Verne's 'Découverte de la Terre', age-clear, but it is a snowy mountain scene whose only link to Faxian is a Commons category (the page itself says the artist may be Benett or Philippoteaux), I could not verify a caption identifying Faxian, and it is not a portrait: rejected. A third file, '227 Faxian Visits India.jpg', is a modern CC BY-SA photograph of a stupa-drum relief in Telangana and was not considered. Bounded retry used; PORTRAIT HELD (see portrait.reason). PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q312978 label 'Faxian', description 'Chinese Buddhist monk (bhikkhu), pilgrim to India, and travelogue author during the Jin and Liu Song dynasties', birth 337 (a second value 340, year precision), death 422 (year precision), Korean label 법현. Dates are uncertain: Zhang Xuesong (2019) argues the traditional ages may be wrong, suggesting a later birth and possibly a death after 423; the repository uses the Wikidata values 337-422. No production or candidate slug/QID collision (grepped prod60.txt and data-pipeline/candidates). REGION east_asia; ERA ancient, following the repository precedent for fourth- and fifth-century figures (Augustine of Hippo, 354-430, is ancient); no historical-polity key is set because the repository has no key for the Eastern Jin dynasty. ZERO POLITICS: primary identity is monk, pilgrim and translator; no political or diplomatic activity is scored. VOCABULARY: occupations explorer, scholar, religious_leader; fields exploration, religion, literature; tag explorer; archetype scholarly_specialist; impact domains cultural, literary, historical (same set as Xuanzang); all grepped in en.ts and ko.ts. CANONICAL SIGNIFICANCE SOURCE: Encyclopedia of Religion entry 'Faxian' (via Encyclopedia.com, https://www.encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/faxian). READ IN FULL: that entry; Legge's introduction (Gutenberg edition). READ IN PART: Deeg's Hualin 2019 paper (abstract and opening), Zhang Xuesong's Hualin 2019 paper (abstract, conclusion, return and translation sections). Britannica was reachable but only a navigation page with machine-generated summaries, so it is not cited. PERSPECTIVES: religion reference, 19th-century translator, modern research-history article, modern biographical article. COUNTER-VOICES/CAVEATS: Deeg on the marginalisation of the Record and the thin biography; Zhang on speculative dating and fallacies in common biographical claims; Legge reporting that Qing editors doubted his reliability and that his miracles are unreliable. SELF-REPORT SEPARATION: the Foguo ji is his own account (and the Gaoseng zhuan biography derives from it); every episode here reaches the profile through reference works and scholars, no miracle or legend is scored, and the rows say so. NOT OPENED: the Foguo ji itself beyond Legge's introduction, the Gaoseng zhuan, Deeg's monograph, Hewage (2025). SPARSE PROFILE: four rows, none above 66, confidence 0.42-0.50. SELF-CALIBRATION (agent): top-risk rows reviewed: risk_tolerance (64/0.46 lowered to 60/0.42), persistence (kept), mastery_orientation (kept). KO NAME: 법현, the Wikidata Korean label and the standard Korean reading. HANDBACK60: {\"slug\": \"fa-xian\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"risk_tolerance\", \"old_score\": 64, \"old_confidence\": 0.46, \"new_score\": 60, \"new_confidence\": 0.42, \"reason\": \"the dangers are known only from his own travel record and the biographical tradition relayed by one encyclopedia, with no independent contemporary witness\"}], \"reviewed_kept\": [\"persistence\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

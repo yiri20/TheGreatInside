@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "roger-milla",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Roger Milla",
+    "aliases": [],
+    "wikidataId": "Q168540",
+    "birthYear": 1952,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "CM"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_milla_wikidata",
+      "kind": "wikidata",
+      "title": "Roger Milla (Q168540), verified live via the Wikidata API (2026-10-31): label 'Roger Milla', description 'Cameroonian footballer and manager (born 1952)', born 20 May 1952, no death date, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q168540"
+    },
+    {
+      "id": "src_milla_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Roger Milla' athlete biography, read in full: records that at 38 he became one of the stars of the 1990 World Cup, that his four goals helped Cameroon become the first African nation to reach the quarter-final, that he celebrated with a corner-flag dance and had retired before being asked back, that he played the 1982 World Cup and 1984 Olympics, played for French clubs 1977-1989 and made his last international appearance at the 1994 World Cup, becoming its oldest goalscorer. CANONICAL SIGNIFICANCE SOURCE: standard Olympic results archive. Short, favourable.",
+      "url": "https://www.olympedia.org/athletes/24472"
+    },
+    {
+      "id": "src_milla_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Roger Milla', read in full: his club career from Eclair of Douala through Tonnerre of Yaounde to French clubs (Valenciennes, Monaco, Bastia, Saint-Etienne, Montpellier); two African Player of the Year awards (1976, 1990); leading scorer in Cameroon's 1984 and 1988 African Cup of Nations wins; four goals at 38 in 1990 as a substitute that took Cameroon to the first African World Cup quarter-final; the corner-flag shimmy imitated worldwide; and his 1994 goal at 42 as the oldest World Cup scorer. Reference article, favourable.",
+      "url": "https://www.britannica.com/biography/Roger-Milla"
+    },
+    {
+      "id": "src_milla_f365",
+      "kind": "press",
+      "title": "Football365, 'Portrait of an iconic team: Cameroon at Italia '90', read in full: a retrospective that draws on the 2014 Blizzard interview with Cameroon's coach Valery Nepomnyashchy: Milla had stopped playing professionally and was playing amateur football in Reunion; the coach used him as a substitute introduced between the 34th and 81st minutes, scoring four goals in 235 minutes; Milla later said the team lost the quarter-final by going forward to entertain. A magazine-style piece partly built on the coach's recollections, with the author's admiring commentary; includes an unverified anecdote about the coach's translator that was not used.",
+      "url": "https://www.football365.com/news/portrait-of-an-iconic-team-cameroon-at-italia-90"
+    },
+    {
+      "id": "src_milla_planetfootball",
+      "kind": "press",
+      "title": "Benedict O'Neill, 'Roger Milla was so amazing a lie sat unchanged on Wiki for two months', Planet Football, read in full: a retrospective that describes his four 1990 goals in detail (including how he read the Romanian defender's mistake and the free-kick move against Romania), the 1994 goal against Russia at 42 and the record of the oldest World Cup goalscorer. Informal journalism with a humorous framing; descriptions of play, not interviews.",
+      "url": "https://www.planetfootball.com/nostalgia/roger-milla-a-player-so-remarkable-a-lie-sat-unchanged-on-wiki-for-two-months"
+    },
+    {
+      "id": "src_milla_monitor",
+      "kind": "press",
+      "title": "The Monitor (Uganda), 'Milla's life after football', read in full (visible part): a profile quoting him on the Italia 90 comeback and the Romania match, on having to follow decisions of the Cameroon federation although he has long argued for local coaches and a former player as federation head, and on his Coeur d'Afrique foundation and a plastic-waste building-materials project; the article says he has often clashed with Cameroonian football authorities and holds a government ambassador post. Regional press feature, partly self-report; paywalled in part; the post and political references are unscored.",
+      "url": "https://www.monitor.co.ug/uganda/magazines/score/milla-s-life-after-football-1645248"
+    },
+    {
+      "id": "src_milla_supersport",
+      "kind": "press",
+      "title": "SuperSport, 'Milla: the making of Africa at the World Cup', read in full: a feature quoting Milla's own account of how he returned in 1990 after a testimonial match, rebuilt his fitness within three months, studied opponents from the bench before coming on, the spontaneous origin of the dance, and the 1994 return at 42 at his coach's suggestion that he register with a club. First-person account relayed by a sports broadcaster; self-report, never sole support.",
+      "url": "https://supersport.com/football/news/b9a12b4a-89a5-4a9c-889c-f2ef21cbd2b6/milla-the-making-of-africa-at-the-world-cup"
+    },
+    {
+      "id": "src_milla_dailystar",
+      "kind": "press",
+      "title": "Agence France-Presse, 'Milla recalls Italia '90 magic', The Daily Star (Bangladesh), 11 June 2018, read in full: a wire interview in which Milla describes his second Romania goal, says Africans receive less media credit, and says the 1990 run opened FIFA's eyes to African players; its match summary lists his goals against Romania and Colombia. Wire report; his opinions are first-hand statements and not independently confirmed.",
+      "url": "https://www.thedailystar.net/fifa-world-cup-2018/milla-recalls-italia-90-magic-1589707"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_milla_britannica, src_milla_olympedia, src_milla_f365, src_milla_supersport | 1965-1994 | encyclopedia + archive + magazine retrospective + self-report] Britannica and Olympedia trace a career from an amateur contract in 1965 through Cameroon and French clubs, two African Cup of Nations wins as leading scorer, the 1982 World Cup, and then, after retiring, returns to the national team for the 1990 and 1994 World Cups, where he scored four goals at 38 and one at 42. Football365 reports that he was playing amateur football in Reunion before 1990 and that his coach made use of limited match fitness, and Milla says he rebuilt his fitness within three months. A three-decade career with two documented comebacks is strong, but the comeback account comes mostly from his own words and from retrospective journalism, and the 1990 return followed an official request that is not scored."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_milla_f365, src_milla_supersport, src_milla_britannica | 1990 | coach-sourced retrospective + self-report + encyclopedia] After the 1990 comeback he accepted a super-substitute role: Football365, relaying coach Nepomnyashchy, says he was introduced between the 34th and 81st minutes in his five matches and delivered four goals in 235 minutes, and Milla says he first watched from the bench to see opponents' weaknesses. Britannica confirms that he scored as a substitute. A documented role change at the top level, but resting on one coach's retrospective and the player's own account, hence moderate confidence."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_milla_planetfootball, src_milla_supersport | 1990-1994 | journalist's description of goals + self-report] Planet Football describes his first Romania goal as the result of staggering his run to see how a long ball and the Romanian defender would react before attacking the mistake, and his 1994 goal as movement on the last defender's shoulder; Milla says he studied opponents from the bench to know what to do on entering. Two or three match situations are described by a journalist from video, and the bench-watching claim is his own, so this is an inference from play and self-report. SELF-CALIBRATION (agent): lowered from 62 / 0.52 because the evidence is a journalist's reading of goals plus one self-report, with no coach or analyst corroborating the mechanism."
+    },
+    "conflict_tolerance": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_milla_monitor, src_milla_dailystar | 2015-2018 | regional press profile + wire interview] The Monitor says he has often clashed with Cameroonian football authorities, and quotes him arguing for a local coach and for a former player to head the federation while accepting that the state decides; AFP quotes him saying African players are given less credit by the media. These are public professional statements of disagreement, but they come from one regional profile and one interview, with no documented episode of a specific dispute, so confidence is low and the effect cannot be judged one way. SELF-CALIBRATION (agent): lowered from 58 / 0.45 because the 'clashes' rest on one regional article's characterisation without a named incident."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로제 밀라"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / HELD, see portrait.reason; finding: Commons file 'Milla2008cropped.jpg' (crop of 'Milla2008.JPG') is credited to Commons user Jmex (account Jmex60 redirects to it), 'own work', dated 7 August 2008, captioned 'Football legend Roger Milla of Cameroon at the olympic village, Beijing', licensed GFDL and CC BY-SA 3.0/2.5/2.0/1.0 under the {{self}} template, original 1600 x 1981; the uploader's user page says he photographs around the world including Beijing. No conflicting institutional claim, no Commons licence conflict; the identity of the sitter rests on the photographer's caption and the portrait looks consistent with other images of him. I could not independently verify Milla's presence in Beijing. The file was downloaded and checked, then deleted: held under the strict rule against uploader-only own-work claims (same treatment as the Edhi candidate); the lead may accept it if a looser standard is wanted, and re-downscale 'Milla2008cropped.jpg' (969 x 1200).\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q168540 returned en label 'Roger Milla', description 'Cameroonian footballer and manager (born 1952)', born 1952-05-20, no death date, ko label present. SLUG/QID CHECK: not in production list and no candidate file. Region sub_saharan_africa (Cameroon; played in France but career base and national identity are Cameroon). Zero-politics passes: identity is football; the Cameroon president's request that brought him back in 1990, his later ambassador role and other government posts are incidental and unscored. LIVING SUBJECT: only public professional behaviour is scored; private life, family, finances and rumours excluded.\nCANONICAL SIGNIFICANCE SOURCE: Olympedia, 'Roger Milla' https://www.olympedia.org/athletes/24472 (read in full).\nSOURCES READ (7 substantive): Olympedia, Britannica, Football365 (coach-sourced retrospective), Planet Football, The Monitor (partial, paywalled), SuperSport (his own account), AFP via The Daily Star (his interview); Wikidata orientation only. Bleacher Report and beIN pages were opened but not used (thin). PERSPECTIVES: results archive, encyclopedia, coach via retrospective, journalists describing play, Milla himself. Non-self behavioural sources: Football365 (coach account) and Planet Football. COUNTER-VOICE: limited: Football365 notes the team's flaws in the quarter-final, and the Monitor reports his clashes with football authorities from his side only; no adversarial source found, so confidence is capped at 0.58. NOT OPENED: FIFA.com pages, BBC/Guardian features (search did not return them), the Blizzard coach interview itself (known only through Football365), his FourFourTwo interview, any scholarly article. Four rows; none above 68.\nSELECTIVE SELF-CALIBRATION: reviewed persistence (highest score; kept, because comeback and career facts are independently documented by Britannica and Olympedia), opportunity_sensing (lowered 62/0.52 to 60/0.48) and conflict_tolerance (lowered 58/0.45 to 54/0.40). Initial rows 4; lowered 2.\nHANDBACK60: {\"slug\":\"roger-milla\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":4,\"self_calibrated_rows\":[{\"attribute\":\"opportunity_sensing\",\"old_score\":62,\"old_confidence\":0.52,\"new_score\":60,\"new_confidence\":0.48,\"reason\":\"journalist's reading of goals plus one self-report, no coach or analyst corroborating the mechanism\"},{\"attribute\":\"conflict_tolerance\",\"old_score\":58,\"old_confidence\":0.45,\"new_score\":54,\"new_confidence\":0.4,\"reason\":\"clashes with authorities rest on one regional article's characterisation without a named incident\"}],\"reviewed_kept\":[\"persistence\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":4}"
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-verified portrait resolved. Best candidate: Commons 'Milla2008cropped.jpg' (crop of 'Milla2008.JPG'), credited to Commons user Jmex as own work, dated 7 August 2008, captioned as Roger Milla at the Beijing Olympic village, GFDL and CC BY-SA 3.0 (1600 x 1981), no EXIF data. Blocker: the licence and the identification of the sitter rest solely on an uploader's own-work assertion; the photographer is a username only, and I could not verify that Milla was at the Beijing Olympic village on that date, so under the strict rule against uploader-only own-work claims it is not accepted (the file was downloaded, checked and deleted). Alternatives checked: 'Finales CAN 2021 (30)' and '(31)' (uploader Franco237, own-work CC BY-SA 4.0, 2022, same uploader-only basis) and a Hannover Expo 2015 image that does not show him. Next step: a photograph with a verifiable photographer or institution licence (for example a Wikimedia event, FIFA-neutral or government source with a stated licence), or confirmation from Jmex of the event and a licence statement."
+  }
+}

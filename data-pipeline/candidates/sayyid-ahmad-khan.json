@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sayyid-ahmad-khan",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sayyid Ahmad Khan",
+    "aliases": ["Sir Syed Ahmad Khan", "Syed Ahmad Khan", "Sir Syed", "Syed Ahmed Khan", "Sir Sayyid Ahmad Khan"],
+    "wikidataId": "Q196546",
+    "birthYear": 1817,
+    "deathYear": 1898,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["IN"],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": ["scholar", "writer", "teacher"],
+    "fieldIds": ["education", "religion"],
+    "impactDomains": ["educational", "literary", "cultural"],
+    "tagIds": ["founder", "cross_disciplinary"],
+    "archetypeIds": ["organizational_leader", "scholarly_specialist"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sak_wikidata",
+      "kind": "wikidata",
+      "title": "Sayyid Ahmad Khan (Q196546), verified live via the Wikidata API (2026-10-31): label 'Syed Ahmed Khan', description 'Indian Muslim reformer and social activist (1817-1898)', born 1817-10-17, died 1898-03-27, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q196546"
+    },
+    {
+      "id": "src_sak_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Syed Ahmad Khan', fetched for orientation (names, dates, works, institutions). Orientation only; never counted as a source for any row.",
+      "url": "https://en.wikipedia.org/wiki/Syed_Ahmad_Khan"
+    },
+    {
+      "id": "src_sak_britannica",
+      "kind": "institution",
+      "title": "Encyclopaedia Britannica, 'Sir Sayyid Ahmad Khan' (article by S. M. Ikram and the editors), read in full: his career as a judicial official and author, the Asar al-sanadid of 1847, the Qur'an commentary, the schools at Muradabad and Ghazipur, the Scientific Society, the plan for 'a Muslim Cambridge' after his 1869-70 visit to England, the journal Tahdhib al-akhlaq, the school opened at Aligarh in May 1875 and the college whose foundation stone was laid in January 1877, and the All-India Muhammadan Educational Conference of 1886. CANONICAL SIGNIFICANCE SOURCE. The article also covers his political positions, which are context only and not scored.",
+      "url": "https://www.britannica.com/biography/Sayyid-Ahmad-Khan"
+    },
+    {
+      "id": "src_sak_naim",
+      "kind": "press",
+      "title": "C. M. Naim (University of Chicago), 'Syed Ahmad and His Two Books Called Asar-al-Sanadid', Modern Asian Studies 45(3), 2011 (online 2010), pp. 669-708, read in full (open author copy): compares the Delhi monument histories of 1847 and 1854, the debate whether his friend Imam Bakhsh Sahba'i wrote the first, and the ways he changed the second book's language, title page and organisation. Peer-reviewed scholarly article; partly critical of the traditional account in Hali's biography.",
+      "url": "https://franpritchett.com/00litlinks/naim/txt_naim_asarussanadid_2010.pdf"
+    },
+    {
+      "id": "src_sak_qidwai",
+      "kind": "press",
+      "title": "Sarah Qidwai, 'Sayyid Ahmad Khan: A Familiar Figure in an Unfamiliar Historical Setting', George L. Mosse Program in History, University of Wisconsin-Madison blog (11 March 2020), read in full: a historian of science's overview of his translations and publications of 1844-1854, his 1848 argument for a stationary Earth that he later criticised, the bilingual Mahomedan Commentary on the Holy Bible, and the Scientific Society of 1864 with its institute, lectures and journal. Scholarly blog post by a doctoral researcher, partly drawing on Naim.",
+      "url": "https://mosseprogram.wisc.edu/2020/03/11/qidwai/"
+    },
+    {
+      "id": "src_sak_demichelis",
+      "kind": "press",
+      "title": "Marco Demichelis, 'New Mu'tazilite Theology in the Contemporary Age. The Relationship between Reason, History and Tradition', Oriente Moderno 90 (2010), pp. 411-426, abstract read (university repository record): places his Tafsir al-Quran, published in parts from 1880, among nineteenth-century rationalist theology that sought to reconcile critical reason and modern science. Peer-reviewed article; only the abstract was read.",
+      "url": "https://publires.unicatt.it/en/publications/new-mutazilite-theology-in-the-contemporary-age-the-relationship--7/"
+    },
+    {
+      "id": "src_sak_ras",
+      "kind": "institution",
+      "title": "Royal Asiatic Society, 'Historicizing Sayyid-ness' (20 August 2020), read in full: a society news item noting that the Journal of the Royal Asiatic Society listed him as an Honorary Member in 1866 at Ghazipur, where he had set up a printing press, an English-medium school and a Scientific Society. Short institutional note; a minor source.",
+      "url": "https://royalasiaticsociety.org/?p=13070"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sak_britannica, src_sak_qidwai, src_sak_ras | 1858-1886 | encyclopedia + historian + society note] Alongside his official work he opened schools at Muradabad (1858) and Ghazipur (1863), set up a private press, founded the Scientific Society in 1864, started the journal Tahdhib al-akhlaq, planned a college after his 1869-70 trip to England, opened the Aligarh school in 1875 and organised the Educational Conference of 1886 (Britannica). The Scientific Society raised funds for its own institute within a year and began public lectures and a journal by 1866 (Qidwai). The pattern of starting institutions is documented in independent sources; what any single project owed to others is not separated out."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sak_qidwai, src_sak_naim, src_sak_britannica, src_sak_demichelis | 1844-1904 | historian of science + journal article + encyclopedia + abstract] His publications covered the translation of a Persian text on machines (1844), a mathematical-compass text (1846), the history and monuments of Delhi (1847, 1854), an argument on the Earth's motion (1848), a bilingual commentary on the Bible and later a Qur'an commentary seeking to reconcile reason and science (Qidwai; Naim; Britannica; Demichelis). The range is documented in several independent works; the quality of the scientific writing is not assessed, and the theology is described by scholars, not tested here."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sak_qidwai, src_sak_naim | 1848-1854 | historian of science + journal article] Qidwai reports that in 1848 he argued that the Earth is stationary and later criticised his own position. Naim shows that in 1854 he published a second Asar al-sanadid that differed from the first in language, organisation and approach, and deliberately separated it from the earlier book in its preface. Two independent scholars document revision; the reasons for the changes (Naim suggests audience and patrons) are interpretive, and the later critique of the 1848 position is reported second-hand."
+    },
+    "collaboration": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sak_naim, src_sak_qidwai, src_sak_britannica | 1847-1864 | journal article + historian + encyclopedia] Naim concludes that the first Asar al-sanadid was a collaborative effort with his friend Imam Bakhsh Sahba'i, although Urdu tradition (via Hali) attributes its ornate language to Sahba'i alone, so the extent is disputed. The Scientific Society had more than a hundred European and Indian members at its first meeting (Qidwai) and Britannica says its institutions were run jointly by Hindus and Muslims. This shows work with others, but the working practice is not described. SELF-CALIBRATION (agent): lowered from 58 / 0.44 because the collaboration claim rests partly on a disputed authorship question and the Society evidence is about membership, not working practice."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사이이드 아흐마드 칸"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. The lead's Wikidata P18 'SAKhan.jpg' (362 x 450) has no photographer or date on its Commons page (source given as Aligarh Muslim University, uploader unknown, undocumented, with an India-only public-domain tag): rejected. 'Sayyid Ahmad Khan.jpg' (own scan, unknown author, 'before 1898') and 'Sir Syed1.jpg' (circa 1890, unknown author, transferred from English Wikipedia) have no documented publication: rejected. 'Syed Ahmad Khan 1907.jpg' (662 x 962) is described on Commons as a plate from The Modern Review of 1907, which would be public domain in the United States by age if the plate is documented, but the Commons page gives no volume or page, the photographer is unknown, and a search of the OCR text of the 1907 volumes on the Internet Archive found no caption to confirm it, so the publication claim rests on the uploader alone. The frontispiece of the 1974 Oxford University Press Karachi reprint of Graham's 1885 'Life and Work of Sir Syed Ahmed Khan' is a modern reprint of unknown origin: rejected. 'Syed Ahmed Khan.jpg' is a scan from Lelyveld's 1978 book: rejected. Next step: locate the plate in an Internet Archive scan of The Modern Review (vol. 1 or 2, 1907) or the original 1885 edition of Graham's book and record the page, caption and imprint, then use that scan."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / CONFIRMED HOLD after one bounded retry (about 17 calls): P18 'SAKhan.jpg' has no photographer, no date and an undocumented AMU source; the Modern Review 1907 file is the best lead but its plate could not be located in the OCR of the 1907 volumes (in.ernet.dli.2015.99942 and dli.calcutta.09803) and rests on the uploader's statement; see portrait.reason. PREFLIGHT: QID VERIFIED LIVE (2026-10-31): Q196546 label 'Syed Ahmed Khan', description 'Indian Muslim reformer and social activist (1817-1898)', born 1817-10-17, died 1898-03-27; no collision in prod60 or data-pipeline/candidates. REGION south_asia. ERA 19th_century. VOCABULARY: occupations scholar, writer, teacher; fields education, religion; tags founder, cross_disciplinary; archetypes organizational_leader, scholarly_specialist; all grepped with EN and KO labels. KOREAN NAME 사이이드 아흐마드 칸 is the Wikidata label (a transliteration; recorded as such). ZERO POLITICS: he is a political actor in part (loyalty to the British, advice to Muslims to stay out of politics, opposition to the Indian National Congress, the Urdu-Hindi language question); all of that is context only and not scored; the rows score institution-building, writing and scholarship, and the Urdu-Hindi issue is mentioned only as Britannica's account of why he planned a Muslim college. Primary identity is educator, reformer-scholar and author; flag for the lead because the Wikidata description says 'social activist'. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Sir Sayyid Ahmad Khan' (https://www.britannica.com/biography/Sayyid-Ahmad-Khan). READ: Britannica, Naim (40 pages), Qidwai blog, Demichelis abstract, RAS note. PERSPECTIVES: encyclopedia, a Chicago literary historian who partly corrects the traditional (Hali) account, a historian of science, a comparative-theology article. NOT OPENED OR UNAVAILABLE: Hali's Hayat-i-Javed (insider biography; reached only through Naim's citations of it, so not counted), Lelyveld's 'Aligarh's First Generation' (open table of contents only; the book was not available), Troll's book (no abstract found), Hafeez Malik (not found), the Aligarh Muslim University site (certificate error / unreachable) and Britannica's AMU article (blocked), the McGill thesis on the ulama's reaction (redirected; not read). EXCLUSIONS: the Qur'an commentary's theology, the critics' reactions (Afghani, ulama) and his politics are not scored. FLAGS: 4 sparse rows, none above 66, confidence <= 0.5; no persistence, discipline or leadership row because the sources describe projects and publications, not daily conduct. SELF-CALIBRATION (agent): top-risk rows reviewed: collaboration (58/0.44 lowered to 54/0.40), proactive_agency kept (three independent sources on dated initiatives), belief_updating kept (two independent scholars). HANDBACK60: {\"slug\": \"sayyid-ahmad-khan\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"collaboration\", \"old_score\": 58, \"old_confidence\": 0.44, \"new_score\": 54, \"new_confidence\": 0.4, \"reason\": \"claim rests partly on a disputed authorship question and the Society evidence is about membership, not working practice\"}], \"reviewed_kept\": [\"proactive_agency\", \"belief_updating\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

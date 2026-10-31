@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jang-yeong-sil",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jang Yeong-sil",
+    "aliases": [
+      "Chang Yongsil",
+      "Chang Yongsil (McCune-Reischauer)",
+      "Jang Youngsil"
+    ],
+    "wikidataId": "Q494615",
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "KR"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor",
+      "scientist"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "scientific"
+    ],
+    "tagIds": [
+      "innovator",
+      "craft_focused",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jys_wikidata",
+      "kind": "wikidata",
+      "title": "Jang Yeong-sil (Q494615), verified live via the Wikidata API (2026-10-31): English label 'Chang Yongsil', Korean label 장영실, description 'Korean mechanical engineer, scientist and inventor', birth given only as the year 1400 at century precision, no death date. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q494615"
+    },
+    {
+      "id": "src_jys_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Chang Yongsil', fetched for orientation (names, inventions list, the 1442 sedan chair incident, and a note that no written record links him to the rain gauge). Orientation only; never counted as a source for any row.",
+      "url": "https://en.wikipedia.org/wiki/Chang_Y%C5%8Fngsil"
+    },
+    {
+      "id": "src_jys_encykorea",
+      "kind": "institution",
+      "title": "Academy of Korean Studies, Encyclopedia of Korean Culture, entry '장영실' (Jang Yeong-sil) by Jeon Sang-woon, historian of science (written 1995, last revised 2023), read in full: born to a Chinese-descended father and a courtesan, a government slave at Dongnae noticed by Sejong, sent to China, freed and appointed (dated 1423 here), the astronomical instruments from 1432 designed with Yi Cheon, the Jagyeongnu of 1434 as his finest work, the Okru of 1438 and the Gabinja type. CANONICAL SIGNIFICANCE SOURCE. A single-author scholarly entry; favourable.",
+      "url": "https://encykorea.aks.ac.kr/Article/E0048697"
+    },
+    {
+      "id": "src_jys_encykorea_jgr",
+      "kind": "institution",
+      "title": "Academy of Korean Studies, Encyclopedia of Korean Culture, entry '자격루' (Jagyeongnu, the self-striking water clock) by Lee Eun-seong (written 1995, revised 2026), read: confirms that Jang Yeong-sil, Yi Cheon and Kim Jo first made it in 1434 at Sejong's command and describes the automatic striking of bell, drum and gong by hour. Institutional reference entry.",
+      "url": "https://encykorea.aks.ac.kr/Article/E0047854"
+    },
+    {
+      "id": "src_jys_archives",
+      "kind": "institution",
+      "title": "National Archives of Korea, Newsletter no. 47 (2015), article on Jang Yeong-sil (Korean), read in full: reviews his appearances in the Annals of King Sejong, including the 1425 bribery case and the 1430 demotion on an embassy, Sejong's 1433 statement that the Jagyeongnu could not have been made without him, the 1434 and 1438 installations, and the 1442 sedan chair case ending in 80 strokes and loss of rank on 3 May 1442; also notes the competing theories about why he vanished from the record and the scarcity of sources. The most record-based source; paraphrases the Annals rather than quoting at length.",
+      "url": "https://theme.archives.go.kr/next/pages/new_newsletter/2015/08/sub2.html"
+    },
+    {
+      "id": "src_jys_nikh",
+      "kind": "institution",
+      "title": "National Institute of Korean History, 'Our History' site (우리역사넷), children's history feature '장영실, 조선의 시간을 찾다' by Hwang Eun-hee, read in full: his origin as a government slave in Dongnae, the study trip to China, the appointment as sangeuiwon byeoljwa (Sejong's own account of the objection is quoted), the clocks and sundial, the rain gauge made following Crown Prince Munjong's idea, and the 1442 sedan chair case ending his record. A popular, simplified retelling for young readers; not independent of the Annals.",
+      "url": "https://contents.history.go.kr/mobile/eh/view.do?levelId=eh_n0400_0010&code=eh_age_30"
+    },
+    {
+      "id": "src_jys_etnews",
+      "kind": "press",
+      "title": "Electronic Times (전자신문), '[과학기술이 미래다] 과학선현 장영실' (7 May 2021), read in full: a newspaper column that quotes the Annals entry of 16 September 1433 and gives a timeline of his clocks, instruments and rain gauge, credited here as the world's first (a superlative that is not used in this profile). Popular press column; partly uncritical.",
+      "url": "https://www.etnews.com/20210507000129"
+    },
+    {
+      "id": "src_jys_textbook",
+      "kind": "institution",
+      "title": "National Institute of Korean History 'Our History' site, sixth-curriculum elementary social studies textbook 6-1, page 'Great King Sejong and Jang Yeong-sil' (Korean), read: states that he and others invented the rain gauge, the sundial and water clock and the armillary sphere. School textbook; shows the older, more generous attribution that the other sources qualify.",
+      "url": "https://contents.history.go.kr/mobile/ta/view.do?levelId=ta_e61_0010_0030_0010"
+    }
+  ],
+  "rows": {
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jys_archives, src_jys_encykorea, src_jys_etnews | 1423-1438 | state archives newsletter + scholarly entry + press quoting the Annals] Born a government slave with no formal status, he made himself useful as a craftsman: the Annals entry of 16 September 1433, as paraphrased by the National Archives and quoted in the press, has Sejong saying he was valued for his skill and that the Jagyeongnu could not have been made without him; the scholarly entry has him compare Chinese and Arabic water clocks to produce a new self-striking design (1434) and the Okru. The king's remark is a contemporary record but is Sejong's praise, not a neutral measure; the Annals were read at second hand."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jys_encykorea, src_jys_nikh | 1421-1438 | scholarly entry + national history site] He was sent to China to study astronomical instruments and water clocks and then, per the scholarly entry, thoroughly studied the Chinese and Arabic literature on water clocks before building the Okru of 1438. The children's feature repeats the China trip and says he bought books there; both are favourable and the second is simplified, so confidence is moderate."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jys_archives, src_jys_encykorea | 1432-1438 | archives newsletter + scholarly entry] The record shows him sent in January 1432 to a county to mine blue jade, directing the design and making of astronomical instruments from 1432, building clocks, and taking part in the casting of the Gabinja type in July 1434 under Yi Cheon (Annals entries as summarised by the National Archives). Work spans mining, astronomical instruments, horology and printing metallurgy, always in a team and at the king's commission, so it shows range more than self-directed choice."
+    },
+    "creative_originality": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jys_encykorea, src_jys_encykorea_jgr | 1434-1438 | scholarly entries] The scholarly entry calls the Jagyeongnu a new form of water clock made by comparing Chinese and Arabic automatic clocks, and the Okru an original celestial clock; the reference entry says it was first made by Jang, Yi Cheon and Kim Jo together. Credit is shared and the praise is a modern historian's, and no contemporary comparison of originality was read, so score and confidence are kept low."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "장영실"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait found. There is no contemporary likeness of Jang Yeong-sil; the Wikidata image 'Jang Youngsil 3.jpg' is a photograph of a modern statue (a derivative work), the common portrait is a modern painting under copyright, and a Commons search returned only statue and exhibit photographs. Next step: look for a pre-1931 printed illustration or a museum open-access image of an old depiction with an item-level rights statement.",
+    "kind": "historical_depiction"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / CONFIRMED, HELD. The lead's P18 'Jang Youngsil 3.jpg' is a photograph of a statue (derivative of a modern sculpture), rejected. One bounded retry: a Commons search for the name returned only statue photographs, the KAIST statue, and photographs of the Busan Jang Yeong-sil Science Garden exhibits; there is no contemporary likeness of him and no old public-domain depiction was found. The widely used portrait is a modern painting by Park Yeong-gil (credited on the National Archives page), which is under copyright. Next step: a pre-1931 printed illustration (for example in a Korean school history book digitised by the National Institute of Korean History) with an item-level rights statement, or a museum open-access image of an old depiction, if one exists. PREFLIGHT: QID Q494615 VERIFIED LIVE (2026-10-31): English label 'Chang Yongsil', Korean 장영실, description 'Korean mechanical engineer, scientist and inventor'; born 1400 at century precision, no death date; no collision in prod60.txt or data-pipeline/candidates. REGION east_asia. ERA early_modern (Joseon, 15th century; follows the Jeong Yak-yong precedent and the lead). No birth or death year is entered because both are unknown. VOCABULARY (grepped EN and KO): engineer, inventor, scientist; fields engineering, technology; tags innovator, craft_focused, overcame_adversity; archetype technical_innovator. KOREAN NAME: Wikidata label 장영실 (standard Korean romanization Jang Yeong-sil; the English Wikidata label is the McCune-Reischauer form). ZERO POLITICS: he held court rank but his role was technical; no political, military or diplomatic activity is scored, and the 1430 embassy demotion and the 1425 bribery case are mentioned in the source but not scored. CANONICAL SIGNIFICANCE SOURCE: Academy of Korean Studies Encyclopedia of Korean Culture, '장영실' (https://encykorea.aks.ac.kr/Article/E0048697). READ (7 substantive): AKS entry on Jang; AKS entry on Jagyeongnu; National Archives of Korea newsletter no. 47; NIKH children's feature; NIKH textbook page; Electronic Times column. PERSPECTIVES: a historian of science, an archives article that paraphrases the Annals and notes the competing theories, a national history institute's popular feature and textbook, and a newspaper column. No source is adversarial. The Annals of the Joseon Dynasty were not opened directly (the Sillok site was not reached); Annals content is used only as quoted or paraphrased by the National Archives and the press. Jeon Sang-woon's book was not opened. Conflict recorded: the date of his appointment as byeoljwa is 1423 in the encyclopedia but is inferred as 1432-33 by the National Archives from Sejong's 1433 statement; cards and moments avoid asserting the year. Also: the textbook and press credit him with inventing the rain gauge, the feature says he made it following Crown Prince Munjong's idea, and Wikipedia (orientation only) says no written record links him to it, so the rain gauge is not stated as a fact about him and no 'first in the world' claim is used. UNSCORED: the 1442 sedan chair incident (80 strokes and loss of rank, 3 May 1442) is a documented professional outcome per the National Archives; the sources do not establish fault or cause, the later theories are speculation, and his death date and fate are unknown. It is not used to infer any trait. His birth as a slave is context, not scored. Sparse by design (4 rows, confidence at most 0.5). SELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS. SELF-CALIBRATION: reviewed creative_originality and resourcefulness; both kept (creative_originality is already the lowest-confidence row; resourcefulness is supported by the Annals entry as paraphrased and a scholarly entry). HANDBACK60: {\"slug\": \"jang-yeong-sil\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"creative_originality\", \"resourcefulness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

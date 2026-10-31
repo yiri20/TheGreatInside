@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "andres-bello",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Andres Bello",
+    "aliases": [
+      "Andres Bello Lopez",
+      "Andres de Jesus Maria y Jose Bello Lopez"
+    ],
+    "wikidataId": "Q439195",
+    "birthYear": 1781,
+    "deathYear": 1865,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "VE",
+      "CL"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "jurist",
+      "poet",
+      "writer",
+      "teacher"
+    ],
+    "fieldIds": [
+      "linguistics",
+      "law",
+      "literature",
+      "education"
+    ],
+    "impactDomains": [
+      "literary",
+      "educational",
+      "cultural"
+    ],
+    "tagIds": [
+      "polymath",
+      "prolific",
+      "cross_disciplinary",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_abel_wikidata",
+      "kind": "wikidata",
+      "title": "Andres Bello (Q439195), verified live via the Wikidata API (2026-10-31): label 'Andres Bello', English description 'Venezuelan humanist, diplomat, poet, legislator, philosopher, educator and philologist (1781-1865)', born 1781-11-29 in Caracas, died 1865-10-15, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q439195"
+    },
+    {
+      "id": "src_abel_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Andres Bello', fetched for orientation (names, dates, main works). Orientation only; never counted as a source for any row.",
+      "url": "https://en.wikipedia.org/wiki/Andr%C3%A9s_Bello"
+    },
+    {
+      "id": "src_abel_uchile_rector",
+      "kind": "institution",
+      "title": "Universidad de Chile, 'Andres Bello Lopez (1843-1865)', page on the university's rectors (Spanish), read in full: his three life stages (Caracas, London 1810-1829, Chile 1829-1865), the unstable London years 1812-1822 spent transcribing Bentham's manuscripts and teaching, the reconstruction of the Poema del Cid, the Silvas Americanas, the Biblioteca Americana and Repertorio Americano, the Civil Code commission of 1840 and his rectorship. CANONICAL SIGNIFICANCE SOURCE (Britannica could not be opened: it returned a bot-challenge page). The university he founded: admiring and institutional.",
+      "url": "https://uchile.cl/presentacion/historia/rectores-de-la-u-de-chile/andres-bello-lopez-1843-1865"
+    },
+    {
+      "id": "src_abel_uchile_codigo",
+      "kind": "institution",
+      "title": "Universidad de Chile, speech by Rector Luis Riveros Cornejo for the 150th anniversary of the Civil Code (3 October 2005, Spanish), read in full: calls the Code a vast work of the first rector, says it was adopted formally by several Latin American republics, that he finished it himself when commissions had nearly given up, and summarises the 1847 Gramatica's dedication to Spanish America. A commemorative speech by the university's own rector; celebratory.",
+      "url": "https://uchile.cl/presentacion/rectoria/luis-riveros-cornejo/discursos/conmemoracion-del-150-aniversario-del-codigo-civil"
+    },
+    {
+      "id": "src_abel_berta",
+      "kind": "press",
+      "title": "Tibor Berta, 'Andres Bello: el nacimiento de la linguistica en la Hispanoamerica independiente', Colindancias (Debrecen), c. 2010, read in full (Spanish): a historian-of-linguistics article that says Bello was not a linguist but the first considerable investigator of language in independent Spanish America, notes that his linguistic work is subordinated to a political ideal, and analyses the 1847 grammar, including its dedication to Spanish Americans and his refusal to force regionalisms. An independent scholarly article with an explicit qualification.",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/5249310.pdf"
+    },
+    {
+      "id": "src_abel_olano",
+      "kind": "press",
+      "title": "Hernan Alejandro Olano Garcia, 'Andres Bello, el jurista de las Americas', Dikaion 21(16), Universidad de la Sabana (Colombia), November 2007, read in full (Spanish): a biographical sketch listing his posts and works, the Civil Code of 1855 (in force on 1 January 1857) and its adoption in Colombian states, and the fact that he never obtained a lawyer's title. A Colombian law-school article, admiring; also quotes a retrospective description of the Code.",
+      "url": "https://dikaion.unisabana.edu.co/index.php/dikaion/article/download/1374/1510"
+    },
+    {
+      "id": "src_abel_jaksic",
+      "kind": "institution",
+      "title": "Ivan Jaksic, introduction and notes to Andres Bello, 'Todas las verdades se tocan' (Editorial UV, Universidad de Valparaiso, 2015; free digital edition 2022), read: scholarly introduction by the author of the English-language intellectual biography, on the drafting of the university statutes in 1841-1843, the inaugural address of 17 September 1843, his emphasis on morality and religion as calculated to ease tension with the Church, and a student's eyewitness description of the day. A scholarly, balanced introduction; not a review of the full biography.",
+      "url": "https://editorial.uv.cl/images/descarga/Todas_las_verdades_se_tocan.pdf"
+    },
+    {
+      "id": "src_abel_mnba",
+      "kind": "institution",
+      "title": "Museo Nacional de Bellas Artes (Chile), catalogue raisonne of Raymond Monvoisin, entry 'Andres Bello' (Spanish PDF), read in full: describes the signed and dated 1844 oil portrait (signature 'chili 1844'), provenance Universidad de Chile 1844, its likely status as an oil portrait for which he posed, and the later copies and uses. Used for the portrait and not as support for any trait row.",
+      "url": "https://quinsac.mnba.gob.cl/pdf?idObra=83"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_abel_uchile_rector, src_abel_olano, src_abel_berta, src_abel_jaksic | 1800-1865 | university page + law article + linguistics article + scholarly introduction] Independent sources document work in poetry (Silvas Americanas), philology and grammar (the Cid reconstruction, the 1847 grammar), international and civil law (Principios del derecho de gentes 1832, the Civil Code), journalism (El Araucano), and university founding, with Berta describing him as a multifaceted humanist. Breadth is well attested across law, language and letters; the quality of each strand is not scored here. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 78 / 0.62 to 74 / 0.58 because the breadth is documented, but the strongest wording comes from the university he founded and an independent historian (Berta) argues he was not a linguist and that his language work served a political ideal."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_uchile_rector, src_abel_uchile_codigo, src_abel_olano | 1812-1855 | university page + university speech + law article] The university page says that from 1812 to 1822 he had no stable work in London and lived by transcribing Bentham's manuscripts and giving lessons while continuing research, and the rector's speech says he finished the Civil Code himself when the commissions had nearly given up; the law article dates the work from 1831 to the Code of 1855. The sources are institutional and celebratory; no independent source on the Code commissions was read."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_uchile_rector, src_abel_olano, src_abel_uchile_codigo | 1796-1829 | university page + law article] He taught himself English and French, worked in the libraries of the British Museum and the London Library, read the classics and medieval literatures, and worked on the Poema del Cid (university page); the law article lists his translations and commentaries on Sismondi, Olmedo and Restrepo. The record of breadth of reading is solid, but it is told by admiring institutions."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_berta, src_abel_olano | 1841-1847 | linguistics article + law article] Berta calls his grammar systematic and says it contains accurate observations, with a worked example of its norm-based treatment of forms such as 'cantastes' and the possessive 'su' with 'de usted'; the law article quotes a retrospective description of the Code as rigorous in method. Berta also says Bello was not a linguist and that the work serves a political ideal, which keeps the score and confidence moderate; the grammar itself was not opened."
+    },
+    "systems_abstraction": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_jaksic, src_abel_uchile_codigo | 1843-1855 | scholarly introduction + university speech] The inaugural address argues that all truths touch each other and presents the university as an integrated whole (Jaksic), and the rector's speech credits him with seeing law and language as two linked frameworks for the new republics. SELF-CALIBRATION (agent): lowered from 68 / 0.52 because the structural-thinking claim rests on one speech read through a university rector's celebratory framing and a single scholarly introduction, with no independent analysis of how the Code or the university statutes were designed."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_uchile_rector, src_abel_jaksic | 1810-1843 | university page + scholarly introduction] He moved from Caracas to London, remained there nineteen years, then rebuilt a career in Chile from 1829 as a public servant, editor, school head and then university founder (university page); Jaksic reads his inaugural emphasis on morality and religion as a calculated effort to ease Church-state tension rather than an expression of private conviction. Both sources are favourable and the political context is not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "안드레스 베요"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/andres-bello-monvoisin-1844.jpg",
+    "width": 893,
+    "height": 1200,
+    "source": "Oil portrait of Andres Bello by Raymond Monvoisin, signed and dated Chile 1844, in the collection of the Universidad de Chile (Museo Nacional de Bellas Artes catalogue raisonne of Monvoisin, which calls it probably the first oil portrait for which Bello posed). Digital reproduction from Wikimedia Commons (file 'AndresBello.jpg', 1524 x 2048 pixels); downscaled to 893 x 1200, no upscaling. Caveat: the Commons page's size and location note differs from the museum entry and the source website cited there is no longer available.",
+    "license": "Public domain (painting by Raymond Monvoisin, who died in 1870, made in 1844)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Art",
+    "attribution": "Raymond Monvoisin, portrait of Andres Bello, 1844, Universidad de Chile; reproduction via Wikimedia Commons",
+    "attributionUrl": "https://quinsac.mnba.gob.cl/pdf?idObra=83",
+    "creator": "Raymond Monvoisin",
+    "date": "1844",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AndresBello.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / CONFIRMED WITH CAVEATS. Commons 'AndresBello.jpg' (1524 x 2048, PD-Art, creator Raymond Monvoisin, d. 1870) shows the signed oil portrait inscribed 'chili 1844' (visible on the canvas). The Museo Nacional de Bellas Artes catalogue raisonne (read) dates it 1844, gives provenance Universidad de Chile 1844, says it is probably the first oil portrait for which Bello posed ('habria posado', hedged) and that his own library kept it. Basis: 2D painting by an artist dead since 1870, made in 1844, public domain in the United States by age and in Chile/Europe by author death; a faithful reproduction of a flat work adds no new rights. Caveats: (1) the Commons page lists the painting as 147 x 106 cm in the Casa Central of the Universidad de Chile with a source link (portaldearte.cl) that is now unavailable, while the MNBA entry gives 67 x 56 cm, so the Commons size note is unreliable; the image content matches the MNBA description (red wallpaper background, tilted medal, signature at left); (2) the origin of the digital reproduction is not documented; (3) the sitting is described as probable, not certain, so kind is recorded as likeness (a signed lifetime portrait made in Santiago) and the lead may downgrade it to historical_depiction. Used the Commons file, downscaled to 893 x 1200 (no upscaling), file andres-bello-monvoisin-1844.jpg. No conflicting notice from the university or the museum was found. PREFLIGHT: QID Q439195 VERIFIED LIVE (2026-10-31): label 'Andres Bello', description 'Venezuelan humanist, diplomat, poet, legislator, philosopher, educator and philologist (1781-1865)', born 29 Nov 1781, died 15 Oct 1865; no collision in prod60.txt or data-pipeline/candidates. REGION latin_america: both Venezuela (birth to 1810) and Chile (1829-1865, the most productive period per the university page) are in this region, so no precedent conflict; career base is Chile, nationality codes VE and CL (Chilean nationality was granted by law in 1832). ERA 19th_century. VOCABULARY (grepped EN and KO): occupations scholar, jurist, poet, writer, teacher ('educator', 'philologist', 'linguist' and 'humanist' have no label); fields linguistics, law, literature, education; tags polymath, prolific, cross_disciplinary, mentor; archetypes scholarly_specialist, cross_disciplinary_generalist. KOREAN NAME: no Wikidata label, so the transliteration of the Spanish pronunciation is recorded (standard Korean rendering of the surname Bello as 베요; recorded as a transliteration, to be confirmed by the lead). ZERO POLITICS: primary identity is humanist, philologist, jurist and educator; his London and Chilean diplomatic posts, his role in government offices, his Senate seat (1837-1864) and any political role are context and are not scored; the Civil Code and the university are scored only as scholarship and institution-building. CANONICAL SIGNIFICANCE SOURCE: Universidad de Chile, 'Andres Bello Lopez (1843-1865)' (https://uchile.cl/presentacion/historia/rectores-de-la-u-de-chile/andres-bello-lopez-1843-1865); Britannica returned a bot-challenge page and was not read. READ (6 substantive): the University of Chile rector page; the rector's 2005 Civil Code speech; Berta's article; Olano's article; Jaksic's introduction to the inaugural address; the MNBA catalogue entry (portrait only). PERSPECTIVES: the university he founded (admiring, institutional), an independent historian of linguistics with an explicit qualification, a Colombian law-school article, and an independent scholar's balanced reading. Counter-voices: Berta says he was not a linguist and that the work serves a political ideal; Jaksic reads the religion emphasis as calculated. NOT OPENED: Jaksic's full 2001 biography (only the publisher blurb and the citation of John Lynch's review in the Journal of Latin American Studies, paywalled), Amunategui's biography, the grammar and the Civil Code themselves, Britannica. Exclusions: marriages and bereavements, politics, awards. CALIBRATION: no adversarial source; rows capped at 0.62 and score 78. SELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS. SELF-CALIBRATION: reviewed systems_abstraction, analytical_rigor and persistence; lowered systems_abstraction from 68 / 0.52 to 62 / 0.46 (reason in the row); kept analytical_rigor and persistence. HANDBACK60: {\"slug\": \"andres-bello\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"systems_abstraction\", \"old_score\": 68, \"old_confidence\": 0.52, \"new_score\": 62, \"new_confidence\": 0.46, \"reason\": \"The structural-thinking claim rests on one inaugural speech read through a university rector's celebratory framing and a single scholarly introduction, with no independent analysis of the Code or statutes.\"}], \"reviewed_kept\": [\"analytical_rigor\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 78 / 0.62 to 74 / 0.58 because the breadth is documented, but the strongest wording comes from the university he founded and an independent historian (Berta) argues he was not a linguist and that his language work served a political ideal."
+  }
+}

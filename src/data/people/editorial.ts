@@ -12674,4 +12674,101 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "yasujiro-ozu-turning-point-1", textKey: "yasujiro-ozu.turning_point.1", interpretationKey: "yasujiro-ozu.interpretation.turning_point.1", attributeId: "creative_originality", sourceIds: ["src_ozu_senses", "src_ozu_ndl"] },
     ],
   },
+  "andres-bello": {
+    achievements: [
+      { id: "andres-bello-achievement-1", textKey: "andres-bello.achievement.1", sourceIds: ["src_abel_uchile_rector", "src_abel_berta", "src_abel_uchile_codigo"] },
+      { id: "andres-bello-achievement-2", textKey: "andres-bello.achievement.2", sourceIds: ["src_abel_olano", "src_abel_uchile_codigo", "src_abel_uchile_rector"] },
+      { id: "andres-bello-achievement-3", textKey: "andres-bello.achievement.3", sourceIds: ["src_abel_jaksic", "src_abel_uchile_rector"] },
+    ],
+    moments: [
+      { id: "andres-bello-moment-1", textKey: "andres-bello.moment.1", interpretationKey: "andres-bello.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_abel_uchile_rector"] },
+      { id: "andres-bello-moment-2", textKey: "andres-bello.moment.2", interpretationKey: "andres-bello.interpretation.moment.2", attributeId: "analytical_rigor", sourceIds: ["src_abel_berta"] },
+    ],
+    turningPoints: [
+      { id: "andres-bello-turning-point-1", textKey: "andres-bello.turning_point.1", interpretationKey: "andres-bello.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_abel_uchile_rector", "src_abel_berta"] },
+    ],
+  },
+  "hafez": {
+    achievements: [
+      { id: "hafez-achievement-1", textKey: "hafez.achievement.1", sourceIds: ["src_hafez_britannica", "src_hafez_gale", "src_hafez_iranica"] },
+      { id: "hafez-achievement-2", textKey: "hafez.achievement.2", sourceIds: ["src_hafez_britannica", "src_hafez_iranica"] },
+      { id: "hafez-achievement-3", textKey: "hafez.achievement.3", sourceIds: ["src_hafez_britannica", "src_hafez_poetryfoundation"] },
+    ],
+    moments: [
+      { id: "hafez-moment-1", textKey: "hafez.moment.1", interpretationKey: "hafez.interpretation.moment.1", attributeId: "mastery_orientation", sourceIds: ["src_hafez_britannica", "src_hafez_iranica"] },
+    ],
+    turningPoints: [
+      { id: "hafez-turning-point-1", textKey: "hafez.turning_point.1", interpretationKey: "hafez.interpretation.turning_point.1", attributeId: "mastery_orientation", sourceIds: ["src_hafez_britannica", "src_hafez_gale"] },
+    ],
+  },
+  "kip-keino": {
+    achievements: [
+      { id: "kip-keino-achievement-1", textKey: "kip-keino.achievement.1", sourceIds: ["src_keino_olympedia", "src_keino_britannica"] },
+      { id: "kip-keino-achievement-2", textKey: "kip-keino.achievement.2", sourceIds: ["src_keino_olympedia", "src_keino_bristol"] },
+      { id: "kip-keino-achievement-3", textKey: "kip-keino.achievement.3", sourceIds: ["src_keino_bristol", "src_keino_olympedia", "src_keino_classic"] },
+    ],
+    moments: [
+      { id: "kip-keino-moment-1", textKey: "kip-keino.moment.1", interpretationKey: "kip-keino.interpretation.moment.1", attributeId: "planning_orientation", sourceIds: ["src_keino_britannica", "src_keino_bristol"] },
+      { id: "kip-keino-moment-2", textKey: "kip-keino.moment.2", interpretationKey: "kip-keino.interpretation.moment.2", attributeId: "impact_motivation", sourceIds: ["src_keino_si"] },
+    ],
+    turningPoints: [
+      { id: "kip-keino-turning-point-1", textKey: "kip-keino.turning_point.1", interpretationKey: "kip-keino.interpretation.turning_point.1", attributeId: "impact_motivation", sourceIds: ["src_keino_bristol", "src_keino_si"] },
+    ],
+  },
+  "lee-kun-hee": {
+    achievements: [
+      { id: "lee-kun-hee-achievement-1", textKey: "lee-kun-hee.achievement.1", sourceIds: ["src_leekh_britannica", "src_leekh_ked", "src_leekh_koreatimes"] },
+      { id: "lee-kun-hee-achievement-2", textKey: "lee-kun-hee.achievement.2", sourceIds: ["src_leekh_britannica", "src_leekh_koreatimes"] },
+      { id: "lee-kun-hee-achievement-3", textKey: "lee-kun-hee.achievement.3", sourceIds: ["src_leekh_koreatimes", "src_leekh_tharawat"] },
+    ],
+    moments: [
+      { id: "lee-kun-hee-moment-1", textKey: "lee-kun-hee.moment.1", interpretationKey: "lee-kun-hee.interpretation.moment.1", attributeId: "decisiveness", sourceIds: ["src_leekh_koreatimes", "src_leekh_tharawat"] },
+      { id: "lee-kun-hee-moment-2", textKey: "lee-kun-hee.moment.2", interpretationKey: "lee-kun-hee.interpretation.moment.2", attributeId: "risk_tolerance", sourceIds: ["src_leekh_koreatimes"] },
+    ],
+    turningPoints: [
+      { id: "lee-kun-hee-turning-point-1", textKey: "lee-kun-hee.turning_point.1", interpretationKey: "lee-kun-hee.interpretation.turning_point.1", attributeId: "leadership_drive", sourceIds: ["src_leekh_britannica", "src_leekh_ked"] },
+    ],
+  },
+  "muhammad-abduh": {
+    achievements: [
+      { id: "muhammad-abduh-achievement-1", textKey: "muhammad-abduh.achievement.1", sourceIds: ["src_abduh_brit", "src_abduh_hourani"] },
+      { id: "muhammad-abduh-achievement-2", textKey: "muhammad-abduh.achievement.2", sourceIds: ["src_abduh_hourani", "src_abduh_jadaliyya", "src_abduh_brit"] },
+      { id: "muhammad-abduh-achievement-3", textKey: "muhammad-abduh.achievement.3", sourceIds: ["src_abduh_hourani", "src_abduh_iqbal"] },
+    ],
+    moments: [
+      { id: "muhammad-abduh-moment-1", textKey: "muhammad-abduh.moment.1", interpretationKey: "muhammad-abduh.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_abduh_hourani", "src_abduh_jadaliyya"] },
+      { id: "muhammad-abduh-moment-2", textKey: "muhammad-abduh.moment.2", interpretationKey: "muhammad-abduh.interpretation.moment.2", attributeId: "proactive_agency", sourceIds: ["src_abduh_hourani", "src_abduh_jadaliyya"] },
+    ],
+    turningPoints: [
+      { id: "muhammad-abduh-turning-point-1", textKey: "muhammad-abduh.turning_point.1", interpretationKey: "muhammad-abduh.interpretation.turning_point.1", attributeId: "cross_domain_range", sourceIds: ["src_abduh_hourani", "src_abduh_iqbal"] },
+    ],
+  },
+  "osamu-tezuka": {
+    achievements: [
+      { id: "osamu-tezuka-achievement-1", textKey: "osamu-tezuka.achievement.1", sourceIds: ["src_tezuka_ebsco", "src_tezuka_gale", "src_tezuka_imagetext"] },
+      { id: "osamu-tezuka-achievement-2", textKey: "osamu-tezuka.achievement.2", sourceIds: ["src_tezuka_ebsco", "src_tezuka_gale", "src_tezuka_tp"] },
+      { id: "osamu-tezuka-achievement-3", textKey: "osamu-tezuka.achievement.3", sourceIds: ["src_tezuka_ebsco", "src_tezuka_gale"] },
+    ],
+    moments: [
+      { id: "osamu-tezuka-moment-1", textKey: "osamu-tezuka.moment.1", interpretationKey: "osamu-tezuka.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_tezuka_arts", "src_tezuka_gale"] },
+      { id: "osamu-tezuka-moment-2", textKey: "osamu-tezuka.moment.2", interpretationKey: "osamu-tezuka.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_tezuka_gale", "src_tezuka_ebsco"] },
+    ],
+    turningPoints: [
+      { id: "osamu-tezuka-turning-point-1", textKey: "osamu-tezuka.turning_point.1", interpretationKey: "osamu-tezuka.interpretation.turning_point.1", attributeId: "cross_domain_range", sourceIds: ["src_tezuka_ebsco", "src_tezuka_gale"] },
+    ],
+  },
+  "salif-keita": {
+    achievements: [
+      { id: "salif-keita-achievement-1", textKey: "salif-keita.achievement.1", sourceIds: ["src_sk_eb"] },
+      { id: "salif-keita-achievement-2", textKey: "salif-keita.achievement.2", sourceIds: ["src_sk_afropop_amb", "src_sk_songlines"] },
+      { id: "salif-keita-achievement-3", textKey: "salif-keita.achievement.3", sourceIds: ["src_sk_eb", "src_sk_pam", "src_sk_npr19"] },
+    ],
+    moments: [
+      { id: "salif-keita-moment-1", textKey: "salif-keita.moment.1", interpretationKey: "salif-keita.interpretation.moment.1", attributeId: "autonomy_need", sourceIds: ["src_sk_afropop_amb", "src_sk_eb"] },
+      { id: "salif-keita-moment-2", textKey: "salif-keita.moment.2", interpretationKey: "salif-keita.interpretation.moment.2", attributeId: "mastery_orientation", sourceIds: ["src_sk_pam"] },
+    ],
+    turningPoints: [
+      { id: "salif-keita-turning-point-1", textKey: "salif-keita.turning_point.1", interpretationKey: "salif-keita.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_sk_musafr", "src_sk_pam", "src_sk_eb"] },
+    ],
+  },
 };

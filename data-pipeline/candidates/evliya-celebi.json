@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "evliya-celebi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Evliya Çelebi",
+    "aliases": [
+      "Evliya Celebi",
+      "Evliyâ Çelebi",
+      "Derviş Mehmed Zilli"
+    ],
+    "wikidataId": "Q202308",
+    "birthYear": 1611,
+    "deathYear": 1682,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.ottoman_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "writer"
+    ],
+    "fieldIds": [
+      "exploration",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_evliya_wikidata",
+      "kind": "wikidata",
+      "title": "Evliya Çelebi (Q202308), verified live via the Wikidata API (2026-10-31): label 'Evliya Çelebi', description 'Turkish traveler and writer (1611-1682)', Korean label 에블리야 첼레비. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q202308"
+    },
+    {
+      "id": "src_evliya_unesco",
+      "kind": "institution",
+      "title": "UNESCO Memory of the World register, 'Evliya Çelebi's Book of Travels in the Topkapı Palace Museum Library and the Süleymaniye Manuscript Library' (read in full). CANONICAL SIGNIFICANCE SOURCE: calls the Seyahatname the longest and fullest travel account in Islamic literature, perhaps in world literature, and describes a description of the Ottoman Empire and its hinterlands drawn from roughly forty years of travel (1640-80).",
+      "url": "https://www.unesco.org/en/memory-world/evliya-celebis-book-travels-topkapi-palace-museum-library-and-suleymaniye-manuscript-library"
+    },
+    {
+      "id": "src_evliya_whe",
+      "kind": "biography",
+      "title": "World History Encyclopedia, 'Evliya Çelebi: The Most Famous Ottoman Traveler' by Batuhan Aksu (read in full). Also a canonical significance source: ten-volume Seyahatname, quotes Robert Dankoff on his reputation as a fantasist and on recent scholarship restoring faith in his credibility, notes that the travels to the Netherlands, Brandenburg and Sweden and some African episodes are debated or fantastical, and that he took temporary assignments to finance travel.",
+      "url": "https://www.worldhistory.org/Evliya_Celebi/"
+    },
+    {
+      "id": "src_evliya_aramco",
+      "kind": "press",
+      "title": "Louis Werner, 'The Unread Masterpiece of Evliya Çelebi', Saudi Aramco World, March/April 2011 (read in full): draws on Robert Dankoff and Sooyong Kim's translation; quotes Dankoff's and Suraiya Faroqhi's assessments, reports architectural historian Machiel Kiel's cross-check of Balkan monuments, and discusses the Nile map and invented itineraries. Magazine feature relaying scholarship.",
+      "url": "https://archive.aramcoworld.com/issue/201102/the.unread.masterpiece.of.evliya.elebi.htm"
+    },
+    {
+      "id": "src_evliya_olnon",
+      "kind": "press",
+      "title": "Merlijn Olnon, review of Robert Dankoff, 'An Ottoman Mentality: The World of Evliya Çelebi' (Brill, 2nd ed. 2006), Bibliotheca Orientalis 65, 2008 (read in full via the Academia.edu copy): academic review that describes the Seyahatname as the largest firsthand account left by an Ottoman, summarises Dankoff's view that his urban descriptions are overall accurate and that calling him unreliable misses the point of a literary work mixing fact and fiction. The book itself was not opened.",
+      "url": "https://www.academia.edu/5383351/Review_of_R_Dankoff_An_Ottoman_Mentality_The_World_of_Evliya_%C3%87elebi"
+    },
+    {
+      "id": "src_evliya_paris",
+      "kind": "press",
+      "title": "Edward White, 'Boon Companion', The Paris Review, 5 August 2016 (read in full): literary essay that treats the Seyahatname as part reportage and part invention and gives examples of episodes that cannot have happened. Used only for the counter-voice on reliability and for his travelling with official retinues; personal and health anecdotes in the essay are not used.",
+      "url": "https://www.theparisreview.org/blog/2016/08/05/boon-companion/"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_evliya_aramco, src_evliya_unesco, src_evliya_olnon | 1630s-1680s | magazine feature relaying Dankoff + UNESCO register + academic review] Aramco World quotes Robert Dankoff that for Evliya travel was an obsession in which he had to see and record everything; the UNESCO register describes an account covering geography, administration, urban institutions, religion, folklore and dream interpretation; Olnon's review calls it the largest firsthand account left by an Ottoman. The breadth is well documented, but the motive behind it is Dankoff's reading of Evliya's own narration, so the row stays modest."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_evliya_unesco, src_evliya_whe, src_evliya_paris | 1640-1680s | institution + encyclopedia + literary essay] UNESCO dates the travels to roughly forty years (1640-80) and the book to ten volumes; World History Encyclopedia says he compiled it in Egypt from about 1672 to about 1683; the Paris Review essay says it was still unfinished at his death. The long span and sustained writing are well attested; staying power is inferred from them and not from an independent account of his working habits."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_evliya_whe, src_evliya_aramco, src_evliya_paris | 1631-1672 | encyclopedia + magazine feature + literary essay] World History Encyclopedia says he did not want long-term official duties and took temporary assignments from local administrators, plus family inheritance, to finance his journeys; Aramco World, relaying the Seyahatname, says he never sought court duties for fear of being tied down. Dual-edged because the Paris Review essay and Aramco World describe him as often travelling inside the retinue of an ambassador or military commander and under grand vizier patronage, so his independence was real but sponsored. SELF-CALIBRATION (agent): reviewed as a top-risk row and lowered from 64 / 0.46 to 60 / 0.42 because the 'feared being tied down' motive rests on his own narration relayed by a magazine, with only one encyclopedia entry confirming the temporary-assignment pattern."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_evliya_whe, src_evliya_aramco, src_evliya_olnon, src_evliya_paris | 1640s-1680s | encyclopedia + magazine feature citing Kiel + academic review + literary essay] World History Encyclopedia says he often measured the height and width of monuments in person and kept notes; Aramco World reports that Machiel Kiel found his descriptions of Balkan mosques, baths and Sufi lodges highly accurate against the surviving sites; Olnon's review summarises Dankoff as affirming the overall accuracy of his urban descriptions. Dual-edged because the same sources (and the Paris Review essay) say the book also contains invented or embroidered episodes and unreliable measurements, so precision is documented for some places and not for the work as a whole."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에블리야 첼레비"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. The Wikidata image 'Serafimovski - Evliya Çelebi.jpg' is a CC BY-SA photograph of a modern statue (a derivative of the sculptor's work) and was rejected. The Commons category holds no old portrait: 'Celebi1.jpg' is a manuscript text page, not a portrait, and 'Evlija Cselebi.jpg' is an undated scan of unknown authorship taken from a Hungarian regional yearbook with only a generic public-domain tag and no item-level rights statement. Next step: find an old depiction (for example a 19th-century engraving in a digitised book published before 1931, or a museum open-access item) that has an item-level date, creator and public-domain statement. Kind, if resolved: historical depiction."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / confirmed: the Wikidata image 'Serafimovski - Evliya Çelebi.jpg' is a CC BY-SA photograph of a modern statue, a derivative of the sculptor's work, so it was rejected. The Commons category for Evliya Çelebi was checked: it holds no old portrait of him; 'Celebi1.jpg' is a manuscript text page from volume 7 (not a portrait; tagged PD-old, source Topkapi library) and 'Evlija Cselebi.jpg' is an undated portrait scan with author 'unknown' sourced to a Hungarian regional yearbook on Hungaricana with only a generic PD-old tag, which is not an item-level rights basis. A Commons search for a portrait or miniature found nothing relevant and the English Wikipedia lead image is a 2014 modern artwork by Piros Rostás Bea in Eger, also not usable. Bounded retry used; PORTRAIT HELD (see portrait.reason). PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q202308 label 'Evliya Çelebi', description 'Turkish traveler and writer (1611-1682)', born 1611-03-25, died 1682 (precision year; sources variously say 1682, 1683, 1684 or 1685), Korean label 에블리야 첼레비. No production or candidate slug/QID collision (grepped prod60.txt and data-pipeline/candidates). REGION west_asia, following the repo precedent for Ottoman figures (Mimar Sinan, polity.ottoman_empire); he was Istanbul-born and spent his last years in Cairo. ERA early_modern. ZERO POLITICS: primary identity is traveller and travel writer; his service in campaigns, embassies and patronage networks is context and is not scored. VOCABULARY: occupations explorer, writer; fields exploration, literature; tags explorer, prolific; archetype independent_creator; impact domains cultural, literary, historical; all grepped in en.ts and ko.ts. CANONICAL SIGNIFICANCE SOURCE: UNESCO Memory of the World register entry for Evliya Çelebi's Book of Travels (https://www.unesco.org/en/memory-world/evliya-celebis-book-travels-topkapi-palace-museum-library-and-suleymaniye-manuscript-library), together with the World History Encyclopedia entry. READ IN FULL: the UNESCO entry; the World History Encyclopedia entry; Louis Werner's Saudi Aramco World feature; Merlijn Olnon's Bibliotheca Orientalis review of Dankoff's 'An Ottoman Mentality'; Edward White's Paris Review essay. PERSPECTIVES: institutional register, popular encyclopedia quoting Dankoff, magazine relaying Dankoff/Faroqhi/Kiel, academic book review, literary essay. COUNTER-VOICES: Faroqhi's 'romanced travelogue' with 'invented itineraries' (via Aramco World), the Paris Review essay's examples of impossible episodes, World History Encyclopedia on the debated Dutch/Brandenburg/Swedish and African journeys; against them Kiel's cross-check and Dankoff's argument that the work is literature mixing fact and fiction. SELF-REPORT SEPARATION: the Seyahatname is Evliya's own account; everything about his motives, dreams and travels reaches this profile through scholars or reference works that cite it, and the rows say so; no dream or marvel episode is scored. NOT OPENED: Britannica (only the introduction was reachable), the Encyclopaedia of Islam entry (not found as an abstract), Dankoff's book and translation, Kiel's study, the Seyahatname itself. EXCLUSIONS: personal and health anecdotes in the Paris Review essay were not used. SPARSE PROFILE: four rows, none above 64, confidence 0.42-0.50. SELF-CALIBRATION (agent): top-risk rows reviewed: autonomy_need (64/0.46 lowered to 60/0.42), curiosity (kept), detail_orientation (kept). KO NAME: 에블리야 첼레비, the Wikidata Korean label. HANDBACK60: {\"slug\": \"evliya-celebi\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"autonomy_need\", \"old_score\": 64, \"old_confidence\": 0.46, \"new_score\": 60, \"new_confidence\": 0.42, \"reason\": \"the feared-being-tied-down motive rests on his own narration relayed by a magazine, with one encyclopedia entry confirming the temporary-assignment pattern\"}], \"reviewed_kept\": [\"curiosity\", \"detail_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}
