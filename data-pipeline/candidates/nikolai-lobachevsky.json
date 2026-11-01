@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nikolai-lobachevsky",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Nikolai Lobachevsky",
+    "aliases": [
+      "Nikolay Ivanovich Lobachevsky",
+      "Nikolai Ivanovich Lobachevsky",
+      "Nikolai Lobachevskii",
+      "Nikolaj Lobatschewskij",
+      "Lobachevsky"
+    ],
+    "wikidataId": "Q129199",
+    "birthYear": 1792,
+    "deathYear": 1856,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "teacher"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "late_recognition",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lobach_wikidata",
+      "kind": "wikidata",
+      "title": "Nikolai Ivanovich Lobachevsky (Q129199), verified live via the Wikidata API (2026-10-31): label 'Nikolai Ivanovich Lobachevsky', description 'Russian mathematician (1792-1856)', born 20 November / 1 December 1792 (three birth values in different calendars), died 12 / 24 February 1856, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q129199"
+    },
+    {
+      "id": "src_lobach_britannica",
+      "kind": "biography",
+      "title": "Valentin A. Bazhanov, 'Nikolay Ivanovich Lobachevsky', Encyclopaedia Britannica, read in full (life and mathematical research and legacy sections). CANONICAL SIGNIFICANCE SOURCE: Russian mathematician and founder of non-Euclidean geometry, developed independently of Bolyai and Gauss; first publication in 1829, Bolyai's in 1832, Gauss never published; rector of Kazan for 19 years; ideas met with misunderstanding and scorn from Ostrogradskii and Fuss; he continued stubbornly in isolation and dictated Pangeometry in French in 1855; his geometry was understood only after Riemann and Klein. Reference entry by a historian of science.",
+      "url": "https://www.britannica.com/biography/Nikolay-Ivanovich-Lobachevsky"
+    },
+    {
+      "id": "src_lobach_mactutor",
+      "kind": "biography",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Nikolai Ivanovich Lobachevsky', read in full: schooling on a scholarship, his teacher Bartels, the difficult years under the curator Magnitskii, the rectorship from 1827 with a building programme, the 1830 cholera and 1842 fire, his retirement in 1846 (described as essentially a dismissal), the first printed account of non-Euclidean geometry in 1829 rejected by Ostrogradski for the St Petersburg Academy, the Dandelin-Graeffe method, the myths about Gauss that it calls false, and the later acceptance through Hoüel, Beltrami, Klein and Poincaré. Scholarly biography that corrects legends; its quotations from Vinberg and Laptev were read through it, not in the originals.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lobachevsky/"
+    },
+    {
+      "id": "src_lobach_dsb",
+      "kind": "biography",
+      "title": "B. A. Rosenfeld, 'Lobachevsky, Nikolai Ivanovich', Complete Dictionary of Scientific Biography (Scribner, 2008), read in full via the St Andrews copy of the Encyclopedia.com text: offices held (dean, librarian, rector 1827-46, assistant trustee), the 1826 report and 1829-30 publication, his early attempts to prove the fifth postulate, the calculation of angle sums for stellar triangles to test the geometry of space, priority over Bolyai and Gauss, the uncomplimentary review by Ostrogradsky and the pamphlet ridiculing him in 1834, Gauss's private praise without public comment, Cayley's failure to understand him, and the later work of Hoüel, Beltrami, Klein and Poincaré. Detailed reference article by a Soviet historian of mathematics.",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Lobachevsky.pdf"
+    },
+    {
+      "id": "src_lobach_bea",
+      "kind": "biography",
+      "title": "'Lobachevsky, Nikolai Ivanovich', Biographical Encyclopedia of Astronomers (Springer, 2007), read in full via the St Andrews copy (two pages): remembered as a founder of non-Euclidean geometry, his rise at Kazan to rector in 1827, the February 1826 paper as the apparent first public disclosure, the 1829 version in the Kazan Messenger, the physical question whether space is Euclidean, the first neglect of the work and its later recognition through Klein, Poincare, Riemann and Hilbert. Short reference entry, anonymous in the copy opened.",
+      "url": "https://mathshistory.st-andrews.ac.uk/BEA/lobachevsky_bea.pdf"
+    },
+    {
+      "id": "src_lobach_kryukov",
+      "kind": "wikipedia",
+      "title": "'Kryukov, Lev Dmitrievich' (Russian Wikipedia), read for the portrait attribution only: serf-born painter and miniaturist employed at Kazan University from 1806, died 13 May 1843 in Kazan, author of portraits of Kazan figures including Lobachevsky, with a Lobachevsky portrait dated to the 1830s. Orientation only; never counted as a research source.",
+      "url": "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D1%8E%D0%BA%D0%BE%D0%B2,_%D0%9B%D0%B5%D0%B2_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lobach_britannica, src_lobach_mactutor, src_lobach_dsb | 1826-1840 | reference entries, scholarly biography] Instead of trying to prove Euclid's fifth postulate, he worked out a geometry in which it fails and treated Euclid's geometry as a special case; all three sources date his first printed account to 1829-30, ahead of Bolyai (1832), and Gauss never published, with DSB stating that he clearly holds priority. The sources are retrospective praise, but priority is checked against Bolyai and Gauss and the originality is shown by the hostile contemporary reception, so the row is high but not extreme. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 80 / 0.6 to 74 / 0.52 because all three supporting sources are reference works drawing on one Russian historiography and the originality claim is retrospective, outcome-driven praise for work whose significance was recognised after his death."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lobach_dsb, src_lobach_britannica, src_lobach_mactutor | 1826-1855 | reference entries, scholarly biography] He pursued a geometry that two thousand years of work on the parallel postulate had not tried, kept developing it after the Petersburg academician Ostrogradskii reviewed it unfavourably and a journal ridiculed it in 1834, and, per Britannica, worked largely in isolation from other mathematicians; MacTutor quotes Vinberg that his 'upright and independent character' brought difficulties at Kazan. The independence is documented against opposition, but most claims are secondary summaries. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 78 / 0.58 to 72 / 0.52 because the same three reference works are not independent of one another and the independence is read from the later-vindicated result."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lobach_britannica, src_lobach_mactutor, src_lobach_dsb | 1829-1856 | reference entries, scholarly biography] He kept publishing the new geometry in Russian, French and German for nearly three decades (1829 to the Pangeometry of 1855-56) despite ridicule and almost no recognition, and Britannica says that, blind and ill after losing a son, he dictated Pangeometry in French in 1855; MacTutor says he died without knowing the importance of his work. The persistence is documented in several references, but the blindness and bereavement are context and are not used to infer character beyond the continued work. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 76 / 0.6 to 70 / 0.54 because the long advocacy is documented only through encyclopedic summaries with no independent account of how he sustained it."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_lobach_dsb, src_lobach_britannica, src_lobach_mactutor | 1829-1840 | reference entries] DSB says he built the new geometry analytically from its trigonometric formulas to guarantee its internal consistency, calculated angle sums for triangles with the star Sirius, Rigel or 28 Eridani as a vertex to check whether space is Euclidean within observational error, and found the Lobachevsky-Graeffe root method (shared with Dandelin and Graeffe) and a convergence criterion for series. The sources describe the work rather than his working habits, and the consistency proof was completed later by others, so the confidence is moderate."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_lobach_mactutor, src_lobach_britannica, src_lobach_dsb | 1814-1846 | scholarly biography, reference entries] He taught mathematics, physics, astronomy, mechanics and hydrodynamics, headed the university observatory and library, gave public lectures on physics in 1838-40 and worked on algebra, analysis, probability and meteorology as well as geometry (MacTutor, Britannica). The breadth is partly the result of a staffing shortage at Kazan after the German professors left (Britannica), and the depth outside geometry is only sketched."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_lobach_mactutor, src_lobach_britannica | 1827-1846 | scholarly biography, reference entry] He was elected rector six times and held the unpaid post for 19 years; MacTutor says the university flourished under him with new building, an observatory, laboratories and growing student numbers, and both sources report his handling of the 1830-31 cholera epidemic (a strict quarantine) and the 1842 fire. His retirement in 1846 is described by MacTutor as essentially a dismissal, and the building programme was also backed by the curator, so the leadership claim is moderate."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_lobach_dsb, src_lobach_britannica | 1820s | reference entries] DSB says that in his early lectures he himself tried to prove the fifth postulate and that his geometry came from his later insight that dropping it is not self-contradictory, but Britannica says the content of his 1826 manuscript is unknown and may have been either a proof or an early version of the new geometry. The change of view is stated by one source and doubted by the other. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.50 to 60 / 0.45 because only the DSB entry states the early proof attempts and Britannica says the 1826 manuscript is lost, so the behaviour is not independently documented."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "니콜라이 로바쳅스키"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/nikolai-lobachevsky-kryukov-1830s.jpg",
+    "width": 600,
+    "height": 800,
+    "source": "Portrait of Nikolai Ivanovich Lobachevsky, oil on canvas, by Lev Dmitrievich Kryukov (1783-1843), the painter employed at Kazan University, dated to the first half of the nineteenth century and in other lists to the 1830s or 1839, so painted in the sitter's lifetime by a painter who died in 1843. Because the painter died in 1843 the painting is in the public domain by age everywhere, and a faithful photograph of a flat painting adds no new copyright. The file is the unaltered 600 x 800 pixel image from Wikimedia Commons, whose page cites a Tatarstan museums-portal page (tatar.museum.ru, section 'univer') as its source; that page could not be opened, so the present owner of the canvas and any museum notice were not checked. No cropping, no resizing and no upscaling.",
+    "license": "Public domain (painter died 1843)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Lobachevsky.jpg",
+    "attribution": "Lev Kryukov, Portrait of N. I. Lobachevsky, first half of the 19th century, public domain, via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Lobachevsky.jpg",
+    "creator": "Lev Dmitrievich Kryukov",
+    "date": "before 1843 (1830s)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Lobachevsky.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / found with caveats: the lead's file 'Lobachevsky 03 crop.jpg' (474 x 674, a black-and-white reproduction whose Commons page cites only a blog, with a PD-old-100 tag and an uncertain location 'Lev Tolstoy Museum') was REJECTED as a source; I used the other Commons file 'Lobachevsky.jpg' (600 x 800, colour painting), whose page names Lev Kryukov, date before 1843, source a Tatarstan museums-portal page (tatar.museum.ru, section 'univer'), and tag PD-Art with the painter's death year 1843, which matches Wikidata (Q4243128, painter 1783/1793-1843) and Russian Wikipedia (died 13 May 1843, employed at Kazan University since 1806, portraits of Lobachevsky). The two Commons files are two different images of the sitter. CAVEATS: the museums-portal page and the Kazan Federal University newspaper article on the painter could not be opened (no response, timeout), so the present holder of the canvas and any museum copyright notice were not seen; the basis is the painter's death in 1843 and the faithful reproduction of a flat painting, not a museum statement. The exact year of the painting is uncertain (1830s or 1839); either way it was painted in the sitter's lifetime, so kind likeness. WHY the lead's grade was only partly right: the preferred crop failed on provenance (blog source), the alternative file passed. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q129199 label 'Nikolai Ivanovich Lobachevsky', description 'Russian mathematician (1792-1856)'; absent from prod61.txt and no candidate file existed. DATES: Nov 20 1792 Old Style = 1 December 1792 (sources give 1 or 2 December; DSB 2 December); died 12/24 February 1856; years 1792 and 1856 used. REGION central_europe, following the shipped Russian-born precedents (Kovalevskaya, Mendeleev, Pavlov). era 19th_century. ZERO POLITICS: primary identity is a mathematician and university rector; the tsarist administration and curator are context and not scored. The 1837 elevation to hereditary nobility and the 1846 retirement are not scored. VOCABULARY: occupations mathematician and teacher; fields mathematics and education; impact domains scientific, educational and historical; tags late_recognition and systematic_thinker; archetypes scientific_explorer and scholarly_specialist, all grepped in en.ts. KO NAME: the Wikidata Korean label. CANONICAL SIGNIFICANCE SOURCE: Valentin A. Bazhanov, 'Nikolay Ivanovich Lobachevsky', Encyclopaedia Britannica (https://www.britannica.com/biography/Nikolay-Ivanovich-Lobachevsky). READ IN FULL: Britannica, MacTutor biography, Rosenfeld's DSB entry, the Springer BEA entry (four substantive sources; the cost cap and the lack of further open sources stopped the search). PERSPECTIVES: reference encyclopedia, scholarly history-of-mathematics biography, Soviet-era scientific biography, astronomers' encyclopedia; all admiring in different degrees, none independent of the Russian historiography. COUNTER-VOICES AND LIMITS: the hostile review by Ostrogradsky and the 1834 pamphlet; Fuss; Cayley's misunderstanding; MacTutor's correction of the Gauss legends and of the claim that he was an impractical estate owner; his retirement as a de facto dismissal. NOT OPENED: Vucinich in Isis, Laptev, Izotov, Matveev and the Vinberg newsletter article (cited by MacTutor), Gauss's letters, Lobachevsky's own writings, the Tatarstan museums-portal page. LEGEND VERSUS SCHOLARSHIP: the claim that Gauss guided or promoted him is NOT used (MacTutor calls it false); his marriage, finances, estate, blindness and bereavement are not scored. VOCABULARY: occupation 'professor' not used (unlabelled). SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (kept), persistence (kept, context facts not used for character), belief_updating (66/0.50 lowered to 60/0.45). HANDBACK61: {\"slug\": \"nikolai-lobachevsky\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"belief_updating\", \"old_score\": 66, \"old_confidence\": 0.5, \"new_score\": 60, \"new_confidence\": 0.45, \"reason\": \"only the DSB entry states the early proof attempts and Britannica says the 1826 manuscript is lost, so the behaviour is not independently documented\"}], \"reviewed_kept\": [\"creative_originality\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7} RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 80 / 0.6 to 74 / 0.52 because all three supporting sources are reference works drawing on one Russian historiography and the originality claim is retrospective, outcome-driven praise for work whose significance was recognised after his death. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 78 / 0.58 to 72 / 0.52 because the same three reference works are not independent of one another and the independence is read from the later-vindicated result. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 76 / 0.6 to 70 / 0.54 because the long advocacy is documented only through encyclopedic summaries with no independent account of how he sustained it."
+  }
+}

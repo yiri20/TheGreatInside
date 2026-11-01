@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ferdinand-de-lesseps",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ferdinand de Lesseps",
+    "aliases": [
+      "Ferdinand Marie de Lesseps",
+      "Vicomte de Lesseps"
+    ],
+    "wikidataId": "Q209169",
+    "birthYear": 1805,
+    "deathYear": 1894,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business",
+      "engineering"
+    ],
+    "impactDomains": [
+      "engineering",
+      "entrepreneurial",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "leader",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lesseps_wikidata",
+      "kind": "wikidata",
+      "title": "Ferdinand de Lesseps (Q209169), verified live via the Wikidata API (2026-10-31): label 'Ferdinand de Lesseps', description 'French diplomat and entrepreneur, developer of the Suez Canal (1805-1894)', born 1805-11-19, died 1894-12-07, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q209169"
+    },
+    {
+      "id": "src_lesseps_napoleon",
+      "kind": "institution",
+      "title": "Fondation Napoleon, biography 'Lesseps, Ferdinand de' (English edition), read in full: an institutional history of the Second Empire and its figures that traces how he obtained the 1854 concession from Said, failed to win Ottoman approval in 1855 and failed to persuade Palmerston, raised 100 million francs from about 20,000 investors in 1858 without major bank backing, replaced forced labour with European workers and machinery after the new Viceroy halted work in 1864, appealed to Napoleon III's arbitration, the 1869 opening, his 1884 election to the Academie francaise, and the Panama concession, failure and 1893 sentence. CANONICAL SIGNIFICANCE SOURCE: a historical foundation's standard biography. Written from the French imperial-history standpoint and sympathetic in tone.",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/biographies/lesseps-ferdinand-de"
+    },
+    {
+      "id": "src_lesseps_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Ferdinand de Lesseps', read in full: a scholarly-style encyclopedia biography noting that he was a career diplomat with no engineering training, that he returned to the Suez project in 1854 at the invitation of the Viceroy, that roughly half the capital came from French investors, the 1869 opening of the roughly 160 km sea-level canal, the 1879 Paris congress where he won over the audience while a senior French engineer warned of disease and rejected the sea-level design, and the Panama bankruptcy of 1889 with heavy loss of life; it is openly critical of the sea-level decision and cites the Cameron and Karabell books as more and less generous assessments. A single-author overview that does not describe the Panama trial outcomes.",
+      "url": "https://ebsco.com/research-starters/history/ferdinand-de-lesseps"
+    },
+    {
+      "id": "src_lesseps_eb1911",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, eleventh edition (1911), entry 'Lesseps, Ferdinand de' (Wikisource transcription), read in full: dated career from vice-consul at Lisbon in 1825 through the 1854 concession, the 1856 international commission of engineers, the 1858 company with about 200 million francs of capital, the first pickaxe blow at Port Said on 25 April 1859 and the opening on 17 November 1869, his later projects, and the Panama venture he undertook at 74 and insisted on building without locks despite objections, wound up in December 1888 with the prosecution of him and his son. Period reference work (early 20th century) with an admiring tone; used for dates and outline.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Lesseps,_Ferdinand_de"
+    },
+    {
+      "id": "src_lesseps_graces",
+      "kind": "archive",
+      "title": "Grace's Guide to British Industrial History, 'Ferdinand de Lesseps' (reproducing a 1895 obituary and later notes), read in full: records that Palmerston called the scheme a bubble, that he toured Britain (reportedly 32 meetings in 45 days), that he relied on persuasion and publicity while the engineering was done largely by others (Linant Bey, Mougel Bey, independent commissions), contemporary judgments including John Hawkshaw's 1863 report and Gambetta's 'Le Grand Francais', Suez traffic rising from 486 vessels in 1870 to 3,389 in 1890, and the Panama estimate of 658 million francs and eight years, the 1888 bankruptcy and the trial; it states that the obituary and the main article disagree on whether the sentence was served or overturned. British engineering-heritage source, partly period obituary text.",
+      "url": "https://www.gracesguide.co.uk/Ferdinand_de_Lesseps"
+    },
+    {
+      "id": "src_lesseps_history",
+      "kind": "press",
+      "title": "History.com (A&E Television Networks), '7 Fascinating Facts About the Panama Canal', read in full: popular-history article stating that he intended a sea-level canal like Suez, that excavation proved far harder than expected, that Gustave Eiffel was later hired to design locks, that the French attempts caused more than 20,000 deaths, that the company went bankrupt in 1889 after investing more than 260 million dollars, and that he, his son and others were convicted in 1893 with sentences later overturned. General-audience summary; used only for the outline of the failure.",
+      "url": "https://www.history.com/articles/7-fascinating-facts-about-the-panama-canal"
+    },
+    {
+      "id": "src_lesseps_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library digital exhibition 'The Land Divided, The World United', pages 'The French Plan' and 'The French Attempt', both read in full: a science and engineering library's account of the 1879 Paris congress where the sea-level plan he endorsed was approved, the objection of the chief engineer of the French Department of Bridges and Highways that a sea-level plan was completely unrealistic (he proposed locks and lakes), the statement that on his second visit in 1886 he continued to insist on a sea-level canal, and the 1889 liquidation. Independent institutional source; says little about his personal conduct and nothing about the 1887 lock decision.",
+      "url": "https://www.lindahall.org/experience/digital-exhibitions/the-land-divided-the-world-united/06-the-french-plan/"
+    },
+    {
+      "id": "src_lesseps_rijks",
+      "kind": "institution",
+      "title": "Rijksmuseum, 'Portret van Ferdinand de Lesseps' (object RP-F-F80162): Woodburytype after a photograph by Nadar, 1872-1876, from the Galerie Contemporaine (1876); the museum page gives the copyright status as Public domain (Public Domain Mark 1.0). Used only for the portrait record; not used as support for any row.",
+      "url": "https://www.rijksmuseum.nl/en/collection/RP-F-F80162"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lesseps_napoleon, src_lesseps_graces, src_lesseps_ebsco, src_lesseps_eb1911 | 1854-1879 | institutional biography + engineering-heritage archive + encyclopedia entries] After the Ottoman court and Palmerston refused him in 1855, he lobbied British chambers of commerce (reportedly 32 meetings in 45 days) and in 1858 raised 100 million francs from about 20,000 mostly French investors without major bank support; Napoleon III's arbitration in 1864 then secured the company's position, and in 1879 he won a Paris congress over to a Panama canal while a senior engineer warned against it. Repeated, documented success at winning supporters and money, but the same skill carried the congress toward the sea-level design that failed, hence dual-edged, and the sources are largely sympathetic or retrospective with no independent account of his methods."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lesseps_napoleon, src_lesseps_eb1911, src_lesseps_graces | 1854-1869 | institutional biography + encyclopedia + archive] The Fondation Napoleon record shows the Suez project surviving refusals at Constantinople and from Palmerston, a work stoppage ordered by the new Viceroy in 1864 and a cholera epidemic, with further share issues keeping work going until the Sultan's firman in 1865 and the opening on 17 November 1869; the 1911 entry dates the first pickaxe blow at Port Said to 25 April 1859. About fifteen years of sustained effort on one project through repeated setbacks is documented, though the sources credit many others (engineers, the Viceroy, Napoleon III) and are largely sympathetic."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lesseps_napoleon, src_lesseps_graces | 1858-1865 | institutional biography + engineering-heritage archive] When the new Viceroy halted the forced labour promised under the first concession, the company appealed to Napoleon III as arbitrator (verdict of 6 July 1864), replaced forced labour with European workers and modern equipment, and funded the work with further share issues; he also lobbied in Britain when official approval was refused. These are documented workarounds to blocked resources, but the credit for the equipment and engineering side belongs largely to others, and the sources do not describe the decisions in detail."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lesseps_eb1911, src_lesseps_napoleon, src_lesseps_ebsco | 1854-1888 | encyclopedia entries + institutional biography] He staked the Suez venture on a canal built without locks despite British hostility, though he had no engineering training, and at 74 took on the Panama project, which the Fondation Napoleon says he himself called a new and high-risk venture. The pattern of repeatedly committing to very large uncertain undertakings is documented; the first succeeded and the second ended in bankruptcy, so the trait cuts both ways and no source describes how he weighed the risk."
+    },
+    "belief_updating": {
+      "score": 30,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_lesseps_ebsco, src_lesseps_eb1911, src_lesseps_lindahall | 1879-1886 | encyclopedia entries + library exhibition] At the 1879 congress a senior French engineer warned of disease and rejected the sea-level design as completely unrealistic, and the 1911 entry says he insisted on a canal without locks despite objections; the Linda Hall Library says that on his second visit in 1886, after four years of excavation, he still insisted it must be a sea-level canal. Several independent sources agree that he held to the plan against expert advice and early results; however, they do not record his reasoning, and the later move to a lock plan (credited to others in some accounts) is not established in the sources read, so confidence is moderate."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lesseps_napoleon, src_lesseps_eb1911, src_lesseps_graces | 1854-1888 | institutional biography + encyclopedia + archive] He founded and presided over the Universal Suez Maritime Canal Company from 1858, served as president of the Panama company from 1879, and presided over the French committee of the International African Society while promoting railway and Sahara-sea schemes. Repeatedly taking the top role in large organisations is documented, but the sources describe his promotional role and offices rather than how he led people, and credit the engineering to others. SELF-CALIBRATION (agent): lowered from 68 / 0.55 because the sources list his offices and promotional activity but none describes how he directed or treated those under him."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "페르디낭 드 레셉스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed: Rijksmuseum object RP-F-F80162 states Public domain (Public Domain Mark 1.0); Commons file 'Retrato de Ferdinand de Lesseps, por Felix Nadar.jpg' (original 3028 x 3608, sourced from the Rijksmuseum) is tagged public domain by age; photographer Nadar died 1910 and the Woodburytype was published in the Galerie Contemporaine in 1876, so it is pre-1931 (public domain in the United States by age) and long out of term in France. Downscaled to 1007 x 1200, no cropping, no upscaling.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q209169 returned en label 'Ferdinand de Lesseps', description 'French diplomat and entrepreneur, developer of the Suez Canal (1805-1894)', born 1805-11-19, died 1894-12-07, Korean label present. SLUG/QID CHECK: not in the production list (prod61.txt) and no existing candidate file. Region western_europe (France). Zero-politics passes: primary identity is the Suez Canal builder and company promoter; his diplomatic career (consul posts, the 1849 Rome mission) and a brief 1869 candidacy are not scored; Napoleon III's role is context only.\nCANONICAL SIGNIFICANCE SOURCE: Fondation Napoleon, 'Lesseps, Ferdinand de' https://www.napoleon.org/en/history-of-the-two-empires/biographies/lesseps-ferdinand-de (read in full).\nSOURCES READ (7 substantive): Fondation Napoleon biography, EBSCO Research Starters, 1911 Britannica entry (Wikisource), Grace's Guide (1895 obituary and notes), History.com, and two Linda Hall Library exhibition pages; Wikidata orientation only; Rijksmuseum page for the portrait only. PERSPECTIVES: imperial-history foundation, encyclopedia/scholarly overview, period reference work, British engineering-heritage archive, popular press, an independent science library. Non-self behavioural sources: the library exhibition and the foundation biography (he left no memoir that was used). COUNTER-VOICES: EBSCO (critical of the sea-level decision), the Linda Hall Library (the sea-level plan doomed the French effort), the engineer's rejection reported in both. NOT OPENED: Britannica online (403), the Cambridge Business History Review article on enthusiasm and diplomacy (scanned PDF unreadable), David McCullough and Cameron/Karabell books (reached only through EBSCO's summary and not used for any row), Academie francaise page (404), his own writings. EXCLUSIONS: the bribery allegations and 1893 conviction (sources disagree on whether a sentence was served or overturned; not scored), forced-labour mortality on the Suez works (not established in the sources read), family and private life, and the later Eiffel lock design.\nSELECTIVE SELF-CALIBRATION: reviewed persuasiveness (highest score; kept, because the 1858 subscription and the 1864 arbitration are documented outcomes in an institutional biography and corroborated by the archive), belief_updating (the strongest claim against him; kept, because three independent sources agree he insisted on a sea-level canal and the library dates it to 1886), and leadership_drive (lowered 68/0.55 to 64/0.50: sources list offices but not how he led). Initial rows 6; lowered 1.\nHANDBACK61: {\"slug\":\"ferdinand-de-lesseps\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"leadership_drive\",\"old_score\":68,\"old_confidence\":0.55,\"new_score\":64,\"new_confidence\":0.5,\"reason\":\"sources list his offices and promotional activity but none describes how he directed or treated those under him\"}],\"reviewed_kept\":[\"persuasiveness\",\"belief_updating\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ferdinand-de-lesseps-nadar-1876.jpg",
+    "width": 1007,
+    "height": 1200,
+    "source": "Wikimedia Commons file sourced from the Rijksmuseum: Woodburytype after a photograph by Nadar, 1872-1876, from the Galerie Contemporaine (1876); downscaled from 3028 x 3608 pixels to 1007 x 1200 with no cropping",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photo: Nadar (Felix Tournachon), 1872-1876, Rijksmuseum RP-F-F80162, public domain, resized from the original",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-F-F80162",
+    "creator": "Nadar",
+    "date": "1872-1876",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_Ferdinand_de_Lesseps,_por_Felix_Nadar.jpg"
+  }
+}

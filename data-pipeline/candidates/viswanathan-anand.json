@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "viswanathan-anand",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Viswanathan Anand",
+    "aliases": [
+      "Vishy Anand",
+      "Anand Viswanathan"
+    ],
+    "wikidataId": "Q45747",
+    "birthYear": 1969,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_anand_wikidata",
+      "kind": "wikidata",
+      "title": "Viswanathan Anand (Q45747), verified live via the Wikidata API (2026-10-31): label 'Viswanathan Anand', description 'Indian chess grandmaster', born 1969-12-11, no death date, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q45747"
+    },
+    {
+      "id": "src_anand_snl",
+      "kind": "biography",
+      "title": "Store norske leksikon (Norwegian national encyclopedia), 'Viswanathan Anand', read in full: an independent encyclopedia biography giving his 1988 grandmaster title, the 1995 world championship match lost to Kasparov, the 2000 FIDE title, the 2007 undisputed title, defences against Kramnik (2008), Topalov (2010) and Gelfand (2012), the 2013 loss to Carlsen in Chennai, the 2014 Candidates win and Sochi rematch loss, his rapid titles, the 'Tiger from Madras' nickname for his fast play and clock use, and a style that became more positional as champion. CANONICAL SIGNIFICANCE SOURCE: a national encyclopedia entry. Concise and favourable; the page itself is in Norwegian and was read in translation.",
+      "url": "https://snl.no/Viswanathan_Anand"
+    },
+    {
+      "id": "src_anand_cb_final",
+      "kind": "press",
+      "title": "ChessBase, 'Chennai Final: Magnus Victorious' (November 2013), read in full: the chess-news site's report that Carlsen beat Anand 6.5-3.5 and that Anand was outclassed, a game-10 blunder by each player, Anand's own post-match remarks (disappointed with his level of play, game 5 decisive, will play the next Candidates) and the report's credit to him for keeping India at the top of world chess for about 25 years. Specialist press; the writers are chess professionals and fans, and Anand's quotes are his own statements.",
+      "url": "https://en.chessbase.com/newsroom/post/chennai-final-magnus-victorious"
+    },
+    {
+      "id": "src_anand_cb_game3",
+      "kind": "press",
+      "title": "ChessBase, 'Chennai 03: How bad was it?' (November 2013), read in full: grandmaster commentary on the third game of the 2013 match, saying he was well prepared and outplayed Carlsen for long stretches (answering with an unexpected novelty) but 'missed his chance' and then threw away the advantage at move 37; includes the reporters' balanced view that the game showed a real contest. Contemporaneous match commentary; several named writers.",
+      "url": "https://en.chessbase.com/newsroom/post/chennai-03-how-bad-was-it"
+    },
+    {
+      "id": "src_anand_cb_part2",
+      "kind": "press",
+      "title": "ChessBase, 'Reliving the World Championship 2013, part two' (Sagar Shah), read in full: a retrospective in which the author says Anand missed a draw in game five, kept playing 1.e4 without getting an advantage and switched to 1.d4 only in game nine, and concludes that sticking with 1.e4 too long contributed to his defeat; all evaluations are the single author's, and no preparation detail is given. A critical, single-author retrospective.",
+      "url": "https://en.chessbase.com/newsroom/post/reliving-the-world-championship-2013-part-two"
+    },
+    {
+      "id": "src_anand_kavalek",
+      "kind": "press",
+      "title": "Lubomir Kavalek, 'Anand proved them wrong' (ChessBase, 1 April 2014), read in full: a grandmaster's column reporting that after the 2013 loss critics called his play too timid and said he was too old for the Candidates, then that Anand, then 44, won the tournament undefeated with a round to spare, 'showed a steady hand', played practically and avoided unnecessary risk while still able to play sharply; includes a game annotation and a closing question whether too much is demanded of top players. Admiring in tone, but written by an independent grandmaster and including the critics' view.",
+      "url": "https://en.chessbase.com/newsroom/post/kavalek-anand-proved-them-wrong?page=0"
+    },
+    {
+      "id": "src_anand_fide2014",
+      "kind": "award_body",
+      "title": "FIDE (World Chess Federation), 'Viswanathan Anand is the winner of Candidates Tournament' (April 2014), read in full: the federation's report that he won the Khanty-Mansiysk Candidates with 8.5 of 14 points, clinched first place a round early after a draw with Karjakin, and earned a title match with Carlsen; it records that he received an award at the closing ceremony and played an exhibition game with a 12-year-old. Federation news release, factual and favourable.",
+      "url": "https://old.fide.com/component/content/article/1-fide-news/7819-viswanathan-anand-is-the-winner-of-candidates-tournament.html"
+    },
+    {
+      "id": "src_anand_waca",
+      "kind": "press",
+      "title": "ChessBase, 'How Vishy Anand is supporting young super talents of India through WACA', read in full: a feature on the WestBridge Anand Chess Academy launched in December 2020 in partnership with an investment firm, saying he is its chief mentor, set targets and quarterly written reports for each young player, advised the youngest player Gukesh after a loss at the 2022 Olympiad, helped prepare Praggnanandhaa for a 2022 tournament, and brought in outside trainers. Much of the account is in Anand's own words and the academy's own framing, so it is partly self-affiliated.",
+      "url": "https://en.chessbase.com/post/how-vishy-anand-is-supporting-young-super-talents-of-india-through-waca"
+    },
+    {
+      "id": "src_anand_theweek",
+      "kind": "press",
+      "title": "The Week (India), 'World championship chapter is over for me' (interview with Viswanathan Anand, July 2022), read in full: a first-person magazine interview in which he says he is closing the door on the world championship, that he works from a home study and blocks out days for chess, that his mentoring classes sit alongside the players' own trainers, and that he accepted an invitation to join the FIDE president's team. Self-report; used only for context and never as sole support for any row; the personal remarks in it were not used.",
+      "url": "https://www.theweek.in/magazine/theweek/sports/2022/07/23/world-championship-chapter-is-over-for-me-viswanathan-anand.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_anand_snl, src_anand_kavalek, src_anand_fide2014, src_anand_cb_final | 2013-2014 | encyclopedia + grandmaster column + federation release + chess press] After losing the world title to Carlsen in Chennai in November 2013, critics said he was too timid and too old for the next cycle; he entered the 2014 Candidates, won it undefeated with a round to spare at 44, and went on to a much closer rematch with Carlsen in Sochi (lost 4.5-6.5). A documented, independently reported return to the top after a heavy public defeat, but one episode among a long career, and the sources say nothing about his methods during the period."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_anand_snl, src_anand_cb_game3, src_anand_cb_final, src_anand_kavalek | 1988-2014 | encyclopedia + chess press] The encyclopedia records a leading international career from 1990, world titles in several formats, and a style that matured from attacking play towards a calmer, more positional approach as champion; ChessBase commentary says he arrived well prepared at the 2013 match, and ChessBase credits him with keeping India at the top of world chess for about 25 years. The long record shows sustained top-level craft, but the sources document results and one match's preparation rather than his study habits. SELF-CALIBRATION (agent): lowered from 72 / 0.60 because the sources document results and a single match's preparation, not how he trains or studies, so the claim about orientation is stronger than the behaviour shown."
+    },
+    "adaptability": {
+      "score": 55,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_anand_snl, src_anand_cb_part2, src_anand_kavalek | 2007-2014 | encyclopedia + chess press retrospective + grandmaster column] The encyclopedia says his style became more positional and calmer as champion while attacking play remained a strength; Kavalek says that in the 2014 Candidates he played practically and avoided unnecessary risk, and suggests he could now calibrate his play against Carlsen better than in Chennai. Against this, a retrospective by Sagar Shah says that in the 2013 match he kept to 1.e4 without getting an advantage and switched to 1.d4 only in game nine, which the author blames for part of the defeat. The evidence points both ways and rests on commentators' judgments of one match plus an encyclopedia summary, so it is dual-edged with moderate confidence."
+    },
+    "execution_speed": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_anand_snl | career | encyclopedia] The encyclopedia says his nickname, 'Tiger from Madras', came mainly from his fast play, that he usually spends less time on the clock than his opponents and that he can calculate long variations quickly; it also lists rapid-chess world titles. A well-established characteristic, but the documentation rests on one encyclopedia entry, so confidence is limited, and it describes speed of play rather than speed of any other kind of work."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_anand_waca, src_anand_theweek | 2020-2022 | chess press feature + magazine interview] ChessBase reports that he helped set up the WestBridge Anand Chess Academy in December 2020 with an investment firm, acts as its chief mentor, sets targets and writes quarterly reports on each young player, advised Gukesh after a loss at the 2022 Olympiad and helped prepare Praggnanandhaa for a 2022 tournament; the 2022 interview says the classes sit alongside the players' own trainers. A documented, specific pattern of effort aimed at developing others, but the accounts are based largely on his own words and the academy's own framing, and no independent assessment of the results was found."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "비스와나탄 아난드"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed: Flickr page https://www.flickr.com/photos/144873154@N02/31063008003/ (opened live) shows owner Wolfgang Jekel, 'London_Chess_Classic_2016_Day5-2', CC BY 2.0, no other rights statement; Commons file 'Viswanathan Anand (2016).jpeg' names the same author, CC BY 2.0, reviewed by FlickreviewR 2 on 26 November 2018, original 4256 x 2832. Taken at the London Chess Classic 2016 (Flickr upload 25 December 2016; the exact day taken is not stated). No conflicting account-level or institutional notice found. Downscaled to 1200 x 798, no cropping, no upscaling.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q45747 returned en label 'Viswanathan Anand', description 'Indian chess grandmaster', born 1969-12-11, no death date, Korean label present. SLUG/QID CHECK: not in the production list (prod61.txt) and no existing candidate file. Region south_asia (India). Zero-politics passes: chess player; his 2022 election as FIDE deputy president is sports administration and is not scored (it reached me only through search summaries). LIVING SUBJECT: only public professional behaviour is scored; family and private life, health, and the personal remarks in the 2022 interview were not used.\nCANONICAL SIGNIFICANCE SOURCE: Store norske leksikon, 'Viswanathan Anand' https://snl.no/Viswanathan_Anand (read in full, in translation).\nSOURCES READ (8 substantive): Store norske leksikon, ChessBase 'Chennai Final', ChessBase 'Chennai 03', ChessBase 'Reliving 2013 part two', Kavalek column, FIDE 2014 Candidates report, ChessBase WACA feature, The Week 2022 interview; Wikidata orientation only. PERSPECTIVES: national encyclopedia, specialist chess press with several named writers (including a grandmaster columnist and a critical retrospective), the world federation, and the subject's own interview. Non-self behavioural sources: Kavalek, the ChessBase match reports and the FIDE release. COUNTER-VOICES: the critics reported by Kavalek (too timid, too old), the Chennai match reports (outclassed) and Sagar Shah's retrospective on sticking with 1.e4. Several ChessBase pieces share one outlet, so they count as one perspective for independence. NOT OPENED: Britannica (403), Kids Britannica (403), Deccan Herald (403), Nigel Short's match summary (405), World Chess Hall of Fame page (404), Wikipedia, Anand's own books. EXCLUSIONS: health, family, nicknames beyond what the encyclopedia states, FIDE politics, and honours not read in a source (e.g. state awards). Five rows only; no row above 72.\nSELECTIVE SELF-CALIBRATION: reviewed mastery_orientation (lowered 72/0.60 to 66/0.52: results rather than study habits are documented), persistence (kept: the 2014 recovery is reported independently by a grandmaster column and the federation) and impact_motivation (kept at 62/0.52 as already conservative given self-affiliated sources). Initial rows 5; lowered 1.\nHANDBACK61: {\"slug\":\"viswanathan-anand\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"mastery_orientation\",\"old_score\":72,\"old_confidence\":0.6,\"new_score\":66,\"new_confidence\":0.52,\"reason\":\"sources document results and one match's preparation, not how he trains or studies, so the orientation claim is stronger than the behaviour shown\"}],\"reviewed_kept\":[\"persistence\",\"impact_motivation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/viswanathan-anand-jekel-2016.jpg",
+    "width": 1200,
+    "height": 798,
+    "source": "Wikimedia Commons file from Wolfgang Jekel's Flickr photo of the London Chess Classic 2016, checked against the live Flickr page; downscaled from 4256 x 2832 pixels to 1200 x 798 with no cropping",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "attribution": "Photo: Wolfgang Jekel, London Chess Classic 2016, CC BY 2.0, resized from the original",
+    "attributionUrl": "https://www.flickr.com/photos/144873154@N02/31063008003/",
+    "creator": "Wolfgang Jekel",
+    "date": "2016-12",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Viswanathan_Anand_(2016).jpeg"
+  }
+}

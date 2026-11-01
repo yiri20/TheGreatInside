@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "su-shi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Su Shi",
+    "aliases": [
+      "Su Dongpo",
+      "Su Tungpo",
+      "Su Shih",
+      "Dongpo Jushi",
+      "Su Zizhan"
+    ],
+    "wikidataId": "Q36020",
+    "birthYear": 1037,
+    "deathYear": 1101,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer",
+      "painter"
+    ],
+    "fieldIds": [
+      "literature",
+      "art"
+    ],
+    "impactDomains": [
+      "literary",
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "polymath",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sushi_wikidata",
+      "kind": "wikidata",
+      "title": "Su Shi (Q36020), verified live via the Wikidata API (2026-10-31): label 'Su Shi', description 'Chinese writer and politician (1037-1101)', born 1037-01-08, died 1101-08-24, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q36020"
+    },
+    {
+      "id": "src_sushi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Su Shi', fetched for orientation (dates, offices, the Four Masters of Song calligraphy, the poem-trial context). Orientation only; never counted as support for any row.",
+      "url": "https://en.wikipedia.org/wiki/Su_Shi"
+    },
+    {
+      "id": "src_sushi_songshi",
+      "kind": "archive",
+      "title": "Song Shi (the official history of the Song dynasty, compiled 1345), chapter 338, biography of Su Shi, read via the Chinese Wikisource text: the standard dynastic account of his offices (judge at Fengxiang, Hanlin academician, prefect of Hangzhou, Mizhou, Xuzhou and Huzhou), his 1079 arrest on charges drawn from his poems, exile to Huangzhou where he farmed the plot he called Dongpo, later exile to Hainan, and Hangzhou famine relief, the dredging of West Lake and the causeway. It also records his own remarks on writing and the compilers' closing judgment. CANONICAL SIGNIFICANCE SOURCE (with the Palace Museum curators' article). Compiled about 240 years after his death from earlier records, so the praise is retrospective, but it is the standard official biography. Read in an English summary produced by the fetch tool; the Chinese quotations were checked against the returned text.",
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2/%E5%8D%B7338"
+    },
+    {
+      "id": "src_sushi_palacemuseum",
+      "kind": "press",
+      "title": "Wang Kaihao, 'A mind of the times', China Daily (22 September 2020), read in full: report on the Palace Museum, Beijing, exhibition on Su Shi's paintings and calligraphy that quotes curator Yu Wentao and deputy director Ren Wanping. It calls him one of the eight great prose masters of the Tang and Song, a leading Song calligrapher and a pioneer of poetry genres, with the Former Ode on the Red Cliffs as the peak of his writing, and says he broke with rigid copying of models. CANONICAL SIGNIFICANCE SOURCE (museum curators' view). Newspaper report of an exhibition: admiring and partly promotional.",
+      "url": "https://epaper.chinadaily.com.cn/a/202009/22/WS5f694776a31099a23435084d.html"
+    },
+    {
+      "id": "src_sushi_sbma",
+      "kind": "institution",
+      "title": "Santa Barbara Museum of Art, 'Bamboo, Rocks, and Old Trees: Chinese Calligraphy and Literati Painting' (exhibition page, 2019), read in full: describes Su Shi as a statesman, scholar, poet, writer, calligrapher and painter and as the fountainhead of the literati painting tradition, and calls 'Old Tree, Rock, and Bamboo' widely regarded as his only surviving painting. Museum framing with no independent sourcing on the page.",
+      "url": "https://www.sbma.net/exhibitions/bamboorocks"
+    },
+    {
+      "id": "src_sushi_sothebys",
+      "kind": "press",
+      "title": "Chiu-Ti Jansen, 'Su Dongpo's Friendship on the West Lake', Sotheby's (3 September 2013), read in full: sale-preview essay on a Su letter to Guo Xiangzheng written in Hangzhou around 1071-1072; says he asked for a Hangzhou post in 1071 to avoid the reformers' pressure, oversaw dredging of West Lake with the 1089 mud used for the causeway, was known for speaking his mind and suffered exile and sometimes imprisonment even when his own side held power. Auction-house marketing text: favourable and commercial, but independent of the museums.",
+      "url": "https://www.sothebys.com/en/articles/su-dongpos-friendship-on-the-west-lake"
+    },
+    {
+      "id": "src_sushi_comuseum",
+      "kind": "institution",
+      "title": "China Online Museum, 'Su Shi' (calligraphy masters section; unsigned), read in full: biography with the jinshi degree of 1057, posts from 1060, the Hangzhou causeway, the 1078 memorial from Xuzhou, the two exiles, and the calligraphy 'Cold Food Observance' and the Red Cliff odes written at Huangzhou; says his poems targeted Wang Anshi's reforms rather than the emperor and that after his death his work was collected and shrines built. Unsigned popular site that largely repeats standard accounts; used only for the outline and dates.",
+      "url": "https://www.comuseum.com/calligraphy/masters/su-shi/"
+    },
+    {
+      "id": "src_sushi_globaltimes",
+      "kind": "press",
+      "title": "Chen Xi, 'Beijing's Palace Museum explores life of the great Northern Song poet Su Shi', Global Times (2 September 2020), read in full: exhibition report with the reporter's summary of his calligraphy rank, his poems in Chinese school textbooks and the bamboo-hat-and-clogs episode in Hainan that an exhibited painting depicts. State-affiliated newspaper report; popular and admiring, used only to corroborate the Hainan episode and his reception.",
+      "url": "https://www.globaltimes.cn/content/1199686.shtml"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sushi_palacemuseum, src_sushi_sbma, src_sushi_songshi | c.1060-1101 | museum curators, museum exhibition text, dynastic history] Palace Museum curator Yu Wentao says he learned from predecessors while developing his own style and, by encouraging people to express their personalities in writing, broke with the habit of copying established models; the Santa Barbara Museum of Art calls him the fountainhead of the literati painting tradition; the Song Shi quotes his own remark that he writes like flowing clouds and water with no fixed form, and records the compilers' praise of his arguments and literary brilliance. All of this is retrospective praise by museums and a later official history, or his own statement, and none shows a specific innovation being made; the evidence supports an original and self-directed approach to writing and calligraphy, not a measured degree of novelty. SELF-CALIBRATION (agent): lowered from 68 / 0.48 because the originality claims rest on retrospective curators' and museum framing and one self-description, with no independent source documenting a concrete innovation."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sushi_sbma, src_sushi_palacemuseum, src_sushi_songshi, src_sushi_sothebys | 1057-1101 | museum text, curators' report, dynastic history, auction essay] The Santa Barbara museum lists him as statesman, scholar, poet, writer, calligrapher and painter; the China Daily report adds contributions to fine-art theory, horticulture, pharmacology and gastronomy (the dish attributed to him is, it says, only widely believed to be his, and is not used here); the Song Shi shows him working as a judge, drafter of imperial edicts, flood defender at Xuzhou and builder of water works at Hangzhou as well as a writer; Sotheby's describes the West Lake dredging beside his calligraphy. Several independent sources describe the same combination of literary, artistic and practical work, but they are mostly admiring and the claims about pharmacology and horticulture are single-line mentions."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sushi_songshi, src_sushi_sothebys | 1089-1091 | dynastic history, auction essay] The Song Shi says that when drought, famine and epidemic struck Hangzhou on his return as prefect, he petitioned to cut the local rice tax, obtained leave to sell monks' ordination certificates to raise grain for relief, set up hospitals staffed by doctors, dredged the silted West Lake, built a causeway from it, repaired the city's wells and built sluice gates; Sotheby's independently dates the dredging and the causeway to 1089. These were duties of an official acting through the state, so the row is about finding means within his office; the biography is a later compilation and the scale of the works is not independently measured."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sushi_songshi, src_sushi_comuseum, src_sushi_globaltimes, src_sushi_palacemuseum | 1080-1100 | dynastic history, calligraphy site, newspaper reports] After the 1079 poem prosecution the Song Shi says he was sent to Huangzhou as a deputy commander, farmed a plot he named Dongpo and took the name Dongpo Jushi; the China Online Museum says that exile was without a stipend and that the Red Cliff odes and 'Cold Food Observance' were written there; on Hainan the Song Shi says he built a house with local help and wrote, and the Global Times and China Daily report an exhibited painting of him borrowing a farmer's hat and clogs in the rain, a curator calling him calm and optimistic. The documented behaviour is continuing to write and building a new way of life in successive postings and exiles, but the demeanour comes from a curator's later reading and one painted episode, so confidence is low."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "소식"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/su-shi-unidentified-before-1460.jpg",
+    "width": 1030,
+    "height": 1160,
+    "source": "The Metropolitan Museum of Art, 'Su Shi (Dongpo) in a Bamboo Hat and Clogs', hanging scroll, ink on paper, Japan, Muromachi period, made before 1460 (accession 1975.268.39), with inscriptions by several Zen monks including Zuigan Ryusei (1384-1460); the painter is not identified. A Japanese ink painting of the poet in the hat and clogs of a well-known episode, made about 350 years after his death, so it is a later depiction and not a likeness. The Met's collection record marks the work as public domain (open access). The file is a plain crop of the figure and rock from the original 1709 x 4000 pixel museum image, taken from the full image with the inscriptions and gold mounting cut away, at its original resolution and not enlarged.",
+    "license": "Public domain (Metropolitan Museum of Art Open Access, CC0)",
+    "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+    "attribution": "Unidentified Japanese painter, inscribed by Zuigan Ryusei and others, Su Shi (Dongpo) in a Bamboo Hat and Clogs, before 1460, The Metropolitan Museum of Art, Harry G. C. Packard Collection of Asian Art, 1975 (1975.268.39), public domain",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/39659",
+    "creator": "Unidentified Japanese painter (inscribed by Zuigan Ryusei and others)",
+    "date": "before 1460",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/39659"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / CONFIRMED RISKY and REPLACED. The lead file 'Su shi.jpg' (750 x 1766) is a crop of a Zhao Mengfu frontispiece in the National Palace Museum, Taipei, whose Commons page says 'Not stated by uploader' for source and carries only a generic PD-Art tag; I could not reach the museum's own item record or terms, and the attribution of the portrait to Zhao Mengfu was not checked against a museum statement, so I did not use it. REPLACEMENT: the Metropolitan Museum of Art object 'Su Shi (Dongpo) in a Bamboo Hat and Clogs' (accession 1975.268.39), a Japanese hanging scroll in ink on paper made before 1460, painter unidentified, with inscriptions by Zen monks including Zuigan Ryusei (1384-1460). The Met's open-access API record (objectID 39659) reads isPublicDomain true with a downloadable original image (DP140607.jpg, 1709 x 4000) and no reproduction restriction; the Met object web page itself returned HTTP 429 when I tried it, so the public-domain statement rests on the API record and the Met's open-access policy (CC0 for public-domain works). A 2D painting made before 1460 by an unknown hand cannot be under copyright in any jurisdiction, and a faithful reproduction of a flat work adds no new right; no separate photographer credit is claimed by the Met for open-access images. The file public/portraits/su-shi-unidentified-before-1460.jpg is a plain crop (1030 x 1160) of the figure and rock from the original, cutting off the gold mounting and inscriptions, with no resampling or enlargement. kind historical_depiction (a later Japanese picture of the poet in an episode, not a likeness). It shows him from the side in a hat, so it is a poor recognisability portrait but the rights are clear.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) Q36020 label 'Su Shi', description 'Chinese writer and politician (1037-1101)', born 1037-01-08, died 1101-08-24, Korean label '소식'. SLUG/QID CHECK: not in prod61.txt and no candidate file existed. Region east_asia (Song China), era medieval, following Du Fu; no historicalPolityKey (there is no Song dynasty key in the repository). Dates 1037-1101 agree across Wikidata, Wikipedia and the Song Shi (which gives his age at death as 66 by Chinese count). ZERO POLITICS: primary identity is the writer, calligrapher and painter; his offices, the Wang Anshi reform quarrel, factional exile and the Crow Terrace poem trial are context and are not scored as political leadership, activism or opposition; the one administrative row (resourcefulness) is about practical famine-relief and water-works methods. Pre-modern rules: sparse rows (4), confidence at most 0.5, no legend scored (the pork dish attributed to him is explicitly not used; Wikipedia says the legend has no supporting evidence), his own poems are not treated as self-report evidence of traits.\nKO NAME: 소식 (Wikidata Korean label).\nCANONICAL SIGNIFICANCE SOURCE: Song Shi chapter 338 biography of Su Shi (Chinese Wikisource text, https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2/%E5%8D%B7338) and the Palace Museum curators' interview report 'A mind of the times' (China Daily, 22 September 2020). Britannica ('Su Shi') and Poetry Foundation and World History Encyclopedia pages returned HTTP 403 to the fetch tool and were not opened; an Internet Archive copy of Britannica was blocked by the permission system and not pursued.\nSOURCES READ (6 substantive): Song Shi biography, China Daily Palace Museum report, Santa Barbara Museum of Art exhibition page, Sotheby's essay, China Online Museum page, Global Times report; Wikipedia and Wikidata orientation only. Also read but not used: a blog essay 'Su Shi: The Poetry of Exile' (Creature and Creator, 2026) and an unsigned student-project page on the HKU learning site. PERSPECTIVES: dynastic official history (compiled 1345), museum curators, museum exhibition text, auction house, popular calligraphy site, state newspaper. NON-SELF BEHAVIOURAL SOURCE: the Song Shi (administrative acts, exile) with Sotheby's on the West Lake works. COUNTER-VOICES AND LIMITS: the Song Shi records the censors' prosecution of him and the compilers' note that he was never fully given high office; Sotheby's notes he was jailed or exiled even when his own side held power; Wikipedia says his father hoped he would learn restraint and the Song Shi's closing judgment treats his unchanged conduct as part of who he was. No source assesses his work critically; all later praise is retrospective. NOT OPENED: Britannica, Poetry Foundation, World History Encyclopedia (403), Nature HGIS paper (login redirect), Ronald Egan and Michael Fuller scholarship (known only by name), his own poems and essays, Lin Yutang's biography. The Song Shi was read through the fetch tool's English summary of the Chinese text; the quoted Chinese lines were returned verbatim.\nSELECTIVE SELF-CALIBRATION: reviewed creative_originality (highest risk: retrospective museum praise plus one self-description; lowered from 68 / 0.48 to 64 / 0.42) and cross_domain_range (several independent descriptions of the same combination; kept). Adaptability and resourcefulness not flagged. Initial rows 4; lowered 1.\nHANDBACK61: {\"slug\":\"su-shi\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":4,\"self_calibrated_rows\":[{\"attribute\":\"creative_originality\",\"old_score\":68,\"old_confidence\":0.48,\"new_score\":64,\"new_confidence\":0.42,\"reason\":\"originality claims rest on retrospective curator and museum framing and one self-description, with no independent source documenting a concrete innovation\"}],\"reviewed_kept\":[\"cross_domain_range\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":4}"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wang-yangming",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Wang Yangming",
+    "aliases": [
+      "Wang Shouren",
+      "Wang Yang-ming",
+      "Wang Shou-jen",
+      "Wang Wencheng"
+    ],
+    "wikidataId": "Q378462",
+    "birthYear": 1472,
+    "deathYear": 1529,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "teacher",
+      "scholar"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "mentor",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wangy_wikidata",
+      "kind": "wikidata",
+      "title": "Wang Yangming (Q378462), verified live via the Wikidata API (2026-10-31): label 'Wang Yangming', English description 'Chinese philosopher and general (1472-1529)', Korean label '왕양명', born 1472-10-31, died 1529-01-09, citizen of Ming-era China. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q378462"
+    },
+    {
+      "id": "src_wangy_sep",
+      "kind": "institution",
+      "title": "Bryan Van Norden, 'Wang Yangming', Stanford Encyclopedia of Philosophy (first published 2014, substantive revision 17 September 2024), read in full via a page summary: his training in Zhu Xi's commentaries, the bamboo episode, the 1508 awakening in Guizhou, the disciples' compilation of the Record for Practice, the doctrines of the unity of knowing and acting, his rejection of Zhu Xi's reading of 'investigating things', his influence in Japan and in the School of Mind, and the criticisms of the Qing evidential-research scholars (Dai Zhen) and of modern philosophers. CANONICAL SIGNIFICANCE SOURCE (Britannica returned HTTP 403; the Internet Encyclopedia of Philosophy page returned 404). A scholarly reference entry by a named philosopher; it also records the critics.",
+      "url": "https://plato.stanford.edu/entries/wang-yangming/"
+    },
+    {
+      "id": "src_wangy_henke",
+      "kind": "biography",
+      "title": "Frederick Goodrich Henke (translator), 'The Philosophy of Wang Yang-ming' (Open Court Publishing Company, Chicago and London, 1916; Internet Archive full text), read in part: the translated chronological 'Biography of Wang Yang-ming' compiled by his Chinese followers (the Longchang episode, the teaching episodes, the disciples' gatherings, the objections raised to his teaching), the Record for Practice passage in which he says he did not discuss innate knowing until after Longchang, and his 'Instructions for His Disciples at Lungch'ang'. A disciples' record and his own writings: self-report and admiring; it contains legendary episodes that are not scored.",
+      "url": "https://archive.org/details/philosophyofwang00wangiala"
+    },
+    {
+      "id": "src_wangy_lu1999",
+      "kind": "institution",
+      "title": "Miaw-fen Lu, 'The Construction and Development of the Yang-ming School' (in Chinese), Tsing Hua Journal of Chinese Studies 29(2), June 1999, pp. 167-203, abstract read on the journal's page (full text not opened): argues that the school was established in Wang's lifetime around him as a charismatic leader, that it met academic challenge and official persecution, that after his death the lecture assemblies of local gentry and students gave it diverse forms, and that its claim to autonomy from political power should not be overstated. An independent modern historian's account of the movement he founded.",
+      "url": "https://thjcs.site.nthu.edu.tw/p/16-1452-41418.php?Lang=en"
+    },
+    {
+      "id": "src_wangy_linzhan",
+      "kind": "institution",
+      "title": "Lin Zhan, 'Luo Qinshun (1465-1547) and His Fellow Scholars' Criticism of Wang Yangming's Learning and Its Contemporary Implications', PhD thesis, The Hong Kong Polytechnic University (cover dated 2020, abstract dated July 2019), abstract and front matter read (the truncated copy did not include the chapters): reconstructs the critics of his learning in the Zhengde and Jiajing reigns, says his book on Zhu Xi's late conclusions is marred by numerous mistaken datings of Zhu Xi's writings and was written to maintain his disciples' confidence rather than for careful scholarship, and argues that the critics' scattered efforts left little lasting effect. A modern scholarly counter-voice; abstract only, so row confidence is capped.",
+      "url": "https://theses.lib.polyu.edu.hk/bitstream/200/10487/1/991022385355403411.pdf"
+    },
+    {
+      "id": "src_wangy_guizhou",
+      "kind": "press",
+      "title": "Guizhou provincial government English-language news site, article on the 2023 book 'The Birth of Yangmingism' (updated 24 February 2023), read: says he was enlightened at Longchang in Xiuwen county in spring 1508 and in his second year in Guizhou lectured on the unity of inner knowledge and outer action at the Wenming Academy in Guiyang. A provincial government outlet promoting the region's Yangming heritage: promotional, used only to corroborate the Guizhou lecturing; no row rests on it alone.",
+      "url": "https://www.eguizhou.gov.cn/2023-02/24/c_861582.htm"
+    },
+    {
+      "id": "src_wangy_shanghaimuseum",
+      "kind": "institution",
+      "title": "Shanghai Museum, item page 'Ming, Cai Shixin, hanging-scroll portrait of Wang Yangming' (Chinese), read together with the museum's website copyright statement: item data (paper, colours, 106.2 x 33.7 cm, inscribed 'Portrait of Mr. Yangming', Ming dynasty) and the statement that website content is, unless otherwise noted, the museum's copyright, may not be used commercially without written permission and may not be modified. Used only for the portrait decision, not as support for any trait row.",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/article/id/CI00004944"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wangy_sep, src_wangy_henke, src_wangy_linzhan | 1499-1529 | philosophy reference entry + disciples' record + critics' thesis] Trained in the Zhu Xi curriculum that the examinations rested on, he came to reject Zhu Xi's reading of investigating things and became a leading critic of the orthodox view, founding with Lu Xiangshan the rival School of Mind (SEP); his critics in the Zhengde and Jiajing reigns organised against his teaching (Lin Zhan). The Qing scholar Dai Zhen is reported to have argued that his approach let subjective opinion pass as infallible moral sense, so the trait is recorded as dual-edged. Pre-modern, sparse record; his political and military career is not scored."
+    },
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wangy_sep, src_wangy_henke | 1489-1508 | philosophy reference entry + disciples' record] After the bamboo episode left him doubting Zhu Xi's method, he moved between Daoist, Buddhist and Confucian practice for years, and in 1508 concluded that moral truth lies in the mind and not in outside things (SEP); the disciples' record quotes him as saying he had been wrong to look for principles in things, and as dropping his Daoist exercises as 'not in accordance with the true way'. SELF-CALIBRATION (agent): lowered from 70 / 0.50 because the Daoist-exercise episode and the 'I was wrong' wording come only from the disciples' compiled biography, which also contains legendary episodes, and the independent reference entry corroborates only the general arc."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wangy_henke, src_wangy_sep | 1489-1529 | disciples' record + own instructions + reference entry] The aim of becoming a sage organised his study from the bamboo episode through the Daoist and Buddhist years, and his instructions to his students at Longchang urge them to fix their determination, study diligently, correct errors and accept rebuke (self-authored). The pursuit is documented, but how persistently and with what method rests largely on self-report and a disciples' record."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wangy_henke, src_wangy_lu1999, src_wangy_guizhou | 1509-1529 | disciples' record + modern historian + provincial government outlet] The disciples' record describes students gathering around him in the hundreds at Chuzhou and more than a hundred disciples at a gathering at home, and Lu argues the school was founded in his lifetime around him as a charismatic leader; a Guizhou outlet says he lectured at the Guiyang academy in his second year there. Lu also says his political and military success in Jiangxi was a turning point for the school, which confounds how much of the following was due to teaching alone, so the score is kept moderate."
+    },
+    "analytical_rigor": {
+      "score": 48,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wangy_linzhan, src_wangy_sep | 1514-1515 | critics' thesis abstract + reference entry] Lin Zhan's abstract says his book on Zhu Xi's late conclusions is marred by numerous mistaken datings of Zhu Xi's writings and was written to maintain his disciples' confidence rather than for careful scholarship; the reference entry also raises objections to some of his arguments. This reads one work from an abstract only, so it is a limited, low-confidence reading and says nothing about the rest of his philosophical writing."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "왕양명"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. (1) Wikidata's image is a crop of the Ming hanging-scroll portrait by Cai Shixin in the Shanghai Museum. The painting is public domain by age, but the digital image comes from the museum's website, whose copyright statement says website content is the museum's copyright, may not be used commercially without written permission and may not be modified; the museum offers no item-level open-access statement and our use would crop and downscale it. (2) A woodcut from the 1743 illustrated-biography book Wanxiaotang huazhuan by Shangguan Zhou (creator died long ago, so public domain by age) exists on Commons as 'Wang Shoujen.jpg', but the sitter is named only in the uploader's description and in a Wikipedia gallery table, no printed caption or scanned page of the book was found to confirm the sitter, and the Commons page cites a 1921 edition. (3) The 1916 frontispiece of Henke's translation is a photograph of a temple statue, a derivative work, so rejected; other Commons images have unknown authors or no source. Next step: either obtain written permission or an open-access item-level statement from the Shanghai Museum, or find a scan of the Wanxiaotang huazhuan page showing the printed caption 'Wang Shouren' and use that woodcut (historical depiction)."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / HELD. The lead's Commons file (Cai Shixin, Shanghai Museum, 1427 x 1872, PD-old) is public domain by age as a painting, but the museum's own site-wide copyright statement (read in full: content is the museum's copyright, no commercial use without written permission, no modification without permission) is a conflicting institutional notice and the Commons 'permission' field cites only a generic PD-art tag; the museum page gives no item-level reproduction statement. Retry (about 15 calls): Wanxiaotang huazhuan woodcut (Shangguan Zhou, first published 1743; Commons 'Wang Shoujen.jpg', 750 x 1765) has a sound age basis but the sitter is not confirmed by a printed caption in any source I could open; the 1916 Henke frontispiece is a photograph of a temple statue (rejected); '王守仁容像.jpg' (unknown author, hanfu forum source) and 'Wang-yang-ming.jpg' (no source) rejected. The strong/plausible lead failed because the rights problem is the museum's website terms, which the Commons PD-art tag does not address. PREFLIGHT: QID Q378462 VERIFIED LIVE (2026-10-31): label 'Wang Yangming', description 'Chinese philosopher and general (1472-1529)', born 1472-10-31, died 1529-01-09, Korean label present; no collision in prod61.txt (grepped slug, name and QID) and no existing candidate file. REGION east_asia, era early_modern. VOCABULARY (grepped EN and KO): occupations philosopher, teacher, scholar; fields philosophy, education; tags philosopher, mentor, nonconformist; archetype scholarly_specialist ('educator' has no label and is not used). KOREAN NAME: standard Wikidata Korean label 왕양명 recorded. ZERO POLITICS: primary identity judged philosopher and teacher (founder of the School of Mind); his civil-service career, his suppression of rebellions and his opposition to a eunuch are context and are NOT scored; rows cover only documented learning, teaching and philosophical practice. PRE-MODERN: sparse rows (5), all confidence <= 0.50, no legend scored; the disciples' biography is a self-adjacent record with legendary episodes, used only for named, checkable behaviours; his own instructions are self-report. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy entry by Bryan Van Norden (https://plato.stanford.edu/entries/wang-yangming/); Britannica 403 and IEP 404. READ (5 substantive plus the museum page): the SEP entry; Henke's 1916 translation (biography and instructions); Lu 1999 (abstract only); Lin Zhan's thesis (abstract only); the Guizhou government article. PERSPECTIVES: reference scholarship, disciples/self, modern historian of the school, a modern critic-focused thesis, and a promotional provincial source. Counter-voices: Dai Zhen's Qing critique via the SEP, and Lin Zhan's finding on the Zhu Xi book; the Cheng-Zhu critics' own works were not opened. NOT OPENED: Chan's translation (lending only), Tu Weiming and Ivanhoe (lending), Huang Zongxi's Ming-Confucian records, the full text of Lu and Lin, the Chuanxilu in Chinese. Exclusions: military and administrative career, the legend of the tiger, the eunuch conflict, family, death. CALIBRATION: no adversarial primary source, so every row <= 0.50. SELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS. SELF-CALIBRATION: reviewed belief_updating, independent_thinking and persuasiveness; lowered belief_updating from 70 / 0.50 to 66 / 0.46 (reason in the row); kept independent_thinking (corroborated by the SEP entry and by the critics' thesis) and persuasiveness (already scored low because military success confounds it). HANDBACK61: {\"slug\": \"wang-yangming\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"belief_updating\", \"old_score\": 70, \"old_confidence\": 0.5, \"new_score\": 66, \"new_confidence\": 0.46, \"reason\": \"The Daoist-exercise episode and the 'I was wrong' wording come only from the disciples' compiled biography, which also contains legendary episodes; the independent reference entry corroborates only the general arc.\"}], \"reviewed_kept\": [\"independent_thinking\", \"persuasiveness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

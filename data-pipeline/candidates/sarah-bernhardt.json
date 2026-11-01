@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sarah-bernhardt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sarah Bernhardt",
+    "aliases": [
+      "Sara Bernhardt",
+      "Henriette-Rosine Bernard",
+      "The Divine Sarah"
+    ],
+    "wikidataId": "Q4605",
+    "birthYear": 1844,
+    "deathYear": 1923,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "actor",
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bernhardt_wikidata",
+      "kind": "wikidata",
+      "title": "Sarah Bernhardt (Q4605), verified live via the Wikidata API (2026-10-31): English description 'French stage actress, painter and sculptor (1844-1923)', born 1844-09-25 with conflicting October values, died 1923-03-23 with a conflicting 26 March value, country France, Korean label present, image 'SarahBernhardt1880.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q4605"
+    },
+    {
+      "id": "src_bernhardt_britannica",
+      "kind": "biography",
+      "title": "Alois M. Nagler, 'Sarah Bernhardt', Encyclopaedia Britannica, read in full. CANONICAL SIGNIFICANCE SOURCE: 'the greatest French actress of the later 19th century and one of the best-known figures in the history of the stage'; Conservatoire in 1860, the Comedie-Francaise in 1862 (contract cancelled 1863 after a quarrel), the Odeon from 1866, Zaire (1874) and Phedre, where critics who doubted her revised their view, Doña Sol in Hugo's Hernani; her own travelling company formed in 1880, eight American visits and a 1891-93 world tour; manager of the Theatre de la Renaissance from 1893 and, from 1899, of the former Theatre des Nations, renamed the Theatre Sarah Bernhardt, until her death; Sardou's melodramas written for her; male roles including Hamlet (1899) and L'Aiglon (1900); the line that 'her career was also helped by her relentless self-promotion and her unconventional behaviour'; the warning that facts and fiction are hard to disentangle in her memoir. Reference entry by a theatre historian; the praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Sarah-Bernhardt"
+    },
+    {
+      "id": "src_bernhardt_ebsco",
+      "kind": "biography",
+      "title": "August W. Staub, 'Sarah Bernhardt', EBSCO Research Starters (2024), read in full: the Conservatoire prizes of 1861 and 1862, the Odeon and Comedie-Francaise years, sculpture exhibited at the Paris Salon in 1876 (honourable mention) and paintings in 1880, a large forfeit paid in 1880 to break her contract with the Comedie-Francaise, management of the Theatre Porte Saint-Martin from 1883 and of the Renaissance from 1893, a sound recording of Phedre made at Edison's home in the 1880s, eight feature films from 1900, three books and a stated total of 112 roles. Summary article; some biographical details differ from Britannica's, so only dated professional facts are used.",
+      "url": "https://www.ebsco.com/research-starters/history/sarah-bernhardt/"
+    },
+    {
+      "id": "src_bernhardt_glasgow",
+      "kind": "institution",
+      "title": "University of Glasgow, 'Sara Bernhardt', biography entry in the Whistler Paintings catalogue project, read in full: actress, theatrical manager, painter and sculptor; left the Comedie-Francaise after a quarrel and set up her own troupe in 1880, designing her own clothes and working closely with her stage designers; studied sculpture and exhibited at the Salon through the 1870s and 1880s and abroad in London (1879), New York (1880), Chicago (1893) and Paris (1900); principal patron of Alphonse Mucha and Rene Lalique in the 1890s; an anecdote from W. Graham Robertson that she arrived late to a Whistler sitting and missed appointments. University research entry written for Whistler scholarship; neutral in tone, with the anecdote recorded second-hand.",
+      "url": "https://www.whistlerpaintings.gla.ac.uk/catalogue/biog/?nid=BernS"
+    },
+    {
+      "id": "src_bernhardt_parisupdate",
+      "kind": "press",
+      "title": "Paris Update, review of the Petit Palais exhibition 'Sarah Bernhardt: Et la femme crea la star' (2023), read in full: presents her, from about 400 objects, as an accomplished sculptor and painter, a hard-driving theatre manager and impresario, and an entrepreneur who made, lost and remade fortunes; her image used to advertise biscuits, face powder and absinthe; Mucha's posters for her roles; melodrama and deathbed scenes that critics took 'with a pinch of salt'; caricatures by Andre Gill showing her as 'a difficult woman'. Exhibition review by a Paris arts journalist; part of its text covers family history, health and politics, which is not used. A second review of the same exhibition (Artlyst) was also read and repeats these points, so it is not counted as an independent source.",
+      "url": "https://www.parisupdate.com/?p=34039"
+    },
+    {
+      "id": "src_bernhardt_criticsatlarge",
+      "kind": "press",
+      "title": "Deirdre Kelly, review of Arthur Gold and Robert Fizdale's biography 'The Divine Sarah' (Critics at Large, 2018), read in full: quotes the critics Francisque Sarcey and Alphonse Daudet in praise, and George Bernard Shaw's complaint that she 'does not enter into the leading character; she substitutes herself for it', says that by the end of the century her style seemed excessive to the new school, that she refused to perform Ibsen and Chekhov, and that the biographers are too admiring. Independent critical voice from a reviewer of a biography; much of the review is sensational about her private life, which is not used, and the claims about her later refusals are the reviewer's, not documented here.",
+      "url": "https://www.criticsatlarge.ca/2018/02/my-god-what-woman-arthur-gold-and.html"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernhardt_britannica, src_bernhardt_ebsco, src_bernhardt_glasgow, src_bernhardt_parisupdate | 1870s-1920 | reference entry, summary article, university entry, exhibition review] Four independent sources agree that she combined acting with sculpture and painting (Salon exhibits in 1876 and 1880, a London show in 1879, New York in 1880), theatre management, design of her own costumes with her stage designers, and writing (a play, a novel and a treatise on acting). EBSCO adds early sound recordings and films. The sculpture and painting are described as of 'some accomplishment' and with an honourable mention, not as major work, which keeps the score below the top band."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernhardt_britannica, src_bernhardt_ebsco, src_bernhardt_parisupdate | 1880-1923 | reference entry, summary article, exhibition review] She formed her own travelling company in 1880 and led it on tours across Europe and the Americas, then ran the Theatre Porte Saint-Martin (from 1883), the Renaissance (from 1893) and the Theatre Sarah Bernhardt (from 1899 until her death); the exhibition review calls her a 'hard-driving theatre manager and impresario'. The roles are documented in sources that match on dates (EBSCO and Britannica differ on small details), but none describes how she led a company day to day, so the row reflects the positions she held and drove."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernhardt_britannica, src_bernhardt_ebsco | 1863-1918 | reference entry, summary article] Britannica says she was scarcely noticed in her first debuts, lost her Comedie-Francaise contract in 1863, then built her reputation at the Odeon from 1866 and in Phedre after critics doubted she could play violent passion, and later toured the world repeatedly (eight American visits, a world tour in 1891-93 and a final American tour of 1916-18). EBSCO's dates agree. The documents show returns after setbacks and decades of touring but not her own reasons, and health episodes in the sources are deliberately not used as evidence. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 68 / 0.55 to 64 / 0.50 because the evidence is career recovery read as persistence without any stated reasons, and the most vivid evidence (her late-life touring after surgery) is excluded on purpose."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernhardt_ebsco, src_bernhardt_glasgow, src_bernhardt_britannica | 1863-1880 | summary article, university entry, reference entry] Two sources date her 1880 departure from the Comedie-Francaise after a quarrel (EBSCO adds that she paid a large forfeit to break the contract), after which she formed and ran her own company; Britannica records the earlier contract cancellation in 1863. The decisions are documented in three places, but the sources give the dispute and not her reasons, so the row is a pattern of choosing independence over the national company rather than a stated need."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernhardt_britannica, src_bernhardt_glasgow, src_bernhardt_criticsatlarge | 1874-1900 | reference entry, university entry, reviewer] Britannica credits her with an expressive range and subtlety, male roles including Hamlet (1899) and L'Aiglon (1900) and one of the first women known to play Hamlet; Glasgow says she designed her own clothes and worked closely with stage designers. Against this, Shaw's quoted criticism says she always played herself, and the reviewer says her style came to look dated, so the originality is in role choice and stage presentation more than in a lasting new technique."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernhardt_britannica, src_bernhardt_ebsco, src_bernhardt_parisupdate, src_bernhardt_glasgow | 1880-1900 | reference entry, summary article, exhibition review, university entry] Britannica says she was helped by 'relentless self-promotion'; EBSCO dates her Edison recording of Phedre to the 1880s and her films from 1900; the exhibition review says her image advertised products and Glasgow that she was the principal patron of Mucha and Lalique in the 1890s. Several separate uses of new media, tours and publicity are documented, though the exhibition review is admiring and none of them records what she said about her aims."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bernhardt_britannica, src_bernhardt_ebsco, src_bernhardt_glasgow, src_bernhardt_parisupdate | 1863-1880 | reference entry, summary article, university entry, exhibition review] Britannica records that her 1863 contract was cancelled after she slapped a senior actress; EBSCO and Glasgow record a second parting from the Comedie-Francaise in 1880 after a quarrel; the exhibition review reports caricatures that suggest a reputation as 'a difficult woman'; Glasgow cites a second-hand recollection that she kept a painter waiting. The disputes are documented but few and described in passing, and the row is dual-edged because they cost her posts as well as freeing her to run her own company."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사라 베르나르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sarah-bernhardt-sarony-1880.jpg",
+    "width": 834,
+    "height": 1212,
+    "source": "Bust-length portrait photograph of Sarah Bernhardt by Napoleon Sarony, 1880, from the Library of Congress Prints and Photographs collection (call number cph 3a38656), via Wikimedia Commons. The print itself bears the line 'Copyright secured 1880 by N. Sarony'. Used at the original 834 x 1212 pixel size with no resizing and no upscaling.",
+    "license": "Public domain (photograph published in the United States in 1880; photographer died 1896)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Sarah_Bernhardt_by_Sarony_cph.3a38656.jpg",
+    "attribution": "Napoleon Sarony, Sarah Bernhardt, 1880, public domain, Library of Congress via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Sarah_Bernhardt_by_Sarony_cph.3a38656.jpg",
+    "creator": "Napoleon Sarony",
+    "date": "1880",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Sarah_Bernhardt_by_Sarony_cph.3a38656.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / lead file REPLACED, final basis confirmed with one caveat. The lead's 'SarahBernhardt1880.jpg' (354 x 450) is a copy from Britannica Online that credits the Library of Congress and Sarony with date 1880 and tag PD-old-100-expired, but it is tiny and its source is a secondary page. One bounded retry in the Commons category 'Sarah Bernhardt by Napoleon Sarony': the Library of Congress original 'Sarah Bernhardt by Sarony cph.3a38656.jpg' (834 x 1212 pixels per the API; creator Napoleon Sarony, date 1880, LoC id cph.3a38656, permission text 'No known restrictions on publication', tag PD-old-100-expired) is a larger copy; I downloaded it and viewed it: the margin of the print carries the printed line 'Copyright secured 1880 by N. Sarony', which confirms the photographer and the year on the object itself. The legal basis is age, not the LoC's 'no known restrictions' wording: a photograph published in the United States in 1880 is public domain there, and the photographer died in 1896, so it is public domain wherever the term is life plus 70 or less. The Library of Congress record page itself returned a Cloudflare block (403) and the Wayback Machine returned 429, so no institutional notice was read; no contrary statement was seen. Other options checked and rejected: a Nadar studio print 'about 1880' photographed at an auction house (print dated about 1900, source an auction catalogue), a 'Face detail' Nadar 1864 file with source 'unknown', and the Getty Museum's 1864 Nadar print (84.XM.436.494, printed later by Paul Nadar, institutional page not readable). Kind likeness (documented studio photograph of the sitter). The file is the Commons original saved unchanged as public/portraits/sarah-bernhardt-sarony-1880.jpg. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q4605, English description 'French stage actress, painter and sculptor (1844-1923)', born 1844-09-25 (other values 22/23 October present), died 1923-03-23 (26 March also present); not in prod61 and no candidate file existed. REGION western_europe (France; precedent Edith Piaf and Charlie Chaplin). ERA 19th_century (born 1844, principal career 1862-1900; she died in 1923). ZERO POLITICS: her support of Zola in the Dreyfus affair and her war-time hospital work are context only and no row scores them; the Legion of Honour is not a card. VOCABULARY: occupations actor and painter (sculptor is unlabeled), field art (no theatre field exists; 'theater' is unlabeled in en.ts and ko.ts), impactDomains artistic and cultural, tags sustained_excellence and nonconformist, archetype creative_creator, all grepped in en.ts and ko.ts. KO NAME: Wikidata Korean label 사라 베르나르. CANONICAL SIGNIFICANCE SOURCE: Alois M. Nagler, 'Sarah Bernhardt', Encyclopaedia Britannica (https://www.britannica.com/biography/Sarah-Bernhardt). READ IN FULL: Britannica, the EBSCO Research Starter, the University of Glasgow Whistler Paintings biography, the Paris Update exhibition review, the Critics at Large review of the Gold and Fizdale biography (a second exhibition review in Artlyst was also read and not counted as independent). PERSPECTIVES: theatre-historian reference entry, summary reference, university research entry, exhibition review, critic's review of a biography. COUNTER-VOICES: Shaw's quoted objection, the reviewer's view that her style dated and that her biographers are too admiring, the exhibition review's caricatures and 'pinch of salt' about her melodrama. NOT OPENED: the Library of Congress and Gallica pages, Gold and Fizdale's biography, Taranow's and Richardson's studies (known only as citations), Henry James's and Shaw's original reviews, her memoir and 'The Art of the Theatre' (self-report; Britannica itself says the memoir mixes fact and fiction). CONFLICTS: Britannica gives the Theatre Sarah Bernhardt as 1899 and Glasgow as 1900 (1899 used); the sources differ on her parentage and early years, so none of that is used; Britannica says she left the Conservatoire in 1862 and the Comedie-Francaise contract ended in 1863, EBSCO gives the same years. EXCLUDED: her parentage, family and love affairs, her son, her health including the leg amputation, the coffin and sleeping-in-a-coffin publicity stunt, her religion and the antisemitism she met, and any reading of her temperament from them; the Kelly review's sensational passages. SELF-GATE (first pass): all five checks PASS; card 1 states the defining contribution (the greatest French actress of the later nineteenth century, famous in Phedre and La Dame aux camelias and on world tours), card 2 the theatre company and her management of theatres (the institutional role is not omitted), card 3 the male roles and early recordings and films; her sculpture and painting appear in a row, not as a card, to avoid side-project dominance. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (68/0.55 lowered to 64/0.50), opportunity_sensing (kept: four independent sources), cross_domain_range (kept). HANDBACK61: {\"slug\": \"sarah-bernhardt\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 68, \"old_confidence\": 0.55, \"new_score\": 64, \"new_confidence\": 0.5, \"reason\": \"the evidence is career recovery read as persistence without any stated reasons, and the most vivid evidence (late-life touring after surgery) is excluded on purpose\"}], \"reviewed_kept\": [\"opportunity_sensing\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none (portrait lead replaced by the larger Library of Congress Sarony original whose print bears a copyright-1880 line)\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

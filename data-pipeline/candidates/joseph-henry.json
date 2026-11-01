@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "joseph-henry",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Joseph Henry",
+    "aliases": [
+      "Joseph Henry (physicist)",
+      "Professor Henry"
+    ],
+    "wikidataId": "Q157043",
+    "birthYear": 1797,
+    "deathYear": 1878,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "scientist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "physics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "educational"
+    ],
+    "tagIds": [
+      "administrator",
+      "leader"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_henry_wikidata",
+      "kind": "wikidata",
+      "title": "Joseph Henry (Q157043), verified live via the Wikidata API (2026-10-31): label 'Joseph Henry', description 'American scientist and the 1st Secretary of the Smithsonian (1797-1878)', born 1797-12-17, died 1878-05-13, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q157043"
+    },
+    {
+      "id": "src_henry_nas",
+      "kind": "institution",
+      "title": "Simon Newcomb, 'Biographical Memoir of Joseph Henry', read before the National Academy of Sciences on 21 April 1880 (about 110,000 characters, read in the PDF text for the sections on the electrical research, the Smithsonian administration, the Jewett contest, weather telegraphy and character). CANONICAL SIGNIFICANCE SOURCE: the National Academy's memoir of its late president; it names the 1831 electromagnet and induction work, the self-induction discovery, and the Smithsonian secretaryship as his central contributions, and notes that Faraday published first. A colleague's tribute, so admiring; it is the memoir that the Academy keeps, and it admits its debt to earlier notices.",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/henry-joseph.pdf"
+    },
+    {
+      "id": "src_henry_hochfelder",
+      "kind": "archive",
+      "title": "David Hochfelder, 'Joseph Henry: Inventor of the Telegraph?', Joseph Henry Papers Project, Smithsonian Institution Archives (essay, about 36,000 characters, read in full): an independent historian's account of Henry's 1831 paper and his coil experiments, his lecture-hall telegraph and relay, his advice and endorsements to Samuel Morse in 1839-1842, his unwilling testimony in the 1849-1852 patent suits, Morse's 1855 attack and Henry's appeal to the Smithsonian regents. It concludes that Henry did not invent the telegraph but that its invention would have been delayed without him. Written by a doctoral candidate for the papers project of the Smithsonian, which is a party with an interest in Henry's reputation, but it criticises Henry's slowness to reduce his work to practice and cites his students' notebooks.",
+      "url": "https://siarchives.si.edu/sites/default/files/pdfs/jhpp/JHP_Inventor_of_the_Telegraph.pdf"
+    },
+    {
+      "id": "src_henry_siacareer",
+      "kind": "institution",
+      "title": "Smithsonian Institution Archives catalogue record for 'Educator and Researcher, Administrator and Public Servant: Joseph Henry's Career as a Scientist' (Annotation newsletter, March 2004; the author edited volumes 6-11 of the Henry papers), read as the catalogue summary only (not the article text): Henry was described at his death as the most eminent scientist in the United States, announced a powerful electromagnet in 1831, discovered mutual induction and self-induction, became professor at Princeton in 1832 and Smithsonian secretary in 1846, advised the federal government, and his reputation declined after his death before being restored in the 1960s. CANONICAL SIGNIFICANCE SOURCE (with the National Academy memoir). Institutional summary; only the catalogue abstract was read.",
+      "url": "https://siarchives.si.edu/collections/siris_sic_11322"
+    },
+    {
+      "id": "src_henry_ethw",
+      "kind": "institution",
+      "title": "Engineering and Technology History Wiki (IEEE), 'Joseph Henry' (unsigned entry, last edited 1 February 2016), read in full via the fetch tool: self-education, professor at Albany Academy from 1826, electromagnet work, the 'henry' unit, Princeton from 1832, first Secretary of the Smithsonian from 1846, his refusal to patent, and the statement that he turned down more lucrative offers because he believed the Smithsonian was the best way to serve science. Short, uncited professional-society wiki entry.",
+      "url": "https://ethw.org/Joseph_Henry"
+    },
+    {
+      "id": "src_henry_popsci",
+      "kind": "press",
+      "title": "'Sketch of Professor Henry', Popular Science Monthly, volume 2 (April 1873), read in full in the Wikisource transcription (unsigned): a contemporary biographical sketch written during his lifetime on his upbringing, the Albany experiments, the Princeton years, the Smithsonian secretaryship and its 25 annual reports to 1871, and his work on the Light-House Board, the Civil War inventions commission and the National Academy. Popular and favourable, and does not mention Morse.",
+      "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_2/April_1873/Sketch_of_Professor_Henry"
+    },
+    {
+      "id": "src_henry_sialibrary",
+      "kind": "institution",
+      "title": "Smithsonian Institution Archives catalogue summaries of 'The Library of Congress and the Smithsonian Institution: A Legislated Relationship' and of the 1951 biography of Charles Coffin Jewett, read as catalogue summaries only: they describe Henry's wish for a small research library, the regents' push for a larger one, Jewett's plan for a national library, the clashes ending in Jewett's dismissal in 1854, the 1848 international exchange and publications programme, and the 1866 transfer of the Smithsonian library to the Library of Congress. Gives the librarian's side of the quarrel at summary level; the full texts were not read.",
+      "url": "https://siarchives.si.edu/collections/siris_sic_11603"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_henry_hochfelder, src_henry_nas | 1827-1831 | independent historian essay, academy memoir] Hochfelder describes the 1831 paper as a series of 23 experiments in which Henry first confirmed Barlow's finding that magnetic force fell with wire length, then repeated them with a 25-element battery, and then tested winding several short coils in parallel against one long coil in series to find the arrangement that gave the most force for each kind of battery, naming the results 'quantity' and 'intensity' magnets. The same essay notes he explained away an anomalous result by speculating about the battery chemistry, which Morse later attacked as incompetence. Newcomb's memoir says his papers are marked by acuteness in cross-examining nature and a clear sense of the logic of science, and credits him with first describing self-induction. The experimental method is documented by an independent account of the paper; the praise of his mind is a colleague's."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_henry_nas, src_henry_ethw, src_henry_hochfelder | 1839-1878 | academy memoir, professional-society entry, historian essay] Newcomb says he never engaged in an enterprise that was to put a dollar in his own pocket and sought no income beyond the modest Smithsonian salary; the IEEE history entry says he never tried to patent his discoveries and turned down more lucrative offers because he believed the Smithsonian was the best way to serve science; Hochfelder confirms that he gave Morse technical advice and public endorsements between 1839 and 1842 and never tried to commercialise his own telegraph, citing his deposition that scientists were disinclined to secure advantage by patent. The behaviours are documented, but the motive comes from an admiring colleague, an uncited wiki entry and his own sworn statement. SELF-CALIBRATION (agent): lowered from 70 / 0.55 because the claim about motive rests on an admiring colleague's memoir, an uncited entry and his own deposition, with no source independently weighing his motives."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_henry_siacareer, src_henry_nas, src_henry_popsci | 1846-1878 | archives summary, academy memoir, 1873 magazine sketch] The Smithsonian summary says he acted as science adviser to the executive and legislative branches while Secretary from 1846 and served as an officer of several professional and scientific organisations; the 1873 sketch records 25 annual reports as Secretary and his chairmanship of the Light-House Board's experiments committee, and Newcomb says he served the Light-House Board for 25 years as member and president and speaks of him as the Academy's late president. Long-held institutional posts are documented by three sources, but they are admiring, the first is only a summary, and they show the offices rather than the manner of leading."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_henry_hochfelder, src_henry_nas, src_henry_sialibrary | 1845-1855 | historian essay, academy memoir, archives summary] Hochfelder says Henry stuck to his account of the prior art under subpoena in 1849, kept the stance he had held since 1839 when Morse turned on him, and answered Morse's 1855 'Defence' by asking the regents to clear him, in a statement he calls measured and calm beside Morse's bitter one; Newcomb says the Secretary removed his assistant Jewett after Jewett pressed for a larger library appropriation and carried his opposition to the regents and Congress, and that the Secretary was upheld; the archives summaries say the clashes ended Jewett's national-library plans. He held his position in two public disputes, but each source is partisan or partial, and the cost was a long feud with Morse and the end of the library plan, so the effect is dual-edged."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_henry_nas, src_henry_sialibrary | 1847-1870 | academy memoir, archives summary] Newcomb says that in 1847 he drew the regents' attention to using telegraph lines to warn observers of storms, that weather maps built from telegraphed reports were kept at the Smithsonian from about 1850 until 1861, and that he later turned the work over to the Army Signal Service rather than keep it; the archives summary says he started the international exchange programme in 1848 and the Contributions to Knowledge series. Initiating new programmes is documented, but by one admiring memoir and one summary, and their results are not independently assessed."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지프 헨리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/joseph-henry-smillie-1873.jpg",
+    "width": 896,
+    "height": 1200,
+    "source": "Photograph of Joseph Henry (1797-1878) by Thomas William Smillie, the Smithsonian's staff photographer (1843-1917), a cabinet card taken in April 1873, Smithsonian Institution Archives, Record Unit 95, Box 27B, image SIA_000095_B27B_097. The archive's item record marks the image as public domain (Creative Commons Zero) and gives the copyright status as no copyright in the United States. The file is a plain crop of the oval photograph from the archive's 3850 x 5760 pixel scan, downscaled to 896 x 1200 pixels with the card border cut away and no enlargement.",
+    "license": "Public domain (Smithsonian Institution Archives, CC0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Thomas William Smillie, Portrait of Joseph Henry, April 1873, Smithsonian Institution Archives, Record Unit 95, Box 27B, image SIA_000095_B27B_097, public domain (CC0)",
+    "attributionUrl": "https://siarchives.si.edu/collections/siris_arc_403828",
+    "creator": "Thomas William Smillie",
+    "date": "1873",
+    "kind": "likeness",
+    "sourcePageUrl": "https://siarchives.si.edu/collections/siris_arc_403828"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / CONFIRMED STRONG but with a different, better-documented file. The lead file (Commons 'Joseph Henry (cropped)', credited to Henry Ulke, dated 1879, source a NOAA photo-library URL) has a date after Henry's death in 1878, so it is not a photograph taken of him in 1879 and its basis is unclear; I did not use it. I used the Smithsonian Institution Archives item record 'Portrait of Joseph Henry (1797-1878)' (Record Unit 95, Box 27B, image SIA_000095_B27B_097; https://siarchives.si.edu/collections/siris_arc_403828): photographer Thomas William Smillie (1843-1917, the Smithsonian's staff photographer, named on the card's verso), cabinet card of April 1873, with the archive's explicit statement 'This image is in the public domain (free of copyright restrictions)', CC0, 'No Copyright - United States', and no access restrictions; the IIIF manifest (ids.si.edu) repeats 'CC0' and lists the scan as 3850 x 5760. A photograph made and published in 1873 in the United States by a photographer who died in 1917 is also public domain by age, so the CC0 label rests on a real basis. I downloaded a 1203 x 1800 downscale through the archive's image service, cut away the card border and saved public/portraits/joseph-henry-smillie-1873.jpg at 896 x 1200 (downscale only, no enlargement). kind likeness (a documented photograph of the sitter). The archive's other 1874 Smillie print (MAH 42836) is marked 'no restrictions' only, so I preferred the CC0 item.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) Q157043 label 'Joseph Henry', description 'American scientist and the 1st Secretary of the Smithsonian (1797-1878)', born 1797-12-17, died 1878-05-13, Korean label '조지프 헨리'. SLUG/QID CHECK: not in prod61.txt and no candidate file existed (a separate samuel-morse candidate exists and is not mine). Region north_america (US), era 19th_century. ZERO POLITICS: primary identity is the physicist and science administrator; his adviser role to Congress and the Lincoln administration and the Light-House Board are institutional science service and are not scored as political leadership. VOCABULARY: occupations physicist, scientist, teacher; fields physics, natural_science; tags administrator, leader; archetypes scientific_explorer, organizational_leader; impact domains scientific, technological, educational; all grepped in en.ts and ko.ts. KO NAME: 조지프 헨리 (Wikidata Korean label).\nCANONICAL SIGNIFICANCE SOURCE: Simon Newcomb, Biographical Memoir of Joseph Henry, National Academy of Sciences (https://www.nasonline.org/wp-content/uploads/2024/06/henry-joseph.pdf) and the Smithsonian Archives summary of 'Educator and Researcher, Administrator and Public Servant: Joseph Henry's Career as a Scientist'.\nSOURCES READ (6 substantive): Newcomb memoir (read in the PDF text, key sections), Hochfelder essay (read in full), SIA catalogue summary of the 2004 career article (summary only), IEEE ETHW entry, Popular Science Monthly 1873 sketch, SIA catalogue summaries of the Library of Congress relationship essay and the Jewett biography (summaries only); Wikidata orientation only (I did not open Wikipedia). PERSPECTIVES: academy colleague (1880), independent historian, Smithsonian archive summaries, professional-society wiki, contemporary 1873 magazine. NON-SELF BEHAVIOURAL SOURCE: Hochfelder. COUNTER-VOICES AND LIMITS: Morse's 1855 'Defence' attack as reported by Hochfelder (who calls the dispute petty and says Morse's attack was false), Hochfelder's point that Henry did not reduce his telegraph to practice and made a speculative explanation for an anomalous 1831 result, Newcomb's own admission that Faraday published first, and the archive summaries' account of Jewett's side of the library dispute (dismissal dated 1854 in the archive and 12 January in Newcomb's memoir). NOT OPENED: the Smithsonian's own full texts of the Rothenberg, Library of Congress and Jewett works, the Papers of Joseph Henry volumes, Asa Gray's and Taylor's memoirs, Morse's 'Defence', Wikipedia, Britannica (SIA history pages and the Smithsonian Archives site returned HTTP 403 to the fetch tool, so catalogue pages were fetched with a plain curl). Exclusions: the spiritualist-medium anecdote and personal-life details in the memoir; the memoir's praise of his personality is not scored beyond documented acts.\nSELECTIVE SELF-CALIBRATION: reviewed impact_motivation (lowered from 70 / 0.55 to 66 / 0.50: motive rests on an admiring colleague, an uncited wiki entry and his own deposition), leadership_drive (kept: three sources record the offices) and conflict_tolerance (kept: both disputes are described from partisan sources, so confidence is already 0.48 and impact is dual-edged). Initial rows 5; lowered 1.\nHANDBACK61: {\"slug\":\"joseph-henry\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":70,\"old_confidence\":0.55,\"new_score\":66,\"new_confidence\":0.5,\"reason\":\"motive rests on an admiring colleague's memoir, an uncited wiki entry and his own deposition, with no source independently weighing his motives\"}],\"reviewed_kept\":[\"leadership_drive\",\"conflict_tolerance\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

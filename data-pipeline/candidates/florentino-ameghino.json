@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "florentino-ameghino",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Florentino Ameghino",
+    "aliases": ["Florentino Ameghino", "Giovanni Battista Fiorino Giuseppe Ameghino"],
+    "wikidataId": "Q503416",
+    "birthYear": 1853,
+    "deathYear": 1911,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": ["AR"],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": ["naturalist", "scientist"],
+    "fieldIds": ["natural_science", "biology"],
+    "impactDomains": ["scientific"],
+    "tagIds": ["self_taught", "prolific"],
+    "archetypeIds": ["scientific_explorer"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ameghino_wikidata",
+      "kind": "wikidata",
+      "title": "Florentino Ameghino (Q503416), verified live via the Wikidata API (2026-10-31): label 'Florentino Ameghino', description 'natural scientist and museum director from Argentina (1854-1911)', born 19 September 1853 (the description says 1854, the statement says 1853), died 6 August 1911, place of birth recorded as an Italian municipality, no Korean label, image 'Florentino Ameghino portrait.png'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q503416"
+    },
+    {
+      "id": "src_ameghino_britannica",
+      "kind": "biography",
+      "title": "The Editors, 'Florentino Ameghino', Encyclopaedia Britannica, read in full. CANONICAL SIGNIFICANCE SOURCE: paleontologist, anthropologist and geologist whose fossil discoveries on the Argentine Pampas rank with those made in the western United States in the late nineteenth century; began collecting fossils as a youth, won international recognition through correspondence with Paul Gervais, professor at Cordoba (1884) and La Plata (1887), spent three years in Europe, remained isolated from mainstream thought, advanced radical anthropological theories that drew severe criticism (that all mammals including humans originated on the Argentine pampas), was dismissed from teaching posts, and directed the Museum of Natural History in Buenos Aires (1902-11); nearly 200 monographs in the posthumous Obras completas. Gives birth as 19 Sept 1853 in Moneglia. Reference entry; the praise is retrospective and some figures (more than 6,000 fossil species) are not used here.",
+      "url": "https://www.britannica.com/biography/Florentino-Ameghino"
+    },
+    {
+      "id": "src_ameghino_eolahc",
+      "kind": "biography",
+      "title": "David Bushnell, 'Ameghino, Florentino (1854-1911)', Encyclopedia of Latin American History and Culture (Gale), via Encyclopedia.com, read in full: son of Italian immigrants, a boyhood collector of bones and fossils who worked as a schoolteacher and storekeeper, never received formal scientific training, travelled to Paris in 1878 with part of his collection, published almost two hundred articles and monographs, served as museum director in La Plata and Buenos Aires, and won notoriety for a hypothesis of a South American origin of humankind that was not generally accepted; called a tireless investigator and a pioneer of Argentine science. Short reference entry; gives the older birth date and place that Boscaini and colleagues (2021) correct.",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/ameghino-florentino-1854-1911"
+    },
+    {
+      "id": "src_ameghino_matthew",
+      "kind": "press",
+      "title": "William Diller Matthew (American Museum of Natural History), 'Florentino Ameghino', Popular Science Monthly 80 (March 1912), pp. 303-307, read in full. Near-contemporary scientific obituary: our knowledge of the fossil mammals of the Argentine is due principally to him; a collector, explorer and writer of great energy who had spent ten years collecting before 1880; exhibited his collection at the Paris Exposition of 1878 after failing to win endorsement at home; published the two-volume revision of 1889; described over 500 new genera in thirty years; funded his brother Carlos's long Patagonian expeditions from a small stationer's shop in La Plata; resigned as sub-director of the La Plata Museum after differences with its director and held no important post for ten or twelve years; led the Museo Nacional of Buenos Aires from 1903. Also a critical voice: bitter opposition he had 'brought upon himself' by a combative, controversial spirit, work that sometimes appears hasty, and theoretical conclusions most paleontologists could not accept. Printed with the portrait photograph used here (Fig. 1).",
+      "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_80/March_1912/Florentino_Ameghino"
+    },
+    {
+      "id": "src_ameghino_vizcaino",
+      "kind": "institution",
+      "title": "Sergio F. Vizcaino (CONICET, Museo de La Plata), 'Cartas para Florentino desde la Patagonia: cronica de la correspondencia edita entre los hermanos Ameghino (1887-1902)', Publicacion Especial 12, Asociacion Paleontologica Argentina (2011), pp. 51-67, read in full in Spanish. Scholarly account of the published letters between Florentino and Carlos Ameghino: the intense competition with Moreno's museum and with Mercerat (including an attempt to publish ahead of him in January 1893), the retention of fossils and concealment of locality data, Florentino urging Carlos to publish in prestigious journals and to share information with foreigners such as Hatcher, the loss of his museum salary, the sale of fossils and a loan, the 1889 monograph partly paid for by the Cordoba Academy, and his founding and editing of the Revista Argentina de Historia Natural (1891, citing Mantegari 2002). The letters are known through Torcelli's 1935 edition, whose fidelity to the originals is unknown.",
+      "url": "https://ri.conicet.gov.ar/handle/11336/80957"
+    },
+    {
+      "id": "src_ameghino_boscaini",
+      "kind": "institution",
+      "title": "Alberto Boscaini, Marina Peralta Gavensky, Gerardo De Iuliis and Sergio F. Vizcaino, 'The origin of El hombre en el Plata: on the birthdate and birthplace of Florentino Ameghino (1853-1911)', Publicacion Electronica de la Asociacion Paleontologica Argentina 21(1):28-43 (2021), open access, read in full. Establishes birth in Moneglia, Italy on 19 September 1853 from a note in Capellini's papers and the post-mortem birth record; describes Burmeister's 1891 attacks on his education, the rise of his prestige in the 1880s, and the later 'heroic intellectual' image. Used for the birth year and as a critical voice on the hagiography; its interpretation of a 'constant need for prestige' is the authors' reading and is NOT used for any row.",
+      "url": "https://peapaleontologica.org.ar/index.php/peapa/article/view/343"
+    },
+    {
+      "id": "src_ameghino_menendez",
+      "kind": "institution",
+      "title": "Lumila Paula Menendez, 'The antiquity and ancestral origin of humans in the Americas: a five hundred year inquiry from a biological anthropology perspective', Journal of Anthropological Sciences 102 (2024), 7-67, read where it treats Ameghino: he investigated the geology and co-occurrence of human and animal fossils in the Pampas and Patagonia from the 1870s, argued for great antiquity, built a primate phylogeny with hypothetical taxa from comparative anatomy, held that Homo sapiens originated in the Argentine Pampas, and devoted his whole career to finding fossils to support it, while Hrdlicka rebutted claims of antiquity in South America and deep human antiquity was later accepted on North American evidence. Modern scholarly review used as the independent assessment of his anthropological theory.",
+      "url": "https://www.isita-org.com/jass/Contents/2024vol102/Menendez/38676454.pdf"
+    },
+    {
+      "id": "src_ameghino_gondwana",
+      "kind": "press",
+      "title": "'Florentino Ameghino, the father of Argentinian paleontology', Letters from Gondwana (paleontology blog), 15 May 2020, read in full. Popular secondary account used only for details the other sources do not give (the 1878 Paris trip supported by the Genoese community, the sale of fossils to Cope and of a bird collection to a London museum, the 1902 plan of casts and exchanges to keep original fossils at home, the 'Ameghino, von Ihering and Co' correspondence) and for the Moreno feud framing; treated as low-weight and not used as sole support for any row.",
+      "url": "https://paleonerdish.wordpress.com/2020/05/15/florentino-ameghino-the-father-of-argentinian-paleontology/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ameghino_matthew, src_ameghino_vizcaino, src_ameghino_britannica | 1878-1902 | contemporary obituary, scholarly article, reference entry] Matthew says he kept publishing 'in spite of straitened means and bitter official opposition', funding his brother's Patagonian expeditions from a stationer's shop and holding no important post for ten or twelve years after resigning from the La Plata Museum; Vizcaino documents the loss of his salary, the sale of fossils and a loan while the work continued and the 1889 monograph appeared with Cordoba Academy money; Britannica says he was dismissed from teaching posts and recognised only near the end of his life. Three sources from different periods agree on the pattern; the Matthew obituary is admiring and Britannica's dismissal is not described elsewhere."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ameghino_britannica, src_ameghino_matthew, src_ameghino_eolahc | 1860s-1911 | reference entries, obituary] Britannica says he collected fossils from youth and developed an interest in classification; Matthew describes ten years of collecting before 1880 and over 500 new genera of fossil mammals described in thirty years; the Latin American encyclopedia adds that he had no formal scientific training and worked as a schoolteacher and storekeeper. Self-built expertise over decades is documented in several short accounts, but none describes how he studied, and the output count comes from an admiring obituary."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ameghino_britannica, src_ameghino_matthew, src_ameghino_menendez | 1880-1911 | reference entry, obituary, scholarly review] Britannica says he advanced radical theories, including that mammals and humans originated on the Argentine pampas; Matthew calls him a 'daring speculator' who maintained theoretical conclusions most paleontologists could not accept and sought endorsement abroad when it failed at home; Menendez says he built his own primate phylogeny from comparative anatomy and pursued the origin hypothesis through his career. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 72 / 0.52 to 68 / 0.48 because the evidence shows heterodox conclusions defended against consensus rather than the quality of independent reasoning, and Matthew and Britannica both call parts of the work hasty or isolated."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ameghino_matthew, src_ameghino_vizcaino, src_ameghino_britannica | 1886-1911 | obituary, scholarly article, reference entry] Matthew describes a 'vehement, combative and controversial spirit', a flood of papers 'amazing in volume, learning and acrimony', and a resignation from the La Plata Museum after differences with its director; Vizcaino documents the intense contest with Moreno's museum and with Mercerat; Britannica notes the severe criticism of his anthropological theories and his dismissal from teaching posts. The behaviour is documented by a contemporary colleague and a modern scholar, though the Matthew description is a characterisation and the Moreno side of the dispute is not given."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ameghino_vizcaino, src_ameghino_gondwana | 1888-1895 | scholarly article, blog] Vizcaino reports intense competition for Patagonian fossils with Moreno's museum and that in January 1893 Florentino tried to publish ahead of Mercerat on supposed monotreme remains; the blog compares the Moreno feud to the Cope-Marsh rivalry. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.46 to 62 / 0.42 because it rests on one dated priority race plus a popular blog's analogy, and Vizcaino also records a good disposition toward foreign scientists."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ameghino_matthew, src_ameghino_vizcaino, src_ameghino_gondwana | 1887-1902 | obituary, scholarly article, blog] Matthew and Vizcaino agree that the brothers divided the work, with Carlos exploring Patagonia and Florentino describing and publishing the finds; Vizcaino adds that Florentino urged Carlos to publish in prestigious journals and told him to share information with the American paleontologist Hatcher in 1896. The partnership is well described, but it was a family arrangement, the letters are known through a 1935 edition, and the other documented relationships (Moreno, Mercerat, Burmeister) were adversarial."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ameghino_matthew, src_ameghino_vizcaino, src_ameghino_gondwana | 1878-1902 | obituary, scholarly article, blog] Matthew says he earned the money for the expeditions from a small stationer's shop in La Plata and took his collection to the Paris Exposition of 1878; Vizcaino documents the sale of fossils, a loan, Cordoba Academy funding and a government subscription for the 1889 monograph, and the blog adds the 1902 plan of casts and exchanges to keep original fossils in Argentina. Several distinct ways of financing research are documented in sources that agree; the blog items are low-weight."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "플로렌티노 아메기노"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/florentino-ameghino-unknown-1910.jpg",
+    "width": 966,
+    "height": 1200,
+    "source": "Photographic portrait of Florentino Ameghino captioned 'Portrait of Florentino Ameghino, October, 1910. Courtesy of W. J. Sinclair', printed as Fig. 1 of William Diller Matthew's obituary in Popular Science Monthly, volume 80, March 1912, New York. The photographer is unknown. The file is a plain downscale of the 1501 x 1864 pixel scan of that printed figure (a halftone in an oval frame) from Wikimedia Commons, reduced to 966 x 1200 pixels with no upscaling and no cropping. Identity rests on the printed caption and the article about him.",
+    "license": "Public domain in the United States (published in 1912, before 1931)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:PSM_V80_D308_Florentino_Ameghino.png",
+    "attribution": "Unknown photographer, portrait of Florentino Ameghino, October 1910, published in Popular Science Monthly 80 (March 1912), public domain, via Wikimedia Commons",
+    "attributionUrl": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_80/March_1912/Florentino_Ameghino",
+    "creator": "Unknown photographer",
+    "date": "October 1910 (published 1912)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:PSM_V80_D308_Florentino_Ameghino.png"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / REPLACED with a clearer source: the lead's Commons file 'Florentino Ameghino portrait.png' (unknown author, uploader reasons only from the subject's death date) was not used. Instead the portrait is Fig. 1 of W. D. Matthew's March 1912 obituary in Popular Science Monthly (US periodical, volume 80, scanned at the Internet Archive and transcribed at Wikisource), captioned 'Portrait of Florentino Ameghino, October, 1910. Courtesy of W. J. Sinclair'; Commons file 'PSM V80 D308 Florentino Ameghino.png' (1501 x 1864, PD-US) is that figure, and its neighbours D309 and D310 are the article's Figs. 2 and 3. Basis: first or only US publication in 1912, before 1931, so public domain in the United States; the photographer is unknown, so the basis is the publication date and not the author's death. No institution is involved, so there is no institutional notice to conflict with; Commons itself warns that PD-US images may not be public domain elsewhere, and I did not open Argentina's photograph-term statute, so the claim is limited to the United States. URAA risk judged negligible: a 1910 photograph published in 1911-12 had long since passed any Argentine photograph term by 1996, but this is my reading and not a verified statement. Other Commons files (a 1902 Archivo General de la Nacion photograph tagged PD-AR-Photo, a 1911 Mercante journal plate, an 1878 charcoal after a Paris albumen print) were checked at wikitext level and not used. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q503416 label 'Florentino Ameghino', description 'natural scientist and museum director from Argentina (1854-1911)', born 19 September 1853 per the statement; not in the 644-person production list and no candidate file existed. DATES: birth year 1853 (Moneglia, Italy) follows Boscaini et al. 2021 and Britannica, not the older 1854 Lujan story in the Latin American encyclopedia and Wikidata's description. REGION latin_america with nationality AR (raised and worked in Argentina from childhood). ERA 19th_century (born 1853, main work 1870s-1911). ZERO POLITICS: scientist and museum director; the government subscriptions and ministers are funding context and not scored; no political role scored. VOCABULARY: occupations naturalist and scientist (paleontologist has no label), fields natural_science and biology, impact domain scientific, tags self_taught and prolific, archetype scientific_explorer, all grepped in en.ts and ko.ts. KO NAME: no Korean Wikipedia article or Wikidata Korean label exists, so '플로렌티노 아메기노' is my transliteration from the Spanish pronunciation. CANONICAL SIGNIFICANCE SOURCE: The Editors, 'Florentino Ameghino', Encyclopaedia Britannica (https://www.britannica.com/biography/Florentino-Ameghino). READ IN FULL: Britannica, Bushnell in the Encyclopedia of Latin American History and Culture, W. D. Matthew's 1912 obituary, Vizcaino 2011 (Spanish), Boscaini et al. 2021, Menendez 2024 (relevant section), and the Letters from Gondwana blog (seven substantive sources). PERSPECTIVES: reference encyclopedia, near-contemporary colleague's obituary, scholarly historiography by Museo de La Plata paleontologists, modern biological-anthropology review, popular blog. COUNTER-VOICES AND LIMITS: Matthew's own criticism (combative spirit, hasty work, untenable theories); Britannica's severe criticism and isolation; Vizcaino's note that fossils were retained and locality data concealed; Burmeister's 1891 attacks as relayed by Boscaini et al. (not scored); conflicting dates for his museum directorship (1902 in Britannica and the blog, 1903 in Matthew). NOT OPENED: Podgorny's papers (the CONICET copy was not retrievable), Hrdlicka's 1912 analysis and the Monte Hermoso (Tetraprothomo) episode (known only through citing writers, so not scored), Simpson, Casinos, Babini and Gabriel (cited only), and Ameghino's own works (self-report, none scored). EXCLUDED: Boscaini et al.'s psychological reading of a 'constant need for prestige' and the suggestion that he concealed his birthplace (private-life inference), and the popular 'father of Argentine paleontology' and 'more than 6,000 species' claims. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (kept), independent_thinking (72/0.52 lowered to 68/0.48), competitiveness (66/0.46 lowered to 62/0.42). HANDBACK61: {\"slug\": \"florentino-ameghino\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 72, \"old_confidence\": 0.52, \"new_score\": 68, \"new_confidence\": 0.48, \"reason\": \"the evidence shows heterodox conclusions defended against consensus rather than the quality of independent reasoning, and two sources call parts of the work hasty or isolated\"}, {\"attribute\": \"competitiveness\", \"old_score\": 66, \"old_confidence\": 0.46, \"new_score\": 62, \"new_confidence\": 0.42, \"reason\": \"rests on one dated priority race plus a popular blog analogy, and Vizcaino also records good disposition toward foreign scientists\"}], \"reviewed_kept\": [\"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "machado-de-assis",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Machado de Assis",
+    "aliases": [
+      "Joaquim Maria Machado de Assis",
+      "Machado"
+    ],
+    "wikidataId": "Q311145",
+    "birthYear": 1839,
+    "deathYear": 1908,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught",
+      "prolific",
+      "founder"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_machado_wikidata",
+      "kind": "wikidata",
+      "title": "Machado de Assis (Q311145), verified live via the Wikidata API (2026-10-31): label 'Machado de Assis', description 'Brazilian writer (1839-1908)', born 21 June 1839, died 29 September 1908, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q311145"
+    },
+    {
+      "id": "src_machado_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Machado de Assis', fetched for orientation (dates, the existence of contemporary criticism of his public silence on abolition). Orientation only; never counted as support for any row.",
+      "url": "https://en.wikipedia.org/wiki/Machado_de_Assis"
+    },
+    {
+      "id": "src_machado_abl",
+      "kind": "institution",
+      "title": "Academia Brasileira de Letras, 'Machado de Assis' biography page (in Portuguese), read in full: states that he founded chair 23 of the Academy and presided over it for more than ten years, was elected its president when it was installed on 28 January 1897 and devoted himself to it until his death; traces his path from a printer's apprentice at the Imprensa Nacional to journalist, poet, playwright, short-story writer, chronicler and novelist; dates Posthumous Memoirs of Bras Cubas (1881) as the book that gave his career a new direction and calls the masterpiece phase that followed escaping any school, making him the greatest writer of Brazilian letters. CANONICAL SIGNIFICANCE SOURCE: the institution he founded and led, so admiring and partly self-affiliated.",
+      "url": "https://www.academia.org.br/academicos/machado-de-assis/biografia"
+    },
+    {
+      "id": "src_machado_gale",
+      "kind": "biography",
+      "title": "Gale reference biography 'Assis, Joaquim Maria Machado de' (Encyclopedia.com copy, updated 2018), read in full: overview calling him thought by many to be Brazil's greatest writer; his civil-service career; the move from sentimental Romanticism to ironic fiction with Posthumous Memoirs of Bras Cubas (1881), Quincas Borba (1891) and Dom Casmurro; his refusal of the realist and naturalist values of his contemporaries in favour of eighteenth-century narrative models; first president in perpetuity of the Brazilian Academy of Letters; critics' view that his irony and self-reference cleared ground for later Latin American writers; over two hundred short stories. Reference article; its personal-health remarks were not used.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/latin-american-literature-biographies/joaquim-maria-machado-de-assis"
+    },
+    {
+      "id": "src_machado_enap",
+      "kind": "biography",
+      "title": "Raymundo Magalhaes Jr., 'Machado de Assis funcionario publico', Revista do Servico Publico 56(2), 2005 (reprint of the 1981 article; in Portuguese), read in full: archival account of his forty-year civil-service career (from the Diario Oficial in 1867 and the Agriculture Ministry from 1873 to director-general of accounting), his 1876 legal opinion on the registration of enslaved people under the 1871 law, his 1892 intervention against a patent for a disguised lottery scheme, the 1890s press denunciation he did not answer, and that he died without retiring. Written by his established biographer, so admiring; useful because it rests on dated official records.",
+      "url": "https://revista.enap.gov.br/index.php/RSP/article/download/228/233/826"
+    },
+    {
+      "id": "src_machado_fapesp",
+      "kind": "press",
+      "title": "Pesquisa FAPESP, 'Velho Machado' (February 2004; in Portuguese), read in full: science-journalism report on historian Sidney Chalhoub's book 'Machado de Assis historiador', presenting his argument that the novelist and the head of the Agriculture Ministry's second section (1870 to 1880) shared a view of the slaveholding elite, and that the official worked to subject private power to the rule of law. Independent journalism summarising one scholar's thesis.",
+      "url": "https://revistapesquisa.fapesp.br/wp-content/uploads/2004/02/082-085-literatura.pdf"
+    },
+    {
+      "id": "src_machado_piza",
+      "kind": "press",
+      "title": "Daniel Piza, review of Sidney Chalhoub's 'Machado de Assis, historiador', O Estado de S. Paulo, 23 November 2003 (copy hosted by Unicamp's CECULT; in Portuguese), read in full: a critic-biographer's assessment that is partly critical (he calls some of Chalhoub's readings forced, notes the book's gaps and warns against reducing Machado to an unmasker of the elite) while accepting that Machado's 1876 legal opinion defended the spirit of the law on behalf of freedpeople and that earlier critics already read him against the issues of his time. Provides the counter-voice on interpretation.",
+      "url": "https://www.cecult.ifch.unicamp.br/pf-cecult/public-files/publicacoes/106/machadohistoriador-daniel-piza.pdf"
+    },
+    {
+      "id": "src_machado_chalhoub",
+      "kind": "press",
+      "title": "Interview with historian Sidney Chalhoub, Aedos journal (UFRGS; in Portuguese), read in full: the author of 'Machado de Assis historiador' explains how he reads Machado's fiction as social history and states how his reading differs from those of Roberto Schwarz and John Gledson, whose work he credits as intellectual debts. Scholarly interview; shows that critics disagree about how Machado represented slavery and dependants, and is used only for that disagreement, not for any row.",
+      "url": "https://seer.ufrgs.br/index.php/aedos/article/view/9823/5628"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_machado_gale, src_machado_abl, src_machado_chalhoub | 1880-1900 | reference biography + institution + scholarly interview] The Gale biography describes Posthumous Memoirs of Bras Cubas (1881) as narrated by a man already dead, replacing his earlier sentimental Romanticism with mordant irony, self-reference and an ambiguous narrative technique, and records critics' view that these methods anticipated later Latin American writers; the Academy's page dates the masterpiece phase to that book and says it escaped any literary school. A distinctive narrative method that broke with his own earlier work and with the fashionable realism of his day is documented. All support is retrospective praise and critical consensus, and the scholarly interview shows critics still dispute how to read the work, so confidence stays moderate. SELF-CALIBRATION (agent): lowered from 76 / 0.62 because every source is retrospective praise and no contemporaneous independent test of the novelty claim was read."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_machado_abl, src_machado_enap, src_machado_gale | 1854-1908 | institution + archival biography + reference biography] The Academy's page records a first published sonnet at fifteen in 1854, an apprenticeship at the national press without formal schooling ('he studied as he could'), and a steady output across genres until his death; Magalhaes Jr. documents forty years and five months in the civil service, at one time holding two posts with office hours running late into the night, and that he died without retiring while still writing. Two parallel careers sustained over decades are documented from dated records. The biographer and the Academy are admiring, and no adversarial source was found."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_machado_enap, src_machado_abl | 1850s-1870s | archival biography + institution] Magalhaes Jr. records that, although self-taught, he translated fluently from French and wrote passable verse directly in French, besides translating plays and Victor Hugo's novel for serialisation; the Academy's page says he had no means for regular courses and studied as he could while working as an apprentice and proofreader. Self-directed command of languages and forms is documented in outline, but one admiring biographer supplies most of the detail and no source describes his study method, so the score stays moderate."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_machado_gale, src_machado_enap, src_machado_piza | 1876 and 1880s | reference biography + archival biography + press review] Gale says he had difficulty with the realist and naturalist values prevalent among Brazilian writers and sought eighteenth-century narrative models instead. Magalhaes Jr. describes his 1876 written opinion, as head of a ministry section though without legal training, on whether slave registration could proceed after an unappealed judgment: the officials consulted at first differed and his view prevailed; Piza reads it as a defence of the spirit of the law. Independent literary and professional judgment is documented, but each strand rests on one or two admiring accounts and the legal episode is retold from the same archive."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_machado_abl, src_machado_gale, src_machado_enap | 1854-1908 | institution + reference biography + archival biography] The Academy's page lists journalist, short-story writer, chronicler, novelist, poet and playwright, with work across practically every literary genre, and notes his translations and theatre criticism; Gale adds more than two hundred short stories alongside his novels, and Magalhaes Jr. documents the parallel administrative career up to director-general of accounting. Breadth across literary forms plus a separate professional field is documented; the range is mostly within literature, which limits the score."
+    },
+    "leadership_drive": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_machado_abl, src_machado_gale | 1889-1908 | institution + reference biography] The Academy's own page says the idea of an academy came from the group around the Revista Brasileira, that he supported it from the start, attended the preparatory meetings, was elected president when it was installed on 28 January 1897 and devoted himself to it until his death; Gale calls him its first president in perpetuity. Holding and keeping a founding institutional role is documented, but the main source is the institution he led, and nothing read describes how he led or what he personally did beyond presiding, so confidence is low."
+    },
+    "proactive_agency": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_machado_enap | 1892 | archival biography] Magalhaes Jr. reports that in 1892 he noticed in the official gazette a patent for a card-sale scheme that was in effect a double lottery, belonging to another ministry, and took it up through his own minister until the concession was annulled that September, which the biographer attributes to public spirit. Acting on an issue outside his own remit is documented in one episode from one admiring source, and the motive is the biographer's characterisation. SELF-CALIBRATION (agent): lowered from 60 / 0.48 because it rests on one admiring biographer's account of a single episode and his reading of the motive."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마샤두 지 아시스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / found with a recorded caveat: the Commons file 'Machado de Assis aos 57 anos.jpg' (uploader Giro720, 2010) credits the Fundacao Biblioteca Nacional (Brazil), author unknown, date circa 1896 (the sitter was 57 in 1896-97), tagged as Brazilian public-domain media; the BN's own item page (Zoomify viewer, only reachable through a 2017 Internet Archive copy because the live site refused connection) shows only the image and states no terms, so no conflicting institutional notice was found. Rights basis I rely on is independent of the Commons tag: an anonymous photograph made no later than the sitter's death in 1908 and, by his stated age, c. 1896; if published before 1931 it is public domain in the United States, and if never published an anonymous work is protected for 120 years from creation, which expired in 2016; in Brazil any such 1896 work was long out of copyright in 1996, so the URAA restoration cannot apply. Weakness acknowledged for the lead: the photographer is unknown and I could not open a publication record, so the basis is age-based, not creator-based. Downscaled from 1263 x 1852 to 818 x 1200, no cropping, never upscaled. Two Commons alternatives (an 1874 photo from the Academy's site and another copy of the same c.1896 print) were checked and are weaker (no better provenance).\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q311145 returned en label 'Machado de Assis', description 'Brazilian writer (1839-1908)', born 1839-06-21, died 1908-09-29, ko label present. SLUG/QID CHECK: not in prod61.txt and no existing candidate file. Region latin_america (Brazil). Zero-politics passes: primary identity is literary; his work in the civil service and any monarchist or abolition-related background is not scored as politics (the 1876 legal opinion is used only as professional reasoning in a ministry section, not as activism). Living-subject rules not applicable (died 1908); epilepsy, speech impediment and illness reported in reference works, his marriage and his race were deliberately not used for any trait. Korean display name: Wikidata ko label.\nCANONICAL SIGNIFICANCE SOURCE: Academia Brasileira de Letras, 'Machado de Assis' biography page https://www.academia.org.br/academicos/machado-de-assis/biografia (read in full).\nSOURCES READ (6 substantive): Academia Brasileira de Letras biography; Gale reference biography (Encyclopedia.com); Magalhaes Jr. 'Machado de Assis funcionario publico' (Revista do Servico Publico); Pesquisa FAPESP report; Daniel Piza review in O Estado de S. Paulo; Chalhoub interview in Aedos (used only for the interpretive disagreement). Wikipedia and Wikidata orientation only. PERSPECTIVES: the institution he founded, a Gale reference biography, an archival biographer of his civil-service career, science journalism, a critic-biographer's partly critical review, a historian's interview. Non-self behavioural source: Magalhaes Jr., who rests on dated official records. COUNTER-VOICE: Piza's review disputes parts of Chalhoub's reading and warns against reducing Machado to an unmasker of the elite, and the Chalhoub interview records disagreement with Schwarz and Gledson; the contemporary criticism of his public silence on abolition by Jose do Patrocinio and Lima Barreto reached me only through Wikipedia's summary and was neither opened nor scored. NOT OPENED: Britannica (HTTP 403 and a dead archive copy), the New Yorker and New York Times Sontag pieces (404/blocked), Poetry Foundation (404), the BN item metadata, Roberto Schwarz's and Gledson's books, Machado's own chronicles and letters. Sparse by design: seven rows, none above 72.\nSELECTIVE SELF-CALIBRATION: reviewed creative_originality (retrospective praise only; lowered 76/0.62 to 72/0.58), proactive_agency (one source, one episode, biographer's motive; lowered 60/0.48 to 56/0.42), persistence and leadership_drive (kept: persistence rests on dated records from two kinds of source and leadership_drive was already scored low for being self-affiliated). Initial rows 7; lowered 2.\nMAJOR ACHIEVEMENT SELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS; nothing corrected. The Academy founding presidency and the civil-service career are carded because the first is a foundation/institution role and the second explains the dual career.\nHANDBACK61: {\"slug\":\"machado-de-assis\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":7,\"self_calibrated_rows\":[{\"attribute\":\"creative_originality\",\"old_score\":76,\"old_confidence\":0.62,\"new_score\":72,\"new_confidence\":0.58,\"reason\":\"all support is retrospective critical praise and reference-work consensus; no contemporaneous independent test of the novelty claim\"},{\"attribute\":\"proactive_agency\",\"old_score\":60,\"old_confidence\":0.48,\"new_score\":56,\"new_confidence\":0.42,\"reason\":\"rests on one admiring biographer's account of one 1892 episode, including his characterisation of the motive\"}],\"reviewed_kept\":[\"persistence\",\"leadership_drive\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/machado-de-assis-unknown-1896.jpg",
+    "width": 818,
+    "height": 1200,
+    "source": "Wikimedia Commons file 'Machado de Assis aos 57 anos.jpg', a studio portrait photograph of Machado de Assis at about 57 (circa 1896) from the iconography collection of the Fundacao Biblioteca Nacional, Brazil; photographer unknown; original 1263 x 1852 pixels, downscaled to 818 x 1200 with no cropping. Public domain by age: an anonymous photograph of about 1896 is outside copyright in the United States (published before 1931, or unpublished and older than 120 years) and in Brazil; the library's own item page states no terms.",
+    "license": "Public domain (anonymous photograph, c. 1896)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Brazil-media",
+    "attribution": "Photographer unknown, c. 1896, Fundacao Biblioteca Nacional (Brazil), via Wikimedia Commons (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Machado_de_Assis_aos_57_anos.jpg",
+    "creator": "Unknown photographer",
+    "date": "c. 1896",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Machado_de_Assis_aos_57_anos.jpg"
+  }
+}

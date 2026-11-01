@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sakichi-toyoda",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sakichi Toyoda",
+    "aliases": [
+      "Toyoda Sakichi",
+      "豊田佐吉",
+      "King of Japanese Inventors"
+    ],
+    "wikidataId": "Q137727",
+    "birthYear": 1867,
+    "deathYear": 1930,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology",
+      "business"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "entrepreneurial",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sakichi_wikidata",
+      "kind": "wikidata",
+      "title": "Sakichi Toyoda (Q137727), verified live via the Wikidata API (2026-10-31): label 'Sakichi Toyoda', description 'Japanese inventor and industrialist (1867-1930)', born 1867-03-19, died 1930-10-30, citizenship Japan, Korean label 도요다 사키치. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q137727"
+    },
+    {
+      "id": "src_sakichi_jsme",
+      "kind": "institution",
+      "title": "Japan Society of Mechanical Engineers, 'Mechanical Engineering Heritage No. 16: Non-Stop Shuttle Change Toyoda Automatic Loom, Type G' (heritage designation page, read in full). CANONICAL SIGNIFICANCE SOURCE: professional-society statement that the Type G was the complete automatic loom Sakichi Toyoda spent his life trying to invent, with an automatic shuttle-changing device and an automatic stop on broken warp or weft yarns, drawing on more than 50 of his inventions, that it raised productivity at least twenty-fold and was the foundation of the Toyota Group and of the technology transfer to Platt Brothers in Britain.",
+      "url": "https://jsme.or.jp/kikaiisan/heritage_016_en.html"
+    },
+    {
+      "id": "src_sakichi_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'TOYODA Sakichi', Portraits of Modern Japanese Historical Figures (English biographical note, read in full). Short library biography: carpenter's son; first wooden handloom 1890; first Japanese-designed automatic power loom 1897; chief engineer at Mitsui's Igeta Shokai from 1899; managing director and chief engineer of the Mitsui-financed Toyoda Loom Works from 1906 and resignation in 1910 over policy differences; completion of the Toyoda automatic loom in 1926 and founding of Toyoda Automatic Loom Works; many patents and study to the end of his life. The page also hosts the portrait used here.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/300"
+    },
+    {
+      "id": "src_sakichi_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Sakichi Toyoda' (read in full, about 1,900 words). Detailed modern biography: boyhood in a weaving region, the decision at eighteen to become an inventor, trial-and-error method without scientific training, the failed first business of 1893, the 1896 store fraud, the 1897 power loom, repeated clashes with Mitsui over research budgets and two resignations (1902, 1910), the aborted plan to emigrate, the 1905 endurance-test failure against Platt looms, family reliance, teamwork with his son Kiichiro on the automatic loom (patented 1925), and the 1929 sale of the loom patents to Platt. It also says the Platt payment was only partly made and later contested.",
+      "url": "https://www.ebsco.com/research-starters/history/sakichi-toyoda/"
+    },
+    {
+      "id": "src_sakichi_toyota75",
+      "kind": "institution",
+      "title": "Toyota Motor Corporation, '75 Years of Toyota', Part 1 Chapter 1 (company history; read: Section 1 items 1, 2 and 4 on Sakichi Toyoda's start, patents and the origin of automatic stopping, Section 2 item 1 on the 1907 Mitsui-backed company, Section 3 item 1 on Kiichiro, and Section 4 item 2 on the Platt patent agreement). Detailed, footnoted company history; it is the firm's own account and is therefore treated as institutional self-history, not an independent source. It states that Kiichiro invented the shuttle-change automatic loom and that Sakichi's loom features are the origin of jidoka.",
+      "url": "https://www.toyota-global.com/company/history_of_toyota/75years/text/taking_on_the_automotive_business/chapter1/section1/item4.html"
+    },
+    {
+      "id": "src_sakichi_sciencemuseum",
+      "kind": "institution",
+      "title": "Science Museum Group Collection, 'Toyoda Automatic Loom' (object 2000-807, type G, 1926 / 1924; catalogue entry read in full). Independent museum catalogue entry: describes it as the world's first automatic loom on which the shuttle could be changed without stopping the loom, marketed in Britain by Platt Brothers from 1929, and credits the licence fees with launching Toyota Motor. The loom was donated by Toyota in 2000, and the museum itself warns its records are not guaranteed accurate.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co528175/toyoda-automatic-loom"
+    },
+    {
+      "id": "src_sakichi_allaboutlean",
+      "kind": "press",
+      "title": "Christoph Roser, '150th Anniversary of the Birth of Sakichi Toyoda', AllAboutLean.com (lean-manufacturing author's blog article, read in full, about 1,800 words). Independent popular biography; useful as counter-voice: it says Sakichi or more likely Kiichiro invented the Type G, that most patents after 1921 were Kiichiro's or other researchers', that the Platt dispute ended in a price reduction, that the legend of the deathbed gift of Platt money for a car company is not true, and that the 5 Whys attribution is only reported. It gives his birth date as 14 February (Toyota's history gives the same) while the National Diet Library and Wikipedia give 19 March.",
+      "url": "https://www.allaboutlean.com/de/en-150th-anniversary-of-the-birth-of-sakichi-toyoda/"
+    },
+    {
+      "id": "src_sakichi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Sakichi Toyoda' (read; orientation only, never counted as a source and not used as support for any row). It was read to see the commonly repeated claims (jidoka, 5 Whys, 'King of Japanese Inventors') that the substantive sources are checked against.",
+      "url": "https://en.wikipedia.org/wiki/Sakichi_Toyoda"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sakichi_ebsco, src_sakichi_toyota75, src_sakichi_ndl, src_sakichi_jsme, src_sakichi_allaboutlean | 1890-1930 | modern biography + company history + library + professional society + independent blogger] Several sources record a thirty-five-year chain of setbacks followed by renewed work on the same problem. EBSCO says his first loom business failed in 1893, his Nagoya store nearly collapsed through a partner's fraud in 1896 (he saved it and completed his power loom in 1897), his steel looms failed an endurance test against Platt in 1905, and after leaving for the United States in 1910 he was persuaded to return and founded a new weaving factory in 1911; the National Diet Library says he kept studying to the end of his life, the engineers' society says he spent his life aiming at the complete automatic loom, and the independent popular biography calls it a lifelong tinkering with looms. Several of the setbacks are told through Toyota-aligned histories, but the pattern is consistent across the independent ones. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 76 / 0.66 to 72 / 0.6 because a large part of the persistence narrative comes from Toyota's own company history and heritage pages, which are not independent of the firm."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sakichi_ebsco, src_sakichi_jsme, src_sakichi_toyota75 | 1890-1926 | modern biography + professional society + company history] EBSCO says that without a theoretical scientific background he studied existing looms, built models and tested modifications, learning by trial and error throughout his life, and that at the later factory new inventions were field-tested while production ran; the engineers' society says the Type G passed long commercial test operations before launch, and Toyota's company history describes successive power-loom features added to prevent defects. The method is documented in general terms; specific experiments are few and mostly relayed by the company's own history."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sakichi_toyota75, src_sakichi_jsme, src_sakichi_ebsco, src_sakichi_sciencemuseum, src_sakichi_allaboutlean | 1890-1926 | company history + professional society + modern biography + museum + independent blogger] Toyota's history counts 45 industrial property rights, mostly loom mechanisms, and describes a power loom (completed 1897) with automatic warp and weft stop devices, EBSCO says a power-loom patent held by a Japanese inventor was a first, the engineers' society says the Type G combined more than 50 of his inventions, and the Science Museum calls the Type G the first automatic loom with non-stop shuttle change. The limit is attribution: Toyota's own history says Kiichiro invented the shuttle-change loom, EBSCO says Kiichiro built the shuttle-change box on Sakichi's design, and the independent blogger says most patents after 1921 were Kiichiro's or other researchers', so his own share is real but not cleanly separable. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 72 / 0.58 to 70 / 0.54 because the sources disagree on how much of the Type G is Sakichi's own invention rather than his son's."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sakichi_ebsco, src_sakichi_ndl, src_sakichi_toyota75 | 1899-1912 | modern biography + library + company history] EBSCO says that in 1902 he angrily resigned from the Mitsui-backed Igeta trading company after clashes over research funding, and in 1906-1910 clashed again with Mitsui over the research budget at the Toyoda Loom Works, resigned and left for the United States; the National Diet Library gives policy differences as the reason for the 1910 resignation, and Toyota's history says he hesitated before accepting Mitsui's proposal to incorporate and then placed his plant and patents in the new company. Dual-edged: it kept control of his research direction but cost him two financed companies. The motive of the clashes is stated by the sources, not inferred from the career."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sakichi_ebsco, src_sakichi_toyota75 | 1906-1912 | modern biography + company history] EBSCO says he dissolved his own firm to found the Mitsui-financed Toyoda Loom Works, planned to emigrate in 1910 and in 1912 sold his rights to future earnings from his inventions for a lump sum to finance further work; Toyota's history says he closed all Toyoda Shokai operations except the Shimasaki plant and 'entrusted his fate' to the new company. The dissolutions and the sale of future income show a willingness to stake his holdings on the research, but the sources do not describe a specific risk assessment. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.52 to 62 / 0.46 because the emigration plan and the 1912 sale of earnings rest on EBSCO alone and read as financing steps rather than documented risk-taking."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sakichi_ebsco, src_sakichi_toyota75, src_sakichi_ndl, src_sakichi_jsme | 1885-1930 | modern biography + company history + library + professional society] EBSCO says that at eighteen, after hearing of the new patent law and reading Samuel Smiles's Self-Help, he decided to become an inventor and turned to looms, the field he knew from carpentry; Toyota's history says he then devoted all his time to improving the loom, and the library and the engineers' society say he kept studying and inventing in the same field to the end of his life. The sustained single-field focus is documented; the quality of his command is judged mostly through his output, not through independent assessment of his skill."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "도요다 사키치"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sakichi-toyoda-unknown-1930.jpg",
+    "width": 908,
+    "height": 1289,
+    "source": "Studio portrait photograph of Sakichi Toyoda in formal dress with a decoration, with an embossed studio mark at lower right that appears to read 'Nakamura' (the photographer is otherwise unidentified), hosted on Wikimedia Commons as 'Sakichi Toyoda.jpg' (uploaded 2007; the file page says it comes from the Japanese book 'Toyoda Sakichi den' and links the National Diet Library page). The same image is displayed on the National Diet Library's digital exhibition 'Portraits of Modern Japanese Historical Figures', whose About page states that all images in the exhibition are in the public domain and may be reused, including commercially, with the source cited; the exhibition's page footer carries only the library's generic site copyright line, which does not apply to those images. Rights basis: the NDL statement plus age: the photograph was taken before his death in 1930 and, from the 'Toyoda Sakichi den' source (a 1933 biography by the Toyoda Sakichi-o Seiden Hensansho appears in the NDL catalogue, not opened here), published by 1933, so the Japanese term for a photograph published in 1933 had expired long before the 1996 US restoration date and the image is in the public domain in the United States. Caveats: the individual photographer and the exact first-publication year could not be confirmed, and the NDL digital record behind the image was not readable. Original 908 x 1289 pixels; saved as is, no cropping, resizing or upscaling.",
+    "license": "Public domain (National Diet Library statement; Japanese photograph published by 1933)",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/e/about",
+    "attribution": "Portraits of Modern Japanese Historical Figures, National Diet Library, Japan; via Wikimedia Commons (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Sakichi_Toyoda.jpg",
+    "creator": "Unidentified photographer (embossed studio mark appears to read 'Nakamura')",
+    "date": "before 1930",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.ndl.go.jp/portrait/e/datas/300"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / RESOLVED IN FAVOUR: the lead's worry was the NDL page footer 'All Rights Reserved', but the NDL 'About This Site' page for this exhibition explicitly states that all images in 'Portraits of Modern Japanese Historical Figures' are in the public domain and may be reused including commercially; the footer is the library's generic site line. The photograph is an unidentified-photographer studio portrait (embossed mark 'Nakamura'), identity certain, and the Japanese term for a photograph published by 1933 expired well before 1996, so no US restoration issue. Remaining caveats are recorded in portrait.source (photographer and exact first-publication year not confirmed; NDL digital record not readable); the lead's 'risky' grade was too pessimistic. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q137727 label 'Sakichi Toyoda', description 'Japanese inventor and industrialist (1867-1930)', Korean label 도요다 사키치; no production (prod61.txt) or candidate slug/QID collision. REGION east_asia (Japan). ERA 20th_century (the Type G and the company date from 1924-26; he was born in 1867). ZERO POLITICS: no political activity is involved. VOCABULARY: occupations inventor, entrepreneur (no industrialist label exists); fields engineering, technology, business; tags innovator, founder, self_taught; archetype technical_innovator; impact domains technological, industrial, entrepreneurial, innovation; all grepped in en.ts and ko.ts. CANONICAL SIGNIFICANCE SOURCE: Japan Society of Mechanical Engineers, 'Mechanical Engineering Heritage No. 16: Non-Stop Shuttle Change Toyoda Automatic Loom, Type G' (https://jsme.or.jp/kikaiisan/heritage_016_en.html). READ: JSME page, NDL biography, EBSCO Research Starters (full), Toyota's company history (five pages of Part 1 Chapter 1; the resignation passage of Section 2 item 1 and the Section 3 prototype pages were only partly readable in the text capture), the Science Museum Group catalogue entry, the AllAboutLean biography, Wikipedia (orientation). PERSPECTIVES: professional society, national library, modern biography, company self-history, museum catalogue, independent lean-manufacturing author. COUNTER-VOICES: the independent blogger and Toyota's own history on how much of the Type G was Kiichiro's work; EBSCO and the blogger on the Platt dispute and the part-payment; the blogger's rejection of the deathbed-gift legend that the Science Museum's wording ('licence fees launched Toyota Motor') partly echoes. CONFLICTS NOTED: birth date (14 February in Toyota's history and the blogger vs 19 March in the NDL, Wikipedia and Wikidata; Wikidata is followed and no day is stated); Type G date (1924 design vs 1926 production); Platt price (100,000 pounds agreed, 83,500 paid per Toyota; EBSCO gives a different dollar total); the 5 Whys attribution (reported by blogs only and not used). NOT OPENED: Mass and Robertson's article on the Toyota enterprises (no full text found), Landers's 'Dynasties', Liker's 'The Toyota Way', Toyota Industries' own corporate pages, the Japanese-language biographies and the Toyoda Sakichi den itself. SELF-REPORT SEPARATION: no writing of his own was read; all behaviour comes from later biographers and from the company's own history, which is why confidence is capped near 0.5-0.66. EXCLUSIONS: marriages and family arrangements (the adoption of his son-in-law) are used only where they are business structure, nothing about private life is scored; health at death. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (72/0.58 lowered to 70/0.54), risk_tolerance (66/0.52 lowered to 62/0.46), persistence (kept: five sources of four kinds agree). HANDBACK61: {\"slug\": \"sakichi-toyoda\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 72, \"old_confidence\": 0.58, \"new_score\": 70, \"new_confidence\": 0.54, \"reason\": \"the sources disagree on how much of the Type G is Sakichi's own invention rather than his son's\"}, {\"attribute\": \"risk_tolerance\", \"old_score\": 66, \"old_confidence\": 0.52, \"new_score\": 62, \"new_confidence\": 0.46, \"reason\": \"the emigration plan and the 1912 sale of earnings rest on EBSCO alone and read as financing steps rather than documented risk-taking\"}], \"reviewed_kept\": [\"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 76 / 0.66 to 72 / 0.6 because a large part of the persistence narrative comes from Toyota's own company history and heritage pages, which are not independent of the firm."
+  }
+}

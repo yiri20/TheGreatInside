@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "horace-mann",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Horace Mann",
+    "aliases": [
+      "Horace Mann the education reformer"
+    ],
+    "wikidataId": "Q1151173",
+    "birthYear": 1796,
+    "deathYear": 1859,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "writer"
+    ],
+    "fieldIds": [
+      "education",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "educational",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hmann_wikidata",
+      "kind": "wikidata",
+      "title": "Horace Mann (Q1151173), verified live via the Wikidata API (2026-10-31): label 'Horace Mann', description 'American politician (1796-1859)', born 4 May 1796, died 2 August 1859, country United States, Korean label present, image a Southworth and Hawes daguerreotype of about 1850. The 'politician' description is Wikidata's; this profile treats and scores only his education-reform work. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1151173"
+    },
+    {
+      "id": "src_hmann_britannica",
+      "kind": "biography",
+      "title": "Lawrence A. Cremin, 'Horace Mann', Encyclopaedia Britannica, read in full. CANONICAL SIGNIFICANCE SOURCE: American educator, the first great American advocate of public education, who held that education in a democratic society should be free, universal, nonsectarian, democratic in method and reliant on well-trained professional teachers; self-educated at the Franklin town library; left a promising political career, against his friends' advice, to accept the first secretaryship of the new Massachusetts state board of education (1837), a post with little direct power that demanded moral leadership for eleven years; started the Common School Journal (1838), lectured widely, wrote twelve annual reports built on six propositions, met strong resistance from clergymen, educators and politicians but saw his views prevail; later became president of the new Antioch College (1853). Reference entry by an education historian; the praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Horace-Mann"
+    },
+    {
+      "id": "src_hmann_uxl",
+      "kind": "biography",
+      "title": "'Horace Mann', American Social Reform Movements Reference Library (Gale), via Encyclopedia.com, read in full. Student-level biography: as education secretary he visited the state's common schools alone on horseback over six years and inspected more than a thousand, held annual county meetings, worked with the philanthropist Edmund Dwight on a matching gift for teacher-training 'normal' schools, founded and edited the Common School Journal from 1838, urged a minimum school year, standard reading materials, equipment and compulsory attendance, and later presided over the struggling Antioch College; the schools story is told largely in the voice of admiration and some claims (such as 'first of their kind') are not used here.",
+      "url": "https://www.encyclopedia.com/people/social-sciences-and-law/education-biographies/horace-mann"
+    },
+    {
+      "id": "src_hmann_eoe",
+      "kind": "biography",
+      "title": "Jennings L. Wagoner Jr. and William N. Haarlow, 'Common School Movement', Encyclopedia of Education (Gale), via Encyclopedia.com, read in full. Independent overview of the movement: Mann, 'often referred to as the Father of the Common School', left law and the legislature in 1837 to become secretary of the new board and stumped the state for common schools; other reformers (Carter, Barnard, Stowe, Beecher and others) worked in parallel; opposition came from Catholics who found the 'nonsectarian' schools Protestant, from advocates of local control, and from opponents of taxation; Kaestle's view that acceptance rested on republican values, Protestant culture and capitalism. Used as the independent significance and counter-voice source; it shows his place within a wider movement.",
+      "url": "https://www.encyclopedia.com/history/united-states-and-canada/us-history/common-school-movement"
+    },
+    {
+      "id": "src_hmann_mhs",
+      "kind": "archive",
+      "title": "'Horace Mann Collection, 1669-1926', Guide to the Microfilm Edition, Massachusetts Historical Society, read: biographical timeline (Brown University 1819, bar 1823, legislature from 1827, elected secretary of the Massachusetts Board of Education 29 June 1837, normal school sites chosen January 1840, Antioch presidency inaugurated 5 October 1853, college sold at auction 20 April 1859, death 2 August 1859) and a description of the papers (correspondence, journals, speeches on education, politics, slavery, temperance and religion). Archival finding aid; the timeline is neutral and gives dates only.",
+      "url": "https://www.masshist.org/collection-guides/view/fa0234"
+    },
+    {
+      "id": "src_hmann_uudb",
+      "kind": "biography",
+      "title": "'Mann, Horace', Dictionary of Unitarian and Universalist Biography, read in full. Denominational biography: his education policy rested on a belief in human perfectibility and moral law; during his tenure school funding rose, teacher preparation improved and compassionate discipline was urged; his advocacy of nonsectarian religious teaching was his most controversial work and he was criticised then and now from both sides, as anti-Christian by some and as reflecting Unitarianism and phrenology by others; at Antioch conservative faculty suspected him of making the students Unitarians until a rescue of the college's finances was arranged. Used as a counter-voice; its Unitarian perspective colours the account.",
+      "url": "https://www.uudb.org/mann-horace/"
+    },
+    {
+      "id": "src_hmann_met",
+      "kind": "institution",
+      "title": "'Horace Mann', daguerreotype by Southworth and Hawes, about 1850, The Metropolitan Museum of Art (object 37.14.25), live object page and Open Access record, read for the portrait review only. Not used for any row.",
+      "url": "https://www.metmuseum.org/art/collection/search/268323"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hmann_britannica, src_hmann_eoe, src_hmann_uxl, src_hmann_mhs | 1837-1859 | reference entries, archival timeline] Britannica says he accepted the first secretaryship of the board 'much against the advice of friends, who thought he was tossing aside a promising political career', in a post with little direct power; the Encyclopedia of Education and the Gale biography both say he gave up his law practice and legislative career in 1837, and the archival timeline dates his election to 29 June 1837; he then spent eleven years in the post and finally took the presidency of a new, financially shaky college. The pattern of choosing low-power education work over a promising career is documented in independent sources; his own valedictory line about winning a victory for humanity is not used. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 76 / 0.6 to 72 / 0.54 because the motive is read from his own annual reports and admiring reference entries, with no independent source assessing his intent."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hmann_britannica, src_hmann_uxl, src_hmann_uudb, src_hmann_mhs | 1837-1859 | reference entries, archival timeline] Britannica reports that he held the secretaryship for eleven years in the face of resistance from clergymen, educators and politicians; the Gale biography says he travelled alone on horseback for six years visiting more than a thousand schools and edited the Common School Journal for a decade; the Unitarian dictionary and the archival timeline show him carrying the struggling Antioch College through its financial crises until its auction in April 1859. Three accounts document long effort against opposition, though the horseback detail rests on one student-level source."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hmann_britannica, src_hmann_uxl, src_hmann_eoe | 1837-1848 | reference entries] Britannica says the office demanded moral leadership because it carried little power, that he lectured widely, started a journal, wrote twelve annual reports around six propositions and won out over strong resistance; the Gale biography calls him a persuasive speaker and effective writer whose reports were widely read, and the Encyclopedia of Education describes him stumping the state with different arguments for the working classes and for property owners. The method is described consistently, but the effectiveness is credited by admiring retrospectives and the movement had other advocates. RUBRIC_CORRECTION (lead review, before eligibility): persuasiveness lowered from 74 / 0.55 to 70 / 0.5 because the reference entries record both the campaign and strong opposition, so persuasion of opponents is not independently shown."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hmann_britannica, src_hmann_uxl, src_hmann_mhs | 1838-1853 | reference entries, archival timeline] He founded and edited the Common School Journal (1838), toured and organised county meetings across the state, worked with a philanthropist's matching gift toward normal schools, and later accepted the founding presidency of Antioch. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 72 / 0.52 to 68 / 0.48 because the normal-school credit is shared in the sources with other reformers and the philanthropist, and the Encyclopedia of Education places him within a wider movement."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hmann_britannica, src_hmann_uxl | 1837-1848 | reference entries] Britannica summarises his reports as six connected propositions (universal education, public control and payment, mixed schools, nonsectarian moral content, humane method, trained professional teachers), and the Gale biography credits him with guidelines on teacher standards, a defined school year and curriculum standards. These are later summaries of a coherent design rather than evidence of how he reasoned, so the confidence is low."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "호러스 맨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/horace-mann-southworth-hawes-1850.jpg",
+    "width": 590,
+    "height": 768,
+    "source": "Daguerreotype portrait 'Horace Mann' by the Boston studio of Southworth and Hawes (Albert Sands Southworth and Josiah Johnson Hawes), about 1850, The Metropolitan Museum of Art, New York (object 37.14.25, gift of I. N. Phelps Stokes, Edward S. Hawes, Alice Mary Hawes and Marion Augusta Hawes, 1937). The Met's live object page labels the work Public Domain with an image download and states that Open Access public domain images are free for commercial and noncommercial use; the Met's collection API reports the object as public domain with no reproduction restriction. The file is the Met's original image (590 x 768 pixels), unaltered and not upscaled. A daguerreotype is a mirror image, so left and right are reversed.",
+    "license": "Public domain (The Met Open Access; photographers died 1894 and 1901)",
+    "licenseUrl": "https://www.metmuseum.org/art/collection/search/268323",
+    "attribution": "Southworth and Hawes, Horace Mann, ca. 1850, daguerreotype, The Metropolitan Museum of Art, Gift of I. N. Phelps Stokes, Edward S. Hawes, Alice Mary Hawes, and Marion Augusta Hawes, 1937 (37.14.25), public domain",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/268323",
+    "creator": "Southworth and Hawes",
+    "date": "ca. 1850",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/268323"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / CONFIRMED: the live Met page (opened in a real browser because the Met's site blocks scripted requests with a security checkpoint) shows 'Public Domain', 'Download Image' and the Met's Open Access statement of unrestricted commercial and noncommercial use; the Met collection API for object 268323 gives title 'Horace Mann', Southworth and Hawes (active 1843-1863), ca. 1850, daguerreotype 21.6 x 16.5 cm, isPublicDomain true, empty rightsAndReproduction, primary image https://images.metmuseum.org/CRDImages/ph/original/37.14.25.jpg which I downloaded (590 x 768, opened and viewed, saved unchanged). Both photographers died long ago (1894 and 1901), so there is also an age-based basis. Identity is the museum's own title for the sitter; the image shows an older man with white hair consistent with Mann at about 54. The small Commons copy named by the lead (347 x 487) was not used. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q1151173 label 'Horace Mann', description 'American politician (1796-1859)', born 4 May 1796, died 2 August 1859; not in the 644-person production list and no candidate file existed. ZERO POLITICS FLAG FOR THE LEAD: Wikidata calls him a politician and he served in the Massachusetts legislature and Senate, the US House (1848-53) and ran as a Free Soil candidate, and was an anti-slavery advocate, but his documented primary contribution is the Massachusetts common-school system and Antioch College; this profile scores only his education work (secretaryship 1837-48, journal, reports, normal schools, Antioch presidency) and none of the legislative, congressional, anti-slavery, hospital-reform or party work. If the lead's composition rule treats 'education reformer' as activism-primary, the candidate should be held; the evidence is otherwise complete. VOCABULARY: occupations teacher and writer (educator has no label; Britannica's word 'educator' and the Booker T. Washington precedent are noted), fields education and social_reform, impact domains educational and social, tags founder and advocate, archetypes organizational_leader and social_influencer, all grepped in en.ts and ko.ts; no historicalPolityKey. KO NAME: Wikidata Korean label 호러스 맨. REGION north_america, nationality US, ERA 19th_century. CANONICAL SIGNIFICANCE SOURCE: Lawrence A. Cremin, 'Horace Mann', Encyclopaedia Britannica (https://www.britannica.com/biography/Horace-Mann). READ IN FULL: Britannica, the Gale American Social Reform biography, Wagoner and Haarlow's Common School Movement entry, the Massachusetts Historical Society collection guide timeline, the Dictionary of Unitarian and Universalist Biography (five substantive sources). PERSPECTIVES: reference encyclopedia by an education historian, student-level reference biography, independent movement overview with a revisionist-aware reading list, archival finding aid, denominational biography. COUNTER-VOICES AND LIMITS: the Encyclopedia of Education places him within a wider movement (Carter, Barnard, Stowe, Beecher) and records Catholic, local-control and tax opposition; the Unitarian dictionary records criticism from both religious conservatives and liberals; Britannica records clerical, educator and political resistance. NOT OPENED: the 1844 dispute with Boston schoolmasters over the Seventh Annual Report (known only from catalogue entries, so not scored), Katz, Kaestle and Cremin's books, Mann's own twelve reports and Common School Journal (self-report, none scored), Antioch's own history page (did not load), and the Massachusetts Historical Society's microfilm. NO FIRST CLAIMS: the Gale biography's 'first teacher-training schools' and 'founder of the US public school system' wording is not used because the independent overview credits other reformers. SELF-CALIBRATION (agent): top-risk rows reviewed: proactive_agency (72/0.52 lowered to 68/0.48), impact_motivation (kept), persuasiveness (kept). HANDBACK61: {\"slug\": \"horace-mann\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"proactive_agency\", \"old_score\": 72, \"old_confidence\": 0.52, \"new_score\": 68, \"new_confidence\": 0.48, \"reason\": \"the normal-school credit is shared in the sources with other reformers and a philanthropist, and the overview places him within a wider movement\"}], \"reviewed_kept\": [\"impact_motivation\", \"persuasiveness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5} RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 76 / 0.6 to 72 / 0.54 because the motive is read from his own annual reports and admiring reference entries, with no independent source assessing his intent. RUBRIC_CORRECTION (lead review, before eligibility): persuasiveness lowered from 74 / 0.55 to 70 / 0.5 because the reference entries record both the campaign and strong opposition, so persuasion of opponents is not independently shown."
+  }
+}

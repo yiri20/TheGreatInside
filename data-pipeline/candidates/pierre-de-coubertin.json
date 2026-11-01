@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pierre-de-coubertin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Pierre de Coubertin",
+    "aliases": [
+      "Baron Pierre de Coubertin",
+      "Pierre de Frédy",
+      "Charles Pierre Frédy de Coubertin"
+    ],
+    "wikidataId": "Q82984",
+    "birthYear": 1863,
+    "deathYear": 1937,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "historian",
+      "writer"
+    ],
+    "fieldIds": [
+      "sport",
+      "education"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "administrator",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_coubertin_wikidata",
+      "kind": "wikidata",
+      "title": "Pierre de Coubertin (Q82984), verified live via the Wikidata API (2026-10-31): label 'Pierre de Coubertin', description 'founder of modern Olympic Games, pedagogue and historian (1863-1937)', born 1863, died 2 September 1937, citizenship France, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q82984"
+    },
+    {
+      "id": "src_coubertin_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Pierre, baron de Coubertin' (signed biography article by John J. MacAloon, a scholar of the Olympic movement), read in full: a French educator who played a central role in reviving the Olympic Games; his 20s searching for a vocation, his study tours of British public schools and American colleges, and lifelong school-reform, workers' university and history-teaching campaigns that 'attained little success'; his 1890 meeting with William Penny Brookes; the 1892 call for an Olympic revival that 'fell on deaf ears', his persistence, and the 1894 Sorbonne congress that resolved to hold Games in Athens; the 1904 St. Louis crisis; moving the headquarters to Lausanne and the 'neo-Olympism' ideology; his willingness to exhaust his fortune; retirement from the presidency and isolation in later life (personal and family details not used). CANONICAL SIGNIFICANCE SOURCE. Scholarly and sympathetic; it also notes the idea was 'hardly original'.",
+      "url": "https://www.britannica.com/print/article/140008"
+    },
+    {
+      "id": "src_coubertin_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Pierre, Baron de Coubertin' biography (Olympic results archive; also lists his 1912 Olympic gold for literature under a pseudonym), read in full: second IOC president and le rénovateur of the Olympic Games though 'not the only person who had the idea'; his studies of English school sport and Thomas Arnold's theories; 1889 North American tour; 1890 meeting with Brookes; the 1892 proposal that found no support in France; the 1894 congress ostensibly on amateurism to which he added the Olympic question at the end; the IOC and his presidency 1896-1925, when 'he was the International Olympic Committee' and financed it from his own fortune; Olympism's internationalism, fair play and sport for all; his never supporting women's participation; the 1936 recorded message. CANONICAL SIGNIFICANCE SOURCE. The archive's editors; sympathetic but frank about the women's issue; family details not used.",
+      "url": "https://www.olympedia.org/athletes/920613"
+    },
+    {
+      "id": "src_coubertin_kluge",
+      "kind": "institution",
+      "title": "Volker Kluge, 'The Rebels of 1894 and a Visionary Activist: Pierre de Coubertin', Journal of Olympic History 27(1), 2019, pp. 4-ff. (International Society of Olympic Historians), read for its opening sections (journal pages 4-10 of 18, the delegate lists skimmed) via the society's PDF: the origin of his educational reforms, the 1888 committee for physical exercises, the 1889 Paris congress he organised, his 1889 and 1893 tours of the United States, the 25 November 1892 Sorbonne speech that drew no response, his use of an earlier proposal for an international amateurism congress to carry the Olympic question as item eight on the 1894 programme, his setbacks in America, London and Germany, the circular letter and the 50 honorary patrons he recruited, and the fact that the committee's 'headquarters' was his parents' home with expenses paid from his own pocket. Detailed, documented historical article by an Olympic historian; sympathetic but critical of the idea that the founding was his alone.",
+      "url": "https://isoh.org/wp-content/uploads/2019/04/rebels-of-1894.pdf"
+    },
+    {
+      "id": "src_coubertin_reviewinhistory",
+      "kind": "institution",
+      "title": "Reviews in History (Institute of Historical Research), review no. 683 of John J. MacAloon (ed.), 'Muscular Christianity and the Colonial and Post-Colonial World' (2007), read for its opening sections (the review's remaining essay-by-essay summaries were not read): the reviewer's aside that Coubertin 'mistakenly attributed' the work of Thomas Hughes to Rugby headmaster Thomas Arnold and claimed him as his inspiration, and the reviewer's framing of muscular Christianity as a contested scholarly topic. Independent scholarly review; used only as a correction to the popular Arnold story and as a historiographic counter-voice, not for any trait row.",
+      "url": "https://reviews.history.ac.uk/review/683/print"
+    },
+    {
+      "id": "src_coubertin_easm",
+      "kind": "institution",
+      "title": "Dikaia Chatziefstathiou, Ian Henry and Eleni Theodoraki (Institute of Sport and Leisure Policy, Loughborough University), 'Coubertin, Colonialism and Control of the Spread of Olympic Sport in Africa', European Association for Sport Management conference abstract, 2004, read in full (two pages): a critical-realist reading of Coubertin's late writings arguing that his aims for sport in Africa reflected a concern to maintain a Western-dominated cultural system and counter indigenous sporting development. Peer-conference scholarship with an explicit critical standpoint; it is a counter-voice on his world view and is used only for the exclusions note and the third achievement caveat, not for trait scores.",
+      "url": "https://www.easm.net/download/2004/06213503c2a0e7a076746794609fe9ef.pdf"
+    },
+    {
+      "id": "src_coubertin_gallica",
+      "kind": "archive",
+      "title": "Bibliothèque nationale de France (Gallica), 'Baron Pierre de Coubertin : [photographie de presse] / [Agence Rol]', May 1921, glass negative 18 x 13 cm, Rol 65728 -- the library's own Gallica metadata record (OAI service) states the rights as 'domaine public / public domain'. Used only for the portrait.",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b530675028"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_coubertin_kluge, src_coubertin_olympedia, src_coubertin_britannica | 1888-1894; 1896-1925 | Olympic historian + archive + scholarly encyclopedia] After his November 1892 call for an Olympic revival met no response and French support was absent, the historian records that he reused an earlier amateurism-congress proposal, toured the United States again in 1893 to gain support, and went on after setbacks in America, London and Germany to hold the 1894 congress; Olympedia says he refused to give up, and Britannica says he persevered after the 1892 failure and survived the 1904 St. Louis crisis. Several distinct episodes from three sources over years, all sympathetic but detailed; the scholarship also stresses that others shared the idea, so the score reflects his persistence, not sole authorship."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_coubertin_kluge, src_coubertin_olympedia, src_coubertin_britannica | 1888-1896 | Olympic historian + archive + encyclopedia] Without being asked, he formed a committee on school physical exercise in 1888, organised the 1889 Paris congress, travelled to North America in 1889 and 1893 to study and promote his plans, gathered 50 honorary patrons, and ran the new committee from his parents' home at his own expense. SELF-CALIBRATION (agent): lowered from 74 / 0.60 to 70 / 0.55 because the same 1888-1894 episodes also support persistence, so counting them at the same weight risks double counting a single campaign."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_coubertin_kluge, src_coubertin_olympedia | 1893-1894 | Olympic historian + archive] When his 1892 speech drew no response he, with the publisher Pallisaux, revived a shelved proposal for an international congress on amateur rules and placed the question of restoring the Olympic Games last on the programme (Kluge: 'a trick'; Olympedia: he had 'secretly planned' it), and he recruited royal and diplomatic honorary patrons to lend the congress prestige when few organisations responded. Two distinct workarounds documented, both from historians who accept the account; the exact tactical motive is partly reconstructed from his own later memoirs."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_coubertin_kluge, src_coubertin_britannica | 1889-1894 | Olympic historian + encyclopedia] He tied his 1889 congress to the Paris Universal Exhibition, saw in the German excavations at Olympia a precedent for a French revival, linked the Olympic plan to the 1900 Exposition (he and Georges Strehly proposed an Olympic pavilion), and Britannica credits his 'taste for cultural symbolism' and social and political connections. Documented use of events and discoveries as platforms, but the 1904 world's-fair episode (Britannica) shows the same linkage nearly cost the movement control, and no source speaks to how he scanned for opportunities, so inference."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_coubertin_britannica, src_coubertin_olympedia, src_coubertin_kluge | 1880s-1930s | scholarly encyclopedia + archive + Olympic historian] Britannica lists his campaigns for secondary-school improvement, workers' universities and the popular study of world political history alongside Olympic work; Olympedia notes his copious writing, his law and political-science studies, his school-sport committees and a 1912 Olympic gold in literature under a pseudonym; Kluge shows him moving between educational reform, sports clubs, peace circles and international congresses. Sustained work in education, history writing, sport administration and the arts, with real output; the scholarly sources say several of the non-Olympic campaigns met little success, so the lean is moderate."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_coubertin_olympedia, src_coubertin_kluge, src_coubertin_britannica | 1894-1925 | archive + Olympic historian + encyclopedia] Olympedia says that for 29 years 'he was the International Olympic Committee', with no executive board until 1921 and with the committee funded largely from his fortune; Kluge records the committee's base in his parents' home; Britannica records his moving the headquarters to Lausanne and shaping the 'neo-Olympism' ideology. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 66 / 0.50 because 'he was the IOC' is a retrospective characterisation from one archive and there is little independent description of how he led members or delegated; dual-edged because the same centralisation is described alongside his opposition to women's participation that the committee reversed after 1925."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "피에르 드 쿠베르탱"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / lead file (Library of Congress Bain News Service halftone, 1915, 'No known restrictions on publication', unknown photographer) was examined and NOT used: the Library's rights statement is generic, the photographer is unnamed, and the item record says only that the Bain date is 'created or published later'. The better-supported alternative found within the one bounded retry is a 1921 press photograph by Agence Rol held by the Bibliothèque nationale de France: the Gallica metadata record for Rol 65728 (glass negative, May 1921, BnF Estampes et photographie) states rights 'domaine public / public domain' at item level, Commons records PD-France and PD-anon-expired for the same item, and a 1921 French press-agency photograph with no individual photographer named is outside French and therefore US protection (not restored by the URAA, since any French term had expired before 1996 unless an unnamed photographer lived beyond roughly 1945, which is not documented). RESIDUAL CAVEAT (recorded honestly): the individual photographer is not named, so the basis is item-level institutional statement plus age. Original 6042 x 8446 scan from Commons; cropped to the sitter's upper body (3600 x 4300 pixels) and downscaled to 1005 x 1200 with no upscaling; the glass-negative inscription in the right margin is cropped out. The lead's stated preflight grade (strong) therefore held in outcome (portrait found) but not on the lead's file; reason recorded for the lead's measurement: the Bain file's basis is a generic 'no known restrictions' plus an unnamed photographer.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q82984 returned label 'Pierre de Coubertin', description 'founder of modern Olympic Games, pedagogue and historian (1863-1937)', born 1863, died 1937-09-02, citizenship France, ko label present. SLUG/QID CHECK: not in prod61.txt and no existing candidate file. Region western_europe (France). Zero-politics passes: primary identity is sports organisation and education; his Olympic-movement peace rhetoric is described but not scored; his colonial and gender views are noted as counter-voices and excluded from trait scores. Occupation ids: 'historian' and 'writer' are used because no 'educator' or 'sports administrator' occupation id is labelled in the vocabulary (tag administrator and field education carry the role; reported to the lead). Era: 19th_century by birth and formative career (Games founded 1894-96).\nCANONICAL SIGNIFICANCE SOURCES: Britannica (MacAloon) https://www.britannica.com/print/article/140008 and Olympedia https://www.olympedia.org/athletes/920613 (both read in full).\nSOURCES READ (6 substantive): Britannica (MacAloon), Olympedia, Kluge in the Journal of Olympic History (opening pages, about 8 of the 18-page article read closely), Reviews in History review no. 683 (opening sections), EASM conference abstract (Chatziefstathiou, Henry, Theodoraki), Gallica record (portrait only); Wikidata orientation only. PERSPECTIVES: scholarly encyclopedia by an Olympic scholar, Olympic results archive, Olympic historian's documented article, independent scholarly review, critical-colonial scholarship. Non-self behavioural source: Kluge, which cites Coubertin's own memoirs but reconstructs events from several archives. COUNTER-VOICES: Olympedia and others that he was not the only originator; the review's note that he misattributed Arnold; the EASM critique of his Africa policy; Olympedia on his opposition to women's participation. NOT OPENED: the IOC's own 1894 Congress page (fetch timed out), Coubertin's own memoirs and writings, MacAloon's book 'This Great Symbol', the rest of Kluge's article (its later pages on the congress itself and the delegate lists), the Liu thesis and Hirthler panel remarks seen only as search-result summaries. EXCLUSIONS: family tragedies and finances in later life, any personality or mental-state inference, his views on women and colonialism (documented counter-voices, not scored), and 1936 Berlin Games associations.\nSELECTIVE SELF-CALIBRATION: reviewed persistence (highest score; kept at 76/0.64 because separate episodes from three sources), proactive_agency (lowered 74/0.60 to 70/0.55: same episodes as persistence) and leadership_drive (lowered 72/0.56 to 66/0.50: retrospective 'he was the IOC' from one archive). Initial rows 6; lowered 2. Flags for the lead: occupation vocabulary gap (educator / sports administrator unlabeled); the lead's Bain preflight file was unsuitable.\nHANDBACK61: {\"slug\":\"pierre-de-coubertin\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"proactive_agency\",\"old_score\":74,\"old_confidence\":0.6,\"new_score\":70,\"new_confidence\":0.55,\"reason\":\"same 1888-1894 episodes also support persistence, risking double counting one campaign\"},{\"attribute\":\"leadership_drive\",\"old_score\":72,\"old_confidence\":0.56,\"new_score\":66,\"new_confidence\":0.5,\"reason\":\"'he was the IOC' is a retrospective characterisation from one archive with little independent description of how he led\"}],\"reviewed_kept\":[\"persistence\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pierre-de-coubertin-agence-rol-1921.jpg",
+    "width": 1005,
+    "height": 1200,
+    "source": "Bibliothèque nationale de France (Gallica), 'Baron Pierre de Coubertin : photographie de presse', Agence Rol, May 1921, glass negative, Rol 65728; Wikimedia Commons copy of the 6042 x 8446 scan, cropped to the upper body and downscaled to 1005 x 1200",
+    "license": "Public domain (BnF item-level statement; 1921 press photograph, France and US term expired)",
+    "licenseUrl": "https://gallica.bnf.fr/ark:/12148/btv1b530675028",
+    "attribution": "Photo: Agence Rol, May 1921, Bibliothèque nationale de France (Gallica), public domain, cropped and resized",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Baron_Pierre_de_Coubertin_-_btv1b530675028.jpg",
+    "creator": "Agence Rol (press photograph agency; individual photographer not named)",
+    "date": "1921",
+    "kind": "likeness",
+    "sourcePageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b530675028"
+  }
+}

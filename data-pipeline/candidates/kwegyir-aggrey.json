@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kwegyir-aggrey",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "James Emman Kwegyir Aggrey",
+    "aliases": [
+      "James Aggrey",
+      "J. E. K. Aggrey",
+      "Aggrey of Africa"
+    ],
+    "wikidataId": "Q1679925",
+    "birthYear": 1875,
+    "deathYear": 1927,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GH"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "scholar"
+    ],
+    "fieldIds": [
+      "education"
+    ],
+    "impactDomains": [
+      "educational",
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "mentor",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_aggrey_wikidata",
+      "kind": "wikidata",
+      "title": "James Emman Kwegyir Aggrey (Q1679925), verified live via the Wikidata API (2026-10-31): English description 'Gold Coast-born intellectual, missionary, and teacher (1875-1927)', born 1875-10-18, died 1927-07-30, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1679925"
+    },
+    {
+      "id": "src_aggrey_dacb",
+      "kind": "biography",
+      "title": "Mark R. Lipschutz and R. Kent Rasmussen, 'Aggrey, James Emman Kwegyir (1875-1927)', Dictionary of African Historical Biography, 2nd edition (University of California Press, 1986), reproduced with permission by the Dictionary of African Christian Biography at Boston University, read in full: Wesleyan schooling and teaching in mission schools before 1898, B.A. at Livingstone College in 1902, teaching on its faculty, doctoral work at Columbia, membership of the Phelps-Stokes education commissions (tours of 1920 and 1924, the only African member), senior staff of Achimota College from late 1924, sudden death in July 1927. CANONICAL SIGNIFICANCE SOURCE (Britannica returned HTTP 403). An independent scholarly dictionary entry; it notes that his long absence from Ghana caused difficulties and offers no other critical assessment.",
+      "url": "https://dacb.org/stories/ghana/aggrey-james/"
+    },
+    {
+      "id": "src_aggrey_smith",
+      "kind": "biography",
+      "title": "Edwin W. Smith, 'Aggrey of Africa: A Study in Black and White' (Doubleday, Doran and Company, New York, 1929; Internet Archive scan, full text read in part), a biography written for the Phelps-Stokes trustees from his letters, his widow and colleagues: his schooling, his student years and professorship at Livingstone College (registrar, classes in English, sociology and economics), the two commissions, and the genesis of Achimota, including his recommendation of A. G. Fraser as principal and his appointment as assistant vice-principal. The author says he tried not to paint an idealised picture, but the book is admiring and much of its testimony comes from friends; it also records the 'running fire of black criticism' he met from radical Africans at one meeting.",
+      "url": "https://archive.org/details/aggreyofafricast0000edwi"
+    },
+    {
+      "id": "src_aggrey_sotiropoulos",
+      "kind": "institution",
+      "title": "Karen Sotiropoulos, 'James and Rose Aggrey and the Black Atlantic Gestations of African Nationalism', International Journal of African Historical Studies 53(2), 2020, pp. 239-264, abstract read on the Cleveland State University repository page (full text not opened): calls him the father of African education and the 'Booker T. Washington of Africa', says he influenced later nationalists, and reads his vision of cooperation on the Phelps-Stokes tour through his letters to his wife. A modern scholarly, nuancing account; abstract only, so used for context and for the political reading that is not scored.",
+      "url": "https://engagedscholarship.csuohio.edu/clhist_facpub/137"
+    },
+    {
+      "id": "src_aggrey_saho",
+      "kind": "institution",
+      "title": "South African History Online, 'James Emmanuel Kwegyir Aggrey' (first published 17 February 2011, updated 20 June 2018), read: born in Anamabu on 18 October 1875, spent three months in South Africa in 1921 as a member of the Phelps-Stokes Commission, a prime mover in founding the Johannesburg Joint Council of Europeans and Africans, and with a race-relations outlook of compromise and cooperation that reinforced the tendency of African National Congress leaders to join interracial councils. An independent history archive; its race-relations material is political context and is not scored.",
+      "url": "https://sahistory.org.za/node/7776"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_aggrey_smith, src_aggrey_dacb, src_aggrey_saho | 1920-1925 | admiring biography + dictionary entry + history archive] The biography reports that he held audiences of six or seven hundred students spellbound and that a Sunday address ran so long with questions that it barely finished by midnight, quoting a colleague at Fort Hare on his practical, well-aimed addresses; the dictionary says that as the only African on the commission he drew strong interest from African audiences. The history archive notes that his emphasis on compromise shaped how interracial councils were viewed, and the biography records a 'running fire of black criticism' from radical Africans at one meeting, so the trait is recorded as dual-edged. Scored for his lecturing on education; his race-relations advocacy is political context and not scored."
+    },
+    "discipline": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aggrey_smith | 1898-1920 | admiring biography] The biography records that as student and then registrar at Livingstone College he called the roll himself at eight o'clock, was a stickler for punctuality (students tried and failed to catch him late), was always accessible, worked hard and expected students to do likewise, and won a gold medal for scholarship and deportment. SELF-CALIBRATION (agent): lowered from 64 / 0.44 because the daily-routine detail comes from one admiring biography relaying colleagues' recollections, with no independent source on his work habits."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aggrey_smith, src_aggrey_dacb | 1898-1927 | admiring biography + dictionary entry] He graduated B.A. at the head of his class in 1902, later took the A.M. and a doctorate of divinity, and while teaching resumed study at Columbia University toward a doctorate, going on leave in May 1927 to write the dissertation (dictionary entry); the biography adds that he won gold medals for English composition and scholarship and delivered the first Greek oration heard at the college. The degrees and the doctoral work are documented in two sources; the motive is not scored."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aggrey_smith, src_aggrey_dacb | 1914-1927 | admiring biography + dictionary entry] The dictionary says his friendship with T. Jesse Jones brought him onto the Phelps-Stokes commissions, and the biography describes the second commission as international, interdenominational and interracial, records that he told J. H. Oldham he could work with A. G. Fraser as principal of Achimota, and that Fraser named him first member of his staff; at Livingstone he encouraged a colleague's student orchestra. The sources are friendly and the working relationships are described by participants and an admiring biographer."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_aggrey_smith, src_aggrey_dacb | 1902-1920 | admiring biography + dictionary entry] At Livingstone College he was registrar and financial secretary and took classes in English language and literature, sociology and economics, later teaching New Testament Greek and Christian sociology at the seminary, while serving as a rural pastor (dictionary entry) and, as a student, contributing articles to a daily newspaper (biography). The teaching breadth is documented; the quality of each strand is not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "제임스 에마누엘 크웨기르 아그레이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kwegyir-aggrey-dennis-1929.jpg",
+    "width": 892,
+    "height": 1200,
+    "source": "Photograph of James Emman Kwegyir Aggrey printed as the frontispiece of Edwin W. Smith, Aggrey of Africa: A Study in Black and White (Doubleday, Doran and Company, New York, first published May 1929), with the printed credit 'Photo by Albert Dennis' and a facsimile of his signature; taken from the Internet Archive page scan of that book (original page image 1774 x 2926 pixels), cropped to the oval photograph and downscaled to 892 x 1200 pixels, no upscaling. Basis: the photograph was published in 1929, so under United States law it is in the public domain (95 years from publication ended on 31 December 2024); rights outside the United States, the photographer's dates and the photograph's date of sitting were not established. The Commons file suggested by the lead (a Columbia finding-aid picture of unknown author, dated by an uploader's guess to 1917) was not used.",
+    "license": "Public domain in the United States (published 1929)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-US-expired",
+    "attribution": "Photograph credited to Albert Dennis, reproduced as the frontispiece of Edwin W. Smith, Aggrey of Africa (1929); scan via the Internet Archive",
+    "attributionUrl": "https://archive.org/details/aggreyofafricast0000edwi",
+    "creator": "Albert Dennis (photographer credit printed in the book; otherwise unidentified)",
+    "date": "1929 (publication; sitting date unknown)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/aggreyofafricast0000edwi"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / RESOLVED by a different source. The lead's Commons file (183 x 276, unknown author, 'PD-US-expired' taken from a Columbia finding aid, dated by the uploader as a guess of 1917) was rejected: author unknown, date a guess, and the basis is only the uploader's tag. Instead I found the signed oval photograph that is the frontispiece of Smith's 1929 biography (title page read: Doubleday, Doran and Company, New York, 1929; imprint page: first published May 1929), credited 'Photo by Albert Dennis' and carrying a facsimile of Aggrey's signature on the page itself. A work published in 1929 is in the United States public domain from 1 January 2025 (95-year term, including works whose US copyright was restored in 1996), so the US basis does not depend on the photographer's identity or dates. Not established: the photographer's life dates, the date of the sitting, and the status in other countries; the Internet Archive's scan is of a lending copy digitised in 2025 and carries no rights statement of its own. The risky lead failed because the Commons file's rights basis was an uploader's tag on an undated, unattributed picture; the better source was the book. PREFLIGHT: QID Q1679925 VERIFIED LIVE (2026-10-31): label 'James Emman Kwegyir Aggrey', description 'Gold Coast-born intellectual, missionary, and teacher (1875-1927)', born 1875-10-18, died 1927-07-30; no collision in prod61.txt (grepped slug, name and QID) and no existing candidate file. SLUG 'kwegyir-aggrey' follows the frozen cohort. REGION sub_saharan_africa (Gold Coast, now Ghana), nationality code GH following the Kwame Nkrumah precedent; career split between the Gold Coast and the United States (about 26 years in the US). ERA 20th_century. VOCABULARY (grepped EN and KO): occupations teacher, scholar; field education; tags mentor, communicator; archetype social_influencer ('educator', 'missionary' and 'lecturer' have no label and are not used). KOREAN NAME: no Wikidata label, so a transliteration is recorded, to be confirmed by the lead. ZERO POLITICS: primary identity judged educator (teacher and registrar at Livingstone College, member of the Phelps-Stokes education commissions and assistant vice-principal at Achimota College); his race-relations advocacy, the Joint Council, his influence on later nationalists and his views on Marcus Garvey are context and are NOT scored; rows cover teaching, study, lecturing and working relationships only. No claim is made that he founded Achimota: the biography shows the college was the governor's scheme with Fraser as principal, and he was named assistant vice-principal (Fraser had asked for vice-principal and this was not accepted), his recorded roles being recommending Fraser and arguing for extending the college to girls. CANONICAL SIGNIFICANCE SOURCE: Lipschutz and Rasmussen, Dictionary of African Historical Biography, via the Dictionary of African Christian Biography (https://dacb.org/stories/ghana/aggrey-james/); Britannica 403. READ (4 substantive): the dictionary entry; Smith's 1929 biography (about 600,000 characters of OCR text, read in part: the Livingstone College, commission and Achimota chapters); the SAHO page; Sotiropoulos's abstract (not the full article). PERSPECTIVES: a scholarly dictionary, a commissioned admiring biography built on friends' testimony, a history archive on race-relations and a modern scholarly reading; counter-voices: radical African criticism recorded by Smith, SAHO's compromise reading and the dictionary's note on his absence; I did not open Kenneth King or Thomas Howard's articles, Ofosu-Appiah's biography or the Phelps-Stokes reports themselves. NOT OPENED: Columbia's finding aid (blocked as a bot), Britannica, BlackPast (403), the full Sotiropoulos article. Exclusions: marriage and family, politics and nationalism, the Garvey remarks, death. CALIBRATION: no adversarial source and most behavioural detail comes from one admiring biography, so every row <= 0.50. SELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS. SELF-CALIBRATION: reviewed persuasiveness, discipline and mastery_orientation; lowered discipline from 64 / 0.44 to 60 / 0.40 (reason in the row); kept persuasiveness (corroborated across three sources and already dual-edged) and mastery_orientation (degrees and doctoral work documented in two sources). HANDBACK61: {\"slug\": \"kwegyir-aggrey\", \"portrait_preflight_grade\": \"risky\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"discipline\", \"old_score\": 64, \"old_confidence\": 0.44, \"new_score\": 60, \"new_confidence\": 0.4, \"reason\": \"The daily-routine detail comes from one admiring biography relaying colleagues' recollections, with no independent source on his work habits.\"}], \"reviewed_kept\": [\"persuasiveness\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

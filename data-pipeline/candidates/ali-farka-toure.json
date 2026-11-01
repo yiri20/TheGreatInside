@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ali-farka-toure",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ali Farka Touré",
+    "aliases": [
+      "Ali Farka Toure",
+      "Ali Ibrahim Touré"
+    ],
+    "wikidataId": "Q334947",
+    "birthYear": 1939,
+    "deathYear": 2006,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "ML"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "musician",
+      "singer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught",
+      "independent"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_farka_wikidata",
+      "kind": "wikidata",
+      "title": "Ali Farka Toure (Q334947), verified live via the Wikidata API (2026-10-31): label 'Ali Farka Toure', description 'Malian musician (1939-2006)', born 31 October 1939, died 6 or 7 March 2006 (two values recorded), Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q334947"
+    },
+    {
+      "id": "src_farka_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Ali Farka Toure', consulted for orientation only (dates, existence of the Commons portrait). Never counted as support for any row.",
+      "url": "https://en.wikipedia.org/wiki/Ali_Farka_Tour%C3%A9"
+    },
+    {
+      "id": "src_farka_universalis",
+      "kind": "institution",
+      "title": "Encyclopaedia Universalis, 'Toure Ali Farka (1939-2006)' (in French; the free preview text), read: presents him as a Malian singer and guitarist whose Timbuktu blues earned the nickname 'the African John Lee Hooker', which he turned around by saying Sahel music has the root and trunk and American black music only the leaves; a farmer at heart who kept working the land; international recognition from concerts in Britain in the mid-1980s for the independent label World Circuit, to which he stayed loyal; first Grammy for Talking Timbuktu in 1995 and a second for In the Heart of the Moon with Toumani Diabate; several announcements that he would stop performing; elected mayor in 2004. CANONICAL SIGNIFICANCE SOURCE: a standard French encyclopedia; the text is a free extract and breaks off before the end.",
+      "url": "https://www.universalis.fr/encyclopedie/ali-farka-toure/"
+    },
+    {
+      "id": "src_farka_gale",
+      "kind": "biography",
+      "title": "Gale 'Contemporary Musicians' entry 'Toure, Ali Farka' (Encyclopedia.com copy), read in full: a pre-2006 profile saying he has often been called a missing link between the blues and West African music, that this oversimplifies and he forged a style of his own, quoting a Guitar Player writer who debunked the missing-link hype and a Sing Out! review noting that he spent more than a year away from the road and the studio on an irrigation system for the village of Dofana; the Billboard-reported logistics of recording him without a telephone; and the four-day Talking Timbuktu sessions with Ry Cooder, who is praised for not altering his playing. Reference article compiled from magazines; its birth year (1942) conflicts with other sources and was not used.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-popular-and-jazz-biographies/ali-farka-toure"
+    },
+    {
+      "id": "src_farka_mg2003",
+      "kind": "press",
+      "title": "Mail & Guardian (South Africa), 'Ali Farka Toure - profession: farmer' (3 July 2003, from AFP), read in full: an interview-based news profile saying he planned to trade his guitar for a hoe in Niafunke, vowed not to tour outside Mali again, wanted to look after young Malian and African artists and farm, owned 40 hectares of paddy fields and about 2,800 fruit trees, carried a fan-club card reading 'Profession: farmer', and still had an upcoming Smithsonian Folklife Festival concert. News agency reportage built on his own statements; personal and family details were not used.",
+      "url": "https://mg.co.za/article/2003-07-03-ali-farka-toure-profession-farmer"
+    },
+    {
+      "id": "src_farka_mg2010",
+      "kind": "press",
+      "title": "Mail & Guardian (South Africa), 'The final melody' by Lloyd Gedye (1 April 2010), read in full: a retrospective on the Hotel Mande sessions that produced In the Heart of the Moon and the final album Ali and Toumani, quoting producer Nick Gold and kora player Toumani Diabate on how the collaboration was improvised with little discussion, and on the sessions having been booked specially for a further recording. Written after his death and quoting two close collaborators, so admiring; the passages about his health were not used.",
+      "url": "https://mg.co.za/article/2010-04-01-the-final-melody"
+    },
+    {
+      "id": "src_farka_afrik",
+      "kind": "press",
+      "title": "Afrik.com, 'Ali Farka Toure, ane et genie' by Arnold Senou (27 August 2023; in French), read in full: a pan-African news-site retrospective on his life and career, saying he collected folk songs on a recorder, set up his own label and helped younger musicians, put the proceeds of tours and albums into farm inputs and irrigation at Niafunke, recorded The River in two hours and found the three-day Talking Timbuktu sessions too long. Popular retrospective with some dramatic or unverified biographical claims (for example about his childhood), so used only for corroborating outline.",
+      "url": "https://www.afrik.com/ali-farka-toure-ane-et-genie"
+    },
+    {
+      "id": "src_farka_popmatters",
+      "kind": "press",
+      "title": "PopMatters, 'RIP Ali Farka Toure - a tribute from Corey Harris' (March 2006), read in full: an American blues musician's first-hand tribute describing seeing him with Ry Cooder in 1994, how he answered questions about the blues, five days spent with him in Niafunke in 2001 and a 2002 recording trip, and his habit of describing himself as a farmer. Admiring first-person account by a collaborator, so partial; the family-lineage claims in it were not used.",
+      "url": "https://www.popmatters.com/rip_ali_farka_toure_a_tribute_from_corey_harris-2495678506.html"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_farka_gale, src_farka_universalis, src_farka_popmatters | 1980s-2005 | reference biography + encyclopedia + collaborator tribute] The Gale entry says that although he is often called a missing link between the blues and West African music, he forged a style of his own, quoting reviewers of the period (a Village Voice writer describing a guitar style that hints and wanders off in other directions rather than cranking out one-chord boogies); Universalis and the PopMatters tribute describe a sound rooted in Songhai and other Sahel traditions, not a copy of American blues. A distinctive personal style is documented by contemporary reviewers as well as later praise, but the sources are mostly appreciative and none analyses the music in detail."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_farka_gale, src_farka_mg2010, src_farka_afrik, src_farka_mg2003 | 1992-2005 | reference biography + press retrospectives] Gale records that he and Ry Cooder completed Talking Timbuktu in four days and that Cooder built arrangements around his playing without altering it; the 2010 Mail & Guardian quotes producer Nick Gold and Toumani Diabate describing an improvised partnership on In the Heart of the Moon with almost no discussion and a further session arranged at Diabate's suggestion; the 2003 report says he wanted to look after young Malian artists, and the 2023 retrospective says he helped younger musicians. Repeated cross-cultural and cross-generational collaboration is documented by several voices, but the closest accounts come from his collaborators and the later press retrospectives are admiring."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_farka_gale, src_farka_mg2003, src_farka_afrik, src_farka_popmatters | 1992-2003 | reference biography + press + collaborator tribute] A Sing Out! review quoted in the Gale entry notes that he chronicled in song, and spent more than a year off the road and out of the studio on, an irrigation system for the village of Dofana; the 2003 report has him saying he wants to look after young Malian and African artists and farm; the 2023 retrospective says he put tour and album earnings into irrigation and farm inputs at Niafunke. Work aimed at local benefit alongside his career is documented, but much of it is his own statement or admiring retrospection, and his later term as mayor is political office and is deliberately not scored. SELF-CALIBRATION (agent): lowered from 70 / 0.56 because much of it rests on his own stated aims and an admiring collaborator's tribute, and the only independent observation is one magazine line quoted in a reference article."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_farka_mg2003, src_farka_universalis | 1980s-2003 | press + encyclopedia] In 2003 he vowed never to tour outside Mali again and said he wanted to farm and look after young artists, and Universalis says he announced several times that he would stop performing, saying he did not want Europe to take him away from Africa, and stayed loyal to one independent label throughout his career; yet the same encyclopedia says he kept returning to play in Europe and the United States, and the 2003 report itself mentions an upcoming Washington concert. A documented preference to run his life on his own terms, with declared limits that he did not strictly keep, so confidence is modest and impact is neutral."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_farka_universalis, src_farka_popmatters, src_farka_gale | 1990s-2006 | encyclopedia + collaborator tribute + reference biography] Universalis quotes him rejecting the label 'African John Lee Hooker' and arguing that the Sahel has the root and trunk of the music and America only the leaves; the PopMatters tribute says he told American audiences that blues meant nothing to him, being only a colour; the Gale entry quotes a Guitar Player writer who also rejected the missing-link idea. He is documented as resisting a marketing frame placed on him, but all of it is his own statement relayed by interviewers and an admiring collaborator, with no behavioural test. SELF-CALIBRATION (agent): lowered from 62 / 0.50 because all support is his own opinion relayed by interviewers and an admiring collaborator, with no behavioural test of the stance."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알리 파르카 투레"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: risky (lead) / HELD, as the lead predicted. The only Commons file for him, 'Ali Farka Toure.jpg' (1781 x 2231), is an own-work upload by user Tagles dated 29 January 2005 with a self-release tag; the file page records no event, venue or photographer details beyond the uploader's name, EXIF shows a Canon EOS-1Ds camera, it was uploaded in January 2011 (six years after the date given) and the uploader's entire upload history is three files. A bare uploader assertion with no independent confirmation of authorship is not a rights basis under this brief. Afrik.com's 2023 article credits its lead image to 'Tagles', which only repeats the Commons attribution. One bounded retry (about 12 calls): a Commons search found no other photograph of him (only his son Vieux Farka Toure); the one State Department magazine PDF hit is a text mention, and its Internet Archive item would not load; a web search for freely licensed photos surfaced only an Unsplash image of him at Nottingham in 1987 (Unsplash licence is a bespoke licence, not public domain or a Creative Commons licence, I could not open the page because of a bot challenge, and the uploader's ownership of an archival 1987 photograph is unverified), commercial agency images (Magnum), and label press photos 'courtesy of World Circuit'. BLOCKER: no photograph with a verifiable photographer, date and licence. NEXT STEP: a photograph from a named photographer or institution under an explicit open licence or public-domain statement (for example a concert or festival photograph on Commons or Flickr with a verifiable Creative Commons licence from the photographer, or a US-government photograph of his 2003 Smithsonian Folklife Festival appearance with a stated federal-work basis), or the written release of the Commons uploader. Why the risky lead held: the lead's concern (uploader-only own-work claim, no independent source) was correct and nothing I could verify improved it.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q334947 returned en label 'Ali Farka Toure', description 'Malian musician (1939-2006)', born 1939-10-31, died 2006-03-06 or 2006-03-07 (both recorded), ko label '알리 파르카 뚜레'. SLUG/QID CHECK: not in prod61.txt and no existing candidate file. Region sub_saharan_africa (Mali; precedent salif-keita). Era 20th_century (precedent: fela-kuti, cesaria-evora). Zero-politics passes: primary identity is music; his 2004 election as mayor of Niafunke is political office and is not scored; his farming and irrigation work is scored only as community-oriented effort before and alongside the mayoralty. Subject died in 2006, but privacy care taken: his health and cause of death (reported in the sources), family, marriages and children, childhood spiritual episodes and unverified lineage claims were not used for any trait. Korean display name: the Korean Wikipedia article title '알리 파르카 투레' (the Wikidata ko label '알리 파르카 뚜레' is a variant spelling).\nCANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Universalis, 'Toure Ali Farka (1939-2006)' https://www.universalis.fr/encyclopedie/ali-farka-toure/ (free extract, read).\nSOURCES READ (7 substantive): Universalis extract; Gale Contemporary Musicians entry; Mail & Guardian 2003 (AFP); Mail & Guardian 2010 (Gedye); Afrik.com 2023; PopMatters tribute by Corey Harris; plus an AP death report via Pollstar read only for dates and Grammy facts (not a row source). Wikipedia and Wikidata orientation only. PERSPECTIVES: a French encyclopedia, an English-language reference biography compiled from contemporary magazines, South African news (agency interview and retrospective), a pan-African news site, and a collaborator's tribute. Non-self behavioural source: the Gale entry (via Sing Out!, Billboard and Down Beat reporting) and the 2010 Mail & Guardian piece quoting two collaborators. COUNTER-VOICE: the Gale entry's Guitar Player writer and the entry's own correction of the 'missing link' idea push against the dominant marketing story; no hostile or critical behavioural source was found. NOT OPENED: Britannica and the New York Times obituary (blocked), the Guardian and Independent obituaries (not retrievable), Rolling Stone and Grammy.com profiles, World Circuit biography, his interviews and films, Music In Africa profiles (user-submitted, low quality, not used). Conflicts noted: birth year 1939 (Wikidata, Universalis, AP) versus 1942 (Gale); death date 6 or 7 March 2006. Sparse by design: five rows, none above 70.\nSELECTIVE SELF-CALIBRATION: reviewed creative_originality (kept: reviewers of the period quoted in Gale are independent of him), impact_motivation (lowered 70/0.56 to 66/0.52), independent_thinking (lowered 62/0.50 to 58/0.46). Initial rows 5; lowered 2.\nMAJOR ACHIEVEMENT SELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS (farming and the mayoralty are not carded as achievements); nothing corrected.\nHANDBACK61: {\"slug\":\"ali-farka-toure\",\"portrait_preflight_grade\":\"risky\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":70,\"old_confidence\":0.56,\"new_score\":66,\"new_confidence\":0.52,\"reason\":\"much of it rests on his own stated aims and an admiring collaborator's tribute; the one independent observation is a single magazine line quoted in a reference article\"},{\"attribute\":\"independent_thinking\",\"old_score\":62,\"old_confidence\":0.5,\"new_score\":58,\"new_confidence\":0.46,\"reason\":\"all of it is his own statements about the blues relayed by interviewers and an admiring collaborator, with no behavioural test of the stance\"}],\"reviewed_kept\":[\"creative_originality\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Best candidate: 'Ali Farka Toure.jpg' on Wikimedia Commons (1781 x 2231), an own-work upload by user Tagles of a photograph dated 29 January 2005, released with a self public-domain tag. Blocker: the rights rest solely on an uploader's own-work assertion (the file was uploaded in January 2011, the uploader has only three uploads, and the page names no event, venue or photographer details), with no independent confirmation of who took the photograph. Alternatives checked and rejected: an Unsplash image of him at Nottingham in 1987 (a bespoke Unsplash licence, page not openable, uploader's ownership of an archival photograph unverified), agency images from Magnum and label press photos courtesy of World Circuit (commercial or restricted); no other Commons photograph of him exists. Next step: find a photograph with a verifiable photographer, date and explicit open licence or public-domain statement (for example a festival or concert photograph under a verifiable Creative Commons licence from the photographer, or a US-government photograph of his 2003 Smithsonian Folklife Festival appearance), or obtain a written release from the Commons uploader."
+  }
+}

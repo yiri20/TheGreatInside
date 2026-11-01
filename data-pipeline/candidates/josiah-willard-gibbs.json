@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "josiah-willard-gibbs",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Josiah Willard Gibbs",
+    "aliases": [
+      "J. Willard Gibbs",
+      "Willard Gibbs",
+      "Josiah W. Gibbs"
+    ],
+    "wikidataId": "Q153243",
+    "birthYear": 1839,
+    "deathYear": 1903,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "physics",
+      "chemistry",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "theorist",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gibbs_wikidata",
+      "kind": "wikidata",
+      "title": "Josiah Willard Gibbs (Q153243), verified live via the Wikidata API (2026-10-31): label 'Josiah Willard Gibbs', description 'American scientist (1839-1903)', born 1839-02-11, died 1903-04-28, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q153243"
+    },
+    {
+      "id": "src_gibbs_nas",
+      "kind": "institution",
+      "title": "Charles S. Hastings, 'Biographical Memoir of Josiah Willard Gibbs, 1839-1903', National Academy of Sciences Biographical Memoirs, volume 6 (May 1909), read in full in the PDF text (it reproduces most of Henry Bumstead's review of the scientific work and adds a section on his character and academic life). CANONICAL SIGNIFICANCE SOURCE: the National Academy's memoir; it calls 'On the Equilibrium of Heterogeneous Substances' (1876 and 1878) his most important work and says it founded a new department of chemical science, and it covers his vector analysis, work on the electromagnetic theory of light and 'Elementary Principles in Statistical Mechanics'. A colleague's tribute, so admiring; its remarks on his lack of advocacy and slow recognition are the useful counterweights.",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/gibbs-josiah.pdf"
+    },
+    {
+      "id": "src_gibbs_bumstead",
+      "kind": "biography",
+      "title": "Henry A. Bumstead, 'Josiah Willard Gibbs' (biographical sketch of 1903, reprinted in volume 1 of The Scientific Papers of J. Willard Gibbs, 1906), read in full in the Wikisource transcription: a former student and co-editor's account of his education, Yale chair from 1871, systematic and solitary way of working, careful but closed lectures, reluctance to publish his vector analysis, the controversial notes in Nature over quaternions, and the slow reception of his thermodynamics. Warm and partisan, and it overlaps with the National Academy memoir, so the two are not independent of each other.",
+      "url": "https://en.wikisource.org/wiki/Scientific_Papers_of_Josiah_Willard_Gibbs,_Volume_1/Biographical_Sketch"
+    },
+    {
+      "id": "src_gibbs_garrison",
+      "kind": "press",
+      "title": "Fielding H. Garrison, 'Josiah Willard Gibbs and his Relation to Modern Science, I', Popular Science Monthly 74 (May 1909), read in full in the Wikisource transcription (part one of a series): an outside writer, an Army Medical Library assistant librarian, who calls his own account frankly journalistic. It calls Gibbs a mathematician rather than an experimenter, says his contribution was new ways of thinking, notes that the 1875-78 memoir has about seven hundred formulas and is rarely read in full, that its aim was not understood at first and that some theorems were later rediscovered by others, and that the general theory rested on earlier work by James Thomson and Horstmann. The most independent and most critical of the sources, though secondhand.",
+      "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_74/May_1909/Josiah_Willard_Gibbs_and_his_Relation_to_Modern_Science_I"
+    },
+    {
+      "id": "src_gibbs_fiene",
+      "kind": "biography",
+      "title": "Donald M. Fiene, 'Josiah Willard Gibbs', EBSCO Research Starter (2024), read in full: a scholar's overview listing his key works, the 1871 Yale chair that carried no salary for about nine years, Yale's counter to a Johns Hopkins offer, the obscure venue and terse style that kept him little known, the way Helmholtz and Planck independently reproduced some results, Ostwald's 1892 German translation, his refusal to rewrite the treatise for a general readership, and the later industrial use of the phase rule. Reference article for general readers; the salary figures are only summarised in it.",
+      "url": "https://www.ebsco.com/research-starters/history/josiah-willard-gibbs/"
+    },
+    {
+      "id": "src_gibbs_cthistory",
+      "kind": "institution",
+      "title": "Connecticut History (a CTHumanities project), 'Josiah Willard Gibbs's Impact on Modern Science' (15 February 2020, unsigned), read in full: his Yale degrees, 1871 chair, the two-part monograph published by the Connecticut Academy in 1875 and 1878, the 1901 Copley Medal and later honours, and the statement that much of his work received little recognition in his time. A state-humanities popular article; one caption in it contains a date error, so it is used only for the outline.",
+      "url": "https://connecticuthistory.org/josiah-willard-gibbs-impact-on-modern-science"
+    },
+    {
+      "id": "src_gibbs_britannica1911",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, eleventh edition (1911), 'Gibbs, Josiah Willard' (unsigned in the transcription), read in full on Wikisource: a contemporary reference entry listing his Yale posts, the thermodynamic papers, the 1876 and 1878 memoir credited with founding a new branch of chemical science, the vector pamphlets of 1881 and 1884 and E. B. Wilson's 1901 textbook, the 1883-1889 optics papers, the 1902 statistical mechanics book and the 1901 Copley Medal. Short and respectful.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Gibbs,_Josiah_Willard"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gibbs_nas, src_gibbs_bumstead, src_gibbs_garrison | 1873-1902 | academy memoir, student's sketch, outside magazine writer] The memoir describes the 'On the Equilibrium' paper as showing that the condition for equilibrium is of universal application by removing 'one restriction after another', first chemical homogeneity, and treating every subject with 'exhaustive thoroughness'; it says his first paper was a careful study of all the diagrams that seemed likely to be useful and that his tendency toward rigorous logic made him reject mechanical models whose discrepancies destroyed their usefulness for him; Garrison independently calls his presentation rigorous and formal, adding that its density delayed acceptance. The method is described the same way by colleagues and by an outside writer and can be seen in the structure of the papers, but the three accounts are retrospective and admiring. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 78 / 0.62 to 74 / 0.56 because the strongest wording comes from academy memoirs by colleagues and a student, and rigor is partly inferred from the fame of the results."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gibbs_nas, src_gibbs_garrison, src_gibbs_fiene | 1873-1878 | academy memoir, outside writer, scholar overview] The memoir says his 1873 note on surfaces suggested that mixtures of substances differing in chemical composition could be treated like mixtures of states, and that he then made the masses of the constituents variables so that a general condition of equilibrium covered heterogeneous bodies, extending the analysis in the manner of a geometer working in more dimensions; Garrison says his contribution was new ways of thinking rather than isolated discoveries; Fiene calls the treatise an exhaustive treatment of an entirely new branch of science. The generalising move is documented by the memoir, but the praise of its scope is retrospective. RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 76 / 0.55 to 72 / 0.5 because abstraction is read from the same admiring memoirs and from the later importance of the theory, with only one outside voice qualifying it."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gibbs_nas, src_gibbs_garrison, src_gibbs_fiene, src_gibbs_britannica1911 | 1873-1878 | academy memoir, outside writer, scholar overview, reference entry] The memoir and the 1911 reference entry credit the 1876-1878 memoir with founding a new department of chemical science, and Fiene says Helmholtz and Planck independently duplicated some of its results and that Maxwell recognised the entropy work; Garrison, however, stresses that the general theory rested on earlier work by James Thomson and Horstmann, and that some theorems were later rediscovered by others unaware of it, and the memoir adds that Gibbs himself felt his vector analysis was an adaptation of others' work. The founding claim is retrospective praise and is partly qualified by Garrison, so the score is only moderately high. SELF-CALIBRATION (agent): lowered from 74 / 0.52 because the founding claim is retrospective praise by colleagues and reference entries and is qualified by Garrison's note that the theory built on earlier work."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gibbs_nas, src_gibbs_fiene, src_gibbs_britannica1911 | 1863-1902 | academy memoir, scholar overview, reference entry] The sources list work in an engineering dissertation on the form of the teeth of wheels (1863), thermodynamics and chemical equilibrium, five papers on the electromagnetic theory of light (1883-1889), vector analysis, the use of vector methods in orbit determination, and statistical mechanics; Fiene calls his theory of dyadics his most important contribution to pure mathematics, and the memoir notes he taught Latin and natural philosophy as a tutor and lectured on optics and waves in his first years at Yale. The range of fields is documented in three independent descriptions, but all are surveys of titles and none says how he moved between fields."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_gibbs_bumstead, src_gibbs_nas | 1871-1903 | student's sketch, academy memoir] Bumstead says he worked alone, seemed not to need conversation or criticism from others, seldom spoke of current work until it was nearly complete, and did not admit students to his work in progress, which Bumstead calls his chief limitation as a teacher of advanced students; the memoir says he had boundless resources within his own mind and lived much alone. His professional habit of working privately is described by two close and admiring writers who overlap, and it carried costs (few advanced students, slow recognition), hence dual-edged and modest confidence. Private life is not used."
+    },
+    "persuasiveness": {
+      "score": 40,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_gibbs_fiene, src_gibbs_nas, src_gibbs_garrison | 1876-1909 | scholar overview, academy memoir, outside writer] Fiene says he rejected suggestions to rewrite the treatise for a general readership and that its terse style kept him little known outside a small circle; the memoir says colleagues' severest criticism was that he often lacked the essential qualities of an advocate because he argued every question candidly from both sides; Garrison says the treatise is austere and dense and rarely read in full. His writing and public stance favoured compact rigour over winning readers, which cost him recognition but is documented by sources that largely agree; the score is low and the impact dual-edged because the same restraint is praised as judicial temperament."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조사이어 윌러드 기브스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/josiah-willard-gibbs-unknown-1906.jpg",
+    "width": 888,
+    "height": 1184,
+    "source": "Photographic portrait of Josiah Willard Gibbs made before his death in 1903 by an unidentified photographer, reproduced as the frontispiece ('with portrait') of The Scientific Papers of J. Willard Gibbs, edited by H. A. Bumstead and R. G. Van Name (Longmans, Green and Co., London and New York, 1906). The file is the 888 x 1184 pixel digitisation of that frontispiece on Wikimedia Commons, used as it is, with no cropping or enlargement. The basis is the documented 1906 publication of the book in New York and London, so the photograph is in the public domain in the United States as a work published before 1931; the photographer is not named, so no lifetime of an author is relied on.",
+    "license": "Public domain (published 1906)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Josiah_Willard_Gibbs_-from_MMS-.jpg",
+    "attribution": "Photograph of Josiah Willard Gibbs by an unidentified photographer, frontispiece of The Scientific Papers of J. Willard Gibbs (Longmans, Green and Co., 1906), public domain, via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Josiah_Willard_Gibbs_-from_MMS-.jpg",
+    "creator": "Unidentified photographer",
+    "date": "before 1903 (published 1906)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Josiah_Willard_Gibbs_-from_MMS-.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / ACCEPTED with a recorded residual caveat. Commons file 'Josiah Willard Gibbs -from MMS-.jpg' (888 x 1184) says Source: frontispiece of The Scientific Papers of J. Willard Gibbs (eds. H. A. Bumstead and R. G. Van Name, Longmans, Green and Co., London and New York, 1906); author 'Unknown' (the uploader only cleaned the scan); date before 1903; tag PD-1923. I checked the Wikisource transcription of volume 1, whose title page reads 'With portrait ... Longmans, Green, and Co. ... London, New York and Bombay, 1906', so a portrait of Gibbs was published with the book in 1906 in New York and London. The rights basis is therefore the documented 1906 publication (a work published before 1931 is public domain in the United States) and not an author's death date or a generic tag: the photographer is unknown and the portrait is a halftone reproduction, so the residual weakness is that the photographer's identity and the exact photograph were not traced to a named studio. The image shown (viewed) is a bearded, white-haired man in three-quarter profile consistent with the volume's portrait. I used the file unmodified (no crop, no enlargement) as public/portraits/josiah-willard-gibbs-unknown-1906.jpg. kind likeness (a photograph of the sitter taken in his lifetime). ONE ALTERNATIVE CHECKED and not used: Science History Institute digital collections item 'Portrait of Josiah Willard Gibbs' (Papers of Georg and Max Bredig; printed by Meisenbach Riffarth and Company; undated; Public Domain Mark; 4263 x 6218), which has an institutional PDM label but no date or photographer, so it is no clearer than the 1906 frontispiece; Commons 'PSM V63 D192' (Popular Science Monthly 1903, author unknown) was also noted but not used.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) Q153243 label 'Josiah Willard Gibbs', description 'American scientist (1839-1903)', born 1839-02-11, died 1903-04-28, Korean label '조사이어 윌러드 기브스'. SLUG/QID CHECK: not in prod61.txt and no candidate file existed. Region north_america (US), era 19th_century. ZERO POLITICS: pure science. VOCABULARY: occupations physicist, mathematician; fields physics, chemistry, mathematics; tags theorist, systematic_thinker; archetype scholarly_specialist; impact domains scientific, educational; all grepped in en.ts and ko.ts.\nCANONICAL SIGNIFICANCE SOURCE: Charles S. Hastings, Biographical Memoir of Josiah Willard Gibbs, National Academy of Sciences (https://www.nasonline.org/wp-content/uploads/2024/06/gibbs-josiah.pdf), read in full; corroborated by the 1911 Britannica entry and Fiene's EBSCO overview.\nSOURCES READ (6 substantive): NAS memoir (Hastings, including Bumstead's review), Bumstead's 1903 sketch (Wikisource), Garrison 1909 Popular Science Monthly part I, Fiene EBSCO overview, Connecticut History (CTHumanities), 1911 Britannica entry; Wikidata orientation only. I did not open Wikipedia. The New World Encyclopedia page was read for orientation only and not used as a source because it is adapted from Wikipedia. PERSPECTIVES: academy colleague, student and co-editor, outside journalistic writer (Garrison), a scholar's modern overview, a state-humanities page, a period encyclopedia. NON-SELF BEHAVIOURAL SOURCES: Garrison and Fiene (outside accounts of his publishing and reception). COUNTER-VOICES AND LIMITS: Garrison's remarks that the treatise built on Thomson and Horstmann, was rarely read and had some theorems rediscovered; Fiene on the obscure venue, terse style and slow US reception; the memoir's note that colleagues found him no advocate and that Gibbs thought his vector analysis was an adaptation of others' work; the quaternion controversy in Nature (known only through the memoir and Bumstead). The Hastings memoir and Bumstead sketch overlap and share the same admiring viewpoint, so they are counted as one perspective. NOT OPENED: Wheeler's and Rukeyser's biographies, Duhem's 1908 study, Yale archival finding aid (only subject metadata read), Nature 1939 centenary note (login redirect), the primary papers, Science History Institute metadata beyond the portrait record, and any primary source on the 1880 Johns Hopkins offer (the figures are reported in Fiene and in secondary pages but I did not verify them). Exclusions: his health after childhood illness, family and household, and religious practice are not used. Six substantive sources is the floor of the brief, with only one fully independent critical voice (Garrison).\nSELECTIVE SELF-CALIBRATION: reviewed analytical_rigor (kept: described the same way by colleagues and an outside writer and visible in the paper structure), systems_abstraction (kept: the memoir documents the generalising step) and creative_originality (lowered from 74 / 0.52 to 70 / 0.46: the founding claim is retrospective praise and Garrison qualifies it). Initial rows 6; lowered 1.\nHANDBACK61: {\"slug\":\"josiah-willard-gibbs\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"creative_originality\",\"old_score\":74,\"old_confidence\":0.52,\"new_score\":70,\"new_confidence\":0.46,\"reason\":\"the founding claim is retrospective praise by colleagues and reference entries and is qualified by Garrison's note that the theory built on earlier work\"}],\"reviewed_kept\":[\"analytical_rigor\",\"systems_abstraction\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6} RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 78 / 0.62 to 74 / 0.56 because the strongest wording comes from academy memoirs by colleagues and a student, and rigor is partly inferred from the fame of the results. RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 76 / 0.55 to 72 / 0.5 because abstraction is read from the same admiring memoirs and from the later importance of the theory, with only one outside voice qualifying it."
+  }
+}
