@@ -10980,6 +10980,439 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Around 1984 he moved from Abidjan to Paris to build a solo career, and the resulting album Soro (1987) turned a regional star into an international one.",
   "salif-keita.interpretation.turning_point.1":
     "This is consistent with an artist willing to relocate and change his sound to reach a wider audience.",
+  /* ---------------------------------------------------------- bobby-fischer (Roster61) */
+  "bobby-fischer.achievement.1":
+    "In 1972 he became the first native-born American world chess champion, beating Boris Spassky 12.5-8.5 in Reykjavik and ending 24 years in which every champion had been Soviet.",
+  "bobby-fischer.achievement.2":
+    "He became the youngest grandmaster in history in 1958 at 15, won eight US championships and scored a perfect 11 of 11 in one of them.",
+  "bobby-fischer.achievement.3":
+    "He won 20 consecutive games in the 1970-71 Candidates matches, built his play on years of study and opening preparation, and wrote My 60 Memorable Games (1969); the 1972 match brought a surge of US interest in chess.",
+  "bobby-fischer.moment.1":
+    "At the 1972 match he failed to appear for game two, lodged a written protest over the cameras and, two hours before game three, demanded it be played in a back room; the champion agreed.",
+  "bobby-fischer.interpretation.moment.1":
+    "This is consistent with a willingness to stay in open dispute with officials and opponents over the conditions of play.",
+  "bobby-fischer.moment.2":
+    "The World Chess Hall of Fame records that he learned Russian to study the best chess theory and, from childhood, built a library of books and magazines that he used heavily.",
+  "bobby-fischer.interpretation.moment.2":
+    "This is consistent with a long-running drive to master the game through deep study.",
+  "bobby-fischer.turning_point.1":
+    "In 1975 he refused to meet his challenger Anatoly Karpov; the world federation declared Karpov champion by default and Fischer withdrew from serious play for almost 20 years.",
+  "bobby-fischer.interpretation.turning_point.1":
+    "This is consistent with a strong need to control the terms on which he competes.",
+  /* ---------------------------------------------------------- fanny-blankers-koen (Roster61) */
+  "fanny-blankers-koen.achievement.1":
+    "Won four gold medals at the 1948 London Olympics at age 30, in the 100 m, 200 m, 80 m hurdles and 4x100 m relay, the first woman to win four golds at a single Games.",
+  "fanny-blankers-koen.achievement.2":
+    "Set 16 world records in eight events, from sprints and hurdles to the high jump, long jump and the first modern pentathlon record, and won five European titles and 58 Dutch national championships.",
+  "fanny-blankers-koen.achievement.3":
+    "Won her golds after critics said a 30-year-old mother of two should not compete, and in 1999 the IAAF voted her Female Athlete of the Century.",
+  "fanny-blankers-koen.moment.1":
+    "After falling in the 1946 European championships in Oslo and needing her knees treated, she ran and won the 80 m hurdles the next day.",
+  "fanny-blankers-koen.interpretation.moment.1":
+    "This is consistent with a tendency to keep competing after a setback.",
+  "fanny-blankers-koen.moment.2":
+    "For 1948 she and her husband-coach chose to concentrate on sprints and hurdles and left out the high jump and long jump, in which she held the world records.",
+  "fanny-blankers-koen.interpretation.moment.2":
+    "This is consistent with choosing events deliberately around risk and rules.",
+  "fanny-blankers-koen.turning_point.1":
+    "After the war and the birth of her second child, she resumed training in 1946 for the European championships in Oslo, restarting the career that led to the 1948 Olympics.",
+  "fanny-blankers-koen.interpretation.turning_point.1":
+    "This is consistent with a continuing drive to compete at the highest level.",
+  /* ---------------------------------------------------------- ferdinand-de-lesseps (Roster61) */
+  "ferdinand-de-lesseps.achievement.1":
+    "Obtained the 1854 concession from Said Pasha and led the company that built the Suez Canal, a roughly 160 km sea-level canal opened on 17 November 1869.",
+  "ferdinand-de-lesseps.achievement.2":
+    "Financed it by public subscription: the 1858 share offering raised 100 million francs from about 20,000 investors, mainly French, without major bank support.",
+  "ferdinand-de-lesseps.achievement.3":
+    "From 1879 headed the French company's Panama Canal attempt, which he endorsed as a sea-level canal; it went bankrupt and was liquidated in 1888-89, and the canal was later completed under US control.",
+  "ferdinand-de-lesseps.moment.1":
+    "After the Ottoman court and Prime Minister Palmerston refused to back the Suez project in 1855, he took his case to British chambers of commerce, and in 1858 a share offering raised 100 million francs from about 20,000 investors.",
+  "ferdinand-de-lesseps.interpretation.moment.1":
+    "This is consistent with a person who answered official refusal by taking his case directly to the public.",
+  "ferdinand-de-lesseps.moment.2":
+    "At the 1879 Paris congress a senior French engineer called a sea-level Panama canal unrealistic, yet on his second visit in 1886, four years into the excavation, he still insisted it must be a sea-level canal.",
+  "ferdinand-de-lesseps.interpretation.moment.2":
+    "This is consistent with holding to a chosen plan against expert objections and early results.",
+  "ferdinand-de-lesseps.turning_point.1":
+    "After leaving diplomacy in 1849 and about five years of semi-retirement, he travelled to Cairo in 1854 when his old friend Said became Viceroy, and received the concession that launched the Suez Canal.",
+  "ferdinand-de-lesseps.interpretation.turning_point.1":
+    "This is consistent with a career redirected by taking up a long project after a setback.",
+  /* ---------------------------------------------------------- florentino-ameghino (Roster61) */
+  "florentino-ameghino.achievement.1":
+    "A self-taught Argentine naturalist, he made known the fossil mammals of the Argentine Pampas and Patagonia: a 1912 obituary credits him with over 500 new genera in about thirty years, and Britannica ranks his discoveries with those made in the western United States in the late nineteenth century.",
+  "florentino-ameghino.achievement.2":
+    "His 1889 revision of Argentina's fossil mammals filled two large illustrated volumes; his bolder claim that humans, and mammals generally, originated in South America was not generally accepted and drew severe criticism.",
+  "florentino-ameghino.achievement.3":
+    "He was professor at Cordoba and La Plata and sub-director of the La Plata Museum, founded and edited the Revista Argentina de Historia Natural (1891), and from 1902 directed the national Museum of Natural History in Buenos Aires until his death in 1911.",
+  "florentino-ameghino.moment.1":
+    "While his younger brother Carlos made long expeditions to Patagonia, Florentino stayed in La Plata and earned the money for both of them from a small stationer's shop, publishing the results in a flood of papers.",
+  "florentino-ameghino.interpretation.moment.1":
+    "This is consistent with finding his own way to fund research that no institution was paying for.",
+  "florentino-ameghino.moment.2":
+    "After he resigned as sub-director of the La Plata Museum in 1888 over differences with its director, he held no important post for ten or twelve years, yet in 1889 he published his revision of the fossil mammals and in 1891 began editing his own journal.",
+  "florentino-ameghino.interpretation.moment.2":
+    "This is consistent with continuing a research programme after losing institutional support.",
+  "florentino-ameghino.turning_point.1":
+    "Having failed to win the endorsement of Argentina's two main museums for his conclusions on human antiquity, he took his collection to the Paris Exposition of 1878 and published La Antigüedad del Hombre en el Plata in 1880-81 with the support he received abroad.",
+  "florentino-ameghino.interpretation.turning_point.1":
+    "This is consistent with taking an unpopular conclusion to a wider audience when local authorities would not endorse it.",
+  /* ---------------------------------------------------------- henry-david-thoreau (Roster61) */
+  "henry-david-thoreau.achievement.1":
+    "He wrote Walden (1854), an account of living for two years at Walden Pond that combines narrative, close observation of nature and philosophical reflection.",
+  "henry-david-thoreau.achievement.2":
+    "After a night in jail for refusing to pay a poll tax he wrote the essay 'Resistance to Civil Government', later called 'Civil Disobedience', which the Stanford Encyclopedia links to later figures such as Gandhi and King.",
+  "henry-david-thoreau.achievement.3":
+    "He kept a multivolume journal of nature observation from 1837 until his death, and scientists later used his 1850s plant records to study how flowering times in Concord have changed.",
+  "henry-david-thoreau.moment.1":
+    "Hired at the Concord public school after graduating from Harvard, he resigned after two weeks because he disagreed with the superintendent about how to discipline students.",
+  "henry-david-thoreau.interpretation.moment.1":
+    "This is consistent with a strong preference for working on his own terms.",
+  "henry-david-thoreau.moment.2":
+    "Researchers from Harvard and Boston University compared his 1851-1858 notes on plant flowering at Concord with modern surveys and found that plants now flower about a week earlier on average.",
+  "henry-david-thoreau.interpretation.moment.2":
+    "This is consistent with careful, repeated observation that remained usable 150 years later.",
+  "henry-david-thoreau.turning_point.1":
+    "On 4 July 1845 he moved into a small house at Walden Pond, aiming to write his first book and to test whether he could meet his needs by working one day a week; the stay lasted until September 1847 and gave rise to Walden.",
+  "henry-david-thoreau.interpretation.turning_point.1":
+    "This is consistent with a decision to organise his life around writing and observation.",
+  /* ---------------------------------------------------------- hertha-ayrton (Roster61) */
+  "hertha-ayrton.achievement.1":
+    "She worked out why electric arc lamps hissed and flickered, tracing the hissing to oxygen reaching the positive carbon, and related current, arc length and voltage in her 1899 paper and her book The Electric Arc (1902).",
+  "hertha-ayrton.achievement.2":
+    "Her studies of sand ripples and water vortices led her to design a hand-held fan to clear poison gas from trenches in the First World War; after initial dismissal the War Office issued about 104,000.",
+  "hertha-ayrton.achievement.3":
+    "She became the first woman member of the Institution of Electrical Engineers in 1899 and won the Royal Society's Hughes Medal in 1906, although the Society had declined to elect her a fellow as a married woman.",
+  "hertha-ayrton.moment.1":
+    "Sharp describes her lecture experiments in which puffs of oxygen against the arc's crater produced the hissing while nitrogen did not.",
+  "hertha-ayrton.interpretation.moment.1":
+    "This is consistent with an experimenter who isolated a cause by testing one gas at a time.",
+  "hertha-ayrton.moment.2":
+    "Hirsch says the War Office dismissed her fan and acrimonious press exchanges followed until it issued 104,000, and Sharp describes a year's delay before the fans were used at the front.",
+  "hertha-ayrton.interpretation.moment.2":
+    "This is consistent with an inventor who kept pressing a rejected idea through official resistance.",
+  "hertha-ayrton.turning_point.1":
+    "In 1893, while her husband was away in Chicago, she took over the electric-arc experiments, which became the research that established her reputation after earlier work on a line divider and other inventions.",
+  "hertha-ayrton.interpretation.turning_point.1":
+    "This is consistent with a move from inventing instruments to sustained experimental research.",
+  /* ---------------------------------------------------------- horace-mann (Roster61) */
+  "horace-mann.achievement.1":
+    "As the first secretary of the new Massachusetts Board of Education (1837-48), he made the case for free, universal, nonsectarian public schools taught by trained teachers, in twelve annual reports and tireless lecturing; he is often called the Father of the Common School.",
+  "horace-mann.achievement.2":
+    "He founded and edited the Common School Journal (1838), toured the state's schools, and pressed for teacher-training normal schools, a longer school year and better school equipment and reading materials.",
+  "horace-mann.achievement.3":
+    "In 1853 he became the first president of the new Antioch College in Ohio, a coeducational, nonsectarian college open to African Americans, and led it through its financial struggles until his death in 1859.",
+  "horace-mann.moment.1":
+    "To lead the new board's work he visited the state's common schools alone on horseback over six years, inspecting more than a thousand, and held annual county meetings at which he spoke and teachers and former pupils gave testimony.",
+  "horace-mann.interpretation.moment.1":
+    "This is consistent with building support for a reform by going out to the people it affected.",
+  "horace-mann.moment.2":
+    "Through twelve annual reports he argued six propositions for public education, answering resistance from clergymen who deplored nonsectarian schools, educators who objected to his methods and politicians who defended local control.",
+  "horace-mann.interpretation.moment.2":
+    "This is consistent with a reformer who relied on argument and public persuasion rather than formal power.",
+  "horace-mann.turning_point.1":
+    "In 1837, against the advice of friends who thought he was discarding a promising political career, he gave up his law practice and legislative career to become secretary of the new Massachusetts Board of Education, a post with little direct power.",
+  "horace-mann.interpretation.turning_point.1":
+    "This is consistent with choosing a cause over a more promising conventional career.",
+  /* ---------------------------------------------------------- joseph-henry (Roster61) */
+  "joseph-henry.achievement.1":
+    "Physicist who built very powerful electromagnets in 1831, described the self-induction of an electric current, and independently reached electromagnetic induction, though Faraday published first; the unit of inductance, the henry, is named after him.",
+  "joseph-henry.achievement.2":
+    "First Secretary of the Smithsonian Institution from 1846 to 1878, he shaped it around scientific research, publication and international exchange rather than a large library or museum.",
+  "joseph-henry.achievement.3":
+    "His electromagnet research and a relay he demonstrated by 1835 became the basis of much of Morse's telegraph; he never patented his work, and a historian concludes the telegraph would have been delayed without him.",
+  "joseph-henry.moment.1":
+    "In his 1831 paper he ran 23 experiments, repeating Barlow's wire-length test with a 25-element battery and then comparing coils wound in parallel with one long coil to find the arrangement that gave the most magnetic force.",
+  "joseph-henry.interpretation.moment.1":
+    "This is consistent with a systematic, step-by-step way of testing a problem.",
+  "joseph-henry.moment.2":
+    "In 1847 he told the Smithsonian regents that telegraph lines could warn observers of approaching storms; from about 1850 weather reports were mapped at the Smithsonian, and he later turned the work over to the Army Signal Service.",
+  "joseph-henry.interpretation.moment.2":
+    "This is consistent with starting new programmes and then handing them on once others could run them.",
+  "joseph-henry.turning_point.1":
+    "In 1846 he left his Princeton professorship to become the Smithsonian's first Secretary, giving up most of his own research, which a history entry says he regretted but felt it his duty to do.",
+  "joseph-henry.interpretation.turning_point.1":
+    "This is consistent with accepting institutional responsibility at the cost of his own laboratory work.",
+  /* ---------------------------------------------------------- josiah-willard-gibbs (Roster61) */
+  "josiah-willard-gibbs.achievement.1":
+    "Founded chemical thermodynamics with 'On the Equilibrium of Heterogeneous Substances' (1876 and 1878), which introduced chemical potentials and a general condition of equilibrium; his phase rule later proved practical in steel and ammonia production.",
+  "josiah-willard-gibbs.achievement.2":
+    "Developed vector analysis for his students, privately printed in 1881 and 1884 and published as a textbook in 1901 by his pupil E. B. Wilson, and wrote Elementary Principles in Statistical Mechanics (1902).",
+  "josiah-willard-gibbs.achievement.3":
+    "Held Yale's chair of mathematical physics from 1871 until his death, without salary for his first nine years, and received the Royal Society's Copley Medal in 1901.",
+  "josiah-willard-gibbs.moment.1":
+    "He preferred geometrical representations of his equations to mechanical models, because the models seldom corresponded completely with the phenomena and the discrepancies destroyed their usefulness for him.",
+  "josiah-willard-gibbs.interpretation.moment.1":
+    "This is consistent with a preference for abstract representations that stay logically exact.",
+  "josiah-willard-gibbs.moment.2":
+    "He rejected suggestions that he rewrite his thermodynamic treatise for a general readership, and a later writer noted that the dense, formula-filled memoir is rarely read in full.",
+  "josiah-willard-gibbs.interpretation.moment.2":
+    "This is consistent with putting compact rigour ahead of winning a wider audience.",
+  "josiah-willard-gibbs.turning_point.1":
+    "In 1873, at 34, he published his first papers, and a note at the end of the second suggested treating mixtures of different substances like mixtures of states, the path that led to his 1876-1878 memoir on chemical equilibrium.",
+  "josiah-willard-gibbs.interpretation.turning_point.1":
+    "This is consistent with extending a method step by step into a more general theory.",
+  /* ---------------------------------------------------------- kwegyir-aggrey (Roster61) */
+  "kwegyir-aggrey.achievement.1":
+    "A Gold Coast-born educator, he was the only African member of the Phelps-Stokes commissions that toured Africa to study education (1920 and 1924), and in late 1924 he joined the staff of Achimota College on the Gold Coast, becoming its assistant vice-principal.",
+  "kwegyir-aggrey.achievement.2":
+    "After graduating B.A. from Livingstone College in North Carolina in 1902 he stayed on its faculty as registrar and teacher of English, sociology and economics, while working toward a doctorate at Columbia University.",
+  "kwegyir-aggrey.achievement.3":
+    "He endorsed A. G. Fraser as Achimota's principal, and in 1925 went to London to confer with the Colonial Office advisory committee on extending the college to include girls.",
+  "kwegyir-aggrey.moment.1":
+    "At Livingstone College he called the roll himself at eight o'clock each morning and was known as a stickler for punctuality; students who tried to catch him late never succeeded.",
+  "kwegyir-aggrey.interpretation.moment.1":
+    "This is consistent with a regular, self-imposed routine in his teaching, as one admiring biography describes it.",
+  "kwegyir-aggrey.moment.2":
+    "At a Student Christian Movement conference in England in 1925, his Sunday address to some six or seven hundred students was followed by so many questions that, an observer says, it barely finished by midnight.",
+  "kwegyir-aggrey.interpretation.moment.2":
+    "This is consistent with an ability to hold and engage a large student audience, as reported by admiring witnesses.",
+  "kwegyir-aggrey.turning_point.1":
+    "In early 1924, with offers on the table from Achimota, Fort Hare and the Nigerian government, he told J. H. Oldham his heart was in the Gold Coast and endorsed Fraser as principal, and in late 1924 he returned to the Gold Coast as senior staff of Achimota.",
+  "kwegyir-aggrey.interpretation.turning_point.1":
+    "This is consistent with choosing to commit to a shared institution-building effort in his home country.",
+  /* ---------------------------------------------------------- machado-de-assis (Roster61) */
+  "machado-de-assis.achievement.1":
+    "Regarded by the Brazilian Academy of Letters and reference works as Brazil's greatest writer, he turned from sentimental Romanticism to ironic, ambiguously narrated fiction with Posthumous Memoirs of Bras Cubas (1881).",
+  "machado-de-assis.achievement.2":
+    "His masterpieces include Posthumous Memoirs of Bras Cubas (1881), Quincas Borba (1891) and Dom Casmurro (1899), alongside more than two hundred short stories; critics see his irony and self-reference as clearing ground for later Latin American writers.",
+  "machado-de-assis.achievement.3":
+    "A self-taught former printer's apprentice, he was elected first president of the Brazilian Academy of Letters when it was installed in 1897 and led it until his death, while also serving about forty years in the civil service.",
+  "machado-de-assis.moment.1":
+    "In 1892 he noticed a gazetted patent for a card-sale scheme that was in effect a double lottery, belonging to another ministry, and pressed through his own minister until the concession was annulled.",
+  "machado-de-assis.interpretation.moment.1":
+    "This is consistent with a willingness to act on a problem outside his own remit, though the motive comes from one admiring biographer.",
+  "machado-de-assis.moment.2":
+    "In 1876, as head of a ministry section though without legal training, he wrote an opinion on slave registration after an unappealed judgment; the officials consulted had differed, and his view prevailed.",
+  "machado-de-assis.interpretation.moment.2":
+    "This is consistent with independent professional judgment, though the episode is retold from one archival biography.",
+  "machado-de-assis.turning_point.1":
+    "Posthumous Memoirs of Bras Cubas, serialised in the Revista Brasileira in 1880 and published as a book in 1881, gave his literary career a new direction and opened the phase of his masterpieces.",
+  "machado-de-assis.interpretation.turning_point.1":
+    "This is consistent with a deliberate break from his earlier Romantic manner toward a more original narrative method.",
+  /* ---------------------------------------------------------- natsume-soseki (Roster61) */
+  "natsume-soseki.achievement.1":
+    "One of the outstanding novelists of Meiji Japan, he is credited by Britannica as the first to ably depict the alienated modern Japanese intellectual and with helping root the modern realistic novel in Japan.",
+  "natsume-soseki.achievement.2":
+    "I Am a Cat (1905-06) and Botchan (1906) made his name, and his later serialized novels include Sanshiro, And Then, The Gate, Kokoro (1914) and the unfinished Light and Darkness (1916).",
+  "natsume-soseki.achievement.3":
+    "In 1907 he left a university post to write serialized novels for the Asahi Shimbun, a step reported as extraordinary at the time, and young writers, among them Akutagawa Ryunosuke, gathered at his Thursday meetings.",
+  "natsume-soseki.moment.1":
+    "In 1911 the Education Ministry offered him an honorary doctorate, which he declined, according to Nippon.com disliking the spirit of studying merely to acquire such recognition.",
+  "natsume-soseki.interpretation.moment.1":
+    "This is consistent with an independent stance toward official recognition, though the stated reason comes from a single popular biography.",
+  "natsume-soseki.moment.2":
+    "In his last year in Britain he reportedly spent every moment in study, an inquiry into the nature of literature that later bore fruit in his Theory of Literature.",
+  "natsume-soseki.interpretation.moment.2":
+    "This is consistent with a strong commitment to deep study of his subject.",
+  "natsume-soseki.turning_point.1":
+    "In April 1907 he resigned from the Imperial University and his other teaching posts and in May joined the Asahi Shimbun to write novels full time.",
+  "natsume-soseki.interpretation.turning_point.1":
+    "This is consistent with choosing independence as a writer over the security of an academic career.",
+  /* ---------------------------------------------------------- nikolai-lobachevsky (Roster61) */
+  "nikolai-lobachevsky.achievement.1":
+    "He published the first printed account of non-Euclidean geometry in Kazan in 1829-30, building a consistent geometry in which Euclid's parallel postulate fails.",
+  "nikolai-lobachevsky.achievement.2":
+    "As rector of Kazan University from 1827 to 1846, he oversaw new buildings, an observatory and laboratories and led the university through the cholera epidemic of 1830-31 and the fire of 1842.",
+  "nikolai-lobachevsky.achievement.3":
+    "He also found a method for the roots of algebraic equations, shared with Dandelin and Graeffe, and a convergence criterion for infinite series.",
+  "nikolai-lobachevsky.moment.1":
+    "According to the Dictionary of Scientific Biography, he calculated the angle sums of triangles with the stars Sirius, Rigel or 28 Eridani as a vertex to test whether the geometry of real space deviated from Euclid's by more than observational error.",
+  "nikolai-lobachevsky.interpretation.moment.1":
+    "This is consistent with a mathematician who tried to test an abstract geometry against astronomical measurement.",
+  "nikolai-lobachevsky.moment.2":
+    "Britannica and MacTutor say he led the university through the 1830-31 cholera epidemic with a strict quarantine and acted personally to save the university during the 1842 fire.",
+  "nikolai-lobachevsky.interpretation.moment.2":
+    "This is consistent with an administrator who took charge during emergencies.",
+  "nikolai-lobachevsky.turning_point.1":
+    "After the St Petersburg academician Ostrogradsky reviewed his work unfavourably and a journal ridiculed it in 1834, he kept developing the geometry in Russian, French and German, and dictated Pangeometry in French in 1855 after he had gone blind; recognition came only after his death.",
+  "nikolai-lobachevsky.interpretation.turning_point.1":
+    "This is consistent with a mathematician who kept developing his work through ridicule and isolation.",
+  /* ---------------------------------------------------------- nikolay-przhevalsky (Roster61) */
+  "nikolay-przhevalsky.achievement.1":
+    "A Russian army officer turned explorer, he led four journeys between 1870 and 1885 across Mongolia, the Gobi, the Tarim basin and the northern Tibetan plateau, surveying routes that were then little known to Europeans.",
+  "nikolay-przhevalsky.achievement.2":
+    "His plant and animal collections brought species new to Western science, among them the wild camel and the wild horse now called Przewalski's horse.",
+  "nikolay-przhevalsky.achievement.3":
+    "On his second journey he reached the Lop Nur region and reported a lake farther south than the maps showed; the geographer Richthofen disputed the identification, and the Royal Geographical Society awarded him a gold medal in 1879.",
+  "nikolay-przhevalsky.moment.1":
+    "On the first journey, after buying camels, only about forty pounds remained, and, sure of maintenance from their guns, he resolved to push on rather than turn back.",
+  "nikolay-przhevalsky.interpretation.moment.1":
+    "This is consistent with a high tolerance for risk when an expedition was thinly funded, though the account comes from a contemporary summary of his own narrative.",
+  "nikolay-przhevalsky.moment.2":
+    "On the first journey his party took meteorological readings four times a day and recorded magnetic variation at nine points while crossing the plateaus.",
+  "nikolay-przhevalsky.interpretation.moment.2":
+    "This is consistent with careful, routine measurement during travel, although the figures reach us through his own reports.",
+  "nikolay-przhevalsky.turning_point.1":
+    "In 1867 he asked to be transferred to Irkutsk in eastern Siberia, from which he explored the Usuri region; a contemporary biography dates the start of his career as an explorer to this period.",
+  "nikolay-przhevalsky.interpretation.turning_point.1":
+    "This is consistent with a shift from teaching geography to field exploration driven by his own initiative.",
+  /* ---------------------------------------------------------- pierre-de-coubertin (Roster61) */
+  "pierre-de-coubertin.achievement.1":
+    "Organised the 1894 Sorbonne congress that voted to revive the Olympic Games and founded the International Olympic Committee, leading the modern Olympic revival.",
+  "pierre-de-coubertin.achievement.2":
+    "As IOC president from 1896 to 1925 he shaped the movement's ideals of internationalism, fair play and sport for all, funded much of its early work from his own fortune, and moved its headquarters to Lausanne.",
+  "pierre-de-coubertin.achievement.3":
+    "Before the Games he campaigned to reform French schooling around physical education, drawing on study tours of British public schools and American colleges.",
+  "pierre-de-coubertin.moment.1":
+    "After his 1892 call for an Olympic revival got no response, he helped bring back an earlier plan for a congress on amateur rules and put the Olympic question last on its programme.",
+  "pierre-de-coubertin.interpretation.moment.1":
+    "This is consistent with finding a workaround when a direct appeal fails.",
+  "pierre-de-coubertin.moment.2":
+    "He ran the new committee from his parents' home in Paris and paid its remaining expenses out of his own pocket.",
+  "pierre-de-coubertin.interpretation.moment.2":
+    "This is consistent with taking on the work of building an organisation on his own initiative.",
+  "pierre-de-coubertin.turning_point.1":
+    "His 1890 meeting with William Penny Brookes, who had run Olympic-style games in England, gave a new direction to a life that had been spent on school reform.",
+  "pierre-de-coubertin.interpretation.turning_point.1":
+    "This is consistent with recognising an opening in another person's work and turning it into a larger project.",
+  /* ---------------------------------------------------------- plato (Roster61) */
+  "plato.achievement.1":
+    "He wrote philosophical dialogues, among them the Republic, the Apology and the Phaedo, that are read as foundational texts of Western philosophy and set out his theory of Forms.",
+  "plato.achievement.2":
+    "He founded the Academy, a school in a grove outside Athens, where he taught for the rest of his life and where Aristotle studied; the word 'academic' derives from its name.",
+  "plato.achievement.3":
+    "His writing on the immortal soul, on love as a ladder of ascent and on art as imitation shaped later philosophy and Western culture.",
+  "plato.moment.1":
+    "Scholars reconstruct an Academy curriculum from the Republic in which arithmetic, geometry, astronomy and harmonics prepared students for dialectic, with Plato setting problems and criticising methods rather than directing research himself.",
+  "plato.interpretation.moment.1":
+    "This is consistent with a teacher who treated mathematical training as a route to philosophical inquiry.",
+  "plato.moment.2":
+    "According to Allan, his late dialogues absorb scientific ideas, such as a physiology in the Timaeus and Eudoxus's astronomy in the Laws, and use them for moral and theological arguments.",
+  "plato.interpretation.moment.2":
+    "This is consistent with a thinker whose philosophical work drew on several fields of inquiry.",
+  "plato.turning_point.1":
+    "After Socrates was executed in 399 BCE he left Athens and travelled, and on his return around 387 or 380 BCE he founded the Academy, which remained his base for the rest of his life.",
+  "plato.interpretation.turning_point.1":
+    "This is consistent with a shift from an apprentice of Socrates to the head of his own teaching institution.",
+  /* ---------------------------------------------------------- sakichi-toyoda (Roster61) */
+  "sakichi-toyoda.achievement.1":
+    "A carpenter's son, he spent his career improving the loom: Toyota's history calls his 1897 power loom Japan's first self-powered loom, and with his son Kiichiro he completed the Type G automatic loom in the mid-1920s.",
+  "sakichi-toyoda.achievement.2":
+    "His looms added devices that stopped the machine when a thread broke, and Toyota's company history traces the jidoka principle of its production system to this design.",
+  "sakichi-toyoda.achievement.3":
+    "He founded Toyoda Automatic Loom Works in 1926, the root of Toyota Industries, and the rights to the Type G outside Japan, China and the United States were sold to Britain's Platt Brothers in 1929.",
+  "sakichi-toyoda.moment.1":
+    "After a partner's fraud nearly brought down his Nagoya store in 1896, he saved the business and went on to complete his narrow power loom the following year.",
+  "sakichi-toyoda.interpretation.moment.1":
+    "This is consistent with continuing his loom work through a business crisis.",
+  "sakichi-toyoda.moment.2":
+    "In 1902 he angrily resigned from the Mitsui-backed Igeta company after clashes over research funds, and in 1910 he resigned from the Toyoda Loom Works over policy differences.",
+  "sakichi-toyoda.interpretation.moment.2":
+    "This is consistent with a strong need to control the direction of his own research, even at the cost of financed companies.",
+  "sakichi-toyoda.turning_point.1":
+    "In 1885, at eighteen, after hearing of the new patent law and reading Samuel Smiles's Self-Help in translation, he gave up the carpenter's path and decided to become an inventor of looms.",
+  "sakichi-toyoda.interpretation.turning_point.1":
+    "This is consistent with a lifelong commitment to a single field of invention made early in life.",
+  /* ---------------------------------------------------------- sarah-bernhardt (Roster61) */
+  "sarah-bernhardt.achievement.1":
+    "Called by Britannica the greatest French actress of the later 19th century: after triumphs at the Odeon and the Comedie-Francaise, including Zaire (1874), Phedre and Hugo's Hernani, she became an international star in La Dame aux camelias and Sardou's melodramas.",
+  "sarah-bernhardt.achievement.2":
+    "In 1880 she formed her own travelling company, touring Europe, the Americas and Australia, and she managed Paris theatres: the Renaissance from 1893 and from 1899 the former Theatre des Nations, renamed the Theatre Sarah Bernhardt, until her death in 1923.",
+  "sarah-bernhardt.achievement.3":
+    "Played male roles, including Hamlet in 1899 and Napoleon's son in L'Aiglon in 1900, and was among the early stage stars to make sound recordings and films.",
+  "sarah-bernhardt.moment.1":
+    "In 1880 she paid a large forfeit to break her contract with the Comedie-Francaise, gave a series of performances in London to cover it, and went on to tour Russia, Denmark and the United States with her own company.",
+  "sarah-bernhardt.interpretation.moment.1":
+    "This is consistent with a performer who chose independence over a secure national post.",
+  "sarah-bernhardt.moment.2":
+    "She recorded Phedre at the home of the American inventor Thomas Edison in the 1880s and, from 1900, began to appear in films, playing some of her most famous stage parts.",
+  "sarah-bernhardt.interpretation.moment.2":
+    "This is consistent with an early readiness to use new media to reach larger audiences.",
+  "sarah-bernhardt.turning_point.1":
+    "After her 1879 London triumph with the Comedie-Francaise, she left it in 1880 to form her own company, and New York saw her for the first time on 8 November 1880, the first of eight American visits.",
+  "sarah-bernhardt.interpretation.turning_point.1":
+    "This is consistent with a career redirected from a national company toward an international touring career of her own.",
+  /* ---------------------------------------------------------- selma-lagerlof (Roster61) */
+  "selma-lagerlof.achievement.1":
+    "Her debut novel Gosta Berling's Saga (1891) broke with the prevailing realism of its day, and the 1909 Nobel Prize in Literature, awarded for her 'lofty idealism, vivid imagination and spiritual perception', made her the first woman to receive that prize.",
+  "selma-lagerlof.achievement.2":
+    "Her novel Jerusalem (1901-02), based on a group of Swedish peasants who emigrated to the Holy Land, and the school reader Nils Holgerssons underbara resa genom Sverige (1906-07), her most widely read work abroad, are the other pillars of her reputation.",
+  "selma-lagerlof.achievement.3":
+    "She joined the Swedish Academy in 1914 and remained a member until her death in 1940, and used her prize money to buy back the family estate Marbacka, which her will preserved as a memorial home.",
+  "selma-lagerlof.moment.1":
+    "For Jerusalem she did not rely on a newspaper item about peasants who had emigrated to the Holy Land but travelled to their home parish and to Jerusalem to study the story.",
+  "selma-lagerlof.interpretation.moment.1":
+    "This is consistent with a commitment to grounding imaginative work in first-hand research.",
+  "selma-lagerlof.moment.2":
+    "After sharply divided reviews of her debut, she argued that almost everything in the book had a basis in reality, and the critical attacks left her unsure and tentative for some years.",
+  "selma-lagerlof.interpretation.moment.2":
+    "This is consistent with a defensive early response to hostile criticism, though she kept writing and experimenting.",
+  "selma-lagerlof.turning_point.1":
+    "In 1895, after a decade teaching at the girls' school in Landskrona, she gave up teaching to live on her writing, helped by support from the royal family and the Swedish Academy.",
+  "selma-lagerlof.interpretation.turning_point.1":
+    "This is consistent with a long commitment to writing that outlasted a mixed early reception.",
+  /* ---------------------------------------------------------- su-shi (Roster61) */
+  "su-shi.achievement.1":
+    "One of the greatest Song dynasty poets and prose writers, counted among the eight great prose masters of the Tang and Song; his Former Ode on the Red Cliffs, written in exile, is regarded as the peak of his writing.",
+  "su-shi.achievement.2":
+    "Ranked among the leading Song calligraphers, and called by one museum the fountainhead of the literati painting tradition, which came to dominate later Chinese art.",
+  "su-shi.achievement.3":
+    "As prefect of Hangzhou he met drought, famine and epidemic with grain relief and hospitals, and dredged the silted West Lake, using the mud to build the causeway that still bears his name.",
+  "su-shi.moment.1":
+    "When drought, famine and epidemic struck Hangzhou, he petitioned to cut the local rice tax, sold monks' ordination certificates to raise grain, and set up hospitals staffed by doctors.",
+  "su-shi.interpretation.moment.1":
+    "This is consistent with a habit of finding practical means within the limits of his office.",
+  "su-shi.moment.2":
+    "Exiled to Hainan, he was caught in the rain and borrowed a farmer's bamboo hat and clogs; a curator says he stayed calm, and the scene became a classic image of him.",
+  "su-shi.interpretation.moment.2":
+    "This is consistent with an ability to keep working and keep his composure in changed and difficult circumstances.",
+  "su-shi.turning_point.1":
+    "In 1079 censors charged him over phrases in his poems and he was imprisoned; he was spared execution and exiled to Huangzhou, where he farmed a plot called Dongpo and wrote the Red Cliff odes.",
+  "su-shi.interpretation.turning_point.1":
+    "This is consistent with a pattern of reshaping his life and work around a forced change of circumstances.",
+  /* ---------------------------------------------------------- swami-vivekananda (Roster61) */
+  "swami-vivekananda.achievement.1":
+    "At the 1893 World's Parliament of Religions in Chicago, he opened with 'Sisters and Brothers of America' to applause that lasted several minutes, and became one of the Parliament's best-known speakers.",
+  "swami-vivekananda.achievement.2":
+    "After the Parliament he lectured on Vedanta in the eastern United States and London for about three and a half years, drew Western followers and helped start Vedanta societies in New York and elsewhere.",
+  "swami-vivekananda.achievement.3":
+    "He founded the Ramakrishna Mission on 1 May 1897 to combine Vedanta teaching with social service such as schools, hospitals and disaster relief, and the Ramakrishna Math monastery grew from it.",
+  "swami-vivekananda.moment.1":
+    "Arriving in Chicago in late July 1893, he spoke in Boston while waiting for the Parliament to open and became a delegate with a letter of introduction from the Harvard professor John Henry Wright.",
+  "swami-vivekananda.interpretation.moment.1":
+    "This is consistent with a person who took the initiative to secure a place at the Parliament rather than waiting for an invitation.",
+  "swami-vivekananda.turning_point.1":
+    "Returning to India in 1897, he persuaded Ramakrishna's disciples to commit to social service and founded the Ramakrishna Mission on 1 May 1897, turning a small monastic brotherhood into a service organisation with a monastery near Calcutta.",
+  "swami-vivekananda.interpretation.turning_point.1":
+    "This is consistent with a shift from a travelling monk and lecturer to the head of an organisation.",
+  /* ---------------------------------------------------------- victor-hugo (Roster61) */
+  "victor-hugo.achievement.1":
+    "Poet, dramatist and novelist, described by Britannica as the most important of the French Romantic writers: his preface to Cromwell (1827) set out a Romantic theory of drama and the first night of Hernani (25 February 1830) was the Romantics' victory over the Classicists.",
+  "victor-hugo.achievement.2":
+    "Wrote the novels Notre-Dame de Paris (1831) and Les Miserables (1862); the latter was serialised in ten instalments and became an immediate bestseller across Europe and North America.",
+  "victor-hugo.achievement.3":
+    "Regarded in France as one of its greatest poets, with collections from Les Orientales to Les Contemplations (1856); elected to the Academie francaise in 1841.",
+  "victor-hugo.moment.1":
+    "In 1827 he published the verse drama Cromwell with a long preface demanding a drama that mixed tragic and comic elements and abandoned the rules of classical tragedy; Britannica says the preface proved far more important than the play.",
+  "victor-hugo.interpretation.moment.1":
+    "This is consistent with a writer who set out a new form in theory and in practice.",
+  "victor-hugo.moment.2":
+    "After the success of Les Contemplations he bought Hauteville House in Guernsey in 1856, collected second-hand furniture and objects on the island, and spent months overseeing a major conversion and its decoration.",
+  "victor-hugo.interpretation.moment.2":
+    "This is consistent with a strong personal taste, expressed in building and decorating a whole house.",
+  "victor-hugo.turning_point.1":
+    "Settled in Guernsey from 1856 to 1870, he wrote, completed or published most of his best-known works there, including Les Contemplations, Les Miserables and Les Travailleurs de la mer.",
+  "victor-hugo.interpretation.turning_point.1":
+    "This is consistent with a long, steady working routine in a settled place.",
+  /* ---------------------------------------------------------- viswanathan-anand (Roster61) */
+  "viswanathan-anand.achievement.1":
+    "Won the FIDE world championship in 2000 and the undisputed world title in 2007, then defended it against Kramnik (2008), Topalov (2010) and Gelfand (2012) before losing to Magnus Carlsen in 2013.",
+  "viswanathan-anand.achievement.2":
+    "Became a grandmaster in 1988 and a leading international player from 1990; ChessBase credits him with keeping India at the top of world chess for about 25 years.",
+  "viswanathan-anand.achievement.3":
+    "After losing the title in 2013 he won the 2014 Candidates tournament at 44 and played Carlsen again in Sochi; since December 2020 he has been chief mentor of the WestBridge Anand Chess Academy for young Indian players.",
+  "viswanathan-anand.moment.1":
+    "In the 2013 title match against Carlsen, one ChessBase retrospective says he kept opening with 1.e4 without gaining an advantage and switched to 1.d4 only in game nine.",
+  "viswanathan-anand.interpretation.moment.1":
+    "This is consistent with an approach that was slow to change course under pressure, according to one commentator.",
+  "viswanathan-anand.moment.2":
+    "After Gukesh lost a game at the 2022 Olympiad, Anand shared examples from his own games about knowing when to stop, and he writes quarterly reports on each academy player.",
+  "viswanathan-anand.interpretation.moment.2":
+    "This is consistent with sustained, practical effort to develop younger players.",
+  "viswanathan-anand.turning_point.1":
+    "After losing the world title to Carlsen in Chennai in November 2013, critics called him too timid and too old; he entered the 2014 Candidates and won it undefeated with a round to spare.",
+  "viswanathan-anand.interpretation.turning_point.1":
+    "This is consistent with a capacity to return to the top after a heavy public defeat.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -21813,6 +22246,439 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1984년 무렵 그는 아비장에서 파리로 옮겨 솔로 활동을 시작했고, 그 결과 나온 《소로》(1987)는 지역의 스타를 국제적인 가수로 바꾸어 놓았다.",
   "salif-keita.interpretation.turning_point.1":
     "이는 더 넓은 청중을 위해 거처와 음악을 바꾸는 것을 마다하지 않은 예술가의 면모와 부합한다.",
+  /* ---------------------------------------------------------- bobby-fischer (Roster61) */
+  "bobby-fischer.achievement.1":
+    "1972년 레이캬비크에서 보리스 스파스키를 12.5대 8.5로 꺾고 미국 태생 최초의 세계 체스 챔피언이 되어, 소련 선수만 챔피언이던 24년을 끝냈다.",
+  "bobby-fischer.achievement.2":
+    "1958년 15세에 역대 최연소 그랜드마스터가 되었고, 미국 챔피언십을 여덟 번 우승했으며 그중 한 번은 11전 전승이었다.",
+  "bobby-fischer.achievement.3":
+    "1970~71년 후보자 결정전에서 20연승을 거뒀고, 오랜 연구와 오프닝 준비로 기량을 쌓았으며, 1969년 저서 《My 60 Memorable Games》를 냈다. 1972년 대결은 미국에서 체스에 대한 관심을 크게 끌어올렸다.",
+  "bobby-fischer.moment.1":
+    "1972년 대결에서 그는 2국에 나타나지 않았고 카메라 문제로 서면 항의를 냈으며, 3국 두 시간 전에는 무대 뒤 방에서 두자고 요구했는데 챔피언이 이를 받아들였다.",
+  "bobby-fischer.interpretation.moment.1":
+    "이는 경기 조건을 두고 주최 측과 상대에 맞서 공개적으로 다툴 수 있는 성향과 일치한다.",
+  "bobby-fischer.moment.2":
+    "세계체스명예의전당은 그가 최고 수준의 체스 이론을 공부하려고 러시아어를 배웠고 어린 시절부터 책과 잡지로 방대한 자료실을 만들어 열심히 활용했다고 기록한다.",
+  "bobby-fischer.interpretation.moment.2":
+    "이는 깊은 연구로 게임을 통달하려는 오랜 지향과 일치한다.",
+  "bobby-fischer.turning_point.1":
+    "1975년 도전자 아나톨리 카르포프와의 대결을 거부했고, 국제체스연맹은 카르포프를 부전승 챔피언으로 선언했으며 피셔는 거의 20년간 본격적인 대국에서 물러났다.",
+  "bobby-fischer.interpretation.turning_point.1":
+    "이는 자신이 경쟁하는 조건을 스스로 통제하려는 강한 욕구와 일치한다.",
+  /* ---------------------------------------------------------- fanny-blankers-koen (Roster61) */
+  "fanny-blankers-koen.achievement.1":
+    "1948년 런던 올림픽에서 30세의 나이로 100m, 200m, 80m 허들, 4x100m 계주 금메달 네 개를 땄고, 한 대회에서 금메달 네 개를 딴 최초의 여성이 되었다.",
+  "fanny-blankers-koen.achievement.2":
+    "단거리와 허들은 물론 높이뛰기, 멀리뛰기, 최초의 현대 5종 경기 기록까지 8개 종목에서 세계 기록을 16번 세웠고, 유럽 선수권 5회와 네덜란드 국내 선수권 58회 우승을 차지했다.",
+  "fanny-blankers-koen.achievement.3":
+    "30세의 두 아이 엄마가 경기에 나가서는 안 된다는 비판 속에서 금메달을 땄고, 1999년 국제육상경기연맹(IAAF)은 그를 20세기 최고의 여성 선수로 선정했다.",
+  "fanny-blankers-koen.moment.1":
+    "1946년 오슬로 유럽 선수권에서 넘어져 무릎 치료를 받았지만 다음 날 80m 허들에 출전해 우승했다.",
+  "fanny-blankers-koen.interpretation.moment.1":
+    "이는 좌절 뒤에도 계속 경기에 나서는 성향과 일치한다.",
+  "fanny-blankers-koen.moment.2":
+    "1948년을 앞두고 그는 남편이자 코치와 함께 단거리와 허들에 집중하기로 하고, 세계 기록을 갖고 있던 높이뛰기와 멀리뛰기는 제외했다.",
+  "fanny-blankers-koen.interpretation.moment.2":
+    "이는 위험과 규정을 따져 종목을 의도적으로 고르는 성향과 일치한다.",
+  "fanny-blankers-koen.turning_point.1":
+    "전쟁이 끝나고 둘째 아이를 낳은 뒤 1946년 오슬로 유럽 선수권을 목표로 다시 훈련을 시작했고, 이는 1948년 올림픽으로 이어진 경력의 재출발이 되었다.",
+  "fanny-blankers-koen.interpretation.turning_point.1":
+    "이는 최고 수준에서 경쟁하려는 지속적인 의욕과 일치한다.",
+  /* ---------------------------------------------------------- ferdinand-de-lesseps (Roster61) */
+  "ferdinand-de-lesseps.achievement.1":
+    "1854년 사이드 파샤에게서 운하 특허를 얻어 수에즈 운하 건설 회사를 이끌었고, 약 160km 길이의 수평식 운하가 1869년 11월 17일 개통되었다.",
+  "ferdinand-de-lesseps.achievement.2":
+    "공개 모집으로 자금을 마련해, 1858년 주식 공모에서 주로 프랑스인인 약 2만 명의 투자자에게서 대형 은행의 지원 없이 1억 프랑을 모았다.",
+  "ferdinand-de-lesseps.achievement.3":
+    "1879년부터 프랑스 파나마 운하 회사를 이끌며 수평식 운하안을 지지했으나 회사는 1888~89년에 파산·청산되었고, 운하는 훗날 미국의 관할 아래 완공되었다.",
+  "ferdinand-de-lesseps.moment.1":
+    "1855년 오스만 조정과 팔머스턴 총리가 수에즈 계획을 지지하지 않자 그는 영국 상공회의소들을 찾아 호소했고, 1858년 주식 공모로 약 2만 명의 투자자에게서 1억 프랑을 모았다.",
+  "ferdinand-de-lesseps.interpretation.moment.1":
+    "이는 공식적 거절에 맞서 대중에게 직접 호소한 사람의 모습과 일치한다.",
+  "ferdinand-de-lesseps.moment.2":
+    "1879년 파리 회의에서 프랑스의 한 고위 기술자가 수평식 파나마 운하를 비현실적이라고 했지만, 굴착 4년째인 1886년 두 번째 방문에서도 그는 여전히 수평식 운하여야 한다고 고집했다.",
+  "ferdinand-de-lesseps.interpretation.moment.2":
+    "이는 전문가의 반대와 초기 결과에도 불구하고 선택한 계획을 고수하는 모습과 일치한다.",
+  "ferdinand-de-lesseps.turning_point.1":
+    "1849년 외교관 생활을 접고 약 5년간 반쯤 은퇴해 지내던 그는 1854년 옛 친구 사이드가 총독이 되자 카이로로 가서 수에즈 운하 사업의 특허를 얻었다.",
+  "ferdinand-de-lesseps.interpretation.turning_point.1":
+    "이는 좌절 뒤에 장기 사업을 맡으며 경력의 방향을 바꾼 모습과 일치한다.",
+  /* ---------------------------------------------------------- florentino-ameghino (Roster61) */
+  "florentino-ameghino.achievement.1":
+    "독학한 아르헨티나 박물학자로, 아르헨티나 팜파스와 파타고니아의 화석 포유류를 세상에 알렸다. 1912년의 추도문은 그가 약 30년 동안 500개가 넘는 새로운 속(屬)을 기재했다고 하며, 브리태니커는 그의 발견을 19세기 후반 미국 서부의 화석 발견에 견준다.",
+  "florentino-ameghino.achievement.2":
+    "1889년 아르헨티나 화석 포유류를 재정리한 책은 삽화가 풍부한 두 권의 큰 책이었다. 그러나 인류와 포유류가 남아메리카에서 기원했다는 더 대담한 주장은 널리 받아들여지지 않았고 혹독한 비판을 받았다.",
+  "florentino-ameghino.achievement.3":
+    "코르도바와 라플라타에서 교수를 지내고 라플라타 박물관 부관장을 맡았으며, 『아르헨티나 박물학 잡지』(1891)를 창간해 편집했다. 1902년부터는 부에노스아이레스 국립자연사박물관장으로 1911년 숨질 때까지 일했다.",
+  "florentino-ameghino.moment.1":
+    "동생 카를로스가 파타고니아로 긴 탐사를 떠나 있는 동안 플로렌티노는 라플라타에 남아 작은 문구점에서 두 사람의 생활비와 탐사비를 벌었고, 그 결과를 쏟아지듯 많은 논문으로 발표했다.",
+  "florentino-ameghino.interpretation.moment.1":
+    "이는 어떤 기관도 대 주지 않는 연구의 비용을 스스로 마련한 모습과 일치한다.",
+  "florentino-ameghino.moment.2":
+    "1888년 관장과의 의견 차이로 라플라타 박물관 부관장직을 사임한 뒤 10년 남짓 중요한 직책이 없었지만, 1889년에는 화석 포유류 개정판을 냈고 1891년에는 자신의 학술지 편집을 시작했다.",
+  "florentino-ameghino.interpretation.moment.2":
+    "이는 기관의 뒷받침을 잃은 뒤에도 연구를 이어 간 모습과 일치한다.",
+  "florentino-ameghino.turning_point.1":
+    "인류의 오랜 역사에 대한 그의 결론이 아르헨티나 양대 박물관의 지지를 얻지 못하자, 그는 1878년 파리 박람회에 수집품을 가져가 해외에서 얻은 지지를 바탕으로 1880-81년 『라플라타의 인류의 고대성』을 펴냈다.",
+  "florentino-ameghino.interpretation.turning_point.1":
+    "이는 국내 권위자들이 인정해 주지 않는 결론을 더 넓은 청중에게 가져간 모습과 일치한다.",
+  /* ---------------------------------------------------------- henry-david-thoreau (Roster61) */
+  "henry-david-thoreau.achievement.1":
+    "그는 월든 호숫가에서 2년간 산 경험을 서사, 자연에 대한 면밀한 관찰, 철학적 성찰로 엮은 《월든》(1854)을 썼다.",
+  "henry-david-thoreau.achievement.2":
+    "인두세 납부를 거부해 하룻밤 투옥된 뒤 그는 「시민 정부에 대한 저항」, 훗날 「시민 불복종」으로 불리는 에세이를 썼으며, 스탠퍼드 철학 백과사전은 이 글을 간디, 킹 같은 후대 인물과 연결한다.",
+  "henry-david-thoreau.achievement.3":
+    "그는 1837년부터 죽을 때까지 여러 권의 자연 관찰 일지를 썼고, 훗날 과학자들은 1850년대의 식물 기록을 이용해 콩코드의 개화 시기가 어떻게 변했는지 연구했다.",
+  "henry-david-thoreau.moment.1":
+    "하버드를 졸업한 뒤 콩코드 공립학교 교사로 채용되었으나, 학생 훈육 방식을 두고 교육감과 의견이 달라 2주 만에 사직했다.",
+  "henry-david-thoreau.interpretation.moment.1":
+    "이는 자기 방식대로 일하려는 강한 선호와 일치한다.",
+  "henry-david-thoreau.moment.2":
+    "하버드와 보스턴 대학의 연구자들은 콩코드의 개화에 관한 그의 1851~1858년 기록을 현대 조사와 비교해, 식물이 평균 약 일주일 일찍 꽃을 피운다는 것을 확인했다.",
+  "henry-david-thoreau.interpretation.moment.2":
+    "이는 150년 뒤에도 쓸 수 있을 만큼 신중하고 반복적인 관찰과 일치한다.",
+  "henry-david-thoreau.turning_point.1":
+    "1845년 7월 4일 그는 월든 호숫가의 작은 집으로 들어가 첫 책을 쓰고 일주일에 하루만 일해도 생활할 수 있는지 시험하고자 했으며, 이 생활은 1847년 9월까지 이어져 《월든》의 바탕이 되었다.",
+  "henry-david-thoreau.interpretation.turning_point.1":
+    "이는 글쓰기와 관찰을 중심으로 삶을 꾸리기로 한 결정과 일치한다.",
+  /* ---------------------------------------------------------- hertha-ayrton (Roster61) */
+  "hertha-ayrton.achievement.1":
+    "그녀는 전기 아크등이 쉿 소리를 내며 깜박이는 이유를 밝혀 그 원인이 양극 탄소에 닿는 산소임을 찾아냈고, 1899년의 논문과 1902년의 저서 《전기 아크》에서 전류, 아크 길이, 전압의 관계를 정리했다.",
+  "hertha-ayrton.achievement.2":
+    "모래 물결무늬와 물의 소용돌이를 연구한 끝에 그녀는 제1차 세계대전 참호에서 독가스를 몰아내는 손부채를 설계했고, 육군부는 처음에는 이를 일축했으나 결국 약 10만 4천 개를 보급했다.",
+  "hertha-ayrton.achievement.3":
+    "그녀는 1899년 전기기술자협회의 첫 여성 회원이 되었고 1906년 왕립학회의 휴즈 메달을 받았으나, 왕립학회는 기혼 여성이라는 이유로 그녀를 회원으로 선출하지 않았다.",
+  "hertha-ayrton.moment.1":
+    "샤프는 그녀가 아크의 분화구에 산소를 불어 넣으면 쉿 소리가 나고 질소를 불어 넣으면 나지 않는다는 것을 강연 실험으로 보인 일을 기록했다.",
+  "hertha-ayrton.interpretation.moment.1":
+    "이는 기체를 하나씩 바꿔 가며 원인을 가려낸 실험가의 모습과 일치한다.",
+  "hertha-ayrton.moment.2":
+    "허시에 따르면 육군부는 그녀의 부채를 일축했고 신문 지상의 격한 공방이 이어진 뒤에야 10만 4천 개를 보급했으며, 샤프는 부채가 전선에서 쓰이기까지 1년이 지체되었다고 기록했다.",
+  "hertha-ayrton.interpretation.moment.2":
+    "이는 공식적인 거부 속에서도 거절당한 발명을 계속 밀고 나간 발명가의 모습과 일치한다.",
+  "hertha-ayrton.turning_point.1":
+    "1893년 남편이 시카고에 가 있는 동안 그녀는 전기 아크 실험을 넘겨받았고, 선 분할기 등 앞선 발명에 이어 이 연구가 그녀의 명성을 세웠다.",
+  "hertha-ayrton.interpretation.turning_point.1":
+    "이는 기구 발명에서 지속적인 실험 연구로 옮겨 간 경로와 일치한다.",
+  /* ---------------------------------------------------------- horace-mann (Roster61) */
+  "horace-mann.achievement.1":
+    "새로 생긴 매사추세츠 교육위원회의 초대 사무총장(1837-48)으로서 열두 편의 연례 보고서와 끊임없는 강연으로, 무상의 보편적이고 특정 종파에 치우치지 않으며 훈련받은 교사가 가르치는 공립학교를 주장했다. 그는 흔히 '공립학교의 아버지'로 불린다.",
+  "horace-mann.achievement.2":
+    "1838년 『공립학교 저널』을 창간해 편집했고, 주 곳곳의 학교를 다니며 교사 양성을 위한 사범학교, 더 긴 학사 일정, 더 나은 학교 설비와 읽기 교재를 요구했다.",
+  "horace-mann.achievement.3":
+    "1853년 오하이오의 신설 안티오크 대학의 초대 총장이 되었다. 남녀공학이고 특정 종파에 속하지 않으며 흑인에게도 문을 연 이 대학을 재정난 속에서도 1859년 숨질 때까지 이끌었다.",
+  "horace-mann.moment.1":
+    "새 위원회의 일을 이끌기 위해 6년 동안 홀로 말을 타고 주의 공립학교를 돌며 천 곳이 넘는 학교를 살폈고, 해마다 군(郡) 모임을 열어 직접 연설하고 교사와 졸업생의 증언을 듣게 했다.",
+  "horace-mann.interpretation.moment.1":
+    "이는 개혁을 위한 지지를 직접 현장으로 나가 얻으려 한 모습과 일치한다.",
+  "horace-mann.moment.2":
+    "열두 편의 연례 보고서에서 공교육을 위한 여섯 가지 명제를 폈고, 특정 종파에 치우치지 않는 학교를 못마땅해한 성직자, 그의 교수법에 반대한 교육자, 지역 자치를 옹호한 정치인의 반발에 맞섰다.",
+  "horace-mann.interpretation.moment.2":
+    "이는 공식적 권한 대신 논증과 공개적 설득으로 일한 개혁가의 모습과 일치한다.",
+  "horace-mann.turning_point.1":
+    "1837년 유망한 정치 경력을 내던지는 것이라는 친구들의 만류에도 변호사 일과 주 의회 경력을 접고, 직접적인 권한이 거의 없는 새 매사추세츠 교육위원회 사무총장직을 맡았다.",
+  "horace-mann.interpretation.turning_point.1":
+    "이는 더 유망한 기존의 경력보다 하나의 대의를 택한 모습과 일치한다.",
+  /* ---------------------------------------------------------- joseph-henry (Roster61) */
+  "joseph-henry.achievement.1":
+    "1831년 매우 강력한 전자석을 만들고 전류의 자체 유도를 기술했으며, 패러데이가 먼저 발표하기는 했지만 전자기 유도도 독자적으로 발견한 물리학자로, 인덕턴스의 단위 헨리가 그의 이름에서 비롯되었다.",
+  "joseph-henry.achievement.2":
+    "1846년부터 1878년까지 스미스소니언 협회의 초대 사무총장으로서, 대규모 도서관이나 박물관보다 과학 연구와 출판, 국제 교류를 중심으로 협회를 이끌었다.",
+  "joseph-henry.achievement.3":
+    "그의 전자석 연구와 1835년까지 시연한 계전기는 모스 전신기의 상당 부분의 바탕이 되었다. 그는 자신의 연구에 특허를 내지 않았고, 한 역사가는 그가 없었다면 전신의 발명이 늦어졌을 것이라고 결론짓는다.",
+  "joseph-henry.moment.1":
+    "1831년 논문에서 그는 23가지 실험을 했다. 25개 전지로 바로의 전선 길이 시험을 되풀이한 뒤, 병렬로 감은 코일과 하나의 긴 코일을 비교해 가장 큰 자기력을 내는 배열을 찾았다.",
+  "joseph-henry.interpretation.moment.1":
+    "이는 문제를 체계적으로 단계를 밟아 검증하는 방식과 일치한다.",
+  "joseph-henry.moment.2":
+    "1847년 그는 전신선으로 관측자에게 폭풍 접근을 알릴 수 있다고 스미스소니언 이사회에 말했고, 1850년경부터 협회에서 기상 보고를 지도에 표시했으며, 이후 이 일을 육군 통신대에 넘겼다.",
+  "joseph-henry.interpretation.moment.2":
+    "이는 새로운 사업을 시작하고 다른 기관이 운영할 수 있게 되면 넘기는 방식과 일치한다.",
+  "joseph-henry.turning_point.1":
+    "1846년 프린스턴 교수직을 떠나 스미스소니언의 초대 사무총장이 되면서 자신의 연구 대부분을 포기했는데, 한 역사 항목은 그가 이를 아쉬워했지만 의무로 여겼다고 전한다.",
+  "joseph-henry.interpretation.turning_point.1":
+    "이는 자신의 실험실 연구를 희생하면서까지 기관을 이끄는 책임을 받아들이는 성향과 일치한다.",
+  /* ---------------------------------------------------------- josiah-willard-gibbs (Roster61) */
+  "josiah-willard-gibbs.achievement.1":
+    "「불균일 물질의 평형에 관하여」(1876·1878)로 화학 열역학을 확립했다. 이 논문은 화학 퍼텐셜과 일반적인 평형 조건을 도입했고, 그의 상률은 훗날 제강과 암모니아 생산에 실제로 쓰였다.",
+  "josiah-willard-gibbs.achievement.2":
+    "학생들을 위해 벡터 해석을 발전시켰고, 이는 1881년과 1884년에 사적으로 인쇄된 뒤 1901년 제자 E. B. 윌슨이 교재로 출간했다. 1902년에는 『통계역학의 기본 원리』를 썼다.",
+  "josiah-willard-gibbs.achievement.3":
+    "1871년부터 세상을 떠날 때까지 예일대 수리물리학 교수로 재직했고 처음 9년은 급여 없이 일했으며, 1901년 왕립학회 코플리 메달을 받았다.",
+  "josiah-willard-gibbs.moment.1":
+    "그는 방정식을 기계적 모형보다 기하학적 도형으로 나타내기를 좋아했는데, 모형은 현상과 완전히 들어맞는 경우가 드물고 그 어긋남이 그에게는 모형의 쓸모를 없앴기 때문이다.",
+  "josiah-willard-gibbs.interpretation.moment.1":
+    "이는 논리적으로 정확함을 유지하는 추상적 표현을 선호하는 성향과 일치한다.",
+  "josiah-willard-gibbs.moment.2":
+    "그는 열역학 논문을 일반 독자를 위해 다시 쓰라는 권유를 물리쳤고, 후대의 한 저술가는 수식으로 빽빽한 이 논문이 끝까지 읽히는 경우가 드물다고 지적했다.",
+  "josiah-willard-gibbs.interpretation.moment.2":
+    "이는 더 많은 독자를 얻기보다 간결한 엄밀함을 앞세우는 태도와 일치한다.",
+  "josiah-willard-gibbs.turning_point.1":
+    "1873년 34세에 첫 논문을 발표했고, 두 번째 논문 끝의 주석이 서로 다른 물질의 혼합물을 상태의 혼합물처럼 다룰 수 있음을 시사했으며, 이는 1876~1878년 화학 평형 논문으로 이어진 길이었다.",
+  "josiah-willard-gibbs.interpretation.turning_point.1":
+    "이는 하나의 방법을 단계적으로 더 일반적인 이론으로 확장해 가는 방식과 일치한다.",
+  /* ---------------------------------------------------------- kwegyir-aggrey (Roster61) */
+  "kwegyir-aggrey.achievement.1":
+    "골드코스트 태생의 교육자인 그는 아프리카의 교육을 조사한 펠프스-스톡스 위원회(1920년과 1924년 순방)의 유일한 아프리카인 위원이었고, 1924년 말 골드코스트의 아치모타 대학 교직원으로 합류해 부교장보를 맡았다.",
+  "kwegyir-aggrey.achievement.2":
+    "1902년 노스캐롤라이나의 리빙스턴 대학을 졸업한 뒤 그는 이 대학에 남아 교무처장 겸 영어, 사회학, 경제학 교사로 일했고, 그동안 컬럼비아 대학에서 박사 과정을 밟았다.",
+  "kwegyir-aggrey.achievement.3":
+    "그는 A. G. 프레이저를 아치모타의 교장으로 지지했고, 1925년에는 대학에 여학생도 받도록 확대하는 문제를 식민성 자문위원회와 협의하기 위해 런던으로 갔다.",
+  "kwegyir-aggrey.moment.1":
+    "리빙스턴 대학에서 그는 매일 아침 여덟 시에 직접 출석을 부르며 시간 엄수에 철저하기로 알려졌고, 그가 늦기를 기다린 학생들은 한 번도 성공하지 못했다.",
+  "kwegyir-aggrey.interpretation.moment.1":
+    "이는 한 우호적 전기가 전하는, 가르치는 일에서의 규칙적이고 스스로 부과한 일과와 부합한다.",
+  "kwegyir-aggrey.moment.2":
+    "1925년 영국의 학생기독교운동 대회에서 육칠백 명의 학생을 상대로 한 일요일 연설은 질문이 이어져 한 참석자의 말로는 자정에야 겨우 끝났다.",
+  "kwegyir-aggrey.interpretation.moment.2":
+    "이는 우호적인 증인들이 전하는, 많은 학생 청중을 사로잡고 호응을 이끌어내는 능력과 부합한다.",
+  "kwegyir-aggrey.turning_point.1":
+    "1924년 초 아치모타, 포트헤어, 나이지리아 정부의 제안이 있던 가운데 그는 J. H. 올덤에게 자신의 마음이 골드코스트에 있다고 말하며 프레이저를 교장으로 지지했고, 1924년 말 아치모타의 고위 교직원으로 골드코스트에 돌아갔다.",
+  "kwegyir-aggrey.interpretation.turning_point.1":
+    "이는 고국에서 함께하는 기관 건설 사업에 헌신하기로 선택한 것과 부합한다.",
+  /* ---------------------------------------------------------- machado-de-assis (Roster61) */
+  "machado-de-assis.achievement.1":
+    "브라질 문학원과 참고 문헌들이 브라질 최고의 작가로 평가하는 그는 《브라스 쿠바스의 사후 회고록》(1881)을 계기로 감상적 낭만주의에서 아이러니하고 서술이 모호한 소설로 방향을 바꾸었다.",
+  "machado-de-assis.achievement.2":
+    "대표작으로 《브라스 쿠바스의 사후 회고록》(1881), 《킨카스 보르바》(1891), 《동 카스무로》(1899)가 있고 200편이 넘는 단편도 썼으며, 비평가들은 그의 아이러니와 자기 지시적 기법이 후대 라틴아메리카 작가들의 길을 닦았다고 본다.",
+  "machado-de-assis.achievement.3":
+    "인쇄소 견습공 출신의 독학자였던 그는 1897년 브라질 문학원이 개원할 때 초대 원장으로 선출되어 세상을 떠날 때까지 이끌었으며, 동시에 약 40년간 공직에도 몸담았다.",
+  "machado-de-assis.moment.1":
+    "1892년 그는 다른 부처 소관으로 사실상 이중 복권인 카드 판매 계획의 특허가 관보에 실린 것을 보고, 자신의 장관을 통해 문제를 제기해 결국 특허가 취소되도록 했다.",
+  "machado-de-assis.interpretation.moment.1":
+    "이는 자기 소관이 아닌 문제에도 나서는 태도와 부합하지만, 동기는 한 호의적 전기 작가의 해석에 의존한다.",
+  "machado-de-assis.moment.2":
+    "1876년 법학 교육을 받지 않은 그는 부서 과장으로서 항소되지 않은 판결 이후의 노예 등록 문제에 의견서를 썼고, 자문받은 관리들의 의견이 갈렸으나 그의 견해가 받아들여졌다.",
+  "machado-de-assis.interpretation.moment.2":
+    "이는 독립적인 직무상 판단과 부합하지만, 이 일화는 하나의 기록 기반 전기에 의존한다.",
+  "machado-de-assis.turning_point.1":
+    "1880년 《브라질 평론》에 연재되고 1881년 단행본으로 나온 《브라스 쿠바스의 사후 회고록》은 그의 문학 경력에 새로운 방향을 열어 걸작의 시기를 시작하게 했다.",
+  "machado-de-assis.interpretation.turning_point.1":
+    "이는 초기의 낭만주의적 방식에서 더 독창적인 서사 방식으로의 의도적 전환과 부합한다.",
+  /* ---------------------------------------------------------- natsume-soseki (Roster61) */
+  "natsume-soseki.achievement.1":
+    "메이지 시대를 대표하는 소설가로, 브리태니커는 그가 소외된 근대 일본 지식인을 처음으로 능숙하게 그려 냈으며 근대 사실주의 소설이 일본에 뿌리내리는 데 기여했다고 평가한다.",
+  "natsume-soseki.achievement.2":
+    "《나는 고양이로소이다》(1905~06)와 《도련님》(1906)으로 이름을 알렸고, 이후 연재한 소설로 《산시로》, 《그 후》, 《문》, 《마음》(1914), 미완작 《명암》(1916) 등이 있다.",
+  "natsume-soseki.achievement.3":
+    "1907년 대학 교직을 떠나 아사히신문에 소설을 연재하는 전업 작가가 되었는데, 당시로서는 이례적인 결정으로 전해지며, 아쿠타가와 류노스케를 비롯한 젊은 문인들이 매주 목요일 그의 집에 모였다.",
+  "natsume-soseki.moment.1":
+    "1911년 문부성이 명예 박사 학위를 수여하려 했지만 그는 이를 거절했고, Nippon.com에 따르면 인정을 얻으려고만 공부하는 시대 풍조를 못마땅해했다.",
+  "natsume-soseki.interpretation.moment.1":
+    "이는 공적 인정에 거리를 두는 독자적 태도와 부합하지만, 거절 이유는 하나의 대중 전기에만 나온다.",
+  "natsume-soseki.moment.2":
+    "영국 체류 마지막 해에 그는 모든 시간을 공부에 쏟았다고 전해지며, 문학의 본질에 대한 이 탐구는 훗날 《문학론》으로 결실을 맺었다.",
+  "natsume-soseki.interpretation.moment.2":
+    "이는 자신의 분야를 깊이 파고드는 강한 열의와 부합한다.",
+  "natsume-soseki.turning_point.1":
+    "1907년 4월 그는 제국대학과 다른 교직에서 사임하고 5월에 아사히신문에 입사해 전업으로 소설을 쓰기 시작했다.",
+  "natsume-soseki.interpretation.turning_point.1":
+    "이는 학계의 안정보다 작가로서의 자율을 택한 결정과 부합한다.",
+  /* ---------------------------------------------------------- nikolai-lobachevsky (Roster61) */
+  "nikolai-lobachevsky.achievement.1":
+    "그는 1829~30년 카잔에서 유클리드의 평행선 공준이 성립하지 않는 무모순의 기하학, 곧 비유클리드 기하학에 관한 최초의 인쇄된 설명을 발표했다.",
+  "nikolai-lobachevsky.achievement.2":
+    "1827년부터 1846년까지 카잔 대학 총장으로서 새 건물과 천문대, 실험실의 건설을 이끌었고 1830~31년의 콜레라와 1842년의 화재 속에서 대학을 이끌었다.",
+  "nikolai-lobachevsky.achievement.3":
+    "그는 단델린, 그레페와 함께 대수방정식의 근을 구하는 방법과 무한급수의 수렴 판정 기준도 찾아냈다.",
+  "nikolai-lobachevsky.moment.1":
+    "과학 인명 사전에 따르면 그는 시리우스, 리겔, 에리다누스자리 28번 별을 꼭짓점으로 하는 삼각형의 각의 합을 계산해 실제 공간의 기하가 관측 오차를 넘어 유클리드 기하와 다른지 검증했다.",
+  "nikolai-lobachevsky.interpretation.moment.1":
+    "이는 추상적인 기하학을 천문 관측으로 검증하려 한 수학자의 모습과 일치한다.",
+  "nikolai-lobachevsky.moment.2":
+    "브리태니커와 맥튜터에 따르면 그는 1830~31년의 콜레라 유행 때 엄격한 격리로 대학을 이끌었고 1842년의 화재 때에는 직접 나서서 대학을 지켰다.",
+  "nikolai-lobachevsky.interpretation.moment.2":
+    "이는 위기 때 책임을 맡아 나선 행정가의 모습과 일치한다.",
+  "nikolai-lobachevsky.turning_point.1":
+    "상트페테르부르크의 학자 오스트로그라드스키가 그의 연구를 호의적이지 않게 평가하고 1834년 한 잡지가 이를 조롱한 뒤에도 그는 러시아어, 프랑스어, 독일어로 이 기하학을 계속 발전시켰고, 시력을 잃은 1855년에도 《범기하학》을 프랑스어로 구술했으며, 인정은 그의 사후에야 찾아왔다.",
+  "nikolai-lobachevsky.interpretation.turning_point.1":
+    "이는 조롱과 고립 속에서도 연구를 이어 간 수학자의 모습과 일치한다.",
+  /* ---------------------------------------------------------- nikolay-przhevalsky (Roster61) */
+  "nikolay-przhevalsky.achievement.1":
+    "러시아 군 장교 출신 탐험가로, 1870년부터 1885년까지 네 차례의 원정을 이끌며 당시 유럽인에게 거의 알려지지 않았던 몽골, 고비, 타림 분지, 티베트 북부 고원 일대의 경로를 측량했다.",
+  "nikolay-przhevalsky.achievement.2":
+    "그의 동식물 채집품은 서구 과학에 새로운 종을 알렸으며, 야생 낙타와 오늘날 '프르제발스키 말'로 불리는 야생마가 그 가운데 포함된다.",
+  "nikolay-przhevalsky.achievement.3":
+    "두 번째 원정에서 롭노르 지역에 이르러 지도보다 더 남쪽에 있는 호수를 보고했으며, 지리학자 리히트호펜은 이 비정에 이의를 제기했다. 영국 왕립지리학회는 1879년 그에게 금메달을 수여했다.",
+  "nikolay-przhevalsky.moment.1":
+    "첫 원정에서 낙타를 산 뒤 수중에 약 40파운드밖에 남지 않았지만, 그는 사냥으로 식량을 구할 수 있다고 보고 되돌아가지 않고 계속 나아가기로 했다.",
+  "nikolay-przhevalsky.interpretation.moment.1":
+    "이는 재정이 빠듯한 원정에서 위험을 감수하려는 성향과 부합하지만, 본인의 기록을 요약한 당대 서술이라는 한계가 있다.",
+  "nikolay-przhevalsky.moment.2":
+    "첫 원정에서 그의 일행은 고원을 건너는 동안 하루 네 차례 기상 관측을 하고 아홉 곳에서 자기 편차를 기록했다.",
+  "nikolay-przhevalsky.interpretation.moment.2":
+    "이는 이동 중에도 꼼꼼하게 관측을 이어 간 태도와 부합하지만, 수치는 본인의 보고를 통해 전해진 것이다.",
+  "nikolay-przhevalsky.turning_point.1":
+    "1867년 그는 동시베리아 이르쿠츠크로의 전속을 자청해 우수리 지역을 탐사했으며, 당대의 한 전기는 탐험가로서의 이력이 이 시기에 시작되었다고 본다.",
+  "nikolay-przhevalsky.interpretation.turning_point.1":
+    "이는 지리 교사에서 스스로 나서 현장 탐사로 옮겨 간 전환과 부합한다.",
+  /* ---------------------------------------------------------- pierre-de-coubertin (Roster61) */
+  "pierre-de-coubertin.achievement.1":
+    "1894년 소르본 회의를 조직해 올림픽 대회를 부활하기로 결의하게 했고 국제올림픽위원회(IOC)를 창설하여 근대 올림픽 부활을 이끌었다.",
+  "pierre-de-coubertin.achievement.2":
+    "1896년부터 1925년까지 IOC 위원장으로서 국제주의, 페어플레이, 모두를 위한 스포츠라는 올림픽 이념을 다졌고, 초기 활동 비용 상당 부분을 사재로 댔으며 본부를 로잔으로 옮겼다.",
+  "pierre-de-coubertin.achievement.3":
+    "올림픽에 앞서 영국 사립학교와 미국 대학을 돌아보고 신체 교육을 중심으로 한 프랑스 학교 개혁 운동을 펼쳤다.",
+  "pierre-de-coubertin.moment.1":
+    "1892년 올림픽 부활 호소에 아무 반응이 없자 그는 앞서 접어 둔 아마추어 규정 국제회의 구상을 되살려 올림픽 문제를 의제 맨 끝에 넣었다.",
+  "pierre-de-coubertin.interpretation.moment.1":
+    "이는 직접 호소가 통하지 않을 때 우회로를 찾는 성향과 일치한다.",
+  "pierre-de-coubertin.moment.2":
+    "그는 파리의 부모 집에서 새 위원회를 운영했고 나머지 경비는 자기 돈으로 댔다.",
+  "pierre-de-coubertin.interpretation.moment.2":
+    "이는 스스로 나서서 조직을 세우는 일을 떠맡는 성향과 일치한다.",
+  "pierre-de-coubertin.turning_point.1":
+    "1890년 영국에서 올림픽식 대회를 열어 온 윌리엄 페니 브룩스를 만난 일은 학교 개혁에 쏟던 그의 삶에 새로운 방향을 주었다.",
+  "pierre-de-coubertin.interpretation.turning_point.1":
+    "이는 다른 사람의 일에서 기회를 알아보고 더 큰 사업으로 키우는 성향과 일치한다.",
+  /* ---------------------------------------------------------- plato (Roster61) */
+  "plato.achievement.1":
+    "그는 《국가》, 《소크라테스의 변론》, 《파이돈》 등 서양 철학의 기초 문헌으로 읽히는 철학 대화편을 썼고, 이 속에서 이데아론을 펼쳤다.",
+  "plato.achievement.2":
+    "그는 아테네 성벽 밖 숲에 학원 아카데메이아를 세워 평생 가르쳤고, 아리스토텔레스가 이곳에서 배웠다. '아카데믹'이라는 말은 이 이름에서 나왔다.",
+  "plato.achievement.3":
+    "불멸의 영혼, 상승의 사다리로서의 사랑, 모방으로서의 예술에 관한 그의 글은 이후의 철학과 서양 문화에 영향을 주었다.",
+  "plato.moment.1":
+    "학자들은 《국가》를 바탕으로 산술, 기하, 천문, 화성학이 변증법을 준비시키는 아카데메이아의 교육 과정을 복원하며, 플라톤은 연구를 직접 지휘하기보다 문제를 내고 방법을 비판했던 것으로 본다.",
+  "plato.interpretation.moment.1":
+    "이는 수학 훈련을 철학적 탐구로 가는 길로 여긴 교사의 모습과 일치한다.",
+  "plato.moment.2":
+    "앨런에 따르면 그의 후기 대화편은 《티마이오스》의 생리학이나 《법률》의 에우독소스 천문학 같은 과학적 생각을 받아들여 도덕적, 신학적 논증에 썼다.",
+  "plato.interpretation.moment.2":
+    "이는 여러 탐구 분야를 끌어들여 철학 작업을 한 사상가의 모습과 일치한다.",
+  "plato.turning_point.1":
+    "기원전 399년 소크라테스가 처형된 뒤 그는 아테네를 떠나 여행했고, 기원전 387년 또는 380년경 돌아와 아카데메이아를 세웠으며, 이곳은 남은 생애 동안 그의 근거지가 되었다.",
+  "plato.interpretation.turning_point.1":
+    "이는 소크라테스의 제자에서 자신의 교육 기관을 이끄는 사람으로 옮겨간 전환과 일치한다.",
+  /* ---------------------------------------------------------- sakichi-toyoda (Roster61) */
+  "sakichi-toyoda.achievement.1":
+    "목수의 아들로 태어난 그는 평생 직기를 개량했다. 도요타의 회사 연혁서는 그의 1897년 동력 직기를 일본 최초의 자력 직기라고 설명하며, 그는 아들 기이치로와 함께 1920년대 중반 G형 자동 직기를 완성했다.",
+  "sakichi-toyoda.achievement.2":
+    "그의 직기에는 실이 끊어지면 기계가 스스로 멈추는 장치가 들어 있었고, 도요타의 회사 연혁서는 생산 방식의 '지도카' 원리가 이 설계에서 비롯되었다고 설명한다.",
+  "sakichi-toyoda.achievement.3":
+    "그는 1926년 도요타 산업의 뿌리가 된 도요다 자동직기제작소를 세웠고, 1929년 일본·중국·미국을 제외한 지역의 G형 직기 권리는 영국 플랫 브러더스에 넘어갔다.",
+  "sakichi-toyoda.moment.1":
+    "1896년 동업자의 사기로 나고야의 가게가 무너질 뻔했지만, 그는 사업을 지켜 냈고 이듬해 폭이 좁은 동력 직기를 완성했다.",
+  "sakichi-toyoda.interpretation.moment.1":
+    "이는 사업 위기 속에서도 직기 개발을 이어 간 모습과 부합한다.",
+  "sakichi-toyoda.moment.2":
+    "1902년 연구비를 둘러싼 갈등 끝에 그는 미쓰이가 후원하는 이게타 상회를 격하게 그만두었고, 1910년에는 방침 차이로 도요다 직기 회사에서도 사임했다.",
+  "sakichi-toyoda.interpretation.moment.2":
+    "이는 후원받는 회사를 잃더라도 자신의 연구 방향을 스스로 정하려는 강한 욕구와 부합한다.",
+  "sakichi-toyoda.turning_point.1":
+    "1885년, 열여덟 살의 그는 새 특허법에 관한 이야기를 듣고 새뮤얼 스마일스의 《자조론》 번역본을 읽은 뒤 목수의 길을 버리고 직기 발명가가 되기로 결심했다.",
+  "sakichi-toyoda.interpretation.turning_point.1":
+    "이는 젊은 나이에 하나의 발명 분야에 평생을 걸기로 한 결심과 부합한다.",
+  /* ---------------------------------------------------------- sarah-bernhardt (Roster61) */
+  "sarah-bernhardt.achievement.1":
+    "브리태니커가 19세기 후반 프랑스 최고의 여배우로 꼽는 인물이다. 오데옹 극장과 코메디 프랑세즈에서 『자이르』(1874), 『페드르』, 위고의 『에르나니』로 성공을 거둔 뒤, 『동백꽃 여인』과 사르두의 멜로드라마로 세계적인 스타가 되었다.",
+  "sarah-bernhardt.achievement.2":
+    "1880년 자신의 순회 극단을 꾸려 유럽과 아메리카, 호주를 돌았고, 1893년부터는 르네상스 극장을, 1899년부터는 옛 나시옹 극장을 인수해 '사라 베르나르 극장'으로 이름 붙여 1923년 세상을 떠날 때까지 운영했다.",
+  "sarah-bernhardt.achievement.3":
+    "1899년 햄릿, 1900년 『새끼 독수리』의 나폴레옹의 아들 같은 남성 배역을 연기했고, 일찍부터 음성 녹음과 영화에도 출연한 무대 스타였다.",
+  "sarah-bernhardt.moment.1":
+    "1880년 그녀는 큰 위약금을 물고 코메디 프랑세즈와의 계약을 끝냈고, 이를 갚기 위해 런던에서 연속 공연을 한 뒤 자신의 극단을 이끌고 러시아, 덴마크, 미국을 순회했다.",
+  "sarah-bernhardt.interpretation.moment.1":
+    "이는 안정적인 국립 극단의 자리보다 독립을 택한 연기자의 모습과 일치한다.",
+  "sarah-bernhardt.moment.2":
+    "1880년대에 미국 발명가 토머스 에디슨의 집에서 『페드르』를 녹음했고, 1900년부터는 영화에 출연해 가장 유명한 무대 배역 가운데 일부를 연기했다.",
+  "sarah-bernhardt.interpretation.moment.2":
+    "이는 더 많은 관객에게 다가가려고 새로운 매체를 일찍 활용한 모습과 일치한다.",
+  "sarah-bernhardt.turning_point.1":
+    "1879년 코메디 프랑세즈와 함께한 런던 공연에서 성공을 거둔 뒤, 1880년 극단을 떠나 자신의 극단을 꾸렸고, 1880년 11월 8일 뉴욕에서 처음 공연한 것을 시작으로 모두 여덟 차례 미국을 방문했다.",
+  "sarah-bernhardt.interpretation.turning_point.1":
+    "이는 국립 극단 중심의 경력이 스스로 이끄는 국제 순회 경력으로 바뀐 모습과 일치한다.",
+  /* ---------------------------------------------------------- selma-lagerlof (Roster61) */
+  "selma-lagerlof.achievement.1":
+    "데뷔 장편 《예스타 베를링 이야기》(1891)는 당시 지배적이던 사실주의에서 벗어난 작품이었고, '숭고한 이상주의, 생생한 상상력, 영적 통찰'로 1909년 노벨 문학상을 받아 이 상을 받은 첫 여성이 되었다.",
+  "selma-lagerlof.achievement.2":
+    "성지로 이주한 스웨덴 농민들을 다룬 《예루살렘》(1901~02)과 학교 독본으로 쓴 《닐스 홀게르손의 신기한 스웨덴 여행》(1906~07)은 해외에서 가장 널리 읽힌 작품으로, 그녀의 명성을 떠받치는 또 다른 기둥이다.",
+  "selma-lagerlof.achievement.3":
+    "1914년 스웨덴 아카데미 회원이 되어 1940년 세상을 떠날 때까지 회원으로 있었고, 노벨상 상금으로 가문의 영지 모르바카를 되사들였으며, 이곳은 그녀의 유언에 따라 기념 저택으로 보존되었다.",
+  "selma-lagerlof.moment.1":
+    "《예루살렘》을 쓰면서 그녀는 성지로 이주한 농민들에 관한 신문 기사에만 의존하지 않고, 그들의 고향 교구와 예루살렘을 직접 찾아가 이야기를 연구했다.",
+  "selma-lagerlof.interpretation.moment.1":
+    "이는 상상력에 기댄 작품을 직접 조사로 뒷받침하려는 태도와 부합한다.",
+  "selma-lagerlof.moment.2":
+    "데뷔작에 대한 평가가 극명하게 갈린 뒤 그녀는 책 속 거의 모든 것이 현실에 바탕을 두고 있다고 항변했고, 비평의 공격은 몇 년간 그녀를 불안하고 조심스럽게 만들었다.",
+  "selma-lagerlof.interpretation.moment.2":
+    "이는 적대적 비평에 대한 초기의 방어적 반응과 부합하지만, 그녀는 계속 글을 쓰며 실험했다.",
+  "selma-lagerlof.turning_point.1":
+    "1895년 란스크로나의 여학교에서 10년간 가르친 뒤 그녀는 왕실과 스웨덴 아카데미의 지원에 힘입어 교직을 그만두고 글쓰기로 생계를 꾸리기 시작했다.",
+  "selma-lagerlof.interpretation.turning_point.1":
+    "이는 엇갈린 초기 평가를 넘어서도 이어진 글쓰기에 대한 오랜 헌신과 부합한다.",
+  /* ---------------------------------------------------------- su-shi (Roster61) */
+  "su-shi.achievement.1":
+    "송나라를 대표하는 시인이자 산문가로, 당송팔대가의 한 사람으로 꼽힌다. 유배지에서 쓴 「전적벽부」는 그의 글솜씨의 정점으로 평가된다.",
+  "su-shi.achievement.2":
+    "송나라를 대표하는 서예가의 한 사람으로 꼽히며, 한 미술관은 그를 이후 중국 미술을 지배하게 되는 문인화 전통의 원류라고 부른다.",
+  "su-shi.achievement.3":
+    "항저우 지사로서 가뭄과 기근, 전염병에 곡식 구휼과 병원으로 대응했고, 메워진 서호를 준설해 그 진흙으로 오늘날까지 그의 이름이 붙은 제방을 쌓았다.",
+  "su-shi.moment.1":
+    "항저우에 가뭄과 기근, 전염병이 닥치자 그는 지역 쌀 세금을 줄여 달라고 상소하고, 승려 도첩을 팔아 곡식을 마련했으며 의사가 일하는 병원을 세웠다.",
+  "su-shi.interpretation.moment.1":
+    "이는 직무의 한계 안에서 실용적인 수단을 찾아내는 습관과 일치한다.",
+  "su-shi.moment.2":
+    "하이난으로 유배된 그는 비를 만나 농부의 삿갓과 나막신을 빌려 신었고, 한 학예사는 그가 침착했다고 말하며 이 장면은 그를 대표하는 이미지가 되었다.",
+  "su-shi.interpretation.moment.2":
+    "이는 상황이 바뀌고 어려워져도 평정을 유지하며 일을 이어 가는 능력과 일치한다.",
+  "su-shi.turning_point.1":
+    "1079년 감찰관들이 그의 시구를 문제 삼아 고발해 그는 투옥되었고, 사형은 면했지만 황저우로 유배되어 둥포라 이름 붙인 땅을 일구며 적벽부를 썼다.",
+  "su-shi.interpretation.turning_point.1":
+    "이는 어쩔 수 없이 달라진 환경에 맞춰 삶과 작업을 새로 꾸리는 방식과 일치한다.",
+  /* ---------------------------------------------------------- swami-vivekananda (Roster61) */
+  "swami-vivekananda.achievement.1":
+    "1893년 시카고 세계종교의회에서 그는 '미국의 자매 형제 여러분'이라는 말로 연설을 시작해 몇 분간 이어진 박수를 받았고, 의회에서 가장 널리 알려진 연사 가운데 한 사람이 되었다.",
+  "swami-vivekananda.achievement.2":
+    "의회 이후 그는 약 3년 반 동안 미국 동부와 런던에서 베단타를 강연하며 서양인 추종자를 얻었고, 뉴욕 등지에 베단타 협회가 설립되는 데 기여했다.",
+  "swami-vivekananda.achievement.3":
+    "그는 1897년 5월 1일 베단타 가르침과 학교, 병원, 재난 구호 같은 사회봉사를 결합하는 라마크리슈나 미션을 세웠고, 라마크리슈나 마트 수도원도 여기서 비롯되었다.",
+  "swami-vivekananda.moment.1":
+    "1893년 7월 말 시카고에 도착한 그는 의회가 열리기를 기다리는 동안 보스턴에서 강연했고, 하버드 교수 존 헨리 라이트의 소개장을 얻어 대표로 참가하게 되었다.",
+  "swami-vivekananda.interpretation.moment.1":
+    "이는 초대를 기다리기보다 스스로 나서서 의회 참가 자리를 마련한 사람의 모습과 일치한다.",
+  "swami-vivekananda.turning_point.1":
+    "1897년 인도로 돌아온 그는 라마크리슈나의 제자들이 사회봉사에 헌신하도록 설득하고 1897년 5월 1일 라마크리슈나 미션을 세워, 작은 수도 공동체를 콜카타 근교의 수도원을 갖춘 봉사 단체로 발전시켰다.",
+  "swami-vivekananda.interpretation.turning_point.1":
+    "이는 떠돌며 강연하던 수도자에서 조직의 책임자로 옮겨간 전환과 일치한다.",
+  /* ---------------------------------------------------------- victor-hugo (Roster61) */
+  "victor-hugo.achievement.1":
+    "시인이자 극작가, 소설가로, 브리태니커가 프랑스 낭만주의 작가 중 가장 중요한 인물로 꼽는다. 『크롬웰』 서문(1827)에서 낭만주의 희곡론을 밝혔고, 1830년 2월 25일 「에르나니」 초연은 낭만파가 고전파를 이긴 사건이 되었다.",
+  "victor-hugo.achievement.2":
+    "소설 『노트르담 드 파리』(1831)와 『레 미제라블』(1862)을 썼다. 『레 미제라블』은 열 차례로 나뉘어 연재되어 곧바로 유럽과 북미에서 베스트셀러가 되었다.",
+  "victor-hugo.achievement.3":
+    "프랑스에서 가장 위대한 시인의 한 사람으로 평가받으며, 『동방 시집』부터 『명상 시집』(1856)에 이르는 시집을 냈다. 1841년 아카데미 프랑세즈 회원으로 선출되었다.",
+  "victor-hugo.moment.1":
+    "1827년 그는 운문극 『크롬웰』을 발표하며, 비극과 희극의 요소를 한데 섞고 고전 비극의 규칙을 버린 희곡을 요구하는 긴 서문을 붙였다. 브리태니커는 이 서문이 희곡 자체보다 훨씬 중요해졌다고 적는다.",
+  "victor-hugo.interpretation.moment.1":
+    "이는 새로운 형식을 이론과 작품으로 함께 제시한 작가의 모습과 일치한다.",
+  "victor-hugo.moment.2":
+    "『명상 시집』이 성공을 거두자 그는 1856년 건지섬의 오트빌 하우스를 사들였고, 섬 곳곳에서 중고 가구와 물건을 모으며 여러 달 동안 대대적인 개조와 장식을 직접 지휘했다.",
+  "victor-hugo.interpretation.moment.2":
+    "이는 집 한 채를 짓고 꾸미는 데까지 이어진 강한 개인적 취향과 일치한다.",
+  "victor-hugo.turning_point.1":
+    "1856년부터 1870년까지 건지섬에 머물며 『명상 시집』, 『레 미제라블』, 『바다의 노동자들』 등 가장 잘 알려진 작품 대부분을 그곳에서 쓰거나 완성하거나 펴냈다.",
+  "victor-hugo.interpretation.turning_point.1":
+    "이는 한곳에 자리 잡고 이어 간 길고 꾸준한 작업 습관과 일치한다.",
+  /* ---------------------------------------------------------- viswanathan-anand (Roster61) */
+  "viswanathan-anand.achievement.1":
+    "2000년 FIDE 세계선수권을 차지하고 2007년 통합 세계 챔피언이 된 뒤 크람니크(2008), 토팔로프(2010), 겔판트(2012)를 상대로 타이틀을 지켰으며 2013년 마그누스 칼센에게 타이틀을 내주었다.",
+  "viswanathan-anand.achievement.2":
+    "1988년 그랜드마스터가 되어 1990년부터 국제 무대의 주요 선수로 활약했고, 체스베이스는 그가 약 25년간 인도를 세계 체스의 정상권에 있게 했다고 평가한다.",
+  "viswanathan-anand.achievement.3":
+    "2013년 타이틀을 잃은 뒤 44세에 2014년 후보자 토너먼트에서 우승해 소치에서 칼센과 다시 맞붙었고, 2020년 12월부터 젊은 인도 선수들을 위한 웨스트브리지 아난드 체스 아카데미의 수석 멘토를 맡고 있다.",
+  "viswanathan-anand.moment.1":
+    "2013년 칼센과의 타이틀 매치에서 체스베이스의 한 회고 글은 그가 이점을 얻지 못한 채 1.e4를 고집하다가 9국에 이르러서야 1.d4로 바꿨다고 전한다.",
+  "viswanathan-anand.interpretation.moment.1":
+    "이는 한 해설가의 평가에 따르면 압박 속에서 방향 전환이 더뎠던 접근과 일치한다.",
+  "viswanathan-anand.moment.2":
+    "2022년 올림피아드에서 구케시가 한 판을 패하자 아난드는 언제 멈춰야 하는지에 관한 자신의 대국 사례를 들려주었고, 아카데미 선수 한 명 한 명에 대해 분기별 보고서를 쓴다.",
+  "viswanathan-anand.interpretation.moment.2":
+    "이는 젊은 선수들을 키우려는 꾸준하고 실질적인 노력과 일치한다.",
+  "viswanathan-anand.turning_point.1":
+    "2013년 11월 첸나이에서 칼센에게 세계 타이틀을 내준 뒤 비평가들은 그가 너무 소극적이고 나이가 많다고 했지만, 그는 2014년 후보자 토너먼트에 나서 한 라운드를 남기고 무패로 우승했다.",
+  "viswanathan-anand.interpretation.turning_point.1":
+    "이는 공개적으로 큰 패배를 당한 뒤에도 정상으로 돌아오는 능력과 일치한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

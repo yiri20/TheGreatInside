@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "eugenio-maria-de-hostos",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Eugenio Maria de Hostos",
+    "aliases": [
+      "Eugenio Maria de Hostos y Bonilla",
+      "Eugenio M. de Hostos",
+      "Hostos"
+    ],
+    "wikidataId": "Q3543841",
+    "birthYear": 1839,
+    "deathYear": 1903,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "PR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "writer",
+      "scholar"
+    ],
+    "fieldIds": [
+      "education",
+      "law",
+      "literature"
+    ],
+    "impactDomains": [
+      "educational",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "mentor",
+      "founder"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hostos_wikidata",
+      "kind": "wikidata",
+      "title": "Eugenio Maria de Hostos y Bonilla (Q3543841), verified live via the Wikidata API (2026-10-31): English description 'Puerto Rican writer, activist and sociologist (1839-1903)', born 1839 (two date values on the item, 1 and 11 January), died 1903-08-11, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q3543841"
+    },
+    {
+      "id": "src_hostos_ebsco",
+      "kind": "biography",
+      "title": "Jack Ewing, 'Eugenio Maria de Hostos', EBSCO Research Starters (2024), read in full: born in a plantation-owning family, studied in Bilbao and Madrid, in the Dominican Republic from 1875 founded the first teachers' college and a night school and taught law at the Professional Institute, was invited to Chile in 1889 to revamp the education system and wrote textbooks and curricula there, founded a municipal institute in Puerto Rico after 1899, favoured critical thinking over rote learning and learning for women. CANONICAL SIGNIFICANCE SOURCE (Britannica returned HTTP 403). A favourable overview that offers no critical assessment; it lists his political activity separately and that is not scored.",
+      "url": "https://www.ebsco.com/research-starters/history/eugenio-maria-de-hostos"
+    },
+    {
+      "id": "src_hostos_oraa",
+      "kind": "press",
+      "title": "Luis M. Oraa, 'Hostos, maestro', Estudios Sociales (Santo Domingo) year 12, no. 48, October-December 1979, pp. 247-254 (Spanish), read in full: the conclusion of the author's thesis on Hostos, tracing his intellectual formation, his objections as a student to memorisation-based teaching, his years of teaching in the Dominican Republic (1879-1888), his pedagogical ideas (psychological, scientific and social), and the criticism of Manuel Arturo Pena Batlle (1950) and of Camila Henriquez Urena that he overrated science and undervalued art. A scholarly essay that argues Hostos's true vocation was teaching; it rebuts one critic, so it is partly an advocacy reading.",
+      "url": "https://estudiossociales.bono.edu.do/index.php/es/article/download/731/718/1436"
+    },
+    {
+      "id": "src_hostos_acento",
+      "kind": "press",
+      "title": "Manuel Matos Moquete, 'Que es leer para Hostos?', Acento (Santo Domingo), 14 May 2026, read in full (Spanish): an opinion column on his method of reasoned reading as the main discipline of the 1884 programme of the Normal School of Santo Domingo, his instructions of early 1881 to school directors in Azua, La Vega, El Seibo and Monte Cristi, the practice of keeping a school record for each student, and his use of a translated American teaching manual. A commentary by a Dominican writer that cites Hostos's own instructions; admiring and not peer reviewed.",
+      "url": "https://acento.com.do/opinion/que-es-leer-para-hostos-9677497.html"
+    },
+    {
+      "id": "src_hostos_cuny",
+      "kind": "institution",
+      "title": "Orlando Jose Hernandez, 'Maestro Hostos Turns 175: A Celebration of Many Strands and Colors', Manifold at CUNY (Hostos Community College project, spring 2014), read in full: says teachers' schools in Santo Domingo were first urged by President Ulises Espaillat and the Liberals and that Hostos brought them to fruition, that he directed an institute in Chile in the 1890s, founded a children's school in Mayagüez in 1899 using globes and observation of nature, and supported evening schools for workers. The essay is celebratory and promotional (written by the college that bears his name) and says so itself.",
+      "url": "https://cuny.manifoldapp.org/read/maestro-hostos-turns-175-a-celebration-of-many-strands-and-colors"
+    },
+    {
+      "id": "src_hostos_bv",
+      "kind": "biography",
+      "title": "Biografias y Vidas, 'Eugenio Maria de Hostos' (Spanish biographical entry), read in full: dates and works (the novel La peregrinacion de Bayoan 1863, Moral social 1888, Lecciones de Derecho Constitucional 1887, Geografia Evolutiva 1895, Tratado de Sociologia 1901, the 20-volume Obras completas of 1939), says Moral social grew out of classes taught in Santo Domingo from 1879, and records the 1938 Lima proclamation naming him a citizen of America. A general reference biography; unsigned and uncritical.",
+      "url": "https://www.biografiasyvidas.com/biografia/h/hostos.htm"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hostos_oraa, src_hostos_acento | 1850s-1884 | scholarly essay + opinion column citing his instructions] As a university student he objected to the memorisation-based plan of study, to professors repeating earlier generations and to the tyranny of timetables and texts (Oraa); at the Normal School he organised language teaching around reading that must be reasoned from the first moment (Acento). The critic Pena Batlle, quoted by Oraa, said his constitutional-law lessons rested on an organicist positivism foreign to Dominican society (Oraa calls this unjust), and Camila Henriquez Urena, also quoted by Oraa, says he overrated science and undervalued art, so the trait is recorded as dual-edged. Scored for educational and intellectual work only."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hostos_acento, src_hostos_ebsco | 1881-1884 | opinion column + overview] The column describes his instructions of early 1881 to school directors, which list subjects in a stated order, the 1884 programme that organised reading by course, and his requirement of an individual school record for each student; EBSCO says he created curricula and textbooks in Chile. One column carries most of the detail, drawn from his own documents, so confidence is modest."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hostos_oraa, src_hostos_cuny, src_hostos_ebsco | 1875-1903 | scholarly essay + celebratory essay + overview] Oraa reads his travels in South America as leading him to the conclusion that the only useful revolution was an educational one, and that teaching was his true vocation, citing his 1875 proposal for a normal school; the college essay and EBSCO describe night schools for workers, a children's school at Mayaguez in 1899 and support for women's learning. SELF-CALIBRATION (agent): lowered from 70 / 0.50 because the vocation reading is one scholar's thesis conclusion that mixes educational and political aims, and the other two sources are admiring."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hostos_bv, src_hostos_ebsco, src_hostos_oraa | 1863-1901 | biographical entry + overview + scholarly essay] The entries list a novel (1863), literary criticism on Hamlet and Romeo and Juliet, lectures on constitutional law (1887), Moral social (1888), a geography textbook (1895) and a treatise on sociology (1901), and Oraa notes the aesthetic quality of his prose alongside his teaching. Breadth is well attested; the quality of each strand is not scored here and the sources are largely favourable."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hostos_oraa, src_hostos_ebsco, src_hostos_cuny | 1875-1899 | scholarly essay + overview + celebratory essay] Oraa says that at Puerto Plata in 1875 he set out the need for a normal school for teachers and drafted a bill for it; he settled in Santo Domingo, founded the teachers' school and a night school there (EBSCO) and set up a children's school at Mayaguez in 1899 (CUNY). The college essay adds that the idea of normal schools was first urged by President Espaillat and the Liberals, so the originating role is shared; the evidence supports initiative in carrying it out, not sole invention."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에우헤니오 마리아 데 오스토스"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait file resolved. The only plausible likeness is the oil portrait by Francisco Oller (died 1917), dated 1903 and held by the Museo de Historia, Antropologia y Arte of the University of Puerto Rico (Smithsonian exhibition page '1898: U.S. Imperial Visions and Revisions'); the painting is public domain by age, but (1) the Commons file 'Retrato de EMdeHostos por Francisco Oller.jpg' is a colour-retouched copy of only 247 x 335 pixels taken from the Enciclopedia de Puerto Rico website, which would not open for me, and gives only 'before 1917' as a date, with no museum, date or terms statement; (2) the higher-quality image on the Smithsonian exhibition page is site content under the Smithsonian's terms, which say all content not marked CC0 is 'Usage Conditions Apply' (personal and educational use only), and that page carries no CC0 mark; (3) the 1880 group photograph with students on Commons has an unknown author and an 'author died more than 70 years ago' basis, which is not acceptable. The date also shows the painting is posthumous (kind would be historical depiction). Next step: obtain an item-level open-access statement or written permission from the University of Puerto Rico museum, or the terms of the Enciclopedia de Puerto Rico image, or find a pre-1931 published photograph or print of Hostos with a named photographer and a documented publication."
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / HELD. The lead's Commons file (Francisco Oller, PD-old-100, 247 x 335) rests on a painter who died in 1917, which is sound for the painting, but the Commons page documents no museum, no date beyond 'before 1917' and a source site I could not open; the live Smithsonian exhibition page (which names the painting, 1903, oil on wood, 57.8 x 39.1 cm, University of Puerto Rico museum) is not CC0 and falls under the Smithsonian's 'Usage Conditions Apply' terms (read), so the better image cannot be used and the Commons copy is a small retouched derivative of unknown origin. Other Commons files: group photograph of 1880 (unknown author), statues and monument photographs (derivative works): rejected. The plausible lead failed because the rights problem is the digital copy, not the painting: both the retouched Commons copy and the Smithsonian copy carry conditions or an undocumented source. PREFLIGHT: QID Q3543841 VERIFIED LIVE (2026-10-31): label 'Eugenio Maria de Hostos y Bonilla', description 'Puerto Rican writer, activist and sociologist (1839-1903)', died 1903-08-11; no collision in prod61.txt (grepped slug, name 'Hostos' and QID) and no existing candidate file. REGION latin_america (Puerto Rico by birth, career in the Dominican Republic and Chile); nationality code PR following the Roberto Clemente precedent. ERA 19th_century. VOCABULARY (grepped EN and KO): occupations teacher, writer, scholar; fields education, law, literature; tags mentor, founder; archetype cross_disciplinary_generalist ('educator' and 'sociologist' have no label and are not used). KOREAN NAME: no Wikidata label, so a transliteration of the Spanish name (silent H) is recorded, to be confirmed by the lead. ZERO POLITICS: primary identity judged educator, sociologist and writer (a normal-school founder and textbook author); his work for Cuban and Puerto Rican independence, the Antillean confederation, the 1899 Washington delegation and his support for the Chinese labourers in Peru are context and are NOT scored; rows cover teaching, curriculum, writing and range only, and Oraa's thesis argues his political work served an educational aim, which is noted but not scored. CANONICAL SIGNIFICANCE SOURCE: EBSCO Research Starters, 'Eugenio Maria de Hostos' by Jack Ewing (https://www.ebsco.com/research-starters/history/eugenio-maria-de-hostos); Britannica 403, the Hostos Community College biography page failed a certificate check. READ (5 substantive plus the portrait pages): the EBSCO overview; Oraa's 1979 essay; Matos Moquete's 2026 column; the CUNY essay; the Biografias y Vidas entry. PERSPECTIVES: an encyclopedic overview, a scholarly essay (with two critics quoted), a Dominican commentator citing Hostos's own instructions, and the college that bears his name (promotional). Counter-voices reached only through Oraa's quotations: Manuel Arturo Pena Batlle (1950) and Camila Henriquez Urena; their own texts were not opened, so the dual-edged reading rests on a secondhand quotation. NOT OPENED: the Obras completas, Moral social and the Tratado de Sociologia themselves, the University of Puerto Rico article (HTTP 403), the Latin American education journal article (image-only PDF), Britannica. Exclusions: politics and activism, marriage and children, death. CALIBRATION: no adversarial primary source; rows capped at 0.50. DATE NOTE: sources disagree on details (a Dominican resolution dates the Normal School to 1880 while a biography gives 1879 as the start of his Santo Domingo teaching; one column notes the normal-school idea originated with President Espaillat), so no founding-date or first-in-Latin-America claim is made. SELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS. SELF-CALIBRATION: reviewed impact_motivation, independent_thinking and proactive_agency; lowered impact_motivation from 70 / 0.50 to 66 / 0.46 (reason in the row); kept independent_thinking (already dual-edged and 0.46) and proactive_agency (the contradicting source is already reflected in its rationale). HANDBACK61: {\"slug\": \"eugenio-maria-de-hostos\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 70, \"old_confidence\": 0.5, \"new_score\": 66, \"new_confidence\": 0.46, \"reason\": \"The vocation reading is one scholar's thesis conclusion that mixes educational and political aims, and the other two sources are admiring.\"}], \"reviewed_kept\": [\"independent_thinking\", \"proactive_agency\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

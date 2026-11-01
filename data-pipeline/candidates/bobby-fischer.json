@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bobby-fischer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bobby Fischer",
+    "aliases": [
+      "Robert James Fischer",
+      "Robert Fischer"
+    ],
+    "wikidataId": "Q41314",
+    "birthYear": 1943,
+    "deathYear": 2008,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "competitor",
+      "prodigy",
+      "independent"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fischer_wikidata",
+      "kind": "wikidata",
+      "title": "Bobby Fischer (Q41314), verified live via the Wikidata API (2026-10-31): label 'Bobby Fischer', description 'American chess player (1943-2008)', born 1943-03-09, died 2008-01-17, citizenship United States and Iceland, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41314"
+    },
+    {
+      "id": "src_fischer_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Bobby Fischer' (biography article), read in full apart from its machine-generated Q&A boxes, which were not used: youngest grandmaster in history in 1958; the 1956 'Game of the Century' against Donald Byrne; dropped out of high school at 16 to devote himself fully to chess; eight American championships including a perfect 11 of 11; 20 consecutive wins in the 1970-71 Candidates matches; the 1972 Reykjavik match won 12.5-8.5 and the $250,000 purse; his surprise-attack style that stayed positionally sound; the 1975 refusal to meet Karpov and the loss of the title; his 20 years away from serious play. CANONICAL SIGNIFICANCE SOURCE (with the World Chess Hall of Fame essay). Its later passages on sanctions, passport and public statements are not scored.",
+      "url": "https://www.britannica.com/biography/Bobby-Fischer"
+    },
+    {
+      "id": "src_fischer_wchof",
+      "kind": "institution",
+      "title": "World Chess Hall of Fame, exhibition overview for 'A Memorable Life: A Glimpse into the Complex Mind of Bobby Fischer' (2014; staff essay on his study methods and library), read in full: learning the game at six, early teachers Carmine Nigro and Jack Collins, the library he built and used, reading and studying five to ten hours a day (an unattributed statement in the essay), his revival of long-unplayed openings, the opponent-game notebooks prepared by Robert Wade for the Taimanov, Petrosian and Spassky matches, and the artefacts used in his 1972 preparation. CANONICAL SIGNIFICANCE SOURCE. Museum curators' essay: admiring and based on the Sinquefield collection; its closing passages on his later life and storage-locker loss are not used.",
+      "url": "https://worldchesshof.org/?p=2447"
+    },
+    {
+      "id": "src_fischer_stlpr",
+      "kind": "press",
+      "title": "Shannon Bailey (chief curator, World Chess Hall of Fame), 'On Chess Hall Of Fame Exhibit Peeks Inside The Complex Mind Of Bobby Fischer', St. Louis Public Radio, 23 July 2014, read in full: his rise from US Junior champion at 12 to the 11-0 US Championship, the 1970-71 record of 20 consecutive wins in qualifying matches, the 1972 title that ended 24 years of Soviet champions, My 60 Memorable Games (1969), study without computers, learning Russian to read chess theory, private rather than state support, and the curator's own summary that the press often described him as difficult and that his later years were filled with controversy. Written by the same institution as the previous source, so the two are not independent of each other.",
+      "url": "https://www.stlpr.org/arts/2014-07-23/on-chess-hall-of-fame-exhibit-peeks-inside-the-complex-mind-of-bobby-fischer"
+    },
+    {
+      "id": "src_fischer_chesscom",
+      "kind": "press",
+      "title": "NM Vanessa, 'Bobby Fischer Scores 1st Win', Chess.com, 25 July 2022 (50-year anniversary of game 3 of the 1972 match), read in full: a narrative of the forfeited second game, Fischer's written appeal and his stated reason (camera noise and the match conditions), the appeals committee's refusal, his further demands (a different board, special lighting, orange juice), the agreement to play game 3 in a back room, Spassky's own words about the forfeit, referee Lothar Schmid's recollection, Garry Kasparov's and Frank Brady's remarks, and an analysis of the game. Independent chess journalism by a titled player; it quotes Soviet and neutral participants as well as Fischer's own protest letter. Narrative reconstruction partly based on Brady's book, not an eyewitness report.",
+      "url": "https://www.chess.com/article/view/50-year-anniversary-fischer-spassky-game-3"
+    },
+    {
+      "id": "src_fischer_chessbase",
+      "kind": "press",
+      "title": "ChessBase, 'Famous chess cheating tales, Part 1', read in full for its section on Fischer's article in Sports Illustrated of 20 August 1962: his published accusation that Soviet players had colluded at the 1962 Curacao Candidates, his quoted statement that Russians worked as a team, Larry Evans's later view that Fischer was not yet good enough to have won in any case, and the note that the world championship cycle was later restructured. Independent chess journalism; the original Sports Illustrated article was not opened, so Fischer's words are read second-hand; the accusation is contested (see the Boston Globe review).",
+      "url": "https://en.chessbase.com/post/famous-chess-cheating-tales-part-1"
+    },
+    {
+      "id": "src_fischer_globe",
+      "kind": "press",
+      "title": "The Boston Globe, review of Yuri Averbakh's autobiography (30 October 2011), read in full for its passage on Fischer: the Soviet grandmaster and official Averbakh denies that Petrosian, Geller and Keres fixed the 1962 Curacao Candidates, saying only that friends would naturally play short draws, and describes Soviet attempts to stop Fischer in the 1971 cycle. A Soviet-side counter-voice; it is a book review, not Averbakh's own text, which was not opened.",
+      "url": "https://www.bostonglobe.com/arts/2011/10/30/yuri-averbakh-publishes-his-autobiography/zLaOY45mKtmFzOZgZlQ26O/story.html"
+    },
+    {
+      "id": "src_fischer_nationaalarchief",
+      "kind": "archive",
+      "title": "Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, 'Bobby Fischer in Hilton Hotel te Amsterdam voor besprekingen met FIDE-voorzitter Max Euwe (rechts) over de tweekamp om het wereldkampioenschap met Boris Spassky', photograph by Bert Verhoeff / Anefo, 31 January 1972, item 925-3512 -- institutional catalogue page checked for the portrait: rights holder stated as 'Nationaal Archief, CC0'. Used only for the portrait.",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/abdf9680-d0b4-102d-bcf8-003048976d84"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fischer_wchof, src_fischer_stlpr, src_fischer_britannica, src_fischer_chesscom | 1949-1972 | museum essay + curator article + encyclopedia + chess journalism] The World Chess Hall of Fame documents him exhausting the Brooklyn library's chess books as a child, using a mentor's library to study the old masters, reviving a long-unplayed opening line, building a large collection of books and magazines, learning Russian to read the best theory and, for 1972, working from notebooks of his opponents' games and a heavily used set of study material; Britannica records that he left high school at 16 to devote himself fully to the game; Several distinct documented practices over decades from three kinds of source, but the two museum accounts come from one institution and are admiring, and the Russian-learning is stated without detail, so strong inference with moderate confidence."
+    },
+    "deep_focus": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_fischer_wchof, src_fischer_chesscom | 1950s-1972 | museum essay + chess journalism] The museum essay says reading and study of five to ten hours a day was the rule, and notes books and magazines piled through his apartment in 1970; Chess.com quotes his own protest that the match rules protect players from interference with concentration, and describes his refusal to play until the cameras were gone. SELF-CALIBRATION (agent): lowered from 74 / 0.52 strong inference to 66 / 0.46 inference because the five-to-ten-hours statement is unattributed in a single museum essay and the camera protest is as consistent with insisting on conditions as with focus."
+    },
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fischer_britannica, src_fischer_stlpr, src_fischer_chesscom, src_fischer_chessbase | 1956-1972 | encyclopedia + curator article + chess journalism] He won a US Championship with a perfect score, won 20 consecutive games in the 1970-71 qualifying matches (Britannica, curator), and took the world title from the Soviet champion; Chess.com describes him insisting on his conditions while two points down in the match, and the champion is quoted calling the forfeit unpleasant for him; the curator calls him intimidatingly competitive. SELF-CALIBRATION (agent): lowered from 80 / 0.60 to 72 / 0.54 because most of the evidence is results rather than behaviour, and the direct statement of competitiveness is a curator's retrospective adjective. Dual-edged because the same drive is reported alongside costly refusals to play."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fischer_chesscom, src_fischer_chessbase, src_fischer_globe, src_fischer_britannica | 1962-1975 | chess journalism + Soviet-side review + encyclopedia] In 1962 he published a magazine article accusing Soviet players of colluding (ChessBase); Soviet official Averbakh denies it (Boston Globe) and a US grandmaster later judged him not yet good enough to have won anyway, so the accusation itself is contested and is not scored as true. In 1972 he failed to appear for game two, lodged a written protest, kept making conditions, and had a game played in a back room, while the champion is quoted calling it unpleasant and the referee recalls pleading with both men (Chess.com). In 1975 he refused to meet his challenger and lost the title (Britannica). Repeated, documented willingness to stay in open dispute with officials and opponents, from independent and opposing voices; the motive is not scored."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fischer_britannica, src_fischer_stlpr, src_fischer_chesscom | 1959-1975 | encyclopedia + curator article + chess journalism] He left school at 16 to give himself to chess (Britannica), built his career on private donors and family rather than state support, unlike his Soviet rivals (curator), insisted on playing the 1972 match on his own conditions and appealed the forfeit (Chess.com), and in 1975 declined to defend his title on the terms offered (Britannica). Consistent with a strong need to control the terms of his work, but the sources describe the refusals without his stated reasons and the curator material is admiring, so a single inference-level row."
+    },
+    "creative_originality": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_fischer_wchof, src_fischer_chesscom, src_fischer_britannica | 1963-1972 | museum essay + chess journalism + encyclopedia] The museum essay says he revived a long-forgotten opening line in 1963 and turned 'museum piece' openings into weapons; Chess.com annotates a surprising knight move to the edge of the board in the third game of the 1972 match and an unusual opening choice; Britannica says his wins often came from surprise attacks or counterattacks. Original in opening choices and tactics, but this is documented only as a few examples and in chess-technical terms, so only a modest lean is supported; his later rule and clock inventions were not scored because the sources read for them were machine-generated summaries."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "보비 피셔"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed: Commons file 'Bobby Fischer 1972 (cropped).jpg' is a crop made on Commons of a Nationaal Archief / Anefo photograph by Bert Verhoeff taken 31 January 1972 (item 925-3512); the Nationaal Archief catalogue page (read from its embedded record) states rights holder 'Nationaal Archief, CC0' and Commons carries CC0 and agrees; no conflicting notice; the Commons crop is 1231 x 1626 and was downscaled to 908 x 1200 with no further cropping. The crop removes FIDE president Max Euwe from the original frame; the sitter was identified by the Archive's own caption.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q41314 returned label 'Bobby Fischer', description 'American chess player (1943-2008)', born 1943-03-09, died 2008-01-17, citizenship United States and Iceland, ko label present. SLUG/QID CHECK: not in prod61.txt and no existing candidate file. Region north_america (United States; later years abroad). Zero-politics passes for a chess player: the Cold War framing of 1972, his 1992 match, sanctions indictment, passport and citizenship events and his later public political and hateful statements are NOT scored and no row uses them. Occupation id: 'athlete' with field 'sport' is used because no chess-player occupation id exists in the vocabulary (reported to the lead). Plausible >=2 independent perspectives and a non-self behavioural source: yes.\nCANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Bobby Fischer' https://www.britannica.com/biography/Bobby-Fischer and World Chess Hall of Fame exhibition overview https://worldchesshof.org/?p=2447 (both read in full).\nSOURCES READ (7 substantive): Britannica, World Chess Hall of Fame essay, St. Louis Public Radio curator article (same institution as the previous, not independent of it), Chess.com 2022 match narrative, ChessBase 'Famous chess cheating tales Part 1' (1962 accusation), Boston Globe review of Averbakh's autobiography (Soviet counter-voice), Nationaal Archief page (portrait only); Wikidata orientation only. PERSPECTIVES: encyclopedia, chess museum, chess journalism quoting Soviet and neutral participants, Soviet-side counter-voice via a review. COUNTER-VOICE: Averbakh's denial of 1962 collusion; Larry Evans's view; Spassky's and Schmid's remarks on his conduct. NOT OPENED: Sports Illustrated 1962 article by Fischer and the 1965 Sports Illustrated chess-expert profile (the Vault page returned 404), Frank Brady's biography, Edmonds and Eidinow, Averbakh's book itself, Fischer's own books. EXCLUSIONS: any mental-health speculation (several sources discuss it; none used), the 1992 match and sanctions, the passport and detention events, antisemitic and other public statements, his exile, and the storage-locker loss. Britannica's machine-generated Q&A boxes (which mention Fischer clock and random chess) were not used, so his later inventions are unscored.\nSELECTIVE SELF-CALIBRATION: reviewed competitiveness (lowered 80/0.60 to 72/0.54: mostly results and a curator's adjective), deep_focus (lowered 74/0.52 to 66/0.46: unattributed hours-per-day claim from one museum essay) and mastery_orientation (kept at 78/0.58: three kinds of source document distinct study practices). Initial rows 6; lowered 2. Broad flag for the lead: the profile is sparse (6 rows) and the two museum sources are one institution; chess-player vocabulary gap.\nHANDBACK61: {\"slug\":\"bobby-fischer\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"competitiveness\",\"old_score\":80,\"old_confidence\":0.6,\"new_score\":72,\"new_confidence\":0.54,\"reason\":\"most evidence is results not behaviour and the direct statement is a curator's retrospective adjective\"},{\"attribute\":\"deep_focus\",\"old_score\":74,\"old_confidence\":0.52,\"new_score\":66,\"new_confidence\":0.46,\"reason\":\"hours-per-day claim is unattributed in a single museum essay\"}],\"reviewed_kept\":[\"mastery_orientation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bobby-fischer-verhoeff-1972.jpg",
+    "width": 908,
+    "height": 1200,
+    "source": "Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, photograph of Bobby Fischer at the Hilton Hotel in Amsterdam by Bert Verhoeff / Anefo, 31 January 1972; the Wikimedia Commons crop of the original, 1231 x 1626 pixels, downscaled to 908 x 1200",
+    "license": "CC0 1.0 (public domain dedication)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photo: Bert Verhoeff / Anefo, 31 January 1972, Nationaal Archief, CC0, cropped and resized from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Bobby_Fischer_1972_(cropped).jpg",
+    "creator": "Bert Verhoeff / Anefo",
+    "date": "1972-01-31",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/abdf9680-d0b4-102d-bcf8-003048976d84"
+  }
+}

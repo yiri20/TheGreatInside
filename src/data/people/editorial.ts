@@ -12771,4 +12771,325 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "salif-keita-turning-point-1", textKey: "salif-keita.turning_point.1", interpretationKey: "salif-keita.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_sk_musafr", "src_sk_pam", "src_sk_eb"] },
     ],
   },
+  "bobby-fischer": {
+    achievements: [
+      { id: "bobby-fischer-achievement-1", textKey: "bobby-fischer.achievement.1", sourceIds: ["src_fischer_britannica", "src_fischer_wchof", "src_fischer_stlpr"] },
+      { id: "bobby-fischer-achievement-2", textKey: "bobby-fischer.achievement.2", sourceIds: ["src_fischer_britannica", "src_fischer_stlpr"] },
+      { id: "bobby-fischer-achievement-3", textKey: "bobby-fischer.achievement.3", sourceIds: ["src_fischer_britannica", "src_fischer_stlpr", "src_fischer_wchof"] },
+    ],
+    moments: [
+      { id: "bobby-fischer-moment-1", textKey: "bobby-fischer.moment.1", interpretationKey: "bobby-fischer.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_fischer_chesscom"] },
+      { id: "bobby-fischer-moment-2", textKey: "bobby-fischer.moment.2", interpretationKey: "bobby-fischer.interpretation.moment.2", attributeId: "mastery_orientation", sourceIds: ["src_fischer_stlpr", "src_fischer_wchof"] },
+    ],
+    turningPoints: [
+      { id: "bobby-fischer-turning-point-1", textKey: "bobby-fischer.turning_point.1", interpretationKey: "bobby-fischer.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_fischer_britannica"] },
+    ],
+  },
+  "fanny-blankers-koen": {
+    achievements: [
+      { id: "fanny-blankers-koen-achievement-1", textKey: "fanny-blankers-koen.achievement.1", sourceIds: ["src_blankers_olympedia", "src_blankers_britannica"] },
+      { id: "fanny-blankers-koen-achievement-2", textKey: "fanny-blankers-koen.achievement.2", sourceIds: ["src_blankers_britannica", "src_blankers_olympedia"] },
+      { id: "fanny-blankers-koen-achievement-3", textKey: "fanny-blankers-koen.achievement.3", sourceIds: ["src_blankers_britannica", "src_blankers_smithsonian", "src_blankers_wafeature"] },
+    ],
+    moments: [
+      { id: "fanny-blankers-koen-moment-1", textKey: "fanny-blankers-koen.moment.1", interpretationKey: "fanny-blankers-koen.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_blankers_joh"] },
+      { id: "fanny-blankers-koen-moment-2", textKey: "fanny-blankers-koen.moment.2", interpretationKey: "fanny-blankers-koen.interpretation.moment.2", attributeId: "planning_orientation", sourceIds: ["src_blankers_joh", "src_blankers_wafeature", "src_blankers_britannica"] },
+    ],
+    turningPoints: [
+      { id: "fanny-blankers-koen-turning-point-1", textKey: "fanny-blankers-koen.turning_point.1", interpretationKey: "fanny-blankers-koen.interpretation.turning_point.1", attributeId: "achievement_drive", sourceIds: ["src_blankers_joh", "src_blankers_olympedia"] },
+    ],
+  },
+  "ferdinand-de-lesseps": {
+    achievements: [
+      { id: "ferdinand-de-lesseps-achievement-1", textKey: "ferdinand-de-lesseps.achievement.1", sourceIds: ["src_lesseps_napoleon", "src_lesseps_ebsco", "src_lesseps_eb1911"] },
+      { id: "ferdinand-de-lesseps-achievement-2", textKey: "ferdinand-de-lesseps.achievement.2", sourceIds: ["src_lesseps_napoleon", "src_lesseps_graces"] },
+      { id: "ferdinand-de-lesseps-achievement-3", textKey: "ferdinand-de-lesseps.achievement.3", sourceIds: ["src_lesseps_eb1911", "src_lesseps_lindahall", "src_lesseps_napoleon"] },
+    ],
+    moments: [
+      { id: "ferdinand-de-lesseps-moment-1", textKey: "ferdinand-de-lesseps.moment.1", interpretationKey: "ferdinand-de-lesseps.interpretation.moment.1", attributeId: "persuasiveness", sourceIds: ["src_lesseps_napoleon", "src_lesseps_graces"] },
+      { id: "ferdinand-de-lesseps-moment-2", textKey: "ferdinand-de-lesseps.moment.2", interpretationKey: "ferdinand-de-lesseps.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_lesseps_lindahall", "src_lesseps_ebsco"] },
+    ],
+    turningPoints: [
+      { id: "ferdinand-de-lesseps-turning-point-1", textKey: "ferdinand-de-lesseps.turning_point.1", interpretationKey: "ferdinand-de-lesseps.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_lesseps_napoleon", "src_lesseps_eb1911"] },
+    ],
+  },
+  "florentino-ameghino": {
+    achievements: [
+      { id: "florentino-ameghino-achievement-1", textKey: "florentino-ameghino.achievement.1", sourceIds: ["src_ameghino_matthew", "src_ameghino_britannica", "src_ameghino_eolahc"] },
+      { id: "florentino-ameghino-achievement-2", textKey: "florentino-ameghino.achievement.2", sourceIds: ["src_ameghino_matthew", "src_ameghino_britannica", "src_ameghino_eolahc", "src_ameghino_menendez"] },
+      { id: "florentino-ameghino-achievement-3", textKey: "florentino-ameghino.achievement.3", sourceIds: ["src_ameghino_britannica", "src_ameghino_matthew", "src_ameghino_vizcaino"] },
+    ],
+    moments: [
+      { id: "florentino-ameghino-moment-1", textKey: "florentino-ameghino.moment.1", interpretationKey: "florentino-ameghino.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_ameghino_matthew", "src_ameghino_vizcaino"] },
+      { id: "florentino-ameghino-moment-2", textKey: "florentino-ameghino.moment.2", interpretationKey: "florentino-ameghino.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_ameghino_matthew", "src_ameghino_vizcaino"] },
+    ],
+    turningPoints: [
+      { id: "florentino-ameghino-turning-point-1", textKey: "florentino-ameghino.turning_point.1", interpretationKey: "florentino-ameghino.interpretation.turning_point.1", attributeId: "independent_thinking", sourceIds: ["src_ameghino_matthew", "src_ameghino_eolahc"] },
+    ],
+  },
+  "henry-david-thoreau": {
+    achievements: [
+      { id: "henry-david-thoreau-achievement-1", textKey: "henry-david-thoreau.achievement.1", sourceIds: ["src_thoreau_sep", "src_thoreau_society"] },
+      { id: "henry-david-thoreau-achievement-2", textKey: "henry-david-thoreau.achievement.2", sourceIds: ["src_thoreau_society", "src_thoreau_sep"] },
+      { id: "henry-david-thoreau-achievement-3", textKey: "henry-david-thoreau.achievement.3", sourceIds: ["src_thoreau_sep", "src_thoreau_phenology"] },
+    ],
+    moments: [
+      { id: "henry-david-thoreau-moment-1", textKey: "henry-david-thoreau.moment.1", interpretationKey: "henry-david-thoreau.interpretation.moment.1", attributeId: "autonomy_need", sourceIds: ["src_thoreau_society"] },
+      { id: "henry-david-thoreau-moment-2", textKey: "henry-david-thoreau.moment.2", interpretationKey: "henry-david-thoreau.interpretation.moment.2", attributeId: "detail_orientation", sourceIds: ["src_thoreau_phenology"] },
+    ],
+    turningPoints: [
+      { id: "henry-david-thoreau-turning-point-1", textKey: "henry-david-thoreau.turning_point.1", interpretationKey: "henry-david-thoreau.interpretation.turning_point.1", attributeId: "experimentation", sourceIds: ["src_thoreau_society", "src_thoreau_sep"] },
+    ],
+  },
+  "hertha-ayrton": {
+    achievements: [
+      { id: "hertha-ayrton-achievement-1", textKey: "hertha-ayrton.achievement.1", sourceIds: ["src_ayrton_dsb", "src_ayrton_jwa", "src_ayrton_sharp"] },
+      { id: "hertha-ayrton-achievement-2", textKey: "hertha-ayrton.achievement.2", sourceIds: ["src_ayrton_jwa", "src_ayrton_dsb", "src_ayrton_gracesguide"] },
+      { id: "hertha-ayrton-achievement-3", textKey: "hertha-ayrton.achievement.3", sourceIds: ["src_ayrton_dsb", "src_ayrton_jwa", "src_ayrton_gracesguide"] },
+    ],
+    moments: [
+      { id: "hertha-ayrton-moment-1", textKey: "hertha-ayrton.moment.1", interpretationKey: "hertha-ayrton.interpretation.moment.1", attributeId: "experimentation", sourceIds: ["src_ayrton_sharp", "src_ayrton_dsb"] },
+      { id: "hertha-ayrton-moment-2", textKey: "hertha-ayrton.moment.2", interpretationKey: "hertha-ayrton.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_ayrton_jwa", "src_ayrton_sharp"] },
+    ],
+    turningPoints: [
+      { id: "hertha-ayrton-turning-point-1", textKey: "hertha-ayrton.turning_point.1", interpretationKey: "hertha-ayrton.interpretation.turning_point.1", attributeId: "cross_domain_range", sourceIds: ["src_ayrton_gracesguide", "src_ayrton_dsb", "src_ayrton_jwa"] },
+    ],
+  },
+  "horace-mann": {
+    achievements: [
+      { id: "horace-mann-achievement-1", textKey: "horace-mann.achievement.1", sourceIds: ["src_hmann_britannica", "src_hmann_eoe", "src_hmann_mhs"] },
+      { id: "horace-mann-achievement-2", textKey: "horace-mann.achievement.2", sourceIds: ["src_hmann_britannica", "src_hmann_uxl"] },
+      { id: "horace-mann-achievement-3", textKey: "horace-mann.achievement.3", sourceIds: ["src_hmann_britannica", "src_hmann_uudb", "src_hmann_mhs"] },
+    ],
+    moments: [
+      { id: "horace-mann-moment-1", textKey: "horace-mann.moment.1", interpretationKey: "horace-mann.interpretation.moment.1", attributeId: "proactive_agency", sourceIds: ["src_hmann_uxl", "src_hmann_britannica"] },
+      { id: "horace-mann-moment-2", textKey: "horace-mann.moment.2", interpretationKey: "horace-mann.interpretation.moment.2", attributeId: "persuasiveness", sourceIds: ["src_hmann_britannica", "src_hmann_uxl", "src_hmann_eoe"] },
+    ],
+    turningPoints: [
+      { id: "horace-mann-turning-point-1", textKey: "horace-mann.turning_point.1", interpretationKey: "horace-mann.interpretation.turning_point.1", attributeId: "impact_motivation", sourceIds: ["src_hmann_britannica", "src_hmann_eoe", "src_hmann_mhs"] },
+    ],
+  },
+  "joseph-henry": {
+    achievements: [
+      { id: "joseph-henry-achievement-1", textKey: "joseph-henry.achievement.1", sourceIds: ["src_henry_nas", "src_henry_siacareer", "src_henry_hochfelder", "src_henry_ethw"] },
+      { id: "joseph-henry-achievement-2", textKey: "joseph-henry.achievement.2", sourceIds: ["src_henry_nas", "src_henry_sialibrary", "src_henry_siacareer"] },
+      { id: "joseph-henry-achievement-3", textKey: "joseph-henry.achievement.3", sourceIds: ["src_henry_hochfelder", "src_henry_ethw"] },
+    ],
+    moments: [
+      { id: "joseph-henry-moment-1", textKey: "joseph-henry.moment.1", interpretationKey: "joseph-henry.interpretation.moment.1", attributeId: "analytical_rigor", sourceIds: ["src_henry_hochfelder", "src_henry_nas"] },
+      { id: "joseph-henry-moment-2", textKey: "joseph-henry.moment.2", interpretationKey: "joseph-henry.interpretation.moment.2", attributeId: "proactive_agency", sourceIds: ["src_henry_nas"] },
+    ],
+    turningPoints: [
+      { id: "joseph-henry-turning-point-1", textKey: "joseph-henry.turning_point.1", interpretationKey: "joseph-henry.interpretation.turning_point.1", attributeId: "leadership_drive", sourceIds: ["src_henry_ethw", "src_henry_popsci", "src_henry_siacareer"] },
+    ],
+  },
+  "josiah-willard-gibbs": {
+    achievements: [
+      { id: "josiah-willard-gibbs-achievement-1", textKey: "josiah-willard-gibbs.achievement.1", sourceIds: ["src_gibbs_nas", "src_gibbs_britannica1911", "src_gibbs_fiene", "src_gibbs_garrison"] },
+      { id: "josiah-willard-gibbs-achievement-2", textKey: "josiah-willard-gibbs.achievement.2", sourceIds: ["src_gibbs_nas", "src_gibbs_britannica1911", "src_gibbs_fiene"] },
+      { id: "josiah-willard-gibbs-achievement-3", textKey: "josiah-willard-gibbs.achievement.3", sourceIds: ["src_gibbs_fiene", "src_gibbs_nas", "src_gibbs_cthistory"] },
+    ],
+    moments: [
+      { id: "josiah-willard-gibbs-moment-1", textKey: "josiah-willard-gibbs.moment.1", interpretationKey: "josiah-willard-gibbs.interpretation.moment.1", attributeId: "systems_abstraction", sourceIds: ["src_gibbs_nas", "src_gibbs_bumstead"] },
+      { id: "josiah-willard-gibbs-moment-2", textKey: "josiah-willard-gibbs.moment.2", interpretationKey: "josiah-willard-gibbs.interpretation.moment.2", attributeId: "persuasiveness", sourceIds: ["src_gibbs_fiene", "src_gibbs_garrison"] },
+    ],
+    turningPoints: [
+      { id: "josiah-willard-gibbs-turning-point-1", textKey: "josiah-willard-gibbs.turning_point.1", interpretationKey: "josiah-willard-gibbs.interpretation.turning_point.1", attributeId: "systems_abstraction", sourceIds: ["src_gibbs_nas", "src_gibbs_cthistory"] },
+    ],
+  },
+  "kwegyir-aggrey": {
+    achievements: [
+      { id: "kwegyir-aggrey-achievement-1", textKey: "kwegyir-aggrey.achievement.1", sourceIds: ["src_aggrey_dacb", "src_aggrey_smith"] },
+      { id: "kwegyir-aggrey-achievement-2", textKey: "kwegyir-aggrey.achievement.2", sourceIds: ["src_aggrey_smith", "src_aggrey_dacb"] },
+      { id: "kwegyir-aggrey-achievement-3", textKey: "kwegyir-aggrey.achievement.3", sourceIds: ["src_aggrey_smith"] },
+    ],
+    moments: [
+      { id: "kwegyir-aggrey-moment-1", textKey: "kwegyir-aggrey.moment.1", interpretationKey: "kwegyir-aggrey.interpretation.moment.1", attributeId: "discipline", sourceIds: ["src_aggrey_smith"] },
+      { id: "kwegyir-aggrey-moment-2", textKey: "kwegyir-aggrey.moment.2", interpretationKey: "kwegyir-aggrey.interpretation.moment.2", attributeId: "persuasiveness", sourceIds: ["src_aggrey_smith"] },
+    ],
+    turningPoints: [
+      { id: "kwegyir-aggrey-turning-point-1", textKey: "kwegyir-aggrey.turning_point.1", interpretationKey: "kwegyir-aggrey.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_aggrey_smith", "src_aggrey_dacb"] },
+    ],
+  },
+  "machado-de-assis": {
+    achievements: [
+      { id: "machado-de-assis-achievement-1", textKey: "machado-de-assis.achievement.1", sourceIds: ["src_machado_abl", "src_machado_gale"] },
+      { id: "machado-de-assis-achievement-2", textKey: "machado-de-assis.achievement.2", sourceIds: ["src_machado_gale", "src_machado_abl"] },
+      { id: "machado-de-assis-achievement-3", textKey: "machado-de-assis.achievement.3", sourceIds: ["src_machado_abl", "src_machado_gale", "src_machado_enap"] },
+    ],
+    moments: [
+      { id: "machado-de-assis-moment-1", textKey: "machado-de-assis.moment.1", interpretationKey: "machado-de-assis.interpretation.moment.1", attributeId: "proactive_agency", sourceIds: ["src_machado_enap"] },
+      { id: "machado-de-assis-moment-2", textKey: "machado-de-assis.moment.2", interpretationKey: "machado-de-assis.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_machado_enap", "src_machado_piza"] },
+    ],
+    turningPoints: [
+      { id: "machado-de-assis-turning-point-1", textKey: "machado-de-assis.turning_point.1", interpretationKey: "machado-de-assis.interpretation.turning_point.1", attributeId: "creative_originality", sourceIds: ["src_machado_abl", "src_machado_gale"] },
+    ],
+  },
+  "natsume-soseki": {
+    achievements: [
+      { id: "natsume-soseki-achievement-1", textKey: "natsume-soseki.achievement.1", sourceIds: ["src_soseki_brit", "src_soseki_ndl", "src_soseki_nippon"] },
+      { id: "natsume-soseki-achievement-2", textKey: "natsume-soseki.achievement.2", sourceIds: ["src_soseki_brit", "src_soseki_ndl", "src_soseki_nippon", "src_soseki_tohoku"] },
+      { id: "natsume-soseki-achievement-3", textKey: "natsume-soseki.achievement.3", sourceIds: ["src_soseki_nippon", "src_soseki_chron", "src_soseki_gale"] },
+    ],
+    moments: [
+      { id: "natsume-soseki-moment-1", textKey: "natsume-soseki.moment.1", interpretationKey: "natsume-soseki.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_soseki_nippon", "src_soseki_chron"] },
+      { id: "natsume-soseki-moment-2", textKey: "natsume-soseki.moment.2", interpretationKey: "natsume-soseki.interpretation.moment.2", attributeId: "mastery_orientation", sourceIds: ["src_soseki_nippon", "src_soseki_chron"] },
+    ],
+    turningPoints: [
+      { id: "natsume-soseki-turning-point-1", textKey: "natsume-soseki.turning_point.1", interpretationKey: "natsume-soseki.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_soseki_chron", "src_soseki_nippon", "src_soseki_gale"] },
+    ],
+  },
+  "nikolai-lobachevsky": {
+    achievements: [
+      { id: "nikolai-lobachevsky-achievement-1", textKey: "nikolai-lobachevsky.achievement.1", sourceIds: ["src_lobach_mactutor", "src_lobach_britannica", "src_lobach_dsb"] },
+      { id: "nikolai-lobachevsky-achievement-2", textKey: "nikolai-lobachevsky.achievement.2", sourceIds: ["src_lobach_mactutor", "src_lobach_britannica", "src_lobach_dsb"] },
+      { id: "nikolai-lobachevsky-achievement-3", textKey: "nikolai-lobachevsky.achievement.3", sourceIds: ["src_lobach_britannica", "src_lobach_mactutor", "src_lobach_dsb"] },
+    ],
+    moments: [
+      { id: "nikolai-lobachevsky-moment-1", textKey: "nikolai-lobachevsky.moment.1", interpretationKey: "nikolai-lobachevsky.interpretation.moment.1", attributeId: "analytical_rigor", sourceIds: ["src_lobach_dsb", "src_lobach_britannica"] },
+      { id: "nikolai-lobachevsky-moment-2", textKey: "nikolai-lobachevsky.moment.2", interpretationKey: "nikolai-lobachevsky.interpretation.moment.2", attributeId: "leadership_drive", sourceIds: ["src_lobach_britannica", "src_lobach_mactutor"] },
+    ],
+    turningPoints: [
+      { id: "nikolai-lobachevsky-turning-point-1", textKey: "nikolai-lobachevsky.turning_point.1", interpretationKey: "nikolai-lobachevsky.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_lobach_dsb", "src_lobach_britannica", "src_lobach_mactutor"] },
+    ],
+  },
+  "nikolay-przhevalsky": {
+    achievements: [
+      { id: "nikolay-przhevalsky-achievement-1", textKey: "nikolay-przhevalsky.achievement.1", sourceIds: ["src_przhev_brit", "src_przhev_ebsco", "src_przhev_eb1911"] },
+      { id: "nikolay-przhevalsky-achievement-2", textKey: "nikolay-przhevalsky.achievement.2", sourceIds: ["src_przhev_brit", "src_przhev_ebsco", "src_przhev_eb1911"] },
+      { id: "nikolay-przhevalsky-achievement-3", textKey: "nikolay-przhevalsky.achievement.3", sourceIds: ["src_przhev_eb1911", "src_przhev_kulja", "src_przhev_psm", "src_przhev_ebsco"] },
+    ],
+    moments: [
+      { id: "nikolay-przhevalsky-moment-1", textKey: "nikolay-przhevalsky.moment.1", interpretationKey: "nikolay-przhevalsky.interpretation.moment.1", attributeId: "risk_tolerance", sourceIds: ["src_przhev_yule", "src_przhev_eb1911"] },
+      { id: "nikolay-przhevalsky-moment-2", textKey: "nikolay-przhevalsky.moment.2", interpretationKey: "nikolay-przhevalsky.interpretation.moment.2", attributeId: "detail_orientation", sourceIds: ["src_przhev_psm", "src_przhev_yule"] },
+    ],
+    turningPoints: [
+      { id: "nikolay-przhevalsky-turning-point-1", textKey: "nikolay-przhevalsky.turning_point.1", interpretationKey: "nikolay-przhevalsky.interpretation.turning_point.1", attributeId: "curiosity", sourceIds: ["src_przhev_psm", "src_przhev_eb1911"] },
+    ],
+  },
+  "pierre-de-coubertin": {
+    achievements: [
+      { id: "pierre-de-coubertin-achievement-1", textKey: "pierre-de-coubertin.achievement.1", sourceIds: ["src_coubertin_olympedia", "src_coubertin_britannica", "src_coubertin_kluge"] },
+      { id: "pierre-de-coubertin-achievement-2", textKey: "pierre-de-coubertin.achievement.2", sourceIds: ["src_coubertin_olympedia", "src_coubertin_britannica"] },
+      { id: "pierre-de-coubertin-achievement-3", textKey: "pierre-de-coubertin.achievement.3", sourceIds: ["src_coubertin_britannica", "src_coubertin_olympedia", "src_coubertin_kluge"] },
+    ],
+    moments: [
+      { id: "pierre-de-coubertin-moment-1", textKey: "pierre-de-coubertin.moment.1", interpretationKey: "pierre-de-coubertin.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_coubertin_kluge", "src_coubertin_olympedia"] },
+      { id: "pierre-de-coubertin-moment-2", textKey: "pierre-de-coubertin.moment.2", interpretationKey: "pierre-de-coubertin.interpretation.moment.2", attributeId: "proactive_agency", sourceIds: ["src_coubertin_kluge", "src_coubertin_olympedia"] },
+    ],
+    turningPoints: [
+      { id: "pierre-de-coubertin-turning-point-1", textKey: "pierre-de-coubertin.turning_point.1", interpretationKey: "pierre-de-coubertin.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_coubertin_britannica", "src_coubertin_olympedia"] },
+    ],
+  },
+  "plato": {
+    achievements: [
+      { id: "plato-achievement-1", textKey: "plato.achievement.1", sourceIds: ["src_plato_iep", "src_plato_sep", "src_plato_whe"] },
+      { id: "plato-achievement-2", textKey: "plato.achievement.2", sourceIds: ["src_plato_iep", "src_plato_encyclopedia", "src_plato_diogenes"] },
+      { id: "plato-achievement-3", textKey: "plato.achievement.3", sourceIds: ["src_plato_iep", "src_plato_encyclopedia"] },
+    ],
+    moments: [
+      { id: "plato-moment-1", textKey: "plato.moment.1", interpretationKey: "plato.interpretation.moment.1", attributeId: "mastery_orientation", sourceIds: ["src_plato_encyclopedia", "src_plato_iep"] },
+      { id: "plato-moment-2", textKey: "plato.moment.2", interpretationKey: "plato.interpretation.moment.2", attributeId: "cross_domain_range", sourceIds: ["src_plato_encyclopedia"] },
+    ],
+    turningPoints: [
+      { id: "plato-turning-point-1", textKey: "plato.turning_point.1", interpretationKey: "plato.interpretation.turning_point.1", attributeId: "mastery_orientation", sourceIds: ["src_plato_iep", "src_plato_encyclopedia"] },
+    ],
+  },
+  "sakichi-toyoda": {
+    achievements: [
+      { id: "sakichi-toyoda-achievement-1", textKey: "sakichi-toyoda.achievement.1", sourceIds: ["src_sakichi_jsme", "src_sakichi_ndl", "src_sakichi_ebsco", "src_sakichi_toyota75"] },
+      { id: "sakichi-toyoda-achievement-2", textKey: "sakichi-toyoda.achievement.2", sourceIds: ["src_sakichi_toyota75", "src_sakichi_jsme"] },
+      { id: "sakichi-toyoda-achievement-3", textKey: "sakichi-toyoda.achievement.3", sourceIds: ["src_sakichi_ndl", "src_sakichi_toyota75", "src_sakichi_sciencemuseum", "src_sakichi_allaboutlean"] },
+    ],
+    moments: [
+      { id: "sakichi-toyoda-moment-1", textKey: "sakichi-toyoda.moment.1", interpretationKey: "sakichi-toyoda.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_sakichi_ebsco"] },
+      { id: "sakichi-toyoda-moment-2", textKey: "sakichi-toyoda.moment.2", interpretationKey: "sakichi-toyoda.interpretation.moment.2", attributeId: "autonomy_need", sourceIds: ["src_sakichi_ebsco", "src_sakichi_ndl"] },
+    ],
+    turningPoints: [
+      { id: "sakichi-toyoda-turning-point-1", textKey: "sakichi-toyoda.turning_point.1", interpretationKey: "sakichi-toyoda.interpretation.turning_point.1", attributeId: "mastery_orientation", sourceIds: ["src_sakichi_ebsco", "src_sakichi_toyota75"] },
+    ],
+  },
+  "sarah-bernhardt": {
+    achievements: [
+      { id: "sarah-bernhardt-achievement-1", textKey: "sarah-bernhardt.achievement.1", sourceIds: ["src_bernhardt_britannica", "src_bernhardt_ebsco"] },
+      { id: "sarah-bernhardt-achievement-2", textKey: "sarah-bernhardt.achievement.2", sourceIds: ["src_bernhardt_britannica", "src_bernhardt_ebsco", "src_bernhardt_glasgow"] },
+      { id: "sarah-bernhardt-achievement-3", textKey: "sarah-bernhardt.achievement.3", sourceIds: ["src_bernhardt_britannica", "src_bernhardt_ebsco"] },
+    ],
+    moments: [
+      { id: "sarah-bernhardt-moment-1", textKey: "sarah-bernhardt.moment.1", interpretationKey: "sarah-bernhardt.interpretation.moment.1", attributeId: "autonomy_need", sourceIds: ["src_bernhardt_ebsco", "src_bernhardt_glasgow"] },
+      { id: "sarah-bernhardt-moment-2", textKey: "sarah-bernhardt.moment.2", interpretationKey: "sarah-bernhardt.interpretation.moment.2", attributeId: "opportunity_sensing", sourceIds: ["src_bernhardt_ebsco", "src_bernhardt_britannica"] },
+    ],
+    turningPoints: [
+      { id: "sarah-bernhardt-turning-point-1", textKey: "sarah-bernhardt.turning_point.1", interpretationKey: "sarah-bernhardt.interpretation.turning_point.1", attributeId: "leadership_drive", sourceIds: ["src_bernhardt_britannica", "src_bernhardt_ebsco"] },
+    ],
+  },
+  "selma-lagerlof": {
+    achievements: [
+      { id: "selma-lagerlof-achievement-1", textKey: "selma-lagerlof.achievement.1", sourceIds: ["src_lagerlof_nobelfacts", "src_lagerlof_nobelbio", "src_lagerlof_nobelwomen", "src_lagerlof_skbl"] },
+      { id: "selma-lagerlof-achievement-2", textKey: "selma-lagerlof.achievement.2", sourceIds: ["src_lagerlof_nobelbio", "src_lagerlof_nobelspeech", "src_lagerlof_skbl", "src_lagerlof_sbl"] },
+      { id: "selma-lagerlof-achievement-3", textKey: "selma-lagerlof.achievement.3", sourceIds: ["src_lagerlof_skbl", "src_lagerlof_sbl", "src_lagerlof_nobelfacts"] },
+    ],
+    moments: [
+      { id: "selma-lagerlof-moment-1", textKey: "selma-lagerlof.moment.1", interpretationKey: "selma-lagerlof.interpretation.moment.1", attributeId: "mastery_orientation", sourceIds: ["src_lagerlof_skbl", "src_lagerlof_sbl"] },
+      { id: "selma-lagerlof-moment-2", textKey: "selma-lagerlof.moment.2", interpretationKey: "selma-lagerlof.interpretation.moment.2", attributeId: "conflict_tolerance", sourceIds: ["src_lagerlof_sbl", "src_lagerlof_skbl"] },
+    ],
+    turningPoints: [
+      { id: "selma-lagerlof-turning-point-1", textKey: "selma-lagerlof.turning_point.1", interpretationKey: "selma-lagerlof.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_lagerlof_nobelbio", "src_lagerlof_skbl"] },
+    ],
+  },
+  "su-shi": {
+    achievements: [
+      { id: "su-shi-achievement-1", textKey: "su-shi.achievement.1", sourceIds: ["src_sushi_palacemuseum", "src_sushi_songshi", "src_sushi_comuseum"] },
+      { id: "su-shi-achievement-2", textKey: "su-shi.achievement.2", sourceIds: ["src_sushi_palacemuseum", "src_sushi_sbma", "src_sushi_globaltimes"] },
+      { id: "su-shi-achievement-3", textKey: "su-shi.achievement.3", sourceIds: ["src_sushi_songshi", "src_sushi_sothebys"] },
+    ],
+    moments: [
+      { id: "su-shi-moment-1", textKey: "su-shi.moment.1", interpretationKey: "su-shi.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_sushi_songshi", "src_sushi_sothebys"] },
+      { id: "su-shi-moment-2", textKey: "su-shi.moment.2", interpretationKey: "su-shi.interpretation.moment.2", attributeId: "adaptability", sourceIds: ["src_sushi_palacemuseum", "src_sushi_globaltimes"] },
+    ],
+    turningPoints: [
+      { id: "su-shi-turning-point-1", textKey: "su-shi.turning_point.1", interpretationKey: "su-shi.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_sushi_songshi", "src_sushi_comuseum"] },
+    ],
+  },
+  "swami-vivekananda": {
+    achievements: [
+      { id: "swami-vivekananda-achievement-1", textKey: "swami-vivekananda.achievement.1", sourceIds: ["src_vivekananda_barrows", "src_vivekananda_neely", "src_vivekananda_ebsco"] },
+      { id: "swami-vivekananda-achievement-2", textKey: "swami-vivekananda.achievement.2", sourceIds: ["src_vivekananda_belur", "src_vivekananda_gale", "src_vivekananda_ebsco"] },
+      { id: "swami-vivekananda-achievement-3", textKey: "swami-vivekananda.achievement.3", sourceIds: ["src_vivekananda_gale", "src_vivekananda_belur", "src_vivekananda_ebsco"] },
+    ],
+    moments: [
+      { id: "swami-vivekananda-moment-1", textKey: "swami-vivekananda.moment.1", interpretationKey: "swami-vivekananda.interpretation.moment.1", attributeId: "proactive_agency", sourceIds: ["src_vivekananda_ebsco", "src_vivekananda_gale"] },
+    ],
+    turningPoints: [
+      { id: "swami-vivekananda-turning-point-1", textKey: "swami-vivekananda.turning_point.1", interpretationKey: "swami-vivekananda.interpretation.turning_point.1", attributeId: "leadership_drive", sourceIds: ["src_vivekananda_gale", "src_vivekananda_belur", "src_vivekananda_ebsco"] },
+    ],
+  },
+  "victor-hugo": {
+    achievements: [
+      { id: "victor-hugo-achievement-1", textKey: "victor-hugo.achievement.1", sourceIds: ["src_hugo_britannica", "src_hugo_academie", "src_hugo_guernsey_life"] },
+      { id: "victor-hugo-achievement-2", textKey: "victor-hugo.achievement.2", sourceIds: ["src_hugo_britannica", "src_hugo_hnn", "src_hugo_paste"] },
+      { id: "victor-hugo-achievement-3", textKey: "victor-hugo.achievement.3", sourceIds: ["src_hugo_britannica", "src_hugo_academie", "src_hugo_guernsey_life"] },
+    ],
+    moments: [
+      { id: "victor-hugo-moment-1", textKey: "victor-hugo.moment.1", interpretationKey: "victor-hugo.interpretation.moment.1", attributeId: "creative_originality", sourceIds: ["src_hugo_britannica"] },
+      { id: "victor-hugo-moment-2", textKey: "victor-hugo.moment.2", interpretationKey: "victor-hugo.interpretation.moment.2", attributeId: "aesthetic_sensitivity", sourceIds: ["src_hugo_guernsey_house", "src_hugo_guernsey_life"] },
+    ],
+    turningPoints: [
+      { id: "victor-hugo-turning-point-1", textKey: "victor-hugo.turning_point.1", interpretationKey: "victor-hugo.interpretation.turning_point.1", attributeId: "discipline", sourceIds: ["src_hugo_guernsey_life", "src_hugo_britannica"] },
+    ],
+  },
+  "viswanathan-anand": {
+    achievements: [
+      { id: "viswanathan-anand-achievement-1", textKey: "viswanathan-anand.achievement.1", sourceIds: ["src_anand_snl", "src_anand_cb_final"] },
+      { id: "viswanathan-anand-achievement-2", textKey: "viswanathan-anand.achievement.2", sourceIds: ["src_anand_snl", "src_anand_cb_final"] },
+      { id: "viswanathan-anand-achievement-3", textKey: "viswanathan-anand.achievement.3", sourceIds: ["src_anand_snl", "src_anand_fide2014", "src_anand_waca"] },
+    ],
+    moments: [
+      { id: "viswanathan-anand-moment-1", textKey: "viswanathan-anand.moment.1", interpretationKey: "viswanathan-anand.interpretation.moment.1", attributeId: "adaptability", sourceIds: ["src_anand_cb_part2"] },
+      { id: "viswanathan-anand-moment-2", textKey: "viswanathan-anand.moment.2", interpretationKey: "viswanathan-anand.interpretation.moment.2", attributeId: "impact_motivation", sourceIds: ["src_anand_waca"] },
+    ],
+    turningPoints: [
+      { id: "viswanathan-anand-turning-point-1", textKey: "viswanathan-anand.turning_point.1", interpretationKey: "viswanathan-anand.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_anand_kavalek", "src_anand_fide2014", "src_anand_cb_final"] },
+    ],
+  },
 };

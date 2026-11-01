@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hertha-ayrton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hertha Ayrton",
+    "aliases": [
+      "Phoebe Sarah Marks",
+      "Sarah Marks",
+      "Hertha Marks",
+      "Hertha Marks Ayrton",
+      "Mrs Ayrton"
+    ],
+    "wikidataId": "Q17522",
+    "birthYear": 1854,
+    "deathYear": 1923,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "physicist",
+      "inventor"
+    ],
+    "fieldIds": [
+      "engineering",
+      "physics"
+    ],
+    "impactDomains": [
+      "engineering",
+      "scientific",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ayrton_wikidata",
+      "kind": "wikidata",
+      "title": "Hertha Ayrton (Q17522), verified live via the Wikidata API (2026-10-31): label 'Hertha Ayrton', description 'English electrical engineer (1854-1923)', born 28 April 1854, died 23 August 1923 (other sources give 26 August), citizenship United Kingdom, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q17522"
+    },
+    {
+      "id": "src_ayrton_dsb",
+      "kind": "biography",
+      "title": "Marjorie Malley, 'Ayrton, Hertha', Complete Dictionary of Scientific Biography (Scribner, 2008), via Encyclopedia.com, read in full. CANONICAL SIGNIFICANCE SOURCE: engineer; education at Girton and Finsbury; her patented line divider; taking over the electric-arc research and relating power, potential, current and arc length; her analysis of the hissing arc as oxidation of the positive carbon; the 1899 reading of her paper at the Institution of Electrical Engineers and her election as its first woman member; The Electric Arc (1902); the sand-ripple vortex work and its application in the anti-gas fan, whose wide use was hindered; the 1906 Hughes Medal and the Royal Society's refusal to elect a married woman. Reference article by a historian of science.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/ayrton-hertha"
+    },
+    {
+      "id": "src_ayrton_jwa",
+      "kind": "archive",
+      "title": "Pam Hirsch, 'Hertha Ayrton', Jewish Women: A Comprehensive Historical Encyclopedia (Jewish Women's Archive, 2009), read in full: family and schooling, Cambridge, the line divider and its patents, work on the arc, the first paper read by a woman at the Institution of Electrical Engineers, her 26 patents (five on dividers, 13 on arc lamps and electrodes, the rest on propelling air), the anti-gas fan that the War Office first dismissed before issuing 104,000, and the Royal Society's refusal of her fellowship in 1902. Scholarly encyclopedia entry by a Cambridge historian; it also describes suffrage campaigns, which are not scored.",
+      "url": "https://jwa.org/encyclopedia/article/ayrton-hertha-marks"
+    },
+    {
+      "id": "src_ayrton_sharp",
+      "kind": "biography",
+      "title": "Evelyn Sharp, 'Hertha Ayrton, 1854-1923: A Memoir' (Edward Arnold, 1926), read through the Internet Archive text (about 625,000 characters searched, chapters on the arc, the 1902 Royal Society episode, the Hughes Medal and the Ayrton fan read closely): the gas experiments showing that oxygen reaching the crater causes the hissing, the Royal Society's 1902 letter on a married woman's certificate, the fan's rejection by the War Office advisers, the favourable Chatham report and the year of delay before use at the front. Biography by a friend and fellow campaigner, so admiring and partisan; letters quoted in it are the nearest thing to her own voice here.",
+      "url": "https://archive.org/details/hertha-ayrton-1854-1923-a-memoir"
+    },
+    {
+      "id": "src_ayrton_gracesguide",
+      "kind": "press",
+      "title": "'Hertha Ayrton', Grace's Guide to British Industrial History, read in full, including the two 1923 obituaries reproduced from the engineering press: timeline from 1884 to 1923, her demonstrated linear relation among arc length, pressure and potential difference, the 12 papers in The Electrician in 1895-6, the 1899 Institution of Electrical Engineers paper, the 1906 medal, and the over 100,000 anti-gas fans used on the western front. Volunteer-run industrial-history site reproducing contemporary obituaries; the obituaries are professional-press tributes.",
+      "url": "https://www.gracesguide.co.uk/Hertha_Marks"
+    },
+    {
+      "id": "src_ayrton_wikipedia",
+      "kind": "wikipedia",
+      "title": "'Hertha Ayrton', Wikipedia, read for orientation only (it cites the Oxford Dictionary of National Biography entry by Joan Mason, which was not opened); never counted as a research source.",
+      "url": "https://en.wikipedia.org/wiki/Hertha_Ayrton"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ayrton_jwa, src_ayrton_sharp, src_ayrton_dsb | 1893-1920 | scholarly encyclopedia, friend's memoir, reference article] Her arc research ran from 1893 to the 1902 book, and the ripple and vortex work continued for another decade; after the War Office dismissed her anti-gas fan in 1915 she kept demonstrating and arguing for it through acrimonious press exchanges until 104,000 were issued (Hirsch), which Sharp describes as a year's delay and about three years' struggle with officials. DSB says hindrances still limited its use, so the outcome was mixed. The campaign details come mainly from Sharp, a partisan friend, and a one-sentence summary by Hirsch, so the confidence is moderate."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ayrton_sharp, src_ayrton_dsb, src_ayrton_gracesguide | 1893-1915 | friend's memoir, reference article, professional-press obituaries] Sharp describes her tests in which puffs of air or oxygen against the crater caused the hissing while nitrogen did not, DSB says she projected the arc image on a screen to follow the changes in the carbons and reports the formula relating potential, current and arc length that she checked against other observers' data, and the later ripple tank and fan trials are described by Sharp. The experiments are documented, but the reports are by admirers or summaries of her papers, which were not opened."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ayrton_dsb, src_ayrton_gracesguide | 1893-1902 | reference article, professional-press obituaries] DSB sets out her three relations among power, potential, current and arc length and the equation V = a + bl + (c + dl)/A, which she showed agreed with other observers' data, and her explanation of hissing by oxidation of the positive carbon; Grace's Guide credits her with a demonstrated linear relation. These are descriptions of the results, not independent checks of her method, and I did not open her Royal Society papers, so the row is moderate."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ayrton_jwa, src_ayrton_dsb, src_ayrton_sharp | 1884-1919 | scholarly encyclopedia, reference article, friend's memoir] Hirsch counts 26 patents from 1883 to her death (five on mathematical dividers, 13 on arc lamps and electrodes, the rest on propelling air), DSB lists her line divider, searchlight carbons for the Admiralty and cinema projectors, and says she turned her vortex findings into the hand-held anti-gas fan, which in Sharp's account she conceived in May 1915 after a table-top accident with a tank. The originality is in the inventions and in the application, while the fan's military value is disputed by contemporaries in these same sources."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ayrton_jwa, src_ayrton_dsb, src_ayrton_gracesguide | 1877-1923 | scholarly encyclopedia, reference article, obituaries] She read mathematics at Girton and built a pulse-recording instrument as a student, invented a drawing instrument, then worked on arc lighting, searchlights, cinema projectors, the formation of sand ripples, air currents in ventilation of mines and sewers, and hand-fan gas clearance (Hirsch lists mine and sewer ventilation as later work). The sources list the topics rather than assessing depth in each, so the confidence is limited."
+    },
+    "conflict_tolerance": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ayrton_jwa, src_ayrton_sharp | 1915-1920 | scholarly encyclopedia, friend's memoir] Hirsch says the War Office dismissed the fan and that acrimonious exchanges followed in the press until it relented, and Sharp reproduces her statement in The Times in 1920 and the press comment on 'sniffing' officials. The sources do not show how she conducted the dispute, and its main accounts are friendly, so only a modest score is given. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 58 / 0.45 to 54 / 0.40 because the dispute is one sentence in Hirsch and otherwise rests on a partisan memoir."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "허사 에어턴"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hertha-ayrton-unknown-1899.jpg",
+    "width": 383,
+    "height": 387,
+    "source": "Studio photograph of Hertha Ayrton, reproduced as a small printed halftone in the 'Who's Who' album of the International Congress of Women, London, June 1899 (caption 'Mrs Ayrton'); photographer not named. The scan is from the Charlotte Perkins Gilman Papers, Schlesinger Library, Radcliffe Institute, Harvard University (Collection 177, folder 6), page about 2682 x 1828 pixels, and the Wikimedia Commons copy is a circular-portrait crop of that page, 383 x 387 pixels. The same pose, hair and brooch appear in a Library of Congress Bain News Service photograph of Hertha Ayrton, which is how the identification was checked. A printed publication of 1899 is in the public domain in the United States by age (published before 1931) and, with no named photographer, in the United Kingdom. The file is used at its original 383 x 387 size, with no resizing or upscaling.",
+    "license": "Public domain (published in 1899)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Portrait_album_of_who%27s_who_at_the_International_Congress_of_Women_-_Mrs_Ayrton.jpg",
+    "attribution": "Photographer unknown, Mrs Ayrton, printed in the Who's Who of the International Congress of Women, London, 1899, Schlesinger Library, Harvard, public domain, via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_album_of_who%27s_who_at_the_International_Congress_of_Women_-_Mrs_Ayrton.jpg",
+    "creator": "Unknown photographer",
+    "date": "1899",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_album_of_who%27s_who_at_the_International_Congress_of_Women_-_Mrs_Ayrton.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / found, but NOT the lead's file. The lead's Darmesteter portrait (Girton College, via Art UK 195150) was REJECTED: its Commons page tags it PD-Art with 'deathyear=1923', which is the SITTER's death year, not the painter's (a template whose facts contradict it), gives no date beyond 'before 1905', and the Art UK page that is its only source could not be checked for a reproduction or copyright notice. I also rejected the Library of Congress Bain News Service photograph (Commons 'LCCN2014716701'): the item record says 'No Date Recorded on Caption Card' and the creator is only the publisher, so it has no item-level date or photographer. The accepted image is the circular halftone of 'Mrs Ayrton' from the printed Who's Who of the International Congress of Women, London, 1899 (Schlesinger Library digital copy of the Charlotte Perkins Gilman Papers, Collection 177, folder 6, via Commons 'Portrait album of who's who at the International Congress of Women - Mrs Ayrton.jpg', tag PD-old-70-expired, author unknown, date 1899). I compared it with the Bain photograph by eye and the pose, hair and brooch match, which fixes the identification; the 1899 printed publication is the item-level date that the Bain photograph lacks. CAVEATS: Harvard's viewer terms are generic (personal, non-commercial use of content protected by copyright, with an explicit exception for public-domain material) and I read them; I did not see the printed album itself, only the folder description 'Program, Who's Who at the International Congress of Women, newsclippings', so that this page is a published printing rather than a clipping rests on the Commons description. The image is small (383 x 387). kind likeness (a photograph of the sitter, made by 1899). WHY the lead's grade failed: the lead's file was a painting whose Commons rights tag used the wrong person's death year, and the source gallery's page was blocked. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q17522 label 'Hertha Ayrton', description 'English electrical engineer (1854-1923)'; the production list contains only 'ayrton-senna' (Q10490), not her, and no candidate file existed. DATES: born 28 April 1854; died August 1923 (Wikidata 23 August, DSB, Grace's Guide and Sharp 26 August); years 1854 and 1923 used. REGION western_europe (England), era 19th_century, nationality GB. ZERO POLITICS: primary identity is an electrical engineer and physicist; her suffrage and women's-movement activity, her mentors' feminism and her friendship with Marie Curie are NOT scored and not carded as achievements; her 1899 congress and the Royal Society's refusal are recorded only as institutional context. VOCABULARY: occupations engineer, physicist, inventor; fields engineering, physics; impact domains engineering, scientific, innovation; tags innovator, systematic_thinker; archetypes technical_innovator, scientific_explorer, all grepped in en.ts. KO NAME: the Wikidata Korean label. CANONICAL SIGNIFICANCE SOURCE: Marjorie Malley, 'Ayrton, Hertha', Complete Dictionary of Scientific Biography (https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/ayrton-hertha). READ IN FULL: DSB entry, Hirsch's Jewish Women's Archive entry, Grace's Guide page with two 1923 obituaries, and Sharp's 1926 memoir (searched by keyword and read around the arc, Royal Society, Hughes Medal and fan passages); Wikipedia for orientation. PERSPECTIVES: reference article by a historian of science, scholarly encyclopedia by a Cambridge historian, professional-press obituaries of 1923, a friend's memoir. COUNTER-VOICES AND LIMITS: DSB's statement that hindrances limited the fan's use against Hirsch's figure of 104,000 issued; the Royal Society's refusal of a married woman's certificate (Sharp reproduces the letter); Sharp's own remark that her detractors found her simplicity limiting and that one obituary was unjustly critical; no hostile or technical critique of her arc work was found. NOT OPENED: Joan Mason's Oxford DNB entry and her 2006 essay, Trotter's and Armstrong's 1923-24 Nature notes, her Royal Society papers, the IET archive biography (redirected), the Art UK and Girton pages. LEGEND VERSUS SCHOLARSHIP: 'first woman' claims are not carded except where DSB or Hirsch state them (first woman member of the Institution of Electrical Engineers, stated by both); claims about the Curie press campaign, her health and family are not used. Wikipedia's account of the fan is not used. SPARSE-BUT-ADEQUATE PROFILE: six rows, none above 74, confidence 0.40-0.58. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (kept; fan outcome described as mixed in the rationale), experimentation (kept), conflict_tolerance (58/0.45 lowered to 54/0.40). HANDBACK61: {\"slug\": \"hertha-ayrton\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"conflict_tolerance\", \"old_score\": 58, \"old_confidence\": 0.45, \"new_score\": 54, \"new_confidence\": 0.4, \"reason\": \"the dispute is one sentence in Hirsch and otherwise rests on a partisan memoir\"}], \"reviewed_kept\": [\"persistence\", \"experimentation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6}"
+  }
+}

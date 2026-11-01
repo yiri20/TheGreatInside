@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ulugh-beg",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ulugh Beg",
+    "aliases": ["Ulugbek", "Ulug Bek", "Ulughbek", "Ulugh Beigh", "Mirza Muhammad Taraghay Ulugh Beg", "Muhammad Taraghay"],
+    "wikidataId": "Q486088",
+    "birthYear": 1394,
+    "deathYear": 1449,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "central_asia"
+  },
+  "classification": {
+    "occupationIds": ["astronomer", "mathematician", "scholar"],
+    "fieldIds": ["natural_science", "mathematics", "education"],
+    "impactDomains": ["scientific", "educational"],
+    "tagIds": ["founder"],
+    "archetypeIds": ["scientific_explorer", "scholarly_specialist"],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ulughbeg_wikidata",
+      "kind": "wikidata",
+      "title": "Ulugh Beg (Q486088), verified live via the Wikidata API (2026-10-31): label 'Ulugh Beg', description 'Timurid sultan, astronomer and mathematician (1394-1449)', born 22 March 1394, died 27 October 1449, Korean label present, image 'Ulugh Beg, Timurid painting 1425-50.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q486088"
+    },
+    {
+      "id": "src_ulughbeg_britannica",
+      "kind": "biography",
+      "title": "The Editors, 'Ulugh Beg', Encyclopaedia Britannica, read in full. CANONICAL SIGNIFICANCE SOURCE: grandson of Timur whose primary interest was in the arts and intellectual matters; made Samarkand a centre of Muslim culture; his greatest interest was astronomy and he built an observatory there (begun 1428 in this entry), where his observations revealed errors in Ptolemy's computations; a failure in mundane affairs who could not consolidate power after his father's death in 1447 and was put to death at the instigation of his son. Reference entry; the praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Ulugh-Beg"
+    },
+    {
+      "id": "src_ulughbeg_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Ulugh Beg', MacTutor History of Mathematics (University of St Andrews), read in full: the madrasah begun in 1417 and finished in 1420, the best scientists appointed as lecturers including al-Kashi and Qadi Zada, scientific meetings led by Ulugh Beg, al-Kashi's surviving letters to his father describing the work and praising Ulugh Beg's mathematical ability, the observatory begun in 1428, the sine table correct to eight decimal places, the Zij-i Sultani described as the combined effort of Ulugh Beg, al-Kashi and Qadi Zada, and the remark that his politics were not up to his science. University history-of-mathematics biography written for general readers; some figures differ from other entries (for example the observatory start date and the star count).",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ulugh_Beg/"
+    },
+    {
+      "id": "src_ulughbeg_dsb",
+      "kind": "biography",
+      "title": "T. N. Kari-Niazov, 'Ulugh Beg', Complete Dictionary of Scientific Biography (Encyclopedia.com), read in full. Scholarly entry by the Soviet archaeologist who found his tomb in 1941: the madrasa he founded, the Fakhri sextant and its scale chosen with the limits of angular discrimination in mind, the Zij of Ulugh Beg with calendrical, trigonometric and planetary tables, the sin 1 degree determination by successive approximation (alongside al-Kashi's own method), the 1,018-star catalogue whose coordinates came partly from the Samarkand observations and partly from al-Sufi and so from Ptolemy, and the burial of the murdered ruler as a martyr. Main scholarly source for the scientific record and the main limit on claims of full originality.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/astronomy-biographies/ulugh-beg"
+    },
+    {
+      "id": "src_ulughbeg_gale",
+      "kind": "biography",
+      "title": "'Ulugh Beg', World of Scientific Discovery and Science and Its Times (Gale), via Encyclopedia.com, read in full: the madrasa of 1420 that put astronomy first, his own selection of lecturers after interviewing them, the observatory begun in 1424, the Zij-i Djadid Sultani with 1,018 stars (completion traditionally 1437, with work continuing to 1449), the statement that he is said to have lectured himself, the ruins at the end of the fifteenth century at the instigation of the jurists, and the rediscovery in 1908. Reference articles; dates differ from MacTutor and Britannica and some details are hedged with 'it is said'.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/ulugh-beg"
+    },
+    {
+      "id": "src_ulughbeg_astronomy",
+      "kind": "press",
+      "title": "Stephanie Honchell Smith, 'The clever prince Ulugh Beg built and used an ingenious observatory in the 15th century', Astronomy magazine (18 April 2024), read in full: the schools and the observatory, al-Kashi's letter describing Ulugh Beg's active part in lectures and debates, the Zij-i Sultani as a catalogue 'based entirely on new observations' (which the Dictionary of Scientific Biography entry contradicts for the star positions), the transmission via Ali Qushji, and the later closure of the observatory. Popular science journalism; used as a second perspective on the collaborative scholarly culture and treated with care where it conflicts with the scholarly entries.",
+      "url": "https://www.astronomy.com/science/the-clever-prince-ulugh-beg-built-and-used-an-ingenious-observatory-in-the-15th-century/"
+    },
+    {
+      "id": "src_ulughbeg_luminet",
+      "kind": "biography",
+      "title": "Jean-Pierre Luminet, 'Ulugh Beg, Prince of Stars' (arXiv 1804.08352, 2018), read in full. Illustrated essay by a French astrophysicist and author: the madrasas and observatory, the double sextant, the ecliptic obliquity and sidereal year values, the 1,018-star catalogue, Ali Qushji carrying the tables to Constantinople, the 1648 Oxford edition, and the later limited reception once Tycho Brahe's and later European observatories existed. Not peer reviewed; its account of 'religious obscurantism' as the cause of his death is a narrative and is NOT used for any row.",
+      "url": "https://arxiv.org/abs/1804.08352"
+    },
+    {
+      "id": "src_ulughbeg_freer",
+      "kind": "institution",
+      "title": "'Ulugh Beg with ladies of his harem and retainers' (F1946.26), Freer Gallery of Art, Smithsonian National Museum of Asian Art, object page and curatorial label, read: opaque watercolor, ink and gold on paper, 1425-1450, right half of a double-page frontispiece that 'depicts Ulugh Beg'; usage conditions apply. Used only for the portrait review, not for any row.",
+      "url": "https://www.si.edu/object/fsg_F1946.26"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 63,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ulughbeg_dsb, src_ulughbeg_mactutor, src_ulughbeg_britannica | 1420s-1449 | scholarly and university reference entries] The Dictionary of Scientific Biography entry describes a sin 1 degree determination by successive approximation and a sextant scale chosen with the limits of angular discrimination in mind; MacTutor reports sine tables correct to eight decimals; Britannica and MacTutor both say the observations exposed errors in Ptolemy's computations. Three distinct technical facts support a careful, quantitative approach, but the results are credited to the observatory team (the entries name al-Kashi and Qadi Zada) and the entry itself notes the star positions were partly taken from earlier catalogues. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.50 to 63 / 0.46 because the accurate results are team and al-Kashi products as much as his own and the star catalogue was only partly new."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ulughbeg_gale, src_ulughbeg_dsb, src_ulughbeg_britannica | 1417-1449 | reference entries] Gale says he was more interested in scientific pursuits than in conquest, is said to have lectured at his madrasa and kept working on the Zij until 1449 although the completion date is traditionally 1437; Britannica names astronomy as his greatest interest. The sustained revision is documented in one reference entry and the lecturing is hedged ('it is said'), so the row is a modest inference."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ulughbeg_mactutor, src_ulughbeg_astronomy, src_ulughbeg_gale | 1420-1449 | university biography, science journalism, reference entry] MacTutor says he invited al-Kashi and some sixty other scientists, led scientific meetings where problems were freely discussed, and that the Zij-i Sultani was a combined effort of several people; Astronomy magazine independently summarises al-Kashi's letter as describing his regular participation in lectures and discussion; Gale says he interviewed and chose the lecturers himself. The pattern is documented in several short accounts but rests on al-Kashi's letter as relayed by two secondary writers, and the same letter shows al-Kashi respected few of the colleagues."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ulughbeg_dsb, src_ulughbeg_mactutor, src_ulughbeg_britannica | 1417-1429 | scholarly and university entries] He founded the Samarkand madrasa (begun 1417, finished about 1420), chose its lecturers and curriculum with astronomy first, and began the observatory (1424 in Gale and Luminet, 1428 in Britannica and MacTutor). Only the scientific institution-building is scored; his rule as governor and sultan is not. His position supplied the means, so the row is limited to the documented initiative to found and staff the schools and observatory."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ulughbeg_britannica, src_ulughbeg_mactutor, src_ulughbeg_dsb | 1420s-1437 | reference entries] Britannica and MacTutor say the new observations revealed errors in Ptolemy that had been accepted without question, and the Dictionary of Scientific Biography entry says the catalogue is basically original while still influenced by Ptolemy through al-Sufi. These are retrospective descriptions of results, not accounts of how he reasoned, and the popular claim that the catalogue was based entirely on new observations is contradicted, so the confidence is low."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "울루그 베그"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "The only plausible image is the Timurid painting 'Ulugh Beg with ladies of his harem and retainers' (Freer Gallery of Art F1946.26, 1425-1450), a scene painting that the museum label says 'depicts Ulugh Beg' (and Soudavar reads his name and title on the canopy). The painting is public domain by age, but the live Smithsonian object page marks the image 'Usage Conditions Apply' (not CC0; the page has no download files and the Open Access API returns no record), and the Smithsonian Terms of Use limit such content to personal, educational and other non-commercial use. The Commons 'public domain' tag on the derived file does not override that institutional notice, and a faithful photograph of a flat painting is a legal question we should not rely on against a stated museum restriction. Next step: obtain written permission from the Freer Gallery rights contact, or find a CC0 Open Access or otherwise clearly licensed depiction (for example a pre-1700 European engraving with a printed caption naming him). Other Commons files for Ulugh Beg are crops of the same Freer image or stamps/monuments.",
+    "sourcePageUrl": "https://www.si.edu/object/fsg_F1946.26"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / FAILED on the museum notice: the Freer item page says 'CC0 Usage Conditions Apply' in the page markup, but the visible badge, the 'Restrictions & Rights' field and the 'Metadata Usage' field all read 'Usage conditions apply', the download tab is empty, the Smithsonian Open Access API returns 'not found' for edanmdm:fsg_F1946.26, and the Smithsonian Terms of Use section 2b limits such content to personal, educational and non-commercial use; the lead's 'CC0 line not located' was right. The Commons file (artist unknown, PD-Art with PD-old-100-expired) cites the same asia.si.edu page, so it conflicts with its own source. The sitter is identified by the museum label and by the canopy inscription (Soudavar 1992 p.70 via Commons), so identity is not the problem, rights are. Commons has no other independent depiction (other files are crops, a monument, a coin, a tomb and book pages); the Wellcome page opening with Greaves is a book page, not a portrait. Hevelius' frontispiece could not be located on Commons in the bounded retry. PORTRAIT HELD. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q486088 label 'Ulugh Beg', description 'Timurid sultan, astronomer and mathematician (1394-1449)', born 22 March 1394, died 27 October 1449; not in the 644-person production list and no candidate file existed. REGION central_asia, following al-Biruni; nationalityCodes empty, following al-Biruni; no historicalPolityKey because no Timurid key exists. ERA medieval. ZERO POLITICS: he ruled Samarkand and was briefly sultan, but the profile scores only his astronomy, mathematics, observatory and scholarship work; governing, succession and his death are context and not scored. VOCABULARY: occupations astronomer, mathematician, scholar, fields natural_science, mathematics, education, impact domains scientific and educational, tag founder, archetypes scientific_explorer and scholarly_specialist, all grepped in en.ts and ko.ts (field astronomy has no label, so it was not used). KO NAME: Wikidata Korean label 울루그 베그. CANONICAL SIGNIFICANCE SOURCE: The Editors, 'Ulugh Beg', Encyclopaedia Britannica (https://www.britannica.com/biography/Ulugh-Beg). READ IN FULL: Britannica, MacTutor, Dictionary of Scientific Biography (Kari-Niazov), Gale/Science and Its Times entries, Astronomy magazine, Luminet's arXiv essay (six substantive sources) plus the Freer object page for the portrait. PERSPECTIVES: reference encyclopedia, university history-of-mathematics biography, scholarly dictionary by an archaeologist, science journalism, astrophysicist's essay. COUNTER-VOICES AND LIMITS: Britannica's and MacTutor's verdict that he was weak in practical affairs; the DSB entry's point that the star catalogue was partly taken from al-Sufi and Ptolemy, which contradicts the 'entirely new observations' claim in Astronomy magazine; conflicting dates (observatory 1424 versus 1428, 992 versus 1,018 stars, Zij completion 1437 versus later); the Luminet narrative that religious obscurantism and fanatics ended the work is not used, and Gale instead says the jurists instigated the ruin of the observatory. NOT OPENED: Encyclopaedia Iranica (no working URL found), Sayili, Kennedy, Krisciunas, Fazlioglu, van Dalen and Knobel (known only through citations), the Smithsonian Open Access dataset, and Soudavar's book page. PRE-MODERN PROFILE: five rows, none above 64, confidence 0.40-0.48, no row from legend, no row from rule or statecraft, no row from his own works as self-report. SELF-CALIBRATION (agent): top-risk rows reviewed: analytical_rigor (66/0.50 lowered to 63/0.46), collaboration (kept), independent_thinking (kept). HANDBACK61: {\"slug\": \"ulugh-beg\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"held\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"analytical_rigor\", \"old_score\": 66, \"old_confidence\": 0.5, \"new_score\": 63, \"new_confidence\": 0.46, \"reason\": \"the accurate results are team and al-Kashi products as much as his own and the star catalogue was only partly new\"}], \"reviewed_kept\": [\"collaboration\", \"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "victor-hugo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Victor Hugo",
+    "aliases": [
+      "Victor-Marie Hugo",
+      "Victor Marie Hugo"
+    ],
+    "wikidataId": "Q535",
+    "birthYear": 1802,
+    "deathYear": 1885,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "artistic"
+    ],
+    "tagIds": [
+      "prolific",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hugo_wikidata",
+      "kind": "wikidata",
+      "title": "Victor Hugo (Q535), verified live via the Wikidata API (2026-10-31): English description 'French novelist, poet, dramatist and politician (1802-1885)', born 1802-02-26, died 1885-05-22, Korean label present, image 'Victor Hugo by Etienne Carjat 1876 - full.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q535"
+    },
+    {
+      "id": "src_hugo_britannica",
+      "kind": "biography",
+      "title": "Jean-Bertrand Barrere (Professor of French Literature, Cambridge), 'Victor Hugo', Encyclopaedia Britannica, read from the start through the 1851 coup (the exile and last-years sections are behind the subscription wall and were not read). CANONICAL SIGNIFICANCE SOURCE: 'the most important of the French Romantic writers', regarded in France as one of its greatest poets and better known abroad for Notre-Dame de Paris (1831) and Les Miserables (1862); founded a review at about seventeen, the Conservateur Litteraire (1819-21); the long preface to Cromwell (1827) as a Romantic manifesto that 'has proved far more important than the play itself'; the first performance of Hernani on 25 February 1830 as the victory of the Romantics over the Classicists; a sidebar stating that he wrote 100 lines of verse or 20 pages of prose each morning; a wish to be the 'sonorous echo' of his time; election to the French Academy in 1841 'after three unsuccessful attempts'. Reference entry by a specialist; the praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Victor-Hugo"
+    },
+    {
+      "id": "src_hugo_academie",
+      "kind": "institution",
+      "title": "Academie francaise, page on Victor Hugo (seat 14), read through a summarising fetch and not as raw text: elected 7 January 1841 by 17 votes out of 32 and received on 3 June 1841; first stood in 1836; his major works; the Hernani premiere described as a battle between literary camps and a triumph for the Romantics; he refused to become directeur while Alfred de Vigny was effectively ostracised by the Academy, and after Nisard's election in 1850 called for academicians to be chosen by writers' societies; he bequeathed his manuscripts and drawings to the national library. Institutional page; its account of the Academy is partly self-interested.",
+      "url": "https://www.academie-francaise.fr/les-immortels/victor-hugo"
+    },
+    {
+      "id": "src_hugo_eb1911",
+      "kind": "biography",
+      "title": "Algernon Charles Swinburne, 'Hugo, Victor Marie', Encyclopaedia Britannica, 11th edition (1911), read on Wikisource through the mid-1840s: a long, openly admiring appreciation by a fellow poet that lists his odes, ballads, Cromwell, Les Orientales, the plays Hernani, Le Roi s'amuse, Ruy Blas and Les Burgraves, the novels, the essays and the travel letters Le Rhin, and records that he refused to allow Marion de Lorme, banned under Charles X, to be staged under the next government. Period source; strongly admiring, so used only for the list of forms and works, not for any judgement of quality.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Hugo,_Victor_Marie"
+    },
+    {
+      "id": "src_hugo_guernsey_life",
+      "kind": "institution",
+      "title": "Guernsey Museums, 'A Brief Summary of Victor Hugo's Life', read in full: he realised a literary calling by thirteen, led the Romantic movement in the 1820s, the 'battle' of Hernani as a turning point in French literary history, mixed success in the theatre in the 1830s, election to the Academy 'at the fifth attempt', and during the Guernsey years (1855-70) he wrote, completed or published most of his best-known works, including Les Contemplations (1856), Les Miserables (1862), Les Travailleurs de la mer (1866) and Quatre-vingt-treize (1874). Local museum biography; sympathetic to its famous resident, and its attempt count differs from Britannica's.",
+      "url": "https://museums.gov.gg/hugoslife"
+    },
+    {
+      "id": "src_hugo_guernsey_house",
+      "kind": "institution",
+      "title": "Guernsey Museums, 'Hauteville House', read in full: he bought the house on 16 May 1856 with the proceeds of Les Contemplations, was an enthusiastic collector of second-hand furniture and bric-a-brac, spent months overseeing a major conversion on a medieval pattern, and filled it with decoration; his son Charles called it 'a veritable three-storey autograph, a poem in several rooms'; the house was given to the City of Paris in 1927. Museum page for the house, with a family quotation; partly promotional.",
+      "url": "https://museums.gov.gg/hauteville"
+    },
+    {
+      "id": "src_hugo_hnn",
+      "kind": "press",
+      "title": "Charles Walton (Yale historian), 'The Missing Half of Les Mis', History News Network (adapted from Foreign Affairs), read as the excerpt available: Les Miserables (1862) was serialised in ten instalments by a market-savvy publisher and became an immediate bestseller across Europe and North America, police were called to hold back crowds on days of new instalments, Flaubert postponed his own book, an Atlantic reviewer called the publicity 'the grossest bookselling humbug', and the novel's reception in France was mixed. Historian's opinion piece; only the excerpt was read.",
+      "url": "https://historynewsnetwork.org/article/150148"
+    },
+    {
+      "id": "src_hugo_paste",
+      "kind": "press",
+      "title": "Paste Magazine review of David Bellos, 'The Novel of the Century' (on Les Miserables), read in full: Hugo wrote the novel from scribbled notes into a vast work, it was published in 1862 and stayed profitable, and contemporaries such as Baudelaire (privately), Flaubert, Dumas and Merimee reacted with open scorn. The critical quotations reach this profile only through the reviewer's summary of the book, not from the letters themselves. Independent and adversarial voice, but second-hand.",
+      "url": "https://pastemagazine.com/articles/2017/03/novel-of-the-century-les-miserables-david-bellos.html"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hugo_britannica, src_hugo_academie, src_hugo_guernsey_life | 1827-1831 | reference entry, institutional pages] Three separate episodes are documented in sources that do not copy each other: the long preface to Cromwell (1827) proposing a drama that joined tragic and comic elements and dropped the classical rules, which Britannica says became far more important than the play; the first night of Hernani (25 February 1830), described by Britannica, the Academie and the Guernsey museum as the Romantics' victory in a literary 'battle'; and the novel Notre-Dame de Paris (1831). Britannica adds the 'verbal inventiveness and technical virtuosity' of the poems. The praise is mostly retrospective and by admirers, and Flaubert, Baudelaire and others disliked Les Miserables, so the row stays below the top band."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hugo_britannica, src_hugo_academie, src_hugo_eb1911 | 1827-1850 | reference entry, institutional page, period appreciation] Two documented literary-institution acts: the Cromwell preface rejected the formal rules of classical tragedy in favour of Shakespeare's mixed form (Britannica), and he refused to serve as directeur of the Academie while Vigny was shunned and later proposed that academicians be chosen by writers' societies (Academie page). Swinburne adds that he would not allow a play banned under one government to be staged under its successor. The Academie page was read through a summarising fetch, and these are all defences of his own side in literary disputes, so the confidence is moderate. Political positions are not scored."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hugo_britannica, src_hugo_guernsey_life | 1830s-1870s | reference entry, institutional page] Britannica's sidebar states he wrote 100 lines of verse or 20 pages of prose each morning, describes 'intense creative activity' in the 1830s in which he 'continued to pour out plays' alongside four verse collections, and the Guernsey museum says he wrote, completed or published most of his best-known works in the 1856-70 years. The output record is solid but the daily quota rests on one sidebar sentence with no cited diary or biography. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.50 to 62 / 0.46 because the daily-quota claim is a single uncited sidebar line and the rest of the row is inference from output volume."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hugo_britannica, src_hugo_academie, src_hugo_guernsey_life | 1836-1862 | reference entry, institutional pages] He stood repeatedly for the Academie before being elected in 1841 (Britannica says after three failures, the Guernsey museum says at the fifth attempt, the Academie page dates his first candidacy to 1836, so the number is not used), and Britannica says Les Miserables was set aside for a time and then resumed before its publication in 1862. Two documented episodes of coming back to a goal, but neither source describes his reasons, and the grief that Britannica links to the pause in publishing is deliberately not read as a personality trait."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hugo_britannica, src_hugo_eb1911, src_hugo_guernsey_house | 1820s-1870s | reference entry, period appreciation, museum page] Britannica lists verse tragedy, prose plays, novels and poetry 'from intimate lyrics to visionary and prophetic epics'; Swinburne adds critical essays, travel letters (Le Rhin) and an opera libretto; the Guernsey museum documents that he also designed and furnished an entire house. The range is across literary forms and a design project, not across unrelated fields, so the score is a moderate one."
+    },
+    "aesthetic_sensitivity": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hugo_guernsey_house, src_hugo_britannica | 1840-1870 | museum page, reference entry] The Guernsey museum documents that he collected second-hand furniture and objects on island excursions and spent months overseeing a conversion of Hauteville House, with decoration its curators call astonishing in richness (the 'poem in several rooms' line is his son's); Britannica credits his verse with 'color and picturesque detail'. One house project plus a stylistic remark: the house account is partly promotional and family-sourced."
+    },
+    "proactive_agency": {
+      "score": 56,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hugo_britannica | 1819-1824 | reference entry] Britannica records that he founded the review Conservateur Litteraire (1819-21) and shared in launching the Muse Francaise (1823-24) while still a young writer. One source and early-career episodes, with his mother's encouragement noted, so the row is modest."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hugo_britannica, src_hugo_guernsey_life, src_hugo_hnn | 1829-1862 | reference entry, institutional page, historian] Britannica says he wanted to be the 'sonorous echo' of his time and used his plays as a platform for social and political ideas, cites Le Dernier Jour d'un condamne (1829) as a humanitarian protest against the death penalty, and the Guernsey museum says Les Miserables illustrates his ideas on the social and moral issues he thought important. The row is limited to the literary treatment of social questions; his political career and activity are not scored, and the novel's wide readership is measured by Walton as sales, not as effect."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "빅토르 위고"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/victor-hugo-carjat-1876.jpg",
+    "width": 976,
+    "height": 1200,
+    "source": "Portrait photograph of Victor Hugo by Etienne Carjat, published in 1876 in the serial Galerie contemporaine, litteraire, artistique (Goupil & Cie) as a woodburytype; Commons file 'Victor Hugo by Etienne Carjat 1876 - full.jpg', cited to the Gallica copy of the Bibliotheque nationale de France. Downscaled from 2140 x 2632 pixels to 976 x 1200 with no cropping and no upscaling.",
+    "license": "Public domain (photographer died 1906; published 1876)",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
+    "attribution": "Etienne Carjat, Victor Hugo, 1876, public domain, via Wikimedia Commons (original from the Bibliotheque nationale de France)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg",
+    "creator": "Etienne Carjat",
+    "date": "1876",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / CONFIRMED: the Commons file page names the creator as Etienne Carjat (died 1906), date 1876, a woodburytype published in Goupil's serial Galerie contemporaine (1876-84), source the BnF Gallica ark btv1b8452744n/f24.item, licence PD-old-auto-expired with deathyear 1906; the page is also a featured picture on Commons; original 2140 x 2632 pixels, checked via the API and downloaded. A 1876 publication by a photographer who died in 1906 is public domain in the US and in the EU by age, and the work was published long before 1931. The BnF Gallica page itself returned a Cloudflare block (HTTP 403), so no institutional notice could be read; no conflicting statement was seen on Commons. The portrait is a documented photograph of the sitter, hence kind likeness. File saved as public/portraits/victor-hugo-carjat-1876.jpg at 976 x 1200, downscaled only. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q535, English description 'French novelist, poet, dramatist and politician (1802-1885)', born 1802-02-26, died 1885-05-22; not in prod61 list and no candidate file existed (hugo-junkers and hugo-grotius are different people). REGION western_europe (France; precedent Ferdinand de Lesseps). ERA 19th_century. ZERO POLITICS: the sources describe him as poet, novelist and dramatist first; his peerage, Assembly seat, exile and republican politics are context only and no row scores them. A card on the national funeral was also left out. VOCABULARY: occupations writer and poet, field literature, impactDomains literary, cultural and artistic, tags prolific and innovator, archetype creative_creator, all grepped in en.ts and ko.ts (playwright and dramatist are unlabeled and not used). KO NAME: Wikidata Korean label 빅토르 위고. CANONICAL SIGNIFICANCE SOURCE: Jean-Bertrand Barrere, 'Victor Hugo', Encyclopaedia Britannica (https://www.britannica.com/biography/Victor-Hugo). READ: Britannica (the part before the paywall, to 1851), Academie francaise (via summarising fetch), Swinburne's 1911 Britannica entry (to the mid-1840s), Guernsey Museums life summary and Hauteville House page (two pages from one institution), Charles Walton's History News Network excerpt, Paste's review of Bellos. PERSPECTIVES: specialist reference entry, national institution, local museum, period admirer, historian, press review quoting adversaries. COUNTER-VOICES: Flaubert, Baudelaire, Dumas and Merimee on Les Miserables as relayed by the Paste review; an Atlantic reviewer's complaint of 'bookselling humbug' and the mixed French reception as reported by Walton. NOT OPENED: the Britannica exile and last-years sections (paywalled), Poetry Foundation (404), Maison de Victor Hugo (503), the Morgan Library drawings page (403), Gallica (403), Jacobin's 'Les Miserables and Its Critics' (only the free opening paragraph, not cited), the primary letters of Baudelaire and Flaubert, and Hugo's own works and letters, which would be self-report in any case. CONFLICT RECORDED: the number of Academie attempts differs (Britannica three failures, Guernsey museum fifth attempt, Academie page first candidacy 1836), so the count is not stated anywhere. EXCLUDED: his marriage and long relationship, the family bereavement, health, and any reading of his temperament from them; his political career. WEAK SPOTS: the 'daily quota' is one sidebar line; the Academie page was seen only in summary. SELF-GATE (first pass): all five checks PASS; card 1 states the Romantic leadership across poetry, drama and the novel, card 2 the two famous novels, card 3 the poetry and the Academy; the house project is not a card. SELF-CALIBRATION (agent): top-risk rows reviewed: discipline (66/0.50 lowered to 62/0.46), creative_originality (kept: three distinct episodes in several sources), independent_thinking (kept). HANDBACK61: {\"slug\": \"victor-hugo\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 8, \"self_calibrated_rows\": [{\"attribute\": \"discipline\", \"old_score\": 66, \"old_confidence\": 0.5, \"new_score\": 62, \"new_confidence\": 0.46, \"reason\": \"the daily-quota claim is a single uncited sidebar line and the rest of the row is inference from output volume\"}], \"reviewed_kept\": [\"creative_originality\", \"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 8}"
+  }
+}

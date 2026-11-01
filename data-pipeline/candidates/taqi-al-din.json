@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "taqi-al-din",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Taqi al-Din Muhammad ibn Ma'ruf",
+    "aliases": [
+      "Taqi al-Din",
+      "Taqi ad-Din",
+      "Takiyuddin",
+      "Takiyyuddin al-Rasid",
+      "Taqi al-Din al-Rasid",
+      "Taqi al-Din ibn Ma'ruf"
+    ],
+    "wikidataId": "Q1379164",
+    "birthYear": 1526,
+    "deathYear": 1585,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "west_asia",
+    "historicalPolityKey": "polity.ottoman_empire"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "mathematician",
+      "inventor"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "mathematics",
+      "engineering"
+    ],
+    "impactDomains": [
+      "scientific",
+      "engineering",
+      "historical"
+    ],
+    "tagIds": [
+      "polymath",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_taqi_wikidata",
+      "kind": "wikidata",
+      "title": "Taqi ad-Din Muhammad ibn Ma'ruf (Q1379164), verified live via the Wikidata API (2026-10-31): label 'Taqi al-Din Muhammad ibn Ma'ruf', description 'Ottoman Syrian polymath (1526-1585)', born 1526 (two further birth values, 1525 and a day-precision 1526), died 1580 and 1585 as conflicting values, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1379164"
+    },
+    {
+      "id": "src_taqi_nlm",
+      "kind": "institution",
+      "title": "U.S. National Library of Medicine, Islamic Medical Manuscripts: Bio-Bibliographies, entry 'Taqi al-Din Muhammad ibn Ma'ruf al-Shami al-Asadi', read in full (one paragraph). CANONICAL SIGNIFICANCE SOURCE: an important astronomer in Istanbul, where he died in 1585; primarily responsible for Sultan Murad III building an observatory; the observatory was pulled down a few months later after his prediction, based on the comet of 1577, of an Ottoman victory proved incorrect; he composed astronomical handbooks and treatises on astronomical instruments and mechanical clocks. Short institutional orientation; it rests on D. A. King's Encyclopaedia of Islam article, which was not opened, and its dates for the observatory differ from other sources.",
+      "url": "https://www.nlm.nih.gov/hmd/arabic/bioT.html"
+    },
+    {
+      "id": "src_taqi_ayduz",
+      "kind": "biography",
+      "title": "Salim Ayduz, 'Taqi al-Din Ibn Ma'ruf: A Bio-Bibliographical Essay', Muslim Heritage (FSTC, 2008), read in full for the biography, observatory and instruments sections and the list of works: schooling and posts as judge and teacher in Nablus, Damascus and Cairo, move to Istanbul in 1570 and appointment as chief astronomer in 1571-2, his report to Sultan Murad III that the Ulugh Beg tables contained observational errors, the Tophane observatory with sixteen staff and a library, new instruments and a mechanical observing clock, decimal-fraction trigonometric tables, the destruction on 22 January 1580. Detailed scholarly-popular essay by a historian of Ottoman science; strongly admiring, with comparisons to Tycho Brahe that are not independently checked here.",
+      "url": "https://muslimheritage.com/taqi-al-din-bio-essay/"
+    },
+    {
+      "id": "src_taqi_fazlioglu",
+      "kind": "biography",
+      "title": "Ihsan Fazlioglu, 'Taqi al-Din Ibn Ma'ruf: Survey on his Works and Scientific Method', Muslim Heritage (FSTC), read in full: education in Damascus and Egypt and posts as teacher and deputy judge, observations from a deep well while judge in Tinnin, the Istanbul appointment, the observatory and its fall, the contents of his main works (the astronomical tables Sidrat al-muntaha, decimal-fraction trigonometry, mechanical clocks, optics, medicine, zoology), and an assessment of his method. Scholarly survey by an Istanbul historian of science; notes the observatory 'did not last long' because of political reasons 'as well as Taqi al-Din's wrong astrological interpretations', which limits the praise.",
+      "url": "https://muslimheritage.com/taqi-al-din-works-sci-method/"
+    },
+    {
+      "id": "src_taqi_eren",
+      "kind": "archive",
+      "title": "Ramazan Sesen, 'Quelques remarques sur la genealogie de l'illustre astronome ottoman Takiyuddin al-Rasid', Belleten (Turkish Historical Society) via erdem.gov.tr, read in full (French, short article; the author's name is garbled in the PDF text layer and is recorded as it can best be read). Biographical paragraph from the Ottoman chronicles and Taqi al-Din's own prefaces: his own statement that he was born in the Holy Land, other sources giving Damascus 1525-26, the posts in Istanbul and Cairo, the 1574 start of observations at the Galata Tower, the 1579 edict for the Tophane observatory, the demolition dated 1583 on a ruling that observatories bring misfortune, and work continued privately until death in Istanbul in 1585. Scholarly source whose dates disagree with Ayduz's 1580; not seen in print.",
+      "url": "https://erdem.gov.tr/tam-metin-pdf/875/eng"
+    },
+    {
+      "id": "src_taqi_ekinci",
+      "kind": "press",
+      "title": "Ekrem Bugra Ekinci, 'Legends about Taqi al-Din and the demolished Ottoman observatory' (column dated 12 June 2015, hosted on the author's site), read in full: that the observatory was not the first Ottoman one, that the sultan funded it and the Sheikh al-Islam Hoca Sadeddin supported Taqi al-Din, that the closure story told by the chronicler Atai is unreliable, that the Shahinshahnama and Ali of Gallipoli's history describe Taqi al-Din as hard to get along with, and that he continued his studies after closure. Revisionist popular column; a counter-voice to the 'religious fanatics destroyed science' story, with its own thesis.",
+      "url": "https://www.ekrembugraekinci.com/article/?ID=600"
+    },
+    {
+      "id": "src_taqi_retrospect",
+      "kind": "press",
+      "title": "'The Istanbul and Uraniborg Observatories: A Comparative Study', Retrospect Journal (student history journal, 2021), read in full: similarity of the two observatories' instruments, the 1577 comet read in opposite ways at Istanbul and Uraniborg, the observatory torn down in 1580, and Taqi al-Din's interest in mechanical clocks. Short student essay drawing on Ben-Zaken and Blake; used only as an independent outside framing, with its speculation about cosmic motives not used.",
+      "url": "https://retrospectjournal.com/2021/04/25/the-istanbul-and-uraniborg-observatories-a-comparative-study/"
+    },
+    {
+      "id": "src_taqi_wikipedia",
+      "kind": "wikipedia",
+      "title": "'Constantinople observatory of Taqi ad-Din', Wikipedia, read; orientation only (its claims about accuracy rely on one encyclopedia chapter and carry a dubious-tag in the plague passage), never counted as a research source.",
+      "url": "https://en.wikipedia.org/wiki/Constantinople_observatory_of_Taqi_ad-Din"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_taqi_ayduz, src_taqi_fazlioglu, src_taqi_nlm | 1559-1580 | scholarly essays, institutional entry] Ayduz and Fazlioglu say he invented new observing instruments (a framed sextant-type instrument and an equinox instrument with strings) and built a mechanical clock with hours, minutes and seconds for the observations, and wrote on mechanical clocks as early as 1559; the NLM entry confirms his treatises on instruments and mechanical clocks. The claims that the clock and instruments were more precise than Tycho Brahe's come from admiring sources and are not used; the row rests on the documented design of new instruments and the application of decimal fractions to trigonometric tables, which Fazlioglu credits to him with al-Kashi as predecessor."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_taqi_ayduz, src_taqi_fazlioglu | 1570s | scholarly essays] Both essays say he set out to correct the Ulugh Beg tables by new observations, worked out trigonometric and tangent tables in decimal fractions and used a three-point method for solar parameters, with the results gathered in the Sidrat al-muntaha. The sources are admiring and report his values mainly from his own text; Fazlioglu adds that the work stayed incomplete and that the observatory fell partly through wrong astrological readings, so the row is modest. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 64 / 0.45 to 60 / 0.42 because the accuracy claims come only from admiring Muslim Heritage essays and no independent source here checks them."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_taqi_fazlioglu, src_taqi_ayduz, src_taqi_nlm, src_taqi_eren | 1550s-1585 | scholarly essays, institutional entry, scholarly note] He worked as a madrasa teacher and deputy judge while writing on astronomy, mathematics, mechanical clocks, optics, medicine (a work on simple remedies) and zoology, per Fazlioglu, who lists one medicine-and-zoology book, three on physics and mechanics, five on mathematics and about twenty on astronomy (Ekinci gives the same counts); the NLM entry names instruments and mechanical clocks. Many works are unstudied or of uncertain authorship, and the breadth is catalogued by title rather than documented in depth, so the confidence is limited."
+    },
+    "proactive_agency": {
+      "score": 52,
+      "confidence": 0.36,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_taqi_ayduz, src_taqi_eren, src_taqi_retrospect | 1570s | scholarly essays, student essay] Ayduz says he told Murad III that the Ulugh Beg tables had errors and proposed an observatory to correct them, and Eren cites his petition to the sultan; the Retrospect essay says who pushed for the observatory remains unanswered and that al-Mansur's poem seems to credit the sultan's order. Initiative is therefore contested, and he also had the grand vizier's and Hoca Sadeddin's backing, so the score is low."
+    },
+    "persistence": {
+      "score": 52,
+      "confidence": 0.36,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_taqi_eren, src_taqi_ekinci, src_taqi_fazlioglu | 1580-1585 | scholarly note, press column] Eren says that after the observatory's destruction he went on with his scientific work on his own account until his death in 1585, and Ekinci says he continued his studies; Fazlioglu says the destruction left his observations incomplete. The post-closure activity is stated in one line by two sources and is not detailed, and the date of the destruction itself differs (1580 versus 1583), so the row is weak."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "타끼 앗딘"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "The only image is a whole-page 1580s Sehinsahname miniature of astronomers around an observatory (Istanbul University Library FY 1404, folio 57a) in which Taqi al-Din is not individually marked; a print seller captions the same folio as the Galata observatory while a scholarly caption ties it to the Istanbul Observatory, and the library's own terms could not be reached (basis was age only). A group scene without a positively identified figure cannot be presented as a portrait. Next step: the library's item-level rights statement plus a source that identifies him in the miniature, or a captioned single-figure depiction.",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Taqi_al_din.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / found with caveats: the lead's Commons file 'Taqi al din.jpg' is the Sehinsahname miniature (Istanbul University Library FY 1404, f. 57a) and its Commons page gives creator Ala ad-Din Mansur-Shirazi, date about 1574-1595, licence tag public domain by age, source line citing the Google Arts and Culture copy; I confirmed the original is 1348 x 1965, downloaded it, viewed it, and used the whole page downscaled to 823 x 1200. CAVEATS: (1) the Google Arts and Culture page (partner 1001 Inventions) carries no rights statement either way, and the Istanbul University Rare Works Library site could not be opened (no response), so no institutional notice was seen; the basis is that the painting is a flat 1580s work and the copy is a faithful reproduction, not a museum statement. (2) The image is a group scene of astronomers at work, not a portrait of one man, and a commercial print seller captions the same folio as the Galata observatory; scholarly captions (Ayduz) tie it to the Istanbul Observatory. kind historical_depiction. One bounded retry (the thesis page and the library catalogue) did not resolve the library's own terms; the lead should decide whether the group scene is acceptable as the portrait. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q1379164 label 'Taqi al-Din Muhammad ibn Ma'ruf', description 'Ottoman Syrian polymath (1526-1585)'; absent from prod61.txt and no candidate file existed for the slug. DATES conflict: Wikidata 1526 (also 1525), the NLM and a Belleten note 1525-26, Taqi al-Din's own statement of 1521; death 1585 (Wikidata also lists 1580); 1526 and 1585 are used and the dispute is recorded here. REGION west_asia (born in Damascus, worked in Cairo and Istanbul; Mimar Sinan and Nasir al-Din al-Tusi precedents) with historicalPolityKey polity.ottoman_empire as for Mimar Sinan; nationalityCodes left empty as for those precedents. ZERO POLITICS: primary identity is an astronomer and mechanician; the sultan's patronage and the observatory's fall are context and not scored. VOCABULARY: occupations astronomer, mathematician, inventor; field natural_science, mathematics, engineering (field astronomy not used because it was not found in the en.ts label list); impact domains scientific, engineering, historical; tags polymath, innovator; archetypes scientific_explorer, technical_innovator. KO NAME: the Wikidata Korean label (recorded as the standard label). CANONICAL SIGNIFICANCE SOURCE: U.S. National Library of Medicine, Islamic Medical Manuscripts Bio-Bibliographies, 'Taqi al-Din Muhammad ibn Ma'ruf' (https://www.nlm.nih.gov/hmd/arabic/bioT.html). READ IN FULL: NLM entry, Ayduz essay, Fazlioglu survey, Belleten genealogy note (French), Ekinci column, Retrospect Journal essay; Wikipedia observatory article read for orientation only. PERSPECTIVES: institutional entry, two scholarly essays by Ottoman-science historians (both admiring), a scholarly note based on Ottoman chronicles, a revisionist press column, a student essay. COUNTER-VOICES AND LIMITS: Fazlioglu's remark on wrong astrological interpretations; Ekinci's account (from the Shahinshahnama and Ali of Gallipoli) that he was hard to get along with and that the religious-opposition story is a later legend; the dating conflicts for birth, the observatory and its destruction. NOT OPENED: D. A. King's Encyclopaedia of Islam article, Sevim Tekeli's encyclopedia entry and monograph, the McGill Biographical Encyclopedia of Astronomers entry (the server refused connections), Sayili's studies, the library catalogue. LEGEND VERSUS SCHOLARSHIP: claims that his instruments or values beat Tycho Brahe's or Copernicus's, that he built a steam turbine, and that clerics destroyed the observatory are NOT scored; the comet prediction is context only. SELF-REPORT: his own prefaces are reported through the secondary sources only. VERY SPARSE PROFILE: five rows, none above 62, confidence 0.36-0.45. SELF-CALIBRATION (agent): top-risk rows reviewed: analytical_rigor (64/0.45 lowered to 60/0.42), creative_originality (kept), persistence (kept; already low). HANDBACK61: {\"slug\": \"taqi-al-din\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"analytical_rigor\", \"old_score\": 64, \"old_confidence\": 0.45, \"new_score\": 60, \"new_confidence\": 0.42, \"reason\": \"the accuracy claims come only from admiring Muslim Heritage essays and no independent source checks them\"}], \"reviewed_kept\": [\"creative_originality\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5} LEAD DECISION (portrait gate): portrait HELD after the agent found an image; sitter not positively identified in a scene image. Research kept."
+  }
+}

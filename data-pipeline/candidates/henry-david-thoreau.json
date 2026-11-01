@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henry-david-thoreau",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henry David Thoreau",
+    "aliases": [
+      "Henry Thoreau",
+      "Thoreau",
+      "David Henry Thoreau"
+    ],
+    "wikidataId": "Q131149",
+    "birthYear": 1817,
+    "deathYear": 1862,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "naturalist",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "literature",
+      "philosophy",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "independent",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_thoreau_wikidata",
+      "kind": "wikidata",
+      "title": "Henry David Thoreau (Q131149), verified live via the Wikidata API (2026-10-31): label 'Henry David Thoreau', description 'American essayist, poet, and philosopher (1817-1862)', born 12 July 1817, died 6 May 1862, citizenship United States, Korean label 헨리 데이비드 소로, images including the Maxham daguerreotype. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q131149"
+    },
+    {
+      "id": "src_thoreau_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Henry David Thoreau', read in the biography, Walden, journal, natural-history and critics sections. CANONICAL SIGNIFICANCE SOURCE: born and died in Concord, Massachusetts, Harvard graduate of 1837, friendship with Emerson, supported himself mainly as a land surveyor with brief spells as a schoolteacher and pencil maker; lived at Walden Pond for two years and two months from 1845 as an 'experiment'; published two books in his lifetime, A Week on the Concord and Merrimack Rivers and Walden (1854), the latter combining narrative, close observation and philosophical speculation; kept a multivolume journal from 1837 until his death; discussed field findings with leading naturalists and read Humboldt and Darwin; his natural-science writings were not published until the late twentieth century; critics include Stanley Cavell's remark that his work may embarrass academic philosophy, doubts that 'transcendentalist' fits him, his ambivalence about science and his possible overestimate of how far a person can detach from institutions. Scholarly reference; the political material in the entry is NOT scored.",
+      "url": "https://plato.stanford.edu/entries/thoreau/"
+    },
+    {
+      "id": "src_thoreau_society",
+      "kind": "institution",
+      "title": "Thoreau Society / Thoreau Alliance, 'Meet Henry David Thoreau (1817-1862)', adapted from Richard J. Schneider, 'Thoreau's Life' (PDF read in full): graduated Harvard in 1837 in the top half of his class during a depression, resigned a Concord school post after two weeks over a dispute with the superintendent about discipline, worked in his father's pencil business where the family's pencils were considered the best in America 'largely because of Henry's research into German pencil-making techniques', opened a private school with his brother in 1838, built the Walden house in 1845 with two goals (to write A Week and to test whether he could meet his needs working one day a week), revised Walden extensively after A Week sold poorly, supported himself by pencil-making, surveying, lecturing and essays, kept careful journals of nature observations and left dozens of volumes of journals and unfinished studies of local nature. Admiring institutional biography; its political and family sections are NOT used.",
+      "url": "https://thoreausociety.org/wp-content/uploads/Meet-Henry-David-Thoreau-1817-1862.pdf"
+    },
+    {
+      "id": "src_thoreau_emerson",
+      "kind": "archive",
+      "title": "Ralph Waldo Emerson, 'Thoreau' (funeral address of May 1862, printed in the Atlantic Monthly, August 1862), as reprinted by Cabinet magazine, read via a fetched summary: contemporary account by his mentor and friend. After a pencil experiment praised by Boston experts Thoreau declined to continue it, preferring walking and study; he taught briefly with his brother and then took up land surveying, which suited his accuracy and gave access to remote land for his nature studies; he earned only enough for modest needs, keeping his time free; he knew Concord's rivers, ponds, animals and plants closely and observed patiently and precisely. Emerson also criticises him: little ambition ('the captain of a huckleberry party'), contrariness, a quickness to refuse and severe standards that made him a hard companion ('that terrible Thoreau'), paradoxical prose and rough verse. Friendly but candid primary account; the full text was not read line by line.",
+      "url": "https://cabinetmagazine.org/issues/7/waldoemerson.php"
+    },
+    {
+      "id": "src_thoreau_phenology",
+      "kind": "press",
+      "title": "Harvard Gazette, 'Effects of climate change vary greatly across plant families' (October 2008), read in full, with the bibliographic record and abstract of A. J. Miller-Rushing and R. B. Primack, 'Global warming and flowering times in Thoreau's Concord: a community perspective', Ecology 89 (2008), via AGRIS: independent scientists (Charles Davis, Charles Willis and Brad Ruhfel at Harvard; Primack and Miller-Rushing at Boston University) used Thoreau's 1851-1858 notes on plant occurrence and flowering times at Walden and Concord as the earliest part of a roughly 150-year community-level dataset, finding that plants now flower about a week earlier on average, that species respond very unevenly, and that about 27 percent of the species he recorded are locally extinct. The papers also state the limits of his records: different observers, methods and sampling intensities, and a subset of 43 species. Independent scientific use of his behaviour; it confirms the records were usable, not that he worked as a scientist.",
+      "url": "https://news.harvard.edu/gazette/story/2008/10/effects-of-climate-change-vary-greatly-across-plant-families"
+    },
+    {
+      "id": "src_thoreau_lowell",
+      "kind": "press",
+      "title": "Rebecca Beatrice Brooks, 'James Russell Lowell's Feud with Henry David Thoreau', History of Massachusetts Blog (2013, updated 2025), read in full: popular secondary account of Lowell's hostile judgements of Thoreau (a mocking verse in 1848 and a North American Review essay in 1865 that charged him with narrow provincialism, egotism, and a lack of imagination, originality, logic and humour, and said he preached the forest cure while seeking doctors) and of the 1858 quarrel in which Thoreau angrily refused to write further for Lowell's Atlantic Monthly after a line of his essay was cut. The primary Lowell essays were not opened. Counter-voice source; the charges are one hostile critic's opinions and are not scored as facts.",
+      "url": "https://historyofmassachusetts.org/james-russell-lowells-feud-with-henry-david-thoreau/"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_thoreau_phenology, src_thoreau_sep, src_thoreau_emerson | 1851-1858 | independent scientific use, scholarly reference, contemporary account] Davis's and Primack's teams used his 1851-1858 notes on plant occurrence and flowering times at Concord as the earliest layer of a 150-year community dataset; the SEP calls his method rigorous, detailed observation of one place; Emerson describes patient, precise observation and close knowledge of local rivers, ponds, animals and plants. The papers also warn that observers and methods differed, so his records are usable but not uniform; the row is limited to the care of his observation. RUBRIC_CORRECTION (lead review, before eligibility): detail_orientation lowered from 78 / 0.66 to 74 / 0.6 because the phenology records are corroborated by modern scientific use, but only one study supplies that independent evidence and the other support is Emerson and a reference summary."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_thoreau_sep, src_thoreau_society, src_thoreau_emerson | 1837-1862 | scholarly reference, institutional biography, contemporary account] The SEP says he kept a multivolume journal from 1837 until his death; the Thoreau Society says his daily priorities were long walks, careful journaling of nature observations and writing, and that he left dozens of volumes; Emerson says he arranged work to meet modest needs and keep his time free. The routine is documented by an admiring institution and a friend, and nothing shows how regular it was year to year, so the confidence is moderate."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_thoreau_society, src_thoreau_emerson, src_thoreau_lowell | 1837-1862 | institutional biography, contemporary account, hostile critic] He resigned a school post after two weeks over a discipline dispute, declined to continue a pencil business that Boston experts had praised, chose surveying and lecturing with modest income, and at Walden tested whether he could meet his needs working one day a week; Emerson calls him contrary and quick to refuse, and Lowell charged him with egotism, so the independence cost him companionship and editors. The documented choices come from an admiring institution and a friend with a critic's counter-view, and the quarrel with Lowell is known through a popular summary. RUBRIC_CORRECTION (lead review, before eligibility): autonomy_need lowered from 76 / 0.58 to 72 / 0.54 because several of the supporting episodes are his own writings read through admiring or hostile contemporaries rather than neutral documentation."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_thoreau_sep, src_thoreau_society | 1845-1847 | scholarly reference, institutional biography] The SEP calls the Walden stay an 'experiment' in living at the edge of town, and the Thoreau Society says one goal was to test whether he could meet his needs by working one day a week and spend the rest on study, nature and writing. The experiment is partly framed in his own terms, the outcome is not independently measured, and nothing here covers experiments in his natural-history work, so the row is moderate."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_thoreau_sep, src_thoreau_emerson, src_thoreau_phenology | 1837-1862 | scholarly reference, contemporary account, independent scientific use] The SEP says he discussed field findings with leading naturalists and read Humboldt and Darwin with interest; Emerson reports his study of local nature and the Thoreau Society lists studies of local nature and notes on American Indians among his unfinished projects; the 1851-1858 plant notes show a sustained interest in recording the natural world. The breadth beyond natural history is described by an admiring institution and a friend, so the confidence is moderate."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_thoreau_sep, src_thoreau_society, src_thoreau_lowell | 1849-1862 | scholarly reference, institutional biography, hostile critic] The SEP says Walden combines narrative, close observation and philosophical speculation and that his journal is a finished work in its own right; the Thoreau Society says he revised Walden extensively after A Week sold poorly; Lowell, a hostile contemporary, denied him originality and imagination and Emerson found his prose over-paradoxical. The judgement of originality is therefore contested and mostly retrospective, so the row is limited to the documented form of the work. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.46 to 62 / 0.42 because the originality judgement is contested by a hostile contemporary and the supporting praise is mostly retrospective."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "헨리 데이비드 소로"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henry-david-thoreau-maxham-1856.jpg",
+    "width": 871,
+    "height": 1200,
+    "source": "Ninth-plate daguerreotype of Henry David Thoreau by Benjamin D. Maxham (1821-1899), made at his studio in Worcester, Massachusetts, in June 1856, National Portrait Gallery, Smithsonian Institution, Washington (object NPG.72.119, gift of an anonymous donor). A documented sitting during the sitter's lifetime. The file is a plain crop of the plate from the museum's own 3345 x 4000 pixel scan of the cased object (the case and mat are cut away), downscaled to 871 x 1200 with no upscaling and no retouching.",
+    "license": "CC0 (Smithsonian Open Access); photographer died 1899, so also public domain by age",
+    "licenseUrl": "https://npg.si.edu/object/npg_NPG.72.119",
+    "attribution": "Benjamin D. Maxham, Henry David Thoreau, 1856, ninth-plate daguerreotype, National Portrait Gallery, Smithsonian Institution; gift of anonymous donor (NPG.72.119), CC0",
+    "attributionUrl": "https://npg.si.edu/object/npg_NPG.72.119",
+    "creator": "Benjamin D. Maxham",
+    "date": "1856",
+    "kind": "likeness",
+    "sourcePageUrl": "https://npg.si.edu/object/npg_NPG.72.119"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / CONFIRMED STRONG, with the Smithsonian check done: the live NPG object page npg.si.edu/object/npg_NPG.72.119 (opened by curl with a browser user agent after the fetch tool got 403) states title Henry David Thoreau, artist Benjamin Dexter Maxham (10 Oct 1821 - 9 Jul 1899), sitter Henry David Thoreau, date 1856, ninth-plate daguerreotype, credit line 'National Portrait Gallery, Smithsonian Institution; gift of anonymous donor', 'Restrictions & Rights: CC0', and 'CCO - Creative Commons (CC0 1.0): This media is in the public domain (free of copyright restrictions)'; the si.edu mirror page shows the same CC0 labels next to a generic 'Usage Conditions Apply, click for more information' interface label, which I read as the site's standard note (its Restrictions & Rights field and the media usage line both say CC0) and not an item-specific restriction. The lead's Commons file is a restored, greyscale version made by two Commons users of the same daguerreotype (marked Public domain); I did not use it, and instead cropped the museum's own CC0 scan, so no restorer's contribution is involved. Maxham died in 1899, so the 1856 image is public domain by age as well. kind likeness (a documented sitting; Thoreau paid for three daguerreotypes there on 18 June 1856 per the Commons description). The rounded plate edge remains visible at the crop margins; no upscaling. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q131149 label 'Henry David Thoreau', description 'American essayist, poet, and philosopher (1817-1862)', born 12 July 1817, died 6 May 1862; not in prod61.txt and no candidate file existed for slug henry-david-thoreau. REGION north_america, era 19th_century. ZERO POLITICS AND NO DOCTRINE: his abolitionist activity, jail night and the essay now called Civil Disobedience are politics and are not scored; transcendentalist and religious thought are not scored; his illness, the death of his brother and his private life are not used. VOCABULARY: occupations writer, naturalist, philosopher; fields literature, philosophy, natural_science; impactDomains literary, cultural, historical; tags nonconformist, independent, field_researcher; archetype independent_creator; to be confirmed by the validator against en.ts and ko.ts. KO NAME: Wikidata Korean label 헨리 데이비드 소로. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Henry David Thoreau' (https://plato.stanford.edu/entries/thoreau/). READ: SEP (via a fetched summary), the Thoreau Society PDF (extracted in full), Emerson's funeral address (via a fetched summary of the Cabinet reprint), the Harvard Gazette article and the Ecology 2008 abstract record (AGRIS), the History of Massachusetts blog article on Lowell: five substantive sources plus Wikidata. PERSPECTIVES: scholarly reference, admiring institutional biography, contemporary friend and mentor (admiring and critical), independent scientists using his records, a hostile contemporary critic (Lowell, second hand). COUNTER-VOICES AND LIMITS: Emerson's own criticisms, Lowell's charges, the SEP's critics (Cavell, ambivalence about science, overestimating detachment), and the 2008 papers' caveats about mixed observers and methods. NOT OPENED: Britannica and the Poetry Foundation (403 to the fetch tool), the Walden Woods Project page (404), UCSB Thoreau pages (403), Lowell's 1865 essay and Stevenson's essay, Walden and the Journal themselves, Walls's biography. EXCLUDED: all political activity, the Walden doctrine of simplicity as belief, health and bereavement-based inferences, and Lowell's hypocrisy charge about doctors. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (66/0.46 lowered to 62/0.42), autonomy_need (kept: documented choices plus a critic's counter-view), experimentation (kept at 68/0.50: self-framed but described by two independent summaries). HANDBACK61: {\"slug\": \"henry-david-thoreau\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 66, \"old_confidence\": 0.46, \"new_score\": 62, \"new_confidence\": 0.42, \"reason\": \"the originality judgement is contested by a hostile contemporary and the supporting praise is mostly retrospective\"}], \"reviewed_kept\": [\"autonomy_need\", \"experimentation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): detail_orientation lowered from 78 / 0.66 to 74 / 0.6 because the phenology records are corroborated by modern scientific use, but only one study supplies that independent evidence and the other support is Emerson and a reference summary. RUBRIC_CORRECTION (lead review, before eligibility): autonomy_need lowered from 76 / 0.58 to 72 / 0.54 because several of the supporting episodes are his own writings read through admiring or hostile contemporaries rather than neutral documentation."
+  }
+}

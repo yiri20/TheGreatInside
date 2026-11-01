@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "plato",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Plato",
+    "aliases": [
+      "Platon",
+      "Aristocles",
+      "Plato of Athens"
+    ],
+    "wikidataId": "Q859",
+    "birthYear": -428,
+    "deathYear": -347,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [
+      "GR"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational",
+      "literary"
+    ],
+    "tagIds": [
+      "founder",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_plato_wikidata",
+      "kind": "wikidata",
+      "title": "Plato (Q859), verified live via the Wikidata API (2026-10-31): label 'Plato', description '4th-century BCE Greek philosopher', birth given as 427, 428 and 429 BCE and death as 347 and 348 BCE (year precision), citizenship ancient Athens, Korean label 플라톤, image the Capitoline bust photograph. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q859"
+    },
+    {
+      "id": "src_plato_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Plato' (biography and writings sections), read in the biographical, Academy and influence sections. CANONICAL SIGNIFICANCE SOURCE: dates c. 428-427 to 348-347 BCE 'not entirely certain'; wealthy, politically active Athenian family; after Socrates' death he left Athens and may have visited Cyrene, Italy, Sicily and Egypt; he founded the Academy, named after a grove outside the city walls, which became his base apart from two more Sicilian trips, and the word 'academic' derives from it; he taught Aristotle; Diogenes Laertius is 'notoriously unreliable' and the Seventh Letter is the most likely letter to be authentic but is one source among others; Socratic dialogue was already a genre (Xenophon, Antisthenes) and Plato is praised for dialogue, characterisation and dramatic setting; the theory of Forms and his critique of the arts as imitation influenced later thought. Scholarly institutional reference; the praise of influence is retrospective.",
+      "url": "https://iep.utm.edu/plato/"
+    },
+    {
+      "id": "src_plato_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Plato' (Richard Kraut), read through a fetched summary of the entry (the full text was not opened line by line): Plato was an Athenian citizen of high status, about 28 when Socrates was killed, Aristotle studied with him, nearly all his writings are dialogues (the Apology is the main exception, a speech of Socrates), Socrates is in nearly all of them, he 'does not himself affirm anything in his dialogues', the thirteen letters are of disputed authenticity, the division into early, middle and late dialogues is itself disputed, and philosophy as a subject 'can be called his invention'. Scholarly reference; the strongest claims are retrospective praise and are NOT scored as behaviour.",
+      "url": "https://plato.stanford.edu/entries/plato/"
+    },
+    {
+      "id": "src_plato_whe",
+      "kind": "biography",
+      "title": "World History Encyclopedia, 'Plato', read in full (via fetched summary): born in Athens probably c. 424/423 BCE on Waterfield's argument or traditional 428/427; aristocratic family; Diogenes Laertius 'often unreliable'; present at neither the trial nor the death of Socrates, with the Phaedo narrated by Phaedo and a report that Phaedo said Plato invented material; travels c. 398-380 BCE and later Syracuse visits; founded the Academy, 'traditionally considered the first university in the Western world' but a wooded garden near his home rather than a modern university; Aristotle his student; Speusippus succeeded him; tradition says the school lasted to Justinian's closure; critics include Diogenes of Sinope ('elitist snob' per the page) and, in modern times, Karl Popper on the Republic. Popular reference and the counter-voice source; hedged claims are not scored.",
+      "url": "https://www.worldhistory.org/plato/"
+    },
+    {
+      "id": "src_plato_encyclopedia",
+      "kind": "biography",
+      "title": "Luc Brisson (Encyclopedia of Religion, 2005) and D. J. Allan (Complete Dictionary of Scientific Biography), 'Plato', via Encyclopedia.com, first 100,000 characters read: Academy founded near a park outside Athens c. 387 or 380 BCE (date uncertain), organised as a religious fraternity of the Muses with common meals; a curriculum sketched from the Republic in which mathematics (arithmetic, geometry, astronomy, harmonics) prepares for dialectic; Plato 'seems to have set problems and criticized methods rather than directly directing research'; Theaetetus, Eudoxus of Cnidus and Aristotle (from 367 BCE) in the Academy; nephew Speusippus named successor; the inscription over the Academy door is traced only to Philoponus and is doubted; late works absorb scientific ideas (Philistion's physiology in the Timaeus, Eudoxan astronomy in the Laws); works survive but their order is uncertain and the letters only partly accepted. Independent scholarly voice and the main source for the Academy's activities.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/philosophy-biographies/plato"
+    },
+    {
+      "id": "src_plato_diogenes",
+      "kind": "archive",
+      "title": "Diogenes Laertius, 'Life of Plato' (Lives of Eminent Philosophers, Book 3, R. D. Hicks translation, Perseus Digital Library), read in full: a late (about 3rd century CE) compilation reporting family, name, pupilship to Socrates, journeys, the Academy, a classification of his dialogues, his will, burial in the Academy and a list of disciples including Speusippus, Xenocrates and Aristotle. Mixed with dream, name-origin and slave-sale anecdotes that are NOT used. Used only for the plain items (the Academy as his school, the will, the disciples) that scholars treat as reportage rather than legend; late and second-hand.",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0258%3Abook%3D3%3Achapter%3D1"
+    },
+    {
+      "id": "src_plato_letter7",
+      "kind": "archive",
+      "title": "Plato (attributed), 'Seventh Letter' (Perseus Digital Library, first 100,000 characters read): a first-person account of his disillusion with Athenian public life, his Sicilian journeys and his statement that he has written no treatise on his central doctrines. Authenticity is disputed (the IEP rates it the letter most likely to be genuine; the SEP says authenticity is a matter of great controversy), so it is self-report of uncertain authorship and is used only as corroboration, never as sole support for a row.",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0164%3Aletter%3D7"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_plato_iep, src_plato_sep, src_plato_whe | c.399-347 BCE | scholarly reference entries, self-authored dialogues] The IEP praises his mastery of dialogue, characterisation and dramatic setting while noting that Socratic dialogue was already a genre in the hands of Xenophon and Antisthenes; the SEP says nearly all his writings are dialogues, that he did not write treatises, and calls the subject of philosophy his invention; the World History Encyclopedia calls his dialogues the basis of Western philosophy. The dialogues are his own works (self-report) and the praise is retrospective, so the row is limited to the documented form and range of the writings and is not scored on legendary claims. SELF-CALIBRATION (agent): reviewed as the top-risk row; lowered from 66 / 0.45 to 62 / 0.40 because the claim rests on retrospective praise and his own dialogues, and the IEP notes the dialogue form pre-existed him."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_plato_encyclopedia, src_plato_iep, src_plato_diogenes | c.387-347 BCE | scholarly entries, late ancient biography] Allan and Brisson describe a school he founded near Athens, organised as a fraternity with common meals, a curriculum in which mathematics prepared students for dialectic, and a teacher who set problems and criticised methods; the IEP says the Academy was his base for the rest of his life apart from two more Sicilian trips and Diogenes Laertius records his burial there. The curriculum is partly reconstructed from the Republic and the date of founding is uncertain, so confidence is low."
+    },
+    "cross_domain_range": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_plato_encyclopedia, src_plato_iep, src_plato_diogenes | c.399-347 BCE | scholarly entries, late ancient biography] Allan says the late dialogues absorb scientific ideas (Philistion's physiology in the Timaeus and Eudoxan astronomy in the Laws); the IEP lists his influence on ideas of love and on a critique of the arts; Diogenes Laertius classifies the dialogues by physical, logical, ethical and political subject. The breadth is described by later writers from his own works, the classification is late, and nothing shows how he moved between fields, so confidence is low. Political activity and Sicilian ventures are NOT scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "플라톤"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/plato-silanion-copy-nguyen-2009.jpg",
+    "width": 800,
+    "height": 1200,
+    "source": "Marble bust of Plato, a Roman copy (dated to the 1st century AD on the Commons page) of a portrait attributed to the sculptor Silanion (about 370 BCE, made for the Academy), Capitoline Museums, Rome (Centrale Montemartini), inventory MC 1377. Photograph by Marie-Lan Nguyen, 5 September 2009, her own work. The bust is an ancient sculptural portrait made about a century after the sitter's lifetime, so it is a later depiction and not a likeness. The file is the original 2400 x 3600 Commons photograph downscaled to 800 x 1200 with no upscaling.",
+    "license": "CC BY 2.5 (photograph); the ancient sculpture itself is in the public domain",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "attribution": "Photograph by Marie-Lan Nguyen (Wikimedia Commons user Jastrow), 2009, CC BY 2.5; Roman copy after Silanion, Capitoline Museums, Rome",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+    "creator": "Marie-Lan Nguyen (photograph); Roman copy after Silanion (sculpture)",
+    "date": "2009 (photograph); c. 370 BCE (original); 1st century AD (Roman copy)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / CONFIRMED WITH ONE FLAGGED CAVEAT: the Commons file page (opened) lists author Marie-Lan Nguyen, 'Own work', taken 5 September 2009 with a Nikon D200, licence CC BY 2.5, original 2400 x 3600, depicting the Capitoline Roman copy after Silanion (Luni or Carrara marble, height 34 cm, MC 1377, Centrale Montemartini); it shows no deletion or licence-review notice and says the sculpture is public domain while a photographic reproduction carries its own copyright, which here is licensed by the photographer. The same photographer-licensed approach is already used for the production Socrates portrait (a CC BY-SA photograph of a Roman copy). CAVEAT FOR THE LEAD: the Musei Capitolini page on photography permission (opened) says authorisation and a fee from the Sovrintendenza Capitolina are needed for shoots for publishing or advertising projects and that the rights in the museum's own online-archive photographs belong to the Sovrintendenza; it does not mention photographs taken by ordinary visitors and I found no Centrale Montemartini notice restricting them, but Italian state-museum image-reproduction rules were not exhaustively checked and a Commons CC licence cannot override an institutional claim if one exists. I judged the bust acceptable (ancient sculpture, creator-licensed photograph, no contradicting notice found) and it should be re-reviewed if the lead wants the strictest reading of 'museum reproduction restrictions'. kind historical_depiction. PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q859 label 'Plato', description '4th-century BCE Greek philosopher', birth 427/428/429 BCE, death 347/348 BCE; not in prod61.txt and no candidate file existed for slug plato (aristotle exists separately). REGION southern_europe following aristotle and the other Greek ancients. ERA ancient. DATES: the sources conflict (IEP 428-427 to 348-347, WHE 424/423, Allan 427, Wikidata 427-429), so -428 and -347 are used with the dispute recorded here. ZERO POLITICS: primary identity is a philosopher and teacher; his Sicilian ventures, the Republic's political theory and any statecraft are not scored. VOCABULARY: occupations philosopher and teacher, fields philosophy and education, impactDomains historical, educational and literary, tags founder and mentor, archetype scholarly_specialist, all taken from existing candidates/en.ts. KO NAME: Wikidata Korean label 플라톤. CANONICAL SIGNIFICANCE SOURCE: Internet Encyclopedia of Philosophy, 'Plato' (https://iep.utm.edu/plato/). READ: IEP, SEP (via fetched summary), World History Encyclopedia (via fetched summary), Encyclopedia.com (Brisson and Allan, first 100,000 characters), Diogenes Laertius Book 3, the Seventh Letter (first 100,000 characters): six substantive sources plus Wikidata. PERSPECTIVES: scholarly reference (IEP, SEP), independent scholarly specialists (Allan, Brisson), popular reference (WHE), late ancient biography (Diogenes Laertius), disputed self-report (Seventh Letter). COUNTER-VOICES AND LIMITS: IEP calls Diogenes Laertius 'notoriously unreliable' and cautions that the dialogues' Socrates may not be historical; WHE reports Diogenes of Sinope's 'elitist snob' charge and Popper's denunciation of the Republic; SEP says Plato affirms nothing in his own voice and the letters' authenticity is contested. NOT OPENED: Britannica (HTTP 403 to the fetch tool), the World History Encyclopedia Academy article (403), the last 183,000 characters of the Encyclopedia.com page and the last 54,000 of the Seventh Letter, Aristotle's reports, Cicero, and the scholarly monographs. LEGEND VERSUS SCHOLARSHIP: the Apollo and swan dreams, the name origin, the poems burned after hearing Socrates, the slave-sale story, the 'let no one ignorant of geometry enter' inscription and the date of the school's closure are not used or scored. VERY SPARSE PROFILE for an ancient subject: three rows, none above 66, confidence 0.38-0.45, the dialogues treated as self-authored works. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (66/0.45 lowered to 62/0.40, see below), mastery_orientation (kept), cross_domain_range (kept). HANDBACK61: {\"slug\": \"plato\", \"portrait_preflight_grade\": \"strong\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 3, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 66, \"old_confidence\": 0.45, \"new_score\": 62, \"new_confidence\": 0.4, \"reason\": \"the claim rests on retrospective praise and his own dialogues, and the IEP notes the dialogue form pre-existed him\"}], \"reviewed_kept\": [\"mastery_orientation\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

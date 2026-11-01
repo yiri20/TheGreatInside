@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "swami-vivekananda",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Swami Vivekananda",
+    "aliases": [
+      "Vivekananda",
+      "Narendranath Datta",
+      "Narendra Nath Dutta",
+      "Narendranath Dutt"
+    ],
+    "wikidataId": "Q47478",
+    "birthYear": 1863,
+    "deathYear": 1902,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "religion",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vivekananda_wikidata",
+      "kind": "wikidata",
+      "title": "Swami Vivekananda (Q47478), verified live via the Wikidata API (2026-10-31): label 'Swami Vivekananda', description 'Indian Hindu monk and philosopher (1863-1902)', born 12 January 1863, died 4 July 1902, citizenship British India, Korean label 비베카난다, image the 1893 signed portrait. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q47478"
+    },
+    {
+      "id": "src_vivekananda_gale",
+      "kind": "biography",
+      "title": "'Vivekananda', Encyclopedia.com page reproducing the Encyclopedia of Religion entry (Thomas J. Hopkins 1987, revised by Brian A. Hatcher 2005), the Encyclopedia of World Biography entry and two Oxford dictionary entries, read via a fetched summary of the whole page. CANONICAL SIGNIFICANCE SOURCE: born Narendranath Datta in a Calcutta family, met Ramakrishna in 1881 and accepted him as guru in 1885, Ramakrishna died in August 1886 and the disciples formed a monastic movement (monastic names in 1887); attended the 1893 Parliament of Religions in Chicago with travel funds from the maharaja of Khetri; drew Western followers and founded the Vedanta Society in New York (the dates 1895 and 1896 differ between entries) with chapters in London and Boston; returned to India in 1897 to a mixed reception and persuaded Ramakrishna's disciples to commit to social service; founded the Ramakrishna Mission on 1 May 1897 with a monastery (Ramakrishna Math) and bought land near Calcutta in 1898; a community near San Francisco in 1898; died 4 July 1902. The Hopkins and Hatcher entry also calls the question of his responsibility for Hindu chauvinism and Hindu-Muslim polarisation 'legitimate and complex', notes he praised Islam and tolerance, and notes possible influences from Schopenhauer, Deussen, Brahmo thought and Christianity. Scholarly reference with a critical note; the short Gale and Oxford entries are uncritical.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/hinduism-biographies/vivekananda"
+    },
+    {
+      "id": "src_vivekananda_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Vivekananda', read in full: passed the Calcutta University bachelor's examination in 1884; led Ramakrishna's disciples in forming a monastic order after 1886; wandered across India as a mendicant; sailed from Bombay in May 1893, reached Chicago in late July, spoke in Boston while waiting, and became a delegate after a letter of introduction from the Harvard professor John Henry Wright; the Parliament opened on 11 September; after it he lectured across the northeastern United States and the Midwest; organised a committee in December 1895 to spread Vedanta and the New York society was launched in October 1898; oversaw the founding of the Ramakrishna Mission in May 1897 (later schools, colleges, hospitals and disaster relief); a second Western journey from June 1899; died 4 July 1902. The entry itself carries unsourced details (a Freemason claim, a figure of sixteen centres), dates the New York society differently from Gale, and frames conventional Hinduism in a one-sided way. Independent reference used for dates and the Boston/Wright episode; flagged weaknesses are not relied on.",
+      "url": "https://www.ebsco.com/research-starters/history/vivekananda/"
+    },
+    {
+      "id": "src_vivekananda_belur",
+      "kind": "institution",
+      "title": "Ramakrishna Math and Ramakrishna Mission (Belur Math), 'Swami Vivekananda', the order's official biography, read in full: born Narendra Nath Datta in Kolkata on 12 January 1863; graduated from Calcutta University; met Ramakrishna in November 1881; cared for him in his final illness; the disciples formed a monastic brotherhood at Baranagar and took sannyasa vows in 1887; from 1890 a long journey across India during which he concluded that the masses needed education and renewed self-belief; resolved to attend the 1893 Parliament partly to present his teacher's message and partly to seek support for his work among the poor; about three and a half years of teaching in the eastern United States and London; founded the Ramakrishna Mission on 1 May 1897 to combine practical Vedanta with social service (hospitals, schools, rural development, disaster relief); land at Belur in 1898; second Western visit from June 1899. The organisation he founded; admiring and institutional, so its statements of his purposes are self-framed.",
+      "url": "https://belurmath.org/swami-vivekananda/"
+    },
+    {
+      "id": "src_vivekananda_barrows",
+      "kind": "archive",
+      "title": "John Henry Barrows (ed.), The World's Parliament of Religions: An Illustrated and Popular Story of the World's First Parliament of Religions, Volume I (Chicago: Parliament Publishing Company, 1893), full OCR text on the Internet Archive searched for every mention of Vivekananda and the passages read: the chairman's account of the opening day (the Hindu monk 'clad in gorgeous red apparel', addressing the audience as 'sisters and brothers of America' to 'a peal of applause that lasted for several minutes'), his remarks with a fable of the frog in a well, addresses on Hinduism, and the remark that he 'was always heard with interest' but that 'very little approval was shown to some of the sentiments expressed in his closing address'; a later passage records a speaker endorsing his criticism of Christian charity limited to converts. Contemporary organiser's history, published by the Parliament's own promoters, so the reception is a friendly record; a primary account, not an independent assessment.",
+      "url": "https://archive.org/details/worldsparliament0001barr"
+    },
+    {
+      "id": "src_vivekananda_neely",
+      "kind": "archive",
+      "title": "Walter R. Houghton (ed.), Neely's History of the Parliament of Religions and Religious Congresses at the World's Columbian Exposition (Chicago: F. T. Neely, 1893), Internet Archive scan, the plate and chapter on Vivekananda read: a full-length photographic plate captioned 'Swami Vivekananda, Hindu Monk' with the imprint 'Copyrighted 1893 by F. T. Neely, Chicago', the chapter 'Most Ancient Order of Monks' reporting that a peal of applause lasted several minutes after he addressed the audience as 'Sisters and Brothers of America', and a chapter 'Hinduism as a Religion'. A second contemporary Chicago account, but it follows the same Parliament proceedings as Barrows and is not independent of it on the speech; used for the portrait and as a cross-check on the date and place of publication.",
+      "url": "https://archive.org/details/neelyshistoryofp0000houg"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vivekananda_barrows, src_vivekananda_neely, src_vivekananda_ebsco, src_vivekananda_gale | 1893-1895 | contemporary organiser histories, reference entries] Both 1893 Chicago histories report that applause lasted several minutes after his opening words, the chairman says he was always heard with interest, EBSCO calls him the most important speaker of the Parliament's first two weeks and says he drew many disciples on a lecture tour, and Gale says he drew Western followers. The same chairman says little approval greeted some sentiments in his closing address, and the accounts of reception come from the Parliament's own promoters and later admiring reference writers. SELF-CALIBRATION (agent): reviewed as the top-risk row; lowered from 78 / 0.64 to 74 / 0.58 because the reception evidence comes from the Parliament's own promoters and later admiring summaries, and the chairman records little approval for the closing address."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vivekananda_gale, src_vivekananda_ebsco, src_vivekananda_belur | 1886-1900 | scholarly reference, independent reference, order's own biography] Gale says he persuaded Ramakrishna's disciples to commit to social service and founded the Ramakrishna Mission on 1 May 1897 with a monastery near Calcutta; EBSCO says he led the disciples in forming a monastic order and oversaw the Mission's founding; the order's biography adds the Baranagar brotherhood and the Belur land of 1898. The institution-building is consistent across sources but the dates of the American societies disagree, the monastic order was formed by a group, and the fullest account is the order's own, so the confidence is moderate. This is organisational leadership of a monastic and service body; no political leadership is scored."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vivekananda_belur, src_vivekananda_gale, src_vivekananda_ebsco | 1890-1893 | order's own biography, scholarly reference, independent reference] The order's biography says he resolved to attend the 1893 Parliament and sailed on 31 May; Gale says he obtained travel funds from the maharaja of Khetri; EBSCO says he reached Chicago in late July, spoke in Boston while waiting for the opening, and became a delegate through a letter of introduction from Professor Wright of Harvard. Three independent summaries agree on the sequence, but the details of who raised the funds differ in emphasis and the Wright episode appears in one source."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vivekananda_belur, src_vivekananda_gale, src_vivekananda_ebsco | 1890-1902 | order's own biography, scholarly reference, independent reference] The order's biography says that after his journey across India he sought support abroad for work among the poor and then founded a Mission that ran hospitals, schools, rural development and disaster relief; Gale says he persuaded the order to adopt social service and EBSCO lists schools, colleges, hospitals and relief work as the Mission's later activity. The stated purposes come mainly from the order, the outcomes after his death are not his own behaviour, and no critical source is quoted on how much he himself directed this work, so the confidence is low. His religious teaching is NOT scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "비베카난다"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/swami-vivekananda-neely-1893.jpg",
+    "width": 827,
+    "height": 900,
+    "source": "Full-length photographic plate captioned 'Swami Vivekananda, Hindu Monk', printed in Neely's History of the Parliament of Religions and Religious Congresses at the World's Columbian Exposition (Chicago: F. T. Neely, 1893), facing page 505, imprint 'Copyrighted 1893 by F. T. Neely, Chicago'; Internet Archive scan neelyshistoryofp0000houg. The caption identifies the sitter, and it is a halftone reproduction of a photograph taken during the 1893 Parliament, so it is a likeness from his lifetime; the photographer is not credited in the book. The file is a plain crop of the head and upper body of the plate from the 1781 x 2847 pixel page scan, downscaled to 827 x 900 with no upscaling and no retouching; the halftone dot pattern and paper tone of the 1893 print remain visible.",
+    "license": "Public domain (published in the United States in 1893)",
+    "licenseUrl": "https://archive.org/details/neelyshistoryofp0000houg",
+    "attribution": "Photograph of Swami Vivekananda from Neely's History of the Parliament of Religions (F. T. Neely, Chicago, 1893), public domain, via the Internet Archive",
+    "attributionUrl": "https://archive.org/details/neelyshistoryofp0000houg",
+    "creator": "Photographer not credited in the book; published by F. T. Neely, Chicago",
+    "date": "1893",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/neelyshistoryofp0000houg"
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / THE LEAD'S COMMONS FILE WAS REJECTED AND A DIFFERENT, RIGHTS-CLEARER IMAGE USED. The Commons page for 'Swami Vivekananda-1893-09-signed.jpg' (opened) names no photographer (the only author is the uploader Dziewa on English Wikipedia), gives no source other than the transfer from English Wikipedia, carries generic PD-anon and life-plus-70 tags with no item-level publication evidence, and is a version edited several times (brightness, contrast, text removed, cropped); the lead's guess of Thomas Harrison is not on that page. Other Commons Vivekananda 1893 files that name Harrison (e.g. 'Swami Vivekananda 1893 Chicago image Harrison.jpg', 'Scanned Image.jpg') cite the vivekananda.org photo slideshow or an unsourced scan of a print, with a bare PD-US tag; one claims first publication in Neely's History, which I checked: the Neely's plate is a different, full-length pose, so that claim does not establish the rights for the bust portrait. Instead I used the item-level evidence I could verify myself: the full-length plate captioned 'Swami Vivekananda, Hindu Monk' in Neely's History (Chicago, F. T. Neely, 1893), on leaf 540 of the Internet Archive scan neelyshistoryofp0000houg (viewed), imprint 'Copyrighted 1893 by F. T. Neely, Chicago'; a work first published in the United States in 1893 is public domain in the United States by age, and the date, place, publisher and caption are all on the page. The photographer is not credited, so I did not name one. WEAKNESSES FOR THE LEAD: the image is a halftone with a visible dot pattern and a yellowed paper tone, the quality is low, and a non-US rights analysis (for a photographer who may have been in Chicago) was not done; if the lead wants a sharper image the bust portrait would need a rights basis from an item-level publication, for example a documented first publication in a book that carries the same pose. kind likeness (a documented 1893 photograph). PREFLIGHT: QID VERIFIED LIVE (2026-10-31) Q47478 label 'Swami Vivekananda', description 'Indian Hindu monk and philosopher (1863-1902)', born 12 Jan 1863, died 4 Jul 1902; not in prod61.txt and no candidate file existed for slug swami-vivekananda. REGION south_asia, era 19th_century. ZERO POLITICS AND NO DOCTRINE: his religious doctrine (Vedanta, 'Practical Vedanta', claims about God and the soul), nationalism and the Hopkins and Hatcher question of Hindu chauvinism are not scored; his health, illness and death are not used; the Ramakrishna Mission is scored only as an organisation he led. VOCABULARY: occupations religious_leader and philosopher, fields religion and philosophy, impactDomains cultural, educational and social, tags founder and communicator, archetype social_influencer; to be confirmed by the validator against en.ts and ko.ts. KO NAME: Wikidata Korean label 비베카난다. CANONICAL SIGNIFICANCE SOURCE: 'Vivekananda', Encyclopedia of Religion (Hopkins and Hatcher) via Encyclopedia.com (https://www.encyclopedia.com/people/philosophy-and-religion/hinduism-biographies/vivekananda). READ: that page (via a fetched summary), EBSCO Research Starters (via a fetched summary), the Belur Math biography (via a fetched summary), Barrows 1893 (full OCR text, every Vivekananda passage located and the key ones read), Neely 1893 (OCR text and the plate): five substantive sources plus Wikidata. PERSPECTIVES: scholarly reference with a critical note, independent reference, the order's own biography, and two contemporary 1893 Chicago histories written by the Parliament's promoters (not independent of each other). COUNTER-VOICES AND LIMITS: the Hopkins and Hatcher critical note; Barrows's remark that his closing address met little approval; a speaker's endorsement of his criticism of conversion-linked charity; EBSCO's one-sided framing and unsourced details. DATE CONFLICTS RECORDED: the New York Vedanta Society is dated 1894 (Pluralism Project snippet), 1895 and 1896 (Gale entries) and October 1898 (EBSCO); the dates are not used in any score. NOT OPENED: Britannica (403), the Pluralism Project page (403), Madaio's 2017 article (403), Art Institute of Chicago pages (403), the University of Chicago Magazine page (certificate error), Rambachan, Jackson and Beckerlegge, and his own Complete Works. VERY SPARSE for a person of this prominence because doctrine and politics are excluded: four rows, none above 78, confidence 0.48-0.64. SELF-CALIBRATION (agent): top-risk rows reviewed: persuasiveness (78/0.64 lowered to 74/0.58, see row), impact_motivation (kept: stated purposes come from the order but are matched by Gale and EBSCO), leadership_drive (kept). HANDBACK61: {\"slug\": \"swami-vivekananda\", \"portrait_preflight_grade\": \"plausible\", \"portrait_final_status\": \"found\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"persuasiveness\", \"old_score\": 78, \"old_confidence\": 0.64, \"new_score\": 74, \"new_confidence\": 0.58, \"reason\": \"the reception evidence comes from the Parliament's own promoters and later admiring summaries, and the chairman records little approval for the closing address\"}], \"reviewed_kept\": [\"impact_motivation\", \"leadership_drive\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

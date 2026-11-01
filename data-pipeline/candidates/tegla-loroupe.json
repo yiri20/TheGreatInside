@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "tegla-loroupe",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Tegla Loroupe",
+    "aliases": [
+      "Tegla Chepkite Loroupe",
+      "Tegla Loroupe Chepkite"
+    ],
+    "wikidataId": "Q241062",
+    "birthYear": 1973,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "KE"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_loroupe_wikidata",
+      "kind": "wikidata",
+      "title": "Tegla Loroupe (Q241062), verified live via the Wikidata API (2026-10-31): English label 'Tegla Loroupe', description 'Kenyan long-distance runner (born 1979)', no death date, no Korean label; the item's own birth-date statements (1973 and 1971) conflict with its description, and Olympedia gives 9 May 1973, which is used here. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q241062"
+    },
+    {
+      "id": "src_loroupe_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Tegla Loroupe' athlete page, read in full: the standard Olympic results archive's record of her birth on 9 May 1973 in Kapsoit, Kericho, her 1992 (17th), 1996 (6th) and 2000 (5th in the 10,000 m, 13th in the marathon) Olympic results, her two bronze medals in the 10,000 m at the 1995 and 1999 World Championships and her 1999 personal bests; the biography section holds only the personal bests. Statistical archive with no narrative, used for results and dates.",
+      "url": "https://www.olympedia.org/athletes/72718"
+    },
+    {
+      "id": "src_loroupe_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Loroupe, Tegla' (reference biography; the original publisher credit was not shown in the text read), read in full: a long-form life account giving her 1994 New York City Marathon win as the first African woman to win it, her 1995 win, three straight Rotterdam wins from 1997 including the 1998 women's world marathon record of 2:20:47, her 1999 Berlin record, her struggle to find a Kenyan coach willing to train a woman and her move to Germany in the early 1990s, the 2000 Olympic marathon in which she finished 13th, the 2003 Peace Foundation and a school and orphanage. CANONICAL SIGNIFICANCE SOURCE: the fullest biography read. Contains internal date inconsistencies and some personal and family details that were not used.",
+      "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/loroupe-tegla"
+    },
+    {
+      "id": "src_loroupe_wa1999",
+      "kind": "award_body",
+      "title": "World Athletics (then IAAF), race report 'Loroupe does it again' (Berlin Marathon, 25 September 1999), read in full: contemporaneous federation report of her 2:20:43 world best, which beat her own 2:20:47 from Rotterdam in April 1998; she aimed to be the first woman under 2:20, fell behind record pace in the middle of the race, found a burst of energy at 28 km, climbed the course's only incline and recovered pace; her quotes (called it her best race ever, credited the crowd) and her coach's comment; notes she had taken the 10,000 m bronze at the World Championships the previous month. Federation report, favourable by nature; the writer is not named on the page.",
+      "url": "https://worldathletics.org/news/report/loroupe-does-it-again"
+    },
+    {
+      "id": "src_loroupe_waheritage",
+      "kind": "award_body",
+      "title": "World Athletics Heritage, 'Tegla Loroupe: World Half Marathon Championships' (feature), read in full: the federation's history piece on her three half-marathon world titles (1997 Kosice in a championship record of 1:08:14, the first Kenyan woman to win it; 1998 Uster, the first back-to-back winner; 1999 Palermo, where she ignored her coach's plan and attacked with five kilometres left), her use of decisive surges, her habit of racing often and sometimes days before a major event, her 1989 junior cross-country start and her 2002 final championship appearance. Federation history, favourable in tone.",
+      "url": "https://worldathletics.org/heritage/news/tegla-loroupe-world-half-marathon-championshi"
+    },
+    {
+      "id": "src_loroupe_espn",
+      "kind": "press",
+      "title": "Jeff Hollobaugh, 'How low can Loroupe go?' (ESPN.com column, September, apparently 1999), read in full: a press column on her plan to be the first woman under 2:20 in Berlin, her existing 2:20:47 world best, the 1998 Rotterdam record that broke a 13-year-old mark, and the controversy after Rotterdam over male pacers, which the writer argues was normal practice in women's marathons. Independent journalism with a counter-voice on the pacing question; the year is not printed in the text and is inferred from context.",
+      "url": "https://www.espn.com/moresports/columns/hollobaugh_jeff/69968.html"
+    },
+    {
+      "id": "src_loroupe_gulfnews",
+      "kind": "press",
+      "title": "Alaric Gomes, 'Tegla Loroupe has gone from champion runner to messenger of peace' (Gulf News column, 2018), read in full: a short promotional column for a women's run that lists her marathon and half-marathon results and Olympic placings and says she won no Olympic medal; an unnamed event official blames agents for over-scheduling her, a claim for which the column offers no evidence. Laudatory and thin; used only to cross-check the results list, and the agents claim, her Darfur travels and peace awards were not used.",
+      "url": "https://gulfnews.com/sport/alaric-gomes-tegla-loroupe-has-gone-from-champion-runner-to-messenger-of-peace-1.1253024"
+    },
+    {
+      "id": "src_loroupe_laureus",
+      "kind": "institution",
+      "title": "Laureus World Sports Academy, member profile 'Tegla Loroupe', read in full: the sports charity's profile listing her Goodwill Games, World Championships, New York, Rotterdam and other marathon wins, her 2000 Olympic marathon (13th) and her school and orphanage for children from her home region; she is an elected member of the organisation, so it is a partly self-affiliated profile used only for cross-checking results.",
+      "url": "https://laureus.com/world-sports-academy/members/tegla-loroupe"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_loroupe_encyclopedia, src_loroupe_wa1999, src_loroupe_olympedia, src_loroupe_waheritage | 1992-2000 | biography + federation race report + results archive + federation history] The long biography says no Kenyan coach would train a woman and she moved to Germany in the early 1990s to build her career; the federation's Berlin report shows her falling behind record pace in the middle of the 1999 race, then regaining it with a surge at 28 km and the course's only climb, and finishing 4 seconds under her own world best; Olympedia and the federation history document medals and records from 1995 to 1999. Sustained, documented effort in her own sport with behaviour observed in the race report, but the early-career account is partly her own telling and the sources are favourable."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_loroupe_wa1999, src_loroupe_espn, src_loroupe_encyclopedia | 1998-1999 | federation race report + press column + biography] ESPN reports her stated goal of being the first woman to break 2:20:00 in the marathon and the federation report confirms she went to Berlin in 1999 to try it; she had already broken a 13-year-old record at Rotterdam in 1998, and the biography records three consecutive Rotterdam wins from 1997. A clear and consistent record-chasing pattern is documented, but it rests on a single stated target and favourable reports, and the 2:20 barrier was not reached."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_loroupe_waheritage, src_loroupe_wa1999 | 1998-1999 | federation history + federation race report] The federation history says that at the 1999 half-marathon world championships she ignored her coach's plan to wait and attacked with five kilometres left, a week after a marathon world record, and that she was known for racing often, sometimes in the days before a major event; the Berlin report shows her chasing a sub-2:20 time rather than only a win. These are documented race choices that carry risk, but they come from one history article and favourable reports, and the outcomes there were successes, so the evidence says little about how she handled costly gambles, hence dual-edged. SELF-CALIBRATION (agent): lowered from 66 / 0.52 because the claim rests on two racing decisions described in one federation history article and the trait claim is stronger than that."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_loroupe_encyclopedia, src_loroupe_waheritage | 1989-1993 | biography + federation history] The biography says that when no Kenyan coach would train a woman and the national federation was indifferent, she went to Germany in the early 1990s, trained among other African athletes, and later worked with a coach there; the federation history records her junior cross-country start in 1989 and her coach Volker Wagner. Acting to create her own route into elite running is documented, but the account is a single biography partly based on her own telling and the sources do not describe the details."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "테글라 로루페"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: plausible (lead) / HELD: the lead's file 'Tegla Loroupe Rio2016.jpg' (1991 x 2234) is on Commons as CC BY 3.0 BR by 'Fernando Frazao/Agencia Brasil', but the live Agencia Brasil page it cites (opened and the HTML checked) states no Creative Commons licence, carries the footer 'Todos os direitos reservados pela EBC' (all rights reserved), and credits the photograph to 'Tomaz Silva/Agencia Brasil', while the Commons file's own description also names Tomaz Silva; the photographer and licence therefore conflict between the live source and Commons. One bounded retry (about 12 calls): Commons category files by 'Barcex' (25th Laureus World Sports Awards, Madrid, 22 April 2024, own work, CC BY-SA 4.0, project supported by Wikimedia Espana) and by 'Eastfrisian' (2007, Schortens, own work, GFDL / CC BY-SA) were examined; both rest on an uploader's assertion of the sitter's identity, and I could not find an independent source placing her at either event (the Laureus attendee list for 2024 did not name her; no Schortens source found), so neither was accepted. NEXT STEP: get Agencia Brasil / EBC to confirm the CC BY 3.0 BR licence and the photographer for that image, or locate an independently documented photograph (for example a Laureus or federation press release with a stated licence, or confirmation that she attended the 2024 Madrid event) before downloading anything. No image was saved to the repository.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q241062 returned en label 'Tegla Loroupe', description 'Kenyan long-distance runner (born 1979)' with two conflicting birth-date statements (1973-05-09 and 1971-05-05) and no Korean label; Olympedia gives 9 May 1973, used here (birthYear 1973), and the discrepancy is recorded rather than resolved on Wikidata. SLUG/QID CHECK: not in the production list (prod61.txt) and no existing candidate file. Region sub_saharan_africa (Kenya). Korean name: no Korean Wikipedia or Wikidata label exists, so 'tegeulla roroupe' is a standard transliteration chosen here, not an established label. Zero-politics passes: primary identity is distance running; her Peace Foundation races, Darfur travel, UN and IOC ambassador roles and the Rio 2016 refugee-team post are peace advocacy or sports administration and are not scored. LIVING SUBJECT: only public professional behaviour is scored; family details (including a sibling's death), health and the food-poisoning report from 2000 were not used.\nCANONICAL SIGNIFICANCE SOURCE: Encyclopedia.com, 'Loroupe, Tegla' https://www.encyclopedia.com/education/news-wires-white-papers-and-books/loroupe-tegla (read in full), with Olympedia for results.\nSOURCES READ (7 substantive): Olympedia, Encyclopedia.com biography, World Athletics Berlin 1999 report, World Athletics Heritage half-marathon feature, ESPN column, Gulf News column, Laureus profile; Wikidata orientation only. PERSPECTIVES: results archive, reference biography, federation reporting and history, independent press columns, a sports charity she belongs to. Non-self behavioural sources: the Berlin race report and the ESPN column. COUNTER-VOICES: the ESPN column's pacing controversy after Rotterdam, and the Gulf News claim that agents over-scheduled her (unevidenced and not used). Federation pieces (World Athletics) are favourable, so confidence stays <= 0.58. NOT OPENED: Britannica (not tried), World Athletics profile page, People Daily (403), Mail & Guardian (page was the homepage), Citizen Digital, Peace and Sport page, her own interviews. The 1994 New York 'first African woman' claim is stated by the biography, the Laureus profile and the Gulf News column and is used in the editorial cards with the biography as support. Four rows only; no row above 72.\nSELECTIVE SELF-CALIBRATION: reviewed persistence (highest score; kept, because the Berlin race report is a contemporaneous account of recovering pace and the results archive confirms the career), achievement_drive (kept) and risk_tolerance (lowered 66/0.52 to 60/0.45: two racing decisions in one federation history article). Initial rows 4; lowered 1.\nHANDBACK61: {\"slug\":\"tegla-loroupe\",\"portrait_preflight_grade\":\"plausible\",\"portrait_final_status\":\"held\",\"rows_initially_scored\":4,\"self_calibrated_rows\":[{\"attribute\":\"risk_tolerance\",\"old_score\":66,\"old_confidence\":0.52,\"new_score\":60,\"new_confidence\":0.45,\"reason\":\"claim rests on two racing decisions described in one federation history article and is stronger than that\"}],\"reviewed_kept\":[\"persistence\",\"achievement_drive\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":true,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"first-pass top omission: the Peace Foundation, school and orphanage were missing from the first three athletic cards; folded the New York win and half-marathon titles into cards 1-2 and made card 3 the foundation, school and orphanage\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":4}"
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "The preflight lead (Commons 'Tegla Loroupe Rio2016.jpg', CC BY 3.0 BR, Agencia Brasil) conflicts with the live source: the Agencia Brasil page states no Creative Commons licence, carries an all-rights-reserved footer and credits a different photographer than the Commons author field. Two alternative Commons photographs (2024 Laureus Awards, 2007 Schortens race) rely on an uploader's own-work claim with no independent confirmation that the sitter was at the event. Next step: obtain a licence and photographer confirmation from Agencia Brasil / EBC, or find an independently documented photograph with a stated licence."
+  }
+}

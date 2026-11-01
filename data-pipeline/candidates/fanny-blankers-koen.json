@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fanny-blankers-koen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Fanny Blankers-Koen",
+    "aliases": [
+      "Francina Elsje Blankers-Koen",
+      "Francina Elsje Koen",
+      "Fanny Koen"
+    ],
+    "wikidataId": "Q229046",
+    "birthYear": 1918,
+    "deathYear": 2004,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_blankers_wikidata",
+      "kind": "wikidata",
+      "title": "Fanny Blankers-Koen (Q229046), verified live via the Wikidata API (2026-10-31): label 'Fanny Blankers-Koen', description 'Dutch track and field athlete (1918-2004)', born 1918-04-26, died 2004-01-25, citizenship Netherlands, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q229046"
+    },
+    {
+      "id": "src_blankers_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Fanny Blankers-Koen' athlete biography, read in full: an outstanding all-round athlete who first competed at the 1936 Olympics, married her coach Jan Blankers, broke several world records during the war years, entered four events at the 1948 London Games at age 30 (women were limited to three individual events) and won all four golds, won five European titles in 1946 and 1950 and 58 Dutch national championships, and was elected IAAF Female Athlete of the Century in 1999; lists her Olympic results and personal bests. CANONICAL SIGNIFICANCE SOURCE: the standard Olympic results archive and biography. Concise and favourable; written by the archive's editors.",
+      "url": "https://www.olympedia.org/athletes/73711"
+    },
+    {
+      "id": "src_blankers_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Fanny Blankers-Koen' (article by the editors, revised by J.E. Luebering), read in full: first woman to win four gold medals at a single Games (1948); 16 world records in eight events including the first modern pentathlon record (1951); 800 m national title at 17; 1936 Berlin high jump and relay; criticism before 1948 that at 30 she was too old and was neglecting her duties as wife and mother of two; she often trained only twice a week for two hours with her children in tow; she preferred track events to jumps; tears and a wish to withdraw before the 200 m; leader of the Dutch athletics team 1958-1968. Reference article; its unsourced remarks about her pregnancy and the machine-generated Q&A boxes on the page were not used.",
+      "url": "https://www.britannica.com/biography/Fanny-Blankers-Koen"
+    },
+    {
+      "id": "src_blankers_joh",
+      "kind": "institution",
+      "title": "Anthony Th. Bijkerk, 'Fanny Blankers-Koen: A Biography', Journal of Olympic History 12(2), May 2004, pp. 56-60 (International Society of Olympic Historians), read in full via the society's PDF: a year-by-year account from her 1935 start in athletics through the war years (resuming training after each birth, play-style training, handball, food scarcity, 1943 high jump and long jump records, 1944 records in the 100 yards and relays with named teammates), the 1946 Oslo European championships fall and next-day hurdles win, the 1947 decision with her husband to concentrate on sprints and hurdles, the 1948 results race by race, the Helsinki 1952 withdrawal and her honours. Written by a sports historian shortly after her death; admiring in tone, and it relies partly on family and husband-coach accounts; it mentions Kees Kooman's 2003 biography as showing 'a person with two faces' without detail.",
+      "url": "https://isoh.org/wp-content/uploads/2015/04/23.pdf"
+    },
+    {
+      "id": "src_blankers_smithsonian",
+      "kind": "press",
+      "title": "Smithsonian Magazine, 'How Fanny Blankers-Koen Became the Flying Housewife of the 1948 London Games' (history feature), read in full: describes the 1948 Games context, the Dutch athlete as a 30-year-old mother of two doubted by the British team manager, the hostile letters she received, her sprint and hurdles wins, tears and homesickness before the 200 m, the late arrival for the relay after shopping, the sexist press nickname and quips, her modest reception at home and the 1999 IAAF vote; says her biographer Kees Kooman portrays her as a deeply competitive athlete (relayed, not opened). Independent popular-history journalism with a critical eye on the press coverage; some of the colour is anecdotal and the pregnancy remarks were not used.",
+      "url": "https://www.smithsonianmag.com/history/the-flying-housewife-of-the-1948-london-games-10049278/"
+    },
+    {
+      "id": "src_blankers_wafeature",
+      "kind": "award_body",
+      "title": "World Athletics, feature page 'Fanny Blankers-Koen' (Heritage), read in full: the federation's short note that she won four Olympic golds in London at age 30, that with Olympic rules limiting athletes to three individual events she focused on the 100 m, 200 m and 80 m hurdles and did not contest the high and long jump although she held both world records, set world records at 100 m, 80 m hurdles, high jump, long jump and pentathlon, and was voted IAAF Female Athlete of the Century in 1999. Federation page; brief and favourable; its pregnancy remark was not used.",
+      "url": "https://worldathletics.org/news/feature/fanny-blankers-koen"
+    },
+    {
+      "id": "src_blankers_fhw",
+      "kind": "institution",
+      "title": "Foundation of the Hellenic World, Olympic Games site, 'The story of a housewife: Fanny Blankers-Koen' (page of the 'heroes' section; no author named), read in full: a short account of her 1936-1948 career, the argument that a mother should not leave her children to compete and the insulting letters and harsh newspapers before the 1948 Games, and her meeting with Jesse Owens in 1972. No named author and it differs from Olympedia on her birthplace and the 1936 and 1938 results, so it is used only to corroborate the public criticism she faced.",
+      "url": "https://www.fhw.gr/olympics/modern/en/heroes/1948b.html"
+    },
+    {
+      "id": "src_blankers_nationaalarchief",
+      "kind": "archive",
+      "title": "Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, 'Olympische dag in Amsterdam. Atlete Fanny Blankers-Koen (met ridderorde)', photograph by Daan Noske / Anefo, 26 June 1949, item 903-4520 -- institutional catalogue page checked for the portrait: rights holder stated as 'Nationaal Archief, CC0'. Used only for the portrait.",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a8c9daf0-d0b4-102d-bcf8-003048976d84"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_blankers_joh, src_blankers_britannica, src_blankers_olympedia, src_blankers_smithsonian | 1935-1952 | society biography + encyclopedia + archive + history magazine] The society biography records her resuming training about three months after her first child's birth and two months after her second's, trying to keep training and competing through wartime food scarcity (setting 1943 and 1944 world records), going back to training after the war for the 1946 European championships, and, after falling in the 1946 Oslo 100 m semifinal and needing her knees treated, winning the 80 m hurdles the next day. Britannica and Smithsonian add that she ignored hostile letters and doubts about her age to compete in 1948, and nearly withdrew before the 200 m but stayed and won; Olympedia lists the 58 Dutch titles. Several distinct episodes from more than one kind of source, hence strong inference and not higher; the main narrative source is admiring and family-sourced, and her own 1952 withdrawal is recorded as a setback not a pattern. Health details are not scored."
+    },
+    "competitiveness": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_blankers_joh, src_blankers_smithsonian, src_blankers_olympedia | 1935-1950 | society biography + history magazine + archive] After the 1936 Berlin Games the society biography says she decided she wanted to stand on the Olympic rostrum at least once; it describes her as having the 'fanatism' her brothers lacked; it records that she and her husband studied the record lists and chose which marks to attack, including a record held by a German team in 1944; and she entered many events on one day at the Dutch championships, winning 58 national titles (Olympedia). Smithsonian says her biographer Kees Kooman portrays her as deeply competitive, but that book was not opened. SELF-CALIBRATION (agent): lowered from 72 / 0.55 strong inference to 66 / 0.48 inference because the single sharpest statement of competitiveness reaches us only via a magazine's summary of a biography that was not read, and the rest is one admiring society biography."
+    },
+    "achievement_drive": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_blankers_joh, src_blankers_britannica, src_blankers_olympedia | 1936-1952 | society biography + encyclopedia + archive] She began athletics in 1935, was disappointed by her Berlin high jump and resolved to reach an Olympic podium (society biography); she was a national champion at 17 (Britannica); she restarted competing for the 1946 European championships after the war and two births (JOH) and entered four events at 30 in 1948, winning each (Olympedia). SELF-CALIBRATION (agent): lowered from 70 / 0.55 strong inference to 64 / 0.48 inference because the podium resolve rests on a single sentence in one admiring biography and the rest is outcome (medals, records), which the rubric says not to score backward from."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_blankers_joh, src_blankers_olympedia, src_blankers_britannica, src_blankers_wafeature, src_blankers_smithsonian | 1944-1948 | society biography + archive + encyclopedia + federation + magazine] In 1944 she and her husband-coach studied the record lists and chose her 100-yard mark as the one to improve; after the costly 1946 Oslo fall she and Jan decided in late 1947 to concentrate winter training on running alone because jumping events risked injury, and entered the 100 m, 200 m, 80 m hurdles and relay in 1948, leaving out the high and long jump of which she held the world records (Olympedia and the federation note the three-individual-event rule; Britannica says she preferred track events). Two deliberate selections with the reasoning documented, but largely from one society biography; the exact balance between her choice and her coach's is not documented."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_blankers_joh, src_blankers_olympedia, src_blankers_smithsonian | 1940-1950 | society biography + archive + magazine] She trained under her husband Jan Blankers (an Olympic triple jumper) and decided her programme with him (society biography); she set relay world records in 1944 with named Dutch teammates and won European relay titles in 1946 and a relay silver in 1950 (Olympedia), and the society biography says she was persuaded not to leave London after the 200 m partly by being reminded that her relay teammates depended on her; Smithsonian records the anchor leg of the 1948 relay. Documented teamwork, but little detail on how she worked with teammates, so a modest score and low confidence."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_blankers_joh, src_blankers_britannica | 1942-1945; 1940s | society biography + encyclopedia] During the occupation the society biography says she adapted her training to a 'play-training' schedule, played handball when hard training was impossible because of food scarcity, travelled to Friesland for meets with better food, and cycled around finding food and fuel; Britannica reports she often trained only twice a week for two hours with her children in tow. These are adaptations to constraints, but the most colourful episodes are told in the biography without independent corroboration and are partly anecdote, so only a modest lean is supported."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "파니 블랑커스쿤"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-10-31T00:00:00Z",
+    "updatedAt": "2026-10-31T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: strong (lead) / confirmed: Commons file 'Olympische dag in Amsterdam. Fanny Blankers-Koen, Bestanddeelnr 903-4520.jpg' is a Nationaal Archief / Anefo photograph by Daan Noske dated 26 June 1949; the Nationaal Archief catalogue page (read from its embedded record) states rights holder 'Nationaal Archief, CC0' and Commons carries CC0 and agrees; no conflicting notice; original 2526 x 2888, downscaled to 1050 x 1200, no cropping.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-10-31) for Q229046 returned label 'Fanny Blankers-Koen', description 'Dutch track and field athlete (1918-2004)', born 1918-04-26, died 2004-01-25, citizenship Netherlands, ko label present. SLUG/QID CHECK: not in prod61.txt and no existing candidate file. Region western_europe (Netherlands). Zero-politics passes (athlete; no political activity scored; her 1958-68 role as leader of the Dutch athletics team is mentioned but unscored). Plausible >=2 independent perspectives and a non-self behavioural source: yes (society biography, encyclopedia, history magazine).\nCANONICAL SIGNIFICANCE SOURCE: Olympedia, 'Fanny Blankers-Koen' https://www.olympedia.org/athletes/73711 (read in full).\nSOURCES READ (7 substantive): Olympedia, Britannica, Journal of Olympic History biography (Bijkerk, 2004), Smithsonian Magazine feature, World Athletics feature, Foundation of the Hellenic World page (anonymous, used for corroboration only), Nationaal Archief page (portrait only); Wikidata orientation only. PERSPECTIVES: results archive, encyclopedia, Olympic-historians' society biography, history magazine with a critical view of the press coverage, federation. Non-self behavioural source: the society biography and Smithsonian. COUNTER-VOICE: limited; Smithsonian criticises the contemporary press coverage, and the society biography notes a Kooman biography showing 'a person with two faces'. NOT OPENED: Kees Kooman's 2003 biography 'Een koningin met mannenbenen' and the scholarly review in BMGN (a direct download returned an empty file and a second attempt was declined by the tooling, so only the search-result summary was seen and nothing from it is used), The New York Times obituary, Telegraph and Guardian obituaries (not found at guessed URLs). EXCLUSIONS: family and private life, pregnancy remarks, health and her late-life illness are not scored; the 'Flying Housewife' label is a contemporary press nickname and is not used as a trait. Differences between sources on birthplace (Baarn, Lage Vuursche, Amsterdam) were not needed.\nSELECTIVE SELF-CALIBRATION: reviewed persistence (highest score and confidence; kept, because separate episodes come from a society biography, an encyclopedia and a history magazine), competitiveness (lowered 72/0.55 to 66/0.48: key claim relayed second-hand) and achievement_drive (lowered 70/0.55 to 64/0.48: single-sentence resolve plus outcomes). Initial rows 6; lowered 2. Broad flag for lead: none; sparse profile (6 rows) by design.\nHANDBACK61: {\"slug\":\"fanny-blankers-koen\",\"portrait_preflight_grade\":\"strong\",\"portrait_final_status\":\"found\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"competitiveness\",\"old_score\":72,\"old_confidence\":0.55,\"new_score\":66,\"new_confidence\":0.48,\"reason\":\"key competitiveness claim reaches us only via a magazine summary of a biography that was not opened; rest is one admiring society biography\"},{\"attribute\":\"achievement_drive\",\"old_score\":70,\"old_confidence\":0.55,\"new_score\":64,\"new_confidence\":0.48,\"reason\":\"podium resolve rests on one sentence in one admiring biography and the rest is outcome\"}],\"reviewed_kept\":[\"persistence\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/fanny-blankers-koen-noske-1949.jpg",
+    "width": 1050,
+    "height": 1200,
+    "source": "Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, 'Olympische dag in Amsterdam. Atlete Fanny Blankers-Koen (met ridderorde)', photograph by Daan Noske / Anefo, 26 June 1949; downscaled from 2526 x 2888 pixels to 1050 x 1200 with no cropping",
+    "license": "CC0 1.0 (public domain dedication)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photo: Daan Noske / Anefo, 26 June 1949, Nationaal Archief, CC0, resized from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Olympische_dag_in_Amsterdam._Fanny_Blankers-Koen,_Bestanddeelnr_903-4520.jpg",
+    "creator": "Daan Noske / Anefo",
+    "date": "1949-06-26",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a8c9daf0-d0b4-102d-bcf8-003048976d84"
+  }
+}
