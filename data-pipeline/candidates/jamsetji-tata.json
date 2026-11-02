@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jamsetji-tata",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jamsetji Tata",
+    "aliases": [
+      "Jamsetji Nusserwanji Tata",
+      "Jamshedji Tata",
+      "J. N. Tata"
+    ],
+    "wikidataId": "Q320109",
+    "birthYear": 1839,
+    "deathYear": 1904,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jtata_wikidata",
+      "kind": "wikidata",
+      "title": "Jamsetji Tata (Q320109), verified live via the Wikidata API (2026-11-01): label 'Jamsetji Tata', description 'Indian industrialist, founder of the Tata Group (born 1839)', born 1839-03-03, died 1904-05-19, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q320109"
+    },
+    {
+      "id": "src_jtata_ewb",
+      "kind": "biography",
+      "title": "'Tata, Jamsetji Nusserwanji', Encyclopedia of World Biography (Gale, unsigned entry hosted on Encyclopedia.com), read in full: dates, his father's export firm and the 1859 Hong Kong branch, the Empress cotton mill opened at Nagpur on 1 January 1877, the later Swadeshi Mill, the freight fight with shipping combines that ended in 1896, the iron and steel project begun in 1901 and registered by his sons as the Tata Iron and Steel Company in 1907, the hydroelectric proposal (dam foundations laid 1911), the Taj Mahal Hotel, the 1898 research-institute offer, and scholarships from 1894; quotes the Dictionary of National Biography calling his mills 'the best managed of Indian-owned factories'. CANONICAL SIGNIFICANCE SOURCE: standard reference biography. Admiring in tone and offers no criticism of him.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/tata-jamsetji-nusserwanji"
+    },
+    {
+      "id": "src_jtata_wacha",
+      "kind": "biography",
+      "title": "D. E. Wacha, 'The Life and Life Work of J. N. Tata' (Madras: Ganesh & Co., second edition, c. 1915), read via the Internet Archive full text (University of California copy): a contemporary biography by an associate; covers his early career and travel, the Empress Mill, the Swadeshi Mill (1886), the labour-supply problem and his 1888 letters to the United Provinces government and the Bombay millowners, the freight monopoly he broke with Japanese lines, the research-institute scheme, the steel and hydroelectric projects, and appended memorial speeches. Written by a friend and admirer after his death, so favourable; used for the documented episodes, not for assessments of character.",
+      "url": "https://archive.org/details/lifelifeworkofjn00wach"
+    },
+    {
+      "id": "src_jtata_empress",
+      "kind": "institution",
+      "title": "Tata Group heritage article 'Jamsetji and the Empress Mills, Nagpur' on tata.com, read in full: why he chose Nagpur over Bombay, the 1874 promotion of the Central India Spinning, Weaving and Manufacturing Company (Rs 15 lakh), the 1 January 1877 opening, the poor early machinery and the 1878 Europe trip to replace it, the 16 per cent dividend of 1881, and the later creche and dispensary. Company-published heritage page, so partly self-affiliated and undated on the welfare measures.",
+      "url": "https://www.tata.com/newsroom/heritage/jamsetji-empress-mills-nagpur"
+    },
+    {
+      "id": "src_jtata_iischeritage",
+      "kind": "institution",
+      "title": "Tata Group heritage article 'Jamsetji Tata, perseverance and the Indian Institute of Science' on tata.com, read in full: how the 1889 Reay address led to his 1896 letter and the 1898 offer of 14 Bombay buildings and four landed properties (about Rs 30 lakh), his silence at the 1898 deputation to Curzon, the 1899 dispute over linking a family settlement, his 1900 meeting with Prof William Ramsay at his own cost, the 1903 abeyance and the 1904 codicil. Company-published; the Curzon dealings are told from the Tata side.",
+      "url": "https://www.tata.com/newsroom/heritage/jamsetji-tata-perseverance-iisc"
+    },
+    {
+      "id": "src_jtata_iisc",
+      "kind": "institution",
+      "title": "Indian Institute of Science, 'History' page, read in full: states that in the 1890s he decided to build a world-class university in India from his own wealth, that Mysore gave 371 acres and capital and annual funds, that the colonial government supplied the rest, and that the Institute was established on 27 May 1909 after 'several hurdles, including those resulting from Tata's untimely death' and opened in 1911 with Morris Travers as director. Independent institutional confirmation of the endowment and the delays; says little about his conduct.",
+      "url": "https://iisc.ac.in/about/history/"
+    },
+    {
+      "id": "src_jtata_tribune",
+      "kind": "press",
+      "title": "Illa Vij, 'Fact File', The Tribune (Chandigarh), Saturday Plus, 19 June 1999, read in full: newspaper profile covering the 1882 report on the Lohara iron deposits, his reading and travel to gather technical knowledge, a reward offered for a way to smelt the ore, the hiring of the American engineer C. M. Weld, the official restrictions that stalled the steel plans until 1899, and his death in 1904 before the plant was built. The only non-Tata, non-encyclopedia source; popular and uneven (it says British rule held back Indian industry, which is the author's framing).",
+      "url": "https://www.tribuneindia.com/1999/99jun19/saturday/fact.htm"
+    },
+    {
+      "id": "src_jtata_tca",
+      "kind": "archive",
+      "title": "Tata Central Archives, online exhibition 'Jamsetji Nusserwanji Tata (1839-1904)', read in full: the archive's panel list covering the Tata family, his travels, the textile mills, the iron and steel company, the Institute of Science, the Taj Mahal Palace Hotel, the Tata electric companies, his final journey and the J. N. Tata Endowment scheme; mentions his 1900s letter to Swami Vivekananda and the only Indian Hotels Company meeting he attended. A company archive, so partly self-affiliated; thin text, used for the range of his ventures.",
+      "url": "https://www.tatacentralarchives.com/exhibitions/jamsetji-nusserwanji-tata.html"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jtata_empress, src_jtata_wacha, src_jtata_ewb | 1874-1896 | company heritage page + biography + encyclopedia] The Tata heritage page says he put his first big mill at Nagpur rather than in Bombay, which traders called the 'Cottonopolis', because of local cotton, the railway terminus, nearby coal and a large hand-loom market; Wacha and the encyclopedia describe him breaking a shipping combine's freight monopoly by bringing Japanese lines into the Bombay-China trade, which Wacha calls bold and full of risk. Spotting an under-served site and route is documented, but the Nagpur reasoning rests on one company page and the freight episode on an admiring biographer and an unsigned encyclopedia entry."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jtata_iischeritage, src_jtata_iisc, src_jtata_ewb, src_jtata_wacha | 1894-1904 | company heritage page + institution history + encyclopedia + biography] In 1898 he offered property worth about Rs 30 lakh, roughly half his wealth per the Tata page, to found a research university; the Indian Institute of Science's own history confirms that he decided to endow it from his own wealth and that it opened in 1911 after his death; the encyclopedia adds scholarships open to any Indian from 1894 and suburban housing for workers. The giving is documented, but the figure and the motives come from company pages and an admiring biographer, and no independent source assesses his purpose. SELF-CALIBRATION (agent): lowered from 74 / 0.58 because the motive claim leans on company and admiring-biographer sources and the independent IISc page confirms only the endowment."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jtata_iischeritage, src_jtata_iisc, src_jtata_tribune, src_jtata_ewb | 1882-1904 | company heritage page + institution history + newspaper + encyclopedia] The research-institute scheme ran from the 1896 letter through the 1899 dispute, the 1903 statement that it was in abeyance and a 1904 codicil keeping the offer open for the government; the Tribune says the steel plans were stalled by official restrictions for about twenty years after the 1882 iron-ore report while he kept collecting papers and consulting experts, and the encyclopedia dates his steel push to 1901. He did not live to see either completed. Sustained effort over a decade or more is documented in an independent institution page and a newspaper as well as company pages; the sources are mostly favourable, so confidence stays moderate."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jtata_iischeritage, src_jtata_tribune, src_jtata_empress | 1874-1901 | company heritage pages + newspaper] For the Institute he sent an educationist to study universities in Europe and America and, in 1900, met Prof William Ramsay in England and paid his expenses for a stay in India; the Tribune reports about five years of travel and consultation and a collection of papers on Indian minerals before the steel project moved, and the Empress page describes buying and hiring ahead of the Nagpur opening. Preparation before committing capital is documented across several ventures, but the detail comes from company-affiliated pages and a popular newspaper feature."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jtata_empress, src_jtata_wacha, src_jtata_ewb | 1877-1896 | company heritage page + biography + encyclopedia] When the first Nagpur machinery proved inferior, yarn quality fell and shares dropped to half their face value, he went to Europe in 1878, bought new plant and scrapped the cheaper machinery; when workers were hard to hold at the Swadeshi Mill, Wacha says he tried recruiting from Broach, Surat and the North-West Provinces and wrote to officials and the millowners' association about the labour supply. Finding another route when the first failed is documented, but the accounts are company and admiring-biographer retellings and the labour scheme largely failed by Wacha's own account."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jtata_ewb, src_jtata_wacha, src_jtata_empress | 1859-1896 | encyclopedia + biography + company heritage page] The encyclopedia records that a failed English venture and a financial crisis brought his father's firm to bankruptcy before army contracts revived it; Wacha calls the shipping-freight challenge 'exceedingly bold' and full of risk; the Empress page notes the new mill's early losses and a loom-shed fire. Taking large, uncertain commitments is documented, and both setbacks and wins appear, hence dual-edged, but the sources are retrospective and favourable and say nothing about how he weighed odds."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "잠셋지 타타"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (lead) / RESOLVED by replacement: the lead's 184x179 JNTata.jpg scan (Commons PD-old with an unsourced 'author died more than 100 years ago' claim, no creator or publication) was abandoned. Used instead the 1889 oil portrait signed 'Edwin Ward' (Edwin Arthur Ward, British painter, 1859-1933), Chhatrapati Shivaji Maharaj Vastu Sangrahalaya (formerly Prince of Wales Museum), Mumbai, Tata collection, accession 33.72, Commons file 'JAMSETJI N. TATA.jpg' (Commons PD-Art, PD-old-70, deathyear 1933). Rights basis: a 2D oil painting whose named artist died in 1933 (life-plus-70 expired at the end of 2003 in the UK and the US for an unpublished work; life-plus-60 expired earlier in India), so no living copyright; a faithful photograph of a flat painting adds none. Sitter and artist identification: signature 'Edwin Ward 1889' is visible on the canvas; Commons transcribes the museum label (aged 50 when he sat for the portrait; 159.4 x 135.2 cm); the Tata Group article 'Tata personal art at CSMVS' (tata.com/newsroom/community/tata-personal-art-csmvs, opened) independently names the portrait as an 1889 portrait of Jamsetji Tata by the British artist Edwin Ward in Sir Dorab Tata's gift to the museum. CAVEATS: the museum's own collection page (csmvs.in/collections/jamsetji-nusserwanji-tata-1839-1904, seen only in search results) returns 404, and the page Commons cites as source (themuseummumbai.com) is a generic site with a blanket footer ('Copyrights 2026 The Museum Mumbai, all rights reserved') and no item-level notice; no item-level reproduction restriction was found, and the footer is generic collection language that cannot revive copyright in a work whose artist died in 1933. Tata Central Archives and tata.com pages carry only generic site footers. Original 351 x 440 px (small; not upscaled, not cropped). Kind is likeness because the museum label says he sat for it (a painting from life), not a later imagined depiction.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-11-01) for Q320109 returned en label 'Jamsetji Tata', description 'Indian industrialist, founder of the Tata Group (born 1839)', born 1839-03-03, died 1904-05-19, ko label present. SLUG/QID CHECK: not in prod62.txt (only Ratan Tata, Q333460, is a different person; candidate j-r-d-tata.json is a different person) and no existing candidate file. Region south_asia (India; same as the Tata candidates). Zero-politics passes: primary identity is industrial and educational entrepreneurship; his dealings with colonial officials over the Institute and steel are scored only as persistence and planning, and the nationalist framing of the Swadeshi Mill name is unscored.\nCANONICAL SIGNIFICANCE SOURCE: 'Tata, Jamsetji Nusserwanji', Encyclopedia of World Biography (Gale) via Encyclopedia.com https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/tata-jamsetji-nusserwanji (read in full). Britannica's biography was attempted but returned HTTP 403 to the fetch tool and was not opened (no workaround attempted).\nSOURCES READ (7 substantive): Encyclopedia of World Biography entry, Wacha 1915 biography (Internet Archive full text; skimmed by targeted passages on the Empress Mill, Swadeshi Mill, labour problem, institute, steel, hydroelectric), tata.com Empress Mills heritage article, tata.com IISc heritage article, IISc history page, The Tribune 1999 feature, Tata Central Archives exhibition; Wikidata orientation only. PERSPECTIVES: reference encyclopedia, contemporary associate-biographer, company heritage, university/institution, regional newspaper, company archive. Non-self behavioural sources: the IISc page, the Tribune and the encyclopedia; no source is a hostile or scholarly critical assessment, so confidence is capped at 0.58 and no score exceeds 72. COUNTER-VOICE: none critical of him was found; the only opposing voices are the colonial government's reluctance on the Institute and steel (told from the Tata side) and Wacha's own account of the failed labour-recruitment scheme. NOT OPENED: Britannica (403), Frank Harris 1925 chronicle and the Lala biography (not obtained), scholarly business-history works, the CSMVS collection page (404), the 1923 Empress Mills welfare report. Claims about firsts were deliberately avoided; a 'first Indian pension fund' claim seen in secondary pages was not used. Labour-welfare dates (creche, dispensary, pension) are undated in the sources read and were not scored. Six rows only; no row above 72.\nSELECTIVE SELF-CALIBRATION: reviewed impact_motivation (lowered 74/0.58 to 70/0.54: motive and the Rs 30 lakh figure rest on company and admiring-biographer sources), persistence (kept: corroborated by the independent IISc page and the Tribune) and opportunity_sensing (kept at 70/0.52, already set conservatively because the Nagpur reasoning is one company page). Initial rows 6; lowered 1.\nHANDBACK62: {\"slug\":\"jamsetji-tata\",\"portrait_preflight_grade\":\"RISKY (alt-dependent)\",\"initial_lead\":\"184x179 scan JNTata.jpg with 'author died >100 years' claim\",\"final_portrait_source\":\"Chhatrapati Shivaji Maharaj Vastu Sangrahalaya (Mumbai), Tata collection acc. 33.72; painter Edwin Arthur Ward, 1889 oil portrait; Commons file JAMSETJI N. TATA.jpg https://commons.wikimedia.org/wiki/File:JAMSETJI_N._TATA.jpg\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":\"The lead's scan had no creator or publication basis, but the offered alternative (the signed 1889 oil portrait) has a named painter who died in 1933, so rights rest on the artist's death date rather than an unsourced claim; the signature is visible on the canvas and tata.com independently names the painter, date and sitter. Caveat: the museum's own collection page is dead (404) and the image is only 351x440.\",\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":74,\"old_confidence\":0.58,\"new_score\":70,\"new_confidence\":0.54,\"reason\":\"motive and the Rs 30 lakh figure rest on company heritage pages and an admiring biographer; the independent IISc page confirms only the endowment\"}],\"reviewed_kept\":[\"persistence\",\"opportunity_sensing\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":true,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"first-pass top omission: the Institute of Science was a clause on card 1; corrected by the agent so it has its own card\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jamsetji-tata-ward-1889.jpg",
+    "width": 351,
+    "height": 440,
+    "source": "Wikimedia Commons file 'JAMSETJI N. TATA.jpg': oil-on-canvas portrait of Jamsetji Tata by the British painter Edwin Arthur Ward (1859-1933), signed and dated 1889, in the Tata collection at the Chhatrapati Shivaji Maharaj Vastu Sangrahalaya (formerly Prince of Wales Museum), Mumbai, accession 33.72; original 351 x 440 pixels, not resized or cropped",
+    "license": "Public domain (artist died 1933)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Edwin Arthur Ward, portrait of Jamsetji Tata, 1889, oil on canvas, Tata collection, Chhatrapati Shivaji Maharaj Vastu Sangrahalaya, Mumbai (public domain)",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:JAMSETJI_N._TATA.jpg",
+    "creator": "Edwin Arthur Ward",
+    "date": "1889",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:JAMSETJI_N._TATA.jpg"
+  }
+}

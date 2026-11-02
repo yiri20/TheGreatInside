@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "francisco-moreno",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Francisco Moreno",
+    "aliases": [
+      "Francisco Pascasio Moreno",
+      "Francisco P. Moreno",
+      "Perito Moreno",
+      "Francisco Josue Pascasio Moreno"
+    ],
+    "wikidataId": "Q384568",
+    "birthYear": 1852,
+    "deathYear": 1919,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "AR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "naturalist"
+    ],
+    "fieldIds": [
+      "exploration",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "founder",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_moreno_wikidata",
+      "kind": "wikidata",
+      "title": "Francisco Pascasio Moreno (Q384568), verified live via the Wikidata API (2026-11-01): label 'Francisco Pascasio Moreno', description 'Argentinian explorer and naturalist (1852-1919)', born 31 May 1852, died 22 November 1919, citizenship Argentina, image 'FranciscoMoreno.jpg'; no Korean label and no Korean Wikipedia article. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q384568"
+    },
+    {
+      "id": "src_moreno_bertonatti2003",
+      "kind": "biography",
+      "title": "Claudio Bertonatti, 'Francisco P. Moreno: Perito en patria', Revista Vida Silvestre no. 86 (Fundacion Vida Silvestre Argentina, Buenos Aires, 2003), read in full (three pages). CANONICAL SIGNIFICANCE SOURCE: a naturalist who left the first national park and the La Plata natural-history museum; as a boy he collected bones and fossils and had an important collection by age 12, and Burmeister named a fossil armadillo Dasypus moreni after him; he explored, named (Lago Argentino) and mapped Patagonia from 1873; he donated a collection of 15,000 pieces to the Province of Buenos Aires, was made lifelong director of the museum, directed its construction, the setting-up of the halls and the Anales and Revista; in 1903 he gave 7,500 hectares near Nahuel Huapi for a national park (the donation letter is dated 6 November 1903, the basis of National Parks Day); he sold land to fund school meals and the Patronato de la Infancia schools; he founded the Argentine scouting institution. A conservation-NGO tribute, strongly admiring and openly defending him against detractors; it dates the museum's inauguration to 1885, which the museum's own page contradicts (see below), and its boundary-commission passages are not scored.",
+      "url": "https://ia801300.us.archive.org/7/items/Bertonatti2003FranciscoPMorenoPeritoEnPatriapublicadaEnRevVidaSilvestreN86/Bertonatti%20(2003)%20-%20Francisco%20P%20Moreno%20-%20Perito%20en%20Patria%20(publicada%20en%20Rev%20Vida%20Silvestre%20N%C2%BA%2086).pdf"
+    },
+    {
+      "id": "src_moreno_bertonatti2014",
+      "kind": "biography",
+      "title": "Claudio Bertonatti, 'Francisco P. Moreno: un naturalista desvelado por el bien comun' (chapter in a book on Perito Moreno National Park, 2014), read in most of its length (the Internet Archive text extraction garbled two bulleted passages): childhood collecting and a museum of his own in 1867, Burmeister's dedication of Dasypus moreni; he donated his museum's collections to found the Museo de La Plata, construction began in 1884, public money ran out and he sold properties to continue, and when La Nacion called the museum his exclusive work he asked that a letter be published crediting Governor D'Amico; he was first director 1884-1906; he planned the rooms to follow Darwinian evolution (his own claim, quoted); medals and memberships of foreign geographical societies; the 1903 land donation; he sold his remaining land in 1905 to fund a people's dining hall and the Escuelas Patrias; deputy 1910-1913, founded the scouts association in 1912; he died in debt and his belongings were put up for judicial sale. Same author as the 2003 piece, so the two are not independent of each other; strongly admiring, with quotations from Fasano, Barcia, Mitre and Roosevelt.",
+      "url": "https://ia801300.us.archive.org/7/items/Bertonatti2014FranciscoPMorenoUnNaturalistaDesveladoPorElBienComuncapituloDelLib/Bertonatti%20%282014%29%20-%20Francisco%20P%20Moreno%20%20-%20Un%20naturalista%20desvelado%20por%20el%20bien%20com%C3%BAn%20%28cap%C3%ADtulo%20del%20Libro%20sobre%20el%20Parque%20Nacional%20Perito%20Moreno%29.pdf"
+    },
+    {
+      "id": "src_moreno_museo",
+      "kind": "institution",
+      "title": "Museo de La Plata (Universidad Nacional de La Plata), 'Historia' page (museo.fcnym.unlp.edu.ar), read through a fetched summary: the museum was created by a decree of the Buenos Aires provincial government on 19 September 1884 on a project by Francisco Pascasio Moreno; its first collections came from the Museo Antropologico de Buenos Aires, which Moreno had created in 1877; the building was completed in 1887 and the museum opened to the public permanently on 19 November 1888; Moreno was its director from its creation until 1906, when it became part of the university. The page does not describe a donation of collections or use the words 'founder' or 'first director'. Institutional history; admiring by omission of conflict.",
+      "url": "https://www.museo.fcnym.unlp.edu.ar/historia/historia-43"
+    },
+    {
+      "id": "src_moreno_apn",
+      "kind": "institution",
+      "title": "Administracion de Parques Nacionales (Argentine government), 'Historia' page (argentina.gob.ar/parquesnacionales), read through a fetched summary: on 6 November 1903 Francisco Moreno ceded three square leagues (about 7,500 hectares) near Lago Frias and Puerto Blest so that the land would be consecrated as a public natural park; on 8 April 1922 the Parque Nacional del Sud (later Nahuel Huapi, 785,000 hectares) was created under Irigoyen; Law 12,103 of 1934 created the national parks administration and the Iguazu and Nahuel Huapi parks. The page does not itself call the 1903 donation or the 1922 park 'the first' national park, so no 'first' wording is carded. Official institutional history.",
+      "url": "https://www.argentina.gob.ar/parquesnacionales/institucional/historia"
+    },
+    {
+      "id": "src_moreno_fernicola",
+      "kind": "biography",
+      "title": "Juan Carlos Fernicola, 'Implicancias del conflicto Ameghino-Moreno sobre la coleccion de mamiferos fosiles realizada por Carlos Ameghino en su primera exploracion al rio Santa Cruz, Argentina', Revista del Museo Argentino de Ciencias Naturales 13(1), 2011 (SciELO Argentina), read through a fetched summary of the article: Carlos Ameghino returned to the La Plata museum in September 1887 with over 2,000 fossil pieces; Florentino Ameghino resigned as sub-director in January 1888 and was dismissed on 25 February 1888 and denied access to the collections; budget cuts in 1887 led Moreno to use some of his own savings for the museum's construction and to delay the museum's Anales; Moreno's 1888 instructions to expedition members said the museum's collections must be at least double those of other expeditions; the author concludes that Florentino took part of the 1887 collection for his 1889 monograph, that institutional competition and personal ambitions broke what should have been an excellent scientific partnership, and that Florentino's claim of night-time removal of specimens is his own and unverified. Scholarly counter-voice and the main independent source on Moreno's conduct as director; the author's own figures are internally inconsistent in places.",
+      "url": "http://www.scielo.org.ar/scielo.php?script=sci_arttext&pid=S1853-04002011000100005"
+    },
+    {
+      "id": "src_moreno_infobae",
+      "kind": "press",
+      "title": "Juan Thames, 'La ejemplar vida de Francisco Moreno, padre de los parques nacionales', Infobae, 8 November 2015, read through a fetched summary: collections given to the Province of Buenos Aires became the base of the La Plata natural-sciences museum, which he directed for many years; of the 25 square leagues granted to him in 1903 he accepted 22 and returned 3 for the park, made official by a 1904 decree; first Rio Negro trip in 1873; Lago Argentino and other lakes found; he sold his land rights to fund food, health care and schooling for children, died in poverty in 1919 and the Banco de la Nacion auctioned his assets in 1920 to cover debts; notes no critics. Popular newspaper article, admiring; it overlaps with the Bertonatti pieces and is not independent of them on the same facts.",
+      "url": "https://www.infobae.com/2015/11/08/1768170-la-ejemplar-vida-francisco-moreno-padre-los-parques-nacionales/"
+    },
+    {
+      "id": "src_moreno_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Francisco Moreno' (raw wikitext read for orientation and for the Fernicola citation on the 1888 Ameghino dismissal). Orientation only; never counted as a substantive source or used as support for a row.",
+      "url": "https://en.wikipedia.org/wiki/Francisco_Moreno"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moreno_bertonatti2003, src_moreno_bertonatti2014, src_moreno_infobae | 1860s-1870s | conservation-NGO biographies, newspaper] Bertonatti writes that as a boy he searched for bones and fossils in semi-wild Palermo and on the river coast, had an important collection by age 12 and a museum of his own in 1867, and that Burmeister named a fossil armadillo found by him Dasypus moreni; Infobae calls him passionate about nature and science and dates his first Rio Negro trip to 1873. The childhood episodes come from one admiring author drawing on Moreno's own later recollections, and the Infobae piece overlaps with him, so confidence is moderate."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moreno_bertonatti2014, src_moreno_fernicola, src_moreno_museo | 1884-1888 | biography, scholarly article, museum history] Bertonatti says construction of the La Plata museum stalled when public money ran out and that he sold properties of his own to continue; Fernicola independently reports that 1887 budget cuts led him to use some of his own savings for the construction; the museum's own history dates the creation to 1884 and the permanent opening to 19 November 1888. The use of his own money is confirmed by two independent accounts; the 'sold properties' detail rests on Bertonatti alone."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moreno_apn, src_moreno_bertonatti2003, src_moreno_bertonatti2014, src_moreno_infobae | 1884-1905 | official park history, biographies, newspaper] The national parks administration confirms that on 6 November 1903 he ceded three square leagues near Nahuel Huapi so the land would be a public natural park; the museum's history says its first collections came from the anthropological museum he had created in 1877; Bertonatti and Infobae say he sold his remaining land to fund school meals and the Patronato de la Infancia schools and died in debt. The acts are confirmed by an institution and by overlapping biographers; the motive and the finances come mainly from admiring writers. SELF-CALIBRATION (agent): reviewed as the top-risk row; lowered from 78 / 0.60 to 74 / 0.55 because the institutions verify the donations but not the motive, and the sacrifice narrative comes from admiring, overlapping sources."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_moreno_bertonatti2003, src_moreno_bertonatti2014, src_moreno_infobae | 1873-1900s | biographies, newspaper] Bertonatti describes repeated trips from 1873 into a Patagonia 'without roads or tracks' and a later survey of thousands of kilometres on horseback with a team, and mentions in passing that he had himself been held prisoner at Caleufu; Infobae lists his Santa Cruz, Chubut, Rio Negro and Neuquen journeys. The exposure to remote and uncertain terrain is described, but no source measures the dangers or his decision-making, and the boundary-commission context of some travel is not scored."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_moreno_fernicola, src_moreno_museo | 1887-1888 | scholarly article, museum history] Fernicola reports that Moreno's 1888 instructions to expedition members said the museum's collections must be at least double those of other expeditions, and that Florentino Ameghino, the sub-director, was dismissed on 25 February 1888 and denied access to the collections after the dispute over his brother's Santa Cruz fossils; the author treats institutional competition and personal ambitions on both sides as the cause and does not verify Ameghino's own account. One scholar documents the instruction and the dismissal; the motive is not stated, so this is an inference about museum rivalry, reading as an advantage for the museum's growth and a cost in a damaged scientific partnership."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프란시스코 모레노"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. (1) The BnF Societe de Geographie 1884 photograph (Gallica btv1b8451076w, SG PORTRAIT-1164) is recorded at item level as restricted use under a convention with the Societe de geographie, with no named photographer, despite PD tags on Commons copies. (2) Commons 'FranciscoMoreno.jpg' comes from a science-outreach blog, credits an unknown photographer via a museum photo file, and rests on a country-term tag only. (3) The ETH-Bibliothek Wehrli slide 'Franzisco P. Moreno' (CC BY-SA 4.0, 3075 x 3146) is a reproduction of an earlier photograph whose photographer, date and first publication are unknown. (4) The 1898 Mayol caricature in Caras y Caretas is a cartoon scene, not a likeness. Next step: identify the photographer and first publication of the portrait ETH reproduced (a dated Argentine publication before 1931 or an archive record), or obtain terms from the BnF convention, or find a photograph with an item-level public-domain statement in a museum or archive."
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead; initial lead Malena Blanco photo file via cienciaenlavidriera.com.ar; rights basis BnF Societe de Geographie SG PORTRAIT-1164 1884 photographs, Gallica item-level; alternative BnF 1884 photographs; unresolved issue Gallica page bot-blocked, photographer unnamed) / FAILED, RESULT HELD. PORTRAIT FINDING: (1) BnF 1884 photograph, Gallica ark btv1b8451076w, Societe de Geographie SG PORTRAIT-1164: the Gallica SRU search API (reachable; the OAIRecord and ark pages sit behind a Cloudflare challenge and were NOT circumvented) returned the item record, date 1884, five views, no photographer, and the rights field 'conditions specifiques d'utilisation (sous convention Societe de geographie)' / 'restricted use (convention Societe de geographie)'; the BnF catalogue record cb405864654 names no creator, dates it 'avant 1884' and says 'Communication soumise a condition'. The Commons files from this item carry PD-old-assumed, PD-US-expired and PD-France tags, but the institution's own item-level rights statement is a restricted-use convention, which a Commons tag cannot override. REJECTED. (2) Commons 'File:FranciscoMoreno.jpg' (the Wikidata image) and its derivative 'White Argentine.jpg': source a science-outreach blog, author 'Malena Blanco. Photo file from the museum Juan B. Ambrosetti', date 'not listed, no later than 1919', tag PD-AR-Photo only; photographer unknown, no museum page, no publication facts, blog provenance. REJECTED. (3) Commons 'File:ETH-BIB-Franzisco P. Moreno-Dia 247-13662.tif' (ETH-Bibliothek, e-pics, CC BY-SA 4.0 licence given item-level by the library, 3075 x 3146): a genuine head-and-shoulders portrait, but it is a glass-slide reproduction photograph by Leo Wehrli of someone else's earlier photograph (the slide label reads 'Reproduktion'), the catalogue dates it only 'ca. 1943', and the original photographer, date and first publication are unknown, so the library's licence covers only the faithful reproduction and cannot establish the status of the underlying portrait; an argument that the original was published in Argentina before 1976 and so lapsed would be a speculative expiry theory. REJECTED for now. (4) Caras y Caretas caricature by Manuel Mayol, 8 October 1898 ('El Perito Moreno', public domain by age, 1025 x 1590): a full-length cartoon of the explorer in polar dress with instruments, a scene with a distorted head, not a portrait; not presented as a likeness. REJECTED. HOLD. NEXT STEP: identify the photographer and first publication of the portrait that ETH reproduced (for example the same photograph in a dated Argentine publication before 1931, or in the Archivo General de la Nacion), or obtain written terms from the Societe de geographie convention at the BnF, or find a Moreno photograph in a museum or archive page with an item-level public-domain statement. WHY THE PLAUSIBLE LEAD FAILED: the lead assumed the Gallica item-level record would say 'domaine public', as for the Coubertin photograph, but this Societe de geographie series is under a restricted-use convention at item level, and the blog image is an unknown-photographer file with only a country-term tag. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q384568 label 'Francisco Pascasio Moreno', description 'Argentinian explorer and naturalist (1852-1919)', born 31 May 1852, died 22 November 1919; not present in prod62.txt; no existing candidate file for francisco-moreno. REGION latin_america (Argentine, career base Buenos Aires and La Plata, as florentino-ameghino). ERA 19th_century. nationalityCodes AR. ZERO POLITICS: Moreno was also the Argentine boundary expert (perito) in the Chile dispute from 1896, a national deputy (1910-1913), a National Education Council officer, and in his last year joined the Argentine Patriotic League; None of the boundary, deputy, council, league or sovereignty material is carded or scored; the profile rests on exploration, the museum, the 1903 land cession and the charity work. VOCABULARY: occupations explorer, naturalist; fields exploration, natural_science; impactDomains scientific, educational, cultural; tags explorer, founder, field_researcher; archetype scientific_explorer (all labelled in en.ts and ko.ts). KO NAME: no Korean Wikidata label and no Korean Wikipedia article, so the transliteration 프란시스코 모레노 is recorded as a transliteration. CANONICAL SIGNIFICANCE SOURCE: Claudio Bertonatti, 'Francisco P. Moreno: Perito en patria' (Fundacion Vida Silvestre Argentina, 2003; archive.org copy), cross-checked for institutional facts against the Museo de La Plata history page and the national parks history page. READ: Bertonatti 2003 (full), Bertonatti 2014 (most; two bulleted lists garbled), Museo de La Plata history page (via fetched summary), national parks history page (via fetched summary), Fernicola 2011 (via fetched summary), Infobae 2015 (via fetched summary): six substantive sources plus Wikidata and Wikipedia for orientation. PERSPECTIVES: conservation-NGO biographer (two overlapping pieces by one author, admiring), two Argentine institutional histories (museum, parks administration), one scholarly counter-voice (Fernicola on the Ameghino conflict), one newspaper feature that overlaps the biographer. The only genuinely independent behavioural source is Fernicola; the rest corroborate institutional facts. DATE CONFLICT RESOLVED: Bertonatti 2003 says the museum was inaugurated in 1885 and Bertonatti 2014 says construction began in 1884 and it opened on 19 November 1888; the museum's own page gives the decree of 19 September 1884 and the permanent opening on 19 November 1888, so the 1885 date is not used. Directorship is 1884-1906 per the museum page and Bertonatti 2014. NOT OPENED: Fasano's biography, Artayeta's 1945 biography (sedici.unlp.edu.ar), the Revista del Museo de La Plata articles on the museum's collections (a fetched page returned only metadata), the Riccardi article (404), Moreno's own writings and the 'Viaje a la Patagonia Austral'. Unsupported 'first' wording ('first national park of Argentina', 'first museum arranged by evolutionary theory', 'most ambitious expedition ever') appears only in Bertonatti or in Moreno's own quoted statements and is not carded. PROFILE: five rows, none above 74, confidence 0.40-0.55; the evidence is overwhelmingly admiring and is mostly about institution-building, so no row for collaboration or leadership is scored. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (78/0.60 lowered to 74/0.55, see rationale), curiosity (kept: childhood evidence is single-author, already at 0.48), persistence (kept: own-money use independently confirmed by Fernicola). HANDBACK62: {\"slug\": \"francisco-moreno\", \"portrait_preflight_grade\": \"PLAUSIBLE\", \"initial_lead\": \"Malena Blanco photo file via cienciaenlavidriera.com.ar (Commons File:FranciscoMoreno.jpg)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The BnF Societe de Geographie 1884 photograph, which the lead expected to carry an item-level public-domain statement, is recorded in the Gallica SRU record as 'conditions specifiques d'utilisation (sous convention Societe de geographie)' / restricted use, contradicting the Commons PD tags; the blog photograph has an unknown photographer and only a country-term tag; the ETH Wehrli slide is a reproduction of an unidentified earlier photograph (underlying creator and date unknown); the Mayol caricature is a cartoon scene, not a portrait.\", \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 78, \"old_confidence\": 0.6, \"new_score\": 74, \"new_confidence\": 0.55, \"reason\": \"institutions verify the donations but not the motive, and the sacrifice narrative comes from admiring, overlapping sources\"}], \"reviewed_kept\": [\"curiosity\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

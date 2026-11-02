@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jean-sibelius",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jean Sibelius",
+    "aliases": [
+      "Johan Julius Christian Sibelius",
+      "Jean Sibelius",
+      "Janne Sibelius"
+    ],
+    "wikidataId": "Q45682",
+    "birthYear": 1865,
+    "deathYear": 1957,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FI"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "perfectionist",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sibelius_wikidata",
+      "kind": "wikidata",
+      "title": "Jean Sibelius (Q45682), verified live via the Wikidata API (2026-11-01): label 'Jean Sibelius', description 'Finnish composer (1865-1957)', born 1865-12-08, died 1957-09-20, Korean label 장 시벨리우스. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q45682"
+    },
+    {
+      "id": "src_sibelius_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Jean Sibelius' (full article read). CANONICAL SIGNIFICANCE SOURCE: the most noted symphonic composer of Scandinavia; the Kullervo Symphony (1892) made him Finland's leading composer, the Finnish Senate voted him a life pension in 1897, Finlandia 1899-1900; his greatest works are the last three symphonies and Tapiola, after which he lapsed into a long silence; rumours of an eighth symphony were unfounded and no manuscripts survived his death; his achievement lies principally in his mastery of form and in the capacity for organic growth; 1930s vogue followed by a reaction in the next generation.",
+      "url": "https://www.britannica.com/biography/Jean-Sibelius"
+    },
+    {
+      "id": "src_sibelius_war_eighth",
+      "kind": "biography",
+      "title": "'The war and the destruction of the eighth symphony 1939-1945', from the English-language Jean Sibelius website at sibelius.klubi.fi (read in full, about 1,100 words; the page does not name an author, and the site is a commemorative biography site, so treated as an admiring biographical source). Dated statements from the composer to his secretary and son-in-law that a great work was under way (1943, February 1945); an August 1945 remark that he had 'completed' the symphony many times and burnt it once; the widow's testimony of a great burning at Ainola and that afterwards he seemed calmer. Passages on war, family and Nazi-era politics were read but are not scored.",
+      "url": "https://sibelius.klubi.fi/english/elamankaari/sib_kahdeksannen_tuhoaminen.htm"
+    },
+    {
+      "id": "src_sibelius_style",
+      "kind": "biography",
+      "title": "Sibelius website at sibelius.klubi.fi, three pages read in full: 'Stylistic development: main tendencies', 'Development of popularity' and 'Importance in the 21st century' (about 3,300 words together; unsigned commemorative biography site, admiring in tone but it also records the critical campaign against him). Covers the study years in Berlin and Vienna, the reworking of En Saga and the violin concerto into more concentrated versions, the Fifth Symphony (first performed 8 December 1915, revised 1916, not final until 1919), the one-movement Seventh Symphony and Tapiola, the 1930s partisans (Gray, Downes) and the later reaction (Adorno, Thomson, Leibowitz), and later influence on British, American, Finnish and French composers.",
+      "url": "https://sibelius.klubi.fi/english/musiikki/js_saveltajana_04.html"
+    },
+    {
+      "id": "src_sibelius_amscholar",
+      "kind": "press",
+      "title": "Sudip Bose, 'The Sound of Silence: Jean Sibelius and the symphony that never was', The American Scholar (Phi Beta Kappa), 29 February 2016 (read in full, about 2,900 words). Essay on the lost Eighth Symphony: the long correspondence with Koussevitzky and Olin Downes, the repeated postponements 1930-1932, the burning of a basket of manuscripts in the 1940s, Mahler's reported dismissal of him as a purveyor of Scandinavian kitsch, and the claim that critics saw his language as old-fashioned. Remarks on his moods, diaries and drinking were read and are not used.",
+      "url": "https://theamericanscholar.org/the-sound-of-silence/"
+    },
+    {
+      "id": "src_sibelius_larb",
+      "kind": "press",
+      "title": "Los Angeles Review of Books, review of Theodor Adorno, 'Orpheus in the Underworld: Essays on Music and Its Mediation' (2024), opening passage read (the section on Adorno's essay 'Strictures on Sibelius'; the rest of the long review is about Adorno). CRITICAL / COUNTER-VOICE: quotes Adorno's 1938 verdict that attempting something new with old and decayed means is absurd and that nothing is expressed, notes Virgil Thomson's reaction, and says the tone did not stop the canonization of Sibelius.",
+      "url": "https://lareviewofbooks.org/article/theodor-adorno-orpheus-underworld-music-criticism-sibelius-stravinsky"
+    },
+    {
+      "id": "src_sibelius_csm",
+      "kind": "press",
+      "title": "The Christian Science Monitor, 'Our own landscapes' (2 February 1981; an opinion column on how critics disagree about Sibelius; read in full, about 1,700 words). CRITICAL / COUNTER-VOICE and reception: quotes David Ewen (1937) praising the symphonies, Virgil Thomson (1940-41) calling the Second Symphony 'vulgar, self-indulgent and provincial', and Harold Schonberg (1970) saying many professionals after the Second World War found him a dated bore. The author's personal recollections are not used.",
+      "url": "https://www.csmonitor.com/1981/0202/020216.html"
+    },
+    {
+      "id": "src_sibelius_whe",
+      "kind": "biography",
+      "title": "Mark Cartwright, 'Jean Sibelius', World History Encyclopedia, 8 June 2023 (read in full, about 1,600 words). Biographical overview: studies in Helsinki, Berlin and Vienna, the Kalevala-inspired Kullervo (1892), Finlandia revised in 1900 ('always something of a tinkerer'), the seven symphonies from 1899 to 1924, the Eighth Symphony said to have been destroyed in dissatisfaction, and no new published work in the last thirty years of his life; the composer described the symphony as requiring a 'severity of form and the profound logic' connecting all the motifs. Passages on drinking, debts, health and marriage were read and are not used.",
+      "url": "https://www.worldhistory.org/Jean_Sibelius/"
+    },
+    {
+      "id": "src_sibelius_finna",
+      "kind": "archive",
+      "title": "Sibelius Museum archive (Sibelius-museon arkisto, Turku), Finna record sibelius.35F0F57B0A494426B695B501E1EB562B, 'Jean Sibelius', photograph by Daniel Nyblin, 1900, signed and dated by the sitter, CC BY 4.0 (record read live through the Finna API; used for the portrait only, not for any trait row).",
+      "url": "https://www.finna.fi/Record/sibelius.35F0F57B0A494426B695B501E1EB562B"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sibelius_war_eighth, src_sibelius_style, src_sibelius_amscholar, src_sibelius_whe, src_sibelius_brit | 1900-1945 | biography site + essay + reference] Several separate documented instances: he reworked En Saga and the violin concerto into more concentrated versions, the Fifth Symphony was performed in 1915, revised in 1916 and not final until 1919, Finlandia was revised in 1900, and in the 1940s a basket of manuscripts was burned at Ainola, with his widow's testimony and the 1945 remark that he had 'completed' the eighth symphony many times and burnt it once; he told Olin Downes that it was important to get things precisely right before anyone saw a page. World History Encyclopedia says he destroyed the Eighth through dissatisfaction, but the American Scholar says why he did it remains perplexing, so the motive is inferred rather than documented; the lack of finished late works is the cost side of the trait (dual-edged). RUBRIC_CORRECTION (lead review, before eligibility): perfectionism lowered from 76 / 0.66 to 72 / 0.58 because the burning of the Eighth Symphony is documented but its motive is inferred and most of the supporting sources are an admiring biography site and essays that narrate the legend."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sibelius_brit, src_sibelius_style, src_sibelius_amscholar, src_sibelius_larb, src_sibelius_csm | 1892-1926 | reference + biography site + press with critical voices] Britannica places the secret of his genius in an unusual capacity for organic growth and mastery of form; the biography site says the Fourth Symphony (1911) was unparalleled in its concentration and modernity for its year, that the Seventh is a one-movement symphony in which the content generates the form, that the Fifth entailed a reconstruction of symphonic form, and that later composers (British, American, Finnish and French spectral composers) took up his ideas. The originality claim is contested: Adorno (1938) said nothing was expressed and Thomson and others dismissed him, so the evidence is genuinely divided and mostly retrospective praise. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 80 / 0.64 to 78 / 0.60 because the supporting assessments are retrospective and from admiring reference or society sources, while the critical camp disputes the originality. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.6 to 72 / 0.54 because the originality praise is retrospective and the critical camp (Adorno, Thomson, Schonberg) disputes it, so a high confidence is not supported."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sibelius_style, src_sibelius_amscholar, src_sibelius_war_eighth | 1915-1945 | biography site + essay] The Fifth Symphony took from 1915 to 1919 to reach the form he accepted; the Eighth was worked on across the late 1920s to the 1940s, with statements in 1943 and February 1945 that he still had a great work in the making, and the American Scholar describes 'a turbulent artistic struggle' over several years; the biography site says the drafts were burned 'after years of toil'. He did not complete the late work, so the evidence shows long effort rather than a result, and the span of the effort is partly reconstructed from his own remarks."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sibelius_style, src_sibelius_amscholar, src_sibelius_csm | 1891-1950s | biography site + essay + press] The biography site says that in Vienna his teacher Fuchs found his draft 'barbaric and brutal' and that Sibelius, by his own letter, nevertheless believed in a new Finnish music; it says he wrote symphonies in a genre then regarded as old-fashioned and did not join the expressionist, classical-revival or impressionist movements he drew on; the American Scholar and the Monitor column record that he kept to a tonal language while the Second Viennese School and later serialism became the critical fashion, and that his music was often panned. The position is documented, but his motives are only partly documented and the main stated reasons come from his own letters."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sibelius_brit, src_sibelius_style, src_sibelius_whe | 1885-1926 | reference + biography site + encyclopedia] After leaving law studies he trained in Helsinki under Wegelius and in Berlin (1889-90, where the biography site says he concentrated on improving his compositional technique) and Vienna (1890-91, with Goldmark and Fuchs), and a letter of April 1891 says he now had control over the orchestra; the symphonies from 1899 to 1924 are described as a continuing reconstruction of symphonic form, and he described the symphony as demanding a severity of form and profound logic. Training and technical development are well documented; independent assessment of how he approached learning beyond his formative years is thin."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "장 시벨리우스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jean-sibelius-nyblin-1900.jpg",
+    "width": 869,
+    "height": 1200,
+    "source": "Studio portrait photograph of Jean Sibelius, half-length, with a cigarette, signed and dated '1900' by the sitter, by the photographer Daniel Nyblin (1856-1923); Sibelius Museum archive (Sibelius-museon arkisto, Turku), photograph collection item SmF8990, 23.8 x 17.8 cm, Finna record sibelius.35F0F57B0A494426B695B501E1EB562B, digitised and published by the archive under CC BY 4.0 (creator credited as photographer, role 'valokuvaaja'). Rights basis: the live Finna record states CC BY 4.0 and asks for credit to the photographer, the collection and the organisation; independent of that licence, the photographer died in 1923 (Wikidata Q6019293 lists 1856-1923), so a studio photograph made in 1900 is in the public domain in Finland and in the United States by age, and the sitter's autograph and the archive's own title confirm the identity. The archive's conditions add that use of portraits of persons in marketing is not permitted without the sitter's consent (the sitter died in 1957) and ask that a copy of any print publication be sent to the museum. Original file as served by Finna in the 'large' size is 869 x 1200 pixels (the archive holds a higher-resolution original; no upscaling or cropping, file used as served).",
+    "license": "CC BY 4.0 (Sibelius Museum archive); photograph also in the public domain by age (photographer died 1923)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Daniel Nyblin, 1900, Sibelius-museon arkisto (Sibelius Museum archive), via Finna, CC BY 4.0",
+    "attributionUrl": "https://www.finna.fi/Record/sibelius.35F0F57B0A494426B695B501E1EB562B",
+    "creator": "Daniel Nyblin (1856-1923)",
+    "date": "1900",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.finna.fi/Record/sibelius.35F0F57B0A494426B695B501E1EB562B"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED, with a replacement image from the same archive: the lead named Paul Heckscher 1890 via YLE; I used a different photograph from the same Finna/Sibelius Museum collection (Daniel Nyblin, 1900, signed and dated by the sitter), which carries the live CC BY 4.0 statement and a photographer who died in 1923. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q45682 label 'Jean Sibelius', description 'Finnish composer (1865-1957)', born 1865-12-08, died 1957-09-20; no production (prod62.txt) or candidate slug/QID collision. REGION western_europe (Finland; precedent alvar-aalto). ERA 20th_century (symphonies 1899-1924, Tapiola 1926; precedent claude-debussy). ZERO POLITICS: Finlandia's nationalist context, the Winter and Continuation War material, and the Nazi-era Sibelius Society are not scored. VOCABULARY: occupation composer; field music; tags perfectionist, innovator; archetype creative_creator; impact domains artistic, cultural (all present in en.ts and ko.ts). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Jean Sibelius' (https://www.britannica.com/biography/Jean-Sibelius), read in full. READ (substantively): Britannica; sibelius.klubi.fi pages on the destruction of the Eighth, stylistic development, popularity and 21st-century importance; The American Scholar essay; LARB review (Adorno section); Christian Science Monitor column; World History Encyclopedia. PERSPECTIVES: reference encyclopedia, commemorative biography site (admiring), long-form essay, critical reception (Adorno, Thomson, Schonberg via two press pieces), general-audience encyclopedia. COUNTER-VOICES: the LARB and Monitor pieces report the hostile critical camp; the site itself narrates the reaction. NOT OPENED: Tawaststjerna's biography, the Sibelius Companion and Sibelius Studies, his diaries and letters (known only through the pages read), Finnish National Biography, Grove, Kansallisbiografia (not retrieved), Sydney Symphony and LSO pages (404), Wikipedia (not used). SELF-REPORT SEPARATION: his letters and remarks to Downes are reported through the pages above; they are treated as self-report and no row rests on them alone. EXCLUSIONS (hard rule): drinking, debts, throat illness, depression or misanthropy language in the American Scholar, family, marriage and the late-life silence as a mental or medical matter are not used and no trait is inferred from them. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (80/0.64 lowered to 78/0.60), perfectionism (kept: several independent documented revisions, though the motive for the burning is inferred), persistence (kept at 64/0.54, already modest). HANDBACK62: {\"slug\": \"jean-sibelius\", \"portrait_preflight_grade\": \"STRONG (alt-dependent)\", \"initial_lead\": \"Paul Heckscher 1890 via YLE\", \"final_portrait_source\": \"Sibelius Museum archive (Sibelius-museon arkisto) via Finna, photograph by Daniel Nyblin 1900, record sibelius.35F0F57B0A494426B695B501E1EB562B, https://www.finna.fi/Record/sibelius.35F0F57B0A494426B695B501E1EB562B\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 80, \"old_confidence\": 0.64, \"new_score\": 78, \"new_confidence\": 0.60, \"reason\": \"supporting assessments are retrospective and from admiring reference or society sources while the critical camp disputes the originality\"}], \"reviewed_kept\": [\"perfectionism\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5} RUBRIC_CORRECTION (lead review, before eligibility): perfectionism lowered from 76 / 0.66 to 72 / 0.58 because the burning of the Eighth Symphony is documented but its motive is inferred and most of the supporting sources are an admiring biography site and essays that narrate the legend. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.6 to 72 / 0.54 because the originality praise is retrospective and the critical camp (Adorno, Thomson, Schonberg) disputes it, so a high confidence is not supported."
+  }
+}
