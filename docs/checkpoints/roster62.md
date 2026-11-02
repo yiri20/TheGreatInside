@@ -432,4 +432,16 @@ and Li Qingzhao needs a high-resolution Wuxi Museum reproduction.
 
 ## Post-commit scoring lock
 
-(To be filled in by the docs-only follow-up commit after the implementation commit.)
+Run after implementation commit `1b530ce` (literal output):
+
+```
+Checked 847 previously-committed candidate file(s) against HEAD. 0 flagged.
+This is a warning tool, not a hard gate -- review flags by hand, per the A/B/C/D policy.
+
+Legacy scoring lock: 22 pre-pipeline production people covered, 0 flagged.
+```
+
+Committed candidate JSON count 847 = on-disk candidate JSON count 847 = checked count 847;
+candidate flags 0; legacy checked 22, legacy flags 0. The working tree was clean after the
+implementation commit. No code, data, editorial, portrait or index change followed the final
+build and the final focused Playwright run; this follow-up commit is documentation only.
