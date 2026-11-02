@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "miruts-yifter",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Miruts Yifter",
+    "aliases": [
+      "Yifter the Shifter",
+      "Muruse Yefter"
+    ],
+    "wikidataId": "Q225913",
+    "birthYear": 1944,
+    "deathYear": 2016,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "ET"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yifter_wikidata",
+      "kind": "wikidata",
+      "title": "Miruts Yifter (Q225913), verified live via the Wikidata API (2026-11-01): label 'Miruts Yifter', description 'Ethiopian long distance runner', born 1944-05-15, died 2016-12-22, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q225913"
+    },
+    {
+      "id": "src_yifter_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Miruts Yifter' athlete biography and results, read in full: his talent was noticed after he joined the Ethiopian Air Force (following factory work and carriage driving); 1972 Munich 10,000 m bronze and a missed 5,000 m after arriving late; the 1976 boycott; 1980 Moscow 5,000 m and 10,000 m gold; 1973 All-African Games 10,000 m gold and 5,000 m silver; both distances at the 1979 African Championships; Ethiopia's team gold at the 1982 and 1983 cross-country championships; later emigration to Canada and coaching; birth date 15 May 1944 from his passport, with 1938 also seen and an age-dispute listing. CANONICAL SIGNIFICANCE SOURCE: the standard Olympic results archive. Concise and factual.",
+      "url": "https://www.olympedia.org/athletes/67440"
+    },
+    {
+      "id": "src_yifter_aw",
+      "kind": "press",
+      "title": "Jason Henderson, 'Winner of Moscow Olympics distance double passes away', Athletics Weekly (23 December 2016, updated 2025), read in full: obituary with the Moscow 10,000 m (27:42.69, final 200 m in 26.8) and 5,000 m (13:20.91, final 200 m in 27.2, a teammate stepping aside on the back straight), the 300 m kick, his 1971 United States v Africa matches, the 1972 Munich bronze and the unexplained missed 5,000 m heat, four World Cup wins, a 62:57 half-marathon best in 1977, team cross-country golds and his later coaching, and that his birth year is reported anywhere from 1938 to 1944. Independent athletics press; a tribute, so favourable.",
+      "url": "https://athleticsweekly.com/news/miruts-yifter-the-shifter-dies-54795/"
+    },
+    {
+      "id": "src_yifter_ramsak",
+      "kind": "press",
+      "title": "Bob Ramsak, 'Miruts Yifter, Moscow double winner and one of Ethiopia's greatest athletes, has died' (IAAF tribute, December 2016, republished on RunBlogRun), read in full: results including the 1977 and 1979 World Cup doubles, his habit of surging and slowing to confuse opponents, practising a move with 300 m to go, Haile Gebrselassie's tribute, and his coaching in Ethiopia and Canada. The page also carries a separate unsourced commentary about his treatment after 1972 and his age, which was not used. Written by a friend and long-time federation writer, so admiring.",
+      "url": "https://runblogrun.com/2016/12/miruts-yifter-moscow-double-winner-one-of-ethiopias-greatest-athletes-has-died-by-bob-ramsak-for-iaa.html"
+    },
+    {
+      "id": "src_yifter_wa2004",
+      "kind": "institution",
+      "title": "Elshadai Negash, 'Miruts Yifter - Bekele reminds me of myself', IAAF (World Athletics), 14 August 2004, read in full: an interview with Yifter at the Ethiopian team base before the Athens Games, in which he describes practising the 300 m kick for Moscow and watching rivals until five laps remained, rejects rumours of drug use, and talks about coaching. Self-report in his own words, relayed by the federation's writer; the claims about his jailing and defection in it were not used.",
+      "url": "https://worldathletics.org/news/news/miruts-yifter-bekele-reminds-me-of-myself"
+    },
+    {
+      "id": "src_yifter_johnson",
+      "kind": "press",
+      "title": "Len Johnson, 'The day I beat Yifter', Runner's Tribe (13 January 2017), read in full: a rival-runner's column by a former Melbourne Age athletics writer who raced Yifter at a Finnish half-marathon; describes how Yifter held his kick until the last 300 m at Moscow, his 1979 World Cup 10,000 m win by 40-50 m after sitting behind Craig Virgin, the 1981 World Cross Country race in which he sprinted a lap early, a list of rivals beaten by his finish, and that his birth year is uncertain. Independent first-person observer; anecdotal and affectionate but not fawning.",
+      "url": "https://runnerstribe.com/len-johnson-articles/the-day-i-beat-yifter/"
+    },
+    {
+      "id": "src_yifter_virgin",
+      "kind": "press",
+      "title": "Jeff Benjamin, 'Craig Virgin reflects on Miruts Yifter', RunBlogRun (January 2017), read in full: American distance runner Craig Virgin, who raced Yifter in the 1979 World Cup, says he coined the nickname 'Yifter the Shifter', that rivals felt no tactic could stop him, and that the 1980 boycott kept the two from meeting at Moscow. A rival's retrospective praise in a short interview piece; no race detail.",
+      "url": "https://www.runblogrun.com/?p=11683"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yifter_aw, src_yifter_ramsak, src_yifter_johnson, src_yifter_wa2004 | 1979-1980 | athletics press + federation tribute + rival's column + interview] Athletics Weekly and the IAAF tribute both report that he practised launching his sprint with 300 m to go and watched rivals until five laps remained; Len Johnson, a runner who watched and raced him, says he held the kick until the last 300 m in both Moscow finals and used a similar sit-and-sprint pattern in the 1979 World Cup 10,000 m. A rehearsed race plan is documented in outline, but the account of the rehearsal is his own (relayed by two federation writers) and the other sources retell the same finishing pattern, so it is one behaviour seen in several outcomes."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yifter_olympedia, src_yifter_aw, src_yifter_ramsak | 1971-1983 | results archive + athletics press + federation tribute] Olympedia and Athletics Weekly place him at a 1971 United States v Africa meeting, the 1972 Munich 10,000 m bronze, the 1973 All-African Games, World Cup 5,000 m or 10,000 m wins in the late 1970s, the 1980 Moscow double and team cross-country golds in 1982 and 1983; the sources say Ethiopia's 1976 Olympic boycott kept him from Montreal and that he went on to win the 1977 and 1979 World Cup doubles. Racing at the top for more than a decade with an Olympic title at an uncertain age (1938-1944 birth years are reported) is documented by an independent archive and press, but the sources record results rather than training behaviour, hence moderate confidence. His reported imprisonment after 1972 and his later departure from Ethiopia come from his own account or unsourced commentary and were deliberately not used."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yifter_ramsak, src_yifter_virgin, src_yifter_johnson | 1979-1981 | federation tribute + rival interview + rival's column] The IAAF tribute says he surged and slowed to confuse opponents, Craig Virgin says rivals felt no tactic could stop him because he adapted to whatever was tried, and Johnson describes him sitting behind Virgin before outsprinting him in 1979. Changing pace to suit the race is described by several people, but all of it is retrospective praise from a friendly writer and two rivals rather than a race-by-race record. SELF-CALIBRATION (agent): lowered from 60 / 0.48 because it rests on retrospective rival and tribute summaries with no race-level observation of him changing a plan."
+    },
+    "risk_tolerance": {
+      "score": 56,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yifter_aw, src_yifter_johnson | 1971, 1981 | athletics press + rival's column] Athletics Weekly reports that at a 1971 meeting in North Carolina he started his sprint a lap early against Steve Prefontaine, and Johnson says he sprinted a lap early again at the 1981 World Cross Country Championships and finished fifteenth after moving from fifth. Committing to a long sprint is documented twice with a costly result at least once, so dual-edged; the two sources give brief accounts, neither explains his reasoning, and Johnson's version of 1981 is partly unclear."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "미루츠 이프테르"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) / CONFIRMED with caveats: Commons file 'RIAN archive 585168 5,000m race.jpg' (RIA Novosti archive image 585168, photographer Valeriy Shustov, taken 1 August 1980 at the Moscow Olympic 5,000 m, 35 mm negative, original 1024 x 676) carries the Commons RIAN-license tag: 'provided to Wikimedia Commons by RIA Novosti as part of a cooperation project', licensed CC BY-SA 3.0 with the attribution line 'RIA Novosti archive, image #585168 / Valeriy Shustov / CC-BY-SA 3.0'; Commons:RIA Novosti documents the 2011-09-14 donation of 100 1980-Olympics photos by the agency itself under CC BY-SA 3.0 (the agency later ended the cooperation, and its visualrian.ru gallery could not be checked). The rights holder is the agency, not an uploader. Identification: the RIA caption on the photo names the three foreground runners by bib (191 Miruts Yifter, Ethiopia; 649 Suleiman Nyambui; 208 Kaarlo Maaninka), the bib 191 is legible on the vest, and an unrelated Romanian Olympic Committee photo on Commons also lists 'Miruts Yifter (191)' at the Moscow 10,000 m. This is a race photograph, not a studio portrait: it was cropped by this project to the runner wearing 191 (source region x 190-400, y 130-430), giving 210 x 300 px, never upscaled; other runners are partly visible at the edges. Kind is likeness because it documents Yifter himself, identified by caption and bib. The only other Commons candidate, 'Miruts-Yifter-1972.jpg' (Helsingin Sanomat, Antero Raevuori, tagged PD-Finland50 for a 1972 photograph), was rejected: a 1972 photograph was still protected in Finland in 1996, so the Finland-only tag does not establish a US public-domain basis. Resolution is low (210 x 300).\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-11-01) for Q225913 returned en label 'Miruts Yifter', description 'Ethiopian long distance runner', born 1944-05-15, died 2016-12-22, ko label present. SLUG/QID CHECK: not in prod62.txt and no existing candidate file. Region sub_saharan_africa (Ethiopia, as for the other Ethiopian runners). Zero-politics passes: primary identity is athletics; the 1976 boycott is mentioned only as why he missed Montreal, and his reported imprisonment, defection and any political context are unscored. Birth year 1944 is the passport date; Olympedia and others note it is unknown (1938 also reported), so no age-based trait was scored.\nCANONICAL SIGNIFICANCE SOURCE: Olympedia, 'Miruts Yifter' https://www.olympedia.org/athletes/67440 (read in full).\nSOURCES READ (6 substantive): Olympedia, Athletics Weekly obituary (Henderson 2016), IAAF tribute (Ramsak 2016 via RunBlogRun), IAAF 2004 interview (Negash), Len Johnson's rival column (2017), Craig Virgin reflection (Benjamin 2017); Wikidata orientation only. PERSPECTIVES: results archive, athletics trade press, federation writers (friendly), a rival runner-journalist, a rival champion. Non-self behavioural source: Johnson's observation of his racing and Athletics Weekly's race detail. COUNTER-VOICE: none critical; the age dispute (Olympedia) and the rumours he denies in the 2004 interview were not scored. This is why confidence stays <= 0.55 and no score exceeds 66. NOT OPENED: the IOC article 'A runner shrouded in mystery' (timed out twice), Britannica (often blocked and not attempted), World Athletics profile page, the Reporter Ethiopia and Ethiopian Business Review pieces, Wikipedia. Excluded: his reported jailing after Munich (source-conflicting, politically framed and from his own account), defection and residence history (inconsistent dates between sources), the doping rumour (denied in his own interview; no evidence either way), and illness and death details. Four rows only; sparse because the sources record results and tactics, not conduct in training or toward others.\nSELECTIVE SELF-CALIBRATION: reviewed adaptability (lowered 60/0.48 to 56/0.44: retrospective praise by a rival and a tribute writer, no race-level observation), persistence (kept: independent archive and press document the span of results) and planning_orientation (kept: Johnson's observations of the Moscow finals corroborate the self-described plan). Initial rows 4; lowered 1.\nHANDBACK62: {\"slug\":\"miruts-yifter\",\"portrait_preflight_grade\":\"PLAUSIBLE (lead-robust)\",\"initial_lead\":\"RIA Novosti archive photo, 1980 (CC BY-SA 3.0)\",\"final_portrait_source\":\"RIA Novosti archive image #585168, photographer Valeriy Shustov, 1 August 1980, CC BY-SA 3.0 via Wikimedia Commons https://commons.wikimedia.org/wiki/File:RIAN_archive_585168_5,000m_race.jpg (cropped to bib 191)\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":4,\"self_calibrated_rows\":[{\"attribute\":\"adaptability\",\"old_score\":60,\"old_confidence\":0.48,\"new_score\":56,\"new_confidence\":0.44,\"reason\":\"rests on retrospective praise by a rival and a tribute writer with no race-level observation of him changing a plan\"}],\"reviewed_kept\":[\"persistence\",\"planning_orientation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":4}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/miruts-yifter-shustov-1980.jpg",
+    "width": 210,
+    "height": 300,
+    "source": "Wikimedia Commons file 'RIAN archive 585168 5,000m race.jpg': RIA Novosti archive photograph by Valeriy Shustov of the 5,000 m race at the Moscow Olympics, 1 August 1980, in which the caption identifies the runner wearing bib 191 as Miruts Yifter; original 1024 x 676 pixels, cropped by this project to the runner wearing 191 (210 x 300 pixels), never enlarged",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photo: Valeriy Shustov, RIA Novosti archive, image #585168, 1 August 1980, CC BY-SA 3.0, cropped from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_585168_5,000m_race.jpg",
+    "creator": "Valeriy Shustov (RIA Novosti)",
+    "date": "1980-08-01",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_585168_5,000m_race.jpg"
+  }
+}

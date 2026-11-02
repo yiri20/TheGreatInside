@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mencius",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mencius",
+    "aliases": [
+      "Mengzi",
+      "Meng Ke",
+      "Meng Tzu",
+      "Master Meng"
+    ],
+    "wikidataId": "Q188903",
+    "birthYear": -372,
+    "deathYear": -289,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mencius_wikidata",
+      "kind": "wikidata",
+      "title": "Mencius (Q188903), verified live via the Wikidata API (2026-11-01): label 'Mencius', description 'Chinese Confucian philosopher (372-289 BC)', birth 372 BC and death 289 BC (year precision), Korean label 맹자, image the Yuan-dynasty album leaf at the National Palace Museum. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q188903"
+    },
+    {
+      "id": "src_mencius_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Mencius' (Bryan Van Norden), life and Confucian background, opponents and later-influence sections read. CANONICAL SIGNIFICANCE SOURCE: a Confucian philosopher of the fourth century BCE called the 'Second Sage', best known for the claim that human nature is good; our main access is the Mencius, a collection of his dialogues, debates and sayings probably compiled by his disciples or their disciples and edited by Zhao Qi in the second century CE; he called himself a follower of Confucius yet urged reading the classics critically ('better not to have the Documents than to believe everything in it', 7B3); he argued against Yang Zhu's egoism and Mozi's impartial caring, with a swift reductio against a rival definition of nature (6A3) and the child-at-the-well thought experiment (2A6); he was criticised by Zhuangzi and by Xunzi, who attacks him by name; later Neo-Confucians elevated him and Zhu Xi grouped the Mencius with the Great Learning, the Analects and the Mean as the Four Books, whose interpretations became the civil-service orthodoxy. Scholarly reference; its praise of influence is retrospective.",
+      "url": "https://plato.stanford.edu/entries/mencius/"
+    },
+    {
+      "id": "src_mencius_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Mencius (Mengzi)' (Warring States Confucian philosopher, c. 372-289 BCE), history, text and interpreters sections read: the historical Mencius is available only through the text bearing his name, which most scholars think was assembled by Mencius and his immediate disciples shortly after his death; the biography in Sima Qian's Shiji says he came from Zou and is said (doubted by most modern scholars) to have studied with Confucius's grandson Zisi; his office in Qi was probably honorary; he gathered a circle of disciples; his philosophical concerns show consistency unusual in early Chinese writing; in the Gaozi dialogue (6A) he answers Gaozi's wood and water analogies for human nature 'in Socratic fashion'; Xunzi rejects his view of nature as originally good. Independent scholarly reference.",
+      "url": "https://iep.utm.edu/mencius/"
+    },
+    {
+      "id": "src_mencius_shiji",
+      "kind": "archive",
+      "title": "Sima Qian, 'Records of the Grand Historian', chapter 74, 'Biographies of Mencius and Xunqing' (Chinese Wikisource, original Chinese read): the Mencius paragraph says he was from Zou, received instruction from Zisi's disciples, travelled to serve King Xuan of Qi and then Liang, and that the rulers found his talk of the virtue of Yao, Shun and the Three Dynasties remote from affairs and did not use it; he then withdrew and, with Wan Zhang and others, set in order the Odes and Documents, set out the ideas of Zhongni (Confucius) and made seven chapters of the Mencius. Written about two centuries after his death; the nearest surviving independent biography; brief and partly dismissive.",
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7074"
+    },
+    {
+      "id": "src_mencius_mengzi",
+      "kind": "archive",
+      "title": "The Mencius (Mengzi), Chinese original on Wikisource, passages read in books 2A (knowing words, nourishing the vital force, the child at the well), 3B (3B1, 3B2, 3B9 on why he opposes the schools of Yang Zhu and Mozi, 3B10) and 7A (7A20, the three joys of the exemplary person, the third being to gain the gifted of the world and educate them); the text records his teaching, debates and sayings and is a compilation by his disciples, so it is treated as self or near-self report. Used only for what he is recorded as arguing and doing in disputes and teaching, never for doctrine presented as legend, and never as sole support for a row.",
+      "url": "https://zh.wikisource.org/wiki/%E5%AD%9F%E5%AD%90/%E6%BB%95%E6%96%87%E5%85%AC%E4%B8%8B"
+    },
+    {
+      "id": "src_mencius_xunzi",
+      "kind": "archive",
+      "title": "Xunzi, 'Human Nature Is Bad' (chapter 23) and 'Against the Twelve Masters' (chapter 6), Chinese original on Wikisource, the passages naming Mencius read: Xunzi quotes Mencius's claim that human nature is good and answers 'this is not so', arguing that goodness comes from deliberate effort; in chapter 6 he says Zisi led and Mencius followed in setting out an old scheme of 'five conducts' that the vulgar Confucians took on trust, and blames both. The hostile fellow-Confucian counter-voice, written within about a century of Mencius.",
+      "url": "https://zh.wikisource.org/wiki/%E8%8D%80%E5%AD%90/%E6%80%A7%E6%83%A1%E7%AF%87"
+    },
+    {
+      "id": "src_mencius_whe",
+      "kind": "biography",
+      "title": "World History Encyclopedia, 'Mencius' (Joshua J. Mark, 2020), read: a Confucian philosopher of the Warring States period regarded as the greatest after Confucius for interpreting and spreading Confucian ideas, whose central claim was basic human goodness; he taught his own school and counselled rulers, and the Mencius was composed by his students. Popular reference; its anecdotes about his mother and the funeral are legend or late tradition and are NOT scored.",
+      "url": "https://www.worldhistory.org/Mencius/"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mencius_sep, src_mencius_mengzi, src_mencius_iep | c.330-300 BCE | scholarly reference, disciples' compilation (near-self report)] The SEP says he called himself a follower of Confucius yet urged reading the classics 'creatively and critically' ('it would be better not to have the Documents than to believe everything in it', 7B3, read only through the SEP), and that his claim that human nature is good was his reply to the two rival doctrines of Yang Zhu and Mozi; in the text itself (3B9, read) he explains that he opposes both because their doctrines fill the world, and the IEP finds a consistency of concerns unusual in early Chinese philosophical writing. The row is limited to this documented intellectual stance. Xunzi says he and Zisi only repeated an old scheme and called it ancient, and Sima Qian describes his doctrine as remote from affairs, so independence is read as a documented critical stance and not as proven originality; the evidence is a disciples' compilation read through modern interpreters. His advice to rulers is NOT scored. SELF-CALIBRATION (agent): top-risk row; lowered from 64 / 0.48 to 60 / 0.42 because Xunzi charges that he only echoed Zisi and Sima Qian calls his doctrine remote from affairs, while the independence claim rests on a disciples' compilation read through modern interpreters."
+    },
+    "analytical_rigor": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mencius_sep, src_mencius_iep, src_mencius_mengzi | c.330-300 BCE | scholarly reference, disciples' compilation (near-self report)] The SEP describes him as 'an incisive critic of other philosophers', citing a quick reductio against a definition of nature as being alive (6A3, via the SEP) and an analogy against a price-fixing doctrine (3A4, via the SEP); the IEP says he answers Gaozi's wood and water analogies point by point 'in Socratic fashion'; in the text (2A2, read) he states tests for faulty speech (biased words show what they hide, extravagant words show where they fall, and so on) and uses the farmer who pulled up his sprouts to show what forcing growth does. The cases were chosen and written down by his disciples, the SEP notes that Mencius and Xunzi speak at cross-purposes about 'nature', and Xunzi and Zhuangzi reject the argument, so the row is moderate and confidence is low."
+    },
+    "mastery_orientation": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mencius_shiji, src_mencius_mengzi, src_mencius_iep | c.330-289 BCE | Han historian, disciples' compilation (near-self report), scholarly reference] Sima Qian says that after the rulers did not use his teaching he withdrew and, with Wan Zhang and other disciples, set in order the Odes and Documents, set out the ideas of Confucius and made seven chapters; the text (7A20, read) has him count 'to gain the gifted of the world and educate them' as the third joy of the exemplary person, and (2A2, read) he holds up Confucius's 'learning without satiety, teaching without weariness' as the model he admires; the IEP describes a circle of disciples. The statements of purpose are his own (or his disciples') and Sima Qian wrote two centuries later, so the row is limited to documented teaching and textual work and confidence is low. The funeral anecdote and the stories of his mother are legend and not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "맹자"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mencius-anonymous-yuan-dynasty.jpg",
+    "width": 804,
+    "height": 1084,
+    "source": "Leaf for Meng Ke (孟軻) from the album 'Half Portraits of the Great Sage and Virtuous Men of Old', anonymous, Yuan dynasty (after 1330), ink and colours on paper, 33.3 x 24.3 cm, National Palace Museum, Taipei (object number 中畫000329N000000003). The leaf's inscription reads 鄒國亞聖公 (Duke of Zou, Second Sage) with the name 孟軻 (Meng Ke), and the museum's catalogue entry names the sitter. It is a conventional portrait made more than 1,600 years after Mencius died, not a likeness from life. The file is a crop of the leaf (museum colour card and mount edge removed) from the museum's own image service, downscaled from about 1580 x 2130 source pixels to 804 x 1084 with no upscaling.",
+    "license": "CC0 (the museum's open-data declaration for images up to about 1 million pixels; the painting is also public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous (Yuan dynasty), Half Portraits of the Great Sage and Virtuous Men of Old, leaf for Meng Ke. The National Palace Museum, Taipei, open data (CC0 low-resolution tier; cropped and downscaled)",
+    "attributionUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/18015?dep=P",
+    "creator": "Anonymous (Yuan dynasty)",
+    "date": "Yuan dynasty (after 1330)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/18015?dep=P"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED, LEAD USED. The lead image is leaf 5 of the Yuan-dynasty album 'Half Portraits of the Great Sage and Virtuous Men of Old' (至聖先賢半身像 冊) at the National Palace Museum, Taipei. LIVE NPM item page opened: https://digitalarchive.npm.gov.tw/Collection/Detail/18015?dep=P is the item record 'Half Portraits of the Great Sage and Virtuous Men of Old, album, Meng Ke (孟軻)', object number 中畫000329N000000003, one leaf 33.3 x 24.3 cm, paper; the leaf's own inscription (read from the museum record and visible on the image) is 鄒國亞聖公 (Duke of Zou, Second Sage) with the name 孟軻 (Meng Ke) beneath it, and the album record lists the leaf as number 005 among the album's leaves, so the sitter is identified by the holder and by the inscription, not by a Commons tag. TERMS: the page's 'usage' panel and the museum's open-data declaration (digitalarchive.npm.gov.tw/opendata, opened) say low-resolution images (about 1 million pixels) are released under CC0 with no attribution needed and mid-resolution images (about 6 million pixels) and the site text under CC BY 4.0 with attribution 'The National Palace Museum, Taipei, CC BY 4.0 @ www.npm.gov.tw', excluding patent and trademark rights; the exhibition site theme.npm.edu.tw carries a generic 'Copyright National Palace Museum' footer, which is the site-wide notice for that exhibition web page text, and I treated the item-level open-data declaration as the controlling statement for the image. The painting is an anonymous album leaf made after 1330 (NPM exhibit text), so it is public domain by age and the museum has waived rights in the digital image tiers above. The museum's download buttons sit behind a captcha, which I did not use; instead I took the image from the museum's own published IIIF image service (the museum's public manifest at digitalarchive.npm.gov.tw/Integrate/GetJson?cid=18015&dept=P names the service, and the declaration says users may view the images online through IIIF; no captcha was solved or bypassed, and the lead may prefer to have a human re-download from the item page for the strictest reading), requesting a crop of the leaf (the museum's colour card and mount edge removed) of 1580 x 2130 source pixels downscaled to 804 x 1084 (about 0.87 million pixels, the CC0 low-resolution tier), saved as public/portraits/mencius-anonymous-yuan-dynasty.jpg. No upscaling. Commons has the same leaf as File 'Half Portraits of the Great Sage and Virtuous Men of Old - Meng Ke' (1178 x 1595, PD-Art-100, creator 'Anonymous', date Yuan dynasty, description 'depicts Meng Ke'); I read its wikitext as a cross-check only and relied on the museum page for the terms. CAVEAT: the Commons page's category list carries unrelated tags (Mozi, Shen Dao, Shen Kuo), which were ignored; the dating 'Yuan dynasty, after 1330' is the museum's. kind historical_depiction: the leaf is a later (roughly 1,600 years after the sitter) conventional likeness of a sage and not a likeness taken from life. PREFLIGHT: QID VERIFIED LIVE (2026-11-01, Wikidata API) Q188903 label 'Mencius', description 'Chinese Confucian philosopher (372-289 BC)', Korean label 맹자, birth 372 BC and death 289 BC (year precision), occupations include philosopher; not in prod62.txt and no candidate file existed for mencius, no other file contains Q188903. REGION east_asia (Wang Yangming and other Chinese precedents); ERA ancient; nationality CN following Chinese precedents although he came from the small state of Zou. ZERO POLITICS: the primary identity is a Confucian philosopher and teacher; his advice to rulers, his theory of the Mandate of Heaven and his time in the courts of Qi and Liang are not scored, and the achievement cards state the philosophical contribution only. VOCABULARY: occupations philosopher and teacher, fields philosophy and education, impactDomains cultural, educational and historical, tags mentor and philosopher, archetype scholarly_specialist, all present in en.ts and ko.ts. KO NAME: Wikidata Korean label 맹자 (also the standard Korean Wikipedia title). CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Mencius' (https://plato.stanford.edu/entries/mencius/). READ: (1) SEP, full page fetched, sections on life and Confucian background, on his opponents (Yang Zhu, Mozi, Gaozi-style debates) and on later influence read line by line, the virtue-cultivation and human-nature sections only skimmed; (2) IEP 'Mencius (Mengzi)', fetched in full, the history-of-the-text, interpreters and Gaozi sections read; (3) Sima Qian, Records of the Grand Historian ch. 74, the Mencius paragraph and preface, from Chinese Wikisource (original Chinese read, no translation used); (4) the Mencius itself (Chinese Wikisource): books 2A (including 2A2 on knowing words and cultivating qi, and 2A6), 3B (3B1, 3B2, 3B9, 3B10) and the passage 7A20 read; books 1A and 6A were fetched but not read through; treated as a compilation by his disciples and so as self or near-self report; (5) Xunzi, 'Human Nature Is Bad' (ch. 23) and 'Against Twelve Masters' (ch. 6), from Chinese Wikisource, the passages naming Mencius read, as the counter-voice; (6) World History Encyclopedia, 'Mencius' (Joshua J. Mark), popular reference, read; its anecdotes about his mother and funeral are late legend and unscored. Six substantive sources plus Wikidata. PERSPECTIVES: modern scholarly reference (SEP, IEP), Han-dynasty historiography (Sima Qian, about two centuries after his death), disciples' compilation (self or near-self), a hostile fellow Confucian (Xunzi), popular reference. COUNTER-VOICES AND LIMITS: Xunzi says Mencius's claim that human nature is good is wrong and that he and Zisi only borrowed old sayings and called them the 'five conducts'; Sima Qian says the rulers found his doctrine remote from affairs; SEP notes that Zhuangzi implicitly criticised him and that Mencius and Xunzi speak at cross-purposes. NOT OPENED: Britannica (HTTP 403 to the fetch tool), the Chinese Text Project (anti-scraping notice, deliberately not used), Encyclopedia.com (404), Zhao Qi's preface and commentary (Han), Zhu Xi's commentary, the Zhuangzi passages, and monograph scholarship (Van Norden, Shun, Graham). LEGEND VERSUS SCHOLARSHIP: the three moves of his mother, the cut cloth, the lavish funeral anecdote, his supposed study under Zisi himself (IEP says most modern scholars doubt it) are not used or scored. SPARSE PROFILE for an ancient subject: 3 rows, scores 54-60, confidence 0.40-0.42; the text of the Mencius is a disciples' compilation, so every row is self or near-self report cross-read against scholars and Sima Qian. SELF-CALIBRATION (agent): top-risk rows reviewed: independent_thinking (64/0.48 lowered to 60/0.42, see below), analytical_rigor (kept), mastery_orientation (kept). HANDBACK62: {\"slug\": \"mencius\", \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"initial_lead\": \"Yuan 'Half Portraits of the Great Sage and Virtuous Men' (National Palace Museum)\", \"final_portrait_source\": \"National Palace Museum, Taipei / anonymous Yuan-dynasty album leaf 'Half Portraits of the Great Sage and Virtuous Men of Old', leaf for Meng Ke (item 18015, object no. 中畫000329N000000003) https://digitalarchive.npm.gov.tw/Collection/Detail/18015?dep=P ; image taken from the museum's own IIIF service (canvas C2A000329N000000003PAB), cropped and downscaled to 804x1084\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 3, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 64, \"old_confidence\": 0.48, \"new_score\": 60, \"new_confidence\": 0.42, \"reason\": \"Xunzi charges that he only echoed Zisi and Sima Qian calls his doctrine remote from affairs, while the independence claim rests on a disciples' compilation read through modern interpreters\"}], \"reviewed_kept\": [\"analytical_rigor\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "g-w-f-hegel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Georg Wilhelm Friedrich Hegel",
+    "aliases": [
+      "G. W. F. Hegel",
+      "Georg Hegel",
+      "Hegel"
+    ],
+    "wikidataId": "Q9235",
+    "birthYear": 1770,
+    "deathYear": 1831,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hegel_wikidata",
+      "kind": "wikidata",
+      "title": "Georg Wilhelm Friedrich Hegel (Q9235), verified live via the Wikidata API (2026-11-01): label 'Georg Wilhelm Friedrich Hegel', description 'German philosopher and theologian (1770-1831)', born 27 August 1770, died 14 November 1831, citizenship Germany, Korean label 게오르크 빌헬름 프리드리히 헤겔, image the Schlesinger 1831 portrait. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9235"
+    },
+    {
+      "id": "src_hegel_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Georg Wilhelm Friedrich Hegel', section 1 'Life, Work, and Influence' read in full and the lists of his published works. CANONICAL SIGNIFICANCE SOURCE: tutor in Bern and Frankfurt, to Jena in 1801 where he published his first philosophical work and edited the Critical Journal of Philosophy with Schelling, the Phenomenology of Spirit completed in 1806 and published 1807, then newspaper editor in Bamberg and headmaster and philosophy teacher of a Nuremberg gymnasium 1808-1815 where he wrote the Science of Logic, a chair at Heidelberg in 1816, the Encyclopaedia of the Philosophical Sciences in 1817, the Berlin chair from 1818, the Elements of the Philosophy of Right in 1821, celebrity in Berlin until 1831; the lectures on history, religion, aesthetics and the history of philosophy were posthumously assembled by editors from his notes and student transcripts; after his death his followers split into left, centre and right, Marx and (through Schelling's critique) Kierkegaard reacted to him, and British analytic philosophy was founded partly in reaction. Scholarly institutional reference; the accounts of influence are retrospective.",
+      "url": "https://plato.stanford.edu/entries/hegel/"
+    },
+    {
+      "id": "src_hegel_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Georg Wilhelm Friedrich Hegel' (T. Malcolm Knox), read only as far as the open part: the summary, the introduction and the early-life section up to his Frankfurt years; the rest sits behind the subscription wall and was not opened. Open text: Hegel is called the last of the great philosophical system builders of modern times and the pinnacle of classical German philosophy; list of posts (tutor 1793-1801, Jena 1801-07, newspaper editor, gymnasium rector 1808-16, professor at Heidelberg 1816-18 and Berlin 1818-31); the Tuebingen certificate said he was vigorous in philosophy and intermittent in theology and he was said to be poor in oral exposition; in Bern he read widely in history, politics and the classics, and studied Kant. Partial read.",
+      "url": "https://www.britannica.com/biography/Georg-Wilhelm-Friedrich-Hegel"
+    },
+    {
+      "id": "src_hegel_pinkard",
+      "kind": "biography",
+      "title": "Terry Pinkard, 'Hegel, Georg Wilhelm Friedrich', Encyclopedia of Modern Europe: Europe 1789-1914 (via Encyclopedia.com), read in full (about 2,000 words). Written by Hegel's English-language biographer, so a sympathetic scholarly voice. Reports: unable to find a university post after the Phenomenology, the Bamberg editorship, success in rebuilding a once-great Nuremberg gymnasium as its director, a chair at Heidelberg in 1816 and Berlin in 1818, the Philosophy of Right of 1821 and its misreading as an apology for repression, a large audience of students and Berliners at his lectures, travels to Holland, Vienna and Paris, his role in the 1824 release of the French philosopher Victor Cousin, quarrels with liberals and with Schleiermacher, and the quick breakup of his school after 1831. Private-life detail in the entry is not used.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/hegel-georg-wilhelm-friedrich-0"
+    },
+    {
+      "id": "src_hegel_nce",
+      "kind": "biography",
+      "title": "New Catholic Encyclopedia, 'Hegel, Georg Wilhelm Friedrich' (via Encyclopedia.com), read in full: a Catholic theological reference that gives the life and works, summarises the dialectic against Kant, Fichte and Schelling, the Phenomenology, the Logic and the system, and ends with an 'Evaluation and Critique' which calls him a unique systematiser of German idealism and perhaps the greatest systematic philosopher of modern times while arguing that the dialectic was one-sided, that Schelling objected it provides no principle of deduction, and that his spiritual monism is hard to read as other than pantheistic. Independent and critical perspective (the counter-voice).",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hegel-georg-wilhelm-friedrich"
+    },
+    {
+      "id": "src_hegel_iess",
+      "kind": "biography",
+      "title": "George Lichtheim, 'Hegel, Georg Wilhelm Friedrich', International Encyclopedia of the Social Sciences (via Encyclopedia.com), first half read (life, works, the Philosophy of History and Philosophy of Right): the post-Kantian philosopher of history; posts at Jena, the Nuremberg rectorship 1808-16, Heidelberg and Berlin; at Berlin his courses attracted students from all over Germany and the posthumously published lectures spread his fame; his school dissolved into liberal and conservative factions after 1831; his utterances were open to rival readings and not 'totalitarian'. The political-philosophy sections are not used. Independent scholarly voice.",
+      "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/hegel-georg-wilhelm-friedrich"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hegel_sep, src_hegel_nce, src_hegel_britannica, src_hegel_iess | 1801-1831 | scholarly reference entries, theological reference, biographer] The SEP and the Catholic encyclopedia describe a single scheme in which the Phenomenology, the Science of Logic and the Encyclopaedia of the Philosophical Sciences (logic, then nature, then spirit) were built as one system, Lichtheim says the Encyclopaedia carried out a plan for a logic, a philosophy of nature and a philosophy of spirit that he had stated in 1801, and Britannica calls him the last of the great system builders of modern times. Even the Catholic critic, who thinks the dialectic one-sided, calls him the unique systematiser of German idealism. The system is his own writing and the praise is retrospective, and the works' meaning is still disputed (SEP), so confidence is held at the pre-modern ceiling."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hegel_sep, src_hegel_nce, src_hegel_pinkard | 1801-1821 | scholarly reference entries, theological reference, biographer] The Catholic encyclopedia says he introduced dialectical principles that 'went far beyond Schelling from the start', and the SEP says the Phenomenology marked a break from his earlier Schelling-like approach; Pinkard credits him with a historicised account of art, religion and philosophy that proved influential. The same Catholic entry reports Schelling's objection that the dialectic offers no real principle of deduction, and the SEP notes he was long seen as a follower of Schelling, so the originality claim rests on his own works and retrospective assessment. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.48 to 62 / 0.44 because the claim rests on retrospective praise and his own books, and the strongest independent voice in the file disputes the dialectic's productivity."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hegel_britannica, src_hegel_sep, src_hegel_pinkard | 1788-1801 | scholarly reference entries, biographer] Britannica reports that his Tuebingen certificate recorded vigorous work in philosophy and intermittent work in theology, and that as a tutor in Bern with a good library he read Gibbon, Montesquieu, the classics and Kant and later studied economics and politics; the SEP says he developed his ideas on religious and social themes until about 1800 before turning to the Kantian problems. The evidence is the course of his study as summarised by later writers, with no direct testimony on how he worked, so it is only an inference."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hegel_pinkard, src_hegel_sep, src_hegel_nce | 1807-1818 | biographer, scholarly reference, theological reference] Pinkard says that despite the success of the Phenomenology he could not obtain a university job, and the SEP and the Catholic encyclopedia show him working as a newspaper editor in Bamberg and then as director of a Nuremberg gymnasium from 1808 to 1816 while he wrote and published the Science of Logic, before he returned to a university chair at Heidelberg in 1816 and moved to Berlin in 1818. The documented sequence shows continued writing through nine years outside a university, but the sources give no inner account, so the claim stays inferential."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hegel_britannica, src_hegel_sep, src_hegel_pinkard | 1790-1821 | scholarly reference entries, biographer] Britannica says that at Tuebingen he was impatient with the orthodoxy of his teachers, the SEP records that his Phenomenology ended his friendship with Schelling after a pointed criticism in its preface, and Pinkard says his views on religion were controversial in his own day and that he kept quarrelling with the liberal reformers and with Schleiermacher. These show positions held against prevailing schools, but the sources report them in summary and Pinkard is a sympathetic biographer, so confidence is low. His politics is not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "헤겔"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/g-w-f-hegel-schlesinger-1831.jpg",
+    "width": 952,
+    "height": 1200,
+    "source": "Portrait of the 61-year-old Hegel in oil on canvas (36 x 28.8 cm) by Jakob Schlesinger (1792-1855), dated 1831, the year Hegel died; Staatliche Museen zu Berlin, Alte Nationalgalerie, inventory A I 556, purchased 1897. The museum's catalogue page identifies the sitter as Hegel at age 61 and the painter as a conservator at the Berlin museums who may have met Hegel through the museum director Gustav Friedrich Waagen; it does not say in so many words that Hegel sat for it, so the image is recorded as a contemporary depiction rather than a documented sitting. Photograph credited to Andres Kilger and marked Public Domain Mark 1.0. The file is the museum's original 1654 x 2085 image downscaled to 952 x 1200 with no upscaling.",
+    "license": "Public Domain Mark 1.0 (painting by Jakob Schlesinger, died 1855; photograph marked Public Domain Mark 1.0 by the Staatliche Museen zu Berlin)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Jakob Schlesinger, Georg Wilhelm Friedrich Hegel, 1831, oil on canvas, Staatliche Museen zu Berlin, Alte Nationalgalerie, A I 556; photo: Andres Kilger, Public Domain Mark 1.0",
+    "attributionUrl": "https://search.smb.museum/object/obj-963803",
+    "creator": "Jakob Schlesinger (1792-1855)",
+    "date": "1831",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://search.smb.museum/object/obj-963803"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED, SAME PAINTING FROM THE ORIGINAL HOLDER (lead image, better source). The lead named a Schlesinger 1831 'lithograph' at the SMB; the SMB item (opened live, https://search.smb.museum/object/obj-963803) is in fact the oil painting A I 556 in the Alte Nationalgalerie, the same image as the Commons file and Wikidata image; I used the SMB's own original rather than the Commons copy and did not need the Rijksmuseum print or the Sebbers drawing. RIGHTS BASIS: the live SMB page states 'Fotonachweis: Staatliche Museen zu Berlin, Alte Nationalgalerie / Andres Kilger Public Domain Mark 1.0' at item level and names no other licence or usage restriction (the page footer carries the generic copyright line 'c 2026 Staatliche Museen zu Berlin'; the Datenschutz and Impressum pages were not opened); the painter died in 1855, so the underlying work is public domain by age independently of the mark. The Commons page (raw wikitext read) only adds a generic PD-old-100 tag and cites this same SMB record, so it was not relied on. SITTER: the museum text calls it a portrait of the 61-year-old Hegel made in 1831; it does not state that Hegel sat for it and says only that Schlesinger could have met Hegel through Waagen, so kind historical_depiction was chosen conservatively (a strict reading of 'documented sitting'); the lead may upgrade it to likeness if desired. DIMENSIONS: SMB original 1654 x 2085, saved downscaled 952 x 1200, no upscaling. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q9235 label 'Georg Wilhelm Friedrich Hegel', description 'German philosopher and theologian (1770-1831)', born 1770-08-27, died 1831-11-14; not in prod62.txt and no candidate file existed for slug g-w-f-hegel. REGION western_europe following immanuel-kant and friedrich-nietzsche (Germany is mixed in the repo; western_europe is the majority). ERA 19th_century following Beethoven (born 1770). ZERO POLITICS: primary identity is a philosopher and professor; the Philosophy of Right, his state theory, his newspaper editing under Napoleon, the 1824 Cousin episode and his political reputation are not scored or carded. VOCABULARY: occupations philosopher and teacher, fields philosophy and education, impactDomains historical and educational, tag systematic_thinker, archetype scholarly_specialist, all used by immanuel-kant/plato and labelled in en.ts. KO NAME: Wikidata Korean label is the full 게오르크 빌헬름 프리드리히 헤겔; the common Korean Wikipedia and textbook short form 헤겔 is used for display. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Georg Wilhelm Friedrich Hegel' (https://plato.stanford.edu/entries/hegel/), with the Britannica open summary. READ: SEP section 1, Britannica (open part only), Pinkard's entry, the New Catholic Encyclopedia entry, Lichtheim's IESS entry (first half): five substantive sources plus Wikidata. PERSPECTIVES: scholarly reference (SEP, Britannica), his English-language biographer (Pinkard), a Catholic theological critic (NCE), a social-science reference (Lichtheim). COUNTER-VOICES AND LIMITS: NCE argues the dialectic is one-sided, reports Schelling's objection and calls his monism pantheistic; SEP and Pinkard report that his political writing was read as an apology for repression and that his school split and faded within years of his death; Britannica says he was reportedly poor in oral exposition, while Pinkard says hundreds came to hear him, so teaching skill is not scored. NOT OPENED: the rest of Britannica (paywall), IEP (the page returned only a stub), Pinkard's full biography, letters, Hegel's own works and student transcripts of the lectures (the SEP says the Berlin lecture texts were assembled by editors from notes and student transcripts), the World Eras entry (not used). LEGEND VERSUS SCHOLARSHIP: the popular thesis-antithesis-synthesis triad (repeated in a popular reference I read but did not use) is not used for any row. PRIVATE LIFE: marriage, the illegitimate son, health and the cause of death are in the sources and deliberately not used. VERY SPARSE PROFILE: five rows, none above 70, confidence 0.42-0.52; the lectures, a nominal rectorship of Berlin in 1829-30 mentioned only in a search snippet, and his Heidelberg editing were not scored. SELF-CALIBRATION (agent): top-risk rows reviewed: systems_abstraction (kept at 70/0.52: the single-system structure is described consistently by four independent entries, including the critic), creative_originality (66/0.48 lowered to 62/0.44, see the row), mastery_orientation (kept). HANDBACK62: {\"slug\": \"g-w-f-hegel\", \"portrait_preflight_grade\": \"STRONG (alt-dependent)\", \"initial_lead\": \"Schlesinger 1831 lithograph (SMB, Alte Nationalgalerie)\", \"final_portrait_source\": \"Staatliche Museen zu Berlin, Alte Nationalgalerie / Jakob Schlesinger, oil painting A I 556, 1831, photo Andres Kilger, Public Domain Mark 1.0, https://search.smb.museum/object/obj-963803\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 66, \"old_confidence\": 0.48, \"new_score\": 62, \"new_confidence\": 0.44, \"reason\": \"the claim rests on retrospective praise and his own books, and the strongest independent voice disputes the dialectic's productivity\"}], \"reviewed_kept\": [\"systems_abstraction\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

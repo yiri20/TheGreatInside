@@ -13092,4 +13092,353 @@ export const PERSON_EDITORIAL: Record<string, PersonEditorial> = {
       { id: "viswanathan-anand-turning-point-1", textKey: "viswanathan-anand.turning_point.1", interpretationKey: "viswanathan-anand.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_anand_kavalek", "src_anand_fide2014", "src_anand_cb_final"] },
     ],
   },
+  "annie-smith-peck": {
+    achievements: [
+      { id: "annie-smith-peck-achievement-1", textKey: "annie-smith-peck.achievement.1", sourceIds: ["src_peck_aac", "src_peck_gale", "src_peck_pbs", "src_peck_ewb", "src_peck_aacdoc"] },
+      { id: "annie-smith-peck-achievement-2", textKey: "annie-smith-peck.achievement.2", sourceIds: ["src_peck_aac", "src_peck_ewb", "src_peck_pbs", "src_peck_gale"] },
+      { id: "annie-smith-peck-achievement-3", textKey: "annie-smith-peck.achievement.3", sourceIds: ["src_peck_aac", "src_peck_ewb", "src_peck_gale", "src_peck_bklyn"] },
+    ],
+    moments: [
+      { id: "annie-smith-peck-moment-1", textKey: "annie-smith-peck.moment.1", interpretationKey: "annie-smith-peck.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_peck_gale", "src_peck_aac", "src_peck_pbs"] },
+      { id: "annie-smith-peck-moment-2", textKey: "annie-smith-peck.moment.2", interpretationKey: "annie-smith-peck.interpretation.moment.2", attributeId: "conflict_tolerance", sourceIds: ["src_peck_aacdoc"] },
+    ],
+    turningPoints: [
+      { id: "annie-smith-peck-turning-point-1", textKey: "annie-smith-peck.turning_point.1", interpretationKey: "annie-smith-peck.interpretation.turning_point.1", attributeId: "autonomy_need", sourceIds: ["src_peck_bklyn", "src_peck_aac", "src_peck_gale"] },
+    ],
+  },
+  "christiaan-huygens": {
+    achievements: [
+      { id: "christiaan-huygens-achievement-1", textKey: "christiaan-huygens.achievement.1", sourceIds: ["src_huygens_britannica", "src_huygens_mactutor", "src_huygens_ebsco"] },
+      { id: "christiaan-huygens-achievement-2", textKey: "christiaan-huygens.achievement.2", sourceIds: ["src_huygens_mactutor", "src_huygens_ebsco", "src_huygens_whe"] },
+      { id: "christiaan-huygens-achievement-3", textKey: "christiaan-huygens.achievement.3", sourceIds: ["src_huygens_mactutor", "src_huygens_britannica", "src_huygens_dsb"] },
+    ],
+    moments: [
+      { id: "christiaan-huygens-moment-1", textKey: "christiaan-huygens.moment.1", interpretationKey: "christiaan-huygens.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_huygens_whe", "src_huygens_ebsco", "src_huygens_mactutor"] },
+      { id: "christiaan-huygens-moment-2", textKey: "christiaan-huygens.moment.2", interpretationKey: "christiaan-huygens.interpretation.moment.2", attributeId: "analytical_rigor", sourceIds: ["src_huygens_mactutor", "src_huygens_dsb", "src_huygens_treatise"] },
+    ],
+    turningPoints: [
+      { id: "christiaan-huygens-turning-point-1", textKey: "christiaan-huygens.turning_point.1", interpretationKey: "christiaan-huygens.interpretation.turning_point.1", attributeId: "experimentation", sourceIds: ["src_huygens_dsb", "src_huygens_mactutor"] },
+    ],
+  },
+  "diego-velazquez": {
+    achievements: [
+      { id: "diego-velazquez-achievement-1", textKey: "diego-velazquez.achievement.1", sourceIds: ["src_velaz_ng", "src_velaz_bm", "src_velaz_uv"] },
+      { id: "diego-velazquez-achievement-2", textKey: "diego-velazquez.achievement.2", sourceIds: ["src_velaz_bm", "src_velaz_eclectic"] },
+      { id: "diego-velazquez-achievement-3", textKey: "diego-velazquez.achievement.3", sourceIds: ["src_velaz_ng", "src_velaz_bm"] },
+    ],
+    moments: [
+      { id: "diego-velazquez-moment-1", textKey: "diego-velazquez.moment.1", interpretationKey: "diego-velazquez.interpretation.moment.1", attributeId: "creative_originality", sourceIds: ["src_velaz_ng"] },
+      { id: "diego-velazquez-moment-2", textKey: "diego-velazquez.moment.2", interpretationKey: "diego-velazquez.interpretation.moment.2", attributeId: "achievement_drive", sourceIds: ["src_velaz_uv", "src_velaz_ng"] },
+    ],
+    turningPoints: [
+      { id: "diego-velazquez-turning-point-1", textKey: "diego-velazquez.turning_point.1", interpretationKey: "diego-velazquez.interpretation.turning_point.1", attributeId: "mastery_orientation", sourceIds: ["src_velaz_ng", "src_velaz_uv"] },
+    ],
+  },
+  "emilie-du-chatelet": {
+    achievements: [
+      { id: "emilie-du-chatelet-achievement-1", textKey: "emilie-du-chatelet.achievement.1", sourceIds: ["src_chatelet_sep", "src_chatelet_mactutor", "src_chatelet_jstor"] },
+      { id: "emilie-du-chatelet-achievement-2", textKey: "emilie-du-chatelet.achievement.2", sourceIds: ["src_chatelet_sep", "src_chatelet_hutton", "src_chatelet_blackburn"] },
+      { id: "emilie-du-chatelet-achievement-3", textKey: "emilie-du-chatelet.achievement.3", sourceIds: ["src_chatelet_sep", "src_chatelet_mactutor"] },
+    ],
+    moments: [
+      { id: "emilie-du-chatelet-moment-1", textKey: "emilie-du-chatelet.moment.1", interpretationKey: "emilie-du-chatelet.interpretation.moment.1", attributeId: "mastery_orientation", sourceIds: ["src_chatelet_mactutor"] },
+      { id: "emilie-du-chatelet-moment-2", textKey: "emilie-du-chatelet.moment.2", interpretationKey: "emilie-du-chatelet.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_chatelet_sep", "src_chatelet_blackburn"] },
+    ],
+    turningPoints: [
+      { id: "emilie-du-chatelet-turning-point-1", textKey: "emilie-du-chatelet.turning_point.1", interpretationKey: "emilie-du-chatelet.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_chatelet_mactutor", "src_chatelet_sep"] },
+    ],
+  },
+  "eusebio": {
+    achievements: [
+      { id: "eusebio-achievement-1", textKey: "eusebio.achievement.1", sourceIds: ["src_eus_uefa", "src_eus_uefapres", "src_eus_nyt", "src_eus_fourfourtwo"] },
+      { id: "eusebio-achievement-2", textKey: "eusebio.achievement.2", sourceIds: ["src_eus_nyt", "src_eus_espn", "src_eus_fourfourtwo", "src_eus_aljazeera"] },
+      { id: "eusebio-achievement-3", textKey: "eusebio.achievement.3", sourceIds: ["src_eus_uefa", "src_eus_nyt", "src_eus_benfica"] },
+    ],
+    moments: [
+      { id: "eusebio-moment-1", textKey: "eusebio.moment.1", interpretationKey: "eusebio.interpretation.moment.1", attributeId: "competitiveness", sourceIds: ["src_eus_nyt", "src_eus_espn", "src_eus_aljazeera"] },
+      { id: "eusebio-moment-2", textKey: "eusebio.moment.2", interpretationKey: "eusebio.interpretation.moment.2", attributeId: "collaboration", sourceIds: ["src_eus_aljazeera", "src_eus_benfica"] },
+    ],
+    turningPoints: [
+      { id: "eusebio-turning-point-1", textKey: "eusebio.turning_point.1", interpretationKey: "eusebio.interpretation.turning_point.1", attributeId: "competitiveness", sourceIds: ["src_eus_uefa", "src_eus_uefapres"] },
+    ],
+  },
+  "g-w-f-hegel": {
+    achievements: [
+      { id: "g-w-f-hegel-achievement-1", textKey: "g-w-f-hegel.achievement.1", sourceIds: ["src_hegel_sep", "src_hegel_britannica", "src_hegel_nce"] },
+      { id: "g-w-f-hegel-achievement-2", textKey: "g-w-f-hegel.achievement.2", sourceIds: ["src_hegel_sep", "src_hegel_pinkard", "src_hegel_iess"] },
+      { id: "g-w-f-hegel-achievement-3", textKey: "g-w-f-hegel.achievement.3", sourceIds: ["src_hegel_sep", "src_hegel_britannica", "src_hegel_iess"] },
+    ],
+    moments: [
+      { id: "g-w-f-hegel-moment-1", textKey: "g-w-f-hegel.moment.1", interpretationKey: "g-w-f-hegel.interpretation.moment.1", attributeId: "systems_abstraction", sourceIds: ["src_hegel_iess", "src_hegel_sep"] },
+      { id: "g-w-f-hegel-moment-2", textKey: "g-w-f-hegel.moment.2", interpretationKey: "g-w-f-hegel.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_hegel_sep", "src_hegel_nce", "src_hegel_pinkard"] },
+    ],
+    turningPoints: [
+      { id: "g-w-f-hegel-turning-point-1", textKey: "g-w-f-hegel.turning_point.1", interpretationKey: "g-w-f-hegel.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_hegel_pinkard", "src_hegel_sep"] },
+    ],
+  },
+  "gerard-mercator": {
+    achievements: [
+      { id: "gerard-mercator-achievement-1", textKey: "gerard-mercator.achievement.1", sourceIds: ["src_mercator_britannica", "src_mercator_dsb", "src_mercator_ebsco", "src_mercator_lindahall"] },
+      { id: "gerard-mercator-achievement-2", textKey: "gerard-mercator.achievement.2", sourceIds: ["src_mercator_britannica", "src_mercator_dsb"] },
+      { id: "gerard-mercator-achievement-3", textKey: "gerard-mercator.achievement.3", sourceIds: ["src_mercator_britannica", "src_mercator_dsb", "src_mercator_the"] },
+    ],
+    moments: [
+      { id: "gerard-mercator-moment-1", textKey: "gerard-mercator.moment.1", interpretationKey: "gerard-mercator.interpretation.moment.1", attributeId: "mastery_orientation", sourceIds: ["src_mercator_britannica", "src_mercator_dsb"] },
+      { id: "gerard-mercator-moment-2", textKey: "gerard-mercator.moment.2", interpretationKey: "gerard-mercator.interpretation.moment.2", attributeId: "cross_domain_range", sourceIds: ["src_mercator_britannica"] },
+    ],
+    turningPoints: [
+      { id: "gerard-mercator-turning-point-1", textKey: "gerard-mercator.turning_point.1", interpretationKey: "gerard-mercator.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_mercator_britannica", "src_mercator_dsb"] },
+    ],
+  },
+  "hicham-el-guerrouj": {
+    achievements: [
+      { id: "hicham-el-guerrouj-achievement-1", textKey: "hicham-el-guerrouj.achievement.1", sourceIds: ["src_guerrouj_olympedia", "src_guerrouj_final1500", "src_guerrouj_dailystar"] },
+      { id: "hicham-el-guerrouj-achievement-2", textKey: "hicham-el-guerrouj.achievement.2", sourceIds: ["src_guerrouj_olympedia", "src_guerrouj_arabnews"] },
+      { id: "hicham-el-guerrouj-achievement-3", textKey: "hicham-el-guerrouj.achievement.3", sourceIds: ["src_guerrouj_olympedia", "src_guerrouj_turnbull"] },
+    ],
+    moments: [
+      { id: "hicham-el-guerrouj-moment-1", textKey: "hicham-el-guerrouj.moment.1", interpretationKey: "hicham-el-guerrouj.interpretation.moment.1", attributeId: "planning_orientation", sourceIds: ["src_guerrouj_brown"] },
+      { id: "hicham-el-guerrouj-moment-2", textKey: "hicham-el-guerrouj.moment.2", interpretationKey: "hicham-el-guerrouj.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_guerrouj_brown", "src_guerrouj_olympedia"] },
+    ],
+    turningPoints: [
+      { id: "hicham-el-guerrouj-turning-point-1", textKey: "hicham-el-guerrouj.turning_point.1", interpretationKey: "hicham-el-guerrouj.interpretation.turning_point.1", attributeId: "planning_orientation", sourceIds: ["src_guerrouj_brown", "src_guerrouj_olympedia"] },
+    ],
+  },
+  "higuchi-ichiyo": {
+    achievements: [
+      { id: "higuchi-ichiyo-achievement-1", textKey: "higuchi-ichiyo.achievement.1", sourceIds: ["src_higuchi_brit", "src_higuchi_ndl", "src_higuchi_nippon", "src_higuchi_museum"] },
+      { id: "higuchi-ichiyo-achievement-2", textKey: "higuchi-ichiyo.achievement.2", sourceIds: ["src_higuchi_ndl", "src_higuchi_brit", "src_higuchi_nippon", "src_higuchi_mn"] },
+      { id: "higuchi-ichiyo-achievement-3", textKey: "higuchi-ichiyo.achievement.3", sourceIds: ["src_higuchi_brit", "src_higuchi_nippon", "src_higuchi_tw"] },
+    ],
+    moments: [
+      { id: "higuchi-ichiyo-moment-1", textKey: "higuchi-ichiyo.moment.1", interpretationKey: "higuchi-ichiyo.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_higuchi_brit"] },
+      { id: "higuchi-ichiyo-moment-2", textKey: "higuchi-ichiyo.moment.2", interpretationKey: "higuchi-ichiyo.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_higuchi_nippon", "src_higuchi_tw", "src_higuchi_museum"] },
+    ],
+    turningPoints: [
+      { id: "higuchi-ichiyo-turning-point-1", textKey: "higuchi-ichiyo.turning_point.1", interpretationKey: "higuchi-ichiyo.interpretation.turning_point.1", attributeId: "creative_originality", sourceIds: ["src_higuchi_nippon", "src_higuchi_museum", "src_higuchi_tw"] },
+    ],
+  },
+  "jamsetji-tata": {
+    achievements: [
+      { id: "jamsetji-tata-achievement-1", textKey: "jamsetji-tata.achievement.1", sourceIds: ["src_jtata_ewb", "src_jtata_wacha", "src_jtata_empress"] },
+      { id: "jamsetji-tata-achievement-2", textKey: "jamsetji-tata.achievement.2", sourceIds: ["src_jtata_ewb", "src_jtata_tribune"] },
+      { id: "jamsetji-tata-achievement-3", textKey: "jamsetji-tata.achievement.3", sourceIds: ["src_jtata_iischeritage", "src_jtata_iisc", "src_jtata_ewb"] },
+    ],
+    moments: [
+      { id: "jamsetji-tata-moment-1", textKey: "jamsetji-tata.moment.1", interpretationKey: "jamsetji-tata.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_jtata_empress"] },
+      { id: "jamsetji-tata-moment-2", textKey: "jamsetji-tata.moment.2", interpretationKey: "jamsetji-tata.interpretation.moment.2", attributeId: "impact_motivation", sourceIds: ["src_jtata_iischeritage", "src_jtata_iisc"] },
+    ],
+    turningPoints: [
+      { id: "jamsetji-tata-turning-point-1", textKey: "jamsetji-tata.turning_point.1", interpretationKey: "jamsetji-tata.interpretation.turning_point.1", attributeId: "opportunity_sensing", sourceIds: ["src_jtata_empress", "src_jtata_ewb"] },
+    ],
+  },
+  "jan-amos-comenius": {
+    achievements: [
+      { id: "jan-amos-comenius-achievement-1", textKey: "jan-amos-comenius.achievement.1", sourceIds: ["src_comenius_britannica", "src_comenius_ewb", "src_comenius_piaget"] },
+      { id: "jan-amos-comenius-achievement-2", textKey: "jan-amos-comenius.achievement.2", sourceIds: ["src_comenius_britannica", "src_comenius_buffalo"] },
+      { id: "jan-amos-comenius-achievement-3", textKey: "jan-amos-comenius.achievement.3", sourceIds: ["src_comenius_britannica", "src_comenius_piaget"] },
+    ],
+    moments: [
+      { id: "jan-amos-comenius-moment-1", textKey: "jan-amos-comenius.moment.1", interpretationKey: "jan-amos-comenius.interpretation.moment.1", attributeId: "adaptability", sourceIds: ["src_comenius_britannica", "src_comenius_piaget"] },
+    ],
+    turningPoints: [
+      { id: "jan-amos-comenius-turning-point-1", textKey: "jan-amos-comenius.turning_point.1", interpretationKey: "jan-amos-comenius.interpretation.turning_point.1", attributeId: "impact_motivation", sourceIds: ["src_comenius_ewb", "src_comenius_piaget", "src_comenius_britannica"] },
+    ],
+  },
+  "jean-sibelius": {
+    achievements: [
+      { id: "jean-sibelius-achievement-1", textKey: "jean-sibelius.achievement.1", sourceIds: ["src_sibelius_brit", "src_sibelius_style", "src_sibelius_whe"] },
+      { id: "jean-sibelius-achievement-2", textKey: "jean-sibelius.achievement.2", sourceIds: ["src_sibelius_brit", "src_sibelius_whe", "src_sibelius_style"] },
+      { id: "jean-sibelius-achievement-3", textKey: "jean-sibelius.achievement.3", sourceIds: ["src_sibelius_brit", "src_sibelius_style", "src_sibelius_larb"] },
+    ],
+    moments: [
+      { id: "jean-sibelius-moment-1", textKey: "jean-sibelius.moment.1", interpretationKey: "jean-sibelius.interpretation.moment.1", attributeId: "perfectionism", sourceIds: ["src_sibelius_war_eighth", "src_sibelius_amscholar"] },
+      { id: "jean-sibelius-moment-2", textKey: "jean-sibelius.moment.2", interpretationKey: "jean-sibelius.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_sibelius_style"] },
+    ],
+    turningPoints: [
+      { id: "jean-sibelius-turning-point-1", textKey: "jean-sibelius.turning_point.1", interpretationKey: "jean-sibelius.interpretation.turning_point.1", attributeId: "mastery_orientation", sourceIds: ["src_sibelius_brit", "src_sibelius_style"] },
+    ],
+  },
+  "jokichi-takamine": {
+    achievements: [
+      { id: "jokichi-takamine-achievement-1", textKey: "jokichi-takamine.achievement.1", sourceIds: ["src_takamine_shi", "src_takamine_ishida", "src_takamine_jpo"] },
+      { id: "jokichi-takamine-achievement-2", textKey: "jokichi-takamine.achievement.2", sourceIds: ["src_takamine_shi", "src_takamine_ishida", "src_takamine_jpo"] },
+      { id: "jokichi-takamine-achievement-3", textKey: "jokichi-takamine.achievement.3", sourceIds: ["src_takamine_shi", "src_takamine_ishida", "src_takamine_daiichi"] },
+    ],
+    moments: [
+      { id: "jokichi-takamine-moment-1", textKey: "jokichi-takamine.moment.1", interpretationKey: "jokichi-takamine.interpretation.moment.1", attributeId: "resourcefulness", sourceIds: ["src_takamine_shi", "src_takamine_ishida"] },
+      { id: "jokichi-takamine-moment-2", textKey: "jokichi-takamine.moment.2", interpretationKey: "jokichi-takamine.interpretation.moment.2", attributeId: "collaboration", sourceIds: ["src_takamine_shi", "src_takamine_ishida"] },
+    ],
+    turningPoints: [
+      { id: "jokichi-takamine-turning-point-1", textKey: "jokichi-takamine.turning_point.1", interpretationKey: "jokichi-takamine.interpretation.turning_point.1", attributeId: "risk_tolerance", sourceIds: ["src_takamine_shi", "src_takamine_ishida"] },
+    ],
+  },
+  "jose-clemente-orozco": {
+    achievements: [
+      { id: "jose-clemente-orozco-achievement-1", textKey: "jose-clemente-orozco.achievement.1", sourceIds: ["src_orozco_britannica", "src_orozco_pbs"] },
+      { id: "jose-clemente-orozco-achievement-2", textKey: "jose-clemente-orozco.achievement.2", sourceIds: ["src_orozco_unesco", "src_orozco_pbs"] },
+      { id: "jose-clemente-orozco-achievement-3", textKey: "jose-clemente-orozco.achievement.3", sourceIds: ["src_orozco_nps", "src_orozco_britannica", "src_orozco_time1930"] },
+    ],
+    moments: [
+      { id: "jose-clemente-orozco-moment-1", textKey: "jose-clemente-orozco.moment.1", interpretationKey: "jose-clemente-orozco.interpretation.moment.1", attributeId: "creative_originality", sourceIds: ["src_orozco_moma1940"] },
+      { id: "jose-clemente-orozco-moment-2", textKey: "jose-clemente-orozco.moment.2", interpretationKey: "jose-clemente-orozco.interpretation.moment.2", attributeId: "mastery_orientation", sourceIds: ["src_orozco_time1930"] },
+    ],
+    turningPoints: [
+      { id: "jose-clemente-orozco-turning-point-1", textKey: "jose-clemente-orozco.turning_point.1", interpretationKey: "jose-clemente-orozco.interpretation.turning_point.1", attributeId: "achievement_drive", sourceIds: ["src_orozco_britannica"] },
+    ],
+  },
+  "jose-raul-capablanca": {
+    achievements: [
+      { id: "jose-raul-capablanca-achievement-1", textKey: "jose-raul-capablanca.achievement.1", sourceIds: ["src_capab_fide", "src_capab_winter_title", "src_capab_ebsco"] },
+      { id: "jose-raul-capablanca-achievement-2", textKey: "jose-raul-capablanca.achievement.2", sourceIds: ["src_capab_chessbase", "src_capab_fide", "src_capab_ebsco"] },
+      { id: "jose-raul-capablanca-achievement-3", textKey: "jose-raul-capablanca.achievement.3", sourceIds: ["src_capab_winter_london", "src_capab_ebsco"] },
+    ],
+    moments: [
+      { id: "jose-raul-capablanca-moment-1", textKey: "jose-raul-capablanca.moment.1", interpretationKey: "jose-raul-capablanca.interpretation.moment.1", attributeId: "conflict_tolerance", sourceIds: ["src_capab_chesscom", "src_capab_wchof", "src_capab_ebsco"] },
+      { id: "jose-raul-capablanca-moment-2", textKey: "jose-raul-capablanca.moment.2", interpretationKey: "jose-raul-capablanca.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_capab_winter_london", "src_capab_winter_1927"] },
+    ],
+    turningPoints: [
+      { id: "jose-raul-capablanca-turning-point-1", textKey: "jose-raul-capablanca.turning_point.1", interpretationKey: "jose-raul-capablanca.interpretation.turning_point.1", attributeId: "achievement_drive", sourceIds: ["src_capab_winter_title", "src_capab_ebsco"] },
+    ],
+  },
+  "kamal-ol-molk": {
+    achievements: [
+      { id: "kamal-ol-molk-achievement-1", textKey: "kamal-ol-molk.achievement.1", sourceIds: ["src_kamal_iranica_life", "src_kamal_iranica_style", "src_kamal_dailyart"] },
+      { id: "kamal-ol-molk-achievement-2", textKey: "kamal-ol-molk.achievement.2", sourceIds: ["src_kamal_iranica_life", "src_kamal_iranica_style", "src_kamal_iranchamber"] },
+      { id: "kamal-ol-molk-achievement-3", textKey: "kamal-ol-molk.achievement.3", sourceIds: ["src_kamal_iranica_style", "src_kamal_iranica_life", "src_kamal_diba"] },
+    ],
+    moments: [
+      { id: "kamal-ol-molk-moment-1", textKey: "kamal-ol-molk.moment.1", interpretationKey: "kamal-ol-molk.interpretation.moment.1", attributeId: "mastery_orientation", sourceIds: ["src_kamal_iranica_life", "src_kamal_iranica_style"] },
+      { id: "kamal-ol-molk-moment-2", textKey: "kamal-ol-molk.moment.2", interpretationKey: "kamal-ol-molk.interpretation.moment.2", attributeId: "detail_orientation", sourceIds: ["src_kamal_iranica_life", "src_kamal_iranica_style", "src_kamal_dailyart"] },
+    ],
+    turningPoints: [
+      { id: "kamal-ol-molk-turning-point-1", textKey: "kamal-ol-molk.turning_point.1", interpretationKey: "kamal-ol-molk.interpretation.turning_point.1", attributeId: "impact_motivation", sourceIds: ["src_kamal_iranica_life", "src_kamal_iranchamber"] },
+    ],
+  },
+  "maria-mitchell": {
+    achievements: [
+      { id: "maria-mitchell-achievement-1", textKey: "maria-mitchell.achievement.1", sourceIds: ["src_mitchell_vassar", "src_mitchell_nps", "src_mitchell_psm"] },
+      { id: "maria-mitchell-achievement-2", textKey: "maria-mitchell.achievement.2", sourceIds: ["src_mitchell_encyclopedia", "src_mitchell_nps", "src_mitchell_psm"] },
+      { id: "maria-mitchell-achievement-3", textKey: "maria-mitchell.achievement.3", sourceIds: ["src_mitchell_vassar", "src_mitchell_encyclopedia", "src_mitchell_nps"] },
+    ],
+    moments: [
+      { id: "maria-mitchell-moment-1", textKey: "maria-mitchell.moment.1", interpretationKey: "maria-mitchell.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_mitchell_psm", "src_mitchell_space"] },
+      { id: "maria-mitchell-moment-2", textKey: "maria-mitchell.moment.2", interpretationKey: "maria-mitchell.interpretation.moment.2", attributeId: "social_assertiveness", sourceIds: ["src_mitchell_salary", "src_mitchell_nps"] },
+    ],
+    turningPoints: [
+      { id: "maria-mitchell-turning-point-1", textKey: "maria-mitchell.turning_point.1", interpretationKey: "maria-mitchell.interpretation.turning_point.1", attributeId: "collaboration", sourceIds: ["src_mitchell_encyclopedia", "src_mitchell_vassar"] },
+    ],
+  },
+  "mencius": {
+    achievements: [
+      { id: "mencius-achievement-1", textKey: "mencius.achievement.1", sourceIds: ["src_mencius_sep", "src_mencius_iep"] },
+      { id: "mencius-achievement-2", textKey: "mencius.achievement.2", sourceIds: ["src_mencius_sep", "src_mencius_iep"] },
+      { id: "mencius-achievement-3", textKey: "mencius.achievement.3", sourceIds: ["src_mencius_sep", "src_mencius_shiji", "src_mencius_mengzi"] },
+    ],
+    moments: [
+      { id: "mencius-moment-1", textKey: "mencius.moment.1", interpretationKey: "mencius.interpretation.moment.1", attributeId: "independent_thinking", sourceIds: ["src_mencius_mengzi", "src_mencius_sep"] },
+      { id: "mencius-moment-2", textKey: "mencius.moment.2", interpretationKey: "mencius.interpretation.moment.2", attributeId: "analytical_rigor", sourceIds: ["src_mencius_iep"] },
+    ],
+    turningPoints: [
+      { id: "mencius-turning-point-1", textKey: "mencius.turning_point.1", interpretationKey: "mencius.interpretation.turning_point.1", attributeId: "mastery_orientation", sourceIds: ["src_mencius_shiji", "src_mencius_iep"] },
+    ],
+  },
+  "miruts-yifter": {
+    achievements: [
+      { id: "miruts-yifter-achievement-1", textKey: "miruts-yifter.achievement.1", sourceIds: ["src_yifter_olympedia", "src_yifter_aw", "src_yifter_ramsak"] },
+      { id: "miruts-yifter-achievement-2", textKey: "miruts-yifter.achievement.2", sourceIds: ["src_yifter_olympedia", "src_yifter_ramsak", "src_yifter_aw"] },
+      { id: "miruts-yifter-achievement-3", textKey: "miruts-yifter.achievement.3", sourceIds: ["src_yifter_ramsak", "src_yifter_aw", "src_yifter_olympedia"] },
+    ],
+    moments: [
+      { id: "miruts-yifter-moment-1", textKey: "miruts-yifter.moment.1", interpretationKey: "miruts-yifter.interpretation.moment.1", attributeId: "planning_orientation", sourceIds: ["src_yifter_aw", "src_yifter_ramsak"] },
+      { id: "miruts-yifter-moment-2", textKey: "miruts-yifter.moment.2", interpretationKey: "miruts-yifter.interpretation.moment.2", attributeId: "risk_tolerance", sourceIds: ["src_yifter_aw"] },
+    ],
+    turningPoints: [
+      { id: "miruts-yifter-turning-point-1", textKey: "miruts-yifter.turning_point.1", interpretationKey: "miruts-yifter.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_yifter_ramsak", "src_yifter_olympedia"] },
+    ],
+  },
+  "motoori-norinaga": {
+    achievements: [
+      { id: "motoori-norinaga-achievement-1", textKey: "motoori-norinaga.achievement.1", sourceIds: ["src_norinaga_britannica", "src_norinaga_eos_kojikiden", "src_norinaga_museum"] },
+      { id: "motoori-norinaga-achievement-2", textKey: "motoori-norinaga.achievement.2", sourceIds: ["src_norinaga_britannica", "src_norinaga_eos_bio", "src_norinaga_museum"] },
+      { id: "motoori-norinaga-achievement-3", textKey: "motoori-norinaga.achievement.3", sourceIds: ["src_norinaga_eos_bio", "src_norinaga_eos_kojikiden"] },
+    ],
+    moments: [
+      { id: "motoori-norinaga-moment-1", textKey: "motoori-norinaga.moment.1", interpretationKey: "motoori-norinaga.interpretation.moment.1", attributeId: "collaboration", sourceIds: ["src_norinaga_eos_kojikiden"] },
+      { id: "motoori-norinaga-moment-2", textKey: "motoori-norinaga.moment.2", interpretationKey: "motoori-norinaga.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_norinaga_akinari"] },
+    ],
+    turningPoints: [
+      { id: "motoori-norinaga-turning-point-1", textKey: "motoori-norinaga.turning_point.1", interpretationKey: "motoori-norinaga.interpretation.turning_point.1", attributeId: "persistence", sourceIds: ["src_norinaga_eos_bio", "src_norinaga_museum"] },
+    ],
+  },
+  "nadine-gordimer": {
+    achievements: [
+      { id: "nadine-gordimer-achievement-1", textKey: "nadine-gordimer.achievement.1", sourceIds: ["src_gordimer_brit", "src_gordimer_nobel", "src_gordimer_gale"] },
+      { id: "nadine-gordimer-achievement-2", textKey: "nadine-gordimer.achievement.2", sourceIds: ["src_gordimer_brit", "src_gordimer_nobel", "src_gordimer_nobel_speech"] },
+      { id: "nadine-gordimer-achievement-3", textKey: "nadine-gordimer.achievement.3", sourceIds: ["src_gordimer_nobel", "src_gordimer_brit", "src_gordimer_pen", "src_gordimer_ca"] },
+    ],
+    moments: [
+      { id: "nadine-gordimer-moment-1", textKey: "nadine-gordimer.moment.1", interpretationKey: "nadine-gordimer.interpretation.moment.1", attributeId: "persistence", sourceIds: ["src_gordimer_gale", "src_gordimer_nobel_speech", "src_gordimer_pen"] },
+      { id: "nadine-gordimer-moment-2", textKey: "nadine-gordimer.moment.2", interpretationKey: "nadine-gordimer.interpretation.moment.2", attributeId: "independent_thinking", sourceIds: ["src_gordimer_gale", "src_gordimer_nobel_speech"] },
+    ],
+    turningPoints: [
+      { id: "nadine-gordimer-turning-point-1", textKey: "nadine-gordimer.turning_point.1", interpretationKey: "nadine-gordimer.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_gordimer_gale", "src_gordimer_ca"] },
+    ],
+  },
+  "richard-francis-burton": {
+    achievements: [
+      { id: "richard-francis-burton-achievement-1", textKey: "richard-francis-burton.achievement.1", sourceIds: ["src_burton_ocbh", "src_burton_ebsco", "src_burton_gale"] },
+      { id: "richard-francis-burton-achievement-2", textKey: "richard-francis-burton.achievement.2", sourceIds: ["src_burton_ocbh", "src_burton_ebsco", "src_burton_eb1911"] },
+      { id: "richard-francis-burton-achievement-3", textKey: "richard-francis-burton.achievement.3", sourceIds: ["src_burton_ocbh", "src_burton_gale", "src_burton_explorersweb"] },
+    ],
+    moments: [
+      { id: "richard-francis-burton-moment-1", textKey: "richard-francis-burton.moment.1", interpretationKey: "richard-francis-burton.interpretation.moment.1", attributeId: "risk_tolerance", sourceIds: ["src_burton_mentalfloss", "src_burton_explorersweb", "src_burton_ebsco"] },
+      { id: "richard-francis-burton-moment-2", textKey: "richard-francis-burton.moment.2", interpretationKey: "richard-francis-burton.interpretation.moment.2", attributeId: "conflict_tolerance", sourceIds: ["src_burton_ebsco", "src_burton_ocbh", "src_burton_nls", "src_burton_explorersweb"] },
+    ],
+    turningPoints: [
+      { id: "richard-francis-burton-turning-point-1", textKey: "richard-francis-burton.turning_point.1", interpretationKey: "richard-francis-burton.interpretation.turning_point.1", attributeId: "cross_domain_range", sourceIds: ["src_burton_ebsco", "src_burton_eb1911", "src_burton_explorersweb"] },
+    ],
+  },
+  "rifaa-al-tahtawi": {
+    achievements: [
+      { id: "rifaa-al-tahtawi-achievement-1", textKey: "rifaa-al-tahtawi.achievement.1", sourceIds: ["src_tahtawi_tdv", "src_tahtawi_zaydan", "src_tahtawi_clefs"] },
+      { id: "rifaa-al-tahtawi-achievement-2", textKey: "rifaa-al-tahtawi.achievement.2", sourceIds: ["src_tahtawi_tdv", "src_tahtawi_calitme", "src_tahtawi_zaydan"] },
+      { id: "rifaa-al-tahtawi-achievement-3", textKey: "rifaa-al-tahtawi.achievement.3", sourceIds: ["src_tahtawi_tdv", "src_tahtawi_zaydan"] },
+    ],
+    moments: [
+      { id: "rifaa-al-tahtawi-moment-1", textKey: "rifaa-al-tahtawi.moment.1", interpretationKey: "rifaa-al-tahtawi.interpretation.moment.1", attributeId: "execution_speed", sourceIds: ["src_tahtawi_zaydan"] },
+      { id: "rifaa-al-tahtawi-moment-2", textKey: "rifaa-al-tahtawi.moment.2", interpretationKey: "rifaa-al-tahtawi.interpretation.moment.2", attributeId: "persistence", sourceIds: ["src_tahtawi_tdv", "src_tahtawi_clefs"] },
+    ],
+    turningPoints: [
+      { id: "rifaa-al-tahtawi-turning-point-1", textKey: "rifaa-al-tahtawi.turning_point.1", interpretationKey: "rifaa-al-tahtawi.interpretation.turning_point.1", attributeId: "curiosity", sourceIds: ["src_tahtawi_zaydan", "src_tahtawi_tdv", "src_tahtawi_gran"] },
+    ],
+  },
+  "shibusawa-eiichi": {
+    achievements: [
+      { id: "shibusawa-eiichi-achievement-1", textKey: "shibusawa-eiichi.achievement.1", sourceIds: ["src_shibu_nippon", "src_shibu_ndl", "src_shibu_kizuna"] },
+      { id: "shibusawa-eiichi-achievement-2", textKey: "shibusawa-eiichi.achievement.2", sourceIds: ["src_shibu_nippon", "src_shibu_ndl", "src_shibu_tasker"] },
+      { id: "shibusawa-eiichi-achievement-3", textKey: "shibusawa-eiichi.achievement.3", sourceIds: ["src_shibu_kizuna", "src_shibu_ndl", "src_shibu_nippon"] },
+    ],
+    moments: [
+      { id: "shibusawa-eiichi-moment-1", textKey: "shibusawa-eiichi.moment.1", interpretationKey: "shibusawa-eiichi.interpretation.moment.1", attributeId: "opportunity_sensing", sourceIds: ["src_shibu_nippon", "src_shibu_ndl"] },
+      { id: "shibusawa-eiichi-moment-2", textKey: "shibusawa-eiichi.moment.2", interpretationKey: "shibusawa-eiichi.interpretation.moment.2", attributeId: "collaboration", sourceIds: ["src_shibu_tasker", "src_shibu_kizuna", "src_shibu_mises"] },
+    ],
+    turningPoints: [
+      { id: "shibusawa-eiichi-turning-point-1", textKey: "shibusawa-eiichi.turning_point.1", interpretationKey: "shibusawa-eiichi.interpretation.turning_point.1", attributeId: "adaptability", sourceIds: ["src_shibu_ndl", "src_shibu_nippon", "src_shibu_tasker"] },
+    ],
+  },
+  "william-james": {
+    achievements: [
+      { id: "william-james-achievement-1", textKey: "william-james.achievement.1", sourceIds: ["src_wjames_sep", "src_wjames_houghton", "src_wjames_hall1895"] },
+      { id: "william-james-achievement-2", textKey: "william-james.achievement.2", sourceIds: ["src_wjames_sep", "src_wjames_seppragmatism", "src_wjames_gale"] },
+      { id: "william-james-achievement-3", textKey: "william-james.achievement.3", sourceIds: ["src_wjames_sep", "src_wjames_gale", "src_wjames_houghton"] },
+    ],
+    moments: [
+      { id: "william-james-moment-1", textKey: "william-james.moment.1", interpretationKey: "william-james.interpretation.moment.1", attributeId: "curiosity", sourceIds: ["src_wjames_houghton", "src_wjames_santayana"] },
+      { id: "william-james-moment-2", textKey: "william-james.moment.2", interpretationKey: "william-james.interpretation.moment.2", attributeId: "belief_updating", sourceIds: ["src_wjames_sep", "src_wjames_seppragmatism"] },
+    ],
+    turningPoints: [
+      { id: "william-james-turning-point-1", textKey: "william-james.turning_point.1", interpretationKey: "william-james.interpretation.turning_point.1", attributeId: "cross_domain_range", sourceIds: ["src_wjames_houghton", "src_wjames_sep"] },
+    ],
+  },
 };

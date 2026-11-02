@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "richard-francis-burton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Richard Francis Burton",
+    "aliases": [
+      "Sir Richard Francis Burton",
+      "Richard Burton the explorer",
+      "Captain Richard Burton"
+    ],
+    "wikidataId": "Q125057",
+    "birthYear": 1821,
+    "deathYear": 1890,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "writer",
+      "scholar"
+    ],
+    "fieldIds": [
+      "exploration",
+      "literature",
+      "linguistics"
+    ],
+    "impactDomains": [
+      "historical",
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "polymath",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_burton_wikidata",
+      "kind": "wikidata",
+      "title": "Richard Francis Burton (Q125057), verified live via the Wikidata API (2026-11-01): label 'Richard Francis Burton', description 'British explorer, army officer, writer and scholar (1821-1890)', born 19 March 1821, died 20 October 1890, citizenship United Kingdom, Korean label present, image a 1864 portrait photograph by Rischgitz. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q125057"
+    },
+    {
+      "id": "src_burton_ocbh",
+      "kind": "biography",
+      "title": "Roy C. Bridges, 'Burton, Sir Richard', The Oxford Companion to British History, via Encyclopedia.com, read in full. CANONICAL SIGNIFICANCE SOURCE: traveller, Arabist and 'great Victorian outsider' who joined the Indian army in 1842 and learned many languages and much lore about Islam, reached Mecca disguised as an Arab in 1853, led an expedition to Harar, was chosen by the Royal Geographical Society to lead its 1856 East African expedition and discovered Lake Tanganyika in 1858, translated The Arabian Nights and the Kama Sutra, and left books containing a great deal of cultural information, which the entry calls his best monuments; it adds that he was happier as a traveller than as a strictly scientific explorer, that his quarrels with Speke made him insist for a time that Tanganyika was the source of the Nile, that he viewed Africans through the eyes of Arab traders and favoured the racist outlook of the Anthropological Society, and that his wife destroyed most of his papers. A scholarly reference entry; short and partly critical.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/burton-sir-richard"
+    },
+    {
+      "id": "src_burton_ebsco",
+      "kind": "biography",
+      "title": "'Richard Francis Burton', EBSCO Research Starters (history), read in full: dismissal from Oxford in 1842 for disobedience, East India Company army service (1842-49) and languages learned among Muslims, intelligence work in disguise and a 1845 report on brothels, the 1853 pilgrimage to Mecca disguised as an Afghan doctor, the 1854 visit to Harar, the 1855 Somali attack in which he was wounded in the jaw, the 1857-59 Nile expedition (first European in modern times to see Lake Tanganyika on 13 February 1858) that wasted nearly six months near Zanzibar through poor organisation, the public feud with Speke and Lake Regions of Central Africa (1860), consular posts, translations of the Kama Sutra, The Perfumed Garden and The Arabian Nights, output of forty-three volumes of travel, twenty-eight translated volumes and mastery of more than forty languages and dialects, and the criticisms by McLynn and Brodie noted in its reading list. Encyclopedic summary; its Speke story is told from Burton's side and its numbers are generous.",
+      "url": "https://www.ebsco.com/research-starters/history/richard-francis-burton"
+    },
+    {
+      "id": "src_burton_eb1911",
+      "kind": "biography",
+      "title": "S. L.-P. (Stanley Lane-Poole), 'Burton, Sir Richard Francis', Encyclopaedia Britannica, eleventh edition (1911), via Wikisource, read in full: his upbringing in France and Italy and language fluency, rustication from Oxford, language learning in the Bombay army, the 1853 Mecca pilgrimage in disguise, Harar and the Somali javelin wound, the discovery of Lake Tanganyika with Speke in 1858 and the dispute over credit, his consular posts, the translation of The Thousand Nights and a Night called his greatest achievement but criticised for uneven scholarship, archaic diction and explicit notes, and his character as restless, combative and eccentric, 'an Elizabethan born out of time'; it cites Thomas Wright's 1906 life questioning his originality and his debt to John Payne's translation. A period reference entry by a contemporary orientalist, written in the voice of its time.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Burton,_Sir_Richard_Francis"
+    },
+    {
+      "id": "src_burton_gale",
+      "kind": "biography",
+      "title": "'Richard Francis Burton', Encyclopedia of World Biography (Gale), with the Science and Its Times entry by Jim Marion, via Encyclopedia.com, read in full: raised in England, France and Italy, dismissed from Oxford for disobedience, languages and writings on Goa and Sind during his Indian army years, the disguised Mecca and Medina journey, Harar, Lake Tanganyika, consular posts including West Africa (called the 'Foreign Office grave', where he failed to persuade the king of Dahomey to end the slave trade), translations, his use of disguise and gift for languages, observations on peoples, religion, customs, flora and fauna ('a true encyclopedist'), his frequent conflicts with colleagues, controversy over his erotic translations, and his wife's burning of most of his diaries. Notes inconsistencies between its sources in dates and volume counts. Reference summary compiled from other works.",
+      "url": "https://www.encyclopedia.com/people/history/explorers-travelers-and-conquerors-biographies/sir-richard-francis-burton"
+    },
+    {
+      "id": "src_burton_explorersweb",
+      "kind": "press",
+      "title": "'Legends Series: Richard Francis Burton', ExplorersWeb, read in full: his habit as a young officer of travelling disguised as a local, language skill (29 languages, able to 'break the back' of a language in six weeks), the Mecca journey and the account that made him famous, Harar and the Somali attack, the Tanganyika expedition with Speke, the observation that his wide curiosity pulled him in many directions and kept him less focused on the geographical question, the Speke dispute in which the article says Burton was wrong about Lake Victoria, later consular travels producing hastily written, erudite but often dull two-volume books, his prejudices by modern standards, and the point that he was a traveller and observer more than a geographer. Independent exploration-press assessment, openly critical in places.",
+      "url": "https://explorersweb.com/legends-series-richard-francis-burton/"
+    },
+    {
+      "id": "src_burton_mentalfloss",
+      "kind": "press",
+      "title": "'Richard Francis Burton: The Englishman Who Went to Mecca and East Africa', Mental Floss, read in full: his Mecca identity as 'Abdullah', preparation by reading on Islamic customs and earlier travels, the Yanbu-Medina caravan attacked by Bedouin, the sketched floor plan of the Kaaba, the Harar visit and Somali attack (an inquiry then accused him of not posting an adequate watch and later cleared him), the Nile expedition's fevers, Speke's claim of 25 August 1858 and Burton's doubts about its evidence, the RGS debate scheduled for 1864 on the day after which Speke died, Stanley's later confirmation of Lake Victoria as a Nile source, and criticism of his Arabian Nights translation. Popular-history press; the book counts it gives (58 books) differ from other sources.",
+      "url": "https://www.mentalfloss.com/article/63364/richard-francis-burton-englishman-who-went-mecca-and-east-africa"
+    },
+    {
+      "id": "src_burton_nls",
+      "kind": "institution",
+      "title": "National Library of Scotland, 'Secret text tells of feud between Victorian age explorers' (6 September 2017), read in full: John Hanning Speke's 1858 claim to have found the source of the Nile, Burton's refusal to accept it, the unpublished eight-page 'Tail' in Speke's 1864 book that accused Burton of not paying porters, the twelve privately printed copies, the planned debate of 16 September 1864 and Speke's fatal shooting accident the day before; it gives no verdict on Burton and presents the porter accusation only as Speke's. A library news release; used only to show the dispute as a documented public feud, never to score the unproven accusation.",
+      "url": "https://media.nls.uk/news/secret-text-tells-of-feud-between-explorers"
+    },
+    {
+      "id": "src_burton_rijks",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, linked-art catalogue record for the print 'Captain Richard Francis Burton' (woodburytype by Lock & Whitfield, about 1871 to 1876, object RP-F-2001-7-235A-7), read live for the portrait review only. Not used for any row.",
+      "url": "https://id.rijksmuseum.nl/200648421"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_burton_ebsco, src_burton_eb1911, src_burton_explorersweb, src_burton_mentalfloss | 1853-1858 | encyclopedic summaries + exploration press + popular history] Four sources describe him joining the 1853 pilgrim caravan to Medina and Mecca in disguise when non-Muslims were forbidden entry on pain of death, travelling to Harar, surviving a Somali attack in which a javelin pierced his jaw, and pressing on through fevers on the Nile expedition. The same sources report a later inquiry into the lack of an adequate night watch at the 1855 camp (he was cleared) and nearly six months lost near Zanzibar, so the risk-taking is dual-edged. Documented across independent encyclopedic and press accounts, but most details derive from his own narratives. RUBRIC_CORRECTION (lead review, before eligibility): risk_tolerance lowered from 76 / 0.58 to 72 / 0.52 because every supporting source is a summary-level or popular account of the same journeys and no modern scholarly biography was read."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_burton_gale, src_burton_explorersweb, src_burton_ocbh, src_burton_ebsco | 1842-1888 | reference entries + exploration press] The Gale entry calls him 'a true encyclopedist' who recorded peoples, religion, customs, flora and fauna; the exploration-press article says his curiosity pulled him in many directions, from customs and dialects to sketches, and made him less focused on the geographical question; the Oxford Companion says his books hold a great deal of cultural information; the EBSCO summary credits competence in botany, zoology, geology, art and medicine. Consistent across independent sources, though the breadth is judged from his books and the personal anecdotes are secondary. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 74 / 0.55 to 70 / 0.5 because breadth of interests is documented only through reference summaries; no independent biography corroborates the habit of inquiry."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_burton_ebsco, src_burton_ocbh, src_burton_eb1911, src_burton_explorersweb | 1842-1890 | reference entries + exploration press] He worked as soldier-surveyor, explorer, ethnographic writer, poet, translator of Arabic, Portuguese and Sanskrit-derived texts and author on falconry and swordsmanship (EBSCO, 1911 Britannica, Oxford Companion); the exploration press and EBSCO give language counts that disagree (29, 'more than forty') and the 1911 entry criticises the uneven scholarship of the translation. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 78 / 0.55 to 72 / 0.50 because the sources give conflicting language and volume counts and the breadth is measured from reference summaries; the 1911 entry and the Oxford Companion both call the depth of his scholarship uneven."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_burton_ebsco, src_burton_ocbh, src_burton_gale, src_burton_eb1911, src_burton_nls, src_burton_explorersweb | 1842-1864 | reference entries + library release + exploration press] He was dismissed from Oxford for disobedience, wrote a 1845 report on brothels that was later used against him, and publicly disputed Speke's claim over the Nile source through the 1860 Lake Regions book until Speke's death the day before a scheduled 1864 debate; the Oxford Companion says the quarrel made him insist for a time that Tanganyika was the source, and the exploration press says he was wrong about Lake Victoria. The Gale entry says he was often in conflict with colleagues and the 1911 entry calls him combative. Dual-edged: the same sources show the quarrel costing him a second expedition and his standing; Speke's porter accusation is unproven and not scored."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_burton_mentalfloss, src_burton_explorersweb, src_burton_gale | 1853 | popular history + exploration press + reference summary] Sources report that he travelled disguised as a local, prepared for the pilgrimage by reading on Islamic customs and earlier travels, and sketched the Kaaba's floor plan on his pilgrim garment while pretending to pray. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 68 / 0.48 strong inference to 62 / 0.42 inference because the sketching anecdote rests on one popular article and the other sources only say that he used disguise, so the behavioural detail is thin."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_burton_mentalfloss, src_burton_ebsco, src_burton_ocbh | 1853-1890 | popular history + reference entries] He kept exploring after the 1855 wound and the severe fevers of the 1857-58 expedition (his tongue so ulcerated by February 1858 that he could hardly speak), continued with consular travel after his Africa expeditions, and left more than forty volumes of travel, translation and verse (EBSCO; counts vary between sources). Documented over decades, though the sources show persistence in travel and writing rather than any single long project."
+    },
+    "planning_orientation": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_burton_ebsco, src_burton_mentalfloss, src_burton_explorersweb | 1853-1858 | encyclopedic summary + popular history + exploration press] The Mecca journey followed careful reading and rehearsal of customs (Mental Floss), but the EBSCO entry says the leader of the 1857 expedition lost nearly six months near Zanzibar through poor organisation, an inquiry in 1855 asked about his camp watch, and the exploration press says his later books were hasty and unedited. The signals point both ways and each rests on one or two secondary sources, so the score is near the midpoint with low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "리처드 프랜시스 버턴"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/richard-francis-burton-lock-whitfield-1871.jpg",
+    "width": 943,
+    "height": 1200,
+    "source": "Woodburytype portrait print 'Captain Richard Francis Burton' by the London photographers Lock & Whitfield, about 1871 to 1876 (the museum's date range is 'in or before 1876'), 115 x 89 mm, tipped into a book, collection of the Rijksmuseum, Amsterdam (object RP-F-2001-7-235A-7, purchased with the support of several Dutch funds). The Rijksmuseum's own linked-art record (opened live) gives the photographer as Lock & Whitfield, the print title as Captain Richard Francis Burton, and an item-level Public Domain Mark on the image. The photographic studio worked in the 1860s to 1880s and the print was made well over 100 years ago. The file is the museum's full-resolution scan of the book spread (7146 x 4570 pixels), cropped to the oval portrait plate and reduced (downscaled only, never enlarged) to 943 x 1200 pixels.",
+    "license": "Public domain (Rijksmuseum Public Domain Mark; 1870s photograph by Lock & Whitfield)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Lock & Whitfield, Captain Richard Francis Burton, about 1871-1876, woodburytype, Rijksmuseum, Amsterdam (RP-F-2001-7-235A-7), public domain",
+    "attributionUrl": "https://id.rijksmuseum.nl/200648421",
+    "creator": "Lock & Whitfield",
+    "date": "about 1871-1876",
+    "kind": "likeness",
+    "sourcePageUrl": "https://id.rijksmuseum.nl/200648421"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED VIA A REPLACEMENT: the lead's first image, the Rischgitz 1864 portrait hosted by Getty, was not used. The linked-art records of all three Rijksmuseum prints were opened live and each carries an item-level Public Domain Mark: RP-F-2001-7-349-22 (Ernest Edwards, c. 1853 to 1867) and RP-F-2001-7-350-5 (Ernest Edwards, c. 1858 to 1868), which are small seated costume portraits inside large book-spread scans, and RP-F-2001-7-235A-7 (Lock & Whitfield woodburytype, c. 1871 to 1876), a clear head-and-shoulders portrait titled 'Captain Richard Francis Burton' on the object. The Lock & Whitfield print was chosen because the face is clear and the sitter is named on the object; the Commons CC0/PD copies were not relied on. The file is the Rijksmuseum scan cropped to the oval plate (so some of the cream mount shows at the corners) and downscaled from 7146 x 4570 to 943 x 1200, never enlarged. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q125057 label 'Richard Francis Burton', description 'British explorer, army officer, writer and scholar (1821-1890)', born 19 March 1821, died 20 October 1890, Korean label '리처드 프랜시스 버턴' (used as the display name); not in the 667-person production list and no candidate file existed. REGION western_europe, nationality GB. VOCABULARY: occupations explorer, writer, scholar; fields exploration, literature, linguistics; impact domains historical, literary, cultural; tags explorer, polymath, nonconformist; archetypes scientific_explorer, cross_disciplinary_generalist; all taken from the existing EN and KO label sets (grep before use). ZERO POLITICS: his consular postings (Fernando Po, Santos, Damascus, Trieste), his Crimean War service and his Indian army intelligence work are not scored; the Damascus recall and Dahomey slave-trade mission are not scored. His sexology and erotic translations are not scored as traits. CANONICAL SIGNIFICANCE SOURCE: Roy C. Bridges, 'Burton, Sir Richard', The Oxford Companion to British History, via Encyclopedia.com (https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/burton-sir-richard). Encyclopaedia Britannica (current) could not be fetched. READ IN FULL (7 non-Wikidata sources): Oxford Companion entry, EBSCO Research Starters, the 1911 Britannica entry, the Gale biography entries, ExplorersWeb, Mental Floss, the National Library of Scotland release. PERSPECTIVES: scholarly reference entry, encyclopedic summaries, period (1911) encyclopedia, exploration press, popular history, library archive release. COUNTER-VOICES: the Oxford Companion's criticisms (Arab-trader lens, racist outlook of the Anthropological Society), ExplorersWeb's 'he was wrong' about Lake Victoria and prejudiced-observer verdict, the 1911 entry's critique of the translation and Wright's questioning of his originality, EBSCO's six months lost near Zanzibar. NOT OPENED: the Burton Society site (page showed only navigation), Dane Kennedy's The Highly Civilized Man, McLynn's and Brodie's biographies, Burton's own books (self-report), Speke's 1864 text (known only through the NLS release), the Oxford DNB (paywalled), the Britannica web entry (refused), the British Museum biography page (403), the Princeton page (certificate error). EXCLUDED: marriage, his wife's burning of papers (not a trait), health and drinking claims in EBSCO, Speke's death, sexuality and erotic-translation controversy, Speke's unproven porter accusation. NOTE ON NUMBERS: the sources disagree on volume counts (43 volumes, 50+ books, 58 books) and language counts (29, 40+); cards avoid exact counts. CALIBRATION: seven rows, highest score 76 and highest confidence 0.58; the sources are mostly secondary summaries of his own books, so no row exceeds 0.6. SELF-CALIBRATION (agent): top-risk rows reviewed: cross_domain_range (lowered from 78 / 0.55 to 72 / 0.50), resourcefulness (lowered from 68 / 0.48 to 62 / 0.42), risk_tolerance (kept; four independent accounts). BROAD FLAG: none; no independent modern scholarly biography was read, so every row is summary-level. HANDBACK62: {\"slug\": \"richard-francis-burton\", \"portrait_preflight_grade\": \"STRONG (alt-dependent)\", \"initial_lead\": \"Rischgitz/Getty 1864 (Getty-hosted)\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam / Lock & Whitfield / RP-F-2001-7-235A-7 / https://id.rijksmuseum.nl/200648421\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"cross_domain_range\", \"old_score\": 78, \"old_confidence\": 0.55, \"new_score\": 72, \"new_confidence\": 0.5, \"reason\": \"sources give conflicting language and volume counts and call the scholarship uneven, so the breadth is measured from reference summaries\"}, {\"attribute\": \"resourcefulness\", \"old_score\": 68, \"old_confidence\": 0.48, \"new_score\": 62, \"new_confidence\": 0.42, \"reason\": \"the key sketching anecdote rests on one popular article and other sources only say he used disguise\"}], \"reviewed_kept\": [\"risk_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7} RUBRIC_CORRECTION (lead review, before eligibility): risk_tolerance lowered from 76 / 0.58 to 72 / 0.52 because every supporting source is a summary-level or popular account of the same journeys and no modern scholarly biography was read. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 74 / 0.55 to 70 / 0.5 because breadth of interests is documented only through reference summaries; no independent biography corroborates the habit of inquiry."
+  }
+}

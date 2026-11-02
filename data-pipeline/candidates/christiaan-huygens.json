@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "christiaan-huygens",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Christiaan Huygens",
+    "aliases": [
+      "Christian Huygens",
+      "Christiaan Huyghens",
+      "Christian Huyghens"
+    ],
+    "wikidataId": "Q39599",
+    "birthYear": 1629,
+    "deathYear": 1695,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "physicist",
+      "astronomer",
+      "inventor"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "historical"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_huygens_wikidata",
+      "kind": "wikidata",
+      "title": "Christiaan Huygens (Q39599), verified live via the Wikidata API (2026-11-01): label 'Christiaan Huygens', description 'Dutch mathematician, physicist and astronomer (1629-1695)', born 14 April 1629, died 8 July 1695 (a second value 8 June is also listed), citizenship Dutch Republic, Korean label 크리스티안 하위헌스, images include the Caspar Netscher painting. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q39599"
+    },
+    {
+      "id": "src_huygens_wikipedia",
+      "kind": "wikipedia",
+      "title": "Christiaan Huygens (English Wikipedia), fetched for orientation on dates, family and the list of works. Not used as support for any scored row or card.",
+      "url": "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+    },
+    {
+      "id": "src_huygens_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics, University of St Andrews, 'Christiaan Huygens' biography, read in full. CANONICAL SIGNIFICANCE SOURCE: Dutch mathematician who patented a pendulum clock (1656) and laid foundations of mechanics, with work in astronomy and probability; lens grinding and the detection of a moon of Saturn (1655) and the true shape of the rings (Systema Saturnium, 1659); De Ratiociniis in Ludo Aleae (probability); Horologium Oscillatorium (1673) with the tautochronism of the cycloid and the first study of the dynamics of bodies rather than particles; refutation of Descartes's laws of impact; founding-era leadership at the Academie Royale des Sciences from 1666; Traite de la lumiere (1678) arguing for a wave theory of light; sea trials of marine clocks in 1662 and 1686; wrongly criticised Newton's theory of colour in 1672 and did not accept universal gravitation; correspondence with Leibniz, who 'learnt much of his mathematics' from him. Scholarly institutional biography; the closing praise ('the greatest mechanist of the seventeenth century') quotes the Dictionary of Scientific Biography and is retrospective.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/"
+    },
+    {
+      "id": "src_huygens_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Christiaan Huygens' (John Herivel), read in full: founded the wave theory of light, discovered the true shape of Saturn's rings and contributed to dynamics; discovered a satellite of Saturn in March 1655 with a telescope built on his new lens-grinding method; Horologium Oscillatorium (1673) with a theory of curvature and the solution of pendulum and centrifugal-force problems; collision results obtained in 1656 but unpublished until 1669 and proofs only after his death; founding member of the French Academy of Sciences in 1666, with a pension larger than that of any other member; Traite de la lumiere (largely complete by 1678) published in 1690 together with a mechanical theory of gravity that 'was never taken seriously'; 'great talent rather than genius of the first order' as a mathematician; his dynamics and optics were overshadowed by Newton for almost the whole of the eighteenth century and recovered in the nineteenth. Independent encyclopaedic voice and a critical counter-voice.",
+      "url": "https://www.britannica.com/biography/Christiaan-Huygens"
+    },
+    {
+      "id": "src_huygens_dsb",
+      "kind": "biography",
+      "title": "H. J. M. Bos, 'Huygens, Christiaan', Complete Dictionary of Scientific Biography (via Encyclopedia.com), read in the biographical and the mathematics and horology sections: the Huygens family tradition and Christiaan's home education (a lathe at thirteen); an allowance from his father let him devote himself to the study of nature and he declined the diplomatic career natural to his family; 1651 refutation of Gregory of St Vincent's circle quadrature; 1657 probability treatise; lens grinding with his brother from 1655 and the discovery of the satellite and the ring of Saturn; pendulum clock 1656, tautochronism of the cycloid, evolutes and centre of oscillation; longitude work from 1660 with sea tests after 1663 and a manual for seamen; a spring-regulated clock about which 'a controversy with Hooke ensued' and 'priority disputes with Hooke and others'; his mathematics 'may be called conservative'; he rejected Cavalieri's indivisibles and stayed sceptical of Leibniz's new methods; admired the Principia but strongly disagreed with it; dedicated the Horologium Oscillatorium to Louis XIV, which 'occasioned some disapproval in Holland'. The same Encyclopedia.com page also carries a second short Gale entry that was read for the 1669 collision-law report to the Royal Society. Scholarly specialist source.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/christiaan-huygens"
+    },
+    {
+      "id": "src_huygens_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Christiaan Huygens', read in full: improved telescopes ground with his brother, Titan and a ring that 'nowhere touched the planet', a coded message to protect priority of the ring discovery, the 1657 probability treatise, the pendulum clock as his 'greatest original invention', marine clocks given extensive sea trials that 'proved an ultimate failure in determining longitude', a Cartesian upbringing from which he broke with the master, his rejection of action at a distance in favour of mechanical explanations, his wave theory of light not accepted as the fundamental explanation in his own or the next century, and a significance paragraph noting that his brilliance was less apparent for being so close to Newton and Descartes. Independent educational reference with a critical element.",
+      "url": "https://ebsco.com/research-starters/history/christiaan-huygens"
+    },
+    {
+      "id": "src_huygens_whe",
+      "kind": "biography",
+      "title": "World History Encyclopedia, 'Christiaan Huygens' (Mark Cartwright, 2023), read in full: instruments made with his brother Constantijn, the 1658 paper on the rings at the Montmor Academy, the pendulum clock of 1657 built with the clockmaker Salomon Coster and a preface to the Horologium that credited Galileo with the original idea, the 1665 mariners' manual, sea trials in the 1660s and, with Johannes van Ceulen and funding from the Dutch East India Company, trials in 1685, 1686 and 1690 that were deemed unsatisfactory because the clock was too sensitive to the sea's movement. Popular reference; used for the collaboration and the sea-trial sequence.",
+      "url": "https://www.worldhistory.org/Christiaan_Huygens/"
+    },
+    {
+      "id": "src_huygens_treatise",
+      "kind": "archive",
+      "title": "Christiaan Huygens, Treatise on Light (Project Gutenberg, S. P. Thompson translation), preface read in full: he says he wrote it in France and communicated it to the Royal Academy of Science in 1678, published it twelve years later, and delayed publication partly through being 'often turned aside either by business or by some new study'; that the demonstrations 'do not produce as great a certitude as those of Geometry' but reach high probability when predicted phenomena are confirmed by experiment; and that he hopes others will go further. Self-report by the author (a primary source); used only to corroborate how he described his own method, never as sole support for a row.",
+      "url": "https://www.gutenberg.org/ebooks/14725"
+    },
+    {
+      "id": "src_huygens_rijksmuseum",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, collection record RP-P-BI-7524, 'Portret van Christiaan Huygens', engraving by Gerard Edelinck after a drawing by Jacques-Antoine Friquet de Vauroze (1687-1688), read via the museum's open linked-data record (Public Domain mark). Portrait record only; the museum note that Huygens's letters show Friquet initiated the print and that it first appeared facing the title page of the Traite de la lumiere in 1690 is not used for any row.",
+      "url": "https://www.rijksmuseum.nl/en/collection/RP-P-BI-7524"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_huygens_dsb, src_huygens_mactutor, src_huygens_britannica, src_huygens_treatise | 1651-1690 | independent scholarly entries plus his own preface] Bos records that his early works used rigorous Archimedean proofs (equality shown by contradiction with approximating figures), that his 1651 first publication refuted Gregory of St Vincent's circle quadrature, and that he rejected Cavalieri's indivisibles and stayed sceptical of Leibniz's new methods; MacTutor adds that his collision experiments showed Descartes's impact laws to be wrong; Britannica describes the complete proofs behind results he had held back, and his preface to the Treatise on Light separates geometric certainty from the 'probability' reached when predictions are confirmed. Bos also calls his mathematics 'conservative', and Britannica says he had talent rather than genius of the first order, so the row is capped at a firm but not extreme level."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_huygens_dsb, src_huygens_mactutor, src_huygens_ebsco, src_huygens_whe | 1655-1690 | scholarly entries, popular reference, own preface] Bos reports that he built a lathe at thirteen, ground lenses with his brother from 1655 and built microscopes and telescopes, tested marine clocks on sea voyages and encouraged a Baconian programme of observation and experiment at the Academie; MacTutor says he proved the collision law by experiment for the Royal Society's 1668 question, repeated some of Boyle's air-pump experiments and tested clocks at sea in 1662 and 1686; EBSCO and the World History Encyclopedia describe the extensive sea trials. His 1687 remark to Tschirnhaus (quoted in MacTutor) that one must start from experiments is his own words. The documentation is specific, but much of it is retrospective summary rather than first-hand records."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_huygens_ebsco, src_huygens_whe, src_huygens_mactutor, src_huygens_dsb | 1660-1690 | scholarly and popular reference] MacTutor says the longitude problem 'remained a constant cause' for him to work on clocks all his life; EBSCO says the marine clocks received extensive sea trials but proved an ultimate failure for longitude; the World History Encyclopedia adds a mariners' manual in 1665 and a second effort in the 1680s with a clockmaker and Dutch East India Company funding, with trials in 1685, 1686 and 1690 deemed unsatisfactory; Bos says he worked on a spring regulator for clocks after 1673. A long sequence across three decades with documented repeated setbacks, but the sources are summaries and say little about his reactions."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_huygens_britannica, src_huygens_mactutor, src_huygens_ebsco, src_huygens_dsb | 1650s-1690 | scholarly and encyclopaedic, with critical elements] Britannica and EBSCO say that he grew up Cartesian and then rejected some Cartesian tenets and ended as a sharp critic of the system, and MacTutor says his work showed Descartes's impact laws to be wrong; he also refused to accept Newton's attraction at a distance, writing that it appeared absurd to him. The same independence cuts the other way: MacTutor says he 'quite wrongly' criticised Newton's theory of colour in 1672, and Britannica says his own mechanical theory of gravity was never taken seriously. Independent in method, but his rejections were sometimes wrong, so the impact is dual-edged."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_huygens_britannica, src_huygens_ebsco, src_huygens_mactutor, src_huygens_whe | 1655-1690 | encyclopaedic reference, retrospective] Britannica credits him with founding the wave theory of light and calls the optics and rotating-body work among the most brilliant and original contributions to modern science; EBSCO calls the pendulum clock his greatest original invention and says he originated the wave theory; MacTutor adds the first study of the dynamics of bodies rather than particles in the Horologium Oscillatorium. The World History Encyclopedia notes that the clock was built with a collaborator and that Galileo was credited with the original idea, and Bos records priority disputes with Hooke, so priority claims are contested and the praise is retrospective. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 68 / 0.48 to 64 / 0.44 because it rests on retrospective encyclopaedic praise and priority for the clock and spring regulator was contested."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/christiaan-huygens-edelinck-1688.jpg",
+    "width": 945,
+    "height": 1200,
+    "source": "Engraving of Christiaan Huygens by Gerard Edelinck after a drawing by Jacques-Antoine Friquet de Vauroze, made about 1687-1688, Rijksmuseum, Amsterdam, object RP-P-BI-7524 (the portrait that was later printed facing the title page of Huygens's Treatise on Light, 1690, according to the museum). The museum record carries a Public Domain mark. This is a printed portrait made during his lifetime from another artist's drawing; there is no documented sitting, so it is classed as a later depiction rather than a likeness. The file is the museum's 5090 x 6464 pixel image downscaled to 945 x 1200 with no upscaling.",
+    "license": "Public domain (engraver Gerard Edelinck d. 1707; Rijksmuseum Public Domain Mark)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Gerard Edelinck, after a drawing by Jacques-Antoine Friquet de Vauroze, Portrait of Christiaan Huygens, engraving, 1687-1688, Rijksmuseum, Amsterdam, RP-P-BI-7524, Public Domain",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-BI-7524",
+    "creator": "Gerard Edelinck (engraver); after a drawing by Jacques-Antoine Friquet de Vauroze",
+    "date": "1687-1688",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-BI-7524"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "크리스티안 하위헌스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED VIA THE ALTERNATIVE PATH, NOT THE INITIAL LEAD. The initial lead, the Caspar Netscher 1671 painting, was NOT used: its Commons file page (opened) gives a French inventions web page as source, no institution, no accession number and only a generic 'PD because of age' tag, and I did not find a Museum Boerhaave page stating terms for it. Replacement used: the Rijksmuseum engraving RP-P-BI-7524, opened on the live museum page and through the museum's linked-data record (id.rijksmuseum.nl/200187448), which states printmaker Gerard Edelinck (mentioned on the object), 'after drawing by Jacques-Antoine Friquet de Vauroze', dated 1687-1688, engraving on paper, plate 287 x 226 mm, with the Public Domain Mark 1.0 on the digital object and a note that Huygens's letters show Friquet designed and initiated the print and that it was later printed facing the title page of the Traite de la lumiere (1690); the original IIIF image is 5090 x 6464 and I saved a 945 x 1200 downscale with no upscaling. The engraver died in 1707, so there is also an age-based basis. kind historical_depiction because no sitting is documented (a lifetime print after a drawing); the lead may reclassify it as a likeness if the lifetime drawing is judged documented enough. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q39599 label 'Christiaan Huygens', description 'Dutch mathematician, physicist and astronomer (1629-1695)'; not in prod62.txt and no candidate file existed for slug christiaan-huygens (Constantijn Huygens senior is not in the roster). REGION western_europe (Dutch precedent: Leeuwenhoek). ERA early_modern. ZERO POLITICS: primary identity is scientist; his family diplomatic tradition and the 1672 war context are not scored. VOCABULARY: occupations mathematician, physicist, astronomer and inventor, fields physics, mathematics and natural_science (astronomy and horology have no field label), impactDomains scientific, technological and historical, tags cross_disciplinary and innovator, archetypes scientific_explorer and technical_innovator, all with English and Korean labels already in the project. KO NAME: Wikidata Korean label 크리스티안 하위헌스 (recorded as the Wikidata label). CANONICAL SIGNIFICANCE SOURCE: MacTutor History of Mathematics, 'Christiaan Huygens' (https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/). READ: MacTutor (full), Britannica (full), the Dictionary of Scientific Biography entry via Encyclopedia.com (biography, mathematics and horology sections), EBSCO Research Starters (full), World History Encyclopedia (full), the Treatise on Light preface, plus Wikipedia and Wikidata for orientation: five substantive scholarly or encyclopaedic sources and one self-authored preface. PERSPECTIVES: university history-of-mathematics biography, encyclopaedic voices (Britannica, DSB, EBSCO, WHE), the subject's own preface. COUNTER-VOICES AND LIMITS: Britannica (talent not genius, gravity theory never taken seriously, overshadowed by Newton), MacTutor ('quite wrongly' criticised Newton on colour), EBSCO (marine clocks failed for longitude), DSB and WHE (priority disputes with Hooke; co-builder Coster; Galileo credited), DSB (mathematics 'conservative'; sceptical of Leibniz). NOT OPENED: Huygens's correspondence and the Oeuvres completes, the Museum Boerhaave and Huygens Institute pages (connection failed or only a landing page), monographs by Bell, Andriesse, Yoder and Jardine, and the 1670 and 1695 illness material, which is deliberately not used for any trait. PRE-MODERN LIMITS: five rows, none above 74, confidence 0.44-0.52, treatise prefaces treated as self-report, all rows rest on secondary summaries. SELF-CALIBRATION (agent): top-risk rows reviewed: analytical_rigor (kept), independent_thinking (kept), creative_originality (68/0.48 lowered to 64/0.44, see rationale). HANDBACK62: {\"slug\": \"christiaan-huygens\", \"portrait_preflight_grade\": \"STRONG (alt-dependent)\", \"initial_lead\": \"Caspar Netscher painting 1671 (Commons file, Museum Boerhaave)\", \"final_portrait_source\": \"Rijksmuseum, Gerard Edelinck engraving after Jacques-Antoine Friquet de Vauroze, 1687-1688, RP-P-BI-7524, https://www.rijksmuseum.nl/en/collection/RP-P-BI-7524\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 68, \"old_confidence\": 0.48, \"new_score\": 64, \"new_confidence\": 0.44, \"reason\": \"rests on retrospective encyclopaedic praise and priority for the clock and spring regulator was contested\"}], \"reviewed_kept\": [\"analytical_rigor\", \"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

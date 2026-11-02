@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "emilie-du-chatelet",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Émilie du Châtelet",
+    "aliases": [
+      "Emilie du Chatelet",
+      "Gabrielle Émilie Le Tonnelier de Breteuil",
+      "Marquise du Châtelet",
+      "Madame du Châtelet"
+    ],
+    "wikidataId": "Q7286",
+    "birthYear": 1706,
+    "deathYear": 1749,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "mathematician",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "theorist"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_chatelet_wikidata",
+      "kind": "wikidata",
+      "title": "Émilie du Châtelet (Q7286), verified live via the Wikidata API (2026-11-01): label 'Émilie du Châtelet', birth 1706-12-23 and death 1749-09-10 (day precision), Korean label 에밀리 뒤 샤틀레, image statements include a Nationalmuseum (Sweden) painting and a second file. The English description field currently reads 'Era chiná physicist, and author (1706-1749)', which looks like a garbled edit and was ignored. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7286"
+    },
+    {
+      "id": "src_chatelet_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Émilie du Châtelet', read through a fetched summary of the entry (not line by line). CANONICAL SIGNIFICANCE SOURCE: her 1740 Institutions de physique is called her magnum opus and supplies a Leibnizian and Wolffian metaphysics for Newtonian physics; her translation and commentary on Newton's Principia, written in the early 1740s and unpublished until 1759, is 'still the leading French translation'; she entered the 1737 Académie des sciences prize competition on fire, with her essay published alongside the winners (Euler won), and repeatedly revised it; she sought tutors in mathematics (Maupertuis, then Samuel König from 1739); her first principles were contradiction and sufficient reason, she was unusually open to hypotheses but set limits on them and dissented from Keill's extension of attraction; she defended Leibniz's vis viva against the Académie secretary Mairan; König accused her of plagiarism (the entry judges the charge misplaced), and Barber (1967) called her thought 'essentially derivative' while Wade (1947) argued for independence, the later view having become dominant. Scholarly reference.",
+      "url": "https://plato.stanford.edu/entries/emilie-du-chatelet/"
+    },
+    {
+      "id": "src_chatelet_mactutor",
+      "kind": "biography",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Émilie du Châtelet', read in full: Latin and languages as a girl; later tuition from Maupertuis and Clairaut, discussing some topics 'in the spirit of a collaborator'; the 1737 fire essay, which she entered without telling Voltaire until the winners were announced, published by the Académie in 1744; on a 1739 trip to Brussels she took many books and the mathematician König to teach her algebra so that her studies would not be interrupted; the Institutions de physique (1740) and the dispute with König; she began the Principia translation in 1745, a part was published in 1756 under Clairaut, and the whole in 1759; Voltaire's preface says the algebraic commentary was based on Clairaut's ideas, that she worked out the calculations and Clairaut checked each chapter; also quotes critics (a jealous cousin's description) and Voltaire's admiring Éloge. Independent institutional biography that leans on Voltaire's admiring testimony for her working habits.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Chatelet/"
+    },
+    {
+      "id": "src_chatelet_jstor",
+      "kind": "press",
+      "title": "Matthew Wills, 'Émilie Du Châtelet: Heroine of the Enlightenment', JSTOR Daily (22 July 2016), read in full: summarises Judith Zinsser's work on the Principia translation, which Wills says is still considered the standard French translation; she added a commentary with three ways into Newton's celestial mechanics, supplemented later discoveries, and was barred from all but the public sessions of the Académie des sciences because of her gender; a contemporary review said she 'offers us Newton made accessible to everyone'. Popular-scholarly summary of one scholar's research.",
+      "url": "https://daily.jstor.org/emilie-du-chatelet"
+    },
+    {
+      "id": "src_chatelet_hutton",
+      "kind": "press",
+      "title": "Sarah Hutton, review of 'Émilie Du Châtelet: Rewriting Enlightenment Philosophy and Science' (Eighteenth-Century Fiction 19:3, 2007, Project MUSE), read in full: calls the Principia translation a 'remarkable achievement', says her Institutions de physique helped make Leibniz's philosophy known in France, lists her poetry, plays, treatise on happiness, Bible commentary and translation of Mandeville, notes Diderot's acknowledgment of her in the Encyclopédie and German and Italian translations of the Institutions, and says her writings were later 'depreciated as mere translations, or presumed to be the work of the men of her circle', with Madame de Graffigny's unflattering remarks having tarnished her image. Independent scholarly review with the posthumous-reputation counter-voice.",
+      "url": "https://muse.jhu.edu/article/215704"
+    },
+    {
+      "id": "src_chatelet_svec",
+      "kind": "institution",
+      "title": "Voltaire Foundation (University of Oxford), publication page for 'Émilie Du Châtelet: Rewriting Enlightenment Philosophy and Science' (SVEC 2006:01, eds Judith P. Zinsser and Julie Candler Hayes), read in full: until recently she was 'more remembered as the companion of Voltaire than as an intellectual in her own right'; the volume treats her free translation of Mandeville's Fable of the Bees, the 1738 prize dissertation on fire, the 1740 Institutions de physique and the exchange with Mairan, her two-volume exegesis of the Bible, the Principia translation and commentary, and the Discours sur le bonheur. Publisher's description by scholars of the field.",
+      "url": "https://www.voltaire.ox.ac.uk/publication/emilie-du-ch%C3%A2telet/"
+    },
+    {
+      "id": "src_chatelet_blackburn",
+      "kind": "institution",
+      "title": "Elizabeth H. Blackburn, 'Émilie du Châtelet', She Thought It biography page, read for the first 7,500 characters: the fire essay studied with Voltaire at her Cirey laboratory; the 1740 anonymous first edition of the Institutions as a textbook for her son and its 1742 second edition under her name with her vis viva exchange with Mairan; the plagiarism charge by König; the Principia translation completed by spring 1747 with Clairaut's help and her added appendices and algebraic commentary (the start and completion dates differ from MacTutor's); Cirey as library, laboratory and meeting place for young mathematicians and writers. Secondary biographical summary with footnoted scholarship.",
+      "url": "https://shethoughtit.ilcml.com/biography/emilie-du-chatelet/"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chatelet_mactutor, src_chatelet_sep, src_chatelet_blackburn | 1734-1740 | institutional biography + scholarly reference + secondary biography] She took mathematics lessons from Maupertuis, then Clairaut, and later from Samuel König from 1739; MacTutor adds that she discussed some topics 'in the spirit of a collaborator' and that on the 1739 Brussels trip she carried many books and König to keep up her algebra so the journey would not interrupt her studies; the SEP says her advanced mathematics and physics were what let her write capably about Newton. The tutoring is documented in three sources, but the trip anecdote and the 'collaborator' judgment rest on MacTutor, which draws on Voltaire's admiring testimony."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chatelet_sep, src_chatelet_mactutor, src_chatelet_blackburn | 1737-1749 | scholarly reference + institutional biography + secondary biography] The SEP says she returned to her fire dissertation and revised it repeatedly, and Blackburn says she reworked the Institutions for a second edition in 1742 after the Mairan exchange and the plagiarism charge; MacTutor and the SEP date a multi-year Principia translation with a commentary in the 1740s that she completed before her death, with the complete work printed in 1759. Voltaire's preface in MacTutor adds that she worked hard and persistently, but that is a partner's admiring retrospective. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 62 / 0.50 to 58 / 0.44 because the strongest statement of her working effort is Voltaire's admiring preface and the start and completion dates of the translation conflict between sources."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chatelet_sep, src_chatelet_mactutor, src_chatelet_jstor | 1740-1759 | scholarly reference + institutional biography + press summary] The SEP describes her use of the principles of contradiction and sufficient reason as procedures for sorting the possible from the impossible, and her limits on hypotheses (they must not contradict first principles or observed facts, and one falsifying experiment can require rejecting part of one); MacTutor quotes Voltaire's preface that the algebraic commentary was worked out by her and checked chapter by chapter by Clairaut, and JSTOR Daily says her commentary offered three ways into Newton's mathematics at increasing difficulty. Most of this describes the method in her own writings, which is self-authored, and the SEP was read only through a fetched summary. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 64 / 0.52 to 60 / 0.48 because the method claim rests on her own texts as described by one reference entry that was read only in summary."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chatelet_sep, src_chatelet_blackburn, src_chatelet_mactutor, src_chatelet_hutton | 1734-1742 | scholarly reference + secondary biography + institutional biography + scholarly review] She supported Newtonian physics in a France where many intellectuals favoured Descartes (MacTutor); the SEP says she was unusually open to hypotheses when the Royal Society and the Académie tended to avoid them, dissented from Keill's extension of Newtonian attraction, and defended Leibniz's vis viva against the Académie's secretary Mairan, printing the exchange in the second edition (Blackburn); she entered the 1737 prize competition without telling Voltaire until the winners were announced (MacTutor). Her reasons are those of her own writings. Hutton and the SEP record that critics called her work derivative or the work of her circle, and the SEP sides with the independence view, so the evidence is disputed but leans to independent judgment."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chatelet_svec, src_chatelet_hutton, src_chatelet_sep | 1737-1749 | publisher description + scholarly review + scholarly reference] The Voltaire Foundation lists her dissertation on fire, the Institutions de physique, a free translation of Mandeville's Fable of the Bees, a two-volume Bible commentary, the Principia translation and the Discours sur le bonheur; Hutton adds poetry and plays and says she was as much a woman of letters as of science; the SEP adds the metaphysical and ethical parts of the Institutions. The breadth of output is well documented, but how she moved between fields is only partly documented and the Bible commentary and poetry are not described in the sources read."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에밀리 뒤 샤틀레"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/emilie-du-chatelet-fessard-after-nattier-c1750.jpg",
+    "width": 912,
+    "height": 1200,
+    "source": "Engraved portrait of Émilie du Châtelet by Étienne Fessard (named on the print) after a design by Jean-Marc Nattier, plate 147 x 97 mm, dated 1724-1777 by the museum; Rijksmuseum, Amsterdam, object RP-P-1910-5050, titled by the museum as a portrait of Émilie du Châtelet. The museum's record marks the image Public Domain. It is a later print after another artist's design and not a documented sitting, so it is a historical depiction. The file is a crop of the plate from the museum's 4364 x 5884 scan of the print and its mount, downscaled to 912 x 1200 with no upscaling.",
+    "license": "Public domain (Rijksmuseum Public Domain Mark; engraver Étienne Fessard died 1777)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Étienne Fessard after Jean-Marc Nattier, Portrait of Émilie du Châtelet, print, Rijksmuseum, Amsterdam (RP-P-1910-5050), public domain",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1910-5050",
+    "creator": "Étienne Fessard (engraver), after Jean-Marc Nattier",
+    "date": "1724-1777 (museum dating)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1910-5050"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED VIA THE LEAD'S ALTERNATIVE PATH (REPLACEMENT IMAGE): the lead's initial lead was an anonymous painting in a Swedish museum (Nationalmuseum NMDrh 796, the Wikidata image); I did not use it and did not open the Nationalmuseum page because the Rijksmuseum path was concrete. Used Rijksmuseum RP-P-1910-5050, 'Portret van Émilie du Châtelet', print by Étienne Fessard (credited on the object, died 1777) after a design by Jean-Marc Nattier, plate 147 x 97 mm, dated 1724-1777 by the museum. The linked-art record (id.rijksmuseum.nl/200391889, handle RM0001.COLLECT.332302) carries the statement 'Public Domain' with the Public Domain Mark URL on the image, the object page (opened) shows no conflicting notice, and the sitter is named in the museum's title. Source image from the museum's IIIF service was 4364 x 5884 (a scan of the print on its mount); I cropped to the plate and downscaled to 912 x 1200 with no upscaling. The second Rijksmuseum print RP-P-1911-1335 (anonymous lithograph, 1818-1842, Public Domain) was checked and not used. KIND historical_depiction: it is a later print after another artist's design and its date range extends past her death, so it is not a documented sitting. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q7286 label 'Émilie du Châtelet', birth 1706-12-23, death 1749-09-10 (the English description field is garbled and was ignored); not in prod62.txt and no candidate slug emilie-du-chatelet existed. REGION western_europe (French; precedent of French early-modern candidates). ERA early_modern. ZERO POLITICS: primary identity is natural philosopher and translator; court life, her marriage, her relationships, her children and the circumstances of her death are NOT scored and not carded. VOCABULARY: occupations physicist, mathematician, philosopher; fields physics, mathematics, philosophy; impactDomains scientific and historical; tags cross_disciplinary and theorist; archetype scholarly_specialist; all grepped in en.ts and ko.ts. KO NAME: Wikidata Korean label 에밀리 뒤 샤틀레. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Émilie du Châtelet' (https://plato.stanford.edu/entries/emilie-du-chatelet/, read through a fetched summary). READ: SEP (summary), MacTutor (full), JSTOR Daily (full), Hutton's review (full), Voltaire Foundation page (full), She Thought It biography (first 7,500 characters): six substantive sources plus Wikidata. PERSPECTIVES: scholarly reference (SEP), institutional biography with Voltaire's admiring testimony (MacTutor), independent scholarly review (Hutton), publisher/field description (SVEC), popular-scholarly summary (JSTOR Daily), secondary biography (Blackburn). COUNTER-VOICES AND LIMITS: König's plagiarism charge and Barber's 1967 'essentially derivative' verdict (both via the SEP, which rejects them), a jealous cousin's unflattering description and Madame de Graffigny's remarks (via MacTutor and Hutton); Voltaire is her partner and an admiring source for her working habits. NOT OPENED: the Principia translation and the Institutions themselves, Zinsser's biography and article (Cloudflare block), Bodanis's biography, Wade 1947, the AMS Bulletin note (opened but it derives from MacTutor and Wikipedia, so not cited), Britannica (not archived). Conflicts: the Principia translation started 1745 (MacTutor) or the early 1740s (SEP) and was completed by spring 1747 (Blackburn) or just before her death; the cards therefore say only 'in the 1740s'. NOT USED: the 'first woman to publish in the Académie' claim (one derivative source), and Voltaire's birth-day anecdote and any remarks about her health or death. SPARSE PRE-MODERN PROFILE: five rows, none above 62, confidence 0.44-0.50, self-authored works treated as self-report. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (62/0.50 lowered to 58/0.44), analytical_rigor (64/0.52 lowered to 60/0.48), independent_thinking (kept). HANDBACK62: {\"slug\": \"emilie-du-chatelet\", \"portrait_preflight_grade\": \"STRONG\", \"initial_lead\": \"anonymous painting (Swedish museum, Nationalmuseum NMDrh 796)\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam: Etienne Fessard after Jean-Marc Nattier, 'Portret van Emilie du Chatelet', RP-P-1910-5050, handle RM0001.COLLECT.332302, https://www.rijksmuseum.nl/en/collection/RP-P-1910-5050\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 62, \"old_confidence\": 0.5, \"new_score\": 58, \"new_confidence\": 0.44, \"reason\": \"the strongest statement of her working effort is Voltaire's admiring preface and the start and completion dates of the translation conflict between sources\"}, {\"attribute\": \"analytical_rigor\", \"old_score\": 64, \"old_confidence\": 0.52, \"new_score\": 60, \"new_confidence\": 0.48, \"reason\": \"the method claim rests on her own texts as described by one reference entry that was read only in summary\"}], \"reviewed_kept\": [\"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

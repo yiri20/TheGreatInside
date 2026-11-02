@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "william-james",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "William James",
+    "aliases": [
+      "William James the psychologist and philosopher"
+    ],
+    "wikidataId": "Q125249",
+    "birthYear": 1842,
+    "deathYear": 1910,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "scholar",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "theorist",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wjames_wikidata",
+      "kind": "wikidata",
+      "title": "William James (Q125249), verified live via the Wikidata API (2026-11-01): label 'William James', description 'American philosopher, psychologist, and pragmatist (1842-1910)', born 11 January 1842, died 26 August 1910, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q125249"
+    },
+    {
+      "id": "src_wjames_sep",
+      "kind": "biography",
+      "title": "'William James', Stanford Encyclopedia of Philosophy, read in full. CANONICAL SIGNIFICANCE SOURCE: a scholarly overview that presents James as an original thinker across physiology, psychology and philosophy whose Principles of Psychology (1890) influenced Husserl, Russell, Dewey and Wittgenstein and whose late works (Pragmatism 1907, A Pluralistic Universe 1909, Essays in Radical Empiricism 1912) set out his mature views; gives a dated timeline (Harvard teaching from 1872, psychology from 1874-75, the twelve-year writing of the Principles, the 1898 pragmatist lecture, the 1901-02 Gifford Lectures), quotes his own letter calling the manuscript a 'loathsome, distended, tumefied, bloated, dropsical mass', records his later wish to have titled 'The Will to Believe' 'the right to believe', and records Russell's praise of his 'large tolerance and humanity' and his criticisms of Spencer, Hegel, Royce and Wundt. Scholarly reference; the praise is retrospective.",
+      "url": "https://plato.stanford.edu/entries/james/"
+    },
+    {
+      "id": "src_wjames_seppragmatism",
+      "kind": "biography",
+      "title": "'Pragmatism', Stanford Encyclopedia of Philosophy, read (the passages on James): says pragmatism gained prominence through James's 1898 public lectures and his 1907 book Pragmatism, which presented the method through examples and as a 'mediating philosophy' between tough-minded and tender-minded temperaments; records that Peirce and James split over truth, that Peirce renamed his own view 'pragmaticism', that Peirce called 'The Will to Believe' 'a very exaggerated utterance', and that Russell argued James's account of truth commits him to the truth of 'Santa Claus exists', a reading the article calls unfair. Used as the independent, critical voice on James's pragmatism.",
+      "url": "https://plato.stanford.edu/entries/pragmatism/"
+    },
+    {
+      "id": "src_wjames_gale",
+      "kind": "biography",
+      "title": "'William James', in the Encyclopedia of Philosophy / Dictionary of the History of Ideas reference set (Gale), via Encyclopedia.com, read in part (the first 200,000 characters of a 265,000-character compilation of several entries; the final section was not read): early training under Wyman and Agassiz, M.D. 1869 never practised, Harvard teaching of physiology from 1873, psychology from 1875 and philosophy from 1879, Harvard resignation 1907; the Principles of Psychology (1890) as his major work; Talks to Teachers (1899); Varieties (1902); Pragmatism (1907); students and colleagues including Santayana, Stein, Munsterberg and Hall; records that he tired of laboratory work and recruited Munsterberg to run experiments at Harvard, that he served as president of the Society for Psychical Research for two years and 'refused to dismiss data' that conflicted with theory, that the James-Lange theory drew heavy criticism and was modified several times, and critical assessments (Lovejoy's 'Thirteen Pragmatisms', Russell, Barzun on lack of system, charges of contradiction between tough-minded and tender-minded strands). Multi-author reference; mixed praise and criticism.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/philosophy-biographies/william-james"
+    },
+    {
+      "id": "src_wjames_houghton",
+      "kind": "archive",
+      "title": "'William James: Life is in the transitions', online exhibition by Linda Simon, Houghton Library, Harvard (Internet Archive capture of the former Harvard Library pages), read: Introduction, Harvard Professor, Psychical Research and Touching Bottom pages. Archive-based narrative: at the start of a 34-year Harvard career James taught comparative anatomy and physiology, asked President Eliot to let him move into the new field of 'mental science', and in 1875-76 offered what the exhibition calls the first graduate course in psychology taught in America; accepted a Holt contract in 1878 to write a psychology textbook and warned it might take two years, 'It took twelve'; involved in the London Society for Psychical Research from 1882, helped found the American Society for Psychical Research in 1884, headed its committee investigating mediums and attended seances, and called the medium Leonora Piper his 'white crow'. The exhibition's account of his 1860s-1870 health and vocational crisis is deliberately not used for scoring. Curated institutional narrative from the Houghton holdings; admiring in tone.",
+      "url": "https://wayback.archive-it.org/5456/20180606140043/http://www.hcl.harvard.edu/libraries/houghton/exhibits/james/professor.cfm"
+    },
+    {
+      "id": "src_wjames_hall1895",
+      "kind": "archive",
+      "title": "William James, letter of 19 October 1895 to the editor of Science disputing G. Stanley Hall's account of the origin of Harvard's experimental psychology, in 'Letters on the origins of American psychology laboratories' (Classics in the History of Psychology, York University), read: James gives his own dated account (instruction in experimental psychology from 1874-75 or 1876, a laboratory in two rooms of the Scientific School building, a 1890 fund-raising of several thousand dollars to fit out Dane Hall, Herbert Nichols appointed assistant in 1891, Munsterberg director in 1892); the same issue carries rebuttals by Ladd, Baldwin and Cattell of Hall's claims about their own laboratories. Primary, self-authored; used only for dated facts about the laboratory and one public act of correction, never as sole support.",
+      "url": "https://psychclassics.yorku.ca/Special/Institutions/correspondence.htm"
+    },
+    {
+      "id": "src_wjames_santayana",
+      "kind": "biography",
+      "title": "George Santayana, 'William James', chapter III of Character and Opinion in the United States (1920), Project Gutenberg edition, read in full: a former pupil and Harvard colleague's portrait: praises James's 'fresh imagination and vitality', his gift for 'evoking vividly the very life of the mind' and his break with false conventions; criticises him as too impulsive for 'exact sympathy', an impressionistic reader of other thinkers' theories whose 'intuition outran his patience', and a man who 'had no system in particular'; records that Harvard colleagues and the public were wary of a professor who 'dabbled in hypnotism' and 'frequented mediums', and that he would stop in a lecture to ask what he had been talking about. Independent, partly admiring and partly critical, written a decade after his death by a philosopher who disagreed with him.",
+      "url": "https://gutenberg.org/cache/epub/34654/pg34654-images.html"
+    },
+    {
+      "id": "src_wjames_npg",
+      "kind": "institution",
+      "title": "'William James', platinum print by Alice M. Boughton, about 1907, National Portrait Gallery, Smithsonian Institution (object NPG.87.37), read via the Smithsonian Open Access API record, for the portrait review only. Not used for any row.",
+      "url": "https://npg.si.edu/object/npg_NPG.87.37"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wjames_houghton, src_wjames_gale, src_wjames_santayana, src_wjames_sep | 1872-1909 | institutional exhibition, multi-author reference, former pupil's memoir, scholarly overview] He left a path of painting, chemistry, anatomy and medicine for a new 'mental science' and asked President Eliot to let him teach it; from 1882 he joined the London Society for Psychical Research, in 1884 helped found the American Society, led its committee investigating mediums and attended seances, and on his 1882 European trip he met Hering, Stumpf, Mach, Wundt and Charcot; Gale's reference says he 'refused to dismiss data' that conflicted with prevailing theory while also being good at spotting frauds, and Santayana, an independent and critical witness, records that conventional colleagues were wary of a professor who 'dabbled in hypnotism' and 'frequented mediums'. Four sources of different kinds converge on sustained, costly inquiry into unfashionable questions. The motives behind the psychical research are not scored. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 78 / 0.62 to 72 / 0.54 because the strongest statements come from an institutional exhibition and a former pupil's memoir, and the counter-voices were read only through summaries."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wjames_sep, src_wjames_gale, src_wjames_houghton | 1861-1909 | scholarly overview, multi-author reference, institutional exhibition] The overview and the Gale reference describe training in chemistry, comparative anatomy, physiology and medicine, teaching of physiology (1872-73), psychology (1874-75) and philosophy (1879-80), and an eclectic Principles of Psychology that mixes introspection, physiology and laboratory findings from Wundt, Stumpf and Fechner; Gale adds that he refused to split physiology, psychology and philosophy into separate fields and wrote Talks to Teachers for educators; the exhibition adds the psychical-research work and the religion lectures. Breadth is documented by offices, courses and books in several fields. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.62 to 74 / 0.54 because breadth across psychology, philosophy and religion is documented by reference works that echo one another, with no independent behavioural account of how he moved between fields."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wjames_sep, src_wjames_santayana, src_wjames_gale | 1890-1909 | scholarly overview, former pupil's memoir, multi-author reference] The overview credits the Principles (the stream-of-thought account, the 'fringe' and 'halo' ideas taken up by Husserl, and views of the will that Wittgenstein learned from) and the later radical-empiricist 'pure experience' doctrine; Santayana, a critical contemporary, grants his 'fresh imagination' and 'gift for evoking vividly the very life of the mind' and says he broke through many a false convention, while Gale records that the James-Lange theory of emotion was heavily criticised and revised. Originality is read from influence claims in retrospective reference works plus one independent contemporary judgement; the independent source is mixed in its verdict on rigour, so the confidence is held below 0.6. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 76 / 0.58 to 70 / 0.52 because originality is retrospective praise, and the sources themselves record that pragmatism was shared with Peirce and drew sharp criticism."
+    },
+    "intuitive_synthesis": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wjames_santayana, src_wjames_sep, src_wjames_gale | 1890-1910 | former pupil's memoir, scholarly overview, multi-author reference] Santayana describes a mind whose 'intuition outran his patience', who made 'brilliant impressionistic' sketches of theories and persons, took things 'one by one' rather than putting 'two and two together', and was 'too impulsive for exact sympathy'; the overview describes the Principles as an eclectic gathering of introspection, physiology and laboratory results that James himself called a 'mass' of descriptive detail, and James abandoned his planned philosophical 'system' in 1910; Gale quotes Barzun on the lack of systematic presentation. The pattern is a gift for holistic, vivid synthesis with a documented cost in precision, read mainly from one critical memoir and reference summaries. RUBRIC_CORRECTION (lead review, before eligibility): intuitive_synthesis lowered from 74 / 0.58 to 68 / 0.5 because this rests on a pupil's affectionate memoir and encyclopedic characterisation rather than documented working behaviour."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wjames_sep, src_wjames_houghton, src_wjames_santayana, src_wjames_seppragmatism | 1878-1907 | scholarly overviews, institutional exhibition, former pupil's memoir] The overview records him criticising Spencer, Hegel's 'vicious intellectualism', Royce's idealism and Wundt's 'feeling of innervation' in print; the exhibition says he used Spencer as a text and found him 'infuriating', and took a stand against Spencer and Hegel from 1878; the pragmatism entry records that he and Peirce parted over the nature of truth; Santayana says the establishment doubted a teacher with 'no system in particular'. Documented positions against prevailing authorities, with the caveat that several of these are his own critiques as reported by the reference works. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 72 / 0.58 to 68 / 0.52 because reference overviews describe his positions but give little independent evidence of how he resisted prevailing views."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wjames_sep, src_wjames_gale, src_wjames_seppragmatism | 1884-1910 | scholarly overviews, multi-author reference] The overview reports that James later wished he had called 'The Will to Believe' 'the right to believe', that Varieties and A Pluralistic Universe admit and partly defend positions he had left open, and that in 1910 he gave up the attempt to complete a 'system'; Gale records that the James-Lange theory of emotion was modified several times after heavy criticism. Against this, the pragmatism entry records Peirce's complaint that the Will to Believe essay was 'a very exaggerated utterance', and the same overview notes he defended rather than withdrew his core claims. The updating is documented but modest and mostly clarification, so the score is moderate and the confidence is low."
+    },
+    "ambiguity_tolerance": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_wjames_sep, src_wjames_seppragmatism, src_wjames_gale, src_wjames_santayana | 1898-1909 | scholarly overviews, multi-author reference, former pupil's memoir] James framed pragmatism as a mediator between tough-minded and tender-minded temperaments, urged tolerance of other viewpoints, kept the scientific and the possibly beyond-science readings of religious experience open (SEP notes this oscillation), and left unresolved questions in psychical research; Russell's obituary praise of his 'large tolerance' is cited, while Gale records charges of contradiction from both tender-minded and tough-minded critics and Santayana calls his view of other thinkers impressionistic. Tolerance of unresolved questions is documented; the cost in coherence is also documented, hence dual-edged."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wjames_gale, src_wjames_hall1895, src_wjames_houghton, src_wjames_santayana | 1884-1895 | multi-author reference, self-authored letter, institutional exhibition, former pupil's memoir] Gale says he tired of laboratory work and recruited Hugo Munsterberg to run the Harvard experiments, and his 1895 letter confirms Munsterberg became director in 1892 and that Herbert Nichols was appointed assistant in 1891 and covered the undergraduate course; the exhibition records that he attended seances with Royce and that the American Society's Piper investigations were conducted mostly by Richard Hodgson, and Santayana says his pupils and friends were 'attached' to him. Evidence shows delegation and joint institution-building rather than collaboration on shared work, and parts depend on his own letter, so the score and confidence are moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "윌리엄 제임스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/william-james-boughton-1907.jpg",
+    "width": 905,
+    "height": 1200,
+    "source": "Portrait photograph (platinum print) of William James by Alice M. Boughton, about 1907, National Portrait Gallery, Smithsonian Institution (object NPG.87.37). The Smithsonian Open Access record for the object states 'Restrictions & Rights: CC0', and its image media carry the usage access value CC0; the photographer (1866-1943) is long dead. The file is the Wikimedia Commons crop of the Smithsonian's own scan (the Commons page cites the NPG, the CC0 release and the creator's death year), downscaled only, from 4711 x 6245 to 905 x 1200 pixels; no upscaling. The NPG object web page itself blocks scripted requests, so the rights statement was read from the Smithsonian Open Access API record.",
+    "license": "CC0 (Smithsonian Open Access); photographer died 1943",
+    "licenseUrl": "https://npg.si.edu/object/npg_NPG.87.37",
+    "attribution": "Alice M. Boughton, William James, c. 1907, platinum print, National Portrait Gallery, Smithsonian Institution (NPG.87.37), CC0",
+    "attributionUrl": "https://npg.si.edu/object/npg_NPG.87.37",
+    "creator": "Alice M. Boughton",
+    "date": "c. 1907",
+    "kind": "likeness",
+    "sourcePageUrl": "https://npg.si.edu/object/npg_NPG.87.37"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED: the lead's Boughton c.1907 NPG photograph (object NPG.87.37) is CC0 per the Smithsonian Open Access API record (freetext objectRights 'CC0'; media usage access 'CC0'; metadata usage CC0; artist Alice M. Boughton 14 May 1866 - 21 Jun 1943; sitter William James; platinum print; credit line National Portrait Gallery, Smithsonian Institution). The NPG object web page and the ids.si.edu download service both rejected scripted requests (403 / 'Request Rejected'), so the rights statement was read from the Smithsonian API record, not the live HTML page; I did not find any conflicting notice. The file used is the Wikimedia Commons cropped copy of the same NPG scan ('William James by Alice M. Boughton, c. 1907 ... NPG-NPG 87 37James-000001 (cropped).jpg'; Commons page cites the NPG CC0 release and PD-old-auto-expired with creator death 1943), original 4711 x 6245, downloaded, opened, viewed (a bearded older man in a dark suit and spotted bow tie, photographer's signature visible lower left), downscaled only to 905 x 1200; kind likeness (documented sitting by a named photographer). Hence portrait_lead_or_replacement 'lead' (same photograph, Commons crop of the museum scan).\nPREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q125249 label 'William James', description 'American philosopher, psychologist, and pragmatist (1842-1910)', born 1842-01-11, died 1910-08-26, citizenship US, Korean label present; not in prod62.txt and no candidate file existed. Region north_america, nationality US, era 19th_century (born 1842, Principles 1890). ZERO POLITICS: his 1899 Anti-Imperialist League membership and 'Moral Equivalent of War' essay are mentioned in the sources but neither scored nor carded; primary identity is psychology and philosophy. VOCABULARY: occupations philosopher, scholar, teacher (psychologist has no label); fields philosophy and education (psychology has no label); impact domains scientific, educational, historical; tags philosopher, theorist, cross_disciplinary; archetypes cross_disciplinary_generalist, scholarly_specialist; all grepped in en.ts and ko.ts. KO NAME: Wikidata Korean label (also the standard transliteration).\nCANONICAL SIGNIFICANCE SOURCE: 'William James', Stanford Encyclopedia of Philosophy (https://plato.stanford.edu/entries/james/).\nREAD: SEP James (in full), SEP Pragmatism (James passages), Gale reference compilation via Encyclopedia.com (first 200,000 of 265,000 characters; last section unread), Houghton Library exhibition (Introduction, Harvard Professor, Psychical Research, Touching Bottom pages), James's 1895 letter in Science (via Classics in the History of Psychology), Santayana's chapter on James (full). That is six substantive sources plus the Wikidata and NPG records. PERSPECTIVES: scholarly overview, multi-author reference, institutional archive exhibition, primary letter (self), a former pupil and colleague who partly disagreed with him, a pragmatism overview that records Peirce's and Russell's objections. COUNTER-VOICES: Peirce (renamed his own view because of James's version; called the Will to Believe 'a very exaggerated utterance'), Russell, Lovejoy, Barzun, and Santayana's criticism of his method; none opened in their original text (all known through the SEP and Gale summaries, so no row relies on them alone). NOT OPENED: Richardson's and Simon's full biographies (lending-only), Perry's The Thought and Character of William James, the Harvard Psychology Department page on James (403), Britannica (403), Du Bois-James and Calkins material beyond Wikipedia (Wikipedia not counted). EXCLUDED: illness, depression and bereavement episodes (Houghton 'Touching Bottom'), family life, the motives behind his psychical research, anti-imperialist and anti-war writings.\nMAJOR ACHIEVEMENT SELF-GATE: first pass PASS on all five checks (see draft review). SELF-CALIBRATION (agent): rows reviewed under the high-risk pass: creative_originality (retrospective influence claims; kept at 76 / 0.58 because Santayana, an independent critic, independently credits imaginative originality and the confidence is already below 0.6), curiosity (kept: four sources of different kinds including a critical memoir converge), cross_domain_range (kept: documented offices, courses and books). No rows lowered. BROAD FLAG: none; no full-length biography was read, so collaboration and belief_updating stay low-confidence.\nHANDBACK62: {\"slug\": \"william-james\", \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"initial_lead\": \"Alice Boughton c.1907 (NPG Smithsonian)\", \"final_portrait_source\": \"National Portrait Gallery, Smithsonian Institution, NPG.87.37, Alice M. Boughton c.1907 platinum print, CC0 per Smithsonian Open Access API record (https://npg.si.edu/object/npg_NPG.87.37); file used is the Wikimedia Commons crop of the NPG scan, downscaled to 905x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 8, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"creative_originality\", \"curiosity\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 8} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.62 to 74 / 0.54 because breadth across psychology, philosophy and religion is documented by reference works that echo one another, with no independent behavioural account of how he moved between fields. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 78 / 0.62 to 72 / 0.54 because the strongest statements come from an institutional exhibition and a former pupil's memoir, and the counter-voices were read only through summaries. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 76 / 0.58 to 70 / 0.52 because originality is retrospective praise, and the sources themselves record that pragmatism was shared with Peirce and drew sharp criticism. RUBRIC_CORRECTION (lead review, before eligibility): intuitive_synthesis lowered from 74 / 0.58 to 68 / 0.5 because this rests on a pupil's affectionate memoir and encyclopedic characterisation rather than documented working behaviour. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 72 / 0.58 to 68 / 0.52 because reference overviews describe his positions but give little independent evidence of how he resisted prevailing views."
+  }
+}

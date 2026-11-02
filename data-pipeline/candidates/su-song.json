@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "su-song",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Su Song",
+    "aliases": [
+      "Su Sung",
+      "Su Zirong",
+      "蘇頌",
+      "苏颂"
+    ],
+    "wikidataId": "Q1265657",
+    "birthYear": 1020,
+    "deathYear": 1101,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "engineer",
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "engineering",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "engineering",
+      "technological"
+    ],
+    "tagIds": [
+      "polymath",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_susong_wikidata",
+      "kind": "wikidata",
+      "title": "Su Song (Q1265657), verified live via the Wikidata API (2026-11-01): label 'Su Song', description 'Chinese polymath and statesman (1020-1101)', birth 1020, death 1101, Korean label 소송, image 'Su Song full-length' album picture. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1265657"
+    },
+    {
+      "id": "src_susong_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Su Song' (public introduction paragraph opened; the rest of the entry is subscriber-only). CANONICAL SIGNIFICANCE SOURCE: Su Song (born 1020 Fujian, died 1101 Kaifeng) was a Chinese scholar and administrative and financial expert in the imperial bureaucracy; his Illustrated Pharmacopoeia (1070) revealed his knowledge of drugs, zoology, metallurgy and related technology; an armillary clock he built to serve as the basis of calendrical reform was housed in a 35-foot (11 m) tower and powered by a waterwheel and chain drive, with a mechanism that anticipated techniques not used in Europe for hundreds of years. Encyclopaedic reference; the 'anticipated Europe' wording is retrospective praise and is not carded.",
+      "url": "https://www.britannica.com/biography/Su-Song"
+    },
+    {
+      "id": "src_susong_songshi",
+      "kind": "archive",
+      "title": "Song Shi (History of Song), chapter 340, biography of Su Song (compiled in the Yuan dynasty, about 1345; Chinese Wikisource transcription), read in full for the Su Song section: official career in provincial and court posts; commissioned to make a new armillary sphere and put in charge; used the Ministry of Personnel clerk Han Gonglian, who understood calculation and had ingenuity; a three-tier tower with an armillary sphere above, a celestial globe in the middle and a time-announcing section below, linked by one mechanism that turned wheels with flowing water without human power; and a closing assessment that he was broad-minded, self-restrained by ritual and law, lived plainly despite high rank, and was versed in classics, histories, harmonics, star officials, mathematics, mountain-and-river texts and materia medica. Written about 250 years after his death in the genre of official eulogy; administrative and political episodes in it are NOT scored.",
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2/%E5%8D%B7340"
+    },
+    {
+      "id": "src_susong_xinhua",
+      "kind": "press",
+      "title": "Xinhua Daily Telegraph (Yi Yangang and Yan Zhihong), 'Some say Leonardo da Vinci was the Western Su Song; so who was Su Song?' (news.cn, 20 June 2025), read through a fetched summary of the article: a Northern Song statesman, astronomer, pharmacologist, mechanical engineer and poet; he led the water-powered armillary-sphere and clock tower with a team of skilled craftsmen including Han Gonglian and Wang Yizhi, over more than three years; a three-tier tower with armillary sphere, rotating celestial globe and time-keeping gear train; his Xin Yixiang Fayao is described as a very early illustrated machine manual; the 21-volume Bencao Tujing took about four years, covers 780 medicines with 933 illustrations and is called the earliest printed herbal with specimen illustrations; he had local officials identify and draw medicinal materials; Needham is quoted on the combination of clockwork and observing armillary sphere; the article also remarks that astronomy served imperial legitimacy and limited public access. A celebratory modern popular article; its 'world first' wording is not carded.",
+      "url": "https://www.news.cn/politics/20250620/79eddf5bff894c6282600fc4445eac83/c.html"
+    },
+    {
+      "id": "src_susong_peoplesforum",
+      "kind": "press",
+      "title": "Sarina (Shanghai Jiao Tong University), 'How Ancient China Encouraged Technological Innovation: The Song Dynasty's Science Rewards', People's Forum, 1 August 2022 (paper.people.com.cn), read through a fetched summary: Su Song initiated and organised the 1088 water-powered armillary sphere and clock tower, selected talent without regard to rank and put the low-ranking Han Gonglian, strong in astronomy and calculation, directly on the team; the tower's opening roof, daily-rotating globe and anchor-shaped escapement are noted; Needham is quoted that it may be the direct ancestor of medieval European astronomical clocks. Celebratory, no criticism offered; used only to corroborate the Han Gonglian recruitment.",
+      "url": "https://paper.people.com.cn/rmlt/html/2022-08/01/content_25947238.htm"
+    },
+    {
+      "id": "src_susong_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Su Song' (raw wikitext read for orientation and for the citations it points to: Needham, Science and Civilisation in China vol. 4 part 2; the observation that the tower was a government project that did not lead to mass-produced clocks (Derk Bodde, as cited there); and the dates 1088 model, 1090 bronze casting, 1094 completion). Orientation only; never counted as a substantive source or used as support for a row.",
+      "url": "https://en.wikipedia.org/wiki/Su_Song"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_susong_songshi, src_susong_britannica, src_susong_xinhua | c.1050-1100 | Yuan-era official history, encyclopedia, modern press] The Song Shi closes his biography by saying he was versed in classics, histories, harmonics, star officials, mathematics, mountain-and-river texts and materia medica; Britannica credits him with the 1070 Illustrated Pharmacopoeia (drugs, zoology, metallurgy) and an armillary clock built as the basis of calendrical reform; Xinhua lists pharmacology, astronomy and mechanical engineering. The breadth of output (a pharmacopoeia and a clock-tower project) is documented, but the Song Shi sentence is a conventional eulogy, the press pieces are celebratory, and nothing shows how he moved between fields. Political and administrative offices are NOT scored. SELF-CALIBRATION (agent): reviewed as the top-risk row; lowered from 68 / 0.48 to 64 / 0.44 because the breadth claim rests on a formulaic eulogy plus celebratory press and only Britannica independently confirms two fields."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_susong_songshi, src_susong_xinhua, src_susong_peoplesforum | 1080s | official history, modern press] The Song Shi says that, put in charge of the new armillary sphere, he took the Ministry of Personnel clerk Han Gonglian, who understood calculation and had ingenuity, and had him build the tower; Xinhua says he led a team of craftsmen including Han Gonglian and Wang Yizhi for more than three years; the People's Forum article says he picked Han Gonglian regardless of his low rank. The Han Gonglian recruitment is repeated across all three, but the two press articles may simply retell the official history, so the evidence is one documented pattern, not three independent episodes; how the team actually worked is not described."
+    },
+    "planning_orientation": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_susong_songshi, src_susong_xinhua, src_susong_britannica | 1080s-1090s | official history, press, encyclopedia] The Song Shi describes a tower planned as three tiers (armillary sphere, globe, time-announcing section) coupled to one water-driven mechanism; Xinhua says construction took more than three years and that he wrote a treatise with drawings of the whole instrument and its parts, and that he had local officials identify and illustrate medicinal materials for the herbal; Britannica says the clock was built to serve a calendrical-reform purpose. These are consistent with deliberate, staged planning of a large instrument and a large compilation, but the plans themselves and the working schedule are not documented in the sources read, so confidence is low."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_susong_songshi, src_susong_britannica | 1050s-1090s | official history, encyclopedia] The Song Shi says he was deeply versed in calendrical science and harmonics and was consulted by the court on institutional matters, and Britannica describes an armillary clock built to serve calendrical reform and a pharmacopoeia that showed deep knowledge of drugs and metallurgy. This is consistent with sustained deepening of technical expertise across his career, but the evidence is retrospective, the court-consultation part is administrative and is not scored, and no source describes his own study habits first-hand."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "소송"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. The only candidate is Commons 'File:蘇頌全身.jpg' (408 x 749), an album picture whose source field points to the Zhejiang Library 'famous people' digital page; the artist is recorded only as unknown, no date of the original is given, the holder page did not respond, and the licence is a bare PD-old tag with no item-level basis. The cropped 'Su Song partiel.jpg' derives from it. Other Commons files are clock-tower diagrams and star maps, and the statues are modern sculptures with their own rights. Next step: find a Song, Ming or Qing portrait of Su Song in a museum or library with an item-level public-domain or open-access statement, or the original Zhejiang Library record naming the artist, date and terms."
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (lead; initial lead Zhejiang library 'famous people' album image, rights basis none concrete, alternatives none found) / CONFIRMED RISKY, RESULT HELD. PORTRAIT FINDING: the only image of Su Song on Commons is 'File:蘇頌全身.jpg' (408 x 749, uploaded 2015 by Sunshine567); its description page gives source 'diglweb.zjlib.cn:8081/zjtsg/mingren/...' (the Zhejiang Library 'famous people' digital page, which did not respond when fetched), author '不詳' (unknown), date given only as an upload timestamp, and a bare PD-old tag with no stated artist, date of the original, or institutional terms. Commons 'File:Su Song partiel.jpg' is a 2017 crop of that same file relabelled 'supposed portrait', CC BY-SA 4.0 applied by the cropper to an unlicensable derivative. The other Su Song files are diagrams of the clock tower and star maps from his book, not portraits. A web search for a Qing-era portrait-album or museum copy found nothing; the Tong'an statues are modern sculptures (derivative works with their own rights). Unknown artist, unknown date, no verifiable holder terms: a generic PD-old tag is not a rights basis, and the image is a posthumous, evidently conventionalised depiction whose sitter identification rests only on the Zhejiang album caption. HOLD. NEXT STEP: obtain a Song or Ming/Qing portrait of Su Song from a museum with an item-level public-domain or open-access statement (for example a portrait-album page in a national or provincial museum collection), or the original Zhejiang Library page stating the artist, date and terms. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q1265657 label 'Su Song', description 'Chinese polymath and statesman (1020-1101)', birth 1020, death 1101; not present in prod62.txt; no existing candidate file for su-song. REGION east_asia. ERA medieval (Su Shi precedent). nationalityCodes left empty as for Su Shi. ZERO POLITICS: Su Song was also a high official and, per the Song Shi, chief minister in his last years, and negotiated with the Liao; his primary historical identity here is the scientist-engineer of the clock tower and the pharmacopoeia, so none of the court, ministerial, legal or diplomatic episodes in the Song Shi (the Li Ding dispute, the Liao calendar answer, the Kaifeng governorship, the impeachments) are carded or scored. VOCABULARY: occupations astronomer, engineer, scientist; fields natural_science, engineering, medicine; impactDomains scientific, engineering, technological; tags polymath, systematic_thinker; archetype technical_innovator, all taken from en.ts and ko.ts labels. KO NAME: Wikidata Korean label 소송. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Su Song' (https://www.britannica.com/biography/Su-Song). READ: Song Shi chapter 340 Su Song biography (full, Chinese Wikisource transcription), Britannica public introduction paragraph, Xinhua Daily Telegraph article (via fetched summary), People's Forum article (via fetched summary): four substantive sources, below the 6-9 target because the English-language scholarly literature is behind paywalls or lending-only copies (see NOT OPENED); plus Wikidata and Wikipedia for orientation only. The 1965 Acta Automatica Sinica article (Van Be-Wu) was opened at abstract level only and is not cited. PERSPECTIVES: imperial-era official history (Song Shi, a Yuan compilation about 250 years later), encyclopaedic reference (Britannica), two modern state-media popular articles (Xinhua, People's Forum). COUNTER-VOICES AND LIMITS: the sources are admiring; the Song Shi is a eulogy-genre biography; the two press pieces may retell it; the only critical notes are Xinhua's remark that astronomy served imperial legitimacy and limited public access, and the Wikipedia-cited point (Derk Bodde, not opened) that the tower did not lead to mass-produced clocks because it was a government instrument. There is no first-hand source on his working behaviour beyond the Song Shi. NOT OPENED: Needham, Wang and Price, Heavenly Clockwork (Cambridge, 1960/1986; Internet Archive lending-only, no text served) and Science and Civilisation in China vol. 4 part 2; the 1963 Nature article on a working model of the escapement (login wall); Su Song's own memorial and the Xin Yixiang Fayao preface (no usable transcription found); the Siku catalogue entry (403); chinaknowledge.de (TLS failure); Britannica's subscriber-only body. All Needham praise appears only as quoted in the two Chinese press articles and is NOT used as evidence. LEGEND VERSUS SCHOLARSHIP: 'six centuries ahead of Europe', 'earliest' and 'world first' claims in the press are not carded or scored; completion dates differ between sources (1088 model, 1092 or 1094 completion), so the cards say 'late 1080s to early 1090s'. VERY SPARSE PROFILE for a medieval subject: four rows, none above 64, confidence 0.38-0.44. SELF-CALIBRATION (agent): top-risk rows reviewed: cross_domain_range (68/0.48 lowered to 64/0.44, see rationale), collaboration (kept: recruitment pattern is stated in all three sources), mastery_orientation (kept: lowest-evidence row already at 0.38). HANDBACK62: {\"slug\": \"su-song\", \"portrait_preflight_grade\": \"RISKY\", \"initial_lead\": \"Zhejiang library 'famous people' album image (Commons File:蘇頌全身.jpg)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The lead was already risky and held as predicted: the only portrait on Commons is a Zhejiang Library album image with unknown artist, unknown date, a dead holder page and a bare PD-old tag; no alternative portrait (museum, album or print) with an item-level statement was found.\", \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"cross_domain_range\", \"old_score\": 68, \"old_confidence\": 0.48, \"new_score\": 64, \"new_confidence\": 0.44, \"reason\": \"the breadth claim rests on a formulaic official-history eulogy plus celebratory press and only Britannica independently confirms two fields\"}], \"reviewed_kept\": [\"collaboration\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

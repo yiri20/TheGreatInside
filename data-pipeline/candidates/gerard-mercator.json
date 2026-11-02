@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gerard-mercator",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gerardus Mercator",
+    "aliases": [
+      "Gerard Mercator",
+      "Gerhard Mercator",
+      "Gerardus Mercator",
+      "Gerard de Kremer",
+      "Gheert Cremer"
+    ],
+    "wikidataId": "Q6353",
+    "birthYear": 1512,
+    "deathYear": 1594,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "BE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "scientist"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mercator_wikidata",
+      "kind": "wikidata",
+      "title": "Gerardus Mercator (Q6353), verified live via the Wikidata API (2026-11-01): label 'Gerardus Mercator', description 'Flemish geographer, cosmographer and cartographer (1512-1594)', born 1512-03-05, died 1594-12-02 (day precision), Korean label 게라르두스 메르카토르, images include the Larmessin engraving from the Wellcome Collection. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q6353"
+    },
+    {
+      "id": "src_mercator_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Gerardus Mercator', read in full from an Internet Archive copy because the live page returns HTTP 403 to the fetch tool. CANONICAL SIGNIFICANCE SOURCE: Flemish cartographer 'whose most important innovation was a map, embodying what was later known as the Mercator projection' (the 1569 world map), who also introduced the term 'atlas' for a collection of maps; born Rupelmonde 5 March 1512, died Duisburg 2 December 1594; studied at Leuven under Gemma Frisius, by 24 'a superb engraver, an outstanding calligrapher, and a highly skilled scientific-instrument maker', built globes with Frisius and Gaspar a Myrica in 1535-37, published maps of Palestine (1537), the world (1538) and Flanders (about 1540) and an italic-lettering manual (1540, wood blocks engraved by himself); moved permanently to Duisburg in 1552, set up a cartographic workshop with his own engravers, helped design a grammar-school curriculum, published a map of Europe (1554), taught mathematics at the school 1559-62, did genealogical research for the duke, wrote a Concordance of the Gospels and a commentary on Romans, was appointed court cosmographer in 1564, published the 1569 world map and then an Atlas planned as a series (chronology 1569, Ptolemy's maps 1578, new maps 1585 and 1589) that was 'never fully realized' and completed by his son Rumold in 1595. Scholarly reference voice; praise of significance is retrospective. The 1544 heresy arrest it also reports is not scored.",
+      "url": "https://www.britannica.com/biography/Gerardus-Mercator"
+    },
+    {
+      "id": "src_mercator_dsb",
+      "kind": "biography",
+      "title": "George Kish, 'Mercator, Gerardus', Complete Dictionary of Scientific Biography (Charles Scribner's Sons, 2008), read in full via the MacTutor/Encyclopedia.com copy: studied philosophy and theology at Louvain, then mathematics and astronomy informally under Frisius, and became skilled as an engraver; 'a man of many talents' whose contributions to calligraphy and engraving 'influenced several generations of artisans'; 'undoubtedly the most influential of cartographers'; made world maps, globes, instruments and had a reputation as a surveyor; in Duisburg he became cosmographer to the Duke of Cleves, published maps of Europe and Britain and an edition of Ptolemy; the 1569 map was designed for seamen, on a cylindrical projection in which a line of constant bearing is straight and distortion grows toward the poles; the collection published by his son Rumold in 1595 was the first use of the word 'atlas' for a collection of maps; the entry points to Averdunk and Muller-Reinhard (1914) as the authoritative biography. Scholarly dictionary entry.",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Mercator_Gerardus.pdf"
+    },
+    {
+      "id": "src_mercator_ebsco",
+      "kind": "institution",
+      "title": "Elisabeth Hodges, 'Mercator Publishes His World Map' (EBSCO Research Starters, 2022), read in full: the 1569 'Nova et aucta orbis terrae descriptio ad usum navigantium emendate accomodata' was an 18-sheet copper-engraved wall map (131 x 208 cm) dedicated to Duke Wilhelm of Cleves with extensive legends; Mercator was 'less interested in producing an accurate graphic image of the earth than producing a map that would facilitate navigation' (in contrast to Ortelius); how he developed the projection is conjecture (generally accepted: by experimenting with the spacing of meridians and parallels on his 1541 globe); the earlier 1538 map used a double heart-shaped projection already used by Finé in 1531; the projection distorts landmass sizes toward the poles (Greenland appears as large as China) and in the 1970s Arno Peters proposed an alternative; Edward Wright's 1599 tables spread the projection and virtually all nautical charts now use it. Educational reference with the distortion critique.",
+      "url": "https://www.ebsco.com/research-starters/history/mercator-publishes-his-world-map"
+    },
+    {
+      "id": "src_mercator_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, 'Scientist of the Day: Edward Wright' (8 October 2025), read in full: the 1569 map was 'a navigator's dream' because rhumb lines are straight, but 'Mercator did not explain how he did it', so the map 'stood alone for 30 years (except for a multitude of botched copies)' until Edward Wright worked out the mathematics in the early 1590s and published tables in 1599. Independent library voice and the limit on Mercator's own contribution.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/edward-wright/"
+    },
+    {
+      "id": "src_mercator_the",
+      "kind": "press",
+      "title": "Susan Gole (International Map Collectors' Society), 'Pole to pole in curious curves', Times Higher Education, 2 September 2005, a review of Andrew Taylor's 'The World of Gerard Mercator', read in full: after the 1569 map he turned to a chronology, a revised Ptolemy and a new geography rather than leaving a mathematical theory of the projection; he was often away at fairs selling globes and maps, gathering information to correct previous errors and corresponding with scholars, and engraved many maps himself until his children could help; his preface told the story of Atlas the philosopher-king; the reviewer notes that the bare facts of his life come largely from a 'hagiographical account written by a friend soon after his death'. Independent reviewer voice with the hagiography caveat.",
+      "url": "https://www.timeshighereducation.com/node/83911"
+    },
+    {
+      "id": "src_mercator_duisburg",
+      "kind": "institution",
+      "title": "University of Duisburg-Essen, 'Die Biographie Walter Ghims' (Erinnerungsort Mercator project), read in full in German: analyses the first Mercator biography, Walter Ghim's 1595 Latin 'Vita Mercatoris' printed in the Atlas (Ghim was Duisburg's mayor and Mercator's neighbour); the first part lists his works with the emphasis on maps, globes and instruments, the second his gentle character, charity, hospitality and constant industry ('Ghim never found him idle'); it cites Marc Monmonier that the Vita is 'more a long obituary than a critical biography'. Used as the evaluation of the contemporary biography, whose claims about his character are laudatory and are not scored as behaviour.",
+      "url": "https://www.uni-due.de/erinnerungsort-mercator/ghim.php"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mercator_britannica, src_mercator_dsb, src_mercator_the | 1530-1540 | scholarly reference + dictionary entry + press review] He studied humanities and philosophy at Leuven, then mathematics, geography and astronomy under Gemma Frisius, and by the age of 24 had become an engraver, calligrapher and instrument maker; he engraved the wood blocks of his own 1540 manual on italic lettering and the Kish entry says his calligraphy and engraving 'influenced several generations of artisans'; the THE review adds that he engraved many of his own maps. The skill development is documented in independent reference sources, but the account of his training largely comes from later biographical tradition that goes back to Ghim's admiring Vita."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mercator_britannica, src_mercator_dsb, src_mercator_ebsco, src_mercator_lindahall | 1538-1569 | scholarly reference + dictionary entry + educational reference + library voice] Britannica says his most important innovation was the map embodying the projection that bears his name; Kish says the 1569 map used a cylindrical projection designed so that a line of constant bearing is straight; Hodges says it is generally accepted that he arrived at the projection by experimenting with the spacing of meridians and parallels on his 1541 globe and adds that his 1538 heart-shaped map used a projection already used by Finé, and the Linda Hall page says he did not explain how he did it and Edward Wright later reconstructed the mathematics. The design is clearly his, but the method is conjecture, earlier map projections existed, and the praise is retrospective. SELF-CALIBRATION (agent): reviewed as the top-risk row; lowered from 68 / 0.52 to 64 / 0.48 because the route to the projection is conjectural and unexplained by him, and the sources are retrospective reference praise."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mercator_britannica, src_mercator_dsb, src_mercator_the | 1540-1589 | scholarly reference + dictionary entry + press review] Britannica reports frequent absences from Leuven to gather information for his maps and an edition of Ptolemy's maps issued 'with corrections and commentary'; Kish calls the maps of western and southern Europe in his late collection 'detailed and remarkably accurate'; the THE review says he went to fairs, gathered information to correct previous errors and corresponded with scholars abroad. The behaviour is documented in three sources, but 'accurate' is a judgment by later writers and none of the sources measures his maps against others."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mercator_britannica, src_mercator_dsb, src_mercator_the, src_mercator_duisburg | 1569-1594 | scholarly reference + dictionary entry + press review + historiographical analysis] After 1569 he undertook a series of publications to describe the creation and history of the world: a chronology (1569), Ptolemy's maps (1578), new maps of France, Germany and the Netherlands (1585) and of Italy, the Balkans and Greece (1589), left unfinished at his death in 1594 and completed by his son in 1595 (Britannica, Kish); the THE review says that after the 1569 map he was preoccupied with the chronology, the revised Ptolemy and a new geography, and mentions financial worries in his life, and the Duisburg analysis of Ghim's Vita repeats the claim that Ghim 'never found him idle', a laudatory contemporary statement that is not counted as evidence. The multi-year programme is documented, but the amount of difficulty he overcame is not."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mercator_britannica, src_mercator_dsb, src_mercator_duisburg | 1530-1594 | scholarly reference + dictionary entry + historiographical analysis] Britannica lists globes, maps, scientific instruments, an italic-lettering manual, genealogical research for the duke, a Concordance of the Gospels, a commentary on Romans, a world chronology and three years of teaching mathematics at the Duisburg grammar school, besides help in designing its curriculum; Kish says he was 'well versed in mathematics, astronomy, geography, and theology' and the Duisburg analysis says Ghim's Vita also treats him as a polymath with geography and astronomy as his main fields. The breadth is well documented in independent sources; how he moved between fields is not."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "게라르두스 메르카토르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gerard-mercator-hogenberg-1574.jpg",
+    "width": 900,
+    "height": 1200,
+    "source": "Engraved portrait of Gerardus Mercator at the age of 62, half-length with dividers and a globe, in an oval inscribed 'Aetatis suae LXII' with a cartouche stating that Frans Hogenberg had the portrait of Gerardi Mercatoris Rupelmundani painted in 1574; Library of Congress Prints and Photographs Division, LCCN 2006675892, an impression illustrated in the 'Atlas sive Cosmographicae meditationes' (Duisburg, 1595), item-level date 1595. The engraver is not named on the Library's record. It is a lifetime portrait dated 1574 and identified by its own inscription. The file is the Library's 3283 x 4096 master scan cropped to the plate and cartouche and downscaled to 900 x 1200 with no upscaling.",
+    "license": "Public domain (engraving dated 1574 and printed in 1595, public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Portrait of Gerardus Mercator at age 62, engraving dated 1574, impression from the 1595 Atlas, Library of Congress Prints and Photographs Division (LCCN 2006675892), public domain",
+    "attributionUrl": "https://www.loc.gov/item/2006675892/",
+    "creator": "Unknown engraver; portrait made for Frans Hogenberg",
+    "date": "1574 (plate inscription); impression published 1595",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.loc.gov/item/2006675892/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED VIA THE LEAD'S ALTERNATIVE PATH (REPLACEMENT IMAGE): the initial lead was the Larmessin 1682 engraving (Wellcome V0003979, the Wikidata image); I did not use it because a lifetime-dated portrait with a positive identification was available. Used the Library of Congress print 'Gerhard Mercator, half-length portrait, facing left, holding compass and globe, at age 62' (LCCN 2006675892, LC-USZ62-110344, reproduction of an engraving illustrated in the 'Atlas sive Cosmographicae meditationes', Duisburg, [1595], Rosenwald Collection), item-level date 1595 (LoC JSON via loc.gov/item/2006675892/?fo=json). RIGHTS BASIS: the LoC generic 'no known restrictions' wording is NOT relied on; the basis is the item-level date: the plate is dated 1574 in its own inscription and this impression was printed in 1595, more than 400 years ago, so it is public domain by age in the United States and everywhere. SITTER IDENTIFIED ON THE PLATE: the cartouche reads 'Gerardi Mercatoris Rupelmundani effigiem annorum duorum et sexaginta ... depingi curabat Franc. Hog. MDLXXIIII' and the oval 'Aetatis suae LXII', which is a portrait taken when he was 62, in 1574, within his lifetime; the engraver is not named on the LoC record. KIND likeness (lifetime portrait inscribed with his name and age); the LoC creator field lists only Mercator as the subject, so the engraver is recorded as unknown. SOURCE FILE: the LoC master TIFF (3283 x 4096, greyscale), cropped to the plate and cartouche and downscaled to 900 x 1200, no upscaling. Commons has the same item with a public-domain-by-age tag (opened), not relied on. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q6353 label 'Gerardus Mercator', description 'Flemish geographer, cosmographer and cartographer (1512-1594)', born 1512-03-05, died 1594-12-02; not in prod62.txt and no candidate slug gerard-mercator existed. REGION western_europe, nationality BE: following the Vesalius precedent (Flemish-born, career abroad); he lived in Leuven and from 1552 in Duisburg (Duchy of Cleves, now Germany), which is recorded here; era early_modern. ZERO POLITICS: primary identity is cartographer, globe and instrument maker; his court cosmographer title is an appointment, not scored; the 1544 arrest on a heresy charge is a religious matter and is NOT scored or carded; patronage and family are not scored. VOCABULARY: occupations scholar and scientist, fields natural_science and mathematics, impactDomains scientific and technological, tags craft_focused and cross_disciplinary, archetype technical_innovator. GAP FOR THE LEAD: there is no labelled occupation 'cartographer' or 'geographer' and no field 'geography' in en.ts and ko.ts, so the nearest labelled ids were used (as for james-cook, who uses explorer and navigator). KO NAME: Wikidata Korean label 게라르두스 메르카토르. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Gerardus Mercator' (https://www.britannica.com/biography/Gerardus-Mercator, read from an Internet Archive copy). READ: Britannica, the Complete Dictionary of Scientific Biography entry, EBSCO Research Starters, Linda Hall Library, the Times Higher Education review of Taylor's biography, and the University of Duisburg-Essen analysis of Ghim's Vita: six substantive sources plus Wikidata. PERSPECTIVES: scholarly reference (Britannica, Kish), educational reference (EBSCO), independent library (Linda Hall), reviewer of a modern biography (THE), historiography of the contemporary biography (Duisburg-Essen). COUNTER-VOICES AND LIMITS: Linda Hall says he left the projection's mathematics unexplained for 30 years; EBSCO reports the distortion critique and the Peters alternative and that how he developed the projection is conjecture; THE and the Duisburg page call Ghim's 1595 Vita a hagiographical obituary, so claims of virtue are not scored. NOT OPENED: Ghim's Vita and its translation by Osley, Crane's and Taylor's biographies, Averdunk and Muller-Reinhard (1914), Karrow, Monmonier, the live Britannica and MacTutor biography pages (the MacTutor biography URL returned 404; the DSB copy was used). Conflicts handled: sheet count of the 1569 map is eighteen (EBSCO); the atlas sections dated 1569-1589 by Britannica; Britannica says he 'introduced' the term atlas and Kish says 1595 was 'the first time' it designated a map collection, so the card states only that the term comes from his Atlas. SPARSE PRE-MODERN PROFILE: five rows, none above 66, confidence 0.46-0.52, self-authored works treated as self-report. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (68/0.52 lowered to 64/0.48), persistence (kept), cross_domain_range (kept). HANDBACK62: {\"slug\": \"gerard-mercator\", \"portrait_preflight_grade\": \"STRONG\", \"initial_lead\": \"Larmessin engraving 1682 (Wellcome V0003979)\", \"final_portrait_source\": \"Library of Congress Prints and Photographs, 'Gerhard Mercator, half-length portrait, facing left, holding compass and globe, at age 62', LCCN 2006675892 (plate dated 1574, impression in the 1595 Atlas), https://www.loc.gov/item/2006675892/\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 68, \"old_confidence\": 0.52, \"new_score\": 64, \"new_confidence\": 0.48, \"reason\": \"the route to the projection is conjectural and unexplained by him, and the sources are retrospective reference praise\"}], \"reviewed_kept\": [\"persistence\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

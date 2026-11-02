@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jyotirao-phule",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jyotirao Phule",
+    "aliases": [
+      "Jotirao Phule",
+      "Jyotiba Phule",
+      "Mahatma Jyotiba Phule",
+      "Jyotirao Govindrao Phule"
+    ],
+    "wikidataId": "Q314394",
+    "birthYear": 1827,
+    "deathYear": 1890,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "writer"
+    ],
+    "fieldIds": [
+      "education",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer",
+      "grassroots_organizer"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_phule_wikidata",
+      "kind": "wikidata",
+      "title": "Jyotirao Phule (Q314394), verified live via the Wikidata API (2026-11-01): label 'Jyotirao Phule', description 'Indian social reformer (1827-1890)', born 11 April 1827, died 28 November 1890, citizenship British India, no Korean label, image 'Mphule.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q314394"
+    },
+    {
+      "id": "src_phule_inflibnet",
+      "kind": "institution",
+      "title": "Nisha Jolly Nelson, 'Jyotiba Phule and Savitribai Phule', Education and Society course module, e-PG Pathshala / INFLIBNET (Government of India higher-education e-content programme), read in full. CANONICAL SIGNIFICANCE SOURCE: presents Phule (1827-1890) as a Pune teacher and social reformer who started schools for lower-caste boys and girls in 1848 (the first girls' school in a building belonging to Tatya Sahib Bhide, with Savitribai as teacher), opened more schools in 1851-52 (honoured by the Board of Education in 1852), withdrew largely from managing them by 1858, set up an infanticide-prevention home (1863), and submitted a memorial to the Hunter Education Commission (1882) arguing for priority to primary education, trained and well-paid teachers, practical curricula and scholarships, and rejecting 'downward filtration'; lists his writings and says he was influenced by Christianity and Thomas Paine. The module is largely celebratory, repeats superlatives ('first Indian educationist') without analysis, and itself contains an internal inconsistency in school counts. The Satyashodhak Samaj is barely described.",
+      "url": "https://ebooks.inflibnet.ac.in/socp13/chapter/193"
+    },
+    {
+      "id": "src_phule_punechair",
+      "kind": "institution",
+      "title": "'Life Sketch', Mahatma Phule Chair, Savitribai Phule Pune University (then University of Pune), a dated chronology compiled from the Maharashtra government's Mahatma Phule Samagra Wangamay (5th revised edition, 1991), read in full: schooling 1834-47; 1848 school for Shudra, Ati-Shudra, Mahar and Mang girls; 1849 left home because of his educational work; 1851 girls' schools at Rasta Peth and Chiplunkar Wada; felicitated by the Education Department 16 November 1852; part-time teacher at a Scottish school 1854; night school 1855; retired from school management 1858; an unsuccessful attempt on his life in 1856; widow remarriage help 1860; Infanticide Prohibition Home 1863; Satyashodhak Samaj founded 24 September 1873; Hunter Education Commission representation 19 October 1882; title 'Mahatma' 11 May 1888; death 28 November 1890. Neutral chronology by a university chair with honorific framing; items on Pune municipality membership and wine-shop and famine letters are not scored.",
+      "url": "https://unipune.ac.in/chairs/mahatma_phule_chair/mphule_webfiles/life_sketch.htm"
+    },
+    {
+      "id": "src_phule_rti",
+      "kind": "press",
+      "title": "'Mahatma Jotirao Govindrao Phule', Round Table India (an online Dalit-Bahujan publication), read: biographical article quoting his 1882 memorial to the Education Commission (he describes setting up a girls' school and then an indigenous mixed school for the lower classes, especially Mahars and Mangs, adding two more, over nine to ten years); records that primary education of the masses in the presidency was 'very much neglected', that he criticised government spending on higher-class education, that the girls' school founded 3 July 1851 admitted eight girls on the first day, that few teachers would work in a school admitting untouchable pupils, that the school closed for a time for lack of funds and reopened with help from his Brahmin friends Govande and Valvekar, and that his father asked him and Savitribai to leave the house under orthodox pressure. Advocacy-oriented outlet; the article does not give the full memorial.",
+      "url": "https://www.roundtableindia.co.in/?p=1034"
+    },
+    {
+      "id": "src_phule_fp",
+      "kind": "press",
+      "title": "Forward Press (a Bahujan-focused magazine) travelogue about Phule's house in Pune (published 10 June 2017), read: gives key dates (1840 marriage, 1848 girls' school, 1873 Satyashodhak Samaj), says Phule and Savitribai later opened three more girls' schools and that he opened a well on the family property to Dalits, and complains of official neglect of the house and a 'great dearth' of photographs of Phule. Used only for the contemporary state of his memory and the dearth of photographs; framing is advocacy.",
+      "url": "https://forwardpress.in/?p=22639"
+    },
+    {
+      "id": "src_phule_bansode",
+      "kind": "biography",
+      "title": "Vijayanand P. Bansode, 'Mahatma Phule's Educational Thought for the Egalitarian Society: A Critical Survey', Aarhat Multidisciplinary International Education Research Journal, vol. 10 issue 2 (Jan-Feb 2021), read in full from the open-access PDF: states that he started a school for girls at Tatyasaheb Bhide's premises in 1848, a school for backward-class girls at Ganj Peth on 3 July 1851, and many others, that government records give girls' enrolment in Pune schools at 235 in 1853, and summarises his memorial's calls for government primary schools, inspection and trained staff; cites Dhananjay Keer's biography and a Din Bandhu special number for Gandhi's remark that he was 'real Mahatma'. Admiring survey in an education journal; relies on secondary sources and is internally inconsistent on dates (1948 for 1848).",
+      "url": "https://zenodo.org/records/6948591"
+    },
+    {
+      "id": "src_phule_panigrahi",
+      "kind": "biography",
+      "title": "Kumuda Chandra Panigrahi, review of Rohini Mokashi-Punekar, 'The Third Eye and Other Works: Mahatma Phule's Writings on Education', Rupkatha Journal on Interdisciplinary Studies in Humanities 15(3), 2023, read in full: describes the book's contents (Phule's establishment of schools for women, lower castes and working people, his memorial to the Indian Education Commission, the play Trutiya Ratna, the satirical Brahmin Teachers in the Education Department, the preface to Gulamgiri), the editor's contention that Phule's view of education is a critique of the Gandhi and Tagore models for neglecting women and lower castes, and the reviewer's overall positive verdict. Review of a modern editor's selection; admiring, so used for the nature of his writings on education only.",
+      "url": "https://rupkatha.com/V15/n3/v15n3r02.pdf"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_phule_punechair, src_phule_inflibnet, src_phule_rti, src_phule_bansode | 1848-1863 | university chronology, e-PG module, advocacy article, education journal] A Pune gardener-caste man who had declined government employment started a school for Shudra, Ati-Shudra, Mahar and Mang girls in 1848 with his wife as teacher, followed with girls' schools in 1851, a night school in 1855 and the Infanticide Prohibition Home in 1863; the Round Table India article adds that he reopened a school that had closed for lack of funds by turning to friends. The chronology and the module agree on the sequence and the 1851-52 expansion; enrolment of 235 girls in Pune schools by 1853 is attributed to government records in one journal article. The pattern is self-started institutions without state backing, though every source is commemorative and the record rests largely on one compiled chronology."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_phule_punechair, src_phule_inflibnet, src_phule_rti | 1848-1863 | university chronology, e-PG module, advocacy article] He declined government employment after finishing school, put his own and his wife's time into schools for excluded groups, left his father's home in 1849 because of the work, and withdrew from managing the schools by 1858 to pursue wider social reform, and later set up the Infanticide Prohibition Home; his 1882 memorial put primary education of the masses ahead of higher education. The behaviour is documented in three sources; the motive is read from the pattern because no independent source assesses his intent. SELF-CALIBRATION (agent): lowered from 78 / 0.55 to 72 / 0.5 because every source is commemorative and the motive is inferred from a single compiled chronology and admiring advocacy writing."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_phule_punechair, src_phule_rti, src_phule_inflibnet | 1848-1858 | university chronology, advocacy article, e-PG module] The chronology records an attempt on his life in 1856, a break with home in 1849 and a decade of school work; the Round Table India article records that few teachers would work in a school admitting untouchable pupils, that Savitribai faced stones and brickbats, that the girls' school closed for lack of funds and was reopened with the help of the friends Govande and Valvekar, and that his father asked them to leave the house under orthodox pressure; the module says he continued 'in spite of threats to his life'. Sustained work through documented hostility, though the accounts of the hostility come from commemorative sources and only a few incidents are dated."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_phule_inflibnet, src_phule_panigrahi, src_phule_punechair, src_phule_bansode | 1847-1882 | e-PG module, book review, university chronology, education journal] The module says his 1882 memorial rejected the then dominant 'downward filtration' view of educating elites first and asked instead for state priority to primary schools, trained and well-paid teachers drawn from lower castes, and practical curricula; the chronology says he studied Thomas Paine in 1847 and the review describes his writings on education (a play, a satire on Brahmin teachers, the preface to Gulamgiri); the review reports a reading of his educational writing as a critique of the Gandhi and Tagore models for neglecting women and lower castes (the editor's thesis, not an independent assessment). Documented independent positions on education policy; the 'critique' framing is a modern interpretation."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_phule_inflibnet, src_phule_rti, src_phule_punechair | 1848-1873 | e-PG module, advocacy article, university chronology] He taught Savitribai at home and she became the teacher of the first girls' school in 1848; the school used a building belonging to Tatya Sahib Bhide; the Round Table India article credits his friends Govande and Valvekar with helping reopen a closed school; the chronology records his founding of the Satyashodhak Samaj, a membership society, in 1873. These show joint school work with a spouse and friends and an organisation he led, but the detail on how the work was shared is thin and the sources are commemorative."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조티라오 풀레"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear likeness could be established after one bounded retry. The Wikidata and Commons images (Mphule.jpg, 250 x 354; Mahatma Jotirao Phule.jpg, 233 x 300) name no photographer, publication or date, and their public-domain tags rest on the uploaders' assertions. The University of Pune chair credits the circulating photograph to the Gopinathrao Palkar collection via Dr Baba Adhav and to a 1991 state-supported volume, under an all-rights-reserved page, which gives no first-publication date or terms. The other candidates are photographs of modern paintings, busts or statues, or a 1977 government stamp scan, which are derivative works or not an established likeness. Next step: identify the original photograph and its first publication (a pre-1931 Marathi biography or periodical, or the Palkar or Adhav collection) and obtain its terms, or find a pre-1931 printed portrait with a stated source."
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / CONFIRMED HOLD after one bounded retry (about 12 calls): see portrait.reason. The lead's Mphule.jpg (250 x 354; Commons page says source unknown, author unknown, date '<1891', uploaded 2009 under PD-US-expired and PD-India tags with no basis stated) and the second Commons file Mahatma Jotirao Phule.jpg (233 x 300; source 'Internet', author unknown, tagged CC0 and PD-India by the uploader) have no source, photographer, publication or first-publication date. The University of Pune Mahatma Phule Chair photo gallery credits the circulating photograph to the collection of Gopinathrao Palkar, made available by Dr Baba Adhav, from the Mahatma Phule Gaurav Granth vol. 1 (a 1991 publication), under a footer 'Copyright 2008-09 University of Pune. All Rights Reserved'; so the image first appears in print in the late twentieth century with a private-collection source, which neither gives a pre-1931 US publication nor a clear Indian term (an anonymous photograph's term in India runs from publication). The Commons photograph of a portrait at Phulewada (2024, CC BY-SA) is a photograph of a modern painting or display, not a likeness with a stated artist. The 1977 India Post stamp scan carries a GODL-India tag from a Colnect page; that is a data licence, the stamp design is a government work with its own term, and the file is not an established likeness. Internet Archive search for pre-1931 books with a Phule portrait found only his own writings and no scan with a portrait plate. A Forward Press author states there is a 'great dearth' of photographs of him. Next step: identify the original photograph (Palkar or Adhav collection, a pre-1931 Marathi biography or the Gaurav Granth) and obtain its first-publication date or written reproduction terms.\nPREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q314394 label 'Jyotirao Phule', description 'Indian social reformer (1827-1890)', born 1827-04-11, died 1890-11-28, citizenship British India, no Korean label; not in prod62.txt; no candidate file existed for the slug (savitribai-phule exists as a separate person with a different QID). Region south_asia, nationality IN (precedent: savitribai-phule), era 19th_century. ZERO POLITICS: primary identity is teacher and social reformer; his Pune municipality membership, the Satyashodhak Samaj's anti-caste and anti-Brahmin ideology, Gulamgiri's polemic, and the Hunter-commission policy advocacy are context and not scored as political activism; only documented school-founding, writing on education and social-reform institution-building are scored. VOCABULARY: occupations teacher and writer, fields education and social_reform, impact domains social, educational, historical, tags founder, organizer, grassroots_organizer, archetypes organizational_leader, social_influencer; all grepped in en.ts and ko.ts. KO NAME: no Korean Wikidata label, so a recorded transliteration, matching the repo's savitribai-phule precedent (Phule rendered as 풀레).\nCANONICAL SIGNIFICANCE SOURCE: Nisha Jolly Nelson, 'Jyotiba Phule and Savitribai Phule', e-PG Pathshala / INFLIBNET module (https://ebooks.inflibnet.ac.in/socp13/chapter/193). Britannica was blocked (403).\nREAD: the INFLIBNET module, the Pune University chair chronology, the Round Table India biography, the Forward Press travelogue, Bansode's journal article and Panigrahi's book review: six sources, all secondary or compiled and all more or less commemorative. PERSPECTIVES: government e-content module, university chronology compiled from a state publication, Bahujan advocacy press (two), an education-journal survey, and a humanities book review. INDEPENDENCE IS LOW and COUNTER-VOICES ARE MISSING: no critical or adversarial source could be opened (O'Hanlon's Caste, Conflict and Ideology and its reviews, Omvedt, Keer, the Wire's Bhide Wada article (JavaScript only), the Heidelberg review (bot-blocked) were not read), so every row is capped at 0.52 confidence and nothing above 74 is scored. NOT SCORED: his 'first girls' school in India' status (sources differ and missionary schools existed earlier, so the cards avoid the claim), Satyashodhak Samaj ideology, political activity, family life. EXCLUDED: the date discrepancies in school counts (1849 '18 schools' versus 1851 'two schools') are noted but not used.\nMAJOR ACHIEVEMENT SELF-GATE: first pass PASS on all five checks (see draft review); institutions he built (the schools, the Infanticide Prohibition Home, the Satyashodhak Samaj) are all carded.\nSELF-CALIBRATION (agent): rows reviewed: impact_motivation (lowered 78 / 0.55 to 72 / 0.5: motive inferred from commemorative sources only), proactive_agency (kept: documented school and home foundations in several sources), persistence (kept: documented hostility, though modest score). BROAD FLAG FOR THE LEAD: this profile has no adversarial or independent scholarly source; if a stronger evidentiary bar is required, hold it or have a later pass read O'Hanlon (1985) and Omvedt before shipping.\nHANDBACK62: {\"slug\": \"jyotirao-phule\", \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"initial_lead\": \"Mphule.jpg 250x354, source unknown (Commons)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The RISKY grade was accurate rather than too high: the lead's alternative paths were only modern museum, statue or painting photographs, which are derivative works, and the circulating lifetime photograph has no documented photographer or first-publication date (credited only to the Palkar collection via Dr Baba Adhav and a 1991 volume, under an 'All Rights Reserved' university page), so no PD basis could be shown.\", \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 78, \"old_confidence\": 0.55, \"new_score\": 72, \"new_confidence\": 0.5, \"reason\": \"motive is inferred from commemorative sources only and no independent source assesses his intent\"}], \"reviewed_kept\": [\"proactive_agency\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

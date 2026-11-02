@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jan-amos-comenius",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jan Amos Comenius",
+    "aliases": [
+      "John Amos Comenius",
+      "Jan Amos Komensky",
+      "Johann Amos Comenius",
+      "Komensky"
+    ],
+    "wikidataId": "Q12735",
+    "birthYear": 1592,
+    "deathYear": 1670,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "CZ"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "philosopher",
+      "theologian"
+    ],
+    "fieldIds": [
+      "education",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "educational",
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "philosopher",
+      "prolific",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_comenius_wikidata",
+      "kind": "wikidata",
+      "title": "John Amos Comenius (Q12735), verified live via the Wikidata API (2026-11-01): label 'John Amos Comenius', description 'Czech teacher, educator, philosopher and writer (1592-1670)', born 28 March 1592, died 15 November 1670 (year-precision duplicates also given), citizenship Czech Republic, Korean label 요한 아모스 코메니우스, image the Rijksmuseum Ovens portrait SK-A-2161. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q12735"
+    },
+    {
+      "id": "src_comenius_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'John Amos Comenius' (by John E. Sadler, formerly of the University of Birmingham; the public part of the article was read, covering the introduction, early life, exile, Leszno, England and Sweden and the start of the pansophy section; the remainder is subscriber-only). CANONICAL SIGNIFICANCE SOURCE: Czech educational reformer and religious leader remembered for innovations in teaching methods, especially languages; orphaned at 10, trained for the ministry, studied at Herborn and Heidelberg; forced to flee after the Thirty Years' War began, wrote the allegory The Labyrinth of the World and the Paradise of the Heart, and in 1628 settled in Leszno; there he wrote a proposal for full-time schooling for all youth taught their native culture and Europe's, and the Janua Linguarum Reserata (1632), which revolutionised Latin teaching and was translated into 16 languages; The Great Didactic (1657) says things should be presented to the senses with pictures, models and workshops; he devised a school system of mother schools, vernacular schools, grammar schools and universities; invited by Samuel Hartlib to London in 1641 to found a college of pansophic learning, which the English Civil War ended; in Sweden his textbooks based on pansophy 'failed to satisfy anyone' and some of his maxims are called 'rather platitudinous'; the Orbis Sensualium Pictus (1658) was a popular illustrated schoolbook for two centuries. Scholarly encyclopaedic reference by a specialist; praise is retrospective.",
+      "url": "https://www.britannica.com/biography/John-Amos-Comenius"
+    },
+    {
+      "id": "src_comenius_piaget",
+      "kind": "biography",
+      "title": "Jean Piaget, 'Jan Amos Comenius (1592-1670)', Prospects (UNESCO International Bureau of Education, 'Thinkers on Education' series), 1993, reprinting Piaget's 1957 UNESCO introduction 'The Significance of John Amos Comenius at the Present Time', with a chronology of Comenius's life and works by Giuliana Limiti (Monoskop PDF copy, 24 pages, text extracted and read for the introduction sections I-II and the whole chronology): Piaget warns against modernising a 17th-century author; calls his writings full of obscurities and apparent contradictions; reads education as the core of his pansophy and credits him with an a priori 'Great Didactic' while noting his sensation-based formulae; says the 'General Consultation' was unfinished and its simplifications 'proved too much for him'; the chronology gives the 1628 Leszno period, the Didactica magna, Janua (1631), the 1641 English invitation, the 1642 decision to give up pansophic plans for education, the Elblag and Sarospatak periods, the 1656 loss of manuscripts in the Leszno fire, the 1657 Opera didactica omnia in four parts, and the Amsterdam years. A UNESCO scholarly essay by an independent specialist; admiring but with explicit critical caveats; the 'first to conceive a science of education' wording is not carded.",
+      "url": "https://monoskop.org/images/1/12/Piaget_Jean_1993_Jan_Amos_Comenius_1592-1670.pdf"
+    },
+    {
+      "id": "src_comenius_ewb",
+      "kind": "biography",
+      "title": "'John Amos Comenius', Encyclopedia of World Biography (via Encyclopedia.com), read in full (short entry): born in southeastern Moravia in 1592, higher education at Herborn and Heidelberg, ordained 1616 and pastor at Fulnek 1618, forced into hiding after the sack of Fulnek, wrote The Labyrinth of the World, in Leszno from 1628 as corrector of the Brethren's school which led him to educational reform; lists the reforms he advocated (gentler discipline, the vernacular in primary schools, free universal compulsory education for both sexes and all classes), Janua linguarum reserata, election as bishop in 1632, pansophy, the invitation to England, the Swedish school reform, a pansophic school in Hungary in 1650 that ended in conflict and his return to Leszno in 1655, flight to Amsterdam in 1656. Short reference entry; it mislabels the Brethren and gives his death date as 4 November, so it is used only for the sequence of posts.",
+      "url": "https://www.encyclopedia.com/people/social-sciences-and-law/education-biographies/john-amos-comenius"
+    },
+    {
+      "id": "src_comenius_nwe",
+      "kind": "biography",
+      "title": "'Comenius', New World Encyclopedia (rewritten from Wikipedia; retrieved 7 January 2024 per the page), read in full: Czech teacher and Moravian bishop; his pansophism as unification of all knowledge for all peoples in their own languages; the Labyrinth allegory; schooling in native language plus Latin; Orbis Pictus (1658) and Didactica Magna; school and printing press burned in Leszno in 1656. Popular encyclopedia of low weight: it states superlatives and legends that are NOT used ('first person to use pictures in textbooks', 'offered the first presidency of Harvard', 'more than 200 books'), and Britannica says only that Harvard's agent 'may have met' him. Used only to corroborate the pansophy aim and the 1656 fire.",
+      "url": "https://www.newworldencyclopedia.org/entry/Comenius,_John_Amos"
+    },
+    {
+      "id": "src_comenius_buffalo",
+      "kind": "press",
+      "title": "'John Amos Comenius 1592-1670', A History of Speech - Language Pathology (University at Buffalo history-of-cds site), read in full (short page): three language-teaching books (Janua linguarum reserata 1631, its vestibule 1633, Orbis sensualium pictus 1658 with 150 thematic expositions and a recommended teaching sequence), Didactica magna and pansophism, a four-stage school plan, and the recommendation that even 'the naturally dull and stupid' be educated. University teaching page that cites Britannica; used only to corroborate the textbook sequence.",
+      "url": "https://ubwp.buffalo.edu/history-of-cds/?p=809"
+    },
+    {
+      "id": "src_comenius_rijksmuseum",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, collection record SK-A-2161, 'Portrait of Jan Amos Comenius' by Jurgen Ovens (live web page and the museum's linked-art record at hdl.handle.net/10934/RM0001.COLLECT.4913 both read): oil on canvas, 64 x 56 cm, 1650-1670, purchase 1905-07, no 'attributed to' qualifier, image marked Public Domain (Public Domain Mark 1.0) and data CC0. Used only for the portrait rights; not used as support for any row.",
+      "url": "https://www.rijksmuseum.nl/en/collection/SK-A-2161"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_comenius_britannica, src_comenius_piaget | 1612-1670 | scholarly encyclopaedia, UNESCO essay with chronology] Britannica and Piaget's chronology list his output across language textbooks (Janua, Orbis Sensualium Pictus), a Czech encyclopedia project (Theatrum universitatis rerum), an allegory (Labyrinth of the World), theology, a reform of physics (Physica ad lumen divinum reformanda) and the unfinished 'General Consultation' on the improvement of human affairs. The range of works is documented by two scholarly sources; the quality of the work outside education is not assessed, and Piaget stresses that the system is hard to read."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_comenius_piaget, src_comenius_britannica | 1630s-1660s | UNESCO essay, scholarly encyclopaedia] Piaget argues that Comenius built education into a general system of 'pansophy' on the principle of nature as a creator of forms, and Britannica says he had sought since student days a basic principle by which all knowledge could be harmonised and set out a four-level school system; both also record the limits: the 'General Consultation' stayed unfinished, his Swedish pansophic textbooks 'failed to satisfy anyone', and some maxims are 'rather platitudinous'. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 68 / 0.52 to 64 / 0.46 because the coherence is Piaget's reconstructive, retrospective reading and the same sources record the project's failures."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_comenius_piaget, src_comenius_britannica, src_comenius_ewb | 1627-1670 | UNESCO chronology, encyclopaedias] The chronology shows continued educational writing and school work through successive postings (Leszno from 1628, Elblag from 1642, Sarospatak 1650-54, Amsterdam from 1656), the publication of the four-part Opera didactica omnia in Amsterdam in 1657, and further revision and appeals to 1669; Britannica says he was moved from place to place by the Thirty Years' War. The sustained output across moves is documented; the scored behaviour is the continuing work, and no inference is drawn from the losses or exile themselves."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_comenius_britannica, src_comenius_piaget, src_comenius_ewb | 1641-1655 | scholarly encyclopaedia, UNESCO chronology, reference entry] When the English plan for a pansophic college ended with the Civil War in 1642 he accepted the Swedish offer to write school textbooks, and the chronology says he resolved after meeting Oxenstierna to give up his pansophic plans and return to education; he later set up a school in Hungary on the pansophic model. These are redirections of work across patrons and countries, but the outcomes were mixed (the Swedish textbooks 'failed to satisfy anyone', the Hungarian school ended in conflict), and the sources do not describe how he made the choices."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_comenius_britannica, src_comenius_ewb, src_comenius_piaget | 1628-1657 | scholarly encyclopaedia, reference entry, UNESCO essay] Britannica says he aimed to make education accessible to all people regardless of age, condition, sex or nation and wrote a proposal for full-time schooling for all youth; EWB lists his advocacy of free, universal, compulsory education for both sexes and all classes; Piaget reads his educational aim as part of an international, peace-oriented vision. The aim is documented in his own writings (self-report relayed by scholars) and in the textbooks he wrote to serve it, but the motive is inferred and the praise is retrospective."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요한 아모스 코메니우스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jan-amos-comenius-ovens-1660.jpg",
+    "width": 1040,
+    "height": 1200,
+    "source": "Portrait of Jan Amos Comenius, oil on canvas, 64 x 56 cm, by Jurgen Ovens, dated by the museum to 1650-1670 (the sitter lived in Amsterdam from 1656 until his death in 1670), Rijksmuseum, Amsterdam, inventory SK-A-2161, purchased 1905. The museum's collection page and its linked-art record mark the image Public Domain (Public Domain Mark 1.0) and the data CC0. The record documents no sitting, so the image is treated as a historical depiction. The file is the original 4635 x 5348 pixel museum image downscaled to 1040 x 1200 with no upscaling and no cropping.",
+    "license": "Public domain (Rijksmuseum item-level Public Domain Mark 1.0; painter Jurgen Ovens died in 1678)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Jurgen Ovens, Portrait of Jan Amos Comenius, 1650-1670, oil on canvas, Rijksmuseum, Amsterdam, SK-A-2161 (public domain)",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/SK-A-2161",
+    "creator": "Jurgen Ovens",
+    "date": "1650-1670",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/SK-A-2161"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead; initial lead Jurgen Ovens painting Rijksmuseum SK-A-2161; rights basis Rijksmuseum record opened: Public Domain; alternatives Rijksmuseum print, Vilimek 1890; unresolved issue none for rights) / CONFIRMED, PORTRAIT FOUND (lead image used). PORTRAIT FINDING: the Rijksmuseum linked-art record (hdl.handle.net/10934/RM0001.COLLECT.4913, resolving to id.rijksmuseum.nl/200107828) and the live collection page https://www.rijksmuseum.nl/en/collection/SK-A-2161 both read: maker Jurgen Ovens (painter, no 'attributed to' qualifier), date 1650-1670, oil on canvas 64 x 56 cm, purchase 1905-07, image licence 'Public Domain' (Public Domain Mark 1.0) and data CC0; the page offers a download button with no separate reuse terms; the museum title names the sitter as Jan Amos Comenius, humanist and pedagogue exiled as leader of the Moravian or Bohemian Brethren and settled in Amsterdam from 1656. Ovens died in 1678, so the work is public domain by age and the museum states Public Domain at item level. The IIIF original (iiif.micr.io/QtDLU) is 4635 x 5348; the portrait file is a plain downscale to 1040 x 1200 with no upscaling and no cropping. Kind historical_depiction: the museum dates the painting to 1650-1670, a range that overlaps his Amsterdam residence (1656-1670), but the record documents no sitting. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q12735 label 'John Amos Comenius', description 'Czech teacher, educator, philosopher and writer (1592-1670)', born 28 March 1592, died 15 November 1670; not present in prod62.txt; no existing candidate file for jan-amos-comenius. REGION central_europe (Czech lands; Russians-central_europe precedent for Slavic Central/Eastern Europe, career in exile also in Poland, Sweden, Hungary and the Netherlands). ERA early_modern. nationalityCodes CZ. DEATH DATE: sources give 4, 14, 15 and 25 November 1670; only the year is stored. ZERO POLITICS: Comenius was a bishop of the Unity of the Brethren and, in the sources, a participant in negotiations, a supporter of the Swedish side in 1655 (for which his house was burned in 1656) and an author of appeals for peace and reform to governments; none of the church-governance, military-side or diplomatic material is carded or scored; his religious leadership is not scored. The profile rests on his educational writings, school work and pansophic project. LIVING-SUBJECT AND TRAUMA RULE: the loss of family, library and manuscripts (1623, 1656) is recorded in the sources but is NOT used to infer any trait; the persistence row rests only on the continued work output. VOCABULARY: occupations teacher, philosopher, theologian; fields education, philosophy; impactDomains educational, literary, cultural; tags philosopher, prolific, systematic_thinker; archetype cross_disciplinary_generalist (all labelled in en.ts and ko.ts, to be confirmed by the validator). KO NAME: Wikidata Korean label 요한 아모스 코메니우스 (no Korean Wikipedia lookup was done). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'John Amos Comenius' (John E. Sadler) (https://www.britannica.com/biography/John-Amos-Comenius). READ: Britannica (public half), Piaget/UNESCO Prospects 1993 with Limiti chronology (introduction I-II and the whole chronology; sections III onward not read), Encyclopedia of World Biography entry (full), New World Encyclopedia (full, low weight), University at Buffalo history page (full, low weight): three substantive sources (Britannica, Piaget/UNESCO, EWB) plus two low-weight popular pages, plus the Rijksmuseum record for rights and Wikidata for orientation; below the 6-9 target because no independent museum, university or archive biography with first-hand behavioural detail was reachable (Comenius Museum Naarden page 404, Oxford Cabinet page unreachable, Nature 1941 behind a login wall, Spinka and Laurie biographies not opened). PERSPECTIVES: scholarly encyclopaedia (Sadler), UNESCO scholarly essay (Piaget, independent and critical), reference entry (EWB), two popular pages. COUNTER-VOICES AND LIMITS: Piaget warns against reading him as modern, finds obscurities and contradictions and says the 'General Consultation' was unfinished; Britannica says his Swedish textbooks failed to satisfy anyone and calls some maxims platitudinous; EWB says the Hungarian school ended in conflict. There is no first-hand behavioural source beyond his own writings as relayed by scholars. NOT OPENED: Spinka (1943) and Laurie (1881) biographies, Sadler's book, Comenius's own Great Didactic and Opera didactica omnia, the Comenius Museum Naarden, Czech-language sources. LEGEND VERSUS SCHOLARSHIP: 'Father of Modern Education', 'first picture book', 'first to use pictures', 'offered the Harvard presidency' and 'more than 200 books' are not carded or scored. VERY SPARSE PROFILE for an early-modern subject: five rows, none above 66, confidence 0.40-0.48 (the pre-modern cap is 0.55). SELF-CALIBRATION (agent): top-risk rows reviewed: systems_abstraction (68/0.52 lowered to 64/0.46, see rationale), impact_motivation (kept: already 0.48 and framed as documented aim, inferred motive), cross_domain_range (kept: output range is documented). HANDBACK62: {\"slug\": \"jan-amos-comenius\", \"portrait_preflight_grade\": \"STRONG\", \"initial_lead\": \"Jurgen Ovens painting (Rijksmuseum SK-A-2161)\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam, SK-A-2161, Jurgen Ovens, Portrait of Jan Amos Comenius, 1650-1670, Public Domain Mark 1.0 (IIIF https://iiif.micr.io/QtDLU; page https://www.rijksmuseum.nl/en/collection/SK-A-2161)\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"systems_abstraction\", \"old_score\": 68, \"old_confidence\": 0.52, \"new_score\": 64, \"new_confidence\": 0.46, \"reason\": \"the coherence is Piaget's reconstructive, retrospective reading and the same sources record the project's failures\"}], \"reviewed_kept\": [\"impact_motivation\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

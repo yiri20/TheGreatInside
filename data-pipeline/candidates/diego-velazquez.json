@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "diego-velazquez",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Diego Velázquez",
+    "aliases": [
+      "Diego Velasquez",
+      "Diego Rodríguez de Silva y Velázquez",
+      "Velázquez"
+    ],
+    "wikidataId": "Q297",
+    "birthYear": 1599,
+    "deathYear": 1660,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_velaz_wikidata",
+      "kind": "wikidata",
+      "title": "Diego Velázquez (Q297), verified live via the Wikidata API (2026-11-01): label 'Diego Velázquez', description 'Spanish painter (1599-1660)', born 6 June 1599, died 6 August 1660, country Spain, Korean label 디에고 벨라스케스. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q297"
+    },
+    {
+      "id": "src_velaz_ng",
+      "kind": "institution",
+      "title": "National Gallery, London, artist biography 'Diego Velázquez (1599-1660)', read in full. CANONICAL SIGNIFICANCE SOURCE: apprenticed at eleven to Francisco Pacheco, soon surpassed him and, unlike Pacheco, responded to innovators such as Caravaggio; set up his own studio in 1617; in 1623 painted the young Philip IV, was appointed court painter and from then on the king would allow no one else to paint him; studied the royal collection (Venetian painting, Titian) and met Rubens in 1628; visited Italy in 1629 and bought paintings for the king; rose through royal household posts (assistant to the wardrobe 1636, gentleman of the bedchamber and superintendent of palace works 1643, charge of modernising the Alcázar from 1647); second Italian journey from 1649 to buy paintings, during which he painted Pope Innocent X and delayed his return 'much to the king's annoyance'; senior administrative duties 'left him less time for painting' and his son-in-law Juan Bautista Martínez del Mazo helped by making official copies; Las Meninas shows him at work at court; made a Knight of Santiago in 1658, 'an honour he had always desired'. Institutional biography; the praise is retrospective and some personal-life items are not used.",
+      "url": "https://www.nationalgallery.org.uk/artists/diego-velazquez"
+    },
+    {
+      "id": "src_velaz_bm",
+      "kind": "institution",
+      "title": "British Museum, term biography 'Diego Velázquez' (BIOG49517), read in full: born Seville, trained under Pacheco, moved to Madrid in 1623 and named painter to Philip IV that year, travelled twice to Italy (1629-31, 1649-51), spent the rest of his life in royal service as both painter and 'aposentador' (royal chamberlain); names Las Meninas (1656, Prado), which includes a self-portrait, as his most important work, and lists portraits (Innocent X), mythological, religious and genre works; bibliography includes Palomino and Jonathan Brown. Short curatorial biography.",
+      "url": "https://www.britishmuseum.org/collection/term/BIOG49517"
+    },
+    {
+      "id": "src_velaz_uv",
+      "kind": "biography",
+      "title": "University of València web page 'Diego de Velázquez, un pintor en la corte' (Spanish-language biography drawn from the Prado and the author's research; author not named on the page), read in full: left Seville for court in 1622; in 1623 won a competition on the expulsion of the Moriscos against rivals including Carducho, Nardi and Caxés, which 'silenced critics who said he painted only heads'; court posts including ayuda de cámara (1643) and aposentador mayor (1652); two Italian trips; his genealogy was presented for the Order of Santiago in July 1658, the judges rejected it on 26 February 1659 despite the king's interest, and after a papal dispensation requested by the king he was confirmed a knight on 7 October 1659; after his death his honesty was questioned and an administrative file was opened, with a 1666 settlement finding he was owed more than he owed; assessed as the most important personality of 17th-century Spanish painting. Independent Spanish university page; some assessments (best painting in history) are opinion and not used.",
+      "url": "https://www.uv.es/charco/documentos/velazquez.htm"
+    },
+    {
+      "id": "src_velaz_beruete",
+      "kind": "archive",
+      "title": "Aureliano de Beruete, 'Velazquez' (Paris: H. Laurens, 1898, preface by Léon Bonnat; Internet Archive copy from the Getty Research Institute, OCR text), chapter XI and the table of engravings read; a painter-critic's monograph. He notes that Velázquez's correspondence has almost entirely disappeared and that very few authentic drawings survive, so he suspects Velázquez drew much early on and later traced his composition straight onto the canvas and corrected with the brush; from official documents he infers a gentle, affable and very patient man who waited for payment of his fees, and he reports (without citation here) that Velázquez recommended Ribera, Alonso Cano, Zurbarán and others to the king and helped the young Murillo in Madrid in 1643. Nineteenth-century admiring scholarship; the character remarks are inferences and the generosity anecdotes are reported, not documented in the pages read. The table of engravings also gives the caption of the frontispiece portrait used as the portrait here.",
+      "url": "https://archive.org/details/gri_33125008086247"
+    },
+    {
+      "id": "src_velaz_eclectic",
+      "kind": "press",
+      "title": "The Eclectic Light Company (art writer 'hoakley'), 'More than portraits: the paintings of Diego Velázquez 8, Las Meninas' (12 March 2019), read in full: eleven people and a dog in the Alcázar with the artist at work in front of a large canvas, wearing the keys of his court duties and the red cross of the Order of Santiago, which was awarded after the painting (so when the cross was added is unclear); X-ray shows few pentimenti, so painted with little hesitation, and scholars call it 'the largest oil sketch ever painted'; the main change was to his own head; the original title is unknown and the mirror's meaning is disputed. Independent specialist art blog, used for the technical and interpretive points and as the counter-note on uncertainty.",
+      "url": "https://eclecticlight.co/2019/03/12/more-than-portraits-the-paintings-of-diego-velazquez-8-las-meninas/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_velaz_ng, src_velaz_beruete, src_velaz_eclectic, src_velaz_uv | 1610-1656 | institutional biography + 1898 monograph + art writer + university page] The National Gallery says that as an apprentice he soon surpassed his master and, unlike him, responded to innovators such as Caravaggio; Beruete suspects he drew little after his early years and laid in compositions directly on the canvas, and the Eclectic Light article notes few pentimenti in Las Meninas and scholars' description of it as 'the largest oil sketch ever painted'; the Valencia page calls him the most important personality of 17th-century Spanish painting. The assessments are retrospective and the technical points are scholars' readings of paintings, so confidence is moderate and below the pre-modern cap."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_velaz_ng, src_velaz_uv, src_velaz_beruete | 1610-1651 | institutional biography + university page + 1898 monograph] The National Gallery records that after moving to court he studied the royal collection, especially Venetian painters such as Titian, got permission in 1629 to study painting in Italy, and made a second Italian journey in 1649 partly to keep up with developments in Italian art; the Valencia page says he won a court competition against named rivals in 1623, silencing critics who said he painted only heads. These show continuing study and competition for standing, but the motives are stated by later biographers and nothing here records his own words."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_velaz_ng, src_velaz_uv, src_velaz_eclectic | 1623-1659 | institutional biography + university page + art writer] The National Gallery calls the Knighthood of Santiago 'an honour he had always desired'; the Valencia page records that his genealogy was presented in July 1658, the judges rejected it in February 1659 despite the king's interest, and the king obtained a papal dispensation so that he was confirmed in October 1659; Eclectic Light notes he painted himself wearing the order's cross. The desire is asserted by one institutional biography and the outcome depended largely on the king, so the motive is inferred. SELF-CALIBRATION (agent): reviewed as a high-risk row; lowered from 66 / 0.50 to 62 / 0.45 because the motive rests on one institutional statement and the success came through royal intervention rather than his own documented action."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_velaz_ng, src_velaz_bm, src_velaz_uv | 1617-1659 | institutional biographies + university page] Beyond painting portraits, religious, mythological and everyday scenes, he held household and palace posts including superintendent of palace works, charge of the Alcázar's modernisation from 1647 and aposentador (royal chamberlain), and bought paintings for the king on his Italian journeys. The National Gallery says these duties left him less time to paint. The breadth is documented; how he worked across these roles is not."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.35,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_velaz_beruete, src_velaz_ng | 1643-1660 | 1898 monograph + institutional biography] Beruete reports that Velázquez recommended fellow painters (Ribera, Alonso Cano, Zurbarán) to the king and helped the young Murillo gain access to the royal palaces in 1643, while the National Gallery says his son-in-law Martínez del Mazo helped by making official copies of his pictures. The recommendation anecdotes are reported without a citation in the pages read, so they are weak evidence. SELF-CALIBRATION (agent): reviewed as a high-risk row; lowered from 56 / 0.40 to 50 / 0.35 because the generosity claim is an uncited anecdote from a single nineteenth-century admirer."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "디에고 벨라스케스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/diego-velazquez-bonnat-etching-1898.jpg",
+    "width": 1049,
+    "height": 1200,
+    "source": "Etching of Velázquez by Léon Bonnat, frontispiece of Aureliano de Beruete's book Velazquez (Paris: H. Laurens, 1898); the book's table of engravings captions it as after the portrait of the artist by himself in Las Meninas. Digitised from the Getty Research Institute copy by the Internet Archive. The page scan (2147 x 3000) was cropped to the etched plate and downscaled to 1049 x 1200 with no upscaling.",
+    "license": "Public domain (etching by Léon Bonnat, 1833-1922, published in Paris in 1898)",
+    "licenseUrl": "https://archive.org/details/gri_33125008086247",
+    "attribution": "Etching by Léon Bonnat, 1898, after Diego Velázquez; Internet Archive / Getty Research Institute digitisation of Beruete, Velazquez (Paris, 1898)",
+    "attributionUrl": "https://archive.org/details/gri_33125008086247",
+    "creator": "Léon Bonnat (etcher), after Diego Velázquez",
+    "date": "1898-01",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Velazquez_(1898)_(14802443643).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / FOUND with a REPLACEMENT image; the lead's initial image was rejected. LEAD REJECTED: the Valencia self-portrait (Commons file tagged PD-Art, Velázquez died 1660, original 945 x 1119) belongs to the Real Academia de Bellas Artes de San Carlos and is shown at the Museu de Belles Arts de València; the museum's live 'Reproducció d'imatges' page (opened) says reproduction rights are granted only for the purpose stated in a signed request form and that every image the museum supplies must carry the credit line '(c) Museu de Belles Arts de València', a museum reproduction restriction that conflicts with the generic Commons tag, and the Commons source was an old museum-site JPEG. The Prado alternatives (Las Meninas self-portrait) could not be checked: the Prado's collection, legal-notice and terms pages returned a Cloudflare challenge (HTTP 403) and were not bypassed, so their terms are unverified. The Met has no Velázquez self-portrait and its Goya prints after Velázquez do not include one. REPLACEMENT USED: an etching of Velázquez by the painter Léon Bonnat (1833-1922), frontispiece of Aureliano de Beruete's monograph 'Velazquez' (Paris: H. Laurens, 1898), digitised from the Getty Research Institute copy by the Internet Archive (identifier gri_33125008086247; the catalogue marks it not in copyright; also on Commons as 'Velazquez (1898) (14802443643).jpg'). The sitter is positively identified by the book itself: its table of engravings (read in the OCR text) lists the frontispiece as 'Velazquez, after the portrait of the artist by himself in Las Meninas, etching by M. Léon Bonnat'; the plate is signed with the initials L.B. and dated January 1898. Rights basis: published in Paris in 1898 and the etcher died in 1922, so it is public domain by age in the US and elsewhere; the underlying painting is Velázquez's (d. 1660). The Commons licence line ('No restrictions', Flickr Internet Archive Book Images) is not relied on. kind historical_depiction (a later etching after a self-portrait within a painting, not a sitting). The page scan (2147 x 3000, with book margins and binding) was cropped to the etched plate (1385 x 1585) and downscaled to 1049 x 1200, no upscaling. Caveat for the lead: the image is a nineteenth-century etching after the Las Meninas self-portrait, so it is a depiction and not a photograph of a painting. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q297 label 'Diego Velázquez', description 'Spanish painter (1599-1660)', born 1599-06-06, died 1660-08-06; not in prod62.txt and no candidate file existed for the slug. REGION southern_europe, following francisco-goya and pablo-picasso. ERA early_modern. ZERO POLITICS: primary identity is painter; court office and the Order of Santiago are scored only as career conduct. PRE-MODERN: sparse rows, confidence at most 0.50, no legend scored, nothing is inferred from private life (his marriage, his slave Juan de Pareja and his illegitimate child, recorded by the National Gallery, are not used). VOCABULARY: occupation painter, field art, impactDomains artistic, cultural and historical, tag craft_focused, archetype creative_creator, all existing in en.ts and ko.ts. KO NAME: Wikidata Korean label 디에고 벨라스케스. CANONICAL SIGNIFICANCE SOURCE: National Gallery, London, 'Diego Velázquez (1599-1660)' (https://www.nationalgallery.org.uk/artists/diego-velazquez). READ: National Gallery biography, British Museum biography, the University of València biography page, Beruete's 1898 monograph (chapter XI and table of engravings), the Eclectic Light Company article on Las Meninas: five substantive sources plus Wikidata (a Wikipedia search result was not cited). PERSPECTIVES: institutional museum biographies (National Gallery, British Museum), a Spanish university biography, a nineteenth-century painter-critic's monograph, an independent art writer. COUNTER-VOICES AND LIMITS: the Valencia page records the judges' rejection of his Santiago application in 1659 and a posthumous questioning of his honesty settled in his favour in 1666; the National Gallery says administrative duties reduced his painting and that he delayed his return from Italy against the king's wishes; Eclectic Light notes the date the order's cross was added is unclear; Beruete says almost no correspondence survives, so character is inferred from official documents. NOT OPENED: Britannica (HTTP 403), the Met Heilbrunn essay (HTTP 429), Smarthistory (403), the Prado pages (Cloudflare 403), Jonathan Brown's monographs, Palomino's 1724 biography, Pacheco's treatise, the Santiago investigation file, and an Artseduca journal PDF on the Santiago case that could not be extracted. EXCLUSIONS: superlatives such as 'best painting in history', the Rokeby Venus affair, personal and family life, and any political or diplomatic duties. SPARSE PROFILE: five rows, none above 64, confidence 0.35-0.50. SELF-CALIBRATION (agent): top-risk rows reviewed: achievement_drive (66/0.50 lowered to 62/0.45), collaboration (56/0.40 lowered to 50/0.35), creative_originality (kept: three independent perspectives and confidence already 0.50). HANDBACK62: {\"slug\": \"diego-velazquez\", \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"initial_lead\": \"Valencia Museo de Bellas Artes self-portrait (c.1650)\", \"final_portrait_source\": \"Léon Bonnat etching after Velázquez's Las Meninas self-portrait, frontispiece of Aureliano de Beruete, Velazquez (Paris: H. Laurens, 1898); Internet Archive gri_33125008086247 (Getty Research Institute copy), https://archive.org/details/gri_33125008086247; Commons file Velazquez (1898) (14802443643).jpg\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"achievement_drive\", \"old_score\": 66, \"old_confidence\": 0.5, \"new_score\": 62, \"new_confidence\": 0.45, \"reason\": \"the motive rests on one institutional statement and the success came through royal intervention rather than his own documented action\"}, {\"attribute\": \"collaboration\", \"old_score\": 56, \"old_confidence\": 0.4, \"new_score\": 50, \"new_confidence\": 0.35, \"reason\": \"the generosity claim is an uncited anecdote from a single nineteenth-century admirer\"}], \"reviewed_kept\": [\"creative_originality\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

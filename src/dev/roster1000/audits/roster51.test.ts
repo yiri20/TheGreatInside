@@ -276,7 +276,7 @@ describe("Roster51: known backlog blockers remain genuinely absent from producti
 });
 
 describe("Roster51: cross-target identity integrity", () => {
-  it("no duplicate ids, slugs, or Wikidata QIDs across all 667 production people", () => {
+  it("no duplicate ids, slugs, or Wikidata QIDs across all 692 production people", () => {
     const ids = SEED_PEOPLE.map((p) => p.id);
     const slugs = SEED_PEOPLE.map((p) => p.slug);
     const qids = SEED_PEOPLE.map((p) => p.externalIdentity?.wikidataId).filter((x): x is string => !!x);
@@ -294,9 +294,9 @@ describe("Roster51: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 667 people, all 13 Roster51 targets present in both", () => {
-    expect(SEED_PEOPLE).toHaveLength(667);
-    expect(PEOPLE_INDEX).toHaveLength(667);
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement at 692 people, all 13 Roster51 targets present in both", () => {
+    expect(SEED_PEOPLE).toHaveLength(692);
+    expect(PEOPLE_INDEX).toHaveLength(692);
     for (const slug of TARGETS) {
       expect(SEED_PEOPLE.filter((p) => p.slug === slug)).toHaveLength(1);
       expect(PEOPLE_INDEX.filter((p) => p.slug === slug)).toHaveLength(1);

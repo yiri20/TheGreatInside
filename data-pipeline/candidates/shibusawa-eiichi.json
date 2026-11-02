@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "shibusawa-eiichi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Shibusawa Eiichi",
+    "aliases": [
+      "Eiichi Shibusawa",
+      "Viscount Shibusawa",
+      "Baron Shibusawa"
+    ],
+    "wikidataId": "Q704995",
+    "birthYear": 1840,
+    "deathYear": 1931,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business",
+      "education"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_shibu_wikidata",
+      "kind": "wikidata",
+      "title": "Shibusawa Eiichi (Q704995), verified live via the Wikidata API (2026-11-01): label 'Shibusawa Eiichi', description 'Japanese industrialist known as the \"father of Japanese capitalism\" (1840-1931)', born 1840 (13 February or 16 March in the item's two values), died 11 November 1931, citizenship Japan, Korean label present, images include a portrait photograph. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q704995"
+    },
+    {
+      "id": "src_shibu_nippon",
+      "kind": "press",
+      "title": "'Shibusawa Eiichi: Japan's Moral Capitalist', Shapers of Japanese History series, Nippon.com (Nippon Communications Foundation, 23 October 2017; unsigned), read in full. CANONICAL SIGNIFICANCE SOURCE: the 'father of Japanese capitalism': born in 1840 to an affluent farming and indigo family, joined the 1867 shogunal delegation to the Paris World Fair and spent about a year and a half studying European economic systems, founded a joint-stock company in the Shizuoka domain at the start of the Meiji era, served in the Ministry of Finance and helped lay legal and administrative groundwork for modern corporate and financial systems, left government in 1873 and founded and helped run roughly 500 companies, mostly in finance (a key legacy being the First National Bank, forerunner of Mizuho Bank), was involved with roughly 600 charitable organisations in education and welfare until his death at 91, held that morality and business are inseparable. A general-interest article from a foundation that promotes Japan; favourable and says nothing about criticism.",
+      "url": "https://www.nippon.com/en/views/b07202/shibusawa-eiichi-japan%E2%80%99s-moral-capitalist.html"
+    },
+    {
+      "id": "src_shibu_ndl",
+      "kind": "institution",
+      "title": "'SHIBUSAWA Eiichi', National Diet Library, Portraits of Modern Japanese, biography entry, read in full: born 16 March 1840 and died 11 November 1931 in Saitama, a rich farmer's first son who served the Hitotsubashi family, attended the 1867 Paris International Exposition with Tokugawa Akitake, served in the new government from 1869 and as an officer of the Finance Ministry from 1872, retired from it in 1873, became general supervisor and president of the First National Bank and helped establish and develop Oji Paper, Osaka Spinning and Tokyo Gas, based moral education on the Analects and advocated harmony of morality and the economy, retired from business in 1916 but continued social, public and international friendship work, made baron in 1900 and viscount in 1920. A national-library biography with no rights statement for its portraits; a short, factual, neutral entry.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/104/?c=11"
+    },
+    {
+      "id": "src_shibu_kizuna",
+      "kind": "institution",
+      "title": "'Lessons from Shibusawa Eiichi', KIZUNA magazine, Public Relations Office, Cabinet Office, Government of Japan (25 January 2022; unsigned), read in full: sent to Europe at 27, rose to a senior Finance Ministry post and resigned at 33 for the private sector, took part in establishing and managing nearly 500 companies, associated with Japan's first bank (1873), the stock exchange (1878), the Commercial Training School (now Hitotsubashi University), Tokyo Jogakkan Schools for Women and Japan Women's University (where he was president), his doctrine of gapponshugi combining profit with public benefit, his emphasis on talent development and business education, and his selection as the face of the 2024 10,000-yen note. A promotional government publication; one-sided and says nothing about criticism.",
+      "url": "https://japan.go.jp/kizuna/2022/01/lessons_from_shibusawa_eiichi.html"
+    },
+    {
+      "id": "src_shibu_tasker",
+      "kind": "press",
+      "title": "Peter Tasker, 'The Coming of Shibusawa: the Politics of Japan's New Banknotes' (first published in Japan Forward, 27 June 2024), read in full: founded or invested in over 500 companies including banks, insurers and breweries, recruited to the Ministry of Finance for his grasp of double-entry accounting and left after about a year to found Daiichi Bank, did not try to build a large zaibatsu like Iwasaki Yataro of Mitsubishi and usually sold his stakes once companies could stand on their own, founded Hitotsubashi University, rejected the official slogan of respect for bureaucrats and contempt for the people, quoted Peter Drucker's praise ('maximise talent, not profits'); the article's critical edge is aimed at Fukuzawa Yukichi, not at him. Opinion journalism by an investment analyst and commentator; admiring, with some unsourced anecdotes that were not used.",
+      "url": "https://petertasker.asia/articles/business/the-coming-of-shibusawa-the-politics-of-japans-new-banknotes/"
+    },
+    {
+      "id": "src_shibu_mises",
+      "kind": "press",
+      "title": "Jason Morgan, review of John H. Sagers, Confucian Capitalism: Shibusawa Eiichi, Business Ethics, and Economic Development in Meiji Japan (Palgrave Macmillan, 2018), Quarterly Journal of Austrian Economics (Spring 2019), read in full: facts that Shibusawa was born to a small indigo farmer, studied the Analects, helped found hundreds of corporations, worked in the Ministry of Finance and then led the First National Bank, moved into the private sector in 1873, was a major philanthropist and called himself a 'person of practical affairs'; the reviewer's criticism that Sagers never defines capitalism and that Shibusawa's close ties to government undercut calling him a capitalist reformer. Academic book review from a market-liberal journal; a counter-voice, not a biography.",
+      "url": "https://mises.org/quarterly-journal-austrian-economics/confucian-capitalism-shibusawa-eiichi-business-ethics-and-economic-development-meiji-japan"
+    },
+    {
+      "id": "src_shibu_hakushika",
+      "kind": "institution",
+      "title": "Hakushika Memorial Museum of Sake, 'Shibusawa Eiichi and Tatsuuma Kichizaemon' (Sake Talk column, 1 July 2024; unsigned), read in full: a 12 November 1901 letter from Shibusawa about the Seoul-Busan (Gyeongbu) railway, which the page says he strongly promoted, urging a second stock offering and asking a sake brewer to take a share and ask his family to invest (no record that he did), and his earlier part in a shipping company founded in 1882 in opposition to Iwasaki Yataro's Mitsubishi, which merged with Mitsubishi's shipping arm in 1885 to form NYK Line. A museum column based on one letter; narrow but documentary.",
+      "url": "https://sake-museum.jp/en/?p=1743"
+    },
+    {
+      "id": "src_shibu_asiae",
+      "kind": "press",
+      "title": "Kim Jonghwa, 'New Face on Japan's 10,000 Yen Note: Shibusawa Eiichi', The Asia Business Daily (English edition, 1 July 2024; an AI-translated page), read in full: summarises him as founder of about 500 companies and 600 social-contribution organisations and as a pioneer of Japan's first bank and stock exchange, and reports Korean criticism of him for laying railways on the Korean Peninsula and for the Dai-Ichi Bank notes issued in Korea from 1902 to 1904, quoting a Korean university professor who objected to the new banknote; the railway and banknote claims are stated without sources. Korean news report; a counter-voice about his Korea-related business ventures, not independent verification, and its page warns of translation errors.",
+      "url": "https://view.asiae.co.kr/en/article/2024070115365807410"
+    },
+    {
+      "id": "src_shibu_ia",
+      "kind": "archive",
+      "title": "David Starr Jordan, The Days of a Man, volume 2 (World Book Company, Yonkers-on-Hudson, 1922), Internet Archive copy from the University of California Libraries (page scan with the photographic plate captioned 'Viscount Eiichi Shibusawa', facing page 370), opened for the portrait review only. Not used for any row.",
+      "url": "https://archive.org/details/daysmanmemoirs02jordrich"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shibu_nippon, src_shibu_ndl, src_shibu_tasker, src_shibu_kizuna, src_shibu_mises | 1869-1916 | foundation article + national-library biography + opinion journalism + government magazine + academic review] Five accounts agree that after the Meiji Restoration he founded a joint-stock company in Shizuoka, helped found and run the First National Bank from 1873, and helped establish firms such as Oji Paper, Osaka Spinning and Tokyo Gas, and that he gave up a Finance Ministry post to build private enterprise; the book review calls him a founder of hundreds of corporations. The counts (nearly 500, roughly 500, over 500) are approximate and come from admiring or promotional sources, but the pattern of initiating institutions is consistent. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 74 / 0.56 to 70 / 0.52 because the founding record is drawn from promotional foundation and government pages with approximate company counts."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shibu_ndl, src_shibu_kizuna, src_shibu_tasker, src_shibu_asiae | 1869-1916 | national-library biography + government magazine + opinion journalism + Korean press] The sources place him across banking and the stock exchange, paper, textiles, gas, railways, shipping, brewing, insurance and a hotel, and in education (the Commercial Training School that became Hitotsubashi University, women's schools and Japan Women's University) and charity. The breadth is well documented across several sources, though the range is of one kind (organising enterprises) and the lists come from reference or promotional writing. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 74 / 0.55 to 70 / 0.5 because range is shown by a list of roles from promotional summaries that do not separate founding from board membership."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shibu_nippon, src_shibu_ndl, src_shibu_tasker, src_shibu_kizuna | 1867-1878 | foundation article + national-library biography + opinion journalism + government magazine] After the 1867 Paris World Fair he spent about eighteen months studying European economic systems, then was recruited to the new Finance Ministry for his understanding of double-entry accounting (Tasker), left in 1873 to found a bank, and helped establish the stock exchange in 1878. The move from observing foreign institutions to founding Japanese equivalents is consistent across sources, but the sources do not describe his reasoning, and the accounting anecdote rests on opinion journalism."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shibu_nippon, src_shibu_ndl, src_shibu_tasker | 1867-1873 | foundation article + national-library biography + opinion journalism] The sources trace a sequence of changes of position: a farm and indigo upbringing, service to the Hitotsubashi household and the last shogun's court, the 1867 trip to Paris, work in the Meiji Finance Ministry and then a move into private enterprise within about a year (Tasker, NDL). Documented at the level of career facts, with no source describing how he reasoned through the transitions, so confidence is moderate."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_shibu_nippon, src_shibu_kizuna, src_shibu_ndl, src_shibu_tasker, src_shibu_hakushika, src_shibu_asiae, src_shibu_mises | 1873-1916 | foundation article + government magazine + national-library biography + opinion journalism + museum column + Korean press + academic review] The foundation article, the government magazine and the biography say he held that business should serve public interest, taught the harmony of morality and economy, and was involved with some 600 charitable organisations; Tasker says he usually sold his stakes once firms could stand alone. Against this, the Korean press reports criticism of his railway and banknote ventures in Korea (unsourced), the museum column shows him strongly promoting the Gyeongbu railway to investors in 1901, and the book review argues his government ties undercut a capitalist-reformer image. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 72 / 0.52 advantage to 66 / 0.46 dual-edged inference because the stated public-interest motive comes from promotional foundation and government sources, while the sources that bear on his Korea-related ventures and government ties are critical or unsourced and point both ways."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_shibu_ndl, src_shibu_nippon, src_shibu_kizuna, src_shibu_mises | 1873-1916 | national-library biography + foundation article + government magazine + academic review] He was general supervisor and president of the First National Bank, president of Japan Women's University, and involved in managing a large number of companies. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.50 to 64 / 0.44 because the leadership roles are listed in promotional and reference summaries with approximate counts, and the sources do not distinguish founding from sitting on boards, so the claim of drive is stronger than the documented behaviour."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shibu_tasker, src_shibu_kizuna, src_shibu_hakushika, src_shibu_nippon | 1869-1901 | opinion journalism + government magazine + museum column + foundation article] He built firms through joint-stock companies that pooled capital (a Shizuoka company in 1868-69, the First National Bank), is said to have favoured wide shareholding over building a family conglomerate and usually sold his stakes once companies could stand on their own (Tasker), and in a 1901 letter asked a brewer to take railway shares (no record that he did). The practice of pooling investors is documented, but the sources are admiring and the 'gapponshugi' framing is from a government magazine."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "시부사와 에이이치"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/shibusawa-eiichi-days-of-a-man-1922.jpg",
+    "width": 875,
+    "height": 1200,
+    "source": "Halftone photographic plate captioned 'Viscount Eiichi Shibusawa' in David Starr Jordan's memoir The Days of a Man, volume 2 (World Book Company, Yonkers-on-Hudson, New York, 1922), facing page 370, as scanned by the Internet Archive from a University of California Libraries copy (the scan is the leaf after page 369; the Internet Archive marks the item as not in copyright in the United States). The photographer is not named; the photograph shows an older man in a dark suit and bow tie and is the sitter's own portrait photograph as printed by the book, with the sitter named by the printed caption. The book was published in the United States in 1922, more than 95 years ago, and Shibusawa died in 1931. The file is the Internet Archive page scan (2134 x 3472 pixels, rotated upright), cropped to the plate's left-hand photograph and reduced (downscaled only, never enlarged) from 1083 x 1485 to 875 x 1200 pixels; the right-hand plate (a different sitter) is not used.",
+    "license": "Public domain (photograph published in the United States in 1922; photographer unknown)",
+    "licenseUrl": "https://archive.org/details/daysmanmemoirs02jordrich",
+    "attribution": "Unknown photographer, Viscount Eiichi Shibusawa, plate in David Starr Jordan, The Days of a Man, volume 2 (Yonkers-on-Hudson: World Book Company, 1922), Internet Archive copy from the University of California Libraries, public domain",
+    "attributionUrl": "https://archive.org/details/daysmanmemoirs02jordrich",
+    "creator": "Unknown photographer",
+    "date": "before 1922",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/daysmanmemoirs02jordrich"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED WITH THE LEAD'S FIRST IMAGE (same photograph, taken directly from the book): the lead's initial image is the plate in The Days of a Man (1922). I opened the Internet Archive record (metadata: published 1922 by World Book Co., Yonkers-on-Hudson, 'possible-copyright-status NOT_IN_COPYRIGHT', region US), found the leaf (the plate sits sideways after page 369, caption 'VISCOUNT EIICHI SHIBUSAWA') and cropped that scan myself. The Commons file 'Portrait of Shibusawa Eiichi.jpg' (2276 x 3356, a PD-US tag citing this book) was NOT used: its resolution and tonal quality are those of a continuous-tone photograph rather than the book's halftone, so its stated source cannot be verified from the file, although the pose matches the plate; the rights basis here is the dated book publication, read from the book page itself. Caveats stated honestly: the photographer is unnamed in the book, so the basis is the 1922 U.S. publication date (not an author's death date) and the sitter is identified by the printed caption; a Japanese origin raises a URAA question that I did not resolve beyond noting that the photograph was published before 1922 and Japan's term for pre-1957 photographs had long expired by 1996 (not verified on a primary source). The NDL portraits entry lists 16 portraits without caption, credit or licence and the Library of Congress Bain item (ggbain.20498) returned 404 from the JSON item URL (not pursued further because the lead's first image resolved), so neither was used. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q704995 label 'Shibusawa Eiichi', description 'Japanese industrialist known as the \"father of Japanese capitalism\" (1840-1931)', born 1840 (two dates given), died 11 November 1931, Korean label '시부사와 에이이치' (used as the display name); not in the 667-person production list and no candidate file existed. REGION east_asia, nationality JP, era 19th_century (born 1840, main career 1869-1916; the same convention as Fukuzawa Yukichi). VOCABULARY: occupations entrepreneur and executive (banker and industrialist have no labels), fields business and education, impact domains entrepreneurial, industrial and educational, tags founder and organizer, archetypes entrepreneurial_builder and organizational_leader; all grepped in en.ts and ko.ts. ZERO POLITICS: his youthful nationalist-activist ties, his Ministry of Finance posts, his baron and viscount titles and his 'private diplomacy' with the United States are not scored; only his business and educational work is. CANONICAL SIGNIFICANCE SOURCE: 'Shibusawa Eiichi: Japan's Moral Capitalist', Nippon.com Shapers of Japanese History (https://www.nippon.com/en/views/b07202/shibusawa-eiichi-japan%E2%80%99s-moral-capitalist.html). READ IN FULL (8 non-Wikidata sources): Nippon.com, NDL Portraits of Modern Japanese, JapanGov KIZUNA, Peter Tasker's article, Jason Morgan's book review, Hakushika sake-museum column, Asia Business Daily, and the Jordan book page. PERSPECTIVES: foundation article, national-library biography, government magazine, opinion journalism, academic book review, museum column, Korean press. COUNTER-VOICES: Morgan's point that his government ties undercut the capitalist-reformer image; the Korean press report of criticism of his railway and Dai-Ichi Bank notes in Korea (unsourced and via an AI-translated page); the 1901 letter showing him promoting the Gyeongbu railway; only one scholarly voice (Morgan) and no independent historian's biography read. NOT OPENED: Sagers's book, Fridenson's Ethical Capitalism, the Shibusawa Memorial Foundation and museum sites, The Analects and the Abacus (self-authored; not scored), Japan Journal's Wisdom of Shibusawa Eiichi (403), the Thinkers50 transcript (read only for context: a family-member's speech, not used), the Iwasaki gappon anecdote (family-sourced; not scored), his reported 'first Japanese' claims and the number of his children (unsourced). NUMBERS: the sources give 'roughly 500', 'nearly 500' and 'over 500' companies and 'roughly 600' charities; cards use 'roughly 500'. CALIBRATION: seven rows, highest score 74 and highest confidence 0.56; the evidence is mostly promotional or admiring, there is no independent adversarial biography, so confidence is held at or below 0.56. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (lowered from 72 / 0.52 advantage to 66 / 0.46 dual-edged), leadership_drive (lowered from 70 / 0.50 to 64 / 0.44), cross_domain_range (kept; five sources agree on breadth). BROAD FLAG: all seven rows rest on promotional or general-interest sources and one academic review; a read of Sagers or Fridenson would be the next step. HANDBACK62: {\"slug\": \"shibusawa-eiichi\", \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"initial_lead\": \"unknown-photographer portrait from 'The Days of a Man' (1922 book plate)\", \"final_portrait_source\": \"Internet Archive scan of David Starr Jordan, The Days of a Man vol. 2 (World Book Co., 1922), plate 'Viscount Eiichi Shibusawa' after p. 369 / https://archive.org/details/daysmanmemoirs02jordrich\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 72, \"old_confidence\": 0.52, \"new_score\": 66, \"new_confidence\": 0.46, \"reason\": \"public-interest motive comes from promotional foundation and government sources while sources on his Korea ventures and government ties are critical or unsourced; changed to dual-edged\"}, {\"attribute\": \"leadership_drive\", \"old_score\": 70, \"old_confidence\": 0.5, \"new_score\": 64, \"new_confidence\": 0.44, \"reason\": \"roles are listed in promotional summaries with approximate counts and founding is not distinguished from board membership\"}], \"reviewed_kept\": [\"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7} RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 74 / 0.56 to 70 / 0.52 because the founding record is drawn from promotional foundation and government pages with approximate company counts. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 74 / 0.55 to 70 / 0.5 because range is shown by a list of roles from promotional summaries that do not separate founding from board membership."
+  }
+}

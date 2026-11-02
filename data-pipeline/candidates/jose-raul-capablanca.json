@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jose-raul-capablanca",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "José Raúl Capablanca",
+    "aliases": [
+      "Jose Raul Capablanca",
+      "José Raúl Capablanca y Graupera",
+      "Capablanca"
+    ],
+    "wikidataId": "Q160702",
+    "birthYear": 1888,
+    "deathYear": 1942,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CU"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_capab_wikidata",
+      "kind": "wikidata",
+      "title": "José Raúl Capablanca (Q160702), verified live via the Wikidata API (2026-11-01): label 'José Raúl Capablanca', description 'Cuban chess player (1888-1942)', born 1888 (6 or 19 November in the item's two values), died 8 March 1942, citizenship Cuba, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q160702"
+    },
+    {
+      "id": "src_capab_fide",
+      "kind": "institution",
+      "title": "'Jose Raul Capablanca', FIDE (World Chess Federation) museum champions page, read in full. CANONICAL SIGNIFICANCE SOURCE: Cuban chess prodigy who beat Frank Marshall at 21, challenged Emanuel Lasker from 1911, won the 1921 Havana match against Lasker (+4 -0 =10), did not lose a serious game from 1916 to 1924, lost only 34 games in his adult career and was called a 'chess machine', lost the title to Alexander Alekhine in 1927 with no rematch, won Moscow 1936 and had the best first-board result at the 1939 Olympiad; quotations of admiration from Botvinnik, Tal, Karpov and Fischer; books My Chess Career (1920) and Last Lectures (1966). A federation museum page: promotional, mostly testimony from other masters, with almost nothing on conduct.",
+      "url": "https://museum.fide.com/champions/jose-raul-capablanca"
+    },
+    {
+      "id": "src_capab_wchof",
+      "kind": "institution",
+      "title": "'Jose Raul Capablanca', World Chess Hall of Fame (inducted 2001), read in full: learned chess at four, beat the Cuban champion at 13, studied at Columbia University but left to concentrate on chess, a 1909 exhibition tour of 27 cities scoring 96.9 per cent over 607 games, qualified for a 1911 title match with Lasker but did not play because he was dissatisfied with the terms, played in St Petersburg in 1914 (second to Lasker), lost only one game between 1914 and 1924, beat Lasker in Havana in 1921, held the title until Alekhine won in 1927, tried to regain it, retired briefly in 1931 and returned in the 1930s, died in 1942. Also the 'Human Chess Machine' and 'Capa' nicknames and an unofficial diplomatic role for the Cuban foreign office (not used). Hall-of-fame page: admiring and brief.",
+      "url": "https://worldchesshof.org/?p=934"
+    },
+    {
+      "id": "src_capab_ebsco",
+      "kind": "biography",
+      "title": "'José Raúl Capablanca', EBSCO Research Starters (history), read in full: early life in Cuba, sponsored move to the United States and Columbia University that he did not finish, the 1909 exhibition tour and the 8-1 (14 draws) win over Marshall, San Sebastian 1911, St Petersburg 1914, Hastings 1919, Lasker's resignation of the title in 1920 and the 1921 match, the 1927 loss to Alekhine (6-3 with 25 draws) and the missing rematch because of Alekhine's purse demands, his retreat from top events after 1931, a 1938 stroke-affected result and best first-board prize in 1939, death in 1942; credits him with a quick, intuitive grasp of positions, with helping reform championship rules and organisation, breaking European dominance of the title and promoting chess in Latin America through a Spanish-language magazine and Havana and Buenos Aires tournaments; notes that Lasker's demands over purses and conditions stalled a title match for years. Encyclopedic summary by a reference publisher; few direct quotations.",
+      "url": "https://ebsco.com/research-starters/history/jose-raul-capablanca"
+    },
+    {
+      "id": "src_capab_chessbase",
+      "kind": "press",
+      "title": "'Capablanca's 130th anniversary' (a biographical article, 2018), ChessBase, read in full: the Columbia grant withdrawn after a semester because he 'studied chess much more ardently than chemistry or sports', the 1906 rapid win over Lasker, the 1909 match against Marshall, San Sebastian 1911, the 1914 blitz match in Berlin, the 1921 title, the 1927 loss to Alekhine (3-6 with 25 draws), 63 games without a loss from 1916 to 1924, 578 official tournament games with only 36 lost, his description as 'uncompromising' in financial negotiations and his demand for at least 10,000 dollars for a title match which angered Alekhine, enmity with Alekhine afterwards, a minor stroke at AVRO 1938, death in 1942. Specialist press written for chess readers; a publisher's promotional blurb on the page was not used.",
+      "url": "https://en.chessbase.com/newsroom/post/raul-capablanca-november-1888-march-8-1942?page=0"
+    },
+    {
+      "id": "src_capab_chesscom",
+      "kind": "press",
+      "title": "billwall, 'Capablanca', Chess.com, read in full: a chess-historian's overview of his life: the 1909 Marshall match and simultaneous exhibitions, San Sebastian 1911, his objection to a 30-game limit in the 1910 Lasker talks, 1914 St Petersburg and the Russian tsar's 'Grandmaster' title, the 1921 match, the 1927 loss, the 1931 win against Euwe and his repeated lack of a rematch, later tournament wins (Budapest 1928, Barcelona 1929, Moscow 1936), a stroke at AVRO 1938, the 1939 Olympiad board prize, a chess-variant proposal, and death in 1942. Contains unsourced claims and typographical errors; used only for facts that other sources repeat, and its personal-life passages were not used.",
+      "url": "https://www.chess.com/article/view/capablanca"
+    },
+    {
+      "id": "src_capab_winter_london",
+      "kind": "press",
+      "title": "Edward Winter, 'The London Rules', Chess Notes (chess historian's feature article with contemporary newspaper citations), read in full: the 21-clause rules for world championship matches that Capablanca drew up and that Alekhine, Bogoljubow, Maroczy, Reti, Rubinstein, Tartakower and Vidmar accepted at the 1922 London congress; clause eight ('the champion will not be compelled to defend his title for a purse below ten thousand dollars'); Winter's argument that the rules were an agreement among the masters rather than something Capablanca imposed; Capablanca's loose 1926 reading of the clause; Alekhine's statements on the terms in 1926, 1928 and 1980; the 1929-1931 challenges and talks that failed, the 1938 challenge that failed when Capablanca's Montevideo backers withdrew, and the verdict (quoting a letter-writer, with which Winter agrees) that Capablanca 'was not free of blame' for the absence of a rematch. An independent, source-based critical account.",
+      "url": "https://www.chesshistory.com/winter/extra/london.html"
+    },
+    {
+      "id": "src_capab_winter_title",
+      "kind": "press",
+      "title": "Edward Winter, 'How Capablanca Became World Champion', Chess Notes (chess historian's feature article with dated contemporary newspaper citations), read in full: the January 1920 agreement with Lasker in The Hague, Lasker's June 1920 abdication in Capablanca's favour and the contemporary press reaction (several British publications said the title could not simply be handed over), Capablanca's August 1920 journey to The Hague and the new agreement naming him champion, the November 1920 to April 1921 financial arrangements (a 20,000 dollar purse, Lasker 11,000 and Capablanca 9,000), the match in Havana from 15 March 1921 that ended on 27 April, and Capablanca's 1922 statement that he preferred to play rather than take the title without winning it over the board, which Winter notes misleadingly suggested Lasker had withdrawn his abdication. An independent, source-based account that is partly critical.",
+      "url": "https://chesshistory.com/winter/extra/capablanca2.html"
+    },
+    {
+      "id": "src_capab_winter_1927",
+      "kind": "press",
+      "title": "Edward Winter, 'Capablanca v Alekhine, 1927', Chess Notes (chess historian's feature article), read in full: the 1927 Buenos Aires match played under the London Rules (six games up, draws not counting), the purse split, the claimed 5-5 drawn-match clause which Winter traces to later writers and finds unsupported by the Argentine press of the time, Capablanca's October 1927 letters suggesting the next match be limited to 20 games, Alekhine's September 1927 statement that he would accept a return match under the same conditions, Capablanca's wired and press statements about a return match, and the progress of the match to 6-3 for Alekhine. An independent, source-based account; it says little about Capablanca's preparation.",
+      "url": "https://www.chesshistory.com/winter/extra/capablancaalekhine1927.html"
+    },
+    {
+      "id": "src_capab_bnf",
+      "kind": "archive",
+      "title": "Bibliothèque nationale de France, Gallica record 'M. [José Raúl] Capablanca, champion d'échecs : [photographie de presse] / [Agence Rol]', 1921, reference Rol 63115, glass negative 18 x 13 cm, Departement des Estampes et de la photographie: catalogue record read through the Gallica OAI service for the portrait review only. Not used for any row.",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b53045803j"
+    }
+  ],
+  "rows": {
+    "intuitive_synthesis": {
+      "score": 68,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_capab_ebsco, src_capab_chessbase, src_capab_fide, src_capab_chesscom | 1909-1924 | encyclopedic summary + chess press + federation museum] The EBSCO biography credits him with quickness based on an intuitive grasp of positions and endgame tactics, ChessBase says he 'seemed to win without effort' and went 63 games without a loss between 1916 and 1924, and the federation museum page gathers testimony from later masters on his simplicity and technique. The sources describe results and reputation, not how he reasoned, and the 'intuitive' label is a retrospective characterisation, so confidence is low. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 74 / 0.52 strong inference to 68 / 0.46 inference because the claim of intuition is stronger than any documented behaviour: it rests on one encyclopedia phrase and later masters' praise, while the results themselves show strength, not process."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_capab_winter_london, src_capab_winter_1927, src_capab_chessbase, src_capab_wchof, src_capab_chesscom, src_capab_ebsco | 1910-1938 | chess-historian articles with dated press citations + chess press + hall-of-fame page + encyclopedic summary] Over three decades he stood on his terms in title negotiations: he objected to a 30-game limit in the 1910 talks and did not play the 1911 match because he was unhappy with the terms (hall of fame, Chess.com), he drew up the 1922 rules with a purse floor of 10,000 dollars (Winter), ChessBase calls him 'uncompromising' in financial negotiations and says his demands angered Alekhine, who became an enemy, and Winter, citing a correspondent, says he 'was not free of blame' for the missing rematch while also showing that Alekhine's own conduct is debated and that the rules were agreed by other masters. Dual-edged: he held firm against a champion's conditions but the same firmness is reported alongside a lost chance of a rematch."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_capab_winter_london, src_capab_winter_title, src_capab_winter_1927, src_capab_ebsco, src_capab_fide | 1911-1939 | chess-historian articles with dated press citations + encyclopedic summary + federation museum] He pursued the title over many years: the first match with Lasker was first sought in 1911 and played only in 1921 (Winter, hall of fame), after Lasker's 1920 abdication he travelled to The Hague and then pushed for a real match in Havana; after losing in 1927 he said he wished a return match under the same rules, renewed challenges in 1929, 1930 and 1931 and again in 1938 (Winter), and despite a minor stroke in 1938 he took the best first-board result at the 1939 Olympiad (EBSCO, FIDE). The challenges mostly failed, and the evidence shows pursuit of a rematch rather than how he worked, so confidence is moderate."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_capab_winter_title, src_capab_ebsco, src_capab_wchof, src_capab_chessbase | 1906-1921 | chess-historian article with dated press citations + encyclopedic summary + hall-of-fame page + chess press] He gave up university study to concentrate on chess (hall of fame, EBSCO; ChessBase says the Columbia grant was withdrawn because he studied chess more than chemistry, so the sources differ on the cause), toured 27 cities in 1909 for exhibitions, and in 1920 travelled to The Hague to settle terms and then agreed to a Havana match rather than accept the title Lasker had resigned (Winter, who also notes his later account blurred Lasker's position). A documented, repeated pursuit of the championship, but the sources are mostly summaries and the motive is not directly stated except in his own 1922 remark, which is not used as support."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "호세 라울 카파블랑카"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jose-raul-capablanca-agence-rol-1921.jpg",
+    "width": 859,
+    "height": 1200,
+    "source": "Press photograph 'M. [José Raúl] Capablanca, champion d'échecs' by the Paris press-photo agency Agence Rol (the individual photographer is not named), January 1921, reference Rol 63115, glass negative 18 x 13 cm, Bibliothèque nationale de France (Estampes et photographie, EI-13 (755)), digitised on Gallica. The BnF's own catalogue record for this item (read through its OAI service) gives the date as January 1921, identifies the subject as Capablanca and states the rights as 'domaine public' / 'public domain'; the image was taken in 1921, well over 95 years ago. The file is the Gallica scan as mirrored on Wikimedia Commons (6105 x 8511 pixels), cropped to remove the negative's frame and edge labels and reduced (downscaled only, never enlarged) to 859 x 1200 pixels.",
+    "license": "Public domain (item-level statement by the Bibliothèque nationale de France; 1921 press photograph by Agence Rol)",
+    "licenseUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53045803j",
+    "attribution": "Agence Rol, M. Capablanca, champion d'échecs, January 1921, Bibliothèque nationale de France (Gallica), public domain",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53045803j",
+    "creator": "Agence Rol",
+    "date": "1921",
+    "kind": "likeness",
+    "sourcePageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53045803j"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED VIA A REPLACEMENT: the lead's first image, the 1931 Keystone/Getty file, was unusable (Getty-sourced, post-1930). Of the two lead alternatives, the Library of Congress Harris & Ewing item (LCCN 2016866175, 1915) was rejected: its live JSON gives the date from 'unverified caption data' and only the generic 'No known restrictions on publication' statement, and nothing shows it was published. The BnF Agence Rol press photograph (Rol 63115, January 1921) was used: the BnF's own OAI catalogue record (opened live; the Gallica HTML page itself returns 403 to scripts) gives a 1921 date, the subject and 'domaine public / public domain' at item level; a Commons PD tag was not relied on. Residual caveat: Agence Rol's individual photographer is unnamed and the record does not say where the print was first published. The file was cropped to remove the frame and labels and downscaled from 6105 x 8511 to 859 x 1200; never enlarged. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q160702 label 'José Raúl Capablanca', description 'Cuban chess player (1888-1942)', born 1888 (6 or 19 November in two statements), died 8 March 1942, Korean label '호세 라울 카파블랑카' (used as the display name); not in the 667-person production list and no candidate file existed. REGION latin_america, nationality CU (he lived in the United States, Europe and Argentina but represented Cuba); era 20th_century. VOCABULARY: occupation athlete and field sport (the precedent for chess players, e.g. Bobby Fischer, Viswanathan Anand), impact domains athletic and cultural, tags competitor and prodigy, archetype competitive_performer, all with EN and KO labels. ZERO POLITICS: his unofficial diplomatic and consular roles for Cuba were not scored. CANONICAL SIGNIFICANCE SOURCE: 'Jose Raul Capablanca', FIDE museum champions page (https://museum.fide.com/champions/jose-raul-capablanca), with the World Chess Hall of Fame page. READ IN FULL (8 non-Wikidata sources): FIDE museum, World Chess Hall of Fame, EBSCO Research Starters, ChessBase 130th-anniversary article, Chess.com overview, and three Edward Winter articles (The London Rules, How Capablanca Became World Champion, Capablanca v Alekhine 1927). PERSPECTIVES: federation museum, hall of fame, reference encyclopedia, chess press, chess-history overview, and an independent critical chess historian who cites dated contemporary newspapers. COUNTER-VOICES: Winter's 'not free of blame' verdict and criticism of Capablanca's 1922 account; ChessBase's 'uncompromising' note; EBSCO's note on Alekhine's purse demands; Winter's defence of him against the claim that he alone imposed the rules. NOT OPENED: Encyclopaedia Britannica (the fetch was refused), the Gallica HTML page (403), Capablanca's own books My Chess Career and Chess Fundamentals (self-report, not scored), Linder's biography and Kasparov's My Great Predecessors, a Chess.com video blurb on the 1927 match (read, no usable content), and alekhinechess.com (connection reset). Unsupported claims excluded: the often-repeated explanations that he lost in 1927 through overconfidence or lack of preparation reached me only as search-engine summaries and no read source states them; the 5-5 clause is not used. Personal life, marriages, health decline and death are not scored. Notes on facts: the sources differ on the 1927 match arithmetic only by wording (6-3 with 25 draws in the sources that give it); the FIDE museum says no serious game lost 1916-1924, the hall of fame says one game lost 1914-1924, ChessBase says 63 games without a loss from 1916 to 1924. CALIBRATION: four rows, highest score 68 and highest confidence 0.52; no row reaches 0.6 because the praise is admiring and retrospective, and no independent source documents how he studied or prepared. SELF-CALIBRATION (agent): top-risk rows reviewed: intuitive_synthesis (lowered from 74 / 0.52 to 68 / 0.46), conflict_tolerance (kept; independent critical corroboration from two chess historians and a chess-press account), achievement_drive (kept; sources differ on cause of leaving university and this is reflected in the rationale). BROAD FLAG: profile is sparse on work style, since no read source documents training or preparation. HANDBACK62: {\"slug\": \"jose-raul-capablanca\", \"portrait_preflight_grade\": \"STRONG (alt-dependent)\", \"initial_lead\": \"Keystone/Getty 1931 file (post-1930, Getty-sourced)\", \"final_portrait_source\": \"Bibliotheque nationale de France (Gallica) / Agence Rol / Rol 63115, January 1921 / https://gallica.bnf.fr/ark:/12148/btv1b53045803j\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"intuitive_synthesis\", \"old_score\": 74, \"old_confidence\": 0.52, \"new_score\": 68, \"new_confidence\": 0.46, \"reason\": \"the intuition claim rests on one encyclopedia phrase and later masters' praise; the results show strength, not reasoning process\"}], \"reviewed_kept\": [\"conflict_tolerance\", \"achievement_drive\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

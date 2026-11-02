@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hicham-el-guerrouj",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hicham El Guerrouj",
+    "aliases": [
+      "Hisham El Guerrouj",
+      "Hicham Elguerrouj"
+    ],
+    "wikidataId": "Q83905",
+    "birthYear": 1974,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "MA"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_guerrouj_wikidata",
+      "kind": "wikidata",
+      "title": "Hicham El Guerrouj (Q83905), verified live via the Wikidata API (2026-11-01): label 'Hicham El Guerrouj', description 'Moroccan middle and long distance runner', born 1974-09-14, no death date, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q83905"
+    },
+    {
+      "id": "src_guerrouj_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Hicham El Guerrouj' athlete biography and results, read in full: three Olympics (1996, 2000, 2004); fell in the 1996 1,500 m final; silver in Sydney 2000; 1,500 m and 5,000 m gold in Athens 2004, the first man in 80 years to win both; four straight World Championship 1,500 m titles (1997-2003); three IAAF World Athlete of the Year awards (2001-2003); 1,500 m world record of 3:26.00 in 1998; IOC athlete member 2004-2012 and elected to the IAAF Athletes Committee in 2003. CANONICAL SIGNIFICANCE SOURCE: the standard Olympic results archive. Concise and favourable; a typo in the record time on the page was ignored in favour of the results table.",
+      "url": "https://www.olympedia.org/athletes/73317"
+    },
+    {
+      "id": "src_guerrouj_brown",
+      "kind": "award_body",
+      "title": "Matthew Brown, 'El Guerrouj's patience pays off', IAAF (World Athletics), 29 August 2004, read in full: report on the Athens 5,000 m final, in which he ran at the curb behind Bekele and Kipchoge and attacked only in the last 100 m; his quotes about being scared after Bekele's 10,000 m, about Sydney ('difficult to start running again') and about training hard for four more years; it describes his 2003 World Championships 5,000 m as a practice run for the double. Federation staff report on an event, with his own statements quoted; favourable, and it contains health details that were not used.",
+      "url": "https://worldathletics.org/competitions/olympic-games/news/el-guerroujs-patience-pays-off"
+    },
+    {
+      "id": "src_guerrouj_final1500",
+      "kind": "award_body",
+      "title": "'Men's 1500m Final' race report, IAAF (World Athletics), 24 August 2004, read in full: the Athens 1,500 m final, won in 3:34.18 by 0.12 s over Bernard Lagat, with El Guerrouj moving up after 700 m and kicking down the back straight 'as he had often done before'; last lap in 51.91; his quotes after the race. Federation race report, brief and favourable.",
+      "url": "https://worldathletics.org/news/news/mens-1500m-final-2"
+    },
+    {
+      "id": "src_guerrouj_dailystar",
+      "kind": "press",
+      "title": "'Hicham makes history', The Daily Star (Bangladesh), AFP report from Athens, 29-30 August 2004, read in full: wire account of the 5,000 m win two days after the 1,500 m, describing him as the first man since Paavo Nurmi in 1924 to take both at one Games and noting his two earlier failed Olympic 1,500 m bids; quotes him calling it a deserved reward after Atlanta and Sydney. Independent wire reporting, celebratory and short.",
+      "url": "https://www.thedailystar.net/2004/08/30/d40830040135.html"
+    },
+    {
+      "id": "src_guerrouj_turnbull",
+      "kind": "award_body",
+      "title": "Simon Turnbull, 'A decade after retirement, El Guerrouj still has Midas touch in inspiring future generation', IAAF (World Athletics), 17 September 2014, read in full: report on an IAAF/Nestle Healthy Kids Athletics day in the village of Douar Ait Iktel in the Atlas Mountains run by a Moroccan sport-and-development association, where he ran sprints with about 80 children on his 40th birthday; recaps his career (fall at Atlanta, being overtaken at Sydney, the 2004 double, four world titles, mile record 3:43.13) and quotes him on helping children dream. Federation feature on one event, favourable.",
+      "url": "https://worldathletics.org/news/feature/hicham-el-guerrouj-retirement-kids-athletics"
+    },
+    {
+      "id": "src_guerrouj_arabnews",
+      "kind": "press",
+      "title": "'It Is the Peak of My Life: Guerrouj', Arab News (Jeddah), 13 November 2004, read in full: short interview-style piece after the Athens double giving his comments on the two golds, his world titles of 1997, 1999, 2001 and 2003, and his plan to move toward the 5,000 m record in 2005. The visit it describes and his religious remarks were not used, and its Atlanta finishing place (eighth) conflicts with Olympedia (12th), so it was used only for the career outline.",
+      "url": "https://www.arabnews.com/node/258040"
+    },
+    {
+      "id": "src_guerrouj_radiocanada",
+      "kind": "press",
+      "title": "'El Guerrouj transmet sa passion', Radio-Canada (23 September 2010), read in full: news item reporting that he was in Montreal for a few days to give two school talks on the Friday and one adult talk at Concordia University on the Saturday. Used only to corroborate that he was in Montreal on the date of the portrait photograph; not used for any row.",
+      "url": "https://ici.radio-canada.ca/nouvelle/487746/elguerrouj"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_guerrouj_olympedia, src_guerrouj_brown, src_guerrouj_dailystar, src_guerrouj_turnbull | 1996-2004 | results archive + federation report + wire report + federation feature] Olympedia records a fall in the 1996 Olympic 1,500 m final while favoured, a 2000 silver after being overtaken near the line, then four straight world titles (1997-2003) and the 2004 Olympic 1,500 m and 5,000 m golds; the federation report and the AFP report both frame Athens as a return after the two Olympic setbacks, and he is quoted saying it was hard to start running again after Sydney but that he trained hard for four more years. The independent result record shows a long run of returns after major losses; the motive and the training are described mostly in his own words relayed by federation staff, so confidence stays moderate. Health details in the sources were not used. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.58 to 68 / 0.52 because the evidence is a results record plus federation and press retellings of his own account of his losses."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_guerrouj_brown, src_guerrouj_final1500 | 2003-2004 | federation report + federation race report] The federation reports describe him shadowing Kenenisa Bekele and Eliud Kipchoge at the curb in the Athens 5,000 m and attacking only in the last 100 m, kicking down the back straight in the 1,500 m final 'as he had often done before', and treating his 2003 World Championships 5,000 m as a practice run for the double. Patient, pre-planned race craft is described, but the plan itself is known mostly from his own post-race words and two staff reporters, and the practice-run description is a retelling. SELF-CALIBRATION (agent): lowered from 62 / 0.50 because the plan rests on his own account and federation staff retellings with no independent observer of the preparation."
+    },
+    "impact_motivation": {
+      "score": 50,
+      "confidence": 0.38,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_guerrouj_turnbull, src_guerrouj_olympedia | 2003-2014 | federation feature + results archive] The federation feature reports that on his 40th birthday he took part in a children's athletics day in a remote Atlas village, running sprints with about 80 children and saying sport can help young people to dream; Olympedia lists his election to the IAAF Athletes Committee in 2003 and IOC athlete membership from 2004 to 2012. These are real roles and one documented appearance, but they come from federation sources and one event, so the row is deliberately thin and low-confidence. SELF-CALIBRATION (agent): lowered from 54 / 0.40 because it rests on one federation-reported appearance and role listings with no observer of his conduct in them."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "히샴 엘 게루주"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) / CONFIRMED with an identity caveat: Commons 'Hicham El Guerrouj cropped.jpg' (576 x 968, cropped by Commons user Selligpau) derives from 'Hicham El Guerrouj.jpg' (2592 x 1944), the Flickr photograph 'With Hisham El-Guerrouj' by Sebastien from Montreal (Flickr user theflame77, photo 5018554531), taken 23 September 2010 at an event at Boutique Endurance, Montreal. LIVE Flickr check on 2026-11-01: the photo page shows 'Some rights reserved' with the CC BY-SA 2.0 link (licence id 5) and date taken 2010-09-23 18:02; the sibling photos 5018551543 and 5018549289 also show CC BY-SA 2.0, so there is no photo-level or account-level conflict found; Commons FlickrReview passed on 2012-01-19. Licence has not changed since the upload (no Masekela-type change). IDENTITY: the identification rests on the photographer's own labelling ('Hisham El-Guerrouj', also an autograph-signing photograph from the same session) plus context: Radio-Canada (23 Sept 2010, opened) reports he was in Montreal that week giving talks, an independent Flickr photographer (imagesdistributioncanada, All rights reserved, not used) dates a photo of him in Montreal 23 Sept 2010, and a search snippet of a La Presse article (403, not opened) says he visited 22-25 Sept 2010; no source I opened names the Boutique Endurance appearance itself, so identity is well supported but not holder-attested; the lead should weigh this. No conflicting institutional notice exists (no institution holds the image). The photograph is an informal snapshot with a sliver of another person's sleeve at the bottom-right edge. Commons crop used unaltered (not upscaled). Kind is likeness (a photograph of the person himself). No other rights-clear alternative was found: the Commons category holds only this photographer's four images, and a Commons depicts-statement search returned the same files plus an unrelated 'Carlos ga...jpg'.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-11-01) for Q83905 returned en label 'Hicham El Guerrouj', description 'Moroccan middle and long distance runner', born 1974-09-14, no death date, ko label present. SLUG/QID CHECK: not in prod62.txt and no existing candidate file. Region north_africa (Morocco, per the Moroccan precedent). Zero-politics passes: primary identity is athletics; his IOC and IAAF committee roles are listed as sports administration and are not scored as leadership. LIVING SUBJECT: only public professional behaviour is scored; family, health (the allergy-related breathing problems and falls reported in sources), religious observance and finances were not used, and no allegation was found or used.\nCANONICAL SIGNIFICANCE SOURCE: Olympedia, 'Hicham El Guerrouj' https://www.olympedia.org/athletes/73317 (read in full).\nSOURCES READ (6 substantive plus 1 identity-only): Olympedia, IAAF Brown 2004 report on the 5,000 m, IAAF 1,500 m final report 2004, AFP via The Daily Star 2004, IAAF Turnbull 2014 feature, Arab News 2004; Radio-Canada 2010 (portrait identity context only); Wikidata orientation only. PERSPECTIVES: results archive, federation reporters (three, friendly), wire agency, Arab press. Non-self behavioural source: the federation race reports and the AFP wire report of what he did in the races. COUNTER-VOICE: none critical of him; the closest are rivals' and his own admissions of fear before the 5,000 m and his Rome 2004 defeat (reported in the Brown piece), plus source conflicts on his 1996 Atlanta finish (Olympedia 12th after a fall; Arab News eighth; Brown says he was tripped and finished last). This is why confidence stays <= 0.58 and no score exceeds 72. NOT OPENED: Britannica, CNN 2004 (HTTP 451), LetsRun 2004 (403), La Presse 2010 (403), aujourdhui.ma (403), Universalis, his own memoir or interviews, Wikipedia. Three rows only, sparse because the sources are race reports and federation features.\nSELECTIVE SELF-CALIBRATION: reviewed persistence (kept at 72/0.58: the result record is independent and consistent), planning_orientation (lowered 62/0.50 to 58/0.46: plan known from his own words and staff retellings) and impact_motivation (lowered 54/0.40 to 50/0.38: one event and role listings). Initial rows 3; lowered 2.\nHANDBACK62: {\"slug\":\"hicham-el-guerrouj\",\"portrait_preflight_grade\":\"PLAUSIBLE (lead-robust)\",\"initial_lead\":\"Flickr original by 'Sebastien from Montreal' (CC BY-SA 2.0)\",\"final_portrait_source\":\"Sebastien (Flickr user theflame77), photo 5018554531 taken 2010-09-23, CC BY-SA 2.0, via Wikimedia Commons crop 'Hicham El Guerrouj cropped.jpg' https://commons.wikimedia.org/wiki/File:Hicham_El_Guerrouj_cropped.jpg\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":3,\"self_calibrated_rows\":[{\"attribute\":\"planning_orientation\",\"old_score\":62,\"old_confidence\":0.5,\"new_score\":58,\"new_confidence\":0.46,\"reason\":\"plan rests on his own account and federation staff retellings with no independent observer of the preparation\"},{\"attribute\":\"impact_motivation\",\"old_score\":54,\"old_confidence\":0.4,\"new_score\":50,\"new_confidence\":0.38,\"reason\":\"rests on one federation-reported appearance and role listings with no observer of his conduct in them\"}],\"reviewed_kept\":[\"persistence\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":true,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"first-pass top omission: the 1,500 m world record was missing from card 2; corrected by the agent\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":3} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.58 to 68 / 0.52 because the evidence is a results record plus federation and press retellings of his own account of his losses."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hicham-el-guerrouj-sebastien-2010.jpg",
+    "width": 576,
+    "height": 968,
+    "source": "Wikimedia Commons file 'Hicham El Guerrouj cropped.jpg': a crop by Commons user Selligpau of the Flickr photograph by Sebastien from Montreal, taken 23 September 2010 in Montreal; original photograph 2592 x 1944 pixels, crop 576 x 968 pixels, not enlarged",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "attribution": "Photo: Sebastien from Montreal (Flickr, theflame77), 23 September 2010, CC BY-SA 2.0, cropped from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Hicham_El_Guerrouj_cropped.jpg",
+    "creator": "Sebastien from Montreal",
+    "date": "2010-09-23",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Hicham_El_Guerrouj_cropped.jpg"
+  }
+}
