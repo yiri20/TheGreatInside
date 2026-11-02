@@ -11413,6 +11413,477 @@ export const EDITORIAL_EN: Record<string, string> = {
     "After losing the world title to Carlsen in Chennai in November 2013, critics called him too timid and too old; he entered the 2014 Candidates and won it undefeated with a round to spare.",
   "viswanathan-anand.interpretation.turning_point.1":
     "This is consistent with a capacity to return to the top after a heavy public defeat.",
+  /* ---------------------------------------------------------- annie-smith-peck (Roster62) */
+  "annie-smith-peck.achievement.1":
+    "In 1908, at age 58, she reached the north peak of Huascaran in Peru with two Swiss guides after repeated failed attempts, a climb PBS and Explorersweb describe as a first ascent; her estimate of 24,000 feet or more was later corrected by a survey to about 21,800 feet.",
+  "annie-smith-peck.achievement.2":
+    "Her 1895 Matterhorn climb in trousers and her 1897 Orizaba ascent, an altitude mark for women according to the American Alpine Club, made her the public face of American mountaineering; she was a founding member of the club in 1902.",
+  "annie-smith-peck.achievement.3":
+    "She supported herself as a lecturer and author and became a published authority on South American travel and trade, with books including The South American Tour (1913), Industrial and Commercial South America (1922) and Flying Over South America (1932).",
+  "annie-smith-peck.moment.1":
+    "She returned to Huascaran repeatedly between 1904 and 1908, financing later attempts with a magazine advance, before reaching the north peak with two Swiss guides.",
+  "annie-smith-peck.interpretation.moment.1":
+    "This is consistent with a strong willingness to keep returning to one goal after repeated failure.",
+  "annie-smith-peck.moment.2":
+    "In December 1909, after her rival Fanny Bullock Workman cabled a survey putting the north peak at 21,812 feet, Peck wrote to the American Alpine Club secretary objecting that its committee had ignored her.",
+  "annie-smith-peck.interpretation.moment.2":
+    "This is consistent with staying engaged in a public dispute rather than withdrawing, though the only direct statement is her own letter.",
+  "annie-smith-peck.turning_point.1":
+    "Around 1892 she moved from teaching to supporting herself on the lecture circuit, first on classical archaeology and after the 1895 Matterhorn on her mountain climbs.",
+  "annie-smith-peck.interpretation.turning_point.1":
+    "This is consistent with choosing a self-supporting, self-directed career over a salaried academic post.",
+  /* ---------------------------------------------------------- christiaan-huygens (Roster62) */
+  "christiaan-huygens.achievement.1":
+    "He proposed a wave theory of light in his Treatise on Light (written 1678, published 1690), whose principle of secondary wave fronts bears his name, and with telescopes he built with his brother he discovered Saturn's moon Titan and the true shape of its rings.",
+  "christiaan-huygens.achievement.2":
+    "He built a pendulum clock in 1656, a large gain in the accuracy of timekeeping, and worked out the mathematics of the pendulum in the Horologium Oscillatorium (1673); his marine clocks, tested at sea for decades, did not solve the longitude problem.",
+  "christiaan-huygens.achievement.3":
+    "He worked out the laws of collision of elastic bodies, showing Descartes's rules wrong, wrote a 1657 treatise on probability, and from 1666 was a leading member of the new Academie Royale des Sciences in Paris.",
+  "christiaan-huygens.moment.1":
+    "He kept working on a clock to find longitude at sea for decades: clocks were tested at sea in the 1660s, and with a clockmaker and Dutch East India Company funding a new one was tested in 1685, 1686 and 1690, but the trials were judged unsatisfactory because the clock was too sensitive to the ship's motion.",
+  "christiaan-huygens.interpretation.moment.1":
+    "This is consistent with sustained effort on one practical problem across repeated disappointing trials.",
+  "christiaan-huygens.moment.2":
+    "In his first publication in 1651 he refuted Gregory of St Vincent's claimed squaring of the circle, and in the preface to his Treatise on Light he wrote that its demonstrations do not give the certainty of geometry but reach a high probability when predicted phenomena are confirmed by experiment.",
+  "christiaan-huygens.interpretation.moment.2":
+    "This is consistent with a careful distinction between rigorous proof and probable inference.",
+  "christiaan-huygens.turning_point.1":
+    "After several years of mainly mathematical work, in 1655 he and his brother began grinding lenses, and within about a year he had discovered Saturn's satellite and recognised its ring; this led him to precise timekeeping and the pendulum clock in 1656.",
+  "christiaan-huygens.interpretation.turning_point.1":
+    "This is consistent with a mathematician who turned to building instruments to answer observational questions.",
+  /* ---------------------------------------------------------- diego-velazquez (Roster62) */
+  "diego-velazquez.achievement.1":
+    "He became painter to Philip IV in 1623 and painted the king, his family and court, along with religious, mythological and everyday scenes, work regarded as among the finest of 17th-century Spanish painting.",
+  "diego-velazquez.achievement.2":
+    "His Las Meninas (1656), which shows him at work among the royal household, is named by the British Museum as his most important work and is one of the most studied paintings in the world.",
+  "diego-velazquez.achievement.3":
+    "He made two journeys to Italy, in 1629-31 and 1649-51, studying Italian painting and buying pictures for the king, and in Rome he painted Pope Innocent X.",
+  "diego-velazquez.moment.1":
+    "Apprenticed at eleven to Francisco Pacheco, he soon surpassed his master and, unlike Pacheco, responded to innovators such as Caravaggio.",
+  "diego-velazquez.interpretation.moment.1":
+    "This is consistent with a young painter who took in new approaches instead of simply following his teacher.",
+  "diego-velazquez.moment.2":
+    "His 1658 application to the Order of Santiago was rejected by the judges in February 1659, and he was confirmed as a knight in October 1659 only after the king obtained a papal dispensation.",
+  "diego-velazquez.interpretation.moment.2":
+    "This is consistent with a court painter who sought high social standing, though the outcome rested largely on the king's intervention.",
+  "diego-velazquez.turning_point.1":
+    "In 1623 his portrait of the young Philip IV led to his appointment as court painter, after which he lived in Madrid with access to the royal collection, where he studied Venetian paintings such as Titian's.",
+  "diego-velazquez.interpretation.turning_point.1":
+    "This is consistent with a shift from a provincial workshop painter to a court painter who kept studying other masters.",
+  /* ---------------------------------------------------------- emilie-du-chatelet (Roster62) */
+  "emilie-du-chatelet.achievement.1":
+    "She translated Newton's Principia into French in the 1740s and added her own commentary with algebraic and calculus explanations; her version, published in 1759 after her death, is still the leading French translation.",
+  "emilie-du-chatelet.achievement.2":
+    "In her 1740 Institutions de physique she gave Newtonian physics a Leibnizian metaphysical grounding, a textbook that helped make Leibniz's philosophy known in France.",
+  "emilie-du-chatelet.achievement.3":
+    "She entered the Académie des sciences' 1737 prize competition on the nature of fire; her dissertation, which argued against fire being a material substance, was published by the Académie in 1744 alongside the winning entries.",
+  "emilie-du-chatelet.moment.1":
+    "On a 1739 trip to Brussels she took many books and the mathematician Samuel König to teach her algebra, so that the journey would not interrupt her studies.",
+  "emilie-du-chatelet.interpretation.moment.1":
+    "This is consistent with a student who organised her life around continuing to learn mathematics.",
+  "emilie-du-chatelet.moment.2":
+    "She defended Leibniz's idea of living force (vis viva) against the Académie's secretary Mairan and printed her exchange with him in the second edition of her Institutions.",
+  "emilie-du-chatelet.interpretation.moment.2":
+    "This is consistent with a thinker willing to argue a contested position against a senior academician.",
+  "emilie-du-chatelet.turning_point.1":
+    "In the mid-1740s she turned from writing her own textbook of physics to translating and commenting on Newton's Principia, work she carried on until her death in 1749.",
+  "emilie-du-chatelet.interpretation.turning_point.1":
+    "This is consistent with a shift from presenting her own synthesis to a long commitment to making Newton's mathematics accessible in French.",
+  /* ---------------------------------------------------------- eusebio (Roster62) */
+  "eusebio.achievement.1":
+    "As a forward for Benfica he won 11 league titles in 15 seasons and five Portuguese Cups, was league top scorer ten years running and scored twice in the 1962 European Cup final win over Real Madrid; he was named European Footballer of the Year in 1965.",
+  "eusebio.achievement.2":
+    "At the 1966 World Cup he scored four goals to turn a 3-0 deficit against North Korea into a 5-3 win and finished as top scorer with nine goals as Portugal took third place.",
+  "eusebio.achievement.3":
+    "He won the European Golden Shoe in 1968 and 1973, was named among the sport's top ten greats by a 1998 FIFA panel according to a newspaper obituary, and received the UEFA President's Award, only the third man to do so.",
+  "eusebio.moment.1":
+    "At the 1966 World Cup he scored four goals against North Korea after Portugal fell 3-0 behind, and after the semi-final defeat to England he left the field in tears.",
+  "eusebio.interpretation.moment.1":
+    "This is consistent with a strong drive to win and a refusal to accept a losing position, though it is one tournament described mainly in obituaries.",
+  "eusebio.moment.2":
+    "Former teammate Nuno Gomes recalls that when he arrived at Benfica Eusebio advised him and tried to help him score goals.",
+  "eusebio.interpretation.moment.2":
+    "This is consistent with a supportive attitude toward teammates, though it rests on one teammate's tribute given soon after his death.",
+  "eusebio.turning_point.1":
+    "In December 1960 he left Mozambique at 18 to sign for Benfica, and after a registration dispute was settled he won the 1962 European Cup with two goals in the final.",
+  "eusebio.interpretation.turning_point.1":
+    "This is consistent with a rapid rise to elite competition after a move to a stronger club.",
+  /* ---------------------------------------------------------- g-w-f-hegel (Roster62) */
+  "g-w-f-hegel.achievement.1":
+    "He built a philosophical system of absolute idealism, set out in the Phenomenology of Spirit (1807), the Science of Logic (1812-16) and the Encyclopaedia of the Philosophical Sciences (1817); reference works call him the last of the great system builders of modern philosophy.",
+  "g-w-f-hegel.achievement.2":
+    "As professor of philosophy at the University of Berlin from 1818 until his death in 1831, he lectured on the philosophy of history, art, religion and the history of philosophy, drawing large audiences; editors later assembled the lectures from his notes and student transcripts.",
+  "g-w-f-hegel.achievement.3":
+    "His ideas shaped later thought through both followers and critics: his school split into left, centre and right camps, and Marx, Kierkegaard and the founders of British analytic philosophy each developed their positions partly in reaction to him.",
+  "g-w-f-hegel.moment.1":
+    "In 1817 at Heidelberg he published the Encyclopaedia of the Philosophical Sciences, which put logic, a philosophy of nature and a philosophy of spirit into one outline and carried out a scheme he had first stated in 1801.",
+  "g-w-f-hegel.interpretation.moment.1":
+    "This is consistent with a thinker who worked towards one comprehensive system over many years.",
+  "g-w-f-hegel.moment.2":
+    "From 1808 to 1816 he directed a gymnasium in Nuremberg, and during those years he wrote and published the Science of Logic in two parts.",
+  "g-w-f-hegel.interpretation.moment.2":
+    "This is consistent with sustained writing continuing alongside a job outside the university.",
+  "g-w-f-hegel.turning_point.1":
+    "After the Phenomenology of Spirit appeared in 1807 he could not obtain a university post and spent nine years as a newspaper editor and school director, until a chair at Heidelberg in 1816 and the Berlin chair in 1818 brought him back to the university.",
+  "g-w-f-hegel.interpretation.turning_point.1":
+    "This is consistent with a long period of working towards an academic career despite an early setback.",
+  /* ---------------------------------------------------------- gerard-mercator (Roster62) */
+  "gerard-mercator.achievement.1":
+    "In 1569 he published a large world map for navigators on the projection that bears his name, in which a course of constant compass bearing appears as a straight line; nautical charts still use it.",
+  "gerard-mercator.achievement.2":
+    "He built globes and scientific instruments, published maps of Palestine, Flanders, Europe and the British Isles and a manual of italic lettering, and from 1552 ran a cartographic workshop at Duisburg with engravers of his own.",
+  "gerard-mercator.achievement.3":
+    "He planned a multi-part Atlas to describe the creation and history of the world, left unfinished at his death in 1594 and completed by his son Rumold in 1595; the word 'atlas' for a collection of maps comes from it.",
+  "gerard-mercator.moment.1":
+    "By the age of 24 he was a superb engraver, calligrapher and instrument maker, and in 1540 he engraved the wood blocks for his own manual on italic lettering.",
+  "gerard-mercator.interpretation.moment.1":
+    "This is consistent with a craftsman who developed several technical skills to a high level early in his career.",
+  "gerard-mercator.moment.2":
+    "Alongside his mapmaking in Duisburg he did genealogical research for the duke, wrote a Concordance of the Gospels and a commentary on Romans, and taught mathematics at the grammar school from 1559 to 1562.",
+  "gerard-mercator.interpretation.moment.2":
+    "This is consistent with a scholar whose work ranged across geography, mathematics and theology.",
+  "gerard-mercator.turning_point.1":
+    "In 1552 he moved permanently to Duisburg, where he established a cartographic workshop with his own engravers and from which he produced his maps of Europe and the British Isles, the 1569 world map and the Atlas sections.",
+  "gerard-mercator.interpretation.turning_point.1":
+    "This is consistent with a shift from a Leuven craftsman to the head of a workshop sustaining a long publishing programme.",
+  /* ---------------------------------------------------------- hicham-el-guerrouj (Roster62) */
+  "hicham-el-guerrouj.achievement.1":
+    "Won both the 1,500 m and the 5,000 m at the 2004 Athens Olympics, the first man since Paavo Nurmi in 1924 to take both titles at one Games.",
+  "hicham-el-guerrouj.achievement.2":
+    "Won four straight World Championship 1,500 m titles (1997, 1999, 2001, 2003), set the 1,500 m world record of 3:26.00 in 1998 and was named IAAF World Athlete of the Year three times (2001-2003).",
+  "hicham-el-guerrouj.achievement.3":
+    "Was elected to the IAAF Athletes Committee in 2003 and served as an athlete member of the International Olympic Committee from 2004 to 2012; in 2014 he joined a children's athletics day in an Atlas Mountains village.",
+  "hicham-el-guerrouj.moment.1":
+    "In the Athens 5,000 m final he ran at the curb behind Kenenisa Bekele and Eliud Kipchoge and waited until the last 100 m, winning by two tenths of a second.",
+  "hicham-el-guerrouj.interpretation.moment.1":
+    "This is consistent with holding a patient race plan until the closing metres.",
+  "hicham-el-guerrouj.moment.2":
+    "After being overtaken near the line in the 2000 Sydney 1,500 m, he said it was difficult to start running again but that he trained hard for four more years, and won the 2004 double.",
+  "hicham-el-guerrouj.interpretation.moment.2":
+    "This is consistent with returning to the same goal after a public setback.",
+  "hicham-el-guerrouj.turning_point.1":
+    "At the 2003 World Championships in Paris he ran the 5,000 m, beating Bekele but losing to Kipchoge, a race the IAAF report describes as a practice run for the 1,500 m and 5,000 m double he completed in 2004.",
+  "hicham-el-guerrouj.interpretation.turning_point.1":
+    "This is consistent with preparing for a two-event target in advance.",
+  /* ---------------------------------------------------------- higuchi-ichiyo (Roster62) */
+  "higuchi-ichiyo.achievement.1":
+    "In a career of only a few years she became, in Britannica's words, the most important Japanese woman writer of her period, known above all for Takekurabe (1895), a story of children growing up at the edge of Tokyo's pleasure quarter.",
+  "higuchi-ichiyo.achievement.2":
+    "Her breakthrough came with 'Umoregi' in 1892, and her best-known stories followed from 1894: The Last Day of the Year, Troubled Waters, The Thirteenth Night and Takekurabe, written in a polished classical prose.",
+  "higuchi-ichiyo.achievement.3":
+    "She also left a literary diary kept from 1891 to 1896 and many waka poems; her portrait has appeared on the Japanese 5,000 yen note since 2004.",
+  "higuchi-ichiyo.moment.1":
+    "After her first mentor advised her to write in colloquial language, she kept to a classical style and polished her own distinctive prose.",
+  "higuchi-ichiyo.interpretation.moment.1":
+    "This is consistent with following her own judgment over a mentor's advice, though it rests on a single reference-work statement.",
+  "higuchi-ichiyo.moment.2":
+    "While running a small shop beside the Yoshiwara quarter she kept writing, sometimes leaving the store in her sister's care to visit the library.",
+  "higuchi-ichiyo.interpretation.moment.2":
+    "This is consistent with continuing to work at her writing alongside other demands.",
+  "higuchi-ichiyo.turning_point.1":
+    "From the shop neighbourhood beside the Yoshiwara quarter she took the setting and subjects that moved her stories from conventional love tragedies to the lives of vulnerable people, culminating in Takekurabe.",
+  "higuchi-ichiyo.interpretation.turning_point.1":
+    "This is consistent with a creative shift driven by a change of surroundings and observation, according to a popular biography.",
+  /* ---------------------------------------------------------- jamsetji-tata (Roster62) */
+  "jamsetji-tata.achievement.1":
+    "Founded the Tata business house: he opened the Empress cotton mill at Nagpur on 1 January 1877, later bought and renamed the Swadeshi Mill near Bombay, and also backed the Taj Mahal Hotel and a hydroelectric scheme for Bombay's factories.",
+  "jamsetji-tata.achievement.2":
+    "From 1901 he pursued large-scale iron and steel production in India; he died in 1904 before it was built, and his sons registered the Tata Iron and Steel Company in 1907.",
+  "jamsetji-tata.achievement.3":
+    "In 1898 he offered property worth about Rs 30 lakh to found a research university; after his death it was established in 1909 and opened in 1911 as the Indian Institute of Science in Bangalore.",
+  "jamsetji-tata.moment.1":
+    "After the first machinery for his Nagpur mill proved inferior and the shares fell to half their face value, he went to Europe in 1878, bought new plant at higher capital cost and scrapped the cheaper machinery.",
+  "jamsetji-tata.interpretation.moment.1":
+    "This is consistent with finding another route when the first plan failed.",
+  "jamsetji-tata.moment.2":
+    "In 1898 he offered fourteen Bombay buildings and four landed properties, about half his wealth, to found a research university, and in 1904 added a codicil to his will keeping the offer open to the government.",
+  "jamsetji-tata.interpretation.moment.2":
+    "This is consistent with committing his own wealth to a public purpose over years of delay.",
+  "jamsetji-tata.turning_point.1":
+    "Having worked in his father's trading firm from 1858, he began promoting a cotton-spinning and weaving company in 1874 and sited it at Nagpur rather than Bombay, moving from trade into manufacturing.",
+  "jamsetji-tata.interpretation.turning_point.1":
+    "This is consistent with a readiness to back a site others doubted.",
+  /* ---------------------------------------------------------- jan-amos-comenius (Roster62) */
+  "jan-amos-comenius.achievement.1":
+    "He proposed a school system of mother schools, vernacular schools, grammar schools and universities open to all people regardless of sex, condition or nation, and set out its method in The Great Didactic, published in 1657.",
+  "jan-amos-comenius.achievement.2":
+    "He wrote the Janua Linguarum Reserata, which paired Latin and Czech side by side and was translated into 16 languages, and the Orbis Sensualium Pictus (1658), an illustrated schoolbook that stayed popular in Europe for two centuries.",
+  "jan-amos-comenius.achievement.3":
+    "He spent decades on 'pansophy', a plan to harmonise all knowledge for teaching, and worked on its summation, A General Consultation Concerning the Improvement of Human Affairs, which remained partly unprinted.",
+  "jan-amos-comenius.moment.1":
+    "After the English civil war ended the plan for a college of pansophic learning in 1642, he went to Sweden to write school textbooks and, according to the chronology, resolved to give up his pansophic plans and return to education.",
+  "jan-amos-comenius.interpretation.moment.1":
+    "This is consistent with a thinker who redirected his work to the practical task on offer when a larger plan stalled.",
+  "jan-amos-comenius.turning_point.1":
+    "In 1628 he settled in Leszno, Poland, where his post at the Brethren's school turned him toward educational reform and the writing of his first coordinated series of education books.",
+  "jan-amos-comenius.interpretation.turning_point.1":
+    "This is consistent with a minister whose school work became the base for a lifelong programme of educational reform.",
+  /* ---------------------------------------------------------- jean-sibelius (Roster62) */
+  "jean-sibelius.achievement.1":
+    "Finland's leading composer and the most noted symphonic composer of Scandinavia, he wrote seven symphonies between 1899 and 1924, and Britannica locates his achievement principally in a remarkable mastery of form and a capacity for organic growth.",
+  "jean-sibelius.achievement.2":
+    "The Kalevala-inspired Kullervo Symphony (1892) created a sensation and, with En Saga, the Karelia music and The Swan of Tuonela, established him as Finland's leading composer; the Senate voted him a life pension in 1897 and Finlandia followed in 1899-1900.",
+  "jean-sibelius.achievement.3":
+    "His later symphonies and the tone poem Tapiola (1926) are counted among his greatest works, and his ideas of form influenced composers from Vaughan Williams and Barber to later Finnish, French and American composers, even though critics such as Adorno attacked him and his reputation recovered from the late 1980s.",
+  "jean-sibelius.moment.1":
+    "In the 1940s a basket of his manuscripts was fed into the stove at Ainola; his widow could identify the early Karelia Suite among them, and the long-awaited Eighth Symphony is now considered to have been destroyed too, after promises to Koussevitzky through the early 1930s.",
+  "jean-sibelius.interpretation.moment.1":
+    "This is consistent with an exacting standard for work he was willing to release, though the reason for the burning is not documented.",
+  "jean-sibelius.moment.2":
+    "The Fifth Symphony was first performed on his 50th birthday in December 1915, revised in 1916, and not final until 1919, when its first two movements had been fused into one and the slow movement widened.",
+  "jean-sibelius.interpretation.moment.2":
+    "This is consistent with continued reworking of a large piece over several years until it met his own standard.",
+  "jean-sibelius.turning_point.1":
+    "After leaving law studies and training in Berlin and Vienna, in Vienna in 1890-91 he read the Kalevala and sought a Finnish rhythm for his music, then began Kullervo, which on its 1892 premiere created a sensation and made him Finland's leading composer.",
+  "jean-sibelius.interpretation.turning_point.1":
+    "This is consistent with a composer who trained deliberately and then turned that training toward a distinctive material of his own.",
+  /* ---------------------------------------------------------- jokichi-takamine (Roster62) */
+  "jokichi-takamine.achievement.1":
+    "With his assistant Keizo Uenaka he crystallised the hormone adrenaline in New York around 1900 and patented it as Adrenalin; it became a widely used medicine.",
+  "jokichi-takamine.achievement.2":
+    "He developed Taka-diastase, a starch-digesting enzyme made from koji mould, and licensed it to Parke, Davis & Co., which sold it as a digestive medicine from 1895.",
+  "jokichi-takamine.achievement.3":
+    "He founded the Tokyo Artificial Fertilizer Company and, in 1913 with Matasaku Shiobara, Sankyo Co., of which he was first president, and he proposed the research institute that became RIKEN.",
+  "jokichi-takamine.moment.1":
+    "After the whiskey factory he was working with burned in 1891 and its operators ended his contract, he changed track, developed the enzyme as a digestive medicine and licensed it to Parke, Davis & Co., whose income then funded his own laboratory.",
+  "jokichi-takamine.interpretation.moment.1":
+    "This is consistent with an inventor who found a new commercial route after a setback.",
+  "jokichi-takamine.moment.2":
+    "After about three years without success on the adrenal gland hormone, he wrote to his former professor Nagayoshi Nagai, who recommended Keizo Uenaka; Uenaka came from Japan in 1900, and within six months the hormone was purified.",
+  "jokichi-takamine.interpretation.moment.2":
+    "This is consistent with a lead who recruited help through his professional network when a problem stalled.",
+  "jokichi-takamine.turning_point.1":
+    "In 1890 he moved his family to the United States to develop a commercial use for his enzyme in the distilling industry, a move that began his career as an inventor-entrepreneur abroad and led to the Parke, Davis partnership.",
+  "jokichi-takamine.interpretation.turning_point.1":
+    "This is consistent with a willingness to leave a government career for an uncertain commercial venture.",
+  /* ---------------------------------------------------------- jose-clemente-orozco (Roster62) */
+  "jose-clemente-orozco.achievement.1":
+    "He was one of the Mexican muralists, with Rivera and Siqueiros, whose 1920s murals at the National Preparatory School in Mexico City began the Mexican muralist movement, and Britannica calls him the most important 20th-century muralist to work in fresco.",
+  "jose-clemente-orozco.achievement.2":
+    "In the late 1930s he painted the frescoes of the Hospicio Cabañas chapel in Guadalajara, including the Man of Fire dome, which UNESCO calls one of the masterpieces of 20th-century mural painting.",
+  "jose-clemente-orozco.achievement.3":
+    "In the United States he painted Prometheus at Pomona College (1930) and the 24-panel Epic of American Civilization at Dartmouth (1932-34), a National Historic Landmark that helped introduce Mexican mural art to American audiences.",
+  "jose-clemente-orozco.moment.1":
+    "In June 1940 he painted a fresco for the Museum of Modern Art in a gallery open to visitors, on six plaster panels that could be turned or rearranged in any order.",
+  "jose-clemente-orozco.interpretation.moment.1":
+    "This is consistent with an artist who tested the limits of the fresco format rather than repeating a fixed wall composition.",
+  "jose-clemente-orozco.moment.2":
+    "At Pomona in 1930 he painted true fresco in sections of about two square yards beside a master plasterer, starting each day's section at the same hour so the colours would dry evenly.",
+  "jose-clemente-orozco.interpretation.moment.2":
+    "This is consistent with a painter who treated the technical discipline of fresco as part of the craft.",
+  "jose-clemente-orozco.turning_point.1":
+    "After the Mexican government withdrew its support for the muralists in 1927 he settled in New York, built a reputation through commissions at Pomona, the New School and Dartmouth, and returned to Mexico in 1934 to paint Catharsis at the Palace of Fine Arts.",
+  "jose-clemente-orozco.interpretation.turning_point.1":
+    "This is consistent with a shift from depending on state patronage in Mexico to building an international standing before returning.",
+  /* ---------------------------------------------------------- jose-raul-capablanca (Roster62) */
+  "jose-raul-capablanca.achievement.1":
+    "Cuban chess master who won the world championship from Emanuel Lasker in Havana in 1921, with four wins, ten draws and no losses, and held it until Alexander Alekhine beat him in Buenos Aires in 1927.",
+  "jose-raul-capablanca.achievement.2":
+    "Known for clear, error-free positional and endgame play: he went 63 games without a loss between 1916 and 1924 and was nicknamed the 'chess machine'; he also wrote My Chess Career (1920).",
+  "jose-raul-capablanca.achievement.3":
+    "Drew up the 21-clause London Rules for world championship matches in 1922, accepted by the other leading masters at the London congress, and helped raise the profile of chess in Latin America through a Spanish-language magazine and tournaments in Havana and Buenos Aires.",
+  "jose-raul-capablanca.moment.1":
+    "In the 1910 talks he objected to Lasker's proposed 30-game limit, and in 1911 he did not play a title match he had qualified for because he was dissatisfied with the terms; a Havana-based match with Lasker was finally played in 1921.",
+  "jose-raul-capablanca.interpretation.moment.1":
+    "This is consistent with a willingness to hold out over match conditions even when it delayed a title match for years.",
+  "jose-raul-capablanca.moment.2":
+    "After the 1927 loss he sought a return match, renewing his challenge to Alekhine in 1929, 1930 and 1931 and again in 1938; none of these matches took place.",
+  "jose-raul-capablanca.interpretation.moment.2":
+    "This is consistent with a long, repeated pursuit of the title that outlasted repeated setbacks.",
+  "jose-raul-capablanca.turning_point.1":
+    "In June 1920 Lasker resigned the title in his favour, but Capablanca travelled to The Hague and then to a Havana match, which he won in spring 1921, rather than accept the title by default.",
+  "jose-raul-capablanca.interpretation.turning_point.1":
+    "This is consistent with wanting to earn the championship over the board rather than receive it by default.",
+  /* ---------------------------------------------------------- kamal-ol-molk (Roster62) */
+  "kamal-ol-molk.achievement.1":
+    "Court painter to the Qajar shahs, granted the title Kamal-al-Molk in 1894, he became the leading Iranian exponent of European academic naturalism, and his Hall of Mirrors painting of the 1880s-90s is his best-known work.",
+  "kamal-ol-molk.achievement.2":
+    "In 1911 he founded the Academy of Fine Arts (Madrasa-ye Sanaye Mostazrafa) in Tehran, directed it for about a decade, and trained a generation of painters who formed the school named after him.",
+  "kamal-ol-molk.achievement.3":
+    "After studying the old masters in Florence and Paris (1898-1901) he turned toward urban scenes and ordinary people's lives, and his naturalism dominated Iranian painting for a generation, while modernist critics later said it discouraged a more authentic Persian modern art.",
+  "kamal-ol-molk.moment.1":
+    "Offered his choice of reward for a royal commission in 1898, he asked to go to Europe to improve his technical mastery, and spent about three years in Florence and Paris copying works such as Rembrandt's Saint Matthew and Titian's Entombment.",
+  "kamal-ol-molk.interpretation.moment.1":
+    "This is consistent with a priority on technical mastery over court rewards.",
+  "kamal-ol-molk.moment.2":
+    "The Hall of Mirrors painting commissioned by Naser al-Din Shah occupied him for almost five years, and it is noted for the exactness of its architecture, reflections, carpet and furnishings.",
+  "kamal-ol-molk.interpretation.moment.2":
+    "This is consistent with sustained, exacting attention to detail, though the exactness is read from the finished work.",
+  "kamal-ol-molk.turning_point.1":
+    "In 1911, with the education minister's help, he gained a state site and budget for the Academy of Fine Arts, moved into a room by its gate, shared lunches with students and paid stipends to needy ones from his own salary.",
+  "kamal-ol-molk.interpretation.turning_point.1":
+    "This is consistent with a motive to build an institution and train others, though the personal details come from friends' accounts.",
+  /* ---------------------------------------------------------- maria-mitchell (Roster62) */
+  "maria-mitchell.achievement.1":
+    "On 1 October 1847 she discovered a telescopic comet from Nantucket, later designated C/1847 T1 and called 'Miss Mitchell's Comet', and the King of Denmark awarded her a gold medal for it.",
+  "maria-mitchell.achievement.2":
+    "In 1848 she became the first woman elected to the American Academy of Arts and Sciences, and for 19 years she computed the positions of Venus for the American Nautical Almanac.",
+  "maria-mitchell.achievement.3":
+    "From 1865 to 1888 she was professor of astronomy and director of the observatory at Vassar College, where her students did original observing and she published their findings with her own.",
+  "maria-mitchell.moment.1":
+    "According to her family's biographer, she spent every clear evening on the housetop 'sweeping' the heavens, even with guests in the parlour, and on 1 October 1847 she told her father she thought she had seen a comet but advised him to say nothing until they had observed it long enough to be sure.",
+  "maria-mitchell.interpretation.moment.1":
+    "This is consistent with long, repeated observing combined with caution before announcing a discovery.",
+  "maria-mitchell.moment.2":
+    "In May 1870 she and Alida Avery wrote to the Vassar president asking for pay equal to the male professors, and in May 1871 she wrote again, asking that salaries be equal and paid in the same way and that the matter go to the trustees, who resolved in June 1871 to pay both women $2,500.",
+  "maria-mitchell.interpretation.moment.2":
+    "This is consistent with persistence in pressing her employer directly for equal pay.",
+  "maria-mitchell.turning_point.1":
+    "In 1865 she left Nantucket for Vassar College, where, as Encyclopedia.com puts it, she chose to commit herself to teaching rather than theoretical astronomy, and her research time was sharply limited as she worked with students at the observatory.",
+  "maria-mitchell.interpretation.turning_point.1":
+    "This is consistent with a shift from solitary observing to working with students.",
+  /* ---------------------------------------------------------- mencius (Roster62) */
+  "mencius.achievement.1":
+    "He argued that human nature is good: people are born with sprouts of compassion and other virtues that cultivation can grow, a case he made in the Mencius, which made him the 'Second Sage' of Confucianism.",
+  "mencius.achievement.2":
+    "The Mencius, a collection of his dialogues and sayings compiled by his disciples, was later grouped by Zhu Xi with the Great Learning, the Analects and the Mean as the Four Books, which became the orthodox reading for the civil-service examinations.",
+  "mencius.achievement.3":
+    "He defended Confucian ethics against the rival doctrines of Yang Zhu and Mozi and taught a circle of disciples, with whom he set in order the Odes and Documents and wrote down his teaching.",
+  "mencius.moment.1":
+    "Asked why people call him fond of disputation, he answers in the text that he argues only because he must, to defend the way of the sages against the doctrines of Yang Zhu and Mozi that fill the world.",
+  "mencius.interpretation.moment.1":
+    "This is consistent with a thinker who defined his own position against both dominant doctrines of his day.",
+  "mencius.moment.2":
+    "When Gaozi likens human nature to carved wood and to flowing water, Mencius replies that carving wood into a cup violates the wood's nature and that water's nature is to flow downward, so that people can be made bad but their nature stays as it was.",
+  "mencius.interpretation.moment.2":
+    "This is consistent with a debater who tested an opponent's analogies point by point.",
+  "mencius.turning_point.1":
+    "According to Sima Qian, after the rulers he served found his teaching remote from affairs and did not use it, he withdrew and, with Wan Zhang and other disciples, set in order the Odes and Documents, set out the ideas of Confucius and made the seven chapters of the Mencius.",
+  "mencius.interpretation.turning_point.1":
+    "This is consistent with a shift from seeking a hearing at court to teaching and writing.",
+  /* ---------------------------------------------------------- miruts-yifter (Roster62) */
+  "miruts-yifter.achievement.1":
+    "Won both the 5,000 m and the 10,000 m at the 1980 Moscow Olympics with a sprint launched about 300 m from the finish, which earned him the nickname 'Yifter the Shifter'.",
+  "miruts-yifter.achievement.2":
+    "Took 10,000 m bronze at the 1972 Munich Olympics, won at the All-African Games and the first African Championships, and won the 5,000 m and 10,000 m double at the IAAF World Cups of 1977 and 1979.",
+  "miruts-yifter.achievement.3":
+    "Inspired later Ethiopian distance runners, among them Haile Gebrselassie, who followed his Moscow races, and after retiring coached athletes in Ethiopia and Canada.",
+  "miruts-yifter.moment.1":
+    "In the Moscow 5,000 m final he was boxed in on the last lap until a team-mate stepped aside on the back straight, and he launched his kick with about 300 m left, covering the last 200 m in 27.2 seconds.",
+  "miruts-yifter.interpretation.moment.1":
+    "This is consistent with carrying out a move he had rehearsed rather than improvising.",
+  "miruts-yifter.moment.2":
+    "At a 1971 United States v Africa meeting in North Carolina he started his sprint a lap early against Steve Prefontaine, and the next day he beat Frank Shorter over 10,000 m.",
+  "miruts-yifter.interpretation.moment.2":
+    "This is consistent with a willingness to commit to a long sprint despite the risk of fading.",
+  "miruts-yifter.turning_point.1":
+    "After Ethiopia joined the boycott of the 1976 Montreal Games, which kept him out of the Olympics, he went on to win the 5,000 m and 10,000 m double at the IAAF World Cups of 1977 and 1979 before the 1980 Olympic double.",
+  "miruts-yifter.interpretation.turning_point.1":
+    "This is consistent with continuing to compete at the top after a missed Olympics.",
+  /* ---------------------------------------------------------- motoori-norinaga (Roster62) */
+  "motoori-norinaga.achievement.1":
+    "He wrote the Kojiki-den, a commentary on the Kojiki, Japan's oldest chronicle, completed in 1798 after some 35 years of work; Britannica says his Kojiki study provided the theoretical foundation of the modern Shinto revival.",
+  "motoori-norinaga.achievement.2":
+    "He argued that the core of Japanese literature is mono no aware, the mind that is moved by the pathos of things, and defended the Tale of Genji on that basis in lectures from 1758.",
+  "motoori-norinaga.achievement.3":
+    "While practising medicine in Matsusaka he led the Suzunoya Academy, gathered disciples from across the country and lectured in Kii domain and Kyoto; his disciples helped fund and print the Kojiki-den.",
+  "motoori-norinaga.moment.1":
+    "He circulated each stage of the Kojiki-den manuscript among trusted disciples and colleagues, and the printed edition, funded by one disciple and cut and printed by others, is described as a product of the collaboration of Norinaga and the Suzunoya Academy.",
+  "motoori-norinaga.interpretation.moment.1":
+    "This is consistent with a scholar who produced his major work through shared effort with his students.",
+  "motoori-norinaga.moment.2":
+    "From 1783 the scholar Ueda Akinari criticised his reading of the Kojiki as reckless and as too literal, and Norinaga answered each point and, according to a student-level paper, never withdrew his positions.",
+  "motoori-norinaga.interpretation.moment.2":
+    "This is consistent with a scholar who held his position against a prominent critic.",
+  "motoori-norinaga.turning_point.1":
+    "In 1763 he met the scholar Kamo no Mabuchi at an inn in Matsusaka, became his disciple the next year, and from then on devoted himself to the study of the Kojiki for the rest of his life.",
+  "motoori-norinaga.interpretation.turning_point.1":
+    "This is consistent with a turn from poetics and Genji studies to a single decades-long project.",
+  /* ---------------------------------------------------------- nadine-gordimer (Roster62) */
+  "nadine-gordimer.achievement.1":
+    "A South African novelist and short-story writer whose fiction, written over more than six decades, chronicled the corrosive effects of apartheid on individual lives, she won the Nobel Prize in Literature in 1991 for 'magnificent epic writing'.",
+  "nadine-gordimer.achievement.2":
+    "After her first story collection Face to Face (1949) and first novel The Lying Days (1953), The Conservationist shared the 1974 Booker Prize and was her international breakthrough, followed by Burger's Daughter (1979), July's People (1981) and My Son's Story (1990).",
+  "nadine-gordimer.achievement.3":
+    "She published 14 novels and 11 story collections by 2005 and a final novel in 2012, with several books banned under apartheid censorship laws, and her work has been translated into 25 languages.",
+  "nadine-gordimer.moment.1":
+    "Her second novel, A World of Strangers (1958), was banned in South Africa for twelve years, and the Swedish Academy later said she wrote as if censorship did not exist; she kept publishing, and in total four of her works were banned.",
+  "nadine-gordimer.interpretation.moment.1":
+    "This is consistent with continuing to publish despite obstacles to her books.",
+  "nadine-gordimer.moment.2":
+    "Throughout her career she steered between conservative white readers who resented her analyses and committed readers who thought her insistence that art should not become propaganda trivial or indulgent; the Swedish Academy said her texts are not agitatorial or propagandistic.",
+  "nadine-gordimer.interpretation.moment.2":
+    "This is consistent with an independent view of how art relates to polemic, though the stance is also known from her own statements.",
+  "nadine-gordimer.turning_point.1":
+    "After political change became possible in South Africa around 1990, her manner changed from the neutral, ironic tone of her early work and the committed tone of the 1980s to a more emblematic style, as in None to Accompany Me (1994), and her later fiction took up wider contemporary issues.",
+  "nadine-gordimer.interpretation.turning_point.1":
+    "This is consistent with adjusting her approach as her subject changed, though critics disagree on how well the later work succeeded.",
+  /* ---------------------------------------------------------- richard-francis-burton (Roster62) */
+  "richard-francis-burton.achievement.1":
+    "Victorian explorer who reached Mecca and Medina disguised as a Muslim pilgrim in 1853, visited Harar, and led the Royal Geographical Society's East African expedition, on which he became the first European in modern times to see Lake Tanganyika (1858).",
+  "richard-francis-burton.achievement.2":
+    "Translated The Thousand Nights and a Night (The Arabian Nights, 1885-88) and the Kama Sutra, and wrote many books of travel and observation; the 1911 Britannica calls the Nights translation his greatest achievement while criticising its uneven scholarship.",
+  "richard-francis-burton.achievement.3":
+    "Learned many languages, and used them and his disguises to record the religion, customs and daily life of the peoples he visited in books that the Oxford Companion to British History calls his best monuments.",
+  "richard-francis-burton.moment.1":
+    "In 1853 he joined a pilgrim caravan to Medina and Mecca disguised as an Afghan, at a time when non-Muslims were forbidden entry on pain of death, and wrote the account that made him famous.",
+  "richard-francis-burton.interpretation.moment.1":
+    "This is consistent with a readiness to take extreme personal risk to see and record a place closed to outsiders.",
+  "richard-francis-burton.moment.2":
+    "After Speke claimed in 1858 that Lake Victoria was the source of the Nile, Burton rejected the claim and attacked it in Lake Regions of Central Africa (1860); the public quarrel lasted until Speke died the day before a scheduled 1864 debate.",
+  "richard-francis-burton.interpretation.moment.2":
+    "This is consistent with a willingness to stay in a long public dispute over a contested claim, though the exploration press says he was wrong on the point.",
+  "richard-francis-burton.turning_point.1":
+    "After being dismissed from Oxford in 1842 he joined the East India Company's army, and during seven years in Gujarat and Sind learned Hindi, Arabic and other languages among Muslims and began travelling in disguise.",
+  "richard-francis-burton.interpretation.turning_point.1":
+    "This is consistent with a shift from formal schooling to learning languages and customs through immersion.",
+  /* ---------------------------------------------------------- rifaa-al-tahtawi (Roster62) */
+  "rifaa-al-tahtawi.achievement.1":
+    "From 1835 he directed Egypt's School of Languages, widening its curriculum to history, geography, mathematics and law, and later headed the Translation Bureau, where students and staff translated French works into Arabic.",
+  "rifaa-al-tahtawi.achievement.2":
+    "He went to Paris in 1826 as imam of Muhammad Ali's student mission and wrote Takhlis al-Ibriz, his account of France, which was printed in Egypt and became one of the early Arabic travel accounts of nineteenth-century France.",
+  "rifaa-al-tahtawi.achievement.3":
+    "He edited the official gazette al-Waqa'i al-Misriyya and, from 1870, the schools journal Rawdat al-Madaris, wrote an 1872 treatise on the education of girls and boys, and in 1850 set up a school in Khartoum.",
+  "rifaa-al-tahtawi.moment.1":
+    "He translated a large volume of Malte-Brun's geography in sixty days in 1265 AH, though his biographer Zaydan adds that the translation appears to have been done in haste.",
+  "rifaa-al-tahtawi.interpretation.moment.1":
+    "Consistent with a fast working pace that the biographer himself saw as costing polish, though it rests on a single early biography.",
+  "rifaa-al-tahtawi.moment.2":
+    "After the School of Languages was closed and he was sent to Khartoum in 1850, he set up a school there and spent four years completing translations, including Fenelon's Telemaque.",
+  "rifaa-al-tahtawi.interpretation.moment.2":
+    "Consistent with continuing educational and translation work through a forced move, though the closure and reassignment were the ruler's decisions, not his.",
+  "rifaa-al-tahtawi.turning_point.1":
+    "In Paris from 1826, as imam of the mission, he took up French on his own initiative and went on to study history, geography and other modern subjects, which led to his career as a translator and teacher after his return in 1831.",
+  "rifaa-al-tahtawi.interpretation.turning_point.1":
+    "Consistent with self-directed curiosity about Western learning, though Gran argues that his Azhar and Tahta formation had already prepared him.",
+  /* ---------------------------------------------------------- shibusawa-eiichi (Roster62) */
+  "shibusawa-eiichi.achievement.1":
+    "After serving in the Ministry of Finance he left in 1873 to build private enterprise, becoming head of the First National Bank (forerunner of Mizuho Bank) and helping set up the stock exchange in 1878; he is known as the 'father of Japanese capitalism'.",
+  "shibusawa-eiichi.achievement.2":
+    "Helped found or run roughly 500 companies, mostly in finance but also in paper, textiles, gas, railways and insurance, among them Oji Paper, Osaka Spinning and Tokyo Gas.",
+  "shibusawa-eiichi.achievement.3":
+    "Backed education and charity, including the Commercial Training School that became Hitotsubashi University and Japan Women's University (where he was president), and taught that business should unite morality and economy, drawing on the Analects.",
+  "shibusawa-eiichi.moment.1":
+    "In 1867 he joined the shogunal delegation to the Paris World Fair and stayed about a year and a half in Europe studying its social and economic systems, and after the Restoration he founded a joint-stock company in the Shizuoka domain.",
+  "shibusawa-eiichi.interpretation.moment.1":
+    "This is consistent with a person who studied foreign institutions closely and then set out to build Japanese equivalents.",
+  "shibusawa-eiichi.moment.2":
+    "Unlike Iwasaki Yataro of Mitsubishi, he is reported not to have tried to build a large family conglomerate and usually sold his stakes once companies could stand on their own.",
+  "shibusawa-eiichi.interpretation.moment.2":
+    "This is consistent with a preference for pooling many investors' capital rather than concentrating control.",
+  "shibusawa-eiichi.turning_point.1":
+    "In 1873, after about four years in the new government and a year as a senior Finance Ministry officer, he resigned to found and lead the First National Bank and move into private business.",
+  "shibusawa-eiichi.interpretation.turning_point.1":
+    "This is consistent with choosing to build private institutions rather than remain in government service.",
+  /* ---------------------------------------------------------- william-james (Roster62) */
+  "william-james.achievement.1":
+    "He wrote The Principles of Psychology (1890), twelve years in the making and a founding text of the field, and from 1875-76 taught what Harvard's Houghton Library calls the first graduate course in psychology taught in America; in 1890 he raised funds to equip a Harvard psychology laboratory at Dane Hall.",
+  "william-james.achievement.2":
+    "He popularised pragmatism through public lectures in 1898 and his 1907 book Pragmatism, which judged ideas by their practical consequences; the Stanford Encyclopedia credits him, with Charles Peirce, with founding the pragmatist tradition.",
+  "william-james.achievement.3":
+    "He gave the 1901-02 Gifford Lectures in Edinburgh, published as The Varieties of Religious Experience (1902), and in 1884 helped found the American Society for Psychical Research.",
+  "william-james.moment.1":
+    "Heading the American Society for Psychical Research's committee on mediums, he attended seances and, though many mediums seemed obviously fraudulent, kept studying Leonora Piper, whom he called his 'white crow' proving that not all crows are black.",
+  "william-james.interpretation.moment.1":
+    "Consistent with sustained curiosity about unfashionable questions, though Santayana records that conventional colleagues were wary of a professor who frequented mediums.",
+  "william-james.moment.2":
+    "He later wished he had titled his essay 'The Will to Believe' 'the right to believe', clarifying that he meant to justify certain beliefs in certain circumstances rather than claim that belief can be willed; Peirce had called the essay a very exaggerated utterance.",
+  "william-james.interpretation.moment.2":
+    "Consistent with a willingness to restate his position under criticism, though the change was mostly a clarification of an unchanged claim.",
+  "william-james.turning_point.1":
+    "After starting at Harvard in 1872 teaching comparative anatomy and physiology, he asked President Eliot to let him move into the new field of 'mental science', and in 1875-76 offered the first graduate course in psychology taught in America before shifting toward philosophy from 1878.",
+  "william-james.interpretation.turning_point.1":
+    "Consistent with a willingness to cross from established fields into emerging ones as his interests shifted.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -22679,6 +23150,477 @@ export const EDITORIAL_KO: Record<string, string> = {
     "2013년 11월 첸나이에서 칼센에게 세계 타이틀을 내준 뒤 비평가들은 그가 너무 소극적이고 나이가 많다고 했지만, 그는 2014년 후보자 토너먼트에 나서 한 라운드를 남기고 무패로 우승했다.",
   "viswanathan-anand.interpretation.turning_point.1":
     "이는 공개적으로 큰 패배를 당한 뒤에도 정상으로 돌아오는 능력과 일치한다.",
+  /* ---------------------------------------------------------- annie-smith-peck (Roster62) */
+  "annie-smith-peck.achievement.1":
+    "1908년 58세의 나이로 여러 번의 실패 끝에 스위스인 안내인 두 명과 함께 페루 와스카란 북봉에 올랐다. PBS와 익스플로러스웹은 이를 초등으로 소개하며, 그가 추정한 2만 4천 피트 이상의 높이는 이후 측량으로 약 2만 1,800피트로 정정되었다.",
+  "annie-smith-peck.achievement.2":
+    "1895년 바지를 입고 오른 마터호른 등반과 미국 산악회가 여성 고도 기록으로 소개하는 1897년 오리사바 등정으로 미국 등반계의 대표적 얼굴이 되었고, 1902년 미국 산악회 창립 회원이 되었다.",
+  "annie-smith-peck.achievement.3":
+    "강연가이자 저술가로 생계를 꾸렸고 남아메리카 여행과 무역에 관한 저술가로 인정받아 《남아메리카 여행》(1913), 《산업과 상업의 남아메리카》(1922), 《남아메리카 상공 비행》(1932) 등을 펴냈다.",
+  "annie-smith-peck.moment.1":
+    "1904년부터 1908년까지 와스카란을 거듭 찾았고, 잡지 선인세로 후속 시도 비용을 마련한 끝에 스위스인 안내인 두 명과 함께 북봉에 올랐다.",
+  "annie-smith-peck.interpretation.moment.1":
+    "이는 거듭된 실패 뒤에도 하나의 목표로 계속 돌아가는 강한 끈기와 부합한다.",
+  "annie-smith-peck.moment.2":
+    "1909년 12월 경쟁자 패니 불록 워크먼이 북봉을 2만 1,812피트로 측량했다는 전보를 보내자, 펙은 미국 산악회 서기에게 편지를 써 위원회가 자신의 의견을 듣지 않았다고 항의했다.",
+  "annie-smith-peck.interpretation.moment.2":
+    "이는 공개적 논쟁에서 물러나지 않고 맞서는 태도와 부합하지만, 직접적 진술은 그의 편지가 유일하다.",
+  "annie-smith-peck.turning_point.1":
+    "1892년경 그는 교직에서 강연으로 생계를 꾸리는 길로 옮겼고, 처음에는 고전 고고학을, 1895년 마터호른 등반 이후에는 자신의 등반 경험을 강연 주제로 삼았다.",
+  "annie-smith-peck.interpretation.turning_point.1":
+    "이는 봉급을 받는 학계의 자리보다 스스로 생계를 책임지고 방향을 정하는 길을 택한 것과 부합한다.",
+  /* ---------------------------------------------------------- christiaan-huygens (Roster62) */
+  "christiaan-huygens.achievement.1":
+    "그는 《빛에 관한 논고》(1678년 집필, 1690년 출간)에서 빛의 파동설을 내놓았고, 이 책의 2차 파면 원리는 그의 이름으로 불린다. 또 형제와 함께 만든 망원경으로 토성의 위성 타이탄과 토성 고리의 참모습을 발견했다.",
+  "christiaan-huygens.achievement.2":
+    "그는 1656년 진자시계를 만들어 시간 측정의 정확도를 크게 높였고, 《진자시계》(1673)에서 진자의 수학을 정리했다. 수십 년 동안 바다에서 시험한 해상 시계는 경도 문제를 풀지 못했다.",
+  "christiaan-huygens.achievement.3":
+    "그는 탄성 물체의 충돌 법칙을 밝혀 데카르트의 규칙이 틀렸음을 보였고, 1657년 확률에 관한 논문을 썼으며, 1666년부터 새로 생긴 파리 왕립과학아카데미의 주요 회원으로 활동했다.",
+  "christiaan-huygens.moment.1":
+    "그는 바다에서 경도를 재기 위한 시계 연구를 수십 년간 이어갔다. 1660년대에 시계를 바다에서 시험했고, 시계공과 네덜란드 동인도회사의 자금으로 만든 새 시계를 1685, 1686, 1690년에 시험했지만 배의 움직임에 너무 민감해 만족스럽지 못하다는 평가를 받았다.",
+  "christiaan-huygens.interpretation.moment.1":
+    "이는 거듭된 실망스러운 시험에도 하나의 실용적 문제에 꾸준히 매달린 모습과 일치한다.",
+  "christiaan-huygens.moment.2":
+    "1651년 첫 출판물에서 그는 그레고리오 데 생뱅상이 주장한 원의 구적법을 반박했고, 《빛에 관한 논고》 서문에서는 이 책의 증명이 기하학만큼 확실하지는 않지만 예측한 현상이 실험으로 확인되면 높은 개연성에 이른다고 썼다.",
+  "christiaan-huygens.interpretation.moment.2":
+    "이는 엄밀한 증명과 개연적 추론을 신중하게 구분한 모습과 일치한다.",
+  "christiaan-huygens.turning_point.1":
+    "몇 해 동안 주로 수학 연구에 몰두하던 그는 1655년 형제와 함께 렌즈를 갈기 시작했고, 1년쯤 뒤 토성의 위성을 발견하고 고리를 알아보았다. 이는 정밀한 시간 측정으로 이어져 1656년 진자시계를 낳았다.",
+  "christiaan-huygens.interpretation.turning_point.1":
+    "이는 관측상의 문제를 풀기 위해 기구 제작으로 나아간 수학자의 모습과 일치한다.",
+  /* ---------------------------------------------------------- diego-velazquez (Roster62) */
+  "diego-velazquez.achievement.1":
+    "그는 1623년 펠리페 4세의 궁정 화가가 되어 왕과 가족, 궁정 인물의 초상과 종교화, 신화화, 일상 장면을 그렸고, 그의 작품은 17세기 스페인 회화의 정수로 평가된다.",
+  "diego-velazquez.achievement.2":
+    "왕실 인물들 사이에서 작업하는 자신을 그려 넣은 〈시녀들〉(1656)은 영국박물관이 그의 가장 중요한 작품으로 꼽으며, 세계에서 가장 많이 연구된 그림 가운데 하나다.",
+  "diego-velazquez.achievement.3":
+    "그는 1629-31년과 1649-51년 두 차례 이탈리아를 여행하며 이탈리아 회화를 공부하고 왕을 위해 그림을 구입했으며, 로마에서는 교황 인노첸시오 10세를 그렸다.",
+  "diego-velazquez.moment.1":
+    "열한 살에 프란시스코 파체코의 도제가 된 그는 곧 스승을 넘어섰고, 스승과 달리 카라바조 같은 혁신가들의 기법에 반응했다.",
+  "diego-velazquez.interpretation.moment.1":
+    "이는 스승을 그대로 따르기보다 새로운 방식을 받아들인 젊은 화가의 모습과 일치한다.",
+  "diego-velazquez.moment.2":
+    "1658년 산티아고 기사단 입단 신청은 1659년 2월 심사관들에게 거부되었고, 왕이 교황의 특별 허가를 받아낸 뒤인 1659년 10월에야 기사로 확정되었다.",
+  "diego-velazquez.interpretation.moment.2":
+    "이는 높은 사회적 지위를 추구한 궁정 화가의 모습과 일치하지만, 결과는 주로 왕의 개입에 달려 있었다.",
+  "diego-velazquez.turning_point.1":
+    "1623년 젊은 펠리페 4세의 초상화로 궁정 화가에 임명된 뒤 그는 마드리드에서 왕실 컬렉션을 접하며 티치아노 같은 베네치아 회화를 연구했다.",
+  "diego-velazquez.interpretation.turning_point.1":
+    "이는 지방 공방의 화가에서 다른 거장들을 계속 연구한 궁정 화가로 옮겨간 전환과 일치한다.",
+  /* ---------------------------------------------------------- emilie-du-chatelet (Roster62) */
+  "emilie-du-chatelet.achievement.1":
+    "그녀는 1740년대에 뉴턴의 《프린키피아》를 프랑스어로 옮기며 대수와 미적분을 풀어 쓴 자신의 해설을 덧붙였고, 1759년 사후에 출간된 이 번역은 지금도 프랑스어 번역의 표준으로 꼽힌다.",
+  "emilie-du-chatelet.achievement.2":
+    "그녀는 1740년 《물리학 원리》에서 뉴턴 물리학에 라이프니츠적 형이상학의 토대를 붙였고, 이 교재는 프랑스에 라이프니츠 철학을 알리는 데 기여했다.",
+  "emilie-du-chatelet.achievement.3":
+    "그녀는 1737년 과학 아카데미의 불의 본성 현상 공모에 응모했고, 불이 물질이라는 견해에 맞선 그 논문은 1744년 수상작들과 함께 아카데미에서 출간되었다.",
+  "emilie-du-chatelet.moment.1":
+    "1739년 브뤼셀 여행에서 그녀는 수많은 책과 대수를 가르칠 수학자 사무엘 쾨니히를 데려가, 여행 때문에 공부가 끊기지 않도록 했다.",
+  "emilie-du-chatelet.interpretation.moment.1":
+    "이는 수학 공부를 이어가는 데 생활을 맞춘 학습자의 모습과 일치한다.",
+  "emilie-du-chatelet.moment.2":
+    "그녀는 라이프니츠의 활력(비스 비바) 개념을 아카데미 서기 메랑에 맞서 옹호했고, 그와 주고받은 글을 《물리학 원리》 2판에 실었다.",
+  "emilie-du-chatelet.interpretation.moment.2":
+    "이는 논쟁적인 입장을 원로 학자에 맞서 펼칠 의지가 있던 사상가의 모습과 일치한다.",
+  "emilie-du-chatelet.turning_point.1":
+    "1740년대 중반 그녀는 자신의 물리학 교재를 쓰는 일에서 뉴턴의 《프린키피아》를 번역하고 해설하는 일로 옮겨갔고, 이 작업은 1749년 세상을 떠날 때까지 이어졌다.",
+  "emilie-du-chatelet.interpretation.turning_point.1":
+    "이는 자신의 종합을 내놓는 일에서 뉴턴의 수학을 프랑스어로 접근 가능하게 만드는 오랜 헌신으로의 전환과 일치한다.",
+  /* ---------------------------------------------------------- eusebio (Roster62) */
+  "eusebio.achievement.1":
+    "벤피카의 공격수로 15시즌 동안 리그 우승 11회와 포르투갈컵 우승 5회를 이루었고, 10년 연속 리그 득점왕에 올랐으며 1962년 유러피언컵 결승 레알 마드리드전에서 두 골을 넣었다. 1965년에는 유럽 올해의 선수에 선정되었다.",
+  "eusebio.achievement.2":
+    "1966년 월드컵에서 북한전 0-3 열세를 네 골로 뒤집어 5-3 승리를 이끌었고, 아홉 골로 대회 득점왕에 올라 포르투갈의 3위에 기여했다.",
+  "eusebio.achievement.3":
+    "1968년과 1973년 유러피언 골든슈를 받았고, 한 신문 부고에 따르면 1998년 FIFA 전문가 위원회가 선정한 축구 역대 10대 선수에 이름을 올렸으며, 세 번째 수상자로 UEFA 회장상을 받았다.",
+  "eusebio.moment.1":
+    "1966년 월드컵 북한전에서 포르투갈이 0-3으로 뒤진 뒤 네 골을 넣어 경기를 뒤집었고, 준결승에서 잉글랜드에 패한 뒤에는 눈물을 흘리며 경기장을 떠났다.",
+  "eusebio.interpretation.moment.1":
+    "이는 승리에 대한 강한 의지와 뒤처진 상황을 받아들이지 않는 태도와 부합하지만, 주로 부고 기사에 서술된 한 대회의 일화이다.",
+  "eusebio.moment.2":
+    "전 동료 누누 고메스는 자신이 벤피카에 왔을 때 에우제비우가 조언을 해 주고 골을 넣도록 도우려 했다고 회고한다.",
+  "eusebio.interpretation.moment.2":
+    "이는 동료를 돕는 태도와 부합하지만, 사망 직후에 나온 한 동료의 추모 발언에 근거한다.",
+  "eusebio.turning_point.1":
+    "1960년 12월 18세의 나이로 모잠비크를 떠나 벤피카와 계약했고, 등록 분쟁이 정리된 뒤 1962년 유러피언컵 결승에서 두 골을 넣어 우승을 이끌었다.",
+  "eusebio.interpretation.turning_point.1":
+    "이는 더 강한 클럽으로 옮긴 뒤 빠르게 정상급 무대로 올라선 것과 부합한다.",
+  /* ---------------------------------------------------------- g-w-f-hegel (Roster62) */
+  "g-w-f-hegel.achievement.1":
+    "그는 《정신현상학》(1807), 《논리의 학》(1812~16), 《철학적 학문 백과사전》(1817)에 담긴 절대적 관념론의 철학 체계를 세웠다. 참고 문헌들은 그를 근대 철학의 마지막 위대한 체계 건설자로 부른다.",
+  "g-w-f-hegel.achievement.2":
+    "그는 1818년부터 1831년 사망할 때까지 베를린 대학교 철학 교수로서 역사철학, 미학, 종교철학, 철학사를 강의해 많은 청중을 모았고, 이 강의들은 훗날 편집자들이 그의 노트와 학생 필기록으로 엮어 펴냈다.",
+  "g-w-f-hegel.achievement.3":
+    "그의 사상은 추종자와 비판자 모두를 통해 후대의 사유를 형성했다. 그의 학파는 좌파, 중도, 우파로 갈라졌고, 마르크스, 키르케고르, 영국 분석철학의 창시자들은 저마다 부분적으로 그에 대한 반응 속에서 자신의 입장을 발전시켰다.",
+  "g-w-f-hegel.moment.1":
+    "1817년 하이델베르크에서 그는 《철학적 학문 백과사전》을 펴내 논리학, 자연철학, 정신철학을 하나의 개요로 묶었는데, 이는 1801년에 처음 밝힌 구상을 실현한 것이었다.",
+  "g-w-f-hegel.interpretation.moment.1":
+    "이는 여러 해에 걸쳐 하나의 포괄적 체계를 향해 작업한 사상가의 모습과 일치한다.",
+  "g-w-f-hegel.moment.2":
+    "1808년부터 1816년까지 그는 뉘른베르크의 김나지움 교장으로 일하면서 그 기간에 두 권으로 된 《논리의 학》을 쓰고 출간했다.",
+  "g-w-f-hegel.interpretation.moment.2":
+    "이는 대학 밖의 직무와 병행하며 이어간 꾸준한 집필과 일치한다.",
+  "g-w-f-hegel.turning_point.1":
+    "1807년 《정신현상학》이 나온 뒤에도 그는 대학 자리를 얻지 못해 신문 편집자와 학교 교장으로 9년을 보냈고, 1816년 하이델베르크 교수직과 1818년 베를린 교수직으로 비로소 대학에 돌아왔다.",
+  "g-w-f-hegel.interpretation.turning_point.1":
+    "이는 초기의 좌절에도 학문적 경력을 향해 오래 노력한 시기와 일치한다.",
+  /* ---------------------------------------------------------- gerard-mercator (Roster62) */
+  "gerard-mercator.achievement.1":
+    "그는 1569년 항해자를 위한 대형 세계 지도를 발표했는데, 일정한 나침반 방위의 항로가 직선으로 나타나는 이 도법은 그의 이름을 땄고, 해도는 지금도 이를 쓴다.",
+  "gerard-mercator.achievement.2":
+    "그는 지구의와 과학 기구를 만들고 팔레스타인, 플랑드르, 유럽, 브리튼 제도 지도와 이탤릭 서체 교본을 펴냈으며, 1552년부터 뒤스부르크에서 자신의 조각공들을 둔 지도 제작 공방을 운영했다.",
+  "gerard-mercator.achievement.3":
+    "그는 세계의 창조와 역사를 설명하는 여러 부분의 《아틀라스》를 구상했으나 1594년 세상을 떠날 때 미완성이었고, 아들 루몰트가 1595년 이를 완성해 펴냈으며, 지도 모음을 뜻하는 '아틀라스'라는 말이 여기서 나왔다.",
+  "gerard-mercator.moment.1":
+    "그는 24세에 이미 뛰어난 조각가이자 서예가, 기구 제작자였고, 1540년에는 자신의 이탤릭 서체 교본의 목판을 직접 새겼다.",
+  "gerard-mercator.interpretation.moment.1":
+    "이는 여러 기술을 경력 초기에 높은 수준으로 끌어올린 장인의 모습과 일치한다.",
+  "gerard-mercator.moment.2":
+    "뒤스부르크에서 그는 지도 제작과 함께 공작을 위한 계보 연구를 하고, 《복음서 조화》와 로마서 주석을 쓰고, 1559년부터 1562년까지 문법학교에서 수학을 가르쳤다.",
+  "gerard-mercator.interpretation.moment.2":
+    "이는 지리, 수학, 신학에 걸쳐 일한 학자의 모습과 일치한다.",
+  "gerard-mercator.turning_point.1":
+    "그는 1552년 뒤스부르크로 영구 이주해 자신의 조각공들을 둔 지도 제작 공방을 세웠고, 이곳에서 유럽과 브리튼 제도 지도, 1569년 세계 지도, 《아틀라스》의 여러 부분을 만들어냈다.",
+  "gerard-mercator.interpretation.turning_point.1":
+    "이는 루뱅의 장인에서 긴 출판 계획을 이어가는 공방의 책임자로 옮겨간 전환과 일치한다.",
+  /* ---------------------------------------------------------- hicham-el-guerrouj (Roster62) */
+  "hicham-el-guerrouj.achievement.1":
+    "2004년 아테네 올림픽에서 1,500m와 5,000m를 모두 우승해, 1924년 파보 누르미 이후 한 대회에서 두 종목을 석권한 최초의 남자 선수가 되었다.",
+  "hicham-el-guerrouj.achievement.2":
+    "세계선수권 1,500m를 4연속(1997, 1999, 2001, 2003) 제패했고, 1998년 3분 26초 00의 1,500m 세계 기록을 세웠으며, 2001~2003년 IAAF 올해의 선수에 세 차례 뽑혔다.",
+  "hicham-el-guerrouj.achievement.3":
+    "2003년 IAAF 선수위원회 위원으로 선출되었고 2004년부터 2012년까지 국제올림픽위원회 선수 위원으로 활동했으며, 2014년에는 아틀라스 산맥의 한 마을에서 열린 어린이 육상 행사에 참여했다.",
+  "hicham-el-guerrouj.moment.1":
+    "아테네 5,000m 결승에서 그는 케네니사 베켈레와 엘리우드 킵초게 뒤 안쪽에서 달리다가 마지막 100m에서야 승부를 걸어 0.2초 차이로 우승했다.",
+  "hicham-el-guerrouj.interpretation.moment.1":
+    "이는 마지막 구간까지 인내하는 경기 계획을 유지한 모습과 일치한다.",
+  "hicham-el-guerrouj.moment.2":
+    "2000년 시드니 1,500m에서 결승선 가까이에서 추월당한 뒤 그는 다시 달리기를 시작하기가 어려웠지만 4년 더 열심히 훈련했다고 말했고, 2004년 두 종목을 석권했다.",
+  "hicham-el-guerrouj.interpretation.moment.2":
+    "이는 공개적인 좌절 뒤에도 같은 목표로 돌아온 모습과 일치한다.",
+  "hicham-el-guerrouj.turning_point.1":
+    "2003년 파리 세계선수권에서 그는 5,000m를 뛰어 베켈레는 이겼으나 킵초게에게는 졌으며, IAAF 보도는 이 경기를 2004년에 이룬 1,500m와 5,000m 석권의 예행연습으로 설명한다.",
+  "hicham-el-guerrouj.interpretation.turning_point.1":
+    "이는 두 종목 석권이라는 목표를 미리 준비한 모습과 일치한다.",
+  /* ---------------------------------------------------------- higuchi-ichiyo (Roster62) */
+  "higuchi-ichiyo.achievement.1":
+    "불과 몇 해의 작가 생활 동안 브리태니커의 표현대로 당대 일본에서 가장 중요한 여성 작가가 되었으며, 도쿄 유곽 가장자리에서 자라는 아이들을 그린 《키 재기》(1895)로 가장 널리 알려져 있다.",
+  "higuchi-ichiyo.achievement.2":
+    "1892년 〈묻힌 나무〉로 이름을 알렸고, 1894년부터 〈섣달 그믐날〉, 〈흐린 물〉, 〈십삼야〉, 《키 재기》 등 대표작을 잇따라 발표했으며, 문체는 다듬어진 고전체였다.",
+  "higuchi-ichiyo.achievement.3":
+    "1891년부터 1896년까지 쓴 문학 일기와 많은 와카를 남겼으며, 그의 초상은 2004년부터 일본 5천 엔권 지폐에 실려 있다.",
+  "higuchi-ichiyo.moment.1":
+    "첫 스승이 구어체로 쓰라고 권했지만 그는 고전체를 고수하며 자신만의 독특한 문체를 다듬었다.",
+  "higuchi-ichiyo.interpretation.moment.1":
+    "이는 스승의 조언보다 자신의 판단을 따른 태도와 부합하지만, 하나의 사전류 서술에 근거한다.",
+  "higuchi-ichiyo.moment.2":
+    "요시와라 유곽 곁에서 작은 가게를 꾸리는 동안에도 글쓰기를 이어 갔고, 때로는 가게를 여동생에게 맡기고 도서관에 갔다.",
+  "higuchi-ichiyo.interpretation.moment.2":
+    "이는 다른 일을 병행하면서도 글쓰기를 이어 간 끈기와 부합한다.",
+  "higuchi-ichiyo.turning_point.1":
+    "요시와라 유곽 곁 가게 동네에서 소재를 얻으며 그의 작품은 통속적인 사랑 비극에서 취약한 사람들의 삶으로 옮겨 갔고, 그 정점이 《키 재기》였다.",
+  "higuchi-ichiyo.interpretation.turning_point.1":
+    "이는 환경 변화와 관찰이 이끈 창작상의 전환과 부합하며, 대중 전기의 서술에 따른 것이다.",
+  /* ---------------------------------------------------------- jamsetji-tata (Roster62) */
+  "jamsetji-tata.achievement.1":
+    "타타 가문의 사업을 일으킨 인물로, 1877년 1월 1일 나그푸르에 엠프레스 면직 공장을 열었고, 이후 봄베이 인근의 공장을 사들여 스와데시 공장으로 이름을 바꿨으며, 타지마할 호텔과 봄베이 공장들을 위한 수력발전 구상도 추진했다.",
+  "jamsetji-tata.achievement.2":
+    "1901년부터 인도에서 대규모 제철 사업을 추진했고, 1904년 완공 전에 세상을 떠났으며 1907년 아들들이 타타 제철 회사를 등록했다.",
+  "jamsetji-tata.achievement.3":
+    "1898년 연구 중심 대학을 세우기 위해 약 300만 루피 상당의 재산을 내놓았고, 그의 사후인 1909년 설립되어 1911년 방갈로르의 인도 과학원으로 문을 열었다.",
+  "jamsetji-tata.moment.1":
+    "나그푸르 공장의 첫 기계가 불량이어서 주가가 액면가의 절반으로 떨어지자, 그는 1878년 유럽으로 가서 더 비싼 새 설비를 사들이고 값싼 기계는 폐기했다.",
+  "jamsetji-tata.interpretation.moment.1":
+    "이는 첫 계획이 실패했을 때 다른 방법을 찾는 모습과 일치한다.",
+  "jamsetji-tata.moment.2":
+    "1898년 그는 봄베이의 건물 14채와 토지 4곳, 재산의 약 절반을 연구 대학 설립에 내놓았고, 1904년에는 유언장 추가 조항으로 정부에 대한 제안을 유효하게 남겼다.",
+  "jamsetji-tata.interpretation.moment.2":
+    "이는 오랜 지연 속에서도 자신의 재산을 공적 목적에 쏟으려는 모습과 일치한다.",
+  "jamsetji-tata.turning_point.1":
+    "1858년부터 아버지의 무역 회사에서 일하던 그는 1874년 면방직 회사를 설립하기 시작해 봄베이가 아닌 나그푸르에 입지를 잡았고, 이로써 무역에서 제조업으로 옮겨 갔다.",
+  "jamsetji-tata.interpretation.turning_point.1":
+    "이는 남들이 의심하던 입지에 과감히 투자하는 태도와 일치한다.",
+  /* ---------------------------------------------------------- jan-amos-comenius (Roster62) */
+  "jan-amos-comenius.achievement.1":
+    "그는 성별, 신분, 국적을 가리지 않고 모든 사람에게 열린 어머니 학교, 모국어 학교, 문법 학교, 대학의 학제를 제안하고, 그 방법을 1657년 출간된 《대교수학》에 밝혔다.",
+  "jan-amos-comenius.achievement.2":
+    "그는 라틴어와 체코어를 나란히 놓아 16개 언어로 번역된 《언어의 문》과, 두 세기 동안 유럽에서 널리 쓰인 그림 교과서 《세계도회》(1658)를 썼다.",
+  "jan-amos-comenius.achievement.3":
+    "그는 모든 지식을 조화시켜 가르치려는 '범지학'에 수십 년을 바쳤고, 그 집대성인 《인간사 개선에 관한 총협의》를 썼지만 일부는 인쇄되지 못한 채 남았다.",
+  "jan-amos-comenius.moment.1":
+    "1642년 영국 내전으로 범지학 칼리지 계획이 무산되자 그는 스웨덴으로 가 학교 교과서를 쓰게 되었고, 연표에 따르면 범지학 계획을 접고 교육으로 돌아가기로 결심했다.",
+  "jan-amos-comenius.interpretation.moment.1":
+    "이는 더 큰 계획이 막히자 눈앞의 실무로 작업 방향을 바꾼 사상가의 모습과 일치한다.",
+  "jan-amos-comenius.turning_point.1":
+    "1628년 그는 폴란드 레슈노에 정착했고, 형제단 학교에서 맡은 일을 계기로 교육 개혁에 몰두하여 교육에 관한 첫 연속 저작들을 썼다.",
+  "jan-amos-comenius.interpretation.turning_point.1":
+    "이는 학교 일이 평생에 걸친 교육 개혁 구상의 토대가 된 목회자의 모습과 일치한다.",
+  /* ---------------------------------------------------------- jean-sibelius (Roster62) */
+  "jean-sibelius.achievement.1":
+    "핀란드를 대표하는 작곡가이자 스칸디나비아에서 가장 이름난 교향곡 작곡가로, 1899년부터 1924년까지 7곡의 교향곡을 썼으며 브리태니커는 그의 업적이 무엇보다 탁월한 형식 장악력과 유기적 성장의 능력에 있다고 평가한다.",
+  "jean-sibelius.achievement.2":
+    "칼레발라에서 영감을 얻은 《쿨레르보 교향곡》(1892)이 큰 반향을 일으켰고, 《엔 사가》, 카렐리아 음악, 《투오넬라의 백조》와 함께 그를 핀란드 최고의 작곡가로 자리매김하게 했으며, 1897년 상원은 그에게 종신 연금을 의결했고 1899~1900년에는 《핀란디아》가 나왔다.",
+  "jean-sibelius.achievement.3":
+    "후기 교향곡들과 교향시 《타피올라》(1926)는 그의 최고작으로 꼽히며, 아도르노 같은 비평가들의 공격을 받고도 1980년대 말부터 평판이 회복되었고, 그의 형식 개념은 본 윌리엄스와 바버에서 이후 핀란드·프랑스·미국 작곡가들에 이르기까지 영향을 미쳤다.",
+  "jean-sibelius.moment.1":
+    "1940년대에 그의 원고가 든 바구니가 아이놀라의 난로에 던져졌고, 부인은 그중 초기 《카렐리아 모음곡》을 확인할 수 있었으며, 1930년대 초 쿠세비츠키에게 약속했던 교향곡 8번도 함께 파기된 것으로 여겨진다.",
+  "jean-sibelius.interpretation.moment.1":
+    "이는 자신이 내놓을 작품에 매우 엄격한 기준을 적용했던 모습과 부합하지만, 원고를 태운 이유 자체는 기록되어 있지 않다.",
+  "jean-sibelius.moment.2":
+    "교향곡 5번은 1915년 12월 그의 50번째 생일에 초연되었고, 1916년에 개정되었으며, 첫 두 악장이 하나로 합쳐지고 느린 악장이 확장된 1919년에야 최종본이 되었다.",
+  "jean-sibelius.interpretation.moment.2":
+    "이는 대작을 몇 해에 걸쳐 거듭 고쳐 가며 자신의 기준에 이를 때까지 다듬었던 모습과 부합한다.",
+  "jean-sibelius.turning_point.1":
+    "법학 공부를 그만두고 베를린과 빈에서 수학한 그는 1890~91년 빈에서 칼레발라를 읽고 음악에 핀란드적 리듬을 찾기 시작했으며, 이어 쓴 《쿨레르보》가 1892년 초연에서 큰 반향을 일으켜 그를 핀란드 최고의 작곡가로 만들었다.",
+  "jean-sibelius.interpretation.turning_point.1":
+    "이는 의도적으로 수련한 뒤 그 기량을 자신만의 독자적 소재로 돌린 작곡가의 모습과 부합한다.",
+  /* ---------------------------------------------------------- jokichi-takamine (Roster62) */
+  "jokichi-takamine.achievement.1":
+    "그는 조수 우에나카 게이조와 함께 1900년 무렵 뉴욕에서 호르몬 아드레날린을 결정으로 얻어 '아드레날린'이라는 이름으로 특허를 냈고, 이는 널리 쓰이는 의약품이 되었다.",
+  "jokichi-takamine.achievement.2":
+    "그는 누룩곰팡이에서 얻은 녹말 분해 효소 타카디아스타제를 개발해 파크 데이비스사에 사용권을 주었고, 이 회사는 1895년부터 이를 소화제로 팔았다.",
+  "jokichi-takamine.achievement.3":
+    "그는 도쿄인조비료회사를 세웠고, 1913년 시오바라 마타사쿠와 함께 산쿄 주식회사를 설립해 초대 사장을 맡았으며, 훗날 이화학연구소(리켄)가 된 연구기관을 제안했다.",
+  "jokichi-takamine.moment.1":
+    "그가 일하던 위스키 공장이 1891년 불타고 운영 측이 계약을 끝내자, 그는 방향을 바꿔 이 효소를 소화제로 개발하고 파크 데이비스사에 사용권을 주었으며, 그 수입이 그의 연구소를 뒷받침했다.",
+  "jokichi-takamine.interpretation.moment.1":
+    "이는 좌절 뒤에 새로운 상업적 길을 찾아낸 발명가의 모습과 일치한다.",
+  "jokichi-takamine.moment.2":
+    "부신 호르몬 연구가 3년 가까이 성과가 없자 그는 옛 스승 나가이 나가요시에게 도움을 청했고, 나가이가 추천한 우에나카 게이조가 1900년 일본에서 건너왔으며 6개월 안에 호르몬이 정제되었다.",
+  "jokichi-takamine.interpretation.moment.2":
+    "이는 연구가 막혔을 때 자신의 인맥을 통해 도움을 구한 책임자의 모습과 일치한다.",
+  "jokichi-takamine.turning_point.1":
+    "1890년 그는 증류업에서 효소를 상업적으로 쓰기 위해 가족과 함께 미국으로 건너갔고, 이는 해외에서 발명가이자 기업가로 활동하는 경력의 시작이 되어 파크 데이비스사와의 협력으로 이어졌다.",
+  "jokichi-takamine.interpretation.turning_point.1":
+    "이는 정부 관직을 떠나 불확실한 상업적 사업에 뛰어든 모습과 일치한다.",
+  /* ---------------------------------------------------------- jose-clemente-orozco (Roster62) */
+  "jose-clemente-orozco.achievement.1":
+    "그는 리베라, 시케이로스와 함께 1920년대 멕시코시티 국립예비학교 벽화로 멕시코 벽화 운동의 시작을 이끈 화가 가운데 한 사람이며, 브리태니커는 그를 프레스코로 작업한 20세기의 가장 중요한 벽화가로 꼽는다.",
+  "jose-clemente-orozco.achievement.2":
+    "1930년대 말 그는 과달라하라 오스피시오 카바냐스 예배당의 프레스코를 그렸고, 그중 '불의 인간' 돔 벽화를 유네스코는 20세기 벽화의 걸작 중 하나로 평가한다.",
+  "jose-clemente-orozco.achievement.3":
+    "미국에서는 포모나 대학의 〈프로메테우스〉(1930)와 다트머스 대학의 24개 패널 〈아메리카 문명의 서사시〉(1932-34)를 그렸으며, 국가 사적지가 된 이 벽화는 멕시코 벽화를 미국 관객에게 알리는 데 기여했다.",
+  "jose-clemente-orozco.moment.1":
+    "1940년 6월 그는 관람객에게 열린 현대미술관 전시실에서, 어떤 순서로도 돌리거나 재배열할 수 있는 석고 패널 여섯 장에 프레스코를 그렸다.",
+  "jose-clemente-orozco.interpretation.moment.1":
+    "이는 고정된 벽면 구성을 반복하기보다 프레스코 형식의 한계를 시험한 예술가의 모습과 일치한다.",
+  "jose-clemente-orozco.moment.2":
+    "1930년 포모나에서 그는 숙련된 미장공 곁에서 약 2제곱야드 단위로 진짜 프레스코를 그렸고, 색이 고르게 마르도록 매일 같은 시각에 작업을 시작했다.",
+  "jose-clemente-orozco.interpretation.moment.2":
+    "이는 프레스코의 기술적 규율을 작업의 일부로 여긴 화가의 모습과 일치한다.",
+  "jose-clemente-orozco.turning_point.1":
+    "1927년 멕시코 정부가 벽화가들에 대한 후원을 거두자 그는 뉴욕에 정착해 포모나, 뉴스쿨, 다트머스의 벽화로 명성을 쌓았고, 1934년 멕시코로 돌아와 순수미술궁에 〈카타르시스〉를 그렸다.",
+  "jose-clemente-orozco.interpretation.turning_point.1":
+    "이는 멕시코에서의 국가 후원에 의존하던 데서 국제적 입지를 쌓은 뒤 귀국하는 쪽으로 옮겨간 전환과 일치한다.",
+  /* ---------------------------------------------------------- jose-raul-capablanca (Roster62) */
+  "jose-raul-capablanca.achievement.1":
+    "쿠바의 체스 마스터로, 1921년 아바나에서 에마누엘 라스커를 상대로 4승 10무 무패로 세계 챔피언이 되었고, 1927년 부에노스아이레스에서 알렉산드르 알레힌에게 패할 때까지 타이틀을 지켰다.",
+  "jose-raul-capablanca.achievement.2":
+    "명료하고 실수 없는 포지션 운영과 엔드게임 솜씨로 알려졌다. 1916년부터 1924년까지 63경기 무패를 기록해 '체스 기계'라는 별명을 얻었고, 『나의 체스 경력』(1920)을 썼다.",
+  "jose-raul-capablanca.achievement.3":
+    "1922년 런던 대회에서 다른 주요 마스터들이 받아들인 21개 조항의 세계 선수권 대국 규칙(런던 규칙)을 작성했고, 스페인어 체스 잡지와 아바나·부에노스아이레스 대회를 통해 라틴아메리카에 체스를 알리는 데 기여했다.",
+  "jose-raul-capablanca.moment.1":
+    "1910년 협상에서 라스커가 제안한 30경기 제한에 반대했고, 1911년에는 자격을 얻은 타이틀전을 조건이 마음에 들지 않아 치르지 않았다. 라스커와의 대국은 1921년 아바나에서 마침내 열렸다.",
+  "jose-raul-capablanca.interpretation.moment.1":
+    "이는 타이틀전이 수년간 미뤄지더라도 대국 조건에서 물러서지 않으려 한 모습과 일치한다.",
+  "jose-raul-capablanca.moment.2":
+    "1927년 패배 뒤 설욕전을 추진해 1929년, 1930년, 1931년, 1938년에 거듭 알레힌에게 도전했으나 어느 대국도 성사되지 않았다.",
+  "jose-raul-capablanca.interpretation.moment.2":
+    "이는 거듭된 좌절에도 타이틀을 오랫동안 되찾으려 한 모습과 일치한다.",
+  "jose-raul-capablanca.turning_point.1":
+    "1920년 6월 라스커가 타이틀을 그에게 넘기겠다고 밝혔지만, 카파블랑카는 헤이그로 가서 협상한 끝에 1921년 봄 아바나 대국을 치러 이겼고, 타이틀을 그냥 받지 않았다.",
+  "jose-raul-capablanca.interpretation.turning_point.1":
+    "이는 챔피언 자리를 대국으로 직접 얻으려 한 모습과 일치한다.",
+  /* ---------------------------------------------------------- kamal-ol-molk (Roster62) */
+  "kamal-ol-molk.achievement.1":
+    "카자르 왕조 궁정 화가로 1894년 '카말알몰크' 칭호를 받았으며, 유럽 아카데미 사실주의를 이끈 대표적인 이란 화가가 되었고, 1880~90년대의 〈거울의 방〉이 그의 가장 잘 알려진 작품이다.",
+  "kamal-ol-molk.achievement.2":
+    "1911년 테헤란에 미술학교(마드라세예 사나예 모스타즈라파)를 세워 약 10년간 이끌며 한 세대의 화가를 길러 냈고, 그 제자들이 그의 이름을 딴 화풍(캄알몰크 화파)을 이루었다.",
+  "kamal-ol-molk.achievement.3":
+    "1898~1901년 피렌체와 파리에서 거장들의 작품을 연구한 뒤 도시 풍경과 보통 사람들의 삶으로 소재를 옮겼고, 그의 사실주의는 한 세대 동안 이란 회화를 지배했으나 훗날 모더니스트 비평가들은 그것이 더 진정한 페르시아 현대미술의 발전을 가로막았다고 비판했다.",
+  "kamal-ol-molk.moment.1":
+    "1898년 왕실 주문작에 대한 보상을 스스로 고르게 되자 그는 기량을 높이기 위해 유럽행을 청했고, 피렌체와 파리에서 약 3년간 렘브란트의 〈성 마태오와 천사〉, 티치아노의 〈그리스도의 매장〉 같은 작품을 모사했다.",
+  "kamal-ol-molk.interpretation.moment.1":
+    "이는 궁정의 보상보다 기량의 숙달을 우선시하는 태도와 부합한다.",
+  "kamal-ol-molk.moment.2":
+    "나세르 알딘 샤가 의뢰한 〈거울의 방〉은 거의 5년이 걸렸으며, 건축과 거울의 반사, 카펫과 가구에 이르기까지 정밀한 묘사로 주목받는다.",
+  "kamal-ol-molk.interpretation.moment.2":
+    "이는 지속적이고 정밀한 세부 묘사에 대한 집중과 부합하지만, 그 정밀함은 완성된 작품에서 읽어 낸 것이다.",
+  "kamal-ol-molk.turning_point.1":
+    "1911년 교육장관의 도움으로 미술학교를 위한 부지와 예산을 얻은 그는 학교 정문 옆 방에서 지내며 학생들과 점심을 함께 했고 가난한 학생들에게 자신의 봉급에서 장학금을 지급했다고 전해진다.",
+  "kamal-ol-molk.interpretation.turning_point.1":
+    "이는 제도를 세우고 후진을 키우려는 동기와 부합하지만, 개인적 일화는 지인들의 증언에 의존한다.",
+  /* ---------------------------------------------------------- maria-mitchell (Roster62) */
+  "maria-mitchell.achievement.1":
+    "그녀는 1847년 10월 1일 낸터킷에서 망원경으로 혜성을 발견했다. 이 혜성은 훗날 C/1847 T1로 명명되어 '미첼 양의 혜성'으로 불렸고, 덴마크 국왕이 그 공로로 금메달을 수여했다.",
+  "maria-mitchell.achievement.2":
+    "그녀는 1848년 여성 최초로 미국 예술과학아카데미 회원에 선출되었고, 19년 동안 미국 항해력을 위해 금성의 위치를 계산했다.",
+  "maria-mitchell.achievement.3":
+    "그녀는 1865년부터 1888년까지 바서 대학의 천문학 교수이자 천문대장으로 재직하며, 학생들이 직접 관측 연구를 하도록 이끌고 그 결과를 자신의 연구와 함께 발표했다.",
+  "maria-mitchell.moment.1":
+    "가족 전기 작가에 따르면 그녀는 손님이 있어도 맑은 저녁이면 어김없이 지붕 위에서 하늘을 '훑으며' 관측했고, 1847년 10월 1일 혜성을 본 것 같다고 아버지에게 말하면서도 충분히 관측해 확신하기 전까지는 알리지 말라고 당부했다.",
+  "maria-mitchell.interpretation.moment.1":
+    "이는 오랜 반복 관측과 발견을 알리기 전의 신중함이 함께 있었던 모습과 일치한다.",
+  "maria-mitchell.moment.2":
+    "1870년 5월 그녀는 앨리다 에이버리와 함께 바서 총장에게 남성 교수와 같은 급여를 요구하는 편지를 썼고, 1871년 5월 다시 급여액과 지급 방식을 같게 해 달라며 문제를 이사회에 올려 달라고 요구했으며, 이사회는 1871년 6월 두 사람에게 각각 2,500달러를 지급하기로 결의했다.",
+  "maria-mitchell.interpretation.moment.2":
+    "이는 고용주에게 직접 동일 임금을 끈질기게 요구한 모습과 일치한다.",
+  "maria-mitchell.turning_point.1":
+    "1865년 그녀는 낸터킷을 떠나 바서 대학으로 갔다. 백과사전은 그녀가 이론 천문학보다 가르치는 일에 전념하기로 선택했고, 천문대에서 학생들과 함께 일하느라 연구 시간이 크게 줄었다고 설명한다.",
+  "maria-mitchell.interpretation.turning_point.1":
+    "이는 혼자 하는 관측에서 학생들과 함께하는 연구로 옮겨 간 모습과 일치한다.",
+  /* ---------------------------------------------------------- mencius (Roster62) */
+  "mencius.achievement.1":
+    "그는 사람의 본성이 선하다고 주장했다. 사람은 연민 같은 덕의 싹을 타고나며 수양으로 그것을 키울 수 있다는 논지로, 《맹자》에 담긴 이 주장 덕분에 유교의 '아성(亞聖)'으로 불린다.",
+  "mencius.achievement.2":
+    "제자들이 엮은 그의 대화와 말씀 모음인 《맹자》는 훗날 주희가 《대학》, 《논어》, 《중용》과 함께 사서(四書)로 묶었고, 이는 과거 시험의 정통 교재가 되었다.",
+  "mencius.achievement.3":
+    "그는 양주와 묵자의 학설에 맞서 유교 윤리를 옹호했고, 제자들을 가르쳤으며, 이들과 함께 《시》와 《서》를 정리하고 자신의 가르침을 글로 남겼다.",
+  "mencius.moment.1":
+    "사람들이 왜 그를 논쟁을 좋아한다고 하느냐는 물음에, 그는 어쩔 수 없어서 논쟁할 뿐이며 천하에 가득한 양주와 묵자의 학설에 맞서 성인의 도를 지키려는 것이라고 답한다.",
+  "mencius.interpretation.moment.1":
+    "이는 당대의 두 주류 학설에 모두 맞서 자신의 입장을 세운 사상가의 모습과 일치한다.",
+  "mencius.moment.2":
+    "고자가 인간의 본성을 깎아 만드는 나무와 흐르는 물에 비유하자, 맹자는 나무를 잔으로 깎는 것은 나무의 본성을 거스르는 일이고 물의 본성은 아래로 흐르는 것이라고 답하며, 사람을 악하게 만들 수는 있어도 본성은 그대로라고 말한다.",
+  "mencius.interpretation.moment.2":
+    "이는 상대의 비유를 하나씩 따져 검토하는 논객의 모습과 일치한다.",
+  "mencius.turning_point.1":
+    "사마천에 따르면, 그가 섬긴 군주들이 그의 가르침을 현실과 거리가 멀다고 여겨 쓰지 않자, 그는 물러나 만장 등 제자들과 《시》와 《서》를 정리하고 공자의 뜻을 서술해 《맹자》 7편을 지었다.",
+  "mencius.interpretation.turning_point.1":
+    "이는 궁정에서 말을 들어줄 곳을 찾던 데서 가르침과 저술로 옮겨 간 전환과 일치한다.",
+  /* ---------------------------------------------------------- miruts-yifter (Roster62) */
+  "miruts-yifter.achievement.1":
+    "1980년 모스크바 올림픽에서 결승선 약 300m 전에 스퍼트를 시작하는 전략으로 5,000m와 10,000m를 모두 석권했고, 이 때문에 '변속기 이프테르'라는 별명을 얻었다.",
+  "miruts-yifter.achievement.2":
+    "1972년 뮌헨 올림픽 10,000m에서 동메달을 땄고, 아프리카 경기 대회와 첫 아프리카 선수권에서 우승했으며, 1977년과 1979년 IAAF 월드컵에서 5,000m와 10,000m를 모두 석권했다.",
+  "miruts-yifter.achievement.3":
+    "모스크바에서의 경주를 지켜본 하일레 게브르셀라시에를 비롯한 에티오피아 장거리 선수들에게 영감을 주었고, 은퇴 후에는 에티오피아와 캐나다에서 선수들을 지도했다.",
+  "miruts-yifter.moment.1":
+    "모스크바 5,000m 결승에서 마지막 바퀴에 갇혀 있다가 동료가 뒤쪽 직선로에서 비켜 주자 약 300m를 남기고 스퍼트를 시작해 마지막 200m를 27.2초에 달렸다.",
+  "miruts-yifter.interpretation.moment.1":
+    "이는 즉흥적으로 달리기보다 미리 연습해 둔 작전을 실행하는 모습과 일치한다.",
+  "miruts-yifter.moment.2":
+    "1971년 노스캐롤라이나에서 열린 미국 대 아프리카 대회에서 그는 스티브 프리폰테인을 상대로 한 바퀴 일찍 스퍼트를 시작했고, 이튿날에는 10,000m에서 프랭크 쇼터를 이겼다.",
+  "miruts-yifter.interpretation.moment.2":
+    "이는 지칠 위험이 있어도 긴 스퍼트에 나서는 성향과 일치한다.",
+  "miruts-yifter.turning_point.1":
+    "에티오피아가 1976년 몬트리올 올림픽 보이콧에 동참해 올림픽에 나서지 못한 뒤에도 그는 1977년과 1979년 IAAF 월드컵에서 5,000m와 10,000m를 석권했고, 이어 1980년 올림픽에서도 두 종목을 석권했다.",
+  "miruts-yifter.interpretation.turning_point.1":
+    "이는 올림픽 불참 이후에도 정상급 경쟁을 이어 간 모습과 일치한다.",
+  /* ---------------------------------------------------------- motoori-norinaga (Roster62) */
+  "motoori-norinaga.achievement.1":
+    "그는 일본에서 가장 오래된 역사서 《고사기》의 주석서 《고사기전》을 약 35년에 걸쳐 1798년에 완성했다. 브리태니커는 그의 《고사기》 연구가 근대 신도 부흥의 이론적 토대가 되었다고 설명한다.",
+  "motoori-norinaga.achievement.2":
+    "그는 일본 문학의 핵심이 사물의 애수에 마음이 움직이는 '모노노아와레'에 있다고 보았고, 1758년부터 《겐지 이야기》 강의를 통해 이를 근거로 이 작품을 옹호했다.",
+  "motoori-norinaga.achievement.3":
+    "마쓰사카에서 의사로 일하며 그는 학원 스즈노야를 이끌어 전국에서 제자를 모았고 기이번과 교토에서 강의했으며, 제자들은 《고사기전》의 출판 비용과 인쇄를 도왔다.",
+  "motoori-norinaga.moment.1":
+    "그는 《고사기전》 원고의 각 단계를 믿을 만한 제자와 동료들에게 돌려 보았고, 한 제자가 출판 비용을 대고 다른 제자들이 판목을 새기고 인쇄한 간행본은 노리나가와 스즈노야 학원의 공동 작업의 산물로 설명된다.",
+  "motoori-norinaga.interpretation.moment.1":
+    "이는 제자들과의 공동 노력으로 대표 저작을 만들어 낸 학자의 모습과 일치한다.",
+  "motoori-norinaga.moment.2":
+    "1783년부터 학자 우에다 아키나리가 그의 《고사기》 해석을 무모하고 지나치게 문자 그대로라고 비판했고, 노리나가는 하나하나 반박했으며 한 학생 논문에 따르면 끝내 자기 입장을 철회하지 않았다.",
+  "motoori-norinaga.interpretation.moment.2":
+    "이는 저명한 비판자에 맞서 자신의 입장을 지킨 학자의 모습과 일치한다.",
+  "motoori-norinaga.turning_point.1":
+    "1763년 그는 마쓰사카의 여관에서 학자 가모노 마부치를 만나 이듬해 제자가 되었고, 그때부터 평생 《고사기》 연구에 몰두했다.",
+  "motoori-norinaga.interpretation.turning_point.1":
+    "이는 시학과 《겐지》 연구에서 수십 년에 걸친 하나의 과업으로 옮겨 간 전환과 일치한다.",
+  /* ---------------------------------------------------------- nadine-gordimer (Roster62) */
+  "nadine-gordimer.achievement.1":
+    "60여 년에 걸쳐 아파르트헤이트가 개인의 삶에 미친 파괴적 영향을 소설로 기록한 남아프리카공화국의 소설가이자 단편 작가로, 1991년 '웅장한 서사적 글쓰기'로 노벨 문학상을 받았다.",
+  "nadine-gordimer.achievement.2":
+    "첫 단편집 《마주 보기》(1949)와 첫 장편 《거짓의 나날》(1953) 이후, 《자연보호주의자》가 1974년 부커상을 공동 수상하며 국제적 명성을 안겼고, 이어 《버거의 딸》(1979), 《줄라이의 사람들》(1981), 《내 아들의 이야기》(1990)가 나왔다.",
+  "nadine-gordimer.achievement.3":
+    "2005년까지 장편 14편과 단편집 11권을 냈고 2012년에 마지막 장편을 발표했으며, 여러 작품이 아파르트헤이트 검열법에 따라 금서가 되었고 그의 작품은 25개 언어로 번역되었다.",
+  "nadine-gordimer.moment.1":
+    "두 번째 장편 《낯선 이들의 세계》(1958)는 남아공에서 12년간 금서였고, 스웨덴 한림원은 훗날 그가 검열이 없는 것처럼 글을 썼다고 평했으며, 그는 계속 작품을 발표했고 모두 네 작품이 금서 처분을 받았다.",
+  "nadine-gordimer.interpretation.moment.1":
+    "이는 작품 유통에 장애가 있었음에도 계속 작품을 발표한 모습과 부합한다.",
+  "nadine-gordimer.moment.2":
+    "그는 평생 자신의 분석에 반발하는 보수적 백인 독자와, 예술이 선전이 되어서는 안 된다는 그의 고집을 하찮거나 방종하다고 본 '참여' 독자들 사이에서 중도의 길을 걸었으며, 스웨덴 한림원은 그의 글이 선동적이거나 선전적이지 않다고 말했다.",
+  "nadine-gordimer.interpretation.moment.2":
+    "이는 예술과 논쟁의 관계에 대한 독자적 견해와 부합하지만, 이 입장은 그의 본인 발언을 통해서도 알려진 것이다.",
+  "nadine-gordimer.turning_point.1":
+    "1990년경 남아공에서 정치적 변화가 가능해지자, 그의 문체는 초기의 중립적이고 아이러니한 어조와 1980년대의 참여적 어조에서 《나와 동행할 이 없다》(1994)처럼 더 상징적인 방식으로 바뀌었고, 이후 작품은 더 넓은 동시대 문제를 다루었다.",
+  "nadine-gordimer.interpretation.turning_point.1":
+    "이는 소재가 변하면서 접근 방식을 조정한 모습과 부합하지만, 후기 작품이 얼마나 성공적이었는지에 대해서는 비평가들의 의견이 갈린다.",
+  /* ---------------------------------------------------------- richard-francis-burton (Roster62) */
+  "richard-francis-burton.achievement.1":
+    "빅토리아 시대의 탐험가로, 1853년 무슬림 순례자로 변장해 메카와 메디나에 갔고 하라르를 방문했으며, 왕립지리학회의 동아프리카 탐험대를 이끌어 1858년 근대 들어 유럽인으로서 처음으로 탕가니카 호를 보았다.",
+  "richard-francis-burton.achievement.2":
+    "『천일야화』(아라비안 나이트, 1885-88)와 『카마수트라』를 번역했고 여행과 관찰을 담은 책을 많이 썼다. 1911년판 브리태니커는 『천일야화』 번역을 그의 최고 업적으로 꼽으면서도 학문적 균질성이 부족하다고 비판한다.",
+  "richard-francis-burton.achievement.3":
+    "여러 언어를 익혔고, 이를 변장과 함께 활용해 방문한 지역 사람들의 종교와 관습, 생활을 기록했다. 『옥스퍼드 영국사 안내서』는 이 책들을 그의 가장 훌륭한 기념비라고 평한다.",
+  "richard-francis-burton.moment.1":
+    "1853년 비무슬림의 출입이 목숨을 건 금지였던 시기에 아프가니스탄 사람으로 변장해 메디나와 메카로 가는 순례 대상에 합류했고, 이 경험을 쓴 책으로 유명해졌다.",
+  "richard-francis-burton.interpretation.moment.1":
+    "이는 외부인에게 닫힌 장소를 직접 보고 기록하기 위해 큰 개인적 위험을 감수하려 한 모습과 일치한다.",
+  "richard-francis-burton.moment.2":
+    "1858년 스피크가 빅토리아 호를 나일강의 발원지라고 주장하자 버턴은 이를 받아들이지 않고 『중앙아프리카의 호수 지역』(1860)에서 반박했다. 이 공개 논쟁은 1864년 예정된 토론 전날 스피크가 숨질 때까지 이어졌다.",
+  "richard-francis-burton.interpretation.moment.2":
+    "이는 논란이 된 주장을 두고 오랜 공개 논쟁을 이어가려 한 모습과 일치하지만, 탐험 전문 매체는 이 문제에서 그가 틀렸다고 본다.",
+  "richard-francis-burton.turning_point.1":
+    "1842년 옥스퍼드에서 퇴학당한 뒤 동인도회사 군대에 들어갔고, 구자라트와 신드에서 7년간 무슬림들 사이에서 힌디어와 아랍어 등을 익히며 변장 여행을 시작했다.",
+  "richard-francis-burton.interpretation.turning_point.1":
+    "이는 정규 교육에서 벗어나 현지에서 생활하며 언어와 관습을 익히는 방식으로 옮겨간 모습과 일치한다.",
+  /* ---------------------------------------------------------- rifaa-al-tahtawi (Roster62) */
+  "rifaa-al-tahtawi.achievement.1":
+    "그는 1835년부터 이집트의 언어학교(알순 학교)를 이끌며 교과를 역사, 지리, 수학, 법으로 넓혔고, 이후 번역국을 이끌어 학생과 직원이 프랑스어 저작을 아랍어로 옮기도록 했다.",
+  "rifaa-al-tahtawi.achievement.2":
+    "그는 1826년 무함마드 알리의 유학생단의 이맘으로 파리에 가서 프랑스 체류기 《타클리스 알이브리즈》를 썼고, 이 책은 이집트에서 출간되어 19세기 프랑스에 관한 초기 아랍어 여행기의 하나가 되었다.",
+  "rifaa-al-tahtawi.achievement.3":
+    "그는 관보 《알와카이 알미스리야》를 편집했고 1870년부터는 학교 잡지 《라우다트 알마다리스》를 편집했으며, 1872년에는 소녀와 소년의 교육에 관한 논고를 썼고, 1850년에는 하르툼에 학교를 세웠다.",
+  "rifaa-al-tahtawi.moment.1":
+    "그는 1265년(이슬람력)에 말트브룅의 지리서 한 권을 60일 만에 번역했으나, 전기 작가 자이단은 이 번역이 서둘러 이루어진 것으로 보인다고 덧붙인다.",
+  "rifaa-al-tahtawi.interpretation.moment.1":
+    "작업 속도가 빨랐고 전기 작가가 그 때문에 완성도가 떨어졌다고 본 것과 부합하지만, 하나의 초기 전기에 의존한다.",
+  "rifaa-al-tahtawi.moment.2":
+    "1850년 언어학교가 폐쇄되고 하르툼으로 보내진 뒤에도 그는 그곳에 학교를 세우고 4년 동안 페늘롱의 《텔레마크》를 비롯한 번역을 마무리했다.",
+  "rifaa-al-tahtawi.interpretation.moment.2":
+    "강제된 이동 속에서도 교육과 번역 일을 이어 간 것과 부합하지만, 폐쇄와 재배치는 통치자의 결정이었다.",
+  "rifaa-al-tahtawi.turning_point.1":
+    "1826년부터 파리에서 유학생단의 이맘으로 지내던 그는 스스로 프랑스어 공부를 시작하고 역사, 지리 등 근대 학문을 공부했으며, 이는 1831년 귀국 후 번역가이자 교사로서의 경력으로 이어졌다.",
+  "rifaa-al-tahtawi.interpretation.turning_point.1":
+    "서양 학문에 대한 자발적인 호기심과 부합하지만, 그란은 아즈하르와 타흐타에서의 교육이 이미 그를 준비시켰다고 주장한다.",
+  /* ---------------------------------------------------------- shibusawa-eiichi (Roster62) */
+  "shibusawa-eiichi.achievement.1":
+    "재무성에서 일한 뒤 1873년 민간으로 나와 제일국립은행(미즈호은행의 전신)을 이끌었고 1878년 증권거래소 설립을 도왔다. '일본 자본주의의 아버지'로 불린다.",
+  "shibusawa-eiichi.achievement.2":
+    "금융을 중심으로 제지, 방직, 가스, 철도, 보험 등 약 500개 기업의 설립과 운영에 관여했으며, 오지제지, 오사카방적, 도쿄가스 등이 그 예이다.",
+  "shibusawa-eiichi.achievement.3":
+    "오늘날 히토쓰바시대학이 된 상법강습소와 일본여자대학교(총장 역임) 등 교육과 자선 사업을 후원했고, 논어에 바탕을 두고 기업이 도덕과 경제를 함께 추구해야 한다고 가르쳤다.",
+  "shibusawa-eiichi.moment.1":
+    "1867년 막부 사절단의 일원으로 파리 만국박람회에 갔고 약 1년 반 동안 유럽에 머물며 사회·경제 제도를 공부했다. 메이지 유신 뒤에는 시즈오카번에서 주식회사를 세웠다.",
+  "shibusawa-eiichi.interpretation.moment.1":
+    "이는 외국의 제도를 면밀히 공부한 뒤 이를 일본에 맞게 세우려 한 모습과 일치한다.",
+  "shibusawa-eiichi.moment.2":
+    "미쓰비시의 이와사키 야타로와 달리 대규모 가족 재벌을 만들려 하지 않았고, 회사가 자립할 수 있게 되면 대체로 자신의 지분을 팔았다고 전해진다.",
+  "shibusawa-eiichi.interpretation.moment.2":
+    "이는 지배권을 집중하기보다 많은 투자자의 자본을 모으는 쪽을 택한 모습과 일치한다.",
+  "shibusawa-eiichi.turning_point.1":
+    "1873년 새 정부에서 약 4년, 재무성 고위 관료로 1년가량 일한 뒤 사직하고 제일국립은행을 세워 이끌며 민간 사업으로 옮겨 갔다.",
+  "shibusawa-eiichi.interpretation.turning_point.1":
+    "이는 관직에 머무르기보다 민간 기관을 세우는 길을 택한 모습과 일치한다.",
+  /* ---------------------------------------------------------- william-james (Roster62) */
+  "william-james.achievement.1":
+    "그는 12년에 걸쳐 쓴 《심리학의 원리》(1890)로 이 분야의 기초를 놓았고, 1875~76년에는 하버드 휴턴 도서관이 미국 최초의 심리학 대학원 강의라고 설명하는 과목을 가르쳤으며, 1890년에는 기금을 모아 하버드의 심리학 실험실(데인 홀)을 갖추었다.",
+  "william-james.achievement.2":
+    "그는 1898년의 공개 강연과 1907년의 저서 《실용주의》로 실용주의를 널리 알렸다. 이 책은 관념을 실제 결과로 평가했으며, 스탠퍼드 철학 백과사전은 그를 찰스 퍼스와 함께 실용주의 전통의 창시자로 꼽는다.",
+  "william-james.achievement.3":
+    "그는 1901~02년 에든버러에서 기퍼드 강연을 했고 이는 《종교적 경험의 다양성》(1902)으로 출간되었으며, 1884년에는 미국심령연구협회의 창립에 참여했다.",
+  "william-james.moment.1":
+    "그는 미국심령연구협회의 영매 조사 위원회를 이끌며 강신회에 참석했고, 많은 영매가 명백한 사기로 보였음에도 레오노라 파이퍼를 계속 연구해 그녀를 모든 까마귀가 검지는 않음을 보여 주는 '흰 까마귀'라고 불렀다.",
+  "william-james.interpretation.moment.1":
+    "관습적인 동료들은 영매를 찾아다니는 교수를 경계했다고 산타야나가 기록하지만, 이는 인기 없는 문제에 대한 지속적인 호기심과 부합한다.",
+  "william-james.moment.2":
+    "그는 훗날 자신의 에세이 「믿으려는 의지」를 '믿을 권리'라고 불렀어야 했다고 말하며, 특정한 상황에서 특정한 믿음을 정당화하려 했을 뿐 믿음을 의지로 만들 수 있다는 주장이 아니었다고 해명했다. 퍼스는 이 글을 매우 과장된 표현이라고 평한 바 있다.",
+  "william-james.interpretation.moment.2":
+    "비판을 받고 자신의 입장을 다시 설명하려는 태도와 부합하지만, 변화의 대부분은 같은 주장을 명확히 한 것에 가깝다.",
+  "william-james.turning_point.1":
+    "1872년 하버드에서 비교해부학과 생리학을 가르치기 시작한 그는 엘리엇 총장에게 새로운 분야인 '정신 과학'으로 옮기게 해 달라고 요청했고, 1875~76년에 미국 최초의 심리학 대학원 강의를 개설한 뒤 1878년부터 철학 쪽으로 옮겨 갔다.",
+  "william-james.interpretation.turning_point.1":
+    "관심이 바뀜에 따라 확립된 분야에서 새로 떠오르는 분야로 넘어가려는 의지와 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

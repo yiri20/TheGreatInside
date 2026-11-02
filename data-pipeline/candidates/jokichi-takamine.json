@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jokichi-takamine",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jōkichi Takamine",
+    "aliases": [
+      "Jokichi Takamine",
+      "Takamine Jōkichi",
+      "Takamine Jokichi",
+      "高峰譲吉"
+    ],
+    "wikidataId": "Q910647",
+    "birthYear": 1854,
+    "deathYear": 1922,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "entrepreneur",
+      "inventor"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "business",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_takamine_wikidata",
+      "kind": "wikidata",
+      "title": "Takamine Jōkichi (Q910647), verified live via the Wikidata API (2026-11-01): label 'Takamine Jōkichi', description 'Japanese chemist (1854-1922)', born 3 November 1854, died 22 July 1922, citizenship Japan, Korean label 다카미네 조키치, Japanese label 高峰譲吉, image 'Jokichi Takamine.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q910647"
+    },
+    {
+      "id": "src_takamine_shi",
+      "kind": "institution",
+      "title": "Science History Institute, 'Jokichi Takamine' (Megan Krempa, Scientific Biographies, 17 September 2024), read in full. CANONICAL SIGNIFICANCE SOURCE: 'built bridges between Japanese and Euro-American science'; helped isolate the hormone epinephrine and developed new methods of fermentation; studied in Scotland, led the chemistry division of the Department of Agriculture and Commerce, founded the Tokyo Artificial Fertilizer Company, patented Taka-diastase from the koji mould, moved to the US in 1890, lost his factory to a fire in 1891 and licensed Taka-diastase to Parke, Davis & Co.; opened a laboratory in Clifton, New Jersey in 1897, failed for three years, recruited Keizo Uenaka through Professor Nagayoshi Nagai, purified the hormone within six months ahead of John Jacob Abel and filed for the 'adrenalin' patent, which a court upheld against Abel's challenge; later philanthropy and exchanges, helped found the Japan Society in 1907 (not scored). Institutional educational biography; sympathetic in tone.",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/takamine-jokichi/"
+    },
+    {
+      "id": "src_takamine_ishida",
+      "kind": "biography",
+      "title": "Mitsuo Ishida, Hormone Hunters: The Discovery of Adrenaline (Kyoto University Press, 2012; English edition 2018, Kyoto University Research Information Repository), read in the prologue and Chapters 5 and 8 and the profile of Takamine: an independent science-history account by a former Sankyo researcher who says earlier Japanese writing on Takamine was mostly written to honour him; over 20 researchers had raced to isolate adrenaline for 44 years; Takamine 'entered the race all of a sudden' and Parke, Davis & Co. had a major role; the crystals appeared in July 1900 in the laboratory of Takamine and Keizo Wooyenaka (Uenaka), who was named 'associate' but not co-author, which Ishida argues was the norm of the time; Wooyenaka said Parke, Davis 'exaggerated a bit' the story for publicity; Takamine presented a wrong molecular formula (C10) and called himself a practical scientist; he lectured widely (Edinburgh 1901, Tokyo 1902), arranged jobs at Sankyo for Wooyenaka, founded Sankyo with Matasaku Shiobara in 1913 and proposed the concept of RIKEN (1917); Sakichi Toyoda's autobiography records Takamine's advice about inventors. Independent scholarly source with a critical element.",
+      "url": "https://repository.kulib.kyoto-u.ac.jp/server/api/core/bitstreams/b14337ce-bc7e-41fe-82c0-72f4dd0fd3d1/content"
+    },
+    {
+      "id": "src_takamine_daiichi",
+      "kind": "institution",
+      "title": "Daiichi Sankyo, 'Researcher Dr. Jokichi Takamine's Success in the Crystallization of Adrenaline Paved the Way for Development in Various Fields' (Our Stories, 31 January 2023), read in full: Takamine as first president of Sankyo, founder with Eiichi Shibusawa of Tokyo Jinzo Hiryo (now Nissan Chemical), a koji-malt whisky project, Taka-Diastase, work with Bakelite, Toyo Aluminum and Kurobe Railway; Keizo Uenaka's hundreds of experiments and the crystals in an unwashed test tube; Takamine introduced Uenaka as co-researcher at medical conferences. Corporate history by the successor company, so it is admiring and is used only for corroboration of facts also found in independent sources.",
+      "url": "https://www.daiichisankyo.com/our_stories/detail/index_4316.html"
+    },
+    {
+      "id": "src_takamine_jpo",
+      "kind": "institution",
+      "title": "Japan Patent Office, 'Jokichi Takamine: Taka-Diastase, Adrenaline' (Ten Japanese Great Inventors), read in full: Taka-Diastase discovered in 1894 and still an ingredient in medicines; in 1900 he succeeded in crystallising and isolating adrenaline, widely used as a haemostatic and cardiotonic agent. A short official note by a patent-history office.",
+      "url": "https://www.jpo.go.jp/e/introduction/rekishi/10hatsumeika/jokichi_takmine.html"
+    },
+    {
+      "id": "src_takamine_litfl",
+      "kind": "press",
+      "title": "Life in the Fast Lane, 'Adrenaline or epinephrine?' (Eponymictionary), read for its account of the naming dispute (about half of the page): Abel named 'epinephrin' in 1899, von Furth's 'suprarenin' in 1900, and Takamine in 1901 reviewed both, said neither had the active principle in pure form and announced 'Adrenalin'; Parke, Davis chemist Thomas Aldrich confirmed his substance was identical and gave the formula C9H13NO3; the trade name Adrenalin led to a long split between 'adrenaline' and 'epinephrine'. Secondary medical-history source, independent of the Sankyo and Takamine literature.",
+      "url": "https://litfl.com/adrenaline-or-epinephrine/"
+    },
+    {
+      "id": "src_takamine_ndl",
+      "kind": "archive",
+      "title": "National Diet Library of Japan, Digital Collections, 'Gendai hatsumeika den' (Lives of Contemporary Inventors, Makino Terutomo, Teikoku Hatsumei Kyokai, September 1911), item record and page 11 opened through the library's open IIIF interface (access restriction: Public Domain Mark): a frontispiece portrait captioned 'world-famous inventor Takamine Jokichi'. Portrait record only; the book's text was not read.",
+      "url": "https://dl.ndl.go.jp/pid/777757"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_takamine_shi, src_takamine_ishida, src_takamine_daiichi | 1884-1913 | institutional biography, independent science history, corporate history] The Science History Institute says he noticed that Japanese distillers used a koji mould rather than malt, patented the enzyme as Taka-diastase and saw its potential for US distilling; after the whiskey business collapsed he licensed it to Parke, Davis as an indigestion remedy; Ishida describes him as a 'practical scientist' who saw even in adrenaline a product for medicine and the chemical industry, took the Sankyo exclusive in Japan and set up Sankyo in 1913. Several ventures over three decades, but Ishida also stresses that Parke, Davis supplied the contract, resources and a ready market for the adrenaline work. SELF-CALIBRATION (agent): reviewed as the top-risk row; lowered from 78 / 0.62 to 74 / 0.56 because the sources are partly sympathetic or corporate and the adrenaline result depended heavily on Parke, Davis and his assistant."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_takamine_shi, src_takamine_ishida | 1891-1901 | institutional biography and independent science history] After the 1891 fire and the end of the whiskey contract he changed track to a digestive medicine and licensed it to Parke, Davis, which funded his New Jersey laboratory; when three years of work on adrenal tissue failed he asked his former professor Nagayoshi Nagai for help and brought Keizo Uenaka from Japan; Ishida records that he put Wooyenaka in charge of the manufacturing method while he handled the publicity at conferences in Edinburgh and Tokyo. Documented moves, but how much of the final success came from his own bench work is contested in the sources."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_takamine_shi, src_takamine_ishida, src_takamine_daiichi | 1890-1901 | institutional biography and independent science history] The Science History Institute says he kept working on the adrenal gland problem for three years without success before recruiting help, and the whiskey factory burned in 1891 yet he continued with the enzyme; Ishida's timeline has him abandoning the whiskey business and developing and patenting Taka-diastase afterwards. The Daiichi Sankyo account credits Uenaka, not Takamine, with the hundreds of experiments, and Ishida says Takamine entered the adrenaline race late, so the row rests on his keeping programmes going rather than on documented bench persistence."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_takamine_shi, src_takamine_ishida | 1887-1897 | institutional biography and independent science history] He left government service to found a fertiliser company, moved his family to the United States in 1890 to pursue a commercial application of Taka-diastase, set up in Peoria and lost his factory in the 1891 fire, and in 1897 opened his own laboratory on a contract basis. The moves are documented, but the sources do not record how he weighed the risks, and the fire shows the downside, so the impact is dual-edged."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_takamine_ishida, src_takamine_shi, src_takamine_daiichi | 1900-1916 | independent science history, institutional biography, corporate history] Ishida says Takamine appointed Wooyenaka under a contract with Parke, Davis, gave him the title 'associate' in the first report, thanked him and Tetsukichi Shimizu in a public lecture in Tokyo in 1902, introduced him at conferences (per Daiichi Sankyo) and later arranged posts for him at Sankyo; but the first adrenaline reports list Takamine alone as author, which Ishida says many Japanese people felt to be unfair and which he defends as the practice of the time, and Wooyenaka said Parke, Davis exaggerated the story. Credit-sharing was partial by modern standards, so the row is dual-edged and moderate."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jokichi-takamine-makino-1911.jpg",
+    "width": 830,
+    "height": 1200,
+    "source": "Halftone photograph of Takamine as the frontispiece of the book 'Gendai hatsumeika den' (Lives of Contemporary Inventors) by Makino Terutomo, published by Teikoku Hatsumei Kyokai, Tokyo, September 1911, captioned 'world-famous inventor Takamine Jokichi', National Diet Library of Japan, Digital Collections item 777757, page 11, with the library's Public Domain Mark. The photographer is not named in the book. The page image (3607 x 2777 pixels) was cropped to the photograph and downscaled to 830 x 1200 with no upscaling. The picture is a coarse printed halftone, so quality is low.",
+    "license": "Public domain (published in Japan in 1911; National Diet Library Public Domain Mark)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photograph of Jokichi Takamine in Makino Terutomo, Gendai hatsumeika den (Teikoku Hatsumei Kyokai, 1911), National Diet Library of Japan Digital Collections, item 777757, Public Domain Mark",
+    "attributionUrl": "https://dl.ndl.go.jp/pid/777757",
+    "creator": "Photographer not named; published in Makino Terutomo, Gendai hatsumeika den",
+    "date": "1911",
+    "kind": "likeness",
+    "sourcePageUrl": "https://dl.ndl.go.jp/pid/777757"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "다카미네 조키치"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / LEAD REJECTED, REPLACED. The lead image, the Science History Institute portrait 'circa 1910' (digital.sciencehistory.org/works/5x21tf430, opened), carries only the rights statement 'No Known Copyright', names the manufacturer Alman & Co. (a named New York studio, so not anonymous), gives no publication date or place and sits in the Williams Haynes Portrait Collection; I could not find a dated pre-1931 publication of that exact image, so no age or publication basis can be shown. The Commons copy of it (Jokichi Takamine.jpg) calls the author anonymous and cites a Japanese old-photo tag, which conflicts with the named studio, so it was not relied on. Replacement used: the printed frontispiece portrait in the 1911 book 'Gendai hatsumeika den' (National Diet Library item 777757, page 11, caption naming Takamine Jokichi), published in Japan in September 1911, which the library's IIIF manifest marks with a Public Domain Mark; a work published abroad before 1931 is in the US public domain, and a 1911 Japanese photograph is also out of copyright in Japan, so no 1996 restoration applies. kind likeness (a photograph of the man taken during his lifetime and published with his name in 1911, although the sitting is not documented and the photographer is unnamed; the lead may reclassify it as a depiction). The image is a coarse halftone, so the lead may prefer to keep it only until a clearer rights-cleared photograph is found; the SHI Alman portrait would look better but its basis is only 'No Known Copyright'. WHY THE LEAD'S VIABILITY WAS ONLY PARTLY RIGHT: the identity and a named studio were solid, but 'No Known Copyright' has no date or publication facts behind it. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q910647 label 'Takamine Jōkichi', description 'Japanese chemist (1854-1922)'; not in prod62.txt and no candidate file existed for slug jokichi-takamine. REGION east_asia (Japanese national and Japanese career origin; he lived in the United States from 1890, following the Noguchi precedent). ERA 19th_century. ZERO POLITICS: primary identity is chemist and industrial scientist; the 1911 cherry-tree donation, the Japan Society, the Nippon Club and his wartime-era support for Japan-US relations are NOT scored. VOCABULARY: occupations chemist, entrepreneur and inventor, fields chemistry, business and medicine, impactDomains scientific, medical and entrepreneurial, tags founder and innovator, archetypes entrepreneurial_builder and technical_innovator, all with English and Korean labels already in the project. KO NAME: Wikidata Korean label 다카미네 조키치. CANONICAL SIGNIFICANCE SOURCE: Science History Institute, 'Jokichi Takamine' (https://www.sciencehistory.org/education/scientific-biographies/takamine-jokichi/). READ: SHI biography (full), Ishida's book Hormone Hunters (prologue, chapters 5 and 8, profile of Takamine; about 600,000 characters extracted, the other chapters only searched by keyword), Daiichi Sankyo company history (full), Japan Patent Office note (full), LITFL on the naming dispute (about half), the NDL item record: five substantive sources plus a medical-history secondary. PERSPECTIVES: institutional educational biography, independent science-history book by a former Sankyo scientist, corporate history by the successor company, a patent office, a medical-history blog. COUNTER-VOICES AND LIMITS: Ishida (wrong molecular formula, entered the race late, Parke, Davis publicity, co-authorship criticism), Wooyenaka's own remark quoted by Ishida, Abel's challenge. DATE DISCREPANCY: the JPO says adrenaline was crystallised in 1900, the Science History Institute collection record says 1901, Ishida says July 1900 and the paper in 1901; cards say 1900-1901. NOT OPENED: Britannica (blocked), Yamashima 2003, Parascandola 2010, the Kyoto book's other chapters (Chapter 6 on the patent ruling was not read in full), Bennett and Takamine's documents, and primary lab records. LIVING-SUBJECT AND PRIVACY: family, marriage, illness and the Wooyenaka family details are not used. SELF-CALIBRATION (agent): top-risk rows reviewed: opportunity_sensing (78/0.62 lowered to 74/0.56, see rationale), collaboration (kept; already dual-edged and moderate), resourcefulness (kept). HANDBACK62: {\"slug\": \"jokichi-takamine\", \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"initial_lead\": \"Science History Institute portrait c.1920 (Alman & Co.), digital.sciencehistory.org/works/5x21tf430\", \"final_portrait_source\": \"National Diet Library of Japan Digital Collections, frontispiece portrait in Makino Terutomo, Gendai hatsumeika den (Teikoku Hatsumei Kyokai, Sept 1911), item 777757 p.11, Public Domain Mark, https://dl.ndl.go.jp/pid/777757\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"opportunity_sensing\", \"old_score\": 78, \"old_confidence\": 0.62, \"new_score\": 74, \"new_confidence\": 0.56, \"reason\": \"sources are partly sympathetic or corporate and the adrenaline result depended heavily on Parke, Davis and his assistant\"}], \"reviewed_kept\": [\"collaboration\", \"resourcefulness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

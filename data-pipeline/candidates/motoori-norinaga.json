@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "motoori-norinaga",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Motoori Norinaga",
+    "aliases": [
+      "Motoori Norinaga",
+      "Norinaga Motoori",
+      "本居宣長",
+      "Suzunoya"
+    ],
+    "wikidataId": "Q384647",
+    "birthYear": 1730,
+    "deathYear": 1801,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "physician"
+    ],
+    "fieldIds": [
+      "literature",
+      "linguistics",
+      "religion"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "specialist",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_norinaga_wikidata",
+      "kind": "wikidata",
+      "title": "Motoori Norinaga (Q384647), verified live via the Wikidata API (2026-11-01): label 'Motoori Norinaga', description 'Japanese scholar and philosopher (1730-1801)', born 1730-06-21, died 1801-10-05, citizenship Japan, Korean label 모토오리 노리나가, image the self-portrait file. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q384647"
+    },
+    {
+      "id": "src_norinaga_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Motoori Norinaga' (full article read, about 300 words). CANONICAL SIGNIFICANCE SOURCE: the most eminent scholar of Shinto and the Japanese classics; son of a textile merchant who died when he was 11, he studied medicine in Kyoto at his mother's encouragement and became a physician; influenced by the National Learning (Kokugaku) movement, he applied careful philological methods to the Kojiki, the Tale of Genji and other classics and stressed mono no aware as the central concept of Japanese literature; his study of the Kojiki gave the theoretical foundation of the modern Shinto revival; his commentary on the Kojiki, the Kojiki-den (given there as 49 volumes), was completed in 1798 after 35 years of effort. Reference work; the praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Motoori-Norinaga"
+    },
+    {
+      "id": "src_norinaga_eos_bio",
+      "kind": "institution",
+      "title": "Mori Mizue, 'Motoori Norinaga', Encyclopedia of Shinto, Kokugakuin University Digital Museum, read in full (about 900 words): born 1730 in Matsusaka to a cotton-wholesaling family; unsuited to commerce, he was sent by his mother to Kyoto in 1752, where he studied Chinese classics and medicine for five years and met the work of the scholar-monk Keichu; on his return he opened a pediatric practice and led local poetry circles; lectures on the Tale of Genji from 1758 produced his position on mono no aware; he met Kamo no Mabuchi in 1763 and became his disciple by correspondence; while writing the Kojiki-den he advanced research on conjugations and the pronunciation of kanji; his academy, the Suzunoya, became influential and he travelled to lecture, including as a special lecturer to the Kii domain from 1792 and in Kyoto in 1801; manuscripts and library now at the Norinaga Kinenkan. Scholarly institutional reference by a specialist; admiring in tone.",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=9498"
+    },
+    {
+      "id": "src_norinaga_eos_kojikiden",
+      "kind": "institution",
+      "title": "'Kojikiden' (Exegesis of the Kojiki), Encyclopedia of Shinto, Kokugakuin University Digital Museum, read in full (about 600 words): completed 1798, first five fascicles printed in 1790 and the whole in 1822; he bought a copy of the Kojiki while studying in Kyoto in 1756 when the text was far less studied than the Nihon shoki; his basic stance was fixed by 1771 but the study took over thirty years, since he aimed to make the episodes reproducible as concrete events; he used inductive reasoning and attended to colloquialisms and dialects; he circulated each stage of the manuscript among trusted disciples; a disciple funded the printing and his son and another disciple cut and printed the blocks, so the printed edition is described as a product of the collaboration of Norinaga and his Suzunoya Academy; fascicle one outlines his method and appends the Naobi no mitama, which argues the superiority of the Japanese classics over Chinese texts. Scholarly institutional reference by a specialist.",
+      "url": "https://d-museum.kokugakuin.ac.jp/eos/detail/?id=8543"
+    },
+    {
+      "id": "src_norinaga_museum",
+      "kind": "institution",
+      "title": "Motoori Norinaga Memorial Museum (Matsusaka), 'About Norinaga' (English page), read in full (about 900 words): a medical doctor and classical scholar who practised medicine in Matsusaka all his life while dedicating himself to the study of the Japanese classics; says he never blindly accepted the work of predecessors but went back to first principles; explains mono no aware against the Confucian view of emotions and his defence of the Tale of Genji; tells of the 1763 night-long meeting with Kamo no Mabuchi and of 34 years of study on the Kojiki, with the 44-volume Kojiki-den finished in June 1798 and its printing still in progress at his death. The museum holds his manuscripts, so the page is a self-interested, admiring institutional source; used for plain facts and cross-checked against the Encyclopedia of Shinto.",
+      "url": "https://www.norinagakinenkan.com/pages/220/"
+    },
+    {
+      "id": "src_norinaga_akinari",
+      "kind": "biography",
+      "title": "Meghan McLaughlin, 'An Intellectual Debate: Ueda Akinari and Motoori Norinaga', Wittenberg University East Asian Studies Journal 38 (Spring 2013), read in full (14 pages): an undergraduate-journal paper that draws mainly on Burns, Young, Matsumoto and Shirane. Gives Norinaga's background and view of mono no aware and the Kojiki, and describes the dispute with the scholar-writer Ueda Akinari, who from 1783 criticised Norinaga's reading of the Kojiki: Akinari thought the Kojiki partly legend, said the language did not decay as Norinaga claimed, called his claims of Japan's superiority cultural chauvinism, and wrote that he 'recklessly' interprets the things of old; Norinaga rebutted and, per the paper, never withdrew his positions. The counter-voice source; secondary and student-level, so used only for the existence and substance of the dispute.",
+      "url": "https://wittprojects.net/ojs/index.php/wueasj/article/view/564"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_norinaga_eos_kojikiden, src_norinaga_britannica, src_norinaga_museum, src_norinaga_eos_bio | 1756-1798 | specialist reference, general reference, museum] Britannica says the Kojiki-den was completed in 1798 after 35 years of effort, the museum says 34 years, and the Encyclopedia of Shinto says his basic stance was fixed by 1771 but the study took over thirty years; the museum and the Encyclopedia of Shinto both say he worked as a physician (a pediatric practice in Matsusaka) while carrying on the scholarship, and publication continued after his death. The sources differ on the length (34 or 35 years) and the size of the work (44 or 49 volumes), and the museum is a self-interested institutional source, so confidence stays at the pre-modern ceiling."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_norinaga_eos_kojikiden, src_norinaga_britannica, src_norinaga_museum, src_norinaga_akinari | 1763-1798 | specialist reference, general reference, museum, student-level secondary] The Encyclopedia of Shinto says he used inductive reasoning to reach conclusions about ancient syntax and vocabulary and attended to colloquialisms and dialects, and Britannica says he applied careful philological methods; the museum says he reconsidered everything from first principles. The same file shows the limits: Ueda Akinari accused him of interpreting the ancient texts recklessly and the paper says he insisted on accepting the Kojiki in its entirety, so the method is described by admiring or retrospective sources and is disputed. SELF-CALIBRATION (agent): reviewed as the top-risk row; lowered from 66 / 0.48 to 60 / 0.42 because the claim rests on an admiring museum and specialist summaries while the one adversarial source in the file contests the rigour."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_norinaga_eos_bio, src_norinaga_britannica, src_norinaga_museum | 1758-1790 | specialist reference, general reference, museum] The Encyclopedia of Shinto says that through his poetics and the lectures on the Tale of Genji from 1758 he established a 'unique position' that located the core of literature in the mind that knows the pathos of things, and that he made advances in the study of conjugations and the pronunciation of kanji; Britannica calls mono no aware the central concept he stressed, and the museum says he argued for it against the Confucian view of emotions. These are the verdicts of later reference writers and his own books, and his critic's objections concern the Kojiki-den rather than the Genji reading, so confidence is low."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_norinaga_eos_kojikiden, src_norinaga_eos_bio | 1763-1801 | specialist reference] The Encyclopedia of Shinto says he circulated each stage of the Kojiki-den manuscript among trusted disciples and colleagues, that a disciple funded the printing, that his son cut the blocks and another disciple handled the printing, and that the printed edition is a product of the collaboration of Norinaga and the Suzunoya Academy; his academy gained disciples across the country and he travelled to lecture. The account is from one specialist source and partly describes his disciples' work, so it is limited to the documented shared production of the book."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_norinaga_museum, src_norinaga_eos_kojikiden, src_norinaga_akinari | 1756-1787 | museum, specialist reference, student-level secondary] The Encyclopedia of Shinto says he bought a copy of the Kojiki when it was far less studied than the Nihon shoki and held to its value as a classic, the museum says he argued for mono no aware against the Confucian view that raw emotion is unworthy, and the paper says he replied to Ueda Akinari's criticism without withdrawing his position. These show positions held against prevailing scholarly or moral views, but the first two are told by admirers and the paper is secondary and student-level; his claims about Japan's supremacy are not scored as a trait."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "모토오리 노리나가"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/motoori-norinaga-anonymous-copy-1830.jpg",
+    "width": 835,
+    "height": 1200,
+    "source": "Ink-on-paper hanging scroll titled 'Portrait of Motoori Norinaga', a later copy after his own self-portrait made at the age of 61 (the original is an Important Cultural Property at the Motoori Norinaga Memorial Museum in Mie); catalogued by the Kyoto University Museum as dated 1830 with an 1854 colophon, 86.5 x 35.1 cm, record RB00033904, in the Portraits of Japan collection of the Kyoto University Rare Materials Digital Archive. The catalogue note, based on the colophon, says the copy was made by Norinaga's son Haruniwa for a visitor from Mutsu and added a poem. The file is a crop of the portrait figure from the archive's 2000-pixel-wide scan of the whole scroll (6678 x 8912 master), cropped to the painted figure and downscaled to 835 x 1200 with no upscaling; the scroll mount, colour card and ruler are cropped out.",
+    "license": "Free reuse with attribution under the Kyoto University Library Network terms (copy, adapt or redistribute in any medium without application or fee, with the holding museum named, changes indicated and a link back); not a Creative Commons licence. The work is far beyond copyright age.",
+    "licenseUrl": "https://rmda.kulib.kyoto-u.ac.jp/en/reuse",
+    "attribution": "Anonymous copy after Motoori Norinaga's self-portrait, ink on paper, catalogued 1830; photograph courtesy of the Kyoto University Museum, Kyoto University, Rare Materials Digital Archive RB00033904 (cropped and resized)",
+    "attributionUrl": "https://rmda.kulib.kyoto-u.ac.jp/en/item/rb00033904",
+    "creator": "Copyist not independently confirmed (catalogue note attributes it to Motoori Haruniwa, Norinaga's son), after the self-portrait by Motoori Norinaga",
+    "date": "1830 as catalogued (copy after a self-portrait made when Norinaga was 61)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://rmda.kulib.kyoto-u.ac.jp/en/item/rb00033904"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / LEAD IMAGE REJECTED, REPLACEMENT USED. The lead was the Commons self-portrait 'Motoori Norinaga self portrait.jpg' (the 1773 self-portrait at age 44). The Commons wikitext (opened) gives the source as a radio-station web page (tfm.co.jp), an empty Permission field and only a generic PD-Art/PD-old tag; it cites no holding institution, accession or terms, and the Motoori Norinaga Memorial Museum site-policy and image-use pages (the holder of the original self-portraits) were not located in the search and its policy page was not opened, so no item-level rights basis could be established. Following the lead's alternative-path idea of a later portrait, I used a copy after the 61-year-old self-portrait from the Kyoto University Museum (Rare Materials Digital Archive RB00033904), whose live item page (opened) carries the badge 'FREE LICENSE with Attribution', the attribution 'Kyoto University Museum, Kyoto University' and a link to the Guide for Content Reuse; the guide and licence-icon pages (opened) say images may be copied, adapted or redistributed in any medium without application or fee provided the holding library is named, changes are indicated and the site is linked, that images are published only after the originals' copyright expiry is confirmed, and they do not mention Creative Commons. CAVEATS: the licence text lists the Main, Yoshida-South, Law, Economics, Science and Museum libraries and this record is in the Kyoto University Museum collection, so I treat it as covered; the rights field on the record only links to the guide; the work is an old anonymous or family copy, so it is far beyond copyright age whoever made it; the catalogue's date of 1830 and the attribution to the son Haruniwa come from an 1854 colophon as summarised by the catalogue and were not independently verified. The image is therefore a later copy after a self-portrait, kind historical_depiction (not a documented sitting). Crop and downscale from the 2000-pixel scan are disclosed in the attribution (original master 6678 x 8912 not downloaded; the 2000 x 2669 derivative was used and cropped, saved 835 x 1200, no upscaling). PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q384647 label 'Motoori Norinaga', description 'Japanese scholar and philosopher (1730-1801)', born 1730-06-21, died 1801-10-05; not in prod62.txt and no candidate file existed for slug motoori-norinaga. REGION east_asia (Japan). ERA early_modern. ZERO POLITICS: primary identity is a classical scholar and physician; the political and nationalist uses of his writing, his advice to the Kii domain on politics and economy, and the claims of Japan's supremacy are not scored or carded. VOCABULARY: occupations scholar and physician, fields literature, linguistics and religion, impactDomains literary, cultural and historical, tags specialist and mentor, archetype scholarly_specialist, each checked in both en.ts and ko.ts. KO NAME: Wikidata Korean label 모토오리 노리나가. DATES: the sources differ on his death (Wikidata 1801-10-05, Britannica 5 November, the museum 29 September of the lunar calendar); only the years 1730-1801 are used. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Motoori Norinaga' (https://www.britannica.com/biography/Motoori-Norinaga). READ: Britannica, the Encyclopedia of Shinto biography, the Encyclopedia of Shinto Kojikiden entry, the Norinaga Memorial Museum English page, the McLaughlin paper: five substantive sources plus Wikidata. PERSPECTIVES: general reference (Britannica), specialist institutional reference (Kokugakuin's Encyclopedia of Shinto, two entries), his own museum (self-interested), and a student-level secondary paper reporting the adversarial voice of Ueda Akinari. COUNTER-VOICES AND LIMITS: Ueda Akinari's criticism (from 1783) that he read the Kojiki too literally and recklessly and that his language and Japan-superiority claims were unsupported; Britannica and the Norinaga museum disagree on the size and duration of the Kojiki-den (49 or 44 volumes, 35 or 34 years). NOT OPENED: Matsumoto Shigeru's 1970 biography, Susan Burns's 'Before the Nation', Peter Nosco's studies, the Encyclopedia of Shinto pieces on mono no aware, Norinaga's own works and letters, the Japanese-language museum pages. SELF-REPORT: his own treatises (Kojiki-den, the Genji studies) are used only as the object described by others. VERY SPARSE PROFILE: five rows, none above 66, confidence 0.42-0.50. SELF-CALIBRATION (agent): top-risk rows reviewed: analytical_rigor (66/0.48 lowered to 60/0.42, see the row), creative_originality (kept), persistence (kept). HANDBACK62: {\"slug\": \"motoori-norinaga\", \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"initial_lead\": \"Norinaga self-portrait 1773\", \"final_portrait_source\": \"Kyoto University Museum / Kyoto University Rare Materials Digital Archive, record RB00033904, anonymous copy after the 61-year-old self-portrait, free reuse with attribution, https://rmda.kulib.kyoto-u.ac.jp/en/item/rb00033904\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"analytical_rigor\", \"old_score\": 66, \"old_confidence\": 0.48, \"new_score\": 60, \"new_confidence\": 0.42, \"reason\": \"the claim rests on an admiring museum and specialist summaries while the one adversarial source contests the rigour\"}], \"reviewed_kept\": [\"creative_originality\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "li-qingzhao",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Li Qingzhao",
+    "aliases": [
+      "Li Ch'ing-chao",
+      "Li Yi'an",
+      "Yi'an Jushi",
+      "Li Qing Zhao"
+    ],
+    "wikidataId": "Q464470",
+    "birthYear": 1084,
+    "deathYear": 1155,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_liqz_wikidata",
+      "kind": "wikidata",
+      "title": "Li Qingzhao (Q464470), verified live via the Wikidata API (2026-11-01): label 'Li Qingzhao', description 'Chinese Song Dynasty poet, known as the most talented woman in all ages', birth 19 March 1084 (also given as 1084), death 19 May 1155 (also given as 1151), Korean label 이청조, image a statue. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q464470"
+    },
+    {
+      "id": "src_liqz_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Li Qingzhao', read in full. CANONICAL SIGNIFICANCE SOURCE: calls her the greatest woman lyricist in the history of classical Chinese literature and the first major woman poet in a field long dominated by men; her colloquial language, striking imagery and subtle structure shaped later lyricism, especially in the Southern Song; two shi poems written at about 16 criticised a senior writer's reading of a monument; she helped compose the Jinshilu and after her husband's death completed it; her later lyrics turn from grief to quieter reminiscence. Encyclopedic summary; the praise is retrospective and the article notes no negative assessments.",
+      "url": "https://www.ebsco.com/research-starters/biography/li-qingzhao/"
+    },
+    {
+      "id": "src_liqz_womenworld",
+      "kind": "biography",
+      "title": "Barbara Bennett Peterson (ed.), 'Li Qingzhao (1083-c. 1151)', Women in World History: A Biographical Encyclopedia (Gale, via Encyclopedia.com), read in full: father tutored her at home; she first made her name with two shi poems answering a senior writer and was praised rather than chastised; with her husband she collected and catalogued inscriptions, books and works of art and began the Jinshilu; six volumes of poetry and seven of essays were recorded in the Song history but most were lost; she is credited with founding the restrained 'Yi'an' style of ci; dates and a possible second marriage are disputed ('a minority of scholars dispute' it). A popular biographical encyclopedia that quotes translated poems at length and romanticises in places; its narrative of her private life is not scored.",
+      "url": "https://www.encyclopedia.com/women/dictionaries-thesauruses-pictures-and-press-releases/li-qingzhao-1083-c-1151"
+    },
+    {
+      "id": "src_liqz_spp13",
+      "kind": "biography",
+      "title": "Jaosheng Wang, introduction to 'The Complete Ci-poems of Li Qingzhao: A New English Translation', Sino-Platonic Papers no. 13 (University of Pennsylvania, October 1989), introduction read in full: places her in the elegant restrained school of ci; says critics 'are prone to two extremes', some calling her the greatest ci writer China produced and others denying her a place among the major Song ci poets; credits her with a style of her own, the Yi'an style, imitated by later poets including Xin Qiji and Wang Shizhen; notes her refined everyday colloquialisms, her sparing use of classical allusion and her habit of comparing objects and animals to people. A translator's admiring introduction that also records the dispute over her rank; most of her writings are said to be lost.",
+      "url": "https://sino-platonic.org/abstracts/spp013_ci_poetry.html"
+    },
+    {
+      "id": "src_liqz_dashchenko",
+      "kind": "biography",
+      "title": "Hanna Dashchenko, 'The Genesis of Yi'an Style (易安體) in Medieval Chinese Poetry', Respectus Philologicus no. 41 (46), 2022, pp. 120-131 (Vilnius University), read through a full fetched summary: her 1108 Essay on Ci is described as the first theoretical treatise on ci in the Chinese tradition, arguing that ci is a genre of poetry by linking it to shi, and insisting that ci needs finer tonal distinctions than shi; her many changes to standard tone patterns may show dissatisfaction with the existing tone manuals; 1108 marks the end of her early period (1098-1108); her own ci collection was lost by the 14th century. Peer-reviewed scholarly article; it does not discuss reception or criticism of the essay.",
+      "url": "https://www.zurnalai.vu.lt/respectus-philologicus/article/view/24674/26169"
+    },
+    {
+      "id": "src_liqz_universalis",
+      "kind": "biography",
+      "title": "Chantal Chen-Andro, 'Li Qingzhao [Li Ts'ing-tchao] ou Li Yi'an (1081-apr. 1151)', Encyclopaedia Universalis (French), read through a full fetched summary: native of Jinan; the surviving ci collection Shu yu ci falls into poems written in Shandong and poems written in exile; her later poems are simpler and sparer; an accomplished musician; she wrote a short essay On ci to give the genre, which scholars looked down on, its due place; co-wrote the Jinshilu with her husband, a catalogue of about two thousand bronze and stone inscriptions. Independent French scholarly encyclopedia; a different date range (1081-1151) and no discussion of reception or dispute.",
+      "url": "https://www.universalis.fr/encyclopedie/li-qingzhao-li-ts-ing-tchao-ou-li-yi-an-li-yi-ngan-1081-apr-1151/"
+    },
+    {
+      "id": "src_liqz_egan",
+      "kind": "archive",
+      "title": "Ronald Egan (trans.), 'Afterword to Catalogue of Inscriptions on Metal and Stone', in The Works of Li Qingzhao (De Gruyter, 2019, ed. Anna M. Shields), headnote and the Afterword text read in full from the publisher's sample PDF hosted by the University of Warwick: Egan calls the Afterword, probably written in 1134, her most celebrated composition apart from a few lyrics, and says she later presented her husband's Catalogue to the court; he warns that the usual reading of it as a loving, nostalgic narrative is 'naive' because of the unstated aims she probably had, and his notes record points she leaves out. In the Afterword she describes collating editions, a numbered library with a borrowing log, a memory game over which book and page held a passage, sorting what to leave behind when fleeing south in 1127 and still travelling with fifteen carts of books, and the later loss of most of the collection. Scholarly translation: the Afterword itself is her own account (self-report); Egan's headnote and notes are the independent scholarly voice.",
+      "url": "https://warwick.ac.uk/fac/arts/modernlanguages/news/events/fallingskies/human/li_qingzhao_afterword_and_poems.pdf"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liqz_ebsco, src_liqz_spp13, src_liqz_dashchenko, src_liqz_womenworld | c.1098-1134 | scholarly encyclopedia + translator's introduction + peer-reviewed article + biographical encyclopedia] EBSCO says her colloquial language, striking imagery and subtle structure shaped later lyricism; the Sino-Platonic introduction says she evolved a new Yi'an style, refined everyday colloquialisms, used classical allusion sparingly and compared objects and animals to people, and Dashchenko calls her 1108 Essay on Ci the first theoretical treatise on ci. The Sino-Platonic introduction also records that some critics deny her a place among the major Song ci poets, so the judgement is disputed, and most of the praise is retrospective and about her own works. Pre-modern evidence: confidence is capped."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_liqz_ebsco, src_liqz_womenworld, src_liqz_dashchenko, src_liqz_universalis | c.1100-1108 | encyclopedias + peer-reviewed article] Two encyclopedias report that at about 16 she answered a senior writer's poem with two shi poems faulting his reading of a monument and was praised for it, and Dashchenko and Universalis describe her Essay on Ci as arguing that ci is a genre of poetry deserving a place that scholars denied it, with tone rules that differ from the standard manuals. The episode is told by later biographers and the essay's reception is not documented in the sources read. SELF-CALIBRATION (agent): reviewed and kept."
+    },
+    "detail_orientation": {
+      "score": 55,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_liqz_egan, src_liqz_ebsco | c.1103-1134 | scholarly translation of her own Afterword + encyclopedia] In the Afterword she describes collating editions and making corrected copies, a numbered library with a borrowing log, and a memory game over which book and page held a passage; EBSCO says she helped compose the Jinshilu and completed it after her husband's death. The detailed picture comes from her own narrative, which Egan says should not be read naively and whose omissions he notes, so it is self-report. SELF-CALIBRATION (agent): reviewed as a high-risk row; lowered from 58 / 0.42 to 55 / 0.38 because the specific behaviour rests on her own selectively told Afterword, with only a brief independent corroboration."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_liqz_egan, src_liqz_ebsco, src_liqz_womenworld | 1127-1134 | scholarly translation of her own Afterword + encyclopedias] In her Afterword she reports sorting and carrying fifteen carts of books south in 1127 and then losing most of the collection in the following years; EBSCO says she completed the Jinshilu afterwards and Egan says she later presented the Catalogue to the court. The effort to keep and finish the work is documented, but the vivid details are her own account and the outcome (most of the collection lost) is mixed. SELF-CALIBRATION (agent): reviewed as a high-risk row; lowered from 62 / 0.48 to 58 / 0.44 because the strongest detail is her own narrative and the collection was largely lost."
+    },
+    "cross_domain_range": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_liqz_ebsco, src_liqz_universalis, src_liqz_egan | c.1100-1134 | encyclopedias + scholarly translation] She wrote ci and shi poetry and prose, a short essay on the theory of ci, an Afterword to an epigraphic catalogue, helped compile that catalogue of about two thousand inscriptions, and is said to have been an accomplished musician. The breadth is documented by later reference works and Egan, but nothing in the sources shows how she moved between these fields."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이청조"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear, usable image found after one bounded retry. The lead's initial image (a Qing portrait in the Palace Museum, Beijing, with a Commons {{GFDL-self}} uploader claim) has no documented basis. The alternative, the Qing painting by Jiang Xun (1784-1821) on Commons, is public domain by age and the sitter is identified by its inscription, but the only file is 171 x 700 pixels (figure about 171 x 250, unusable without upscaling), it comes from a commercial gallery web page, and the Wuxi Museum holding is stated only by the uploader with no museum page or terms. Next step: obtain a high-resolution reproduction of the Jiang Xun scroll from the Wuxi Museum with a written statement of terms, or find a pre-1931 printed portrait plate with an item-level date; statue photographs are derivative works and were not considered."
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / HELD, as feared. The lead's initial image (Palace Museum, Beijing, Qing portrait 'Portrait of Li Qingzhao on a stone' attributed to Cui Hui, Commons file) has a Commons permission line {{GFDL-self}} that is an uploader's self-claim on a museum-held painting with no creator death date, no museum terms and no documented basis, so it is rejected. The lead's alternative, the Qing painting 'Small Portrait of Li Qingzhao' by Jiang Xun (1784-1821, Commons file 'Song dynasty poet Li Qingzhao.jpg', tagged PD-old by age, institution given as Wuxi Museum): the painter's dates make it public domain by age and the sitter is positively identified by the inscription on the painting itself (it names Li Qingzhao of Jinan and says it is a copy of Wang Yi's 1344 copy of an earlier portrait), BUT (1) the only available file is 171 x 700 pixels, a narrow strip in which the figure occupies about 171 x 250 pixels, far too small to use without upscaling, which is not allowed; (2) the file was taken from a commercial painting-gallery web page (xiexingcun.com), the 'Wuxi Museum' holding is stated only by the uploader and I found no museum page, accession number or museum terms of use for any higher-resolution copy; (3) it is a late copy of a copy, so kind would be historical_depiction in any case. After one bounded retry (Commons category and text search for other portraits; Met Museum and Cleveland open-access searches, which returned nothing for her; two web searches for a Wuxi Museum or other institutional high-resolution copy, which returned nothing) I HOLD. REASON LEAD WAS TOO OPTIMISTIC: the lead graded the alternative as PD by age but did not check the file size or the holder; both defeat it. NEXT STEP: obtain a high-resolution reproduction of the Jiang Xun scroll from the Wuxi Museum (or another institution holding a documented old portrait) together with a written statement of terms, or find a pre-1931 printed book plate of a traditional portrait of her on the Internet Archive or in a Harvard or Library of Congress digitised book with an item-level date. The statue photographs on Commons are modern sculptures (derivative works) and were not considered. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q464470 label 'Li Qingzhao', description 'Chinese Song Dynasty poet, known as the most talented woman in all ages', birth 1084-03-19 (also 1084), death 1155-05-19 (also 1151); not in prod62.txt and no candidate file existed for the slug. DATES: sources conflict (Wikidata 1084-1155; EBSCO and Women in World History 1083-c.1151; Universalis 1081-1151; the Sino-Platonic introduction 1084-c.1155), so 1084 and 1155 follow Wikidata with the dispute recorded here. REGION east_asia. ERA medieval. ZERO POLITICS: her primary identity is a poet and prose writer; her poems and petitions on court factions, her father's exile, the Jin invasion and any political satire are not scored. PRIVATE LIFE: her marriages, widowhood and bereavement are not used to infer any trait; the second-marriage story is disputed and is not used. VOCABULARY: occupations poet and writer, field literature, impactDomains literary, cultural and historical, tag innovator, archetype creative_creator, all existing in en.ts and ko.ts. KO NAME: Wikidata Korean label 이청조. CANONICAL SIGNIFICANCE SOURCE: EBSCO Research Starters, 'Li Qingzhao' (https://www.ebsco.com/research-starters/biography/li-qingzhao/); Britannica was blocked (HTTP 403). READ: EBSCO, Women in World History (Gale), the Sino-Platonic Papers introduction, Dashchenko 2022 (via a full fetched summary), Universalis (via a full fetched summary) and Egan's translation of the Afterword with its headnote and notes: six substantive sources plus Wikidata (the Wikipedia article was read for orientation and is not cited). PERSPECTIVES: scholarly encyclopedia (EBSCO), biographical encyclopedia (Gale), translator's introduction recording the dispute over her rank (Sino-Platonic Papers), peer-reviewed scholarship (Dashchenko), independent French encyclopedia (Universalis), the scholarly translator's critical headnote and her own Afterword (Egan). The substantive non-self behavioural source is Egan's headnote and notes plus EBSCO and Gale; the Afterword is self-report and is never the sole support for a row. COUNTER-VOICES AND LIMITS: the Sino-Platonic introduction says some critics deny her a place among major Song ci poets; Egan calls the common reading of the Afterword naive; Gale notes the second marriage is disputed. NOT OPENED: Britannica (403), the Poetry Foundation page (404), the Stanford sourcebook PDF (unreachable), the ASIANetwork lesson-plan article on who did what in the Afterword (403), Egan's full volume and monograph, Hu Pin-ch'ing's 1966 study, the Chinese-language scholarship, her Essay on Ci text itself, and the museum record for the Jiang Xun painting. EXCLUSIONS: the 'most talented woman in all ages' Wikidata description and nicknames, the erotic and bereavement poems, the political poems, her marital history, the number of surviving poems (not stated in any source I read), and the unattributed claim that she wrote the first detailed critique of metrics. VERY SPARSE PROFILE for a pre-modern subject: five rows, none above 66, confidence 0.38-0.50, the Afterword treated as self-report and most of her writings lost. SELF-CALIBRATION (agent): top-risk rows reviewed: detail_orientation (58/0.42 lowered to 55/0.38), persistence (62/0.48 lowered to 58/0.44), independent_thinking (kept), creative_originality (kept: disputed rank is already reflected in confidence 0.50). HANDBACK62: {\"slug\": \"li-qingzhao\", \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"initial_lead\": \"Qing Palace Museum portrait, GFDL self-claim\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The lead's alternative (Jiang Xun painting, public domain by age) was viable on the artist's dates, and the inscription positively identifies the sitter, but the only available file is 171 x 700 pixels (figure about 171 x 250, unusable without upscaling), it was copied from a commercial gallery web page with the Wuxi Museum holding stated only by the uploader, and no museum page, accession number or terms were found; the initial lead was a GFDL self-claim by an uploader on a museum-held painting with no documented basis.\", \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"detail_orientation\", \"old_score\": 58, \"old_confidence\": 0.42, \"new_score\": 55, \"new_confidence\": 0.38, \"reason\": \"the specific behaviour rests on her own selectively told Afterword, which the translator says should not be read naively, with only a brief independent corroboration\"}, {\"attribute\": \"persistence\", \"old_score\": 62, \"old_confidence\": 0.48, \"new_score\": 58, \"new_confidence\": 0.44, \"reason\": \"the strongest detail is her own narrative and the collection was largely lost, so the outcome is mixed\"}], \"reviewed_kept\": [\"independent_thinking\", \"creative_originality\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maria-mitchell",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Maria Mitchell",
+    "aliases": [
+      "Maria Mitchell (astronomer)"
+    ],
+    "wikidataId": "Q239229",
+    "birthYear": 1818,
+    "deathYear": 1889,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "teacher"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "self_taught",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mitchell_wikidata",
+      "kind": "wikidata",
+      "title": "Maria Mitchell (Q239229), verified live via the Wikidata API (2026-11-01): label 'Maria Mitchell', description 'American astronomer', born 1 August 1818, died 29 June 1889 (other sources give 28 June), citizenship United States, Korean label 마리아 미첼, images include the 1851 portrait by H. Dassell and the Nantucket Historical Association scan. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q239229"
+    },
+    {
+      "id": "src_mitchell_vassar",
+      "kind": "institution",
+      "title": "Vassar College Encyclopedia, 'Maria Mitchell' (original faculty biography), read in full. CANONICAL SIGNIFICANCE SOURCE: one of the first professors hired for the new Vassar College, sought by Matthew Vassar to lend luster to the faculty; discovered a telescopic comet from Nantucket in 1847 and was awarded the Danish king's gold medal; first woman elected to the American Academy of Arts and Sciences (1848) and the American Association for the Advancement of Science (1850); observatory with a 12-inch Fitz telescope; her students did original research, were roused at night to observe, and their findings were published with hers; 1869 eclipse expedition to Burlington, Iowa with seven students; her solar photographs rediscovered in 1997; fund-raising in 1886 that saved the Observatory ($30,000); students Whitney, Maury and Ladd-Franklin; retired in 1888 and died in 1889. Institutional history written by the college; sympathetic in tone.",
+      "url": "https://vcencyclopedia.vassar.edu/faculty/original-faculty/maria-mitchell/maria-mitchell-biography/"
+    },
+    {
+      "id": "src_mitchell_salary",
+      "kind": "institution",
+      "title": "Vassar College Encyclopedia, 'Maria Mitchell Salary Dispute', read in the opening sections (about half of the page): drawing on Henry Albers's book 'Maria Mitchell: A Life in Journals and Letters', it says that in 1865 she was paid $800 plus rooms and board while professors' salaries were fixed at $2,000, that in May 1870 she and Alida Avery wrote the president asking for equal pay, that the Executive Committee found 'no substantial difference' in their emoluments, that she wrote again in May 1871 asking that salaries be equal and paid in the same way and that the question go to the trustees, and that the Board of Trustees resolved in June 1871 that both women would receive $2,500. Quotes her letters. Institutional history with archival quotation.",
+      "url": "https://vcencyclopedia.vassar.edu/faculty/original-faculty/maria-mitchell/maria-mitchell-salary-dispute/"
+    },
+    {
+      "id": "src_mitchell_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Mitchell, Maria' (Celeste DeRoche, American Women Writers; plus a second short entry by Gay A. Ragan, Mathematics), read in full: Quaker upbringing and a father who made astronomical observations for the Coast Survey; self-study of Bowditch, Hutton, Lagrange, Laplace, Legendre and Gauss; her own school in 1835; librarian at the Nantucket Athenaeum from 1836; the comet of 1 October 1847, the Danish king's gold medal and election to the American Academy (1848, proposed by Louis Agassiz) and the AAAS (1850); 19 years as a computer for the American Ephemeris and Nautical Almanac; the 1857 European trip; professor and observatory director at Vassar from 1865, where she 'made a deliberate choice' to commit to teaching and, because she was a devoted teacher, her research time was 'sharply limited'; 'not a theoretician, but rather a teacher and observer'; election to the American Philosophical Society in 1869; retired 1888. The two entries differ on the librarian start date (1836 or 1838). Encyclopedic reference.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/astronomy-biographies/maria-mitchell"
+    },
+    {
+      "id": "src_mitchell_nps",
+      "kind": "institution",
+      "title": "U.S. National Park Service, 'Maria Mitchell, Astronomer' (people page, last updated 2019), read in full: opened her own school in 1835 and admitted non-white students in a community with a segregated public school; first librarian of the Nantucket Athenaeum for 20 years; the comet of 1 October 1847 and an award from King Frederick VI of Denmark; only the third woman worldwide to discover a comet; first woman Fellow of the American Academy of Arts and Sciences (1848); computed the positions of Venus for the Nautical Almanac Office; at Vassar from 1865 she found she was paid less than younger male professors, insisted on an increase and received it; succession of women directors of the observatory. Government educational page.",
+      "url": "https://www.nps.gov/people/maria-mitchell.htm"
+    },
+    {
+      "id": "src_mitchell_psm",
+      "kind": "archive",
+      "title": "Popular Science Monthly, volume 50 (1896-1897), 'Sketch of Maria Mitchell' (pp. 544-551, Internet Archive scan), read in full: a period biographical sketch quoting Phebe Mitchell Kendall's 1896 'Life, Letters and Journals' and her diary: nightly 'sweeping' of the sky from the housetop; the comet of 1 October 1847, seen by Father de Vico at Rome on 3 October and by others later, with her priority generally acknowledged but her claim for the Danish medal pressed through Edward Everett and decided by Schumacher; Venus tables for the Nautical Almanac from 1849 for 19 years; her 1854 diary entry admitting that she hesitated to announce a comet and that Van Arsdale reported it first; sixteen hours of steady work in a single day recorded in her diary; her teaching methods and her saying that astronomy that is not mathematical 'is not astronomy at all'. Period secondary source quoting her private writing; admiring in tone, so the rows built on it are capped.",
+      "url": "https://archive.org/details/popularsciencemo50newy"
+    },
+    {
+      "id": "src_mitchell_space",
+      "kind": "press",
+      "title": "Space.com, 'Maria Mitchell: Astronomer & Feminist' (Elizabeth Howell), read in full: the comet was initially credited to the Italian astronomer Francesco de Vico, who reported it first, and it was later established that Mitchell had seen it earlier; she found her new fame 'irritating' because it made work difficult (per the Maria Mitchell Association); a Vassar observatory with a 12-inch telescope; her solar-photograph apparatus; the Association for the Advancement of Women (not scored). Popular science journalism; used for the priority nuance.",
+      "url": "https://www.space.com/34709-maria-mitchell-astronomer-feminist.html"
+    },
+    {
+      "id": "src_mitchell_mma",
+      "kind": "institution",
+      "title": "Maria Mitchell Association, Nantucket, 'Historic Photo Collection' page (live page opened 2026-11-01), read for its reproduction terms only: lists its archive images of Maria Mitchell including the c. 1851 portrait by Herminia B. Dassel, and says use requires a written request to the curator, a Publication and Use Agreement, payment of fees and a one-time, non-transferable licence per image. Portrait-rights record only; not used for any row.",
+      "url": "https://www.mariamitchell.org/research-and-collections/maria-mitchell/historic-photo-collection"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mitchell_psm, src_mitchell_nps, src_mitchell_encyclopedia, src_mitchell_vassar | 1836-1888 | period biography quoting her diary, government and encyclopedic reference] The 1897 sketch, quoting her family biographer, says she spent every clear evening on the housetop 'sweeping' the heavens, and it records a diary day of sixteen hours of steady work; she computed the Venus tables for the Nautical Almanac for 19 years while working at the Athenaeum (NPS: 20 years as librarian); Encyclopedia.com quotes her saying she was 'born of only ordinary capacity, but of extraordinary persistency'. Much of this is her own diary or an admiring family biographer retold in a period sketch, so the row is firm but not high. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 72 / 0.56 to 68 / 0.52 because the persistency quote is her own and the housetop routine and diary day come from an admiring family biographer through one period sketch."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mitchell_encyclopedia, src_mitchell_psm, src_mitchell_vassar | 1830s-1880s | encyclopedic reference, period biography, college history] Encyclopedia.com says her formal schooling ended at sixteen and that she worked through Bridge's Conic Sections, Hutton's Mathematics and Bowditch's Practical Navigator and read Lagrange, Laplace and Legendre in French and Gauss's Theoria motus; the 1897 sketch says that in the Athenaeum she found and read Bowditch's Laplace and Gauss in Latin; the Vassar history says she built an apparatus for photographing the sun. The reading list is from reference works and her own account rather than an independent test of her skill, so confidence stays moderate."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mitchell_salary, src_mitchell_nps | 1865-1871 | college history quoting her letters, government page] The Vassar Encyclopedia records that she and Alida Avery wrote the president in May 1870 asking for equal pay with the male professors, that the committee replied there was no substantial difference, and that in May 1871 she wrote again, asked that salaries be equal and paid in the same way, and asked that the matter go to the trustees; the board resolved in June 1871 to pay them $2,500. NPS says she insisted on an increase and received it. The scored behaviour is limited to her own pay negotiation with her employer (workplace conduct) and her letters are quoted directly, but it is one episode, and her later suffrage and women's-rights activity is not scored."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mitchell_psm, src_mitchell_encyclopedia, src_mitchell_space | 1847-1875 | period biography quoting her diary, encyclopedic reference, journalism] The 1897 sketch quotes her telling her father to say nothing about the comet until they had observed it long enough to be tolerably sure, and records her diary of working out comet places by hand, noting the corrections she had omitted and that her results did not agree with those of the observatories; it also quotes her saying that astronomy that is not mathematical is not astronomy. Encyclopedia.com calls her an observer and teacher rather than a theoretician and says her teaching reduced her research time; Space.com notes the comet was first reported by de Vico. Careful observer and calculator, but the sources are summaries and her own published research is small."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mitchell_vassar, src_mitchell_encyclopedia, src_mitchell_psm, src_mitchell_nps | 1830s-1888 | college history, encyclopedic reference, period biography, government page] The Vassar Encyclopedia says she published her students' findings with her own, took seven students to observe the 1869 eclipse in Iowa and later five students to the 1878 eclipse in Colorado, and that her students used the telegraph instrument given by Samuel Morse; the encyclopedia and period sketch say she and her father made thousands of observations together for the Coast Survey; NPS lists her successors Mary Whitney and others as her former students and assistants. Sustained joint work, but the evidence is institutional praise and family reminiscence, and her students' own accounts were not read."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/maria-mitchell-popular-science-monthly-1897.jpg",
+    "width": 968,
+    "height": 1200,
+    "source": "Engraved oval portrait of Maria Mitchell, the unnumbered plate captioned 'Maria Mitchell' printed with the 'Sketch of Maria Mitchell' in Appletons' Popular Science Monthly, volume 50 (New York, 1896-1897), Internet Archive scan of the volume (item popularsciencemo50newy), page image extracted on Wikimedia Commons as 'PSM V50 D450 Maria Mitchell.jpg' (the Commons description text is wrong, but the file is this plate). The engraver is not named and the source photograph is not stated, so this is a later engraved depiction rather than a documented sitting. The file is the 1592 x 1974 scan downscaled to 968 x 1200 with no upscaling.",
+    "license": "Public domain (published in the United States in 1896-1897)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Engraved portrait of Maria Mitchell in Appletons' Popular Science Monthly, vol. 50, New York, 1896-1897 (Internet Archive scan), public domain by US publication before 1931",
+    "attributionUrl": "https://archive.org/details/popularsciencemo50newy",
+    "creator": "Engraver not named; published in Appletons' Popular Science Monthly",
+    "date": "1896-1897 (published)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:PSM_V50_D450_Maria_Mitchell.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마리아 미첼"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / LEAD REJECTED, REPLACED. The initial lead, the Nantucket Historical Association Flickr scan of 2003 (Commons 'MariaMitchell.jpg' and 'Maria Mitchell theb3534.jpg', tagged only 'no known restrictions' and a generic US public-domain tag), gives no creator, date or basis for the photograph itself. The Dassel path was also checked: the c. 1851 portrait is by Herminia Borchard Dassel (1821-1857 on Commons), a painter who died in 1857, so the painting is clearly public domain by age, but the only copies are held by the Maria Mitchell Association, whose live Historic Photo Collection page requires a written request, a Publication and Use Agreement, fees and a one-time non-transferable licence for its images; the Commons copy is only 330 x 389 pixels, and a Commons tag cannot override an institution's stated terms, so I did not use an MMA-sourced copy (the lead may revisit this if the MMA grants permission or a high-resolution copy from a published pre-1931 source is found). Replacement used: the engraved portrait printed with the 'Sketch of Maria Mitchell' in Popular Science Monthly volume 50 (New York, 1896-1897): I confirmed in the Internet Archive full text of that volume that the plate captioned 'Maria Mitchell' immediately precedes the sketch (pp. 544-551), and a work published in the United States before 1931 is in the public domain; the engraver and source photograph are not named, so kind is historical_depiction. The saved file is the Commons extraction of the plate (original 1592 x 1974) downscaled to 968 x 1200. WHY THE LEAD FAILED: a Flickr 'no known restrictions' label has no creator or date, and the museum-held Dassel painting copies carry the holder's own use fees, although the painting itself is public domain. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q239229 label 'Maria Mitchell', description 'American astronomer'; not in prod62.txt and no candidate file existed for slug maria-mitchell. REGION north_america. ERA 19th_century. ZERO POLITICS: primary identity is astronomer and teacher; her work for the Association for the Advancement of Women, suffrage and anti-slavery activity and her speeches are NOT scored, and the salary episode is scored only as her own workplace pay negotiation. VOCABULARY: occupations astronomer and teacher, fields natural_science and education (astronomy has no field label), impactDomains scientific, educational and historical, tags self_taught and mentor, archetype scientific_explorer, all with English and Korean labels already in the project. KO NAME: Wikidata Korean label 마리아 미첼. CANONICAL SIGNIFICANCE SOURCE: Vassar College Encyclopedia, 'Maria Mitchell' (https://vcencyclopedia.vassar.edu/faculty/original-faculty/maria-mitchell/maria-mitchell-biography/). READ: Vassar biography (full), Vassar salary-dispute page (about half), Encyclopedia.com (full), NPS (full), Popular Science Monthly 1897 sketch (full), Space.com (full), MMA photo page (terms only), plus Wikidata for orientation: six substantive sources. PERSPECTIVES: college history, government educational page, encyclopedic reference, period biography quoting her diary, journalism. COUNTER-VOICES AND LIMITS: Space.com (de Vico reported the comet first), PSM and her own diary (hesitated in 1854 and was beaten by Van Arsdale; failed registry rules for the medal), Encyclopedia.com (teaching sharply limited her research; observer rather than theoretician), the Vassar salary page (the trustees at first denied any difference). DATE AND FACT DISCREPANCIES: death date 28 or 29 June 1889; librarian start 1836 or 1838; the Danish king named as Frederick VI (NPS), Christian VIII (HAO page, not relied on) or simply 'the King of Denmark' (Vassar), so the cards say 'the King of Denmark'. NOT OPENED: Kendall's 1896 'Life, Letters and Journals' and Albers's 2001 book (only through quotation), Helen Wright's 1949 biography, Smithsonian and Library of Congress blog posts, the HAO page (derivative of Wikipedia, not used), and her own scientific papers. LIVING-SUBJECT RULES N/A. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (72/0.56 lowered to 68/0.52, see rationale), social_assertiveness (kept; documented from quoted letters, scored only as workplace conduct), mastery_orientation (kept). HANDBACK62: {\"slug\": \"maria-mitchell\", \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"initial_lead\": \"Nantucket Historical Association Flickr photo (2003) of Maria Mitchell (Commons MariaMitchell.jpg)\", \"final_portrait_source\": \"Engraved portrait plate in Appletons' Popular Science Monthly vol. 50 (New York, 1896-1897), Internet Archive item popularsciencemo50newy, extracted on Commons as PSM V50 D450 Maria Mitchell.jpg, https://archive.org/details/popularsciencemo50newy\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 72, \"old_confidence\": 0.56, \"new_score\": 68, \"new_confidence\": 0.52, \"reason\": \"the persistency quote is her own and the housetop routine and diary day come from an admiring family biographer through one period sketch\"}], \"reviewed_kept\": [\"social_assertiveness\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

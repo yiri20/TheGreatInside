@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nadine-gordimer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Nadine Gordimer",
+    "aliases": [
+      "Nadine Gordimer"
+    ],
+    "wikidataId": "Q47619",
+    "birthYear": 1923,
+    "deathYear": 2014,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "ZA"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gordimer_wikidata",
+      "kind": "wikidata",
+      "title": "Nadine Gordimer (Q47619), verified live via the Wikidata API (2026-11-01): label 'Nadine Gordimer', description 'South African writer (1923-2014)', born 1923-11-20, died 2014-07-13, citizen of South Africa, occupations include writer and novelist, Korean label 네이딘 고디머. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q47619"
+    },
+    {
+      "id": "src_gordimer_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Nadine Gordimer' (full article read, about 600 words). CANONICAL SIGNIFICANCE SOURCE: South African novelist and short-story writer whose major theme was exile and alienation, winner of the Nobel Prize for Literature in 1991; first story published at 15, first book Face to Face (1949), first novel The Lying Days (1953), a clear, controlled and unsentimental style that became her hallmark; The Conservationist joint winner of the 1974 Booker Prize; later novels Burger's Daughter, July's People, A Sport of Nature, My Son's Story, The House Gun, The Pickup, Get a Life (2005) and No Time like the Present (2012).",
+      "url": "https://www.britannica.com/biography/Nadine-Gordimer"
+    },
+    {
+      "id": "src_gordimer_nobel",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Nadine Gordimer - Facts' and 'Nadine Gordimer - Biographical' (Nobel Foundation; two pages read in full; the biographical note is from 1991 with a 2005 addendum). Prize motivation: 'who through her magnificent epic writing has been of very great benefit to humanity'; began writing at nine, first work published at 15; The Conservationist (1974) was her international breakthrough; 14 novels, 11 short-story collections and non-fiction by 2005. The Foundation's own account, so institutionally admiring.",
+      "url": "https://www.nobelprize.org/prizes/literature/1991/gordimer/facts/"
+    },
+    {
+      "id": "src_gordimer_nobel_speech",
+      "kind": "award_body",
+      "title": "Swedish Academy presentation speech, Nobel Prize in Literature 1991 (NobelPrize.org; read in full, about 650 words). Admiring institutional assessment: she writes as if censorship did not exist and has seen her books banned time after time, is absorbed by individual lives through which the historical process crystallises, feels political responsibility but does not let it affect her as a writer (her texts are 'not agitatorial, not propagandistic'), and shows 'powers of precise wording' in her short stories as well as her novels.",
+      "url": "https://www.nobelprize.org/prizes/literature/1991/ceremony-speech/"
+    },
+    {
+      "id": "src_gordimer_gale",
+      "kind": "biography",
+      "title": "'Gordimer, Nadine (20 November 1923 - )', a Gale reference biography with critical-literary framing read at Encyclopedia.com (about 12,000 words, read in part: the opening overview, the career narrative and the section on the 1980s-2000s). Scholarly survey: first story at 13 (children's) and first adult story two years later; her observation and ear for dialogue; the middle path between conservative white readers who resented her analyses and 'committed' readers who regarded as trivial her insistence that art should not become propaganda; the change from a neutral and ironic early mode to insistent commitment in the 1980s and to a more emblematic manner after 1990; the novel None to Accompany Me called somewhat dated; ongoing range through Get a Life. Passages on her childhood, parents, health and marriages were read and are not used.",
+      "url": "https://www.encyclopedia.com/arts/culture-magazines/gordimer-nadine-20-november-1923"
+    },
+    {
+      "id": "src_gordimer_ca",
+      "kind": "biography",
+      "title": "'Gordimer, Nadine 1923-', Contemporary Authors, New Revision Series (Gale; read at Encyclopedia.com, about 7,000 words). Reference entry with a review-quotation 'Sidelights' section: admirers (Geismar, Berkley, Kakutani) and a critical voice (Judith Chettle) who says she was much less incisive about Afrikaner supporters of the regime and least successful in describing black characters, and that her post-apartheid characters can be 'more articulate vehicles for ideas than vivid creations'; lists her output, periodical and screenplay work, translations into 25 languages and university teaching. COUNTER-VOICE source.",
+      "url": "https://www.encyclopedia.com/arts/educational-magazines/gordimer-nadine-1923"
+    },
+    {
+      "id": "src_gordimer_pen",
+      "kind": "institution",
+      "title": "PEN America, 'Nadine Gordimer: A Life Well Lived (1923-2014)', 14 July 2014 (read in full, about 400 words). Tribute from the writers' freedom-of-expression organisation: more than 40 novels, plays, short-story and essay collections, four works banned under apartheid censorship laws, and that she continued to write. Tribute genre, so admiring and not independent of the Academy's framing.",
+      "url": "https://pen.org/nadine-gordimer-a-life-well-lived-1923-2014/"
+    },
+    {
+      "id": "src_gordimer_parisreview",
+      "kind": "press",
+      "title": "Jannika Hurwitt, 'Nadine Gordimer, The Art of Fiction No. 77', The Paris Review 88 (Summer 1983) (only the opening, freely available portion was read; the rest is behind a subscription wall). Self-report interview about her childhood and first trip abroad; not used for any trait row.",
+      "url": "https://www.theparisreview.org/interviews/3060/the-art-of-fiction-no-77-nadine-gordimer"
+    },
+    {
+      "id": "src_gordimer_massan",
+      "kind": "press",
+      "title": "Svenska Massan (Swedish Exhibition and Congress Centre) press release 'Africa in focus at Goteborg Book Fair', 1 July 2010 (read in full, about 700 words): lists the South African Nobel laureate Nadine Gordimer among the more than 70 guests of the 2010 fair (held 23-26 September 2010). Used only to corroborate the setting of the portrait photograph, not for any trait row.",
+      "url": "https://www.mynewsdesk.com/se/svenska_massan/pressreleases/africa-in-focus-at-goeteborg-book-fair-433251"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gordimer_brit, src_gordimer_nobel, src_gordimer_gale, src_gordimer_nobel_speech, src_gordimer_pen | 1937-2012 | reference + award body + scholarly biography + writers' organisation] She published fiction from her teens (the sources give 13 or 15 for the first story), and by 2005 had 14 novels and 11 short-story collections, with a final novel in 2012; several of her books were banned under the apartheid censorship laws (PEN says four works; the Gale biography says A World of Strangers was banned in South Africa for twelve years), and the Swedish Academy says she wrote as if censorship did not exist; she kept publishing. The long output and continued publication after bans are documented in several sources; only the output and its continuity are scored, not any political activity. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.62 to 68 / 0.54 because six decades of publication shows output rather than documented working perseverance, and the evidence is reference entries and tributes."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gordimer_gale, src_gordimer_nobel_speech, src_gordimer_ca | 1950s-2000s | scholarly biography + award body + review quotations] The Gale biography says that throughout her career she had to steer a middle path between conservative white readers who resented her analyses and committed readers who regarded as trivial or indulgent her insistence that art should not become propaganda; the Swedish Academy says she feels political responsibility but will not let it affect her as a writer, and that her texts are not agitatorial or propagandistic; a critic quoted in Contemporary Authors says she was weaker on some of the groups she depicted. The stance on the relation of art to polemic is documented and attributed by independent commentators, but the Academy's wording is admiring and the 'insistence' also comes from her own repeated statements, so confidence is moderate."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gordimer_brit, src_gordimer_nobel_speech, src_gordimer_gale, src_gordimer_ca | 1949-2005 | reference + award body + scholarly biography + review quotations] Britannica calls her style clear, controlled and unsentimental, the Swedish Academy cites her 'powers of precise wording', the Gale biography says the accuracy of her observations and her ear for dialogue have always been noteworthy, and Michiko Kakutani (quoted in Contemporary Authors) says she mapped her society with 'passion and precision'. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.56 to 66 / 0.50 because every source describes the finished prose in admiring terms and none documents her working habits or revision practice, so the trait is inferred from the style."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gordimer_gale, src_gordimer_ca, src_gordimer_brit | 1950s-2012 | scholarly biography + review quotations + reference] The Gale biography traces a change from the neutral and ironic manner of her early and middle work to a committed tone in the 1980s and to a more emblematic manner after 1990 as South Africa changed, and says her later fiction applies what she learned in South Africa to wider contemporary issues; Kakutani (quoted in Contemporary Authors) says her work charts her evolving consciousness and 'an early lyricism has given way to an increased preoccupation with ideas'; Britannica notes that Get a Life (2005) took up environmental issues. The shifts are documented but are described by critics, some of whom judge the later work thinner, so the signal is of change over time more than of skilful adjustment."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "네이딘 고디머"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/nadine-gordimer-oberger-2010.jpg",
+    "width": 900,
+    "height": 1200,
+    "source": "Photograph of Nadine Gordimer at the Goteborg Book Fair on 24 September 2010 (aged 86), taken and uploaded by the Swedish Wikimedia photographer Bengt Oberger (Commons user Boberger) as his own work and released by him under CC BY 3.0 on the Wikimedia Commons file page 'File:Nadine Gordimer 01.JPG' (current version cropped and levels-adjusted by other Commons editors: 1,104 x 1,472 pixels). Rights basis: creator and uploader are the same person; he is an established Commons contributor (account since 2007, more than 15,000 edits, autopatrolled, whose user page describes taking portrait photographs of authors at the Goteborg Book Fair for Wikimedia Sweden); the licence statement is first-party on the file page, with no deletion notice, no conflicting source licence and no institutional claim. Identity is corroborated independently: the fair's organiser, Svenska Massan, listed Gordimer as a guest of the 2010 Africa theme (press release of 1 July 2010; the fair ran 23-26 September 2010), and the Commons file is dated within those days. Limits: I could not independently confirm the photographer's identity beyond the Commons account, EXIF data were stripped from the current version, and no second licensing route (agency or institution) was found; the licence rests on the photographer's own statement. Attribution required: 'Photo: Bengt Oberger, CC BY 3.0'. File used: the current Commons version downscaled from 1,104 x 1,472 to 900 x 1,200 pixels (no upscaling, no further cropping).",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Photo: Bengt Oberger (Boberger), CC BY 3.0, via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Nadine_Gordimer_01.JPG",
+    "creator": "Bengt Oberger",
+    "date": "2010-09-24",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Nadine_Gordimer_01.JPG"
+  },
+  "provenance": {
+    "createdAt": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-11-01T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED with caveats: the lead's Bengt Oberger photograph is used (it was taken at the Goteborg Book Fair on 24 September 2010, not at a Nobel event); creator-licensed CC BY 3.0 by an established Commons photographer, identity corroborated by the fair organiser's guest list; the single-route limitation noted by the lead remains (no agency or institutional second path found), recorded in portrait.source. PREFLIGHT: QID VERIFIED LIVE (2026-11-01) Q47619 label 'Nadine Gordimer', description 'South African writer (1923-2014)', born 1923-11-20, died 2014-07-13; no production (prod62.txt) or candidate slug/QID collision. REGION sub_saharan_africa (South Africa; precedents miriam-makeba, christiaan-barnard). ERA 20th_century (major work 1950s-1990s). ZERO POLITICS: her anti-apartheid activism, ANC contacts, public statements and the Congress of South African Writers are not scored; her primary identity is novelist and short-story writer (Britannica, Nobel Foundation). Books banned under censorship laws appear in persistence only as an obstacle to continuing to publish. VOCABULARY: occupation writer; field literature; tags prolific, nobel_laureate; archetype independent_creator; impact domains literary, cultural (all present in en.ts and ko.ts). KOREAN NAME: Wikidata label 네이딘 고디머 (taken from Wikidata). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Nadine Gordimer' (https://www.britannica.com/biography/Nadine-Gordimer), read in full. READ: Britannica; Nobel Foundation facts and biographical pages; Swedish Academy presentation speech; Gale reference biography (partly); Contemporary Authors entry with review quotations; PEN America tribute; Paris Review interview (opening portion only); Svenska Massan press release. PERSPECTIVES: reference encyclopedia, award body (admiring), scholarly reference biography, review quotations including a critical reviewer, writers' organisation (admiring). COUNTER-VOICES: Judith Chettle and the Gale biography's remarks on later work and on the two audiences, both inside reference entries; no stand-alone critical study was opened. NOT OPENED: the New York Times and Guardian obituaries (403/404), Paris Review remainder (paywall), Conversations with Nadine Gordimer, Cooke's and other critical monographs, the Mail and Guardian 2010 article (page did not load), her essays and novels. SELF-REPORT SEPARATION: her own statements reach us only through the Gale entry and the Academy; no row rests on them alone. EXCLUSIONS (hard rule): childhood, parents, her mother's decisions, her health and heart condition, marriages and family are not used and no trait is inferred from them. SELF-CALIBRATION (agent): top-risk rows reviewed: detail_orientation (70/0.56 lowered to 66/0.50), independent_thinking (kept: attributed by independent commentators in two reference entries), persistence (kept: output, bans and continued publication are documented in five sources). HANDBACK62: {\"slug\": \"nadine-gordimer\", \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"initial_lead\": \"Bengt Oberger photograph at Nobel event 2010 (CC BY 3.0)\", \"final_portrait_source\": \"Bengt Oberger (Boberger), photograph of Nadine Gordimer at the Goteborg Book Fair, 24 September 2010, CC BY 3.0, Wikimedia Commons File:Nadine Gordimer 01.JPG, https://commons.wikimedia.org/wiki/File:Nadine_Gordimer_01.JPG\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"detail_orientation\", \"old_score\": 70, \"old_confidence\": 0.56, \"new_score\": 66, \"new_confidence\": 0.50, \"reason\": \"every source describes the finished prose in admiring terms and none documents working habits, so the trait is inferred from style\"}], \"reviewed_kept\": [\"independent_thinking\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.62 to 68 / 0.54 because six decades of publication shows output rather than documented working perseverance, and the evidence is reference entries and tributes."
+  }
+}
