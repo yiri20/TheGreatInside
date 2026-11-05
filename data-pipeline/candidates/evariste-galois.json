@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "evariste-galois",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Évariste Galois",
+    "aliases": [
+      "Evariste Galois"
+    ],
+    "wikidataId": "Q7091",
+    "birthYear": 1811,
+    "deathYear": 1832,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician"
+    ],
+    "fieldIds": [
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "prodigy",
+      "theorist",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_galois_wikidata",
+      "kind": "wikidata",
+      "title": "Évariste Galois (Q7091), verified live via the Wikidata API (2026-11-02): label 'Évariste Galois', description 'French mathematician (1811-1832)', born 25 October 1811, died 31 May 1832, Korean label 에바리스트 갈루아. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7091"
+    },
+    {
+      "id": "src_galois_taton",
+      "kind": "biography",
+      "title": "René Taton, 'Galois, Évariste', Complete Dictionary of Scientific Biography (hosted on Encyclopedia.com), read in full. CANONICAL SIGNIFICANCE SOURCE: a body of work under a hundred pages that gives 'a definitive answer' to when an algebraic equation is solvable by radicals; by tying the question to the group of the equation (an irreducible equation of prime degree is solvable only if its group is solvable) he helped lay one of the foundations of modern algebra; his May 1829 results went to Cauchy, who asked him to revise in light of Abel; the February 1830 prize memoir was lost on Fourier's death; Poisson's 1831 report judged part of the results to be in Abel's posthumous papers and the rest incomprehensible; Liouville announced the solution to the Academy in September 1843 and published the memoir in the Journal de mathématiques in October-November 1846; the article also credits 'Galois imaginaries' and results on elliptic and abelian integrals. Standard scholarly reference; its praise is retrospective.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/mathematics-biographies/evariste-galois"
+    },
+    {
+      "id": "src_galois_mactutor",
+      "kind": "biography",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Évariste Galois' biography, read in full: his schooling at Louis-le-Grand where the director of studies wrote 'it is the passion for mathematics which dominates him' and Vernier reported 'intelligence, marked progress but not enough method'; the teacher Louis Richard's remark that he 'works only in the highest realms of mathematics'; his first paper on continued fractions (1829); submissions of 1829, 1830 and January 1831 to the Academy (the first two lost); two failed entrance examinations for the École Polytechnique, whose examiner called him 'sometimes obscure in expressing his ideas' but showing 'a remarkable spirit of research'; Poisson's rejection ('neither sufficiently clear nor sufficiently developed to allow us to judge its rigour'); the marginal note 'there is something to complete in this demonstration. I do not have the time'; Liouville's 1843 announcement and 1846 edition; and the point that the story of a last night spent writing out all his mathematics 'appears to have been exaggerated'. Independent university biography; politics, prison and the duel are treated there and are NOT scored here.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Galois/"
+    },
+    {
+      "id": "src_galois_neumann",
+      "kind": "institution",
+      "title": "British Society for the History of Mathematics Gresham College lecture handout, 'The Memoirs and legacy of Évariste Galois' (3 November 2011, initialled PMN, Queen's College Oxford; the author of the 2011 European Mathematical Society edition of Galois's writings), read in full: a dated chronology of his education, his April 1829 continued-fractions article, the 1829 and 1830 Academy submissions whose manuscripts are lost, his 'Sur la théorie des nombres' (June 1830) described as containing a precursor of the theory of finite fields, the Premier Mémoire (17 January 1831) described as containing Galois theory, Lacroix and Poisson's negative report of 4 July 1831, and the editions of 1846 (Liouville), 1897, 1906-07, 1962 and 2011. Learned-society handout by a specialist editor; chronology only, no interpretation of character.",
+      "url": "https://gresham.ac.uk/sites/default/files/the_memoirs_and_legacy_of_evariste_galois.pdf"
+    },
+    {
+      "id": "src_galois_ehrhardt",
+      "kind": "biography",
+      "title": "Caroline Ehrhardt, 'La naissance posthume d'Évariste Galois (1811-1832)', Revue de synthèse 131 (2010), pp. 543-568, read in part (abstract, introduction and the passages on the 1831 report and the 1843 Liouville-Libri debate): the Premier Mémoire had not received the Academy's approval in his lifetime; Lacroix and Poisson judged the reasoning 'neither clear enough nor developed enough' and preferred to wait until the author had published his work in full; Liouville's 1846 edition did not fill the gaps the Academy had pointed to; the author argues that the 'rediscovery' of Galois belongs to a wider redefinition of algebra and to a rivalry between Liouville and Libri. Independent historian's article in French; a critical, contextual counter-voice to the heroic account.",
+      "url": "https://www.math.ens.psl.eu/histoireproba/Ehrhardt_2010b.pdf"
+    },
+    {
+      "id": "src_galois_brechenmacher",
+      "kind": "biography",
+      "title": "Frédéric Brechenmacher, 'Galois Got his Gun' (arXiv 1111.0655), read in part (introduction and the sections on the public image of Galois): shows that Galois was a public figure from the 1830s on, long before Liouville's 1846 edition, and traces how editions by Liouville (1846), Picard (1897) and Dieudonné (1962) and later celebrations shaped a heroic public image; cites Rothman, Taton and Ehrhardt on the fictionalised biographies. Independent historian of mathematics; used for the reception and legend caveats, not for traits.",
+      "url": "https://arxiv.org/pdf/1111.0655"
+    },
+    {
+      "id": "src_galois_dupuy",
+      "kind": "archive",
+      "title": "Paul Dupuy, 'La vie d'Évariste Galois', Annales scientifiques de l'École normale supérieure, 3rd series, volume 13 (1896), pp. 197-266 (Numdam scan, OCR text read at the passages on his schooling, his teachers, the lost 1830 memoir and the portraits): the earliest detailed biography, by the school's superintendent, built on the testimony of surviving classmates (Lalanne and Bénard), family papers and the school's archives; reports that Galois found elementary algebra books unsatisfying and turned in his first year of mathematics to Lagrange, that Richard's quarterly notes in the school archives read 'a marked superiority over all his fellow students; he works only on the higher parts of mathematics', and that Liouville said Galois had worked on his theory of equations since his school days. Near-contemporary but written 64 years after his death and partly from classmates' memories, so used as supporting biography only.",
+      "url": "https://www.numdam.org/item/ASENS_1896_3_13__197_0/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_galois_taton, src_galois_neumann, src_galois_mactutor, src_galois_dupuy | 1829-1831 | scholarly dictionary, society handout, university biography, early biography] Taton credits him with the key move of tying the solvability of an equation to the structure of its group, an answer he calls definitive, plus 'Galois imaginaries' and results on elliptic and abelian integrals; Neumann's chronology says his 1830 paper contains a precursor of finite fields and the 1831 memoir contains what is now Galois theory; school reports called him 'original' (MacTutor) and Richard noted marked superiority over his classmates (Dupuy). Praise of the originality is retrospective and the work was not understood by his contemporaries (Poisson, Lacroix), so the row rests on the documented content of the work rather than on any observed creative process."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_galois_dupuy, src_galois_mactutor, src_galois_ehrhardt | 1827-1831 | early biography, university biography, historian's article] In his first year of mathematics he put aside the elementary algebra textbooks and taught himself from Lagrange's own treatises (Dupuy, drawing on a note in the 1848 Magasin pittoresque attributed to a classmate); MacTutor quotes school reports describing him as singular, bizarre, original and closed, and Richard's note that he works only in the highest parts of mathematics. The same independence cost him: Vernier wrote 'not enough method', the Polytechnique examiner found him 'sometimes obscure in expressing his ideas', and Poisson and Lacroix found the memoir neither clear nor developed enough (Ehrhardt). The classmates' testimony reached Dupuy 64 years later, so the row is a moderate inference and impact is dual-edged."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_galois_mactutor, src_galois_dupuy | 1827-1829 | university biography, early biography] The director of studies at Louis-le-Grand wrote in 1827 that 'it is the passion for mathematics which dominates him' (MacTutor), and Richard's school-archive notes, quoted by Dupuy, say he works only on the higher parts of mathematics; he read the masters (Legendre, Lagrange) directly. Both are teacher or school-record statements of the same period, but they are few and brief, and the claim is limited to dedication to mathematics as a field, not to a general disposition."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_galois_mactutor, src_galois_neumann, src_galois_taton | 1828-1831 | university biography, society handout, scholarly dictionary] He sat the Polytechnique entrance examination twice (1828, 1829), submitted his work on equations to the Academy in 1829, again in February 1830 for the grand prize, and a third time in January 1831 at Poisson's invitation, even though the first two manuscripts were lost (the 1829 papers were probably withdrawn, per Neumann). The documented behaviour is repeated resubmission after setbacks; the sources give little on the effort behind the work itself, and the setbacks were partly of his own making (obscure exposition), so the row is moderate. Political activity, imprisonment and the circumstances of his death are NOT scored."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_galois_taton, src_galois_neumann | 1830-1831 | scholarly dictionary, society handout] Taton describes his central result as reducing the solvability of an equation to a property (solvability) of its associated permutation group and notes his reflections on the conceptual direction of mathematics; Neumann's chronology says the Premier Mémoire contains Galois theory. The structure-over-calculation approach is documented as the content of the work, but neither source describes how he worked, and the significance is read back from later algebra. SELF-CALIBRATION (agent): top-risk row; lowered from 70 / 0.50 to 64 / 0.44 because the evidence is indirect (the later significance of the theory, with no source describing his working method) and the main contemporary readers found the memoir unclear."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에바리스트 갈루아"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/evariste-galois-unknown-1826.jpg",
+    "width": 862,
+    "height": 1200,
+    "source": "Pencil portrait of Evariste Galois at about fifteen or sixteen, drawn from life about 1826 by an unknown artist, kept by his niece Madame Guinard (daughter of his elder sister) and first published as a reproduction in Paul Dupuy, 'La vie d'Evariste Galois', Annales scientifiques de l'Ecole normale superieure, 1896, whose text says the portrait was made from nature when he was fifteen or sixteen. The file is a scan of the drawing from Wikimedia Commons, downscaled from 945 x 1316 to 862 x 1200 pixels; no upscaling and no retouching.",
+    "license": "Public domain (anonymous drawing of about 1826, first published in France in 1896; public domain in the United States by publication before 1931 and expired in France before 1996)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unknown artist, portrait of Evariste Galois at about fifteen, about 1826, first published in P. Dupuy, La vie d'Evariste Galois (1896); scan via Wikimedia Commons",
+    "attributionUrl": "https://www.numdam.org/item/ASENS_1896_3_13__197_0/",
+    "creator": "Unknown artist",
+    "date": "about 1826",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Galois-15ans.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / CONFIRMED VIA THE ALTERNATIVE, NOT THE INITIAL LEAD: the lead's first image (Alfred Galois's 1848 sketch) was rejected as the portrait because Dupuy (1896, read) says it was drawn from memory sixteen years after his death by an unskilled hand and 'hardly resembles' the portrait made from life, so it is a weak likeness; the replacement is the pencil portrait drawn from life about 1826 that Dupuy published. PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q7091 label 'Évariste Galois', description 'French mathematician (1811-1832)', born 1811-10-25, died 1832-05-31, occupations include mathematician, Korean label 에바리스트 갈루아; not in prod63.txt, no candidate file existed for the slug. Region western_europe (France, precedent). ZERO POLITICS: his primary identity is mathematician; the republican activity, arrests, prison and the duel are known but are NOT scored and not carded as achievements. No inference from his father's suicide, mood, imprisonment, hospitalisation, or death. SOURCES READ (7 incl. Wikidata; 6 substantive): Taton in the Complete Dictionary of Scientific Biography (CANONICAL SIGNIFICANCE SOURCE: René Taton, 'Galois, Évariste', encyclopedia.com), MacTutor biography, Neumann's BSHM Gresham handout, Ehrhardt 2010 (read in part, French), Brechenmacher arXiv (read in part), Dupuy 1896 (OCR text read at the passages cited). Perspectives: scholarly dictionary, university biography, society chronology, two independent historians of reception, an 1896 biography from classmate testimony. Counter-voices: Poisson and Lacroix's 1831 report (via Taton, MacTutor, Ehrhardt), Vernier's 'not enough method', the examiner's 'obscure', Ehrhardt's point that Liouville's edition did not fill the gaps the Academy cited, Brechenmacher and MacTutor on the exaggerated legend (including the last-night story). NOT OPENED: Rothman 1982 ('Genius and Biographers', blocked and paywalled), Britannica (HTTP 403), Neumann's 2011 EMS edition, Galois's own 'Lettre à Chevalier' (self material, not needed), the Magasin pittoresque 1848 note except through Dupuy. KOREAN NAME: Wikidata Korean label 에바리스트 갈루아. PORTRAIT: the file used is Wikimedia Commons File:Galois-15ans.jpg (description 'Evariste Galois 15 years old (direct pencil portrait)', date 1826, author unknown, tag PD-Art with PD-old-100-expired for France, status updated by a bot in 2025 to 'date older than 175 years and author unknown'); the Commons source field names the Institut Henri Poincare Galois site (page now dead: 404, and the Wayback lookup was rate-limited), so the scan's immediate origin could not be re-opened, which is the caveat; the drawing itself is identified independently by Dupuy 1896 (opened, Numdam PDF 14.9 MB; passages: his 'acquisition principale' was the portrait 'fait d'après nature, lorsqu'il avait quinze ou seize ans' obtained from his niece Madame Guinard, daughter of the elder sister, Madame Chantelot) and reproduced in the 1897 Oeuvres mathématiques p. 18 (per the Commons description of the sibling files). I compared the Commons files visually: Galois-15ans.jpg, Evariste_Galois.jpg and Evariste_galois.jpg are scans of the same drawing; Galois-15ans.jpg is the softer, untouched one. RIGHTS BASIS: unknown artist, work created about 1826, first published in France in 1896 (Dupuy and the 1897 edition), so (a) in the United States it is public domain because it was published before 1931; (b) in France, an anonymous work published in 1896 is out of copyright long before 1996 so the URAA does not restore it; (c) a faithful scan of a flat public-domain drawing adds no new rights. A conflicting notice I checked: Numdam's cover page for Dupuy reads 'Gauthier-Villars 1896, tous droits réservés' with a general note against commercial use of its digitised files; that is a digitisation notice for the 1896 article scan and I did NOT use the Numdam scan (I used the separate Commons scan of the drawing); the lead may judge whether to require a re-extraction from a non-Numdam source. The Alfred Galois 1848 drawing (Commons File:Galois-1848.jpg, author Alfred Galois, published 1848 in the Magasin pittoresque) was the lead image and is also public domain by publication date but is rejected as the displayed portrait because it is a posthumous from-memory drawing. kind likeness because the drawing was made from life (documented by Dupuy 1896). Image: downscaled with Pillow from 945 x 1316 to 862 x 1200 and saved as public/portraits/evariste-galois-unknown-1826.jpg. ROWS: 5 initially scored, 1 lowered (systems_abstraction 70/0.50 to 64/0.44); high-risk pass reviewed creative_originality (kept: retrospective praise but the content of the work is documented by three independent scholars), independent_thinking (kept; secondhand classmate testimony already priced into the 0.50 confidence), and systems_abstraction (lowered). HANDBACK63: {\"slug\":\"evariste-galois\",\"portrait_preflight_grade\":\"PLAUSIBLE (alt-dependent)\",\"initial_lead\":\"Alfred Galois 1848 sketch of his brother (Dupuy 1896, numdam)\",\"final_portrait_source\":\"Unknown artist, pencil portrait drawn from life about 1826, first published in P. Dupuy, La vie d'Evariste Galois, Annales scientifiques de l'ENS 1896; scan via Wikimedia Commons File:Galois-15ans.jpg (https://commons.wikimedia.org/wiki/File:Galois-15ans.jpg)\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"systems_abstraction\",\"old_score\":70,\"old_confidence\":0.5,\"new_score\":64,\"new_confidence\":0.44,\"reason\":\"Indirect evidence: the later significance of the theory is documented but no source describes his working method, and the main contemporary readers found the memoir unclear\"}],\"reviewed_kept\":[\"creative_originality\",\"independent_thinking\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

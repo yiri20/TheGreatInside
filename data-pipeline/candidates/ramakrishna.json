@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ramakrishna",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ramakrishna",
+    "aliases": [
+      "Sri Ramakrishna",
+      "Ramakrishna Paramahamsa",
+      "Gadadhar Chattopadhyay",
+      "Gadadhar Chatterjee"
+    ],
+    "wikidataId": "Q183126",
+    "birthYear": 1836,
+    "deathYear": 1886,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "religion"
+    ],
+    "impactDomains": [
+      "cultural",
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "mystic",
+      "communicator",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ramak_wikidata",
+      "kind": "wikidata",
+      "title": "Ramakrishna (Q183126), verified live via the Wikidata API (2026-11-04): label 'Ramakrishna', description 'Indian mystic and religious preacher (1836-1886)', born 18 February 1836, died 16 August 1886, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q183126"
+    },
+    {
+      "id": "src_ramak_eor",
+      "kind": "biography",
+      "title": "'Ramakrishna', Encyclopedia of Religion (Walter Neevel and Brian Hatcher), reproduced on Encyclopedia.com, read in full. CANONICAL SIGNIFICANCE SOURCE: presents him as a Hindu ecstatic and mystic, regarded by many Hindus as a 'supremely realized self' and an incarnation of the divine, whose gospel of the truth of all religions, carried by his disciple Vivekananda, became a source of modern Hindu universalism; gives the Dakshineshwar priesthood from 1852-56, the Tantric training under Yogeshwari from 1861, the Advaita training under Totapuri in 1864-65, three days of Islamic and four days of Christian devotion, the attraction of educated Calcuttans (Keshab Chandra Sen, Narendranath Datta) from the mid-1870s, the recording of his 1882-86 conversations by 'M' (Mahendranath Gupta) as the Kathamrita, and the monastic order that grew into the Ramakrishna Math and Mission. Also sets out three scholarly debates (Advaita versus Tantric reading, the source of the Mission's service ethic, and psychological and psychosexual readings such as Sil and Kripal) and warns that his spiritual experience must be disentangled from hagiography promulgated by the Mission. Scholarly reference; the critical debates were read only as summarised there.",
+      "url": "https://www.encyclopedia.com/people/philosophy-and-religion/hinduism-biographies/ramakrishna"
+    },
+    {
+      "id": "src_ramak_muller",
+      "kind": "biography",
+      "title": "F. Max Muller, 'Ramakrishna: His Life and Sayings' (1898), Internet Archive scan of the Digital Library of India copy, read in part (the introduction, the sketch of his life and teaching supplied by Vivekananda, the 'Remarks on Ramakrishna's Life', 'Mozoomdar's Judgement', the passages on his wife and on Keshub Chunder Sen; the Sayings were not read). An early Western scholar's account built on Indian witnesses: it records the offers of temple property he declined, his practice of Vaishnava, Islamic and Christian devotion, Keshub Chunder Sen's visits and publication of his sayings, and the crowds that came to him; Muller himself warns that Vivekananda's notes show 'the ravages' of veneration and exaggeration, quotes the Brahmo leader P. C. Mozoomdar as a favourable but reserved independent witness (he 'did not know a word of Sanskrit', was 'not in the least a Vedantist', his 'spiritual wisdom was the result of genius and practical observation', but his speech was at times 'abominably filthy'), and defends or qualifies those reservations. Mixed admiring and critical; second-hand to the events.",
+      "url": "https://archive.org/details/dli.ernet.163314"
+    },
+    {
+      "id": "src_ramak_rolland",
+      "kind": "biography",
+      "title": "Romain Rolland, 'The Life of Ramakrishna' (1929; Advaita Ashrama, Mayavati, 1930 edition, translated by E. F. Malcolm-Smith), Internet Archive scan of the Digital Library of India copy, read in part (the publisher's note, author's preface, the chapter on the exploration of Islam and other religions, the passage on his sources of learning, and the iconography note). A Western biographer who worked from Ramakrishna Mission documents and the recorded conversations: notes the publisher's statement that his interpretations did not agree 'in toto' with the Order's, says Ramakrishna gained an 'encyclopaedic knowledge' of religion by listening to monks, pilgrims and pandits rather than reading, and says he was 'eager to explore' other religions. Admiring and sourced largely from the movement, so used with Muller as a cross-check, not as an independent behavioural witness.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.22322"
+    },
+    {
+      "id": "src_ramak_belur",
+      "kind": "institution",
+      "title": "'Sri Ramakrishna', Belur Math (Ramakrishna Math and Ramakrishna Mission headquarters), read via a fetched summary of the page: gives his dates, the Dakshineshwar priesthood, the teachers (Bhairavi Brahmani, Totapuri), the teaching that all religions lead to the same goal, the Brahmo Samaj leaders who engaged with him, and the origin of the monastic brotherhood in his disciples' nursing of him in 1886. The movement's own page: admiring, institutional, used only for dates and the founding narrative.",
+      "url": "https://belurmath.org/sri-ramakrishna/"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ramak_eor, src_ramak_muller, src_ramak_rolland, src_ramak_belur | 1861-1870s | scholarly reference, early Western scholar, Western biographer, movement page] Four sources of different kinds agree that, after his Kali devotion, he took up one tradition after another under named teachers: Tantric practice under Yogeshwari from 1861, Advaita under Totapuri in 1864-65, a return to Vaishnava devotion, and then, by the accounts of Muller and Rolland, several days living as a practising Muslim (repeating the name of Allah and wearing Muslim dress, outside the temple precincts) and days of Christian devotion; Rolland says he was eager to explore every religion. What is scored is the documented undertaking of different paths in turn, not any claim about what he realised; the details of the Islamic and Christian episodes come from disciples and the movement's tradition, and the reference work itself warns about hagiography, so the confidence stays below 0.5."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ramak_eor, src_ramak_muller, src_ramak_rolland, src_ramak_belur | 1866-1886 | scholarly reference, early Western scholar, Western biographer, movement page] He had no formal learning and no written work, yet the reference work records that from the mid-1870s educated, colonially trained Calcuttans including Keshab Chandra Sen and Narendranath Datta came to him and were pushed to reassess their own tradition, and that his conversations were recorded by a disciple; Muller (from Brahmo and disciple accounts) says Keshub visited him repeatedly, published a sketch of his teaching and sayings, and that numbers of educated men then came, and Rolland repeats that he received some of the brightest young minds of the city. The influence on a skeptical urban audience is documented in three independent kinds of source, but the strongest specifics (Keshub's visits, the size of the crowds) are relayed by sympathetic Indian witnesses, and Muller records a dispute with a relative of Keshub over who influenced whom, so the confidence is moderate."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ramak_eor, src_ramak_muller, src_ramak_rolland | 1870s-1886 | scholarly reference, early Western scholar, Western biographer] The reference work records that he disdained book learning and the clerk's world and that his stress on the 'complete knower' who accepts the world as the Mother's play, rather than the withdrawn knower, marked a position of his own; Muller quotes the Brahmo leader Mozoomdar, a favourable but reserved witness, that he knew no Sanskrit, was 'not in the least a Vedantist' and that his wisdom 'was the result of genius and practical observation', and says he emphatically refused the title of master; Rolland says his learning came from listening to monks, pilgrims and pandits and that he 'made a garland' of what the learned said. The sources show a self-made, non-institutional line of thought and a refusal of formal status; the scholars also dispute whether his thought was Advaita or Tantric, so the doctrinal claim itself is not scored."
+    },
+    "impact_motivation": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ramak_muller, src_ramak_eor, src_ramak_belur | 1860s-1886 | early Western scholar, scholarly reference, movement page] Muller, relaying Vivekananda's notes, says he taught visitors from morning to night, declined offers of the Dakshineshwar temple and of an income of 25,000 rupees a year when pressed by the patron Mathuranatha and another donor, and is quoted as saying he would suffer much if it brought one soul to freedom; the reference work records that his last years were spent teaching visitors and a circle of disciples. The pattern of teaching without seeking property or position is documented, but the specific anecdotes and the quotation come through disciples whom Muller himself says were prone to exaggerate, so score and confidence are low. SELF-CALIBRATION (agent): lowered from 60 / 0.46 to 56 / 0.40 because the key quotation and the declined offers reach Muller only through Vivekananda's notes, which Muller flags as showing the effects of veneration."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라마크리슈나"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait was established. Lead image: Commons file 'Ramakrishna.jpg' (a retouched web copy of the well-known seated photograph, Commons says October 1885, photographer given as Abinash Chandra Dey, tagged only with generic Commons public-domain and India templates). BLOCKERS: (1) no source I could open documents the 1885 date or the photographer, and the Commons upload log traces the file to a devotee website image, not to a dated print; (2) the only dated pre-1931 publication I found is the plate 'Sri Ramakrishna in a high state of Yoga' in the 1930 Advaita Ashrama edition of Rolland's Life of Ramakrishna (Calcutta/Mayavati), which would give a pre-1931 publication basis, but the Internet Archive copy is a degraded black-and-white scan and I could not positively confirm it is the same photograph as the Commons file (expression and print quality differ), and the 1928 'Life of Sri Ramakrishna' frontispiece is a different, painted image; (3) a Commons public-domain tag is not itself evidence. NEXT STEP: obtain a clean scan of a dated pre-1931 book plate (for example the 1930 Rolland plate, or Saradananda's 1927 Great Master, or the 1925-28 Life of Sri Ramakrishna) that visibly matches the chosen photograph and cite that item-level publication; then derive a downscaled file from it."
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / HELD: the lead's 'Oct 1885 photograph attributed to Abinash Chandra Dey' (Commons Ramakrishna.jpg, 1340 x 1675, PD-1996 and PD-India templates, upload log: web copy of a devotee-site image, retouched) has no documented first publication. One bounded retry (about 15 calls): found a plausibly matching plate in the 1930 Rolland edition (Advaita Ashrama, Mayavati/Calcutta, pre-1931) but the scan is too degraded to confirm identity of the print, and the 1928 Life of Sri Ramakrishna frontispiece is a different image; the 1912 San Francisco Gospel and the 1928 Devamata book (Ananda Ashrama, copyright notice, no renewal check) carry no usable plate. Rolland's own iconography note says only three pictures of him seem authentic. See portrait.reason for the exact blocker and next step.\nPREFLIGHT: QID VERIFIED LIVE (2026-11-04) Q183126 label 'Ramakrishna', description 'Indian mystic and religious preacher (1836-1886)', born 1836-02-18, died 1886-08-16, citizenship Q129286 (British India entity), Korean label '라마크리슈나' (Wikidata); not in prod63.txt and no candidate file existed. Region south_asia (precedent: swami-vivekananda, mother-teresa). Era 19th_century. ZERO POLITICS: religious teacher and mystic; he is not scored on any political, military or reform activity; the Mission's later social service and nationalism are not attributed to him. LIVING/PRIVATE-LIFE RULES: deceased; his marriage, the sexual and psychological readings of Sil and Kripal, his trances and his terminal illness are deliberately not used for any score (no mental-state or health inference). VOCABULARY: occupation religious_leader, field religion, tags mystic, communicator, self_taught, archetype social_influencer, impact domains cultural, social, historical; all grepped in en.ts (and checked against existing candidates swami-vivekananda and mother-teresa). KO NAME: Wikidata Korean label.\nCANONICAL SIGNIFICANCE SOURCE: 'Ramakrishna', Encyclopedia of Religion (Neevel and Hatcher) via Encyclopedia.com (https://www.encyclopedia.com/people/philosophy-and-religion/hinduism-biographies/ramakrishna).\nREAD: Encyclopedia of Religion entry (in full), Muller 1898 (introduction, life, remarks, Mozoomdar's judgement, wife and Keshub passages; the Sayings and the index not read), Rolland 1930 edition (publisher's note, preface, the chapter on Islam and other paths, the learning passage, iconography; not read cover to cover), Belur Math page (fetched summary). Five sources including one movement page and one Wikidata record. PERSPECTIVES: scholarly reference with open scholarly disagreement, an 1898 Western Orientalist quoting Brahmo witnesses and criticising the reliability of the disciples' record, a Western biographer working from the Mission's documents, the movement's own page. COUNTER-VOICES: P. C. Mozoomdar (via Muller: no Sanskrit, not a Vedantist, coarse speech), Sil, Kripal, Zimmer and Neevel (via the reference entry only). NOT OPENED: the Kathamrita / Gospel of Sri Ramakrishna text, Saradananda's Great Master, Sil's and Kripal's books, Isherwood, Mozoomdar's own writings, Britannica (403). EXCLUDED: trance and 'divine madness' episodes, marriage and sexuality, terminal illness, claims of avatarhood and miracles, the Mission's later activities.\nMAJOR ACHIEVEMENT SELF-GATE: first pass PASS on all five checks (see draft review). SELF-CALIBRATION (agent): rows reviewed under the high-risk pass: impact_motivation (lowered from 60 / 0.46 to 56 / 0.40: key quotation and declined offers reach Muller only through Vivekananda's notes, which Muller flags as venerating), persuasiveness (kept: three source kinds agree on educated visitors and Keshub's visits, though relayed by sympathetic witnesses and confidence already 0.5), experimentation (kept: four source kinds agree on the sequence of paths and confidence is below 0.5). BROAD FLAG: none; the profile is deliberately sparse (4 rows) because the Kathamrita and the independent critical scholarship were not opened.\nHANDBACK63: {\"slug\": \"ramakrishna\", \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"initial_lead\": \"October 1885 photograph attributed to Abinash Chandra Dey (Commons Ramakrishna.jpg)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The lead's rights basis ('taken 1885') does not establish a rights basis because neither the date nor the photographer is documented by any opened source, the Commons file is a retouched devotee-site copy, and the only dated pre-1931 print publication found (Rolland 1930 plate) is a degraded scan that cannot be positively matched to the file.\", \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 60, \"old_confidence\": 0.46, \"new_score\": 56, \"new_confidence\": 0.4, \"reason\": \"key quotation and declined offers reach Muller only through Vivekananda's notes, which Muller flags as showing the effects of veneration\"}], \"reviewed_kept\": [\"persuasiveness\", \"experimentation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

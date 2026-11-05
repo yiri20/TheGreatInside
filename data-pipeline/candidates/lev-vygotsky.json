@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lev-vygotsky",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Lev Vygotsky",
+    "aliases": [
+      "Lev Semyonovich Vygotsky",
+      "Lev Vygotski",
+      "Lev Vigotsky",
+      "Lev Semenovich Vygodsky"
+    ],
+    "wikidataId": "Q180819",
+    "birthYear": 1896,
+    "deathYear": 1934,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "scholar"
+    ],
+    "fieldIds": [
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vygot_wikidata",
+      "kind": "wikidata",
+      "title": "Lev Vygotsky (Q180819), verified live via the Wikidata API (2026-11-04): label 'Lev Vygotsky', description 'Soviet psychologist (1896-1934)', born 17 November 1896 (New Style; 5 November Old Style), died 11 June 1934 (a second death-date statement of 11 July 1934 is also recorded), Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q180819"
+    },
+    {
+      "id": "src_vygot_dsb",
+      "kind": "biography",
+      "title": "'Vygotsky, Lev Semyonovich', Complete Dictionary of Scientific Biography (René van der Veer), via Encyclopedia.com, read for the biography, cultural-historical theory, dynamic assessment, education and psycholinguistics sections (the end of the psycholinguistics section was not read). CANONICAL SIGNIFICANCE SOURCE: presents him as an original thinker whose cultural-historical theory of the higher mental functions helped create cultural psychology, whose idea of testing a child with assistance led to dynamic assessment, whose view that instruction co-determines development shaped instructional programmes, and whose account of inner speech entered psycholinguistics; gives the Gomel upbringing, law studies in Moscow with humanities and psychology at the unofficial Shanyavsky University, the 1917 Hamlet thesis, the 1920 Gomel cultural-department post, the 1924 move to the Moscow psychology institute, and the 'Psychology of Art' dissertation; says he worked as a clinical psychologist with disturbed and disabled children, edited journals and wrote hundreds of papers, and that he criticised Piaget's account of egocentric speech with small experiments. Scholarly reference by a Vygotsky specialist.",
+      "url": "https://www.encyclopedia.com/people/medicine/psychology-and-psychiatry-biographies/lev-semenovich-vygotsky"
+    },
+    {
+      "id": "src_vygot_gale",
+      "kind": "biography",
+      "title": "'Vygotsky, Lev (1896-1934)', entry in the Child Development reference set (Gale), via Encyclopedia.com, read in full: a short developmental-psychology summary that gives the Jewish family and the law degree as a way to live outside the Pale, the Psychology of Art dissertation and invitation to the Moscow Psychological Institute, the 'natural' versus 'cultural' functions, the zone of proximal development, the advocacy of educating children with and without disabilities together, and the delayed Western reception. Scholarly reference; brief and partly derivative of the longer entry.",
+      "url": "https://www.encyclopedia.com/children/applied-and-social-sciences-magazines/vygotsky-lev-1896-1934"
+    },
+    {
+      "id": "src_vygot_levitin",
+      "kind": "biography",
+      "title": "Karl Levitin, 'One is Not Born a Personality: Profiles of Soviet Educational Psychologists' (Progress Publishers, Moscow, 1982), chapter I on Lev Vygotsky, from the Marxists Internet Archive PDF, read in part (the biographical profile, Semyon Dobkin's reminiscences up to his student years, and the 'Mozart of Psychology' imaginary round table with quotations from Luria, Leontiev, Toulmin and others; later sections not read). A Soviet state-publisher compilation with recollections by a childhood friend and his sister and quotations from colleagues: admiring and officially framed, but the only source read that supplies first-hand reminiscence of his youth and early habits; records his studies at the Shanyavsky University, the Gomel psychology laboratory and drama studio, his later medical studies as a full professor, a literary 'court' in which he was willing to argue either side, and Luria's judgement that 'Vygotsky was a genius'.",
+      "url": "https://www.marxists.org/subject/psychology/works/levitin/not-born-personality.pdf"
+    },
+    {
+      "id": "src_vygot_toulmin",
+      "kind": "press",
+      "title": "Stephen Toulmin, 'The Mozart of Psychology', The New York Review of Books, 28 September 1978, read via a fetched summary of the full review of 'Mind in Society' and 'The Psychology of Art': an independent Western philosopher's assessment that Vygotsky came to psychology from literary criticism, took up medical training to master the neurology behind concept formation and consciousness, successfully contested Piaget on inner speech and rejected both nativist and conditioning accounts; notes that his work was left as 'no polished, well-organized' body, that 'Mind in Society' is a compilation, that Stalin-era disfavour cut Soviet continuity, that Cole and Scribner apologise for his experimental methods, and that a claim comparing the work's importance to the genetic code 'may strike us as an exaggeration'. Independent, admiring but hedged contemporary review.",
+      "url": "https://www.nybooks.com/articles/1978/09/28/the-mozart-of-psychology/"
+    },
+    {
+      "id": "src_vygot_maidansky",
+      "kind": "press",
+      "title": "Andrey Maidansky, 'Book Review: Vygotsky's Notebooks: A Selection', Frontiers in Psychology (2020), open access, read via a fetched summary: a scholarly review of the Zavershneva and van der Veer edition of his notebooks, noting that he jotted ideas on whatever paper was at hand, built an 'instrumental method' with double stimulation and a later 'semic method', was erudite in science and art, died before elaborating the semic method, and that his closest collaborator Leontiev objected to his 1930 turn to the semantic structure of consciousness, leading to a 'schism' known until now mainly from Leontiev's side. Independent modern scholarship with an explicit collaborator dispute.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7920942/"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vygot_dsb, src_vygot_levitin, src_vygot_toulmin, src_vygot_maidansky | 1913-1934 | specialist reference, Soviet compilation with recollections, independent review, scholarly review] The specialist reference records law studies in Moscow alongside humanities and psychology at the Shanyavsky University, a master's thesis on Hamlet, literary reviews, theatre-going, work as a cultural official, then clinical psychology with disturbed and disabled children, editing, teaching and a doctoral dissertation on the psychology of art; Levitin adds a psychology laboratory and drama studio in Gomel and, as a full professor, undergraduate medical study in Moscow and Kharkov; Toulmin says he took up medical training to master the neurology of concept formation; the notebooks review calls him erudite across science and art, with notes on Jewish history, aesthetics, child and neuropsychology and psychotherapy theory. Four sources of three kinds agree on documented moves between fields, held below 0.6 because two lean on one Soviet compilation and the specialist reference."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vygot_dsb, src_vygot_toulmin, src_vygot_gale, src_vygot_maidansky | 1920s-1934 | specialist reference, independent review, Gale summary, scholarly review] The specialist reference says he disputed Piaget's reading of egocentric speech and ran small experiments to refute it (absence of such speech when the child is alone or among deaf children, increase with unexpected problems, declining intelligibility with age); Toulmin says he successfully contested Piaget and refused both the nativist and the external-conditioning routes; the notebooks review shows him working ideas out for himself and keeping a line of his own in a dispute with his closest collaborator Leontiev over the semantic structure of consciousness. Documented dissent from a leading authority and from a collaborator; the cost is that the Piaget argument is relayed by his sympathetic interpreters, hence a moderate confidence."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vygot_dsb, src_vygot_gale, src_vygot_toulmin, src_vygot_levitin | 1920s-1934 | specialist reference, Gale summary, independent review, Soviet compilation] The specialist reference credits a cultural-historical theory of the higher mental functions that founded cultural psychology, a dual-testing idea that became dynamic assessment, a teaching principle tied to the zone of proximal development and an account of inner speech taken up in psycholinguistics; Toulmin calls the work original and applies the Mozart image; Levitin quotes Luria's remark that he was 'a genius'. Originality is read from retrospective influence claims and from a close collaborator's praise, and Toulmin himself notes that the work was left unfinished and that one comparison with the genetic code 'may strike us as an exaggeration'. SELF-CALIBRATION (agent): lowered from 72 / 0.54 to 70 / 0.50 because the evidence is retrospective influence and a collaborator's tribute, and the independent reviewer hedges the strongest claim."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vygot_dsb, src_vygot_maidansky, src_vygot_toulmin | 1920s-1934 | specialist reference, scholarly review, independent review] The specialist reference describes small experiments used against Piaget and a block-based test for children's concept grasp, and the notebooks review describes an 'instrumental method' using double stimulation to study memory, will and conceptual thinking and a later 'semic' analysis; Toulmin records that Cole and Scribner apologise for his experimental methods. The sources document a practice of designing methods and small experiments, but also that the methods were unfinished and the experimental rigour is questioned, so the score is moderate and the confidence low."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_vygot_levitin, src_vygot_toulmin, src_vygot_maidansky, src_vygot_dsb | 1924-1934 | Soviet compilation, independent review, scholarly review, specialist reference] Levitin says he gathered many young researchers around him and held several concurrent posts in education and the study of handicapped children; Toulmin says he left 'a devoted band of colleagues' and that the Luria work grew out of discussions around 1930; the notebooks review records that his closest collaborator Leontiev objected to his 1930 turn and that the two parted in a 'schism'. A group-building teacher is documented, alongside an open scholarly split; the details of the group come mainly from admiring sources, so the confidence is low and the impact dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "레프 비고츠키"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait was established. Lead image: Commons file 'Lev-Semyonovich-Vygotsky-1896-1934.jpg', dated 'cc 1925', author unknown, whose source is a health-information website biography page, tagged only with the generic Commons 'pd-old' template. BLOCKERS: no creator, no documented first publication and no archival provenance; a generic Commons public-domain tag and a 'circa' date are not a rights basis, and Soviet-era jurisdiction arguments alone are not a US basis. Bounded retry (about 10 calls): the other Commons images of him are either group scenes (Gomel 1920 with theatre officials, London 1925 with delegates, both scanned from a 1996 Moscow biography or a museum with unknown photographers), 1923 and similar prints copied from that 1996 book (first publication 1996, unknown photographer, PD claim based only on the Commons age template), a CC BY-SA copy from a project website (licence not verifiable), or a 1934 book illustration wrongly credited to a nineteenth-century French painter; the Marxists Internet Archive image index gives file names without any credit or permission statement. NEXT STEP: identify a portrait photograph or print published before 1931 (for example a plate in a 1920s Soviet periodical or book) or an archive page (such as the Gomel Vygotsky museum or a Russian state archive) that states photographer, date and terms, then derive a downscaled file from it."
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / HELD: confirmed risky. The lead's c.1925 Commons photograph has no creator, date basis or archival provenance (source is a health-information website; Commons 'pd-old' only); alternatives checked (Lev Vygotsky.1923.png from a 1996 Moscow biography with Commons PD-old-70 and unknown author; Gomel 1920 group photo from a museum; London 1925 group; a CC BY-SA 3.0 'Vigotsky Project' copy; a 1934 frontispiece file mislabelled to a French painter; the Marxists Internet Archive images with no credits) all fail for the reasons in portrait.reason.\nPREFLIGHT: QID VERIFIED LIVE (2026-11-04) Q180819 label 'Lev Vygotsky', description 'Soviet psychologist (1896-1934)', born 1896-11-17, died 1934-06-10 (and a duplicate 1934-07-11 statement), citizenship Soviet Union and Russian Empire entities, Korean label '레프 비고츠키'; not in prod63.txt and no candidate file existed. Region central_europe (precedent: Russian candidates such as ivan-pavlov, dmitri-mendeleev), nationality RU, era 20th_century (career 1924-1934). ZERO POLITICS: the Marxist framing of his theory and his Soviet posts are mentioned in the sources but neither scored nor carded; no row scores political, party or ideological behaviour; the Stalin-era ban on his work is not used. PRIVATE LIFE: deceased; his tuberculosis and death are not used for any score. VOCABULARY: occupations scientist and scholar, field education only (psychology has no label in en.ts/ko.ts, so it is not used), impact domains scientific, educational, historical, tags theorist and cross_disciplinary, archetypes scholarly_specialist and cross_disciplinary_generalist; all grepped in en.ts. KO NAME: Wikidata Korean label (standard transliteration). GAP REPORTED: no 'psychologist' occupation and no 'psychology' field label exists.\nCANONICAL SIGNIFICANCE SOURCE: 'Vygotsky, Lev Semyonovich', Complete Dictionary of Scientific Biography (van der Veer) via Encyclopedia.com (https://www.encyclopedia.com/people/medicine/psychology-and-psychiatry-biographies/lev-semenovich-vygotsky).\nREAD: Complete DSB entry (most of it), Gale Child Development entry (full), Levitin 1982 chapter (profile, Dobkin reminiscences, round table, in part), Toulmin 1978 NYRB (fetched summary), Maidansky 2020 review (fetched summary), plus the Wikidata record. Five substantive sources. PERSPECTIVES: a specialist scholar (van der Veer), a Soviet state-publisher compilation with childhood-friend recollections, an independent Western philosopher's 1978 review, a modern scholarly review of the notebooks with a collaborator dispute. COUNTER-VOICES: Toulmin's hedges and the Cole-Scribner apology for his experimental methods, Leontiev's objection to his 1930 turn (via the review), Piaget's side not opened. NOT OPENED: Vygotsky's own texts (Thought and Language, Mind in Society, Psychology of Art body), Luria's autobiography, Kozulin, Wertsch, Yasnitsky, the Zavershneva-van der Veer notebooks (all unread except as summarised above). EXCLUDED: tuberculosis and death, Marxist and political content, the Stalin-era ban, family life beyond the Gomel childhood context.\nMAJOR ACHIEVEMENT SELF-GATE: first pass PASS on all five checks (see draft review). SELF-CALIBRATION (agent): rows reviewed under the high-risk pass: creative_originality (lowered from 72 / 0.54 to 70 / 0.50: retrospective influence plus a collaborator's tribute, and the independent reviewer hedges the strongest claim), cross_domain_range (kept: documented offices, studies and posts, four sources of three kinds), independent_thinking (kept: the Piaget dissent is attested by a specialist and an independent reviewer). BROAD FLAG: none; no primary text was opened, so the profile is deliberately limited to five rows and the lead may prefer to hold confidence low.\nHANDBACK63: {\"slug\": \"lev-vygotsky\", \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"initial_lead\": \"c.1925 photograph (Commons, source a health-website biography)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 72, \"old_confidence\": 0.54, \"new_score\": 70, \"new_confidence\": 0.5, \"reason\": \"retrospective influence claims plus a collaborator's tribute, and the independent reviewer hedges the strongest claim\"}], \"reviewed_kept\": [\"cross_domain_range\", \"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

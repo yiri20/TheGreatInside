@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "umetaro-suzuki",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Umetaro Suzuki",
+    "aliases": [
+      "Suzuki Umetaro",
+      "Umetarō Suzuki",
+      "鈴木梅太郎"
+    ],
+    "wikidataId": "Q3369717",
+    "birthYear": 1874,
+    "deathYear": 1943,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "chemist"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "agriculture"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "industrial"
+    ],
+    "tagIds": [
+      "innovator",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_suzuki_wikidata",
+      "kind": "wikidata",
+      "title": "Umetaro Suzuki (Q3369717), verified live via the Wikidata API (2026-11-02): English label 'Umetaro Suzuki' (with macron), description 'Japanese agricultural chemist (1874-1943)', Korean label 스즈키 우메타로, birth 7 April 1874 and death 20 September 1943, citizenship Japan. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q3369717"
+    },
+    {
+      "id": "src_suzuki_riken_figures",
+      "kind": "institution",
+      "title": "RIKEN, 'Historical Figures: Umetaro Suzuki' (institutional history page), read in full. CANONICAL SIGNIFICANCE SOURCE: founder of vitamin research in Japan whose most important achievement was the isolation from rice bran of what he named Oryzanin, or vitamin B1, essential for the treatment of beriberi; from 1917 Director of the Chemistry Division of the RIKEN Foundation, where he developed 'RIKEN Vitamin' and the synthetic sake 'RIKEN-Shu', providing RIKEN with an important source of income; he applied his expertise to agricultural chemistry and biochemistry and mentored a great many leading scientists; one of RIKEN's 'Three Taros'. Institutional history written by the employer he helped fund, so its tone is admiring.",
+      "url": "https://www.riken.jp/en/about/history/figures/"
+    },
+    {
+      "id": "src_suzuki_riken_news",
+      "kind": "press",
+      "title": "RIKEN Research News, 'Chemists at the front of RIKEN elixir of health and wealth' (3 June 2016), read in full: Suzuki studied under Emil Fischer in Germany, who urged him to focus on research pertinent to Japan; he returned in 1906 thinking about rice and beriberi; he named the anti-beriberi nutrient aberic acid; after the 1918 rice-price riots he set out to make a synthetic sake; as director of RIKEN's chemistry division he set his student Katsumi Takahashi the task of purifying vitamin A, which Takahashi achieved in 1922; sales of RIKEN Vitamin, a venture President Okochi invested in from 1927, covered half of RIKEN's research budget between the wars; he continued with vitamins B6, C, D and E until his death and received the Order of Culture in 1943. Institutional magazine story; admiring, and it credits the commercial strategy to Okochi.",
+      "url": "https://www.riken.jp/en/news_pubs/research_news/rr/8212"
+    },
+    {
+      "id": "src_suzuki_jpo",
+      "kind": "institution",
+      "title": "Japan Patent Office, 'Ten Japanese Great Inventors: Umetaro Suzuki, Vitamin A, Vitamin B1', read in full: he noticed that a component of rice bran was effective in preventing beriberi, whose cause was then unknown, and 'was the first to discover aberic acid, today called vitamin B1' in rice bran, later succeeding in isolating it; with his pupil Katsumi Takahashi he isolated and extracted vitamin A from cod liver oil at RIKEN, sold as 'Riken Vitamins'; through developing outstanding researchers he laid the foundation for vitamin research in Japan. Government honour page; short and celebratory, and its 'first to discover' wording is not used as a claim here.",
+      "url": "https://www.jpo.go.jp/e/introduction/rekishi/10hatsumeika/umetaro_suzuki.html"
+    },
+    {
+      "id": "src_suzuki_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'SUZUKI Umetaro', Portraits of Modern Japanese Historical Figures (biographical note by library staff), read: agricultural chemist; entered the Tokyo School of Agriculture and Forestry in 1889; studied at the University of Berlin from 1901; professor at Morioka and from 1907 at the Imperial University of Tokyo; senior researcher at RIKEN from its founding in 1917; first president of the Agricultural Chemical Society of Japan in 1924; extracted vitamin B1 from rice bran while researching the cause of beriberi and named it aberisaure (later oryzanin); received the Order of Culture in 1943. Neutral reference note; used for the career chronology.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/6356/index.html"
+    },
+    {
+      "id": "src_suzuki_daiichi",
+      "kind": "institution",
+      "title": "Daiichi Sankyo, 'Dr. Umetaro Suzuki's Relentless Commitment to Research Led to the Discovery of Vitamin B1' (company history story, 29 September 2023), read in full: he earned his agricultural doctorate at 27 and studied in Switzerland and Germany; named the rice-bran component Orizanin in 1910; the company says his discovery was hardly recognized even in Japan because he was an agricultural chemist and not a physician, and that Casimir Funk's same component the following year won the recognition; he advised the predecessors of Daiichi Sankyo on producing Salvarsan (1916) and salicylic acid (1915), was scientific adviser to Sankyo and contributed to the fumigant insecticide Kokuzol; he also developed a synthetic sake and a powdered milk; it quotes him that anyone should be allowed to do what other academics have not done if it benefits the nation and its people and that an inventor should ask an entrepreneur to bring the invention to the world. A company's own heritage page that benefited from his advice; admiring and partly paraphrased.",
+      "url": "https://www.daiichisankyo.com/our_stories/detail/index_4409.html"
+    },
+    {
+      "id": "src_suzuki_fujitani",
+      "kind": "biography",
+      "title": "Kevin Fujitani (Ohio State University), 'A Child of Many Fathers: The Question of Credit for the Discovery of Thiamine, 1884-1936', in Proceedings of the International Workshop on the History of Chemistry 2015 Tokyo (pp. 90-98 of the proceedings), read in full: scholarly account of Suzuki's work on aberic acid, the 13 December 1910 presentation to the Chemical Society of Tokyo and the January 1911 patent applications, the hostile reception from physicians who held beriberi to be infectious (including a reported remark that if rice bran cured beriberi then drinking urine would too), Suzuki's return to the laboratory and published studies, the 1915 order to turn to Salvarsan synthesis, the August 1911 Zentralblatt abstract and the 1912 Chemical Abstracts remark about Funk; the author concludes Suzuki's oryzanin was not pure thiamine (his degradation products lack its sulfur) but that Suzuki 'took the study of these essential macromolecules from the realm of nutrition to that of chemistry'. Independent scholarly voice and the counter-voice on priority; reads Suzuki's own memoir Kenkyu no Kaiko as a source.",
+      "url": "https://www.euchems.eu/wp-content/uploads/2015/07/IWHC_2015_Tokyo_Proceedings.pdf"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_suzuki_fujitani, src_suzuki_riken_news, src_suzuki_riken_figures | 1908-1943 | scholarly paper reading Suzuki's own memoir, institutional history] Fujitani reports (from Suzuki's own memoir) that for two years his group worked 'without taking even a day's break' on the beriberi problem; when physicians attacked the 1910 claim, even through the newspapers, he went back to the laboratory to confirm his results and went on to publish further studies, including a 1915 report on the cure of children's beriberi with oryzanin; he kept returning to the question (a 1930 paper contesting the 'polished rice intoxication' theory) and RIKEN says he pursued vitamins A, B6, C, D and E until his death in 1943. The 'no day's break' detail is self-report, the later continuation is documented by two independent writers; the evidence shows persistence of the research line, not that every claim was right (his extract was not pure thiamine). The row is limited to the research programme and does not score the 1915 reassignment, which was an order."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_suzuki_fujitani, src_suzuki_daiichi | 1910-1915 | scholarly paper, company history] Fujitani says the physicians' reaction to Suzuki's 1910 paper bordered on outright hostility ('he plagiarized his data', 'he debased scholarship') and that it spilled into the newspapers, and that Suzuki still asserted a factor that would cure beriberi in every case; he answered by confirming and publishing further studies rather than withdrawing the claim, and he repeatedly set his results against the infection theory. Fujitani also says the 'chastised' Suzuki retreated to his laboratory and that Suzuki himself explained the criticism as coming from his not being a physician, so he is not documented confronting critics in person, and the strongest account of the dispute is Suzuki's own memoir. The row is therefore a moderate lean toward holding a contested position under pressure, with low confidence. SELF-CALIBRATION (agent): reviewed and kept; already low."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_suzuki_riken_news, src_suzuki_daiichi, src_suzuki_riken_figures | 1906-1943 | institutional magazine, company history, institutional history] RIKEN's magazine says Emil Fischer urged him to work on problems pertinent to Japan and that he returned in 1906 thinking about rice and beriberi; it says that after the 1918 rice-price riots he was concerned that rice was being wasted on sake and set out to make a synthetic one; Daiichi Sankyo quotes him that anyone should be allowed to do what other academics have not done 'if it benefits the nation and its people'; RIKEN's science adviser remembers him as pursuing basic research from the viewpoint of nutrition and health for the Japanese people. All of these are from institutions that benefited from his work or from retrospective remembrance, and the quotation is paraphrased by the company; the pattern of choosing food and disease problems of his country is consistent across them. SELF-CALIBRATION (agent): top-risk row; lowered from 70 / 0.50 to 64 / 0.45 because every source is an admiring institution or a retrospective tribute and the one quotation is a paraphrase in a company history."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_suzuki_riken_figures, src_suzuki_riken_news, src_suzuki_daiichi, src_suzuki_fujitani, src_suzuki_ndl | 1899-1943 | institutional histories, company history, scholarly paper] The sources place him in peptide chemistry under Emil Fischer in Berlin, agricultural chemistry (Fujitani mentions a success against a mulberry blight in 1899), the rice-bran and vitamin research, RIKEN's vitamin A work under him, a synthetic sake, a powdered milk and, through advising Sankyo and Daiichi's predecessor, the production of Salvarsan and salicylic acid and an insecticide fumigant; the JPO and RIKEN both describe agricultural chemistry and biochemistry applied to food, medicine and manufacture. The range is real but sits within chemistry applied to food and medicine, several items come from a single company history, and some of the work was assigned (1915 Salvarsan), so the score is moderate."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_suzuki_fujitani, src_suzuki_riken_news, src_suzuki_daiichi | 1911-1927 | scholarly paper, institutional magazine, company history] Fujitani documents that within weeks of presenting aberic acid he filed a patent on its extraction (7 January 1911) and a second on a different method (21 July 1911); the company history says Sankyo sold Orizanin solutions and quotes him that an inventor should ask an entrepreneur to bring the invention to the world; RIKEN's magazine credits his vitamin A work with a financial windfall for RIKEN. RIKEN also says the commercial strategy that turned the vitamin A work into RIKEN Vitamin was President Okochi's, and Fujitani says his Salvarsan work began as an order, so the row is limited to the early patenting and his stated readiness to work with industry, with low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "스즈키 우메타로"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/umetaro-suzuki-unknown-1942.jpg",
+    "width": 991,
+    "height": 1200,
+    "source": "Portrait photograph of Umetaro Suzuki, photographer unknown, published in the book Kindai Nihon no kagakusha (Scientists of Modern Japan), volume 2, by Toyonaga Horikawa (Jinbunkaku, Tokyo, 1942), as reproduced in the National Diet Library's digital exhibition 'Portraits of Modern Japanese Historical Figures' (entry for SUZUKI Umetaro, source item NDL Digital Collections pid 1793218). The library's entry names the sitter, and the source book contains a biography chapter on him. The file is the library's published image (1171 x 1418 pixels) downscaled to 991 x 1200 with no cropping and no upscaling; it is a halftone book reproduction, so the grain is that of the print.",
+    "license": "Public domain (declared by the National Diet Library for all images in 'Portraits of Modern Japanese Historical Figures'; the photograph was published in Japan in 1942)",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/e/about",
+    "attribution": "Photographer unknown, published 1942 in Horikawa Toyonaga, Kindai Nihon no kagakusha vol. 2. Source: Portraits of Modern Japanese Historical Figures, National Diet Library, Japan (https://www.ndl.go.jp/portrait/)",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/e/datas/6356/index.html",
+    "creator": "Unknown photographer",
+    "date": "Published 1942 (taken before 1943)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.ndl.go.jp/portrait/e/datas/6356/index.html"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / RESOLVED WITH A REPLACEMENT SOURCE: the lead (Commons Umetarosuzuki-pre1943.jpg, unknown author, a JSBBA poster as source, {{PD-Japan-oldphoto}}, 700 x 1016) was NOT used, because a Commons tag with an unknown author and a poster as source is a jurisdiction-only claim; I did not need the ryouken.or.jp alternative. Instead I found the National Diet Library's digital exhibition 'Portraits of Modern Japanese Historical Figures', whose 'About This Site' page (opened) states: 'All images used in the digital exhibition ... are in the public domain' and may be reproduced or reused, including for commercial use, with the source cited. The entry for SUZUKI Umetaro (https://www.ndl.go.jp/portrait/e/datas/6356/index.html) offers two photographs; its site data (the library's own content database, state.js and db JSON, read) names their source books as NDL Digital Collections pid 1793218 (Horikawa Toyonaga, Kindai Nihon no kagakusha vol. 2, Jinbunkaku, 1942, 267 pp., which includes a 'Suzuki Umetaro den' chapter) and pid 2986241 (Suzuki Umetaro sensei den, 1967 memorial biography); I used the first, a 1942 publication, because a photograph published in Japan in 1942 had long passed its term under the 1899 Act by 1 January 1996, so it was not restored in the US by the URAA; this is a belt-and-braces reading on top of the library's own public-domain declaration. CAVEATS: the photographer is unknown and the library's page does not print the caption (the page is script-rendered; I resolved the source from its published data files), so the link between the image and the 1942 book rests on the library's data, not on a printed credit I read; the 1967 book's image (a later photograph wearing a decoration) was not used because a post-war publication is a weaker basis. Image 1171 x 1418 downscaled to 991 x 1200, no upscaling; kind likeness (a photograph of the sitter taken in his lifetime). PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q3369717 label 'Umetaro Suzuki' (macron), description 'Japanese agricultural chemist (1874-1943)', ko label 스즈키 우메타로, born 7 April 1874, died 20 September 1943, citizenship Japan; not in prod63.txt, no candidate file existed for umetaro-suzuki. REGION east_asia (Japanese precedents). ERA 20th_century (career 1900-1943; precedent hideyo-noguchi). ZERO POLITICS: primary identity agricultural chemist and vitamin researcher; his later post as head of a scientific research institute in Manchukuo (mentioned in the Daiichi Sankyo page) is not scored and not carded. VOCABULARY: occupations scientist and chemist, fields chemistry and agriculture, tags innovator and mentor, archetype scientific_explorer, impact domains scientific, medical and industrial, all existing. KO NAME: Wikidata Korean label 스즈키 우메타로. CANONICAL SIGNIFICANCE SOURCE: RIKEN historical figures page. READ (7 sources incl. Wikidata): (1) RIKEN figures page, full; (2) RIKEN research news 2016, full; (3) JPO Ten Great Inventors page (curl, full); (4) NDL portraits biography page (full) plus its terms page; (5) Daiichi Sankyo company story, full; (6) Fujitani 2015 proceedings paper (full, pp. 90-98), the scholarly and counter-voice source. PERSPECTIVES: employer institution (RIKEN), national patent-honour page (JPO), library reference (NDL), a company that employed him as adviser (Daiichi Sankyo), an independent scholar of the priority dispute (Fujitani) who reports hostile physicians and the Chemical Abstracts remark favouring Funk. COUNTER-VOICES AND LIMITS: physicians held beriberi to be infectious and attacked the claim; Fujitani concludes that oryzanin was not pure thiamine and that credit for discovering vitamin B1 belongs to Williams (1934-36) on his criterion, while Suzuki and Funk both mis-identified the molecule; I therefore state the contribution as the 1910 anti-beriberi extract and the foundation of Japanese vitamin research, never as 'discovered vitamin B1 first'. Date conflict: RIKEN pages give 1910 for the discovery (the paper was presented 13 December 1910 and printed in January 1911) and another RIKEN article says 1911; both are noted. NOT OPENED: Wikipedia (read only as orientation; the text says he did the work with Shimamura and that a German translation omitted the novelty claim, a claim I could not corroborate in a source I read, so it is not used), Britannica and other encyclopedias, Suzuki's own 1926 paper in Scientific Papers of the Institute of Physical and Chemical Research, his memoir Kenkyu no Kaiko, Alexander Bay's Beriberi in Modern Japan, the Glasgow thesis, the 1967 biography Suzuki Umetaro sensei den. EXCLUSIONS: the reported remark by an unnamed critic is cited only as a documented insult, and the possible identification of the critic with named physicians is not used; the 1915 trial on children is mentioned only as a published study. SPARSE PROFILE: 5 rows, scores 58-68, confidence 0.42-0.55. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (70/0.50 lowered to 64/0.45: all evidence is admiring institutional or retrospective, one quotation is a paraphrase), persistence (kept: continuation after criticism is documented by independent scholar and RIKEN), opportunity_sensing (kept at 60/0.45: already limited to the patents and stated readiness to work with industry). HANDBACK63: {\"slug\": \"umetaro-suzuki\", \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"initial_lead\": \"pre-1943 photograph from a JSBBA poster (Commons Umetarosuzuki-pre1943.jpg)\", \"final_portrait_source\": \"National Diet Library, Japan, digital exhibition 'Portraits of Modern Japanese Historical Figures', entry SUZUKI Umetaro (https://www.ndl.go.jp/portrait/e/datas/6356/index.html), photograph from Horikawa Toyonaga, Kindai Nihon no kagakusha vol. 2 (Jinbunkaku, 1942; NDL pid 1793218), unknown photographer; image 1171x1418 downscaled to 991x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": \"The Commons lead had an unknown author and a poster source with only a jurisdiction-level PD tag; success came from the National Diet Library exhibition, whose terms page declares all its images public domain and whose entry gives a 1942 source book, so the basis is an institutional statement plus a pre-1957 Japanese publication that had expired well before the URAA date.\", \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 70, \"old_confidence\": 0.5, \"new_score\": 64, \"new_confidence\": 0.45, \"reason\": \"Every source is an admiring institution or a retrospective tribute and the one quotation is a paraphrase in a company history\"}], \"reviewed_kept\": [\"persistence\", \"opportunity_sensing\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

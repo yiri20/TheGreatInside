@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "laozi",
+  "status": "held",
+  "holdReason": "Insufficient individually-attributable behavioural evidence. Laozi is semi-legendary: the only biography (Sima Qian, written some four centuries after the traditional date) is described by the Stanford Encyclopedia as of questioned reliability and as already shrouded in legend, the Zhuangzi accounts of Lao Dan are, in the IEP's words, probably fictional, and many modern scholars treat the Daodejing as a composite anthology compiled over generations and not as the work of one author. No documented act, decision or dated episode can be attributed to a historical individual, so any trait row would have to be inferred from the doctrine of the text or from legend, which the pre-modern rules and the rule against inferring personality from doctrine forbid. The research, identity check and a rights-clear portrait are complete and kept; the profile is held at zero rows pending a lead decision (for example, to ship it as a figure card without trait rows if the product allows it, or to drop it from the cohort).",
+  "identity": {
+    "canonicalName": "Laozi",
+    "aliases": [
+      "Lao Tzu",
+      "Lao-tzu",
+      "Lao Dan",
+      "Laotse",
+      "Master Lao"
+    ],
+    "wikidataId": "Q9333",
+    "birthYear": -604,
+    "deathYear": -500,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "religion"
+    ],
+    "impactDomains": [
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "mystic"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_laozi_wikidata",
+      "kind": "wikidata",
+      "title": "Laozi (Q9333), verified live via the Wikidata API (2026-11-02): label 'Laozi', description '6th-century BC semi-legendary Chinese philosopher, founder of Taoism', several candidate birth years (the first being 604 BC), death c. 500 BC (low precision), Korean label 노자, image the Zhang Lu painting at the National Palace Museum. Orientation only; the dates are traditional and uncertain.",
+      "url": "https://www.wikidata.org/wiki/Q9333"
+    },
+    {
+      "id": "src_laozi_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Laozi' (revision 2025), the Laozi story, date and authorship, and textual-traditions sections read. CANONICAL SIGNIFICANCE SOURCE: Philosophical Daoism traces its origins to Laozi, said to have flourished in the sixth century BCE according to Chinese sources, though some modern scholars hold that Laozi is entirely legendary; he is said to have written a short book of about five thousand characters, called the Laozi after its putative author and, once canonised, the Daodejing, 'Classic of the Way and Virtue', concerned with the Dao, virtue, naturalness and nonaction; the Shiji biography is of questioned reliability and by 100 BCE Laozi was already shrouded in legends; the entry says the Laozi is probably a composite anthology that reached stable form by the mid third century BCE and that the 1973 Mawangdui silk manuscripts mark a milestone; in religious Daoism Laozi is revered as a deity. Independent scholarly reference; its own account of the historical Laozi is expressly conjectural.",
+      "url": "https://plato.stanford.edu/entries/laozi/"
+    },
+    {
+      "id": "src_laozi_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Laozi (Lao-tzu)', opening sections read: Laozi means 'Old Master', also called Lao Dan in early sources; the Zhuangzi (late fourth century BCE) is the first text to use Laozi as a personal name and its seventeen Laozi passages include a 'probably fictional' account of Confucius likening Lao Dan to a dragon; the earliest ascriptions of authorship of the Daodejing to Laozi are in the Han Feizi and Huainanzi; the first biography and the ongoing 'Laozi myth' are discussed. Independent scholarly reference, used to confirm that the early material about Laozi is largely fictional or legendary.",
+      "url": "https://iep.utm.edu/laozi/"
+    },
+    {
+      "id": "src_laozi_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Laozi' (Roger T. Ames, updated 2026), opening read: Laozi, flourished in the sixth century BCE, the first philosopher of Chinese Daoism and alleged author of the Daodejing; modern scholars do not believe the Daodejing was written by one person; respected by Confucians as a philosopher, by the people as a saint or god and by Daoists as an emanation of the Dao. Encyclopedia article; only the summary paragraph was read in this session.",
+      "url": "https://www.britannica.com/biography/Laozi"
+    },
+    {
+      "id": "src_laozi_shiji",
+      "kind": "archive",
+      "title": "Sima Qian, 'Records of the Grand Historian', chapter 63, biography of Laozi and Han Fei (Chinese Wikisource, original Chinese read): Laozi, of Chu, surname Li, personal name Er, an archivist at the Zhou court whom Confucius visited to ask about ritual; he cultivated the Dao and virtue, left when Zhou declined, wrote a book in two parts of over five thousand characters at the request of the border official Yin Xi, and was never heard of again; the account itself reports uncertainty over whether Lao Laizi or the historian Dan was the same man and ascribes a lifespan of over 160 or 200 years. Written about four centuries after the traditional date; the earliest continuous biography and itself mixed with legend. Read as a source for the legend, not scored.",
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7063"
+    }
+  ],
+  "rows": {},
+  "localization": {
+    "displayNames": {
+      "ko-KR": "노자"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "Portrait NOT shipped because the candidate is held on evidence (zero scored rows), not for rights. A rights-cleared depiction exists and is preserved here for a future reopening: Zhang Lu (Ming dynasty), 'Laozi Riding an Ox', National Palace Museum, Taipei, open data CC0 tier (item page https://digitalarchive.npm.gov.tw/Collection/Detail/3236?dep=P), kind historical_depiction, downscaled to 657x1200 from the museum IIIF service with no upscaling. The local file was removed from public/portraits at Roster63 cleanup; re-download from the museum item page if the candidate is ever reopened."
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / CONFIRMED, LEAD USED (the Zhang Lu painting). Identity: Wikidata Q9333 verified live (2026-11-02): label Laozi, '6th-century BC semi-legendary Chinese philosopher, founder of Taoism', three candidate birth years (604, 579 and 571 BC), death c. 500 BC; no production or candidate slug or QID collision (prod63.txt and data-pipeline/candidates checked). Region east_asia. Korean name 노자 is the Wikidata Korean label. PORTRAIT: opened the live NPM item page https://digitalarchive.npm.gov.tw/Collection/Detail/3236?dep=P (title 明張路畫老子騎牛 軸, Lao-tzu Riding an Ox; author Zhang Lu, signed 平山; main subject 老子 and the story 老子出關; download panel offers a 1-million-pixel image under CC0 and a 6-million-pixel image under CC BY 4.0) and the museum's open-data declaration (digitalarchive.npm.gov.tw/opendata: images of about 1 million pixels are CC0, mid-resolution images CC BY 4.0, patent and trademark rights excluded); the Commons file's PD-Art tag (Zhang Lu, d. 1538) was not relied on. The painter's dates differ between Commons (1464-1538) and the museum's text (about 1490-1563); either way the painting is far older than any copyright term. Image taken from the museum's published IIIF service (canvas K2A000437N000000000PAA, no captcha involved) at 657 x 1200, no upscaling. A depiction of a legend, so kind historical_depiction; the figure is semi-legendary and the image is not a likeness. RESEARCH AND HOLD: sources read were the Stanford Encyclopedia of Philosophy entry (CANONICAL SIGNIFICANCE SOURCE: Laozi, https://plato.stanford.edu/entries/laozi/), the IEP opening sections, the Britannica summary paragraph, and Sima Qian's Shiji chapter 63 in Chinese, plus Wikidata for orientation. PERSPECTIVES: modern scholarly reference (SEP, IEP), encyclopedia (Britannica), and the earliest biography (Shiji), which the modern scholars treat as legend-laden. No behavioural record exists that is attributable to a historical individual, so zero rows were scored and the candidate is held (see holdReason); the lead should decide whether to ship a figure card without trait rows or drop it. Counter-voices on his historical status are the scholars quoted in the SEP who hold that Laozi is entirely legendary. Excluded: the encounter with Confucius, the departure through the pass, the lifespan and descendants, and the divine status in religious Daoism (all legend or religious tradition); doctrine of the Daodejing (nonaction, naturalness) is not converted into personality traits. NOT opened: the full IEP sections on the first biography and the Laozi myth, the Zhuangzi and Liji passages themselves, the Guodian and Mawangdui manuscripts, Graham's essay. MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on all checks for the draft cards, which state the traditional authorship of the Daodejing and the founder role with the scholarly caveats; moments and turning point are not provided because there are no rows to attach them to. Self-calibration: no rows, so no rows reviewed or lowered. HANDBACK63: {\"slug\":\"laozi\",\"portrait_preflight_grade\":\"PLAUSIBLE (alt-dependent)\",\"initial_lead\":\"Zhang Lu (Ming) 'Laozi Riding an Ox', National Palace Museum\",\"final_portrait_source\":\"National Palace Museum, Taipei / Zhang Lu (Ming dynasty), 'Laozi Riding an Ox' (故畫000437N000000000), https://digitalarchive.npm.gov.tw/Collection/Detail/3236?dep=P ; image from the museum IIIF service (canvas K2A000437N000000000PAA), downscaled to 657x1200, CC0 low-resolution tier\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":0,\"self_calibrated_rows\":[],\"reviewed_kept\":[],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"held\",\"final_row_count\":0} LEAD REVIEW (Roster63): portrait record converted to held because the unused portrait file was removed at cleanup; rights research above is preserved in portrait.reason."
+  }
+}

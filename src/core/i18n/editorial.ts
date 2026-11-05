@@ -11884,6 +11884,405 @@ export const EDITORIAL_EN: Record<string, string> = {
     "After starting at Harvard in 1872 teaching comparative anatomy and physiology, he asked President Eliot to let him move into the new field of 'mental science', and in 1875-76 offered the first graduate course in psychology taught in America before shifting toward philosophy from 1878.",
   "william-james.interpretation.turning_point.1":
     "Consistent with a willingness to cross from established fields into emerging ones as his interests shifted.",
+  /* ---------------------------------------------------------- august-kekule (Roster63) */
+  "august-kekule.achievement.1":
+    "In 1857-58 proposed that carbon is tetravalent and that carbon atoms link into chains, laying the foundation of the structural theory of organic chemistry, which he set out in his four-volume textbook; Archibald Couper reached a similar idea at about the same time.",
+  "august-kekule.achievement.2":
+    "Proposed in 1865 that benzene's six carbon atoms form a ring, a structure that was much contested but never replaced by a better theory and that, Britannica says, gave the scientific basis for the growth of the German chemical industry.",
+  "august-kekule.achievement.3":
+    "Taught and led research groups at Ghent and, from 1867, Bonn, where he took charge of a large new laboratory; his first doctoral student Adolf von Baeyer later won a Nobel Prize.",
+  "august-kekule.moment.1":
+    "After Liebig's death he was invited to succeed him at Munich, declined, and suggested his first doctoral student, Adolf von Baeyer.",
+  "august-kekule.interpretation.moment.1":
+    "This is consistent with the head of a research school who put forward a student for a leading post.",
+  "august-kekule.moment.2":
+    "Called to Ghent in 1858, he taught chemistry there in French, a language he is said to have mastered completely.",
+  "august-kekule.interpretation.moment.2":
+    "This is consistent with someone who could move between countries and teaching languages.",
+  "august-kekule.turning_point.1":
+    "In 1865, while working at Ghent on his textbook, he proposed a ring structure for benzene, extending his chain theory to aromatic compounds.",
+  "august-kekule.interpretation.turning_point.1":
+    "This is consistent with a theorist extending a structural scheme to a problem it could not yet explain.",
+  /* ---------------------------------------------------------- caroline-herschel (Roster63) */
+  "caroline-herschel.achievement.1":
+    "German-born astronomer who discovered eight comets between 1786 and 1797, the first woman recorded by Royal Museums Greenwich as discovering a comet, and who worked beside her brother William in the sweeps that found more than 2,400 objects.",
+  "caroline-herschel.achievement.2":
+    "Her 1798 Index to Flamsteed's Observations of the Fixed Stars, published by the Royal Society, corrected Flamsteed's star catalogue and added omitted stars; Michael Hoskin says it made the work one in which observers could have full confidence.",
+  "caroline-herschel.achievement.3":
+    "After William's death in 1822 she compiled a revised catalogue of about 2,500 nebulae, and in 1828 the Royal Astronomical Society presented her with its gold medal, the first woman to receive it, followed by honorary membership in 1835.",
+  "caroline-herschel.moment.1":
+    "Correcting Flamsteed's star catalogue against the observations took her what the Royal Museums Greenwich calls 'a gruelling 20 months', and the resulting 1798 index added omitted stars and errata.",
+  "caroline-herschel.interpretation.moment.1":
+    "This is consistent with a worker who stayed with slow, exacting record-checking until it was complete.",
+  "caroline-herschel.moment.2":
+    "When she found her last comet in 1797 she rode nearly 30 miles to tell the Astronomer Royal, Nevil Maskelyne, in person.",
+  "caroline-herschel.interpretation.moment.2":
+    "This is consistent with an observer who took her own findings to the leading authority rather than leaving them with her brother.",
+  "caroline-herschel.turning_point.1":
+    "Trained in Bath as a singer for William's concerts, she moved into astronomy as his interests changed; King George III granted her a salary of 50 pounds a year as his assistant in 1787, and by about 1782 she had given up music for the work.",
+  "caroline-herschel.interpretation.turning_point.1":
+    "This is consistent with someone who retrained for a new line of work when her circumstances changed.",
+  /* ---------------------------------------------------------- eric-liddell (Roster63) */
+  "eric-liddell.achievement.1":
+    "Won the 400 m at the 1924 Paris Olympics in 47.6 seconds, an Olympic, European and British record, and took bronze in the 200 m.",
+  "eric-liddell.achievement.2":
+    "Withdrew from the 100 m, his strongest event, because the heats fell on a Sunday and rebuilt his Olympic plan around the 400 m; the episode inspired the film Chariots of Fire.",
+  "eric-liddell.achievement.3":
+    "Left athletics in 1925 to teach as a missionary at the Anglo-Chinese College in Tianjin, and from 1943 was interned at Weihsien, where he taught and organised activities for children until his death in 1945.",
+  "eric-liddell.moment.1":
+    "When the 1924 Olympic timetable put the 100 m heats on a Sunday, he refused to run, and a friend later recalled reporters at his door calling him a traitor while he said it was his belief and he would not run.",
+  "eric-liddell.interpretation.moment.1":
+    "This is consistent with holding to an unpopular position under public pressure.",
+  "eric-liddell.moment.2":
+    "Having dropped the 100 m, he went into the 400 m with little international experience at the distance, improved his best by more than a second in the semi-final, and won the final in 47.6 seconds.",
+  "eric-liddell.interpretation.moment.2":
+    "This is consistent with reorganising a plan around a new event at short notice.",
+  "eric-liddell.turning_point.1":
+    "Within weeks of his last Scottish championships in 1925 he left Edinburgh for China to follow his father as a missionary and teach at the Anglo-Chinese College in Tianjin, and he stayed in China when British nationals were advised to leave in 1941.",
+  "eric-liddell.interpretation.turning_point.1":
+    "This is consistent with choosing a long-planned service career over continued athletic fame.",
+  /* ---------------------------------------------------------- evariste-galois (Roster63) */
+  "evariste-galois.achievement.1":
+    "French mathematician who gave a definitive answer to when an algebraic equation is solvable by radicals, by tying solvability to the group of the equation, a founding step of modern algebra now called Galois theory.",
+  "evariste-galois.achievement.2":
+    "In under a hundred pages he also introduced 'Galois imaginaries', a precursor of the theory of finite fields, and results on elliptic and abelian integrals.",
+  "evariste-galois.achievement.3":
+    "His work was lost or rejected by the Academy of Sciences in his lifetime (he died in 1832, aged twenty) and became known only when Joseph Liouville announced it in 1843 and published it in 1846.",
+  "evariste-galois.moment.1":
+    "In his first year of mathematics he found the elementary algebra textbooks unsatisfying and went instead to Lagrange's own treatises on the resolution of equations and on analytic functions.",
+  "evariste-galois.interpretation.moment.1":
+    "This is consistent with a student who preferred to learn from the original masters rather than from textbooks.",
+  "evariste-galois.moment.2":
+    "After his first two memoirs were lost at the Academy, he submitted a third version of his memoir on solvability by radicals on 17 January 1831 at Poisson's invitation, and Poisson and Lacroix reported on it as neither clear nor developed enough.",
+  "evariste-galois.interpretation.moment.2":
+    "This is consistent with someone who kept resubmitting his work after setbacks, even when the exposition left readers unconvinced.",
+  "evariste-galois.turning_point.1":
+    "In February 1827 he began his first mathematics class at the Lycée Louis-le-Grand; his director of studies wrote that 'it is the passion for mathematics which dominates him', and within two years he published his first paper, on continued fractions.",
+  "evariste-galois.interpretation.turning_point.1":
+    "This is consistent with a student who turned wholeheartedly to one field once he met it.",
+  /* ---------------------------------------------------------- geoffrey-chaucer (Roster63) */
+  "geoffrey-chaucer.achievement.1":
+    "English poet, regarded as the outstanding English poet before Shakespeare, whose unfinished frame story The Canterbury Tales, told by pilgrims from across the middle ranks of society, ranks according to Britannica as one of the greatest poetic works in the English language.",
+  "geoffrey-chaucer.achievement.2":
+    "He wrote in the English vernacular while court poetry was still written in Anglo-Norman or Latin, and made poems such as The Book of the Duchess, The Parliament of Birds and Troilus and Criseyde by combining French and Italian models, including Dante, Boccaccio and Petrarch, with his own forms.",
+  "geoffrey-chaucer.achievement.3":
+    "His decasyllabic couplet later evolved into the heroic couplet and he is credited with pioneering regular iambic pentameter in English; some sixty or more fifteenth-century manuscripts of the Canterbury Tales (counting fragments) survive, Caxton printed it in 1478, and his tomb in Westminster Abbey became the start of Poets' Corner.",
+  "geoffrey-chaucer.moment.1":
+    "On missions to Italy in 1372 and 1378 he came to know the works of Dante, Boccaccio and Petrarch; Troilus and Criseyde afterwards retold the story from Boccaccio's Il Filostrato with a particularly Italian turn in its treatment of love.",
+  "geoffrey-chaucer.interpretation.moment.1":
+    "This is consistent with a poet who took in new literary models whenever he encountered them and worked them into his own writing.",
+  "geoffrey-chaucer.moment.2":
+    "In the Canterbury Tales, where the tellers range from the Knight to the Pardoner and the Summoner, each tale is used to answer the previous teller, some tales are interrupted by the pilgrims, and others are left unfinished.",
+  "geoffrey-chaucer.interpretation.moment.2":
+    "This is consistent with a writer who kept testing new narrative arrangements within a familiar frame.",
+  "geoffrey-chaucer.turning_point.1":
+    "About 1386 and after, when his customs post ended and he moved to Kent, he began the General Prologue of the Canterbury Tales, which the Academy of American Poets marks as the start of his artistic maturity and on which he worked, most likely, until his death in 1400.",
+  "geoffrey-chaucer.interpretation.turning_point.1":
+    "This is consistent with a poet who gave his main creative effort to one large work in the last period of his life.",
+  /* ---------------------------------------------------------- heinrich-barth (Roster63) */
+  "heinrich-barth.achievement.1":
+    "Led the 1850-55 British-sponsored expedition from Tripoli across the Sahara to Lake Chad, the Benue and Timbuktu, continuing alone after his two companions died, and recorded it in the five-volume Travels and Discoveries.",
+  "heinrich-barth.achievement.2":
+    "Spent about six months in and around Timbuktu in 1853-54, where Sheikh al-Baqqai's protection gave him access to Sudanic chronicles that reinforced his view that Africa had a history of its own.",
+  "heinrich-barth.achievement.3":
+    "Became a pioneer of the study of African history and languages, collecting vocabularies of Central African languages, and from 1863 held a professorship of geography at Berlin and founded the Carl Ritter Foundation.",
+  "heinrich-barth.moment.1":
+    "After Adolf Overweg died in September 1852 and he was alone, Barth decided to push west to Timbuktu, reaching it on 7 September 1853 through lands no European had crossed.",
+  "heinrich-barth.interpretation.moment.1":
+    "This is consistent with a person who kept to a scientific goal after the loss of his companions.",
+  "heinrich-barth.moment.2":
+    "The mapmaker August Petermann reported that Barth read his watch and compass about every five minutes and measured camel pace at different times of day to fix route lengths.",
+  "heinrich-barth.interpretation.moment.2":
+    "This is consistent with painstaking record-keeping, though it comes from a collaborator and Humboldt faulted his position-fixing.",
+  "heinrich-barth.turning_point.1":
+    "Richardson's death in March 1851, followed by Overweg's in September 1852, left Barth in charge and, in time, alone, turning a three-man mission into a solo six-year survey.",
+  "heinrich-barth.interpretation.turning_point.1":
+    "This is consistent with a person able to carry an expedition's scientific aims on his own.",
+  /* ---------------------------------------------------------- hendrik-lorentz (Roster63) */
+  "hendrik-lorentz.achievement.1":
+    "Developed the electron theory that completed Maxwell's electromagnetism, treating matter and charge as particulate; its explanation of Pieter Zeeman's observation won them the 1902 Nobel Prize in Physics.",
+  "hendrik-lorentz.achievement.2":
+    "In 1904 formulated the Lorentz transformation, which accounted for the null result of the Michelson-Morley experiments and, in the Nobel Foundation's words, paved the way for Einstein's special theory of relativity; he kept the ether to the end.",
+  "hendrik-lorentz.achievement.3":
+    "Chaired the first five Solvay Conferences (1911-1927) and the Dutch Zuiderzee Commission, whose tidal calculations for the closing dyke used a scientifically based method for setting dyke heights.",
+  "hendrik-lorentz.moment.1":
+    "At the 1911 Solvay conference he chaired, a colleague wrote that he led the discussion with exceptional clarity and friendliness, creating an amicable yet serious tone whenever opinions differed.",
+  "hendrik-lorentz.interpretation.moment.1":
+    "This is consistent with a collaborator who made group discussion work, though the account comes from a close colleague.",
+  "hendrik-lorentz.moment.2":
+    "He lectured on Heisenberg's matrix mechanics in 1925-26 and on Schrödinger's theory in 1927, within a year of each appearing, when he was over seventy.",
+  "hendrik-lorentz.interpretation.moment.2":
+    "This is consistent with a physicist who kept pace with new theories he did not fully accept himself.",
+  "hendrik-lorentz.turning_point.1":
+    "In 1912 he took the Haarlem curatorship at Teyler's and the secretaryship of the Dutch Society of Sciences, leaving his Leiden chair to keep only the Monday-morning lectures, so that research and lecturing on new physics replaced routine academic duties.",
+  "hendrik-lorentz.interpretation.turning_point.1":
+    "This is consistent with a deliberate trade of administrative load for time to follow the new physics.",
+  /* ---------------------------------------------------------- iwasaki-yataro (Roster63) */
+  "iwasaki-yataro.achievement.1":
+    "He turned the Tosa clan's shipping business into the private steamship company he named Mitsubishi in 1873, which became Japan's dominant shipping line and the origin of the Mitsubishi zaibatsu, the second largest family-owned industrial-financial combine of his era.",
+  "iwasaki-yataro.achievement.2":
+    "He opened the Yokohama-Shanghai line in 1875, won a price war with the American firm Pacific Mail, and moved into coal (Takashima, 1881) and shipbuilding (the Nagasaki shipyard, leased 1884), the roots of Mitsubishi's mining and heavy-industry businesses.",
+  "iwasaki-yataro.achievement.3":
+    "His company's rise relied on government favour and drew press attacks and complaints of monopoly pricing; after a costly rivalry with Kyodo Unyu, a merger created NYK in 1885, the year he died.",
+  "iwasaki-yataro.moment.1":
+    "In 1874, when the government struggled to find a carrier to move troops and supplies to Taiwan, Mitsubishi accepted the job despite the risks, and afterwards received government-supplied ships that greatly enlarged its fleet.",
+  "iwasaki-yataro.interpretation.moment.1":
+    "This is consistent with a willingness to take on risky commitments, though the account is largely the company's own and state backing lowered the risk.",
+  "iwasaki-yataro.moment.2":
+    "In the Shanghai fare war with Pacific Mail, fares fell by more than half; Mitsubishi cut executives' pay, won the contest and bought out the American line.",
+  "iwasaki-yataro.interpretation.moment.2":
+    "This is consistent with a strongly competitive approach to rivals, though the details come mainly from the company's own history.",
+  "iwasaki-yataro.turning_point.1":
+    "When the clan domains were abolished around 1870-73, he took over the Tosa clan's shipping business as a private concern and, from 1873, ran it as Mitsubishi.",
+  "iwasaki-yataro.interpretation.turning_point.1":
+    "This is consistent with seizing an opening created by institutional change, though sources differ on the exact dates and the terms of the takeover.",
+  /* ---------------------------------------------------------- leos-janacek (Roster63) */
+  "leos-janacek.achievement.1":
+    "A Czech composer who built a distinctive operatic language from the inflections of spoken Czech and the scales of Moravian folk music; Jenufa (premiered in Brno in 1904) established his international reputation, which Britannica ranks among his most important operas.",
+  "leos-janacek.achievement.2":
+    "In the last decade of his life, after Jenufa reached Prague in 1916, he wrote his most celebrated works: the operas Katya Kabanova, The Cunning Little Vixen, The Makropulos Case and From the House of the Dead, along with the Sinfonietta, the Glagolitic Mass and two string quartets.",
+  "leos-janacek.achievement.3":
+    "Beyond composing he founded the organ school at Brno in 1881 (later the Brno Conservatory), founded the periodical Hudebni listy, collected Moravian folk songs, and from 1897 notated speech melodies in 56 surviving notebooks, a body of work later scholars still debate.",
+  "leos-janacek.moment.1":
+    "From the summer of 1897 until 1928 he went on notating overheard speech, adding the time, place and situation to many entries; 56 of his notebooks survive, and the Brno festival counts more than three thousand recordings, including animal sounds.",
+  "leos-janacek.interpretation.moment.1":
+    "This is consistent with a long, self-directed habit of listening and recording, though scholars disagree about how objective the notation was.",
+  "leos-janacek.moment.2":
+    "In 1881 he founded an organ school in Brno and directed it for decades, and in the 1880s he also founded and edited Hudebni listy, the first musical periodical in Moravia.",
+  "leos-janacek.interpretation.moment.2":
+    "This is consistent with a person who built the institutions around him rather than waiting for them to exist.",
+  "leos-janacek.turning_point.1":
+    "Jenufa took nearly ten years to write and was premiered in Brno in 1904 after the Prague National Theatre refused it; when it was finally staged in Prague in 1916 it was a great success and took him to Vienna, Berlin and New York, opening the last, most productive decade of his life.",
+  "leos-janacek.interpretation.turning_point.1":
+    "This is consistent with sustained commitment to his own work through long neglect, rather than a change of direction to win acceptance.",
+  /* ---------------------------------------------------------- mori-ogai (Roster63) */
+  "mori-ogai.achievement.1":
+    "One of the creators of modern Japanese literature: his 1890 story Maihime (The Dancing Girl), closely based on his own time in Berlin, broke with the impersonal fiction of earlier generations and started a vogue for autobiographical writing, and his novel Gan (The Wild Goose, 1911-13) became his most popular work.",
+  "mori-ogai.achievement.2":
+    "He brought European literature into Japanese through translation and criticism: the poetry collection Omokage (1889), Andersen's Improvisatoren (published 1892-1901), Goethe's Faust and Ibsen's John Gabriel Borkman (staged in his translation in 1909), and print debates with Tsubouchi Shoyo over the purpose of drama.",
+  "mori-ogai.achievement.3":
+    "Alongside writing he was a physician-administrator: he studied hygiene in Germany (1884-88), co-wrote the 1897 hygiene textbook, rose in 1907 to head the army's medical division, and after 1912 turned to historical stories and critical biographies such as Shibue Chusai, later also directing the Imperial Household Museum.",
+  "mori-ogai.moment.1":
+    "In 1909 his story Vita Sexualis appeared in the magazine Subaru and the issue was banned; the Deputy Army Minister reprimanded him and afterwards asked him to publish fiction under a pseudonym.",
+  "mori-ogai.interpretation.moment.1":
+    "This is consistent with a writer willing to publish provocative work despite pressure from his own superiors, though he also complied with the later request.",
+  "mori-ogai.moment.2":
+    "From 1909 to 1914 he wrote the column Mukudori tsushin in the magazine Subaru, reporting concisely on cultural and scientific trends in Europe and North America, and for years after his German study he kept having new German books and periodicals sent to him.",
+  "mori-ogai.interpretation.moment.2":
+    "This is consistent with a continuing, self-directed interest in developments abroad well beyond what his official posts required.",
+  "mori-ogai.turning_point.1":
+    "Sent by the army to Germany in 1884 to study hygiene, he spent four years there also reading German literature and philosophy and visiting theatres and galleries, and returned in 1888 to start modernizing both Japanese medicine and Japanese literature, debuting with Omokage in 1889.",
+  "mori-ogai.interpretation.turning_point.1":
+    "This is consistent with a person who used one professional assignment as an opening into a second field that he then pursued in parallel for the rest of his life.",
+  /* ---------------------------------------------------------- moses-mendelssohn (Roster63) */
+  "moses-mendelssohn.achievement.1":
+    "He was a leading philosopher of the German Enlightenment, a co-editor of its literary journals with Lessing and Nicolai, and the symbolic figure of the Haskalah, the Jewish Enlightenment, who joined Jewish learning with German philosophy and letters.",
+  "moses-mendelssohn.achievement.2":
+    "He translated the Pentateuch and Psalms into German with a Hebrew commentary (the Biur), completed in 1783 with collaborators despite a rabbinical ban, and at his suggestion Berlin's Jewish Free School opened in 1781.",
+  "moses-mendelssohn.achievement.3":
+    "His 1763 essay on evidence in metaphysics won the Berlin Academy's prize, his dialogue Phaedo (1767) on the soul's immortality was a best-seller, and Jerusalem (1783) argued that religion should not coerce belief while Judaism rests on revealed law.",
+  "moses-mendelssohn.moment.1":
+    "Publicly challenged in 1769 by Lavater to refute a Christian apologetic book or convert, he obtained the consistory's permission and answered in print that his belief in his own religion was unshakable and that Bonnet's book could not convert him.",
+  "moses-mendelssohn.interpretation.moment.1":
+    "This is consistent with a thinker who held his own position under public pressure.",
+  "moses-mendelssohn.moment.2":
+    "After the rabbis of Altona, Prague and elsewhere banned his German Pentateuch in 1779 and his first commentator left after Genesis, he took over the commentary himself, assigned other books to Wessely, Jaroslav and Homberg, and finished the work in 1783.",
+  "moses-mendelssohn.interpretation.moment.2":
+    "This is consistent with someone who kept a long project going through opposition and the loss of a collaborator.",
+  "moses-mendelssohn.turning_point.1":
+    "According to the Jewish Encyclopedia, the Lavater controversy of 1769-70 opened the second period of his career, in which he turned from philosophy and criticism chiefly to Judaism and Jewish learning, leading to the Hebrew commentaries, the German Pentateuch and Psalms, and Jerusalem.",
+  "moses-mendelssohn.interpretation.turning_point.1":
+    "This is consistent with a broadening of his work from general philosophy and criticism to biblical and Jewish scholarship.",
+  /* ---------------------------------------------------------- paul-morphy (Roster63) */
+  "paul-morphy.achievement.1":
+    "Won the first American chess congress in 1857, then in 1858-59 defeated Adolf Anderssen and the other leading masters who would face him in Europe, and was hailed as the world's best player during a public career of under two years.",
+  "paul-morphy.achievement.2":
+    "Britannica credits him as the first to rely on the principle of development before attack, and the World Chess Hall of Fame calls him a revolutionary player who valued long-term strategic development over premature attacks.",
+  "paul-morphy.achievement.3":
+    "In Paris in 1858 he played eight strong opponents blindfolded at once, winning six games and drawing two; he was inducted into the U.S. Chess Hall of Fame in 1986 and the World Chess Hall of Fame in 2001.",
+  "paul-morphy.moment.1":
+    "After the 1857 congress he issued a challenge to anyone in the country at odds of a pawn and the first move.",
+  "paul-morphy.interpretation.moment.1":
+    "This is consistent with a competitor who sought out rivals rather than waiting for them.",
+  "paul-morphy.moment.2":
+    "In the 1857 congress, played without a time limit and with single moves sometimes taking over an hour, he outsat and outplayed the best players and lost only one game.",
+  "paul-morphy.interpretation.moment.2":
+    "This is consistent with sustained concentration over long games, though the account is a general one.",
+  "paul-morphy.turning_point.1":
+    "Back in the United States in 1859, he offered to give pawn and move odds to any player in the world and, when nobody answered, abandoned his public chess career.",
+  "paul-morphy.interpretation.turning_point.1":
+    "This is consistent with a competitive career organised around open challenges, which ended once none was taken up.",
+  /* ---------------------------------------------------------- pieter-bruegel (Roster63) */
+  "pieter-bruegel.achievement.1":
+    "Painted landscapes and vigorous, often witty scenes of peasant life that Britannica calls the work of the greatest Flemish painter of the 16th century.",
+  "pieter-bruegel.achievement.2":
+    "Designed Alpine landscapes and, from 1556, satirical and moralising scenes in the manner of Bosch for the Antwerp print publisher Hieronymus Cock, prints on which his early fame rested.",
+  "pieter-bruegel.achievement.3":
+    "After moving to Brussels in 1563 he painted his greatest works for leading collectors and patrons, and his sons Jan and Pieter founded a dynasty of painters that lasted into the 18th century.",
+  "pieter-bruegel.moment.1":
+    "On his journey to Italy around 1552-54 he travelled as far as southern Italy and crossed the Alps, and drew mountain landscapes between 1553 and 1556 that Britannica calls almost without parallel for their rendering of high mountains.",
+  "pieter-bruegel.interpretation.moment.1":
+    "This is consistent with a sustained interest in landscape and the natural world.",
+  "pieter-bruegel.moment.2":
+    "In Rome in 1553 he worked with the miniaturist Giulio Clovio, whose estate inventory lists a miniature the two made together, and the figures in his landscape of that year were probably painted by Maarten de Vos.",
+  "pieter-bruegel.interpretation.moment.2":
+    "This is consistent with working readily alongside other specialists.",
+  "pieter-bruegel.turning_point.1":
+    "From 1556 he turned to satirical, didactic and moralising subjects in the fantastic manner of Bosch, and Britannica says his inventiveness lifted these designs above mere imitation.",
+  "pieter-bruegel.interpretation.turning_point.1":
+    "This is consistent with turning an inherited manner into something of his own.",
+  /* ---------------------------------------------------------- rene-caillie (Roster63) */
+  "rene-caillie.achievement.1":
+    "Britannica calls him the first European to survive a journey to Timbuktu: disguised as a Muslim, he left the Guinea coast in April 1827, reached the city on 20 April 1828 and returned across the Sahara to Morocco and France.",
+  "rene-caillie.achievement.2":
+    "After eight months learning Arabic and Islamic custom among the Braknas, he found Timbuktu a modest town of mud houses rather than the fabled city of gold, and his roughly 4,500-mile route opened up terrain unknown to Europeans.",
+  "rene-caillie.achievement.3":
+    "He received the Paris Geographical Society's prize, the Legion of Honour and a pension, and his Journal (edited by Jomard) was published in 1830; when Heinrich Barth reached Timbuktu in 1853 he found the report trustworthy in general while noting errors.",
+  "rene-caillie.moment.1":
+    "Living among the Braknas in 1824-25, he was caught writing his journal by a sherif who saw no Arabic characters; in his own telling he said it was a song and sang to convince him.",
+  "rene-caillie.interpretation.moment.1":
+    "This is consistent with quick improvisation under suspicion, though the episode is known only from his own narrative.",
+  "rene-caillie.moment.2":
+    "Barth, retracing his route in the 1850s, found Caillié's report trustworthy in general and accurate in describing what he saw under very unfavourable circumstances, while listing mistakes such as the position of a mosque tower and the number of its gateways.",
+  "rene-caillie.interpretation.moment.2":
+    "This is consistent with careful observation under difficult conditions, with the listed errors limiting how strongly it is read.",
+  "rene-caillie.turning_point.1":
+    "After the governor of Senegal gave no encouragement for a Timbuktu journey in 1824-25, he went to Sierra Leone, worked as superintendent of an indigo plantation and, having saved 80 pounds, joined a caravan inland at his own expense.",
+  "rene-caillie.interpretation.turning_point.1":
+    "This is consistent with carrying a goal through official refusal by raising his own funds.",
+  /* ---------------------------------------------------------- saadi (Roster63) */
+  "saadi.achievement.1":
+    "One of the greatest figures in classical Persian literature, he completed the Bustan (The Orchard, 1257), a verse collection of ethical tales, and the Gulistan (The Rose Garden, 1258), mainly prose with inserted poems, the two works for which he is best known.",
+  "saadi.achievement.2":
+    "He was also a celebrated lyric poet and writer of odes, whose ghazals and qasidas, a mirror-for-princes treatise, prose pieces and Arabic poems are gathered in his collected works, making him, in Britannica's words, the most widely admired writer in the world of Iranian culture.",
+  "saadi.achievement.3":
+    "His poetry spread across the Persian-speaking world within decades of his death: it impressed the Delhi poets Amir Khosrow and Hasan Sijzi, the Gulistan was translated into Turkish in Anatolia, and his works were taken up by European Romantic readers in the nineteenth century.",
+  "saadi.moment.1":
+    "After some thirty years away from Shiraz he completed the Bustan in late 1257 and the Gulistan a year later, the two dates the Encyclopaedia Iranica calls the most reliable in his biography; one is mostly verse, the other mainly prose with inserted poems.",
+  "saadi.interpretation.moment.1":
+    "This is consistent with a writer working comfortably across forms, though the surviving record says little about how he chose between them.",
+  "saadi.moment.2":
+    "Back in Shiraz he wrote poems for successive Salghurid and Il-khanid officials, giving counsel as well as praise, while apparently never joining the court in a formal post, and reportedly living in a Sufi hospice.",
+  "saadi.interpretation.moment.2":
+    "This is consistent with a poet who adjusted to changing circumstances while keeping some independence of position, though the sources do not document his reasons.",
+  "saadi.turning_point.1":
+    "As an adolescent, probably around 1223-24, he left Shiraz to continue his studies at the Nizamiyya college in Baghdad, the start of a long period of study and travel that ended with his return to Shiraz about 1257 as an already famous poet.",
+  "saadi.interpretation.turning_point.1":
+    "This is consistent with a commitment to formal learning early in life, though the account rests partly on his own works, which scholars treat cautiously.",
+  /* ---------------------------------------------------------- scott-joplin (Roster63) */
+  "scott-joplin.achievement.1":
+    "Composer and pianist known as the 'King of Ragtime Writers', whose Maple Leaf Rag (1899) took him from local fame in Sedalia, Missouri, to national attention and set the standard for the ragtime compositions that followed; Britannica says his reputation rests on the classic rags published from 1899 to 1909, including Maple Leaf Rag and The Entertainer.",
+  "scott-joplin.achievement.2":
+    "He carried ragtime into larger forms: a ragtime ballet (1902), the lost opera A Guest of Honor (1903), the instruction book The School of Ragtime (1908), and the three-act opera Treemonisha, which he published at his own expense in 1911 but never saw fully staged.",
+  "scott-joplin.achievement.3":
+    "After years of obscurity his music was revived: the New York Public Library issued his collected works in 1971, Treemonisha was fully produced in 1972 and reached Broadway in 1975, the 1973 film The Sting made The Entertainer a hit, and in 1976 the Pulitzer Prize board gave him a special posthumous award for his contributions to American music.",
+  "scott-joplin.moment.1":
+    "After his first published pieces in 1895-96 showed little compositional sophistication, he took the advice of Otis Saunders and Tony Williams and enrolled in music courses at Sedalia's George R. Smith College, and by 1897 he could write down the complicated rhythms he and his friends had long improvised.",
+  "scott-joplin.interpretation.moment.1":
+    "This is consistent with a musician who acted on a candid assessment of his own gaps and trained to close them.",
+  "scott-joplin.moment.2":
+    "After a Harlem theatre backed out of a planned 1913 staging, Joplin put on Treemonisha himself in 1915 at the Lincoln Theater with no costumes, props or orchestra, having already invested most of his money in the opera; it drew no critical comment.",
+  "scott-joplin.interpretation.moment.2":
+    "This is consistent with a creator who kept pursuing a large work through repeated failures to find backing, at heavy personal cost.",
+  "scott-joplin.turning_point.1":
+    "In 1899 the publisher John Stark issued Maple Leaf Rag in Sedalia, and its success moved Joplin from local entertainer to national fame; Stark moved to St. Louis in 1900 and Joplin followed within a year, hoping to reach a larger market with compositions and performances.",
+  "scott-joplin.interpretation.turning_point.1":
+    "This is consistent with a composer who used a breakthrough to move toward a bigger stage for his work.",
+  /* ---------------------------------------------------------- thomas-telford (Roster63) */
+  "thomas-telford.achievement.1":
+    "A stonemason's son who became one of Britain's most eminent civil engineers, Telford planned or advised on hundreds of roads, canals, bridges and harbours and is called the 'Father of Civil Engineering' by the Institution of Civil Engineers.",
+  "thomas-telford.achievement.2":
+    "His Pontcysyllte aqueduct (World Heritage site, 2009), the Caledonian Canal (1804-22) and the Menai suspension bridge (1819-26, a span of nearly 580 feet) are his best-known works; the canal took twelve years and cost 910,000 pounds against a plan of seven years and 474,000.",
+  "thomas-telford.achievement.3":
+    "As first president of the Institution of Civil Engineers from 1820 he was the driving force behind its 1828 Royal Charter and left it his largest donation, his books, drawings and papers.",
+  "thomas-telford.moment.1":
+    "Before the Menai Bridge's chains went up he had every part carefully tested by repeated experiment, because the structure was the largest of its kind ever attempted and its failure had been predicted.",
+  "thomas-telford.interpretation.moment.1":
+    "This is consistent with a habit of testing a new design before committing to it, though the account comes from an admiring Victorian biography.",
+  "thomas-telford.moment.2":
+    "For his twenty-one years as principal engineer of the Caledonian Canal, parliamentary returns show a fixed fee of 237 pounds a year, and he served the British Fisheries Society's harbour works without payment.",
+  "thomas-telford.interpretation.moment.2":
+    "This is consistent with weighing public works above personal earnings, though the pay figures and the unpaid work are known mainly through one admiring biography.",
+  "thomas-telford.turning_point.1":
+    "Appointed engineer of the Ellesmere Canal in 1793 with no canal-making experience, he took William Jessop's advice on earthwork and then designed the cast-iron-trough aqueducts at Chirk and Pontcysyllte that brought him national fame.",
+  "thomas-telford.interpretation.turning_point.1":
+    "This is consistent with learning a new branch of engineering quickly by asking for help, though Smiles' own footnote notes a dispute over who proposed the iron trough.",
+  /* ---------------------------------------------------------- tirunesh-dibaba (Roster63) */
+  "tirunesh-dibaba.achievement.1":
+    "At the 2008 Beijing Olympics she became the first woman to win both the 5,000 m and 10,000 m, and in 2012 she became the first woman to win the Olympic 10,000 m at two consecutive Games.",
+  "tirunesh-dibaba.achievement.2":
+    "Won the 2003 world 5,000 m title as the youngest world champion in her sport, the 5,000 m and 10,000 m double at the 2005 world championships, world cross-country titles and a 2013 world 10,000 m title, and set the 5,000 m world record of 14:11.15.",
+  "tirunesh-dibaba.achievement.3":
+    "Moved up to the marathon after her track career, debuting in London in 2014 and winning the 2017 Chicago Marathon in 2:18:31, her first marathon victory.",
+  "tirunesh-dibaba.moment.1":
+    "In the 2012 Olympic 10,000 m she sat in the pack for most of the last eight laps, took the lead about 530 m from the finish and won by the second-largest margin in the event's Olympic history.",
+  "tirunesh-dibaba.interpretation.moment.1":
+    "This is consistent with a race plan, agreed with her coaches and carried out as she described it.",
+  "tirunesh-dibaba.moment.2":
+    "At Chicago in 2017 she led from the gun without pacemakers, zig-zagged to stop rivals drafting behind her and pulled clear after 30 km.",
+  "tirunesh-dibaba.interpretation.moment.2":
+    "This is consistent with a runner who takes control of races and aims to beat rivals outright.",
+  "tirunesh-dibaba.turning_point.1":
+    "After winning the 2012 Olympic 10,000 m she announced a marathon plan, debuted over the distance in London in 2014, and after her 2017 Chicago win said she would not return to the track.",
+  "tirunesh-dibaba.interpretation.turning_point.1":
+    "This is consistent with a willingness to change events and rebuild her racing around a new distance.",
+  /* ---------------------------------------------------------- umetaro-suzuki (Roster63) */
+  "umetaro-suzuki.achievement.1":
+    "Japanese agricultural chemist who in 1910 extracted an anti-beriberi substance from rice bran, named aberic acid and later oryzanin (today associated with vitamin B1), founding vitamin research in Japan; scholars note his extract was not pure thiamine and that credit for the discovery remains disputed.",
+  "umetaro-suzuki.achievement.2":
+    "At RIKEN, whose Chemistry Division he directed from 1917, his laboratory's vitamin A work (purified from cod liver oil by his student Katsumi Takahashi in 1922) became RIKEN Vitamin, whose sales covered half of RIKEN's research budget between the wars.",
+  "umetaro-suzuki.achievement.3":
+    "He became the first president of the Agricultural Chemical Society of Japan in 1924, trained many leading scientists, and received the Order of Culture in 1943.",
+  "umetaro-suzuki.moment.1":
+    "He presented his paper on aberic acid to the Chemical Society of Tokyo on 13 December 1910; physicians who held beriberi to be infectious attacked it, even in the newspapers, and Suzuki went back to his laboratory, confirmed his results and published further studies.",
+  "umetaro-suzuki.interpretation.moment.1":
+    "This is consistent with a researcher who kept to a contested result under hostile criticism and answered it with more experiments.",
+  "umetaro-suzuki.moment.2":
+    "After the 1918 rice-price riots, concerned that rice was being used for sake, he set out to make a synthetic sake from other materials, which RIKEN later produced as RIKEN-shu.",
+  "umetaro-suzuki.interpretation.moment.2":
+    "This is consistent with a chemist who turned a national food problem into a research task.",
+  "umetaro-suzuki.turning_point.1":
+    "In 1915 Suzuki was ordered to stop his beriberi research and put his energies into synthesising Salvarsan, which wartime blockade had cut off; two years later he became a chief researcher at the newly founded RIKEN, where his laboratory's vitamin work turned into an industrial product line.",
+  "umetaro-suzuki.interpretation.turning_point.1":
+    "This is consistent with a research career that moved from a university research question into industrially applied chemistry.",
+  /* ---------------------------------------------------------- zhao-mengfu (Roster63) */
+  "zhao-mengfu.achievement.1":
+    "Chinese painter and calligrapher honoured as an early master of the literati tradition of painting (wenrenhua), in which artists sought personal expression rather than the representation of nature, and regarded as the leading calligrapher of his time.",
+  "zhao-mengfu.achievement.2":
+    "He turned painting back to the 'spirit of antiquity': Britannica says his paintings were among the first after the Song academy to take an interest from ancient masters, and his 1295 handscroll Autumn Colors on the Qiao and Hua Mountains, made for his friend Zhou Mi, reinterprets Dong Yuan-like motifs in a new way.",
+  "zhao-mengfu.achievement.3":
+    "His calligraphy in seal, clerical, running and cursive scripts revived the style of Wang Xizhi, and the History of Yuan says an Indian monk travelled tens of thousands of li to obtain his writing; the generation after him, the Four Masters of Yuan painting, carried his literati revolution to fruition.",
+  "zhao-mengfu.moment.1":
+    "On journeys in North China he saw and collected landscape paintings by the tenth- and eleventh-century masters Li Cheng, Dong Yuan and Fan Kuan, which were little known in the south, and wrote that the most important thing in painting is the 'spirit of antiquity'.",
+  "zhao-mengfu.interpretation.moment.1":
+    "This is consistent with an artist who looked to old masters directly and made them the basis of a new approach rather than following the prevailing style.",
+  "zhao-mengfu.moment.2":
+    "The History of Yuan lists his commentary on the Book of Documents, his treatises on the origins of the zither and of music, his poetry and prose, calligraphy in every script, and painting of landscapes, flowers, bamboo, figures and horses, and quotes the historian Yang Zai that his talent was so masked by calligraphy and painting that those who knew one side of him did not know the others.",
+  "zhao-mengfu.interpretation.moment.2":
+    "This is consistent with a scholar-artist whose work spanned several arts that were seldom known together.",
+  "zhao-mengfu.turning_point.1":
+    "After the Song dynasty fell in 1279 he lived at home, and the History of Yuan says he applied himself still more to study; on his later travels in the north he saw and collected old masters' paintings, and in 1295 he produced the handscroll Autumn Colors on the Qiao and Hua Mountains, which the Encyclopedia of World Biography calls his most famous surviving handscroll.",
+  "zhao-mengfu.interpretation.turning_point.1":
+    "This is consistent with a period of deepened study that led, over the following years, to his characteristic mature painting.",
+  /* ---------------------------------------------------------- zhu-xi (Roster63) */
+  "zhu-xi.achievement.1":
+    "Neo-Confucian philosopher of the Southern Song, ranked by the Stanford Encyclopedia as second only to Confucius in influence, who compiled and commented on the Great Learning, Analects, Mencius and Doctrine of the Mean as the Four Books, the basis of the Chinese imperial examinations from the Yuan dynasty until 1908.",
+  "zhu-xi.achievement.2":
+    "A teacher of hundreds if not thousands of students, whose discourses survive in the Classified Dialogues, he rebuilt the White Deer Grotto Academy in 1179-80 and set down its rules, and he co-compiled the anthology Reflections on Things at Hand.",
+  "zhu-xi.achievement.3":
+    "His method of 'investigating things' and his priority of pattern over material force shaped later Confucian debate, and drew criticism from Lu Jiuyuan and Chen Liang in his lifetime and later from Wang Yangming, Wang Fuzhi and Dai Zhen.",
+  "zhu-xi.moment.1":
+    "To test a monk's claim, he measured the growth of bean sprouts by day and by night and found no difference.",
+  "zhu-xi.interpretation.moment.1":
+    "This is consistent with a scholar who sometimes tested a claim by observation and not only by textual authority.",
+  "zhu-xi.moment.2":
+    "While his teaching was banned as 'false learning' and some followers dispersed, he went on lecturing to his students every day, and smiled without answering those who urged him to send them away.",
+  "zhu-xi.interpretation.moment.2":
+    "This is consistent with a teacher who kept to his work in the face of pressure to stop.",
+  "zhu-xi.turning_point.1":
+    "After years of interest in Chan Buddhism and Daoism, he became a student of Li Tong in 1160 at the age of thirty, was convinced of the Confucian Way, and devoted the next forty years to it.",
+  "zhu-xi.interpretation.turning_point.1":
+    "This is consistent with a thinker who changed his intellectual direction after reflection and then committed to it for decades.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -23621,6 +24020,405 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1872년 하버드에서 비교해부학과 생리학을 가르치기 시작한 그는 엘리엇 총장에게 새로운 분야인 '정신 과학'으로 옮기게 해 달라고 요청했고, 1875~76년에 미국 최초의 심리학 대학원 강의를 개설한 뒤 1878년부터 철학 쪽으로 옮겨 갔다.",
   "william-james.interpretation.turning_point.1":
     "관심이 바뀜에 따라 확립된 분야에서 새로 떠오르는 분야로 넘어가려는 의지와 부합한다.",
+  /* ---------------------------------------------------------- august-kekule (Roster63) */
+  "august-kekule.achievement.1":
+    "1857~58년 탄소가 4가이며 탄소 원자가 사슬로 연결된다고 제안해 유기화학 구조 이론의 토대를 놓았고, 이를 4권짜리 교과서에 상술했다. 아치볼드 쿠퍼도 비슷한 시기에 비슷한 생각에 이르렀다.",
+  "august-kekule.achievement.2":
+    "1865년 벤젠의 탄소 여섯 개가 고리를 이룬다고 제안했다. 논란이 컸지만 더 나은 이론으로 대체되지 않았고, 브리태니커에 따르면 독일 화학 산업 성장의 과학적 토대가 되었다.",
+  "august-kekule.achievement.3":
+    "겐트와 1867년부터는 본에서 연구 그룹을 이끌고 가르쳤으며, 본에서는 대형 신축 실험실을 맡았다. 그의 첫 박사과정 학생 아돌프 폰 바이어는 훗날 노벨상을 받았다.",
+  "august-kekule.moment.1":
+    "리비히가 세상을 떠난 뒤 뮌헨 후임으로 초청받았으나 사양하고 첫 박사과정 학생인 아돌프 폰 바이어를 추천했다.",
+  "august-kekule.interpretation.moment.1":
+    "연구 학파의 수장으로서 제자를 요직에 추천한 모습과 일치한다.",
+  "august-kekule.moment.2":
+    "1858년 겐트로 초빙되어 프랑스어로 화학을 가르쳤으며, 그는 프랑스어를 완전히 익힌 것으로 전해진다.",
+  "august-kekule.interpretation.moment.2":
+    "나라와 강의 언어를 옮겨 다닐 수 있었던 사람의 모습과 일치한다.",
+  "august-kekule.turning_point.1":
+    "1865년 겐트에서 교과서를 집필하던 중 벤젠의 고리 구조를 제안해 사슬 이론을 방향족 화합물로 확장했다.",
+  "august-kekule.interpretation.turning_point.1":
+    "구조 체계로 아직 설명하지 못한 문제까지 확장해 간 이론가의 모습과 일치한다.",
+  /* ---------------------------------------------------------- caroline-herschel (Roster63) */
+  "caroline-herschel.achievement.1":
+    "독일 태생의 천문학자로, 1786년부터 1797년까지 혜성 여덟 개를 발견했다. 영국 왕립 그리니치 박물관은 그를 혜성을 발견한 최초의 여성으로 기록하며, 그는 오빠 윌리엄과 함께 2,400개가 넘는 천체를 찾아낸 탐사에 참여했다.",
+  "caroline-herschel.achievement.2":
+    "1798년 왕립학회가 펴낸 그의 《플램스티드 관측 항성 색인》은 플램스티드의 항성 목록을 바로잡고 빠진 별들을 보탰으며, 마이클 호스킨은 이를 관측자들이 온전히 신뢰할 수 있는 저작으로 만들었다고 평가한다.",
+  "caroline-herschel.achievement.3":
+    "1822년 윌리엄이 세상을 떠난 뒤 약 2,500개 성운의 개정 목록을 편찬했고, 1828년 왕립천문학회는 그에게 여성 최초로 금메달을 수여했으며 1835년에는 명예회원으로 추대했다.",
+  "caroline-herschel.moment.1":
+    "플램스티드의 항성 목록을 관측 기록과 대조해 바로잡는 데에는 그리니치 박물관이 '고된 20개월'이라 부르는 시간이 들었고, 1798년의 색인에는 빠진 별과 정오표가 더해졌다.",
+  "caroline-herschel.interpretation.moment.1":
+    "이는 더디고 꼼꼼한 기록 대조를 끝까지 이어간 사람의 모습과 부합한다.",
+  "caroline-herschel.moment.2":
+    "1797년 마지막 혜성을 발견했을 때 그는 천문대장 네빌 매스켈린에게 직접 알리려고 거의 30마일을 말을 타고 달려갔다.",
+  "caroline-herschel.interpretation.moment.2":
+    "이는 자신의 발견을 오빠에게 맡겨 두지 않고 최고 권위자에게 직접 알린 관측자의 모습과 부합한다.",
+  "caroline-herschel.turning_point.1":
+    "그는 바스에서 윌리엄의 연주회를 위한 가수로 훈련받았으나 오빠의 관심이 천문학으로 옮겨 가면서 그 길로 들어섰고, 1782년경 음악을 접었으며 1787년에는 조지 3세가 조수로서의 그에게 연 50파운드의 봉급을 내렸다.",
+  "caroline-herschel.interpretation.turning_point.1":
+    "이는 상황이 바뀌자 새로운 일을 위해 다시 배운 사람의 모습과 부합한다.",
+  /* ---------------------------------------------------------- eric-liddell (Roster63) */
+  "eric-liddell.achievement.1":
+    "1924년 파리 올림픽 400m에서 47.6초의 올림픽·유럽·영국 신기록으로 금메달을 땄고 200m에서도 동메달을 획득했다.",
+  "eric-liddell.achievement.2":
+    "일요일에 예선이 열린다는 이유로 가장 자신 있던 100m를 포기하고 400m 중심으로 올림픽 준비를 바꿨으며, 이 일은 영화 '불의 전차'의 모티브가 되었다.",
+  "eric-liddell.achievement.3":
+    "1925년 육상을 떠나 중국 톈진의 영중학원에서 선교사 교사로 일했고, 1943년부터 웨이셴 수용소에 억류되어 1945년 숨질 때까지 아이들을 가르치고 활동을 이끌었다.",
+  "eric-liddell.moment.1":
+    "1924년 올림픽 일정에서 100m 예선이 일요일로 잡히자 그는 출전을 거부했고, 한 친구는 훗날 기자들이 집 앞에서 그를 배신자라 불렀지만 그가 그것이 자신의 신념이며 달리지 않겠다고 말했다고 회상했다.",
+  "eric-liddell.interpretation.moment.1":
+    "이는 대중의 압박 속에서도 인기 없는 입장을 지키는 모습과 일치한다.",
+  "eric-liddell.moment.2":
+    "100m를 포기한 뒤 이 거리에서 국제 경험이 거의 없었음에도 400m에 나서 준결승에서 자신의 최고 기록을 1초 넘게 앞당겼고 결승에서 47.6초로 우승했다.",
+  "eric-liddell.interpretation.moment.2":
+    "이는 짧은 시간에 새로운 종목을 중심으로 계획을 다시 세우는 모습과 일치한다.",
+  "eric-liddell.turning_point.1":
+    "1925년 마지막 스코틀랜드 선수권 직후 몇 주 만에 에든버러를 떠나 아버지를 따라 선교사로 중국에 갔고 톈진 영중학원에서 가르쳤으며, 1941년 영국인에게 철수 권고가 내려졌을 때도 중국에 남았다.",
+  "eric-liddell.interpretation.turning_point.1":
+    "이는 계속되는 운동선수로서의 명성보다 오래 계획해 온 봉사의 길을 택하는 모습과 일치한다.",
+  /* ---------------------------------------------------------- evariste-galois (Roster63) */
+  "evariste-galois.achievement.1":
+    "방정식의 군(群)과 연결해 대수방정식이 거듭제곱근으로 풀리는 조건에 결정적인 답을 내놓은 프랑스의 수학자로, 그의 이론은 오늘날 갈루아 이론이라 불리며 현대 대수학의 기초를 이루었다.",
+  "evariste-galois.achievement.2":
+    "100쪽이 채 되지 않는 저작에서 그는 '갈루아 허수'를 도입했고, 유한체 이론의 선구가 된 글과 타원적분·아벨적분에 관한 결과도 남겼다.",
+  "evariste-galois.achievement.3":
+    "그의 연구는 생전에 과학아카데미에서 분실되거나 받아들여지지 않았고(그는 1832년 스무 살에 세상을 떠났다), 1843년 조제프 리우빌이 발표를 알리고 1846년 출간하고서야 알려졌다.",
+  "evariste-galois.moment.1":
+    "수학을 배우기 시작한 첫해에 그는 초급 대수 교과서에 만족하지 못하고 방정식의 해법과 해석함수에 관한 라그랑주의 저작을 직접 찾아 읽었다.",
+  "evariste-galois.interpretation.moment.1":
+    "이는 교과서보다 원저자의 저작에서 직접 배우기를 택한 학생의 모습과 부합한다.",
+  "evariste-galois.moment.2":
+    "첫 두 편의 논문이 아카데미에서 분실된 뒤에도 그는 1831년 1월 17일 푸아송의 권유로 거듭제곱근 가해성에 관한 논문의 세 번째 판본을 제출했으나, 푸아송과 라크루아는 이 논문이 충분히 명료하지도 충분히 전개되지도 못했다고 보고했다.",
+  "evariste-galois.interpretation.moment.2":
+    "이는 난관을 겪은 뒤에도 서술이 독자를 설득하지 못하는 상황에서 연구를 다시 제출하기를 이어간 사람의 모습과 부합한다.",
+  "evariste-galois.turning_point.1":
+    "1827년 2월 루이르그랑 고등학교에서 첫 수학 수업을 듣기 시작했고, 학업 지도 책임자는 '그를 사로잡은 것은 수학에 대한 열정'이라고 적었으며, 그는 2년이 지나기 전에 연분수에 관한 첫 논문을 발표했다.",
+  "evariste-galois.interpretation.turning_point.1":
+    "이는 한 분야를 만나자 온전히 그쪽으로 몰두한 학생의 모습과 부합한다.",
+  /* ---------------------------------------------------------- geoffrey-chaucer (Roster63) */
+  "geoffrey-chaucer.achievement.1":
+    "셰익스피어 이전 가장 뛰어난 영국 시인으로 평가받는 시인으로, 사회 중간 계층 전반의 순례자들이 이야기를 들려주는 미완의 틀 이야기 《캔터베리 이야기》는 브리태니커에 따르면 영어로 쓰인 가장 위대한 시 작품 가운데 하나다.",
+  "geoffrey-chaucer.achievement.2":
+    "궁정 시가 여전히 앵글로노르만어나 라틴어로 쓰이던 때에 그는 영어로 시를 썼으며, 단테·보카치오·페트라르카를 포함한 프랑스와 이탈리아의 전범을 자신의 형식과 결합해 《공작부인의 서》, 《새들의 의회》, 《트로일루스와 크리세이데》 같은 시를 지었다.",
+  "geoffrey-chaucer.achievement.3":
+    "그의 십음절 2행시는 훗날 영웅 2행시(heroic couplet)로 발전했고 그는 영어에서 규칙적인 약강 5보격을 개척한 것으로 평가받으며, 《캔터베리 이야기》는 15세기 필사본이 (단편 포함) 60종 안팎으로 전하고 1478년 캑스턴이 인쇄했으며, 웨스트민스터 사원의 그의 무덤은 '시인의 모퉁이'의 출발점이 되었다.",
+  "geoffrey-chaucer.moment.1":
+    "1372년과 1378년 이탈리아 사행에서 그는 단테, 보카치오, 페트라르카의 작품을 접했고, 이후 《트로일루스와 크리세이데》에서 보카치오의 《일 필로스트라토》를 바탕으로 사랑을 다룬 이야기를 특히 이탈리아적인 방식으로 다시 풀어냈다.",
+  "geoffrey-chaucer.interpretation.moment.1":
+    "이는 새로운 문학적 전범을 만날 때마다 받아들여 자신의 글쓰기로 소화한 시인의 모습과 부합한다.",
+  "geoffrey-chaucer.moment.2":
+    "《캔터베리 이야기》에서는 기사에서 면죄부 판매인과 소환리에 이르기까지 화자들이 각자 이야기를 하되 앞선 화자에게 응수하는 방식으로 이어지며, 일부 이야기는 다른 순례자들에게 가로막히고 또 다른 이야기는 끝맺지 못한 채 남는다.",
+  "geoffrey-chaucer.interpretation.moment.2":
+    "이는 익숙한 틀 안에서도 새로운 서사 구성을 계속 시도한 작가의 모습과 부합한다.",
+  "geoffrey-chaucer.turning_point.1":
+    "그가 세관직을 잃고 켄트로 옮긴 1386년경부터 《캔터베리 이야기》의 총서시를 쓰기 시작했는데, 미국시인아카데미는 이를 그의 예술적 성숙기의 시작으로 보며 그는 아마도 1400년 죽을 때까지 이 작품에 매달렸다.",
+  "geoffrey-chaucer.interpretation.turning_point.1":
+    "이는 생애 마지막 시기에 창작의 중심을 하나의 대작에 쏟은 시인의 모습과 부합한다.",
+  /* ---------------------------------------------------------- heinrich-barth (Roster63) */
+  "heinrich-barth.achievement.1":
+    "1850~55년 영국 후원 탐사대의 일원으로 트리폴리에서 사하라를 건너 차드호, 베누에강, 팀북투까지 나아갔고, 동료 두 명이 숨진 뒤에도 홀로 탐사를 이어가 5권짜리 『북·중앙아프리카 여행과 발견』으로 기록했다.",
+  "heinrich-barth.achievement.2":
+    "1853~54년 팀북투와 그 주변에서 약 여섯 달을 머물며 알바카이 족장의 보호 아래 수단 지역 연대기를 접했고, 아프리카에도 고유한 역사가 있다는 견해를 굳혔다.",
+  "heinrich-barth.achievement.3":
+    "아프리카 역사와 언어 연구의 개척자로서 중앙아프리카 언어 어휘집을 모았고, 1863년부터 베를린 대학 지리학 교수로 재직하며 카를 리터 재단을 설립했다.",
+  "heinrich-barth.moment.1":
+    "1852년 9월 아돌프 오버베크가 숨지고 홀로 남은 뒤에도 바르트는 서쪽 팀북투로 가기로 결심해, 유럽인이 지나지 않은 지역을 거쳐 1853년 9월 7일 도착했다.",
+  "heinrich-barth.interpretation.moment.1":
+    "동료를 잃고도 학문적 목표를 지켜 나간 사람과 일치하는 모습이다.",
+  "heinrich-barth.moment.2":
+    "지도 제작자 아우구스트 페터만은 바르트가 약 5분마다 시계와 나침반을 읽고 하루 중 시간대별 낙타의 걸음 속도를 재어 노정 거리를 정했다고 전했다.",
+  "heinrich-barth.interpretation.moment.2":
+    "공동 작업자의 증언이고 훔볼트는 위치 측정을 문제 삼았지만, 꼼꼼한 기록 습관과 일치하는 모습이다.",
+  "heinrich-barth.turning_point.1":
+    "1851년 3월 리처드슨, 1852년 9월 오버베크가 잇따라 숨지면서 바르트가 탐사를 이끌다 결국 홀로 남아, 세 사람의 임무가 6년에 걸친 단독 답사로 바뀌었다.",
+  "heinrich-barth.interpretation.turning_point.1":
+    "탐사의 학문적 목표를 혼자서도 이끌어 간 사람과 일치하는 모습이다.",
+  /* ---------------------------------------------------------- hendrik-lorentz (Roster63) */
+  "hendrik-lorentz.achievement.1":
+    "맥스웰의 전자기 이론을 전자 이론으로 완성했고, 물질과 전하를 입자적으로 다루었다. 피터르 제이만의 관측을 설명한 이 이론으로 1902년 제이만과 함께 노벨 물리학상을 받았다.",
+  "hendrik-lorentz.achievement.2":
+    "1904년 로런츠 변환을 정식화해 마이컬슨-몰리 실험의 영(零) 결과를 설명했고, 노벨재단의 표현으로 아인슈타인의 특수상대성이론의 길을 닦았으나 끝까지 에테르를 버리지 않았다.",
+  "hendrik-lorentz.achievement.3":
+    "1911~1927년 솔베이 회의 첫 다섯 차례의 의장을 맡았고, 네덜란드 쥐더르 해 위원회 위원장으로서 제방 높이를 과학적으로 계산하는 방법을 도입해 조수 계산을 이끌었다.",
+  "hendrik-lorentz.moment.1":
+    "1911년 그가 의장을 맡은 솔베이 회의에 대해 동료는 그가 뛰어난 명료함과 친절로 토론을 이끌었고, 의견이 갈릴 때마다 우호적이면서도 진지한 분위기를 유지했다고 적었다.",
+  "hendrik-lorentz.interpretation.moment.1":
+    "그룹 토론이 제대로 돌아가게 만든 협력자의 모습과 일치하나, 이 기록은 가까운 동료의 것이다.",
+  "hendrik-lorentz.moment.2":
+    "70세가 넘은 나이에도 1925~26년에는 하이젠베르크의 행렬역학을, 1927년에는 슈뢰딩거의 이론을 각각 발표된 지 1년 안에 강의했다.",
+  "hendrik-lorentz.interpretation.moment.2":
+    "자신이 완전히 받아들이지 않은 새 이론까지 꾸준히 따라간 물리학자의 모습과 일치한다.",
+  "hendrik-lorentz.turning_point.1":
+    "1912년 하를럼의 테일러 재단 관장직과 네덜란드 과학회 서기직을 맡고 라이덴 교수직은 월요일 아침 강의만 남겨, 일상적 학교 업무 대신 연구와 최신 물리학 강의에 집중하게 되었다.",
+  "hendrik-lorentz.interpretation.turning_point.1":
+    "행정 부담을 덜고 새 물리학을 따라갈 시간을 얻으려는 의도적 선택과 일치한다.",
+  /* ---------------------------------------------------------- iwasaki-yataro (Roster63) */
+  "iwasaki-yataro.achievement.1":
+    "도사 번의 해운 사업을 이어받아 1873년 '미쓰비시'라는 이름의 민간 기선 회사로 키웠고, 이 회사는 일본 해운업을 지배하는 회사이자 당대 두 번째로 큰 가족 소유 산업·금융 복합체인 미쓰비시 재벌의 출발점이 되었다.",
+  "iwasaki-yataro.achievement.2":
+    "1875년 요코하마-상하이 항로를 열고 미국 퍼시픽 메일과의 운임 전쟁에서 이겼으며, 탄광(1881년 다카시마)과 조선(1884년 임차한 나가사키 조선소)으로 사업을 넓혀 훗날 미쓰비시 광업·중공업의 뿌리를 놓았다.",
+  "iwasaki-yataro.achievement.3":
+    "그의 회사는 정부의 후원에 힘입어 성장했고 언론의 공격과 독점 가격 비판을 받았으며, 교도운유와의 소모적 경쟁 끝에 합병으로 일본우선(NYK)이 탄생한 1885년에 그는 세상을 떠났다.",
+  "iwasaki-yataro.moment.1":
+    "1874년 정부가 타이완으로 병력과 물자를 실어 나를 운송사를 찾지 못하던 때 미쓰비시는 위험을 무릅쓰고 이를 맡았고, 이후 정부로부터 선박을 받아 선단이 크게 늘었다.",
+  "iwasaki-yataro.interpretation.moment.1":
+    "이는 위험한 약속도 떠안으려는 태도와 부합하지만, 이 기록은 대부분 회사 자신의 서술이며 국가의 후원이 위험을 낮추었다.",
+  "iwasaki-yataro.moment.2":
+    "퍼시픽 메일과의 상하이 항로 운임 전쟁에서 운임이 절반 넘게 떨어지자 미쓰비시는 임원 급여를 삭감하며 버텼고, 결국 승리해 미국 회사의 항로를 사들였다.",
+  "iwasaki-yataro.interpretation.moment.2":
+    "이는 경쟁자에 대한 강한 경쟁적 접근과 부합하지만, 세부 내용은 주로 회사 자체의 역사서에 의존한다.",
+  "iwasaki-yataro.turning_point.1":
+    "1870~73년경 번이 폐지되자 그는 도사 번의 해운 사업을 민간 사업으로 인수했고, 1873년부터 이를 미쓰비시로 운영했다.",
+  "iwasaki-yataro.interpretation.turning_point.1":
+    "이는 제도 변화가 만든 기회를 붙잡는 태도와 부합하지만, 정확한 시기와 인수 조건에 대해서는 자료마다 차이가 있다.",
+  /* ---------------------------------------------------------- leos-janacek (Roster63) */
+  "leos-janacek.achievement.1":
+    "체코어 억양과 모라비아 민속 음계에서 독자적인 오페라 언어를 만들어 낸 체코 작곡가로, 1904년 브르노에서 초연된 《예누파》가 그의 국제적 명성을 확립했으며 브리태니커는 이를 그의 가장 중요한 오페라의 하나로 꼽는다.",
+  "leos-janacek.achievement.2":
+    "1916년 《예누파》가 프라하에 오른 뒤 생애 마지막 10년 동안 가장 유명한 작품들을 썼다. 오페라 《카탸 카바노바》, 《영리한 암여우》, 《마크로풀로스 사건》, 《죽음의 집으로부터》와 《신포니에타》, 《글라골 미사》, 현악 4중주 두 곡이 여기에 속한다.",
+  "leos-janacek.achievement.3":
+    "작곡 외에도 1881년 브르노 오르간 학교(후일 브르노 음악원)를 세우고 잡지 《음악 지면》을 창간했으며 모라비아 민요를 채집했고, 1897년부터는 현재 56권이 남아 있는 공책에 말의 선율을 채보했는데 이 작업은 지금도 학자들 사이에서 해석이 갈린다.",
+  "leos-janacek.moment.1":
+    "1897년 여름부터 1928년까지 그는 엿들은 말의 억양을 계속 악보로 적었고 많은 항목에 시간과 장소, 상황을 덧붙였다. 그의 공책 56권이 남아 있으며, 브르노 페스티벌은 동물 소리까지 포함해 3천 건이 넘는 기록이라고 집계한다.",
+  "leos-janacek.interpretation.moment.1":
+    "이는 오랜 기간 스스로 이어 간 청취와 기록의 습관과 부합하지만, 그 채보가 얼마나 객관적이었는지에 대해서는 학자들의 견해가 갈린다.",
+  "leos-janacek.moment.2":
+    "1881년 브르노에 오르간 학교를 세워 수십 년간 이끌었고, 1880년대에는 모라비아 최초의 음악 정기간행물 《음악 지면》을 창간해 편집했다.",
+  "leos-janacek.interpretation.moment.2":
+    "이는 기관이 생기기를 기다리지 않고 자기 주변에 직접 기관을 만들어 간 모습과 부합한다.",
+  "leos-janacek.turning_point.1":
+    "《예누파》는 완성에 거의 10년이 걸렸고 프라하 국립극장이 거절한 뒤 1904년 브르노에서 초연되었으며, 1916년 마침내 프라하에서 상연되어 큰 성공을 거두고 빈, 베를린, 뉴욕으로 이어지면서 그의 가장 왕성했던 마지막 10년이 열렸다.",
+  "leos-janacek.interpretation.turning_point.1":
+    "이는 오랜 무관심 속에서도 방향을 바꿔 인정을 구하지 않고 자신의 작업에 계속 매진한 모습과 부합한다.",
+  /* ---------------------------------------------------------- mori-ogai (Roster63) */
+  "mori-ogai.achievement.1":
+    "근대 일본 문학을 만든 작가의 한 사람으로, 베를린 체험을 바탕으로 한 1890년 단편 《무희》는 앞 세대의 비개성적 소설에서 벗어나 자전적 글쓰기의 유행을 열었고, 장편 《기러기》(1911~13)는 그의 가장 인기 있는 작품이 되었다.",
+  "mori-ogai.achievement.2":
+    "번역과 비평으로 유럽 문학을 일본어권에 들여왔다. 번역 시집 《오모카게》(1889), 안데르센의 《즉흥시인》(1892~1901 간행), 괴테의 《파우스트》, 1909년 그의 번역으로 상연된 입센의 《존 가브리엘 보르크만》이 있으며, 쓰보우치 쇼요와는 연극의 목적을 두고 지면에서 논쟁했다.",
+  "mori-ogai.achievement.3":
+    "집필과 함께 의사이자 의무 행정가로도 활동했다. 1884~88년 독일에서 위생학을 공부했고 1897년 위생학 교과서를 공저했으며 1907년 육군 의무국장에 올랐고, 1912년 이후에는 역사 소설과 《시부에 주사이》 같은 평전을 썼으며 만년에는 제실박물관장도 맡았다.",
+  "mori-ogai.moment.1":
+    "1909년 그의 소설 《ヰタ・セクスアリス》가 잡지 《스바루》에 실렸다가 해당 호가 판매 금지되었고, 육군 차관은 그를 질책한 뒤 앞으로 소설은 필명으로 발표해 달라고 요청했다.",
+  "mori-ogai.interpretation.moment.1":
+    "이는 상급자의 압력에도 도발적인 작품을 발표하려 했던 모습과 부합하지만, 이후의 요청에는 따랐다는 점도 함께 보여 준다.",
+  "mori-ogai.moment.2":
+    "1909년부터 1914년까지 잡지 《스바루》에 칼럼 〈찌르레기 통신〉을 연재하며 유럽과 북미의 문화·과학 동향을 간결하게 소개했고, 독일 유학 이후에도 오랫동안 독일의 신간과 정기간행물을 계속 받아 보았다.",
+  "mori-ogai.interpretation.moment.2":
+    "이는 공직의 요구를 넘어서는, 해외 동향에 대한 지속적이고 자발적인 관심과 부합한다.",
+  "mori-ogai.turning_point.1":
+    "1884년 육군의 파견으로 위생학을 공부하러 독일에 간 그는 4년간 독일 문학과 철학을 탐독하고 극장과 미술관을 찾았으며, 1888년 귀국해 일본의 의학과 문학을 함께 근대화하는 일에 나서 1889년 《오모카게》로 문단에 데뷔했다.",
+  "mori-ogai.interpretation.turning_point.1":
+    "이는 한 직무상의 파견을 두 번째 분야로 들어가는 문으로 삼아 평생 병행해 간 모습과 부합한다.",
+  /* ---------------------------------------------------------- moses-mendelssohn (Roster63) */
+  "moses-mendelssohn.achievement.1":
+    "그는 독일 계몽주의의 대표적 철학자로, 레싱·니콜라이와 함께 문예 비평지를 편집했으며, 유대 학문을 독일 철학·문학과 잇는 하스칼라(유대 계몽운동)의 상징적 인물이다.",
+  "moses-mendelssohn.achievement.2":
+    "그는 오경과 시편을 독일어로 옮기고 히브리어 주석(비우르)을 붙였으며, 랍비들의 금지령에도 협력자들과 함께 1783년에 완성했고, 그의 제안으로 1781년 베를린 유대인 자유학교가 문을 열었다.",
+  "moses-mendelssohn.achievement.3":
+    "1763년 형이상학의 명증성에 관한 그의 논문은 베를린 아카데미 상을 받았고, 영혼의 불멸을 다룬 대화 《파이돈》(1767)은 베스트셀러가 되었으며, 《예루살렘》(1783)에서는 종교가 신념을 강제해서는 안 되며 유대교는 계시된 율법에 기초한다고 논했다.",
+  "moses-mendelssohn.moment.1":
+    "1769년 라바터가 기독교 변증서를 반박하거나 개종하라고 공개적으로 요구하자, 그는 종무국의 허락을 받아 자신의 종교에 대한 믿음이 흔들리지 않으며 보네의 책으로는 개종할 수 없다고 인쇄물로 답했다.",
+  "moses-mendelssohn.interpretation.moment.1":
+    "이는 공개적 압박 속에서도 자신의 입장을 지킨 사상가의 모습과 일치한다.",
+  "moses-mendelssohn.moment.2":
+    "1779년 알토나와 프라하 등지의 랍비들이 그의 독일어 오경을 금지하고 첫 주석자가 창세기 뒤에 떠나자, 그는 직접 주석을 맡고 다른 책들은 베셀리, 야로슬라프, 홈베르크에게 맡겨 1783년에 작업을 마쳤다.",
+  "moses-mendelssohn.interpretation.moment.2":
+    "이는 반대와 협력자의 이탈 속에서도 긴 작업을 이어 간 모습과 일치한다.",
+  "moses-mendelssohn.turning_point.1":
+    "《유대 백과사전》에 따르면 1769~70년의 라바터 논쟁은 그의 경력의 두 번째 시기를 열어, 철학과 비평 중심에서 유대교와 유대 학문 중심으로 옮겨 가며 히브리어 주석, 독일어 오경과 시편, 《예루살렘》으로 이어졌다.",
+  "moses-mendelssohn.interpretation.turning_point.1":
+    "이는 일반 철학과 비평에서 성서와 유대 학문으로 작업 영역이 넓어진 것과 일치한다.",
+  /* ---------------------------------------------------------- paul-morphy (Roster63) */
+  "paul-morphy.achievement.1":
+    "1857년 제1회 미국 체스 대회에서 우승한 뒤 1858~59년 유럽에서 아돌프 안데르센을 비롯해 맞선 주요 마스터들을 꺾으며, 2년이 채 안 되는 공개 활동 기간에 당대 최강자로 불렸다.",
+  "paul-morphy.achievement.2":
+    "브리태니커는 그가 공격에 앞서 기물 전개를 우선하는 원칙에 처음 의존한 선수라고 평가하며, 세계 체스 명예의 전당은 성급한 공격보다 장기적인 전략적 전개를 중시한 혁신적 선수로 소개한다.",
+  "paul-morphy.achievement.3":
+    "1858년 파리에서 강한 상대 여덟 명과 동시에 눈을 가린 채 대국해 여섯 판을 이기고 두 판을 비겼으며, 1986년 미국 체스 명예의 전당, 2001년 세계 체스 명예의 전당에 올랐다.",
+  "paul-morphy.moment.1":
+    "1857년 대회 직후 그는 폰 하나와 선수를 양보하는 조건으로 전국 누구와도 대결하겠다고 도전장을 냈다.",
+  "paul-morphy.interpretation.moment.1":
+    "상대가 오기를 기다리기보다 먼저 맞설 상대를 찾아 나선 경쟁자의 모습과 일치한다.",
+  "paul-morphy.moment.2":
+    "시간 제한이 없어 한 수에 한 시간 넘게 걸리기도 한 1857년 대회에서 그는 최고 선수들보다 오래 앉아 두며 한 판만 지고 우승했다.",
+  "paul-morphy.interpretation.moment.2":
+    "서술이 개괄적이긴 하지만, 긴 대국에서도 집중을 이어 간 모습과 일치한다.",
+  "paul-morphy.turning_point.1":
+    "1859년 미국으로 돌아온 그는 세계 누구에게나 폰과 선수를 양보하겠다고 제안했고, 응하는 사람이 없자 공개 체스 활동을 접었다.",
+  "paul-morphy.interpretation.turning_point.1":
+    "열린 도전을 중심으로 이어진 경쟁 활동이, 받아들이는 사람이 없자 끝난 흐름과 일치한다.",
+  /* ---------------------------------------------------------- pieter-bruegel (Roster63) */
+  "pieter-bruegel.achievement.1":
+    "그는 풍경화와 활기차고 재치 있는 농민 생활 장면을 그렸으며, 브리태니커는 그를 16세기 플랑드르 최고의 화가라고 부른다.",
+  "pieter-bruegel.achievement.2":
+    "안트베르펜의 판화 출판업자 히에로니무스 코크를 위해 알프스 풍경과 1556년부터는 보스풍의 풍자적·교훈적 장면을 디자인했으며, 그의 초기 명성은 이 판화들에 바탕을 두었다.",
+  "pieter-bruegel.achievement.3":
+    "1563년 브뤼셀로 옮긴 뒤 주요 수집가와 후원자를 위해 대표작들을 그렸고, 아들 얀과 피터르는 18세기까지 이어진 화가 가문의 시조가 되었다.",
+  "pieter-bruegel.moment.1":
+    "1552~54년경 이탈리아 여행에서 남부 이탈리아까지 갔다가 알프스를 넘었고, 1553~56년에 그린 산악 풍경 소묘는 높은 산을 표현한 점에서 거의 견줄 데가 없다고 브리태니커는 평가한다.",
+  "pieter-bruegel.interpretation.moment.1":
+    "이는 풍경과 자연 세계에 대한 지속적인 관심과 일치한다.",
+  "pieter-bruegel.moment.2":
+    "1553년 로마에서 세밀화가 줄리오 클로비오와 함께 작업했으며 클로비오의 유산 목록에는 두 사람이 함께 만든 세밀화가 올라 있고, 같은 해 풍경화 속 인물은 마르턴 더 보스가 그렸을 가능성이 크다.",
+  "pieter-bruegel.interpretation.moment.2":
+    "이는 다른 전문가들과 어렵지 않게 협업하는 모습과 일치한다.",
+  "pieter-bruegel.turning_point.1":
+    "1556년부터 그는 보스풍의 환상적인 양식으로 풍자적이고 교훈적인 주제에 몰두했고, 브리태니커는 그의 창의성이 이 도안들을 단순한 모방 이상으로 끌어올렸다고 말한다.",
+  "pieter-bruegel.interpretation.turning_point.1":
+    "이는 물려받은 양식을 자신만의 것으로 바꾸어 가는 모습과 일치한다.",
+  /* ---------------------------------------------------------- rene-caillie (Roster63) */
+  "rene-caillie.achievement.1":
+    "브리태니커는 그를 팀북투 여행에서 살아 돌아온 최초의 유럽인이라 부른다. 그는 무슬림으로 변장해 1827년 4월 기니 해안을 떠나 1828년 4월 20일 팀북투에 도착했고, 사하라를 건너 모로코와 프랑스로 돌아왔다.",
+  "rene-caillie.achievement.2":
+    "브라크나족 사이에서 8개월 동안 아랍어와 이슬람 관습을 익힌 뒤, 그는 전설 속의 황금 도시가 아니라 흙집이 늘어선 소박한 도시를 팀북투에서 보았고, 약 4,500마일의 여정은 유럽인에게 알려지지 않은 땅을 열어 보였다.",
+  "rene-caillie.achievement.3":
+    "그는 파리지리학회의 상과 레지옹 도뇌르 훈장, 연금을 받았고 조마르가 편집한 그의 여행기는 1830년 출간되었다. 1853년 팀북투에 도착한 하인리히 바르트는 그의 보고가 대체로 믿을 만하다고 평가하면서도 오류를 짚었다.",
+  "rene-caillie.moment.1":
+    "1824~25년 브라크나족 사이에서 지내던 그는 일기를 쓰다가 아랍 문자가 없는 것을 본 샤리프에게 들켰고, 자신의 말로는 노래라고 둘러대며 직접 노래를 불러 의심을 풀었다고 한다.",
+  "rene-caillie.interpretation.moment.1":
+    "이는 의심을 받는 상황에서의 재빠른 임기응변과 부합하지만, 이 일화는 그 자신의 서술로만 알려져 있다.",
+  "rene-caillie.moment.2":
+    "1850년대 그의 경로를 되짚은 바르트는 카이예의 보고가 대체로 믿을 만하고 매우 불리한 상황에서 본 것을 정확하게 기술했다고 평가했으나, 모스크 탑의 위치와 출입문 수 같은 오류도 지적했다.",
+  "rene-caillie.interpretation.moment.2":
+    "이는 어려운 조건에서의 세심한 관찰과 부합하며, 지적된 오류들 때문에 해석의 강도는 제한된다.",
+  "rene-caillie.turning_point.1":
+    "세네갈 총독이 1824~25년 팀북투 탐험에 호의를 보이지 않자 그는 시에라리온으로 가 인디고 농장 감독으로 일했고, 80파운드를 모은 뒤 자비로 내륙행 대상(隊商)에 합류했다.",
+  "rene-caillie.interpretation.turning_point.1":
+    "이는 공식적인 거절에도 자금을 직접 마련해 목표를 밀고 나가는 태도와 부합한다.",
+  /* ---------------------------------------------------------- saadi (Roster63) */
+  "saadi.achievement.1":
+    "고전 페르시아 문학의 가장 위대한 인물 중 하나로, 윤리적 이야기를 운문으로 엮은 《부스탄》(과수원, 1257)과 산문에 시를 곁들인 《굴리스탄》(장미 정원, 1258)을 완성했으며, 이 두 작품으로 가장 널리 알려져 있다.",
+  "saadi.achievement.2":
+    "서정시인이자 송가 작가로도 이름 높아, 가젤과 카시다, 군주를 위한 훈계서, 산문 작품, 아랍어 시가 그의 전집에 실려 있으며, 브리태니커는 그를 이란 문화권에서 가장 폭넓게 사랑받는 작가로 평가한다.",
+  "saadi.achievement.3":
+    "그의 시는 사후 수십 년 안에 페르시아어권 전역으로 퍼져 델리의 시인 아미르 호스로와 하산 시지에게 깊은 인상을 남겼고, 《굴리스탄》은 아나톨리아에서 튀르크어로 번역되었으며, 19세기에는 유럽 낭만주의 독자들에게도 읽혔다.",
+  "saadi.moment.1":
+    "시라즈를 떠나 약 30년을 보낸 뒤 그는 1257년 말 《부스탄》을, 이듬해 《굴리스탄》을 완성했으며, 이란니카 백과가 그의 생애에서 가장 믿을 만한 연대라고 하는 이 두 시점에서 하나는 주로 운문, 다른 하나는 주로 시가 곁들여진 산문이다.",
+  "saadi.interpretation.moment.1":
+    "이는 여러 형식을 넘나들며 작업한 작가의 모습과 부합하지만, 현존 기록은 그가 형식을 어떻게 골랐는지는 거의 말해 주지 않는다.",
+  "saadi.moment.2":
+    "시라즈로 돌아온 뒤 그는 살구르 왕조와 일칸국의 관리들에게 잇달아 시를 바쳤고 찬사와 함께 충고도 담았으나 궁정의 공식 직책에는 들어가지 않은 것으로 보이며, 수피 수도원에서 지냈다고 전해진다.",
+  "saadi.interpretation.moment.2":
+    "이는 변하는 상황에 맞춰 적응하면서도 일정한 독립적 위치를 유지한 시인의 모습과 부합하지만, 그 이유는 사료에 기록되어 있지 않다.",
+  "saadi.turning_point.1":
+    "사춘기 무렵, 아마 1223~24년경 그는 시라즈를 떠나 바그다드의 니자미야 학원에서 공부를 이어 갔고, 이는 오랜 수학과 여행의 시작이 되어 1257년경 이미 유명한 시인이 되어 시라즈로 돌아오기까지 이어졌다.",
+  "saadi.interpretation.turning_point.1":
+    "이는 이른 나이부터 체계적인 학문에 힘을 쏟았던 모습과 부합하지만, 이 서술은 학자들이 신중히 다루는 그 자신의 작품에 일부 의존한다.",
+  /* ---------------------------------------------------------- scott-joplin (Roster63) */
+  "scott-joplin.achievement.1":
+    "'래그타임의 왕'으로 불린 작곡가이자 피아니스트로, 1899년의 《메이플 리프 래그》로 미주리주 세달리아의 지역 명사에서 전국적 주목을 받는 인물이 되었고 이후 래그타임 작곡의 기준을 세웠다. 브리태니커는 그의 명성이 《메이플 리프 래그》와 《디 엔터테이너》를 포함해 1899년부터 1909년까지 출판된 고전 래그들에 있다고 평가한다.",
+  "scott-joplin.achievement.2":
+    "그는 래그타임을 더 큰 형식으로 확장해 래그타임 발레(1902), 지금은 전하지 않는 오페라 《명예의 손님》(1903), 교본 《래그타임 학교》(1908), 그리고 1911년 자비로 출판했으나 생전에 온전한 무대를 보지 못한 3막 오페라 《트리모니샤》를 남겼다.",
+  "scott-joplin.achievement.3":
+    "오랜 무명 끝에 그의 음악은 되살아났다. 1971년 뉴욕 공공도서관이 그의 작품집을 펴냈고, 《트리모니샤》는 1972년 처음 온전히 상연되어 1975년 브로드웨이에 올랐으며, 1973년 영화 《스팅》이 《디 엔터테이너》를 히트곡으로 만들었고, 1976년 퓰리처상 위원회는 미국 음악에 대한 공헌을 기려 그에게 사후 특별상을 수여했다.",
+  "scott-joplin.moment.1":
+    "1895~96년에 낸 첫 출판작들이 작곡 기법 면에서 미숙했던 그는 오티스 소더스와 토니 윌리엄스의 조언을 받아 세달리아의 조지 R. 스미스 칼리지에서 음악 과정을 수강했고, 1897년에는 친구들과 오랫동안 즉흥으로 연주하던 복잡한 리듬을 악보로 옮길 수 있게 되었다.",
+  "scott-joplin.interpretation.moment.1":
+    "이는 자신의 부족한 점을 솔직히 인정하고 그것을 메우기 위해 체계적으로 공부한 음악가의 모습과 부합한다.",
+  "scott-joplin.moment.2":
+    "1913년 할렘의 극장이 예정된 상연에서 손을 떼자, 조플린은 1915년 링컨 극장에서 의상도 소품도 오케스트라도 없이 《트리모니샤》를 직접 무대에 올렸는데, 이미 재산 대부분을 이 오페라에 쏟아부은 뒤였고 비평은 한 줄도 나오지 않았다.",
+  "scott-joplin.interpretation.moment.2":
+    "이는 후원을 구하지 못하는 실패가 거듭되어도 큰 작품의 실현을 포기하지 않고 막대한 개인적 비용을 치른 창작자의 모습과 부합한다.",
+  "scott-joplin.turning_point.1":
+    "1899년 출판업자 존 스타크가 세달리아에서 《메이플 리프 래그》를 출판했고 그 성공으로 조플린은 지역 연주자에서 전국적 명성을 얻는 인물이 되었으며, 1900년 스타크가 세인트루이스로 옮기자 조플린도 1년 안에 뒤따라 더 큰 시장에서 작곡과 연주로 성공하기를 바랐다.",
+  "scott-joplin.interpretation.turning_point.1":
+    "이는 돌파구가 된 성공을 발판 삼아 자신의 작품을 위한 더 큰 무대로 나아가려 한 작곡가의 모습과 부합한다.",
+  /* ---------------------------------------------------------- thomas-telford (Roster63) */
+  "thomas-telford.achievement.1":
+    "석공의 아들로 태어나 영국에서 가장 저명한 토목기술자 중 한 사람이 된 텔퍼드는 수백 건의 도로·운하·교량·항만 사업을 설계하거나 자문했으며, 영국토목학회(ICE)는 그를 '토목공학의 아버지'라 부른다.",
+  "thomas-telford.achievement.2":
+    "폰트시실테 수로교(2009년 세계유산), 칼레도니아 운하(1804~22), 메나이 현수교(1819~26, 경간 약 580피트)가 대표작이며, 칼레도니아 운하는 계획 7년·47만 4천 파운드와 달리 12년에 91만 파운드가 들었다.",
+  "thomas-telford.achievement.3":
+    "1820년 영국토목학회의 초대 회장이 된 그는 1828년 왕실 헌장을 얻는 데 주도적 역할을 했고, 유언으로 학회에 최대 규모의 기부금과 자신의 장서·도면·문서를 남겼다.",
+  "thomas-telford.moment.1":
+    "메나이 다리의 쇠사슬을 올리기 전에 그는 이 다리가 당시 시도된 가장 큰 현수교였고 실패가 예견되었기 때문에 모든 부분을 반복 실험으로 꼼꼼히 시험하게 했다.",
+  "thomas-telford.interpretation.moment.1":
+    "이는 새 설계를 실행하기 전에 시험해 보는 습관과 부합하지만, 이 기록은 그를 찬미한 빅토리아 시대 전기에 근거한다.",
+  "thomas-telford.moment.2":
+    "21년간 칼레도니아 운하의 총괄 기술자로 일하는 동안 의회 보고서상 그가 받은 보수는 연 237파운드였고, 영국수산협회의 항만 사업은 보수 없이 맡았다고 한다.",
+  "thomas-telford.interpretation.moment.2":
+    "이는 개인 수입보다 공공 사업을 중시한 태도와 부합하지만, 보수 수치와 무보수 활동은 주로 찬미적 전기 한 권을 통해 알려져 있다.",
+  "thomas-telford.turning_point.1":
+    "1793년 운하 건설 경험이 없는 채 엘즈미어 운하의 기술자로 임명된 그는 토공에 대해 윌리엄 제솝의 조언을 구한 뒤 치크와 폰트시실테의 주철 수조 수로교를 설계했고, 이로써 전국적 명성을 얻었다.",
+  "thomas-telford.interpretation.turning_point.1":
+    "이는 도움을 구하며 새로운 공학 분야를 빠르게 익히는 태도와 부합하지만, 스마일스의 각주는 철제 수조를 누가 처음 제안했는지를 둘러싼 이견을 전한다.",
+  /* ---------------------------------------------------------- tirunesh-dibaba (Roster63) */
+  "tirunesh-dibaba.achievement.1":
+    "2008년 베이징 올림픽에서 여자 선수로는 처음으로 5,000m와 10,000m를 모두 우승했고, 2012년에는 올림픽 10,000m를 연속 대회에서 제패한 첫 여성이 되었다.",
+  "tirunesh-dibaba.achievement.2":
+    "2003년 세계선수권 5,000m에서 종목 사상 최연소 세계 챔피언이 되었고, 2005년 세계선수권 5,000m·10,000m 2관왕, 세계 크로스컨트리 우승, 2013년 세계선수권 10,000m 우승을 거두었으며 5,000m 세계기록(14분11초15)을 세웠다.",
+  "tirunesh-dibaba.achievement.3":
+    "트랙 선수 생활 이후 마라톤으로 전향해 2014년 런던에서 데뷔했고, 2017년 시카고 마라톤에서 2시간 18분 31초로 첫 마라톤 우승을 차지했다.",
+  "tirunesh-dibaba.moment.1":
+    "2012년 올림픽 10,000m에서 그녀는 마지막 여덟 바퀴 대부분을 무리 속에서 달리다 결승선 약 530m 전에 선두로 나서, 이 종목 올림픽 사상 두 번째로 큰 차이로 우승했다.",
+  "tirunesh-dibaba.interpretation.moment.1":
+    "코치진과 합의한 계획을 그녀가 설명한 대로 실행한 모습과 일치한다.",
+  "tirunesh-dibaba.moment.2":
+    "2017년 시카고에서 그녀는 페이스메이커 없이 출발부터 선두로 달렸고, 뒤따르는 경쟁자들이 바람을 피하지 못하도록 좌우로 움직인 뒤 30km 이후 격차를 벌렸다.",
+  "tirunesh-dibaba.interpretation.moment.2":
+    "경기를 주도하며 경쟁자를 확실히 따돌리려는 선수의 모습과 일치한다.",
+  "tirunesh-dibaba.turning_point.1":
+    "2012년 올림픽 10,000m 우승 직후 마라톤 도전 계획을 밝혔고, 2014년 런던에서 데뷔했으며, 2017년 시카고 우승 뒤에는 트랙으로 돌아가지 않겠다고 말했다.",
+  "tirunesh-dibaba.interpretation.turning_point.1":
+    "종목을 바꾸어 새 거리에 맞춰 경기 방식을 다시 세운 모습과 일치한다.",
+  /* ---------------------------------------------------------- umetaro-suzuki (Roster63) */
+  "umetaro-suzuki.achievement.1":
+    "1910년 쌀겨에서 각기병을 막는 물질을 추출해 아베리산(후에 오리자닌, 오늘날 비타민 B1과 연관됨)이라 이름 붙이며 일본 비타민 연구의 토대를 놓은 일본의 농예화학자이다. 학자들은 그의 추출물이 순수한 티아민은 아니었고 발견의 공로를 둘러싼 논쟁이 남아 있다고 지적한다.",
+  "umetaro-suzuki.achievement.2":
+    "1917년부터 이화학연구소(리켄) 화학부장을 맡았으며, 그의 연구실에서 제자 다카하시 가쓰미가 1922년 간유에서 정제한 비타민 A가 '리켄 비타민'이 되어 양차 대전 사이 리켄 연구비의 절반을 충당했다.",
+  "umetaro-suzuki.achievement.3":
+    "1924년 일본농예화학회의 초대 회장이 되었고 많은 뛰어난 과학자를 길러냈으며 1943년 문화훈장을 받았다.",
+  "umetaro-suzuki.moment.1":
+    "그는 1910년 12월 13일 도쿄화학회에서 아베리산 논문을 발표했고, 각기병을 전염병으로 보던 의사들이 신문까지 동원해 이를 공격하자 연구실로 돌아가 결과를 확인하고 추가 연구를 발표했다.",
+  "umetaro-suzuki.interpretation.moment.1":
+    "이는 적대적인 비판 속에서도 논란이 된 결과를 고수하고 더 많은 실험으로 답한 연구자의 면모와 일치한다.",
+  "umetaro-suzuki.moment.2":
+    "1918년 쌀값 폭동 이후 쌀이 청주 양조에 쓰이는 것을 우려한 그는 쌀이 아닌 재료로 합성 청주를 만들고자 했고, 이는 훗날 리켄이 '리켄슈'로 생산했다.",
+  "umetaro-suzuki.interpretation.moment.2":
+    "이는 국가적 식량 문제를 연구 과제로 삼은 화학자의 면모와 일치한다.",
+  "umetaro-suzuki.turning_point.1":
+    "1915년 그는 각기병 연구를 중단하고 전시 봉쇄로 수입이 끊긴 살바르산의 합성에 힘을 쏟으라는 명령을 받았고, 2년 뒤 새로 설립된 리켄의 주임연구원이 되어 그의 연구실의 비타민 연구가 산업 제품군으로 이어졌다.",
+  "umetaro-suzuki.interpretation.turning_point.1":
+    "이는 대학의 연구 과제에서 산업에 응용되는 화학으로 옮겨 간 연구 경력과 일치한다.",
+  /* ---------------------------------------------------------- zhao-mengfu (Roster63) */
+  "zhao-mengfu.achievement.1":
+    "자연의 재현보다 개인적 표현을 추구한 문인화(文人畫) 전통의 초기 대가로 존경받는 중국의 화가이자 서예가로, 당대 최고의 서예가로 평가받았다.",
+  "zhao-mengfu.achievement.2":
+    "그는 회화를 '고의(古意)', 곧 옛 대가들의 정신으로 되돌렸다. 브리태니커는 그의 그림이 송 화원 이후 옛 대가들에게서 관심을 끌어낸 최초의 작품들에 속한다고 하며, 친구 주밀을 위해 1295년에 그린 두루마리 〈작화추색도〉는 동원 풍의 모티프를 새롭게 재해석한다.",
+  "zhao-mengfu.achievement.3":
+    "전서·예서·행서·초서를 아우른 그의 서예는 왕희지의 서풍을 되살렸고, 《원사》는 인도의 한 승려가 수만 리를 와서 그의 글씨를 구해 갔다고 전하며, 다음 세대인 원말 사대가(四大家)가 그의 문인화 혁신을 완성했다.",
+  "zhao-mengfu.moment.1":
+    "그는 북중국 여행길에서 남쪽에는 거의 알려지지 않았던 10~11세기 대가 이성·동원·범관의 산수화를 보고 수집했으며, 회화에서 가장 중요한 것은 '고의(古意)'라고 썼다.",
+  "zhao-mengfu.interpretation.moment.1":
+    "이는 당시의 지배적 화풍을 따르기보다 옛 대가들에게서 직접 배워 새로운 접근의 토대로 삼은 화가의 모습과 부합한다.",
+  "zhao-mengfu.moment.2":
+    "《원사》는 그의 《상서》 주석, 거문고와 음악의 기원에 관한 저술, 시문, 모든 서체의 글씨, 산수·화훼·대나무·인물·말 그림을 열거하고, 서화에 가려 그의 재능의 한 면을 아는 이는 다른 면을 알지 못했다는 사학자 양재의 말을 전한다.",
+  "zhao-mengfu.interpretation.moment.2":
+    "이는 서로 함께 알려지는 일이 드물었던 여러 예술 분야를 넘나든 학자 겸 예술가의 모습과 부합한다.",
+  "zhao-mengfu.turning_point.1":
+    "1279년 송이 멸망한 뒤 그는 집에 머물렀고 《원사》는 그가 학문에 더욱 힘썼다고 전하며, 이후 북쪽을 여행하며 옛 대가들의 그림을 보고 모았고, 1295년에는 《세계 인명 백과》가 그의 가장 유명한 현존 두루마리라고 부르는 〈작화추색도〉를 그렸다.",
+  "zhao-mengfu.interpretation.turning_point.1":
+    "이는 학문을 더욱 깊이 한 시기가 이후 수년에 걸쳐 그의 특징적인 원숙한 회화로 이어진 모습과 부합한다.",
+  /* ---------------------------------------------------------- zhu-xi (Roster63) */
+  "zhu-xi.achievement.1":
+    "남송의 신유학(성리학) 철학자로, 스탠퍼드 철학 백과사전이 영향력에서 공자 다음으로 꼽는 인물이다. 『대학』『논어』『맹자』『중용』을 엮고 주석해 '사서'로 만들었으며, 이는 원나라 때부터 1908년까지 중국 과거시험의 기초가 되었다.",
+  "zhu-xi.achievement.2":
+    "수백, 어쩌면 수천 명의 제자를 가르쳤고 그의 강론은 『주자어류』에 전한다. 1179~80년 백록동서원을 재건하고 그 규약을 정했으며, 『근사록』 편찬에도 참여했다.",
+  "zhu-xi.achievement.3":
+    "'격물(사물을 탐구함)'의 방법과 이(理)를 기(氣)보다 앞세운 사상은 이후 유학 논쟁을 좌우했으며, 생전에는 육구연과 진량이, 후대에는 왕양명·왕부지·대진이 이를 비판했다.",
+  "zhu-xi.moment.1":
+    "한 승려의 주장을 검증하려고 그는 낮과 밤에 콩나물이 자라는 정도를 재어 보았고 차이가 없음을 확인했다.",
+  "zhu-xi.interpretation.moment.1":
+    "이는 문헌의 권위에만 기대지 않고 관찰로 주장을 시험해 보기도 한 학자의 면모와 일치한다.",
+  "zhu-xi.moment.2":
+    "그의 학문이 '위학(거짓 학문)'으로 금지되고 일부 제자가 흩어지는 동안에도 그는 날마다 제자들을 가르쳤고, 제자들을 돌려보내라고 권하는 이들에게는 웃기만 하고 답하지 않았다.",
+  "zhu-xi.interpretation.moment.2":
+    "이는 중단하라는 압력 속에서도 자신의 일을 계속한 스승의 면모와 일치한다.",
+  "zhu-xi.turning_point.1":
+    "선불교와 도가에 관심을 두던 그는 1160년 서른 살에 이통의 제자가 되어 유가의 도를 확신하게 되었고, 이후 40년을 그 길에 바쳤다.",
+  "zhu-xi.interpretation.turning_point.1":
+    "이는 숙고 끝에 지적 방향을 바꾸고 이후 수십 년간 그에 헌신한 사상가의 면모와 일치한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mori-ogai",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mori Ōgai",
+    "aliases": [
+      "Mori Ogai",
+      "Mori Rintarō",
+      "Mori Rintaro",
+      "森鷗外",
+      "森林太郎"
+    ],
+    "wikidataId": "Q356960",
+    "birthYear": 1862,
+    "deathYear": 1922,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "physician"
+    ],
+    "fieldIds": [
+      "literature",
+      "medicine"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "polymath",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ogai_wikidata",
+      "kind": "wikidata",
+      "title": "Mori Ōgai (Q356960), verified live via the Wikidata API (2026-11-02): label 'Mori Ōgai', description 'Japanese novelist and army physician (1862-1922)', born 1862-02-17, died 1922-07-08/09 (two values), Korean label 모리 오가이. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q356960"
+    },
+    {
+      "id": "src_ogai_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Mori Ōgai' (full article read, about 400 words). CANONICAL SIGNIFICANCE SOURCE: one of the creators of modern Japanese literature; studied medicine in Tokyo and in Germany 1884-88; 'Maihime' (The Dancing Girl, 1890) departed from the impersonal fiction of earlier generations and initiated a vogue for autobiographical revelation; Gan (The Wild Goose, 1911-13) his most popular novel; translated Andersen's Improvisatoren; after 1912 turned to historical fiction on the samurai code.",
+      "url": "https://www.britannica.com/biography/Mori-Ogai"
+    },
+    {
+      "id": "src_ogai_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'MORI Ogai', in the digital exhibition Portraits of Modern Japanese Historical Figures (page read in full, including the site's 'About This Site' page). Staff-written biographical note: literary man and army surgeon; University of Tokyo medical graduate 1881; study in Germany 1884-88; promoted surgeon general in 1907 and head of the Army Ministry's Medical Division, the highest post for army surgeons; head of the Imperial Museum and the Zushoryo from 1917; novelist, critic and translator while holding public office; list of representative works (Maihime, Gan, Sansho-Dayu, Takasebune, Shibue Chusai, translation Sokkyo shijin).",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/342"
+    },
+    {
+      "id": "src_ogai_nippon",
+      "kind": "press",
+      "title": "Otsuka Miho, 'Mori Ōgai: The Polymath Intellectual Who Made Literary History', Nippon.com, 'Shapers of Japanese History' series, 8 July 2022 (read in full, about 2,200 words). Education in Japanese, Chinese and Western learning; army surgeon from 1881; German study 1884-88 and continuing import of European publications; Omokage (1889), Maihime (1890), the magazine Shigarami-zoshi and his critical skirmishes; translations of Goethe, Andersen and Faust; the 1897 hygiene textbook; Kokura posting 1899-1902; the banned Vita Sexualis (1909); the 1910 story 'Tower of Silence'; the turn to historical stories after 1912; critical biographies of Shibue Chusai and Hojo Katei; work as head of the Imperial Household Museum and historical research on era names. Passages on family and cause of death were read and are not used.",
+      "url": "https://www.nippon.com/en/japan-topics/b07227/"
+    },
+    {
+      "id": "src_ogai_hu",
+      "kind": "institution",
+      "title": "Ogai Portal, Humboldt-Universitat zu Berlin (Mori Ogai Memorial Center), 'Examining Japanese Modernity 1906-1912' (page read in full, about 2,500 words, with a dated chronology of his life 1906-1912). Staff Surgeon General and head of the Army Ministry's medical department in 1907; a Beriberi Disease Investigation Commission set up in 1908 on his suggestion with him as interim head; poetry circles and the Subaru magazine he supported; the Mukudori tsushin column on European and North American cultural and scientific trends (1909-14); the Vita Sexualis ban and reprimand; request to publish fiction under a pseudonym; his 1908 petition proposing an Academy of Arts; Ibsen's John Gabriel Borkman in his translation staged 1909; first Japanese reference to Rilke. Family events in the chronology were read and are not used.",
+      "url": "https://www.ogai.hu-berlin.de/examining-japanese-modernity"
+    },
+    {
+      "id": "src_ogai_schneider",
+      "kind": "press",
+      "title": "Thomas Schneider, 'Traditionalism and Modernization: The Case of Mori Ogai', Comparative Civilizations Review 52 (Spring 2005), BYU ScholarsArchive (open-access scholarly article, first part read, about 3,000 words). Argues that Ogai's turn from fiction to history in his last decade (explained in his 1915 essay 'History as It Is and History Ignored') was a considered response to the problems of modernization rather than a retreat; draws on Kato Shuichi and J. Thomas Rimer; notes that Ogai 'has yet to achieve any satisfactory reception in the West' (Rimer). Political-science framing; discussion of nationalist slogans was read and is not scored.",
+      "url": "https://scholarsarchive.byu.edu/ccr/vol52/iss52/5/"
+    },
+    {
+      "id": "src_ogai_pmc",
+      "kind": "press",
+      "title": "'Short History of Epidemiology for Noninfectious Diseases in Japan. Part 1: Selected Diseases and Related Episodes from 1880 through 1944', Journal of Epidemiology, via PubMed Central (beriberi section read, about 1,800 words). CRITICAL / COUNTER-VOICE: reports Rintaro Mori's 1888-91 assessments of the navy surgeon Takaki Kanehiro's dietary experiment (that it lacked a control group; that the army ration was nutritionally adequate), his small six-soldier diet trial, and that the army director general relied on his report and did not change rations; notes that the historian Shun'ichi Yamamoto judged Mori's reasoning physiologically defensible but not relevant to beriberi prevention. Also records that Mori coined the Japanese term for epidemiology in 1889.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7058449/"
+    },
+    {
+      "id": "src_ogai_pharos",
+      "kind": "press",
+      "title": "Nakayama, beriberi in the Japanese military, The Pharos (Alpha Omega Alpha medical honor society), Autumn 2021, pp. 9-14 (PDF read in full, about 4,000 words). CRITICAL / COUNTER-VOICE: states that Rintaro Mori, as head of the Second Army medical bureau in the Sino-Japanese War, rejected requests to supply barley after the army's medical officers learned of Takaki's navy results, and that one medical officer ignored the restriction; places this inside the wider beriberi toll. Retold by a surgeon-historian, so treated as a secondary account of a disputed responsibility.",
+      "url": "https://www.alphaomegaalpha.org/wp-content/uploads/2021/11/p9-14_Nakayama_beriberi_AUT21.pdf"
+    },
+    {
+      "id": "src_ogai_routledge",
+      "kind": "biography",
+      "title": "Kevin Wetmore, 'Mori, Ogai (1862-1922)', Routledge Encyclopedia of Modernism (2016), publicly visible abstract only (about 250 words; the full text is behind an institutional login and was not opened). Describes him as army surgeon, translator, novelist, dramatist and literary theorist; important for translations (especially of Ibsen) and critical writings; his print debates with his rival Tsubouchi Shoyo, who advocated Realism while Mori saw a universal ideal behind literature.",
+      "url": "https://www.rem.routledge.com/articles/mori-ogai-1862-1922"
+    },
+    {
+      "id": "src_ogai_ndlbook",
+      "kind": "archive",
+      "title": "National Diet Library Digital Collection record for 'Ogai Mori Rintaro' by Mori Junzaburo (Marui Shoten, 1942), the book from which the portrait photograph was taken; the record's access restriction reads 'PDM' (Public Domain Mark). Used for the portrait only, not for any trait row.",
+      "url": "https://dl.ndl.go.jp/pid/1069406"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ogai_nippon, src_ogai_ndl, src_ogai_hu, src_ogai_brit, src_ogai_routledge | 1881-1922 | press + institution + reference] Several independent institutional and press accounts document sustained work in separate fields at once: army surgeon and hygiene researcher (hygiene textbook of 1897, epidemiology terminology, head of the Army's medical division from 1907), novelist, poet and critic, a translator from German and Scandinavian literature, a historian-biographer in his last years, and head of the Imperial Household Museum from 1917. The NDL staff note says he was active as a novelist, critic and translator while managing public affairs; Nippon.com calls him a 'towering thinker in a number of fields' (an editorial characterization) but also lists concrete outputs in each. Cost side: the same sources show his army superiors disapproved of the literary work and the Kokura posting was read as a demotion, so the range was not frictionless. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.66 to 76 / 0.62 because the range is documented but the supporting sources are concentrated in admiring institutional portals (NDL, the HU Berlin Ogai Portal, a press profile)."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ogai_nippon, src_ogai_hu, src_ogai_schneider | 1884-1914 | press + institution] After his German study he went on having the latest German publications, newspapers and magazines delivered so he could keep up with European culture (Nippon.com), taught himself French during the Kokura posting and studied Zen and consciousness-only teachings there, and wrote a column (Mukudori tsushin, 1909-1914) reporting concisely on cultural and scientific trends in Europe and North America (Ogai Portal). Reading breadth is documented; the inner motive is inferred from the pattern, and no source tests his curiosity against a rival account."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ogai_nippon, src_ogai_hu, src_ogai_ndl | 1907-1922 | press + institution] Once he held the top army medical post he 'published many new works' despite considerable duties (Nippon.com), the Ogai Portal describes a large number of shorter texts composed while fulfilling the demands of daily service, and the NDL note lists a continuing stream of novels, translations and a biography alongside public office until his death. Sustained output across two demanding roles is documented; day-to-day habits are not, and his own remarks about writing at night appear only in his fiction and are not used."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ogai_brit, src_ogai_nippon, src_ogai_schneider, src_ogai_routledge | 1890-1916 | reference + press + scholarly article] Britannica says Maihime (1890) was a marked departure from the impersonal fiction of preceding generations and started a vogue for autobiographical revelation; Nippon.com says he created new possibilities for Japanese literature and wrote Maihime in a hybrid of kanbun, classical Japanese and translation style; the 1909 Vita Sexualis was banned; the historical biographies of Shibue Chusai and Hojo Katei are described as blending research into fiction in an unprecedented style. Counterweights: a large share of his output is translation, the Routledge entry stresses his critical writings and debates, and Rimer (quoted by Schneider) says he has not yet been satisfactorily received abroad. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.54 to 66 / 0.50 because the 'departure from earlier fiction' claim rests on encyclopedic summaries that repeat one line (Britannica and the reference works derived from it) rather than an independent critical assessment."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ogai_nippon, src_ogai_hu, src_ogai_routledge | 1889-1912 | press + institution] Nippon.com says he deployed his German aesthetics in 'literary skirmishes' in his own magazine and calls his critical writing combative and pugnacious; the Routledge abstract records his print debates with Tsubouchi Shoyo; the Ogai Portal records that he published Vita Sexualis in 1909 and was reprimanded by the Deputy Army Minister after the issue was banned, that in 1908 he petitioned the Education Ministry criticizing the treatment of writers and proposing an Academy of Arts, and that he was afterwards asked to publish fiction under a pseudonym; Nippon.com says his 1910 story 'Tower of Silence' criticized tightened government control of discussion. He accepted the pseudonym request and, per the New World Encyclopedia summary read and not counted, never openly disobeyed his superiors, so tolerance of conflict is shown in print rather than in confrontation within the service."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "모리 오가이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mori-ogai-ohashi-otowa-1899.jpg",
+    "width": 832,
+    "height": 1168,
+    "source": "Full-length photograph of Mori Ōgai in army surgeon's uniform with plumed hat in hand, in the garden in front of the Kanchoro tea room, taken in June 1899 on the day before he left for Kokura, by Ohashi Otowa (1869-1901). The printed caption in the 1942 book 'Ogai Mori Rintaro' by Mori Junzaburo (Marui Shoten; National Diet Library Digital Collection record, access restriction Public Domain Mark) names the sitter, date, place and photographer; the same image is shown as the first of five portraits on the National Diet Library's exhibition page for MORI Ogai (file 0342_1.jpg). Rights basis: the photograph was taken in 1899 and the named photographer died in 1901 (Japanese Wikipedia, orientation only), so it is public domain by age in Japan, and as a Japanese work already out of copyright in 1996 it was not restored in the United States; the National Diet Library's exhibition states that all images in the exhibition are in the public domain and may be reused including commercially with source citation. The page does not carry a separate item-level statement for each photograph, so the rationale rests on photographer, date and age as well as that institutional statement. The file is the halftone reproduction as served by the library at 884 x 1281 pixels, cropped only to remove the printed caption and the border (832 x 1168 pixels); no scaling or upscaling.",
+    "license": "Public domain (photograph of 1899 by Ohashi Otowa, died 1901; National Diet Library states all images in its exhibition are in the public domain)",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/e/about",
+    "attribution": "Ohashi Otowa, 1899, reproduced in Mori Junzaburo, 'Ogai Mori Rintaro' (1942); National Diet Library, Japan, Portraits of Modern Japanese Historical Figures",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/e/datas/342",
+    "creator": "Ohashi Otowa (1869-1901)",
+    "date": "1899",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.ndl.go.jp/portrait/e/datas/342"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED with the lead's initial lead: NDL Portraits of Modern Japanese no. 342, first image, the 1899 photograph by Ohashi Otowa; the lead's open question was the NDL page wording on photographer and date, resolved by reading the printed caption on the image itself (sitter, June 1899, the day before leaving for Kokura, photographed by Ohashi Otowa in the front garden of the Kanchoro tea room) and the book record (1942, Public Domain Mark). The NDL page text itself does not name the photographer. PREFLIGHT: QID VERIFIED LIVE (2026-11-02) Q356960 label 'Mori Ōgai', description 'Japanese novelist and army physician (1862-1922)', born 1862-02-17; no production (prod63.txt) or candidate slug/QID collision. REGION east_asia (Japan; precedent natsume-soseki). ERA 20th_century (Gan 1911-13 and the historical works 1912-16; precedent natsume-soseki). KOREAN NAME 모리 오가이 is the Korean Wikidata label. ZERO POLITICS / MILITARY: his army career, the Sino-Japanese and Russo-Japanese war service, the Nogi suicide as a political-military event, and army ration policy as policy are not scored; the beriberi episode is used only as a scientific-judgment counter-voice at low confidence and the dispute over his personal responsibility is flagged in the row. VOCABULARY: occupations writer, physician; fields literature, medicine; tags polymath, prolific; archetype creative_creator; impact domains literary, cultural (all present in en.ts and ko.ts). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Mori Ōgai' (https://www.britannica.com/biography/Mori-Ogai), read in full. READ (substantively): Britannica; NDL biographical note and site policy; Nippon.com long profile; Ogai Portal (HU Berlin) 1906-1912 page with chronology; Schneider's scholarly article (first part); the PMC epidemiology review (beriberi section); the Pharos article; Routledge abstract (paywalled beyond the abstract). Also read but not counted as a source: New World Encyclopedia entry (a rewrite of Wikipedia), used only to cross-check dates and the 'never openly disobeyed' remark. PERSPECTIVES: reference encyclopedia; national library staff note; long-form press profile; university research portal; scholarly article on modernization; two medical-history accounts that are critical of his beriberi stance. COUNTER-VOICES: PMC and Pharos on the ration dispute; Schneider on limited Western reception. NOT OPENED: Bowring's 1979 monograph, Marcus's and Bargen's books, Kato Shuichi, Yamamoto's Japanese-language studies, the full Routledge entry, Aozora Bunko texts (his own writings), Kokura Nikki, and the bungeikan.jp page (unreachable). SELF-REPORT SEPARATION: quotations from his essays and stories on the Ogai Portal were read as self-report and no row rests on them alone; the night-writing passage in his fiction is not used. EXCLUSIONS (hard rule): marriages, divorce, the Maihime love affair as biography, children's deaths, family life, illness and cause of death, and any inference of motive or mental state from his late historical turn are not used. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (70/0.54 lowered to 66/0.50 because the originality claim rests on summaries repeating one encyclopedic line), cross_domain_range (kept at 80/0.66: documented separately by NDL, Nippon.com and the university portal), belief_updating (kept at 40/0.40: already low confidence and flagged as contested). HANDBACK63: {\"slug\": \"mori-ogai\", \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"initial_lead\": \"Ohashi Otowa photograph (NDL Portraits of Modern Japanese no. 342)\", \"final_portrait_source\": \"National Diet Library, Japan, Portraits of Modern Japanese Historical Figures no. 342 image 1 (0342_1.jpg), photograph by Ohashi Otowa, June 1899, reproduced in Mori Junzaburo 'Ogai Mori Rintaro' (1942, NDL DC pid 1069406, PDM), https://www.ndl.go.jp/portrait/e/datas/342\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 70, \"old_confidence\": 0.54, \"new_score\": 66, \"new_confidence\": 0.50, \"reason\": \"originality claim rests on encyclopedic summaries repeating one line rather than an independent critical assessment\"}], \"reviewed_kept\": [\"cross_domain_range\", \"belief_updating\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.66 to 76 / 0.62 because the range is documented but the supporting sources are concentrated in admiring institutional portals (NDL, the HU Berlin Ogai Portal, a press profile). RUBRIC_CORRECTION (lead review, before eligibility): belief_updating row (40 / 0.4) REMOVED because it scored a contested episode of army ration policy whose personal responsibility the sources dispute, which falls under the zero-politics/military rule and cannot be separated from it; rows 6 -> 5."
+  }
+}

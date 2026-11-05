@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "zhu-xi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Zhu Xi",
+    "aliases": [
+      "Chu Hsi",
+      "Zhu Yuanhui",
+      "Zhu Zhonghui",
+      "Zhuzi",
+      "Master Zhu",
+      "Zhu Wengong"
+    ],
+    "wikidataId": "Q9397",
+    "birthYear": 1130,
+    "deathYear": 1200,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "scholar",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_zhuxi_wikidata",
+      "kind": "wikidata",
+      "title": "Zhu Xi (Q9397), verified live via the Wikidata API (2026-11-02): English label 'Zhu Xi', description 'Chinese historian, neo-Confucian philosopher, poet, and politician during the Song dynasty (1130-1200)', Korean label 주희, birth 18 October 1130 and death 23 April 1200, occupations including philosopher, image a Qing rubbing of a stele reproducing a self-portrait. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9397"
+    },
+    {
+      "id": "src_zhuxi_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Zhu Xi' (first 100,000 of about 118,000 characters read: life, the Four Books, Reflections on Things at Hand, debates and later criticism; the final bibliography portion was not read). CANONICAL SIGNIFICANCE SOURCE: the preeminent Neo-Confucian (daoxue) master of the Southern Song, 'generally ranked as second only to Confucius in influence'; born in Youqi, Fujian, in 1130, passed the jinshi examination at nineteen, studied Chan Buddhism before becoming Li Tong's student in 1160, took mostly temple sinecures that left time for study, taught hundreds if not thousands of students, whose discourses are preserved in the Classified Dialogues; compiled, edited and commented on the Great Learning, Analects, Mencius and Doctrine of the Mean as the Four Books, which the Yuan dynasty adopted as the basis of the imperial examinations until 1908; the anthology Reflections on Things at Hand; debates with Lu Jiuyuan, Chen Liang, Lu Zuqian and Zhang Shi; later criticism by Wang Yangming (too outward and diffuse), Wang Fuzhi and Dai Zhen (who accused him of reading his own concepts into the classics). Scholarly reference; its praise of influence is retrospective.",
+      "url": "https://plato.stanford.edu/entries/zhu-xi/"
+    },
+    {
+      "id": "src_zhuxi_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Zhu Xi' (Neo-Confucian philosopher, 1130-1200), read in full: early life, the 1160 turn to Li Tong after an interest in Buddhism and Daoism, his teaching of 'hundreds, if not thousands' of students, the annotated editions and the Four Books (the commentary as a guide to self-cultivation, in Daniel Gardner's reading), observation guided by questions (he measured bean-sprout growth by day and by night to test a monk's claim and found no difference), the dispute with Zhang Shi over 'introspection in action' that he first accepted and later found hindered effective action, the debates with Lu Zuqian, Lu Jiuyuan and Chen Liang, and the later criticism by Wang Yangming, Wang Fuzhi and Dai Zhen. Independent scholarly reference.",
+      "url": "https://iep.utm.edu/zhu-xi/"
+    },
+    {
+      "id": "src_zhuxi_songshi",
+      "kind": "archive",
+      "title": "'History of Song' (Song Shi, compiled in the Yuan dynasty), chapter 429, the biography of Zhu Xi (Chinese Wikisource, original Chinese read in full): his early studies, the teaching post at Tong'an where he selected local students and lectured daily on the Way of cultivating oneself and governing others, his poverty and simple meals shared with students who came from afar, the list of his commentaries and compilations (Yi, Odes, Great Learning and Doctrine of the Mean, Analects and Mencius commentaries, Reflections on Things at Hand), the official accusations of 'false learning' and the ban on his school during which he went on lecturing to students daily and smiled without answering those who urged him to dismiss them, his deathbed letter urging his son and students to study and revise his writings, and the Yuan-era admission of his commentaries to the schools. Written about 150 years after his death by official historians sympathetic to his school; the nearest surviving full biography. His memorials and official career in it are not used here.",
+      "url": "https://zh.wikisource.org/wiki/%E5%AE%8B%E5%8F%B2/%E5%8D%B7429"
+    },
+    {
+      "id": "src_zhuxi_chuanxilu",
+      "kind": "archive",
+      "title": "Wang Yangming, 'Instructions for Practical Living' (Chuanxilu), part 2, passage 318 (Chinese Wikisource, original Chinese read): Wang says that people say 'investigating things' should follow Zhu Xi ('Huiweng') but none had used it as he did; he and a friend tried to investigate the principle of the bamboo in front of a pavilion, the friend falling ill after three days and Wang after seven, and Wang concluded that 'there is nothing in the world that can be investigated' and that the work of investigating things lies in the mind. Critical later text from the Ming Neo-Confucian whose school opposed Zhu's method, written about three centuries after Zhu's death; used only as the counter-voice on his method of study.",
+      "url": "https://zh.wikisource.org/wiki/%E5%82%B3%E7%BF%92%E9%8C%84/%E5%8D%B7%E4%B8%8B"
+    },
+    {
+      "id": "src_zhuxi_nwe",
+      "kind": "biography",
+      "title": "New World Encyclopedia, 'Academies (Shuyuan)', read: Zhu Xi rebuilt and expanded the White Deer Grotto Academy in 1179-80 while prefect of Nankang, after it had fallen into ruin; the academy reopened in 1180 and he taught there; he set down rules that had a lasting influence on later Confucianism; it remained a major centre for about eight centuries and hosted lectures by Lu Jiuyuan, Lu Zuqian and later Wang Yangming. A tertiary encyclopedia; the dates agree with Britannica as relayed in a web search but the Britannica entry itself returned HTTP 403 and was not read.",
+      "url": "https://www.newworldencyclopedia.org/entry/Academies_%28Shuyuan%29"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zhuxi_sep, src_zhuxi_songshi, src_zhuxi_iep | 1160-1200 | scholarly encyclopedias, official history] The SEP says he kept reflecting on and revising his commentary on the Great Learning almost until his last breath and that he produced annotated editions of the classics and the anthology Reflections on Things at Hand; the History of Song lists his commentaries and compilations on the Changes, the Odes, the Four Books and the Cheng brothers' writings, says his study aimed to 'investigate principle to extend knowledge', and records that on his deathbed he wrote to his son and students urging study and the revision of his writings; the IEP says he gave the next forty years after 1160 to the Confucian Way. The pattern is a lifelong scholarly programme documented by a modern encyclopedia and a sympathetic near-official biography; for an ancient subject the row is moderate and the evidence is a published record of works, not a close behavioural record."
+    },
+    "persistence": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_zhuxi_songshi, src_zhuxi_sep | 1190s | official history, scholarly encyclopedia] The History of Song says that while his school was banned as 'false learning' and former followers dispersed or changed teachers, he went on lecturing to students every day and smiled without replying to those who urged him to dismiss them; the SEP says he taught hundreds if not thousands of students and worked on the Great Learning almost to his death. The teaching-during-the-ban episode is a single sentence in a sympathetic official history written a century and a half later, so the row is limited to the documented continuation of teaching and is low in confidence. His official career, memorials and the political conflict behind the ban are not scored. SELF-CALIBRATION (agent): top-risk row; lowered from 60 / 0.45 to 56 / 0.40 because the decisive episode rests on one sentence of a sympathetic Yuan-era history."
+    },
+    "analytical_rigor": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_zhuxi_iep, src_zhuxi_sep, src_zhuxi_chuanxilu | 1150-1200 | scholarly encyclopedias, later critical Neo-Confucian text] The IEP says he practised observation guided by specific questions, and gives the example of measuring bean-sprout growth by day and by night to test a monk's claim and finding no difference; the SEP says twentieth-century readers such as Hu Shih and Joseph Needham saw his method as scientific, while Wang Yangming rejected the method as too outward and diffuse (his own bamboo-gazing trial, Chuanxilu 318, made him conclude nothing could be investigated) and Dai Zhen charged that he read his own concepts into the classics. The single experiment example and the retrospective praise are weak support, and the critics dispute the method, so the row is moderate-low with dual-edged impact."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zhuxi_iep, src_zhuxi_sep, src_zhuxi_songshi | 1160-1175 | scholarly encyclopedias, official history] The IEP says he was interested in Buddhism and Daoism until 1160, then at thirty became Li Tong's student and was convinced of the Confucian Way, to which he devoted the next forty years (the History of Song says he walked several hundred li to study with Li Tong); it also records that in his exchange with Zhang Shi he first accepted Zhang's 'introspection in action' and later found that it impeded effective action; the SEP says he drew on Chan Buddhism in his jinshi examination answers at nineteen. These are documented changes of position, though the accounts come from two modern encyclopedias summarising letters and a sympathetic biography, so confidence is moderate-low."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "주희"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/zhu-xi-anonymous-yuan-dynasty.jpg",
+    "width": 800,
+    "height": 1101,
+    "source": "Leaf for Zhu Xi from the album 'Half Portraits of the Great Sage and Virtuous Men of Old', anonymous, Yuan dynasty (probably after 1330), ink and colours on paper, main sheet 33.3 x 24.3 cm, National Palace Museum, Taipei (object number 中畫000329N000000059, work number 中畫00032900117). The leaf's inscription reads 徽國公朱熹 (Duke of Hui, Zhu Xi) and the museum's catalogue entry names the sitter; the title Duke of Hui was granted to him after his death, so the leaf is a conventional posthumous portrait made well after 1227 and more than a century after his death, not a likeness from life. The file is a crop of the leaf (the museum's colour card, number tag and mount edge removed) from the museum's own image service, downscaled from about 1530 x 2105 source pixels to 800 x 1101 (about 0.88 million pixels) with no upscaling.",
+    "license": "CC0 (the museum's open-data declaration for images up to about 1 million pixels; the painting is also public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Anonymous (Yuan dynasty), Half Portraits of the Great Sage and Virtuous Men of Old, leaf for Zhu Xi. The National Palace Museum, Taipei, open data (CC0 low-resolution tier; cropped and downscaled)",
+    "attributionUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/17947?dep=P",
+    "creator": "Anonymous (Yuan dynasty)",
+    "date": "Yuan dynasty (probably after 1330)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://digitalarchive.npm.gov.tw/Collection/Detail/17947?dep=P"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED, LEAD USED (with a caveat on dating). The lead image is the Zhu Xi leaf of the Yuan-dynasty album 'Half Portraits of the Great Sage and Virtuous Men of Old' (至聖先賢半身像 冊) at the National Palace Museum, Taipei. The leaf was not under the cids of the Mencius leaf: I scanned the museum's IIIF manifests (digitalarchive.npm.gov.tw/Integrate/GetJson?cid=...) and found Zhu Xi at cid 17947 (the album's leaves are spread across cids 17944-17948, 18011-18017 and 18085-18139). LIVE NPM item page opened: https://digitalarchive.npm.gov.tw/Collection/Detail/17947?dep=P is 'Half Portraits of the Great Sage and Virtuous Men of Old, album, Zhu Xi', object number 中畫000329N000000059, work number 中畫00032900117, main sheet 33.3 x 24.3 cm, paper, inscription (regular script) 徽國公朱熹, subject listed under saints and worthies > Zhu Xi; so the sitter is identified by the holder and by the leaf's own inscription, not by a Commons tag. TERMS read on the item page and on the museum's open-data declaration (digitalarchive.npm.gov.tw/opendata, opened): low-resolution images (about 1 million pixels) CC0 with no attribution needed, mid-resolution (about 6 million pixels) and the site text CC BY 4.0 with the credit line 'The National Palace Museum, Taipei, CC BY 4.0 @ www.npm.gov.tw', excluding patent and trademark rights, covering paintings and calligraphy; the item page's footer carries a generic 'Copyright National Palace Museum' notice, which I treated as site-wide and the item-level open-data statement as controlling for the image. The IIIF manifest's licence field points to https://data.gov.tw/license (Taiwan's open-data licence). DATING CAVEAT: the NPM item page gives no date (the 'Time' field of the manifest is empty); 'Yuan dynasty, probably after 1330' is an inference from the labels that appears in the Commons description of the album and in the Mencius candidate in this cycle, not an NPM statement I read, so the age basis is my reading (the Duke of Hui title was conferred after his 1200 death, the History of Song says 1227-era honours, and the Commons description of the album says it was formerly in the Nanxun Hall collection and Yuan in date) together with the museum's CC0 declaration for the low-resolution tier. The museum's IIIF image service was used (no captcha) at a crop of 1530 x 2105 source pixels downscaled to 800 x 1101 (0.88 million pixels, within the CC0 tier), saved as public/portraits/zhu-xi-anonymous-yuan-dynasty.jpg; no upscaling; the colour card, number tag and mount edge were cropped away. Commons has the same leaf as File '至聖先賢半身像 冊-117-朱熹.jpg' (3190 x 4485, PD-Art-100); I read its wikitext as a cross-check only (its source is a Shuge copy of the museum's digitisation). ALTERNATIVE CHECKED AND REJECTED: Philadelphia Museum of Art, 'Portraits of Famous Men: Zhu Xi' (accession 1929-40-213ee, artist unknown, 19th to early 20th century), whose page data say 'Public Domain' but whose visible wording says images are shared for educational use and refers rights queries to the library, and whose creation date is too late and vague for an age basis. kind historical_depiction: a later conventional likeness of the sage, not a portrait from life; the Qing stele rubbing said to copy his 1190 self-portrait was not used (a modern photograph of a rubbing under a CC BY-SA licence, with disputed authenticity). PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q9397 label 'Zhu Xi', description 'Chinese historian, neo-Confucian philosopher, poet, and politician during the Song dynasty (1130-1200)', Korean label 주희, birth 18 October 1130 and death 23 April 1200; not in prod63.txt, and no candidate file or other file contained Q9397. REGION east_asia, ERA medieval (precedent zhao-mengfu), nationality CN. ZERO POLITICS: the portfolio label says leadership but his primary identity is a Neo-Confucian philosopher, commentator and teacher; his official posts, his memorials to emperors, his part in court disputes and the ban on his school as a political event are NOT scored and not carded; only his teaching, study and scholarly behaviour are used. VOCABULARY: occupations philosopher, scholar and teacher, fields philosophy and education, impact domains cultural, educational and historical, tags philosopher and mentor, archetype scholarly_specialist, all present in en.ts and ko.ts. KO NAME: Wikidata Korean label 주희 (also the standard Korean Wikipedia title). CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Zhu Xi' (https://plato.stanford.edu/entries/zhu-xi/). READ (6 sources incl. Wikidata): (1) SEP 'Zhu Xi', the first 100,000 characters read, the closing 17,800 (bibliography) not read; (2) IEP 'Zhu Xi', full; (3) History of Song ch. 429 Zhu Xi biography (Chinese Wikisource, original Chinese read; the Zhang Shi biography that follows it was not used); (4) Wang Yangming's Chuanxilu passage 318 (Chinese Wikisource); (5) New World Encyclopedia 'Academies (Shuyuan)'. PERSPECTIVES: modern scholarly encyclopedias (SEP, IEP), Yuan official history sympathetic to his school, a Ming critic of his method (Wang Yangming), a tertiary encyclopedia for the academy. COUNTER-VOICES AND LIMITS: Wang Yangming (his own bamboo trial) and, via the SEP and IEP, Dai Zhen and Wang Fuzhi criticised the method and metaphysics; the History of Song records accusers who called his teaching 'false learning'; no source here is adversarial about his personal conduct and none is a close behavioural record. NOT OPENED: Britannica (HTTP 403), the Classified Dialogues (Zhuzi yulei) and his collected works and letters, Zhu Xi's own White Deer Grotto rules, Daniel Gardner's and Wing-tsit Chan's monographs, and the Zhang Shi, Lu Jiuyuan and Chen Liang exchanges at first hand. White Deer Grotto is cited only from the New World Encyclopedia and the SEP and IEP do not mention it. LEGEND VERSUS SCHOLARSHIP: the childhood anecdotes in the History of Song (asking what lies above heaven, drawing the eight trigrams in the sand) are not scored. SPARSE PROFILE for a pre-modern subject: 4 rows, scores 56-62, confidence 0.40-0.50. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (60/0.45 lowered to 56/0.40: one sentence of a sympathetic history), mastery_orientation (kept: two independent sources agree on a lifelong scholarly programme), belief_updating (kept: two encyclopedias document the shifts). HANDBACK63: {\"slug\": \"zhu-xi\", \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"initial_lead\": \"National Palace Museum Yuan album leaf 'Half Portraits of the Great Sage and Virtuous Men of Old'\", \"final_portrait_source\": \"National Palace Museum, Taipei / anonymous Yuan-dynasty album leaf 'Half Portraits of the Great Sage and Virtuous Men of Old', leaf for Zhu Xi (item 17947, object no. 中畫000329N000000059) https://digitalarchive.npm.gov.tw/Collection/Detail/17947?dep=P ; image from the museum's IIIF service (canvas C2A000329N000000059PAB), cropped and downscaled to 800x1101\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 60, \"old_confidence\": 0.45, \"new_score\": 56, \"new_confidence\": 0.4, \"reason\": \"The decisive episode (teaching on during the ban) rests on one sentence of a sympathetic Yuan-era official history\"}], \"reviewed_kept\": [\"mastery_orientation\", \"belief_updating\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

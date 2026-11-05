@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "leos-janacek",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Leoš Janáček",
+    "aliases": [
+      "Leos Janacek",
+      "Leoš Eugen Janáček"
+    ],
+    "wikidataId": "Q184933",
+    "birthYear": 1854,
+    "deathYear": 1928,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CZ"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "teacher"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "late_recognition",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jana_wikidata",
+      "kind": "wikidata",
+      "title": "Leoš Janáček (Q184933), verified live via the Wikidata API (2026-11-02): label 'Leoš Janáček', description 'Czech composer (1854-1928)', born 1854-07-03, died 1928-08-12, Korean label 레오시 야나체크. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q184933"
+    },
+    {
+      "id": "src_jana_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Leoš Janáček' (full article read, about 500 words). CANONICAL SIGNIFICANCE SOURCE: composer, one of the most important exponents of musical nationalism of the 20th century; founded the organ school at Brno in 1881 and directed it until 1920; collected folk songs with Frantisek Bartos and published the journal Hudebni listy; in his later operas developed a distinctly Czech style tied to the inflections of native speech and the scales of Moravian folk music; Jenufa (1904) established his international reputation; also The Makropulos Case, From the House of the Dead, The Cunning Little Vixen, the Glagolitic Mass, song cycles; style 'highly individual and original'.",
+      "url": "https://www.britannica.com/biography/Leos-Janacek"
+    },
+    {
+      "id": "src_jana_brno",
+      "kind": "institution",
+      "title": "Jiri Zahradka, 'Leos Janacek', Janacek Brno festival (the Leos Janacek International Music Festival; page read in full, about 1,600 words). Detailed institutional biography: choirboy at the Augustinian abbey in Brno, teacher-training institute, choir conductor, the Prague Organ School, brief Leipzig and Vienna study, founding of the periodical Hudebni listy, field collection of folk songs and dances from 1888, the systematic notation of speech melodies from 1897 (more than three thousand recordings including animal sounds), Jenufa finished after almost ten years of effort, its refusal by the Prague National Theatre, the Brno premiere of 21 January 1904, a further twelve years' wait for Prague, international fame from 1918, and the last prolific decade including oversight of the transformation of the Brno Organ School into the Conservatory. Passages on marriage, children, a muse and the circumstances of his death were read and are not used. Written by the festival named for him, so treated as admiring.",
+      "url": "https://janacek-brno.cz/en/leos-janacek/"
+    },
+    {
+      "id": "src_jana_rbo",
+      "kind": "institution",
+      "title": "Royal Ballet and Opera, London, 'Leos Janacek' biography (page read in full, about 450 words). 'A late developer': fifty when he completed his first mature opera Jenufa; his earlier operas Sarka (unperformed for decades), The Beginning of a Romance (little impression) and Osud (declared un-performable) had limited success; Jenufa a local triumph in 1904 but it took more than a decade and an ardent campaign by his admirers to reach Prague's National Theatre in 1916; contract with Universal Edition in Vienna; the fertile last years 1920-28. Remarks on a personal attachment were read and are not used.",
+      "url": "https://www.rbo.org.uk/people/leos-janacek"
+    },
+    {
+      "id": "src_jana_lso",
+      "kind": "institution",
+      "title": "Alexandra Wilson, 'Leos Janacek', London Symphony Orchestra composer guide (page read in full, about 850 words). Czech composer whose language transformed 20th-century opera; inspired by the rhythms of spoken Czech and Moravian folk traditions; music barely known outside Moravia until the belated Prague performance of Jenufa in 1916; many celebrated works (Sinfonietta, Glagolitic Mass, string quartets, four major operas) written in the last decade of his life; 'one of the most original opera composers of the 20th century'. Personal-life paragraphs were read and are not used.",
+      "url": "https://www.lso.co.uk/news-and-stories/composer-guide/leos-janacek/"
+    },
+    {
+      "id": "src_jana_eno",
+      "kind": "institution",
+      "title": "English National Opera, 'An Introduction to Jenufa' (page read in full, about 650 words). Jenufa took nearly ten years to write, premiered in Brno in 1904 after repeated rejections by Prague's National Theatre management, was a great success in Prague in 1916 and soon reached Vienna, Berlin and New York; working-class village subject and the 'speech-melody' method of following the cadences of everyday speech after recording ordinary people speaking Moravian. Personal dedication remark was read and is not used.",
+      "url": "https://www.eno.org/discover-opera/articles/introduction-to-jenufa/"
+    },
+    {
+      "id": "src_jana_vlkova",
+      "kind": "press",
+      "title": "Marketa Vlkova (Masaryk University), 'Between Science and Art: The Speech Melodies of Leos Janacek', Fourth International Workshop on the History of Speech Communication Research, Prague, 27-28 August 2021 (ISCA Archive; full paper read, about 4,000 words). CRITICAL / COUNTER-VOICE: reports that from the summer of 1897 until 1928 he notated overheard speech in 56 preserved notebooks with circumstances of time, place and the speaker's state of mind (more than 6,000 surviving items estimated), that his 'theory' is an unstable set of observations rather than a consistent theory, and that later musicologists stress stylization and subjectivity, quoting John Tyrrell that the melodies 'reflect much more of him than they did of their speakers'.",
+      "url": "https://www.isca-archive.org/hscr_2021/vlkova21_hscr.html"
+    },
+    {
+      "id": "src_jana_ndk",
+      "kind": "archive",
+      "title": "National Library of the Czech Republic, Kramerius digital library, 'Narodni album: Sbirka podobizen a zivotopisu ceskych lidi prac a snahami vynikajicich i zaslouzilych' (Prague: Jos. R. Vilimek, 1899), page 183 (record and image read through the library's API; access policy 'public'). Used for the portrait only, not for any trait row.",
+      "url": "https://ndk.cz/view/uuid:9d452470-905f-11dd-9c34-000d606f5dc6?page=uuid:a8426d20-cbba-11e6-b22f-5ef3fc9ae867"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jana_brno, src_jana_rbo, src_jana_eno, src_jana_lso, src_jana_vlkova | 1894-1916 | institution biographies + scholarly paper] Four separate institutions, written for different audiences, agree on the shape of the record: Jenufa took nearly ten years to write (finished 1903), was refused by the Prague National Theatre, was premiered in Brno in 1904 and reached Prague only in 1916; his first opera Sarka stayed unperformed for decades, the next made little impression and Osud was declared un-performable, yet he continued composing operas and wrote most of his best-known works in his last decade. The year counts are consistent across the Brno festival, the Royal Ballet and Opera and ENO (the Brno festival and the Royal Ballet and Opera differ slightly on some dates, such as the end of his organ-school directorship). Cost side: the ten-year wait left him known mainly as a Brno teacher and director for most of his life. Admiring institutions dominate, but the facts are dated and cross-checked; the Brno festival says he lost faith in himself during the Prague wait, which is not used because it is a mental-state claim. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 76 / 0.62 to 72 / 0.58 because most sources are promotional institutional biographies (festival, opera houses, orchestra) with a single scholarly paper."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jana_brno, src_jana_vlkova, src_jana_eno, src_jana_brit | 1884-1928 | institution + scholarly paper + reference] He collected folk songs and dances, often recording them directly in the field, from 1888 (Brno festival), published a collection with Bartos (Britannica), and from the summer of 1897 until 1928 notated speech melodies in 56 preserved notebooks, adding the time, place and situation of each; the Brno festival counts more than three thousand recordings including dog barks and bee buzzing, the scholarly paper estimates more than 6,000 surviving items (the counts differ and the paper itself says no one agrees how to interpret the material). Britannica also records three visits to Russia and a developed interest in Russian language and literature. The documented behaviour is a long, self-directed habit of listening and recording; the motive is not given beyond his own claims. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 74 / 0.6 to 70 / 0.54 because the same institutional concentration; the scholarly paper supports the speech-melody study but not the breadth implied."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jana_brit, src_jana_brno, src_jana_rbo, src_jana_lso, src_jana_vlkova | 1903-1928 | reference + institutions + scholarly paper] Britannica says his style remained highly individual and original, built on the inflections of Czech speech and Moravian folk scales; the Brno festival says that with Jenufa he moved away from closed numbers and arias toward rhythmic ostinato and modal forms, and that his works belong among the most progressive of the century; the Royal Ballet and Opera and the LSO call him one of the most original opera composers of the early 20th century. Counterweight: the scholarly paper stresses that the speech-melody 'theory' is unstable and subjective (the melodies reflect more of him than of the speakers), which qualifies the claim to a scientific method but not the novelty of the result. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 78 / 0.60 to 74 / 0.55 because most of the originality statements come from presenters and promoters of his music (a festival named for him, an opera house, an orchestra) with only one encyclopedia line and no adversarial assessment."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jana_brit, src_jana_brno, src_jana_rbo | 1873-1925 | reference + institutions] He founded the organ school at Brno in 1881 and directed it (Britannica says until 1920, the Royal Ballet and Opera 1919), founded and edited the first musical periodical in Moravia, Hudebni listy (1884-88), led the Brno Philharmonic Society choir for twelve years, took duties in the Association for a Czech National Theatre in Brno, the Russian Circle and the Club of Friends of Art, and in his last decade oversaw the transformation of the organ school into the Brno Conservatory; the Brno festival calls his organizational, conducting and pedagogical activity 'tireless', which is the festival's own characterization. The institutions and dates are documented; the festival is the main source for the extent of the organizing."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jana_vlkova, src_jana_brno | 1897-1928 | scholarly paper + institution] The scholarly paper says he recorded each extract with external circumstances (time, place, situation) or the speaker's state of mind, kept 56 notebooks over three decades and showed 'striving for precision' alongside a tendency to stylise; the Brno festival says he was convinced human speech could be recorded objectively in notation. The dual-edged part is in the same paper: later musicologists argue the notation is highly stylised and subjective, so the care taken does not establish the accuracy he claimed. One scholarly source carries most of the row, so confidence is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "레오시 야나체크"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/leos-janacek-anonymous-1899.jpg",
+    "width": 455,
+    "height": 640,
+    "source": "Photographic portrait of Leoš Janáček (profile view, looking up) as reproduced on page 183 of the printed album 'Narodni album: Sbirka podobizen a zivotopisu ceskych lidi prac a snahami vynikajicich i zaslouzilych' (Prague: Jos. R. Vilimek, 1899), where the sitter is named by the printed caption 'Leos Janacek'. The album page shows five composers and writers within a decorative frame; the photographer of this portrait is not credited on the page and is treated as unknown. The image was cropped from the National Library of the Czech Republic's Kramerius digital scan (4108 x 3358 pixel page, access policy 'public'); the crop is 455 x 640 pixels at original resolution with no scaling or upscaling, and the decorative frame was cropped away. Rights basis: the image was published in Prague in 1899, so it is in the public domain in the United States by publication date (any work published before 1931 is, and works of that age were not restored by the 1996 copyright restoration), and the Czech copyright term for an anonymous photograph of that age has expired; this is a basis by age and publication date, not an institutional licence, and the library's record states only an access policy and no reuse terms. Caveat recorded honestly: a still-living-in-1996 photographer cannot be excluded for Czech law, but the 1899 publication fixes the United States status.",
+    "license": "Public domain (published in Prague in 1899; photographer unknown)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unknown photographer, 1899, in 'Narodni album' (Prague: Jos. R. Vilimek, 1899), p. 183; National Library of the Czech Republic digital library (cropped)",
+    "attributionUrl": "https://ndk.cz/view/uuid:9d452470-905f-11dd-9c34-000d606f5dc6?page=uuid:a8426d20-cbba-11e6-b22f-5ef3fc9ae867",
+    "creator": "Unknown photographer",
+    "date": "1899",
+    "kind": "likeness",
+    "sourcePageUrl": "https://ndk.cz/view/uuid:9d452470-905f-11dd-9c34-000d606f5dc6?page=uuid:a8426d20-cbba-11e6-b22f-5ef3fc9ae867"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED with the lead's initial lead, the 1899 portrait from the Czech National Digital Library: it is page 183 of the printed 'Narodni album' (Prague, Vilimek, 1899), so the rights question is settled by 1899 publication (United States public domain by date; the photographer is uncredited, so the anonymous-work claim is the Czech-law side only and is flagged as a caveat). The lead's open issue (any Czech/URAA restoration) is answered: a work published in 1899 was out of United States copyright long before 1996 and so cannot have been restored. Wikimedia Commons file 'Leos Janacek.jpg' shows the same album page source and tags it 'PD-old-70-1923' with author 'anonymous'; the Commons tag was not relied on. The picture is a small crop (455 x 640 pixels); no larger copy was used because that would need an alternative of weaker rights (family photographs, 1916 theatre images). PREFLIGHT: QID VERIFIED LIVE (2026-11-02) Q184933 label 'Leoš Janáček', description 'Czech composer (1854-1928)', born 1854-07-03; no production (prod63.txt) or candidate slug/QID collision. REGION central_europe (Czech lands; precedent antonin-dvorak). ERA 20th_century (Jenufa 1904 and every work that made his name, 1916-28). KOREAN NAME 레오시 야나체크 is the Korean Wikidata label. ZERO POLITICS: Czech musical nationalism as a movement, Slavonic and national-revival context and the founding of Czechoslovakia are not scored. VOCABULARY: occupations composer, teacher; field music; tags late_recognition, innovator; archetype creative_creator; impact domains artistic, cultural (all present in en.ts and ko.ts). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Leoš Janáček' (https://www.britannica.com/biography/Leos-Janacek), read in full. READ (substantively): Britannica; Janacek Brno festival biography; Royal Ballet and Opera biography; LSO composer guide; ENO Jenufa article; Vlkova's scholarly paper on the speech melodies (full text); OperaVision animation notes (read, not counted). PERSPECTIVES: reference encyclopedia; the festival of his home city; two London institutions (opera house, orchestra) and a national opera company; an academic musicologist who criticises the objectivity of his method. COUNTER-VOICES: Vlkova (and Tyrrell as quoted by her) on subjectivity; the Prague National Theatre's repeated refusal of Jenufa as reported (reasons differ across sources and are not scored). NOT OPENED: Tyrrell's two-volume biography, Grove/Oxford Music Online, Universal Edition's page (403), Czech-language sources, Kundera's essay, the letters, and any adversarial contemporary criticism. SELF-REPORT SEPARATION: his own remark about Leipzig and Vienna ('nothing else to learn') is reported by the festival and is not used. EXCLUSIONS (hard rule): his marriage, the death of his children, his friendships with women and the letters, his health and the cause of death, and any inferred emotional state (including loss of faith in himself during the Prague wait) are not used and no trait is inferred from them. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (78/0.60 lowered to 74/0.55 because the originality statements come from promoters of his music), persistence (kept at 76/0.62: four institutions agree on dated facts), curiosity (kept at 74/0.60: two independent institutional accounts of the recording habit). HANDBACK63: {\"slug\": \"leos-janacek\", \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"initial_lead\": \"1899 portrait, Czech National Digital Library (NDK) page\", \"final_portrait_source\": \"National Library of the Czech Republic Kramerius digital library, Narodni album (Prague: Jos. R. Vilimek, 1899) page 183, uuid:a8426d20-cbba-11e6-b22f-5ef3fc9ae867, https://ndk.cz/view/uuid:9d452470-905f-11dd-9c34-000d606f5dc6?page=uuid:a8426d20-cbba-11e6-b22f-5ef3fc9ae867\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 78, \"old_confidence\": 0.60, \"new_score\": 74, \"new_confidence\": 0.55, \"reason\": \"originality statements come mainly from promoters of his music with only one encyclopedia line and no adversarial assessment\"}], \"reviewed_kept\": [\"persistence\", \"curiosity\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 76 / 0.62 to 72 / 0.58 because most sources are promotional institutional biographies (festival, opera houses, orchestra) with a single scholarly paper. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 74 / 0.6 to 70 / 0.54 because the same institutional concentration; the scholarly paper supports the speech-melody study but not the breadth implied."
+  }
+}

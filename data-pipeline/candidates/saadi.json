@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "saadi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Saadi Shirazi",
+    "aliases": [
+      "Saadi",
+      "Sa'di",
+      "Saʿdī",
+      "Sa'di of Shiraz",
+      "Musharrif al-Din Muslih",
+      "سعدی"
+    ],
+    "wikidataId": "Q170302",
+    "birthYear": 1210,
+    "deathYear": 1291,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "IR"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "communicator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_saadi_wikidata",
+      "kind": "wikidata",
+      "title": "Saadi (Q170302), verified live via the Wikidata API (2026-11-02): label 'Saadi', description 'Persian poet', birth dates recorded as 1210, 1213, 1175 and 1184 and death dates 1291 and 1292 (the item itself reflects the scholarly disagreement), Korean label 사디. Orientation only; not used as support for any row. The 1210 birth year used here follows the modern scholarly consensus reported by the Encyclopaedia Iranica.",
+      "url": "https://www.wikidata.org/wiki/Q170302"
+    },
+    {
+      "id": "src_saadi_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Saʿdī' (full article read, about 600 words). CANONICAL SIGNIFICANCE SOURCE: Persian poet, one of the greatest figures in classical Persian literature; the Bustan (1257, verse) and the Gulistan (1258, mainly prose with inserted short poems) are his best-known works; also remembered as a great panegyrist and lyricist, with odes and ghazals, six prose treatises attributed to him and works in Arabic; 'the most widely admired writer in the world of Iranian culture'; the article stresses that his 'autobiographical' anecdotes, such as the captivity at Tripoli, are considered highly suspect and that travels to India and Central Asia cannot be confirmed.",
+      "url": "https://www.britannica.com/biography/Sadi"
+    },
+    {
+      "id": "src_saadi_iranica",
+      "kind": "biography",
+      "title": "Paul E. Losensky, 'Saʿdi', Encyclopaedia Iranica (2000, updated 2015; full article read, about 4,300 words). Scholarly examination of the sources for his biography: little is known with certainty and the first-person anecdotes in the Bustan and Golestan are often fictionalized or cast for rhetorical effect; the two firm dates are the completion of the Bustan (1257) and Golestan (1258); a birth around 1209-10 is the modern consensus; studied in Baghdad, travelled for some thirty years, returned to Shiraz around 1257; wrote for Salghurid and Il-khanid officials, lived in contact with ruling circles but apparently never joined the court formally; his poetry spread across the Persian-speaking world and impressed Amir Khosrow and Hasan Sijzi in India and was translated into Turkish in Anatolia; the 22-section collected works (Kolliyat) in Persian and Arabic, verse and prose. CRITICAL / COUNTER-VOICE on the evidence itself.",
+      "url": "https://www.iranicaonline.org/articles/sadi-sirazi/"
+    },
+    {
+      "id": "src_saadi_uoregon",
+      "kind": "institution",
+      "title": "University of Oregon Libraries, Special Collections, 'Gulistan wa Bustan (The Rose Garden and the Fruit Garden)', Languages of the East digital exhibit, manuscript MS 043 (page read in full, about 500 words). Dates the Bustan to 1257 and the Gulistan to 1258, summarizes the ten ethical chapters of the Bustan and the eight chapters of the Gulistan, describes the 1615 manuscript and notes the works' resurgence in nineteenth-century European Romantic circles. Used for orientation and the structure of the works.",
+      "url": "https://expo.uoregon.edu/spotlight/medieval-manuscripts/feature/gulistan-wa-bustan-the-rose-garden-and-the-fruit-garden"
+    },
+    {
+      "id": "src_saadi_eb1911",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, eleventh edition (1911), 'Sa'di' (read via Wikisource, about 1,500 words). Dated narrative life that treats his own first-person anecdotes as biography (birth about 1184, thirty years in Baghdad, a long itinerary through India and Africa, captivity by the Franks, a quarrelsome marriage). Read as a contrast to the modern Iranica and Britannica treatments; none of its biographical claims is used for any row.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Sa%E2%80%98d%C4%AB"
+    },
+    {
+      "id": "src_saadi_cbl",
+      "kind": "archive",
+      "title": "Chester Beatty Library, Dublin, record Per 119.36 'A lady offers a cool drink to the poet Sa'di, from Prince Baysunghur's Rose Garden (Gulistan) by Sa`di' (Herat, 1427), read through the library's public IIIF record, together with the library's live Copyright page stating CC BY 4.0 as the default licence for digital images of its collection objects. Used for the portrait only, not for any trait row.",
+      "url": "https://viewer.cbl.ie/viewer/api/v1/records/Per_119_36/manifest/"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_saadi_iranica, src_saadi_brit | c.1223-1290 | scholarly encyclopedia + reference] Pre-modern, sparse-evidence row, scored from scholarship rather than his own anecdotes. Iranica reports that he left Shiraz as a student for Baghdad, spent some thirty years travelling (Katuzian judges Iraq, Syria, Palestine and Arabia probable and the eastern journeys unlikely) and on returning remained in contact with the ruling circles of Shiraz through several changes of ruling house, addressing poems to Salghurid and Il-khanid officials alike while apparently never joining the court formally; Losensky's own reading is that he met the challenges of the age by 'adept and constant motion' and a 'willingness to adapt principle to the particular situation'. That is a scholar's synthesis of what his collected works show, not a documented decision, and the itinerary is uncertain, so evidence type is inference and confidence is low. The poems to rulers are not scored as political behaviour."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_saadi_iranica, src_saadi_brit, src_saadi_uoregon | 13th century | scholarly encyclopedia + reference + library exhibit] Range across forms and registers is documented in the surviving corpus: Britannica lists the verse Bustan, the prose-and-verse Gulistan, odes, lyrics (ghazals), six prose treatises and works in Arabic; Iranica's description of the 22-section collected works includes Persian and Arabic qasidas, macaronic poems in both languages, strophic poems, quatrains, sermons in prose and a mirror-for-princes treatise, and says his work depicts a world from elite mansions to the street life of the poor; the Oregon exhibit describes the Bustan's ethical chapters and the Gulistan's lighter, humorous tales. Caveats from Iranica: some items in the collected works are 'clearly not by his hand' and a bawdy section is attributed to him but suppressed from modern editions, so the corpus boundary is uncertain. The range is across genres within one literary field."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_saadi_brit, src_saadi_iranica | c.1223-1260 | reference + scholarly encyclopedia] Britannica says he was sent to study at the renowned Nizamiyya college in Baghdad and acquired the traditional learning of Islam; Iranica says that, still an adolescent, he left Shiraz to continue his studies there around 1223-24 as a fellowship student, citing his own Bustan, and that his mastery of language and literate culture let him move through mosques, markets and palaces; it also notes that by the time he returned to Shiraz around 1257 he was already a famous poet on the strength of widely circulated ghazals, and that Amir Khosrow, writing within decades of his death, wrote that composing poetry in Saadi's lifetime was shameful. The education details rest partly on his own works, which Iranica treats cautiously, and the evidence is of achieved skill more than of a drive to master, so score and confidence are modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사디"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/saadi-baysunghur-gulistan-1427.jpg",
+    "width": 560,
+    "height": 1200,
+    "source": "Detail of the poet Saadi from the painting 'A lady offers a cool drink to the poet Sa'di', a full-page miniature in Prince Baysunghur's copy of the Gulistan (Rose Garden), made at the Timurid court in Herat and dated 830 AH / 1427, about 135 years after his death; Chester Beatty Library, Dublin, Per 119.36 (verso). The library's own record titles the scene 'A lady offers a cool drink to the poet Sa'di' and describes the poet of the anecdote; the individual painters of the manuscript (Amir Khalil, Khwaja Ghiyathuddin, Khwaja Ata and Mawlana Shihab) are not matched to specific paintings by the library. This is a later, imagined depiction of a figure within a narrative scene, not a likeness from life, and it is shown as a detail of that scene (the lady in the doorway is cropped away). It was taken from the library's public IIIF image at full resolution: the original painting-folio image is 4,773 x 7,749 pixels, the cropped region used is 700 x 1,500 pixels, and it was downscaled once to 560 x 1,200 pixels; nothing was upscaled. Rights basis: the painting is a 2D work from 1427 and is in the public domain by age everywhere; the Chester Beatty Library's live Copyright page states that digital images of its collection objects are released under CC BY 4.0 unless otherwise listed, and the Per 119.36 record lists only the library as owner with no separate restriction. Caveats recorded honestly: the library's item pages are behind an anti-bot challenge, so the record was read through its public IIIF manifest; an older library strategy document mentioned a non-commercial licence, which the current Copyright page supersedes; the credit to the library is given as the CC BY 4.0 licence asks.",
+    "license": "Public domain (1427 painting; reproduction released by the Chester Beatty Library under CC BY 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Court painters of Herat, 1427, 'A lady offers a cool drink to the poet Sa'di' (detail), Prince Baysunghur's Rose Garden (Gulistan) by Sa`di, Chester Beatty Library, Dublin, Per 119.36, CC BY 4.0",
+    "attributionUrl": "https://chesterbeatty.ie/about/copyright-2/",
+    "creator": "Court painters of the Timurid atelier at Herat (not individually identified)",
+    "date": "1427",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://viewer.cbl.ie/viewer/api/v1/records/Per_119_36/manifest/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / SUCCEEDED WITH A REPLACEMENT from the same manuscript: the lead's initial lead was the 1427 Herat miniature 'Sa'di with his friends' (Per 119.3), a group scene in which the poet is one of several figures; I used instead Per 119.36 in the same manuscript, where the library's title names the poet in a two-figure scene, so a single figure can be identified from the holder's own title and cropped. The lead's open issue (the holder's digital-collection terms might be non-commercial) was resolved by reading the library's live Copyright page: CC BY 4.0 by default for digital images of collection objects, plus the 1427 painting is PD by age. WHY THE RISKY LEAD WORKED: the library's public IIIF record, reachable although the viewer pages are behind an anti-bot wall, gave item-level titles and the copyright owner field, and the current Copyright page replaced the earlier non-commercial wording. PREFLIGHT: QID VERIFIED LIVE (2026-11-02) Q170302 label 'Saadi', description 'Persian poet'; the item lists several birth and death dates, so BIRTH YEAR 1210 and DEATH YEAR 1291 follow Iranica (c. 1209-10 modern consensus; death 1291 or 1292) and Britannica (death 9 December 1291); no production (prod63.txt) or candidate slug/QID collision. REGION west_asia (Shiraz, Iran; precedent Iranians to west_asia). ERA medieval. KOREAN NAME 사디 is the Korean Wikidata label. ZERO POLITICS: his poems to Salghurid and Il-khanid rulers and the Mongol sack of Baghdad are context only; no trait is scored from rulership, diplomacy or political allegiance. VOCABULARY: occupations poet, writer; field literature; tag communicator; archetype creative_creator; impact domains literary, cultural (all present in en.ts and ko.ts). PRE-MODERN DISCIPLINE: three rows only, confidence at or below 0.45, no hagiography, none of his first-person anecdotes (the Tripoli captivity, the Indian travels, a marriage) is scored because both Britannica and Iranica say they are suspect or fictionalized. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Saʿdī' (https://www.britannica.com/biography/Sadi), read in full. READ (substantively): Britannica; Encyclopaedia Iranica (Losensky) in full; University of Oregon exhibit; the 1911 Britannica (as a dated contrast). Also read but not relied on: an article on his reception in Western literature in The Criterion (a low-tier journal; La Fontaine, Goethe and Emerson claims left uncited), and the Chester Beatty record for the portrait. PERSPECTIVES: modern reference encyclopedia; specialist scholarly encyclopedia that doubts the autobiography; university library exhibit; older encyclopedia that accepts it. COUNTER-VOICES: Iranica on the unreliability of his first-person anecdotes and the uncertain corpus; Britannica on the suspect captivity story. THIN EVIDENCE FLAG FOR THE LEAD: no independent contemporary behavioural source exists for his life before the return to Shiraz (Iranica), so the behavioural evidence is inferential by nature; a stronger profile would need the Golestan and Bustan read as documents of ethical thought, which is not behaviour. NOT OPENED: Katuzian's Saʿdi: The Poet of Life, Love and Compassion, Zarrinkub's study, Arberry, the Encyclopaedia of Islam entry, Mostowfi's Tarikh-e gozida, and the Persian texts. SELF-REPORT SEPARATION: everything he says about himself in the Bustan and Golestan is treated as literary persona. EXCLUSIONS (hard rule): marriage, the loss of a child, captivity and any inferred emotional state, and Sufi spiritual states, are not used. SELF-CALIBRATION (agent): top-risk rows reviewed: mastery_orientation (58/0.38, kept: already low, education rests partly on his own works) and adaptability (58/0.40, kept: explicitly an inference from a scholar's synthesis); cross_domain_range (60/0.45, kept: documented in the corpus listing by two sources); no row lowered. HANDBACK63: {\"slug\": \"saadi\", \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"initial_lead\": \"1427 Herat miniature 'Sa'di with his friends', Chester Beatty Per 119\", \"final_portrait_source\": \"Chester Beatty Library, Dublin, Per 119.36 'A lady offers a cool drink to the poet Sa'di', Prince Baysunghur's Rose Garden (Gulistan), Herat 1427, detail of the poet, via the library's public IIIF image; copyright page https://chesterbeatty.ie/about/copyright-2/ (CC BY 4.0)\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": \"The library's public IIIF record (viewer pages sit behind an anti-bot wall) gave item-level titles identifying the poet and its live Copyright page gives CC BY 4.0 as the default, resolving the lead's NC worry; a different painting in the same manuscript with a single identified poet figure replaced the group scene.\", \"rows_initially_scored\": 3, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"mastery_orientation\", \"adaptability\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

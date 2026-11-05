@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "birbal-sahni",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Birbal Sahni",
+    "aliases": [
+      "Birbal Sahni FRS"
+    ],
+    "wikidataId": "Q2688170",
+    "birthYear": 1891,
+    "deathYear": 1949,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sahni_wikidata",
+      "kind": "wikidata",
+      "title": "Birbal Sahni (Q2688170), verified live via the Wikidata API (2026-11-02): English label 'Birbal Sahni', description 'Indian botanist (1891-1949)', no Korean label, birth 14 November 1891 and death 10 April 1949 (a second claim gives year-only precision for both), occupations including palaeobotanist, image property a photograph of a bust in a science museum. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2688170"
+    },
+    {
+      "id": "src_sahni_iop",
+      "kind": "institution",
+      "title": "International Organisation of Palaeobotany, 'Sahni, Birbal (1891-1949)' (biographical page, professional society), read in full. CANONICAL SIGNIFICANCE SOURCE: the founder of palaeobotanical research in India; studied under Albert Seward at Cambridge, professor of botany at Lucknow from 1921 (later also heading geology); reconstructed the Rajmahal Bennettitalean Williamsonia from fragments, instituted the fossil gymnosperm group Pentoxyleae, applied palaeobotany to continental drift and rock dating, studied coin moulds from Rohtak (Nelson Wright Medal, 1945); elected Fellow of the Royal Society in 1936; founded a plant-fossil museum in 1929, the Palaeobotanical Society in 1939 and, by its governing body's resolution of 10 September 1946, the Institute of Palaeobotany at Lucknow (named for him after his death on 10 April 1949, a week after Jawaharlal Nehru laid the building's foundation stone). Written by a professional society; admiring, and its dating statements are taken from the institute's own accounts.",
+      "url": "https://palaeobotany.org/?p=74"
+    },
+    {
+      "id": "src_sahni_geophytology",
+      "kind": "biography",
+      "title": "B. S. Venkatachala and A. Rajanikanth, 'Birbal Sahni - architect of modern palaeobotanical researches in India', Geophytology 22 (1992), pp. 5-9 (Birbal Sahni Birth Centenary conference proceedings, written by staff of the institute he founded), read in full: his Cambridge training under Seward, the 1920 revision of Indian Gondwana plants and the Cambridge Sc.D., his reconstruction of Williamsonia sewardiana as one of the few whole-plant reconstructions from fragments, the Deccan intertrappean fossils, initiation of fossil cuticle and palynology work in India, recovery of plant material from Kew for the National Herbarium at Calcutta, the 1939 coordinating committee and 1946 institute, the 28 years of single-minded building of a school of botany at Lucknow, and Nehru's foundation-stone remarks. Institutional centenary tribute; admiring.",
+      "url": "https://palaeobotanicalsociety.org/geophytology/vol22_1992/5vol22_1992.pdf"
+    },
+    {
+      "id": "src_sahni_gupta",
+      "kind": "biography",
+      "title": "Shakti M. Gupta, 'Birbal Sahni' (National Book Trust, India, New Delhi, 1978; full text on the Internet Archive), read through the chapters on his career, his scientific achievements and his later life: teaching practice and student recollections (including his colleague A. R. Rao), the hand cutting of fossils with a wire-bow until a 1932 grant bought a cutting machine, his years of work to start a geology department (1943) and the institute, the Williamsonia and Pentoxyleae work, the Saline Series dispute with Gee and other geologists, quoted assessments by T. G. Halle and others, and the 1947 offer of a ministry post. Written by a younger relative, partly from family recollection and from tributes at his death; admiring and sometimes hagiographic, but it quotes his own 1947 reply to his critics.",
+      "url": "https://archive.org/stream/BirbalSahni/Birbal%20Sahni_djvu.txt"
+    },
+    {
+      "id": "src_sahni_ijhs",
+      "kind": "biography",
+      "title": "Ashok Sahni, 'Birbal Sahni and His Father Ruchi Ram: Science in Punjab Emerging from the Shadows of the Raj', Indian Journal of History of Science 53(4), 2018, pp. 160-165, read in full (a palaeontologist and relative of the subject writing in a history of science journal): Birbal's training, his stachyspermous-versus-phyllospermous work on conifer seeds, the Williamsonia sewardi reconstruction, the Pentoxyleae, the coin-mould and Himalayan-uplift studies; it describes him as 'obsessed with precision' and says that in his Deccan intertrappean work he was 'only partially correct', that his Saline Series identifications 'were correct' but that he had not allowed for fossils leaking in from younger sediments. The most critical of the sources read; still written by a family member.",
+      "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol53_4_2018__Art22.pdf"
+    },
+    {
+      "id": "src_sahni_lucknow_observer",
+      "kind": "press",
+      "title": "Sumbul Zehra, 'Birbal Sahni: The Pioneer of Palaeobotany', The Lucknow Observer (5 June 2015), read in full: summarises his life and career, his practice of keeping the M.Sc. classes to six students or fewer, his drawing for students, a student's recollection of his lectures, the museum, society and institute chronology, and the post he is said to have declined at the Ministry of Education. Popular local magazine article; admiring and derivative of institutional accounts.",
+      "url": "https://lucknowobserver.com/?p=2979"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sahni_gupta, src_sahni_geophytology, src_sahni_iop | 1921-1949 | family biography, institutional centenary tribute, professional society page] Gupta reports that until a 1932 grant bought a cutting machine he cut the fossils himself with a wire-bow, that he worked for years to get a geology department started (opened 1943), that the idea of the institute dated from the mid-1930s and was pursued through the 1939 committee, the 1946 society resolution and a foundation stone in April 1949, and that in September 1948 he stayed in Lucknow to finish the work against advice to rest; Geophytology credits 28 years of single-minded building of the Lucknow school. These are consistent accounts of a long programme pursued over three decades, but all are admiring institutional or family accounts and the claim that he 'never accepted defeat' is Gupta's own phrasing, so confidence is moderate."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sahni_iop, src_sahni_geophytology, src_sahni_gupta | 1929-1949 | professional society, institutional tribute, family biography] The sources agree that he founded a plant-fossil museum in 1929, convened a committee of Indian palaeobotanists in 1939 that became the Palaeobotanical Society, and drew up the plan for the institute, raising funds including two research fellowships from industrial companies (Gupta) and obtaining land from the state government in 1948; Geophytology says he recovered plant material from Kew for the National Herbarium at Calcutta. The institute was resolved by the Society's governing body and finished by his wife after his death, and every account is admiring, so the row credits his initiative in starting these structures and not the whole result. SELF-CALIBRATION (agent): top-risk row; lowered from 76 / 0.58 to 70 / 0.50 because all sources are institutional or family tributes and the institute was a Society and governing-body undertaking completed by others."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sahni_ijhs, src_sahni_gupta | 1920-1949 | history-of-science article by a relative, family biography quoting colleagues] Ashok Sahni says he excelled in photography and botanical technique 'and was obsessed with precision'; Gupta quotes his colleague A. R. Rao that the illustrations in his research papers had to be meticulous and perfect, and quotes T. G. Halle that by examining a large material and fitting fragments together he gave an unexpectedly complex account of a Palaeozoic tree-fern stem, including re-finding two slabs of one Siberian stem that had been described under two different genera in German museums. The independent specialist (Halle) supports the care; the 'obsessed' and 'meticulous' wording comes from family and colleagues."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sahni_iop, src_sahni_gupta, src_sahni_ijhs, src_sahni_lucknow_observer | 1920-1949 | professional society, family biography, history-of-science article, magazine] Four sources agree that beyond plant anatomy and palaeobotany he applied fossil plants to continental drift and Himalayan uplift, lobbied for and headed a geology department, studied coin moulds from Rohtak and wrote on the technique of casting coins in ancient India (Nelson Wright Medal, 1945), and examined charcoal from Harappa; Gupta quotes his 1936 statement about the bearing of one branch of science on another. The numismatics paper and award are documented and consistent across sources; the range is real but the accounts are admiring and derive from a common stock of institutional biography."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sahni_gupta, src_sahni_geophytology, src_sahni_lucknow_observer | 1921-1949 | family biography, institutional tribute, magazine] Gupta says research was the dominating passion of his life, that he expected the same hard work and accuracy from his students, that his last field tour (three months before he died) was to the Rajmahal fossil beds, and that he declined the post of secretary in the education ministry in 1947 in favour of research and the institute (the Lucknow Observer says he declined it; Gupta says he first accepted and then withdrew the same night, and the sources disagree on the sequence); Geophytology describes him as a rare combination of teacher and researcher. The declined post is used only as evidence of where he put his time, not scored as politics. The sources are admiring and the anecdote of the telegram is Gupta's, so confidence is moderate."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sahni_geophytology, src_sahni_gupta, src_sahni_lucknow_observer | 1917-1949 | institutional tribute, family biography, magazine] The sources describe him co-authoring the 1920 revision of Indian Gondwana plants with Seward, collecting around him colleagues, students and researchers at Lucknow, personally supervising practicals, keeping postgraduate classes small and organising special collecting tours in which he worked 'in the company of his students and assistants' (Gupta); Geophytology says he built a school of botany and the Society brought together palaeobotanists from across India. The evidence shows teamwork in training and field collecting and joint authorship; the descriptions of warmth and humility are tributes, so the row is moderate."
+    },
+    "belief_updating": {
+      "score": 42,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sahni_gupta, src_sahni_ijhs | 1944-1947 | family biography quoting his own words, history-of-science article] On the age of the Salt Range's Saline Series he reported microfossils that led him to side with an earlier overthrust hypothesis; when Gee and other geologists disagreed he replied in 1947 that the field criteria of the Cambrian school were 'not safe' and that 'it is the direct evidence of the fossils that is to be relied upon'; Ashok Sahni notes that his identifications were correct but he had not allowed for fossils leaking in from younger sediments, and that his Deccan intertrappean age inference was 'only partially correct'. Gupta nevertheless says he was 'ever ready to be corrected', but gives no instance. The documented behaviour is firm adherence to one line of evidence against specialists, so the score is below the middle with low confidence; the later outcome of the Saline Series question was not checked in a source I opened."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "비르발 사니"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved after the one bounded retry. Lead checked: a 1951 Government of India Photo Division photograph named in the assignment could not be found on Wikimedia Commons or any government page, and an Indian-published photograph of that date would in any case have been under copyright in India on 1 January 1996 (an Indian term of 60 years from publication), so it would be restored in the United States; the same applies to the 1950 Sahni Memorial Volume of the Indian Botanical Society and the 1978 National Book Trust biography. Alternatives rejected: the only Commons images (the Wikidata image and 'Birbal Sahni.jpg') are photographs of busts, which are derivative works of the sculptors, and the sculptor and terms are not stated; the Hunt Institute for Botanical Documentation lists six prints of him with 'Copyright Restrictions: unknown'; the Royal Society, the Birbal Sahni Institute and Asia Research News publish portraits under their own copyright. Next step: a photograph published before 1931 in Britain (for example in a Cambridge or Royal Society publication) with an item-level date, or written terms from the Birbal Sahni Institute of Palaeosciences or the Royal Society."
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / HELD, the lead's own warning was right: the 1951 Government of India Photo Division photograph named in the assignment is a post-1930 Indian-published image that would be URAA-restored in the US, I could not locate it on any page I could open, and the alternative (a bust photograph) is a derivative sculpture. I checked: Commons category 'Birbal Sahni' and a file search (only busts, logos, fossil drawings and stamps of fossils), the Wikidata image (the bust, 'Bust of Birbal Sahni (Birla Industrial & Technological Museum).jpg'), the English, Hindi and Korean Wikipedia image lists for him and his wife (his wife's 1949 photograph shows her), the Hunt Institute portraits record (six prints, copyright 'unknown'), the Ruchi Ram Sahni article's images (a 1919 portrait of the father only). No pre-1931 or item-level-dated photograph of Sahni turned up. PORTRAIT HELD: exact blocker and next step are in portrait.reason. PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q2688170 label 'Birbal Sahni', description 'Indian botanist (1891-1949)', no Korean label, born 14 November 1891, died 10 April 1949 (a second year-only claim for each); not in prod63.txt, no candidate file existed for birbal-sahni. REGION south_asia (Indian scientist who worked in Lucknow; nationality IN although born at Bhera in what is now Pakistan). ERA 20th_century. ZERO POLITICS: primary identity palaeobotanist and teacher; his family's nationalist background, his wearing of khadi, his friendship with Nehru and the offer of a ministry post (which he declined or withdrew from) are not scored, and the achievement cards state the science and the institute. VOCABULARY: occupations scientist and teacher, fields natural_science and biology, tags field_researcher and mentor, archetype scientific_explorer, impact domains scientific and educational (botanist, palaeobotanist, geology, botany have no labelled ids, so none is used). KO NAME: Wikidata has no Korean label and Korean Wikipedia has no article, so 비르발 사니 is a recorded transliteration (standard Korean rendering of the Hindi name). CANONICAL SIGNIFICANCE SOURCE: International Organisation of Palaeobotany, 'Sahni, Birbal (1891-1949)'. READ (6 sources incl. Wikidata): (1) IOP biography page, full; (2) Venkatachala and Rajanikanth 1992 Geophytology tribute, full (5 pages); (3) Shakti Gupta, Birbal Sahni (National Book Trust, 1978), full text from the Internet Archive, the career, scientific-achievements and later-life chapters read in detail, the family and personal chapters skimmed; (4) Ashok Sahni 2018 Indian Journal of History of Science article, full; (5) Lucknow Observer 2015 magazine article, full. PERSPECTIVES: a professional society (IOP), the institute he founded (Geophytology), a family biography that quotes colleagues and an independent specialist (T. G. Halle, quoted by Gupta), a family history-of-science article that is the most critical, a local magazine. COUNTER-VOICES AND LIMITS: Gee and other geologists disputed the Saline Series dating (Gupta) and Ashok Sahni says the identifications were right but the inference missed fossil leakage and the Deccan age inference was only partly correct; no hostile or adversarial source was found and every source read is admiring or by family or by his institute, so confidence is capped at 0.6 and scores at 76. NOT OPENED: the Royal Society memoir by H. Hamshaw Thomas (Obituary Notices of Fellows of the Royal Society 7, 1950; royalsocietypublishing.org returned 403), the Current Science obituary of 1949, the Geological Society obituary by Sainty, M. R. Sahni's 1952 biographical sketch in Palaeobotanist (the scan returned a file I did not read), Wikipedia (read as orientation only), Britannica (HTTP 403). EXCLUSIONS: his family's political activity, Nehru, khadi and the ministry offer (disagreement between sources noted above) are not scored; the story of the fossil wood mistaken for firewood is one family anecdote and unscored. SPARSE PROFILE: 7 rows, scores 42-74, confidence 0.42-0.60. SELF-CALIBRATION (agent): top-risk rows reviewed: proactive_agency (76/0.58 lowered to 70/0.50: all sources are institutional or family tributes and the institute was completed by others), cross_domain_range (kept at 74/0.6: the numismatics paper and Nelson Wright Medal are documented in several sources), detail_orientation (kept: supported by an independent specialist's quoted assessment). HANDBACK63: {\"slug\": \"birbal-sahni\", \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"initial_lead\": \"1951 Government of India Photo Division photograph\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The lead's own caveat held: the 1951 Indian government photograph could not be located on any openable page and, as an Indian publication of that date, would be restored in the US by the URAA, while the only open images of him on Commons are photographs of busts (derivative sculpture works); no pre-1931 or item-dated photograph exists on Commons, in the Hunt Institute record (copyright unknown) or on the institutional pages.\", \"risky_success_note\": null, \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"proactive_agency\", \"old_score\": 76, \"old_confidence\": 0.58, \"new_score\": 70, \"new_confidence\": 0.5, \"reason\": \"All sources are institutional or family tributes and the institute was a Society and governing-body undertaking completed by others\"}], \"reviewed_kept\": [\"cross_domain_range\", \"detail_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

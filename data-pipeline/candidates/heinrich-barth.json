@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "heinrich-barth",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Heinrich Barth",
+    "aliases": [
+      "Henry Barth",
+      "Heinrich Barth (explorer)"
+    ],
+    "wikidataId": "Q60141",
+    "birthYear": 1821,
+    "deathYear": 1865,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "scholar"
+    ],
+    "fieldIds": [
+      "exploration",
+      "linguistics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_barth_wikidata",
+      "kind": "wikidata",
+      "title": "Heinrich Barth (Q60141), verified live via the Wikidata API (2026-11-02): label 'Heinrich Barth', description 'German explorer (1821-1865)', born 1821-02-16, died 1865-11-25, citizenship Germany (and a second state), Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q60141"
+    },
+    {
+      "id": "src_barth_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Heinrich Barth' (print view, revised 2026), read in full: German geographer and one of the great explorers of Africa; classical education at Berlin; fluent in French, Spanish, Italian, English and Arabic; 1845-47 Mediterranean coast travels published 1849; 1850 departure from Tripoli with Richardson and Overweg on a British-sponsored expedition; assumed command when Richardson died; explored south and southeast of Lake Chad and mapped the upper Benue; went to Timbuktu after Overweg died in 1852 and stayed six months; about 10,000 miles travelled, routes laid down by dead reckoning, the first account of the middle Niger; his large Reisen und Entdeckungen volumes (1857-58) with anthropological, historical and linguistic information; professor of geography at Berlin 1863. CANONICAL SIGNIFICANCE SOURCE. Concise reference biography; no behavioural detail beyond the route.",
+      "url": "https://www.britannica.com/print/article/54282"
+    },
+    {
+      "id": "src_barth_adb",
+      "kind": "biography",
+      "title": "Julius Loewenberg, 'Barth, Heinrich', Allgemeine Deutsche Biographie vol. 2 (1875), pp. 96-99, read in full on German Wikisource (proofread twice against the source): a near-contemporary German national biography giving his education (philology under Boeckh, geography under Ritter), the 1845-48 Mediterranean journey, the 1849-55 expedition by date and route (Air, Kano, the Benue, Lake Chad, Baghirmi, Timbuktu 5-7 September 1853, a seven-month stay, being reported dead, meeting Eduard Vogel in December 1854), the cost of about 10,000 thalers, Petermann's praise of his route surveys (reading watch and compass about every five minutes and measuring camel pace), Humboldt's 1852 complaint that he could not fix positions astronomically, the professorship in Berlin in 1863 and the Carl Ritter foundation he founded, the unfinished Central African vocabularies (1862-63), and his death in 1865. In German; a 19th-century national biography, patriotic in tone, and Petermann (who drew his maps) is an admiring collaborator.",
+      "url": "https://de.wikisource.org/wiki/ADB:Barth,_Heinrich"
+    },
+    {
+      "id": "src_barth_hbi",
+      "kind": "institution",
+      "title": "Heinrich Barth Institute (University of Cologne), 'Information boards Timbuktu' project page, read in full: states that he spent about six months in and around Timbuktu, received protection from Sheikh al-Baqqai who gave him access to manuscripts including chronicles of Sudanic history, that his 1849-1855 expedition covered almost 20,000 km, that he drew on comparative linguistics, Arabic manuscripts, oral tradition and rock art to study African history, and that the institute regards him as a pioneer of African history and of the scientific study of African languages. An institute named for him, so admiring; used for significance and the kinds of evidence he collected, not for personality.",
+      "url": "https://hbi.uni-koeln.de/en/projects/information-boards-timbuktu"
+    },
+    {
+      "id": "src_barth_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Steve Kemper, 'A Labyrinth of Kingdoms' (June 2012), read in full: an independent trade review of the first English-language biography; describes him as taking careful notes on the peoples he met, mixing with local people and questioning them constantly, bribing suspicious chiefs, being held captive for months, being stranded in Timbuktu, and as arrogant and introspective; says his 1857 account was criticised for its tolerant portrayal of Arabs. Brief; the reviewer's character remarks are his own.",
+      "url": "https://www.kirkusreviews.com/book-reviews/steve-kemper/labyrinth-kingdoms"
+    },
+    {
+      "id": "src_barth_mullerkosack",
+      "kind": "press",
+      "title": "Gerhard Mueller-Kosack, review of Steve Kemper, 'A Labyrinth of Kingdoms' (Mega-Chad book reviews, 2012), read in full: a specialist review of the Kemper biography; says Barth was a meticulously organised explorer-scientist who guarded his independence by going off on scientific excursions early in the expedition, that Richardson worried about his impatience in travelling ahead, that he was 'thorny' but loyal and made friendships (al-Bakkay), that he took things personally and later fell out with British and German officials and academics, that he used his linguistic skills and educated allies for safety, fired his gun into the air at night to signal he could protect himself, and aimed to describe almost every inch of the landscapes, languages and histories he met; also says Kemper reports a lack of compassion over his companions' deaths and a tediously detailed style. A scholarly critical-and-sympathetic secondary reading; the review itself notes the book's main text is unreferenced.",
+      "url": "https://megatchad.cepam.cnrs.fr/publications/Review-Kemper-2012-by-Muller-Kosack-2012.pdf"
+    },
+    {
+      "id": "src_barth_csm",
+      "kind": "press",
+      "title": "Christian Science Monitor, 'Heinrich Barth: the greatest explorer you've never heard of' (13 July 2012), read in full: an interview with biographer Steve Kemper; says Barth was prickly and easily offended, was held in effective house arrest in Timbuktu for seven months but made outings despite threats, wrote about 3,500 pages, recorded market conditions, prices and who held power, found the Benue, reported Timbuktu's manuscripts and scholars, and was neglected because he was German working for Britain, his book was dense, and his findings about Islam and African societies conflicted with European colonial interests. An author interview promoting his own book, so admiring and not independently assessed.",
+      "url": "https://www.csmonitor.com/layout/set/amphtml/Arts-Culture/Books/chapter-and-verse/2012/0713/Heinrich-Barth-the-greatest-explorer-you-ve-never-heard-of"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_barth_britannica, src_barth_adb, src_barth_hbi, src_barth_mullerkosack | 1845-1855 | reference biography + national biography + institute + book review] Britannica and the 1875 biography record his own Mediterranean journey of 1845-47, his study of the topography, history, peoples and languages of every region he reached, and his 'Central African vocabularies'; the Cologne institute says he used comparative linguistics, Arabic manuscripts, oral tradition and rock art to study Africa's past; Mueller-Kosack's review says he sought to describe almost every inch of the landscape, language and history he met and copied original Arabic documents. Unprompted, wide-ranging inquiry is documented from several independent kinds of source, but they describe the output rather than a specific moment of inquiry, hence strong inference at moderate confidence."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_barth_adb, src_barth_britannica, src_barth_mullerkosack, src_barth_hbi | 1844-1863 | national biography + reference biography + book review + institute] He trained in classical philology, took geography under Ritter, and combined history, geography, ethnography and linguistics in the field; the review quotes Kemper that he was a trained linguist, scientist and historian, and the institute credits him with interdisciplinary method. Breadth is well documented, but it is a scholarly breadth within one cluster of related human-geography fields, and he regretted neglecting natural science (1875 biography), so the score stays moderate."
+    },
+    "persistence": {
+      "score": 80,
+      "confidence": 0.7,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barth_adb, src_barth_britannica, src_barth_kirkus, src_barth_csm | 1850-1855 | national biography + reference biography + trade review + author interview] The 1875 biography and Britannica both record that after Richardson died (1851) and Overweg died (September 1852) he went on alone, reached Timbuktu in September 1853 and stayed about six months under constant danger, then travelled back over many more months, was ill, short of money and reported dead before he reached Kukawa and met Eduard Vogel in December 1854; Kirkus and the Monitor interview add months of captivity and a seven-month near house arrest in Timbuktu. Independent sources of different kinds agree on a six-year, largely solo mission continued through illness and loss."
+    },
+    "risk_tolerance": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_barth_adb, src_barth_mullerkosack, src_barth_kirkus | 1850-1853 | national biography + book review + trade review] The 1875 biography says that, with Overweg dead and himself alone, he nonetheless decided to push west to Timbuktu through territory no European had crossed (Gurma, Libtako, Dalla); Mueller-Kosack reports Richardson's anxiety that Barth's impatience in travelling ahead endangered both his life and the expedition; Kirkus mentions bribing suspicious chiefs and months of captivity. A willingness to accept serious physical danger for a scientific goal is documented, with costs and benefits, but the reasoning behind each decision is not recorded, so confidence is moderate."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_barth_mullerkosack, src_barth_adb | 1850-1851 | book review + national biography] Mueller-Kosack says Kemper shows him guarding his independence by going off on his own scientific excursions at a very early point in the expedition and describes him as a loner; the 1875 biography has him travelling separately from Richardson and Overweg across Hausaland and later alone to Baghirmi and Timbuktu. Independence of movement is repeatedly documented, but much of the separation was part of the expedition plan and the only characterisation comes from one biography seen through one reviewer, so confidence is modest. Dual-edged because the review ties it to friction with Richardson and later officials."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_barth_adb, src_barth_mullerkosack, src_barth_kirkus | 1850-1855 | national biography + book review + trade review] The 1875 biography states that the whole six-year journey of at least 3,000 German miles cost no more than about 10,000 thalers; Kirkus says he bribed suspicious chiefs with whatever he had; Mueller-Kosack says he relied on his languages and on loyal educated people for safety and fired his gun at night to signal he could defend himself. Getting a long mission done on thin means is documented from several sources, though the cost figure comes from Petermann (an admiring collaborator) and the others are summary accounts."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_barth_mullerkosack, src_barth_kirkus, src_barth_csm, src_barth_hbi | 1850-1854 | book review + trade review + author interview + institute] Kirkus says he mixed with local people and questioned them constantly; Mueller-Kosack says he built friendships such as with the Timbuktu sheikh al-Bakkay and used his languages to secure his safety; the Monitor interview says reciting the Quran's opening prayer saved his life several times; the institute says the sheikh protected him and gave him manuscripts. Adjusting to very different local settings is documented through several accounts, but all rest on one biographer's reading plus an institute's tribute, and the review also notes he stayed 'thorny' with European officials, so the score is moderate."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_barth_adb, src_barth_britannica, src_barth_mullerkosack, src_barth_csm | 1850-1855 | national biography + reference biography + book review + author interview] The 1875 biography quotes the mapmaker Petermann that he read watch and compass about every five minutes and measured camel pace at different hours to fix route lengths; Britannica says he laid down accurate routes by dead reckoning and recorded daily travel details assiduously; Mueller-Kosack calls him meticulously organised with ardent journal keeping, and the Monitor interview counts about 3,500 pages. Documented across independent sources; the same 1875 biography records Humboldt's complaint that he could not fix positions astronomically, which limits how far route accuracy can be credited to detail work. SELF-CALIBRATION (agent): lowered from 78 / 0.68 because the most vivid evidence comes from Petermann, an admiring collaborator, and Humboldt's contemporary criticism shows the positional record had real limits."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "하인리히 바르트"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) / CONFIRMED: Rijksmuseum print RP-P-1915-724 'Portret van Heinrich Barth' opened live at https://id.rijksmuseum.nl/200273462 (linked-art JSON, Accept application/ld+json; found through the data.rijksmuseum.nl search for the object number): the image media record carries the Public Domain Mark (https://creativecommons.org/publicdomain/mark/1.0/) and the data record CC0; the engraving is by the printmaker August Weger, Leipzig (printer and printmaker, named on the object; he died 1892), published by Baumgaertner's Buchhandlung, Leipzig, plate 289 x 224 mm, date given by the museum only as 1850-1892, collector's mark Lugt 2228. The sheet also carries the museum accession label and wide margins; this project cropped to the engraved portrait with its facsimile signature 'Dr. H. Barth' (source image 2984 x 3794 px from the museum's IIIF service, cropped to 1581 x 1975 and downscaled to 961 x 1200; never enlarged). The museum record does not say what the engraving was made after, so the kind is historical_depiction (a published print portrait, not a documented sitting). The lead's alternatives (BnF Societe de geographie lithograph; a second Rijksmuseum print) were not needed.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-11-02) for Q60141 returned en label 'Heinrich Barth', description 'German explorer (1821-1865)', born 1821-02-16, died 1865-11-25, ko label present. SLUG/QID CHECK: not in prod63.txt and no existing candidate file. Region western_europe (Germans precedent, e.g. alexander-von-humboldt). Zero-politics passes: primary identity is exploration and scholarship; the expedition's original anti-slavery treaty purpose and his later views on colonialism or missions are unscored.\nCANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Heinrich Barth' https://www.britannica.com/print/article/54282 (read in full; supplemented by the Heinrich Barth Institute page and the 1875 national biography).\nSOURCES READ (6 substantive): Britannica, Allgemeine Deutsche Biographie 1875 (Loewenberg), Heinrich Barth Institute (Cologne) page, Kirkus review of Kemper, Mueller-Kosack's review of Kemper (specialist), Christian Science Monitor interview with Kemper; Wikidata orientation only. PERSPECTIVES: reference biography; near-contemporary national biography including a mapmaker's praise and Humboldt's contemporary criticism; an institute named for him; an independent trade review; a specialist academic review that is both sympathetic and critical (prickliness, friction with British and German officials, apparent lack of compassion over companions' deaths, long-winded style); an author interview (admiring). Non-self behavioural sources: the 1875 biography and the two Kemper reviews. COUNTER-VOICES: Humboldt (via the 1875 biography), the reviewer's remarks on friction and lack of compassion. All 19th-century and modern retellings ultimately rest on his own diaries and five-volume report; no source here independently audits his own text, so confidence stays <= 0.70 and no score exceeds 80.\nNOT OPENED: Barth's own Travels and Discoveries (self-report, available on Gutenberg and archive.org but not read), Kemper's book itself, Christoph Marx's German biography, the Barth letters edition beyond one index page (University of Duisburg-Essen), the Cambridge/BSOAS article on the Tarikh al-Fattash chronicle (only skimmed in a snippet), the passport-collector and qcurtius blog posts (read but not cited: hobby blogs and unsourced details such as his Arabic name and disguise, which no cited source supports), Wikipedia. Excluded: his and Richardson's relationship in detail (only the reviewer's summary was available), his views on Islam, missions and colonialism, the mission's anti-slavery treaty aims, details of illness and death, and the lack of compassion remark (a single reviewer's reading, not scored as a row).\nSELECTIVE SELF-CALIBRATION: reviewed detail_orientation (lowered 78/0.68 to 74/0.64: the strongest evidence is a collaborator's praise and Humboldt's critique limits it), persistence (kept: four independent sources agree on a six-year, largely solo mission through illness and loss), curiosity (kept: several independent source types describe the breadth of inquiry). Initial rows 8; lowered 1.\nHANDBACK63: {\"slug\":\"heinrich-barth\",\"portrait_preflight_grade\":\"STRONG (lead-robust)\",\"initial_lead\":\"Rijksmuseum print RP-P-1915-724 (August Weger / Baumgartner, Leipzig)\",\"final_portrait_source\":\"Rijksmuseum, Amsterdam, RP-P-1915-724, engraving by August Weger (Leipzig), Public Domain Mark/CC0, https://id.rijksmuseum.nl/200273462 (cropped to the portrait)\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":8,\"self_calibrated_rows\":[{\"attribute\":\"detail_orientation\",\"old_score\":78,\"old_confidence\":0.68,\"new_score\":74,\"new_confidence\":0.64,\"reason\":\"strongest evidence is an admiring collaborator's (Petermann) praise, and Humboldt's contemporary criticism shows the positional record had limits\"}],\"reviewed_kept\":[\"persistence\",\"curiosity\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":8}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/heinrich-barth-weger-1850-1892.jpg",
+    "width": 961,
+    "height": 1200,
+    "source": "Engraved portrait print 'Portret van Heinrich Barth' by the printmaker August Weger, Leipzig, published by Baumgaertner's Buchhandlung, Leipzig, dated by the museum only as between 1850 and 1892; Rijksmuseum, Amsterdam, object RP-P-1915-724, released as Public Domain Mark and CC0. The museum scan was 2984 x 3794 pixels; this project cropped it to the engraved portrait with its facsimile signature and reduced it to 961 x 1200 pixels, never enlarging it",
+    "license": "Public Domain (Rijksmuseum Public Domain Mark; printmaker died 1892)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "August Weger (printmaker), Portrait of Heinrich Barth, engraving, 1850-1892, Rijksmuseum, Amsterdam (RP-P-1915-724), public domain",
+    "attributionUrl": "https://id.rijksmuseum.nl/200273462",
+    "creator": "August Weger (printmaker), Leipzig",
+    "date": "1850-1892",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://id.rijksmuseum.nl/200273462"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "thomas-telford",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Thomas Telford",
+    "aliases": [
+      "Telford"
+    ],
+    "wikidataId": "Q380875",
+    "birthYear": 1757,
+    "deathYear": 1834,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "architect"
+    ],
+    "fieldIds": [
+      "engineering"
+    ],
+    "impactDomains": [
+      "engineering",
+      "industrial",
+      "technological"
+    ],
+    "tagIds": [
+      "self_taught",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_telford_wikidata",
+      "kind": "wikidata",
+      "title": "Thomas Telford (Q380875), verified live via the Wikidata API (2026-11-02): label 'Thomas Telford', description 'Scottish civil engineer, architect and stonemason (1757-1834)', born 1757-08-09, died 1834-09-02, citizen of the United Kingdom of Great Britain and Ireland, Korean label 토머스 텔퍼드. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q380875"
+    },
+    {
+      "id": "src_telford_ice",
+      "kind": "institution",
+      "title": "'Thomas Telford: The Father of Civil Engineering', Institution of Civil Engineers (ICE), Meet the Engineers (read in full, about 1,100 words). CANONICAL SIGNIFICANCE SOURCE: the professional body he led as first president states his significance (canals, roads, bridges and harbours; the Caledonian Canal, the Ellesmere Canal, the London to Holyhead road, the Menai suspension bridge, consultancy for Sweden, Russia and North America), that he was approached by Henry Palmer to give the young institution leadership and prestige, that he was the driving force behind its 1828 Royal Charter, and that he left it his largest donation (over 3,000 pounds), books, drawings and papers. An institution's commemorative profile of its own first president, so admiring in tone.",
+      "url": "https://ice.org.uk/what-is-civil-engineering/meet-the-engineers/thomas-telford"
+    },
+    {
+      "id": "src_telford_britannica",
+      "kind": "biography",
+      "title": "'Thomas Telford', Encyclopaedia Britannica (read in full, about 500 words). Reference biography: mason who educated himself to become an architect, surveyor of public works for Shropshire from 1786, engineer to the Ellesmere Canal from 1793 (the Chirk and Pontcysyllte aqueducts brought him national fame), the Caledonian Canal, Highland harbours and more than 900 miles of roads from 1803, the Conwy and Menai suspension bridges as his crowning achievement, first president of the Institution of Civil Engineers, and the 2009 World Heritage designation of Pontcysyllte.",
+      "url": "https://www.britannica.com/biography/Thomas-Telford"
+    },
+    {
+      "id": "src_telford_dwb",
+      "kind": "biography",
+      "title": "W. Ll. Davies, 'Telford, Thomas (1757-1834), civil engineer', Dictionary of Welsh Biography (National Library of Wales, 1959; read in full, about 800 words). Concise scholarly entry focused on his Welsh and Border work: the Ellesmere Canal aqueducts at Chirk (1796-1801) and Pontcysyllte (1795-1805), the Holyhead road, and the Menai suspension bridge (Parliament's select committee recommended his design after other engineers including John Rennie had commented; work 1819 to about 1825) and the Conwy bridge.",
+      "url": "https://biography.wales/article/s-TELF-THO-1757"
+    },
+    {
+      "id": "src_telford_abbey",
+      "kind": "institution",
+      "title": "'Thomas Telford', Westminster Abbey, Famous people (read in full, about 450 words). The Abbey's commemorative entry: buried in the nave in 1834, with a gravestone naming him president of the Institution of Civil Engineers and a statue (E. H. Baily, 1839) whose inscription calls him an orphan shepherd's son, self-educated, who rose by talents and integrity from an operative mason to one of the most eminent civil engineers of the age; he died unmarried.",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/thomas-telford/"
+    },
+    {
+      "id": "src_telford_smiles",
+      "kind": "biography",
+      "title": "Samuel Smiles, 'The Life of Thomas Telford, Civil Engineer' (London, 1867; Project Gutenberg text read in the chapters on the Ellesmere Canal, the Menai bridge and Telford's later years and character, plus targeted searches; the book is long and was not read cover to cover). A Victorian, admiring biography built on Telford's own letters, his autobiographical notes and parliamentary returns, so it reaches us partly as self-report; it also records a dispute with the Jessop memoirist over who proposed the iron trough.",
+      "url": "https://www.gutenberg.org/ebooks/939"
+    },
+    {
+      "id": "src_telford_scotcanals",
+      "kind": "institution",
+      "title": "'Caledonian Canal history and heritage', Scottish Canals (read in full, about 350 words). The canal's present-day owner states that the work was expected to take seven years at 474,000 pounds but took twelve years at 910,000 pounds (opened 1822), and that defects in construction material caused a partial collapse of the Corpach locks and the Cullochy bank in the 1840s, repaired by James Walker. COUNTER-VOICE source on cost, time and durability.",
+      "url": "https://www.scottishcanals.co.uk/visit/canals/visit-the-caledonian-canal/history-heritage"
+    },
+    {
+      "id": "src_telford_unesco",
+      "kind": "institution",
+      "title": "'Pontcysyllte Aqueduct and Canal', UNESCO World Heritage Centre, list entry 1303 (read in the synthesis, criteria and integrity sections). Describes the aqueduct as a pioneering masterpiece of engineering by Telford built with metal arches on tall slender masonry piers, his first great masterpiece that formed the basis of his international reputation, and notes that the historic rubble embankments later gave stability and waterproofing problems.",
+      "url": "https://whc.unesco.org/en/list/1303"
+    },
+    {
+      "id": "src_telford_nlw",
+      "kind": "archive",
+      "title": "'Thomas Telford Esq. F.R.S. L & E, President of the Institution of Civil Engineers', portrait print painted and engraved by Henry Hoppner Meyer, published by Fisher, Son and Co., London, 1832, National Library of Wales item 4672045 (IIIF manifest, licence marked Public Domain Mark 1.0). Used for the portrait only, not for any trait row.",
+      "url": "https://hdl.handle.net/10107/4672045"
+    }
+  ],
+  "rows": {
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_telford_smiles, src_telford_ice, src_telford_dwb, src_telford_britannica | 1793-1826 | Victorian biography from his letters + institution + reference biographies] On taking the Ellesmere Canal post Telford's first step, according to Smiles, was to survey the whole line carefully and settle levels, lock positions, embankments, cuttings and aqueducts before building; for Menai he had every part tested by repeated experiment and provided for contingencies, and Parliament's select committee examined his plan after other engineers had commented on it (Dictionary of Welsh Biography). ICE adds that his roads had hand-pitched foundations and drainage that cost more to build but less to maintain. The survey-first, test-first habit is documented across projects, but most of the working detail comes from an admiring biography and the Caledonian Canal ran well beyond its plan (Scottish Canals), which tempers the score. RUBRIC_CORRECTION (lead review, before eligibility): planning_orientation lowered from 74 / 0.58 to 66 / 0.5 because the Caledonian Canal took twelve years and cost 910,000 pounds against a plan of seven years and 474,000, so planning is dual-edged, and the praise comes from an admiring Victorian biography and an institutional profile."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_telford_smiles, src_telford_ice | 1790s-1826 | Victorian biography + institution] Smiles reports that his inspection of work was rigid, that he reprimanded overseers who employed careless or unsteady men on foundations and had them moved elsewhere, that he picked his resident engineers and inspectors with great care, and that he refused gifts from persons under him so that nothing compromised his scrutiny; ICE separately notes the quality of his road foundations and drainage and his use of Roman cement to stop water penetration. The behaviour is specific and partly corroborated by institutional description of the work, but the personal inspection anecdotes rest on one admiring biography and the 1840s Caledonian lock defects (Scottish Canals) show his structures were not flawless."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_telford_smiles, src_telford_britannica, src_telford_unesco, src_telford_dwb | 1795-1826 | biography + reference + heritage body] At Pontcysyllte and Chirk he used troughs of cast-iron plates fixed in masonry, which Britannica and UNESCO call novel and innovative; Smiles says that at Menai he carefully tested every part by repeated experiment because the structure was the largest of its kind ever attempted; the Dictionary of Welsh Biography calls the suspension principle one British engineers had not previously tried on any large scale. The trait is read from documented innovations and tested designs; the claim that he, not Jessop, proposed the iron trough is contested in Smiles' own footnote, and Telford himself held theory cheap and relied on experiment and observation (Smiles), so the score stays moderate."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_telford_smiles, src_telford_abbey, src_telford_ice | 1780s-1820s | Victorian biography + institution memorial] Smiles quotes his letters from Portsmouth dock in the 1780s about borrowing lecture manuscripts and buying books to study chemistry so that none 'shall be able to eclipse me', and records that he later learned French and German to read engineering works and wrote the architecture, bridge and canal articles for the Edinburgh Encyclopaedia; ICE records that he went to Edinburgh in 1780 to learn drawing and study architecture; the Abbey inscription calls him self-educated. When he took the Ellesmere post with no canal-making experience he took Jessop's advice and then designed the aqueducts himself (Smiles; Britannica). The sustained self-education is documented but much of it is in his own letters as reproduced by Smiles."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_telford_smiles, src_telford_ice, src_telford_abbey | 1800s-1834 | Victorian biography + institution] Independently documented: he was the driving force behind the ICE Royal Charter of 1828 and bequeathed it over 3,000 pounds plus his books, drawings and papers (ICE). From Smiles alone: he drew a fixed 237 pounds a year as principal engineer of the Caledonian Canal for 21 years according to parliamentary returns, acted unpaid as engineer for the British Fisheries Society, rejected presents from contractors and sent regular remittances to his home valley. Contemporaries called him benevolent (ICE). SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 66 / 0.54 because the pay, unpaid-work and charity claims come from one admiring biography based on his own letters and only the ICE charter and bequest are independently confirmed."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_telford_scotcanals, src_telford_dwb, src_telford_smiles, src_telford_ice | 1795-1826 | institution + scholarly entry + biography] He carried long projects to completion: Pontcysyllte took from 1795 to 1805, the Caledonian Canal from 1804 to 1822 when it was expected to take seven years (Scottish Canals), and the Menai bridge from 1819 to about 1825 with, per Smiles, anxiety that cost him sleep until the chains were up. The long durations show endurance of effort more than they show his own response to setbacks, so confidence stays below 0.5."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "토머스 텔퍼드"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/thomas-telford-meyer-1832.jpg",
+    "width": 775,
+    "height": 1200,
+    "source": "Engraved portrait of Thomas Telford, 'Painted & Engraved by Hy. Meyer', published by Fisher, Son and Co., London, 1832 (lifetime print, titled 'Thomas Telford Esq. F.R.S. L & E, President of the Institution of Civil Engineers'), held and digitised by the National Library of Wales (item 4672045; 1 print, line and stipple engraving, 201 x 131 mm). Rights basis: (1) the library's own IIIF manifest for the item, which I read live, marks it with the Public Domain Mark 1.0 licence and credits the National Library of Wales; (2) independent of that, the print was published in London in 1832 and the artist Henry Hoppner Meyer (1782-1847, the library's catalogue dates) died long ago, so it is in the public domain in the United Kingdom, the United States and elsewhere by age; the NLW catalogue record page itself was behind a bot-check and could not be opened, so the item-level terms were read from the manifest and I found no conflicting copyright notice. Lead check: the lead's preflight named this same print as its initial lead. Caveats: the print is a later reproduction of Meyer's painting rather than a documented sitting, so it is recorded as a historical depiction; the file is a crop of the print area (colour-checker strip and scanner border removed) downloaded from the library's image server at 775 x 1200 pixels from a 2144 x 3564 pixel original, downscaled only, never upscaled; the print retains the plate caption and facsimile signature.",
+    "license": "Public domain (published 1832; Public Domain Mark 1.0 on the National Library of Wales item)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Henry Hoppner Meyer, portrait print (1832), National Library of Wales, Public Domain Mark 1.0",
+    "attributionUrl": "https://hdl.handle.net/10107/4672045",
+    "creator": "Henry Hoppner Meyer (painter and engraver)",
+    "date": "1832",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://hdl.handle.net/10107/4672045"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED with the lead's initial lead: the Henry Hoppner Meyer 1832 mezzotint (actually a line and stipple engraving per the catalogue) at NLW item 4672045; the library's IIIF manifest carries an item-level Public Domain Mark 1.0 and the print is pre-1931 by an artist who died in 1847, so the lead's open issue (NLW terms) is resolved; alternatives (Roffe 1831 print NLW 4672707, also PDM; Commons ThomasTelford.jpg, a 397 x 480 scan with a dead RCAHMS source) were not needed. PREFLIGHT: QID VERIFIED LIVE (2026-11-02) Q380875 label 'Thomas Telford', description 'Scottish civil engineer, architect and stonemason (1757-1834)', 1757-08-09 to 1834-09-02; no production (prod63.txt) or candidate slug/QID collision. REGION western_europe (Scotland/Britain; precedents william-wilberforce, charles-lyell). ERA 19th_century (career 1786-1834; precedent katsushika-hokusai b.1760). ZERO POLITICS: government road and canal commissions are scored only as engineering work. VOCABULARY: occupations engineer, architect; field engineering; tags self_taught, systematic_thinker; archetype technical_innovator; impact domains engineering, industrial, technological (all in en.ts and ko.ts). KOREAN NAME: Wikidata Korean label 토머스 텔퍼드. CANONICAL SIGNIFICANCE SOURCE: ICE, 'Thomas Telford: The Father of Civil Engineering' (https://ice.org.uk/what-is-civil-engineering/meet-the-engineers/thomas-telford), read in full, corroborated by Britannica and the Dictionary of Welsh Biography. READ: ICE profile; Britannica; Dictionary of Welsh Biography; Westminster Abbey entry; Smiles 1867 (Ellesmere, Menai, later years/character chapters and targeted searches); Scottish Canals history page; UNESCO list entry 1303; Grace's Guide pages on Telford and the Caledonian Canal (read for orientation, not cited). PERSPECTIVES: professional body (ICE), memorial institution (Abbey), reference and scholarly biography (Britannica, DWB), admiring Victorian biography from his own letters (Smiles), heritage owner of the Caledonian Canal (Scottish Canals), UNESCO evaluation. COUNTER-VOICES: Scottish Canals on the doubled time and cost and the 1840s lock and bank defects; UNESCO on later embankment problems; Smiles' own footnote on the Jessop-iron dispute. NOT OPENED: Rolt's 1958 biography, Gibb's 1935 'Story of Telford', the Oxford DNB entry and Telford's own 1838 autobiography and atlas (none accessible online); the ICE archive; Cloudflare-blocked NLW catalogue page. SELF-REPORT SEPARATION: Smiles' account of his letters (chemistry study, secret charity, refusal of gifts, indifference to money) is self-report filtered through an admirer and no row rests on it alone except where flagged. EXCLUSIONS: death-cause details, his unmarried status and private friendships (including the poet Thomas Campbell) are not used and no trait is inferred from them. Grace's Guide's 'father of civil engineering' phrasing is the ICE's own. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (66/0.54 lowered to 62/0.48), detail_orientation (kept: specific, partly corroborated by ICE), planning_orientation (kept: documented across several projects and sources). HANDBACK63: {\"slug\": \"thomas-telford\", \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"initial_lead\": \"Henry Hoppner Meyer 1832 mezzotint, National Library of Wales item 4672045\", \"final_portrait_source\": \"National Library of Wales item 4672045, Henry Hoppner Meyer painted and engraved portrait print, Fisher, Son and Co., London, 1832 (Public Domain Mark 1.0 on the item IIIF manifest), https://hdl.handle.net/10107/4672045\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 66, \"old_confidence\": 0.54, \"new_score\": 62, \"new_confidence\": 0.48, \"reason\": \"pay, unpaid-work and charity claims rest on one admiring biography built on his own letters; only the ICE charter and bequest are independently confirmed\"}], \"reviewed_kept\": [\"detail_orientation\", \"planning_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): planning_orientation lowered from 74 / 0.58 to 66 / 0.5 because the Caledonian Canal took twelve years and cost 910,000 pounds against a plan of seven years and 474,000, so planning is dual-edged, and the praise comes from an admiring Victorian biography and an institutional profile."
+  }
+}
