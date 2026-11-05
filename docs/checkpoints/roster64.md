@@ -490,3 +490,17 @@ The whole 286-spec suite was **not** run (optional/diagnostic); only the focused
   evidence, and Laozi (Roster63) remains the only evidence hold on file.
 - The ~750 scale checkpoint is deferred (13 to go); Roster65 is the likely checkpoint-target cycle.
 - **Roster65 not started.**
+
+## Post-commit scoring lock
+
+Implementation commit `4e1807f` (`Roster64: 24 freshly researched people shipped, 6 held on portrait (713 -> 737)`),
+clean tree before and after. `checkScoringLockIntegrity.ts` output:
+
+```
+Checked 907 previously-committed candidate file(s) against HEAD. 0 flagged.
+Legacy scoring lock: 22 pre-pipeline production people covered, 0 flagged.
+```
+
+Committed = on-disk = checked (907 files), 0 unresolved genuine flags (candidate or legacy). Every downward
+lead correction carries `RUBRIC_CORRECTION` in its row rationale and in `provenance.notes`; the reversed
+Pestalozzi score raise and the Zeno portrait hold are documented in the same notes.
