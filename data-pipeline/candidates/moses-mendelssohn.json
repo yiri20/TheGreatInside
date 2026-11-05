@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "moses-mendelssohn",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Moses Mendelssohn",
+    "aliases": [
+      "Moses Dessau",
+      "Moses ben Menahem Mendel",
+      "the German Socrates"
+    ],
+    "wikidataId": "Q76997",
+    "birthYear": 1729,
+    "deathYear": 1786,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "scholar",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "religion",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "self_taught",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_moses_wikidata",
+      "kind": "wikidata",
+      "title": "Moses Mendelssohn (Q76997), verified live via the Wikidata API (2026-11-02): label 'Moses Mendelssohn', description 'German-Jewish philosopher and theologian (1729-1786)', born 1729-09-06, died 1786-01-04, Korean label 모제스 멘델스존, citizenship Germany. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q76997"
+    },
+    {
+      "id": "src_moses_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Moses Mendelssohn' (substantive revision 2023), life and career, metaphysics, rational psychology, political theory and Jacobi-controversy sections read. CANONICAL SIGNIFICANCE SOURCE: a creative and eclectic thinker whose writings on metaphysics and aesthetics, political theory and theology, together with his Jewish heritage, placed him at the focal point of the German Enlightenment for over three decades; co-editor with Lessing and Nicolai of literary journals; dubbed 'the Jewish Luther' for translating the Pentateuch and Psalms into German; his 1763 prize essay on evidence in metaphysics won the Berlin Academy's prize (Kant's essay came second); his Phaedo (1767) was a best-seller; Lavater challenged him in 1769 to refute Bonnet or convert and he disabled the challenge with a plea for tolerance; in Jerusalem (1783) some Jewish thinkers took exception to his argument and the entry notes that his claim that excommunication was borrowed from Christianity is apparently erroneous; he was the model for Lessing's Nathan the Wise and in 1785-86 was drawn into the pantheism dispute with Jacobi. Independent scholarly reference; retrospective in tone about influence.",
+      "url": "https://plato.stanford.edu/entries/mendelssohn/"
+    },
+    {
+      "id": "src_moses_je",
+      "kind": "biography",
+      "title": "Jewish Encyclopedia (1906), 'Mendelssohn' family article, sections on Moses Mendelssohn read in full (early influences, bookkeeper, friendship with Lessing and Nicolai, criticism, Phaedo, controversy with Lavater, Jewish activities, translation of the Bible, influence on German Judaism, Jerusalem, Morgenstunden): his poverty, self-education in Latin from a copy of Locke, Greek with Nicolai, work as tutor, bookkeeper and partner in a silk firm, co-editing the Literaturbriefe, the 1769 Lavater challenge and his public reply with the consistory's permission, the 1779 rabbinical ban on his German Pentateuch, his 'philosophic calm' toward opponents, collaborators on the commentary, and the Berlin Jewish Free School founded in 1781 at his suggestion. Based on the Kayserling biography; admiring in tone and partly legendary on anecdotes (the Frederick the Great and d'Argens stories are flagged as legend and not used).",
+      "url": "https://www.jewishencyclopedia.com/articles/10665-mendelssohn"
+    },
+    {
+      "id": "src_moses_jebiur",
+      "kind": "biography",
+      "title": "Jewish Encyclopedia (1906), 'Biurists', read in full: Mendelssohn compiled for his children a literal German translation of the Pentateuch with a Hebrew commentary (biur) begun by Solomon Dubno; rabbis of the old school including Raphael ha-Kohen of Hamburg and Ezekiel Landau of Prague criticised it and in June 1779 issued a ban on the 'German Pentateuch of Moses of Dessau'; Dubno gave up after Genesis and Mendelssohn took the commentary himself, assigning Leviticus, Numbers and Deuteronomy chapters to Wessely, Jaroslav and Homberg; the work was completed in March 1783 as Netivot ha-Shalom and founded the Biurist school. Independent counter-voice on the traditionalist opposition and on how the project was collaboratively finished.",
+      "url": "https://www.jewishencyclopedia.com/articles/3347-biurists"
+    },
+    {
+      "id": "src_moses_eb1911",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 11th edition (1911), 'Mendelssohn, Moses' (Wikisource transcription), read in full: foremost Jewish figure of the eighteenth century, self-taught in Latin and Locke, tutor then partner to a silk merchant, Lessing published his Philosophical Conversations without telling him, the Phaedo hailed him as the 'German Plato', the Lavater challenge, the German Pentateuch, and Jerusalem, which Kant called 'an irrefutable book'; also reports that his descendants left the synagogue for the church. Old encyclopedia article; admiring in tone, used only for facts independently found in the other sources.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Mendelssohn,_Moses"
+    },
+    {
+      "id": "src_moses_jvl",
+      "kind": "biography",
+      "title": "Jewish Virtual Library, 'Moses Mendelssohn (1729 - 1786)', read: poor Torah scribe's son who followed Rabbi Fraenkel to Berlin at fourteen, studied languages, mathematics, logic and philosophy, worked as tutor, bookkeeper and silk-firm partner while writing, the 1769 Lavater challenge, Jerusalem (1783) on religious coercion and Judaism as revealed law, translation of the Bible into German with the Biur, and the label father of the Jewish Enlightenment. Popular reference; its claim that he was 'the first Jew to bring secular culture to Orthodox life' is a superlative and is not repeated.",
+      "url": "https://www.jewishvirtuallibrary.org/moses-mendelssohn"
+    },
+    {
+      "id": "src_moses_jmb",
+      "kind": "institution",
+      "title": "Jewish Museum Berlin, 'Moses Mendelssohn, Philosopher', read: the great philosopher of the European Enlightenment who played a crucial role as Jews in mid-eighteenth-century Berlin began to adopt the language and culture around them; came to Berlin in 1743 as a young Talmud scholar, learned modern languages and secular sciences, worked as tutor, bookkeeper and partner of the silk manufacturer Isaac Bernhard while complaining that the business kept him from his studies, became known as the 'German Socrates' after the Phaedo (1767), published Jerusalem (1783), lived strictly by the Jewish precepts, and later generations saw in him the first modern German Jew and the symbolic figure of the Haskalah. Museum overview; museum framing is retrospective.",
+      "url": "https://jmberlin.de/en/node/5066"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moses_sep, src_moses_je, src_moses_jmb | 1755-1785 | scholarly reference, 1906 biography, museum overview] The SEP describes a thinker whose writings spanned metaphysics and aesthetics, political theory and theology and who was also one of his age's most accomplished literary critics, writing reviews of Homer, Aesop, Pope, Burke and Rousseau; the Jewish Encyclopedia lists his Letters on Sentiments (aesthetics), his Literaturbriefe criticism, the Phaedo, a Hebrew commentary on Maimonides's Logic and on Ecclesiastes, a German Pentateuch and Psalms, a German compilation of Jewish ritual law, and the Morgenstunden lectures on God's existence, all while working as a merchant. The row records breadth across philosophy, criticism and biblical scholarship. It does not claim equal depth in each; the SEP notes his metaphysics was largely within Leibniz-Wolff-Baumgarten and the 1906 article is admiring."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moses_sep, src_moses_je | 1763-1785 | scholarly reference, 1906 biography] The SEP reports that his 1763 essay on evidence in the metaphysical sciences won the Royal Prussian Academy's prize in a contest where Kant's essay came second, and summarises its argument that metaphysics and mathematics both proceed by conceptual analysis while differing in the content of their concepts; the same entry reports his Phaedo argument for the soul's simplicity and his attempt, in the Jacobi dispute, to demonstrate an inconsistency in Spinozism and to show that Lessing's 'refined pantheism' differs only nominally from theism. The row rests on documented argumentative method and a contest result, not on the correctness of his conclusions: the SEP also records that Kant singled out the Phaedo's immortality argument for criticism."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moses_je, src_moses_jebiur, src_moses_sep | 1755-1783 | 1906 biography, 1906 encyclopedia entry, scholarly reference] The Jewish Encyclopedia says he co-wrote the satire Pope a Metaphysician with Lessing, became 'the very soul' of Nicolai's review undertakings (the SEP says he co-edited them with Lessing and Nicolai), and, once the Pentateuch translation was under way, assigned the commentary on Leviticus, Numbers and part of Deuteronomy to Wessely, Jaroslav and Homberg, with Joel Loewe and Aaron Wolfsohn writing the commentary on the Psalms. Against this, the same sources report that Solomon Dubno left the project after Genesis, alienated by the opponents, and that Mendelssohn took over the commentary himself, so the record shows effective team-building but also a collaboration that partly broke down. Source tone is admiring."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moses_je, src_moses_jebiur, src_moses_jmb | 1743-1783 | 1906 biography, 1906 encyclopedia entry, museum overview] The Jewish Encyclopedia reports that the Pentateuch translation was placed under a rabbinical ban in 1779 and that its first commentator left after Genesis, yet it was completed in March 1783 with the commentary reassigned, and that the Psalms translation was the fruit of ten years of labour; it also reports years of poverty in which he kept studying. The Jewish Museum Berlin quotes him complaining that his business work consumed the energy of his best years, which shows that his writing was done against competing duties. The completion despite opposition is documented; the sources are admiring and the wider hardship narrative is told through his biographers."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moses_je, src_moses_eb1911, src_moses_jmb | 1743-1756 | 1906 biography, 1911 encyclopedia, museum overview] The Jewish Encyclopedia and the 1911 Britannica both report that he came to Berlin as a young Talmud scholar, bought a Latin copy of Locke's Essay with scanty earnings and worked through it with a dictionary, learned mathematics, French and English from private tutors (the Jewish Encyclopedia adds that with Nicolai he learned Greek well enough to read Plato in the original); the museum says he learned modern languages and secular sciences while earning a living. The row records self-directed learning across subjects; the sources are admiring biographical accounts that largely repeat one narrative, so the confidence is moderate. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 70 / 0.52 to 66 / 0.46 because the early-study anecdotes come from an admiring 1906 biography and an old encyclopedia, with little modern corroboration."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_moses_je, src_moses_sep, src_moses_jebiur | 1769-1783 | 1906 biography, scholarly reference, 1906 encyclopedia entry] When Lavater publicly challenged him in 1769 to refute Bonnet or convert, the Jewish Encyclopedia says he asked the consistory's permission and answered publicly that his belief in his own religion was unshakable, and the SEP says he disabled the challenge with a plea for tolerance; the 1906 entry says he dared to criticise even Frederick the Great's poems in the Literaturbriefe and that reviewers condemned Jerusalem while both Orthodox and reforming Jews claimed him as their own. The rabbis' 1779 ban on his Pentateuch shows he accepted opposition from traditionalists. The SEP also notes that some Jewish thinkers took exception to Jerusalem and that its claim about excommunication is apparently erroneous, so the independence is documented as a stance and not as flawless scholarship. SELF-CALIBRATION (agent): top-risk row; lowered from 64 / 0.5 to 60 / 0.44 because the SEP flags a factual error in Jerusalem's central historical claim and most of the behavioural detail comes from the admiring 1906 biography."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "모제스 멘델스존"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/moses-mendelssohn-muller-after-frisch-1787.jpg",
+    "width": 870,
+    "height": 1198,
+    "source": "Engraved portrait of Moses Mendelssohn by Johann Gotthard Muller after a painting by Johann Christoph Frisch, Rijksmuseum, Amsterdam (object number RP-P-1907-2896), engraving on paper, plate 290 x 219 mm. The plate itself names the sitter (MOSES MENDELSSOHN), the painter ('p. par J.C. Frisch') and the engraver ('Grave a Stoutgard par J.G. Muller'), and carries a dedication to King Frederick William II from the Jewish Free School in Berlin dated 1787; the museum catalogues it as 1770-1775, which does not agree with the dated dedication, so the date is given here as the 1780s. It is a copy engraved after a painting, so it is a historical depiction and not a documented sitting. The image is a crop of the plate area from the museum's own image service, downscaled from about 2650 x 3650 source pixels to 870 x 1198 with no upscaling.",
+    "license": "Public domain (Rijksmuseum Public Domain Mark; the museum's open-data record states CC0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Johann Gotthard Muller after Johann Christoph Frisch, Portrait of Moses Mendelssohn, engraving, Rijksmuseum, Amsterdam (RP-P-1907-2896), public domain (cropped and downscaled)",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1907-2896",
+    "creator": "Johann Gotthard Muller (engraver) after Johann Christoph Frisch (painter)",
+    "date": "1780s (plate dedication dated 1787; museum catalogue gives 1770-1775)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1907-2896"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED, LEAD USED. Identity: Wikidata Q76997 verified live (2026-11-02): label Moses Mendelssohn, 'German-Jewish philosopher and theologian (1729-1786)', born 1729-09-06, died 1786-01-04; no production or candidate slug or QID collision (prod63.txt checked: only Felix Mendelssohn, Q46096, is a different person; no existing moses-mendelssohn candidate file). Region central_europe (Berlin career, same as the Felix Mendelssohn precedent). Korean name 모제스 멘델스존 is the Wikidata Korean label. PORTRAIT: opened the Rijksmuseum collection page for RP-P-1907-2896 (it shows 'Public domain') and the museum's linked-art record (id.rijksmuseum.nl/200236438, read with Accept: application/ld+json): Public Domain Mark on the image, CC0 on the data record, title 'Portret van Moses Mendelssohn', engraving after a painting by Johann Christoph Frisch (mentioned on the object, painter born 1738 per the museum's person record), printmaker Johann Gotthard Muller (born 1747, died 1830 per the museum's person record), and the depicted person record points to Wikidata Q76997, so the sitter is identified by the holder as well as by the plate's own caption. Both creators died long before 1900, so the work is public domain by age independently of the museum's statement; I found no conflicting copyright notice on the museum page. Date discrepancy recorded honestly: the museum catalogues 1770-1775 but the plate dedication reads 1787 and the plate is signed with a date in the 1780s, so the portrait date field says 1780s. Kind historical_depiction because it is a print after a painting. Image taken from the museum's published IIIF service (iiif.micr.io/kgJQh, original 4442 x 6184 px), cropped to the plate and downscaled to 870 x 1198; no upscaling. Alternatives (Cleveland CC0 Luderitz print, Wellcome) were not needed. RESEARCH: 6 substantive sources read plus Wikidata for orientation: SEP (CANONICAL SIGNIFICANCE SOURCE: Moses Mendelssohn, https://plato.stanford.edu/entries/mendelssohn/), Jewish Encyclopedia Mendelssohn article, Jewish Encyclopedia Biurists, 1911 Britannica (Wikisource), Jewish Virtual Library, Jewish Museum Berlin. PERSPECTIVES: modern philosophical scholarship (SEP), early-twentieth-century Jewish scholarship (Jewish Encyclopedia, which draws on the Kayserling biography and is admiring), the traditionalist rabbinical opposition recorded in the Biurists entry (counter-voice: the 1779 ban), Christian critics and rivals (Lavater, Bonnet, Jacobi, the Berlin theologians who condemned Jerusalem) as reported by the SEP and the 1906 entry, and a museum overview. Substantive non-self behavioural sources: the Jewish Encyclopedia and the SEP. NOT opened: Kayserling's biography, Mendelssohn's own works (Jerusalem, the Lavater letter), the Jewish Ideas Daily essay (blocked by a bot check), the Britannica current article (summaries only). EXCLUSIONS: his advocacy of Jewish emancipation and civil rights (the Dohm memorial, the interventions for the Jews of Endingen, Lengnau and Dresden, the church-state argument of Jerusalem) is political activism and is not scored; family and descendants' conversions, his physical condition and the cause of his death are not scored; legends (Frederick the Great and d'Argens, the overcoat anecdote) are not scored. Moments and the turning point rest on the Jewish Encyclopedia, SEP and Biurists entry. MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on all checks; the first card states his defining contribution; see the editorial draft review. Calibration: reviewed independent_thinking (lowered), cross_domain_range and persistence (kept); no broad scoring problem flagged. Confidence is kept at or below 0.58 because all biographical detail comes from admiring or retrospective sources and there is no adversarial primary account. HANDBACK63: {\"slug\":\"moses-mendelssohn\",\"portrait_preflight_grade\":\"STRONG (lead-robust)\",\"initial_lead\":\"Rijksmuseum print RP-P-1907-2896 (Johann Gotthard Muller after Frisch)\",\"final_portrait_source\":\"Rijksmuseum, Amsterdam / engraving by Johann Gotthard Muller after Johann Christoph Frisch, RP-P-1907-2896, Public Domain Mark (linked-art record https://id.rijksmuseum.nl/200236438; page https://www.rijksmuseum.nl/en/collection/RP-P-1907-2896); plate crop from the museum IIIF service (iiif.micr.io/kgJQh), downscaled to 870x1198\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"independent_thinking\",\"old_score\":64,\"old_confidence\":0.5,\"new_score\":60,\"new_confidence\":0.44,\"reason\":\"The SEP flags a factual error in Jerusalem's central historical claim about excommunication and most behavioural detail comes from the admiring 1906 biography\"}],\"reviewed_kept\":[\"cross_domain_range\",\"persistence\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6} RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 70 / 0.52 to 66 / 0.46 because the early-study anecdotes come from an admiring 1906 biography and an old encyclopedia, with little modern corroboration. LEAD REVIEW (Roster63): era corrected from the invalid '18th_century' to early_modern (the Era vocabulary has no 18th_century; precedent Hegel, Comenius, Huygens)."
+  }
+}

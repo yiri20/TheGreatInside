@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "zhao-mengfu",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Zhao Mengfu",
+    "aliases": [
+      "Chao Meng-fu",
+      "Zhao Ziang",
+      "Chao Tzu-ang",
+      "Songxue"
+    ],
+    "wikidataId": "Q197461",
+    "birthYear": 1254,
+    "deathYear": 1322,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_zhaomf_wikidata",
+      "kind": "wikidata",
+      "title": "Zhao Mengfu (Q197461), verified live via the Wikidata API (2026-11-02): no English label (the entity is labelled in Chinese and Korean, Korean label 조맹부), English description 'Chinese painter (1254-1322)', birth 1254 and death 1322 (year precision), occupations including painter. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q197461"
+    },
+    {
+      "id": "src_zhaomf_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Zhao Mengfu', read in full (short entry). CANONICAL SIGNIFICANCE SOURCE: Chinese painter and calligrapher who, 'though occasionally condemned for having served in the foreign Mongol court', has been honoured as an early master within the tradition of the literati painters (wenrenhua), who sought personal expression rather than the representation of nature; his paintings were among the first after the collapse of the Song dynasty and its painting academy to take an interest from the subjects and styles of ancient masters; he is popularly remembered as a horse painter in the manner of Han Gan but also painted other animals, landscapes and bamboo, generally avoiding superficial beauty through deliberately simplified colour and composition and a schematic, even childlike rendering of forms; his wife Guan Daosheng and son Zhao Yong were painters of note. Encyclopedia; short; the political-service passages are not used.",
+      "url": "https://www.britannica.com/biography/Zhao-Mengfu"
+    },
+    {
+      "id": "src_zhaomf_ewb",
+      "kind": "biography",
+      "title": "Encyclopedia of World Biography (Gale), 'Chao Meng-fu' (as hosted on Encyclopedia.com), read in full: helped establish the tradition of amateur scholarly painting (wen-jen-hua); considered the leading calligrapher of his time, noted for small formal and running script, in which he revived the fluid, harmonious style of Wang Xizhi; as a youth he studied under Ao Shan and was influenced by Qian Xuan; on journeys in North China after 1286 he saw and collected paintings by Li Cheng, Dong Yuan and Fan Kuan, which inspired him to break from the conventions into which landscape painting had hardened at the end of the Southern Song, writing 'the most important thing in painting is the spirit of antiquity (ku-i)' and meaning not copying but reviving the spirit of the old masters; Autumn Colors on the Qiao and Hua Mountains (1295) 'interprets archaic conventions in a revolutionary way' and the later Water Village handscroll (seven years later) is more relaxed and spontaneous; his own comment that his paintings 'may seem simply and carelessly done, but true connoisseurs will realize that they are very close to the old models'; most surviving horse paintings bearing his name are forgeries; the next generation of Yuan scholar painters, the Four Masters, carried the revolution to fruition. Gale reference work; admiring, retrospective; its remarks about his official posts and his regrets about taking office are not used.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/chao-meng-fu"
+    },
+    {
+      "id": "src_zhaomf_npm",
+      "kind": "institution",
+      "title": "National Palace Museum, Taipei, exhibition page 'Autumn Colors on the Qiao and Hua Mountains' (National Treasures for Fun), read: the handscroll (ink and colour on paper, 28.4 x 90.2 cm) was painted in 1295 after he headed back south, for his friend Zhou Mi (1232-1298), and depicts the scenery of Zhou's ancestral land; the composition is succinct, and the sloping banks and trees are very similar to the motifs in Dong Yuan's landscapes, made 'even more animated' by Zhao's brush, ink and colouring. Museum catalogue text; short and admiring; its passage on his official service is not used.",
+      "url": "https://theme.npm.edu.tw/exh104/npmforfun/en/mediaworks/mediaWork3.html"
+    },
+    {
+      "id": "src_zhaomf_yuanshi",
+      "kind": "archive",
+      "title": "History of Yuan (Yuan shi), chapter 172, biography of Zhao Mengfu (Chinese Wikisource, original Chinese read), compiled in 1370 under the Ming: as a child he memorised what he read and wrote quickly; after the fall of the Song, living at home, he 'applied himself still more to study' (宋亡，家居，益自力於學); his writings include a commentary on the Book of Documents and the Qinyuan and Yueyuan on the origins of the zither and of music; seal, clerical and every other script, he 'surpassed all ancients and moderns' and was famous across the land for his writing, an Indian monk travelling tens of thousands of li to obtain his calligraphy, which his country treasured; he painted landscapes, trees and rocks, flowers and bamboo, people and horses with special finish; the emperor Renzong compared his writing to Li Bai and Su Shi and praised his learning and mastery of calligraphy and painting; the historian Yang Zai said his talent was 'largely masked by calligraphy and painting', so those who knew his painting did not know his prose, and those who knew his prose did not know his statecraft. Official dynastic history, written about 50 years after his death; heavily laudatory; the long passages on his court and administrative career are NOT used.",
+      "url": "https://zh.wikisource.org/wiki/%E5%85%83%E5%8F%B2/%E5%8D%B7172"
+    },
+    {
+      "id": "src_zhaomf_siku",
+      "kind": "archive",
+      "title": "Siku quanshu zongmu tiyao (Imperial Catalogue of the Four Treasuries, Qing, 1780s), chapter 166, entry for Zhao Mengfu's collected writings 'Songxue zhai ji' (Chinese Wikisource, original Chinese read): a critical Qing editorial verdict that as a descendant of the Song imperial house who 'changed his allegiance to serve the Yuan' he was 'out of harmony with public opinion' and in old age could not avoid regret, citing a poem line, yet 'in talent and art' his 'elegance and literary grace surpassed his time'; his calligraphy was 'the first of the Yuan dynasty' and his prose could stand beside the leading Yuan writers; the entry also notes that the Ming-era edition was incomplete and that the surviving ten-chapter collection includes the Qinyuan and Yueyuan. Used as the counter-voice (the critical judgment of his choices) and for the Qing verdict on his artistic standing; the allegiance question itself is NOT scored.",
+      "url": "https://zh.wikisource.org/wiki/%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E7%B8%BD%E7%9B%AE%E6%8F%90%E8%A6%81/%E5%8D%B7166"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zhaomf_ewb, src_zhaomf_brit, src_zhaomf_npm, src_zhaomf_siku | c.1295-1302 | encyclopedia, museum catalogue text, Qing editorial verdict] The Encyclopedia of World Biography says that after seeing and collecting tenth- and eleventh-century landscapes in North China he broke from the conventions into which Southern Song landscape had hardened, with the principle of 'the spirit of antiquity' (reviving the spirit of the old masters, not copying them), and that Autumn Colors on the Qiao and Hua Mountains (1295) interprets archaic conventions in a revolutionary way; Britannica says his paintings were among the first after the Song academy collapsed to draw on ancient masters and that he used deliberately simplified colour and composition; the National Palace Museum notes the scroll's Dong Yuan-like motifs made more animated by his brush. The originality is an act of reinterpretation of old models (the museum itself says the motifs resemble Dong Yuan's), and the evidence is retrospective praise by encyclopedias; Britannica also records condemnation of his career, but no source disputes the artistic claim. SELF-CALIBRATION (agent): top-risk row; lowered from 70 / 0.52 to 66 / 0.50 because the 'revolutionary' label is one encyclopedia's retrospective verdict and the museum itself ties the scroll's motifs closely to Dong Yuan, so the originality is a reinterpretation of old models."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zhaomf_yuanshi, src_zhaomf_ewb, src_zhaomf_siku | 1279-1322 | official history, encyclopedia, Qing editorial verdict] The History of Yuan says that after the Song fell, living at home, he applied himself still more to study, and that he excelled in seal, clerical and all other scripts, so that an Indian monk travelled tens of thousands of li for his calligraphy; the Encyclopedia of World Biography says he revived the style of Wang Xizhi and studied the works of the old masters in the north; the Siku entry ranks his calligraphy first of the Yuan. The attainment is widely attested (an official history, a Qing catalogue and a modern encyclopedia agree) but the documented study behaviour is a single clause plus his own 'spirit of antiquity' maxim, and the History of Yuan is a laudatory official history written decades later. SELF-CALIBRATION (agent): lowered from 72 / 0.52 to 68 / 0.48 because the praise concerns attainment while the documented study behaviour is only one clause of a laudatory official history and one encyclopedia sentence."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zhaomf_yuanshi, src_zhaomf_siku, src_zhaomf_brit | 1279-1322 | official history, Qing editorial verdict, encyclopedia] The History of Yuan lists a commentary on the Book of Documents, the Qinyuan and Yueyuan on the origins of the zither and of music, poetry and prose, calligraphy in every script, and landscape, flower, bamboo, figure and horse painting, and quotes the historian Yang Zai that his talent was masked by calligraphy and painting, so that those who knew his painting did not know his prose; the Siku entry notes that the surviving collection includes the music treatises and that his prose stood alongside the leading Yuan writers; Britannica adds animals, landscape and bamboo. The range across calligraphy, painting, writing and music theory is documented by lists and a contemporary's remark; none of the sources reads any of the treatises, and the History of Yuan is laudatory, so confidence is moderate-low."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조맹부"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/zhao-mengfu-anonymous-19th-century.jpg",
+    "width": 880,
+    "height": 880,
+    "source": "Roundel portrait from the hanging scroll 'Copy of a Portrait of Zhao Mengfu', ink and colour on silk, 63.8 x 30.8 cm, unidentified artist, 19th century, The Metropolitan Museum of Art, New York (accession 1986.267.3; Gift of Robert Hatfield Ellsworth, in memory of La Ferne Hatfield Ellsworth, 1986). The museum's title names the sitter. It is a later copy of an earlier portrait, made more than five centuries after Zhao Mengfu's death, not a likeness from life. The file is a crop of the portrait roundel from the museum's Open Access image (2111 x 4000 pixels), taken at original resolution with no scaling or upscaling; the inscription and seals are cropped away.",
+    "license": "Public domain (Metropolitan Museum Open Access, CC0; nineteenth-century painting by an unknown artist)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Unidentified artist, 19th century. Copy of a Portrait of Zhao Mengfu, 1986.267.3. The Metropolitan Museum of Art, Gift of Robert Hatfield Ellsworth, in memory of La Ferne Hatfield Ellsworth, 1986 (Open Access, cropped)",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/36146",
+    "creator": "Unidentified artist",
+    "date": "19th century",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/36146"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED, LEAD USED (Metropolitan Museum object 36146, cropped to the roundel). PORTRAIT: The Metropolitan Museum of Art, 'Copy of a Portrait of Zhao Mengfu', hanging scroll, ink and colour on silk, 63.8 x 30.8 cm, unidentified artist, 19th century, accession 1986.267.3, Gift of Robert Hatfield Ellsworth, in memory of La Ferne Hatfield Ellsworth, 1986. The Met Open Access API v1 record (collectionapi.metmuseum.org/public/collection/v1/objects/36146, opened live) returns isPublicDomain true, objectDate 19th century, artistDisplayName 'Unidentified artist', an empty rightsAndReproduction field, and primaryImage https://images.metmuseum.org/CRDImages/as/original/DP216663.jpg (2111 x 4000 px, downloaded with curl and viewed). The Met's own web page for the object (metmuseum.org/art/collection/search/36146) returned HTTP 429 (rate-limited) on every attempt, so the page's 'Open Access' wording itself was NOT read; the API record is the Met's own machine-readable statement of public-domain status and the Met's Open Access programme makes all isPublicDomain works CC0. The sitter is identified by the museum's title ('Copy of a Portrait of Zhao Mengfu'); the scroll bears a poem inscription whose closing line, as far as I can read it on the image, ends with Zhao Mengfu's signed self-inscription (趙孟頫自題) in the Dade era (the year character reads 'two', i.e. c.1298), which is consistent with a copy of a portrait made for Zhao himself, but I did not verify the reading against a catalogue entry and the dating is therefore NOT recorded as fact. RIGHTS BASIS: a nineteenth-century Chinese painting by an unknown artist (public domain by age) held by the Met, which publishes the digital image as public domain / CC0 through Open Access; no institutional notice conflicts (no restriction was found; the page could not be opened). The alternative (the 1318 Yang Shuqian portrait album page, Palace Museum) was not needed. The image was CROPPED, not scaled, to the roundel portrait (880 x 880 px) from the 2111 x 4000 original, with the inscription and seals cropped away; no upscaling. kind historical_depiction: a 19th-century copy of an earlier portrait, made more than five centuries after the sitter, not a likeness from life. PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q197461: no English label (labels in Chinese and Korean; Korean label 조맹부), English description 'Chinese painter (1254-1322)', birth 1254 and death 1322 (year precision); not in prod63.txt, no candidate file existed for zhao-mengfu, and no other candidate file contains Q197461. REGION east_asia (Chinese precedents). ERA medieval, nationality CN. ZERO POLITICS: primary identity is painter and calligrapher (Britannica); his service in the Yuan court and the question of loyalty to the Song are NOT scored and not carded; they appear only as a counter-voice in the notes. KO NAME: Wikidata Korean label 조맹부 (standard Korean name of the painter). VOCABULARY: occupations painter and artist, field art, impact domains artistic and cultural, tag craft_focused, archetype creative_creator, all labelled in en.ts and ko.ts (calligrapher has no labelled id, so not used). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Zhao Mengfu' (https://www.britannica.com/biography/Zhao-Mengfu). READ (5 sources plus Wikidata): (1) Britannica (short, full); (2) Encyclopedia of World Biography (Gale) 'Chao Meng-fu', full; (3) National Palace Museum, Taipei, catalogue text for Autumn Colors on the Qiao and Hua Mountains; (4) History of Yuan chapter 172 (Chinese Wikisource, original Chinese; political passages read but not used); (5) Siku quanshu zongmu tiyao chapter 166 entry on his collected works (Chinese Wikisource, original Chinese). PERSPECTIVES: modern encyclopedias (Britannica, Gale), museum catalogue text, Ming-era official history (about fifty years after his death), Qing imperial editorial judgment (critical on allegiance, laudatory on art). COUNTER-VOICES AND LIMITS: Britannica says he was occasionally condemned for serving the Mongol court; the Siku entry says he was out of harmony with public opinion and regretted it in old age; the Encyclopedia says most surviving horse paintings under his name are forgeries; the History of Yuan is laudatory official history. NOT OPENED: the Met essays and object page (HTTP 429), Smarthistory (403), World History Encyclopedia (403), Smithsonian Freer/Sackler pages (403 or redirect), the Palace Museum's 1318 portrait page, Zhao's own colophons and treatises, and monographs (Li Chu-tsing, Sirén, Chu-tsing Li and Watt). The encyclopedia reads are English summaries of scholarship, so the originality claims are second-hand. EXCLUDED: all of his official posts, memorials, the Song loyalty question and the Mongol court; his wife's and son's careers (family); the mention of 'regret' about taking office (inferred motive). SPARSE PROFILE for a medieval subject: 3 rows, scores 62-68, confidence 0.46-0.50; self-authored works are not scored. SELF-GATE: first-pass PASS on all five checks (see draft). SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (70/0.52 lowered to 66/0.50), mastery_orientation (72/0.52 lowered to 68/0.48), cross_domain_range (kept at 62/0.46, already low).  HANDBACK63: {\"slug\": \"zhao-mengfu\", \"portrait_preflight_grade\": \"STRONG (alt-dependent)\", \"initial_lead\": \"Metropolitan Museum 'Copy of a Portrait of Zhao Mengfu' (19th c., object 36146)\", \"final_portrait_source\": \"The Metropolitan Museum of Art, 'Copy of a Portrait of Zhao Mengfu', unidentified artist, 19th century, accession 1986.267.3 (object 36146), Open Access image DP216663, cropped to the roundel (880x880): https://www.metmuseum.org/art/collection/search/36146\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 3, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 70, \"old_confidence\": 0.52, \"new_score\": 66, \"new_confidence\": 0.5, \"reason\": \"The 'revolutionary' label is one encyclopedia's retrospective verdict and the museum itself ties the scroll's motifs closely to Dong Yuan, so the originality is a reinterpretation of old models\"}, {\"attribute\": \"mastery_orientation\", \"old_score\": 72, \"old_confidence\": 0.52, \"new_score\": 68, \"new_confidence\": 0.48, \"reason\": \"The praise concerns attainment while the documented study behaviour is only one clause of a laudatory official history and one encyclopedia sentence\"}], \"reviewed_kept\": [\"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

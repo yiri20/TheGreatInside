@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "pieter-bruegel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Pieter Bruegel the Elder",
+    "aliases": [
+      "Pieter Brueghel the Elder",
+      "Pieter Bruegel",
+      "Pieter Brueghel",
+      "Peasant Bruegel",
+      "Pieter Breughel"
+    ],
+    "wikidataId": "Q43270",
+    "birthYear": 1525,
+    "deathYear": 1569,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "BE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bruegel_wikidata",
+      "kind": "wikidata",
+      "title": "Pieter Bruegel the Elder (Q43270), verified live via the Wikidata API (2026-11-02): label 'Pieter Brueghel the Elder', description 'Flemish painter (1526-1569)', birth recorded as 1525, 1520 and 1526 (year precision, conflicting), death 1569-09-09 or 1569-09-05, Korean label 대 피터르 브뤼헐. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q43270"
+    },
+    {
+      "id": "src_bruegel_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Pieter Bruegel, the Elder' (Britannica Editors, updated October 2026), article body read in full. CANONICAL SIGNIFICANCE SOURCE: born c. 1525 probably near Breda and died in Brussels in 1569, 'the greatest Flemish painter of the 16th century', renowned for landscapes and vigorous, often witty scenes of peasant life; there is 'but little information about his life' and Van Mander's account of his apprenticeship to Pieter Coecke van Aelst, written 35 years after his death, is the main source; the Italian journey of about 1551-54 and the Alpine drawings, mostly free compositions made after the journey; designs for the Antwerp print publisher Hieronymus Cock, who commissioned his early fame; a turn from 1556 to satirical, didactic and moralising subjects in the manner of Bosch whose inventiveness 'lifted his designs above mere imitation'; collaboration with Giulio Clovio and with Maarten de Vos; marriage to Mayken Coecke and move to Brussels in 1563, where he produced his greatest paintings for collectors including Nicolaes Jonghelinck (16 paintings by 1566), Cardinal Granvelle and Abraham Ortelius, who called him the most perfect artist of the century; burial at Notre-Dame de la Chapelle; sons Jan and Pieter founded a painting dynasty. Scholarly reference; its praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Pieter-Bruegel-the-Elder"
+    },
+    {
+      "id": "src_bruegel_rmfab",
+      "kind": "institution",
+      "title": "Royal Museums of Fine Arts of Belgium, press file for Tine L. Meganck, 'Pieter Bruegel the Elder, Fall of the Rebel Angels: Art, Knowledge and Politics on the Eve of the Dutch Revolt' (Silvana, 2014), read in full: a dated biography after Manfred Sellink's catalogue raisonne (probably apprenticed to Pieter Coecke van Aelst, registered in the Antwerp Guild of St Luke in 1551, Italian journey 1552-54 with contacts including Giulio Clovio, work mainly as a print designer for Cock until about 1562, his only surviving etching in 1560, a turn to painting in 1561-62 possibly encouraged by Nicolaes Jonghelinck, Brussels from about 1562, patrons Ortelius, Jean Noirot and Granvelle, praise from Guicciardini in 1567 and Vasari in 1568, a late commission from the Brussels authorities for the canal); the book synopsis argues his emulation of Bosch was part of a wider interest in collecting and inspecting the artistic and natural world; quotations from Ortelius's epitaph and Lampsonius's verse. Museum publicity document built on scholarly sources.",
+      "url": "https://fine-arts-museum.be/uploads/releases/files/20141204_pf_bruegel.pdf"
+    },
+    {
+      "id": "src_bruegel_frick",
+      "kind": "institution",
+      "title": "The Frick Collection, artist biography 'Pieter Bruegel the Elder (Netherlandish, ca. 1525-1569)', from 'Art in The Frick Collection' (Abrams, 1996), read in full: both the date and place of birth are uncertain, the earliest reference is his entry into the Antwerp painters' guild in 1551, he travelled to Italy about 1552 and was back in Antwerp by 1555, settled in Brussels in 1563 working for eminent private patrons and the city government, and his landscapes and peasant scenes had a powerful and lasting influence in the Netherlands. Short museum biography; independent of Britannica.",
+      "url": "https://collections.frick.org/people/56/pieter-bruegel-the-elder"
+    },
+    {
+      "id": "src_bruegel_vanmander",
+      "kind": "archive",
+      "title": "Karel van Mander, 'Het leven van Pieter Brueghel, uytnemende Schilder van Brueghel', Het Schilder-Boeck (Haarlem, 1604), folios 233r-234r, Dutch original read on DBNL (1969 text): born near Breda in a village named Brueghel, trained under Pieter Coecke van Aelst whose daughter he later married, worked with Jeroon Cock, travelled through France to Italy, took his manner from Hieronymus Bosch and was called 'Pier den Drol', drew many views from life in the Alps, entered the Antwerp guild in 1551, went to fairs and weddings with the merchant Hans Franckert dressed as a peasant to study the peasants, was a quiet and skilled man of few words who liked to frighten people and his own servants with tricks, moved to Brussels on marrying, painted works then at the imperial court (a Tower of Babel, Christ carrying the cross, the Massacre of the Innocents and others) and a Peasant Wedding, was commissioned shortly before his death by the Brussels authorities to paint the canal, and on his deathbed had his wife burn drawings with biting captions. Written 35 years after his death from hearsay and anecdote: the disguised-peasant visits, the 'swallowed the mountains' remark and the burned drawings are legend or unverifiable and are NOT scored; used only as a near-contemporary record of how he was regarded and of his commissions. The 1969 text is a copyrighted edition and is cited, not reproduced.",
+      "url": "https://www.dbnl.org/tekst/mand001schi01_01/mand001schi01_01_0221.php"
+    },
+    {
+      "id": "src_bruegel_rijks",
+      "kind": "archive",
+      "title": "Rijksmuseum, Amsterdam, print RP-P-1907-593, 'Portrait of the painter Pieter Brueghel (I)', engraving attributed to Johannes Wierix, 1572, number 19 in the series 'Pictorum aliquot celebrium Germaniae Inferioris effigies' (Lampsonius), opened as the museum's linked-art record (Public Domain Mark) and read together with the print's own Latin verse: 'Who is this new Hieronymus Bosch, come back into the world to imitate his master's dreams with brush and stylus, so skilled that he surpasses him?' The verse is a contemporary tribute (three years after his death) by the humanist Lampsonius, so it shows how his circle regarded him and is admiring, not independent evidence of behaviour.",
+      "url": "https://www.rijksmuseum.nl/en/collection/RP-P-1907-593"
+    },
+    {
+      "id": "src_bruegel_collector",
+      "kind": "press",
+      "title": "Marie-Madeleine Renauld, 'Pieter Bruegel The Elder: A Flemish Renaissance Master', TheCollector (9 August 2021), read in full: a popular art-history article that retells Van Mander, says historians cannot agree on his birthplace or family background, states he went to Italy in 1553-54 mainly to study nature (the Alps), that the publisher Cock probably sponsored the journey, that a 1556 drawing 'Big Fish Eat Little Fish' bears his signature while the 1557 engraved version carries 'Hieronymus Bos. Inventor' (so possibly made after Bosch or marked as Bosch to sell), and that his later work shows a less dark view than Bosch's. Popular secondary article; used only as a cross-check and for the Bosch-signature caution.",
+      "url": "https://www.thecollector.com/pieter-bruegel-flemish-renaissance-master/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bruegel_britannica, src_bruegel_rijks, src_bruegel_rmfab, src_bruegel_collector | 1556-1569 | encyclopaedia, contemporary verse, museum publication, popular article] Britannica says that from 1556 he turned to satirical, didactic and moralising subjects in the fantastic manner of Bosch, that other artists were content with close imitation but his inventiveness lifted his designs above mere imitation, and that his landscapes and peasant scenes were new in the Low Countries; Lampsonius's 1572 verse calls him a second Bosch who surpasses his master and Ortelius, in the museum's quotation, calls him Nature among painters. The strongest praise comes from his circle and patrons, and a 1557 engraving after his drawing carries Bosch's name as inventor, which complicates attribution of the invention (the Collector suggests either a model by Bosch or a sales device). The row is limited to documented subject and style choices. SELF-CALIBRATION (agent): top-risk row; lowered from 64 / 0.52 to 60 / 0.48 because the strongest praise (Ortelius, Lampsonius) is from his patron and circle and the 'Bos. inventor' engraving shows his designs were also sold under Bosch's name."
+    },
+    "curiosity": {
+      "score": 56,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bruegel_britannica, src_bruegel_rmfab, src_bruegel_frick, src_bruegel_vanmander | 1552-1556 | encyclopaedia, museum publication and biography, near-contemporary biographer] Britannica and the Frick record an Italian journey of about 1552-54 on which he went on to southern Italy and crossed the Alps, producing Alpine drawings between 1553 and 1556 that Britannica calls almost without parallel for their rendering of high mountains (few were done on the spot; most are free compositions from sketched motifs); Van Mander, 35 years later, says he drew many views from life in the Alps. The RMFAB synopsis of Meganck's book (not read in full) argues that his interest extended to collecting, inspecting and imitating the artistic and natural world. Interest in landscape and nature is documented through the drawings, but nothing records his reasons, and Van Mander's remark that he 'swallowed the mountains' is legend and is not used."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bruegel_britannica, src_bruegel_rmfab, src_bruegel_frick | 1551-1569 | encyclopaedia, museum publication, museum biography] Britannica records that in Rome in 1553 he worked with the miniaturist Giulio Clovio (their joint miniature appears in Clovio's estate inventory), that the figures in his 1553 landscape 'Christ and the Apostles at the Sea of Tiberias' were probably painted by Maarten de Vos, and that he worked for Hieronymus Cock until his last years, designing for the print publisher; the RMFAB timeline adds work with Pieter Baltens on an altarpiece in 1551-52 and commissions from Brussels patrons and the city government. These are documented working partnerships, but they were normal workshop and publishing practice for a sixteenth-century painter and the sources say nothing about how he worked with others."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "대 피터르 브뤼헐"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/pieter-bruegel-wierix-1572.jpg",
+    "width": 752,
+    "height": 1200,
+    "source": "Engraving 'Portrait of the painter Pieter Brueghel', attributed to Johannes Wierix, Antwerp, 1572, number 19 in the series of portraits of famous painters of the Low Countries published after Dominicus Lampsonius's verses; Rijksmuseum, Amsterdam, object RP-P-1907-593, inscribed 'PETRO BRVEGEL, PICTORI'. A posthumous print made three years after the painter's death, not a portrait from life. Digital master 3672 x 5861 pixels; this copy downscaled to 752 x 1200 (never enlarged).",
+    "license": "Public Domain Mark 1.0 (Rijksmuseum item-level statement; the 1572 print is also public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Attributed to Johannes Wierix, 1572, Rijksmuseum, Amsterdam (RP-P-1907-593), public domain",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1907-593",
+    "creator": "Attributed to Johannes Wierix",
+    "date": "1572",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1907-593"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED, LEAD USED. Rijksmuseum print RP-P-1907-593, 'Portret van de schilder Pieter Brueghel (I)', engraving attributed to Johannes Wierix (Antwerp), 1572, number 19 in the series Pictorum aliquot celebrium Germaniae Inferioris effigies (Lampsonius), plate 203 x 124 mm, Hollstein Dutch 2031-2(4), part of the museum's collection of painters' portraits. LIVE RECORD OPENED: the museum's linked-art record at https://id.rijksmuseum.nl/200392106 (reached through data.rijksmuseum.nl search by object number; equivalent handle http://hdl.handle.net/10934/RM0001.COLLECT.332583) gives the title, the attribution 'attributed to Johannes Wierix', the production timespan 1572, the series and number, and a digital object whose rights statement is the Public Domain Mark (https://creativecommons.org/publicdomain/mark/1.0/); I did not rely on any Commons tag. The www.rijksmuseum.nl collection page itself was not opened. IDENTITY: the engraving's own inscription reads 'PETRO BRVEGEL, PICTORI' and the Rijksmuseum title names him; the verse beneath is Lampsonius's tribute. KIND historical_depiction: Bruegel died in 1569 and the engraving was made in 1572, so it is a posthumous print (possibly after a lifetime portrait that is not known); it cannot be called a documented sitting. RIGHTS BASIS: a 1572 print is public domain by age everywhere; the museum's own item-level statement is PDM. IMAGE: IIIF master 3672 x 5861 pixels from iiif.micr.io/XtNYw (the museum's image service named in the record), downscaled by this project to 752 x 1200 and saved as public/portraits/pieter-bruegel-wierix-1572.jpg; no upscaling. I viewed the result. The attribution to Wierix is the museum's ('attributed to'), so the creator is stated as such. PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q43270 label 'Pieter Brueghel the Elder', description 'Flemish painter (1526-1569)', conflicting birth values 1525/1520/1526, death 1569-09-09 or 05, Korean label 대 피터르 브뤼헐; not in prod63.txt and no candidate file existed; no other candidate contains Q43270. NAME/BIRTH: the project name 'Pieter Bruegel' follows the common Bruegel spelling; birth year 1525 follows Britannica ('c. 1525'), the Frick ('ca. 1525') and the lead's date; sources agree it is uncertain. REGION western_europe; nationality BE following the Vesalius and Mercator precedents for Flemish and Brabant subjects (he worked in Antwerp and Brussels); ERA early_modern. ZERO POLITICS: primary identity painter and print designer; the Dutch Revolt context, Granvelle's office and Brussels civic commissions are not scored and not mentioned in cards. VOCABULARY: occupation painter; field art; tag innovator; archetype creative_creator; impactDomains artistic, cultural, historical; all present in en.ts and ko.ts. KO NAME: Wikidata Korean label 대 피터르 브뤼헐. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Pieter Bruegel, the Elder' (https://www.britannica.com/biography/Pieter-Bruegel-the-Elder). READ: (1) Britannica article body, full; (2) Royal Museums of Fine Arts of Belgium press file (10-page PDF, text extracted and read); (3) The Frick Collection artist biography (short, full); (4) Karel van Mander's Life of Pieter Brueghel in the Schilder-Boeck (Dutch original on DBNL, folios 233r-234r, full chapter, read with the Dutch text); (5) the Rijksmuseum print record and its Latin verse; (6) TheCollector popular article (cross-check only). Six substantive sources plus Wikidata (the Frick entry and the press file are brief, so the profile is sparse by design). PERSPECTIVES: modern encyclopaedia, museum scholarship (RMFAB, Frick), a near-contemporary biographer (Van Mander, 1604), a contemporary humanist tribute (Lampsonius 1572, Ortelius epitaph via RMFAB), popular press. COUNTER-VOICES AND LIMITS: Britannica says little is known of his life; the Frick and TheCollector say birth date, birthplace and background are uncertain; Van Mander wrote 35 years later and mixes anecdote with fact; praise comes from his patron and circle; the 'Bos. inventor' inscription on the 1557 engraving complicates his originality; his contemporaries' praise is not independent behavioural evidence. NOT OPENED: the Met Heilbrunn essay and Met catalogue (Vercel bot checkpoint, HTTP 429), the National Gallery of Art artist page (403), Smarthistory (403), Sellink's catalogue raisonne, Guicciardini and Vasari (known only through the RMFAB timeline), Ortelius's epitaph (quoted by RMFAB only), the Kunsthistorisches Museum site (404), the Wikipedia reference to Icarus no longer being accepted as his (not used). LEGEND VERSUS RECORD: the disguised visits to peasant weddings, the 'swallowing the Alps' remark, the notched tally-stick story about a former partner, the nickname 'Pier den Drol', the pranks on his servants and the burned drawings all rest on Van Mander only and are NOT scored or used in cards. EXCLUDED: marriage and family (beyond the Coecke connection and the dynasty), religion, and any inference about political leanings. SPARSE PROFILE for a pre-modern subject: 3 rows, scores 52-60, confidence 0.40-0.48. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (64/0.52 lowered to 60/0.48, see row), curiosity (56/0.45 kept: Britannica and the Frick/RMFAB timeline independently document the Italian and Alpine journey and its drawings), collaboration (52/0.40 kept: low and documented). HANDBACK63: {\"slug\": \"pieter-bruegel\", \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"initial_lead\": \"Johannes Wierix (attributed) 1572 engraving, Rijksmuseum RP-P-1907-593\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam / engraving attributed to Johannes Wierix, 1572, RP-P-1907-593, https://id.rijksmuseum.nl/200392106 (https://www.rijksmuseum.nl/en/collection/RP-P-1907-593); IIIF master iiif.micr.io/XtNYw downscaled to 752x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 3, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 64, \"old_confidence\": 0.52, \"new_score\": 60, \"new_confidence\": 0.48, \"reason\": \"Strongest praise (Ortelius, Lampsonius) is from his patron and circle, and a 1557 engraving after his drawing was sold under Bosch's name as inventor\"}], \"reviewed_kept\": [\"curiosity\", \"collaboration\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 3}"
+  }
+}

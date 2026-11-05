@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hendrik-lorentz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hendrik Lorentz",
+    "aliases": [
+      "Hendrik Antoon Lorentz",
+      "H. A. Lorentz"
+    ],
+    "wikidataId": "Q41688",
+    "birthYear": 1853,
+    "deathYear": 1928,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "scholar"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "nobel_laureate"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lorentz_wikidata",
+      "kind": "wikidata",
+      "title": "Hendrik Lorentz (Q41688), verified live via the Wikidata API (2026-11-02): label 'Hendrik Lorentz', description 'Dutch physicist (1853-1928)', born 18 July 1853, died 4 February 1928, citizenship Netherlands, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41688"
+    },
+    {
+      "id": "src_lorentz_nobel",
+      "kind": "award_body",
+      "title": "'Hendrik A. Lorentz - Biographical', NobelPrize.org (Nobel Foundation biography, 1902 Physics), read in full. CANONICAL SIGNIFICANCE SOURCE: states that from the start he made it his task to extend Maxwell's theory of electricity and light, that the conception of the electron stems from him, that the 1904 Lorentz transformation explained the null result of the Michelson-Morley experiments and 'paved the way for Einstein's special theory of relativity', that he chaired the Zuiderzee committee on tidal movements, chaired every Solvay Congress until his death and helped start the Dutch applied-research organisation TNO, and calls him 'a man of immense personal charm'. Award-body biography: admiring, institutional, with no critical voice.",
+      "url": "https://www.nobelprize.org/prizes/physics/1902/lorentz/biographical/"
+    },
+    {
+      "id": "src_lorentz_britannica",
+      "kind": "biography",
+      "title": "'Hendrik Antoon Lorentz', Encyclopaedia Britannica, read in full: joint Nobel Prize for Physics 1902 with Pieter Zeeman; doctoral thesis 1875 refining Maxwell's theory; professor at Leiden from 1878; his central aim 'to construct a single theory to explain the relationship of electricity, magnetism, and light'; the electron theory and its confirmation by Zeeman in 1896; the local time idea of 1895 and the 1904 transformations; director of research at Teyler's institute in Haarlem from 1912 while lecturing weekly at Leiden. Encyclopedia overview; notes that the electron theory could not explain the Michelson-Morley result by itself.",
+      "url": "https://www.britannica.com/biography/Hendrik-Antoon-Lorentz"
+    },
+    {
+      "id": "src_lorentz_mactutor",
+      "kind": "biography",
+      "title": "'Hendrik Antoon Lorentz', MacTutor History of Mathematics Archive, University of St Andrews, read in full: biography with dated list of works (1892 and 1895 treatises on moving bodies, The Theory of Electrons 1909, Lessons on Theoretical Physics from 1919), the 1911 Solvay opening address welcoming Planck's quantum hypothesis as 'a wonderful ray of light', the statement that he 'never fully accepted quantum theory and always hoped' to bring it back into the classical approach, an obituary appreciation of his 'mental vivacity' in guiding discussion, and an account of his funeral. University history-of-mathematics archive; admiring, with the quantum reservation recorded.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lorentz/"
+    },
+    {
+      "id": "src_lorentz_berends",
+      "kind": "biography",
+      "title": "Frits Berends, 'Hendrik Antoon Lorentz: his role in physics and society', Journal of Physics: Condensed Matter 21 (2009) 164223, read in full: a history of Lorentz by a Leiden emeritus professor of theoretical physics, with dated episodes (appointment in 1878 to one of the first chairs of theoretical physics; his support for Kamerlingh Onnes's appointment and his taking over the latter's medical-student teaching for about twenty years; the 1896 Zeeman effect and his explanation of it; the 1904 transformation; chairing five Solvay conferences, with a 1911 letter from Kamerlingh Onnes praising his clarity and friendliness; the move to Haarlem in 1912 to keep one Monday lecture course; lectures on general relativity within about two years, matrix mechanics and Schroedinger's theory within a year of their appearance; the 1919 telegram to Einstein about the eclipse result; the Zuiderzee method for dyke heights; the 1925 jubilee and the funeral). Scholarly history by an institutional successor: well documented but admiring.",
+      "url": "https://doi.org/10.1088/0953-8984/21/16/164223"
+    },
+    {
+      "id": "src_lorentz_physicstoday",
+      "kind": "press",
+      "title": "Michael Eckert, 'A forgotten trailblazer', review of A. J. Kox and H. F. Schatz, 'A Living Work of Art: The Life and Science of Hendrik Antoon Lorentz' (Oxford, 2021), Physics Today, March 2022, read in full: a historian at the Deutsches Museum says the biography portrays Lorentz as a central figure of the Dutch and international physics communities, whose 'gift with languages, calm demeanor, and administrative skills' made him a 'linchpin', records that he chaired the first five Solvay Conferences and the Zuiderzee Commission from 1918 to 1926, and notes that the book contains no formulas and treats his scientific achievements in a single chapter. Independent review of a biography.",
+      "url": "https://aip.brightspotcdn.com/PTO.v75.i3.51_1.online.pdf"
+    },
+    {
+      "id": "src_lorentz_lowcountries",
+      "kind": "press",
+      "title": "'Between humans and atoms: H. A. Lorentz, spiritual father of Einstein', The Low Countries (2020), read in full: a review of two Dutch biographies (by Kox, and by Van Delft and Berends) that says Lorentz made no spectacular discoveries but is considered a pioneer of relativity, notes that he was 'never willing or able' to give up the ether as Einstein did and kept an ambivalent attitude to quantum mechanics, says he chaired the Solvay Councils because he was respected, multilingual and from a neutral country, credits him with insisting on including women in the Solvay institute and with being Leiden's first professor to supervise female doctoral students, and criticises both biographies because his personality 'does not come to life anywhere', calling him 'a bit boring' and 'aloof'. Independent critical review of the biographies; the most sceptical voice read.",
+      "url": "https://the-low-countries.com/article/between-humans-and-atoms-h-a-lorentz-spiritual-father-of-einstein"
+    },
+    {
+      "id": "src_lorentz_leiden",
+      "kind": "institution",
+      "title": "'Portret van Hendrik Antoon Lorentz, hoogleraar Theoretische natuurkunde te Leiden' (Icones 310), Icones Leidenses, Leiden University Libraries, item record and IIIF manifest read for the portrait review only: oil on canvas by Menso Kamerlingh Onnes (1860-1925), 1916, given by the sitter's family in 1931, with the rights statement 'The rights status of this resource is public domain'. Not used for any row.",
+      "url": "https://hdl.handle.net/1887.1/item:1581797"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lorentz_nobel, src_lorentz_berends, src_lorentz_lowcountries, src_lorentz_mactutor | 1875-1926 | award-body biography, scholarly history, critical review, university archive] The Nobel biography and Berends both document that he carried Maxwell's theory to its completed form as a theory of charged particles (the 'Maxwell-Lorentz theory'), and that his Zuiderzee calculations introduced a scientifically based method for dyke heights that held at the 1953 floods; the Nobel biography says the results of eight years of calculation were confirmed in practice. The Low Countries reviewer, a sceptic about his personality, still calls him 'a clear thinker' who could explain the most difficult things, and MacTutor quotes an obituary on his clarity of writing. The reviewer's reservation that he made no spectacular discoveries argues against a higher score. The strongest statements are praise written by his institutional successors. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 80 / 0.64 to 76 / 0.6 because the support is the Nobel Foundation biography and Leiden-side admiring histories, and no independent source assesses his working method."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lorentz_britannica, src_lorentz_berends, src_lorentz_nobel | 1875-1909 | encyclopedia, scholarly history, award-body biography] Britannica states that his central aim was a single theory explaining electricity, magnetism and light, and Berends documents how his thesis chose Maxwell's theory over rival undulation theories and set a research programme he carried out over decades, treating matter as particulate and adding the force law on moving charges; the Nobel biography says his work 'revolutionized contemporary conceptions of the nature of matter'. The row rests on the scholarly consensus about the structure of the electron theory rather than a specific documented working episode, and the Low Countries review notes that how he arrived at his ideas 'remains largely out of the picture'."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lorentz_berends, src_lorentz_physicstoday, src_lorentz_lowcountries, src_lorentz_nobel | 1881-1927 | scholarly history, review of a biography, critical review, award-body biography] Berends documents that he backed Kamerlingh Onnes's appointment at Leiden and took over his medical-student teaching for about twenty years so that the cryogenic laboratory could be built, chose Ehrenfest as his successor, exchanged letters with Einstein and Ehrenfest on general relativity, and sent Einstein the 1919 telegram about the eclipse result; the same history quotes Kamerlingh Onnes on the 1911 Solvay meeting that he led 'whenever there is any difference of opinion' with a 'pleasant, amicable' tone, and Physics Today and The Low Countries independently describe the chairmanship as a product of his language skills and calm temper, with the latter adding that he insisted on including women in the Solvay institute. SELF-CALIBRATION (agent): lowered from 76 / 0.64 because the specific acts come mainly from Leiden-side narrators (a former colleague's own letter, a Leiden successor, an award-body biography), and the independent reviews only echo the chairmanship."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lorentz_berends, src_lorentz_mactutor, src_lorentz_physicstoday | 1913-1927 | scholarly history, university archive, review] Berends documents that his Monday-morning lecture course covered practically all new developments in physics, that he lectured on Einstein's gravitation theory in 1913-14 while it was still being built, on matrix mechanics in 1925-26 and on Schroedinger's theory in 1927 when he was over seventy, and MacTutor records his Solvay opening address welcoming Planck's hypothesis. The evidence concerns his teaching and keeping up with others' theories; it does not show self-initiated lines of enquiry outside his main programme, so the row stays moderate."
+    },
+    "belief_updating": {
+      "score": 52,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lorentz_berends, src_lorentz_mactutor, src_lorentz_lowcountries | 1904-1927 | scholarly history, university archive, critical review] The sources record both directions: he congratulated Einstein within weeks of the final gravitation theory, understood it well enough to lecture on it, and welcomed Planck's quantum hypothesis at the 1911 Solvay conference, but Berends says he 'continued to accept the existence of the ether' after the next generation dropped it, MacTutor says he 'never fully accepted quantum theory', and The Low Countries says he was never willing or able to take Einstein's step on the ether. The mixed record points to a mid-range score with the cost shown in the impact."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "헨드릭 로런츠"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hendrik-lorentz-kamerlingh-onnes-1916.jpg",
+    "width": 963,
+    "height": 1200,
+    "source": "Portrait painting (oil on canvas, signed and dated 1916) of Hendrik Lorentz by Menso Kamerlingh Onnes (1860-1925), Icones Leidenses, Leiden University Libraries (Icones 310), given by the sitter's family in 1931. The Leiden University Libraries item record and its IIIF manifest state 'The rights status of this resource is public domain' (Public Domain Mark), and the painter died in 1925. Downloaded from the library's IIIF image service at its full available size (1024 x 1276 pixels) and downscaled only, to 963 x 1200; no upscaling. The picture includes its frame with the Latin inscription naming Lorentz.",
+    "license": "Public domain (Leiden University Libraries Public Domain Mark); painter died 1925",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Menso Kamerlingh Onnes, Portrait of Hendrik Antoon Lorentz, 1916, oil on canvas, Icones Leidenses, Leiden University Libraries (Icones 310), public domain",
+    "attributionUrl": "https://hdl.handle.net/1887.1/item:1581797",
+    "creator": "Menso Kamerlingh Onnes",
+    "date": "1916",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://hdl.handle.net/1887.1/item:1581797"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED with one correction: the lead described the 1916 Menso Kamerlingh Onnes item as a photograph, but the Leiden University Libraries record shows it is an oil painting (olieverf op doek, 73.5 x 61 cm, signed and dated 1916), so the file is classified as a painted depiction, not a photographic likeness. The holder's own item record (read through its IIIF manifest because the viewer pages are captcha-blocked) states the Public Domain Mark; the painter (1860-1925) died in 1925; the Commons copy of the same picture is tagged PD-old-auto-1996 (Netherlands, death 1925), consistent with the holder. A 2022 Physics Today caption credits the same image to 'Leiden University Libraries / CC BY 4.0', a different and also permissive statement; the holder's item-level Public Domain Mark was followed, the attribution is given anyway. Image downloaded from the holder's IIIF service at 1024 x 1276 (its full available size), opened and viewed (an elderly bearded man with round spectacles in a dark suit and bow tie, formulas on the background, signature M. Kamerlingh Onnes 1916), downscaled only to 963 x 1200. Hence portrait_lead_or_replacement 'lead' (same picture from the holder).\nPREFLIGHT: QID VERIFIED LIVE (2026-11-02) Q41688 label 'Hendrik Lorentz', description 'Dutch physicist (1853-1928)', born 1853-07-18, died 1928-02-04, citizenship Netherlands, Korean label present; not in prod63.txt and no candidate file existed. Region western_europe (Netherlands), nationality NL, era 20th_century (Nobel 1902, 1904 transformation, Solvay 1911-1927; precedent max-planck). ZERO POLITICS: his League of Nations Committee on Intellectual Cooperation presidency and his post-war effort to readmit German and Austrian scientists are diplomacy-adjacent and are neither scored nor carded; the Zuiderzee Commission is an engineering advisory role and appears only in one achievement card without any political content. VOCABULARY: occupations physicist and scholar, field physics, tags theorist and nobel_laureate, archetypes scientific_explorer and scholarly_specialist, impact domains scientific and historical; all grepped in en.ts and ko.ts. KO NAME: Wikidata Korean label.\nCANONICAL SIGNIFICANCE SOURCE: 'Hendrik A. Lorentz - Biographical', NobelPrize.org (https://www.nobelprize.org/prizes/physics/1902/lorentz/biographical/).\nREAD: Nobel biography (full), Britannica (full), MacTutor (full), Berends 2009 (full, 8 pages), Physics Today review of Kox and Schatz (full), The Low Countries review of the two Dutch biographies (full). Six substantive sources plus the Wikidata and Leiden portrait records. PERSPECTIVES: award-body biography, encyclopedia, university history archive, scholarly history by a Leiden successor, independent historian's review of a biography, a sceptical review of two biographies. COUNTER-VOICES: The Low Countries (aloof, 'a bit boring', no spectacular discoveries, ether and quantum reservations), MacTutor and Berends (ether retained, quantum theory never fully accepted). NOT OPENED: the Kox and Schatz and Van Delft and Berends biographies themselves, Einstein's funeral oration (the Einstein Papers site is script-rendered and could not be read), the Nobel lecture, Lorentz's correspondence, and the Dutch-language archives; the priority literature on Lorentz, Poincare and Einstein was not opened, so no row speaks to it. EXCLUSIONS: family and wife's papers, health, the funeral as a tribute, and the League of Nations committee are not scored. Sparse by design: five rows, none above 80 or 0.64; no row relies on a single anecdote.\nSELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS. Card 1 states the electron theory and Nobel Prize, card 2 the Lorentz transformations and their place before relativity, card 3 the Solvay chairmanship and Zuiderzee calculations.\nSELF-CALIBRATION (agent): reviewed analytical_rigor, collaboration, systems_abstraction; lowered collaboration 76/0.64 to 72/0.58 (reason in row).\nHANDBACK63: {\"slug\":\"hendrik-lorentz\",\"portrait_preflight_grade\":\"STRONG (lead-robust)\",\"initial_lead\":\"1916 photograph by Menso Kamerlingh Onnes, Icones Leidenses, Leiden University Libraries\",\"final_portrait_source\":\"Leiden University Libraries, Icones Leidenses (Icones 310), Menso Kamerlingh Onnes, oil portrait of Lorentz, 1916, Public Domain Mark, https://hdl.handle.net/1887.1/item:1581797 (IIIF image service)\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"collaboration\",\"old_score\":76,\"old_confidence\":0.64,\"new_score\":72,\"new_confidence\":0.58,\"reason\":\"specific acts come mainly from Leiden-side narrators and the independent reviews only echo the chairmanship\"}],\"reviewed_kept\":[\"analytical_rigor\",\"systems_abstraction\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5} RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 80 / 0.64 to 76 / 0.6 because the support is the Nobel Foundation biography and Leiden-side admiring histories, and no independent source assesses his working method."
+  }
+}

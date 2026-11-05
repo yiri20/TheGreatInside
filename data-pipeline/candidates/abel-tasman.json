@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "abel-tasman",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Abel Tasman",
+    "aliases": [
+      "Abel Janszoon Tasman",
+      "Abel Jansen Tasman"
+    ],
+    "wikidataId": "Q42188",
+    "birthYear": 1603,
+    "deathYear": 1659,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "navigator"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tasman_wikidata",
+      "kind": "wikidata",
+      "title": "Abel Tasman (Q42188), verified live via the Wikidata API (2026-11-02): label 'Abel Tasman', description 'Dutch seafarer, explorer and merchant (1603-1659)', born 1603 (year precision), died 1659-10-10, Korean label 아벌 타스만, citizenship the Dutch Republic. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q42188"
+    },
+    {
+      "id": "src_tasman_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Abel Tasman' (Helen Margaret Wallis, former Map Librarian of the British Library), read in full. CANONICAL SIGNIFICANCE SOURCE: a Dutch navigator in the service of the Dutch East India Company who in 1642-43 was the first European to sight Tasmania, New Zealand, Tonga and Fiji and, having sailed round Australia without seeing it, showed that it was separate from a hypothetical southern continent; his earlier career (a 1634 voyage to Ceram, the 1639 search under Quast for islands of gold and silver east of Japan, trading voyages), the council of officers of 5 December 1642 that decided against further investigation and so missed Bass Strait, a 10-month voyage on which only 10 men died of illness, the company council's finding that he had been negligent in investigating the lands he found, and the 1644 voyage that disappointed the company by revealing no lands of wealth. Reference article; includes the company's critical judgement.",
+      "url": "https://www.britannica.com/biography/Abel-Tasman"
+    },
+    {
+      "id": "src_tasman_adb",
+      "kind": "biography",
+      "title": "J. W. Forsyth, 'Tasman, Abel Janszoon (1603-1659)', Australian Dictionary of Biography, volume 2 (Melbourne University Press, 1967; read from the 2016 Wayback copy of adb.anu.edu.au), read in full: born near Groningen, became first mate and skipper in 1634 and survived a landing at Ceram in which companions were killed, 'treated as one of the most reliable skippers', second-in-command to Quast in 1639, commanded the 1642 voyage and the 1644 voyage and was confirmed commander with higher pay and a seat on the Batavia Council of Justice, a mission to Siam in 1647, the 1648 fleet whose conduct was 'unsatisfactory' and the 1649 proceedings for treating a sailor barbarously that cost him his office until reinstatement in 1651, later a merchant in Batavia; the author calls him a brave and energetic mariner and a humane and cautious explorer, over-hasty on one occasion, and notes that both supposed portraits of him are doubtful. Scholarly dictionary entry; mixed assessment.",
+      "url": "https://adb.anu.edu.au/biography/tasman-abel-janszoon-2716"
+    },
+    {
+      "id": "src_tasman_teara",
+      "kind": "institution",
+      "title": "Te Ara, the Encyclopedia of New Zealand (Ministry for Culture and Heritage), 'European discovery of New Zealand', page 3, 'Tasman's achievement' (read from the 2012 Wayback copy): Tasman called the land Staten Landt, Blaeu later named it Nieuw Zeeland, the 1644 voyage was confined to the north coast of Australia and south of New Guinea, the Dutch never followed up the discovery because no profitable land was found, his New Zealand was 'only a ragged line' on the map, no European before him had sailed south of 27 degrees between eastern Australia and the Juan Fernandez Islands and he had proved Australia was not part of a larger continent, and Beaglehole's remark that New Zealand played but a small part in his life and he in its history. National encyclopaedia with a measured assessment.",
+      "url": "https://teara.govt.nz/en/european-discovery-of-new-zealand/3"
+    },
+    {
+      "id": "src_tasman_nzgeo",
+      "kind": "press",
+      "title": "Vaughan Yarwood, 'Abel Tasman', New Zealand Geographic issue 72 (March-April 2005), read in full: a humble-born skipper who rose to be one of the company's most respected; the 1634 Ceram fight and the governor's criticism of carelessness; the 1639 Quast voyage in which 41 of 90 men died; being called a 'painstaking, helpful and highly experienced skipper' and the pay rise after surviving a storm in 1641; the council of eleven of 13 December 1642 that took a cautious line; the December 1642 Murderers' Bay clash in which four of the Zeehaen's men were killed; his map omitting Cook Strait; the company's regret at his hasty and superficial exploration and its wish for a more inquisitive successor; the Batavia council's frustration at the 1644 voyage; the 1648 Philippines expedition after which he was accused, while drunk, of trying to hang two men, tried, stripped of rank, fined and reinstated eleven months later; and the closing assessment that he was not a particularly conscientious explorer yet an experienced seaman whose crews never mutinied and rarely died of disease, and that Cook had better technology and was not bound by the Dutch system of collective decision making. Magazine feature by a NZ historian; the most critical and detailed source read.",
+      "url": "https://www.nzgeo.com/stories/abel-tasman/"
+    },
+    {
+      "id": "src_tasman_burney",
+      "kind": "archive",
+      "title": "James Burney, 'A Chronological History of the Voyages and Discoveries in the South Sea or Pacific Ocean', (London, 1803-17; Project Gutenberg Australia text), chapter 4, 'The Voyage of Captain Abel Jansen Tasman in the Year 1642', passages read: Burney's English rendering of Tasman's own 1642 journal, including the 5 December council that resolved to keep an eastward course, the order of 26 November fixing the longitude to be used in both ships' journals, the Murderers' Bay attack in which three men of the Zeehaen were killed and the decision to weigh anchor without friendly contact, and Burney's remark that the intention of the 1644 voyage to penetrate the South Sea does not appear to have been fulfilled. The journal is Tasman's own report (self-report, a fair copy read through an eighteenth-century editor), so it is used only for what he records himself doing, never as sole support.",
+      "url": "https://gutenberg.net.au/ebooks06/0600611.txt"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 38,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tasman_britannica, src_tasman_nzgeo, src_tasman_burney, src_tasman_teara | 1642-1644 | encyclopaedia, magazine history, Tasman's own journal, national encyclopaedia] On the 1642 voyage a council on 5 December decided against further investigation of Van Diemen's Land (so Bass Strait was missed), at Staten Landt (New Zealand) the officers resolved not to land unless a sheltering bay appeared, and after the Murderers' Bay attack he weighed anchor without further contact; the company later regretted his hasty and superficial exploration, and the Batavia council complained that on the 1644 voyage the men had done nothing beyond sailing along the coast. Yarwood and Britannica also record that only about ten men died of illness on the 1642-43 voyage, so caution was bought at some cost to discovery and some gain to the crews. Several of these decisions were made by councils under company instructions, so the row reads documented cautious command choices, not a personal disposition."
+    },
+    "curiosity": {
+      "score": 40,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "[src_tasman_britannica, src_tasman_nzgeo, src_tasman_teara | 1643-1644 | encyclopaedia, magazine history, national encyclopaedia] Britannica says the company council judged him negligent in investigating the lands he found; Yarwood quotes the company's regret at his 'hasty and superficial' exploration and calls him not a particularly conscientious explorer; Te Ara says the Dutch did not follow up and his New Zealand was only a ragged line on the map. The sources consistently describe limited follow-through in exploring what he found, but the judgements come from an employer with commercial aims and from later historians, Yarwood adds that technology and the Dutch system of collective decision making shared the blame, and no source reports his own motives. SELF-CALIBRATION (agent): top-risk row; confidence lowered from 0.50 to 0.42 (score kept at 40) because the criticism comes mainly from the commercial employer and later historians and the sources themselves share the blame with technology and collective decision making."
+    },
+    "collaboration": {
+      "score": 54,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tasman_burney, src_tasman_nzgeo, src_tasman_britannica | 1642-1644 | Tasman's own journal, magazine history, encyclopaedia] His journal records assembling the council of officers to decide course (5 December 1642) and a council of eleven officers from both ships on 13 December is described by Yarwood; he sent his chief pilot Visscher ashore and shared the work with the pilot and merchants; Yarwood says his crews were willing to sail under him repeatedly, never mutinied and rarely died of disease. Councils were required by the Dutch East India Company's system of collective decision making, so consulting officers is partly institutional and the row is modest; the 1649 proceedings over his treatment of a sailor point the other way and are scored under discipline."
+    },
+    "discipline": {
+      "score": 48,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tasman_adb, src_tasman_nzgeo, src_tasman_britannica | 1634-1651 | scholarly dictionary, magazine history, encyclopaedia] The Australian Dictionary of Biography calls him one of the most reliable skippers and says he commanded the company's most ambitious voyages; Yarwood quotes the company's description of him as a painstaking, helpful and highly experienced skipper, and notes he brought an unsound ship through a storm in 1641. Against this, the ADB says his 1648 Philippines command was 'unsatisfactory' and that in 1649 proceedings were taken against him for barbaric treatment of a sailor when inflamed by liquor, leading to removal from office until 1651, and Yarwood says he was found guilty after being accused of trying to hang two men while drunk. The two accounts differ in detail (one sailor against two men) and no trial record was read, so the row is a modest inference that balances reliability at sea against one documented lapse in command conduct."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아벌 타스만"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No portrait of Abel Tasman with a positively identified sitter and a verified rights basis was found. The usual image, the c.1637 Jacob Gerritsz Cuyp family portrait in the National Library of Australia, is public domain by age but its sitters are disputed (the Australian Dictionary of Biography speaks of 'supposed portraits', Cambridge University Library of 'alleged likenesses', and a 2019 article by Rudiger Mack questions whether it shows Tasman), so it cannot be shown as his portrait. The only single-figure alternative, an undated print c.1850 on Wikimedia Commons credited to the State Library of New South Wales with an unknown author, has no institutional record that could be opened. Next step: read Mack's 2019 article for an accepted likeness, or find a dated, institution-held print of Tasman with a catalogue record naming the printer, date and caption."
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / HELD: NO RIGHTS-CLEAR AND IDENTITY-SOUND PORTRAIT FOUND. The lead was the Jacob Gerritsz Cuyp c.1637 family portrait 'Portrait of Abel Tasman, his wife and daughter' (National Library of Australia, nla.pic-an2282370 / nla.obj-138417248), which is public domain by age as a painting. It fails on IDENTITY, not rights: the Commons file page for the cropped single-figure detail states that 'the provenance of the portrait is disputed and it is unclear whether it depicts Tasman' (citing Rudiger Mack, 'New light on the portraits of Abel Tasman', The Great Circle 41(2), 2019); the Australian Dictionary of Biography entry I read says there are only 'two supposed portraits of him'; New Zealand Geographic (Yarwood, read) says the family portrait is 'said to be' of Tasman; and Cambridge University Library's Royal Commonwealth Society catalogue (GBR/0115/RCS/RCMS 278/18, read) describes a 1965 'survey of alleged likenesses of the navigator'. A web search summary also reported that a NZ History page says a leading Netherlands art historian found the sitters to be an unknown Dutch family; I could not open nzhistory.govt.nz (HTTP 403), so I treat that as unverified. The NLA item page itself is behind a bot-protection challenge (Anubis), and the NGA conservation page the Commons file cites returns 404. Presenting a group portrait of disputed sitters as Tasman would breach the brief (sitter must be positively identified by the holder AND supported). ALTERNATIVES CHECKED (bounded retry, about 12 calls): (a) Commons 'Abel Tasman Navigateur en Australie.jpg' / '(cropped)': an undated print c.1850 with author unknown and source given only as 'State Library of New South Wales', no accession number or record that I could open (a web search of State Library of NSW holdings found no matching record), Commons tag PD-old-70 with uncertain date: rejected as unverifiable provenance; (b) Rijksmuseum search 'Abel Tasman' returned only the 19th-century steel engraving of the arrival of Tasman's ships in New Zealand (BI-1997-1407B-19), a scene and not a portrait; (c) Archives New Zealand 'Tasman, Abel Janszoon' (c.1900-1947, photographer not identified) is a photograph of a statue or monument and carries a CC BY 2.0 notice, rejected as a derivative image of a sculpture; (d) Commons 'Abel Tasman (2).jpg' is a modern phone photograph of a monument. No other single-sitter 17th-century engraving of Tasman is known to Commons or Rijksmuseum. NEXT STEP: obtain Mack's 2019 article (JSTOR 26910735) or the NLA catalogue note to learn whether any image is accepted as a true likeness, or find an institution-held print of Tasman (for example a 19th-century book plate with a Commons or institutional page giving printer, date and caption); if one exists, use kind historical_depiction. Status stays evidence_approved with portrait.status held. PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q42188 label 'Abel Tasman', description 'Dutch seafarer, explorer and merchant (1603-1659)', born 1603 (year), died 1659-10-10, Korean label 아벌 타스만; not in prod63.txt and no candidate file existed; no other candidate contains Q42188. REGION western_europe (Dutch; Dutch precedents such as Rembrandt); ERA early_modern; nationality NL. ZERO POLITICS / MILITARY: primary identity navigator and explorer for a trading company; his 1648 Philippines fleet (a war fleet against the Spaniards), the 1647 Siam mission and company or colonial aims are not scored and not mentioned in cards; the Murderers' Bay clash and the 1634 Ceram fight are described in sources but are not used as rows. VOCABULARY: occupations explorer, navigator; field exploration; tag explorer; archetype scientific_explorer; impactDomains historical, scientific; all present in en.ts and ko.ts. KO NAME: Wikidata Korean label 아벌 타스만 (the standard Korean Wikipedia title uses the same transliteration). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Abel Tasman' (https://www.britannica.com/biography/Abel-Tasman). READ: (1) Britannica, full; (2) Australian Dictionary of Biography, J. W. Forsyth, full (Wayback copy of the 2016 page, because adb.anu.edu.au returned 403); (3) Te Ara 'European discovery of New Zealand' page 3 (2012 Wayback copy; the live Te Ara biography was Cloudflare-blocked); (4) New Zealand Geographic, Vaughan Yarwood, full; (5) James Burney's History (Gutenberg Australia text of 117,000 characters; the 1642 journal chapter and the 1644 note read, other chapters not); (6) Cambridge University Library catalogue entry on Tasman's portraiture (read for the portrait question only). Five substantive sources plus Wikidata, at the low end because the sparse pre-modern profile is thin by nature. PERSPECTIVES: encyclopaedia, a scholarly dictionary, a national encyclopaedia, a magazine historian, and Tasman's own journal (self-report). COUNTER-VOICES AND LIMITS: the company council's own criticism (negligent investigation, hasty and superficial exploration, 1644 frustration) reported by Britannica and Yarwood; the ADB's finding of unsatisfactory conduct in 1648; Te Ara's 'ragged line' assessment. NOT OPENED: Tasman's own journal in the Heeres 1898 edition, Sharp's 'The Voyages of Abel Janszoon Tasman' (1968), Mack's 2019 portrait article, Dutch sources (Huygens Biografisch Woordenboek page was 404), the SLNSW Tasman Map page (opened, no biography), NZ History (HTTP 403). EXCLUDED: personal life (marriages, daughter), religion, the 1649 allegation that he was 'inflamed by liquor' is used only as a documented professional-conduct finding under discipline and not as inference about habits or character, and the suspicion that he sought gold (Yarwood: 'some have suspected') is not scored. SPARSE PROFILE for a pre-modern subject: 4 rows, scores 38-54, confidence 0.42-0.50. SELF-CALIBRATION (agent): top-risk rows reviewed: curiosity (40/0.50 lowered to 40/0.42, see row), discipline (48/0.42 kept: the 1649 episode is reported by two independent sources and already balanced against praise), risk_tolerance (38/0.50 kept: several independent sources describe the same cautious decisions). HANDBACK63: {\"slug\": \"abel-tasman\", \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"initial_lead\": \"Jacob Gerritsz Cuyp c.1637 family portrait of Tasman, wife and daughter (National Library of Australia)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The lead assumed the group portrait only needed cropping or single-sitter identification, but the identification of the sitters as Tasman and family is itself disputed in the literature (ADB 'supposed portraits', Cambridge UL 'alleged likenesses', Mack 2019 via Commons), and the NLA and NGA pages were bot-blocked or dead; the alternative single-figure c.1850 print has no openable institutional record; no 17th-century engraved portrait of Tasman exists in Commons or the Rijksmuseum.\", \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"curiosity\", \"old_score\": 40, \"old_confidence\": 0.5, \"new_score\": 40, \"new_confidence\": 0.42, \"reason\": \"The criticism comes mainly from the commercial employer and later historians, and the sources share the blame with technology and the VOC's collective decision making\"}], \"reviewed_kept\": [\"discipline\", \"risk_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

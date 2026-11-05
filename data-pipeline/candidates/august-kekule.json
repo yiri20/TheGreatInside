@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "august-kekule",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "August Kekulé",
+    "aliases": [
+      "Friedrich August Kekulé von Stradonitz",
+      "August Kekule",
+      "Kekulé von Stradonitz"
+    ],
+    "wikidataId": "Q76784",
+    "birthYear": 1829,
+    "deathYear": 1896,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "scholar"
+    ],
+    "fieldIds": [
+      "chemistry"
+    ],
+    "impactDomains": [
+      "scientific",
+      "industrial"
+    ],
+    "tagIds": [
+      "theorist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kekule_wikidata",
+      "kind": "wikidata",
+      "title": "August Kekulé (Q76784), verified live via the Wikidata API (2026-11-02): label 'August Kekulé', description 'German organic chemist (1829-1896)', born 7 September 1829, died 13 July 1896, citizenship Germany, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q76784"
+    },
+    {
+      "id": "src_kekule_britannica",
+      "kind": "biography",
+      "title": "'August Kekule von Stradonitz', Encyclopaedia Britannica, read in full. CANONICAL SIGNIFICANCE SOURCE: says he 'established the foundation for the structural theory in organic chemistry'; his most important single contribution was the structural theory of organic composition (articles of 1857 and 1858, the Lehrbuch der organischen Chemie from 1859) in which tetravalent carbon atoms link into chains, that Couper published a substantially similar theory nearly simultaneously and Butlerov expanded it but that 'it was predominantly Kekule's ideas that prevailed'; that his 1865 cyclic benzene proposal was 'much contested but was never replaced by a superior theory' and gave the scientific basis for the expansion of the German chemical industry; his posts at Heidelberg (1856), Ghent (1858, teaching in French) and Bonn (full professor from 1867); that he led research groups at Ghent and Bonn and declined Liebig's Munich chair in favour of his first doctoral student Adolf von Baeyer; and that the dream stories he told in 1890 have been contested. Admiring in tone; the dream caveat is the only critical note.",
+      "url": "https://www.britannica.com/biography/August-Kekule-von-Stradonitz"
+    },
+    {
+      "id": "src_kekule_shi",
+      "kind": "institution",
+      "title": "'August Kekule and Archibald Scott Couper', Scientific Biographies, Science History Institute, read in full: says Kekule and Couper independently recognised in 1858 that carbon atoms link directly to form chains, that his 1857 theory of tetravalent carbon underlay the finding, that he trained at Giessen under Liebig after intending to become an architect, worked as assistant in France, Switzerland and England, taught at Heidelberg, Ghent and Bonn where he 'oversaw the establishment of a chemical institute', was 'a good lecturer, well liked by his many students', wrote his textbook, and told much later of the omnibus and Ghent fireside daydreams ('As he told the story much later'); records that Couper's paper was presented to the French Academy a few weeks after Kekule's was published. Institutional biography; modest in tone and careful to mark the dreams as later reminiscence.",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/august-kekule-and-archibald-scott-couper/"
+    },
+    {
+      "id": "src_kekule_ewb",
+      "kind": "biography",
+      "title": "'Kekule, Friedrich August', Encyclopedia of World Biography, via Encyclopedia.com, read in full: says he was 'not a master experimentalist' but 'an inspired pedagogue' whose mind was keyed to theory and to the architecture of organic molecules, that he grasped tetravalency and the linking of carbon into long chains, that his Paris, London, Heidelberg, Ghent and Bonn years followed an initial architecture course at Giessen, and that his students came from all over Europe and went on to lead professorships and industrial laboratories; quotes his own 1890-style account of the snake image; cites Anschuetz's 1929 biography as the definitive study. Reference biography; admiring, partly a retelling of his own account.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/friedrich-august-kekule"
+    },
+    {
+      "id": "src_kekule_lindahall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'August Kekule', Scientist of the Day, Linda Hall Library, read in full: explains the benzene problem and the ring proposal of 1862 (published 1865), says his fame in the history of science rests on the 1890 account of the daydream of a snake biting its tail, that 'most historians see no reason to doubt it' because it came from his own mouth before his peers, but that 'others, however, are skeptical' and wonder whether he was buttressing a claim to priority for the ring. Institutional science-library essay; the neutral voice on the dream controversy.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/august-kekule"
+    },
+    {
+      "id": "src_kekule_gdch",
+      "kind": "institution",
+      "title": "Guenter Paulus Schiemenz, 'Das Hexagon, das Tetraeder und Legenden um August Kekule', Mitteilungen der Fachgruppe Geschichte der Chemie, Gesellschaft Deutscher Chemiker (1989), read in part (the sections on the 1890 Benzolfest and the snake and Ouroboros legends; the tetrahedron section was not read): a critical history-of-chemistry article, in German, arguing that later writers built the Ouroboros, Slavic-imagination and murder-trial-ring explanations for the snake image on repetition without support in Kekule's own words, quoting Wotiz's doubt that the printed 1890 speech text is fully authentic, and noting that Kekule's biographer Anschuetz, not Kekule, linked the 1850 trial ring to the later vision, 'with all caution', as a pure possibility. Used as the critical voice that the dream story is not a firm basis for scoring.",
+      "url": "https://en.gdch.de/fileadmin/downloads/Netzwerk_und_Strukturen/Fachgruppen/Geschichte_der_Chemie/Mitteilungen_Band_03/1989-03-05.pdf"
+    },
+    {
+      "id": "src_kekule_smithsonian",
+      "kind": "institution",
+      "title": "'Portrait of August Kekule (1829-1896), Chemist', Scientific Identity: Portraits from the Dibner Library of the History of Science and Technology, Smithsonian Institution Libraries (SIL14-k001-07), Smithsonian Flickr Commons record read for the portrait review only: unidentified photographer, 11.9 x 8.2 cm, dated 'prior to 1896', rights statement 'No known copyright restrictions'. Not used for any row.",
+      "url": "https://www.flickr.com/photos/smithsonian/2551806520/"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kekule_britannica, src_kekule_shi, src_kekule_ewb | 1857-1865 | encyclopedia, institutional biography, reference biography] Three sources agree that his central achievement was a structural scheme for organic molecules: tetravalent carbon atoms linking into chains and skeletons to which other atoms attach, written up in a four-volume textbook, and then a cyclic structure for benzene that Britannica says was 'never replaced by a superior theory'. The Encyclopedia of World Biography adds that his mind was 'keyed to the problems of theory' and that he was not a master experimentalist. Britannica and the Science History Institute both record that Couper and Butlerov reached related structural ideas, which limits how much is unique to him, and the sources are overview accounts, not working records. RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 76 / 0.6 to 72 / 0.56 because the evidence is the retrospective significance of the structural theory in encyclopedia and institutional biographies, and the priority with Couper is shared."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kekule_britannica, src_kekule_shi, src_kekule_lindahall, src_kekule_gdch | 1857-1890 | encyclopedia, institutional biography, library essay, history-of-chemistry article] Britannica credits him with 'one of the most fruitful scientific imaginations of any scientist of his day' and with a ring structure for benzene that was contested but never superseded, but it also records that Couper published a substantially similar chain theory nearly simultaneously. The famous dream account is a self-report delivered thirty years later whose dating and even existence are contested (Britannica, Linda Hall, and Schiemenz, who also questions the printed text of the speech), so it is not used. SELF-CALIBRATION (agent): lowered from 74 / 0.60 because the strongest originality claims rest on a retrospective self-account that scholars dispute and on a priority position shared with Couper and Butlerov."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kekule_britannica, src_kekule_shi, src_kekule_ewb | 1847-1867 | encyclopedia, institutional biography, reference biography] All three sources describe a path across fields and countries: from an architecture course to chemistry after hearing Liebig, assistant posts in Paris, Switzerland and London, a lectureship at Heidelberg, a chair at Ghent where he taught in French, and a chair at Bonn; Britannica notes that he had complete mastery of English and French. The evidence is a sequence of moves described in summary, not behaviour under difficulty, so the row stays moderate."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kekule_britannica, src_kekule_shi, src_kekule_ewb | 1858-1896 | encyclopedia, institutional biography, reference biography] Britannica says he led a significant research group of advanced students, postdoctoral workers and junior colleagues at Ghent and Bonn and took charge of a large new laboratory; the Science History Institute says he oversaw the establishment of a chemical institute at Bonn; the Encyclopedia of World Biography says his students went on to hold leading professorships and head industrial laboratories. Britannica also records that he declined the Munich chair after Liebig and proposed his student Baeyer. The sources describe institutional roles and outcomes rather than how he led, so the score is held near the middle."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아우구스트 케쿨레"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/august-kekule-unknown-photographer-pre1896.jpg",
+    "width": 896,
+    "height": 1200,
+    "source": "Portrait photograph of August Kekule by an unidentified photographer, a print 11.9 x 8.2 cm dated by the holder 'prior to 1896', in Scientific Identity: Portraits from the Dibner Library of the History of Science and Technology, Smithsonian Institution Libraries (SIL14-k001-07), published on the Smithsonian Flickr Commons stream with the statement 'No known copyright restrictions'. The page carries the printed caption 'August von Kekule' and his signature, which identifies the sitter, and the picture is a printed plate, so it is a reproduction of a photograph from before his death. The basis is age: it was made no later than 1896 by a photographer who is not known, so any copyright term (a few decades after publication for an anonymous work in Germany, at most 120 years from creation in the United States) ended before 1996, and no restoration applies. The file is the Wikimedia Commons copy of the Smithsonian upload (original 2032 x 3074 pixels), cropped to the oval portrait and downscaled only, to 896 x 1200; no upscaling.",
+    "license": "Public domain by age (made before 1896, photographer unknown); Smithsonian Libraries: no known copyright restrictions",
+    "licenseUrl": "https://www.flickr.com/photos/smithsonian/2551806520/",
+    "attribution": "Unidentified photographer, Portrait of August Kekule, before 1896, Dibner Library Scientific Identity portraits, Smithsonian Institution Libraries (SIL14-k001-07)",
+    "attributionUrl": "https://www.flickr.com/photos/smithsonian/2551806520/",
+    "creator": "Unidentified photographer",
+    "date": "before 1896",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.flickr.com/photos/smithsonian/2551806520/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / REPLACED: the lead's Science History Institute 'portrait of Kekule (CC BY 4.0)' could not be found as a portrait record; the Institute's digital collection holds only Jerry Allison's 1981 oil painting of Kekule in a Ghent classroom (a modern scene with other figures, marked public domain by the Institute but a twentieth-century artwork, so rejected as a scene and as a modern work) and its biography page uses a photograph of Heinrich von Angeli's 1890 portrait with no rights statement. The Bonn University Library 1872 and 1857 photographs on Commons are group scenes (Bonn laboratory staff, Bunsen's Heidelberg table), and the library pages are behind a browser check; the single-sitter Bonn photograph of 1873 has an unknown photographer and only a generic Commons PD tag and could not be checked at the holder. Heinrich von Angeli's 1890 oil portrait (Alte Nationalgalerie, A I 449; painter died 1925) is public domain by age, but the museum's own digital record credits its photograph 'CC BY-NC-SA' (Joerg P. Anders) and the Commons copy is a 437 x 600 pixel scan of unverified origin, so it was not used. The Deutsches Museum digital catalogue photographs (stated CC BY-SA 4.0) could not be opened (the site was in maintenance). The photograph used is the Smithsonian Libraries Dibner portrait: an item-level date 'prior to 1896' from the holder (read on the live Flickr Commons page, Creator/Photographer 'Unidentified photographer', 11.9 x 8.2 cm) and the holder's statement 'No known copyright restrictions'; because the basis is the item's age (not the generic statement alone), it is accepted, with the caveat that the photographer is unknown and the original book or album from which the print comes was not identified. It is a different image from the lead's, so portrait_lead_or_replacement is 'replacement'. Image downloaded from Commons (the Smithsonian upload, 2032 x 3074), opened and viewed (an elderly bearded man in an oval, caption 'August von Kekule' and signature on the plate), cropped and downscaled only to 896 x 1200. About 15 portrait calls were used.\nPREFLIGHT: QID VERIFIED LIVE (2026-11-02) Q76784 label 'August Kekule', description 'German organic chemist (1829-1896)', born 1829-09-07, died 1896-07-13, citizenship Germany, Korean label present; not in prod63.txt and no candidate file existed. Region western_europe (Germany; precedents max-planck and wilhelm-rontgen), nationality DE, era 19th_century. ZERO POLITICS: none. PRIVATE LIFE: his marriages, bereavement and ennoblement in 1895 appear in the sources and are not scored. VOCABULARY: occupations chemist and scholar, field chemistry, tag theorist, archetypes scientific_explorer and scholarly_specialist, impact domains scientific and industrial (Britannica ties the benzene theory to the German chemical industry); all grepped in en.ts and ko.ts. KO NAME: Wikidata Korean label (recorded as such; a long form of the full name, the shorter established Korean name was not separately checked).\nCANONICAL SIGNIFICANCE SOURCE: 'August Kekule von Stradonitz', Encyclopaedia Britannica (https://www.britannica.com/biography/August-Kekule-von-Stradonitz).\nREAD: Britannica (full), Science History Institute scientific biography (full), Encyclopedia of World Biography via Encyclopedia.com (full), Linda Hall Library essay (full), Schiemenz 1989 in the GDCh history-of-chemistry newsletter (in part: the Benzolfest and legends sections). Five substantive sources plus the Wikidata and Smithsonian portrait records; the cost cap was respected and no further sources were added. PERSPECTIVES: encyclopedia, institutional biography, reference biography, science-library essay, a critical history-of-chemistry article by a professional society. COUNTER-VOICES: Britannica (Couper and Butlerov parallel work; dreams contested), Linda Hall (sceptics who see the dream as a priority device), Schiemenz and Wotiz (the printed 1890 text and the legends are not secure). NOT OPENED: Anschuetz's 1929 biography, Rocke's book 'Image and Reality' and his articles (Chemistry World review paywalled), Kekule's own 1890 speech text and papers, the Loschmidt and Laurent priority literature (known only as a mention in search results), and the 1872 oscillation revision of the benzene model. EXCLUSIONS: the omnibus and snake dreams are self-reported thirty years later, with contested dating, and are not scored or carded as fact; priority disputes with Couper, Loschmidt and Laurent are not scored. Evidence is thin on behaviour, so the profile is sparse (four rows, none above 76 or 0.60).\nSELF-GATE (first pass): primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS (the snake dream deliberately does not displace the structural theory), sideProject PASS. Cards state structural theory, the benzene ring and the school of students and the 1890 celebration.\nSELF-CALIBRATION (agent): reviewed systems_abstraction, creative_originality, leadership_drive; lowered creative_originality 74/0.60 to 70/0.54 (reason in row).\nHANDBACK63: {\"slug\":\"august-kekule\",\"portrait_preflight_grade\":\"STRONG (lead-robust)\",\"initial_lead\":\"Science History Institute portrait of Kekule (CC BY 4.0 digital record)\",\"final_portrait_source\":\"Smithsonian Institution Libraries, Dibner Library Scientific Identity portraits, SIL14-k001-07, unidentified photographer, before 1896, https://www.flickr.com/photos/smithsonian/2551806520/ (Commons copy of the Smithsonian upload)\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":4,\"self_calibrated_rows\":[{\"attribute\":\"creative_originality\",\"old_score\":74,\"old_confidence\":0.6,\"new_score\":70,\"new_confidence\":0.54,\"reason\":\"strongest originality claims rest on a retrospective self-account scholars dispute and on a priority position shared with Couper and Butlerov\"}],\"reviewed_kept\":[\"systems_abstraction\",\"leadership_drive\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":4} RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 76 / 0.6 to 72 / 0.56 because the evidence is the retrospective significance of the structural theory in encyclopedia and institutional biographies, and the priority with Couper is shared. LEAD REVIEW: Korean display name shortened from the long Wikidata label to the standard short form."
+  }
+}

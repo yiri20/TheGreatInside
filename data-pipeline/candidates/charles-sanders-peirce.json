@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "charles-sanders-peirce",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Charles Sanders Peirce",
+    "aliases": [
+      "C. S. Peirce",
+      "Charles S. Peirce"
+    ],
+    "wikidataId": "Q187520",
+    "birthYear": 1839,
+    "deathYear": 1914,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "mathematician",
+      "scientist"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "mathematics",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "polymath",
+      "theorist",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_peirce_wikidata",
+      "kind": "wikidata",
+      "title": "Charles Sanders Peirce (Q187520), verified live via the Wikidata API (2026-11-02): label 'Charles Sanders Peirce', description 'American philosopher, logician, mathematician, and scientist (1839-1914)', born 1839-09-10, died 1914-04-19, Korean label 찰스 샌더스 퍼스, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q187520"
+    },
+    {
+      "id": "src_peirce_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Charles Sanders Peirce' (Robert Burch, revision 2021), brief biography, difficulty of access to the writings, and the sections on abduction, pragmatism, fallibilism and students read. CANONICAL SIGNIFICANCE SOURCE: the founder of American pragmatism, a theorist of logic, language, communication and signs (semeiotic), an extraordinarily prolific logician and a developer of an evolutionary metaphysical system, who practised geodesy and chemistry to earn a living while regarding logic as his true calling; about 12,000 printed pages and about 80,000 manuscript pages; thirty-two years with the U.S. Coast and Geodetic Survey ending 31 December 1891, partly because of funding objections and perhaps his procrastination in finishing reports; taught logic at Johns Hopkins 1879-1884 where Christine Ladd, O. H. Mitchell and John Dewey were students and where he edited Studies in Logic (1883); his papers were scattered after his death and are being published chronologically by the Peirce Edition Project. Independent scholarly reference; the entry leans toward admiration and hedges its causal explanations ('perhaps').",
+      "url": "https://plato.stanford.edu/entries/peirce/"
+    },
+    {
+      "id": "src_peirce_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Peirce, Charles Sanders', life section read (professional passages only): precocious education under his father, graduated Harvard 1859 and the Lawrence Scientific School summa cum laude in chemistry 1863, geodesy and gravimetry at the Coast Survey, Boolean logic and relatives which won the respect of Jevons and De Morgan, the Metaphysical Club of 1872 with William James, the 1877-78 Popular Science Monthly series including 'The Fixation of Belief' and 'How to Make Our Ideas Clear', a theory of relatives and quantifiers developed independently of Frege and published with his student O. H. Mitchell in Studies in Logic (1883), and the editorial judgement that his independence of mind contributed to stubbornness in moments of adversity. The entry's account of his private life and of allegations about the Survey is deliberately not used. Independent scholarly reference with some editorialising.",
+      "url": "https://iep.utm.edu/peirce/"
+    },
+    {
+      "id": "src_peirce_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Charles Sanders Peirce' (updated 2026), life and work-in-logic sections read: scientist, logician and philosopher noted for the logic of relations and for pragmatism as a method of research; pendulum experiments at about 20 stations between 1873 and 1886 and a pioneer determination of the metre in wavelengths of light (1877-79); his gravity work won international recognition for him and the Survey, but from 1885 he was in frequent disagreement with its administrators, the time he took for careful reports was ascribed to procrastination, his 1889 report on gravity was never published because of differences over form and content, and he resigned at the end of 1891 with no regular income afterwards; 34 papers read before the National Academy of Sciences from 1878 to 1911, nearly a third in logic; his major work, A System of Logic Considered as Semiotic, was left unfinished; the entry says he had no influential students although Peano and Schroeder adopted his notation. Independent encyclopedia article that is more critical than the SEP on the Survey dispute.",
+      "url": "https://www.britannica.com/biography/Charles-Sanders-Peirce"
+    },
+    {
+      "id": "src_peirce_mactutor",
+      "kind": "biography",
+      "title": "MacTutor History of Mathematics Archive, 'Charles S Peirce' biography (University of St Andrews), professional passages read: Coast Survey posts from 1859, charge of pendulum experiments from 1872, European trips for gravity work, lecturer in logic at Johns Hopkins 1879-1884, his major gravity report rejected for publication in 1890 unless substantially revised, resignation requested at the end of 1891 when nothing further was received, and the later pattern in which How to Reason (rejected by two publishers in 1894) and New Elements of Mathematics (rejected 1895) were turned down and other projects were announced but not completed; quotes a contemporary mathematician's recollection (T. S. Fiske) of his 'reckless disregard of accuracy in what he termed unimportant details' in newspaper articles about the New York Mathematical Society, an independent critical voice. The biography's personal and health passages are not used. University history-of-mathematics biography.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Peirce_Charles/"
+    },
+    {
+      "id": "src_peirce_pep",
+      "kind": "institution",
+      "title": "Peirce Edition Project, Indiana University Indianapolis, 'About the Peirce Edition Project', read: Peirce is recognised worldwide as one of humanity's most rigorous, versatile and seminal thinkers and the principal originator of pragmatism; more than 12,000 printed pages and about eight times as many unpublished manuscript pages covering mathematics, geodesy, physics, chemistry, astronomy, logic, philosophy, semiotics, metaphysics, history of sciences, linguistics, lexicography and psychology; the project, established 1975-76, aims at a 30-volume chronological edition. Institution devoted to his work; used for scope and legacy, not for trait scoring beyond breadth.",
+      "url": "https://liberalarts.indianapolis.iu.edu/centers/peirce-edition/index.html"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_peirce_sep, src_peirce_brit, src_peirce_pep | 1857-1914 | scholarly reference, encyclopedia, edition-project overview] The SEP says he wrote on an immense range from mathematics, logic, physics, geodesy, spectroscopy and astronomy to psychology, anthropology, history and economics; Britannica reports that he read 34 papers before the National Academy of Sciences in logic, mathematics, physics, geodesy, spectroscopy and experimental psychology and that he diversified his scientific researches deliberately because a logician should know the methods of all the sciences; the Peirce Edition Project lists mathematics, geodesy, physics, chemistry, astronomy, logic, semiotics, linguistics, lexicography and psychology. Three independent descriptions agree on breadth. The row records breadth, not equal standing in each field; Britannica notes his career was in physical science and his ambition in logic."
+    },
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_peirce_sep, src_peirce_iep, src_peirce_brit | 1867-1883 | scholarly reference, encyclopedia] The SEP names him the founder of American pragmatism and a developer of semeiotic and of a general theory of abduction, deduction and induction; the IEP says he developed a theory of relatives and quantifiers independently of Frege and published it in Studies in Logic (1883); Britannica credits him with a pioneer determination of the metre in terms of a wavelength of light and with improving pendulum gravity measurement, and says Peano and Schroeder adopted his notation and his doctrine of relations. The originality is documented in outcomes recognised by later scholars; the SEP's explanation of its source in his upbringing is hedged ('perhaps') and is not used. Britannica's remark that he had no influential students limits the claim about direct influence."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_peirce_sep, src_peirce_iep, src_peirce_mactutor | 1855-1891 | scholarly reference, encyclopedia, university biography] The SEP reports that at sixteen he began private study of Schiller and Kant, concluded after three years that Kant's logic was 'puerile', formed a fixed intention to devote his life to logic, and throughout his career opposed Cartesianism and every form of epistemological foundationalism; the IEP and MacTutor say he did little of the required work at Harvard and read what he chose, and that his independence of mind later contributed to professional difficulties. Independence is documented as a consistent intellectual stance that was both productive and costly, so the impact is dual-edged. SELF-CALIBRATION (agent): top-risk row; lowered from 80 / 0.62 to 76 / 0.56 because the SEP ties his habit of thinking things through alone to his upbringing only with 'perhaps', and the IEP and MacTutor character gloss on his schooling is retrospective."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_peirce_sep, src_peirce_brit, src_peirce_pep, src_peirce_mactutor | 1860s-1891 | scholarly reference, encyclopedia, edition project, university biography] The SEP says his Survey work involved careful, very accurate pendulum measurements with instruments often of his own design and that one of his logical systems became the basis of Schroeder's three-volume treatise; Britannica says he spent time on the careful preparation of reports; the edition project calls him one of the most rigorous thinkers. Against this, MacTutor quotes a contemporary mathematician (T. S. Fiske) on his reckless disregard of accuracy in what he called unimportant details in popular writing, so the rigor is documented in logic and measurement and not in everything he wrote. The institutional praise is retrospective and the rigor claim is limited accordingly."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_peirce_sep, src_peirce_brit, src_peirce_pep | 1857-1914 | scholarly reference, encyclopedia, edition-project overview] The SEP says his writings extend over about 57 years with some 12,000 printed pages and about 80,000 manuscript pages, and that after the Survey ended in 1891 he lived by odd jobs, consulting and writing; Britannica says he had no regular employment or income after 1891 until his death in 1914, which is the period in which he kept working on his logic and semiotics. The sustained output over decades without a secure post is documented. His unfinished major work and the rejected book proposals (MacTutor) show that persistence did not always end in completed projects, which is why the score is moderate."
+    },
+    "discipline": {
+      "score": 36,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_peirce_brit, src_peirce_sep, src_peirce_mactutor | 1885-1895 | encyclopedia, scholarly reference, university biography] Britannica reports that the time he took to prepare reports for the Survey was ascribed to procrastination, that his 1889 report on gravity was never published because of differences over form and content, and that he resigned at the end of 1891; the SEP says the end of his Survey employment was ultimately due to funding objections 'and perhaps' to his procrastination in finishing required reports; MacTutor reports that his 1890 report was returned for major revision and that later projects, including Search for a Method and The Principles of Philosophy, were announced but not completed. The pattern of unfinished and delayed work is documented by three sources, but the cause is partly attributed by the sources to administrators' perceptions and to funding pressure, so the row reflects documented difficulty in finishing assigned work to deadline and does not infer any cause."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "찰스 샌더스 퍼스"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear photograph could be resolved. The lead image (Napoleon Sarony, 1891, New York Public Library) fails on the live institutional record: the archived NYPL item page for 'Charles Sanders Peirce.' (Print Collection portrait file, genre 'Clippings', Image ID 1807745) names no photographer or date and its rights statement says NYPL 'was unable to make a conclusive determination as to the copyright status'; the attribution to Sarony and the date 1891 appear only on the Wikimedia Commons file page, written by an uploader, which cites a Britannica credit of 'public domain' as its basis. The live NYPL page is protected by a bot check that was not bypassed. Alternatives checked and rejected: the NOAA Photo Library portrait (image ID theb3558, 'Photo Date: 1870?', credit NOAA Office of NOAA Corps Operations, no photographer named, so the US-government tag on Commons does not establish who made the photograph or when); the 1859 Harvard-graduation photograph on Commons (scanned from a 2001 book, author unknown, source collection at Texas Tech, 'PD-US' asserted without a basis); and Johns Hopkins Sheridan Libraries portraits of about 1878-1880 (rights shown as not evaluated, records not readable without the site's scripts). Next step: obtain an item-level rights statement and photographer and date from the owning institution (for example Harvard's Houghton Library or Texas Tech's Institute for Studies in Pragmaticism for the 1859 and later photographs, or a signed Sarony cabinet card with a documented imprint), or find a pre-1931 published photograph with a documented photographer. Kind, if resolved: likeness.",
+    "sourcePageUrl": "https://digitalcollections.nypl.org/items/79d9c2d8-f39f-4228-e040-e00a18061fdc"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / FAILED, HELD. Identity: Wikidata Q187520 verified live (2026-11-02): label Charles Sanders Peirce, 'American philosopher, logician, mathematician, and scientist (1839-1914)', born 1839-09-10, died 1914-04-19; no production or candidate slug or QID collision (prod63.txt and data-pipeline/candidates checked, no match). Region north_america (US career). Korean name 찰스 샌더스 퍼스 is the Wikidata Korean label. PORTRAIT: the lead (NYPL Sarony 1891) overestimated viability because the live NYPL record gives no creator or date, labels the item a clipping, and states an inconclusive copyright review; the Sarony attribution came only from a Commons uploader's note (file added 2026-03 by an uploader, source NYPL, basis a Britannica credit), which the rules do not accept. The Commons file page tags it PD-old-100-expired on the strength of Sarony's death in 1896, but that presupposes the Sarony attribution the institution does not make. One bounded retry: NOAA record (read via an archived copy because the live page is behind a CAPTCHA that was not solved: 'Photo Date: 1870?', no photographer), the 1859 photograph (unknown author, book scan), the Peirce Edition Project's digital archive item (creator unknown, rights note repeats the Britannica credit), and Johns Hopkins records (not evaluated) all lack a concrete rights basis. HOLD with the exact blocker and next step in portrait.reason. RESEARCH: 5 substantive sources read plus Wikidata for orientation: SEP (CANONICAL SIGNIFICANCE SOURCE: Charles Sanders Peirce, https://plato.stanford.edu/entries/peirce/), IEP (professional passages only), Britannica, MacTutor, Peirce Edition Project page. PERSPECTIVES: modern philosophical scholarship (SEP, IEP), a general encyclopedia that is more critical about the Survey dispute (Britannica), a history-of-mathematics biography that quotes a contemporary's critical recollection (MacTutor), and the institution devoted to his writings (admiring, used for scope only). Substantive non-self behavioural sources: Britannica, MacTutor and SEP. NOT opened: Brent's biography, Fisch's introductions, Peirce's own writings, Menand's Metaphysical Club, the Wikipedia article (orientation only, not cited), the cspeirce.omeka.net item (only to check the photograph's rights note). EXCLUSIONS: marriages, relationships and the circumstances reported by several sources around the end of his Johns Hopkins lectureship, his wife's health, allegations of financial impropriety at the Survey, finances and charity from friends, and any health, character or motive inference are not scored or cited; the IEP's and MacTutor's private-life passages are not used. Moments and the turning point rest on the SEP, Britannica and MacTutor. MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on all checks; the first card states his defining contribution (pragmatism and the theory of signs). Calibration: reviewed independent_thinking (lowered), cross_domain_range (highest score, kept) and creative_originality (kept); no broad scoring problem flagged. Confidence is capped at 0.66 because most evidence is retrospective scholarly summary and the one critical voice (Fiske via MacTutor) is a single anecdote. HANDBACK63: {\"slug\":\"charles-sanders-peirce\",\"portrait_preflight_grade\":\"STRONG (alt-dependent)\",\"initial_lead\":\"Napoleon Sarony 1891 photograph, New York Public Library\",\"final_portrait_source\":null,\"portrait_lead_or_replacement\":\"none\",\"portrait_final_status\":\"held\",\"preflight_overestimate_reason\":\"The live NYPL record (read via an archived copy) lists the item as an untitled-creator 'Clippings' portrait-file print with an inconclusive rights review and names no photographer or date; the Sarony attribution and 1891 date come only from a Wikimedia Commons uploader citing a Britannica credit, and every alternative (NOAA 'Photo Date: 1870?' with no photographer, the 1859 book scan by an unknown author, Johns Hopkins records marked not evaluated) also lacked an item-level rights basis\",\"risky_success_note\":null,\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"independent_thinking\",\"old_score\":80,\"old_confidence\":0.62,\"new_score\":76,\"new_confidence\":0.56,\"reason\":\"The SEP ties his habit of thinking things through alone to his upbringing only with 'perhaps' and the IEP and MacTutor character gloss on his schooling is retrospective\"}],\"reviewed_kept\":[\"cross_domain_range\",\"creative_originality\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6}"
+  }
+}

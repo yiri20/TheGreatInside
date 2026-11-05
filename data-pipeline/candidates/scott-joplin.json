@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "scott-joplin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Scott Joplin",
+    "aliases": [
+      "Scott Joplin",
+      "King of Ragtime Writers"
+    ],
+    "wikidataId": "Q191499",
+    "birthYear": 1868,
+    "deathYear": 1917,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_joplin_wikidata",
+      "kind": "wikidata",
+      "title": "Scott Joplin (Q191499), verified live via the Wikidata API (2026-11-02): label 'Scott Joplin', description 'American composer, musician, pianist (1867/68-1917)', Korean label 스콧 조플린, several candidate birth dates recorded and death April 1917. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q191499"
+    },
+    {
+      "id": "src_joplin_brit",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Scott Joplin' (Britannica Editors, revised by Rene Ostberg), read in full. CANONICAL SIGNIFICANCE SOURCE: American composer and pianist who became known as the 'king of ragtime'; he settled in Sedalia, Missouri, in 1895, studied music at the George R. Smith College for Negroes and hoped for a career as a concert pianist and classical composer; his first published songs brought him fame and in 1900 he moved to St. Louis to work with the publisher John Stark; 'Maple Leaf Rag' ignited the ragtime craze; he published a ragtime ballet suite in 1902, an opera A Guest of Honor (1903, no longer extant), and in New York The School of Ragtime, an instruction book that was widely imitated; most of his later effort went into the three-act opera Treemonisha, published at his own expense in 1911 and given only one semipublic performance in his lifetime; his reputation rests on the classic rags published 1899-1909, and he was awarded a special Pulitzer Prize posthumously in 1976. Its remarks on his later health are not used.",
+      "url": "https://www.britannica.com/biography/Scott-Joplin"
+    },
+    {
+      "id": "src_joplin_tsha",
+      "kind": "biography",
+      "title": "Handbook of Texas Online (Texas State Historical Association), 'Joplin, Scott' by Theodore Albrecht, read in full: childhood in Texarkana and piano lessons from Julius Weiss, years as an itinerant pianist, the Sedalia period and the George R. Smith College, the 1899 publication of Maple Leaf Rag (this entry names Carl Hoffman of Kansas City as publisher, which conflicts with the Missouri Encyclopedia, the SHSMO and the Library of Congress, who name John Stark of Sedalia; the Stark account is followed here) and the sheet music's reported sale of over a million copies, the on-and-off arrangement with John Stark, the ballet and two operas (orchestration scores of both operas lost), conductor Alfred Ernst's remark that he was 'an unusually intelligent young man and fairly well educated', the statement that he held a strong conviction that education was the key to success for African Americans, the unsuccessful 1915 staging of Treemonisha, and the posthumous recognition (Songwriters Hall of Fame 1970, New York Public Library collected works 1971, The Sting 1973, Pulitzer 1976). State historical association reference; admiring in tone; the sales figure is disputed by Berlin (see the Gracyk review).",
+      "url": "https://www.tshaonline.org/handbook/entries/joplin-scott"
+    },
+    {
+      "id": "src_joplin_moenc",
+      "kind": "biography",
+      "title": "Missouri Encyclopedia, 'Scott Joplin (1868-1917)' by Susan Curtis (from the Dictionary of Missouri Biography, University of Missouri Press), read in full: foremost contributor to a 'Missouri style' of ragtime; his early publications lacked compositional sophistication, so on the advice of Otis Saunders and Tony Williams he enrolled in courses at the George R. Smith College; he collaborated with Arthur Marshall and Scott Hayden; Maple Leaf Rag (1899) 'set the standard' though he was 'not the first' to capture the rhythm on the page; Stark coined 'King of Ragtime Writers'; conductor Alfred Ernst (1909) and critic Monroe Rosenfield (1903) praised him; his 1903 opera A Guest of Honor drew no financial backing and was staged little more than once as a dress rehearsal; in New York he joined the Colored Vaudevillian Benevolent Association (executive committee 1912); Treemonisha, which he insisted was grand opera and 'strictly Negro' music, found no backer, a Harlem theatre deal collapsed in 1913, and the 1915 staging had no costumes, props or orchestra and drew no critical comment; he had invested most of his money in it. University-press scholarly reference by a historian; the passages on illness and family are not used.",
+      "url": "https://missouriencyclopedia.org/people/joplin-scott"
+    },
+    {
+      "id": "src_joplin_shsmo",
+      "kind": "institution",
+      "title": "State Historical Society of Missouri, 'Scott Joplin' (Historic Missourians), read in full: wrote 44 original piano rags, two operas and one ragtime ballet and co-wrote seven rags; led a band at the 1893 Chicago fair; trained at the George R. Smith College to turn his music into notation; Alfred Ernst and Monroe Rosenfield praised his work; 'trouble raising money to produce the works that he cared most deeply about'; 1911-1915 unstaged run-throughs and partial performances of Treemonisha without backing for a full production; Treemonisha first fully produced in January 1972 (Morehouse College and the Atlanta Symphony), which 'drew criticism from some reviewers' as well as praise; his work revived in the 1940s and more in the 1970s; The Entertainer a hit after The Sting (1973); special Bicentennial Pulitzer 1976. State historical society educational biography.",
+      "url": "https://historicmissourians.shsmo.org/scott-joplin"
+    },
+    {
+      "id": "src_joplin_loc",
+      "kind": "institution",
+      "title": "Library of Congress blog 'Timeless', 'Scott Joplin & the Magical Maple Leaf Rag' by Neely Tucker (21 November 2024), read in full: the two 1899 copyright-deposit copies of Maple Leaf Rag in the Music Division, with Joplin credited as composer on the cover; Joplin got a penny from every 50-cent sale and it made him moderately well off for several years; no original manuscript survives; the piece is so difficult that Joplin rehearsed before playing it in public; no recordings of his playing survive apart from edited piano rolls (preserved in the National Recording Registry, 2002); the 1973 film The Sting score topped the Billboard Hot 100 for five weeks in 1974; the St. Louis house he rented after 1900 is a National Historic Landmark; Eubie Blake's recollection of a poor late performance is NOT used. The page also captions the portrait photograph used here as published in The American Musician and Art Journal, 17 June 1907.",
+      "url": "https://blogs.loc.gov/loc/2024/11/scott-joplin-the-magical-maple-leaf-rag/"
+    },
+    {
+      "id": "src_joplin_gracyk",
+      "kind": "press",
+      "title": "Tim Gracyk, book review of Edward A. Berlin's 'King of Ragtime: Scott Joplin and His Era' (Oxford University Press), Phonographs, Singers and Old Records (gracyk.com), read in full. Independent critical voice by an old-records collector: Berlin never exaggerates Joplin's popularity, Stark's claimed million copies of Maple Leaf Rag is judged inflated by Stark's own ledgers, and 'it did not sell as much as the most popular vocal music' (quoting Berlin); the reviewer argues ragtime never dominated the period, finds Treemonisha musically weak ('not a good opera') and says Stark's refusal to publish it 'is testimony to sound business instincts', and detects 'some arrogance' in Joplin's belief that he could succeed in opera and in his sheet-music instruction that it is never right to play ragtime fast; notes Joplin was not regarded as a strong player late in life, that few contemporary black musical leaders took notice of him, and that a pupil called him 'a little hot headed' (the same review treats that pupil as an unreliable source). Opinionated secondary review; used as the counter-voice and for what it reports from Berlin.",
+      "url": "https://gracyk.com/joplin.shtml"
+    },
+    {
+      "id": "src_joplin_pulitzer",
+      "kind": "award_body",
+      "title": "The Pulitzer Prizes, 'Scott Joplin', 1976 Special Citations and Awards, read: 'A special award is bestowed posthumously on Scott Joplin, in this Bicentennial Year, for his contributions to American music.' Award-body record used only for the recognition fact.",
+      "url": "https://www.pulitzer.org/winners/scott-joplin"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_joplin_moenc, src_joplin_shsmo, src_joplin_brit, src_joplin_tsha | 1895-1909 | scholarly reference, state historical society, encyclopedia] The Missouri Encyclopedia says his first publications (1895-96) lacked compositional sophistication and that on the advice of Otis Saunders and Tony Williams he enrolled in music courses at the George R. Smith College, where by 1897 he could write down the complicated rhythms he had been improvising; the SHSMO says he studied there to turn his sounds into notation; Britannica and the Handbook of Texas add that he later wrote an instruction book, The School of Ragtime (1908), and that conductor Alfred Ernst noted he was well educated and may have given him theory lessons in 1901. The documented behaviour is deliberate formal study and later codifying his methods; the sources are admiring reference works and none gives his own account of the study, so it is a strong inference and not documented effort."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_joplin_moenc, src_joplin_shsmo, src_joplin_brit, src_joplin_tsha, src_joplin_gracyk | 1903-1915 | scholarly reference, state historical society, encyclopedia, independent review] Several sources agree on a long, expensive effort toward large-scale composition: A Guest of Honor (1903) found no backing and was staged little more than once as a dress rehearsal; Treemonisha was worked on from about 1906 to 1910, published at his own expense in 1911, rehearsed in unstaged run-throughs between 1911 and 1915, a 1913 Harlem theatre agreement collapsed, and in 1915 he staged it himself without costumes, props or orchestra after investing most of his money. The cost side is real (the Missouri Encyclopedia describes the toll on his finances, and the Gracyk review argues the opera was musically weak and Stark rightly declined it), so the trait is dual-edged. Only documented work and finances are used; his later health is deliberately not read as personality."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_joplin_moenc, src_joplin_brit, src_joplin_shsmo, src_joplin_tsha | 1899-1910 | scholarly reference, encyclopedia, state historical society] The Missouri Encyclopedia says Maple Leaf Rag 'set the standard' for ragtime composition and that he combined waltz, march and schottische forms with African American melodic and rhythmic material, while adding that he was not the first to capture ragged rhythm on the printed page; Britannica notes the 1902 ragtime ballet with his own choreography directions and The School of Ragtime, whose bass patterns and stop-time breaks were widely imitated; Alfred Ernst called him an 'extraordinary genius as a composer of ragtime' (1909, via the Missouri Encyclopedia). The Gracyk review says Joplin's melodic gift was not evident in Treemonisha, so the claim is limited to the classic rags and their extension into larger forms. Most support is retrospective institutional praise plus two contemporary critics reported second-hand. SELF-CALIBRATION (agent): top-risk row; lowered from 76 / 0.62 to 72 / 0.58 because the Missouri Encyclopedia itself says he was not the first to notate the rhythm and the support is mostly retrospective praise and two critics read only through that article."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_joplin_brit, src_joplin_moenc, src_joplin_shsmo | 1895-1911 | encyclopedia, scholarly reference, state historical society] Britannica says that when he settled in Sedalia in 1895 he hoped for a career as a concert pianist and classical composer; the Missouri Encyclopedia says that like Ernst and Rosenfield he believed ragtime could invigorate serious composition and that he was capable of more ambitious works, so he organized a drama company and rehearsed his first opera in 1903, and that he completed Treemonisha as grand opera in 1911 while insisting it was not ragtime. The ambition is documented by projects started and funded, not by his own statements; the Gracyk review reads the same drive as overreach ('some arrogance') and as an unrealistic bet for an American opera, so it is graded dual-edged with moderate confidence."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_joplin_brit, src_joplin_moenc, src_joplin_gracyk | 1903-1915 | encyclopedia, scholarly reference, independent review] Britannica says Treemonisha was published at his own expense in 1911; the Missouri Encyclopedia says he had invested most of his money in the opera and staged it in 1915 with his limited resources; the Gracyk review notes that no other American composer of his generation had a popular opera and calls the attempt a bet that Stark's refusal to publish showed was unwise. The financial exposure is documented but the risk attitude itself is inferred from one project, so the row stays modest. SELF-CALIBRATION (agent): reviewed for one-project dependence; lowered from 62 / 0.52 to 58 / 0.46 because the same Treemonisha episode already supports persistence and the risk attitude is inferred from it, not described in any source."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_joplin_moenc, src_joplin_shsmo | 1897-1912 | scholarly reference, state historical society] The Missouri Encyclopedia and the SHSMO say that in addition to his own compositions he began collaborating with younger Sedalia musicians Arthur Marshall and Scott Hayden, co-wrote seven rags in all (including Heliotrope Bouquet with Louis Chauvin, 1907), and in New York joined the executive committee of the Colored Vaudevillian Benevolent Association (1912); Britannica adds he worked closely with his publisher John Stark. The evidence shows documented joint work and organisational membership but no account of how he worked with others, and the Gracyk review notes that major black musical leaders of the day seem to have ignored him, so the row is moderate and low-confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "스콧 조플린"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/scott-joplin-unknown-1907.jpg",
+    "width": 575,
+    "height": 800,
+    "source": "Portrait photograph of Scott Joplin published in The American Musician and Art Journal, 17 June 1907 (photographer not credited), held by the Library of Congress Music Division and shown as the lead image of the Library's blog post 'Scott Joplin & the Magical Maple Leaf Rag' (2024). The oval halftone was printed on a magazine page and the file shows faint show-through of print around it; it is shown uncropped at its original 575 x 800 pixels with no upscaling.",
+    "license": "Public domain (photograph first published in the United States in 1907)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unknown photographer, published in The American Musician and Art Journal, 17 June 1907. Library of Congress, Music Division (image from the Library's blog)",
+    "attributionUrl": "https://blogs.loc.gov/loc/2024/11/scott-joplin-the-magical-maple-leaf-rag/",
+    "creator": "Unknown photographer (published in The American Musician and Art Journal)",
+    "date": "1907-06-17",
+    "kind": "likeness",
+    "sourcePageUrl": "https://blogs.loc.gov/loc/2024/11/scott-joplin-the-magical-maple-leaf-rag/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED, LEAD USED (same 1907 photograph, a larger copy than the lead's Commons file). PORTRAIT: the lead was the portrait photograph published in The American Musician and Art Journal, 17 June 1907. Commons holds it only as File:Scott Joplin 1907.jpg and File:Scott Joplin 19072.jpg, both 200 x 260 px, tagged PD-US with source 'Library of Congress' (lcweb2.loc.gov ... ihas.200035815, now returning HTTP 522); I read the Commons wikitext as a lead only. The Library of Congress item pages (loc.gov/item/ihas.200035815, /?fo=json, /resource/..., /item/n50039880) all returned a Cloudflare bot challenge (HTTP 403), so I did not rely on them. Instead I used the Library of Congress's own blog post 'Scott Joplin & the Magical Maple Leaf Rag' by Neely Tucker (21 Nov 2024; opened), whose lead image (https://blogs.loc.gov/loc/files/2024/11/Joplin-final.jpg, 575 x 800 px, downloaded with curl and viewed) is captioned 'One of the few surviving photographs of Scott Joplin. The American Musician and Art Journal, June 17, 1907. Music Division.' and the article text says the Library holds a 1907 copy of that journal with one of the only known photos of Joplin. The photographer is not credited (unknown). RIGHTS BASIS: item-level publication facts, not a generic tag: a photograph first published in a US periodical in 1907; US works published before 1931 are in the public domain (maximum possible term for a 1907 publication ended long ago), so the basis is age by US publication date; the blog page carries no restrictive notice for the image and the Library describes it simply as an item from its Music Division; I recorded the portrait as a reproduction of that published page (oval halftone with faint show-through of print on the page, left uncropped, no upscaling, original 575 x 800 px). No conflicting institutional copyright notice was found. CAVEAT: the Commons page's own 1903 description for the restored copy (Globe-Democrat, 7 June 1903) conflicts with the 1907 date and was ignored; the 1907 date is the Library's. Alternatives (c.1900 photograph, Commons File:Scott Joplin.jpg sourced to a Palisades Virtuosi web page with unknown author and no publication data) were NOT used. kind likeness: a documented photograph of the sitter. PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q191499 label 'Scott Joplin', description 'American composer, musician, pianist (1867/68-1917)', Korean label 스콧 조플린; not in prod63.txt, no candidate file for scott-joplin, and no other candidate file contains Q191499. REGION north_america (US). ERA 20th_century (career 1899-1917, same as other people born 1865-1869). ZERO POLITICS: primary identity composer/pianist; nothing political scored. KO NAME: Wikidata Korean label 스콧 조플린. VOCABULARY: occupations composer and musician, field music, impact domains artistic and cultural, tags innovator and craft_focused, archetype creative_creator, all labelled in en.ts and ko.ts (pianist and ragtime have no labelled id, so not used). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Scott Joplin' (https://www.britannica.com/biography/Scott-Joplin). READ (7 sources plus Wikidata): (1) Britannica, full; (2) Handbook of Texas (Theodore Albrecht), full; (3) Missouri Encyclopedia (Susan Curtis, Dictionary of Missouri Biography), full; (4) State Historical Society of Missouri, Historic Missourians, full; (5) Library of Congress blog 'Timeless' (Neely Tucker, 2024), full; (6) Tim Gracyk's review of Edward Berlin's biography (gracyk.com), full, as the independent, critical counter-voice; (7) Pulitzer Prizes 1976 special-award page. Also opened: Ed Berlin's 1998 Mechanical Music Digest post (about a sheet-music cover; not used for rows). PERSPECTIVES: encyclopedic/state-historical reference (Britannica, TSHA, Missouri Encyclopedia, SHSMO), national-library institutional account (LoC), an independent critical record-collector/book review reporting Berlin's scholarship (Gracyk), award body. COUNTER-VOICES AND LIMITS: Gracyk (via Berlin) says Stark's million-copy claim for Maple Leaf Rag is inflated, that Treemonisha is musically weak and that Joplin's belief he could succeed with an opera showed 'some arrogance'; the Missouri Encyclopedia says he was not the first to notate ragged rhythm and that Treemonisha drew no critical comment in 1915; the SHSMO says its 1972 production drew criticism as well as praise. NOT OPENED: Berlin's 'King of Ragtime' itself (not available online; known only through the review and the LoC blog), Blesh and Janis 'They All Played Ragtime', Joplin's own 'School of Ragtime' score (IMSLP; not read, only described by Britannica), the Library of Congress item pages (bot-blocked), Pulitzer and Kennedy Center biography pages (403 or 404), Encyclopedia of Arkansas (404). EXCLUDED: all material on his health, marriages, bereavements and the cause of his death (no trait inference from illness or bereavement), the funeral anecdote (Gracyk/Berlin call it fantasy), the unsourced 'hot headed' remark (called unreliable), Eubie Blake's remark about a late performance, and the disputed million-copy sales claim (not scored). SELF-GATE: first-pass PASS on all five checks (see draft); nothing needed correcting. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (76/0.62 lowered to 72/0.58), risk_tolerance (62/0.52 lowered to 58/0.46), persistence (kept: four agreeing sources and an independent critical voice).  HANDBACK63: {\"slug\": \"scott-joplin\", \"portrait_preflight_grade\": \"STRONG (alt-dependent)\", \"initial_lead\": \"1907 portrait photograph from American Musician, 17 June 1907\", \"final_portrait_source\": \"Library of Congress, Music Division, 1907 portrait photograph from The American Musician and Art Journal, 17 June 1907, as reproduced in the Library of Congress blog post 'Scott Joplin & the Magical Maple Leaf Rag' (Neely Tucker, 2024), image https://blogs.loc.gov/loc/files/2024/11/Joplin-final.jpg (575x800); page https://blogs.loc.gov/loc/2024/11/scott-joplin-the-magical-maple-leaf-rag/\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 76, \"old_confidence\": 0.62, \"new_score\": 72, \"new_confidence\": 0.58, \"reason\": \"The Missouri Encyclopedia itself says he was not the first to notate the rhythm and the support is mostly retrospective praise plus two critics read only through that article\"}, {\"attribute\": \"risk_tolerance\", \"old_score\": 62, \"old_confidence\": 0.52, \"new_score\": 58, \"new_confidence\": 0.46, \"reason\": \"Same Treemonisha episode already supports persistence and the risk attitude is inferred from it, not described in any source\"}], \"reviewed_kept\": [\"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6}"
+  }
+}

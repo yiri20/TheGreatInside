@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "rene-caillie",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "René Caillié",
+    "aliases": [
+      "Rene Caillie",
+      "René Caillé",
+      "René-Auguste Caillié",
+      "Réné Caillié"
+    ],
+    "wikidataId": "Q368976",
+    "birthYear": 1799,
+    "deathYear": 1838,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "self_taught",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_caillie_wikidata",
+      "kind": "wikidata",
+      "title": "René Caillié (Q368976), verified live via the Wikidata API (2026-11-02): label 'René Caillié', description 'French explorer (1799-1838)', two birth values (1799-09-19 and the preferred 1799-11-19), died 1838-05-17, citizen of France, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q368976"
+    },
+    {
+      "id": "src_caillie_britannica",
+      "kind": "biography",
+      "title": "'René-Auguste Caillié', Encyclopaedia Britannica (read in full, about 250 words). CANONICAL SIGNIFICANCE SOURCE: calls him the first European to survive a journey to Timbuktu; before he was 20 he had twice voyaged to Senegal; in 1824 he began preparing by learning Arabic and studying Islam, posed as an Arab traveller going to Egypt, left the West African coast in April 1827, reached Timbuktu on 20 April 1828 and returned across the Sahara via Morocco; his narrative was published in three volumes in 1830 and translated into English the same year.",
+      "url": "https://www.britannica.com/biography/Rene-Auguste-Caillie"
+    },
+    {
+      "id": "src_caillie_princeton",
+      "kind": "institution",
+      "title": "'René Caillié, 1799-1838', Princeton University Library, Africana Maps and Images (read in full, about 500 words). Library biography: little formal education, left home in 1816, joined an English expedition looking for news of Mungo Park, spent a year with the Braknas learning Arabic and Islamic ritual, left Conakry in April 1827, reached Timbuktu on 20 April 1828 posing as a poor Egyptian, took notes and made drawings secretly, was struck by the contrast with historical descriptions of the city's magnificence, crossed the Sahara with a slave caravan, and was refused aid at Rabat; awarded the Geographical Society's prize and a pension; his 4,500-mile journey opened up much other terrain unknown to Europeans.",
+      "url": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/africa/caillie/caillie.html"
+    },
+    {
+      "id": "src_caillie_eb1911",
+      "kind": "biography",
+      "title": "'Caillie, Rene Auguste', Encyclopaedia Britannica, 11th edition, vol. 4 (1911; read via Wikisource, about 450 words). Reference biography: son of a baker; first voyage at sixteen; a journey to Bondu in 1818; in 1824 eight months with the Brakna 'Moors' learning Arabic and Islamic customs; the governor of Senegal gave no encouragement so he went to Sierra Leone, was made superintendent of an indigo plantation by the British authorities and, having saved 80 pounds, joined a caravan dressed as a Muslim; prize of 400 pounds from the Geographical Society of Paris, the Legion of Honour and a pension; the Journal edited by Jomard was published at public expense in 1830.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Cailli%C3%A9,_Ren%C3%A9_Auguste"
+    },
+    {
+      "id": "src_caillie_travels",
+      "kind": "archive",
+      "title": "René Caillié, 'Travels through Central Africa to Timbuctoo; and across the Great Desert, to Morocco, performed in the years 1824-1828' (London: Colburn and Bentley, 1830, two volumes; Internet Archive scans, text searched and the introduction and first chapters read, not read cover to cover). SELF-REPORT: his own narrative of his early voyages, his plan, the governor's refusal to fund his larger plan, his eight months with the Braknas, how he hid his journal and the cover story he used. Used for episodes that other sources confirm in outline and always flagged as self-report.",
+      "url": "https://archive.org/details/travelsthroughce11830cail"
+    },
+    {
+      "id": "src_caillie_barth",
+      "kind": "archive",
+      "title": "Heinrich Barth, 'Travels and Discoveries in North and Central Africa', vol. 3 (London and New York, 1857; Internet Archive text searched for every mention of Caillié and the Timbuktu and Niger passages read). INDEPENDENT, ADVERSARIAL-CHECKING source: the German explorer who reached Timbuktu in 1853 follows Caillié's route, says he is glad to confirm the general accuracy of his account and finds his report trustworthy in general with accurate description of the objects he saw under very unfavourable circumstances, while listing errors (the position of the smaller tower of the great mosque, five rather than seven gateways, the length of the mosque, the name 'Kissour' for the language, a view of the town showing scattered houses instead of continuous rows) and observing that the English were jealous of the success of a poor unprotected adventurer after Major Laing's death.",
+      "url": "https://archive.org/details/Travelsdiscoverv318Bart"
+    },
+    {
+      "id": "src_caillie_rijksmuseum",
+      "kind": "archive",
+      "title": "'Portret van Rene Caillie' (Portrait of Rene Caillie), print by Francois Louis Couche (named on the object), 1820-1849, Rijksmuseum, Amsterdam, object RP-P-OB-42.949, record RM0001.COLLECT.99314 (linked-art record read live: Public Domain Mark 1.0 / CC0). Used for the portrait only, not for any trait row.",
+      "url": "https://hdl.handle.net/10934/RM0001.COLLECT.99314"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_caillie_britannica, src_caillie_princeton, src_caillie_eb1911, src_caillie_barth, src_caillie_travels | 1824-1828 | encyclopedia + library biography + reference + independent follow-on explorer + self-report] He set out alone, dressed as a Muslim and giving a false identity as an Egyptian, on a journey that earlier European travellers had not survived; he reached Timbuktu in 1828 and crossed the Sahara with a slave caravan, arriving in Morocco penniless (Britannica, Princeton, Encyclopaedia Britannica 1911). Barth, retracing parts of the route in the 1850s, calls it a toilsome and dangerous journey, and notes that Major Laing had been assassinated two years earlier. The risk-taking is strongly documented by independent sources; the dual-edged impact reflects that it nearly cost him everything and that the self-funded plan left him destitute on return. RUBRIC_CORRECTION (lead review, before eligibility): risk_tolerance lowered from 78 / 0.64 to 74 / 0.58 because the concrete episodes of the disguise and the crossing come mainly from his own published narrative, which independent sources confirm only in outline."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caillie_britannica, src_caillie_eb1911, src_caillie_princeton, src_caillie_travels | 1816-1828 | encyclopedia + reference + library biography + self-report] He made two voyages to Senegal before he was 20 and a third in 1824, was left without encouragement from the governor of Senegal, went instead to Sierra Leone, worked as manager of an indigo plantation and, with 80 pounds saved, financed the expedition himself (Encyclopaedia Britannica 1911; Princeton and Britannica for the earlier trips); his own narrative says he told the governor he would go on his own means if the government declined. The sequence of attempts and the self-financing are documented in independent reference sources; the motive statement is his own. Periods of illness during the journey are not used."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caillie_travels, src_caillie_princeton, src_caillie_eb1911, src_caillie_britannica | 1824-1828 | self-report + library biography + reference] He lived with the Braknas to learn Arabic and Islamic custom and travelled as a convert and later as an Egyptian cover story; Princeton says he secretly took notes and made drawings in Timbuktu; in his own narrative a sherif caught him writing his journal, saw no Arabic characters, and he claimed it was a song and sang to convince him. The outline (disguise, secret notes) is confirmed by independent sources, but the specific improvisations come only from his own account. SELF-CALIBRATION (agent): reviewed as a top-risk row; lowered from 70 / 0.52 because the concrete improvisation episodes are known only from his own narrative and the independent sources confirm the disguise in outline only."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caillie_britannica, src_caillie_princeton, src_caillie_eb1911, src_caillie_travels | 1824-1827 | encyclopedia + library biography + reference + self-report] To prepare for Timbuktu he spent eight months (EB 1911; Princeton says about a year) with the Brakna people north of the Senegal River, learning Arabic and being taught the laws and customs of Islam (all three independent sources), and in his own narrative he says he lacked formal education and tried to compensate by study. The preparation is documented consistently; the tie to a general drive for mastery is an inference, since it served one goal."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caillie_eb1911, src_caillie_britannica, src_caillie_princeton, src_caillie_travels | 1824-1828 | reference + encyclopedia + library biography + self-report] He sequenced the project: language and custom study among the Braknas, a proposal to the governor, paid work in Sierra Leone to build funds, then joining a Mandingo caravan inland with a prepared cover identity (EB 1911; Princeton; Britannica), and Princeton adds that he took notes and drawings secretly. His own narrative also describes a detailed funding request to the government. The planning is real but is read from the order of events, not from documents of his planning."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caillie_barth, src_caillie_princeton | 1828-1830 | independent follow-on explorer + library biography] Barth, who reached Timbuktu in 1853, convinced himself of the trustworthy character of Caillié's report in general and of the accuracy with which he described the objects he saw under very unfavourable circumstances, and confirmed the general accuracy of his route account; Princeton says he secretly took notes and made drawings. Barth also lists concrete errors (the smaller mosque tower's position, five rather than seven gateways, the mosque's length, the name 'Kissour', and a view of the town with isolated houses) and explains some by the conditions of Caillié's visit, so the detail is credited but not strongly."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "르네 카이예"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/rene-caillie-couche-1830s.jpg",
+    "width": 777,
+    "height": 1200,
+    "source": "Stipple engraving and etching 'Portret van Rene Caillie', printmaker Francois Louis Couche (named on the object; 1782-1849 per the Rijksmuseum agent record), dated 1820-1849 by the museum, Rijksmuseum Amsterdam object RP-P-OB-42.949 (record RM0001.COLLECT.99314, sheet 193 x 126 mm). Identity: the print is inscribed 'Rene Caillie' and catalogued under that title and subject. Rights basis: the museum's linked-art record, which I read live through the handle with an Accept header, marks the digital image Public Domain Mark 1.0 / CC0 at item level; independent of that, the maker died in 1849 and the print dates from his lifetime, so it is in the public domain by age in France, the United States and elsewhere; the Rijksmuseum's Commons upload states the same CC0 terms. Lead check: the lead named the 1830 oil portrait by Amelie Legrand de Saint-Aubin (Commons 'Rene Caillie.jpg', a detail from a portrait held by the Societe de Geographie, sourced from a 1999 biography); I did not use it because the holder is the Societe de Geographie whose BnF-held material carried a restrictive convention in Roster62 (Moreno) and the Commons file is a reproduction from a modern book with no item-level terms, and a documented alternative with an item-level museum statement was available. The print is a later copy engraving rather than a documented sitting, so the kind is a historical depiction; I did not establish which portrait it copies. The file is a crop of the print area (museum label and mount removed) taken from the museum's image server at 777 x 1200 pixels from a 1800 x 2450 pixel original, downscaled only.",
+    "license": "Public domain (Public Domain Mark 1.0 / CC0 on the Rijksmuseum record; maker died 1849)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Francois Louis Couche, Portrait of Rene Caillie (1820-1849), Rijksmuseum, Amsterdam, Public Domain",
+    "attributionUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.99314",
+    "creator": "François Louis Couché (printmaker)",
+    "date": "1820-1849",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.99314"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / CONFIRMED VIA A REPLACEMENT: the lead's Saint-Aubin 1830 painting path was not used (holder is the Societe de Geographie, a BnF-linked collection with the restrictive convention seen in Roster62, and the Commons file is a reproduction from a 1999 book without item-level terms); instead the Commons category for Caillié led to Rijksmuseum prints whose live linked-art record carries a Public Domain Mark / CC0 at item level (RP-P-OB-42.949 by Couche, 1820-1849). BnF Gallica prints (Quinet, Michel) were not opened. PREFLIGHT: QID VERIFIED LIVE (2026-11-02) Q368976 label 'René Caillié', description 'French explorer (1799-1838)', birth 1799-11-19 preferred (also 1799-09-19), death 1838-05-17; no production (prod63.txt) or candidate slug/QID collision. REGION western_europe (France; precedents victor-hugo, alexandra-david-neel). ERA 19th_century. ZERO POLITICS: the work as a French explorer and the Geographical Society prize are scored as exploration only; the colonial-era context of West Africa is not scored, and no political or military behaviour is scored. VOCABULARY: occupation explorer; field exploration; tags explorer, self_taught, field_researcher; archetype scientific_explorer; impact domains historical, scientific (all present in en.ts and ko.ts). KOREAN NAME: Wikidata has no Korean label; '르네 카이예' is a recorded transliteration (a Korean Wikipedia title was not checked) and should be verified by the lead. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'René-Auguste Caillié' (https://www.britannica.com/biography/Rene-Auguste-Caillie), read in full, corroborated by Princeton University Library and the 1911 edition. READ: Britannica; Princeton Africana page; 1911 Britannica (Wikisource); Caillié's own 1830 Travels (introduction, first chapters and targeted searches, self-report); Barth 1857 vol. 3 (every Caillié mention and the Timbuktu passages); Wikipedia read for orientation only and its source list used to find Barth; Rijksmuseum linked-art record. PERSPECTIVES: encyclopedia, university library, early reference work, his own narrative (self-report), a later explorer who retraced parts of the route and checked the account (independent, adversarial in checking). COUNTER-VOICES: Barth's list of errors and his remark that English jealousy greeted a poor unprotected adventurer's success. NOT OPENED: Quella-Villeger's 2012 biography, Masonen 2000, Jomard's 1839 notice, the Bulletin of the Societe de Geographie, the Union College thesis and the SAGE article on the 'in-credible geographies' of Timbuktu (both behind bot checks or paywalls), the BnF/Gallica prints; the Journal in French was not read. SELF-REPORT SEPARATION: the cover-story improvisations, the governor episode and his own motives are from his narrative and are not used to support any row alone. EXCLUSIONS: his illness and its fatal result, family background (father's conviction, orphanhood), marriage and health are not used and no trait is inferred from them; Timbuktu's treatment of Laing is not used. SELF-CALIBRATION (agent): top-risk rows reviewed: adaptability (70/0.52 lowered to 66/0.45), risk_tolerance (kept: independent sources and Barth confirm the dangerous solo journey), persistence (kept: sequence of attempts documented in independent reference sources). HANDBACK63: {\"slug\": \"rene-caillie\", \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"initial_lead\": \"Amelie Legrand de Saint-Aubin 1830 portrait (Commons, from a 1999 biography)\", \"final_portrait_source\": \"Rijksmuseum Amsterdam RP-P-OB-42.949, Portret van Rene Caillie, print by Francois Louis Couche, 1820-1849, record RM0001.COLLECT.99314 (Public Domain Mark 1.0 / CC0), https://hdl.handle.net/10934/RM0001.COLLECT.99314\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"adaptability\", \"old_score\": 70, \"old_confidence\": 0.52, \"new_score\": 66, \"new_confidence\": 0.45, \"reason\": \"concrete improvisation episodes are known only from his own narrative; independent sources confirm the disguise in outline only\"}], \"reviewed_kept\": [\"risk_tolerance\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): risk_tolerance lowered from 78 / 0.64 to 74 / 0.58 because the concrete episodes of the disguise and the crossing come mainly from his own published narrative, which independent sources confirm only in outline."
+  }
+}

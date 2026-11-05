@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "eric-liddell",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Eric Liddell",
+    "aliases": [
+      "Eric Henry Liddell",
+      "The Flying Scotsman",
+      "Uncle Eric"
+    ],
+    "wikidataId": "Q317422",
+    "birthYear": 1902,
+    "deathYear": 1945,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete",
+      "teacher"
+    ],
+    "fieldIds": [
+      "sport",
+      "education"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "competitor",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_liddell_wikidata",
+      "kind": "wikidata",
+      "title": "Eric Liddell (Q317422), verified live via the Wikidata API (2026-11-02): label 'Eric Liddell', description 'Scottish athlete, sprinter, Olympian, Protestant missionary (1902-1945)', born 1902-01-16, died 1945-02-21, Korean label 에릭 리델, Olympedia id 69245. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q317422"
+    },
+    {
+      "id": "src_liddell_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Eric Liddell' (Britannica Editors), read in full. CANONICAL SIGNIFICANCE SOURCE: a British runner born in Tientsin to Scottish missionaries, winner of the 400 m gold in record time (47.6 s) and the 200 m bronze at the 1924 Paris Olympics; he dropped the 100 m, his strongest event, because the final was on a Sunday; he returned to China a year later to do missionary work with his father and died of a brain tumour in a Japanese internment camp; his story with Harold Abrahams was portrayed in Chariots of Fire (1981). Concise reference, admiring in tone.",
+      "url": "https://www.britannica.com/biography/Eric-Liddell"
+    },
+    {
+      "id": "src_liddell_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Eric Liddell' athlete biography and results, read in full: brilliant all-round sportsman at Eltham College and Edinburgh University, seven rugby caps for Scotland and four tries, five successive Scottish sprint titles from 1921, AAA 100 yards and 200 yards wins in 1923 with a 9.7 s British record that stood 35 years, gave up rugby for 1923-24 to concentrate on Olympic preparation, dropped the 100 m because the heats were on a Sunday, 200 m bronze and 400 m gold in 47.6 s (Olympic, European and British record) after improving his personal best by more than a second in the semi-final, returned to China as a missionary in 1925, interned in March 1943 and died in captivity aged 43. Standard Olympic results archive.",
+      "url": "https://www.olympedia.org/athletes/69245"
+    },
+    {
+      "id": "src_liddell_bbc",
+      "kind": "press",
+      "title": "Greg McKevitt, 'It's complete surrender' - Olympics hero Eric Liddell and the true story behind Chariots of Fire, BBC Culture / In History (8 July 2024), read in full: schooling at Eltham College, seven rugby caps 1921-23, the Sunday heats known months in advance (unlike the film), a friend's 1984 recollection of press hostility ('traitor to his country') and Liddell's calm reply, a fellow Scottish athlete's account of his 400 m tactics and head-back style, the 47.6 s final, his return to China and teaching at the Anglo-Chinese College in Tianjin, his decision to stay in China in 1941, 'Uncle Eric' at Weihsien teaching and organising activities for children, his death from a brain tumour, and a daughter's recollection. Press feature built on archive interviews; includes a critical note on the film's inaccuracy.",
+      "url": "https://www.bbc.com/culture/article/20240705-olympics-hero-eric-liddell-and-the-real-story-behind-chariots-of-fire"
+    },
+    {
+      "id": "src_liddell_guardian",
+      "kind": "press",
+      "title": "Simon Burnton, '50 stunning Olympic moments: No8 Eric Liddell's 400 metres win, 1924', The Guardian (4 January 2012), read in full, including quoted Guardian reports of 12 July 1924 and 1945: a 'true amateur' who never intended sport to fill more than a few years, whose first race was in 1921 and last in 1925, who in those years took a pure-science degree, became a nationally known religious speaker, won two Olympic medals and seven rugby caps; the 1945 obituary calls him probably the ugliest runner to win an Olympic title and says his 1924 heats style drew ribald laughter; Harold Abrahams' remark that 'he gets there'; the 1923 Stoke race in which he fell and still won; the 1924 report that his Sunday refusal aroused curiosity. Independent national press with a critical note on his style.",
+      "url": "https://www.theguardian.com/sport/2012/jan/04/50-stunning-olympic-moments-eric-liddell"
+    },
+    {
+      "id": "src_liddell_scotathl",
+      "kind": "institution",
+      "title": "Scottish Athletics, 'Eric Liddell - the life of an athletics legend' (Arnold's Archive), read in full: Edinburgh debut in 1921 and five national sprint doubles, 100 yards in 9.7 for a British record and the 1923 Harvey Memorial Cup, the Sunday decision and the switch to the 400 m at which he was 'virtually inexperienced' internationally and had never broken 49 seconds, the 47.6 final with a 22.2 first half, the later IAAF review that replaced his 400 m world record with an earlier 440-yard mark, preaching in Scotland, teaching chemistry and English at the Anglo-Chinese College in Tianjin, itinerant evangelical work in the war years, internment at Weihsien in 1943 and death in 1945, and Harold Abrahams' tribute. Governing-body history, admiring but detailed.",
+      "url": "https://www.scottishathletics.org.uk/about/history/arnolds-archive/eric-liddell-the-life-of-an-athletics-legend/"
+    },
+    {
+      "id": "src_liddell_stsph",
+      "kind": "biography",
+      "title": "St Stephen's Church, Philadelphia, 'Friday Reflection: Eric Liddell II - Humanity Revealed in Internment' (2021), read: a church historian's essay on Weihsien that quotes, at second hand, Langdon Gilkey's 1966 memoir Shantung Compound (an American professor and fellow internee who calls Liddell as close to a saint as anyone he met), Duncan Hamilton's For the Glory and the missionary David Michell on Liddell's camp work (managing teenagers and children, organising sports and square dances, allowing Sunday games, tending the sick, leading a camp congregation). The original books were not opened (lending-only), so these camp details are second-hand; the essay is a devotional secondary source and is used with low weight.",
+      "url": "https://www.ststephensphl.org/news/friday-reflection-eric-liddell-ii-humanity-revealed-in-internment/2-2021"
+    },
+    {
+      "id": "src_liddell_elc",
+      "kind": "institution",
+      "title": "The Eric Liddell Community, Edinburgh, 'New exhibition Eric Liddell and Weifang opens' (2024), read: states that at the Weihsien camp, among over 1,500 civilians including about 500 children, he organised sports activities to boost morale and taught the children who called him 'Uncle Eric'. Memorial institution and a Weifang museum partner, so admiring and institutional; used only to corroborate the camp teaching role.",
+      "url": "https://ericliddell.org/article/new-exhibition-eric-liddell-and-weifang-opens-at-the-eric-liddell-community-in-edinburgh/"
+    },
+    {
+      "id": "src_liddell_edinreporter",
+      "kind": "press",
+      "title": "The Edinburgh Reporter, 'Posthumous honorary degree awarded to Eric Liddell' (July 2024), read: the University of Edinburgh awarded him a posthumous honorary doctorate a century after his 400 m gold and his BSc in pure science, recognising his contribution to sport and humanity. Local news report of a university honour; used only for later recognition.",
+      "url": "https://theedinburghreporter.co.uk/2024/07/posthumous-honorary-degree-awarded-to-eric-liddell/"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liddell_bbc, src_liddell_guardian, src_liddell_scotathl, src_liddell_britannica | 1924 | press feature with a friend's 1984 recollection, 1924 Guardian report, governing-body history, encyclopaedia] He withdrew from the 100 m, his best event, because the heats fell on a Sunday, a decision all four sources document and the BBC says was known months ahead. The BBC quotes a friend, Greville Young, recalling 60 years later that reporters pressed him, cries of 'traitor' were heard and Liddell simply said it was his belief and he would not run; the 1924 Guardian report records only 'considerable curiosity'. The row is limited to holding an unpopular position under press pressure; the hostility itself rests on one retrospective friend's account. SELF-CALIBRATION (agent): top-risk row; lowered from 62 / 0.55 to 58 / 0.48 because the press-hostility evidence is a single friend's recollection 60 years later, and the contemporary Guardian report shows curiosity rather than pressure."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liddell_scotathl, src_liddell_olympedia, src_liddell_bbc | 1924 | governing-body history, results archive, press feature with a teammate's account] After dropping the 100 m he rebuilt his Olympic programme around the 200 m and 400 m: Scottish Athletics says he was virtually inexperienced at 400 m internationally and had never broken 49 seconds, Olympedia that he improved his personal best by more than a second in the semi-final and then won in 47.6 s, and the BBC that a teammate says he ran it with a fast start and trusted he would hold on. The documented event switch and the result are solid; reading it as general adaptability goes beyond the sources, and the gold can be credited to sprint speed as much as to flexibility."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_liddell_bbc, src_liddell_scotathl, src_liddell_guardian | 1923-1924 | teammate's account, governing-body history, press] The BBC quotes his teammate Tom Riddell saying Liddell's approach was to go as fast as he could when the gun went and trust that he would last, and notes that his style faded in the last 200 yards when he put in an effort; Scottish Athletics records a first 200 m of about 22.2 in the final; the Guardian says he fell in a 1923 quarter-mile and still won. The behaviour is a documented front-running tactic, but 'trust to God' is the teammate's report of his words, and the same tactic is described as the thing that exposed him, hence dual-edged and low confidence."
+    },
+    "discipline": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_liddell_olympedia, src_liddell_guardian, src_liddell_scotathl | 1921-1925 | results archive, press, governing-body history] Olympedia says he gave up rugby for the 1923-24 season to concentrate on Olympic preparation; the Guardian says that in four years of competing he also completed a pure-science degree and became a nationally known religious speaker; Scottish Athletics adds regular preaching in Central Scotland. The sources show many commitments held at once but nothing about daily routines or training method, so the row is a modest inference and not a claim about training discipline."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_liddell_guardian, src_liddell_bbc, src_liddell_scotathl, src_liddell_olympedia, src_liddell_stsph, src_liddell_elc | 1925-1945 | national press, press feature, governing-body history, results archive, devotional secondary essay, memorial institution] The Guardian says he never intended sport to fill more than a few years before becoming a missionary, and Olympedia, Scottish Athletics and the BBC all record that within weeks of his last race in 1925 he left for China to teach chemistry, English and sport at the Anglo-Chinese College in Tianjin, later turning to itinerant work in war-torn villages, and in 1941 stayed when the British government advised nationals to leave. The BBC, the Eric Liddell Community and (second-hand from Gilkey and Hamilton) the St Stephen's essay say that in the Weihsien camp he organised activities and taught the children. His conviction is documented and consistent across independent sources, but the camp detail is mostly admiring or second-hand, and his religious motivation is not scored as such."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에릭 리델"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/eric-liddell-agence-rol-1924.jpg",
+    "width": 864,
+    "height": 1200,
+    "source": "Agence Rol press photograph 'Stamford, juillet 1924, F. [i.e. Eric] H[enry] Liddel [i.e. Liddell] arrivant dans la course de 1 mille relais' (Rol 93947), glass negative 18 x 13 cm, Bibliotheque nationale de France, departement Estampes et photographie, EI-13 (1132); catalogued by the BnF with the subject Liddell, Eric (1902-1945) and captioned 'Liddell' on the negative; shown on Gallica as public domain. Original scan 6122 x 8498 pixels; this copy downscaled to 864 x 1200 (never enlarged).",
+    "license": "Public domain (BnF Gallica item-level statement 'domaine public'; 1924 press photograph by an agency)",
+    "licenseUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53133695p",
+    "attribution": "Agence Rol (photographer unknown), July 1924, Bibliotheque nationale de France, Gallica, public domain",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53133695p",
+    "creator": "Agence Rol (photographer unknown)",
+    "date": "1924-07",
+    "kind": "likeness",
+    "sourcePageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53133695p"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / CONFIRMED VIA REPLACEMENT. The lead's Agence Rol 1924 Colombes group-of-winners photograph was NOT used because a group image needs the sitter positively identified. Instead I used a different Agence Rol press photograph that the BnF itself catalogues with the single subject 'Liddell, Eric (1902-1945)': 'Stamford, juillet 1924, F. [i.e. Eric] H[enry] Liddel [i.e. Liddell] arrivant dans la course de 1 mille relais' (Gallica ark:/12148/btv1b53133695p, Rol 93947, glass negative 18 x 13 cm, BnF Estampes et photographie, EI-13 (1132)). The glass negative also carries the handwritten caption 'Liddell' and the Rol number. IDENTITY: BnF subject heading plus the caption. RIGHTS BASIS: the live BnF Gallica OAI record (gallica.bnf.fr/services/OAIRecord?ark=btv1b53133695p) states dc:rights 'domaine public' / 'public domain' at item level; creator is the Agence Rol (commissioning agency, photographer unknown), dated 1924, a press image, so it is also out of US copyright by age (published before 1931). The Gallica item page itself was bot-blocked (HTTP 403), so I relied on the Gallica OAI record, which is the BnF's own metadata, and I did not rely on the Commons tags ({{PD-France}}, {{PD-1996}}, {{PD-US-expired}}), which I read only as a cross-check. I took the image from the Commons file (original 6122 x 8498 px uploaded by Gzen92Bot from Gallica) as a server-side downscale to 960 x 1333 grayscale, then downscaled further by this project to 864 x 1200; never enlarged. I viewed it: single runner, head thrown back, Liddell's known style. Kind likeness (documented contemporary photograph of him on the track). Alternatives not needed: Commons 'Eric Liddell.jpg' (unknown handout photographer, 'PD-old' tag with Getty handout source, rejected as weak). PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q317422 label 'Eric Liddell', description 'Scottish athlete, sprinter, Olympian, Protestant missionary (1902-1945)', born 1902-01-16, died 1945-02-21, Korean label 에릭 리델; not in prod63.txt and no candidate file existed. REGION western_europe (Scotland; GB precedent: 110 GB candidates); ERA 20th_century; nationality GB (Wikidata also lists China as a citizenship value, not used; he was born in Tientsin to Scottish parents and competed for Great Britain). ZERO POLITICS: primary identity Olympic sprinter and missionary-teacher; no political or military scoring; his internment is context, not scored. Living-subject rules n/a. VOCABULARY: occupations athlete, teacher; fields sport, education; tags competitor, mentor; archetype competitive_performer; impactDomains athletic, cultural, educational; all with EN and KO labels; 'missionary' is unlabeled and not used. KO NAME: Wikidata Korean label 에릭 리델. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Eric Liddell' (https://www.britannica.com/biography/Eric-Liddell). READ: (1) Britannica, full; (2) Olympedia athlete page 69245, full; (3) BBC Culture 'In History' article (8 July 2024), full; (4) Guardian '50 stunning Olympic moments' No 8 (2012) with quoted 1924 and 1945 Guardian reports; (5) Scottish Athletics Arnold's Archive biography, full; (6) St Stephen's Philadelphia reflection on Weihsien (second-hand quotations of Gilkey, Hamilton and Michell); (7) Eric Liddell Community exhibition page (camp role); (8) Edinburgh Reporter (honorary degree). Eight substantive sources plus Wikidata. PERSPECTIVES: encyclopaedia, results archive, national press including a 1945 obituary, BBC archive interviews with friends and teammates, governing-body history, memorial institution, devotional secondary essay. COUNTER-VOICES AND LIMITS: the Guardian's 1945 obituary calls him probably the ugliest runner ever to win an Olympic title and says Americans laughed at his stride; the BBC notes the film misstates when he learned of the Sunday heats and quotes a teammate that his style failed in the last 200 yards; Scottish Athletics records that the IAAF later replaced his world record with a 1916 440-yard mark; Guardian 'true amateur' framing. NOT OPENED: Langdon Gilkey's Shantung Compound (archive.org full text is lending-only and returned a page shell), Norman Cliff's memoir, Duncan Hamilton's For the Glory, Catherine Swift/Caughey biographies, IWM interview with Cyril Greenland (catalogue summary only), IOC and Times 1924 reports, SOAS LMS papers. Camp behaviour is therefore partly second-hand and is scored with low confidence. LEGEND VERSUS RECORD: Chariots of Fire's 'learned on the boat' scene, the 'when I run I feel His pleasure' line and his supposed deathbed words as dramatised are not used or scored. EXCLUDED: family and private life, health, the cause of death as a trait. SELF-CALIBRATION (agent): top-risk rows reviewed: conflict_tolerance (62/0.55 lowered to 58/0.48, single retrospective friend's account), impact_motivation (70/0.58 kept: independent sources agree on the 1925 move, the 1941 decision and the camp role; the camp detail is second-hand and is already reflected in the confidence), adaptability (66/0.58 kept: event switch and result are documented by Olympedia and Scottish Athletics). HANDBACK63: {\"slug\": \"eric-liddell\", \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"initial_lead\": \"Agence Rol 1924 Colombes photograph (BnF Gallica)\", \"final_portrait_source\": \"Bibliotheque nationale de France / Agence Rol, 'Stamford, juillet 1924 ... Liddell arrivant dans la course de 1 mille relais' (Rol 93947), Gallica ark:/12148/btv1b53133695p, https://gallica.bnf.fr/ark:/12148/btv1b53133695p ; image via the Commons copy, downscaled to 864x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"conflict_tolerance\", \"old_score\": 62, \"old_confidence\": 0.55, \"new_score\": 58, \"new_confidence\": 0.48, \"reason\": \"Press-hostility evidence is a single friend's recollection 60 years later; the contemporary Guardian report shows only curiosity\"}], \"reviewed_kept\": [\"impact_motivation\", \"adaptability\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "caroline-herschel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Caroline Herschel",
+    "aliases": [
+      "Caroline Lucretia Herschel",
+      "Karoline Herschel"
+    ],
+    "wikidataId": "Q76948",
+    "birthYear": 1750,
+    "deathYear": 1848,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DE",
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "detail_oriented",
+      "patient"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_caroline_wikidata",
+      "kind": "wikidata",
+      "title": "Caroline Herschel (Q76948), verified live via the Wikidata API (2026-11-02): label 'Caroline Herschel', description 'German-British astronomer (1750-1848)', born 16 March 1750, died 9 January 1848, Korean label 캐롤라인 허셜. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q76948"
+    },
+    {
+      "id": "src_caroline_rmg",
+      "kind": "institution",
+      "title": "Royal Museums Greenwich, 'Caroline Herschel' topic page, read in full. CANONICAL SIGNIFICANCE SOURCE: a museum overview that presents her as an astronomer who 'battled against prejudice' to become 'an accomplished and respected member of the astronomical community', the first woman to discover a comet (1786, eight in all), who checked and corrected Flamsteed's star catalogue (published 1798 with an index and extra stars; it took 'a gruelling 20 months'), swept the sky with a telescope William made her and found three nebulae by 1783, later catalogued more than 2,500 nebulae, was granted a salary of GBP 50 by George III in 1787, received the Royal Astronomical Society gold medal (1828) and honorary membership (1835) and a Prussian gold medal, and who with William found more than 2,400 objects over twenty years. Museum popular overview; celebratory in tone.",
+      "url": "https://rmg.co.uk/stories/topics/caroline-herschel"
+    },
+    {
+      "id": "src_caroline_mactutor",
+      "kind": "biography",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Caroline Lucretia Herschel' biography, read in full: her father's encouragement and her mother's opposition to educating daughters, her years as a servant-like household worker, joining William in Bath in 1772, training as a singer, learning English and applied mathematics, becoming his research assistant who reduced and calculated his observations 'with notable accuracy', eight comets between 1786 and 1797 found by methodical sweeping, the 1798 Index to Flamsteed's Observations (with 560 omitted stars), the 2,500-nebulae catalogue after William's death, her gold medal (1828) and honorary memberships, her modesty, and the limits the biography itself notes (applied rather than pure mathematics, her own research pausing between 1798 and 1822, a subordinate position to William). Independent university biography; draws on her journals and the Herschel family memoir.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Herschel_Caroline/"
+    },
+    {
+      "id": "src_caroline_dnb",
+      "kind": "biography",
+      "title": "Dictionary of National Biography (1891), entry 'Herschel, Caroline Lucretia' (Wikisource transcription), read: eight comets between 1786 and 1797, five of undisputed priority; three nebulae found in 1783 including the companion of the Andromeda nebula; nightly work reading clocks, recording and calculating for William; arranging the British Catalogue stars in one-degree zones for his sweeps; the Index to Flamsteed (1798, Royal Society); a later zone catalogue of nebulae and clusters, unpublished, called her most valuable undertaking because it served John Herschel; the 1828 medal she was 'more shocked than gratified' by; and her insistence that she 'did nothing' for her brother. Late-Victorian reference compiled largely from her own journals and the family memoir, so close to her own account and period in its framing.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Herschel,_Caroline_Lucretia"
+    },
+    {
+      "id": "src_caroline_ras",
+      "kind": "institution",
+      "title": "Royal Astronomical Society, 'History of women at the RAS' (women.ras.ac.uk), read: Caroline Herschel was the first woman presented with the Society's gold medal (1828, 'the society's greatest honour'); at the presentation James South credited her as an original observer and not only her brother's assistant and praised 'the unconquerable industry of the sister'; the Council's 1835 recommendation to add 'Miss Caroline Herschel and Mrs Somerville' to the honorary members was carried unanimously. Learned-society institutional page; a contemporary-judgement perspective independent of the Herschel family.",
+      "url": "https://women.ras.ac.uk/women-and-the-ras/history-of-women-at-the-ras"
+    },
+    {
+      "id": "src_caroline_smg",
+      "kind": "institution",
+      "title": "Science Museum Group Collection, people record 'Caroline Lucretia Herschel 1750-1848', read: discoverer or co-discoverer of eight comets; in 1783 found the companion of the Andromeda nebula; with William helped raise the known nebulae from little over a hundred to more than two thousand; from 1796 corrected errors in Flamsteed's British Catalogue over close to two years; a royal pension in 1787; an invitation to Greenwich from the Astronomer Royal in 1799; after 1822 revised the whole nebulae catalogue in Hanover; recognised by the Astronomical Society and by a Prussian science medal at 96. Museum biographical record.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/cp38681"
+    },
+    {
+      "id": "src_caroline_physicstoday",
+      "kind": "press",
+      "title": "Physics Today (AIP), review of Michael Hoskin's 'The Herschel Partnership as Viewed by Caroline' and Caroline Herschel's autobiographies, read in full: the partnership called 'the most productive partnership astronomy has ever known'; William usually observed and she recorded; she was given a sweeping telescope and began recording sweeps in August 1782; her Flamsteed index with errata made the catalogue one 'in which observers could have full confidence' (Hoskin); she had to feed William during mirror-polishing; she is 'very self-effacing' yet admitted that publication 'flattered my vanity not a little'; her nephew John Herschel wrote that she had 'nothing of mathematical genius' but 'extraordinary powers of application'. Independent scholarly book review; the reviewed book is the main modern scholarly account, which was not opened.",
+      "url": "https://physicstoday.aip.org/reviews/the-lives-and-times-of-sibling-stargazers-the-herschel-partnership-as-viewed-by-caroline-and-caroline-herschels-autobiographies"
+    }
+  ],
+  "rows": {
+    "detail_orientation": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_caroline_mactutor, src_caroline_rmg, src_caroline_dnb, src_caroline_physicstoday | 1783-1798 | university biography, museum overview, period reference, scholarly review] Her routine work for William was reducing and calculating his observations, which MacTutor says she did with notable accuracy; the DNB records nightly clock-reading and recording and arranging catalogue stars in one-degree zones for his sweeps; and she checked Flamsteed's star catalogue against the observations over about twenty months (RMG; the Science Museum says close to two years), publishing an index with errata and omitted stars (500 per RMG, 560 per MacTutor, a discrepancy among sources), which Hoskin, as quoted by the review, says let observers have full confidence in the catalogue. Four sources converge on careful, painstaking record work; most praise is retrospective and admiring, and the reviewed Hoskin volume was not opened."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_caroline_rmg, src_caroline_mactutor, src_caroline_ras, src_caroline_dnb | 1782-1835 | museum overview, university biography, learned-society record, period reference] She swept the sky systematically over years with the telescope William gave her, finding eight comets between 1786 and 1797 and three nebulae in 1783; she spent about twenty months on the Flamsteed correction; and after William died she compiled the revised catalogue of about 2,500 nebulae (the DNB calls the later zone catalogue her most valuable undertaking). At the 1828 medal presentation the astronomer James South praised 'the unconquerable industry of the sister'. The evidence is mostly outcome and admiring contemporary praise; the daily routine itself comes through her own journals as relayed by the DNB and MacTutor, so confidence is held in the upper fifties."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caroline_physicstoday, src_caroline_rmg, src_caroline_mactutor | 1772-1822 | scholarly review, museum overview, university biography] She joined William in Bath in 1772, trained as a singer for his concerts, then became his observing and computing assistant (grinding and polishing mirrors, calculating, recording while he observed); the RMG counts more than 2,400 objects found by the pair over twenty years and Hoskin, via the review, calls their partnership the most productive astronomy has known. MacTutor notes she was very close to William but in many respects subordinate; John Herschel's verdict (via the review) credits her diligence rather than mathematical insight. Row limited to documented working partnership; the personal relationship, his marriage and her feelings about it are NOT scored."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caroline_mactutor, src_caroline_rmg, src_caroline_dnb, src_caroline_ras | 1783-1798, 1822-1828 | university biography, museum overview, period reference, learned-society record] Beyond assisting, she took up her own methodical comet search with a sweeping telescope, rode nearly thirty miles to report her last comet to the Astronomer Royal (RMG), compiled the Flamsteed index and, after William's death, the nebulae catalogue for the benefit of his son; at the medal presentation James South credited her as an original observer. MacTutor adds that her own research paused from 1798 until 1822, and the sources describe her as modest and without strong personal ambition, so initiative is read as documented work done on her own account within a supporting role, not as self-promotion."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_caroline_mactutor, src_caroline_rmg | 1772-1787 | university biography, museum overview] She moved from Hanover to England, learned English and the applied mathematics needed for calculation, trained and performed as a singer in Bath, then changed to astronomy full-time when William's interests turned that way (MacTutor says she gave up music around 1782 and regretted it) and later trained as an assistant observer. Two sources document the changes of work; the inference that this shows adaptability rather than circumstance is limited because the moves were largely driven by her brother's career."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "캐롤라인 허셜"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/caroline-herschel-busse-1847.jpg",
+    "width": 937,
+    "height": 1200,
+    "source": "Portrait print 'Caroline Herschel, geb. d. 16ten Marz 1750', drawn from life and engraved by G. Busse (Georg Heinrich Busse, 1810-1868), Hannover, 1847, when she was 97; ETH-Bibliothek Zurich image archive, record Portr_11026-092-SF. The print's own inscription reads 'Nach dem Leben gez. und gest. v. G. Busse, Hannover 1847' (drawn and engraved from life). The file is the museum-supplied scan of the whole sheet downscaled from 2179 x 2790 pixels to 937 x 1200; no upscaling and no retouching.",
+    "license": "Public domain (marked with the Public Domain Mark by the ETH-Bibliothek; 1847 print by an artist who died in 1868)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "G. Busse (Georg Heinrich Busse), portrait of Caroline Herschel, Hannover, 1847. ETH-Bibliothek Zurich, Bildarchiv, Portr_11026-092-SF (Public Domain Mark)",
+    "attributionUrl": "https://doi.org/10.3932/ethz-a-000110923",
+    "creator": "G. Busse (Georg Heinrich Busse)",
+    "date": "1847",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Herschel,_Caroline_(1750-1848)-Portrait-Portr_11026-092-SF.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (alt-dependent) (lead) / CONFIRMED, LEAD USED (initial lead ETH-Bibliothek 1847 portrait, same print). PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q76948 label 'Caroline Herschel', description 'German-British astronomer (1750-1848)', born 1750-03-16, died 1848-01-09, occupations include astronomer, Korean label 캐롤라인 허셜; not in prod63.txt, no candidate file existed for the slug (William Herschel exists separately as Q14277, a different person). Region western_europe (career base England, repo precedent William Herschel); zero politics (none); sources plausible. SOURCES READ (6 substantive): Royal Museums Greenwich topic page (CANONICAL SIGNIFICANCE SOURCE: Royal Museums Greenwich, rmg.co.uk/stories/topics/caroline-herschel), MacTutor biography, 1891 DNB entry, Royal Astronomical Society women's-history page, Science Museum Group people record, Physics Today review of Hoskin's Herschel Partnership. Perspectives: museum overview, university biography, learned-society record (James South's 1828 words), scholarly book review with John Herschel's qualified verdict, period reference. Counter-voice/limits: John Herschel's 'nothing of mathematical genius', MacTutor's limits (applied maths only, research paused 1798-1822, subordinate position), the DNB's caveat that her self-deprecation shapes the account. NOT OPENED: Hoskin's books and articles ('The Herschel Partnership', 'Caroline Herschel as observer'), her own Memoir and Correspondence (1876; Wikisource landing page only), Royal Irish Academy and Britannica pages (HTTP 403), Sky and Telescope (403). EXCLUSIONS: family dynamics (William's marriage, her feelings), health, any inference from her modesty; the 'first woman' claims are attributed to RMG and RAS only. Source discrepancy noted: 500 vs 560 omitted stars in the Flamsteed index (RMG vs MacTutor). KOREAN NAME: Wikidata Korean label 캐롤라인 허셜. PORTRAIT: Commons file page opened (ETH-BIB-Herschel, Caroline (1750-1848)-Portrait-Portr 11026-092-SF.jpg), whose wikitext reproduces the ETH-Bibliothek record: caption 'Caroline Herschel, geb. d. 16ten Marz 1750. Nach dem Leben gez. und gest. v. G. Busse, Hannover 1847', medium Druckgrafik (print), Copyright-Notice 'ETH-Bibliothek Zurich, Bildarchiv / Fotograf: nicht anwendbar / Portr_11026-092-SF / Public Domain Mark', scan 2616 x 3265 in the ETH record, 2179 x 2790 on Commons. The live ETH e-pics page is a JavaScript application whose record text could not be rendered by my fetch tool (placeholders only), so the ETH statement was read from the ETH-supplied metadata quoted in the Commons wikitext, which is the caveat; there is no conflicting institutional notice found, and the independent basis is age: the print was published in Hannover in 1847 and the engraver Georg Heinrich Busse (17 July 1810 - 26 February 1868, per Deutsche Biographie, opened) died in 1868, so it is out of copyright in Germany (life plus 70) and, being published before 1931, in the United States. The Royal Society and Hamburger Kunsthalle also hold the print (Kunsthalle page bot-blocked, not read; found through search only), which supports the identification of artist and date. The sitter is identified by the print's own inscription. kind likeness because the inscription says it was drawn from life. Downloaded from Commons original, downscaled with Pillow to 937 x 1200, saved as public/portraits/caroline-herschel-busse-1847.jpg. ROWS: 5 initially scored, 0 lowered; reviewed under the high-risk pass: detail_orientation, persistence, collaboration (and the remaining two) all kept; no broad scoring problem. HANDBACK63: {\"slug\":\"caroline-herschel\",\"portrait_preflight_grade\":\"STRONG (alt-dependent)\",\"initial_lead\":\"ETH-Bibliothek 1847 portrait (e-pics), Public Domain\",\"final_portrait_source\":\"ETH-Bibliothek Zurich Bildarchiv Portr_11026-092-SF, G. Busse (Georg Heinrich Busse) 1847 engraving, via https://commons.wikimedia.org/wiki/File:ETH-BIB-Herschel,_Caroline_(1750-1848)-Portrait-Portr_11026-092-SF.jpg and doi 10.3932/ethz-a-000110923\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":5,\"self_calibrated_rows\":[],\"reviewed_kept\":[\"detail_orientation\",\"persistence\",\"collaboration\",\"proactive_agency\",\"adaptability\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

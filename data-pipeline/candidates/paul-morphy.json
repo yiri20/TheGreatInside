@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "paul-morphy",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Paul Morphy",
+    "aliases": [
+      "Paul Charles Morphy"
+    ],
+    "wikidataId": "Q105589",
+    "birthYear": 1837,
+    "deathYear": 1884,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "competitor",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_morphy_wikidata",
+      "kind": "wikidata",
+      "title": "Paul Morphy (Q105589), verified live via the Wikidata API (2026-11-02): label 'Paul Morphy', description 'US chess player (1837-1884)', born 1837-06-22, died 1884-07-10, citizenship United States, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q105589"
+    },
+    {
+      "id": "src_morphy_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Paul Charles Morphy' (print view, revised 6 July 2025), read in full: American chess master who, in a public career of less than two years, became the world's leading player; won the first American championship tournament (New York, 1857); in Europe defeated Adolf Anderssen and every master who would face him (Howard Staunton avoided a match); played eight strong players blindfolded in Paris, winning six and drawing two; on returning in 1859 offered to face any player at odds of pawn and move and, when nobody responded, abandoned public chess; credited with being the first to rely on the principle of development before attack. CANONICAL SIGNIFICANCE SOURCE. The article's closing remarks on his later years were not used.",
+      "url": "https://www.britannica.com/print/article/392834"
+    },
+    {
+      "id": "src_morphy_whof",
+      "kind": "institution",
+      "title": "World Chess Hall of Fame, 'Paul Charles Morphy' inductee biography (inducted U.S. Hall of Fame 1986, World Hall of Fame 2001), read in full: won the First American Chess Congress in 1857 (the second official U.S. champion), defeated leading European players in 1858 and was hailed as world champion although no formal title competition existed, returned in 1859 as an acclaimed national hero and did not play serious chess again, and is described as a revolutionary player who valued long-term strategic development over premature attacks while still winning by spectacular sacrifices. A hall-of-fame biography, so admiring; its remarks on his later life were not used.",
+      "url": "https://worldchesshof.org/inductee/paul-morphy/"
+    },
+    {
+      "id": "src_morphy_heritage",
+      "kind": "press",
+      "title": "Charles L. Cutler, 'Paul Morphy, Chess Prodigy', American Heritage (August 1972, vol. 23 no. 5), read in full: a magazine biography drawing on his uncle's and niece's recollections and his secretary's account; covers his boyhood play, education before twenty, the 1857 New York congress (no time limit, long thinking, a challenge issued at odds of pawn and move), the Staunton evasions, the 1858 Paris blindfold display against eight opponents (his secretary's report of about ten hours at the board without food or water), the Anderssen match won 7-2 with 2 draws, and the 1859 return to New York. A popular history that relies on partisan witnesses (his secretary Frederick Edge, his uncle); the passages on his later life and mental state were deliberately not used.",
+      "url": "https://www.americanheritage.com/paul-morphy-chess-prodigy"
+    },
+    {
+      "id": "src_morphy_winter",
+      "kind": "press",
+      "title": "Edward Winter, 'The Real Paul Morphy by Charles Hertan', Chess Notes feature (updated to June 2026), read in full: a critical chess-historian's review of the 2024 Hertan biography; says David Lawson's 1976 'The Pride and Sorrow of Chess' remains the foundational Morphy scholarship and that Hertan largely recycles it with a one-sided stance against Staunton; cites Lawson on Morphy's family having opposed a money match and on the stakes problem in the 1858 Staunton negotiations; describes Staunton's Shakespeare contract; and says Morphy's associate F. M. Edge contributed to the breakdown of negotiations and that Morphy went to lengths to avoid meeting Staunton at the Birmingham tournament, giving what Winter calls a phoney excuse. Independent specialist criticism; Winter is a pro-Staunton historian, so his own view is treated as one side. Passages about Morphy's final years were not used.",
+      "url": "https://www.chesshistory.com/winter/extra/hertan.html"
+    },
+    {
+      "id": "src_morphy_rcf",
+      "kind": "institution",
+      "title": "Russian Chess Federation, 'Person of day - 22 June' feature on Paul Morphy (ruchess.ru), read in full: summarises the 1857 congress win, the 1858 European tour, Staunton formally accepting then avoiding a match, Morphy's match scores against English masters (Barnes +19 -7 =1, Boden +5 -1 =3, Bird +10 -1 =1, Levi +6 -0 =0, Medley +3 -0 =0, Owen +4 -1 =0, Loewenthal =9 -3 =2), Harrwitz (+5 -2 =0) and Anderssen (+7 -2 =2) in December 1858, his post-return announcement of pawn-and-move odds, and Botvinnik's and Alekhine's assessments of his open-game mastery. A federation summary with a different national viewpoint; its closing sentence on his later years was not used and the figures are not independently audited.",
+      "url": "https://www.ruchess.ru/en/persons_of_day/paul_morphy/"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_morphy_britannica, src_morphy_heritage, src_morphy_rcf, src_morphy_winter | 1857-1859 | reference biography + magazine biography + federation summary + critical chess historian] Britannica, the magazine biography and the federation page agree that after winning the 1857 congress he challenged the whole country at odds of pawn and move, went to Europe seeking the leading masters, tried repeatedly to arrange a match with Staunton, beat Anderssen (+7 -2 =2) and every master who would meet him, and on returning in 1859 again offered odds to anyone; Britannica says he abandoned public chess when nobody answered. Winter adds one contrary point, that Morphy avoided meeting Staunton at the Birmingham tournament with a poor excuse, and that Edge, his own associate, helped break down the match negotiations, so the drive to meet every rival is documented but not unqualified."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_morphy_britannica, src_morphy_whof, src_morphy_heritage, src_morphy_rcf | 1857-1859 | reference biography + hall-of-fame biography + magazine biography + federation summary] Britannica says he was the first to rely on the principle of development before attack, the hall of fame says he was the first to understand and demonstrate the value of long-term strategic development rather than premature attacks, the magazine biography quotes his uncle on the precision of his calculation and Anderssen's remark that he was like a piece of machinery, and the federation page quotes Botvinnik on his mastery of open positions. Systematic, calculated play is described by several sources but through results and later admiration; no first-hand account of how he analysed, so inference rather than documented behaviour."
+    },
+    "deep_focus": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_morphy_heritage | 1857-1858 | magazine biography] The magazine biography says that in the 1857 congress, played without a time limit and with single moves sometimes taking over an hour, he outsat and outplayed the best players, and quotes his secretary that after about ten consecutive hours of blindfold play against eight opponents in Paris he rose as fresh as when he sat down. Sustained concentration is plausible from these accounts, but the 1857 detail is a general description and the blindfold anecdote is the report of his own secretary, a partisan whom Winter treats critically. SELF-CALIBRATION (agent): lowered from 70 / 0.52 because the most specific evidence is a single secretary's retelling."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_morphy_britannica, src_morphy_whof, src_morphy_heritage | 1857-1859 | reference biography + hall-of-fame biography + magazine biography] Britannica and the magazine biography record that he offered pawn-and-move odds, giving up material and the first move, to any player in the country and then the world, and he played blindfold simultaneous games; the hall of fame says he often won by spectacular piece sacrifices. Accepting handicaps and sacrificing material on the board is documented, but these are risks inside a game he was far stronger at than most rivals, so the score is moderate and the confidence modest."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "폴 모피"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-02T00:00:00Z",
+    "updatedAt": "2026-11-02T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) / CONFIRMED: Cleveland Museum of Art 1942.1472, 'Paul Morphy, The Chess Champion', 1859, Winslow Homer (American, 1836-1910), wood engraving. The Open Access API record (openaccess-api.clevelandart.org, accession 1942.1472) gives share_license_status CC0 and no copyright field, and the live museum page https://clevelandart.org/art/1942.1472 states 'Public Domain: You can copy, modify, and distribute this work, all without asking permission'; the engraver died 1910. The printed caption on the sheet reads 'PAUL MORPHY, THE CHESS CHAMPION.' and the sheet shows the engraver's monogram; the museum record does not say what the engraving was made after, so the kind is historical_depiction (a published print, not a documented sitting). Museum print image 1832 x 2495 px, downscaled to 881 x 1200, never enlarged. The lead's alternatives (the second 1859 half-length print; the British Museum Congress print, non-commercial) were not needed.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-11-02) for Q105589 returned en label 'Paul Morphy', description 'US chess player (1837-1884)', born 1837-06-22, died 1884-07-10, ko label present. SLUG/QID CHECK: not in prod63.txt and no existing candidate file. Region north_america. Occupation, field, tag and archetype ids follow the existing chess precedents (bobby-fischer, jose-raul-capablanca: athlete, sport, competitor, prodigy, competitive_performer). Zero-politics passes: primary identity is competitive chess; his brief law career and his Civil War era are unscored.\nCANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Paul Charles Morphy' https://www.britannica.com/print/article/392834 (read in full).\nSOURCES READ (6 substantive): Britannica; World Chess Hall of Fame biography; American Heritage magazine biography (Cutler 1972); Edward Winter's Chess Notes review of the Hertan biography (critical specialist); Russian Chess Federation 'Person of day' page; Wikidata orientation only. Also read but not cited for any row: the Chess.com community biography (Bill Wall, 2007), the Chessgames.com player page and Winter's 'Paul Morphy and Chess Politics' item (a 1857 letter about the chess association; politics-of-chess, unscored). PERSPECTIVES: reference biography, hall of fame, popular history relying on partisan witnesses (uncle, niece, secretary), a critical pro-Staunton historian, a foreign federation. Non-self behavioural sources: American Heritage and Winter. COUNTER-VOICES: Winter on the Birmingham avoidance and on Edge's role; Staunton's side of the match dispute. Because accounts of the 1858 negotiations and of his stamina rest mainly on Edge, a partisan, confidence stays <= 0.58 and no score exceeds 70.\nNOT OPENED: David Lawson's 1976 biography and Charles Hertan's 2024 biography (lending/paywalled; only Winter's review of Hertan and Lawson quoted second hand), Edge's contemporary book on Morphy's European tour, Chess Notes feature articles on the Staunton controversy and on Edge (only skimmed in search results), US Chess Hall of Fame site. EXCLUDED: everything about his final decades, seclusion, mental state, family and the allegations about his later behaviour (present in Britannica, the hall-of-fame page, American Heritage and Chess.com) - none of it is scored or inferred; his law practice, Civil War period and the Confederate appointment attempt (political); the Staunton-versus-Morphy blame question beyond what the sources agree on. Four rows only: sparse because the sources record results and public challenges, not conduct away from the board.\nSELECTIVE SELF-CALIBRATION: reviewed deep_focus (lowered 70/0.52 to 66/0.48: the specific evidence is his secretary's retelling), competitiveness (kept: Britannica, the magazine biography and the federation agree; Winter's contrary point already reflected in 70/0.55), analytical_rigor (kept at 68/0.56: multiple sources on his strategic style, explicitly labelled strong inference). Initial rows 4; lowered 1.\nHANDBACK63: {\"slug\":\"paul-morphy\",\"portrait_preflight_grade\":\"STRONG (lead-robust)\",\"initial_lead\":\"Winslow Homer 1859 wood engraving, Cleveland Museum of Art 1942.1472\",\"final_portrait_source\":\"Cleveland Museum of Art, 1942.1472, Winslow Homer, wood engraving, 1859, CC0 Open Access, https://clevelandart.org/art/1942.1472\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":4,\"self_calibrated_rows\":[{\"attribute\":\"deep_focus\",\"old_score\":70,\"old_confidence\":0.52,\"new_score\":66,\"new_confidence\":0.48,\"reason\":\"the most specific evidence is a single retelling by his own secretary, a partisan witness\"}],\"reviewed_kept\":[\"competitiveness\",\"analytical_rigor\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":4}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/paul-morphy-homer-1859.jpg",
+    "width": 881,
+    "height": 1200,
+    "source": "Wood engraving 'Paul Morphy, The Chess Champion' by Winslow Homer, 1859; Cleveland Museum of Art, Purchase from the J. H. Wade Fund, accession 1942.1472, released under the museum's Open Access (CC0) programme. The museum's print image was 1832 x 2495 pixels; this project reduced it to 881 x 1200 pixels, never enlarging it",
+    "license": "CC0 (Cleveland Museum of Art Open Access); engraver died 1910",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Winslow Homer, Paul Morphy, The Chess Champion, 1859, wood engraving, Cleveland Museum of Art, Purchase from the J. H. Wade Fund, 1942.1472, CC0",
+    "attributionUrl": "https://clevelandart.org/art/1942.1472",
+    "creator": "Winslow Homer",
+    "date": "1859",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://clevelandart.org/art/1942.1472"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "okakura-kakuzo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Okakura Kakuzō",
+    "aliases": [
+      "Okakura Kakuzo",
+      "Okakura Tenshin",
+      "Kakuzo Okakura",
+      "Okakura-Kakuzo",
+      "岡倉覚三",
+      "岡倉天心"
+    ],
+    "wikidataId": "Q942995",
+    "birthYear": 1863,
+    "deathYear": 1913,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "writer"
+    ],
+    "fieldIds": [
+      "art",
+      "education"
+    ],
+    "impactDomains": [
+      "cultural",
+      "artistic",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "cross_disciplinary",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_okakura_wikidata",
+      "kind": "wikidata",
+      "title": "Okakura Kakuzō (Q942995), verified live via the Wikidata API (2026-11-04): label 'Okakura Kakuzō', description 'Japanese scholar and art critic (1863-1913)', born 14 December 1863 (other birth statements 1862 and 1863 also recorded), died 2 September 1913, citizenship Japan, Korean label '오카쿠라 덴신'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q942995"
+    },
+    {
+      "id": "src_okakura_britannica",
+      "kind": "biography",
+      "title": "'Okakura Kakuzō', Encyclopaedia Britannica, read in full (short entry). CANONICAL SIGNIFICANCE SOURCE: an art critic who had great influence on modern Japanese art; graduate of Tokyo Imperial University (1880), met Ernest Fenollosa and worked to re-educate the Japanese to appreciate their own heritage; a principal founder of the Tokyo Fine Arts School (opened 1887) and its head a year later, which omitted Western painting and sculpture from its curriculum; ousted in 1898 in an administrative struggle; founded the Nippon Bijutsu-in with followers such as Hishida Shunsō and Yokoyama Taikan; a frequent traveller who became curator of the Oriental art division of the Boston Museum of Fine Arts; his enthusiasm 'often led him to assert the superiority of Oriental over Western art'; wrote The Ideals of the East (1903), The Awakening of Japan (1904) and The Book of Tea (1906) in English to spread his ideas. Reference entry; brief, dates differ from other sources.",
+      "url": "https://www.britannica.com/biography/Okakura-Kakuzo"
+    },
+    {
+      "id": "src_okakura_nippon",
+      "kind": "press",
+      "title": "'Beyond East and West: Okakura Kakuzō and The Book of Tea' (Shapers of Japanese History series), nippon.com, read via a fetched summary of the full article: gives his family and schooling, training in traditional arts, work in the Ministry of Education, the founding role at the Tokyo Fine Arts School, the loss of its deanship amid tensions over Western-style education with many faculty and artists resigning in protest, the founding of the Nihon Bijutsuin with them (a soft-lined style critics called vague and unpopular, with financial trouble), the trip to India and friendship with Tagore, the 1904 move to Boston as curator of Chinese and Japanese art at the Museum of Fine Arts, the 1905 Izura retreat, The Book of Tea (1906) and a 1913 opera libretto. Largely admiring popular article by a Japanese foundation site; the personal scandal it mentions is deliberately not used.",
+      "url": "https://www.nippon.com/en/views/b07207/beyond-east-and-west-okakura-kakuzo-and-the-book-of-tea.html"
+    },
+    {
+      "id": "src_okakura_gardner",
+      "kind": "institution",
+      "title": "'Isabella and Okakura Kakuzō's Impactful Friendship', Isabella Stewart Gardner Museum blog, read via a fetched summary: says he arrived in New York in March 1904 with the painters Yokoyama Taikan, Hishida Shunsō and Rokkaku Shisui to raise money for the Nihon Bijutsuin by selling works in America, was introduced to Isabella Stewart Gardner by John LaFarge, presided over a candlelit tea ceremony at Fenway Court in winter 1905, gave her a tea set and a copy of The Book of Tea (1906), and that she held a memorial service for him in 1913; the page itself says he never directly advised her on collecting. A museum staff blog: laudatory, with an internal inconsistency over how long he lived in Boston.",
+      "url": "https://www.gardnermuseum.org/blog/isabella-and-okakura-kakuzos-impactful-friendship"
+    },
+    {
+      "id": "src_okakura_mfabulletins",
+      "kind": "institution",
+      "title": "Museum of Fine Arts, Boston, Bulletin notices: 'Okakura-Kakuzo' (October 1913, the obituary note stating he died on 2 September as Curator of the Chinese and Japanese Department) and 'In Memory of Okakura-Kakuzo' (April 1916), both via the JSTOR Early Journal Content copies on the Internet Archive, read in full. The 1916 note records that he founded the Nippon-Bijitsuin in 1897 after resigning as Director of the Imperial Academy of Art at Ueno and taking 'the abler half of the faculty' with him, that the school continued as a protest against abandoning Eastern artistic ideals for Western ones, and quotes him on the mutual toleration of Asian faiths. Contemporary museum notices: short, sympathetic, institutional.",
+      "url": "https://archive.org/details/jstor-4423694"
+    },
+    {
+      "id": "src_okakura_ideals",
+      "kind": "archive",
+      "title": "Kakuzo Okakura, 'The Ideals of the East, with special reference to the art of Japan' (John Murray, London, 1903; Dutton, New York, 1920 printing), Internet Archive scan, read in part: the introduction by Sister Nivedita (a contemporary Calcutta-based writer) and the opening and closing chapters. Nivedita's introduction is a near-contemporary account: it says he was a member of the 1886 Imperial Art Commission sent to study art in Europe and the United States, was made director of the new art school at Ueno, resigned in 1897 when European methods were to become more prominent, was joined within six months by thirty-nine of the strongest young artists who opened the Nippon Bijitsuin at Yanaka, aided the government in classifying art treasures, and visited the Ajanta caves; it compares him to William Morris. Partisan and admiring; the book's own text is self-authored and its political 'Asia is one' framing is not scored.",
+      "url": "https://archive.org/details/idealsofeastwith1920okak"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_okakura_britannica, src_okakura_nippon, src_okakura_mfabulletins, src_okakura_ideals, src_okakura_gardner | 1887-1913 | encyclopedia, popular article, museum notices, near-contemporary introduction, museum blog] Five sources of different kinds describe him building institutions rather than waiting for them: a principal founder of the Tokyo Fine Arts School (opened 1887) and its head a year later; after leaving it, founding the Nippon Bijutsu-in with the artists who followed him (Britannica; the 1916 Boston note; Nivedita, who counts thirty-nine artists within six months); keeping it going through unpopularity and financial trouble, including a 1904 trip to New York with three of its painters to raise money by selling their works (nippon.com, Gardner); and then building a department and a retreat in his last decade. The accounts of his departure from the school differ (ousted in an administrative struggle in 1898 versus resigned in 1897 over Western methods), the founding narrative is told mostly by admirers, and the personal circumstances reported in one source are not scored, so the confidence is moderate."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_okakura_nippon, src_okakura_britannica, src_okakura_ideals, src_okakura_mfabulletins | 1880-1913 | popular article, encyclopedia, near-contemporary introduction, museum notices] He is documented as trained in English and Western subjects at the University of Tokyo and in Chinese poetry, nanga painting, koto and tea at home; as a Ministry of Education official; school head; adviser who helped classify national art treasures; traveller to India (where Nivedita says his Ajanta visit marked an era) and China; museum curator in Boston; and the author of three books in English and a 1913 opera libretto (nippon.com). Breadth across administration, scholarship, museum work and writing is documented by offices and publications, but largely by admiring accounts and a short Britannica entry."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_okakura_britannica, src_okakura_nippon, src_okakura_mfabulletins, src_okakura_ideals | 1887-1904 | encyclopedia, popular article, museum notices, near-contemporary introduction] He became head of a new state art school within a year of its opening, and when he left, nippon.com says many artists and faculty resigned in protest and the Boston bulletin says he took 'the abler half of the faculty' with him to found a new academy; he later led a delegation of artists to America to raise funds. The pattern is a leader whom colleagues followed out of a state institution, but the number and the motives come from sympathetic or retrospective accounts, and the loss of the post itself is attributed in other sources to an administrative struggle. SELF-CALIBRATION (agent): lowered from 68 / 0.52 to 64 / 0.48 because the following he commanded rests on an admiring contemporary and a one-line popular-press statement, and the sources disagree on why he left."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_okakura_britannica, src_okakura_mfabulletins, src_okakura_ideals, src_okakura_nippon | 1887-1906 | encyclopedia, museum notices, near-contemporary introduction, popular article] Britannica says he and Fenollosa deliberately left Western painting and sculpture out of the new school's curriculum, going against the early Meiji drive toward westernisation; the 1916 Boston note says his cause was the maintenance of the Asiatic spirit in Japanese art in the face of admiration for things European; Nivedita says his analysis of Northern and Southern Chinese thought was attracting attention among scholars; nippon.com says his institute's soft-lined style was called vague and was initially unpopular. The same Britannica entry says his enthusiasm led him to assert the superiority of Oriental over Western art, so the stand against prevailing taste is documented along with a one-sidedness; the 'Asia is one' political framing is not scored."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_okakura_britannica, src_okakura_gardner, src_okakura_nippon | 1903-1906 | encyclopedia, museum blog, popular article] Britannica says he wrote The Ideals of the East, The Awakening of Japan and The Book of Tea in English in order to spread his ideas abroad; the Gardner blog says he arrived in America with painters to raise money by selling works, presided over a candlelit tea ceremony at Fenway Court, and shaped Isabella Stewart Gardner's interest in tea, flower arrangement and Buddhism, giving her a copy of the Book of Tea; nippon.com says the book presents the tea ceremony as a way to promote mutual respect between East and West. Documented effort to win a Western audience and one named patron, but the sources are admiring, the influence on the patron is asserted by her own museum, and Britannica notes his tendency to overstate the case for Oriental art, so the score and confidence are moderate and the impact dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오카쿠라 덴신"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait was established. Lead image: Commons file 'Okakura Kakuzo Portrait c1905.png', credited to the Tenshin Memorial Museum of Art, Ibaraki, photographer 'Unknown', date 'circa 1905', tagged only with the Commons 'PD-Japan-oldphoto' template; the 1898 portrait (Commons 'Okakura Tenshin.jpg', same holder, author unknown, 'permission: public domain') has the same problem. BLOCKERS: (1) no photographer, no first publication and no archival record: the Commons template is a Japanese-jurisdiction claim only, and a country's term alone is not a US basis (a photograph that was still protected in Japan in 1996 would be restored in the US, and without a publication date that cannot be excluded); (2) the holding museum's own page states no terms and I found none that permit reuse; (3) alternatives: a c.1904 gelatin silver print in the Isabella Stewart Gardner Museum is catalogued with a museum copyright notice (c) 2017, so it is not usable; a 1922 Commons sketch of him credited to Shimomura Kanzan (PD-Japan template) cites only 'Catalogue' as its source, so provenance and identity of the item cannot be verified; the Museum of Fine Arts Bulletin notices of 1913 and 1916 (pre-1931, US-published) contain no portrait of him, and the 1913 Dent book 'The Life and Thought of Japan' is by his brother Okakura Yoshisaburo, not him. NEXT STEP: find a pre-1931 publication that prints a portrait of him with a credit (for example a plate in a Boston or Tokyo periodical or in the 1922 Japanese collected works) and cite that item-level publication, or obtain written reuse terms from the Tenshin Memorial Museum of Art or the Izura institute at Ibaraki University."
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / HELD: confirmed risky. The lead's c.1905 Tenshin Memorial Museum portrait (Commons PNG, 'PD-Japan-oldphoto', photographer unknown) and the 1898 alternative from the same holder fail for the reasons in portrait.reason; additional alternatives checked and rejected: Gardner Museum c.1904 photograph (museum copyright notice per the catalogue), Kanzan 1922 sketch (provenance 'Catalogue' only), MFA Bulletin 1913/1916 (no portrait), Dent 1913 (different author).\nPREFLIGHT: QID VERIFIED LIVE (2026-11-04) Q942995 label 'Okakura Kakuzō', description 'Japanese scholar and art critic (1863-1913)', born 1863-12-14 (alternative statements 1863 and 1862-02-14 also present), died 1913-09-02, citizenship Japan, Korean label '오카쿠라 덴신'; not in prod63.txt and no candidate file existed. Region east_asia, nationality JP, era 20th_century (precedent mori-ogai, born 1862; main English works 1903-06). ZERO POLITICS: his 'Asia is one' Pan-Asian framing, his sympathy with Indian nationalists and his government art-policy posts are mentioned in the sources but not scored; his primary identity is art criticism, education and museum work. PRIVATE LIFE: deceased; the personal scandal reported in one popular source and his health at death are deliberately not used. VOCABULARY: occupations scholar and writer (no 'art critic', 'curator' or 'art historian' label exists), fields art and education, impact domains cultural, artistic, educational, tags founder, cross_disciplinary, communicator, archetypes cross_disciplinary_generalist and organizational_leader; all grepped in en.ts. KO NAME: Wikidata Korean label '오카쿠라 덴신' (the standard Korean rendering of the pen name). GAP REPORTED: no 'curator', 'art critic' or 'art historian' occupation label.\nCANONICAL SIGNIFICANCE SOURCE: 'Okakura Kakuzō', Encyclopaedia Britannica (https://www.britannica.com/biography/Okakura-Kakuzo; fetched with curl because the WebFetch tool received a 403).\nREAD: Britannica (full entry), nippon.com 'Beyond East and West' (fetched summary), Gardner Museum blog (fetched summary), MFA Bulletin 1913 and 1916 notices (full), The Ideals of the East 1920 Dutton printing (Nivedita's introduction, opening and closing chapters; the rest not read), plus the Wikidata record. Five substantive sources. PERSPECTIVES: an encyclopedia, a Japanese foundation's popular history article, two museum institutions (Boston MFA bulletins, Gardner Museum), a near-contemporary Indian-based witness (Nivedita), and his own book as a self-authored source. COUNTER-VOICES: Britannica's 'ousted in an administrative struggle' and 'assert the superiority of Oriental over Western art', nippon.com's report of the critics who called his school's style vague and of the institute's financial trouble; sources disagree on 1897 resignation versus 1898 ousting. NOT OPENED: The Book of Tea text, Okakura's letters, Fenollosa's writings, Bharucha's and other scholarly studies (the Essays in History article and the University of Michigan dissertation were blocked: Anubis check and 403), Harvard I Tatti page (too short to use). EXCLUDED: personal scandal, health, Pan-Asian political framing, the Indian-nationalist sympathies.\nMAJOR ACHIEVEMENT SELF-GATE: first pass PASS on all five checks (see draft review). SELF-CALIBRATION (agent): rows reviewed under the high-risk pass: leadership_drive (lowered from 68 / 0.52 to 64 / 0.48: the following he commanded rests on an admiring contemporary and one popular-press line and the sources disagree on why he left), proactive_agency (kept: five sources of different kinds agree on the institution-building sequence), independent_thinking (kept: confidence 0.5 with the superiority caveat recorded). BROAD FLAG: none; no scholarly monograph or critical study was opened, so the profile is sparse (5 rows) with moderate confidence.\nHANDBACK63: {\"slug\": \"okakura-kakuzo\", \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"initial_lead\": \"c.1905 portrait, Tenshin Memorial Museum of Art (Ibaraki)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"leadership_drive\", \"old_score\": 68, \"old_confidence\": 0.52, \"new_score\": 64, \"new_confidence\": 0.48, \"reason\": \"the following he commanded rests on an admiring contemporary and one popular-press line, and the sources disagree on why he left the school\"}], \"reviewed_kept\": [\"proactive_agency\", \"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

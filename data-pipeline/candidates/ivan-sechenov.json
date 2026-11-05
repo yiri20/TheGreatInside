@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ivan-sechenov",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ivan Sechenov",
+    "aliases": [
+      "Ivan Mikhailovich Sechenov",
+      "Ivan Setchenov"
+    ],
+    "wikidataId": "Q380243",
+    "birthYear": 1829,
+    "deathYear": 1905,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "biology",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "educational"
+    ],
+    "tagIds": [
+      "mentor",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sechenov_wikidata",
+      "kind": "wikidata",
+      "title": "Ivan Sechenov (Q380243), verified live via the Wikidata API (2026-11-02): label 'Ivan Sechenov', description 'Russian physiologist (1829-1905)', born 1829 and died 1905 (Julian and Gregorian dates both recorded), Korean label 이반 세체노프. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q380243"
+    },
+    {
+      "id": "src_sechenov_sorokina",
+      "kind": "biography",
+      "title": "T. S. Sorokina, 'Ivan Mikhailovich Sechenov in the history of Russian and world physiology' (in Russian), Bulletin of the Peoples' Friendship University of Russia, Medicine series, 2014, no. 3, pp. 97-107, read in full. CANONICAL SIGNIFICANCE SOURCE: a university history-of-medicine article presenting him as the founder of the Russian school of physiology and of the study of brain reflexes: after training abroad (1856-1860, including Ludwig's laboratory) and a doctorate in 1860 he taught at the St Petersburg Medico-Surgical Academy, then in Odessa (from 1870), St Petersburg University and Moscow University; in 1862, in Claude Bernard's laboratory, frog experiments showed centres in the brain that actively hold back reflex movements (central or Sechenov inhibition); the treatise 'Reflexes of the Brain' (1863; separate edition 1866) extended the reflex principle to mental activity and was passed by the censor only under a changed title, then arrested in 1866 under threat of prosecution, the case dropped in 1867; Pavlov named it as the starting point of his own work; his respiration studies (the blood-gas absorptiometer, a theory of the composition of alveolar air prompted by the 1875 balloon deaths) are called a basis of later aviation physiology; he gave public lectures, taught workers' courses, backed higher education for women, and in 1901 left his Moscow chair to 'clear the way for young forces' while continuing in a laboratory he had set up at his own expense. Admiring Russian historiography, with several 'first' claims that are not repeated here unless attributed.",
+      "url": "https://journals.rudn.ru/medicine/article/download/3146/2600"
+    },
+    {
+      "id": "src_sechenov_esbe",
+      "kind": "biography",
+      "title": "I. Tarkhanov, 'Sechenov, Ivan Mikhailovich' in the Brockhaus and Efron Encyclopedic Dictionary (Russian Wikisource transcription of the c. 1900 entry), read in full: a contemporary physiologist's account that he trained at the Main Engineering School, served as an officer, retired in 1850 and studied medicine at Moscow, spent time in Berlin, Heidelberg and Vienna, became a professor at the Medico-Surgical Academy and later at Novorossiysk, St Petersburg and Moscow universities, 'enriched science with a whole series of very important physiological discoveries' (blood gases and carbon dioxide, the centres that inhibit reflex movements in the frog brain, alcohol, spinal reflexes, cardiac innervation, renal circulation), published 'Reflexes of the Brain' (1863 and 1866), wrote textbooks and gave public lectures, and was 'one of the outstanding Russian physiologists'. Near-contemporary peer reference; brief and measured.",
+      "url": "https://ru.wikisource.org/wiki/ЭСБЕ/Сеченов,_Иван_Михайлович"
+    },
+    {
+      "id": "src_sechenov_koretzky",
+      "kind": "biography",
+      "title": "Maya Koretzky, 'Sensation(al) Science: Ivan Sechenov's Reflexes of the Brain and Revolutionary Physiology, Literature, and Politics of the Russian 1860s', Ezra's Archives (Cornell University history journal), read in full: the censorial committee confiscated 3,000 copies of Reflexes of the Brain on 4 April 1866 and issued an indictment on 9 June 1866, and the book only narrowly escaped a public trial; he defended it as meant 'solely to explain the action of external stimuli upon the nervous system'; a contemporary critic reports he joked he would take a frog to court and perform his experiments before the judge; an engineer by training, he re-designed his advisor's blood-gas apparatus into a published, widely adopted instrument and brought an induction coil and a galvanometer from Germany for his popular 1861 lectures on animal electricity; the author argues that the treatise 'makes claims far beyond the scope of Sechenov's laboratory experience'. Independent scholarly essay by a student historian, built on secondary and translated sources; the critical counter-voice on the reach of his claims.",
+      "url": "https://ecommons.cornell.edu/server/api/core/bitstreams/297f39d1-f55a-440d-931f-d882e2ce2d2f/content"
+    },
+    {
+      "id": "src_sechenov_pomelova",
+      "kind": "institution",
+      "title": "L. A. Pomelova, I. I. Shevelev, N. E. Vazheevskaya and R. V. Shurupova, 'I. M. Sechenov: professional activity and personal qualities of the scientist' (in Russian), Sechenov Herald (Sechenov First Moscow State Medical University), 2014, no. 3 (17) or 4 (18), pp. 15-19, read in full: an anniversary article from the university that bears his name, drawing heavily on his own Autobiographical Notes: he left the army for medicine and then chose theoretical physiology because disease lacked 'a key to understanding'; it took almost ten years of intense work to formulate the law of gas solution in salt solutions; by his own count he spent 53 years in the laboratory, bought laboratory instruments whenever money allowed and built original instruments himself. Institutional and admiring, much of it self-report relayed second-hand; the childhood and personality passages are NOT used.",
+      "url": "https://www.sechenovmedj.com/jour/article/download/790/499"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_sechenov_sorokina, src_sechenov_koretzky, src_sechenov_pomelova, src_sechenov_esbe | 1858-1893 | university history article, scholarly essay, institutional article, contemporary peer entry] In Ludwig's laboratory he built the absorptiometer for extracting gases from blood (Sorokina; Koretzky says he re-designed his advisor's machine and published the result), designed a portable respiration apparatus, brought an induction coil and galvanometer from Germany and used them in his 1861 public lectures, and in 1862 used layered brain cuts and salt crystals on frogs to find the inhibiting centres; the 1893 Moscow institute introduced demonstrations during lectures. A contemporary peer (Tarkhanov) lists the same experimental topics. Four sources converge on hands-on instrument-building and experiments; much of the detail traces back to his own Autobiographical Notes and to admiring accounts."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sechenov_sorokina, src_sechenov_koretzky, src_sechenov_esbe | 1862-1866 | university history article, scholarly essay, contemporary peer entry] He extended the reflex principle, until then worked out for the spinal cord, to the brain and to mental activity, and held to the published treatise through a year of censorship and a threatened prosecution (Sorokina; Koretzky). Koretzky also argues that the treatise 'makes claims far beyond the scope' of his laboratory experience, so the independence is read as a documented willingness to generalise beyond the data and defend the result, with limits stated by the critic; the claims of priority ('first') come from the admiring source and are not relied on. Impact dual-edged because the reach of the claim outran the experiments."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sechenov_sorokina, src_sechenov_pomelova | 1856-1881 | university history article, institutional article] He left the engineering and army path for medicine and then chose physiology because disease offered 'no key to understanding' (Pomelova, from his own notes), and after the death of two French balloonists in April 1875 he turned to the physiology of gas exchange to find out why they died, publishing a general theory of the composition of alveolar air in 1880-1881 (Sorokina). Two sources, one of them largely self-report relayed by admirers; the balloon episode rests on Sorokina alone."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sechenov_pomelova, src_sechenov_sorokina | 1860-1901 | institutional article, university history article] Pomelova reports, from his own words, almost ten years of intense work to formulate his law of gas solution in salt solutions and a count of 53 years spent in the laboratory; Sorokina notes that after leaving his Moscow chair in 1901 he kept working in a laboratory set up at his own expense. SELF-CALIBRATION (agent): top-risk row; lowered from 66 / 0.50 to 62 / 0.46 because the decade of effort and the 53-year count are his own recollections relayed by an admiring anniversary article, with no independent source describing the work."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sechenov_sorokina | 1861-1901 | university history article] Sorokina records that he gave public lectures, taught at courses for workers, was a firm supporter of higher education for women, brought women into his laboratories, lectured at the Higher Women's Courses in St Petersburg, and stepped down at 72 to clear the way for younger people; the ESBE confirms the public lectures and textbooks. SELF-CALIBRATION (agent): top-risk row; lowered from 68 / 0.52 to 64 / 0.46 because the education and women's-access activities rest on one admiring article with no independent corroboration, and the 'clear the way' remark is his own phrase."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이반 세체노프"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "Rights basis for the artwork is clear but the holder's terms could not be read. The lead image is Ilya Repin's 1889 oil portrait of Sechenov (87 x 67.5 cm), held by the State Tretyakov Gallery; the Commons file (Repin_SechenovIM.jpg, 1557 x 2003) cites only the state museum catalogue (goskatalog.ru, id 4575055) and carries a generic public-domain-by-artist-death tag (Repin died 1930). Repin's death in 1930 makes the painting public domain in the United States and in Russia, and a faithful photograph of a flat painting adds no new US rights, but a Commons tag is not evidence for a museum-hosted image and the holder's own item page and reproduction terms had to be opened. Within one bounded retry (about 15 calls) the goskatalog server refused the connection, the Tretyakov collection item pages returned 502, the collection search page is dynamic and gave no item link, and the Tretyakov site's only linked agreement was a privacy policy, so no institutional usage statement was read and the inventory number was not found. Next step: a human (or a later session when the Tretyakov or goskatalog pages respond) opens the Tretyakov Gallery item page for the 1889 Repin portrait of Sechenov and the gallery's image-reuse terms; if they allow reuse of images of public-domain works, use that image (kind: likeness, a portrait painted from the sitter) downscaled to at most 1200 pixels. Alternatives not accepted: an unattributed 1900s photograph on Commons (unknown photographer, generic tag only), an 1886 portrait file whose creator and holder I could not identify, and the Wellcome group portrait (not examined)."
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / FAILED TO CONFIRM: HELD. PREFLIGHT: QID VERIFIED LIVE (2026-11-02, Wikidata API) Q380243 label 'Ivan Sechenov', description 'Russian physiologist (1829-1905)', Korean label 이반 세체노프, occupations include physiologist; not in prod63.txt (checked), no candidate file existed for the slug. Region central_europe (Russian precedent). ZERO POLITICS: his primary identity is physiologist; the 1860s censorship case is documented but only as the reception of a scientific treatise, and no political stance, materialism-as-ideology or activism is scored. No inference from childhood or personality passages of the anniversary article. SOURCES READ (5 incl. Wikidata; 4 substantive): Sorokina 2014 (CANONICAL SIGNIFICANCE SOURCE: T. S. Sorokina, RUDN University medicine bulletin, 2014), Tarkhanov in the Brockhaus-Efron dictionary, Koretzky in Ezra's Archives (Cornell), Pomelova and colleagues in the Sechenov Herald. Perspectives: Russian university historiography (admiring), a contemporary peer's encyclopedia entry, an independent US scholarly essay with a critical view on the reach of the treatise, a university anniversary article. Counter-voice: Koretzky ('claims far beyond the scope of Sechenov's laboratory experience'; the book 'only narrowly escaped' trial); Sorokina and Pomelova are admiring and partly rest on Sechenov's Autobiographical Notes (self-report; the Notes and Joravsky's and Todes's books were not opened). The source count is below the 6-9 target because the English-language and encyclopedic sources were blocked or unreachable: Britannica (403), encyclopedia.com (404), Presidential Library page (browser check), Springer J Neurol profile by Gavrilov and Valko 2015 (login redirect; PubMed abstract only), episteme wiki (503), the 2020s Russian critical article 'Revolutionary steps to a dead end' (abstract only, not read), doc.rero.ch copy (410). This is a flagged thinness for the lead. EXCLUSIONS: his private life, his marriage, the novel's character allegedly modelled on him, the resignation circumstances in 1870 (no source read gives a reason), and all 'first in the world' priority claims unless attributed. KOREAN NAME: Wikidata Korean label 이반 세체노프. PORTRAIT HELD: see portrait.reason (lead image Repin 1889 held by the Tretyakov Gallery; rights of the painting are clear by artist death, but the holder's live page and terms could not be opened within the bounded retry). WHY THE LEAD FAILED: the preflight (plausible, lead-robust) counted on the artist's death date alone; the unresolved item was the Russian museum's reproduction terms, and the holder's sites were unreachable from this environment (connection refused / 502), not a finding of a restriction. ROWS: 5 initially scored, 2 lowered (persistence 66/0.50 to 62/0.46; impact_motivation 68/0.52 to 64/0.46); high-risk pass also reviewed independent_thinking (kept: the critic's caveat is already priced in). HANDBACK63: {\"slug\":\"ivan-sechenov\",\"portrait_preflight_grade\":\"PLAUSIBLE (lead-robust)\",\"initial_lead\":\"Ilya Repin 1889 oil portrait (State/National library holdings, goskatalog)\",\"final_portrait_source\":null,\"portrait_lead_or_replacement\":\"none\",\"portrait_final_status\":\"held\",\"preflight_overestimate_reason\":\"The lead rested on Repin's 1930 death date, but the Tretyakov Gallery/goskatalog item pages and reproduction terms could not be opened (connection refused, 502), so the holder's usage statement is unread; no restriction was found, but the Commons PD tag alone cannot be accepted for a museum-hosted image.\",\"risky_success_note\":null,\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"persistence\",\"old_score\":66,\"old_confidence\":0.5,\"new_score\":62,\"new_confidence\":0.46,\"reason\":\"The decade of effort and the 53-year laboratory count are his own recollections relayed by an admiring anniversary article with no independent source\"},{\"attribute\":\"impact_motivation\",\"old_score\":68,\"old_confidence\":0.52,\"new_score\":64,\"new_confidence\":0.46,\"reason\":\"The education and women's-access activities rest on one admiring article with no independent corroboration\"}],\"reviewed_kept\":[\"independent_thinking\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}
