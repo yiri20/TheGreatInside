@@ -445,3 +445,17 @@ re-run for diagnostics; no product or test code was changed to mask known load-o
   decision, not a source.
 - The ~750 scale checkpoint is deferred (37 to go).
 - **Roster64 not started.**
+
+## Post-commit scoring lock
+
+Implementation commit `ad26e4d` (`Roster63: 21 freshly researched people shipped, 9 held (692 -> 713)`),
+clean tree before and after. `checkScoringLockIntegrity.ts` output:
+
+```
+Checked 877 previously-committed candidate file(s) against HEAD. 0 flagged.
+Legacy scoring lock: 22 pre-pipeline production people covered, 0 flagged.
+```
+
+Committed = on-disk = checked (877 files), 0 unresolved genuine flags. Every downward lead correction
+carries `RUBRIC_CORRECTION` in its row rationale and in `provenance.notes`; the removed Mori Ogai row is
+documented in the same notes.
