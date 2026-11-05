@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "catherine-ndereba",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Catherine Ndereba",
+    "aliases": [
+      "Wincatherine Nyambura Ndereba"
+    ],
+    "wikidataId": "Q230950",
+    "birthYear": 1972,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "KE"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ndereba_wikidata",
+      "kind": "wikidata",
+      "title": "Catherine Ndereba (Q230950), verified live via the Wikidata API (2026-11-04): English label 'Catherine Ndereba', description 'Kenyan marathon runner and Olympic medalist', Korean label 캐서린 은데레바, born 21 July 1972, no death date, citizenship Kenya. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q230950"
+    },
+    {
+      "id": "src_ndereba_wa",
+      "kind": "institution",
+      "title": "World Athletics feature, 'Marathon greats Ndereba and Okayo blazed a trail for Kenyan women' (19 April 2023, republished by The Standard, Kenya), read in full. CANONICAL SIGNIFICANCE SOURCE: Ndereba, born Wincatherine Nyambura Ndereba, broke the women's marathon world record in Chicago in 2001 (2:18:47), was the first Kenyan woman to win Boston (2000) and became the first woman with four Boston wins (2000, 2001, 2004, 2005; 2005 won by almost two minutes after being 80 seconds down at halfway); two World Championships golds (2003, 2007) and a 2005 silver, Olympic silvers in 2004 and 2008, top two in five successive global championship marathons 2003-2008; she lost Boston 2002 to Margaret Okayo after a hamstring tightened with two miles to go, and the piece quotes The Independent on Sunday saying she remained virtually unknown outside Kenya and the USA after the world record. Governing-body feature written for a general audience; admiring in tone but it records losses and the 'overshadowed by Radcliffe' point.",
+      "url": "https://www.standardmedia.co.ke/sports/amp/athletics/article/2001471192/www.digger.co.ke"
+    },
+    {
+      "id": "src_ndereba_rrw",
+      "kind": "press",
+      "title": "David Monti, Race Results Weekly via LetsRun.com, 'Sixteen Years Ago This Week, Catherine Ndereba Was First Woman to Run Sub-2:19' (5 October 2017), read in full: reconstruction of the 2001 Chicago world record (a slow first 5 km, then she picked up her own pace and ran the second half alone in 1:08:32), her statement that she trained and raced without pacemakers, and her account that she was upset at being left off the 2000 Kenyan Olympic team despite winning Boston and decided in 2001 to skip the World Championships and aim for a record. Specialist press with interview quotes from her; the motive statements are her own, retrospective.",
+      "url": "https://www.letsrun.com/news/2017/10/rrw-sixteen-years-ago-week-catherine-ndereba-first-woman-run-sub-219/"
+    },
+    {
+      "id": "src_ndereba_kenyayearbook",
+      "kind": "institution",
+      "title": "Kenya Yearbook Editorial Board (a Kenyan government body), 'Catherine Ndereba - The great marathoner who almost wasn't', read in full for her career path: found a place to train after school through her coach, joined the Kenya Prisons Service athletics squad in 1994, beat the reigning world cross-country champion at the prisons championships that year yet was not picked for the national team, ran road races abroad, switched to the marathon in 1999 and finished sixth at Boston after leading, won Boston in 2000 and 2001 and Chicago's world record in 2001, was then selected for the 2003 World Championships and 2004 Olympics, and describes the 2003 Paris gold as the first marathon win at a major world event by a Kenyan woman. Official publication; admiring, with her own quotations. Family details in it are not used.",
+      "url": "https://sectors.kenyayearbook.go.ke/?p=1769"
+    },
+    {
+      "id": "src_ndereba_nazzaro",
+      "kind": "press",
+      "title": "Mary Nicole Nazzaro, 'Osaka Notes, Day Nine' column on RunBlogRun (2 September 2007, Osaka World Championships), read in full: a ten-point reading of Ndereba's career after her second world title (2:30:37 in 86-degree heat, eight seconds clear of Zhou Chunwei with a late surge after seven women were still together at 38 km), noting her consistency, her preparation, her adaptability to cold, rain, hills and heat, and her habit of crediting others and her faith. Opinion column by a running journalist who interviewed her; strongly admiring.",
+      "url": "https://www.runblogrun.com/2007/09/osaka-notes-day-nine-by-mary-nicole-nazzaro.html"
+    },
+    {
+      "id": "src_ndereba_lagat",
+      "kind": "press",
+      "title": "Justin Lagat, 'Catherine Ndereba: Not Ready to Retire, Just Yet' (RunBlogRun, about a September 2013 half-marathon weekend near Nairobi), read in full: she ran the 10 km event and finished 28th, said she had not thought of retiring and was preparing for spring marathons the next year; the writer notes she had not had a major highlight since 2009 and that she had finished 22nd at the previous Nagoya Marathon. Short press report; the candid note on her later results is the nearest thing to a critical voice among the sources.",
+      "url": "https://www.runblogrun.com/2013/09/catherine-ndereba-not-ready-to-retire-just-yet-by-justin-lagat.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ndereba_kenyayearbook, src_ndereba_rrw, src_ndereba_wa, src_ndereba_lagat | 1994-2013 | official publication, specialist press, governing-body feature] The Kenya Yearbook says she beat the reigning world cross-country champion in 1994 yet was not picked for the national team and kept racing abroad, and that after finishing sixth at Boston in 1999 after leading she returned and won in 2000 and 2001; Race Results Weekly says she was left off the 2000 Olympic team despite winning Boston and went on to the 2001 record; World Athletics records that she lost Boston 2002 narrowly and then won in 2004 and 2005, and was top two in five straight global marathons from 2003 to 2008; Lagat reports she was still racing and not retiring in 2013. The results and returns are documented by several writers; the inner motives come from her own quotations."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ndereba_rrw, src_ndereba_nazzaro, src_ndereba_kenyayearbook | 2001-2015 | specialist press, opinion column, official publication] Race Results Weekly quotes her saying she ran her races without pacemakers and trained herself to hold a target pace alone in long runs ('In my training I don't rely on somebody I just rely on myself'); Nazzaro generalises from her record that she is stunningly consistent in how she lives and trains; the Kenya Yearbook says she still trained daily as a prison officer. No coach, training log or independent description of her training was read, so this is her own statement plus an admiring generalisation. SELF-CALIBRATION (agent): top-risk row; lowered from 68 / 0.55 to 64 / 0.50 because the evidence is her own statements and a journalist's generalisation, with no independent account of her training."
+    },
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ndereba_wa, src_ndereba_nazzaro, src_ndereba_rrw | 2001-2007 | governing-body feature, opinion column, specialist press] World Athletics describes her 2005 Boston win: 80 seconds behind the leaders at halfway, she ate into the deficit, caught Alemu on Heartbreak Hill and won by almost two minutes, and says she had a reputation for always finishing marathons strongly; Nazzaro describes the 2007 Osaka win, with seven women together at 38 km, as a final surge that won by eight seconds; Race Results Weekly shows her picking up the pace after a slow start in the 2001 record run. Race narratives from independent writers consistently show a late-race, win-oriented style; the behavioural detail is race reporting, not private conversation."
+    },
+    "achievement_drive": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ndereba_rrw, src_ndereba_kenyayearbook, src_ndereba_wa | 2000-2001 | specialist press, official publication, governing-body feature] Race Results Weekly quotes her in 2001 saying she would skip the World Championships and aim for the world record or world best ('it's something special to hold a record'), and in 2017 saying her exclusion from the 2000 Olympic team drove her; she then ran 2:18:47 in October 2001, as World Athletics and the Kenya Yearbook confirm. The 2001 statement is contemporaneous and the result is documented, while the 'driven by a snub' reading is her own retrospective account. SELF-CALIBRATION (agent): reviewed and kept; the goal-setting statement is contemporaneous and the outcome independently documented."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ndereba_nazzaro, src_ndereba_wa, src_ndereba_kenyayearbook | 1999-2008 | opinion column, governing-body feature, official publication] Nazzaro argues she treats each marathon as a new puzzle and cites podiums in cold and rain (Boston 2000, Helsinki 2005), heat and hills (Athens 2004) and extreme heat (Osaka 2007); the Kenya Yearbook records her switch from track and cross-country to the marathon in 1999 and the lesson she took from her sixth place at Boston that year. The podium record across conditions is factual; the 'adaptability' interpretation is a retrospective journalist's reading, and results alone do not show how she adjusted. SELF-CALIBRATION (agent): top-risk row; lowered from 64 / 0.50 to 60 / 0.45 because the trait claim is stronger than the documented behaviour (results across conditions, one opinion column) and no source describes her adjustments."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "캐서린 은데레바"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/catherine-ndereba-pecher-2007.jpg",
+    "width": 810,
+    "height": 1050,
+    "source": "Wikimedia Commons, 'Osaka07 D9M WMarathon Ndereba running.jpg' -- Eckhard Pecher's own work (uploaded under the account Arcimboldo, which the file page names as the author), taken 2 September 2007 at the World Athletics Championships in Osaka during the women's marathon that Ndereba won; original 1209 x 1913 pixels, cropped to the upper body (810 x 1050) with no resizing and no upscaling. The same photographer's post-race image of the same event shows the Kenya number 12 bib on the winner. Single action photograph in profile with sunglasses.",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+    "attribution": "Photo: Eckhard Pecher (Arcimboldo), 2 September 2007, CC BY 2.5, cropped from the original",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Osaka07_D9M_WMarathon_Ndereba_running.jpg",
+    "creator": "Eckhard Pecher",
+    "date": "2007-09-02",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Osaka07_D9M_WMarathon_Ndereba_running.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED: the lead file was used. Commons file page 'Osaka07 D9M WMarathon Ndereba running.jpg' (wikitext and API metadata opened live): author Eckhard Pecher (User:Arcimboldo), own work, taken 2007-09-02 at the Osaka World Championships, licence CC BY 2.5 (self-published template), original 1209 x 1913, no restriction notes. I cropped to the upper body (810 x 1050) without resizing so the face is more visible; no upscaling. The sitter is named in the file description and its sibling image by the same author (post-race) shows the Kenya number 12 bib and the winner of that race; World Athletics (read) confirms Ndereba won in Osaka in 2007. The photo is a profile action shot with sunglasses, so face visibility is limited; I judged it acceptable because it is a documented photograph of the sitter at her championship race. Alternatives opened and rejected: the same author's post-race photo (crowded, 753 x 1109) and TarmoK's Helsinki 2005 photo (licence tags on the page conflict: GFDL and cc-by-sa-2.0 in the wikitext against CC BY-SA 3.0 in the API). PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q230950 label 'Catherine Ndereba', description 'Kenyan marathon runner and Olympic medalist', ko label 캐서린 은데레바, born 21 July 1972, no death date, citizenship Kenya; not in prod64.txt; no candidate file existed for catherine-ndereba. REGION sub_saharan_africa (Kenyan precedent). ERA contemporary (living; careers 1994-2015). LIVING SUBJECT: public professional behaviour only; family, faith as private belief, marital and parenting details and the Kenya Prisons Service employment are not scored or carded (the Service is a state uniformed body: it is mentioned here only as her employer and is not scored as politics or military). VOCABULARY: occupation athlete, field sport, impact domains athletic and historical, tags sustained_excellence and competitor, archetype competitive_performer, all existing and labelled. KO NAME: Wikidata Korean label 캐서린 은데레바. ATTRIBUTION: attributable (extensive race records and interviews). CANONICAL SIGNIFICANCE SOURCE: World Athletics feature republished by The Standard (https://www.standardmedia.co.ke/sports/amp/athletics/article/2001471192/www.digger.co.ke). READ (substantive): World Athletics feature (institution); Race Results Weekly via LetsRun (press); Kenya Yearbook profile (institution, government publication); RunBlogRun Osaka column (press); RunBlogRun Lagat report (press). 5 substantive sources plus Wikidata for the QID. Also opened and not relied on: a 2010 RunBlogRun interview with the maker of the documentary WinCatherine (partisan, mostly family and background), The Star 2020 piece on advice to young athletes, the Boston.com 2001 runner profile (short; confirms first-Kenyan Boston win and sixth in 1999). PERSPECTIVES: governing-body and official institutional voices (World Athletics, Kenya Yearbook); specialist race reporting with her own quotations (Race Results Weekly); an admiring opinion column (Nazzaro); a candid later-career press report (Lagat). NON-SELF BEHAVIOURAL SOURCES: World Athletics, Race Results Weekly and Nazzaro describe actual race behaviour. NO ADVERSARIAL SOURCE EXISTS among the sources read: the nearest counter-voice is World Athletics quoting The Independent on Sunday that she was virtually unknown outside Kenya and the USA, her 2002 Boston loss, and Lagat's note on her later results; I did not find any critical piece on her conduct, and therefore kept confidence at or below 0.62 and scores at or below 74. NOT OPENED: the World Athletics athlete profile page (script-rendered, nothing readable), Runner's World and The Guardian features, the WinCatherine film, The Independent on Sunday original. EXCLUSIONS: her family, husband and daughter, her time away from them (criticised at home per World Athletics) and her faith as a private conviction are not scored; the 2000 Olympic selection dispute is used only as her stated public reaction, not as an allegation against the federation; the claim that the 2001 world record was 'the greatest athletic performance of all time by a woman' is an Independent opinion and is not repeated. SELF-CALIBRATION (agent): top-risk rows reviewed: discipline (68/0.55 lowered to 64/0.50: her own statements plus a journalist's generalisation), adaptability (64/0.50 lowered to 60/0.45: trait claim stronger than the documented behaviour), achievement_drive (kept at 70/0.55: contemporaneous statement and documented outcome). Broad flag for the lead: only five rows; no interpersonal, creative or cognitive traits are scored because the sources describe race behaviour only. HANDBACK64: {\"slug\": \"catherine-ndereba\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"NOT APPLICABLE: author-licensed Commons file (own work); no separate holder\", \"holder_record_checked_by_you\": \"No separate holder exists; I opened the live Commons file page wikitext and API metadata for the lead file: author Eckhard Pecher (User:Arcimboldo), own work, date 2007-09-02, licence CC BY 2.5, original 1209x1913, no restrictions field. Two alternatives (his post-race image 753x1109, crowded; TarmoK's Helsinki 2005 image, whose wikitext licence tags GFDL and cc-by-sa-2.0 conflict with the API's CC BY-SA 3.0) were opened and not used.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Eckhard Pecher photograph, Osaka World Championships marathon 2007\", \"final_portrait_source\": \"Wikimedia Commons, Eckhard Pecher, 'Osaka07 D9M WMarathon Ndereba running.jpg', 2007-09-02, CC BY 2.5 (https://commons.wikimedia.org/wiki/File:Osaka07_D9M_WMarathon_Ndereba_running.jpg); cropped to 810x1050 from 1209x1913, no resizing\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"discipline\", \"old_score\": 68, \"old_confidence\": 0.55, \"new_score\": 64, \"new_confidence\": 0.5, \"reason\": \"Evidence is her own statements and a journalist's generalisation with no independent account of her training\"}, {\"attribute\": \"adaptability\", \"old_score\": 64, \"old_confidence\": 0.5, \"new_score\": 60, \"new_confidence\": 0.45, \"reason\": \"The trait claim is stronger than the documented behaviour: results across conditions and one opinion column, no source describes her adjustments\"}], \"reviewed_kept\": [\"achievement_drive\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

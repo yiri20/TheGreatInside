@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "claude-bernard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Claude Bernard",
+    "aliases": [
+      "Claude Bernard (physiologist)"
+    ],
+    "wikidataId": "Q208230",
+    "birthYear": 1813,
+    "deathYear": 1878,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "biology",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "innovator",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bernard_wikidata",
+      "kind": "wikidata",
+      "title": "Claude Bernard (Q208230), verified live via the Wikidata API (2026-11-04): label 'Claude Bernard', description 'French physiologist (1813-1878)', born 1813-07-12, died 1878-02-10, citizenship France, Korean label 클로드 베르나르. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q208230"
+    },
+    {
+      "id": "src_bernard_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Claude Bernard' (Britannica Editors), article body read as served (through the sections on digestion, the liver, the vasomotor nerves, carbon monoxide and curare). CANONICAL SIGNIFICANCE SOURCE: French physiologist known chiefly for discoveries on the role of the pancreas in digestion, the glycogenic function of the liver and the regulation of the blood supply by the vasomotor nerves; one of the founders of experimental medicine who advanced beyond the vitalism and indeterminism of earlier physiologists; his most seminal contribution was the concept of the internal environment, which led to the present understanding of homeostasis; career from apothecary's apprentice and failed playwright to Magendie's assistant and deputy at the Collège de France, the chance observation of rabbits passing clear urine that led to the pancreas work, the 1856 discovery of glycogen. Scholarly modern reference.",
+      "url": "https://www.britannica.com/biography/Claude-Bernard"
+    },
+    {
+      "id": "src_bernard_cdsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography, entry 'Bernard, Claude' (as reproduced on Encyclopedia.com), full entry read: his work as Magendie's preparateur from 1841, the modest private laboratory in the Cour du Commerce and the neighbouring Pelouze laboratory, Magendie teaching him vivisection and suspicion of accepted doctrines, the failed teaching examination and resignation of 1844, the unsuccessful attempt at a free course, the 1847 deputyship and the 1852 chair, the discoveries (pancreatic juice and fat, the perfused liver and glycogen in 1855-57, vasodilating nerves in 1858, the milieu interieur in 1857), the shift from laboratory work to methodological synthesis in the Cahier rouge of 1850-60, the 1860-63 convalescence in which he drafted the Introduction, honours, his teaching 'science in the making', his posthumously published fermentation notes and Pasteur's angry reply ('there was truth and error on both sides'), and his criticism of Pasteur on spontaneous generation and of Virchow's cell theory. Scholarly historical dictionary; the entry's own judgments on Bernard's errors are used where cited.",
+      "url": "https://www.encyclopedia.com/people/medicine/medicine-biographies/claude-bernard"
+    },
+    {
+      "id": "src_bernard_scitimes",
+      "kind": "biography",
+      "title": "Science and Its Times, entry 'Claude Bernard' (as reproduced on Encyclopedia.com), read in full: sugar in the blood of meat-fed animals and the conversion of other substances to glucose in the liver, the concept of internal secretions and of the internal environment ('the constancy of the internal milieu is the condition for free and independent life'), the 1860 convalescence and the Introduction, the influence on Henderson and Cannon, and the note that a close examination of his research notebooks indicates the path to each discovery was much more confused and tortuous than the published accounts admit. Student-oriented reference work, independent of the Dictionary entry; the notebook remark is the counter-voice on his published method.",
+      "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/claude-bernard"
+    },
+    {
+      "id": "src_bernard_europe",
+      "kind": "biography",
+      "title": "Encyclopedia of Modern Europe, entry 'Bernard, Claude' (as reproduced on Encyclopedia.com), read in full: failed the agregation but his position let him do extensive research; the Rapport of 1867; the inaugural lecture to the Academie francaise seeking to reduce oppositions between materialism and spiritualism; the Introduction (1865) and its reception; the view that he regarded philosophers including Comte with quiet disdain and was suspicious of 'making a specialty of generalizations'; and that his determinism and attacks on vitalism raised criticism and debates that continue. A historiographical overview; used for the positivism and criticism points.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/bernard-claude"
+    },
+    {
+      "id": "src_bernard_ewb",
+      "kind": "biography",
+      "title": "Encyclopedia of World Biography, entry 'Claude Bernard' (as reproduced on Encyclopedia.com), read in full: apprenticeship and theatre ambitions, medical studies from 1834 and internship in 1839, honours, Pasteur's remark on the 1865 Introduction ('never has anything clearer, more complete, more profound, been written about the difficult art of experiment'), the starved rabbits and clear urine, the pancreatic juice and fat absorption, the washed dog liver that was again rich in sugar a day later and the isolation of glycogen in 1857, the sympathetic-nerve cuts of 1851-52, curare from 1844 and carbon monoxide, and the early errors (the function of the chorda tympani and of the nerve to the vocal cords misinterpreted). Reference biography; independent of the Dictionary entry in wording but built on the same secondary literature.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/claude-bernard"
+    },
+    {
+      "id": "src_bernard_smg",
+      "kind": "institution",
+      "title": "Science Museum Group Collection, people record 'Claude Bernard 1813-1878' (biography text, read in full): a developer and teacher of experimental methods in medicine, professor of physiology in Paris, author of the influential Introduction to the Study of Experimental Medicine (1865); the museum notes that much of his work used experiments on living animals and that many people opposed the method. Short museum biography; the counter-voice on the use of vivisection (the museum's remark about his family is private life and is not used).",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/cp89174"
+    },
+    {
+      "id": "src_bernard_intro",
+      "kind": "archive",
+      "title": "Claude Bernard, Introduction a l'etude de la medecine experimentale (Paris, 1865), French original on Project Gutenberg, the passages on vivisection (part II, section III) and on the laboratory as 'the true sanctuary of medical science' read: SELF-REPORT of his own method and its defence ('without this mode of investigation there is no physiology or scientific medicine'). Self-authored; used only to show how he described his method, never as sole support for a row.",
+      "url": "https://www.gutenberg.org/ebooks/16234"
+    },
+    {
+      "id": "src_bernard_biusante",
+      "kind": "archive",
+      "title": "Bibliotheque interuniversitaire de sante (BIU Sante, Universite Paris Cite), image bank record CIPC0168, 'Claude Bernard', lithograph by Alexandre Laemlein, 1858 (Licence ouverte). Holder record for the portrait only.",
+      "url": "https://www.biusante.parisdescartes.fr/histmed/image?CIPC0168"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernard_cdsb, src_bernard_ewb, src_bernard_britannica, src_bernard_intro | 1843-1860 | historical dictionary, reference biography, encyclopaedia, self-report] The Dictionary entry says Magendie taught him to use animal vivisection as the principal means of medical research and that he built an especially productive method of research on living creatures, including a temporary pancreatic fistula to collect pure pancreatic juice; Britannica and the Encyclopedia of World Biography describe his feeding of starved rabbits with meat to test his inference about their clear urine, and the latter the experiment in which a washed-out dog liver was again rich in sugar a day later. His own book defends vivisection as indispensable (self-report). Several independent reference works converge on a long run of concrete experiments; the approach was standard for the Magendie school, so the score stays below 85. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 80 / 0.62 to 76 / 0.58 because the principle is stated in his own 1865 Introduction (self-report) and a reference entry notes his notebooks show a more tortuous path than his published accounts."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernard_cdsb, src_bernard_ewb, src_bernard_scitimes, src_bernard_europe, src_bernard_intro | 1843-1878 | historical dictionary, reference entries, self-report] The Dictionary entry credits experiments that produced discoveries of undeniable value and records that he moved from collecting facts to methods and principles in the Cahier rouge and the 1865 Introduction, which Pasteur praised as clearer and more profound than anything written on the art of experiment (praise quoted in the Encyclopedia of World Biography). Against that, the Dictionary lists errors (gastric acidity attributed to lactic acid) and the World Biography entry his early misreading of the chorda tympani, the Science and Its Times entry says his notebooks show the path to each discovery was more tortuous than his published accounts admit, and the fermentation dispute with Pasteur had truth and error on both sides. SELF-CALIBRATION (agent): the row was lowered from 74/0.55 because the strongest praise is retrospective and the published method is partly self-presented."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernard_britannica, src_bernard_ewb, src_bernard_cdsb | 1846-1878 | encyclopaedia, reference biography, historical dictionary] Britannica says he was puzzled by the chance observation that some rabbits passed clear urine like meat-eaters, formed a hypothesis and confirmed it by feeding the rabbits meat and examining them, which opened the work on the pancreas; the Dictionary entry records that his study of digestion widened into nutrition and metabolism, and that he extended his work to plant physiology and the vital phenomena common to animals and plants. The follow-up of a chance observation is documented; breadth of interest rests on the encyclopaedic summaries."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernard_britannica, src_bernard_cdsb, src_bernard_scitimes, src_bernard_europe | 1855-1878 | encyclopaedia, historical dictionary, reference entries] Britannica calls the concept of the internal environment, which led to the present understanding of homeostasis, his most seminal contribution; the Dictionary entry dates his concepts of experimental determinism, internal secretion and the milieu interieur to 1855-57 and describes a move from concrete facts to general principles of research in the Cahier rouge and his courses on the vital phenomena common to all organisms; Science and Its Times quotes his dictum on the constancy of the internal milieu. The concept is documented; the later attribution of 'homeostasis' to others is retrospective, so confidence stays moderate."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernard_cdsb, src_bernard_britannica, src_bernard_europe | 1834-1852 | historical dictionary, encyclopaedia, reference entry] He ranked 26th of 29 in the internship examination and failed the teaching examination in 1844 (Britannica, Dictionary), tried and failed to organise a free course in experimental physiology, nearly gave up research for country practice, and meanwhile ran experiments in a modest private laboratory and a neighbour's laboratory; he became Magendie's deputy in 1847 and took over his chair and laboratory in 1852. The setbacks and the continued research are documented; the timeline is a compressed encyclopaedia summary and part of the decision-making rested on his finances, so confidence is moderate."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bernard_cdsb, src_bernard_europe, src_bernard_britannica | 1840s-1878 | historical dictionary, reference entry, encyclopaedia] The Dictionary entry says Magendie taught him to be suspicious of generally accepted theories and that he went beyond his master's empiricism; Britannica says he advanced beyond the vitalism and indeterminism of earlier physiologists; the Encyclopedia of Modern Europe says he regarded philosophers including Comte with quiet disdain, and the Dictionary says he never fully accepted Virchow's cell theory and criticised Pasteur's work on spontaneous generation (which the entry calls an extraordinary anticipation of molecular biology). It cut both ways: his last fermentation notes drew an angry reply from Pasteur with truth and error on both sides, hence dual-edged."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/claude-bernard-laemlein-1858.jpg",
+    "width": 840,
+    "height": 1200,
+    "source": "Lithograph portrait 'Claude Bernard', signed 'Laemlein 1858', printed by Lemercier, Paris; Bibliotheque interuniversitaire de sante (BIU Sante), Universite Paris Cite, record CIPC0168 (stamp of R. Blanchard). A contemporary printed portrait made when he was 45; the holder record does not document a sitting. Digital master 2645 x 3779 pixels; this copy downscaled to 840 x 1200 (never enlarged).",
+    "license": "Licence ouverte (Etalab) stated on the BIU Sante record; the lithograph is also public domain by age (Laemlein died 1871)",
+    "licenseUrl": "http://www.etalab.gouv.fr/pages/Licence_ouverte_Open_licence-5899923.html",
+    "attribution": "Alexandre Laemlein, 1858, BIU Sante, Universite Paris Cite (CIPC0168), Licence ouverte",
+    "attributionUrl": "https://www.biusante.parisdescartes.fr/histmed/image?CIPC0168",
+    "creator": "Alexandre Laemlein",
+    "date": "1858",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.biusante.parisdescartes.fr/histmed/image?CIPC0168"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "클로드 베르나르"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED, REPLACEMENT USED. The lead named a BIU Sante portrait c.1860 and the 1905 Fraitot plate; I used a different BIU Sante item, record CIPC0168, a lithograph signed 'Laemlein 1858' and printed by Lemercier, captioned 'CLAUDE BERNARD', made when he was 45. HOLDER RECORD OPENED: the live image-bank record (numerabilis.u-paris.fr/medica/banque-images) names the draughtsman Alexandre Laemlein, date 1858, technique lithograph, collection BIU Sante Medecine, a stamp of R. Blanchard, and links the Etalab Licence ouverte; the site's legal notice says content under an Etalab-type licence may be disseminated and reused, including commercially, with the author cited. Wikidata gives Laemlein (Q2833798) as a French lithographer and painter, 1813-1871, so the print is also public domain by age everywhere; I did not rely on the Commons tag (Commons copy: Licence Ouverte, same record). IDENTITY: the caption names him and the BIU record carries the person's name. KIND historical_depiction: the sitting is not documented in the holder record, so it is a contemporary lithograph portrait rather than a documented photograph or sitting. IMAGE: IIIF master 2645 x 3779 px downscaled to 840 x 1200 (no upscaling), saved as public/portraits/claude-bernard-laemlein-1858.jpg; the full print including caption is kept. The Regnault 1851 photograph on Commons was rejected: no holder is stated ('location not specified'). PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q208230 label 'Claude Bernard', description 'French physiologist (1813-1878)', 1813-07-12 to 1878-02-10, Korean label 클로드 베르나르; not in prod64.txt and no candidate file existed; no collision with the unrelated 'George Bernard Shaw' production entry (a name match only, different QID). REGION western_europe, nationality FR, era 19th_century. ZERO POLITICS: primary identity physiologist; his appointment as senator of the Empire, his Academie francaise seat and ministerial report are context and not scored; his marriage, separation and family opposition to vivisection are private life and are not used. VOCABULARY: occupations scientist, medical_researcher (he took the medical degree but never practised, per the Dictionary, so physician is not used); fields biology, medicine; tags innovator, systematic_thinker; archetype scholarly_specialist; impactDomains scientific, medical; all present in en.ts and ko.ts. KO NAME: Wikidata Korean label 클로드 베르나르. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Claude Bernard' (https://www.britannica.com/biography/Claude-Bernard). ATTRIBUTION: confirmed true; the discoveries, positions and methods are well documented by several independent reference works. READ: (1) Britannica article body as served; (2) Complete Dictionary of Scientific Biography entry (Encyclopedia.com), full; (3) Science and Its Times entry, full; (4) Encyclopedia of Modern Europe entry, full; (5) Encyclopedia of World Biography entry, full; (6) Science Museum Group people record; (7) the vivisection and laboratory passages of Bernard's 1865 Introduction (French original, Project Gutenberg; self-report). Seven substantive sources plus Wikidata. PERSPECTIVES: modern encyclopaedia, historical scientific dictionary, student reference with a notebook-based critique, historiographical overview, museum biography (animal-experimentation opposition), and his own text. COUNTER-VOICES AND LIMITS: Science and Its Times says his notebooks show a more tortuous path than his published accounts; the Dictionary records his errors and the Pasteur dispute (truth and error on both sides); the Modern Europe entry notes criticism of his determinism and that he is not a simple Comtean; the Science Museum notes opposition to his methods. The Dictionary entry's author is not given on the page, and the several Encyclopedia.com entries on one page are separate reference works but share a common secondary literature. NOT OPENED: Holmes's and Grmek's monographs, Olmsted's biography and Bernard's notebooks (not online or lending-only), the Gross 1998 article on the internal environment (not opened), Wellcome engravings (not needed after the BIU route). SELF-GATE (first pass): primary PASS (card 1 states the founding of experimental medicine and its method), top omission PASS (the internal environment concept is card 3; the discoveries card 2), identity PASS, significance-over-novelty PASS (the playwriting episode and fermentation dispute are kept out), side-project PASS. SELF-CALIBRATION: reviewed experimentation, analytical_rigor and systems_abstraction; lowered analytical_rigor 74/0.55 to 68/0.50 (retrospective praise and the notebook counter-voice); kept experimentation (80/0.62, several independent references) and systems_abstraction. Broad scoring flag: none; six rows, sparse by design, no row above 80 or 0.62. HANDBACK64: {\"slug\":\"claude-bernard\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"PLAUSIBLE (lead-robust)\",\"holder_record_at_preflight\":\"NOT VERIFIED: Wellcome catalogue and BIU Sante page not opened\",\"holder_record_checked_by_you\":\"Opened the live BIU Sante (Universite Paris Cite) image-bank record CIPC0168 at numerabilis.u-paris.fr/medica/banque-images: 'Claude Bernard', 1858, lithograph, draughtsman Laemlein, Alexandre, 'Licence' field linking the Etalab Licence ouverte, stamp of R. Blanchard, permanent address biusante.parisdescartes.fr/histmed/image?CIPC0168, IIIF master numerabilis.u-paris.fr/iiif/2/bqimg:ci:CIPC0168/full/max/0/default.jpg (2645x3779). The site's legal-notice page says content placed under a licence of the Etalab type may be disseminated and reused, including commercially, provided the author is cited. Wikidata gives Laemlein (Q2833798) as a French lithographer, 1813-1871.\",\"holder_contradiction_found\":false,\"initial_lead\":\"BIU Sante portrait c.1860 and the 1905 Fraitot book plate\",\"final_portrait_source\":\"BIU Sante, Universite Paris Cite, CIPC0168, lithograph by Alexandre Laemlein, 1858, https://www.biusante.parisdescartes.fr/histmed/image?CIPC0168 (Licence ouverte Etalab; draughtsman died 1871); IIIF master 2645x3779 downscaled to 840x1200\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":6,\"self_calibrated_rows\":[{\"attribute\":\"analytical_rigor\",\"old_score\":74,\"old_confidence\":0.55,\"new_score\":68,\"new_confidence\":0.5,\"reason\":\"Praise of the 1865 method book is retrospective and self-presented, and a reference entry notes his notebooks show a more tortuous path to each discovery than his published accounts admit\"}],\"reviewed_kept\":[\"experimentation\",\"systems_abstraction\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":6} RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 80 / 0.62 to 76 / 0.58 because the principle is stated in his own 1865 Introduction (self-report) and a reference entry notes his notebooks show a more tortuous path than his published accounts."
+  }
+}

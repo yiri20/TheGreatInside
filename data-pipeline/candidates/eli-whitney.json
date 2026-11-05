@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "eli-whitney",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Eli Whitney",
+    "aliases": [
+      "Eli Whitney Sr."
+    ],
+    "wikidataId": "Q280930",
+    "birthYear": 1765,
+    "deathYear": 1825,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "engineer",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "technology",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_whitney_wikidata",
+      "kind": "wikidata",
+      "title": "Eli Whitney (Q280930), verified live via the Wikidata API (2026-11-04): label 'Eli Whitney', description 'American inventor (1765-1825)', born 1765-12-08, died 1825-01-08, Korean label 엘리 휘트니, citizenship United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q280930"
+    },
+    {
+      "id": "src_whitney_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Eli Whitney' (Jeannette Mirsky, fact-checked by Britannica Editors, last updated September 2026), article body read in full. CANONICAL SIGNIFICANCE SOURCE: American inventor, mechanical engineer and manufacturer born 1765 in Westboro, Massachusetts, died 1825 in New Haven; best remembered for the cotton gin (built 1793, patented 1794) but 'most importantly' for developing the concept of mass production of interchangeable parts; the gin partnership with Phineas Miller was out of business by 1797 because planters would not pay and the gins were easily pirated; Congress refused to renew the patent (expired 1807), Whitney: 'An invention can be so valuable as to be worthless to the inventor'; state settlements from 1802 (South Carolina $50,000); the 1797-98 government call for muskets, Whitney's plan for 10,000 muskets in two years, machine tools so an unskilled workman made one part to a model, the 'engraving on copper plate' principle, more than ten years before delivery, and a 1801 demonstration before Jefferson that Britannica presents as the inauguration of the American system of mass production (contested by historians, see the American Heritage and BackStory sources); the gin made green-seed cotton profitable and was a key input in perpetuating slavery; he never patented later inventions. Scholarly reference by a co-author of a Whitney biography; its framing of the 1801 demonstration is the older, more favourable account.",
+      "url": "https://www.britannica.com/biography/Eli-Whitney"
+    },
+    {
+      "id": "src_whitney_nps",
+      "kind": "institution",
+      "title": "U.S. National Park Service, 'Eli Whitney' (people page, last updated September 2017), read in full: inventor, mechanical engineer and manufacturing pioneer best known for the cotton gin patented in 1794, a labour-saving device whose unforeseen effect was to help preserve and expand slavery (slave states rose from six in 1790 to 15 in 1860); he could not make money from it because of lack of capital, easy piracy and patent litigation; he signed a federal contract in 1798 for 10,000 guns, knowing nothing about small arms manufacture, and delivered the last guns in January 1809, almost nine years late; in the process he experimented with uniform, interchangeable parts made by special-purpose machines; 'he did not originate the idea of mass manufacture' but his work helped make the North an industrial powerhouse. Federal heritage-agency biography, independent of Britannica and more critical of the manufacturing claim.",
+      "url": "https://www.nps.gov/people/eli-whitney.htm"
+    },
+    {
+      "id": "src_whitney_amheritage",
+      "kind": "press",
+      "title": "Peter Baida, 'Eli Whitney's Other Talent', American Heritage, May/June 1987, article read in full: a historian-journalist's summary of the scholarly reassessment (Robert Woodbury, 'The Legend of Eli Whitney and Interchangeable Parts', Technology and Culture, 1960; Merritt Roe Smith; Edward Battison, 1966). Records the 1798 contract with an advance clause no other supplier had, Whitney's letter that the contract 'saved me from ruin', that he delivered the first arms about a year after the deadline and finished in January 1809, his July 1799 letter to Treasury Secretary Wolcott about tools that make parts 'perceptibly alike', that Honore Blanc had made interchangeable locks before him (shown to Jefferson in 1785), that tests of surviving Whitney firearms found parts not interchangeable in some respects, Smith's conclusion that Whitney must have staged the 1801 demonstration with specially prepared specimens, Woodbury's finding that from 1801 to 1806 he pursued cotton-gin patent suits instead of fulfilling the arms contract, Battison's finding of no evidence that he developed a true milling machine, and Smith's 1981 judgement that his main contribution was promoting the ideal of uniformity. Counter-voice and critical source; secondhand summary of scholars I did not open.",
+      "url": "https://www.americanheritage.com/eli-whitneys-other-talent"
+    },
+    {
+      "id": "src_whitney_backstory",
+      "kind": "press",
+      "title": "BackStory radio (Virginia Humanities), 'Fake It Until You Make It' segment of 'A History of Manufacturing in 5 Objects', transcript read in full, with historian Merritt Roe Smith of MIT: Whitney did not invent interchangeable parts, which 'worked itself out in the United States primarily over a 40-year period' and he 'never achieved it in his lifetime', but he was a promoter of the idea who 'planted the seed' and deserves credit for that; the hard problems were machines and gauges, with government sponsorship of the armories making the development possible; the world met the 'American system of manufactures' at the 1851 London Crystal Palace exhibition. Direct statement by a specialist historian of arms manufacture; independent of the encyclopaedic accounts.",
+      "url": "https://backstory.newamericanhistory.org/episodes/a-history-of-manufacturing-in-5-objects/2"
+    },
+    {
+      "id": "src_whitney_asme",
+      "kind": "institution",
+      "title": "Michael Abrams, 'Eli Whitney', ASME (American Society of Mechanical Engineers), published 19 July 2012, read in full: popular engineering-society biography noting that many would argue his conception of the uniform part outweighs the gin, the pre-existing roller gins, a stated historical debate over whether he relied on the insights of Catherine Greene, enslaved people on her plantation, or himself, the partnership terms with Phineas Miller, the failed first lawsuit and later wins once the pair licensed rather than ran gins, the muskets contract with extensions, and delivery of 500 muskets in 1801. Professional-society secondary article; used as a cross-check and for the inspiration debate.",
+      "url": "https://www.asme.org/engineering-topics/articles/manufacturing-processing/eli-whitney"
+    },
+    {
+      "id": "src_whitney_cthistory",
+      "kind": "institution",
+      "title": "Nancy Finlay (former Curator of Graphics, Connecticut Historical Society), 'North and South: The Legacy of Eli Whitney', ConnecticutHistory.org (CTHumanities), 9 February 2020, read in full: Yale-educated son of a farmer who never took up a teaching post in South Carolina, found the cotton-cleaning need in Georgia, devised a gin model in about ten days that cleaned more than ten times as much as hand work, patented it in 1794, could not produce enough gins and spent years in infringement suits, then built a musket factory at Whitneyville in Hamden, Connecticut, where he developed power-driven machine tools (filing jig, drilling machine, milling machine, trip hammers) that he never patented, producing 1,000 to 2,000 muskets a year by 1812; his son and two nephews continued his methods into the mid-19th century; he showed little interest in politics. State-heritage article by a museum curator; admiring in tone, leans on the older account of his machine tools (which Battison disputes).",
+      "url": "https://connecticuthistory.org/north-and-south-the-legacy-of-eli-whitney/"
+    },
+    {
+      "id": "src_whitney_smithsonian37",
+      "kind": "institution",
+      "title": "F. L. Lewton (Curator, Division of Textiles, U.S. National Museum), 'Historical Notes on the Cotton Gin', Smithsonian Report for 1937, pp. 549-563 (public-domain text on LacusCurtius), read in part (introduction and patent, litigation and activities sections): after studying Whitney's letters, early accounts and surviving gin models, records that 24 suits for infringement of his patent were instituted in the federal court at Savannah, Georgia between 1795 and 1805, that two suits were filed by Miller and Whitney in 1795, that earlier accounts show discrepancies and sectional bias, and that Whitney's own correspondence shows he carried on his experiments mainly in New Haven with brief stays in Georgia. Museum curator's archival study; older and focused on the gin and the patent.",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Journals/Smithsonian_Reports/1937/Historical_Notes_on_the_Cotton_Gin*.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_whitney_britannica, src_whitney_smithsonian37, src_whitney_nps, src_whitney_amheritage | 1795-1809 | encyclopaedia, museum report, federal heritage agency, historian-journalist] After the gin business failed by 1797 he and Miller fought infringement cases for years (24 suits at Savannah between 1795 and 1805 per the Smithsonian report; state settlements from 1802 per Britannica; new suits after the 1800 patent-law correction per American Heritage), and he saw the 1798 arms contract through to its last delivery in January 1809 (NPS, American Heritage). Sources agree on the length of both struggles; the persistence cost him time on the arms contract (Woodbury via American Heritage), so impact is dual-edged."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whitney_britannica, src_whitney_cthistory, src_whitney_amheritage | 1792-1798 | encyclopaedia, heritage article, historian-journalist] Britannica and the Connecticut History article record that in Georgia in 1792-93 he learned of the difficulty of cleaning short-staple cotton and saw that a machine could make the South prosperous and its inventor rich, and in 1797-98, with the government soliciting muskets from private contractors, he bid for the contract despite no experience of making firearms (American Heritage, NPS). The motive attributed in Britannica is an editorial characterisation; the dated actions are documented."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whitney_britannica, src_whitney_nps, src_whitney_cthistory | 1797-1809 | encyclopaedia, federal heritage agency, heritage article] Britannica says that after the gin partnership failed in 1797 he redirected his mechanical and entrepreneurial talents to projects in which his system of making gins was applicable, and he then took on a government arms contract in a field he did not know (NPS), building a factory and special-purpose machines to do it (Connecticut History). A documented change of enterprise after a commercial failure; the sources give no detail on how he changed his methods day to day."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_whitney_amheritage, src_whitney_britannica, src_whitney_backstory | 1798-1809 | historian-journalist, encyclopaedia, specialist historian] American Heritage records a contract clause for an advance that no other supplier got, repeated extensions of a two-year delivery date through 1809, and his 1799 letter to the Treasury Secretary describing a 'new principle' of tools making parts 'perceptibly alike'; Jefferson's later letter praised the lock-making (Britannica and American Heritage); Smith calls him a promoter who 'planted the seed' of uniform manufacture. Historians disagree about the 1801 demonstration (Britannica presents it as a success; Smith concludes it was probably staged), so the row rests on the documented contract, letters and extensions and not on the demonstration. SELF-CALIBRATION (agent): top-risk row; lowered from 70 / 0.52 to 64 / 0.48 because the 'staged demonstration' reading is one historian's inference ('must have') and the favourable Jefferson letter and Britannica account come from the older legend."
+    },
+    "systems_abstraction": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whitney_britannica, src_whitney_amheritage, src_whitney_backstory, src_whitney_nps | 1797-1809 | encyclopaedia, historian-journalist, specialist historian, federal heritage agency] Whitney set out in writing a production system in which tools, not the workman's skill, give parts their form ('an engraving on a copper plate from which may be taken a great number of impressions perceptibly alike', Britannica and American Heritage), and Smith credits him with promoting the engineering ideal of uniformity. But he did not originate the idea (NPS; Blanc earlier, American Heritage) and did not achieve interchangeability himself (Smith; tests of surviving arms), so the row measures the conception and promotion, not delivery."
+    },
+    "execution_speed": {
+      "score": 28,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "[src_whitney_nps, src_whitney_amheritage, src_whitney_britannica | 1798-1809 | federal heritage agency, historian-journalist, encyclopaedia] The 1798 contract called for 10,000 muskets in about two years; the last guns were delivered in January 1809, almost nine years late (NPS; American Heritage dates the first delivery nearly a year after the original deadline). Britannica attributes the delay to epidemics, supply problems and the work of creating a new system of production, while Woodbury (via American Heritage) says he spent 1801-1806 on gin lawsuits instead; the shortfall against his own stated schedule is documented in all three accounts."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "엘리 휘트니"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/eli-whitney-morse-1822.jpg",
+    "width": 929,
+    "height": 1200,
+    "source": "Oil portrait 'Eli Whitney (1765-1825) B.A. 1792, M.A. 1795' by Samuel F. B. Morse, 1822, made in New Haven, Connecticut, during Whitney's lifetime; Yale University Art Gallery, object 1827.1, gift of George Hoadley, B.A. 1801; oil on canvas, 91.1 x 70.5 cm. Digital master 4358 x 5629 pixels from the museum's image service, downscaled by this project to 929 x 1200 (never enlarged).",
+    "license": "Public domain (Yale University Art Gallery copyright statement 'Public domain'; the museum's image manifest names CC0 1.0; the painting is also public domain by age, painter Samuel Morse died 1872)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Samuel F. B. Morse, 1822, Yale University Art Gallery (1827.1), gift of George Hoadley, public domain",
+    "attributionUrl": "https://artgallery.yale.edu/collections/objects/31",
+    "creator": "Samuel F. B. Morse",
+    "date": "1822",
+    "kind": "likeness",
+    "sourcePageUrl": "https://artgallery.yale.edu/collections/objects/31"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / REPLACEMENT USED: the lead's initial lead was William Hoogland's 1820 engraving (Library of Congress 2004669230) and loc.gov was Cloudflare-walled and its generic 'no known restrictions' wording is not a basis; I used the lead's own alternative, Samuel F. B. Morse's 1822 oil portrait at Yale University Art Gallery, which has a stronger holder record. HOLDER RECORD CHECKED: the Yale Art Gallery web page artgallery.yale.edu/collections/objects/31 is behind a Cloudflare challenge (403), so I read the museum's own data instead: the Yale LUX linked-art record (https://lux.collections.yale.edu/data/object/e5004a82-6d42-4f54-a044-fcf17fe1dc8a) and the museum's IIIF manifest (https://manifests.collections.yale.edu/yuag/obj/31). Both give title 'Eli Whitney (1765-1825) B.A. 1792, M.A. 1795', artist Samuel Finley Breese Morse (American, 1791-1872), date 1822, made in New Haven, oil on canvas, 35 7/8 x 27 3/4 in., credit line gift of George Hoadley B.A. 1801, object number 1827.1, 'Not on view'; the manifest's Copyright Statement reads 'Public domain' and its rights field is https://creativecommons.org/publicdomain/zero/1.0/; the LUX Wikidata-image entry repeats 'Public domain'. NO CONTRADICTION: the Commons file page (Eli Whitney by Samuel Finley Breese Morse 1822.jpeg) carries PD-art tags and credits the Yale catalogue; the holder agrees. IMAGE: IIIF service images.collections.yale.edu/iiif/2/yuag:6644ad5c-9827-46b4-9fc2-e8c015b33d86, master 4358 x 5629 per the manifest, requested at height 1200, result 929 x 1200 saved as public/portraits/eli-whitney-morse-1822.jpg; I viewed it (half-length seated portrait of a man with a pen). KIND likeness: a portrait painted in 1822, three years before Whitney died, by a painter working in New Haven; the museum record does not use the words 'from life' or 'sitting', so this basis is the 1822 date and place together with Whitney's lifetime, and the lead may relabel it historical depiction if stricter evidence is wanted. PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q280930 label 'Eli Whitney', description 'American inventor (1765-1825)', born 1765-12-08, died 1825-01-08, Korean label 엘리 휘트니; not in prod64.txt (grepped QID and name) and no candidate file existed. REGION north_america (US); ERA 19th_century (precedent John Dalton, born 1766, and Thomas Telford). ZERO POLITICS: primary identity inventor and manufacturer; the slavery and sectional-conflict consequences are reported by NPS and Britannica as effects of the gin and are mentioned in a card only as such; Jefferson, Congress and Treasury are the counterparties of a commercial contract and are not scored; no political leadership. VOCABULARY: occupations inventor, engineer, entrepreneur; fields technology, engineering; tags innovator, founder; archetype technical_innovator (all used by other candidates; labels to be confirmed by the validator). KO NAME: Wikidata Korean label 엘리 휘트니 (standard transliteration). ATTRIBUTION: confirmed; the record is well documented for his business and contract conduct, his own letters are quoted in several sources, and no behaviour is attributed from legend. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Eli Whitney' (https://www.britannica.com/biography/Eli-Whitney). READ: (1) Britannica full; (2) NPS page full; (3) American Heritage 1987 full; (4) BackStory transcript of Merritt Roe Smith full; (5) ASME article full; (6) Connecticut History article (Finlay) full; (7) Smithsonian Report 1937 (Lewton), introduction, patent and litigation sections read, the full 15 pages not read. Seven substantive sources plus Wikidata. PERSPECTIVES: encyclopaedia, federal heritage agency, state heritage curator, professional engineering society, museum curator (1937), historian-journalist summarising the scholarly reassessment, specialist historian speaking directly. COUNTER-VOICES: American Heritage and BackStory (Smith, Woodbury, Battison) dispute the interchangeable-parts and milling-machine claims and the 1801 demonstration; NPS says he did not originate mass manufacture; Britannica and NPS say the gin entrenched slavery. NOT OPENED: Merritt Roe Smith's, Woodbury's and Battison's original articles, Mirsky and Nevins 1952, Green 1956, Lakwete's book on the gin, Hounshell, the Whitney papers at Yale, and the Eli Whitney Museum site. EXCLUDED: family and marriage, health and death, the Greene plantation relationship beyond what the sources say about the cotton-gin idea, and the full Smithsonian 1937 discussion of earlier gins. DISPUTED CREDIT: ASME says historians debate whether he relied on Catherine Greene, enslaved workers or himself for the gin; Britannica says the model was inspired by manual brushes invented by enslaved workers; the creativity trait is therefore NOT scored and the gin card says he built and patented it. FIRST-PASS REVIEW: primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS. SELF-CALIBRATION (agent): top-risk rows reviewed: persuasiveness (70/0.52 lowered to 64/0.48, see row), systems_abstraction (60/0.48 kept: the conception is quoted in Britannica and American Heritage and its limits are already built into the score), opportunity_sensing (66/0.50 kept: dated actions documented in three sources). HANDBACK64: {\"slug\": \"eli-whitney\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: loc.gov is behind a Cloudflare wall this session; Yale page not opened\", \"holder_record_checked_by_you\": \"Yale University Art Gallery web page is Cloudflare-walled (403); read the museum's own Yale LUX linked-art record and IIIF manifest for object 1827.1: Copyright Statement 'Public domain', rights field CC0 1.0, Morse 1822 oil made in New Haven, gift of George Hoadley B.A. 1801\", \"holder_contradiction_found\": false, \"initial_lead\": \"William Hoogland 1820 engraved portrait (Library of Congress 2004669230)\", \"final_portrait_source\": \"Yale University Art Gallery / Samuel F. B. Morse, oil portrait 1822, object 1827.1, https://artgallery.yale.edu/collections/objects/31 (IIIF master images.collections.yale.edu/iiif/2/yuag:6644ad5c-9827-46b4-9fc2-e8c015b33d86, 4358x5629 downscaled to 929x1200)\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"persuasiveness\", \"old_score\": 70, \"old_confidence\": 0.52, \"new_score\": 64, \"new_confidence\": 0.48, \"reason\": \"The 'staged 1801 demonstration' reading is one historian's inference and the favourable Jefferson letter and Britannica account come from the older legend; row now rests on documented contract, letters and extensions\"}], \"reviewed_kept\": [\"systems_abstraction\", \"opportunity_sensing\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6}"
+  }
+}

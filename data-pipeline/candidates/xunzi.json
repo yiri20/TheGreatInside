@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "xunzi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Xunzi",
+    "aliases": [
+      "Xun Kuang",
+      "Xun Qing",
+      "Master Xun",
+      "Hsun Tzu",
+      "荀子"
+    ],
+    "wikidataId": "Q216072",
+    "birthYear": -310,
+    "deathYear": -230,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "teacher"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "philosopher",
+      "theorist",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_xunzi_wikidata",
+      "kind": "wikidata",
+      "title": "Xunzi (Q216072), verified live via the Wikidata API (2026-11-05): label 'Xunzi', description 'Chinese Confucian philosopher (c. 310 - after 238 BCE)', birth about 313 BCE, death about 230 BCE (both approximate), aliases Xun Kuang and Master Xun, Korean label present. The lead's hint Q6722310 is NOT the person: it is the book 'Xunzi'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q216072"
+    },
+    {
+      "id": "src_xunzi_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Xunzi' (editors' article body, not the AI summary box), read in full: Confucian philosopher who elaborated and systematized the work of Confucius and Mencius; exact dates uncertain and little known of his life save that he was a native of Zhao, belonged for some years to the Jixia academy in Qi, later moved to Chu because of slander, became magistrate of a small district and died in retirement; his book of 32 essays is regarded as largely from his own hand; he was the first great Confucian philosopher to express his ideas in well-organised essays he wrote himself, with topical development, sustained reasoning, detail and clarity; later Confucians obscured his achievements by focusing on his view that human nature is bad, his writings fell into disfavour from about the 12th century, and the notoriety of his students Han Feizi and Li Si told against him. CANONICAL SIGNIFICANCE SOURCE. Concise reference biography; no behavioural detail beyond the outline.",
+      "url": "https://www.britannica.com/biography/Xunzi"
+    },
+    {
+      "id": "src_xunzi_sep",
+      "kind": "biography",
+      "title": "Paul R. Goldin, 'Xunzi', Stanford Encyclopedia of Philosophy (first published 2018, substantive revision 2025), read in full: says his dates are unknown and the sources contradict each other (he went to Qi at fifteen or at fifty; fifteen more plausible), that virtually all information on his life comes from the posthumously compiled book Xunzi or from Sima Qian's biography, which is known to contain serious distortions, so modern reconstructions are tentative; that the extant book derives from Liu Xiang's compilation (322 bundles reduced by removing 290 duplicates) and is a collection of predominantly authentic essays not organised by Xunzi himself, with the chapter on human nature disputed by some scholars; that he was renowned as the most revered of teachers and that Han Fei, Li Si and Zhang Cang were among his students; and that for most of imperial history he was a 'bete noire' cited as a Confucian who went astray, only recently recognised again as one of China's greatest thinkers. A scholarly reference entry that is explicitly cautious about attribution.",
+      "url": "https://plato.stanford.edu/entries/xunzi/"
+    },
+    {
+      "id": "src_xunzi_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Xunzi (Hsun Tzu)', read in full (life, logic and language, social thought and reception sections): says he was born in Zhao about 310 BCE, studied in Qi where philosophers were concentrated, was well acquainted with the doctrines current in his time, then travelled to many states and was briefly employed by some, his last post ending when his patron was assassinated in 238 BCE; that he had no patience for disputation for its own sake and held that argument should be used only to convince someone of the truth; that his association with his students Li Si and Han Feizi probably contributed to the later marginalisation of his thought. A reference entry; partly doctrinal, so only the biographical and method passages are used.",
+      "url": "https://iep.utm.edu/xunzi/"
+    },
+    {
+      "id": "src_xunzi_shiji",
+      "kind": "archive",
+      "title": "Sima Qian, 'Records of the Historian' chapter 74 (Biographies of Mencius and Xun Qing), the passage on Xun Qing, read in the Chinese text on Chinese Wikisource (the Chinese Text Project copy is bot-walled): says Xun Qing was a man of Zhao who came to study in Qi at fifty, that after the earlier Jixia masters had died he was the most senior teacher, that he was three times chosen as libationer among the Qi grandees, that after slander he went to Chu where Lord Chunshen made him magistrate of Lanling, that he lost the post when Chunshen died and settled at Lanling, that Li Si had been his student before becoming minister of Qin, and that he wrote several tens of thousands of characters before he died and was buried at Lanling. An ancient historian writing roughly a century and a half after the events; the Stanford entry warns that this biography contains serious distortions. Treated as the only near-contemporary biographical record, not as verified fact.",
+      "url": "https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7074"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_xunzi_sep, src_xunzi_britannica, src_xunzi_iep | 3rd century BCE | encyclopedia entry + reference biography + encyclopedia entry] The Stanford entry says that in the book's essays he dissented from Mencius on the meaning of human nature while sharing his larger view that people can perfect themselves, and that he strongly argued against belief in Heavenly portents; Britannica says he gave a naturalistic, almost mechanistic account of Heaven and denied that moral standards have a metaphysical justification; the IEP says he rejected dialectical games popular in his day. The positions are attributed to him through essays that scholars consider predominantly authentic, so this is self-authored material described by independent modern scholars; limited attribution (the book was compiled after his death, one chapter is disputed), hence moderate confidence at most."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_xunzi_britannica, src_xunzi_iep, src_xunzi_sep | 3rd century BCE | reference biography + encyclopedia entry + encyclopedia entry] Britannica says he introduced a more rigorous style of writing emphasising topical development, sustained reasoning, detail and clarity, in place of the earlier sayings and anecdotes; the IEP says he held that argument should be used only to convince someone of the truth and produced the most detailed philosophy of language in early Confucian thought; the Stanford entry treats the essays as predominantly authentic. Rigour is judged from the surviving essays, which are self-authored and were arranged by a later editor, so the row is capped at a modest confidence."
+    },
+    "systems_abstraction": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_xunzi_britannica, src_xunzi_sep | 3rd century BCE | reference biography + encyclopedia entry] Britannica says he elaborated and systematized the thought of Confucius and Mencius into a cohesive and comprehensive whole; the Stanford entry discusses the connected account of ritual, Heaven, human nature, language and the heart-mind across the essays but cautions that the book's chapter arrangement is not his own. SELF-CALIBRATION (agent): lowered from 58/0.46 because the 'systematizing' judgement rests largely on a single reference biography and concerns the doctrine, while the Stanford entry says the collection's organisation is a later editor's."
+    },
+    "persistence": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_xunzi_shiji, src_xunzi_britannica, src_xunzi_iep | c. 255-230 BCE | ancient biography + reference biography + encyclopedia entry] Sima Qian says that after being slandered and leaving Qi he went to Chu, lost his post at Lanling when his patron died, settled there and wrote several tens of thousands of characters before he died; Britannica and the IEP agree on the move to Chu, the Lanling post and the loss of the patron. Continued scholarly writing after loss of position is attested, but the only source for the writing is Sima Qian, whose biography the Stanford entry says contains serious distortions, so the row is an inference at low confidence."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No Xunzi portrait with a verified holder record was found. All images of him are later imagined depictions. The lead, a Qing painting on Wikimedia Commons, is only a 2017 scan from a 2003 Chinese book of portraits (painting in the National Museum of China), with no museum record to open. The better alternative, the anonymous Xun Kuang leaf of the album 'Half Portraits of the Great Sage and Virtuous Men of Old' in the National Palace Museum, Taipei (accession 000329, Commons master 3190 x 4485), is certainly old enough to be out of copyright, but the museum's item-level terms could not be read: its open-data site is script-driven, and the only reachable record (a sister album in the Taiwan Digital Archives) names the museum as rights holder with an image-licensing contact and no public-domain statement. Next step: find the leaf in the National Palace Museum Open Data portal or ask its image-licensing office; if it is released as open data, use it as a historical depiction, scaled down only."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "순자"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / HELD. The lead was the Qing-dynasty portrait 'Xun Kuang, Magistrate of Lanling of Chu' on Wikimedia Commons. Opened its Commons wikitext: the file is a 2017 scan (776x1070) from a 2003 Chinese book of historical portraits (Zhongguo lidai mingren huaxiang pu 2, Haixia Wenyi Press), date 'Qing Dynasty', author unknown, tagged PD-old-100-1923; the painting is in the National Museum of China, but no holder (museum) record exists for this image and the Commons page cites only the book, so the holder-record rule is not met. The other P18-type files ('Portrait of Xun Zi.jpg' and 'Xun zi.jpg') cite a museum website and a cultural-China web page with no date, author or holder statement and were rejected. ONE BOUNDED RETRY: a better image exists in principle, the anonymous leaf for Xun Kuang in the album Zhisheng xianxian banshen xiang ce (Half Portraits of the Great Sage and Virtuous Men of Old, National Palace Museum, Taipei, accession 000329, a 60-leaf album of 120 half-length Confucian portraits, Commons file 'Zhisheng xianxian banshen xiang ce 088 Xun Kuang.jpg', 3190x4485, tagged PD-Art/PD-old-100-expired, date given as Yuan dynasty 1271-1368 although a search snippet says the album must postdate the 1330 ennoblement of Confucius's disciples). The painting is certainly old enough to be out of copyright, but the HOLDER RECORD could not be verified: the National Palace Museum open-data site (theme.npm.edu.tw/opendata) is script-driven and returned only its empty shell to direct requests; the Academia Sinica Taiwan Digital Archives record for a sister album ('Lidai shengxian banshen xiang ce', Tao Yuanming leaf, 000328) lists the museum as rights holder with a contact for image licensing and gives no public-domain or CC0 statement; Commons cites only the third-party Shuge site as source. That is a museum reproduction-terms question that cannot be settled from here. NEXT STEP: look up the Xun Kuang leaf (album 000329, leaf 88) in the National Palace Museum Open Data portal or contact the museum's image licensing office; if it is released as open data (CC0) use it as historical_depiction, scaling the 3190x4485 master down only. Any portrait of Xunzi is necessarily a later imagined depiction; no lifetime likeness exists. The lead's other path (Deng Shiru calligraphy) is not a portrait.\nPREFLIGHT: QID VERIFIED LIVE AND CORRECTED: the assigned QID Q6722310 is the book 'Xunzi' (description 'book by Xunzi'), NOT the philosopher. wbsearchentities found the philosopher as Q216072, verified with wbgetentities (2026-11-05): label 'Xunzi', description 'Chinese Confucian philosopher (c. 310 - after 238 BCE)', born about 313 BCE, died about 230 BCE, ko label '순자' (Korean Wikidata label, short). SLUG/QID CHECK: neither Q216072 nor Q6722310 is in prod64.txt and no candidate file existed for the slug; the lead's identity gate matched by slug and name only and should re-check any other QID that came from the same pool. Region east_asia (Mencius precedent: ancient, CN). Zero-politics passes: primary identity is philosophy and teaching; his offices (teacher-grandee at Jixia, magistrate of Lanling) and any advice to rulers or statecraft are unscored, and the doctrine of ritual and government is not read as personality.\nCANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Xunzi' https://www.britannica.com/biography/Xunzi (article body read in full; its AI-generated summary box was not relied on), supplemented by the Stanford and Internet Encyclopedia entries.\nATTRIBUTION SCREEN: limited_but_usable (lead) / CONFIRMED, attribution_confirmed true with low confidence. The Stanford entry stresses that dates are unknown, the Shiji biography is distorted and the book was compiled after his death, but also that the essays are predominantly authentic. Only four rows are written, all at confidence <= 0.46, using (a) what the essays attributed to him do, as described by independent modern scholars, and (b) the sparse Shiji outline; no legend, no later anecdote and no doctrine-as-personality inference. Self-authored essays count as self-report. The chapter on human nature is not used as a basis of any row because its authenticity is disputed.\nSOURCES READ (4 substantive plus Wikidata): Britannica (editors' article), Stanford Encyclopedia of Philosophy (Goldin), Internet Encyclopedia of Philosophy, Sima Qian's Shiji ch. 74 passage in Chinese on Wikisource. PERSPECTIVES: reference biography, two scholarly encyclopedias, and the ancient historian; the Stanford entry is the counter-voice (distortions in Sima Qian, uncertain dates, disputed chapters, disfavour in later tradition). Only one source (Shiji) is a near-contemporary biographical record, and it is distrusted by modern scholars; the other sources are modern syntheses of the same text and Shiji. Fewer than the cost-cap target of 6 because the surviving record is sparse. Non-self behavioural sources: Shiji, Britannica, IEP.\nNOT OPENED: the Xunzi text itself (Hutton or Knoblock translations; Chinese Text Project is bot-walled), Knoblock's and Goldin's monographs, Hutton's Princeton translation page (404), Wikipedia, Kern's article on Sima Qian cited by Stanford. Excluded: the human-nature doctrine, ritual and political theory, any claim about his temperament, and anecdotes about students.\nSELECTIVE SELF-CALIBRATION: reviewed systems_abstraction (lowered 58/0.46 to 54/0.42: single-biography judgement about doctrine, and the collection's arrangement is a later editor's), persistence (kept: already inference at 0.40, sole source Shiji flagged), analytical_rigor (kept: three sources agree on the essay style). Initial rows 4; lowered 1.\nHANDBACK64: {\"slug\": \"xunzi\", \"attribution_screen_result\": \"limited_but_usable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Qing painting of unknown holder\", \"holder_record_checked_by_you\": \"Commons wikitext for the lead (scan from a 2003 book, painting in the National Museum of China, no museum record) and for the National Palace Museum album leaf; Taiwan Digital Archives record for the sister album (rights holder National Palace Museum, image-licensing contact, no public-domain or CC0 statement); NPM open-data site script-driven and unreadable; no item-level holder rights wording obtained\", \"holder_contradiction_found\": false, \"initial_lead\": \"Qing-dynasty portrait 'Xun Kuang, Magistrate of Lanling of Chu' (Commons, scanned from a 2003 book of portraits held in the National Museum of China)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The lead's rights basis (PD by age) was sound for the painting, but the Commons page documents only a scan from a modern book with no holder record, and the better alternative (anonymous album leaf in the National Palace Museum) could not be verified because the museum's open-data pages are script-driven and the only reachable holder-adjacent record names the museum as rights holder with an image-licensing contact, so no item-level terms could be confirmed.\", \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"systems_abstraction\", \"old_score\": 58, \"old_confidence\": 0.46, \"new_score\": 54, \"new_confidence\": 0.42, \"reason\": \"the systematizing judgement rests largely on one reference biography and concerns doctrine, while the Stanford entry says the collection's organisation is a later editor's\"}], \"reviewed_kept\": [\"persistence\", \"analytical_rigor\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

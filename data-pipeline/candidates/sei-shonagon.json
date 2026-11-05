@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sei-shonagon",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sei Shōnagon",
+    "aliases": [
+      "Sei Shonagon",
+      "Lady Sei Shōnagon",
+      "Kiyohara no Nagiko"
+    ],
+    "wikidataId": "Q231603",
+    "birthYear": 966,
+    "deathYear": 1025,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.heian_japan"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_seishonagon_wikidata",
+      "kind": "wikidata",
+      "title": "Sei Shonagon (Q231603), verified live via the Wikidata API (2026-11-04): English label 'Sei Shonagon' (with macron), description 'Japanese author and court lady', Korean label 세이 쇼나곤, birth 966 and death 1025 (year precision), image a Tosa Mitsuoki portrait. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q231603"
+    },
+    {
+      "id": "src_seishonagon_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Sei Shonagon' (article body of about 300 words read in full from the public page). CANONICAL SIGNIFICANCE SOURCE: a diarist, poet and courtier born about 966 and died about 1025 whose Pillow Book (Makura no soshi) 'exhibits a brilliant and original Japanese prose style and is a masterpiece of classical Japanese literature' and 'is also the best source of information on Japanese court life in the Heian period'; daughter of the poet Kiyohara Motosuke; in the service of the empress Teishi (Sadako) at Heian-kyo from about 993 to 1000; little is known of her life outside court; the book mixes memoirs with categories such as 'Annoying Things'; its 'sensitive descriptions of nature and everyday life' and 'detached, sometimes caustic, value judgments'; her wit won her place and also enemies, according to Murasaki Shikibu's diary, which called her conceited; the legend of a miserable old age 'is likely an invention'. Scholarly reference; its praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Sei-Shonagon"
+    },
+    {
+      "id": "src_seishonagon_waley_intro",
+      "kind": "biography",
+      "title": "Arthur Waley, introduction ('Japan in the Tenth Century') and closing essay in 'The Pillow-Book of Sei Shonagon' (Boston: Houghton Mifflin, 1929; Internet Archive scan of the text, the lines on her family, service at court, the months away in 996, the Empress's death, Murasaki's remark, the later legends, and the closing character assessment all read). The translator-scholar's independent assessment: the book is 'a plain record of fact' and 'the most important document of the period that we possess'; she entered the Empress's service about 991 and the book deals with 991 to 1000; he calls her 'incomparably the best poet of her time' in her prose, with 'delicate precision of her perceptions' and 'extraordinary power of conveying character'; says her learning is known only from her own book and has been exaggerated, that it was 'her extreme readiness of wit rather than her erudition' that is remarkable; describes a character of contradictions, 'extreme fastidiousness and irritability', behaviour 'calculated to inspire fear rather than affection', and a 'detachment about herself'. Note: Waley's 1929 judgements and some dates differ from later scholarship (the Heibonsha entry dates her service from 993).",
+      "url": "https://archive.org/details/pillowbookofseis00seis_0"
+    },
+    {
+      "id": "src_seishonagon_pillowbook",
+      "kind": "archive",
+      "title": "The Pillow-Book of Sei Shonagon (Makura no soshi, written in the years around 1000), in Arthur Waley's 1929 selection of about a quarter of the work (episodes read: her first night in the Empress's service and the sneeze episode, the cuckoo excursion and her refusal to be pressed to compose poems, the evening Korechika and the Empress asked her to take a theme, the months away from the Empress in 996 and the azalea-petal letter). SELF-REPORT: she is the author of every episode; the sources below are used to check or balance it. The Waley volume is a selection, not the whole book.",
+      "url": "https://archive.org/details/pillowbookofseis00seis_0"
+    },
+    {
+      "id": "src_seishonagon_murasaki",
+      "kind": "archive",
+      "title": "The Diary of Lady Murasaki (Murasaki Shikibu nikki, about 1008-1010), translated by Annie Shepley Omori and Kochi Doi in 'Diaries of Court Ladies of Old Japan' (1920; Project Gutenberg text read, the character-sketches passage on court women including Sei Shonagon and the translator's notes). A contemporary and rival-court voice: Murasaki calls her 'a very proud person' who 'values herself highly, and scatters her Chinese writings all about', says 'should we study her closely, we should find that she is still imperfect', that she 'tries to be exceptional' and gives offence, and predicts a bad end. Hostile and personal; used only as the counter-voice, not for private-life inference. The translator's editorial notes in the volume are not used.",
+      "url": "https://www.gutenberg.org/ebooks/47151"
+    },
+    {
+      "id": "src_seishonagon_kotobank",
+      "kind": "biography",
+      "title": "Kotobank (Japanese reference aggregator) entry for Sei Shonagon, reproducing four Japanese reference works: Shogakukan's Digital Daijisen, the Nihon Kokugo Daijiten, Heibonsha's World Encyclopedia (entry by Hagiya Haku) and Shogakukan's Nipponica (entry by Ueno Osamu), read in the original Japanese. They record service with Empress Teishi from about 993, membership among the thirty-six poetic immortals of the middle Heian period, the reputation she won for the snow-of-Koro-ho exchange in the winter of 994, a long stay at home in 996 during which the first form of the Pillow Book was probably begun (Hagiya), the later completion of the surviving text, that she asked the Empress to excuse her from composing poems, left only about 55 poems of her own, and withdrew after the Empress's death; the Nipponica entry notes the Murasaki diary's criticism of her learning and her taste for being different, and that later stories of destitution are probably untrue. Japanese scholarly reference, independent of Waley's selection.",
+      "url": "https://kotobank.jp/word/%E6%B8%85%E5%B0%91%E7%B4%8D%E8%A8%80-61200"
+    }
+  ],
+  "rows": {
+    "aesthetic_sensitivity": {
+      "score": 68,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_seishonagon_britannica, src_seishonagon_waley_intro, src_seishonagon_kotobank, src_seishonagon_pillowbook | 990s-1000 | encyclopedias, translator-scholar, self-report] Britannica credits the Pillow Book with 'sensitive descriptions of nature and everyday life', Waley with 'delicate precision of her perceptions' and passages of lyrical beauty, and the Japanese references with recording her own observed world; the book itself arranges her observations of people, places and seasons under headings of likes and dislikes. Three independent reference voices describe the same text, but all of them rest on the one self-authored work and their praise is retrospective, so confidence is moderate-low. SELF-CALIBRATION (agent): top-risk row; lowered from 72 / 0.50 to 68 / 0.45 because every supporting judgement is retrospective praise of the single self-authored book."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_seishonagon_britannica, src_seishonagon_waley_intro | 990s-1000 | encyclopedia, translator-scholar] Britannica calls her prose style 'brilliant and original'; Waley says no other miscellany like the Pillow Book survives but cautions that Heian literature has not survived in full and that a Chinese miscellany by Li Shangyin built on headed lists may have been a model for the form. The originality claim is a retrospective critical judgement, not a documented behaviour, and the borrowed-form question is unresolved, so the row is moderate with low confidence."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_seishonagon_murasaki, src_seishonagon_britannica, src_seishonagon_waley_intro, src_seishonagon_pillowbook | 990s-1008 | rival contemporary's diary, encyclopedia, translator-scholar, self-report] In her own account she answers the Empress and the Empress's brother back on the spot (the sneeze episode, the poem she returns when told her father's fame obliges her to compete) and tells the Empress she would leave service if pressed again to compose; Britannica says her wit secured her place and made enemies; Murasaki, a hostile contemporary, calls her 'a very proud person' who 'tries to be exceptional' and gives offence; Waley sees a manner 'calculated to inspire fear rather than affection'. A hostile rival and the self-report converge on a forward, conspicuous social manner, but the rival is partisan and the rest is self-presentation, hence dual-edged and confidence below 0.5."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_seishonagon_pillowbook, src_seishonagon_kotobank | 990s | self-report, Japanese encyclopedia] In the Pillow Book she tells the Empress she has decided to write poems only when she feels inclined and objects to being 'perpetually thrust forward' to compose on demand, and Heibonsha's entry (Hagiya) records that she asked the Empress to excuse her from composing poems and left only about 55 poems of her own. The episode is told by herself and the encyclopedia summarises it, so it shows a documented insistence on choosing when to compose rather than a general need for autonomy; the stated reason (her father's reputation) is not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "세이 쇼나곤"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sei-shonagon-kunisada-1863.jpg",
+    "width": 815,
+    "height": 1200,
+    "source": "Kokin meifu den: Sei Shonagon ('Biographies of Famous Women, Ancient and Modern'), colour woodblock print by Utagawa Kunisada (Toyokuni III), published 1863 by Uoei with text by Ryutei Tanehiko, in the National Diet Library, Tokyo (call number Yose-betsu 2-7-1-4, persistent ID 1304224). The print's cartouche and text name her and show her lifting the blind in the snow episode of the Pillow Book; it is an idealised image made about 850 years after her life, not a likeness. The file is a crop of the library's 4096 x 6144 scan (colour chart and ruler removed), downscaled to 815 x 1200 with no upscaling.",
+    "license": "Public domain (the library's item record carries the Public Domain Mark; the artist died in 1865)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Utagawa Kunisada (Toyokuni III), Kokin meifu den: Sei Shonagon, 1863. National Diet Library, Japan, digital collections, public domain",
+    "attributionUrl": "https://dl.ndl.go.jp/pid/1304224",
+    "creator": "Utagawa Kunisada (Toyokuni III)",
+    "date": "1863",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://dl.ndl.go.jp/pid/1304224"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / LEAD REJECTED, REPLACEMENT FOUND AND USED. Lead (Tosa Mitsuoki 17th-century hanging scroll, Tokyo National Museum image A-952, image number C0032605, 98.1 x 37.6 cm): the TNM Image Archives item page (webarchives.tnm.jp/imgsearch/show/C0032605) states no rights; its 'use of digital content' page (tnm.jp r_free_page id=1841, read) says copyrighted digital content is owned by the museum, free use under the archive's terms is allowed only for NON-COMMERCIAL purposes, and image loans otherwise are paid applications through the museum or DNP; Commons' file Sei Shonagon2.jpg is only 363 x 395 and carries a bare PD-art tag. A non-commercial-only holder condition is a restriction, so the route is not acceptable. Also rejected: Rijksmuseum RP-P-2016-3-6 and RP-P-2016-3-7 (PDM, but the linked-art description says the print shows a kabuki scene with a poem by Sei Shonagon, not her), the Met (no hits for her in its search), and the Commons Moronobu (Honolulu) scene with attendants. REPLACEMENT: Utagawa Kunisada (Toyokuni III, 1786-1865), 'Kokin meifu den: Sei Shonagon' ('Biographies of Famous Women, Ancient and Modern'), colour woodblock print, 1863 (Bunkyu 3), publisher Uoei, text by Ryutei Tanehiko, in the National Diet Library, Tokyo: call number Yose-betsu 2-7-1-4, persistent ID info:ndljp/pid/1304224, DOI 10.11501/1304224. HOLDER RECORD CHECKED: the NDL IIIF manifest (dl.ndl.go.jp/api/iiif/1304224/manifest.json) lists 'Access Restrictions: PDM' and the NDL OAI-PMH record (dcndl_porta) states dcterms:rights PDM (Public Domain Mark) at item level; title and the print's own cartouche and text name 清少納言; so the holder confirms public domain and no conflict was found (holder_contradiction_found false). The print shows her lifting the blind in the snow-of-Koro-ho exchange of the Pillow Book. Scan 4096 x 6144 (colour chart and ruler included), cropped to the print and downscaled to 815 x 1200 (never upscaled), saved as public/portraits/sei-shonagon-kunisada-1863.jpg. kind historical_depiction: a 19th-century idealised image made about 850 years after her life, not a likeness. WHY THE LEAD FAILED: the preflight noted the holder restriction and the 363 x 395 size; both held, the leading painting being PD by age but the museum's free-use terms being non-commercial only. PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q231603 label with macron, description 'Japanese author and court lady', Korean label 세이 쇼나곤, birth +0966 and death +1025 (year precision); not in prod64.txt; no candidate file or QID collision (grep of data-pipeline/candidates and src for Q231603 found nothing). REGION east_asia, ERA medieval (precedent murasaki-shikibu, polity.heian_japan), nationality JP. ZERO POLITICS: portfolio arts; the court rivalry between Teishi's and Michinaga's circles, the rumours that she sided with Michinaga and the fall of Teishi's brothers are context only and are NOT scored or carded. LIVING-SUBJECT/PRIVATE-LIFE: marriages, children, lovers and the stated personal reasons are not used. VOCABULARY: occupations writer and poet, field literature, impact domains literary, cultural, historical, archetype creative_creator, all present in en.ts and ko.ts; tagIds left empty (no existing tag fits without inference). KO NAME: Wikidata Korean label 세이 쇼나곤. HISTORICAL ATTRIBUTION (lead screen: limited_but_usable): CONFIRMED USABLE. attribution_confirmed true: a sizeable self-authored text (the Pillow Book) with dated episodes, an unfriendly contemporary's diary naming her, and modern Japanese and English scholarship give enough to attribute a small number of behaviours to the individual. Limits applied: 4 rows only, confidence 0.40-0.48 (cap 0.50), self-authored episodes treated as self-report, later legends (destitute old age) not scored, no private-life inference. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Sei Shonagon' (https://www.britannica.com/biography/Sei-Shonagon). READ (5 substantive sources plus Wikidata): (1) Britannica article, full; (2) Waley 1929 introduction and closing essay (Internet Archive text; about a quarter of the Pillow Book is translated in the volume); (3) the Pillow Book episodes in that volume (self-report); (4) Murasaki Shikibu's diary, the character-sketch passage (Project Gutenberg); (5) Kotobank's four Japanese reference entries (Daijisen, Nihon Kokugo Daijiten, Heibonsha World Encyclopedia by Hagiya Haku, Nipponica by Ueno Osamu). PERSPECTIVES: modern encyclopedia, a 1929 translator-scholar, a hostile contemporary, Japanese scholarly reference, and her own account. COUNTER-VOICE: Murasaki's diary (conceit, 'imperfect'), echoed by Britannica and Nipponica. NOT OPENED: the Japanese original of the Pillow Book, the complete English translations by Ivan Morris (1967) and Meredith McKinney (2006) (in copyright; lending-only), Kishigami Shinji's 1943 biography, the Sei Shonagon-shu poems, and Waley's omitted three quarters of the book. Waley's date of entry to service (about 991) and his view that the book was written before December 1000 differ from the Heibonsha entry (service from 993; surviving text completed later), so no row depends on a date. SELF-CALIBRATION (agent): top-risk rows reviewed: aesthetic_sensitivity (72/0.50 lowered to 68/0.45: all support is retrospective praise of one self-authored book), social_assertiveness (kept: a hostile contemporary and the self-report converge on a forward manner, and impact is dual-edged), autonomy_need (kept: already at 58/0.40, a single self-told episode plus an encyclopedia summary). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. HANDBACK64: {\"slug\": \"sei-shonagon\", \"attribution_screen_result\": \"limited_but_usable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"holder_record_at_preflight\": \"CONTRADICTION RISK: Tokyo National Museum image archive requires application\", \"holder_record_checked_by_you\": \"TNM Image Archives item page C0032605 (no rights statement) and TNM 'use of digital content' page (free use only for non-commercial purposes; otherwise paid loan application): restriction found for the lead. For the replacement, NDL IIIF manifest and OAI-PMH record for pid 1304224 both state PDM (dcterms:rights PDM; 'Access Restrictions: PDM'); no contradiction.\", \"holder_contradiction_found\": true, \"initial_lead\": \"Tosa Mitsuoki 17th-century portrait (TNM Image Archives)\", \"final_portrait_source\": \"National Diet Library, Tokyo / Utagawa Kunisada (Toyokuni III), 'Kokin meifu den: Sei Shonagon', colour woodblock print, 1863, call no. Yose-betsu 2-7-1-4, pid 1304224 (https://dl.ndl.go.jp/pid/1304224), IIIF full image 4096x6144 cropped and downscaled to 815x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": \"The holder (TNM) restricted free use to non-commercial purposes, so the lead failed on the holder record, not on Commons; success came from the alternative path: a Kunisada woodblock print of her in the National Diet Library, whose item-level record states PDM in both the IIIF manifest and the OAI-PMH record. The Rijksmuseum kasen-e leads turned out to show a kabuki scene, not her.\", \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"aesthetic_sensitivity\", \"old_score\": 72, \"old_confidence\": 0.5, \"new_score\": 68, \"new_confidence\": 0.45, \"reason\": \"All supporting judgements are retrospective praise of the single self-authored Pillow Book\"}], \"reviewed_kept\": [\"social_assertiveness\", \"autonomy_need\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

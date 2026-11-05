@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "xu-guangqi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Xu Guangqi",
+    "aliases": [
+      "Hsu Kuang-ch'i",
+      "Hsü Kuang-ch'i",
+      "Paul Xu",
+      "Xu Guang-qi",
+      "Xu Zixian",
+      "徐光啟",
+      "徐光启"
+    ],
+    "wikidataId": "Q420427",
+    "birthYear": 1562,
+    "deathYear": 1633,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "mathematician",
+      "agronomist",
+      "astronomer"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "agriculture",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_xu_wikidata",
+      "kind": "wikidata",
+      "title": "Xu Guangqi (Q420427), verified live via the Wikidata API (2026-11-04): English label 'Xu Guangqi', description 'late-Ming-dynasty Chinese politician, scholar, lay Catholic leader and Servant of God', Korean label 서광계, born 1562 (two dates recorded, 24 April and 4 May), died 8 November 1633. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q420427"
+    },
+    {
+      "id": "src_xu_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Xu Guangqi' (English article, read as orientation only). Not counted as a substantive source and not used as support for any row or card.",
+      "url": "https://en.wikipedia.org/wiki/Xu_Guangqi"
+    },
+    {
+      "id": "src_xu_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Xu Guangqi' (short entry by the Britannica editors, about 200 words), read in full. CANONICAL SIGNIFICANCE SOURCE: Ming-dynasty official and the most influential Chinese convert to Christianity before the 20th century; he obtained the jinshi degree in 1604 and studied with Matteo Ricci; he was the first of his countrymen to translate European books into Chinese, translating with Ricci Western books on mathematics, hydraulics and geography, the most famous being Euclid's Elements (Jihe yuanben), which exerted a great influence on Chinese mathematics; in 1629 the Western method, which he represented, proved most accurate in a government competition to predict a solar eclipse. The entry is brief and its facts overlap with the MacTutor biography, so it is not an independent check.",
+      "url": "https://www.britannica.com/biography/Xu-Guangqi"
+    },
+    {
+      "id": "src_xu_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Xu Guangqi', MacTutor History of Mathematics Archive, University of St Andrews (2003), read in full: a history-of-mathematics biography of his translations with Ricci (the first six books of Euclid's Elements in 1607, the oral-then-written method, the new Chinese geometric terms), the calendar reform after the 1629 eclipse contest, and a critical passage that he talked down the Chinese mathematical tradition and that most Chinese mathematicians stayed with their traditional approach. It also discusses his advice on Western artillery, which is not used here.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Xu_Guangqi/"
+    },
+    {
+      "id": "src_xu_mingshi",
+      "kind": "archive",
+      "title": "History of the Ming (Ming shi, compiled 1739), juan 251, biography of Xu Guangqi, read in the Chinese Wikisource transcription (flagged there as only partly proofread): a near-contemporary official account saying that he learned astronomy, calendrical mathematics and firearms from Ricci and then read widely on military affairs, agricultural colonies, salt policy and irrigation; that he argued the emperor should revise the calendar rather than punish the astronomers; that he submitted a series of astronomical treatises and tables in the early 1630s; that on his death the officials said he left no surplus wealth; and that the emperor asked for his surviving manuscripts, which his son presented as the 60-juan Nongzheng quanshu. An official dynastic history, so its judgements are retrospective.",
+      "url": "https://zh.wikisource.org/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B7251"
+    },
+    {
+      "id": "src_xu_bdcc",
+      "kind": "institution",
+      "title": "Biographical Dictionary of Chinese Christianity (BDCC), 'Xu Guangqi', reproduced with permission from the Dictionary of Asian Christianity (Eerdmans, 2001), read in full: a Catholic reference entry recording his meetings with Ricci, his joint translations (mathematics, hydraulics, geography, astronomy), his study with Sabatino de Ursis, and the 1629 commission to revise the calendar with the help of Johann Terrenz, Giacomo Rho and Adam Schall; it also records his defence of the Jesuits in 1616 and his baptism, which are religious and are not scored here. The entry is written from the Church's viewpoint.",
+      "url": "https://bdcconline.net/en/stories/xu-guangqi"
+    },
+    {
+      "id": "src_xu_jahh",
+      "kind": "biography",
+      "title": "Sperello di Serego Alighieri and Elisabetta Corsi, 'The Eclipse of 21 June 1629 in Beijing in the Context of the Reform of the Chinese Calendar', Journal of Astronomical History and Heritage 23(2), 327-334 (2020; arXiv 2006.16766), read in full: two astronomers compare the Chinese, Muslim and Jesuit forecasts as reported by Xu Guangqi with a NASA reconstruction, find that none was accurate, that the Western method did best on magnitude and duration (a 3-2 result against the traditional method) and that Xu probably used this and the correct 1610 forecast to persuade the emperor; they also cite a 2007 study by Lu that finds the Western method worse. An independent modern check on the central calendar episode.",
+      "url": "https://arxiv.org/abs/2006.16766"
+    },
+    {
+      "id": "src_xu_nzqs",
+      "kind": "press",
+      "title": "Chinese Moment, 'Nongzheng quanshu 農政全書 Whole Book on Agricultural Activities' (online Chinese-culture reference page; the author is not named on the page), read in full: describes the 60-juan encyclopedia compiled by Xu Guangqi, its twelve sections (agricultural roots, field systems, agricultural matters, water conservancy, tools, planting, silk, trees, livestock, fabrication, and disaster relief with medicinal herbs in juan 43-60), his other agricultural treatises (cotton, sweet potato, bamboo and others), and that it was not completed in his lifetime and was revised by Chen Zilong and first printed in 1639. A secondary web page of undetermined authorship, used only for the structure and publication history.",
+      "url": "https://chinesemoment.com/?p=19447"
+    },
+    {
+      "id": "src_xu_wellcome",
+      "kind": "archive",
+      "title": "Wellcome Collection copy of Athanasius Kircher, China monumentis (Amsterdam: Jansson van Waesberge and Weyerstraet, 1667), Internet Archive item b33551364, item-level Creative Commons Public Domain Mark; the engraved plate near the start of Part II shows Matteo Ricci and, in Chinese characters above him, Xu Guangqi. Opened for the portrait only; the book text was not read.",
+      "url": "https://archive.org/details/b33551364"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_xu_mingshi, src_xu_mactutor, src_xu_bdcc, src_xu_nzqs | 1600-1633 | official history, history-of-mathematics biography, Catholic reference, web reference page] Four separate fields of documented output: translated mathematics (Euclid's Elements), hydraulics and geography with Ricci (MacTutor, BDCC, Britannica), astronomy and calendar computation (Ming shi lists his 1631 treatises and tables, BDCC), and agriculture, with a 60-juan encyclopedia and separate treatises on cotton, sweet potato and bamboo (Chinese Moment), while the Ming shi says he also read widely on irrigation and agricultural colonies. The military reading and the advice on artillery that the same sources mention are not scored. Pre-modern evidence is near-contemporary or scholarly, so the confidence stays at the cap."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_xu_mactutor, src_xu_bdcc, src_xu_mingshi | 1604-1633 | history-of-mathematics biography, Catholic reference, official history] Three documented collaborations: the Euclid translation, where Ricci explained the text orally and Xu wrote down what he understood (MacTutor); further translation and study with Sabatino de Ursis (BDCC); and the 1629-1633 calendar work, where Terrenz, Rho and Schall assisted him and the Ming shi says he supervised the Jesuit calculators. All three are with the same circle of Jesuits, and the Catholic reference and MacTutor speak partly from the missionaries' side."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_xu_mingshi, src_xu_mactutor, src_xu_bdcc | 1600-1630 | official history, history-of-mathematics biography, Catholic reference] The Ming shi says he learned Ricci's astronomy, calendrical mathematics and firearms to the full extent of his teacher's skill, BDCC says he went on learning European science from de Ursis, and MacTutor says he invented the Chinese terms for point, curve, parallel line and angle types that entered Chinese mathematics. The 'to the full' is a retrospective official judgement, and MacTutor notes he had himself never read the Nine Chapters, so the row stays a low-confidence lean."
+    },
+    "impact_motivation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_xu_mingshi, src_xu_mactutor, src_xu_nzqs | 1607-1633 | official history, history-of-mathematics biography, web reference page] The Ming shi says he had a talent for practical statecraft and a wish to be of use; MacTutor says he blamed the decline of Chinese mathematics on scholars neglecting practical learning and, in his Elements preface, argued the contents applied to the calendar, music and technology; Chinese Moment says the largest part of his agricultural encyclopedia (juan 43-60) is disaster relief. SELF-CALIBRATION (agent): lowered from 62 / 0.46 to 58 / 0.42 because the 'wish to be of use' is a retrospective characterisation by the official history and the application argument is Xu's own preface as quoted by MacTutor, so no source independently documents the motive."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_xu_mingshi, src_xu_jahh, src_xu_mactutor | 1628-1629 | official history, astronomers' paper, history-of-mathematics biography] The Ming shi says that when the emperor wished to punish the astronomers for a failed eclipse forecast, Xu answered that Guo Shoujing's method had also once failed and that calendars drift and should be corrected in time, and the emperor then ordered the Jesuits to compute with Xu as supervisor; Serego Alighieri and Corsi say it appears Xu succeeded in convincing the emperor, probably also using the correct 1610 forecast. The same paper cites a study finding the Western method worse in the 1629 contest, so the success of the argument is not evidence that the method was better. Reviewed in the self-calibration pass and kept because it is already low-confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/xu-guangqi-unknown-1667.jpg",
+    "width": 638,
+    "height": 1200,
+    "source": "Engraved plate in Athanasius Kircher, China monumentis (Amsterdam: Jansson van Waesberge and Weyerstraet, 1667), showing Matteo Ricci and, to the right, Xu Guangqi named in Chinese characters in the cartouche above him. Taken from the Wellcome Collection's digitised copy (Internet Archive item b33551364, leaf 169). The right-hand figure with the name cartouche was cropped from the library's 3788 x 5708 pixel scan and downscaled to 638 x 1200, with no upscaling and no retouching. A posthumous European print, not a portrait from life; the engraver is not named.",
+    "license": "Public domain (Wellcome Collection item-level Public Domain Mark; a book published in 1667)",
+    "licenseUrl": "https://creativecommons.org/publicdomainmark/1.0/",
+    "attribution": "Engraver unknown, in Athanasius Kircher, China monumentis, Amsterdam, 1667. Digitised by the Wellcome Collection (https://wellcomecollection.org/works/y35ztr9n; Internet Archive item b33551364)",
+    "attributionUrl": "https://wellcomecollection.org/works/y35ztr9n",
+    "creator": "Unknown engraver, in Athanasius Kircher's book",
+    "date": "1667",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://archive.org/details/b33551364"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "서광계"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / RESOLVED WITH THE LEAD PLATE FROM A BETTER HOLDER, CROPPED TO ONE SITTER. The lead (Kircher, China monumentis 1667, double plate of Ricci and Xu; Commons copy from the National Library of Poland's Polona, PD by age, retouched by the uploader) has an unverified holder record: Polona is a script-rendered site and its entity API returned 404, so I did not use that copy. The same plate exists in the Wellcome Collection copy of the 1667 book (Internet Archive item b33551364, leaf 169), and the Wellcome catalogue API (api.wellcomecollection.org, work y35ztr9n) lists the digitised item under licence 'pdm' (Public Domain Mark) while the Internet Archive record says 'available under the Creative Commons, Public Domain Mark'. A book published in Amsterdam in 1667 is public domain by age everywhere; the plate engraver is unnamed. The sitter is identified by the plate itself: the cartouche above the right-hand figure carries Xu Guangqi's name in Chinese characters (with a romanisation) and the caption reads 'Paulus Magnus Sinarum Colaus Legis Christianae propagator' (Paul, grand secretary, defender of the Christian law); the caption's first word reads 'Lij', a slip in the engraved caption that does not match the Chinese cartouche, so identification rests on the cartouche and the baptismal name Paul that BDCC records. The scan was downloaded at its full 3788 x 5708 pixel size, the right-hand figure with the cartouche was cropped (upper body, 1275 x 2398) and downscaled to 638 x 1200; no upscaling and no retouching. Kind historical depiction: a posthumous European engraving (Xu died 1633), the face is not a verified likeness and looks European, an honest caveat. Rejected alternatives: the Royal Museums Greenwich copy of Hollar's 1669 etching after Kircher (the holder page names 'Ly Paulos (Xu Guangqi)' but offers image licensing through RMG Images, so reuse terms are not clear); the Commons Nanjing Museum portrait (unknown artist, 'Nanjing Museum collection' credit only, no holder record reachable); a portrait from a hobbyist forum (rejected); statues and modern paintings (derivative works). PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q420427 label 'Xu Guangqi', description 'late-Ming-dynasty Chinese politician, scholar, lay Catholic leader and Servant of God', ko label 서광계, born 1562 (Wikidata holds both 24 April and 4 May; every source read gives 24 April), died 1633-11-08, citizenship Ming dynasty; not in prod64.txt, no candidate file existed for xu-guangqi. REGION east_asia (Chinese precedents). ERA early_modern (1562-1633). ZERO POLITICS: Wikidata calls him a politician and Britannica an official; the profile is built and scored only on his translation of Western mathematics, hydraulics and geography, his calendar and astronomy work, and his agricultural scholarship. His ministerial offices, his advice on artillery and the Manchu war, his 1616 defence of the missionaries and his baptism are context, not scored, not carded. VOCABULARY: occupations scholar, mathematician, agronomist and astronomer, fields mathematics, agriculture and natural_science, tags cross_disciplinary and communicator, archetype cross_disciplinary_generalist, impact domains scientific and cultural, all existing with EN and KO labels. KO NAME: Wikidata Korean label 서광계 (short, standard). ATTRIBUTION: attribution_screen_result attributable CONFIRMED: his own treatises, an official biography, the eclipse reports that he wrote, and modern scholarship all attribute specific work to him. CANONICAL SIGNIFICANCE SOURCE: Britannica, 'Xu Guangqi' (src_xu_britannica). READ (9 incl. Wikidata and Wikipedia; 7 substantive): (1) Britannica entry, full (about 200 words); (2) MacTutor biography, full; (3) Ming shi juan 251 Xu Guangqi biography via Chinese Wikisource, full section; (4) BDCC entry, full; (5) Serego Alighieri and Corsi 2020 paper, full; (6) Chinese Moment Nongzheng quanshu page, full; plus the Wellcome copy for the portrait only. PERSPECTIVES: a general encyclopedia, a history-of-mathematics biography, the official Qing-compiled history of the Ming (near-contemporary), a Catholic biographical dictionary, two modern astronomers, a web reference page. COUNTER-VOICES AND LIMITS: MacTutor says he did a disservice to Chinese mathematics by treating its tradition as inferior (his quoted remark that the lost classics were 'worn-out shoes' is self-report) and that most Chinese mathematicians stayed with their own methods; the astronomers' paper reports that every 1629 forecast was inaccurate, that the Western method won on magnitude and duration but lost on the times of maximum and last contact, and cites a 2007 study judging it worse; the calendar reform was unfinished at his death. NOT OPENED: M.-K. Siu 1995-96 and Catherine Jami's work on Xu and the calendar, Francesca Bray on agriculture (not accessible), Xu's own prefaces and treatises beyond the passages MacTutor quotes, Cigola and Fang 2016 on the Taixi shuifa (only the abstract was reachable, so it is not counted), the Boston College Ricci Institute library page (a catalogue of editions, not read for content), Wikipedia details. The Encyclopedia.com Dictionary of Scientific Biography entry on Xu could not be located. EXCLUSIONS: the Ming shi transcription is flagged as only partly proofread, so only claims that agree with another source (MacTutor, BDCC, Chinese Moment) carry the main weight; his religion and the artillery advice are not used. SPARSE PROFILE: 5 rows, scores 58-70, confidence 0.42-0.55 (pre-modern cap 0.55). SELF-CALIBRATION (agent): top-risk rows reviewed: cross_domain_range (highest score and confidence; kept at 70/0.55 because four separate fields are documented in four separate sources), impact_motivation (lowered from 62/0.46 to 58/0.42: retrospective official characterisation plus Xu's own preface, no independent documentation of motive), persuasiveness (kept at 58/0.42: already low and the rationale states the dispute over the method). HANDBACK64: {\"slug\": \"xu-guangqi\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Villanova digital library record not opened\", \"holder_record_checked_by_you\": \"Wellcome Collection catalogue API (api.wellcomecollection.org, work y35ztr9n, digitised item licence 'pdm') and Internet Archive metadata for b33551364 ('available under the Creative Commons, Public Domain Mark'), plate on leaf 169 with the Chinese cartouche for Xu Guangqi. Polona (National Library of Poland, the Commons source) bot-walled/script-rendered and its API returned 404 (not verified); Royal Museums Greenwich page for Hollar's etching opened: names 'Ly Paulos (Xu Guangqi)' but offers image licensing via RMG Images, no stated open licence; Villanova not opened.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Athanasius Kircher, China Illustrata (1667): double portrait of Matteo Ricci and Xu Guangqi\", \"final_portrait_source\": \"Wellcome Collection copy of Kircher, China monumentis (Amsterdam, 1667), Internet Archive item b33551364 leaf 169 (full 3788x5708 scan, right-hand figure with the Chinese name cartouche cropped and downscaled to 638x1200), Public Domain Mark; https://archive.org/details/b33551364 ; https://wellcomecollection.org/works/y35ztr9n\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 62, \"old_confidence\": 0.46, \"new_score\": 58, \"new_confidence\": 0.42, \"reason\": \"The wish to be useful is a retrospective characterisation by the official history and the application argument is Xu's own preface as quoted by MacTutor, so no source independently documents the motive\"}], \"reviewed_kept\": [\"cross_domain_range\", \"persuasiveness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

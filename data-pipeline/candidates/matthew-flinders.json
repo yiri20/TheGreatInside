@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "matthew-flinders",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Matthew Flinders",
+    "aliases": [],
+    "wikidataId": "Q219895",
+    "birthYear": 1774,
+    "deathYear": 1814,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "navigator"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "self_taught",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_flinders_wikidata",
+      "kind": "wikidata",
+      "title": "Matthew Flinders (Q219895), verified live via the Wikidata API (2026-11-04): English label 'Matthew Flinders', description 'English navigator and cartographer (1774-1814)', Korean label 매슈 플린더스, born 16 March 1774, died 19 July 1814 (a second, erroneous 1840 death statement also appears on the item), citizenship United Kingdom and England. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q219895"
+    },
+    {
+      "id": "src_flinders_rmg",
+      "kind": "institution",
+      "title": "Royal Museums Greenwich, 'Matthew Flinders' explorer page, read in full. CANONICAL SIGNIFICANCE SOURCE: describes Flinders as the first man to circumnavigate Australia and the person who popularised the name Australia in A Voyage to Terra Australis (1814), 'one of the best cartographers and navigators of his age'; with George Bass he surveyed in an 8-foot dinghy and showed Van Diemen's Land to be an island; the Investigator, in poor repair, nonetheless completed the circuit and the expedition brought back about 4,000 dried plant specimens; detained on Ile de France (Mauritius) for six years, he wrote up his notes there; he died in 1814 aged 40, the day after the book was published; it adds that 'despite Flinders's failings' his achievements were remarkable although he never had the stature of Cook in Britain. National maritime museum page; admiring, brief, with a one-line nod to failings.",
+      "url": "https://www.rmg.co.uk/stories/topics/matthew-flinders"
+    },
+    {
+      "id": "src_flinders_dnb",
+      "kind": "biography",
+      "title": "John Knox Laughton, 'Flinders, Matthew', Dictionary of National Biography vol. 19 (1889), via Wikisource, read in full: self-taught study of geometry and navigation; entrusted by Bligh with navigation and chart-drawing on the Providence; surveys from Port Jackson 1795-1800 in boats from an 8-foot dinghy to a 25-ton sloop; the 1798-99 Norfolk voyage demonstrating the strait named for Bass; command of the Investigator on Banks's recommendation (1801), survey of the south coast whose charts 'still the basis of our admiralty charts', Gulf of Carpentaria, the rotten timbers; the Wreck Reef loss and his open-boat voyage to Port Jackson; the leaky Cumberland and the decision to call at Mauritius, where, 'even from his own account', he 'appears to have acted with want of temper and tact' before Governor Decaen and was detained nearly seven years; return in 1810, three years writing the Voyage while ill; a paper on compass error written in Mauritius (Philosophical Transactions 1805). Independent Victorian biography; admiring of his seamanship but explicitly critical of his conduct at Mauritius, and it says the principal authority is his own narrative.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Flinders,_Matthew"
+    },
+    {
+      "id": "src_flinders_scott",
+      "kind": "biography",
+      "title": "Ernest Scott, 'The Life of Captain Matthew Flinders' (Sydney: Angus and Robertson, 1914), chapters 28 'Characteristics', 29 'The Navigator' and 30 'The Naming of Australia' (online edition at explorion.iovan.net), read in full for those chapters: physical description; his own self-assessment written in Mauritius that he was 'proud, unindulgent, and hasty to take offence' (self-report, quoted from his papers); loyalty of his servant and of Thistle; the 1805 and 1806 papers on compass deviation and the marine barometer, the Flinders bar and his proposals to the Admiralty for compass inspection; the history of the word Australia before and after Flinders. Early scholarly biography; strongly admiring, but it prints his own self-criticism and corrects the 'Quiros named Australia' error.",
+      "url": "https://www.explorion.iovan.net/life-captain-matthew-flinders/chapter-29-navigator"
+    },
+    {
+      "id": "src_flinders_samaritime",
+      "kind": "institution",
+      "title": "South Australian Maritime Museum (History Trust of South Australia) blog, 'Why I have a crush of Matthew Flinders', read in full: lighthearted museum post that quotes the Voyage on the compass problem ('almost in despair, I at length set about a close examination of all the circumstances, in order to ascertain the cause, and if possible to apply a remedy'), notes he was meticulous in recording flora, fauna, weather, coastline and magnetism, and that he never named a feature after himself. Informal, admiring museum writing; its quotations are his own words.",
+      "url": "https://maritime.history.sa.gov.au/?p=1126"
+    },
+    {
+      "id": "src_flinders_pha",
+      "kind": "institution",
+      "title": "Professional Historians Australia (South Australia), 'On this day: 8 April 1802, Flinders and Baudin at Encounter Bay' (Alison Painter, citing H. M. Cooper, A Naval History of South Australia, 1950), read in full: at Encounter Bay the Investigator met the French Le Geographe under Baudin; Flinders went on board, gave Baudin some charts and told him where water was available; Baudin's names along the coast were retained. Short historians' chronology entry; neutral.",
+      "url": "https://discoversouthaustraliashistory.org.au/chronology/april/8-april-1802-flinders-and-baudin-at-encounter-bay.shtml"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_flinders_dnb, src_flinders_scott, src_flinders_rmg | 1790-1814 | biographies, museum page] The DNB says he applied himself to geometry and navigation with such assiduity that he gained a competent knowledge of them without a master, and that Bligh entrusted him with navigation and chart-drawing after only months at sea; Scott's chapter on his navigation work describes systematic experiments on the compass and barometer and a 106-page manuscript treatise on spherical trigonometry with eight methods of finding latitude and five of longitude; RMG calls him one of the best cartographers and navigators of his age. The self-teaching detail in the DNB paraphrases his own account. SELF-CALIBRATION (agent): top-risk row; lowered from 76 / 0.60 to 72 / 0.55 because the self-teaching claim rests on his own account relayed by admiring biographers."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_flinders_dnb, src_flinders_samaritime, src_flinders_scott, src_flinders_rmg | 1798-1803 | biographies, museum blog] The DNB says his coastal survey, though a running survey made under great disadvantages, was wonderfully accurate and still the basis of Admiralty charts; the South Australian Maritime Museum says he was meticulous in recording flora, fauna, weather, coastline changes and magnetism; Scott lists his observatory and observation work and marine barometer records; RMG calls him one of the best cartographers of his age. The charts' later use is independent confirmation; the DNB also records that he missed the mouth of the Darling at the French meeting, so the care was not flawless."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_flinders_dnb, src_flinders_rmg, src_flinders_scott | 1803-1814 | biographies, museum page] The DNB says that detained on Mauritius and 'burning with anxiety to get to England and renew his survey' he spent years in confinement, wrote a paper on compass error there, and after returning in 1810 devoted three years to the narrative of the voyage while his health failed, finishing it before his death; RMG says he wrote up his notes while interned; Scott records his studies and writings in Mauritius. The detention was imposed by others and is context, not the trait; the documented behaviour is continuing the research and the book through it. The row is limited to that work and does not score the dispute with the French governor."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_flinders_scott, src_flinders_dnb, src_flinders_samaritime | 1805-1812 | biography, museum blog] Scott describes his systematic experiments on compass deviation with different ship positions and headings, his stated law relating the error to the sines of the angle between the ship's head and the magnetic meridian, his memoranda to the Admiralty and the experiments on five ships that led to the Flinders bar, and his marine barometer paper to the Royal Society in 1806; the DNB confirms the compass paper in the Philosophical Transactions in 1805 and says he was one of the first, if not the first, to investigate the error; the Maritime Museum quotes his own account of examining the circumstances to find the cause. Scott is admiring and 109 years later, but the papers and experiments are documented."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_flinders_dnb, src_flinders_rmg | 1795-1803 | biography, museum page] RMG and the DNB describe survey voyages in boats as small as an 8-foot dinghy and a 25-ton sloop; the DNB says that after the Porpoise was wrecked on Wreck Reef he took an open boat to Port Jackson and later sailed the 29-ton Cumberland across the Indian Ocean, a leaky vessel, and chose to call at Mauritius when its instructions did not clearly warrant it, which led to his long detention. These were duty-driven decisions made under pressure and often with local consultation, and the final choice cost him years, so the row is a modest, dual-edged lean toward accepting physical and procedural risk to complete a task. Not a mere recitation of heroics: the DNB treats the Mauritius call as an error of judgement in part."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "매슈 플린더스"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear image could be established under the holder-record rule. (1) Lead: Toussaint de Chazal's oil portrait (painted in Mauritius 1806-07, Art Gallery of South Australia accession 20005P22): the painting is public domain by age (artist died 1822) and the AGSA item page was opened, but AGSA's Copyright and Reproductions page restricts reuse of its own images (online-collection images may be used only for private research and study; all other uses need Gallery permission, fees apply, only AGSA-supplied images are authorised and they may not be cropped without permission), and the Commons/Google Art Project copy cites only a generic public-domain tag. (2) State Library of New South Wales miniature (MIN 52, c. 1800, unknown artist): holder pages are bot-walled (HTTP 403), and the Commons file mixes PD-Australia/PD-1923 tags with a template that can apply a CC BY-SA 3.0 AU photo licence, and it is a photograph of a framed locket, so rights could not be confirmed. (3) History Trust of South Australia CC0 glass-negative photographs of an engraving: the holder object records now return 404 and the images show a pasted print with tape and a metal block, not a usable portrait. (4) An independent 2026 CC0 phone photograph of the AGSA painting hanging in its frame is sideways and shows the frame and wall, not a portrait. Next step: ask AGSA (image services) for written confirmation or a licence for web use of the de Chazal portrait, or obtain SLNSW's public-domain statement for MIN 52; then crop and downscale without upscaling."
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / HELD: the lead's holder terms were read and do not support reuse. de Chazal painting (AGSA 20005P22, Mauritius 1806-07; Commons 'Google Art Project' copy tagged only PD-Art/PD-old-70): the work is PD by age (painter 1770-1822), but the AGSA Copyright and Reproductions page restricts reuse of its images (private research and study only; other uses need permission and fees; AGSA-supplied images only; no cropping without permission), so the holder record materially weakens the route and no AGSA-granted terms were found. SLNSW miniature MIN 52 (c. 1800, unknown artist, 783 x 1050 on Commons): holder pages HTTP 403; Commons wikitext mixes PD-Australia and PD-1923 with the SLNSW template that can apply CC BY-SA 3.0 AU to the photograph; the file is a photograph of a framed locket and the file name says 1801 while the description says ca. 1800. History Trust of South Australia CC0 items GN03117 and GN00295: glass negatives of a book engraving (GN03117 is a taped print beside a metal block), holder records 404. A 2026 CC0 phone photograph of the AGSA painting on the wall is sideways and shows the frame. Retry used about 25 calls; HELD per rule. Next step: AGSA image services written permission or SLNSW public-domain statement. The Westall-attributed portrait (Commons, 2024 family find, private owner) was not considered because ownership and date are unverified. PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q219895 label 'Matthew Flinders', description 'English navigator and cartographer (1774-1814)', ko label 매슈 플린더스, born 16 March 1774, died 19 July 1814 (the item also carries a second, erroneous 1840 death value), citizenship UK; not in prod64.txt; no candidate file existed for matthew-flinders. REGION western_europe (British precedents; Mawson is also recorded western_europe). ERA 19th_century (career 1790s-1814; precedents Davy, Constable, George Stephenson). ZERO POLITICS AND MILITARY: he was a naval officer, but only exploration, survey, navigation and instrument research are scored; the detention by Governor Decaen, the wartime passport dispute and any naval rank are context, not scored or carded; the DNB's remark that he showed want of temper and tact before Decaen is recorded here as a counter-voice and not scored as a trait row because it is a diplomatic and military episode. VOCABULARY: occupations explorer and navigator, field exploration, tags explorer, self_taught and detail_oriented, archetype scientific_explorer, impact domains historical and scientific, all existing; verified in en.ts and ko.ts. KO NAME: Wikidata Korean label 매슈 플린더스 (short form, source Wikidata). ATTRIBUTION: attributable (voyage narrative, charts, Royal Society papers, contemporaries). CANONICAL SIGNIFICANCE SOURCE: Royal Museums Greenwich 'Matthew Flinders' (https://www.rmg.co.uk/stories/topics/matthew-flinders). READ (substantive): RMG explorer page (institution); Laughton's 1889 DNB entry (biography, independent and partly critical); Scott's 1914 biography chapters 28-30 (biography, admiring, prints his self-criticism); South Australian Maritime Museum blog (institution, quotes the Voyage); Professional Historians Australia (SA) Encounter Bay entry (institution, neutral). 5 substantive sources plus Wikidata. PERSPECTIVES: national maritime museum; Victorian official biography with an explicit criticism of his conduct at Mauritius; Edwardian scholarly biography; regional museum and historians' pages; his own words only as quoted by these (the Voyage itself and his papers were not opened). NON-SELF BEHAVIOURAL SOURCES: DNB, Scott and RMG document surveys, the open-boat voyage, the compass experiments and the book. COUNTER-VOICE: DNB (want of temper and tact at Mauritius) and RMG's reference to his failings. CONTRADICTIONS NOTED: RMG says the book was published the day before he died; the DNB says he died shortly before it was published; the card says it appeared around the time of his death. RMG says he was the first to circumnavigate Australia and the first to use the name Australia; Scott shows earlier uses of the word in other senses and credits Flinders with giving the name to the continent; the cards attribute these claims to RMG or say 'popularised' only. DNB calls him 'one of the first, if not actually the first' to study the compass error; Scott says first to experiment systematically; the card says 'investigated'. NOT OPENED: the Australian Dictionary of Biography entry (HTTP 403), the Oxford DNB, Miriam Estensen's biography, A Voyage to Terra Australis itself, his Royal Society papers, State Library SA pages, ANMM collection pages (403). EXCLUSIONS: marriage and family, the cat Trim anecdote, his health and cause of death (no personality inference from illness), the war letters printed by Scott, the dispute with Decaen as a scored trait, and the sword incident. SELF-CALIBRATION (agent): top-risk rows reviewed: mastery_orientation (76/0.60 lowered to 72/0.55: self-teaching rests on his own account relayed by admiring biographers), persistence (kept: detention and illness are context, the documented behaviour is continuing the research and book, with DNB and RMG agreeing), risk_tolerance (kept at 62/0.45: already low, dual-edged, DNB treats the Mauritius call as partly an error). Broad flag for the lead: only five rows and no social or interpersonal rows; the sources are admiring or dated, and the one critical voice concerns a military and diplomatic episode that is not scored. HANDBACK64: {\"slug\": \"matthew-flinders\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"NOT VERIFIED: History Trust of South Australia data site and AGSA page not opened\", \"holder_record_checked_by_you\": \"Opened the AGSA item page for 20005P22 (oil on canvas, Mauritius, 1806-07, 64.5 x 50.0 cm, gift credit; no rights statement) and the AGSA 'Copyright & Reproductions' page: online-collection images usable only for private research and study and other exceptions, all other uses need Gallery permission, reproduction fees apply, only AGSA-supplied images are authorised and they may not be cropped without permission. SLNSW collection pages for MIN 52 returned HTTP 403 (bot-walled; holder verification not possible). History Trust SA object records (data.history.sa.gov.au getitem 1547, 5901) return 404.\", \"holder_contradiction_found\": true, \"initial_lead\": \"Toussaint de Chazal portrait c.1806 (AGSA 20005P22) and the History Trust of South Australia CC0 photograph of a portrait\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The painting itself is public domain by age, but the holder (AGSA) restricts reuse of its images and the lead's CC0 route rested on History Trust items whose holder records are gone and which are photographs of a taped engraving; the SLNSW alternative was bot-walled and its Commons licensing is internally inconsistent; a PLAUSIBLE grade assumed the holder terms would be open.\", \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"mastery_orientation\", \"old_score\": 76, \"old_confidence\": 0.6, \"new_score\": 72, \"new_confidence\": 0.55, \"reason\": \"The self-teaching claim rests on his own account relayed by admiring biographers\"}], \"reviewed_kept\": [\"persistence\", \"risk_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hieronymus-bosch",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hieronymus Bosch",
+    "aliases": [
+      "Hiëronymus Bosch",
+      "Jheronimus Bosch",
+      "Jeroen Bosch",
+      "Jheronimus van Aken"
+    ],
+    "wikidataId": "Q130531",
+    "birthYear": 1450,
+    "deathYear": 1516,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bosch_wikidata",
+      "kind": "wikidata",
+      "title": "Hieronymus Bosch (Q130531), verified live via the Wikidata API (2026-11-04): English label 'Hieronymus Bosch', Korean label 히에로니무스 보스, Wikidata's description in the API response reads 'painters in art (1450-1516)', birth recorded only as 1450 (year precision), death 9 August 1516. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q130531"
+    },
+    {
+      "id": "src_bosch_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Hieronymus Bosch' (encyclopaedia biography by Kathleen Kuiper, fact-checked by the editors), read in full. CANONICAL SIGNIFICANCE SOURCE: innovative Netherlandish painter c. 1450-1516, born and buried in 's-Hertogenbosch, known for an unusual iconography and complex individual style, with devils, satire and moralizing meaning; of some 35 to 40 paintings then attributed to him only 7 are signed and none dated; little documentary information on his early life beyond being son and grandson of painters; his name is on the register of the Brotherhood of Our Lady and in official records from 1486 until his death, when he was acclaimed Insignis pictor; besides panel painting he undertook decorative works and altarpieces and made designs for stained glass; the great triptychs of his middle period include the Haywain, the Temptation of St. Anthony and The Garden of Earthly Delights; by his death he was among the richest and most respected residents of his town; widely imitated, influencing Pieter Bruegel the Elder and the Surrealists. Neutral encyclopaedia entry; the attribution counts are older than the 2016 research.",
+      "url": "https://www.britannica.com/biography/Hieronymus-Bosch"
+    },
+    {
+      "id": "src_bosch_boijmans",
+      "kind": "institution",
+      "title": "Museum Boijmans Van Beuningen, 'Jheronimus Bosch' (artist page), read in full: probably born around 1450 in Den Bosch as Jheronimus van Aken, adopting the city's name when his fame had spread; an innovator of the medieval image tradition whose works are satirical but also witty and moving; around twenty-five works are known as originals; he lived and worked there all his life, from a family of painters whose studio stood on the market square (father, brother, a cousin and several uncles also worked in it); the Confraternity of Our Lady was an important client, for whom he made several works for the redecoration of its chapel in Saint John's Cathedral, advised the brothers on commissions to other artists and craftsmen, and was sometimes called upon to appraise submitted work; artists copied him even in his lifetime and some sold paintings under his name, and collectors were soon warned of forgeries; no more than about twenty-five panels are accepted as authentic; the page names 'Philip the Good' as the 1504 patron of a Last Judgment triptych, which cannot be right for a duke who died in 1467 and is not used here. Museum collection page; admiring in tone and not fully accurate on that point.",
+      "url": "https://www.boijmans.nl/en/collection/artists/3077/jheronimus-bosch"
+    },
+    {
+      "id": "src_bosch_nwe",
+      "kind": "biography",
+      "title": "New World Encyclopedia, 'Hieronymus Bosch' (encyclopaedia entry adapted from open sources), read in full: states that Bosch left no letters or diaries, that what is known comes from brief references in the municipal records of 's-Hertogenbosch and the account books of the Brotherhood of Our Lady, and that 'nothing is known of his personality or his thoughts on the meaning of his art'; gives him as grandson of the painter Jan van Aken and son of Anthonius van Aken, who advised the Brotherhood; first in the municipal record in 1474; joined the Brotherhood in 1488 (other sources say 1486/87); the Brotherhood's accounts record his funeral mass at Saint John's on 9 August 1516; fewer than 25 paintings can be attributed to him. Derivative encyclopaedia entry, used for what the records do and do not allow; the 1488 date conflicts with Britannica's 1486.",
+      "url": "https://www.newworldencyclopedia.org/entry/Hieronymus_Bosch"
+    },
+    {
+      "id": "src_bosch_hna",
+      "kind": "institution",
+      "title": "Historians of Netherlandish Art Reviews, '2016 Publications on Hieronymus Bosch' (review essay of the Noordbrabants Museum and Prado exhibition catalogues and the Bosch Research and Conservation Project catalogue raisonne and technical studies, published November 2016), read in full: scholarly society review noting that new infrared examination shows underdrawing and preliminary layout as part of Bosch's working procedures, that he came from a multi-generational family of painters and 'surely had assistants', that the Dutch project secures a core group of authentic paintings and assigns very few to the workshop while the reviewer cautions against judging authenticity mainly from underdrawings and notes Fritz Koreny's different division of hands, and that the Vienna Last Judgment triptych shows multiple hands and was not studied in the exhibitions. Independent scholarly voice and the counter-voice on the size of the authentic corpus and the role of the workshop.",
+      "url": "https://hnanews.org/hnar/reviews/2016-publications-hieronymus-bosch/"
+    },
+    {
+      "id": "src_bosch_artnewspaper",
+      "kind": "press",
+      "title": "Emily Sharpe, 'The story behind the reattributed drawing by Hieronymus Bosch', The Art Newspaper (23 December 2015), read in full: report on the Bosch Research and Conservation Project (a five-year study before the 2016 anniversary) upgrading the Infernal Landscape drawing from workshop to authentic after infrared reflectography and macro photography; the project coordinator Matthijs Ilsink says Bosch often changed his mind as he worked so that his paintings have a lot of overpaint and underdrawings, and that figures in the drawing match underdrawings beneath other works; the project also judged Christ Carrying the Cross in Ghent to be by a follower, which the museum says was not a surprise because the attribution had long been debated. Trade press report quoting one researcher; the 'changed his mind' remark is a single project member's statement.",
+      "url": "https://theartnewspaper.com/news/the-story-behind-the-reattributed-drawing-by-hieronymus-bosch"
+    },
+    {
+      "id": "src_bosch_rijksmuseum",
+      "kind": "archive",
+      "title": "Rijksmuseum, Amsterdam, collection record RP-P-2020-2845 'Portret van Jheronimus Bosch' (linked-art record at id.rijksmuseum.nl/200777534), read: engraving of 1572 by Cornelis Cort (an attribution to Johannes Wierix is marked as rejected), text by Dominicus Lampsonius, published by the widow of Hieronymus Cock (Volcxken Diericx), Antwerp, number 3 in the series 'Pictorum aliquot celebrium Germaniae Inferioris effigies' (portraits of famous painters of the Low Countries), plate 196 x 122 mm; the image carries the Public Domain Mark and the record data CC0. Museum record used for the portrait, not as support for any row.",
+      "url": "https://id.rijksmuseum.nl/200777534"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bosch_britannica, src_bosch_boijmans, src_bosch_hna | c. 1475-1516 | encyclopaedia, museum page, scholarly review] Britannica says Bosch was known for an unusual iconography and a complex individual style in which devils, satire and moralizing meaning are combined, and that his imagery was widely imitated; the Boijmans page calls him an innovator of the medieval image tradition and says artists copied him and sold paintings under his name even in his lifetime; the scholarly review calls him the inventor of a unique vision, so often copied and even faked afterwards. These agree that the work was distinctive and imitated in its own time, but they are retrospective assessments of a corpus whose size is disputed (about twenty-five accepted panels, a different division of hands in Koreny and in the Bosch project) and nothing documents his own reasoning, so the claim is a strong inference at moderate confidence. SELF-CALIBRATION (agent): top-risk row; lowered from 72 / 0.55 to 68 / 0.50 because the assessments are retrospective and the authentic corpus is itself disputed between the Bosch project and other scholars."
+    },
+    "experimentation": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bosch_artnewspaper, src_bosch_hna | c. 1490-1516 | trade press, scholarly review] The project coordinator says Bosch often changed his mind as he worked, leaving overpaint and underdrawings, and that figures in the Infernal Landscape drawing match underdrawings beneath other works; the scholarly review confirms that infrared examination shows underdrawing and preliminary layout in his working procedure. Revision during execution is documented by technical study of the surfaces, but the 'changed his mind' reading is one researcher's summary, the reviewer questions how far underdrawings show the master's own hand, and nothing says why he revised, so the row is a modest inference."
+    },
+    "cross_domain_range": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bosch_britannica, src_bosch_boijmans, src_bosch_artnewspaper | c. 1480-1516 | encyclopaedia, museum page, trade press] Britannica says that besides panel painting he undertook decorative works and altarpieces and made designs for stained glass; the Boijmans page says he made several works for the redecoration of the confraternity's chapel and also advised its members and appraised other artists' and craftsmen's work; the trade press report adds authentic drawings. The range is real but it stays within visual art and craft commissions, and the surviving evidence for the decorative and design work comes from short summaries of records, so the score is moderate with low confidence."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bosch_boijmans, src_bosch_hna, src_bosch_nwe | c. 1474-1516 | museum page, scholarly review, encyclopaedia] The museum says he worked in a family studio on the market square alongside his father, brother, cousin and uncles, and that for the Confraternity of Our Lady he advised the brothers on commissions to other artists and craftsmen and appraised submitted work; the scholarly review says he surely had assistants and that workshop participation is argued over; the encyclopaedia says his father advised the same Brotherhood. Working inside a family studio and advising a patron on other makers is documented, but the sources do not describe how he worked with people, how much was delegated, or what his working relationships were like, so the row is a lean at low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "히에로니무스 보스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hieronymus-bosch-cort-1572.jpg",
+    "width": 787,
+    "height": 1200,
+    "source": "Engraved portrait of Hieronymus Bosch, inscribed 'Hieronymo Boschio pictori', by Cornelis Cort, 1572, number 3 in the series of portraits of famous painters of the Low Countries (Pictorum aliquot celebrium Germaniae Inferioris effigies) with a Latin verse by Dominicus Lampsonius, published in Antwerp by the widow of Hieronymus Cock; Rijksmuseum, Amsterdam, object RP-P-2020-2845. Made decades after the painter's death. The file is the museum's 2438 x 3718 pixel scan downscaled to 787 x 1200 with no cropping and no upscaling; the scan shows the museum's object-number label at lower left.",
+    "license": "Public domain (1572 engraving; the Rijksmuseum marks the image with the Public Domain Mark and releases the record data under CC0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Cornelis Cort (printmaker), Dominicus Lampsonius (text), widow of Hieronymus Cock (publisher), 1572. Rijksmuseum, Amsterdam, RP-P-2020-2845 (https://id.rijksmuseum.nl/200777534)",
+    "attributionUrl": "https://id.rijksmuseum.nl/200777534",
+    "creator": "Cornelis Cort",
+    "date": "1572",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/nl/collectie/object/RP-P-2020-2845--e5630807ca929b62f3d498b167d952cd"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / RESOLVED WITH A REPLACEMENT IMAGE FROM THE RIJKSMUSEUM, not the lead: the lead (Commons, drawing attributed to Jacques Le Boucq c. 1550, Arras library) was NOT used because I did not open the Arras library or Het Noordbrabants Museum holder pages and the Commons page of the file I read cites only the Noordbrabants press images; instead I used the lead's second alternative, the Cornelis Cort engraving of 1572 from the Lampsonius series, but taken from a museum that states its terms. HOLDER RECORD CHECKED: Rijksmuseum object RP-P-2020-2845 'Portret van Jheronimus Bosch' (https://id.rijksmuseum.nl/200777534, linked-art JSON, Accept: application/ld+json; museum page https://www.rijksmuseum.nl/nl/collectie/object/RP-P-2020-2845--e5630807ca929b62f3d498b167d952cd): printmaker Cornelis Cort (an attribution to Johannes Wierix is recorded as rejected), writer Dominicus Lampsonius, publisher the widow of Hieronymus Cock (Volcxken Diericx), Antwerp, dated 1572, number 3 in the series Pictorum aliquot celebrium Germaniae Inferioris effigies, engraving with letterpress text, plate 196 x 122 mm; the image service (iiif.micr.io/zkRfY) carries the rights statement 'Public Domain' with the Public Domain Mark URL and the record data carries CC0. No holder contradiction found. RIGHTS BASIS: a 1572 engraving, public domain by age everywhere; the holder states Public Domain Mark; this is a 2D print, so the faithful scan adds no new right. SITTER IDENTIFICATION: the engraving's own inscription reads 'HIERONYMO BOSCHIO PICTORI.' above a Latin verse addressed to Hieronymus Bosch (seen on the image), and the Rijksmuseum title names the sitter. KIND: historical depiction, because the engraving was made decades after his death (1516) from an earlier likeness and the Rijksmuseum does not call it a life portrait. The file is the Rijksmuseum's 2438 x 3718 pixel scan downscaled to 787 x 1200, no cropping (the scan includes the museum's object-number label at lower left), no upscaling. I did not check the Le Boucq holders, so I cannot say whether that drawing would also have worked. PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q130531 label 'Hieronymus Bosch', ko label 히에로니무스 보스, birth recorded as 1450 (year precision), death 1516-08-09, citizenship property present as item Q27996474 (not resolved, so nationality NL is my choice from his birthplace); not in prod64.txt; no candidate file existed for hieronymus-bosch. REGION western_europe (Dutch and Flemish precedent pieter-bruegel). ERA early_modern (precedents albrecht-durer, michelangelo). ZERO POLITICS: painter; nothing political scored. ATTRIBUTION: attributable with limits; attribution_confirmed true: there is no letter, diary or statement by Bosch (the sources say nothing is known of his personality or his thoughts on his art), so only four sparse rows resting on records of his working context (family studio, brotherhood work, advising and appraising), technical evidence of revision in the works, and the reception of the works; all confidences are 0.50 or lower. VOCABULARY: occupation painter, field art, tag innovator, archetype creative_creator (all used by pieter-bruegel); impact domains artistic, cultural, historical. KO NAME: Wikidata Korean label 히에로니무스 보스. CANONICAL SIGNIFICANCE SOURCE: Britannica (src_bosch_britannica). READ (7 sources incl. Wikidata and the portrait record): Britannica, Boijmans, New World Encyclopedia, the HNA review of the 2016 Bosch publications, The Art Newspaper report on the Bosch Research and Conservation Project, Rijksmuseum record. PERSPECTIVES: encyclopaedia, museum, scholarly society review with an explicit dissent on attribution method, trade press quoting a project member. COUNTER-VOICES AND LIMITS: the authentic corpus is disputed (Britannica 35-40 attributed with 7 signed; museum and encyclopaedia about 25; the Bosch project's catalogue and Koreny differ on workshop hands; Ghent's Christ Carrying the Cross re-judged by the project as a follower's work), the Brotherhood entry is dated 1486/87 or 1488, the Last Judgment patron is named differently by sources I did not read (the Boijmans page names a duke who died in 1467) so the 1504 commission is NOT carded, and the Britannica attributions are older than 2016. NOT OPENED: National Gallery of Art artist page (HTTP 403), Prado pages (403), the Met Heilbrunn essay (HTTP 429), the Bosch Research and Conservation Project site (unreachable), the BRCP catalogue raisonne, Koreny 2012, Wikipedia (orientation only). EXCLUSIONS: his marriage and household, any reading of his religious beliefs or personality from the imagery (the sources say nothing is known), the alleged self-portrait, and the attribution of any single painting. SPARSE PROFILE: 4 rows, scores 52-68, confidence 0.40-0.50. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (72/0.55 lowered to 68/0.50: retrospective assessments of a disputed corpus), experimentation (kept at 56/0.42: already low, one researcher's remark), collaboration (kept at 52/0.40: already low and limited to documented studio and advisory roles). HANDBACK64: {\"slug\": \"hieronymus-bosch\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Arras library and Het Noordbrabants Museum pages not opened\", \"holder_record_checked_by_you\": \"Rijksmuseum record RP-P-2020-2845 via id.rijksmuseum.nl/200777534 (linked-art JSON): Cornelis Cort engraving 1572, Lampsonius series no. 3, publisher widow of Hieronymus Cock; IIIF image rights 'Public Domain' (Public Domain Mark URL), record data CC0; Arras library and Noordbrabants holder pages for the lead drawing were not opened\", \"holder_contradiction_found\": false, \"initial_lead\": \"Attributed to Jacques Le Boucq c.1550 drawing (Commons, 'Jheronimus Bosch')\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam, RP-P-2020-2845, Cornelis Cort engraving of 1572 (Lampsonius series no. 3, published by the widow of Hieronymus Cock), https://id.rijksmuseum.nl/200777534; scan 2438x3718 downscaled to 787x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 72, \"old_confidence\": 0.55, \"new_score\": 68, \"new_confidence\": 0.5, \"reason\": \"Assessments are retrospective and the authentic corpus is itself disputed between the Bosch project and other scholars\"}], \"reviewed_kept\": [\"experimentation\", \"collaboration\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henri-bergson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henri Bergson",
+    "aliases": [
+      "Henri-Louis Bergson",
+      "Bergson"
+    ],
+    "wikidataId": "Q42156",
+    "birthYear": 1859,
+    "deathYear": 1941,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "philosopher",
+      "communicator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bergson_wikidata",
+      "kind": "wikidata",
+      "title": "Henri Bergson (Q42156), verified live via the Wikidata API (2026-11-04): label 'Henri Bergson', description 'French philosopher (1859-1941)', born 18 October 1859, died 4 January 1941, citizenship France, Korean label 앙리 베르그송. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q42156"
+    },
+    {
+      "id": "src_bergson_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Henri Bergson' (Life and works section read in full, about 2,300 words). CANONICAL SIGNIFICANCE SOURCE: traces his path from a mathematics prize and the Ecole Normale to Time and Free Will (1889), Matter and Memory (1896), Laughter (1900), the Collège de France and the 'Bergson legend' around Creative Evolution (1907), his influence on pragmatism, Cubism and literature, the 1922 exchange with Einstein and Duration and Simultaneity, The Two Sources of Morality and Religion (1932) and the Nobel Prize; also records Russell's objection that intuition would turn us into bees and a dispute over whether Bergson later wished the relativity book not to be reprinted.",
+      "url": "https://plato.stanford.edu/entries/bergson/"
+    },
+    {
+      "id": "src_bergson_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Henri Bergson' (life and works sections a to d read in full, about 3,500 words). Gives his education, the move from Spencer-style mechanism to the problem of duration (partly in his own later account to a disciple, treated here as self-report), the 1886 hypnosis paper and his later discreet psychical research, the Collège de France years and 'Bergsonmania' with the criticism of it as vague or frivolous, the placing of his books on the Index, and the 1922 debate with Einstein. CRITICAL / COUNTER-VOICES: Darlu's rebuke of the hypnosis paper, critics of the lecture audiences, Action francaise attacks, and the decline of his reputation after the war. His wartime diplomacy is read but not scored.",
+      "url": "https://iep.utm.edu/bergson/"
+    },
+    {
+      "id": "src_bergson_nobel",
+      "kind": "award_body",
+      "title": "NobelPrize.org, Nobel Prize in Literature 1927, Henri Bergson: the Nobel Foundation's biographical note written at the time of the award and the presentation speech by Per Hallstrom for the Swedish Academy, 10 December 1928 (both read in full, about 1,900 words together). Lists his books and positions (Collège de France chair 1900-1921, Académie francaise 1914), and presents duration, intuition and his break with rationalist biology in an admiring contemporary account; the speaker says he lacks a philosopher's training and does not assess the arguments. Admiring award-body source, so not independent evidence for any trait.",
+      "url": "https://www.nobelprize.org/prizes/literature/1927/bergson/biographical/"
+    },
+    {
+      "id": "src_bergson_aeon",
+      "kind": "press",
+      "title": "Evan Thompson, 'Who really won when Bergson and Einstein debated time?', Aeon (2024 essay by a University of British Columbia philosopher; read in full, about 4,200 words). Reconstructs the 6 April 1922 meeting of the Société française de philosophie (Bergson came to listen and was pressed to speak), states that Bergson misunderstood a technical aspect of special relativity (time dilation) while arguing he was not out of touch with mathematics, and cites Hanna (1962) and Prigogine and Stengers for harsher judgments. SYMPATHETIC TO BERGSON BUT HONEST ABOUT HIS ERROR; independent of the encyclopedia accounts.",
+      "url": "https://aeon.co/essays/who-really-won-when-bergson-and-einstein-debated-time"
+    },
+    {
+      "id": "src_bergson_parismusees",
+      "kind": "archive",
+      "title": "Paris Musées Collections, Petit Palais, 'Portrait du philosophe Henri Bergson', drypoint by Raphael Schwartz (Kiev 1884 - Pau 1942), before 1912, inventory PPG1690, gift of the artist in January 1912 (item page and IIIF manifest read; the page carries a CC0 mark for the image). Used for the portrait only, not for any trait row.",
+      "url": "https://www.parismuseescollections.paris.fr/fr/petit-palais/oeuvres/portrait-du-philosophe-henri-bergson"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bergson_iep, src_bergson_sep, src_bergson_nobel | 1880s-1907 | scholarly encyclopedias + award body] He began in the mechanist, Spencerian tradition and, by his own later account to a disciple (self-report), found that 'true duration' resisted it; he then built a philosophy of duration and intuition against both Kantian and positivist currents (Internet Encyclopedia), twice failed to obtain a Sorbonne post and went on to the Collège de France (Internet Encyclopedia), and the Church placed his works on the Index after Creative Evolution (Stanford, Internet Encyclopedia). The Nobel speech presents his break with the rationalist biology he was trained in as a deliberate reversal. The independent-minded course is documented in outline; the account of why he changed rests partly on his own retelling, and the Einstein exchange shows the same stance carried past his competence in one technical point (Aeon), so impact is dual-edged."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bergson_sep, src_bergson_iep, src_bergson_nobel | 1889-1932 | scholarly encyclopedias + award body] He introduced duration (lived time) as against clock time in Time and Free Will, extended it to memory in Matter and Memory and to evolution in Creative Evolution, and wrote a theory of the comic in Laughter (Nobel biography, Stanford, Internet Encyclopedia); Stanford and the Internet Encyclopedia trace his influence on American pragmatism, Cubism and literature, and Russell is reported as saying that his philosophy cuts across every ordinary classification. The Nobel account is admiring and written at the award, but the originality of the central concept is also stated by the independent scholarly entries and the Aeon essay. His later reputation fell (Internet Encyclopedia), which does not alter the documented novelty of the ideas. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.62 to 74 / 0.56 because scholarly encyclopedias and the Nobel award body carry the praise, and critics (Russell, Hanna) dispute the originality of parts of the work."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bergson_iep, src_bergson_sep, src_bergson_aeon | 1886-1922 | scholarly encyclopedias + press essay] Trained in mathematics (a prize and a published solution as a schoolboy) he turned to philosophy, then published an 1886 paper on perceptual effects in hypnosis, which Darlu criticized as philosophically dangerous; he kept an interest in psychical research, joining a study group in 1901, briefly chairing its commission on a medium and serving as president of the Society for Psychical Research in 1913 (Internet Encyclopedia, Stanford), and he took up Einstein's relativity and wrote Duration and Simultaneity in 1922 (Aeon). The pattern of seeking out the sciences adjoining his questions is documented; his own statements about why are not used."
+    },
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bergson_iep, src_bergson_sep | 1900-1914 | scholarly encyclopedias] His free public lectures at the Collège de France drew overflow crowds, and the invitation to lecture at Columbia University in January 1913 is said to have caused the first traffic jam on Broadway (Internet Encyclopedia, Stanford); Creative Evolution became the source of the 'Bergson legend' and of William James's enthusiastic reading of the 1903 essay (Stanford). The Internet Encyclopedia also reports critics who read the popularity as evidence of vagueness and a fashionable audience, so the evidence documents drawing power more than success at convincing sceptics; his wartime diplomacy is read but not scored. SELF-CALIBRATION (agent): lowered from 76/0.60 to 72/0.55 because the sources document audience size and fashion, and critics attribute it to style, not to persuading opponents."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_bergson_nobel, src_bergson_sep, src_bergson_iep | 1877-1932 | award body + scholarly encyclopedias] His published output spans a prize-winning mathematics solution, an edition of Lucretius, a Latin thesis on Aristotle's idea of place, psychology and hypnosis, consciousness and free will, memory and the mind-body relation, biological evolution, aesthetics and comedy (Laughter), relativity and time, and the sources of morality and religion (Nobel biography, Stanford, Internet Encyclopedia). Range is documented by three independent lists; the depth of his command of each field is contested (for example the relativity technical error in the Aeon essay), which is a point about depth, not breadth."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앙리 베르그송"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead; holder not verified at preflight) / SUCCEEDED, lead image used, holder record now VERIFIED: the lead's 'Petit Palais portrait' is the drypoint 'Portrait du philosophe Henri Bergson' by Raphael Schwartz (Kiev 1 Oct 1884 - Pau 3 Aug 1942 per the museum), before 1912, inventory PPG1690, gift of the artist to the Petit Palais in January 1912. HOLDER RECORD CHECKED: the Paris Musees Collections item page (opened) shows a CC0 mark with the credit 'Paris Musees / Petit Palais, musee des Beaux-Arts de la Ville de Paris' and the same catalogue facts; its IIIF manifest (opened) has no licence field but gives the identical metadata and the sheet inscriptions (signature 'Raphael Schwartz' and the pencilled title 'Philosophe Henri Bergson'); the Commons copy (CC0) matches the holder statement; no contradiction, no undetermined-rights wording. Rights reasoning: the museum's own CC0 label applies; the artist's stated death in 1942 puts the work more than 70 years after the author's death, and the work was made before 1912 and entered the museum in January 1912, well over 95 years ago, so no age-based protection remains in France or the United States. Sitter identification: the artist's pencilled inscription 'Philosophe Henri Bergson' and the museum title. KIND historical_depiction: a lifetime drypoint portrait by an artist who portrayed many famous contemporaries, but neither the museum nor any source I read documents a sitting, so it is not presented as a documented likeness. The image used is the museum's own 4k derivative (1444 x 2160 pixels), cropped to the plate with the signature line and downscaled once to 878 x 1200; the larger Commons upload (3991 x 5968) was not needed. REJECTED ALTERNATIVE: the Bain News Service photograph by Henri Manuel (Library of Congress ggbain 38388, Commons 'Henri Bergson 02.jpg'), whose only basis is 'no known restrictions' with an unrecorded date and a French photographer who died in 1947; loc.gov is walled this session and the basis is not acceptable. PREFLIGHT: QID VERIFIED LIVE (2026-11-04) Q42156 label 'Henri Bergson', description 'French philosopher (1859-1941)', born 18 Oct 1859, died 4 Jan 1941, citizenship France, Korean label 앙리 베르그송; no production (prod64.txt) or candidate slug/QID collision. REGION western_europe (Paris). ERA 20th_century (his fame and main publications run 1900-1932; precedent John Dewey, also born 1859). KOREAN NAME 앙리 베르그송 is the Wikidata Korean label. VOCABULARY: occupation philosopher, writer; field philosophy; tags philosopher, communicator, independent; archetype independent_creator; impact domains historical, cultural, educational (all present with EN and KO labels). ATTRIBUTION CONFIRMED (true): the lead's screen 'attributable' stands: dated publications, lecture records and a documented 1922 debate. ZERO POLITICS: primary identity is philosopher (not diplomat); the First World War propaganda speeches, the 1917 and 1918 missions to President Wilson and Spain, the presidency of the League of Nations Commission on Intellectual Cooperation (1922-1925), his silence in the Dreyfus Affair, the Action francaise attacks on him and his stance toward the Vichy regime are context only and are not scored; the Intellectual Cooperation commission is mentioned only as the setting of the Einstein contact. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Henri Bergson' (https://plato.stanford.edu/entries/bergson/), life section read in full; Nobel Foundation biography as a second statement. READ (substantively): Stanford Encyclopedia (life and works); Internet Encyclopedia of Philosophy (life sections a to d); NobelPrize.org biographical note and the 1928 presentation speech; Evan Thompson's Aeon essay; the Paris Musees record. PERSPECTIVES: two modern scholarly encyclopedias; award body at the time (admiring, by a non-philosopher); a philosopher's long-form press essay (sympathetic but states his error). COUNTER-VOICES: Russell and Darlu (as reported by the encyclopedias), the critics of 'Bergsonmania' (Internet Encyclopedia), Hanna 1962 and Prigogine and Stengers quoted in the Aeon essay, and the Le Roy letter on the relativity book (Stanford). NOT OPENED: Bergson's own books, Soulez and Worms's biography, Canales's The Physicist and the Philosopher, Russell's 1912 article, Chevalier's conversations (known only as quoted), the Collège de France lecture records, Britannica (blocked this cycle). SELF-REPORT SEPARATION: the account of his turn from mechanism is self-report via Chevalier as quoted by the Internet Encyclopedia and is not the sole support for any row. EXCLUSIONS (hard rule): family and marriage, his daughter, his arthritis and retirement from public life, religious identity and the rumours about conversion, the antisemitic campaign against him, the Vichy-era conduct, and doctrine itself (duration, vitalism, intuition) as belief are not scored. THIN EVIDENCE FLAG: most behavioural evidence reaches this profile through two encyclopedias and one essay; no letters or lecture notes were opened, so confidence is capped at 0.62. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (78/0.62, the highest score; kept because the originality of duration is stated by two independent scholarly entries and the Aeon essay, beyond the admiring Nobel text), persuasiveness (76/0.60 lowered to 72/0.55: the sources document audience size and fashion and critics ascribe it to style, not to persuading opponents), independent_thinking (76/0.60, kept: documented break with mechanism and the Index episode, and already flagged dual-edged). HANDBACK64: {\"slug\": \"henri-bergson\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Paris Musees manifest carries no licence field; LoC wall\", \"holder_record_checked_by_you\": \"Paris Musees Collections item page for PPG1690 opened live: CC0 mark, credit 'Paris Musees / Petit Palais', author Raphael-Schwartz (Kiev 1884 - Pau 3 Aug 1942), before 1912, drypoint, gift of the artist January 1912, inscription 'Philosophe Henri Bergson'; IIIF manifest apicollections.parismusees.paris.fr/iiif/160023855/manifest opened (no licence field, same metadata; canvas 1444x2160); Commons file (CC0, 3991x5968) agrees\", \"holder_contradiction_found\": false, \"initial_lead\": \"Petit Palais portrait of Henri Bergson (Paris Musees, CC0 on Commons)\", \"final_portrait_source\": \"Petit Palais, musee des Beaux-Arts de la Ville de Paris (Paris Musees Collections), Raphael Schwartz, 'Portrait du philosophe Henri Bergson', drypoint before 1912, PPG1690, museum 4k image 1444x2160 cropped and downscaled to 878x1200, https://www.parismuseescollections.paris.fr/fr/petit-palais/oeuvres/portrait-du-philosophe-henri-bergson\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"persuasiveness\", \"old_score\": 76, \"old_confidence\": 0.6, \"new_score\": 72, \"new_confidence\": 0.55, \"reason\": \"The sources document audience size and fashion and critics attribute the popularity to style, not to persuading opponents\"}], \"reviewed_kept\": [\"creative_originality\", \"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5} RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.62 to 74 / 0.56 because scholarly encyclopedias and the Nobel award body carry the praise, and critics (Russell, Hanna) dispute the originality of parts of the work."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henri-bergson-schwartz-1912.jpg",
+    "width": 878,
+    "height": 1200,
+    "source": "Drypoint portrait of Henri Bergson by the printmaker Raphael Schwartz, made before 1912 in Bergson's lifetime and given by the artist to the Petit Palais in January 1912 (inscribed in pencil with the artist's signature and the title 'Philosophe Henri Bergson'); Petit Palais, musee des Beaux-Arts de la Ville de Paris, inventory PPG1690, plate 29.7 x 22.5 cm. The Paris Musees Collections page for the work carries a CC0 mark. The museum's own image is 1,444 x 2,160 pixels, cropped to the plate and signature line and downscaled once to 878 x 1,200 pixels; nothing was upscaled. Shown as an artist's portrait print, not as a documented sitting. Caveat: the museum gives the artist's death as 1942, so the work is old enough that no age-based protection remains, and the museum's CC0 label is the stated basis.",
+    "license": "CC0 1.0 (Paris Musees, Petit Palais; the artist died in 1942)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Raphael Schwartz, Portrait du philosophe Henri Bergson, drypoint, before 1912, Paris Musees / Petit Palais, musee des Beaux-Arts de la Ville de Paris (PPG1690), CC0",
+    "attributionUrl": "https://www.parismuseescollections.paris.fr/fr/petit-palais/oeuvres/portrait-du-philosophe-henri-bergson",
+    "creator": "Raphael Schwartz (printmaker)",
+    "date": "before 1912",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.parismuseescollections.paris.fr/fr/petit-palais/oeuvres/portrait-du-philosophe-henri-bergson"
+  }
+}

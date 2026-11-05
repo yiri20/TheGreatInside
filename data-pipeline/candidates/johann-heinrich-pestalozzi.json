@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "johann-heinrich-pestalozzi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Johann Heinrich Pestalozzi",
+    "aliases": [
+      "Johann Pestalozzi",
+      "Heinrich Pestalozzi",
+      "Pestalozzi"
+    ],
+    "wikidataId": "Q105428",
+    "birthYear": 1746,
+    "deathYear": 1827,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "CH"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "writer"
+    ],
+    "fieldIds": [
+      "education",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "educational",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "advocate",
+      "poor_business_sense"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pz_wikidata",
+      "kind": "wikidata",
+      "title": "Johann Heinrich Pestalozzi (Q105428), verified live via the Wikidata API (2026-11-05): English label 'Johann Heinrich Pestalozzi', description 'Swiss pedagogue and educational reformer (1746-1827)', Korean label 요한 하인리히 페스탈로치, born 12 January 1746, died 17 February 1827, citizenship Switzerland. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q105428"
+    },
+    {
+      "id": "src_pz_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Johann Heinrich Pestalozzi' (article by Kate Silber, author of 'Pestalozzi: The Man and His Work'), read in full. CANONICAL SIGNIFICANCE SOURCE: Swiss educational reformer who advocated the education of the poor and teaching methods designed to strengthen the student's own abilities; his method became widely accepted and most of his principles have been absorbed into modern elementary education; his doctrine moved from the familiar to the new through concrete activity and followed the child's development; he considered moral education pre-eminent, and his last book culminates in the maxim 'Life itself educates'; the article also records the failed Neuhof enterprise and orphan project, his years of writing in isolation, the Stans orphanage, the Burgdorf and Yverdon institutes, and that the Yverdon family spirit was shattered by a severe dispute among teachers and the institute lost its fame and pupils.",
+      "url": "https://www.britannica.com/biography/Johann-Heinrich-Pestalozzi"
+    },
+    {
+      "id": "src_pz_encyc_edu",
+      "kind": "biography",
+      "title": "'Pestalozzi, Johann (1746-1827)', Encyclopedia of Education (Gale), as reproduced by Encyclopedia.com, read in full: an education-history entry on his methods (object lessons, the Anschauung principle, simultaneous group instruction, rejection of corporal punishment and rote memorisation, field trips), his institutions (Neuhof 1774 closed in debt in 1779, Stans 1799, the Burgdorf teacher-training school 1800-1804, Yverdon 1804-1825) and the spread of his ideas through trained teachers such as Joseph Neef and Friedrich Froebel and through Prussian reform.",
+      "url": "https://encyclopedia.com/education/encyclopedias-almanacs-transcripts-and-maps/pestalozzi-johann-1746-1827"
+    },
+    {
+      "id": "src_pz_encyc_wb",
+      "kind": "biography",
+      "title": "'Johann Heinrich Pestalozzi', Encyclopedia of World Biography (Gale), as reproduced by Encyclopedia.com, read in full: a short biographical entry that stresses his sense of justice and the poor, his failure at Neuhof, the success of Leonard and Gertrude, the showplace at Yverdon, and a candid ending in which his fame brought out some of his more disagreeable characteristics, the school closed amid disputes and lawsuits, and he died embittered.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/johann-heinrich-pestalozzi"
+    },
+    {
+      "id": "src_pz_kuhlemann",
+      "kind": "institution",
+      "title": "Heinrich Pestalozzi website of the critical-edition scholars Arthur Bruhlmeier and Gerhard Kuhlemann, English pages 'Short Biography', 'Stans' (1798-1799) and 'Yverdon' (1804-1825), read in full: a scholarly account with long quotations from his letter on Stans, the 1799 opening with more than 80 children after six weeks, and the Yverdon institute's low fees, one third of pupils not paying, unpaid teachers, lack of budgeting and improper bookkeeping, the colleague Karl Justus Blochmann's critical description of him, and the years of quarrels between Joseph Schmid and Johannes Niederer that ruined the institute. Scholars who edit his works, so careful but not neutral about him.",
+      "url": "https://en.heinrich-pestalozzi.de/biography/yverdon"
+    },
+    {
+      "id": "src_pz_deguimps",
+      "kind": "biography",
+      "title": "Roger de Guimps, 'Pestalozzi: His Life and Work' (English translation, New York, 1890; the biography by a former pupil of the Yverdon institute), read in selected chapters (Stans, the Yverdon dispute and the 1818-1820s statements) from the full text on the Internet Archive: includes his letter on Stans, his own statements that he lacked the strength and capacity to manage a numerous staff, the account of the dissensions at Yverdon, the visit of the geographer Ritter, and a refutation of a priest's later accusations about Stans. Written by a pupil and admirer, so admiring in tone and used with the scholars' account as a check.",
+      "url": "https://archive.org/details/pestalozzihislif00guimiala"
+    },
+    {
+      "id": "src_pz_rijks",
+      "kind": "archive",
+      "title": "Rijksmuseum, Amsterdam, print RP-P-1908-2712 'Portret van Johann Heinrich Pestalozzi' (engraving, 1814, by Christian Forssell after a painting by Jean Henriette Rath), item record read through the museum's linked-art data: public domain mark on the image and CC0 on the record. Opened for the portrait only.",
+      "url": "https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1908-2712--7d3e023b63434c743da1fded7e7b22d6"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pz_kuhlemann, src_pz_britannica, src_pz_encyc_edu, src_pz_encyc_wb, src_pz_deguimps | 1774-1827 | critical-edition scholars, general encyclopedia, education encyclopedia, biographical encyclopedia, pupil's biography] Documented across five writers and four episodes: the poor-children school at Neuhof from 1774; the Stans orphanage, where more than 80 children were cared for by him and a maid six weeks after the January 1799 opening (Kuhlemann), with his own statement that he slept among them (the letter, self-report quoted by Kuhlemann and de Guimps); at Yverdon he accepted very low fees, about one third of the pupils paid nothing and the teachers had only board and lodging (Kuhlemann); and Britannica says a poor school funded from his collected works was set up late in life (it lasted two years), and he went back to Neuhof in 1825 to plan another. The motive is not only retrospective admiration because the costs are documented structural facts. The Stans claims that he fed the children badly are hearsay that de Guimps rejects. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 80 / 0.68 to 78 / 0.64 because the sources are a critical-edition site that advocates for him plus general encyclopedias, with the disputed Stans accusations unresolved."
+    },
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_pz_britannica, src_pz_kuhlemann, src_pz_encyc_edu, src_pz_encyc_wb | 1769-1827 | general encyclopedia, critical-edition scholars, education encyclopedia, biographical encyclopedia] After the Neuhof enterprise failed he took in poor children, and when that failed too he wrote for many years at Neuhof, his proposals ignored by his countrymen (Britannica, Kuhlemann); then Stans (closed within months when the building was needed as a military hospital), Burgdorf (lost to the new authorities), Yverdon (1804-1825) and a return to Neuhof in 1825 to plan another poor institute. Four independent writers document the restarts. The persistence is dual-edged because the sources also document debts, bankruptcy and the unrealistic management that came with it."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pz_encyc_edu, src_pz_kuhlemann, src_pz_britannica, src_pz_deguimps | 1774-1820 | education encyclopedia, critical-edition scholars, general encyclopedia, pupil's biography] Three or more distinct trials: simultaneous group instruction at Neuhof (Gale); at Stans, older children used as helpers and a three-step moral education worked out on the spot (Kuhlemann, from his letter); and at Yverdon an institute he meant as an experimental school with a flexible timetable, no marks or tests, pupils teaching classmates, field trips and craft work (Kuhlemann), while Britannica calls several of his ideas radically innovative for their time. He wrote that he did not claim to have always followed his method or to have worked out its details (de Guimps), so the row is a pattern of trying and revising, not of controlled testing."
+    },
+    "planning_orientation": {
+      "score": 24,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "risk",
+      "rationale": "[src_pz_kuhlemann, src_pz_deguimps, src_pz_encyc_edu, src_pz_britannica | 1769-1825 | critical-edition scholars, pupil's biography, education encyclopedia, general encyclopedia] The scholars say the Yverdon institute suffered heavy losses from a lack of budgeting and improper bookkeeping, that he often lost track of things and could not manage the institute calmly, and quote the teacher Blochmann (1809-1816) that he had no control over actions or persons and no idea how to lead even a small village school; at Stans he said he was not prepared with staff, work or machines; Neuhof closed in debt (Gale, Britannica); de Guimps reports his own statements that he lacked the strength and capacity to manage a numerous staff. The weak organisation is documented from several angles, but Blochmann is quoted only through the scholars' page and the failures had other causes (war, political change, the teachers' quarrels). SELF-CALIBRATION (agent): lowered from 24 / 0.64 to 30 / 0.58 because the strongest evidence for an extreme-low planning score is one scholarly page and the quotation it relays, while the other sources show failures with several causes and the 'weak at managing people' claim is not the same as weak planning. LEAD REVIEW: the agent's self-calibration lowered planning_orientation confidence from 0.64 to 0.58 but also raised the score from 24 to 30; calibration never raises a score, so the score is restored to the originally researched 24 and the lowered confidence 0.58 is kept."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_pz_kuhlemann, src_pz_britannica, src_pz_encyc_edu | 1774-1825 | critical-edition scholars, general encyclopedia, education encyclopedia] He founded and headed four institutions (Neuhof, Stans, Burgdorf, Yverdon), was elected first president of the Swiss Society of Friends of Education in 1809, liked to be called Father Pestalozzi, supervised the teaching and personally showed visitors round (Kuhlemann). The same sources show he did not control or hold together his colleagues (severe dispute among teachers, Blochmann's remark), so the row measures drive to lead and found, not skill; confidence is moderate because two of the three sources are general summaries."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/johann-heinrich-pestalozzi-forssell-1814.jpg",
+    "width": 922,
+    "height": 1200,
+    "source": "Engraved portrait of Johann Heinrich Pestalozzi by Christian Forssell, dated 1814, after a painting by Jean Henriette Rath (print lettered 'Rath pinx.', 'Forssell sculp. 1814' and 'Pestalozzi, born 12 January 1746'), Rijksmuseum, Amsterdam, object RP-P-1908-2712. The file is the engraved image cropped from the museum's 4242 x 5602 pixel scan (1548 x 2015) and downscaled to 922 x 1200, with no upscaling and no retouching.",
+    "license": "Public domain (Rijksmuseum Public Domain Mark on the image, CC0 on the record; an engraving of 1814)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Christian Forssell, after Jean Henriette Rath, 1814. Rijksmuseum, Amsterdam (RP-P-1908-2712), https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1908-2712--7d3e023b63434c743da1fded7e7b22d6",
+    "attributionUrl": "https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1908-2712--7d3e023b63434c743da1fded7e7b22d6",
+    "creator": "Christian Forssell (engraver), after Jean Henriette Rath",
+    "date": "1814",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1908-2712--7d3e023b63434c743da1fded7e7b22d6"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "페스탈로치"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED AT THE HOLDER, LEAD IMAGE USED. The lead named the Rijksmuseum portrait print RP-P-1908-2712 with a verified linked-art record. I re-opened it (data.rijksmuseum.nl search by object number, then id.rijksmuseum.nl/200192193 with Accept application/ld+json): title 'Portret van Johann Heinrich Pestalozzi', engraving, plate 262 x 182 mm, produced 1814 by Christian Forssell (printmaker, 'mentioned on object') after a painting by Jean Henriette Rath ('mentioned on object'); the image service (iiif.micr.io/ykEBU) carries the Public Domain Mark (creativecommons.org/publicdomain/mark/1.0/) and the record data carries CC0. The print's own lettering, read on the scan, says 'Rath pinx.', 'Forssell sculp. 1814' and 'PESTALOZZI, Ne le 12 Janvier 1746', which matches his birth date, so the sitter is positively identified by the holder title and the inscription. An 1814 engraving is public domain by age and the museum states it. No holder contradiction. I did not need the 1806 print RP-P-OB-33.785 or any other alternative. The 4242 x 5602 pixel scan was cropped to the engraved image (1548 x 2015) and downscaled to 922 x 1200, no upscaling and no retouching. Kind historical depiction: a print after a painting (the painting is the likeness taken in his lifetime but is not a documented sitting known to me), a rule applied to every print after a painting. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q105428 label 'Johann Heinrich Pestalozzi', description 'Swiss pedagogue and educational reformer (1746-1827)', ko label 요한 하인리히 페스탈로치, born 1746-01-12, died 1827-02-17, citizenship Switzerland; not in prod64.txt, no candidate file existed for johann-heinrich-pestalozzi. REGION western_europe (the Swiss precedents Rousseau, Euler, Piaget, Dunant, Einstein are western_europe; he worked at Birr, Burgdorf and Yverdon). ERA early_modern (born 1746; precedents with the same birth decade: Goya, Jenner, Volta). ZERO POLITICS: primary identity educator and educational writer; his journalism for the Helvetic Republic and his welcome of the French troops (mentioned in the Stans page) are context, not scored, not carded. VOCABULARY: occupations teacher and writer, fields education and social_reform, tags founder, advocate and poor_business_sense, archetype social_influencer, impact domains educational and social, all existing with EN and KO labels (precedent horace-mann). KO NAME: Wikidata Korean label 요한 하인리히 페스탈로치 is the long formal form, so the short common form 페스탈로치 is used (transliteration choice). ATTRIBUTION: attribution_screen_result attributable CONFIRMED: dated institutions, a critical edition of his works and letters, colleagues' and pupils' accounts. CANONICAL SIGNIFICANCE SOURCE: Britannica, 'Johann Heinrich Pestalozzi' (src_pz_britannica). READ (7 incl. Wikidata; 6 substantive): (1) Britannica, full; (2) Encyclopedia of Education entry (Gale), full; (3) Encyclopedia of World Biography entry (Gale), full; (4) Bruhlmeier and Kuhlemann website pages Short Biography, Stans and Yverdon, full; (5) de Guimps 1890, selected chapters from the Internet Archive full text; plus the Rijksmuseum record for the portrait only. PERSPECTIVES: a general encyclopedia written by a biographer, two Gale reference entries, critical-edition scholars, a former pupil. COUNTER-VOICES AND LIMITS: the colleague Blochmann (via the scholars) that he had no control over persons and no idea how to lead a small school; the Gale biography that fame brought out his more disagreeable characteristics and the school closed amid disputes and lawsuits; Gut's accusation of poor feeding at Stans (a book written later by a man who was a child at the time, rejected by de Guimps as hearsay); the Stans letter is self-report and was first published in 1807 with Niederer's annotations. NOT OPENED: the Historical Dictionary of Switzerland entry (Cloudflare-walled, HTTP 403), the UNESCO Profiles of Educators article (not retrievable), Silber's book, Gutek 1968 and Downs 1975, the original Pestalozzi works, Karl von Raumer and Ritter's visit reports (only as retold by de Guimps). DISCREPANCIES: Gale puts the Neuhof school's closing in 1779, the scholars' page in 1780 and Britannica gives 1774 for the collapse of the farm; the Stans opening is 14 January 1799 (scholars) while Britannica, Gale and Encyclopedia of World Biography give 1798 or 1799; Burgdorf years are given as 1799-1804, 1800-1804 and 1799-1805 depending on the source, so no exact year is used for them. EXCLUSIONS: his family life (his son and marriage) and the legal quarrel with Niederer are not scored; the legend of Stans in the paintings is noted by the scholars as myth. SPARSE PROFILE: 5 rows, scores 30-80, confidence 0.52-0.68; no row above 0.68 because the best independent check on his character is the scholars' own page and the evidence is mostly institutional. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (highest score and confidence; kept at 80/0.68 because the motive is shown by costs that are structural facts from independent writers, not only admiration), persistence (kept: four writers document the restarts), planning_orientation (lowered from 24 / 0.64 to 30 / 0.58: an extreme-low score rests mainly on one scholarly page and a relayed quotation, and the failures had several causes). HANDBACK64: {\"slug\": \"johann-heinrich-pestalozzi\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Rijksmuseum linked-art records RP-P-1908-2712 and RP-P-OB-33.785 opened (PDM + CC0)\", \"holder_record_checked_by_you\": \"Rijksmuseum linked-art record id.rijksmuseum.nl/200192193 (RP-P-1908-2712) re-opened via data.rijksmuseum.nl search and Accept application/ld+json: title 'Portret van Johann Heinrich Pestalozzi', engraving 1814 by Christian Forssell after Jean Henriette Rath, plate 262x182 mm, image service iiif.micr.io/ykEBU with Public Domain Mark (creativecommons.org/publicdomain/mark/1.0/), record data CC0; print lettering 'Rath pinx / Forssell sculp 1814 / PESTALOZZI Ne le 12 Janvier 1746'.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Rijksmuseum portrait print RP-P-1908-2712\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam, RP-P-1908-2712 (engraving 1814 by Christian Forssell after a painting by Jean Henriette Rath), https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1908-2712--7d3e023b63434c743da1fded7e7b22d6 ; image iiif.micr.io/ykEBU (4242x5602 scan cropped to the engraving, downscaled to 922x1200)\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"planning_orientation\", \"old_score\": 24, \"old_confidence\": 0.64, \"new_score\": 30, \"new_confidence\": 0.58, \"reason\": \"An extreme-low planning score rests mainly on one scholarly page and a quotation it relays, while the failures had several causes and weak people-management is not the same as weak planning\"}], \"reviewed_kept\": [\"impact_motivation\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5} RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 80 / 0.68 to 78 / 0.64 because the sources are a critical-edition site that advocates for him plus general encyclopedias, with the disputed Stans accusations unresolved. LEAD REVIEW: the agent's self-calibration lowered planning_orientation confidence from 0.64 to 0.58 but also raised the score from 24 to 30; calibration never raises a score, so the score is restored to the originally researched 24 and the lowered confidence 0.58 is kept."
+  }
+}

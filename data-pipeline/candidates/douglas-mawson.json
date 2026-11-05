@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "douglas-mawson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Douglas Mawson",
+    "aliases": [
+      "Sir Douglas Mawson"
+    ],
+    "wikidataId": "Q434281",
+    "birthYear": 1882,
+    "deathYear": 1958,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AU"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "scientist"
+    ],
+    "fieldIds": [
+      "exploration",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mawson_wikidata",
+      "kind": "wikidata",
+      "title": "Douglas Mawson (Q434281), verified live via the Wikidata API (2026-11-04): label 'Douglas Mawson', description 'Australian geologist and explorer of the Antarctic (1882-1958)', born 1882-05-05, died 1958-10-14, citizenship Australia (also United Kingdom and a third entry), no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q434281"
+    },
+    {
+      "id": "src_mawson_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Douglas Mawson' (Britannica Editors, last updated October 2026), article body read in full. CANONICAL SIGNIFICANCE SOURCE: born 1882 at Shipley, Yorkshire, died 1958 in Adelaide, an Australian geologist and explorer 'whose travels in the Antarctic earned him worldwide acclaim'; mining-engineering degree from Sydney University in 1902 and a doctorate in science in 1909 from field studies at Broken Hill; on Shackleton's 1907 expedition he and T. W. E. David reached the south magnetic pole on 16 January 1909 by sledge; led the Australasian Antarctic Expedition 1911-14 and directed the British, Australian and New Zealand Antarctic expedition of 1929-31; knighted in 1914; edited and contributed to the 22-volume 'Reports of Australasian Antarctic Expeditions' and wrote 'The Home of the Blizzard' (1915). The article also states the territorial claims that followed his expeditions, which are not scored.",
+      "url": "https://www.britannica.com/biography/Douglas-Mawson"
+    },
+    {
+      "id": "src_mawson_aad",
+      "kind": "institution",
+      "title": "Australian Antarctic Program (Australian Antarctic Division), 'Sir Douglas Mawson (1882 to 1958)', last updated 2019, read in full: geologist on Shackleton's 1907-09 Nimrod expedition and, with Edgeworth David, completer of a 122-day man-hauling sledge journey; developed an Australian-led research expedition, the Australasian Antarctic Expedition of 1911-14 (Aurora captained by John King Davis, 31 expeditioners, bases at Macquarie Island, Commonwealth Bay led by Mawson and Queen Mary Land led by Frank Wild, first radio communications in Antarctica); on the Far Eastern sledging party of November 1912 Ninnis was lost in a crevasse with a sledge of supplies and Mertz died, and Mawson, alone and 'determined to return with the data and specimens', struggled for 30 days to reach base, missed the ship by hours and stayed a second winter with six volunteers; the expedition charted large segments of the east Antarctic coast and advanced geology, cartography, meteorology, geomagnetism, biology and marine science (22 volumes of reports); he lobbied the British, Australian and New Zealand governments for the 1929-31 BANZARE voyages, funded in part by a 10,000-pound donation from Macpherson Robertson; honours include the Royal Society fellowship (1923). Government agency page; admiring in tone.",
+      "url": "https://www.antarctica.gov.au/about-antarctica/history/people/douglas-mawson/"
+    },
+    {
+      "id": "src_mawson_eoas",
+      "kind": "institution",
+      "title": "Encyclopedia of Australian Science and Innovation (Swinburne/University of Melbourne), 'Mawson, Douglas (1882 - 1958)' person entry, read in full: lecturer at the University of Adelaide from 1905 and Professor of Geology and Mineralogy 1921-1952; pioneering research on the geology of South Australia and New South Wales with extensive field work, which also featured in his teaching; 'the first to identify radium-bearing ore in Australia'; on the Nimrod expedition acted as surveyor, cartographer and magnetician; the Australasian Antarctic Expedition 1911-14 was, although struck by tragedy, 'one of the most successful expeditions of the period'; BANZARE 1929-31 discovered more coastline and charted more territory than previous expeditions; office in the Royal Society of South Australia and ANZAAS; chronology of awards. Scholarly database entry.",
+      "url": "https://eoas.info/biogs/P000631b.htm"
+    },
+    {
+      "id": "src_mawson_academy",
+      "kind": "institution",
+      "title": "Australian Academy of Science, 'Douglas Mawson 1882-1958' biographical memoir page, read in full (the linked memoir PDF returned HTTP 404 and was not read): Foundation Fellow of the Academy, Emeritus Professor of Geology and Mineralogy at Adelaide, 'Australia's most famous Antarctic explorer', who as Shackleton's 1907 expedition member, leader of two Australian expeditions in 1911 and 1929 and a chief authority on the Antarctic planning committee 'has dominated Australian Antarctic exploration for almost half a century'. Short obituary-style summary; admiring.",
+      "url": "https://www.science.org.au/fellowship/fellows/biographical-memoirs/douglas-mawson-1882-1958"
+    },
+    {
+      "id": "src_mawson_maitland",
+      "kind": "press",
+      "title": "Alexander Maitland, extract on Sir Douglas Mawson from 'Exploring the World: Two Centuries of Remarkable Adventurers and Their Journeys', published by Stanfords (travel-book retailer) blog, 18 November 2022, read in full: emigrated as a baby from Yorkshire, Sydney University graduate in geology and mining engineering in 1902, wrote one of the first comprehensive reports on the geology of the New Hebrides in 1903, Adelaide lecturer from 1905; refused an invitation to join Scott's Terra Nova expedition and organised and led his own Australasian Antarctic Expedition into unexplored country south of Australia; the Vickers monoplane crashed in a test flight at Adelaide and was converted to an air-tractor sledge whose engine seized; account of the Far Eastern Party, Ninnis's fall and Mertz's death and Mawson's solo trek of more than a month, the second winter, and the final sentence 'After Mawson's expedition records and journal were released, some historians questioned his leadership skills, navigation and apparent recklessness, none of which diminished his reputation or achievements' (no historians named). Popular travel-writing extract; supplies the critical counter-voice but unsourced.",
+      "url": "https://blog.stanfords.co.uk/blog/2022/11/18/extract-exploring-the-world-by-alexander-maitland/"
+    },
+    {
+      "id": "src_mawson_samhs",
+      "kind": "institution",
+      "title": "South Australian Medical Heritage Society, 'Sir Douglas Mawson and the Far East Antarctic Journey, 1911/1914' (virtual-museum page based on a 2018 talk by Associate Professor Brian Brophy), read to the account of the return journey: in 1907 Mawson hurried to Adelaide hoping to meet Shackleton's ship because he had studied glaciation in outback South Australia and wanted to see it first-hand; after Scott declined his plan to explore west of Cape Adare he mounted his own expedition, sought support in Australia through 1910-11 with scientific, commercial and nationalistic aims; ship Aurora left Cardiff in July 1911 with 49 huskies; the Far Eastern Party left on 10 November 1912 with 17 dogs and three sleds, Mawson reorganised the sleds to two and put the best dogs and most food on Ninnis's sled, reasoning that a crevasse lid failing would cost his own sled instead; on 14 December Mawson crossed the crevasse tangentially and on his sled while Ninnis jogged alongside; Mawson considered the coast route and dismissed it, ate the dogs on the return, cut down the sled, was roped to it when he fell into a crevasse and reached base on 9 February 1913 after the relief ship had left. The author discusses vitamin A poisoning as the likely cause of Mertz's death (not used). Society talk page by a neurosurgeon and former Mawson Station medical officer; Mawson's own diary is the underlying record.",
+      "url": "https://www.samhs.org.au/Virtual%20Museum/Notable-individuals/Mawson,%20Douglas/Far_East_Antarctic_Journey/Far_East_Antarctic_Journey.html"
+    },
+    {
+      "id": "src_mawson_dash",
+      "kind": "press",
+      "title": "Mike Dash, 'Alone against Antarctica', A Blast From The Past (history blog), 27 January 2012, read in part (opening and narrative sections): describes Mawson as 'tall, lean, balding, earnest and determined, an Antarctic veteran, a supreme organizer, and also physically tough'; says the Far Eastern assignment was an especially risky one, that the party had left no food depots on the way out, which left a choice between heading for the sea or a fast return the way they had come, and that Ninnis's habit of running alongside his sledge risked the lives of those he left behind; quotes Mawson's diary entries. Popular history blog by a historian-author drawing on Mawson's diary and Home of the Blizzard; not an independent primary source and some reader comments appended to the page are not used.",
+      "url": "https://mikedashhistory.com/2012/01/27/alone-against-antarctica/"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mawson_samhs, src_mawson_maitland, src_mawson_aad | 1909-1930 | society talk, popular travel-writing, government agency] Maitland and the Medical Heritage Society record that he refused a place on Scott's expedition and instead planned and organised his own expedition to unexplored coast south of Australia, seeking support in Australia over 1910-11, and the Antarctic Division records that he later lobbied the British, Australian and New Zealand governments to fund the 1929-31 voyages, obtaining a private donation of 10,000 pounds. The sequence of self-initiated expeditions is consistent across three sources; the sources give no detail on how he approached backers."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mawson_aad, src_mawson_maitland, src_mawson_samhs, src_mawson_dash | 1912-1913 | government agency, popular travel-writing, society talk, history blog] After Ninnis fell into a crevasse with most of the supplies and Mertz died, Mawson went on alone for about a month, carrying the party's records and specimens, survived a fall into a crevasse by hauling himself out on his sledge harness, reached base after the ship had left and wintered a second year (all four accounts agree on the outline). All four accounts are retellings of Mawson's own diary and book, and the admiring tone of the Antarctic Division text exceeds what the documented acts show; the row therefore rests on the documented journey only and nothing is inferred from his health. SELF-CALIBRATION (agent): top-risk row; lowered from 76 / 0.62 to 72 / 0.55 because the four retellings are not independent of one another (Mawson's own diary and Home of the Blizzard are the common source) and the strongest wording comes from an admiring agency page."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mawson_samhs, src_mawson_eoas, src_mawson_maitland, src_mawson_aad | 1903-1915 | society talk, scholarly database, popular travel-writing, government agency] Before going south he had studied glaciation in outback South Australia and wanted to see it first-hand (Medical Heritage Society); he wrote one of the first comprehensive geological reports on the New Hebrides in 1903 (Maitland), identified radium-bearing ore in Australia and carried out extensive field research (Encyclopedia of Australian Science), and the 1911-14 expedition added geology, meteorology, geomagnetism and biology to exploration (Antarctic Division). Documented interests in natural science; the sources offer no direct statement of motive."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mawson_aad, src_mawson_britannica, src_mawson_samhs, src_mawson_maitland | 1911-1931 | government agency, encyclopaedia, society talk, popular travel-writing] He led the 1911-14 expedition (31 expeditioners, three bases, own leadership of the Main Base at Commonwealth Bay and of the Far Eastern Party) and directed the 1929-31 expedition (Antarctic Division, Britannica), and chose to lead the main sledging party himself (Medical Heritage Society). Maitland adds that some unnamed historians later questioned his leadership skills and navigation, so the impact is dual-edged and the confidence is modest."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mawson_dash, src_mawson_samhs, src_mawson_maitland | 1912 | history blog, society talk, popular travel-writing] He led a three-man party with no outward depots over crevasse country (Dash), crossed the crevasse that Ninnis fell into tangentially and riding his sledge, and weighed and dismissed the longer coast route (Medical Heritage Society); Maitland reports that some historians questioned his navigation and apparent recklessness without naming them. The characterisation of these choices as risk-taking comes from retrospective narrators, not from a source that records his own assessment, so the row is an inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "더글러스 모슨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/douglas-mawson-thomson-1915.jpg",
+    "width": 841,
+    "height": 1200,
+    "source": "Studio photograph of Sir Douglas Mawson credited 'Photo by Thomson, London', printed as a full-page plate captioned 'Sir Douglas Mawson' on page 93 of The American Museum Journal, volume 15 (New York: American Museum of Natural History, 1915), in the Internet Archive copy digitised from the American Museum of Natural History Library for the Biodiversity Heritage Library (item americanmuseumjo15amer, page image 2352 x 3502 pixels). This copy is cropped to the photograph and downscaled to 841 x 1200 (never enlarged).",
+    "license": "Public domain: first published in New York in 1915 (before 1931); the Internet Archive item is marked as not in copyright, and a 1914 British photograph was out of copyright in the United Kingdom well before 1996",
+    "licenseUrl": "https://archive.org/details/americanmuseumjo15amer",
+    "attribution": "Photograph credited to Thomson, London, published in The American Museum Journal, vol. 15 (1915), p. 93, public domain",
+    "attributionUrl": "https://archive.org/stream/americanmuseumjo15amer/#page/n122/mode/1up",
+    "creator": "Thomson, London (studio credit on the printed plate)",
+    "date": "1915 (publication; photograph made c. 1914)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/americanmuseumjo15amer"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / CONFIRMED, LEAD USED (same photograph, taken from the holder's own scan). The lead named 'Sir Douglas Mawson, 1914' from a c.1918 book (Internet Archive Book Images on Commons); the Commons file page says the book is The American Museum Journal, identifier americanmuseumjo15amer, so the book date is 1915, not 1918, and the caption reads 'Photo by Thomson, London'. HOLDER RECORD CHECKED: the Internet Archive metadata record https://archive.org/metadata/americanmuseumjo15amer gives title 'The American Museum journal', volume v.15 1915, publisher 'New York : American Museum of Natural History', contributor American Museum of Natural History Library, sponsor Biodiversity Heritage Library, possible-copyright-status NOT_IN_COPYRIGHT, rights pointing to the BHL permissions page. The book's OCR text (americanmuseumjo15amer_djvu.txt) contains 'Photo by Thomson, London' immediately before the caption 'SIR DOUGLAS MAWSON' and a paragraph identifying him as returned from the 1911-14 expedition, so the sitter is positively identified by the caption. The Commons file page ('Sir Douglas Mawson, 1914.jpg') carries a Flickr 'no known copyright restrictions' tag and a passed review, which I do not rely on. NO CONTRADICTION found. RIGHTS BASIS: the photograph was printed in a New York periodical of 1915, so it is public domain in the United States as published before 1931; as a 1914 London studio photograph its United Kingdom copyright term (a fixed term from the making of the photograph) ended decades before 1996, so the URAA did not restore it. CAVEATS: the photographer is only a studio credit ('Thomson, London'), not an identified person; the Commons category links a different John Thomson (photographer), which I do not use; I did not open the BHL permissions page or the periodical's original print edition; it is not stated whether the photograph appeared first in Britain. IMAGE: I downloaded the Internet Archive page scan https://archive.org/download/americanmuseumjo15amer/page/n122.jpg (2352 x 3502), cropped it to the photograph and downscaled to 841 x 1200, saved as public/portraits/douglas-mawson-thomson-1915.jpg; I viewed it. No upscaling. KIND likeness: a studio portrait photograph of the sitter, captioned by name. PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q434281 label 'Douglas Mawson', description 'Australian geologist and explorer of the Antarctic (1882-1958)', born 1882-05-05, died 1958-10-14; not in prod64.txt (grepped QID and name) and no candidate file existed. REGION western_europe, PROVISIONAL AND FLAGGED: there is no Oceania region among the 11 controlled ids; the repo precedents are Ernest Rutherford (New Zealander, western_europe, career in Britain), Edmund Hillary (New Zealander, south_asia) and Terence Tao (Australian, north_america, career base); Mawson was born in Shipley, Yorkshire, worked in Adelaide and Antarctica, so no career-base rule fits and the lead should decide whether western_europe (birthplace, imperial and scientific links to Britain) is acceptable. NATIONALITY AU. ERA 20th_century. ZERO POLITICS: primary identity geologist and Antarctic explorer; the territorial claims and proclamation made on his expeditions (Britannica; Antarctic Division video transcript), the governments he lobbied for funds beyond the funding fact itself, wartime service in the Ministry of Munitions and the Australian Antarctic Territory are not scored and not carded; no sovereignty claim appears in any card. VOCABULARY: occupations explorer, scientist; fields exploration, natural_science; tags explorer, field_researcher; archetype scientific_explorer (used by other candidates; labels to be confirmed by the validator). KO NAME: no Korean Wikidata label and no Korean Wikipedia sitelink, so a transliteration, 더글러스 모슨, is recorded as such for the lead to confirm. ATTRIBUTION: confirmed; the AAE and BANZARE record, the Adelaide chair and the diary-based accounts of the 1912-13 journey are well documented. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Douglas Mawson' (https://www.britannica.com/biography/Douglas-Mawson). READ: (1) Britannica full; (2) Australian Antarctic Division page full; (3) Encyclopedia of Australian Science entry full (first 3,500 characters plus the summary; the awards chronology was skimmed); (4) Australian Academy of Science memoir page (short; the PDF returned HTTP 404); (5) Maitland extract on the Stanfords blog full; (6) South Australian Medical Heritage Society page to the return-journey account (about 9,500 characters of 12,900); (7) Mike Dash blog in part. Seven substantive sources plus Wikidata. PERSPECTIVES: encyclopaedia, government agency, scholarly science database, national science academy, popular travel writer, medical-heritage society, history blogger. COUNTER-VOICES: Maitland reports that some unnamed historians questioned his leadership, navigation and recklessness; Dash notes the lack of outward depots and the risk of the Far Eastern assignment; the Medical Heritage Society discusses his crevasse crossing and his changing diagnosis of Mertz's death. LIMITS: no independent scholarly biography or critical article was read, and the accounts of the 1912-13 journey all derive from Mawson's own diary and book, which is why persistence is capped. NOT OPENED: Australian Dictionary of Biography (HTTP 403, bot-blocked; I did not retry with a disguised client), the Royal Society memoir (Alderman and Tilley 1959), Home of the Blizzard itself, Riffenburgh's Racing with Death, Wikipedia (not counted), the Academy memoir PDF (404), the Mawson Huts and State Library pages (404). EXCLUDED: marriage, family and finances, the deaths of Ninnis and Mertz as events beyond the documented decisions, any inference from Mertz's or Mawson's illness, vitamin A discussion, and the territorial claims. FIRST-PASS REVIEW: primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (76/0.62 lowered to 72/0.55, see row), risk_tolerance (62/0.42 kept: already scored low and as an inference with dual-edged impact), leadership_drive (66/0.48 kept: documented leading roles, with the critical voice already reflected in impact). HANDBACK64: {\"slug\": \"douglas-mawson\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Internet Archive book image only\", \"holder_record_checked_by_you\": \"Internet Archive metadata record for americanmuseumjo15amer (The American Museum journal v.15 1915, New York: AMNH; contributor AMNH Library; sponsor BHL; possible-copyright-status NOT_IN_COPYRIGHT; rights points to BHL permissions page) and its OCR text, which has 'Photo by Thomson, London' before the caption 'SIR DOUGLAS MAWSON'; BHL permissions page not opened\", \"holder_contradiction_found\": false, \"initial_lead\": \"'Sir Douglas Mawson, 1914' from a c.1918 book (Internet Archive Book Images)\", \"final_portrait_source\": \"The American Museum Journal vol. 15 (New York, 1915) p. 93, plate 'Photo by Thomson, London', Internet Archive item americanmuseumjo15amer page n122 (2352x3502 scan cropped and downscaled to 841x1200), https://archive.org/details/americanmuseumjo15amer\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 76, \"old_confidence\": 0.62, \"new_score\": 72, \"new_confidence\": 0.55, \"reason\": \"The four retellings of the 1912-13 journey all derive from Mawson's own diary and book (not independent) and the strongest wording is from an admiring agency page\"}], \"reviewed_kept\": [\"risk_tolerance\", \"leadership_drive\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

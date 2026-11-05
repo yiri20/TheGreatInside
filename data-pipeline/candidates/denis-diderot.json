@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "denis-diderot",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Denis Diderot",
+    "aliases": [
+      "Diderot"
+    ],
+    "wikidataId": "Q448",
+    "birthYear": 1713,
+    "deathYear": 1784,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "writer",
+      "editor"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "polymath",
+      "prolific",
+      "independent",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_diderot_wikidata",
+      "kind": "wikidata",
+      "title": "Denis Diderot (Q448), verified live via the Wikidata API (2026-11-04): label 'Denis Diderot', description 'French Enlightenment philosopher writer and encyclopedist (1713-1784)', born 5 October 1713, died 31 July 1784 (the item also lists a 30 July death date), Korean label 드니 디드로. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q448"
+    },
+    {
+      "id": "src_diderot_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Denis Diderot' (Life and Major Writings section read in full, about 4,500 words). CANONICAL SIGNIFICANCE SOURCE: presents the Encyclopedie, which he edited with d'Alembert from 1750 and saw to completion in 1765 (plates to 1772), as arguably the most transformative work of the French Enlightenment; records the 1749 Vincennes imprisonment after the Lettre sur les aveugles, d'Alembert's resignation in 1758, his own authorship of nearly six thousand articles, the unpublished masterpieces (D'Alembert's Dream, Rameau's Nephew), the Salons as the invention of the art critic, and his contributions to Raynal's global history; also states that he was by nature a writer and thinker, not a political activist.",
+      "url": "https://plato.stanford.edu/entries/diderot/"
+    },
+    {
+      "id": "src_diderot_artfl",
+      "kind": "institution",
+      "title": "University of Chicago, ARTFL Encyclopedie Project, 'The \"18th\" Volume: Description' (page read in full, about 1,300 words, by Liz Selbst, drawing on Douglas Gordon, John Lough and Arthur Wilson). Describes the 284 pages of corrected proofs of 46 articles that the publisher Le Breton altered or censored after Diderot had approved them, Diderot's 1764 letter saying his work had been 'massacred', and the scholarly debate on how far the cuts changed the whole work (just over three percent of the pages of the last ten volumes by this count). INDEPENDENT / ADVERSARIAL on the publisher; also shows Diderot's proof-reading marks.",
+      "url": "https://encyclopedie.uchicago.edu/18th-volume/description"
+    },
+    {
+      "id": "src_diderot_pannabecker",
+      "kind": "institution",
+      "title": "John R. Pannabecker, 'Diderot, the Mechanical Arts, and the Encyclopedie: In Search of the Heritage of Technology Education', Journal of Technology Education 6(1), 1994, Virginia Tech (article read in the sections on the publishing venture, the method and the mechanical arts, about 5,000 words). Scholarly assessment: well over one hundred authors for the 17 text volumes, about 2,900 plates, Diderot's method of describing each art, his aim to publish trade secrets, and a critical caveat that his framework was impersonal and the Encyclopedie often did not present the most advanced technology of its time.",
+      "url": "https://scholar.lib.vt.edu/ejournals/JTE/v6n1/pannabecker.jte-v6n1.html"
+    },
+    {
+      "id": "src_diderot_lehigh",
+      "kind": "institution",
+      "title": "Lehigh University Libraries, Special Collections online exhibit 'Daring Knowledge: Diderot's Encyclopedie', page 'Mechanical Arts' (page read in full, about 350 words). Notes that Diderot examined mechanical and liberal arts alike, that the processes shown were not always the most recent, and quotes his article 'Encyclopedia' attacking artisans who keep trade knowledge secret.",
+      "url": "https://exhibits.lib.lehigh.edu/exhibits/show/diderot/mechanical_arts"
+    },
+    {
+      "id": "src_diderot_eb1911",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, eleventh edition (1911), 'Diderot, Denis' (read in full via Wikisource, about 4,000 words, by John Morley). Dated and openly critical older account: praises his versatility, his workshop study and proof-correcting labour on the Encyclopedie and the Salons, but judges the plays and Jacques le fataliste weak and says he left no single masterpiece; read as a contrast to the modern entries. Its moral and personal commentary on his private life is not used.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Diderot,_Denis"
+    },
+    {
+      "id": "src_diderot_met",
+      "kind": "archive",
+      "title": "Metropolitan Museum of Art, object record 53.600.189, 'Portrait of Denis Diderot', engraving by Augustin de Saint-Aubin, 1766, third state, inscribed 'J.B. Greuze del.' (read through the museum's Open Access API record, which lists public domain status; the museum's web pages were bot-walled). Used for the portrait only, not for any trait row.",
+      "url": "https://www.metmuseum.org/art/collection/search/422999"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_diderot_sep, src_diderot_artfl, src_diderot_eb1911 | 1750-1772 | scholarly encyclopedia + university project + older encyclopedia] Diderot carried the Encyclopedie through a suspended publication privilege, the 1758 resignation of co-editor d'Alembert (which left him in sole control) and the royal ban, to the final text volumes in 1765 and the plates in 1772, personally writing nearly six thousand articles (Stanford). The ARTFL page records that on finding in 1764 that his publisher had cut his articles he wrote that his work had been 'massacred', and that his daughter later recalled it almost made him abandon the whole work; the work was nonetheless completed. The 1911 account says he wore out his eyesight correcting proofs. Three independent accounts agree on the long, hard-pressed editorship; the near-abandonment is a daughter's recollection and is not scored as a trait."
+    },
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diderot_sep, src_diderot_eb1911, src_diderot_pannabecker | 1740s-1780s | scholarly encyclopedia + older encyclopedia + journal article] His published work ranges from a loose translation of Shaftesbury and a medical dictionary translation to the Lettre sur les aveugles on perception, the Lettre sur les sourds et muets, Pensees sur l'interpretation de la nature and the physiological dialogues of D'Alembert's Dream, and from art criticism to the history of the two Indies (Stanford); the 1911 article says he spent his days in the workshops mastering the processes of manufacture. Pannabecker credits him with making the mechanical arts a subject for systematic written inquiry. The workshop claim comes from the older account only (Pannabecker and the Chicago page attribute much of the field legwork to collaborators), so this is a pattern inferred from the breadth of documented inquiry rather than one documented episode. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 80 / 0.62 to 76 / 0.56 because the support is two encyclopedias (SEP and EB1911) and a technology-history article, all retrospective."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_diderot_sep, src_diderot_eb1911, src_diderot_pannabecker | 1740s-1780s | scholarly encyclopedia + older encyclopedia + journal article] Range across fields is documented by three independent accounts: metaphysics and natural philosophy and the life sciences, theatre theory and two staged plays, fiction and satire, art criticism, aesthetics, ethics, and the encyclopedic description of mechanical and liberal arts alike (Stanford, Britannica 1911, Pannabecker). Britannica 1911 judges the plays and Jacques le fataliste weak and finds no single masterpiece, which is a verdict on quality, not on range; Stanford also notes the plays are not major touchstones in the history of theatre. SELF-CALIBRATION (agent): lowered from 85/0.72 because the workshop and mechanical-arts fieldwork was largely done by collaborators and the 1911 account judges several of his genres weak, so his own documented range is a little narrower than the headline breadth. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 82 / 0.68 to 78 / 0.62 because three sources only, and the 1911 account judges several of his genres weak while the workshop work was largely done by collaborators."
+    },
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diderot_pannabecker, src_diderot_sep, src_diderot_eb1911 | 1750-1772 | journal article + scholarly encyclopedia + older encyclopedia] He co-edited with d'Alembert and then alone directed a work with well over one hundred contributors to its text volumes and thousands of plates (Pannabecker), and the 1911 account says he spent years bringing the manuscripts of less competent contributors into decent shape; Stanford places him at the centre of the d'Holbach circle. Documented as a sustained editorial and coordinating role, but the sources describe the structure of the enterprise more than specific acts of working with others, so confidence is moderate. His quarrels with collaborators and publishers (d'Alembert's withdrawal, the publisher's cuts) are context, not a collaboration verdict."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_diderot_sep, src_diderot_eb1911 | 1746-1773 | scholarly encyclopedia + older encyclopedia] A police file was opened after the Pensees philosophiques, which was ordered burned in 1746, and he was held at Vincennes for about three months in 1749 after the Lettre sur les aveugles (Stanford); he nevertheless went on writing radical and heterodox works, many of which (D'Alembert's Dream, Rameau's Nephew) he kept unpublished (Stanford). Britannica 1911 describes him as critical rather than dogmatic, taking up a hypothesis and following it through to its consequences. The evidence shows unconventional positions held under official pressure; impact is dual-edged because the same stance cost him a prison term and a mutilated Encyclopedie. Politics is not scored. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.62 to 76 / 0.56 because only two reference works support the row and both narrate the legend of his defiance."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diderot_sep, src_diderot_eb1911 | 1759-1781 | scholarly encyclopedia + older encyclopedia] From 1759, at Grimm's invitation, he wrote reviews of the Louvre salons for the Correspondance litteraire, which Stanford describes as combining the connoisseur with the philosophical writer and as inventing the art critic; the 1911 account quotes Goethe's praise of his Essai sur la peinture and says the Salons gave readers a new sense of colour, and names Greuze as his favourite living artist. His theatre theory belongs to the same documented interest in how art represents experience. The admiration in the 1911 account is retrospective and Stanford is the main scholarly basis, so confidence is moderate. RUBRIC_CORRECTION (lead review, before eligibility): aesthetic_sensitivity lowered from 78 / 0.6 to 74 / 0.54 because two reference works carry the row and the criticism (Salons) is judged retrospectively."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diderot_sep, src_diderot_eb1911 | 1749-1773 | scholarly encyclopedia + older encyclopedia] Stanford presents the Salons as a new genre of criticism, Rameau's Nephew as a highly original fusion of fiction, dialogue and memoir whose translation by Goethe influenced Hegel, and D'Alembert's Dream as a philosophical trilogy of dialogues; the 1911 account credits him with new principles for domestic drama that influenced Lessing, while judging his own plays and Jacques le fataliste unsuccessful. Originality of form is documented by scholars, but the older account explicitly denies him a finished masterpiece, which tempers the score. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 74 / 0.58 to 70 / 0.52 because two reference works, retrospective praise, and several unpublished masterpieces were not known in his lifetime."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diderot_artfl, src_diderot_pannabecker, src_diderot_eb1911 | 1750-1765 | university project + journal article + older encyclopedia] The proof sheets in the Chicago page carry his own marks ('Bon a tirez', 'Corrigez et tirez', 'J'ai revu cette seconde') showing he read and approved proofs of the articles; the 1911 account says he wore out his eyesight correcting proofs; the Prospectus method he outlined for every craft (materials, products, tools, operations, terminology) is a systematic framework (Pannabecker), though Pannabecker also notes that coverage of processes was uneven and often not up to date. Proof-reading marks are documented; the wider trait is an inference from editorial method, so the score is modest."
+    },
+    "systems_abstraction": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_diderot_pannabecker, src_diderot_sep | 1750-1755 | journal article + scholarly encyclopedia] He framed the Encyclopedie, in the Prospectus and in the articles 'Art' and 'Encyclopedie', as a system of knowledge with a tree of faculties and cross-references and a standard five-part method for describing each craft (Pannabecker, Stanford). Pannabecker is critical: the scheme of cross-references was complex and inconsistent, alphabetical order dominated, and four of the five questions treated objects and processes rather than people. The evidence shows a deliberate organizing framework with acknowledged limits, hence a middling score and confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "드니 디드로"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / SUCCEEDED with the lead image: Metropolitan Museum of Art 53.600.189, engraving by Augustin de Saint-Aubin, 1766, inscribed 'J.B. Greuze del.'; the Met Open Access API v1 record (object 422999) opened live: isPublicDomain true, no reproduction restriction, credit line Harris Brisbane Dick Fund 1953; the museum's web pages and Open Access policy page were bot-walled (HTTP 429), so holder verification was through the API only. The lettering on the print itself reads DIDEROT (sitter identified by inscription). Kind is historical_depiction because it is a print after a drawing by another artist and the sources do not document a sitting. Greuze 1766 Commons alternative not needed. PREFLIGHT: QID VERIFIED LIVE (2026-11-04) Q448 label 'Denis Diderot', description 'French Enlightenment philosopher writer and encyclopedist (1713-1784)', born 5 Oct 1713, died 31 Jul 1784 (also 30 Jul listed), citizenship France, Korean label 드니 디드로; no production (prod64.txt) or candidate slug/QID collision. REGION western_europe (France; precedent Rousseau). ERA early_modern. KOREAN NAME 드니 디드로 is the Wikidata Korean label. ZERO POLITICS: his late contributions to Raynal's history, the Nakaz commentary and his patronage by Catherine II are context only; Stanford itself says he was a writer and thinker, not a political activist; no trait is scored from political views, rulers or patronage. VOCABULARY: occupations philosopher, writer, editor; fields philosophy, literature; tags polymath, prolific, independent, endured_imprisonment; archetype cross_disciplinary_generalist (all present with EN and KO labels). IMPACT DOMAINS literary, cultural, historical. ATTRIBUTION CONFIRMED: abundant documented behaviour (editorial correspondence, proofs, dated publications), so the historical-attribution screen result 'attributable' is confirmed. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Denis Diderot' (https://plato.stanford.edu/entries/diderot/), life section read in full. READ (substantively): Stanford Encyclopedia (life section); University of Chicago ARTFL page on the 18th volume (censorship proofs); Pannabecker 1994 journal article (mechanical arts, publishing venture, method); Lehigh University Libraries exhibit page on the mechanical arts; 1911 Britannica article by Morley (dated, critical); the Met record for the portrait. PERSPECTIVES: modern scholarly encyclopedia; university digital-humanities project built on the proofs and on Wilson and Lough; technology-history journal article; library exhibit; older critical encyclopedia. COUNTER-VOICES: ARTFL on the publisher's cuts and the debate on their extent; Pannabecker on the limits of the method and the age of the technology described; Britannica 1911 on the weak plays and the absence of a single masterpiece. NOT OPENED: Britannica current entry (HTTP 403 and Cloudflare wall), Darnton's Business of Enlightenment, Wilson's biography, Diderot's Salons and correspondence, Vandeul's memoir (known only as reported on the ARTFL page), Rousseau's Confessions, the Michigan Collaborative Translation Project texts. SELF-REPORT SEPARATION: Diderot's own words (the 1764 letter, the article 'Encyclopedie') are used only as reported by the scholarly pages; no first-person source is the sole support for any row. EXCLUSIONS (hard rule): his marriage and affairs, his daughter, finances other than the documented editorial pay context, his quarrel with Rousseau, atheism or materialism as doctrine, his Raynal and Nakaz political writing, and the Catherine II library purchase are not scored. THIN EVIDENCE FLAG: most behavioural evidence reaches this profile through scholarly summaries (Stanford, ARTFL, Pannabecker) and one dated encyclopedia; no letters or memoirs were opened, so confidence is capped at 0.72. SELF-CALIBRATION (agent): top-risk rows reviewed: cross_domain_range (85/0.72, the highest score and confidence) lowered to 82/0.68 because the workshop and mechanical-arts work was largely done by collaborators (Pannabecker, Chicago page) and the 1911 account judges several of his genres weak, so documented personal range is slightly narrower than the headline breadth; persistence (80/0.66, kept: three independent accounts agree); aesthetic_sensitivity (78/0.60, kept: Stanford is a scholarly basis beyond the retrospective praise). HANDBACK64: {\"slug\": \"denis-diderot\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Met Open Access API object 422999 opened (isPublicDomain true)\", \"holder_record_checked_by_you\": \"Met Open Access API v1 record objects/422999 opened live: title 'Portrait of Denis Diderot', Augustin de Saint-Aubin (1736-1807), 1766, engraving third state, Harris Brisbane Dick Fund 1953, accession 53.600.189, isPublicDomain true, rightsAndReproduction empty; print's own lettering 'J.B. Greuze del.' and 'Augustin de St Aubin Sculp'; the Met web object page and Open Access policy page were bot-walled (HTTP 429)\", \"holder_contradiction_found\": false, \"initial_lead\": \"Augustin de Saint-Aubin 1766 portrait (Met 422999)\", \"final_portrait_source\": \"Metropolitan Museum of Art, Augustin de Saint-Aubin after Jean-Baptiste Greuze, 'Portrait of Denis Diderot', 1766 engraving, 53.600.189, original image 2780x4000 cropped and downscaled to 858x1200, https://www.metmuseum.org/art/collection/search/422999\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 9, \"self_calibrated_rows\": [{\"attribute\": \"cross_domain_range\", \"old_score\": 85, \"old_confidence\": 0.72, \"new_score\": 82, \"new_confidence\": 0.68, \"reason\": \"Workshop and mechanical-arts fieldwork was largely done by collaborators and the 1911 account judges several of his genres weak, so his own documented range is a little narrower than the headline breadth\"}], \"reviewed_kept\": [\"persistence\", \"aesthetic_sensitivity\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 9} RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 80 / 0.62 to 76 / 0.56 because the support is two encyclopedias (SEP and EB1911) and a technology-history article, all retrospective. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.62 to 76 / 0.56 because only two reference works support the row and both narrate the legend of his defiance. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 82 / 0.68 to 78 / 0.62 because three sources only, and the 1911 account judges several of his genres weak while the workshop work was largely done by collaborators. RUBRIC_CORRECTION (lead review, before eligibility): aesthetic_sensitivity lowered from 78 / 0.6 to 74 / 0.54 because two reference works carry the row and the criticism (Salons) is judged retrospectively. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 74 / 0.58 to 70 / 0.52 because two reference works, retrospective praise, and several unpublished masterpieces were not known in his lifetime."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/denis-diderot-saint-aubin-1766.jpg",
+    "width": 858,
+    "height": 1200,
+    "source": "Engraved portrait of Denis Diderot made in 1766, in his lifetime, by Augustin de Saint-Aubin after a drawing by Jean-Baptiste Greuze (the print is lettered 'J.B. Greuze del.' and 'Augustin de St Aubin Sculp', with the name DIDEROT on the plinth); Metropolitan Museum of Art, New York, accession 53.600.189, Harris Brisbane Dick Fund, 1953. The museum's Open Access record lists the work as public domain. The sheet is 19 x 13 cm; the museum image is 2,780 x 4,000 pixels, cropped to the plate area and downscaled once to 858 x 1,200 pixels; nothing was upscaled. Shown as a later engraving after another artist's drawing, not as a documented sitting. Caveat: the museum's web pages were behind an anti-bot challenge, so the public domain status was read from its Open Access API record.",
+    "license": "Public domain (1766 engraving; Metropolitan Museum of Art Open Access, CC0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Augustin de Saint-Aubin after Jean-Baptiste Greuze, Portrait of Denis Diderot, 1766, engraving, The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1953 (53.600.189), public domain",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/422999",
+    "creator": "Augustin de Saint-Aubin (engraver), after a drawing by Jean-Baptiste Greuze",
+    "date": "1766",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/422999"
+  }
+}

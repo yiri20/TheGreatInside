@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "emanuel-lasker",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Emanuel Lasker",
+    "aliases": [
+      "Dr. Emanuel Lasker",
+      "Emmanuel Lasker"
+    ],
+    "wikidataId": "Q57095",
+    "birthYear": 1868,
+    "deathYear": 1941,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete",
+      "mathematician",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "sport",
+      "mathematics",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "athletic",
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lasker_wikidata",
+      "kind": "wikidata",
+      "title": "Emanuel Lasker (Q57095), verified live via the Wikidata API (2026-11-04): English label 'Emanuel Lasker', description 'German chess player, World Chess champion (1868-1941)', born 1868-12-24, died 1941-01-11, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q57095"
+    },
+    {
+      "id": "src_lasker_fide",
+      "kind": "institution",
+      "title": "'Emanuel Lasker', Open Chess Museum, FIDE (World Chess Federation), read in full: world champion from 1894 to 1921 (described as the longest reign in chess history); won the 1894 match against Steinitz and the 1896-97 rematch; defended against Marshall, Tarrasch, Janowski and Schlechter; played in student tournaments and internationally by 1889; competed after 1921 and at 66 took third place at the second Moscow International without losing a game; held a doctorate in philosophy and mathematics; wrote Common Sense in Chess (1895) and Manual of Chess (1925); his writings stress general method over memorised results; emigrated to the USSR in 1935 and later to the USA. CANONICAL SIGNIFICANCE SOURCE. A federation museum, so admiring in tone; little behavioural detail.",
+      "url": "https://museum.fide.com/champions/emanuel-lasker"
+    },
+    {
+      "id": "src_lasker_wchof",
+      "kind": "institution",
+      "title": "'Emanuel Lasker', World Chess Hall of Fame (inducted 2001), read in full: second world champion, 1894-1921, who held the official title longer than anyone else; learned chess from his older brother; won the title from Steinitz in 1894; defences against Marshall, Tarrasch, Schlechter and Janowski; lost the title to Capablanca in 1921; used psychology in his play and a style ahead of its time; prolific author including Lasker's Manual of Chess and writings on mathematics, philosophy and games such as bridge. A hall-of-fame entry, admiring and brief.",
+      "url": "https://worldchesshof.org/?p=929"
+    },
+    {
+      "id": "src_lasker_mactutor",
+      "kind": "biography",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Emanuel Lasker', MacTutor History of Mathematics archive, University of St Andrews (last updated 2003), read in full: education at Berlin, Gottingen and Heidelberg; lectures at Tulane (1893); doctorate at Erlangen under Max Noether (1900); the 1905 Mathematische Annalen paper that introduced primary ideals and proved a primary decomposition theorem for polynomial rings, later generalised by Emmy Noether (1921); the games laska and a nim variant; chess results by year; the six title defences of 1907-1910; the 1921 loss to Capablanca after fourteen games; philosophical books of 1907-1940; the 1933 confiscation of property reported by Gareth Williams and the 1934 return to competition for financial reasons; the combative, tenacious style described by Williams; Botvinnik on his practical preparation; his own account of choosing openings his opponents had condemned; emigration to England, Moscow (1936) and New York (1937). A scholarly history-of-mathematics biography that relies on other authors for the chess character.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lasker/"
+    },
+    {
+      "id": "src_lasker_gale",
+      "kind": "biography",
+      "title": "'Emanuel Lasker', Encyclopedia of World Biography (Gale, updated 2018) with the Encyclopaedia Judaica entry by Gerald Abrahams, as reproduced on Encyclopedia.com, read in full: won the 1894 title match 10-5 with four draws and the 1896 rematch 10-2 with five draws; held the title but defended it only six times, and critics said he avoided risky matches; insisted on payment for playing and for publication rights; published Lasker's Chess Magazine from 1904 and a New York Evening Post chess column; took a break from chess to study mathematics; doctorate at Erlangen; late in life earned much of his income as a professional bridge player; fled the Nazis for England then New York; debated relativity with Einstein; a Hastings observer's remarks on his character. A general reference compilation: some claims (the Tsar's 'Grandmaster' titles of 1914, failed pigeon breeding) are questioned by Edward Winter and are not used here.",
+      "url": "https://www.encyclopedia.com/people/sports-and-games/games-and-hobbies-biographies/emanuel-lasker"
+    },
+    {
+      "id": "src_lasker_winter_misc",
+      "kind": "press",
+      "title": "Edward Winter, 'Emanuel Lasker Miscellanea', Chess Notes (chess historian's archive, accessed 2026-11-04), read through the opening and the passages on money, matches and style: Lasker played 19 matches and lost only one; his 1907 and 1908 statements about payment for professionals and his magazine's deficit; Tarrasch's remark that he was paid over 4,000 roubles for St Petersburg 1914; Steinitz's October 1894 letter reclaiming the title after the agreed rematch was not played; Lasker's June 1920 resignation of the title to Capablanca citing unpopular rules; John Nunn (2014) quoted on Lasker as a great fighter with a strong will to win whose provocative moves were no worse than the alternatives, and on the myths of swindles and deliberately bad moves; Winter's own criticism of Hannak's 1959 biography and of unsupported legends. A critical independent chess historian who cites dated contemporary newspapers; a very long page of which about a third was read closely.",
+      "url": "https://www.chesshistory.com/winter/extra/lasker1.html"
+    },
+    {
+      "id": "src_lasker_winter_capa",
+      "kind": "press",
+      "title": "Edward Winter (ed.), \"Capablanca's Reply to Lasker\", Chess Notes, reproducing Capablanca's article in the British Chess Magazine of October 1922, read in full: Capablanca's account of the 1911-12 and 1919-20 negotiations, saying Lasker answered a letter about an unfair condition through the press and refused to play him, named an arbitrator and set him aside when he did not agree, and resigned the title in 1920 under their agreement; he also accuses Lasker's 1922 book of misrepresentation. The rival's own side of a dispute, so adversarial and one-sided, and the author's claims are not independently confirmed here.",
+      "url": "https://www.chesshistory.com/winter/extra/capablancalasker.html"
+    },
+    {
+      "id": "src_lasker_forster",
+      "kind": "press",
+      "title": "Richard Forster, 'Lasker Speaks Out (1926)', Chess Notes (Edward Winter's site), read in the introduction and the account of the sources: after winning the 1924 New York tournament Lasker was not invited to the 1927 New York tournament; a conflict with the chief organiser Norbert Lederer had been building for two and a half years; in December 1926 Lasker made a long public statement that sparked fierce exchanges in the press; his original text is lost and is reconstructed from German, Dutch, Spanish and English versions. A specialist's source-critical article; the statement itself was not read in full.",
+      "url": "https://www.chesshistory.com/winter/extra/laskerrevelations.html"
+    },
+    {
+      "id": "src_lasker_winter_schlechter",
+      "kind": "press",
+      "title": "Edward Winter, 'The Lasker v Schlechter Controversy (1910)', Chess Notes, read in full: the terms of the 1910 ten-game match with Schlechter were never published in a final form and remain disputed; contemporary reports differ on whether the title was at stake; the American Chess Bulletin records that Lasker, asked on board ship on 20 May 1910, said he had placed the title at stake. Used only as a caution that the match terms are unresolved.",
+      "url": "https://www.chesshistory.com/winter/extra/laskerschlechter.html"
+    },
+    {
+      "id": "src_lasker_bnf",
+      "kind": "archive",
+      "title": "Bibliotheque nationale de France, Gallica record 'Dr [Emanuel] Lasker (echecs) [joueur d'echecs] : [photographie de presse] / [Agence Rol]', Rol 63114, 1921, glass negative 18 x 13 cm, EI-13 (755): the holder's own OAI/SRU record gives the subject as Lasker, the date as 1921 (January) and the rights as 'domaine public' / 'public domain'. Used for the portrait only.",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b53045805f"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lasker_mactutor, src_lasker_fide, src_lasker_wchof, src_lasker_gale | 1889-1940 | biography + museum + hall of fame + encyclopedia] MacTutor documents the Erlangen doctorate (1900), the 1905 Mathematische Annalen paper that introduced primary ideals and proved a primary decomposition theorem for polynomial rings, philosophical books from 1907 to 1940, the games laska and a nim variant, and lectures at Tulane in 1893; FIDE says he held a doctorate in philosophy and mathematics; the Hall of Fame says he wrote on mathematics, philosophy and games such as bridge; the Gale entry says that late in life he earned much of his income as a professional bridge player. Sustained work at world level in chess alongside published mathematics and philosophy is documented by four independent kinds of source. The score stays below 80 because the sources describe output, not working process, and none assesses the philosophy."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lasker_mactutor, src_lasker_winter_misc, src_lasker_fide | 1895-1936 | biography + chess historian quoting a modern grandmaster + museum] MacTutor records the 1905 paper on ideals; John Nunn (2014, quoted by Winter) says his wins rested on a deep understanding of chess, an appreciation of deceptive positions and shrewd psychology rather than swindles; FIDE says his writings stress general method over memorised results; MacTutor quotes Botvinnik that he was the first to study the practical side of preparation, such as rest and tournament scheduling. SELF-CALIBRATION (agent): lowered from 72 / 0.58 because no source examines how he actually worked mathematically, so 'rigor' rests on the existence of the paper and one modern author's reading of his games (via Winter), a trait claim stronger than the documented behaviour."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lasker_fide, src_lasker_mactutor, src_lasker_winter_misc, src_lasker_wchof | 1894-1936 | museum + biography + chess historian + hall of fame] FIDE says he held the world title for 27 years and, at 66, took third place at Moscow without losing a game; MacTutor says he returned to competition at Zurich in 1934 after nine years away (citing Williams, for financial reasons) and played Moscow and Nottingham in 1936; Winter notes he played 19 matches and lost one, and won every other tournament he entered between Graz 1890 and Moscow 1925 except one third place and one joint second. Long-sustained top-level effort is documented; the score is moderate because the title was held partly by few defences (the Gale entry says critics said he avoided risky matches, and Steinitz's 1894 letter accused him of delaying the agreed rematch) and the later returns are tied to money, not stated resolve."
+    },
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lasker_mactutor, src_lasker_winter_misc, src_lasker_fide, src_lasker_gale | 1894-1936 | biography + chess historian + museum + encyclopedia] MacTutor, citing Williams, describes a wary, tenacious fighter who sought complications and then pressed his advantages, and notes that his philosophical books of 1907 onwards describe life as a struggle; Nunn (quoted by Winter) calls him a great fighter with a strong will to win whose provocative moves were designed to induce mistakes; he took the title at 25 and won the rematch (FIDE, Gale), and the Gale entry says he won ten of 20 major tournaments outright. The competitive drive is described by several independent sources; the Gale entry also says critics thought he avoided risky matches, which tempers the score."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_lasker_mactutor, src_lasker_wchof, src_lasker_fide, src_lasker_winter_misc | 1895-1936 | biography + hall of fame + museum + chess historian] MacTutor reports, from his own account, that he often chose openings his opponents had called unsatisfactory because he judged the moves too sound to be bad; the Hall of Fame says his style was ahead of its time, with moves his contemporaries found mysterious now common; FIDE says his writings stress general method over memorised results; Nunn (via Winter) rejects the myths that he relied on swindles or deliberately bad moves and attributes his results to understanding and psychology. SELF-CALIBRATION (agent): lowered from 66 / 0.52 because the most specific behaviour (choosing condemned openings) comes only from his own account relayed by one biography, and the other sources are admiring or retrospective."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_lasker_winter_capa, src_lasker_forster, src_lasker_winter_misc | 1894-1927 | rival's article + source-critical article + chess historian] Capablanca (an adversary, BCM 1922) says that in 1911-12 Lasker answered a letter objecting to a condition through the press, refused to play him, named an arbitrator and set him aside when he disagreed; Forster documents that after being left off the 1927 New York invitation list, Lasker issued a long public statement in December 1926 after a two-and-a-half-year conflict with the organiser, igniting fierce press exchanges; Winter records Steinitz's 1894 letter claiming the title back and Lasker's 1920 resignation of the title over rules he found unpopular. Taking disputes over conditions into the open and standing by his position is documented repeatedly, but several accounts are from opponents, and the outcomes (lost matches and invitations) cut both ways."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "엠마뉴엘 라스커"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED WITH THE LEAD IMAGE: the BnF Gallica OAI record for Rol 63114 (ark btv1b53045805f), opened live on 2026-11-04 although the Gallica HTML page is Cloudflare-walled, names the subject (Lasker, Emanuel (1868-1941) -- Portraits), gives the date as 1921 (January 1921) and states dc:rights 'domaine public' / 'public domain' at item level; the SRU service returned the same record and the IIIF manifest gave the 6105 x 8511 pixel scan. No contradiction found: the record names no restriction, the creator is the press agency Agence Rol (commissioner; the photographer is not named) and it is a 1921 press photograph. Residual caveat: the sitter looks younger than 52 and the print may reproduce an earlier photograph whose author is unknown; the holder nevertheless dates and rates this item itself. Not relied upon: any Commons tag. The file is the Gallica IIIF scan, cropped to remove the negative's frame and edge labels and reduced (downscaled only) from 5060 x 7690 to 790 x 1200. Kind is likeness (a press photograph of the sitter). The second 1924 Rol group photograph was not needed.\nPREFLIGHT: QID VERIFIED LIVE (2026-11-04): Wikidata wbgetentities Q57095 returned en label 'Emanuel Lasker', description 'Greman [sic] chess player, World Chess champion (1868-1941)', born 1868-12-24, died 1941-01-11, citizenship German Empire and Weimar Republic, Korean label '엠마뉴엘 라스커' (used as the display name; source: Wikidata Korean label). SLUG/QID CHECK: not in prod64.txt and no existing candidate file. REGION western_europe (Germans precedent, e.g. heinrich-barth; he lived mostly in Berlin); nationality DE; era 20th_century. VOCABULARY: occupations athlete, mathematician, philosopher; fields sport, mathematics, philosophy (chess precedent: jose-raul-capablanca uses athlete and sport); tags competitor and polymath; archetype competitive_performer; all with EN and KO labels. ZERO POLITICS: his emigrations were forced by persecution and the Soviet invitation; no political activity is scored and no inference is drawn from persecution. Primary identity is chess world champion and mathematician, not political.\nATTRIBUTION: confirmed (attributable). Behaviour is documented in contemporary tournament and match records, his own published statements, rivals' accounts and modern historians.\nCANONICAL SIGNIFICANCE SOURCE: FIDE Open Chess Museum, 'Emanuel Lasker' https://museum.fide.com/champions/emanuel-lasker (read in full), with the World Chess Hall of Fame entry and the MacTutor biography for his mathematics.\nSOURCES READ (9 substantive; Wikidata orientation only): FIDE museum, World Chess Hall of Fame, MacTutor (St Andrews), Gale Encyclopedia of World Biography via Encyclopedia.com, Edward Winter's Lasker Miscellanea (about a third of the very long page read closely), Winter's 'Capablanca's Reply to Lasker', Forster's 'Lasker Speaks Out (1926)' (introduction only), Winter's 'Lasker v Schlechter Controversy' (read in full; used only as a caution), BnF record (portrait). PERSPECTIVES: federation museum, hall of fame, history-of-mathematics biography, general encyclopedia, an independent critical chess historian, a rival's own article (Capablanca), a source-critical specialist. Non-self behavioural sources: MacTutor, Winter, Forster, Gale. COUNTER-VOICES: Capablanca (adversary), Steinitz's 1894 letter and the Gale note that critics said he avoided risky matches, Winter's rebuttals of legends (pigeon farm, 'lazy' arrival, Tsar's grandmaster titles, deliberately bad moves). No score exceeds 78 and no confidence exceeds 0.66.\nNOT OPENED: Britannica (HTTP 403 to scripts), Lasker's own books (self-report), the Forster article's full text of the 1926 statement, Hannak's 1959 biography (Winter calls it unreliable), the 2009 and 2020 German volumes on Lasker, the Encyclopedia of Mathematics entry (HTTP 502), Wikipedia. EXCLUDED: the 1914 Tsar grandmaster story and the pigeon-breeding failure (Winter says unsubstantiated), the claims that he was lazy or invented a tank (Winter questions), the Einstein friendship (only one general-reference line), family and private life, health, bereavement, and the circumstances of persecution and flight beyond bare career facts; the dates of the doctorate differ between MacTutor (thesis submitted 1900) and Gale (1902) and no row depends on it. Lasker-Noether naming and the claim of a first/only achievement are not asserted; only that Noether generalised his result in 1921 (MacTutor).\nSELECTIVE SELF-CALIBRATION: reviewed analytical_rigor (lowered 72/0.58 to 66/0.50: the trait claim is stronger than the documented behaviour), independent_thinking (lowered 66/0.52 to 62/0.46: own-account single-source dependence), cross_domain_range (kept: four independent source types document the breadth), competitiveness (kept: several independent sources describe the fighting style). Initial rows 6; lowered 2.\nHANDBACK64: {\"slug\": \"emanuel-lasker\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"NOT VERIFIED THIS SESSION: Gallica OAI record blocked by Cloudflare (Roster62/63 Rol records read earlier stated domaine public)\", \"holder_record_checked_by_you\": \"BnF Gallica OAI record (https://gallica.bnf.fr/services/OAIRecord?ark=btv1b53045805f, opened live 2026-11-04; the SRU service and the IIIF manifest also answered): title 'Dr [Emanuel] Lasker (echecs) [joueur d'echecs] : [photographie de presse] / [Agence Rol]', Rol 63114, date 1921 (coverage '.. janvier 1921'), subject 'Lasker, Emanuel (1868-1941) -- Portraits', dc:rights 'domaine public' / 'public domain', 18 x 13 cm glass negative; the Gallica HTML page itself is Cloudflare-walled. The IIIF manifest points to the generic Gallica conditions-of-use page as licence\", \"holder_contradiction_found\": false, \"initial_lead\": \"Agence Rol 1921 photograph (BnF Gallica btv1b53045805f)\", \"final_portrait_source\": \"Bibliotheque nationale de France, Agence Rol, Rol 63114, 1921, Gallica btv1b53045805f, https://gallica.bnf.fr/ark:/12148/btv1b53045805f (public domain per the holder record; cropped and downscaled)\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"analytical_rigor\", \"old_score\": 72, \"old_confidence\": 0.58, \"new_score\": 66, \"new_confidence\": 0.5, \"reason\": \"no source examines how he worked mathematically; rigor rests on the paper's existence and one modern author's reading of his games\"}, {\"attribute\": \"independent_thinking\", \"old_score\": 66, \"old_confidence\": 0.52, \"new_score\": 62, \"new_confidence\": 0.46, \"reason\": \"the most specific behaviour (choosing condemned openings) is his own account relayed by one biography; the other sources are admiring or retrospective\"}], \"reviewed_kept\": [\"cross_domain_range\", \"competitiveness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/emanuel-lasker-agence-rol-1921.jpg",
+    "width": 790,
+    "height": 1200,
+    "source": "Press photograph 'Dr [Emanuel] Lasker (echecs)' by the Paris press-photo agency Agence Rol (the individual photographer is not named), January 1921, reference Rol 63114, glass negative 18 x 13 cm, Bibliotheque nationale de France (Estampes et photographie, EI-13 (755)), digitised on Gallica. The BnF's own catalogue record for this item (read through its OAI service) gives the date as January 1921, identifies the subject as Lasker and states the rights as 'domaine public' / 'public domain'. The scan was 6105 x 8511 pixels; this project cropped away the negative's frame and edge labels (to 5060 x 7690) and reduced it to 790 x 1200 pixels, never enlarging it",
+    "license": "Public domain (item-level statement by the Bibliotheque nationale de France; 1921 press photograph by Agence Rol)",
+    "licenseUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53045805f",
+    "attribution": "Agence Rol, Dr Emanuel Lasker, January 1921, Bibliotheque nationale de France (Gallica), public domain",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53045805f",
+    "creator": "Agence Rol",
+    "date": "1921",
+    "kind": "likeness",
+    "sourcePageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53045805f"
+  }
+}

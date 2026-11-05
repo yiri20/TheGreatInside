@@ -12283,6 +12283,462 @@ export const EDITORIAL_EN: Record<string, string> = {
     "After years of interest in Chan Buddhism and Daoism, he became a student of Li Tong in 1160 at the age of thirty, was convinced of the Confucian Way, and devoted the next forty years to it.",
   "zhu-xi.interpretation.turning_point.1":
     "This is consistent with a thinker who changed his intellectual direction after reflection and then committed to it for decades.",
+  /* ---------------------------------------------------------- augustin-fresnel (Roster64) */
+  "augustin-fresnel.achievement.1":
+    "His diffraction and interference experiments and his mathematics of wavelets helped establish the wave theory of light at a time when most scientists favoured the particle theory, and he concluded that light is a transverse wave.",
+  "augustin-fresnel.achievement.2":
+    "His 1819 diffraction memoir won the Academy of Sciences prize; Poisson's calculation from its mathematics predicted a bright spot at the centre of a disk's shadow, which was then observed.",
+  "augustin-fresnel.achievement.3":
+    "He developed stepped lenses for lighthouses, with the first built at the Cordouan tower in 1823, replacing mirrors; the Fresnel lens is still widely used.",
+  "augustin-fresnel.moment.1":
+    "He attached a piece of black paper to one edge of a diffracting object, saw the bright bands inside the shadow disappear, and deduced which bands came from light from both edges.",
+  "augustin-fresnel.interpretation.moment.1":
+    "This is consistent with testing an idea by changing one condition in a hands-on experiment.",
+  "augustin-fresnel.moment.2":
+    "In 1821 he asserted with certainty that light is a transverse wave, a step too far for most colleagues (Arago among them), and then showed that double refraction followed from the idea.",
+  "augustin-fresnel.interpretation.moment.2":
+    "This is consistent with holding to a minority conclusion that his own reasoning supported.",
+  "augustin-fresnel.turning_point.1":
+    "In mid-1814, while building roads as a government engineer, he began experiments on light, and a few months after writing that he did not know what polarisation of light was he was among the leading physicists of his day.",
+  "augustin-fresnel.interpretation.turning_point.1":
+    "This is consistent with taking up a new field through his own experiments alongside paid work.",
+  /* ---------------------------------------------------------- catherine-ndereba (Roster64) */
+  "catherine-ndereba.achievement.1":
+    "Kenyan marathon runner who set the women's marathon world record of 2:18:47 at the 2001 Chicago Marathon and, with wins in 2000, 2001, 2004 and 2005, became the first woman with four Boston Marathon victories.",
+  "catherine-ndereba.achievement.2":
+    "She won the World Championships marathon in 2003 and 2007 and Olympic silver in 2004 and 2008; between 2003 and 2008 she finished in the top two in five successive global championship marathons.",
+  "catherine-ndereba.achievement.3":
+    "Her 2000 Boston win made her the first Kenyan woman to win there, and the Kenya Yearbook describes her 2003 world title as the first marathon win at a major world event by a Kenyan woman.",
+  "catherine-ndereba.moment.1":
+    "After being left off the 2000 Kenyan Olympic team despite winning Boston, she said in 2001 that she would skip the World Championships and aim for a world record instead, and she ran 2:18:47 in Chicago that October.",
+  "catherine-ndereba.interpretation.moment.1":
+    "This is consistent with an athlete who set a record as her own goal after a selection disappointment.",
+  "catherine-ndereba.moment.2":
+    "At the 2005 Boston Marathon she was 80 seconds behind the leaders at halfway, closed the gap, caught Elfenesh Alemu on Heartbreak Hill and won by almost two minutes.",
+  "catherine-ndereba.interpretation.moment.2":
+    "This is consistent with a runner who relied on a strong second half and won from behind.",
+  "catherine-ndereba.turning_point.1":
+    "In 1999, after years of road racing abroad without a national-team place, she switched to the marathon; she led Boston that year but finished sixth, then won it in 2000.",
+  "catherine-ndereba.interpretation.turning_point.1":
+    "This is consistent with a career that turned on a late move to the marathon and a quick return after a first setback.",
+  /* ---------------------------------------------------------- claude-bernard (Roster64) */
+  "claude-bernard.achievement.1":
+    "Played a major part in establishing the principles of experimentation in the life sciences, becoming one of the founders of experimental medicine; his 1865 Introduction to the Study of Experimental Medicine remains a widely read classic.",
+  "claude-bernard.achievement.2":
+    "Discovered the role of pancreatic juice in digesting fats, the liver's glycogenic function and the vasomotor nerves that regulate blood supply, and showed how curare and carbon monoxide act on the body.",
+  "claude-bernard.achievement.3":
+    "Developed the concept of the internal environment, the idea that the constancy of the body's internal milieu is the condition for independent life, which Britannica says led to the present understanding of homeostasis.",
+  "claude-bernard.moment.1":
+    "Puzzled by the chance observation that some rabbits passed clear rather than cloudy urine, he inferred that they had not been fed and were living on their own tissues, confirmed it by feeding them meat, and an autopsy then led him to the role of the pancreas in digestion.",
+  "claude-bernard.interpretation.moment.1":
+    "This is consistent with a habit of following up an unexpected observation with a testable hypothesis and a confirming experiment.",
+  "claude-bernard.moment.2":
+    "After washing the sugar out of a freshly removed dog's liver he found that the liver was again rich in sugar a day later, and inferred that it must contain a sugar-forming substance; in 1857 he isolated pure glycogen from it.",
+  "claude-bernard.interpretation.moment.2":
+    "This is consistent with an experimental style that tests a physiological idea directly on the organ and draws the next inference from the result.",
+  "claude-bernard.turning_point.1":
+    "Forced to rest by illness from 1860, he used his convalescence of 1862-63 to draft the Introduction to the Study of Experimental Medicine, moving his emphasis from the pursuit of concrete facts to the methods and principles of biological science.",
+  "claude-bernard.interpretation.turning_point.1":
+    "This is consistent with a shift from collecting results toward generalising them into a framework for the field.",
+  /* ---------------------------------------------------------- denis-diderot (Roster64) */
+  "denis-diderot.achievement.1":
+    "He edited the Encyclopedie, first with d'Alembert and, after d'Alembert's 1758 resignation, alone, seeing the 17 volumes of text through to 1765 and the volumes of plates to 1772 despite a suspended licence and a royal ban, and wrote nearly six thousand of its articles himself.",
+  "denis-diderot.achievement.2":
+    "He was also a philosopher and writer whose Lettre sur les aveugles (1749) led to three months in Vincennes prison and whose D'Alembert's Dream and Rameau's Nephew, left unpublished in his lifetime, are counted among the masterpieces of Enlightenment thought.",
+  "denis-diderot.achievement.3":
+    "From 1759 he wrote reviews of the Paris art exhibitions for Grimm's Correspondance litteraire, work the Stanford Encyclopedia of Philosophy credits with inventing the art critic, and he also wrote influential essays on the theory of drama.",
+  "denis-diderot.moment.1":
+    "In 1764 he discovered that the publisher Le Breton had cut and altered his articles in the proofs after he had approved them, and wrote that his work had been 'massacred'; his daughter recalled that he nearly abandoned the project, but the final volumes were completed.",
+  "denis-diderot.interpretation.moment.1":
+    "The episode is consistent with a capacity to keep a very large editorial project going after a serious setback.",
+  "denis-diderot.moment.2":
+    "In 1759 Grimm invited him to write about the biennial art exhibitions at the Louvre for the Correspondance litteraire, and he went on to write a series of Salons, combining the eye of the connoisseur with philosophical argument.",
+  "denis-diderot.interpretation.moment.2":
+    "The sustained series is consistent with a strong sensitivity to how visual art represents human experience.",
+  "denis-diderot.turning_point.1":
+    "In 1749 he was imprisoned at Vincennes for three months after the Lettre sur les aveugles; on his release in November he was already working on the project that became the Encyclopedie, whose Prospectus appeared in 1750 and which occupied him for most of the next two decades.",
+  "denis-diderot.interpretation.turning_point.1":
+    "The sequence is consistent with an unconventional thinker who kept pursuing his intellectual aims after official punishment.",
+  /* ---------------------------------------------------------- douglas-mawson (Roster64) */
+  "douglas-mawson.achievement.1":
+    "Led the 1911-14 Australasian Antarctic Expedition, which charted large segments of the east Antarctic coast and advanced knowledge of geology, cartography, meteorology, geomagnetism, biology and marine science.",
+  "douglas-mawson.achievement.2":
+    "In 1912-13, after Belgrave Ninnis was lost in a crevasse and Xavier Mertz died, he travelled on alone for about a month, determined to bring back the party's data and specimens, and reached base after the relief ship had left.",
+  "douglas-mawson.achievement.3":
+    "Led the 1929-31 British, Australian and New Zealand Antarctic Research Expedition, which worked from voyages along much of the Antarctic coast, and was Professor of Geology and Mineralogy at the University of Adelaide from 1921 to 1952.",
+  "douglas-mawson.moment.1":
+    "After Ninnis fell into a crevasse with most of the supplies and Mertz died, Mawson carried on alone for about 30 days with the expedition's data and specimens, survived a fall into a crevasse by hauling himself out on his sledge harness, and reached base only after the ship had sailed.",
+  "douglas-mawson.interpretation.moment.1":
+    "This is consistent with continuing toward a goal through severe setbacks.",
+  "douglas-mawson.moment.2":
+    "Having studied glaciation in outback South Australia, he hurried to Adelaide in 1907 hoping to meet Shackleton's ship because he wanted to see glaciation first-hand, and was taken on the expedition.",
+  "douglas-mawson.interpretation.moment.2":
+    "This is consistent with a hands-on curiosity about the natural processes he studied.",
+  "douglas-mawson.turning_point.1":
+    "When Scott invited him to join his expedition, Mawson declined and instead set out to organise and lead his own Australasian Antarctic Expedition into unexplored country south of Australia, seeking support across Australia in 1910-11.",
+  "douglas-mawson.interpretation.turning_point.1":
+    "This is consistent with preferring to start and direct his own venture over joining someone else's.",
+  /* ---------------------------------------------------------- eli-whitney (Roster64) */
+  "eli-whitney.achievement.1":
+    "Built the cotton gin in 1793 and patented it in 1794; it made short-staple green-seed cotton a profitable crop across the South, and the National Park Service notes it also helped preserve and expand slavery.",
+  "eli-whitney.achievement.2":
+    "In 1798 he contracted to make 10,000 muskets for the federal government and promoted manufacturing with machine tools and uniform, interchangeable parts, which Britannica calls his most important contribution; historians such as Merritt Roe Smith say he did not achieve it himself.",
+  "eli-whitney.achievement.3":
+    "Built a musket factory at Whitneyville in Hamden, Connecticut, with power-driven machine tools, and his son and two nephews continued his methods into the mid-19th century.",
+  "eli-whitney.moment.1":
+    "In June 1798, with no experience of making muskets, he won a federal contract that included an advance payment no other supplier received, and in later years he repeatedly obtained extensions while describing his tools as a 'new principle' of manufacturing.",
+  "eli-whitney.interpretation.moment.1":
+    "This is consistent with being able to win official backing for an unproven plan.",
+  "eli-whitney.moment.2":
+    "Between 1795 and 1805 he and Phineas Miller brought 24 patent-infringement suits in the federal court at Savannah, and from 1802 several southern states agreed to pay for the patent rights.",
+  "eli-whitney.interpretation.moment.2":
+    "This is consistent with sticking with a hard-won claim over many years despite repeated setbacks.",
+  "eli-whitney.turning_point.1":
+    "After the cotton-gin partnership went out of business in 1797, he turned to the government's call for muskets and won the 1798 contract, the start of his work on uniform manufacture in Connecticut.",
+  "eli-whitney.interpretation.turning_point.1":
+    "This is consistent with redirecting his skills to a new field after a commercial setback.",
+  /* ---------------------------------------------------------- emanuel-lasker (Roster64) */
+  "emanuel-lasker.achievement.1":
+    "Won the world chess championship from Wilhelm Steinitz in 1894 and held it for 27 years, defending it against Marshall, Tarrasch, Janowski and Schlechter until he lost it to Capablanca in 1921.",
+  "emanuel-lasker.achievement.2":
+    "As a mathematician, introduced the notion of a primary ideal in 1905 and proved the primary decomposition theorem for ideals of polynomial rings, a result Emmy Noether generalised in 1921.",
+  "emanuel-lasker.achievement.3":
+    "Wrote Common Sense in Chess (1896) and Lasker's Manual of Chess, and philosophical works including Das Begreifen der Welt (1913), and held a doctorate in philosophy and mathematics.",
+  "emanuel-lasker.moment.1":
+    "After returning to competition at Zurich in 1934, he took third place at the second Moscow International in 1935 at age 66, without losing a game.",
+  "emanuel-lasker.interpretation.moment.1":
+    "This is consistent with sustained competitive effort late in a long career.",
+  "emanuel-lasker.moment.2":
+    "In December 1926, after he was left off the invitation list for the 1927 New York tournament, he issued a long public statement against the organiser that set off fierce exchanges in the press.",
+  "emanuel-lasker.interpretation.moment.2":
+    "This is consistent with a willingness to take a dispute over conditions into public view.",
+  "emanuel-lasker.turning_point.1":
+    "Reaching ten wins against Steinitz in Montreal on 26 May 1894, at age 25, made him world champion, a title he then kept for 27 years.",
+  "emanuel-lasker.interpretation.turning_point.1":
+    "This is consistent with a competitor who converted early promise into a lasting championship.",
+  /* ---------------------------------------------------------- eugene-delacroix (Roster64) */
+  "eugene-delacroix.achievement.1":
+    "Became the leading exponent of Romanticism in French painting, beginning with Dante and Virgil in Hell at the 1822 Salon and continuing with The Massacre at Scio, The Death of Sardanapalus and Liberty Leading the People, works that set vivid colour and movement against academic convention.",
+  "eugene-delacroix.achievement.2":
+    "Painted large decorative schemes for public buildings in Paris, including the Palais Bourbon, the Luxembourg library, the central ceiling of the Louvre's Galerie d'Apollon and the Chapel of the Holy Angels at Saint-Sulpice (1849-1861).",
+  "eugene-delacroix.achievement.3":
+    "His 1832 journey to Morocco produced sketches and notes that fed his painting for decades, and his colour and journal became a resource for later painters; Cezanne is quoted as saying, \"We all paint in Delacroix's language.\"",
+  "eugene-delacroix.moment.1":
+    "He was elected to the Academie des Beaux-Arts in January 1857 on his seventh attempt, after repeated rejections.",
+  "eugene-delacroix.interpretation.moment.1":
+    "This is consistent with a persistent streak, keeping on with a goal through repeated refusals.",
+  "eugene-delacroix.moment.2":
+    "After the 1832 mission to Morocco he filled sketchbooks and notes and kept drawing on them for years, reworking earlier compositions such as the Women of Algiers.",
+  "eugene-delacroix.interpretation.moment.2":
+    "This is consistent with a curious observer who stored what he saw and returned to it.",
+  "eugene-delacroix.turning_point.1":
+    "His Dante and Virgil in Hell at the 1822 Salon drew immediate critical attention and made the 24-year-old a leading figure of the Romantic movement.",
+  "eugene-delacroix.interpretation.turning_point.1":
+    "This is consistent with an original approach that broke from academic habits and was noticed at once.",
+  /* ---------------------------------------------------------- henri-bergson (Roster64) */
+  "henri-bergson.achievement.1":
+    "He developed a philosophy of duration, the lived, flowing time that clocks cannot measure, and of intuition as a method, in Time and Free Will (1889), Matter and Memory (1896) and Creative Evolution (1907), setting it against mechanist and positivist views.",
+  "henri-bergson.achievement.2":
+    "From 1900 he held a chair at the Collège de France, where his free public lectures drew overflow crowds, and in 1914 he was elected to the Académie française; his 1913 lectures at Columbia University were said to have caused a traffic jam on Broadway.",
+  "henri-bergson.achievement.3":
+    "He was awarded the Nobel Prize in Literature for 1927, presented in 1928, and his ideas influenced American pragmatism, Cubism and modern literature; his other books include Laughter (1900), a theory of comedy, and The Two Sources of Morality and Religion (1932).",
+  "henri-bergson.moment.1":
+    "In January 1913 his lectures at Columbia University in New York drew crowds so large that, according to the accounts, they caused the first traffic jam on Broadway.",
+  "henri-bergson.interpretation.moment.1":
+    "The episode is consistent with a lecturer able to draw a very large public, though the sources do not show how far it converted sceptics.",
+  "henri-bergson.moment.2":
+    "On 6 April 1922 he came to a Paris meeting to listen to Einstein, was pressed to speak, and asked how the time of relativity relates to lived time; Einstein dismissed the question, and later commentators judge that Bergson had misunderstood a technical point of relativity.",
+  "henri-bergson.interpretation.moment.2":
+    "The exchange is consistent with an independent thinker who pressed his own view of time in front of the leading physicist, with a cost in credibility on one technical point.",
+  "henri-bergson.turning_point.1":
+    "After Matter and Memory (1896) and two failed attempts to win a Sorbonne post, he was given a chair at the Collège de France in 1900, which Stanford marks as the beginning of his growing fame.",
+  "henri-bergson.interpretation.turning_point.1":
+    "The move from lycée teacher to the Collège de France is consistent with original ideas finding an audience once he had a public platform.",
+  /* ---------------------------------------------------------- henry-bessemer (Roster64) */
+  "henry-bessemer.achievement.1":
+    "British engineer and inventor whose converter process, announced in 1856, made steel in bulk by blowing air through molten pig iron; one account puts the price fall from about 50-60 pounds a tonne to 6-7. The process needed Mushet's spiegeleisen addition, and later Gilchrist and Thomas's basic lining for phosphoric iron, to work reliably.",
+  "henry-bessemer.achievement.2":
+    "After early licensees failed to make the process work, he set up his own steelworks company in Sheffield in 1859 and licensed the process more widely; his steelmaking royalties exceeded one million pounds.",
+  "henry-bessemer.achievement.3":
+    "A prolific inventor whose about 120 patent specifications range from bronze-powder machinery and a stamp against forgery to sugar and glass processes; he was Iron and Steel Institute president (1871-73), was knighted and made a Fellow of the Royal Society in 1879, and gave his name to the Institute's Bessemer Gold Medal.",
+  "henry-bessemer.moment.1":
+    "By his own account, when the ironmasters who had paid for licences to his process could not make it work, he bought the licences back and set out to prove it commercially at his own works in Sheffield rather than argue the matter in the press.",
+  "henry-bessemer.interpretation.moment.1":
+    "This is consistent with an inventor who answered a public setback by continuing to develop the process rather than withdrawing it.",
+  "henry-bessemer.moment.2":
+    "When Robert Mushet's agent asked for a licence for his manganese patents, Bessemer refused, invited Mushet to test the matter in court, and later paid him an annuity of 300 pounds, which a museum blog suggests may have been to avoid troublesome litigation.",
+  "henry-bessemer.interpretation.moment.2":
+    "This is consistent with someone who met a priority dispute head-on and also bought peace when it suited him.",
+  "henry-bessemer.turning_point.1":
+    "Having announced the process in 1856 and seen licensees fail to make good steel from it, he moved from selling licences to making steel himself, founding Henry Bessemer and Company in Sheffield in 1859.",
+  "henry-bessemer.interpretation.turning_point.1":
+    "This is consistent with an inventor who turned a patented idea into an operating business rather than leaving its exploitation to others.",
+  /* ---------------------------------------------------------- hieronymus-bosch (Roster64) */
+  "hieronymus-bosch.achievement.1":
+    "Netherlandish painter from 's-Hertogenbosch (c. 1450-1516) known for an unusual, imaginative iconography of temptation, sin and hell in triptychs such as The Garden of Earthly Delights, the Haywain and the Temptation of St. Anthony.",
+  "hieronymus-bosch.achievement.2":
+    "His work was copied and sold under his name even in his lifetime, and Britannica credits his imagery with influencing Pieter Bruegel the Elder and the Surrealists; only about twenty-five panels are accepted as authentic.",
+  "hieronymus-bosch.achievement.3":
+    "He lived and worked all his life in 's-Hertogenbosch, in a family studio, where the Confraternity of Our Lady was an important client for whom he made works for its chapel and whom he advised on commissions.",
+  "hieronymus-bosch.moment.1":
+    "Infrared study for the Bosch Research and Conservation Project found overpaint and underdrawings showing that, in the project coordinator's words, Bosch often changed his mind as he worked.",
+  "hieronymus-bosch.interpretation.moment.1":
+    "This is consistent with a painter who revised his compositions during execution.",
+  "hieronymus-bosch.moment.2":
+    "For the Confraternity of Our Lady he made works for the redecoration of its chapel in Saint John's Cathedral, advised the brothers on commissions to other artists and craftsmen, and was sometimes called on to appraise submitted work.",
+  "hieronymus-bosch.interpretation.moment.2":
+    "This is consistent with an artist trusted by a local patron to guide and judge other makers' work.",
+  "hieronymus-bosch.turning_point.1":
+    "From 1486 Bosch appears in official records and on the register of the Brotherhood of Our Lady, and by the time of his death in 1516 he was acclaimed a distinguished painter and counted among the richest and most respected residents of his town.",
+  "hieronymus-bosch.interpretation.turning_point.1":
+    "This is consistent with a craftsman whose range of commissions and local standing grew over his career.",
+  /* ---------------------------------------------------------- ino-tadataka (Roster64) */
+  "ino-tadataka.achievement.1":
+    "Japanese surveyor who, from 1800 at the age of 55, led ten surveys to 1816 that charted the coast from Hokkaido to Kyushu on foot with astronomical observations; after his death his disciples completed the Dai Nihon Enkai Yochi Zenzu in 1821, the Ino maps that Japan Search describes as the first maps of Japan made with actual surveying techniques.",
+  "ino-tadataka.achievement.2":
+    "The shogunate kept the maps secret and the official copy burned in 1873, but copies served as the base for the Japanese government's maps of the 1870s and 1880s, and a copy taken out by Siebold was published in Europe in 1840; scholars note he used the traverse method and that his longitudes were less accurate than his latitudes.",
+  "ino-tadataka.achievement.3":
+    "Before surveying he ran his adoptive family's sake-brewing and trading business, retired at 49 to study astronomy under Takahashi Yoshitoki, and measured a degree of meridian arc at 28.2 ri (about 110.75 km), close to the figure in Lalande's astronomy text; 2,345 materials related to him were designated National Treasures in 2010.",
+  "ino-tadataka.moment.1":
+    "In 1800 the shogunate sanctioned the survey of Ezo for its value to northern defence, while Ino and his teacher were most interested in the length of a degree of latitude; the stipend was modest and he supplemented it with his own funds.",
+  "ino-tadataka.interpretation.moment.1":
+    "This is consistent with a man who found a way to get a scientific aim funded and sanctioned by pairing it with the state's practical concern and adding his own money.",
+  "ino-tadataka.moment.2":
+    "In later surveys he suffered asthma and contracted malaria and had to put down his instruments during bouts of illness, yet the survey went on for 17 years; he took little part in the last two surveys, and his students finished the maps after his death.",
+  "ino-tadataka.interpretation.moment.2":
+    "This is consistent with sustained effort over many years that was limited by age and illness rather than by loss of purpose.",
+  "ino-tadataka.turning_point.1":
+    "In 1803 he spread his maps of eastern Japan before the shogun Tokugawa Ienari in Edo Castle; the shogun made him a retainer and ordered a survey of western Japan paid for by the government, and the team grew to include experts from the calendar office.",
+  "ino-tadataka.interpretation.turning_point.1":
+    "This is consistent with a private project turning into an official one once he had shown concrete results.",
+  /* ---------------------------------------------------------- johann-heinrich-pestalozzi (Roster64) */
+  "johann-heinrich-pestalozzi.achievement.1":
+    "Swiss educational reformer who argued that the poor should be educated and built his method on observation and object lessons, moving from the familiar to the new and following the child's development, and who rejected corporal punishment and rote memorisation; Britannica says most of his principles have been absorbed into modern elementary education.",
+  "johann-heinrich-pestalozzi.achievement.2":
+    "He ran schools for poor and orphaned children at Neuhof (from 1774) and Stans (1799), a teacher-training school at Burgdorf, and from 1804 to 1825 the Yverdon institute, which drew visitors from across Europe; Prussia sent teachers to study with him, and Friedrich Froebel and Joseph Neef were among those he trained.",
+  "johann-heinrich-pestalozzi.achievement.3":
+    "His novel Leonard and Gertrude (1781-87) and his treatise How Gertrude Teaches Her Children (1801) carried his ideas abroad, though his own schools were fragile: Neuhof closed in debt, and Yverdon closed in 1825 after years of quarrels among his teachers and poor bookkeeping.",
+  "johann-heinrich-pestalozzi.moment.1":
+    "The Stans orphanage opened on 14 January 1799, and within six weeks more than 80 children were in the care of Pestalozzi and a maid; in his letter on Stans he wrote that he was alone with them from morning to evening and slept in their midst.",
+  "johann-heinrich-pestalozzi.interpretation.moment.1":
+    "This is consistent with a strong commitment to destitute children, though the detail of sleeping among them is his own account.",
+  "johann-heinrich-pestalozzi.moment.2":
+    "At Yverdon the institute accepted very low fees, about one third of the pupils paid nothing and the teachers received only board and lodging, and heavy losses from a lack of budgeting and improper bookkeeping followed; when Joseph Schmid returned in 1815 he introduced strict bookkeeping, closed the printing works and dismissed half of the teachers.",
+  "johann-heinrich-pestalozzi.interpretation.moment.2":
+    "This is consistent with generosity and idealism that outran financial planning and administrative control.",
+  "johann-heinrich-pestalozzi.turning_point.1":
+    "After the months at Stans he decided to become a teacher, soon found the opportunity at Burgdorf, and there set up a school connected with a training institute for teachers; his 1801 book How Gertrude Teaches Her Children made him famous across Europe.",
+  "johann-heinrich-pestalozzi.interpretation.turning_point.1":
+    "This is consistent with a shift from writing about education to testing and refining his method in a working school.",
+  /* ---------------------------------------------------------- john-constable (Roster64) */
+  "john-constable.achievement.1":
+    "Transformed English landscape painting with fresh, naturalistic views of the Suffolk countryside, built on outdoor oil sketches and studies, with the National Gallery crediting him with influence on French Romantic and Barbizon painters.",
+  "john-constable.achievement.2":
+    "Painted a series of six-foot Stour landscapes from 1819 to 1825, each prepared with a full-size oil sketch; The Hay Wain (1821) won him a gold medal from Charles X at the 1824 Paris Salon.",
+  "john-constable.achievement.3":
+    "Made about a hundred studies of clouds at Hampstead from 1819, published the mezzotint series English Landscape (1830-32), and lectured on landscape painting from 1833 to 1836.",
+  "john-constable.moment.1":
+    "For the Hay Wain he made a small oil sketch and then a full-scale oil sketch before painting the final canvas in his London studio from years of outdoor studies.",
+  "john-constable.interpretation.moment.1":
+    "This is consistent with a staged, planned way of building a large picture.",
+  "john-constable.moment.2":
+    "In a letter of October 1821 he wrote that he did not count himself at work unless he was before a six-foot canvas, and that he had done a good deal of skying that summer.",
+  "john-constable.interpretation.moment.2":
+    "This is consistent with a settled commitment to a demanding scale of work, though it is his own account.",
+  "john-constable.turning_point.1":
+    "In 1824 the dealer John Arrowsmith bought the unsold Hay Wain and two other pictures and took them to the Paris Salon, where Charles X awarded Constable a gold medal.",
+  "john-constable.interpretation.turning_point.1":
+    "This is consistent with recognition arriving first abroad for an approach that had found little buyers at home.",
+  /* ---------------------------------------------------------- joseph-marie-jacquard (Roster64) */
+  "joseph-marie-jacquard.achievement.1":
+    "In 1804-05 he introduced the Jacquard mechanism, which uses interchangeable punched cards to control a loom's warp threads so that any desired pattern can be woven automatically.",
+  "joseph-marie-jacquard.achievement.2":
+    "He built on Vaucanson's earlier punched-card loom and an 1801 loom he patented and showed in Paris, and despite Lyon weavers burning machines and attacking him, 11,000 of his looms were in use in France by 1812.",
+  "joseph-marie-jacquard.achievement.3":
+    "Charles Babbage adopted its punched cards as the input and output medium for his proposed Analytical Engine, and Herman Hollerith later used punched cards for census data.",
+  "joseph-marie-jacquard.moment.1":
+    "In 1801 he exhibited an automatic loom at the Paris industrial exhibition and took out a French patent for it on 23 December of that year.",
+  "joseph-marie-jacquard.interpretation.moment.1":
+    "This is consistent with testing his machine in public and securing it before further development.",
+  "joseph-marie-jacquard.moment.2":
+    "Lyon silk weavers who feared for their jobs burned machines and attacked Jacquard, yet the loom came into general use and 11,000 were running in France by 1812.",
+  "joseph-marie-jacquard.interpretation.moment.2":
+    "This is consistent with sticking with an invention despite open hostility, though the sources say little about his own response.",
+  "joseph-marie-jacquard.turning_point.1":
+    "In Paris he was attached to the Conservatoire des Arts et Metiers, where he studied Vaucanson's earlier loom and in 1804-05 perfected the punched-card mechanism that bears his name, although History of Information notes the account of the Vaucanson study is unchecked.",
+  "joseph-marie-jacquard.interpretation.turning_point.1":
+    "This is consistent with refining a machine step by step by studying earlier designs.",
+  /* ---------------------------------------------------------- kiichiro-toyoda (Roster64) */
+  "kiichiro-toyoda.achievement.1":
+    "Japanese engineer who founded Toyota's automobile business: from 1933 he led the automotive division of Toyoda Automatic Loom Works, had the Model A1 passenger-car prototype built by 1935, and spun the work off as Toyota Motor Co. in 1937, with the Koromo Plant completed in 1938.",
+  "kiichiro-toyoda.achievement.2":
+    "He invented the shuttle-change automatic loom behind the Type G loom (patent registered in his name in 1925), developed with his team from his father Sakichi's work; Platt Brothers took the patent rights outside Japan, China and the United States in 1929, and historian Kazuo Wada finds the popular story that this payment financed Toyota unsupported, the car business being funded instead by the Toyoda group's loom profits.",
+  "kiichiro-toyoda.achievement.3":
+    "At the Koromo Plant he proposed just-in-time production, making only what is needed when it is needed, which Toyota's history presents as the beginning of the just-in-time pillar of the Toyota Production System, though wartime rationing suspended it and it was not fully realised until the mid-1950s.",
+  "kiichiro-toyoda.moment.1":
+    "In October 1933 he took a Chevrolet apart and sketched its parts; Toyota's first prototype engine, finished in September 1934, produced only 48-49 hp against the Chevrolet's 60 hp until its cylinder head was redesigned to reach 65 hp.",
+  "kiichiro-toyoda.interpretation.moment.1":
+    "This is consistent with an engineer who learned by building and testing prototypes and reworking them against a measured benchmark.",
+  "kiichiro-toyoda.moment.2":
+    "When the Depression hit the loom business he pressed for a move into automobiles although the company president, Risaburo, regarded car making as risky and hopeless; the board backed the automotive division in 1933.",
+  "kiichiro-toyoda.interpretation.moment.2":
+    "This is consistent with a willingness to stake the group's resources on a new industry over the objection of its head.",
+  "kiichiro-toyoda.turning_point.1":
+    "On 25 May 1950, during a two-month dispute over a reconstruction plan with job cuts, he announced that he accepted responsibility and would resign, and on 5 June he stepped down as president; he went on to research a helicopter and a new engine and was due to return as president in July 1952, but died on 27 March 1952.",
+  "kiichiro-toyoda.interpretation.turning_point.1":
+    "This is consistent with a founder who stepped aside when held responsible but kept working on engineering problems.",
+  /* ---------------------------------------------------------- michael-servetus (Roster64) */
+  "michael-servetus.achievement.1":
+    "Attacked the orthodox doctrine of the Trinity in De Trinitatis erroribus (1531) and again in Christianismi restitutio (1553), writings that Britannica says gave an important stimulus to the emergence of Unitarianism.",
+  "michael-servetus.achievement.2":
+    "Trained in medicine at Paris and later a physician at Vienne, he almost incidentally made known his discovery of the pulmonary circulation of blood in Christianismi restitutio, describing blood passing from the right side of the heart through the lungs.",
+  "michael-servetus.achievement.3":
+    "Condemned as a heretic by Catholic and Protestant authorities, he was burned at Champel near Geneva in 1553; the execution set off a Protestant controversy over the death penalty for heresy and influenced Laelius Socinus.",
+  "michael-servetus.moment.1":
+    "In 1546 he sent John Calvin the manuscript of his enlarged Christianismi restitutio and wrote repeatedly insisting on more radical views, and in 1553 he printed thirty of his letters to Calvin in the published book.",
+  "michael-servetus.interpretation.moment.1":
+    "This is consistent with a willingness to press a dispute with the most prominent reformer of his day rather than avoid it, though he was far less open with the authorities who could punish him.",
+  "michael-servetus.moment.2":
+    "Studying medicine at Paris in 1536-38 he assisted in anatomical dissection, and the Unitarian dictionary says he concluded that the blood was transformed in the lungs rather than in the heart, departing from Galen.",
+  "michael-servetus.interpretation.moment.2":
+    "This is consistent with a readiness to depart from the accepted authority of his field on the strength of his own reasoning, as he did in theology.",
+  "michael-servetus.turning_point.1":
+    "In 1530, after accompanying his patron Juan de Quintana to the coronation of Charles V at Bologna, he was distressed by papal ostentation, left his patron and went to Basel and Strasbourg to meet Reformation leaders, where he published his first book on the Trinity in 1531.",
+  "michael-servetus.interpretation.turning_point.1":
+    "This is consistent with a decision to break from a secure patron and an established path in order to pursue his own theological views.",
+  /* ---------------------------------------------------------- niels-henrik-abel (Roster64) */
+  "niels-henrik-abel.achievement.1":
+    "In 1824 he proved that the general equation of the fifth degree cannot be solved algebraically by radicals, a result Britannica calls the first valid proof of this impossibility.",
+  "niels-henrik-abel.achievement.2":
+    "He turned the theory of elliptic integrals into the theory of elliptic functions and proved Abel's theorem on sums of integrals of algebraic functions in a Paris memoir that was lost for years and printed only in 1841.",
+  "niels-henrik-abel.achievement.3":
+    "He brought rigour to infinite series and analysis, publishing most of his work in Crelle's Journal, and died at 26; the Abel Prize, established by the Norwegian government in 2002, is named for him.",
+  "niels-henrik-abel.moment.1":
+    "Asked by Degen for a numerical example of his supposed solution of the quintic, he found the mistake in his own paper; a few years later he published the proof that no such solution exists.",
+  "niels-henrik-abel.interpretation.moment.1":
+    "This is consistent with revising a position when his own checking contradicted it.",
+  "niels-henrik-abel.moment.2":
+    "When his Paris memoir seemed to have been lost, he wrote its main theorem down again in a two-page paper he called only 'A theorem', and kept sending Crelle new treatises although he had no post.",
+  "niels-henrik-abel.interpretation.moment.2":
+    "This is consistent with continuing his work after being ignored.",
+  "niels-henrik-abel.turning_point.1":
+    "In 1825, after printing his quintic proof at his own expense, he wrote a personal letter to the king asking to travel abroad at once; the journey brought him to Berlin, where he met Crelle and published much of his best work in Crelle's new journal.",
+  "niels-henrik-abel.interpretation.turning_point.1":
+    "This is consistent with taking the initiative to open his own route into the European mathematical world.",
+  /* ---------------------------------------------------------- nishida-kitaro (Roster64) */
+  "nishida-kitaro.achievement.1":
+    "Wrote An Inquiry into the Good (1911), a book the National Diet Library describes as conceived as the first Japanese philosophical book with creativity, which merged Western philosophy with Zen and East Asian thought around 'pure experience', a state before the split between subject and object.",
+  "nishida-kitaro.achievement.2":
+    "As professor of philosophy at Kyoto Imperial University (1914-1928), developed the philosophy of the 'place' of Nothingness; helped bring Tanabe Hajime, Watsuji Tetsuro and Kuki Shuzo to Kyoto and taught students such as Nishitani Keiji, and is often called the father of the Kyoto School.",
+  "nishida-kitaro.achievement.3":
+    "Kept writing after retiring in 1928, producing the seven volumes of Philosophical Essays and finishing 'The Logic of Place and the Religious Worldview' two months before his death; he received the Order of Culture in 1940, and his collected works, issued from 1947, became best-sellers.",
+  "nishida-kitaro.moment.1":
+    "Despite failing health and the bombing of cities around him in the last years of the war, he kept up his philosophical work and finished the essay 'The Logic of Place and the Religious Worldview' two months before his death on 7 June 1945.",
+  "nishida-kitaro.interpretation.moment.1":
+    "This is consistent with a person who kept to a long intellectual project under difficult conditions.",
+  "nishida-kitaro.moment.2":
+    "When the young scholar Takahashi Satomi criticised his notion of pure experience, he clarified it in an article soon after the book; later, criticism from Tanabe Hajime and Tosaka Jun about his neglect of history led him to develop his notions of the historical world and historical body.",
+  "nishida-kitaro.interpretation.moment.2":
+    "This is consistent with a thinker who revised his positions in response to criticism, though the account rests on one reference entry.",
+  "nishida-kitaro.turning_point.1":
+    "After drafting An Inquiry into the Good from 1905 while teaching at provincial schools and practising Zen, he used the book to win a post at Kyoto Imperial University in 1910, moving from provincial teaching to the centre of Japanese academic philosophy.",
+  "nishida-kitaro.interpretation.turning_point.1":
+    "This is consistent with original work turning into a new institutional platform.",
+  /* ---------------------------------------------------------- raden-saleh (Roster64) */
+  "raden-saleh.achievement.1":
+    "Went to the Netherlands in 1829 on a royal stipend, spent more than 20 years training and working in Europe, was named King's Painter by William II in 1850, and is regarded in Indonesia as the father of modern Indonesian painting.",
+  "raden-saleh.achievement.2":
+    "Painted lions, tigers and hunting scenes, including the Fighting Animals series of about 1850, which is regarded as his most critically acclaimed work.",
+  "raden-saleh.achievement.3":
+    "Completed The Arrest of Pangeran Diponegoro in 1857, a history painting of the 1830 arrest that ended the Java War, now in the Istana Negara in Jakarta.",
+  "raden-saleh.moment.1":
+    "Not long after reaching the Netherlands in 1829 he specialised in oriental scenes and began dressing as a Javanese prince, a shift from the European dandy of his earlier portrait.",
+  "raden-saleh.interpretation.moment.1":
+    "This is consistent with a person who moved between cultural settings and used the difference deliberately.",
+  "raden-saleh.moment.2":
+    "A friend wrote that Saleh lost his friendship for a time because he neglected his obligations and painted the animal trainer Henri Martin's portrait for free simply to be able to paint his lions.",
+  "raden-saleh.interpretation.moment.2":
+    "This is consistent with intense focus on a subject, at some cost to a friendship, though it rests on one letter.",
+  "raden-saleh.turning_point.1":
+    "Returning to Java in 1851-52 after more than 20 years in Europe, he built a neo-Gothic palace and received the European elite there, and later founded his own school of landscape painting.",
+  "raden-saleh.interpretation.turning_point.1":
+    "This is consistent with a person who carried his European training into a new setting and worked beyond painting alone.",
+  /* ---------------------------------------------------------- sei-shonagon (Roster64) */
+  "sei-shonagon.achievement.1":
+    "Served Empress Teishi at the Heian court from about 993 to 1000 and wrote the Pillow Book, which Britannica calls a masterpiece of classical Japanese literature in a brilliant and original prose style.",
+  "sei-shonagon.achievement.2":
+    "The Pillow Book mixes vivid memoirs with lists such as 'Annoying Things', and is described as the best source of information on Japanese court life in the Heian period.",
+  "sei-shonagon.achievement.3":
+    "A poet from a family of poets, she is counted among the thirty-six poetic immortals of the middle Heian period, and one of her poems is no. 62 in the Ogura Hyakunin Isshu.",
+  "sei-shonagon.moment.1":
+    "When the Empress pressed her to compose poems after the cuckoo excursion, she told her she would write poems only when she felt inclined and would leave her service if she were repeatedly called on to compose on demand; the Empress laughed and said she could do as she pleased.",
+  "sei-shonagon.interpretation.moment.1":
+    "This is consistent with insisting on choosing when and how she produced her own work.",
+  "sei-shonagon.moment.2":
+    "When the Empress teased her that a sneeze proved she did not truly like her, she answered the next morning with a poem of puns saying she was thought shallow-hearted because of another person's nose.",
+  "sei-shonagon.interpretation.moment.2":
+    "This is consistent with a readiness to answer back at once in court company.",
+  "sei-shonagon.turning_point.1":
+    "In 996 she spent several months away from the Empress's service at home; the Heibonsha encyclopedia judges that she probably began writing the first form of the Pillow Book then, and she later returned to the Empress's side.",
+  "sei-shonagon.interpretation.turning_point.1":
+    "This is consistent with turning a period of enforced distance into the start of a distinctive written work.",
+  /* ---------------------------------------------------------- thomas-mofolo (Roster64) */
+  "thomas-mofolo.achievement.1":
+    "Sesotho writer of Lesotho whose novels Moeti oa Bochabela (1907), Pitseng (1910) and Chaka (1925) Britannica credits as the first Western-style novels in Southern Sotho.",
+  "thomas-mofolo.achievement.2":
+    "Chaka, a historical novel on the Zulu king Shaka written after careful study of traditional accounts, is the classic on which his reputation rests; it appeared in 1925 after missionaries at the depot where he worked delayed it, and was translated into English in 1931.",
+  "thomas-mofolo.achievement.3":
+    "The success of his first novel is credited with prompting other young teachers to try fiction, launching one of the earliest literary movements in sub-Saharan Africa.",
+  "thomas-mofolo.moment.1":
+    "Chaka, written while he worked at the Morija book depot, was held back for years by the missionaries there, who were disturbed that it did not condemn pagan customs, and appeared in 1925.",
+  "thomas-mofolo.interpretation.moment.1":
+    "This is consistent with a writer whose book did not follow the moral framing his mission employers expected.",
+  "thomas-mofolo.moment.2":
+    "A missionary colleague later wrote that Mofolo wrote Chaka after careful study of the traditional accounts of the Zulu king, but that it is no mere chronicle.",
+  "thomas-mofolo.interpretation.moment.2":
+    "This is consistent with a craft-minded writer who prepared his historical material before shaping it into fiction.",
+  "thomas-mofolo.turning_point.1":
+    "After Chaka, his third and last book, he stopped writing; from 1910 he taught and learned carpentry, then turned to mining and labour recruiting, a mill (by 1916) and a trading store (1928), ventures that ended in financial loss and ill health.",
+  "thomas-mofolo.interpretation.turning_point.1":
+    "This is consistent with a writer whose later career moved into self-started business ventures with mixed results.",
+  /* ---------------------------------------------------------- xu-guangqi (Roster64) */
+  "xu-guangqi.achievement.1":
+    "Ming scholar who, working with the Jesuit Matteo Ricci, translated the first six books of Euclid's Elements into Chinese in 1607 and invented Chinese terms for geometric concepts that entered Chinese mathematics; Britannica and MacTutor call him the first of his countrymen to translate European books into Chinese.",
+  "xu-guangqi.achievement.2":
+    "Entrusted in 1629 with reforming the Chinese calendar after the Western-method eclipse forecast outdid its rivals on some measures, he directed Jesuit astronomers in the work, which was left unfinished at his death in 1633; modern astronomers find the Western forecast better on magnitude and duration but not on every timing.",
+  "xu-guangqi.achievement.3":
+    "Compiled the 60-juan agricultural encyclopedia Nongzheng quanshu, covering field systems, water conservancy, tools, crops, silk and disaster relief; it was unfinished at his death, the emperor asked for his manuscripts, and Chen Zilong's revised edition was printed in 1639.",
+  "xu-guangqi.moment.1":
+    "In the translation of Euclid, Ricci explained the Latin text orally and Xu wrote down what he understood; for concepts with no Chinese words, such as point, curve, parallel line and acute angle, he invented the terms.",
+  "xu-guangqi.interpretation.moment.1":
+    "This is consistent with close, sustained collaboration across a language gap and a willingness to build the vocabulary a new field needed.",
+  "xu-guangqi.moment.2":
+    "When the emperor wished to punish the astronomers for a failed eclipse forecast, Xu answered that Guo Shoujing's method had also failed once, that calendars drift over time and should be corrected in good time; the emperor then ordered the Jesuits to compute the calendar with Xu as supervisor.",
+  "xu-guangqi.interpretation.moment.2":
+    "This is consistent with arguing for a technical remedy rather than blame, and with persuading a sceptical authority to adopt it.",
+  "xu-guangqi.turning_point.1":
+    "In 1629, after the Western-method forecast of the 21 June eclipse compared well against the Chinese and Muslim forecasts in a government contest, he was appointed to lead the calendar reform and from then directed work with Johann Terrenz, Giacomo Rho and Adam Schall.",
+  "xu-guangqi.interpretation.turning_point.1":
+    "This is consistent with years of study of European astronomy turning into a leading role in a major scientific project.",
+  /* ---------------------------------------------------------- yosano-akiko (Roster64) */
+  "yosano-akiko.achievement.1":
+    "Tanka poet whose 1901 collection Midaregami (Tangled Hair) brought frank female passion into a thousand-year-old verse form and made her a leading figure of Japanese Romanticism.",
+  "yosano-akiko.achievement.2":
+    "Rendered the Tale of Genji into modern Japanese twice, an abridged version in 1912-13 and a complete one in 1938-39, and wrote biographical studies and a scholarly edition of the classic.",
+  "yosano-akiko.achievement.3":
+    "Helped found the Bunka Gakuin school in Tokyo in 1921, where she taught, and wrote widely on education and women's issues.",
+  "yosano-akiko.moment.1":
+    "Her first collection Midaregami (1901) was dismissed by one reviewer as the 'precocious prattle of a young girl', yet it found a ready readership among the young and brought her fame.",
+  "yosano-akiko.interpretation.moment.1":
+    "This is consistent with a poet whose unconventional form drew criticism but also an audience.",
+  "yosano-akiko.moment.2":
+    "For fourteen years from 1909 she worked on a Genji commentary that was destroyed just short of completion in the fires after the 1923 Great Kanto Earthquake; she later published a complete modern-Japanese translation of the tale in 1938-39.",
+  "yosano-akiko.interpretation.moment.2":
+    "This is consistent with a long commitment to one classic that continued after a major loss.",
+  "yosano-akiko.turning_point.1":
+    "In 1921 she helped found the Bunka Gakuin in Tokyo, moving from writing about education to teaching in a school where the arts were prominent and for which she wrote a literature textbook.",
+  "yosano-akiko.interpretation.turning_point.1":
+    "This is consistent with a writer who extended her work from poetry into institution-building and teaching.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -24419,6 +24875,462 @@ export const EDITORIAL_KO: Record<string, string> = {
     "선불교와 도가에 관심을 두던 그는 1160년 서른 살에 이통의 제자가 되어 유가의 도를 확신하게 되었고, 이후 40년을 그 길에 바쳤다.",
   "zhu-xi.interpretation.turning_point.1":
     "이는 숙고 끝에 지적 방향을 바꾸고 이후 수십 년간 그에 헌신한 사상가의 면모와 일치한다.",
+  /* ---------------------------------------------------------- augustin-fresnel (Roster64) */
+  "augustin-fresnel.achievement.1":
+    "회절과 간섭 실험, 그리고 파면 요소의 수학으로 대부분의 과학자가 입자설을 지지하던 때에 빛의 파동설을 확립하는 데 기여했으며, 빛이 횡파라고 결론지었다.",
+  "augustin-fresnel.achievement.2":
+    "1819년 회절 논문으로 과학 아카데미 상을 받았고, 푸아송이 그 수학으로 계산해 예측한 원판 그림자 중심의 밝은 점이 실제로 관측되었다.",
+  "augustin-fresnel.achievement.3":
+    "등대용 계단식 렌즈를 개발해 거울을 대체했고, 1823년 코르두앙 탑에 첫 렌즈가 설치되었다. 프레넬 렌즈는 지금도 널리 쓰인다.",
+  "augustin-fresnel.moment.1":
+    "회절 물체의 한쪽 가장자리에 검은 종이를 붙이자 그림자 안쪽의 밝은 띠가 사라지는 것을 보고, 어느 띠가 양쪽 가장자리의 빛에서 생기는지를 추론했다.",
+  "augustin-fresnel.interpretation.moment.1":
+    "이는 조건 하나를 바꿔 직접 실험으로 생각을 검증하는 모습과 일치한다.",
+  "augustin-fresnel.moment.2":
+    "1821년 그는 빛이 횡파라고 확신을 갖고 주장했고, 이는 아라고를 포함한 대부분의 동료에게 지나친 주장으로 받아들여졌으나, 이어서 복굴절이 그 생각에서 도출됨을 보였다.",
+  "augustin-fresnel.interpretation.moment.2":
+    "이는 자신의 추론이 뒷받침하는 소수 의견을 끝까지 유지하는 모습과 일치한다.",
+  "augustin-fresnel.turning_point.1":
+    "1814년 중반 도로를 놓는 정부 기술자로 일하던 그는 빛에 관한 실험을 시작했고, 빛의 편광이 무엇인지 모른다고 쓴 지 몇 달 뒤에는 당대의 주요 물리학자 반열에 올랐다.",
+  "augustin-fresnel.interpretation.turning_point.1":
+    "이는 본업을 하면서 스스로의 실험으로 새로운 분야에 뛰어드는 모습과 일치한다.",
+  /* ---------------------------------------------------------- catherine-ndereba (Roster64) */
+  "catherine-ndereba.achievement.1":
+    "2001년 시카고 마라톤에서 여자 마라톤 세계 기록 2시간 18분 47초를 세웠고, 2000·2001·2004·2005년 보스턴 마라톤을 제패해 여자 선수로서는 처음으로 보스턴 4승을 거둔 케냐의 마라토너이다.",
+  "catherine-ndereba.achievement.2":
+    "2003년과 2007년 세계선수권 마라톤에서 우승했고 2004년과 2008년 올림픽에서 은메달을 땄으며, 2003년부터 2008년까지 연속 다섯 번의 국제 대회 마라톤에서 2위 안에 들었다.",
+  "catherine-ndereba.achievement.3":
+    "2000년 보스턴 우승으로 케냐 여자 선수로는 처음으로 이 대회에서 우승했고, 케냐 연감은 2003년 세계선수권 우승을 케냐 여자 선수가 주요 세계 대회 마라톤에서 거둔 첫 우승이라고 설명한다.",
+  "catherine-ndereba.moment.1":
+    "보스턴에서 우승하고도 2000년 케냐 올림픽 대표팀에서 제외된 그녀는 2001년 세계선수권을 건너뛰고 대신 세계 기록에 도전하겠다고 말했고, 그해 10월 시카고에서 2시간 18분 47초를 달렸다.",
+  "catherine-ndereba.interpretation.moment.1":
+    "이는 선발 탈락의 아쉬움 뒤에 기록 달성을 스스로의 목표로 세운 선수의 면모와 일치한다.",
+  "catherine-ndereba.moment.2":
+    "2005년 보스턴 마라톤에서 그녀는 중간 지점에서 선두에 80초 뒤졌으나 격차를 좁혀 하트브레이크 힐에서 엘페네시 알레무를 따라잡고 2분 가까운 차이로 우승했다.",
+  "catherine-ndereba.interpretation.moment.2":
+    "이는 후반 강세에 의존해 뒤에서 따라붙어 우승한 선수의 면모와 일치한다.",
+  "catherine-ndereba.turning_point.1":
+    "1999년 국가대표 자리 없이 해외 로드 레이스를 뛰던 그녀는 마라톤으로 전향했고, 그해 보스턴에서 선두를 달리다 6위로 마쳤으며 이듬해인 2000년 우승했다.",
+  "catherine-ndereba.interpretation.turning_point.1":
+    "이는 마라톤으로의 늦은 전향과 첫 좌절 뒤의 빠른 복귀로 방향이 바뀐 경력과 일치한다.",
+  /* ---------------------------------------------------------- claude-bernard (Roster64) */
+  "claude-bernard.achievement.1":
+    "생명과학에서 실험의 원칙을 확립하는 데 큰 역할을 해 실험의학의 창시자 중 한 사람이 되었으며, 1865년의 『실험의학 연구 입문』은 지금도 널리 읽히는 고전이다.",
+  "claude-bernard.achievement.2":
+    "췌장액이 지방 소화에서 하는 역할, 간의 글리코겐 생성 기능, 혈액 공급을 조절하는 혈관운동신경을 밝혔고 쿠라레와 일산화탄소가 몸에 작용하는 방식을 보여 주었다.",
+  "claude-bernard.achievement.3":
+    "몸의 내부 환경이 일정하게 유지되는 것이 독립된 생명의 조건이라는 내부 환경 개념을 발전시켰으며, 브리태니커는 이것이 오늘날의 항상성 이해로 이어졌다고 설명한다.",
+  "claude-bernard.moment.1":
+    "일부 토끼가 탁한 소변이 아니라 맑은 소변을 보는 것을 우연히 보고 의아해한 그는 토끼들이 먹이를 먹지 못해 자기 조직으로 살고 있다고 추론했고, 고기를 먹여 이를 확인했으며, 부검을 통해 소화에서 췌장이 하는 역할을 밝혀내는 데 이르렀다.",
+  "claude-bernard.interpretation.moment.1":
+    "이는 예상 밖의 관찰을 검증 가능한 가설과 확인 실험으로 이어가는 습관과 부합한다.",
+  "claude-bernard.moment.2":
+    "갓 떼어낸 개의 간에서 당을 씻어낸 뒤 하루가 지나자 간이 다시 당으로 풍부해진 것을 확인하고 간에 당을 만드는 물질이 있다고 추론했으며, 1857년에는 간에서 순수한 글리코겐을 분리했다.",
+  "claude-bernard.interpretation.moment.2":
+    "이는 생리학적 착상을 장기에서 직접 시험하고 그 결과에서 다음 추론을 이끌어내는 실험 방식과 부합한다.",
+  "claude-bernard.turning_point.1":
+    "1860년부터 병으로 쉬어야 했던 그는 1862~63년 요양 기간에 『실험의학 연구 입문』을 구상하면서, 구체적인 사실의 추구에서 생물학의 방법과 원리로 관심의 무게를 옮겼다.",
+  "claude-bernard.interpretation.turning_point.1":
+    "이는 결과를 모으는 데서 그것을 분야의 틀로 일반화하는 쪽으로 옮겨 갔다는 점과 부합한다.",
+  /* ---------------------------------------------------------- denis-diderot (Roster64) */
+  "denis-diderot.achievement.1":
+    "달랑베르와 함께, 1758년 달랑베르가 물러난 뒤에는 홀로 《백과전서》를 편집하여 출판 허가 정지와 금서 조치 속에서도 본문 17권을 1765년까지, 도판집을 1772년까지 완간했으며, 그 항목 가운데 6천 개 가까이를 직접 집필했다.",
+  "denis-diderot.achievement.2":
+    "철학자이자 작가로서, 《맹인에 관한 편지》(1749)로 뱅센 감옥에서 석 달을 보냈으며, 생전에 출간되지 않은 《달랑베르의 꿈》과 《라모의 조카》는 계몽주의 사상의 걸작으로 꼽힌다.",
+  "denis-diderot.achievement.3":
+    "1759년부터 프리드리히 그림의 《문예 서한》에 파리 미술 전시회 비평을 기고했는데, 스탠퍼드 철학 백과사전은 이를 미술 비평가라는 새로운 정체성의 발명으로 평가하며, 연극 이론에 관한 영향력 있는 글도 남겼다.",
+  "denis-diderot.moment.1":
+    "1764년 그는 자신이 교정을 승인한 뒤 출판업자 르브르통이 항목을 삭제하고 고친 사실을 알고 자신의 작업이 '학살당했다'고 썼으며, 딸의 회고에 따르면 작업을 포기할 뻔했으나 결국 마지막 권들은 완성되었다.",
+  "denis-diderot.interpretation.moment.1":
+    "이 일화는 심각한 좌절을 겪은 뒤에도 방대한 편집 사업을 이어 가는 끈기와 부합한다.",
+  "denis-diderot.moment.2":
+    "1759년 프리드리히 그림이 루브르에서 열리는 격년 미술 전시회에 대한 글을 《문예 서한》에 써 달라고 청하자, 그는 감정가의 안목과 철학적 논증을 결합한 일련의 《살롱》 비평을 이어 썼다.",
+  "denis-diderot.interpretation.moment.2":
+    "이 꾸준한 연재는 시각 예술이 인간의 경험을 어떻게 재현하는지에 대한 예민한 감수성과 부합한다.",
+  "denis-diderot.turning_point.1":
+    "1749년 《맹인에 관한 편지》로 뱅센 감옥에 석 달 갇혔고, 11월 석방 때는 이미 훗날 《백과전서》가 될 사업에 착수해 있었으며, 1750년 취지서를 내고 이후 20년 가까이 그 일에 매달렸다.",
+  "denis-diderot.interpretation.turning_point.1":
+    "이 흐름은 공권력의 처벌을 받은 뒤에도 지적 목표를 계속 추구한 비순응적 사상가의 모습과 부합한다.",
+  /* ---------------------------------------------------------- douglas-mawson (Roster64) */
+  "douglas-mawson.achievement.1":
+    "1911~14년 호주 남극 탐험대를 이끌어 동남극 해안의 넓은 구간을 측량했고 지질학, 지도 제작, 기상학, 지자기학, 생물학, 해양과학 지식을 넓혔다.",
+  "douglas-mawson.achievement.2":
+    "1912~13년 벨그레이브 닌니스가 크레바스에 빠져 실종되고 사비에 메르츠가 숨지자, 탐험대의 자료와 표본을 가지고 돌아오겠다는 결심으로 홀로 약 한 달을 걸어 구조선이 떠난 뒤에야 기지에 닿았다.",
+  "douglas-mawson.achievement.3":
+    "1929~31년 영국·호주·뉴질랜드 남극 연구 탐험대를 이끌어 남극 해안 상당 구간을 항해하며 조사했고, 1921년부터 1952년까지 애들레이드 대학교 지질·광물학 교수로 재직했다.",
+  "douglas-mawson.moment.1":
+    "닌니스가 대부분의 보급품과 함께 크레바스에 빠지고 메르츠가 숨진 뒤, 모슨은 탐험의 자료와 표본을 지니고 약 30일 동안 홀로 걸었으며 썰매 끈을 붙잡고 기어올라 크레바스 추락에서 살아남았고, 배가 떠난 뒤에야 기지에 도착했다.",
+  "douglas-mawson.interpretation.moment.1":
+    "이는 심각한 차질 속에서도 목표를 향해 계속 나아가는 모습과 일치한다.",
+  "douglas-mawson.moment.2":
+    "남호주 오지의 빙하 작용을 연구했던 그는 직접 빙하 현상을 보고 싶어 1907년 애들레이드로 서둘러 가서 섀클턴의 배를 만나려 했고, 결국 탐험대에 합류했다.",
+  "douglas-mawson.interpretation.moment.2":
+    "이는 자신이 연구한 자연 현상을 직접 확인하려는 호기심과 일치한다.",
+  "douglas-mawson.turning_point.1":
+    "스콧이 탐험대 합류를 권했지만 모슨은 이를 거절하고, 호주 남쪽의 미탐사 지역으로 가는 자신의 호주 남극 탐험대를 직접 조직해 이끌기로 하여 1910~11년 호주 전역에서 지원을 구했다.",
+  "douglas-mawson.interpretation.turning_point.1":
+    "이는 남의 사업에 합류하기보다 자신의 사업을 시작하고 이끄는 쪽을 택하는 모습과 일치한다.",
+  /* ---------------------------------------------------------- eli-whitney (Roster64) */
+  "eli-whitney.achievement.1":
+    "1793년 조면기를 만들어 1794년 특허를 받았다. 이 기계 덕분에 짧은 섬유의 녹색 씨앗 면화가 남부 전역에서 수익성 있는 작물이 되었으며, 미국 국립공원관리청은 이것이 노예제를 유지·확대하는 데에도 일조했다고 지적한다.",
+  "eli-whitney.achievement.2":
+    "1798년 연방 정부와 소총 1만 정을 만드는 계약을 맺고 공작기계와 규격화된 호환 부품으로 생산하는 방식을 널리 알렸다. 브리태니커는 이를 그의 가장 중요한 기여로 꼽지만, 메리트 로 스미스 같은 역사가들은 그가 생전에 이를 직접 이루지는 못했다고 본다.",
+  "eli-whitney.achievement.3":
+    "코네티컷주 해멘의 휘트니빌에 동력으로 움직이는 공작기계를 갖춘 소총 공장을 세웠고, 그의 아들과 두 조카가 19세기 중반까지 그의 방식을 이어 갔다.",
+  "eli-whitney.moment.1":
+    "1798년 6월 소총을 만들어 본 적이 없었음에도 다른 납품업자에게는 없던 선금 조항이 포함된 연방 정부 계약을 따냈고, 이후 자신의 도구를 제조의 '새로운 원리'라 설명하며 여러 차례 납기 연장을 받아 냈다.",
+  "eli-whitney.interpretation.moment.1":
+    "이는 검증되지 않은 계획에 대해 공적 지원을 얻어 내는 능력과 일치한다.",
+  "eli-whitney.moment.2":
+    "1795년부터 1805년 사이 휘트니와 피니어스 밀러는 조지아주 서배너 연방 법원에 특허 침해 소송 24건을 제기했고, 1802년부터 남부의 여러 주가 특허권 대가를 지불하기로 합의했다.",
+  "eli-whitney.interpretation.moment.2":
+    "이는 거듭된 좌절에도 어렵게 얻은 권리를 수년간 끈질기게 지켜 나가는 모습과 일치한다.",
+  "eli-whitney.turning_point.1":
+    "조면기 동업이 1797년 사업을 접은 뒤 그는 정부의 소총 조달 요청으로 눈을 돌려 1798년 계약을 따냈고, 이것이 코네티컷에서 규격화 생산에 매달리게 된 출발점이었다.",
+  "eli-whitney.interpretation.turning_point.1":
+    "이는 사업상 실패 뒤 자신의 기술을 새로운 분야로 돌려 쓰는 모습과 일치한다.",
+  /* ---------------------------------------------------------- emanuel-lasker (Roster64) */
+  "emanuel-lasker.achievement.1":
+    "1894년 빌헬름 슈타이니츠를 꺾고 세계 체스 챔피언이 되어 27년간 타이틀을 지켰고, 마셜·타라슈·야노프스키·슐레흐터의 도전을 막아낸 뒤 1921년 카파블랑카에게 넘겨주었다.",
+  "emanuel-lasker.achievement.2":
+    "수학자로서 1905년 소(素)아이디얼 개념을 도입하고 다항식환 아이디얼의 일차분해 정리를 증명했으며, 이 결과는 1921년 에미 뇌터가 일반화했다.",
+  "emanuel-lasker.achievement.3":
+    "『체스의 상식』(1896)과 『라스커 체스 교본』, 『세계의 이해』(1913) 등 철학서를 썼으며, 철학과 수학 분야 박사학위를 지녔다.",
+  "emanuel-lasker.moment.1":
+    "1934년 취리히에서 대회에 복귀한 뒤, 1935년 제2회 모스크바 국제대회에서 66세의 나이로 한 판도 지지 않고 3위에 올랐다.",
+  "emanuel-lasker.interpretation.moment.1":
+    "긴 경력의 후반에도 경쟁적 노력을 이어 간 모습과 일치한다.",
+  "emanuel-lasker.moment.2":
+    "1927년 뉴욕 대회 초청 명단에서 제외되자 1926년 12월 주최자를 비판하는 장문의 공개 성명을 내, 언론에서 격렬한 공방이 벌어졌다.",
+  "emanuel-lasker.interpretation.moment.2":
+    "대회 조건을 둘러싼 분쟁을 공개적으로 다루는 데 주저하지 않은 모습과 일치한다.",
+  "emanuel-lasker.turning_point.1":
+    "1894년 5월 26일 몬트리올에서 25세에 슈타이니츠를 상대로 10승에 도달해 세계 챔피언이 되었고, 이후 27년간 타이틀을 유지했다.",
+  "emanuel-lasker.interpretation.turning_point.1":
+    "초기의 가능성을 오랜 챔피언 지위로 이어 간 경쟁자의 모습과 일치한다.",
+  /* ---------------------------------------------------------- eugene-delacroix (Roster64) */
+  "eugene-delacroix.achievement.1":
+    "1822년 살롱에 출품한 '지옥의 단테와 베르길리우스'로 데뷔한 뒤 '키오스섬의 학살', '사르다나팔루스의 죽음', '민중을 이끄는 자유의 여신' 등을 통해 강렬한 색채와 움직임으로 아카데미 전통에 맞서며 프랑스 낭만주의 회화를 대표하는 화가가 되었다.",
+  "eugene-delacroix.achievement.2":
+    "팔레 부르봉, 뤽상부르 도서관, 루브르 아폴롱 갤러리 천장화, 생쉴피스 성당의 천사 예배당(1849~1861) 등 파리 공공건물의 대규모 장식화를 그렸다.",
+  "eugene-delacroix.achievement.3":
+    "1832년 모로코 여행에서 얻은 스케치와 기록은 수십 년 동안 그의 작업의 바탕이 되었고, 그의 색채와 일기는 후대 화가들에게 참고가 되었다. 한 전시 리뷰는 세잔이 모두가 들라크루아의 언어로 그린다고 말했다고 전한다.",
+  "eugene-delacroix.moment.1":
+    "1857년 1월, 여러 번 낙선한 끝에 일곱 번째 도전에서 미술 아카데미 회원으로 선출되었다.",
+  "eugene-delacroix.interpretation.moment.1":
+    "이는 거듭된 거절 속에서도 목표를 이어간 끈기 있는 면모와 부합한다.",
+  "eugene-delacroix.moment.2":
+    "1832년 모로코 사절단에 동행한 뒤 스케치북과 기록을 가득 채웠고, 이후 '알제의 여인들' 같은 이전 구도를 다시 다루며 오랫동안 이를 활용했다.",
+  "eugene-delacroix.interpretation.moment.2":
+    "이는 본 것을 저장해 두고 다시 꺼내 쓰는 호기심 많은 관찰자의 면모와 부합한다.",
+  "eugene-delacroix.turning_point.1":
+    "1822년 살롱에 출품한 '지옥의 단테와 베르길리우스'가 곧바로 비평계의 주목을 받으면서 스물네 살의 그는 낭만주의 운동의 주요 인물로 떠올랐다.",
+  "eugene-delacroix.interpretation.turning_point.1":
+    "이는 아카데미의 관행에서 벗어난 독창적 접근이 곧바로 주목받았음을 보여주는 것과 부합한다.",
+  /* ---------------------------------------------------------- henri-bergson (Roster64) */
+  "henri-bergson.achievement.1":
+    "시계로는 잴 수 없는 살아 흐르는 시간인 '지속'과 방법으로서의 '직관'의 철학을 《시간과 자유》(1889), 《물질과 기억》(1896), 《창조적 진화》(1907)에서 전개하여 기계론적·실증주의적 견해에 맞섰다.",
+  "henri-bergson.achievement.2":
+    "1900년부터 콜레주 드 프랑스 교수로서 무료 공개 강의에 청중이 넘쳐 났고, 1914년 아카데미 프랑세즈 회원으로 선출되었으며, 1913년 컬럼비아 대학 강연은 브로드웨이에 교통 체증을 일으켰다고 전해진다.",
+  "henri-bergson.achievement.3":
+    "1927년도 노벨 문학상을 1928년에 받았으며, 그의 사상은 미국 실용주의와 입체주의, 현대 문학에 영향을 주었고, 희극 이론을 담은 《웃음》(1900)과 《도덕과 종교의 두 원천》(1932)도 남겼다.",
+  "henri-bergson.moment.1":
+    "1913년 1월 뉴욕 컬럼비아 대학에서 연 강연에 청중이 몰려, 전해지는 바로는 브로드웨이 최초의 교통 체증이 빚어졌다.",
+  "henri-bergson.interpretation.moment.1":
+    "이 일화는 매우 많은 대중을 끌어모으는 강연자의 면모와 부합하나, 회의적인 이들을 얼마나 설득했는지는 출처에서 드러나지 않는다.",
+  "henri-bergson.moment.2":
+    "1922년 4월 6일 그는 아인슈타인의 강연을 들으러 파리 모임에 갔다가 발언을 요청받아 상대성이론의 시간과 체험된 시간의 관계를 물었고, 아인슈타인은 이를 일축했으며, 후대 논평자들은 베르그송이 상대성이론의 기술적 요점 하나를 오해했다고 본다.",
+  "henri-bergson.interpretation.moment.2":
+    "이 논쟁은 당대 최고의 물리학자 앞에서 자신의 시간관을 밀어붙인 독립적 사상가의 모습과 부합하며, 한 기술적 쟁점에서는 신뢰성의 대가를 치렀다.",
+  "henri-bergson.turning_point.1":
+    "《물질과 기억》(1896)을 낸 뒤 소르본 교수직을 두 차례 얻지 못했으나 1900년 콜레주 드 프랑스의 교수직을 얻었고, 스탠퍼드 백과사전은 이를 그의 명성이 커지는 출발점으로 본다.",
+  "henri-bergson.interpretation.turning_point.1":
+    "고등학교 교사에서 콜레주 드 프랑스 교수로의 이동은 독창적 사상이 공개된 무대를 얻자 청중을 만난 과정과 부합한다.",
+  /* ---------------------------------------------------------- henry-bessemer (Roster64) */
+  "henry-bessemer.achievement.1":
+    "1856년 발표한 전로(轉爐) 제강법으로, 용선(鎔銑)에 공기를 불어 넣어 강철을 대량 생산하게 한 영국의 기술자이자 발명가이다. 한 자료는 강철 값이 톤당 약 50~60파운드에서 6~7파운드로 떨어졌다고 전한다. 이 공정이 안정적으로 작동하려면 머셋의 스피겔아이젠 첨가와, 인이 많은 철을 위한 길크리스트·토머스의 염기성 내벽이 뒤따라야 했다.",
+  "henry-bessemer.achievement.2":
+    "초기 사용권자들이 이 공정을 제대로 작동시키지 못하자 1859년 셰필드에 자신의 제강 회사를 세웠고 이후 공정 사용권을 더 널리 내주었으며, 제강 특허 사용료로 100만 파운드 넘게 벌었다.",
+  "henry-bessemer.achievement.3":
+    "청동 분말 제조 기계와 위조 방지용 인지 스탬프에서 설탕·유리 공정에 이르기까지 약 120건의 특허 명세서를 남긴 다작의 발명가이다. 1871~73년 철강협회(Iron and Steel Institute) 회장을 지냈고 1879년 기사 작위와 왕립학회 회원 자격을 받았으며, 협회의 베서머 금메달에 이름을 남겼다.",
+  "henry-bessemer.moment.1":
+    "본인의 설명에 따르면, 사용권을 산 제철업자들이 이 공정을 작동시키지 못하자 그는 사용권을 되사고, 언론에서 논쟁하는 대신 셰필드의 자기 공장에서 상업적으로 입증하기로 했다.",
+  "henry-bessemer.interpretation.moment.1":
+    "이는 공개적인 좌절 앞에서 물러서지 않고 공정을 계속 발전시킨 발명가의 면모와 일치한다.",
+  "henry-bessemer.moment.2":
+    "로버트 머셋의 대리인이 망간 특허의 사용권을 요구하자 베서머는 이를 거부하고 법정에서 가려 보자고 응수했으며, 이후 연 300파운드의 연금을 지급했는데, 과학박물관 블로그는 번거로운 소송을 피하려는 뜻이었을 수 있다고 본다.",
+  "henry-bessemer.interpretation.moment.2":
+    "이는 우선권 분쟁에 정면으로 맞서면서도 필요할 때는 평화를 사들인 사람의 면모와 일치한다.",
+  "henry-bessemer.turning_point.1":
+    "1856년 공정을 발표한 뒤 사용권자들이 좋은 강철을 얻지 못하자, 그는 사용권을 파는 데서 직접 강철을 만드는 쪽으로 옮겨 1859년 셰필드에 헨리 베서머 앤드 컴퍼니를 세웠다.",
+  "henry-bessemer.interpretation.turning_point.1":
+    "이는 특허 아이디어를 남에게 맡기지 않고 실제 가동되는 사업으로 만든 발명가의 면모와 일치한다.",
+  /* ---------------------------------------------------------- hieronymus-bosch (Roster64) */
+  "hieronymus-bosch.achievement.1":
+    "스헤르토헨보스의 네덜란드 화가(1450년경~1516)로, 유혹과 죄, 지옥을 다룬 독특하고 상상력 넘치는 도상으로 유명하며 『쾌락의 정원』, 『건초 마차』, 『성 안토니우스의 유혹』 같은 세폭 제단화를 남겼다.",
+  "hieronymus-bosch.achievement.2":
+    "그의 작품은 생전에도 모방되어 그의 이름으로 팔렸으며, 브리태니커는 그의 이미지가 피터르 브뤼헐(아버지)과 초현실주의자들에게 영향을 주었다고 평가한다. 진품으로 인정되는 패널은 약 25점에 그친다.",
+  "hieronymus-bosch.achievement.3":
+    "그는 평생 스헤르토헨보스에서 가족 작업실을 꾸려 활동했으며, 성모 형제회의 중요한 의뢰인으로서 예배당 장식 작품을 제작하고 다른 작업 의뢰에 대해 조언했다.",
+  "hieronymus-bosch.moment.1":
+    "보스 연구·보존 프로젝트의 적외선 조사에서 덧칠과 밑그림이 발견되었고, 프로젝트 조정자는 보스가 작업 중 자주 생각을 바꾸었다고 설명한다.",
+  "hieronymus-bosch.interpretation.moment.1":
+    "이는 제작 도중 구도를 고쳐 나간 화가의 면모와 일치한다.",
+  "hieronymus-bosch.moment.2":
+    "그는 성모 형제회를 위해 성 요한 대성당 예배당 장식 작품을 제작했고, 다른 예술가와 장인에게 맡길 작업에 대해 조언했으며 때로는 제출된 작품의 평가도 맡았다.",
+  "hieronymus-bosch.interpretation.moment.2":
+    "이는 지역 후원 단체가 다른 제작자의 작업을 이끌고 평가하도록 맡긴 예술가의 면모와 일치한다.",
+  "hieronymus-bosch.turning_point.1":
+    "보스는 1486년부터 공식 기록과 성모 형제회 명부에 이름이 오르며, 1516년 사망할 무렵에는 뛰어난 화가로 칭송받고 고장에서 가장 부유하고 존경받는 주민의 하나로 꼽혔다.",
+  "hieronymus-bosch.interpretation.turning_point.1":
+    "이는 경력이 쌓이면서 의뢰의 폭과 지역에서의 위상이 커진 장인의 면모와 일치한다.",
+  /* ---------------------------------------------------------- ino-tadataka (Roster64) */
+  "ino-tadataka.achievement.1":
+    "1800년 55세에 시작해 1816년까지 열 차례의 측량을 이끌며 홋카이도에서 규슈까지의 해안을 도보와 천문 관측으로 측량한 일본의 측량가이다. 그가 세상을 떠난 뒤 제자들이 1821년 대일본연해여지전도(이노 지도)를 완성했으며, 재팬 서치는 이를 실제 측량 기법으로 만든 일본 최초의 지도로 설명한다.",
+  "ino-tadataka.achievement.2":
+    "막부는 지도를 비밀로 했고 공식 정본은 1873년 화재로 소실되었지만, 사본은 1870~80년대 일본 정부 지도의 바탕이 되었고 지볼트가 가지고 나간 사본은 1840년 유럽에서 출판되었다. 학자들은 그가 삼각측량이 아닌 도선법을 썼고 경도가 위도보다 덜 정확했다고 지적한다.",
+  "ino-tadataka.achievement.3":
+    "측량에 나서기 전에는 양가의 양조·상업을 운영했고, 49세에 은퇴해 다카하시 요시토키에게 천문학을 배웠으며, 자오선 1도의 길이를 28.2리(약 110.75km)로 측정해 랄랑드 천문학서의 수치에 가까운 값을 얻었다. 2010년 그와 관련된 자료 2,345점이 국보로 지정되었다.",
+  "ino-tadataka.moment.1":
+    "1800년 막부는 북방 방어에 도움이 된다는 이유로 에조 측량을 허가했지만 이노와 스승이 가장 관심을 둔 것은 위도 1도의 길이였고, 지원금이 적어 그는 사비를 보탰다.",
+  "ino-tadataka.interpretation.moment.1":
+    "이는 과학적 목표를 국가의 실용적 관심과 연결하고 사비를 보태 허가와 재원을 확보할 방법을 찾아낸 사람의 면모와 일치한다.",
+  "ino-tadataka.moment.2":
+    "이후 측량에서 그는 천식을 앓고 말라리아에 걸려 병이 도질 때마다 측량 기구를 내려놓아야 했지만 측량은 17년간 이어졌고, 마지막 두 차례에는 거의 참여하지 못했으며 지도는 그의 사후 제자들이 완성했다.",
+  "ino-tadataka.interpretation.moment.2":
+    "이는 나이와 병이라는 한계 속에서도 목적을 잃지 않고 여러 해 노력을 이어간 모습과 일치한다.",
+  "ino-tadataka.turning_point.1":
+    "1803년 그는 에도성에서 쇼군 도쿠가와 이에나리 앞에 동일본 지도를 펼쳐 보였고, 쇼군은 그를 가신으로 삼아 정부 비용으로 서일본을 측량하도록 명했으며 측량대에는 역국(曆局)의 전문가들이 합류했다.",
+  "ino-tadataka.interpretation.turning_point.1":
+    "이는 구체적인 성과를 보여준 뒤 개인 사업이 공식 사업으로 바뀐 전환과 일치한다.",
+  /* ---------------------------------------------------------- johann-heinrich-pestalozzi (Roster64) */
+  "johann-heinrich-pestalozzi.achievement.1":
+    "가난한 이들도 교육받아야 한다고 주장하고, 관찰과 사물 교수를 바탕으로 익숙한 것에서 새로운 것으로 아이의 발달을 따라 가르치는 방법을 만든 스위스의 교육 개혁가이다. 체벌과 암기 위주 교육을 거부했으며, 브리태니커는 그의 원칙 대부분이 오늘날 초등교육에 흡수되었다고 설명한다.",
+  "johann-heinrich-pestalozzi.achievement.2":
+    "1774년부터 노이호프, 1799년 슈탄스에서 가난하고 고아가 된 아이들을 위한 학교를 운영했고, 부르크도르프에서 교사 양성 학교를, 1804년부터 1825년까지는 유럽 곳곳의 방문객을 끌어들인 이베르동 학원을 운영했다. 프로이센은 교사를 보내 그에게 배우게 했고, 프리드리히 프뢰벨과 조지프 니프도 그가 가르친 사람들이다.",
+  "johann-heinrich-pestalozzi.achievement.3":
+    "소설 『린하르트와 게르트루트』(1781~87)와 『게르트루트는 어떻게 자녀를 가르치는가』(1801)로 그의 사상이 해외에 알려졌지만, 그의 학교는 취약했다. 노이호프는 빚으로 문을 닫았고, 이베르동은 교사들 사이의 오랜 다툼과 허술한 장부 관리 끝에 1825년 문을 닫았다.",
+  "johann-heinrich-pestalozzi.moment.1":
+    "슈탄스 고아원은 1799년 1월 14일 문을 열었고 6주 만에 80명이 넘는 아이들이 페스탈로치와 하녀 한 사람의 돌봄을 받았으며, 그는 슈탄스에 관한 편지에서 아침부터 저녁까지 아이들과 단둘이 지냈고 아이들 틈에서 잤다고 썼다.",
+  "johann-heinrich-pestalozzi.interpretation.moment.1":
+    "이는 가난한 아이들에 대한 강한 헌신과 일치하지만, 아이들 틈에서 잤다는 세부 내용은 그 자신의 진술이다.",
+  "johann-heinrich-pestalozzi.moment.2":
+    "이베르동 학원은 학비를 매우 낮게 받았고 학생의 약 3분의 1은 한 푼도 내지 않았으며 교사들은 숙식만 받았는데, 예산 부족과 허술한 장부 관리로 큰 손실이 났다. 1815년 돌아온 요제프 슈미트는 엄격한 장부 관리를 도입하고 인쇄소를 닫았으며 교사 절반을 해고했다.",
+  "johann-heinrich-pestalozzi.interpretation.moment.2":
+    "이는 너그러움과 이상이 재정 계획과 운영 통제를 앞질렀음을 보여주는 모습과 일치한다.",
+  "johann-heinrich-pestalozzi.turning_point.1":
+    "슈탄스에서의 몇 달 뒤 그는 교사가 되기로 결심했고 곧 부르크도르프에서 기회를 얻어 교사 연수 기관을 갖춘 학교를 세웠으며, 1801년 『게르트루트는 어떻게 자녀를 가르치는가』가 그를 유럽 전역에 알렸다.",
+  "johann-heinrich-pestalozzi.interpretation.turning_point.1":
+    "이는 교육에 대해 글을 쓰던 데서 실제 학교에서 자신의 방법을 시험하고 다듬는 쪽으로 옮겨간 전환과 일치한다.",
+  /* ---------------------------------------------------------- john-constable (Roster64) */
+  "john-constable.achievement.1":
+    "야외에서 그린 유화 스케치와 습작을 바탕으로 서퍽 시골 풍경을 신선하고 자연주의적으로 그려 영국 풍경화를 바꿔 놓았으며, 내셔널 갤러리는 그가 프랑스 낭만주의와 바르비종파에 영향을 주었다고 설명한다.",
+  "john-constable.achievement.2":
+    "1819년부터 1825년까지 스투어강 풍경을 담은 6피트 대형 캔버스 연작을 그렸고, 각 작품을 실물 크기 유화 스케치로 준비했다. '건초 마차'(1821)는 1824년 파리 살롱에서 샤를 10세가 수여하는 금메달을 받았다.",
+  "john-constable.achievement.3":
+    "1819년부터 햄스테드에서 약 100점의 구름 습작을 그렸고, 메조틴트 판화집 '잉글리시 랜드스케이프'(1830~1832)를 출간했으며, 1833년부터 1836년까지 풍경화에 관해 강연했다.",
+  "john-constable.moment.1":
+    "'건초 마차'를 위해 먼저 작은 유화 스케치를, 이어 실물 크기의 유화 스케치를 그린 뒤, 수년간의 야외 습작을 바탕으로 런던 작업실에서 최종 캔버스를 완성했다.",
+  "john-constable.interpretation.moment.1":
+    "이는 대형 작품을 단계적으로 계획해 쌓아 올리는 작업 방식과 부합한다.",
+  "john-constable.moment.2":
+    "1821년 10월의 편지에서 그는 6피트 캔버스 앞에 서지 않으면 일하고 있다고 여기지 않는다고 썼고, 그해 여름 하늘을 꽤 많이 그렸다고 전했다.",
+  "john-constable.interpretation.moment.2":
+    "이는 까다로운 규모의 작업에 대한 확고한 헌신과 부합하지만, 그 자신의 서술이라는 점은 유념해야 한다.",
+  "john-constable.turning_point.1":
+    "1824년 화상 존 애로스미스가 팔리지 않았던 '건초 마차'와 다른 그림 두 점을 사서 파리 살롱에 가져갔고, 샤를 10세는 컨스터블에게 금메달을 수여했다.",
+  "john-constable.interpretation.turning_point.1":
+    "이는 국내에서는 구매자를 거의 찾지 못한 화풍이 먼저 해외에서 인정받았음을 보여주는 것과 부합한다.",
+  /* ---------------------------------------------------------- joseph-marie-jacquard (Roster64) */
+  "joseph-marie-jacquard.achievement.1":
+    "1804~05년에 자카르 장치를 선보였다. 이 장치는 교환 가능한 천공 카드로 베틀의 날실을 제어하여 원하는 어떤 무늬든 자동으로 짤 수 있게 한다.",
+  "joseph-marie-jacquard.achievement.2":
+    "보캉송의 초기 천공 카드 베틀과 1801년 파리에서 특허를 받고 선보인 자신의 베틀을 토대로 작업했으며, 리옹의 직조공들이 기계를 불태우고 그를 공격했음에도 1812년에는 프랑스에서 1만 1천 대의 자카르 베틀이 쓰이고 있었다.",
+  "joseph-marie-jacquard.achievement.3":
+    "찰스 배비지는 이 천공 카드를 자신이 구상한 해석기관의 입출력 매체로 채택했고, 허먼 홀러리스는 이후 인구조사 자료에 천공 카드를 사용했다.",
+  "joseph-marie-jacquard.moment.1":
+    "1801년 파리 산업 박람회에 자동 베틀을 출품했고 같은 해 12월 23일 프랑스 특허를 받았다.",
+  "joseph-marie-jacquard.interpretation.moment.1":
+    "이는 기계를 공개 무대에서 시험하고 추가 개발에 앞서 권리를 확보하는 모습과 일치한다.",
+  "joseph-marie-jacquard.moment.2":
+    "일자리를 잃을까 두려워한 리옹의 견직공들이 기계를 불태우고 자카르를 공격했지만, 베틀은 널리 쓰이게 되어 1812년에는 프랑스에서 1만 1천 대가 가동되고 있었다.",
+  "joseph-marie-jacquard.interpretation.moment.2":
+    "이는 노골적인 적대에도 발명을 포기하지 않는 모습과 일치하지만, 그 자신의 대응에 관해서는 자료가 거의 말해 주지 않는다.",
+  "joseph-marie-jacquard.turning_point.1":
+    "파리에서 국립공예원에 소속되어 보캉송의 초기 베틀을 연구했고 1804~05년에 자신의 이름이 붙은 천공 카드 장치를 완성했다. 다만 보캉송 베틀 연구에 관한 설명은 확인되지 않았다고 '정보의 역사'는 지적한다.",
+  "joseph-marie-jacquard.interpretation.turning_point.1":
+    "이는 앞선 설계를 연구하며 기계를 단계적으로 다듬어 가는 모습과 일치한다.",
+  /* ---------------------------------------------------------- kiichiro-toyoda (Roster64) */
+  "kiichiro-toyoda.achievement.1":
+    "일본의 엔지니어로, 1933년부터 도요타 자동직기 제작소의 자동차 부문을 이끌며 1935년 A1형 승용차 시제품을 완성했고, 1937년 이를 도요타 자동차 주식회사로 분사해 1938년 고로모 공장을 준공하면서 도요타의 자동차 사업을 일으켰다.",
+  "kiichiro-toyoda.achievement.2":
+    "아버지 사키치의 연구를 토대로 팀과 함께 G형 자동직기의 핵심인 북 교환식 자동직기를 발명했으며(1925년 그의 명의로 특허 등록), 1929년 영국 플랫 브러더스가 일본·중국·미국을 제외한 지역의 특허권을 가져갔다. 역사학자 와다 가즈오는 이 대금이 도요타의 자동차 사업 자금이 되었다는 통설을 근거가 없다고 보며, 자동차 사업은 도요다 그룹의 직기 사업 수익으로 조달되었다고 설명한다.",
+  "kiichiro-toyoda.achievement.3":
+    "고로모 공장에서 필요한 것을 필요한 때에 필요한 만큼만 만드는 적시 생산(저스트 인 타임)을 제안했다. 도요타의 사사는 이를 도요타 생산 방식에서 적시 생산의 출발점으로 소개하지만, 전시 물자 배급으로 중단되어 1950년대 중반에야 온전히 구현되었다고 밝힌다.",
+  "kiichiro-toyoda.moment.1":
+    "1933년 10월 그는 쉐보레 승용차를 분해해 부품을 스케치했고, 1934년 9월 완성된 도요타의 첫 시제품 엔진은 쉐보레 엔진의 60마력에 못 미치는 48~49마력에 그쳤으나 실린더 헤드를 재설계해 65마력에 도달했다.",
+  "kiichiro-toyoda.interpretation.moment.1":
+    "이는 시제품을 만들고 시험하며 측정 가능한 기준에 맞춰 고쳐 나가며 배우는 엔지니어의 면모와 일치한다.",
+  "kiichiro-toyoda.moment.2":
+    "대공황으로 직기 사업이 타격을 입자 그는 자동차 사업 진출을 밀어붙였고, 사장 리사부로는 자동차 제조를 위험하고 가망 없는 일로 보았지만 이사회는 1933년 자동차 부문 설립을 지지했다.",
+  "kiichiro-toyoda.interpretation.moment.2":
+    "이는 그룹의 수장이 반대하는 상황에서도 새로운 산업에 그룹의 자원을 거는 것을 마다하지 않는 성향과 일치한다.",
+  "kiichiro-toyoda.turning_point.1":
+    "1950년 5월 25일 인원 감축을 포함한 재건안을 둘러싼 두 달간의 노동쟁의 도중 그는 책임을 지고 사임하겠다고 밝혔고 6월 5일 사장직에서 물러났다. 이후 헬리콥터와 새 엔진을 연구하며 1952년 7월 사장 복귀가 내정되어 있었으나 1952년 3월 27일 세상을 떠났다.",
+  "kiichiro-toyoda.interpretation.turning_point.1":
+    "이는 책임을 지고 물러나면서도 공학적 과제에 대한 연구를 계속한 창업자의 면모와 일치한다.",
+  /* ---------------------------------------------------------- michael-servetus (Roster64) */
+  "michael-servetus.achievement.1":
+    "1531년 『삼위일체의 오류에 관하여』와 1553년 『기독교의 회복』에서 정통 삼위일체 교리를 비판했으며, 브리태니커는 이 저작들이 유니테리언주의가 등장하는 데 중요한 자극이 되었다고 설명한다.",
+  "michael-servetus.achievement.2":
+    "파리에서 의학을 공부하고 이후 비엔에서 의사로 일한 그는 『기독교의 회복』에서 거의 부수적으로 폐순환의 발견을 알렸으며, 혈액이 심장 오른쪽에서 폐를 거쳐 흐른다고 설명했다.",
+  "michael-servetus.achievement.3":
+    "가톨릭과 개신교 당국 양쪽에서 이단으로 정죄받아 1553년 제네바 근처 샹펠에서 화형당했고, 이 처형은 이단에 대한 사형을 둘러싼 개신교 내부의 논쟁을 불러일으켰으며 라일리우스 소키누스에게 영향을 주었다.",
+  "michael-servetus.moment.1":
+    "1546년 그는 장 칼뱅에게 증보한 『기독교의 회복』 원고를 보내 더 급진적인 견해를 거듭 주장하는 편지를 썼고, 1553년에는 칼뱅에게 보낸 편지 서른 통을 출간된 책에 실었다.",
+  "michael-servetus.interpretation.moment.1":
+    "이는 당대 가장 영향력 있던 개혁가와의 논쟁을 피하지 않고 밀어붙이려 했다는 점과 부합하지만, 처벌할 수 있는 당국 앞에서는 그만큼 솔직하지 않았다.",
+  "michael-servetus.moment.2":
+    "1536~38년 파리에서 의학을 공부하며 해부 실습을 도왔고, 유니테리언 인명사전은 그가 혈액의 변환이 심장이 아니라 폐에서 일어난다고 결론지어 갈레노스와 다른 견해에 이르렀다고 전한다.",
+  "michael-servetus.interpretation.moment.2":
+    "이는 신학에서처럼 자신의 판단을 근거로 분야의 기존 권위에서 벗어나려는 태도와 부합한다.",
+  "michael-servetus.turning_point.1":
+    "1530년 후원자 후안 데 킨타나를 따라 볼로냐의 카를 5세 대관식에 갔다가 교황의 호화로움에 괴로워하며 후원자를 떠나 바젤과 스트라스부르에서 종교개혁 지도자들을 만났고, 1531년 삼위일체에 관한 첫 책을 펴냈다.",
+  "michael-servetus.interpretation.turning_point.1":
+    "이는 안정적인 후원자와 기존의 길에서 벗어나 자신의 신학적 견해를 추구하기로 한 결정과 부합한다.",
+  /* ---------------------------------------------------------- niels-henrik-abel (Roster64) */
+  "niels-henrik-abel.achievement.1":
+    "1824년 일반 5차 방정식을 근호로 풀 수 없다는 것을 증명했으며, 브리태니커는 이를 이 불가능성에 대한 최초의 타당한 증명이라고 설명한다.",
+  "niels-henrik-abel.achievement.2":
+    "타원적분 이론을 타원함수 이론으로 바꾸었고, 대수함수 적분의 합에 관한 아벨의 정리를 파리 논문에서 증명했으나 이 논문은 오랫동안 분실되었다가 1841년에야 인쇄되었다.",
+  "niels-henrik-abel.achievement.3":
+    "무한급수와 해석학에 엄밀성을 도입했으며 대부분의 연구를 크렐레 저널에 발표했고 26세에 세상을 떠났다. 2002년 노르웨이 정부가 제정한 아벨상은 그의 이름을 땄다.",
+  "niels-henrik-abel.moment.1":
+    "데겐이 자신이 찾았다고 믿은 5차 방정식의 해법에 대해 수치 예를 요구하자 그는 자기 논문의 오류를 스스로 발견했고, 몇 년 뒤 그런 해법이 존재하지 않는다는 증명을 발표했다.",
+  "niels-henrik-abel.interpretation.moment.1":
+    "이는 스스로의 검증이 기존 입장과 어긋날 때 입장을 고치는 모습과 일치한다.",
+  "niels-henrik-abel.moment.2":
+    "파리 논문이 사라진 것처럼 보이자 그는 그 핵심 정리를 '정리 하나'라고만 이름 붙인 두 쪽짜리 글로 다시 적었고, 자리가 없는 상태에서도 크렐레에게 새 논문을 계속 보냈다.",
+  "niels-henrik-abel.interpretation.moment.2":
+    "이는 외면받은 뒤에도 연구를 계속하는 모습과 일치한다.",
+  "niels-henrik-abel.turning_point.1":
+    "1825년 그는 5차 방정식 증명을 사비로 인쇄한 뒤 국왕에게 개인 편지를 써서 당장 외국에 나갈 수 있게 해달라고 청했고, 이 여행으로 베를린에서 크렐레를 만나 그의 새 학술지에 중요한 연구를 많이 발표하게 되었다.",
+  "niels-henrik-abel.interpretation.turning_point.1":
+    "이는 유럽 수학계로 들어가는 길을 스스로 열려고 주도적으로 움직이는 모습과 일치한다.",
+  /* ---------------------------------------------------------- nishida-kitaro (Roster64) */
+  "nishida-kitaro.achievement.1":
+    "1911년 『선의 연구』를 써서, 일본 국립국회도서관이 창조성을 갖춘 일본 최초의 철학서로 구상되었다고 설명하는 이 책에서, 주관과 객관이 나뉘기 이전의 '순수경험'을 중심으로 서양 철학과 선·동아시아 사상을 결합했다.",
+  "nishida-kitaro.achievement.2":
+    "교토제국대학 철학 교수(1914~1928)로서 '무(無)의 장소' 철학을 발전시켰고, 다나베 하지메·와쓰지 데쓰로·구키 슈조를 교토로 불러오는 데 힘썼으며 니시타니 게이지 등을 가르쳐 흔히 교토학파의 아버지로 불린다.",
+  "nishida-kitaro.achievement.3":
+    "1928년 퇴임 뒤에도 집필을 이어 『철학논문집』 일곱 권을 냈고 세상을 떠나기 두 달 전 「장소의 논리와 종교적 세계관」을 완성했으며, 1940년 문화훈장을 받았고 1947년부터 나온 전집은 베스트셀러가 되었다.",
+  "nishida-kitaro.moment.1":
+    "전쟁 마지막 해에 건강이 나빠지고 주변 도시가 폭격을 받는 중에도 연구를 이어 가, 1945년 6월 7일 세상을 떠나기 두 달 전 「장소의 논리와 종교적 세계관」을 완성했다.",
+  "nishida-kitaro.interpretation.moment.1":
+    "어려운 조건에서도 오랜 지적 과업을 이어 간 사람과 일치하는 모습이다.",
+  "nishida-kitaro.moment.2":
+    "젊은 학자 다카하시 사토미가 순수경험 개념을 비판하자 책이 나온 직후 논문으로 이를 명확히 했고, 이후 다나베 하지메와 도사카 준이 역사에 대한 소홀함을 비판하자 역사적 세계와 역사적 신체 개념을 발전시켰다.",
+  "nishida-kitaro.interpretation.moment.2":
+    "비판에 따라 자신의 입장을 고쳐 나간 사상가와 일치하는 모습이지만, 이 설명은 하나의 사전 항목에 의존한다.",
+  "nishida-kitaro.turning_point.1":
+    "1905년부터 지방 학교에서 가르치고 참선을 하며 『선의 연구』를 쓴 그는 이 책을 바탕으로 1910년 교토제국대학 자리를 얻어, 지방 교사에서 일본 학계 철학의 중심으로 옮겨 갔다.",
+  "nishida-kitaro.interpretation.turning_point.1":
+    "독창적인 저작이 새로운 제도적 발판으로 이어진 흐름과 일치하는 모습이다.",
+  /* ---------------------------------------------------------- raden-saleh (Roster64) */
+  "raden-saleh.achievement.1":
+    "1829년 왕실 장학금을 받아 네덜란드로 건너가 20여 년 동안 유럽에서 수학하고 활동했으며, 1850년 빌럼 2세로부터 '왕의 화가' 칭호를 받았고, 인도네시아에서는 근대 인도네시아 회화의 아버지로 평가받는다.",
+  "raden-saleh.achievement.2":
+    "사자와 호랑이, 사냥 장면을 그렸으며, 1850년경의 '싸우는 동물들' 연작은 그의 가장 높이 평가받는 작업으로 꼽힌다.",
+  "raden-saleh.achievement.3":
+    "1857년 자바 전쟁을 끝낸 1830년 디포네고로 왕자 체포 사건을 그린 역사화 「디포네고로 왕자의 체포」를 완성했으며, 이 작품은 현재 자카르타 대통령궁에 있다.",
+  "raden-saleh.moment.1":
+    "1829년 네덜란드에 도착한 뒤 오래지 않아 동양을 주제로 한 장면을 전문으로 삼고 자바 왕자의 옷차림을 하기 시작했으며, 이는 초기 초상화 속 유럽식 멋쟁이의 모습과 달라진 것이다.",
+  "raden-saleh.interpretation.moment.1":
+    "문화적 환경 사이를 오가며 그 차이를 의식적으로 활용한 사람과 일치하는 모습이다.",
+  "raden-saleh.moment.2":
+    "한 친구는 살레가 사자를 그릴 기회를 얻으려고 동물 조련사 앙리 마르탱의 초상화를 공짜로 그리며 자신의 의무를 소홀히 해 한동안 우정을 잃었다고 썼다.",
+  "raden-saleh.interpretation.moment.2":
+    "편지 한 통에 근거하지만, 우정을 잃을 만큼 한 소재에 몰두한 모습과 일치한다.",
+  "raden-saleh.turning_point.1":
+    "20여 년의 유럽 생활 끝에 1851~52년 자바로 돌아와 신고딕 양식의 작은 궁을 짓고 유럽 상류층을 맞았으며, 이후 자신의 풍경화 학파를 세웠다.",
+  "raden-saleh.interpretation.turning_point.1":
+    "유럽에서 익힌 훈련을 새 환경으로 가져와 그림 너머로 활동 범위를 넓힌 사람과 일치하는 모습이다.",
+  /* ---------------------------------------------------------- sei-shonagon (Roster64) */
+  "sei-shonagon.achievement.1":
+    "993년경부터 1000년까지 헤이안 궁정에서 황후 데이시를 모시며 『마쿠라노소시』를 썼고, 이 책은 독창적인 산문 문체로 일본 고전문학의 걸작으로 평가받는다.",
+  "sei-shonagon.achievement.2":
+    "『마쿠라노소시』는 생생한 회고와 '짜증나는 것' 같은 목록 항목을 섞어 놓은 책으로, 헤이안 시대 궁정 생활에 관한 가장 좋은 자료로 꼽힌다.",
+  "sei-shonagon.achievement.3":
+    "시인 집안에서 태어난 시인으로, 헤이안 중기 36가선의 한 사람으로 꼽히며 그녀의 와카 한 수가 오구라 백인일수 62번에 실려 있다.",
+  "sei-shonagon.moment.1":
+    "두견새 소리를 들으러 간 나들이 뒤 황후가 시를 지으라고 재촉하자, 그녀는 내킬 때만 시를 짓겠으며 계속 즉석에서 지으라고 하면 모시기를 그만두겠다고 말했고, 황후는 웃으며 좋을 대로 하라고 했다.",
+  "sei-shonagon.interpretation.moment.1":
+    "이는 자신의 작업을 언제 어떻게 할지 스스로 정하려는 태도와 일치한다.",
+  "sei-shonagon.moment.2":
+    "황후가 누군가의 재채기를 두고 그녀의 말이 진심이 아니라고 놀리자, 그녀는 이튿날 아침 다른 사람의 코 때문에 마음이 얕다는 소리를 듣게 되었다는 말장난 가득한 시로 답했다.",
+  "sei-shonagon.interpretation.moment.2":
+    "이는 궁정 사람들 앞에서 곧바로 응수하는 태도와 일치한다.",
+  "sei-shonagon.turning_point.1":
+    "996년 그녀는 몇 달 동안 황후의 시중에서 물러나 집에 머물렀고, 헤이본샤 백과사전은 이때 『마쿠라노소시』의 초기 형태를 쓰기 시작했을 것으로 본다. 그 뒤 그녀는 황후 곁으로 돌아갔다.",
+  "sei-shonagon.interpretation.turning_point.1":
+    "이는 떨어져 지내야 했던 시기를 독자적인 글쓰기의 출발점으로 삼은 모습과 일치한다.",
+  /* ---------------------------------------------------------- thomas-mofolo (Roster64) */
+  "thomas-mofolo.achievement.1":
+    "레소토의 소토어 작가로, 『모에티 오아 보차벨라』(1907), 『피트셍』(1910), 『차카』(1925)는 브리태니커가 남부 소토어 최초의 서구식 소설로 꼽는 작품이다.",
+  "thomas-mofolo.achievement.2":
+    "줄루 왕 샤카를 다룬 역사 소설 『차카』는 전승 기록을 꼼꼼히 연구해 쓴 작품으로 그의 명성의 토대가 되었다. 그가 일하던 선교 서점의 선교사들이 출간을 미룬 끝에 1925년에 나왔고, 1931년 영어로 번역되었다.",
+  "thomas-mofolo.achievement.3":
+    "첫 소설의 성공은 다른 젊은 교사들이 소설 쓰기에 도전하도록 이끌어 사하라 이남 아프리카 최초 수준의 문학 운동 가운데 하나를 열었다고 평가된다.",
+  "thomas-mofolo.moment.1":
+    "『차카』는 그가 모리자 서점에서 일하던 시기에 쓰였으나, 이교 관습을 비판하지 않은 점을 우려한 선교사들이 수년간 출간을 미루었고 1925년에야 나왔다.",
+  "thomas-mofolo.interpretation.moment.1":
+    "이는 선교 고용주가 기대한 도덕적 틀을 따르지 않은 작가의 면모와 일치한다.",
+  "thomas-mofolo.moment.2":
+    "한 선교사 동료는 훗날 모폴로가 줄루 왕에 관한 전승 기록을 꼼꼼히 연구한 뒤 『차카』를 썼으며 이 작품이 단순한 연대기가 아니라고 적었다.",
+  "thomas-mofolo.interpretation.moment.2":
+    "이는 역사 자료를 먼저 조사한 뒤 소설로 빚어낸, 기량을 중시한 작가의 면모와 일치한다.",
+  "thomas-mofolo.turning_point.1":
+    "마지막 책인 『차카』 이후 그는 글쓰기를 멈추었고, 1910년부터 가르치며 목공을 배운 뒤 광산 일과 노동자 모집, 제분소(1916년경), 상점(1928) 등 사업에 나섰으나 재정 손실과 건강 악화로 끝났다.",
+  "thomas-mofolo.interpretation.turning_point.1":
+    "이는 이후 직접 사업을 벌였으나 성과가 엇갈린 작가의 이력과 일치한다.",
+  /* ---------------------------------------------------------- xu-guangqi (Roster64) */
+  "xu-guangqi.achievement.1":
+    "예수회 사제 마테오 리치와 함께 1607년 유클리드 『원론』 앞 여섯 권을 중국어로 옮기고 기하 개념을 나타내는 중국어 용어를 만들어 중국 수학에 정착시킨 명나라 학자이다. 브리태니커와 맥튜터는 그를 유럽 서적을 중국어로 번역한 최초의 중국인으로 소개한다.",
+  "xu-guangqi.achievement.2":
+    "서양 방식의 일식 예측이 일부 기준에서 경쟁 방식을 앞선 뒤 1629년 중국 역법 개혁을 맡아 예수회 천문학자들을 이끌었으나 1633년 그가 세상을 떠날 때까지 개혁은 끝나지 않았다. 현대 천문학자들은 서양 방식의 예측이 식분과 지속 시간에서는 나았지만 모든 시각에서 낫지는 않았다고 평가한다.",
+  "xu-guangqi.achievement.3":
+    "농지 제도, 수리, 농기구, 작물, 양잠, 구황을 다룬 60권의 농업 백과 『농정전서』를 편찬했다. 그가 세상을 떠났을 때 책은 미완이었고 황제가 유고를 구하자 그의 원고가 바쳐졌으며, 진자룡이 고친 판본이 1639년에 간행되었다.",
+  "xu-guangqi.moment.1":
+    "유클리드 번역에서 리치가 라틴어 원문을 구두로 설명하면 서광계가 이해한 내용을 받아 적었고, 점·곡선·평행선·예각처럼 중국어에 대응어가 없던 개념은 그가 새 용어를 만들었다.",
+  "xu-guangqi.interpretation.moment.1":
+    "이는 언어의 장벽을 넘는 긴밀하고 지속적인 협업과 새 분야에 필요한 어휘를 직접 만드는 태도와 일치한다.",
+  "xu-guangqi.moment.2":
+    "황제가 일식 예측에 실패한 천문관을 처벌하려 하자 서광계는 곽수경의 방법도 한 번 실패한 적이 있으며 역법은 시간이 지나면 어긋나므로 때맞춰 고쳐야 한다고 답했고, 황제는 예수회 선교사들에게 역법을 계산하게 하고 서광계를 감독으로 삼았다.",
+  "xu-guangqi.interpretation.moment.2":
+    "이는 책임 추궁 대신 기술적 해법을 주장하고 회의적인 권위자를 설득해 이를 받아들이게 한 모습과 일치한다.",
+  "xu-guangqi.turning_point.1":
+    "1629년 6월 21일 일식을 두고 벌인 정부 주관 경쟁에서 서양 방식의 예측이 중국·이슬람 방식과 견주어 좋은 결과를 내자 서광계는 역법 개혁의 책임자로 임명되어 요하네스 테렌츠, 자코모 로, 아담 샬과 함께 작업을 이끌었다.",
+  "xu-guangqi.interpretation.turning_point.1":
+    "이는 유럽 천문학에 대한 오랜 공부가 대규모 과학 사업의 주도적 역할로 이어진 전환과 일치한다.",
+  /* ---------------------------------------------------------- yosano-akiko (Roster64) */
+  "yosano-akiko.achievement.1":
+    "1901년 첫 가집 『미다레가미(헝클어진 머리)』로 천 년 된 시 형식에 여성의 솔직한 정열을 담아내 일본 낭만주의를 대표하는 가인이 되었다.",
+  "yosano-akiko.achievement.2":
+    "『겐지 모노가타리』를 현대 일본어로 두 차례 옮겨 1912~13년에 축약판을, 1938~39년에 완역판을 내놓았고, 이 고전에 대한 전기 연구와 교주본도 썼다.",
+  "yosano-akiko.achievement.3":
+    "1921년 도쿄에서 분카가쿠인 설립에 참여해 직접 가르쳤으며, 교육과 여성 문제에 대해서도 폭넓게 글을 썼다.",
+  "yosano-akiko.moment.1":
+    "첫 가집 『미다레가미』(1901)는 한 평론가에게 '어린 소녀의 조숙한 재잘거림'이라는 혹평을 받았지만, 젊은 독자들에게 널리 읽히며 그녀에게 명성을 안겨 주었다.",
+  "yosano-akiko.interpretation.moment.1":
+    "이는 파격적인 형식으로 비판과 독자를 함께 얻은 시인의 면모와 일치한다.",
+  "yosano-akiko.moment.2":
+    "그녀는 1909년부터 14년간 『겐지 모노가타리』 주석서를 작업했으나 1923년 간토 대지진 뒤의 화재로 완성 직전에 소실되었고, 이후 1938~39년에 이 작품의 현대 일본어 완역판을 펴냈다.",
+  "yosano-akiko.interpretation.moment.2":
+    "이는 큰 손실 이후에도 하나의 고전에 대한 작업을 이어 간 오랜 헌신과 일치한다.",
+  "yosano-akiko.turning_point.1":
+    "1921년 도쿄에서 분카가쿠인 설립에 참여하며, 교육에 대한 글쓰기에서 예술을 중시하는 학교의 교사이자 문학 교과서 저자로 활동 영역을 넓혔다.",
+  "yosano-akiko.interpretation.turning_point.1":
+    "이는 시 창작에서 기관 설립과 교육으로 활동을 넓힌 작가의 면모와 일치한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

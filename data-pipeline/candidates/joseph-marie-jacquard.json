@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "joseph-marie-jacquard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Joseph Marie Jacquard",
+    "aliases": [
+      "Joseph-Marie Jacquard",
+      "Joseph Marie Charles Jacquard",
+      "Jacquard"
+    ],
+    "wikidataId": "Q310833",
+    "birthYear": 1752,
+    "deathYear": 1834,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor"
+    ],
+    "fieldIds": [
+      "technology",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jacquard_wikidata",
+      "kind": "wikidata",
+      "title": "Joseph Marie Jacquard (Q310833), verified live via the Wikidata API (2026-11-04): label 'Joseph Marie Jacquard', description 'French inventor', born 1752-07-07, died 1834-08-07, citizenship France, Korean label 조제프마리 자카르 (matches the Korean Wikipedia page title). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q310833"
+    },
+    {
+      "id": "src_jacquard_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Joseph-Marie Jacquard' (Britannica Editors), article body read in full. CANONICAL SIGNIFICANCE SOURCE: born 1752 in Lyon, died 1834 at Oullins, French inventor of the Jacquard loom, which 'served as the impetus for the technological revolution of the textile industry'; he formed the idea in 1790, demonstrated an improved drawloom in 1801 (bronze medal), and in 1804-05 introduced the attachment that makes any loom using it a Jacquard loom, using interchangeable punch cards to control the weaving so that any pattern could be obtained automatically; in 1806 the loom was declared public property and he received a pension and a royalty on each machine; Lyon silk weavers, fearing job losses, burned machines and attacked Jacquard; by 1812 there were 11,000 in use in France; gold medal and Legion of Honour in 1819; spread to England in the 1820s; Babbage adopted its punched cards as the input-output medium for his proposed Analytical Engine and Hollerith used punched cards for census data. Scholarly reference; the article also mentions his Revolution-era service, which is not scored.",
+      "url": "https://www.britannica.com/biography/Joseph-Marie-Jacquard"
+    },
+    {
+      "id": "src_jacquard_britannica_loom",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Jacquard loom' (Britannica Editors, revised by Erik Gregersen), article read in full: a device in special looms that controls individual warp yarns and lets looms weave intricate patterns such as tapestry, brocade and damask; developed in 1804-05 by Joseph-Marie Jacquard of France, soon spread, and 'improved on the punched-card technology of Jacques de Vaucanson's loom (1745)'; interchangeable punched cards controlled the weave so any desired pattern could be obtained automatically; the cards were adopted by Babbage for the Analytical Engine and by Hollerith for his census machine. Short technology article; independent entry from the biography but from the same publisher.",
+      "url": "https://www.britannica.com/technology/Jacquard-loom"
+    },
+    {
+      "id": "src_jacquard_ieee",
+      "kind": "institution",
+      "title": "J. A. N. Lee, 'Joseph-Marie Jacquard', Computer Pioneers, IEEE Computer Society History Committee (1995, updated 2013), read in full: father a silk weaver and mother a pattern maker, he worked as plasterer, cutler, type founder and soldier before turning to his father's loom; was summoned to Paris to the Conservatoire des Arts and studied Vaucanson's automatic loom (1745, itself based on Falcon's 1728 design); improved it with punched cards linked into a 'program' passing over a four-sided drum with needles lifting warp threads; Napoleon granted a pension in 1806 on condition he move to Lyon, where weavers' anger forced him to flee, but 'Jacquard persevered'; over 30,000 looms in Lyon by his death; Babbage is 'believed' to have drawn on it, and Lee notes Jacquard and Babbage used cards to store programs while Hollerith used them for data. Professional-society biography written from a computing-history viewpoint; some dates (a 1803 English fish-net commission) are not corroborated by the other sources and are not used.",
+      "url": "https://history.computer.org/pioneers/jacquard.html"
+    },
+    {
+      "id": "src_jacquard_encyclopedia",
+      "kind": "biography",
+      "title": "Catherine M. Crisera, 'Joseph Marie Jacquard', Science and Its Times (Gale), via Encyclopedia.com, read in full: little is known of his formative years; apprenticed in bookbinding, type-founding and cutlery, he inherited a small property that let him experiment with patterned weaves, was unsuccessful, lost his inheritance and returned to type-founding and cutlery work; he conceived the loom in 1790, was interrupted by the Revolution, introduced in 1801 a net-weaving loom described as an improved version of three earlier inventors' work, was sent to Paris to demonstrate it (bronze medal and a patent), studied at the Conservatoire des Arts et Metiers and perfected the pattern mechanism in 1804-05; weavers in Lyon burned machines and attacked him; 11,000 looms in France by 1812. Encyclopaedia-style secondary summary that says the early life is poorly documented.",
+      "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/joseph-marie-jacquard"
+    },
+    {
+      "id": "src_jacquard_hoi",
+      "kind": "archive",
+      "title": "Jeremy Norman, 'Joseph-Marie Jacquard's Loom Uses Punched Cards to Store Patterns', History of Information (updated October 2026), read in full: the early career is poorly documented (apprenticed as bookbinder, or straw-hat maker, by different accounts); his first patent, No. 245 of 23 December 1801, for a machine to replace the draw-boy, was exhibited at the Paris industrial exhibition that year; the Cambridge History of Western Textiles says he did not finish his loom until 1805 and that it was only operational after 1810, with further improvements (a patent granted to M. Breton in 1815 for improving the 'Jacquard' mechanism); none of the accounts the author had read had examined the patent itself; Norman calls the claim of 30,000 looms in Lyon by 1834 'unverified and probably exaggerated'; the Jacquard method of storing information by punching or not punching standard hole positions is an important conceptual step toward Babbage's Analytical Engine, although the loom did no computation. The most sceptical source read.",
+      "url": "https://historyofinformation.com/detail.php?id=441"
+    },
+    {
+      "id": "src_jacquard_nms",
+      "kind": "institution",
+      "title": "National Museums Scotland, 'The Jacquard loom: Innovation in textiles and computing' (short read on handloom T.1934.241), read in full: Jacquard first demonstrated the mechanism in 1801; thousands of laced punch cards, each row of holes corresponding to a row of the textile pattern, let the weaver produce unaided fabrics with patterns of almost unlimited size and complexity; recorded in the Scottish textile industry from the 1820s; Babbage was inspired by the Jacquard system to use punch cards to programme his Analytical Engine. Museum object text; about the mechanism and its spread, not about Jacquard's own conduct.",
+      "url": "https://www.nms.ac.uk/explore-our-collections/stories/science-and-technology/jacquard-loom/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jacquard_encyclopedia, src_jacquard_ieee, src_jacquard_britannica | 1790-1812 | encyclopaedia, professional society, encyclopaedia] Encyclopedia.com says his early experiments with patterned weaves failed and cost him his inheritance, that he went back to type-founding and cutlery, and that he still conceived the loom in 1790 and returned to it after the Revolution; Britannica and Encyclopedia.com record that Lyon weavers burned machines and attacked him, yet the loom was in general use (11,000 in France by 1812); the IEEE biography says he 'persevered'. The early-life narrative is thin and the sources admit little is known of those years, and the one explicit statement of perseverance is a single sentence. SELF-CALIBRATION (agent): top-risk row; lowered from 62 / 0.45 to 58 / 0.42 because the trait claim rests on one encyclopaedia's account of the early failures and one sentence in the IEEE biography, while two other sources call those years poorly documented."
+    },
+    "experimentation": {
+      "score": 55,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jacquard_encyclopedia, src_jacquard_hoi, src_jacquard_britannica_loom, src_jacquard_ieee | 1790-1805 | encyclopaedia, history-of-information archive, technology article, professional society] A dated sequence of building and testing is documented: experiments with patterned weaves (Encyclopedia.com), the 1801 loom exhibited in Paris and patented on 23 December 1801 (History of Information), study of Vaucanson's loom of 1745 at the Conservatoire (Encyclopedia.com, IEEE; History of Information flags this report as unchecked), and the 1804-05 punched-card mechanism that improved on Vaucanson's (Britannica). The Cambridge History cited by History of Information says the loom was not finished until 1805 and not operational until after 1810, with improvements by others, so this row shows iterative development, not a single finished invention."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조제프마리 자카르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/joseph-marie-jacquard-carquillat-1870s.jpg",
+    "width": 879,
+    "height": 1200,
+    "source": "Woven silk portrait 'A la memoire de J.M. Jacquard', woven by Francois Carquillat for Didier Petit et Cie after a print by Jean Claude Bonnefond (whose painted portrait was made for the city of Lyon in 1831), mounted in a nineteenth-century photograph album and catalogued by the Rijksmuseum, Amsterdam, as object RP-F-2013-22-61, dated c. 1870-c. 1880; the museum titles it 'Woven portrait of the weaver and merchant J.M. Jacquard'. A posthumous woven copy, not a portrait from life. Digital master 3420 x 4106 pixels; this copy is cropped to the woven picture and downscaled to 879 x 1200 (never enlarged).",
+    "license": "Public Domain Mark 1.0 (Rijksmuseum item-level statement; the woven portrait and its sources are also public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Francois Carquillat for Didier Petit et Cie, after Jean Claude Bonnefond, c. 1870-1880, Rijksmuseum, Amsterdam (RP-F-2013-22-61), public domain",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-F-2013-22-61",
+    "creator": "Francois Carquillat (weaver) for Didier Petit et Cie, after Jean Claude Bonnefond",
+    "date": "c. 1870-1880",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-F-2013-22-61"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / REPLACEMENT USED. The lead's initial lead was the 1839 woven portrait at the Library of Congress (2002737214, 'no known restrictions'); loc.gov is walled and its generic wording is no basis, and the Lyon archives alternative was not needed. I instead used a Rijksmuseum copy of the same woven portrait type, which has a stated item-level public-domain statement. HOLDER RECORD CHECKED: data.rijksmuseum.nl search by object number RP-F-2013-22-61 returned https://id.rijksmuseum.nl/200607251; its linked-art JSON gives object number RP-F-2013-22-61, the title 'Geweven portret van wever en handelaar J.M. Jacquard', medium woven cloth, dated c. 1870 - c. 1880, production statements 'after print by Jean Claude Bonnefond', weaver Francois Carquillat (mentioned on the object) and weaving firm Didier Petit et Cie (mentioned on the object), credit 'Purchased with the support of a private collector', part of the 'Photograph album of Robert Daniel Crommelin (1841-1907)', and a digital image statement of the Public Domain Mark (https://creativecommons.org/publicdomain/mark/1.0/) with an IIIF service iiif.micr.io/pCNMb (3420 x 4106). NO CONTRADICTION found. CAVEATS: (1) the museum lists the album item under a photograph number and the record gives a measure 'photo: height 280 mm x width 228 mm', so I treat the object as a woven silk portrait mounted in an album, recorded by the museum as woven cloth; the image shows woven fabric with the weaving inscription 'Carquillat tex.' and 'Didier Petit' and the title 'A la memoire de J.M. Jacquard'; (2) the date c. 1870-1880 is the museum's date for this copy, the design is the Bonnefond composition of 1839 (the Library of Congress woven example is dated 1839); (3) the sitter is positively identified by the woven caption and the museum title; (4) it is a depiction after a painting, so kind is historical depiction, not likeness. IMAGE: I cropped the museum's IIIF master to the woven picture (region 740,610,1999,2730) and downscaled it to 879 x 1200, saved as public/portraits/joseph-marie-jacquard-carquillat-1870s.jpg; I viewed it. No upscaling. PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q310833 label 'Joseph Marie Jacquard', description 'French inventor', born 1752-07-07, died 1834-08-07, Korean label and Korean Wikipedia title 조제프마리 자카르; not in prod64.txt and no candidate file existed. REGION western_europe (France); ERA 19th_century (his looms date from 1801-1805; precedent John Dalton and Thomas Telford). ZERO POLITICS: primary identity inventor; his Revolution-era service and Napoleon's pension are context and are not scored or carded; Lyon weaver hostility is reported as a reaction to the machine. VOCABULARY: occupation inventor, fields technology and engineering, tag innovator, archetype technical_innovator (used elsewhere; labels to be confirmed by the validator). KO NAME: 조제프마리 자카르, Wikidata Korean label and Korean Wikipedia title. ATTRIBUTION: confirmed but THIN. Several early-life facts differ across sources (plasterer, cutler, bookbinder or straw-hat maker; Encyclopedia.com's 1801 net loom versus IEEE's 1803 English fish-net loom), and History of Information says no account it had read examined his patents. Only behaviour on which at least two sources agree is used (a long development 1790-1805 with a Paris patent in 1801; hostility from Lyon weavers; wide adoption by 1812). The 1803 English commission, the move to Lyon at Napoleon's condition, the claim that he fled for his life and the 30,000 Lyon looms are not scored. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Joseph-Marie Jacquard' (https://www.britannica.com/biography/Joseph-Marie-Jacquard). READ: (1) Britannica biography full; (2) Britannica 'Jacquard loom' full; (3) IEEE Computer Society Computer Pioneers entry full; (4) Encyclopedia.com Science and Its Times entry full; (5) History of Information entry full; (6) National Museums Scotland short read full. Six sources plus Wikidata; no source describes his working style in detail, which is why only two rows are scored at confidence 0.42. PERSPECTIVES: encyclopaedia, professional computing-history society, museum, history-of-information archive that questions the usual story. COUNTER-VOICES: History of Information (loom operational only after 1810, patent not examined, later improvements by others, 30,000 figure exaggerated); IEEE and Encyclopedia.com disagree with each other on 1801 versus 1803; weavers' hostility. NOT OPENED: Cambridge History of Western Textiles, Posselt 1887, de Prat 1921, Janet Delve's article, the Science Museum Group (404), the Computer History Museum page (404), the Lyon museum pages, Wikipedia (not a source). EXCLUDED: military service and Revolution, family, finances, and any inference about motives. FIRST-PASS REVIEW: primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (62/0.45 lowered to 58/0.42, see row), experimentation (55/0.42 kept: the sequence of dated builds is confirmed by four sources and the row already says it shows iterative development). HANDBACK64: {\"slug\": \"joseph-marie-jacquard\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: loc.gov wall; Lyon archives page not opened\", \"holder_record_checked_by_you\": \"Rijksmuseum linked-art record id.rijksmuseum.nl/200607251 (object RP-F-2013-22-61, woven portrait after Bonnefond, c. 1870-1880, Public Domain Mark on the image, IIIF iiif.micr.io/pCNMb 3420x4106); the lead's LoC item and Lyon archives page were not opened (LoC walled)\", \"holder_contradiction_found\": false, \"initial_lead\": \"Claude Bonnefond 1839 print after the Bonnefond portrait (LoC 2002737214)\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam / woven silk portrait by Francois Carquillat for Didier Petit et Cie after Jean Claude Bonnefond, c. 1870-1880, RP-F-2013-22-61, https://id.rijksmuseum.nl/200607251 (IIIF master iiif.micr.io/pCNMb cropped and downscaled to 879x1200)\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 2, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 62, \"old_confidence\": 0.45, \"new_score\": 58, \"new_confidence\": 0.42, \"reason\": \"Trait claim rests on one encyclopaedia's early-failure narrative and one sentence ('persevered') in the IEEE biography, while two sources call those years poorly documented\"}], \"reviewed_kept\": [\"experimentation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 2}"
+  }
+}
