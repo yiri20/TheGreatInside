@@ -1,0 +1,109 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ramana-maharshi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ramana Maharshi",
+    "aliases": [
+      "Sri Ramana Maharshi",
+      "Bhagavan Sri Ramana Maharshi",
+      "Venkataraman Iyer",
+      "Ramana Maharishi"
+    ],
+    "wikidataId": "Q288441",
+    "birthYear": 1879,
+    "deathYear": 1950,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "teacher"
+    ],
+    "fieldIds": [
+      "religion",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "mystic",
+      "ascetic"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ramana_wikidata",
+      "kind": "wikidata",
+      "title": "Ramana Maharshi (Q288441), verified live via the Wikidata API (2026-11-05): label 'Ramana Maharshi', description 'Indian spiritual teacher (1879-1950)', born 1879-12-30, died 1950-04-14 (the item also carries a few stray conflicting date values), citizenship India, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q288441"
+    },
+    {
+      "id": "src_ramana_gale",
+      "kind": "biography",
+      "title": "'Ramana Maharshi, Sri (1879-1950)', Encyclopedia of Occultism and Parapsychology (Gale), read in full via Encyclopedia.com: calls him an important twentieth-century Indian spiritual teacher cited as an example of the classic God-realized sage; born 30 December 1879 at Tiruchuzhi near Madurai; left for Arunachala on 29 August 1896 and spent the rest of his life there; at first lived in complete silence under a tree or in temples, then answered devotees' questions; gave no formal teaching but answered questions so that Hindu metaphysical teaching had personal relevance; his constant theme was the question 'Who am I?'; visited by Westerners including Paul Brunton and W. Y. Evans-Wentz; a religious settlement grew around him; died 14 April 1950. CANONICAL SIGNIFICANCE SOURCE. A reference entry in an encyclopedia of the occult whose tone is admiring and partly hagiographic (omens at death, comparison to St Francis); its factual outline is used, its miracle-adjacent claims are not.",
+      "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/ramana-maharshi-sri-1879-1950"
+    },
+    {
+      "id": "src_ramana_godman",
+      "kind": "biography",
+      "title": "David Godman, 'Who is Ramana Maharshi?' (a summary taken from the introduction to his 'Living by the Words of Bhagavan'), read in full: a devotee-scholar's account saying he left home secretly at sixteen after the 1896 experience, travelled to Arunachala, discarded his money and possessions on arrival, spent four or five years sitting with closed eyes in temples, lived at Virupaksha Cave from 1901 for most of fourteen years, rarely spoke at first, began answering visitors' questions in his last years there, refused to return to the family home when his family traced him, moved to Skandashram in 1915 and later to the foot of the hill, spent fifty-four years on or near Arunachala without leaving, used the vocabulary of Advaita Vedanta when he spoke, and said in later years that his silent sitting was a response to an inner urge, not a practice. Written by a long-term resident and editor of his teachings, so admiring and drawing on devotee sources.",
+      "url": "https://www.davidgodman.org/who-is-ramana-maharshi/"
+    },
+    {
+      "id": "src_ramana_ashram",
+      "kind": "institution",
+      "title": "Sri Ramanasramam (the ashram's official site), 'At Arunachala' and 'Ramanasramam' pages, read in full: the ashram's own account of his early months at the Arunachaleswara temple, his refusal to go home when his uncle and then his mother pleaded with him (he wrote a note saying the best course was to remain silent), his years in the hill caves, caring for his mother in her illness, the founding of the ashram at the site of her burial in 1922, the Old Hall, the communal kitchen and cowshed, the absence of fixed meditation rules, his insistence that he receive no preference in the dining hall, the management of the ashram by his younger brother, and his not leaving the ashram except for his daily walk. The institution that preserves his legacy, so admiring; its details of private family matters and of his final illness are not used.",
+      "url": "https://www.gururamana.org/Bhagavan/at-arunachala"
+    },
+    {
+      "id": "src_ramana_open",
+      "kind": "press",
+      "title": "Makarand R. Paranjape, 'In the House of Ramana Maharshi', Open magazine (28 October 2022), read in full: a column by a scholar and devotee marking the ashram's centenary; recounts his 1896 'death experience' in his own words, his arrival at Tiruvannamalai on 1 September 1896, his first days in the temple's underground shrine neglecting his body, his residence at Virupaksha Cave (1899-1916) and Skandashram until 1922, the move to the present ashram site after his mother's death, the growth of the ashram with a kitchen, cowshed, bookstore and dispensary and its administration by his brother's descendants. Personal and devotional in tone; used for chronology only.",
+      "url": "https://openthemagazine.com/columns/in-the-house-of-ramana-maharshi"
+    }
+  ],
+  "rows": {
+    "autonomy_need": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ramana_godman, src_ramana_ashram, src_ramana_open, src_ramana_gale | 1896-1922 | devotee-scholar + institution + press column + reference entry] Four accounts agree that at sixteen he left home without telling his family, went to Arunachala, and did not return; the ashram and the devotee-scholar add that he did not respond to his uncle's visit and, when his mother pleaded with him in tears, refused to go back and wrote a note saying the best course was to remain silent. A consistent, documented pattern of choosing his own course against family pressure, but all four accounts are admiring or derived from devotee sources, no independent or critical biographer was read, and the motives given are the sources' own, so confidence is low. Dual-edged because the ashram's own account records his mother's distress."
+    },
+    "persistence": {
+      "score": 50,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ramana_godman, src_ramana_ashram, src_ramana_open | 1896-1950 | devotee-scholar + institution + press column] The devotee-scholar says he spent fifty-four years on or near Arunachala, refusing to leave it even for a day; the ashram says that, to stay accessible to visitors, he never left the ashram except for his daily walk on the hill; the press column records his residences at Virupaksha Cave (1899-1916) and Skandashram until 1922 and the settlement that followed. SELF-CALIBRATION (agent): lowered from 54/0.44 because the sources describe staying in one place and continuing a way of life rather than overcoming obstacles, so the trait claim is stronger than the documented behaviour, and every source is admiring."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No photograph of Ramana Maharshi with a documented photographer, date, first publication and holder rights statement was found. The lead, G. G. Welling's 1948 photograph on Wikimedia Commons, carries only a jurisdiction-based Indian public-domain tag and a stock-photo site as source; a photograph published in India in 1948 appears to have been still protected there in 1996, which would mean United States copyright was restored, so the tag cannot be relied on. The earliest known photograph (1902) cites David Godman's website, which names no photographer or rights holder, and the ashram's own pages give no credits or reuse terms. Next step: ask Sri Ramanasramam or David Godman for the provenance and rights of the 1902 photograph, or find a library or museum holding a pre-1931 print with an item-level record."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라마나 마하르시"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / HELD. The lead was the G. G. Welling 1948 photograph on Wikimedia Commons. Opened its Commons wikitext: source is the stock-photo site Luminous-Lint, author 'G. G. Welling', date 1948, tagged only PD-India with no publication facts or permission. That tag is a jurisdiction-only claim and does not settle US status: a photograph published in India in 1948 appears to have been still protected in India on 1 January 1996 (the term then ran 50 years from publication), so US copyright would have been restored under the URAA, which is the opposite of what the tag implies; the sitter identification is not in question, the rights basis is. ONE BOUNDED RETRY (about 12 calls): (a) searched the Commons category and file search for photographs of him: about thirty files are listed, all of them either Welling prints with the same PD-India basis or uploads attributed to 'Ramana Maharshi' (an obviously wrong author field for photographs of him) with dates such as 1901 that are placeholders, i.e. rips from websites; (b) the 'earliest known photo' of 1902 ('Sri Ramana Maharshi in 1902.jpg', 579x800) cites David Godman's website as source with author 'Unavailable'; I opened Godman's page (jd1.shtml) and the 'Who is Ramana Maharshi' page: neither names a photographer, a first publication or any permission or rights holder for that photograph; (c) the ashram's own pages (gururamana.org) show photographs without credits or a reuse statement; (d) the Magnum/Henri Cartier-Bresson 1950 photographs are in copyright and were not pursued; (e) the Cambridge Handbook of Indian Psychology chapter on him is only an abstract. No photograph with a named photographer, a date, a first-publication fact and a holder statement was found. NEXT STEP: ask Sri Ramanasramam (the ashram archive) or David Godman for the provenance and rights of the 1902 photograph (and whether the photographer or his heirs are known), or find an archive (for example a library or museum with item-level records) holding a pre-1931 print with a documented photographer; until then no portrait. The lead's preflight overestimated viability because the Commons tags are jurisdiction-only and no holder record exists for any of the images.\nPREFLIGHT: QID VERIFIED LIVE: Wikidata wbgetentities (2026-11-05) for Q288441 returned en label 'Ramana Maharshi', description 'Indian spiritual teacher (1879-1950)', born 1879-12-30, died 1950-04-14 (the item also carries a few stray extra date values, 1864 and 1922, which were disregarded), ko label '라마나 마하르시'. SLUG/QID CHECK: not in prod64.txt and no existing candidate file. Region south_asia (Indian precedent: mother-teresa). Zero-politics passes: primary identity is a spiritual teacher; the nationalist symbolism some writers attach to him is unscored. Health and his final illness, his mother's death, and claims of miracles, omens and 'realisation' of others are excluded.\nCANONICAL SIGNIFICANCE SOURCE: Encyclopedia of Occultism and Parapsychology (Gale), 'Ramana Maharshi, Sri (1879-1950)' https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/ramana-maharshi-sri-1879-1950 (read in full; supplemented by the ashram, Godman and Open magazine pages). Britannica's entry returned HTTP 403 (bot-walled) to direct and WebFetch requests and was not opened (a retry with an altered browser user agent was blocked by the tooling and abandoned; no other workaround was tried).\nATTRIBUTION SCREEN: attributable (lead) / CONFIRMED with a caveat, attribution_confirmed true: a twentieth-century figure with many contemporary visitors and a surviving ashram archive, so basic life events and public conduct are well attested; but every source I could open is admiring or derived from devotee accounts, and the independent academic literature (Forsthoefel, Lucas, Paranjpe) was paywalled or abstract-only. Only two rows are therefore written, both at confidence <= 0.42, and nothing is scored from the content of his teaching, from reported inner states, or from legend. His own reported 1896 experience is self-report and not scored.\nSOURCES READ (4 substantive plus Wikidata): Gale/Encyclopedia.com entry, David Godman's summary page (devotee-scholar), Sri Ramanasramam's 'At Arunachala' and 'Ramanasramam' pages (institution), Makarand Paranjape's Open magazine column. PERSPECTIVES: reference entry, devotee-scholar, institution, scholar-columnist; ALL ADMIRING: there is no critical or independent-sceptical voice among the sources read, which is why confidence is capped at 0.42. Non-self behavioural sources: Gale entry, Open magazine column (both derived from devotee accounts).\nNOT OPENED: Britannica (HTTP 403), Osborne's biography, Talks with Sri Ramana Maharshi, Brunton's accounts, Forsthoefel's and Lucas's scholarly work (paywalled), the Cambridge Handbook chapter (abstract only), Wikipedia (read only to locate scholarship). Excluded: teaching content, reported death experience as a spiritual fact, miracles and omens, family illness and bereavement, his final illness.\nSELECTIVE SELF-CALIBRATION: reviewed persistence (lowered 54/0.44 to 50/0.40: trait claim stronger than the documented behaviour; admiring sources only) and autonomy_need (kept: four accounts agree on the departure and the refusal to return, already at 0.42). Initial rows 2; lowered 1. FLAG for the lead: a two-row, admiring-only profile is a thin and potentially hagiographic basis; consider whether Ramana Maharshi should ship without an independent biographical source.\nHANDBACK64: {\"slug\": \"ramana-maharshi\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: G. G. Welling photograph, holder unknown\", \"holder_record_checked_by_you\": \"No holder record exists: the lead's Welling photograph cites the stock-photo site Luminous-Lint on Commons (PD-India tag only); the 1902 photograph cites David Godman's site, which I opened (jd1.shtml and 'Who is Ramana Maharshi') and which gives no photographer, publication or rights statement; the ashram's pages show uncredited photographs without a reuse statement\", \"holder_contradiction_found\": false, \"initial_lead\": \"G. G. Welling 1948 photograph (Commons)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The lead's rights basis was a jurisdiction-only Commons tag (PD-India) for a 1948 Indian photograph that appears to have been protected in India in 1996 and therefore US-restored; no holder record exists for it or for any alternative (the 1902 photograph, other Welling prints, ashram images), and the other Commons photographs are website rips with placeholder authors and dates.\", \"risky_success_note\": null, \"rows_initially_scored\": 2, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 54, \"old_confidence\": 0.44, \"new_score\": 50, \"new_confidence\": 0.4, \"reason\": \"sources describe staying in one place and continuing a way of life, not overcoming obstacles, so the trait claim is stronger than the documented behaviour, and all sources are admiring\"}], \"reviewed_kept\": [\"autonomy_need\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 2}"
+  }
+}

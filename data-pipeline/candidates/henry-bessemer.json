@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henry-bessemer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henry Bessemer",
+    "aliases": [
+      "Sir Henry Bessemer"
+    ],
+    "wikidataId": "Q310201",
+    "birthYear": 1813,
+    "deathYear": 1898,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "engineer"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "prolific",
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bessemer_wikidata",
+      "kind": "wikidata",
+      "title": "Henry Bessemer (Q310201), verified live via the Wikidata API (2026-11-04): English label 'Henry Bessemer', description 'British engineer (1813-1898)', Korean label 헨리 베서머, born 19 January 1813, died 15 March 1898, citizenship United Kingdom. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q310201"
+    },
+    {
+      "id": "src_bessemer_iom3",
+      "kind": "institution",
+      "title": "Institute of Materials, Minerals and Mining (IOM3), 'Steel heroes' guide (1 February 2019), entry on Sir Henry Bessemer 1813-1898, read in full. CANONICAL SIGNIFICANCE SOURCE: his main contribution was the Bessemer process, the discovery after about ten years of experiments that blowing a blast of air through molten pig iron converts it to steel, which increased steel production 200-fold and cut its price by a factor of 12; royalties from the steelmaking patents exceeded 1 million pounds; he was President of the Iron and Steel Institute 1871-3, instituted the Bessemer Gold Medal in 1873, was knighted and elected FRS in 1879; the specifications of his 120 inventions fill 9 volumes. The same page profiles Mushet (spiegeleisen, 1848 experiments; Bessemer Gold Medal 1876) and Thomas and Gilchrist (basic lining to reduce phosphorus) as the people who fixed the process. Institutional guide by the professional body of the industry; celebratory in tone but it names Bessemer's co-contributors.",
+      "url": "https://www.iom3.org/resource/steel-heroes.html"
+    },
+    {
+      "id": "src_bessemer_sciencemuseum",
+      "kind": "institution",
+      "title": "Sue Mossman, Science Museum Group blog, 'Onward Ever - Sir Henry Bessemer 19.1.1813 - 15.3.1898' (19 January 2013), read in full: his motto summed up one who faced and overcame obstacles; early fortune from a mechanised bronze-powder process kept secret by employing his three brothers-in-law; he presented the steel method to the British Association on 24 August 1856 ('The Manufacture of Iron without fuel') and later said he should have waited until the process was reliable; early poor-quality steel because of phosphorus in the ore, later resolved by Sidney Gilchrist Thomas; Robert Mushet's carbon-control improvements, which Bessemer rejected as claims while agreeing to pay Mushet 300 pounds a year, 'perhaps to avoid troublesome litigation'; difficulty winning acceptance in Britain from the War Office and Admiralty; in 1878 he wrote to The Times and the whole cabinet about his 1833 stamp invention; knighted 1879. Museum curator's blog; sympathetic but it records his setbacks and the Mushet payment.",
+      "url": "https://blog.sciencemuseum.org.uk/onward-ever-sir-henry-bessemer-frs-19-1-1813-15-3-1898/"
+    },
+    {
+      "id": "src_bessemer_tce",
+      "kind": "press",
+      "title": "Claudia Flavell-While, 'Henry Bessemer - Man of Steel', The Chemical Engineer (1 November 2010), read in full: Bessemer had at least 117 patents spanning iron, steel, sugar, glass and ordnance; his steel work began with the Crimean War artillery problem; an observation that pig iron left in the air blast turned to steel led him to blow air through molten iron even though his foundry workers said the air would cool it; the process was patented in 1855 but ironmasters initially failed to get good steel; Mushet's spiegeleisen addition was the easier fix (first licensed 1865 to Dowlais); he set up Henry Bessemer and Company in Sheffield in 1859; William Kelly had made a similar discovery in the USA; phosphorus was solved by Gilchrist Thomas in 1879; the price of steel fell from 50-60 to 6-7 pounds a tonne. Trade-magazine feature by an IChemE editor; admiring but it records the failures and the other contributors.",
+      "url": "https://www.thechemicalengineer.com/features/cewctw-henry-bessemer-man-of-steel/"
+    },
+    {
+      "id": "src_bessemer_obits",
+      "kind": "archive",
+      "title": "Grace's Guide to British Industrial History, 'Henry Bessemer' page, which reproduces two 1898 obituaries (Institution of Mechanical Engineers and a trade-press obituary) and editorial notes on his autobiography and telescope, read in full for the relevant passages: born 19 January 1813 at Charlton; inventions from a stamp against forgery (1832, knighthood only 46 years later in 1879) and bronze powder (secret kept for forty years) to type-casting, plate-glass rolling, continuous brakes and a repeating gun; the steel process was the result of more than ten years of labour and 'many disheartening failures'; royalties well over a million pounds; his patents were never overturned and he admitted the value of Mushet's spiegeleisen process while the Mushet patents had lapsed in 1859; in later life he made reflecting telescopes. Contemporary obituaries, written by his own professional community, so admiring.",
+      "url": "https://www.gracesguide.co.uk/Henry_Bessemer"
+    },
+    {
+      "id": "src_bessemer_dnb_mushet",
+      "kind": "biography",
+      "title": "Dictionary of National Biography (1909) entry on Robert Forester Mushet, reproduced on the Today in Science History site, read in full: the independent counter-voice. Mushet found that adding spiegeleisen to air-blown metal made cast steel and patented it in 1856; his patents lapsed in 1859 through an unpaid stamp duty; the text records that the degree of validity of Mushet's claim is hard to determine because 'the reticence of both parties'; that Bessemer paid Mushet an annuity of 300 pounds for some years but 'invariably refused to pay him royalty', challenged him to bring an action for infringement, and Mushet declined; Mushet himself wrote that Bessemer would probably have made the discovery sooner or later; the Iron and Steel Institute gave Mushet its Bessemer Medal in 1876 with the founder's approval. Published in 1909 for the Dictionary of National Biography; independent of Bessemer, though it quotes both men and a trade writer who argued Bessemer had virtually solved the manganese problem already.",
+      "url": "https://todayinsci.com/M/Mushet_Robert/MushetRobert-Bio(1909).htm"
+    },
+    {
+      "id": "src_bessemer_autobiography",
+      "kind": "archive",
+      "title": "Henry Bessemer, 'Sir Henry Bessemer, F.R.S.: An Autobiography' (London: Offices of Engineering, 1905), Internet Archive scan, read in the passages on his entry into metallurgy, the first licences to Dowlais and others, the failure of the licensees and his repurchase of the licences, the Sheffield works, the Mushet dispute and the 300 pounds annual payment. SELF-REPORT: his own account, written near the end of his life and defensive on priority and on Mushet; used only where corroborated or labelled as his own account. Not read in full (about 1,000,000 characters); chapters on the saloon steamship, telescope and later inventions were not read.",
+      "url": "https://archive.org/details/sirhenrybessemer00bess"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bessemer_obits, src_bessemer_tce, src_bessemer_sciencemuseum, src_bessemer_autobiography | 1853-1861 | contemporary obituary, trade feature, museum blog, self-report] The 1898 obituary says the converting process was the result of labours and experiments over more than ten years and was reached 'only after many disheartening failures'; The Chemical Engineer says ironmasters initially failed to get good steel from it and that his fix of stopping the blast before all the carbon had gone took a lot of trial and error; the Science Museum describes him as one who faced and overcame obstacles. By his own account (self-report), when the first licensees could not make the process work he bought the licences back and set up his own works to prove it commercially. The year-on-year continuation is corroborated by independent writers; the details of the repurchase rest on his autobiography."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bessemer_tce, src_bessemer_sciencemuseum, src_bessemer_autobiography | 1850s | trade feature, museum blog, self-report] The Chemical Engineer (quoting the autobiography) says his foundry workers told him the air blast would cool the iron, and he reconfigured the furnace to blow air through the molten metal anyway; the Science Museum says he approached an area outside his expertise with an open mind and was not hidebound by received practice; in the autobiography he says his knowledge of iron metallurgy was limited and that he had 'nothing to unlearn'. The museum's reading is retrospective admiration and the two specific episodes are his own account, so confidence is low. SELF-CALIBRATION (agent): top-risk row; lowered from 70 / 0.52 to 66 / 0.48 because the specific episodes come from his autobiography and the rest is retrospective museum praise."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bessemer_iom3, src_bessemer_tce, src_bessemer_obits, src_bessemer_dnb_mushet | 1830s-1856 | institutional guide, trade feature, obituaries, biography] IOM3 and the obituaries credit him with the air-blown conversion of molten pig iron to steel and about 120 patented inventions; The Chemical Engineer notes that the American William Kelly had made a very similar discovery around the same time, and the DNB entry and The Chemical Engineer show that a working process needed Mushet's manganese addition and later Thomas and Gilchrist's basic lining. The originality is real but shared and contested, so the score is moderate. SELF-CALIBRATION (agent): top-risk row; lowered from 74 / 0.62 to 70 / 0.58 because the central invention was paralleled by Kelly and made workable by Mushet and later Gilchrist and Thomas, so the sources support strong originality but not sole originality."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bessemer_tce, src_bessemer_obits, src_bessemer_iom3, src_bessemer_sciencemuseum | 1830s-1880s | trade feature, obituaries, institutional guide, museum blog] The Chemical Engineer lists patents spanning iron, steel, sugar, glass and ordnance and a gimbal-mounted ship cabin; the obituary adds a stamp for deeds, bronze powder, plumbago pencil leads, type-casting, plate-glass rolling, a centrifugal pump, briquettes, continuous brakes and a repeating gun; IOM3 adds a sugarcane crusher, steamboat design and large telescopes. The range is documented by several writers; most of it is mechanical and process engineering, and some items (the telescope, the saloon ship) did not succeed, so the score is moderate."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bessemer_tce, src_bessemer_obits, src_bessemer_iom3, src_bessemer_autobiography | 1853-1861 | trade feature, obituaries, institutional guide, self-report] IOM3 and the obituary describe about ten years of experiments leading to the air-blown process; The Chemical Engineer describes him noticing pig iron that stayed solid in the air blast, testing blowing air through the molten metal, and redesigning the vessel after the first violent eruption; the obituary notes his 1861 paper exhibiting steel specimens, a steel gun ingot and test pieces. The detailed bench account (the eruption quote) is from his autobiography, so it is labelled as his own account; the general picture of repeated trials is corroborated by the obituary and IOM3."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bessemer_iom3, src_bessemer_obits, src_bessemer_tce, src_bessemer_autobiography, src_bessemer_sciencemuseum | 1838-1870s | institutional guide, obituaries, trade feature, self-report, museum blog] A secret mechanised bronze-powder business (kept secret for forty years, with relatives running it) made an early fortune per the Science Museum and the obituary; the steel royalties exceeded 1 million pounds per IOM3 and the obituary; The Chemical Engineer says he decided to commercialise steelmaking himself by founding Henry Bessemer and Company in Sheffield in 1859. In his own account he sold whole-term licences to one ironmaster per district to force the invention into use, then took back the licences when they failed. The commercial pattern is documented by independent writers; the licensing logic is his own account."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bessemer_dnb_mushet, src_bessemer_sciencemuseum, src_bessemer_autobiography | 1860-1891 | independent biography, museum blog, self-report] The DNB entry on Mushet says Bessemer 'invariably refused to pay him royalty', challenged him to bring an action for infringement, and that Mushet declined; it also records the annuity of 300 pounds. The Science Museum says Bessemer rejected Mushet's claims yet agreed to pay him 300 pounds a year, 'perhaps to avoid troublesome litigation', and that he was never one to let a perceived injustice go without a fight (in 1878 he wrote to The Times and the whole cabinet about his stamp invention). The autobiography gives his motive for the payment as quieting press attacks (self-report). He met disputes head-on and also bought peace, and he is described as reluctant to share credit, so the impact is dual-edged and the confidence is low."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "헨리 베서머"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henry-bessemer-lock-whitfield-1876.jpg",
+    "width": 971,
+    "height": 1200,
+    "source": "Photographic portrait of Sir Henry Bessemer by the London studio Lock & Whitfield (named on the print), reproduced by the Woodbury photomechanical process as a plate in the portrait volume 'Men of Mark' (text by Thompson Cooper), page 29, held by the Rijksmuseum, Amsterdam (object number RP-F-2001-7-235E-29, 'Portret van Henry Bessemer'), dated by the museum c. 1876 - in or before 1881. The printed caption under the plate and the facing biography name the sitter. The file is the portrait oval cropped from the museum's double-page scan (7162 x 4570 pixels; crop 1440 x 1780) and downscaled to 971 x 1200 with no upscaling.",
+    "license": "Public Domain Mark 1.0 and CC0 as stated in the Rijksmuseum's own item record; the photograph was made and published in London in the 1870s (public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Lock & Whitfield (photographer), 'Sir Henry Bessemer', Woodbury print in 'Men of Mark', c. 1876 - in or before 1881. Rijksmuseum, Amsterdam, RP-F-2001-7-235E-29 (Public Domain). Cropped and downscaled.",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/object/RP-F-2001-7-235E-29--c8a098bb9f719d9b23f3e2b7a8708001",
+    "creator": "Lock & Whitfield",
+    "date": "c. 1876 - in or before 1881",
+    "kind": "likeness",
+    "sourcePageUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.623476"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED: the lead's image was used. The Rijksmuseum linked-art record for RP-F-2001-7-235E-29 (opened live) carries the Public Domain Mark and a CC0 right; it is a Woodbury photomechanical print of a Lock & Whitfield photograph, page 29 of the album 'Men of mark' (Thompson Cooper), dated c. 1876 - in or before 1881, so the rights basis is the holder's own statement plus age (a London studio photograph of the 1870s). The scan is a double-page spread (7162 x 4570); I cropped the portrait oval (1440 x 1780) and downscaled to 971 x 1200; the printed caption and the facing biography name the sitter. The 'kind' question in the lead is answered as likeness: the plate is a photomechanical reproduction of a photograph taken of the sitter in his lifetime, not a drawing or later depiction. I did not need the alternatives (Vanity Fair print, Wellcome mezzotint). PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q310201 label 'Henry Bessemer', description 'British engineer (1813-1898)', ko label 헨리 베서머, born 19 January 1813, died 15 March 1898, citizenship UK; not in prod64.txt; no candidate file existed for henry-bessemer. REGION western_europe (British precedents: 36 nineteenth-century British candidates use western_europe). ERA 19th_century (career 1830s-1880s; precedents Brunel, Stephenson). ZERO POLITICS: primary identity engineer and inventor; the Crimean War artillery problem that started his steel work is context, the war-time projectile and repeating gun are not scored or carded; honours and the 1878 letters about his stamp invention are not scored as politics. VOCABULARY: occupations inventor and engineer, fields engineering and technology, tags prolific, innovator and founder, archetype technical_innovator, impact domains engineering, technological, industrial, innovation, all existing and labelled in en.ts and ko.ts. KO NAME: Wikidata Korean label 헨리 베서머 (short form, source Wikidata). ATTRIBUTION: attributable (extensive contemporary documentation, patents, obituaries, his own autobiography). CANONICAL SIGNIFICANCE SOURCE: IOM3 'Steel heroes' guide (https://www.iom3.org/resource/steel-heroes.html). READ (substantive): IOM3 Steel heroes (institution); Science Museum Group blog (institution); The Chemical Engineer feature (press); Grace's Guide page with the 1898 obituaries (archive); Dictionary of National Biography 1909 entry on Mushet (biography, independent counter-voice); Bessemer's 1905 autobiography (self-report, passages only). 6 substantive sources plus Wikidata for the QID. PERSPECTIVES: (1) admiring institutional and obituary voices (IOM3, Science Museum, obituaries); (2) a trade-press feature that records the failures and rival contributors (Kelly, Mushet, Thomas and Gilchrist); (3) the DNB entry on Mushet as an independent critical voice on priority and on Bessemer's refusal of royalty; (4) self-report (autobiography), never the sole support for a row. NON-SELF BEHAVIOURAL SOURCES: the obituaries, The Chemical Engineer and the DNB Mushet entry document actual behaviour (experiments, refusal of royalty, company founding). CONTRADICTIONS NOTED: IOM3 and the Science Museum date the process 1856 (the paper to the British Association, 24 August 1856); The Chemical Engineer says it was patented in 1855, and the obituary says only the bare title of the 1856 paper survives in the Association's report; I therefore say 'announced in 1856'. The Science Museum says Bessemer rejected Mushet's claims while paying 300 pounds a year; the DNB says he 'invariably refused to pay him royalty' and paid an annuity for some years; his autobiography says he paid from about 1867 until Mushet's death in 1891 and gives a different motive (quieting press attacks); the cards state the facts and attribute the motive to the sources. The 1859 Sheffield founding date comes from The Chemical Engineer; other accounts say 1858 (not read), and the obituary places a paper on his Sheffield apparatus in 1861. NOT OPENED: Britannica, the Oxford DNB entry on Bessemer (paywalled), C. Bodsworth's 1998 biography, the Wikipedia articles (not used), ERIH biography (Cloudflare-walled), the Engineer obituary beyond Grace's extract, the autobiography chapters on the Saloon steamship, the telescope and later life. EXCLUSIONS: the telescope observatory, the stabilised Saloon steamship, nickel-steel anticipation claims and the repeating gun are not scored; the 1832 stamp story and its 46-year delay is used only as context in a conflict_tolerance rationale and not carded; private and family life excluded (the autobiography's family finances are not used). SELF-CALIBRATION (agent): top-risk rows reviewed: independent_thinking (70/0.52 lowered to 66/0.48: the specific episodes are his own account and the rest is retrospective praise), creative_originality (74/0.62 lowered to 70/0.58: Kelly's parallel discovery and Mushet's and Thomas and Gilchrist's essential contributions), conflict_tolerance (kept at 60/0.50, already low and independently corroborated by the DNB entry). Broad flag for the lead: none; seven rows, scores 60-72, confidence 0.48-0.62. HANDBACK64: {\"slug\": \"henry-bessemer\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Rijksmuseum linked-art record opened live (Public Domain Mark + CC0)\", \"holder_record_checked_by_you\": \"Opened the Rijksmuseum linked-art JSON for RP-F-2001-7-235E-29 (id.rijksmuseum.nl/200648936, handle RM0001.COLLECT.623476) and the parent album record (id.rijksmuseum.nl/200648883, 'Men of mark', text by Thompson Cooper): the image service carries the Public Domain Mark and the record carries a CC0 right; the object is a Woodbury photomechanical print, photographer 'Lock & Whitfield (mentioned on object)', dated c. 1876 - in or before 1881, a page of the album.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Rijksmuseum portrait of Sir Henry Bessemer (RP-F-2001-7-235E-29, ca. 1876)\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam, RP-F-2001-7-235E-29, Lock & Whitfield Woodbury print in 'Men of Mark', c. 1876 - in or before 1881 (https://hdl.handle.net/10934/RM0001.COLLECT.623476); portrait oval cropped from the 7162x4570 double-page scan and downscaled to 971x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 70, \"old_confidence\": 0.52, \"new_score\": 66, \"new_confidence\": 0.48, \"reason\": \"The two specific episodes come from his own autobiography and the rest is retrospective museum praise\"}, {\"attribute\": \"creative_originality\", \"old_score\": 74, \"old_confidence\": 0.62, \"new_score\": 70, \"new_confidence\": 0.58, \"reason\": \"The central invention was paralleled by Kelly and made workable by Mushet and later Thomas and Gilchrist, so sources support strong but not sole originality\"}], \"reviewed_kept\": [\"conflict_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  }
+}

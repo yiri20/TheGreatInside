@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "eugene-delacroix",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Eugène Delacroix",
+    "aliases": [
+      "Eugene Delacroix"
+    ],
+    "wikidataId": "Q33477",
+    "birthYear": 1798,
+    "deathYear": 1863,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_delacroix_wikidata",
+      "kind": "wikidata",
+      "title": "Eugène Delacroix (Q33477), verified live via the Wikidata API (2026-11-04): English label 'Eugène Delacroix', description 'French painter (1798-1863)', born 1798-04-26, died 1863-08-13, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q33477"
+    },
+    {
+      "id": "src_delacroix_met_photo",
+      "kind": "institution",
+      "title": "The Metropolitan Museum of Art, New York, object 2024.591.45 'Portrait of Delacroix', albumen print by Pierre Petit, about 1862 (Gift from the Karen B. Cohen Collection of Eugène Delacroix, 2024), record read through the museum's Open Access API (public domain flag true, no reproduction restriction). Used only for the portrait; not used as support for any row.",
+      "url": "https://www.metmuseum.org/art/collection/search/752402"
+    },
+    {
+      "id": "src_delacroix_musee",
+      "kind": "institution",
+      "title": "Musée national Eugène-Delacroix, Paris, 'Eugène Delacroix - Biography', read in full: dated account of his training under Guérin from 1815, the 1822 Salon debut with Dante and Virgil in Hell, the 1824 Massacre at Scio, the 1827 Death of Sardanapalus, the 1831 Liberty Leading the People, the 1832 Moroccan mission (more than 72 later Moroccan paintings), the mural commissions at the Palais Bourbon, the Luxembourg library, the Louvre Galerie d'Apollon and the Saint-Sulpice chapel (1849-1861), the 1855 special exhibition, and election to the Académie des Beaux-Arts in January 1857 on his seventh attempt. CANONICAL SIGNIFICANCE SOURCE (together with the National Gallery artist page). Museum devoted to him, so favourable.",
+      "url": "https://musee-delacroix.fr/en/museum-studio/eugene-delacroix/biography"
+    },
+    {
+      "id": "src_delacroix_natgallery",
+      "kind": "institution",
+      "title": "The National Gallery, London, artist page 'Eugène Delacroix', read in full: calls him the leading exponent of Romanticism in French painting; trained under Guérin, first exhibited at the Salon in 1822, visited England in 1825, travelled to Spain, Morocco and Algiers in 1832, received a long series of official decorative commissions from 1833, last exhibited at the Salon in 1859. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.nationalgallery.org.uk/artists/eugene-delacroix"
+    },
+    {
+      "id": "src_delacroix_thyssen",
+      "kind": "institution",
+      "title": "Museo Nacional Thyssen-Bornemisza, Madrid, biography page 'Eugène Delacroix', read in full: grew up in a cultured family, copied Raphael, Titian, Veronese and Rubens at the Louvre, encountered English collections, Byron, Scott, Shakespeare and Goethe's Faust in 1825, made sketches and notes in Morocco and Spain that fed later compositions, turned to decorative schemes in his mature phase, and was kept away from Paris by chronic laryngitis.",
+      "url": "https://www.museothyssen.org/en/node/14492"
+    },
+    {
+      "id": "src_delacroix_baudelaire",
+      "kind": "biography",
+      "title": "Charles Baudelaire, 'L'Oeuvre et la vie d'Eugène Delacroix' (1863, in French), read in full on Wikisource (1885 edition text): a contemporary and admirer's account of his daily regime (a careful palette, hesitation before starting, then working until physically exhausted), evening drawing and copying, his reading of Shakespeare, Dante, Byron and Ariosto, his output (about 236 easel works and 77 major Salon subjects, citing Silvestre), his mural commissions, and the hostility of critics and slow sales. Written days after his death by a friend; admiring, and the main early source for his work habits.",
+      "url": "https://fr.wikisource.org/wiki/L%E2%80%99%C5%92uvre_et_la_vie_d%E2%80%99Eug%C3%A8ne_Delacroix"
+    },
+    {
+      "id": "src_delacroix_csm",
+      "kind": "press",
+      "title": "'A Romantic of Endless Industry', The Christian Science Monitor, 22 July 1991, read in full: exhibition feature describing him as a man of endless industry who copied in the Louvre as a student, kept a journal from the age of 24, drew horses and big cats from Paris menageries and stables as well as from his Moroccan sketchbooks, noted small visual details such as a stirrup's shadow on a horse's flank, and held state mural commissions from the Palais Bourbon onward; says critics were unkind and that he entered the Academy only after seven rejected applications (it gives 1859 for the election, whereas the museum's biography gives January 1857, so the museum's date is used).",
+      "url": "https://www.csmonitor.com/1991/0722/22161.html"
+    },
+    {
+      "id": "src_delacroix_19thc",
+      "kind": "press",
+      "title": "Review of 'Delacroix and the Rise of Modern Art' (National Gallery, London, 2016) and its catalogue, 19th-Century Art Worldwide, spring 2016, read in full: a scholarly review stating that contemporaries almost universally named him leader of French Romanticism, that colour was his defining strength, that he worked in glazes and interwoven strokes, copied old masters, reworked earlier compositions (Women of Algiers 1847-49 from 1834), and was versatile across large pictures, murals, lithographs and watercolours, and that later artists from Manet to Cezanne drew on him through copying, collecting and his posthumously published journals.",
+      "url": "https://19thc-artworldwide.org/spring16/whitmore-reviews-delacroix-and-the-rise-of-modern-art"
+    },
+    {
+      "id": "src_delacroix_studiointl",
+      "kind": "press",
+      "title": "'Eugene Delacroix and the Rise of Modern Art' exhibition review, Studio International, London, read in full: a critical review that describes him as equally criticised and revered in his own time, quotes his statement that he had been a Romantic since 15 because of his dislike of academic recipes, notes that he resisted leadership of any school, and doubts that his direct influence on Gauguin, Cezanne, Kandinsky or Matisse is as large as the exhibition claimed. COUNTER-VOICE on influence claims.",
+      "url": "https://www.studiointernational.com/eugene-delacroix-and-the-rise-of-modern-art-review-national-gallery-london"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_delacroix_musee, src_delacroix_csm, src_delacroix_baudelaire | 1840s-1857 | museum + press + contemporary] The museum's biography says he was elected to the Academie des Beaux-Arts in January 1857 on his seventh attempt and the Monitor feature also records seven rejected applications; Baudelaire adds that he kept working through years of hostile criticism and poor sales. Repeated candidacy and sustained output despite opposition are documented across three sources; the Monitor's different election date is not used."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_delacroix_thyssen, src_delacroix_csm, src_delacroix_baudelaire, src_delacroix_studiointl | 1815-1863 | museum + press + friend] He copied Raphael, Titian, Veronese and Rubens at the Louvre as a student (Thyssen, Monitor), Baudelaire describes evenings of copying and drawing and a carefully prepared palette, and the Studio International reviewer says he kept striving for excellence until his death. A pattern of deliberate study of the masters and daily practice, though the 'striving' judgement is a reviewer's summary and the daily regime comes from one admiring friend."
+    },
+    "deep_focus": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_delacroix_baudelaire, src_delacroix_csm | later career | friend + press] Baudelaire says that once he had started, he stopped only when overcome by physical fatigue, and that in later years work replaced pleasure; the Monitor calls him a man of endless industry. Both rest on the same kind of general characterisation, and Baudelaire is a close admirer. SELF-CALIBRATION (agent): lowered from 70 / 0.52 because the claim rests on one admiring friend's general description and a press summary, with no dated instance of a specific absorbed work session."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_delacroix_musee, src_delacroix_natgallery, src_delacroix_19thc, src_delacroix_studiointl, src_delacroix_csm | 1822-1850s | museum + scholar + critical review] The museum records that his style broke with academic conventions and that critics were shocked by the colour, movement and violence of Sardanapalus (1827); the scholarly review says he worked in glazes and interwoven strokes and reworked earlier compositions into new versions (Women of Algiers 1847-49); he is quoted as disliking academic recipes and as having no love for reasonable painting. Documented departures from the classical manner across several works, supported by sources that differ about how far his influence travelled. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.62 to 74 / 0.56 because three museums and an encyclopedia credit him retrospectively and the critical review disputes parts of the influence claims."
+    },
+    "aesthetic_sensitivity": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_delacroix_19thc, src_delacroix_csm, src_delacroix_baudelaire | 1820s-1860 | scholar + press + friend] The scholarly review says colour was his defining strength and guided viewers to a painting's emotional content; the Monitor says his journal records small visual details such as a stirrup's shadow on a horse's flank; Baudelaire describes a palette composed with minute care. Attention to colour and visual detail is documented, but the strongest statements are reviewers' judgements of the outcome. SELF-CALIBRATION (agent): lowered from 80 / 0.62 because the high score leaned on retrospective praise of the paintings rather than on documented behaviour, and the behavioural evidence (journal detail, palette care) is brief."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_delacroix_19thc, src_delacroix_musee, src_delacroix_baudelaire, src_delacroix_csm | 1820s-1860 | scholar + museum + friend] He worked across large easel pictures, mural cycles in four Paris settings, lithographs and watercolours (scholarly review, museum), wrote essays on Poussin, Prud'hon and Charlet for periodicals (Baudelaire), and kept a journal from the age of 24 (Monitor). The range is real but mostly within painting and its neighbouring graphic and written forms, hence a moderate score; Baudelaire says he found the pen hard."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_delacroix_thyssen, src_delacroix_baudelaire, src_delacroix_musee, src_delacroix_19thc | 1815-1860 | museum + friend + scholar] In 1825 he went to England and met its collections and the work of Byron, Scott, Shakespeare and Goethe's Faust (Thyssen); Baudelaire lists his reading of Shakespeare, Dante, Byron and Ariosto; in 1832 he joined the mission to Morocco, producing sketches and notes that fed later work and observed a Sufi ritual in Tangier (museum, scholarly review). Documented travel and reading beyond his training, but no source describes the motive, so a moderate score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "외젠 들라크루아"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / The lead's initial image, the Louvre self-portrait (RF 25, about 1837), was NOT used: the live Louvre collections record (https://collections.louvre.fr/en/ark:/53355/cl010059698, titled 'Portrait de l'artiste', 2nd quarter of the 19th century, owner State) names no licence, and the Louvre terms of use (https://collections.louvre.fr/en/page/cgu, Art. 4.1.1.2) allow images of works not protected by copyright only for private non-collective use or listed museographic, scientific and educational purposes with credit, with other uses 'granted against payment' by Rmn-GP; the Commons file is a 2024 visitor photograph tagged public domain, which the holder's terms do not endorse. A better route was found: the Metropolitan Museum of Art holds a Delacroix portrait photograph by Pierre Petit (1832-1909), albumen print, about 1862, object 2024.591.45 (Gift from the Karen B. Cohen Collection of Eugene Delacroix, 2024); the Met Open Access API (v1 objects/752402) returns isPublicDomain true, an empty rights-and-reproduction field, a named photographer, date, dimensions and the primary image (the Met object page itself returned HTTP 429 to automated requests, so the page text could not be read; recorded). Photographer died 1909: public domain by age everywhere. The museum titles it 'Portrait of Delacroix' and the collection is dedicated to the sitter, so identity is positively stated by the holder. The Nadar photograph of 1858 (Commons, Gallica reference) was a second, unused alternative.\nIDENTITY: Wikidata Q33477 verified live 2026-11-04 (label 'Eugene Delacroix', 'French painter (1798-1863)', 1798-04-26 to 1863-08-13). No file data-pipeline/candidates/eugene-delacroix.json existed; Q33477 and the slug are absent from the production list (prod64.txt). Region western_europe (France; career base Paris). Korean display name '외젠 들라크루아' taken from the Wikidata Korean label.\nATTRIBUTION: confirmed (attributable): dated museum records, a contemporary friend's account and modern scholarship document his work, travel and commissions; his own Journal exists but was not opened (self-report anyway).\nZERO POLITICS: 'Liberty Leading the People' is named only as a painting; its political subject, his official commissions under successive governments and the 1832 diplomatic mission (he was a painter attached to it) are context, not scored.\nCANONICAL SIGNIFICANCE SOURCE: The National Gallery, London, artist page 'Eugene Delacroix' (https://www.nationalgallery.org.uk/artists/eugene-delacroix), with the Musee national Eugene-Delacroix biography (https://musee-delacroix.fr/en/museum-studio/eugene-delacroix/biography).\nSOURCES READ (8 substantive plus the portrait record; Wikidata orientation only): Musee Delacroix biography, National Gallery artist page, Thyssen-Bornemisza biography, Baudelaire's 1863 essay (French Wikisource text), Christian Science Monitor 1991 feature, 19th-Century Art Worldwide review of the 2016 National Gallery exhibition/catalogue, Studio International review of the same exhibition. PERSPECTIVES: three museums, a contemporary friend-critic, a newspaper feature, a scholarly review, a critical exhibition review. COUNTER-VOICES/CAUTIONS: Studio International (influence on later modernists exaggerated, he resisted leading a school), Baudelaire (critics hostile, painters never fully understood him), the Monitor (critics unkind; the seven rejections). Weakness: the behavioural picture (daily regime, absorption) rests heavily on Baudelaire, an admiring friend, and on press summaries; his Journal and letters were not opened; the Metropolitan Museum essay and Britannica were walled (HTTP 429 / 403). No score exceeds 78 and no confidence exceeds 0.62.\nNOT OPENED: Delacroix's Journal and letters, Baudelaire's other writings, the Metropolitan Museum Heilbrunn essay (HTTP 429), Britannica (HTTP 403), Larousse, the Guardian and Time Out exhibition reviews (search snippets only: they mention Anita Brookner's view that his direct influence on contemporaries was negligible; not scored), Wikipedia (orientation only). EXCLUDED: family, illness (laryngitis noted only as context, never as a trait), his housekeeper, love affairs, politics of his commissions, the Ingres rivalry (only one weak source seen), claims of influence on named later artists beyond the cited review, and any first/only claim.\nSELECTIVE SELF-CALIBRATION: reviewed deep_focus (lowered 70/0.52 to 64/0.45: one admiring friend's generalisation), aesthetic_sensitivity (lowered 80/0.62 to 74/0.56: retrospective praise of outcome), creative_originality (kept: several sources incl. a critical one, documented departures and quotations). Initial rows 7; lowered 2.\nHANDBACK64: {\"slug\": \"eugene-delacroix\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Louvre record not opened\", \"holder_record_checked_by_you\": \"Louvre collections record https://collections.louvre.fr/en/ark:/53355/cl010059698 (RF 25, 'Portrait de l'artiste', owner State, no licence or open-access statement) and its terms of use https://collections.louvre.fr/en/page/cgu (Art. 4.1.1.2: images of works not protected by copyright usable free only for private non-collective use or listed museographic/scientific/educational purposes with credit; other uses 'granted against payment' by Rmn-GP). Final image: Metropolitan Museum of Art object 2024.591.45 read through the Met Open Access API (isPublicDomain true, rightsAndReproduction empty); the Met object page returned HTTP 429, so its page text was not read\", \"holder_contradiction_found\": true, \"initial_lead\": \"Delacroix self-portrait c.1837 (Louvre)\", \"final_portrait_source\": \"Metropolitan Museum of Art, New York, 2024.591.45, 'Portrait of Delacroix', albumen print by Pierre Petit (1832-1909), about 1862, public domain (Open Access), https://www.metmuseum.org/art/collection/search/752402\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"deep_focus\", \"old_score\": 70, \"old_confidence\": 0.52, \"new_score\": 64, \"new_confidence\": 0.45, \"reason\": \"rests on one admiring friend's general description and a press summary; no dated instance of a specific absorbed work session\"}, {\"attribute\": \"aesthetic_sensitivity\", \"old_score\": 80, \"old_confidence\": 0.62, \"new_score\": 74, \"new_confidence\": 0.56, \"reason\": \"high score leaned on retrospective praise of the paintings; behavioural evidence (journal detail, palette care) is brief\"}], \"reviewed_kept\": [\"creative_originality\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}\n RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.62 to 74 / 0.56 because three museums and an encyclopedia credit him retrospectively and the critical review disputes parts of the influence claims."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/eugene-delacroix-petit-1862.jpg",
+    "width": 950,
+    "height": 1200,
+    "source": "Albumen print 'Portrait of Delacroix' by Pierre Petit (1832-1909), about 1862, Metropolitan Museum of Art, New York, object 2024.591.45 (Gift from the Karen B. Cohen Collection of Eugene Delacroix, 2024); the museum's Open Access record marks it public domain. The sitter is named by the museum. The museum scan (3054 x 4000 pixels) shows the photograph on its card mount; this project cropped to the photograph (1764 x 2228 pixels) and reduced it to 950 x 1200 pixels, never enlarging it",
+    "license": "Public Domain (Metropolitan Museum Open Access; photograph by Pierre Petit, who died in 1909)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Pierre Petit, Portrait of Delacroix, about 1862, albumen print, The Metropolitan Museum of Art, New York (2024.591.45), public domain",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/752402",
+    "creator": "Pierre Petit (1832-1909)",
+    "date": "c. 1862",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/752402"
+  }
+}

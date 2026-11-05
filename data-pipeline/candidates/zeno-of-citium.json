@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "zeno-of-citium",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Zeno of Citium",
+    "aliases": [
+      "Zeno the Stoic",
+      "Zenon of Citium",
+      "Zeno Citieus"
+    ],
+    "wikidataId": "Q171303",
+    "birthYear": -334,
+    "deathYear": -263,
+    "isLiving": false,
+    "era": "ancient",
+    "nationalityCodes": [
+      "CY"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher"
+    ],
+    "fieldIds": [
+      "philosophy"
+    ],
+    "impactDomains": [
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "philosopher"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_zeno_wikidata",
+      "kind": "wikidata",
+      "title": "Zeno of Citium (Q171303), verified live via the Wikidata API (2026-11-04): label 'Zeno of Citium', description 'Greek philosopher, founder of Stoicism', born 334 BCE and died 263 BCE per the item (the ancient biographer gives 333-261 BCE), Korean label 키티온의 제논. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q171303"
+    },
+    {
+      "id": "src_zeno_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Stoicism' (sections 1.1 The School and its History, 1.2 Systematicity and 1.3 Sources read in full, about 1,800 words). CANONICAL SIGNIFICANCE SOURCE: the Stoic school was founded around 300 BCE by Zeno of Citium, a voracious reader of Socratic dialogues who also studied under the Cynic Crates and was influenced by Plato's Academy and the Megarian school; Stoic philosophy was conceived from Zeno onwards as physics, logic and ethics; he was succeeded by Cleanthes and then Chrysippus. COUNTER-VOICE ON THE EVIDENCE: no complete work by Zeno, Cleanthes or Chrysippus survives, so knowledge of the Old Stoa depends on later doxographers, including Diogenes Laertius, and on largely hostile critics.",
+      "url": "https://plato.stanford.edu/entries/stoicism/"
+    },
+    {
+      "id": "src_zeno_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Stoicism' (Historical Background and the Greek Stoicism section read in full, about 1,300 words). Says the school was founded in Athens by Zeno of Citium around 300 BCE and took its name from the Stoa Poikile; that he began under the Cynic Crates and also counted Polemo of the Academy and Stilpo of the Megarian school among his teachers; that his philosophy was Socratic in inspiration and a compromise between Polemo and Stilpo on external goods; and that he established the three-part study of ethics, physics and logic. Notes that his successors disagreed about how to read his teaching.",
+      "url": "https://iep.utm.edu/stoicism/"
+    },
+    {
+      "id": "src_zeno_dl",
+      "kind": "biography",
+      "title": "Diogenes Laertius, Lives of Eminent Philosophers, Book VII chapter 1 'Zeno' (R. D. Hicks translation, Perseus Digital Library; the whole chapter was read, about 12,000 words of the Zeno life, including the list of works, the reported letters with King Antigonus and the quoted Athenian honorary decree). A compilation written centuries after Zeno from earlier lives and anecdotes, which offers conflicting versions of several episodes (for example the shipwreck story) and quotes hostile verses by the satirist Timon alongside admiring accounts; used with caution for documented-style facts only (teachers, works, teaching place, honours, the Antigonus episode), never for the anecdotes of wit and rebuke.",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0258:book=7:chapter=1"
+    },
+    {
+      "id": "src_zeno_eb1911",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, eleventh edition (1911), 'Stoics' (opening survey section read via Wikisource, about 900 words). Older account that calls Zeno the founder, notes the school's origin among Hellenized easterners and the Cyprus-Phoenician background of the founder, and says the loss of the early Stoics' works and the late, often unintelligent witnesses make it difficult to distinguish the contribution of Zeno from that of Cleanthes and Chrysippus. Read as a contrast and as a second statement of the source problem.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Stoics"
+    },
+    {
+      "id": "src_zeno_rijks",
+      "kind": "archive",
+      "title": "Rijksmuseum, Amsterdam, object RP-P-2007-357, 'Portret van Zeno van Citium', engraving by Rene Boyvin, 1566, from the series 'Illustrium philosophorum et poetarum effigies' published by P. de Roville in Paris (read through the museum's linked-art record, which gives the Public Domain Mark and a CC0 data statement). Used for the portrait only, not for any trait row.",
+      "url": "https://hdl.handle.net/10934/RM0001.COLLECT.450232"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_zeno_iep, src_zeno_sep, src_zeno_dl | c.312-c.262 BCE | scholarly encyclopedias + ancient compilation] Both encyclopedias describe a philosophy that was not copied from one teacher: Zeno studied under the Cynic Crates, Stilpo of Megara and Polemo of the Academy, and the Internet Encyclopedia says he elaborated a Socratic-inspired position that was a compromise between Polemo and Stilpo on external goods and divided philosophy into ethics, physics and logic; the Stanford entry says the three-part conception dates from Zeno onwards. Diogenes Laertius adds that his early Republic, written while he was under Crates, was mocked by some as written on the dog's tail. No complete work survives (Stanford), so this is a scholar's reconstruction from later reports, and later Stoics disagreed about what Zeno actually taught; evidence type is inference and confidence is low."
+    },
+    "mastery_orientation": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_zeno_dl, src_zeno_iep, src_zeno_sep | c.312-c.300 BCE | ancient compilation + scholarly encyclopedias] Diogenes Laertius, citing earlier writers, says he attended the lectures of Stilpo and Xenocrates for ten years and also heard Polemo, and that after Crates he was taught by these masters for some twenty years; the Stanford entry calls him a voracious reader of Socratic dialogues and the Internet Encyclopedia names Crates, Polemo and Stilpo among his teachers. The durations come from a late compilation citing earlier writers and the versions of his path to philosophy conflict, so the sustained, multi-school apprenticeship is supported but its details are not secure; score and confidence are modest."
+    },
+    "cross_domain_range": {
+      "score": 55,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_zeno_dl, src_zeno_sep, src_zeno_iep | c.300-c.262 BCE | ancient compilation + scholarly encyclopedias] Diogenes Laertius lists works on ethics (Of Life according to Nature, Of Impulse, Of Emotions, Of Duty), on law and Greek education, on vision, signs and the whole world, a Handbook of Rhetoric, refutations and Homeric Problems; the Stanford and Internet Encyclopedia entries credit him with the tripartite scheme of physics, logic and ethics. Only titles and later reports survive, no complete text exists, and the later systematizing is credited mainly to Chrysippus, so the breadth of his own writing is known from a list rather than from the works; confidence is low."
+    },
+    "autonomy_need": {
+      "score": 50,
+      "confidence": 0.32,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_zeno_dl | c.262 BCE | ancient compilation] Diogenes Laertius, citing Apollonius of Tyre, reports that King Antigonus invited him to his court, that Zeno declined on grounds of age and sent two pupils, Persaeus and Philonides, instead, and that he kept his teaching in the open colonnade. The letters are reported through a late compiler and their authenticity was not checked in any source I read; this is one anecdotal strand from one ancient source and is not scored as political behaviour, so the score is middling and confidence is low. Impact is neutral because the sources do not say what, if anything, the choice cost or gained him."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "키티온의 제논"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / SUCCEEDED with the lead image but with an identification caveat: Rijksmuseum RP-P-2007-357, engraving by Rene Boyvin, 1566, the museum's linked-art record (hdl.handle.net/10934/RM0001.COLLECT.450232 resolving to id.rijksmuseum.nl/200488924, opened with Accept: application/ld+json) gives the title 'Portret van Zeno van Citium', maker Rene Boyvin (named on the object), the series of twelve philosophers and poets published by P. de Roville in 1566, a Public Domain Mark on the image and a CC0 statement on the data; no restriction found; holder record and lead agree. IDENTIFICATION CAVEAT FOR THE LEAD: the print's own caption reads 'ZENO FLORVIT OLYMP. 100' above a Latin couplet about 'Zeno' whose mind had immense acuity, and the 100th Olympiad (about 380 BCE) does not match Zeno of Citium (the ancient biographer places him far later), so the plate's caption is a sixteenth-century chronological error or refers to another Zeno; the museum catalogues the plate as Zeno of Citium and the print is in any case an imagined portrait of an ancient figure (kind historical_depiction), but the caption inconsistency is recorded rather than hidden and the lead may prefer to hold the image. The alternative route (Paolo Monti 1969 photograph of a Naples bust, Commons CC BY-SA 4.0, Biblioteca Europea di Informazione e Cultura) was looked at and not used: the photographer's own note says only 'Zenone', the bust identification rests on a Commons category, and a photograph of a 3D sculpture is a derivative work. PREFLIGHT: QID VERIFIED LIVE (2026-11-04) Q171303 label 'Zeno of Citium', description 'Greek philosopher, founder of Stoicism', born 334 BCE, died 263 BCE (the ancient biographer gives 333-261 BCE; the item values are used), Korean label 키티온의 제논; no production (prod64.txt) or candidate slug/QID collision. REGION southern_europe (born at Citium in Cyprus, worked in Athens; Plato is southern_europe, ancient Greece, so the career base follows that precedent); nationality code CY for the birthplace. ERA ancient. KOREAN NAME 키티온의 제논 is the Wikidata Korean label (the standard Korean form distinguishing him from Zeno of Elea). ZERO POLITICS: the Antigonus episode and the Athenian honours are not scored as political behaviour and nothing political is scored. VOCABULARY: occupation philosopher, field philosophy, tags founder and philosopher, archetype scholarly_specialist, impact domains historical, educational (all present with EN and KO labels, following the Plato precedent). ATTRIBUTION SCREEN: lead value limited_but_usable; ATTRIBUTION CONFIRMED (true) with low confidence: a historical individual with a securely attested role as school founder and teacher in Athens, a list of works and a few reported episodes, but no surviving text by him and no contemporary eyewitness account of his conduct; rows are therefore 4 only, all inference, confidence at or below 0.45. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Stoicism' (https://plato.stanford.edu/entries/stoicism/), sections 1.1-1.3 read in full; the entry states he founded the school around 300 BCE and conceived philosophy as physics, logic and ethics. READ (substantively): Stanford Encyclopedia sections 1.1-1.3; Internet Encyclopedia of Philosophy historical background; the complete Zeno chapter of Diogenes Laertius (Hicks translation); the opening survey of the 1911 Britannica 'Stoics' article; the Rijksmuseum record for the portrait. That is 4 trait-relevant sources, fewer than the usual 6 because the record is sparse by nature and the cap-driven target was not padded; a stronger profile would need the fragments in the standard collections. PERSPECTIVES: two modern scholarly encyclopedias, an ancient biographical compilation (late, anecdotal, itself quoting hostile verse), and an older encyclopedia. COUNTER-VOICES: Stanford and the 1911 article on the loss of the early texts and the unintelligent or hostile later witnesses; Diogenes Laertius on Timon's satire and conflicting versions of the shipwreck story. NOT OPENED: von Arnim's Stoicorum Veterum Fragmenta, Long and Sedley's Hellenistic Philosophers, Cicero's De Finibus book 3 and Plutarch (an attempt to load Cicero returned the wrong work), Sextus, the Britannica current entry (not tried after repeated 403 walls this cycle on other pages), Inwood's and Sedley's studies, the Athenian honorary decree's epigraphic status. SELF-REPORT SEPARATION: no text by Zeno survives, so there is no self-report; the letters to and from Antigonus are reported by a late compiler and treated as an anecdote. EXCLUSIONS (hard rule): physical appearance, diet, the Chremonides story and every other personal or sexual anecdote, the pot-of-lentils story, witticisms and rebukes, the oracle and shipwreck conversion story (conflicting versions), and doctrine itself (virtue, indifferents, cosmos) are not scored. Honours (gold crown, public tomb, city keys) are context, not trait evidence. SELF-CALIBRATION (agent): top-risk rows reviewed: autonomy_need (50/0.32; single anecdote from one late source, already scored middling with the lowest confidence in the profile, kept), independent_thinking (58/0.45; the highest score and confidence, but the confidence is already capped at inference level and rests on two encyclopedias plus the compilation, kept), cross_domain_range (55/0.38, kept: a list of titles only, already low). No row lowered. HANDBACK64: {\"slug\": \"zeno-of-citium\", \"attribution_screen_result\": \"limited_but_usable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Rijksmuseum linked-art record RM0001.COLLECT.450232 opened (PDM + CC0)\", \"holder_record_checked_by_you\": \"Rijksmuseum linked-art record opened (hdl.handle.net/10934/RM0001.COLLECT.450232 -> id.rijksmuseum.nl/200488924): RP-P-2007-357 'Portret van Zeno van Citium', Rene Boyvin (named on object), 1566, series Illustrium philosophorum et poetarum effigies (de Roville, Paris), image carries Public Domain Mark, data CC0; image served from IIIF iiif.micr.io/IQKQr (2680x3974)\", \"holder_contradiction_found\": false, \"initial_lead\": \"Rijksmuseum print of Zeno from the 'Illustrium philosophorum et poetarum' series (1566)\", \"final_portrait_source\": \"Rijksmuseum, Rene Boyvin, 'Portret van Zeno van Citium', 1566, RP-P-2007-357, IIIF image 2680x3974 cropped to the plate and downscaled to 831x1200, https://hdl.handle.net/10934/RM0001.COLLECT.450232\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"autonomy_need\", \"independent_thinking\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4} LEAD REVIEW (Roster64): portrait converted to held on sitter identity (the inscription contradicts the holder identification); the unused file was removed at cleanup."
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "Portrait HELD on sitter identity (lead review, after a holder-record check). The Rijksmuseum catalogues print RP-P-2007-357 (Rene Boyvin, 1566, Public Domain Mark + CC0) as Zeno of Citium, but the plate's own lettering reads ZENO FLORVIT OLYMP. 100, a floruit (about 380 BCE) that does not fit Zeno of Citium (about 300 BCE), so the inscription contradicts the holder's identification; the image is also an imagined 16th-century portrait of an ancient philosopher with no documented likeness. A positively identified single sitter is required. The rights themselves were clear (Rijksmuseum PDM/CC0). Next step: a source identifying which ancient Zeno the plate depicts, or a different dated depiction with an unambiguous caption; the Naples marble bust photograph is a derivative of a sculpture and was rejected."
+  }
+}

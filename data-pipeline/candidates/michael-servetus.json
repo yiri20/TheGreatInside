@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "michael-servetus",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Michael Servetus",
+    "aliases": [
+      "Miguel Servet",
+      "Miguel Serveto",
+      "Michel de Villeneuve",
+      "Michael Villanovanus",
+      "Servetus"
+    ],
+    "wikidataId": "Q185914",
+    "birthYear": 1511,
+    "deathYear": 1553,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "theologian"
+    ],
+    "fieldIds": [
+      "medicine",
+      "religion"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "historical"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_servetus_wikidata",
+      "kind": "wikidata",
+      "title": "Michael Servetus (Q185914), verified live via the Wikidata API (2026-11-04): label 'Michael Servetus', description 'Spanish physician and theologian', birth recorded as 1511 with day variants 19 and 29 September, death 1553-10-27, Korean label 미카엘 세르베투스. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q185914"
+    },
+    {
+      "id": "src_servetus_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Michael Servetus' (Britannica Editors), article body read in full. CANONICAL SIGNIFICANCE SOURCE: Spanish physician and theologian (born 1511?, died 27 October 1553) whose unorthodox teachings led to condemnation as a heretic by Protestants and Roman Catholics and to execution by Calvinists from Geneva; De Trinitatis erroribus (1531), Dialogorum de Trinitate (1532), the annotated Ptolemy Geographia and Pagnini Bible editions at Lyon, medical studies at Paris from 1538, physician to the archbishop of Vienne, Christianismi restitutio (1553, 1,000 copies printed secretly at Vienne) in which he 'almost incidentally' made known his discovery of the pulmonary circulation of blood; his execution produced a Protestant controversy on the death penalty for heresy and influenced Laelius Socinus. Scholarly reference; modern summary.",
+      "url": "https://www.britannica.com/biography/Michael-Servetus"
+    },
+    {
+      "id": "src_servetus_eb1911",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, eleventh edition (1911), 'Servetus, Michael', as transcribed on Wikisource, the passages on Vienne, the printing of the book, the 1553 arrest and trial, and his doctrine read: twelve years (1541-53) as confidential physician at Vienne while outwardly a conforming Catholic; the 1546 correspondence with Calvin and Calvin's remark that he would not let him leave Geneva alive; two Basel publishers declined the book; secret printing of 1,000 copies; interrogation and escape from Vienne prison; arrest at Geneva after attending church; a sentence on 26 October and execution at Champel; the only likeness is a small 1607 copperplate by C. van Sichem whose original is not known and whose authenticity is uncertain; his system 'not easily described in terms of current systems' and abhorrent to Catholics and Protestants alike. Older scholarly reference, independent of the modern Britannica article; its judgments are dated.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Servetus,_Michael"
+    },
+    {
+      "id": "src_servetus_uudb",
+      "kind": "biography",
+      "title": "Dictionary of Unitarian and Universalist Biography (Unitarian Universalist Historical Society), 'Servetus, Michael', full entry read: dated life from Villanueva in Aragon and law at Toulouse, service under Juan de Quintana, Basel and Strasbourg, the 1531 book and the 1532 Dialogues that did not soften his rhetoric, flight to Paris as Villeneuve after the Spanish Inquisition summoned him, medical studies and dissection under Gunther in 1536-38, the 1538 dispute with the Paris faculty over astrology, editorial work for Lyon printers, twelve years at Vienne, the letters to Calvin and Calvin's reaction, arrest and Geneva trial, Castellio's reply; the author notes that because Servetus expressed the new circulation knowledge only as a metaphor in a proscribed theological work it did not influence Harvey, and that 'most persons lack sufficient understanding of his views'. Unitarian historical society entry: sympathetic to him but a scholarly, dated narrative.",
+      "url": "https://www.uudb.org/?p=6398"
+    },
+    {
+      "id": "src_servetus_schaff",
+      "kind": "archive",
+      "title": "Philip Schaff, History of the Christian Church, Volume VIII (1892), section on the trial of Servetus (Christian Classics Ethereal Library), full section read: how the Vienne authorities learned of the book through Guillaume Trie, the Vienne interrogations in which Schaff records that Servetus gave false answers about his identity and writings and said he had once personated 'Servetus' in correspondence, his escape on 7 April 1553, the Vienne sentence of 17 June, burning in effigy, and Schaff's footnote that Servetus himself printed thirty of his letters to Calvin in the book. A Reformed Protestant church historian writing in 1892: a critical, orthodox-leaning counter-voice that treats Calvin's role as indirect agency and an excess of zeal; its moral judgments are not used.",
+      "url": "https://ccel.org/ccel/schaff/hcc8.iv.xvi.xiii.html"
+    },
+    {
+      "id": "src_servetus_ebsco",
+      "kind": "institution",
+      "title": "EBSCO Research Starters, 'Michael Servetus Describes the Circulatory System', full entry read: law and mathematics studies, editing medical works for Lyon publishers, Paris medical studies with anatomical dissection and praise from the anatomy professor Johann Gunther von Andernach, his questioning of the Galenic claim of pores in the heart septum, the description of blood passing from the right ventricle through the lungs to the left, its theological setting in the discussion of the Holy Spirit and 'triple spirit', and the failed search for a willing publisher before secretly printing the work at his own expense. A modern encyclopaedic overview aimed at students; a few of its statements (dating the discovery to 1546, 'published posthumously') conflict with the other sources and are not used.",
+      "url": "https://www.ebsco.com/research-starters/history/michael-servetus-describes-circulatory-system"
+    },
+    {
+      "id": "src_servetus_ct",
+      "kind": "press",
+      "title": "Christianity Today, Christian History, 'The Servetus Affair' (1986), full article read: presents the trial from a Calvinist-sympathetic angle, says Servetus had been condemned in absentia in Catholic and Protestant Europe, that he went to Geneva after escaping a Catholic prison, was recognised while Calvin was preaching, that Calvin visited him in jail and, when sentence was passed, asked the city government for a more humane death. A short popular article from an evangelical magazine; used as the Calvin-side counter-voice, not as evidence of Servetus's motives.",
+      "url": "https://www.christianitytoday.com/1986/10/servetus-affair/"
+    },
+    {
+      "id": "src_servetus_bosmia",
+      "kind": "institution",
+      "title": "University of Texas Medical Branch research record for A. Bosmia and colleagues, 'Michael Servetus (1511-1553): Physician and heretic who described the pulmonary circulation', International Journal of Cardiology 167 (2013), pages 318-321: ABSTRACT ONLY was read (the article is paywalled): a peer-reviewed review that says writers have praised Servetus's commitment to educating colleagues about what he heralded as the truth and criticised his perceived arrogance, and that he contributed to geography, astrology, theology and medicine. Used only to confirm the medical-history framing; not used for any row.",
+      "url": "https://researchexperts.utmb.edu/en/publications/michael-servetus-1511-1553-physician-and-heretic-who-described-th/"
+    },
+    {
+      "id": "src_servetus_parismusees",
+      "kind": "archive",
+      "title": "Paris Musees collections, Musee Carnavalet - Histoire de Paris, 'Michael Servetus Hisp. de Aragonia', engraving by Christian-Friedrich Fritzsch, 18th century, inventory G.19347 (item page, marked CC0). Holder record for the portrait only.",
+      "url": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/michael-servetus-hs-de-arajonia"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_servetus_britannica, src_servetus_eb1911, src_servetus_uudb, src_servetus_ebsco | 1531-1553 | encyclopaedia, older encyclopaedia, Unitarian biography, overview] Britannica says that in De Trinitatis erroribus (1531) he attacked the orthodox teaching on the Trinity and tried to form a view of his own, and that the book was clearly odious to Catholics and Protestants; the 1911 Britannica calls his system marked by strong individuality and hard to describe in terms of current systems; the Unitarian dictionary records that his 1532 Dialogues conceded nothing important and did not soften his rhetoric, and EBSCO that he questioned the Galenic pores in the heart septum. Several independent sources agree on theological independence; the medical independence rests on two sources, and the theology was heterodox in ways that cost him dearly (dual-edged), so confidence stays below 0.6."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_servetus_britannica, src_servetus_uudb, src_servetus_eb1911, src_servetus_ebsco | 1530s-1553 | encyclopaedia, Unitarian biography, older encyclopaedia, overview] Documented work in law, geography (editions of Ptolemy's Geographia in 1535 and 1541 and geography lectures), a Bible edition with introduction and notes, astrology and medicine (Paris studies 1536-38 with dissection, then twelve years as a physician), and theology; the 1911 Britannica says he constantly displayed a passion for original discovery in all departments and Bosmia's abstract lists geography, astrology, theology and medicine. Breadth is well documented, but editing for Lyon printers was paid work, and depth in each field is uneven (the astrology work drew censure), hence moderate confidence."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_servetus_uudb, src_servetus_eb1911, src_servetus_ebsco, src_servetus_britannica | 1527-1553 | Unitarian biography, older encyclopaedia, overview, encyclopaedia] The Unitarian dictionary says the 1531 book took four years of work and that he followed it with a revised formulation; Britannica and the 1911 Britannica record that he kept revising the manuscript of Christianismi restitutio from 1546, that two Basel publishers declined it, and that he had it secretly printed in 1,000 copies in 1553 while living as a physician at Vienne; EBSCO says he failed to find a willing publisher and printed at his own expense. A long, repeated effort on one project, but the timeline of the revisions rests on secondary summaries and persistence of this kind also carried risk."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_servetus_uudb, src_servetus_britannica, src_servetus_schaff, src_servetus_eb1911 | 1530-1553 | Unitarian biography, encyclopaedia, church history, older encyclopaedia] The Unitarian dictionary says he wore out his welcome in Oecolampadius's household with constant theological dispute, then bombarded Calvin with letters insisting on more radical views, returned an annotated copy of Calvin's Institutes with abusive annotations, and (with Schaff and Britannica) printed thirty of his letters to Calvin in the book. Against that, Schaff and the 1911 Britannica record that before the Vienne inquisitors he gave false answers about his identity and writings and said he had personated 'Servetus' in correspondence, and he escaped prison; he engaged in open dispute with the Reformers but avoided it with the authorities who could punish him. SELF-CALIBRATION (agent): documented denial and evasion before the Vienne inquisitors cuts against the original 70/0.50 reading, so the row was lowered to 64/0.45."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_servetus_britannica, src_servetus_uudb, src_servetus_eb1911, src_servetus_ct | 1531-1553 | encyclopaedia, Unitarian biography, older encyclopaedia, popular article] He published an attack on Trinitarian doctrine under his own name in 1531, opened a correspondence with Calvin in 1546 and sent him the manuscript (the 1911 Britannica quotes Calvin's reply that he would not let him leave Geneva alive), had the book secretly printed at Vienne, and, after escaping the Vienne prison, was in Geneva in August 1553 (Britannica calls his appearance there 'quixotic'; the 1911 Britannica says he was on his way to Zurich and Naples and attended church to avoid trouble; his motive is not documented and is not inferred). Counter-evidence: he lived under an assumed name for roughly two decades and printed secretly, which is risk management, so the row is a mixed, low-confidence reading."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/michael-servetus-fritzsch-18c.jpg",
+    "width": 914,
+    "height": 1200,
+    "source": "Engraving 'Michael Servetus Hisp. de Aragonia', signed 'Fritzsch sculpsit Hamburgi' (Christian-Friedrich Fritzsch, active 1695-1769), 18th century, burin; Musee Carnavalet - Histoire de Paris, inventory G.19347. A later printed portrait made about two centuries after his death, not a portrait from life; the 1911 Britannica says no original likeness is known. Cropped to the plate from the museum image (2037 x 2673 pixels as published on Wikimedia Commons) and downscaled to 914 x 1200 (never enlarged).",
+    "license": "CC0 1.0 (Paris Musees item-level mark on the museum's own page; the engraving is also public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Christian-Friedrich Fritzsch, 18th century, Musee Carnavalet - Histoire de Paris / Paris Musees (G.19347), CC0",
+    "attributionUrl": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/michael-servetus-hs-de-arajonia",
+    "creator": "Christian-Friedrich Fritzsch",
+    "date": "18th century",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/michael-servetus-hs-de-arajonia"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "미카엘 세르베투스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED, LEAD USED. Paris Musees live item page opened (Musee Carnavalet - Histoire de Paris, inventory G.19347, 'Michael Servetus Hisp. de Aragonia.', engraver Christian-Friedrich Fritzsch, active 1695-1769, 18th century, burin): the visuals are marked 'CC0 Paris Musees / Musee Carnavalet - Histoire de Paris' with a download link; the IIIF manifest has no rights field. The image is a burin engraving signed 'Fritzsch sculpsit Hamburgi' by an engraver who died by 1769, so it is also public domain by age everywhere. IDENTITY: the plate's own inscription names him ('Michael Servetus Hisp. de Aragonia'). KIND historical_depiction: the 1911 Britannica says the only likeness of Servetus is a small 1607 copperplate by C. van Sichem whose original is not known and whose authenticity is uncertain, so every portrait is a later imagined or copied image; the holder does not state the Fritzsch print's model, so it is not called a copy of a particular source. HOLDER-RECORD CHECK: the Commons wikitext copy of the record is CC0 and matches the museum, but its pasted description paragraph (a hussar print, 16.9 x 20.6 cm) belongs to another item; the live page's own inscription and iconographic description match the Servetus image, so this is a Commons metadata error, not a rights contradiction. The plate is a crop of the museum image (Commons copy 2037 x 2673 px) downscaled to 914 x 1200 and saved as public/portraits/michael-servetus-fritzsch-18c.jpg; no upscaling. The print shows a burning at the stake in its background (a depiction of his fate). PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q185914 label 'Michael Servetus', description 'Spanish physician and theologian', birth 1511 (also 19 and 29 September variants), death 1553-10-27, Korean label 미카엘 세르베투스; not in prod64.txt and no candidate file existed. NAME/DATES: birth year 1511 follows Wikidata, Britannica ('1511?') and the 1511 value used by the other sources; the Unitarian dictionary notes the 1511 date rests on his testimony to the French inquisition and that c.1506 is arguable, so it is recorded as uncertain. REGION southern_europe, nationality ES, following the Spanish-born precedents (Ignatius of Loyola, Cervantes, Ramon y Cajal, Velazquez); he worked in France, Germany and Switzerland, which is stated here as a judgment call. ERA early_modern. ZERO POLITICS: primary identity physician-theologian; the religious dispute with Calvin, the Inquisition and the Geneva Council are context and are not scored as political behaviour. VOCABULARY: occupations physician, theologian; fields medicine, religion; tags nonconformist, cross_disciplinary; archetype cross_disciplinary_generalist; impactDomains scientific, medical, historical; all present in en.ts and ko.ts. KO NAME: Wikidata Korean label 미카엘 세르베투스. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Michael Servetus' (https://www.britannica.com/biography/Michael-Servetus). ATTRIBUTION: confirmed true; the record is dense and mostly well attested (Britannica, 1911 Britannica, Unitarian dictionary, Schaff, EBSCO), although the interrogation transcripts and trial records are known only through later summaries; his own words appear only in quotations. READ: (1) Britannica article body; (2) 1911 Britannica (Wikisource) on Vienne, the printing and the trial; (3) Dictionary of Unitarian and Universalist Biography entry in full; (4) Schaff's 1892 section on the trial; (5) EBSCO Research Starters entry; (6) Christianity Today 'The Servetus Affair'; plus the Bosmia 2013 review (abstract only) and the Wikidata record. Six substantive sources. PERSPECTIVES: modern and 1911 encyclopaedias, a Unitarian historical society, a Reformed church historian (counter-voice), an evangelical popular article (Calvin-side counter-voice), a student overview with the medical framing. COUNTER-VOICES AND LIMITS: Schaff documents false answers to the inquisitors; the Calvin-side and Unitarian-side accounts disagree on Calvin's role in the denunciation (not scored); the EBSCO claims on 1546 and posthumous publication conflict with other sources and were not used; the pulmonary-circulation passage is a side argument in a theological work and the Unitarian dictionary says it did not influence Harvey; originality relative to earlier Arabic accounts is not settled in the sources read and no first claim is made in the cards. NOT OPENED: Bainton 'Hunted Heretic' and Bosmia full text (paywalled or lending-only), Servetus's own Christianismi restitutio and the Geneva trial acts, Calvin's Defensio. No personality is inferred from his execution or from the trial; the 'arrogance' remark in the abstract is a writers' judgment and was not scored. SELF-GATE (first pass): primary PASS (card 1 states the antitrinitarian theology and the 1553 book; card 2 the pulmonary circulation), top omission PASS (the editions of Ptolemy and Pagnini are covered in the moment and the first card; the execution and its consequence are card 3), identity PASS, significance-over-novelty PASS, side-project PASS. SELF-CALIBRATION: reviewed independent_thinking, cross_domain_range and conflict_tolerance; lowered conflict_tolerance 70/0.50 to 64/0.45 (evasion before the Vienne inquisitors). Broad scoring flag: none; five rows, sparse by design, no row above 76 or 0.55. HANDBACK64: {\"slug\":\"michael-servetus\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"PLAUSIBLE (lead-robust)\",\"holder_record_at_preflight\":\"NOT VERIFIED: Paris Musees manifest and Wellcome pages not opened\",\"holder_record_checked_by_you\":\"Opened the live Paris Musees collections item page (Musee Carnavalet, inventory G.19347): both visuals are labelled 'CC0 Paris Musees / Musee Carnavalet - Histoire de Paris' with a Telecharger (download) option; author Fritzsch, Christian-Friedrich (active 1695-1769), engraver; 18th century; burin; inscription 'Michael Servetus Hisp. de Aragonia.'; iconographic description matches the image (burning at the stake in the background). IIIF manifest apicollections.parismusees.paris.fr/iiif/320110072/manifest opened: carries no rights field (rights are stated on the item page). The Commons wikitext copy of the record contains a mismatched description paragraph (a hussar print) that the live item page does not.\",\"holder_contradiction_found\":false,\"initial_lead\":\"Christian Fritzsch engraving c.1740 (Paris Musees Carnavalet, CC0)\",\"final_portrait_source\":\"Musee Carnavalet - Histoire de Paris (Paris Musees) / Christian-Friedrich Fritzsch, engraving, 18th century, G.19347, https://www.parismuseescollections.paris.fr/fr/musee-carnavalet/oeuvres/michael-servetus-hs-de-arajonia (CC0); plate crop from the Commons copy of the museum image 2037x2673, downscaled to 914x1200\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"conflict_tolerance\",\"old_score\":70,\"old_confidence\":0.5,\"new_score\":64,\"new_confidence\":0.45,\"reason\":\"Documented denial and evasion before the Vienne inquisitors cuts against a high score: he sought conflict with Calvin but avoided it with the Catholic authorities\"}],\"reviewed_kept\":[\"independent_thinking\",\"cross_domain_range\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5}"
+  }
+}

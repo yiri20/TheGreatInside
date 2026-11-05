@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "augustin-fresnel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Augustin-Jean Fresnel",
+    "aliases": [
+      "Augustin Fresnel",
+      "Augustin Jean Fresnel"
+    ],
+    "wikidataId": "Q187241",
+    "birthYear": 1788,
+    "deathYear": 1827,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "engineer",
+      "inventor"
+    ],
+    "fieldIds": [
+      "physics",
+      "engineering"
+    ],
+    "impactDomains": [
+      "scientific",
+      "engineering",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fresnel_wikidata",
+      "kind": "wikidata",
+      "title": "Augustin-Jean Fresnel (Q187241), verified live via the Wikidata API (2026-11-04): English label 'Augustin-Jean Fresnel', description 'French engineer and physicist (1788-1827)', Korean label 오귀스탱 장 프레넬, birth 10 May 1788 and death 14 July 1827, image the frontispiece of the 1866 Oeuvres completes. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q187241"
+    },
+    {
+      "id": "src_fresnel_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Augustin-Jean Fresnel' (article body read from the public page) and the Britannica article 'Fresnel lens' (read). CANONICAL SIGNIFICANCE SOURCE: French physicist (1788-1827) who significantly contributed to optics and helped establish the wave theory of light that Thomas Young advanced; he began optics research in 1814 while working as an engineer building roads, his experiments with interference fringes and diffraction led him to the wave theory, in 1819 he presented his diffraction work to the French Academy of Sciences, where his model predicted a bright spot at the centre of a shadow, later observed and named Poisson's spot; he combined Young's interference principle with Huygens' construction; the Fresnel lens, which divides a lens into concentric rings to reduce weight, was adopted by him in 1821 for lighthouses (the idea of dividing a lens into rings having come from Buffon in 1748). Some dates in the Q&A-style summary of the biography page (for example the year of the transverse-wave conclusion) differ from MacTutor and were not used. Scholarly reference; its praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Augustin-Jean-Fresnel"
+    },
+    {
+      "id": "src_fresnel_mactutor",
+      "kind": "biography",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Augustin Fresnel' by J. J. O'Connor and E. F. Robertson (full biography read, including its quotations from the Dictionary of Scientific Biography). Covers the engineering career, the start of his light experiments in 1814, the black-paper diffraction experiment, the 1815-16 papers, the two-mirror interference experiments, the 1819 Academy prize judged by a committee not well disposed to the wave theory (Poisson's bright spot, tested at Arago's request), the 1821 claim that light is a transverse wave which even Arago did not accept, double refraction, the Lighthouse Commission and compound lenses, election to the Academy in 1823 and the Rumford Medal in 1827, and the Dictionary of Scientific Biography's character summary (attentive to detail, systematic, thorough; tenacious in convictions; rankling self-righteousness at times). Scholarly history site; his political episodes, family and health are not used.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fresnel/"
+    },
+    {
+      "id": "src_fresnel_arago",
+      "kind": "biography",
+      "title": "Francois Arago, biographical memoir of Fresnel (read at the Academy of Sciences in 1830), in the English translation by Baden Powell in 'Biographies of Distinguished Scientific Men' (London, 1859; Internet Archive text; read: the early optical researches, the passage on never publishing without checking earlier work, the engineering duties, the lighthouse lenses and the concentric-wick lamp, the Cordouan light built in July 1823, the costs of his instruments, and the translator's notes quoting Fresnel's own acknowledgement of Young's priority and Whewell's account of the transverse-vibration memoir). Written by Fresnel's close friend and collaborator, so admiring; the memoir's political passages and the translator's long optical notes were not used.",
+      "url": "https://archive.org/details/biographiesofdis02arag2"
+    },
+    {
+      "id": "src_fresnel_moon",
+      "kind": "archive",
+      "title": "Robert Moon, 'Fresnel and His Followers: A Criticism' (Cambridge, 1849; Internet Archive text; preface and contents read). A hostile 19th-century Cambridge mathematician who calls Fresnel's theory 'absurd', says its hypotheses were accepted with 'not a shadow of evidence' and condemns the whole system of investigation. COUNTER-VOICE on his method of theory-building; his critique concerns the physics, not Fresnel's conduct, and later physics did not follow it (the wave theory prevailed, as Britannica and MacTutor report). The body of the book was not read.",
+      "url": "https://archive.org/details/b33488964"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fresnel_mactutor, src_fresnel_britannica, src_fresnel_arago, src_fresnel_moon | 1815-1819 | history site, encyclopedia, collaborator's memoir, hostile critic] MacTutor says he derived formulae for the positions of bright and dark diffraction lines from where vibrations were in phase and out of phase and, in 1819, calculated the intensity of light at every point behind the diffracting screen; Poisson, from Fresnel's mathematics, deduced the bright spot at the centre of a disk's shadow and Arago's test confirmed it (MacTutor, Britannica); Arago adds that he never published a memoir without checking with friends that he was not repeating earlier work. The one contrary voice, Moon (1849), calls Fresnel's assumptions unsupported, a view that later physics did not follow, but it shows the method was disputed. The Poisson prediction was made by Poisson and the praise is partly retrospective, so confidence is moderate. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 80 / 0.62 to 76 / 0.58 because concentrated in MacTutor, Britannica and Arago, an admiring collaborator, against one hostile critic."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_fresnel_mactutor, src_fresnel_arago | 1814-1823 | history site, collaborator's memoir] MacTutor describes the experiment in which he attached black paper to one edge of a diffracting object, saw the bright bands inside the shadow vanish, and so deduced which bands came from one edge or both, and his two-mirror interference experiments that verified his calculated patterns; Arago records the joint polarisation experiments and the long series of experiments with a multiple-wick lamp for the lighthouse lenses, and says instruments took a considerable part of his income. Specific, repeated experimental work is reported by an independent history site and an admiring collaborator."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fresnel_mactutor, src_fresnel_arago, src_fresnel_britannica, src_fresnel_moon | 1815-1821 | history site, collaborator's memoir, encyclopedia, hostile critic] MacTutor says his experiments convinced him of the wave theory when the corpuscular theory was almost universally held, that the Academy committee judging his 1819 entry was not well disposed to it, and that in 1821 he claimed with certainty that light is a transverse wave, a step too far for most, even Arago, before he deduced double refraction from it; a note in the Arago translation (citing Whewell) says Arago lacked the courage to publish the transverse-vibration idea, so that part of the memoir appeared under Fresnel's name alone. Britannica says he began unaware of Young's work. Moon's hostile 1849 critique shows the position remained contested. Several sources agree he held and published a minority position against consensus. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.64 to 76 / 0.58 because the same concentration; the independence is read from outcome and from the collaborator memoir."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fresnel_britannica, src_fresnel_mactutor, src_fresnel_arago | 1815-1823 | encyclopedia, history site, collaborator's memoir] Britannica says he combined Young's interference principle with Huygens' construction and calculated the intensity patterns of interfering secondary wavelets, and MacTutor that he moved beyond Young to a new mathematical formulation; the Fresnel lens, dividing a lens into concentric rings, was applied by him to lighthouses (Britannica, Arago), although Britannica credits the ring idea to Buffon in 1748 and Arago admits Condorcet and Buffon had earlier projects. Much of the original optics was done unaware of Young, Huygens and Euler, so the novelty lies in the synthesis and the engineering application, not in the first ideas; confidence moderate."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fresnel_mactutor, src_fresnel_arago | 1816-1823 | history site, collaborator's memoir] MacTutor says that he and Arago undertook further polarisation work together, which led to the discovery of circularly polarised light; Arago says the two devoted themselves jointly to the concentric-wick lamp for the lighthouse lens; a note in the translation quotes Fresnel's own words acknowledging that Young had published the transverse-vibration idea before him. The main account of the partnership comes from Arago himself and the acknowledgement is self-report, so the row is moderate."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fresnel_mactutor, src_fresnel_arago | 1816-1823 | history site, collaborator's memoir] MacTutor says that once he was a working engineer he could research only in his vacations and kept requesting leave to go to Paris for his investigations, and quotes the Dictionary of Scientific Biography on the 'perseverance' he brought to the lighthouse work; Arago says the lens idea dated from about 1820 and was built at Cordouan in July 1823, and that experimental instruments absorbed a large part of his income. The record is of sustained effort across years alongside paid duties; the row deliberately does not rest on any reading of his health."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fresnel_mactutor, src_fresnel_arago | 1819-1827 | history site quoting the Dictionary of Scientific Biography, collaborator's memoir] The Dictionary of Scientific Biography, as quoted by MacTutor, says he held to his convictions tenaciously, defended them with courage and vigour, voiced outrage when others fell short of his own ethical standards and at times approached 'rankling self-righteousness'; Arago says he showed sternness to anyone who submitted an ambiguous account in his engineering duties. These are retrospective characterisations by an encyclopedia entry and an admiring friend, without a specific dated confrontation in the sources read, hence low confidence; the political part of the quoted passage is not scored."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_fresnel_mactutor, src_fresnel_arago | 1815-1827 | history site quoting the Dictionary of Scientific Biography, collaborator's memoir] The Dictionary of Scientific Biography, quoted by MacTutor, calls him always attentive to detail, systematic and thorough, and Arago says he performed his engineering duties with rigorous scrupulousness, estimating contractors' work carefully, and became cautious about publishing until he had checked earlier literature. SELF-CALIBRATION (agent): reviewed because it rests on a generic adjective trio paraphrasing an admiring eulogy; lowered from 72 / 0.52 to 68 / 0.46 because no specific incident of detailed work is cited beyond duties and publication habits."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오귀스탱 장 프레넬"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/augustin-fresnel-rosotte-1866.jpg",
+    "width": 1058,
+    "height": 1200,
+    "source": "Frontispiece engraving of Augustin Fresnel signed 'E. Rosotte sculp. d'apres A. Tardieu' in the official edition 'Oeuvres completes d'Augustin Fresnel', tome 1 (Paris: Imprimerie imperiale, 1866), in the Internet Archive copy digitised from the New York Public Library (page image 2500 x 3275). The engraving is a later print after a portrait by Ambroise Tardieu; none of the sources read documents a sitting, so it is not presented as a likeness. This file is the engraving only, cropped from the scan and downscaled to 1058 x 1200 with no upscaling.",
+    "license": "Public domain: published in Paris in 1866 (before 1931); the portrait it copies is by an artist who died in 1841",
+    "licenseUrl": "https://archive.org/details/bub_gb_3QgAAAAAMAAJ",
+    "attribution": "E. Rosotte after Ambroise Tardieu, portrait of Augustin Fresnel, in Oeuvres completes d'Augustin Fresnel, tome 1 (Paris, 1866), public domain",
+    "attributionUrl": "https://archive.org/details/bub_gb_3QgAAAAAMAAJ",
+    "creator": "E. Rosotte (engraver) after Ambroise Tardieu",
+    "date": "1866 (publication)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://archive.org/details/bub_gb_3QgAAAAAMAAJ"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED, LEAD USED (same engraving, earlier source). The lead was E. Rosette's engraving after Ambroise Tardieu in Houstoun's 'Light and Colour' (1903); the same engraving is the frontispiece of the official edition 'Oeuvres completes d'Augustin Fresnel' (Paris: Imprimerie imperiale, 1866, tome premier), which I used instead because it is an earlier, documented publication: Internet Archive item bub_gb_3QgAAAAAMAAJ (Google Books digitisation from the New York Public Library copy), page image n6 (2500 x 3275), plate captioned 'AUGUSTIN FRESNEL' with the engraver's line 'E. Rosotte sculp. d'apres A. Tardieu' (as read from the plate; the lead spelled it Rosette) and printer's line 'Imp. de Chatain, rue de l'Hotel Colbert, 12'; the title page states the edition was published by Senarmont, Verdet and Leonor Fresnel at the State's expense. HOLDER RECORD CHECKED: Internet Archive metadata for the item (contributor New York Public Library, sponsor Google; no rights or licence metadata) and the Commons wikitext for the page crop of the same plate (PD-scan, creator-death 1827); Paris Musees CC0 (David d'Angers medallion) was NOT opened because the engraving route was sufficient and a photograph of a sculpture would be a derivative work; Houstoun 1903 was not opened. holder_contradiction_found: false. BASIS: published in Paris in 1866 (before 1931), so public domain in the United States by age; the underlying portrait is by Ambroise Tardieu (a French engraver, died 1841) and the engraver is a 19th-century artist. The file is the engraving only (Google watermark and margins cropped), downscaled from the scan to 1058 x 1200 (never upscaled), saved as public/portraits/augustin-fresnel-rosotte-1866.jpg. KIND historical_depiction: an engraving after a portrait by another hand, and none of the sources read documents a sitting, so it is not presented as a likeness. PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q187241 label 'Augustin-Jean Fresnel', description 'French engineer and physicist (1788-1827)', Korean label 오귀스탱 장 프레넬, birth 10 May 1788 and death 14 July 1827; not in prod64.txt (grep of Fresnel and Q187241 found nothing); no candidate file or other candidate/src file contains Q187241. REGION western_europe, ERA 19th_century, nationality FR. ZERO POLITICS: portfolio science; his 1815 royalist volunteering, the loss of his post and police surveillance, and the political passages of Arago's memoir are context only and are NOT scored or carded (the Arago memoir's own political preface was skipped). No family, religion or health inference (his Jansenist upbringing, tuberculosis and fatigue are not used). VOCABULARY: occupations physicist, engineer and inventor, fields physics and engineering, impact domains scientific, engineering and innovation, tag innovator, archetype technical_innovator, all present in en.ts and ko.ts. KO NAME: Wikidata Korean label 오귀스탱 장 프레넬. HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED (attribution_confirmed true): dated experiments, memoirs and a collaborator's memoir. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Augustin-Jean Fresnel' (https://www.britannica.com/biography/Augustin-Jean-Fresnel). READ (5 substantive sources plus Wikidata): (1) Britannica biography and Fresnel-lens articles; (2) MacTutor biography (full); (3) Arago's 1830 memoir in Baden Powell's 1859 translation (admiring collaborator; Fresnel's own acknowledgement of Young quoted in a note); (4) Moon 1849 critique (preface only; hostile); (5) the Britannica lens article counted with (1). PERSPECTIVES: modern encyclopedia, a history-of-mathematics site quoting the Dictionary of Scientific Biography, an admiring close collaborator, and a hostile contemporary critic of the theory. COUNTER-VOICES AND LIMITS: Moon (1849) attacks the theory's assumptions; MacTutor and Arago record the Academy committee as unfriendly to the wave theory and Arago's own refusal to accept the transverse-wave claim; no source is adversarial about his personal conduct, and the character rows (conflict_tolerance, detail_orientation) rest on retrospective summaries, so they are kept low. NOT OPENED: Fresnel's own memoirs and letters in the Oeuvres completes (only the frontispiece and title page), the Dictionary of Scientific Biography entry itself (seen only through MacTutor's quotations), Buchwald's and Frankel's monographs, the body of Moon's book, and the Paris Musees medallion record. SELF-CALIBRATION (agent): top-risk rows reviewed: detail_orientation (72/0.52 lowered to 68/0.46: generic adjectives paraphrased from an admiring eulogy), independent_thinking (80/0.64, kept: MacTutor, the Whewell note, Britannica and the hostile critic all show the minority position), conflict_tolerance (60/0.45, kept: already low and dual-edged). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. The lighthouse lens is a card because Britannica and Arago make it his second defining contribution, not a side project. HANDBACK64: {\"slug\": \"augustin-fresnel\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"PARTLY VERIFIED: Houstoun 1903 book plate (documented pre-1931 publication); Paris Musees CC0 not opened\", \"holder_record_checked_by_you\": \"Internet Archive metadata for bub_gb_3QgAAAAAMAAJ (Oeuvres completes d'Augustin Fresnel, Paris 1866; contributor New York Public Library, sponsor Google; no rights metadata) and Commons wikitext for a crop of the same plate (PD-scan, creator death 1827). Paris Musees medallion record and the Houstoun 1903 book were not opened (not needed).\", \"holder_contradiction_found\": false, \"initial_lead\": \"E. Rosette engraving after Ambroise Tardieu in Houstoun, Light and Colour, 1903\", \"final_portrait_source\": \"Frontispiece of Oeuvres completes d'Augustin Fresnel, tome 1 (Paris: Imprimerie imperiale, 1866): engraving signed 'E. Rosotte sculp. d'apres A. Tardieu', Internet Archive item bub_gb_3QgAAAAAMAAJ page image n6 (2500x3275), cropped and downscaled to 1058x1200; https://archive.org/details/bub_gb_3QgAAAAAMAAJ\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 8, \"self_calibrated_rows\": [{\"attribute\": \"detail_orientation\", \"old_score\": 72, \"old_confidence\": 0.52, \"new_score\": 68, \"new_confidence\": 0.46, \"reason\": \"Rests on a generic adjective trio paraphrased from an admiring eulogy with no specific cited incident of detailed work\"}], \"reviewed_kept\": [\"independent_thinking\", \"conflict_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 8} RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 80 / 0.62 to 76 / 0.58 because concentrated in MacTutor, Britannica and Arago, an admiring collaborator, against one hostile critic. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.64 to 76 / 0.58 because the same concentration; the independence is read from outcome and from the collaborator memoir."
+  }
+}

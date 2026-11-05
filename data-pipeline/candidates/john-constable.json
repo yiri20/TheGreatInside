@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-constable",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John Constable",
+    "aliases": [],
+    "wikidataId": "Q159297",
+    "birthYear": 1776,
+    "deathYear": 1837,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_constable_wikidata",
+      "kind": "wikidata",
+      "title": "John Constable (Q159297), verified live via the Wikidata API (2026-11-04): English label 'John Constable', description 'English painter (1776-1837)', born 1776-06-11, died 1837-03-31, Korean label present. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q159297"
+    },
+    {
+      "id": "src_constable_ia_leslie",
+      "kind": "biography",
+      "title": "C. R. Leslie, 'Life and Letters of John Constable, R.A.' (Chapman and Hall, London, 1896; a revised edition of the 1843 Memoirs by his friend and fellow painter), read through the Internet Archive full text (University of California Libraries copy): chapters and letters covering his six-foot canvases and the preparatory sketches, the 1821 letter saying he did not consider himself at work unless before a six-foot canvas, his election as Associate (1819) and Academician (10 February 1829), the dealer's purchase and Paris exhibition of the Hay Wain, and the editor's introduction answering Ruskin's charge of 'unteachableness'. Written by a close friend and largely made of Constable's own letters, so admiring and self-report; used with the independent museum sources.",
+      "url": "https://archive.org/details/lifelettersofjoh00lesl"
+    },
+    {
+      "id": "src_constable_tate",
+      "kind": "institution",
+      "title": "Tate, artist biography 'John Constable 1776-1837', read in full: dated chronology (Royal Academy Schools 1799, first exhibited 1802, Associate 1819, The Hay-Wain 1820-21, Paris Salon gold medal 1824, Lille gold medal 1826, Academician 1829, English Landscape prints 1830-32, lectures on landscape painting 1833-36), his devotion to the local landscape and the hundred or so cloud studies made at Hampstead from 1819. CANONICAL SIGNIFICANCE SOURCE (with the National Gallery and V&A pages).",
+      "url": "https://www.tate.org.uk/art/artist/108"
+    },
+    {
+      "id": "src_constable_ng_artist",
+      "kind": "institution",
+      "title": "The National Gallery, London, artist page 'John Constable', read in full: known for Suffolk landscapes, largely self-taught and slow to develop, exhibited at the Royal Academy from 1802, made many open-air oil sketches as the basis for large exhibition paintings finished in the studio, influenced the Barbizon School and the French Romantic movement, and was less well received in England than in Paris during his lifetime. CANONICAL SIGNIFICANCE SOURCE.",
+      "url": "https://www.nationalgallery.org.uk/artists/john-constable"
+    },
+    {
+      "id": "src_constable_ng_haywain",
+      "kind": "institution",
+      "title": "The National Gallery, London, catalogue page 'The Hay Wain' (NG1207), read in full: shown in 1821 as 'Landscape: Noon' and unsold, preceded by a small oil sketch and a full-scale oil sketch, painted in the studio from years of open-air studies, sold in 1824 with two other pictures to the dealer John Arrowsmith for 250 pounds, shown at the Paris Salon where Charles X awarded Constable a gold medal, with its departure from classicising landscape noted.",
+      "url": "https://www.nationalgallery.org.uk/paintings/john-constable-the-hay-wain"
+    },
+    {
+      "id": "src_constable_vam_intro",
+      "kind": "institution",
+      "title": "Victoria and Albert Museum, article 'John Constable', read in full: says his work transformed the genre of landscape painting, describes laborious outdoor studies, exhibition paintings built from oil sketches, drawings and earlier paintings sometimes over several years, full-scale preparatory sketches for the six-foot Stour pictures, the cloud studies of the early 1820s, little success for many years because he rejected prevailing norms, election as Royal Academician only in 1829 aged 52, and a shift to outdoor sketching and watercolour after 1829. Notes its own inconsistencies (Stonehenge medium/date) and that it says nothing about Paris.",
+      "url": "https://www.vam.ac.uk/articles/john-constable-an-introduction"
+    },
+    {
+      "id": "src_constable_vam_sketches",
+      "kind": "institution",
+      "title": "Victoria and Albert Museum, article 'John Constable's sketches', read in full: small outdoor oil sketches on board and paper (in 1825 he said his sketches were done in the lid of his box on his knees), varied paint handling, the unusual practice of full-size oil sketches for exhibition paintings, dated examples (Study of Cirrus Clouds 1822, Full-Scale Study for The Hay Wain about 1821), and a contemporary reviewer's praise of the sketches; also says the public expected polished finished pictures, which he found difficult to produce.",
+      "url": "https://www.vam.ac.uk/articles/john-constables-sketches"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_constable_vam_intro, src_constable_ng_artist, src_constable_ng_haywain, src_constable_ia_leslie | 1802-1837 | museum + biographer] The V&A says he had little success for many years because he rejected prevailing norms and was elected Royal Academician only in 1829 at 52; the National Gallery says the Hay Wain went unsold in 1821 and that English reception was lukewarm; Leslie records the six-foot canvases continuing year after year and Constable's remark that the honour came late. A documented pattern of continuing the same demanding programme over about three decades without early reward."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_constable_vam_intro, src_constable_ng_haywain, src_constable_ia_leslie | 1810s-1820s | museum + friend] The V&A says he rejected prevailing norms; the National Gallery describes the Hay Wain as a naturalistic, unheroic departure from classicising landscape, founded on original observation of nature; Leslie records his letters defending his sky studies on the example of the Old Masters, and his refusal after election to let the Academy Council reverse its first judgement of his own picture (an anecdote relayed in an editor's note). The independence is documented but cost him recognition, hence dual-edged. SELF-CALIBRATION (agent): lowered from 72 / 0.60 because the 'rejected norms' summary comes from one museum article, the Council anecdote is a single relayed story, and the same facts already support the persistence row."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_constable_ia_leslie, src_constable_vam_intro, src_constable_vam_sketches, src_constable_tate | 1790s-1830s | biographer + museums] Leslie's editor lists his early copies of cartoon prints and of Ruysdael, Rubens, Teniers and Claude; the V&A describes laborious outdoor studies and a 'close and continual observance of nature', exhibition pictures built over years from earlier studies, and the Tate records about a hundred cloud studies and later lectures on landscape painting. A long, deliberate programme of study and craft is documented across independent sources."
+    },
+    "planning_orientation": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_constable_ng_haywain, src_constable_vam_intro, src_constable_vam_sketches, src_constable_ia_leslie | 1819-1825 | museum + biographer] For the Hay Wain he made a small oil sketch and a full-scale oil sketch before painting the final canvas in the studio from earlier open-air studies (National Gallery); the V&A describes full-scale preparatory sketches as an unusual, deliberate step in his six-foot Stour pictures; Leslie quotes his 1821 letter that he did not count himself at work unless before a six-foot canvas and had done a good deal of skying. A staged, repeated working method is documented by three sources. RUBRIC_CORRECTION (lead review, before eligibility): planning_orientation lowered from 72 / 0.62 to 68 / 0.56 because the planning of the six-footers is documented by museums and by his friend-biographer, whose volume prints his letters (self-report)."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_constable_ng_haywain, src_constable_ng_artist, src_constable_vam_intro, src_constable_vam_sketches | 1810s-1830s | museum] The National Gallery calls the Hay Wain a departure from classicising landscape and notes its fresh observation of light and sky and the small touches of white paint critics mocked as 'Constable's snow'; the V&A says he transformed landscape painting and turned oil sketching into a way of capturing fleeting weather. Documented departures from the convention of his time, but the judgement of originality is largely retrospective museum praise. SELF-CALIBRATION (agent): lowered from 76 / 0.62 because the evidence is mostly later institutional assessment of the outcome, with only a few specific contemporary reactions."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_constable_tate, src_constable_vam_intro, src_constable_vam_sketches | 1819-1825 | museum] The Tate records about a hundred studies of cloud formations at Hampstead from 1819 and the V&A dates a Study of Cirrus Clouds to 1822; it quotes his view that a landscape painter who neglects skies neglects one of his greatest aids, and describes sustained, close observation of weather and light. Documented, but it is observation of one subject family (skies and local scenes) rather than a general habit of precision, hence a moderate score."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 컨스터블"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / The lead's initial image, Daniel Gardner's 1796 portrait of Constable photographed by an individual (Commons file 'John Constable by Daniel Gardner, 1796.JPG', CC BY-SA 4.0 'own work', no holder named), was REJECTED: the holder is the Victoria and Albert Museum (accession 589-1888, tempera, 'John Constable, RA, at the age of twenty', given by Isabel Constable 1888); the V&A API record (api.vam.ac.uk/v2/museumobject/O126465) lists it as stored in a study-room location (not on display) and its image metadata carries a '(c) Victoria and Albert Museum, London' notice, so a 2014 visitor's 'own work' photograph has doubtful provenance and conflicts with the holder's stated image rights. The alternative Reinagle portrait (Commons file with a National Portrait Gallery source, tagged public domain) was not used because its holder is the National Portrait Gallery and its item page was not opened or cleared this session (that museum's published image terms are, to my knowledge, non-commercial, which I did not re-verify), so a Commons tag alone could not be the basis; the British Museum mezzotint (David Lucas after C. R. Leslie, 1843, P_1876-1209-144) was likewise not used because its holder terms were not read and a better, fully checkable route existed. REPLACEMENT used: the frontispiece plate of C. R. Leslie's 'Life and Letters of John Constable, R.A.' (Chapman and Hall, London, 1896), captioned 'From a drawing by C. R. Leslie, R.A.' and carrying Constable's printed signature. Holder record: Internet Archive item https://archive.org/details/lifelettersofjoh00lesl (University of California Libraries copy; metadata 'possible-copyright-status: NOT_IN_COPYRIGHT', no licence restriction). Rights basis: a book published in 1896, so public domain in the United States by publication date (before 1931), and the drawing's author Charles Robert Leslie died in 1859 (public domain by age in the UK). The sitter is identified by the book's subject, the printed signature and the caption. The plate is a book reproduction of a drawing whose date and sitting are not documented in the page, so kind is historical_depiction, not likeness. Page image 2300 x 3163 pixels; the plate was cropped (1540 x 1940) and reduced to 953 x 1200 pixels, never enlarged.\nIDENTITY: Wikidata Q159297 verified live 2026-11-04 (label 'John Constable', 'English painter (1776-1837)', 1776-06-11 to 1837-03-31). No file data-pipeline/candidates/john-constable.json existed; Q159297 and the slug are absent from the production list (prod64.txt). Region western_europe (England, per the repository precedent for British subjects). Korean display name taken from the Wikidata Korean label.\nATTRIBUTION: confirmed (attributable): dated museum records, his own letters in a friend's edition and modern institutional scholarship document his working method and career.\nZERO POLITICS: none in scope.\nCANONICAL SIGNIFICANCE SOURCE: The National Gallery artist page 'John Constable' (https://www.nationalgallery.org.uk/artists/john-constable), with the V&A introduction (https://www.vam.ac.uk/articles/john-constable-an-introduction) and the Tate biography (https://www.tate.org.uk/art/artist/108).\nSOURCES READ (6 substantive; Wikidata orientation only): Leslie 1896 (Internet Archive full text; searched and read by section, not read end to end), Tate biography, National Gallery artist page, National Gallery Hay Wain page, V&A introduction, V&A sketches article. PERSPECTIVES: three institutions (museum and gallery), a friend-biographer who prints his letters (self-report), and the V&A's critical framing of late recognition. COUNTER-VOICES/CAUTIONS: the editor's introduction in Leslie quotes Ruskin's charge that unteachableness was a main feature of his character (rebutted there; relayed, not read in Ruskin); the National Gallery and V&A both stress the lukewarm English reception and late election; the National Gallery pages disagree on how the Hay Wain was received in 1821 (the Hay Wain page says reviewers were favourable but it did not sell; the artist page says pictures were not well received in England). Weakness: the behavioural picture rests on Leslie, a friend, and on museum summaries; no hostile contemporary critic was read directly; Art UK and Britannica pages were unavailable (HTTP 403 or DNS failure). No score exceeds 72 and no confidence exceeds 0.62.\nNOT OPENED: Ruskin's texts, Art UK 'suffused with Suffolk', Britannica, the Royal Academy page (HTTP 403), the Tate 'Turner and Constable' exhibition material, Constable's lectures in full, Wikipedia (orientation only). EXCLUDED: marriage, his wife's illness and death and his bereavement, family finances and inheritance, health, his friendship with Fisher beyond one patronage fact, and any claim that he was the first to paint outdoors or that he alone changed landscape painting.\nSELECTIVE SELF-CALIBRATION: reviewed creative_originality (lowered 76/0.62 to 72/0.56: retrospective institutional praise), independent_thinking (lowered 72/0.60 to 66/0.52: single museum summary plus one relayed anecdote, overlapping with persistence), persistence (kept at 70/0.60: documented in four independent places). Initial rows 6; lowered 2.\nHANDBACK64: {\"slug\": \"john-constable\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: holder of the Gardner portrait not opened\", \"holder_record_checked_by_you\": \"Gardner portrait: V&A record 589-1888 (api.vam.ac.uk/v2/museumobject/O126465): tempera, 1796, given by Isabel Constable 1888, stored in a study-room location, image metadata '(c) Victoria and Albert Museum, London'; the Commons photograph is a 2014 individual's 'own work'. Final image: Internet Archive item archive.org/details/lifelettersofjoh00lesl (metadata possible-copyright-status NOT_IN_COPYRIGHT; 1896 London book; page scan read directly, caption 'From a drawing by C. R. Leslie, R.A.'). NPG and British Museum routes not used because their holder item pages were not opened or cleared (a Commons tag alone is not a basis)\", \"holder_contradiction_found\": true, \"initial_lead\": \"Daniel Gardner 1796 portrait of John Constable (photographed by an individual, CC BY-SA 4.0)\", \"final_portrait_source\": \"Internet Archive scan of C. R. Leslie, Life and Letters of John Constable, R.A. (Chapman and Hall, London, 1896), frontispiece plate 'From a drawing by C. R. Leslie, R.A.', public domain by publication date, https://archive.org/details/lifelettersofjoh00lesl\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 76, \"old_confidence\": 0.62, \"new_score\": 72, \"new_confidence\": 0.56, \"reason\": \"evidence is mostly later institutional assessment of the outcome, with only a few specific contemporary reactions\"}, {\"attribute\": \"independent_thinking\", \"old_score\": 72, \"old_confidence\": 0.6, \"new_score\": 66, \"new_confidence\": 0.52, \"reason\": \"rejected-norms summary comes from one museum article, the Council anecdote is a single relayed story, and the same facts already support persistence\"}], \"reviewed_kept\": [\"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6}\n RUBRIC_CORRECTION (lead review, before eligibility): planning_orientation lowered from 72 / 0.62 to 68 / 0.56 because the planning of the six-footers is documented by museums and by his friend-biographer, whose volume prints his letters (self-report)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-constable-leslie-1896.jpg",
+    "width": 953,
+    "height": 1200,
+    "source": "Frontispiece plate 'From a drawing by C. R. Leslie, R.A.' in Charles Robert Leslie, Life and Letters of John Constable, R.A., Chapman and Hall, London, 1896, digitised by the Internet Archive from a University of California Libraries copy. The sitter is identified by the book, the caption and the printed signature. The page scan was 2300 x 3163 pixels; this project cropped the plate and reduced it to 953 x 1200 pixels, never enlarging it",
+    "license": "Public Domain (book published in 1896; the drawing's author, Charles Robert Leslie, died in 1859)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "After a drawing by Charles Robert Leslie, frontispiece of Life and Letters of John Constable, R.A., London, 1896, public domain, via the Internet Archive",
+    "attributionUrl": "https://archive.org/details/lifelettersofjoh00lesl",
+    "creator": "Charles Robert Leslie (1794-1859), drawing; reproduced in the 1896 book",
+    "date": "plate published 1896",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://archive.org/details/lifelettersofjoh00lesl"
+  }
+}

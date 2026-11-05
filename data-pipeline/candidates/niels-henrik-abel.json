@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "niels-henrik-abel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Niels Henrik Abel",
+    "aliases": [
+      "Niels Abel",
+      "N. H. Abel"
+    ],
+    "wikidataId": "Q124115",
+    "birthYear": 1802,
+    "deathYear": 1829,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "NO"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician"
+    ],
+    "fieldIds": [
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "theorist",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_abel_wikidata",
+      "kind": "wikidata",
+      "title": "Niels Henrik Abel (Q124115), verified live via the Wikidata API (2026-11-04): description 'Norwegian mathematician (1802-1829)', Korean label 닐스 헨리크 아벨, birth 5 August 1802 (a second 25 August value is also stored) and death 6 April 1829, image the Gorbitz portrait. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q124115"
+    },
+    {
+      "id": "src_abel_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Niels Henrik Abel' (article body read from the public page). CANONICAL SIGNIFICANCE SOURCE: Norwegian mathematician (1802-1829) and pioneer in several branches of modern mathematics; his first papers in 1823 addressed functional equations and integrals, and he was the first to formulate and solve an integral equation; in 1824 he published the first valid proof that the general equation of the fifth degree cannot be solved by radicals; Abel's theorem is the foundation of the theory of Abelian integrals and Abelian functions; his theory of elliptic functions; his work paved the way for Galois's group theory; the Abel Prize was established by the Norwegian government on 1 January 2002. Scholarly reference; its praise is retrospective.",
+      "url": "https://www.britannica.com/biography/Niels-Henrik-Abel"
+    },
+    {
+      "id": "src_abel_mactutor",
+      "kind": "biography",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Niels Henrik Abel' by J. J. O'Connor and E. F. Robertson (full biography read, including the quoted letters to Holmboe and others and the passages citing Ore and Ayoub). Covers the 1821 belief that he had solved the quintic and the mistake found while preparing a numerical example, Degen's advice to study elliptic integrals, the 1824 pamphlet printed at his own expense, the stay in Berlin with Crelle and the founding volumes of Crelle's Journal, the Paris memoir on the addition theorem that Cauchy 'scarcely deigned to glance at' (Abel's own letter), the competition with Jacobi in 1828, Gauss never opening his quintic paper, and the later finding of the lost memoir. Scholarly history site drawing on Ore and other secondary works; includes Abel's own letters, which are self-report.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Abel/"
+    },
+    {
+      "id": "src_abel_nbl",
+      "kind": "biography",
+      "title": "Norsk biografisk leksikon, 'Niels Henrik Abel' (Norwegian national biographical dictionary, Arild Stubhaug's entry; read in Norwegian in full for the career sections). Gives the school and university years, the unreadable six-page 1824 quintic proof printed privately, the personal letter to King Karl Johan in 1825 asking to travel at once, the Berlin months with Crelle and the seven contributions to the first volume of Crelle's Journal, Paris 1826 and the neglected memoir, the unsuccessful grant requests after his return, the 1828 priority dispute with Jacobi, the stringent proof method (binomial series), and his later reputation as a national hero. Independent Norwegian scholarly biography; its closing assessment is admiring and national in tone.",
+      "url": "https://nbl.snl.no/Niels_Henrik_Abel"
+    },
+    {
+      "id": "src_abel_snl",
+      "kind": "biography",
+      "title": "Store norske leksikon, 'Niels Henrik Abel' (Norwegian encyclopedia, read in Norwegian). Short independent summary: Holmboe discovered his talent at school, the privately printed 1824 quintic proof, the foreign scholarship and Berlin with Crelle, the Paris memoir treated 'very indifferently' by the committee so that the manuscript disappeared and was printed only in 1841, the competition with Jacobi that mathematicians watched closely, the efforts of Crelle and French academicians to obtain a post for him, and his death on 6 April 1829.",
+      "url": "https://snl.no/Niels_Henrik_Abel"
+    },
+    {
+      "id": "src_abel_crelle_letter",
+      "kind": "archive",
+      "title": "Niels Abel's letter to August Crelle, Christiania, 25 September 1828 (handwritten German original, English translation on the MacTutor site, read in full). SELF-REPORT: he asks to be told promptly whether the Berlin appointment will succeed, comments on Jacobi's and Legendre's remarks on his elliptic-function work, asks Crelle to print his elliptic-function paper first, and says the equations paper will need much more effort. Primary document, used only for his own stated plans and for how he writes about Jacobi.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Abel_Crelle/"
+    },
+    {
+      "id": "src_abel_bjerknes",
+      "kind": "biography",
+      "title": "C.-A. Bjerknes, 'Niels-Henrik Abel: tableau de sa vie et de son action scientifique' (Paris: Gauthier-Villars, 1885; French translation, Internet Archive scan from the University of Toronto; only the title page, the frontispiece plate and the passage on the Paris portrait by Gorbitz were read, so the 392-page text was not used for any trait row). Used for the portrait: the title page announces 'orne d'un portrait d'Abel' and the text calls the portrait by Gorbitz in Paris an excellent likeness. Pre-1931 publication.",
+      "url": "https://archive.org/details/nielshenrikabelt00bjer"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 78,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_nbl, src_abel_mactutor, src_abel_britannica | 1823-1828 | national biography, history-of-mathematics site, encyclopedia] The Norwegian biography says his binomial-series paper in the first volume of Crelle's Journal sets out the convergence criteria completely and shows 'exactness and stringency' often missing in proofs, making him a pioneer of modern rigorous proof; MacTutor quotes his own letter to Holmboe saying that apart from the simplest cases there was hardly an infinite series whose sum had been rigorously determined, and that he set out to put analysis on a firm basis; Britannica calls his 1824 quintic result the first valid proof of impossibility. The published works themselves are on record and three independent reference works agree; the stated attitude to rigour is his own letter, and the stringency judgement is retrospective, so confidence stays below 0.7. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 82 / 0.66 to 78 / 0.6 because all three sources are retrospective admiring biographies and no source assesses his method independently."
+    },
+    "systems_abstraction": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_nbl, src_abel_mactutor, src_abel_britannica | 1826-1828 | national biography, history-of-mathematics site, encyclopedia] The Norwegian biography stresses the 'colossal generality' of the problems he posed and the unforeseen links between algebra, analysis and geometry that his Paris memoir revealed; MacTutor says the memoir's theorem is a vast generalisation of Euler's relation for elliptic integrals and contains the first appearance of the genus; Britannica names Abel's theorem as the basis of Abelian integrals and functions. SELF-CALIBRATION (agent): top-risk row; lowered from 80 / 0.62 to 76 / 0.58 because the 'generality' judgement is retrospective, admiring national-biography praise of the works, which is a stronger claim than any documented behaviour."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_mactutor, src_abel_nbl | 1821-1824 | history-of-mathematics site, national biography] MacTutor says he believed in 1821 that he had solved the quintic and submitted a paper, then, asked by Degen for a numerical example, found the mistake himself; the Norwegian biography confirms he first thought he had found the solution that Europe had sought for over 250 years and that Degen advised him to turn to elliptic transcendents; in 1824 he published the proof that the general quintic cannot be solved by radicals. The discovery of the error rests on one detailed account (MacTutor) and the Norwegian biography does not say who found the mistake, so confidence is moderate."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_nbl, src_abel_mactutor, src_abel_snl | 1827-1828 | national biography, history-of-mathematics site, encyclopedia] After the Paris memoir went unnoticed and his grant was refused, he returned home without a post, advertised for private pupils and still sent Crelle a stream of treatises on equations, elliptic functions and series (Norwegian biography); MacTutor (citing Ore) records that when the memoir seemed lost he wrote its main theorem down again in the two-page 'A theorem' (the Norwegian biography mentions a similar short restatement written later at Froland). The pattern of continued output through neglect and money trouble is documented by independent sources; the row deliberately rests on that and not on any inference from illness."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abel_nbl, src_abel_mactutor, src_abel_snl | 1824-1825 | national biography, history-of-mathematics site, encyclopedia] He had the 1824 quintic proof printed at his own expense in French, squeezed into six pages, to have something to show on his travels (MacTutor, Norwegian biography, Store norske leksikon); in summer 1825, finding two more years of waiting too long, he wrote a personal letter to King Karl Johan asking to travel abroad at once and obtained permission (Norwegian biography); after returning he advertised for private pupils. The actions are documented in two independent biographies; the sources say little on his reasons, hence moderate confidence."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_abel_mactutor, src_abel_nbl, src_abel_snl, src_abel_crelle_letter | 1828 | history-of-mathematics site, national biography, encyclopedia, own letter] When shown Jacobi's 1828 paper on transformation of elliptic integrals he quickly showed Jacobi's results followed from his own, added a note to that effect, and put his work on solvable equations aside to compete with Jacobi on elliptic functions, writing several papers quickly (MacTutor); the Norwegian biography calls it an intense priority dispute and Store norske leksikon says mathematicians followed the contest closely. His own letter to Crelle, however, is curious and generous about Jacobi ('he is in possession of excellent things'), so the row is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "닐스 헨리크 아벨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/niels-henrik-abel-jaeger-1885.jpg",
+    "width": 962,
+    "height": 1200,
+    "source": "Frontispiece portrait of Niels Henrik Abel in C.-A. Bjerknes, 'Niels-Henrik Abel: tableau de sa vie et de son action scientifique' (Paris: Gauthier-Villars, 1885), a photomechanical print credited 'Ljustryck af J. Jaeger, Stockholm', reproducing the drawing Johan Gorbitz made of Abel in Paris in 1826 (the original charcoal and chalk drawing, 21.5 x 17 cm, is in Norwegian collections; the Norsk portrettarkiv record names Gorbitz and 1826). Internet Archive copy digitised from the University of Toronto (page image 2756 x 4390), cropped to the portrait and downscaled to 962 x 1200 with no upscaling.",
+    "license": "Public domain: published in Paris in 1885 (before 1931); the original drawing is by an artist who died in 1853",
+    "licenseUrl": "https://archive.org/details/nielshenrikabelt00bjer",
+    "attribution": "Photomechanical print (J. Jaeger, Stockholm) after Johan Gorbitz's 1826 drawing, in C.-A. Bjerknes, Niels-Henrik Abel (Paris, 1885), public domain",
+    "attributionUrl": "https://archive.org/details/nielshenrikabelt00bjer",
+    "creator": "Johan Gorbitz (drawing, 1826); J. Jaeger, Stockholm (1885 plate)",
+    "date": "1826 drawing; 1885 plate",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/nielshenrikabelt00bjer"
+  },
+  "provenance": {
+    "createdAt": "2026-11-04T00:00:00Z",
+    "updatedAt": "2026-11-04T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED, LEAD USED (same image from a documented pre-1931 plate). The lead image is the lifetime portrait of Abel drawn by Johan Gorbitz in Paris in 1826 (NBL: the only portrait made while he lived), via the plate in Bjerknes 1885. HOLDER RECORD CHECKED: the Norsk portrettarkiv (Riksantikvaren) item A000005 via its open Fotoware API (kulturminnebilder.ra.no/fotoweb/archives/5030-Norsk-portrettarkiv/Portretter/A000005.tif.info, JSON read): 'Abel, Niels Henrik', artist 'Gorbitz, Johan 1782-1853', drawing in charcoal and white chalk, 21.5 x 17 cm, oval, half-figure, 1826, with a note 'see letter from the Nasjonalgalleriet 25.08.88' and a reference to Norsk biografisk leksikon; the archive's scan is 2480 x 3256. The record carries NO rights or licence statement (neither a confirmation nor a restriction), the archive's own terms pages could not be opened (the old portrettarkiv.ra.no URLs return 404) and Wikidata lists the University of Oslo Library as owner of the drawing, so the holder route is silent and I did NOT rely on it (the Commons PD-art tag on that scan is consistent but is not a basis). holder_contradiction_found: false (silence, not contradiction). BASIS USED: the frontispiece plate of C.-A. Bjerknes, 'Niels-Henrik Abel: tableau de sa vie et de son action scientifique' (Paris: Gauthier-Villars, 1885), Internet Archive item nielshenrikabelt00bjer (University of Toronto copy, page image n7, 2756 x 4390). The title page announces 'orne d'un portrait d'Abel'; the plate is captioned 'Ljustryck af J. Jaeger, Stockholm' (a photomechanical print) with Abel's facsimile signature; I compared it with the archive's scan of the 1826 drawing and it reproduces the same drawing (same pose, oval mount, collar and coat). Publication in Paris in 1885 is a documented pre-1931 publication, so the plate is public domain in the United States by age; the underlying drawing is by an artist who died in 1853. The Internet Archive record states no rights metadata. Cropped to the portrait and downscaled to 962 x 1200 (never upscaled), saved as public/portraits/niels-henrik-abel-jaeger-1885.jpg. KIND: likeness is proposed because the plate reproduces a drawing made from the sitter in Paris (NBL and Bjerknes both say Gorbitz portrayed him there) and not a later imagined image; a conservative reviewer may prefer historical_depiction because the file is a reproduction plate, which is flagged for the lead. PREFLIGHT: QID VERIFIED LIVE (2026-11-04, Wikidata API) Q124115 description 'Norwegian mathematician (1802-1829)', Korean label 닐스 헨리크 아벨, birth 5 August 1802 and death 6 April 1829; not in prod64.txt (grep of Abel and Q124115 found nothing); no candidate file or other candidate/src file contains Q124115. REGION western_europe (precedents edvard-munch, henrik-ibsen, fridtjof-nansen, roald-amundsen), ERA 19th_century, nationality NO. ZERO POLITICS: portfolio science; his father's political career, Norway's union politics and the post-1827 job-seeking are context only and not scored; no family, health or private-life inference (his parents' circumstances, his engagement and his tuberculosis are not used). VOCABULARY: occupation mathematician, field mathematics, impact domain scientific, tags theorist and late_recognition, archetype scholarly_specialist, all present in en.ts and ko.ts. KO NAME: Wikidata Korean label 닐스 헨리크 아벨. HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED (attribution_confirmed true): dated, documented works, letters and independent biographies. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Niels Henrik Abel' (https://www.britannica.com/biography/Niels-Henrik-Abel). READ (5 substantive sources plus Wikidata and a portrait-provenance book): (1) Britannica; (2) MacTutor biography; (3) Norsk biografisk leksikon (Norwegian, career sections read in full); (4) Store norske leksikon (Norwegian); (5) Abel's letter to Crelle, 25 September 1828 (self-report); (6) Bjerknes 1885 title page, plate and the Gorbitz passage only. PERSPECTIVES: English-language reference and history site, two Norwegian national reference works, a 19th-century Norwegian mathematician-biographer (portrait only) and Abel's own letters. COUNTER-VOICES AND LIMITS: Gauss never opened Abel's quintic paper and Cauchy, by Abel's own account, 'scarcely deigned to glance' at the Paris memoir (MacTutor, NBL); the Norwegian biography notes his trip was seen at home as nearly a failure; the Jacobi row is a priority contest that Abel's own letter treats generously. All sources are admiring in the retrospective sense; none is adversarial about his conduct. NOT OPENED: Oystein Ore's 1957 biography, Arild Stubhaug's full book, Abel's collected letters in full, the Abel Prize site (the abelprize.no biography URL tried returned 404) and the 1829 Crelle obituary. SELF-CALIBRATION (agent): top-risk rows reviewed: analytical_rigor (82/0.66, kept: three independent reference works agree and the published works document it), systems_abstraction (80/0.62 lowered to 76/0.58: retrospective admiring praise of the works, stronger than documented behaviour), persistence (72/0.56, kept: two independent biographies document continued output through neglect and the row avoids any illness inference). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. Card 1 states the quintic result (Britannica's 'first valid proof' wording used only because Britannica says it), card 2 elliptic functions and Abel's theorem, card 3 rigour in analysis and the Abel Prize. HANDBACK64: {\"slug\": \"niels-henrik-abel\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"PARTLY VERIFIED: Norsk portrettarkiv item cited; Internet Archive Bjerknes 1885 book plate gives a documented pre-1931 publication\", \"holder_record_checked_by_you\": \"Norsk portrettarkiv (Riksantikvaren) item A000005 via the open Fotoware JSON API: Gorbitz 1782-1853, charcoal/white-chalk drawing 1826, 21.5 x 17 cm oval, note 'see letter from Nasjonalgalleriet 25.08.88'; NO rights or licence statement in the record (silent), archive terms pages 404; Wikidata lists University of Oslo Library as owner. Also Internet Archive metadata for nielshenrikabelt00bjer (Paris 1885, University of Toronto copy; no rights metadata).\", \"holder_contradiction_found\": false, \"initial_lead\": \"Johan Gorbitz 1826 portrait (Riksarkivet Norsk portrettarkiv; plate in Bjerknes 1885)\", \"final_portrait_source\": \"Frontispiece plate 'Ljustryck af J. Jaeger, Stockholm' in C.-A. Bjerknes, Niels-Henrik Abel: tableau de sa vie et de son action scientifique (Paris: Gauthier-Villars, 1885), Internet Archive item nielshenrikabelt00bjer, page image n7 (2756x4390), reproducing Johan Gorbitz's 1826 drawing; cropped and downscaled to 962x1200; https://archive.org/details/nielshenrikabelt00bjer\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"systems_abstraction\", \"old_score\": 80, \"old_confidence\": 0.62, \"new_score\": 76, \"new_confidence\": 0.58, \"reason\": \"The 'colossal generality' judgement is retrospective admiring national-biography praise of the works, stronger than any documented behaviour\"}], \"reviewed_kept\": [\"analytical_rigor\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 82 / 0.66 to 78 / 0.6 because all three sources are retrospective admiring biographies and no source assesses his method independently."
+  }
+}
