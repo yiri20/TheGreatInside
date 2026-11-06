@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "shitao",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Shitao",
+    "aliases": [
+      "Shi Tao",
+      "Shih T'ao",
+      "Zhu Ruoji",
+      "Daoji",
+      "Yuanji",
+      "Kugua Heshang",
+      "Dadizi",
+      "Qingxiang Laoren"
+    ],
+    "wikidataId": "Q469439",
+    "birthYear": 1642,
+    "deathYear": 1707,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "poet"
+    ],
+    "fieldIds": [
+      "art",
+      "literature"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_shitao_wikidata",
+      "kind": "wikidata",
+      "title": "Shitao (Q469439), verified live via the Wikidata API (2026-11-05): English label 'Shitao', description 'Chinese painter and poet (1642-1707)', Korean label 석도, birth given as 1642 (with 1630 and 1641 alternatives), death 1707 (year precision). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q469439"
+    },
+    {
+      "id": "src_shitao_npm",
+      "kind": "institution",
+      "title": "National Palace Museum, Taipei, online catalogue record 'Small Self-Portrait Planting a Tree' (Qing Shitao zixie zhongsong tu xiaozhao, handscroll, 1674, object number Zeng-hua 000114N000000000), read in full in Chinese and English: catalogue essay by Liu Fang-ru and the colophons by Dai Benxiao, Tang Yansheng, Zulin, Wang Shimao and others, the 1915 note by Song Bolu and the 1962 note by Luo Jialun. CANONICAL SIGNIFICANCE SOURCE: Shitao (Zhu Ruoji), a descendant of the Ming imperial house who became a monk after 1644 and lived at Xuancheng, Nanjing and Yangzhou, later gave up monastic life and made a living as a professional painter; excelled at landscapes, fruit-and-vegetable subjects and orchids and bamboo, figure painting being rarer; free, uninhibited brush and moist ink; noted for advocating that one find and create a unique style (the museum's phrase for his maxim 'I use my own method'). The record dates the self-portrait to 1674 on his own inscription, when he was in the Xuancheng area, and calls the figure Shitao himself. Museum cataloguing is admiring; the colophons are by friends and later owners.",
+      "url": "https://digitalarchive.npm.gov.tw/Painting/Content?pid=14856&Dept=P"
+    },
+    {
+      "id": "src_shitao_princeton",
+      "kind": "institution",
+      "title": "Princeton University Art Museum, Asian art web feature on Shitao's Luo-Fu Mountains album leaves ('Asian Art Website: Luo-Fu Mountains'), read in full. A modern museum text: Shitao was born a prince in the Ming imperial family, became an itinerant monk in the turmoil after 1644, and after 1696 settled in Yangzhou where he spent his late years as a professional painter; his later paintings are characterised by fluid brushwork and moist, graded ink-tones; the Luo-Fu Mountains leaves are largely imaginative because he never visited the mountains, built on travelogue texts and natural observation, with influence from woodblock illustration. The page does not mention his treatise. Short; its dates for Yangzhou (1696) differ from other sources that give about 1695.",
+      "url": "https://artmuseum.princeton.edu/art/stories-perspectives/asian-art-website-luo-fu-mountains"
+    },
+    {
+      "id": "src_shitao_qingshigao",
+      "kind": "archive",
+      "title": "Draft History of Qing (Qingshigao, compiled 1914-1927), juan 504, section on painters (Chinese Wikisource transcription), the entry for the monk Daoji (Shitao) read in full with the neighbouring entries on Kuncan, Zhu Da and Hongren. A later official compilation: Daoji, style name Shitao, of the Ming Chu princely line, became a monk after the change of dynasty; his brush was free and unrestrained, shedding old conventions yet in truth accord with the ancients; in later life he travelled the Jiang-Huai region and people vied to honour him; he wrote a one-roll treatise on painting whose arguments are called profound; he is ranked with Kuncan as 'the two Shi'. Brief and retrospective, written two centuries later; the notices of other monk-painters sit in the same passage. The political framing of the surviving Ming-descended monks in the passage is context only and is not scored.",
+      "url": "https://zh.wikisource.org/wiki/%E6%B8%85%E5%8F%B2%E7%A8%BF/%E5%8D%B7504"
+    },
+    {
+      "id": "src_shitao_huafanglu",
+      "kind": "archive",
+      "title": "Li Dou, Yangzhou huafang lu (Record of the Painted Boats of Yangzhou, 1795), juan 2, entry for the monk Daoji, 'Shitao' (Chinese Wikisource transcription), read in full. A local record written roughly ninety years after his death by a Yangzhou resident: lists his names (Dadizi, Qingxiang Chenren, Xiazunzhe, Kugua Heshang), says he was skilled at landscape and flowers with free, spirited brushwork, and was also skilled at piling rockery, naming the Wanshi (Ten Thousand Stones) Garden of the Yu family in Yangzhou as coming from his hand and still praised, among the other rockery makers of the city. Independent of the Qing court history; the garden attribution is a single local tradition, not corroborated by another source read.",
+      "url": "https://zh.wikisource.org/wiki/%E6%8F%9A%E5%B7%9E%E7%95%AB%E8%88%AB%E9%8C%84/02"
+    },
+    {
+      "id": "src_shitao_huayulu",
+      "kind": "archive",
+      "title": "Shitao, 'Kugua heshang huayulu' (Monk Bitter Melon's Remarks on Painting; Chinese Wikisource transcription of the eighteen-chapter text), the opening chapters read (the single stroke or 'one line', resolving the rules, transformation): argues that method arises from a single stroke, that rules should not bind the painter, that one should draw on the ancients in order to transform them, and that 'I am I, and have my own'. SELF-REPORT: the text states his own theory and is not evidence of how he actually worked; used only to support the row on abstract theory and as the source for what he claimed. Authorship is attributed in the Draft History of Qing and the museum record; the text's date and exact form are not examined here.",
+      "url": "https://zh.wikisource.org/wiki/%E8%8B%A6%E7%93%9C%E5%92%8C%E5%B0%9A%E7%95%AB%E8%AA%9E%E9%8C%84"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_shitao_npm, src_shitao_qingshigao, src_shitao_princeton | 1674-1707 | museum catalogue, later official compilation, museum text] The Taipei museum describes free, uninhibited brushwork and moist ink and says he advocated finding and creating a unique style; the Draft History of Qing says his brush shed old conventions while in truth agreeing with the ancients; Princeton notes fluid brushwork and graded ink-tones. All three are retrospective admiring summaries and the 'my own method' stance is also his own claim (src_shitao_huayulu). The originality of manner is credible but not independently analysed in the sources read. SELF-CALIBRATION (agent): top-risk row; lowered from 66 / 0.46 to 62 / 0.42 because the praise is retrospective, the Qing history passage is a single sentence and the stance is partly his own."
+    },
+    "systems_abstraction": {
+      "score": 52,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_shitao_qingshigao, src_shitao_huayulu | c.1700 | later official compilation, self-authored treatise] The Draft History of Qing records that he wrote a one-roll treatise on painting whose arguments are profound, and the treatise as transcribed grounds all painting method in a single stroke and discusses how rules arise from it. Authorship of a theoretical work is documented; the abstraction itself is read only from his own text, so the row is modest and confidence low."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shitao_npm, src_shitao_huafanglu, src_shitao_qingshigao | 1674-1707 | museum catalogue, Yangzhou local record, later official compilation] The museum record lists landscapes, fruit-and-vegetable subjects, orchids and bamboo, with figure painting rarer, and carries his own poem on the 1674 scroll; Li Dou says he also piled rockery and credits the Wanshi Garden to his hand; the Qing history adds a written treatise. The range is real but within one aesthetic field, and the garden attribution rests on one local tradition."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_shitao_npm, src_shitao_princeton, src_shitao_qingshigao | 1644-1707 | museum catalogue, museum text, later official compilation] He lived as an itinerant monk in several regions, then, the museum says, gave up monastic life and supported himself as a professional painter, settling in Yangzhou after 1696 (Princeton), where the Qing history says people vied to honour him. The change of way of life is documented; why and how he managed it is not, and the sources read give no detail of his working arrangements, so the row is modest. Political circumstances of the dynastic change are not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "석도"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/shitao-shitao-1674.jpg",
+    "width": 1089,
+    "height": 1200,
+    "source": "Shitao, 'Small Self-Portrait Planting a Tree' (also called Master Shi Planting Pines), light-colour handscroll on paper, dated 1674 on his own inscription, National Palace Museum, Taipei (object number Zeng-hua 000114N000000000; donated by the wife of Luo Jialun). The museum catalogues the seated figure as a self-portrait of the artist when he was about thirty-three. The file is a reproduction of the figure detail (1513 x 1667) downscaled to 1089 x 1200 with no upscaling; it comes from a printed reproduction and shows print grain. The museum record offers its own images under open licences (CC0 at 1 megapixel, CC BY 4.0 at 6 megapixels); the painting itself is long out of copyright.",
+    "license": "Public domain (a 1674 painting by an artist who died in 1707; the holder's own digital images are offered under CC0 and CC BY 4.0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Shitao, Small Self-Portrait Planting a Tree, 1674. National Palace Museum, Taipei, public domain",
+    "attributionUrl": "https://digitalarchive.npm.gov.tw/Painting/Content?pid=14856&Dept=P",
+    "creator": "Shitao",
+    "date": "1674",
+    "kind": "likeness",
+    "sourcePageUrl": "https://digitalarchive.npm.gov.tw/Painting/Content?pid=14856&Dept=P"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / LEAD USED AFTER HOLDER VERIFICATION (lead image accepted). Lead: Commons Shitao-autoportrait.jpg (1513x1667), a detail of the 1674 handscroll 'Small Self-Portrait Planting a Tree' (Master Shi Planting Pines), National Palace Museum, Taipei; the Commons file cites an English Wikipedia upload sourced from an NPM selection page and carries PD-art and PD-old-100; the Commons parent file (ShiTaoMaster Shi Planting Pines.jpg, 4347x350) carries PD-Art PD-old-auto-expired deathyear 1707 and the Wikidata item Q121366391 carries the NPM object number Zeng-hua 000114N000000000 and the NPM URL. HOLDER RECORD CHECKED: the NPM record (digitalarchive.npm.gov.tw/Painting/Content?pid=14856&Dept=P) opened and read: title 'Small Self-Portrait Planting a Tree', author Shitao, 1674 on his inscription, 40.3 x 170 cm, donated by Luo Jialun's wife; the page states the 1-megapixel image is CC0 and the 6-megapixel image CC BY 4.0 (use without application, any purpose), main subject given as 'Shitao self-portrait'; no restriction or contradiction. The CAPTCHA-guarded download was not used or bypassed. The image used is the Commons reproduction (a scan of the figure from a printed reproduction, with visible print grain); the work itself is a 1674 painting by an artist who died in 1707, so no copyright subsists in the painting or a faithful reproduction. kind likeness: a self-portrait attributed to Shitao by the holder; the 1962 colophon by Luo Jialun traces the scroll and notes that an apparent taboo-character oddity in a colophon was a later remounting repair; a search summary mentioned that some scholars question whether the face was painted by a professional painter, which I did not read in the original, so I treat the attribution as the holder's. IMAGE INSCRIPTION CHECK: no lettering visible in the crop; inscription read from the holder record. Downscaled from 1513x1667 to 1089x1200, never upscaled; saved public/portraits/shitao-shitao-1674.jpg. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q469439 label 'Shitao', description 'Chinese painter and poet (1642-1707)', Korean label 석도, birth 1642 (alternatives 1630 and 1641 also on the item), death 1707; not in prod65.txt; no candidate file or QID collision. REGION east_asia, ERA early_modern, nationality CN (precedents xu-guangqi, li-shizhen); no historical polity key (Ming-Qing transition; the only labelled polity is Ming and he lived mostly under the Qing). ZERO POLITICS: portfolio arts; his Ming-royal descent, the Ming-Qing transition and the loyalist framing in the sources are context only and are not scored or carded; his later patronage by the Qing emperor is not used. PSEUDONYM: Shitao is the art name of Zhu Ruoji (monastic name Yuanji or Daoji, also Dadizi, Qingxiang Laoren, Kugua Heshang, Xiazunzhe); dates are disputed (1642 vs about 1640 and death 1707 vs 1718); no row depends on a date. VOCABULARY: occupations painter and poet, fields art and literature, impact domains artistic and cultural, archetype creative_creator, no tags; all labelled in en.ts and ko.ts. KO NAME: Korean Wikipedia title and Wikidata label 석도. HISTORICAL ATTRIBUTION (lead screen: limited_but_usable): CONFIRMED USABLE with limits. attribution_confirmed true: a documented dated work with his inscription, a museum catalogue, a near-contemporary local record (1795) and a later official history give a few attributable behaviours; limits applied: 4 rows only, confidence 0.38-0.42 (cap 0.50), his own treatise treated as self-report, no legend or hagiography scored, no private-life inference. CANONICAL SIGNIFICANCE SOURCE: National Palace Museum, Taipei, catalogue record (https://digitalarchive.npm.gov.tw/Painting/Content?pid=14856&Dept=P). READ (5 substantive sources plus Wikidata): (1) NPM record with essay and colophons, full; (2) Princeton University Art Museum web feature; (3) Draft History of Qing juan 504 entry; (4) Yangzhou huafang lu juan 2 entry; (5) Huayulu opening chapters (self-report). PERSPECTIVES: modern museum scholarship (two museums), a later official history, an eighteenth-century local record, near-contemporary friends' colophons (in the NPM record), and his own treatise. COUNTER-VOICE: thin: the Princeton text notes the Luo-Fu album leaves are largely imaginative and the Qing history ranks him with Kuncan rather than above; no hostile voice was found in the sources read. NOT OPENED: the Metropolitan Museum essay and catalogue entries (bot wall and rate limit), Britannica (bot wall), Wen Fong, Hay and other scholarly monographs, Zheng Banqiao's remarks, Zhang Geng's 1739 painters' record, Shitao's poems; Hongren/Kuncan comparisons not used. Because the sources are mostly retrospective and admiring, no row exceeds 0.42 confidence. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (66/0.46 lowered to 62/0.42), systems_abstraction (kept: already 52/0.38 and flagged as self-report), cross_domain_range and adaptability (not high-risk; modest scores). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. HANDBACK65: {\"slug\": \"shitao\", \"attribution_screen_result\": \"limited_but_usable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Commons self-portrait copied from an English Wikipedia upload with no holder\", \"holder_record_checked_by_you\": \"Opened the holder record: National Palace Museum, Taipei, digitalarchive.npm.gov.tw/Painting/Content?pid=14856 ('Small Self-Portrait Planting a Tree', object no. Zeng-hua 000114N000000000, 1674, donated by Luo Jialun's wife): the record offers a 1-megapixel download under CC0 and a 6-megapixel download under CC BY 4.0, no restriction; the museum's own subject field reads 'Shitao self-portrait' and the catalogue text and 1915 and 1962 colophons treat the figure as him. The download buttons use a CAPTCHA, which was not bypassed; the image used is the Commons reproduction (Shitao-autoportrait.jpg), whose underlying work is public domain by age (artist d. 1707) and whose stated source was an NPM selection page.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Shitao self-portrait (1674) on Commons\", \"final_portrait_source\": \"Shitao, 'Small Self-Portrait Planting a Tree' (Master Shi Planting Pines), handscroll, 1674, National Palace Museum, Taipei (object no. Zeng-hua 000114N000000000, https://digitalarchive.npm.gov.tw/Painting/Content?pid=14856&Dept=P); Commons reproduction File:Shitao-autoportrait.jpg 1513x1667 downscaled to 1089x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": \"The lead survived because the Wikidata item for the painting carried the National Palace Museum object number and URL; the holder record exists and states open licences (CC0 at 1 megapixel, CC BY 4.0 at 6 megapixels), so the holder confirmed the Commons route instead of contradicting it. The risk was never the rights but the unknown holder and the identity of the sitter, both settled by the museum's own record.\", \"image_inscription_check\": \"none visible in the cropped figure detail (the scroll's own inscription, read from the museum record, is signed 'Qingxiang Shiji' (Shitao) and dated 1674 in the winter, and the museum title and subject field name it a self-portrait); the Commons crop shows only the seated figure with pines, a bamboo pole and a tiny attendant at the lower left\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 66, \"old_confidence\": 0.46, \"new_score\": 62, \"new_confidence\": 0.42, \"reason\": \"Praise is retrospective, the Qing history passage is one sentence and the 'my own method' stance is partly his own claim.\"}], \"reviewed_kept\": [\"systems_abstraction\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4}"
+  }
+}

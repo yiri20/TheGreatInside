@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hiraga-gennai",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hiraga Gennai",
+    "aliases": [
+      "Gennai Hiraga",
+      "Hiraga Kyukei",
+      "Furai Sanjin",
+      "Fukuuchi Kigai",
+      "平賀源内"
+    ],
+    "wikidataId": "Q968242",
+    "birthYear": 1728,
+    "deathYear": 1780,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "naturalist",
+      "writer"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "literature",
+      "technology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "literary"
+    ],
+    "tagIds": [
+      "polymath",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gennai_wikidata",
+      "kind": "wikidata",
+      "title": "Hiraga Gennai (Q968242), verified live via the Wikidata API (2026-11-05): English label 'Hiraga Gennai', description 'Japanese pharmacologist and writer (1728-1780)', Korean label 히라가 겐나이, Japanese label 平賀源内, born 1728-01-01 (year precision), died 1780-01-24, citizenship Japan, several occupations. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q968242"
+    },
+    {
+      "id": "src_gennai_kotobank",
+      "kind": "biography",
+      "title": "Kotobank (dictionary aggregator), entries 'Hiraga Gennai' from Shogakukan Daijisen, Nihon Kokugo Daijiten, Nipponica, Heibonsha's World Encyclopedia and Mypedia, Britannica Concise, Yamakawa's history dictionary, Nihon Jinmei Daijiten and Obunsha's history dictionary (Japanese), read in full. CANONICAL SIGNIFICANCE SOURCE: the reference works agree that he was an Edo-period herbalist (honzo scholar), inventor and comic writer from Sanuki who studied under Tamura Ransui, held product fairs from 1757 (the 1762 fair drew over 1,300 items from more than 30 provinces) and compiled the Butsurui Hinshitsu (1763), made fire-resistant asbestos cloth, a thermometer and a copy of the imported electrostatic machine (erekiteru, 1776), painted in Western style and taught it to Odano Naotake (the Akita school), and wrote satirical fiction and a puppet play; they also record that his Chichibu, Tada and Akita mining ventures failed (Heibonsha, Yamakawa: a 'mountebank' reputation), that the erekiteru found no patrons (Nipponica), that he sought but did not obtain an official post, that he was imprisoned in 1779 after a fatal incident and died there, and that the authorities never recognised him (Nipponica, Mypedia).",
+      "url": "https://kotobank.jp/word/%E5%B9%B3%E8%B3%80%E6%BA%90%E5%86%85"
+    },
+    {
+      "id": "src_gennai_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, 'Nichiran' exhibition column on Hiraga Gennai (Japanese), read in full: the Library presents him as one aspect of how Dutch learning was absorbed, an entrepreneur and popular-fiction writer who tried to use Western knowledge for society at large; it records his product exhibitions with Tamura Ransui, the Butsurui Hinshitsu (1763, six volumes, 360 selected items with some Dutch names), the asbestos-cloth treatise (1765) and the restoration of the erekiteru, that he hardly understood Dutch but collected European natural-history illustrations and met the head of the Dutch trading post, that his insect pictures were copied by Shiba Kokan, that his enterprises were not understood by the public and his life deteriorated, and that his friend Sugita Genpaku called him 'an extraordinary person'.",
+      "url": "https://www.ndl.go.jp/nichiran/s1/s1_4_column.html"
+    },
+    {
+      "id": "src_gennai_bunka",
+      "kind": "institution",
+      "title": "Agency for Cultural Affairs (Japan), Cultural Heritage Online, record 'Portrait of a Western Woman' (Seiyo Fujinzu, attributed to Hiraga Gennai; Kobe City Museum), read: calls him a theoretical leader of Western-style painting, records that in 1773 at the Ani copper mine in Akita he reportedly taught Western painting methods to Odano Naotake and Satake Shozan, calls this his only known oil painting while stating that the attribution is traditional and needs careful examination because no other works are confirmed as his, and summarises his career (domain medicine attendant, herbal medicine in Edo, product fairs, erekiteru and asbestos cloth, popular fiction).",
+      "url": "https://online.bunka.go.jp/db/heritages/detail/440276/1"
+    },
+    {
+      "id": "src_gennai_ieee",
+      "kind": "award_body",
+      "title": "IEEE Milestones record 'Elekiteru: First Electrostatic Generator in Japan, 1776' (dedicated 22 March 2025 at the Hiraga Gennai Memorial Museum, Kagawa; ETHW wiki page, first 100,000 characters read, the last 37,000 not read): the citation and proposers' history say he obtained a damaged imported device in Nagasaki about 1770, probably from a Dutch interpreter, and completed the repair in November 1776 (he wrote 'seven years', the proposers adopt six), that his knowledge of static electricity was only fragmentary, that demonstrations inspired Japan's first generation of electricity researchers, and that the surviving devices are attributed to him through family lore; it flags its own limits (the proposers' own translations, calendar conversion, the 'first in Japan' claim resting on the literature consulted, internal inconsistencies). An engineering-society award body, so an admiring commemorative voice with candid caveats.",
+      "url": "https://ethw.org/Milestones:Elekiteru:_First_Electrostatic_Generator_in_Japan,_1776"
+    },
+    {
+      "id": "src_gennai_lapham",
+      "kind": "press",
+      "title": "Lapham's Quarterly, contributor profile 'Hiraga Gennai' (no author named), read: a short English magazine note that he gave up his samurai inheritance to become a masterless retainer, moved to Edo in 1756 for botanical research, engineering and satirical writing, was called the 'Japanese Da Vinci', felt his inventions went unrecognised, and killed a disciple and died in prison of tetanus a month later. Brief, popular and uncited; used only as a cross-check of the outline.",
+      "url": "https://www.laphamsquarterly.org/node/7411"
+    },
+    {
+      "id": "src_gennai_ndl_1899",
+      "kind": "archive",
+      "title": "National Diet Library Digital Collections, Kakurin Yashi, Hiraga Gennai (Tokyo: Kobunkan, 1899; item 888008), item-level Public Domain Mark in its IIIF manifest; the plate printed near the front of the book is captioned 'Portrait of Hiraga Gennai'. Opened for the portrait only; the book text was not read.",
+      "url": "https://dl.ndl.go.jp/pid/888008"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_gennai_kotobank, src_gennai_ndl, src_gennai_bunka | 1752-1779 | reference works, national library, government heritage database] Nine reference works, the National Diet Library and the Agency for Cultural Affairs describe the same spread: herbal and product studies (the Butsurui Hinshitsu), Dutch learning and the collecting of European natural-history illustrations, manufactured goods (asbestos cloth, thermometer, ceramics, wool, mining), the erekiteru, Western-style painting taught to Odano Naotake, and popular fiction and a puppet play. The reference works also say the breadth went with uneven results (mines failed; the NDL says the public did not understand his enterprises), and the Agency for Cultural Affairs says the only oil painting attributed to him is attributed traditionally, so the row scores range of activity, not mastery in each field."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gennai_kotobank, src_gennai_ndl | 1754-1763 | reference works, national library] He left his family post in the Takamatsu domain in 1754 and went to Edo to study under Tamura Ransui, then with Tamura held the first of five product fairs in 1757 (the 1762 fair drew over 1,300 items from more than 30 provinces) and compiled the Butsurui Hinshitsu (Nipponica, Sekai Daihyakka, Britannica Concise, NDL). Several writers describe the fairs as a joint undertaking with his teacher, so the row scores his documented initiative in organising and publishing, not sole authorship."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gennai_ieee, src_gennai_kotobank, src_gennai_ndl | 1764-1776 | engineering-society award body, reference works, national library] He made fire-resistant cloth from asbestos in 1764 and published an illustrated account in 1765 (Nipponica, NDL), and obtained a damaged imported electrostatic machine in Nagasaki about 1770 and completed its repair in November 1776 after what he himself called seven years (the IEEE proposers adopt six); the proposers also say he had only fragmentary knowledge of static electricity, and a Japanese biography is quoted elsewhere as saying he restored it without fully understanding it. So the documented behaviour is long hands-on trial and repair of imported devices, not theory, and the details of the repair period rest partly on the proposers' reading of old texts."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_gennai_kotobank, src_gennai_lapham, src_gennai_ndl | 1754-1779 | reference works, magazine, national library] He gave up his domain post in 1754 and lived as a masterless retainer (Nipponica, Lapham's), put money into mining ventures that failed (Chichibu in 1774 with a loss, per Nipponica; Chichibu, Tada and Akita failed, per Sekai Daihyakka; Yamakawa notes the 'mountebank' reputation this earned), and the erekiteru demonstrations found no patron; the NDL says the public did not understand his enterprises and that his circumstances gradually worsened. The documented costs make this a dual-edged row; the financial detail of the ventures is thin in the sources, hence the low confidence and the inference label."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hiraga-gennai-anonymous-1899.jpg",
+    "width": 925,
+    "height": 1200,
+    "source": "Printed plate captioned 'Portrait of Hiraga Gennai' (Hiraga Gennai shozo) in Kakurin Yashi, Hiraga Gennai (Tokyo: Kobunkan, 1899), as digitised by the National Diet Library (NDL Digital Collections item 888008, IIIF canvas R0000003). It is a line-and-halftone print of a seated man in a dark robe holding a long curved fungus-shaped staff, with a small artist's seal at the lower left that cannot be read; the draughtsman is not named in the metadata. The scan of the book spread (3802 x 2929 pixels) carries library ownership stamps, which were left out by cropping to the picture only (1264 x 1640 pixels), then reduced to 925 x 1200 pixels; no upscaling, no retouching.",
+    "license": "Public domain (National Diet Library item-level Public Domain Mark; a Japanese book published in 1899, before 1931)",
+    "licenseUrl": "https://creativecommons.org/publicdomainmark/1.0/",
+    "attribution": "Anonymous illustration in Kakurin Yashi, Hiraga Gennai (Kobunkan, Tokyo, 1899); digitised by the National Diet Library, Japan (https://dl.ndl.go.jp/pid/888008)",
+    "attributionUrl": "https://dl.ndl.go.jp/pid/888008",
+    "creator": "Illustrator not identified",
+    "date": "1899 (published; a posthumous depiction)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://dl.ndl.go.jp/pid/888008"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "히라가 겐나이"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / RESOLVED WITH A DIFFERENT IMAGE (replacement). The lead image (Kimura Mokuro 1845 portrait on the cover of Gisakusha ko hoi, Keio University Library; Commons 'A Portrait of Kyukei Hiraga.jpg' tagged PD-old, source mita.lib.keio.ac.jp rare079) could not be verified at the holder: the Keio rare-book abstract page did not respond (connection failed on http and https), so the holder terms were not read and the route is not used. Instead I opened the NDL Digital Collections item records and IIIF manifests for two other depictions: Kakurin Yashi, Hiraga Gennai (Kobunkan, 1899; item 888008): rights code 'pdm', manifest 'Access Restrictions: PDM'; and Hara Tokusai's manuscript copy of Sentetsuzoden (item 2551755): also PDM. I used the 1899 plate: I downloaded frame 3 at full size and viewed it; the caption printed under the plate reads 'Hiraga Gennai shozo' (Portrait of Hiraga Gennai), which names him directly, so the Kyukei-versus-Gennai naming question does not arise (Kyukei is one of his pen names, as the Sentetsuzoden caption 'Hiraga Kyukei shozo' shows). The scan carries 'Imperial Library' ownership stamps on the picture, so I cropped to the picture area that excludes them; a small artist's seal at the lower left is illegible; the draughtsman is anonymous per the Commons description (not independently confirmed). A posthumous depiction (not a sitting): kind historical_depiction. The Sentetsuzoden frame (a pasted, plain line drawing with a caption 'Hiraga Kyukei shozo') was viewed and kept as the unused alternative. The Seiyo Fujinzu oil painting is a different subject. Not upscaled. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q968242 label 'Hiraga Gennai', description 'Japanese pharmacologist and writer (1728-1780)', ko label 히라가 겐나이, ja 平賀源内, born 1728 (year precision), died 1780-01-24; not in prod65.txt; no prior candidate file. REGION east_asia. ERA early_modern. ZERO POLITICS: primary identity herbalist, inventor and writer; his hope of a post under Tanuma and any rumours of protection are not used. VOCABULARY: occupations inventor, naturalist and writer, fields natural_science, literature and technology, tags polymath and innovator, archetype cross_disciplinary_generalist, impact domains scientific, technological and literary, all existing with EN and KO labels. KO NAME: Wikidata Korean label 히라가 겐나이 (short, standard). ATTRIBUTION: attribution_screen_result attributable CONFIRMED: dated fairs, publications (Butsurui Hinshitsu 1763, the asbestos treatise 1765), surviving artefacts and many reference works; the profile is sparse and uses only modern institutional and reference accounts. CANONICAL SIGNIFICANCE SOURCE: the Kotobank entries (Daijisen, Nipponica, Heibonsha and others) plus the NDL column (src_gennai_kotobank, src_gennai_ndl). READ (7 incl. Wikidata; 4 substantive plus 1 cross-check): (1) Kotobank aggregation of nine reference works, full; (2) NDL Nichiran column, full; (3) Agency for Cultural Affairs record of the Seiyo Fujinzu, full; (4) IEEE Milestones page on the Elekiteru (first 100,000 of 137,000 characters); (5) Lapham's Quarterly profile (short, cross-check). PERSPECTIVES: Japanese reference encyclopedias, the national library, the national cultural-heritage agency, an engineering society's award process, an English magazine. COUNTER-VOICES AND LIMITS: Yamakawa notes a 'mountebank' reputation after the Chichibu failure; Nipponica says the authorities never recognised him and the erekiteru found no patron; the NDL says the public did not understand his enterprises and his life deteriorated and that he hardly understood Dutch; the IEEE proposers say his knowledge of static electricity was only fragmentary and flag their own limits; the Agency for Cultural Affairs says the single oil painting attributed to him is only traditionally attributed. Sources disagree on his death date (December 1779 vs 24 January 1780 by calendar conversion) and on the repair period (six or seven years). NOT OPENED: the last 37,000 characters of the IEEE page, the Oxford 'An Early Episode in the History of Electrotherapy in Japan' page (redirected, not read), the Project MUSE chapter (HTTP 403), Hashimoto Sokichi, Lissa Roberts and other scholarship, Gennai's own writings (self-report), the Keio rare-book record, Wikipedia. EXCLUSIONS: the 1779 incident and imprisonment are noted as history only and no mental state or personality is inferred from them or from his death; his writing on same-sex themes, rumours of protection by Tanuma Okitsugu and any political motive are not used; the 'Japanese Da Vinci' label is a popular epithet and is not scored. SPARSE PROFILE: 4 rows, scores 60-74, confidence 0.45-0.55 (pre-modern cap 0.55); self-authored works were not opened and most descriptions are summaries. SELF-CALIBRATION (agent): top-risk rows reviewed: cross_domain_range (highest score and confidence; kept at 74/0.55 because nine reference works, the NDL and the Agency for Cultural Affairs agree and the rationale already bounds it by uneven results and the contested painting attribution), experimentation (kept at 64/0.48: already strong_inference and carries the fragmentary-understanding caveat), risk_tolerance (kept at 60/0.45: already low-confidence inference and dual-edged). No row lowered. HANDBACK65: {\"slug\": \"hiraga-gennai\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Keio University library rare-book record cited, not opened\", \"holder_record_checked_by_you\": \"Keio rare-book abstract page (mita.lib.keio.ac.jp rare079) unreachable (connection failed on http and https); Commons wikitext for the Keio lead read (PD-old, Kimura Mokuro 1845). NDL Digital Collections item API and IIIF manifest for item 888008 (Kakurin Yashi, Hiraga Gennai, Kobunkan, 1899): rights code pdm and 'Access Restrictions: PDM'; same for item 2551755 (Sentetsuzoden manuscript copy, alternative).\", \"holder_contradiction_found\": false, \"initial_lead\": \"Kimura Mokuro 1845 portrait of Hiraga Kyukei/Gennai (Keio University Library)\", \"final_portrait_source\": \"National Diet Library Digital Collections, Kakurin Yashi, Hiraga Gennai (Tokyo: Kobunkan, 1899), item 888008, IIIF canvas R0000003, printed plate captioned 'Portrait of Hiraga Gennai'; https://dl.ndl.go.jp/pid/888008; picture cropped from a 3802x2929 spread scan to 1264x1640 then reduced to 925x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"cross_domain_range\", \"experimentation\", \"risk_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4, \"image_inscription_check\": \"caption printed under the plate on the page: 平賀源内肖像 (Portrait of Hiraga Gennai); a small artist's seal at the lower left of the picture is illegible; library ownership stamps (Imperial Library) on the scan sit on the picture and were cropped out\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}

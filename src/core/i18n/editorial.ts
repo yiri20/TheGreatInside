@@ -12739,6 +12739,481 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1921 she helped found the Bunka Gakuin in Tokyo, moving from writing about education to teaching in a school where the arts were prominent and for which she wrote a literature textbook.",
   "yosano-akiko.interpretation.turning_point.1":
     "This is consistent with a writer who extended her work from poetry into institution-building and teaching.",
+  /* ---------------------------------------------------------- ahmad-shawqi (Roster65) */
+  "ahmad-shawqi.achievement.1":
+    "He was the leading poet of modern Arabic neoclassical poetry and was proclaimed amir al-shu'ara' (Prince of Poets) in 1927; his poems were collected as Ash-Shawqiyyat in four volumes.",
+  "ahmad-shawqi.achievement.2":
+    "He pioneered Arabic poetic drama, adapting traditional metres to dramatic dialogue in plays such as The Fall of Cleopatra, and wrote seven plays that were performed in Egypt in the last eight years of his life.",
+  "ahmad-shawqi.achievement.3":
+    "He also wrote novels and prose pieces (collected as The Markets of Gold), a long poem on Islamic history and a tribute poem to the Prophet.",
+  "ahmad-shawqi.moment.1":
+    "In a 1922 anthology the poet Khalil Mutran said Shawqi composed in company, in a carriage, on the railway and at official gatherings whenever he pleased, and might finish a poem, forget it for a month and then write it down at one sitting.",
+  "ahmad-shawqi.interpretation.moment.1":
+    "The remark is consistent with a fluent poet who composed quickly and could carry whole poems in his head.",
+  "ahmad-shawqi.moment.2":
+    "In the last eight years of his life he wrote seven poetic plays that were performed in Egypt, adapting classical metres to dramatic dialogue.",
+  "ahmad-shawqi.interpretation.moment.2":
+    "The late burst of verse drama is consistent with an original reworking of an inherited form for a new genre.",
+  "ahmad-shawqi.turning_point.1":
+    "After a year at the Khedive's court he was sent to study law at Montpellier and Paris for three years, where he was heavily influenced by French playwrights such as Moliere and Racine; the model later shaped his verse plays.",
+  "ahmad-shawqi.interpretation.turning_point.1":
+    "The study abroad is consistent with a poet who absorbed foreign models and later turned them into a new form in Arabic.",
+  /* ---------------------------------------------------------- anandibai-joshi (Roster65) */
+  "anandibai-joshi.achievement.1":
+    "Indian woman from a high-caste Hindu family who graduated from the Woman's Medical College of Pennsylvania in March 1886 with a thesis on obstetrics among Hindu women; the college's archive describes her as the first high-caste Hindu woman to receive a medical degree.",
+  "anandibai-joshi.achievement.2":
+    "After arguing publicly at Serampore in 1883 that India needed Hindu women doctors, she travelled alone to Philadelphia, matriculated that October, and in 1886 was engaged to take charge of the female ward at the Albert Edward Hospital in Kolhapur and teach a class of girls.",
+  "anandibai-joshi.achievement.3":
+    "She sailed home in October 1886 and died of tuberculosis at Poona on 26 February 1887 before practising; her letters, printed by Caroline Dall in 1888 and studied by Meera Kosambi, are the main record of her own account of studying medicine abroad.",
+  "anandibai-joshi.moment.1":
+    "In February 1883, at Serampore College, she gave a public address without notes explaining why she was going to America alone and why India needed Hindu women doctors, ending 'I volunteer to qualify myself for one'; a printed copy circulated in Bombay and a post-office director sent congratulations and a gift of 100 rupees.",
+  "anandibai-joshi.interpretation.moment.1":
+    "This is consistent with a person who framed her own plan as a public purpose and was willing to argue for it in front of a sceptical audience.",
+  "anandibai-joshi.moment.2":
+    "She was gravely ill with diphtheria in February 1884 in her first winter in Philadelphia and again weakened in her final year, yet she completed her five terms and received the degree in March 1886.",
+  "anandibai-joshi.interpretation.moment.2":
+    "This is consistent with sustained effort through illness and an unfamiliar climate, helped by the dean and hostess families who cared for her.",
+  "anandibai-joshi.turning_point.1":
+    "In September 1883 she reached Philadelphia, was received by the college's dean, Rachel Bodley, and matriculated at the Woman's Medical College on 3 October 1883, having sold her marriage jewellery to pay for the passage.",
+  "anandibai-joshi.interpretation.turning_point.1":
+    "This is consistent with a decision to commit fully to a plan that cut her off from the ordinary course of her community, taken with the support of a network of patrons.",
+  /* ---------------------------------------------------------- arthur-schopenhauer (Roster65) */
+  "arthur-schopenhauer.achievement.1":
+    "In The World as Will and Representation (1818/19) he set out a philosophy that treats the will as the inner reality behind appearances, the work for which Britannica says he is primarily important and which it links to later existential philosophy and Freudian psychology.",
+  "arthur-schopenhauer.achievement.2":
+    "He built an ethics and aesthetics on that idea: art, with music highest, gives release from the will for a moment, while compassion points the way to its denial; his 1839 essay On the Freedom of the Will won the Royal Norwegian Society's prize.",
+  "arthur-schopenhauer.achievement.3":
+    "After decades of neglect he won readers with Parerga and Paralipomena (1851), helped by an unsigned 1853 review in the Westminster Review.",
+  "arthur-schopenhauer.moment.1":
+    "In 1820, newly licensed to lecture at the University of Berlin, he scheduled his course in the same hour as Hegel's; only his first lecture was actually held, and he kept scheduling at that hour for years.",
+  "arthur-schopenhauer.interpretation.moment.1":
+    "This is consistent with a willingness to confront a dominant rival directly, at a cost to his own audience.",
+  "arthur-schopenhauer.moment.2":
+    "When the Danish Academy gave no prize to his 1840 essay On the Basis of Morality, even though it was the only entry, he published it in 1841 with an introduction attacking the Academy's judgement.",
+  "arthur-schopenhauer.interpretation.moment.2":
+    "This is consistent with holding to his own judgement of his work against an official verdict.",
+  "arthur-schopenhauer.turning_point.1":
+    "In 1851 his Parerga and Paralipomena, a collection of essays and aphorisms for a general reader, was published, and within a couple of years an English review of his philosophy in the Westminster Review brought the recognition he had long hoped for.",
+  "arthur-schopenhauer.interpretation.turning_point.1":
+    "This is consistent with continuing to publish through decades of neglect until an audience arrived.",
+  /* ---------------------------------------------------------- bankim-chandra-chatterjee (Roster65) */
+  "bankim-chandra-chatterjee.achievement.1":
+    "Wrote the novels Durgeshnandini (1865) and Kapalkundala (1866) and had published fourteen novels by 1887; Banglapedia says his place in Bengali literature rests on his contribution to fiction and prose.",
+  "bankim-chandra-chatterjee.achievement.2":
+    "Refined Bengali prose, which a contemporary critic called the founding of 'a new style'; before him Bengali fiction had mostly been didactic translations of Sanskrit and Persian tales.",
+  "bankim-chandra-chatterjee.achievement.3":
+    "Founded and edited the monthly Bangadarshan in 1872, which carried his serialised novels, essays and criticism and, Banglapedia says, created a generation of writers.",
+  "bankim-chandra-chatterjee.moment.1":
+    "In 1872, while still a serving deputy magistrate, he began editing the Bangadarshan, which Banglapedia says he wanted to make a platform for objective literary criticism on the model of European journals; it ran four years.",
+  "bankim-chandra-chatterjee.interpretation.moment.1":
+    "This is consistent with starting an ambitious project of his own while holding a demanding career.",
+  "bankim-chandra-chatterjee.moment.2":
+    "When the younger civil servant and scholar Romesh Chunder Dutt told him he had never written in Bengali, Bankim urged him in 1872 to write in his mother tongue, telling him he would never live by his writings in English; the younger man's first Bengali book appeared two years later.",
+  "bankim-chandra-chatterjee.interpretation.moment.2":
+    "This is consistent with a personal zeal for building up Bengali-language literature.",
+  "bankim-chandra-chatterjee.turning_point.1":
+    "After his early works, including the English novel Rajmohan's Wife, drew little notice, he published his first celebrated Bengali novel Durgeshnandini in 1865, which a contemporary critic said took the literary world in Bengal by surprise.",
+  "bankim-chandra-chatterjee.interpretation.turning_point.1":
+    "This is consistent with willingness to change language and form in pursuit of an original voice.",
+  /* ---------------------------------------------------------- bernardino-de-sahagun (Roster65) */
+  "bernardino-de-sahagun.achievement.1":
+    "A Franciscan missionary who arrived in Mexico in 1529, he directed the compilation of the Historia general de las cosas de Nueva Espana, the Florentine Codex, a 12-book Spanish and Nahuatl encyclopedia of Nahua religion, society, history and nature that the Library of Congress calls one of the most important sources for early Mexico.",
+  "bernardino-de-sahagun.achievement.2":
+    "The work grew out of interviews with Nahua elders using pictorial documents and questionnaires, with his former Nahua students writing and drawing; he undertook it to equip missionaries against native religious practice, yet it is now a major source on Aztec religious knowledge.",
+  "bernardino-de-sahagun.achievement.3":
+    "He taught Latin grammar to Nahua students at the Franciscan Colegio de Santa Cruz in Tlatelolco, some of whom later worked with him as scribes and artists on the codex, and scholars credit his writings with establishing his pre-eminence in documenting Nahua civilization.",
+  "bernardino-de-sahagun.moment.1":
+    "At Tepepulco he had the town's leaders assemble, asked them to name knowledgeable elders, and spent nearly two years going through his outline question by question with ten or twelve elders and four of his former Latin students, who recorded their answers from pictorial documents.",
+  "bernardino-de-sahagun.interpretation.moment.1":
+    "This is consistent with organising research around a prepared plan and a team of local informants and assistants.",
+  "bernardino-de-sahagun.moment.2":
+    "After Tepepulco he moved to Tlatelolco with his papers and had them re-examined and expanded for over a year with a new group of elders, then spent three years rereading and dividing them into twelve books while Nahua Latinists corrected and added to the drafts.",
+  "bernardino-de-sahagun.interpretation.moment.2":
+    "This is consistent with staying with one long project through repeated rounds of revision.",
+  "bernardino-de-sahagun.turning_point.1":
+    "In 1529 he left Spain for Mexico, where he spent the next 61 years preaching, teaching and studying the Nahuatl language and Nahua culture; he learned Nahuatl and was later ordered to write in it the information his colleagues needed.",
+  "bernardino-de-sahagun.interpretation.turning_point.1":
+    "This is consistent with a long-term commitment to a single field of work once he had settled in New Spain.",
+  /* ---------------------------------------------------------- david-hume (Roster65) */
+  "david-hume.achievement.1":
+    "He set out to apply an experimental method of observation to the mind and morals in A Treatise of Human Nature (1739-40) and the two Enquiries, work that the Stanford Encyclopedia of Philosophy and the National Galleries of Scotland place at the centre of the Scottish Enlightenment.",
+  "david-hume.achievement.2":
+    "He wrote the six-volume History of England (1754-62), which the Internet Encyclopedia of Philosophy says gave him a reputation as a historian equal to, if not above, his reputation as a philosopher.",
+  "david-hume.achievement.3":
+    "His essays on money and trade in Political Discourses (1752) made an empirical argument against mercantilism that Econlib calls a building block of classical economics.",
+  "david-hume.moment.1":
+    "When opponents circulated lists of 'dangerous propositions' from the Treatise during his 1744-45 bid for the Edinburgh chair of moral philosophy, he published a point-by-point anonymous reply, the Letter from a Gentleman; 12 of the 15 city ministers still voted against him and he withdrew.",
+  "david-hume.interpretation.moment.1":
+    "This episode is consistent with answering critics in print and then stepping back rather than forcing an open confrontation.",
+  "david-hume.moment.2":
+    "After the Treatise drew little notice, he judged that its style rather than its content was at fault and recast Book I as the shorter Enquiry concerning Human Understanding (1748) and Book III as the Enquiry concerning the Principles of Morals (1751).",
+  "david-hume.interpretation.moment.2":
+    "This is consistent with changing the form of the work, not its aim, when a first approach failed.",
+  "david-hume.turning_point.1":
+    "In 1752, shut out of university posts, he became librarian of the Advocates Library in Edinburgh, which the Stanford Encyclopedia says gave him the access he used to begin a career as a historian; the first volume of his History of England followed in 1754.",
+  "david-hume.interpretation.turning_point.1":
+    "This is consistent with using whatever post was available to equip a new line of work.",
+  /* ---------------------------------------------------------- duke-kahanamoku (Roster65) */
+  "duke-kahanamoku.achievement.1":
+    "He won the Olympic 100 m freestyle in 1912 and 1920 and set world records, collecting five Olympic medals (three gold, two silver) between 1912 and 1924.",
+  "duke-kahanamoku.achievement.2":
+    "He is credited with spreading surfing around the world through exhibitions, including in Australia in 1914-15, and Olympedia lists him as the first athlete inducted into both the swimming and surfing halls of fame.",
+  "duke-kahanamoku.achievement.3":
+    "In June 1925 he paddled his surfboard to the capsized fishing boat Thelma at Newport Beach and, in repeated trips, brought eight men to shore.",
+  "duke-kahanamoku.moment.1":
+    "When the AAU initially refused to recognise his 1911 world-record times, he went to the mainland to be tested, with the trip paid for by Hawaiian supporters, and won the 1912 Olympic 100 m.",
+  "duke-kahanamoku.interpretation.moment.1":
+    "This is consistent with continuing after officials doubted his results.",
+  "duke-kahanamoku.moment.2":
+    "At Newport Beach in 1925 he saw the fishing boat Thelma capsize and, on his own surfboard, made repeated trips to the wreck while others ran to fetch boards.",
+  "duke-kahanamoku.interpretation.moment.2":
+    "This is consistent with acting quickly in an emergency.",
+  "duke-kahanamoku.turning_point.1":
+    "Amateur rules kept him from earning money from swimming, and in 1922 he moved to Los Angeles to look for film work, where he found many small roles.",
+  "duke-kahanamoku.interpretation.turning_point.1":
+    "This is consistent with finding a new line of work when the old one could not support him.",
+  /* ---------------------------------------------------------- ferenc-puskas (Roster65) */
+  "ferenc-puskas.achievement.1":
+    "Hungarian forward and captain of the 1950s 'Golden Team': 83 goals in 84 internationals (counts differ slightly between sources), Olympic football champion in 1952, scorer of two in the 6-3 win at Wembley in 1953, and a World Cup finalist in 1954, named the tournament's best player.",
+  "ferenc-puskas.achievement.2":
+    "After a two-year ban he joined Real Madrid at 31 and, alongside Alfredo Di Stefano, won three European Cups (1959, 1960, 1966) and five league titles; he scored four of Real's goals in the 7-3 European Cup final win over Eintracht Frankfurt in 1960.",
+  "ferenc-puskas.achievement.3":
+    "After playing he coached clubs and national sides in many countries; his biggest success was leading Panathinaikos to the 1971 European Cup final (lost 2-0 to Ajax) and two Greek league titles, and FIFA later named its annual best-goal award after him.",
+  "ferenc-puskas.moment.1":
+    "In the last game of his first season at Real Madrid, with Di Stefano and himself level as the league's top scorers, he rounded the goalkeeper and, according to one football-history feature, passed across the open goal for Di Stefano to score instead of scoring himself.",
+  "ferenc-puskas.interpretation.moment.1":
+    "This is consistent with a striker who accepted a partner's star billing and put the team's combination ahead of his own tally.",
+  "ferenc-puskas.moment.2":
+    "Arriving at Real Madrid at 31 and out of condition, to a public that thought him too old and overweight, he is reported to have hung plastic rings in his garden and spent hours practising shooting the ball through them.",
+  "ferenc-puskas.interpretation.moment.2":
+    "This is consistent with a player who answered doubts about his fitness with deliberate, repeated practice of his craft.",
+  "ferenc-puskas.turning_point.1":
+    "Having served a two-year ban, he signed for Real Madrid in 1958 at 31 and rebuilt his career in Spain as the second striker beside Di Stefano, later playing for Spain and, after retiring, coaching abroad.",
+  "ferenc-puskas.interpretation.turning_point.1":
+    "This is consistent with someone who adjusted to a new country, club and role when his earlier career was interrupted.",
+  /* ---------------------------------------------------------- hiraga-gennai (Roster65) */
+  "hiraga-gennai.achievement.1":
+    "Edo-period herbalist from Sanuki who, with his teacher Tamura Ransui, held product fairs from 1757 (the 1762 fair drew over 1,300 items from more than 30 provinces) and compiled the six-volume Butsurui Hinshitsu in 1763.",
+  "hiraga-gennai.achievement.2":
+    "He made fire-resistant cloth from asbestos, completed the repair of an imported electrostatic machine (the erekiteru) in 1776, which the IEEE honoured as a Milestone in 2025, and reportedly taught Western painting methods to Odano Naotake, whose circle became the Akita school.",
+  "hiraga-gennai.achievement.3":
+    "He also wrote satirical fiction and a puppet play, but his Chichibu, Tada and Akita mining ventures failed and the authorities never recognised him; his friend Sugita Genpaku called him 'an extraordinary person'.",
+  "hiraga-gennai.moment.1":
+    "With his teacher Tamura Ransui he held the first product fair in 1757 and five fairs in about six years; the 1762 fair drew over 1,300 items from more than 30 provinces, and he compiled 360 selected items into the Butsurui Hinshitsu (1763).",
+  "hiraga-gennai.interpretation.moment.1":
+    "This is consistent with a person who organised and published collective work rather than only collecting for himself.",
+  "hiraga-gennai.moment.2":
+    "He obtained a damaged imported electrostatic machine in Nagasaki about 1770 and finished repairing it in November 1776 after what he called seven years, with only fragmentary knowledge of static electricity, according to the IEEE proposers; copies were then shown as a healing device to the wealthy but found no patron.",
+  "hiraga-gennai.interpretation.moment.2":
+    "This is consistent with long hands-on trial and repair of an imported device that went ahead of his theoretical understanding.",
+  "hiraga-gennai.turning_point.1":
+    "In 1754 he left his post in the Takamatsu domain and in 1756 moved to Edo to study under Tamura Ransui, giving up a secure hereditary position for the life of a masterless retainer.",
+  "hiraga-gennai.interpretation.turning_point.1":
+    "This is consistent with a willingness to trade a secure position for freedom to pursue his own studies, at a later cost in recognition and patronage.",
+  /* ---------------------------------------------------------- ignacy-domeyko (Roster65) */
+  "ignacy-domeyko.achievement.1":
+    "Polish-born geologist and mineralogist who, hired in 1838 to teach chemistry and mineralogy at the Colegio de Coquimbo in La Serena, set up a chemical laboratory, introduced geological mapping of underground mines and spent years on Andean and Atacama field trips that built early scientific knowledge of Chile's mineral wealth, including his 1842 recognition of the copper deposit at El Teniente.",
+  "ignacy-domeyko.achievement.2":
+    "Served as university delegate from 1852 and rector of the University of Chile from 1867 to 1883, arguing that the university should itself teach at the higher level and turning its physical and mathematical faculty into an engineering school for the mining industry.",
+  "ignacy-domeyko.achievement.3":
+    "Wrote the Tratado de ensayes (1844), Elementos de Mineralogia (1845) and Araucania y sus habitantes (1846) and published 64 papers in the Anales de la Universidad de Chile; the mineral domeykite, a mountain range in northern Chile and asteroid 2784 Domeyko are named for him.",
+  "ignacy-domeyko.moment.1":
+    "On reaching La Serena in 1838 he had a complete chemical laboratory shipped from France in 32 crates and built a building to house it, and began systematic teaching late that year; from the fourth year he sent graduates to the Paris School of Mines.",
+  "ignacy-domeyko.interpretation.moment.1":
+    "This is consistent with someone who builds the infrastructure for a field himself instead of waiting for it to be provided.",
+  "ignacy-domeyko.moment.2":
+    "Between 1840 and 1845 he used every summer, when students were on holiday, for long geological transects of the Andes and the Atacama, and he kept making field trips even as rector.",
+  "ignacy-domeyko.interpretation.moment.2":
+    "This is consistent with sustained, repeated fieldwork pursued alongside heavy teaching and administrative duties.",
+  "ignacy-domeyko.turning_point.1":
+    "In 1842 he wrote a memoir proposing reform of public instruction on the German model; his teaching-university plan was accepted by the University Council in 1847, when he moved to Santiago, and he was named university delegate in 1852.",
+  "ignacy-domeyko.interpretation.turning_point.1":
+    "This is consistent with a shift from teaching at a provincial school to shaping a national university.",
+  /* ---------------------------------------------------------- ignatius-sancho (Roster65) */
+  "ignatius-sancho.achievement.1":
+    "His Letters, published two years after his death in 1782 and reprinted in five editions to 1803, made him a symbol of African humanity for eighteenth-century opponents of the slave trade.",
+  "ignatius-sancho.achievement.2":
+    "He published dance music, 'Minuets, Cotillons & Country Dances' (about 1767), 'Composed by an African' and printed for the author in London.",
+  "ignatius-sancho.achievement.3":
+    "Born on a slave ship and raised in service, he opened a grocery near Parliament in 1774, voted as a householder, and was painted by Thomas Gainsborough in 1768.",
+  "ignatius-sancho.moment.1":
+    "In a letter to the famous author Laurence Sterne, he introduced himself as an African who loved his books and asked him to give half an hour's attention to slavery as practised in the West Indies.",
+  "ignatius-sancho.interpretation.moment.1":
+    "This is consistent with taking the initiative to approach a prominent figure on a cause he cared about.",
+  "ignatius-sancho.moment.2":
+    "While keeping the Westminster shop he published dance music, wrote letters, essays and plays for print, and kept up friendships with Garrick, Sterne and other artists and writers.",
+  "ignatius-sancho.interpretation.moment.2":
+    "This is consistent with sustaining several creative pursuits alongside a trade.",
+  "ignatius-sancho.turning_point.1":
+    "After the sisters refused to teach him, he taught himself to read, and the Duke of Montagu, who met him in Blackheath, lent him books and encouraged his education, which opened the way to service in the Montagu household.",
+  "ignatius-sancho.interpretation.turning_point.1":
+    "This is consistent with a strong appetite to learn that shaped the course of his life.",
+  /* ---------------------------------------------------------- ishwar-chandra-vidyasagar (Roster65) */
+  "ishwar-chandra-vidyasagar.achievement.1":
+    "As principal of Sanskrit College from 1851 he opened it to all Hindus, introduced nominal fees, made English a compulsory subject and had grammar and mathematics taught through Bengali and English as well as Sanskrit.",
+  "ishwar-chandra-vidyasagar.achievement.2":
+    "He wrote model Bengali textbooks, including the primer Barnaparichay and a Sanskrit grammar in Bengali, and through works such as Vetal Panchavimshati and Shakuntala is credited with helping to create a literary Bengali prose; Tagore credited him with establishing the beauty of Bengali prose.",
+  "ishwar-chandra-vidyasagar.achievement.3":
+    "As an inspector of schools he opened about twenty Bengali model schools and a teacher-training school in four districts and a village school largely at his own cost, took over the Calcutta Metropolitan Institution in 1864 and argued from Sanskrit texts that Hindu widows could remarry.",
+  "ishwar-chandra-vidyasagar.moment.1":
+    "In 1851 he reported to the Education Council that Kayastha boys should be admitted to Sanskrit College; when the professors objected that it would pollute their religion he answered them with passages from the scriptures and said he would resign if the change failed, and the authorities approved it.",
+  "ishwar-chandra-vidyasagar.interpretation.moment.1":
+    "This is consistent with taking the initiative to change the institution he led and pressing the change through opposition.",
+  "ishwar-chandra-vidyasagar.moment.2":
+    "In September 1858, after differences with the Director of Public Instruction, he declined the director's request to change his letter of resignation, saying he could not consistently alter it, and left the government posts on which he earned Rs 500 a month.",
+  "ishwar-chandra-vidyasagar.interpretation.moment.2":
+    "This is consistent with putting independence from an overseer ahead of a well-paid post.",
+  "ishwar-chandra-vidyasagar.turning_point.1":
+    "After resigning from Sanskrit College in 1847 he returned in December 1850 as professor of literature and a month later became its principal, a post created in a restructuring, which gave him the authority to revise the syllabus and rules.",
+  "ishwar-chandra-vidyasagar.interpretation.turning_point.1":
+    "This is consistent with returning to the same institution once he could direct its reform.",
+  /* ---------------------------------------------------------- ito-jakuchu (Roster65) */
+  "ito-jakuchu.achievement.1":
+    "Painted the thirty hanging scrolls of the Colorful Realm of Living Beings between 1757 and 1766, a National Treasure of densely detailed birds, plants, fish and insects, which he gave to Shokoku-ji.",
+  "ito-jakuchu.achievement.2":
+    "Developed a rich-colour bird-and-flower style, famed for his chickens, that Japanese reference works describe as recomposing observed forms and fine detail into a strongly imaginative picture.",
+  "ito-jakuchu.achievement.3":
+    "Born the eldest son of a Kyoto greengrocer, he handed the family business to his brother at forty to paint full time, and after the 1788 fire destroyed his studio and shop he continued working near Sekiho-ji.",
+  "ito-jakuchu.moment.1":
+    "Dissatisfied with the Kano school's copybook method, he turned to copying Song, Yuan and Ming paintings and to sketching the animals and plants around him, keeping fowl at home and sometimes importing exotic birds to observe them.",
+  "ito-jakuchu.interpretation.moment.1":
+    "This is consistent with preferring direct study to an inherited school method.",
+  "ito-jakuchu.moment.2":
+    "Lippit notes that he worked on the Colorful Realm continuously from 1757 to 1766 at about three large paintings a year, using costly materials and verso coloration painted on the back of the silk.",
+  "ito-jakuchu.interpretation.moment.2":
+    "This is consistent with sustained, painstaking effort over a decade.",
+  "ito-jakuchu.turning_point.1":
+    "At forty he retired from the family greengrocer business, passing it to his younger brother, and moved to Shokoku-ji to start the Colorful Realm of Living Beings.",
+  "ito-jakuchu.interpretation.turning_point.1":
+    "This is consistent with giving up a secure family trade to work as a full-time painter.",
+  /* ---------------------------------------------------------- kano-jigoro (Roster65) */
+  "kano-jigoro.achievement.1":
+    "Educator who founded judo: in 1882 he opened the Kodokan, drawing judo from the Tenjin Shin'yo-ryu and Kito-ryu jujutsu schools and building it on the principles of maximum efficient use of energy and mutual prosperity; he later introduced the belt and dan ranking system, and judo joined the Olympic programme in 1964.",
+  "kano-jigoro.achievement.2":
+    "Principal of the Tokyo teacher-training school (Tokyo Higher Normal School, now the University of Tsukuba's forerunner) for more than two decades, where he promoted sport and founded a Department of Physical Education in 1915; he also set up a school for Chinese students.",
+  "kano-jigoro.achievement.3":
+    "First Asian member of the International Olympic Committee (1909-1938) and head of the Japan Amateur Athletic Association founded around the 1912 Stockholm Games, which sent Japan's first Olympic team; he helped bring the 1940 Games to Tokyo.",
+  "kano-jigoro.moment.1":
+    "After losing to a much heavier rival, Kano, according to a 1971 biographical essay, studied sumo books and developed a new throw, kata guruma, that he then used to win.",
+  "kano-jigoro.interpretation.moment.1":
+    "This is consistent with someone who responded to a defeat by studying outside sources to improve his technique.",
+  "kano-jigoro.moment.2":
+    "When the marathon runner Shizo Kanakuri could not afford the trip to the 1912 Stockholm Games, Kano set up a support association at his school that raised enough money for him to go.",
+  "kano-jigoro.interpretation.moment.2":
+    "This is consistent with someone who organised practical backing to get a participation project over the line.",
+  "kano-jigoro.turning_point.1":
+    "In 1882, at about 22, he opened his own dojo, the Kodokan, with a handful of students, moving from being a jujutsu trainee to being the founder and teacher of a new school.",
+  "kano-jigoro.interpretation.turning_point.1":
+    "This is consistent with someone who turned years of study of several schools into an institution of his own.",
+  /* ---------------------------------------------------------- matthew-boulton (Roster65) */
+  "matthew-boulton.achievement.1":
+    "Birmingham manufacturer who became James Watt's partner in 1775 and put Watt's steam engine into commercial production at Soho; he had taken over John Roebuck's share of the patent as settlement of a debt, and almost 500 engines had been installed in Britain and abroad by 1800.",
+  "matthew-boulton.achievement.2":
+    "Built the Soho Manufactory near Birmingham in 1762 to make small metal goods such as buttons, buckles, Sheffield plate and ormolu, with design, production and marketing under his own control and labour-saving machinery; Birmingham Museums links the trade to Birmingham becoming 'the toy-shop of the world'.",
+  "matthew-boulton.achievement.3":
+    "Set up the steam-powered Soho Mint in 1788 and struck Britain's 1797 copper coinage, including the cartwheel penny, with the metal worth the face value; he also supplied mints abroad and machinery for the Royal Mint in London.",
+  "matthew-boulton.moment.1":
+    "In the campaign to extend Watt's patent, Boulton kept a 'List of Friends on the Engine bill' naming 77 people plus the minority lords, against opposition led by Edmund Burke; an Act extended the term.",
+  "matthew-boulton.interpretation.moment.1":
+    "This is consistent with someone who worked systematically through personal networks to win a business cause.",
+  "matthew-boulton.moment.2":
+    "After John Roebuck's failure in 1772, Boulton took over Roebuck's share of Watt's engine patent in settlement of a 1,200-pound claim and, according to the Dictionary of National Biography, put in all his capital and what he could borrow, nearly going bankrupt before the engine paid.",
+  "matthew-boulton.interpretation.moment.2":
+    "This is consistent with a willingness to stake his own resources on an unproven venture.",
+  "matthew-boulton.turning_point.1":
+    "In 1775, after years of making small metal goods at Soho, he became Watt's partner in the steam-engine business, which the Science Museum Group records as his most profitable venture.",
+  "matthew-boulton.interpretation.turning_point.1":
+    "This is consistent with a manufacturer who moved his enterprise toward a new technology once he judged its demand to be large.",
+  /* ---------------------------------------------------------- mikhail-lomonosov (Roster65) */
+  "mikhail-lomonosov.achievement.1":
+    "As professor of chemistry at the St. Petersburg Academy of Sciences from 1745 he built its chemical laboratory and argued for atomic and molecular explanations, a quantitative method and heat as molecular motion; he stated a principle of conservation of matter and, from the 1761 transit of Venus, concluded that Venus has an atmosphere, although historians dispute his priority over Lavoisier.",
+  "mikhail-lomonosov.achievement.2":
+    "He pressed for a university in Moscow, and his letter to Ivan Shuvalov laid the groundwork for the plan of Moscow University, founded by decree in 1755 with faculties of philosophy, law and medicine; the university now bears his name.",
+  "mikhail-lomonosov.achievement.3":
+    "He was also a poet and a student of the Russian language who contributed a scientific vocabulary; his 1739 'Ode on the Taking of Khotin' is regarded as revolutionary, and critics such as Belinsky dated modern Russian poetry from it.",
+  "mikhail-lomonosov.moment.1":
+    "At the 1761 transit of Venus he watched from the roof of his own house, saw the Sun's edge blur before Venus entered, looked away because he suspected tired eyes, then looked again and saw the black segment; from the blur and from a bulge at Venus's exit he reasoned by refraction that Venus has an atmosphere, and his report was printed within two weeks of its submission.",
+  "mikhail-lomonosov.interpretation.moment.1":
+    "The episode is consistent with a habit of re-checking his own observations before drawing a conclusion from them.",
+  "mikhail-lomonosov.moment.2":
+    "Before the 1761 transit he judged Aepinus's preparations unsatisfactory and ordered him to let Krasilnikov and Kurganov observe at the Academy's observatory; Aepinus refused and observed elsewhere, one stage of a feud that had begun when Lomonosov protested Aepinus's unapproved communications about the 1759 mercury-freezing results.",
+  "mikhail-lomonosov.interpretation.moment.2":
+    "The sequence is consistent with a willingness to enter open disputes with powerful colleagues over scientific and institutional matters.",
+  "mikhail-lomonosov.turning_point.1":
+    "In December 1730, aged nineteen, he borrowed three rubles and a jacket and joined a trade convoy to Moscow, a 1,170 km journey partly on foot, to seek the education he could not get at home; in 1735-36 he was one of twelve students sent to the St. Petersburg Academy and then abroad, which turned him from the clergy toward science.",
+  "mikhail-lomonosov.interpretation.turning_point.1":
+    "The journey and what followed are consistent with a determination to keep pursuing an education against long odds.",
+  /* ---------------------------------------------------------- mungo-park (Roster65) */
+  "mungo-park.achievement.1":
+    "Scottish surgeon and explorer sent by the African Association in 1795 to find the Niger; he reached it at Segu in 1796, followed it about 80 miles downstream, and returned in 1797 as, per the sources, the first European to see the upper Niger.",
+  "mungo-park.achievement.2":
+    "His 1799 'Travels in the Interior Districts of Africa' became a best-selling classic of travel writing; he had earlier collected plants in Sumatra and described eight new fishes for the Linnean Society.",
+  "mungo-park.achievement.3":
+    "In 1805 he led a larger government expedition back to the Niger; disease had killed most of the Europeans before the river, and he and a few companions are reported, on an African guide's account, to have sailed about 1,000 miles down it before dying at the Bussa rapids, adding little new geographical knowledge.",
+  "mungo-park.moment.1":
+    "Held prisoner by a Moorish chief at Ludamar for about four months, he escaped alone in July 1796 with only his horse and a pocket compass, and went on to reach the Niger at Segu instead of turning back.",
+  "mungo-park.interpretation.moment.1":
+    "This is consistent with an explorer who improvised under severe shortage and kept to his objective.",
+  "mungo-park.moment.2":
+    "At Sansanding in late 1805, with his brother-in-law and most of the party dead and only a few men left, he did not turn back; he bought two canoes, joined them into a single boat and set off down the unexplored river, an episode a recent scholar says logic would have advised against.",
+  "mungo-park.interpretation.moment.2":
+    "This is consistent with a determination to finish the task that was both his strength and, on this occasion, a costly liability.",
+  "mungo-park.turning_point.1":
+    "After settling as a country doctor at Peebles, where a biographer says he chafed at the monotony, he accepted the government's 1803 invitation to lead a new Niger expedition, and sailed for the Gambia in January 1805.",
+  "mungo-park.interpretation.turning_point.1":
+    "This is consistent with someone who left a settled medical practice for a more ambitious undertaking rather than stay in routine work.",
+  /* ---------------------------------------------------------- nikolay-pirogov (Roster65) */
+  "nikolay-pirogov.achievement.1":
+    "As chief surgeon of besieged Sevastopol in 1854-55 he used anaesthesia on a mass scale, trained nursing sisters with Grand Duchess Elena Pavlovna, and later wrote the 1864 field-surgery text; historians say he may be considered the founder of field surgery.",
+  "nikolay-pirogov.achievement.2":
+    "From January 1847 he tested ether on animals, himself and his assistants and then developed its widespread use in Russia, including on the battlefield in the Caucasus, with an inhaler and mask of his own design; Berenson and Inozemtsev had used ether in Russia a few weeks earlier.",
+  "nikolay-pirogov.achievement.3":
+    "He published the eight-part Topographic Anatomy atlas (1852-1859), with 220 plates of sections through the frozen body in three directions, and introduced applied topographical anatomy teaching in Russia; the frozen-section idea had been carried out earlier by de Riemer, so his contribution was its scale and application.",
+  "nikolay-pirogov.moment.1":
+    "Doubtful at first about the safety of ether, Pirogov began experiments in January 1847, studied its course on himself and his assistants before using it on patients, and performed his first two operations under ether on 14 February 1847.",
+  "nikolay-pirogov.interpretation.moment.1":
+    "The sequence is consistent with a habit of testing a new method on himself and in controlled trials before applying it widely.",
+  "nikolay-pirogov.moment.2":
+    "At the field hospital in Oglakh in the Caucasus in 1847 the wounded lay in tents with no separate operating room, so Pirogov operated in front of the other wounded men to show them the effect of ether, and they afterwards came for surgery without fear.",
+  "nikolay-pirogov.interpretation.moment.2":
+    "The episode is consistent with a readiness to adapt a procedure to primitive conditions and take the initiative in persuading patients.",
+  "nikolay-pirogov.turning_point.1":
+    "After years of what Hendriks and colleagues call a ceaseless struggle with the administration in St. Petersburg, he resigned his surgical post in April 1856 and moved first to Odessa and then to Kiev, where he worked on school administration instead of surgery.",
+  "nikolay-pirogov.interpretation.turning_point.1":
+    "The move is consistent with a willingness to redirect his career into another field when his existing post became untenable.",
+  /* ---------------------------------------------------------- osman-hamdi-bey (Roster65) */
+  "osman-hamdi-bey.achievement.1":
+    "He became director of the Ottoman Imperial Museum in 1881 and built it into the Istanbul Archaeological Museums, commissioning the new building that opened in 1891 and putting forward legislation to stop antiquities being smuggled abroad.",
+  "osman-hamdi-bey.achievement.2":
+    "He led excavations at sites including Sidon, where in 1887 he uncovered a royal necropolis and brought its sarcophagi to Istanbul, and with Theodore Reinach he published the Sidon report in 1892.",
+  "osman-hamdi-bey.achievement.3":
+    "He was also a painter trained in Paris under Gerome and Boulanger, best known for The Tortoise Trainer (1906), and in 1882 founded the Academy of Fine Arts in Istanbul.",
+  "osman-hamdi-bey.moment.1":
+    "In 1887 a villager's discovery of ruins near Sidon led to his excavation of a royal necropolis, a project that Western commentators doubted his largely Muslim team could carry out, and whose sarcophagi were then taken to Istanbul.",
+  "osman-hamdi-bey.interpretation.moment.1":
+    "The episode is consistent with taking charge of demanding fieldwork rather than leaving it to foreign specialists.",
+  "osman-hamdi-bey.moment.2":
+    "As museum director he inventoried the collections, created a library on archaeology and art, and produced a museum catalogue with photographs, which a museum archaeologist told Middle East Eye was a first for Turkey.",
+  "osman-hamdi-bey.interpretation.moment.2":
+    "The cataloguing work is consistent with a careful, record-keeping approach to collections.",
+  "osman-hamdi-bey.turning_point.1":
+    "In 1881 he was appointed director of the Imperial Museum, succeeding two foreign directors, and from then on divided his career between building the museum, leading excavations and painting.",
+  "osman-hamdi-bey.interpretation.turning_point.1":
+    "The appointment marks a shift consistent with a career that spanned several fields at once.",
+  /* ---------------------------------------------------------- richard-arkwright (Roster65) */
+  "richard-arkwright.achievement.1":
+    "English cotton-spinning entrepreneur who ran the water-powered Cromford mill from 1771 and, with patents of 1769 and 1775, built the factory system at the heart of the Derwent Valley Mills World Heritage Site; the Science Museum Group calls him more an improver of others' ideas than an inventor, with business skill as his main talent.",
+  "richard-arkwright.achievement.2":
+    "Built Cromford into a mill village by housing and recruiting workers from outside the district, and expanded to mills in several counties; by 1782 he put his employees at over 5,000, and the workforce included many women and children.",
+  "richard-arkwright.achievement.3":
+    "Licensed his patents and sued infringers; the patents were cancelled in 1785 after witnesses, including Thomas Highs, said he had taken others' ideas, yet his business carried on, and he was knighted in 1786 and left a fortune of around 500,000 pounds.",
+  "richard-arkwright.moment.1":
+    "In 1781 he sued nine firms for infringing his patents; the first case, against Colonel Mordaunt, was lost because his specification was judged insufficient, and in 1785 a jury ruled against him in a further trial.",
+  "richard-arkwright.interpretation.moment.1":
+    "This is consistent with someone willing to press contested claims in court repeatedly, at the cost of public defeat.",
+  "richard-arkwright.moment.2":
+    "When Cromford could not supply enough workers, he built terraced cottages and an inn and recruited workers, especially weavers with large families, from outside the district.",
+  "richard-arkwright.interpretation.moment.2":
+    "This is consistent with someone who solved a labour shortage by building housing and recruiting rather than adapting the plan.",
+  "richard-arkwright.turning_point.1":
+    "In 1771, after a horse-powered mill at Nottingham, he moved spinning to water power at Cromford with Jedediah Strutt and Samuel Need as partners, the mill the World Heritage statement treats as the base of the Arkwright system.",
+  "richard-arkwright.interpretation.turning_point.1":
+    "This is consistent with someone who moved a working idea to a larger, differently powered scale once partners supplied the capital.",
+  /* ---------------------------------------------------------- saicho (Roster65) */
+  "saicho.achievement.1":
+    "Japanese monk who founded the Tendai school: after studying on Mount Tiantai in China in 804-805 he set it up on Mount Hiei, where Emperor Kanmu turned his hermitage into Enryakuji, with a curriculum joining Tiantai study and esoteric practice and, from 806, two ordinands a year.",
+  "saicho.achievement.2":
+    "Argued that the Japanese could take only the bodhisattva precepts and campaigned for an independent Mahayana ordination platform on Mount Hiei; his petitions were repeatedly denied and permission came a week after his death in 822. He also debated the Hosso monk Tokuitsu over whether all beings can attain buddhahood.",
+  "saicho.achievement.3":
+    "The temple he founded, Enryakuji, trained leading Japanese Buddhist monks for the next four centuries; his disciples included Gishin, who went to China with him, and Ennin, later abbot there, and he brought back texts from China that he catalogued in the Esshuroku.",
+  "saicho.moment.1":
+    "Over several years he asked Kukai to lend him texts and copied nearly half of those in Kukai's import catalogue; eleven of his twenty-four surviving letters to Kukai concern loans and copying, and in 811 he asked to be initiated.",
+  "saicho.interpretation.moment.1":
+    "This is consistent with a leader who kept seeking more teachings, even from a younger rival, for himself and his school.",
+  "saicho.moment.2":
+    "After Tokuitsu wrote treatises against the Tendai view of buddha-nature, Saichō answered with three works and kept pressing his petitions for the ordination platform even as they were turned down.",
+  "saicho.interpretation.moment.2":
+    "This is consistent with someone who answered opposition by writing and petitioning rather than withdrawing.",
+  "saicho.turning_point.1":
+    "In 804 he sailed to China, where his ship was blown off course and he studied on Mount Tiantai; he returned the next year with texts and an esoteric initiation, and in 806 the court allowed two Tendai ordinands a year.",
+  "saicho.interpretation.turning_point.1":
+    "This is consistent with a trajectory change from a hermit on Mount Hiei to the founder of an independent school with its own curriculum.",
+  /* ---------------------------------------------------------- sakya-pandita (Roster65) */
+  "sakya-pandita.achievement.1":
+    "The fourth of the five great throneholders of Sakya (1182-1251), he re-established Sakya as a leader in the study of epistemology; the Encyclopedia of Buddhism calls him the greatest early scholar of the Sakya school and counts more than one hundred compositions.",
+  "sakya-pandita.achievement.2":
+    "His five major works include the Treasury of Aphoristic Jewels, still memorized by Tibetans, the Treasury of Epistemological Reasoning, the Clear Differentiation of the Three Codes, Clarifying the Sage's Intent and the Gateway to Learning.",
+  "sakya-pandita.achievement.3":
+    "With the Kashmiri scholar Shakyashribhadra he retranslated Dharmakirti's Pramanavarttika into Tibetan, and in the Gateway to Learning he set out a program of study in composition, exposition and debate that SEP calls a rare medieval treatise on the goals and means of education.",
+  "sakya-pandita.moment.1":
+    "In the Clear Differentiation of the Three Codes he listed ten doctrines held by his Tibetan contemporaries as fallacious and defended the use of scripture and reasoning against the charge that his critiques came from hostility or jealousy.",
+  "sakya-pandita.interpretation.moment.1":
+    "This is consistent with a readiness to dispute openly with his own side, at the price of lasting controversy.",
+  "sakya-pandita.moment.2":
+    "A verse attributed to him uses the word 'I' eight times to claim to be a grammarian, logician, poet and master of the outer and inner sciences, and calls other so-called scholars mere imitations.",
+  "sakya-pandita.interpretation.moment.2":
+    "This is consistent with an openly self-assured way of presenting his own learning, though the verse is attributed and self-reported.",
+  "sakya-pandita.turning_point.1":
+    "When the Kashmiri scholar Shakyashribhadra arrived in Tibet with a group of pandits, he met him, hired Sugatashri as a tutor for three years and then studied with Shakyashri for five more; SEP calls this a major turning point, after which he retranslated Dharmakirti's work and made Sakya a center of epistemology, where it had been known for the Lamdre tradition.",
+  "sakya-pandita.interpretation.turning_point.1":
+    "This is consistent with a deliberate, multi-year commitment to mastering a new body of learning.",
+  /* ---------------------------------------------------------- shitao (Roster65) */
+  "shitao.achievement.1":
+    "Painter-monk of the early Qing, born Zhu Ruoji, known for landscapes, fruit and flower subjects and orchids and bamboo in free brushwork and moist ink that the National Palace Museum links to his call to create a unique style.",
+  "shitao.achievement.2":
+    "Wrote the painting treatise Kugua heshang huayulu (Remarks on Painting), whose opening chapter grounds painting method in a single stroke; the Draft History of Qing notes that he wrote a one-roll treatise on painting.",
+  "shitao.achievement.3":
+    "After 1696 settled in Yangzhou as a professional painter; a 1795 local record credits his hand with the Wanshi Garden rockery, and the Draft History of Qing ranks him with Kuncan as 'the two Shi'.",
+  "shitao.moment.1":
+    "Li Dou's 1795 record of Yangzhou says that besides landscape and flower painting he was skilled at piling rockery, and that the Yu family's Wanshi Garden came from his hand and was still praised.",
+  "shitao.interpretation.moment.1":
+    "This is consistent with applying a painter's eye to a neighbouring craft.",
+  "shitao.moment.2":
+    "In his treatise he wrote that a painter who copies a master's manner is only eating that master's leftovers, and that 'I am I, and have my own'.",
+  "shitao.interpretation.moment.2":
+    "This is consistent with a stated insistence on a personal style, which is his own claim rather than an independent observation.",
+  "shitao.turning_point.1":
+    "Having lived as an itinerant monk in several regions, he gave up monastic life and, according to the National Palace Museum, made a living as a professional painter, settling in Yangzhou after 1696.",
+  "shitao.interpretation.turning_point.1":
+    "This is consistent with moving from one way of life to another in order to work as an artist.",
+  /* ---------------------------------------------------------- wang-guowei (Roster65) */
+  "wang-guowei.achievement.1":
+    "He set the study of ancient Chinese history on a new footing by reading oracle-bone and bronze inscriptions together with the old texts, work gathered in his self-edited Guantang jilin, and Tsinghua University counts him among the most influential masters of twentieth-century Chinese scholarship.",
+  "wang-guowei.achievement.2":
+    "In literary criticism he applied Western aesthetics to Chinese literature in Hongloumeng pinglun (1904) and Renjian cihua (1908), which set out his 'theory of realm', and he finished Song-Yuan xiqushi, a history of Song and Yuan drama, in 1913.",
+  "wang-guowei.achievement.3":
+    "From 1925 to 1927 he was a tutor at the Tsinghua Research Institute of Chinese Studies, where he taught ancient history and bronze inscriptions and worked on annotated editions of Mongol and Liao-Jin sources.",
+  "wang-guowei.moment.1":
+    "His 1909 catalogue of Song-to-Qing drama, the Qulu, listed some three thousand titles; when Hu Shih reviewed it in 1923 he pointed out works that were misclassified or missing and hoped Wang would revise it in light of the new material found since.",
+  "wang-guowei.interpretation.moment.1":
+    "This is consistent with large-scale cataloguing work that was careful but, as a contemporary reviewer showed, not error-free.",
+  "wang-guowei.moment.2":
+    "Liang Qichao, his colleague at the Tsinghua Institute, wrote in 1927-28 that Wang would not put a conclusion in writing if he had the slightest doubt about it, and discarded any statement earlier scholars had already made.",
+  "wang-guowei.interpretation.moment.2":
+    "This admiring colleague's account is consistent with a cautious, self-checking approach to evidence.",
+  "wang-guowei.turning_point.1":
+    "From about 1909, according to his pupil Wu Qichang, he set aside literary criticism and Schopenhauer-inspired aesthetics and turned to ancient history and inscriptions, helping to prepare Luo Zhenyu's oracle-bone publications, while still completing his history of drama in 1913.",
+  "wang-guowei.interpretation.turning_point.1":
+    "This is consistent with moving his work into a new field while finishing the old project.",
+  /* ---------------------------------------------------------- yasuda-zenjiro (Roster65) */
+  "yasuda-zenjiro.achievement.1":
+    "He turned a Tokyo money-changing shop, Yasuda-ya (opened in 1864), into the Yasuda Bank (1880), the core of the finance-centred Yasuda zaibatsu and a forerunner of Fuji Bank, now part of Mizuho.",
+  "yasuda-zenjiro.achievement.2":
+    "He helped found the Third National Bank (1876), became a director of the Bank of Japan at its founding in 1882, built a bank network by taking over weaker banks, and expanded into life and property insurance.",
+  "yasuda-zenjiro.achievement.3":
+    "He gave large sums to public institutions: the University of Tokyo's auditorium, completed in 1925 and now called Yasuda Auditorium, and the funds for Tokyo's Municipal Hall and Hibiya Public Hall, which his heir completed in 1929 after his death in 1921.",
+  "yasuda-zenjiro.moment.1":
+    "In 1904, after the Russo-Japanese War, he rescued the Dai-130 Bank, and the company history says that when asked to help a troubled bank he proposed a 6 million yen government loan.",
+  "yasuda-zenjiro.interpretation.moment.1":
+    "This is consistent with finding a workable financial remedy for a failing institution.",
+  "yasuda-zenjiro.moment.2":
+    "He supported Tokyo's new municipal research body and the University of Tokyo auditorium with large gifts, and a Japanese encyclopedia says he disliked publicising his donations and was misunderstood as a result.",
+  "yasuda-zenjiro.interpretation.moment.2":
+    "This is consistent with directing money to public institutions without seeking publicity.",
+  "yasuda-zenjiro.turning_point.1":
+    "Between 1876 and 1880 he moved from running a money-changing shop to founding banks: he joined founding the Third National Bank in 1876 and opened the Yasuda Bank in 1880, the base for his later insurers and group.",
+  "yasuda-zenjiro.interpretation.turning_point.1":
+    "This is consistent with deliberately building a larger institutional structure out of a small money-changing business.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -25331,6 +25806,481 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1921년 도쿄에서 분카가쿠인 설립에 참여하며, 교육에 대한 글쓰기에서 예술을 중시하는 학교의 교사이자 문학 교과서 저자로 활동 영역을 넓혔다.",
   "yosano-akiko.interpretation.turning_point.1":
     "이는 시 창작에서 기관 설립과 교육으로 활동을 넓힌 작가의 면모와 일치한다.",
+  /* ---------------------------------------------------------- ahmad-shawqi (Roster65) */
+  "ahmad-shawqi.achievement.1":
+    "현대 아랍 신고전주의 시를 대표하는 시인으로 1927년 '시인들의 왕자(아미르 알슈아라)'로 추대되었으며, 그의 시는 네 권의 《샤우키야트》로 묶였다.",
+  "ahmad-shawqi.achievement.2":
+    "아랍 운문 희곡의 선구자로서 전통 운율을 극의 대사에 맞게 바꿔 《클레오파트라의 죽음》 같은 작품을 썼으며, 생애 마지막 8년 동안 이집트에서 공연된 희곡 일곱 편을 남겼다.",
+  "ahmad-shawqi.achievement.3":
+    "소설과 산문(《황금 시장》으로 묶임), 이슬람 역사를 다룬 장시, 예언자 무함마드를 기리는 시도 썼다.",
+  "ahmad-shawqi.moment.1":
+    "1922년 선집에서 시인 칼릴 무트란은 샤우키가 동료들 사이에서, 마차와 기차 안에서, 공식 모임에서 내키는 대로 시를 지었고, 시를 완성해 놓고 한 달을 잊었다가 기억해 내 한 자리에서 적기도 했다고 말했다.",
+  "ahmad-shawqi.interpretation.moment.1":
+    "이 증언은 빠르게 시를 짓고 시 전체를 머릿속에 지닐 수 있었던 유창한 시인의 모습과 일치한다.",
+  "ahmad-shawqi.moment.2":
+    "생애 마지막 8년 동안 이집트에서 공연된 운문 희곡 일곱 편을 썼고, 고전 운율을 극의 대사에 맞게 활용했다.",
+  "ahmad-shawqi.interpretation.moment.2":
+    "말년에 쏟아낸 운문 희곡은 물려받은 형식을 새로운 장르에 맞게 독창적으로 바꾼 작업과 일치한다.",
+  "ahmad-shawqi.turning_point.1":
+    "궁정에서 1년 일한 뒤 몽펠리에와 파리에서 3년간 법학을 공부하러 파견되어 몰리에르와 라신 같은 프랑스 극작가들의 영향을 크게 받았고, 이 모델은 훗날 그의 운문 희곡에 반영되었다.",
+  "ahmad-shawqi.interpretation.turning_point.1":
+    "이 유학은 외국의 모범을 흡수해 훗날 아랍어로 새로운 형식을 만들어 낸 시인의 모습과 일치한다.",
+  /* ---------------------------------------------------------- anandibai-joshi (Roster65) */
+  "anandibai-joshi.achievement.1":
+    "고위 카스트 힌두 집안 출신의 인도 여성으로, 1886년 3월 펜실베이니아 여자의과대학을 힌두 여성의 산과를 다룬 논문으로 졸업했다. 이 대학 기록관은 그를 의학 학위를 받은 최초의 고위 카스트 힌두 여성으로 설명한다.",
+  "anandibai-joshi.achievement.2":
+    "1883년 세람포르에서 인도에 힌두 여성 의사가 필요하다고 공개적으로 주장한 뒤 혼자 필라델피아로 건너가 그해 10월 입학했고, 1886년에는 콜하푸르 앨버트 에드워드 병원 여성 병동의 책임을 맡고 여학생 반을 가르치도록 초빙되었다.",
+  "anandibai-joshi.achievement.3":
+    "1886년 10월 귀국길에 올랐으나 개업하기 전인 1887년 2월 26일 푸나에서 결핵으로 세상을 떠났다. 1888년 캐럴라인 돌이 펴낸 전기에 실린 그의 편지와 이를 연구한 미라 코삼비의 저작이 유학 생활에 대한 그 자신의 기록으로서 주된 자료이다.",
+  "anandibai-joshi.moment.1":
+    "1883년 2월 세람포르 대학에서 그는 원고 없이 공개 연설을 하며 왜 혼자 미국에 가는지, 왜 인도에 힌두 여성 의사가 필요한지를 설명하고 '내가 자원하겠다'고 말했다. 연설문은 뭄바이에서 인쇄되어 돌았고 우정국 책임자가 축하와 함께 100루피를 보냈다.",
+  "anandibai-joshi.interpretation.moment.1":
+    "이는 자신의 계획을 공적 목적으로 설명하고 회의적인 청중 앞에서 이를 주장하려 한 사람의 면모와 일치한다.",
+  "anandibai-joshi.moment.2":
+    "그는 필라델피아에서의 첫 겨울인 1884년 2월 디프테리아로 위독했고 마지막 학년에도 건강이 약해졌지만 다섯 학기를 마치고 1886년 3월 학위를 받았다.",
+  "anandibai-joshi.interpretation.moment.2":
+    "이는 학장과 후원 가정의 보살핌을 받으며 병과 낯선 기후 속에서도 노력을 이어간 모습과 일치한다.",
+  "anandibai-joshi.turning_point.1":
+    "1883년 9월 필라델피아에 도착해 학장 레이철 보들리의 환영을 받았고 10월 3일 펜실베이니아 여자의과대학에 입학했다. 항해 비용은 혼례 때 받은 장신구를 팔아 마련했다.",
+  "anandibai-joshi.interpretation.turning_point.1":
+    "이는 후원자들의 도움을 받아 공동체의 통상적인 길에서 벗어나는 계획에 전념하기로 한 결정과 일치한다.",
+  /* ---------------------------------------------------------- arthur-schopenhauer (Roster65) */
+  "arthur-schopenhauer.achievement.1":
+    "《의지와 표상으로서의 세계》(1818/19)에서 의지를 현상 뒤에 놓인 내적 실재로 보는 철학을 세웠으며, 브리태니커는 이 저작이 그가 중요한 이유이고 이후 실존철학과 프로이트 심리학에 영향을 주었다고 설명한다.",
+  "arthur-schopenhauer.achievement.2":
+    "그는 이 사상 위에 윤리학과 미학을 세워, 예술(그중 음악이 가장 높다)은 잠시 의지에서 풀려나게 하고 연민은 의지를 부정하는 길을 가리킨다고 보았으며, 1839년의 《인간 의지의 자유에 관하여》는 노르웨이 왕립학회의 상을 받았다.",
+  "arthur-schopenhauer.achievement.3":
+    "수십 년간 외면받은 뒤 《부록과 추가 논집》(1851)으로 독자를 얻었으며, 1853년 《웨스트민스터 리뷰》에 실린 무서명 서평이 이를 도왔다.",
+  "arthur-schopenhauer.moment.1":
+    "1820년 베를린 대학에서 강의 자격을 얻은 그는 헤겔의 강의와 같은 시간에 자신의 강의를 잡았고, 실제로 열린 것은 첫 강의뿐이었지만 이후 여러 해 동안 같은 시간대를 고집했다.",
+  "arthur-schopenhauer.interpretation.moment.1":
+    "이는 자신의 청중을 잃는 대가를 치르더라도 지배적인 경쟁자와 정면으로 맞서는 태도와 부합한다.",
+  "arthur-schopenhauer.moment.2":
+    "덴마크 학술원이 1840년 응모작 《도덕의 기초에 관하여》에 단독 응모였음에도 상을 주지 않자, 그는 1841년 학술원의 판단을 공격하는 서문을 붙여 이 글을 그대로 출간했다.",
+  "arthur-schopenhauer.interpretation.moment.2":
+    "이는 공식적 평가에 맞서 자기 작업에 대한 자신의 판단을 고수하는 태도와 부합한다.",
+  "arthur-schopenhauer.turning_point.1":
+    "1851년 일반 독자를 위한 에세이와 아포리즘 모음 《부록과 추가 논집》이 출간되었고, 몇 해 안에 《웨스트민스터 리뷰》에 실린 영국의 서평이 그가 오래 바라던 철학적 인정을 가져왔다.",
+  "arthur-schopenhauer.interpretation.turning_point.1":
+    "이는 수십 년의 외면 속에서도 독자가 나타날 때까지 출간을 이어 간 끈기와 부합한다.",
+  /* ---------------------------------------------------------- bankim-chandra-chatterjee (Roster65) */
+  "bankim-chandra-chatterjee.achievement.1":
+    "『두르게시난디니』(1865)와 『카팔쿤달라』(1866)를 비롯해 1887년까지 소설 열네 편을 펴냈으며, 방글라페디아는 그가 벵골어 문학에서 차지하는 자리가 소설과 산문에 대한 기여에 있다고 본다.",
+  "bankim-chandra-chatterjee.achievement.2":
+    "벵골어 산문을 갈고닦았고, 같은 시대의 비평가는 이를 '새로운 문체'의 창시라고 평했다. 그 전의 벵골어 소설은 산스크리트·페르시아 이야기를 옮긴 교훈적인 번역물이 대부분이었다.",
+  "bankim-chandra-chatterjee.achievement.3":
+    "1872년 월간지 『방가다르샨』을 창간해 편집했으며, 이 잡지에는 그의 연재소설과 에세이, 비평이 실렸고 방글라페디아는 이 잡지가 한 세대의 작가들을 길러냈다고 평가한다.",
+  "bankim-chandra-chatterjee.moment.1":
+    "1872년 현직 부행정관으로 일하던 중 『방가다르샨』의 편집을 시작했고, 방글라페디아에 따르면 그는 이 잡지를 유럽 잡지처럼 객관적인 문학 비평의 장으로 만들고자 했다. 잡지는 4년간 발행되었다.",
+  "bankim-chandra-chatterjee.interpretation.moment.1":
+    "이는 바쁜 직업 생활 중에도 스스로 야심 찬 사업을 시작하는 모습과 일치한다.",
+  "bankim-chandra-chatterjee.moment.2":
+    "후배 관리이자 학자인 로메시 천더 두트가 벵골어로 글을 써 본 적이 없다고 하자, 방킴은 1872년 모국어로 쓰라고 권하며 영어 글로는 오래 남지 못할 것이라고 말했다. 두트의 첫 벵골어 책은 2년 뒤에 나왔다.",
+  "bankim-chandra-chatterjee.interpretation.moment.2":
+    "이는 벵골어 문학을 키우려는 개인적 열의와 일치한다.",
+  "bankim-chandra-chatterjee.turning_point.1":
+    "영어 소설 『라즈모한의 아내』를 비롯한 초기 작품이 주목받지 못한 뒤 그는 1865년 벵골어 소설 『두르게시난디니』를 냈고, 같은 시대의 비평가는 이 작품이 벵골 문단을 놀라게 했다고 평했다.",
+  "bankim-chandra-chatterjee.interpretation.turning_point.1":
+    "이는 독창적인 목소리를 찾기 위해 언어와 형식을 바꾸는 태도와 일치한다.",
+  /* ---------------------------------------------------------- bernardino-de-sahagun (Roster65) */
+  "bernardino-de-sahagun.achievement.1":
+    "1529년 멕시코에 온 프란치스코회 선교사로, 『신에스파냐 사물 총사』(피렌체 문서)의 편찬을 이끌었다. 나우아족의 종교·사회·역사·자연을 스페인어와 나우아틀어로 담은 12권짜리 백과사전이며, 미국 의회도서관은 초기 멕시코사의 가장 중요한 자료 가운데 하나로 꼽는다.",
+  "bernardino-de-sahagun.achievement.2":
+    "이 저작은 그림 문서와 질문지를 써서 나우아 원로들을 면담하는 방식으로 만들어졌고, 그의 옛 나우아 제자들이 글을 쓰고 그림을 그렸다. 원래는 선교사들이 원주민 종교 관행에 맞서도록 돕는 도구였지만, 지금은 아스텍의 종교 지식에 관한 주요 자료다.",
+  "bernardino-de-sahagun.achievement.3":
+    "틀라텔롤코의 프란치스코회 산타크루스 학교에서 나우아 학생들에게 라틴어 문법을 가르쳤고, 그 가운데 일부는 훗날 필경사와 화가로 그와 함께 문서를 만들었다. 학자들은 그의 저작이 나우아 문명을 기록한 데서 그의 탁월한 지위를 보여 준다고 평가한다.",
+  "bernardino-de-sahagun.moment.1":
+    "테페풀코에서 그는 마을 지도자들을 모아 아는 것이 많은 원로를 추천해 달라고 청했고, 원로 열 명 안팎과 옛 라틴어 제자 네 명과 함께 거의 2년 동안 자신의 개요를 질문마다 차례로 짚어 갔다. 원로들은 그림 문서를 바탕으로 답했다.",
+  "bernardino-de-sahagun.interpretation.moment.1":
+    "이는 미리 준비한 계획과 현지 정보 제공자·조력자들을 중심으로 조사를 조직한 방식과 일치한다.",
+  "bernardino-de-sahagun.moment.2":
+    "테페풀코 조사 뒤 그는 자료를 가지고 틀라텔롤코로 옮겨 새 원로들과 1년 넘게 다시 검토하고 보충했으며, 이어 3년 동안 자료를 거듭 읽고 열두 권으로 나누었다. 그동안 나우아 라틴어 학자들이 초고를 고치고 덧붙였다.",
+  "bernardino-de-sahagun.interpretation.moment.2":
+    "이는 하나의 긴 작업을 여러 차례 고쳐 쓰며 끝까지 이어 간 태도와 일치한다.",
+  "bernardino-de-sahagun.turning_point.1":
+    "1529년 그는 스페인을 떠나 멕시코로 건너가 이후 61년 동안 설교하고 가르치며 나우아틀어와 나우아 문화를 연구했다. 그는 나우아틀어를 익혔고, 이후 동료 선교사들에게 필요한 정보를 나우아틀어로 쓰라는 명을 받았다.",
+  "bernardino-de-sahagun.interpretation.turning_point.1":
+    "이는 신에스파냐에 정착한 뒤 하나의 연구 분야에 오래 전념한 태도와 일치한다.",
+  /* ---------------------------------------------------------- david-hume (Roster65) */
+  "david-hume.achievement.1":
+    "《인간 본성에 관한 논고》(1739~40)와 두 편의 《탐구》에서 마음과 도덕에 관찰과 경험이라는 실험적 방법을 적용하려 했으며, 이 업적은 스탠퍼드 철학 백과사전과 스코틀랜드 국립미술관이 스코틀랜드 계몽주의의 중심에 놓는 작업이다.",
+  "david-hume.achievement.2":
+    "여섯 권의 《영국사》(1754~62)를 집필했으며, 인터넷 철학 백과사전은 이 책이 그에게 철학자로서의 명성에 못지않은 역사가로서의 명성을 안겨 주었다고 평가한다.",
+  "david-hume.achievement.3":
+    "《정치 논집》(1752)에 실린 화폐와 무역에 관한 에세이는 중상주의에 맞선 경험적 논거를 내놓았으며, 이코노립은 이를 고전경제학의 한 토대로 평가한다.",
+  "david-hume.moment.1":
+    "1744~45년 에든버러 대학 도덕철학 교수직에 지원했을 때 반대자들이 《논고》의 '위험한 명제' 목록을 돌리자, 그는 항목별로 반박하는 익명의 《한 신사가 친구에게 보낸 편지》를 냈지만 시 목사 15명 중 12명이 반대표를 던졌고 결국 지원을 철회했다.",
+  "david-hume.interpretation.moment.1":
+    "이 일화는 공개적 대결을 밀어붙이기보다 글로 반박한 뒤 물러서는 태도와 부합한다.",
+  "david-hume.moment.2":
+    "《논고》가 거의 주목받지 못하자 그는 내용보다 문체가 문제였다고 판단하고, 제1권을 더 짧은 《인간 지성에 관한 탐구》(1748)로, 제3권을 《도덕 원리에 관한 탐구》(1751)로 고쳐 썼다.",
+  "david-hume.interpretation.moment.2":
+    "이는 첫 시도가 실패했을 때 목표가 아니라 작업의 형식을 바꾸는 태도와 부합한다.",
+  "david-hume.turning_point.1":
+    "대학 교수직에서 거듭 배제된 그는 1752년 에든버러 변호사 도서관의 사서가 되었고, 스탠퍼드 철학 백과사전에 따르면 이 자리가 준 자료 접근 덕분에 역사가로서의 경력을 시작해 1754년 《영국사》 제1권을 냈다.",
+  "david-hume.interpretation.turning_point.1":
+    "이는 주어진 자리를 활용해 새로운 작업의 기반을 마련하는 태도와 부합한다.",
+  /* ---------------------------------------------------------- duke-kahanamoku (Roster65) */
+  "duke-kahanamoku.achievement.1":
+    "1912년과 1920년 올림픽 자유형 100미터에서 우승했고 세계 기록을 세웠으며, 1912년부터 1924년까지 올림픽 메달 5개(금 3, 은 2)를 땄다.",
+  "duke-kahanamoku.achievement.2":
+    "그는 1914~15년 호주를 비롯한 여러 곳에서 시범을 보이며 서핑을 세계에 퍼뜨린 인물로 평가받고, 올림피디아는 그를 수영과 서핑 명예의 전당에 모두 처음 오른 선수로 기록한다.",
+  "duke-kahanamoku.achievement.3":
+    "1925년 6월 캘리포니아 뉴포트 비치에서 전복된 어선 텔마호로 서핑 보드를 저어 가 여러 차례 오가며 8명을 해안으로 데려왔다.",
+  "duke-kahanamoku.moment.1":
+    "미국 아마추어 체육연맹이 처음에 1911년의 세계 기록을 인정하지 않자 하와이 지지자들이 비용을 대 본토에서 검증을 받으러 갔고, 1912년 올림픽 100미터에서 우승했다.",
+  "duke-kahanamoku.interpretation.moment.1":
+    "이는 관계자들이 기록을 의심한 뒤에도 계속 나아가는 모습과 일치한다.",
+  "duke-kahanamoku.moment.2":
+    "1925년 뉴포트 비치에서 어선 텔마호가 뒤집히는 것을 보고 자신의 서핑 보드로 침몰선까지 여러 차례 오갔으며, 그동안 다른 이들은 보드를 가지러 달려갔다.",
+  "duke-kahanamoku.interpretation.moment.2":
+    "이는 긴급 상황에서 신속하게 행동하는 모습과 일치한다.",
+  "duke-kahanamoku.turning_point.1":
+    "아마추어 규정 때문에 수영으로 돈을 벌 수 없었던 그는 1922년 영화 일을 찾아 로스앤젤레스로 옮겼고, 작은 배역을 여럿 맡았다.",
+  "duke-kahanamoku.interpretation.turning_point.1":
+    "이는 기존의 일로 생계를 꾸릴 수 없을 때 새로운 일을 찾아 나서는 모습과 일치한다.",
+  /* ---------------------------------------------------------- ferenc-puskas (Roster65) */
+  "ferenc-puskas.achievement.1":
+    "1950년대 헝가리 '황금 세대' 대표팀의 주장이자 공격수로, A매치 84경기 83골(자료마다 수치가 조금 다르다)을 넣었고 1952년 올림픽 축구 금메달, 1953년 웸블리 6-3 승리에서 2골, 1954년 월드컵 결승 진출과 대회 최우수선수 선정을 이뤘다.",
+  "ferenc-puskas.achievement.2":
+    "2년간의 출전 정지 끝에 31세에 레알 마드리드에 입단해 알프레도 디 스테파노와 함께 유러피언컵 3회(1959, 1960, 1966)와 리그 5회 우승을 이뤘고, 1960년 아인트라흐트 프랑크푸르트와의 결승(7-3 승)에서 4골을 넣었다.",
+  "ferenc-puskas.achievement.3":
+    "은퇴 후 여러 나라의 클럽과 대표팀을 지도했으며, 가장 큰 성과는 파나티나이코스를 1971년 유러피언컵 결승(아약스에 0-2 패)과 그리스 리그 2회 우승으로 이끈 것이다. FIFA는 훗날 연간 최우수 골 상에 그의 이름을 붙였다.",
+  "ferenc-puskas.moment.1":
+    "레알 마드리드 첫 시즌 마지막 경기에서 디 스테파노와 득점왕 동률이던 그는 골키퍼를 제친 뒤 직접 넣는 대신 빈 골문 앞으로 패스해 디 스테파노가 득점하게 했다고 한 축구사 기사는 전한다.",
+  "ferenc-puskas.interpretation.moment.1":
+    "이는 파트너의 스타 위상을 받아들이고 자기 득점보다 팀의 호흡을 앞세운 공격수의 면모와 일치한다.",
+  "ferenc-puskas.moment.2":
+    "31세에 컨디션이 떨어진 채 레알 마드리드에 왔을 때 팬들은 그를 나이 들고 살찐 선수로 여겼으나, 그는 정원에 플라스틱 고리를 매달아 놓고 공을 통과시키는 슛 연습을 몇 시간씩 했다고 전해진다.",
+  "ferenc-puskas.interpretation.moment.2":
+    "이는 체력에 대한 의심에 목적 있는 반복 연습으로 답한 선수의 면모와 일치한다.",
+  "ferenc-puskas.turning_point.1":
+    "2년간의 출전 정지를 마친 그는 1958년 31세에 레알 마드리드와 계약해 디 스테파노 곁의 공격수로 스페인에서 선수 생활을 새로 일으켰고, 이후 스페인 대표로 뛰었으며 은퇴 후에는 해외에서 지도자로 일했다.",
+  "ferenc-puskas.interpretation.turning_point.1":
+    "이는 앞선 경력이 끊긴 뒤 새로운 나라와 클럽, 역할에 적응해 간 사람의 면모와 일치한다.",
+  /* ---------------------------------------------------------- hiraga-gennai (Roster65) */
+  "hiraga-gennai.achievement.1":
+    "사누키 출신의 에도 시대 본초학자로, 스승 다무라 란스이와 함께 1757년부터 물산회를 열었고(1762년 물산회에는 30여 개 지방에서 1,300점이 넘는 물품이 모였다) 1763년 여섯 권의 『물류품척』을 엮었다.",
+  "hiraga-gennai.achievement.2":
+    "석면으로 불에 타지 않는 천(화완포)을 만들었고, 수입된 정전기 발생기(에레키테루)의 수리를 1776년에 마쳤으며 이는 2025년 IEEE 마일스톤으로 인정받았다. 또 오다노 나오타케에게 서양화 기법을 가르쳤다고 전해지며 그의 일파가 아키타파가 되었다.",
+  "hiraga-gennai.achievement.3":
+    "풍자 소설과 인형극 대본도 썼지만 지치부·다다·아키타의 광산 사업은 실패했고 막부 당국의 인정을 받지 못했다. 친구 스기타 겐파쿠는 그를 '비상한 사람'이라 불렀다.",
+  "hiraga-gennai.moment.1":
+    "그는 스승 다무라 란스이와 1757년 첫 물산회를 열었고 약 6년 동안 다섯 차례 개최했다. 1762년 물산회에는 30여 개 지방에서 1,300점이 넘는 물품이 모였고, 그는 360점을 가려 『물류품척』(1763)에 엮었다.",
+  "hiraga-gennai.interpretation.moment.1":
+    "이는 혼자 수집하는 데 그치지 않고 공동의 작업을 조직하고 출판한 사람의 면모와 일치한다.",
+  "hiraga-gennai.moment.2":
+    "그는 1770년경 나가사키에서 파손된 수입 정전기 발생기를 입수해 스스로 '7년'이라 부른 기간을 들여 1776년 11월 수리를 마쳤는데, IEEE 신청자들은 그가 정전기에 대해 단편적인 지식만 가졌다고 본다. 복제품은 부유층에게 치료 기구로 선보였으나 후원자를 얻지 못했다.",
+  "hiraga-gennai.interpretation.moment.2":
+    "이는 이론적 이해보다 앞서 수입 기구를 오랫동안 직접 시험하고 고친 모습과 일치한다.",
+  "hiraga-gennai.turning_point.1":
+    "1754년 그는 다카마쓰번의 직책을 내려놓았고 1756년 에도로 올라가 다무라 란스이에게 배웠으며, 안정된 세습 직책 대신 주인 없는 낭인의 삶을 택했다.",
+  "hiraga-gennai.interpretation.turning_point.1":
+    "이는 안정된 지위를 자유로운 연구와 맞바꾸려 한 태도와 일치하며, 나중에 인정과 후원을 얻지 못하는 대가가 따랐다.",
+  /* ---------------------------------------------------------- ignacy-domeyko (Roster65) */
+  "ignacy-domeyko.achievement.1":
+    "폴란드 출신의 지질학자이자 광물학자로, 1838년 라세레나의 코킴보 학교에 화학·광물학 교수로 초빙되어 화학 실험실을 세우고 지하 광산의 지질 도면 작성을 도입했으며, 안데스와 아타카마에서 오랜 현지 조사를 하며 칠레 광물 자원에 대한 초기 과학적 지식을 쌓았다. 1842년에는 엘 테니엔테 구리 광상의 가치를 알아보았다.",
+  "ignacy-domeyko.achievement.2":
+    "1852년부터 대학 대리인으로, 1867년부터 1883년까지 칠레 대학교 총장으로 일하며 대학이 고등 교육을 직접 가르쳐야 한다고 주장했고, 물리·수학 학부를 광업을 위한 공학 학교로 바꾸었다.",
+  "ignacy-domeyko.achievement.3":
+    "『시금 개론』(1844), 『광물학 원론』(1845), 『아라우카니아와 그 주민』(1846)을 썼고 『칠레 대학교 연보』에 64편의 논문을 발표했다. 광물 도메이카이트와 칠레 북부의 산맥, 소행성 2784 도메이코가 그의 이름을 땄다.",
+  "ignacy-domeyko.moment.1":
+    "1838년 라세레나에 도착한 그는 프랑스에서 화학 실험실 전체를 상자 32개에 담아 들여오고 이를 둘 건물을 지었으며, 그해 말 체계적인 교육을 시작했다. 4년째부터는 졸업생을 파리 광산학교로 보냈다.",
+  "ignacy-domeyko.interpretation.moment.1":
+    "이는 분야에 필요한 기반을 누가 마련해 주기를 기다리지 않고 직접 만드는 사람의 모습과 일치한다.",
+  "ignacy-domeyko.moment.2":
+    "1840년부터 1845년까지 학생들이 방학인 여름마다 안데스와 아타카마를 가로지르는 긴 지질 답사를 했고, 총장이 된 뒤에도 현지 조사를 이어 갔다.",
+  "ignacy-domeyko.interpretation.moment.2":
+    "이는 무거운 교육·행정 업무와 병행하며 현지 조사를 꾸준히 반복한 모습과 일치한다.",
+  "ignacy-domeyko.turning_point.1":
+    "1842년 독일식 모델에 따른 공교육 개혁안을 썼고, 대학 평의회가 1847년 그의 안을 받아들이면서 그는 산티아고로 옮겼으며 1852년 대학 대리인에 임명되었다.",
+  "ignacy-domeyko.interpretation.turning_point.1":
+    "이는 지방 학교의 교사에서 국가 대학의 틀을 만드는 사람으로 역할이 바뀐 것과 일치한다.",
+  /* ---------------------------------------------------------- ignatius-sancho (Roster65) */
+  "ignatius-sancho.achievement.1":
+    "그의 서한집은 1782년 사후 2년 만에 출간되어 1803년까지 다섯 판을 찍었고, 그는 18세기 노예무역 반대자들에게 아프리카인의 인간성을 보여 주는 상징이 되었다.",
+  "ignatius-sancho.achievement.2":
+    "그는 '아프리카인이 작곡한' 미뉴에트, 코티용, 컨트리 댄스 모음집(1767년경)을 런던에서 직접 찍어 냈다.",
+  "ignatius-sancho.achievement.3":
+    "노예선에서 태어나 하인으로 자란 그는 1774년 의사당 근처에서 식료품점을 열었고, 가장으로서 투표권을 행사했으며, 1768년 토머스 게인즈버러가 그의 초상을 그렸다.",
+  "ignatius-sancho.moment.1":
+    "그는 유명 작가 로런스 스턴에게 보낸 편지에서 자신을 그의 책을 사랑하는 아프리카인이라고 소개하며, 서인도 제도의 노예제에 잠시만 관심을 기울여 달라고 청했다.",
+  "ignatius-sancho.interpretation.moment.1":
+    "이는 자신이 중요하게 여기는 문제로 저명한 인물에게 먼저 다가가는 주도적인 모습과 일치한다.",
+  "ignatius-sancho.moment.2":
+    "그는 웨스트민스터의 가게를 운영하면서도 무용 음악을 출판하고, 편지와 수필, 희곡을 쓰며, 개릭과 스턴을 비롯한 예술가·작가들과 교유를 이어 갔다.",
+  "ignatius-sancho.interpretation.moment.2":
+    "이는 생업을 이어 가면서 여러 창작 활동을 병행하는 모습과 일치한다.",
+  "ignatius-sancho.turning_point.1":
+    "자매들이 글을 가르치기를 거부하자 그는 독학으로 글을 깨쳤고, 블랙히스에서 그를 만난 몬터규 공작은 책을 빌려주며 교육을 권해 몬터규 가문에서 일하는 길이 열렸다.",
+  "ignatius-sancho.interpretation.turning_point.1":
+    "이는 배우려는 강한 욕구가 그의 삶의 경로를 만든 모습과 일치한다.",
+  /* ---------------------------------------------------------- ishwar-chandra-vidyasagar (Roster65) */
+  "ishwar-chandra-vidyasagar.achievement.1":
+    "1851년부터 산스크리트 대학 교장으로서 모든 힌두교도에게 입학 문을 열고 소액의 수업료를 도입했으며, 영어를 필수 과목으로 삼고 문법과 수학을 산스크리트어뿐 아니라 벵골어와 영어로도 가르치게 했다.",
+  "ishwar-chandra-vidyasagar.achievement.2":
+    "벵골어 입문서 『바르나파리차이』와 벵골어로 쓴 산스크리트 문법서 등 모범적인 교과서를 썼고, 『베탈 판차빔샤티』와 『샤쿤탈라』 같은 작품으로 문학적 벵골어 산문을 만드는 데 기여한 것으로 평가받는다. 타고르는 그가 벵골어 산문의 아름다움을 확립했다고 보았다.",
+  "ishwar-chandra-vidyasagar.achievement.3":
+    "학교 장학관으로서 네 개 지역에 벵골어 모범학교 약 스무 곳과 교사 양성학교를 열었고, 자기 마을에는 대부분 사비로 학교를 세웠으며, 1864년 캘커타 메트로폴리탄 학원을 맡았다. 또한 산스크리트 경전에 근거해 힌두 과부의 재혼이 허용된다고 주장했다.",
+  "ishwar-chandra-vidyasagar.moment.1":
+    "1851년 그는 카야스타 소년들도 산스크리트 대학에 받아들여야 한다고 교육위원회에 보고했다. 교수들이 그렇게 하면 종교가 더럽혀진다고 반대하자 그는 경전 구절로 반박하고 실패하면 사직하겠다고 말했으며, 당국은 이를 승인했다.",
+  "ishwar-chandra-vidyasagar.interpretation.moment.1":
+    "이는 자신이 이끄는 기관을 먼저 바꾸려 하고 반대에도 변화를 밀어붙인 태도와 일치한다.",
+  "ishwar-chandra-vidyasagar.moment.2":
+    "1858년 9월 공교육 국장과 의견 차이를 빚은 끝에, 그는 사직서를 고쳐 달라는 국장의 요청을 일관성을 이유로 받아들이지 않았고, 월 500루피를 받던 관직에서 물러났다.",
+  "ishwar-chandra-vidyasagar.interpretation.moment.2":
+    "이는 좋은 보수의 관직보다 상관으로부터의 독립을 앞세운 태도와 일치한다.",
+  "ishwar-chandra-vidyasagar.turning_point.1":
+    "1847년 산스크리트 대학을 떠났던 그는 1850년 12월 문학 교수로 돌아왔고 한 달 뒤 교장이 되었다. 이 직책은 조직 개편으로 새로 만들어졌으며, 그는 이를 통해 교과과정과 규칙을 고칠 권한을 얻었다.",
+  "ishwar-chandra-vidyasagar.interpretation.turning_point.1":
+    "이는 개혁을 주도할 수 있게 되자 같은 기관으로 돌아온 행보와 일치한다.",
+  /* ---------------------------------------------------------- ito-jakuchu (Roster65) */
+  "ito-jakuchu.achievement.1":
+    "1757년부터 1766년까지 『동식채회(動植綵繪)』 30폭을 그렸다. 새와 식물, 물고기, 곤충을 촘촘히 그려 낸 이 작품은 국보로 지정되었으며, 그는 이를 쇼코쿠지에 기증했다.",
+  "ito-jakuchu.achievement.2":
+    "닭 그림으로 유명한 짙은 채색의 화조화 양식을 만들었다. 일본의 사전류는 그의 그림을 관찰한 형태와 세밀한 묘사를 상상력 넘치는 화면으로 재구성한 것이라고 설명한다.",
+  "ito-jakuchu.achievement.3":
+    "교토 청과 도매상의 장남으로 태어나 마흔에 가업을 동생에게 넘기고 그림에 전념했으며, 1788년 대화재로 작업실과 가게를 잃은 뒤에도 세키호지 곁에서 작업을 이어 갔다.",
+  "ito-jakuchu.moment.1":
+    "가노파의 분본(粉本) 위주 방식에 만족하지 못한 그는 송·원·명 시대의 그림을 베껴 그리고 주변의 동식물을 사생하는 쪽으로 나아갔으며, 집에서 닭을 기르고 때로는 이국의 새를 들여와 관찰했다.",
+  "ito-jakuchu.interpretation.moment.1":
+    "이는 물려받은 유파의 방식보다 직접 연구를 택하는 태도와 일치한다.",
+  "ito-jakuchu.moment.2":
+    "리핏은 그가 1757년부터 1766년까지 해마다 대작 세 점 정도의 속도로 『동식채회』를 쉬지 않고 그렸으며, 값비싼 재료와 비단 뒷면에 칠하는 배채(背彩) 기법을 썼다고 설명한다.",
+  "ito-jakuchu.interpretation.moment.2":
+    "이는 10년에 걸친 지속적이고 공들인 노력과 일치한다.",
+  "ito-jakuchu.turning_point.1":
+    "마흔 살에 집안의 청과 도매업에서 물러나 동생에게 넘기고 쇼코쿠지로 옮겨 『동식채회』를 시작했다.",
+  "ito-jakuchu.interpretation.turning_point.1":
+    "이는 안정적인 가업을 내려놓고 전업 화가로 일하려는 선택과 일치한다.",
+  /* ---------------------------------------------------------- kano-jigoro (Roster65) */
+  "kano-jigoro.achievement.1":
+    "교육자로서 유도를 창시했다. 1882년 고도칸을 열어 덴진신요류와 기토류 유술에서 유도를 끌어내고, 힘의 최대 효율적 사용과 자타공영의 원칙 위에 세웠으며, 이후 띠와 단위 제도를 도입했다. 유도는 1964년 올림픽 종목이 되었다.",
+  "kano-jigoro.achievement.2":
+    "도쿄 사범학교(도쿄고등사범학교, 현 쓰쿠바대학의 전신)의 교장을 20년 넘게 지내며 스포츠를 장려하고 1915년 체육과를 설치했으며, 중국인 유학생을 위한 학교도 세웠다.",
+  "kano-jigoro.achievement.3":
+    "국제올림픽위원회(IOC)의 첫 아시아인 위원(1909~1938)이었고, 1912년 스톡홀름 올림픽 무렵 설립된 대일본체육협회를 이끌어 일본 최초의 올림픽 선수단을 보냈으며, 1940년 올림픽의 도쿄 유치를 도왔다.",
+  "kano-jigoro.moment.1":
+    "1971년의 한 전기 에세이에 따르면, 가노는 훨씬 몸집이 큰 상대에게 진 뒤 스모 책을 연구해 새 기술인 가타구루마를 만들었고 이를 써서 이겼다.",
+  "kano-jigoro.interpretation.moment.1":
+    "이는 패배에 외부 자료를 연구해 기술을 개선하는 것으로 응한 사람의 면모와 일치한다.",
+  "kano-jigoro.moment.2":
+    "마라톤 선수 가나쿠리 시조가 1912년 스톡홀름 올림픽 여비를 마련하지 못하자, 가노는 학교에 후원회를 만들어 그가 갈 수 있을 만큼의 돈을 모았다.",
+  "kano-jigoro.interpretation.moment.2":
+    "이는 참가 사업을 성사시키려 실질적 후원을 조직한 사람의 면모와 일치한다.",
+  "kano-jigoro.turning_point.1":
+    "1882년, 약 22세에 그는 몇 안 되는 제자와 함께 자신의 도장인 고도칸을 열어 유술 수련생에서 새 유파의 창시자이자 스승으로 옮겨 갔다.",
+  "kano-jigoro.interpretation.turning_point.1":
+    "이는 여러 유파를 공부한 오랜 수련을 자신의 기관으로 바꾼 사람의 면모와 일치한다.",
+  /* ---------------------------------------------------------- matthew-boulton (Roster65) */
+  "matthew-boulton.achievement.1":
+    "1775년 제임스 와트의 동업자가 되어 와트의 증기기관을 소호에서 상업 생산으로 이끈 버밍엄의 제조업자이다. 그는 존 로벅의 특허 지분을 채무 정산으로 넘겨받았으며, 1800년까지 영국과 해외에 설치된 기관은 500대에 가까웠다.",
+  "matthew-boulton.achievement.2":
+    "1762년 버밍엄 근교에 소호 공장을 세워 단추, 버클, 셰필드 도금 제품, 오르몰루 같은 작은 금속 제품을 만들었으며, 디자인·생산·판매를 직접 통제하고 노동 절감 기계를 갖추었다. 버밍엄 박물관은 이 업종이 버밍엄을 '세계의 장난감 가게'로 만드는 데 이바지했다고 설명한다.",
+  "matthew-boulton.achievement.3":
+    "1788년 증기력으로 움직이는 소호 조폐소를 세우고, 금속 가치가 액면가에 맞는 1797년 영국 구리 주화(카트휠 페니 포함)를 찍었다. 해외 조폐소와 런던 왕립조폐국용 기계도 공급했다.",
+  "matthew-boulton.moment.1":
+    "와트 특허 연장 운동에서 볼턴은 '기관 법안의 지지자 명단'에 77명과 소수파 귀족들을 올려 두고 에드먼드 버크가 이끄는 반대에 맞섰으며, 결국 법률로 특허 기간이 연장되었다.",
+  "matthew-boulton.interpretation.moment.1":
+    "이는 사업상의 목적을 이루기 위해 인맥을 체계적으로 움직인 사람의 면모와 일치한다.",
+  "matthew-boulton.moment.2":
+    "1772년 존 로벅이 파산하자 볼턴은 1,200파운드 채권의 정산으로 와트 기관 특허의 로벅 지분을 넘겨받았고, 『영국인명사전』에 따르면 자기 자본과 빌릴 수 있는 돈을 모두 쏟아부어 기관이 수익을 내기 전에 파산할 뻔했다.",
+  "matthew-boulton.interpretation.moment.2":
+    "이는 검증되지 않은 사업에 자기 자원을 거는 것을 마다하지 않은 태도와 일치한다.",
+  "matthew-boulton.turning_point.1":
+    "1775년 소호에서 작은 금속 제품을 만들어 온 그는 와트의 증기기관 사업 동업자가 되었으며, 과학박물관 그룹은 이 사업이 그의 가장 수익이 큰 사업이었다고 기록한다.",
+  "matthew-boulton.interpretation.turning_point.1":
+    "이는 수요가 크다고 판단한 새 기술로 사업의 무게를 옮긴 제조업자의 면모와 일치한다.",
+  /* ---------------------------------------------------------- mikhail-lomonosov (Roster65) */
+  "mikhail-lomonosov.achievement.1":
+    "1745년부터 상트페테르부르크 과학아카데미의 화학 교수로서 화학 실험실을 세우고, 원자·분자론적 설명과 정량적 방법, 열을 분자 운동으로 보는 견해를 주장했으며, 물질 보존의 원리를 제시하고 1761년 금성 태양면 통과를 관측하여 금성에 대기가 있다고 결론지었지만, 라부아지에에 대한 선취권은 역사가들 사이에 논란이 있다.",
+  "mikhail-lomonosov.achievement.2":
+    "그는 모스크바에 대학을 세워야 한다고 거듭 주장했고, 이반 슈발로프에게 보낸 그의 편지가 모스크바 대학 설계의 토대가 되어 1755년 칙령으로 철학·법학·의학 세 학부를 갖춘 대학이 창립되었으며, 이 대학은 지금 그의 이름을 쓴다.",
+  "mikhail-lomonosov.achievement.3":
+    "그는 시인이자 러시아어 연구자로서 과학 어휘를 정비하는 데 기여했고, 1739년의 〈호틴 점령에 부친 송가〉는 혁명적인 작품으로 평가되며 벨린스키 같은 비평가는 근대 러시아 시가 이 작품에서 시작되었다고 보았다.",
+  "mikhail-lomonosov.moment.1":
+    "1761년 금성 태양면 통과 때 그는 자기 집 옥상에서 관측하다가 금성이 들어오기 전 태양 가장자리가 흐려지는 것을 보고 눈의 피로 탓일까 하여 눈을 떼었다가 다시 보아 검은 부분을 확인했으며, 흐림과 금성이 나갈 때의 돌출부를 굴절로 설명하여 금성에 대기가 있다고 추론했고 보고서는 제출 후 두 주 안에 인쇄되었다.",
+  "mikhail-lomonosov.interpretation.moment.1":
+    "이 일화는 결론을 내리기 전에 자신의 관측을 다시 확인하는 습관과 부합한다.",
+  "mikhail-lomonosov.moment.2":
+    "1761년 금성 통과 전에 그는 아피누스의 준비가 미흡하다고 판단하여 크라실니코프와 쿠르가노프가 아카데미 천문대에서 관측하도록 하라고 명령했으나 아피누스는 거부하고 다른 곳에서 관측했는데, 이는 1759년 수은 응고 결과에 대한 아피누스의 미승인 서신을 로모노소프가 문제 삼으면서 시작된 불화의 한 대목이었다.",
+  "mikhail-lomonosov.interpretation.moment.2":
+    "이 흐름은 과학적·제도적 문제를 두고 영향력 있는 동료와 공개적으로 맞서는 것을 마다하지 않는 태도와 부합한다.",
+  "mikhail-lomonosov.turning_point.1":
+    "1730년 12월, 열아홉 살의 그는 3루블과 외투 한 벌을 빌려 상단 행렬에 끼어 고향에서 얻을 수 없던 교육을 구하러 일부는 걸어서 1,170km를 가 모스크바에 도착했고, 1735~36년에는 상트페테르부르크 아카데미로 보내진 열두 명의 학생 가운데 한 명이 되어 이어 유학길에 올랐으며, 이로써 성직의 길에서 과학으로 방향이 바뀌었다.",
+  "mikhail-lomonosov.interpretation.turning_point.1":
+    "이 여정과 그 뒤의 전개는 어려운 조건에서도 교육을 끝까지 추구하려는 결의와 부합한다.",
+  /* ---------------------------------------------------------- mungo-park (Roster65) */
+  "mungo-park.achievement.1":
+    "아프리카협회가 1795년 니제르강을 찾도록 파견한 스코틀랜드 출신 외과의이자 탐험가로, 1796년 세구에서 니제르강에 닿아 약 80마일을 따라 내려갔고 1797년 귀환했다. 자료들은 그를 상류 니제르강을 처음 본 유럽인으로 전한다.",
+  "mungo-park.achievement.2":
+    "1799년 펴낸 『아프리카 내륙 여행기』는 베스트셀러이자 여행문학의 고전이 되었다. 그는 앞서 수마트라에서 식물을 채집하고 린네학회에 새로운 어류 여덟 종을 기술했다.",
+  "mungo-park.achievement.3":
+    "1805년 정부가 후원한 더 큰 원정대를 이끌고 다시 니제르강으로 향했으나 강에 닿기 전에 대원 대부분이 병으로 죽었고, 그는 몇 명의 동료와 함께 현지 안내인의 증언에 따르면 강을 약 1,000마일 내려간 뒤 부사 급류에서 숨졌다. 새로 밝혀진 지리 지식은 거의 없었다.",
+  "mungo-park.moment.1":
+    "루다마르에서 무어인 족장에게 약 넉 달간 붙잡혀 있던 그는 1796년 7월 말과 휴대용 나침반만 지닌 채 홀로 탈출했고, 되돌아가지 않고 세구에서 니제르강에 닿았다.",
+  "mungo-park.interpretation.moment.1":
+    "이는 극심한 물자 부족 속에서도 임기응변으로 목표를 놓지 않은 탐험가의 면모와 일치한다.",
+  "mungo-park.moment.2":
+    "1805년 말 산산딩에서 처남과 대원 대부분이 죽고 몇 명만 남았음에도 그는 되돌아가지 않고 카누 두 척을 사서 한 척으로 이어 붙인 뒤 미지의 강을 따라 출발했는데, 한 최근 학자는 이성적으로는 포기했어야 할 상황이었다고 평한다.",
+  "mungo-park.interpretation.moment.2":
+    "이는 과업을 끝내려는 결의가 그의 강점이면서 이번에는 값비싼 약점이기도 했음을 보여 주는 면모와 일치한다.",
+  "mungo-park.turning_point.1":
+    "피블스에서 시골 의사로 자리 잡았으나 단조로운 생활을 답답해했다고 전해지는 그는 1803년 정부의 새 니제르 원정 지휘 제안을 받아들여 1805년 1월 감비아로 출항했다.",
+  "mungo-park.interpretation.turning_point.1":
+    "이는 안정된 의사 생활 대신 더 야심 찬 사업을 택한 사람의 면모와 일치한다.",
+  /* ---------------------------------------------------------- nikolay-pirogov (Roster65) */
+  "nikolay-pirogov.achievement.1":
+    "그는 1854~55년 포위된 세바스토폴의 군의관장으로서 마취를 대규모로 사용하고 엘레나 파블로브나 대공비와 함께 간호 자매들을 훈련시켰으며 1864년 야전 외과 저서를 썼고, 역사가들은 그를 야전 외과의 창시자로 볼 수 있다고 말한다.",
+  "nikolay-pirogov.achievement.2":
+    "1847년 1월부터 동물과 자신, 조수들에게 에테르를 시험한 뒤 러시아에서 그 사용을 널리 퍼뜨렸고, 캅카스 전선에서도 직접 고안한 흡입기와 마스크로 사용했다. 베렌손과 이노젬체프가 몇 주 앞서 러시아에서 에테르를 쓰기는 했다.",
+  "nikolay-pirogov.achievement.3":
+    "1852~1859년 얼린 시신을 세 방향으로 절단한 단면 220장을 담은 8부작 《지형해부학》 도해서를 펴내고 러시아에서 응용 지형해부학 교육을 도입했으며, 냉동 단면의 착상은 드 리메르가 먼저 실행했으므로 그의 기여는 규모와 적용에 있었다.",
+  "nikolay-pirogov.moment.1":
+    "처음에는 에테르의 안전성을 의심했던 피로고프는 1847년 1월 실험을 시작하여 환자에게 쓰기 전에 자신과 조수들에게 그 경과를 살폈고, 1847년 2월 14일 에테르 마취로 첫 두 건의 수술을 시행했다.",
+  "nikolay-pirogov.interpretation.moment.1":
+    "이 흐름은 새로운 방법을 널리 적용하기 전에 자신과 통제된 시험으로 먼저 검증하는 습관과 부합한다.",
+  "nikolay-pirogov.moment.2":
+    "1847년 캅카스의 오글라흐 야전병원에는 부상병들이 천막에 누워 있고 별도의 수술실이 없었으므로 피로고프는 다른 부상병들이 보는 앞에서 수술하여 에테르의 효과를 보여 주었고, 그들은 이후 두려움 없이 수술을 받으러 왔다.",
+  "nikolay-pirogov.interpretation.moment.2":
+    "이 일화는 열악한 조건에 시술을 맞추고 환자를 설득하는 데 주도적으로 나서는 태도와 부합한다.",
+  "nikolay-pirogov.turning_point.1":
+    "상트페테르부르크에서 행정 당국과 끝없는 투쟁이라 할 만한 세월을 보낸 뒤 1856년 4월 외과 직책에서 물러나 먼저 오데사로, 이어 키예프로 옮겨 외과 대신 학교 행정 일을 했다.",
+  "nikolay-pirogov.interpretation.turning_point.1":
+    "이 이동은 기존 직책을 유지하기 어려워지자 경력을 다른 분야로 돌리는 것을 마다하지 않는 태도와 부합한다.",
+  /* ---------------------------------------------------------- osman-hamdi-bey (Roster65) */
+  "osman-hamdi-bey.achievement.1":
+    "1881년 오스만 제국 황실박물관 관장이 되어 이를 이스탄불 고고학 박물관으로 키웠으며, 1891년 문을 연 새 건물을 짓게 하고 유물의 해외 밀반출을 막는 법령을 추진했다.",
+  "osman-hamdi-bey.achievement.2":
+    "시돈 등지의 발굴을 이끌어 1887년 왕실 묘지에서 석관들을 찾아 이스탄불로 옮겼고, 1892년 테오도르 레나크와 함께 시돈 발굴 보고서를 펴냈다.",
+  "osman-hamdi-bey.achievement.3":
+    "화가로서 파리에서 제롬과 불랑제에게 배웠고 《거북이 조련사》(1906)로 가장 잘 알려져 있으며, 1882년 이스탄불에 미술 아카데미를 세웠다.",
+  "osman-hamdi-bey.moment.1":
+    "1887년 시돈 근처에서 한 마을 사람이 유적을 발견하자 그는 왕실 묘지를 발굴했는데, 서구 논평가들은 주로 무슬림으로 이뤄진 그의 팀이 이를 해낼 수 있을지 의심했으며, 출토된 석관들은 이후 이스탄불로 옮겨졌다.",
+  "osman-hamdi-bey.interpretation.moment.1":
+    "이 일화는 까다로운 현장 발굴을 외국 전문가에게 맡기지 않고 직접 책임지는 태도와 일치한다.",
+  "osman-hamdi-bey.moment.2":
+    "박물관장으로서 소장품을 목록화하고 고고학·미술 도서관을 만들었으며 사진을 곁들인 박물관 도록을 제작했는데, 한 박물관 고고학자는 이것이 튀르키예 최초라고 미들이스트아이에 말했다.",
+  "osman-hamdi-bey.interpretation.moment.2":
+    "이 도록 작업은 소장품을 꼼꼼히 기록하고 관리하는 접근과 일치한다.",
+  "osman-hamdi-bey.turning_point.1":
+    "1881년 외국인 관장 두 명의 뒤를 이어 황실박물관 관장에 임명된 그는 이후 박물관 건립, 발굴 지휘, 그림 작업으로 경력을 나누어 이어 갔다.",
+  "osman-hamdi-bey.interpretation.turning_point.1":
+    "이 임명은 여러 분야에 걸친 경력으로 이어진 전환점으로, 그런 폭넓은 행보와 일치한다.",
+  /* ---------------------------------------------------------- richard-arkwright (Roster65) */
+  "richard-arkwright.achievement.1":
+    "1771년부터 수력 방적 공장인 크롬퍼드 공장을 운영하고 1769년과 1775년의 특허로 더웬트 밸리 공장 지대 세계유산의 중심이 된 공장 체제를 세운 영국의 면방적 사업가이다. 과학박물관 그룹은 그를 발명가라기보다 남의 아이디어를 개량한 사람으로 보며, 사업 수완을 가장 큰 재능으로 꼽는다.",
+  "richard-arkwright.achievement.2":
+    "다른 지역에서 노동자를 모집하고 숙소를 지어 크롬퍼드를 공장 마을로 키웠으며 여러 주로 공장을 넓혔다. 1782년에는 종업원이 5,000명이 넘는다고 스스로 어림했고, 노동자 중에는 여성과 아동이 많았다.",
+  "richard-arkwright.achievement.3":
+    "특허 사용권을 팔고 침해자를 고소했으나, 토머스 하이스 등의 증인이 그가 남의 아이디어를 가져다 썼다고 증언하면서 1785년 특허가 취소되었다. 그럼에도 사업은 이어졌고, 1786년 기사 작위를 받았으며 약 50만 파운드의 재산을 남겼다.",
+  "richard-arkwright.moment.1":
+    "1781년 그는 특허 침해로 아홉 개 회사를 고소했으나 모던트 대령을 상대로 한 첫 소송은 명세서가 불충분하다는 이유로 졌고, 1785년의 재판에서도 배심원단이 그에게 불리한 평결을 내렸다.",
+  "richard-arkwright.interpretation.moment.1":
+    "이는 공개적 패배를 감수하면서도 다투는 주장을 거듭 법정에서 밀어붙인 사람의 면모와 일치한다.",
+  "richard-arkwright.moment.2":
+    "크롬퍼드에서 일손이 모자라자 그는 연립 주택과 여관을 짓고 대가족을 둔 직공을 비롯한 노동자를 다른 지역에서 모집했다.",
+  "richard-arkwright.interpretation.moment.2":
+    "이는 계획을 바꾸는 대신 주택을 짓고 인력을 모집해 노동력 부족을 해결한 사람의 면모와 일치한다.",
+  "richard-arkwright.turning_point.1":
+    "1771년 그는 노팅엄의 말 동력 공장 이후 제디다이아 스트럿, 새뮤얼 니드와 동업하여 크롬퍼드에서 수력 방적으로 옮겼으며, 세계유산 설명서는 이 공장을 아크라이트 체제의 바탕으로 본다.",
+  "richard-arkwright.interpretation.turning_point.1":
+    "이는 동업자가 자본을 대자 검증된 아이디어를 더 큰 규모의 다른 동력으로 옮긴 사람의 면모와 일치한다.",
+  /* ---------------------------------------------------------- saicho (Roster65) */
+  "saicho.achievement.1":
+    "일본 천태종을 세운 승려이다. 804~805년 중국 천태산에서 공부한 뒤 히에이산에 천태종을 열었고, 간무 천황은 그의 암자를 엔랴쿠지로 만들어 주었다. 천태 연구와 밀교 수행을 함께 닦는 교과 과정을 두었고 806년부터 해마다 득도자 2명을 허가받았다.",
+  "saicho.achievement.2":
+    "일본인은 보살계만 받으면 충분하다고 주장하며 히에이산에 독립된 대승 계단을 세우려 했지만, 청원은 거듭 거부되었고 허가는 822년 그가 세상을 떠난 지 일주일 뒤에 내려졌다. 또 법상종의 도쿠이쓰와 모든 중생이 성불할 수 있는가를 두고 논쟁했다.",
+  "saicho.achievement.3":
+    "그가 세운 엔랴쿠지는 이후 4세기 동안 일본의 대표적인 승려들을 길러냈다. 제자로는 중국에 함께 간 기신과 훗날 이곳의 주지가 된 엔닌이 있으며, 그는 중국에서 가져온 문헌을 『에슈로쿠』로 정리했다.",
+  "saicho.moment.1":
+    "그는 여러 해 동안 구카이에게 문헌을 빌려 달라고 청해 구카이가 들여온 목록의 거의 절반을 베껴 썼다. 구카이에게 보낸 현존 편지 24통 가운데 11통이 문헌의 대여와 필사에 관한 것이고, 811년에는 관정을 받게 해 달라고 청했다.",
+  "saicho.interpretation.moment.1":
+    "이는 자신과 종단을 위해 더 많은 가르침을 구하려 한 지도자의 모습과 일치한다.",
+  "saicho.moment.2":
+    "도쿠이쓰가 천태의 불성론을 비판하는 논서를 쓰자 사이초는 세 편의 저작으로 응답했고, 계단 설립 청원이 거절되는 와중에도 청원을 이어 갔다.",
+  "saicho.interpretation.moment.2":
+    "이는 반대에 부딪혀 물러서지 않고 글과 청원으로 대응한 사람의 모습과 일치한다.",
+  "saicho.turning_point.1":
+    "804년 중국으로 건너갔는데 배가 항로를 벗어나 천태산에서 공부하게 되었다. 이듬해 문헌과 밀교 관정을 받아 돌아왔고, 806년 조정은 해마다 천태종 득도자 2명을 허가했다.",
+  "saicho.interpretation.turning_point.1":
+    "이는 히에이산의 은둔 수행자에서 독자적인 교과 과정을 지닌 종단의 창시자로 바뀐 궤적과 일치한다.",
+  /* ---------------------------------------------------------- sakya-pandita (Roster65) */
+  "sakya-pandita.achievement.1":
+    "사캬(1182~1251)의 다섯 대 법좌 보유자 가운데 네 번째로, 사캬를 인식론 연구의 중심으로 다시 세웠다. 『불교 백과사전』은 그를 사캬파 초기의 가장 위대한 학자로 꼽고 백 편이 넘는 저작이 전한다고 한다.",
+  "sakya-pandita.achievement.2":
+    "대표작 다섯 편은 지금도 티베트인들이 외우는 『격언 보배의 보고』, 『인식론의 보고』, 『삼률의 분명한 구분』, 『성자의 뜻을 밝힘』, 『학자에의 입문』이다.",
+  "sakya-pandita.achievement.3":
+    "카슈미르 학자 샤캬슈리바드라와 함께 다르마키르티의 『프라마나바르티카』를 티베트어로 다시 번역했고, 『학자에의 입문』에서 작문·해설·논쟁의 학습 과정을 제시했다. 스탠퍼드 철학 백과는 이를 교육의 목적과 방법을 다룬 드문 중세 논서라고 평한다.",
+  "sakya-pandita.moment.1":
+    "『삼률의 분명한 구분』에서 그는 동시대 티베트인들이 받아들인 열 가지 교리를 오류라고 꼽았고, 자신의 비판이 적의나 질투에서 나왔다는 비난에 맞서 경전과 논리로 변호했다.",
+  "sakya-pandita.interpretation.moment.1":
+    "이는 같은 편 안에서도 공개적으로 논쟁하는 것을 마다하지 않았고 그 대가로 오랜 논란을 치렀던 태도와 일치한다.",
+  "sakya-pandita.moment.2":
+    "그의 것으로 전해지는 시구는 '나'라는 말을 여덟 번 써서 자신이 문법학자·논리학자·시인이며 안팎의 학문에 통달했다고 하고, 다른 이른바 학자들은 모방일 뿐이라고 말한다.",
+  "sakya-pandita.interpretation.moment.2":
+    "이는 자신의 학식을 거리낌 없이 내세우는 자신감 있는 태도와 일치하지만, 이 시구는 그의 작으로 전해지는 자기 서술이다.",
+  "sakya-pandita.turning_point.1":
+    "카슈미르 학자 샤캬슈리바드라가 인도·네팔의 학승들과 함께 티베트에 오자, 그는 그를 찾아가 수가타슈리를 3년간 개인 교사로 두고 이어 샤캬슈리에게 5년을 더 배웠다. 스탠퍼드 철학 백과는 이를 삶의 큰 전환점으로 보며, 이후 그는 다르마키르티의 저작을 다시 번역하고 람데 전통으로 알려진 사캬를 인식론의 중심지로 바꾸었다.",
+  "sakya-pandita.interpretation.turning_point.1":
+    "이는 새로운 학문 체계를 익히기 위해 여러 해에 걸쳐 의도적으로 매진한 태도와 일치한다.",
+  /* ---------------------------------------------------------- shitao (Roster65) */
+  "shitao.achievement.1":
+    "청나라 초기의 화승(畫僧)으로 본명은 주약극이다. 산수와 과일·꽃, 난초와 대나무를 자유로운 붓질과 촉촉한 먹으로 그렸고, 타이베이 고궁박물원은 이를 그가 독자적인 양식을 만들라고 주창한 것과 연결해 설명한다.",
+  "shitao.achievement.2":
+    "화론서 『고과화상화어록』을 썼다. 첫 장은 그림의 법이 하나의 획에서 나온다고 말하며, 『청사고』는 그가 화론 한 권을 지었다고 기록한다.",
+  "shitao.achievement.3":
+    "1696년 이후 양저우에 정착해 직업 화가로 살았다. 1795년의 지역 기록은 완스 정원의 가산(假山)을 그의 솜씨로 전하며, 『청사고』는 그를 곤잔과 나란히 '두 석(二石)'으로 꼽는다.",
+  "shitao.moment.1":
+    "리더우의 1795년 『양저우화방록』은 그가 산수와 화훼화 외에 가산(假山) 쌓기에도 능했으며, 위씨 집안의 완스 정원이 그의 손에서 나와 지금도 칭송받는다고 적었다.",
+  "shitao.interpretation.moment.1":
+    "이는 화가의 안목을 이웃한 공예 분야에까지 적용한 모습과 일치한다.",
+  "shitao.moment.2":
+    "그는 화론서에서 어느 대가의 화풍을 그대로 따르는 화가는 그 대가의 남은 음식을 먹는 셈이라고 썼고, '나는 나이며 나에게는 나의 것이 있다'고 말했다.",
+  "shitao.interpretation.moment.2":
+    "이는 개성적인 양식을 고집하는 그의 자기 진술과 일치하며, 이는 외부의 관찰이 아니라 그 자신의 주장이다.",
+  "shitao.turning_point.1":
+    "그는 여러 지방을 떠도는 승려로 살다가 승려 생활을 버리고, 타이베이 고궁박물원에 따르면 직업 화가로 생계를 꾸렸으며 1696년 이후 양저우에 정착했다.",
+  "shitao.interpretation.turning_point.1":
+    "이는 화가로 일하기 위해 한 삶의 방식에서 다른 방식으로 옮겨 간 모습과 일치한다.",
+  /* ---------------------------------------------------------- wang-guowei (Roster65) */
+  "wang-guowei.achievement.1":
+    "갑골문과 청동기 명문을 옛 문헌과 함께 읽어 중국 고대사 연구에 새 토대를 놓았으며, 그 성과는 직접 엮은 《관당집림》에 모여 있고, 칭화대학은 그를 20세기 중국 학술에서 가장 영향력 있는 대가의 한 사람으로 꼽는다.",
+  "wang-guowei.achievement.2":
+    "문학비평에서는 《홍루몽 평론》(1904)과 《인간사화》(1908)로 서양 미학을 중국 문학 연구에 적용하고 '경계설'을 제시했으며, 1913년에는 송·원 희곡의 역사를 다룬 《송원희곡사》를 완성했다.",
+  "wang-guowei.achievement.3":
+    "1925년부터 1927년까지 칭화학교 연구원 국학문의 지도교수로서 고대사와 청동기 명문을 가르쳤고, 몽골 및 요·금 시기 사료의 교주 작업을 했다.",
+  "wang-guowei.moment.1":
+    "1909년에 낸 송대부터 청대까지의 희곡 목록 《곡록》은 3천 가까운 제목을 실었고, 1923년 후스는 잘못 분류되었거나 빠진 작품을 짚으며, 그 뒤 새로 나온 희곡 자료를 반영해 왕궈웨이가 개정해 주기를 바랐다.",
+  "wang-guowei.interpretation.moment.1":
+    "이는 한 동시대 비평가가 보여 주듯, 꼼꼼하지만 오류가 없지는 않은 대규모 목록 작업과 부합한다.",
+  "wang-guowei.moment.2":
+    "칭화 연구원의 동료였던 량치차오는 1927~28년에, 왕궈웨이가 조금이라도 확신이 서지 않는 결론은 글로 남기지 않았고 앞사람이 이미 한 말은 버렸다고 썼다.",
+  "wang-guowei.interpretation.moment.2":
+    "이 호의적인 동료의 증언은 증거를 신중하게 스스로 점검하는 태도와 부합한다.",
+  "wang-guowei.turning_point.1":
+    "제자 우치창에 따르면 그는 1909년경부터 문학비평과 쇼펜하우어에 기댄 미학을 접고 고대사와 금석문 연구로 방향을 틀어 뤄전위의 갑골 자료 출간을 도왔으며, 그러면서도 1913년에 희곡사를 마무리했다.",
+  "wang-guowei.interpretation.turning_point.1":
+    "이는 옛 작업을 마무리하면서 새로운 분야로 연구를 옮겨 가는 태도와 부합한다.",
+  /* ---------------------------------------------------------- yasuda-zenjiro (Roster65) */
+  "yasuda-zenjiro.achievement.1":
+    "도쿄의 환전상 야스다야(1864년 개업)를 1880년 야스다 은행으로 키웠고, 이는 금융 중심의 야스다 재벌의 핵심이자 후지 은행의 전신이 되어 오늘날 미즈호 계열로 이어진다.",
+  "yasuda-zenjiro.achievement.2":
+    "1876년 제3국립은행 창립에 참여했고 1882년 일본은행 창설 때 이사가 되었으며, 약한 은행들을 인수해 은행망을 세우고 생명보험과 손해보험으로 사업을 넓혔다.",
+  "yasuda-zenjiro.achievement.3":
+    "공공기관에 큰 금액을 기부했다. 1925년 완공되어 지금은 야스다 강당으로 불리는 도쿄대학 강당과, 1921년 그의 사후 상속인이 1929년에 완공한 도쿄 시정회관과 히비야 공회당의 자금이 그것이다.",
+  "yasuda-zenjiro.moment.1":
+    "러일전쟁 뒤인 1904년 그는 제130은행을 구제했고, 한 기업사는 정부가 부실 은행을 도와 달라고 하자 600만 엔의 정부 대출을 제안했다고 전한다.",
+  "yasuda-zenjiro.interpretation.moment.1":
+    "이는 무너지는 기관을 위해 실행 가능한 금융적 해법을 찾는 모습과 일치한다.",
+  "yasuda-zenjiro.moment.2":
+    "그는 도쿄 시정조사회와 도쿄대학 강당에 큰 기부를 했고, 일본 백과사전은 그가 기부를 알리는 것을 꺼려 오해를 받았다고 적는다.",
+  "yasuda-zenjiro.interpretation.moment.2":
+    "이는 알리지 않고 공공기관에 자금을 돌리는 모습과 일치한다.",
+  "yasuda-zenjiro.turning_point.1":
+    "1876년부터 1880년 사이 그는 환전상에서 은행 설립자로 옮겨 갔다. 1876년 제3국립은행 창립에 참여했고 1880년 야스다 은행을 열었으며, 이는 이후 보험사와 그룹의 토대가 되었다.",
+  "yasuda-zenjiro.interpretation.turning_point.1":
+    "이는 작은 환전업을 더 큰 제도적 구조로 의도적으로 키워 가는 모습과 일치한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

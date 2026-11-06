@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kano-jigoro",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kano Jigoro",
+    "aliases": [
+      "Kanō Jigorō",
+      "Jigoro Kano",
+      "嘉納治五郎"
+    ],
+    "wikidataId": "Q190141",
+    "birthYear": 1860,
+    "deathYear": 1938,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "martial_artist"
+    ],
+    "fieldIds": [
+      "sport",
+      "education"
+    ],
+    "impactDomains": [
+      "educational",
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "founder",
+      "mentor",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kano_wikidata",
+      "kind": "wikidata",
+      "title": "Kano Jigoro (Q190141), verified live via the Wikidata API (2026-11-05): English label 'Kanō Jigorō', description 'Japanese educator and judoka (1860-1938)', Korean label 가노 지고로, born 10 December 1860, died 4 May 1938, citizenship Japan. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q190141"
+    },
+    {
+      "id": "src_kano_ijf",
+      "kind": "award_body",
+      "title": "International Judo Federation, Hall of Fame entry 'Jigoro Kano' (read in full). CANONICAL SIGNIFICANCE SOURCE: an educator who founded judo; 1882 Kodokan, Kano Juku and an English school and teaching at Gakushuin; principal of the Secondary Teacher's School in Tokyo from 1893; school for Chinese students; 1909 first Asian IOC member; 1911 first president of the Japan Amateur Athletic Association; Japan's first Olympics at Stockholm in 1912; attended the 1928, 1932 and 1936 Games; judo on the Olympic programme in 1964; died at sea in 1938; his judo definition 'the way of the highest or most efficient use of both physical and mental energy' and a three-part view of education (knowledge, morality, physical training). Governing body's hall of fame; admiring in tone and internally inconsistent on his age at death and the length of the principalship.",
+      "url": "https://www--gcp.ijf.org/history/hall-of-fame/96"
+    },
+    {
+      "id": "src_kano_tsukuba",
+      "kind": "institution",
+      "title": "University of Tsukuba, 'Dr. Kano Jigoro' history page (read in full): 23 years as principal of the Higher Normal School and Tokyo Higher Normal School (forerunners of the university); replaced military-style discipline with a more open campus and extracurricular activities; lengthened teacher training; 1915 Department of Physical Education; judo developed from jujutsu with the principles seiryoku-zenyo and jita-kyoei; invited overseas students; first Asian IOC member; took two runners to Stockholm in 1912; founded the Japan Sports Association in 1911. University history of its own predecessor, celebratory, with few dates and unsourced 'first' claims that are not repeated here (the student totals and the notable-alumni list are not used).",
+      "url": "https://www.tsukuba.ac.jp/en/about/history/kano/"
+    },
+    {
+      "id": "src_kano_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, biography of Jigoro Kano (read in full): founded the Kodokan in June 1882, later introduced the belt and dan ranking system; taught at Komaba Agricultural College, principal of Gakushuin in 1885, Ministry of Education from 1891 and director of primary education in 1898; founded the Japan Amateur Athletic Association; IOC member 1909-1938 and Japanese Olympic Committee president 1911-1921; helped organise the 1917 Far Eastern Games; instrumental in having the 1940 Games awarded to Tokyo; died at sea in 1938. Olympic-history database; factual and brief, no behavioural narrative, and its birth date (18 October 1860) differs from other sources.",
+      "url": "https://www.olympedia.org/athletes/899201"
+    },
+    {
+      "id": "src_kano_joc",
+      "kind": "institution",
+      "title": "Japanese Olympic Committee, history page on Kano Jigoro (read in full): promoted swimming, long-distance running, tennis, football and judo at Tokyo Higher Normal School; welcomed Chinese students from 1896; became the first Japanese IOC member in 1909 after hearing of the Olympic ideal from the French ambassador; on 7 October 1911 issued the letter of intent for the Japan Amateur Sports Association and a Stockholm qualifying event; chose Mishima and Kanaguri for Stockholm and, because Kanaguri could not afford the trip, set up a support association at the school that raised enough; rarely missed an IOC meeting or Games. Committee's own history; institutional and admiring.",
+      "url": "https://www.joc.or.jp/english/historyjapan/kano_jigoro.html"
+    },
+    {
+      "id": "src_kano_nippon",
+      "kind": "institution",
+      "title": "Nippon Foundation, 'Stories from Past Olympics and Paralympics 4: How Jigoro Kano's thinking changed the world' (9 February 2021; read in full): 1909 IOC member recommended by Coubertin; principal of Tokyo Higher Normal School from 1893 introducing swimming and long-distance running for all students; Kobun Gakuin for Chinese students; judo from Tenjin Shin'yo-ryu and Kito-ryu; principles seiryoku-zenyo and jita-kyoei; episodes about Lafcadio Hearn and a Russian sailor (anecdotal, not used) and the 1964 final. Foundation feature, promotional, partly unsourced; the page itself does not discuss any criticism.",
+      "url": "https://en.nippon-foundation.or.jp/news/articles/2021/20210209-54170.html"
+    },
+    {
+      "id": "src_kano_adams",
+      "kind": "biography",
+      "title": "Andy Adams, biographical essay on Jigoro Kano excerpted from '20th Century Warriors' (Ohara Publications, 1971) and published by Judo BC (read in full): early jujutsu training under Fukuda, Iso and Iikubo; training alone when no one else came; a loss to a heavier rival and the technique he developed in response; opening the Kodokan in February 1882 with nine students at Eisho-ji, where early practice was 'more jujutsu than judo'; his aim to reform jujutsu on scientific principles; described as a perfectionist, disciplinarian and traditionalist as well as an innovator and internationalist. Popular 1971 biography, admiring; the passages on his family routines are not used.",
+      "url": "https://www.judobc.ca/history/founder-of-kodokan-judo/"
+    },
+    {
+      "id": "src_kano_callan",
+      "kind": "biography",
+      "title": "Mike Callan, 'Development of Judo Research: The History of the Scientific Method', The Arts and Sciences of Judo 1(1), 2021 (University of Hertfordshire repository record; abstract and metadata read, the PDF itself not opened): says Kano studied styles of jujutsu and collected jujutsu literature, engaging in discussion, exchange of texts and oral teachings followed by reflection and analysis, and that Kodokan journals and, from 1922, regional research divisions followed. Peer-reviewed historian's overview; abstract only.",
+      "url": "https://uhra.herts.ac.uk/handle/2299/26969"
+    },
+    {
+      "id": "src_kano_nagaki",
+      "kind": "biography",
+      "title": "Kosuke Nagaki, 'Jigoro Kano's pursuit of Judo as a martial art' (Japan Journal of Sport Anthropology, 2009; J-STAGE abstract read, full text not opened): argues, as a hypothesis, that in the Meiji era judo was taught as jujutsu for mass education, and that from the late Taisho era Kano set up a research institute of martial arts, resumed study of practical jujutsu, answered questions on 'judo as a martial art' and kept the link to jujutsu to distinguish judo from Western sports. Scholarly counterweight to the promotional accounts; abstract only and explicitly hypothetical.",
+      "url": "https://www.jstage.jst.go.jp/article/santhropology1999/2008/10-11/2008_10-11_1/_article"
+    },
+    {
+      "id": "src_kano_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, 'Portraits of Modern Japanese Historical Figures', entry for KANO Jigoro (page opened; the biographical note is by Library staff): graduated from the University of Tokyo in 1881; professor at Gakushuin, principal of the First Higher Middle School and of the Tokyo Higher Normal School; established judo by integrating and improving schools of jujutsu; founded the Kodokan in 1882 and served as its head; promoted physical education and sport, member of the IOC, founded the Japan Amateur Sports Association and campaigned for the Olympics in Japan. Library's own biographical note.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/253.html"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kano_adams, src_kano_callan, src_kano_olympedia, src_kano_ijf | 1877-1882 | biographical essay, scholarly abstract, database, award body] The 1971 essay describes his study under three jujutsu masters, training alone when others did not come and building a new technique after a loss; Callan's abstract says he studied several jujutsu styles and collected the literature and then reflected and analysed; Olympedia and the IJF place the Kodokan's founding in 1882 at age about 22. The training episodes come from one admiring popular biography, but the study-and-synthesis pattern is confirmed by the scholarly abstract."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kano_ijf, src_kano_olympedia, src_kano_nippon, src_kano_callan, src_kano_nagaki | 1882-1920s | award body, database, foundation feature, scholarly abstracts] He combined jujutsu schools (Tenjin Shin'yo-ryu and Kito-ryu) into a new educational discipline with stated principles, and Olympedia says he introduced the belt and dan ranking system; Callan describes a literature-and-analysis method; Nagaki's abstract adds that he later revisited practical jujutsu, so the originality was synthesis and system-building rather than invention from nothing. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 74 / 0.6 to 70 / 0.54 because the support is the federation hall of fame, a results database and institutional histories of his own tradition, and the scholarly pieces are abstract-only."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_kano_nagaki | late Taisho era | scholarly abstract] Nagaki's abstract (a hypothesis) says Kano, who had taught judo largely as mass education, later set up a research institute of martial arts and resumed the study of practical jujutsu while keeping ties to it to distinguish judo from Western sports. One abstract-only source, so this is a low-confidence inference."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kano_tsukuba, src_kano_joc, src_kano_nippon, src_kano_ijf | 1890s-1930s | university history, committee history, foundation feature, award body] The four sources agree that he put physical education and a mutual-benefit principle at the centre of his work: a Department of Physical Education in 1915, swimming and running for all students, a school for Chinese students, and organised participation of Japanese athletes at the Olympics. All four are promotional or institutional accounts, so confidence is moderate. SELF-CALIBRATION (agent): top-risk row; lowered from 74 / 0.55 to 72 / 0.50 because every source is an institution describing its own tradition or sport."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kano_olympedia, src_kano_ijf, src_kano_joc, src_kano_tsukuba | 1893-1938 | database, award body, committee history, university history] Four independent institutional records agree on a long run of offices and initiatives: principal of the Tokyo teacher-training school for more than two decades, IOC member 1909-1938, first president of the Japan Amateur Athletic Association (1911) and president of the Japanese Olympic Committee 1911-1921, and he organised and funded Japan's first Olympic team for Stockholm in 1912. The dates differ slightly between sources but the pattern is consistent. RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 74 / 0.6 to 70 / 0.54 because the support is committee, university and database pages that describe his offices rather than independent assessment."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_kano_adams, src_kano_olympedia, src_kano_ijf | 1877-1938 | biographical essay, database, award body] The 1971 essay describes training alone and building a school from nine students; Olympedia and the IJF show decades of continuous involvement in the Olympic movement (1909-1938) and the 1940 Games bid. The early-life episodes rest on one admiring popular biography. SELF-CALIBRATION (agent): top-risk row; lowered from 70 / 0.50 to 66 / 0.46 because the specific perseverance episodes come from one popular essay and the later evidence is a list of offices."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "가노 지고로"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kano-jigoro-unknown-1930s.jpg",
+    "width": 806,
+    "height": 1074,
+    "source": "Signed studio portrait photograph of Jigoro Kano, photographer unknown, taken before his death in 1938 and printed as the frontispiece of the biography 'Kano Sensei Den' (Kano Sensei-den) by Kendo Yokoyama (Kodokan, Tokyo, 1941), as reproduced in the National Diet Library's digital exhibition 'Portraits of Modern Japanese Historical Figures' (entry for KANO Jigoro; source item NDL Digital Collections pid 1043572, page 3). The sitter's English signature 'Jigoro Kano' is written on the print and the Library's entry names the sitter. The file is the library's published image (875 x 1146 pixels) with its white page border trimmed (806 x 1074), with no upscaling; it is a halftone book reproduction, so the grain is that of the print.",
+    "license": "Public domain (declared by the National Diet Library for all images in 'Portraits of Modern Japanese Historical Figures'; the source book's NDL Digital Collections record shows access restriction 'PDM'; the photograph was published in Japan in 1941, before 1957)",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/e/about",
+    "attribution": "Photographer unknown, published 1941 in Kendo Yokoyama, Kano Sensei Den (Kodokan). Source: Portraits of Modern Japanese Historical Figures, National Diet Library, Japan (https://www.ndl.go.jp/portrait/)",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/e/datas/253.html",
+    "creator": "Unknown photographer",
+    "date": "Undated; taken before 1938, published 1941",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.ndl.go.jp/portrait/e/datas/253.html"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED, lead image used (image 1 of the three on the NDL item page; the others are a judogi portrait signed in Japanese with the age '72' and a portrait inscribed for the Tokyo Higher Normal School's 60th anniversary, both rights-equivalent). Holder verification done: the NDL item page opened, the payload names the source book (pid 1043572, 'Kano Sensei Den', Yokoyama Kendo, Kodokan, 1941), the NDL Digital Collections IIIF manifest says Access Restrictions PDM, and the NDL Portraits About page states all exhibition images are public domain and reusable commercially. I viewed page 3 of the book scan: it is the frontispiece with the same photograph and no caption. The photographer is unknown and no copyright holder is documented; the basis is the holder's explicit public-domain statement plus first publication in Japan in 1941, before 1957 (I rely on the Library's statement and the publication date and have not independently adjudicated Japanese transitional copyright rules; the same route shipped Suzuki, Iwasaki, Ogai, Yosano and Nishida in earlier cycles). KIND likeness: a signed studio photograph of the sitter. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q190141 label 'Kanō Jigorō', description 'Japanese educator and judoka (1860-1938)', ko label 가노 지고로, born 10 December 1860, died 4 May 1938; not in prod65.txt; no candidate file existed for kano-jigoro. REGION east_asia. ERA 19th_century (precedent Coubertin 1863-1937; Kano's career runs 1880s-1938). ZERO POLITICS: primary identity educator and founder of judo with a sports-administration career; the 1921 House of Peers appointment, the Tokyo 1940 bid as a political matter and any statesmanship are not scored; his IOC and Japan Amateur Athletic Association roles are scored only as sport and education administration. VOCABULARY: occupations teacher and martial_artist, fields sport and education, tags founder, mentor and organizer, archetype organizational_leader, impact domains educational, athletic and cultural, all labelled in en.ts and ko.ts. KO NAME: Wikidata Korean label 가노 지고로. The NDL entry prints the birth year as 1860 and Wikidata gives 10 December 1860; other sources give 28 October or 18 October (birth month not used). ATTRIBUTION: attributable (extensive documentation by institutions, a 1941 biography and Olympic records). CANONICAL SIGNIFICANCE SOURCE: International Judo Federation Hall of Fame entry for Jigoro Kano (https://www--gcp.ijf.org/history/hall-of-fame/96). READ (9 sources besides Wikidata): IJF Hall of Fame; University of Tsukuba history page; Olympedia; Japanese Olympic Committee history page; Nippon Foundation feature; Andy Adams 1971 essay (Judo BC); Callan 2021 (abstract); Nagaki 2009 (abstract); NDL Portraits biographical note. PERSPECTIVES: (1) governing-body and Olympic-database records (IJF, Olympedia, JOC); (2) the university he led and a foundation feature (Tsukuba, Nippon Foundation), both promotional; (3) a popular 1971 biography with some non-flattering traits (perfectionist, disciplinarian, traditionalist); (4) two scholarly abstracts on his method and on his later reversal toward practical jujutsu (Callan, Nagaki), the closest to a critical voice. NON-SELF BEHAVIOURAL SOURCES: Olympedia, JOC, IJF, Adams, Callan, Nagaki. No self-report used (Kano's own writings were not read; his quoted definition of judo appears via the IJF page only and is not scored). CONTRADICTIONS: principalship from 1893 (IJF, Nippon) with 23 years (Tsukuba) vs 26 years (IJF); Chinese-student school dated 1896 (Nippon, JOC for the students) vs 1899 (IJF), so no year is carded; birth date 18 October (Olympedia), 28 October (IJF, Adams), 10 December (Wikidata, NDL, Tsukuba); Olympedia dates the Japan Amateur Athletic Association to 1912, the JOC and IJF to 1911 (the JOC page documents a 7 October 1911 letter of intent), so the cards say the Association was set up 'around the 1912 Stockholm Games'. NOT OPENED: Britannica (403), Brian Watson's biography 'The Father of Judo' and Kano's own writings, Callan's and Nagaki's full texts, Kodokan's own history pages, the Wikipedia article (not used). EXCLUSIONS: family and private life (the Adams essay's household routines), the Lafcadio Hearn and Russian-sailor anecdotes (secondhand, unsourced), the claims about Chinese student totals and famous alumni, the 1921 House of Peers appointment and Japan's wider politics, the cancelled 1940 Games, his death at sea. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (74/0.55 lowered to 72/0.50: every source is institutional or promotional), persistence (70/0.50 lowered to 66/0.46: perseverance episodes from one popular essay), creative_originality (kept at 74/0.60: five sources including two scholarly abstracts agree on synthesis and system-building; the impact is framed as synthesis not invention). Broad flag for the lead: none; six rows, scores 60-76, confidence 0.40-0.60. HANDBACK65: {\"slug\": \"kano-jigoro\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"PARTLY VERIFIED: NDL Portraits site-wide statement (read in Roster63/64); item page 253 not re-opened\", \"holder_record_checked_by_you\": \"Opened the NDL Portraits item page for KANO Jigoro (datas/253.html, HTTP 200) and its payload, which lists the three photographs as pages 3, 15 and 16 of NDL Digital Collections pid 1043572; opened the IIIF manifest dl.ndl.go.jp/api/iiif/1043572/manifest.json: title 'Kano Sensei Den' (Kano Sensei-den) by Kendo Yokoyama, publisher Kodokan, 1941, call number 289-Ka582ウ, Access Restrictions 'PDM'; opened the NDL Portraits 'About This Site' page: 'All images used in the digital exhibition ... are in the public domain' and reusable commercially without application. Viewed page 3 of the source scan: the frontispiece photograph matches the exhibited image, no printed caption on that page.\", \"holder_contradiction_found\": false, \"initial_lead\": \"NDL Portraits of Modern Japanese Historical Figures photograph from 'Kano Sensei Den' (before 1938)\", \"final_portrait_source\": \"National Diet Library, Portraits of Modern Japanese Historical Figures, KANO Jigoro image 1 (0253_1.jpg), from Yokoyama, Kano Sensei Den (Kodokan, 1941), NDL pid 1043572 p. 3 (https://www.ndl.go.jp/portrait/e/datas/253.html); border trimmed, 806x1074\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 74, \"old_confidence\": 0.55, \"new_score\": 72, \"new_confidence\": 0.5, \"reason\": \"Every source is an institution describing its own tradition or sport\"}, {\"attribute\": \"persistence\", \"old_score\": 70, \"old_confidence\": 0.5, \"new_score\": 66, \"new_confidence\": 0.46, \"reason\": \"The specific perseverance episodes come from one popular essay and the later evidence is a list of offices\"}], \"reviewed_kept\": [\"creative_originality\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6, \"image_inscription_check\": \"Handwritten English signature on the print, lower right: 'Jigoro Kano.'; no printed caption on the book page or the exhibition image\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 74 / 0.6 to 70 / 0.54 because the support is the federation hall of fame, a results database and institutional histories of his own tradition, and the scholarly pieces are abstract-only. RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 74 / 0.6 to 70 / 0.54 because the support is committee, university and database pages that describe his offices rather than independent assessment."
+  }
+}

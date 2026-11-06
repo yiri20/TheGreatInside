@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mikhail-lomonosov",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mikhail Lomonosov",
+    "aliases": [
+      "Mikhail Vasilyevich Lomonosov",
+      "Mikhail Vasilievich Lomonosov",
+      "Lomonosov",
+      "Михаил Ломоносов"
+    ],
+    "wikidataId": "Q58720",
+    "birthYear": 1711,
+    "deathYear": 1765,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "physicist",
+      "astronomer",
+      "poet"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "physics",
+      "literature"
+    ],
+    "impactDomains": [
+      "scientific",
+      "literary",
+      "educational"
+    ],
+    "tagIds": [
+      "polymath",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_lom_wikidata",
+      "kind": "wikidata",
+      "title": "Mikhail Lomonosov (Q58720), verified live via the Wikidata API (2026-11-05): label 'Mikhail Lomonosov', description 'Russian polymath (1711-1765)', born 1711 (three day-level values recorded), died April 1765 (two values), citizen of the Russian Empire, many occupations, Korean label 미하일 로모노소프. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q58720"
+    },
+    {
+      "id": "src_lom_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography, 'Mikhail Vasilevich Lomonosov' (entry read via Encyclopedia.com; the page was read in a summarised fetch, not word for word). CANONICAL SIGNIFICANCE SOURCE: chemist and physicist born 1711, studied at the St. Petersburg Academy, Marburg and the Freiberg mining academy (1736-41), appointed professor of chemistry at the Academy in 1745 where he built a chemical laboratory and taught one of the earliest courses in practical chemistry; argued that heat is a motion of the molecules of matter when most scientists treated it as a substance, stressed atomic-molecular explanation and quantitative measurement; observed the 1761 transit of Venus and concluded Venus has an atmosphere; contributed to the scientific study and vocabulary of Russian; wrote a controversial history of Russia. Critical voice: calls his 'domineering nature and quarrelsome disposition' a brake on his creative energies, says claims that he anticipated Lavoisier on conservation of mass are 'certainly exaggerated', and says much of his work was limited-circulation dissertations, unfinished or unpublished.",
+      "url": "https://encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mikhail-vasilevich-lomonosov"
+    },
+    {
+      "id": "src_lom_lindahall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'Mikhail Lomonosov', Scientist of the Day, Linda Hall Library (19 November 2018; read in full, short post). Names him as the Academy's first native Russian appointee (the claim is not used because other sources differ), co-founder of Moscow University in 1755, the only one of hundreds of 1761 transit-of-Venus observers to see that the nimbus indicated an atmosphere, an early formulator of conservation of matter in reactions, founder of a glass factory for coloured mosaic elements, and poet and historian; says he was unappreciated in Russia for fifty years after his death. Short, admiring, unsourced characterisations; used only for orientation on breadth.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/mikhail-lomonosov/"
+    },
+    {
+      "id": "src_lom_crease",
+      "kind": "biography",
+      "title": "Robert P. Crease and Vladimir Shiltsev, 'Fueling Peter's Mill: Mikhail Lomonosov's Educational Training in Russia and Germany, 1731-1741', Physics in Perspective (preprint read in full, about 84,000 characters). Scholarly article built on letters from Wolff, Schumacher, Henckel and others: his 1730 journey to Moscow on borrowed money, the false claim of noble origin that nearly got him expelled, selection among twelve students for the St. Petersburg Academy in 1735-36, study under Christian Wolff at Marburg, debts, brawling and a fine paid by Wolff, the 1739-40 quarrels with Henckel at Freiberg and his departure without authorisation, the 1739 'Ode on the Taking of Khotin' and his blunt criticism of Trediakovsky's verse rules. Both authors are admirers (Shiltsev wrote the translations below); Henckel's own accusations are one-sided and are not used.",
+      "url": "https://arxiv.org/abs/1901.03376"
+    },
+    {
+      "id": "src_lom_venus",
+      "kind": "biography",
+      "title": "Vladimir Shiltsev (Fermilab), 'Lomonosov's Discovery of Venus Atmosphere in 1761: English Translation of Original Publication with Commentaries' (read in full, 16 pages). Translation of Lomonosov's own 1761 report (submitted 4 July, 250 copies printed 17 July 1761, German version printed in August) with a scholarly commentary: he observed from his own house with a 4.5-foot refractor, was a key organiser of the Academy's 1761 transit programme (eight observers in Russia), judged Aepinus's preparations unsatisfactory and ordered him to let Krasilnikov and Kurganov use the Academy observatory, which Aepinus refused (a feud); Sharonov's comparison of the observers, which found Lomonosov alone gave the correct physical explanation. A sympathetic commentator; the 2012 reconstruction supports the observation.",
+      "url": "https://arxiv.org/abs/1206.3489"
+    },
+    {
+      "id": "src_lom_solidity",
+      "kind": "biography",
+      "title": "Vladimir Shiltsev, 'Mikhail Lomonosov. Meditations on Solidity and Fluidity of Bodies (1760). English translation and commentary' (commentary read in full). Documents the December 1759 mercury-freezing experiments with Braun, Lomonosov's protest that Aepinus's communications abroad had not been approved by the Academy (the start of their feud), his corpuscular model, and its own cautions: the experimental readings and the predicted density ratio did not hold, Soviet scholars 'somewhat hyperbolically' overstated his role in the conservation laws, but the 1756 sealed-vessel lead experiment still looks like a real early demonstration, while Pomper and others are sceptical. Sympathetic, but explicit about the limits.",
+      "url": "https://arxiv.org/abs/1801.00909"
+    },
+    {
+      "id": "src_lom_msu",
+      "kind": "institution",
+      "title": "Moscow State University, History of the University, 'The Founding of Moscow University' (page read in full). Says the foundation was made possible by Lomonosov's efforts, that his letter to I. I. Shuvalov laid the groundwork for the blueprint, that the three faculties (philosophy, law, medicine) opened to conform to his scheme, that he favoured merit over birth, and that the decree was signed on 12 January 1755 (old style) with inauguration on 26 April; Shuvalov, the Empress's favourite, advanced the project. An institution describing its own founder.",
+      "url": "https://hist.msu.ru/English/Admin/founding1.htm"
+    },
+    {
+      "id": "src_lom_phystoday",
+      "kind": "press",
+      "title": "Vladimir Shiltsev, Physics Today (vol. 65, issue 2, 2012), as reposted on 3 Quarks Daily (only the excerpt was read, not the full article). Says he was both theorist and experimenter, often pursued a topic for years or decades, held that phenomena arise from the mechanical interactions of tiny particles, coined 'physical chemistry' in 1752, and in 1756 heated lead plates in an airtight vessel and found the total weight unchanged. Partly read; admiring.",
+      "url": "https://3quarksdaily.com/?p=23133"
+    },
+    {
+      "id": "src_lom_shi",
+      "kind": "archive",
+      "title": "Science History Institute Digital Collections, 'Frontispiece: Portrait of Mikhail Vasilʹevich Lomonosov', from Alexander Smith, Intermediate Text Book of Chemistry (New York: The Century Company, 1919); record opened live, rights 'Public Domain Mark 1.0'. Used for the portrait only, not for any trait row.",
+      "url": "https://digital.sciencehistory.org/works/c8t3tnn"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lom_crease, src_lom_dsb, src_lom_phystoday | 1730-1745 | scholarly article + encyclopedia + magazine excerpt] Crease and Shiltsev document that in December 1730, aged nineteen and frustrated by his schooling, he borrowed three rubles and a jacket and made the 1,170 km journey to Moscow partly on foot, then kept studying after an exposed deception nearly cost him his place and, through 1736-41, completed a five-year training abroad despite serious setbacks; the Dictionary of Scientific Biography records that he built the Academy's chemical laboratory after 1745, and the Physics Today excerpt says he often stayed with a research topic for years or decades. The Dictionary also says many projects went unfinished and much work was never published, which is why the score is moderate; the trait is judged from a pattern rather than a single episode."
+    },
+    "cross_domain_range": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lom_dsb, src_lom_lindahall, src_lom_crease, src_lom_venus | 1739-1765 | encyclopedia + library post + scholarly articles] The Dictionary of Scientific Biography lists chemistry, physics, electricity, light, mineralogy, meteorology and astronomy as well as the study of the Russian language and a history of Russia; Crease and Shiltsev document an ode and a treatise on Russian verse written in 1739 while he trained in mining and chemistry; Shiltsev's commentary shows him running a home observatory and organising the Venus observations; the Linda Hall post adds a glass factory for coloured mosaics and poetry. Four independent-enough accounts agree on the breadth, but the Dictionary stresses unfinished and unpublished work, and some Soviet-era accounts of his range were inflated. SELF-CALIBRATION (agent): The Dictionary of Scientific Biography says many projects were unfinished and unpublished and some accounts of his range were inflated in the Soviet era, so documented breadth is a little more limited than the headline list."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lom_dsb, src_lom_crease, src_lom_venus, src_lom_solidity | 1739-1761 | encyclopedia + scholarly articles] The Dictionary calls him the contentious leader of the native Russian scientists against the Germans at the Academy and describes a quarrelsome disposition; Crease and Shiltsev document a blunt, public quarrel with Trediakovsky's verse rules, two clashes with his Freiberg teacher Henckel (a two-day refusal to attend and a walk-out, followed by an apology letter, and a departure without authorisation), and a fine paid by Wolff after a student fight; Shiltsev documents that in 1759-61 he protested Aepinus's unapproved communications abroad and ordered Aepinus to let others use the Academy observatory for the Venus transit, which Aepinus refused, a feud that cost him his chief scientific rival's cooperation. Henckel's own accusations (theft, abuse) are one-sided and not used. The trait helped him push projects through and also hurt him, so impact is dual-edged."
+    },
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lom_dsb, src_lom_crease, src_lom_solidity, src_lom_venus | 1736-1761 | encyclopedia + scholarly articles] The Dictionary says he held that heat is a motion of the molecules of matter at a time when most scientists treated it as a substance and that he based chemistry on atomic and molecular explanation; Shiltsev's commentary on the 1760 meditations records his arguments against an innate attractive force in bodies; Crease and Shiltsev record that as a student he wrote rude marginal comments on Trediakovsky's verse method and argued that his own chemical explanations were mechanical rather than traditional; his 1761 report drew a correct refraction explanation that, per the commentary citing Sharonov, no other observer gave. Admiring translators supply part of the evidence, so confidence is moderate."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lom_msu, src_lom_dsb, src_lom_venus, src_lom_lindahall | 1745-1763 | university history + encyclopedia + scholarly commentary + library post] Moscow State University's own history credits his repeated proposals and his letter to Shuvalov as laying the groundwork for the university's blueprint; the Dictionary records that he built a chemical laboratory at the Academy; Shiltsev's commentary describes him as a key organiser of the Academy's 1761 Venus-transit expeditions and observing from a home rooftop observatory; the Linda Hall post says he set up a glass factory for mosaic elements. The university page is an institution praising its founder and the factory is from one short post, so the evidence is documented but not independently deep. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 76 / 0.6 to 72 / 0.56 because the university history page and the encyclopedia carry the founding claim and the Soviet-era glorification is flagged by the scholars read."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_lom_solidity, src_lom_phystoday, src_lom_venus, src_lom_dsb | 1756-1761 | scholarly commentary + magazine excerpt + encyclopedia] Shiltsev documents his December 1759 experiments with Braun on freezing mercury, including tests of electric conduction through frozen mercury, and a 1756 internal report of sealed-vessel lead experiments in which the weight did not change; the Physics Today excerpt calls him both theorist and experimenter who designed his own experiments; the 1761 report records that he adjusted the telescope so that Venus stayed on axis and he gave his eyes a rest, then re-checked a first impression he suspected was eye strain. The Dictionary adds an emphasis on quantitative measurement. Limits: Shiltsev says the mercury readings were not fully explained and the predicted density ratio failed, and priority claims for the sealed-vessel result are contested. SELF-CALIBRATION (agent): Shiltsev himself says the mercury readings were unexplained and the predicted density ratio failed, and the sealed-vessel priority is disputed, so the experimental record is more mixed than the headline."
+    },
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_lom_crease, src_lom_dsb, src_lom_lindahall, src_lom_phystoday | 1739-1763 | scholarly article + encyclopedia + library post + magazine excerpt] Crease and Shiltsev report that his 1739 'Ode on the Taking of Khotin' is regarded as revolutionary and that later critics such as Belinsky dated modern Russian poetry from it, and name him with two others as the poets who most strongly transformed Russian literature; the Dictionary says he contributed a scientific vocabulary to Russian; the Physics Today excerpt says he coined 'physical chemistry' in 1752; the Linda Hall post adds mosaic designs. Most of the originality evidence is retrospective critical praise, and the Dictionary says much of the scientific work stayed unfinished, which keeps confidence moderate."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_lom_crease | 1730-1740 | scholarly article] Crease and Shiltsev document that he entered the Slavic-Greek-Latin Academy by claiming to be a nobleman's son, repeated a different false claim of origin later and was nearly expelled when it was exposed, and in May 1740 left Freiberg without authorisation to look for the Russian envoy in Leipzig, Kassel and Dresden, a breach of the Academy's plans that left him in serious debt. One scholarly source supplies all the episodes and they date from his student years, so confidence is lower; the risks often cost him and were not obviously calculated, so impact is dual-edged."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "미하일 로모노소프"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mikhail-lomonosov-prenner-after-1755.jpg",
+    "width": 948,
+    "height": 1200,
+    "source": "Halftone reproduction of a portrait painting of Mikhail Lomonosov after Georg Kaspar Prenner, printed as the frontispiece of Alexander Smith's Intermediate Text Book of Chemistry (The Century Company, New York, 1919), from the Science History Institute's digital collections; the book page is captioned 'M. W. Lomonossov, Russian author, statesman, and chemist, 1711-1765'. The institute's record dates the painting 1787 and lists the rights as Public Domain Mark 1.0. The file used is the institute's 2,880 x 4,343 pixel derivative, cropped to the plate and downscaled once to 948 x 1,200 pixels; nothing was upscaled. A reproduction of a later painting after another artist's work, not a documented sitting. Caveat: the date and the location of the painting that was reproduced are not stated on the record, so the picture is shown as a depiction, not a certified lifetime likeness.",
+    "license": "Public domain (Science History Institute Public Domain Mark 1.0; 1919 US publication)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "After Georg Kaspar Prenner, portrait of Mikhail Lomonosov, reproduced in Alexander Smith, Intermediate Text Book of Chemistry (New York: The Century Company, 1919), courtesy of the Science History Institute, public domain",
+    "attributionUrl": "https://digital.sciencehistory.org/works/c8t3tnn",
+    "creator": "After Georg Kaspar Prenner (painting); reproduced in Alexander Smith, Intermediate Text Book of Chemistry",
+    "date": "after 1755 (record dates the painting 1787); reproduced 1919",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://digital.sciencehistory.org/works/c8t3tnn"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / SUCCEEDED with the lead image's holder copy: Science History Institute record c8t3tnn opened live (Public Domain Mark 1.0; 1919 US book frontispiece after Prenner; derivatives up to 3470 x 5233); image inspected: the printed caption names LOMONOSSOV, no contradiction. The earlier Miropolskiy-1787 Commons file and the Internet Archive Sochineniia plate were not needed. Kind historical_depiction (reproduction of a later painting after Prenner; neither the date nor the location of the reproduced painting is stated). The brief's concern 'which engraving shows Lomonosov' was resolved by the caption and the holder record. PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q58720 label 'Mikhail Lomonosov', description 'Russian polymath (1711-1765)', born 1711 (8, 19 Nov and 19 Sep recorded), died April 1765, citizenship Russian Empire, Korean label 미하일 로모노소프; no production (prod65.txt) or candidate slug/QID collision. REGION central_europe (precedent: Russians). ERA early_modern. KOREAN NAME 미하일 로모노소프 is the Wikidata Korean label. ZERO POLITICS: only science, scholarship and literature scored; his court odes and patronage ties (Shuvalov, Empress Elizabeth) are context, not scored; the Russian history he wrote is not scored. VOCABULARY: occupations chemist, physicist, astronomer, poet; fields chemistry, physics, literature; impact domains scientific, literary, educational; tags polymath, cross_disciplinary; archetype cross_disciplinary_generalist (all labelled in EN and KO). ATTRIBUTION CONFIRMED (documented dated acts: dated letters, publications and experiments). CANONICAL SIGNIFICANCE SOURCE: Complete Dictionary of Scientific Biography entry (Encyclopedia.com copy). READ (substantively): the Dictionary entry (summarised fetch), Crease and Shiltsev's article on his 1731-41 education, Shiltsev's 1761 Venus translation and commentary, Shiltsev's 1760 Meditations commentary, Moscow State University's founding page, the Linda Hall Library post; read only in excerpt: the Physics Today piece via 3 Quarks Daily. Perspectives: encyclopedic scholarship including a critical voice (quarrelsome, claims exaggerated), a scholar team of admiring translators who flag the limits of their own claims, the university's institutional account, a library post. COUNTER-VOICES: the Dictionary, the Shiltsev caveats about Soviet hyperbole and the Pomper scepticism (Pomper not opened), and Henckel's reports quoted by Crease and Shiltsev (one-sided, not used in rows). NOT OPENED: Britannica (HTTP 403, not circumvented), Menshutkin's 1952 biography (only available on the Internet Archive as an uploaded copy of uncertain licence, not used), Pasachoff and Sheehan on Venus, Marov 2004, Pomper 1962, Wikipedia (read only for orientation; its 1743 arrest and mosaic-count details are not used because no read source confirms them). Family and private-life episodes in Crease and Shiltsev are not used. Self-calibration: reviewed cross_domain_range, experimentation, creative_originality; lowered the first two (see handback), creative_originality kept. Note for the lead: the Linda Hall post says he was the Academy's first native Russian appointee in 1742 while Crease and Shiltsev say Trediakovsky and he were inducted the same day in 1745, so no 'first native' claim is carded. HANDBACK65: {\"slug\":\"mikhail-lomonosov\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"PLAUSIBLE (alt-dependent)\",\"holder_record_at_preflight\":\"NOT VERIFIED: Science History Institute digital page and Kunstkamera page cited, not opened\",\"holder_record_checked_by_you\":\"Opened the live Science History Institute Digital Collections record https://digital.sciencehistory.org/works/c8t3tnn: 'Frontispiece: Portrait of Mikhail Vasil'evich Lomonosov', part of Alexander Smith, Intermediate Text Book of Chemistry (The Century Company, New York, 1919), 'after Prenner, Georg Kaspar, approximately 1720-1766', date of painting 1787, rights 'Public Domain Mark 1.0', credit 'Courtesy of Science History Institute'; image derivatives offered up to 3470 x 5233 px.\",\"holder_contradiction_found\":false,\"initial_lead\":\"1787 frontispiece engraving after Prenner (Miropolskiy), Science History Institute copy\",\"final_portrait_source\":\"Science History Institute, Alexander Smith, Intermediate Text Book of Chemistry (1919), frontispiece after the portrait painting by G. K. Prenner, https://digital.sciencehistory.org/works/c8t3tnn ; large derivative 2880x4343 cropped to the plate and downscaled to 948x1200\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":8,\"self_calibrated_rows\":[{\"attribute\":\"cross_domain_range\",\"old_score\":82,\"old_confidence\":0.7,\"new_score\":80,\"new_confidence\":0.66,\"reason\":\"The Dictionary of Scientific Biography says many projects were unfinished and unpublished and some accounts of his range were inflated in the Soviet era, so documented breadth is a little more limited than the headline list\"},{\"attribute\":\"experimentation\",\"old_score\":78,\"old_confidence\":0.64,\"new_score\":74,\"new_confidence\":0.6,\"reason\":\"Shiltsev himself says the mercury readings were unexplained and the predicted density ratio failed, and the sealed-vessel priority is disputed, so the experimental record is more mixed than the headline\"}],\"reviewed_kept\":[\"creative_originality\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":8,\"image_inscription_check\":\"Printed caption under the plate reads exactly 'M. W. LOMONOSSOV' and 'Russian author, statesman, and chemist, 1711-1765'; no lettering inside the picture; the plate is a halftone of a half-length portrait at a desk with a globe, quill, compasses and a window view of a mine, consistent with the Prenner composition\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 76 / 0.6 to 72 / 0.56 because the university history page and the encyclopedia carry the founding claim and the Soviet-era glorification is flagged by the scholars read."
+  }
+}

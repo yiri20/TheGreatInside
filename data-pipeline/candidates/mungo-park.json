@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mungo-park",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mungo Park",
+    "aliases": [],
+    "wikidataId": "Q219086",
+    "birthYear": 1771,
+    "deathYear": 1806,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "naturalist"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_park_wikidata",
+      "kind": "wikidata",
+      "title": "Mungo Park (Q219086), verified live via the Wikidata API (2026-11-05): English label 'Mungo Park', description 'Scottish naturalist and explorer of the African continent', Korean label 뭉고 파크, born 1771 (day given variously as 10 or 11 September), died 1806, citizenship Kingdom of Great Britain. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q219086"
+    },
+    {
+      "id": "src_park_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library (science and technology research library), 'Scientist of the Day: Mungo Park' by historian of science William B. Ashworth Jr., read in full. CANONICAL SIGNIFICANCE SOURCE: surgeon chosen in 1795 by the African Association to reach the Niger from the coast of West Africa; reached and explored along the upper Niger, survived the return and came back in 1797 as the first European to see the upper Niger; his book; the disastrous second expedition (of a party of 45, 38 died of fever before reaching the Niger) and his drowning at Bussa on the testimony of a single surviving African witness. It remarks that his 'sole qualification seems to have been that he applied for the post'. Short institutional biography.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/mungo-park/"
+    },
+    {
+      "id": "src_park_eb1911",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, eleventh edition (1911), article 'Park, Mungo', read in full via Wikisource: education and Sumatra voyage (a paper on eight new Sumatran fishes for the Linnean Society); the 1795-97 journey (Ludamar imprisonment of four months, escape alone with his horse and a pocket compass on 1 July 1796, the Niger at Segu on 21 July, 80 miles downstream to Silla, seven months at Kamalia after falling ill, return); the 1799 Travels 'an acknowledged classic'; country medical practice at Peebles and his restlessness there; the 1805 government expedition (11 Europeans alive on reaching the Niger in mid-August), the schooner Joliba built from two canoes with one soldier's help, his letter of resolve 'to discover the termination of the Niger or perish', the Bussa rapids; names J. Thomson's 1890 'Mungo Park and the Niger' as the best critical estimate. Dated encyclopedia article, admiring in tone but circumstantial.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Park,_Mungo"
+    },
+    {
+      "id": "src_park_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Mungo Park' (reference biography derived from Salem Press Great Lives, read in full): medical and botanical distinction at Edinburgh, collecting plants in Sumatra, five months at Pisania learning Mandingo, trading off goods to win the friendship of petty chiefs, Ludamar imprisonment and escape, Kamalia, the 1799 book that 'rapidly sold out several editions', his refusal of an Australian post because the salary was too small, the government expedition and the original plan to make treaties and trading stations; and a critical assessment that his death 'was basically a result of two tragic errors in judgment': entering the bush in the rainy season 'against all advice' and avoiding and firing on local people; it also calls him driven by a 'driving desire for eminence' and notes he left Sansanding sick and possibly lacking clarity of judgment. Reference writing with a critical conclusion; the 'against all advice' and 'eminence' phrases are the writer's judgments.",
+      "url": "https://www.ebsco.com/research-starters/history/mungo-park/"
+    },
+    {
+      "id": "src_park_cambridge",
+      "kind": "institution",
+      "title": "Cambridge University Press (2024), 'In the Shadow of the Slave Trade' (chapter 1 of 'Mungo Park's Ghost: The Haunted Hubris of British Explorers in Nineteenth-Century Africa'), read in full from the open chapter page: scholarly reassessment that frames the 1805-06 expedition in the slave trade and Anglo-French rivalry; recruitment of 35 men from the Gorée garrison; the rains from early June and 31 deaths by mid-August; at Sansanding 'logic suggests he should have conceded defeat' but he bought two canoes, bound them and set off; that the descent was told by African informants (Isaaco, Amadi Fatouma) whom British contemporaries distrusted; that he 'lashed out' at people along the river; his possibly impaired mental and physical state; and the author's argument that neither 'hostile locals' nor 'overweening ambition' alone explains the failure. Independent, critical academic voice; opens with the myth of the doomed explorer.",
+      "url": "https://resolve.cambridge.org/core/books/mungo-parks-ghost/in-the-shadow-of-the-slave-trade/778A01670FFC490034E760240C14E2D6"
+    },
+    {
+      "id": "src_park_undiscovered",
+      "kind": "press",
+      "title": "Undiscovered Scotland, biography 'Mungo Park' (heritage-travel website), read in full: Selkirkshire background and training, the 1795 expedition up the Gambia and east, four months' imprisonment and escape, the second expedition's 40-odd Europeans and the 19 November 1805 departure downriver, his policy of avoiding contact with local people and the attacks that followed, the Bussa rapids, and the 1827 death of his son Thomas. Popular biographical summary used only for cross-checking dates and the shape of the story.",
+      "url": "https://undiscoveredscotland.co.uk/usbiography/p/mungopark.html"
+    },
+    {
+      "id": "src_park_princeton",
+      "kind": "institution",
+      "title": "Princeton University Library, digital exhibit 'Mungo Park, 1771-1806' (Maps of Africa collection, read in full): reproduces Park's own account from the 1799 Travels of why he volunteered ('a passionate desire to examine into the productions of a country so little known'; willing to perish; made no stipulation for future reward). SELF-REPORT: Park's own words, used only as context for curiosity and motivation, never as sole support.",
+      "url": "https://static-prod.lib.princeton.edu/visual_materials/maps/websites/africa/park/park.html"
+    },
+    {
+      "id": "src_park_travels",
+      "kind": "archive",
+      "title": "Mungo Park, 'Travels in the Interior of Africa', vol. 1 (Cassell's National Library, 1893 reprint of the 1799 narrative), Project Gutenberg text, searched and read in the passages on his decision to set out without the caravan, the Kaarta king's warning about the Ludamar route, his decision to go forward rather than return, and his arrival at the Niger at Segu. SELF-REPORT: his own narrative written for the African Association; used only where corroborated by an independent source or labelled as his own account. Volume 2 and the 1815 journal of the second expedition were not opened.",
+      "url": "https://gutenberg.org/files/5266/5266-h/5266-h.htm"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_park_eb1911, src_park_ebsco, src_park_cambridge, src_park_travels | 1795-1805 | encyclopedia + reference biography + academic chapter + self-report] The 1911 Britannica and the EBSCO biography record that after four months' captivity he escaped alone with only a horse and a pocket compass, still pressed on to the Niger and 80 miles beyond, turned back only when exhausted and without means, and spent seven months at Kamalia after falling ill before returning; by his own account (self-report) he chose to go forward rather than return without greater progress. On the 1805 expedition the Cambridge chapter says that after most of his men had died 'logic suggests he should have conceded defeat' yet he built a boat and set off, which an independent scholar presents as part of a costly pattern. The persistence is documented by three independent writers; it was dual-edged because it cost lives on the second journey."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_park_ebsco, src_park_cambridge, src_park_eb1911, src_park_travels | 1795-1805 | reference biography + academic chapter + encyclopedia + self-report] EBSCO says he led the 1805 column into the bush in the rainy season 'against all advice' and the Cambridge chapter dates the first rain to early June with 31 of the party dead by mid-August; on the first journey he set out in December 1795 with two servants, and by his own account chose the Ludamar route although the king of Kaarta had warned that it was not free from danger. He then set off down 1,000 miles of unknown river with a handful of men (1911 Britannica). The risks are documented, but the 'against all advice' detail rests on one reference writer and the Cambridge chapter does not repeat it. SELF-CALIBRATION (agent): top-risk row; lowered from 72 / 0.52 to 70 / 0.48 because the key 'against all advice' claim is single-source and interpretive and the first-journey risk evidence is largely his own narrative."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_park_eb1911, src_park_ebsco, src_park_cambridge | 1796-1805 | encyclopedia + reference biography + academic chapter] The 1911 Britannica says he reached the Niger after escaping with nothing but his horse and compass and that at Sansanding, with one capable soldier, he converted two canoes into a 40-foot boat; EBSCO says he traded off most of his goods to win the friendship of petty chiefs; the Cambridge chapter says he sold his remaining trade goods, bought two canoes, bound them together, decked and rigged them and provisioned the vessel. Three independent writers describe improvisation under shortage; the outcome (the loss of the expedition) is a separate matter."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_park_eb1911, src_park_ebsco, src_park_princeton | 1791-1804 | encyclopedia + reference biography + library exhibit (self-report)] The 1911 Britannica records a paper to the Linnean Society describing eight new Sumatran fishes and that he used the wait for the second expedition to perfect his Arabic with a native teacher; EBSCO notes distinction in botany at Edinburgh, plant collecting in Sumatra and five months at Pisania studying Mandingo before setting out; in his own words (self-report) he volunteered from 'a passionate desire to examine into the productions of a country so little known'. The learning and collecting are documented independently; the stated motive is his own."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_park_ebsco, src_park_eb1911, src_park_cambridge | 1797-1805 | reference biography + encyclopedia + academic chapter] EBSCO reports that he declined an offered Australian expedition because the salary was too small and that restlessness at Peebles led him to accept the 1805 government expedition, and describes a 'driving desire for eminence'; the 1911 Britannica says he 'chafed at the hardness and monotony of life' as a country doctor; the Cambridge chapter, by contrast, rejects 'overweening ambition' as a sufficient explanation of the failure. The behaviour (declining one post, taking another) is documented, but the ambition reading is a retrospective characterisation by one reference writer. SELF-CALIBRATION (agent): top-risk row; lowered from 70 / 0.50 to 66 / 0.46 because the 'driving desire for eminence' phrase is an interpretive judgement and an academic source explicitly disputes ambition as the explanation."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "뭉고 파크"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mungo-park-portman-1787-1828.jpg",
+    "width": 886,
+    "height": 1200,
+    "source": "Stipple-engraved oval portrait of Mungo Park by Ludwig Gottlieb Portman, captioned 'Mr. M. Park.' under the oval and signed 'Portman, sc.', held by the Rijksmuseum, Amsterdam (object number RP-P-1910-440, 'Portret van de Schotse arts Mungo Park'), dated by the museum 1787 - 1828 (the engraver's working span; the plate is not more closely dated, and the record does not name the drawing it was made after). Rights review: the museum's own linked-art record (opened live 2026-11-05) carries the Public Domain Mark 1.0 on the image and a CC0 right on the record, names the printmaker as mentioned on the object, and links the visual item to Mungo Park's Wikidata identifier; the print was made no later than 1828 (public domain by age). The file is the oval and caption cropped from the museum's 3882 x 6318 pixel scan and downscaled to 886 x 1200 pixels (no upscaling).",
+    "license": "Public Domain Mark 1.0 and CC0 as stated in the Rijksmuseum's own record; an engraving made before 1829 (public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Ludwig Gottlieb Portman (engraver), 'Mr. M. Park', stipple engraving, 1787-1828. Rijksmuseum, Amsterdam, RP-P-1910-440 (Public Domain). Cropped and downscaled.",
+    "attributionUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.341318",
+    "creator": "Ludwig Gottlieb Portman",
+    "date": "1787 - 1828 (museum dating)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.341318"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED: the lead's Rijksmuseum print was used (RP-P-1910-440). The linked-art record carries PDM and CC0 and its visual item represents Q219086; the printmaker is 'Ludwig Gottlieb Portman (mentioned on object)', dated 1787-1828; looking at the downloaded scan I read the caption 'Mr. M. Park.' and the signature 'Portman, sc.' (the sitter is named by the print itself and the holder); the record does not say what the print was made after (a standard 1799 frontispiece of the same caption type was engraved after Henry Edridge by others, but I could not confirm Portman's source), so the kind is historical_depiction, not likeness. I cropped the oval and caption from the 3882x6318 scan and downscaled to 886x1200; I did not need the Wellcome alternative. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q219086 label 'Mungo Park', description 'Scottish naturalist and explorer of the African continent', ko label 뭉고 파크, born 1771, died 1806, citizenship Kingdom of Great Britain; not in prod65.txt (only Rosa Parks and Gordon Parks matched 'park'); no candidate file existed for mungo-park. REGION western_europe (British precedents). ERA 19th_century (birth 1771, career 1790s-1806; precedent Matthew Flinders 1774). ZERO POLITICS: primary identity explorer and surgeon; the 1805 expedition's military and diplomatic aims (Anglo-French rivalry, treaties, a captain's commission) are context only and not scored or carded; the slave-trade setting is context. EXCLUSIONS: family and private life, health beyond what the sources document as expedition conditions, the Peebles medical practice, and the speculation about his mental state (the Cambridge chapter and EBSCO suggest his judgement may have been impaired, which is not used: no personality inference from illness or trauma). VOCABULARY: occupations explorer and naturalist, field exploration, tags explorer and field_researcher, archetype scientific_explorer, impact domains historical and scientific, all grepped in en.ts and ko.ts. KO NAME: Wikidata Korean label 뭉고 파크 (source Wikidata, short). ATTRIBUTION: attributable (published narrative, expedition records, contemporary and later scholarship). CANONICAL SIGNIFICANCE SOURCE: Linda Hall Library, 'Scientist of the Day: Mungo Park' (https://www.lindahall.org/about/news/scientist-of-the-day/mungo-park/). READ (substantive): Linda Hall Library (institution); 1911 Encyclopaedia Britannica via Wikisource (biography); EBSCO Research Starters (biography, critical conclusion); Cambridge University Press chapter from 'Mungo Park's Ghost' (institution, independent academic reassessment); Undiscovered Scotland (press); Princeton University Library exhibit with Park's own quoted words (institution, self-report); Park's Travels vol. 1 (archive, self-report, searched passages). 8 sources plus Wikidata for the QID. PERSPECTIVES: (1) admiring-classic encyclopedic voices (1911 Britannica, Linda Hall); (2) a critical reference writer (EBSCO: two errors of judgment); (3) an independent academic reassessment (Cambridge: hubris narrative and African informants; rejects both simple explanations); (4) self-report (Park's own narrative) never the sole support for a row. NON-SELF BEHAVIOURAL SOURCES: 1911 Britannica, EBSCO, Cambridge chapter. COUNTER-VOICES: EBSCO and the Cambridge chapter. NOT OPENED: Park's second-expedition journal (1815), vol. 2 of the Travels, Thomson's 1890 'Mungo Park and the Niger', Oxford DNB, Britannica online (bot wall), History Today article (403), Isaaco's and Amadi Fatouma's journals themselves (known only through the chapter and encyclopedias), Anthony Sattin and other modern biographies. DISCREPANCIES: birth day 10 vs 11 September (Wikidata/Britannica Online) vs 20 September (1911 article); party size 45 with 38 dead (Linda Hall) vs 35 soldiers plus 8 others and 31 dead by mid-August (Cambridge) vs 11 Europeans alive at the Niger (1911, EBSCO, Undiscovered Scotland): I give 11 Europeans alive in the achievements only as the sources state it and use 'most' otherwise; the date of death is 'late 1805 or January 1806' in the sources and Wikidata gives 1806 (used for deathYear). The manner of death is told only through African informants (Cambridge, Linda Hall, EBSCO) and is therefore not scored. FIRST CLAIM: 'first European to see the upper Niger' is stated by the 1911 Britannica and Linda Hall and is attributed to the sources in the card. SCORING: 5 rows (persistence 74/0.58 dual-edged, resourcefulness 70/0.56, risk_tolerance 70/0.48 dual-edged, curiosity 66/0.50, achievement_drive 66/0.46 dual-edged); two dual-edged rows reflect the second expedition. SELF-CALIBRATION (agent): top-risk rows reviewed: risk_tolerance (lowered 72/0.52 -> 70/0.48: the 'against all advice' claim is single-source), achievement_drive (lowered 70/0.50 -> 66/0.46: interpretive 'eminence' phrase disputed by the academic source), persistence (kept at 74/0.58: corroborated by three independent writers, one of them critical). Broad flag for the lead: none; sparse profile, scores 66-74, confidence 0.46-0.58. HANDBACK65: {\"slug\": \"mungo-park\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Rijksmuseum linked-art record RM0001.COLLECT.341318 (PDM + CC0)\", \"holder_record_checked_by_you\": \"Opened the Rijksmuseum linked-art JSON for RP-P-1910-440 (handle RM0001.COLLECT.341318 resolving to id.rijksmuseum.nl/200400229) and its visual-item record (id.rijksmuseum.nl/202400229): title 'Portret van de Schotse arts Mungo Park', print (stipple), plate 202 x 127 mm, printmaker 'Ludwig Gottlieb Portman (mentioned on object)', dated 1787 - 1828, collector's mark Lugt 2228; the image service carries the Public Domain Mark 1.0 and the record carries a CC0 right, and the visual item represents Q219086 (Mungo Park).\", \"holder_contradiction_found\": false, \"initial_lead\": \"Rijksmuseum engraved portrait of Mungo Park (RP-P-1910-...)\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam, RP-P-1910-440, stipple engraving by Ludwig Gottlieb Portman, dated 1787-1828 (https://hdl.handle.net/10934/RM0001.COLLECT.341318); oval and caption cropped from the 3882x6318 IIIF scan and downscaled to 886x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"image_inscription_check\": \"Printed caption under the oval reads 'Mr. M. Park.' and the engraver's signature under the oval reads 'Portman, sc.' (no other lettering)\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"risk_tolerance\", \"old_score\": 72, \"old_confidence\": 0.52, \"new_score\": 70, \"new_confidence\": 0.48, \"reason\": \"The 'against all advice' rainy-season claim is single-source and interpretive, and the first-journey risk evidence is largely his own narrative\"}, {\"attribute\": \"achievement_drive\", \"old_score\": 70, \"old_confidence\": 0.5, \"new_score\": 66, \"new_confidence\": 0.46, \"reason\": \"The 'driving desire for eminence' phrase is one reference writer's judgement and an academic source explicitly disputes ambition as the explanation\"}], \"reviewed_kept\": [\"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

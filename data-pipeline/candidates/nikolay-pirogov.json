@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nikolay-pirogov",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Nikolay Pirogov",
+    "aliases": [
+      "Nikolai Ivanovich Pirogov",
+      "Nikolay Ivanovich Pirogov",
+      "Nikolai Pirogov",
+      "Pirogoff",
+      "Николай Иванович Пирогов"
+    ],
+    "wikidataId": "Q315266",
+    "birthYear": 1810,
+    "deathYear": 1881,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "anatomist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "innovator",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_pir_wikidata",
+      "kind": "wikidata",
+      "title": "Nikolai Pirogov (Q315266), verified live via the Wikidata API (2026-11-05): label 'Nikolai Pirogov', description 'Russian medical scientist (1810-1881)', born 1810 (13 and 25 November and a year-only value recorded), died 1881 (23 November, 5 December and a month-only value), citizen of the Russian Empire, Russian label Николай Иванович Пирогов, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q315266"
+    },
+    {
+      "id": "src_pir_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography (S. R. Mikulinsky) and Encyclopedia of Russian History (Alexander Vucinich), entries on Nikolai Ivanovich Pirogov, as reprinted on Encyclopedia.com (read in a summarised fetch, not word for word). CANONICAL SIGNIFICANCE SOURCE: surgeon and anatomist born in Moscow in 1810, doctorate at Dorpat 1832, Dorpat surgery chair 1836, head of surgery at the St. Petersburg Medical-Surgical Academy 1841-56; credited with using ether under battle conditions in 1847, founding topographic anatomy with his four-volume atlas (frozen-cadaver sections), the plaster cast idea (1851), organising care in the Crimean War and writing the 1864 field-surgery text; resigned in 1856 'tired of petty academic quarrels and intrigues', then worked as a school-district administrator in Odessa and Kiev until dismissed in 1861. Both entries are short, admiring and give no source citations; they disagree on some dates.",
+      "url": "https://encyclopedia.com/people/medicine/medicine-biographies/nikolai-ivanovich-pirogov"
+    },
+    {
+      "id": "src_pir_hendriks15",
+      "kind": "biography",
+      "title": "I. F. Hendriks, J. G. Bovill, F. Boer, E. S. Houwaart and P. C. W. Hogendoorn, 'Nikolay Ivanovich Pirogov: a surgeon's contribution to military and civilian anaesthesia', Anaesthesia 70 (2015), pp. 219-227 (open-access publisher's version read in full). Scholarly historical article: his medical training (no dissection in four university years, then Dorpat, Berlin and Gottingen), his initial reluctance and then January 1847 experiments with ether on animals, himself and his assistants, his first operations under ether on 14 February 1847, his own inhaler and mask, the 1847 Caucasus mission (30 inhalers, 32 kg of ether, operations done before other wounded men, about 100 anaesthetised), his meticulous records of side effects, chloroform from December 1847, and the Sevastopol period (nursing sisters trained with Grand Duchess Elena Pavlovna, 5,000 amputations in nine months, typhoid); says Berenson in Riga and Inozemtsev in Moscow were the first in Russia to use ether, and that he 'may be considered the founder of field surgery'. The author team writes as admirers of Pirogov.",
+      "url": "https://hdl.handle.net/1887/107257"
+    },
+    {
+      "id": "src_pir_hendriks_thesis",
+      "kind": "biography",
+      "title": "I. F. Hendriks, 'Nikolay Ivanovich Pirogov and his contribution to medicine in 19th Century Imperial Russia', doctoral thesis, Leiden University (2022), Chapter 9 'Summary and concluding remarks' (English summary read in full; the other chapters were not opened). Summarises his empirical method (literature, animal experiments, self-experiment, careful analysis before wide use), the move of surgery from craft to science, his atlases and the osteoplastic foot amputation, his role as organiser in the Crimean War (triage, training of female nurses with Elena Pavlovna), his resignation after constant opposition (the summary says 1860; the 1856 date used elsewhere is followed here), and the Red Cross inspector-general reports. Same author as the 2015 article, so not independent of it.",
+      "url": "https://hdl.handle.net/1887/3491451"
+    },
+    {
+      "id": "src_pir_norman",
+      "kind": "archive",
+      "title": "Jeremy Norman's History of Medicine, bibliographic entry for Pirogov's 'Anatome topographica sectionibus per corpus humanum congelatum triplici directione ductis illustrata' (page read in full, short). Gives St. Petersburg, J. Trey, 1852-1859, eight parts, 220 plates; calls it 'the first use on a grand scale of frozen sections in anatomical illustration'; says the frozen-section idea was first carried out by de Riemer, so Pirogov's contribution was the scale and application, and that he introduced the teaching of applied topographical anatomy in Russia. Bibliographer's note; the critical priority caveat comes from here.",
+      "url": "https://historyofmedicine.com/id/950"
+    },
+    {
+      "id": "src_pir_hendriks20",
+      "kind": "biography",
+      "title": "I. Hendriks, D. Zhuravlev, J. Boville, E. Huvart, F. Boer and P. Hogendoorn, 'Nikolay Ivanovich Pirogov: Forerunner, co-founder and Inspector-General of the Red Cross', Vestnik of St. Petersburg University. Medicine 15(1), 2020, pp. 56-78 (abstract only read; the English PDF was not opened). Abstract: Pirogov and Grand Duchess Elena Pavlovna organised and trained women as nurses for the Crimean front, he proposed an international treaty on medical aid to war victims and later acted as inspector-general reporting on care in two later wars. Partly read.",
+      "url": "https://medicine-journal.spbu.ru/article/view/9767"
+    },
+    {
+      "id": "src_pir_tretyakov",
+      "kind": "institution",
+      "title": "Tretyakov Gallery (My Tretyakov), collection record 'Portrait of the Surgeon N. I. Pirogov' by Ilya Repin, 1881, oil on canvas 64.5 x 53.4, inventory 731 (record read in full). States that Repin finished the portrait in four sittings, signed and dated the canvas 24 May 1881, and that Pavel Tretyakov acquired it from the artist in 1882; the page carries no rights statement and links to site terms. Used for the portrait only, not for any trait row.",
+      "url": "https://my.tretyakov.ru/app/masterpiece/21112"
+    },
+    {
+      "id": "src_pir_wellcome",
+      "kind": "archive",
+      "title": "Wellcome Collection, 'Nikolai Ivanovitch Pirogov. Colour process print, 1953, after I. E. Repin' (catalogue record opened live through the Wellcome catalogue API: licence Public Domain Mark, credit Wellcome Collection, digital image 2,359 x 3,109 pixels). Used for the portrait only, not for any trait row.",
+      "url": "https://wellcomecollection.org/works/dfhy7ngs"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 80,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pir_hendriks15, src_pir_dsb, src_pir_hendriks_thesis | 1847-1855 | scholarly article + encyclopedia + thesis summary] Hendriks and colleagues document that, after first doubting ether, he began experiments in January 1847, studied its course on himself and his assistants before using it on patients, tried rectal ether and later chloroform in animals (dogs, rats, rabbits; ether on 40 animals and 50 patients in his 1847 manual), recommended a test dose because individuals respond differently, and recorded side effects and deaths by anaesthetic type; the Dictionary also says he tested the anaesthetic on himself; the thesis summary calls his method empirical, with animal experiments and occasional self-experiment before wide use. Most detail comes from one author team that admires him, and his priority is qualified in the same article (Berenson and Inozemtsev used ether in Russia before him). SELF-CALIBRATION (agent): Nearly all the detail comes from one admiring author team (the 2015 article and the 2022 thesis) and his priority on ether is qualified within the same article, so the experimental record is less independently corroborated than the headline."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pir_hendriks15, src_pir_dsb, src_pir_hendriks_thesis | 1841-1856 | scholarly article + encyclopedia + thesis summary] Hendriks and colleagues report that in St. Petersburg he met hostile opposition from administrators and jealous colleagues and 'life became a ceaseless struggle', yet kept up his hospital, teaching, private practice and scientific work; that in Sevastopol he personally performed some 5,000 amputations in nine months until typhoid brought him close to death; and that he carried out a 1847 journey by carriage across Russia to the Caucasus to teach ether. The Dictionary credits twelve thousand dissections in poor light and says he resigned in 1856, tired of petty quarrels, which marks a limit to endurance of institutional conflict. The 5,000 and 12,000 figures come from single admiring accounts with no cited count, so the row rests on a pattern, not one documented number. SELF-CALIBRATION (agent): The 5,000-amputation and 12,000-dissection figures are single uncited admiring accounts, and his 1856 resignation shows limited endurance of institutional conflict."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pir_hendriks15, src_pir_norman, src_pir_hendriks_thesis | 1847-1859 | scholarly article + bibliography entry + thesis summary] Hendriks and colleagues record that he meticulously noted every detail of his operations and animal experiments, defined anaesthesia-related side effects (prolonged unconsciousness, vomiting, delirium, headache, abdominal discomfort) and a 24-48 hour rule for anaesthetic deaths, and tabulated one year of cases by anaesthetic type; Norman records an atlas of eight parts with 220 plates of sections through the frozen body in three directions, and the thesis summary says he provided his atlases with meticulous descriptions. The documentary record is dense, but it is retold chiefly by one admiring author team. RUBRIC_CORRECTION (lead review, before eligibility): detail_orientation lowered from 78 / 0.62 to 74 / 0.56 because three of the sources are one author team and the independent bibliography entry is thin."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pir_hendriks15, src_pir_hendriks_thesis, src_pir_hendriks20 | 1847-1855 | scholarly article + thesis summary + journal abstract] On the 1847 Caucasus mission he brought 30 inhalers and 32 kg of ether, checked that the ether survived the heat, taught local doctors, and operated in front of other wounded men in order to reassure them; in Sevastopol he initiated, with Grand Duchess Elena Pavlovna, the deployment of nursing sisters and trained them to assist in operations and anaesthesia (the 2020 abstract and the thesis summary agree that he and she organised and trained the women). The Tsar ordered the Caucasus mission, so the initiative lay in how he carried it out; the nursing scheme was shared with a patron. The Red Cross inspector-general reports are not scored. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 76 / 0.62 to 72 / 0.56 because the same author-team concentration; the Tsar and Red Cross episodes are unscored context."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pir_hendriks15 | 1846-1847 | scholarly article] Hendriks and colleagues state that he was initially reluctant to use ether, worried about the safety of the technique and about excitement during recovery, but that his own experiments from January 1847 convinced him his misgivings were unfounded and that ether was 'a remedy that in one sense can transform the whole of surgery'; he then operated under ether on 14 February 1847. A single dated episode from one article, so confidence is moderate. RUBRIC_CORRECTION (lead review, before eligibility): belief_updating lowered from 74 / 0.58 to 68 / 0.48 because the reluctance-then-adoption story rests on a single article by one author team."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_pir_dsb, src_pir_hendriks15, src_pir_norman | 1832-1864 | encyclopedia + scholarly article + bibliography entry] He combined operative surgery (an osteoplastic foot amputation, vessel ligation), topographic anatomy and the frozen-section atlas, pathological anatomy, anaesthesia research and field-surgery organisation; the Dictionary says he held that surgery without anatomy and physiology would remain an art. The range is wide but stays inside medicine and applied anatomy, and the 1856 turn to school-district administration is not scored."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pir_hendriks15, src_pir_dsb, src_pir_hendriks_thesis | 1828-1841 | scholarly article + encyclopedia + thesis summary] Hendriks and colleagues note that his Moscow university medicine involved no dissection in four years, after which he completed a Dorpat doctorate in 1832 and studied two years in Berlin and Gottingen before becoming Dorpat's professor of surgery at 25; the Dictionary records a doctoral thesis on ligation of the abdominal aorta and his argument that surgery needs anatomy and physiology; the thesis summary says he moved surgery from craft to science. The pattern shows deliberate skill-building, but the sources are short and admiring. RUBRIC_CORRECTION (lead review, before eligibility): mastery_orientation lowered from 76 / 0.6 to 72 / 0.54 because the early-training evidence comes from one author team and the dictionary summary."
+    },
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_pir_hendriks15, src_pir_norman, src_pir_dsb | 1847-1859 | scholarly article + bibliography entry + encyclopedia] He designed his own mask and inhaler for ether (which let him administer it while operating without an assistant), applied large-scale frozen-section illustration to topographic anatomy, and devised an osteoplastic foot amputation; the Dictionary also credits the plaster-cast idea, conceived while watching a sculptor. The same sources qualify priority: Norman says de Riemer first carried out the frozen-section idea and Hendriks says Berenson and Inozemtsev used ether in Russia first, so originality lies in the scale and the application, not first invention. SELF-CALIBRATION (agent): Norman says the frozen-section idea was first carried out by de Riemer and Hendriks says others used ether in Russia first, so documented originality is mostly scale and application, and the plaster-cast credit rests on one short encyclopedia line."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "니콜라이 피로고프"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/nikolay-pirogov-repin-1881.jpg",
+    "width": 999,
+    "height": 1200,
+    "source": "Ilya Repin's 1881 portrait of the surgeon Nikolai Pirogov, painted from life in four sittings and dated 24 May 1881 (Tretyakov Gallery, Moscow, inventory 731, bought from the artist in 1882), shown here through a 1953 colour print published by Iskusstvo, Moscow, which is held by the Wellcome Collection in London and marked Public Domain Mark. The sheet is captioned in Russian with Repin's name and dates, the Tretyakov Gallery and 'Nikolai Ivanovich Pirogov (1810-1881)'. The file used is the Wellcome 2,359 x 3,109 pixel image, cropped to the picture area and downscaled once to 999 x 1,200 pixels; nothing was upscaled. Caveats: the picture is a printed reproduction with some white scratches; the Tretyakov Gallery's own site terms claim rights in its images, so the museum's images were not used, and the legal basis rests on the painter's death in 1930 and on the reproduction being a photomechanical copy of a 2D painting.",
+    "license": "Public domain (painting by Ilya Repin, d. 1930; 1953 print marked Public Domain Mark by the Wellcome Collection)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Ilya Repin, Portrait of the Surgeon Nikolai Pirogov, 1881 (Tretyakov Gallery), reproduced in a 1953 colour print (Iskusstvo, Moscow); Wellcome Collection, public domain",
+    "attributionUrl": "https://wellcomecollection.org/works/dfhy7ngs",
+    "creator": "Ilya Repin (painter); 1953 print published by Iskusstvo, Moscow",
+    "date": "1881 (painting); 1953 (print)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://wellcomecollection.org/works/dfhy7ngs"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / SUCCEEDED, but through the Wellcome print of the lead painting, not the museum image: the Tretyakov record confirms a documented sitting (Repin, four sittings, dated 24 May 1881) but the museum's terms claim rights in its site images and require permission for commercial use, so that route was rejected as strong; the Commons file (PD-Art, source a LiveJournal post) was not relied on. The Wellcome record dfhy7ngs (1953 Soviet colour print after Repin, Public Domain Mark) was opened live; the sheet's printed caption names Repin, the Tretyakov Gallery and 'Nikolai Ivanovich Pirogov'; Repin's signature is on the painting. A second Wellcome item (oil painting, artist and date unknown) was rejected for an unknown artist. Kind likeness because the painting is a documented sitting from life. JUDGEMENT CALL for the lead: the print is a Soviet-era reproduction of a public-domain painting; Wellcome marks it public domain and a photomechanical copy of a 2D painting should carry no new copyright, but the Tretyakov Gallery asserts rights over its own images, so the lead may prefer to hold if that is judged too weak. The Russian National Library record was not opened. The Newman 1867 Philadelphia photograph (Mutter Museum) lead was not checked. PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q315266 label 'Nikolai Pirogov', description 'Russian medical scientist (1810-1881)', born 1810 (13 and 25 Nov and year-only recorded), died 1881 (23 Nov, 5 Dec, month-only), citizenship Russian Empire, no Korean label (Wikidata has only English and Russian labels); no production (prod65.txt) or candidate slug/QID collision. REGION central_europe (precedent: Russians). ERA 19th_century. KOREAN NAME 니콜라이 피로고프 is a TRANSCRIPTION recorded by me (no Korean Wikidata label or Korean Wikipedia link exists; a Korean Wikipedia title was searched and not found), lead to confirm. ZERO POLITICS: the Tsar's order to use ether for tactical reasons, the Odessa and Kiev school-district administration and the dismissals, and the Red Cross inspector-general reports are context only; no row is scored from them; field surgery is scored as medicine, not as military behaviour. VOCABULARY: occupations physician, anatomist, medical_researcher; field medicine; impact domains medical, scientific; tags innovator, detail_oriented; archetype scientific_explorer (checked in EN and KO). ATTRIBUTION CONFIRMED (dated operations, publications and experiments). CANONICAL SIGNIFICANCE SOURCE: the Complete Dictionary of Scientific Biography and Encyclopedia of Russian History entries on Encyclopedia.com. READ (substantively): Hendriks et al. 2015 (Anaesthesia, open access, full), the Leiden thesis summary chapter (full chapter), the Norman bibliography entry, the Tretyakov and Wellcome records; the Dictionary entries in a summarised fetch; Hendriks et al. 2020 (abstract only). Perspectives: encyclopedic Soviet-era and US-historian entries, an admiring Dutch-Russian historian team (three items by the same lead author, so not independent of each other), a bibliographer who adds a priority caveat. COUNTER-VOICES (thin): Norman (de Riemer priority), Hendriks 2015 (Berenson and Inozemtsev used ether in Russia first), the Dictionary (quarrels; claims given without sources) and Vucinich (the minister preferred a philologist to a surgeon). NOT OPENED: Britannica (not attempted after earlier 403 elsewhere), the Presidential Library page (bot check), the Cambridge Slavic Review article by Mathes (abstract only), the Leiden thesis chapters 1-8, Pirogov's own Sevastopol Letters and Kriegschirurgie, Russian-language scholarship; a popular Russia Beyond feature on the atlas and a student abstract were read and not used; a mirror site (Cavac) contained an embedded instruction aimed at the reader and was ignored and not cited. Facts not used because they rest on a single weak source: the five-category triage (named only by the thesis summary and a mirror), the first plaster cast in the field, antisepsis claims, and the Garibaldi consultation. Self-calibration: reviewed experimentation, persistence, creative_originality (all lowered, see handback) and belief_updating (kept). HANDBACK65: {\"slug\":\"nikolay-pirogov\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"PLAUSIBLE (alt-dependent)\",\"holder_record_at_preflight\":\"NOT VERIFIED: Russian National Library holder record not opened\",\"holder_record_checked_by_you\":\"Opened the Tretyakov Gallery (My Tretyakov) record https://my.tretyakov.ru/app/masterpiece/21112 for the Repin painting (Inv. 731, oil on canvas, 24 May 1881, four sittings, bought from the artist by Tretyakov in 1882): no rights statement on the item page, but the museum's 'Use of site materials' page (found by search, summarised) says the museum is the rights holder of the images on its sites and requires written permission for commercial use, and the My Tretyakov terms restrict downloads to low resolution; so the Tretyakov route was NOT used. Then opened the Wellcome Collection catalogue record dfhy7ngs (Colour process print, 1953, after I. E. Repin; licence Public Domain Mark; IIIF image 2359 x 3109) and the second Wellcome record knaeyyv2 (oil painting, artist and date unknown, Public Domain Mark, rejected for unknown artist). The Russian National Library record named at preflight was not opened.\",\"holder_contradiction_found\":true,\"initial_lead\":\"Ilya Repin 1881 portrait of Pirogov\",\"final_portrait_source\":\"Wellcome Collection (library record dfhy7ngs, Public Domain Mark): colour process print, Iskusstvo, Moscow, 1953, after Ilya Repin's 1881 portrait of Pirogov (Tretyakov Gallery); image 2359x3109 cropped to the picture area and downscaled to 999x1200; https://wellcomecollection.org/works/dfhy7ngs\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":8,\"self_calibrated_rows\":[{\"attribute\":\"experimentation\",\"old_score\":82,\"old_confidence\":0.68,\"new_score\":80,\"new_confidence\":0.64,\"reason\":\"Nearly all the detail comes from one admiring author team (the 2015 article and the 2022 thesis) and his priority on ether is qualified within the same article, so the experimental record is less independently corroborated than the headline\"},{\"attribute\":\"persistence\",\"old_score\":76,\"old_confidence\":0.6,\"new_score\":74,\"new_confidence\":0.56,\"reason\":\"The 5,000-amputation and 12,000-dissection figures are single uncited admiring accounts, and his 1856 resignation shows limited endurance of institutional conflict\"},{\"attribute\":\"creative_originality\",\"old_score\":76,\"old_confidence\":0.58,\"new_score\":72,\"new_confidence\":0.54,\"reason\":\"Norman says the frozen-section idea was first carried out by de Riemer and Hendriks says others used ether in Russia first, so documented originality is mostly scale and application, and the plaster-cast credit rests on one short encyclopedia line\"}],\"reviewed_kept\":[\"belief_updating\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":8,\"image_inscription_check\":\"Printed margin of the sheet reads 'И. Е. Репин (1844—1930)', 'Государственная Третьяковская галерея', 'Николай Иванович ПИРОГОВ (1810—1881)' and the imprint 'Государственное издательство «Искусство», Москва, 1953'; the painting carries Repin's signature at lower left; two pen inscriptions on the margin ('from E Pavlovsky' and 'Pirogov Nikolai Ivanovich') are a former owner's notes and were cropped out\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): belief_updating lowered from 74 / 0.58 to 68 / 0.48 because the reluctance-then-adoption story rests on a single article by one author team. RUBRIC_CORRECTION (lead review, before eligibility): detail_orientation lowered from 78 / 0.62 to 74 / 0.56 because three of the sources are one author team and the independent bibliography entry is thin. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 76 / 0.62 to 72 / 0.56 because the same author-team concentration; the Tsar and Red Cross episodes are unscored context. RUBRIC_CORRECTION (lead review, before eligibility): mastery_orientation lowered from 76 / 0.6 to 72 / 0.54 because the early-training evidence comes from one author team and the dictionary summary."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ignatius-sancho",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ignatius Sancho",
+    "aliases": [
+      "Charles Ignatius Sancho",
+      "Africanus"
+    ],
+    "wikidataId": "Q1657368",
+    "birthYear": 1729,
+    "deathYear": 1780,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "writer"
+    ],
+    "fieldIds": [
+      "music",
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "artistic"
+    ],
+    "tagIds": [
+      "self_taught",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sancho_wikidata",
+      "kind": "wikidata",
+      "title": "Ignatius Sancho (Q1657368), verified live via the Wikidata API (2026-11-05): description 'British composer, writer and grocer', born 1729, died 14 December 1780, no Korean label (the Korean name below is a recorded transliteration). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1657368"
+    },
+    {
+      "id": "src_sancho_carey",
+      "kind": "biography",
+      "title": "Brycchan Carey, 'Ignatius Sancho: African Composer and Man of Letters' (brycchancarey.com; a scholar's study page, read). CANONICAL SIGNIFICANCE SOURCE (with the London Museum story below): said to be born into slavery on a ship crossing to the West Indies; as a child in Greenwich forced to work for three sisters; employed by the Montagu family as butler; ran a grocery at 19 Charles Street, Westminster; composed music, appeared on stage and entertained London's literary and artistic circles; painted by Gainsborough in Bath in 1768; his letters published in 1782 and reissued in five editions to 1803; to eighteenth-century opponents of the slave trade he symbolised the humanity of Africans. The page links to the scholarly debate on the reliability of Joseph Jekyll's memoir but does not describe it. Single-author scholar's website; short.",
+      "url": "https://www.brycchancarey.com/sancho"
+    },
+    {
+      "id": "src_sancho_londonmuseum",
+      "kind": "institution",
+      "title": "London Museum, 'Ignatius Sancho: Writer and early Black voter' (London Stories page, read). Records that he taught himself to read after the sisters refused to teach him, that the Duke of Montagu lent him books, that he became butler to the Duchess Mary and later valet to the next Duke, married Ann Osbourne in 1758, opened a grocery near Parliament in 1774 with the Duke's help and voted as a householder; that he wrote letters and essays (some printed under the name Africanus) and plays, composed music, was friends with Garrick and Sterne and was painted by Gainsborough in 1768; that his 1766 letter urged Sterne to support abolition; that his Letters (1782) sold out and were reprinted; and that he was less hopeful than his publisher about English attitudes and still faced discrimination. Museum text: balanced, institutional.",
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/ignatius-sancho-writer-first-black-voter/"
+    },
+    {
+      "id": "src_sancho_rmg",
+      "kind": "institution",
+      "title": "Royal Museums Greenwich, collection record for the stipple-engraving frontispiece 'Ignatius Sancho, 1729-80' (read). Says the print is after an oil portrait by Thomas Gainsborough now in the National Gallery of Canada; that after Montagu's death in 1749 Sancho persuaded the widow to remove him from the sisters' household and she hired him as butler; that with Montagu family support he opened a Westminster grocery that sold slave-produced goods; that his property gave him the vote and the record calls him the second-earliest known Black person to vote in a British election, after John London in 1749; and that he was the first African in Britain to receive an obituary. Museum record; its 'second-earliest' voter claim differs from the 'first' claim in some other pages.",
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-254684"
+    },
+    {
+      "id": "src_sancho_rutgers",
+      "kind": "institution",
+      "title": "Caroline Copeland, 'Ignatius Sancho and the Minuet', The Life and World of Ignatius Sancho (Rutgers-New Brunswick interdisciplinary research group; read). Says he published minuets for friends, family and patrons to dance, shows the title page 'Minuets, Cotillons & Country Dances... Composed by an African', dated [1767], printed for the author in London and dedicated to Henry, Duke of Buccleuch, with six minuets and eighteen cotillions and country dances (the page's own counts of minuets differ). It does not assess his musical training, reception or quality; the only evaluative comment concerns his letters.",
+      "url": "https://sancho.rutgers.edu/?p=826"
+    },
+    {
+      "id": "src_sancho_letters",
+      "kind": "archive",
+      "title": "Letters of the Late Ignatius Sancho, an African, to which are prefixed Memoirs of his Life (third edition, London: J. Nichols, 1784; Project Gutenberg text of an Internet Archive scan; the Memoirs by Joseph Jekyll, the letter to Mr. Sterne and the letters of May-June 1780 on the state of the country and the Gordon Riots read, the rest searched only). SELF-REPORT and a prejudiced contemporary memoir: the Letters are his own words (the letter to Sterne is printed here with a date of 1776, whereas the London Museum dates it 1766 and Sterne died in 1768); Jekyll's Memoirs carry demeaning racial assumptions and anecdotes that scholars treat as unreliable, so only facts also given by another source are used and its anecdotes about his private life are excluded.",
+      "url": "https://www.gutenberg.org/ebooks/66908"
+    },
+    {
+      "id": "src_sancho_met",
+      "kind": "institution",
+      "title": "The Metropolitan Museum of Art, Open Access record for 'Ignatius Sancho' (object 376537, Francesco Bartolozzi, stipple engraving and etching, 1802, Harris Brisbane Dick Fund 1917; read via the Met Open Access API). Portrait source record for the image used.",
+      "url": "https://www.metmuseum.org/art/collection/search/376537"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sancho_letters, src_sancho_londonmuseum, src_sancho_rmg | 1749-1774 | his own letter, museum text, museum record] After the Duke of Montagu died in 1749 he left the sisters' household and, per the Greenwich museum record, persuaded the widow to take him on as butler; in a letter to Laurence Sterne (1766 per the London Museum) he wrote unprompted to a famous author, urging him to give attention to slavery; in 1774 he and his wife set up the Westminster grocery. The letter to Sterne is his own text and the museum texts agree on the other moves, but the museum texts are short and the earlier events are documented mainly through the Montagu patronage, so confidence is moderate."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sancho_carey, src_sancho_londonmuseum, src_sancho_rutgers | 1760s-1780 | scholar's page, museum text, university research page] Sources agree that alongside household service and then shopkeeping he composed and published dance music, wrote letters, essays and plays, appeared on stage and moved in London's literary and artistic circles. The breadth is documented by independent sources, but none describes the quality of each strand (the Rutgers page does not assess the music and the plays are only named), so the row stays moderate."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sancho_londonmuseum, src_sancho_letters | childhood-1770s | museum text, his own letter] The London Museum says that when the sisters refused to teach him he taught himself to read and that the Duke of Montagu lent him books; in his letter to Sterne he writes that he got a little reading and writing 'by unwearied application' and that his 'chief pleasure has been books'. Mostly his own description plus one museum summary. SELF-CALIBRATION (agent): top-risk row; lowered from 66 / 0.50 to 62 / 0.45 because it leans on his own self-description and one unsourced museum statement, and Jekyll's memoir, the other source of this story, is unreliable."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sancho_rmg, src_sancho_londonmuseum | 1749, 1766 | museum record, museum text] The Greenwich record says he persuaded the widowed Duchess to hire him, and the London Museum says Sterne was persuaded by his letter to take up the cause. Two single-sentence claims in museum texts, with no account of how he argued; the Sterne claim is not shown in the sources read."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이그나티우스 산초"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ignatius-sancho-bartolozzi-1802.jpg",
+    "width": 862,
+    "height": 1200,
+    "source": "Stipple engraving 'Ignatius Sancho' by Francesco Bartolozzi after Thomas Gainsborough's oil portrait, lettered 'Gainsborough Pinxt.' and 'F. Bartolozzi sculp.' and published in London on 20 December 1802 by William Sancho, Charles Street, Westminster; The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1917 (17.3.756-2151, object 376537). The museum's image (2158 x 3482) was cropped to the oval plate with its title line and downscaled to 862 x 1200 with no upscaling.",
+    "license": "Public domain: The Metropolitan Museum of Art Open Access (isPublicDomain true); a 1802 print after a painter who died in 1788 and an engraver who died in 1815",
+    "licenseUrl": "https://www.metmuseum.org/art/collection/search/376537",
+    "attribution": "Francesco Bartolozzi after Thomas Gainsborough, 1802, The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1917, Open Access",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/376537",
+    "creator": "Francesco Bartolozzi (engraver) after Thomas Gainsborough (painter)",
+    "date": "1802 (after a portrait of 1768)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/376537"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED, LEAD USED. The lead image is Francesco Bartolozzi's stipple engraving 'Ignatius Sancho' (Met object 376537), a print after Thomas Gainsborough's 1768 oil portrait. HOLDER RECORD CHECKED: Met Open Access API v1 (collectionapi.metmuseum.org/public/collection/v1/objects/376537): date 1802, Bartolozzi (1728-1815), stipple engraving and etching, third(?) state of three, plate 17.5 x 11.7 cm, Harris Brisbane Dick Fund 1917, accession 17.3.756-2151, isPublicDomain true, rightsAndReproduction empty; no restriction or contradiction. Royal Museums Greenwich record ZBA2573 (a separate 1781 frontispiece print) independently says the engraved portrait is after Gainsborough's oil painting now in the National Gallery of Canada. INSCRIPTION CHECK (I looked at the downloaded image and enlarged the lettering): title 'Ignatius Sancho.'; 'Gainsborough Pinxt.' lower left of the oval; 'F. Bartolozzi sculp.' lower right; and the publication line 'London Published Decr 20th 1802 by Wm Sancho, Charles Street Westminster.' (Wm Sancho is his son William, who printed the later editions, and Charles Street is the shop address given by Carey and the London Museum). The lettering names the claimed sitter and the engraver and painter and does not contradict anything; no conflict found. RIGHTS BASIS: Met Open Access (public domain) item record plus an 1802 print after a painter who died in 1788 and an engraver who died in 1815. KIND: historical_depiction (a print after a painting, not a drawing made by the engraver from the sitter, who died in 1780). The Deutsche Digitale Bibliothek CC0 alternative was not needed and not opened. Crop: the oval plate with its title line cut from the sheet (original 2158 x 3482; crop 1251 x 1741) and downscaled to 862 x 1200, never upscaled, saved as public/portraits/ignatius-sancho-bartolozzi-1802.jpg. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q1657368 description 'British composer, writer and grocer', born 1729, died 14 December 1780 (stored as 1729-01-01 precision year), no Korean label; not in prod65.txt (grep of Sancho and the QID found nothing); no existing candidate file. REGION western_europe (lived in England; precedents for British-based people), ERA early_modern (precedent joseph-haydn, born 1732), nationality GB. ZERO POLITICS: portfolio arts; his vote, his remarks on slavery and abolition, his letters on the Gordon Riots and the state of the country are context only and unscored, and he is scored as composer, writer and shopkeeper, not as an activist. No family, health or private-life inference: Jekyll's anecdotes about his early life, gambling, relationships, money and gout are excluded, as is any inference from his birth in slavery or his death. VOCABULARY: occupations composer and writer, fields music and literature, impact domains literary, cultural, artistic, tags self_taught and overcame_adversity, archetype creative_creator, all present in the repo and in en.ts and ko.ts. KO NAME: no Wikidata or Korean Wikipedia label exists, so the display name 이그나티우스 산초 is a recorded transliteration (Latin form Ignatius, Spanish-derived Sancho). HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED (attribution_confirmed true): his published letters, his printed music and two independent museum records document actual behaviour; the evidence is thin and mostly retrospective, so the profile is sparse. CANONICAL SIGNIFICANCE SOURCE: Brycchan Carey, 'Ignatius Sancho: African Composer and Man of Letters' (https://www.brycchancarey.com/sancho) with the London Museum story. READ (5 substantive sources plus Wikidata and the Met record): (1) Carey's study page; (2) London Museum; (3) Royal Museums Greenwich record; (4) Rutgers research group page on the minuet; (5) the 1784 third edition of the Letters with Jekyll's Memoirs (the Memoirs, the Sterne letter and the 1780 letters on the Gordon Riots read; the rest searched only). PERSPECTIVES: a scholar's website, two museums, a university research group and his own letters; the Memoirs are a prejudiced contemporary account. COUNTER-VOICES AND LIMITS: Carey's page flags the unreliability of Jekyll's biography (the 2003 article 'The Extraordinary Negro: Ignatius Sancho, Joseph Jekyll and the Problem of Biography' was not opened), the Greenwich record calls him the second-earliest known Black voter (after John London in 1749) while other pages call him the first, the London Museum says he was less hopeful than his publisher about English attitudes and still faced discrimination, and the Rutgers page offers no assessment of the music. NOT OPENED: Vincent Carretta's edition and introduction, Carey's 2003 article, the Oxford DNB entry, Wright's 1981 article, the musical scores (so the music is not scored), the National Gallery of Canada record, Jefferson's remarks on Sancho (known only from a search summary, not used), Britannica and BlackPast (not reachable). EXCLUSIONS: the vote and abolition letters as political activity, Jekyll's anecdotes about his early life, his gambling and relationships, any claim from the 'first' voter or 'first' composer or 'first' obituary wording except where a source I read states it. SELF-CALIBRATION (agent): top-risk rows reviewed: curiosity (66/0.50 lowered to 62/0.45: self-description plus one museum summary, and the other source for the story is unreliable), proactive_agency (64/0.50, kept: his own letter to Sterne is a primary document and two museum texts agree on the other moves), cross_domain_range (64/0.48, kept: three independent sources agree on the breadth and the confidence is already moderate). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. Card 1 states the posthumously published Letters and their reception, card 2 the published dance music, card 3 the Westminster grocery, the vote, the Gainsborough portrait and the obituary. HANDBACK65: {\"slug\": \"ignatius-sancho\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Met Open Access API object 376537 (isPublicDomain true)\", \"holder_record_checked_by_you\": \"Met Open Access API v1 object 376537: title 'Ignatius Sancho', date 1802, artist Francesco Bartolozzi (Italian, 1728-1815), stipple engraving and etching, third(?) state of three, plate 17.5 x 11.7 cm, sheet 22.2 x 13.3 cm, Harris Brisbane Dick Fund 1917, accession 17.3.756-2151, isPublicDomain true, rightsAndReproduction empty; primary image DP820264 (2158x3482) downloaded from images.metmuseum.org. Royal Museums Greenwich record ZBA2573 (a different print, 1781 frontispiece) agrees the portrait is after Gainsborough's oil portrait now in the National Gallery of Canada.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Francesco Bartolozzi 1802 engraving after Thomas Gainsborough (Met 376537)\", \"final_portrait_source\": \"The Metropolitan Museum of Art, Open Access, object 376537, Francesco Bartolozzi, 'Ignatius Sancho' (1802), after Gainsborough, https://www.metmuseum.org/art/collection/search/376537; image DP820264 cropped to the plate and downscaled to 862x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"curiosity\", \"old_score\": 66, \"old_confidence\": 0.5, \"new_score\": 62, \"new_confidence\": 0.45, \"reason\": \"Leans on his own self-description and one unsourced museum statement; Jekyll's memoir, the other source, is unreliable\"}], \"reviewed_kept\": [\"proactive_agency\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4, \"image_inscription_check\": \"Title line 'Ignatius Sancho.'; lower left of the oval 'Gainsborough Pinxt.'; lower right 'F. Bartolozzi sculp.'; publication line 'London Published Decr 20th 1802 by Wm Sancho, Charles Street Westminster.'\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}

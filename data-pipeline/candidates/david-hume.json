@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "david-hume",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "David Hume",
+    "aliases": [
+      "Hume"
+    ],
+    "wikidataId": "Q37160",
+    "birthYear": 1711,
+    "deathYear": 1776,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "historian",
+      "economist",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "literature"
+    ],
+    "impactDomains": [
+      "historical",
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "independent",
+      "systematic_thinker",
+      "theorist",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hume_wikidata",
+      "kind": "wikidata",
+      "title": "David Hume (Q37160), verified live via the Wikidata API (2026-11-05): label 'David Hume', description 'Scottish philosopher, economist, and historian (1711-1776)', born 26 April (Old Style) / 7 May 1711, died 25 August 1776, citizenship Kingdom of Great Britain, Korean label 데이비드 흄. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q37160"
+    },
+    {
+      "id": "src_hume_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'David Hume' (Life and Works section read in full, about 1,500 words). CANONICAL SIGNIFICANCE SOURCE: gives the Treatise of Human Nature (1739-40), the Enquiries, the Essays and Political Discourses, the six-volume History of England (1754-62), his unsuccessful bids for the Edinburgh (1745) and Glasgow (1751) chairs, the Advocates Library post from 1752, his repeated revision of his works to the end of his life and the posthumous Dialogues concerning Natural Religion (1779).",
+      "url": "https://plato.stanford.edu/entries/hume/"
+    },
+    {
+      "id": "src_hume_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'David Hume' (Life section and the history section read in full, about 4,000 words). Independent scholarly account with Hume's own letters quoted as evidence: the 1744-45 chair candidacy and the 'Letter from a Gentleman', the rewriting of the Treatise as the Enquiries, the reception and later revision of the History, the withdrawn essays of 1756-57 and the held-back Dialogues; states that in his own day he had at least as much impact as a historian as a philosopher.",
+      "url": "https://iep.utm.edu/hume/"
+    },
+    {
+      "id": "src_hume_eb",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'David Hume' by Maurice Cranston (public-web portion read, about 2,300 words; the rest sits behind a paywall and was not opened). Early life, the La Fleche years, the Treatise (with a critical verdict that it is oversubtle, confusing and marred by willful extravagance), the 1744 chair bid, the wandering years as tutor and secretary to earn leisure for study, and the 1748 and 1751 rewritings.",
+      "url": "https://www.britannica.com/biography/David-Hume"
+    },
+    {
+      "id": "src_hume_econlib",
+      "kind": "institution",
+      "title": "Library of Economics and Liberty (Econlib), 'David Hume', by David R. Henderson (entry read in full, about 600 words). Hume's essays on money and trade in Political Discourses as an empirical argument against mercantilism and a building block of classical economics; also records an error (his 'creeping inflation' notion) and that Adam Smith ignored his price-specie-flow argument. Independent economist's assessment with a critical note.",
+      "url": "https://www.econlib.org/library/Enc/bios/Hume.html"
+    },
+    {
+      "id": "src_hume_smith",
+      "kind": "archive",
+      "title": "Adam Smith, 'Letter from Adam Smith, LL.D. to William Strahan, Esq.' (Kirkaldy, 9 November 1776), account of Hume's last illness, as reproduced on Econlib (about 4,500 words read of the letter). Near-contemporary eyewitness account by a close friend, admiring in tone; used only for documented work habits and conversation in his last months.",
+      "url": "https://econlib.org/book-chapters/chapter-letter-from-adam-smith-l-l-d-to-william-strahan-esq"
+    },
+    {
+      "id": "src_hume_scotsman",
+      "kind": "press",
+      "title": "The Scotsman, 'Edinburgh University renames David Hume tower over racist comments', by Elsa Maishman, 13 September 2020 (article read in full, about 600 words). COUNTER-VOICE: reports the university statement and the student petition on Hume's remarks on race, and the historian Felix Waldmann's evidence that Hume was involved in a slave-trade transaction; used as critical context for the profile, not scored as a trait.",
+      "url": "https://www.scotsman.com/education/edinburgh-university-renames-david-hume-tower-over-racist-comments-2970002"
+    },
+    {
+      "id": "src_hume_ngs",
+      "kind": "institution",
+      "title": "National Galleries of Scotland, 'David Hume, 1711 - 1776. Historian and philosopher', by Allan Ramsay, 1766 (PG 1057), collection record read in full. Holder's statement that Hume was the most influential figure of the Scottish Enlightenment, a sceptic who set himself to scrutinise religious belief, morals and the mind by experience and observation; also records the 1753 footnote on race and the public debate about it. Used for significance and as the holder record for the discarded painting route.",
+      "url": "https://www.nationalgalleries.org/art-and-artists/2775"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hume_sep, src_hume_iep, src_hume_eb | 1729-1757 | scholarly encyclopedia x2 + general encyclopedia] Turned from the family legal career to private philosophical study, wrote the Treatise in France in his early twenties as a full philosophical system under the subtitle of an experimental method of reasoning applied to moral subjects, and kept developing sceptical arguments on religion (the essay on miracles, the Natural History of Religion, the Dialogues) in the face of hostile reaction; IEP quotes his own letter on years of private questioning of religious belief. Three independent reference accounts agree. Scored for the independence of his thinking, not for his doctrines. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 78 / 0.62 to 74 / 0.58 because two scholarly encyclopedias and a general encyclopedia narrate the break from orthodoxy with no independent assessment of process."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hume_sep, src_hume_iep, src_hume_smith | 1739-1776 | scholarly encyclopedia x2 + eyewitness letter] After the Treatise failed to attract notice he wrote the popular Essays (1741-42), recast its arguments as the Enquiries (1748, 1751), lost two university chair bids (1745, 1751) and still produced the six-volume History of England (1754-62) after its first volume was badly received (IEP); SEP says he spent his last years revising his collected works and Smith records him correcting them for a new edition during his final illness. Self-report of the Treatise 'dead-born' remark is only context. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.62 to 68 / 0.56 because the continuing-despite-failure account leans on the Treatise legend and Adam Smith's admiring letter."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hume_iep, src_hume_eb, src_hume_sep | 1741-1757 | scholarly encyclopedia x2 + general encyclopedia] IEP states that he concluded the Treatise failed because of its style and produced shorter, more accessible versions (the first Enquiry 1748, the second Enquiry 1751), turned to essays and then history when philosophy did not pay, and took tutor and secretary posts in the 1740s to earn the means to keep studying (Britannica). A pattern of changing form and route when a first approach failed, inferred from several documented moves rather than one episode."
+    },
+    "conflict_tolerance": {
+      "score": 40,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hume_iep, src_hume_sep | 1745-1779 | scholarly encyclopedia x2] When the clergy opposed his 1744-45 candidacy he answered the charges anonymously in the 'Letter from a Gentleman' and then withdrew; he cut two passages from later editions of the History after MacQueen's attack, had the essays on suicide and immortality physically removed from Five Dissertations when his publisher was threatened with prosecution, and held the Dialogues back until after his death on friends' advice. These documented choices point to a preference for avoiding open religious confrontation, though he did reply to critics in print; scored below the middle with moderate confidence. Impact is dual-edged because the caution preserved his career while delaying his most direct work."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_hume_sep, src_hume_iep, src_hume_econlib | 1739-1762 | scholarly encyclopedia x2 + economist's entry] Published major work in epistemology and the philosophy of mind, moral theory, aesthetics (Of the Standard of Taste), the psychology of religion, political and economic essays (Political Discourses, 1752) and a six-volume history; Econlib credits the essays on money and trade as a building block of classical economics and IEP says his History made his reputation as a historian equal to, if not above, his philosophical one. Three independent accounts document real output in several fields. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.66 to 76 / 0.6 because three reference sources only, all retrospective, and no source examines how the range was built."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hume_iep, src_hume_econlib, src_hume_sep | 1739-1752 | scholarly encyclopedia x2 + economist's entry] IEP and Econlib credit him with original positions that others built on: the secular, sentiment-and-utility basis of morals that fed Bentham, the 'cannot derive ought from is' point, and the empirical case against mercantilism; Econlib also notes a wrong idea (creeping inflation). The support is retrospective scholarly praise rather than a documented episode of creating, so it is held as inference from outcomes. SELF-CALIBRATION (agent): lowered from 74/0.56 because the claim rests on retrospective reference-work praise and Britannica's critical verdict that the Treatise was oversubtle and extravagant, so the trait claim is stronger than the documented behaviour."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hume_eb, src_hume_sep, src_hume_ngs | 1739-1751 | general encyclopedia + scholarly encyclopedia + museum record] Britannica describes the Treatise as an attempt to formulate a full-fledged philosophical system across understanding, passions and morals; SEP notes the method involves systematisation and a search for the 'secret springs and principles' of the mind, and the museum record says he set out to scrutinise religion, morals and the mind with one method of experience and observation. Documented systematic ambition; the quality of the system is separately contested (Britannica's critique) and not scored. RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 76 / 0.6 to 72 / 0.54 because a general encyclopedia and two reference works carry the claim, and Britannica itself judges the Treatise oversubtle."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hume_eb, src_hume_sep, src_hume_iep | 1739-1751 | general encyclopedia + scholarly encyclopedia x2] The Treatise and the first Enquiry take apart the idea of causation and of necessary connection step by step from what experience can show (Britannica), and SEP names the experimental method and the aim of deciding between competing hypotheses; Britannica also faults the Treatise as oversubtle and confusing in its use of terms, so the rigour is real but uneven. Rated moderately high with moderate confidence."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hume_eb, src_hume_sep, src_hume_econlib | 1729-1757 | general encyclopedia + scholarly encyclopedia + economist's entry] Britannica says that when pressed to study law he found it distasteful and read voraciously in the wider sphere of letters; SEP says the Advocates Library post gave him the access he used to begin a career in history; the range of his later enquiries (mind, morals, taste, religion, trade, history) is documented. Inferred from reading, library use and breadth of enquiry, not from one named episode."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hume_sep, src_hume_iep, src_hume_smith | 1734-1776 | scholarly encyclopedia x2 + eyewitness letter] Wrote the Treatise in about three years in France, then issued a long series of works (Essays 1741-42, Enquiries 1748 and 1751, Political Discourses 1752, History 1754-62, Four Dissertations 1757) and, per SEP and Smith, kept revising his collected works in his last years and during his final illness, alternating the work with whist and conversation. Sustained routine output over four decades; the final-illness detail comes from an admiring friend and is not scored on its own."
+    },
+    "perfectionism": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hume_sep, src_hume_smith, src_hume_iep | 1751-1776 | scholarly encyclopedia x2 + eyewitness letter] SEP records that he repeatedly regretted the haste of the Treatise and spent his later years revising the Essays and Treatises, adding an 1775 advertisement disowning the Treatise; Smith, an admiring friend, says he was correcting his works for a new edition when dying; IEP records changes to the History after criticism. The revising is documented across sources, but part of it was a response to criticism and censorship, so the row is held in the mid-60s."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hume_eb, src_hume_iep, src_hume_sep | 1745-1763 | general encyclopedia + scholarly encyclopedia x2] With no academic post open to him, he worked as a tutor, as secretary to General St Clair (including the embassy to Vienna and Turin) and as Keeper of the Advocates Library, and Britannica says he was earning the money he needed to gain leisure for his studies; he later went to Paris as embassy secretary. Documented use of available posts to fund and equip his writing; the dates and exact functions of some posts rest on one source each."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "데이비드 흄"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / REPLACED the lead image. The lead Ramsay 1766 painting (Scottish National Gallery, PG 1057): the painting is plainly old and Ramsay died in 1784, but the holder's own record (opened) offers the image only under a personal-use licence agreement with photography credited to Antonia Reeve, and Art UK limits use to non-commercial research or private study; that conflicts with the Commons public-domain-art tag, so under the holder-record rule it is not accepted. Replacement: the Maurin lithograph in the New York Public Library Emmet Collection (EM2982), a French print of the early nineteenth century; the NYPL item page and APIs were behind an Incapsula bot wall so the holder record could not be read, and the date 1820 is as transcribed on Commons; the basis rests on the print's age (made in France after the sitter's death in 1776 by an artist and printer of the nineteenth century, so long before 1931 whatever the exact year), not on the Commons tag, whose 'PD-old-auto-1923, deathyear 1820' wording was not relied on. Image checked by eye: lettering reads DAVID HUME ESQr., A. Maurin, Lith. de Villain; sitter identified by inscription. Kind is historical_depiction (later print, no documented sitting). PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q37160 label 'David Hume', description 'Scottish philosopher, economist, and historian (1711-1776)', born 26 April (Old Style) / 7 May 1711, died 25 August 1776, citizenship Kingdom of Great Britain, Korean label 데이비드 흄 (Wikidata Korean label); no production (prod65.txt) or candidate slug/QID collision. REGION western_europe (Scotland, Great Britain; precedent Adam Smith). ERA early_modern. ZERO POLITICS: his History of England and political essays are scored only as scholarship and range; his Tory or Whig reading, his posts as secretary to General St Clair and the Paris embassy are context only (diplomatic and military duties unscored; the posts are used only for the narrow resourcefulness row); no trait is scored from political views. VOCABULARY: occupations philosopher, historian, economist, writer; fields philosophy, literature; tags independent, systematic_thinker, theorist, cross_disciplinary; archetypes scholarly_specialist, cross_disciplinary_generalist (all present with EN and KO labels). IMPACT DOMAINS historical, literary, cultural. ATTRIBUTION CONFIRMED: abundant documented behaviour (dated publications, chair applications, letters quoted by scholars), so the screen result 'attributable' is confirmed. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'David Hume' (https://plato.stanford.edu/entries/hume/), Life and Works section read in full, supported by the National Galleries of Scotland record. READ (substantively): SEP (life), IEP (life and history sections), Britannica (public-web portion, truncated by a paywall), Econlib economist entry, Adam Smith's 1776 letter on Hume's last illness (Econlib reproduction), The Scotsman 2020 report on the Hume Tower renaming, the National Galleries of Scotland record. PERSPECTIVES: two independent scholarly encyclopedias; a general encyclopedia by a political-science biographer; an economist's assessment; a near-contemporary admiring friend; a critical press report; a museum record. COUNTER-VOICES: Britannica on the Treatise as oversubtle and extravagant; Econlib on his mistaken creeping-inflation idea and on Smith ignoring his argument; The Scotsman (the 2020 Edinburgh University decision and the historian Felix Waldmann's evidence of slave-trade involvement) and the museum record on the 1753 footnote about race. NOT OPENED: Hume's 'My Own Life' (the Wikisource page was not found) and his letters except as quoted by IEP and SEP, Mossner's biography, Waldmann's Further Letters, the Hume Texts Online editions, the rest of the Britannica article, the National Library of Scotland pages on the Advocates Library dispute (the pages now redirect, so the 1754 book-purchase episode is not used). SELF-REPORT SEPARATION: Hume's own words are used only as quoted by IEP and SEP; no row rests on self-report alone. EXCLUSIONS (hard rule): the 1729 breakdown, his health, death and illness (cancer 1775-76), his friendships and the quarrel with Rousseau, his views on race and the slave trade (documented controversy, context only, not scored), religion as doctrine, and his Tory or Whig politics are not scored. THIN EVIDENCE FLAG: no primary correspondence or full biography was opened, so confidence is capped at 0.66. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (74/0.56 lowered to 70/0.52: retrospective reference-work praise and Britannica's critical verdict mean the claim outruns the documented behaviour); independent_thinking (78/0.62, kept: three independent accounts plus his own quoted letter); cross_domain_range (80/0.66, kept: three independent sources document output in several fields). HANDBACK65: {\"slug\": \"david-hume\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Scottish National Gallery record (PG 1057) cited; page unread\", \"holder_record_checked_by_you\": \"Opened the National Galleries of Scotland record for the Ramsay 1766 painting (PG 1057, nationalgalleries.org/art-and-artists/2775) and the Art UK record: the painting is old but the holder offers the image only under a personal-use licence agreement (non-commercial, attribution and link-back required; Art UK says non-commercial research or private study) with photography credited to Antonia Reeve, which restricts reuse and conflicts with the Commons public-domain-art tag, so that route was rejected. For the replacement, the NYPL item page, JSON and legacy API were bot-walled (Incapsula challenge, HTTP 200 stub / 410), so holder verification was not possible; the Commons file page quoting the NYPL record (EM2982, Emmet Collection, source URL digitalcollections.nypl.org/items/510d47db-1823-a3d9-e040-e00a18064a99) was read instead.\", \"holder_contradiction_found\": true, \"initial_lead\": \"Allan Ramsay 1766 portrait (Scottish National Gallery)\", \"final_portrait_source\": \"New York Public Library, Emmet Collection item EM2982, lithograph 'David Hume Esqr.' by A. Maurin, printed by Villain, c. 1820; original 3528x4831 downscaled to 876x1200; https://digitalcollections.nypl.org/items/510d47db-1823-a3d9-e040-e00a18064a99 (via Commons file page)\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 12, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 74, \"old_confidence\": 0.56, \"new_score\": 70, \"new_confidence\": 0.52, \"reason\": \"Support is retrospective reference-work praise and Britannica judges the Treatise oversubtle and extravagant, so the trait claim is stronger than the documented behaviour\"}], \"reviewed_kept\": [\"independent_thinking\", \"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 12, \"image_inscription_check\": \"Printed lettering reads 'DAVID HUME ESQr.' under the portrait, 'A. Maurin' at lower left and 'Lith. de Villain' at lower right; library stamp 'EMMET COLL. MS DIV. NYPL' and number 2982 at upper right\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.66 to 76 / 0.6 because three reference sources only, all retrospective, and no source examines how the range was built. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 78 / 0.62 to 74 / 0.58 because two scholarly encyclopedias and a general encyclopedia narrate the break from orthodoxy with no independent assessment of process. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.62 to 68 / 0.56 because the continuing-despite-failure account leans on the Treatise legend and Adam Smith's admiring letter. RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 76 / 0.6 to 72 / 0.54 because a general encyclopedia and two reference works carry the claim, and Britannica itself judges the Treatise oversubtle."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/david-hume-maurin-1820.jpg",
+    "width": 876,
+    "height": 1200,
+    "source": "Lithographic portrait lettered 'DAVID HUME ESQr.' with 'A. Maurin' at lower left and 'Lith. de Villain' at lower right, an early nineteenth-century French print made well after Hume's death; held by the New York Public Library (Emmet Collection of Manuscripts Etc. Relating to American History, item EM2982). The scan was downscaled once from 3,528 x 4,831 pixels to 876 x 1,200 pixels; nothing was upscaled. Shown as a later print depiction, not as a documented sitting. Caveat: the New York Public Library item page was behind an anti-bot challenge, so the museum-side record could not be opened; the date 1820 is as transcribed on the Wikimedia Commons file page from the library record, and the basis rests on the age of the print (the lithographer Antoine Maurin and the printer both lived and worked in nineteenth-century France, so the print is far older than 1931 whatever its exact year).",
+    "license": "Public domain (early nineteenth-century lithograph; New York Public Library scan)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "A. Maurin (lithograph), printed by Villain, 'David Hume Esqr.', c. 1820, lithograph, New York Public Library, Emmet Collection of Manuscripts Etc. Relating to American History (EM2982), public domain",
+    "attributionUrl": "https://digitalcollections.nypl.org/items/510d47db-1823-a3d9-e040-e00a18064a99",
+    "creator": "A. Maurin (lithographer); printed by Villain",
+    "date": "c. 1820",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:David_Hume_Esqr_(NYPL_Hades-268543-EM2982).jpg"
+  }
+}

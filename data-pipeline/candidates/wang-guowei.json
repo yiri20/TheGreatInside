@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wang-guowei",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Wang Guowei",
+    "aliases": [
+      "Wang Kuo-wei",
+      "Wang Jing'an",
+      "Wang Jingan",
+      "王國維",
+      "王国维"
+    ],
+    "wikidataId": "Q707376",
+    "birthYear": 1877,
+    "deathYear": 1927,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "historian",
+      "poet"
+    ],
+    "fieldIds": [
+      "literature",
+      "linguistics"
+    ],
+    "impactDomains": [
+      "historical",
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "detail_oriented",
+      "theorist"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wang_wikidata",
+      "kind": "wikidata",
+      "title": "Wang Guowei (Q707376), verified live via the Wikidata API (2026-11-05): label 'Wang Guowei', description 'scholar, writer and poet from China (1877-1927)', born 1877, died 2 June 1927, Korean label 왕궈웨이. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q707376"
+    },
+    {
+      "id": "src_wang_tsinghua",
+      "kind": "institution",
+      "title": "Tsinghua University, 'Walking into the exhibition Du shang gao lou (Alone on the high tower) and getting close to the master Wang Guowei' (Tsinghua University Art Museum, 15 March 2018; page read in full, in Chinese). CANONICAL SIGNIFICANCE SOURCE: presents him as one of the most influential masters of twentieth-century Chinese scholarship, a tutor at the Tsinghua Research Institute of Chinese Studies from 1925 to 1927, who joined Western philosophy and aesthetics with Chinese tradition and then turned to drama and ci, ancient history, paleography, archaeology, Dunhuang studies and frontier studies, with more than sixty works and the self-edited collections Jingan wenji and Guantang jilin.",
+      "url": "https://www.tsinghua.edu.cn/info/1367/81646.htm"
+    },
+    {
+      "id": "src_wang_eb",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Wang Guowei' (entry read in full, about 600 words). Dated career facts: failed the 1893 provincial examination, joined Luo Zhenyu's Dongwen Learning Society in 1898, chief editor of Jiaoyu shijie in 1901, self-directed reading of Western philosophy and literature after returning from Japan, Hongloumeng pinglun (1904), Renjian cihua (1908, the 'theory of realm'), Song-Yuan xiqushi (finished January 1913), tutor at Tsinghua from 1925; its assessment of his influence on Chinese historiography and literary scholarship.",
+      "url": "https://www.britannica.com/biography/Wang-Guowei"
+    },
+    {
+      "id": "src_wang_wuqichang",
+      "kind": "archive",
+      "title": "Wu Qichang, 'Wang Guowei xiansheng shengping ji qi xueshuo' (Life and teachings of Mr Wang Guowei), a lecture published in Fengtu shizhi 1(1), September 1943, as transcribed on Chinese Wikisource (about 7,500 characters read in full, in Chinese). Account by a former Tsinghua student: three phases of work (philosophy, literary criticism and drama history; ancient history and inscriptions from about 1909; Mongol, Liao-Jin history and northwest geography from the mid-1920s), his study under Luo Zhenyu's patronage, the Tsinghua teaching and the courses he gave; admiring and retrospective. The political and death passages were read but not used.",
+      "url": "https://zh.wikisource.org/wiki/%E7%8E%8B%E5%9C%8B%E7%B6%AD%E5%85%88%E7%94%9F%E7%94%9F%E5%B9%B3%E5%8F%8A%E5%85%B6%E5%AD%B8%E8%AA%AA"
+    },
+    {
+      "id": "src_wang_liang",
+      "kind": "archive",
+      "title": "Liang Qichao, preface to the Wang Jing'an memorial number of Guoxue luncong (vol. 1, no. 3, April 1928; written winter 1927), as transcribed on Chinese Wikisource (about 1,000 characters read in full, in Chinese). Contemporary colleague at the Tsinghua Institute describing the scope of his work (oracle-bone readings, the history of Song-Yuan drama, Shuijing zhu collation, Mongol sources), his method and his habit of not writing down what he was not sure of; admiring in tone, and the passages on his death were not used.",
+      "url": "https://zh.wikisource.org/wiki/%E3%80%8A%E7%8E%8B%E9%9D%9C%E5%AE%89%E5%85%88%E7%94%9F%E7%B4%80%E5%BF%B5%E8%99%9F%E3%80%8B%E5%BA%8F"
+    },
+    {
+      "id": "src_wang_hushih",
+      "kind": "archive",
+      "title": "Hu Shih, 'Du Wang Guowei xiansheng de Qulu' (Reading Mr Wang Guowei's Qulu), Dushu zazhi no. 7, 4 March 1923, as transcribed on Chinese Wikisource (about 1,400 characters read in full, in Chinese). COUNTER-VOICE: a contemporary scholar's review of Wang's 1909 catalogue of Song-to-Qing drama (about three thousand titles) that lists misclassified works and omissions, notes how much new drama material had appeared in the fourteen years since publication, and asks Wang to revise it.",
+      "url": "https://zh.wikisource.org/wiki/%E8%AE%80%E7%8E%8B%E5%9C%8B%E7%B6%AD%E5%85%88%E7%94%9F%E7%9A%84%E3%80%8A%E6%9B%B2%E9%8C%84%E3%80%8B"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_wang_tsinghua, src_wang_wuqichang, src_wang_eb, src_wang_liang | 1904-1927 | university museum + student's lecture + encyclopedia + colleague's preface] Four sources document real output in several fields: literary criticism and aesthetics (Hongloumeng pinglun 1904, Renjian cihua 1908), the history of Song and Yuan drama (1913), ancient history, bronze and oracle-bone inscriptions, and later Mongol, Liao-Jin history and northwest geography with annotated editions (Wu; Tsinghua lists drama and ci, ancient history, paleography, archaeology, Dunhuang and frontier studies). Wu, the colleague and the museum are all admiring and retrospective, but the lists of works agree. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.62 to 76 / 0.58 because a university museum, an encyclopedia, a pupil's later lecture and a colleague's preface carry the breadth, all admiring."
+    },
+    "adaptability": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wang_wuqichang, src_wang_tsinghua, src_wang_liang | 1909-1925 | student's lecture + university museum + colleague's preface] Wu says that from about 1909 he put aside literature and Schopenhauer-based criticism to work on ancient history and inscriptions, and that in the mid-1920s he moved again to Mongol and Liao-Jin history and northwest geography; Liang says he later set aside the philosophy he loved in youth; Tsinghua lists the successive fields. The fact of the changes is documented across three sources, but the reasons rest on Wu's retrospective account, and Britannica shows the drama history was still completed in 1913. RUBRIC_CORRECTION (lead review, before eligibility): adaptability lowered from 74 / 0.56 to 70 / 0.5 because two admiring sources describe the shift of fields; the reasons are inferred."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wang_liang, src_wang_wuqichang, src_wang_hushih | 1923-1943 | colleague's preface + student's lecture + contemporary reviewer] Liang, a colleague, says he would not write down a conclusion he was not sure of and discarded anything earlier scholars had already said, and that he gathered nearly all available material on each question; Wu calls his method scientific and his conclusions accurate; Hu Shih's 1923 review of the Qulu finds misclassified items and omissions, so the rigour was real but not flawless. Two admiring accounts plus one critical review, so held at 70."
+    },
+    "detail_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wang_hushih, src_wang_wuqichang, src_wang_liang | 1909-1925 | contemporary reviewer + student's lecture + colleague's preface] The Qulu catalogue of Song-to-Qing drama that Hu Shih reviewed lists about three thousand titles in five chapters; Wu records his tables of bronze-inscription records (Song dynasty and Qing dynasty) and Liang his precise collation of the Shuijing zhu and annotated Mongol sources. Cataloguing and collation are documented work; Hu Shih's list of errors shows the care was not complete."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wang_eb, src_wang_wuqichang, src_wang_liang | 1898-1925 | encyclopedia + student's lecture + colleague's preface] Britannica says that after returning from Japan he read Western philosophy and literary works on his own; Liang says he was fond of philosophy from youth and read Kant, Schopenhauer and Nietzsche avidly; Wu says that at Luo Zhenyu's urging he studied English under Fujita Toyohachi and corresponded with him as a teacher to the end of his life, and later took up new fields. Inferred from self-directed study across fields, not from one episode."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wang_tsinghua, src_wang_eb, src_wang_wuqichang | 1904-1923 | university museum + encyclopedia + student's lecture] Tsinghua credits pioneering contributions in several fields and Britannica credits a complete theory of literature and art with the 'theory of realm' at its core, applying Western aesthetics to the study of Chinese literature; Wu calls him a founder of the scientific study of ancient history. The support is retrospective institutional and pupil praise, with no documented episode of how the ideas were formed, and Hu Shih's review shows an early work needing correction. SELF-CALIBRATION (agent): lowered from 74/0.52 because the claim rests on retrospective praise from a university museum, an encyclopedia and an admiring pupil, and no source shows the process of invention."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wang_tsinghua, src_wang_wuqichang | 1916-1927 | university museum + student's lecture] Tsinghua counts more than sixty works and the self-edited collections Jingan wenji and Guantang jilin; Wu calls 1916-1923 the most productive years, when a stable setting and a large private library let him concentrate on inscriptions and ancient history, and lists the three Tsinghua courses and a dozen annotated works of the later period. Documented volume and steady output; no source describes his daily working routine."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wang_eb, src_wang_wuqichang, src_wang_liang | 1904-1908 | encyclopedia + student's lecture + colleague's preface] Britannica credits the 'theory of realm', which holds that a successful poem integrates description of scenery and feeling, and Wu records that he wrote ci poetry (published as Zhuohua ci) as well as the Renjian cihua criticism; Liang says his poems and literary criticism show a rich emotional life. A sustained practice of both writing and judging poetry, from admiring but consistent accounts. RUBRIC_CORRECTION (lead review, before eligibility): aesthetic_sensitivity lowered from 76 / 0.55 to 72 / 0.5 because the support is an encyclopedia plus the pupil and the colleague, with no independent critic on the aesthetics."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wang_eb, src_wang_tsinghua | 1904-1913 | encyclopedia + university museum] Britannica says he put forward a complete theory of literature and art with the 'theory of realm' as its core, and Tsinghua says he joined Western philosophy and aesthetics with Chinese tradition into one aesthetic system; Wu says he planned to systematise ancient history by compiling inscription records first. The support is retrospective description of the theory, not an account of how he built it, so confidence is below 0.5."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "왕궈웨이"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / SUCCEEDED with the lead image, the plate captioned '王靜安先生最近小像' from the Wang Jing'an memorial number (Commons 王靜安先生最近小像.jpg), 357x493, used unchanged. The plate lettering identifies the sitter (Jing'an is his courtesy name) and matches the other published photographs. Rights basis is publication in China before 1929: Liang Qichao's preface for the Guoxue luncong memorial number is dated April 1928 on Wikisource, so the issue is a US public-domain publication; a photograph published in China in 1928 would have been out of Chinese protection long before 1996 under any plausible term, so no US restoration applies. The Commons PD-China and PD-1996 tags and the unknown photographer were not relied on alone. Unresolved caveats: the scan holder is unknown (Commons gives no URL or library record, so no holder record exists to contradict or confirm it), and the link between this plate and the April 1928 issue rests on Commons' attribution to the memorial number (an earlier 1927 memorial issue of another journal also existed per Chinese Wikipedia, which would only make the publication earlier). The 'before June 1927' date is Commons'; the other published photograph (壯年小像, before 1920) was not needed. Kind is likeness (photograph of the sitter). PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q707376 label 'Wang Guowei', description 'scholar, writer and poet from China (1877-1927)', born 1877, died 2 June 1927, Korean label 왕궈웨이 (Wikidata Korean label); no production (prod65.txt) or candidate slug/QID collision. REGION east_asia (China; precedents Lu Xun). ERA 20th_century (precedent Soseki, born 1867). ZERO POLITICS: his loyalty to the deposed Qing court, his 1923 appointment as a literary attendant to Puyi, the queue, the Xinhai flight to Japan and the 1927 suicide are explicitly unscored and none supports any row; the Tsinghua appointment is used only as scholarly work. VOCABULARY: occupations scholar, historian, poet; fields literature, linguistics; tags cross_disciplinary, detail_oriented, theorist; archetype scholarly_specialist (all present with EN and KO labels; linguistics stands for paleography and philology, the nearest labelled field). IMPACT DOMAINS historical, literary, cultural. ATTRIBUTION CONFIRMED: dated works, institute posts and contemporaries' accounts, so 'attributable' is confirmed. CANONICAL SIGNIFICANCE SOURCE: Tsinghua University Art Museum page on the 2018 exhibition 'Du shang gao lou' (https://www.tsinghua.edu.cn/info/1367/81646.htm), read in full, with Britannica. READ (substantively): Tsinghua page, Britannica entry, Wu Qichang's 1943 lecture (Wikisource, in Chinese), Liang Qichao's 1928 preface (Wikisource), Hu Shih's 1923 review of the Qulu (Wikisource), the Tsinghua News 2013 article on the memorial stele (read; used only for context, not cited). PERSPECTIVES: a university museum; an encyclopedia; a pupil's later lecture; a colleague's preface; a contemporary critical review. COUNTER-VOICES: Hu Shih on errors and omissions in the Qulu; the note in Wu's lecture that some of his works appeared under Luo Zhenyu's or a patron's name (context for authorship, not scored). NOT OPENED: Bonner's intellectual biography and Chen Yinke's and Wu Mi's writings, Wang's own prefaces and letters, the oracle-bone scholarship itself (a China Heritage essay was opened but says little about Wang), Chinese archival scans of the memorial issue, and Wikipedia and New World Encyclopedia which were consulted for orientation only (the latter is a Wikipedia derivative and was not counted). SELF-REPORT SEPARATION: none of the sources is self-report; Wang's own prose is not used. EXCLUSIONS (hard rule): his death and its causes, any health matters (the 1902 return from Japan), his private and family life, his loyalism and court post, politics generally, personality adjectives in Tsinghua's page and Wu's lecture (aloof, solitary, lonely) and the Luo Zhenyu patron relation's moral aspects are not scored. THIN EVIDENCE FLAG: the behavioural evidence is thin and consists of admiring or retrospective accounts (a pupil in 1943, a colleague in 1928) plus a brief encyclopedia and a museum page, with one critical review; so only nine rows, confidence capped at 0.62 and no score above 80. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (74/0.52 lowered to 70/0.48: retrospective praise from a museum, encyclopedia and admiring pupil, no documented process); cross_domain_range (80/0.62, kept: the highest score, but four sources list the same fields); adaptability (74/0.56, kept: three sources document the changes of field, although the motives rest on Wu). HANDBACK65: {\"slug\": \"wang-guowei\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: the Tsinghua memorial issue is a Commons-cited book only\", \"holder_record_checked_by_you\": \"unavailable: no holder or library scan record exists for the plate (the Commons file cites only the title of the memorial number, no URL); searches of Commons, Chinese Wikisource and the web found no library catalogue entry for the issue; what was read instead: the Commons wikitext (source '王静安先生纪念号', author the Tsinghua School Research Institute, date before June 1927, PD-China and PD-1996 tags, neither relied on) and the Chinese Wikisource transcription of Liang Qichao's preface, which carries the colophon 'Guoxue luncong vol. 1 no. 3, April 1928' for the memorial number\", \"holder_contradiction_found\": false, \"initial_lead\": \"photograph in the Wang Jing'an memorial issue (1927) of the Tsinghua Institute\", \"final_portrait_source\": \"Tsinghua School Research Institute, Wang Jing'an memorial number (Guoxue luncong 1(3), April 1928 per Wikisource colophon), plate 'Wang Jing'an xiansheng zuijin xiaoxiang', via Commons file 王靜安先生最近小像.jpg, 357x493 used unchanged\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 9, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 74, \"old_confidence\": 0.52, \"new_score\": 70, \"new_confidence\": 0.48, \"reason\": \"The claim rests on retrospective praise from a university museum, an encyclopedia and an admiring pupil, and no source shows how the ideas were formed\"}], \"reviewed_kept\": [\"cross_domain_range\", \"adaptability\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 9, \"image_inscription_check\": \"Printed caption below the plate reads '王靜安先生最近小像' (Mr Wang Jing'an, recent small portrait); Jing'an is Wang Guowei's courtesy name\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.62 to 76 / 0.58 because a university museum, an encyclopedia, a pupil's later lecture and a colleague's preface carry the breadth, all admiring. RUBRIC_CORRECTION (lead review, before eligibility): aesthetic_sensitivity lowered from 76 / 0.55 to 72 / 0.5 because the support is an encyclopedia plus the pupil and the colleague, with no independent critic on the aesthetics. RUBRIC_CORRECTION (lead review, before eligibility): adaptability lowered from 74 / 0.56 to 70 / 0.5 because two admiring sources describe the shift of fields; the reasons are inferred."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/wang-guowei-tsinghua-institute-1928.jpg",
+    "width": 357,
+    "height": 493,
+    "source": "Photographic portrait of Wang Guowei reproduced as a plate captioned 'Wang Jing'an xiansheng zuijin xiaoxiang' (Mr Wang Jing'an, recent small portrait; Jing'an is his courtesy name) in the Wang Jing'an memorial number published by the Tsinghua School Research Institute; Wikimedia Commons attributes the scan to that memorial issue and dates the photograph to before June 1927, and the issue of Guoxue luncong vol. 1 no. 3 that carries Liang Qichao's preface is dated April 1928 on Chinese Wikisource. The photographer is not named. The image is used at its original 357 x 493 pixels (a plate scan; nothing was resized or upscaled). Caveats: the holder of the scan is not identified (the Commons page gives no URL or library record), the exact issue year of the plate is taken from Commons' attribution to the memorial number, and the basis is publication in China in 1927-1928, well before 1931, not a Commons tag. Shown as a published photograph of the sitter, identified by the plate caption.",
+    "license": "Public domain (photograph published in China in 1927-1928)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photographer unknown, Wang Guowei, photograph reproduced in the Wang Jing'an memorial number, Tsinghua School Research Institute, 1927-28, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:%E7%8E%8B%E9%9D%9C%E5%AE%89%E5%85%88%E7%94%9F%E6%9C%80%E8%BF%91%E5%B0%8F%E5%83%8F.jpg",
+    "creator": "Unknown photographer; published by the Tsinghua School Research Institute",
+    "date": "before June 1927 (published 1927-28)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:%E7%8E%8B%E9%9D%9C%E5%AE%89%E5%85%88%E7%94%9F%E6%9C%80%E8%BF%91%E5%B0%8F%E5%83%8F.jpg"
+  }
+}

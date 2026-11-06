@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ho-xuan-huong",
+  "status": "held",
+  "holdReason": "Insufficient individually-attributable behavioural evidence (attribution not confirmed after reading). The historical individual is documented almost entirely through the poems themselves: every source read says that most biographical detail comes from the poems, that her parentage, marriage, concubinage and even birth and death years are disputed (proposed dates range from 1735 to 1869), and that some critics argue she never existed and that the verse was written by lesser poets or failed scholars. The main documentary anchor, the Luu Huong Ky manuscript found in 1964 with an 1814 foreword by Ton Phong Thi, is itself questioned for its style and transmission, and the famous double-entendre poems survive through oral tradition and woodblock editions from 1893 on, with estimates of her output ranging from 46 to 213 poems. No dated act, decision or attributable episode can be tied to a historical person, so any trait row would be inferred from a disputed corpus or from legend, which the pre-modern rules forbid. Identity and the significance research are kept; the profile is held at zero rows pending a lead decision, as with Laozi in Roster63.",
+  "identity": {
+    "canonicalName": "Hồ Xuân Hương",
+    "aliases": [
+      "Ho Xuan Huong",
+      "Hồ Xuân Hương",
+      "胡春香"
+    ],
+    "wikidataId": "Q465259",
+    "birthYear": 1772,
+    "deathYear": 1822,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "VN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hxh_wikidata",
+      "kind": "wikidata",
+      "title": "Hồ Xuân Hương (Q465259), verified live via the Wikidata API (2026-11-05): label 'Hồ Xuân Hương', description 'The World Cultural Celebrity of Viet Nam', born 1772 and died 1822 (year precision only), citizen of Vietnam, occupations poet and writer, Korean label 호쑤언흐엉. Orientation only; not used as support for any claim.",
+      "url": "https://www.wikidata.org/wiki/Q465259"
+    },
+    {
+      "id": "src_hxh_poets",
+      "kind": "institution",
+      "title": "Academy of American Poets (Poets.org), 'Hồ Xuân Hương' poet biography (page read in full, about 600 words). CANONICAL SIGNIFICANCE SOURCE: Vietnamese poet of the late Lê dynasty called the 'Queen of Nôm poetry', who wrote mainly in the Nôm script in the Tang-style regulated verse form with double entendres mixing erotic imagery and everyday objects, critiquing social hypocrisy and the treatment of women; says biographical details vary and come largely from the poems, that some scholars hold she may not have existed (a persona invented by a group of scholars), that her output is debated at 46 to 213 poems, that the earliest surviving hand-copied volume was commissioned in 1893, and names her main modern translators and scholars (Durand 1968, Balaban 2000).",
+      "url": "https://poets.org/poet/ho-xuan-huong"
+    },
+    {
+      "id": "src_hxh_dinh",
+      "kind": "press",
+      "title": "Thúy Đinh, 'Hồ Xuân Hương, Poet of Nimble Essence', American Poets magazine (Academy of American Poets), essay of 22 May 2026 (read in full). Personal and interpretive essay by a translator: cites the 1964 Lưu Hương Ký manuscript (24 Classical Chinese and 28 Nôm poems, foreword dated 1814 by Tốn Phong Thị) as the main documentary evidence, notes that many Vietnamese critics do not regard it as representative, that the famous poems survive through oral tradition and woodblock editions of 1893 to 1922, that proposed life dates range from 1735 to 1869, and that some critics argue she never existed. Critical and uncertainty voice on the evidence.",
+      "url": "https://poets.org/text/ho-xuan-huong-poet-nimble-essence"
+    },
+    {
+      "id": "src_hxh_nomfoundation",
+      "kind": "institution",
+      "title": "John Balaban, 'Hồ Xuân Hương Introduction', Vietnamese Nôm Preservation Foundation, Nôm Project (page read in full, about 1,500 words). Translator's introduction: little is firmly documented, most biographical detail comes from the poems, her family origins and status as a concubine are disputed, some readers doubt she existed and others think part of the corpus is by anonymous writers, estimates of her output range from about 25 to 148 poems; describes her Nôm regulated-verse poems with tonal-pun double meanings and the themes of male authority, marriage rules, concubinage, love and corrupt clergy. A translator and admirer, so reception evidence is admiring.",
+      "url": "https://nomfoundation.org/nom-project/Ho-Xuan-Huong?uiLang=en"
+    },
+    {
+      "id": "src_hxh_tricycle",
+      "kind": "press",
+      "title": "John Balaban, 'Ho Xuan Huong: Poetry', Tricycle: The Buddhist Review (only the free introduction was readable; the poems, commentary and fuller discussion are behind a paywall and were not opened). States that she was born around 1780, was a high-ranking concubine, wrote in Nôm using Chinese classical forms, satirised the decaying Buddhist church and Confucian male society, and that her poems were copied by hand for nearly a century before a 1909 woodblock printing. Partly read only.",
+      "url": "https://tricycle.org/article/ho-xuan-huong-poetry/"
+    }
+  ],
+  "rows": {},
+  "localization": {
+    "displayNames": {
+      "ko-KR": "호쑤언흐엉"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "HELD. Blocker: the only lead is a printed depiction credited on Wikimedia Commons to the book 'Giai nhan di mac' compiled by Nguyen Huu Tien (Dong Chau), Hanoi, 1916, whose Commons page cites only a transfer from the Chinese Wikipedia of an uploaded copy sourced to johnbalaban.com (an archived translator's website, not a holder); the PD-old-70 tag is uploader-asserted, the print's artist is unknown, a Vietnamese journal dates the book 1917 rather than 1916, no library, archive or museum record of the print or a scan of the original book could be found, and the image is an imagined depiction of a woman who lived more than a century before it was made, with no sitter inscription checked. Next step if the candidate is ever reopened: locate a scan of the 1916/1917 book in a library holding (for example a French or Vietnamese national library, or the Internet Archive) and read the plate's own caption and the holder's rights statement; a US public-domain basis would then rest on publication before 1931, with kind historical_depiction. The image was not downloaded because the candidate is held on evidence."
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / HELD: the lead image has uploader-only provenance, an uncertain publication year (1916 vs 1917), no holder record, and no alternative found in one bounded retry (Commons file page opened, web search for the book and plate). PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q465259 label 'Hồ Xuân Hương', description 'The World Cultural Celebrity of Viet Nam', born 1772 and died 1822 (year precision), citizenship Vietnam, occupations poet and writer, Korean label 호쑤언흐엉; no production (prod65.txt) or candidate slug/QID collision. REGION south_asia (precedent: Southeast Asians such as Raden Saleh, Rizal and Kartini sit in south_asia in this repository). ERA early_modern (born 1772, late Le dynasty; precedent Jane Austen). KOREAN NAME 호쑤언흐엉 is the Wikidata Korean label. ZERO POLITICS: nothing scored; social critique in the verse is a theme, not political behaviour. VOCABULARY: occupations poet, writer; field literature; impact domains literary, cultural; archetype creative_creator (all labelled in EN and KO). ATTRIBUTION NOT CONFIRMED (candidate held at zero rows): the lead's screen result was limited_but_usable; after reading, no source attributes a dated act or decision to the historical person independent of the disputed poems. READ (substantively): Poets.org biography (CANONICAL SIGNIFICANCE SOURCE), the Poets.org / American Poets essay by Thúy Đinh, John Balaban's Nôm Project introduction, the free part of Balaban's Tricycle piece; also opened and judged non-substantive: a Center for the Art of Translation author blurb (dates and 'Queen of Nôm poetry' only) and a 2023 poem on the Asian American Writers' Workshop site (explicitly imaginative biography, not used). Perspectives: institutional biography, a translator-scholar who admires her, an independent essayist who stresses the doubts; the doubt that she existed at all is reported in three of them. NOT OPENED: Britannica (HTTP 403), Poetry Foundation / Harriet (HTTP 403), Maurice Durand's 1968 study, Balaban's book Spring Essence, the Vietnamese-language scholarship (Nguyễn Huệ Chi, Hoàng Xuân Hãn, Đào Thái Tôn); the Tricycle paywalled remainder. A short list of achievement cards is drafted with explicit hedges so the profile can ship as a figure card if the lead decides so. HANDBACK65: {\"slug\":\"ho-xuan-huong\",\"attribution_screen_result\":\"limited_but_usable\",\"attribution_confirmed\":false,\"portrait_preflight_grade\":\"RISKY (alt-dependent)\",\"holder_record_at_preflight\":\"NOT VERIFIED: uploader-sourced 1916 Hanoi print via johnbalaban.com\",\"holder_record_checked_by_you\":\"No holder record exists or could be opened: the Commons file page (Ho_Xuan_Huong.png, 800x1099) cites only a transfer from zh.wikipedia whose source is the now-archived page johnbalaban.com/huong-portrait.html, with the printed-book attribution 'Nguyen Huu Tien, Giai nhan di mac, Hanoi, 1916' and an uploader-asserted PD-old-70 tag; a web search found no library, archive or museum record of the print, and a Vietnamese journal dates the book 1917, not 1916. Image not downloaded because the candidate is held on evidence.\",\"holder_contradiction_found\":false,\"initial_lead\":\"1916 Hanoi print portrait (Dong Chau Nguyen Huu Tien collection)\",\"final_portrait_source\":null,\"portrait_lead_or_replacement\":\"none\",\"portrait_final_status\":\"held\",\"preflight_overestimate_reason\":\"The lead already flagged uploader-only provenance; no holder, plate inscription or original-book scan could be found, the publication year is contested (1916 vs 1917), and the image is an imagined depiction of a woman who lived a century earlier; the moot question was overtaken by the evidence hold.\",\"risky_success_note\":null,\"rows_initially_scored\":0,\"self_calibrated_rows\":[],\"reviewed_kept\":[],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"held\",\"final_row_count\":0,\"image_inscription_check\":\"not applicable: image not downloaded (the Commons description names the book title in Chinese characters as 佳人遺墨 but no lettering on the image itself was inspected)\",\"image_identity_matches_claimed_sitter\":\"ambiguous\",\"inscription_contradiction_found\":false}"
+  }
+}

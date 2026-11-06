@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "richard-arkwright",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Richard Arkwright",
+    "aliases": [
+      "Sir Richard Arkwright"
+    ],
+    "wikidataId": "Q294153",
+    "birthYear": 1732,
+    "deathYear": 1792,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "inventor"
+    ],
+    "fieldIds": [
+      "business",
+      "technology"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "technological",
+      "wealth_creation"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_arkwright_wikidata",
+      "kind": "wikidata",
+      "title": "Richard Arkwright (Q294153), verified live via the Wikidata API (2026-11-05): English label 'Richard Arkwright', description 'textile entrepreneur; developer of the spinning frame (known as the water frame)', Korean label 리처드 아크라이트, died 3 August 1792, born 23 December 1732 (a second, imprecise 1732 value also present), citizenship Great Britain. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q294153"
+    },
+    {
+      "id": "src_arkwright_dvm",
+      "kind": "institution",
+      "title": "Derwent Valley Mills World Heritage Site, 'Statement of Outstanding Universal Value' (read in full). CANONICAL SIGNIFICANCE SOURCE: credits Arkwright with the new technology for spinning cotton, says the 'Arkwright System' was truly established after his water-powered mill at Cromford (1771, with a larger mill in 1776-77), calls the valley the birth of the factory system and the model for factories worldwide, and names Cromford among the first modern industrial settlements. World Heritage management statement; celebratory about the site and silent on disputes over his patents.",
+      "url": "https://www.derwentvalleymills.org/about-the-derwent-valley-mills/outstanding-universal-value/statement-of-outstanding-universal-value/"
+    },
+    {
+      "id": "src_arkwright_smg",
+      "kind": "institution",
+      "title": "Science Museum Group collection, people record 'Richard Arkwright 1732-1792' (biography read in full): English inventor and cotton manufacturer from Preston, a barber and wig-maker first; patents of 1769 (spinning machine) and 1775 (preparation and spinning machinery); judged 'more of an improver of other people's ideas than an inventor' whose greatest talent was business; patent disputes led to trials and the patents were retracted late in his life; one of the wealthiest men in England at death. Museum biography with an explicitly measured view of his originality.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/cp36992/richard-arkwright"
+    },
+    {
+      "id": "src_arkwright_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, 'Scientist of the Day: Richard Arkwright' (read in full): water frame patented 1769; Cromford factory of 1771; the page argues his true contribution was the factory system rather than the frame; most of what was original in his patents was the work of other men; patents overturned in court in 1781 and 1785 without much affecting his fortune; he pursued infringers vigorously in court; contemporary accounts describe him as difficult and arrogant; the factories' costs included women and children working 12-hour days. Library blog essay, mixed in tone.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/richard-arkwright"
+    },
+    {
+      "id": "src_arkwright_graces",
+      "kind": "archive",
+      "title": "Grace's Guide to British Industrial History, page 'Richard Arkwright' (read in full): 1767 work with the Warrington clockmaker John Kay; partnerships in Nottingham (1768) and with Strutt and Need (1770); the 1769 and 1775 patents; Cromford (1771) with cottages built and workers recruited from outside the district; licensing and enforcing patents from 1778; mills at Birkacre (ill-fated), Bakewell, Wirksworth and elsewhere and failures at Alport and in Manchester; the Crown action of 1785 at which Thomas Highs testified that Arkwright had taken others' ideas and the patents were revoked; Masson Mill bought alone in 1780; partnership with Strutt and Need ended in 1782; knighted 1786. Says there is 'strong evidence' that Highs, not Arkwright, invented the frame. Archive compilation; the whistling saying is attributed to him without a source.",
+      "url": "https://www.gracesguide.co.uk/Richard_Arkwright"
+    },
+    {
+      "id": "src_arkwright_dnb",
+      "kind": "biography",
+      "title": "Dictionary of National Biography (1885), entry 'Arkwright, Richard (1732-1792)' by T. F. Henderson (Wikisource text, read in full; the 1904 errata revise some statements): models made with Kay in 1767, patent of 3 July 1769, Nottingham mill, Cromford with Need and Strutt from 1771, the 1775 combined-machine patent, licences sold to spinners, an estimated 5,000 employees and 200,000 pounds of capital by 1782, the sacking of his Chorley mill in 1779, nine infringement suits in 1781 (the first lost on an insufficient specification), a 1782 'Case' to Parliament that went nowhere, the jury verdict against him on 25 June 1785 and cancellation of the patents on 14 November, credit to him for the factory system's routine, cleanliness and discipline, a Boulton and Watt engine installed at Nottingham in 1790, knighted 1786. Judges the specification deliberately obscure and Kay's and Highs's testimony inconsistent while noting the rivals' claims were not wholly disproven. Victorian standard biography; includes Carlyle's remark on the portrait.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Arkwright,_Richard_(1732-1792)"
+    },
+    {
+      "id": "src_arkwright_revplayers",
+      "kind": "institution",
+      "title": "Revolutionary Players (Lunar Society heritage project), 'Sir Richard Arkwright, industrialist' (read in full): poor Preston origins; hired Kay and other craftsmen; Cromford partly financed by Strutt and Need; workforce including children recruited from across Derbyshire; quotes James Watt calling him 'one of the most self sufficient Ignorant men I have ever met with' and Matthew Boulton calling him 'A Tyrant and more absolute than a Bashaw'; Erasmus Darwin's praise of the roller spinning process; reads Wright's portrait as showing self-satisfaction. Independent contemporary-rival voices (Watt and Boulton were competitors in their own line); the portrait reading is the author's interpretation and is not used for any row.",
+      "url": "https://www.revolutionaryplayers.org.uk/sir-richard-arkwright-industrialist/"
+    },
+    {
+      "id": "src_arkwright_belper",
+      "kind": "archive",
+      "title": "Belper Research, 'Richard Arkwright' (local-history biography read in full): argues he was a sharp-witted businessman rather than an inventive genius; Kay's dispute with him ended their partnership after the 1769 patent; Cromford workforce housed in new cottages with a school, chapel and inn; 6 a.m. to 7 p.m. hours and a majority of child workers at Lumford in 1786-88 (given as two-thirds of 1,900); armed guards and a cannon at Cromford in the 1779 unrest; Strutt left the partnership after Need's death (1781) worried about expansion and the patent disputes; accuses him of using Kay's, Highs's and Hargreaves's work without credit; notes factories (silk mills) existed before Cromford. Local-history site with a clear critical point of view and some internal inconsistencies; dates are cross-checked against the other sources before use.",
+      "url": "https://belper-research.com/people/arkwright/arkwright.html"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_arkwright_smg, src_arkwright_dnb, src_arkwright_graces, src_arkwright_belper | 1767-1790 | institutional biography, standard biography, archive, local-history site] The Science Museum judges his greatest talent to be business skill and him more an improver of others' ideas; the DNB records the 1767 models made with Kay, the 1769 patent, the move to water power at Cromford in 1771, licences sold to spinners across the north and midlands, and a Boulton and Watt engine installed at Nottingham in 1790; Grace's Guide records a first steam-powered Manchester mill in 1781 that was not immediately successful. The sources agree on a pattern of taking technical ideas to commercial scale; the 'sharp-witted businessman' wording is a local-history site's judgement."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_arkwright_dnb, src_arkwright_lindahall, src_arkwright_dvm, src_arkwright_belper | 1769-1782 | standard biography, library essay, World Heritage statement, local-history site] The DNB credits him with originating the factory system of strict routine, cleanliness, discipline and training workers to keep pace with machines and notes his 1775 patent for a combined machine that carded, drew, roved and spun; Linda Hall argues his true invention was the factory system; the World Heritage statement speaks of the 'Arkwright System'. The Belper page counters that earlier factories existed, and the machines' originality is disputed, so the attribution is partly retrospective. SELF-CALIBRATION (agent): top-risk row; lowered from 72 / 0.58 to 68 / 0.52 because the 'factory system' credit is a retrospective heritage and library characterisation that a local-history source contests."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_arkwright_graces, src_arkwright_belper, src_arkwright_revplayers | 1771-1780s | archive, local-history site, heritage project] Cromford could not supply enough workers, so he built terraced cottages and an inn, recruited from outside the district and encouraged weavers with large families to move (Grace's Guide); the Belper page adds a school and chapel and a remodelled village; the Revolutionary Players page says he recruited across Derbyshire. Two independent local-history sources agree on the housing and recruitment; the Grace's holiday-conditions detail rests on one page."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_arkwright_dnb, src_arkwright_graces, src_arkwright_belper | 1779-1786 | standard biography, archive, local-history site] After his Chorley mill was sacked in 1779 and his first infringement suit failed in 1781, he sued further manufacturers, issued a 'Case' to Parliament in 1782, fought the 1785 trial and kept building mills (Masson Mill from 1780, a steam mill in Manchester in 1781 that was not immediately successful, Alport and Birkacre failures noted by Grace's Guide). The patents were cancelled in 1785 yet his business continued."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_arkwright_dnb, src_arkwright_lindahall, src_arkwright_graces, src_arkwright_revplayers, src_arkwright_belper | 1769-1785 | standard biography, library essay, archive, heritage project, local-history site] The DNB records nine infringement suits in 1781 and the long 1785 contest; Linda Hall says he pursued infringement vigorously and contemporaries found him difficult and arrogant; Watt and Boulton, writing as contemporaries, called him self-sufficient and a tyrant (Revolutionary Players); Grace's Guide and the Belper page record Kay's and Highs's accusations that he took their ideas, which the DNB notes were not wholly disproven. The willingness to litigate and to be disliked is well documented; whether the accusations are true is not scored."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_arkwright_graces, src_arkwright_dnb, src_arkwright_revplayers | 1780-1782 | archive, standard biography, heritage project] He bought land on the Derwent alone in 1780 to build Masson Mill and ended the Need and Strutt partnership in 1782 keeping Cromford (Grace's Guide, DNB), and Boulton called him a tyrant 'more absolute than a Bashaw'. The accounts of why the partnership ended differ (Belper says Strutt left over expansion and the patent disputes), so this is a low-confidence inference from outcomes."
+    },
+    "creative_originality": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_arkwright_smg, src_arkwright_lindahall, src_arkwright_graces, src_arkwright_dnb | 1767-1785 | institutional biography, library essay, archive, standard biography] The Science Museum calls him more an improver than an inventor, Linda Hall says most of what was original in his patents was other men's work and Grace's Guide cites strong evidence that Highs invented the frame, while the DNB credits him with the roller-spinning principle and says the rivals' claims were not wholly disproven. Authorship is contested, so the score sits near the middle with low confidence. SELF-CALIBRATION (agent): reviewed; confidence lowered from 0.45 to 0.40 (score unchanged) because the credit for the central machines is contested between sources."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "리처드 아크라이트"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/richard-arkwright-smith-1801.jpg",
+    "width": 965,
+    "height": 1200,
+    "source": "Mezzotint 'Portrait of Richard Arkwright' by John Raphael Smith, published 5 May 1801 after the 1790 portrait painting by Joseph Wright of Derby, held by the Yale Center for British Art (Paul Mellon Collection, accession B1978.43.1115), whose item record gives Copyright Status 'Public Domain'. The print's own lettering reads 'Painted by Joseph Wright, R.A. 1790', 'Engraved by J. R. Smith, Mezzotinto Engraver to H.R.H. the Prince of Wales, May 5, 1801' and 'Sr Richard Arkwright'. The file is a head-and-knees crop of the museum's 4765 x 6828 pixel image (crop 3328 x 4139) downscaled to 965 x 1200 with no upscaling; the lettered margin is outside the crop.",
+    "license": "Public domain: the Yale Center for British Art item record states Copyright Status 'Public Domain' for this print; the engraver died in 1812 and the painter in 1797, and the print was published in London in 1801 (public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "John Raphael Smith (engraver) after Joseph Wright of Derby, 'Sr Richard Arkwright', mezzotint, 1801. Yale Center for British Art, Paul Mellon Collection, B1978.43.1115 (Public Domain). Cropped and downscaled.",
+    "attributionUrl": "https://collections.britishart.yale.edu/catalog/tms:41680",
+    "creator": "John Raphael Smith (engraver), after Joseph Wright of Derby",
+    "date": "1801 (after a painting of 1790)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://collections.britishart.yale.edu/catalog/tms:41680"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / CONFIRMED, lead image used: the lead's holder record was unread because the YCBA page returned 403 to a bot-style user agent; with a browser-style user agent the page and the IIIF manifest opened (HTTP 200) and give Copyright Status Public Domain for B1978.43.1115. The lettered print names 'Sr Richard Arkwright' and credits Wright's 1790 painting, so identity matches. KIND historical_depiction: a print published 9 years after the sitter's death after a painting, not a photograph or sitting. The Wright painting at Derby and the Baines plate were not needed. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q294153 label 'Richard Arkwright', description 'textile entrepreneur; developer of the spinning frame (known as the water frame)', ko label 리처드 아크라이트, died 3 August 1792; not in prod65.txt; no candidate file existed for richard-arkwright. REGION western_europe (British precedents). ERA early_modern (Boulton, Watt and Wedgwood precedents). ZERO POLITICS: primary identity cotton-spinning entrepreneur; the 1786 knighthood (an address on an assassination attempt) and the 1787 shrievalty are not scored; the 1782 'Case' to Parliament is scored only as part of his patent dispute, not as politics. VOCABULARY: occupations entrepreneur and inventor, fields business and technology, tags founder and organizer, archetype entrepreneurial_builder, all labelled in en.ts and ko.ts. KO NAME: Wikidata Korean label 리처드 아크라이트. ATTRIBUTION: attributable (patent trials, a standard biography and surviving mills). CANONICAL SIGNIFICANCE SOURCE: Derwent Valley Mills World Heritage Site Statement of Outstanding Universal Value (https://www.derwentvalleymills.org/about-the-derwent-valley-mills/outstanding-universal-value/statement-of-outstanding-universal-value/). READ (7 sources besides Wikidata): Derwent Valley Mills statement; Science Museum Group biography; Linda Hall Library essay; Grace's Guide; DNB 1885 entry; Revolutionary Players page; Belper Research page. PERSPECTIVES: (1) heritage and museum institutions (Derwent Valley Mills, Science Museum, Linda Hall); (2) Victorian standard biography with a legal narrative (DNB); (3) archive compilation (Grace's Guide); (4) contemporary rival businessmen's views quoted by a heritage project (Watt and Boulton); (5) a critical local-history biography (Belper Research) that disputes originality and records labour conditions. NON-SELF BEHAVIOURAL SOURCES: DNB, Grace's Guide, Linda Hall, Belper Research, Revolutionary Players. No self-report used (no autobiography exists). COUNTER-VOICES: Watt and Boulton quotations and the Belper page; Linda Hall on difficult character. CONTRADICTIONS: 1781 and 1785 patent cancellation dates (Linda Hall says both; DNB says the 1781 suit was lost and patents cancelled in November 1785); the Belper page dates Cromford to 1771-72 and mentions an obituary dating the first water mill to Cressbrook, internally inconsistent; the Grace's Guide partnership end (1782, after Need's death) vs the Belper page (Strutt left worried about expansion); birth date 23 December 1732 vs 3 January 1732 (Linda Hall); the Grace's 'strong evidence' for Highs vs the DNB's view that the rivals' claims were not wholly disproven; the 23-hour day claim (Revolutionary Players) vs 6 a.m. to 7 p.m. (Belper) is unreconciled and not used. NOT OPENED: Oxford DNB (paywalled), Fitton 'The Arkwrights: Spinners of Fortune' and Chapman 'The Strutts and the Arkwrights' (books), ERIH (403), UNESCO WHC page (403), the Wikipedia article (not used), the Baines 1835 plate. EXCLUSIONS: private and family life, the 1786 knighthood context, Carlyle's remark on appearance and the portrait-based character readings (not scored), the witchcraft rumour, the whistling-fine saying (unsourced), the 1779 riots beyond the mill's sacking. Child-labour conditions are context and card detail, not scored as personality. SELF-CALIBRATION (agent): top-risk rows reviewed: systems_abstraction (72/0.58 lowered to 68/0.52: retrospective factory-system credit, contested by a local-history source), creative_originality (score 55 kept, confidence 0.45 lowered to 0.40: authorship contested), conflict_tolerance (kept at 70/0.58: five sources including contemporaries agree on litigiousness and abrasiveness). Broad flag for the lead: none; seven rows, scores 55-72, confidence 0.40-0.58. HANDBACK65: {\"slug\": \"richard-arkwright\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Yale Center for British Art page walled (403); Baines 1835 plate is a documented publication\", \"holder_record_checked_by_you\": \"Opened the YCBA item page collections.britishart.yale.edu/catalog/tms:41680 (HTTP 200 with a browser-style user agent; the lead's 403 was a user-agent block) and the IIIF manifest manifests.collections.yale.edu/ycba/obj/41680: Copyright Statement / Copyright Status 'Public Domain'; creator John Raphael Smith (1751-1812) after Joseph Wright of Derby (1734-1797); dated 1801; lettering recorded as 'Painted by JOSEPH WRIGHT, R.A. 1790.', 'Engraved by J.R.SMITH, Mezzotinto Engraver to H.R.H. the Prince of Wales, May 5, 1801.' and 'Sr Richard Arkwright'. The only generic caveat is the standard rights note that the CC0 applies to the record metadata and that restrictions may apply to images of cultural works, which item-level date and creators resolve (published 1801, makers dead by 1812).\", \"holder_contradiction_found\": false, \"initial_lead\": \"John Raphael Smith 1801 mezzotint (Yale Center for British Art, CC0 on Commons)\", \"final_portrait_source\": \"Yale Center for British Art, Paul Mellon Collection, B1978.43.1115, John Raphael Smith mezzotint after Joseph Wright of Derby, 1801 (https://collections.britishart.yale.edu/catalog/tms:41680); head-and-knees crop of the 4765x6828 IIIF image downscaled to 965x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"systems_abstraction\", \"old_score\": 72, \"old_confidence\": 0.58, \"new_score\": 68, \"new_confidence\": 0.52, \"reason\": \"The factory-system credit is a retrospective heritage and library characterisation that a local-history source contests\"}, {\"attribute\": \"creative_originality\", \"old_score\": 55, \"old_confidence\": 0.45, \"new_score\": 55, \"new_confidence\": 0.4, \"reason\": \"Credit for the central machines is contested between sources\"}], \"reviewed_kept\": [\"conflict_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7, \"image_inscription_check\": \"Printed lettering visible on the print: 'Painted by JOSEPH WRIGHT, R.A. 1790.' (lower left), 'Engraved by I.R.SMITH, Mezzotinto Engraver to H.R.H. the Prince of Wales, May 5, 1801.' (lower right), 'Sr Richard Arkwright' (lower centre, script); the sitter sits beside a table with a spinning-frame model\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}
