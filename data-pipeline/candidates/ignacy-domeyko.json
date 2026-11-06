@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ignacy-domeyko",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ignacy Domeyko",
+    "aliases": [
+      "Ignacio Domeyko",
+      "Ignacio Domeyko Ancuta",
+      "Ihnat Damiejka",
+      "Ignac Domejko"
+    ],
+    "wikidataId": "Q458245",
+    "birthYear": 1802,
+    "deathYear": 1889,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "PL",
+      "CL"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "teacher",
+      "chemist"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "education",
+      "exploration"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "industrial"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "mentor",
+      "administrator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_domeyko_wikidata",
+      "kind": "wikidata",
+      "title": "Ignacy Domeyko (Q458245), verified live via the Wikidata API (2026-11-05): English label 'Ignacy Domeyko', description 'Polish-Chilean geologist and educator (1802-1889)', Korean label 이그나시 도메이코, born 1802 (31 July and 3 July both recorded), died 23 January 1889, citizenship Poland and Chile. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q458245"
+    },
+    {
+      "id": "src_domeyko_memoria_bio",
+      "kind": "institution",
+      "title": "Memoria Chilena (National Library of Chile), 'Ignacio Domeyko Ancuta (1802-1889)', read in full (Spanish). CANONICAL SIGNIFICANCE SOURCE: summarises his life (Vilnius studies, exile, Paris School of Mines graduation in 1837, hired in 1838 as professor of chemistry and mineralogy at the Colegio de Coquimbo), his laboratory, his expeditions (Coquimbo, Atacama, the Cachapoal in 1841-42 where he recognised the copper wealth of El Teniente, Araucania in 1845), the three lines of his contribution to Chilean mining, his role at the Instituto Nacional and the University of Chile (university delegate from 1852, rector 1867-1883, transformation of the physical and mathematical faculty into an engineering school), his works and honours. A celebratory institutional page with no criticism and some internally inconsistent dates (for example 1841 or 1842 for the Cachapoal trip).",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-646.html"
+    },
+    {
+      "id": "src_domeyko_memoria_geo",
+      "kind": "institution",
+      "title": "Memoria Chilena, 'Conocimiento geologico y mineralogico' (Domeyko minisite), read in full (Spanish): his arrival in La Serena in 1838, the laboratory equipped from college funds, government-commissioned trips to Huasco, Copiapo, Chanarcillo and the Atacama cordillera, his 1843 article on the Copiapo cordillera (in which he left Chanarcillo for a later paper), the Tratado de ensayes (1844), Elementos de Mineralogia (1845), the Ensaye sobre los depositos metaliferos de Chile, articles in the Annales des Mines from 1840, and collections sent to French naturalists. It gives no meteorite or new-mineral detail.",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-93297.html"
+    },
+    {
+      "id": "src_domeyko_memoria_teach",
+      "kind": "institution",
+      "title": "Memoria Chilena, 'Labor docente de Ignacio Domeyko' (Domeyko minisite), read in full (Spanish): six years at the Colegio de Coquimbo (laboratory, library, student collection, graduates sent to Europe), his 1842 memoir proposing the reform of public instruction on the German model, his move to Santiago on the invitation of Manuel Montt, his teaching-university position set against the view of Andres Bello and Antonio Varas, his role as university delegate (about 1852-1867), the university library he built through European contacts, and the rectorship with technical schools and the 1872 report. It cites Herve and Charrier (2016) for some points, so it is not independent of that article on those points.",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-93299.html"
+    },
+    {
+      "id": "src_domeyko_uchile",
+      "kind": "institution",
+      "title": "Universidad de Chile, 'Ignacio Domeyko Ancuta (1867-1883)' in its page on the university's rectors, read (Spanish): his election as rector in 1867, re-election in 1882, resignation accepted on 30 May 1883, a lifetime pension, the 1879 reform and its practical, professional orientation, and a list of fields he worked in. A page by the university about its own rector, consistently positive.",
+      "url": "https://uchile.cl/presentacion/historia/rectores-de-la-u-de-chile/ignacio-domeyko-ancuta-1867-1883"
+    },
+    {
+      "id": "src_domeyko_herve",
+      "kind": "biography",
+      "title": "Francisco Herve and Reynaldo Charrier, 'Legado de Ignacio Domeyko (1802-1889) a la geologia y a la institucionalidad cientifica de Chile', Revista del Museo de La Plata, 2016, volume 1 special number, pages 138-148 (Spanish), downloaded as a PDF and read in full: a history-of-geology paper by two Chilean geologists (part-based on the family biography by Domeyko Lea Plaza and on the 64 papers Domeyko published in the Anales de la Universidad de Chile) covering his laboratory (32 crates shipped from France), summer transects of 1840-1845, geological mapping of underground mines, graduates sent to the Paris School of Mines, the El Teniente observation of 1842, his public dispute with Antonio Varas over the role of the university, his work as rector, his thermal-water studies, his impatience with slow European analysis of samples, his view that the Mapuche could be integrated under Catholic influence, and the honours named after him. The authors are geologists writing in tribute.",
+      "url": "https://publicaciones.fcnym.unlp.edu.ar/rmlp/article/view/145"
+    },
+    {
+      "id": "src_domeyko_culture",
+      "kind": "press",
+      "title": "Patryk Zakrzewski, 'Ignacy Domeyko: The Philomath of Chile', Culture.pl (Adam Mickiewicz Institute, Poland's cultural institute), read in full (English): a popular narrative of his Vilnius years, imprisonment, exile, study in Paris, the journey to Chile, the La Serena school, expeditions and the minerals named for him. Popular and admiring, with rounded claims ('essentially creates the whole Chilean higher education system', 'more than 7,000 kilometres' travelled, saltpetre claim) that no other source read confirms, so those claims are not used.",
+      "url": "https://culture.pl/en/article/ignacy-domeyko-the-philomath-of-chile"
+    },
+    {
+      "id": "src_domeyko_sagredo",
+      "kind": "press",
+      "title": "Rafael Sagredo Baeza, historian, 'Un viaje a la libertad en la Araucania', CIPER Academico (22 August 2020), read in full (Spanish): an interpretive column on Domeyko's January 1845 journey through Araucania to Osorno and his books on it, reading the empathy toward the Mapuche as shaped by his exile and homesickness for Poland, and noting that he found Mapuche oratory an 'artificial melopea'. It is selective in its focus on empathy; a reader comment mentions that his work also guided policy on occupying the region, which the column itself does not discuss.",
+      "url": "https://ciperchile.cl/2020/08/22/un-viaje-a-la-libertad-en-la-araucania/"
+    },
+    {
+      "id": "src_domeyko_sokolowski",
+      "kind": "archive",
+      "title": "August Sokolowski, Dzieje porozbiorowe narodu polskiego ilustrowane, volume 3 (Warsaw: Wiek, 1904), Radom Digital Library edition 44083 (record 'Domena Publiczna (public domain)', source: Kazimierz Pulaski Museum in Warka), Internet Archive copy: printed plate captioned 'Ignacy Domeyko'. Opened for the portrait only; the book text was not read.",
+      "url": "https://archive.org/details/bc.radom.pl.16-380-03"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_domeyko_herve, src_domeyko_memoria_bio, src_domeyko_memoria_geo, src_domeyko_uchile | 1838-1883 | scholarly tribute paper, national-library page, university page] Hervé and Charrier report that he used every summer from 1840 to 1845, when students were on holiday, for long geological transects of the Andes and the Atacama, that he kept making field trips (including to watch volcanic eruptions, at times at risk) while rector, and that he published 64 papers in the Anales de la Universidad de Chile; Memoria Chilena dates the Cachapoal, Copiapo, Limari and Araucania expeditions to 1841-1845; the university page has him re-elected rector in 1882 and resigning in 1883. The documented pattern is decades of repeated fieldwork, teaching and administration in parallel. The 7,000 km figure in the popular article is not used. Limit: the sources are tribute pages, and Hervé and Charrier's own account leans on the family biography. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 74 / 0.62 to 70 / 0.56 because a scholarly tribute, the national library and the university's own pages are institutional and admiring."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_domeyko_herve, src_domeyko_memoria_geo, src_domeyko_memoria_bio, src_domeyko_sagredo, src_domeyko_uchile | 1838-1872 | scholarly tribute paper, national-library pages, historian, university page] His interests ran from assaying and mineral identification to the Andean stratigraphy, thermal and mineral waters (Hervé), a book on Araucania and its inhabitants from the 1845 journey (Memoria Chilena; Sagredo says he read and quoted Ercilla's La Araucana along the way), and a review of foreign works on Chile's geography and history (Memoria Chilena); the university page lists work in geography, physics, paleontology and anthropology. The range is documented; the inference to curiosity as a trait is the scorer's. SELF-CALIBRATION (agent): lowered from 72/0.58 to 68/0.52 because the breadth claim rests largely on the university's own commendatory list of fields and a tribute paper rather than on independent documentation of each field."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_domeyko_herve, src_domeyko_memoria_teach, src_domeyko_memoria_bio | 1838-1852 | scholarly tribute paper, national-library pages] On arrival in 1838 he had a complete chemical laboratory brought from France (32 crates) and built a building for it, then began systematic teaching late that year (Hervé); in 1842 he wrote a memoir proposing the reform of public instruction on the German model (Memoria Chilena); from the fourth year at Coquimbo he started sending graduates to the Paris School of Mines, which Hervé says secured the school's continuity; and as university delegate he built the university library by writing to European colleagues, with about a hundred previously banned or unknown books arriving (Memoria Chilena). These are self-started projects documented by two independent writers, though both are tributes."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_domeyko_uchile, src_domeyko_memoria_bio, src_domeyko_herve, src_domeyko_memoria_teach | 1852-1883 | university page, national-library pages, scholarly tribute paper] He served as university delegate from 1852, then rector from 1867 to 1883 through repeated re-election, steering the faculty of physical and mathematical sciences into an engineering school aimed at the mining industry (Hervé; Memoria Chilena), and building a national teaching staff, specialised libraries and technical schools (Memoria Chilena summary of his 1872 report). Hervé says his view of the university as a teaching institution prevailed and that five faculties were constituted. The institutional record of the offices held is solid; what he personally drove versus what the ministry and Council did is described only by admiring sources, hence the inference grade. RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 70 / 0.58 to 66 / 0.52 because the rector evidence is the university's own page and the same national-library biography."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_domeyko_herve, src_domeyko_memoria_geo | 1840-1857 | scholarly tribute paper, national-library page] Hervé and Charrier describe his 1844 Tratado de ensayos (assay methods by dry and wet routes, with the blowpipe), his introduction of geological mapping into underground mines, his three-part classification of Andean terrains shown on maps of the Elqui valley, and his 1842 description of El Teniente as a crisscrossing vein 'monton' compared explicitly with Andacollo, which they identify as what is now called a stockwork. Memoria Chilena notes he left the Chanarcillo silver deposit out of his 1843 article intending a separate treatment of it. Limit: the interpretation of the El Teniente passage is the geologists' retrospective reading, and no critical scientific assessment of his methods was found."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_domeyko_herve, src_domeyko_memoria_teach | 1847-1866 | scholarly tribute paper, national-library page] Hervé calls one of his best-known public disputes the one with Antonio Varas, a former minister of education, over whether the University of Chile should itself teach at the higher level or only set rules while the Instituto Nacional taught, and says Domeyko's view finally prevailed; Memoria Chilena says Andres Bello and Varas held a different, regulatory view of the university. The behaviour is a sustained public disagreement with senior figures while remaining a friend of the sponsoring minister Montt; it is documented in only two sources (one of which relies on the other), so the trait inference is held low."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_domeyko_herve, src_domeyko_memoria_bio, src_domeyko_memoria_teach, src_domeyko_sagredo | 1840-1883 | scholarly tribute paper, national-library pages, historian] He tied teaching to mining practice (mapping underground mines, assay laboratory), warned of deforestation from wood-fired copper smelting and argued for coal instead (Hervé; Memoria Chilena, which cites Hervé and Charrier on this), studied thermal waters for medicinal use (Hervé), and as rector built engineering training for the mining industry. Memoria Chilena also says his Araucania descriptions were used as a basis for occupation and colonisation, and Hervé says he thought Mapuche integration possible under Catholic influence, so the applied aim included a state-development agenda that critics read differently from admirers (Sagredo reads empathy; others read assimilation); the row scores applied, development-oriented work and not the later effects on the Mapuche."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ignacy-domeyko-kurowski-1832.jpg",
+    "width": 911,
+    "height": 1200,
+    "source": "Printed plate captioned 'Ignacy Domeyko' in August Sokolowski, Dzieje porozbiorowe narodu polskiego ilustrowane, volume 3 (Warsaw: Wiek, 1904), page 94, reproducing a watercolour portrait signed 'Kurowski' that the caption says was made in Paris in 1832 by I. Kurowski and kept in the Domeyko family collection at Zyburtowszczyzna. Digitised by the Radom Digital Library (edition 44083, source Kazimierz Pulaski Museum in Warka) and mirrored on the Internet Archive (page image n107, 2628 x 3699 pixels); the file is the framed portrait cropped from that page and downscaled to 911 x 1200 pixels (no upscaling), black-and-white halftone.",
+    "license": "Public domain (Radom Digital Library edition record 'Domena Publiczna (public domain)'; a Warsaw publication of 1904 reproducing a watercolour of 1832, so public domain in the US as published before 1931)",
+    "licenseUrl": "https://creativecommons.org/publicdomainmark/1.0/",
+    "attribution": "Watercolour portrait by I. Kurowski (Paris, 1832, per the plate caption); plate in August Sokolowski, Dzieje porozbiorowe narodu polskiego ilustrowane, vol. 3, Warsaw: Wiek, 1904, p. 94; digitised by the Radom Digital Library (Kazimierz Pulaski Museum in Warka copy) and the Internet Archive",
+    "attributionUrl": "https://bc.radom.pl/dlibra/publication/45453/edition/44083/content",
+    "creator": "I. Kurowski (watercolour, per plate caption and signature)",
+    "date": "1832 (watercolour); reproduced 1904",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://archive.org/details/bc.radom.pl.16-380-03"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이그나시 도메이코"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / FOUND WITH THE LEAD IMAGE (the Sokolowski 1904 plate) AFTER CORRECTING THE VOLUME. The lead's Commons file ('Ihnat Damiejka (1904).jpg', author unknown, PD-old-70) cites volume 2 page 94; I opened the Internet Archive copy of volume 2 (Radom Digital Library, bc.radom.pl.16-380-02) and its page 94 is a portrait of Jozef Goluchowski, so the Commons volume statement is wrong; the plate captioned 'IGNACY DOMEYKO' is in volume 3 (bc.radom.pl.16-380-03, page 94, leaf n107; the volume's list of illustrations also gives Domeyko at page 94). IMAGE INSCRIPTION CHECK: caption 'IGNACY DOMEYKO, ur. 1802 r. w gub. minskiej, studya odbyl w Wilnie pod Jedrzejem Sniadeckim, ukonczyl szkole gorniczą w Paryzu, dyrektor zakladow gorniczych w Alzacyi, w 1837 profesor geologii i fizyki w Santiago w Chili, zmarl 1899 roku. (Z portretu wykonanego akwarella przez I. Kurowskiego w 1832 r. w Paryzu. Ze zbiorow rodzinnych pp. Leona i Anity Domeykow w Zyburtowszczyznie.)'; the watercolour is signed 'Kurowski'. The caption's 'zmarl 1899' is a printing error for 1889 (every source gives 1889) and does not affect the sitter's identity; the sitter, biography, Paris 1832 date and the Paris mining studies all match Domeyko. The sitter is the only portrait on the plate and the neighbouring plates show other people (Czeczot, Mickiewicz, Dmochowski), so the crop is of the right frame. HOLDER RECORD: Radom Digital Library OAI-PMH record oai:bc.radom.pl:44083 (and the item page) opened: 'Rights Management: Domena Publiczna (public domain)', source Kazimierz Pulaski Museum in Warka, publisher Warszawa: Wiek, date 1904; no contradiction, no use restriction. The Internet Archive item adds no rights statement of its own (collection polishpublicdomain), which is why the Radom record is used. RIGHTS BASIS: the plate is a 1904 Warsaw publication (published before 1931, public domain in the US; no URAA question) reproducing an 1832 watercolour by an artist who was an adult in 1832 and so long dead. The BnF Societe de geographie route was not used. The image is a black-and-white halftone of a watercolour, kind historical depiction (a reproduction of a painting, not a sitting I can document). PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q458245 label 'Ignacy Domeyko', description 'Polish-Chilean geologist and educator (1802-1889)', ko label 이그나시 도메이코 (kept as the standard Wikidata Korean label), citizenship Poland and Chile; not in prod65.txt and no candidate file existed. REGION central_europe (judgment call, flagged for the lead): the brief says to follow the career base for Latin American-based Europeans only if a precedent exists, else birthplace; no committed candidate is a European-born person with a Latin American career base (andres-bello is Venezuelan-born, salgado and milstein are Latin American-born), so birthplace applies: Niedzwiadka in today's Belarus, with Poles and Russians already mapped to central_europe. He lived in Chile 1838-1889 and held Chilean nationality, so latin_america is the alternative if the lead prefers career base. ZERO POLITICS: primary identity scientist and university builder; the Philomath imprisonment, the 1830-31 uprising and exile are not scored. VOCABULARY: occupations scientist, teacher, chemist; fields natural_science, education, exploration; tags field_researcher, mentor, administrator; archetype scientific_explorer; all with EN and KO labels (geologist and mineralogist are unlabeled and were not used). ATTRIBUTION: attributable CONFIRMED: dated expeditions, university offices, and his own 64 papers and books survive, described by multiple modern writers. CANONICAL SIGNIFICANCE SOURCE: Memoria Chilena biography (src_domeyko_memoria_bio). READ (7 substantive plus Wikidata): (1) Memoria Chilena biography; (2) Memoria Chilena geology page; (3) Memoria Chilena teaching page; (4) Universidad de Chile rector page; (5) Herve and Charrier 2016 full PDF; (6) Culture.pl article full; (7) Sagredo CIPER column full. PERSPECTIVES: national library, university, Chilean geologists' history-of-science paper, Polish cultural institute (popular), a Chilean historian. COUNTER-VOICES AND LIMITS: Herve and Charrier record his public dispute with Antonio Varas and with Andres Bello's regulatory view, his irritation at slow European analysis, and his view of Mapuche integration under Catholic influence; Memoria Chilena says his Araucania descriptions served as a basis for occupation and colonisation; Sagredo reads his Mapuche empathy as shaped by homesickness and notes his dislike of Mapuche oratory. NOT OPENED: the Universidad de Chile Anales article PDF (bot-challenge page, Anubis), the Revista Chilena de Antropologia article on the Araucania book (same wall), the CEEOL critical article (not fetched), the Acta Geologica Polonica homage (error page), British Poles (consent wall), Domeyko Lea Plaza's 2002 biography, Domeyko's own works and diaries (self-report). DISCREPANCIES: Memoria Chilena dates the Cachapoal trip 1841 or 1842 and Herve says summer 1842; birth dates 31 July / 3 July; Herve's abstract says re-elected until age 83 whereas 1883 makes him 80 or 81; nationality 1848 (Memoria Chilena, Herve) versus 1849 in some summaries. EXCLUSIONS: marriage and family, exile and imprisonment as personality, the Culture.pl claims (7,000 km, saltpetre first, building an observatory, building the whole education system), Mapuche policy outcomes. SPARSE PROFILE: 7 rows, scores 60-74, confidence 0.46-0.62; no row above 0.62 because the sources are institutional tributes plus one scholarly history of geology and one interpretive column, with no adversarial biographer. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (highest score; kept at 74/0.62: multiple sources document repeated summer fieldwork, continued fieldwork as rector, 64 papers and re-election), curiosity (lowered 72/0.58 to 68/0.52: the breadth claim rests largely on the university's own list of fields and a tribute paper), leadership_drive (kept at 70/0.58: offices held are institutionally documented and the row is already in the inference band). HANDBACK65: {\"slug\": \"ignacy-domeyko\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"CONTRADICTION RISK: the BnF Societe de geographie portrait (SG PORTRAIT-1502) is the collection whose restrictive convention blocked Moreno in Roster62\", \"holder_record_checked_by_you\": \"Radom Digital Library OAI-PMH record oai:bc.radom.pl:44083 and item page opened for Sokolowski, Dzieje porozbiorowe narodu polskiego ilustrowane T. 3 (Warszawa: Wiek, 1904): Rights Management 'Domena Publiczna (public domain)', source Kazimierz Pulaski Museum in Warka. Internet Archive item bc.radom.pl.16-380-03 metadata opened (collection polishpublicdomain, no rights field). BnF Societe de geographie route not used.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Sokolowski, Dzieje porozbiorowe narodu polskiego ilustrowane, vol.2 (Warsaw 1904), p.94 plate\", \"final_portrait_source\": \"Radom Digital Library / Internet Archive, Sokolowski, Dzieje porozbiorowe narodu polskiego ilustrowane, vol. 3 (Warsaw: Wiek, 1904), p. 94 plate 'Ignacy Domeyko' after a watercolour by I. Kurowski (Paris, 1832); IA page image n107 cropped to 911x1200, no upscaling; https://archive.org/details/bc.radom.pl.16-380-03\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"curiosity\", \"old_score\": 72, \"old_confidence\": 0.58, \"new_score\": 68, \"new_confidence\": 0.52, \"reason\": \"Breadth claim rests largely on the university's own commendatory list of fields and a tribute paper rather than independent documentation of each field.\"}], \"reviewed_kept\": [\"persistence\", \"leadership_drive\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7, \"image_inscription_check\": \"Caption 'IGNACY DOMEYKO, ur. 1802 r. w gub. minskiej ... (Z portretu wykonanego akwarella przez I. Kurowskiego w 1832 r. w Paryzu. Ze zbiorow rodzinnych pp. Leona i Anity Domeykow w Zyburtowszczyznie.)'; signature 'Kurowski' on the watercolour; the caption's 'zmarl 1899' is a printing error for 1889\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 74 / 0.62 to 70 / 0.56 because a scholarly tribute, the national library and the university's own pages are institutional and admiring. RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 70 / 0.58 to 66 / 0.52 because the rector evidence is the university's own page and the same national-library biography. LEAD REVIEW (Roster65): regionCode changed from central_europe to latin_america (career base Chile 1838-1889, Chilean citizen; repository precedent follows the career base)."
+  }
+}

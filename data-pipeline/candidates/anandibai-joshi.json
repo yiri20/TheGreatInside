@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "anandibai-joshi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Anandibai Joshi",
+    "aliases": [
+      "Anandi Gopal Joshi",
+      "Anandibai Joshee",
+      "Anandabai Joshee",
+      "Anandi Joshee",
+      "Anandi Gopal Joshee",
+      "Yamuna Joshi"
+    ],
+    "wikidataId": "Q2845322",
+    "birthYear": 1865,
+    "deathYear": 1887,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "historical"
+    ],
+    "tagIds": [
+      "independent"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_joshi_wikidata",
+      "kind": "wikidata",
+      "title": "Anandi Gopal Joshi (Q2845322), verified live via the Wikidata API (2026-11-05): English label 'Anandi Gopal Joshi', description 'Indian physician', born 31 March 1865, died 26 February 1887, occupation physician, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2845322"
+    },
+    {
+      "id": "src_joshi_drexel",
+      "kind": "institution",
+      "title": "Drexel University College of Medicine Legacy Center (successor archive of the Woman's Medical College of Pennsylvania), research guide 'Anandibai Joshee', read in full. CANONICAL SIGNIFICANCE SOURCE: the college's archive describes her as the 1886 graduate who was the first high-caste Hindu woman to receive a medical degree, and lists what the college holds on her: the dean's correspondence on her admission (1882-83), a letter from her asking the executive committee for financial aid, her grades and courses over five terms from October 1883 to her March 1886 graduation, the commencement papers, her 1886 thesis 'Obstetrics in the Aryan Hindoo', and the 1886 request that she take charge of the female ward of the Albert Edward Hospital at Kolhapur; it summarises her return to India in October 1886 and her death from tuberculosis at Poona on 26 February 1887. The guide credits no photographs; the site footer claims Drexel copyright.",
+      "url": "https://drexel.edu/legacy-center/the-collections/research-guides/joshee/"
+    },
+    {
+      "id": "src_joshi_dall",
+      "kind": "biography",
+      "title": "Caroline Healey Dall, The Life of Dr. Anandabai Joshee, a Kinswoman of the Pundita Ramabai (Boston: Roberts Brothers, 1888), full text from the Princeton Theological Seminary Library scan on the Internet Archive, read at length (the 1883 Serampore address, her American years, the thesis letters, the Kolhapur offer, the closing chapters). An admiring memoir by a friend and hostess that prints her letters and speeches; strongest as a record of what she wrote and did, weakest on motive; it also contains the biographer's frank remarks on her declining health and on her husband's conduct, which are not used here.",
+      "url": "https://archive.org/details/lifeofdranandaba00dall_0"
+    },
+    {
+      "id": "src_joshi_ias",
+      "kind": "institution",
+      "title": "Indian Academy of Sciences, illustrated story 'Anandibai Joshee' (Google Arts & Culture; text based on biographical notes by Meera Kosambi and Aban Mukherji), read in full: a short modern account of her admission, degree in two years in March 1886, poor health and the dean's personal care, the period when mastering English made her temporarily forget Marathi, her growing independence and public speaking, her view of why women needed women doctors, and the burial of her ashes in the Carpenter family lot in New York State.",
+      "url": "https://artsandculture.google.com/story/iAVRPTbPWqrIJw"
+    },
+    {
+      "id": "src_joshi_rupkatha",
+      "kind": "press",
+      "title": "Niranjana G. and Bhuvaneswari, review of Meera Kosambi, A Fragmented Feminism: The Life and Letters of Anandibai Joshee (Routledge India, 2019), Rupkatha Journal on Interdisciplinary Studies in Humanities 12(6), 2020 (open access PDF, read in full, three pages): a scholarly-journal review of the most detailed modern study of her letters; it says earlier works made her husband the great reformer and obscured the politics of how she was represented, and that her letters show divided, 'fragmented' consciousness between Hindu and American ways of life. The review is brief and uneven in quality and the book itself was not opened.",
+      "url": "https://rupkatha.com/V12/n6/v12n626r.pdf"
+    },
+    {
+      "id": "src_joshi_phillycitizen",
+      "kind": "press",
+      "title": "The Philadelphia Citizen, 'Anandibai Joshi', Philadelphia Women's History Month All-Star (undated, no byline), read: a short popular profile (born 1865, first Indian woman to earn an American medical degree per the site, thesis, Albert Edward Hospital appointment, tuberculosis and death). It cites no primary sources and some items are unsourced; used only as a cross-check of the basic outline, never for a row.",
+      "url": "https://thephiladelphiacitizen.org/anandibai-joshi-biography"
+    },
+    {
+      "id": "src_joshi_ia_plate",
+      "kind": "archive",
+      "title": "Internet Archive item 'The life of Dr. Anandabai Joshee, a kinswoman of the Pundita Ramabai' (Boston: Roberts Brothers, 1888; scan by the Princeton Theological Seminary Library): the book's list of illustrations names the frontispiece 'Full-length Portrait of Dr. Joshee in her Mahratta Dress'. Opened for the portrait only.",
+      "url": "https://archive.org/details/lifeofdranandaba00dall_0"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_joshi_drexel, src_joshi_ias, src_joshi_dall | 1883-1886 | college archive, modern institutional account, friend-biographer] The college archive holds her matriculation and her grades and courses over five terms from October 1883 to her graduation in March 1886, and the Indian Academy account says she earned the degree in about two years in poor health, with the dean caring for her personally; Dall records that she was gravely ill with diphtheria in February 1884 and that by her last year she was weaker and could not have taken her degree had it depended on that year alone. So the persistence is a completed course taken through illness and an unfamiliar climate, helped by hostesses and the dean (the Indian Academy and Dall both stress that support). Three independent descriptions agree on the outline; the details of her struggles come mainly from the friendly biographer."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_joshi_drexel, src_joshi_dall, src_joshi_rupkatha | 1882-1886 | college archive, friend-biographer, journal review] The archive holds the dean's admission correspondence of 1882-83 and a letter from her asking the executive committee for financial aid, and Dall prints her own account of why she would go to America, her scheme for qualifying as a 'Hindu lady doctor', and her arranging of her own thesis and hospital placements (the letter of January 1886 about entering the New England Hospital). Limit: the review of the Kosambi study says earlier accounts gave her husband the central reformer's role and that the book questions that representation, and Dall shows the plan as a joint one with her husband and the Carpenters, so the row scores her documented own initiatives (the request for aid, the lecture, the choice of course and placements), not the whole enterprise."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_joshi_dall, src_joshi_drexel, src_joshi_ias | 1883-1886 | friend-biographer, college archive, modern institutional account] In her 1883 Serampore address (printed in Dall) she argued that Hindu women needed women doctors of their own country because foreign women doctors did not serve them, and said 'I volunteer to qualify myself for one'; her thesis was on obstetrics among Hindu women (Drexel), and in 1886 she accepted the post of lady doctor at Kolhapur, in charge of the female ward and instructing girls (the offer letter is printed in Dall; Drexel records the appointment). The Indian Academy account likewise says she chose medicine to serve women who lacked health care. The stated purpose is her own, consistently repeated and then matched by the choice of thesis and post; the private reasons given elsewhere for her ambition are not used."
+    },
+    "risk_tolerance": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_joshi_dall, src_joshi_ias | 1883 | friend-biographer, modern institutional account] She crossed the sea alone in 1883, which a contemporary newspaper note printed in Dall called an act that the Brahmin rules forbade and that carried severe penalties; in her address she said she did not fear excommunication and proposed to live as a Hindu there and on return, and Dall says her bracelets and bangles from her marriage were quietly sold to pay the passage. The Indian Academy account calls her an open critic of the obstacles to women's education. Inference rather than documented outcome: the risk is stated mostly in her own speech and a friendly biography, and she was supported by hosts abroad, so the confidence is low."
+    },
+    "persuasiveness": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_joshi_dall, src_joshi_ias | 1883-1884 | friend-biographer, modern institutional account] Her address at Serampore College in February 1883 drew a crowded hall and was spoken without notes, according to Dall; a printed copy was issued in Bombay and an Indian post-office director sent congratulations and a gift of 100 rupees 'in recognition of her courage and public spirit'. The Indian Academy account says she became able to speak clearly to large audiences. Dall also says her 1884 address on early marriages 'tried the patience' of her American hearers, so the effect on audiences was uneven. Sparse and mostly one source for the reception, hence the low score and confidence."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/anandibai-joshi-unknown-photographer-1888.jpg",
+    "width": 843,
+    "height": 1200,
+    "source": "Frontispiece photographic plate 'Full-length Portrait of Dr. Joshee in her Mahratta Dress' in Caroline Healey Dall, The Life of Dr. Anandabai Joshee (Boston: Roberts Brothers, 1888), from the Princeton Theological Seminary Library scan on the Internet Archive (page image 6 of the scan). The book's own list of illustrations names the plate; the plate carries no printed caption or lettering. It reproduces a studio photograph of her taken during her American years; the photographer is not named in the book. The file is the plate cropped from the library's 1547 x 2639 pixel page scan (1410 x 2006 pixels) and then reduced to 843 x 1200 pixels; no upscaling.",
+    "license": "Public domain (the plate was published in the United States in 1888, before 1931; photographer not named in the book)",
+    "licenseUrl": "https://creativecommons.org/publicdomainmark/1.0/",
+    "attribution": "Studio photograph, photographer unknown, reproduced as the frontispiece of Caroline Healey Dall, The Life of Dr. Anandabai Joshee (Roberts Brothers, Boston, 1888); scan by the Princeton Theological Seminary Library, hosted by the Internet Archive (https://archive.org/details/lifeofdranandaba00dall_0)",
+    "attributionUrl": "https://archive.org/details/lifeofdranandaba00dall_0",
+    "creator": "Photographer unknown",
+    "date": "c. 1883-1886 (photograph); published 1888",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/lifeofdranandaba00dall_0"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아난디바이 조시"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / RESOLVED WITH A DIFFERENT IMAGE (replacement). The lead's initial image (Commons 'Dr. Anandibai Joshee, M.D., Class 1886.jpg', source SAADA item 20120711-720 from the Drexel/SAA digital archive, author 'unknown', tagged PD-old-100-1923 by Commons) was NOT used: the SAADA item page is behind a Cloudflare challenge (HTTP 403) and the old Drexel xdl address redirects to the Drexel IDEA library root, so the holder record and its usage wording could not be read; the Commons tag alone is not accepted. The other Commons lead (Anandibai_joshi.jpg, PD-India, credited to Caroline Healey Dall) carries a talk-page warning that it is a mirror image, so it was rejected too. Instead I used the frontispiece of Dall's 1888 memoir, a book published in Boston in 1888 (PD in the US by age, published before 1931), scanned by the Princeton Theological Seminary Library on the Internet Archive; the Archive's record gives no rights statement (possible-copyright-status empty), so the basis is the documented 1888 US publication date, not a holder licence. The book's list of illustrations names the plate 'Full-length Portrait of Dr. Joshee in her Mahratta Dress'; I viewed the plate and the title page: the plate is a studio photograph of a young woman in a sari and shawl, with no caption or lettering on the image, so the identification rests on the book's illustration list, not on lettering on the plate. The photographer is unnamed. Never upscaled (cropped from 1547x2639 and reduced to 843x1200). Kind likeness (a photograph of the sitter taken in her lifetime). PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q2845322 label 'Anandi Gopal Joshi', description 'Indian physician', born 1865-03-31, died 1887-02-26, no Korean label; not in prod65.txt, no candidate file existed. REGION south_asia (Indian). ERA 19th_century. ZERO POLITICS: physician and first-in-her-community medical graduate; her husband's reform ideas and the colonial/caste context are context only, nothing political scored. VOCABULARY: occupation physician, field medicine, tag independent, archetype scholarly_specialist, impact domains medical and historical, all existing with EN and KO labels (checked in the repository). KO NAME: neither Korean Wikipedia nor Wikidata has an entry, so '아난디바이 조시' is a recorded standard transliteration of 'Anandibai Joshi'. ATTRIBUTION: attribution_screen_result attributable CONFIRMED: a documented college record (admission letters, grades, thesis, commencement), her own printed letters and address, and a modern study of her letters. CANONICAL SIGNIFICANCE SOURCE: Drexel University College of Medicine Legacy Center research guide (src_joshi_drexel). READ (7 incl. Wikidata; 4 substantive plus 2 supporting): (1) Drexel Legacy Center guide, full; (2) Dall 1888 memoir, read at length via full text (the Serampore address, the American years, the thesis and graduation letters, the Kolhapur offer, the final chapters); (3) Indian Academy of Sciences story (Google Arts & Culture), full; (4) Rupkatha review of Kosambi's A Fragmented Feminism, full (3 pages); (5) Philadelphia Citizen profile, cross-check only. PERSPECTIVES: the college that taught her (institutional archive), a friend and hostess who printed her letters (admiring, near-contemporary), a modern institutional science-academy account drawing on Kosambi, a scholarly review of the most detailed modern study that questions the husband-centred telling. COUNTER-VOICES AND LIMITS: the review reports that earlier accounts made her husband the central reformer and that her letters show a divided consciousness; Dall admits her health failed, her last-year work was weaker, and some of her public remarks (on early marriages) disappointed American audiences. NOT OPENED: Kosambi's book and her 1996 Economic and Political Weekly essay (the EPW page returned 404; Routledge/Taylor and Francis pages gave only titles), the SAADA and Drexel image records (walled), her thesis text (held only as a photocopy/typescript at Drexel), Pandita Ramabai's 1888 book, the Telegraph India review (blocked), Wikipedia. EXCLUSIONS: her marriage, husband's treatment of her, the death of her infant, her own illness and death (no personality inferred from bereavement, illness or death), religion and caste politics, the claim that she was the first Indian woman to earn an American degree (sources vary; only the Drexel wording 'first high-caste Hindu woman' is attributed to Drexel), and Queen Victoria's note (reported by Drexel but not used as behaviour). SPARSE PROFILE: 5 rows, scores 56-70, confidence 0.42-0.56; no row above 0.56 because the behavioural record is largely her own letters as printed by a friendly biographer and a short academic life. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (highest score; kept at 70/0.56 because three independent descriptions agree and the rationale already bounds it by illness and supporters), proactive_agency (kept at 68/0.52: the husband-centred-representation caveat is already stated in the rationale and the confidence already reflects it), impact_motivation (kept at 66/0.5: stated purpose matched by thesis and post, already strong_inference). No row lowered. HANDBACK65: {\"slug\": \"anandibai-joshi\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Drexel University and SAA digital archive pages not opened\", \"holder_record_checked_by_you\": \"SAADA item 20120711-720: Cloudflare 403 (walled), old Drexel xdl URL redirects to idea.library.drexel.edu root (no item record); Drexel Legacy Center research guide opened: no image credits, footer 'All Rights Reserved' and a link to a 'Use and Reproduction' page (not opened); Internet Archive item lifeofdranandaba00dall_0 metadata opened: Dall 1888 (Boston, Roberts Brothers), Princeton Theological Seminary Library scan, no rights statement; Commons wikitext for both leads read (PD-old-100-1923 with unknown author; PD-India with a mirror-image warning).\", \"holder_contradiction_found\": false, \"initial_lead\": \"1886 class portrait 'Dr. Anandibai Joshee, M.D., Class 1886' (Drexel/SAA digital archive)\", \"final_portrait_source\": \"Internet Archive, Princeton Theological Seminary Library scan of Caroline Healey Dall, The Life of Dr. Anandabai Joshee (Boston: Roberts Brothers, 1888), frontispiece plate 'Full-length Portrait of Dr. Joshee in her Mahratta Dress', page image 6; https://archive.org/details/lifeofdranandaba00dall_0; cropped from 1547x2639 and reduced to 843x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"persistence\", \"proactive_agency\", \"impact_motivation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"none visible on the plate (no caption, name or lettering on the photograph); identification rests on the book's list of illustrations: 'Full-length Portrait of Dr. Joshee in her Mahratta Dress. Frontispiece'\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yasuda-zenjiro",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yasuda Zenjirō",
+    "aliases": [
+      "Yasuda Zenjiro",
+      "Zenjiro Yasuda",
+      "Zenjirō Yasuda",
+      "安田善次郎"
+    ],
+    "wikidataId": "Q3571972",
+    "birthYear": 1838,
+    "deathYear": 1921,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "executive"
+    ],
+    "fieldIds": [
+      "business"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "wealth_creation"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yasuda_wikidata",
+      "kind": "wikidata",
+      "title": "Yasuda Zenjiro (Q3571972), verified live via the Wikidata API (2026-11-05): description 'Japanese businessman (1838-1921)', Korean label 야스다 젠지로, birth 25 November 1838, death 28 September 1921. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q3571972"
+    },
+    {
+      "id": "src_yasuda_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'Portraits of Modern Japanese Historical Figures: YASUDA Zenjiro I' (English and Japanese biographical note written by NDL staff; read in full). CANONICAL SIGNIFICANCE SOURCE (with the encyclopedia entries below): founder of the Yasuda zaibatsu; apprenticed in Edo at 17; opened the money-changing shop Yasuda-ya in 1864; made money dealing in dajokan-satsu (government notes), government bonds and government deposits; helped found the Third National Bank in 1876; opened the Yasuda Bank in 1880; became a director of the Bank of Japan founded in 1882; expanded into life and property insurance; in later years donated the Yasuda Hall of the University of Tokyo and the Hibiya Public Hall. Institutional reference; neutral in tone but compressed.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/343.html"
+    },
+    {
+      "id": "src_yasuda_ndl_zaibatsu",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'Zaibatsu financial conglomerates and their leaders in the Meiji era' (digital exhibition feature page, read). Places Yasuda among founders who built their fortunes in one generation in the Meiji era, in contrast to Edo-period houses such as Mitsui and Sumitomo, and describes his zaibatsu as finance-based, with the Yasuda Bank that became Mizuho Bank.",
+      "url": "https://www.ndl.go.jp/portrait/e/pickup/010/index.html"
+    },
+    {
+      "id": "src_yasuda_kotobank",
+      "kind": "biography",
+      "title": "Kotobank (Japanese reference aggregator), entry 'Yasuda Zenjiro' collecting the Nihon Daihyakka Zensho (Nipponica), Sekai Daihyakka, Britannica Concise, Yamakawa Japanese History Dictionary, Nihon Jinmei Daijiten and other dictionary texts (all read in Japanese). Documents the 1864-1866 money-changing shop, profits from old coins and dajokan notes, the 1876 Third National Bank, the 1880 Yasuda Bank, the 1882 Bank of Japan board seat, the takeover and rescue of weak banks (Dai-130 Bank in 1904), the 1912 holding company Hozensha, the life and non-life insurers, and the note that he disliked publicising his donations and was misunderstood for it. Independent Japanese reference works; retrospective, not adversarial.",
+      "url": "https://kotobank.jp/word/%E5%AE%89%E7%94%B0%E5%96%84%E6%AC%A1%E9%83%8E-1427"
+    },
+    {
+      "id": "src_yasuda_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'Fuji Bank Ltd' (company history in the International Directory of Company Histories series; read). Gives the 1856 move to Tokyo, the 1866 exchange shop, the 1874 appointment as fiscal agent for the Ministry of Justice, the 1876 Third National Bank, the January 1880 charter for his own bank, the 1893 and 1900 changes of legal form and the 1912 reincorporation with 10 million yen capital, and his murder at Oiso in 1921. English-language business reference; its dates differ slightly from the Japanese sources (1856 vs 1858 arrival, 1866 vs 1864 shop).",
+      "url": "https://encyclopedia.com/books/politics-and-business-magazines/fuji-bank-ltd"
+    },
+    {
+      "id": "src_yasuda_fundinguniverse",
+      "kind": "biography",
+      "title": "International Directory of Company Histories (St. James Press), 'The Yasuda Mutual Life Insurance Company History' (Funding Universe copy; the founder passages read). COUNTER-VOICE: describes Yasuda as an upstart with 'almost reckless ambition and imagination', notes he concentrated on banking and finance and backed small and medium-sized traders and industrialists, says the young Tokyo Fire Insurance Company could not survive without his aid (1893), that he proposed a 6 million yen government loan when asked to help a troubled bank after the Russo-Japanese War, that he was accused of profiteering after that war and that he was not a respected figure at his death.",
+      "url": "http://www.fundinguniverse.com/company-histories/the-yasuda-mutual-life-insurance-company-history/"
+    },
+    {
+      "id": "src_yasuda_utokyo",
+      "kind": "institution",
+      "title": "University of Tokyo, 'Traveling through time with UTokyo buildings' and 'Hongo campus history' pages (read). Say that the University Auditorium, now called Yasuda Auditorium, was built with a generous donation from Zenjiro Yasuda and was completed in 1925, and that the university lacked a 'binden' (a resting place for the Emperor) which Yasuda's donation was meant to supply.",
+      "url": "https://www.u-tokyo.ac.jp/focus/en/features/z1304_00070.html"
+    },
+    {
+      "id": "src_yasuda_smtrc",
+      "kind": "institution",
+      "title": "Sumitomo Mitsui Trust Real Estate, 'Konomachi Archives: Hibiya Park' local-history page (Japanese, read). Records that when the Tokyo Institute for Municipal Research was set up in 1922, Yasuda supported it and offered a large donation but was killed before it was realised; his heir the second Zenjiro paid for the Municipal Hall and the attached Hibiya Public Hall, completed in 1929. Corporate local-history page; independent of the biographies.",
+      "url": "https://smtrc.jp/town-archives/city/hibiya/p02.html?id=a01"
+    },
+    {
+      "id": "src_yasuda_toushiru",
+      "kind": "press",
+      "title": "Rakuten Securities 'Toushiru' media, Emi Hashimoto (financial planner), article on Yasuda's saving habits (Japanese, first page only read; page 2 not opened). Says he kept a modest lifestyle into old age, set aside 20 percent of income first and lived on 80 percent, and gave large sums to education and society, citing the University of Tokyo Auditorium; the habits rest on an unnamed book of his own. Modern popular finance article; weak and partly self-report.",
+      "url": "https://media.rakuten-sec.net/articles/-/53445"
+    },
+    {
+      "id": "src_yasuda_jawiki",
+      "kind": "wikipedia",
+      "title": "Japanese Wikipedia, 'Yasuda Zenjiro' (read for orientation and for its reference list: Yano Ryukei's 1925 authorised biography, Yui Tsunehiko 2010, Kita Yasutoshi 2010, Nakajima Takeshi 2009 on the assassin). Not counted as support for any row.",
+      "url": "https://ja.wikipedia.org/wiki/%E5%AE%89%E7%94%B0%E5%96%84%E6%AC%A1%E9%83%8E"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yasuda_kotobank, src_yasuda_ndl, src_yasuda_encyclopedia | 1864-1880 | Japanese encyclopedias, national library note, English business reference] Several independent reference works say he made his early money buying old coins and, after the Restoration, dealing in dajokan notes, government bonds and government deposits, took on public-fund work for the Ministry of Justice and other offices from 1874, joined founding the Third National Bank in 1876 and opened the Yasuda Bank in 1880. The pattern of turning the new government's financial needs into business is documented in all three, but the sources give outcomes rather than his reasoning, and 'profit made' is not itself the trait, so confidence is moderate."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yasuda_kotobank, src_yasuda_ndl, src_yasuda_fundinguniverse | 1864-1904 | Japanese encyclopedias, national library note, company-history reference] The Sekai Daihyakka entry says he went to Edo with no capital and started alone as a money-changer; Britannica Concise (via Kotobank) says he rescued the Dai-130 Bank in 1904; the company history says he proposed a 6 million yen government loan when asked to help a troubled bank after the Russo-Japanese War and that the Tokyo Fire Insurance Company could not survive without his aid. Documented moves, thinly described, and from reference works that are mostly retrospective, hence below 0.5."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yasuda_kotobank, src_yasuda_encyclopedia, src_yasuda_fundinguniverse | 1880-1913 | Japanese encyclopedias, English business reference, company history] He built a finance-centred group step by step: a network of banks consolidated into the Yasuda Bank, the 1912 holding company Hozensha, life and non-life insurers, and, per the company history, a concentration on banking and finance rather than industry (the same history also calls his ambition 'almost reckless', so the row is moderate). The structure is documented but no source describes how he planned it."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yasuda_utokyo, src_yasuda_smtrc, src_yasuda_kotobank, src_yasuda_fundinguniverse | 1921-1929 | university, corporate local-history archive, Japanese encyclopedias, company history] The University of Tokyo says the auditorium was built with a generous donation from him (completed 1925); the local-history archive says he supported the Tokyo municipal research body and offered a large donation that was realised by his heir; Nipponica says he disliked publicising his gifts and was misunderstood for it. The company history, however, says he was accused of profiteering after the Russo-Japanese War and was not respected at his death. Giving that was large but late, partly realised after his death and set against a poor public reputation, so the impact is dual-edged and confidence moderate."
+    },
+    "discipline": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_yasuda_toushiru | lifetime | modern popular finance article, partly self-report] A financial-planner article says he kept the same modest way of living from his apprenticeship into old age and always set aside 20 percent of income, citing his own book. One popular secondary source resting on his own words; the Japanese encyclopedias read do not describe his habits. SELF-CALIBRATION (agent): top-risk row; lowered from 62 / 0.42 to 58 / 0.38 because it depends on a single modern popular article that itself rests on his own book."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "야스다 젠지로"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/yasuda-zenjiro-unknown-1910.jpg",
+    "width": 660,
+    "height": 654,
+    "source": "Studio portrait photograph of Yasuda Zenjiro with the printed caption 'MR. ZENJIRO YASUDA.' and his name in Japanese, shown in the National Diet Library's digital exhibition 'Portraits of Modern Japanese Historical Figures' (image 0343_2); matched to the bilingual biographical dictionary Dai Nihon Teikoku Kinsei Jinmei Jii (Tokyo: Horitsu Keizai Shinposha, 1910) by its caption and the page's source list. Original file 660 x 654 pixels, used without resizing.",
+    "license": "Public domain: the National Diet Library states that all images in this digital exhibition are in the public domain and free to reuse; the likely source book was published in Japan in 1910 (before 1931)",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/e/about",
+    "attribution": "Photographer not named; image from the National Diet Library, Japan, Portraits of Modern Japanese Historical Figures",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/e/datas/343",
+    "creator": "Unknown photographer (reproduced in Dai Nihon Teikoku Kinsei Jinmei Jii, 1910)",
+    "date": "c. 1910 or earlier",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.ndl.go.jp/portrait/e/datas/343"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED, LEAD USED (a photograph on the NDL Portraits page, with the dictionary-caption image chosen). PORTRAIT: NDL Portraits of Modern Japanese Historical Figures item 'YASUDA Zenjiro I' offers three images; the chosen one (0343_2.jpg, 660x654) is a halftone studio portrait with the printed caption 'MR. ZENJIRO YASUDA.' and the name 安田善次郎 in a label beside it; I looked at all three images and all show an elderly bearded man, but only this one carries an inscription naming the sitter, which agrees with the claimed sitter (no contradiction). The NDL page lists three source items in order (NDL digital pid 2984788 page 5, 'Dai Nihon Teikoku Kinsei Jinmei Jii vol.1 [408-9]', pid 2984718 page 4) without labelling which image comes from which; the NDL Digital Collections metadata shows pid 2984788 is a 1967 book and pid 2984718 a 1954 book, and NDL Search gives the Jii as published by Horitsu Keizai Shinposha in 1910 (not 1921 as the preflight said). I infer from the order and from the bilingual caption that this image is the Jii plate (published in Tokyo in 1910, before 1931, photographer not named); that mapping is an inference and is flagged. RIGHTS BASIS: the holder statement on the NDL site's About page, 'All images used in the digital exhibition ... are in the public domain', with reuse including commercial use allowed without application; plus a documented pre-1931 publication (1910) for the likely source, and a US public-domain-by-age route for a work published before 1931. No conflicting institutional notice was found (the site footer copyright line covers the site as a whole and the About page's specific image statement controls). Not relied on: a Commons file named for Yasuda Zennosuke (a different person; ignored). Kind likeness (a photograph of the sitter); saved unresized (660x654, no upscaling) as public/portraits/yasuda-zenjiro-unknown-1910.jpg. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q3571972 description 'Japanese businessman (1838-1921)', English label Yasuda Zenjiro, Japanese label 安田善次郎, Korean label 야스다 젠지로, birth 25 November 1838, death 28 September 1921; not in prod65.txt (grep of slug, Yasuda and the QID found nothing); no existing candidate file. REGION east_asia (Japanese precedents sakichi-toyoda, shibusawa-eiichi), ERA 19th_century (precedent shibusawa-eiichi), nationality JP. ZERO POLITICS: portfolio is business and finance; the Bank of Japan seat is a central-bank financial post and is not scored as politics; his 1921 murder by a political extremist, the assassin's motives, his dealings with the Meiji government as a financier and the Gotō Shinpei link are context only and unscored; no family, health, or private-life inference. VOCABULARY: occupations entrepreneur and executive, field business, tags founder and organizer, archetypes entrepreneurial_builder and organizational_leader, impact domains entrepreneurial, industrial, wealth_creation, all present in the repo and in en.ts and ko.ts. KO NAME: Wikidata Korean label 야스다 젠지로. HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED (attribution_confirmed true): dated banking and insurance foundings and donations documented across independent Japanese and English reference works. CANONICAL SIGNIFICANCE SOURCE: National Diet Library 'Portraits of Modern Japanese Historical Figures: YASUDA Zenjiro I' (https://www.ndl.go.jp/portrait/e/datas/343.html) together with the Kotobank collection of Japanese encyclopedia entries. READ (7 substantive sources plus Wikidata and Japanese Wikipedia for orientation): (1) NDL Portraits biographical note; (2) NDL zaibatsu feature page; (3) Kotobank entries (Nipponica, Sekai Daihyakka, Britannica Concise, Yamakawa and other dictionaries); (4) Encyclopedia.com Fuji Bank history; (5) International Directory of Company Histories, Yasuda Mutual Life (counter-voice); (6) University of Tokyo pages on Yasuda Auditorium; (7) Sumitomo Mitsui Trust Real Estate Hibiya archive page; plus the Rakuten Securities Toushiru article (first page only, weak, partly self-report) and Japanese Wikipedia (orientation only; its reference list names the biographies not opened). PERSPECTIVES: Japanese national library, Japanese reference dictionaries, English-language business reference and company history (the critical voice on profiteering, reckless ambition and poor reputation), a university, a corporate local-history page, and a financial-planner popular article. NOT OPENED: Yano Ryukei's 1925 authorised biography, Yui Tsunehiko's 2010 biography, Kita Yasutoshi's 2010 biography, Nakajima Takeshi's study of the assassin, his own dictated autobiography Tomi no katsudo (1911), the Britannica Zenjiro entries (HTTP 403), the APJ article on assassinations (HTTP 403 / full text unavailable), and the Mizuho/Meiji Yasuda corporate histories. A page that returned an unrelated document (a Financial Services Agency PDF about Yano Kota) was discarded. All behavioural sources are retrospective; none is a first-hand contemporary observer. EXCLUSIONS: assassination, motive of the killer, the 'miser' label and the Saiseikai and Hibiya donation anecdotes from Japanese Wikipedia (not independently read), the Yoko Ono family link, any inference from his death. Discrepancies noted between sources: Bank of Japan role (director per NDL and Kotobank, auditor per Japanese Wikipedia, adviser per Encyclopedia.com), arrival in Edo (1856 vs 1858), shop opening (1864 vs 1866). The Yasuda Hall and Hibiya Hall were completed after his death (1925, 1929); the cards say so. SELF-CALIBRATION (agent): top-risk rows reviewed: discipline (62/0.42 lowered to 58/0.38: single modern popular article resting on his own book), opportunity_sensing (70/0.52, kept: three independent reference works agree on the documented moves and the confidence is already moderate), impact_motivation (60/0.44, kept: already dual-edged and tempered by the counter-voice). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. Card 1 states the Yasuda Bank and the finance-centred zaibatsu, card 2 the Third National Bank, the Bank of Japan role, the insurers and the bank network, card 3 the large donations that were completed after his death. HANDBACK65: {\"slug\": \"yasuda-zenjiro\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"PARTLY VERIFIED: NDL record for 'Dai Nihon Teikoku Kinsei Jinmei Jii' vol.1 (1921) cited; not re-opened\", \"holder_record_checked_by_you\": \"NDL Portraits of Modern Japanese Historical Figures: item page /portrait/e/datas/343 (three images 0343_1-3, source list in the page data: NDL digital pid 2984788 p.5, 'Dai Nihon Teikoku Kinsei Jinmei Jii vol.1 [408-9]', pid 2984718 p.4) and the site's About page, which states 'All images used in the digital exhibition ... are in the public domain' and may be reused, including commercially, without application to the NDL. NDL Digital Collections metadata: pid 2984788 = Shoo Yasuda Zenjiro (Yasuda Gakuen, 1967), pid 2984718 = Ningen Yasuda Zenjiro (Oda Seifu, 2nd ed. 1954); NDL Search: Jii published by Horitsu Keizai Shinposha, 1910 (Meiji 43), not 1921 as the preflight said. The NDL page does not label which image comes from which source.\", \"holder_contradiction_found\": false, \"initial_lead\": \"photograph in a 1921 NDL-digitised Japanese biographical dictionary (corrected: the dictionary is the 1910 Dai Nihon Teikoku Kinsei Jinmei Jii)\", \"final_portrait_source\": \"National Diet Library, Japan, Portraits of Modern Japanese Historical Figures, image 0343_2.jpg (https://www.ndl.go.jp/portrait/img/portrait/0343_2.jpg), page https://www.ndl.go.jp/portrait/e/datas/343; the bilingual caption matches the 1910 Dai Nihon Teikoku Kinsei Jinmei Jii entry (mapping inferred from the page's source order and the caption); 660x654, not resized\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"discipline\", \"old_score\": 62, \"old_confidence\": 0.42, \"new_score\": 58, \"new_confidence\": 0.38, \"reason\": \"Depends on a single modern popular finance article that itself rests on his own book\"}], \"reviewed_kept\": [\"opportunity_sensing\", \"impact_motivation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"Printed English caption 'MR. ZENJIRO YASUDA.' under the photograph and the name 安田善次郎 in a framed label to its left\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sakya-pandita",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sakya Pandita",
+    "aliases": [
+      "Sakya Paṇḍita",
+      "Sakya Pandita Kunga Gyaltsen",
+      "Sakya Paṇḍita Kunga Gyeltsen",
+      "Sapan",
+      "Sapaṇ",
+      "Kunga Gyaltsen"
+    ],
+    "wikidataId": "Q982008",
+    "birthYear": 1182,
+    "deathYear": 1251,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "philosopher",
+      "religious_leader",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "religion"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "literary"
+    ],
+    "tagIds": [
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sakyapandita_wikidata",
+      "kind": "wikidata",
+      "title": "Sakya Pandita (Q982008), verified live via the Wikidata API (2026-11-05): English label 'Sakya Pandita', description 'Tibetan Lama (1182-1251)', birth 1182 and death 1251 (year precision), images include the Met thangka. No Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q982008"
+    },
+    {
+      "id": "src_sakyapandita_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Sakya Pandita [sa skya pan di ta]' (Jonathan C. Gold; the whole entry read from the public page: life and works, the Treasury of Epistemological Reasoning, the Clear Differentiation of the Three Vows, Clarifying the Sage's Intent, the Gateway to Learning). CANONICAL SIGNIFICANCE SOURCE: the fourth of the five great throneholders of Sakya who 'established Sakya anew as a leader in the study of epistemology'; best known for five major works; the Treasury of Epistemological Reasoning is called 'one of Tibet's best known and most consequential philosophical achievements' but with 'an ambiguous legacy' and controversy from its debut; the Three Vows is 'a polemical treatise' and his 'most controversial work'; the Gateway to Learning is 'a rare example of a medieval treatise on the goals and means of education'; he studied with Sugataśri for three years and Śākyaśrī for five, retranslating Dharmakirti's Pramanavarttika with the latter; he was 'often criticized and sometimes lampooned for being stodgy, conservative, and self-satisfied'; the entry flags the hagiographical fancy in his early biographies and says it is not clear what terms followed his 1244 Mongol summons. Scholarly reference written by a modern academic; the assessments of his works are retrospective.",
+      "url": "https://plato.stanford.edu/entries/sakya-pandita/"
+    },
+    {
+      "id": "src_sakyapandita_encbuddhism",
+      "kind": "biography",
+      "title": "Encyclopedia of Buddhism (Macmillan), 'Sa skya Pandita (Sakya Pandita)' by Ronald M. Davidson, read in full via Encyclopedia.com. An independent scholarly entry: 'revered as the greatest early scholar of the Sa skya sect', fourth of the five great Sa skya teachers, 'noted for his conservative polemics against what he saw as unwarranted Tibetan innovations'; sent to Central Tibet in 1200 to study Yogacara, Madhyamaka and Dharmakirti's logic; his decisive influence was the Kashmiri master Śākyaśribhadra and his retinue, who taught him the Sanskrit curriculum of the great Indian monasteries including poetics; more than one hundred compositions; Jackson's five works of special influence, the Treasury of Aphoristic Jewels being 'best known' and 'still memorized by Tibetans'; the Treasury of Epistemology is 'dedicated to the refutation of the innovations of Tibetan scholars, especially' Chapa Chokyi Senge.",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/sa-skya-paita-sakya-paita"
+    },
+    {
+      "id": "src_sakyapandita_eightself",
+      "kind": "archive",
+      "title": "Lotsawa House, 'Eight Self-Assertions' by Sakya Pandita (verse translated by Adam Pearcey, 2025, from the Sakya Kabum; Tibetan text and English read in full). SELF-REPORT: a famous verse that uses the word 'I' eight times: 'I'm a grammarian. I'm a logician... In figurative expression, I'm without rival... Other so-called scholars are mere imitations.' The page's own note attributes it to him, while the Tibetan edition cited is the Sakya Kabum volume that carries the commentary on the verse and names 'Sa chen Kun dga' snying po and others', so the attribution rests on the tradition and the self-presentation is not independently checked.",
+      "url": "https://www.lotsawahouse.org/tibetan-masters/sakya-pandita/eight-self-assertions"
+    },
+    {
+      "id": "src_sakyapandita_rigpawiki",
+      "kind": "biography",
+      "title": "Rangjung Yeshe Wiki (Dharma Dictionary), 'Sakya Pandita Kunga Gyeltsen', read in full: a traditional Sakya-lineage short biography (from the Sakya Tegchen Choling newsletter) with dream visions, miraculous birth and magical-test stories, plus brief factual notes (ordination by Shakya Shri Bhadra, Sakya throne at 25, Literary Works list). Hagiographic; used only to show how the tradition presents him and as a contrast to the scholarly sources. Nothing from its legendary passages is scored.",
+      "url": "https://rywiki.tsadra.org/index.php/Sapan"
+    },
+    {
+      "id": "src_sakyapandita_metthangka",
+      "kind": "institution",
+      "title": "The Metropolitan Museum of Art, 'Sakya Pandita', thangka, Eastern Tibet, 18th century, distemper on cloth, accession 2006.285 (Open Access API record for object 73300 read live: isPublicDomain true; image 1168 x 1676 downloaded). Portrait holder record only; the museum's HTML object page is bot-walled, so only the API record was read.",
+      "url": "https://www.metmuseum.org/art/collection/search/73300"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 76,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sakyapandita_sep, src_sakyapandita_encbuddhism | c. 1200-1225 | scholarly encyclopedias] Both entries describe a long, structured course of study: sent to Central Tibet in 1200 to study logic, epistemology and Madhyamaka, then three years of tutoring from the Indian scholar Sugataśri and five more years with Śakyaśribhadra, mastering Sanskrit grammar, poetics, metrics and epistemology and learning to translate (SEP; Davidson adds the Indian monastic curriculum). Two independent academic accounts agree on the sustained study; the dream-vision episodes in his traditional biographies are not used. Written about a thirteenth-century figure by modern scholars drawing on later biographies, so confidence stays below 0.5."
+    },
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sakyapandita_sep, src_sakyapandita_encbuddhism | c. 1220s-1240s | scholarly encyclopedias] SEP describes the Treasury of Epistemological Reasoning as a strictly nominalist work built on Dharmakirti's apoha theory, 'more spare and more severe than most Tibetan epistemologists' and, in modern scholarship, closer to Dharmakirti; the Gateway to Learning sets out composition, exposition and debate with 'philosophical precision'. Davidson likewise places the Treasury at the centre of his epistemological writing. The judgements are later scholars' readings of his surviving works, and SEP notes continuing controversy about the Treasury's meaning, so the row is solid but cautious. SELF-CALIBRATION (agent): top-risk row; lowered from 76 / 0.48 to 72 / 0.44 because the support is retrospective scholarly praise of his own writings and SEP itself calls the legacy ambiguous."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sakyapandita_sep, src_sakyapandita_encbuddhism | c. 1220s-1240s | scholarly encyclopedias] SEP calls the Three Vows 'a polemical treatise' directed against his Tibetan contemporaries and his 'most controversial work', says the Treasury of Epistemological Reasoning was 'stridently combative' and mired in controversy from its debut, and that he listed ten fallacious doctrines and defended his critiques against claims of hostility or jealousy; Davidson describes 'conservative polemics' against Tibetan innovations and a Treasury aimed at refuting Chapa Chokyi Senge's school. SEP adds that he took part in many public debates with rival schools and visiting Brahmanical scholars (one 'said to have' been defeated, a reported episode treated cautiously). Both accounts agree on a readiness to dispute openly, with real costs in controversy; dual-edged."
+    },
+    "social_assertiveness": {
+      "score": 64,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sakyapandita_eightself, src_sakyapandita_sep | c. 1240s, later reception | self-report verse, scholarly encyclopedia] The 'Eight Self-Assertions' verse, attributed to him, repeats 'I' eight times to claim unrivalled skill in grammar, logic, poetry and the outer and inner sciences and calls other scholars mere imitations; SEP records that he was 'often criticized and sometimes lampooned for being stodgy, conservative, and self-satisfied'. The verse is attributed rather than certainly his, is a self-portrait, and the criticism is one scholar's summary of later reception, so the row is low-confidence."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sakyapandita_sep, src_sakyapandita_encbuddhism | c. 1220s-1240s | scholarly encyclopedias] His five major works span a popular book of moral aphorisms, epistemology, the three sets of vows, the bodhisattva path and a manual on composition, exposition, debate and translation (SEP, Davidson), and he trained in Sanskrit grammar, poetics and metrics as well as philosophy. The breadth is within one scholastic Buddhist curriculum rather than across unrelated fields, and it is read from his output by modern summaries, so the score is moderate with low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사캬 판디타"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sakya-pandita-eastern-tibetan-18th-century.jpg",
+    "width": 660,
+    "height": 870,
+    "source": "Sakya Pandita, thangka (distemper on cloth), Eastern Tibet, 18th century, accession 2006.285, The Metropolitan Museum of Art, New York (Rogers Fund, by exchange, 2006). A later devotional painting by an unknown artist, made about 500 years after his life, not a likeness. The file is a crop of the central seated lama from the museum's 1168 x 1676 image (the surrounding figures removed), 660 x 870, no upscaling. The painting carries no visible lettering; the museum's title identifies the sitter.",
+    "license": "Public domain (Met Open Access: the museum's record marks the work as public domain; anonymous 18th-century painting)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Sakya Pandita, thangka, Eastern Tibet, 18th century. The Metropolitan Museum of Art, Rogers Fund, by exchange, 2006 (2006.285), Open Access",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/73300",
+    "creator": "Unknown Eastern Tibetan painter",
+    "date": "18th century",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/73300"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED WITH CAVEATS: Met Open Access API object 73300 (read live) gives isPublicDomain true for 'Sakya Pandita', thangka, Eastern Tibet, 18th century, distemper on cloth, accession 2006.285, Rogers Fund purchase by exchange 2006; the museum's own record states no further rights wording and the HTML page is bot-walled (not read). The Met's Open Access policy releases images of public-domain works it holds, and an anonymous 18th-century Tibetan painting is public domain by age. IMAGE CHECK (looked at the file): a multi-figure lineage-style thangka with one large seated lama under a flowering canopy in a halo, Manjushri above, six smaller lamas around and a dark protector below; NO inscription or caption is visible on the front, so the identification of the central figure rests on the Met's title and the composition, not on lettering; nothing visible contradicts it. The portrait is a single-figure crop of the central lama (660 x 870 from the 1168 x 1676 original; no upscaling, no resampling). Because the sitter is identified only by the holder title, kind is historical_depiction. Alternative path (Sarat Chandra Das plate, before 1882) not needed. PREFLIGHT (identity/QID/region): Wikidata Q982008 verified live (label 'Sakya Pandita', 'Tibetan Lama (1182-1251)', 1182-1251); no production or candidate collision (prod65.txt, candidate directory). Korean name: no Korean Wikipedia or Wikidata label, so '사캬 판디타' is a recorded standard transliteration. Region: east_asia chosen (modern territory of Tibet within China; UN geoscheme Eastern Asia; no Tibetan precedent exists, central_asia is the alternative); nationality code CN follows the modern territory and is anachronistic for 1182-1251; no polity key is set because the polity vocabulary has no Tibetan entry. ZERO POLITICS: he is primarily a scholar-teacher and throneholder; the 1244 Mongol summons and Sakya's later administrative role are context only, unscored and given no achievement card (the SEP treats them as negotiation and rule); the scholarly work carries the profile. ATTRIBUTION: limited_but_usable (lead) / CONFIRMED: five major works survive and are discussed by modern scholars, the Sugataśri/Śakyaśribhadra study period and his debates are reported in scholarly summaries; but his biographies mix hagiography (miraculous infancy, dream visions, magical tests), so only conservative, scholar-sourced behaviour is scored, confidence <= 0.50. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy entry (src_sakyapandita_sep). SOURCES READ: SEP (Gold), Encyclopedia of Buddhism entry (Davidson), Lotsawa House 'Eight Self-Assertions', Rangjung Yeshe Wiki traditional biography, Met API record. PERSPECTIVES: two independent modern academic encyclopedias, a traditional hagiographic biography (contrast only), his own attributed verse (self-report). COUNTER-VOICE: SEP's 'stodgy, conservative, self-satisfied' reception and the controversy around his works. Non-self behavioural source: SEP and Davidson (scholarly summaries of his documented studies, polemics and debates). NOT OPENED: Treasury of Lives biography body (page opened but only metadata and the reference list render; the text did not load, so it is not cited), Gold's 'The Dharma's Gatekeepers' and Rhoton's translation of the Three Codes (in copyright), Jackson's Entrance Gate, Blue Annals, Tibetan-language biographies (Ngorchen, Gyalwa Pal, Sakya Dungrab); Hugon 2012 on the Harinanda debate. Dates of the Mongol summons differ between sources, so no row depends on them. SELF-CALIBRATION (agent): top-risk rows reviewed: analytical_rigor (76/0.48 lowered to 72/0.44: retrospective scholarly praise of his own works and SEP's 'ambiguous legacy'), social_assertiveness (kept: already 64/0.38, attributed self-report plus one critic summary), conflict_tolerance (kept: two independent accounts agree on the polemics). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission (Mongol summons deliberately omitted under zero-politics, flagged for the lead), identity, significance-over-novelty and side-project; nothing corrected. HANDBACK65: {\"slug\": \"sakya-pandita\", \"attribution_screen_result\": \"limited_but_usable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Met Open Access API object 73300 (isPublicDomain true)\", \"holder_record_checked_by_you\": \"Met Open Access API v1 objects/73300 read live: isPublicDomain true, title 'Sakya Pandita', Thangka, Eastern Tibet, 18th century, distemper on cloth, accession 2006.285, credit line 'Purchase, Rogers Fund, by exchange, 2006', rightsAndReproduction empty. Met HTML object page bot-walled (not read).\", \"holder_contradiction_found\": false, \"initial_lead\": \"Met 'Sakya Pandita', 18th century Tibetan painting\", \"final_portrait_source\": \"The Metropolitan Museum of Art, Eastern Tibetan thangka 'Sakya Pandita', 18th century, accession 2006.285, object 73300 (https://www.metmuseum.org/art/collection/search/73300); central-figure crop 660x870 of the 1168x1676 original\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"analytical_rigor\", \"old_score\": 76, \"old_confidence\": 0.48, \"new_score\": 72, \"new_confidence\": 0.44, \"reason\": \"Support is retrospective scholarly praise of his own writings and SEP calls the Treasury's legacy ambiguous\"}], \"reviewed_kept\": [\"social_assertiveness\", \"conflict_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none (Mongol summons deliberately excluded under zero-politics; flagged for lead)\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"none visible on the front of the thangka (no lettering or caption on the central figure or around it); identification rests on the Met title\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}

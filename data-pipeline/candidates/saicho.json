@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "saicho",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Saichō",
+    "aliases": [
+      "Saicho",
+      "Dengyo Daishi",
+      "Dengyō Daishi",
+      "Saichō of Mount Hiei",
+      "最澄",
+      "伝教大師"
+    ],
+    "wikidataId": "Q449943",
+    "birthYear": 767,
+    "deathYear": 822,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "scholar",
+      "teacher"
+    ],
+    "fieldIds": [
+      "religion",
+      "education",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_saicho_wikidata",
+      "kind": "wikidata",
+      "title": "Saichō (Q449943), verified live via the Wikidata API (2026-11-05): English label 'Saichō', description 'Japanese Buddhist monk, founder of the Japanese Tendai school', Korean label 사이초, born 15 September 767, died 26 June 822, citizenship Japan. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q449943"
+    },
+    {
+      "id": "src_saicho_tendai",
+      "kind": "institution",
+      "title": "Tendai Buddhist Institute (Tendai Buddhist Institute / Tendai tradition website), page 'Tendai in Japan', read through a summarising fetch (English): CANONICAL SIGNIFICANCE SOURCE: Saichō (767-822) ordained at Todaiji in Nara, withdrew to a hermitage on Mount Hiei, was sent to China in 804, studied on Mount Tiantai and received esoteric initiation, returned to teach the One Vehicle reading of the Lotus Sutra and to perform esoteric rituals for the court; Emperor Kanmu turned his hermitage into Enryakuji; the Tendai curriculum had a Tendai track and an esoteric track; Nara scholars such as Tokuitsu objected to his claim that all beings can attain Buddhahood; he sought autonomy from Nara and argued for the Mahayana precepts in his Kenkairon but died before the goal was reached; disciples Gishin and Ennin carried the school on. A sectarian institutional page, hedged with 'it is said' on some details.",
+      "url": "https://www.tendai.org/tendai/japan-1/"
+    },
+    {
+      "id": "src_saicho_princeton",
+      "kind": "biography",
+      "title": "'Saichō', entry in The Princeton Dictionary of Buddhism (Princeton University Press, 2014, page 737) as reproduced on the Tsadra Foundation's Buddha-Nature site, read in full (English): a scholarly dictionary entry on his birth, ordination in 785, the hermitage and the permanent temple on Mount Hiei (788), his 804 journey to Mount Tiantai with Gishin and nine and a half months in China, the Esshuroku catalogue of texts, the 806 permission for two annual Tendai ordinands, the souring of relations with Kukai after a close disciple left him, the prolonged debate with the Hosso monk Tokuitsu (with Saichō's replies Shogonjikkyo, Hokke kowaku and Shugo kokkaisho), the campaign for an independent Mahayana ordination platform (petitions repeatedly denied, permission granted a week after his death) and the naming of Gishin as successor. It notes that the exact birth place and dates are debated.",
+      "url": "https://buddhanature.tsadra.org/index.php/Saich%C5%8D"
+    },
+    {
+      "id": "src_saicho_gardiner",
+      "kind": "biography",
+      "title": "David L. Gardiner, 'Saichō', Encyclopedia of Buddhism entry as reproduced by Encyclopedia.com, read through a summarising fetch (English): a short scholarly entry recording that he began study and meditation on Mount Hiei in 785, built Enryakuji, which trained leading Japanese Buddhist monks for the next four centuries, wanted to purify and strengthen Buddhist practice, proposed that Tendai monks be exempt from ordination at Nara and proposed a Mahayana ordination centre on Mount Hiei, and that his criticism of the Nara schools, especially Hosso, drew strong opposition; the centre was built shortly after his death. It does not cover the China trip, the Tokuitsu debate or Kukai.",
+      "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/saicho"
+    },
+    {
+      "id": "src_saicho_abe",
+      "kind": "biography",
+      "title": "Ryuichi Abe, 'Saicho and Kukai: A Conflict of Interpretations', Japanese Journal of Religious Studies 22/1-2 (1995), pages 103-137 (English), downloaded as a PDF and read for the first half and the passages on the break with Kukai (not read to the end): a scholarly reappraisal based on Saichō's surviving letters, the Kenkairon engi and Kukai's letters. It reports that Saichō's encounter with esoteric Buddhism in China was largely accidental and his exposure limited, that in 805 Kanmu praised the esoteric texts he brought back, that the 806 edict gave Tendai two annual ordinands for a Tendai track and an esoteric track, that he borrowed and copied texts from Kukai (eleven of the twenty-four surviving letters to Kukai concern loans and copying, and he copied nearly half of the texts in Kukai's catalogue), asked in 811 to receive an initiation, appointed Encho and Taihan as successors in 812 when seriously ill, returned to Mount Hiei despite Kukai's repeated requests to resume study, and that Kukai finally rebuked him in a letter for violating the esoteric pledge and for attachment to writing, to which Saichō retorted by denouncing Kukai's way of instruction. Abe is a critical scholar who argues against the idealised founder accounts.",
+      "url": "https://nirc.nanzan-u.ac.jp/journal/6/article/895/pdf/download"
+    },
+    {
+      "id": "src_saicho_met",
+      "kind": "institution",
+      "title": "The Metropolitan Museum of Art, Open Access API record for object 845127, 'Portrait of Dengyo Daishi (Saicho)', Japan, Edo period, early 18th century, hanging scroll, ink, color and gold on silk (accession 2020.396.6; isPublicDomain true). Opened for the portrait only.",
+      "url": "https://www.metmuseum.org/art/collection/search/845127"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_saicho_princeton, src_saicho_tendai, src_saicho_gardiner | 810s-822 | scholarly dictionary, sectarian institution, encyclopedia entry] The Princeton Dictionary records a prolonged campaign for an independent Mahayana ordination platform at Mount Hiei in which his petitions were repeatedly denied and permission came only a week after his death; the Tendai institution page and Gardiner both say he died before the aim was reached and that the centre was built shortly afterwards. Three descriptions agree on a long, unfinished effort pursued despite refusal. Limit: the campaign's exact length and the number of petitions are not given in the sources read, and institutional backing and the disciples' continuation are part of the outcome."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_saicho_princeton, src_saicho_gardiner, src_saicho_abe | 810s-820s | scholarly dictionary, encyclopedia entry, critical journal article] Saichō engaged the Hosso monk Tokuitsu in a prolonged written debate over buddha-nature, replying to his treatises with three works (Princeton Dictionary); Gardiner says his criticism of the Nara schools, especially Hosso, drew strong opposition; Abe reports that in the break with Kukai he answered Kukai's rebuke by denouncing Kukai's manner of instruction. The costs were real: the Princeton entry says relations with Kukai soured after a disciple left, and Abe describes the rupture, so the impact is dual-edged. SELF-CALIBRATION (agent): lowered from 68/0.52 to 64/0.46 because the Tokuitsu details rest on one dictionary entry and the debate was carried on through treatises, which is weaker evidence of tolerance for direct conflict."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_saicho_abe, src_saicho_princeton | 805-817 | critical journal article, scholarly dictionary] Abe, working from Saichō's surviving letters, reports that eleven of his twenty-four extant letters to Kukai concern the loan and copying of texts, that he had copied nearly half of the texts in Kukai's import catalogue, that he asked in 811 for initiation and study with Kukai's disciples, and that he asked for training for himself and his disciples; the Princeton Dictionary adds that he brought back numerous texts from China and catalogued them in the Esshuroku, and Abe counts thirty-eight esoteric texts among them. The documented behaviour is repeated, effortful acquisition of teachings; Abe also shows his early knowledge of esoteric practice was limited and his initiation partial, so the row is about the drive to learn more, not mastery achieved."
+    },
+    "leadership_drive": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_saicho_princeton, src_saicho_abe, src_saicho_tendai | 788-822 | scholarly dictionary, critical journal article, sectarian institution] The Princeton Dictionary has him building a permanent temple on Mount Hiei in 788, obtaining permission to establish Tendai with two ordinands a year, one for doctrinal study and one for esoteric ritual, and naming Gishin successor before he died; Abe adds that in 812, seriously ill, he appointed Encho and Taihan as successors and describes the two-track curriculum as the school's design from the start; the Tendai institution page says his first-generation disciples carried the unfinished goal forward. The documented behaviour is institution-building and succession planning; the court's patronage was a large part of the outcome and is not scored."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_saicho_abe | 805-819 | critical journal article] Abe reports that Saichō's reading of his Chinese initiation changed as his understanding of esoteric Buddhism deepened through contact with Kukai: in 819 works he described Shun-hsiao's initiation as covering both the Diamond and Matrix lineages, which Abe (citing another scholar) says he probably reinterpreted after his association with Kukai, and he himself admitted in a letter that his exposure to esoteric Buddhism in China had been limited; a later Tendai priest is cited as doubting the transmission. A single scholarly source, partly speculative on motive, and the same change can be read as a revision of the record to strengthen the school's lineage, so the impact is dual-edged and confidence is low."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/saicho-unidentified-early-18th-century.jpg",
+    "width": 821,
+    "height": 1200,
+    "source": "Hanging scroll 'Portrait of Dengyo Daishi (Saicho)', Japan, Edo period (1615-1868), early 18th century, ink, color and gold on silk, artist unidentified, The Metropolitan Museum of Art, New York, Mary and Cheney Cowles Collection, Gift of Mary and Cheney Cowles, 2020 (accession 2020.396.6). The Met's Open Access API record (object 845127) marks it as public domain; the file is the figure and attendant cropped from the museum's 2368 x 4000 pixel image (mounting removed) and downscaled to 821 x 1200 pixels, with no upscaling.",
+    "license": "Public domain (The Metropolitan Museum of Art Open Access, API field isPublicDomain true; a painting of the early 18th century)",
+    "licenseUrl": "https://www.metmuseum.org/about-the-met/policies-and-documents/open-access",
+    "attribution": "Portrait of Dengyo Daishi (Saicho), Japan, Edo period, early 18th century, hanging scroll; The Metropolitan Museum of Art, Mary and Cheney Cowles Collection, Gift of Mary and Cheney Cowles, 2020, accession 2020.396.6 (Open Access)",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/845127",
+    "creator": "Unidentified Japanese artist",
+    "date": "early 18th century",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/845127"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사이초"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED. Met Open Access API object 845127 opened directly (collectionapi.metmuseum.org/public/collection/v1/objects/845127): title 'Portrait of Dengyo Daishi (Saicho)', Edo period, early 18th century, hanging scroll, ink, color and gold on silk, artist 'Unidentified', credit line Mary and Cheney Cowles Collection, Gift of Mary and Cheney Cowles, 2020, accession 2020.396.6, isPublicDomain true, rightsAndReproduction empty. The Met object web page itself returned HTTP 429 (rate limit) so the page text and any museum description were not read; the API record is the holder record, and it does not contradict Commons. The early 18th-century painting is public domain by age. The lead's alternative (Ichijo-ji portrait) was not needed. IMAGE INSCRIPTION CHECK: the downloaded 2368 x 4000 image was inspected: an elderly seated monk with a white beard, red and green robes, a staff, a young attendant, a moon and sun in a screen behind; no lettering, cartouche or label is visible, so identification rests on the Met's title only (iconography consistent with a Buddhist patriarch portrait); the artist is unidentified. The mount was cropped away and the image downscaled only. Kind historical depiction (a posthumous devotional portrait made about nine hundred years after his death). PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q449943 'Saichō', 'Japanese Buddhist monk, founder of the Japanese Tendai school', ko label 사이초, born 767-09-15, died 822-06-26, citizenship Japan; not in prod65.txt, no candidate file existed. REGION east_asia. ERA medieval (kukai, born 774, uses medieval). ZERO POLITICS: primary identity is religious founder, teacher and scholar; the imperial patronage and court recognition are context, not scored. VOCABULARY: occupations religious_leader, scholar, teacher; fields religion, education, philosophy; tags founder, mentor; archetype organizational_leader; impact domains cultural, educational, historical; all with EN and KO labels (monk is unlabeled and not used). KO NAME: Wikidata Korean label 사이초 (short, standard; Korean Wikipedia title the same). ATTRIBUTION: attributable CONFIRMED: dated actions (788, 804-805, 806, 812, 822), surviving letters (24 to Kukai), the Kenkairon engi and Esshuroku, discussed by modern scholars; no legend is scored. CANONICAL SIGNIFICANCE SOURCE: Tendai Buddhist Institute page (src_saicho_tendai). READ (4 substantive plus Wikidata): (1) Tendai institution page (summarising fetch, not saved); (2) Princeton Dictionary of Buddhism entry via Tsadra, full; (3) Gardiner's Encyclopedia of Buddhism entry via Encyclopedia.com (summarising fetch); (4) Abe 1995 JJRS PDF, first half plus the rupture passages. PERSPECTIVES: a sectarian Tendai site, a scholarly dictionary, an encyclopedia entry, a critical research article. COUNTER-VOICES AND LIMITS: Abe argues against the idealised founder accounts, shows that Saichō's esoteric training was accidental and limited, and quotes Kukai's rebuke of Saichō's attachment to writing and his breach of the esoteric pledge; the Princeton entry notes that his disciple left him for Kukai and that his petitions were refused; Gardiner records strong opposition from the Nara schools. This is a smaller source set than the 6-9 target and has no hostile Nara-side voice and no biography of his working relationships; the sources read are modern scholarly and institutional, and Saichō's own writings are not read (self-report). NOT OPENED: the Otani University article on the Tokuitsu debate (HTTP 503), the Tsadra new-host page (self-signed certificate, not used), the Encyclopedia of Buddhism Taimitsu page (empty fetch), Groner's Saicho monograph, Saichō's own letters and treatises, the Met object web page (HTTP 429). DISCREPANCIES: birthplace and exact dates are debated (Princeton); Tendai.org credits Jianzhen with the Todaiji platform and does not mention a Saichō platform; the Chinese stay is 'nine and a half months' (Princeton) or 'eleven months' (Abe). EXCLUSIONS: miraculous carving traditions ('it is said' on the Tendai page), the 'Light up your corner' slogan, posthumous cult, doctrine as personality. SPARSE PROFILE: 5 rows, scores 55-70, confidence 0.40-0.55 (pre-modern cap 0.55); no row above 0.55. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (highest score; kept at 70/0.55: three descriptions agree on the long unfinished platform campaign and the confidence is already at the pre-modern cap), conflict_tolerance (lowered 68/0.52 to 64/0.46: the Tokuitsu detail rests on one dictionary entry and the debate was written, not face to face), mastery_orientation (kept at 66/0.55: Abe's count of eleven of twenty-four letters and the copying of nearly half of Kukai's catalogue is specific documented behaviour from his own surviving letters, confirmed by the dictionary's account of the imported texts). HANDBACK65: {\"slug\": \"saicho\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Met Open Access API object 845127 (isPublicDomain true)\", \"holder_record_checked_by_you\": \"Met Open Access API v1 object 845127 opened: 'Portrait of Dengyo Daishi (Saicho)', Edo period, early 18th century, artist Unidentified, accession 2020.396.6, isPublicDomain true, rightsAndReproduction empty; the Met object web page returned HTTP 429 and was not read.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Met 'Portrait of Dengyo Daishi (Saicho)', early 18th century\", \"final_portrait_source\": \"The Metropolitan Museum of Art, Open Access, object 845127, accession 2020.396.6, image DP-21860-002 cropped to the figure and downscaled to 821x1200, no upscaling; https://www.metmuseum.org/art/collection/search/845127\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"conflict_tolerance\", \"old_score\": 68, \"old_confidence\": 0.52, \"new_score\": 64, \"new_confidence\": 0.46, \"reason\": \"Tokuitsu details rest on one dictionary entry and the debate was carried on through written treatises, weaker evidence of tolerance for direct conflict.\"}], \"reviewed_kept\": [\"persistence\", \"mastery_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"none visible (seated white-bearded monk with staff, young attendant, sun and moon; no lettering, cartouche or label)\", \"image_identity_matches_claimed_sitter\": \"ambiguous\", \"inscription_contradiction_found\": false}"
+  }
+}

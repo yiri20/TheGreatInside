@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ferenc-puskas",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ferenc Puskás",
+    "aliases": [
+      "Ferenc Puskas",
+      "Puskas Ferenc",
+      "Puskás Ferenc",
+      "Pancho",
+      "The Galloping Major",
+      "Öcsi"
+    ],
+    "wikidataId": "Q482931",
+    "birthYear": 1927,
+    "deathYear": 2006,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "HU",
+      "ES"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_puskas_wikidata",
+      "kind": "wikidata",
+      "title": "Ferenc Puskás (Q482931), verified live via the Wikidata API (2026-11-05): English label 'Ferenc Puskás', description 'Hungarian association football player (1927-2006)', Korean label 푸슈카시 페렌츠, born 1 April 1927, died 17 November 2006, citizenship Hungary and Spain. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q482931"
+    },
+    {
+      "id": "src_puskas_olympedia",
+      "kind": "archive",
+      "title": "Olympedia (Olympic historians' athlete database), biography of Ferenc Puskas, read in full. CANONICAL SIGNIFICANCE SOURCE: front man of the 'Mighty Magyars' of the 1950s, 1952 Olympic football champion and 1954 World Cup finalist (he scored the first goal in the 3-2 loss to West Germany), later three European Cups with Real Madrid (1959, 1960, 1966), Spanish citizenship and a 1962 World Cup appearance for Spain, then coaching in nine countries with his biggest success at Panathinaikos (1971 European Cup final, two league titles) and further league titles with AEK Athens, Sol de America and South Melbourne Hellas; the Hungarian national stadium was renamed for him in 2002. Reference database written by Olympic historians; it counts 85 internationals and 84 goals where press obituaries count 84 and 83.",
+      "url": "https://www.olympedia.org/athletes/25748"
+    },
+    {
+      "id": "src_puskas_scotsman",
+      "kind": "press",
+      "title": "The Scotsman, obituary 'Ferenc Puskas' (November 2006), read in full: left-footed forward with a low centre of gravity whose 'attention to practice' produced exceptional ball control; overweight during his prime but built a method that played to his strengths; made the Kispest first team at 16; the 1953 6-3 win at Wembley and the drag-back on Billy Wright; the 1954 World Cup final, in which he returned from injury 'clearly short of fitness', scored and had an equaliser ruled offside; the two-year ban, exile in Milan and Real Madrid career (1959 European Cup, four goals in the 1960 final against Eintracht Frankfurt); retired from playing about 40; coached around the world, most successfully Panathinaikos to the 1971 European Cup final. Newspaper obituary, admiring; some figures differ from other sources (it gives 84 goals in 85 internationals and a 2 April birth date).",
+      "url": "https://www.scotsman.com/news/obituaries/ferenc-puskas-2469189"
+    },
+    {
+      "id": "src_puskas_irishtimes",
+      "kind": "press",
+      "title": "The Irish Times, 'The best player of his generation' (obituary, November 2006), read in full: Honved and Real Madrid goalscoring figures; international record of 83 goals in 84 games that stood until 2003; Olympic gold in 1952; first cap at 17 with a goal on debut against Austria; the Di Stefano partnership and the 7-3 win over Eintracht Frankfurt in 1960; coached Panathinaikos to the 1971 European Cup final; compared in physique and style with Maradona and in scoring with Pele; a former neighbour recalls him as down to earth. Wire-style obituary, admiring.",
+      "url": "https://www.irishtimes.com/news/the-best-player-of-his-generation-1.1031056"
+    },
+    {
+      "id": "src_puskas_realmadrid",
+      "kind": "institution",
+      "title": "Real Madrid C.F. official website, 'Ferenc Puskas Biro' (history and honours page), read in full: he arrived at 31 after Honved; Spanish fans thought the 'old and overweight man' out of his depth and 'soon discovered they were mistaken'; his goalscoring was essential to three European Cups and five league titles; the club describes his gentlemanliness, charm and friendliness; FIFA named its best-goal award after him. Club page, celebratory.",
+      "url": "https://www.realmadrid.com/en-US/the-club/history/football-legends/ferenc-puskas-biro"
+    },
+    {
+      "id": "src_puskas_fifa",
+      "kind": "award_body",
+      "title": "FIFA.com, 'The beginning of the Magyars' magic' (feature on the start of Hungary's 31-match unbeaten run), read in full: Puskas is the team's 'captain and star striker' with 83 goals in 84 internationals; his own remark that the team were 'the prototype for Total Football' and 'when we attacked, everyone attacked'; Hidegkuti's, Sebes's and an England player's tributes; the 1952 Olympic title, the 1953 Wembley win, the 1954 World Cup route and the final defeat. Governing-body feature; the teammate and opponent quotes are tributes, the Puskas quotes are self-report.",
+      "url": "https://inside.fifa.com/news/the-beginning-of-the-magyars-magic"
+    },
+    {
+      "id": "src_puskas_hungarytoday",
+      "kind": "press",
+      "title": "Hungary Today, 'Ferenc Puskas, One of the Greatest Footballers of All Time, Died 15 Years Ago' (17 November 2021), read in full: 83 goals in 84 internationals, 1952 Olympic champion, two goals in the 'Match of the Century' at Wembley, named best player of the 1954 World Cup, three European Cups with Real Madrid, four caps for Spain, and later management of Panathinaikos, Colo-Colo, Saudi Arabia, AEK Athens and, finally, Hungary; the Hungarian national stadium bears his name. Hungarian news site, retrospective and admiring.",
+      "url": "https://hungarytoday.hu/ferenc-puskas-greatest-hungarian-footballer-real-madrid-golden-team-died/"
+    },
+    {
+      "id": "src_puskas_footballtimes",
+      "kind": "press",
+      "title": "These Football Times, 'How Alfredo Di Stefano and Ferenc Puskas became football's most prolific partnership' (27 August 2018), read in full: his weight on arrival at Madrid at 31 (his reported remark 'I can't play. I'm too fat'), the plastic rings he hung in his garden to practise shooting for hours, his deference to Di Stefano as the star (including passing across an open goal for Di Stefano in the last game of the first season), the four goals in the 1960 final and his later three-goal final in 1962; also reports that he told France Football that the 1954 German team had been doped, later retracted. Independent football-history writer, a feature rather than a primary account; the anecdotes are unsourced in the article, so they are corroborated only in general terms by the club page and obituaries.",
+      "url": "https://thesefootballtimes.co/2018/08/27/duology-how-alfredo-di-stefano-and-ferenc-puskas-became-footballs-most-prolific-partnership/"
+    },
+    {
+      "id": "src_puskas_uefa",
+      "kind": "award_body",
+      "title": "UEFA.com, 'Panathinaikos class of '71 get their due' (feature, read via a web reader), read in full: Puskas arrived at Panathinaikos in 1970 and had an immediate impact; striker Antonis Antoniadis says 'He instilled hope in us' and credits him with improving the players mentally; he spoke little before matches and expected players to prepare properly; before the final he said 'Go out there, play your football and enjoy the game!'; Panathinaikos beat Jeunesse Esch, Slovan Bratislava, Everton and Red Star Belgrade (on away goals after a 4-1 loss) and lost the 1971 Wembley final 2-0 to Ajax. Governing-body feature built on one player's recollections.",
+      "url": "https://www.uefa.com/news-media/news/0253-0d7f4de51f55-1ef0afc69e52-1000--panathinaikos-class-of-71-get-their-due/"
+    },
+    {
+      "id": "src_puskas_rsssf",
+      "kind": "archive",
+      "title": "RSSSF (Rec.Sport.Soccer Statistics Foundation) archive page 'Puskas' (compiled from 1990-1994 rec.sport.soccer discussion posts), read in full: career outline including coaching posts in the United States, Canada, Greece, Saudi Arabia, Chile, Australia and an interim role with Hungary in 1993; and, in one post, quotations from Brian Glanville's 'The History of the World Cup' that Puskas was kicked in the group match against West Germany, that whether he would play the final was the 'great question' and that his playing was 'a manifest mistake, a testimony to the captain's own powers of persuasion rather than the good sense' of the coaches. Volunteer-compiled Usenet material: the Glanville passages are second-hand (the book was not opened) and several details in the compilation are loosely worded; used only as a critical voice, not for facts.",
+      "url": "https://rsssf.org/rssbest/puskas.html"
+    },
+    {
+      "id": "src_puskas_pao",
+      "kind": "institution",
+      "title": "Panathinaikos FC official website, '55 years since Wembley's epic era' (club history page), read in full: the club's own account of the 1970-71 European Cup run under 'Ferenc Puskas' great Panathinaikos', the first and so far only Greek team in a European Cup final, losing 2-0 to Ajax. Club page, celebratory; used for the coaching achievement only.",
+      "url": "https://www.pao.gr/en/fc/55-years-since-wembleys-epic-era/"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_puskas_scotsman, src_puskas_footballtimes, src_puskas_irishtimes | 1940s-1960s | newspaper obituary + football-history feature + newspaper obituary] The Scotsman obituary says his attention to practice developed his ball control with the left foot and that he built a method that let him play to his strengths and mask his technical faults; These Football Times says that after arriving at Real Madrid unfit he hung plastic rings of different sizes in his garden and spent hours shooting the ball through them; the Irish Times describes him as clinical in front of goal with a scoring rate near a goal a game. The practice habit is documented by two independent writers, but the garden detail is a single unsourced anecdote, so the row is moderate rather than high."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_puskas_footballtimes, src_puskas_realmadrid, src_puskas_fifa | 1958-1966 | football-history feature + club page + governing-body feature] These Football Times says he accepted that Di Stefano was the star at Real Madrid and, in the last game of his first season when both were level as top scorers, rounded the goalkeeper and passed across an open goal for Di Stefano; the club page credits his gentlemanliness and friendliness; FIFA records Hidegkuti praising him and Puskas describing the Golden Team as one in which everyone attacked and everyone defended (his own words, self-report). The pass is a single anecdote from one feature, and the praise is largely retrospective, so confidence is low."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_puskas_olympedia, src_puskas_footballtimes, src_puskas_scotsman, src_puskas_rsssf | 1958-1993 | reference database + football-history feature + newspaper obituary + archive compilation] After a two-year ban he joined Real Madrid at 31 (club page, Olympedia, Scotsman), fitted into a side built around Di Stefano as a pure goalscorer who, per These Football Times, did not come back for the ball (the club page says fans first doubted him), took Spanish citizenship and played for Spain at the 1962 World Cup (Olympedia, Hungary Today), and after playing coached in nine countries on four continents, from the United States and Canada to Greece, Chile, Saudi Arabia and Australia (Olympedia, RSSSF). The moves and roles are well documented; the trait reading is an inference from the pattern, and results as a coach were mixed outside Greece."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_puskas_scotsman, src_puskas_rsssf, src_puskas_irishtimes | 1953-1960 | newspaper obituary + archive compilation quoting Glanville + newspaper obituary] The Scotsman says he returned for the 1954 World Cup final after the injury 'clearly short of fitness', scored and had a late equaliser ruled offside; the RSSSF compilation quotes Brian Glanville that playing him was 'a manifest mistake, a testimony to the captain's own powers of persuasion rather than the good sense' of the coaches (second-hand, book not opened); the Irish Times and Scotsman document goal tallies of close to a goal a game, including four in the 1960 European Cup final. The drive to play and score is well supported, but the claim that he personally persuaded the coaches rests on one second-hand critic, so it is dual-edged and low confidence. SELF-CALIBRATION (agent): top-risk row; lowered from 62 / 0.44 to 60 / 0.40 because the key behavioural claim reaches us only through a Usenet compilation quoting a critic and the statistics show scoring more than rivalry."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_puskas_fifa, src_puskas_irishtimes, src_puskas_uefa, src_puskas_pao | 1950s, 1970-1971 | governing-body features + newspaper obituary + club page] FIFA calls him the Golden Team's captain and star striker and the Scotsman an 'inspirational captain'; as Panathinaikos coach from 1970 a striker told UEFA he 'instilled hope in us', improved the players mentally and spoke little before matches, expecting them to prepare properly, and the club page credits his side with the first Greek European Cup final. Captaincy is a documented role and he kept returning to coaching across countries, but the coaching evidence is one player's recollection reported by UEFA and the club's own celebration. SELF-CALIBRATION (agent): top-risk row; lowered from 64 / 0.50 to 62 / 0.46 because the behavioural evidence is a single player's recollection and club pride, while captaincy shows a role more than a drive."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "푸슈카시 페렌츠"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ferenc-puskas-anefo-1971.jpg",
+    "width": 789,
+    "height": 1200,
+    "source": "Black-and-white press photograph of Ferenc Puskas on his arrival at Amsterdam-Schiphol airport as coach of the Greek club Panathinaikos, 4 May 1971, by an unknown photographer for Anefo; Nationaal Archief (Dutch National Archives), Fotocollectie Anefo, file number 924-5181, series 'Aankomst van Ferenc Puskas, trainer van de Griekse voetbalclub' (permanent link hdl.handle.net/10648/abbde3be-d0b4-102d-bcf8-003048976d84). Rights review: the live archive record (opened 2026-11-05) gives the photographer as 'Fotograaf Onbekend / Anefo', the date 1971-05-04, the person keyword 'Puskas, Ferenc', the organisation 'Panathinaikos' and the rights holder as 'Nationaal Archief, CC0'; the archive's own original file is a normal portrait frame (not a failed shot) with the same 2399 x 3650 pixel dimensions as the Commons copy, and the Commons file page also states CC0. The sitter is identified by the archive title and person keyword; the frame carries no lettering. Original 2399 x 3650 pixels, downscaled to 789 x 1200 (no cropping, never upscaled).",
+    "license": "CC0 1.0 (public domain dedication by the Nationaal Archief)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photo: Anefo (unknown photographer), 4 May 1971, Nationaal Archief, CC0, resized from the original",
+    "attributionUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/abbde3be-d0b4-102d-bcf8-003048976d84",
+    "creator": "Anefo (unknown photographer)",
+    "date": "1971-05-04",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/abbde3be-d0b4-102d-bcf8-003048976d84"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED: the lead's image was used (Anefo 924-5181, 4 May 1971). The live Nationaal Archief record (page JSON) states photographer 'Fotograaf Onbekend / Anefo', date 1971-05-04, person 'Puskas, Ferenc', organisation Panathinaikos, rights holder 'Nationaal Archief, CC0'; the archive's own original download (2399x3650) is a normal portrait frame, not a failed shot (Eusebio lesson), and matches the Commons copy; the frame has no lettering (a microphone is at the edge); the Commons P18 image (Arquivo Nacional, Brazil, URAA template) was not used. I did not need the Fortepan alternative. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q482931 label 'Ferenc Puskás', description 'Hungarian association football player (1927-2006)', ko label 푸슈카시 페렌츠, born 1 April 1927, died 17 November 2006, citizenship Hungary and Spain; Wikidata and Scotsman/Football Times differ on birth date (1 vs 2 April), birth year 1927 is consistent; not in prod65.txt; no candidate file existed for ferenc-puskas. REGION central_europe (Hungarian precedents: Bartok, Liszt, Semmelweis, Erdos, Kariko). ERA 20th_century (career 1943-1993). ZERO POLITICS: primary identity footballer and coach; the army 'Major' rank and the nickname, the 1956 revolution and his decision not to return, the FIFA ban as a political consequence, the 1993 pardon and the Franco-era publicity are context and are not scored or carded. EXCLUSIONS: family and private life, health, the Alzheimer's illness and death are not used. VOCABULARY: occupation athlete; field sport; tags competitor and sustained_excellence; archetype competitive_performer; impact domains athletic and cultural, all grepped in en.ts and ko.ts. KO NAME: Wikidata Korean label 푸슈카시 페렌츠 (Hungarian name order, source Wikidata; short). ATTRIBUTION: attributable (extensive contemporary and retrospective documentation). CANONICAL SIGNIFICANCE SOURCE: Olympedia biography (https://www.olympedia.org/athletes/25748). READ (substantive): Olympedia (archive); The Scotsman obituary (press); The Irish Times obituary (press); Real Madrid official history page (institution); FIFA.com feature on the Golden Team (award body); Hungary Today retrospective (press); These Football Times feature on the Di Stefano partnership (press); UEFA.com feature on Panathinaikos 1971 (award body; read through a web reader); RSSSF compiled archive page (archive, volunteer Usenet compilation quoting Glanville second-hand); Panathinaikos club page (institution). 10 sources plus Wikidata for the QID. Also read but not used as row support: the Irish Times report of the 2010 German study on Pervitin at the 1954 World Cup (context for the doping controversy). PERSPECTIVES: (1) newspaper obituaries in Scotland and Ireland and a Hungarian news site; (2) two clubs (Real Madrid, Panathinaikos) and two governing bodies (FIFA, UEFA); (3) an independent football-history writer (These Football Times); (4) a reference database (Olympedia); (5) a critical voice: Glanville, quoted second-hand, on the 1954 final decision, plus the Scotsman's note that he was short of fitness; (6) self-report only in FIFA quotes ('prototype for Total Football'). NON-SELF BEHAVIOURAL SOURCES: Scotsman, Football Times, UEFA/Panathinaikos recollection, Olympedia. COUNTER-VOICES: limited: no adversarial biography was found or opened; the 'overweight' and 'fitness' notes in the Scotsman, club page and Football Times are the only critical material, plus the Glanville quotation. NOT OPENED: his autobiography, Hungarian-language biographies and press, the Guardian/Observer obituary (reached only as a fan-site reprint that I chose not to use), Britannica (bot wall), Jonathan Wilson and Glanville books. DISCREPANCIES: Scotsman gives 84 goals in 85 internationals and a 2 April birth date, other sources 83 in 84 and 1 April (I use '83 goals in 84 internationals, counts differ'); retirement age 39/40; his weight gain on arrival is stated differently (about 12 or over 18 kilos in weaker sources) so no figure is used; the signing date varies (June versus 11 August 1958). One feature (These Football Times) says he retracted a doping claim after a German objection and had to write an apology: it is single-source and not scored. FIRST/ONLY: the Scotsman and Football Times say four goals in a European Cup final is unmatched; not used. SCORING: 5 rows (mastery_orientation 68/0.52, adaptability 64/0.52, collaboration 62/0.46, leadership_drive 62/0.46, competitiveness 60/0.40); no row above 0.52 confidence because every behavioural source is an admiring obituary/club/governing-body piece or a single anecdote and there is no adversarial biography. SELF-CALIBRATION (agent): top-risk rows reviewed: competitiveness (lowered 62/0.44 -> 60/0.40: its key claim is second-hand through a Usenet compilation quoting a critic), leadership_drive (lowered 64/0.50 -> 62/0.46: one player's recollection plus club pride), collaboration (kept at 62/0.46: already low, one anecdote but corroborated by the club page and FIFA's team quotes). Broad flag for the lead: none; sparse profile, scores 60-68, confidence 0.40-0.52. HANDBACK65: {\"slug\": \"ferenc-puskas\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Nationaal Archief item page opened (embedded CC0 label); Commons CC0 agrees\", \"holder_record_checked_by_you\": \"Opened the live Nationaal Archief record for Bestanddeelnr 924-5181 (hdl.handle.net/10648/abbde3be-d0b4-102d-bcf8-003048976d84; the page's embedded JSON): collection Fotocollectie Anefo, series 'Aankomst van Ferenc Puskas, trainer van de Griekse voetbalclub', date 1971-05-04, location Schiphol, person keyword 'Puskas, Ferenc', organisation 'Panathinaikos', photographer 'Fotograaf Onbekend / Anefo', rights holder 'Nationaal Archief, CC0', material black-and-white negative; downloaded the archive's own original file (service.archief.nl, 2399x3650), which is a normal frame (not a failed shot) matching the Commons file dimensions.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Anefo photograph 1971-05-04, Nationaal Archief (Bestanddeelnr 924-5181 and sister frame)\", \"final_portrait_source\": \"Nationaal Archief, Fotocollectie Anefo, 924-5181, 4 May 1971, https://www.nationaalarchief.nl/onderzoeken/fotocollectie/abbde3be-d0b4-102d-bcf8-003048976d84 (CC0); original 2399x3650 downscaled to 789x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"image_inscription_check\": \"none visible (close portrait with a microphone at the lower right; no caption, label or lettering in the frame)\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"competitiveness\", \"old_score\": 62, \"old_confidence\": 0.44, \"new_score\": 60, \"new_confidence\": 0.4, \"reason\": \"The key behavioural claim (persuading the coaches to play him in the 1954 final) reaches us only through a Usenet compilation quoting a critic, and the goal statistics show scoring more than rivalry\"}, {\"attribute\": \"leadership_drive\", \"old_score\": 64, \"old_confidence\": 0.5, \"new_score\": 62, \"new_confidence\": 0.46, \"reason\": \"The coaching evidence is one player's recollection reported by UEFA plus club pride, and captaincy shows a role more than a drive\"}], \"reviewed_kept\": [\"collaboration\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  }
+}

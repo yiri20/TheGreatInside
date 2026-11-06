@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bernardino-de-sahagun",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bernardino de Sahagún",
+    "aliases": [
+      "Bernardino de Sahagun",
+      "Fray Bernardino de Sahagún",
+      "Bernardino de Ribeira",
+      "Bernardino de Rivera"
+    ],
+    "wikidataId": "Q379972",
+    "birthYear": 1499,
+    "deathYear": 1590,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "latin_america",
+    "historicalPolityKey": "polity.new_spain"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "writer",
+      "historian",
+      "teacher"
+    ],
+    "fieldIds": [
+      "linguistics",
+      "religion",
+      "education"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural",
+      "educational",
+      "literary"
+    ],
+    "tagIds": [
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sahagun_wikidata",
+      "kind": "wikidata",
+      "title": "Bernardino de Sahagun (Q379972), verified live via the Wikidata API (2026-11-05): label 'Bernardino de Sahagún', description 'ca. 1499-1590, Spanish mesoamericanist, evangelizador, fraile franciscano, misionero', birth 1499 (also 1500) and death 1590, Korean label 베르나디노 데 사아군, Korean Wikipedia title 베르나르디노 데 사아군. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q379972"
+    },
+    {
+      "id": "src_sahagun_loc",
+      "kind": "institution",
+      "title": "Library of Congress news release, 'World Digital Library Adds Florentine Codex' (31 October 2012; archived copy on the UNT Web Archive, read in full). CANONICAL SIGNIFICANCE SOURCE: calls the Florentine Codex 'one of the most important sources for the history of pre-Columbian and early post-Columbian Mexico'; names Historia general de las cosas de Nueva Espana as 'an encyclopedic work about the people and culture of central Mexico compiled over a period of 30 years by Fray Bernardino de Sahagun (1499-1590), a Franciscan missionary who arrived in Mexico in 1529'; text in Spanish and Nahuatl; 12 books 'richly illustrated by indigenous artists' covering Aztec religion and calendar, economic and social life, history and mythology, plants and animals, and the Spanish conquest as seen by the native Mexicans; digitisation by the Library of Congress with the Laurentian Library, Florence. Institutional announcement of a digitisation, so its praise is celebratory and about the work, not about Sahagun's behaviour.",
+      "url": "https://webarchive.library.unt.edu/web/20121106191429id_/http://www.loc.gov/today/pr/2012/12-194.html"
+    },
+    {
+      "id": "src_sahagun_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica page 'Bernardino de Sahagun' (the page has no standalone article; the human-written excerpts from the Britannica articles on pre-Columbian civilizations shown on it were read, and its machine-generated summary was ignored): a Franciscan priest who arrived in Mexico very early (1529), learned the Nahuatl tongue and spent his life building 'a real encyclopaedia', the Historia general; he was ordered to write in Nahuatl the information his colleagues needed for the conversion of the indigenous peoples. Short; used to confirm the outline and the stated missionary purpose.",
+      "url": "https://www.britannica.com/biography/Bernardino-de-Sahagun"
+    },
+    {
+      "id": "src_sahagun_lopezaustin",
+      "kind": "biography",
+      "title": "Alfredo Lopez Austin, 'The Research Method of Sahagun', chapter in Munro S. Edmonson (ed.), Sixteenth-Century Mexico: The Work of Sahagun (School of American Research / University of New Mexico Press, 1974), read from the Mesoweb scan (the pages on his purposes, the Tepepulco and Tlatelolco inquiries, the Mexico-Tenochtitlan revision and the four documented stages of the work; the scan's OCR is imperfect and the left columns of some pages are garbled, so only passages legible in full are relied on). A scholar's analysis that quotes Sahagun's own prologue (SELF-REPORT: the interviews, the elders and the four Latinists, 'nearly two years' at Tepepulco, a year or more at Tlatelolco, three years of rereading, 'strainers' of Tepepulco, Tlatelolco and Mexico) and adds his own judgement: Sahagun's stated purposes were to know the former religion in order to prevent the return to idolatry, to record Nahuatl vocabulary for preaching, and to correct the opinion that the natives had a low cultural level, and the work 'could not have been the result of a merely academic restlessness'. Scholarly, mid-twentieth-century Mexican-school reading.",
+      "url": "https://www.mesoweb.com/es/articulos/sub/Research.pdf"
+    },
+    {
+      "id": "src_sahagun_burkhart",
+      "kind": "biography",
+      "title": "Louise M. Burkhart, review of Miguel Leon-Portilla, 'Bernardino de Sahagun: First Anthropologist' (University of Oklahoma Press, 2002), The Catholic Historical Review 89:2 (April 2003), pp. 351-352 (read in full). An independent scholarly assessment and the counter-voice: Sahagun's surviving writings establish 'his pre-eminence in documenting Nahua civilization'; his method used interviews, questionnaires and 'extensive involvement of Nahua consultants, research assistants, artists, and scribes'; he 'never ceased to view native religion as idolatrous'; calling him 'pioneer' or 'father' of anthropology is 'an overstatement' because none of his ethnography was published until the nineteenth century, though 'anthropologist' is valid; the content was 'elicited and organized by Sahagun' but 'written and edited by Nahuas in Nahuatl'; the review faults the biography for not fully addressing the Nahua side or the research assistants, and notes Walden Browne's argument that he stayed too medieval to be a precursor of modern anthropology.",
+      "url": "https://muse.jhu.edu/article/43462"
+    },
+    {
+      "id": "src_sahagun_newberry",
+      "kind": "institution",
+      "title": "Newberry Library, 'Christianizing the Nahua' (section 3 of the online exhibition 'The Aztecs and the Making of Colonial Mexico', on the Primeros Memoriales, Tepepulco 1559-61; page read in full): between 1559 and 1561 Sahagun interviewed learned indigenous noblemen at Tepepulco, who showed pictorial documents; four noblemen fluent in Spanish, Nahuatl and Latin, his former students from the Franciscan Colegio de Santa Cruz in Tlatelolco, assisted as scribes and made the drawings; 'although Sahagun pursued his work in order to create tools for eliminating Aztec religious practices, his work is now a major source of information about Aztec religious knowledge and practice'. Short institutional exhibition text.",
+      "url": "https://publications.newberry.org/aztecs/s3i12.html"
+    },
+    {
+      "id": "src_sahagun_iglehart",
+      "kind": "archive",
+      "title": "Fanny Chambers Gooch Iglehart, 'Face to Face with the Mexicans' (New York: Fords, Howard and Hulbert, 1887; Internet Archive scan from the University of North Carolina at Chapel Hill, item facetofacewithme00igle, metadata possible-copyright-status NOT_IN_COPYRIGHT). Portrait source only: the plate on page 375 is captioned 'BERNARDINO DE SAHAGUN'; the surrounding page text (pp. 375-376) is a popular-travel-book paragraph that is not used as evidence for any row.",
+      "url": "https://archive.org/details/facetofacewithme00igle"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 74,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sahagun_loc, src_sahagun_lopezaustin, src_sahagun_burkhart | 1547-1585 | library press release, scholar's chapter quoting his prologue, scholarly review] The Library of Congress says the Historia general was 'compiled over a period of 30 years'; Lopez Austin, quoting Sahagun's prologue, records nearly two years of interviews at Tepepulco, more than a year of re-examination at Tlatelolco and three years of rereading, correcting and dividing the work into twelve books; Burkhart notes he spent 61 years in Mexico. The multi-decade effort is attested independently by the Library of Congress, while the stage durations are his own account (self-report) as relayed by Lopez Austin. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 78 / 0.55 to 74 / 0.5 because the long-labour claim leans on his own prologue (self-report) quoted by a scholar and a library press release."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sahagun_lopezaustin, src_sahagun_newberry, src_sahagun_burkhart, src_sahagun_loc | 1559-1580s | scholar's chapter, library exhibition, scholarly review, library press release] The method depended on Nahua elders as informants and on four trilingual former students who served as scribes and artists (Newberry, Lopez Austin quoting his prologue), the Nahua participants 'wrote and edited' the Nahuatl text (Burkhart) and the Library of Congress credits indigenous artists with the illustrations. Collaboration is well attested, but the partnership was between a missionary directing colonised assistants and informants, Burkhart faults the standard biography for not fully addressing the Nahua side, and the account of the working relationship rests heavily on Sahagun's own prologue, so the score is moderate and dual-edged. SELF-CALIBRATION (agent): top-risk row; lowered from 74 / 0.55 to 70 / 0.50 because the picture of the working relationship leans on his own prologue and on an unequal missionary-informant setting that Burkhart says is under-documented."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sahagun_lopezaustin, src_sahagun_loc | 1547-1580s | scholar's chapter, library press release] Lopez Austin describes a draft outline prepared before the Tepepulco inquiry, followed question by question, a staged process (Primeros Memoriales, the Madrid codices, the Florentine Codex) and the final division into twelve books with chapters and paragraphs, with successive 'strainers' of Tepepulco, Tlatelolco and Mexico; the Library of Congress describes the finished 12-book structure. The staging and the outline are documented by a scholar, but the plan is read from the manuscripts and the prologue rather than from independent witnesses, hence confidence 0.50."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sahagun_loc, src_sahagun_burkhart | 1550s-1580s | library press release, scholarly review] The twelve books cover religion and calendar, economic and social life, history and mythology, plants and animals and the conquest (Library of Congress); Burkhart lists religious belief and practice, moral philosophy, daily life, natural history and the Spanish conquest. The breadth is the breadth of the work he organised, in which Nahua informants supplied much of the content, so it supports an encyclopedic range of attention more than personal mastery of many fields; moderate score, low confidence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "베르나르디노 데 사아군"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bernardino-de-sahagun-iglehart-1887.jpg",
+    "width": 520,
+    "height": 910,
+    "source": "Engraved portrait of Bernardino de Sahagun, captioned 'BERNARDINO DE SAHAGUN.', page 375 of Fanny Chambers Gooch Iglehart, 'Face to Face with the Mexicans' (New York: Fords, Howard and Hulbert, 1887), from the University of North Carolina at Chapel Hill copy digitised by the Internet Archive. A posthumous nineteenth-century engraving whose engraver and source image the book does not name, made about 300 years after his death; not a lifetime likeness. The file is a crop of the plate and its caption from the full page scan (1747 x 2620), 520 x 910, no upscaling; the left shoulder is clipped slightly to avoid adjacent text.",
+    "license": "Public domain (US book published in 1887; the archive's record gives NOT_IN_COPYRIGHT)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Bernardino de Sahagun, engraving in Fanny Chambers Gooch Iglehart, Face to Face with the Mexicans, New York, 1887, p. 375. Internet Archive, University of North Carolina at Chapel Hill copy, public domain",
+    "attributionUrl": "https://archive.org/details/facetofacewithme00igle",
+    "creator": "Unknown engraver (plate published in Fanny Chambers Gooch Iglehart's book)",
+    "date": "1887",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://archive.org/details/facetofacewithme00igle"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / LEAD REJECTED, REPLACEMENT FOUND AND USED. Lead (Museo Nacional de Historia, Castillo de Chapultepec, anonymous 17th-century oil on canvas, 205 x 117.5 cm, inventory 10-54128, Commons CC BY-SA 4.0 photo): the HOLDER record was opened (INAH institutional repository, repositorio.inah.gob.mx/o-6933, via mediateca.inah.gob.mx object pintura:3971) and states 'Derechos: Instituto Nacional de Antropologia e Historia ... Licencia Creative Commons Atribucion-NoComercial-SinDerivadas 4.0 Internacional CC BY-NC-ND 4.0', usable only for non-commercial purposes, unaltered, with reference data. That contradicts the Commons CC BY-SA licence and imposes NonCommercial/NoDerivatives terms, so the route is NOT acceptable (this is the predicted Mexican-federal-collection risk); the record also shows the painting's cartouche inscription ('El Ve. Pe. Fr Bernardino Sahagun, varon eftanico, y Doctifsimo ... Murio año de 1590') so identity there is fine but rights are not. Also rejected: the O'Gorman painting (Cecil Crawford O'Gorman, died 1943, Commons tag PD-art/PD-old-auto rests on a life-plus-70 basis only; a Mexican work of 1910-1943 was very likely still protected in Mexico in 1996, so URAA restoration is likely and no secure US basis exists), and the Wellcome Collection photograph after a lithograph (V0028283, work ezqnmfk7, holder licence Public Domain Mark; no creator, date or lettering on the image, the 'photograph after lithograph' record gives no underlying artist or date, so identity rests on the catalogue title only; it is a lithograph of the same pose and costume as the lettered plate below, which corroborates the sitter but not its rights). REPLACEMENT: plate on page 375 of Fanny Chambers Gooch Iglehart, 'Face to Face with the Mexicans' (New York: Fords, Howard and Hulbert, 1887; Internet Archive item facetofacewithme00igle from the University of North Carolina at Chapel Hill; archive.org metadata date 1887, possible-copyright-status NOT_IN_COPYRIGHT). HOLDER/ITEM RECORD CHECKED: the Internet Archive record documents the 1887 US publication; the author died in 1913; a US book published in 1887 is public domain in the United States. Page images n380 (the plate page, leaf 380 of 604) and n381 (page 376) were downloaded at full size (1747 x 2620); the plate sits on page 375 beside the text and is lettered BERNARDINO DE SAHAGUN. under the engraving, and the book's list of illustrations gives 'Bernardino de Sahagun 375'. The portrait is a crop of the plate and its caption from the page scan (520 x 910, no upscaling; the left shoulder is clipped by about 30 pixels to avoid adjacent text). The engraver and the source image are not named in the book, so kind is historical_depiction (a posthumous, 19th-century engraving after an earlier image, not a lifetime likeness). Commons also hosts the same plate as 375-Father Bernadino de Sahagun.jpg (PD-US, 507 x 725, the same plate); the higher-resolution page scan was used instead. PREFLIGHT (identity/QID/region): Wikidata Q379972 verified live (label 'Bernardino de Sahagún', ca. 1499-1590, Franciscan, Korean label 베르나디노 데 사아군); no production or candidate collision (prod65.txt, candidate directory). Korean name: the Korean Wikipedia title '베르나르디노 데 사아군' is used (the Wikidata Korean label is 베르나디노 데 사아군; the kowiki title is the standard article name). Region: latin_america follows the career base (61 years in New Spain; precedent Inca Garcilaso, PE/ES, latin_america); nationality ES (birthplace) with polity key polity.new_spain (the Sor Juana precedent); era early_modern. ZERO POLITICS: friar-ethnographer; the Franciscan-colonial context and any dispute with colonists or royal officials are unscored context; the evangelising purpose is stated as motive context, not scored as a trait. ATTRIBUTION: attributable (lead) / CONFIRMED: the working method, durations and the surviving manuscripts are documented by a scholar and independently attested (LOC 30 years); his own prologue is quoted, so its statements are labelled self-report. CANONICAL SIGNIFICANCE SOURCE: Library of Congress news release on the Florentine Codex (src_sahagun_loc). SOURCES READ: LOC release (full), Britannica excerpts (short), Lopez Austin chapter (pp. 113-118 in legible OCR), Burkhart review (full), Newberry exhibition text, Iglehart book plate page. PERSPECTIVES: a library institution, a Mexican-school scholar (Lopez Austin, 1974), an independent Americanist reviewer (Burkhart, 2003), a library exhibition, and Sahagun's own prologue (self-report). COUNTER-VOICE: Burkhart (idolatry view, 'overstatement' of pioneer claims, under-credited Nahua side, Browne's medieval-thinking objection) and Lopez Austin's own point that the work served evangelisation. Non-self behavioural source: Lopez Austin and Burkhart. NOT OPENED: Leon-Portilla's biography (lending-only), the Florentine Codex itself and its Dibble-Anderson translation, Sahagun and the Transition to Modernity (Browne), the Journal of San Diego History review (403), the Edmonson volume's other chapters and its introduction on his last years and the confiscation (only the contents list read), Discover and Mexico News Daily articles, and the claim that his work was confiscated by royal order (reported by secondary summaries only; unscored). The 'first ethnographer/anthropologist' claim is not used (Burkhart calls 'pioneer/father' an overstatement). SELF-CALIBRATION (agent): top-risk rows reviewed: collaboration (74/0.55 lowered to 70/0.50: reliance on his own prologue and an unequal missionary-informant setting), persistence (kept: the 30-year span is independently stated by the Library of Congress), planning_orientation (kept: already 72/0.50, one scholar's reading of the manuscripts). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. HANDBACK65: {\"slug\": \"bernardino-de-sahagun\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Mexican Museo Nacional de Historia record cited; reuse terms unread (Mexican federal collections often restrict images)\", \"holder_record_checked_by_you\": \"INAH institutional repository record for the Museo Nacional de Historia painting (repositorio.inah.gob.mx/o-6933; mediateca.inah.gob.mx pintura:3971) opened: rights INAH, licence CC BY-NC-ND 4.0, non-commercial and no alteration; cartouche inscription naming Bernardino Sahagun recorded. For the replacement: Internet Archive item metadata for facetofacewithme00igle (date 1887, New York, possible-copyright-status NOT_IN_COPYRIGHT).\", \"holder_contradiction_found\": true, \"initial_lead\": \"Museo Nacional de Historia 17th-century portrait (Commons CC BY-SA photo)\", \"final_portrait_source\": \"Fanny Chambers Gooch Iglehart, 'Face to Face with the Mexicans' (New York: Fords, Howard & Hulbert, 1887), plate on p. 375, Internet Archive item facetofacewithme00igle (https://archive.org/details/facetofacewithme00igle), page scan n380 cropped to 520x910\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"collaboration\", \"old_score\": 74, \"old_confidence\": 0.55, \"new_score\": 70, \"new_confidence\": 0.5, \"reason\": \"Working relationship leans on his own prologue and on an unequal missionary-informant setting that Burkhart says is under-documented\"}], \"reviewed_kept\": [\"persistence\", \"planning_orientation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4, \"image_inscription_check\": \"'BERNARDINO DE SAHAGUN.' printed under the engraving on p. 375 of the 1887 book; the book's list of illustrations also gives 'Bernardino de Sahagun 375'\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 78 / 0.55 to 74 / 0.5 because the long-labour claim leans on his own prologue (self-report) quoted by a scholar and a library press release."
+  }
+}

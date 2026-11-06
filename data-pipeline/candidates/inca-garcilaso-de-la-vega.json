@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "inca-garcilaso-de-la-vega",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Inca Garcilaso de la Vega",
+    "aliases": [
+      "El Inca Garcilaso",
+      "Garcilaso de la Vega, El Inca",
+      "Garcilaso Inca de la Vega",
+      "Gomez Suarez de Figueroa"
+    ],
+    "wikidataId": "Q334711",
+    "birthYear": 1539,
+    "deathYear": 1616,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "PE",
+      "ES"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "historian"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_garcilaso_wikidata",
+      "kind": "wikidata",
+      "title": "Inca Garcilaso de la Vega (Q334711), verified live via the Wikidata API (2026-11-05): label 'Inca Garcilaso de la Vega', description 'Spanish chronicler (1539-1616)', born 12 April 1539, died 23 April 1616 (22 and 24 April also listed), Korean label 잉카 가르실라소 데라베가. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q334711"
+    },
+    {
+      "id": "src_garcilaso_cervantesvirtual",
+      "kind": "biography",
+      "title": "Biblioteca Virtual Miguel de Cervantes, 'Inca Garcilaso de la Vega' (biographical essay by Jose Carlos Rovira and Remedios Mataix, Universidad de Alicante; read in full, about 4,500 words). CANONICAL SIGNIFICANCE SOURCE: presents the Comentarios reales (1609; second part, Historia general del Peru, 1617) as the expression of the cultural dilemma of the American mestizo, with the earlier Dialogos de amor translation (Madrid 1590) and La Florida del Inca (1605); records his bicultural education in Cuzco, departure in 1560, the failed pension petitions, the Alpujarras service, his move to Cordoba and minor orders (1591), his habit of annotating and cross-checking sources, and the scholarly debate over how far he idealised the Inca past.",
+      "url": "https://cervantesvirtual.com/portales/inca_garcilaso_de_la_vega/autor_apunte/"
+    },
+    {
+      "id": "src_garcilaso_gale",
+      "kind": "biography",
+      "title": "Encyclopedia of World Biography (Gale), 'Inca Garcilaso de la Vega' (entry read in full via Encyclopedia.com, about 600 words). Independent English-language account: calls him the first classic writer of America, records the 14 years he spent on the Dialogues on Love translation as a prose apprenticeship, La Florida (1605), the Royal Commentaries (1609) as a literary achievement and valuable historical record, and the weaker second part (1617).",
+      "url": "https://encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/inca-garcilaso-de-la-vega"
+    },
+    {
+      "id": "src_garcilaso_biografiasyvidas",
+      "kind": "biography",
+      "title": "Biografias y Vidas, 'Garcilaso El Inca' (entry by Tomas Fernandez and Elena Tamaro, Editorial Biografias y Vidas, read in full, about 1,000 words). Spanish reference account: sets out the three main works, the sources he drew on (his memories, Cieza de Leon, Zarate, Acosta), the long polemic over the historical reliability of his data, and the view that his prose is among the highest of Castilian and a starting point of Spanish American literature. Partly overlaps in facts with the Cervantes Virtual essay, so the two are not counted as fully independent.",
+      "url": "https://www.biografiasyvidas.com/biografia/g/garcilaso_el_inca.htm"
+    },
+    {
+      "id": "src_garcilaso_hraf",
+      "kind": "institution",
+      "title": "Yale University, eHRAF World Cultures (Human Relations Area Files), document record for 'First part of the Royal commentaries of the Yncas' (Markham translation; abstract and ratings read, about 400 words; the book itself was not opened). Anthropologists' evaluation: one of the basic sources for the prehispanic Inka, critics have questioned the reliability of his accounts, though most scholars accept his works as the best available source for a great variety of data; rated 'excellent primary data'.",
+      "url": "https://ehrafworldcultures.yale.edu/cultures/se13/documents/003"
+    },
+    {
+      "id": "src_garcilaso_henige",
+      "kind": "institution",
+      "title": "David Henige, 'The Context, Content, and Credibility of La Florida del Ynca', The Americas 43(1), July 1986 (Cambridge University Press; only the published abstract and opening extract were read, not the full article). Critical, independent voice: says his historical writings drew more comment on style than on historical value, that his Inca history long passed as the orthodox version, and that the weight of archaeological, ethno-historical and cultural evidence fails to sustain his picture of imperial status and utopian norms at the origins of the Inca state.",
+      "url": "https://www.cambridge.org/core/journals/americas/article/abs/context-content-and-credibility-of-la-florida-del-ynca/C68BF548A5F3360AFE32445942007DA4"
+    },
+    {
+      "id": "src_garcilaso_memoriachilena",
+      "kind": "institution",
+      "title": "Memoria Chilena, Biblioteca Nacional de Chile, 'Inca Garcilaso de la Vega' (minisite page read in full, about 250 words). Describes the Comentarios reales as one of the best known and most influential chronicles of the conquest of Peru, written in Spain, built on Andean oral accounts and on Spanish chroniclers such as Cieza de Leon and Acosta, and published in two parts (1609 and, posthumously, 1617).",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-93106.html"
+    },
+    {
+      "id": "src_garcilaso_rct",
+      "kind": "institution",
+      "title": "Royal Collection Trust, catalogue record RCIN 1022710, 'The royal commentaries of Peru' (1688 English edition of Rycaut's translation; description read in full, about 250 words). Museum-style summary of his parentage, education, departure for Spain in 1560 and the 1609 Comentarios reales, stating that it draws mostly on oral histories of his Inca relatives.",
+      "url": "https://col.rct.uk/collection/1022710/the-royal-commentaries-of-peru"
+    },
+    {
+      "id": "src_garcilaso_wikipedia",
+      "kind": "wikipedia",
+      "title": "Inca Garcilaso de la Vega, Wikipedia (revision 1378556482, read in full). Orientation only, never counted as support; used to locate the Hemming and Milanich-Hudson criticisms, which were NOT opened at source.",
+      "url": "https://en.wikipedia.org/wiki/Inca_Garcilaso_de_la_Vega"
+    },
+    {
+      "id": "src_garcilaso_udep",
+      "kind": "institution",
+      "title": "Universidad de Piura, UDEP Hoy, 'El artista que puso rostro al Inca Garcilaso de la Vega' (7 June 2016; read in full, about 1,000 words). Used for the portrait decision only, not for any trait row: states that Garcilaso never had his portrait made and left no written self-description, and that the face now identified with him is a 20th-century evocation by the painter Francisco Gonzalez Gamarra.",
+      "url": "https://www.udep.edu.pe/hoy/2016/06/el-artista-que-puso-rostro-al-inca-garcilaso-de-la-vega/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_garcilaso_cervantesvirtual, src_garcilaso_gale | 1560-1612 | scholarly biography + encyclopedia] Two accounts document long, slow projects: the Dialogues on Love translation took 14 years (Gale) and appeared in Madrid in 1590, the Comentarios reales were announced from 1586 and printed in 1609, and the second part was finished around 1612 (Cervantes Virtual). Cervantes Virtual also records that he travelled repeatedly to Madrid to seek a pension on the strength of his father's services and was refused by the Council of the Indies. Cervantes Virtual notes that the slowness has been read both as patient rigour and as hesitancy; only the documented length of the undertakings is scored, not the motive. Dates come from two reference accounts and no archive was opened, so confidence is moderate."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_garcilaso_cervantesvirtual, src_garcilaso_gale, src_garcilaso_biografiasyvidas | 1568-1612 | scholarly biography + encyclopedia + reference work] Documented activity spans soldiering as a captain in the Alpujarras, translation of Neoplatonist philosophy from Italian, a hearsay chronicle of de Soto's Florida expedition, and the history of the Incas, plus minor orders in the Church in Cordoba (Cervantes Virtual). All of it sits within humanistic letters and history, so the range is real but not wide; the military service is context and is not scored."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_garcilaso_cervantesvirtual, src_garcilaso_hraf, src_garcilaso_henige, src_garcilaso_biografiasyvidas | 1586-1609 | scholarly biography + anthropological database + journal abstract + reference work] Cervantes Virtual says he read his sources closely, annotated and cross-checked them, quoted them constantly, sought oral or written testimony wherever he could, and annotated Gomara's history while disputing its rigour. The same essay adds that he often purified, idealised or embellished events, and the Yale HRAF abstract, Henige's abstract and Biografias y Vidas all record the long dispute over his reliability (Henige: archaeological and ethno-historical evidence fails to sustain parts of his picture). Methodical source-work is documented; accuracy of outcome is contested, so the score is modest and the impact dual-edged."
+    },
+    "aesthetic_sensitivity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_garcilaso_cervantesvirtual, src_garcilaso_gale, src_garcilaso_biografiasyvidas, src_garcilaso_memoriachilena | 1590-1617 | scholarly biography + encyclopedia + reference work + national library] All four accounts praise the literary quality of his Spanish: Biografias y Vidas ranks his prose among the highest manifestations of Castilian, Memoria Chilena speaks of an unprecedented literary beauty, Gale of poetic descriptions, and Cervantes Virtual describes an evocative, refined style and a deliberate blend of epic, utopia and tragedy; Gale adds that he trained himself in Castilian prose through the long translation exercise. Henige notes that critics have written more on his style than on his historical value. The praise is retrospective and shared across reference works rather than independently tested. SELF-CALIBRATION (agent): lowered from 72/0.52 because every source is retrospective literary praise from summary reference works and none gives a documented act of aesthetic choice beyond the translation apprenticeship."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_garcilaso_biografiasyvidas, src_garcilaso_cervantesvirtual, src_garcilaso_memoriachilena | 1605-1617 | reference work + scholarly biography + national library] Biografias y Vidas calls his project ambitious and original, centred on the American and especially Peruvian past; Cervantes Virtual says the Comentarios mix autobiography, vindication of his lineage and history, combine epic, utopia and tragedy, and open the motif of cultural tearing that later Spanish American writers took up; Memoria Chilena sees an attempt to build bridges between the Andean and Renaissance Spanish worlds. Originality is asserted by scholars retrospectively and he also followed humanist models, so the score is moderate."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_garcilaso_cervantesvirtual, src_garcilaso_gale, src_garcilaso_memoriachilena | 1586-1617 | scholarly biography + encyclopedia + national library] In the preface to the Comentarios, as quoted by Cervantes Virtual, he says he writes to meet an obligation to his homeland and his maternal relatives (and in the second part to his father and the Spanish conquerors); Gale says he resolved to prepare a defence of Inca civilisation and a record of its vanished grandeur, and Memoria Chilena calls the work a vindication of his people's past. The stated purpose is largely his own and scholars repeat it, so confidence is below the 0.50 line; no motive beyond the documented stated aim is inferred."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_garcilaso_cervantesvirtual, src_garcilaso_biografiasyvidas | 1586-1609 | scholarly biography + reference work] Cervantes Virtual records that in his preface he faults earlier chroniclers for writing 'so briefly' that they misunderstood Peru, promises a fuller account and says he can show where they mistranslated Quechua; his copy of Gomara's Historia general carries notes disputing the Spanish chronicler's rigour. Biografias y Vidas and Cervantes Virtual also show him working inside a providentialist, humanist framework and idealising the Inca past, so the independence is about sources and interpretation of Andean history, not a break with his age; hence dual-edged. Based on two partly overlapping accounts."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "잉카 가르실라소 데라베가"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / FAILED, portrait HELD. The lead image (Carlos Penoso 1879 engraving, Almanaque de la Ilustracion para 1879, p. 34, Commons 'Inca Garcilaso 1879.jpg', 354x503, tag PD-old-70-expired) was opened: the Commons description itself calls it a 'retrato de fantasia' (imagined portrait), the visible lettering is only the engraver signature 'Penoso' (and a second illegible name) with no sitter name, and the Universidad de Piura article (UDEP) states Garcilaso never had his portrait made and left no written description of his face. The face on the print therefore cannot be tied to the historical sitter, and the sitter is not identified by inscription; the holder record (Biblioteca Nacional de Espana, datos.bne.es and bdh.bne.es) was walled by Cloudflare (HTTP 403) and an Internet Archive search for the almanac returned no item. The only alternative (18th-century Cuzco School 'Genealogy of the Incas', a group scene) is sourced on Commons only to a heraldry blog with no holder or caption naming him. The 20th-century evocations by Francisco Gonzalez Gamarra (died 1972) are still in copyright. Next step: locate a holder-hosted lifetime or early-modern depiction that names him (none is known per UDEP), or a rights-cleared modern commission. PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q334711 label 'Inca Garcilaso de la Vega', description 'Spanish chronicler (1539-1616)', born 12 Apr 1539, died 23 Apr 1616 (22 and 24 April also listed), Korean label 잉카 가르실라소 데라베가; no production (prod65.txt) or candidate slug/QID collision. REGION latin_america: born in Cuzco and writing about the Andes, but he lived in Spain from 1560/61 until his death; no precedent for a Peru-born writer with a Spanish career base exists, so birthplace and subject (Andean history, mestizo identity) were followed per the brief (Andres Bello, Venezuelan with a Chilean career, is also latin_america); nationality codes PE and ES. ERA early_modern. KOREAN NAME 잉카 가르실라소 데라베가 is the Wikidata Korean label (a spaced variant 데 라 베가 is not used). ZERO POLITICS: his Alpujarras service as a captain (military), the Council of the Indies pension petitions and the later Spanish ban of the Comentarios in the Tupac Amaru period are context only; nothing is scored from them. VOCABULARY: occupations writer, historian; field literature; tag independent; archetype creative_creator (all with EN and KO labels; field history, occupations translator/chronicler and the tag for mestizo identity have no label and were not used). IMPACT DOMAINS literary, cultural, historical. ATTRIBUTION CONFIRMED: the life is documented in dated publications, his own preface and scholarly biographies, so the historical-attribution screen result 'attributable' is confirmed, though early-life details come largely from his own writings as relayed by scholars. CANONICAL SIGNIFICANCE SOURCE: Biblioteca Virtual Miguel de Cervantes, 'Inca Garcilaso de la Vega' by Rovira and Mataix (https://cervantesvirtual.com/portales/inca_garcilaso_de_la_vega/autor_apunte/), read in full. READ: Cervantes Virtual essay; Gale Encyclopedia of World Biography entry; Biografias y Vidas entry; Memoria Chilena page; Royal Collection Trust record; UDEP article (portrait only); Yale eHRAF abstract and Henige's 1986 abstract (abstract only, full texts not opened); Wikipedia and Wikidata for orientation. PERSPECTIVES: Spanish university scholarship; US general encyclopedia; Spanish reference work; national library; anthropologists' database; a critical historian. COUNTER-VOICES: Henige (archaeological and ethno-historical evidence does not sustain his projection of Inca origins), HRAF (critics question reliability), Cervantes Virtual and Biografias y Vidas (idealising, long polemic). NOT OPENED: the Comentarios reales and La Florida themselves, Varner's and Castanien's biographies, Zamora, MacCormack, Brading, Hemming and Milanich-Hudson (the last two known only through Wikipedia's quotation), Notre Dame Durand biography (HTTP 403), Britannica (no live URL found). SELF-REPORT SEPARATION: the preface statements and the early-life narrative are his own and appear only as relayed by Cervantes Virtual and Gale; no row rests on them alone. EXCLUSIONS (hard rule): his illegitimacy and his parents' relationship, his sons, his possible psychological state (Cervantes Virtual mentions shyness and insecurity as one scholarly reading; not scored), the military service and any political reading of the Comentarios, and religious doctrine. THIN EVIDENCE FLAG: most behavioural evidence is scholarly summary; confidence is capped at 0.52. SELF-CALIBRATION (agent): top-risk rows reviewed: aesthetic_sensitivity (72/0.52, highest score; retrospective praise from summary references) lowered to 70/0.50; persistence (68/0.52, kept: dated durations in two accounts); impact_motivation (62/0.45, kept: already capped for self-report). HANDBACK65: {\"slug\": \"inca-garcilaso-de-la-vega\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Biblioteca Nacional de Espana record cited; page unread\", \"holder_record_checked_by_you\": \"Commons file page wikitext read (source Almanaque de la Ilustracion para 1879 p.34, description 'Retrato de fantasia al Inca Garcilaso de la Vega, grabado por Carlos Penoso', PD-old-70-expired, 354x503). Holder: datos.bne.es and bdh.bne.es returned HTTP 403 (Cloudflare block page); Internet Archive search for the almanac returned 0 items; holder verification not possible. Alternative Cuzco School genealogy painting: Commons source is a heraldry blog, no holder.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Carlos Penoso 1879 engraving in Almanaque de la Ilustracion para 1879, p.34\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The lead assumed a documented 1879 publication was enough, but the print is catalogued on Commons as an imagined portrait, carries no sitter lettering, and Universidad de Piura states no authentic likeness of Garcilaso exists, so the sitter cannot be established; the BNE holder record was bot-walled and the alternative was a blog-sourced group painting.\", \"risky_success_note\": null, \"image_inscription_check\": \"Visible lettering on the Commons image: engraver signature 'Penoso' at lower right and a second partly illegible signature at lower left (reads like 'Gast...'); no sitter name or caption visible in the cropped scan.\", \"image_identity_matches_claimed_sitter\": \"ambiguous\", \"inscription_contradiction_found\": false, \"rows_initially_scored\": 7, \"self_calibrated_rows\": [{\"attribute\": \"aesthetic_sensitivity\", \"old_score\": 72, \"old_confidence\": 0.52, \"new_score\": 70, \"new_confidence\": 0.5, \"reason\": \"Every source is retrospective literary praise from summary reference works and none documents an act of aesthetic choice beyond the translation apprenticeship\"}], \"reviewed_kept\": [\"persistence\", \"impact_motivation\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 7}"
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear image that can be tied to the sitter was found. The lead image, an 1879 engraving signed by Carlos Penoso in the Almanaque de la Ilustracion para 1879 (page 34), is described on Wikimedia Commons as an imagined portrait; the print carries no sitter name, the Universidad de Piura states that Garcilaso never had his portrait made, and the holder record at the Biblioteca Nacional de Espana could not be opened (blocked by an anti-bot wall). The Cuzco School genealogy painting is a group scene known only from a blog. Twentieth-century paintings by Francisco Gonzalez Gamarra remain in copyright. Next step: find a holder-hosted early depiction that names him, or commission a rights-cleared modern illustration."
+  }
+}

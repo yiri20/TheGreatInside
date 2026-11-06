@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ahmad-shawqi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ahmad Shawqi",
+    "aliases": [
+      "Ahmed Shawqi",
+      "Ahmed Shawky",
+      "Ahmad Shawqy",
+      "Amir al-Shu'ara'",
+      "Prince of Poets"
+    ],
+    "wikidataId": "Q401491",
+    "birthYear": 1868,
+    "deathYear": 1932,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "EG"
+    ],
+    "regionCode": "north_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_shawqi_wikidata",
+      "kind": "wikidata",
+      "title": "Ahmed Shawqi (Q401491), verified live via the Wikidata API (2026-11-05): label 'Ahmed Shawqi', description 'Egyptian poet (1868-1932)', born 25 December 1868 (other sources give 16 or 17 October), died 14 October 1932, Korean label 아마드 샤우키. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q401491"
+    },
+    {
+      "id": "src_shawqi_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Ahmad Shawqi' (article read in full, about 250 words, by the Britannica editors). CANONICAL SIGNIFICANCE SOURCE: calls him the amir al-shu'ara' ('prince of poets') of modern Arabic poetry and a pioneer of Arabic poetical drama, records his state-funded study at Montpellier and Paris, the 1927 proclamation, and his poetic plays following Shakespeare, Corneille and Racine; also a measured judgment that his imitations of ancient Arabic poets were unsuccessful while his adaptation of traditional metres to dramatic dialogue worked.",
+      "url": "https://www.britannica.com/biography/Ahmad-Shawqi"
+    },
+    {
+      "id": "src_shawqi_sis",
+      "kind": "institution",
+      "title": "Egypt State Information Service, 'Ahmed Shawqi' (official biography page read in full, about 300 words). Official Egyptian summary: poet and dramatist who pioneered the modern Arab literary movement, his study in Montpellier and Paris, the list of his seven plays, the four-volume Ash-Shawqiyyat, the long poem on Islamic history, novels and the prose collection The Markets of Gold. A state source with a celebratory tone.",
+      "url": "https://sis.gov.eg/en/egypt/egyptian-figures/ahmed-shawqi/"
+    },
+    {
+      "id": "src_shawqi_routledge",
+      "kind": "biography",
+      "title": "Mark D. Luce, 'Shawqi, Ahmad (1868-1932)', Routledge Encyclopedia of Modernism, 2018 (publisher abstract of about 250 words read; the full entry is behind a paywall and was not opened). Scholarly summary: leading poet and pioneer playwright of the neo-classical period of Arabic literature, mastery of Arabic and French, an innovator whose Western-influenced efforts were not favoured at court, excelled at modern themes in classical metres and rhymes, and in the last eight years of his life produced seven plays that were performed in Egypt.",
+      "url": "https://www.rem.routledge.com/articles/shawqi-ahmad-1868-1932"
+    },
+    {
+      "id": "src_shawqi_ubayd1922",
+      "kind": "archive",
+      "title": "Ahmad 'Ubayd (compiler), Mashahir shu'ara' al-'asr fi al-aqtar al-'arabiyya al-thalatha, part 1 'Shu'ara' Misr' (Damascus: al-Maktaba al-'Arabiyya, Matba'at al-Taraqqi, first edition September 1922; University of Toronto copy on the Internet Archive; the title page, the Shawqi biography on printed pages 62-63 and the section of contemporaries' opinions on pages 65-66 were read as page images in the original Arabic, and the translations of those lines are the agent's own). Contemporary anthology compiled while Shawqi was alive: records his education, his works and quotations from fellow writers (Mustafa Lutfi al-Manfaluti, Hafiz Ibrahim, Khalil Mutran, Muhammad Sulayman, Muhyi al-Din Rida), including practical remarks on how he composed and critical remarks that his poetry was prolific and uneven, that some of his language was obscure and some meanings borrowed. Admiring in the main, but includes critical voices. The rest of the book was not read; the OCR text is unusable.",
+      "url": "https://archive.org/details/mashahirshuaraal01ubayuoft"
+    },
+    {
+      "id": "src_shawqi_wikipedia",
+      "kind": "wikipedia",
+      "title": "Ahmed Shawqi, Wikipedia (read in full). Orientation only, never counted as support; it relays, through a secondary book not opened here, the criticism by Muhammad al-Muwaylihi that his innovations were heretical and Westernised.",
+      "url": "https://en.wikipedia.org/wiki/Ahmed_Shawqi"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shawqi_britannica, src_shawqi_routledge, src_shawqi_sis, src_shawqi_ubayd1922 | 1898-1932 | encyclopedia + scholarly abstract + official page + contemporary anthology] Britannica and the Routledge abstract call him a pioneer of Arabic poetic drama and an innovator who recast classical metres for dramatic dialogue and modern themes, and the State Information Service credits him with seven plays and a pioneering role. The 1922 anthology gives contemporary praise for striking verses and imagery (Manfaluti, Muhammad Sulayman) alongside the charge from Sulayman that some of his language was obscure and some meanings borrowed, and Britannica adds that his imitations of ancient poets were unsuccessful. Originality in form is documented by three independent kinds of source, but the evidence is retrospective in part and mixed in the contemporary record, so the score is moderate-high and the confidence just above 0.5."
+    },
+    "aesthetic_sensitivity": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shawqi_britannica, src_shawqi_routledge, src_shawqi_ubayd1922 | 1898-1927 | encyclopedia + scholarly abstract + contemporary anthology] Britannica credits a fine command of rhyme and diction, Luce says he excelled at modern themes within the demanding classical metres and rhymes, and the 1922 anthology quotes Hafiz Ibrahim on the refinement of his metre and delicacy of rhyme and Manfaluti on high poetic imagery. Britannica also judges that his imitation of the ancients was unsuccessful. SELF-CALIBRATION (agent): lowered from 74/0.55 because the contemporary quotations come from admiring fellow poets in an anthology that was itself an admiring compilation, the other sources are retrospective summaries, and Britannica's own mixed verdict shows the praise is not uniform."
+    },
+    "execution_speed": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shawqi_ubayd1922, src_shawqi_routledge, src_shawqi_sis | 1898-1932 | contemporary anthology + scholarly abstract + official page] In the 1922 anthology Khalil Mutran says he composed in company, in a carriage, on the railway and at official gatherings whenever he pleased, and that he might finish a poem, forget it for a month and then write it down at one sitting; Hafiz Ibrahim calls him prolific and ready of tongue while warning that the prolific rarely avoid weak lines. Luce counts seven plays performed in the last eight years of his life, and the State Information Service lists a four-volume collection, novels and prose. Fluency and output are documented, but the composing habits come from two friendly contemporaries and no manuscript evidence was seen, so confidence is below 0.5."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shawqi_routledge, src_shawqi_britannica, src_shawqi_ubayd1922 | 1880s-1927 | scholarly abstract + encyclopedia + contemporary anthology] Luce stresses his mastery of Arabic and of French, which he valued above law, Britannica and the anthology record his study of law and translation and his three years at Montpellier and Paris, and Luce describes him as working within the complicated classical metres rather than abandoning them. The documented training and the craft of the metres are real, but no source describes deliberate practice or revision, so the score is moderate."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shawqi_sis, src_shawqi_britannica, src_shawqi_routledge | 1898-1932 | official page + encyclopedia + scholarly abstract] Documented output includes lyric and occasional poetry, verse tragedies and comedies, a prose play, a long verse history of Islam, a tribute poem to the Prophet, novels and a collection of prose pieces (State Information Service), plus translation-school training and French literary study (Britannica, Luce). All of it is literary, so the range is across genres, not across fields; his court posts and political poems are not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아마드 샤우키"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / SUCCEEDED with the lead image: the portrait plate in Ahmad 'Ubayd, Mashahir shu'ara' al-'asr, part 1 (Damascus, al-Maktaba al-'Arabiyya, Matba'at al-Taraqqi, first edition September 1922), on the Internet Archive item mashahirshuaraal01ubayuoft (University of Toronto Robarts copy). Holder record: the Internet Archive metadata was opened (date 1922, publisher al-Maktaba al-'Arabiyya Damascus, contributor Robarts Library University of Toronto, possible-copyright-status NOT_IN_COPYRIGHT, no licence URL), and the book's own title page was viewed (first edition Muharram 1341 AH, September 1922; 'rights reserved to him'). The plate (page image n321) shows a halftone studio-type photograph of a man with a large moustache in a jacket and waistcoat; the printed Arabic caption beneath it reads 'Ahmad Shawqi Bey' and the facing page 62 opens the biography headed 'Ahmad Shawqi'; faint handwritten marks at the lower right of the photograph (possibly a studio mark) are illegible. In an 'istidrak' note the compiler says some of the book's portraits were taken from earlier books and magazines and printed in Egypt, so the photographer and original publication date are unknown but cannot be later than the 1922 book. Rights basis: a work published in Damascus in 1922 is in the US public domain by publication date (pre-1931; any URAA restoration term of 95 years from publication ended in 2017); the compiler's 1922 'rights reserved' wording is a publisher statement, not a contradiction. The Commons Wikidata P18 lead ('Ahmad shawqy.jpg', 341x411, source a blog, author unknown, tag PD-Egypt) was not used. Kind is likeness (a photograph with a printed sitter name). PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q401491 label 'Ahmed Shawqi', description 'Egyptian poet (1868-1932)', born 25 Dec 1868 (Wikidata; sources give 16 or 17 Oct), died 14 Oct 1932 (Britannica 13 Oct), Korean label 아마드 샤우키; no production (prod65.txt) or candidate slug/QID collision (the name was also checked as ahmed-shawqi). REGION north_africa (Egypt; precedent Egyptians -> north_africa). ERA 19th_century (born 1868; precedent of Tagore and Coubertin). KOREAN NAME 아마드 샤우키 is the Wikidata Korean label. ZERO POLITICS: his court posts under the Khedive, the 1914 exile to Spain, his anti-colonial and Ottoman-caliphate themes, his role at the Geneva orientalists' congress and any official rank are context and unscored; the 1927 'Prince of Poets' proclamation is scored only as literary recognition of poetry. VOCABULARY: occupations poet, writer; field literature; tags innovator, prolific; archetype creative_creator (all have EN and KO labels); occupation playwright and dramatist have no label and were not used. IMPACT DOMAINS literary, cultural. ATTRIBUTION CONFIRMED: dated works, a contemporary 1922 biography and later reference accounts document the career, so 'attributable' is confirmed. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Ahmad Shawqi' (https://www.britannica.com/biography/Ahmad-Shawqi), read in full. READ: Britannica; Egypt State Information Service page (full); Routledge Encyclopedia of Modernism abstract by Luce; pages 62-66 and the title page of the 1922 anthology by Ahmad 'Ubayd (page images, read in Arabic; OCR unusable); Wikipedia and Wikidata for orientation. PERSPECTIVES: general encyclopedia; Egyptian state page; scholarly abstract; contemporary fellow poets and a critic in a 1922 anthology compiled by a Syrian-based editor. COUNTER-VOICES: Muhammad Sulayman (obscure language, borrowed meanings), Hafiz Ibrahim (prolific, with weak lines), Manfaluti (sometimes falls below his own standard), Britannica (imitations of the ancients unsuccessful), Wikipedia's relay of al-Muwaylihi (not opened). NOT OPENED: Arberry 1937 (known only through search snippets), the full Luce entry, the Brill article on Shawqi's historical drama, Haque and Dhaka University journal articles, Shawqi's own Shawqiyyat and plays, al-Aqqad's Cambyses in the Balance, the Universalis entry (paywalled), Tour Egypt. SELF-REPORT SEPARATION: no first-person source was used. EXCLUSIONS (hard rule): family and private life, his wealth and houses, his animals, exile, politics and court rank, and any claim about personality. THIN EVIDENCE FLAG: the behavioural evidence is thin (a handful of contemporary remarks plus reference summaries), so only five rows are scored, with confidence capped at 0.55. SELF-CALIBRATION (agent): top-risk rows reviewed: aesthetic_sensitivity (74/0.55, admiring-contemporary and retrospective praise) lowered to 72/0.52; creative_originality (70/0.55; kept: three kinds of source agree on the pioneering role); execution_speed (62/0.45; kept: already low confidence for friendly anecdotes). HANDBACK65: {\"slug\": \"ahmad-shawqi\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Internet Archive item 'mashahirshuaraal01ubayuoft' cited; metadata unread\", \"holder_record_checked_by_you\": \"Internet Archive metadata for mashahirshuaraal01ubayuoft opened live: title 'Mashahir shu'ara' al-'asr', creator 'Ubayd, Ahmad, 1893-, date 1922, publisher Dimashq al-Maktabah al-'Arabiyah, contributor Robarts - University of Toronto, possible-copyright-status NOT_IN_COPYRIGHT, no licenseurl or rights field. Title page viewed as page image: first edition Muharram 1341 AH / September 1922, Damascus, Matba'at al-Taraqqi, 'rights reserved to him'.\", \"holder_contradiction_found\": false, \"initial_lead\": \"portrait plate in Mashahir shu'ara' al-'asr (before 1922), Internet Archive\", \"final_portrait_source\": \"Plate in Ahmad 'Ubayd, Mashahir shu'ara' al-'asr, part 1, Damascus 1922 (Internet Archive item mashahirshuaraal01ubayuoft, Toronto Robarts copy, page image n321, plate 1242x1749 cropped from a 2092x3346 scan and downscaled to 852x1200), https://archive.org/details/mashahirshuaraal01ubayuoft\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"image_inscription_check\": \"Printed Arabic caption centred beneath the plate: 'Ahmad Shawqi Bey' (احمد شوقي بك); the facing page 62 carries the heading 'Ahmad Shawqi' above his biography and the running head of pages 62-66 reads 'Ahmad Shawqi'. Faint handwritten marks at the lower right of the photograph are illegible.\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"aesthetic_sensitivity\", \"old_score\": 74, \"old_confidence\": 0.55, \"new_score\": 72, \"new_confidence\": 0.52, \"reason\": \"Contemporary praise comes from admiring fellow poets in an admiring anthology, the other sources are retrospective summaries, and Britannica's verdict is mixed\"}], \"reviewed_kept\": [\"creative_originality\", \"execution_speed\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5}"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ahmad-shawqi-ubayd-1922.jpg",
+    "width": 852,
+    "height": 1200,
+    "source": "Halftone photographic portrait of Ahmad Shawqi printed as a plate in Ahmad 'Ubayd's anthology Mashahir shu'ara' al-'asr, part 1 (Damascus: al-Maktaba al-'Arabiyya, Matba'at al-Taraqqi, first edition September 1922), captioned in Arabic 'Ahmad Shawqi Bey' and facing the page that opens his biography; digitised by the University of Toronto Libraries (Robarts) on the Internet Archive. The photographer and the date of the original photograph are not stated (the compiler says some portraits were taken from earlier books and magazines), but it was in print by 1922. The plate was cropped from a page scan of 2,092 x 3,346 pixels (plate area about 1,242 x 1,749) and downscaled once to 852 x 1,200; nothing was upscaled. Caveats: the photographer is unknown and the image is a printed reproduction.",
+    "license": "Public domain (published in Damascus in 1922; digitised book, Internet Archive possible-copyright-status: not in copyright)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photograph of Ahmad Shawqi, plate in Ahmad 'Ubayd, Mashahir shu'ara' al-'asr, Damascus, 1922; digitised by the University of Toronto Libraries via the Internet Archive; public domain by publication date",
+    "attributionUrl": "https://archive.org/details/mashahirshuaraal01ubayuoft",
+    "creator": "Unknown photographer (plate printed in Ahmad 'Ubayd's anthology)",
+    "date": "before 1922",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/metadata/mashahirshuaraal01ubayuoft"
+  }
+}

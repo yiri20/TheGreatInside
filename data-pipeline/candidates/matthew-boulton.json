@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "matthew-boulton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Matthew Boulton",
+    "aliases": [],
+    "wikidataId": "Q469269",
+    "birthYear": 1728,
+    "deathYear": 1809,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "entrepreneur",
+      "inventor"
+    ],
+    "fieldIds": [
+      "business",
+      "technology",
+      "engineering"
+    ],
+    "impactDomains": [
+      "entrepreneurial",
+      "industrial",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_boulton_wikidata",
+      "kind": "wikidata",
+      "title": "Matthew Boulton (Q469269), verified live via the Wikidata API (2026-11-05): English label 'Matthew Boulton', description 'English manufacturer, industrialist, business partner of James Watt (1728-1809)', Korean label 매슈 볼턴, born 3 September 1728, died 17 August 1809, citizenship Great Britain and the United Kingdom. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q469269"
+    },
+    {
+      "id": "src_boulton_smg",
+      "kind": "institution",
+      "title": "Science Museum Group collection, people record 'Matthew Boulton 1728-1809', biography read in full. CANONICAL SIGNIFICANCE SOURCE: he took over the family toy-trade business at 21, built the Soho works near Birmingham in 1762, took over Roebuck's share of Watt's first engine patent in 1769, became Watt's partner in 1775, foresaw great industrial demand for steam power and urged Watt to design the double-acting rotative engine (patented 1782), set up a copper-coinage mint at Soho and later supplied complete mints overseas, and by 1800 almost 500 engines had been installed; the mint 'appears to have given him most satisfaction' although the engines were most profitable. Institutional biography, celebratory in tone, no criticism.",
+      "url": "https://collection.sciencemuseumgroup.org.uk/people/ap24713/boulton-matthew"
+    },
+    {
+      "id": "src_boulton_bham",
+      "kind": "institution",
+      "title": "Birmingham Museums, 'Local historic people: Matthew Boulton' (page read in full). Soho Manufactory begun 1762 on the toy trade that helped Birmingham become 'the toy-shop of the world'; partnership with James Watt from 1775; coin manufacturing by accurate machining; key member of the Lunar Society, which met at Soho House. Local institutional page; internally inconsistent on his birth year (1718 and 1728) and marriages, so only its uncontested business facts are used; no criticism.",
+      "url": "https://www.birminghammuseums.org.uk/resources/local-historic-people-matthew-boulton"
+    },
+    {
+      "id": "src_boulton_dnb",
+      "kind": "biography",
+      "title": "Dictionary of National Biography (1886), entry 'Boulton, Matthew' by H. T. Wright Wood (Wikisource text, read in full). Soho opened 1762; Boulton sought to raise the artistic quality of his goods and hired agents to find fine metal and pottery models; after Roebuck's failure in 1772 he took Roebuck's share of the engine patent in settlement of a 1,200-pound claim; on his advice an Act extended the patent term; he put all his capital and what he could borrow into the enterprise and nearly went bankrupt before it paid; set up steam coining presses at Soho in 1788; coinage for the East India Company and others, a new British copper coinage in 1797; Soho a meeting place for scientists. Victorian standard biography, admiring; says little on workers or finances.",
+      "url": "https://en.wikisource.org/wiki/Boulton,_Matthew_(DNB00)"
+    },
+    {
+      "id": "src_boulton_graces",
+      "kind": "archive",
+      "title": "Grace's Guide to British Industrial History, page 'Matthew Boulton' (read in full). Collates a PhD thesis on the Soho Mint (Sue Tungate, 2010) crediting him with qualities of leadership, perseverance and technical insight, a 1923 Hadfield assessment of the Boulton, Watt and Murdoch partnership, and business facts: Soho not profitable for years from 1762 to 1775; labour-saving devices and interchangeable components; design, production and marketing brought under his own control; in the 1770s a sickness and injury benefit fund financed by 1/60th of wages; clean, well-lit works and no employment of young children; own capital and borrowing committed to the engine venture; 1772 Roebuck share; mechanical painting venture failed; Soho Mint from 1788. Secondary compilation; the benefit-fund and workshop details are as stated by the page, not independently checked.",
+      "url": "https://www.gracesguide.co.uk/Matthew_Boulton"
+    },
+    {
+      "id": "src_boulton_abbey",
+      "kind": "institution",
+      "title": "Westminster Abbey, commemoration page 'Matthew Boulton' (read in full): described as an entrepreneur of the Industrial Revolution and founding member of the Lunar Society; floor stone unveiled October 2014 inscribed 'Pioneer of the Industrial Revolution'. Commemorative institutional page; limited behavioural content.",
+      "url": "https://www.westminster-abbey.org/abbey-commemorations/commemorations/matthew-boulton"
+    },
+    {
+      "id": "src_boulton_robinson",
+      "kind": "biography",
+      "title": "Eric Robinson, 'Matthew Boulton and the Art of Parliamentary Lobbying', The Historical Journal 7(2), 1964, pp. 209-229 (Cambridge University Press): only the publisher's page extract, reference notes and metadata were opened (the full article is not available). The extract says the extension of Watt's patent was the most important single event in the Industrial Revolution and documents Boulton's methods in getting it through Parliament: a 'List of Friends on the Engine bill' naming 77 persons plus the minority lords, opposition led by Edmund Burke, and a note that Boulton was wrong in thinking the Assay Office aims could be secured by Crown charter rather than an Act. Scholarly, independent of the museum voices; only the extract was read.",
+      "url": "https://cambridge.org/core/journals/historical-journal/article/ii-matthew-boulton-and-the-art-of-parliamentary-lobbying/69D1672CA91FFA2975C1DEBA7DC06D46"
+    },
+    {
+      "id": "src_boulton_coinworld",
+      "kind": "press",
+      "title": "Coin World, 'UK's Cartwheel coins reflect Industrial Revolution impact' (read in full): in June 1797 Boulton received royal permission to strike copper coins at his Soho mint; steam power let him and Watt make round coins of identical weight, faster and with more definition than the screw press; his stated aim was to restore confidence in small change with coins whose metal was worth face value (penny 28.35 g, twopence 56.7 g); the penny circulated widely while the twopence was judged too heavy and clumsy. Numismatic trade press; independent of the museum voices and includes a practical criticism of one coin.",
+      "url": "https://www.coinworld.com/news/world-coins/britains-cartwheel-coins-reflect-industrial-revolutio-impact.html"
+    },
+    {
+      "id": "src_boulton_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, 'Scientist of the Day: Matthew Boulton' (read in full): factory at Soho, partnership with Watt from 1775 under an exclusive patent until 1800, steam-driven coining presses, fine copper coins, the 1797 cartwheel penny; includes an 1860s print of distinguished men of science that shows him with Watt and Dalton. Library blog; adds little behavioural detail.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/matthew-boulton"
+    },
+    {
+      "id": "src_boulton_hnn",
+      "kind": "press",
+      "title": "History News Network, review of the Matthew Boulton exhibition at Birmingham Museum and Art Gallery (read in full): partnership offered to Watt in 1775, Soho Mint founded 1788 and about 45 million coins struck 1797-1799, Boulton's name overshadowed by Watt's, quotes his 1776 letter to James Boswell ('I sell here, Sir, what all the world desires to have - POWER'). Wholly celebratory exhibition review; no criticism.",
+      "url": "https://historynewsnetwork.org/article/90907"
+    },
+    {
+      "id": "src_boulton_mises",
+      "kind": "press",
+      "title": "Michele Boldrin and David K. Levine, 'James Watt, Monopolist' (Mises Institute, excerpt from Against Intellectual Monopoly, 2008; read in full). COUNTER-VOICE: argues that Boulton and Watt used litigation against Hornblower, refused to license the separate condenser (a quoted view of economic historian F. M. Scherer) and used Boulton's parliamentary connections to win the 1775 extension over Burke's objection, thereby retarding steam-engine improvement. Advocacy for a thesis about patents; used only for what the firm did, not for its motives or effects.",
+      "url": "https://mises.org/library/james-watt-monopolist"
+    },
+    {
+      "id": "src_boulton_selgin",
+      "kind": "press",
+      "title": "George Selgin and John L. Turner, 'Strong Steam, Weak Patents, or the Myth of Watt's Innovation-Blocking Monopoly, Exploded', Journal of Law and Economics 54(4), 2011 (abstract read via the RePEc record; full text unavailable): disputes the claim that Watt's patent held back high-pressure steam until it expired in 1800, arguing other causes such as safety beliefs and that the monopoly may have spurred Trevithick. Independent scholarly counter to the advocacy source; abstract only.",
+      "url": "https://ideas.repec.org/a/ucp/jlawec/doi10.1086-658495.html"
+    }
+  ],
+  "rows": {
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boulton_smg, src_boulton_dnb, src_boulton_coinworld, src_boulton_graces | 1762-1797 | institutional biography, standard biography, trade press, archive] The Science Museum biography says he foresaw great industrial demand for steam power and urged Watt to design the rotative engine; the DNB says Soho needed more power than its water supply gave and he pursued Watt; Grace's Guide records his bringing design, production and marketing under one control; Coin World reports his reading of the 1790s small-change shortage as a chance to strike full-weight copper coins at Soho (the 1797 permission). The foresight claim is a single institutional sentence in hindsight, so confidence is moderate. SELF-CALIBRATION (agent): top-risk row; lowered from 74 / 0.58 to 70 / 0.52 because the foresight wording rests on one retrospective institutional sentence."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boulton_dnb, src_boulton_graces, src_boulton_smg | 1762-1787 | standard biography, archive, institutional biography] The DNB says he put all his capital and what he could borrow into the engine enterprise and nearly went bankrupt before it paid; Grace's Guide says the Soho business was not profitable for years from 1762 to 1775 and quotes a 1775 assessment of his energy and self-sacrifice; the Science Museum notes his earlier Fothergill partnership ended in 1781 after the business nearly failed and that engines nonetheless reached almost 500 by 1800. The sources are admiring but the sequence of near-failure and continuation is consistent across them. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.6 to 68 / 0.54 because institutional biography, an archive page and the 1886 DNB all repeat the same standard account."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_boulton_dnb, src_boulton_graces, src_boulton_smg | 1772-1781 | standard biography, archive, institutional biography] After Roebuck's failure he accepted Roebuck's share of the engine patent in settlement of a 1,200-pound claim and, per the DNB, committed his capital and borrowing to an unproven engine business until he nearly went bankrupt; Grace's Guide adds that a mechanical-painting venture failed. The same exposure is what put the firm in a position to profit, so the impact is mixed."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boulton_robinson, src_boulton_dnb, src_boulton_mises | 1773-1775 | scholarly article extract, standard biography, advocacy counter-voice] Robinson's extract documents his lobbying method for the 1775 patent extension (a list of 77 friends on the bill plus minority lords) against opposition led by Burke, and the DNB says an Act extended the term on his advice; the critical Boldrin and Levine account says his connections defeated Burke's objection. Only the article extract was read, not the full text, and the counter-voice is advocacy about outcomes, so confidence is capped. SELF-CALIBRATION (agent): top-risk row; confidence lowered from 0.55 to 0.50 (score unchanged) because only a publisher's extract of the lobbying study was read."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_boulton_smg, src_boulton_bham, src_boulton_graces, src_boulton_dnb | 1762-1809 | institutional biography, local museum page, archive, standard biography] He formed a partnership with Fothergill (1762-1781) and then with Watt from 1775, kept Watt going through setbacks (DNB), hosted the Lunar Society at Soho House, where scientists English and foreign gathered (DNB, Birmingham Museums), and Grace's Guide quotes Hadfield on a 'triple combination' with Watt and Murdoch. Retrospective praise predominates, and the Mises source suggests the partnership also acted as a closed firm toward outsiders."
+    },
+    "conflict_tolerance": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_boulton_mises, src_boulton_selgin, src_boulton_robinson | 1790s | advocacy counter-voice, scholarly abstract, article extract] The critical account says the firm went after Hornblower with the full force of the law and refused to license the separate condenser, and that Boulton's connections overcame Burke in 1775; the Selgin and Turner abstract disputes the harm but not the legal contest. The documented behaviour is firm-level and its attribution to Boulton personally is partial, and the Mises text is advocacy, so this is a low-confidence inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "매슈 볼턴"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/matthew-boulton-whitlock-1868.jpg",
+    "width": 867,
+    "height": 1200,
+    "source": "Albumen photograph by Henry Joseph Whitlock of Birmingham, named on the print, of a wax medallion of Matthew Boulton 'modelled from life' then owned by Mr John Rabone Junior, pasted in as the frontispiece of volume 2 of John Alfred Langford's 'A Century of Birmingham Life' (Birmingham, 1868), held by the Rijksmuseum, Amsterdam (object number RP-F-2001-7-65B-1, 'Portret in was van Matthew Boulton op 24 juni 1787'), dated by the museum c. 1858 - in or before 1868. The printed caption under the oval reads 'From a Wax Medallion modelled from life in the possession of Mr. John Rabone Junr' and 'Photographed by Mr. H. J. Whitlock, Birmm', and the sitter's signature 'Matthew Boulton' and the date '24th June 1787' are printed above it. The file is the oval portrait cropped from the museum's 5834 x 4590 pixel scan of the open book (crop 1560 x 2160) and downscaled to 867 x 1200 with no upscaling.",
+    "license": "Public Domain Mark 1.0 and CC0 as stated in the Rijksmuseum's own item record; the wax relief is from the 1780s and the photograph was made and published in Birmingham in the 1860s (public domain by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Henry Joseph Whitlock (photographer), photograph of a lifetime wax medallion of Matthew Boulton, frontispiece in Langford, 'A Century of Birmingham Life', vol. 2, 1868. Rijksmuseum, Amsterdam, RP-F-2001-7-65B-1 (Public Domain). Cropped and downscaled.",
+    "attributionUrl": "https://www.rijksmuseum.nl/nl/collectie/object/RP-F-2001-7-65B-1--aa2e11cd53d1d0f53fba186bce12f45f",
+    "creator": "Henry Joseph Whitlock (photographer); wax medallion by an unnamed maker",
+    "date": "photograph c. 1858 - in or before 1868; wax medallion of the 1780s",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.615400"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED with a kind decision: the lead's image was used. The Rijksmuseum linked-art record (opened live) carries the Public Domain Mark and a CC0 right; the object is an 1860s albumen photograph of a wax medallion modelled from life, so the rights basis is the holder's own statement plus age (wax relief of the 1780s, Birmingham photograph of the 1860s). I looked at the downloaded scan: the oval portrait sits on the frontispiece facing the title page of 'A Century of Birmingham Life' vol. 2 (1868) and the printed lettering names Matthew Boulton, the date 24th June 1787, the wax medallion's owner and the photographer; no contradiction. KIND: historical_depiction, because the picture is a photograph of a sculpted relief rather than a photograph of the sitter. The Reynolds-type mezzotint and Wellcome engraving alternatives were not needed. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q469269 label 'Matthew Boulton', description 'English manufacturer, industrialist, business partner of James Watt (1728-1809)', ko label 매슈 볼턴, born 3 September 1728, died 17 August 1809; not in prod65.txt; no candidate file existed for matthew-boulton. REGION western_europe (British precedents: Wedgwood, Watt, Bessemer). ERA early_modern (Wedgwood and Watt precedents). ZERO POLITICS: primary identity manufacturer and entrepreneur; the 1775 parliamentary lobbying and the Assay Office petition are scored only as persuasion in a business cause, not as political activity; no political office, party or militia activity scored. VOCABULARY: occupations entrepreneur and inventor, fields business, technology and engineering, tags founder and organizer, archetype entrepreneurial_builder, all labelled in en.ts and ko.ts. KO NAME: Wikidata Korean label 매슈 볼턴. ATTRIBUTION: attributable (extensive documentation by his own firm's papers and standard biographies). CANONICAL SIGNIFICANCE SOURCE: Science Museum Group people record on Matthew Boulton (https://collection.sciencemuseumgroup.org.uk/people/ap24713/boulton-matthew). READ (11 sources besides Wikidata): Science Museum Group biography; Birmingham Museums page; DNB 1886 entry; Grace's Guide page (with the Tungate thesis and Hadfield 1923 quotations); Westminster Abbey page; Robinson 1964 Historical Journal (publisher extract and notes only); Coin World; Linda Hall Library; History News Network exhibition review; Boldrin and Levine excerpt on Watt (counter-voice); Selgin and Turner abstract (counter to the counter-voice). PERSPECTIVES: (1) museum and institutional admiring voices (Science Museum, Birmingham Museums, Abbey, Linda Hall, HNN); (2) Victorian standard biography (DNB); (3) archive compilation including a PhD thesis and a 1923 engineer's view (Grace's Guide); (4) scholarly lobbying study (Robinson, extract only); (5) numismatic trade press with a practical criticism (Coin World); (6) counter-voice on the patent conduct (Boldrin and Levine) and its scholarly rebuttal (Selgin and Turner, abstract). NON-SELF BEHAVIOURAL SOURCES: DNB, Grace's Guide, Robinson extract, Coin World, Mises excerpt. No self-report was used (Boulton's own letters appear only as the one quoted Boswell line in the HNN review and are not scored). CONTRADICTIONS: birth date 3 September 1728 (Wikidata, DNB) vs 14 September (Science Museum, Abbey; calendar difference); Soho founding 1762 (Science Museum, DNB, Birmingham Museums, Grace's) vs 1757 and 1765 in other accounts (not opened); first Watt meeting 1767 (DNB) vs 1768 (Science Museum); patent extension to 1799/1800 stated variously; the Birmingham Museums page gives conflicting birth years and marriage details, so those are not used. NOT OPENED: Oxford DNB (paywalled), Uglow 'The Lunar Men', Tungate's thesis itself, ERIH and PCGS pages (403), the full Robinson article, the full Selgin and Turner paper, the Wikipedia article (not used), Soho archive collections at Birmingham Archives. EXCLUSIONS: private and family life, the kidney illness, the second marriage details, nothing about the Lunar Society's religious or political members, the later mint coin designs and the 1805 Royal Mint contract (not read in enough detail), the Mises article's claims about Murdoch (single advocacy source). Employee-benefit details (sickness fund, no young children) rest on Grace's Guide alone and are not carded or scored. SELF-CALIBRATION (agent): top-risk rows reviewed: opportunity_sensing (74/0.58 lowered to 70/0.52: one retrospective institutional sentence), persuasiveness (score kept at 70, confidence 0.55 lowered to 0.50: only a publisher extract of the lobbying study was read), risk_tolerance (kept at 72/0.55: three sources agree on the capital commitment and near-bankruptcy and the impact is marked dual-edged). Broad flag for the lead: none; six rows, scores 56-72, confidence 0.42-0.60. HANDBACK65: {\"slug\": \"matthew-boulton\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Rijksmuseum linked-art record RM0001.COLLECT.615400 (PDM + CC0)\", \"holder_record_checked_by_you\": \"Opened the Rijksmuseum linked-art JSON (id.rijksmuseum.nl/200641800, handle RM0001.COLLECT.615400, object RP-F-2001-7-65B-1): the image service carries the Public Domain Mark and the record carries a CC0 right; albumen print c. 1858 - in or before 1868, photographer Henry Joseph Whitlock (mentioned on object), inscription 'From a Wax Medallion modelled from life in the possession of Mr. John Rabone Junr'; note says the photo faces the title page of the book.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Rijksmuseum album photograph of a wax portrait inscribed 'Matthew Boulton 24th june 1787'\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam, RP-F-2001-7-65B-1, Whitlock photograph of a lifetime wax medallion, frontispiece of Langford's 'A Century of Birmingham Life' vol. 2 (1868) (https://hdl.handle.net/10934/RM0001.COLLECT.615400); oval cropped from the 5834x4590 scan and downscaled to 867x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"opportunity_sensing\", \"old_score\": 74, \"old_confidence\": 0.58, \"new_score\": 70, \"new_confidence\": 0.52, \"reason\": \"The foresight claim rests on one retrospective institutional sentence\"}, {\"attribute\": \"persuasiveness\", \"old_score\": 70, \"old_confidence\": 0.55, \"new_score\": 70, \"new_confidence\": 0.5, \"reason\": \"Only the publisher's extract of the lobbying study was read, not the full article\"}], \"reviewed_kept\": [\"risk_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6, \"image_inscription_check\": \"Printed on the plate: signature 'Matthew Boulton', '24th June 1787', 'From a Wax Medallion modelled from life in the possession of Mr. John Rabone Junr', 'Photographed by Mr. H. J. Whitlock, Birmm'; the facing title page reads 'A Century of Birmingham Life ... Vol. II ... 1868'\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.6 to 68 / 0.54 because institutional biography, an archive page and the 1886 DNB all repeat the same standard account."
+  }
+}

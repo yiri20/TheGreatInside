@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "arthur-schopenhauer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Arthur Schopenhauer",
+    "aliases": [
+      "Schopenhauer"
+    ],
+    "wikidataId": "Q38193",
+    "birthYear": 1788,
+    "deathYear": 1860,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "literature"
+    ],
+    "impactDomains": [
+      "historical",
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "philosopher",
+      "independent",
+      "systematic_thinker",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_schop_wikidata",
+      "kind": "wikidata",
+      "title": "Arthur Schopenhauer (Q38193), verified live via the Wikidata API (2026-11-05): label 'Arthur Schopenhauer', description 'German philosopher (1788-1860)', born 22 February 1788, died 21 September 1860, Korean label 아르투어 쇼펜하우어. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q38193"
+    },
+    {
+      "id": "src_schop_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Schopenhauer' (Life: 1788-1860 section read in full, about 1,700 words). CANONICAL SIGNIFICANCE SOURCE: dissertation (1813), The World as Will and Representation (1818/19), the 1820 Berlin lectures scheduled against Hegel, the 1821-26 lawsuit by a fellow lodger, the settled Frankfurt routine from 1833, the 1839 Norwegian prize essay, the 1840 Danish Academy rejection and his defiant 1841 publication, Parerga and Paralipomena (1851) and the 1853 Westminster Review notice that brought recognition.",
+      "url": "https://plato.stanford.edu/entries/schopenhauer/"
+    },
+    {
+      "id": "src_schop_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Arthur Schopenhauer' (Life section read in full, about 1,300 words). Independent scholarly account: school dismissal for a satire on a teacher, the break with Goethe over On Vision and Colors, the book making no impression on the public, the Hegel-hour lectures, the lost lawsuit, the 1841 introduction attacking the Danish Academy, the doubled 1844 second edition and the fame that followed the 1851 Parerga; also states that his system remained virtually unchanged from its first articulation.",
+      "url": "https://iep.utm.edu/schopenh/"
+    },
+    {
+      "id": "src_schop_eb",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Arthur Schopenhauer' by Arthur Hübscher (public-web portion read, about 2,000 words; the remainder is behind a paywall and was not opened). Authored by the long-time head of the Schopenhauer Society, so admiring in tone: states that he was primarily important as exponent of a metaphysical doctrine of the will in reaction against Hegelian idealism, the three years given exclusively to the main work, the Berlin lectures scheduled against Hegel (only the first held), the 1825 last attempt, and that after 1819 no further development of his philosophy occurred.",
+      "url": "https://www.britannica.com/biography/Arthur-Schopenhauer"
+    },
+    {
+      "id": "src_schop_mayerwegelin",
+      "kind": "biography",
+      "title": "Eberhard Mayer-Wegelin, 'Ich gebe Ihnen 20 Minuten Zeit...: Schopenhauers Verhaeltnis zur fruehen Photographie', Schopenhauer-Jahrbuch 2011 (scholarly article, about 3,900 words read from the Mainz University Schopenhauer-Archiv PDF; in German). Non-self behavioural source built on Hübscher's iconography and letters: 31 recorded photographs between 1842 and 1859, his impatience in sittings (per the photographer Mylius), his regular custom with the Frankfurt photographer Johann Schäfer from 1855, and the 1859 dispute with Schäfer over showing a portrait without permission.",
+      "url": "https://download.uni-mainz.de/fb05-philosophie-schopenhauer/files/2020/03/2011_MayerWegelin.pdf"
+    },
+    {
+      "id": "src_schop_eb1911",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, eleventh edition (1911), 'Schopenhauer, Arthur', as reproduced on Wikisource (about 2,200 words read of the first part). Older critical account that reports specific episodes (a rude letter to his publisher Brockhaus in 1818, the rejection of a family creditor compromise, the failed Berlin lectures and his attribution of failure to Hegelian intrigue); its psychological and family-health asides were deliberately not used.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Schopenhauer,_Arthur"
+    },
+    {
+      "id": "src_schop_ubffm",
+      "kind": "institution",
+      "title": "Frankfurt University Library (Universitaetsbibliothek Johann Christian Senckenberg), 'Nachlass Schopenhauer' collection page (read in full). Describes the Schopenhauer-Archiv holdings (archival material, his private library and objects, photographs), the library's part in them and the digitised estate; used as the holder-side record for the portrait route. The item-level catalogue records for the photograph could not be opened.",
+      "url": "https://sammlungen.ub.uni-frankfurt.de/schopenhauer"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_schop_sep, src_schop_iep, src_schop_eb | 1809-1860 | scholarly encyclopedia x2 + admiring biographer] Left a merchant's apprenticeship for scholarship, turned from the lecturers he heard in Berlin (Fichte, Schleiermacher) as disillusioned with university philosophy (IEP), wrote against the prevailing idealists (Fichte, Schelling, Hegel) as charlatans (SEP), and held one system, unchanged, through decades of public neglect (IEP and Britannica). Three accounts agree on a thinker who followed his own line against the school of his day. Impact is dual-edged: independence cost him an audience for thirty years. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.64 to 76 / 0.6 because two scholarly encyclopedias and an admiring Society biographer; independence is read from outcome."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schop_sep, src_schop_iep, src_schop_eb, src_schop_eb1911 | 1819-1853 | scholarly encyclopedia x2 + admiring biographer + older encyclopedia] The major work made no impression on the public (IEP) and two Berlin attempts to lecture failed (Britannica), yet he kept writing and publishing: On the Will in Nature (1836), the prize essay (1839), a doubled second edition (1844) that again won no acclaim (IEP), Parerga (1851) and a revised third edition in 1859; recognition began only after 1853 (SEP). Four accounts document more than three decades of continued work without audience. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 78 / 0.64 to 74 / 0.6 because the same reference-source concentration; the lecture failure and lawsuit are retold briefly."
+    },
+    "conflict_tolerance": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_schop_sep, src_schop_iep, src_schop_eb, src_schop_eb1911 | 1818-1841 | scholarly encyclopedia x2 + biographer + older encyclopedia] Scheduled his Berlin lectures against Hegel's hour (SEP, IEP, Britannica), wrote so rudely to his publisher that Brockhaus broke off correspondence (Britannica 1911), refused a family creditor compromise and recovered more by holding out (Britannica 1911), lost a five-year lawsuit brought by a fellow lodger after a quarrel over noise (SEP, IEP) and, when the Danish Academy gave his essay no prize, published it with an introduction attacking the Academy (IEP, SEP). Several independent accounts show a repeated readiness to confront rather than avoid; the costs (lost suit, no audience, broken correspondence) make the impact dual-edged. Scored for the behaviour, not for any temperament label. RUBRIC_CORRECTION (lead review, before eligibility): conflict_tolerance lowered from 82 / 0.66 to 78 / 0.62 because the episodes are documented but the four sources are encyclopedias retelling the same few anecdotes, and the 1911 article colours them."
+    },
+    "collaboration": {
+      "score": 36,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_schop_iep, src_schop_eb1911, src_schop_eb | 1815-1825 | scholarly encyclopedia + older encyclopedia + biographer] His joint interest with Goethe in colour ended when he published a theory he presented as superior and Goethe took him for an opponent (IEP, Britannica 1911); his first publisher Brockhaus broke off correspondence after his rude letters (Britannica 1911), and his two attempts to establish himself as a Berlin lecturer failed (Britannica); the sources show no sustained working partnership, circle of collaborators or school. Inferred from a pattern of ended working relationships; each episode is told from one or two sources, so confidence is moderate-low."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_schop_sep, src_schop_eb, src_schop_eb1911 | 1814-1860 | scholarly encyclopedia + admiring biographer + older encyclopedia] SEP describes a deliberate daily routine over twenty-seven years in Frankfurt (morning reading and study, flute, lunch at the same inn, afternoon walk, evening reading); Britannica says he gave three years exclusively to the main work and the 1911 article that he read and took notes with regularity in Dresden. Routine documented by one source for Frankfurt, supported for the earlier period by two. RUBRIC_CORRECTION (lead review, before eligibility): discipline lowered from 74 / 0.6 to 70 / 0.54 because the daily-routine evidence is from an admiring biographer and an old encyclopedia."
+    },
+    "deep_focus": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schop_eb, src_schop_sep, src_schop_eb1911 | 1815-1825 | admiring biographer + scholarly encyclopedia + older encyclopedia] Britannica says the three years in Dresden were devoted exclusively to preparing and writing the main work; SEP records that the quarrel with his neighbour arose because loud conversation made it difficult for him to concentrate on his work; the 1911 article notes that he read and took notes with regularity. A pattern of protecting long uninterrupted work, inferred from three accounts; no direct description of his working method."
+    },
+    "belief_updating": {
+      "score": 32,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_schop_iep, src_schop_eb, src_schop_sep | 1819-1859 | scholarly encyclopedia x2 + admiring biographer] IEP says his system remained virtually unchanged from its first articulation and Britannica says that after the main work there were no inner struggles, changes or critical reorganisation of basic thoughts, only more detailed exposition; SEP describes On the Will in Nature (1836) as an effort to confirm his views by scientific evidence, and the 1844 second edition added a second volume to the original text. Held below the middle because the sources agree that later work extended and defended rather than revised; the judgement partly rests on an admiring biographer's summary, so confidence is moderate-low."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schop_sep, src_schop_eb, src_schop_iep | 1809-1851 | scholarly encyclopedia x2 + biographer] SEP lists university courses in physics, psychology, astronomy, zoology, archaeology, physiology, history and literature, and his later work spans metaphysics, ethics, aesthetics, a colour theory, scientific confirmations of his philosophy, a study of Sinology and Eastern texts and a late collection of popular essays (Parerga); Britannica and IEP note his sustained reading of Indian thought. The breadth is documented, but the writing returns to one central doctrine, which holds the score in the low 70s."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schop_iep, src_schop_eb, src_schop_sep | 1818-1851 | scholarly encyclopedia x2 + biographer] IEP credits an 'original insight' that the will is the thing in itself and Britannica traces influence on later existential philosophy, Freudian psychology, Nietzsche and Wagner; the support is retrospective reference-work praise plus the admiring biographer's account of influence, not a documented episode of creating. SELF-CALIBRATION (agent): lowered from 74/0.54 because the claim rests on retrospective praise and on a biographer from the Schopenhauer Society, and no source shows the process of invention."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schop_iep, src_schop_sep, src_schop_eb | 1813-1818 | scholarly encyclopedia x2 + biographer] IEP describes the 1813 dissertation as a systematic investigation of the principle of sufficient reason written as a response to Kant, and says the later system rests on it (SEP: the centrepiece of his later philosophy); he also attacked Fichte and Hegel for obscurity and published in a clear, direct prose style (IEP). Documented systematic argument; the clarity of his prose is not the same as rigour of proof, so the score is held at 70."
+    },
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schop_iep, src_schop_eb, src_schop_sep | 1818-1844 | scholarly encyclopedia x2 + biographer] Britannica describes The World as Will and Representation as a four-part account running from knowledge through nature, aesthetics and ethics under one principle, and IEP says he combined Kant's idealism with the single insight that the will is the thing in itself; SEP notes later works re-presenting the system and its confirmation. Documented single-system construction across several domains; the merit of the system is not scored. RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 76 / 0.6 to 72 / 0.54 because retrospective judgements of the system by encyclopedias rather than documented method."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_schop_iep, src_schop_sep, src_schop_eb | 1809-1860 | scholarly encyclopedia x2 + biographer] A lifelong interest in Eastern thought begun through the Orientalist Friedrich Majer (IEP), reading of the Upanishads in his later years (SEP), study of medicine and natural sciences at Gottingen before philosophy (Britannica, SEP) and daily reading of The London Times at Frankfurt (SEP). Pattern of wide self-directed reading from several accounts; no single episode of inquiry is described in detail."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아르투어 쇼펜하우어"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / SUCCEEDED with the lead photograph (second frame of the March/April 1859 Schaefer sitting, Commons 'Arthur Schopenhauer by J Schaefer, 1859b.jpg'). Holder verification partial: the edocs item record was unreachable and the persistent link was bot-walled, so only the library's collection page (no reuse restriction stated) and the Commons wikitext quoting the record were read; the basis is age (1859 photograph, Schaefer died 1904 per Wikidata Q112744938, so protection expired long before 1996 and the print was published long before 1931), not the Commons tag alone. Mayer-Wegelin (2011) independently documents Schopenhauer sitting to Schaefer in 1859; its date for the first Schaefer photograph is April 1859 while Commons gives March 1859, a discrepancy recorded here and resolved by stating only '1859'. No lettering on the image, so identity rests on the holder record and the documented sitting (not an inscription). Kind is likeness (documented sitting). PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q38193 label 'Arthur Schopenhauer', description 'German philosopher (1788-1860)', born 22 Feb 1788, died 21 Sep 1860, Korean label 아르투어 쇼펜하우어 (Wikidata Korean label); no production (prod65.txt) or candidate slug/QID collision (other candidates only mention him in text). REGION western_europe (German philosopher born in Danzig, lived in Berlin and Frankfurt; precedent Kant and Nietzsche). ERA 19th_century by career (born 1788; Kant precedent is early_modern, Nietzsche 19th_century; his main output 1818-1860). ZERO POLITICS: his comments on politics and the 1848 revolution were not read and are not scored; his move to avoid the 1813 war and the 1831 cholera are not scored. VOCABULARY: occupations philosopher, writer; fields philosophy, literature; tags philosopher, independent, systematic_thinker, late_recognition; archetype independent_creator (all present with EN and KO labels). IMPACT DOMAINS historical, literary, cultural. ATTRIBUTION CONFIRMED: dated works, lectures, lawsuit, letters quoted by scholars, so 'attributable' is confirmed. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Schopenhauer' (https://plato.stanford.edu/entries/schopenhauer/), Life section read in full, with Britannica's statement of his importance. READ (substantively): SEP (life), IEP (life), Britannica by Hubscher (public portion, paywall truncated), Mayer-Wegelin 2011 journal article (German, read in the Schopenhauer-Archiv PDF), Britannica 1911 (first part), Frankfurt University Library collection page. PERSPECTIVES: two independent scholarly encyclopedias; an admiring biographer who headed the Schopenhauer Society; a scholarly article on photography built on letters and iconography; an older critical encyclopedia. COUNTER-VOICES: IEP and SEP on the failed Berlin lectures and the lost lawsuit; Britannica 1911 on the rude letter to his publisher; Britannica on the absence of development in his thought. NOT OPENED: Safranski and Janaway biographies, Hubscher's iconography and the Gesprache, the Westminster Review article, Schopenhauer's own letters (known only through the scholarly pages), the rest of the Britannica entry. SELF-REPORT SEPARATION: his own words appear only as quoted by SEP, IEP and Britannica; no row rests on self-report alone. EXCLUSIONS (hard rule): his father's death and any family health history (the 1911 article's remarks on 'mental alienation' and 'morbid fears' were deliberately not used), his pessimism as a doctrine, the break with his mother and his private life, his illnesses, his views on women, race and politics, and his religious or Eastern-philosophy doctrines are not scored; the Marguet lawsuit is used only as the documented fact that a lodger sued and he lost, not for any inference about temperament. THIN EVIDENCE FLAG: no biography-length or primary-letter source was opened; confidence is capped at 0.66. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (74/0.54 lowered to 70/0.50: retrospective praise from reference works and a Society biographer, with no documented process); conflict_tolerance (82/0.66, kept: four sources document separate episodes in two decades); independent_thinking (80/0.64, kept: three accounts agree). HANDBACK65: {\"slug\": \"arthur-schopenhauer\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Frankfurt University Library edocs record cited; page unread\", \"holder_record_checked_by_you\": \"The cited edocs.ub.uni-frankfurt.de item record (volltexte/2007/81000013 and 81000010) was unreachable (connection failure over http and https); the nbn-resolving persistent link returned an Anubis proof-of-work bot wall; the library's Nachlass Schopenhauer collection page (sammlungen.ub.uni-frankfurt.de/schopenhauer) was opened and describes the Schopenhauer-Archiv holdings including photographs and asks only for a copy of publications that cite the digitised material, with no reuse restriction; holder item-level rights wording not read. Commons file page wikitext (source URL, date March 1859, creator Johann Schaefer, PD-old-100-expired deathyear 1904) and Wikidata Q112744938 (Schaefer born 1822, died 1904) were read; Mayer-Wegelin 2011 independently documents the 1859 Schaefer sitting.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Johann Schafer 1859 photograph (Frankfurt University Library)\", \"final_portrait_source\": \"Johann Schaefer, photograph of Arthur Schopenhauer, 1859 (second frame, Frankfurt University Library record 81000013 as cited on Commons), original 1997x2552 downscaled to 939x1200, https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 12, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 74, \"old_confidence\": 0.54, \"new_score\": 70, \"new_confidence\": 0.5, \"reason\": \"The claim rests on retrospective reference-work praise and an admiring Schopenhauer Society biographer, and no source shows the process of invention\"}], \"reviewed_kept\": [\"conflict_tolerance\", \"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 12, \"image_inscription_check\": \"none visible (unlettered studio photograph; identification rests on the library record cited on Commons and the documented 1859 Schaefer sitting)\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): conflict_tolerance lowered from 82 / 0.66 to 78 / 0.62 because the episodes are documented but the four sources are encyclopedias retelling the same few anecdotes, and the 1911 article colours them. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 80 / 0.64 to 76 / 0.6 because two scholarly encyclopedias and an admiring Society biographer; independence is read from outcome. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 78 / 0.64 to 74 / 0.6 because the same reference-source concentration; the lecture failure and lawsuit are retold briefly. RUBRIC_CORRECTION (lead review, before eligibility): discipline lowered from 74 / 0.6 to 70 / 0.54 because the daily-routine evidence is from an admiring biographer and an old encyclopedia. RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 76 / 0.6 to 72 / 0.54 because retrospective judgements of the system by encyclopedias rather than documented method."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/arthur-schopenhauer-schafer-1859.jpg",
+    "width": 939,
+    "height": 1200,
+    "source": "Studio photograph of Arthur Schopenhauer taken in 1859 by the Frankfurt photographer Johann Schaefer (1822-1904), one of two surviving frames of the sitting held in the Frankfurt University Library (Schopenhauer-Archiv holdings; the Commons file page cites the library's digital record 81000013 and dates the sitting to March 1859, while Mayer-Wegelin's 2011 article dates Schaefer's first photograph of Schopenhauer to April 1859, so the year 1859 is the safe statement). The Schopenhauer-Jahrbuch article independently documents that Schopenhauer sat to Schaefer in 1859 and gave permission for carte-de-visite prints. The scan was downscaled once from 1,997 x 2,552 pixels to 939 x 1,200 pixels; nothing was upscaled. The image carries no lettering; the sitter is identified by the library record as cited on Commons and by the documented sitting. Caveat: the library's item-level catalogue page (edocs host) was unreachable and the persistent-link resolver was behind a bot challenge, so the holder's own rights wording could not be read; the basis is the age of the photograph (1859) and the photographer's death in 1904.",
+    "license": "Public domain (1859 photograph; photographer Johann Schaefer died 1904)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Johann Schaefer, Arthur Schopenhauer, photograph, 1859, Frankfurt University Library (Schopenhauer-Archiv), public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg",
+    "creator": "Johann Schaefer",
+    "date": "1859",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg"
+  }
+}

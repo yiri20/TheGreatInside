@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ogino-ginko",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ogino Ginko",
+    "aliases": [
+      "Ginko Ogino",
+      "Ogino Gin",
+      "荻野吟子"
+    ],
+    "wikidataId": "Q4794092",
+    "birthYear": 1851,
+    "deathYear": 1913,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician"
+    ],
+    "fieldIds": [
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "historical"
+    ],
+    "tagIds": [
+      "independent"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ogino_wikidata",
+      "kind": "wikidata",
+      "title": "Ogino Ginko (Q4794092), verified live via the Wikidata API (2026-11-05): English label 'Ogino Ginko', description 'Japanese physician (1851-1913)', Korean label 오기노 긴코, Japanese label 荻野吟子, born 4 April 1851, died 23 June 1913, citizenship Japan, occupation physician. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q4794092"
+    },
+    {
+      "id": "src_ogino_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Ogino Ginko' (English article, read as orientation only, including its reference list). Not a counted source and not used as support for any row or card; the article's biography rests largely on one Spanish-language article.",
+      "url": "https://en.wikipedia.org/wiki/Ogino_Ginko"
+    },
+    {
+      "id": "src_ogino_saitama",
+      "kind": "institution",
+      "title": "Saitama Prefecture (gender-equality section), page on Ogino Ginko (Japanese), read in full. CANONICAL SIGNIFICANCE SOURCE: the prefecture presents her as Japan's first officially licensed woman doctor, born 1851 in what is now Kumagaya; it records her entry to Tokyo Women's Normal School in 1875 and to the private Kojuin medical school in 1879 (graduating 1882), that women could not sit the licensing examination and her applications were repeatedly refused, that she cited the Nara-period legal commentary Ryo no Gige, which mentions women doctors, was allowed to sit in 1884, passed in 1885 and opened a clinic; her 1886 baptism and joining the Tokyo women's reform society, her part in founding the Greater Japan Women's Hygiene Association in 1887, her 1890 remarriage, move to Hokkaido in 1894 and return to Tokyo in 1908, and her death in 1913; it names the Ogino Ginko Award for gender equality in her honour.",
+      "url": "https://www.pref.saitama.lg.jp/a0309/danjyo-ginko/oginoginko.html"
+    },
+    {
+      "id": "src_ogino_hektoen",
+      "kind": "press",
+      "title": "Mariel Tishma, 'The life of a trailblazer: Ogino Ginko, one of the first female doctors in Japan', Hektoen International (medical-humanities journal of the Hektoen Institute of Medicine, Winter 2021), read in full: a detailed English narrative of her schooling (first class of the Tokyo Women's Normal School, 15 of 74 entrants finishing by 1879), the private Kojuin school, two refusals of the examination and about two years lobbying the sanitary authorities with help from Ishiguro Tadanori and Takashima Kaemon, her argument from the Nara-period law, her passing both parts in 1885, her Tokyo obstetrics and gynaecology clinic and school-doctor post, her 1893 interview and essay, her move to a failed Christian community in Hokkaido, and a stalled later career; it hedges the thinly documented Hokkaido and post-1908 years, leans on one novel for several specifics, and frames her as a role model (the author's reading).",
+      "url": "https://hekint.org/2021/03/29/the-life-of-a-trailblazer-ogino-ginko-one-of-the-first-female-doctors-in-japan/"
+    },
+    {
+      "id": "src_ogino_twmu",
+      "kind": "institution",
+      "title": "Takako Tsujimura-Ito, 'Breaking Barriers: The Struggle for Gender Equality in Japan's Medical Profession and the Role of Tokyo Women's Medical University', Tokyo Women's Medical University Journal (2025), open-access review article (PDF, section 1 read): a university scholar's account that her application was first rejected because there was 'no precedent for female doctors', that she found the Nara-era commentary Ryo no Gige as evidence, appealed with supporters to the head of the national health bureau, and sat and passed the two examinations in 1884 and 1885; it adds that she commuted to the male-only private school disguised as a boy and that later women (Takahashi Mizuko, Yoshioka Yayoi) followed. The article spells her helper's name inconsistently (Tadanao, Naotada), against Ishiguro Tadanori elsewhere.",
+      "url": "https://www.jstage.jst.go.jp/article/twmuj/9/0/9_2025003/_pdf/-char/en"
+    },
+    {
+      "id": "src_ogino_kotobank",
+      "kind": "biography",
+      "title": "Kotobank (dictionary aggregator), entries 'Ogino Ginko' from Shogakukan Daijisen and Nipponica, Heibonsha World Encyclopedia and Mypedia, Nichigai Associates' 20th-Century Japanese Names dictionary, Kodansha's Nihon Jinmei Daijiten and Yamakawa's Japanese history dictionary (Japanese), read in full: reference-work summaries that agree on the 1885 licence as the first modern woman doctor, the Kojuin school 1879-1882, passing the first part in 1884 and the second in 1885 (Heibonsha), help from Ishiguro Tadanori and Nagayo Sensai (Nipponica), the 1890 remarriage, practising and evangelising at Setana in Hokkaido from 1894, and the return to Tokyo in 1908; Heibonsha adds that her Tokyo practice did not thrive and that she died in obscurity, and Kodansha quotes her motto 'medicine suits women'. Some dictionaries give 3 March for her birth where the NDL gives 4 April.",
+      "url": "https://kotobank.jp/word/%E8%8D%BB%E9%87%8E%E5%90%9F%E5%AD%90"
+    },
+    {
+      "id": "src_ogino_ndl",
+      "kind": "archive",
+      "title": "National Diet Library, Portraits of Modern Japanese Historical Figures, entry 'OGINO Ginko' (biographical note by Library staff, read, with the exhibit's 'About This Site' statement that all images in the exhibition are in the public domain): a short note on her marriage and illness, schooling, the 1885 licence and Ogino Hospital, the 1890 marriage, Hokkaido in 1894 and her return to Tokyo in 1908; the entry shows three portrait photographs and its data file names source items 967109 (page 68) and 2983907 (pages 4 and 6), with no printed caption or photographer.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/43.html"
+    },
+    {
+      "id": "src_ogino_kumagaya",
+      "kind": "institution",
+      "title": "Kumagaya community-centre director Funada Shosuke, 'The first officially licensed woman doctor, Ogino Ginko' (Japanese, Kumagaya city website PDF, one page, read): a short local-history piece recording her birth in Tawarase village, marriage at 18 and divorce, the 1885 licence at 34 and her Yushima practice, her remarriage and the failed settlement at Imanuel (present-day Imakane). Short and local, used only as a cross-check.",
+      "url": "https://www.city.kumagaya.lg.jp/about/soshiki/kyoiku/kumagayatyuokominkan/index.files/ginko.pdf"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ogino_saitama, src_ogino_hektoen, src_ogino_twmu, src_ogino_kotobank | 1875-1885 | prefecture, medical-humanities journal, university review, reference works] Four independent descriptions agree on a long, repeatedly blocked path: she completed Tokyo Women's Normal School (Hektoen: 15 of 74 entrants finished by 1879), then the private medical school (1879-1882), then was refused the licensing examination, had her applications rejected, and continued for about two years until she sat the first part in 1884 and the second in 1885 (Saitama, Heibonsha via Kotobank, Hektoen, Tsujimura-Ito). The documented effort is her own, but each step also depended on patrons (Ishiguro, Takashima, the head of the sanitary bureau), which the row does not credit to her alone."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ogino_saitama, src_ogino_hektoen, src_ogino_twmu, src_ogino_kotobank | 1880-1885 | prefecture, medical-humanities journal, university review, reference works] When the authorities answered that there was no precedent for a woman doctor, she researched old records and found the Nara-period commentary Ryo no Gige, which mentions women doctors, and used it in her appeal (Saitama, Hektoen, Tsujimura-Ito agree); she also enlisted Ishiguro Tadanori and the businessman Takashima Kaemon and appealed to the head of the hygiene bureau (Hektoen, Nipponica via Kotobank), and the university review says she commuted to the male-only school disguised as a boy (a single-source detail used only as colour). The records of who did what are not fully consistent across sources (spelling of Ishiguro's name, who first introduced her), so the confidence is moderate."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ogino_kotobank, src_ogino_hektoen, src_ogino_saitama | 1885-1893 | reference works, medical-humanities journal, prefecture] Kodansha's dictionary records her motto 'medicine suits women'; she opened an obstetrics and gynaecology clinic in Tokyo, served as a school doctor, took part in founding the Greater Japan Women's Hygiene Association in 1887 (Saitama), and, per Hektoen, was interviewed in 1893 and wrote an essay on the past and future of women doctors (the essay itself was not opened). The stated purpose of serving women patients is matched by her practice and organisational work; the reasons given in popular accounts for why she chose medicine rest on her illness and are not used. Her temperance, suffrage and licensed-prostitution activities are context only and are not scored."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ogino_hektoen, src_ogino_kotobank, src_ogino_kumagaya | 1890-1908 | medical-humanities journal, reference works, local history] After her 1890 marriage she gave up her Tokyo practice and in 1894 followed her husband to Hokkaido to join a Christian settlement; the community failed (Hektoen, Kumagaya), she practised at Setana, and on returning in 1908 her practice did not thrive, and Heibonsha says she died in obscurity (Kotobank), while Hektoen reports that her skills were outdated. The documented cost shows a willingness to stake an established career on an uncertain venture; whether the move was her own initiative or her husband's is not settled by the sources, and Hektoen hedges the Hokkaido evidence, hence the low confidence and the dual-edged impact."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "HELD on the holder record. The lead's image is the NDL Portraits photograph of Ogino Ginko (file 0043_1.jpg, 1024 x 1434 px; Commons carries the same image as 'Ogino Ginko.jpg' / 'Ogino Ginko2.jpg' tagged public domain for an old Japanese photograph, author unknown). The NDL Portraits site states that all images in the exhibition are in the public domain, but the NDL Digital Collections item record for the source book (Yabe Shintaro, ed., Kindai Meishi no Omokage, vol. 1, Chikuhakusha, Tokyo, 1914; item 967109, page 68) gives rights code 'undet' (undetermined) and says it is published under the Commissioner for Cultural Affairs' ruling under Article 67(1) of the Copyright Act (ruling dated 2019-07-09); there is no item-level Public Domain Mark and no IIIF manifest. The other two NDL images come from a 1967 Setana town memorial book (item 2983907), which is not out of copyright. The image has no lettering, so identification rests only on the NDL entry. A photograph by an unknown photographer published in Japan in 1914 is very probably public domain in Japan and in the US (published before 1931), so the legal route may well be sound, but the holder's own 'undetermined' record weakens it and it is therefore not treated as strong. Next step: the lead may accept the 1914 publication date plus the NDL Portraits site statement and use the prepared unmodified NDL image (kept outside the repository), or find another dated photograph of her with an item-level Public Domain Mark, or a Setana or Kumagaya museum image with stated terms."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오기노 긴코"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / HELD: the lead's strength rested on the site-wide NDL Portraits public-domain statement; the holder's item record for the source book says rights undetermined (see portrait.reason). The prepared, unmodified NDL image is saved in the research scratchpad as g7/ogino-ginko-unknown-1914_READY_IF_LEAD_ACCEPTS.jpg (1024 x 1434) for the lead to accept; it is NOT in public/portraits. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q4794092 label 'Ogino Ginko', description 'Japanese physician (1851-1913)', ko label 오기노 긴코, born 1851-04-04, died 1913-06-23, citizen of Japan; not in prod65.txt; no prior candidate file. REGION east_asia (Japanese precedents). ERA 19th_century. ZERO POLITICS: primary identity physician; her women's-movement activity (temperance society, Diet-gallery and suffrage petitions, hygiene association) is context only and not scored. VOCABULARY: physician, medicine, tag independent, archetype scholarly_specialist, impact domains medical and historical, all labelled in EN and KO. KO NAME: Wikidata Korean label 오기노 긴코 (standard and short). ATTRIBUTION: attribution_screen_result attributable CONFIRMED: dated schooling, examinations and licence documented by many independent reference works and modern scholarship. CANONICAL SIGNIFICANCE SOURCE: Saitama Prefecture page (src_ogino_saitama). READ (7 incl. Wikidata and Wikipedia; 5 substantive plus the NDL entry and a cross-check): (1) Saitama Prefecture page, full; (2) Hektoen International article, full; (3) Tsujimura-Ito 2025 review article in the Tokyo Women's Medical University Journal, section 1 read; (4) Kotobank aggregation of reference-work entries, full; (5) NDL Portraits entry and its About page; (6) Kumagaya one-page local piece. PERSPECTIVES: a prefectural gender-equality office, an English medical-humanities writer, a university medical educator, Japanese reference encyclopedias. COUNTER-VOICES AND LIMITS: Heibonsha says her later Tokyo practice did not thrive and she died in obscurity; Hektoen says the Hokkaido community failed, her later career stalled and her skills were outdated, and hedges the thinly documented late years; the sources disagree on her birth date (3 March in dictionaries, 4 April in the NDL and Wikidata) and on the spelling of her helper Ishiguro's name. NOT OPENED: Ellen Nakamura, 'Ogino Ginko's Vision' (1893 essay, U.S.-Japan Women's Journal 34, 2008; the Auckland repository page rendered no content), Mara Patessio (2011), Mariana Nieto (2016, Spanish), Michael Hoffman in the Japan Times (2018; HTTP 402), Watanabe Junichi's novel (fiction), her own writings, the Saitama life-of-Ogino PDFs (text layer garbled and unreadable), the unnamed-author Past Medical History summary (unsourced and admiring, not counted). EXCLUSIONS: her first marriage, her illness and its treatment (no personality inferred from illness), her infertility, the divorce, religious doctrine, the temperance, prostitution-abolition, Diet-gallery and suffrage activity (activism context), and the second husband's role. SPARSE PROFILE: 4 rows, scores 58-76, confidence 0.42-0.60; no row above 0.60 because the evidence is reference-work summaries and one scholarly review, with no adversarial behavioural source and her own writings unopened. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (highest; kept at 76/0.60 because four independent descriptions agree and the rationale already bounds it by patron help), resourcefulness (kept at 68/0.52: the Ryo no Gige episode is stated by three sources, and the single-source disguise detail is already marked as colour), risk_tolerance (kept at 58/0.42: already low-confidence inference with the husband-versus-self question stated). No row lowered. HANDBACK65: {\"slug\": \"ogino-ginko\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"PARTLY VERIFIED: NDL Portraits site-wide statement; source book 'Kindai Meishi no Omokage' (before 1913)\", \"holder_record_checked_by_you\": \"NDL Portraits entry 43 opened (three images; data file names item 967109 page 68 and item 2983907 pages 4 and 6) and its About page ('All images used in the digital exhibition are in the public domain', commercial reuse allowed); NDL Digital Collections item API for 967109 (Yabe Shintaro ed., Kindai Meishi no Omokage vol. 1, Chikuhakusha, 1914): rights code 'undet', 'published under the Commissioner for Cultural Affairs ruling under Copyright Act Art. 67(1), ruling 2019-07-09', no PDM, IIIF manifest unavailable; item 2983907 is a 1967 Setana town book (permission 'ooc'); Commons wikitext for Ogino_Ginko.jpg and Ogino_Ginko2.jpg read (old-Japanese-photo PD tag, unknown author, NDL source).\", \"holder_contradiction_found\": true, \"initial_lead\": \"NDL Portraits photograph of Ogino Ginko (before 1913)\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The preflight relied on the exhibition-wide public-domain statement and the book's date; the holder's item record for the source book says rights undetermined (Art. 67 ruling, no PDM) and the other two images come from a 1967 book; legally the 1914 photograph is probably public domain, so the lead may accept the prepared image.\", \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [], \"reviewed_kept\": [\"persistence\", \"resourcefulness\", \"risk_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4, \"image_inscription_check\": \"none visible (a halftone head-and-shoulders photograph of an older woman in kimono; no caption, name or lettering); identification rests on the NDL Portraits entry only\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} LEAD REVIEW (Roster65): stray kind field removed from the held portrait record; portrait stays HELD because the NDL item record says undetermined rights, which contradicts the exhibition-wide public-domain statement (same standard as the Peirce hold in Roster63)."
+  }
+}

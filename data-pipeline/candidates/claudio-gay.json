@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "claudio-gay",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Claudio Gay",
+    "aliases": [
+      "Claude Gay",
+      "Claudio Gay Mouret",
+      "Claude Gay Mouret"
+    ],
+    "wikidataId": "Q1096785",
+    "birthYear": 1800,
+    "deathYear": 1873,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR",
+      "CL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "naturalist",
+      "historian"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "biology",
+      "exploration"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "explorer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gay_wikidata",
+      "kind": "wikidata",
+      "title": "Claude Gay (Q1096785), verified live via the Wikidata API (2026-11-05): English label 'Claude Gay', description 'French botanist, naturalist and illustrator (1800-1873)', Spanish label 'Claudio Gay', no Korean label, born 18 March 1800, died 29 November 1873, citizenship France and Chile. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1096785"
+    },
+    {
+      "id": "src_gay_memoria_bio",
+      "kind": "institution",
+      "title": "Memoria Chilena (National Library of Chile), 'Claudio Gay Mouret (1800-1873)', read in full (Spanish). CANONICAL SIGNIFICANCE SOURCE: dated outline of his life (arrival in Chile on 8 December 1828, teaching at the Colegio de Santiago, the 1830 contract to explore and study the territory, about twelve years of travel from Atacama to Chiloe plus Peru in 1839, the collection that became the Gabinete de Historia Natural in 1836, Chilean citizenship by grace in December 1841, the Historia fisica y politica de Chile of 1844-1871 in about thirty volumes with an atlas and an eight-volume history, his last visit in 1863, death in 1873). A celebratory national-library page; its description of the Lastarria-Bello debate gives no substance.",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-571.html"
+    },
+    {
+      "id": "src_gay_memoria_contract",
+      "kind": "institution",
+      "title": "Memoria Chilena, 'Contrato con el Gobierno de Chile' (Gay minisite), read in full (Spanish): the 1830 contract with the minister Diego Portales to travel from the Atacama desert to Chiloe studying geography, geology, botany and zoology, to deliver a general natural history with plates, a geography, a geology and statistics after four years, to set up a Gabinete de Historia Natural and to place his library at the project's service, against a monthly payment, instruments, official support and a prize of 3,000 pesos; and the note that the work took nearly forty years instead of four. The page gives 25 pesos a month where other sources give 125, and no account of obstacles.",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-94220.html"
+    },
+    {
+      "id": "src_gay_memoria_work",
+      "kind": "institution",
+      "title": "Memoria Chilena, 'Historia fisica y politica de Chile (1844-1871)' (Gay minisite), read in full (Spanish): how Minister Mariano Egaña commissioned a Chilean history in 1839 and financed a trip to Lima for documents, Gay's method of gathering documents and oral accounts (about fifteen manuscripts, interviews with participants in independence) with advice from Andres Bello, the structure of the work (sixteen natural-history volumes, two on agriculture, eight of history and two documentary volumes), and the 1844 Lastarria-Bello polemic in which Bello held up Gay's work as the model of documented history. It relies on secondary studies and is favourable to Gay and Bello.",
+      "url": "https://www.memoriachilena.gob.cl/602/w3-article-94223.html"
+    },
+    {
+      "id": "src_gay_uchile",
+      "kind": "institution",
+      "title": "Universidad de Chile, 'Claudio Gay Mouret' (page on its illustrious figures), read (Spanish): a short summary of his studies, the three-year agreement with the government, his founding of the natural history museum, the 1839 history proposal, citizenship by grace in 1841, membership of the university in 1843 and the 1844-1871 publication. It prints an impossible year (1956) for a French academy membership and gives three years where other sources say four for the contract, so it is used only as a cross-check.",
+      "url": "https://uchile.cl/presentacion/historia/grandes-figuras/otras-figuras-ilustres/claudio-gay-mouret"
+    },
+    {
+      "id": "src_gay_ossenbach",
+      "kind": "biography",
+      "title": "Carlos Ossenbach, 'Orchids of the Southern Cone (1830-2000), Part I: Claude Gay's Physical and political history of Chile', Lankesteriana 22(3), 2022, pages 181-206 (English), downloaded as a PDF and read in full for the biographical section (the orchid taxonomy was not assessed): his training and recruitment, the 1830 contract terms, expeditions 1830-1841, the 1832 return to France to buy instruments and books, the botanical collaborators in Paris, financing difficulties, the 1863 visit and pension, and criticism: Carl Reiche (1910) called the orchid treatment one of the weakest collaborations, which Ossenbach rejects as unjustifiable given how little was known, and Gay himself wrote that about half of the orchid species were poorly known. A botanical-history paper in tribute; some of its biographical points are drawn from Chilean secondary literature.",
+      "url": "https://revistas.ucr.ac.cr/index.php/rlankesteriana/article/view/6100"
+    },
+    {
+      "id": "src_gay_munoz",
+      "kind": "institution",
+      "title": "Melica Munoz Schick, '100 anos de la Seccion Botanica del Museo Nacional de Historia Natural (1889-1989)', Boletin del Museo Nacional de Historia Natural de Chile 42 (1991), pages 181-202 (Spanish), downloaded as a PDF and read in full (the Gay section is the opening page): the 14 September 1830 contract, his travels between Copiapo and Chiloe, the museum he had installed in 1838 in a room on calle Catedral, the collections taken to France and studied by his collaborators (Barneoud, Clos, Naudin, Remy, Richard, Desvaux, Montagne), the 28 volumes and 2 atlases published in Paris from 1845, the 1,500 duplicate specimens kept in Santiago as isotypes, and the rise of the known Chilean flora from about 300 to 3,767 species. Written by a museum botanist; independent of the Memoria Chilena pages.",
+      "url": "https://boletinmnhn.cl/index.php/ojs/article/view/418"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_gay_memoria_bio, src_gay_memoria_contract, src_gay_ossenbach, src_gay_munoz | 1830-1871 | national-library pages, botanical-history paper, museum botanist's history] Four independent descriptions agree on a sustained programme: about twelve years of expeditions from Atacama to Chiloe until all provinces were explored in 1841 (Memoria Chilena, Ossenbach), followed by about 27 years of publication of some thirty volumes between 1844 and 1871 (Ossenbach, Munoz Schick), through difficulties in financing (Ossenbach), on a project the contract had planned for four years and Memoria Chilena says took nearly forty. The delay is attributed to resources and personal circumstances (the latter not used here), so the row scores the documented continuity of effort and not speed."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gay_ossenbach, src_gay_memoria_bio, src_gay_memoria_work | 1821-1844 | botanical-history paper, national-library pages] He turned from medicine and pharmacy to botany and entomology in Paris, then taught himself physics, chemistry, geology and comparative anatomy (Ossenbach, citing a Chilean biographer), travelled with the botanist Balbis in 1822 (Memoria Chilena), and went on to cover botany, zoology, geology, geography and, from 1839, history in one project. The breadth is documented, but much of its scope was set by the government contract, and the self-teaching claim reaches us through a secondary source. SELF-CALIBRATION (agent): lowered from 70/0.55 to 66/0.48 because the breadth was largely prescribed by the 1830 contract and the self-study evidence is second-hand."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gay_ossenbach, src_gay_memoria_bio, src_gay_memoria_work | 1828-1863 | botanical-history paper, national-library pages] He accepted an offer to go to a country he describes as unknown to naturalists (Ossenbach quoting his journal), sailed to France in 1832 to buy instruments and books and to seek funds, although Memoria Chilena says the request to the French government was rejected, went to Lima in 1839 for historical documents (Memoria Chilena, Ossenbach) and returned to Chile in 1863 to publish in Spanish and hand over his library and collections (Memoria Chilena). These are self-directed steps documented by two independent writers; the motives are partly Gay's own words in a secondary quotation."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gay_munoz, src_gay_ossenbach | 1842-1871 | museum botanist's history, botanical-history paper] Both sources independently list the Paris specialists who described his collections (Richard for the orchids, Montagne for cryptogams, Barneoud, Clos, Naudin, Remy, Desvaux), and Ossenbach adds that he wrote the treatment of 103 families himself and had early mentors in Jussieu and Richard; Memoria Chilena says Bello advised his historical method. The behaviour, organising outside specialists around his own collections, is documented; there is no source on how he worked with them day to day, so the trait inference is moderate. Limit: Reiche's criticism of one collaboration (the orchids) shows the quality was uneven."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_gay_memoria_work, src_gay_ossenbach | 1839-1849 | national-library page, botanical-history paper] Memoria Chilena says he gathered about fifteen manuscripts and interviewed participants in the independence period, applied natural-science methods with Bello's advice, and was held up by Bello as the model of documented history against Lastarria's speculative approach; Ossenbach reports that his own text calls about half of the orchid species poorly known, and that only 21 of 49 orchid names remain accepted. The favourable framing comes from sources that follow Bello's side of the 1844 debate and no independent assessment of his historical method was found, so the row stays low in confidence."
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear, holder-documented portrait found after the bounded retry. (1) Pierre Petit carte de visite (the lead, Commons 'Claude Gay (cropped).jpg', PD-old): the Commons scan is a reproduction by a private photographer with no holder and no sitter documentation, and the one holder record found, George Eastman Museum 1981.1205.0033a ('Claude Gay', albumen print, 1869, from the Louis Napoleon album), identifies the sitter only by pencil notes ('Gay', 'Gay 1869') and states that image use needs permission from the museum. (2) Franceschi carte de visite, Biblioteca Nacional de Chile (BND 313518, AF0011135): the item page gives no item-level licence, only the site footer 'Algunos derechos reservados', and does not identify a photographer ('G. Franceschi, Paris' appears as publisher). (3) Engraving reproduction, Memoria Chilena item MC0005523 (AF0010251): item-level 'patrimonio cultural comun' but creator and date unidentified (reproduction made by the University of Chile photographic department), so a US public-domain basis cannot be stated. (4) Commons 'Claudio Gay por Alexandre Laemlein' (1845): the cited source PDF could not be reached (host not found) and no holder record exists. Next step: obtain the Paris Museum National d'Histoire Naturelle or BnF holder record for a dated Gay portrait, or a Biblioteca Nacional de Chile written rights statement for the Franceschi photograph, then re-run the rights review."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "클로드 게"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / HELD: the risk materialised. The lead's Pierre Petit carte de visite has no documented holder on Commons (a private photographer's reproduction of a card), and the only holder record I could open, the George Eastman Museum object 1981.1205.0033a (Petit, albumen print, 1869, 'Louis Napoleon album'), names the sitter only through pencil notes and says image use requires contacting the museum, so the sitter identification and the rights basis are both unresolved. Alternatives checked (one bounded retry): BND/Memoria Chilena Franceschi photograph (no item licence, footer 'Algunos derechos reservados'), Memoria Chilena engraving MC0005523 ('patrimonio cultural comun' but no creator or date), Commons Laemlein 1845 (source PDF unreachable). Commons image downloads were also refused by the Wikimedia robot policy during this session, so the Commons images could not be inspected for inscriptions; no image was accepted, so no inscription contradiction arises. See portrait.reason for the next step. PREFLIGHT: QID VERIFIED LIVE (2026-11-05) Q1096785 'Claude Gay', 'French botanist, naturalist and illustrator (1800-1873)', citizenship France and Chile; not in prod65.txt and no candidate file existed. REGION western_europe: born in Draguignan and based in Paris from 1842 to his death; he lived in Chile 1828-1842 and visited in 1863; no committed candidate is a European-born person with a Latin American career base, so birthplace applies (judgment call for the lead; latin_america is the alternative). ZERO POLITICS: primary identity naturalist and author of a natural and political history; the contract was a government commission and the war and independence narrative is context, not scored. VOCABULARY: occupations scientist, naturalist, historian; fields natural_science, biology, exploration; tags field_researcher, explorer; archetype scientific_explorer; impact domains scientific and historical; all with EN and KO labels (botanist not labelled and not used). KO NAME: no Korean Wikipedia or Wikidata label exists; the Japanese Wikipedia title is a transliteration of the French pronunciation, so the Korean display name is the transliteration 클로드 게 (recorded as a transliteration, not an established Korean label). ATTRIBUTION: attributable CONFIRMED: dated contract, expeditions, collections and a large published corpus, described by several modern writers. CANONICAL SIGNIFICANCE SOURCE: Memoria Chilena biography (src_gay_memoria_bio). READ (6 substantive plus Wikidata): (1) Memoria Chilena biography; (2) Memoria Chilena contract page; (3) Memoria Chilena work page; (4) Universidad de Chile page (short, cross-check); (5) Ossenbach 2022 full PDF; (6) Munoz Schick 1991 full PDF. PERSPECTIVES: national library, university, a botanical historian (Costa Rica), a Chilean museum botanist. COUNTER-VOICES AND LIMITS: Memoria Chilena records the Lastarria objections to the historical narrative of the period and the near-forty-year overrun; Ossenbach records Reiche's 1910 criticism of the orchid treatment, Gay's own caveat that half of the orchid species were poorly known, and that only 21 of 49 orchid names remain accepted, and the financing difficulties; inconsistencies between sources: contract 3 or 4 years, 25 or 125 pesos a month, museum founded 1830, 1835, 1836 or 1838, the species count 3,467 or 3,767. NOT OPENED: Gay's own report (a primary text, found as a PDF, not read in full, self-report), the Cuadernos de Historia article (bot-challenge page), Sagredo's studies, Diaz Cespedes 2017, the Atlas and the Historia itself. EXCLUSIONS: his marriage and family problems (mentioned by Ossenbach), the Chilean war context, the 'founder of modern natural science in Chile' framing that only one source states. SPARSE PROFILE: 5 rows, scores 62-76, confidence 0.45-0.62; no adversarial biographer and no source on working relationships. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (highest score; kept at 76/0.62: four independent descriptions and the delay is explicitly scoped), curiosity (lowered 70/0.55 to 66/0.48: breadth was largely prescribed by the contract and the self-study evidence is second-hand), proactive_agency (kept at 72/0.58: three dated self-directed steps in two independent sources). HANDBACK65: {\"slug\": \"claudio-gay\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"RISKY (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: carte de visite scan with no holder\", \"holder_record_checked_by_you\": \"George Eastman Museum object page 1981.1205.0033a opened (Pierre Petit, Claude Gay, 1869, albumen print; sitter from pencil notes 'Gay'; image use needs permission from the museum); Biblioteca Nacional Digital item 313518 (Franceschi carte de visite, no item licence, footer 'Algunos derechos reservados'); Memoria Chilena item MC0005523 (engraving reproduction, 'patrimonio cultural comun', creator and date unidentified); Commons file pages for Petit, Franceschi and Laemlein (source PDF host unreachable); Hunt Institute portrait 7754 ('Copyright Restrictions: unknown').\", \"holder_contradiction_found\": true, \"initial_lead\": \"Pierre Petit carte de visite of Claude Gay (Commons 'cropped')\", \"final_portrait_source\": null, \"portrait_lead_or_replacement\": \"none\", \"portrait_final_status\": \"held\", \"preflight_overestimate_reason\": \"The risky grade was right: the lead's Commons scan has no holder, the only holder record (Eastman) restricts reuse and identifies the sitter only by pencil notes, and the Chilean library items carry either no item licence or no creator and date.\", \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"curiosity\", \"old_score\": 70, \"old_confidence\": 0.55, \"new_score\": 66, \"new_confidence\": 0.48, \"reason\": \"Breadth was largely prescribed by the 1830 contract and the self-study evidence is second-hand.\"}], \"reviewed_kept\": [\"persistence\", \"proactive_agency\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"none visible (no image accepted; Commons downloads were refused by the robot policy so candidate images were not inspected)\", \"image_identity_matches_claimed_sitter\": \"ambiguous\", \"inscription_contradiction_found\": false}"
+  }
+}

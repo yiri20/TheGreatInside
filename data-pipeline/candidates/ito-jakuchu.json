@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ito-jakuchu",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Itō Jakuchū",
+    "aliases": [
+      "Ito Jakuchu",
+      "Jakuchu",
+      "Itō Jakuchū",
+      "Ito Jakuchu Jokin"
+    ],
+    "wikidataId": "Q1240575",
+    "birthYear": 1716,
+    "deathYear": 1800,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jakuchu_wikidata",
+      "kind": "wikidata",
+      "title": "Itō Jakuchū (Q1240575), verified live via the Wikidata API (2026-11-05): English label 'Itō Jakuchū', description 'Japanese artist (1716-1800)', Korean label 이토 자쿠추, birth 1716-03 and death 1800-10-27. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1240575"
+    },
+    {
+      "id": "src_jakuchu_kotobank",
+      "kind": "biography",
+      "title": "Kotobank (Japanese reference aggregator) entry for Ito Jakuchu, reproducing Shogakukan's Digital Daijisen and Nipponica (entry by Kobayashi Tadashi), Heibonsha's World Encyclopedia (entry by Suzuki Hiroyuki), Britannica Japan, Heibonsha's Mypedia and Kodansha's Japanese biographical dictionary, read in the original Japanese. CANONICAL SIGNIFICANCE SOURCE: a Kyoto painter, eldest son of a Nishikikoji greengrocer, who studied the Kano school but was dissatisfied with its copybook practice and turned to copying Song, Yuan and Ming paintings and sketching the animals and plants around him; handed the family business over at 40 and devoted himself to painting; made an unusual style of rich-colour bird-and-flower painting and ink painting; best known for the thirty-scroll Colourful Realm of Living Beings (1757-66) given to Shokoku-ji, and for his chickens; unusual stone-rubbing prints; lost his house in the 1788 Tenmei fire and lived out his last years near Sekiho-ji; contrasted by Suzuki with Maruyama Okyo's plain realism (his paintings recompose observed forms into a strongly subjective, imaginative picture); Nipponica records the tale that he painted chickens for anyone for a measure of rice. Japanese scholarly reference; independent of the English press sources.",
+      "url": "https://kotobank.jp/word/%E4%BC%8A%E8%97%A4%E8%8B%A5%E5%86%B2-17771"
+    },
+    {
+      "id": "src_jakuchu_tricycle",
+      "kind": "press",
+      "title": "Sarah Fleming, 'Ito Jakuchu: The Greatest Fullness', Tricycle: The Buddhist Review (read as the visible part of the page, which covers the whole profile before the subscription notice). A popular profile: eldest son of a Kyoto greengrocer, trained under Ooka Shunboku of the Kano school but found it too strict and learned from vegetables, fish and the fowl he raised, sometimes importing exotic birds to observe; took over the shop after his father's death in 1739 but had little interest in it, quoting his friend the Rinzai monk Daiten; retired at 40 to his younger brother and moved to Shokoku-ji to paint the Colorful Realm of Living Beings; the series' donation to the temple in 1765 with his dedication; the studio and family shop burned in the 1788 Tenmei fire, after which he funded the Five Hundred Arhats stone garden at Sekiho-ji by selling ink paintings for rice. Admiring; relies in part on Daiten and Baisao, who were friends, and tells at least one tale it calls perhaps apocryphal.",
+      "url": "https://tricycle.org/magazine/ito-jakuchu"
+    },
+    {
+      "id": "src_jakuchu_harvard",
+      "kind": "press",
+      "title": "Harvard Magazine, 'A Blossoming Centennial' (2012), an article built on interviews with Professor Yukio Lippit, guest curator of the National Gallery of Art exhibition 'Colorful Realm: Japanese Bird-and-Flower Paintings by Ito Jakuchu', read in full. A modern scholar's account: he began the Colorful Realm in 1757 and worked on it continuously until 1766 at about three paintings a year; initially perhaps individual works or a smaller set, later conceived under Daiten as a backdrop to a Shokoku-ji ritual, with a Shakyamuni triptych making 33; the paintings are highly crafted polychrome works on silk using expensive materials and laborious techniques, including verso coloration; the later works are more experimental; he retired at 40 from a prospering family business; Shokoku-ji gave the paintings to the Imperial Household in 1889 for funds. The article is an exhibition-promotion piece that also describes the curator; admiring.",
+      "url": "https://www.harvardmagazine.com/node/34585"
+    },
+    {
+      "id": "src_jakuchu_canon",
+      "kind": "institution",
+      "title": "Canon Tsuzuri Project, 'Colorful Realm of Living Beings (Doshoku sai-e)' work page (Japanese), read in full. A cultural-heritage reproduction project's catalogue note on the Imperial Collections Museum's thirty hanging scrolls (National Treasure, 2021): painted by the former Nishikikoji greengrocer over about ten years, centred on chickens, with an overwhelming density of detail and bold compositions not seen in other painters; given by Jakuchu himself to Shokoku-ji, where it was used in ceremonies with his Shakyamuni triptych; presented to the Imperial family by the temple in 1889. Short institutional text; consistent with, but not independent of, the museum descriptions on which it draws.",
+      "url": "https://global.canon/ja/tsuzuri/works/doshokusaie/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jakuchu_kotobank, src_jakuchu_canon, src_jakuchu_tricycle, src_jakuchu_harvard | 1757-1800 | Japanese encyclopedias, heritage-project note, press profile, modern curator] Suzuki (Heibonsha) says his paintings recompose observed forms and fine detail into an imagination-filled, strongly subjective picture with its own space and decorative effect, unlike Okyo's plain realism; Nipponica calls his flower-and-bird world strikingly realistic yet almost fantastic; the Canon note says his detail and bold compositions are not seen in other painters; Tricycle says the realism sometimes borders on the surreal. Several voices agree and a Japanese scholarly entry gives a specific comparison, but all are retrospective and admiring and none is an adversarial assessment. SELF-CALIBRATION (agent): top-risk row; lowered from 78 / 0.58 to 74 / 0.54 because the supporting judgements are admiring retrospective summaries and the Canon and Tricycle passages echo the same view."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jakuchu_harvard, src_jakuchu_canon, src_jakuchu_kotobank, src_jakuchu_tricycle | 1757-1766 | modern curator, heritage-project note, Japanese encyclopedias, press profile] Lippit says the thirty scrolls are highly crafted polychrome works on silk that meticulously depict their subjects with expensive materials and laborious techniques, including painting the silk on the back as well as the front; Canon notes an overwhelming density of detail; Heibonsha speaks of precise detail; Tricycle gives his own count of species depicted. The works survive and the density of detail is directly checkable, so this is well supported; what remains inferred is that painstaking detail reflects his own disposition rather than a patron's or ritual setting's demands. RUBRIC_CORRECTION (lead review, before eligibility): detail_orientation lowered from 78 / 0.6 to 74 / 0.54 because the claim is read from the paintings by a curator, a heritage work page and encyclopedias, not from a documented working method."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jakuchu_harvard, src_jakuchu_tricycle, src_jakuchu_kotobank | 1757-1800 | modern curator, press profile, Japanese encyclopedia] Lippit says he worked continuously on the Colorful Realm from 1757 to 1766 at about three large paintings a year; Tricycle and Heibonsha record that after the 1788 fire destroyed his studio and shop he kept working, funding the Sekiho-ji stone garden by selling ink paintings for rice, and Daiten (a friend) described him as patiently labouring day by day. Sustained long projects are documented; the Daiten description is friendly testimony and the post-fire detail rests on the press profile."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jakuchu_kotobank, src_jakuchu_tricycle | 1730s-1760s | Japanese encyclopedias, press profile] Heibonsha and Britannica Japan say he was dissatisfied with the Kano school's copybook method and went directly to Song, Yuan and Ming paintings and to sketching creatures around him; Tricycle says he found the school too strict and chose to learn from daily life. Two independent kinds of source agree on leaving the established school to work from direct study, but the reasons given are summaries and no contemporaneous criticism of him is on record in the sources read."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jakuchu_harvard, src_jakuchu_kotobank, src_jakuchu_tricycle | 1757-1790s | modern curator, Japanese encyclopedias, press profile] Lippit says he used verso coloration and that later scrolls of the series became more experimental in subject and treatment; Nipponica notes unusual stone-rubbing prints with a distinctive place in Japanese print history and Heibonsha his skilful use of ink bleeding on absorbent paper; Tricycle describes the Vegetable Parinirvana made of sixty kinds of produce. The techniques are documented but the sources do not describe trial-and-error or his own reasoning."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_jakuchu_tricycle, src_jakuchu_harvard, src_jakuchu_kotobank | 1739-1790s | press profile, modern curator, Japanese encyclopedias] He took over the family shop on his father's death but, per Tricycle quoting Daiten, preferred solitary pursuits, built a studio on the outskirts of Kyoto, retired at 40 to his brother and later lived near Sekiho-ji; Lippit notes the retirement from a prospering business made him a lofty amateur who painted full time. The choices are documented; the preference for independence is inferred, and the main voice on his temperament is a friendly monk."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이토 자쿠추"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ito-jakuchu-kubota-beisen-meiji.jpg",
+    "width": 444,
+    "height": 759,
+    "source": "Portrait of Ito Jakuchu by Kubota Beisen (1852-1906), one hanging scroll, colour on silk, Meiji period (Commons gives 1885, which the holder's exhibition listings do not confirm), in the collection of Shokoku-ji, Kyoto, exhibited at its Jotenkaku Museum. A posthumous portrait made about eighty-five years after his death, so shown as a later depiction and not as a likeness from life. The file is a promotional photograph of the scroll, used at its native 444 x 759 size with no resizing or upscaling; the temple site offers no item record or rights statement for it.",
+    "license": "Public domain (a Meiji-period painting by an artist who died in 1906)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Kubota Beisen, Portrait of Ito Jakuchu, Meiji period. Shokoku-ji, Kyoto, public domain",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_It%C5%8D_Jakuch%C5%AB_by_Kubota_Beisen.jpg",
+    "creator": "Kubota Beisen",
+    "date": "Meiji era (1885 per Commons)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_It%C5%8D_Jakuch%C5%AB_by_Kubota_Beisen.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / LEAD USED, WITH A DOCUMENTED CAVEAT ON HOLDER RECORD (lead image accepted on a public-domain-by-age basis). Lead: Commons 'Portrait of Itō Jakuchū by Kubota Beisen.jpg' (444x759): description 'Portrait of Itō Jakuchū', date 1885, source an iMuseum exhibition page (art.icity.ly/events/aro6yw4) naming Shokoku-ji, tag PD-art-two (PD-Japan, PD-old-auto-1996, creator death 1906). CHECKED: (a) the iMuseum page opened: 'Portrait of Ito Jakuchu, Kubota Beisen, Shokoku-ji collection', an exhibition page for the 2016 Jotenkaku Museum show (the site claims copyright only in its own posters and text); (b) the Shokoku-ji and Jotenkaku Museum site pages opened: no item page or terms for the portrait; (c) the Jotenkaku exhibition catalogue listings for 2016 and 2021 (Artagenda) list 'Portrait of Ito Jakuchu, Kubota Beisen, one scroll, colour on silk, Meiji period, Shokoku-ji' so the holder and attribution are corroborated, though the 1885 date is not. RIGHTS BASIS: a Meiji-period painting by Beisen (1852-1906), public domain in Japan and the United States by the artist's death date; the image is a faithful photograph of a 2D painting, which adds no copyright in the US; no reproduction restriction was found. WEAKNESSES recorded: no holder rights statement exists to open, the image is a promotional photo of unknown photographer, and it is small (444x759), used at native size (never upscaled). kind historical_depiction: a posthumous portrait painted in the Meiji era about 85 years after his death, not a likeness from life. IMAGE INSCRIPTION CHECK: no lettering visible. Saved public/portraits/ito-jakuchu-kubota-beisen-meiji.jpg (a direct copy of the Commons file). The alternative leads (his portrait of Baisao, a different sitter; a family portrait) were not needed. PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q1240575 label 'Itō Jakuchū', description 'Japanese artist (1716-1800)', Korean label 이토 자쿠추, birth 1716-03, death 1800-10-27; not in prod65.txt; no candidate file or QID collision. REGION east_asia, ERA early_modern, nationality JP, no historical polity key (the Tokugawa key is not labelled in core i18n). ZERO POLITICS: portfolio arts, none arises. LIVING-SUBJECT/PRIVATE-LIFE: marital status, family and the donation's stated memorial purposes (a parents-and-brother memorial) are not used; his Buddhist devotion is context only. VOCABULARY: occupations painter and artist, field art, impact domains artistic and cultural, tag craft_focused, archetype creative_creator, all labelled in en.ts and ko.ts. KO NAME: Korean Wikipedia title and Wikidata label 이토 자쿠추. HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED. CANONICAL SIGNIFICANCE SOURCE: Kotobank's Japanese reference entries (https://kotobank.jp/word/%E4%BC%8A%E8%97%A4%E8%8B%A5%E5%86%B2-17771) (Heibonsha entry by Suzuki Hiroyuki; Nipponica entry by Kobayashi Tadashi). READ (4 substantive sources plus Wikidata): (1) Kotobank entries, full; (2) Tricycle profile (visible text); (3) Harvard Magazine feature (interview with curator Yukio Lippit); (4) Canon Tsuzuri work page. PERSPECTIVES: Japanese scholarly encyclopedias, a Western Buddhist-press profile quoting his friend Daiten, a modern scholar-curator, and a heritage-project catalogue note. COUNTER-VOICE: thin: none of the sources read is adversarial; the nearest are Suzuki's comparative judgement against Okyo and the press profile's own caution that the sparrow tale is perhaps apocryphal; the NGA says 24 paintings existed by 1765, which differs from the 30-scroll count, so timing claims are avoided. Only 4 substantive sources were opened, below the 6-9 target, because the NGA biography (Cloudflare 403), the Met and Smithsonian pages were walled and the Omeka student page was too thin to use; this is why every confidence stays at 0.60 or below. NOT OPENED: Tsuji Nobuo's 'Lineage of Eccentrics' and 'Jakuchu' (1974), Lippit's NGA catalogue essay, Daiten's own writings, the Heian jinbutsu shi listing, the Japanese Wikipedia (orientation only, not counted), Kyoto National Museum entries. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (78/0.58 lowered to 74/0.54), detail_orientation (kept: the works survive and the detail is directly checkable, cited from a curator and two Japanese-language sources), persistence (kept: documented continuous decade and post-fire work from two kinds of source). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. HANDBACK65: {\"slug\": \"ito-jakuchu\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Shokoku-ji holder not opened; Commons cites an event page\", \"holder_record_checked_by_you\": \"Shokoku-ji and its Jotenkaku Museum site opened (shokoku-ji.jp/museum, faq, about, guide): no item page, rights statement or reproduction terms for the portrait (only a rule against photography in galleries); holder-level corroboration of the work is the museum's exhibition catalogue listings (Artagenda mirrors of the 2016 and 2021 Jotenkaku exhibitions: 'Portrait of Ito Jakuchu, Kubota Beisen, one hanging scroll, colour on silk, Meiji period, Shokoku-ji collection'). The Commons source page is an iMuseum exhibition page (event aro6yw4) captioning the image 'Ito Jakuchu portrait, Kubota Beisen, Shokoku-ji collection' with a copyright line for the site's own posters. No holder restriction or contradiction found, but no holder rights statement exists to open; the date 1885 is Commons-only and is not confirmed by the holder listing.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Kubota Beisen 1885 portrait of Ito Jakuchu (Shokoku-ji)\", \"final_portrait_source\": \"Kubota Beisen (1852-1906), 'Portrait of Ito Jakuchu', one hanging scroll, colour on silk, Meiji period, Shokoku-ji, Kyoto; Commons file Portrait of Itō Jakuchū by Kubota Beisen.jpg (444x759, native size, not resized)\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"image_inscription_check\": \"none visible: a seated figure on a black mat against a plain ground within blue brocade mounting; no cartouche, signature or seal legible at 444x759; identity rests on the holder's exhibition listing and the Commons and iMuseum captions\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 78, \"old_confidence\": 0.58, \"new_score\": 74, \"new_confidence\": 0.54, \"reason\": \"Supporting judgements are admiring retrospective summaries and the Canon and Tricycle passages echo the same view.\"}], \"reviewed_kept\": [\"detail_orientation\", \"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6} RUBRIC_CORRECTION (lead review, before eligibility): detail_orientation lowered from 78 / 0.6 to 74 / 0.54 because the claim is read from the paintings by a curator, a heritage work page and encyclopedias, not from a documented working method."
+  }
+}

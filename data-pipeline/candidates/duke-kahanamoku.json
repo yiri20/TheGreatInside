@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "duke-kahanamoku",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Duke Kahanamoku",
+    "aliases": [
+      "Duke Paoa Kahanamoku",
+      "Duke P. Kahanamoku"
+    ],
+    "wikidataId": "Q123688",
+    "birthYear": 1890,
+    "deathYear": 1968,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_duke_wikidata",
+      "kind": "wikidata",
+      "title": "Duke Kahanamoku (Q123688), verified live via the Wikidata API (2026-11-05): description 'American swimmer, surfer and actor (1890-1968)', Korean label 듀크 카하나모쿠, birth 24 August 1890, death 22 January 1968. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q123688"
+    },
+    {
+      "id": "src_duke_olympedia",
+      "kind": "archive",
+      "title": "Olympedia, 'Duke Kahanamoku' (Olympic results database and biography; read in full). CANONICAL SIGNIFICANCE SOURCE (with the hall-of-fame biography below): Hawaiian swimmer who set world records in the early 1910s and won the Olympic 100 m freestyle in 1912 and 1920; results table 1912 Stockholm 100 m gold and 4x200 m relay silver, 1920 Antwerp 100 m gold, 4x200 m relay gold and water polo fourth, 1924 Paris 100 m silver (three gold and two silver in all); beaten in 1924 by Johnny Weissmuller; acted in Hollywood films, one of which helped popularise surfing; listed as first athlete inducted into the International Halls of Fame for both swimming and surfing.",
+      "url": "https://www.olympedia.org/athletes/51429"
+    },
+    {
+      "id": "src_duke_ishof",
+      "kind": "award_body",
+      "title": "International Swimming Hall of Fame, 'Duke Kahanamoku' (inductee biography; read). Gives the 1912 gold in 63 2/5 seconds, the 1920 gold in the 100 m and relay after Australia protested the first 100 m swim and he had to swim it again, the 1924 silver, the world records set in Honolulu Harbor on 2 August 1911 that the AAU initially refused to recognise, and his credited role in introducing surfing around the world including Australia. Hall-of-fame text: admiring, institutional.",
+      "url": "https://ishof.org/?p=6505"
+    },
+    {
+      "id": "src_duke_pbs",
+      "kind": "press",
+      "title": "PBS American Masters (WNET), 'Duke Kahanamoku: biography and life timeline' (read). Timeline: 1911 record in Honolulu Harbor, 1914 surfing on the US Atlantic coast, 1918 swimming exhibitions in 30 mainland cities to raise money for the war effort, 1922 move to Los Angeles to act and small Hollywood roles, 14 June 1925 rescue of eight men from the capsized Thelma at Newport Beach, and the barriers he met as a Native Hawaiian athlete. Documentary-series companion page; no named author; admiring in tone.",
+      "url": "https://www.pbs.org/wnet/americanmasters/duke-kahanamoku-biography-and-life-timeline/21754"
+    },
+    {
+      "id": "src_duke_pieper",
+      "kind": "press",
+      "title": "Lindsay Parks Pieper, review of David Davis, 'Waterman: The Life and Times of Duke Kahanamoku', Sport in American History, 23 January 2016 (read in full). A sport historian's critical review: his exclusion from the whites-only Outrigger Canoe Club and the founding of the Hui Nalu club, the AAU's questioning of his 1911 times and the mainland test paid for by Hawaiian locals, amateur rules that barred him from earning money from swimming, the odd jobs and the Hollywood roles limited by stereotypes, and the review's criticism of the book's depth. Independent of the biographer, but a second-hand account of the same biography.",
+      "url": "https://ussporthistory.com/2016/01/23/review-of-waterman-the-life-and-times-of-duke-kahanamoku"
+    },
+    {
+      "id": "src_duke_pennybacker",
+      "kind": "press",
+      "title": "Mindy Pennybacker, 'Ambassador of aloha', Honolulu Star-Advertiser, 15 November 2015 (review of the Davis biography; read in full). Local newspaper review recording that he refused a Honolulu swim meet because paddling had left him out of swimming shape, was attacked in print and filed a libel suit, that civic leaders bought him a house held in trust, his later jobs, and his generosity and humility as the biography presents them. Same biography as the Pieper review, so the two are not independent of each other.",
+      "url": "https://www.staradvertiser.com/2015/11/15/features/ambassador-of-aloha/"
+    },
+    {
+      "id": "src_duke_surfresearch",
+      "kind": "archive",
+      "title": "Surf Research (surfresearch.com.au), '1914 Duke notes' (Australian surf-history research compilation citing contemporary newspapers; read). COUNTER-VOICE and corrective: the 1914-15 visit was mainly a swimming tour; the Freshwater surfing exhibition was on 24 December 1914 (not 23 December); he shaped the Freshwater board and at least two others; he was not Australia's first board rider and the Freshwater board was not the first full-size board there; the notes do not record him formally teaching anyone. Unsigned research notes, not a narrative biography.",
+      "url": "https://surfresearch.com.au/1914_Duke_Notes.html"
+    },
+    {
+      "id": "src_duke_mamag",
+      "kind": "institution",
+      "title": "Northern Beaches Council, Manly Art Gallery & Museum, collection story 'Duke' (read). Records his 1914-15 visit to Sydney's northern beaches with swimming and surfing demonstrations, the board he built from sugar pine, and the 24 December 1914 appearance at Freshwater captured in Frank Bell's photograph, 'widely considered' a seminal episode in Australian surfing.",
+      "url": "https://www.northernbeaches.nsw.gov.au/things-to-do/arts-and-culture/manly-art-gallery-museum/collections/collection-stories/duke"
+    },
+    {
+      "id": "src_duke_newportindy",
+      "kind": "press",
+      "title": "Christopher Trela, Newport Beach Independent, 23 September 2025, article on the plaque honouring the 1925 Thelma rescue (read). Says he was camped on the beach, paddled his surfboard to the capsized fishing boat and made repeated trips, rescuing eight men; other rescuers saved four more and five men died; the account of the rescue is given by local historian Paul Burnett; the plaque effort followed David Davis's biography.",
+      "url": "https://www.newportbeachindy.com/?p=67950"
+    },
+    {
+      "id": "src_duke_bnf",
+      "kind": "institution",
+      "title": "Bibliotheque nationale de France, Gallica, 'Ile des cygnes, 5/9/20, [Duke] Kahanamoku: photographie de presse' (Agence Rol, glass negative; SRU catalogue record read). Portrait source record for the image used; catalogue subject 'Kahanamoku, Duke (1890-1968) -- Portraits', Paris, 5 September 1920, rights 'domaine public'.",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b53051776b"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_duke_ishof, src_duke_pieper, src_duke_olympedia | 1911-1924 | hall of fame, sport-history review, results database] The Hall of Fame says the AAU initially refused to recognise his August 1911 world-record times and asked him to beat top competitors on the mainland or in Europe; the review says mainland officials questioned the times and local supporters paid for the test trip; the following year he won the 1912 Olympic 100 m. After Australia protested his first 1920 100 m win he swam it again and won (Hall of Fame), and he still took 100 m silver in 1924 (Olympedia). A multi-year pattern in three independent sources; the sources describe results and procedures rather than his own words, so confidence stays moderate."
+    },
+    "competitiveness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_duke_olympedia, src_duke_ishof, src_duke_pennybacker | 1911-1924 | results database, hall of fame, newspaper review] Olympedia lists two Olympic 100 m titles (1912, 1920) with a defended title, world records and five medals; the Hall of Fame records the re-swim after the Australian protest. The newspaper review, however, notes he declined a Honolulu swim meet because his paddling training had left him out of swimming form, so the pattern is sustained top-level racing rather than seeking every contest. SELF-CALIBRATION (agent): top-risk row; lowered from 72 / 0.54 to 68 / 0.50 because the evidence is mostly outcomes (medals and records), which the rubric warns against reading backward into the trait, and the sources are admiring or database-style."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_duke_newportindy, src_duke_pbs | 14 June 1925 | local newspaper, documentary-series page] Both say he saw the fishing boat Thelma capsize at Newport Beach and made repeated trips on his surfboard, bringing out eight men while others saved four more; five died. The act is a single clearly documented rescue; neither source shows how he decided or how he acted in other emergencies, so the row is a modest lean. SELF-CALIBRATION (agent): top-risk row; lowered from 66 / 0.48 to 62 / 0.44 because it rests on one event reported with differing details (the PBS page says he also recovered bodies, the local account does not) and a 2025 commemorative article."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_duke_pieper, src_duke_pennybacker | 1900s-1910s | two reviews of one biography] After he was kept out of the whites-only Outrigger Canoe Club, he and two friends formed Hui Nalu, a racially diverse surfing club (Pieper; Pennybacker calls it a 'poor man's club' started when he was 18). Both reviews rest on Davis's biography, so this is one account counted once, and neither describes how the club was organised."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_duke_pbs, src_duke_pieper, src_duke_pennybacker | 1914-1940s | documentary-series page, two biography reviews] When amateur rules barred him from earning from swimming he took ordinary jobs (lifeguard, janitor, gas-station manager), toured with exhibitions in 1914-15 and 1918, and in 1922 moved to Los Angeles to look for film work, where parts stayed small. The reviews and timeline agree on the sequence, but the biography reviews are one chain and none describes how he coped beyond the facts."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "듀크 카하나모쿠"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/duke-kahanamoku-agence-rol-1920.jpg",
+    "width": 978,
+    "height": 1200,
+    "source": "Press photograph 'Ile des cygnes, 5/9/20, [Duke] Kahanamoku' by Agence Rol (glass negative, Paris, 5 September 1920), Bibliotheque nationale de France, Gallica, ark:/12148/btv1b53051776b. The 6103 x 8702 pixel scan was cropped to the sitter's head and torso and downscaled to 978 x 1200 with no upscaling.",
+    "license": "Public domain: Bibliotheque nationale de France states 'domaine public' for this 1920 Agence Rol press photograph (individual photographer not named)",
+    "licenseUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53051776b",
+    "attribution": "Agence Rol (photographer not named), 1920, Bibliotheque nationale de France, Gallica, public domain",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53051776b",
+    "creator": "Agence Rol (press photograph agency)",
+    "date": "1920-09-05",
+    "kind": "likeness",
+    "sourcePageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53051776b"
+  },
+  "provenance": {
+    "createdAt": "2026-11-05T00:00:00Z",
+    "updatedAt": "2026-11-05T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / REPLACEMENT USED. The lead image (Bain News Service, LoC ggbain.06652) was not opened because loc.gov is Cloudflare-walled and I did not try to bypass it; the Malmstrom 1912 route was not pursued because a stronger holder-documented image was found within a few calls. REPLACEMENT: Bibliotheque nationale de France, Gallica, Agence Rol press photograph 'Ile des cygnes, 5/9/20, [Duke] Kahanamoku' (ark:/12148/btv1b53051776b), found through the Commons Duke Kahanamoku category and then checked at the holder: the Gallica SRU catalogue record gives creator 'Agence Rol. Agence photographique (commanditaire)', date 1920, coverage 5 September 1920, 'image de presse', 1 glass negative 18 x 13 cm, source BnF Estampes et photographie EI-13 (732), subject 'Kahanamoku, Duke (1890-1968) -- Portraits', and rights 'domaine public' / 'public domain'; the IIIF info gives 6103 x 8702 pixels. The Commons file page agrees (PD-France, PD-1996); the holder statement, not the Commons tag, is the basis. Caveats stated honestly: the individual photographer is not named (the agency is credited), the record does not say where this press image was published, and the route therefore relies on BnF's item-level 'domaine public' statement for Agence Rol press photographs and on the work being a 1920 press photograph; the Commons title brackets the first name [Duke], showing it is a catalogue-supplied identification, (the date and place were not independently checked against a second source). IMAGE CHECK: I looked at the full negative scan. It shows a young man in a one-piece swimsuit with a club badge, standing on a barge by the Seine with spectators and other swimmers behind; no sitter name or caption is printed on the image; handwritten marks on the negative's margins (a mirrored date-like line along the left edge, not reliably legible, and a plate number at lower right) neither name nor contradict the sitter. Identification therefore rests on the BnF catalogue heading and the Commons categorisation (I did not compare the face with other photographs). Cropped to the sitter's head and torso (a 2200 x 2700 pixel region of the 6103 x 8702 scan) and downscaled to 978 x 1200, never upscaled, saved as public/portraits/duke-kahanamoku-agence-rol-1920.jpg. KIND: likeness (a press photograph of the sitter). PREFLIGHT: QID VERIFIED LIVE (2026-11-05, Wikidata API) Q123688 description 'American swimmer, surfer and actor (1890-1968)', Korean label 듀크 카하나모쿠, birth 24 August 1890, death 22 January 1968; not in prod65.txt (grep of Duke, Kahanamoku and the QID found nothing); no existing candidate file. REGION north_america (Hawaii; US citizen; career in Honolulu and California). ERA 20th_century. ZERO POLITICS: portfolio athletics; his service as Sheriff of Honolulu (elected repeatedly from 1932 to 1960) and his late announced run for Congress are political or law-enforcement office and are NOT scored; the Hollywood career is context only, scored only where it shows adaptability. No family, health or private-life inference (his death, his marriage and rumoured relationships are not used). VOCABULARY: occupation athlete, field sport, impact domains athletic and cultural, tags competitor and sustained_excellence, archetype competitive_performer, all present in the repo and in en.ts and ko.ts. KO NAME: Wikidata Korean label 듀크 카하나모쿠. HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED (attribution_confirmed true). CANONICAL SIGNIFICANCE SOURCE: Olympedia 'Duke Kahanamoku' (https://www.olympedia.org/athletes/51429) with the International Swimming Hall of Fame biography. READ (8 substantive sources plus Wikidata and the BnF record): (1) Olympedia; (2) International Swimming Hall of Fame; (3) PBS American Masters timeline; (4) Pieper review of Davis, Sport in American History; (5) Pennybacker review, Honolulu Star-Advertiser; (6) Surf Research 1914 notes; (7) Manly Art Gallery & Museum story; (8) Newport Beach Independent 2025. PERSPECTIVES: an Olympic results database, a swimming hall of fame, a television documentary series, a sport historian, a Honolulu newspaper critic, Australian surf-history researchers working from period newspapers, an Australian municipal museum and a California local newspaper quoting a local historian. COUNTER-VOICES AND LIMITS: Surf Research corrects the popular story (the visit was mainly a swimming tour; he was not Australia's first board rider; the Freshwater board was not the first full-size board; no record of formal teaching), the Pieper review criticises the biography's depth and notes his difficult relationship with Hawaii and the stereotyped film parts, and the newspaper review records the refused swim meet, the press attack and his dependence on local sports officials. The two biography reviews both rest on David Davis's Waterman (2015) and are treated as one chain, not two independent sources. NOT OPENED: David Davis's Waterman and Sandra Kimberley Hall's biography, Britannica (HTTP 403), his 1920s and later newspapers, Smithsonian and Bishop Museum material, a search-summary remark attributed to Hall about his acting (not opened, not used). EXCLUSIONS: sheriff and congressional-run episodes, marriage and relationships, health, the 1932 Olympic water-polo selection (sources conflict: Hall of Fame says he failed to make the swim team but was named to water polo; Olympedia lists no 1932 result), claims that the rescue changed lifeguard practice (a councilmember's statement in the 2025 article only), his Hollywood quality, and the Isabel Letham tandem story (contested). SELF-CALIBRATION (agent): top-risk rows reviewed: competitiveness (72/0.54 lowered to 68/0.50: outcome-based from admiring or database sources, and he declined at least one meet), decisiveness (66/0.48 lowered to 62/0.44: one event with differing details), persistence (66/0.54, kept: three independent institutional sources document the 1911 and 1920 disputes and the 1924 silver). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. Card 1 states the Olympic titles and records, card 2 the spreading of surfing (with Surf Research's correction that he was not the first in Australia) and the double hall-of-fame firsts, card 3 the 1925 rescue; sheriff and acting are deliberately not cards. HANDBACK65: {\"slug\": \"duke-kahanamoku\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: loc.gov walled this session\", \"holder_record_checked_by_you\": \"Initial lead (LoC Bain ggbain.06652) not opened (loc.gov Cloudflare-walled; not bypassed); Malmstrom route not pursued. Replacement found via the Commons Duke Kahanamoku category: Bibliotheque nationale de France Gallica SRU catalogue record for ark:/12148/btv1b53051776b (Agence Rol press photograph, 1 glass negative 18x13 cm, coverage 5 September 1920, subject 'Kahanamoku, Duke (1890-1968) -- Portraits', source BnF Estampes et photographie EI-13 (732), rights 'domaine public' / 'public domain'); IIIF image info (6103x8702) and full image downloaded from Gallica. Commons wikitext agrees (PD-France, PD-1996).\", \"holder_contradiction_found\": false, \"initial_lead\": \"Bain News Service photograph (LoC ggbain.06652, 1910-1915)\", \"final_portrait_source\": \"Bibliotheque nationale de France, Gallica, Agence Rol press photograph 'Ile des cygnes, 5/9/20, [Duke] Kahanamoku', ark:/12148/btv1b53051776b (https://gallica.bnf.fr/ark:/12148/btv1b53051776b); glass negative scan 6103x8702 cropped to the sitter and downscaled to 978x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"competitiveness\", \"old_score\": 72, \"old_confidence\": 0.54, \"new_score\": 68, \"new_confidence\": 0.5, \"reason\": \"Evidence is mostly outcomes (medals and records) from admiring or database-style sources, which the rubric warns against reading back into the trait; he also declined at least one meet\"}, {\"attribute\": \"decisiveness\", \"old_score\": 66, \"old_confidence\": 0.48, \"new_score\": 62, \"new_confidence\": 0.44, \"reason\": \"Rests on one event reported with differing details and a commemorative article\"}], \"reviewed_kept\": [\"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"No sitter name, caption or label on the image; only handwritten marks on the negative's margins (a mirrored date-like line along the left edge, not reliably legible) and a plate number at lower right; identification rests on the BnF catalogue title and subject heading\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}
