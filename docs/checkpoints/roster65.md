@@ -491,3 +491,17 @@ claimed.
 - The 5 holds stay researched and unpromoted (blockers and next steps above).
 - **The ~750 scale checkpoint is due as a separate measurement-only task after this PR merges; expansion
   pauses until then. Roster66 not started.**
+
+## Post-commit scoring lock
+
+Implementation commit `7163103` (`Roster65: 25 freshly researched people shipped, 5 held (737 -> 762)`),
+clean tree before and after. `checkScoringLockIntegrity.ts` output:
+
+```
+Checked 937 previously-committed candidate file(s) against HEAD. 0 flagged.
+Legacy scoring lock: 22 pre-pipeline production people covered, 0 flagged.
+```
+
+Committed = on-disk = checked (937 files), 0 unresolved genuine flags (candidate or legacy). Every downward
+lead correction carries `RUBRIC_CORRECTION` in its row rationale and in `provenance.notes`; the Müteferrika
+inscription hold and the Ogino and Gay holder-record holds are documented in the same notes.
