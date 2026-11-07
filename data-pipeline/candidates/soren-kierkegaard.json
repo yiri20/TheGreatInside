@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "soren-kierkegaard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Søren Kierkegaard",
+    "aliases": [
+      "Soren Kierkegaard",
+      "Søren Aabye Kierkegaard"
+    ],
+    "wikidataId": "Q6512",
+    "birthYear": 1813,
+    "deathYear": 1855,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DK"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "theologian",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "religion",
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "independent",
+      "nonconformist",
+      "prolific",
+      "philosopher"
+    ],
+    "archetypeIds": [
+      "independent_creator",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_kierkegaard_wikidata",
+      "kind": "wikidata",
+      "title": "Søren Kierkegaard (Q6512), verified live via the Wikidata API (2026-11-06): label 'Søren Kierkegaard', description 'Danish theologian, philosopher, poet and social critic (1813-1855)', born 5 May 1813, died 11 November 1855, Korean label 쇠렌 키르케고르. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q6512"
+    },
+    {
+      "id": "src_kierkegaard_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Søren Kierkegaard' (Life and Works section and the section on trajectories in Kierkegaard scholarship read in full, about 3,500 words). CANONICAL SIGNIFICANCE SOURCE: gives the two periods of his authorship (Either/Or, Fear and Trembling, Philosophical Fragments, The Concept of Anxiety, Concluding Unscientific Postscript, 1843-46; Works of Love, The Sickness Unto Death, Practice in Christianity, 1847-50), the pseudonymous and signed texts, the Corsair controversy, the 1854-55 attack on the Danish state church in The Moment, and the contrast between Lowrie's devotional and Garff's critical biographies; also reports that Jon Stewart's work shows his Hegel targets were largely Danish Hegelians.",
+      "url": "https://plato.stanford.edu/entries/kierkegaard/"
+    },
+    {
+      "id": "src_kierkegaard_iep",
+      "kind": "biography",
+      "title": "Internet Encyclopedia of Philosophy, 'Søren Kierkegaard' (introduction, life sections on the early pseudonymous articles, the first authorship and the Corsair read, about 3,500 words). Independent scholarly account listing the range of his authorship (aesthetic novels, psychology, dogmatics, satirical prefaces, literary reviews, edifying discourses, polemics) and a deliberately sceptical reading of motive: says he provoked the Corsair partly out of vanity. Passages on his family and inner life were read but are not used.",
+      "url": "https://iep.utm.edu/kierkega/"
+    },
+    {
+      "id": "src_kierkegaard_eb",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Søren Kierkegaard' (public-web portion read in full, about 2,000 words; the remainder is behind a paywall and was not opened). General-encyclopedia account: major influence on existentialism and Protestant theology, the 1843-46 and 1847-55 periods of writing, the pseudonyms as authors who embody distinctive worldviews, and the Corsair and church collisions.",
+      "url": "https://www.britannica.com/biography/Soren-Kierkegaard"
+    },
+    {
+      "id": "src_kierkegaard_the",
+      "kind": "press",
+      "title": "Times Higher Education, 'A genius who spat globs of venom', review of Joakim Garff's Søren Kierkegaard: A Biography by John Lippitt (21 October 2005; read in full, about 1,500 words). COUNTER-VOICE: independent critical review that describes his stubbornness as the dark side of his integrity, faults the biography where it speculates, and says the venom of his 1855 attack on the church makes it hard not to sympathise with the pastors; reports a secretary's account of taking dictation from a prolific employer. The reviewer's discussion of speculation on illness is not used.",
+      "url": "https://www.timeshighereducation.com/node/83786"
+    },
+    {
+      "id": "src_kierkegaard_csm",
+      "kind": "press",
+      "title": "The Christian Science Monitor, 'Kierkegaard's tortured faith', review of Garff's biography by Heller McAlpin (1 March 2005; read in full, about 1,700 words). Independent press review: describes him as choosing an iconoclastic, individual path often at odds with the institutions of his day, and as channelling his energies into a voluminous outpouring of polemical prose; sets out his view that truth must be internalised. Remarks on his private life are not used.",
+      "url": "https://m.csmonitor.com/2005/0301/p15s01-bogn.html"
+    },
+    {
+      "id": "src_kierkegaard_kb",
+      "kind": "institution",
+      "title": "Danish Agency for Culture press release, 'The Original Papers of Søren Kierkegaard in a Unique Exhibition' (Royal Library, Copenhagen, 'The Original Kierkegaard', 23 April to 28 September 2013; read in full, about 250 words). Institutional account of the archive of his papers (UNESCO Memory of the World list, 1997) and a summary of his output: pseudonymous works in layered fictional voices, works under his own name, and the manuscripts showing how his ideas took shape, 'highly productive' in a short life.",
+      "url": "https://news.cision.com/danish-agency-for-culture/r/the-original-papers-of-soren-kierkegaard-in-a-unique-exhibition,c9409176"
+    },
+    {
+      "id": "src_kierkegaard_rdl",
+      "kind": "institution",
+      "title": "Royal Danish Library (Flickr Commons), 'Søren Kierkegaard (1813-1855)', photograph of a pencil drawing made about 1840 by N. C. Kierkegaard (1806-1882), library id ke007311; holder record read (title, description, 'No known copyright restrictions'). Holder record for the portrait.",
+      "url": "https://www.flickr.com/photos/45270502@N06/9645352916/"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kierkegaard_sep, src_kierkegaard_iep, src_kierkegaard_eb, src_kierkegaard_csm | 1835-1855 | scholarly encyclopedia x2 + general encyclopedia + press review] Britannica says he attacked the literary, philosophical and ecclesiastical establishments of his day and severely criticised Hegel's system; SEP records his claim through the pseudonym Johannes Climacus that a system of existence is impossible for anyone but God, and the CSM review calls his path iconoclastic and often at odds with the institutions of his day. SEP also reports Stewart's finding that many of his Hegel targets were Danish Hegelians, so the independence is real but the target was narrower than the legend. Four accounts agree on the break from the intellectual establishment; scored for independence of thought, not doctrine. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 74 / 0.58 to 70 / 0.52 because Britannica, SEP and IEP summarise the same break with Hegelian and church establishments; no independent assessment of the process."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kierkegaard_eb, src_kierkegaard_iep, src_kierkegaard_kb | 1843-1850 | general encyclopedia + scholarly encyclopedia + institutional press release] Britannica says he published the works of 1843-46 under pseudonymous authors who embody distinctive worldviews and insisted they remain attributed to those authors; IEP lists an unusual mix of forms (aesthetic novels, psychology, satirical prefaces, philosophical scraps and postscripts, edifying discourses) and a method of indirect communication; the Royal Library note describes layered fictional voices. The distinctive method is documented, but the claim of originality rests on retrospective reference-work description and the institutional note celebrates him. SELF-CALIBRATION (agent): lowered from 74/0.56 because the originality claim rests on retrospective reference-work praise and an institution's own exhibition text, so the trait claim is stronger than the documented behaviour."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kierkegaard_iep, src_kierkegaard_sep, src_kierkegaard_eb | 1841-1855 | scholarly encyclopedia x2 + general encyclopedia] IEP lists works of aesthetics and literary fiction, psychology, Christian dogmatics, literary review, edifying discourses and polemics; SEP lists a dissertation on Socratic irony, The Concept of Anxiety, a literary review (Two Ages) and discourses; Britannica names philosopher, theologian and cultural critic. Documented output across philosophy, theology, psychology, literature and cultural criticism in three independent reference accounts; no source examines how the range was built. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 70 / 0.54 to 66 / 0.5 because the list of genres comes from two encyclopedias without independent assessment."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_kierkegaard_sep, src_kierkegaard_eb, src_kierkegaard_kb, src_kierkegaard_the | 1843-1855 | scholarly encyclopedia + general encyclopedia + institutional press release + press review] SEP lists some ten books between 1843 and 1846 and a second run of works from 1847 to 1850, Britannica calls the output astonishingly productive and the Royal Library note calls him highly productive in a short life; the Times Higher Education reviewer reports a secretary's account of taking dictation from a prolific employer. Volume and continuity are documented, but a working routine is inferred from output. SELF-CALIBRATION (agent): lowered from 68/0.50 because the dictation account reached me only through a reviewer's summary of a biography and routine is inferred from the volume of output."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_kierkegaard_iep, src_kierkegaard_sep, src_kierkegaard_eb, src_kierkegaard_the | 1846-1855 | scholarly encyclopedia x2 + general encyclopedia + press review] SEP and IEP say he goaded the satirical magazine The Corsair (IEP: he publicly challenged it to do its worst, partly out of vanity) and so drew a series of personal attacks; Britannica and SEP record that from December 1854 he published ten issues of The Moment and other short pieces attacking the Danish state church, and the Times Higher Education reviewer says his stubbornness was the dark side of his integrity and that the venom of the attack makes it hard not to sympathise with the pastors. Documented willingness to start and sustain public confrontations; dual-edged because the reviewer judges the tone harshly. Only his public conduct as an author is scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "쇠렌 키르케고르"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / CONFIRMED with a corrected basis: the Royal Danish Library Flickr Commons item (ke007311) was opened; it is a photograph of a pencil drawing made about 1840 by N. C. Kierkegaard (1806-1882, draughtsman and lithographer), labelled 'No known copyright restrictions'. The rights basis used is not that label but the age of the underlying work: the draughtsman died in 1882, so the drawing is in the public domain by age in Denmark and the United States, and a faithful photograph of a flat drawing adds no new originality; caveat recorded: the date of the library's reproduction photograph is unknown and Danish law gives simple photographs a separate short term, which the library's Flickr Commons statement is taken to cover. No inscription is visible on the image (the sitter is identified by the holder title 'Søren Kierkegaard (1813-1855)' and by the Commons file, which is also the Wikidata image). PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q6512 label 'Søren Kierkegaard', description 'Danish theologian, philosopher, poet and social critic (1813-1855)', born 5 May 1813, died 11 November 1855, Korean label 쇠렌 키르케고르 (Wikidata Korean label; used as the Korean display name); no production (prod66.json) or candidate slug/QID collision. REGION western_europe (Denmark; Danish precedents). ERA 19th_century. ZERO POLITICS: the Corsair and church controversies are scored only as public conduct (conflict tolerance); his comments on the press, the state church and its bishops are context, not political positions, and no trait is scored from them. VOCABULARY: occupations philosopher, theologian, writer; fields philosophy, religion, literature; tags independent, nonconformist, prolific, philosopher; archetypes independent_creator, scholarly_specialist (all present with EN and KO labels). IMPACT DOMAINS literary, cultural. ATTRIBUTION CONFIRMED: dated publications, controversies and archive of papers are documented by several independent accounts, so the screen result 'attributable' is confirmed. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Søren Kierkegaard' (https://plato.stanford.edu/entries/kierkegaard/), life and trajectories sections read; confirmed by Britannica and the Royal Library exhibition note. READ (substantively): SEP, IEP, Britannica (public-web portion), Times Higher Education review of Garff, Christian Science Monitor review of Garff, Danish Agency for Culture press release on the Royal Library exhibition, the Royal Danish Library portrait record. PERSPECTIVES: two scholarly encyclopedias, a general encyclopedia, two independent press reviews of a critical biography, an institutional archive exhibition note. COUNTER-VOICES: IEP's reading of motive (vanity) in the Corsair challenge; the Times Higher Education reviewer (stubbornness as the dark side of integrity; sympathy for the pastors; speculative passages); SEP on the contrast between Lowrie's devotional and Garff's critical biographies and on Stewart's finding that Kierkegaard's Hegel was largely the Danish Hegelians. NOT OPENED: the primary works, journals and papers except as quoted by the above; Garff's, Hannay's, Lowrie's, Backhouse's and Carlisle's biographies themselves (reviews only); Christian Century review (HTTP 403); the paywalled remainder of Britannica; the Royal Library catalogue. SELF-REPORT SEPARATION: his own words appear only as quoted by SEP, IEP and Britannica; the pseudonymous texts are not used as self-description. EXCLUSIONS (hard rule): his family, his father, the broken engagement and his private reasons, the long speculation on melancholy, guilt, a secret, sexual repression and epilepsy, the Corsair's effect on his mood, his health, collapse and death, his religious faith as doctrine, and any inference from illness, trauma or bereavement are not scored. No 'first' claim is used (Britannica says 'major influence', and 'father of existentialism' is only the Danish Agency's phrase, not used). THIN EVIDENCE FLAG: reference works and two reviews of one biography; no biography or primary source opened, so confidence is capped at 0.58. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (74/0.56 lowered to 70/0.52: retrospective reference praise and an institution's own exhibition text); discipline (68/0.50 lowered to 64/0.45: dictation account only through a reviewer's summary and routine inferred from output); independent_thinking (74/0.58, kept: four independent accounts, with SEP's Stewart caveat already priced in). HANDBACK66: {\"slug\": \"soren-kierkegaard\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Royal Danish Library Flickr item (Niels Christian Kierkegaard sketch c.1840) not opened\", \"holder_record_checked_by_you\": \"Opened the Royal Danish Library's own Flickr Commons item 9645352916 (id ke007311): 'Fotografi af blyantstegning udfort ca. 1840 af N.C. Kierkegaard, N.C. Kierkegaard (1806-1882), tegner, litograf', licence 'No known copyright restrictions' (Flickr Commons), original 940x1294; the Commons wikitext agrees (author given as the library, PD-Art and PD-old-70-expired on the cropped copy). The library's catalogue page itself was not found (kb.dk URL returned 404). The basis used is the draughtsman's death in 1882, not the Flickr label.\", \"holder_contradiction_found\": false, \"initial_lead\": \"c.1840 portrait sketch, Royal Library Denmark (Flickr Commons)\", \"final_portrait_source\": \"Royal Danish Library, photograph of a pencil drawing c. 1840 by N. C. Kierkegaard (1806-1882), library id ke007311; https://www.flickr.com/photos/45270502@N06/9645352916/ (Commons file 'Soren Kierkegaard (1813-1855) - 9645352916.jpg'); original 940x1294 cropped to the drawing, 790x1072, no resampling\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 74, \"old_confidence\": 0.56, \"new_score\": 70, \"new_confidence\": 0.52, \"reason\": \"Originality claim rests on retrospective reference-work praise and an institution's own exhibition text, so it is stronger than the documented behaviour\"}, {\"attribute\": \"discipline\", \"old_score\": 68, \"old_confidence\": 0.5, \"new_score\": 64, \"new_confidence\": 0.45, \"reason\": \"The dictation account reached me only through a reviewer's summary of a biography and routine is inferred from the volume of output\"}], \"reviewed_kept\": [\"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"none visible (blank margins and a small initial mark at lower right of the drawing; no caption, name or date on the sheet)\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} LEAD REVIEW (Roster66): portrait kind changed from likeness to historical_depiction because no source read documents a sitting for the c.1840 pencil drawing and the sitter is identified by the holder title alone. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 74 / 0.58 to 70 / 0.52 because Britannica, SEP and IEP summarise the same break with Hegelian and church establishments; no independent assessment of the process. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 70 / 0.54 to 66 / 0.5 because the list of genres comes from two encyclopedias without independent assessment. LINK FIX (Roster66 source sweep): https://iep.utm.edu/kierkegaard/ -> https://iep.utm.edu/kierkega/ (the old URLs returned 404)."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/soren-kierkegaard-nc-kierkegaard-1840.jpg",
+    "width": 790,
+    "height": 1072,
+    "source": "Pencil portrait drawing made about 1840 by the draughtsman and lithographer N. C. Kierkegaard (1806-1882), reproduced in a photograph held by the Royal Danish Library (library id ke007311) and shared on Flickr Commons. The scan (940 x 1,294 pixels) was cropped to the drawing and not resampled; nothing was upscaled. No lettering appears on the sheet, so the sitter is identified by the library's title and catalogue description. Caveat: the date of the library's reproduction photograph is not recorded; the basis is the age of the underlying drawing (draughtsman died 1882).",
+    "license": "Public domain (drawing c. 1840 by an artist who died in 1882; Royal Danish Library, no known copyright restrictions)",
+    "licenseUrl": "https://www.flickr.com/commons/usage/",
+    "attribution": "N. C. Kierkegaard, portrait of Søren Kierkegaard, pencil drawing c. 1840, photograph held by the Royal Danish Library (ke007311), public domain",
+    "attributionUrl": "https://www.flickr.com/photos/45270502@N06/9645352916/",
+    "creator": "N. C. Kierkegaard (draughtsman); photograph by the Royal Danish Library",
+    "date": "c. 1840",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:S%C3%B8ren_Kierkegaard_(1813-1855)_-_9645352916.jpg"
+  }
+}

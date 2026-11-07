@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fritz-muller",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Fritz Müller",
+    "aliases": [
+      "Johann Friedrich Theodor Müller",
+      "Fritz Müller-Desterro"
+    ],
+    "wikidataId": "Q62086",
+    "birthYear": 1822,
+    "deathYear": 1897,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE",
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "naturalist",
+      "biologist"
+    ],
+    "fieldIds": [
+      "biology",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fmuller_wikidata",
+      "kind": "wikidata",
+      "title": "Fritz Müller (Q62086), verified live via the Wikidata API (2026-11-06): English label 'Fritz Müller', description 'German-Brazilian biologist (1822-1897)', born 31 March 1822, died 21 May 1897, citizenship Germany and Brazil, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q62086"
+    },
+    {
+      "id": "src_fmuller_wikipedia",
+      "kind": "wikipedia",
+      "title": "English Wikipedia, 'Fritz Müller' (read for orientation and to find the scholarly references; not used as support for any row).",
+      "url": "https://en.wikipedia.org/wiki/Fritz_M%C3%BCller"
+    },
+    {
+      "id": "src_fmuller_dsb",
+      "kind": "biography",
+      "title": "Dictionary of Scientific Biography entry 'Müller, Fritz (Johann Friedrich Theodor)' (Gale text on Encyclopedia.com, read in full). CANONICAL SIGNIFICANCE SOURCE: calls Für Darwin (1864) a fundamental contribution to evolutionary biology and his name immortalised in 'Müllerian mimicry'; he applied Darwin's ideas to the Crustacea as a specific test case; he explained why unrelated unpalatable species resemble each other (predators must learn, so look-alikes share the losses); his work ranged from Coelenterata, Annelida and Crustacea to entomology and plant fertilisation; almost 250 articles; Darwin paid for the 1869 English translation and quoted him extensively; the entry describes 'extraordinary powers of observation', modesty and indifference to fame; he lost the museum post in 1891 when he refused to move to Rio. The entry also covers political, religious and private-life material that is not used here. Standard scholarly reference work, admiring in tone.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/muller-fritz-johann-friedrich-theodor"
+    },
+    {
+      "id": "src_fmuller_ndb",
+      "kind": "biography",
+      "title": "Neue Deutsche Biographie vol. 18 (1997), article 'Müller, Fritz (Müller-Desterro)' by Karl Mägdefrau, with the older Allgemeine Deutsche Biographie entry (Heß, 1906) on the same Deutsche Biographie page (both read; the ADB text was read in part). German national biographical reference: he left school teaching because of an irresistible wish to study animals and plants abroad; naturalist for the National Museum in Rio from 1876; visiting botanists (Schimper, Schenck, Möller) lodged with him for long research stays; he dealt with Crustacea, leeches, termites, stingless bees, mimicry and later flower ecology and lianas; about 250 papers; wide correspondence with Darwin, Haeckel, Weismann and his brother Hermann; honorary membership of the Entomological Society of London and the Leopoldina (1884); Darwin's phrase 'the prince of the observers'; the 1892 relocation order and his dismissal without compensation. Independent of the English-language sources. Includes political and religious background that is unscored context.",
+      "url": "https://www.deutsche-biographie.de/sfz66426.html"
+    },
+    {
+      "id": "src_fmuller_gartenlaube",
+      "kind": "press",
+      "title": "Peter Vogel, 'Ein deutscher Pionier der Wissenschaft in Brasilien', Die Gartenlaube (Leipzig) 1892, pp. 288 and 291, with a portrait of the sitter on p. 288 (Wikisource transcription of both pages read in full). Eyewitness report of a 1887 visit to Blumenau: describes him barefoot with a bamboo staff, taking in his own post, calling himself the 'hand-labourer of the master' (Darwin), a naturalist who observes living animals, never shot an animal to kill it and walks unarmed; praises his observing genius and quotes Darwin's 'prince of observers'; reports the press news that his museum post had been terminated because he would not move to Rio. Contemporary popular magazine, admiring, one visitor's account.",
+      "url": "https://de.wikisource.org/wiki/Ein_deutscher_Pionier_der_Wissenschaft_in_Brasilien"
+    },
+    {
+      "id": "src_fmuller_hartfelder",
+      "kind": "biography",
+      "title": "Klaus Hartfelder, review of David A. West, 'Darwin's Man in Brazil: The Evolving Science of Fritz Müller' (2016), Genetics and Molecular Biology 41(3), 2018, pp. 722-724 (PMC, open access, read in full). Modern scholarly overview: Müller reorganised his crustacean studies as a test of Darwin's theory after receiving the Origin in 1861, nearly 30 papers on marine invertebrates 1858-1865; Für Darwin; Darwin sponsored the 1869 translation; 106 letters to Darwin; observations on climbing plants, orchids, termites and bees that Darwin forwarded to journals; the 1879 mimicry paper with its mathematical argument; his male-scent observations on butterflies; his critical distance from Haeckel's recapitulation idea; a later Gould reading of his work; his name the most cited reference in the Origin from the fourth edition onward; his move to travelling naturalist in 1876. A review of one biography, admiring and relying on West and Möller.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6136371/"
+    },
+    {
+      "id": "src_fmuller_darwinonline",
+      "kind": "archive",
+      "title": "Darwin Correspondence Project letter 4885A (Müller to Darwin, Desterro, 31 August 1865) with the Darwin Online record of Darwin's letters to Müller (Möller ed., 1921, vol. 2) containing the Darwin: A Companion entry (van Helvert and van Wyhe, 2021) on Müller (both pages read). Records letters from 1865 to 1881, six short papers by Müller in Nature with introductory notes by Darwin, Darwin's regard for him as one of the most able naturalists living, the 1880 flood in which he was nearly drowned and Darwin's offer of 100 pounds for lost books (not needed), the dismissal for refusing to live in Rio, and the editors' remark that Haeckel took the recapitulation theory from Für Darwin without acknowledgement. Scholarly editorial apparatus of the Darwin archives; sympathetic to Darwin's circle.",
+      "url": "https://darwin-online.org.uk/converted/published/1921_FritzMueller_F4047.html"
+    },
+    {
+      "id": "src_fmuller_sherratt",
+      "kind": "biography",
+      "title": "Thomas N. Sherratt, 'The evolution of Müllerian mimicry', Naturwissenschaften 95, 2008 (PMC, open access; abstract, introduction and framing read; the body was skimmed). COUNTER-VOICE: 130 years after Müller, reports that his specific model of learning with a fixed number n of attacks per season has not been supported and that several experiments suggest two distinct unpalatable prey types may be as easy to learn as one, while his general insight that rare unpalatable forms suffer higher mortality than common ones is well supported; notes a long-running debate about co-mimics of unequal defence.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2443389/"
+    },
+    {
+      "id": "src_fmuller_mallet",
+      "kind": "biography",
+      "title": "James Mallet, 'Mimicry: an interface between psychology and evolution', Proceedings of the National Academy of Sciences 98, 2001 (PMC, open access commentary, read in full). Says Müller in 1879 used a mathematical argument, perhaps the first in evolutionary ecology (Malthus excepted), to show that pairs of unpalatable species gain mutualistic benefits from resemblance; his relative-benefit formula was soon shown to be an approximation and his fixed-n assumption is doubted by Speed and others, though the benefit to both species remains positive. Independent, partly critical modern scientific commentary.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC55348/"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fmuller_ndb, src_fmuller_dsb, src_fmuller_hartfelder | 1845-1897 | German national biography, scholarly reference work, modern scholarly review] The ADB/NDB texts say he gave up a school-teaching post after about half a year and then medicine-oriented study because of an irresistible wish to know animal and plant life of other countries; the DSB lists work from leeches and Crustacea to entomology and plant fertilisation; Hartfelder reports he answered Darwin's repeated field questions on climbers, orchids and termites with new observations. Three independent biographical voices agree on the pattern; the 'irresistible wish' wording is a biographer's characterisation, so the evidence is a convergent pattern rather than one named incident. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 78 / 0.66 to 74 / 0.6 because the ADB, NDB and DSB repeat one biographical tradition."
+    },
+    "detail_orientation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fmuller_dsb, src_fmuller_gartenlaube, src_fmuller_hartfelder, src_fmuller_ndb | 1864-1892 | scholarly reference work, eyewitness press, modern review, national biography] The DSB credits 'extraordinary powers of observation'; Vogel's 1892 visit report praises an observing genius and a 91-page book of astonishing detail; Hartfelder reports that he linked the strong smell of hair tufts on male butterflies to chemical signalling when he unfolded wings of wild-caught specimens; the NDB repeats Darwin's 'prince of the observers'. The behaviour is documented in two specifics (the scent observation and the book of detailed larval studies). SELF-CALIBRATION (agent): top-risk row; lowered from 82 / 0.70 to 78 / 0.64 because Darwin's single epithet is repeated by four sources and only two concrete observations are described. RUBRIC_CORRECTION (lead review, before eligibility): detail_orientation lowered from 78 / 0.64 to 74 / 0.58 because Darwin's single epithet is repeated by four sources and only two concrete observations are described."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fmuller_hartfelder, src_fmuller_ndb, src_fmuller_darwinonline | 1864-1897 | modern review, national biography, Darwin archive] Hartfelder says that while corresponding with Haeckel for decades he kept a critical distance from the recapitulation idea because he had seen that metamorphosis can be simplified by selection and larval stages can vanish in direct developers; the NDB records the motto of Für Darwin as a refusal to swear by anyone's words and the Darwin Online editors note that Haeckel drew the theory from his book. The disagreement with Haeckel rests mainly on one modern review of West, so confidence is moderate."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fmuller_dsb, src_fmuller_mallet, src_fmuller_sherratt, src_fmuller_hartfelder | 1864-1879 | scholarly reference work, independent scientific commentary, counter-voice, modern review] The DSB describes Für Darwin as a specific test of Darwin's ideas on the development of Crustacea; Mallet says his 1879 mathematical argument was perhaps the first in evolutionary ecology; both Mallet and Sherratt report that its fixed-number learning assumption was later doubted, though Sherratt says the general insight about frequency-dependent mortality is well supported. Rigour here is shown by testing a theory and modelling it, but the later critique limits confidence. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 72 / 0.6 to 68 / 0.54 because the mathematical argument is described by critics of the mimicry model, not independently verified."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fmuller_dsb, src_fmuller_hartfelder, src_fmuller_mallet | 1878-1879 | scholarly reference work, modern review, independent commentary] The DSB says Bates had not explained why two or more unrelated unpalatable species resemble each other and that Müller supplied the explanation (predator learning shared across look-alikes); Hartfelder adds his early distinction of male scents from protective odours in butterflies; Mallet places his mathematical argument at the start of the field. Originality is documented for the mimicry explanation, but the model's specific form was later questioned, so the score stays moderate."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fmuller_dsb, src_fmuller_ndb, src_fmuller_hartfelder | 1844-1897 | scholarly reference work, national biography, modern review] The DSB lists anatomical work on Coelenterata, Annelida and Crustacea, entomology (mimicry) and, later, botany on plant fertilisation, hybridisation and self-sterility; the NDB adds leeches, termites, stingless bees, flower ecology, liana anatomy and fruit and seed dispersal in about 250 papers; Hartfelder cites his climbing-plant and orchid papers. Two independent reference works and a review agree on the breadth, which is documented by publication topics rather than inferred. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.64 to 72 / 0.58 because listed by the DSB and echoed by the others."
+    },
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fmuller_hartfelder, src_fmuller_darwinonline, src_fmuller_ndb | 1865-1897 | modern review, Darwin archive, national biography] Hartfelder reports 106 letters to Darwin from 1865 to 1882, with Darwin forwarding Müller's observations as papers; the Darwin Online record lists six short Nature papers with Darwin's introductory notes; the NDB says visiting botanists lodged with him for long research stays and that he corresponded with Haeckel, Weismann and his brother Hermann. The exchange is documented from both the Darwin side and the biographical side, but the archive and reviews share an admiring Darwin-centred frame."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fmuller_dsb, src_fmuller_darwinonline, src_fmuller_gartenlaube, src_fmuller_hartfelder | 1858-1897 | scholarly reference work, Darwin archive, eyewitness press, modern review] He published nearly 30 marine-invertebrate papers between 1858 and 1865 from a small colonial settlement and about 250 papers overall (Hartfelder, DSB); Vogel says he did this far from museums and libraries; the Darwin Online record notes his 1880 near-drowning in a river flood and the DSB says that after later misfortunes he resumed his work. The sustained output in isolation is documented; no single dramatic episode carries the row."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프리츠 뮐러"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/fritz-muller-gartenlaube-1892.jpg",
+    "width": 686,
+    "height": 1200,
+    "source": "Wood-engraved portrait captioned 'Der Naturforscher Dr. Fritz Müller in Blumenau', published with Peter Vogel's article about him in the Leipzig family magazine Die Gartenlaube, 1892, p. 288 (the article text, p. 291, says it carries his portrait on p. 288). Engraver and the underlying photograph are not named. The file is the illustration cropped from a Wikimedia Commons scan of the 1892 volume (916 x 1602 pixels) and downscaled to 686 x 1200 with no upscaling.",
+    "license": "Public domain by age: an unsigned illustration first published in Leipzig in 1892 (before 1931 in the United States and well over 70 years from publication for an anonymous work elsewhere). No museum or library holds an item record for this scan: it is a volunteer's scan of his own bound volume uploaded to Wikimedia Commons, so the basis is age, not an institutional statement.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unsigned wood engraving, after an unnamed photograph, in Die Gartenlaube (Leipzig: Ernst Keil's Nachfolger), 1892, p. 288; scan via Wikimedia Commons (public domain). Cropped and downscaled.",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Die_Gartenlaube_(1892)_b_288.jpg",
+    "creator": "Unknown engraver, after an undocumented photograph of the sitter",
+    "date": "1892",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1892)_288.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / the lead's 'Dr. Fritz Muller 1892.jpg' lead FAILED as a portrait source: its Commons page cites the Blumenau city website's list of former mayors, names no author, gives no permission and a bare old-work tag (and describes him by a political office), so it has no holder and no creator; REPLACED by the 1892 Gartenlaube illustration, which is a different, better-documented image (printed caption, text on p. 291 confirms 'Mit Bildniss S. 288'). The Möller 1891 photograph on Commons (author Möller, PD-old-70 tag, source a Brazilian anniversary site) was not used because its holder basis is only a website. PORTRAIT RIGHTS: Gartenlaube 1892, Leipzig; engraver unnamed; US public domain because published before 1931; the scan is a Commons uploader's photograph of his own bound volume ('scan eines Sammelbandes aus eigenem Besitz'), so NO institutional holder record exists (recorded honestly; holder_contradiction_found false because there is no holder record to contradict). IMAGE INSCRIPTION CHECK: I looked at the downloaded 3104 x 4483 page scan and at the plate: the printed caption under the oval illustration reads 'Der Naturforscher Dr. Fritz Müller in Blumenau.' and Vogel's article text on p. 291 states '(Mit Bildniss S. 288)'; the figure matches Vogel's eyewitness description (white full beard, large grey felt hat, barefoot with rolled trousers and a large bamboo stick, field bag); no contradiction. The plate sits on the page of an unrelated mining article only because of magazine layout. KIND: historical_depiction (an engraving after an unnamed photograph, not a documented sitting). PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q62086 label 'Fritz Müller', description 'German-Brazilian biologist (1822-1897)', born 31 March 1822, died 21 May 1897, citizenship Germany and Brazil, no Korean label; not in prod66.json (checked slug, name, aliases and QID); no candidate file existed. REGION latin_america (career base Brazil from 1852 to his death; Domeyko career-base precedent; nationality codes DE and BR). ERA 19th_century. ZERO POLITICS: primary identity naturalist and biologist; the 1848 revolution, his religious dissent, the oath refusal, the Jesuit takeover of his school, the republican relocation order and his imprisonment by rebels appear only as context in the sources and are NOT scored; private life (free love, children, bereavements) deliberately excluded. VOCABULARY: occupations naturalist and biologist; fields biology and natural_science; tags field_researcher and detail_oriented; archetype scientific_explorer; impact domain scientific; all labelled in en.ts and ko.ts (grepped). KO NAME: no Korean Wikipedia article or Wikidata Korean label exists; the display name 프리츠 뮐러 is a recorded transliteration. CANONICAL SIGNIFICANCE SOURCE: Dictionary of Scientific Biography entry on Encyclopedia.com (https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/muller-fritz-johann-friedrich-theodor). READ (8 substantive sources besides Wikidata and Wikipedia): DSB; NDB with ADB (ADB in part); Gartenlaube 1892 eyewitness article; Hartfelder 2018 review of West; Darwin Online / DCP record; Sherratt 2008 (abstract, introduction, framing); Mallet 2001. PERSPECTIVES: (1) biographical reference works (DSB, NDB, ADB); (2) contemporary eyewitness popular press (Vogel 1892); (3) modern scholarly review of the standard biography (Hartfelder); (4) the Darwin archive and its editors; (5) modern evolutionary-ecology critics of the mimicry model (Sherratt, Mallet) as the COUNTER-VOICE. NON-SELF BEHAVIOURAL SOURCES: all of them. SELF MATERIAL: none used directly (the only first-person items are the epithet 'hand-labourer of the master' and the motto reported by Vogel and the NDB). NOT OPENED: West's full biography (2003/2016), Möller's three-volume Werke, Briefe und Leben (1915-21), Westerkamp's 2012 bilingual biography, Souza's open-access book 'Notas de um naturalista do sul do Brasil' (only a search snippet, not read), Gould's Ontogeny and Phylogeny (reached only through Hartfelder; the Haeckel row says so). A botany blog page was read but judged too thin to cite. CONTRADICTIONS: birth year 1821 (some sources) vs 1822 (DSB, NDB, Wikidata; 1822 used); the end of the museum post is dated 1891 (DSB, Darwin Online) and 1892 (NDB), and a snippet of a Portuguese source says he asked to leave rather than being dismissed, which I could not verify, so the rows do not rely on the circumstances; the Darwin Online editors say Haeckel took the recapitulation theory from Für Darwin without acknowledgement, while the NDB says Haeckel later named it, and Hartfelder says Müller distrusted Haeckel's version, so no row scores any claim about priority. HONEST LIMITS: the evidence is admiring, comes mostly from a few shared biographical sources and Darwin's own praise, and has few critical behavioural accounts, so confidences are capped near 0.66. EXCLUSIONS: no score for politics, religion, family or private life; no personality inference from the circumstances of his later years. MAJOR ACHIEVEMENT GATE: first pass PASS on primary, top-omission, identity, significance-over-novelty and side-project checks (Für Darwin, mimicry and the Darwin correspondence are the three cards; his farming, schoolteaching and civil-service years are not given cards). HANDBACK66: {\"slug\":\"fritz-muller\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"RISKY (alt-dependent)\",\"holder_record_at_preflight\":\"NOT VERIFIED: 'Dr. Fritz Muller 1892' is sourced to a municipal website (blumenau.sc.gov.br)\",\"holder_record_checked_by_you\":\"Commons wikitext of the lead file (source blumenau.sc.gov.br list of ex-mayors, author unknown, no permission, bare old-work tag); for the replacement, the Wikisource/Commons Gartenlaube 1892 pages: the volume scan is a Commons user's own bound copy, no institutional item record exists; the Möller 1891 photograph's Commons page cites only an anniversary website\",\"holder_contradiction_found\":false,\"initial_lead\":\"photograph c.1892 from the Blumenau city site\",\"final_portrait_source\":\"Unsigned engraving 'Der Naturforscher Dr. Fritz Müller in Blumenau', Die Gartenlaube (Leipzig) 1892 p. 288, via Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Die_Gartenlaube_(1892)_b_288.jpg), cropped from 916x1602 and downscaled to 686x1200\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":\"The lead image had no holder, creator or permission and was rejected; success came from the alternative path: a Wikisource-transcribed 1892 magazine plate with a printed caption, an article text that explicitly says it carries his portrait, and a clear pre-1931 publication basis (no institutional holder record exists)\",\"rows_initially_scored\":8,\"self_calibrated_rows\":[{\"attribute\":\"detail_orientation\",\"old_score\":82,\"old_confidence\":0.7,\"new_score\":78,\"new_confidence\":0.64,\"reason\":\"Darwin's single epithet is repeated by four sources and only two concrete observations are described\"}],\"reviewed_kept\":[\"curiosity\",\"independent_thinking\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":8,\"image_inscription_check\":\"Printed caption under the illustration: 'Der Naturforscher Dr. Fritz Müller in Blumenau.'; article text p. 291: '(Mit Bildniß S. 288.)'\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 78 / 0.66 to 74 / 0.6 because the ADB, NDB and DSB repeat one biographical tradition. RUBRIC_CORRECTION (lead review, before eligibility): detail_orientation lowered from 78 / 0.64 to 74 / 0.58 because Darwin's single epithet is repeated by four sources and only two concrete observations are described. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.64 to 72 / 0.58 because listed by the DSB and echoed by the others. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 72 / 0.6 to 68 / 0.54 because the mathematical argument is described by critics of the mimicry model, not independently verified."
+  }
+}

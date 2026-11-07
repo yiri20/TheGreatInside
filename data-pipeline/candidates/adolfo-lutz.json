@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "adolfo-lutz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Adolfo Lutz",
+    "aliases": [
+      "Adolpho Lutz"
+    ],
+    "wikidataId": "Q199652",
+    "birthYear": 1855,
+    "deathYear": 1940,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher",
+      "scientist"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_alutz_wikidata",
+      "kind": "wikidata",
+      "title": "Adolpho Lutz (Q199652), verified live via the Wikidata API (2026-11-06): English label 'Adolpho Lutz', alias 'Adolfo Lutz', description 'Brazilian physician and zoologist (1855-1940)', born 18 December 1855, died 6 October 1940, citizenship Brazil, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q199652"
+    },
+    {
+      "id": "src_alutz_wikipedia",
+      "kind": "wikipedia",
+      "title": "English Wikipedia, 'Adolfo Lutz' (read for orientation and to find references; flagged on the page for unsourced statements; not used as support for any row).",
+      "url": "https://en.wikipedia.org/wiki/Adolfo_Lutz"
+    },
+    {
+      "id": "src_alutz_rey",
+      "kind": "biography",
+      "title": "L. Rey, 'Adolfo Lutz' (portrait note in the pioneers series), Revista do Instituto de Medicina Tropical de Sao Paulo 1, 1959, p. 179 (PDF, Portuguese and English texts read in full). CANONICAL SIGNIFICANCE SOURCE: after Swiss medical studies and European laboratories he practised in Limeira, worked with Unna in Hamburg, studied leprosy in Hawaii, headed the Bacteriological Institute of Sao Paulo (now the Instituto Adolfo Lutz) from 1893 to 1908 and then worked at the Oswaldo Cruz Institute until 1940; almost two hundred papers on a wide range of subjects, about a quarter on helminths including snail hosts of the schistosome; in microbiology he first identified cholera and plague outbreaks locally and the typhoid nature of the 'Sao Paulo fevers'; with Splendore studied sporotrichosis (1907) and made fundamental contributions to South American blastomycosis; in 1902, on hearing of Reed's yellow-fever results, repeated the transmission experiments in Sao Paulo, being bitten with others by infected Aedes aegypti, and planned a prophylaxis programme with Emilio Ribas; in 1903 said Aedes aegypti was not the only yellow-fever vector; anopheline breeders in bromeliads; Culicidae and other fly families, scorpions, snakes and frogs. Short admiring institutional-journal note with no criticism.",
+      "url": "https://revistas.usp.br/rimtsp/article/view/203281"
+    },
+    {
+      "id": "src_alutz_fiocruz",
+      "kind": "institution",
+      "title": "Casa de Oswaldo Cruz / Fiocruz, 'Adolfo Lutz' biographical note in the scientific-correspondence holdings (page read in full). Born in Rio de Janeiro in 1855 and educated in Switzerland; clinic in Limeira; Hamburg research with Unna on leprosy bacteriology; leprosarium in Hawaii 1889-1892; director of the Bacteriological Institute of Sao Paulo from 1893 where he 'played a decisive role' against infectious diseases; Oswaldo Cruz Institute from 1908 until his death; 'tireless researcher' with foundational studies in parasitology, veterinary medicine and microbiology. Brief institutional note, admiring; gives the Swiss diploma year as 1890 where other sources say 1878-1879.",
+      "url": "https://oswaldocruz.fiocruz.br/index.php/en/holdings/correspondence/scientific-correspondence/adolfo-lutz"
+    },
+    {
+      "id": "src_alutz_benchimol",
+      "kind": "biography",
+      "title": "Jaime Larry Benchimol, 'Adolpho Lutz: um esboco biografico' (Adolpho Lutz: a biographical sketch), Historia, Ciencias, Saude-Manguinhos 10(1), 2003 (SciELO full text, Portuguese, read in the relevant sections: Hawaii, the Bacteriological Institute, the yellow-fever controversy and the final assessment). Scholarly historian's account up to 1908: conflicting versions of why he left Hawaii (a haughty reply to an inquiry commission in one, an incident involving a missionary he disliked in his daughter's); that he and a nurse alone among the doctors did not fear contagion (reported from earlier biographers); that he was 'the soul, the brain and the main work force' of the Bacteriological Institute, which he directed for 15 years, and fought hard controversies with most of the medical field; that his diagnoses rested on laboratory proofs most doctors could not use; the 1902-03 yellow-fever experiments he designed (mosquitoes bred from larvae to exclude contamination, a mild source case, six adult Brazilian volunteers, a longer maturation period to avoid severe infection); his mosquito-collecting network from 1898 and the delayed publication (1903) of his bromeliad-malaria discovery; and the closing judgement that he lacked Oswaldo Cruz's qualities as chief and gatherer of disciples, disliked publicity, left public credit to Emilio Ribas and preferred solitary laboratory and field work, moving to Manguinhos to return to zoology. Independent, critical in places; the leadership judgement is one historian's interpretation.",
+      "url": "https://www.scielo.br/j/hcsm/a/M4ps8rCNm4gdxsJDyLXcQFw/?lang=en"
+    },
+    {
+      "id": "src_alutz_leprosy",
+      "kind": "biography",
+      "title": "Jaime L. Benchimol and Magali Romero Sa, 'Adolpho Lutz and controversies over the transmission of leprosy by mosquitoes', Historia, Ciencias, Saude-Manguinhos 10 (suppl. 1), 2003 (SciELO English full text; the abstract and the sections on the 1915-1922 commissions and congresses, the 1940s and the critics were read; the earliest sections were skimmed). COUNTER-VOICE: from Hawaii on he held that leprosy was transmitted by mosquitoes and sought proof for decades; the research was not successful, yet he kept his conviction until his death in 1940; the Brazilian leprosy commission accepted a mosquito-prophylaxis clause in 1915 but he found less support by 1921-22; the leprologist Belmiro Valverde, quoted at length, called the thesis dogmatic and said that after forty years Lutz still could not give the slightest documentation; later work by Souza Araujo in the 1940s argued that haematophagous insects might transmit leprosy under some conditions. Scholarly, with a quoted contemporary critic.",
+      "url": "https://www.scielo.br/j/hcsm/a/vCgFfcqS4XByVK9wfVBKRFp/?lang=en"
+    },
+    {
+      "id": "src_alutz_marques",
+      "kind": "biography",
+      "title": "Silvio Alencar Marques, 'Paracoccidioidomicose: centenario do primeiro relato de caso' (Paracoccidioidomycosis: a century from the first case report), Anais Brasileiros de Dermatologia 83(3), 2008 (SciELO full text, read in full). Dermatology-history article: Lutz's April 1908 article described clinical, histopathological and mycological findings of two oral cases ('mycose pseudococcidica'); he had examined the index patient of Posadas and Wernicke's coccidioidomycosis case in 1897 and so knew the disease; he excluded an epithelial cancer histologically, cultured the agent, described budding and the difference between tissue and culture forms; a founding member of the Brazilian Society of Dermatology. Admiring centenary tribute that relies on his original article.",
+      "url": "https://www.scielo.br/j/abd/a/3gPLhSnjVJP6rhqCDBmgSmC/?lang=en"
+    },
+    {
+      "id": "src_alutz_ial",
+      "kind": "institution",
+      "title": "Silvana Campos da Rocha Calixto and Pedro Antonio Federsoni Jr. (Instituto Adolfo Lutz, MemorIAL), centenary note on Chagas disease and American cutaneous leishmaniasis, Boletim do Instituto Adolfo Lutz 2009 (two-page PDF; read in part). Institutional history: the Bacteriology Laboratory was headed by Lutz from April 1892 (per this note), took the name Bacteriological Institute in mid-1892 and was officially created on 4 September 1893. Short institutional note; its 1892 start differs from Benchimol's 1893 appointment date, so rows avoid the date.",
+      "url": "https://periodicos.saude.sp.gov.br/BIAL/article/download/42092/39224/54918"
+    },
+    {
+      "id": "src_alutz_psm",
+      "kind": "archive",
+      "title": "L. O. Howard, 'Some pioneers in mosquito sanitation and other mosquito work, II', The Popular Science Monthly 87, December 1915, plate p. 170 (Internet Archive full text of volume 87 read around the plate). Caption: 'Dr. A. Lutz, chef de service, Oswaldo Cruz Institute, Rio Janeiro, Brazil, formerly director of the Bacteriological Institute, Sao Paulo, Brazil; well-known worker in helminthology, pathology and bacteriology, as well as entomology; he has done much work on the mosquitoes of Brazil, and has conducted studies of great importance in regard to the relation of insects and disease.' A contemporary US entomologist's description of his standing; used for the portrait and as context only, not as support for any row.",
+      "url": "https://archive.org/details/popularsciencemo87newy"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_alutz_rey, src_alutz_benchimol, src_alutz_fiocruz | 1880s-1940 | institutional-journal note, scholarly historian, institutional note] Rey lists almost 200 papers spanning helminths (a quarter, including the schistosome's snail hosts), cholera, plague, typhoid, mycoses, mosquitoes and other flies, scorpions, snakes and frogs; Benchimol notes that in his last decades at Manguinhos he wrote both on medical topics such as schistosomiasis and on purely biological ones such as frogs; Fiocruz names parasitology, veterinary medicine and microbiology. The breadth is documented by publication topics across three independent voices. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.68 to 76 / 0.62 because the breadth rests on an obituary-style article (Rey) and one historian (Benchimol)."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_alutz_benchimol, src_alutz_rey | 1902-1903 | scholarly historian, institutional-journal note] Benchimol describes the first yellow-fever series Lutz designed in December 1902 to January 1903: mosquitoes bred from larvae to exclude other infection, infected from a mild case, held more than 12 days, six adult volunteers; Rey says he repeated Reed's experiments in Sao Paulo and was himself bitten along with others. The design details come from the independent historian; the self-exposure comes only from Rey. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.66 to 72 / 0.58 because the 1902 yellow-fever series is described by a single historian."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_alutz_benchimol, src_alutz_rey, src_alutz_marques | 1893-1908 | scholarly historian, institutional-journal note, dermatology-history article] Benchimol says his diagnoses rested on laboratory proofs most doctors could not use and that the design of the 1902 experiments weighed severity and the 12-day maturation period; Rey credits him with establishing the typhoid nature of the 'Sao Paulo fevers'; Marques shows his 1908 case report excluded an epithelial cancer histologically, cultured the agent and compared tissue and culture forms. The pattern is consistent across three sources, but no single document shows a rigorous revision of his own error. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 74 / 0.62 to 70 / 0.56 because one historian carries the claim about his proofs and experimental design."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_alutz_benchimol, src_alutz_leprosy | 1890s-1920s | scholarly historian, scholarly historian with quoted critic] Benchimol says he faced hard controversies with most of the medical field over cholera, dysentery, typhoid, malaria and yellow fever and backed the mosquito theory of yellow fever against bacillus partisans; Benchimol and Sa show him holding a minority mosquito-transmission view of leprosy against the contagionist programme. The same stance is what Valverde called dogmatic, so the impact is mixed. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 72 / 0.6 to 68 / 0.54 because the controversies are narrated by the same historian."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_alutz_leprosy, src_alutz_benchimol | 1886-1940 | scholarly historian, scholarly historian] Benchimol and Sa record that he first suspected mosquito transmission of leprosy in 1885-86, kept seeking proof through the Sao Paulo and Manguinhos years and held the view until he died in 1940 despite unsuccessful experiments; Benchimol adds a 15-year direction of the Bacteriological Institute and a mosquito-collecting network built from 1898. The long pursuit is documented; the same sources show it ended without proof, hence the mixed impact. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.6 to 68 / 0.54 because the leprosy-mosquito conviction comes from one pair of related papers by the same authors."
+    },
+    "belief_updating": {
+      "score": 40,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "risk",
+      "rationale": "[src_alutz_leprosy, src_alutz_rey | 1915-1940 | scholarly historian with quoted critic, institutional-journal note] Benchimol and Sa say the mosquito-leprosy research did not succeed yet he kept the conviction to his death, and quote the leprologist Valverde saying that at the 1922 conference he only repeated the claim without new evidence; set against this, Rey says that in 1903 he accepted that Aedes aegypti was not the only yellow-fever vector. The leprosy evidence is documented from an adversarial source, the 1903 point is a partial counter, so the score sits below the midpoint with moderate confidence."
+    },
+    "leadership_drive": {
+      "score": 36,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_alutz_benchimol | 1893-1908 | scholarly historian] Benchimol says he directed the Bacteriological Institute for 15 years but lacked Oswaldo Cruz's qualities as chief and gatherer of disciples, disliked publicity, left public tasks and credit to Emilio Ribas and favoured solitary work, and that his move to Manguinhos seems linked to withdrawing from public-health conflict. The assessment rests on one historian's interpretation (with hedged wording). SELF-CALIBRATION (agent): top-risk row; confidence lowered from 0.52 to 0.46 (score unchanged) because the row depends on one source's interpretive contrast with Oswaldo Cruz."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_alutz_benchimol, src_alutz_rey | 1889-1903 | scholarly historian, institutional-journal note] Benchimol reports, from earlier admiring biographers, that in Hawaii he alone among the doctors did not fear contact with leprosy patients; Rey says he was bitten by infected mosquitoes in 1902; Benchimol also shows the 1902 design deliberately limited severity (a mild source case, a long maturation period, volunteers). So the exposure was real but calculated. SELF-CALIBRATION (agent): top-risk row; lowered from 62 / 0.50 to 58 / 0.44 because the Hawaii claim comes second-hand from admiring biographers and the self-exposure only from Rey, while the design shows risk-limiting care."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_alutz_rey, src_alutz_benchimol | 1898-1903 | institutional-journal note, scholarly historian] Rey says that as soon as he learned of Reed's results in 1902 he repeated the experiments and with Ribas planned and carried out a prophylaxis programme; Benchimol adds that from 1898 he began collecting bromeliad-breeding mosquitoes and building a collector network, and that he and Ivo Bandi fetched mosquitoes from Rio to start controlled breeding. Initiative is documented in two sources; the quality of the public-health outcome is not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아돌푸 루츠"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/adolfo-lutz-popular-science-monthly-1915.jpg",
+    "width": 937,
+    "height": 1200,
+    "source": "Halftone photographic portrait of Dr. A. Lutz, printed with the caption 'Dr. A. Lutz, chef de service, Oswaldo Cruz Institute, Rio Janeiro, Brazil, formerly director of the Bacteriological Institute, Sao Paulo' in L. O. Howard's article in The Popular Science Monthly, volume 87, December 1915, plate p. 170 (credited on the plates to the U.S. Department of Agriculture). The studio photographer's signature at the lower right is illegible. The file is the Commons-extracted plate (1197 x 1533 pixels, original size) downscaled to 937 x 1200 with no upscaling.",
+    "license": "Public domain in the United States: published in New York in 1915 (before 1931). The Internet Archive item for the volume carries no copyright-status statement and the Wikimedia Commons file page carries a United States public-domain tag with the Internet Archive volume as its source; the underlying studio photographer is unidentified, so the basis is the 1915 US publication date, not a holder licence.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photograph of Adolfo Lutz by an unidentified studio photographer, as printed in L. O. Howard, 'Some pioneers in mosquito sanitation and other mosquito work, II', The Popular Science Monthly 87 (December 1915), p. 170; scan via the Internet Archive and Wikimedia Commons (public domain). Downscaled.",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:PSM_V87_D174_A_Lutz.png",
+    "creator": "Unidentified studio photographer (signature illegible); reproduced in The Popular Science Monthly",
+    "date": "1915 (publication); photograph undated, taken before 1915",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/popularsciencemo87newy"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / the lead's Adolfo-Lutz.jpg lead FAILED: its Commons page cites a squarespace CDN image with author 'Unknown', no date and no permission under a bare Brazilian photo tag, so it has no holder, creator or date; REPLACED by a different image, a halftone portrait printed in The Popular Science Monthly vol. 87 (December 1915, p. 170) with an explicit printed caption naming 'Dr. A. Lutz ... Oswaldo Cruz Institute ... formerly director of the Bacteriological Institute, Sao Paulo'. PORTRAIT RIGHTS: US publication in 1915, so public domain in the United States by publication date; photographer unidentified (signature illegible); the Internet Archive volume record (MBLWHOI Library scan, contributor and sponsor MBLWHOI Library) gives publisher and date and no copyright-status field; no museum or archive holds a separate item record with rights wording, so holder_contradiction_found is false and the basis is age only (recorded honestly). IMAGE INSCRIPTION CHECK: I read the Internet Archive full text around the plate (plate p. 170 within Howard's article; neighbouring plates are Oswaldo Cruz, E. A. Goeldi and E. Liceaga, each with its own caption) and viewed the downloaded image: a man with round pince-nez glasses and moustache in a bow tie; the caption names Dr. A. Lutz and his Brazilian institutes (not a different Lutz); the face is consistent with the older man in the lead photograph on Commons (same glasses and moustache); no contradiction. The Commons file title says 'D174' while the caption page is 170: the Commons title cites the wrong page of the book (as in the Domeyko case), recorded as a caveat. KIND: likeness (a photograph of the sitter reproduced as a halftone). PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q199652 label 'Adolpho Lutz', description 'Brazilian physician and zoologist (1855-1940)', born 18 December 1855, died 6 October 1940, citizenship Brazil, no Korean label; not in prod66.json (slug, name, aliases and QID checked); no candidate file existed. NAME: the candidate uses the spelling 'Adolfo Lutz' (the slug and the common modern form) with 'Adolpho Lutz' as alias. REGION latin_america (born in Rio de Janeiro, whole career in Brazil apart from Europe and Hawaii; Swiss parents, nationality BR). ERA 19th_century (born 1855; Kitasato precedent). ZERO POLITICS: primary identity physician and bacteriologist; leprosy-policy debates are scored only as scientific hypothesis, not as political activity; his daughter's political career and the family are not scored; the Hawaiian resignation versions are context and unscored. VOCABULARY: occupations physician, medical_researcher and scientist; fields medicine and biology; tags field_researcher and independent; archetype scientific_explorer; impact domains medical and scientific; all labelled in en.ts and ko.ts (grepped; bacteriologist, zoologist and entomologist have no labels and were not used). KO NAME: no Korean Wikipedia article or Wikidata Korean label exists; the display name 아돌푸 루츠 is a recorded transliteration (Portuguese Adolfo). CANONICAL SIGNIFICANCE SOURCE: L. Rey, 'Adolfo Lutz', Revista do Instituto de Medicina Tropical de Sao Paulo 1 (1959) p. 179 (https://revistas.usp.br/rimtsp/article/view/203281), with the Fiocruz biographical note. READ (7 sources besides Wikidata and Wikipedia, of which 6 are behavioural or biographical and 1 is the portrait-context page): Rey 1959; Fiocruz note; Benchimol 2003 (relevant sections of a very long article); Benchimol and Sa 2003 on leprosy (partly); Marques 2008; Instituto Adolfo Lutz note (part); Popular Science Monthly 1915 plate and caption (context only). PERSPECTIVES: (1) institutional-journal and institutional notes (Rey, Fiocruz, Instituto Adolfo Lutz); (2) the Casa de Oswaldo Cruz historian Benchimol, critical in places; (3) dermatology-history tribute (Marques); (4) contemporary critic Valverde, reached only through Benchimol and Sa and quoted there at length, as the COUNTER-VOICE; (5) a contemporary US entomologist's caption (Howard), context only. NON-SELF BEHAVIOURAL SOURCES: Benchimol, Benchimol and Sa, Marques, Rey. SELF MATERIAL: none used directly (Lutz's own 1908 and 1903 papers appear only through Marques and Benchimol). NOT OPENED: Aragao 1956 obituary in Memorias do Instituto Oswaldo Cruz, Lutz's Complete Works volumes (Fiocruz Editora), the Swiss Historical Lexicon article (Cloudflare-blocked), the Leibniz Bonn page (404), the Wikipedia claims on a 1938 Nobel nomination and the Lister and Pasteur training (unsourced on the page). CONTRADICTIONS: Swiss medical diploma 1878-1879 (Marques, Rey, Benchimol) vs 1890 (Fiocruz page); start of work at the Bacteriological Institute April 1892 (Instituto Adolfo Lutz note) vs appointment as sub-director 18 March 1893 (Benchimol); the Hawaii post is called Kalihi hospital or the Molokai settlement in different sources; two versions of why he left Hawaii; the search snippet that Lutz named Paracoccidioides brasiliensis was not found in the text read (Marques) and is not used. HONEST LIMITS: much of the evidence comes from one historian (Benchimol) and admiring institutional notes; there is one adversarial voice (Valverde) and it is second-hand; confidences are capped near 0.68. EXCLUSIONS: no private life, family or politics scored; the Hawaiian departure versions are not scored. MAJOR ACHIEVEMENT GATE: first pass PASS on primary, top-omission, identity, significance-over-novelty and side-project checks (bacteriology and public health in Sao Paulo, yellow fever, and the 1908 mycosis plus helminth work are the three cards; the leprosy-mosquito theory is not given a card because it was unsuccessful). HANDBACK66: {\"slug\":\"adolfo-lutz\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"RISKY (alt-dependent)\",\"holder_record_at_preflight\":\"NOT VERIFIED: the image was copied from a squarespace CDN with no holder\",\"holder_record_checked_by_you\":\"Commons wikitext of the lead file (squarespace CDN source, author Unknown, no permission, bare Brazilian photo tag); for the replacement, the Internet Archive item record for Popular Science Monthly vol. 87 (MBLWHOI Library scan, published New York 1915, no copyright-status field) and the volume full text with the printed caption; the Commons file page cites the wrong page number (D174 vs plate p. 170)\",\"holder_contradiction_found\":false,\"initial_lead\":\"Adolfo-Lutz.jpg (unknown source)\",\"final_portrait_source\":\"Halftone portrait captioned 'Dr. A. Lutz, chef de service, Oswaldo Cruz Institute ...', The Popular Science Monthly vol. 87 (Dec 1915) p. 170, Internet Archive popularsciencemo87newy / Commons PSM_V87_D174_A_Lutz.png, downscaled from 1197x1533 to 937x1200\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":\"The lead image had no holder, creator or date and was rejected; success came from a Commons-listed 1915 US magazine plate with an explicit printed caption naming him and his institutes and a clear pre-1931 US publication basis (no holder licence exists; basis is age)\",\"rows_initially_scored\":9,\"self_calibrated_rows\":[{\"attribute\":\"leadership_drive\",\"old_score\":36,\"old_confidence\":0.52,\"new_score\":36,\"new_confidence\":0.46,\"reason\":\"Row depends on one historian's interpretive contrast with Oswaldo Cruz\"},{\"attribute\":\"risk_tolerance\",\"old_score\":62,\"old_confidence\":0.5,\"new_score\":58,\"new_confidence\":0.44,\"reason\":\"Hawaii claim is second-hand from admiring biographers, self-exposure only from Rey, and the 1902 design limited severity\"}],\"reviewed_kept\":[\"cross_domain_range\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":9,\"image_inscription_check\":\"Printed caption: 'Dr. A. Lutz, chef de service, Oswaldo Cruz Institute, Rio Janeiro, Brazil, formerly director of the Bacteriological Institute, Sao Paulo, Brazil; well-known worker in helminthology, pathology and bacteriology, as well as entomology ...'; photographer's signature at lower right illegible\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 80 / 0.68 to 76 / 0.62 because the breadth rests on an obituary-style article (Rey) and one historian (Benchimol). RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.66 to 72 / 0.58 because the 1902 yellow-fever series is described by a single historian. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 74 / 0.62 to 70 / 0.56 because one historian carries the claim about his proofs and experimental design. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 72 / 0.6 to 68 / 0.54 because the controversies are narrated by the same historian. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.6 to 68 / 0.54 because the leprosy-mosquito conviction comes from one pair of related papers by the same authors."
+  }
+}

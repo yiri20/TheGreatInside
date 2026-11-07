@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "olaudah-equiano",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Olaudah Equiano",
+    "aliases": [
+      "Gustavus Vassa"
+    ],
+    "wikidataId": "Q379887",
+    "birthYear": 1745,
+    "deathYear": 1797,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_equiano_wikidata",
+      "kind": "wikidata",
+      "title": "Olaudah Equiano (Q379887), verified live via the Wikidata API (2026-11-06): description 'Black British abolitionist and writer (c. 1745 - 1797)', born c. 1745 (year precision), died 31 March 1797, no Korean or English label (multilingual label 'Olaudah Equiano'). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q379887"
+    },
+    {
+      "id": "src_equiano_carey",
+      "kind": "biography",
+      "title": "Brycchan Carey, Olaudah Equiano biography page (brycchancarey.com, a scholar's site on Equiano; read). CANONICAL SIGNIFICANCE SOURCE: describes him as an eighteenth-century African writer, mariner and Britain's first Black civil servant; says his 1789 autobiography appeared in nine editions between 1789 and 1794, was a bestseller, advanced the anti-slavery cause and made him wealthy, then went out of print until the 1960s. Single-author scholar's page, short, gives few dates.",
+      "url": "https://brycchancarey.com/equiano/index.htm"
+    },
+    {
+      "id": "src_equiano_nativity",
+      "kind": "biography",
+      "title": "Brycchan Carey, 'Where Was Olaudah Equiano Born?' (brycchancarey.com; read). COUNTER-VOICE: sets out Vincent Carretta's evidence (a 1759 Westminster baptismal record and a 1773 Royal Navy muster listing a Carolina birthplace, misdated voyages, the name 'Equiano' not used before 1789, close resemblance of the African chapters to Anthony Benezet's writing) against the counter-arguments (accuracy elsewhere, other formerly enslaved people who kept European names, proposed African birthplaces) and concludes that nobody knows. Used to cap confidence in everything that rests on the Narrative's own account of events before about 1759.",
+      "url": "https://brycchancarey.com/equiano/nativity.htm"
+    },
+    {
+      "id": "src_equiano_ew_irwin",
+      "kind": "archive",
+      "title": "Equiano's World, 'Joseph Irwin' (equianosworld.org; an online scholarly reference site whose hosting body is not named on the page; read). Reports the Navy Office warrant of 16 January 1787 naming Vassa 'Commissary of Provisions and Stores' for the Black Poor sailing to Sierra Leone, his complaints about unsupplied provisions (750 provisioned for, 426 embarked), Irwin's counter-charge that Vassa was arrogant and stirring up the settlers, Captain Thompson's own letter blaming both men for disrupting the voyage, and the Committee siding with Irwin so that Vassa was relieved. Independent of Vassa's own account in that it reports Irwin's and Thompson's side.",
+      "url": "https://equianosworld.org/associates-abolition.php?id=30"
+    },
+    {
+      "id": "src_equiano_ew_sierra",
+      "kind": "archive",
+      "title": "Equiano's World, 'Vassa and Sierra Leone' (equianosworld.org; read). Says he was appointed in late 1786, publicly objected to how the resettlement scheme was run including suspected embezzlement, and was removed; that his warnings proved accurate; and that a missionary application he made earlier was refused by the Bishop of London. The page cites no footnotes and hedges its inferences ('likely', 'probably'); used only for the broad outline.",
+      "url": "https://equianosworld.org/questioning.php?id=11"
+    },
+    {
+      "id": "src_equiano_slavery",
+      "kind": "institution",
+      "title": "Slavery and Remembrance, 'Olaudah Equiano' (slaveryandremembrance.org; the page names no author; read). Summarises his life from the Narrative: bought by Lieutenant Pascal in 1754, sold to the Quaker Robert King in Montserrat who set him to marketing, allowed to buy his freedom in 1766, sailor in the Mediterranean and Atlantic, the 1789 autobiography; says scholars credit the book with establishing the slave narrative genre and flags recent scholarship that he may have been American-born. No sales figures.",
+      "url": "https://www.slaveryandremembrance.org/people/person/?id=PP003"
+    },
+    {
+      "id": "src_equiano_nge",
+      "kind": "institution",
+      "title": "Pablo J. Davis, 'Olaudah Equiano in Georgia', New Georgia Encyclopedia (Georgia Humanities and University of Georgia Press; read). Says he traded on the Savannah River on his master's and his own account hoping to buy his freedom, did so on Montserrat in 1766, sailed as a mariner and joined Phipps's 1773 Arctic expedition, went to the Mosquito Coast and Mediterranean ports, was dismissed from the Sierra Leone scheme for exposing embezzlement, and sold subscriptions to fund the 1789 book and toured to promote it. Regional encyclopedia entry focused on Georgia; thin on later life.",
+      "url": "https://www.georgiaencyclopedia.org/articles/history-archaeology/olaudah-equiano-in-georgia/"
+    },
+    {
+      "id": "src_equiano_encyc",
+      "kind": "press",
+      "title": "'Equiano, Olaudah', Colonial America Reference Library (Gale, via Encyclopedia.com; read). Says the Interesting Narrative was printed in nine editions in his lifetime and brought him international fame, calls it one of the best precursors to later slave narratives such as Douglass's, and notes his 1772-73 Arctic expedition. Short reference entry with no named author.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/equiano-olaudah-0"
+    },
+    {
+      "id": "src_equiano_narrative",
+      "kind": "archive",
+      "title": "The Interesting Narrative of the Life of Olaudah Equiano, or Gustavus Vassa, the African (first published London, 1789; Project Gutenberg text 15399; the passages on his trading ventures and the purchase of his freedom, his savings of thirty-seven guineas on returning to London, and his appointment and work as commissary for the Black Poor read, the rest searched only). SELF-REPORT and partly contested: the account of his childhood and Middle Passage is disputed (see the nativity source), so only episodes that other sources also report (the 1766 freedom, the 1773 expedition, the 1787 commissary post) are used.",
+      "url": "https://www.gutenberg.org/ebooks/15399"
+    },
+    {
+      "id": "src_equiano_bl",
+      "kind": "institution",
+      "title": "British Library, frontispiece to The Interesting Narrative (shelfmark 1489.g.50; Flickr record in the Library's own British Library Flickr stream, id 12458803755, marked Public Domain Mark / No known copyright restrictions; read). Portrait source record for the image used; the lettering on the plate names the sitter, painter and engraver.",
+      "url": "https://www.flickr.com/photos/britishlibrary/12458803755/"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_equiano_nge, src_equiano_carey, src_equiano_bl | 1789 | encyclopedia entry, scholar's page, plate lettering] He sold subscriptions to fund the 1789 Narrative and toured to promote it (New Georgia Encyclopedia); the plate is lettered 'Published March 1, 1789 by G. Vassa', i.e. issued by the author himself, and Carey says the book was a bestseller that made him wealthy. Self-initiated publication and promotion is documented by a plate and two independent texts, but none gives detail of how the subscription campaign was run."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_equiano_nge, src_equiano_slavery, src_equiano_narrative | 1760s | encyclopedia entry, institutional biography, his own text] While enslaved he bought goods and traded them on his own account on voyages around the Caribbean and Savannah River, as the encyclopedia and the Slavery and Remembrance biography describe, and later built a living as a hairdresser, steward and author (his own text); the Narrative gives the detail of the ventures, the two institutional texts only summarise them, and the Narrative is a self-report whose early chapters are disputed."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_equiano_nge, src_equiano_slavery, src_equiano_narrative | 1760s-1766 | encyclopedia entry, institutional biography, his own text] Working toward buying his freedom through trading over several years until he bought it on Montserrat in 1766 is stated by two institutional texts and told in detail in his own Narrative; the institutional texts repeat the Narrative's account rather than independent records, so the evidence is largely self-report. SELF-CALIBRATION (agent): top-risk row; lowered from 68 / 0.55 to 64 / 0.50 because the multi-year saving episode rests on his own Narrative, which Carretta's documentary challenge (nativity source) shows he shaped for his readers."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_equiano_ew_irwin, src_equiano_ew_sierra, src_equiano_nge | 1787 | reference site, reference site, encyclopedia entry] As commissary he complained to the Navy Commissioners and to Captain Thompson about Irwin's failure to supply contracted goods and was relieved of his post after the Committee sided with Irwin; Thompson wrote that the quarrel between the two men was disrupting the voyage and Irwin said Vassa was arrogant to white people. The complaint is documented, but the supply allegations are his own and Thompson blamed both men. SELF-CALIBRATION (agent): top-risk row; lowered from 64 / 0.48 to 60 / 0.42 because the substance of the allegations is Vassa's own, an independent captain blamed both parties, and the reference site cites no footnotes."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_equiano_nge, src_equiano_encyc, src_equiano_slavery | 1766-1789 | encyclopedia entry, reference entry, institutional biography] After 1766 he worked as a sailor and steward on Mediterranean, Atlantic and Arctic voyages (the 1773 Phipps expedition), went to the Mosquito Coast, worked as a hairdresser and commissary and became an author, according to the sources, which list the moves without describing how he handled any of them; the breadth is documented but the quality of the adaptation is not."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "올라우다 에퀴아노"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/olaudah-equiano-orme-1789.jpg",
+    "width": 707,
+    "height": 1200,
+    "source": "Engraved frontispiece to The Interesting Narrative of the Life of Olaudah Equiano, engraved by Daniel Orme after a painting by William Denton and lettered 'Published March 1. 1789 by G. Vassa'; British Library, shelfmark 1489.g.50. The scan (1071 x 1785) was trimmed of its page margins and binding shadow and downscaled to 707 x 1200 with no upscaling.",
+    "license": "Public domain: a lettered print published in London in 1789 by an engraver and painter who died long ago; the British Library's own image record carries a Public Domain Mark / no known copyright restrictions",
+    "licenseUrl": "https://www.flickr.com/photos/britishlibrary/12458803755/",
+    "attribution": "Daniel Orme after William Denton, 1789, frontispiece of The Interesting Narrative of the Life of Olaudah Equiano, British Library (1489.g.50)",
+    "attributionUrl": "https://www.flickr.com/photos/britishlibrary/12458803755/",
+    "creator": "Daniel Orme (engraver) after William Denton (painter)",
+    "date": "1789",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Olaudah_Equiano_-_The_interesting_Narrative_of_the_Life_of_Olaudah_Equiano_(1789),_frontispiece_-_BL.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED, LEAD USED. The lead image is the 1789 frontispiece of the Interesting Narrative (British Library 1489.g.50). HOLDER RECORD CHECKED: the British Library's own Flickr record (id 12458803755) displays 'Public Domain Mark' and 'No known copyright restrictions' and the shelfmark 1489.g.50, frontispiece; the Commons file page (Cc-zero, GWToolset batch from the British Library Images Online release of March 2014) agrees; the BL item page itself was not opened separately. No contradiction. RIGHTS BASIS: a print published in London on 1 March 1789 (lettered), with the engraver Daniel Orme (d. 1832) and painter William Denton long dead; public domain by age; the BL record is consistent. The Commons file was used only as a lead for the holder's record. INSCRIPTION CHECK (I looked at the downloaded 1071 x 1785 scan): lower left 'W. Denton pinxt.', lower right 'D. Orme sculpt.', title 'Olaudah Equiano, or Gustavus Vassa, the African.', and the line 'Published March 1. 1789 by G. Vassa'. The lettering names the claimed sitter and the publisher (Vassa himself) and contradicts nothing. KIND: historical_depiction (an engraving after a painting, per the repo rule for print-after-painting images, although it is a lifetime image published by the sitter himself). Crop: scan margins and the book-binding shadow trimmed (990 x 1680), downscaled to 707 x 1200, never upscaled; saved as public/portraits/olaudah-equiano-orme-1789.jpg. PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q379887, description 'Black British abolitionist and writer (c. 1745 - 1797)', born c. 1745 (year only), died 31 March 1797; not in prod66.json (grep of Equiano, the QID and Vassa found nothing); no existing candidate file. REGION western_europe (career base England; Sancho precedent for Africans in Britain), ERA early_modern, nationality GB (British subject; his birthplace is disputed so no birthplace nationality code is given). ZERO POLITICS / ACTIVISM: the lead assigned him as portfolio arts; Wikidata calls him 'abolitionist and writer' and the abolition campaign, the Sons of Africa letters and his dealings with abolitionists are context only and unscored; he is scored as an author, trader and seafarer, and the commissary post is scored only as an administrative episode, not as political activity. No inference from enslavement, trauma or the birthplace dispute. VOCABULARY: occupation writer, field literature, impact domains literary, cultural, historical, tags overcame_adversity and communicator, archetype creative_creator, all present in en.ts and ko.ts. KO NAME: no Wikidata or Korean Wikipedia label exists, so the display name 올라우다 에퀴아노 is a recorded transliteration. HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED (attribution_confirmed true) for the documented episodes (the 1766 freedom, the 1773 expedition, the 1787 commissary dispute documented by Navy Office correspondence and Captain Thompson's letter, the 1789 publication); the childhood and Middle Passage account is NOT used. CANONICAL SIGNIFICANCE SOURCE: Brycchan Carey, Olaudah Equiano biography page (https://brycchancarey.com/equiano/index.htm). READ (9 sources plus Wikidata): Carey biography and Carey nativity page (counter-voice: Carretta vs critics, perspectives: scholar's site), Equiano's World pages on Irwin and Sierra Leone (reference site; Irwin and Captain Thompson's side), Slavery and Remembrance (institution), New Georgia Encyclopedia, Gale reference entry, the Narrative (self; partial), British Library record. Perspectives: his own account; two scholar-site pages; reference-site pages carrying the opposing party and a naval captain; two institutional biographies. Also read but not cited: a Nunatsiaq News column by Kenn Harper (2024; Arctic Circle voyage, 'first Black man known to have crossed' wording unsupported by cited evidence, so no 'first' claim is used) and a short UGA Today note on Carretta's biography (no detail on character or business). NOT OPENED: Carretta's biography Equiano the African and Walvin's biography (not freely available), Britannica (403), Royal Museums Greenwich and National Archives Equiano pages (404). EXCLUSIONS: childhood, Middle Passage, the Georgia beating and kidnap attempts as trait evidence, the birthplace dispute as character evidence, abolition campaigning, the Sons of Africa letters and everything about family or religion. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (68/0.55 lowered to 64/0.50: largely his own Narrative), conflict_tolerance (64/0.48 lowered to 60/0.42: allegations are his own and Captain Thompson blamed both parties), proactive_agency (68/0.55, kept: the plate lettering and two independent texts agree he published and promoted the book himself). No broad scoring problem flagged; the profile is sparse because most behaviour sources summarise his own Narrative. MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. Card 1 states the Narrative and its place in the genre, card 2 the freedom and seafaring career, card 3 the self-funded subscription publication; abolition campaigning appears only as context in card 1 ('advanced the anti-slavery cause'). HANDBACK66: {\"slug\": \"olaudah-equiano\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"PARTLY VERIFIED: British Library image-services record cited on the Commons file (accession 1489.g.50, frontispiece, CC0 label); the BL item page was not reopened\", \"holder_record_checked_by_you\": \"British Library's own Flickr record (id 12458803755): Public Domain Mark / 'No known copyright restrictions', shelfmark 1489.g.50, frontispiece, 'originally published London 1789'; Commons wikitext agrees (Cc-zero, BL batch March 2014). The BL Images Online item page itself was not opened. 1789 lettered print.\", \"holder_contradiction_found\": false, \"initial_lead\": \"frontispiece of The Interesting Narrative (1789), British Library\", \"final_portrait_source\": \"British Library, frontispiece (1489.g.50) by Daniel Orme after William Denton, published 1 March 1789; https://www.flickr.com/photos/britishlibrary/12458803755/ (Commons file 'Olaudah Equiano - The interesting Narrative of the Life of Olaudah Equiano (1789), frontispiece - BL.jpg'); cropped to 990x1680 and downscaled to 707x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"persistence\", \"old_score\": 68, \"old_confidence\": 0.55, \"new_score\": 64, \"new_confidence\": 0.5, \"reason\": \"Multi-year saving toward freedom rests on his own Narrative, which institutional texts repeat and which Carretta's challenge shows he shaped for readers\"}, {\"attribute\": \"conflict_tolerance\", \"old_score\": 64, \"old_confidence\": 0.48, \"new_score\": 60, \"new_confidence\": 0.42, \"reason\": \"Substance of the supply allegations is Vassa's own; Captain Thompson blamed both parties and the reference site cites no footnotes\"}], \"reviewed_kept\": [\"proactive_agency\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"Lower left 'W. Denton pinxt.'; lower right 'D. Orme sculpt.'; title 'Olaudah Equiano, or Gustavus Vassa, the African.'; bottom line 'Published March 1. 1789 by G. Vassa'\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}

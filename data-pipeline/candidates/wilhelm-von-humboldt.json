@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wilhelm-von-humboldt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Wilhelm von Humboldt",
+    "aliases": [
+      "Wilhelm Freiherr von Humboldt",
+      "Humboldt, Wilhelm von"
+    ],
+    "wikidataId": "Q77888",
+    "birthYear": 1767,
+    "deathYear": 1835,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "scholar",
+      "writer"
+    ],
+    "fieldIds": [
+      "linguistics",
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "cultural"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "theorist",
+      "philosopher"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_whumboldt_wikidata",
+      "kind": "wikidata",
+      "title": "Wilhelm von Humboldt (Q77888), verified live via the Wikidata API (2026-11-06): label 'Wilhelm von Humboldt', description 'Prussian philosopher, government official, diplomat, and educator (1767-1835)', born 22 June 1767, died 8 April 1835, Korean label 빌헬름 폰 훔볼트. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q77888"
+    },
+    {
+      "id": "src_whumboldt_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Wilhelm von Humboldt' (introduction and the life sections from education and early writings to the later linguistic writings read in full, about 5,500 words). CANONICAL SIGNIFICANCE SOURCE: gives his work across philosophy, literature, linguistics, anthropology and education; his role with Goethe and Schiller at Jena; his Basque and American-language studies; the 1809-10 reform of the Prussian education system and the founding of the University of Berlin on the principle of combining teaching and research; his Kawi work and the demonstration of the Austronesian family against Bopp; the 1820 plan for comparative linguistics and the idea of language as the 'formative organ of thought'. Admiring in tone (written by a Humboldt specialist) and notes that his linguistics was long ignored or partially appropriated.",
+      "url": "https://plato.stanford.edu/entries/wilhelm-humboldt/"
+    },
+    {
+      "id": "src_whumboldt_eb",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Wilhelm von Humboldt' (public-web portion read in full, about 800 words). General-encyclopedia account: language scholar, philosopher and educational reformer whose contribution to the scientific study of language became highly valued in the twentieth century; chiefly instrumental in founding the Friedrich Wilhelm University at Berlin; his Basque studies and the unfinished Kawi work with its introduction on the diversity of language structure. Diplomatic and treaty service in the entry was read but is not scored.",
+      "url": "https://www.britannica.com/biography/Wilhelm-von-Humboldt"
+    },
+    {
+      "id": "src_whumboldt_hu",
+      "kind": "institution",
+      "title": "Humboldt-Universitat zu Berlin, University Library collections portal, 'Biografie, Wilhelm von Humboldt' (record read in full, about 400 words, in German). The university's own account: one of the co-founders (Mitbegruender) of the Berlin university, reform of Prussian education with Nicolovius and Suvern including the concept of the Berlin university and the new humanist Gymnasium, and the insight that language is a dynamic phenomenon (energeia). Holder record for the portrait search; its rights page requires contacting the library for digital copies, so none of its images is used.",
+      "url": "https://www.sammlungen.hu-berlin.de/dokumente/171/"
+    },
+    {
+      "id": "src_whumboldt_mcneely",
+      "kind": "institution",
+      "title": "Ian F. McNeely, 'Wilhelm von Humboldt and the World of Languages', Ritsumeikan University journal, vol. 23 no. 2, pp. 129-148 (a historian's lecture article; the opening sections and the sections on Sanskrit, Indo-European and the Austronesian family were read, about 3,500 words of roughly 8,000; the remainder was not read). Independent historian's account: Humboldt as tireless empirical researcher who built a correspondence network of missionaries, merchants, diplomats and scholars on six continents and collected word lists and grammars; his work on Sanskrit, Basque and the Austronesian family; helped recruit Bopp and A. W. Schlegel to professorships. COUNTER-VOICE: notes that he regarded Indo-European languages as superior because of inflection, rejected the idea of Sanskrit as a divine or racial marker, and that his comprehensive ambition left his work misunderstood by the professional disciplines he helped to create.",
+      "url": "https://www.ritsumei.ac.jp/acd/re/k-rsc/lcs/kiyou/pdf_23-2_alt/RitsIILCS_23.2pp129-148MCNEELY.pdf"
+    },
+    {
+      "id": "src_whumboldt_morozov",
+      "kind": "institution",
+      "title": "Oleg Morozov, 'Wilhelm von Humboldt and Berlin University: A New Look at the Origin of the Humboldt Myth', National Research University Higher School of Economics working paper WP BRP 134/HUM/2016 (first section and framing read, about 2,500 words of a 16-page paper). COUNTER-VOICE: summarises historians (Ash, Paletschek, Langewiesche, Tenorth and others) who find the 'Humboldt model' of the university contained little new and was never fully implemented, that Berlin was not Humboldt's brainchild alone (Fichte and Schleiermacher were involved) and that he headed the education section for about sixteen months from early 1809.",
+      "url": "https://wp.hse.ru/data/2016/10/20/1108079812/134HUM2016.pdf"
+    },
+    {
+      "id": "src_whumboldt_rijks",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, print 'Portret van Wilhelm von Humboldt' (RP-P-1903-A-23176), lithograph by Carl Wildt after a drawing by Franz Krueger, printed by L. Sachse and Co., Berlin, 1830-1860; linked-art collection record read (Public Domain Mark on the image, CC0 on the data; title on object 'Wilhelm von Humboldt'). Holder record for the portrait.",
+      "url": "https://id.rijksmuseum.nl/20013976"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whumboldt_sep, src_whumboldt_eb, src_whumboldt_hu, src_whumboldt_mcneely | 1787-1835 | scholarly encyclopedia + general encyclopedia + university library record + historian's article] SEP says his work spans philosophy, literature, linguistics, anthropology and education and lists writings on Socrates and Plato, aesthetics (essays on Goethe's Hermann und Dorothea), a plan for a comparative anthropology, translations of Pindar and Aeschylus, the history of Greece and the theory of language; Britannica calls him a language scholar, philosopher and educational reformer; the university record lists cultural science, education, literary and art analysis and linguistics; McNeely describes a scholar who straddled linguistics, literature, classics, anthropology and history. Four independent accounts document real output in several fields. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 78 / 0.56 to 74 / 0.52 because the SEP list is the main support and the other sources are partial readings."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whumboldt_mcneely, src_whumboldt_sep | 1801-1835 | historian's article + scholarly encyclopedia] McNeely says that from the early 1800s until his death he used his connections to build a correspondence network that brought him information from missionaries, merchants, diplomats and scholars on six continents, and that he collected word lists in Quechua, studied Sanskrit grammar, Javanese epics and Malagasy Bible passages and did fieldwork among the Basques; SEP records his Basque journey of 1801 and his copying of Hervas's collection of American-language grammars in Rome. Inferred from documented collecting and learning across many languages. SELF-CALIBRATION (agent): lowered from 72/0.52 because the detail of the network and the breadth of languages rests mainly on one historian's lecture article and SEP's admiring account."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whumboldt_sep, src_whumboldt_eb, src_whumboldt_hu | 1797-1836 | scholarly encyclopedia + general encyclopedia + university library record] SEP says that in June 1820 he submitted to the Berlin Academy a plan for a new discipline of comparative linguistics with its philosophy and methodology and a blueprint for a research programme, and that he treated language as the formative organ of thought; Britannica describes his introduction on the diversity of language structure as called the textbook of the philosophy of speech; the university record credits the insight that language is a dynamic phenomenon. Documented attempt to build a general framework; the claim leans on SEP and on retrospective praise, and McNeely notes that the professional disciplines misunderstood the comprehensive design. SELF-CALIBRATION (agent): lowered from 70/0.50 because the framework claim rests chiefly on one admiring specialist entry and on retrospective valuation."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whumboldt_sep, src_whumboldt_mcneely | 1794-1830 | scholarly encyclopedia + historian's article] SEP says that at Jena he acted as philosophical adviser and critical collaborator to Goethe and Schiller, furthering works such as Schiller's Letters on the Aesthetic Education of Man and Goethe's Hermann und Dorothea, and that he joined his brother and Goethe in a study of comparative anatomy; McNeely adds that he stood at the centre of a global community of researchers and helped recruit Bopp and A. W. Schlegel to professorships. Documented repeated scholarly collaboration, but both sources are retrospective and the Jena claim is SEP's account of how others' work was improved."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_whumboldt_sep, src_whumboldt_eb, src_whumboldt_morozov | 1791-1810 | scholarly encyclopedia + general encyclopedia + working paper] SEP says that in 1791 he took leave from the Prussian civil service because he found the post uninspiring and devoted himself to scholarly and philosophical work, and that in 1809-10 he insisted the new university be endowed with land to secure its independence from the state, quarrelled with superiors and was asked to resign (Britannica says he offered his resignation, discontented with a subordinate position). Scored only for the documented preference for scholarly independence in two episodes; the later dismissal, the constitutional plans and all diplomatic and ministerial conduct are unscored, and Morozov's working paper shows the university story was shared with others."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "빌헬름 폰 훔볼트"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / LEAD FAILED, REPLACED. The lead Oldermann lithograph at the Humboldt-Universitat collections portal: the holder's own records (sammlungen.hu-berlin.de documents 171 and 6012) were opened; the portrait record describes a photograph of a display panel after a lithograph by Franz Krueger (not the Oldermann attribution on Commons), each record carries a 'Humboldt-Universitat zu Berlin, Universitaetsbibliothek' copyright line, and the portal's usage-rights page says copyright details were not always recorded in the early project years and tells users to contact the library before using digital copies. Under the holder-record rule that is a permission-needed route, so the Commons 'PD-art' tag was not relied on. Replacement: Rijksmuseum print RP-P-1903-A-23176 (linked-art record read: Public Domain Mark on the image, CC0 on the data), lithograph by Carl Wildt after a drawing by Franz Krueger, printed by L. Sachse and Co., Berlin, dated 1830-1860, lettered 'WILHELM von HUMBOLDT.' The alternative Popular Science Monthly 1904 plate (Commons PSM V65 D087) was also examined and set aside because its original artist is unidentified in the volume; the Vendramini 1814 stipple print in the same museum (RP-P-1938-631) was rejected because it is lettered 'BARON HUMBOLDT, Prussian Minister at the Court of France', which does not unambiguously name Wilhelm. PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q77888 label 'Wilhelm von Humboldt', description 'Prussian philosopher, government official, diplomat, and educator (1767-1835)', born 22 June 1767, died 8 April 1835, Korean label 빌헬름 폰 훔볼트 (Wikidata Korean label; used as the Korean display name); no production (prod66.json; only Alexander von Humboldt, Q6694, is present) or candidate slug/QID collision. REGION western_europe (Prussia/Germany, same as Alexander von Humboldt and the German precedents). ERA 19th_century (as for Alexander von Humboldt). ZERO POLITICS (hard rule for this batch): his diplomatic posts (Rome, Vienna, London), the Congress of Vienna, treaty and constitutional work, ministerial service and the 1819 dismissal are not scored and not used as evidence; the education-reform and university-founding work is used only in the achievement cards, and in one narrow row (autonomy need) via the 1791 leave from civil service and the 1809-10 insistence on the university's independence. VOCABULARY: occupations philosopher, scholar, writer; fields linguistics, philosophy, education; tags cross_disciplinary, theorist, philosopher; archetypes scholarly_specialist, cross_disciplinary_generalist (all present with EN and KO labels; linguist, educator, diplomat omitted on purpose). IMPACT DOMAINS scientific, educational, cultural. ATTRIBUTION CONFIRMED: dated publications, posts and linguistic work documented by several accounts. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Wilhelm von Humboldt' (https://plato.stanford.edu/entries/wilhelm-humboldt/), read in full, with Britannica and the university library biography. READ (substantively): SEP; Britannica (public-web portion); Humboldt-Universitat library biography record; McNeely's lecture article (opening and Sanskrit/Indo-European sections, via the saved PDF); the first sections of Morozov's working paper; the Rijksmuseum record. PERSPECTIVES: scholarly encyclopedia, general encyclopedia, the university's own library record, an independent historian, a revisionist working paper, a museum record. COUNTER-VOICES: Morozov and the historians he summarises (the 'Humboldt model' is largely a later construction and Berlin was not his alone); McNeely (Indo-European superiority by inflection; misunderstanding by the disciplines); SEP (his linguistics was long ignored or only partially appropriated, and Bopp rejected his Austronesian finding). NOT OPENED: the primary works and letters; Sorkin's and Mueller-Vollmer's studies; Tenorth's and Ash's work (only through Morozov's summary); the Oxford Dictionary of National Biography; the HU main history page and the PSL exhibit (bot-walled); the Solleveld article (HTTP 403). SELF-REPORT SEPARATION: his own words appear only as quoted by SEP and the HU record. EXCLUSIONS (hard rule): family, marriage and the death of his children, health, his political and constitutional writings and activity, diplomacy, and any inferred psychology are not scored. No 'first' claim is used. THIN EVIDENCE FLAG: reference works, one lecture article and one working paper; no biography opened; confidence capped at 0.56. SELF-CALIBRATION (agent): top-risk rows reviewed: curiosity (72/0.52 lowered to 68/0.48: one historian's article plus SEP); systems_abstraction (70/0.50 lowered to 64/0.44: one admiring specialist entry and retrospective valuation); cross_domain_range (78/0.56, kept: four independent accounts list output in several fields). HANDBACK66: {\"slug\": \"wilhelm-von-humboldt\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Humboldt-Universitat Sammlungen record (Friedrich Oldermann lithograph) not opened\", \"holder_record_checked_by_you\": \"Opened sammlungen.hu-berlin.de documents 171 (biography, '(c) Humboldt-Universitaet zu Berlin, Universitaetsbibliothek') and 6012 (photograph of a display panel after a lithograph by Franz Krueger, same copyright line) and the portal's Nutzungsrechte page (digital copies: contact the library; early-project copyright details incomplete). For the replacement, opened the Rijksmuseum linked-art record id.rijksmuseum.nl/20013976 (RP-P-1903-A-23176): Public Domain Mark on the image (creativecommons.org/publicdomain/mark/1.0/), CC0 on the data, printmaker Carl Wildt after drawing by Franz Krueger, printer L. Sachse and Co., Berlin, 1830-1860, title on object 'Wilhelm von Humboldt'.\", \"holder_contradiction_found\": true, \"initial_lead\": \"Oldermann lithograph, Humboldt-Universitat\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam, RP-P-1903-A-23176, lithograph by Carl Wildt after Franz Krueger, printed by L. Sachse and Co., Berlin, 1830-1860; https://id.rijksmuseum.nl/20013976 (image https://iiif.micr.io/QoNNA/full/max/0/default.jpg, 5174x6643 original, cropped to the plate 3695x5025 and downscaled to 882x1200)\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"curiosity\", \"old_score\": 72, \"old_confidence\": 0.52, \"new_score\": 68, \"new_confidence\": 0.48, \"reason\": \"The network and language-breadth detail rests mainly on one historian's lecture article plus SEP's admiring account\"}, {\"attribute\": \"systems_abstraction\", \"old_score\": 70, \"old_confidence\": 0.5, \"new_score\": 64, \"new_confidence\": 0.44, \"reason\": \"The framework claim rests chiefly on one admiring specialist entry and retrospective valuation\"}], \"reviewed_kept\": [\"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"Lower left 'Gez. v. F. Krueger'; centre 'Druck v. L. Sachse & Co. Berlin'; right 'Lith. v. C. Wildt'; title 'WILHELM von HUMBOLDT.'; below 'BERLIN / Verlag und Eigenthum v. L. Sachse & Co.'; museum number stamped lower left\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 78 / 0.56 to 74 / 0.52 because the SEP list is the main support and the other sources are partial readings."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/wilhelm-von-humboldt-wildt-1830-1860.jpg",
+    "width": 882,
+    "height": 1200,
+    "source": "Lithographic portrait lettered 'WILHELM von HUMBOLDT.' by Carl Wildt after a drawing by Franz Krueger, printed by L. Sachse and Co., Berlin, made between 1830 and 1860; held by the Rijksmuseum, Amsterdam (RP-P-1903-A-23176). The museum scan (5,174 x 6,643 pixels) was cropped to the printed plate and lettering and downscaled once to 882 x 1,200 pixels; nothing was upscaled. Shown as a later print depiction, not as a documented sitting.",
+    "license": "Public domain (Rijksmuseum Public Domain Mark; nineteenth-century lithograph)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Carl Wildt after Franz Krueger, 'Portret van Wilhelm von Humboldt', lithograph, 1830-1860, Rijksmuseum, Amsterdam (RP-P-1903-A-23176), public domain",
+    "attributionUrl": "https://id.rijksmuseum.nl/20013976",
+    "creator": "Carl Wildt (lithographer) after Franz Krueger (drawing); printed by L. Sachse and Co.",
+    "date": "1830-1860",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://id.rijksmuseum.nl/20013976"
+  }
+}

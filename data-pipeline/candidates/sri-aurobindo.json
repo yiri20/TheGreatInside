@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sri-aurobindo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sri Aurobindo",
+    "aliases": [
+      "Aurobindo Ghose",
+      "Aurobindo Ghosh",
+      "Arabinda Ghosh",
+      "Aurobindo Ghosh (Sri Aurobindo)",
+      "श्री अरविन्द"
+    ],
+    "wikidataId": "Q192207",
+    "birthYear": 1872,
+    "deathYear": 1950,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia",
+    "historicalPolityKey": "polity.british_raj"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "literature",
+      "religion"
+    ],
+    "impactDomains": [
+      "cultural",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "mystic",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_aurobindo_wikidata",
+      "kind": "wikidata",
+      "title": "Aurobindo Ghosh (Q192207), verified live via the Wikidata API (2026-11-06): English label 'Aurobindo Ghosh', Korean label present, description 'Indian Bengali philosopher, yogi, maharishi, poet and nationalist (1872-1950)', born 15 August 1872, died 5 December 1950, image 'Sri aurobindo.jpg'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q192207"
+    },
+    {
+      "id": "src_aurobindo_ashram_sketch",
+      "kind": "institution",
+      "title": "Sri Aurobindo Ashram Trust, 'Life Sketch' (excerpt from the Complete Works, vol. 30, pp. 1-6; read in full). CANONICAL SIGNIFICANCE SOURCE, with the reviews below: educated in England (St Paul's School, King's College Cambridge, first class in the classical tripos), passed the Indian Civil Service competition but was disqualified at the riding test, served the Maharaja of Baroda from 1893 as administrator, professor of English and vice-principal, learned Sanskrit and several Indian languages there, left the nationalist movement in 1910 for Pondicherry, where after four years of yoga he began the monthly Arya in 1914 in which The Life Divine, The Synthesis of Yoga, Essays on the Gita, The Isha Upanishad, The Secret of the Veda, The Human Cycle, The Foundations of Indian Culture, The Future Poetry and The Ideal of Human Unity appeared serially until 1921, and around whom a community of disciples grew into the Sri Aurobindo Ashram. DEVOTIONAL: published by the Ashram that carries on his work and written in the Ashram's own voice, so its characterisations are favourable and partly his own account; used for the dated facts and the list of works. The political chapter of the sketch is not used.",
+      "url": "https://www.sriaurobindoashram.org/sriaurobindo/life_sketch.php"
+    },
+    {
+      "id": "src_aurobindo_reviews",
+      "kind": "press",
+      "title": "Reviews of Peter Heehs, 'The Lives of Sri Aurobindo' (Columbia University Press, 2008), compiled with their original journal credits on the biographer's own website, 'Reviews of The Lives of Sri Aurobindo in English-language Publications' (read in full). Independent academic and press reviewers summarise the biography's account of his scholarship, his years of yoga and writing, the Arya, Savitri and the Ashram: Hanna H. Kim (Adelphi University), Ramakrishna Puligandla, W. Michael Ashcraft (Truman State University), Amiya P. Sen (Jamia Millia Islamia, The Book Review India), Antony Copley (University of Kent, Journal of the Royal Asiatic Society), Jayant Bapat (Monash University, South Asia), a Telegraph (Kolkata) reviewer and EnlightenNext magazine. Several reviewers criticise the biography or its subject (Copley on poetic style and self-neglect, Sen noting the biographer's own admission that he paid inadequate attention to social problems, the Telegraph reviewer asking what funded his early years at Pondicherry), while the book's critics from the Ashram are in the next entry. LIMITS: all the reviews rest on one biography, which itself draws heavily on the subject's papers and was written by a former Ashram archivist, and the compilation is selected by the biographer, so this is one underlying source seen through many readers, not many independent sources.",
+      "url": "https://peterheehs.com/books/the-lives-of-sri-aurobindo/complete-reviews/"
+    },
+    {
+      "id": "src_aurobindo_reddy",
+      "kind": "institution",
+      "title": "Raman Reddy (Sri Aurobindo Ashram Archives), 'A review of The Lives of Sri Aurobindo by Peter Heehs' in the Ashram-community collection 'A Counter to Deliberate Distortions' (read in the opening review article). COUNTER-VOICE: a forty-year Ashram archivist who accepts that the biography is skilfully written and weaves historical data as no earlier biography had, but argues it is hostile to its subject, misrepresents his relationship with Mirra Alfassa (the Mother) and neglects the spiritual dimension. Openly partisan and about the biography rather than about his behaviour; used only to record the dispute over how he should be presented.",
+      "url": "https://motherandsriaurobindo.in/disciples/raman-reddy/books/a-counter-to-deliberate-distortions/article-by-raman-reddy-a-review-of-tlosa-by-ph/"
+    },
+    {
+      "id": "src_aurobindo_venn",
+      "kind": "archive",
+      "title": "Cambridge University, 'A Cambridge Alumni Database' (Venn), entry for Aravinda Acroyd Ghose (identifier GHS890AA; read in full). A university record of: scholar of King's College admitted 11 October 1890, matriculated 1890, classical tripos part I, first class, 1892, prizeman, admitted to the Indian Civil Service 1890, later service to the Maharajah of Baroda and professor of English and vice-principal of Baroda College, and a list of his published works. Documentary and independent of the Ashram, but it dates the Baroda service 1903-05 where other sources give 1893-1906, so no row depends on that date; its political lines are not used.",
+      "url": "https://venn.lib.cam.ac.uk/cgi-bin/search-2018.pl?sur=&suro=w&fir=&firo=c&cit=&cito=c&c=all&z=all&tex=GHS890AA&sye=&eye=&col=all&maxcount=50"
+    },
+    {
+      "id": "src_aurobindo_young_india",
+      "kind": "archive",
+      "title": "Lajpat Rai, 'Young India: An Interpretation and a History of the Nationalist Movement from Within' (New York: B. W. Huebsch, 1916; Internet Archive item youngindiainterp01lajp, Library of Congress copy). Portrait source only: the book contains a full-page plate captioned 'ARABINDA GHOSH'; its text on him (a first-class education in England, first-class honours in the classics at Cambridge) matches the subject's schooling, and no row depends on the book's political narrative.",
+      "url": "https://archive.org/details/youngindiainterp01lajp"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aurobindo_ashram_sketch, src_aurobindo_reviews, src_aurobindo_venn | 1892-1950 | Ashram sketch, academic reviews of the biography, university record] The list of works spans philosophy (The Life Divine), yoga (The Synthesis of Yoga), scriptural interpretation (Essays on the Gita, The Isha Upanishad, The Secret of the Veda), social and cultural history (The Human Cycle, The Foundations of Indian Culture, The Ideal of Human Unity), literary theory (The Future Poetry) and poetry, and the reviewers describe him as a prolific English-language writer on literary theory, poetry, philosophy, commentary and history (Puligandla) and as scholar of English and Sanskrit, poet, journalist and philosopher (Kim, Bapat); the Cambridge record confirms the classical training. The span is documented; the depth of each area is not assessed here. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 70 / 0.55 to 66 / 0.5 because the list of works comes from the Ashram sketch and reviews of an admiring biography."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aurobindo_ashram_sketch, src_aurobindo_reviews | 1914-1950 | Ashram sketch, academic reviews of the biography] He wrote a monthly journal of philosophy through six and a half years of 'uninterrupted' appearance (Ashram sketch), a reviewer counts over 4,600 pages in it (Bapat, citing the biography), and reviewers say he worked on the epic Savitri through much of his adult life and finished it shortly before his death (Ashcraft, Copley). Documented by the Ashram and by reviewers, but every account traces to one biography and the Ashram's own record. SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 70 / 0.52 because the long-effort claims all reach us through the Ashram's own sketch and reviews of a single biography written from the Ashram's archives. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 70 / 0.52 to 66 / 0.46 because the uninterrupted-journal claim is the Ashram own sketch repeated by a reviewer."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aurobindo_venn, src_aurobindo_ashram_sketch, src_aurobindo_reviews | 1890-1914 | university record, Ashram sketch, academic reviews] Cambridge records a King's College scholarship in 1890 and a first-class result in the classical tripos in 1892; the Ashram sketch says he learned Sanskrit and several Indian languages at Baroda to make up for an entirely English education, and a Telegraph reviewer adds that he learned Sanskrit and Bengali without becoming fluent; EnlightenNext describes his yoga diaries as a 'laboratory experiment' pursued with a scientist's dedication. The scholarship record is independent; the language study and yoga practice are from the Ashram and the biography."
+    },
+    "discipline": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aurobindo_ashram_sketch, src_aurobindo_reviews | 1910-1950 | Ashram sketch, academic reviews] After withdrawing to Pondicherry he kept a regular journal of his daily yoga practice (Kim), produced a monthly 64-page philosophical review on schedule for six and a half years (Ashram sketch; the page count is from a reviewer of the biography), and in the 1940s his life had settled into a regular pattern (Bapat). Documented in outline, but the evidence is the Ashram's own and one biography's, and it speaks to routine rather than to effort against resistance. RUBRIC_CORRECTION (lead review, before eligibility): discipline lowered from 68 / 0.5 to 64 / 0.44 because the daily routine is documented only through the Ashram sketch and a biography review."
+    },
+    "deep_focus": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_aurobindo_ashram_sketch, src_aurobindo_reviews | 1910-1950 | Ashram sketch, academic reviews] From 1910 the Ashram sketch says the work needed 'the exclusive concentration of all his energies', and reviewers of the biography report that he spent increasing time alone in his room writing and meditating, apart from his associates (Ashcraft, Kim). The pattern is documented by two kinds of source, but both derive from the same archive."
+    },
+    "creative_originality": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_aurobindo_ashram_sketch, src_aurobindo_reviews | 1914-1950 | Ashram sketch, academic reviews] The Ashram presents Integral Yoga as a synthesis that goes beyond older yogas by aiming to bring spiritual experience into life, and reviewers describe Savitri as an epic of more than 20,000 lines (Ashcraft) and his philosophical works as difficult and obscure thought (Kim); against that, Copley judges the poetry to be in a lachrymose Victorian style with none of the modernist edge, and Sen remarks that his literary style persisted with standards that were then being overturned. Originality is claimed mainly by the Ashram and retrospective admirers. SELF-CALIBRATION (agent): lowered from 68 / 0.50 to 62 / 0.44 because the originality claim rests on devotional and retrospective praise and the reviews include a documented dissent on his poetry."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_aurobindo_ashram_sketch, src_aurobindo_reviews | 1910-1950 | Ashram sketch, academic reviews] The Ashram sketch presents his yoga as departing from most traditional paths, which it says lead to the Spirit and away from life, and the Telegraph reviewer says his spiritual path was 'very much his own' and that it is never clear what that path was; Sen reports that the biographer acknowledges he gave inadequate attention to social and economic problems. The picture is of a self-directed thinker, but the evidence is characterisation by the Ashram and by reviewers of one biography, and no independent test of the thinking is available."
+    }
+  },
+  "externalIdentity": {
+    "wikidataId": "Q192207"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sri-aurobindo-unknown-1916.jpg",
+    "width": 778,
+    "height": 1200,
+    "source": "Photographic plate captioned 'ARABINDA GHOSH' in Lajpat Rai, 'Young India: An Interpretation and a History of the Nationalist Movement from Within' (New York: B. W. Huebsch, 1916), from the Library of Congress copy digitised by the Internet Archive. The photographer and the date of the sitting are not named in the book. The file is a crop of the plate and its caption from the full-page scan (2154 x 3446), downscaled to 778 x 1200 with no upscaling.",
+    "license": "Public domain (book first published in New York in 1916 with a 1916 copyright notice in the name of its publisher, so out of copyright in the United States by age)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Arabinda Ghosh, photographic plate in Lajpat Rai, Young India, New York, B. W. Huebsch, 1916. Internet Archive, Library of Congress copy, public domain",
+    "attributionUrl": "https://archive.org/details/youngindiainterp01lajp",
+    "creator": "Unknown photographer (plate published in Lajpat Rai's book)",
+    "date": "1916",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/youngindiainterp01lajp"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아우로빈도 고시"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / REPLACEMENT USED (a pre-1931 US-published book plate, not the lead's c.1900 photograph). Lead image 'Sri aurobindo.jpg' on Commons (the Wikidata image): source is a page on aurobindo.ru reproducing Heehs's biography, the Commons author is a Commons uploader who scanned it, tagged PD-India and PD-India-URAA, with no photographer, publication or holder: a jurisdiction-only tag, rejected. The later 1950 photographs are covered by the Ashram's copyright claims (preflight note) and were not used. Other Commons files checked from the category list: 'Sri Aurobindo in London' (source sri-aurobindo.co.in, 'PD-old-assumed-expired', Ashram website, not accepted); a 1925 Bengali book page from the British Library Endangered Archives Programme (British Library terms not verified, not used). REPLACEMENT: the Commons file 'Young India; an interpretation and a history of the nationalist movement from within (1916) (14802200463).jpg' (a crop of the Internet Archive Book Images Flickr set) led to the book itself, Internet Archive item youngindiainterp01lajp (New York, B. W. Huebsch, 1916, Library of Congress copy, 312 images; the item's possible-copyright-status says 'The Library of Congress is unaware of any copyright restrictions'; the basis used is the 1916 US publication date with the book's own '1916 copyright B. W. Huebsch' line, public domain in the US by age; the LoC statement alone was not treated as a basis). HOLDER RECORD CHECKED: Internet Archive metadata and the book's OCR text (title page, copyright page, list of illustrations 'Arabinda Ghosh' facing the chapter, and the chapter text on Arabinda Ghosh who took first-class honours in the classics at Cambridge); the Library of Congress item page is bot-blocked and was not opened, so the LoC record itself was not checked. The plate is on leaf n206 of the scan (2154 x 3446); it was cropped with its caption and downscaled to 778 x 1200 (no upscaling). IMAGE CHECK (looked at the file): a half-length photograph of a moustached man in a draped shawl seated, three-quarter view, with the printed caption 'ARABINDA GHOSH' under the plate; the text of the book matches the subject (classical education in England, first-class honours at Cambridge), so identity is supported by a printed caption and the book's own text, with no contradiction. Photographer and sitting date are unknown. Kind is likeness (a photograph of the person, captioned). PREFLIGHT (identity/QID/region): Wikidata Q192207 verified live (label 'Aurobindo Ghosh', description 'Indian Bengali philosopher, yogi, maharishi, poet and nationalist (1872-1950)', 1872-08-15 to 1950-12-05, Korean label present); no production collision (prod66.json, 762 people) and no existing candidate file or QID collision. Region south_asia (India, Bengal and Pondicherry), nationality IN, era 20th_century (his active career 1893-1950; precedents Russell, Montessori). Korean name: Korean Wikidata label (Q192207). ZERO POLITICS: scored as philosopher, poet, writer and yoga thinker only; his 1902-1910 nationalist and revolutionary activity, the Alipore arrest and trials, his disagreements with Gandhi and others, his later comments on independence and partition, and the Surat Congress are context only, appear at most as one clause in an achievement card, and are scored in no row; the Ashram's account of his political chapter is not used; his marriage, his relationship with the Mother and his health are not scored; yogic claims (supramental force, divinity) are not scored as facts. ATTRIBUTION: attributable (lead) / CONFIRMED for writing and scholarship, with the caveat that the detail of his inner practice is largely his own report. CANONICAL SIGNIFICANCE SOURCE: Sri Aurobindo Ashram Trust, 'Life Sketch' (src_aurobindo_ashram_sketch), read together with the academic reviews of Heehs's biography. SOURCES READ: Ashram life sketch (full), the compiled reviews of The Lives of Sri Aurobindo (full), Raman Reddy's counter-review (opening article), Cambridge Venn record (full), Lajpat Rai 1916 (plate page, caption, text on Arabinda Ghosh), Cambridge Religious Studies article first page (abstract only, not cited). PERSPECTIVES: the Ashram (devotional), university reviewers of the biography (Kim, Puligandla, Ashcraft, Sen, Copley, Bapat), a partisan Ashram archivist (counter-voice), a university alumni record. BROAD FLAG FOR THE LEAD: almost all behavioural evidence rests on one underlying source family (the Ashram's own record and Heehs's biography written from its archives, seen through its reviewers); I capped confidence at 0.55 for every row and scored only seven rows. NOT OPENED: Heehs, The Lives of Sri Aurobindo itself (Columbia UP, 2008) and Sri Aurobindo: A Brief Biography, Purani's Life of Sri Aurobindo, Nirodbaran's memoir, the Complete Works (primary), Record of Yoga, McDermott and the Cambridge Religious Studies article (full text), Britannica (HTTP 403). No Korean, Bengali or Hindi sources were used. SELF-CALIBRATION (agent): top-risk rows reviewed: persistence (72/0.58 lowered to 70/0.52: all long-effort claims trace to the Ashram sketch and reviews of one biography), creative_originality (68/0.50 lowered to 62/0.44: originality is asserted by devotional and retrospective praise and Copley dissents on the poetry), cross_domain_range (kept: the span of works is listed by the Ashram and confirmed by independent reviewers), mastery_orientation (kept: the Cambridge record is independent). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission (the political career is excluded by the zero-politics rule and appears only as a context clause), identity, significance-over-novelty and side-project; nothing corrected. HANDBACK66: {\"slug\":\"sri-aurobindo\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"RISKY (alt-dependent)\",\"holder_record_at_preflight\":\"NOT VERIFIED: c.1900 photograph from aurobindo.ru; the Ashram claims copyright in many later photographs\",\"holder_record_checked_by_you\":\"Internet Archive metadata and OCR for item youngindiainterp01lajp (New York: B. W. Huebsch, 1916, Library of Congress copy; possible-copyright-status 'LoC unaware of any copyright restrictions'; copyright page '1916 B. W. Huebsch'); the Library of Congress item page itself is bot-blocked and was not opened. Lead image's Commons page checked: aurobindo.ru source, uploader scan, PD-India tags only.\",\"holder_contradiction_found\":false,\"initial_lead\":\"c.1900 photograph (Heehs article) Commons Sri_aurobindo.jpg\",\"final_portrait_source\":\"Lajpat Rai, Young India (New York: B. W. Huebsch, 1916), plate 'ARABINDA GHOSH', Internet Archive item youngindiainterp01lajp (https://archive.org/details/youngindiainterp01lajp), leaf n206 cropped and downscaled to 778x1200\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":\"The preflight found no alternative, but the Commons category of photographs of him contained a crop from the Internet Archive Book Images set of a 1916 New York book; opening the book itself gave a captioned plate with a US publication date and copyright page, a basis the c.1900 PD-India-tagged lead lacked.\",\"rows_initially_scored\":7,\"self_calibrated_rows\":[{\"attribute\":\"persistence\",\"old_score\":72,\"old_confidence\":0.58,\"new_score\":70,\"new_confidence\":0.52,\"reason\":\"Long-effort claims trace to the Ashram's own sketch and reviews of a single biography written from its archives\"},{\"attribute\":\"creative_originality\",\"old_score\":68,\"old_confidence\":0.5,\"new_score\":62,\"new_confidence\":0.44,\"reason\":\"Originality asserted by devotional and retrospective praise; a reviewer dissents on his poetry\"}],\"reviewed_kept\":[\"cross_domain_range\",\"mastery_orientation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7,\"image_inscription_check\":\"Printed caption under the plate reads 'ARABINDA GHOSH'; the book's text on Arabinda Ghosh (first-class education in England, first-class honours in classics at Cambridge) matches the subject\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 70 / 0.55 to 66 / 0.5 because the list of works comes from the Ashram sketch and reviews of an admiring biography. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 70 / 0.52 to 66 / 0.46 because the uninterrupted-journal claim is the Ashram own sketch repeated by a reviewer. RUBRIC_CORRECTION (lead review, before eligibility): discipline lowered from 68 / 0.5 to 64 / 0.44 because the daily routine is documented only through the Ashram sketch and a biography review."
+  }
+}

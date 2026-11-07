@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kamerlingh-onnes",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Heike Kamerlingh Onnes",
+    "aliases": [
+      "H. Kamerlingh Onnes",
+      "Kamerlingh Onnes",
+      "Heike Kamerlingh-Onnes"
+    ],
+    "wikidataId": "Q62891",
+    "birthYear": 1853,
+    "deathYear": 1926,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NL"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "systematic_thinker",
+      "founder"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_onnes_wikidata",
+      "kind": "wikidata",
+      "title": "Heike Kamerlingh Onnes (Q62891), verified live via the Wikidata API (2026-11-06): label 'Heike Kamerlingh Onnes', description 'Dutch physicist, Nobel prize winner (1853-1926)', born 21 September 1853, died 21 February 1926, citizen of the Netherlands, occupations include physicist. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q62891"
+    },
+    {
+      "id": "src_onnes_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography, 'Kamerlingh Onnes, Heike' (entry read in full via Encyclopedia.com). CANONICAL SIGNIFICANCE SOURCE: professor of experimental physics at Leiden for forty-two years from 1882; inaugural address of 1882 and the motto 'Door meten tot weten'; aimed to give experimental support to van der Waals's law of corresponding states; cascade apparatus for liquid air and oxygen in 1892, hydrogen liquefier in February 1906, helium first liquefied on 10 July 1908; discovered in 1911 that the resistance of very pure mercury drops discontinuously to zero and named the effect superconductivity; remained 'absolute monarch' of his field until retiring in 1923. Scholarly and sober: records that his first expectations about resistance were wrong, that his virial-coefficient programme did not give a better law of corresponding states, and that a 1911 density anomaly in liquid helium was attributed to possible methodological faults and not published below 2.2 K.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/heike-kamerlingh-onnes"
+    },
+    {
+      "id": "src_onnes_ptoday",
+      "kind": "press",
+      "title": "Dirk van Delft, 'Little cup of helium, big science', Physics Today 61(3), March 2008 (article read in full, seven pages). The director of the Boerhaave Museum describes the 10 July 1908 liquefaction hour by hour, the 1895-98 city-council shutdown of his hydrogen work, his insistence on stringent standards for the 1906 hydrogen liquefier, the helium gas purification, the school of instrument makers and the 'cold factory' organisation, the 1908 'solid helium' announcement withdrawn six weeks later, and his helium supply chain (Ramsay, a brother's monazite sand, the Welsbach firm, the US Bureau of Mines). Written by a museum historian who is admiring and draws on Onnes's archive; the strongest behavioural source, though it is one author's interpretation.",
+      "url": "https://physicstoday.aip.org/features/little-cup-of-helium-big-science"
+    },
+    {
+      "id": "src_onnes_sciam",
+      "kind": "press",
+      "title": "Rudolf de Bruyn Ouboter, 'Heike Kamerlingh Onnes's Discovery of Superconductivity', Scientific American, March 1997 (article read in full). A Leiden low-temperature professor describes the cascade, the instrument-makers' society, the 1896 council shutdown, the helium liquefaction, and the 1911 mercury experiments in which the team repeated the measurement with a W-shaped tube to rule out short circuits, plus the later persistent-current experiment and his disappointment that magnetic fields destroyed superconductivity. Flags that the anecdote about a student falling asleep is third-hand. Written from inside the Leiden laboratory tradition.",
+      "url": "https://physics.umd.edu/courses/Phys798C/AnlageSpring24/Sci_Am_276_98_1997_Onnes_Discovery_of_SC.pdf"
+    },
+    {
+      "id": "src_onnes_esnf",
+      "kind": "biography",
+      "title": "Dirk van Delft, 'Heike Kamerlingh Onnes and the Road to Liquid Helium', IEEE/CSC and ESAS European Superconductivity News Forum no. 16, April 2011 (conference paper read in full). Scientific biography from the Leiden centennial symposium: formative years under Bunsen and Kirchhoff, no articles published in the first ten years at Leiden while building the cryogenic installation, the 1901 school of instrument makers, the three-year licence struggle, and Dewar's remark that assistants are a waste. Same author as the Physics Today article, so not an independent perspective; used to corroborate and add dates.",
+      "url": "https://snf.ieeecsc.org/files/ieeecsc/2023-07/RN19.pdf"
+    },
+    {
+      "id": "src_onnes_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Heike Kamerlingh Onnes' (page read in full). Orientation on the Nobel Prize in Physics in 1913 for low-temperature work and the production of liquid helium, superconductivity, and the founding in 1894 of the cryogenic laboratory that bears his name; notes that his student Keesom, not he, solidified helium in 1926.",
+      "url": "https://www.britannica.com/biography/Heike-Kamerlingh-Onnes"
+    },
+    {
+      "id": "src_onnes_maglab",
+      "kind": "institution",
+      "title": "National High Magnetic Field Laboratory, Magnet Academy, 'Heike Kamerlingh Onnes' (page read in a summarised fetch). Biography of his education, the reorganisation and re-equipping of the Leiden laboratory, hydrogen in 1906, helium in 1908, superconductivity in 1911, the Nobel Prize and his role in the International Institute of Refrigeration. Short, admiring institutional page; used only to corroborate dates.",
+      "url": "https://nationalmaglab.org/magnet-academy/history-of-electricity-magnetism/pioneers/heike-kamerlingh-onnes/"
+    },
+    {
+      "id": "src_onnes_lindahall",
+      "kind": "institution",
+      "title": "Linda Hall Library, Scientist of the Day, 'Heike Kamerlingh Onnes' (21 September 2018; read in full, short post). Frames him as the contemporary and competitor of James Dewar, notes that he reached liquid oxygen and liquid hydrogen later than others and then produced liquid helium in 1908 and found superconductivity in mercury. Used for the competitor framing only.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/heike-kamerlingh-onnes/"
+    },
+    {
+      "id": "src_onnes_leiden",
+      "kind": "archive",
+      "title": "Leiden University Libraries, Icones Leidenses, 'Portret van Heike Kamerlingh Onnes, hoogleraar Proefondervindelijke natuurkunde en meteorologie te Leiden' (shelfmark Icones 311; oil painting by Menso Kamerlingh Onnes, 1909); record read through the holder's IIIF manifest, rights 'public domain' with a Public Domain Mark 1.0 link. Used for the portrait only, not for any trait row.",
+      "url": "https://hdl.handle.net/1887.1/item:1582047"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_onnes_ptoday, src_onnes_esnf, src_onnes_sciam, src_onnes_dsb | 1882-1911 | magazine articles + conference paper + biographical dictionary] Van Delft records that he published no article in his first ten years at Leiden while building the cryogenic installation, that a three-year licence struggle with the city council stopped his hydrogen work in 1895-98, and that after losing the hydrogen race to Dewar he still spent until 1906 building a liquefier that met his own standards before turning to helium; Ouboter independently records the two-year shutdown and the repeated 1911 mercury trials; the Dictionary of Scientific Biography records an enormous capacity for work despite very delicate health. The pattern runs over three decades and is corroborated by the Dictionary, but the retelling is mostly by Leiden-affiliated authors and one author supplies both detailed accounts. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 82 / 0.68 to 76 / 0.58 because nearly all behavioural detail comes from one historian (van Delft, two papers count as one perspective)."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_onnes_dsb, src_onnes_ptoday, src_onnes_sciam | 1882-1911 | biographical dictionary + magazine articles] The Dictionary records his 1882 inaugural address making quantitative measurement central to experimental physics (the motto 'Door meten tot weten'), a programme to test van der Waals's law of corresponding states, and later empirical virial-coefficient equations; van Delft documents that he used the law of corresponding states to estimate how much hydrogen and time the helium run needed, measured helium isotherms and the inversion temperature before attempting liquefaction, and that the margin was close to the limit; Ouboter documents his choice of repeatedly distilled mercury to reduce impurity effects. The Dictionary also notes the virial programme did not yield a better law, so the score is high but not extreme. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 80 / 0.66 to 74 / 0.58 because one historian and the DSB, both admiring."
+    },
+    "planning_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_onnes_esnf, src_onnes_ptoday, src_onnes_dsb | 1882-1908 | conference paper + magazine article + biographical dictionary] Van Delft documents that on arrival in 1882 he reorganised the Leiden laboratory from a teaching institute into a research laboratory to serve a long programme of testing van der Waals's theory, built the oxygen cascade first and then a hydrogen liquefier as stepping stones to helium, set up a school of instrument makers in 1901 to supply trained technicians, and arranged helium gas supplies years ahead; the Dictionary describes the sequence of apparatus (1892 cascade, 1906 hydrogen, 1908 helium). The sequence is well dated; the interpretation that it was one planned programme comes mainly from van Delft. RUBRIC_CORRECTION (lead review, before eligibility): planning_orientation lowered from 78 / 0.64 to 72 / 0.56 because the laboratory reorganisation is documented by one historian."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_onnes_ptoday, src_onnes_sciam, src_onnes_dsb | 1908-1914 | magazine articles + biographical dictionary] Van Delft documents the 28 February 1908 single-expansion trial of helium in a glass tube ('no harm in trying') that gave a snowlike mass and the later full liquefier run; Ouboter documents that the 1911 mercury measurements were repeated, the U-tube replaced by a W-shaped tube with four segments so that short circuits could be excluded, and that by 1914 he demonstrated a persistent current in a lead coil; the Dictionary records the 1911 discovery that resistance dropped discontinuously to zero in very pure mercury. Two of the episodes (the sleeping student and the Holst story) are third-hand and are not used. One trial ended in a retracted claim, and the 1911 result was found while testing a predicted trend, so confidence is not extreme. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.66 to 72 / 0.58 because the helium trial is told by one historian."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_onnes_ptoday, src_onnes_sciam, src_onnes_esnf | 1905-1919 | magazine articles + conference paper] Van Delft documents how he obtained scarce helium: a first supply from Ramsay after asking too much of Dewar's generosity, tens of sacks of monazite sand arranged through his brother in 1908, eight cylinders from the Welsbach firm in 1911 in exchange for thorium-bearing waste sand, and in 1919 a telegram to an American admiral that brought helium from the US Bureau of Mines after the war; Ouboter confirms the brother's role and the 300 litres extracted from the sand. The multiple independent channels are well documented, though the same two authors tell most of it. RUBRIC_CORRECTION (lead review, before eligibility): resourcefulness lowered from 76 / 0.64 to 70 / 0.56 because the helium-supply account rests on one historian."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_onnes_ptoday, src_onnes_dsb, src_onnes_esnf | 1882-1923 | magazine article + biographical dictionary + conference paper] Van Delft describes a 'cold factory' with a director setting policy and exercising tight control over an administrative supervisor, research team, manager, instrument makers, glassblowers, technicians and trainees, and says he ruled with a firm hand while winning loyalty; the Dictionary says he remained 'absolute monarch' of the low-temperature field at Leiden until 1923; the 1901 school of instrument makers is his own creation. The characterisation of his management style is interpretive and mostly from one admiring museum historian, and there is no account from a subordinate, so it is a strong inference. RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 76 / 0.62 to 70 / 0.54 because the cold-factory management style is one historian's interpretation, with no technician or official account read."
+    },
+    "persuasiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_onnes_esnf, src_onnes_ptoday, src_onnes_sciam | 1882-1898 | conference paper + magazine articles] Van Delft states that he persuaded the authorities to invest large sums in the physics laboratory, repeatedly warned that his achievements were in danger until officials supplied space and resources, and secured the permit that ended the shutdown partly through letters of support from Dewar and Olszewski; Ouboter confirms that even van der Waals on the commission and a letter from Dewar did not stop the first two-year closure. The documented outcomes (funds, permit) fit the trait, but the account of how he did it is the museum historian's interpretation and no official's view was read. SELF-CALIBRATION (agent): lowered from 72 / 0.58 because the 'manipulating the powers that be' account rests on one author's interpretation and no counterpart source was read."
+    },
+    "perfectionism": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_onnes_ptoday, src_onnes_esnf | 1884-1908 | magazine article + conference paper] Van Delft documents that industrial pumps were not good enough, so he and his technicians dismantled and rebuilt the Cailletet compressor so that the glycerin lubricant could not contaminate the helium; that the hydrogen liquefier was not ready until 1906 'largely because' he held it to stringent standards after Dewar had already shown a small amount of liquid hydrogen in 1898; and that four chemists spent months purifying the helium. The standards helped the 1908 success but cost years, so impact is dual-edged. The characterisation rests on two texts by the same author. RUBRIC_CORRECTION (lead review, before eligibility): perfectionism lowered from 70 / 0.58 to 66 / 0.5 because two sources, one of them the same historian."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_onnes_dsb, src_onnes_ptoday | 1902-1911 | biographical dictionary + magazine article] The Dictionary records that he first accepted Kelvin's expectation that resistance would become infinite at low temperature, then expected it to fall to zero when this contradicted his measurements, and that the discontinuous drop in mercury surprised him; van Delft documents that he announced 'solid helium' on 29 February 1908 and the claim was withdrawn six weeks later when hydrogen was found to be the cause. The Dictionary also records that in 1911 he put a density anomaly of liquid helium at about 2.2 K down to possible methodological faults and published only the values above it, which his successor later revisited. The evidence shows both quick revision and one unexplored anomaly, so the score is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "헤이커 카메를링 오너스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kamerlingh-onnes-menso-kamerlingh-onnes-1909.jpg",
+    "width": 910,
+    "height": 1098,
+    "source": "Oil portrait of Heike Kamerlingh Onnes by his brother Menso Kamerlingh Onnes (1860-1925), signed and dated 1909, in the Leiden University portrait collection (Icones Leidenses, shelfmark Icones 311; given to the university in 1926 by Mrs Kamerlingh Onnes-Bijleveld). The holder's record, read through its IIIF manifest, states the rights status as public domain with a Public Domain Mark 1.0 link; the painter died in 1925. The file used is the holder's own 1,024 x 1,273 pixel digital image, cropped once to the painted canvas to remove the black frame (910 x 1,098 pixels); nothing was upscaled. The painted frame carries the lettering 'HEIKE KAMERLINGH ONNES. GRONINGENSIS.' and 'NATUS 21 SEPT. 1853 ... PHYS. EXPER. PROF. ORD. AC. L.B. 11 NOV. 1882 ... OBIIT LEIDAE 21 FEBR. 1926.', which match the sitter. A portrait painted in his lifetime by a close relative, signed and dated; the sitting itself is not described in the record.",
+    "license": "Public domain (painter died 1925; Leiden University Libraries rights status: public domain, Public Domain Mark 1.0)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Menso Kamerlingh Onnes, portrait of Heike Kamerlingh Onnes, 1909, oil on canvas, Leiden University Libraries, Icones Leidenses (Icones 311), public domain",
+    "attributionUrl": "https://hdl.handle.net/1887.1/item:1582047",
+    "creator": "Menso Kamerlingh Onnes (1860-1925)",
+    "date": "1909",
+    "kind": "likeness",
+    "sourcePageUrl": "https://hdl.handle.net/1887.1/item:1582047"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / SUCCEEDED with a REPLACEMENT image: the lead's Jonker reproduction (item 2553512) was not needed; instead the Leiden Icones portrait by Menso Kamerlingh Onnes (1909) was found through the Commons category and the holder's IIIF manifest was readable although its viewer pages are bot-walled; the holder says public domain (Public Domain Mark 1.0) and the painter died in 1925, so the basis is age plus an explicit holder statement. Museum Boerhaave 'freely available for publication' photograph was not used. PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q62891 label 'Heike Kamerlingh Onnes', description 'Dutch physicist, Nobel prize winner (1853-1926)', born 1853-09-21, died 1926-02-21, citizenship Netherlands, Korean label 헤이커 카메를링 오너스; no production (prod66.json) or candidate slug/QID collision. REGION western_europe (precedent: Dutch/Germans/British in western_europe). ERA 20th_century (same as Lorentz, born the same year; Nobel 1913, died 1926). KOREAN NAME 헤이커 카메를링 오너스 is the Wikidata Korean label. ZERO POLITICS: not applicable; only physics, laboratory organisation and science instruction scored. VOCABULARY: occupation physicist; field physics; impact domains scientific, educational; tags nobel_laureate, systematic_thinker, founder; archetype scientific_explorer (all labelled in EN and KO). ATTRIBUTION CONFIRMED (dated experiments, reports to the Academy, documented laboratory records). CANONICAL SIGNIFICANCE SOURCE: Complete Dictionary of Scientific Biography entry 'Kamerlingh Onnes, Heike' (Encyclopedia.com copy, read in full). READ (substantively): van Delft in Physics Today 2008 (full), Ouboter in Scientific American 1997 (full), van Delft's 2011 conference paper (full; same author as Physics Today, not counted as independent), Britannica (full page), Linda Hall post (full), National MagLab page (summarised fetch only). Perspectives: scholarly biographical dictionary with critical remarks (wrong first expectations, virial programme did not give a better law, 2.2 K anomaly set aside), a museum historian who is admiring but draws on archive letters (includes Dewar's own remark that assistants are a waste), a Leiden professor's account of the 1911 experiments with a flag about third-hand anecdotes, institutional pages. COUNTER-VOICES: Dewar's quoted letter and the rivalry (via van Delft only), the Dictionary's critical notes, Ouboter's caveat. No account by a Leiden technician, rival or official was read, which is why management and persuasion rows are strong inference with modest confidence. NOT OPENED: Nobel Foundation biography and lecture (HTTP 403, not circumvented), Science Museum Group Journal and Leiden University news page (bot-walled), van Delft's book Freezing Physics and de Nobel's Physics Today 1996 article (not accessible), Wikipedia (orientation only). The Holst and sleeping-student anecdote and the funeral story are third-hand (flagged by Ouboter) and not used; family and private-life episodes (wife, brother's role beyond helium supply, health) are not scored. RESIDUAL CAVEAT: the Commons page of the same painting shows CC BY 4.0 from the Leiden source while the holder manifest shows public domain; either way reuse is permitted and attribution is given. SELF-CALIBRATION: reviewed persuasiveness (lowered), persistence and analytical_rigor (kept: independently corroborated by the Dictionary and Ouboter). HANDBACK66: {\"slug\": \"kamerlingh-onnes\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Leiden University Libraries item (hdl 1887.1/item:2553512) returned 403; the Museum Boerhaave image is tagged 'copyrighted free use', not PD\", \"holder_record_checked_by_you\": \"Opened Leiden University Libraries Icones Leidenses item 1582047 (hdl.handle.net/1887.1/item:1582047) through the holder's IIIF manifest (the viewer pages are bot-walled): Menso Kamerlingh Onnes 1860-1925, oil on canvas, Icones 311, given 1926 by Mrs Kamerlingh Onnes-Bijleveld, 1024x1273 digital image, Rights: 'Full access' and 'The rights status of this resource is public domain' linking Public Domain Mark 1.0; manifest rights field = publicdomain/mark/1.0. Commons file page for the same item lists CC BY 4.0, but the holder statement (PD) is the stricter-safe reading and the painter died in 1925.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Leiden University Libraries reproduction of a portrait (Hendrik Jonker)\", \"final_portrait_source\": \"Leiden University Libraries, Icones Leidenses Icones 311, oil portrait by Menso Kamerlingh Onnes, 1909, https://hdl.handle.net/1887.1/item:1582047 (IIIF image from the holder, cropped to the canvas, 910x1098)\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 9, \"self_calibrated_rows\": [{\"attribute\": \"persuasiveness\", \"old_score\": 72, \"old_confidence\": 0.58, \"new_score\": 68, \"new_confidence\": 0.52, \"reason\": \"The 'manipulating the powers that be' account rests on one author's interpretation and no counterpart source was read\"}], \"reviewed_kept\": [\"persistence\", \"analytical_rigor\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 9, \"image_inscription_check\": \"Painted lettering on the frame: top 'HEIKE KAMERLINGH ONNES. GRONINGENSIS.'; bottom 'NATUS 21 SEPT. 1853. PHYS. EXPER. PROF. ORD. AC. L.B. 11 NOV. 1882. OBIIT LEIDAE 21 FEBR. 1926.'; signature at upper right 'M. Kamerlingh Onnes 1909'\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 82 / 0.68 to 76 / 0.58 because nearly all behavioural detail comes from one historian (van Delft, two papers count as one perspective). RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 80 / 0.66 to 74 / 0.58 because one historian and the DSB, both admiring. RUBRIC_CORRECTION (lead review, before eligibility): planning_orientation lowered from 78 / 0.64 to 72 / 0.56 because the laboratory reorganisation is documented by one historian. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.66 to 72 / 0.58 because the helium trial is told by one historian. RUBRIC_CORRECTION (lead review, before eligibility): resourcefulness lowered from 76 / 0.64 to 70 / 0.56 because the helium-supply account rests on one historian. RUBRIC_CORRECTION (lead review, before eligibility): leadership_drive lowered from 76 / 0.62 to 70 / 0.54 because the cold-factory management style is one historian's interpretation, with no technician or official account read. RUBRIC_CORRECTION (lead review, before eligibility): perfectionism lowered from 70 / 0.58 to 66 / 0.5 because two sources, one of them the same historian."
+  }
+}

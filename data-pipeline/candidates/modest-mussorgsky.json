@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "modest-mussorgsky",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Modest Mussorgsky",
+    "aliases": [
+      "Modest Petrovich Mussorgsky",
+      "Modest Musorgsky",
+      "Modest Moussorgsky",
+      "Модест Мусоргский"
+    ],
+    "wikidataId": "Q132682",
+    "birthYear": 1839,
+    "deathYear": 1881,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mussorgsky_wikidata",
+      "kind": "wikidata",
+      "title": "Modest Petrovich Mussorgsky (Q132682), verified live via the Wikidata API (2026-11-06): label 'Modest Petrovich Mussorgsky', description 'Russian composer (1839-1881)', birth recorded as 9 March 1839 (Gregorian) with older-style and 1835 variants, death 16 March 1881 (Julian) / 28 March (Gregorian), citizen of the Russian Empire, Korean label 모데스트 무소륵스키. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q132682"
+    },
+    {
+      "id": "src_mussorgsky_encl",
+      "kind": "biography",
+      "title": "'Modest Petrovich Mussorgsky', Encyclopedia of World Biography (Gale; copy on Encyclopedia.com; read in full). CANONICAL SIGNIFICANCE SOURCE: calls him generally acclaimed the finest of the Russian composers known as the Mighty Five, whose operas, above all Boris Godunov (begun 1868, first version finished 1869, then redrawn in 1871-72), explored human emotions 'in a new and forthright manner' and mark a crossroads in the history of opera; lists Khovanshchina (begun 1872, unfinished), Sorochinsk Fair (finished by Liadov and Karatygin), The Marriage (completed by Cherepnin in 1909), Pictures at an Exhibition (1874, orchestrated by Ravel in 1922) and Songs and Dances of Death (1875); says he often started projects with enthusiasm and bogged down in self-doubt, denied belonging creatively to any group, and that the doctrinaire Rimsky-Korsakov complained of the 'absurdity, ugliness, and illogic' of much of his music. Health and drinking remarks in the entry are not used.",
+      "url": "https://encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/modest-petrovich-mussorgsky"
+    },
+    {
+      "id": "src_mussorgsky_montagu",
+      "kind": "biography",
+      "title": "M. Montagu-Nathan, Moussorgsky (London: Constable and Company, 1916; Masters of Russian Music series; Project Gutenberg eBook 77855, read for the biographical chapters, the Boris, Pictures and Night on the Bare Mountain passages and the frontispiece caption). Early English biography by a historian of Russian music, partly admiring and partly condescending (calls most of his piano music of historical interest only): records that Boris was begun on 6 September 1868 and completed within a year, that the Imperial Operatic Committee rejected it in 1870 for, among other things, the lack of a female role and the novelty of the music, that he reconstructed it through 1871 guided by Stasov, Hartmann, Nikolsky and Rimsky-Korsakov (adding the Polish act and moving the Kromy scene), the shared 'Mlada' project of 1872, his Hartmann suite written after a memorial exhibition in spring 1874 and the posthumous editing of his works by Rimsky-Korsakov. The Gutenberg edition is the PD source of the portrait plate captioned 'MOUSSORGSKY / From a portrait by Repin'.",
+      "url": "https://www.gutenberg.org/ebooks/77855"
+    },
+    {
+      "id": "src_mussorgsky_rimsky",
+      "kind": "biography",
+      "title": "N. A. Rimsky-Korsakov, My Musical Life (English translation by Judah A. Joffe, ed. Carl Van Vechten, New York: Knopf, 1923; IMSLP scan with poor OCR, read in the passages on Mussorgsky: the early 1860s circle, the 1871-72 shared rooms, his songs, his refusal of harmony and counterpoint, the changes after Boris). Memoir of a close colleague who later edited his scores and a self-interested, sometimes hostile witness: says he was a fine pianist and singer but knew little of orchestration, that Balakirev and Cui treated him as a lesser light, that the circle first ridiculed and then declared 'needless' the sciences of harmony and counterpoint, that he 'went through life without them' regarding his ignorance as a virtue, that his best 'ideal style' passages in Boris came from his unfinished Salammbo, and that after Boris he grew haughtier and more obscure. First-person account of another composer, so used for observed behaviour only, with the interpretations treated as his opinion.",
+      "url": "https://s9.imslp.org/files/imglnks/usimg/7/72/IMSLP721391-PMLP52433-My_Musical_Life_eng_edt.pdf"
+    },
+    {
+      "id": "src_mussorgsky_gresham",
+      "kind": "institution",
+      "title": "Marina Frolova-Walker, 'Musorgsky's Pictures at an Exhibition (1874)', lecture notes, Gresham College (24 September 2020; PDF read in full, 7 pages). Scholarly lecture by a Cambridge professor: calls the suite a conceptual work with no precedent in his own or other Russian piano music, written in a burst after Stasov's February 1874 memorial exhibition of Viktor Hartmann, bound up with his admiration for Liszt (who had praised his song cycle The Nursery) and his refusal of a Stasov-funded trip to meet him; describes his realist method of choosing an unusual character and giving it distinctive speech patterns in music; presents Taruskin's reading of the 'Two Jews' movement as caricature and her own alternative (a counter-voice) and notes that private letters contain antisemitic remarks typical of the time, which are context and are not scored here.",
+      "url": "https://www.gresham.ac.uk/sites/default/files/2020-09-24_Frolova-Walker_Musorgsky-T.pdf"
+    },
+    {
+      "id": "src_mussorgsky_brit",
+      "kind": "biography",
+      "title": "'Pictures at an Exhibition', Encyclopaedia Britannica (article read in full, short). Says the ten-movement work was composed in 1874 for piano as a memorial to Viktor Hartmann after a retrospective exhibition of Hartmann's drawings, became better known in Ravel's 1922 orchestration, was tidied up for printing in 1886 by Rimsky-Korsakov, and that the recurring Promenade represents the composer himself; its caption names the Tretyakov painting 'Modest Mussorgsky, portrait by Ilya Repin, 1881'.",
+      "url": "https://www.britannica.com/print/article/459632"
+    },
+    {
+      "id": "src_mussorgsky_bso",
+      "kind": "institution",
+      "title": "Boston Symphony Orchestra, program note 'Pictures at an Exhibition' (page read in full). Orchestra program note giving Mussorgsky's dates, the June 1874 composition of the piano suite, its 1886 publication by Bessel in a version 'heavily edited by Rimsky-Korsakov', the obscurity of the piece until Ravel's 1922 orchestration for Koussevitzky and the earlier orchestrations; its birth and death dates are given in the Gregorian calendar and differ from Wikidata's primary values.",
+      "url": "https://www.bso.org/works/pictures-at-an-exhibition"
+    },
+    {
+      "id": "src_mussorgsky_roh",
+      "kind": "institution",
+      "title": "Royal Ballet and Opera Collections, 'Boris Godunov [1896]' work record (page read, short). Institutional catalogue note: the original Boris Godunov of 1868-69 had seven scenes in four acts; a revised nine-scene version (six from the original, three new) was the first performed, in 1874; Rimsky-Korsakov re-orchestrated it in 1896 and again in 1906-08 and his 1908 version was the standard one for many years; the original 1869 work was first performed in 1928.",
+      "url": "https://www.rohcollections.org.uk/work.aspx?work=1435"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mussorgsky_encl, src_mussorgsky_rimsky, src_mussorgsky_gresham, src_mussorgsky_roh | 1868-1875 | encyclopedia, colleague's memoir, scholarly lecture, opera-house catalogue] The Encyclopedia says his operas treated human emotions 'in a new and forthright manner' and that Rimsky-Korsakov, who complained of 'absurdity, ugliness, and illogic', saw his departures from convention as faults; Rimsky's own memoir independently records his songs such as Kalistrat as a forerunner of the realistic vein he made his own; Frolova-Walker says Pictures at an Exhibition has no precedent in his own or other Russian piano music, and describes his method of building songs from distinctive speech patterns; the opera house's catalogue records that Boris was later heard in Rimsky-Korsakov's smoothed version for decades before the original was staged in 1928. The novelty is documented by a hostile contemporary and by modern scholars alike; the praise of its value is retrospective, so the score stays below 80. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.66 to 74 / 0.6 because the praise is encyclopedic and retrospective, and the closest critic (Rimsky-Korsakov) edited his work."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mussorgsky_rimsky, src_mussorgsky_encl, src_mussorgsky_montagu | 1860s-1870s | colleague's memoir, encyclopedia, early biography] Rimsky-Korsakov reports that Balakirev's circle first ridiculed harmony and counterpoint and then declared them beyond him, and that he 'went through life without them' while treating the technique of others as routine; the Encyclopedia says he often denied that he belonged creatively to any group, and Montagu-Nathan notes that he demurred when the circle objected to Boris lacking a female role before he accepted changes after the committee's rejection. The behaviour (holding to his own approach against the circle's advice) is documented; the motive is Rimsky's interpretation and the result cut both ways (technical lapses that Rimsky and the Encyclopedia say made his scores vulnerable). SELF-CALIBRATION (agent): The main behavioural witness, his colleague Rimsky-Korsakov, gives the motive for his refusal of formal technique himself, so the independence is more inferential than the first draft implied."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mussorgsky_montagu, src_mussorgsky_gresham, src_mussorgsky_encl | 1868-1875 | early biography, scholarly lecture, encyclopedia] Montagu-Nathan calls the Hartmann suite a 'particularly daring experiment' by a composer who had not written piano music of that kind, Frolova-Walker describes it as a conceptual cycle that straddles Romantic and Realist aesthetics and a manner of setting unusual characters with distinctive speech patterns, and the Encyclopedia describes the 1869 Boris as an exploration of crowd and individual in a new way. These are descriptions of trying new forms in his work; no source records him testing or discarding alternatives in a systematic way, so the row rests on the visible results."
+    },
+    "persistence": {
+      "score": 54,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mussorgsky_montagu, src_mussorgsky_roh, src_mussorgsky_encl | 1868-1881 | early biography, opera-house catalogue, encyclopedia] After the Imperial Operatic Committee rejected the first Boris in 1870 he devoted 1871 to reconstructing it (the Polish act, the Kromy scene moved to the end, the clock and parakeet episodes) and the revised version reached the stage in 1874 (Montagu-Nathan, Royal Ballet and Opera catalogue); against that, the Encyclopedia says he often began a project with enthusiasm and then bogged down in self-doubt and left Salammbo, The Marriage, Khovanshchina and Sorochinsk Fair unfinished. Both halves are documented, so the score is mid-range and the impact dual-edged."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.48,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mussorgsky_montagu, src_mussorgsky_rimsky, src_mussorgsky_gresham | 1862-1874 | early biography, colleague's memoir, scholarly lecture] Montagu-Nathan and Rimsky-Korsakov both record that he shared rooms with Rimsky-Korsakov in 1871-72 and exchanged ideas and plans daily while each wrote his own opera, that he took suggestions for the reconstruction of Boris from Stasov, Hartmann, Nikolsky and Rimsky, and that he took part in the four-composer 'Mlada' project of 1872; Frolova-Walker adds his close exchange of letters with Stasov about Hartmann. The collaboration is documented, but sources stress friendly exchange more than joint authorship, and he also kept his distance from the circle, so the score is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "모데스트 무소륵스키"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/modest-mussorgsky-repin-1881.jpg",
+    "width": 1014,
+    "height": 1264,
+    "source": "Frontispiece halftone plate in M. Montagu-Nathan, Moussorgsky (London: Constable and Company, 1916), captioned 'MOUSSORGSKY / From a portrait by Repin', reproducing Ilya Repin's 1881 oil portrait of Mussorgsky painted from life in four sittings in a St Petersburg military hospital; taken from the Project Gutenberg edition of the book (eBook 77855), which was prepared from Internet Archive images. The file is Gutenberg's cleaned plate image at 1014 x 1264 pixels, used as is: not resized and not upscaled. The painting itself hangs in the Tretyakov Gallery; its image terms do not apply to this 1916 reproduction, and the holder's record was not used.",
+    "license": "Public domain: 1916 London book reproduction of an 1881 painting by Ilya Repin (died 1930); Project Gutenberg states that no United States copyright exists in the work",
+    "licenseUrl": "https://www.gutenberg.org/ebooks/77855",
+    "attribution": "After Ilya Repin, portrait of Modest Mussorgsky (1881), reproduced as the frontispiece of M. Montagu-Nathan, Moussorgsky (London: Constable, 1916); via Project Gutenberg, public domain",
+    "attributionUrl": "https://www.gutenberg.org/ebooks/77855",
+    "creator": "Ilya Repin (painter); reproduced in M. Montagu-Nathan, Moussorgsky",
+    "date": "1881 (painting); 1916 (reproduction)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.gutenberg.org/ebooks/77855"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / SUCCEEDED with the lead's own subject, Repin's 1881 portrait, via a different holder-independent copy: the frontispiece halftone of M. Montagu-Nathan, Moussorgsky (London: Constable, 1916), printed caption 'MOUSSORGSKY / From a portrait by Repin', taken from the Project Gutenberg edition (eBook 77855, images/portrait.jpg, 1014 x 1264, not resized, no upscaling), which avoids the Tretyakov Gallery's image terms. Kind likeness: the painting was done from life by Repin in four sittings in a St Petersburg military hospital in March 1881 (Gurney Journey blog and Wikipedia, neither counted as a source; the Tretyakov record was not opened). Rights: 1916 London publication (PD in the US by pre-1931 publication; Project Gutenberg states no US copyright), painter Repin died 1930, so the painting is PD by age; no URAA issue for a work that was PD in Russia in 1996. The 1876 photograph in Wikidata's image field was not needed. PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q132682 label 'Modest Petrovich Mussorgsky', description 'Russian composer (1839-1881)', born 9 March 1839 (Gregorian; other values 1835 and older-style dates recorded), died 16 March 1881 (Julian), citizen of the Russian Empire, Korean label 모데스트 무소륵스키; no production (prod66.json) or candidate slug/QID collision. REGION central_europe (precedent: Russians). ERA 19th_century. KOREAN NAME 모데스트 무소륵스키 is the Wikidata and Korean Wikipedia label. ZERO POLITICS: only composition and collaboration are scored; his 1859 'conversion' from cosmopolitan to patriot and his government clerkship are context, not scored. EXCLUDED on purpose: health, drinking and the circumstances of his death, a rival's remarks on his personality, and the antisemitic remarks in private letters noted by Frolova-Walker (context for interpreting one piece, not scored). VOCABULARY: occupations composer, musician; field music; impact domains artistic, cultural; tags innovator, nonconformist; archetype independent_creator (all labelled in EN and KO). ATTRIBUTION CONFIRMED (dated works, letters quoted by scholars, and a close colleague's memoir). CANONICAL SIGNIFICANCE SOURCE: Encyclopedia of World Biography entry 'Modest Petrovich Mussorgsky' (Encyclopedia.com copy). READ (substantively): the Encyclopedia entry; Montagu-Nathan's 1916 biography (biographical chapters, the Boris, Pictures and Bare Mountain passages); Rimsky-Korsakov's My Musical Life (selected passages on Mussorgsky in a poor-OCR scan); Frolova-Walker's Gresham College lecture notes; Britannica's Pictures at an Exhibition article; the BSO program note; the Royal Ballet and Opera catalogue entry. PERSPECTIVES: encyclopedic summary; an early biographer; a close colleague who was also his editor and critic (counter-voice on technique and conduct); a modern scholar who disputes the Taruskin reading of one piece; orchestra and opera-house institutional notes. Non-self behavioural sources: Rimsky-Korsakov, Montagu-Nathan, Frolova-Walker. NOT OPENED: Oxford/Grove (paywalled), Taruskin's Musorgsky: Eight Essays, Calvocoressi's biography, Orlova's Musorgsky Remembered (Indiana University Press, cookie-walled), Stasov's letters; Mussorgsky's own letters appear only as quoted by Frolova-Walker and Montagu-Nathan; Wikipedia read for orientation only and not cited. A Substack essay on Boris (not counted, dates differ) was not used. Conflict not carded: the Boris committee rejection is dated 1870 in Montagu-Nathan and February 1871 elsewhere, so the cards avoid the month. SELF-CALIBRATION: reviewed independent_thinking (lowered 66/0.55 to 62/0.50, see handback), creative_originality (kept: documented by a hostile contemporary and by modern scholarship) and experimentation (kept). Broad-profile flag for the lead: none; sparse 5-row profile by design. HANDBACK66: {\"slug\":\"modest-mussorgsky\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"RISKY (alt-dependent)\",\"holder_record_at_preflight\":\"CONTRADICTION RISK: the Repin 1881 portrait is in the Tretyakov Gallery, whose terms assert rights in its images (Roster65 Pirogov precedent)\",\"holder_record_checked_by_you\":\"Tretyakov Gallery item record deliberately not used or opened: the route was replaced by an independent pre-1931 reproduction of the same painting, so the museum's image terms do not apply to the file used. Britannica's caption (read) names the painting as Repin's 1881 portrait in the Tretyakov Gallery; the Commons Google Art Project file for the painting carries only a PD-Art tag (not relied on). The Project Gutenberg record for the book was read (Constable, London, 1916; produced from Internet Archive images; PD in the US).\",\"holder_contradiction_found\":false,\"initial_lead\":\"Ilya Repin 1881 portrait (Commons via Google Arts)\",\"final_portrait_source\":\"Frontispiece halftone plate 'MOUSSORGSKY / From a portrait by Repin' in M. Montagu-Nathan, Moussorgsky (London: Constable and Company, 1916), Masters of Russian Music series; Project Gutenberg eBook 77855 (https://www.gutenberg.org/ebooks/77855), file images/portrait.jpg, 1014 x 1264, not resized\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":\"The same Repin painting was obtained from a documented 1916 London book reproduction (public domain by age and by publication before 1931) on Project Gutenberg instead of the Tretyakov or Google Art Project image, so the museum's image terms were avoided; the printed caption names the sitter and the painter.\",\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"independent_thinking\",\"old_score\":66,\"old_confidence\":0.55,\"new_score\":62,\"new_confidence\":0.5,\"reason\":\"The main behavioural witness, his colleague Rimsky-Korsakov, gives the motive for his refusal of formal technique himself, so the independence is more inferential than the first draft implied.\"}],\"reviewed_kept\":[\"creative_originality\",\"experimentation\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5,\"image_inscription_check\":\"The cropped plate shows no lettering; the printed caption on the book page (read in the Project Gutenberg text) is 'MOUSSORGSKY / From a portrait by Repin'; Britannica captions the painting 'Modest Mussorgsky, portrait by Ilya Repin, 1881; in the Tretyakov Gallery, Moscow'\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 78 / 0.66 to 74 / 0.6 because the praise is encyclopedic and retrospective, and the closest critic (Rimsky-Korsakov) edited his work."
+  }
+}
