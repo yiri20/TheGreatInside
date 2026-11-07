@@ -544,3 +544,18 @@ cross-facet Directory assertion (`17`) did not move (none of the 27 newly crosse
   lead review.
 - Strategic lane **762 -> ~1000** continues; **211** to go; the next planned scale checkpoint is about 1000.
 - **Roster67 is not started.**
+
+## Post-commit scoring lock
+
+Implementation commit `dcbae51` (`Roster66: 27 freshly researched people shipped, 3 held (762 -> 789)`),
+clean tree before and after. `checkScoringLockIntegrity.ts` output:
+
+```
+Checked 967 previously-committed candidate file(s) against HEAD. 0 flagged.
+Legacy scoring lock: 22 pre-pipeline production people covered, 0 flagged.
+```
+
+Committed = on-disk = checked (967 candidate JSON files), 0 unresolved genuine flags (candidate or
+legacy). Every downward lead correction carries `RUBRIC_CORRECTION` in its row rationale and in
+`provenance.notes`; the two source-URL fixes and Kierkegaard's portrait-kind change are recorded in the
+same notes.
