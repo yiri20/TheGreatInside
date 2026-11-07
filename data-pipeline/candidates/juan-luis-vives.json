@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "juan-luis-vives",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Juan Luis Vives",
+    "aliases": [
+      "Joannes Ludovicus Vives",
+      "Ludovicus Vives",
+      "Joan Lluis Vives"
+    ],
+    "wikidataId": "Q316357",
+    "birthYear": 1492,
+    "deathYear": 1540,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "philosopher",
+      "scholar",
+      "teacher",
+      "writer"
+    ],
+    "fieldIds": [
+      "philosophy",
+      "education"
+    ],
+    "impactDomains": [
+      "educational",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "independent",
+      "prolific",
+      "cross_disciplinary",
+      "philosopher"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vives_wikidata",
+      "kind": "wikidata",
+      "title": "Juan Luis Vives (Q316357), verified live via the Wikidata API (2026-11-06): label 'Juan Luis Vives', description 'Spanish philosopher', born 6 March 1492, died 6 May 1540, Korean label 후안 루이스 비베스. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q316357"
+    },
+    {
+      "id": "src_vives_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Juan Luis Vives' (read in full, about 6,500 words: life and main works, dialectic and language, epistemology, moral and social philosophy, psychology, influence). CANONICAL SIGNIFICANCE SOURCE: gives Vives's Paris and Louvain years, the 1519 attack on scholastic logic, the 1524 Education of a Christian Woman and Introduction to Wisdom, the 1526 On Assistance to the Poor, the 1531 On the Disciplines, the 1538 On the Soul and Life, the years in England and the hundreds of editions of his works; also records a contrary reading in which the anti-scholastic satire is itself a sophistical exercise (Perreiah) and corrects his birth year to 1493.",
+      "url": "https://plato.stanford.edu/entries/vives/"
+    },
+    {
+      "id": "src_vives_eb",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Juan Luis Vives' (public-web portion read, about 600 words; the rest is behind a paywall and was not opened). General-encyclopedia summary: student of Erasmus, opposed Scholasticism, De ratione studii puerilis and De disciplinis (vernacular in schools, academies, education of women, study of nature by induction) and De anima et vita as the basis of his claim to eminence in psychology.",
+      "url": "https://www.britannica.com/biography/Juan-Luis-Vives"
+    },
+    {
+      "id": "src_vives_eb1911",
+      "kind": "archive",
+      "title": "Encyclopaedia Britannica, eleventh edition (1911), 'Vives, Juan Luis' (read in full, about 350 words; Wikisource transcription). Older scholarly summary with a bibliography (Mayans 1782 edition of the works; Bonilla y San Martin 1903): De causis corruptarum artium ranked with Bacon's Organon, residence at Corpus Christi College Oxford, tutor to Princess Mary reported as 'said to have' held.",
+      "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Vives,_Juan_Luis"
+    },
+    {
+      "id": "src_vives_ej",
+      "kind": "biography",
+      "title": "Encyclopaedia Judaica, 'Vives, Juan Luis', by Richard H. Popkin (full entry read, about 500 words; Encyclopedia.com reproduction). Independent account from the history of religion and philosophy: Inquisition records on his family, his dismissal from Oxford, the work and the 1543 posthumous De veritate fidei. COUNTER-VOICE and caution: it portrays him as returning to Bruges 'bitter and poor' and offers a speculative reading of his religion as a 'Marrano compromise', which is the author's interpretation and is not used for scoring.",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/vives-juan-luis"
+    },
+    {
+      "id": "src_vives_windsor",
+      "kind": "institution",
+      "title": "College of St George, Windsor Castle, Chapter Library, 'Katherine of Aragon's Book' by Eleanor Cracknell (full item read, about 330 words). Archivist's note on a copy of Vives's De concordia et discordia in humano genere (Antwerp, 1529) owned by Katherine of Aragon: his dedication of the Augustine edition to Henry VIII, the Oxford readership, the treatise on women's education and the content of De concordia on peace.",
+      "url": "https://www.stgeorges-windsor.org/?p=4802"
+    },
+    {
+      "id": "src_vives_mdb",
+      "kind": "press",
+      "title": "Majorca Daily Bulletin, 'Juan Luis Vives, a professor at Oxford' (history column, 30 September 2020; read in full, about 700 words). Press feature on the converso background in Valencia and the Inquisition, the Oxford post, the later condemnation of his writings by the Louvain theologians (1546), Pope Paul IV (1559) and the Spanish Index (1584), and a letter of his on poverty after the loss of royal patronage; the letter is self-report quoted by the columnist.",
+      "url": "https://www.majorcadailybulletin.com/news/comment/2020/09/30/72849/juan-luis-vives-professor-oxford.html"
+    },
+    {
+      "id": "src_vives_hwang",
+      "kind": "archive",
+      "title": "Hwang Jung Uck, 'The Historical Meaning of De subventione pauperum of J. L. Vives' (Journal of the Church History Society in Korea, vol. 26, 2010, pp. 233-284), abstract and bibliographic record on KoreaScholar (abstract only read; the full text is access-restricted and was not opened). Scholarly reading of the 1526 treatise for the magistrates of Bruges as a secular, organised relief scheme in contrast to the open relief of Nuremberg, Strasbourg and Ypres; says the work was harshly criticised after his death and that Bruges reformed its poor law only in 1562.",
+      "url": "https://db.koreascholar.com/Article/Detail/303724"
+    },
+    {
+      "id": "src_vives_rijks",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, print 'Portret van Juan Luis Vives' (RP-P-OB-115.961), Emanuel Eichel after Georg Melchior Kraus, linked-art collection record read (Public Domain Mark on the image, CC0 on the data). Holder record for the portrait; also confirms the title on the object 'Ludovicus Vives'.",
+      "url": "https://hdl.handle.net/10934/RM0001.COLLECT.107810"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_vives_sep, src_vives_eb, src_vives_eb1911 | 1519-1538 | scholarly encyclopedia + general encyclopedia + older reference work] Left the Paris arts curriculum without a degree, then published a satirical attack on scholastic logic (1519), a critique of the foundations of contemporary education (De causis corruptarum artium, 1531) and an assessment of Aristotle's works (1538), arguing for ordinary language and practical knowledge over the technical logic he had been taught; SEP and Britannica both describe him as opposed to Scholasticism and Aristotelian orthodoxy. Held at 70 with moderate confidence because the three accounts are retrospective summaries and SEP records a reading in which the 1519 work is a sophistical exercise rather than a serious refutation."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vives_sep, src_vives_eb, src_vives_eb1911 | 1518-1543 | scholarly encyclopedia + general encyclopedia + older reference work] SEP lists work on the history of philosophy, dialectic and language, knowledge, ethics (Introduction to Wisdom), education (On the Disciplines), poor relief (1526), peace and war (1529), psychology and emotions (On the Soul and Life, 1538) and a commentary on Augustine's City of God (1522); Britannica names education, philosophy and psychology as the fields of his eminence. Documented output across several fields from reference works; no source examines how the range was built. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 72 / 0.52 to 68 / 0.48 because the SEP list carries the breadth, no independent source examines it, and only an abstract of Hwang was read."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vives_sep, src_vives_eb | 1531-1538 | scholarly encyclopedia + general encyclopedia] SEP describes De disciplinis as an encyclopedic treatise in three parts (a critique of the corruption of the arts, a programme for handing down the disciplines, and five short treatises on the arts) and De anima et vita as a structured account of the faculties of the soul and the emotions that underpins his educational and social ideas, applying psychological principles to conduct, professional practice and social reform. Inferred from the structure of the works as described by two reference sources, not from a documented working process."
+    },
+    "impact_motivation": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vives_sep, src_vives_hwang, src_vives_windsor | 1526-1529 | scholarly encyclopedia + journal abstract + archive note] SEP says he held that learning needs to be applied in everyday life for the public good and wrote On Assistance to the Poor (1526) as a programme for public relief dedicated to the magistrates of Bruges, and De concordia (1529) on peace; Hwang's abstract reads the poor-relief work as a secular scheme with work training and schooling for poor children. The claim rests mostly on the content of his own treatises as described by others; motive is inferred from outputs. SELF-CALIBRATION (agent): lowered from 60/0.45 because the evidence is largely the stated purpose of his own treatises and only the abstract of Hwang's article was read."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vives_sep, src_vives_mdb, src_vives_ej | 1528-1540 | scholarly encyclopedia + press feature + encyclopedia of Judaica] SEP says the last twelve years of his life, after his English period ended and he returned to Bruges, were his most productive (De concordia 1529, De disciplinis 1531, De anima et vita 1538); the press feature and the Judaica entry record his loss of the Oxford post and financial hardship in this period. Scored only as continued scholarly output after a loss of position; the circumstances of his leaving England are not scored and nothing is inferred from his family history."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "후안 루이스 비베스"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED: Rijksmuseum print RP-P-OB-115.961 opened via linked-art (PDM on the image, CC0 on the data); the plate reads 'LUDOVICUS VIVES.' and the sheet carries the handwritten notes 'n. 1492', 'phil. Hispanus' and a dagger '1540', which match the sitter's birth year, field and death year. PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q316357 label 'Juan Luis Vives', description 'Spanish philosopher', born 6 March 1492, died 6 May 1540, Korean label 후안 루이스 비베스 (Wikidata Korean label; used as the Korean display name); no production (prod66.json) or candidate slug/QID collision. BIRTH YEAR: 1492 follows Wikidata, Britannica and the 1911 Britannica; SEP, the College of St George note and the Majorca Daily Bulletin give 1493 (SEP says 1492 is a common error); 1492 is kept so that the stored year matches the QID, and the disagreement is flagged for the lead. REGION southern_europe: Spanish-born (Valencia), nationalityCodes ES, same choice as the Servetus precedent (Spanish, career in France, stored as southern_europe); his adult career base was Bruges, Louvain, Oxford and Paris and he never returned to Spain, so western_europe is a defensible alternative. ERA early_modern. ZERO POLITICS: his 1528 loss of royal favour and the divorce question are not scored and are mentioned only as the circumstance of leaving England; the 1521-26 war commentary in De concordia is context, and only his scholarly output is used. VOCABULARY: occupations philosopher, scholar, teacher, writer; fields philosophy, education; tags independent, prolific, cross_disciplinary, philosopher; archetypes scholarly_specialist, cross_disciplinary_generalist (all present with EN and KO labels; humanist and educator are unlabelled and not used). IMPACT DOMAINS educational, social, cultural. ATTRIBUTION CONFIRMED: dated works and posts are documented in several independent reference accounts, but the personal record is thin (no letters or full biography opened), so rows are sparse (5) and confidence is at or below 0.52. CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy, 'Juan Luis Vives' (https://plato.stanford.edu/entries/vives/), read in full. READ (substantively): SEP; Britannica (public-web portion); Britannica 1911; Encyclopaedia Judaica entry (Popkin, via Encyclopedia.com); College of St George Windsor archive note; Majorca Daily Bulletin feature; the abstract of Hwang Jung Uck's 2010 article; the Rijksmuseum record. PERSPECTIVES: scholarly encyclopedia; general encyclopedia (current and 1911); history-of-religion encyclopedia; an English cathedral-college archive; a regional press feature; a Korean church-history journal abstract. COUNTER-VOICES: SEP's note that the 1519 anti-scholastic work may be a sophistical exercise rather than a refutation; Hwang that the poor-relief programme was harshly criticised after his death and Bruges reformed only in 1562; the Majorca column and the Judaica entry on the later condemnation of his works, his loss of the Oxford post and hardship. NOT OPENED: the primary works and letters (except as quoted by the above), Noreña's and Watson's studies, Tournoy's article and Spicker's edition on De subventione pauperum (access-walled or not retrievable), the Oxford Dictionary of National Biography, the full text of Hwang's article, the paywalled remainder of Britannica, Corpus Christi College pages. SELF-REPORT SEPARATION: his own words appear only as quoted by SEP and the press column; no row rests on self-report alone. EXCLUSIONS (hard rule): family history, the Inquisition's persecution of his parents, bereavement, his marriage, health and death, the divorce affair and royal politics, religion as doctrine, and any inferred psychology from his Jewish converso background are not scored; the Judaica 'Marrano compromise' reading is not used. No 'first' claim is used in the achievements (Judaica says he was the first advocate of secular education and state welfare, a claim no other source I read makes). THIN EVIDENCE FLAG: reference-work evidence only; confidence capped at 0.52. SELF-CALIBRATION (agent): top-risk rows reviewed: cross_domain_range (72/0.52, kept: output documented by three independent reference works); independent_thinking (70/0.52, kept: three accounts agree and SEP's contrary reading is already priced into the confidence); impact_motivation (60/0.45 lowered to 56/0.40: evidence is the stated purpose of his own treatises and only an abstract of Hwang was read). HANDBACK66: {\"slug\": \"juan-luis-vives\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Rijksmuseum linked-art RM0001.COLLECT.107810 opened (PDM + CC0), print titled 'Portret van Juan Luis Vives' (title on object)\", \"holder_record_checked_by_you\": \"Opened the Rijksmuseum linked-art record (hdl.handle.net/10934/RM0001.COLLECT.107810, id.rijksmuseum.nl/200187811, RP-P-OB-115.961): image access point carries the Public Domain Mark (creativecommons.org/publicdomain/mark/1.0/) and the data record CC0; printmaker Emanuel Eichel, Augsburg, after a drawing by Georg Melchior Kraus, dated 1747-1782; title on object 'Ludovicus Vives'; no restriction wording found.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Rijksmuseum engraved portrait of Juan Luis Vives (RP-P-OB-115.961)\", \"final_portrait_source\": \"Rijksmuseum, Amsterdam, RP-P-OB-115.961, engraving by Emanuel Eichel after Georg Melchior Kraus, 1747-1782; https://hdl.handle.net/10934/RM0001.COLLECT.107810 (image https://iiif.micr.io/HZlVO/full/max/0/default.jpg, 3280x5328 original, cropped to the plate 2156x3515 and downscaled to 736x1200)\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"impact_motivation\", \"old_score\": 60, \"old_confidence\": 0.45, \"new_score\": 56, \"new_confidence\": 0.4, \"reason\": \"Evidence is largely the stated purpose of his own treatises and only an abstract of Hwang's article was read\"}], \"reviewed_kept\": [\"cross_domain_range\", \"independent_thinking\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"Plate cartouche 'LUDOVICUS VIVES.'; below the plate at left 'G. M. Kraus del.' and at right 'E. Eichel sculp. A.V.'; handwritten notes on the sheet 'n. 1492', 'phil. Hispanus' (reading uncertain) and '† 1540'; museum number stamped lower left\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 72 / 0.52 to 68 / 0.48 because the SEP list carries the breadth, no independent source examines it, and only an abstract of Hwang was read."
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/juan-luis-vives-eichel-1747-1782.jpg",
+    "width": 736,
+    "height": 1200,
+    "source": "Engraved portrait lettered 'LUDOVICUS VIVES.' by Emanuel Eichel (Augsburg) after a drawing by Georg Melchior Kraus, an eighteenth-century print made long after the sitter's death in 1540; held by the Rijksmuseum, Amsterdam (RP-P-OB-115.961). The museum scan (3,280 x 5,328 pixels) was cropped to the printed plate and downscaled once to 736 x 1,200 pixels; nothing was upscaled. Shown as a later print depiction, not as a documented sitting.",
+    "license": "Public domain (Rijksmuseum Public Domain Mark; eighteenth-century print)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Emanuel Eichel after Georg Melchior Kraus, 'Portret van Juan Luis Vives', engraving, 1747-1782, Rijksmuseum, Amsterdam (RP-P-OB-115.961), public domain",
+    "attributionUrl": "https://hdl.handle.net/10934/RM0001.COLLECT.107810",
+    "creator": "Emanuel Eichel (engraver) after Georg Melchior Kraus (drawing)",
+    "date": "1747-1782",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://id.rijksmuseum.nl/200187811"
+  }
+}

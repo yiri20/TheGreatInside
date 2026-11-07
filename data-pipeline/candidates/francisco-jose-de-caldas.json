@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "francisco-jose-de-caldas",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Francisco José de Caldas",
+    "aliases": [
+      "Francisco Jose de Caldas",
+      "Francisco José de Caldas y Tenorio",
+      "El Sabio Caldas",
+      "Caldas"
+    ],
+    "wikidataId": "Q1442069",
+    "birthYear": 1768,
+    "deathYear": 1816,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "CO"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "naturalist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "self_taught",
+      "field_researcher",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_caldas_wikidata",
+      "kind": "wikidata",
+      "title": "Francisco José de Caldas (Q1442069), verified live via the Wikidata API (2026-11-06): label 'Francisco José de Caldas', description 'Neogranadine lawyer and scientist (1768-1816)', born 4 October 1768, died 30 October 1816 (sources differ between 28 and 30 October), citizen of Colombia, no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1442069"
+    },
+    {
+      "id": "src_caldas_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography, 'Caldas, Francisco José De' (entry read in full via Encyclopedia.com). CANONICAL SIGNIFICANCE SOURCE: self-taught in mathematics and astronomy despite a law education; met Humboldt and Bonpland at Quito in 1802 and learned from them; commissioned by Mutis to collect plants, mainly cinchona, in the south of New Granada; took over the new Bogotá astronomical observatory in December 1805; began the Semanario del Nuevo Reino in January 1808; names as his greatest scientific achievements the method of measuring altitude by the boiling point of water, his discovery of many cinchona species and varieties, and his collaboration with Humboldt on plant distribution by altitude. The entry also covers his role in the 1810 revolt and his execution, which are not scored. A short reference entry.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/caldas-francisco-jose-de"
+    },
+    {
+      "id": "src_caldas_sevilla",
+      "kind": "institution",
+      "title": "Blog of the Institute of Mathematics, University of Seville, 'Hypsometry in New Granada' (page read in full). Tells how he broke a thermometer near the Puracé volcano, repaired and recalibrated it with snow and boiling water, reasoned that the discrepancy came from atmospheric pressure at the boiling point, worried that a European had already found it, and published four articles on the method between 1801 and 1809; notes that Fahrenheit (1724) and Deluc (1762) had earlier proposed the principle, which he did not know. Relays a nineteenth-century biographer for the thermometer episode and is sympathetic.",
+      "url": "https://institucional.us.es/blogimus/?p=15665"
+    },
+    {
+      "id": "src_caldas_ruiz",
+      "kind": "institution",
+      "title": "José Ignacio Ruiz, 'Caldas, primer geógrafo de Colombia', Boletín de la Sociedad Geográfica de Colombia no. 91-92 (1966; article read in full). An admiring tribute by a geography dean: his 1800 volcano trip and first plant-geography observations, hypsometry, geometry teaching at the Colegio del Rosario, the observatory's coordinates, meteorological observations, Humboldt's remark that Caldas reached delicate astronomical observations alone with instruments made by his own hands, and his essay on the influence of climate; says that unlike the reserved Mutis he liked to share what he knew. Patriotic and uncritical; used with caution.",
+      "url": "https://sogeocol.edu.co/documentos/092_cal_prim_geog.pdf"
+    },
+    {
+      "id": "src_caldas_lleras",
+      "kind": "institution",
+      "title": "Jorge Álvarez Lleras, 'Reseña histórica del Observatorio Astronómico y Meteorológico de Bogotá', Boletín de la Sociedad Geográfica de Colombia vol. 4 no. 1 (1937; first part read, about the first fifth of the paper). Records that the observatory was completed on 20 August 1803 at Mutis's request, that Caldas worked there from the start, that he lacked a mural circle so his work was sun transits for local time, barometric height of the building and meteorological observations, that he observed through 1807 and published the first six months of 1808, and quotes Caldas's own account of discussing the boiling-point method with Humboldt. Written by a later observatory director; frank about the instrument limits.",
+      "url": "https://sogeocol.edu.co/documentos/004_01_rese_hist_obser_astr.pdf"
+    },
+    {
+      "id": "src_caldas_arboleda",
+      "kind": "biography",
+      "title": "Luis Carlos Arboleda, 'Las mediciones barométricas de Humboldt y Caldas en la Nueva Granada' (Universidad del Valle and Colombian Academy of Sciences; abstract and first sections read, remaining sections skimmed by keyword). A scholarly paper built on Caldas's letters: in October 1801 he thanked friends in Santa Fe for copying Humboldt's work 'as much as they could', even 'sucking him like a leech', called Humboldt's barometric profile 'a treasure for me', studied and annotated its formulas, learned the formulas from Humboldt in 1802 and later applied the Laplace formula to the observatory's height in 1809; quotes his caution that a mean barometer height needs many readings under dry, wet, hot and windy conditions. Historian of mathematics; mostly sympathetic but describes Humboldt's irritation at copyists.",
+      "url": "https://www.divulgameteo.es/fotos/meteoroteca/Humboldt-Caldas-mediciones-barom%C3%A9tricas.pdf"
+    },
+    {
+      "id": "src_caldas_hin",
+      "kind": "biography",
+      "title": "Alberto Gómez Gutiérrez, 'Alexander von Humboldt y la cooperación transcontinental en la Geografía de las plantas: una nueva apreciación de la obra fitogeográfica de Francisco José de Caldas', HiN 17(33), 2016 (abstract only; the full article was not read). The abstract compares Humboldt's 1803 manuscript on plant geography with Caldas's contemporary work, after the two lived together in Quito in the first half of 1802. Orientation on the priority debate only; no row depends on it.",
+      "url": "https://hin-online.de/index.php/hin/article/view/238"
+    },
+    {
+      "id": "src_caldas_book",
+      "kind": "archive",
+      "title": "Diego Mendoza, 'Expedición botánica de José Celestino Mutis al Nuevo Reino de Granada y Memorias inéditas de Francisco José de Caldas' (Madrid: Librería General de Victoriano Suárez, 1909), copy digitised by the Internet Archive; the lithograph plate captioned 'Francisco José de Caldas' was inspected on the scanned page. Used for the portrait only, not for any trait row.",
+      "url": "https://archive.org/details/expedicionbotani00mend"
+    }
+  ],
+  "rows": {
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caldas_sevilla, src_caldas_arboleda, src_caldas_ruiz, src_caldas_lleras | 1795-1809 | university blog + scholarly paper + tribute + observatory history] The Seville blog says that after breaking a thermometer near Puracé he repaired it, refilled it with mercury and recalibrated it with snow and boiling water, which led to his altitude method; Arboleda documents from his own October 1801 letters that, cut off from European literature, he had friends copy Humboldt's barometric profile and papers before they met, and then annotated them; Ruiz quotes Humboldt remarking that Caldas reached delicate astronomical observations alone with instruments made by his own hands; Álvarez Lleras says the observatory lacked a mural circle and he worked with what it had. The thermometer story reaches us through a nineteenth-century biographer and a blog, but the letters and the Humboldt remark are independent of it. RUBRIC_CORRECTION (lead review, before eligibility): resourcefulness lowered from 78 / 0.6 to 72 / 0.52 because the thermometer repair is told by a blog relaying a nineteenth-century biographer, and priority is contested."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caldas_sevilla, src_caldas_arboleda, src_caldas_lleras | 1800-1809 | university blog + scholarly paper + observatory history] The Seville blog says he excluded latitude and altitude as causes of the thermometer discrepancy, tied the boiling point to atmospheric pressure, and then searched for earlier discoverers; Arboleda documents that he worked through Humboldt's formulas line by line, wrote his own recalculation of the Trembley-Tralles formula on the copy, applied the Laplace formula to the observatory's height in 1809 and warned that a mean barometer height needs readings in many weather conditions; Álvarez Lleras quotes his own account of checking Humboldt's manuscript to see whether the boiling-water method had been published. Priority for the method is contested (Fahrenheit, Deluc and Humboldt's Tenerife use). SELF-CALIBRATION (agent): lowered from 76 / 0.60 because the thermometer reasoning reaches us only through a blog relaying a nineteenth-century biographer and the novelty of the method is disputed. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 74 / 0.56 to 68 / 0.5 because the boiling-point reasoning reaches us through a blog and a patriotic tribute."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caldas_dsb, src_caldas_ruiz, src_caldas_lleras | 1795-1810 | biographical dictionary + tribute + observatory history] The Dictionary says that after meeting Humboldt he became astronomer, geodesist, volcanologist, geographer and botanist, and that he also collected and distinguished cinchona species; Ruiz adds teaching geometry at the Colegio del Rosario, the essay on the influence of climate and meteorological observations; Álvarez Lleras documents the yearly meteorological records. The breadth is well attested, but several fields are described by a patriotic tribute, and he had trained in law and commerce first, so most of it dates from a short period. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.6 to 72 / 0.54 because the DSB and tributes list the fields without independent assessment."
+    },
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caldas_dsb, src_caldas_sevilla, src_caldas_ruiz | 1795-1802 | biographical dictionary + university blog + tribute] The Dictionary says he taught himself mathematics and astronomy after a law education and a business career; the Seville blog describes him trading by mule between Popayán, Cali and Quito while studying geology, botany and astronomy and recording everything he saw; Ruiz says his astronomical interest appeared when he was very young and quotes Humboldt's admiration for a self-taught observer. The pattern is well described but the sources are summary characterisations of a short documented period, so it is a strong inference. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 74 / 0.56 to 70 / 0.5 because self-teaching is stated by the DSB and the same blog."
+    },
+    "discipline": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caldas_lleras, src_caldas_dsb | 1807-1810 | observatory history + biographical dictionary] Álvarez Lleras reports, citing Boussingault, that he made meteorological observations in Bogotá through the whole of 1807, published the observations of the first six months of 1808 in the Semanario and resumed them in January 1810 before political events ended his work; the Dictionary says the Semanario ran from 1808 to 1811. The regular logging is documented, but the surviving record is incomplete and the sources are later summaries, so confidence is moderate."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_caldas_arboleda, src_caldas_dsb, src_caldas_lleras, src_caldas_ruiz | 1801-1810 | scholarly paper + biographical dictionary + observatory history + tribute] Arboleda documents that in October 1801 he had friends prepare copies of Humboldt's work and arrange the late-1801 meeting at Ibarra, and the Dictionary says he met the travellers at Quito in 1802 and spent six months learning from them; the Dictionary says he began the Semanario in January 1808, and Álvarez Lleras says he worked to establish regular meteorological observations in Santa Fe and other places; Ruiz says his publications urged compatriots to investigate nature. Several steps were prompted or funded by Mutis (the Dictionary says Mutis sent him money for the Humboldt trip), so the initiative is shared with a patron. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 72 / 0.56 to 68 / 0.5 because the Humboldt contact is told by one scholarly article and the DSB."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "프란시스코 호세 데 칼다스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/francisco-jose-de-caldas-maurin-before-1909.jpg",
+    "width": 732,
+    "height": 1200,
+    "source": "Lithograph portrait of Francisco José de Caldas, captioned 'FRANCISCO JOSÉ DE CALDAS' and signed 'A. Maurin' at lower left, printed as a plate in Diego Mendoza's 'Expedición botánica de José Celestino Mutis al Nuevo Reino de Granada y Memorias inéditas de Francisco José de Caldas' (Madrid: Librería General de Victoriano Suárez, 1909; imprint 'Imp. de Fortanet'), from the Internet Archive's scan. The book's title page gives 1909 and Madrid, so the plate was published before 1931; Caldas died in 1816, so the lithograph is a later depiction made after his death, not a documented sitting, and it is older than the 1909 book. The Internet Archive record carries no separate rights statement, so the basis rests on the documented 1909 publication and the plate's older origin; no museum or holder claims rights. The file used is the Internet Archive's 1,895 x 2,991 pixel page image, cropped to the plate and downscaled to 732 x 1,200 pixels; nothing was upscaled. The earlier c. 1836 oil by José María Espinosa was not used because its holder was not opened.",
+    "license": "Public domain (1909 Madrid publication of an older lithograph; no rights statement on the Internet Archive record)",
+    "licenseUrl": "https://archive.org/details/expedicionbotani00mend",
+    "attribution": "Lithograph signed A. Maurin, reproduced in Diego Mendoza, Expedición botánica de José Celestino Mutis al Nuevo Reino de Granada y Memorias inéditas de Francisco José de Caldas (Madrid, 1909), scan from the Internet Archive, public domain",
+    "attributionUrl": "https://archive.org/details/expedicionbotani00mend",
+    "creator": "Lithograph signed A. Maurin; reproduced in Diego Mendoza (Madrid, 1909)",
+    "date": "lithograph undated, before 1909; book published 1909",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://archive.org/details/expedicionbotani00mend"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / SUCCEEDED with a REPLACEMENT image: the lead's Espinosa Prieto c.1836 oil could not be tied to a holder record (the Commons file cites a magazine page) and 'alternative paths: none found' was too pessimistic: an Internet Archive scan of Mendoza's 1909 Madrid book contains a captioned lithograph plate of Caldas, whose US publication before 1931 is documented on the title page. Weakness recorded honestly: the Internet Archive record has no explicit rights field and the plate's lithographer (signature 'A. Maurin') and date are not otherwise documented; the basis is pre-1931 publication of a posthumous print of an older work. PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q1442069 label 'Francisco José de Caldas', description 'Neogranadine lawyer and scientist (1768-1816)', born 1768-10-04, died 1816-10-30 (sources differ between 28 and 30 October), citizenship Colombia, no Korean label; no production (prod66.json) or candidate slug/QID collision. REGION latin_america. ERA 19th_century (precedent: Humboldt, Flinders). KOREAN NAME 프란시스코 호세 데 칼다스 is a recorded transliteration (no Wikidata Korean label; no standard Korean Wikipedia label checked). ZERO POLITICS: only astronomy, hypsometry, meteorology, botany/cinchona, teaching and the scientific periodical are scored; his role in the 1810 revolt, army engineering and the 1816 execution are context only and unscored, as the Semanario's political successor (Diario politico) is. VOCABULARY: occupations astronomer, naturalist, teacher; fields natural_science, education; impact domains scientific, educational; tags self_taught, field_researcher, cross_disciplinary; archetype scientific_explorer (all labelled in EN and KO; geographer, botanist and engineer avoided as unlabelled or politics-adjacent). ATTRIBUTION CONFIRMED (dated letters, observations, publications). Early-modern/transitional evidence limit applied: six rows, confidence at or below 0.60. CANONICAL SIGNIFICANCE SOURCE: Complete Dictionary of Scientific Biography entry 'Caldas, Francisco José De' (Encyclopedia.com copy, read in full). READ: Dictionary entry (full), Seville mathematics-institute blog (full), Ruiz 1966 tribute (full), Alvarez Lleras 1937 observatory history (about the first fifth), Arboleda paper (abstract, first sections, keyword skim of the rest). ABSTRACT ONLY: Gomez Gutierrez 2016 HiN (full text not opened). Perspectives: sober reference entry, a university mathematics blog that notes earlier proposals of the method, a patriotic tribute, a later observatory director who is frank about the instrument limits, a scholarly paper on his letters. COUNTER-VOICES: the Seville blog (Fahrenheit and Deluc earlier), Alvarez Lleras (no mural circle; Humboldt had used the method at Tenerife), Arboleda (Humboldt disliked copyists). No hostile contemporary or a modern critical assessment of Caldas's priority claims was read in full, so rows are modest; Appel's 1994 study and the doctoral thesis on hypsometry (Rojas Bernal 2021) were not opened. NOT OPENED: Wikipedia (orientation only), Neglected Science page (read but not cited: short summary of unsourced claims), Pablo Montoya's literary profile, the UASB repository PDF (HTTP 403). His family, personal relations and death are not scored. SELF-CALIBRATION: reviewed analytical_rigor (lowered), resourcefulness and proactive_agency (kept: each backed by his own letters and at least two other sources). HANDBACK66: {\"slug\": \"francisco-jose-de-caldas\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Espinosa Prieto portrait c.1836 via revistacredencial.com; holder not opened\", \"holder_record_checked_by_you\": \"The Espinosa oil's holder was not opened (Commons file lists a magazine page only). Used instead the Internet Archive item expedicionbotani00mend (Diego Mendoza, Madrid: Libreria General de Victoriano Suarez, 1909): metadata date 1909, publisher Madrid, no possible-copyright-status or rights field; title page read in the OCR text ('1909'); the scanned plate page inspected. Wellcome's 1930 glass-plate reproduction (M0001444EA, CC BY) was rejected because the underlying portrait is unidentified. Commons 'El Sabio Caldas' (Museo del 20 de julio, dated 1819, PD-US-expired) was not used: weak provenance.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Jose Maria Espinosa Prieto portrait, c.1836\", \"final_portrait_source\": \"Internet Archive scan of Diego Mendoza, Expedicion botanica de Jose Celestino Mutis ... y Memorias ineditas de Francisco Jose de Caldas (Madrid, 1909), lithograph plate signed A. Maurin, https://archive.org/details/expedicionbotani00mend (page image cropped to the plate, 732x1200)\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"analytical_rigor\", \"old_score\": 76, \"old_confidence\": 0.6, \"new_score\": 74, \"new_confidence\": 0.56, \"reason\": \"The thermometer reasoning reaches us only through a blog relaying a nineteenth-century biographer and the novelty of the boiling-point method is disputed\"}], \"reviewed_kept\": [\"resourcefulness\", \"proactive_agency\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6, \"image_inscription_check\": \"Printed caption under the plate 'FRANCISCO JOSE DE CALDAS'; lithographer's signature at lower left reads 'A. Maurin'; no other lettering on the plate\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): resourcefulness lowered from 78 / 0.6 to 72 / 0.52 because the thermometer repair is told by a blog relaying a nineteenth-century biographer, and priority is contested. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.6 to 72 / 0.54 because the DSB and tributes list the fields without independent assessment. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 74 / 0.56 to 68 / 0.5 because the boiling-point reasoning reaches us through a blog and a patriotic tribute. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 74 / 0.56 to 70 / 0.5 because self-teaching is stated by the DSB and the same blog. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 72 / 0.56 to 68 / 0.5 because the Humboldt contact is told by one scholarly article and the DSB."
+  }
+}

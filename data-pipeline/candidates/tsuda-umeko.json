@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "tsuda-umeko",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Tsuda Umeko",
+    "aliases": [
+      "Umeko Tsuda",
+      "Tsuda Ume",
+      "Ume Tsuda",
+      "津田梅子"
+    ],
+    "wikidataId": "Q514524",
+    "birthYear": 1864,
+    "deathYear": 1929,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher"
+    ],
+    "fieldIds": [
+      "education"
+    ],
+    "impactDomains": [
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "founder"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tsuda_wikidata",
+      "kind": "wikidata",
+      "title": "Tsuda Umeko (Q514524), verified live via the Wikidata API (2026-11-06): English label 'Tsuda Umeko', Korean label, description 'Japanese educator (1864-1929)', born 31 December 1864, died 16 August 1929, citizenship Japan, image 'Tsuda Umeko Portrait c1900.png'. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q514524"
+    },
+    {
+      "id": "src_tsuda_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'TSUDA Umeko', Portraits of Modern Japanese Historical Figures (biographical note written by NDL staff, read in full). CANONICAL SIGNIFICANCE SOURCE: educator, one of the first Japanese women to study abroad (sent with the Iwakura Mission in 1871 at the age of 8 by Japanese reckoning), returned 1882, taught at the Kazoku Jogakko (Peeresses' School), studied biology at Bryn Mawr College from 1889 as a special student, returned in 1892 and taught again at the Peeresses' School and the Higher Normal School for Women, resigned in 1900 and founded the Joshi Eigaku Juku (later Tsuda College) to promote English learning and education that respected individuality, and 'was a pioneer of higher education for women'. Short reference note; it states outcomes rather than behaviour.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/292.html"
+    },
+    {
+      "id": "src_tsuda_kunieda2020",
+      "kind": "biography",
+      "title": "Mari Kunieda (Tsuda University), 'Umeko Tsuda: a Pioneer in Higher Education for Women in Japan', Espacio, Tiempo y Educacion 7(2), 2020, pp. 29-45 (open-access PDF, read in full). A scholarly life history drawing on the standard biographies (Yoshikawa 1930, Furuki 1991 and Umeko's letters): her years with the Lanman family, the Peeresses' School, Bryn Mawr (biology, adviser T. H. Morgan, 1894 co-authored paper, Bryn Mawr's offer that she stay as a researcher which she declined, the American Scholarship for Japanese Women and its US$8,000 and committee), the 1898-99 England trip, her July 1900 resignation from both teaching posts, the opening of Joshi Eigaku Juku on 14 September 1900 with ten students and her opening address (three points), the Philadelphia Committee's funding, the 1903-05 recognition and the 1905 exemption of graduates from the English teaching certificate examination, and the post-1923 reconstruction led by Anna Hartshorne. Author is on the staff of the university Umeko founded, so the tone is admiring and some of it rests on Umeko's own letters; the quoted opening address is her own words reported by the author.",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/7522585.pdf"
+    },
+    {
+      "id": "src_tsuda_jalt1998",
+      "kind": "biography",
+      "title": "Amy D. Yamashiro and Ethel Ogane, 'Tsuda Ume: Pioneering Education for Women and ELT', The Language Teacher 22(5), May 1998 (JALT; read in full). A teaching-profession article that quotes former students and scholars: student Yamakawa Kikue's memoir praising her independence and rejection of the 'good wife, wise mother' policy but also criticising her 'political naivete' and censorship of socialist and feminist texts, student Mishima Sumie on classroom argument, Furuki on her 6 August 1900 letter and the 1905 exemption, and a 'Feminist Criticism' section that reports Rose's (1992) criticism of her opposition to women's suffrage and reluctance to be a social agitator. COUNTER-VOICE for the sources above; the criticisms reach this entry only through the authors' summaries of Rose and Hane, which were not opened.",
+      "url": "https://jalt-publications.org/tlt/articles/2302-tsuda-ume-pioneering-education-women-and-elt"
+    },
+    {
+      "id": "src_tsuda_nippon2022",
+      "kind": "press",
+      "title": "Tachibanaki Toshiaki (economist and writer), 'Tsuda Umeko: A Life Dedicated to Women's Higher Education', Nippon.com, 4 October 2022 (Shapers of Japanese History series; read in full). An independent popular account: her struggle to find work commensurate with her ability after 1882, going to Bryn Mawr on diverted salary and a partial scholarship, majoring in education and English while studying biology and co-writing papers with T. H. Morgan, her wish for a private women's university, the three hurdles she faced (funding, finding students, finding teachers), her use of American connections to hire Alice Bacon and Anna Hartshorne, the 1900 opening in a refurbished house in Kojimachi, the 1903 recognition as a professional school, and the school's reputation. Contrasts her with Naruse Jinzo's better-funded Japan Women's University. The author is an economist, not a historian, and interprets some private choices speculatively (those are not used).",
+      "url": "https://www.nippon.com/en/articles/-/12713"
+    },
+    {
+      "id": "src_tsuda_bmc2019",
+      "kind": "institution",
+      "title": "Masako Iino (President Emerita of Tsuda University), 'From Japan to Bryn Mawr and Back', Bryn Mawr College Bulletin, Winter 2019 (excerpts of a campus talk, read in full). The college's own alumnae magazine: Umeko of the Class of 1890 returned to Japan 'like a foreigner', went back to the United States for higher training unavailable to Japanese women, and during her Bryn Mawr stay called for an American Scholarship for Japanese Women supported by the Japanese Scholarship Committee of her Philadelphia friends, a programme that supported 25 women students before it ended in 1976 (one of them Michi Kawai, who later taught at Umeko's school). Retrospective alumnae-magazine material by a successor president; the listing is an excerpt of a talk.",
+      "url": "https://www.brynmawr.edu/bulletin/japan-bryn-mawr-back"
+    },
+    {
+      "id": "src_tsuda_profile",
+      "kind": "institution",
+      "title": "Tsuda University, 'Profile' (official university page, read in full). States that the university was founded as one of the first institutions of higher education for women in Japan in 1900 by Umeko Tsuda, a pioneering woman educator. Institutional self-description; used only for the founding statement.",
+      "url": "https://www.tsuda.ac.jp/en/profile.html"
+    },
+    {
+      "id": "src_tsuda_archive_hartshorne",
+      "kind": "institution",
+      "title": "Tsuda College Library, Digital Archive, 'Anna C. Hartshorne' special feature (read in full). The college archive's account of the Quaker teacher Anna Hartshorne, who met Umeko at Bryn Mawr, heard her decision to found the school in February 1897, taught without salary from 1902 to 1940 and raised funds in the United States after the 1923 earthquake. Institutional history page; its praise is of Hartshorne and it is used only for the collaboration with Hartshorne.",
+      "url": "https://lib.tsuda.ac.jp/DigitalArchive/e_df1.html"
+    },
+    {
+      "id": "src_tsuda_ndl_item",
+      "kind": "archive",
+      "title": "National Diet Library Digital Collections item record for Yoshikawa Toshikazu, 'Tsuda Umeko' (Tokyo: Fujo Shimbunsha, 1930), the source book of the portrait photograph used here. Portrait source only: the item API gives publication year 1930, rights permission rule 'ooc' (out of copyright) and no rights code; no row depends on the book's text.",
+      "url": "https://dl.ndl.go.jp/pid/1191056"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsuda_kunieda2020, src_tsuda_nippon2022, src_tsuda_jalt1998, src_tsuda_ndl | 1889-1900 | scholarly life history, press, teaching-profession article, state library note] Dissatisfied with the Peeresses' School as a finishing school, she collected information on US women's colleges, secured a Bryn Mawr scholarship and negotiated a paid two-year leave (Kunieda), created a scholarship fund while in Philadelphia, and in July 1900 resigned from both teaching posts (the highest title and salary open to a woman, Kunieda) to open Joshi Eigaku Juku in September 1900 with ten students; the NDL note and Nippon.com give the same sequence independently. Documented across four sources; the motives come from Kunieda and Furuki-based accounts. Confidence kept at 0.6 because the main detailed source is by a Tsuda University author. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 76 / 0.6 to 72 / 0.54 because the Bryn Mawr and school-planning account rests mainly on one biographer (Kunieda) and school histories."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsuda_kunieda2020, src_tsuda_nippon2022, src_tsuda_archive_hartshorne | 1882-1900 | scholarly life history, press, college archive] Kunieda dates her school plan to the Bryn Mawr years and says she 'never gave it up' through the 1892-1900 years of teaching at two government schools, writing frequent letters to the Philadelphia Committee for funds and opening with ten students in a small old house; Nippon.com names funding, recruiting students and finding teachers as the three hurdles she faced; the Tsuda archive dates her decision to Hartshorne's account of February 1897. The pattern is documented in outline by independent sources, but 'never gave it up' is the biographer's summary, so the row is moderate. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.56 to 68 / 0.5 because the never-gave-up account is one biographer reading of her letters."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsuda_kunieda2020, src_tsuda_nippon2022, src_tsuda_archive_hartshorne | 1889-1903 | scholarly life history, press, college archive] With no backing from prosperous Japanese groups (Kunieda contrasts the business- and politician-backed plan for Japan Women's University), she built a funding network of Philadelphia and other US women through letters and speeches, used American connections to recruit teachers such as Alice Bacon and Anna Hartshorne (Nippon.com), started in a refurbished house and, after a donation, moved the school to a larger site by 1903 (Kunieda, Nippon.com). Documented by two independent accounts plus the college archive; the funding totals in some accounts are from Umeko-related sources. RUBRIC_CORRECTION (lead review, before eligibility): resourcefulness lowered from 72 / 0.56 to 68 / 0.5 because the funding-network account is the same biographer and school-history pages."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsuda_kunieda2020, src_tsuda_nippon2022, src_tsuda_jalt1998, src_tsuda_bmc2019 | 1889-1894 | scholarly life history, press, teaching-profession article, alumnae magazine] Having returned with only a high-school diploma, she chose higher training, majored in biology at Bryn Mawr (also history, English literature, chemistry, political economy, philosophy), acted as a laboratory demonstrator, co-authored a paper with her adviser T. H. Morgan published in 1894, and went to Oswego Normal School to learn teaching methods (Kunieda; Nippon.com and JALT agree on the Morgan paper). Four sources agree on the study, but they say little about her inner standards, so the row is moderate."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsuda_kunieda2020, src_tsuda_bmc2019, src_tsuda_jalt1998 | 1892-1900 | scholarly life history, alumnae magazine, teaching-profession article] Kunieda reports that Bryn Mawr suggested she stay as a researcher and she declined, putting her wish to help Japanese women ahead of an academic career, and that she created the American Scholarship for Japanese Women (1893-1976; Bryn Mawr's Bulletin says it supported 25 students); JALT quotes her opening-day letter that the school 'will offer other courses' later and her belief that higher education would give women independence. The scholarship programme is documented by two sources; her motive and the research offer come from Tsuda-affiliated accounts. SELF-CALIBRATION (agent): lowered from 72 / 0.55 to 68 / 0.50 because the declined research post and her motive are told only by Tsuda University-affiliated authors drawing on her own letters. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 68 / 0.5 to 64 / 0.46 because motive is read from the account of the declined research post by the same biographer."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsuda_kunieda2020, src_tsuda_jalt1998, src_tsuda_bmc2019 | 1889-1900 | scholarly life history, teaching-profession article, alumnae magazine] Her speeches on Japanese women's education and status 'made a strong impression' on upper-class American women and the Philadelphia committee raised US$8,000 for scholarships (Kunieda); JALT says she developed public speaking and fund-raising at Bryn Mawr; Bryn Mawr's Bulletin says her Philadelphia friends gave 'significant support'. The speeches themselves were not read and the effect of the speeches is asserted by affiliated authors. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 60 / 0.46 because the persuasive effect is a single affiliated author's judgement, repeated by the other two summaries, with no audience account or text of a speech."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsuda_kunieda2020, src_tsuda_jalt1998 | 1892-1905 | scholarly life history, teaching-profession article] Kunieda says she developed her plan over years in consultation with two friends, kept it from conservative colleagues until funds were in hand, visited English schools in 1898-99 as a model, treated the first five years as a trial and set out three principles in her opening address; JALT quotes her August 1900 letter that the school would first prepare students for the English teaching examination and later offer other courses. The staged plan is documented, but both sources lean on the same Furuki-based material."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsuda_kunieda2020, src_tsuda_archive_hartshorne, src_tsuda_nippon2022 | 1893-1923 | scholarly life history, college archive, press] She planned the school with her two friends Sutematsu Oyama and Shigeko Uryu (both on the founding supporters), put Oyama and Inazo Nitobe on the six-member board of directors (Kunieda), relied on the Philadelphia Committee and on Anna Hartshorne, who taught at the school from 1902 and rebuilt it after 1923 (college archive), and Nippon.com says she hired American teachers through her network. Sources agree on the partnerships; Kunieda also records that Nitobe later became president of a rival women's college, which she took as a blow, so the collaboration was not uniformly smooth."
+    },
+    "conflict_tolerance": {
+      "score": 42,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tsuda_kunieda2020, src_tsuda_jalt1998 | 1892-1912 | scholarly life history, teaching-profession article] Kunieda says she was 'very careful not to let others find out' her plans and avoided irritating colleagues unnecessarily, and warned her first students to watch their language and manners so that criticism would not hurt higher education for women; JALT reports, through the authors' summary, that former student Yamakawa Kikue said she censored socialist and feminist texts and that Rose reports students threatened with withheld diplomas for activist circles. The caution is documented in Kunieda; the censorship and threats reach this entry only second-hand from critics whose texts were not opened, so the row is low-confidence and mixed with her willingness to resign outright in 1900."
+    }
+  },
+  "externalIdentity": {
+    "wikidataId": "Q514524"
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/tsuda-umeko-unknown-1930.jpg",
+    "width": 733,
+    "height": 1117,
+    "source": "Photograph of Tsuda Umeko captioned in print 'Tsuda Umeko joshi' (Ms Tsuda Umeko), the first portrait on the National Diet Library's Portraits of Modern Japanese Historical Figures page for her, taken from Yoshikawa Toshikazu, 'Tsuda Umeko' (Tokyo: Fujo Shimbunsha, 1930; NDL Digital Collections item 1191056). The photographer and the date of the sitting are not given in the book. The file is the NDL's unmodified image (733 x 1117 px), including the printed caption strip; no upscaling or cropping.",
+    "license": "Public domain (published in Japan in 1930, before 1931; the NDL item record gives permission rule 'ooc', out of copyright, and the NDL Portraits site states that all its images are public domain and may be reused, including commercially, without application)",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/e/about",
+    "attribution": "Tsuda Umeko, photograph reproduced in Yoshikawa Toshikazu, Tsuda Umeko (Fujo Shimbunsha, 1930); image from the National Diet Library, Japan, Portraits of Modern Japanese Historical Figures",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/e/datas/292.html",
+    "creator": "Unknown photographer (reproduced in Yoshikawa Toshikazu's 1930 biography)",
+    "date": "1930",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.ndl.go.jp/portrait/e/datas/292.html"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "쓰다 우메코"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (alt-dependent) (lead) / REPLACEMENT USED (a better-documented photograph from the NDL, not the lead's blog-sourced c.1900 image). Lead image 'Tsuda Umeko Portrait c1900.png' on Commons: source is a blog page (master-insight.com), author unknown, tagged PD-old-100-expired, no holder: rejected. REPLACEMENT: the NDL Portraits page for Tsuda Umeko (portrait file 0292_1.jpg, 733 x 1117) comes from Yoshikawa Toshikazu, 'Tsuda Umeko', Fujo Shimbunsha, Tokyo, 1930, NDL Digital Collections item 1191056 (frame 5). HOLDER RECORD CHECKED: the NDL Digital Collections item API gives permission rule 'ooc' (out of copyright), rights code null (not 'undet' as on the Ogino Ginko item, which carried a Commissioner's ruling and rule 'internet'), publication year 1930 and author Yoshikawa Toshikazu; the NDL Portraits About page says all images are public domain and may be reproduced or reused, including commercially, without application to the NDL (attribution requested); the IIIF manifest endpoint returned 'NG' so no manifest was available. A book published in Japan in 1930 is also before the US 1931 cut-off. Photographer unknown and sitting date unknown, so the rights basis rests on the 1930 publication plus the holder's out-of-copyright status, not on a named creator. IMAGE CHECK (looked at the file): half-length studio photograph of a woman in kimono with hair swept up, printed caption beneath reading right to left 'Tsuda Umeko joshi' (Ms Tsuda Umeko in Japanese characters), which matches the claimed sitter; no contradiction. Kind is likeness (a documented photograph of the person). PREFLIGHT (identity/QID/region): Wikidata Q514524 verified live (label 'Tsuda Umeko', description 'Japanese educator (1864-1929)', 1864-12-31 to 1929-08-16, Korean label present); no production collision (prod66.json, 762 people) and no existing candidate file or QID collision. Region east_asia (Japan), nationality JP, era 19th_century. Korean name: Korean Wikidata label (Q514524). ZERO POLITICS: scored as educator and school founder only; her work for the Meiji government as a scholarship student and tutor (including in a statesman's household), her views on suffrage and the criticism of her as politically conservative are context only, scored in no row except as documented institutional caution in conflict_tolerance; her marital choices, health and illness (reported in some sources) are not scored; her Christian faith is not scored. ATTRIBUTION: attributable (lead) / CONFIRMED: dated actions (resignation, scholarship fund, opening) appear in three independent accounts. CANONICAL SIGNIFICANCE SOURCE: National Diet Library, Portraits of Modern Japanese Historical Figures, 'TSUDA Umeko' (src_tsuda_ndl). SOURCES READ: NDL note (full), Kunieda 2020 (full, 17 pages), JALT 1998 article (full), Nippon.com 2022 (full), Bryn Mawr Bulletin 2019 excerpt (full), Tsuda University profile page, Tsuda College Library Hartshorne feature, Penn Forum on Japan abstract by Iino (abstract only, not cited). PERSPECTIVES: Japanese state library, Tsuda University scholarship (affiliated), US alumnae college magazine, economist-journalist, teaching-profession authors summarising students' memoirs and feminist scholarship. COUNTER-VOICE: Yamakawa Kikue's criticism and Rose's criticism (via JALT, second-hand), Kunieda's note on Nitobe's later presidency of a rival college, and Nippon.com's contrast with the better-funded Japan Women's University. Non-self behavioural sources: Kunieda, Nippon.com, JALT. Self material (her August 1900 letter, opening address) comes only through those authors. NOT OPENED: Barbara Rose, 'Tsuda Umeko and Women's Education in Japan' (Yale, 1992), Furuki, 'The White Plum' (1991) and 'The Attic Letters' (1991) (lending-only), Linda L. Johnson's 2012 Asian Cultural Studies article on Tsuda and Alice Bacon (the NII repository returned HTTP 503 for maintenance), Yoshikawa 1930 text (digitised, not OCR-searchable), the Washington Post 2020 feature (only a web-archive copy was available and was not opened), the Morgan and Tsuda 1894 paper itself (known only through the biographies). Date notes: sources give 1903 (Nippon.com) and 1904 (Kunieda) for senmon gakko recognition, so no row depends on that date; Nippon.com says she retired at 53, Kunieda mentions 1919 illness, neither used. SELF-CALIBRATION (agent): top-risk rows reviewed: impact_motivation (72/0.55 lowered to 68/0.50: research-post decline and motive told only by affiliated authors), persuasiveness (66/0.52 lowered to 60/0.46: effect of speeches asserted by one affiliated author), collaboration (kept: partnerships are documented by college archive, Kunieda and Nippon.com, and the Nitobe setback is noted). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; the 2024 banknote portrait is recognition not contribution and is omitted from the cards; nothing corrected. HANDBACK66: {\"slug\":\"tsuda-umeko\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"RISKY (alt-dependent)\",\"holder_record_at_preflight\":\"NOT VERIFIED: c.1900 portrait sourced to a blog; the NDL Portraits lookup did not resolve\",\"holder_record_checked_by_you\":\"NDL Digital Collections item API for pid 1191056 (Yoshikawa Toshikazu, Tsuda Umeko, Fujo Shimbunsha, 1930): permission rule 'ooc', rights code null, publish status approved; NDL Portraits About page states all images are public domain and reusable without application; IIIF manifest returned NG (unavailable). Lead image's Commons page checked: blog source, unknown author.\",\"holder_contradiction_found\":false,\"initial_lead\":\"c.1900 portrait (blog-sourced) Commons Tsuda_Umeko_Portrait_c1900.png\",\"final_portrait_source\":\"National Diet Library Portraits of Modern Japanese Historical Figures, TSUDA Umeko, file 0292_1.jpg from Yoshikawa Toshikazu, Tsuda Umeko (Fujo Shimbunsha, 1930), NDL item pid 1191056, https://www.ndl.go.jp/portrait/e/datas/292.html\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":\"The lead's blog-sourced image had no holder, but the NDL Portraits page for the same person offers a 1930-published photograph whose NDL item record is rule 'ooc' (out of copyright) with no 'undet' ruling, unlike the Ogino Ginko item; the alternative path named in the preflight (NDL Portraits) resolved once the item API was queried.\",\"rows_initially_scored\":9,\"self_calibrated_rows\":[{\"attribute\":\"impact_motivation\",\"old_score\":72,\"old_confidence\":0.55,\"new_score\":68,\"new_confidence\":0.5,\"reason\":\"Declined research post and motive told only by Tsuda University-affiliated authors drawing on her own letters\"},{\"attribute\":\"persuasiveness\",\"old_score\":66,\"old_confidence\":0.52,\"new_score\":60,\"new_confidence\":0.46,\"reason\":\"Effect of her speeches asserted by one affiliated author and repeated by summaries; no audience account or speech text\"}],\"reviewed_kept\":[\"collaboration\",\"proactive_agency\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":9,\"image_inscription_check\":\"Printed caption under the photograph reads right to left in Japanese characters 'Tsuda Umeko joshi' (Ms Tsuda Umeko)\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 76 / 0.6 to 72 / 0.54 because the Bryn Mawr and school-planning account rests mainly on one biographer (Kunieda) and school histories. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.56 to 68 / 0.5 because the never-gave-up account is one biographer reading of her letters. RUBRIC_CORRECTION (lead review, before eligibility): resourcefulness lowered from 72 / 0.56 to 68 / 0.5 because the funding-network account is the same biographer and school-history pages. RUBRIC_CORRECTION (lead review, before eligibility): impact_motivation lowered from 68 / 0.5 to 64 / 0.46 because motive is read from the account of the declined research post by the same biographer."
+  }
+}

@@ -13214,6 +13214,519 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Between 1876 and 1880 he moved from running a money-changing shop to founding banks: he joined founding the Third National Bank in 1876 and opened the Yasuda Bank in 1880, the base for his later insurers and group.",
   "yasuda-zenjiro.interpretation.turning_point.1":
     "This is consistent with deliberately building a larger institutional structure out of a small money-changing business.",
+  /* ---------------------------------------------------------- adolf-erik-nordenskiold (Roster66) */
+  "adolf-erik-nordenskiold.achievement.1":
+    "Commanded the Vega expedition of 1878-80, which sailed from Norway across the Arctic coast of Asia to the Pacific and is described by Britannica as the first successful navigation of the Northeast Passage; King Oscar created him a baron on his return in 1880.",
+  "adolf-erik-nordenskiold.achievement.2":
+    "Led or took part in some ten Arctic expeditions between 1857 and 1883 (Spitsbergen, Greenland and the Kara Sea) with staffs of natural scientists, so that scientific work became part of Arctic exploration; the five-volume Vega reports are said by the Dictionary of Scientific Biography to mark the beginning of serious polar studies.",
+  "adolf-erik-nordenskiold.achievement.3":
+    "Turned after the Vega to the history of maps: the Facsimile-atlas (1889) and Periplus (1897), which the Dictionary of Scientific Biography says laid foundations for the history of cartography, and a library of about 24,000 maps and 4,000 titles that is now the Nordenskiold Collection in Helsinki, inscribed in UNESCO Memory of the World in 1997.",
+  "adolf-erik-nordenskiold.moment.1":
+    "Before sailing the Vega he made preliminary voyages into the Kara Sea in 1875 and 1876, reaching the Yenisei, and studied records of earlier voyages and Norwegian fishermen's logs of the Kara Sea.",
+  "adolf-erik-nordenskiold.interpretation.moment.1":
+    "This groundwork is consistent with a planning-oriented approach, although the sources also record shortfalls on an earlier expedition.",
+  "adolf-erik-nordenskiold.moment.2":
+    "On the 1872-73 Spitsbergen expedition, ice and a storm scattered the reindeer meant for the march to the Pole and a relief ship did not arrive, leaving 67 men on supplies for 25 in a prefabricated hut; the party still took meteorological data and a group of them set out across the ice in spring.",
+  "adolf-erik-nordenskiold.interpretation.moment.2":
+    "The episode is consistent with a high exposure to risk and with persistence, though the sources do not say how he weighed the danger.",
+  "adolf-erik-nordenskiold.turning_point.1":
+    "After the Vega voyage he largely moved from geology and the field to the history of maps, spending the royalties of his Vega book on books and maps and producing the Facsimile-atlas and Periplus.",
+  "adolf-erik-nordenskiold.interpretation.turning_point.1":
+    "This shift from field exploration to a new scholarly field is consistent with a wide intellectual range, although one reviewer records serious errors in the new field.",
+  /* ---------------------------------------------------------- adolfo-lutz (Roster66) */
+  "adolfo-lutz.achievement.1":
+    "Led the Bacteriological Institute of Sao Paulo from 1893 to 1908 (now the Instituto Adolfo Lutz), where he identified local cholera and plague outbreaks and the typhoid nature of the 'Sao Paulo fevers'.",
+  "adolfo-lutz.achievement.2":
+    "In 1902-03 repeated the mosquito yellow-fever transmission experiments in Sao Paulo and, with Emilio Ribas, planned a prophylaxis programme against the vector.",
+  "adolfo-lutz.achievement.3":
+    "Published the 1908 case report of what is now called paracoccidioidomycosis, and studied helminths including the snail hosts of the schistosome and Brazilian mosquitoes.",
+  "adolfo-lutz.moment.1":
+    "For the December 1902 yellow-fever trials he bred mosquitoes from larvae, infected them from a mild case, kept them over 12 days and used six adult volunteers.",
+  "adolfo-lutz.interpretation.moment.1":
+    "Consistent with a careful, controlled approach to experimental design.",
+  "adolfo-lutz.moment.2":
+    "He kept defending the mosquito-transmission theory of leprosy until his death in 1940; a contemporary critic said he still offered no documentation after forty years.",
+  "adolfo-lutz.interpretation.moment.2":
+    "Consistent with long persistence in a hypothesis that outlasted its supporting evidence.",
+  "adolfo-lutz.turning_point.1":
+    "In 1908 he left the Bacteriological Institute for the Oswaldo Cruz Institute in Rio, where a historian says he could return to zoology and solitary laboratory and field work.",
+  "adolfo-lutz.interpretation.turning_point.1":
+    "Consistent with a preference for solitary research over public-health leadership, as one historian reads it.",
+  /* ---------------------------------------------------------- alfredo-di-stefano (Roster66) */
+  "alfredo-di-stefano.achievement.1":
+    "He led Real Madrid to the first five European Cups (1956-60), scoring in every final, as a forward who dropped deep and played across the pitch.",
+  "alfredo-di-stefano.achievement.2":
+    "He was named European Footballer of the Year in 1957 and 1959 and received France Football's Super Ballon d'Or in 1989.",
+  "alfredo-di-stefano.achievement.3":
+    "After retiring at 40 he coached in Argentina and Spain, winning league titles with Boca Juniors, River Plate and Valencia, and the European Cup Winners' Cup with Valencia.",
+  "alfredo-di-stefano.moment.1":
+    "He scored in each of Real Madrid's first five European Cup finals, ending the run with a hat-trick in the 7-3 win over Eintracht Frankfurt in 1960.",
+  "alfredo-di-stefano.interpretation.moment.1":
+    "This is consistent with a strong drive to win the biggest matches.",
+  "alfredo-di-stefano.moment.2":
+    "Watching from the stands in 1957, Bobby Charlton recalled that Di Stefano took the ball from the goalkeeper and told the full backs what to do; a teammate, Raymond Kopa, called him an arrogant despot.",
+  "alfredo-di-stefano.interpretation.moment.2":
+    "This is consistent with taking charge on the pitch, at some cost to teammates.",
+  "alfredo-di-stefano.turning_point.1":
+    "When Colombia rejoined FIFA in 1953 and left Millonarios' stars without a club, he moved to Spain after a disputed transfer and joined Real Madrid.",
+  "alfredo-di-stefano.interpretation.turning_point.1":
+    "This is consistent with rebuilding his career in a new country when circumstances changed.",
+  /* ---------------------------------------------------------- cyrus-mccormick (Roster66) */
+  "cyrus-mccormick.achievement.1":
+    "He developed a horse-drawn mechanical reaper, demonstrated in 1831 and patented in 1834, that replaced the hand scythe and sharply cut the labour of harvesting grain.",
+  "cyrus-mccormick.achievement.2":
+    "He moved production to Chicago in 1847 and built the factory that began mass production in 1848 and was selling about 4,000 reapers a year by 1856.",
+  "cyrus-mccormick.achievement.3":
+    "He sold his reapers at a fixed price with a written performance guarantee and instalment payments, and the machine won a gold medal at London's 1851 Crystal Palace exhibition.",
+  "cyrus-mccormick.moment.1":
+    "In 1831 he took over his father's unfinished reaper and demonstrated a working machine within weeks, then sold almost none for years while he kept refining it.",
+  "cyrus-mccormick.interpretation.moment.1":
+    "This is consistent with continuing to refine a product through years of little return.",
+  "cyrus-mccormick.moment.2":
+    "At the July 1851 trial at Tiptree Heath in England, his reaper worked in wet grain after Hussey's machine clogged, and the London Times, which had first mocked it, called it a valuable contribution.",
+  "cyrus-mccormick.interpretation.moment.2":
+    "This is consistent with relying on public demonstrations to win over doubters.",
+  "cyrus-mccormick.turning_point.1":
+    "After licensing his design to outside makers hurt his reputation, he moved to Chicago in 1847 and built his own factory.",
+  "cyrus-mccormick.interpretation.turning_point.1":
+    "This is consistent with changing method after a setback.",
+  /* ---------------------------------------------------------- desiderius-erasmus (Roster66) */
+  "desiderius-erasmus.achievement.1":
+    "Northern Europe's leading Renaissance humanist scholar, he published a Greek New Testament with his own Latin version and notes in 1516, the first to reach the market, and revised it four times.",
+  "desiderius-erasmus.achievement.2":
+    "Wrote bestsellers including the Adages, expanded to over 3,000 entries for the Aldine press, and the satire Praise of Folly (1511), which has stayed in print.",
+  "desiderius-erasmus.achievement.3":
+    "Edited works of Jerome, Augustine, Chrysostom and Origen, and promoted learned piety and a return to the texts in their original languages.",
+  "desiderius-erasmus.moment.1":
+    "The 1516 New Testament was put together in about ten months on his publisher Froben's urging, and the first edition carried hundreds of typesetting errors.",
+  "desiderius-erasmus.interpretation.moment.1":
+    "Consistent with working very fast under a publisher's pressure, at some cost to polish.",
+  "desiderius-erasmus.moment.2":
+    "For some years he refused to endorse any religious party, and in 1524 he reluctantly published a polite discussion of free will aimed at Luther.",
+  "desiderius-erasmus.interpretation.moment.2":
+    "Consistent with holding an independent intellectual stance that drew suspicion from both sides.",
+  "desiderius-erasmus.turning_point.1":
+    "After his first stay in England he met More and Colet and set out to learn Greek, which turned him toward biblical scholarship and eventually the Greek New Testament.",
+  "desiderius-erasmus.interpretation.turning_point.1":
+    "Consistent with committing to deep mastery of a new language to pursue a scholarly aim.",
+  /* ---------------------------------------------------------- francisco-jose-de-caldas (Roster66) */
+  "francisco-jose-de-caldas.achievement.1":
+    "He worked out and applied a method of measuring altitude from the boiling point of water, using it on Andean mountains and publishing it in articles between 1801 and 1809.",
+  "francisco-jose-de-caldas.achievement.2":
+    "From 1805 he directed the new astronomical observatory in Bogota, fixing its coordinates and height and keeping the meteorological observations that he published in 1808.",
+  "francisco-jose-de-caldas.achievement.3":
+    "He collected cinchona for Mutis's botanical expedition, studied plant distribution by altitude with Humboldt, and from 1808 published the Semanario del Nuevo Reino de Granada, which ran until 1811.",
+  "francisco-jose-de-caldas.moment.1":
+    "After breaking a thermometer near the Puracé volcano, he repaired and recalibrated it with snow and boiling water, and the mismatch led him to link the boiling point to atmospheric pressure.",
+  "francisco-jose-de-caldas.interpretation.moment.1":
+    "This is consistent with improvising a repair and then following up an unexpected discrepancy.",
+  "francisco-jose-de-caldas.moment.2":
+    "In October 1801, before he had met Humboldt, he wrote from Quito thanking friends in Santa Fe for copying Humboldt's barometric profile and papers, which he called a treasure and then annotated.",
+  "francisco-jose-de-caldas.interpretation.moment.2":
+    "This is consistent with seeking out better methods on his own initiative before a meeting.",
+  "francisco-jose-de-caldas.turning_point.1":
+    "In 1802 he met Humboldt and Bonpland at Quito and spent six months with them, learning much of what he needed to work as an astronomer, geodesist, geographer and botanist.",
+  "francisco-jose-de-caldas.interpretation.turning_point.1":
+    "This is consistent with a self-taught observer widening into several fields after meeting trained travellers.",
+  /* ---------------------------------------------------------- fritz-muller (Roster66) */
+  "fritz-muller.achievement.1":
+    "Wrote Für Darwin (1864), testing Darwin's theory against the development of marine Crustacea he studied on the Brazilian coast; Darwin paid for the 1869 English edition.",
+  "fritz-muller.achievement.2":
+    "Explained why unrelated unpalatable butterflies come to look alike: predators learn warning patterns, so look-alikes share the losses. The idea is named Müllerian mimicry after him.",
+  "fritz-muller.achievement.3":
+    "From Blumenau, sent Darwin field observations on climbing plants, orchids, termites and bees, and from 1876 worked as a travelling naturalist for the National Museum in Rio de Janeiro.",
+  "fritz-muller.moment.1":
+    "Handling wild-caught male butterflies, he noticed a strong smell from the hair tufts on their wings and linked it to chemical signalling between the sexes.",
+  "fritz-muller.interpretation.moment.1":
+    "Consistent with close, hands-on attention to small details of specimens in the field.",
+  "fritz-muller.moment.2":
+    "Over 1865-1882 he wrote Darwin some 106 letters; Darwin forwarded several of his observations to journals, including six short papers in Nature.",
+  "fritz-muller.interpretation.moment.2":
+    "Consistent with a sustained habit of sharing findings with a distant collaborator.",
+  "fritz-muller.turning_point.1":
+    "After receiving the German translation of Darwin's Origin in 1861, he reorganised his crustacean studies as a test of Darwin's theory, which led to Für Darwin and the correspondence with Darwin.",
+  "fritz-muller.interpretation.turning_point.1":
+    "Consistent with a willingness to reorient his research around a new theory he judged worth testing.",
+  /* ---------------------------------------------------------- heinrich-heine (Roster66) */
+  "heinrich-heine.achievement.1":
+    "His Buch der Lieder (1827) ironized and urbanized the conventions of Romantic verse, and, as Jeffrey Sammons notes, poems from it went out into the world in thousands of musical settings.",
+  "heinrich-heine.achievement.2":
+    "His Reisebilder (1826-31) blended prose, verse, fictionalized autobiography and social comment into what the Larousse encyclopedia calls a new kind of genre, and made his name.",
+  "heinrich-heine.achievement.3":
+    "From Paris from 1831 he wrote on German literature, religion and philosophy for French readers and published the Romanzero (1851), whose lyrics the Poetry Foundation counts among the finest he wrote.",
+  "heinrich-heine.moment.1":
+    "After quarrelling with Ludwig Borne, a fellow German writer in Paris, he fought a duel with one of Borne's friends in September 1841 and, soon after Borne's death, published a satirical book about him; the publisher's chronology records that the title he rejected was nevertheless used.",
+  "heinrich-heine.interpretation.moment.1":
+    "This episode is consistent with a readiness to carry a literary quarrel into print and even into a duel, at a cost to his reputation.",
+  "heinrich-heine.moment.2":
+    "In 1835 the German states banned his writings, and in that same year the second volume of his Salon, containing his essay on the history of religion and philosophy in Germany, appeared; he kept publishing from Paris for the rest of his life.",
+  "heinrich-heine.interpretation.moment.2":
+    "This is consistent with continuing to publish under a ban rather than stopping.",
+  "heinrich-heine.turning_point.1":
+    "In 1831, after failing to build a career in Hamburg, he moved to Paris, where he lived for the rest of his life, became a correspondent for the Augsburg Allgemeine Zeitung and wrote for French periodicals such as the Revue des Deux Mondes.",
+  "heinrich-heine.interpretation.turning_point.1":
+    "This is consistent with changing country and readership when a first career route had closed.",
+  /* ---------------------------------------------------------- henry-john-heinz (Roster66) */
+  "henry-john-heinz.achievement.1":
+    "In 1869 he began selling horseradish from Sharpsburg, Pennsylvania, and built it into the H. J. Heinz Company, a branded food maker sold as '57 Varieties' that had 6,500 employees and 25 branch factories when he died in 1919.",
+  "henry-john-heinz.achievement.2":
+    "He sold his products as 'Strictly Pure', packing horseradish in clear glass so buyers could see it, and supported the Pure Food and Drug Act of 1906.",
+  "henry-john-heinz.achievement.3":
+    "His Pittsburgh plant was run as a model factory, with employee dining rooms, free medical care, a gymnasium, an auditorium and classes, and was open to public tours.",
+  "henry-john-heinz.moment.1":
+    "At the 1893 Chicago fair his exhibit sat on an upstairs gallery that few visitors climbed to, so he had boys hand out tags promising a free watch charm to anyone who came to his booth, and crowds followed.",
+  "henry-john-heinz.interpretation.moment.1":
+    "This is consistent with improvising a low-cost fix when a promotion was failing.",
+  "henry-john-heinz.moment.2":
+    "On his first trip to London in 1886 he walked into Fortnum & Mason with no letter of introduction, asked for the head of grocery purchasing and opened his sample bag, and the buyer agreed to take all seven lines.",
+  "henry-john-heinz.interpretation.moment.2":
+    "This is consistent with approaching a prominent buyer directly without an introduction.",
+  "henry-john-heinz.turning_point.1":
+    "His first firm failed in the 1870s, and in 1876 he returned as manager of a new company, F. & J. Heinz, started with his brother and cousin; he took full control in 1888 and renamed it the H. J. Heinz Company.",
+  "henry-john-heinz.interpretation.turning_point.1":
+    "This is consistent with rebuilding a business after a collapse rather than leaving the trade.",
+  /* ---------------------------------------------------------- jan-evangelista-purkyne (Roster66) */
+  "jan-evangelista-purkyne.achievement.1":
+    "Through microscopic studies in the 1830s he described the large branching nerve cells of the cerebellum (1837) and the specialized fibres of the heart's ventricles, both now named for him.",
+  "jan-evangelista-purkyne.achievement.2":
+    "His 1818-19 thesis on subjective vision led to the Purkinje effect, in which blue objects seem brighter than red ones as light fades, and he described the reflected images in the eye that also carry his name.",
+  "jan-evangelista-purkyne.achievement.3":
+    "At Breslau he created an independent department of physiology (1839) and a Physiological Institute (1842), and in 1851 opened a second institute in Prague, building laboratory training into university teaching.",
+  "jan-evangelista-purkyne.moment.1":
+    "He studied vertigo on the swings and roundabouts of a public amusement park in Prague at minimal expense, using himself as the experimental subject, and later tested digitalis and atropine on himself to show that the doses doctors prescribed were too small.",
+  "jan-evangelista-purkyne.interpretation.moment.1":
+    "This is consistent with testing questions on himself with simple means rather than waiting for equipment or subjects.",
+  "jan-evangelista-purkyne.moment.2":
+    "At Breslau his request for a new microscope was refused and he waited nine years for one, and when the university would not provide space and equipment he carried out much of his research and teaching in a laboratory in his own home.",
+  "jan-evangelista-purkyne.interpretation.moment.2":
+    "This is consistent with finding a way round missing institutional support to keep working.",
+  "jan-evangelista-purkyne.turning_point.1":
+    "In 1839 he established an independent department of physiology at Breslau and in 1842 a Physiological Institute, moving his experiments and teaching out of his home laboratory into a university facility with modern equipment.",
+  "jan-evangelista-purkyne.interpretation.turning_point.1":
+    "This is consistent with turning an improvised home setup into a lasting institution.",
+  /* ---------------------------------------------------------- jose-celestino-mutis (Roster66) */
+  "jose-celestino-mutis.achievement.1":
+    "He directed the Royal Botanical Expedition to the New Kingdom of Granada from 1783 until his death in 1808, training its collectors and painters; the expedition produced drawings of about 2,700 plants.",
+  "jose-celestino-mutis.achievement.2":
+    "He studied the cinchona (quina) trees of New Granada, distinguishing four officinal species with twenty-four varieties, work that the Catholic Encyclopedia says gives his research lasting importance.",
+  "jose-celestino-mutis.achievement.3":
+    "In 1762 he opened the mathematics chair at the Colegio del Rosario, where students read Newton and Copernicus, and through his efforts Bogota's astronomical observatory was built in 1802-03.",
+  "jose-celestino-mutis.moment.1":
+    "When he opened the mathematics chair in 1762 he had students read Newton's Principia and Copernicus, and was denounced by Dominicans to the Inquisition commissioner, but the tribunals ruled that Copernicus could not be condemned.",
+  "jose-celestino-mutis.interpretation.moment.1":
+    "This is consistent with teaching new ideas against local opposition, though the viceroy and Crown backed him.",
+  "jose-celestino-mutis.moment.2":
+    "On his first arrival in Cartagena in 1760 he recorded in his diary four sharks following the ship and two barracudas whose genus he could not deduce.",
+  "jose-celestino-mutis.interpretation.moment.2":
+    "This is consistent with an early habit of noting unfamiliar animals and the limits of his own identification.",
+  "jose-celestino-mutis.turning_point.1":
+    "In 1783 Charles III appointed him to lead the botanical expedition, after he had spent years planning a survey of the country's flora, and he settled in Mariquita to direct it.",
+  "jose-celestino-mutis.interpretation.turning_point.1":
+    "This is consistent with a long-nurtured plan finally turning into an organised enterprise.",
+  /* ---------------------------------------------------------- joseph-fourier (Roster66) */
+  "joseph-fourier.achievement.1":
+    "In the Analytical Theory of Heat (1822) he showed how the conduction of heat in solid bodies can be analyzed with infinite series of sines and cosines, now called Fourier series.",
+  "joseph-fourier.achievement.2":
+    "He posed heat flow as a boundary-value problem in linear partial differential equations, a method that the Dictionary of Scientific Biography says extended rational mechanics and raised problems that drove mathematical analysis for the rest of the century.",
+  "joseph-fourier.achievement.3":
+    "He also developed a theory of units and dimensions for physical quantities and a method for counting the real roots of an equation, published after his death in 1831 as the Analysis of Determinate Equations.",
+  "joseph-fourier.moment.1":
+    "When the Academy's 1811 prize jury crowned his heat memoir but said his analysis left something to be desired in rigour and generality, Fourier did not accept the verdict and, near the end of his life, had the memoir printed in the Academy's volumes without changing a word.",
+  "joseph-fourier.interpretation.moment.1":
+    "This episode is consistent with holding to his own account of the work against a jury of senior colleagues, at some cost to openness to criticism.",
+  "joseph-fourier.moment.2":
+    "After the 1807 memoir went unpublished, he revised it with new analysis for the 1811 prize and then expanded it into the 1822 book, working, in Arago's words, from Grenoble, where his administrative duties hardly interrupted his research.",
+  "joseph-fourier.interpretation.moment.2":
+    "This is consistent with sustaining one research program over fifteen years despite non-publication and competing duties.",
+  "joseph-fourier.turning_point.1":
+    "In 1815 he left his prefecture, came to Paris and, according to the Dictionary of Scientific Biography, tried to take up research full time after years in which it had been only a spare-time activity; he was elected to the Academy of Sciences in 1817 and became its perpetual secretary in 1822.",
+  "joseph-fourier.interpretation.turning_point.1":
+    "This is consistent with reorganizing his working life around research once the chance came.",
+  /* ---------------------------------------------------------- juan-luis-vives (Roster66) */
+  "juan-luis-vives.achievement.1":
+    "A leading northern humanist, he attacked scholastic logic in 1519 and in On the Disciplines (1531) set out a critique of contemporary education together with a programme for renewing it, favouring the vernacular, practical knowledge and the education of women.",
+  "juan-luis-vives.achievement.2":
+    "In On Assistance to the Poor (1526), dedicated to the magistrates of Bruges, he set out a programme of organised public relief that included work training and schooling for poor children.",
+  "juan-luis-vives.achievement.3":
+    "His On the Soul and Life (1538) examines the faculties of the soul and the emotions, and Britannica rests his claim to eminence in psychology on it; his works went through hundreds of editions in the century after his death.",
+  "juan-luis-vives.moment.1":
+    "In 1519 he published In pseudodialecticos, a satirical attack on the scholastic logic he had studied at Paris, urging that logic follow ordinary language and serve the other arts; SEP also records a reading in which the work is itself a sophistical exercise.",
+  "juan-luis-vives.interpretation.moment.1":
+    "This is consistent with a willingness to break publicly with the curriculum he had been trained in.",
+  "juan-luis-vives.moment.2":
+    "In 1526 he published On Assistance to the Poor, a programme for organised public relief dedicated to the magistrates of Bruges; Hwang notes that Bruges did not reform its poor law until 1562 and that the work was harshly criticised after his death.",
+  "juan-luis-vives.interpretation.moment.2":
+    "This is consistent with applying learning to a public problem rather than keeping it academic.",
+  "juan-luis-vives.turning_point.1":
+    "After his years at the English court and Oxford ended in 1528 he settled again in Bruges, where, SEP says, the last twelve years of his life were his most productive, producing On Concord and Discord, On the Disciplines and On the Soul and Life.",
+  "juan-luis-vives.interpretation.turning_point.1":
+    "This is consistent with continuing a large body of scholarly work after losing a prominent position.",
+  /* ---------------------------------------------------------- kamerlingh-onnes (Roster66) */
+  "kamerlingh-onnes.achievement.1":
+    "On 10 July 1908 he liquefied helium at Leiden, producing about 60 ml at roughly 4.2 kelvin, the last of the so-called permanent gases to be liquefied.",
+  "kamerlingh-onnes.achievement.2":
+    "In 1911 he found that the electrical resistance of very pure mercury drops abruptly to zero at liquid-helium temperature, and he named the effect superconductivity.",
+  "kamerlingh-onnes.achievement.3":
+    "He built Leiden into the leading low-temperature laboratory, with a liquid-air cascade, a hydrogen liquefier and a school of instrument makers, and received the 1913 Nobel Prize in Physics for his low-temperature research.",
+  "kamerlingh-onnes.moment.1":
+    "After Dewar showed liquid hydrogen in 1898, he did not rush a small liquefier but spent until 1906 building one meeting stringent standards that could produce several litres an hour.",
+  "kamerlingh-onnes.interpretation.moment.1":
+    "This is consistent with holding equipment to a demanding standard even when it cost years.",
+  "kamerlingh-onnes.moment.2":
+    "When his 1911 mercury measurements showed zero resistance, the team repeated them with a W-shaped tube of four segments so that a short circuit could be excluded.",
+  "kamerlingh-onnes.interpretation.moment.2":
+    "This is consistent with testing a surprising result against alternative explanations before accepting it.",
+  "kamerlingh-onnes.turning_point.1":
+    "On becoming professor at Leiden in 1882 he reorganised the physics laboratory from a teaching institute into a research laboratory to test van der Waals's molecular theory, which led him to build a cryogenic laboratory from scratch.",
+  "kamerlingh-onnes.interpretation.turning_point.1":
+    "This is consistent with committing to a long, deliberately sequenced research programme.",
+  /* ---------------------------------------------------------- kuroda-seiki (Roster66) */
+  "kuroda-seiki.achievement.1":
+    "After about nine years in France, where he studied painting under Raphael Collin, he returned to Japan in 1893 with the bright plein-air manner and is known as the father of modern Western-style painting in Japan.",
+  "kuroda-seiki.achievement.2":
+    "In 1896 he formed the Hakubakai with Kume Keiichiro, which held thirteen exhibitions until 1911, and became head of the new Western-painting department at the Tokyo School of Fine Arts.",
+  "kuroda-seiki.achievement.3":
+    "His works include Morning Toilette (1893, destroyed in the Second World War), Lakeside (1897) and the nude triptych Wisdom, Impression, Sentiment, which won the highest silver medal among Japanese exhibitors at the 1900 Paris exposition and is now a designated Important Cultural Property.",
+  "kuroda-seiki.moment.1":
+    "When Morning Toilette was shown in Kyoto in 1895, newspapers condemned the nude as disturbing public morals; he kept silent in public but wrote privately to Kume that he was ready to stand or fall with the picture.",
+  "kuroda-seiki.interpretation.moment.1":
+    "This is consistent with holding to his work under public criticism without arguing in print.",
+  "kuroda-seiki.moment.2":
+    "In 1894 he and Kume took over a painting school and renamed it Tenshin Dojo, setting a rule that students draw only from plaster casts and live models, in charcoal, rather than copying photographs and prints.",
+  "kuroda-seiki.interpretation.moment.2":
+    "This is consistent with building a structured teaching method from what he had learned in Paris.",
+  "kuroda-seiki.turning_point.1":
+    "In 1886, urged by painters he met in Paris, he wrote to his adoptive father that he had firmly decided to study painting and entered Raphael Collin's atelier the next day, leaving his law studies in 1887.",
+  "kuroda-seiki.interpretation.turning_point.1":
+    "This is consistent with a willingness to change his career against family expectations.",
+  /* ---------------------------------------------------------- modest-mussorgsky (Roster66) */
+  "modest-mussorgsky.achievement.1":
+    "His opera Boris Godunov, begun in 1868 from Pushkin and Karamzin and finished in 1869, is the work at the centre of his reputation; after the opera house rejected it he reworked it, and a revised version was staged in 1874. He is generally acclaimed the finest of the Russian composers known as the Mighty Five.",
+  "modest-mussorgsky.achievement.2":
+    "Written in 1874 after a memorial exhibition of his friend Viktor Hartmann's drawings, his piano suite Pictures at an Exhibition became widely known through Ravel's 1922 orchestration.",
+  "modest-mussorgsky.achievement.3":
+    "His song cycles such as The Nursery and Songs and Dances of Death (1875) set unusual characters in distinctive speech rhythms, while Khovanshchina and other works were left unfinished at his death in 1881 and were edited or completed by colleagues, chiefly Rimsky-Korsakov.",
+  "modest-mussorgsky.moment.1":
+    "After the Imperial Operatic Committee rejected Boris Godunov, he spent 1871 reconstructing it, adding a Polish act with a love interest, moving the Kromy forest scene to the end and adding new episodes.",
+  "modest-mussorgsky.interpretation.moment.1":
+    "This is consistent with working on a rejected score until it could reach the stage.",
+  "modest-mussorgsky.moment.2":
+    "After visiting the February 1874 memorial exhibition of Viktor Hartmann's work, he composed Pictures at an Exhibition over the following months, completing it in June 1874.",
+  "modest-mussorgsky.interpretation.moment.2":
+    "This is consistent with trying a new kind of piano music in response to a single stimulus.",
+  "modest-mussorgsky.turning_point.1":
+    "In September 1868 he began Boris Godunov, writing his own libretto from Pushkin and Karamzin; the first version was complete within a year and became the centre of his career.",
+  "modest-mussorgsky.interpretation.turning_point.1":
+    "This is consistent with a turn to large-scale work shaped by his own ideas rather than by his circle's advice.",
+  /* ---------------------------------------------------------- olaudah-equiano (Roster66) */
+  "olaudah-equiano.achievement.1":
+    "In 1789 he published his autobiography, The Interesting Narrative of the Life of Olaudah Equiano, which ran to nine editions in his lifetime and is credited by scholars with helping to establish the slave narrative as a genre.",
+  "olaudah-equiano.achievement.2":
+    "Enslaved from childhood, he bought his own freedom on Montserrat in 1766 after trading on his own account, then worked as a sailor and steward in the Mediterranean, the Atlantic and on the 1773 Phipps Arctic expedition.",
+  "olaudah-equiano.achievement.3":
+    "He raised money for the book by selling subscriptions, issued it under his own name and toured to promote it; according to Carey it was a bestseller that made him wealthy.",
+  "olaudah-equiano.moment.1":
+    "Appointed commissary of provisions for the Black Poor sailing to Sierra Leone in 1787, he complained to the Navy Commissioners that contracted supplies had not been delivered; Captain Thompson blamed both him and the agent Irwin for the quarrel, and the committee sided with Irwin and relieved him of the post.",
+  "olaudah-equiano.interpretation.moment.1":
+    "This is consistent with being willing to press a complaint against a powerful agent even at the cost of his post.",
+  "olaudah-equiano.moment.2":
+    "He funded the 1789 Narrative himself by selling subscriptions in advance and issued it under his own name, as the plate lettering 'Published March 1. 1789 by G. Vassa' shows, then toured to promote it.",
+  "olaudah-equiano.interpretation.moment.2":
+    "This is consistent with taking the initiative to bring his own work to readers rather than waiting for a publisher.",
+  "olaudah-equiano.turning_point.1":
+    "After years of trading on his own account around the Caribbean and Savannah River, he bought his freedom on Montserrat in 1766, which opened a career as a free sailor and, later, an author.",
+  "olaudah-equiano.interpretation.turning_point.1":
+    "This is consistent with sustained, goal-directed effort toward a long-held aim.",
+  /* ---------------------------------------------------------- phillis-wheatley (Roster66) */
+  "phillis-wheatley.achievement.1":
+    "In 1773, at about 20, she published Poems on Various Subjects, Religious and Moral in London, which the Library of Congress calls the first volume of poetry by an African American.",
+  "phillis-wheatley.achievement.2":
+    "Her 1770 elegy on the evangelist George Whitefield drew international attention and the interest of the Countess of Huntingdon, whose backing made the London edition possible.",
+  "phillis-wheatley.achievement.3":
+    "Her volume carried a signed attestation by eighteen leading Bostonians that she wrote the poems, and anthologies credit her with a founding role in African American literature.",
+  "phillis-wheatley.moment.1":
+    "Her owner's letter in the 1773 book says she learned English within sixteen months of arriving, that her own curiosity led her to writing, and that she wished to learn Latin; she later studied Latin and read Homer, Virgil and Ovid.",
+  "phillis-wheatley.interpretation.moment.1":
+    "This is consistent with a self-directed appetite for learning, though the strongest wording comes from her owner's promotional letter.",
+  "phillis-wheatley.moment.2":
+    "After a 1772 proposal to print her poems in Boston by subscription failed, her poems were sent to London and she sailed there in 1773; in 1779 she advertised a proposal for a second volume.",
+  "phillis-wheatley.interpretation.moment.2":
+    "This is consistent with pursuing publication through a new route after a setback, though the sources credit her family and patrons as well.",
+  "phillis-wheatley.turning_point.1":
+    "Her elegy for George Whitefield in 1770 brought her wide notice, and she wrote to the Countess of Huntingdon, Whitefield's patron, about it; the Countess later backed her London edition.",
+  "phillis-wheatley.interpretation.turning_point.1":
+    "This is consistent with a poem that won an influential patron, though how much of the outcome was her own persuasion is not shown.",
+  /* ---------------------------------------------------------- ruben-dario (Roster66) */
+  "ruben-dario.achievement.1":
+    "He led Spanish-American modernismo: Azul (1888), written in Chile, broke with ornate Romantic style and is generally seen as the movement's starting point, and Prosas profanas (1896) consolidated it across Spanish America.",
+  "ruben-dario.achievement.2":
+    "His Cantos de vida y esperanza (1905) is described as his most mature collection, and Lorca, Neruda, Borges and Paz regarded him as foundational, while young Spanish poets such as Juan Ramon Jimenez and the Machado brothers were drawn to his verse.",
+  "ruben-dario.achievement.3":
+    "He wrote steadily as a journalist, for La Epoca in Chile and for La Nacion of Buenos Aires, which sent him to Spain in 1898, and in Los raros (1896) he wrote essays on writers he admired.",
+  "ruben-dario.moment.1":
+    "When the critic Clarin dismissed him as a derivative versifier in 1893, Dario answered in La Nacion with 'Pro domo mea', saying he was no head of a school and did not ask to be imitated.",
+  "ruben-dario.interpretation.moment.1":
+    "This is consistent with answering a public attack in print rather than letting it pass.",
+  "ruben-dario.moment.2":
+    "In Prosas profanas (1896) he experimented with rhythm, meter and sound, and over the years he revised earlier work, so that the 1905 edition of Azul is called its definitive version.",
+  "ruben-dario.interpretation.moment.2":
+    "This is consistent with treating form as something to try out and refine.",
+  "ruben-dario.turning_point.1":
+    "In Chile he published Azul (1888), which broke with ornate Romantic style, and Juan Valera's prologues to later editions brought him fame in both the Americas and Europe.",
+  "ruben-dario.interpretation.turning_point.1":
+    "This is consistent with a new poetic voice that changed the direction of his career.",
+  /* ---------------------------------------------------------- samuel-slater (Roster66) */
+  "samuel-slater.achievement.1":
+    "In December 1790, working for Moses Brown with local mechanics, he started up the first permanent American cotton-spinning mill in Pawtucket, Rhode Island, bringing British Arkwright-system technology to the United States.",
+  "samuel-slater.achievement.2":
+    "He ran the 'Rhode Island System' of small rural spinning mills staffed by whole families, with children aged 7 to 12 among the first workers, a model that spread across New England and set the tone of early industrialization for about two decades.",
+  "samuel-slater.achievement.3":
+    "A generation of millwrights and textile workers trained under him, and he built and financed mill villages such as Slatersville across southern New England until his death in 1835.",
+  "samuel-slater.moment.1":
+    "On 2 December 1789, having heard that Moses Brown wanted a manager of cotton spinning, he wrote to offer his services, and then travelled to Pawtucket and judged Brown's existing machines would not work.",
+  "samuel-slater.interpretation.moment.1":
+    "This is consistent with approaching an opening on his own initiative rather than waiting to be recruited.",
+  "samuel-slater.moment.2":
+    "In 1789 he left England disguised as a farmer and told no one he was going, despite British restrictions on skilled textile workers emigrating.",
+  "samuel-slater.interpretation.moment.2":
+    "This is consistent with accepting a legal and personal risk for a chance to build something new.",
+  "samuel-slater.turning_point.1":
+    "In 1797 he split from Almy and Brown and built a separate mill, the White Mill, with the Wilkinson family, which turned out thread continuously rather than filling custom orders.",
+  "samuel-slater.interpretation.turning_point.1":
+    "This is consistent with pursuing his own model of continuous production over staying inside the existing partnership.",
+  /* ---------------------------------------------------------- soren-kierkegaard (Roster66) */
+  "soren-kierkegaard.achievement.1":
+    "In pseudonymous works published between 1843 and 1846, including Either/Or, Fear and Trembling, Philosophical Fragments, The Concept of Anxiety and Concluding Unscientific Postscript, he examined what it is to exist as an individual; Britannica calls him a major influence on existentialism and Protestant theology in the twentieth century.",
+  "soren-kierkegaard.achievement.2":
+    "He wrote under a series of pseudonyms, each voicing a distinct worldview, and used irony, satire and what he called indirect communication to draw readers into their own engagement with questions of how to live.",
+  "soren-kierkegaard.achievement.3":
+    "In a second run of writing from 1847, including Works of Love and The Sickness Unto Death, he set out the demands of Christian faith, and in 1854-55 he attacked the Danish state church in a pamphlet he founded, The Moment.",
+  "soren-kierkegaard.moment.1":
+    "After the pseudonymous Either/Or appeared in 1843, he insisted that his works continue to be attributed to their pseudonymous authors, who Britannica says are best understood like characters in a novel embodying distinctive worldviews.",
+  "soren-kierkegaard.interpretation.moment.1":
+    "This is consistent with an inventive, unconventional approach to authorship.",
+  "soren-kierkegaard.moment.2":
+    "Spared by the satirical magazine The Corsair, he publicly challenged it, and IEP says it then launched a series of attacks on him; IEP gives vanity as a partial reason alongside his critique of the press.",
+  "soren-kierkegaard.interpretation.moment.2":
+    "This is consistent with willingness to start a public confrontation rather than avoid one.",
+  "soren-kierkegaard.turning_point.1":
+    "Having meant the 1846 Concluding Unscientific Postscript to end his authorship, he stayed an author instead of becoming a pastor, and SEP describes the years that followed as a second, highly productive period of writing that included Works of Love and The Sickness Unto Death.",
+  "soren-kierkegaard.interpretation.turning_point.1":
+    "This is consistent with sustained, high-volume work as a writer over many years.",
+  /* ---------------------------------------------------------- sri-aurobindo (Roster66) */
+  "sri-aurobindo.achievement.1":
+    "After leaving the nationalist movement in 1910 for Pondicherry, he developed Integral Yoga and, in the monthly Arya (1914-21), published The Life Divine, The Synthesis of Yoga, Essays on the Gita and other works setting out a philosophy of spiritual evolution; a reviewer of his biography counts over 4,600 pages in the journal.",
+  "sri-aurobindo.achievement.2":
+    "A poet who wrote verse from his student days in England, he spent much of his adult life on the epic Savitri, reviewers describe it as running to more than 20,000 lines and finished shortly before his death, and he also wrote a study of poetry, The Future Poetry.",
+  "sri-aurobindo.achievement.3":
+    "At Pondicherry a community of disciples gathered around him and grew into the Sri Aurobindo Ashram, whose organisation was taken over by the Mirra Alfassa known as the Mother; its supporters and its critics still dispute how his life should be told.",
+  "sri-aurobindo.moment.1":
+    "In 1914, after four years of yoga at Pondicherry, he began the monthly Arya, which appeared without interruption for six and a half years and carried most of his major prose works as serials.",
+  "sri-aurobindo.interpretation.moment.1":
+    "This is consistent with keeping to a regular writing schedule over several years.",
+  "sri-aurobindo.moment.2":
+    "Reviewers of his biography say he worked on the epic Savitri for much of his adult life and completed it only shortly before his death.",
+  "sri-aurobindo.interpretation.moment.2":
+    "This is consistent with returning to one long work over decades, as the reviewers describe it.",
+  "sri-aurobindo.turning_point.1":
+    "In 1910 he withdrew from public life to Pondicherry in French India, where the Ashram says the work needed the exclusive concentration of all his energies, and from then on he devoted himself to yoga and writing.",
+  "sri-aurobindo.interpretation.turning_point.1":
+    "This is consistent with narrowing his activity to a single, demanding line of work.",
+  /* ---------------------------------------------------------- taras-shevchenko (Roster66) */
+  "taras-shevchenko.achievement.1":
+    "His collection Kobzar (1840) and the poems that followed are credited with laying the foundations of modern Ukrainian literature and showing that Ukrainian could carry serious poetry; by the 1990s parts of Kobzar had been translated into more than 100 languages.",
+  "taras-shevchenko.achievement.2":
+    "A painter trained at the Imperial Academy of Arts under Karl Briullov, he issued the etching album Picturesque Ukraine in 1844, painted more than 150 portraits and was named Academician of Engraving in 1860.",
+  "taras-shevchenko.achievement.3":
+    "Under a ban on writing and painting during his 1847-57 military exile, he went on writing poems in secret notebooks and, as artist of the 1848-49 Aral Sea expedition, painted the landscapes of the region.",
+  "taras-shevchenko.moment.1":
+    "Banned from writing and painting in exile, he copied one of his poems into a small book hidden in his boot, and he was re-arrested in 1850 for violating the ban.",
+  "taras-shevchenko.interpretation.moment.1":
+    "This is consistent with continuing his creative work despite a real risk of punishment.",
+  "taras-shevchenko.moment.2":
+    "In January 1861 he compiled a primer for Ukrainian Sunday schools, published it at his own expense and gave copies free to the schools.",
+  "taras-shevchenko.interpretation.moment.2":
+    "This is consistent with putting his own money into work meant to help others learn.",
+  "taras-shevchenko.turning_point.1":
+    "Returning to St Petersburg in 1859, he took up etching and aquatint, and in September 1860 the Academy of Arts named him Academician of Engraving.",
+  "taras-shevchenko.interpretation.turning_point.1":
+    "This is consistent with turning to a new medium late in his career and pursuing it to formal recognition.",
+  /* ---------------------------------------------------------- tsuda-umeko (Roster66) */
+  "tsuda-umeko.achievement.1":
+    "In 1900 she resigned from her teaching posts and opened Joshi Eigaku Juku, the Women's Institute for English Studies, in Tokyo with ten students; the school, funded largely by American women, became Tsuda University and is described as one of the first institutions of higher education for women in Japan.",
+  "tsuda-umeko.achievement.2":
+    "While studying at Bryn Mawr she started the American Scholarship for Japanese Women, backed by a Philadelphia committee; the programme ran until 1976 and supported 25 women students, several of whom became leaders in women's education.",
+  "tsuda-umeko.achievement.3":
+    "Sent to the United States in 1871 at the age of six as one of the first Japanese women to study abroad, she later returned for higher study and majored in biology at Bryn Mawr, co-authoring with her adviser Thomas Hunt Morgan a paper published in 1894.",
+  "tsuda-umeko.moment.1":
+    "In July 1900 she resigned from both the Peeresses' School and the Higher Normal School for Women, the highest-ranking and best-paid posts then open to a woman, and opened her own school in September with ten students.",
+  "tsuda-umeko.interpretation.moment.1":
+    "This is consistent with giving up a secure position to start the school she had been planning for years.",
+  "tsuda-umeko.moment.2":
+    "When Bryn Mawr suggested she stay on as a researcher, she declined and went home to teach, which some faculty and the college president resented.",
+  "tsuda-umeko.interpretation.moment.2":
+    "This is consistent with putting a goal for other women ahead of an academic career, as her biographer tells it.",
+  "tsuda-umeko.turning_point.1":
+    "In 1889 she took a paid two-year leave from the Peeresses' School and enrolled at Bryn Mawr on a scholarship, studying biology and meeting the Philadelphia supporters who later funded her school.",
+  "tsuda-umeko.interpretation.turning_point.1":
+    "This is consistent with seeking further training of her own before building a school.",
+  /* ---------------------------------------------------------- werner-von-siemens (Roster66) */
+  "werner-von-siemens.achievement.1":
+    "Founded the telegraph construction firm Siemens & Halske in Berlin in 1847 with the mechanic Johann Georg Halske; it built the Berlin-Frankfurt line, the Russian state network and submarine cables, and organised the Indo-European telegraph from London to Calcutta, completed in 1870.",
+  "werner-von-siemens.achievement.2":
+    "Announced the dynamo-electric principle to the Berlin Academy of Sciences in January 1867: a generator that excites its own electromagnets, replacing permanent magnets; the Dictionary of Scientific Biography notes that others reached the principle at about the same time but that he foresaw its uses for power and developed them, and his firm moved into electric traction and central generating stations.",
+  "werner-von-siemens.achievement.3":
+    "Held that technology should be built on science and in return analysed to derive theory; he advised the Prussian government that a nation must excel in research, and his money and land helped found the Physikalisch-Technische Reichsanstalt in Berlin (1887), first headed by Helmholtz.",
+  "werner-von-siemens.moment.1":
+    "After his published criticism of the careless construction and repair of the Prussian state telegraph lines, the government stopped giving his firm work for several years; the firm then took on railway telegraphy and foreign contracts, notably the Russian telegraph network.",
+  "werner-von-siemens.interpretation.moment.1":
+    "The episode is consistent with a willingness to accept a commercial cost for criticism and with adaptability in redirecting the firm.",
+  "werner-von-siemens.moment.2":
+    "In his report to the Berlin Academy in early 1867 he wrote that technology now had the means to generate electric power of unlimited strength cheaply wherever labour was available.",
+  "werner-von-siemens.interpretation.moment.2":
+    "This forecast is consistent with an eye for where a new technology would lead, though it is quoted in a company biography and the principle was reached by others at about the same time.",
+  "werner-von-siemens.turning_point.1":
+    "In June 1849 he resigned his army commission to devote himself to the telegraph firm he had founded with Halske two years earlier.",
+  "werner-von-siemens.interpretation.turning_point.1":
+    "Leaving a secure commission for the firm is consistent with proactive agency in building his own enterprise.",
+  /* ---------------------------------------------------------- wilhelm-von-humboldt (Roster66) */
+  "wilhelm-von-humboldt.achievement.1":
+    "A philosopher of language, he argued that language is the formative organ of thought rather than a mere vehicle for existing ideas, and in 1820 submitted a plan for a new discipline of comparative linguistics; Britannica says his contribution to the scientific study of language became highly valued in the twentieth century.",
+  "wilhelm-von-humboldt.achievement.2":
+    "As head of the Prussian ministry's education section in 1809-10 he reformed schooling and was chiefly instrumental in founding the University of Berlin, now Humboldt University, on the idea of combining teaching and research; the university calls him a co-founder, and historians note the 'Humboldt model' later grew beyond what he did alone.",
+  "wilhelm-von-humboldt.achievement.3":
+    "Drawing on a correspondence network of missionaries, diplomats and scholars on six continents, he collected grammars and word lists across many languages and, in his Kawi work, showed that the languages of the South Pacific form what is now called the Austronesian family.",
+  "wilhelm-von-humboldt.moment.1":
+    "In June 1820 he submitted to the Berlin Academy a plan for a new discipline of comparative linguistics, setting out its philosophy and methodology and a blueprint for a research programme.",
+  "wilhelm-von-humboldt.interpretation.moment.1":
+    "This is consistent with building a general framework for a field rather than only collecting data.",
+  "wilhelm-von-humboldt.moment.2":
+    "Settled at Jena from 1794, he acted as philosophical adviser and critical collaborator to Goethe and Schiller, and SEP says his criticism furthered Schiller's Letters on the Aesthetic Education of Man and Goethe's Hermann und Dorothea.",
+  "wilhelm-von-humboldt.interpretation.moment.2":
+    "This is consistent with working closely with other creators and improving their work through criticism.",
+  "wilhelm-von-humboldt.turning_point.1":
+    "Having entered the Prussian civil service in 1790, he took leave in 1791 because he found the post uninspiring and spent the following years on scholarly and philosophical work near Jena.",
+  "wilhelm-von-humboldt.interpretation.turning_point.1":
+    "This is consistent with a preference for scholarly independence over an early official career.",
+  /* ---------------------------------------------------------- zhan-tianyou (Roster66) */
+  "zhan-tianyou.achievement.1":
+    "He was chief engineer of the Beijing-Zhangjiakou railway, built from 1905 to 1909 and described as the first main line China designed and built itself.",
+  "zhan-tianyou.achievement.2":
+    "He took the line through the steep Guangou pass with the Badaling tunnel and a zigzag at Qinglongqiao, and the project was reported finished about two years early and under budget.",
+  "zhan-tianyou.achievement.3":
+    "Sent to the United States in 1872 with the Chinese Educational Mission, he graduated from Yale's Sheffield Scientific School in 1881 and went on to work on more than ten railway lines in China.",
+  "zhan-tianyou.moment.1":
+    "After surveys in August 1905 of several candidate lines through the Guangou pass, he chose the Qinglongqiao route, and later added the Juyongguan tunnel when he found the grade too steep.",
+  "zhan-tianyou.interpretation.moment.1":
+    "This is consistent with comparing alternatives and revising the plan on the evidence.",
+  "zhan-tianyou.moment.2":
+    "After the line opened he wrote in letters of 1909 and 1910 that the zigzag was not the best engineering solution and that spiral loops were preferable where possible.",
+  "zhan-tianyou.interpretation.moment.2":
+    "This is consistent with candidly reassessing his own design choice.",
+  "zhan-tianyou.turning_point.1":
+    "In 1905, after years on the Kaiping and other lines under British managers, he became chief engineer of the Peking-Kalgan line, which was to be built without foreign engineers or capital.",
+  "zhan-tianyou.interpretation.turning_point.1":
+    "This is consistent with taking charge of a large project and delivering it within its limits.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -26281,6 +26794,519 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1876년부터 1880년 사이 그는 환전상에서 은행 설립자로 옮겨 갔다. 1876년 제3국립은행 창립에 참여했고 1880년 야스다 은행을 열었으며, 이는 이후 보험사와 그룹의 토대가 되었다.",
   "yasuda-zenjiro.interpretation.turning_point.1":
     "이는 작은 환전업을 더 큰 제도적 구조로 의도적으로 키워 가는 모습과 일치한다.",
+  /* ---------------------------------------------------------- adolf-erik-nordenskiold (Roster66) */
+  "adolf-erik-nordenskiold.achievement.1":
+    "1878~80년 베가호 탐험을 지휘했다. 노르웨이를 출발해 아시아 북극 해안을 따라 태평양에 이른 이 항해를 브리태니커는 북동항로의 첫 성공적 통과로 설명하며, 1880년 귀환한 그에게 오스카르 왕은 남작 작위를 내렸다.",
+  "adolf-erik-nordenskiold.achievement.2":
+    "1857년부터 1883년까지 스피츠베르겐, 그린란드, 카라해 등으로 약 열 차례의 북극 탐험을 이끌거나 참여했으며, 자연과학자 팀을 동행시켜 과학 조사를 북극 탐험의 일부로 만들었다. 『과학 인명사전』은 다섯 권으로 된 베가호 보고서가 본격적인 극지 연구의 시작이라고 평가한다.",
+  "adolf-erik-nordenskiold.achievement.3":
+    "베가호 항해 뒤에는 지도의 역사로 눈을 돌려 『복제 지도 도감』(1889)과 『페리플루스』(1897)를 펴냈다. 『과학 인명사전』은 이 책들이 지도 제작사 연구의 토대를 놓았다고 평가한다. 그가 모은 약 2만 4천 장의 지도와 4천여 종의 문헌은 오늘날 헬싱키의 노르덴셸드 컬렉션이 되어 1997년 유네스코 세계기록유산에 올랐다.",
+  "adolf-erik-nordenskiold.moment.1":
+    "베가호로 출항하기 전인 1875년과 1876년에 카라해 예비 항해로 예니세이강 하구까지 갔고, 앞선 항해 기록과 노르웨이 어부들의 카라해 항해 일지를 연구했다.",
+  "adolf-erik-nordenskiold.interpretation.moment.1":
+    "이러한 사전 준비는 계획 지향적 접근과 부합하지만, 자료는 이전 탐험에서의 물자 부족도 함께 기록하고 있다.",
+  "adolf-erik-nordenskiold.moment.2":
+    "1872~73년 스피츠베르겐 탐험에서는 얼음과 폭풍으로 극점 행군용 순록이 흩어지고 구조선이 도착하지 못해, 25명분 물자로 67명이 조립식 오두막에서 겨울을 났다. 그런데도 기상 관측 자료를 모았고 봄에는 일부 대원이 얼음 위로 나섰다.",
+  "adolf-erik-nordenskiold.interpretation.moment.2":
+    "이 일화는 높은 위험 노출과 끈기와 부합하지만, 자료는 그가 위험을 어떻게 저울질했는지는 말하지 않는다.",
+  "adolf-erik-nordenskiold.turning_point.1":
+    "베가호 항해 뒤에는 지질학과 현장 탐험에서 지도의 역사로 중심을 옮겨, 베가호 책의 인세를 책과 지도를 사는 데 쓰고 『복제 지도 도감』과 『페리플루스』를 펴냈다.",
+  "adolf-erik-nordenskiold.interpretation.turning_point.1":
+    "현장 탐험에서 새로운 학문 분야로의 이 전환은 폭넓은 지적 범위와 부합하지만, 한 평가는 이 분야에서의 심각한 오류도 기록한다.",
+  /* ---------------------------------------------------------- adolfo-lutz (Roster66) */
+  "adolfo-lutz.achievement.1":
+    "1893~1908년 상파울루 세균학연구소(현 아돌푸 루츠 연구소)를 이끌며, 현지의 콜레라와 페스트 유행과 '상파울루 열병'이 장티푸스임을 규명했다.",
+  "adolfo-lutz.achievement.2":
+    "1902~1903년 상파울루에서 모기를 매개로 한 황열 전파 실험을 재현했고, 에밀리우 히바스와 함께 매개 모기 방제 계획을 세웠다.",
+  "adolfo-lutz.achievement.3":
+    "오늘날 파라콕시디오이데스진균증으로 불리는 질환의 1908년 증례 보고를 발표했고, 주혈흡충의 달팽이 숙주와 브라질 모기를 포함한 기생충을 연구했다.",
+  "adolfo-lutz.moment.1":
+    "1902년 12월 황열 시험에서 유충부터 모기를 길러 가벼운 환자로부터 감염시키고 12일 넘게 보관한 뒤 성인 자원자 여섯 명에게 시험했다.",
+  "adolfo-lutz.interpretation.moment.1":
+    "실험 설계에 신중하고 통제된 접근을 취했다는 점과 부합한다.",
+  "adolfo-lutz.moment.2":
+    "1940년 사망할 때까지 나병의 모기 전파설을 계속 옹호했고, 당대의 한 비판자는 40년이 지나도 그가 아무 증거도 내놓지 못했다고 말했다.",
+  "adolfo-lutz.interpretation.moment.2":
+    "근거가 따라오지 못한 가설을 오래 고수한 지속성과 부합한다.",
+  "adolfo-lutz.turning_point.1":
+    "1908년 세균학연구소를 떠나 리우의 오스왈두 크루스 연구소로 옮겼고, 한 역사학자는 그곳에서 동물학과 혼자 하는 실험실·현장 연구로 돌아갈 수 있었다고 본다.",
+  "adolfo-lutz.interpretation.turning_point.1":
+    "한 역사학자의 해석처럼, 공중보건 지도자 역할보다 혼자 하는 연구를 선호했음과 부합한다.",
+  /* ---------------------------------------------------------- alfredo-di-stefano (Roster66) */
+  "alfredo-di-stefano.achievement.1":
+    "그는 레알 마드리드를 유러피언컵 초대 5연패(1956~60년)로 이끌었고 결승마다 득점했으며, 깊이 내려와 경기장 전역을 누빈 공격수였다.",
+  "alfredo-di-stefano.achievement.2":
+    "그는 1957년과 1959년 유럽 올해의 선수로 뽑혔고 1989년 프랑스 풋볼이 주는 슈퍼 발롱도르를 받았다.",
+  "alfredo-di-stefano.achievement.3":
+    "40세에 은퇴한 뒤 아르헨티나와 스페인에서 감독을 맡아 보카 주니어스, 리베르 플레이트, 발렌시아에서 리그 우승을, 발렌시아와 함께 컵위너스컵 우승을 이뤘다.",
+  "alfredo-di-stefano.moment.1":
+    "그는 레알 마드리드의 첫 유러피언컵 결승 5경기에서 모두 득점했고, 1960년 아인트라흐트 프랑크푸르트를 7-3으로 꺾은 결승에서 해트트릭으로 연승을 마무리했다.",
+  "alfredo-di-stefano.interpretation.moment.1":
+    "이는 가장 큰 경기에서 이기려는 강한 의지와 일치한다.",
+  "alfredo-di-stefano.moment.2":
+    "1957년 관중석에서 지켜본 보비 찰턴은 디 스테파노가 골키퍼에게서 공을 받고 풀백에게 지시를 내렸다고 회상했고, 팀 동료 코파는 그를 오만한 독재자라고 불렀다.",
+  "alfredo-di-stefano.interpretation.moment.2":
+    "이는 경기장에서 주도권을 쥐는 모습과 일치하며, 일부 동료에게는 부담이 되었음을 보여 준다.",
+  "alfredo-di-stefano.turning_point.1":
+    "1953년 콜롬비아가 국제축구연맹에 복귀해 밀로나리오스의 스타들이 소속팀을 잃자, 그는 이적 분쟁 끝에 스페인으로 건너가 레알 마드리드에 입단했다.",
+  "alfredo-di-stefano.interpretation.turning_point.1":
+    "이는 상황이 바뀌자 새 나라에서 경력을 다시 쌓는 모습과 일치한다.",
+  /* ---------------------------------------------------------- cyrus-mccormick (Roster66) */
+  "cyrus-mccormick.achievement.1":
+    "그는 말이 끄는 기계식 수확기를 개발해 1831년 시연하고 1834년 특허를 받았으며, 이 기계는 손낫을 대체해 곡물 수확에 드는 노동을 크게 줄였다.",
+  "cyrus-mccormick.achievement.2":
+    "그는 1847년 시카고로 생산 거점을 옮겨 공장을 세웠고, 이 공장은 1848년 대량 생산을 시작해 1856년에는 연간 약 4,000대의 수확기를 팔았다.",
+  "cyrus-mccormick.achievement.3":
+    "그는 고정 가격, 성능 보증서, 할부 결제로 수확기를 팔았고, 이 기계는 1851년 런던 수정궁 박람회에서 금메달을 받았다.",
+  "cyrus-mccormick.moment.1":
+    "1831년 그는 아버지가 끝내지 못한 수확기를 넘겨받아 몇 주 만에 작동하는 기계를 시연했고, 이후 여러 해 거의 팔리지 않는 가운데에도 개량을 이어 갔다.",
+  "cyrus-mccormick.interpretation.moment.1":
+    "이는 수익이 거의 없는 여러 해 동안에도 제품을 계속 다듬는 모습과 일치한다.",
+  "cyrus-mccormick.moment.2":
+    "1851년 7월 영국 팁트리 히스 시험에서 허시의 기계가 막힌 반면 그의 수확기는 젖은 곡물에서도 작동했고, 처음에 조롱했던 런던 타임스는 이를 가치 있는 기여라고 평했다.",
+  "cyrus-mccormick.interpretation.moment.2":
+    "이는 공개 시연으로 회의적인 사람들을 설득하려는 모습과 일치한다.",
+  "cyrus-mccormick.turning_point.1":
+    "외부 업체에 설계를 맡긴 것이 평판에 해가 되자, 그는 1847년 시카고로 옮겨 자체 공장을 세웠다.",
+  "cyrus-mccormick.interpretation.turning_point.1":
+    "이는 실패 뒤에 방식을 바꾸는 모습과 일치한다.",
+  /* ---------------------------------------------------------- desiderius-erasmus (Roster66) */
+  "desiderius-erasmus.achievement.1":
+    "북유럽 르네상스를 대표하는 인문학자로, 1516년 자신의 라틴어 번역과 주석을 곁들인 그리스어 신약성서를 출간했다. 이는 시장에 처음 나온 판이었고, 그는 이후 네 차례 개정했다.",
+  "desiderius-erasmus.achievement.2":
+    "알두스 출판사를 위해 3,000개가 넘는 항목으로 늘린 『격언집』과 풍자서 『우신예찬』(1511)을 비롯한 베스트셀러를 썼으며, 『우신예찬』은 지금까지 계속 출간되고 있다.",
+  "desiderius-erasmus.achievement.3":
+    "히에로니무스, 아우구스티누스, 크리소스토무스, 오리게네스의 저작을 편집했고, 학식 있는 경건과 원어 원전으로의 회귀를 널리 알렸다.",
+  "desiderius-erasmus.moment.1":
+    "1516년 신약성서는 출판업자 프로벤의 재촉으로 약 열 달 만에 만들어졌고, 초판에는 수백 개의 조판 오류가 있었다.",
+  "desiderius-erasmus.interpretation.moment.1":
+    "출판업자의 압박 속에 매우 빠르게 작업하며 완성도를 일부 희생한 모습과 부합한다.",
+  "desiderius-erasmus.moment.2":
+    "그는 몇 년 동안 어느 종교 진영도 공개 지지하기를 거부했고, 1524년에는 마지못해 루터를 겨냥한 정중한 자유의지 논고를 펴냈다.",
+  "desiderius-erasmus.interpretation.moment.2":
+    "양쪽에서 의심을 받으면서도 독립적인 지적 입장을 지킨 태도와 부합한다.",
+  "desiderius-erasmus.turning_point.1":
+    "첫 영국 체류 중 모어와 콜레트를 만난 뒤 그리스어 학습에 나섰고, 이는 그를 성서 학문으로, 이어 그리스어 신약성서 편찬으로 이끌었다.",
+  "desiderius-erasmus.interpretation.turning_point.1":
+    "학문적 목표를 위해 새 언어를 깊이 익히기로 한 결심과 부합한다.",
+  /* ---------------------------------------------------------- francisco-jose-de-caldas (Roster66) */
+  "francisco-jose-de-caldas.achievement.1":
+    "그는 물의 끓는점으로 고도를 재는 방법을 고안해 안데스 산지에 적용했고, 1801년부터 1809년까지 여러 글로 발표했다.",
+  "francisco-jose-de-caldas.achievement.2":
+    "1805년부터 그는 보고타의 새 천문대를 맡아 위치와 고도를 측정하고, 기상 관측을 이어 가며 1808년에 그 기록을 발표했다.",
+  "francisco-jose-de-caldas.achievement.3":
+    "그는 무티스의 식물원정대를 위해 키나를 채집하고 훔볼트와 고도에 따른 식물 분포를 연구했으며, 1808년부터 주간지 『누에보 레이노 데 그라나다 주보』를 펴냈으며 이 잡지는 1811년까지 이어졌다.",
+  "francisco-jose-de-caldas.moment.1":
+    "푸라세 화산 근처에서 온도계가 깨지자 그는 이를 수리해 눈과 끓는 물로 다시 눈금을 맞췄고, 그 불일치에서 끓는점과 기압의 관계에 이르렀다.",
+  "francisco-jose-de-caldas.interpretation.moment.1":
+    "이는 임시로 장비를 고친 뒤 예상 밖의 불일치를 끝까지 따라가는 모습과 일치한다.",
+  "francisco-jose-de-caldas.moment.2":
+    "1801년 10월, 훔볼트를 만나기 전에 그는 키토에서 편지를 보내 산타페의 친구들이 훔볼트의 기압 고도 단면도와 자료를 베껴 준 데 감사하며 그것을 보물이라 부르고 직접 주석을 달았다.",
+  "francisco-jose-de-caldas.interpretation.moment.2":
+    "이는 만남에 앞서 스스로 더 나은 방법을 찾아 나서는 주도성과 일치한다.",
+  "francisco-jose-de-caldas.turning_point.1":
+    "1802년 그는 키토에서 훔볼트와 봉플랑을 만나 여섯 달을 함께 지내며 천문학자, 측지학자, 지리학자, 식물학자로 일하는 데 필요한 많은 것을 배웠다.",
+  "francisco-jose-de-caldas.interpretation.turning_point.1":
+    "이는 독학하던 관측자가 훈련받은 여행자들을 만나 여러 분야로 시야를 넓힌 것과 일치한다.",
+  /* ---------------------------------------------------------- fritz-muller (Roster66) */
+  "fritz-muller.achievement.1":
+    "브라질 해안의 갑각류 발생을 연구해 다윈의 이론을 검증한 『다윈을 위하여』(1864)를 썼고, 다윈은 1869년 영어판 출간 비용을 댔다.",
+  "fritz-muller.achievement.2":
+    "서로 관련 없는 맛없는 나비들이 닮아 가는 이유를, 포식자가 경고 무늬를 학습하므로 닮은 종들이 희생을 나눠 진다는 논리로 설명했다. 이 개념은 그의 이름을 따 뮐러 의태라 불린다.",
+  "fritz-muller.achievement.3":
+    "블루메나우에서 덩굴식물, 난초, 흰개미, 벌에 관한 현장 관찰을 다윈에게 보냈고, 1876년부터 리우데자네이루 국립박물관의 순회 박물학자로 일했다.",
+  "fritz-muller.moment.1":
+    "야생에서 잡은 수컷 나비의 날개를 펴다가 날개의 털뭉치에서 강한 냄새가 나는 것을 알아채고, 이를 암수 사이의 화학 신호와 연결지었다.",
+  "fritz-muller.interpretation.moment.1":
+    "현장 표본의 사소한 세부에 밀착해 주의를 기울이는 태도와 부합한다.",
+  "fritz-muller.moment.2":
+    "1865~1882년 다윈에게 약 106통의 편지를 썼고, 다윈은 그의 관찰 여러 건을 『네이처』의 짧은 논문 여섯 편을 포함해 학술지에 보냈다.",
+  "fritz-muller.interpretation.moment.2":
+    "멀리 있는 협력자와 발견을 꾸준히 공유하는 습관과 부합한다.",
+  "fritz-muller.turning_point.1":
+    "1861년 다윈의 『종의 기원』 독일어 번역본을 받은 뒤 갑각류 연구를 다윈 이론의 검증으로 재편했고, 이는 『다윈을 위하여』와 다윈과의 서신 교환으로 이어졌다.",
+  "fritz-muller.interpretation.turning_point.1":
+    "검증할 가치가 있다고 본 새 이론을 중심으로 연구를 재편하는 태도와 부합한다.",
+  /* ---------------------------------------------------------- heinrich-heine (Roster66) */
+  "heinrich-heine.achievement.1":
+    "《노래의 책》(1827)은 낭만주의 시의 관습을 아이러니하게 비틀어 도시적인 감각으로 바꾸어 놓았고, 제프리 새먼스에 따르면 이 시집의 시들은 수많은 곡으로 작곡되어 세상에 퍼졌다.",
+  "heinrich-heine.achievement.2":
+    "《여행 그림》(1826~31)은 산문과 시, 허구화한 자서전, 사회 비평을 한데 엮어 라루스 백과사전이 새로운 종류의 장르라고 부르는 글쓰기를 만들어 냈고, 그의 명성을 세웠다.",
+  "heinrich-heine.achievement.3":
+    "1831년부터 파리에서 프랑스 독자를 위해 독일 문학과 종교, 철학에 관한 글을 썼고, 시집 《로만체로》(1851)를 펴냈는데, 시 재단은 이 시집의 서정시를 그의 가장 뛰어난 시로 꼽는다.",
+  "heinrich-heine.moment.1":
+    "파리의 동료 독일 작가 루트비히 뵈르네와 다툰 뒤 1841년 9월 뵈르네의 친구와 결투를 벌였고, 뵈르네가 죽은 직후 그를 풍자한 책을 펴냈다. 출판사 연표에는 하이네가 거부한 제목이 그대로 쓰였다고 기록되어 있다.",
+  "heinrich-heine.interpretation.moment.1":
+    "이 일화는 문학적 다툼을 글로, 심지어 결투로까지 끌고 가는 태도와 그에 따른 평판의 대가를 보여 준다.",
+  "heinrich-heine.moment.2":
+    "1835년 독일 연방은 그의 저작을 금지했으나, 같은 해 독일의 종교와 철학의 역사에 관한 글이 실린 《살롱》 제2권이 나왔고, 그는 평생 파리에서 계속 책을 냈다.",
+  "heinrich-heine.interpretation.moment.2":
+    "이는 금지 조치 아래에서도 출판을 멈추지 않고 이어 간 태도와 부합한다.",
+  "heinrich-heine.turning_point.1":
+    "1831년 함부르크에서 생계를 꾸리지 못한 그는 파리로 옮겨 남은 생을 그곳에서 보냈고, 아우크스부르크 《알게마이네 차이퉁》의 통신원이 되었으며 《두 세계 평론》 같은 프랑스 정기간행물에도 글을 썼다.",
+  "heinrich-heine.interpretation.turning_point.1":
+    "이는 첫 진로가 막히자 나라와 독자층을 바꾸는 태도와 부합한다.",
+  /* ---------------------------------------------------------- henry-john-heinz (Roster66) */
+  "henry-john-heinz.achievement.1":
+    "그는 1869년 펜실베이니아주 샤프스버그에서 홀스래디시를 팔기 시작해 이를 '57가지 제품'으로 알려진 식품 제조사 H. J. 하인즈 사로 키웠고, 1919년 그가 세상을 떠날 때 회사는 직원 6,500명과 지점 공장 25곳을 거느렸다.",
+  "henry-john-heinz.achievement.2":
+    "그는 홀스래디시를 투명한 유리병에 담아 내용물이 보이게 하고 제품을 '순수한 것'으로 내세웠으며, 1906년 제정된 순수식품·의약품법을 지지했다.",
+  "henry-john-heinz.achievement.3":
+    "그의 피츠버그 공장은 직원 식당과 무료 진료, 체육관, 강당, 강좌를 갖추고 일반인에게 견학을 열어 둔 모범 공장으로 운영되었다.",
+  "henry-john-heinz.moment.1":
+    "1893년 시카고 박람회에서 그의 전시장이 사람들이 잘 올라가지 않는 위층 회랑에 있자, 그는 소년들을 시켜 부스를 찾아오면 시계 장식을 준다는 표를 나눠 주게 했고 관람객이 몰려들었다.",
+  "henry-john-heinz.interpretation.moment.1":
+    "이는 홍보가 먹히지 않을 때 적은 비용으로 즉석에서 해법을 찾아내는 모습과 일치한다.",
+  "henry-john-heinz.moment.2":
+    "1886년 첫 런던 방문에서 그는 소개장 없이 포트넘 앤드 메이슨에 들어가 식료품 구매 책임자를 찾았고 견본 가방을 열어 보였으며, 구매 책임자는 일곱 가지 제품을 모두 들이겠다고 했다.",
+  "henry-john-heinz.interpretation.moment.2":
+    "이는 소개 없이 유력한 구매 담당자에게 직접 다가가는 모습과 일치한다.",
+  "henry-john-heinz.turning_point.1":
+    "첫 회사가 1870년대에 무너진 뒤 그는 1876년 형제와 사촌이 세운 새 회사 F. & J. 하인즈의 경영자로 돌아왔고, 1888년 회사를 완전히 인수해 H. J. 하인즈 사로 이름을 바꿨다.",
+  "henry-john-heinz.interpretation.turning_point.1":
+    "이는 사업이 무너진 뒤에도 업계를 떠나지 않고 다시 일으켜 세우는 모습과 일치한다.",
+  /* ---------------------------------------------------------- jan-evangelista-purkyne (Roster66) */
+  "jan-evangelista-purkyne.achievement.1":
+    "1830년대 현미경 연구를 통해 소뇌의 크고 가지가 많은 신경세포(1837)와 심실의 특수한 섬유를 기술했으며, 둘 다 오늘날 그의 이름으로 불린다.",
+  "jan-evangelista-purkyne.achievement.2":
+    "1818~19년의 주관적 시각에 관한 학위 논문은 조명이 약해질수록 파란 물체가 붉은 물체보다 밝게 보이는 푸르키녜 효과로 이어졌고, 그는 눈에 비치는 반사상도 기술했으며 이것 역시 그의 이름으로 불린다.",
+  "jan-evangelista-purkyne.achievement.3":
+    "브레슬라우에서 독립된 생리학과(1839)와 생리학 연구소(1842)를 만들었고 1851년에는 프라하에 두 번째 연구소를 열어, 대학 교육에 실험실 훈련을 자리 잡게 했다.",
+  "jan-evangelista-purkyne.moment.1":
+    "프라하의 공공 놀이공원 그네와 회전 놀이기구에서 적은 비용으로 자신을 실험 대상 삼아 현기증을 연구했고, 이후 의사들이 처방하는 용량이 너무 적다는 것을 보이려고 디기탈리스와 아트로핀을 직접 복용해 시험했다.",
+  "jan-evangelista-purkyne.interpretation.moment.1":
+    "이는 장비나 대상을 기다리기보다 단순한 수단으로 자기 자신에게 직접 시험하는 태도와 부합한다.",
+  "jan-evangelista-purkyne.moment.2":
+    "브레슬라우에서 새 현미경 요청이 거절되어 9년을 기다렸고, 대학이 공간과 장비를 마련해 주지 않자 연구와 교육의 상당 부분을 자기 집 실험실에서 진행했다.",
+  "jan-evangelista-purkyne.interpretation.moment.2":
+    "이는 제도적 지원이 없을 때 우회로를 찾아 연구를 이어 가는 태도와 부합한다.",
+  "jan-evangelista-purkyne.turning_point.1":
+    "1839년 브레슬라우에 독립된 생리학과를, 1842년에는 생리학 연구소를 세웠고, 집 실험실에서 하던 실험과 교육을 현대적 장비를 갖춘 대학 시설로 옮겼다.",
+  "jan-evangelista-purkyne.interpretation.turning_point.1":
+    "이는 임시변통의 집 실험실을 지속되는 기관으로 바꾸어 가는 태도와 부합한다.",
+  /* ---------------------------------------------------------- jose-celestino-mutis (Roster66) */
+  "jose-celestino-mutis.achievement.1":
+    "그는 1783년부터 1808년 사망할 때까지 누에바그라나다 왕립 식물원정대를 이끌며 채집가와 화가들을 직접 길렀고, 원정대는 약 2,700종 식물의 그림을 남겼다.",
+  "jose-celestino-mutis.achievement.2":
+    "그는 누에바그라나다의 키나(기나나무)를 연구해 약용 네 종과 스물네 변종을 구분했으며, 가톨릭 백과사전은 이 연구가 그의 업적에 지속적 가치를 준다고 평가한다.",
+  "jose-celestino-mutis.achievement.3":
+    "1762년 그는 로사리오 대학에 수학 강좌를 열어 학생들이 뉴턴과 코페르니쿠스를 읽게 했고, 그의 노력으로 1802~03년 보고타 천문대가 세워졌다.",
+  "jose-celestino-mutis.moment.1":
+    "1762년 수학 강좌를 열면서 그는 학생들에게 뉴턴의 프린키피아와 코페르니쿠스를 읽게 했고, 도미니코회가 종교재판소 대리인에게 그를 고발했으나 재판소는 코페르니쿠스 이론을 단죄할 수 없다고 판결했다.",
+  "jose-celestino-mutis.interpretation.moment.1":
+    "이는 지역의 반대에도 새로운 이론을 가르친 모습과 일치하지만, 총독과 왕실이 그를 뒷받침했다는 점도 고려해야 한다.",
+  "jose-celestino-mutis.moment.2":
+    "1760년 카르타헤나에 처음 도착했을 때 그는 일기에 배를 따라온 상어 네 마리와, 속을 가려내지 못한 꼬치고기 두 마리를 기록했다.",
+  "jose-celestino-mutis.interpretation.moment.2":
+    "이는 낯선 동물을 기록하고 자신의 판별 한계까지 적어 두는 초기의 습관과 일치한다.",
+  "jose-celestino-mutis.turning_point.1":
+    "1783년 카를로스 3세가 그를 식물원정대의 책임자로 임명했고, 그는 수년간 이 나라의 식물상 조사를 구상해 온 끝에 마리키타에 정착해 원정대를 지휘했다.",
+  "jose-celestino-mutis.interpretation.turning_point.1":
+    "이는 오래 품어 온 계획이 마침내 조직적인 사업으로 바뀐 것과 일치한다.",
+  /* ---------------------------------------------------------- joseph-fourier (Roster66) */
+  "joseph-fourier.achievement.1":
+    "《열의 해석적 이론》(1822)에서 고체 속 열의 전도를 사인과 코사인의 무한급수로 분석할 수 있음을 보였고, 이 급수는 오늘날 푸리에 급수라 불린다.",
+  "joseph-fourier.achievement.2":
+    "열의 흐름을 선형 편미분방정식의 경계값 문제로 세웠는데, 《과학 인명 사전》은 이 방법이 이성역학의 범위를 넓히고 이후 한 세기 동안 해석학을 이끈 문제들을 낳았다고 평가한다.",
+  "joseph-fourier.achievement.3":
+    "물리량의 단위와 차원에 관한 이론과 방정식의 실근 개수를 세는 방법도 발전시켰으며, 후자는 그가 세상을 떠난 뒤 1831년 《확정 방정식의 해석》으로 출간되었다.",
+  "joseph-fourier.moment.1":
+    "1811년 학술원 상 심사위원단은 그의 열 이론 논문에 상을 주면서도 엄밀성과 일반성에서 아쉬움이 남는다고 평했으나, 푸리에는 이 판단을 받아들이지 않았고 말년에 이 논문을 한 글자도 고치지 않고 학술원 논문집에 실었다.",
+  "joseph-fourier.interpretation.moment.1":
+    "이 일화는 선배 학자들로 이루어진 심사단의 평가에도 자신의 설명을 고수하는 태도, 그리고 비판에 대한 개방성 면에서 치른 대가와 부합한다.",
+  "joseph-fourier.moment.2":
+    "1807년 논문이 출판되지 못하자 새로운 분석을 더해 1811년 상 응모작으로 고쳐 쓴 뒤 1822년 책으로 확장했으며, 아라고의 표현으로는 행정 업무가 연구를 거의 중단시키지 못한 그르노블에서 작업을 이어 갔다.",
+  "joseph-fourier.interpretation.moment.2":
+    "이는 출판되지 못하고 다른 업무가 겹쳤음에도 한 연구 계획을 십오 년 넘게 이어 간 태도와 부합한다.",
+  "joseph-fourier.turning_point.1":
+    "1815년 도지사 직을 내려놓고 파리로 와서, 《과학 인명 사전》에 따르면 그때까지 여가 활동에 그쳤던 연구에 전념하려 했고, 1817년 과학 학술원 회원으로 선출되었으며 1822년 종신 서기가 되었다.",
+  "joseph-fourier.interpretation.turning_point.1":
+    "이는 기회가 오자 연구를 중심으로 생활을 다시 짜는 태도와 부합한다.",
+  /* ---------------------------------------------------------- juan-luis-vives (Roster66) */
+  "juan-luis-vives.achievement.1":
+    "북유럽 인문주의의 대표적 인물인 그는 1519년 스콜라 논리학을 공격했고, 『학문에 대하여』(1531)에서 당대 교육을 비판하면서 그 쇄신 방안을 제시했으며, 자국어 사용과 실용적 지식, 여성 교육을 옹호했다.",
+  "juan-luis-vives.achievement.2":
+    "그는 브뤼허 시 당국에 헌정한 『빈민 구제론』(1526)에서 직업 훈련과 빈민 아동 교육을 포함하는 조직적인 공적 구제 계획을 제시했다.",
+  "juan-luis-vives.achievement.3":
+    "『영혼과 생명에 대하여』(1538)는 영혼의 능력과 감정을 살피는 저작으로, 브리태니커는 심리학에서의 그의 명성이 이 책에 기초한다고 평가하며, 그의 저작은 사후 한 세기 동안 수백 판을 거듭했다.",
+  "juan-luis-vives.moment.1":
+    "1519년 그는 파리에서 배운 스콜라 논리학을 풍자적으로 공격한 『가짜 변증가들을 반박하며』를 펴내, 논리학이 일상어를 따르고 다른 학문에 봉사해야 한다고 주장했다. 다만 스탠퍼드 철학 백과는 이 저작 자체를 궤변적 연습으로 보는 해석도 전한다.",
+  "juan-luis-vives.interpretation.moment.1":
+    "이는 자신이 받은 교육 과정과 공개적으로 결별하는 것을 마다하지 않는 모습과 일치한다.",
+  "juan-luis-vives.moment.2":
+    "1526년 그는 조직적인 공적 구제 계획을 담은 『빈민 구제론』을 펴내 브뤼허 시 당국에 헌정했다. 황정욱은 브뤼허가 1562년에야 구빈법을 개혁했고 이 저작이 그의 사후 혹독하게 비판받았다고 지적한다.",
+  "juan-luis-vives.interpretation.moment.2":
+    "이는 학문을 학계에 가두지 않고 공적인 문제에 적용하려는 태도와 일치한다.",
+  "juan-luis-vives.turning_point.1":
+    "1528년 영국 궁정과 옥스퍼드에서의 시기가 끝난 뒤 그는 다시 브뤼허에 정착했고, 스탠퍼드 철학 백과에 따르면 생애 마지막 12년이 가장 왕성한 시기로, 『화합과 불화에 대하여』, 『학문에 대하여』, 『영혼과 생명에 대하여』를 내놓았다.",
+  "juan-luis-vives.interpretation.turning_point.1":
+    "이는 중요한 지위를 잃은 뒤에도 방대한 학술 작업을 이어 가는 모습과 일치한다.",
+  /* ---------------------------------------------------------- kamerlingh-onnes (Roster66) */
+  "kamerlingh-onnes.achievement.1":
+    "1908년 7월 10일 그는 레이던에서 헬륨을 액화해 약 4.2켈빈의 액체 헬륨 약 60ml를 얻었다. 이는 이른바 영구 기체 가운데 마지막으로 액화된 기체였다.",
+  "kamerlingh-onnes.achievement.2":
+    "1911년 그는 아주 순수한 수은의 전기 저항이 액체 헬륨 온도에서 갑자기 0으로 떨어진다는 것을 발견하고 이 현상을 초전도라고 이름 붙였다.",
+  "kamerlingh-onnes.achievement.3":
+    "그는 액체 공기 캐스케이드, 수소 액화기, 계기 제작자 학교를 갖춘 레이던을 선도적인 저온 연구소로 키웠고, 저온 연구로 1913년 노벨 물리학상을 받았다.",
+  "kamerlingh-onnes.moment.1":
+    "1898년 듀어가 액체 수소를 선보인 뒤에도 그는 서둘러 작은 액화기를 만들지 않고, 1906년까지 시간당 수 리터를 생산할 수 있는 엄격한 기준의 액화기를 제작했다.",
+  "kamerlingh-onnes.interpretation.moment.1":
+    "이는 수년이 걸리더라도 장비를 엄격한 기준에 맞추려는 태도와 일치한다.",
+  "kamerlingh-onnes.moment.2":
+    "1911년 수은 측정에서 저항이 0으로 나오자 연구진은 단락이 없음을 확인하기 위해 네 구간으로 나뉜 W자형 관으로 실험을 되풀이했다.",
+  "kamerlingh-onnes.interpretation.moment.2":
+    "이는 놀라운 결과를 받아들이기 전에 다른 설명 가능성으로 검증하는 모습과 일치한다.",
+  "kamerlingh-onnes.turning_point.1":
+    "1882년 레이던 교수가 된 그는 물리학 실험실을 교육 기관에서 연구소로 개편해 판데르발스의 분자 이론을 검증하려 했고, 이는 저온 실험실을 처음부터 구축하는 일로 이어졌다.",
+  "kamerlingh-onnes.interpretation.turning_point.1":
+    "이는 길고 단계적으로 짜인 연구 계획에 전념하는 모습과 일치한다.",
+  /* ---------------------------------------------------------- kuroda-seiki (Roster66) */
+  "kuroda-seiki.achievement.1":
+    "프랑스에서 약 9년간 라파엘 콜랭에게 그림을 배운 그는 1893년 밝은 야외광 화풍을 안고 일본으로 돌아왔으며, 일본 근대 서양화의 아버지로 불린다.",
+  "kuroda-seiki.achievement.2":
+    "1896년 구메 게이이치로와 함께 하쿠바카이를 결성해 1911년까지 열세 차례 전시를 열었고, 도쿄미술학교의 새 서양화과를 이끌게 되었다.",
+  "kuroda-seiki.achievement.3":
+    "그의 작품으로는 2차 세계대전 중 소실된 〈아침 화장〉(1893), 1897년의 〈호반〉, 그리고 1900년 파리 만국박람회에서 일본 출품자 가운데 가장 높은 은상을 받고 지금은 중요문화재로 지정된 누드 3부작 〈지·감·정〉이 있다.",
+  "kuroda-seiki.moment.1":
+    "1895년 교토에서 〈아침 화장〉이 전시되자 신문들은 이 누드화가 풍속을 해친다고 비난했고, 그는 공개적으로는 침묵했지만 구메에게 보낸 사신에서 그 그림과 운명을 같이할 각오가 되어 있다고 썼다.",
+  "kuroda-seiki.interpretation.moment.1":
+    "이는 공개 비난 속에서도 지면 논쟁 없이 자신의 작품을 지킨 모습과 일치한다.",
+  "kuroda-seiki.moment.2":
+    "1894년 그와 구메는 한 화숙을 넘겨받아 덴신도조로 이름을 바꾸고, 사진이나 판화를 베끼는 대신 석고상과 살아 있는 모델만을 목탄으로 그리도록 규칙을 정했다.",
+  "kuroda-seiki.interpretation.moment.2":
+    "이는 파리에서 배운 것을 바탕으로 체계적인 교육 방법을 만든 모습과 일치한다.",
+  "kuroda-seiki.turning_point.1":
+    "1886년 파리에서 만난 화가들의 권유를 받은 그는 양부에게 그림 공부를 하기로 굳게 결심했다고 편지를 보내고 이튿날 라파엘 콜랭의 아틀리에에 들어갔으며, 1887년 법학 공부를 그만두었다.",
+  "kuroda-seiki.interpretation.turning_point.1":
+    "이는 가족의 기대를 거스르고 진로를 바꾸는 것을 마다하지 않은 모습과 일치한다.",
+  /* ---------------------------------------------------------- modest-mussorgsky (Roster66) */
+  "modest-mussorgsky.achievement.1":
+    "푸시킨과 카람진을 바탕으로 1868년에 시작해 1869년에 끝낸 오페라 『보리스 고두노프』는 그의 명성의 중심에 있는 작품이다. 오페라 극장이 이를 거절하자 그는 작품을 고쳐 썼고, 개정판은 1874년 무대에 올랐다. 그는 ‘5인조’로 불리는 러시아 작곡가들 가운데 가장 뛰어난 인물로 평가받는다.",
+  "modest-mussorgsky.achievement.2":
+    "친구 빅토르 하르트만의 유작 전시회를 보고 1874년에 쓴 피아노 모음곡 『전람회의 그림』은 1922년 라벨의 관현악 편곡을 통해 널리 알려졌다.",
+  "modest-mussorgsky.achievement.3":
+    "『아이 방』과 『죽음의 노래와 춤』(1875) 같은 가곡집은 특이한 인물을 독특한 말의 리듬으로 노래했으며, 『호반시나』를 비롯한 여러 작품은 1881년 그가 세상을 떠날 때 미완성이었고 림스키코르사코프를 비롯한 동료들이 편집하거나 완성했다.",
+  "modest-mussorgsky.moment.1":
+    "황실 오페라 위원회가 『보리스 고두노프』를 거절하자 그는 1871년 한 해를 작품을 다시 짜는 데 썼다. 사랑 이야기가 있는 폴란드 막을 넣고, 크로미 숲 장면을 끝으로 옮기고, 새 에피소드를 더했다.",
+  "modest-mussorgsky.interpretation.moment.1":
+    "이는 거절당한 악보를 무대에 올릴 수 있을 때까지 다듬은 모습과 일치한다.",
+  "modest-mussorgsky.moment.2":
+    "1874년 2월 빅토르 하르트만 추모 전시회를 찾은 뒤 그는 이후 몇 달에 걸쳐 『전람회의 그림』을 작곡해 1874년 6월 완성했다.",
+  "modest-mussorgsky.interpretation.moment.2":
+    "이는 하나의 자극에 반응해 새로운 종류의 피아노 음악을 시도한 모습과 일치한다.",
+  "modest-mussorgsky.turning_point.1":
+    "1868년 9월 그는 푸시킨과 카람진을 바탕으로 직접 대본을 써서 『보리스 고두노프』를 쓰기 시작했고, 첫 판본은 1년 안에 완성되어 그의 경력의 중심이 되었다.",
+  "modest-mussorgsky.interpretation.turning_point.1":
+    "이는 동료 모임의 조언보다 자신의 구상에 따라 대규모 작품으로 나아간 전환과 일치한다.",
+  /* ---------------------------------------------------------- olaudah-equiano (Roster66) */
+  "olaudah-equiano.achievement.1":
+    "그는 1789년 자서전 『올라우다 에퀴아노의 흥미로운 생애 이야기』를 펴냈는데, 이 책은 생전에 아홉 판을 거듭했고 학자들은 이 책이 노예 서사라는 장르를 확립하는 데 기여했다고 평가한다.",
+  "olaudah-equiano.achievement.2":
+    "어린 시절부터 노예로 살았던 그는 자기 몫의 물건을 거래해 돈을 모은 끝에 1766년 몬트세랫에서 자유를 샀고, 이후 지중해와 대서양, 그리고 1773년 핍스 북극 탐험대에서 선원으로 일했다.",
+  "olaudah-equiano.achievement.3":
+    "그는 구독 예약 판매로 책의 출판 비용을 마련해 자기 이름으로 책을 내고 홍보 순회를 다녔으며, 캐리에 따르면 이 책은 베스트셀러가 되어 그를 부유하게 만들었다.",
+  "olaudah-equiano.moment.1":
+    "1787년 시에라리온으로 가는 흑인 빈민의 식량 담당관으로 임명된 그는 계약된 물자가 지급되지 않았다고 해군 위원들에게 항의했다. 톰프슨 함장은 이 다툼의 책임을 그와 대리인 어윈 모두에게 돌렸고, 위원회는 어윈의 편을 들어 그를 직에서 물러나게 했다.",
+  "olaudah-equiano.interpretation.moment.1":
+    "이는 자리를 잃을 위험을 감수하고서도 영향력 있는 인물에게 항의를 이어 가는 모습과 일치한다.",
+  "olaudah-equiano.moment.2":
+    "그는 1789년 자신의 책을 미리 구독 신청을 받아 직접 자금을 마련하고 자기 이름으로 펴냈으며, 도판의 'Published March 1. 1789 by G. Vassa'라는 글귀가 이를 보여 준다. 이후에는 책을 알리는 순회에 나섰다.",
+  "olaudah-equiano.interpretation.moment.2":
+    "이는 출판사를 기다리지 않고 자신의 작품을 직접 독자에게 전하려는 주도적인 모습과 일치한다.",
+  "olaudah-equiano.turning_point.1":
+    "카리브해와 서배너강 일대에서 여러 해 동안 자기 몫의 거래를 한 끝에 그는 1766년 몬트세랫에서 자유를 샀고, 이는 자유로운 선원으로, 훗날에는 저술가로 살아가는 길을 열었다.",
+  "olaudah-equiano.interpretation.turning_point.1":
+    "이는 오래 품은 목표를 향해 꾸준히 노력하는 모습과 일치한다.",
+  /* ---------------------------------------------------------- phillis-wheatley (Roster66) */
+  "phillis-wheatley.achievement.1":
+    "1773년 스무 살 무렵 그녀는 런던에서 시집 『다양한 주제에 관한 종교적·도덕적 시』를 펴냈고, 미국 의회도서관은 이를 아프리카계 미국인이 낸 최초의 시집이라고 부른다.",
+  "phillis-wheatley.achievement.2":
+    "1770년 복음 전도자 조지 휫필드를 추모한 그녀의 애가는 국제적 관심을 끌었고, 헌팅던 백작 부인의 눈에 띄어 그 후원으로 런던판이 가능해졌다.",
+  "phillis-wheatley.achievement.3":
+    "그녀의 시집에는 시를 직접 썼다고 보증하는 보스턴 유력 인사 열여덟 명의 서명 증명서가 실렸고, 선집들은 그녀에게 아프리카계 미국 문학의 토대를 놓은 역할이 있다고 평가한다.",
+  "phillis-wheatley.moment.1":
+    "1773년 시집에 실린 주인의 편지에 따르면 그녀는 도착 후 열여섯 달 만에 영어를 익혔고 호기심이 이끌어 글쓰기를 배웠으며 라틴어도 배우고 싶어 했고, 이후 라틴어를 공부하며 호메로스와 베르길리우스, 오비디우스를 읽었다.",
+  "phillis-wheatley.interpretation.moment.1":
+    "이는 스스로 배우려는 열의와 일치하지만, 가장 강한 표현은 주인이 홍보용으로 쓴 편지에서 나온 것이다.",
+  "phillis-wheatley.moment.2":
+    "1772년 보스턴에서 예약 구독으로 시집을 내려던 계획이 무산되자 그녀의 시는 런던으로 보내졌고 그녀도 1773년 직접 건너갔으며, 1779년에는 두 번째 시집 출간 계획을 광고했다.",
+  "phillis-wheatley.interpretation.moment.2":
+    "이는 좌절 뒤에 새로운 경로로 출간을 이어 가는 모습과 일치하지만, 사료는 그녀의 가족과 후원자들의 역할도 함께 전한다.",
+  "phillis-wheatley.turning_point.1":
+    "1770년 조지 휫필드를 추모한 애가로 그녀는 널리 알려졌고, 휫필드의 후원자였던 헌팅던 백작 부인에게 편지를 보내 이를 알렸으며, 백작 부인은 이후 런던판을 후원했다.",
+  "phillis-wheatley.interpretation.turning_point.1":
+    "이는 영향력 있는 후원자를 얻은 시와 일치하지만, 그 결과에서 그녀 자신의 설득이 얼마나 작용했는지는 드러나지 않는다.",
+  /* ---------------------------------------------------------- ruben-dario (Roster66) */
+  "ruben-dario.achievement.1":
+    "그는 스페인어권 아메리카 모데르니스모를 이끌었다. 칠레에서 쓴 『Azul』(1888)은 화려한 낭만주의 문체에서 벗어난 작품으로 이 운동의 출발점으로 평가되며, 『Prosas profanas』(1896)은 이 운동을 스페인어권 아메리카 전역에 굳혔다.",
+  "ruben-dario.achievement.2":
+    "『Cantos de vida y esperanza』(1905)는 그의 가장 성숙한 시집으로 평가되며, 로르카·네루다·보르헤스·파스는 그를 토대가 된 시인으로 여겼고, 후안 라몬 히메네스와 마차도 형제 같은 젊은 스페인 시인들도 그의 시에 이끌렸다.",
+  "ruben-dario.achievement.3":
+    "그는 칠레의 『라 에포카』와 부에노스아이레스의 『라 나시온』에 꾸준히 글을 쓴 언론인이기도 했고, 『라 나시온』은 1898년 그를 스페인으로 보냈다. 『Los raros』(1896)에서는 그가 존경한 작가들에 관한 에세이를 썼다.",
+  "ruben-dario.moment.1":
+    "1893년 평론가 클라린이 그를 모방일 뿐인 시인이라고 깎아내리자, 다리오는 『라 나시온』에 「Pro domo mea」를 실어 자신은 어느 유파의 수장도 아니며 모방을 권하지 않는다고 답했다.",
+  "ruben-dario.interpretation.moment.1":
+    "이는 공개적인 공격을 그냥 넘기지 않고 지면으로 맞서 답하는 모습과 일치한다.",
+  "ruben-dario.moment.2":
+    "『Prosas profanas』(1896)에서 그는 리듬과 운율과 소리를 실험했고, 이후에도 이전 작품을 거듭 고쳐 『Azul』의 1905년판이 결정판으로 불린다.",
+  "ruben-dario.interpretation.moment.2":
+    "이는 형식을 시험하고 다듬어 가는 대상으로 대하는 모습과 일치한다.",
+  "ruben-dario.turning_point.1":
+    "그는 칠레에서 『Azul』(1888)을 펴내 화려한 낭만주의 문체에서 벗어났고, 이후 판본에 붙은 후안 발레라의 서문은 그에게 아메리카와 유럽 양쪽에서 명성을 안겼다.",
+  "ruben-dario.interpretation.turning_point.1":
+    "이는 새로운 시적 목소리가 그의 경력의 방향을 바꾼 모습과 일치한다.",
+  /* ---------------------------------------------------------- samuel-slater (Roster66) */
+  "samuel-slater.achievement.1":
+    "1790년 12월 그는 모지스 브라운 밑에서 현지 기계공들과 함께 로드아일랜드주 포터킷에 미국 최초의 영구적인 면방적 공장을 가동시켜, 영국의 아크라이트식 기술을 미국에 들여왔다.",
+  "samuel-slater.achievement.2":
+    "그는 가족 단위로 일꾼을 쓰는 소규모 농촌 방적 공장 '로드아일랜드 방식'을 운영했는데, 일곱 살에서 열두 살 아이들이 첫 직원에 속했던 이 방식은 뉴잉글랜드 전역으로 퍼져 약 20년간 초기 산업화의 흐름을 이끌었다.",
+  "samuel-slater.achievement.3":
+    "그의 밑에서 한 세대의 기계 제작공과 방직 노동자가 훈련받았고, 그는 1835년 세상을 떠날 때까지 슬레이터즈빌 같은 공장 마을을 뉴잉글랜드 남부 곳곳에 세우고 자금을 댔다.",
+  "samuel-slater.moment.1":
+    "1789년 12월 2일 그는 모지스 브라운이 면방적 관리자를 구한다는 소식을 듣고 편지를 보내 자신의 힘을 빌려주겠다고 제안했고, 이어 포터킷으로 가서 브라운의 기존 기계가 제대로 돌아가지 않을 것이라고 판단했다.",
+  "samuel-slater.interpretation.moment.1":
+    "이는 스카우트를 기다리지 않고 기회가 보이면 스스로 먼저 나서는 모습과 일치한다.",
+  "samuel-slater.moment.2":
+    "1789년 그는 숙련 방직공의 이민을 제한한 영국의 규제에도 불구하고 농부로 변장해 아무에게도 알리지 않은 채 영국을 떠났다.",
+  "samuel-slater.interpretation.moment.2":
+    "이는 새로운 일을 일으킬 기회를 위해 법적·개인적 위험을 감수하는 모습과 일치한다.",
+  "samuel-slater.turning_point.1":
+    "1797년 그는 올미·브라운 상회에서 갈라져 나와 윌킨슨 가문과 함께 별도의 화이트 공장을 세웠고, 이 공장은 주문 생산 대신 실을 연속적으로 뽑아냈다.",
+  "samuel-slater.interpretation.turning_point.1":
+    "이는 기존 동업 관계에 머물기보다 자신이 구상한 연속 생산 방식을 추구하는 모습과 일치한다.",
+  /* ---------------------------------------------------------- soren-kierkegaard (Roster66) */
+  "soren-kierkegaard.achievement.1":
+    "그는 1843년부터 1846년까지 『이것이냐 저것이냐』, 『공포와 전율』, 『철학적 단편』, 『불안의 개념』, 『결론으로서의 비학문적 후서』 등을 가명으로 펴내 개인으로서 존재한다는 것이 무엇인지를 탐구했으며, 브리태니커는 그를 20세기 실존주의와 개신교 신학에 큰 영향을 준 인물로 평가한다.",
+  "soren-kierkegaard.achievement.2":
+    "그는 저마다 다른 세계관을 대변하는 여러 가명으로 글을 썼고, 아이러니와 풍자, 이른바 간접 전달의 방법으로 독자가 삶의 문제에 스스로 맞서도록 이끌었다.",
+  "soren-kierkegaard.achievement.3":
+    "1847년부터 이어진 두 번째 집필기에 그는 『사랑의 역사』와 『죽음에 이르는 병』 등에서 기독교 신앙의 요구를 제시했고, 1854~55년에는 직접 창간한 소책자 『순간』으로 덴마크 국교회를 공격했다.",
+  "soren-kierkegaard.moment.1":
+    "1843년 가명으로 『이것이냐 저것이냐』를 낸 뒤에도 그는 자신의 저작이 계속 가명 저자의 것으로 불려야 한다고 고집했는데, 브리태니커는 이 가명들을 서로 다른 세계관을 구현하는 소설 속 인물에 비유해 이해해야 한다고 설명한다.",
+  "soren-kierkegaard.interpretation.moment.1":
+    "이는 저술 방식에서 독창적이고 관습에 얽매이지 않는 접근과 일치한다.",
+  "soren-kierkegaard.moment.2":
+    "풍자 잡지 『코르사르』의 조롱 대상에서 제외되어 있던 그는 이 잡지를 공개적으로 도발했고, 이후 잡지는 연이어 그를 공격했다. 인터넷 철학 백과는 언론에 대한 그의 비판과 함께 허영심도 부분적 이유로 든다.",
+  "soren-kierkegaard.interpretation.moment.2":
+    "이는 공개적인 대립을 피하지 않고 스스로 시작하는 태도와 일치한다.",
+  "soren-kierkegaard.turning_point.1":
+    "1846년 『결론으로서의 비학문적 후서』로 저술을 마무리하려 했던 그는 목사가 되는 대신 저술가로 남았고, 스탠퍼드 철학 백과는 이후를 『사랑의 역사』와 『죽음에 이르는 병』 등을 낳은 매우 왕성한 두 번째 집필기로 설명한다.",
+  "soren-kierkegaard.interpretation.turning_point.1":
+    "이는 저술가로서 여러 해에 걸쳐 많은 분량의 작업을 이어 가는 모습과 일치한다.",
+  /* ---------------------------------------------------------- sri-aurobindo (Roster66) */
+  "sri-aurobindo.achievement.1":
+    "1910년 민족운동에서 물러나 퐁디셰리로 간 그는 통합 요가를 발전시켰고, 월간지 『아리아』(1914~21)에 『신성한 삶』, 『요가의 종합』, 『기타 에세이』 등 영적 진화의 철학을 담은 저작을 연재했다. 그의 전기를 평한 한 서평자는 이 잡지에 실린 글이 4,600쪽이 넘는다고 센다.",
+  "sri-aurobindo.achievement.2":
+    "영국 유학 시절부터 시를 쓴 그는 성인기의 상당 부분을 서사시 『사비트리』에 바쳤다. 서평자들은 이 작품이 2만 행이 넘고 그의 죽음 직전에 완성되었다고 설명하며, 그는 시론서 『미래의 시』도 썼다.",
+  "sri-aurobindo.achievement.3":
+    "퐁디셰리에서 제자들이 그의 곁에 모여 공동체를 이루었고 이것이 스리 아우로빈도 아시람으로 자랐다. 이곳의 운영은 '어머니'로 불린 미라 알파사가 맡았으며, 지지자와 비판자들은 지금도 그의 삶을 어떻게 서술할지를 두고 논쟁한다.",
+  "sri-aurobindo.moment.1":
+    "1914년 퐁디셰리에서 4년간 요가를 한 뒤 그는 월간지 『아리아』를 시작했고, 이 잡지는 6년 반 동안 중단 없이 나오며 그의 주요 산문 저작 대부분을 연재물로 실었다.",
+  "sri-aurobindo.interpretation.moment.1":
+    "이는 몇 해에 걸쳐 규칙적인 집필 일정을 지켜 가는 모습과 일치한다.",
+  "sri-aurobindo.moment.2":
+    "그의 전기를 평한 서평자들은 그가 성인기의 상당 부분을 서사시 『사비트리』에 쏟았고 죽음 직전에야 완성했다고 말한다.",
+  "sri-aurobindo.interpretation.moment.2":
+    "이는 서평자들의 설명처럼 한 편의 긴 작품으로 수십 년에 걸쳐 되돌아오는 모습과 일치한다.",
+  "sri-aurobindo.turning_point.1":
+    "1910년 그는 공적 활동에서 물러나 프랑스령 인도의 퐁디셰리로 갔고, 아시람은 그 일이 그의 모든 힘을 쏟아야 하는 것이었다고 설명한다. 이후 그는 요가와 글쓰기에 전념했다.",
+  "sri-aurobindo.interpretation.turning_point.1":
+    "이는 활동 범위를 하나의 까다로운 작업으로 좁혀 가는 모습과 일치한다.",
+  /* ---------------------------------------------------------- taras-shevchenko (Roster66) */
+  "taras-shevchenko.achievement.1":
+    "그의 시집 『코브자르』(1840)와 이후의 시들은 근대 우크라이나 문학의 토대를 놓았고 우크라이나어가 진지한 시의 언어가 될 수 있음을 보여 주었다고 평가받는다. 1990년대까지 『코브자르』는 100개가 넘는 언어로 번역되었다.",
+  "taras-shevchenko.achievement.2":
+    "제정 러시아 예술 아카데미에서 카를 브률로프에게 배운 화가인 그는 1844년 판화집 『그림 같은 우크라이나』를 냈고, 150점이 넘는 초상화를 그렸으며, 1860년 판화 아카데미 회원 칭호를 받았다.",
+  "taras-shevchenko.achievement.3":
+    "1847~57년 군 복무 유배 중 글쓰기와 그림 그리기가 금지되었는데도 그는 비밀 공책에 시를 계속 썼고, 1848~49년 아랄해 탐사대의 화가로서 그 지역의 풍경을 그렸다.",
+  "taras-shevchenko.moment.1":
+    "유배 중 글쓰기와 그림 그리기를 금지당한 그는 시 한 편을 작은 책자에 옮겨 적어 장화 속에 숨겼고, 1850년 금지를 어긴 혐의로 다시 체포되었다.",
+  "taras-shevchenko.interpretation.moment.1":
+    "이는 처벌의 위험이 실제로 있는데도 창작을 계속하는 모습과 일치한다.",
+  "taras-shevchenko.moment.2":
+    "1861년 1월 그는 우크라이나 일요학교를 위한 초급 독본을 엮어 자비로 펴내고 학교들에 무료로 나누어 주었다.",
+  "taras-shevchenko.interpretation.moment.2":
+    "이는 다른 사람들의 배움을 돕는 일에 자기 돈을 들이는 모습과 일치한다.",
+  "taras-shevchenko.turning_point.1":
+    "1859년 상트페테르부르크로 돌아온 그는 에칭과 아쿠아틴트를 시작했고, 1860년 9월 예술 아카데미는 그에게 판화 아카데미 회원 칭호를 주었다.",
+  "taras-shevchenko.interpretation.turning_point.1":
+    "이는 경력 후반에 새로운 매체로 방향을 돌려 공식적인 인정에 이르기까지 매진하는 모습과 일치한다.",
+  /* ---------------------------------------------------------- tsuda-umeko (Roster66) */
+  "tsuda-umeko.achievement.1":
+    "1900년 그녀는 교직을 그만두고 도쿄에 학생 열 명으로 여자영학숙(여성 영어학 학원)을 열었다. 주로 미국 여성들의 후원으로 세워진 이 학교는 훗날 쓰다대학이 되었으며, 일본 최초 수준의 여성 고등교육기관 가운데 하나로 꼽힌다.",
+  "tsuda-umeko.achievement.2":
+    "브린마 대학에 다니던 중 그녀는 필라델피아 위원회의 지원을 받는 '일본 여성을 위한 미국 장학금'을 만들었다. 이 장학 사업은 1976년까지 이어져 여학생 25명을 지원했고, 그중 여럿이 여성 교육의 지도자가 되었다.",
+  "tsuda-umeko.achievement.3":
+    "1871년 여섯 살에 미국으로 파견된 그녀는 일본 최초의 여성 유학생 가운데 한 명이었고, 훗날 다시 미국으로 가 브린마 대학에서 생물학을 전공하며 지도교수 토머스 헌트 모건과 함께 쓴 논문을 1894년에 발표했다.",
+  "tsuda-umeko.moment.1":
+    "1900년 7월 그녀는 당시 여성에게 열려 있던 가장 높고 보수 좋은 자리인 화족여학교와 여자고등사범학교의 교직을 모두 그만두고, 9월에 학생 열 명으로 자신의 학교를 열었다.",
+  "tsuda-umeko.interpretation.moment.1":
+    "이는 오랫동안 구상해 온 학교를 세우기 위해 안정된 자리를 내려놓는 모습과 일치한다.",
+  "tsuda-umeko.moment.2":
+    "브린마 대학이 연구원으로 남으라고 제안했지만 그녀는 거절하고 가르치러 귀국했으며, 일부 교수진과 학장은 이를 못마땅해했다.",
+  "tsuda-umeko.interpretation.moment.2":
+    "이는 전기 작가의 서술대로 다른 여성들을 위한 목표를 학문적 경력보다 앞세우는 모습과 일치한다.",
+  "tsuda-umeko.turning_point.1":
+    "1889년 그녀는 화족여학교에서 2년의 유급 휴직을 얻어 장학금을 받고 브린마 대학에 입학해 생물학을 공부했고, 훗날 자신의 학교를 후원하게 될 필라델피아의 지지자들을 만났다.",
+  "tsuda-umeko.interpretation.turning_point.1":
+    "이는 학교를 세우기에 앞서 스스로 더 깊은 훈련을 구하는 모습과 일치한다.",
+  /* ---------------------------------------------------------- werner-von-siemens (Roster66) */
+  "werner-von-siemens.achievement.1":
+    "1847년 기계공 요한 게오르크 할스케와 함께 베를린에 전신 건설 회사 지멘스&할스케를 세웠다. 이 회사는 베를린~프랑크푸르트 전신선과 러시아 국가 전신망, 해저 케이블을 건설했고, 1870년 완공된 런던~캘커타 인도-유럽 전신선도 조직했다.",
+  "werner-von-siemens.achievement.2":
+    "1867년 1월 베를린 학술원에 발전기가 스스로 전자석을 여자하는 다이나모 전기 원리를 발표해 영구 자석을 대체했다. 『과학 인명사전』은 다른 이들도 비슷한 시기에 이 원리에 이르렀지만 그가 동력 이용의 의미를 내다보고 실용화했다고 설명하며, 그의 회사는 전기 견인과 중앙 발전소로 사업을 넓혔다.",
+  "werner-von-siemens.achievement.3":
+    "기술은 과학 이론 위에 서야 하며 거꾸로 기술을 분석해 이론을 끌어내야 한다고 주장했다. 프로이센 정부에는 연구에서 앞서야 한다고 조언했고, 그의 자금과 토지는 헬름홀츠가 초대 소장을 맡은 베를린의 물리기술제국연구소(1887) 설립에 쓰였다.",
+  "werner-von-siemens.moment.1":
+    "프로이센 국영 전신선의 부실한 건설과 보수를 비판하는 글을 낸 뒤 정부는 몇 해 동안 그의 회사에 일감을 주지 않았고, 회사는 철도 전신과 해외 계약, 특히 러시아 전신망으로 방향을 돌렸다.",
+  "werner-von-siemens.interpretation.moment.1":
+    "이 일화는 비판에 따르는 사업상 대가를 감수하는 태도와 회사를 새 방향으로 돌리는 적응력과 부합한다.",
+  "werner-von-siemens.moment.2":
+    "1867년 초 베를린 학술원에 낸 보고서에서 그는 이제 기술이 노동력이 있는 곳 어디서나 무제한의 전력을 싸고 쉽게 만들어 낼 수단을 갖게 되었다고 썼다.",
+  "werner-von-siemens.interpretation.moment.2":
+    "이 전망은 새로운 기술이 어디로 이어질지 내다보는 안목과 부합하지만, 회사 전기에 인용된 것이며 같은 원리에 다른 이들도 비슷한 시기에 이르렀다.",
+  "werner-von-siemens.turning_point.1":
+    "1849년 6월 그는 2년 전 할스케와 세운 전신 회사에 전념하려고 군 장교직을 사임했다.",
+  "werner-von-siemens.interpretation.turning_point.1":
+    "안정된 장교직을 떠나 회사에 전념한 것은 자기 사업을 일구려는 주도성과 부합한다.",
+  /* ---------------------------------------------------------- wilhelm-von-humboldt (Roster66) */
+  "wilhelm-von-humboldt.achievement.1":
+    "언어철학자였던 그는 언어가 이미 있는 생각을 전달하는 수단이 아니라 사고를 형성하는 기관이라고 주장했고, 1820년에는 새로운 학문인 비교언어학의 구상을 제출했으며, 브리태니커는 언어에 대한 그의 학문적 기여가 20세기에 높이 평가받게 되었다고 전한다.",
+  "wilhelm-von-humboldt.achievement.2":
+    "1809~10년 프로이센 내무부의 교육 담당 부서장으로서 그는 학교 제도를 개혁하고 교육과 연구를 결합한다는 구상 위에 베를린 대학(현 훔볼트 대학)을 세우는 데 중심적 역할을 했다. 대학은 그를 공동 창립자로 소개하며, 역사학자들은 이른바 '훔볼트 모델'이 훗날 그 혼자의 업적 이상으로 부풀려졌다고 지적한다.",
+  "wilhelm-von-humboldt.achievement.3":
+    "여섯 대륙의 선교사, 외교관, 학자들로 이루어진 서신 교환망을 이용해 그는 여러 언어의 문법서와 어휘 목록을 모았고, 카위어 연구에서 남태평양 언어들이 오늘날 오스트로네시아어족이라 불리는 하나의 어족을 이룬다는 점을 보였다.",
+  "wilhelm-von-humboldt.moment.1":
+    "1820년 6월 그는 베를린 학술원에 새로운 학문인 비교언어학의 구상을 제출해 그 철학과 방법론, 그리고 연구 계획의 청사진을 제시했다.",
+  "wilhelm-von-humboldt.interpretation.moment.1":
+    "이는 자료를 모으는 데 그치지 않고 한 분야의 일반적 틀을 세우려는 태도와 일치한다.",
+  "wilhelm-von-humboldt.moment.2":
+    "1794년부터 예나에 자리 잡은 그는 괴테와 실러의 철학적 조언자이자 비판적 협력자로 활동했으며, 스탠퍼드 철학 백과에 따르면 그의 비평은 실러의 『인간의 미적 교육에 관한 편지』와 괴테의 『헤르만과 도로테아』에 기여했다.",
+  "wilhelm-von-humboldt.interpretation.moment.2":
+    "이는 다른 창작자들과 긴밀히 작업하며 비평으로 그들의 작업을 다듬는 모습과 일치한다.",
+  "wilhelm-von-humboldt.turning_point.1":
+    "1790년 프로이센 관직에 들어선 그는 그 자리가 의욕을 주지 못한다고 여겨 1791년 휴직하고, 이후 몇 해를 예나 부근에서 학문과 철학 연구에 쏟았다.",
+  "wilhelm-von-humboldt.interpretation.turning_point.1":
+    "이는 이른 관직 경력보다 학문적 독립을 택하는 성향과 일치한다.",
+  /* ---------------------------------------------------------- zhan-tianyou (Roster66) */
+  "zhan-tianyou.achievement.1":
+    "그는 1905년부터 1909년까지 건설된 경장철도(베이징~장자커우)의 총기사장이었고, 이 철도는 중국이 스스로 설계하고 건설한 최초의 간선철도로 일컬어진다.",
+  "zhan-tianyou.achievement.2":
+    "그는 가파른 관구 구간에 바다링 터널과 칭룽차오의 지그재그 선로를 넣어 노선을 완성했고, 공사는 예정보다 약 2년 일찍, 예산 아래로 끝났다고 전해진다.",
+  "zhan-tianyou.achievement.3":
+    "1872년 중국 유미 유학생단으로 미국에 건너간 그는 1881년 예일대 셰필드 과학학교를 졸업했고, 이후 중국에서 열 개가 넘는 철도 노선에 참여했다.",
+  "zhan-tianyou.moment.1":
+    "1905년 8월 관구 구간의 여러 후보 노선을 답사한 뒤 칭룽차오 노선을 택했고, 나중에 경사가 너무 가파른 것을 확인하고 쥐융관 터널을 추가했다.",
+  "zhan-tianyou.interpretation.moment.1":
+    "이는 여러 대안을 비교하고 근거에 따라 계획을 고치는 모습과 일치한다.",
+  "zhan-tianyou.moment.2":
+    "철도가 개통된 뒤 그는 1909년과 1910년 편지에서 지그재그 선로가 최선의 공학적 해법은 아니었으며 가능하면 나선형 루프가 낫다고 썼다.",
+  "zhan-tianyou.interpretation.moment.2":
+    "이는 자신의 설계 선택을 솔직하게 다시 평가하는 모습과 일치한다.",
+  "zhan-tianyou.turning_point.1":
+    "1905년 그는 카이핑 철도 등에서 영국인 관리자 밑에서 여러 해 일한 끝에, 외국인 기술자와 외국 자본 없이 건설하기로 한 경장철도의 총기사장이 되었다.",
+  "zhan-tianyou.interpretation.turning_point.1":
+    "이는 대규모 사업의 책임을 맡아 주어진 한도 안에서 완수하는 모습과 일치한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

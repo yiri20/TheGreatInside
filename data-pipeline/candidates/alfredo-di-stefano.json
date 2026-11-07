@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "alfredo-di-stefano",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Alfredo Di Stéfano",
+    "aliases": [
+      "Alfredo Di Stefano",
+      "Alfredo Stéfano Di Stéfano Laulhé",
+      "La Saeta Rubia"
+    ],
+    "wikidataId": "Q164546",
+    "birthYear": 1926,
+    "deathYear": 2014,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AR",
+      "ES"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete"
+    ],
+    "fieldIds": [
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural"
+    ],
+    "tagIds": [
+      "competitor",
+      "sustained_excellence"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_distefano_wikidata",
+      "kind": "wikidata",
+      "title": "Alfredo Di Stefano (Q164546), verified live via the Wikidata API (2026-11-06): description 'Argentine-Spanish association football player (1926-2014)', Korean label 알프레도 디 스테파노, born 4 July 1926, died 7 July 2014. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q164546"
+    },
+    {
+      "id": "src_distefano_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Alfredo Di Stefano' (read for orientation and dates only; never counted as a substantive source and not used as support for any row).",
+      "url": "https://en.wikipedia.org/wiki/Alfredo_Di_St%C3%A9fano"
+    },
+    {
+      "id": "src_distefano_irishtimes",
+      "kind": "press",
+      "title": "The Irish Times, obituary 'Legendary star of Real Madrid team of the 1950s' (July 2014; read in full). Unsigned obituary: the leader of the Real Madrid team that won five European Cups in a row, a centre forward who influenced play in all areas of the pitch, Bobby Charlton's recollection of watching him in 1957, the 1949 move to Colombia, the 1953 transfer saga and the Spanish federation's alternate-seasons ruling, eight Spanish titles and five European Cups in eleven seasons, European Footballer of the Year in 1957 and 1959, the move to Espanyol in 1964, league titles as a coach with Boca Juniors, River Plate and Valencia, and the finish in five competitions as Real Madrid coach in 1982-83. CANONICAL SIGNIFICANCE SOURCE (with the Real Madrid club history page below). Retrospective and admiring in tone.",
+      "url": "https://www.irishtimes.com/life-and-style/people/legendary-star-of-real-madrid-team-of-the-1950s-1.1863421"
+    },
+    {
+      "id": "src_distefano_scotsman",
+      "kind": "press",
+      "title": "The Scotsman, 'Obituary: Alfredo Di Stefano Luhle, footballer and manager' (July 2014; read; part of the page is behind a subscription wall). Scottish perspective: scoring in each of the first five European Cup finals and a hat-trick at Hampden in 1960, the line that at Madrid players either fitted in and were subservient to him or shipped out, Scotland's plan to man-mark him in 1957, never playing at a World Cup, captaining the FIFA XI in 1963, the 1982-83 season with five second places, honorary life presidency in 2000, and career statistics. Admiring obituary; some details differ from other sources (for example the number of clubs he managed), so only points confirmed elsewhere are used.",
+      "url": "https://www.scotsman.com/news/obituaries/obituary-alfredo-di-stefano-luhle-footballer-and-manager-1532097"
+    },
+    {
+      "id": "src_distefano_bbc",
+      "kind": "press",
+      "title": "BBC Sport, 'Alfredo Di Stefano: Did General Franco halt Barcelona transfer?' (July 2014; read in full). Neutral reconstruction of the 1952-53 transfer dispute between Barcelona, Real Madrid, Millonarios and River Plate, the federation's alternate-seasons compromise, the Barcelona president's resignation, his Real debut on 23 September 1953 and the 5-0 Clasico in which he scored four; stresses that the part played by the dictatorship is unproven and disputed. The political question is context only and is not scored.",
+      "url": "https://www.bbc.com/sport/football/28204560"
+    },
+    {
+      "id": "src_distefano_espnkopa",
+      "kind": "press",
+      "title": "ESPN FC, 'Raymond Kopa was an innovator who formed key part of best attack ever at Real Madrid' (read via a page summary). COUNTER-VOICE: Kopa, a Real Madrid teammate, calls Di Stefano warm, loveable and a joker but also an arrogant despot and says he could not fully relax in his first months; Di Stefano's own recollection that when a training experiment with Kopa at centre forward 'came out all wrong' he 'just went in the middle anyway'. Records two first-person voices as quoted by the journalist; Kopa's later reasons for returning to France were financial.",
+      "url": "https://www.espn.com/soccer/spanish-primera-division/15/blog/post/3073923/raymond-kopa-was-an-innovator-who-formed-key-part-of-best-attack-ever-at-real-madrid"
+    },
+    {
+      "id": "src_distefano_footballespana",
+      "kind": "press",
+      "title": "Football Espana, 'My Golden Great: Alfredo Di Stefano, 1957' (read in full). Feature on his Ballon d'Or year: second in the inaugural 1956 vote, winner in 1957 with 72 points, Pichichi top scorer with 31 goals in 30 games, the only player to score in every one of the first five European Cup finals, a hat-trick in the 7-3 final against Eintracht Frankfurt, and an admitted lack of film and statistics for the era; quotes a Santos defender who said he was impossible to mark and played total football. Admiring; says plainly that tangible evidence for his stature is thin.",
+      "url": "https://www.football-espana.net/27069/my-golden-great-alfredo-di-stefano-1957"
+    },
+    {
+      "id": "src_distefano_realmadrid",
+      "kind": "institution",
+      "title": "Real Madrid CF, club history feature 'La Saeta transformo al Real Madrid en el mejor club del mundo' and the club's centenary article '100 years ago, Alfredo Di Stefano was born' (both read). CANONICAL SIGNIFICANCE SOURCE: 1953-64 at the club, five consecutive European Cups, one Intercontinental Cup, eight league titles, 308 goals in 396 matches, five Pichichi trophies, Ballon d'Or 1957 and 1959 and the 1989 Super Ballon d'Or, captain of the FIFA XI in 1963, and a playing style in which he dropped to midfield and defence to take the ball; coach (Super Cup, 'Quinta del Buitre'), honorary president, stadium named after him. Club's own account: admiring and institutional.",
+      "url": "https://www.realmadrid.com/es-ES/noticias/futbol/primer-equipo/personalidades/la-saeta-transformo-al-real-madrid-en-el-mejor-club-del-mundo"
+    },
+    {
+      "id": "src_distefano_laliga",
+      "kind": "institution",
+      "title": "LaLiga, 'Di Stefano: the memory of an eternal legend' (read, first part). League obituary: the quotation 'You don't play finals... you win them', his River Plate title at 21, four seasons at Millonarios with three championships and one cup, eleven seasons at Real Madrid, later coaching spells at Real Madrid (1982-84 and 1990-91), Valencia, Rayo Vallecano and Elche. Admiring institutional text; the quotation is attributed to him without a dated source and is not used as support for a row.",
+      "url": "https://www.laliga.com/en-GB/news/di-stefano-the-memory-of-an-eternal-legend"
+    },
+    {
+      "id": "src_distefano_espndep",
+      "kind": "press",
+      "title": "ESPN Deportes, 'Alfredo Di Stefano, la leyenda que hizo enorme a Millonarios' (read via a page summary). Colombian-side account of 1949-53: signed in early August 1949, 294 matches and 267 goals with four league titles, 'symbol of El Dorado', the Blue Ballet nickname, the 1953 move to Real Madrid as the start of the end of the era. Says nothing about his personality; used for the Colombian chapter only.",
+      "url": "https://espndeportes.espn.com/futbol/colombia/nota/_/id/6899891/alfredo-distefano-la-leyenda-que-hizo-enorme-a-millonarios"
+    },
+    {
+      "id": "src_distefano_nationaalarchief",
+      "kind": "archive",
+      "title": "Nationaal Archief (Dutch National Archives), Anefo photo collection, 'Voetbal. Amsterdam tegen Real Madrid 1-4 in het Olympisch Stadion te Amsterdam, v.l.n.r. Gento, scheidsrechter Leo Horn, Di Stefano en Faas Wilkes' (item 910-4823, photograph by Wim van Rossem, 30 June 1959; item page read, rights holder line 'Nationaal Archief, CC0'). Portrait source record for the image used.",
+      "url": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a9979e04-d0b4-102d-bcf8-003048976d84"
+    }
+  ],
+  "rows": {
+    "competitiveness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_distefano_irishtimes, src_distefano_scotsman, src_distefano_footballespana, src_distefano_realmadrid | 1953-1964 | two obituaries, a feature, the club's history page] Five consecutive European Cups with a goal in each of the five finals (Irish Times, Scotsman, Football Espana), eight Spanish titles in eleven seasons, five Pichichi trophies (Real Madrid); the Scotsman says that at Madrid players fitted in under him or left, and Real Madrid describes a 'warrior' character that wanted the ball at his feet. Mostly outcome evidence plus club and obituary characterisation, with no adversarial source that questions the competitive pattern. SELF-CALIBRATION (agent): top-risk row, lowered from 74/0.58 because the evidence is mostly trophies and retrospective admiration (the rubric warns against reading outcomes back as the trait) and the 'you win them' quotation is undated."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_distefano_irishtimes, src_distefano_espnkopa, src_distefano_scotsman | 1950s-1963 | obituary quoting a rival's recollection, a teammate's account, an obituary] Bobby Charlton's recollection of watching him in 1957 ('he tells the full backs what to do'), the obituary's description of him as the inspirational leader of the team, his captaincy of the FIFA XI in 1963, and a teammate who calls him an arrogant despot while Di Stefano himself recalls placing himself at centre forward despite a failed training trial. Taken together this points to taking charge on the pitch and insisting on his own role, with a cost to some teammates, hence dual-edged. SELF-CALIBRATION (agent): top-risk row, lowered from 70/0.55 because it rests on one retrospective recollection by an admirer (Charlton), one teammate's characterisation and obituary generalisations, none documenting his leadership off the pitch."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_distefano_irishtimes, src_distefano_scotsman, src_distefano_espndep, src_distefano_bbc | 1949-1966, 1967-1984 | two obituaries, a Colombian account, a neutral transfer reconstruction] He moved from Argentina to the breakaway Colombian league in 1949 and starred there, was left without a club when Colombia rejoined FIFA and moved to Spain in 1953, played for three national teams (Argentina, Colombia, Spain), played deep as well as up front when defences were used to fixed positions, and after retiring at 40 coached clubs in Argentina and Spain, winning league titles with several. The pattern of rebuilding his career in new countries and roles is documented in several independent sources; the sources describe moves and results, not how he coped."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_distefano_irishtimes, src_distefano_realmadrid, src_distefano_espnkopa | 1950s-1960 | obituary, club history page, teammate recollection] Obituary and club page describe him creating space and chances for others and the famous partnership with Puskas at the 1960 final; against that, Kopa's account of an arrogant despot and Di Stefano's own wish to take the centre-forward position show that the partnership was built around him. Mixed, one-sided on both sides, so low confidence and dual-edged."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/alfredo-di-stefano-anefo-1959.jpg",
+    "width": 883,
+    "height": 1200,
+    "source": "Photograph by Wim van Rossem for Anefo, 30 June 1959 (Real Madrid v Amsterdam, Olympic Stadium; item 910-4823, group photograph of Gento, referee Leo Horn, Di Stefano and Faas Wilkes), Nationaal Archief. The 4342 x 3304 pixel image was cropped to Di Stefano (third from left) and downscaled to 883 x 1200 with no upscaling.",
+    "license": "CC0 1.0 (Nationaal Archief item record: rights holder 'Nationaal Archief, CC0')",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Wim van Rossem / Anefo, 1959, Nationaal Archief, CC0",
+    "attributionUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a9979e04-d0b4-102d-bcf8-003048976d84",
+    "creator": "Wim van Rossem (Anefo press agency)",
+    "date": "1959-06-30",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a9979e04-d0b4-102d-bcf8-003048976d84"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "알프레도 디 스테파노"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED WITH A CAVEAT: the Nationaal Archief item (910-4823) is a group photograph of four men, not a single-sitter photograph; the holder caption identifies them left to right as Gento, referee Leo Horn, Di Stefano and Faas Wilkes and the item's person keywords list Di Stefano; the crop uses the third man. PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q164546, label Alfredo Di Stefano, description 'Argentine-Spanish association football player (1926-2014)', Korean label 알프레도 디 스테파노, born 4 July 1926, died 7 July 2014; not in prod66.json (grep of name, 'Stefano' and the QID found nothing); no existing candidate file. ZERO POLITICS: portfolio sport; the regime's alleged role in his transfer, the 1963 kidnapping in Caracas and the 1949 players' strike are context and are not scored. No family or private-life inference. REGION: latin_america (born and trained in Buenos Aires, River Plate and Millonarios, naturalised Spanish in 1956 and based in Spain for his Real Madrid years and coaching). Reasoning: repo footballer precedents follow origin and identity (Messi latin_america with a Barcelona career, Puskas central_europe, Cruyff western_europe); the Domeyko career-base rule would give southern_europe, which the lead may prefer; flagged as a judgment call. ERA 20th_century. VOCABULARY: occupation athlete, field sport, impact domains athletic and cultural, tags competitor and sustained_excellence, archetype competitive_performer (all already used by other candidates and present in en.ts and ko.ts). KO NAME: Wikidata Korean label 알프레도 디 스테파노. RESEARCH: read in full or substantially: Irish Times obituary, Scotsman obituary (part paywalled), BBC Sport transfer analysis, Football Espana 1957 feature, ESPN Kopa piece and ESPN Deportes Millonarios piece (both read through page summaries), Real Madrid history and centenary pages, LaLiga obituary (first part). Wikipedia and Wikidata orientation only. PERSPECTIVES: British obituary press, Spanish club and league (admiring), neutral transfer analysis, a Real Madrid teammate (counter-voice, ESPN), Colombian press. Non-self behavioural sources: the two obituaries and the Kopa account. NOT OPENED: the Guardian and Telegraph obituaries (404 or blocked), Sid Lowe's Guardian feature (paywalled in the copy reached), Britannica (short stub only; its full article was not used), the FIFA 'Argentina years' article (page rendered empty), biographies by Phil Ball and others. EXCLUSIONS: details that differ between sources (clubs managed; birth date in one obituary) were not used. PORTRAIT: Nationaal Archief, Anefo collection, photograph by Wim van Rossem, 30 June 1959, item 910-4823 (negative, black and white), rights holder line on the live item page 'Nationaal Archief, CC0'; Commons agrees (CC0). Original 4342 x 3304 pixels. I looked at the full image: four men in a dressing room; the third from the left wears a white Real Madrid shirt with the club crest, the second wears a referee's shirt with a partly visible 'REFEREE' badge, the first is also in white and the fourth in a dark goalkeeper-style top; no sitter names are printed on the image. The caption order (Gento, Horn, Di Stefano, Wilkes) matches the two men in Real Madrid shirts being Gento and Di Stefano. Cropped to the third man's head and torso (a 1030 x 1400 pixel region) and downscaled to 883 x 1200, never upscaled; small parts of neighbours remain at the crop edges. KIND: likeness. FIRST-PASS REVIEW: primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS; nothing corrected. SELF-CALIBRATION: reviewed competitiveness (74/0.58 -> 70/0.52) and leadership_drive (70/0.55 -> 66/0.50), both lowered; collaboration reviewed and kept (already 56/0.42). Flag for lead: the profile is sparse (four rows) because the available sources are obituaries and club pages; no broad scoring problem. HANDBACK66: {\"slug\": \"alfredo-di-stefano\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Nationaal Archief item page (handle a9979e04-d0b4-102d-bcf8-003048976d84) opened; CC0 label present; the caption names Di Stefano\", \"holder_record_checked_by_you\": \"Opened the Nationaal Archief item page (910-4823): rights holder line 'Nationaal Archief, CC0', photographer 'Rossem, Wim van / Anefo', date 1959-06-30, description 'v.l.n.r. Gento, scheidsrechter Leo Horn, Di Stefano en Faas Wilkes', person keywords include 'Stefano, Alfredo di'. Commons metadata (CC0) agrees. It is a four-person group photograph, which the lead's note did not state.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Anefo / Wim van Rossem photograph, 30 June 1959, Nationaal Archief Bestanddeelnr 910-4823\", \"final_portrait_source\": \"Nationaal Archief, Anefo collection, Wim van Rossem, 30 June 1959, item 910-4823 (https://www.nationaalarchief.nl/onderzoeken/fotocollectie/a9979e04-d0b4-102d-bcf8-003048976d84); original 4342x3304 cropped to the third man and downscaled to 883x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"competitiveness\", \"old_score\": 74, \"old_confidence\": 0.58, \"new_score\": 70, \"new_confidence\": 0.52, \"reason\": \"Mostly trophy and obituary evidence read back as the trait; the quotation is undated\"}, {\"attribute\": \"leadership_drive\", \"old_score\": 70, \"old_confidence\": 0.55, \"new_score\": 66, \"new_confidence\": 0.5, \"reason\": \"Rests on one retrospective admirer's recollection, one teammate's characterisation and obituary generalisations\"}], \"reviewed_kept\": [\"collaboration\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4, \"image_inscription_check\": \"No names printed. Real Madrid crest on the sitter's white shirt; a partly visible 'REFEREE' badge on the neighbouring man's shirt at the crop edge; caption order (Gento, Horn, Di Stefano, Wilkes) places the sitter third from the left, consistent with the two Real Madrid shirts being Gento and Di Stefano\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}

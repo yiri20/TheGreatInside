@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jose-maria-velasco",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "José María Velasco",
+    "aliases": [
+      "José María Velasco Gómez",
+      "José María Velasco Gómez Obregón",
+      "José M. Velasco",
+      "Jose Maria Velasco"
+    ],
+    "wikidataId": "Q610971",
+    "birthYear": 1840,
+    "deathYear": 1912,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "MX"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "naturalist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "art",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "artistic",
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_velasco_wikidata",
+      "kind": "wikidata",
+      "title": "Jose Maria Velasco Gomez Obregon (Q610971), verified live via the Wikidata API (2026-11-06): label 'José María Velasco Gómez Obregón', description 'Mexican artist (1840-1912)', born 6 July 1840, died 26 August 1912, citizen of Mexico, occupations including painter. No Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q610971"
+    },
+    {
+      "id": "src_velasco_encl",
+      "kind": "biography",
+      "title": "Clara Bargellini, 'Velasco, José María (1840-1912)', Encyclopedia of Latin American History and Culture (Gale; copy on Encyclopedia.com; read in full, short entry). CANONICAL SIGNIFICANCE SOURCE: calls him a major landscape painter and the foremost Mexican painter of the nineteenth century; favourite pupil of the Italian landscapist Eugenio Landesio, whom he succeeded at the Academia de San Carlos in 1875 and on whose staff he stayed for the rest of his life; his first large 'Valley of Mexico' canvas dates from 1873 and the series is his most famous work; prizes at Philadelphia (1876), Paris (1889) and Chicago (1893) with a style 'hardly affected' by these contacts; a 'strong scientific bent' shown in drawings and paintings of plants, animals and archaeological objects and sites for scientific institutions and publications and in meticulous studies of rocks and vegetation.",
+      "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/velasco-jose-maria-1840-1912"
+    },
+    {
+      "id": "src_velasco_gaceta",
+      "kind": "press",
+      "title": "Fernando Guzman Aguilar, 'José María Velasco: del rebozo al paisaje', Gaceta UNAM (1 July 2020; read in full). University newspaper piece, partly drawing on research by Velasco's great-granddaughter Maria Elena Altamirano Piolle, so a family-linked, admiring source: says he entered the Academy of San Carlos as a boy, studied botany, physics, zoology, anatomy and mathematics at the medical academy, taught perspective at San Carlos, illustrated La Naturaleza (journal of the Sociedad Mexicana de Historia Natural) for botanists, zoologists, geologists and paleontologists, joined the society as a full member, published 'Descripción, metamorfosis y costumbres de una especie nueva del género Siredon' (1879) naming Siredon tigrina (later Ambystoma velasci), received the Legion of Honour in Paris in 1889, painted geological and paleontological scenes now in UNAM's Geology Museum, and quotes critics Juan de la Encina and Anita Brenner on his naturalist realism.",
+      "url": "https://www.gaceta.unam.mx/jose-maria-velasco-del-rebozo-al-paisaje/"
+    },
+    {
+      "id": "src_velasco_ng",
+      "kind": "institution",
+      "title": "National Gallery, London, 'José María Velasco: A View of Mexico' (exhibition page, 29 March-17 August 2025; read). Museum text: Velasco, 'a man of many interests', was fascinated by geology, archaeology, local flora and industrialisation; painted the Valley of Mexico panoramas with exquisite detail; the exhibition was the first dedicated to a historical Latin American artist at the Gallery and celebrates his place among the great nineteenth-century landscape painters. An exhibition promotion, so admiring; its images carry an INBAL reproduction-authorisation credit.",
+      "url": "https://www.nationalgallery.org.uk/exhibitions/velasco"
+    },
+    {
+      "id": "src_velasco_bbc",
+      "kind": "press",
+      "title": "BBC News Mundo, 'Quién es el mexicano José María Velasco, el primer artista latinoamericano al que la National Gallery de Londres le dedica una exposición' (2025; read in full, via the copy on acento.com.do). Journalism built on an interview with National Gallery curator Daniel Sobrino Ralston and quotations from critics: records the 1877 'Valley of Mexico from the Hill of Santa Isabel' painted for the 1878 Paris exposition, the 1889 Paris show of 68 works and Legion of Honour letter, his teaching at the national fine arts school, his geology-informed rock studies and scientific-draughtsman training, and the 1910 painting of the 1882 comet from notes made at the time. COUNTER-VOICES: the curator calls him 'not an innovator' who kept his master's romantic style; his biographer Islas Garcia is quoted on his disdain for Impressionism; Octavio Paz judged him 'only one half of genius'; his death was noted in the Mexican press only two days later.",
+      "url": "https://acento.com.do/bbc-news-mundo/quien-es-el-mexicano-jose-maria-velasco-el-primer-artista-latinoamericano-al-que-la-national-gallery-de-londres-le-dedica-una-exposicion-9507872.html"
+    },
+    {
+      "id": "src_velasco_naturaleza",
+      "kind": "archive",
+      "title": "Sociedad Mexicana de Historia Natural, 'Necrología' and Manuel M. Villada's graveside address for José M. Velasco, La Naturaleza, 3rd series, vol. 1 (1910-1912), p. LXXIX-LXXX (Internet Archive full text of the volume, read for these pages and for the plate caption on the Nautla excursion article). Contemporary 1912 obituary from the society of which he was a member: says he died on 26 August 1912, aged 73, calls him 'not only a good artist but also a man of science', cites his 'astute and complicated' study of the axolotl's transformation read before the society (which 'had some resonance abroad') and botanical studies on the flora of the Valley of Mexico, his official delegate roles at the Paris and Chicago exhibitions and the Legion of Honour, and his many pupils. The speaker was a friend of almost fifty years, so the tribute is warm and not neutral; the same volume carries a plate drawn by Velasco 'at the author's suggestion' for Villada's own article.",
+      "url": "https://archive.org/details/lanatur3119101912mexi"
+    },
+    {
+      "id": "src_velasco_bv",
+      "kind": "biography",
+      "title": "'José María Velasco', Biografías y Vidas (online biographical encyclopedia; read in full, short). Used only for orientation and a critical angle: calls him the leading exponent of nineteenth-century Mexican landscape painting, lists his medals (Mexican national exhibitions 1874 and 1876, Philadelphia 1876, Paris 1889, Madrid 1893), and says the muralists Orozco, Rivera and Siqueiros looked to him in their early years and later broke with him. Its dates for a photography venture and for a drawing-inspector post are inconsistent with other sources and are not used.",
+      "url": "https://www.biografiasyvidas.com/biografia/v/velasco_josemaria.htm"
+    },
+    {
+      "id": "src_velasco_rig",
+      "kind": "press",
+      "title": "Omar Olivares Sandoval, review of Fausto Ramirez, 'José María Velasco, pintor de paisajes' (Fondo de Cultura Económica / UNAM, 2017), Investigaciones Geográficas no. 95 (2018; read in full, two pages). Scholarly review by an art-history graduate student: outlines the book's periodisation of his career (apprenticeship 1855-1868, naturalist drive 1868-1876, consolidation as landscape professor and artistic head of Mexico's delegation at the 1889 Paris exposition, a peak in the 1890s, and a productive final decade of withdrawal 1902-1912 in a modernist climate) and notes that landscape painting was central to the nineteenth-century scientific picture, which is why his membership of the Sociedad Mexicana de Historia Natural matters.",
+      "url": "https://www.investigacionesgeograficas.unam.mx/index.php/rig/article/view/59646"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_velasco_encl, src_velasco_gaceta, src_velasco_naturaleza, src_velasco_ng | 1860s-1912 | encyclopedia, university newspaper, society obituary, museum page] The Encyclopedia of Latin American History and Culture says he was a major landscape painter with 'a strong scientific bent' who made drawings and paintings of plants, animals and archaeological objects and sites for scientific institutions and publications; Gaceta UNAM reports that he studied botany, physics, zoology, anatomy and mathematics at the medical academy, illustrated La Naturaleza, became a full member of the Sociedad Mexicana de Historia Natural and in 1879 published a paper on the axolotl's metamorphosis naming a new species; the society's own 1912 obituary calls him 'not only a good artist but also a man of science' and cites the axolotl study and botanical studies on the flora of the Valley of Mexico; the National Gallery page adds his interest in geology, archaeology and local flora. An encyclopedia, a contemporary obituary and a museum agree on the two-field practice; the size of his scientific output is described mostly by admirers and by research of a descendant, so the score stays below 80."
+    },
+    "detail_orientation": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_velasco_encl, src_velasco_ng, src_velasco_bbc, src_velasco_naturaleza | 1870s-1910 | encyclopedia, museum page, journalism with curator, society obituary] The Encyclopedia describes 'meticulous studies of rocks and vegetation', the National Gallery speaks of 'exquisite detail' and 'botanically accurate studies of plants', a critic quoted by BBC Mundo credits him with reproducing rocks, plants and skies 'to the finest grain', and Villada's 1912 address says a botanist could recognise the distinct species in his landscapes. The sources describe the exactness of the work rather than his working process, and the praise is retrospective or from a friend. SELF-CALIBRATION (agent): The documented exactness of his rocks, plants and skies is described mainly by an exhibition page, a curator and retrospective writers, with only a friend's eulogy as a contemporary voice."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_velasco_gaceta, src_velasco_bbc, src_velasco_naturaleza | 1860s-1912 | university newspaper, journalism, society obituary] He went from the fine-arts academy to the medical academy to learn botany, physics, zoology, anatomy and mathematics (Gaceta UNAM), kept studying these subjects after graduating (BBC Mundo), followed recent geology that put the Earth's age in millions of years (curator quoted by BBC Mundo), and presented a study of axolotl metamorphosis and others on the Valley's flora to the natural history society (Villada, 1912). The learning is documented; the motive ('curious to know more about what he painted') is the newspaper writer's phrasing, so this is an inference from documented study, not a stated reason."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_velasco_gaceta, src_velasco_naturaleza | 1870s-1912 | university newspaper, society journal] Gaceta UNAM reports that his scientific plates supported the articles of botanists, zoologists, geologists and paleontologists writing in La Naturaleza, naming a 1876 hummingbird article by Rafael Montes de Oca as one example, and the 1912 volume of the same journal prints a panoramic plate that he drew 'at the author's suggestion' for Manuel Villada's article on the Nautla excursion. This is documented work done for named colleagues; how the working relationships ran is not described, so only a moderate score."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_velasco_encl, src_velasco_bbc, src_velasco_rig | 1868-1912 | encyclopedia, journalism, scholarly review] He taught at the Academy of San Carlos for most of his life and returned to the Valley of Mexico subject in a series of large canvases from 1873 (Encyclopedia), re-painted the Valley in versions through the 1870s and 1880s, and kept painting, on a much smaller scale, until his death (BBC Mundo, relaying the curator and a descendant), a decade Ramirez's book calls productive (review). The sustained output is documented across independent sources; the last-day anecdote rests on a descendant and is not weighted, and no source describes setbacks he pushed through, so confidence is moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "호세 마리아 벨라스코"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait resolved. Best candidate: his oil self-portrait in the Museo Nacional de Arte, Mexico City (INBAL), as Commons file 'Jose Maria Velasco.jpg' (908 x 1280; Spanish Wikipedia uploader, dated 1894, PD-Art and PD-old-auto-expired tags, uploader-only public-domain statement) or the same painting in a 2024 visitor's CC BY-SA 4.0 photograph (1534 x 2095, titled 'Self-portrait (1877)'). Blockers: the holder's catalogue record or terms page could not be opened (munal.mx returned an empty page), the two Commons files date the painting differently (1877 and 1894) with no authority to settle it, the National Gallery page credits INBAL reproduction authorisation for MUNAL works, and the visitor photograph adds its own licence claim over a reproduction of a public-domain 2D work. The '1894 photograph' lead is not a photograph. No photograph of him or pre-1931 printed portrait was found. Next step: obtain the MUNAL or INBAL catalogue record or written reproduction terms for the self-portrait, or find a pre-1931 published photograph with a documented publication date."
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / HELD: the lead's holder concern was confirmed, not resolved (see portrait.reason). PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q610971 label 'José María Velasco Gómez Obregón', description 'Mexican artist (1840-1912)', born 6 July 1840, died 26 August 1912, citizen of Mexico, no Korean label; no production (prod66.json) or candidate slug/QID collision. REGION latin_america (precedent: Mexican painters Diego Rivera and Orozco are latin_america). ERA 19th_century. KOREAN NAME 호세 마리아 벨라스코 is a RECORDED TRANSLITERATION of the Spanish name (neither Korean Wikipedia nor Wikidata has an entry for him). ZERO POLITICS: only painting, scientific illustration, natural-history study and teaching are scored; the Porfirian state commissions, his 1889 role as artistic head of Mexico's delegation and the political readings of his paintings are context, not scored. VOCABULARY: occupations painter, naturalist, teacher; fields art, natural_science; impact domains artistic, scientific, cultural; tags cross_disciplinary, detail_oriented; archetype creative_creator (all labelled in EN and KO). ATTRIBUTION CONFIRMED: dated works, publications, teaching posts and a contemporary obituary. CANONICAL SIGNIFICANCE SOURCE: Encyclopedia of Latin American History and Culture entry 'Velasco, José María (1840-1912)' (Encyclopedia.com copy). READ (substantively): the Encyclopedia entry; Gaceta UNAM 2020 feature; the National Gallery exhibition page; BBC Mundo feature (acento.com.do copy); the 1912 La Naturaleza obituary and eulogy (Internet Archive full text of the volume, read for the necrology pages and the Nautla plate caption); Biografías y Vidas (short); the Investigaciones Geográficas review of Ramírez's 2017 book (a PDF review, two pages). Wikipedia was used for orientation only and is not cited. PERSPECTIVES: encyclopedic scholarship; a university newspaper partly relying on a descendant's research; a museum's exhibition page; journalism with a curator and critics (counter-voices: 'not an innovator', Paz's 'only half of genius', Islas García on his disdain for Impressionism, a muralist break); a contemporary scientific-society obituary by a friend; a scholarly book review. Non-self behavioural source: the 1912 society obituary plus the plate caption in the same volume. NOT OPENED: the National Gallery video, Mia (Minneapolis) press page (HTTP 429), the INBAL bulletins (connection refused or file not retrievable), Altamirano Piolle's article in the journal Ciencias, Trabulse's 1992 book, Ramírez's 2017 book itself, Britannica; Velasco's own letters appear only as quoted by BBC Mundo. Source conflicts not resolved and therefore not carded: the end of his professorship (BBC Mundo says 1903; other sites differ), the date of his inspector post, and the date of his appointment to the Academy's teaching staff (Gaceta UNAM and Biografías y Vidas differ). Family and private life, health and death circumstances are not used. PORTRAIT: held. Self-portrait (oil, 56.3 x 41.8 cm per the Commons description, Museo Nacional de Arte, INBAL): Commons file 'Jose Maria Velasco.jpg' (908 x 1280, Spanish Wikipedia uploader Ruiz, dated 1894, tags PD-Art and PD-old-auto-expired, uploader-only permission statement, no holder record) and 'Self-portrait (1877)' by a visitor photograph (1534 x 2095, CC BY-SA 4.0, taken May 2024, 'Museo Nacional de Artes') show the same painting; two further 2024-2026 visitor photographs exist. The painting is old enough to be public domain (he died in 1912) but the held route fails the strict rules: the holder record could not be opened (munal.mx served an empty page), the date is disputed between the two Commons files (1877 vs 1894) with no authority to settle it, INBAL asserts reproduction authorisation for MUNAL images on the National Gallery's page, and the visitor's CC BY-SA photograph adds a licence claim over a reproduction of a public-domain 2D work. The '1894 photograph' alternative is not a photograph (it is this painting). Bounded retry (about 15 calls): Commons category and searches (no photograph of Velasco), Wikidata (no item for the painting), Internet Archive catalogue searches (nothing), MUNAL site. NEXT STEP: obtain the MUNAL/INBAL catalogue record or written terms for the self-portrait, or find a pre-1931 published photograph of Velasco (for example in a Mexican illustrated periodical of 1889-1912) with a documented publication date. Image inscription check: no lettering visible on either file. SELF-CALIBRATION: reviewed cross_domain_range (kept, four independent accounts agree), persistence (kept) and detail_orientation (lowered 74/0.60 to 72/0.55, see handback). Broad-profile flag for the lead: none; sparse 5-row profile by design (no row for creative originality because the curator and the Encyclopedia describe a conservative style). HANDBACK66: {\"slug\":\"jose-maria-velasco\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"PLAUSIBLE (alt-dependent)\",\"holder_record_at_preflight\":\"NOT VERIFIED: the self-portrait is photographed by a Commons user (CC BY-SA 4.0); the holder (Museo Nacional de Arte) terms were not opened and Mexican federal collections often restrict reuse\",\"holder_record_checked_by_you\":\"Museo Nacional de Arte (munal.mx) home page opened: an empty shell, no collection record or terms page reachable; no catalogue record (ficha) for the self-portrait found by web search or in Wikidata (no item for the painting). The National Gallery's live exhibition page credits MUNAL works as 'Reproduccion autorizada por el Instituto Nacional de Bellas Artes y Literatura' (an INBAL reproduction-authorisation line). Holder record therefore unavailable; Commons files read via the API (wikitext, licence, uploader).\",\"holder_contradiction_found\":true,\"initial_lead\":\"Velasco self-portrait 1877 (user photograph of a painting) and an 1894 photograph\",\"final_portrait_source\":null,\"portrait_lead_or_replacement\":\"none\",\"portrait_final_status\":\"held\",\"preflight_overestimate_reason\":\"The '1894 photograph' alternative is not a photograph: the Commons file 'Jose Maria Velasco.jpg' is a scan of the same oil self-portrait (56.3 x 41.8 cm, MUNAL) uploaded by a Spanish Wikipedia user with an uploader-only public-domain statement and no holder record; the other lead is a visitor's CC BY-SA photograph of the framed painting. The two files date the painting differently (1877 vs 1894) and no holder record could be opened to settle it, and INBAL asserts reproduction authorisation for MUNAL images. No photograph of Velasco or pre-1931 printed portrait with a documented basis was found in one bounded retry (Commons category and searches, Wikidata, Internet Archive catalogue search).\",\"risky_success_note\":null,\"rows_initially_scored\":5,\"self_calibrated_rows\":[{\"attribute\":\"detail_orientation\",\"old_score\":74,\"old_confidence\":0.6,\"new_score\":72,\"new_confidence\":0.55,\"reason\":\"The documented exactness of his rocks, plants and skies is described mainly by an exhibition page, a curator and retrospective writers, with only a friend's eulogy as a contemporary voice.\"}],\"reviewed_kept\":[\"cross_domain_range\",\"persistence\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":5,\"image_inscription_check\":\"none visible on either file: the 1894 PD-Art scan and the 1877 museum photograph show the same bust-length oil self-portrait with no signature, label or caption legible; the date and sitter come only from the Commons descriptions and Wikidata image field\",\"image_identity_matches_claimed_sitter\":\"ambiguous\",\"inscription_contradiction_found\":false}"
+  }
+}

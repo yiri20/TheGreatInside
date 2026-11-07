@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "joseph-fourier",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Joseph Fourier",
+    "aliases": [
+      "Fourier",
+      "Jean-Baptiste Joseph Fourier",
+      "Baron Fourier"
+    ],
+    "wikidataId": "Q8772",
+    "birthYear": 1768,
+    "deathYear": 1830,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "physicist"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "theorist",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fourier_wikidata",
+      "kind": "wikidata",
+      "title": "Joseph Fourier (Q8772), verified live via the Wikidata API (2026-11-06): label 'Joseph Fourier', description 'French mathematician and physicist (1768 - 1830)', born 21 March 1768, died 16 May 1830, Korean label 조제프 푸리에. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q8772"
+    },
+    {
+      "id": "src_fourier_dsb",
+      "kind": "biography",
+      "title": "Jerome R. Ravetz and I. Grattan-Guinness, 'Fourier, Jean Baptiste Joseph', Complete Dictionary of Scientific Biography (Gale), reproduced on Encyclopedia.com (entry read in full, about 6,500 words). CANONICAL SIGNIFICANCE SOURCE: expert history-of-mathematics assessment of the heat-diffusion work, the Fourier series and integral, the formulation of physical problems as boundary-value problems, the theory of units and dimensions, the theory of equations, the 1811 prize jury's reservations, his rivalry with Poisson and Biot and his support of younger mathematicians.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/fourier-jean-baptiste-joseph"
+    },
+    {
+      "id": "src_fourier_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics Archive (University of St Andrews), 'Joseph Fourier' biography (read in full, about 3,000 words). Dated biography with quoted letters: schooling and mathematics from the age of thirteen, the 1807 memoir and the objections of Lagrange, Laplace, Biot and Poisson, the 1811 prize and its qualified report, the 1822 Analytical Theory of Heat and the priority disputes of his last years.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fourier/"
+    },
+    {
+      "id": "src_fourier_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Joseph Fourier', by Dirk Jan Struik (public-web article read in full, about 800 words; the web page also carries machine-generated summaries that were ignored). General scholarly summary: the Analytical Theory of Heat (begun in Grenoble in 1807, completed in Paris in 1822), the series and integral named for him, the later settlement of doubts about their validity by Dirichlet, Riemann and Lebesgue, his interest in the roots of equations and his Egyptological work.",
+      "url": "https://www.britannica.com/biography/Joseph-Baron-Fourier"
+    },
+    {
+      "id": "src_fourier_arago",
+      "kind": "archive",
+      "title": "Francois Arago, 'Joseph Fourier' (historical eulogy delivered to the Academy of Sciences, 1833), in Biographies of Distinguished Scientific Men, translated by W. H. Smyth, Baden Powell and Robert Grant, Project Gutenberg ebook 16775 (the heat-theory, academy and character sections read, about 6,000 words). Near-contemporary account by Fourier's successor as secretary; admiring but openly critical on two points (his reaction to the 1811 jury and to those who improved his theory); used for documented work habits and episodes, with that admiring-colleague caveat.",
+      "url": "https://www.gutenberg.org/files/16775/16775.txt"
+    },
+    {
+      "id": "src_fourier_af",
+      "kind": "institution",
+      "title": "Academie francaise, 'Joseph Fourier' member record (page read in full, about 150 words). Institutional record of his election to the Academie des sciences (1817, after an annulled first vote), his election to the Academie francaise on 14 December 1826 and his principal works: Theorie analytique de la chaleur (1822) and Analyse des equations determinees (1831).",
+      "url": "https://www.academie-francaise.fr/les-immortels/joseph-fourier"
+    },
+    {
+      "id": "src_fourier_wellcome",
+      "kind": "institution",
+      "title": "Wellcome Collection, 'Jean-Baptiste-Joseph Fourier. Line engraving by A.F.B. Geille after J. Boilly' (work b4qh352u; catalogue record and IIIF image record read, item-level Public Domain Mark stated). Holder record for the portrait.",
+      "url": "https://wellcomecollection.org/works/b4qh352u"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fourier_dsb, src_fourier_mactutor, src_fourier_britannica | 1807-1822 | expert dictionary entry + university archive biography + general encyclopedia] DSB says his trigonometric expansions shocked mathematicians by showing that, over a finite interval, algebraic expressions of totally different form can be equal, and that he substituted the Fourier integral theorem where series failed; MacTutor, quoting a modern historian, treats the failure of Lagrange and Laplace to be persuaded by his clearly written work as a good index of the originality of his views; Britannica notes that series had been used occasionally by Euler but received their important position through Fourier. Three accounts agree, but all are retrospective assessments of the work rather than records of how he worked, so confidence stays moderate. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 76 / 0.62 to 72 / 0.56 because the strongest statements come from one Dictionary of Scientific Biography entry."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fourier_dsb, src_fourier_mactutor, src_fourier_arago | 1807-1830 | expert dictionary entry + university archive biography + near-contemporary eulogy] DSB says he rejected the prevailing Laplacian approach of explaining physical phenomena through imperceptible molecules and local forces; MacTutor records that further clarifications still failed to convince Lagrange and Laplace of the trigonometric expansions; Arago reports that he never accepted the jury's qualified verdict of 1811 and had the memoir printed unchanged at the end of his life. Three independent accounts of holding his own line against senior colleagues; scored for independence of method, not for correctness. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 72 / 0.6 to 68 / 0.54 because rests on the DSB and MacTutor reading the same episode."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fourier_dsb, src_fourier_britannica, src_fourier_mactutor | 1807-1822 | expert dictionary entry + general encyclopedia + university archive biography] DSB describes his achievement as formulating heat diffusion as boundary-value problems in linear partial differential equations, extending rational mechanics beyond the fields defined in Newton's Principia, and building a coherent method that identified the components of an equation and its series solution; Britannica says his work stimulated mathematical physics generally identified with solving boundary-value problems; MacTutor says he established the governing equation and solved it with infinite trigonometric series. SELF-CALIBRATION (agent): lowered from 74 / 0.6 to 70 / 0.56 because the strongest statements come from one expert entry (DSB) and the other two are brief retrospective summaries, so the claim leans on a single author's interpretation. RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 70 / 0.56 to 66 / 0.5 because one expert entry and two short retrospective summaries."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fourier_mactutor, src_fourier_dsb, src_fourier_arago | 1789-1830 | university archive biography + expert dictionary entry + near-contemporary eulogy] His first paper on equations sent to the Academy in 1789 vanished in the turmoil of that year and the results were published only in the late 1810s; the heat memoir of 1807 was not published, so he expanded it for the 1811 prize and then into the 1822 book (MacTutor, DSB); Arago says the duties of his prefecture hardly interrupted his work and that the principal writings are dated from Grenoble, and DSB calls research a spare-time activity until 1815; at his death the Analysis of Determinate Equations was only partly finished and was completed for print by a friend. Documented long-running work against delay and non-publication; the prefecture is used only as working conditions, not scored."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fourier_dsb, src_fourier_britannica, src_fourier_af | 1789-1829 | expert dictionary entry + general encyclopedia + academy record] Beyond heat diffusion DSB documents his work on the theory of equations from his teens (a proof of Descartes's rule of signs, a theorem on counting real roots, an early treatment of linear inequalities), a theory of units and dimensions, an estimate of the age of the earth, analyses of the thermometer and of room heating, a joint paper with Oersted on thermoelectric effects and papers on errors of measurement for the Statistical Bureau of the Seine; Britannica and the Academie francaise record his Egyptological preface and election to the literary academy. Range across pure mathematics, physics, statistics and scholarship is documented by several sources. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 70 / 0.58 to 66 / 0.52 because the breadth is listed by one DSB entry rather than examined independently."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fourier_dsb, src_fourier_mactutor, src_fourier_arago | 1807-1822 | expert dictionary entry + university archive biography + near-contemporary eulogy] DSB says he had as much concern for practical problems of rigor as anyone in his day except Cauchy and Abel, handled convergence of series such as the sawtooth competently and saw before others that term-by-term integration of a trigonometric series does not guarantee its correctness; but the 1811 jury found his analysis left something to be desired in rigour and generality (MacTutor, Arago), a verdict DSB argues was misinterpreted and partly motivated by rivals. Evidence genuinely mixed between the expert's defence and the contemporary jury, so the score is a lean and confidence is near the lower bound of the middle band."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fourier_dsb | 1823-1831 | expert dictionary entry] DSB says he won the loyalty of younger friends by unselfish support and encouragement and helped Oersted, Dirichlet, Abel and Sturm, lists a joint paper with Oersted on thermoelectric effects (1823), and notes that his friend Navier edited the Analysis of Determinate Equations for print after his death. Offsetting evidence in the same entry: a young mathematician's memoir was lost among his papers in 1830, which DSB attributes to disorganization. SELF-CALIBRATION (agent): lowered from 60 / 0.5 to 56 / 0.46 because the support is one entry (DSB) with no independent corroboration of the mentoring claims, and the same entry records a lost submission."
+    },
+    "belief_updating": {
+      "score": 44,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fourier_arago, src_fourier_dsb, src_fourier_mactutor | 1807-1830 | near-contemporary eulogy + expert dictionary entry + university archive biography] Mixed. Against updating: Arago says Fourier never admitted the validity of the 1811 jury's reservations, printed the memoir without changing a word, and ended by regarding with displeasure the efforts of geometers who tried to improve his theory; MacTutor records his unpublished rebuttal to Biot and Poisson. For updating: DSB documents that across his drafts he abandoned a discrete-particle transfer model and replaced the series with the Fourier integral theorem where periodicity made series fail. Whether his resistance was stubbornness or justified is disputed (DSB argues the jury criticism was misinterpreted), so the score sits just below the middle with low confidence and a dual-edged impact."
+    },
+    "experimentation": {
+      "score": 56,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fourier_dsb, src_fourier_mactutor | 1807-1830 | expert dictionary entry + university archive biography] DSB says he required every mathematical statement to have a physical meaning, interpreted his solutions to obtain limiting cases testable against experiment and performed such experiments at the earliest opportunity, and applied the theory to the thermometer and the heating of rooms; the MacTutor reference list includes a study of his experimental work on heat conduction, but its content was not opened. One expert source carries the claim, so only a mild lean at low confidence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED, lead image used. Holder record opened: Wellcome Collection catalogue API work b4qh352u, 'Jean-Baptiste-Joseph Fourier. Line engraving by A.F.B. Geille after J. Boilly', contributors Julien-Leopold Boilly and Amedee-Felix-Barthelemy Geille (1802-1843), IIIF image record V0002001 with item-level licence Public Domain Mark (no contradicting notice); the record gives no date for the print, but the engraver died in 1843 and the print therefore predates 1843, far earlier than 1931 (Britannica captions the original Boilly likeness as a lithograph of 1823 held by the Academy of Sciences; that caption was not used as a rights basis). IMAGE CHECKED BY EYE: lettering reads 'J. Boilly Del.' (lower left), 'Geille Sculp.' (lower right) and the caption 'J. FOURIER.' under the bust; sitter identified by the plate caption and the catalogue, no contradiction. Kind historical_depiction: an engraving made by a second artist after another artist's drawing, with no documented sitting for this plate. The 2188 x 3328 scan was cropped to the plate with its caption (removing blank margin) and downscaled once to 739 x 1200; nothing upscaled. PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q8772 label 'Joseph Fourier', description 'French mathematician and physicist (1768 - 1830)', born 21 March 1768, died 16 May 1830, Korean label 조제프 푸리에 (Wikidata Korean label, used as the Korean display name); no collision in the 762-person production list or the 937 existing candidate files. REGION western_europe (France). ERA 19th_century (life 1768-1830; his principal work, the 1822 book, and most of his career fall in the 19th century; era values of other candidates born in the 1760s-1780s were not individually checked). ZERO POLITICS / MILITARY: his role in the Revolutionary committee of Auxerre and his arrests, the Egyptian expedition (military and diplomatic duties), his prefectures of Isere and Rhone and his rank under Napoleon are context only and are not scored; no row rests on them (the Grenoble prefecture appears only as the working conditions of the heat research). No health inference: the illness recorded in the dictionary entry and his death are not used. VOCABULARY: occupations mathematician, physicist; fields mathematics, physics; tags theorist, systematic_thinker; archetype scholarly_specialist (all present with EN and KO labels). IMPACT DOMAIN scientific. ATTRIBUTION CONFIRMED: dated memoirs, jury reports, letters quoted by historians. CANONICAL SIGNIFICANCE SOURCE: Ravetz and Grattan-Guinness, 'Fourier, Jean Baptiste Joseph', Complete Dictionary of Scientific Biography (Encyclopedia.com), https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/fourier-jean-baptiste-joseph, corroborated by Britannica. READ (substantively, 5 sources besides Wikidata and the portrait holder): DSB entry, MacTutor biography, Britannica article (Struik), Arago's 1833 eulogy (heat-theory, academy and character sections of the Gutenberg text), the Academie francaise member record. PERSPECTIVES: expert history-of-science entry; university archive biography; general encyclopedia; near-contemporary colleague's eulogy (admiring, but critical on two points); institutional record. COUNTER-VOICES: the 1811 jury's reservations and the Poisson and Biot attacks (MacTutor, DSB, Arago), DSB's lost-manuscript note, and Arago's criticism of his reaction to critics. NOT OPENED: Herivel's and Grattan-Guinness's books, Fourier's Theorie analytique itself, the Yoshida and Takata paper on his experiments, the Brian Greene video; a Galois biography page was opened during research but not used (the lost-manuscript claim is taken only from DSB). EXCLUSIONS: the greenhouse-effect and 'first' claims found in secondary web summaries (not read in a source; not used), the political episodes above, illness and death. Self-report: none used (Fourier's letters appear only through MacTutor and DSB). HANDBACK66: {\"slug\":\"joseph-fourier\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"STRONG (lead-robust)\",\"holder_record_at_preflight\":\"VERIFIED: Wellcome Collection API work b4qh352u opened (line engraving by A.F.B. Geille after J. Boilly; license pdm)\",\"holder_record_checked_by_you\":\"Re-opened the Wellcome catalogue API record b4qh352u and the IIIF image record V0002001: item-level Public Domain Mark, contributors Julien-Leopold Boilly and Geille (1802-1843), no date, no contrary notice; image downloaded at 2188x3328\",\"holder_contradiction_found\":false,\"initial_lead\":\"Wellcome line engraving after Boilly\",\"final_portrait_source\":\"Wellcome Collection b4qh352u, line engraving by A.F.B. Geille after J. Boilly (Public Domain Mark); 2188x3328 scan cropped to plate and downscaled to 739x1200; https://wellcomecollection.org/works/b4qh352u\",\"portrait_lead_or_replacement\":\"lead\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":9,\"self_calibrated_rows\":[{\"attribute\":\"systems_abstraction\",\"old_score\":74,\"old_confidence\":0.6,\"new_score\":70,\"new_confidence\":0.56,\"reason\":\"Strongest statements come from one expert entry and the other two sources are brief retrospective summaries\"},{\"attribute\":\"collaboration\",\"old_score\":60,\"old_confidence\":0.5,\"new_score\":56,\"new_confidence\":0.46,\"reason\":\"Mentoring claims rest on one entry with no corroboration and the same entry records a lost young mathematician's submission\"}],\"reviewed_kept\":[\"creative_originality\",\"independent_thinking\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":9,\"image_inscription_check\":\"Lettering 'J. Boilly Del.' lower left, 'Geille Sculp.' lower right, caption 'J. FOURIER.' beneath the bust\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 76 / 0.62 to 72 / 0.56 because the strongest statements come from one Dictionary of Scientific Biography entry. RUBRIC_CORRECTION (lead review, before eligibility): independent_thinking lowered from 72 / 0.6 to 68 / 0.54 because rests on the DSB and MacTutor reading the same episode. RUBRIC_CORRECTION (lead review, before eligibility): systems_abstraction lowered from 70 / 0.56 to 66 / 0.5 because one expert entry and two short retrospective summaries. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 70 / 0.58 to 66 / 0.52 because the breadth is listed by one DSB entry rather than examined independently."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조제프 푸리에"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/joseph-fourier-boilly-geille.jpg",
+    "width": 739,
+    "height": 1200,
+    "source": "Line engraving of Joseph Fourier by Amedee-Felix-Barthelemy Geille after a drawing by J. Boilly, lettered 'J. Boilly Del.', 'Geille Sculp.' and 'J. FOURIER.'; Wellcome Collection, London (work b4qh352u). The museum scan (2188 x 3328 pixels) was cropped to the plate and its caption and downscaled once to 739 x 1200 pixels; nothing was upscaled. Shown as a later engraving after another artist's likeness, not as a documented sitting.",
+    "license": "Public domain (Wellcome Collection Public Domain Mark; engraving by an artist who died in 1843)",
+    "licenseUrl": "https://creativecommons.org/share-your-work/public-domain/pdm/",
+    "attribution": "A.F.B. Geille after J. Boilly, 'J. Fourier', line engraving, Wellcome Collection, London (b4qh352u), public domain",
+    "attributionUrl": "https://wellcomecollection.org/works/b4qh352u",
+    "creator": "Amedee-Felix-Barthelemy Geille (engraver) after J. Boilly",
+    "date": "undated (made before 1843)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://wellcomecollection.org/works/b4qh352u"
+  }
+}

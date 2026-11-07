@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "cyrus-mccormick",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Cyrus McCormick",
+    "aliases": [
+      "Cyrus Hall McCormick",
+      "Cyrus H. McCormick"
+    ],
+    "wikidataId": "Q719357",
+    "birthYear": 1809,
+    "deathYear": 1884,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "technology",
+      "business",
+      "agriculture"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "entrepreneurial"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mccormick_wikidata",
+      "kind": "wikidata",
+      "title": "Cyrus McCormick (Q719357), verified live via the Wikidata API (2026-11-06): description 'American inventor and businessman (1809-1884)', Korean label 사이러스 맥코믹, born 15 February 1809, died 13 May 1884. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q719357"
+    },
+    {
+      "id": "src_mccormick_pbs",
+      "kind": "press",
+      "title": "PBS American Experience, 'Chicago: City of the Century: Cyrus McCormick (1809-1884)' (read via a page summary). CANONICAL SIGNIFICANCE SOURCE (with the MIT Lemelson and ASME biographies below): the reaper that replaced the hand scythe, working by 1831 and patented in 1834, fewer than 100 sold by 1846, the 1847 move to Chicago, the performance guarantee ('15 acres a day' or a refund), credit terms, fixed price, interchangeable parts, trained travelling salesmen, 1851 London gold medal, over 4,000 reapers a year by 1860, rebuilding the factory after the 1871 fire. Documentary-series companion page: admiring and brief; says nothing of the Hussey rivalry or patent disputes.",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/chicago-cyrus-mccormick-1809-1884/"
+    },
+    {
+      "id": "src_mccormick_lemelson",
+      "kind": "institution",
+      "title": "MIT Lemelson Center, 'Cyrus McCormick' (Inventor of the Week biography; read via a page summary). Early cradle invention in 1824, taking over his father's reaper in 1831 and demonstrating a machine within weeks, near-zero sales for years while he refined the design, first patent in 1834, lenient credit, written performance guarantees, spare parts and advertising, the 1847 Chicago factory, 1851 Crystal Palace medal, French Academy of Sciences election; says he defended his patents in court for years. Admiring institutional biography.",
+      "url": "https://lemelson.mit.edu/resources/cyrus-mccormick"
+    },
+    {
+      "id": "src_mccormick_asme",
+      "kind": "institution",
+      "title": "American Society of Mechanical Engineers, 'Cyrus McCormick' (Michael McRae, 1 June 2012; read via a page summary; the page notes ASME is reviewing it against current scholarship). Patents of 1834 and 1845 and the 1848 expiry, early licensed manufacture and its quality problems, choosing Chicago for the Midwest market, mass production from 1848 and about 4,000 reapers a year by 1856, fixed prices with instalments, guarantees, service and advertising, the more than 50 competing makers after the patent lapsed, 'stealthy reverse engineering' of rivals, and a portrait of a stronger marketer than mechanic whose legacy is bound up with slavery and the Confederacy. Partly critical; the most balanced of the three biographies.",
+      "url": "https://www.asme.org/topics-resources/content/cyrus-mccormick"
+    },
+    {
+      "id": "src_mccormick_encyclopedia",
+      "kind": "biography",
+      "title": "Encyclopedia.com, 'McCormick, Cyrus Hall' (biographical encyclopedia entry, read via a page summary). 1831 reaper and 1834 patent, Obed Hussey as main rival and the 1851 London trial, the 1844 licensing scheme that damaged his reputation and the 1847 Chicago factory built in response, the 1848 patent expiry, deferred payments, guarantees and advertising, wages and early negotiation with unions, honours; its bibliography lists the standard biography by William Hutchinson, Norbert Lyons's 'The McCormick Reaper Legend' (which credits his father Robert rather than Cyrus) and a case for Hussey. Mixed in tone; some dates in the entry are inconsistent, so only points confirmed elsewhere are used.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/technology-biographies/cyrus-hall-mccormick"
+    },
+    {
+      "id": "src_mccormick_anbhf",
+      "kind": "award_body",
+      "title": "American National Business Hall of Fame, 'Cyrus McCormick' (laureate biography; read via a page summary). 1831 experimental harvester and 1834 patent, early licensing deals that failed and the Chicago plant partly financed by William Ogden (bought out in 1849), output of 2,500 reapers in 1855 and 4,000 in 1856, fixed price with a written guarantee and $30 down and $90 later, dated testimonials and public competitions, exclusive agents' territories, constant patent battles, a competitor's complaint that he 'flooded the country' with machines, and a dispute with his brother Leander in 1880. Hall-of-fame text: favourable.",
+      "url": "https://anbhf.org/laureates/cyrus-mccormick/"
+    },
+    {
+      "id": "src_mccormick_gies",
+      "kind": "press",
+      "title": "Joseph Gies, 'The Great Reaper War', Invention & Technology, Winter 1990 (read via a page summary). COUNTER-VOICE and independent account: Hussey patented a reaper in December 1833 and his cutter was generally considered superior, McCormick publicly warned others against infringing in 1834, the July 1851 Tiptree Heath trial in which Hussey's machine clogged and McCormick's won, a later Hussey rematch win, the Manny infringement case that McCormick lost, his hiring of salesmen, sales wall maps, credit and printed instructions, and that he 'pressured and bribed editors', with the author concluding McCormick received the lion's share of reward for work others shared. Magazine history article; its fire date and some litigation details were not used because other sources conflict.",
+      "url": "https://www.inventionandtech.com/node/85439"
+    },
+    {
+      "id": "src_mccormick_met",
+      "kind": "institution",
+      "title": "The Metropolitan Museum of Art, Open Access record 'Cyrus Hall McCormick, printer's sample for the World's Inventors souvenir album (A25) for Allen & Ginter Cigarettes' (object 420682; API record read: 1888 commercial colour lithograph, publisher Allen & Ginter, Jefferson R. Burdick Collection, public domain flag true). Portrait source record for the image used.",
+      "url": "https://www.metmuseum.org/art/collection/search/420682"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mccormick_lemelson, src_mccormick_pbs, src_mccormick_asme, src_mccormick_gies | 1831-1850s | institutional biographies, a documentary page, a magazine history] He took over his father's reaper in 1831, sold almost nothing for years (fewer than 100 by 1846) while refining the design, and kept contesting patents and rivals in court for decades. Four sources describe the long, low-return refinement and the continued litigation; the Gies account is critical of him in other ways but does not dispute the pattern. Sources describe events rather than his own reasons, so confidence stays moderate. RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.58 to 68 / 0.52 because institutional biographies and a museum page retell the same standard account."
+    },
+    "opportunity_sensing": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mccormick_asme, src_mccormick_pbs, src_mccormick_encyclopedia, src_mccormick_anbhf | 1844-1850 | engineering society, documentary page, encyclopedia, hall of fame] After licensed makers hurt his reputation he moved production to Chicago in 1847, chose it for rail and water links and orders from large flat Midwest farms (ASME says he was the first to target that market, a claim not repeated elsewhere and not used here), and had mass production under way by 1848. Convergent accounts of the move and its reasons; the interpretation of motive comes from the biographers, not from him."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mccormick_anbhf, src_mccormick_encyclopedia, src_mccormick_asme | 1844-1860 | hall of fame, encyclopedia, engineering society] When licensing his design to outside makers failed on quality and payment, he built his own plant; when the original patent expired in 1848 and more than 50 makers entered the field, he competed through sales, service and manufacturing scale and, according to ASME, by studying rivals' machines. The pattern of changing method after setbacks is documented in three sources, though two are admiring."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mccormick_pbs, src_mccormick_anbhf, src_mccormick_gies | 1840s-1850s | documentary page, hall of fame, magazine history] He relied on field demonstrations, dated customer testimonials, printed advertising and trained travelling salesmen, and won the 1851 London trial (Gies, PBS); Gies also says he pressured and bribed editors, and a competitor complained he 'flooded the country' with machines, so the persuasion was effective but not always above reproach, hence dual-edged. SELF-CALIBRATION (agent): top-risk row, lowered from 66/0.52 because the method evidence comes mainly from admiring institutional pages and the editor-bribing claim rests on a single magazine article."
+    },
+    "conflict_tolerance": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mccormick_gies, src_mccormick_encyclopedia, src_mccormick_lemelson | 1834-1860s | magazine history, encyclopedia, institutional biography] He warned others against infringing his reaper in 1834, opposed Hussey's patent renewal in 1847, sued rivals after the original patent lapsed and defended patents in court for years; Gies reports he lost the Manny case and a later Hussey suit, while the encyclopedia says he generally prevailed, so the outcomes are contested although the willingness to litigate is not. Dual-edged because the fights also cost him standing with some competitors."
+    },
+    "creative_originality": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mccormick_pbs, src_mccormick_asme, src_mccormick_anbhf, src_mccormick_gies | 1831-1850s | documentary page, engineering society, hall of fame, magazine history] Several sources credit a bundle of sales and service practices (fixed price, written guarantee, instalment payment, parts stock, trained salesmen); the originality of the machine itself is contested (Hussey's cutter was judged better, a rival claim credits his father, and ASME notes reverse engineering of competitors). SELF-CALIBRATION (agent): top-risk row, lowered from 60/0.44 because authorship of the machine is disputed and the business-method novelty rests mostly on admiring institutional summaries."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/cyrus-mccormick-allen-ginter-1888.jpg",
+    "width": 712,
+    "height": 1200,
+    "source": "Colour lithograph portrait card 'C. H. M'Cormick', printer's sample for the World's Inventors series published by Allen & Ginter cigarettes, 1888, The Metropolitan Museum of Art (object 420682, Jefferson R. Burdick Collection). A later printed likeness, not a documented sitting. The 1690 x 2992 pixel scan was cropped to the portrait area inside the card border (caption excluded) and downscaled to 712 x 1200 with no upscaling.",
+    "license": "Public domain: 1888 US-published lithograph; Metropolitan Museum of Art Open Access record marks the object public domain (CC0)",
+    "licenseUrl": "https://www.metmuseum.org/art/collection/search/420682",
+    "attribution": "Allen & Ginter, 1888, The Metropolitan Museum of Art, Jefferson R. Burdick Collection, public domain",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/420682",
+    "creator": "Allen & Ginter (publisher; lithographer not named)",
+    "date": "1888",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/420682"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "사이러스 맥코믹"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / REPLACEMENT USED. The lead's Library of Congress engraving route was weaker than it looked: the loc.gov item JSON (opened this session, item 2004672068, reproduction LC-USZ62-27710) says 'No date recorded on caption card', the note 'Engraving by George McCormick' marked 'unverified, old data from caption card' (Commons names George Smillie instead), and only 'No known restrictions on publication'; the undated print and conflicting engraver give no rights basis, so it was not used. REPLACEMENT: The Metropolitan Museum of Art Open Access object 420682, 'Cyrus Hall McCormick, printer's sample for the World's Inventors souvenir album (A25) for Allen & Ginter Cigarettes', 1888 commercial colour lithograph by the publisher Allen & Ginter (US tobacco-card publisher), Jefferson R. Burdick Collection, accession 63.350.202.25.29; the Met API record (v1 objects/420682) shows isPublicDomain true and the Met's open-access image URL; Commons labels it CC0 consistent with the Met. The underlying work is an 1888 US-published lithograph, public domain by age; the card is a later print after an unidentified photograph or engraving, so the kind is historical_depiction, not likeness. IMAGE CHECK: I looked at the full card. It is a colour lithograph of a bearded man with a printed caption 'C. H. M'Cormick.' under the picture; the initials C. H. are also those of the inventor's son Cyrus Hall McCormick Jr., who was about 29 in 1888, so I treated the father-and-son trap seriously: the Met titles the item 'Cyrus Hall McCormick' and it belongs to the World's Inventors series of 1888 (the elder man was the inventor), and the face matches the LoC engraving of Cyrus McCormick that I also viewed (same beard, brow, hair); no lettering contradicts the identification. Cropped to the portrait area inside the card border, without the caption, 1420 x 2390 pixel region of the 1690 x 2992 scan, downscaled to 712 x 1200, never upscaled. PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q719357, label Cyrus McCormick, description 'American inventor and businessman (1809-1884)', Korean label 사이러스 맥코믹, born 15 February 1809, died 13 May 1884; not in prod66.json (grep of name, 'McCormick' and the QID found nothing); no existing candidate file. REGION north_america; ERA 19th_century. ZERO POLITICS: portfolio invention and business; his Confederate sympathies, the 1864 Democratic congressional run, Presbyterian church leadership and the Union Pacific directorship are context only and unscored; the slavery connection mentioned in the ASME biography (the reaper project involved one of the family's enslaved people) is context and not scored. No family or private-life inference; the 1880 dispute with his brother is not scored. VOCABULARY: occupations inventor and entrepreneur, fields technology, business and agriculture (agriculture added for the reaper's field), impact domains technological, industrial and entrepreneurial, tags innovator and founder, archetypes technical_innovator and entrepreneurial_builder; all present in en.ts and ko.ts and used by other candidates (Edison precedent). KO NAME: Wikidata Korean label 사이러스 맥코믹. RESEARCH: read through page summaries (WebFetch extraction; full pages not opened): PBS American Experience, MIT Lemelson Center, ASME, Encyclopedia.com, the American National Business Hall of Fame, and Joseph Gies in Invention & Technology (1990). PERSPECTIVES: documentary-series page, two institutional biographies, a biographical encyclopedia, a business hall of fame, and an independent magazine history (counter-voice on Hussey, litigation and editors). Non-self behavioural sources: Gies, ASME and the encyclopedia. NOT OPENED: Hutchinson's standard biography, Hounshell's 'From the American System to Mass Production' (chapter on the McCormick works), the Encyclopedia of Chicago entries on the McCormick works and International Harvester (seen only in search snippets; they mention the 1885-86 strikes under the later management), Casson, Lyons, Greeno, the Richmond Fed essay (PDF text not extractable) and Britannica (bot-blocked). EXCLUSIONS: conflicting dates (first sale 1839 or 1841; fire dates; the outcome of the Manny suit; whether he beat Hussey in London) were not used as support; labour disputes after 1884 under his son's management are not attributed to him. Wikipedia not used. FIRST-PASS REVIEW: primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS; nothing corrected. SELF-CALIBRATION: reviewed persuasiveness (66/0.52 -> 62/0.46) and creative_originality (60/0.44 -> 56/0.40), both lowered; persistence reviewed and kept (four sources, long documented pattern). Flag for lead: all text sources were read through summaries rather than full pages, and the standard scholarly biography was not opened, so confidence is deliberately moderate; no broad scoring problem. HANDBACK66: {\"slug\": \"cyrus-mccormick\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Library of Congress records cited by Commons; loc.gov is Cloudflare-walled\", \"holder_record_checked_by_you\": \"Opened loc.gov item JSON for 2004672068 (worked this session): 'No date recorded on caption card', note 'Engraving by George McCormick' flagged 'unverified, old data from caption card', rights advisory 'No known restrictions on publication', reproduction number LC-USZ62-27710. Commons names George Smillie as engraver, so the holder record contradicts Commons attribution and gives no date: route rejected. Replacement holder record: Met Museum API v1 objects/420682 (1888 Allen & Ginter commercial colour lithograph, accession 63.350.202.25.29, isPublicDomain true; Commons says CC0).\", \"holder_contradiction_found\": true, \"initial_lead\": \"Library of Congress engraving of Cyrus McCormick (Commons 'Cyrus McCormick engraving')\", \"final_portrait_source\": \"The Metropolitan Museum of Art, Allen & Ginter 1888 chromolithograph 'Cyrus Hall McCormick' (object 420682, https://www.metmuseum.org/art/collection/search/420682); 1690x2992 scan cropped to the portrait and downscaled to 712x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"persuasiveness\", \"old_score\": 66, \"old_confidence\": 0.52, \"new_score\": 62, \"new_confidence\": 0.46, \"reason\": \"Method evidence comes mainly from admiring institutional pages and the editor-bribing claim rests on one magazine article\"}, {\"attribute\": \"creative_originality\", \"old_score\": 60, \"old_confidence\": 0.44, \"new_score\": 56, \"new_confidence\": 0.4, \"reason\": \"Authorship of the machine is disputed and the business-method novelty rests mostly on admiring summaries\"}], \"reviewed_kept\": [\"persistence\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6, \"image_inscription_check\": \"Printed caption under the portrait reads \\\"C. H. M'Cormick.\\\"; no other lettering inside the cropped area; the initials also fit the inventor's son (father and son trap), resolved by the Met's title 'Cyrus Hall McCormick', the 1888 World's Inventors series and a visual match with the LoC engraving of the elder man\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): persistence lowered from 72 / 0.58 to 68 / 0.52 because institutional biographies and a museum page retell the same standard account."
+  }
+}
