@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jose-celestino-mutis",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "José Celestino Mutis",
+    "aliases": [
+      "Jose Celestino Mutis",
+      "José Celestino Bruno Mutis y Bosio",
+      "Celestino Mutis",
+      "Mutis"
+    ],
+    "wikidataId": "Q731937",
+    "birthYear": 1732,
+    "deathYear": 1808,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "ES"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "naturalist",
+      "astronomer",
+      "physician",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "mathematics",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "mentor",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mutis_wikidata",
+      "kind": "wikidata",
+      "title": "José Celestino Mutis y Bosio (Q731937), verified live via the Wikidata API (2026-11-06): label 'José Celestino Mutis y Bosio', description 'Spanish mathematician and botanist (1732-1808)', born 6 April 1732, died 11 September 1808, citizen of Spain, many occupations recorded, Korean label 호세 셀레스티노 무티스. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q731937"
+    },
+    {
+      "id": "src_mutis_catholic",
+      "kind": "biography",
+      "title": "Josef Rompel, 'José Celestino Mutis', The Catholic Encyclopedia (1911; entry read in full on New Advent). CANONICAL SIGNIFICANCE SOURCE: physician to the viceroy of New Granada from 1760, taught mathematics, founded and directed the Bogotá observatory near the end of his life, devoted his energy to the natural history of New Granada, appointed in 1783 leader of the state-founded botanical expedition, trained collectors, painters and engravers and taught Zea, Caldas and Restrepo, studied the cinchona trees (four officinal species and twenty-four varieties), corresponded with Linnaeus, hosted Humboldt and Bonpland in 1801. Critical voice: says he 'never ended his researches' and published almost nothing in his lifetime, and that his manuscripts lay unnoticed in Madrid; also defends him against critics who treat him as an unimportant amateur. A century-old reference article by a Catholic scholar.",
+      "url": "https://www.newadvent.org/cathen/10659b.htm"
+    },
+    {
+      "id": "src_mutis_agudelo",
+      "kind": "biography",
+      "title": "Henry Darío Agudelo-Zamora, 'José Celestino Mutis and the gestation of ichthyology in the Viceroyalty of New Granada', Caldasia 44(3), 2022 (article read in the introduction and the first section, about a third of the text). A peer-reviewed paper that lists his roles (physician, miner, botanist, naturalist, astronomer, cleric, mathematics professor), quotes his 1760 diary notes on sharks and barracudas on arrival, records that he always had at least two paintings made of each important specimen (one for Spain, one kept in Santafé as a backup), that the only study he did at Linnaeus's request was on ants, and, citing a 1905 biography, that his patience, calm nature and perfectionism were admirable but kept him from publishing most of his findings. The ichthyology sections that follow were not read.",
+      "url": "https://revistas.unal.edu.co/index.php/cal/article/download/91655/81754/594839"
+    },
+    {
+      "id": "src_mutis_bateman",
+      "kind": "institution",
+      "title": "Alfredo D. Bateman, 'José Celestino Mutis: la influencia de Mutis en la cultura nacional', lecture to the Academia Colombiana de Ciencias, 28 October 1960 (printed text read for about the first two thirds). A celebratory institutional lecture, with many quotations from earlier biographers: his arrival in 1760, the opening of the mathematics chair at the Colegio del Rosario on 13 March 1762, the Dominican denunciation to the Inquisition over Copernican teaching and the viceroy's protection, the 1772-73 cinchona finds near Bogotá, the mining reports of the 1770s, the 1783 foundation of the expedition, and his own letter saying that in the face of local beliefs he preferred silence to unbearable contradictions. Admiring and patriotic; used with caution.",
+      "url": "https://raccefyn.co/index.php/raccefyn/article/download/3335/4612/34881"
+    },
+    {
+      "id": "src_mutis_museonac",
+      "kind": "institution",
+      "title": "Museo Nacional de Colombia, travelling exhibition panel 'José Celestino Mutis 1732-1808: Las matemáticas y la astronomía' (curated by Ángela Santamaría Delgado, 2008; panel read in full). States that in 1762 he opened the mathematics chair at the Colegio Mayor del Rosario to spread the mathematical and physical sciences, that students read Newton's Principia and Copernicus there, that he was ordained on 19 December 1772, and that through his efforts and the viceroy's support the Bogotá astronomical observatory was built in 1802-03 under Francisco José de Caldas. A short institutional text.",
+      "url": "https://www.museonacional.gov.co/Inicio/SiteAssets/inbox/files/expoiconomutis04.pdf"
+    },
+    {
+      "id": "src_mutis_botanyone",
+      "kind": "press",
+      "title": "Patrick Gibson, 'The Expedition Continues, Colombia', Botany One (page read in full). Review of a 2023 book from three botanical institutions: Mutis arrived in 1760, directed the Royal Botanical Expedition from 1783 until his death in 1808, the expedition's artists made drawings of 2,696 plants, the painters received plants in different seasonal stages, and the work reached Madrid in 1816-17 and returned to Colombia in 2023. Used only to corroborate the expedition's scale.",
+      "url": "https://www.botany.one/the-expedition-continues-colombia/"
+    },
+    {
+      "id": "src_mutis_linnaeus",
+      "kind": "archive",
+      "title": "Universidad del Rosario, 'Correspondencia de Mutis a Linneo' (page read in full): Latin transcription, with a Spanish translation noted, of Mutis's letter to Linnaeus from Santafé in 1764, held by the Linnean Society of London. Primary, self-authored: lists his earlier letters to Linnaeus since 1761, mentions an ants study and a plan for an American journey sent to the King in May 1763 with the viceroy's testimony, his medical practice, and an inaugural oration for Newtonian philosophy against the Peripatetics that he had not yet finished, and says he kept copies of his letters. Treated as self-report.",
+      "url": "https://urosario.edu.co/blog-archivo-historico/lenguas-clasicas/correspondencia-de-mutis-a-linneo"
+    },
+    {
+      "id": "src_mutis_marcaida",
+      "kind": "biography",
+      "title": "José Ramón Marcaida and Juan Pimentel, 'Green treasures and paper floras: The business of Mutis in New Granada (1783-1808)', History of Science 52(3), 2014 (abstract only; the full article is behind a paywall and was not read). Abstract says the paper examines his work as naturalist and entrepreneur, his promotion of quina, cinnamon and tea, and the expedition's artistic workshop that produced the Flora de Bogotá. Orientation on the commercial side only; no row depends on it.",
+      "url": "https://research-portal.st-andrews.ac.uk/en/publications/green-treasures-and-paper-floras-the-business-of-mutis-in-new-gra/"
+    },
+    {
+      "id": "src_mutis_wellcome",
+      "kind": "archive",
+      "title": "Wellcome Collection, 'José Celestino Mutis. Stipple engraving.' (catalogue record and IIIF image read live; Public Domain Mark; note 'Dedicated to Mutis by A. Humboldt and A. Bonpland'). Used for the portrait only, not for any trait row.",
+      "url": "https://wellcomecollection.org/works/xcte87qr"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mutis_catholic, src_mutis_agudelo, src_mutis_museonac, src_mutis_bateman | 1757-1808 | reference article + peer-reviewed paper + museum panel + academy lecture] The Catholic Encyclopedia records that he practised medicine, taught mathematics, founded and directed an observatory and gave his main energy to the natural history of New Granada; Agudelo-Zamora lists physician, miner, botanist, naturalist, astronomer, cleric and mathematics professor and documents his zoological work on ants and fish; the museum panel documents the 1762 mathematics chair and the astronomical interest; Bateman adds mining reports and teaching of geography, physics, zoology and botany at the Rosario. Several roles came with his posts (physician to the viceroy, priest) and most of the natural-history work stayed unpublished, so the breadth is documented but not a published body of work in each field. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.58 to 72 / 0.52 because the Catholic Encyclopedia of 1911 and a celebratory lecture carry the breadth."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mutis_agudelo, src_mutis_bateman, src_mutis_linnaeus | 1760-1764 | peer-reviewed paper + academy lecture + his own letter] Agudelo-Zamora quotes his 1760 diary entries on first arrival noting four sharks following the ship and two barracudas whose genus he could not deduce; Bateman reports that during the journey inland he started studies of tropical vegetation and, once in Santafé, complained that medical practice left him almost no time for natural history; his own 1764 letter to Linnaeus mentions studies of ants, a plant description and a new bird. The diary and the letter are self-report, but the diary entries are specific and two later authors agree. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 74 / 0.58 to 68 / 0.5 because diary entries come through one article and the evidence includes a self-authored letter."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mutis_linnaeus, src_mutis_bateman, src_mutis_catholic | 1763-1783 | his own letter + academy lecture + reference article] His 1764 letter says that in May 1763 he sent the King a plan for an American natural-history journey, backed by the viceroy's testimony; Bateman and the Catholic Encyclopedia report that he planned a botanical exploration of the whole country for years, obtained the viceroy's backing in 1782-83 and then trained collectors, painters and engravers for the expedition from scratch. The 1763 plan is self-report, and the formal approval depended on the viceroy and the Crown, so the trait is documented but shared with patrons. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 72 / 0.56 to 68 / 0.5 because the 1763 plan is known mainly from his own 1764 letter (self-report)."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mutis_museonac, src_mutis_linnaeus, src_mutis_bateman | 1762-1774 | museum panel + his own letter + academy lecture] The museum panel documents that his 1762 mathematics chair taught Newton's Principia and Copernicus's heliocentric system; his 1764 letter says he was preparing an inaugural oration for Newtonian philosophy against the Peripatetics; Bateman reports a Dominican denunciation to the Inquisition over Copernican teaching, his complaint to the viceroy and the tribunals' ruling that Copernicus could not be condemned. Bateman is a celebratory secondary account and the royal decree favouring Newtonian teaching is also cited, so the stand was protected by the authorities. SELF-CALIBRATION (agent): lowered from 70 / 0.54 because the Inquisition episode comes from one celebratory lecture, the viceroy and Crown backed Newtonian teaching, and Bateman himself quotes a letter in which Mutis says he usually chose silence over contradiction."
+    },
+    "perfectionism": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mutis_agudelo, src_mutis_catholic | 1760-1808 | peer-reviewed paper + reference article] Agudelo-Zamora, citing an earlier biography, says his patience, calm nature and perfectionism were admirable but kept him from publishing most of his findings; the Catholic Encyclopedia says he 'never ended his researches' and published almost nothing in his lifetime, and that his cinchona monograph was published only after his death. The documented behaviour (extensive unpublished work) is clear, but the link to perfectionism is the biographers' interpretation, and war and political disorder also delayed publication, so confidence is modest and impact dual-edged."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mutis_agudelo, src_mutis_linnaeus, src_mutis_botanyone, src_mutis_bateman | 1760-1808 | peer-reviewed paper + his own letter + press review + academy lecture] Agudelo-Zamora documents that he had at least two paintings made of each important specimen, one for Spain and a backup kept in Santafé, and that he started a diary on arrival; his 1764 letter says he kept copies of all letters sent to Linnaeus; Botany One reports that the expedition's painters were given plants in different seasonal stages and drew dissected flowers. The drawings were made by the expedition's artists under his direction, so the detail work is partly theirs, and the copy-keeping is self-report."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "호세 셀레스티노 무티스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jose-celestino-mutis-unknown-engraver-undated.jpg",
+    "width": 1065,
+    "height": 1200,
+    "source": "Stipple engraving of José Celestino Mutis in an oval with flowers, lettered with the dedication 'A Don Jose Celestino Mutis, Directeur en chef de l'Expedition Botanique du Roy.me de la N.lle Grenade, Astronome Royal, à Santa Fé de Bogota. Comme une foible marque d'Admiration et de Reconnoissance.' and signed 'A. de Humboldt' and 'Aimé Bonpland'; Wellcome Collection (reference 7116i), whose catalogue lists the dedicators as Humboldt and Bonpland, gives no engraver or date, and rates the digital image Public Domain Mark. The print is the dedication plate that Humboldt and Bonpland made for Mutis, who died in 1808, so it is an early nineteenth-century print made by others, not a documented sitting. The file used is the holder's 2,363 x 3,063 pixel image, cropped once to the plate and downscaled to 1,065 x 1,200 pixels; nothing was upscaled.",
+    "license": "Public domain (Wellcome Collection Public Domain Mark; early nineteenth-century print)",
+    "licenseUrl": "https://creativecommons.org/share-your-work/public-domain/pdm/",
+    "attribution": "Dedication portrait of José Celestino Mutis from A. von Humboldt and A. Bonpland, stipple engraving, engraver and date not recorded, Wellcome Collection, public domain",
+    "attributionUrl": "https://wellcomecollection.org/works/xcte87qr",
+    "creator": "Engraver not recorded; dedicated by Alexander von Humboldt and Aimé Bonpland",
+    "date": "early 19th century (undated in the holder's record)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://wellcomecollection.org/works/xcte87qr"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / SUCCEEDED with a REPLACEMENT image: the lead's 1805 Garcia del Campo portrait was not used because its Commons file cites a magazine page and the Museo Nacional holder record was not reachable; the Universidad del Rosario's full-length Garcia del Campo oil (painter d. 1814, so public domain by age) was seen but its web image carries only generic site terms and no item-level rights statement, so it was kept as a fallback, not used. Chosen instead: the Humboldt-Bonpland dedication stipple engraving at the Wellcome Collection (item-level Public Domain Mark, lettering names Mutis). The Wellcome oil by R. Cristobal (1930) was avoided as the lead advised. PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q731937 label 'José Celestino Mutis y Bosio', description 'Spanish mathematician and botanist (1732-1808)', born 1732-04-06, died 1808-09-11 (sources differ between 2 and 11 September), citizenship Spain, Korean label 호세 셀레스티노 무티스; no production (prod66.json) or candidate slug/QID collision. REGION latin_america: career base New Granada for 48 years (Domeyko precedent: career base); he was Spanish-born. ERA early_modern. KOREAN NAME 호세 셀레스티노 무티스 is the Wikidata Korean label. ZERO POLITICS: only natural history, mathematics teaching, astronomy and medicine scored; the priesthood is context, and the political careers of his students and the 1810 events are not scored. VOCABULARY: occupations naturalist, astronomer, physician, mathematician; fields natural_science, mathematics, medicine; impact domains scientific, educational; tags field_researcher, mentor, cross_disciplinary; archetypes scientific_explorer, cross_disciplinary_generalist (all labelled in EN and KO; botanist deliberately avoided as unlabelled). ATTRIBUTION CONFIRMED (dated diary entries, letters, appointments, documented teaching and expedition). Early-modern evidence limit applied: six rows, confidence at or below 0.58. CANONICAL SIGNIFICANCE SOURCE: Catholic Encyclopedia entry by J. Rompel (1911, New Advent, read in full). READ: Catholic Encyclopedia (full), Agudelo-Zamora 2022 (introduction and first section, about a third), Bateman 1960 Academy lecture (first two thirds), Museo Nacional panel (full), Botany One review (full), Universidad del Rosario Linnaeus-letter page (full; primary and self-authored). ABSTRACT ONLY: Marcaida and Pimentel 2014 (paywalled). Perspectives: a sober older reference article with a critical voice (never finished his researches), a peer-reviewed modern paper that adds the perfectionism point, a celebratory academy lecture, a museum panel, a self-authored letter and diary quotations. COUNTER-VOICES: the Catholic Encyclopedia and Agudelo-Zamora on non-publication; Bateman's quoted letter in which Mutis prefers silence. No modern critical history of the expedition (for example on its commercial aims or the Flora's delay) was read in full, so the rows stay modest. NOT OPENED: MacTutor (page empty), Linda Hall page (boilerplate only), Britannica (no article at the URL tried), the Rosario museum essay, Wikipedia (orientation only; its 'rejected twice' and Inquisition dates not used because no read source confirms them). Mutis's priesthood, his possible motives and private life are not scored. Region/Korean/era choices recorded above. SELF-CALIBRATION: reviewed independent_thinking (lowered), cross_domain_range and proactive_agency (kept: each is backed by at least three differently-situated sources). HANDBACK66: {\"slug\": \"jose-celestino-mutis\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: Wellcome work n6qbgc2v (oil painting by R. Cristobal, 1930, CC BY) and the Banco de la Republica page were not opened\", \"holder_record_checked_by_you\": \"Wellcome Collection catalogue API work xcte87qr (reference 7116i) read live: 'Jose Celestino Mutis. Stipple engraving.', note 'Dedicated to Mutis by A. Humboldt and A. Bonpland', IIIF image V0004197 license id pdm (Public Domain Mark), no engraver or date recorded. Also opened the Universidad del Rosario collection page for the Garcia del Campo full-length oil (cartouche names the painter; no item-level rights statement, generic site terms only) and the Museo Nacional de Colombia exhibition panel (Garcia del Campo, 1801, Colegio del Rosario collection); the Commons file of the c.1805 Museo Nacional portrait cites a magazine page, not the holder.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Pablo Antonio Garcia del Campo portrait, 1805 (Banco de la Republica)\", \"final_portrait_source\": \"Wellcome Collection work xcte87qr (7116i), stipple engraving dedicated to Mutis by Humboldt and Bonpland, IIIF image V0004197, Public Domain Mark; https://wellcomecollection.org/works/xcte87qr (cropped to the plate, 1065x1200)\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 6, \"self_calibrated_rows\": [{\"attribute\": \"independent_thinking\", \"old_score\": 70, \"old_confidence\": 0.54, \"new_score\": 66, \"new_confidence\": 0.5, \"reason\": \"The Inquisition episode comes from one celebratory lecture, the viceroy and Crown backed Newtonian teaching, and the same lecture quotes Mutis saying he usually chose silence over contradiction\"}], \"reviewed_kept\": [\"cross_domain_range\", \"proactive_agency\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 6, \"image_inscription_check\": \"Printed dedication under the oval: 'A Don Jose Celestino Mutis, Directeur en chef de l'Expedition Botanique du Roy.me de la N.lle Grenade, Astronome Royal, a Santa Fe de Bogota. Comme une foible marque d'Admiration et de Reconnoissance.'; signatures 'A. de Humboldt' (lower left) and 'Aime Bonpland' (lower right); no lettering inside the oval\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 76 / 0.58 to 72 / 0.52 because the Catholic Encyclopedia of 1911 and a celebratory lecture carry the breadth. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 74 / 0.58 to 68 / 0.5 because diary entries come through one article and the evidence includes a self-authored letter. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 72 / 0.56 to 68 / 0.5 because the 1763 plan is known mainly from his own 1764 letter (self-report)."
+  }
+}

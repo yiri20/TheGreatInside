@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "phillis-wheatley",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Phillis Wheatley",
+    "aliases": [
+      "Phillis Wheatley Peters"
+    ],
+    "wikidataId": "Q257911",
+    "birthYear": 1753,
+    "deathYear": 1784,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "artistic"
+    ],
+    "tagIds": [
+      "prodigy",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_wheatley_wikidata",
+      "kind": "wikidata",
+      "title": "Phillis Wheatley (Q257911), verified live via the Wikidata API (2026-11-06): label 'Phillis Wheatley', description 'first African-American poet (1753-1784)', Korean label 필리스 휘틀리, born 8 May 1753, died 5 December 1784, citizenship United States, occupations include poet. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q257911"
+    },
+    {
+      "id": "src_wheatley_mhs",
+      "kind": "institution",
+      "title": "Massachusetts Historical Society, 'Phillis Wheatley' (African Americans and the End of Slavery in Massachusetts feature page; read in full with its list of poems and letters). CANONICAL SIGNIFICANCE SOURCE: author of the first known book of poetry by a Black woman, published in London in 1773; first poem printed 1767; her 1770 elegy on George Whitefield drew international attention and the interest of the Countess of Huntingdon; the debut volume was first proposed in 1772, failed, and she turned to an English publisher; she went to England in May 1773 and was freed on her return; a proposed second volume never appeared and its manuscript was lost; she married John Peters and died in 1784. Institutional history page.",
+      "url": "https://www.masshist.org/features/endofslavery/wheatley"
+    },
+    {
+      "id": "src_wheatley_loc",
+      "kind": "institution",
+      "title": "Library of Congress, 'Phillis Wheatley: A First for Verse in America' (From the Catbird Seat blog, reprinted from the Library of Congress Magazine, Jan-Feb 2018; read in full). Says the 1773 London volume, published when she was about 20, was a milestone as the first volume of poetry by an African American; describes her education with the Wheatley family, her first poem in 1767, the Countess of Huntingdon's patronage, her return to Boston and the signed testimonial of her authorship, and George Washington's letter thanking her for a poem (not scored). Library institutional text, favourable.",
+      "url": "https://blogs.loc.gov/catbird/2018/01/phillis-wheatley-a-first-for-verse-in-america/"
+    },
+    {
+      "id": "src_wheatley_aap",
+      "kind": "institution",
+      "title": "Academy of American Poets, 'Poems on Various Subjects, Religious and Moral' (book page; read in full). Her studies of Latin and of Homer, Virgil and Ovid and her admiration for Milton and Pope; the 1770 Whitefield elegy; the Countess of Huntingdon publishing the book; the attestation of eighteen prominent Bostonians; her popularity winning her freedom; the volume's style (elegies and heroic couplets); notes that she has been critiqued for not strongly advocating freedom for slaves and defends her against that critique; says an anthology credits her with a founding role in African American literature. Poetry organization page, admiring.",
+      "url": "https://poets.org/book/poems-various-subjects-religious-and-moral"
+    },
+    {
+      "id": "src_wheatley_bynum",
+      "kind": "archive",
+      "title": "Tara A. Bynum (University of Iowa), 'Phillis Wheatley Peters, A Chronology' (Society of Early Americanists PDF; read in full). Dated chronology from newspaper and archive evidence: first poem 21 December 1767; the Whitefield elegy of 1770 and her letter to the Countess of Huntingdon about it; the 1772 newspaper proposals for an American edition; the attestation signed 28 October 1772; the manuscripts sent to London on Captain Calef's ship and her own voyage in 1773; John Andrews's February 1773 letter saying she had the attestation drawn up after consulting friends; Obour Tanner helping sell the book in Newport; the 1779 proposal for a second volume; death on 5 December 1784. Scholar's compiled timeline; an independent contemporary voice (Andrews) is reported in it.",
+      "url": "https://www.societyofearlyamericanists.org/wp-content/uploads/2020/08/Wheatley-Chronology.pdf"
+    },
+    {
+      "id": "src_wheatley_mhspod",
+      "kind": "institution",
+      "title": "Massachusetts Historical Society podcast 'The Object of History', 'The Letters of Phillis Wheatley' (automated transcript read in full; Peter Drummey and Tara Bynum). Discusses her early education and exposure to Pope and Milton, the failed 1772 subscription effort in Boston ('it's not entirely clear why'), the turn to London and her trip with Nathaniel Wheatley, her freedom after returning, her letters to Obour Tanner (a dozen letters at the Society, six to Tanner), and Bynum's view that she was intentional about getting the book published, 'her own agent-publicist', while also stressing her community; the transcript warns it is automated. Institutional podcast; scholars' interpretation is flagged as such.",
+      "url": "https://www.masshist.org/admin/uploads/The_Letters_of_Phillis_Wheatley_Transcript_e5c308b8e9.pdf"
+    },
+    {
+      "id": "src_wheatley_carretta",
+      "kind": "biography",
+      "title": "Review of Vincent Carretta, 'Phillis Wheatley: Biography of a Genius in Bondage' (University of Georgia Press, 2011), 'The life of Phillis Wheatley, finally!' on Commonplace (read in full). Reports that the first full-length biography reconstructs her life from tax records, letters, broadsides, newspapers and subscription lists, finds her arrival date (11 July 1761) and baptism date (18 August 1771), and shows her friendship with Obour Tanner and her husband John Peters as a hard-working shopkeeper and laborer; the review is by a literature scholar and relays the biography rather than testing it. The biography itself was not opened.",
+      "url": "https://commonplace.online/article/life-phillis-wheatley-finally/"
+    },
+    {
+      "id": "src_wheatley_poems1773",
+      "kind": "archive",
+      "title": "Phillis Wheatley, 'Poems on Various Subjects, Religious and Moral' (London: Archibald Bell, 1773; Project Gutenberg text; the preface, John Wheatley's letter and the attestation read, the poems searched only). SELF-REPORT AND PATRON TESTIMONY: her owner's letter says she learned English within sixteen months, that 'her own curiosity led her' to writing, that she wrote to the Rev. Samson Occom in 1765 and that she has 'a great inclination' to learn Latin; the publisher's note says numbers would suspect she was not the author and that he procured an attestation from respected Bostonians. Promotional front matter by her owner and publisher, to be read with that bias.",
+      "url": "https://www.gutenberg.org/ebooks/409"
+    },
+    {
+      "id": "src_wheatley_jefferson",
+      "kind": "press",
+      "title": "World History Encyclopedia, 'Poems of Phillis Wheatley and Jefferson's Criticism' (read in full). COUNTER-VOICE: reports that Thomas Jefferson in Notes on the State of Virginia dismissed the compositions published under her name as below the dignity of criticism and as mimicry, quotes the scholar David Waldstreicher on why she mattered to that argument, and notes echoes of Jefferson's view in later pro-slavery writing. Popular encyclopedia article; used only as the critical-reception voice, not for trait rows.",
+      "url": "https://www.worldhistory.org/article/2684/poems-of-phillis-wheatley-and-jeffersons-criticism/"
+    },
+    {
+      "id": "src_wheatley_met",
+      "kind": "institution",
+      "title": "The Metropolitan Museum of Art, Open Access record for 'Phillis Wheatley' (object 396463, Scipio Moorhead, engraving, 1773, The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949; read via the Met Open Access API). Portrait source record for the image used.",
+      "url": "https://www.metmuseum.org/art/collection/search/396463"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_wheatley_bynum, src_wheatley_mhspod, src_wheatley_mhs | 1770-1779 | scholar's chronology, historical-society podcast, historical-society page] She wrote to the Countess of Huntingdon about her Whitefield elegy, a proposal for an American edition was advertised in Boston in 1772, when that failed her poems were sent to London and she sailed there in 1773, and in 1779 she advertised a proposal for a second volume. The dated actions are documented; that they were driven by her rather than the Wheatley family and her patrons rests on scholars' interpretation ('her own agent-publicist'), and the sources say the Wheatleys supported the effort."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_wheatley_poems1773, src_wheatley_aap, src_wheatley_mhs | 1761-1772 | owner's letter in her book, poetry-organization page, historical-society page] Within a few years of arriving she read difficult texts, wrote letters and poems, studied Latin and read Homer, Virgil, Ovid, Milton and Pope. The strongest statements ('her own curiosity led her to it', 'a great inclination to learn the Latin tongue') come from her owner's letter in the book, which was written to establish her credibility. SELF-CALIBRATION (agent): lowered from 68 / 0.50 to 64 / 0.45 because the key statements come from her owner's promotional letter and the later sources repeat them."
+    },
+    "persuasiveness": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_wheatley_bynum, src_wheatley_aap, src_wheatley_poems1773 | 1770-1773 | scholar's chronology, poetry-organization page, front matter] Her Whitefield elegy and a letter to the Countess of Huntingdon preceded the Countess's backing of the London edition, and eighteen leading Bostonians signed an attestation of her authorship. But the preface says the publisher procured the attestation and a 1773 letter reported in the chronology says she consulted friends to have it drawn up, so the persuasion cannot be assigned to her alone; no account of how she argued her case was read."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_wheatley_bynum, src_wheatley_mhspod, src_wheatley_carretta | 1772-1779 | scholar's chronology, historical-society podcast, biography review] Her letters to Obour Tanner discuss her book sales and shared religious life, Tanner helped sell the book in Newport, and scholars stress that she worked inside a network of patrons, printers and friends. The partnership is documented, but the sources describe the network more than her working practice, so only a modest score is supported."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "필리스 휘틀리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/phillis-wheatley-moorhead-1773.jpg",
+    "width": 947,
+    "height": 1200,
+    "source": "Engraving 'Phillis Wheatley' by Scipio Moorhead, 1773, the frontispiece portrait of her book, lettered around the oval 'Phillis Wheatley, Negro Servant to Mr. John Wheatley, of Boston'; The Metropolitan Museum of Art, The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949 (accession 49.40.24, object 396463; oval sheet trimmed, 12.7 x 9.8 cm). The museum's image (3027 x 4000) was cropped to the oval print (2960 x 3750) and downscaled to 947 x 1200 with no upscaling.",
+    "license": "Public domain: The Metropolitan Museum of Art Open Access (isPublicDomain true; no restriction field); an engraving of 1773",
+    "licenseUrl": "https://www.metmuseum.org/art/collection/search/396463",
+    "attribution": "Scipio Moorhead, 1773, The Metropolitan Museum of Art, The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949, Open Access",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/396463",
+    "creator": "Scipio Moorhead (engraver)",
+    "date": "1773",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/396463"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead-robust) (lead) / CONFIRMED, LEAD USED. The lead image is the 1773 frontispiece engraving by Scipio Moorhead, impression in the Metropolitan Museum of Art (object 396463). HOLDER RECORD CHECKED: Met Open Access API v1 (collectionapi.metmuseum.org/public/collection/v1/objects/396463): date 1773, Scipio Moorhead (American, active Boston, 1760-75), engraving, oval sheet trimmed to 12.7 x 9.8 cm, Elisha Whittelsey Fund 1949, accession 49.40.24, isPublicDomain true, rightsAndReproduction empty; no restriction or contradiction. The Library of Congress blog (source read) independently captions the frontispiece as 'Engraving attributed to Scipio Moorhead, 1773'. INSCRIPTION CHECK (I looked at the downloaded image at full size): lettering around the oval border reads 'PHILLIS WHEATLEY, NEGRO SERVANT to Mr. JOHN WHEATLEY, of BOSTON.' It names the claimed sitter and her owner and matches the book's title page and her owner's letter; no contradiction (the period wording is the print's own lettering; no engraver's signature is visible because the sheet is trimmed). KIND: historical_depiction, because none of the sources I read documents a sitting for the image (the engraving is attributed to Moorhead and made for the 1773 book, and whether it was drawn from life is not established there). RIGHTS BASIS: Met Open Access public-domain record plus a 1773 print. Crop: oval print cut from the sheet (original 3027x4000; crop 2960x3750) and downscaled to 947x1200, never upscaled; saved as public/portraits/phillis-wheatley-moorhead-1773.jpg. The Houghton Library (Harvard) copy was not needed and not opened. PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q257911 label 'Phillis Wheatley', description 'first African-American poet (1753-1784)', born 1753-05-08, died 1784-12-05, citizenship United States, Korean label 필리스 휘틀리; not in prod66.json (searched Wheatley and the QID); no existing candidate file. REGION north_america (lived in Boston and Providence; born in Senegambia and brought to Boston as a child, so the career base and nationality on Wikidata decide). ERA early_modern (born 1753, died 1784; precedents Jane Austen b. 1775, Sancho b. 1729). ZERO POLITICS: portfolio arts; her poems or letters touching the Revolution, her poem to George Washington and Washington's reply, abolition and her freedom are context only and unscored; she is scored as a poet and published author, not as an activist or a political figure. LIVING/PRIVATE-LIFE RULES: no inference from enslavement, the Middle Passage, bereavement, illness or death; her marriage, children, poverty and death are not used. Her owner's account of her education is treated as promotional testimony. VOCABULARY: occupation poet, field literature, impact domains literary, cultural and artistic, tags prodigy and overcame_adversity, archetype creative_creator, all present in the repo (prodigy has been used for Pascal and Mary Shelley) and in en.ts and ko.ts. KO NAME: 필리스 휘틀리 is the Korean Wikidata label (Q257911). HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED (attribution_confirmed true): dated newspaper proposals, her letters and poems, and scholars' chronologies document actual behaviour, but the record is thin so only four rows are scored. CANONICAL SIGNIFICANCE SOURCE: Massachusetts Historical Society, 'Phillis Wheatley' (https://www.masshist.org/features/endofslavery/wheatley) with the Library of Congress blog. READ (8 substantive sources plus Wikidata and the Met record): (1) MHS feature page; (2) Library of Congress blog; (3) Academy of American Poets book page; (4) Bynum chronology (Society of Early Americanists); (5) MHS podcast transcript (Drummey and Bynum); (6) review of Carretta's biography (Commonplace); (7) the 1773 book's preface, owner's letter and attestation (Project Gutenberg); (8) World History Encyclopedia on Jefferson's criticism. PERSPECTIVES: two institutional histories, a library blog, a poetry organization, two scholars (chronology and podcast), a biography review, her owner's and publisher's front matter, and a hostile contemporary critic reported in an encyclopedia article. COUNTER-VOICES AND LIMITS: Jefferson's dismissal (reported, not read in the original), the Academy of American Poets' note that she has been criticized for not strongly advocating freedom (unscored politics), the chronology's report that she and friends arranged the attestation (against the preface's statement that the publisher procured it), and the podcast's warning about Bynum's 'agent-publicist' reading being interpretation. DATE AND FACT CONFLICTS: the LoC blog speaks of her being 'forced to defend the authorship of her poetry in court' while the chronology and the book itself show a signed attestation dated 28 October 1772 and no court, so no trial is stated in the cards; some sources say the attestation appeared in the 1773 first edition, others that Bell held material back for promotion, so cards say only that the volume carried the attestation. NOT OPENED: Carretta's biography and Complete Writings, Gates's Trials of Phillis Wheatley, the original Jefferson text, the individual MHS letters (the podcast and list were read), the Houghton Library copy. EXCLUSIONS: the poem to Washington, Revolution and abolition content, her marriage and death, enslavement-based personality inference, and 'first' wording except the Library of Congress wording for the 1773 volume. SELF-CALIBRATION (agent): rows reviewed: curiosity (68/0.50 lowered to 64/0.45: owner's promotional letter is the main source and later pages repeat it), proactive_agency (70/0.55 kept: dated proposals and the London turn are documented by independent scholars and the historical society, and confidence is already moderate), persuasiveness (56/0.40 kept: already low, and the rationale states the attestation was arranged by others). MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. Card 1 states the 1773 London volume, card 2 the Whitefield elegy and the Countess's patronage, card 3 the attestation and her foundational reputation. HANDBACK66: {\"slug\": \"phillis-wheatley\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"STRONG (lead-robust)\", \"holder_record_at_preflight\": \"VERIFIED: Met Open Access API object 396463 isPublicDomain true (CC0)\", \"holder_record_checked_by_you\": \"Met Open Access API v1 object 396463: title 'Phillis Wheatley', print, artist Scipio Moorhead (American, active Boston, 1760-75), date 1773, engraving, oval sheet (trimmed) 12.7 x 9.8 cm, The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949, accession 49.40.24, isPublicDomain true, rightsAndReproduction empty; primary image DP-42869-001 (3027x4000) downloaded from images.metmuseum.org; no restriction or contradiction. The Library of Congress blog independently captions the book frontispiece as an engraving attributed to Scipio Moorhead, 1773.\", \"holder_contradiction_found\": false, \"initial_lead\": \"Met engraving after Scipio Moorhead, 1773 frontispiece, lettered with the sitter's name\", \"final_portrait_source\": \"The Metropolitan Museum of Art, Open Access, object 396463, Scipio Moorhead, 'Phillis Wheatley' (1773), https://www.metmuseum.org/art/collection/search/396463; image DP-42869-001 cropped to the oval and downscaled to 947x1200\", \"portrait_lead_or_replacement\": \"lead\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"curiosity\", \"old_score\": 68, \"old_confidence\": 0.5, \"new_score\": 64, \"new_confidence\": 0.45, \"reason\": \"The key statements come from her owner's promotional letter in the book and later sources repeat them\"}], \"reviewed_kept\": [\"proactive_agency\", \"persuasiveness\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4, \"image_inscription_check\": \"Lettering around the oval border reads 'PHILLIS WHEATLEY, NEGRO SERVANT to Mr. JOHN WHEATLEY, of BOSTON.' (period wording on the print); no engraver's signature is visible on the trimmed sheet\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}

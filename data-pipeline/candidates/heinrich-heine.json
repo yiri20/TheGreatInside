@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "heinrich-heine",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Heinrich Heine",
+    "aliases": [
+      "Heine",
+      "Harry Heine",
+      "Henri Heine"
+    ],
+    "wikidataId": "Q44403",
+    "birthYear": 1797,
+    "deathYear": 1856,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "independent",
+      "nonconformist",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_heine_wikidata",
+      "kind": "wikidata",
+      "title": "Heinrich Heine (Q44403), verified live via the Wikidata API (2026-11-06): label 'Heinrich Heine', description 'German poet, writer and literary critic (1797-1856)', born 13 December 1797, died 17 February 1856, Korean label 하인리히 하이네. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q44403"
+    },
+    {
+      "id": "src_heine_sammons",
+      "kind": "biography",
+      "title": "Jeffrey L. Sammons, 'Heine, Heinrich', in Encyclopedia of Modern Europe: Europe 1789-1914 (Gale), reproduced on Encyclopedia.com (entry read in full, about 1,100 words). CANONICAL SIGNIFICANCE SOURCE: by a leading Heine biographer; covers Buch der Lieder (1827), the Reisebilder (1826-31), the move to Paris in 1831, the essays on France and Germany, the Neue Gedichte and the satirical epics of 1844 and 1847, the late Romanzero (1851) and the reception history, including a frank statement that his career was a series of quarrels, some caused by his own poor judgment.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/heine-heinrich"
+    },
+    {
+      "id": "src_heine_poetryfoundation",
+      "kind": "institution",
+      "title": "Poetry Foundation, 'Heinrich Heine' poet biography (read in full, about 600 words). US poetry institution's account: studies, baptism for career reasons, Buch der Lieder, Reisebilder, the Paris years, the 1835 ban on his works in the German states and the Romanzero and last poems, which it counts among the finest he wrote.",
+      "url": "https://www.poetryfoundation.org/poets/heinrich-heine"
+    },
+    {
+      "id": "src_heine_larousse",
+      "kind": "biography",
+      "title": "Larousse, 'Heinrich Heine ou Henri Heine', Encyclopedie (French-language entry read in full, about 3,000 words, quoting his letters of 1827-1833). Independent French account: early studies and patrons, the Reisebilder as a new mixed prose-and-verse genre, his break with Goethe's aesthetic, the Munich and Italian years, the move to Paris in May 1831, his French literary friendships and periodicals, his distancing from the Young Germany group, the quarrel with Ludwig Borne and the 1841 duel.",
+      "url": "https://www.larousse.fr/encyclopedie/personnage/Heinrich_Heine/123480"
+    },
+    {
+      "id": "src_heine_suhrkamp",
+      "kind": "institution",
+      "title": "Suhrkamp Verlag, 'Heinrich Heine' year-by-year chronology (PDF, about 1,200 words, read in full). German publisher's dated timeline: failed business 1818-19, university studies and a duel-related suspension, first book 1821, baptism and doctorate 1825, first meeting with the publisher Julius Campe 1826, the 1827 and 1835 bans, the failed Hamburg career and the move to Paris in 1831, the correspondent work for the Augsburg Allgemeine Zeitung, the 1840 and 1843 arrangements with Campe, the Platen attacks of 1829 and the pamphlet on Menzel.",
+      "url": "https://res.cloudinary.com/suhrkamp/image/upload/v1747044879/Heinrich_Heine_Zeittafel.pdf"
+    },
+    {
+      "id": "src_heine_loch",
+      "kind": "press",
+      "title": "Harald Loch, 'Aus einem Dichterleben', Judische Allgemeine, 16 February 2006 (review essay on new Heine literature read in full, about 700 words). Independent critical press assessment on the 150th anniversary of his death: calls him full of contradictions, notes both his fight against censorship and his compromising concessions to it, his two duel challenges, his reputation as one of the inventors of the feuilleton, and the long dispute before the Dusseldorf university took his name in 1988.",
+      "url": "https://www.juedische-allgemeine.de/allgemein/aus-einem-dichterleben"
+    },
+    {
+      "id": "src_heine_kraus",
+      "kind": "press",
+      "title": "The Paris Review, 'Against Heine', Karl Kraus's 1910 essay 'Heine and the Consequences' in Jonathan Franzen's translation with Franzen's introduction (introduction and opening pages of the essay read, about 4,000 words). COUNTER-VOICE: Kraus's hostile polemic against Heine's style and influence, framed by Franzen, who also sets out Heine's fame, wit and Paris 'exile'; used as critical context and not scored as a trait.",
+      "url": "https://www.theparisreview.org/letters-essays/6264/against-heine-karl-kraus"
+    },
+    {
+      "id": "src_heine_autobio",
+      "kind": "archive",
+      "title": "Heinrich Heine, 'Autobiographical Sketch' (letter written in Paris, 15 January 1835, first published in the Revue de Paris, translated for the Marxists Internet Archive; read in full, about 1,200 words). SELF-REPORT: his own account of his schooling, studies, doctorate, early publications, his autumns by the North Sea, his omissions from the French edition and the range of genres he tried; used only for documented facts and never as sole support for a row.",
+      "url": "https://www.marxists.org/reference/archive/heine/1835/autobiography.htm"
+    },
+    {
+      "id": "src_heine_rijks",
+      "kind": "institution",
+      "title": "Rijksmuseum, Amsterdam, 'Portret van Heinrich Heine' by Ludwig Emil Grimm, etching dated 9 November 1827 (object RP-P-1974-50; collection page and linked-art record read in full, Public Domain Mark stated at item level). Holder record for the portrait.",
+      "url": "https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1974-50--a6f9a0cee304c1f210db97383aaaa2bf"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_heine_larousse, src_heine_sammons, src_heine_poetryfoundation, src_heine_loch | 1823-1851 | French encyclopedia + scholarly encyclopedia + poetry institution + critical press] Larousse says the first Reisebilder volume (1826-27) created 'a new kind of genre', current, impressionistic and critical, mixing prose and verse; Sammons describes the Reisebilder as amalgams of essay and imagination, fictionalized autobiography and coded resistance and says the Buch der Lieder poems urbanize and ironize conventions of Romantic verse; Poetry Foundation reads his poetry as discovering that Romantic conventions are in tension with reality; Loch records his reputation as one of the inventors of the feuilleton. Four independent accounts agree on new forms; the support is retrospective praise by reference works and the hostile Kraus essay (src_heine_kraus) concedes his style was influential while condemning it, so confidence stays moderate. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 76 / 0.6 to 72 / 0.56 because the praise is retrospective reference-work summary."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_heine_sammons, src_heine_larousse, src_heine_suhrkamp, src_heine_loch | 1821-1844 | scholarly encyclopedia + French encyclopedia + publisher chronology + critical press] Documented episodes of literary and personal quarrel: a university suspension after a duel affair in 1821 (Suhrkamp), sharp public attacks after the 1829 Platen polemic in the Baths of Lucca (Suhrkamp), the open break with Ludwig Borne and a duel with a friend of Borne in September 1841 followed by a satirical book on him (Larousse, Suhrkamp), the 1837 pamphlet against Wolfgang Menzel (Suhrkamp) and Loch's note that he challenged at least two duels. Sammons says his life and career were a series of quarrels and scandals, some from his own poor judgment. Scored as willingness to enter and sustain public dispute; the cost side is why impact is dual-edged. Loch also records compromising concessions to the censors, which keeps the score below the extreme band. RUBRIC_CORRECTION (lead review, before eligibility): conflict_tolerance lowered from 76 / 0.64 to 72 / 0.58 because the quarrels come from a chronology and two reference works, and Kraus's hostile essay is polemic."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_heine_larousse, src_heine_sammons, src_heine_loch | 1827-1840 | French encyclopedia + scholarly encyclopedia + critical press] Larousse documents that he admired Goethe at first and then opposed him as high priest of art for art's sake, writing in 1830 that he might be the only representative of a new literary current, and that he took care to distinguish himself from the Young Germany group while polemicizing against it; Sammons says he refused common cause with the dissident liberals. Scored as independence of literary position and group allegiance, not for any doctrine. SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 68 / 0.54 because the account is retrospective reference-work summary and Loch records compromising concessions to the censors alongside the defiance, so the claim was stronger than the documented behaviour."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_heine_suhrkamp, src_heine_sammons, src_heine_larousse | 1818-1840 | publisher chronology + scholarly encyclopedia + French encyclopedia] After a liquidated business (1818-19), a law degree that led nowhere, a failed Hamburg legal career and a collapsed Munich professorship plan (Suhrkamp), he edited a Munich journal, wrote travel prose, and from 1831 moved to Paris, became correspondent of the Augsburg Allgemeine Zeitung and wrote for French periodicals including the Revue des Deux Mondes (Larousse); Sammons records that he recast his German essays for a French readership as De l'Allemagne. A pattern of changing route and audience after closed doors, inferred from several documented moves."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_heine_sammons, src_heine_larousse, src_heine_autobio | 1821-1854 | scholarly encyclopedia + French encyclopedia + self-report] Beyond lyric verse he wrote dramas, travel prose, newspaper reportage, art criticism on the 1831 Paris painting salon, essays on German religion, philosophy and literature, satirical verse epics, a ballet libretto and fragments of fiction (Sammons, Suhrkamp); he himself says he tried lyric, epic and dramatic poems and wrote on the arts, philosophy and theology (self-report, not sole support). Range is wide but mostly within literature and its criticism, so the score stays moderate."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_heine_suhrkamp, src_heine_poetryfoundation, src_heine_larousse | 1827-1854 | publisher chronology + poetry institution + French encyclopedia] His first Reisebilder volume was banned in Austria and the Rhine provinces in 1827, his writings were banned across the German states in 1835, and the censors forced him to end his Conditions in France reportage in 1833, yet in 1835 itself the second volume of his Salon appeared and he went on publishing from Paris for twenty-five years, producing most of his prose and his later poem cycles there (Larousse); the Lutezia reports of 1840-43 were revised and expanded for the 1854 collected volumes (Suhrkamp). Mixed with documented concessions to censorship (Loch), so only a moderate score."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_heine_sammons, src_heine_larousse, src_heine_poetryfoundation | 1823-1854 | scholarly encyclopedia + French encyclopedia + poetry institution] Sammons credits his verse with dexterity in meter and rhythm, ingenious rhymes and outrageous puns and records his newspaper articles on the 1831 painting salon (Franzosische Maler); Larousse documents his shaping of the North Sea cycle and mixed prose-verse forms and his argument with Goethe over what art is for; Poetry Foundation counts his late lyrics among his finest. The evidence is mostly judgments of the work rather than documented craft habits, so confidence stays near the middle."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_heine_suhrkamp, src_heine_larousse, src_heine_sammons | 1819-1844 | publisher chronology + French encyclopedia + scholarly encyclopedia] Documented movement toward new subjects and places: attending Hegel's lectures and the lectures of other Berlin scholars and moving through Bonn, Gottingen and Berlin (Suhrkamp), trips to Poland, England and Italy (Suhrkamp), his mixed engagement with Hegelian history and later with French social thinking (Larousse), and the decision to go to Paris in 1831 to see the changed world for himself (Sammons). Documented travel and study, not a source describing the trait directly, so a mild lean at moderate-low confidence."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / REPLACED the lead image. The lead image was the 1831 Oppenheim portrait of Heine held by the Hamburg Kunsthalle (inventory HK-1162; painter died 1882). The holder's online collection record was opened in a real browser (the plain HTTP route is behind an anti-bot wall): it gives title, signature, dating, provenance via the Campe family and the 1914 bequest, but offers only a small web image, states NO open licence or Public Domain Mark, and routes image orders to a photo agency; the Commons file that carried the lead image is sourced to a poster shop and a third-party book site, not to the holder. Under the holder-record rule that is a materially weaker basis than the Commons tag implies, so the route was not accepted. Replacement: the etching 'Portret van Heinrich Heine' by Ludwig Emil Grimm (1800-1863), dated 9 November 1827, Rijksmuseum RP-P-1974-50 (linked-art record and collection page opened; item-level Public Domain Mark; creator Grimm died 1863; print made in 1827). IMAGE CHECKED BY EYE: the plate carries the lettering 'Dom. 9t Nov. 1827' and the artist's mark at upper right and, under the plate, two handwritten lines of Heine's verse ('Verdrossnen Sinn im kalten Herzen hegend, Schau ich verdrießlich in die kalte Welt; u.s.w.') signed 'H. Heine'; the catalogue title and the sitter's own signature agree, no contradiction. The 3852 x 4402 scan was cropped to the plate and handwritten caption (removing the museum's blank sheet margin and accession label) and downscaled once to 997 x 1200; nothing upscaled. Kind likeness: a dated lifetime portrait signed by the sitter's hand, although the holder does not describe a sitting. PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q44403 label 'Heinrich Heine', description 'German poet, writer and literary critic (1797-1856)', born 13 December 1797, died 17 February 1856, Korean label 하인리히 하이네 (Wikidata Korean label, used as the Korean display name); no collision in the 762-person production list or in the 937 existing candidate files. REGION western_europe (born Dusseldorf, career base Paris from 1831; German precedent Schopenhauer). ERA 19th_century. ZERO POLITICS: his political journalism, the Marx acquaintance, the Young Germany ban, the French government pension and the exile are context only and are not scored; rows score literary behaviour (forms, quarrels, publication despite censorship, range). No private-life, health or illness inference: his long illness and bed-ridden years are not used for any row. VOCABULARY: occupations poet, writer; field literature; tags independent, nonconformist, prolific; archetype independent_creator (all present with EN and KO labels). IMPACT DOMAINS literary, cultural. ATTRIBUTION CONFIRMED: dated publications, letters and chronology documented by several sources. CANONICAL SIGNIFICANCE SOURCE: Jeffrey L. Sammons, 'Heine, Heinrich', Encyclopedia of Modern Europe (Encyclopedia.com), https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/heine-heinrich. READ (substantively, 7 sources besides Wikidata and the portrait holder): Sammons entry, Poetry Foundation biography, Larousse encyclopedia entry, Suhrkamp chronology PDF, Harald Loch's review essay in Judische Allgemeine, the Paris Review Kraus/Franzen text (introduction and the opening of the essay), and Heine's own 1835 autobiographical letter (self-report). PERSPECTIVES: scholarly (Sammons), French encyclopedic (Larousse), publisher chronology, critical journalism (Loch), hostile critic (Kraus via Franzen), poetry institution; the self-report is never sole support. NOT OPENED: Britannica (HTTP 404 on the guessed URL), Jewish Encyclopedia (wrong page returned), the Heine-Institut Dusseldorf biography page (404), Sammons's and Peters's books (not available). EXCLUSIONS: illness years, political writings and the Marx connection, marriage and love affairs, the Platen dispute's motives (read only as a dated episode in Suhrkamp), and the lead's Hamburg Kunsthalle portrait for the rights reason above. Self-report in rows: only the autobiographical letter, used for the genre-range fact. HANDBACK66: {\"slug\":\"heinrich-heine\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"PLAUSIBLE (alt-dependent)\",\"holder_record_at_preflight\":\"NOT VERIFIED: the holder of the Oppenheim 1831 portrait is not given; the Commons file is sourced to an online poster shop\",\"holder_record_checked_by_you\":\"Opened the Hamburg Kunsthalle record HK-1162 in a browser (curl and WebFetch are anti-bot walled): title, signature 'M Oppenheim 1831', Campe provenance and 1914 bequest, but no licence or Public Domain statement, a 274x350 web image only and an Artothek photo-order link; for the replacement opened the Rijksmuseum linked-art record and collection page for RP-P-1974-50: Public Domain Mark at item level, creator Ludwig Emil Grimm, date 1827-11-09\",\"holder_contradiction_found\":true,\"initial_lead\":\"Moritz Daniel Oppenheim 1831 portrait of Heine\",\"final_portrait_source\":\"Rijksmuseum RP-P-1974-50, etching 'Portret van Heinrich Heine' by Ludwig Emil Grimm, dated 9 Nov 1827; 3852x4402 scan cropped to plate and downscaled to 997x1200; https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1974-50--a6f9a0cee304c1f210db97383aaaa2bf\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":8,\"self_calibrated_rows\":[{\"attribute\":\"independent_thinking\",\"old_score\":72,\"old_confidence\":0.58,\"new_score\":68,\"new_confidence\":0.54,\"reason\":\"Retrospective reference-work summary and Loch's record of compromising concessions to the censors make the claim stronger than the documented behaviour\"}],\"reviewed_kept\":[\"creative_originality\",\"conflict_tolerance\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":8,\"image_inscription_check\":\"Plate lettering 'Dom. 9t Nov. 1827' with artist's mark at upper right; under the plate two handwritten verse lines 'Verdrossnen Sinn im kalten Herzen hegend, Schau ich verdrießlich in die kalte Welt; u.s.w.' signed 'H. Heine'; museum accession label 'RP-P-1974-50' at lower left of the sheet (cropped out)\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): conflict_tolerance lowered from 76 / 0.64 to 72 / 0.58 because the quarrels come from a chronology and two reference works, and Kraus's hostile essay is polemic. RUBRIC_CORRECTION (lead review, before eligibility): creative_originality lowered from 76 / 0.6 to 72 / 0.56 because the praise is retrospective reference-work summary."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "하인리히 하이네"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/heinrich-heine-grimm-1827.jpg",
+    "width": 997,
+    "height": 1200,
+    "source": "Etching of Heinrich Heine by Ludwig Emil Grimm, dated 9 November 1827, with two handwritten lines of Heine's verse signed 'H. Heine' under the plate; Rijksmuseum, Amsterdam (RP-P-1974-50, purchased with the support of the F.G. Waller-Fonds). The museum scan (3852 x 4402 pixels) was cropped to the plate and handwritten caption and downscaled once to 997 x 1200 pixels; nothing was upscaled.",
+    "license": "Public domain (Rijksmuseum Public Domain Mark; 1827 etching by an artist who died in 1863)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Ludwig Emil Grimm, 'Portret van Heinrich Heine', 1827, etching, Rijksmuseum, Amsterdam (RP-P-1974-50), public domain",
+    "attributionUrl": "https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1974-50--a6f9a0cee304c1f210db97383aaaa2bf",
+    "creator": "Ludwig Emil Grimm",
+    "date": "1827",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1974-50--a6f9a0cee304c1f210db97383aaaa2bf"
+  }
+}

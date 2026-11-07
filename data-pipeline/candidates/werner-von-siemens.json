@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "werner-von-siemens",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Werner von Siemens",
+    "aliases": [
+      "Ernst Werner von Siemens",
+      "Werner Siemens",
+      "Ernst Werner Siemens"
+    ],
+    "wikidataId": "Q58577",
+    "birthYear": 1816,
+    "deathYear": 1892,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology",
+      "business"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "industrial",
+      "entrepreneurial",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_siemens_wikidata",
+      "kind": "wikidata",
+      "title": "Werner von Siemens (Q58577), verified live via the Wikidata API (2026-11-06): English label 'Werner von Siemens', description 'German electrical engineer, inventor and industrialist (1816-1892)', Korean label 에른스트 베르너 폰 지멘스, born 1816-12-13, died 1892-12-06, citizenship Kingdom of Prussia. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q58577"
+    },
+    {
+      "id": "src_siemens_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Siemens, Ernst Werner von' by Thomas Parke Hughes (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: invented improvements to the indicator telegraph and developed an entire telegraph system with seamless gutta-percha insulation; founded Telegraphenbauanstalt von Siemens & Halske in 1847; Prussian contracts ended after 1850 and the firm expanded into Russia; Indo-European telegraph from London to Calcutta completed in 1870; the dynamo principle announced to the Berlin Academy in January 1867 (the entry notes that Hjorth, Jedlik, Varley, Wheatstone and Farmer found the principle at about the same time and that Siemens foresaw its power uses and developed practical applications); electric streetcars, mine locomotives and central stations; his insistence that technology rest on science; his money and determination behind the Physikalisch-Technische Reichsanstalt (1887); retired from management in 1889 with about 5,000 workers in the family firms. Reference-work biography; balanced on priority, admiring on character.",
+      "url": "https://encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/siemens-ernst-werner-von"
+    },
+    {
+      "id": "src_siemens_kastl",
+      "kind": "biography",
+      "title": "Jakub Kastl and Lyndon Moore, 'Wily welfare capitalist: Werner von Siemens and the pension plan', Cliometrica 2009 (economic-history article, read in full from the author PDF). COUNTER-VOICE: Siemens & Halske's profit sharing from 1855, Christmas bonuses, a 54-hour week after the move to piece-rates, and the 1872 pension, widows' and orphans' fund; the authors find the welfare system raised productivity and discouraged strikes, estimate the gains at least equalled the cost of the pension fund, and note that a striker lost his pension entitlement; they quote Siemens saying the money 'would burn my hands' if he did not share it with loyal helpers and that strikes were best coped with by such a fund. Also: his decision in 1850 to expand abroad (agency in London under his brother Wilhelm, Russian branch under his brother Carl) and the 40/35/25 profit split among the brothers. Independent quantitative scholarship; challenges a purely humanitarian reading.",
+      "url": "https://www.princeton.edu/~jkastl/siemens.pdf"
+    },
+    {
+      "id": "src_siemens_psm",
+      "kind": "biography",
+      "title": "'Sketch of Werner von Siemens', The Popular Science Monthly vol. 43 (May-October 1893, New York, D. Appleton), pp. 831 ff., with the portrait captioned 'Werner Siemens' (Internet Archive scan, OCR text read for the whole sketch). Contemporary English-language biography drawn largely from his Recollections (so partly his own account): the 1840 prison electroplating experiments, his gun-cotton work and loss of priority to Otto, his pamphlet criticising Prussian state telegraph management after which the government cut off his firm for several years, expansion to Russia, the 1857 Sardinia-Algeria cable, his 1859 shipwreck in the Red Sea, the 1866 dynamo and his acknowledgement of predecessors. Contains a dating slip (the Frankfurt line is given as winter 1879 instead of 1849), and Siemens's own wartime activity at Kiel is recorded but not scored.",
+      "url": "https://archive.org/details/popularsciencemo43newyuoft"
+    },
+    {
+      "id": "src_siemens_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Werner von Siemens' (read): joined the Prussian artillery at 17 for training his father could not afford; prison experiments that led to the 1842 electroplating process; improved Wheatstone's telegraph and persuaded the mechanic Halske to start a telegraph factory in 1847; laid the Berlin-Frankfurt line in 1848; resigned his commission in 1849; used gutta-percha insulation; subsidiary factories in London, St Petersburg, Vienna and Paris with his brother Carl; cables across the Mediterranean and to India; self-excited generator in 1866; ennobled 1888. Short reference article, celebratory.",
+      "url": "https://www.britannica.com/biography/Werner-von-Siemens"
+    },
+    {
+      "id": "src_siemens_ethw",
+      "kind": "institution",
+      "title": "IEEE Engineering and Technology History Wiki, 'Werner von Siemens' (read in full; IEEE honorary member 1892): prison chemistry and the 1842 electroplating invention, the 1847 firm with Halske, the 1848 Berlin-Frankfurt line, offices in London, Paris, St Petersburg and Vienna, the 1866 dynamo-electric principle, the 1879 electric railway and 1882 street lighting, honorary doctorate 1860 and ennoblement. Short professional-society biography, admiring; used only for consistent dates and facts.",
+      "url": "https://ethw.org/Werner_von_Siemens"
+    },
+    {
+      "id": "src_siemens_shi",
+      "kind": "institution",
+      "title": "Siemens Historical Institute, 'Werner von Siemens (1816-1892)' biography (company-owned, 4-page PDF, read in full). COMPANY SOURCE (self-interested): the Prussian government ended his firm's contracts and the firm turned to Russia; his stated aim of 'an enterprise of world standing comparable to that of Fugger' and his 1887 letter to his brother Carl that he saw the business 'only secondarily as a financial asset'; the 1866 inventory premium and 1872 pension fund described as serving both humanitarian and personnel-policy aims, in his words 'not just humanity, but rather healthy egoism'; his donation of funds and land for the Physikalisch-Technische Reichsanstalt, his role in the Patent Office (1877) and in founding the Elektrotechnischer Verein (1879). Contains 'world's first' claims by the company that are not repeated here; also describes his service in the Prussian state assembly 1862-66 (unscored).",
+      "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:782bbeff44b427c909de6feeaa67625f2959365b/001-biography-werner-von-siemens-201604.pdf"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 72,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_siemens_dsb, src_siemens_psm, src_siemens_shi, src_siemens_kastl | 1850-1855 | reference biography, contemporary biography, company biography, economic-history article] Four sources agree that after his published criticism of the state telegraph administration the Prussian government ended its contracts and that he redirected the firm to railway telegraphy and abroad: an agency in London under his brother Wilhelm in 1850, the Russian state network from 1851-53 and a Russian branch in 1855. The loss of the home market did not stop the firm; sources differ on the order of events but not on the outcome."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_siemens_dsb, src_siemens_shi, src_siemens_kastl, src_siemens_psm | 1847-1867 | reference biography, company biography, economic-history article, contemporary biography] The DSB says that, unlike the others who found self-excitation at about the same time, he foresaw its consequences for heavy-current power uses and developed applications; the company biography quotes his 1867 report to the Berlin Academy forecasting cheap electric power of unlimited strength; he also saw international telegraphy early (Kastl, Britannica). SELF-CALIBRATION (agent): top-risk row; lowered from 76 / 0.64 to 72 / 0.58 because the foresight claim rests on a retrospective DSB sentence and a quotation from his own report, while the same DSB entry notes several others reached the principle simultaneously."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_siemens_dsb, src_siemens_psm | 1850-1880s | reference biography, contemporary biography] The DSB says he steadfastly advocated that technology should be based on scientific theory and analysed to derive theory, published analyses in Dingler's Journal, Poggendorff's Annalen and the Berlin Academy reports, and helped to establish measurement standards (a universal galvanometer); the 1893 sketch records memoirs to the French Academy (1850), work on the sun's heat and on heat theory with his brothers. The DSB's emphasis is on method, the sketch's on topics; both are admiring. RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 70 / 0.58 to 66 / 0.52 because the DSB and an 1893 sketch drawn largely from his own memoir carry the claim."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_siemens_dsb, src_siemens_psm, src_siemens_britannica | 1847-1870 | reference biography, contemporary biography, reference article] He developed an entire telegraph system (instruments, gutta-percha insulation, underground lines) for the Prussian lines, organised and built the Indo-European telegraph through Russia and Persia to Calcutta (completed 1870), and his firm moved into streetcars, mine locomotives and central generating stations (DSB). Documented system-scale projects; none of the sources describes how he thought about systems."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_siemens_psm, src_siemens_britannica, src_siemens_shi, src_siemens_dsb | 1847-1887 | contemporary biography, reference article, company biography, reference biography] He resigned his army commission in 1849 to run the telegraph firm, set up the London and Russian branches himself through his brothers, joined the founding of the Elektrotechnischer Verein (1879) and the Imperial Patent Office (1877), and gave funds and land for the Physikalisch-Technische Reichsanstalt (DSB, company biography). The institution-building details come mainly from the company biography, which is not independent, though the DSB independently confirms the Reichsanstalt funding."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_siemens_kastl, src_siemens_dsb, src_siemens_shi, src_siemens_psm | 1847-1892 | economic-history article, reference biography, company biography, contemporary biography] The firm was a family network (his brothers Wilhelm in London, Carl in St Petersburg, with profits split 40/35/25) built with the instrument maker Halske and the organiser William Meyer; he consulted the Berlin physicists (Magnus, Helmholtz) and, with Helmholtz, planned the Reichsanstalt. Kastl and Moore also show he delegated control with profit shares to senior officials as the firm grew. The company biography attributes the family structure partly to his wish for loyal deployable helpers. RUBRIC_CORRECTION (lead review, before eligibility): collaboration lowered from 68 / 0.58 to 64 / 0.52 because the family-network account leans on the company-owned biography, which is self-interested."
+    },
+    "achievement_drive": {
+      "score": 68,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_siemens_shi, src_siemens_kastl | 1850-1889 | company biography, economic-history article] The company biography quotes his aim to create an enterprise of world standing comparable to the Fuggers and his 1887 letter calling the business more an empire to leave to his descendants; the firm grew from a workshop to the multinational with about 5,000 workers and daughter firms in London, St Petersburg and Vienna (DSB). SELF-CALIBRATION (agent): lowered from 72 / 0.52 to 68 / 0.46 because the ambition is documented almost entirely by his own letters and recollections quoted by the company, not by an independent source."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_siemens_psm, src_siemens_dsb, src_siemens_shi | 1850-1855 | contemporary biography, reference biography, company biography] The 1893 sketch says he published a pamphlet criticising the careless construction and repair of the Prussian state telegraph lines, after which the government stopped dealing with his firm for several years; the DSB records disagreements that cut off Prussian contracts after 1850 and the company biography that good relations did not last. The pamphlet itself is described by one source (drawn from his memoir); the commercial cost was real, so impact is dual-edged."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_siemens_psm, src_siemens_dsb | 1857-1863 | contemporary biography, reference biography] He pursued submarine cables, a technically hazardous business: the 1893 sketch describes his shipwreck on the Alma in the Red Sea in 1859 and a near loss of life laying the Oran-Cartagena cable in 1863, and the DSB records the firm's cable and Atlantic work after the Prussian market closed. Personal exposure and business exposure are both documented, but the sources do not describe how he weighed them."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_siemens_dsb, src_siemens_psm, src_siemens_britannica | 1842-1887 | reference biography, contemporary biography, reference article] Work moved across electroplating chemistry (1842), gun-cotton, telegraphy, undersea cables, power generation, electric traction and measurement standards, and the 1893 sketch adds studies of geology, the sun's heat and meteorology. Most of it lies within electrical and chemical technology, which keeps the score moderate; no source treats his range as a distinct trait."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "베르너 폰 지멘스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/werner-von-siemens-popular-science-monthly-1893.jpg",
+    "width": 855,
+    "height": 1200,
+    "source": "Wood-engraved portrait of Werner von Siemens printed with the caption 'Werner Siemens' in The Popular Science Monthly, volume 43 (May to October 1893), New York, D. Appleton; scan at the Internet Archive (popularsciencemo43newyuoft); engraver not named. The file is the Wikimedia Commons extract of the engraving (1698 x 2384 pixels) downscaled to 855 x 1200 with no upscaling. The same volume carries the 'Sketch of Werner von Siemens'.",
+    "license": "Public domain by age: published in New York in 1893 (before 1931); the engraver is not named and the Internet Archive record states no rights of its own",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unnamed engraver, portrait of Werner Siemens, The Popular Science Monthly vol. 43, 1893 (Internet Archive scan; extracted and downscaled).",
+    "attributionUrl": "https://archive.org/details/popularsciencemo43newyuoft",
+    "creator": "Unnamed engraver (published by D. Appleton and Company, New York)",
+    "date": "1893 (published a few months after the sitter's death)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://archive.org/details/popularsciencemo43newyuoft"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / REPLACED: the lead's ETH-Bibliothek portrait could not be verified at the holder (script-rendered page) and the holder metadata preserved on Commons gives no maker and a doubtful 'ca. 1860' date for what looks like an engraving of an elderly man; the c.1885 company photograph came from siemens.com with no author and was rejected. The replacement is the engraved portrait printed in The Popular Science Monthly vol. 43 (New York, D. Appleton, May-October 1893), documented at the Internet Archive; the rights basis is publication in the United States in 1893 (before 1931), the engraver is unnamed so there is no creator-death basis, and the Internet Archive record carries no rights statement of its own. I read the OCR text of the page, where the caption 'WERNER SIEMENS.' stands under the portrait, and the 'Sketch of Werner von Siemens' appears in the same volume, so identity is not in doubt. KIND historical_depiction: an engraving published a few months after his death, not a photograph of a sitting. Dimensions: Commons extract 1698 x 2384 downscaled to 855 x 1200 (no upscaling). PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q58577 label 'Werner von Siemens', description 'German electrical engineer, inventor and industrialist (1816-1892)', ko label 에른스트 베르너 폰 지멘스, born 1816-12-13, died 1892-12-06, citizenship Kingdom of Prussia; not in prod66.json and no candidate file or QID collision existed. REGION western_europe (German precedent Schopenhauer). ERA 19th_century. Nationality DE. ZERO POLITICS: primary identity is electrical engineer and industrialist. His Prussian-assembly service 1862-66 (liberal Progress Party), the 1848 military work at Kiel and Friedrichsort, his officer career and the 1888 ennoblement are context only and unscored; the Patent Office and Reichsanstalt roles are scored only as science and technology institution-building, and the 1850 pamphlet on the telegraph lines is scored only as a business and technical dispute. VOCABULARY: occupations engineer, inventor, entrepreneur; fields engineering, technology, business; tags founder, innovator, systematic_thinker; archetypes technical_innovator, entrepreneurial_builder; impact domains engineering, technological, industrial, entrepreneurial, innovation; all labelled in en.ts and ko.ts. KO NAME: the Korean Wikipedia title is 에른스트 베르너 폰 지멘스; the short form 베르너 폰 지멘스 (dropping the first given name, as in common usage) is used for display, and this is a choice, not a Wikipedia title. ATTRIBUTION: attributable (extensive business, patent and publication record). CANONICAL SIGNIFICANCE SOURCE: Complete Dictionary of Scientific Biography entry by Thomas Parke Hughes on Siemens (https://encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/siemens-ernst-werner-von). READ (7 sources besides Wikidata): DSB entry (full); Kastl and Moore 2009 in Cliometrica (full PDF, independent economic-history counter-voice); Popular Science Monthly 1893 sketch (full OCR); Britannica (read); IEEE ETHW (full); Siemens Historical Institute biography (full, company-owned); a University of Twente student-society article on Siemens was also read for the dynamo-priority context and Halske's departure but is not cited as a source. Wikipedia not used. Not opened: Siemens's own Recollections, Feldenkirchen's 1994 biography, Kocka, Burhenne, the Imperial Patent Office records. PERSPECTIVES: (1) scientific reference biography (DSB); (2) independent economic-history analysis that reads the welfare system as profit-maximising (Kastl and Moore); (3) contemporary 1893 magazine biography drawn mostly from his memoir (partly self-report); (4) company-owned institutional history (self-interested); (5) professional society and general encyclopaedia entries. NON-SELF BEHAVIOURAL SOURCES: DSB, Kastl and Moore, Britannica, ETHW; the 1893 sketch and the company biography both lean on his own recollections and letters. CONTRADICTIONS AND LIMITS: DSB and Kastl and Moore state that the dynamo principle was reached by several people at about the same time (so no priority claim is made); the company and ETHW say 'first' for the electric railway, street lighting, elevator and streetcar, and these company 'world's first' claims are not repeated in the cards; the 1893 sketch has a dating slip (Frankfurt line winter 1879 for 1849); Kastl and Moore date profit sharing from 1855 whereas the company biography dates the 'inventory premium' from 1866 (different instruments); the Prussian-contract break is placed by the sources between 1850 and the early 1850s after his pamphlet. The firm's shift to Russia is documented by four sources. No adversarial biography was found; the independent critical framing is Kastl and Moore's finding that welfare provisions served productivity and strike prevention (with a pension forfeited on strike), which also appears in his own words in the company biography. MAJOR ACHIEVEMENT GATE (first pass PASS on all five): cards (1) Siemens & Halske and the telegraph systems, (2) the dynamo-electric principle and electrical power, (3) science-based technology and the Reichsanstalt. Welfare policies (pension fund, profit sharing) are not a card (side facet; they appear in the collaboration row with the counter-voice). SELF-CALIBRATION: reviewed opportunity_sensing (lowered 76/0.64 to 72/0.58), achievement_drive (lowered 72/0.52 to 68/0.46), adaptability (kept). No broad scoring problem flagged. HANDBACK66: {\"slug\": \"werner-von-siemens\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (lead-robust)\", \"holder_record_at_preflight\": \"NOT VERIFIED: ETH-Bibliothek E-Pics record (doi 10.3932/ethz-a-000045546) is a script-rendered page; Commons carries PD-old-70\", \"holder_record_checked_by_you\": \"ETH E-Pics DOI page resolves to a script-rendered Anura page that could not be read; the holder's own metadata export preserved in the Commons file page for Portr_01349 was read instead (License 'Public Domain Mark', Photographer 'nicht anwendbar', medium 'Druck', dated 'ca. 1860', 9 x 12 cm) and the image itself looks like an engraving of an older man, so the ca. 1860 dating is doubtful and no maker is named: not used. Instead the Internet Archive record for Popular Science Monthly vol. 43 (popularsciencemo43newyuoft; 'May to October 1893', New York, D. Appleton) and its OCR text were opened and show the portrait printed with the caption 'WERNER SIEMENS.' followed by the 'Sketch of Werner von Siemens' in the same volume.\", \"holder_contradiction_found\": false, \"initial_lead\": \"ETH-Bibliothek Bildarchiv portrait c.1860; also a c.1885 company photograph\", \"final_portrait_source\": \"Popular Science Monthly vol. 43 (1893), Internet Archive scan popularsciencemo43newyuoft, engraved portrait captioned 'Werner Siemens', via the Wikimedia Commons extract 'PSM V43 D740 Werner Siemens.jpg' (1698 x 2384) downscaled to 855 x 1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 10, \"self_calibrated_rows\": [{\"attribute\": \"opportunity_sensing\", \"old_score\": 76, \"old_confidence\": 0.64, \"new_score\": 72, \"new_confidence\": 0.58, \"reason\": \"The foresight claim rests on a retrospective DSB sentence and a quotation from his own report, while the same entry notes several others reached the principle at about the same time\"}, {\"attribute\": \"achievement_drive\", \"old_score\": 72, \"old_confidence\": 0.52, \"new_score\": 68, \"new_confidence\": 0.46, \"reason\": \"The ambition is documented almost entirely by his own letters and recollections quoted by the company, not by an independent source\"}], \"reviewed_kept\": [\"adaptability\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 10, \"image_inscription_check\": \"Printed caption 'WERNER SIEMENS.' under the engraving on the page of Popular Science Monthly vol. 43 (confirmed in the Internet Archive OCR text; the Commons extract itself is cropped to the engraving and shows no lettering); the same volume carries 'Sketch of Werner von Siemens'\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): analytical_rigor lowered from 70 / 0.58 to 66 / 0.52 because the DSB and an 1893 sketch drawn largely from his own memoir carry the claim. RUBRIC_CORRECTION (lead review, before eligibility): collaboration lowered from 68 / 0.58 to 64 / 0.52 because the family-network account leans on the company-owned biography, which is self-interested."
+  }
+}

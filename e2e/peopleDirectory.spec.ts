@@ -83,7 +83,7 @@ test("people directory: default (unfiltered) view shows the current live Directo
   page,
 }) => {
   await page.goto("/en-US/people", { waitUntil: "networkidle" });
-  await expect(page.getByText(/^761 people$/)).toBeVisible();
+  await expect(page.getByText(/^788 people$/)).toBeVisible();
 });
 
 test("people directory: heading hierarchy still holds with an active search filter (en-US)", async ({ page }) => {
@@ -677,7 +677,7 @@ test("people directory ko-KR: cross-facet personality AND gives the same result 
   // Roster64 (2026-11-05, docs/checkpoints/roster64.md): the cross-facet count moved 16->17 because Denis
   // Diderot (curiosity 76, collaboration 74, both with confidence >= 0.5) newly crosses BOTH thresholds; the
   // other 23 shipped Roster64 people do not. Verified on the rendered Directory result list.
-  expect(bodyText).toMatch(/전체\s*762명\s*중\s*17명/);
+  expect(bodyText).toMatch(/전체\s*789명\s*중\s*17명/);
   expect(bodyText).toContain("드니 디드로");
   expect(bodyText).toContain("제니퍼 다우드나");
   expect(bodyText).toContain("리타 레비몬탈치니");

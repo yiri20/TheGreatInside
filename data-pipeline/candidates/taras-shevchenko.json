@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "taras-shevchenko",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Taras Shevchenko",
+    "aliases": [
+      "Taras Hryhorovych Shevchenko",
+      "Taras Grigoryevich Shevchenko"
+    ],
+    "wikidataId": "Q134958",
+    "birthYear": 1814,
+    "deathYear": 1861,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "UA"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "painter"
+    ],
+    "fieldIds": [
+      "literature",
+      "art"
+    ],
+    "impactDomains": [
+      "literary",
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prolific",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_shevchenko_wikidata",
+      "kind": "wikidata",
+      "title": "Taras Shevchenko (Q134958), verified live via the Wikidata API (2026-11-06): description 'Ukrainian poet and artist (1814-1861)', born 1814 (the item lists 25 and 26 February and 9 March), died 1861 (10 March among three listed dates), Korean label 타라스 셰우첸코. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q134958"
+    },
+    {
+      "id": "src_shevchenko_eou",
+      "kind": "institution",
+      "title": "Myroslav Antokhii, Daria Darewych, Marko Robert Stech and Danylo Husar Struk, 'Shevchenko, Taras', Encyclopedia of Ukraine (Canadian Institute of Ukrainian Studies; entry updated 2004; read). CANONICAL SIGNIFICANCE SOURCE: lists his works from Kobzar (1840) and Haidamaky (1841) to the secret exile poems and the 1861 primer he funded himself; describes him as the founder of modern Ukrainian literature whose Kobzar legitimised Ukrainian for serious literature and was translated into more than 100 languages by the 1990s; covers his training under Briullov, the Picturesque Ukraine album (1844), more than 150 portraits and the 1860 academician-engraver title, with 835 surviving works and about 270 lost. Its critical section notes that Soviet-era scholarship was heavily censored and falsified. Scholarly but laudatory.",
+      "url": "https://www.encyclopediaofukraine.com/pages/S/H/ShevchenkoTaras.htm"
+    },
+    {
+      "id": "src_shevchenko_museum_bio",
+      "kind": "institution",
+      "title": "Taras Shevchenko Museum (Toronto), 'Short Biography' (shevchenko.ca; owned by the Taras H. Shevchenko Museum and Memorial Park Foundation; no author named; read). Reports his 1838 release from serfdom for 2,500 rubles raised by a lottery of a Briullov portrait, Academy studies and silver medals in 1839-41, the publication of Kobzar (1840) and Haidamaky (1841), the 1847 sentence with the order 'with a ban on writing and painting', secret copying of his poems into a small book hidden in a boot, a re-arrest in 1850 for violating the ban, and the Academy title of 2 September 1860. Admiring community museum; no independent critics.",
+      "url": "https://shevchenko.ca/taras-shevchenko/biography/"
+    },
+    {
+      "id": "src_shevchenko_museum_final",
+      "kind": "institution",
+      "title": "Taras Shevchenko Museum (Toronto), 'Final Years, Freedom on a Chain' (shevchenko.ca; read). Reports that from September 1859 he lived in the Academy of Arts and took up etching and aquatint, calling engraving a means for spreading art, that the Academy named him Academician of Engraving on 2 September 1860 for his etching success, and that in January 1861 he compiled and published a primer at his own expense and gave copies free to Sunday schools.",
+      "url": "https://shevchenko.ca/taras-shevchenko/biography/bio-final-years.cfm"
+    },
+    {
+      "id": "src_shevchenko_museum_art",
+      "kind": "institution",
+      "title": "Taras Shevchenko Museum (Toronto), 'Shevchenko's Art' (shevchenko.ca; read). Lists his genres (portraits, landscapes, compositions, genre scenes), media (watercolour, oil, pencil, ink, sepia, etching and aquatint), the six etchings of Picturesque Ukraine published in 1844 out of a larger plan, and his work as artist of the 1848-49 Butakov Aral Sea expedition. Laudatory and cites no independent critics; used for the factual outline only.",
+      "url": "https://shevchenko.ca/taras-shevchenko/art.cfm"
+    },
+    {
+      "id": "src_shevchenko_columbia",
+      "kind": "press",
+      "title": "'Shevchenko, Taras Grigoryevich', The Columbia Encyclopedia, 6th edition (via Encyclopedia.com; read). Short general entry: born a serf, trained as an icon and mural painter, freed in 1838, became a prominent realist painter, wrote Ukrainian ballads and, in exile, lyric poetry and several novels, and had 'tremendous influence on Ukrainian literature'. Offers no critical assessment beyond that.",
+      "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/shevchenko-taras"
+    },
+    {
+      "id": "src_shevchenko_gartenlaube",
+      "kind": "press",
+      "title": "'Ein russisches Dichterleben', Die Gartenlaube (Leipzig: Ernst Keil, 1862), page 437 (German family magazine; the Wikisource transcription and the Commons page scan were read, only the opening paragraphs of the article were read closely). A contemporary German account written the year after his death; the page carries his printed portrait captioned 'Taras Grigorjewitsch Schewtschenko'. Portrait source record for the image used; not used as support for any row.",
+      "url": "https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1862)_437.jpg"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shevchenko_eou, src_shevchenko_museum_art, src_shevchenko_columbia | 1838-1861 | scholarly encyclopedia, museum page, general encyclopedia] Three sources agree he worked at a high level in two arts: poetry and prose on the one hand and painting, portraiture, watercolour and etching on the other, with more than 150 portraits and 835 surviving works recorded alongside the poems. The breadth itself is documented, not inferred; the quality of each strand is judged only by admiring or very short sources, so the score stays below the top range. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 72 / 0.58 to 68 / 0.52 because the three sources are one encyclopedia and museum pages that admire him, with no independent critic of the painting."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shevchenko_eou, src_shevchenko_museum_art | 1840-1860 | scholarly encyclopedia, museum page] The Encyclopedia of Ukraine says his versification drew on the structure of folk song and that Kobzar opened a new era in the modern Ukrainian language, and that the 1844 etching album Picturesque Ukraine recorded historic monuments and scenes of local life; the museum page calls the etchings a foundation of critical realism in Ukrainian art. SELF-CALIBRATION (agent): top-risk row (retrospective praise from admiring sources, no independent critic read); lowered from 72 / 0.55 to 68 / 0.50."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shevchenko_museum_bio, src_shevchenko_eou | 1847-1857 | museum page, scholarly encyclopedia] Banned from writing and painting during his 1847-57 military exile, he went on composing poems in secret notebooks (the Encyclopedia of Ukraine counts the 'bootleg booklets' of 1847-50), copied one poem into a small book hidden in his boot and was re-arrested in 1850 for violating the ban. The sources describe the work and the risk; the episode is scored only as continued creative work, not as political activity, and its detail rests largely on one museum page."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shevchenko_museum_final, src_shevchenko_eou | 1861 | museum page, scholarly encyclopedia] In January 1861 he compiled a primer for Ukrainian Sunday schools and published it at his own expense, giving copies free to the schools, a fact stated by both sources. SELF-CALIBRATION (agent): top-risk row (one episode; the museum page supplies the purpose 'to promote public education'); lowered from 66 / 0.50 to 62 / 0.45."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_shevchenko_museum_final, src_shevchenko_museum_art, src_shevchenko_eou | 1859-1860 | museum pages, scholarly encyclopedia] After returning to St Petersburg in 1859 he took up etching and aquatint, which the museum says he saw as a means of spreading art, and the Academy named him Academician of Engraving in September 1860; the sources also list a wide range of media (watercolour, oil, sepia, aquatint). The move and the title are documented; there is no independent description of how he worked the medium out."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "타라스 셰우첸코"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/taras-shevchenko-gartenlaube-1862.jpg",
+    "width": 1030,
+    "height": 1090,
+    "source": "Wood engraving of Taras Shevchenko printed in the German magazine Die Gartenlaube (Leipzig: Ernst Keil, 1862), page 437, with the caption 'Taras Grigorjewitsch Schewtschenko' and a monogram 'PTh' at lower left; Wikisource edition of the volume and Commons scan. The page margins were trimmed (1030 x 1090) with no resizing and no upscaling.",
+    "license": "Public domain: a wood engraving published in Leipzig in 1862 (monogram of the illustrator Paul Thumann, who died in 1908), public domain by age",
+    "licenseUrl": "https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1862)_437.jpg",
+    "attribution": "Illustration monogrammed PTh, Die Gartenlaube (Leipzig), 1862, page 437",
+    "attributionUrl": "https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1862)_437.jpg",
+    "creator": "Monogram 'PTh' (attributed on Commons to the illustrator Paul Thumann) with an engraver whose signature is illegible",
+    "date": "1862",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Die_Gartenlaube_(1862)_b_437.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / LEAD FAILED, REPLACEMENT USED. The lead (1840 oil self-portrait, Commons file via the art-catalog.ru aggregator; and the 1858 Dossa / Denyer photographs) was rejected: the 1840 file page names no holder or accession record and only an aggregator website, and the Dossa photograph page cites museumshevchenko.org.ua, whose page now returns 404 (holder not verifiable). The nearest authoritative route, the 1860 self-etching held by the Taras Shevchenko National Museum (accession g-677, shown on the Shevchenko portal kobzar.ua), is contradicted by the portal's licence agreement: it asserts rights in its content (including photographs), allows only personal non-commercial use and forbids republication on other sites without the rights holder's written permission, so Commons PD-old tagging is not enough. ONE BOUNDED RETRY (about 12 calls): Commons category survey, three file pages, kobzar.ua item and terms, museum page, Library of Congress carte de visite (Commons wikitext only; loc.gov walled; a 1880s lithograph reproduction and not used). REPLACEMENT: wood engraving of Shevchenko printed in Die Gartenlaube (Leipzig, 1862), page 437, with the caption 'Taras Grigorjewitsch Schewtschenko' (Wikisource transcription of the page; Commons scan 1081 x 1166). HOLDER RECORD: the image is a page of a digitised 1862 periodical (Wikisource edition of Die Gartenlaube 1862, scans on Commons); no holder restriction exists; the record documents the 1862 publication and the page caption. RIGHTS BASIS: published in Leipzig in 1862, a monogrammed wood engraving (lower left monogram 'PTh', which Commons attributes to Paul Thumann, d. 1908; lower right an engraver's signature ending 'sc.', illegible), public domain by age in the US and in Germany. INSCRIPTION CHECK (I looked at the downloaded scan and enlarged both corners): lower left monogram 'PTh'; lower right an illegible engraver's signature ending 'sc.'; the printed caption sits below the picture on the page and is quoted from the Wikisource transcription (the cropped scan does not include it). The image shows a bald, bearded man in a frock coat, consistent with other portraits of Shevchenko; no lettering names anyone else; no contradiction. KIND: historical_depiction (a posthumous wood engraving printed the year after his death, apparently after a photograph; no lifetime sitting is documented for this image). Trimmed the scan margins (1030 x 1090), no resizing, never upscaled; saved as public/portraits/taras-shevchenko-gartenlaube-1862.jpg. WHY THE STRONG-ISH LEAD FAILED: aggregator-only provenance for the self-portrait and a restrictive holder portal for the self-etching; the preflight overestimated because it graded the sitter's own work as automatically clear and did not open the holder's terms. PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q134958, 'Ukrainian poet and artist (1814-1861)', born 1814, died 1861; not in prod66.json (grep of Shevchenko and the QID found nothing); no existing candidate file. REGION central_europe (Ukrainians and Russians follow the central_europe precedent), ERA 19th_century, nationality UA. ZERO POLITICS: the Brotherhood of Saints Cyril and Methodius, the 1847 arrest, the sentence and the nationalism and anti-serfdom reading of the poems are context only and unscored; he is scored as poet, painter and etcher. The persistence row uses the secret writing under the ban as creative persistence only. No health, family or private-life inference. VOCABULARY: occupations poet and painter, fields literature and art, impact domains literary, artistic, cultural, tags prolific and cross_disciplinary, archetype creative_creator, all present in en.ts and ko.ts. KO NAME: Korean Wikidata label 타라스 셰우첸코 (recorded source: Wikidata ko label). HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED (attribution_confirmed true): dated publications, a dated academy title and several documented episodes. CANONICAL SIGNIFICANCE SOURCE: Encyclopedia of Ukraine entry 'Shevchenko, Taras' (https://www.encyclopediaofukraine.com/pages/S/H/ShevchenkoTaras.htm). READ (6 sources plus Wikidata): Encyclopedia of Ukraine, three Shevchenko Museum (Toronto) pages, Columbia Encyclopedia entry, Gartenlaube page 437 (partial). Perspectives: scholarly encyclopedia, admiring community museum, general encyclopedia, a contemporary German magazine. WEAKNESS TO FLAG: no independent critical or adversarial source on his art or character was found; the only counter-voice is the Encyclopedia of Ukraine's remark that Soviet scholarship was censored and falsified, so all confidences are capped at 0.58 and the profile is sparse. NOT OPENED: Grabowicz, The Poet as Mythmaker (Harvard, 1982; known only from a search summary and not used), Britannica, the Picturesque Ukraine entry of the Encyclopedia of Ukraine (redirect not followed), Wikipedia and museum catalogues in Ukrainian. EXCLUSIONS: politics and nationalism, the Brotherhood and arrest, the cult of Shevchenko, family and love life, health, drink, and any claim of 'first' or 'founder' beyond the sources' own wording. SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (72/0.55 lowered to 68/0.50: retrospective praise only), impact_motivation (66/0.50 lowered to 62/0.45: a single episode with the purpose given by one museum page), cross_domain_range (72/0.58, kept: three sources agree on the documented breadth). The profile has no independent adversarial source, which is a broad limitation flagged for the lead, not blanket-lowered. MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. Card 1 states Kobzar and his role in modern Ukrainian literature, card 2 the painting and etching career with the 1860 academician title, card 3 the secret exile work and the Aral Sea drawings; the 1861 primer stays out of the cards as a side venture. HANDBACK66: {\"slug\": \"taras-shevchenko\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: self-portrait of 1840 via art-catalog.ru; 1858 photographs via museumshevchenko.org.ua; the holder was not opened\", \"holder_record_checked_by_you\": \"Self-portrait 1840 Commons page: no holder, only the art-catalog.ru aggregator (not accepted). Dossa photograph: source museumshevchenko.org.ua page id=43 returns 404 (unverifiable). 1860 self-etching (National Taras Shevchenko Museum g-677) on the portal kobzar.ua: item page needs JavaScript and the portal licence agreement (kobzar.ua/site/page/terms_of_use) restricts content to personal non-commercial use and forbids republication elsewhere without the rights holder's written permission. Final image: Die Gartenlaube (Leipzig 1862) p. 437, Wikisource transcription plus Commons scan; no holder restriction.\", \"holder_contradiction_found\": true, \"initial_lead\": \"Shevchenko self-portrait in oil, 1840-1841\", \"final_portrait_source\": \"Wood engraving of Shevchenko printed in Die Gartenlaube (Leipzig: Ernst Keil, 1862), page 437, caption 'Taras Grigorjewitsch Schewtschenko'; https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1862)_437.jpg ; Commons file 'Die Gartenlaube (1862) b 437.jpg'; margins trimmed to 1030x1090, not resized\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 72, \"old_confidence\": 0.55, \"new_score\": 68, \"new_confidence\": 0.5, \"reason\": \"Retrospective praise from admiring sources only; no independent critic read\"}, {\"attribute\": \"impact_motivation\", \"old_score\": 66, \"old_confidence\": 0.5, \"new_score\": 62, \"new_confidence\": 0.45, \"reason\": \"Single episode (self-funded primer); the stated purpose comes from one museum page\"}], \"reviewed_kept\": [\"cross_domain_range\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"Lower left monogram 'PTh'; lower right an illegible engraver's signature ending 'sc.'; page caption below the picture 'Taras Grigorjewitsch Schewtschenko.' taken from the Wikisource transcription (not in the cropped scan)\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false} RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 72 / 0.58 to 68 / 0.52 because the three sources are one encyclopedia and museum pages that admire him, with no independent critic of the painting. LINK FIX (Roster66 source sweep): https://de.wikisource.org/wiki/Die_Gartenlaube_(1862)/437 -> https://de.wikisource.org/wiki/Seite:Die_Gartenlaube_(1862)_437.jpg (the old URLs returned 404)."
+  }
+}

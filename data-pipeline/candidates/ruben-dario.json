@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ruben-dario",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Rubén Darío",
+    "aliases": [
+      "Ruben Dario",
+      "Félix Rubén García Sarmiento"
+    ],
+    "wikidataId": "Q173767",
+    "birthYear": 1867,
+    "deathYear": 1916,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "NI"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature",
+      "journalism"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "artistic"
+    ],
+    "tagIds": [
+      "prolific",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_dario_wikidata",
+      "kind": "wikidata",
+      "title": "Rubén Darío (Q173767), verified live via the Wikidata API (2026-11-06): description 'Nicaraguan poet, journalist and diplomat (1867-1916)', born 18 January 1867 (a second entry lists 1869), died 6 February 1916, citizenship Nicaragua, Korean label 루벤 다리오 (Korean Wikipedia article 루벤 다리오). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q173767"
+    },
+    {
+      "id": "src_dario_ebsco",
+      "kind": "biography",
+      "title": "William Gahan, 'Rubén Darío', EBSCO Research Starters (2024; read). CANONICAL SIGNIFICANCE SOURCE: calls him the most influential Spanish American writer of modernismo, says Azul (1888) broke with ornate Romantic style, Prosas profanas (1896) experimented with rhythm, meter and sound, and Cantos de vida y esperanza (1905) gathered over a decade of work; that Juan Valera's prologues to later editions of Azul brought him fame in the Americas and Europe; that journalism was his steady income across Central America, Buenos Aires and Europe and he wrote for La Nación; that he revised earlier works repeatedly and mixed prose and poetry; and that Lorca, Neruda, Borges and Paz regarded him as foundational although the avant-garde later made modernism seem dated. Its notes on his private life (drinking, relationships, health, death) are excluded from scoring.",
+      "url": "https://www.ebsco.com/research-starters/history/ruben-dario/"
+    },
+    {
+      "id": "src_dario_gale",
+      "kind": "press",
+      "title": "'Rubén Darío', Encyclopedia of World Biography (Gale, via Encyclopedia.com; no named author; read). Gives the sequence Primeras notas (1885), Azul (1888, written in Chile, 'considered the first book of Spanish American modernism'), Los raros (1896, essays on writers he admired), Prosas profanas (1896), Cantos de vida y esperanza (his most mature collection) and later works judged weaker; says he founded newspapers in El Salvador (1889) and Guatemala (1890), wrote for La Epoca in Chile, was tied to La Nacion of Buenos Aires from 1889 and was sent by it to Spain in 1898; the page's dates for Azul and Cantos differ from the Oxford World Encyclopedia entry it also carries.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/latin-american-literature-biographies/ruben-dario"
+    },
+    {
+      "id": "src_dario_poets",
+      "kind": "institution",
+      "title": "Academy of American Poets, 'Rubén Darío' (poets.org; read). Short biography: left Nicaragua in his late teens for El Salvador and Chile, Colombian consul in Buenos Aires from 1893, left for Europe in 1898 and wrote as a correspondent for La Nación; Azul (1888) 'is often considered' the beginning of Spanish American modernism, Prosas profanas (1896), Cantos de vida y esperanza (1905); quotes Octavio Paz calling him one of the great modern poets. Brief and admiring.",
+      "url": "https://poets.org/poet/ruben-dario"
+    },
+    {
+      "id": "src_dario_scarano",
+      "kind": "biography",
+      "title": "Laura Scarano, 'Una cristalina muralla de hielo: la resistencia antidariana en Espana' (scholarly article, 2016, Mar del Plata; the journal is not identified in the PDF; read in full). COUNTER-VOICE: studies the resistance Darío met in Spain: Clarin's 1893 dismissal of him as a derivative versifier, Unamuno's reservations about French influence, Cernuda's later hostility, and a racialised mockery as 'indio'; also records his Spanish friendships, his 1892 and 1898 visits (the second as La Nacion's correspondent), and his reply 'Pro domo mea' published in La Nacion. The article concentrates on reception, not on his working habits.",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/5665267.pdf"
+    },
+    {
+      "id": "src_dario_losraros",
+      "kind": "archive",
+      "title": "Ruben Dario, Los raros (second edition, Barcelona: Maucci, 1905; scan from the Academia Argentina de Letras collection shared through Wikimedia Argentina, read for its frontispiece page). Portrait source record for the image used: the printed portrait is captioned 'Ruben Dario' and signed by its artist. Not used as support for any row.",
+      "url": "https://commons.wikimedia.org/wiki/File:Los_raros_-_Ruben_Dario_-_2aed_-_1905.pdf"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dario_ebsco, src_dario_gale, src_dario_poets | 1888-1896 | scholarly reference text, general encyclopedia, poetry institution] Three sources agree that Azul broke with the ornate Romantic style and is generally treated as the starting point of Spanish American modernismo and that Prosas profanas consolidated it; Scarano records that critics such as Clarin called him a derivative versifier, so the originality is contested at the time and affirmed by later poets. SELF-CALIBRATION (agent): top-risk row (retrospective praise, an adversarial contemporary voice, no direct description of his methods); lowered from 74 / 0.55 to 70 / 0.50."
+    },
+    "aesthetic_sensitivity": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dario_ebsco, src_dario_gale | 1896 | scholarly reference text, general encyclopedia] EBSCO says Prosas profanas experimented with rhythm, meter and sound to evoke the spiritual through the physical, and Gale describes Azul's refined elegance of style; both are descriptions of the poetics rather than of his working practice. SELF-CALIBRATION (agent): top-risk row (indirect inference from the style of the work; one detailed source); lowered from 68 / 0.50 to 64 / 0.45."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.45,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dario_ebsco, src_dario_gale | 1888-1905 | scholarly reference text, general encyclopedia] EBSCO says he wrote experimental mixes of prose and poetry, revised earlier works repeatedly (the 1905 edition of Azul is called its definitive version) and that Prosas profanas experimented with rhythm and meter; Gale shows Azul combining poems and stories. One detailed source, but the revision of Azul is also documented by its dated editions."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_dario_ebsco, src_dario_gale, src_dario_poets | 1885-1910 | scholarly reference text, general encyclopedia, poetry institution] Sources document verse, short stories (Azul), critical essays (Los raros) and steady newspaper journalism for papers in Chile, Central America and Buenos Aires, including founding two newspapers in Central America; the breadth is documented, but the sources judge only the poetry in any depth."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_dario_scarano | 1893-1899 | scholarly article] Scarano documents that when Clarin dismissed him in 1893 he answered in La Nacion with 'Pro domo mea', saying he was no head of a school and did not ask to be imitated and that affected Francophile imitators annoyed him as much as Clarin, and that he answered Unamuno's 1898 article 'Muera Don Quijote' with one of his own in 1899 and kept up an exchange of letters with him. The replies are documented through quotation from the texts, but only one source, mostly about reception, describes them."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루벤 다리오"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ruben-dario-russ-1905.jpg",
+    "width": 770,
+    "height": 1200,
+    "source": "Printed portrait of Rubén Darío, captioned 'Rubén Darío' and signed by its artist (read as P. Russ), used as the frontispiece of Los raros, second edition (Barcelona: Maucci, 1905); scan of the Academia Argentina de Letras copy shared on Wikimedia Commons through Wikimedia Argentina. The page margins were trimmed and the image downscaled from 2360 x 3680 to 770 x 1200 with no upscaling.",
+    "license": "Public domain: an illustration printed in a book published in Barcelona in 1905 (before 1931), public domain in the United States by publication date",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Los_raros_-_Ruben_Dario_-_2aed_-_1905.pdf",
+    "attribution": "Portrait signed P. Russ, frontispiece of Los raros (Barcelona: Maucci, 1905), Academia Argentina de Letras collection via Wikimedia Argentina",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Los_raros_-_Ruben_Dario_-_2aed_-_1905.pdf",
+    "creator": "P. Russ (artist, signature read as such) with an engraver's mark 'F.s.c.'",
+    "date": "1905 (drawing dated 1892 on Commons)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Los_raros_-_Ruben_Dario_-_2aed_-_1905.pdf"
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / LEAD FAILED, REPLACEMENT USED. The lead was the plate in Poemas (Buenos Aires: Ediciones Selectas America, 1920) via Internet Archive item poemasdar00dar. I downloaded the page images: the plate (item page n10) is a halftone photograph with NO lettering at all (no caption, name, credit or date) and no photographer is named; the metadata record (Toronto copy) carries no rights statement. The sitter is only implied by the volume ('homage edition on the fourth anniversary of the poet's death'), which is a weak identity basis, and the photographer is unknown, so the route was rejected. The 1910 Madrid group photograph named as the alternative was not opened (it is a group image needing positive identification). REPLACEMENT: the frontispiece portrait of Los raros (second edition, Barcelona: Maucci, 1905; scan of the Academia Argentina de Letras copy shared on Wikimedia Commons through Wikimedia Argentina; page 4 of the scan, a 2838 x 4307 page image extracted from the PDF). HOLDER RECORD: Commons file page for the AAL scan plus its AAL/Wikimedia Argentina partnership template (the Academia gave its collection to Commons) and the Wikidata item for the scan (Q31212842, copyright status public domain); the Academia's own catalogue record was not opened and the scanned imprint page is unreadable in the PDF extraction (the 'second edition, Maucci, Barcelona, 1905' imprint rests on the Commons record), so holder verification is partial. No restriction or contradiction found. RIGHTS BASIS: a printed illustration in a book published in Barcelona in 1905 (edition date from the Commons record; the first edition was 1896, so the book is before 1931 either way), public domain in the US by publication date; the artist signature reads 'P. Russ' (Commons, citing the Cervantes Virtual album, dates the drawing to 1892). INSCRIPTION CHECK (I looked at the downloaded page image): printed caption below the picture 'Ruben Dario' (with accent); lower left an artist's signature that I read as 'P. Russ' (partly illegible; Commons says 'P. Russ'); lower right 'F.s.c.' (probably an engraver's mark). The caption names the claimed sitter and nothing contradicts it. KIND: historical_depiction (a printed portrait engraving after a drawing, 1892 drawing reproduced in 1905; no documented sitting). Crop: page margins trimmed (2360 x 3680) and downscaled to 770 x 1200, never upscaled; saved as public/portraits/ruben-dario-russ-1905.jpg. WHY THE LEAD FAILED: the preflight checked the book's metadata but not the plate itself; the plate has no lettering and no photographer. PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q173767, 'Nicaraguan poet, journalist and diplomat (1867-1916)', born 18 January 1867, died 6 February 1916; not in prod66.json (grep of Dario and the QID found nothing); no existing candidate file. REGION latin_america (born and raised in Nicaragua, career in Chile, Argentina, Spain and France; Latin American precedent for a Nicaraguan-born poet writing largely for Buenos Aires), ERA 19th_century (born 1867, main modernist books 1888-1905; precedent: Marti), nationality NI. ZERO POLITICS / DIPLOMACY: he was a Colombian consul, a secretary and a Nicaraguan diplomat in Madrid; all of that and the political stance in Cantos de vida y esperanza are context only and unscored; he is scored as poet, essayist and journalist. No inference from his drinking, relationships, health, abandonment as a child or death, all of which appear in EBSCO and Gale and are excluded. VOCABULARY: occupations poet and writer, fields literature and journalism, impact domains literary, cultural, artistic, tags prolific and innovator, archetype creative_creator, all present in en.ts and ko.ts. KO NAME: 루벤 다리오 (Korean Wikipedia and Wikidata label). HISTORICAL ATTRIBUTION (lead screen: attributable): CONFIRMED (attribution_confirmed true): dated publications, dated newspaper and editorial work and a documented reception. CANONICAL SIGNIFICANCE SOURCE: William Gahan, 'Rubén Darío', EBSCO Research Starters (https://www.ebsco.com/research-starters/history/ruben-dario/). READ (5 sources plus Wikidata): EBSCO, Gale, Academy of American Poets, the Scarano article in full, the Los raros frontispiece. Perspectives: scholarly reference, general reference, poetry institution, an adversarial-reception scholar (Clarin, Unamuno, Cernuda). NOT OPENED: Britannica and Poetry Foundation (403), Wikipedia, Watland's and Oviedo's biographies, a UNED PDF about Darío (read only in text extraction, found to be a Wikipedia-style compilation and not used), Darío's own autobiography (self-report in any case). EXCLUSIONS: politics and diplomacy, all private life, health and death, Masonic membership, the later Catholic turn and any claim of 'father' or 'first' beyond the sources' own wording (Gale and poets.org say 'considered' or 'often considered'). SELF-CALIBRATION (agent): top-risk rows reviewed: creative_originality (74/0.55 lowered to 70/0.50: retrospective praise with an adversarial contemporary voice), aesthetic_sensitivity (68/0.50 lowered to 64/0.45: indirect inference from the style of the work), conflict_tolerance (58/0.42, kept: documented by quotation in a scholarly article, and already low). No broad scoring problem flagged; the profile has no first-hand working-practice source beyond EBSCO's summary. MAJOR ACHIEVEMENT SELF-GATE: first-pass PASS on primary, top omission, identity, significance-over-novelty and side-project; nothing corrected. Card 1 states Azul, Prosas profanas and the modernista movement, card 2 Cantos de vida y esperanza and his influence on later poets, card 3 his journalism and the essays of Los raros; diplomacy is not shown. HANDBACK66: {\"slug\": \"ruben-dario\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"PARTLY VERIFIED: Internet Archive metadata for poemasdar00dar read (Buenos Aires, 1920); the plate was not inspected\", \"holder_record_checked_by_you\": \"Internet Archive metadata for poemasdar00dar (Poemas, Buenos Aires 1920, Toronto copy): no rights statement; the plate is an uncaptioned halftone with no photographer (rejected). Final image: Los raros (Barcelona: Maucci, 1905) scan from the Academia Argentina de Letras via Wikimedia Argentina: Commons file page and AAL partnership template, and Wikidata item Q31212842 (copyright status public domain); the Academia's own catalogue record was not opened and the imprint page is unreadable in the extracted PDF, so holder verification is partial; no restriction found.\", \"holder_contradiction_found\": false, \"initial_lead\": \"plate in Poemas (Buenos Aires, 1920) via Internet Archive\", \"final_portrait_source\": \"Frontispiece portrait of Los raros (2nd ed., Barcelona: Maucci, 1905), Academia Argentina de Letras scan on Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Los_raros_-_Ruben_Dario_-_2aed_-_1905.pdf), page 4, cropped and downscaled to 770x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 5, \"self_calibrated_rows\": [{\"attribute\": \"creative_originality\", \"old_score\": 74, \"old_confidence\": 0.55, \"new_score\": 70, \"new_confidence\": 0.5, \"reason\": \"Retrospective praise with an adversarial contemporary voice (Clarin) and no description of his methods\"}, {\"attribute\": \"aesthetic_sensitivity\", \"old_score\": 68, \"old_confidence\": 0.5, \"new_score\": 64, \"new_confidence\": 0.45, \"reason\": \"Indirect inference from the style of the work; one detailed source\"}], \"reviewed_kept\": [\"conflict_tolerance\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 5, \"image_inscription_check\": \"Printed caption below the picture 'Rubén Darío'; lower left an artist's signature read as 'P. Russ' (partly illegible); lower right 'F.s.c.'\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}

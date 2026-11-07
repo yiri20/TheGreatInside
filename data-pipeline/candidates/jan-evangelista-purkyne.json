@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jan-evangelista-purkyne",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jan Evangelista Purkyně",
+    "aliases": [
+      "Purkyně",
+      "Jan Purkyně",
+      "Jan Evangelista Purkinje",
+      "Johann Evangelist Purkinje",
+      "Purkinje"
+    ],
+    "wikidataId": "Q159542",
+    "birthYear": 1787,
+    "deathYear": 1869,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "CZ"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "biologist",
+      "anatomist"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical",
+      "educational"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "prolific"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_purkyne_wikidata",
+      "kind": "wikidata",
+      "title": "Jan Evangelista Purkyně (Q159542), verified live via the Wikidata API (2026-11-06): label 'Jan Evangelista Purkyně', description 'Czech biologist, physiologist, doctor, inventor and politician (1787-1869)', born 17 December 1787, died 28 July 1869, Korean label 얀 에반겔리스타 푸르키녜. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q159542"
+    },
+    {
+      "id": "src_purkyne_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Jan Evangelista Purkinje' (public-web article read in full, about 500 words; the page also carries machine-generated summaries that were ignored). CANONICAL SIGNIFICANCE SOURCE: pioneer experimental physiologist whose work in histology, embryology and pharmacology helped create the modern understanding of the eye and vision, brain and heart function and cells; the Purkinje effect, the Breslau department (1839) and Physiological Institute (1842), Purkinje cells (1837) and fibres (1839), the term protoplasm, his self-testing of drugs, and a list of techniques Britannica says he was first to use.",
+      "url": "https://www.britannica.com/biography/Jan-Evangelista-Purkinje"
+    },
+    {
+      "id": "src_purkyne_magner",
+      "kind": "biography",
+      "title": "Lois N. Magner, 'Jan Evangelista Purkinje', Science and Its Times (Gale), reproduced on Encyclopedia.com (entry read in full, about 700 words). Independent reference account with a cautious tone on priority: his vision thesis of 1818-19, Goethe's interest, the Breslau chair of 1823 and his home laboratory 'cradle of histology' when the university would not provide space and equipment, the term protoplasm, a knife that was a precursor of the microtome (while the same entry's opening says he invented the microtome) and the observation that others are generally credited with early discoveries about the nucleus and cell division.",
+      "url": "https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/jan-evangelista-purkinje"
+    },
+    {
+      "id": "src_purkyne_ellis",
+      "kind": "biography",
+      "title": "Harold Ellis, 'Johann Purkinje: pioneering Czech histologist and physiologist', British Journal of Hospital Medicine, July 2019 (anniversary article by a surgeon-anatomist read in full, about 900 words). His inaugural lecture on the physician's task, the vertigo studies on amusement-park rides using himself as the experimental subject, the flood of publications from his department, the microtome, his self-experiments with drugs, and two limits: he never wrote a comprehensive textbook and, publishing in provincial journals, was less known in the west than he deserved.",
+      "url": "https://doi.org/10.12968/hmed.2019.80.7.415"
+    },
+    {
+      "id": "src_purkyne_mazurak",
+      "kind": "biography",
+      "title": "Magdalena Mazurak and Jacek Kusa, 'Jan Evangelista Purkinje: A Passion for Discovery', Texas Heart Institute Journal 45(1), 2018 (open-access biography by two Wroclaw cardiologists read in full, about 2,000 words). Dated life account: his education, the nine-year wait for a microscope at Breslau, the self-tests of digitalis and atropine, the fingerprint classification, the move of his work from his home to the institute, his translation and cultural work, and the later Prague institute and journals.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5832080/"
+    },
+    {
+      "id": "src_purkyne_wellcome",
+      "kind": "institution",
+      "title": "Wellcome Collection, 'Portrait of Jan Evangelista Purkyne (1787-1869), Peter Maixner' (work wr3arg9q; catalogue record and IIIF image record read, item-level licence stated). Holder record for the portrait: glass-plate photograph of a reproduction of an oil painting by Peter Maixner published in The Scientific Monthly.",
+      "url": "https://wellcomecollection.org/works/wr3arg9q"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_purkyne_ellis, src_purkyne_mazurak, src_purkyne_britannica | 1819-1829 | surgeon-anatomist's anniversary article + cardiologists' open-access biography + general encyclopedia] Documented self-experimentation: his vertigo studies were carried out on swings and roundabouts in a public amusement park using himself as the experimental model (Ellis); he tested digitalis, atropine, camphor, nutmeg and turpentine on himself to show that prescribed doses were too small (Mazurak) and believed a healthy subject gave better results than animals or sick patients (Ellis); Britannica records his 1829 descriptions of the effects of camphor, opium, belladonna and turpentine on humans. Three sources agree on specific methods and substances. All are commemorative accounts, which keeps confidence below the top band. RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.66 to 74 / 0.58 because the self-experiment account rests on one review article (Ellis)."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_purkyne_ellis, src_purkyne_magner, src_purkyne_mazurak | 1820-1839 | anniversary article + reference account + open-access biography] He ran his vertigo studies at minimal expense in an amusement park (Ellis); at Breslau, when university officials would not meet his demands for space and equipment, he carried out much of his research and teaching in his own home laboratory, which became known as the cradle of histology (Magner); his request for a new microscope was refused and he waited nine years for the achromatic instrument (Mazurak). A pattern of finding a way round missing resources, inferred from several documented episodes."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_purkyne_britannica, src_purkyne_mazurak, src_purkyne_magner, src_purkyne_ellis | 1839-1853 | general encyclopedia + open-access biography + reference account + anniversary article] Documented institution-building: Britannica records that he created an independent department of physiology at Breslau in 1839 and a Physiological Institute in 1842; Mazurak records that he moved his experiments, classes and animal breeding from his home to the institute and obtained funds for modern equipment and that he opened a second institute of physiology in Prague on 6 October 1851; Magner says he founded histological research institutes at Breslau and Prague; Ellis adds that in Prague he founded the first Czech medical journal and a society for Czech physicians. Four sources agree on concrete acts; where they differ on exact titles and 'first' claims the profile uses none of them. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 72 / 0.62 to 68 / 0.56 because the institution-building account is reference-work summary and one journal article."
+    },
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_purkyne_mazurak, src_purkyne_britannica, src_purkyne_magner | 1818-1845 | open-access biography + general encyclopedia + reference account] Documented range of investigations that were self-started rather than assigned: subjective vision and the Purkinje effect, the images reflected in the eye, vertigo and balance, hearing and speech, the physiology of sleep and wakefulness, nine fingerprint patterns, ciliary motion, embryos, the nerve cells of the cerebellum and the fibres of the heart, and drug effects (Mazurak, Britannica, Magner). Many separate subjects across two decades support a strong pattern; the trait itself is inferred from the breadth, not stated by a source. RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 76 / 0.62 to 72 / 0.56 because a list of investigations drawn from three retrospective reference sources."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_purkyne_britannica, src_purkyne_mazurak, src_purkyne_ellis | 1819-1853 | general encyclopedia + open-access biography + anniversary article] Britannica places his work across histology, embryology and pharmacology and names vision, brain, heart and reproduction; Mazurak documents the fingerprint classification, acoustics and phonetics, and his translations of Goethe and Schiller into Czech and of poems and novels into Polish and Czech; Ellis records his founding of a Czech medical journal. Range spans several sciences and literary translation; the scientific range is better documented than the cultural activity. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 72 / 0.6 to 68 / 0.54 because breadth asserted by Britannica and a medical-history article, with no independent assessment."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_purkyne_mazurak, src_purkyne_magner, src_purkyne_ellis | 1823-1869 | open-access biography + reference account + anniversary article] After arriving at Breslau in 1823 he waited nine years for his microscope and worked in a home laboratory for lack of university space (Mazurak, Magner), yet a flood of publications came from his department (Ellis) and he kept directing research at his Prague institute until his death at 81 (Magner). A long record of continuing despite poor institutional support, inferred from several documented moves; none of the sources describes the trait directly."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_purkyne_britannica, src_purkyne_magner, src_purkyne_ellis | 1819-1839 | general encyclopedia + reference account + anniversary article] His 1818-19 thesis on subjective vision drew considerable attention (Magner); Britannica lists methods it says he was the first to use in preparing tissue and credits several discoveries to him, Ellis says he introduced the microtome, and Magner records his introduction of the term protoplasm and his adaptation of daguerreotype methods to photograph microscopic preparations. SELF-CALIBRATION (agent): lowered from 70 / 0.55 to 66 / 0.5 because the same reference set disagrees about priority (Magner says others are generally credited with early cell discoveries and gives both 'invented the microtome' and 'a knife that was a precursor'), so the originality claim is stronger than the documented behaviour."
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead-robust) (lead) / REPLACED the lead image. The lead image was the Rudolph Hoffmann 1856 print (Library of Congress cph 3c33404); loc.gov is anti-bot walled, so the holder record could not be read. Commons search returned a file named as a Hoffmann 1856 print by J. Haller after a photograph by Bertsch and Arnaud (Paris), so the lead is a print after a photograph, not the photograph itself; with the holder record unreadable the route was not accepted as strong. A second Wellcome item, a photograph of Purkyne with a skull (work tzv22ux8, item-level Public Domain Mark), was also rejected: the record gives no photographer, date or lettering, so it rests on a generic tag. Replacement: Wellcome Collection work wr3arg9q, a 1948 glass-plate photograph of the page of The Scientific Monthly that reproduces an oil painting of Purkyne by Peter Maixner (Petr Maixner, 1831-1884, Wikidata Q11995493, so the painting is public domain by age); the Wellcome IIIF record states licence CC BY at item level (credit Wellcome Collection). The date of the painting and its present location are not stated in the holder record, and the 1948 halftone adds no rights of its own to a painting that is out of copyright. IMAGE CHECKED BY EYE: printed caption under the oval reads 'PURKINJE / Oil Painting by Peter Maixner'; sitter identified by that caption and the catalogue, no contradiction. Kind historical_depiction (a painting reproduced decades after the sitter's death, no documented sitting). The 2998 x 3660 scan was cropped to the oval and caption (removing blank margin) and downscaled once to 966 x 1200; nothing upscaled. Next step if a better image is wanted: open the Library of Congress item through a route that is not walled and check the creator and publication date of the Hoffmann print. PREFLIGHT: QID VERIFIED LIVE (2026-11-06) Q159542 label 'Jan Evangelista Purkyně', description 'Czech biologist, physiologist, doctor, inventor and politician (1787-1869)', born 17 December 1787, died 28 July 1869, Korean label 얀 에반겔리스타 푸르키녜 (Wikidata Korean label, used as the Korean display name; a shorter 푸르키녜 also exists); no collision in the 762-person production list or the 937 existing candidate files. REGION central_europe (born in Bohemia, careers in Breslau and Prague; Czech precedent). ERA 19th_century. ZERO POLITICS: his membership of the Bohemian Diet, the Slavic Congress and his Czech-national cultural activity are context only and not scored; the translation work is used only inside the cross-domain range row. No private-life or bereavement inference: the deaths of his wife and daughters are not used for any row. VOCABULARY: occupations physician, biologist, anatomist; fields medicine, biology; tags field_researcher, prolific; archetype scientific_explorer (all present with EN and KO labels; 'physiologist', 'histologist' and 'professor' have no labels and were not used). IMPACT DOMAINS scientific, medical, educational. ATTRIBUTION CONFIRMED: dated experiments, institutes and publications documented by four sources. CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica, 'Jan Evangelista Purkinje', https://www.britannica.com/biography/Jan-Evangelista-Purkinje. READ (substantively, 4 sources besides Wikidata and the portrait holder): Britannica, Magner in Science and Its Times (Encyclopedia.com), Ellis in the British Journal of Hospital Medicine (2019), Mazurak and Kusa in the Texas Heart Institute Journal (2018). PERSPECTIVES: general encyclopedia, reference encyclopedia with priority caution, surgeon-anatomist anniversary article, cardiologists' biography. COUNTER-VOICES: Magner's caution on priority and her internal inconsistency on the microtome; Ellis on his lack of a textbook and limited reach; Britannica and Ellis give 'first' claims that Magner does not support, so none is used. DATE DISCREPANCY: Britannica and Mazurak date the description of the cardiac fibres to 1839, Ellis to 1845; the profile gives no exact date. NOT OPENED: the Embryo Project biography (guessed URL gave 404), the Circulation historical review, Czech-language sources, Purkyne's own writings; the Library of Congress record (walled). EXCLUSIONS: politics, the bereavement, the fingerprint-priority claim. Self-report: none used. HANDBACK66: {\"slug\":\"jan-evangelista-purkyne\",\"attribution_screen_result\":\"attributable\",\"attribution_confirmed\":true,\"portrait_preflight_grade\":\"PLAUSIBLE (lead-robust)\",\"holder_record_at_preflight\":\"NOT VERIFIED: Library of Congress cph 3c33404 (Rudolph Hoffmann 1856) cited; loc.gov walled\",\"holder_record_checked_by_you\":\"loc.gov still walled (not read); Commons search shows the Hoffmann 1856 file is a print by J. Haller after a Bertsch and Arnaud photograph. For the replacement opened the Wellcome catalogue API record wr3arg9q and IIIF image record M0010867: item-level licence CC BY, credit Wellcome Collection, 1948 glass-plate reproduction of a Peter Maixner oil painting; also opened Wellcome tzv22ux8 (Public Domain Mark but no photographer or date; rejected)\",\"holder_contradiction_found\":false,\"initial_lead\":\"Rudolph Hoffmann 1856 photograph (LoC)\",\"final_portrait_source\":\"Wellcome Collection wr3arg9q, glass-plate photograph of a reproduction of an oil painting of Purkyne by Peter Maixner (1831-1884), licence CC BY, image 2998x3660 cropped and downscaled to 966x1200; https://wellcomecollection.org/works/wr3arg9q\",\"portrait_lead_or_replacement\":\"replacement\",\"portrait_final_status\":\"found\",\"preflight_overestimate_reason\":null,\"risky_success_note\":null,\"rows_initially_scored\":7,\"self_calibrated_rows\":[{\"attribute\":\"creative_originality\",\"old_score\":70,\"old_confidence\":0.55,\"new_score\":66,\"new_confidence\":0.5,\"reason\":\"The reference set disagrees about priority and the microtome, so the originality claim is stronger than the documented behaviour\"}],\"reviewed_kept\":[\"experimentation\",\"proactive_agency\"],\"major_achievement_gate\":{\"primary_failure\":false,\"top_omission_failure\":false,\"identity_failure\":false,\"significance_over_novelty_failure\":false,\"side_project_failure\":false},\"corrected\":\"none\",\"final_research_status\":\"evidence_approved\",\"final_row_count\":7,\"image_inscription_check\":\"Printed caption under the oval portrait reads 'PURKINJE / Oil Painting by Peter Maixner'; no other lettering\",\"image_identity_matches_claimed_sitter\":true,\"inscription_contradiction_found\":false} RUBRIC_CORRECTION (lead review, before eligibility): experimentation lowered from 78 / 0.66 to 74 / 0.58 because the self-experiment account rests on one review article (Ellis). RUBRIC_CORRECTION (lead review, before eligibility): curiosity lowered from 76 / 0.62 to 72 / 0.56 because a list of investigations drawn from three retrospective reference sources. RUBRIC_CORRECTION (lead review, before eligibility): proactive_agency lowered from 72 / 0.62 to 68 / 0.56 because the institution-building account is reference-work summary and one journal article. RUBRIC_CORRECTION (lead review, before eligibility): cross_domain_range lowered from 72 / 0.6 to 68 / 0.54 because breadth asserted by Britannica and a medical-history article, with no independent assessment."
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "얀 에반겔리스타 푸르키녜"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jan-evangelista-purkyne-maixner.jpg",
+    "width": 966,
+    "height": 1200,
+    "source": "Oil painting of Jan Evangelista Purkyne by Peter Maixner (1831-1884), as reproduced in The Scientific Monthly and photographed on a glass-plate negative in 1948; printed caption 'Purkinje, Oil Painting by Peter Maixner'. Wellcome Collection, London (work wr3arg9q). The museum scan (2998 x 3660 pixels) was cropped to the oval and caption and downscaled once to 966 x 1200 pixels; nothing was upscaled. Shown as a later painting depiction, not as a documented sitting; the painting's date and present location are not given by the holder.",
+    "license": "CC BY 4.0 as stated by Wellcome Collection for the photograph; the underlying painting is public domain by age (painter died 1884)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Peter Maixner, portrait of Jan Evangelista Purkyne, oil painting, reproduced in The Scientific Monthly (1948); Wellcome Collection, London (work wr3arg9q), CC BY",
+    "attributionUrl": "https://wellcomecollection.org/works/wr3arg9q",
+    "creator": "Peter (Petr) Maixner",
+    "date": "undated painting (painter died 1884); reproduction 1948",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://wellcomecollection.org/works/wr3arg9q"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "zhan-tianyou",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Zhan Tianyou",
+    "aliases": [
+      "Jeme Tien Yow",
+      "Jeme Tien-yow",
+      "Tien Yow Jeme",
+      "詹天佑"
+    ],
+    "wikidataId": "Q1397430",
+    "birthYear": 1861,
+    "deathYear": 1919,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer"
+    ],
+    "fieldIds": [
+      "engineering"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological"
+    ],
+    "tagIds": [
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_zhan_wikidata",
+      "kind": "wikidata",
+      "title": "Zhan Tianyou (Q1397430), verified live via the Wikidata API (2026-11-06): description 'Chinese railroad engineer (1861-1919)', Korean label 첨천우 (also the Korean Wikipedia title), born 26 April 1861, died 24 April 1919. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1397430"
+    },
+    {
+      "id": "src_zhan_pdweekly",
+      "kind": "press",
+      "title": "People's Daily Weekly (Renmin Zhoukan), Zhang Ziqi and Shi Wenyi, 13 October 2017, article on the Beijing-Zhangjiakou railway and Zhan Tianyou (read via a page summary, Chinese original). CANONICAL SIGNIFICANCE SOURCE (with the transportation-history page below): railway built from 1905 as the first Chinese-designed, built and operated line, about 201 km with the 1,092 m Badaling tunnel, finished two years early with about 350,000 taels saved against the budget, Zhan's Yale training (1878-81), work on more than ten lines and his 1888 start on the Tangshan-Tianjin line; it also corrects the popular claim that he 'designed' the switchback (he adopted a layout first used in South America and the United States, said himself that a spiral loop was better, and chose the zigzag for cost and schedule reasons) and credits Yuan Shikai's backing, which it says was later downplayed. State-media history piece, critical of myth-making.",
+      "url": "https://paper.people.com.cn/rmzk/html/2017-10/13/content_1810612.htm"
+    },
+    {
+      "id": "src_zhan_duan",
+      "kind": "biography",
+      "title": "Duan Hailong, 'Extracting the Spirit of Engineers from the History of Beijing-Zhangjiakou Railway Engineering', Engineering Studies (Gongcheng Yanjiu), vol. 17, no. 5, 2025, pp. 604-613 (read via a page summary of the Chinese abstract and text). Scholarly study of the engineers on the line: surveys of 4-7 August 1905, the choice of the Qinglongqiao route among several candidates, the Juyongguan tunnel added after Zhan found the grade too steep (his letter of 16 February 1907), court deadlines and limited funds that ruled out the more ambitious Fengtai-Shacheng alignment, and his later letters of 15 September 1909 and 6 May 1910 conceding the zigzag was not the best engineering solution and favouring spiral loops. Relies partly on Zhan's own letters, so those points are self-report relayed by a historian.",
+      "url": "https://cjournal.hep.com.cn/1674-4969/CN/10.3724/j.issn.1674-4969.20240053"
+    },
+    {
+      "id": "src_zhan_sciam",
+      "kind": "press",
+      "title": "F. C. Coleman, 'The Peking-Kalgan Railway: The First Railway Financed, Engineered and Built Solely by Chinese', Scientific American, 4 November 1911, vol. 105, no. 19, p. 409 (read via a page summary). Contemporary Western account: five surveys before a route was chosen, a quoted remark of Zhan that early curves could 'break the back of a snake', a zigzag near the summit tunnel, four tunnels, the Great Wall summit tunnel, low earthwork costs credited to hiring Chinese staff directly and buying locally, and the line operating at a profit; the piece is openly advocacy for Chinese control of railway loans, gives no total cost per mile, and itself notes imported English bridge spans, Glasgow locomotives and Japanese sleepers, which qualifies its 'no foreigner' claim. Says Yale graduation 1883, which conflicts with the Yale record (1881).",
+      "url": "https://www.scientificamerican.com/article/the-peking-kalgan-railway/"
+    },
+    {
+      "id": "src_zhan_xinhua",
+      "kind": "press",
+      "title": "Xinhua News Agency, 'Listening to the story of Zhan Tianyou to grasp the spirit of scientists' (25 September 2025; read via a page summary). Report of a school lecture by a CRRC Nankou engineer: the zigzag layout, vertical-shaft tunnelling, the 1909 opening, his founding of the Chinese Engineering Society and his essay urging young engineers to develop study and moral character together. Official press report of a lecture with no cited primary sources; quotations are unsourced and it is used only for the society and the construction methods named.",
+      "url": "https://www.news.cn/sci-tech/20250925/1fb423a3f0d441abad660ee6cc15f889/c.html"
+    },
+    {
+      "id": "src_zhan_transporthistory",
+      "kind": "press",
+      "title": "Transportation History blog (AASHTO-affiliated), 'Today in Transportation History - 1919: A Chinese Railroad Pioneer' (24 April 2017; read via a page summary). Chinese Educational Mission to New Haven and Yale's Sheffield Scientific School (graduated 1881), the Kaiping Railway from intern to district engineer, a 23-mile line finished within budget in 1902, chief engineer of the Peking-Kalgan line from 1905 built without foreign assistance or capital, under budget and two years early, member of the American Society of Civil Engineers and founding member of the Chinese Institute of Engineers. Unsigned blog post; its death year and age are internally inconsistent.",
+      "url": "https://transportationhistory.org/2017/04/24/today-in-transportation-history-1917-a-chinese-railroad-pioneer"
+    },
+    {
+      "id": "src_zhan_chinadaily",
+      "kind": "press",
+      "title": "China Daily, 'Following trailblazer's path' (1 October 2022; read via a page summary). Short feature: Zhan as chief designer of the roughly 200 km line opened in 1909, called the first Chinese railway designed and built without foreign assistance and the Father of China's Railways, buried with his wife at Qinglongqiao station. Brief state-media feature; used only to confirm the headline significance.",
+      "url": "https://global.chinadaily.com.cn/a/202210/01/WS63379b25a310fd2b29e7abd0.html"
+    },
+    {
+      "id": "src_zhan_yale",
+      "kind": "institution",
+      "title": "Yale University Library, Digital Collections record 'Jeme Tien Yow (Zhan Tianyou), Sheffield Scientific School class of 1881' (object 10016365; IIIF manifest and OAI MODS record read; MacMillan Center page on the Chinese Educational Mission read for context). Class-album photograph by the Notman Photographic Co., Albany, circa 1881, Manuscripts and Archives call number Yb72 +881b; rights fields 'No known restrictions' and 'Copyright public domain'. The MacMillan Center page calls him the father of China's railroads among the mission's Yale alumni. Portrait source record for the image used.",
+      "url": "https://collections.library.yale.edu/catalog/10016365"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zhan_duan, src_zhan_sciam, src_zhan_pdweekly | 1905-1907 | scholarly study, a contemporary magazine, a state-media history] Surveys of the Guangou pass in August 1905 compared several candidate lines before the Qinglongqiao route was chosen, five surveys are reported by the contemporary piece, and he added the Juyongguan tunnel when he found the grade too steep. The routing decisions are documented by a historian working from his letters and by an independent 1911 magazine; the magazine is advocacy and the historian relies partly on Zhan's own letters. SELF-CALIBRATION (agent): top-risk row, lowered from 70/0.55 because the survey count comes from an advocacy article and the historian's detail on his reasoning is drawn largely from his own letters."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zhan_pdweekly, src_zhan_transporthistory, src_zhan_sciam | 1902-1909 | state-media history, a transport-history blog, a contemporary magazine] Reported as delivering the Peking-Kalgan line about two years ahead of schedule and about 350,000 taels under budget, after finishing a short 1902 line within budget; the 1911 article credits direct hiring and local purchasing for low costs. Outcome figures repeat across derivative sources, and the People's Daily article credits funding and diplomatic arrangements by others for the project's success, so confidence is moderate. SELF-CALIBRATION (agent): top-risk row, lowered from 66/0.52 because the schedule and budget figures are repeated outcome claims in derivative sources and the success is partly attributed to others' backing."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zhan_duan, src_zhan_pdweekly | 1905-1907 | scholarly study, state-media history] Under court deadlines and limited funds he adopted a zigzag layout in the Guangou section rather than the more ambitious Fengtai-Shacheng alignment he had also surveyed, and revised the plan with a Juyongguan tunnel when the grade proved too steep. Two sources agree that the choice was a practical compromise; both rely partly on his own letters."
+    },
+    "belief_updating": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zhan_duan, src_zhan_pdweekly | 1909-1910 | scholarly study, state-media history] After completion he wrote (letters of September 1909 and May 1910) that the zigzag was not the best engineering solution, limited capacity and carried accident risk, and that spiral loops should be preferred where possible. The same admission is reported by two sources, but all of it is self-report relayed second-hand and is a single stance rather than a repeated pattern, so confidence is low."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/zhan-tianyou-notman-1881.jpg",
+    "width": 992,
+    "height": 1200,
+    "source": "Studio portrait photograph of Jeme Tien Yow (Zhan Tianyou), Sheffield Scientific School class of 1881, by the Notman Photographic Co., Albany, New York, circa 1881, in a class album, Yale University Library Manuscripts and Archives (call number Yb72 +881b, object 10016365). The 2575 x 3923 pixel scan was cropped to the sitter's head and torso (mount and studio imprint removed) and downscaled to 992 x 1200 with no upscaling.",
+    "license": "Public domain: circa 1881 US studio photograph (public domain by age); Yale University Library record states 'Copyright public domain' and 'No known restrictions'",
+    "licenseUrl": "https://collections.library.yale.edu/catalog/10016365",
+    "attribution": "The Notman Photographic Co., Albany, NY, circa 1881, Yale University Library Manuscripts and Archives, public domain",
+    "attributionUrl": "https://collections.library.yale.edu/catalog/10016365",
+    "creator": "The Notman Photographic Co., Ltd., Albany, NY (studio)",
+    "date": "circa 1881",
+    "kind": "likeness",
+    "sourcePageUrl": "https://collections.library.yale.edu/catalog/10016365"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "첨천우"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-06T00:00:00Z",
+    "updatedAt": "2026-11-06T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (alt-dependent) (lead) / REPLACEMENT USED, STRONGER THAN THE LEAD. The lead's route (a photograph extracted from an electronic copy of 'Jing-Zhang lugong cuoying' via shuge.org, holder and date unconfirmed) and the uploader-sourced 1918 photograph were not used. REPLACEMENT: Yale University Library Manuscripts and Archives class-album photograph 'Jeme Tien Yow (Zhan Tianyou), Sheffield Scientific School class of 1881', by the Notman Photographic Co., Albany, NY, circa 1881 (call number Yb72 +881b, edition [17]; object 10016365). Holder records read: the IIIF manifest metadata gives Access 'Public' and Rights 'No known restrictions', and the OAI MODS record adds 'Copyright public domain'; the image service reports 2575 x 3923 pixels. Rights reasoning (not relying on the holder's generic wording alone): a commercial studio photograph made circa 1881 in the United States is public domain in the United States by age (published before 1931 or, if never published, an anonymous corporate work whose 120-year term from creation ended in 2001); no photographer is named beyond the studio. I did not check Commons for this image. IMAGE CHECK: I looked at the full scan. It is a cabinet-card portrait of a young man in a tweed jacket; the only lettering is the studio imprint 'THE NOTMAN PHOTOGRAPHIC CO. LIMITED - ALBANY, N.Y.' on the mount; no sitter name is printed on the card, so identification rests on the Yale catalogue record and the class album; I did not compare the face with later photographs (he is about 20 here). KIND: likeness (a studio photograph of the sitter). Cropped to the head and torso (a 2150 x 2600 pixel region) and downscaled to 992 x 1200, never upscaled; the mount and imprint were cropped out. PREFLIGHT: QID VERIFIED LIVE (2026-11-06, Wikidata API) Q1397430, label Zhan Tianyou, description 'Chinese railroad engineer (1861-1919)', Korean label 첨천우, born 26 April 1861, died 24 April 1919; not in prod66.json (grep of name, 'Zhan', 'Jeme' and the QID found nothing); no existing candidate file. REGION east_asia (born in Nanhai, Guangdong; career in Qing and Republican China). ERA 20th_century (his defining work, the Peking-Kalgan line, was built 1905-09 and he died in 1919; the repo has 19th_century precedents for people of his birth era, so this is a judgment call). ZERO POLITICS: portfolio railway engineering; his 1919 role representing China at an international railway conference and the political backing of Yuan Shikai are context only and are not scored; the Qing court's and Yuan Shikai's roles in funding are noted only as limits on crediting him alone. No private-life inference. VOCABULARY: occupation engineer, field engineering, impact domains engineering and technological, tag systematic_thinker, archetype technical_innovator (Telford precedent); all present in en.ts and ko.ts. KO NAME: 첨천우, the Wikidata Korean label and the title of the Korean Wikipedia article. RESEARCH: read through page summaries (WebFetch extraction, not whole pages): People's Daily Weekly 2017 article, Duan Hailong 2025 journal article, Scientific American 1911, Xinhua 2025, the Transportation History blog, China Daily 2022, and the Yale record. PERSPECTIVES: modern Chinese state-media history (self-critical about myths), a contemporary Western magazine (advocacy but with detail that qualifies the 'no foreigners' claim), a scholarly engineering-history study, a US transport-history blog, and the Yale holder record. Non-self behavioural sources: Scientific American, the People's Daily article and Duan (partly relying on his letters). NOT OPENED: the 1919 American Society of Civil Engineers memoir, the Yale Obituary Record, the Shanghai Daily profile (login redirect), the sciengine paper on the Chinese Engineering Society (PDF text not extractable), North-China Herald reports, Grace's Guide on the Luan River bridge (certificate error), Chinese-language biographies; Wikipedia not used. EXCLUSIONS: the Luan River bridge caisson episode and the 'first Chinese member of the Institution of Civil Engineers' claim reached me only through a search summary and a low-reliability travel page, so neither is scored or carded; the Yale graduation year differs (1881 Yale record vs 1883 Scientific American vs 1887 elsewhere) and 1881 is used; the society he founded is named differently (Chinese Engineering Society in Xinhua, Chinese Institute of Engineers in the blog), so no society claim is scored. FIRST-PASS REVIEW: primary PASS, topOmission PASS, identity PASS, significanceOverNovelty PASS, sideProject PASS; nothing corrected. SELF-CALIBRATION: reviewed analytical_rigor (70/0.55 -> 66/0.50) and planning_orientation (66/0.52 -> 62/0.46), both lowered; belief_updating reviewed and kept (already 56/0.38). Flag for lead: all text sources were read through summaries, the evidence base is four rows from five narrow sources (one an advocacy piece, two state media), and no Yale-era or personal source was found, so the profile is sparse and moderate by design. HANDBACK66: {\"slug\": \"zhan-tianyou\", \"attribution_screen_result\": \"attributable\", \"attribution_confirmed\": true, \"portrait_preflight_grade\": \"PLAUSIBLE (alt-dependent)\", \"holder_record_at_preflight\": \"NOT VERIFIED: image extracted from an electronic copy of 'Jing-Zhang lugong cuoying' held by the National Library of China, via shuge.org\", \"holder_record_checked_by_you\": \"Lead image not opened (holder and publication date unconfirmed; shuge.org copy). Replacement holder record opened: Yale University Library Digital Collections object 10016365 (IIIF manifest and OAI MODS): Notman Photographic Co., Albany NY, circa 1881, Manuscripts and Archives Yb72 +881b, Access 'Public', Rights 'No known restrictions', and MODS 'Copyright public domain'; image service 2575x3923.\", \"holder_contradiction_found\": false, \"initial_lead\": \"photograph from Jing-Zhang lugong cuoying (Shanghai Tongsheng studio), c.1905-1909\", \"final_portrait_source\": \"Yale University Library, Manuscripts and Archives, class-album photograph by the Notman Photographic Co., Albany NY, circa 1881, object 10016365 (https://collections.library.yale.edu/catalog/10016365); 2575x3923 scan cropped to the sitter and downscaled to 992x1200\", \"portrait_lead_or_replacement\": \"replacement\", \"portrait_final_status\": \"found\", \"preflight_overestimate_reason\": null, \"risky_success_note\": null, \"rows_initially_scored\": 4, \"self_calibrated_rows\": [{\"attribute\": \"analytical_rigor\", \"old_score\": 70, \"old_confidence\": 0.55, \"new_score\": 66, \"new_confidence\": 0.5, \"reason\": \"Survey count comes from an advocacy article and the reasoning detail is drawn largely from his own letters\"}, {\"attribute\": \"planning_orientation\", \"old_score\": 66, \"old_confidence\": 0.52, \"new_score\": 62, \"new_confidence\": 0.46, \"reason\": \"Schedule and budget figures are repeated outcome claims in derivative sources and success is partly attributed to others' backing\"}], \"reviewed_kept\": [\"belief_updating\"], \"major_achievement_gate\": {\"primary_failure\": false, \"top_omission_failure\": false, \"identity_failure\": false, \"significance_over_novelty_failure\": false, \"side_project_failure\": false}, \"corrected\": \"none\", \"final_research_status\": \"evidence_approved\", \"final_row_count\": 4, \"image_inscription_check\": \"Only the studio imprint on the mount, 'THE NOTMAN PHOTOGRAPHIC CO. LIMITED - ALBANY, N.Y.' (cropped out of the portrait); no sitter name printed; identification rests on the Yale catalogue record and class album, and the sitter was not compared with later photographs\", \"image_identity_matches_claimed_sitter\": true, \"inscription_contradiction_found\": false}"
+  }
+}
