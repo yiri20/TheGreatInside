@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maria-orosa",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Maria Orosa",
+    "aliases": [
+      "Maria Ylagan Orosa",
+      "Maria Y. Orosa",
+      "María Orosa"
+    ],
+    "wikidataId": "Q11209031",
+    "birthYear": 1893,
+    "deathYear": 1945,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "PH"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "scientist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "agriculture",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "social",
+      "educational"
+    ],
+    "tagIds": [
+      "innovator",
+      "grassroots_organizer"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_orosa_wikidata",
+      "kind": "wikidata",
+      "title": "Maria Orosa (Q11209031), verified live via the Wikidata API (2026-11-13): English label 'Maria Orosa', description 'Filipino chemist (1893-1945)', instance of human, born 1893-11-29, died 1945-02-13, citizenship Philippines; no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q11209031"
+    },
+    {
+      "id": "src_orosa_nhi",
+      "kind": "institution",
+      "title": "National Historical Institute (Philippines), 'Maria Y. Orosa (1893-1945): Pioneering Food Technologist and Inventor' (two-page government biographical sheet, read in full via the Internet Archive copy of the Institute's own PDF). CANONICAL SIGNIFICANCE SOURCE: government biography built on Ancheta and Beltran-Gonzales (1984) and a 1965 Manila Times article; she taught home economics at Centro Escolar University (1922), joined the Bureau of Science as chemist (1923), helped organize its food preservation division, was sent abroad in 1928 to study food processing and canning, headed the home economics and then food preservation divisions, founded the Homemakers Association of the Philippines (537 member clubs by 1941), made calamansi nip, rice-bran 'darak' cookies and the Orosa palayok oven and is 'credited with' banana ketchup, and a 1983 historical marker was installed in her honour. It gives her birth as 1893, which a later grave marker contradicts (see FlipScience). Official commemorative biography, admiring, with hedged invention credits.",
+      "url": "https://web.archive.org/web/20100704223624/http://www.nhi.gov.ph/downloads/sm0029.pdf"
+    },
+    {
+      "id": "src_orosa_nps",
+      "kind": "institution",
+      "title": "Megan E. Springate for the U.S. National Park Service, 'Maria Ylagan Orosa' (The American Home Front and World War II series; read in full including notes). Independent scholarly overview citing Gingrich, the New York Times obituary, the Orosa family book and news reports: foods and methods from local crops in place of imports, home canning shown at the 1925 Manila Carnival, the 4-H style clubs (22,000 members by 1924) and Home Extension Service, the palayok oven, her return in 1922 after declining a Washington State job, and the 1892 date engraved on the memorial stone found in 2020 against the official 1893 date.",
+      "url": "https://www.nps.gov/articles/000/maria-ylagan-orosa.htm"
+    },
+    {
+      "id": "src_orosa_ladyscience",
+      "kind": "biography",
+      "title": "Jessica Gingrich, 'Maria Ylagan Orosa and the Chemistry of Resistance', Lady Science, 23 July 2020 (history-of-science magazine essay; read in full). Draws on interviews with Orosa relatives and with the historian Catherine Ceniza Choy: the 1925 Manila Carnival exhibit of canned native fruits, her summers in Alaska salmon canneries and work as an assistant in the University of Washington food laboratory, a letter to her mother about job discrimination, the 1927 Division of Food Preservation and her promotion to its head, her use of rice bran and other overlooked crops, her saying that experiments should be finished and written up for others, and the argument that corporate branding has obscured her. Independent in framing but partly built on Orosa family testimony.",
+      "url": "https://www.ladyscience.com/features/maria-ylagan-orosa-chemistry-of-resistance"
+    },
+    {
+      "id": "src_orosa_campbell",
+      "kind": "press",
+      "title": "Olivia Campbell, 'Fighting Colonialism with Food', Beyond Curie newsletter (read in full). Popular biography of her student years, jobs and degrees in Seattle (letters to her mother quoted), the 1925 Manila Carnival exhibit and extra funding that followed, the 4-H style clubs and the 'Orosa Girls' demonstrators, her international tour of food plants, the Homemakers Association, her habit of sharing rather than profiting from her inventions, and her wartime banana ketchup. Secondary, leaning on the Orosa family and the New York Times obituary.",
+      "url": "https://oliviacampbell.substack.com/p/fighting-colonialism-with-food"
+    },
+    {
+      "id": "src_orosa_inquirer",
+      "kind": "press",
+      "title": "Sam Beltran, 'A history of our nation's love affair with banana ketchup', Philippine Daily Inquirer Lifestyle, 26 April 2025 (read in full). COUNTER-VOICE on the best-known credit: calls banana ketchup 'largely credited' to Orosa but reports that the Universal Food Corporation credits its product to Magdalo V. Francisco, who worked on his own version in 1938 and sold it from 1942 as Mafran; so the credit for the invention is contested and the cards state it as a credit, not a settled fact.",
+      "url": "https://lifestyle.inquirer.net/539045/history-banana-ketchup/"
+    },
+    {
+      "id": "src_orosa_flipscience",
+      "kind": "press",
+      "title": "Mikael Angelo Francisco, 'Maria Ylagan Orosa: The Pinay chemist you should thank for banana ketchup (and so much more)', FlipScience, 29 November 2019 (updated 2021; read in full). Short science-news profile giving her return to teach home economics at Centro Escolar University, her work for the Bureau of Science food preservation division, calamansi nip, wines, vinegar and preserved native dishes; its editor's note corrects her birth year to 1892 on the strength of her grave marker and the historical marker at the Bureau of Plant Industry, so the birth year is disputed (1892 or 1893).",
+      "url": "https://flipscience.ph/?p=9263"
+    },
+    {
+      "id": "src_orosa_tyee1919",
+      "kind": "archive",
+      "title": "The Tyee, volume 20 (1919), yearbook of the Associated Students of the University of Washington, Seattle (Internet Archive scan, OCR text read for the relevant pages): lists 'Maria Y. Orosa' among the officers of the Filipino Students' Club as Vice-President. Contemporary non-self record; one line only.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.168575"
+    }
+  ],
+  "rows": {
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_orosa_nhi, src_orosa_nps, src_orosa_ladyscience, src_orosa_campbell | 1922-1941 | government biography, scholarly overview, magazine essay, newsletter] She went home in 1922 after the state of Washington offered her a chemist's post (NPS, Campbell), carried her canning and home-preparation methods into the provinces with food demonstrators and clubs (NHI, NPS, Campbell: 22,000 members by 1924 and 537 Homemakers clubs by 1941), and is quoted by relatives and assistants as saying experiments should be finished and written up for others to use, and she reportedly earned nothing from her recipes (Lady Science, Campbell). Two source families (the official biography and a cluster that rests on Orosa family testimony and the Orosa family book). CONCENTRATION CORRECTION (agent): lowered from 76 / 0.62 because the sharing-not-selling claim and the club figures trace to one family account."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_orosa_nhi, src_orosa_nps, src_orosa_campbell, src_orosa_tyee1919 | 1918-1941 | government biography, scholarly overview, newsletter, yearbook] She helped organize the Bureau of Science food preservation division (1923), organized 4-H style clubs and a Home Extension Service (NPS), founded the Homemakers Association of the Philippines in 1941 (NHI), and was vice-president of the Filipino Students' Club in Seattle in 1919 (the Tyee). SELF-CALIBRATION (agent): lowered from 72 / 0.60 because the club and extension figures rest on one family-derived account, and the official biography says only that she 'helped organize' the division, so her personal initiative there is not separable from the government's."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_orosa_nhi, src_orosa_nps, src_orosa_ladyscience, src_orosa_campbell | 1923-1942 | government biography, scholarly overview, magazine essay, newsletter] Four sources describe her making foods from local crops and by-products: rice bran made into darak flour and cookies, flour from cassava and green bananas, vinegar from pineapple, powdered calamansi, and a palayok-based oven that worked without electricity (Campbell adds sheet metal and aluminium foil as reflectors). Several are repeated product lists rather than independent episodes; no source describes how she worked a problem out. CONCENTRATION CORRECTION (agent): lowered from 74 / 0.60 because the four accounts share the same product list and the banana-ketchup credit is contested (Inquirer)."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_orosa_nhi, src_orosa_nps, src_orosa_campbell | 1916-1921 | government biography, scholarly overview, newsletter] In Seattle she took bachelor's degrees in pharmaceutical chemistry (1917), food chemistry (1918) and pharmacy (1920) and a master's (1921) while working as a household helper, a food-laboratory assistant and in Alaska salmon canneries (NHI, Campbell). A government scholarship eased but did not cover the costs, and the sources describe the jobs, not how she coped. CONCENTRATION CORRECTION (agent): lowered from 64 / 0.50 strong_inference to 62 / 0.46 inference because the evidence is one episode (her student years) told twice, not a pattern across episodes."
+    },
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_orosa_tyee1919, src_orosa_nhi, src_orosa_campbell | 1919-1941 | yearbook, government biography, newsletter] The 1919 yearbook names her vice-president of the Filipino Students' Club; later she headed the Bureau of Science food preservation and home economics divisions and led a team of demonstrators (the 'Orosa Girls') and the Homemakers Association. Division headships are appointments, so the pull toward leading is inferred from her founding and organising roles. SELF-CALIBRATION (agent): lowered from 62 / 0.48 because the only contemporary behavioural record is a single yearbook line."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마리아 오로사"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/maria-orosa-tyee-1921.jpg",
+    "width": 338,
+    "height": 470,
+    "source": "Halftone graduate portrait of Maria Y. Orosa printed on page 309 of The Tyee, volume 22 (1921), the yearbook of the Associated Students of the University of Washington, Seattle, beside the entry 'MARIA Y. OROSA, Philippine Islands, Graduate'. Identity rests on the page layout: eight names listed in a column (Orosa, O'Neill, Ostensen, Ostrander, Orrell, Olson, Osterud, Paine) match the eight oval photographs in the same order, and hers is the first. The file is a crop of that oval from the 600 ppi Internet Archive page image (item in.ernet.dli.2015.168582, a Digital Library of India scan of the University of Washington copy), downscaled from 564 x 783 to 338 x 470 pixels; no upscaling. The yearbook halftone is coarse.",
+    "license": "Public domain by age: published in Seattle in 1921 (more than 95 years ago); the Internet Archive record makes no rights statement and the University of Washington Libraries item record could not be read (script-rendered page)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photographer unknown; The Tyee, vol. 22 (1921), p. 309, Associated Students of the University of Washington, Seattle (Internet Archive scan; cropped and downscaled).",
+    "attributionUrl": "https://archive.org/details/in.ernet.dli.2015.168582",
+    "creator": "Unknown photographer; printed in The Tyee, University of Washington, Seattle",
+    "date": "1921 (published; graduating-class portrait)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/in.ernet.dli.2015.168582"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED. The lead's Commons file 'Maria Orosa (1893-1945) sitting.png' (465 x 722, uploader Richard Arthur Norton) names no holder: its only source is the 2022 New York Times obituary page, its creator is 'Anonymous', its date 'circa 1920' is a guess, and the Philippine PD tag assumes first publication in the Philippines that nothing shows; the NYT and the other pages (NPS, Lady Science) credit Orosa-family photographs ('courtesy of the Orosa family'), so the holder is a private family archive and no permission or public-domain statement was found. Rejected. Replacement: the University of Washington 1921 Tyee graduate portrait (page 309), found by searching Internet Archive OCR of the Tyee volumes for 'Orosa' (1919 vol. 20 lists her as Filipino Students' Club vice-president; 1921 vol. 22 carries her graduate portrait; 1923 vol. mentions only her brother Jose). Holder record: the Internet Archive item is a Digital Library of India scan (creator 'University Of Washington', no rights field); the University of Washington Libraries digital collection record was a script-rendered page and could not be read (bot/JS wall, not a rights conflict); a second Internet Archive item (UW-Tyee-Yearbooks) also carries the 1921 volume with no rights statement. Rights basis: published in the United States in 1921, so public domain in the US by age (95 years) whatever the yearbook's copyright notice or renewal. KIND likeness: a graduating-student photograph taken in her lifetime. Dimensions 338 x 470 downscaled from a 564 x 783 crop of a bilevel 3404 x 5136 scan. Inscription check: printed name line 'MARIA Y. OROSA / Philippine Islands / Graduate' with the oval photographs in the same order as the eight listed names. PREFLIGHT: QID VERIFIED LIVE (2026-11-13) Q11209031 'Maria Orosa', description 'Filipino chemist (1893-1945)', human, born 1893-11-29, died 1945-02-13, citizenship Philippines, no Korean label. BIRTH YEAR DISPUTED: 1893 (Wikidata, NHI, NPS, Lady Science) versus 1892 (grave marker found 2020, FlipScience correction, Campbell); 1893 kept to match Wikidata and the official record; the era is unaffected. REGION south_asia: the controlled list has no Southeast Asia id; this follows the Filipino precedents Jose Rizal and Corazon Aquino. ERA 20th_century. Korean name 마리아 오로사 is a transliteration chosen here (no Wikidata Korean label; the form used by Korean Wikipedia was not checked). ZERO POLITICS: only food science, teaching and extension work are scored; her wartime guerrilla captaincy, the Santo Tomas smuggling, her death in the Battle of Manila and the cultural-resistance framing in the sources are context and are not scored. ATTRIBUTION: limited_but_usable: her roles, products and programmes are documented by a government biography, but several invention credits (banana ketchup, 700 recipes) are credits with a rival claim (Magdalo Francisco / Mafran) and the ketchup is not carded as a fact. CANONICAL SIGNIFICANCE SOURCE: National Historical Institute biography (src_orosa_nhi). READ (7 besides Wikidata): NHI sheet (full), NPS article (full with notes), Lady Science essay (full), Campbell newsletter (full), Inquirer banana-ketchup history (full), FlipScience (full), 1919 Tyee (OCR lines). Also read for orientation and not cited: English Wikipedia, Batangas History blog, Asia Research News blurb, Atlas Obscura sentence. NOT OPENED (bot wall or paywall): the NYT obituary by Seth Mydans, Philstar, the Huntington event page, Food52; her own 1926-1932 bulletins and Helen Orosa del Rosario's family book. PERSPECTIVES: (1) government commemorative biography; (2) US federal scholarly overview; (3) history-of-science magazine essay; (4) popular newsletter; (5) Philippine press counter-voice on the ketchup credit; (6) a contemporary yearbook. Non-self behavioural sources: all of them (she is not the author of any), but Lady Science, Campbell and NPS lean on Orosa family testimony and the family book. COUNTER-VOICES AND LIMITS: Francisco/Mafran claim to banana ketchup; corporate branding obscuring credit (Lady Science); 1892 vs 1893; Bureau of Science division dates differ (1923 helped organize, 1927 acting head, 1933 head per NHI; 1927 per Lady Science). Sparse five-row profile by design (match eligibility not assessed here). MAJOR ACHIEVEMENT GATE: PASS (see handback). SELF-CALIBRATION: five rows lowered (impact_motivation, resourcefulness, persistence on concentration; proactive_agency and leadership_drive on self-calibration); none raised. HANDBACK: C:\\Users\\Lenovo\\TGI-r67-scratch\\handback\\maria-orosa.json."
+  }
+}

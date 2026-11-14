@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wilhelm-steinitz",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Wilhelm Steinitz",
+    "aliases": [
+      "William Steinitz",
+      "Wolf Steinitz"
+    ],
+    "wikidataId": "Q102648",
+    "birthYear": 1836,
+    "deathYear": 1900,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "AT",
+      "US"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "athlete",
+      "writer"
+    ],
+    "fieldIds": [
+      "sport",
+      "journalism"
+    ],
+    "impactDomains": [
+      "athletic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "competitor",
+      "theorist",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_steinitz_wikidata",
+      "kind": "wikidata",
+      "title": "Wilhelm Steinitz (Q102648), verified live via the Wikidata API (2026-11-13): English label 'Wilhelm Steinitz', description 'Austrian-American chess player (1836-1900)', Korean label 빌헬름 슈타이니츠, instance of human, died 12 August 1900, citizenship United States, Austrian Empire and Cisleithania; birth date given as 14 May 1836 with conflicting values 17 May 1836 and 1837 (sources disagree). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q102648"
+    },
+    {
+      "id": "src_steinitz_ndb",
+      "kind": "biography",
+      "title": "Karl Kadletz, 'Steinitz, Wilhelm (eigentlich Wolf, seit 1862 William)', Neue Deutsche Biographie vol. 25 (2013), pp. 210-211, online edition on Deutsche Biographie (read in full, in German). CANONICAL SIGNIFICANCE SOURCE: grew up poor in Prague, studied at the Vienna Polytechnic 1858/59, briefly worked as a newspaper journalist and then lived from chess; patrons including Anselm Rothschild paid for the 1862 London tournament and he lived in the English-speaking world from then on (Britain until 1882, later the USA); won Dublin 1865, London 1868/69 and 1872, Vienna 1873, Vienna 1882 (shared) and New York 1894; beat Anderssen 8:6 in July 1866 and Zukertort in 1886 for the first official world championship, which he defended in 1889, 1890/91 and 1892 against Chigorin before losing to Lasker in 1894; edited chess columns for several papers, published the International Chess Magazine 1885-91 and set out his theory of positional play in the two-volume Modern Chess Instructor (1889), popularised in German by Tarrasch and absorbed into the Vienna school; also records that his articles on vegetarian living, physical training, women's and minority rights and small loans received less attention. Gives US citizenship from 1888 (other sources differ). Scholarly lexicon entry; says nothing of his temperament.",
+      "url": "https://www.deutsche-biographie.de/118617532.html"
+    },
+    {
+      "id": "src_steinitz_gale",
+      "kind": "biography",
+      "title": "Encyclopedia of World Biography (Gale), 'Wilhelm Steinitz', reproduced on Encyclopedia.com (read in full): the most detailed English reference biography. Describes his progress from the 'romantic' attacking style to a positional system (a position's pieces appraised and plans made from that appraisal; the even starting equilibrium disturbed only by an error), his move to the United States in 1883, the International Chess Magazine (1885-91) with its inflammatory 'Personal and General' column, the Field and Figaro columns, the 1889 Modern Chess Instructor and the 1891 annotation of all 432 games of the Sixth American Chess Congress, the 1886 match in which he lost four of the first five games before winning ten to five, the 1894 and 1896 matches against Lasker, and his teaching and exhibitions to supplement his income. Also reports that contemporaries thought him a bad loser and winner, quotes the Westminster Papers of 1875 on his belief that every matter referred to himself, and contains an anecdote that he once spat on an opponent (single-source, not used) and a late-life account of his health that is not used. Reference biography built on the Oxford Companion to Chess, Schonberg and Reinfeld; gives US citizenship in 1886 (the NDB says 1888, the Hastings book 1883).",
+      "url": "https://www.encyclopedia.com/people/sports-and-games/games-and-hobbies-biographies/wilhelm-steinitz"
+    },
+    {
+      "id": "src_steinitz_jewishenc",
+      "kind": "biography",
+      "title": "Isidore Singer and A. Porter, 'Steinitz, Wilhelm', The Jewish Encyclopedia, vol. 11 (1906), jewishencyclopedia.com (read in full). Early reference biography: born Prague, trained at the Vienna Polytechnic after leaving a rabbinical path, learned chess at twelve, won the 1861 Vienna club tournament, represented Austria at London 1862, beat Anderssen 8 to 6 in July 1866, lived in England more than twenty years and edited chess columns in the Field and the Chess Monthly, settled in New York in 1893 (the other sources say 1883), invented the Steinitz Gambit and 'founded a new school of chess' by seeking a small advantage and building an invincible position through careful development; lists tournament and match results 1859-1896. Its death date and its description of his death are not used and conflict with other sources.",
+      "url": "https://jewishencyclopedia.com/articles/14018-steinitz-wilhelm"
+    },
+    {
+      "id": "src_steinitz_cbfischer",
+      "kind": "press",
+      "title": "Johannes Fischer, 'Wilhelm Steinitz: A short tribute', ChessBase (18 May 2016; read in full). Chess-history biography drawing on Andre Schulz's Big Book of World Chess Championships and Craig Pritchett's Steinitz: Move by Move: Prague origins and apprenticeship, the 1866 Anderssen match, the second place at Baden-Baden 1870 that led him to re-examine and change his style, the 1873 Vienna win, the 1873-74 London-Vienna correspondence games analysed with William Potter and annotated exhaustively in the Field (Pritchett quotes Steinitz on 'the systematic analytical development of modern ideas'), the return to play in 1882 after nine years, the 1886 match, the defences against Chigorin and Gunsberg and the 1894 and 1896 losses to Lasker. Secondary; its account of his late life is not used.",
+      "url": "https://en.chessbase.com/post/wilhelm-steinitz-a-short-tribute"
+    },
+    {
+      "id": "src_steinitz_cbmanlapao",
+      "kind": "press",
+      "title": "Eugene Manlapao, 'Johannes Zukertort and the First World Chess Championship Match', ChessBase (15 February 2023; read in full). Independent chess-history account seen mainly from Zukertort's side (drawing on Willy Hendriks' The Ink War): says Steinitz had antagonised many in the English chess circle with his proud character, that the 1881-83 'Ink War' of competing columns led Steinitz to challenge Zukertort and Hoffer to a match, that he moved to New York in 1883 because he could not bear his alienation in London, founded the International Chess Magazine and pressed his challenge in it, insisted on playing in the United States because London had become hostile, and fought back from 1-4 down in the first official match (the stakes were $2000 a side), quoting a contemporary remark that Steinitz played the tenth game as stubbornly as the first even after losing nine; reproduces Zukertort's published reply accusing him of scurrility. The player-side voices it quotes are partisan.",
+      "url": "https://en.chessbase.com/post/johannes-zukertort-and-the-first-world-chess-championship-match"
+    },
+    {
+      "id": "src_steinitz_hastings",
+      "kind": "archive",
+      "title": "The Hastings Chess Tournament 1895: containing the authorised account of the 230 games played Aug.-Sept. 1895, with biographical sketches of the chess masters, ed. Horace F. Cheshire (London, 1896), Internet Archive scan (OCR text read for the biographical sketch of Steinitz and the round-by-round passages that mention him). Contemporary, editors' view written while he was alive: calls his play firm and tenacious, aimed at accurate positioning and steady crushing rather than brilliancy, says he treats opponents with due respect and invariably does his best, notes a way of treating the openings with 'all sorts of eccentricities', perhaps from an over-desire to experiment or from self-reliance, calls him a theoretician and a powerful writer who strives to be fair but sometimes fails to see he is like others, says chess is 'his very life and soul', and praises his chivalry in accepting any opening offered against Blackburne. Says he deserted England in 1883 to become an American citizen (conflicts with later sources). Contains a physical description that is not used.",
+      "url": "https://archive.org/details/cu31924029919820"
+    },
+    {
+      "id": "src_steinitz_wintericm",
+      "kind": "press",
+      "title": "Edward Winter, 'Steinitz Quotes' (Chess Notes feature article, updated 2025; read in full): selected passages from Steinitz's own International Chess Magazine (1885-91), including his February 1885 and July 1886 comments on Morphy and Anderssen, his view that matches are a better test than tournaments, the opening novelties in the 1886 match games, his 1888 attack on the New Orleans chess editor James Seguin, his November 1886 protest against wealthy amateurs who use masters' labour, his 1890 claim that the principles of the modern school are his own, and his 1891 remark that only while writing his book was he going through the openings systematically. A historian's selection of the subject's own words (self-report, selected by a chess historian who calls his writings among the most intelligent and honest of any champion's); useful for what he did in print, not for how others saw him.",
+      "url": "https://www.chesshistory.com/winter/extra/steinitz.html"
+    },
+    {
+      "id": "src_steinitz_winterlasker",
+      "kind": "press",
+      "title": "Edward Winter, 'Emanuel Lasker Miscellanea' (Chess Notes feature article; the long page was read and searched for every passage on Steinitz): Lasker's own remarks on Steinitz from 1906 to 1911 (that Steinitz, beaten in 1894 for the first time, 'behaved with the utmost chivalry' and called for cheers for the new champion when resigning the last game, and that Steinitz and others were pathfinders who were never asked to teach), Steinitz's 10 October 1894 letter signed as 'Chess Champion of the World' accusing Lasker of breaking the agreement for an immediate rematch, a contemporary American Chess Magazine report of Adolf Schwarz's remark at Vienna 1882 that 'this little man has taught us all to play chess', and reports of the 1896-97 return match. Secondary compilation quoting period sources; Lasker is a rival, so his praise is a partial voice.",
+      "url": "https://www.chesshistory.com/winter/extra/lasker1.html"
+    }
+  ],
+  "rows": {
+    "systems_abstraction": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_gale, src_steinitz_ndb, src_steinitz_jewishenc, src_steinitz_hastings | 1873-1895 | reference biography, scholarly lexicon, encyclopedia, tournament book] Gale says he was the first to fully articulate a system of positional play (each piece's place appraised and plans made from that appraisal, the even starting equilibrium disturbed only by an error); the NDB says he set out his theory of positional play in the two-volume Modern Chess Instructor (1889), that Tarrasch popularised it and that it fed the Vienna school; the Jewish Encyclopedia describes his aim of a small lasting advantage and an invincible position by careful development; the 1896 Hastings book calls him a theoretician. Four sources attest the theory but share one 'father of modern chess' tradition and none shows how he reasoned. CONCENTRATION CHECK (agent): lowered from 78 / 0.62 to 74 / 0.56 because the documented thing is the output, not the systems-level thinking, and the sources repeat one tradition. RUBRIC_CORRECTION (Roster67 lead review): 74@0.56 -> 72@0.52. 'first to articulate a system' is a reference-work characterisation (Gale/NDB) of an intellectual contribution; credit-ordering claim not independently confirmed."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_cbfischer, src_steinitz_gale, src_steinitz_wintericm | 1873-1891 | chess-news biography quoting two modern authors, reference biography, magazine quotations] The ChessBase biography (quoting Pritchett) says he and William Potter spent countless hours on the 1873-74 London-Vienna correspondence games and annotated them exhaustively, and that Steinitz wrote of 'the systematic analytical development of modern ideas'; Gale says his Field annotations were a vast improvement on earlier ones and that he annotated each of the 432 games of the Sixth American Chess Congress book; in 1886 he pointed to the opening novelties in the Zukertort match games and in 1891 wrote that only while writing his book was he going through the openings systematically. The correspondence analysis rests on one quoted author and the rest on Gale and his own statements. CONCENTRATION CHECK (agent): lowered from 74 / 0.62 to 70 / 0.54 because the claim rests on one quoted author, one reference entry and his own statements."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_wintericm, src_steinitz_gale, src_steinitz_hastings | 1885-1895 | magazine quotations, reference biography, tournament book] In his own magazine he disputed the picture of Morphy as all inspiration (July 1886: Morphy 'never in his practice introduced a single novelty', whereas modern masters had to study) and Anderssen's belief in Morphy's superiority (February 1885); Gale says contemporaries found his style crabbed and unaesthetic yet it prevailed; the Hastings book notes eccentric opening choices that may come from 'self-reliance'. Documented as a willingness to argue against prevailing opinion, mostly in his own words. CONCENTRATION CHECK (agent): lowered from 72 / 0.56 to 68 / 0.5 because the strongest evidence is his own writing and a historian's selection of it."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_cbfischer, src_steinitz_gale, src_steinitz_wintericm | 1870-1886 | chess-news biography, reference biography, magazine quotation] The ChessBase biography says that after second place at Baden-Baden 1870 he assessed his play critically and changed his style, and Gale says he began as one of the attacking 'romantics' before developing the positional system; in November 1886 he wrote that others might learn from Morphy and Anderssen how to attack and that perhaps he himself had not learnt enough. The change of style is documented but explained by one biography tradition, and he was famously unyielding in disputes, so the score stays near the middle. CONCENTRATION CHECK (agent): lowered from 62 / 0.46 to 58 / 0.4 because the style change rests on one tradition and the second item is his own remark."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_gale, src_steinitz_cbmanlapao, src_steinitz_cbfischer, src_steinitz_winterlasker | 1882-1896 | reference biography, chess-history article, chess-news biography, historian's compilation] After losing four of the first five games of the 1886 match he won ten to five (Gale, Manlapao, who quotes a contemporary on how he kept playing even when behind); he returned to tournament play in 1882 after nine years away (ChessBase); he challenged Lasker to a rematch immediately after the 1894 loss, wrote on 10 October 1894 that Lasker had forfeited the title by breaking the agreed rematch (Winter), and then played the 1896-97 rematch. Several episodes, but all end in the chess-history storyline and winning the 1886 comeback invites outcome bias. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 66 / 0.5 because the best-known episode is a winning comeback and the rest are title disputes."
+    },
+    "competitiveness": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_steinitz_cbmanlapao, src_steinitz_ndb, src_steinitz_winterlasker, src_steinitz_gale | 1881-1896 | chess-history article, scholarly lexicon, historian's compilation, reference biography] During the 1881-83 'Ink War' he challenged Zukertort and Hoffer to a match, and later pressed the challenge in his own magazine and set the match terms in the United States (Manlapao); the NDB lists his title defences against Chigorin in 1889 and 1892 and against Gunsberg in 1890-91; after the 1894 loss he wrote to Lasker as 'Chess Champion of the World' that the champion could not alone set the time for a rematch (Winter); Gale reports contemporaries found him a bad loser and a bad winner. Dual-edged: the same drive cost him goodwill in London. SELF-CALIBRATION (agent): lowered from 76 / 0.58 to 72 / 0.54 because the title defences are results rather than behaviour and the 1894 letter is his own."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_steinitz_cbmanlapao, src_steinitz_gale, src_steinitz_wintericm | 1875-1888 | chess-history article, reference biography, magazine quotations] Manlapao says he antagonised much of the English chess circle and was alienated in London, and quotes Zukertort's 1885 reply accusing him of scurrility; Gale quotes the Westminster Papers of 1875 and says his 'Personal and General' column was inflammatory; in January 1888 he published a long personal attack on the New Orleans chess editor James Seguin, and in November 1886 argued openly against wealthy amateurs who used masters' labour (Winter). Specific, dated public quarrels from three families; impact is dual-edged because the quarrels cost him support. CONCENTRATION CHECK (agent): lowered from 80 / 0.64 to 78 / 0.6 because two of the three families rest on his own columns and an adversary's published reply. RUBRIC_CORRECTION (Roster67 lead review): 78@0.6 -> 76@0.56. antagonism with the English chess circle is told in one chess-history article and quotation compilation; the other sources only summarise."
+    },
+    "detail_orientation": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_gale, src_steinitz_cbfischer, src_steinitz_wintericm | 1873-1891 | reference biography, chess-news biography, magazine quotation] Gale says he annotated each of the 432 games in the Sixth American Chess Congress book and that the International Chess Magazine reported news and analysis conscientiously; the ChessBase biography (quoting Pritchett) says the 1873-74 correspondence games were annotated in 'many hundreds of words and high quality variations'; in 1888 he wrote that the slightest prejudicial error of fact must be apologised for. The annotation volume is documented, but the sources describe output rather than how carefully he checked. CONCENTRATION CHECK (agent): lowered from 66 / 0.5 to 62 / 0.44 because the claim rests on two output descriptions and one remark of his own about journalism."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_hastings, src_steinitz_gale, src_steinitz_winterlasker, src_steinitz_ndb | 1860-1899 | tournament book, reference biography, historian's compilation, scholarly lexicon] The 1896 Hastings book calls chess 'his very life and soul' and says he strives to be fair; Gale says he played in tournaments for forty years until his last event in June 1899 and the NDB says chess became his livelihood and that he sought his living in the English-speaking world from 1862; Lasker (1911) said Steinitz's account of how a master thinks would have deserved the attention of philosophers. Devotion to the game is consistent across sources, but one comes from an editors' character sketch. CONCENTRATION CHECK (agent): lowered from 72 / 0.52 to 68 / 0.46 because the central statement is a single editors' characterisation and the rest is career length."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_gale, src_steinitz_ndb, src_steinitz_cbmanlapao | 1862-1890 | reference biography, scholarly lexicon, chess-history article] He moved from Prague to Vienna to London (1862) and in 1883 to New York, wrote in English from his twenties onwards and became one of the language's best-regarded chess writers (Gale), and in America ran a magazine, taught and gave exhibitions to supplement his income (Gale, NDB); Manlapao says he left London because he could not bear his alienation there. The moves are documented, but a forced emigration is not strong evidence of flexibility and he stayed a chess professional throughout. SELF-CALIBRATION (agent): lowered from 64 / 0.5 to 60 / 0.46 because the moves were partly forced by his situation in London."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_steinitz_hastings, src_steinitz_wintericm | 1886-1895 | tournament book, magazine quotation] The 1896 Hastings book says he treats the openings with 'all sorts of eccentricities', perhaps from an over-desire to experiment, and that some ventures must be trying to an opponent; in 1886 he wrote that none of the openings of the 20 games of the Zukertort match could be found in the books up to the eighth move and that novelties came as early as the fourth. One editors' observation and one self-report. CONCENTRATION CHECK (agent): lowered from 64 / 0.5 to 60 / 0.42 and reclassified from strong_inference to inference because only one fact is independent of his own statement."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_ndb, src_steinitz_gale, src_steinitz_cbmanlapao, src_steinitz_cbfischer | 1873-1886 | scholarly lexicon, reference biography, chess-history article, chess-news biography] He started the International Chess Magazine in 1885 (NDB, Gale), challenged Zukertort and Hoffer to the match that became the first official championship, insisted on playing it in the United States and pressed the challenge in his magazine (Manlapao), and returned to play in 1882 to defend his standing after nine years away (ChessBase); he also edited the chess columns of several papers (NDB). The initiatives are confirmed by more than one source."
+    },
+    "impact_motivation": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_steinitz_ndb, src_steinitz_wintericm, src_steinitz_winterlasker | 1886-1900 | scholarly lexicon, magazine quotation, historian's compilation] The NDB records that he also wrote articles on vegetarian living, physical training, women's and minority rights and small loans, which received little attention; in November 1886 he argued in his magazine that masters should not have to work for wealthy amateurs' amusement while starving, and in 1890 that what served the common good of the game would return enough benefit to himself; Lasker (1911) says Steinitz and others were pathfinders who received no practical support. One lexicon line, one self-statement and a rival's recollection. CONCENTRATION CHECK (agent): lowered from 60 / 0.44 to 56 / 0.38 because the claim rests on one line of the NDB and his own words."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "빌헬름 슈타이니츠"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/wilhelm-steinitz-lilienthal-1883.jpg",
+    "width": 811,
+    "height": 1000,
+    "source": "Cabinet-card photograph of Wilhelm Steinitz by Lilienthal of New Orleans, dated 1883 (gelatin silver print, 6-1/2 x 4-1/4 in), John G. White Collection of Chess and Checkers, Chess Player Portraits Collection, Cleveland Public Library; digitised by the library (CONTENTdm item p4014coll20/212, subject 'Steinitz, William, 1836-1900'), shared via the Ohio Digital Network and the Digital Public Library of America, and mirrored on Wikimedia Commons ('Steinitz, Wilhelm 1883 - DPLA - 71346d3993a39f8e3e36b7ba3efd93ee.jpg', 2426 x 3253). The file is the original with the bottom 8 percent (a collector's handwritten note naming 'Wilhelm Steinitz, Jan. 1883 (No 14), James D. Seguin's collection') cropped off and downscaled to 811 x 1000; no upscaling.",
+    "license": "Public domain in the United States: American photograph made and published in 1883 (before 1931; an unpublished work of that age would also have expired); the holder's record carries the Rights statement 'No Copyright - United States', Public Domain Mark 1.0, and its Rights Note says the library neither grants nor denies permission and believes the digital gallery images are in the public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Lilienthal (New Orleans), Wilhelm Steinitz, 1883; John G. White Collection, Cleveland Public Library, via the Digital Public Library of America (cropped and downscaled).",
+    "attributionUrl": "https://cplorg.contentdm.oclc.org/digital/collection/p4014coll20/id/212",
+    "creator": "Lilienthal, New Orleans, Louisiana (studio name as given by the holder)",
+    "date": "1883 (January 1883 per the handwritten note on the mount)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://cplorg.contentdm.oclc.org/digital/collection/p4014coll20/id/212"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED by a stronger-rights photograph. The lead (Fritz Schumann's Nachfolger, Nuremberg, c.1896, Cleveland Public Library item p4014coll20/10128, DPLA 9eeab9ac...) survived identity and holder checks (printed studio imprint 'Fritz Schumann's Nachfolger, Nuernberg' and handwritten 'Wilhelm Steinitz 1896' on the card; library record: creator 'Schumann, Fritz', no date, 'free of known copyright', Public Domain Mark) but was not used: the studio is a German firm, the date is not in the holder record and the legal basis for a German photograph is weaker than for the replacement. The replacement is the Lilienthal (New Orleans) cabinet card of January 1883 from the same Cleveland collection (item p4014coll20/212: creator 'Lilienthal (New Orleans, Louisiana)', date 1883, gelatin silver cabinet card, Rights 'No Copyright - United States', Public Domain Mark 1.0, Rights Note: the library neither grants nor denies permission and believes the images are public domain). Holder record read through the CONTENTdm item API (the dp.la item page returned an empty response and was not relied on); no holder/Commons discrepancy found. Identity: the library's subject heading 'Steinitz, William, 1836-1900' and a handwritten line on the mount, 'Wilhelm Steinitz. Jan. 1883 (No 14). James D. Seguin's collection' (cropped from the shipped file); the face matches the 1896 Schumann card of the same man. Seguin is the New Orleans chess editor Steinitz attacked in print in 1888, so the collector's note is consistent with a New Orleans photograph. Caveat: the creator and date come from the library catalogue and the handwritten note, not from a printed studio imprint (the scan carries none). Rights basis: American photograph of 1883, public domain in the United States by age; not claimed PD in countries with life-plus-years terms. KIND likeness (lifetime photograph). Dimensions 2426 x 3253 original, bottom 8 percent cropped and downscaled to 811 x 1000, no upscaling. PREFLIGHT: QID VERIFIED LIVE (2026-11-13) Q102648 label 'Wilhelm Steinitz', description 'Austrian-American chess player (1836-1900)', ko label 빌헬름 슈타이니츠, instance of human, died 12 August 1900, citizenships United States, Austrian Empire, Cisleithania; birth date conflicting on Wikidata (14 May 1836 preferred; 17 May 1836 and 1837 also listed); birth year 1836 used. NATIONALITY AT, US (precedent kurt-godel AT/US, nikola-tesla RS/US; Wikidata and the World Chess Hall of Fame list Austria and the United States; British naturalisation is claimed only by the Jewish Encyclopedia and is not coded). REGION central_europe (precedent kurt-godel, john-von-neumann, nikola-tesla for US-based emigres from the Austrian Empire and Hungary; he was born in Prague). ERA 19th_century. CLASSIFICATION: occupations athlete, writer; fields sport, journalism; tags competitor, theorist, innovator; archetype competitive_performer (precedent paul-morphy, emanuel-lasker). ZERO POLITICS: a chess professional, theorist and chess editor; his late social-reform essays are mentioned only as a minor line in the NDB and are scored only lightly under impact_motivation. HEALTH: the sources describe his health and his last years; none of it is used, scored or carded (no diagnosis or private condition). READ (8 sources besides Wikidata): NDB entry by Kadletz (full, German); Gale Encyclopedia of World Biography (full); Jewish Encyclopedia 1906 (full); ChessBase Fischer tribute (full); ChessBase Manlapao on Zukertort and the first championship match (full); Hastings 1895 tournament book, 1896 (OCR text, the Steinitz sketch and tournament narrative); Winter, Steinitz Quotes (full); Winter, Emanuel Lasker Miscellanea (searched for all Steinitz passages). Wikipedia not used. Not opened: Landsberger's biography and The Steinitz Papers, Harding's Steinitz in London, Hendriks' The Ink War, Pritchett's Move by Move, Schulz's Big Book (only as quoted), Bachmann, the Britannica entry (bot wall), the Jewish Virtual/jewage page (bot wall), the DPLA item page (empty response). PERSPECTIVES: scholarly lexicon (NDB); English reference biography (Gale); early Jewish-encyclopedia biography; two ChessBase chess-history articles (one from Zukertort's side); contemporary 1896 tournament book; Steinitz's own magazine as selected by a historian; Lasker and period journals via the same historian. NON-SELF BEHAVIOURAL SOURCES: NDB, Gale, Manlapao, the Hastings book; Fischer, the Jewish Encyclopedia and Winter-on-Lasker are secondary or partial. CONTRADICTIONS AND LIMITS: US citizenship dated 1883 (Hastings), 1886 (Gale) and 1888 (NDB), move to the US dated 1883 (Gale, Manlapao, Hastings), 1882 (NDB) and 1893 (Jewish Encyclopedia, a slip), and birth date 14 or 17 May; none of these dates is carded except the 1883 move, attributed to Gale and Manlapao. The 1866 title claim versus the 1886 'first official' match is stated as both. No adversarial full biography was read; the critical voices are Zukertort's 1885 reply, the Westminster Papers 1875 line, and the Hastings editors' remark on his blind spots. Gale's anecdote of spitting on an opponent is single-source and not used. MAJOR ACHIEVEMENT GATE: PASS on all six (cards: 1 title matches and the first official championship; 2 positional theory and the Modern Chess Instructor; 3 chess writing and the International Chess Magazine). SELF-CALIBRATION: reviewed persistence, competitiveness, adaptability (all lowered); concentration check lowered nine further rows; proactive_agency kept. Raise flags: none. Scoring left sparse (13 rows) by design: no discipline, collaboration, creative_originality or leadership rows because no non-self source documents them. wilhelm-steinitz:conflict_tolerance RUBRIC_CORRECTION (Roster67 lead review): 78@0.6 -> 76@0.56. antagonism with the English chess circle is told in one chess-history article and quotation compilation; the other sources only summarise. wilhelm-steinitz:systems_abstraction RUBRIC_CORRECTION (Roster67 lead review): 74@0.56 -> 72@0.52. 'first to articulate a system' is a reference-work characterisation (Gale/NDB) of an intellectual contribution; credit-ordering claim not independently confirmed."
+  }
+}

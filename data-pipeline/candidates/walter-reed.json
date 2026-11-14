@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "walter-reed",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Walter Reed",
+    "aliases": [
+      "Major Walter Reed"
+    ],
+    "wikidataId": "Q613136",
+    "birthYear": 1851,
+    "deathYear": 1902,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_reed_wikidata",
+      "kind": "wikidata",
+      "title": "Walter Reed (Q613136), verified live via the Wikidata API (2026-11-07): English label 'Walter Reed', description 'American physician and medical researcher (1851-1902)', instance of human, born 13 September 1851, died 22 November 1902, citizen of the United States, Korean label 월터 리드. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q613136"
+    },
+    {
+      "id": "src_reed_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Reed, Walter' by William B. Bean (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: army doctor trained in New York and Virginia; in 1893 curator of the Army Medical Museum and professor of bacteriology at the Army Medical School; chaired the 1898 army typhoid board; in 1900 led the Yellow Fever Board (Reed, Carroll, Lazear, Agramonte) in Cuba, where the experiments, with Lazear's death, Carroll's illness and soldier volunteers, showed that the female Aedes aegypti mosquito carries yellow fever, that fomites do not, and that the agent passes a filter; Havana was freed of the disease within a year and Reed died in 1902 after surgery for a ruptured appendix. Notes Finlay's earlier theory and that Finlay supplied mosquitoes and instructions. Reference-work biography by his biographer; admiring.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/reed-walter"
+    },
+    {
+      "id": "src_reed_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Walter Reed' by E. Ashworth Underwood (read in full): U.S. Army pathologist and bacteriologist; frontier garrison service from 1875; Johns Hopkins courses from 1889; Army Medical Museum and Army Medical School posts from 1893; chaired the 1898 typhoid committee; with Carroll showed Sanarelli's bacillus was a secondary invader; as chairman of the 1900 yellow-fever commission he decided the main work would test an insect host, held controlled experiments on volunteers in a hutted camp from November 1900, showed that infected mosquitoes and injected blood transmit the disease, found no evidence of transmission by fomites, and the Havana clean-up under Gorgas freed the city in 90 days. Short reference article, celebratory.",
+      "url": "https://www.britannica.com/biography/Walter-Reed"
+    },
+    {
+      "id": "src_reed_chaves",
+      "kind": "biography",
+      "title": "Enrique Chaves-Carballo, 'Carlos J. Finlay: The mosquito man', Hektoen International, 2020 (history-of-medicine essay centred on Finlay; read in full). INDEPENDENT, Finlay-centred: says the 1900 commission set out to test Finlay's mosquito hypothesis using infected mosquitoes that Finlay provided, used informed consent from volunteers, that the commission's first nine inoculations failed, that Carroll, who did not believe the theory, and Lazear were infected (Lazear died), that Reed announced the results at the American Public Health Association on 23 October 1900 acknowledging Finlay's contribution, and that Gorgas had earlier rejected the mosquito theory.",
+      "url": "https://hekint.org/2020/11/02/carlos-j-finlay-the-mosquito-man/"
+    },
+    {
+      "id": "src_reed_exposed",
+      "kind": "press",
+      "title": "'Exposed: Scientists Who Risked Disease for Discovery' (Gale educational article on Encyclopedia.com; read in full). Popular-science summary that describes Reed's departure for Washington to write a report while Lazear and Carroll began the human experiments in August 1900, Carroll's and Private Dean's infections and Lazear's fatal case (officially ruled accidental), the later series by Reed, Carroll and Agramonte, and the written consent contracts with American soldiers and Spanish immigrants (age at least 25, medical care, stay at Camp Lazear, a cash payment with a bonus for infection, forfeiture on desertion), which the article calls coercive by today's standards although the physicians put themselves first in line.",
+      "url": "https://encyclopedia.com/media/educational-magazines/exposed-scientists-who-risked-disease-discovery"
+    },
+    {
+      "id": "src_reed_columbia",
+      "kind": "press",
+      "title": "Teachers College Columbia University Institutional Review Board blog, 'History of the IRB' (2026; read in full). Modern-ethics COUNTER-VOICE, a short office blog citing Lederer's 2008 chapter on Reed: says the first phase of the experiments was run by Lazear while Reed was in the United States, that Reed's written consent document was a step in the right direction but fell short of present standards (ambiguity of risk, no right to withdraw, undue inducement, volunteers sceptical of the theory), and that further volunteers died in later phases. Its payment figures differ from the Gale article and are not used.",
+      "url": "https://www.tc.columbia.edu/institutional-review-board/irb-blog/2026/history-of-the-irb/"
+    },
+    {
+      "id": "src_reed_kelly",
+      "kind": "biography",
+      "title": "Howard A. Kelly, 'Walter Reed and Yellow Fever' (Baltimore and New York, 1906; revised edition, Internet Archive scan walterreedyellow00kelluoft; READ IN PART by full-text search: the preface, the account of Camp Lazear and the Kissinger and Moran volunteers, and Reed's letters quoted on the first controlled case). SELF-ACCOUNT through his letters and an admiring friend's narrative, not independent: Reed's private letter calling the mosquito theory Finlay's, deserving great credit, but unproved until the board tested it; his published remark on Kissinger's moral courage; and the preface's addition of letters on the value of Carroll's work.",
+      "url": "https://archive.org/details/walterreedyellow00kelluoft"
+    },
+    {
+      "id": "src_reed_pbs",
+      "kind": "press",
+      "title": "PBS American Experience, 'Scourge of the Spanish American War' (The Great Fever; read): a public-television history page that records Reed's 1898 advice to a friend bound for Cuba that a plug of cotton in the nostrils would be advisable, on the supposition that the yellow-fever germ was inhaled, and the Army's yellow-fever losses in the war. Used only for that dated remark.",
+      "url": "https://www.pbs.org/wgbh/americanexperience/features/fever-scourge-spanish-american-war"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_reed_dsb, src_reed_britannica, src_reed_kelly, src_reed_exposed | 1900-1901 | reference biography, reference article, admiring biography with his letters, popular science summary] After the first inoculations, the board set up an isolated camp where volunteers were exposed to infected mosquitoes, injected with blood from patients, or housed with the bedding and clothing of yellow-fever patients; the sources describe separate trials that showed bites, not contaminated articles, carried the disease, that a house became infectious only through infected mosquitoes, and that filtered blood still infected. The DSB says Reed designed and conducted these experiments. The first human exposures were made by Carroll and Lazear while Reed was in Washington (Exposed, Columbia blog), so the design credit is shared. SELF-CALIBRATION (agent): top-risk row; lowered from 76 / 0.62 to 72 / 0.56 because the first human exposures were made by Carroll and Lazear in Reed's absence, the design credit is shared, and the fullest account of the camp trials is an admiring friend's biography and two reference works that draw on the same record."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_reed_dsb, src_reed_britannica | 1896-1901 | reference biography, reference article] In 1896 he compared the Washington Barracks and Fort Myer with other areas drinking Potomac water and with officers against enlisted men, using the pattern to argue against bad drinking water (his conclusion, bad air, was later superseded); with Carroll he showed that Sanarelli's yellow-fever bacillus belonged to the hog-cholera group and was a secondary invader; and the typhoid board's two-volume report is called a model for epidemiologists. The strongest praise is institutional and the 1896 inference was wrong in detail. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 66 / 0.50 because the 1896 inference was wrong in detail and the strongest praise (a model for epidemiologists) is institutional and about a three-man board."
+    },
+    "belief_updating": {
+      "score": 55,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_reed_pbs, src_reed_dsb, src_reed_britannica, src_reed_kelly | 1896-1900 | museum-style history article, reference biography, reference article, admiring biography] In 1898 he advised a friend going to Cuba to plug his nostrils with cotton, on the supposition that the yellow-fever germ was inhaled; by 1900 his board had concluded that mosquitoes, not bedding and clothing, carried the disease, and in a letter he wrote that the mosquito theory was Finlay's but had been rejected by all, including Sternberg, until the board proved it. The sources document the shift in published conclusions, not how he weighed contrary evidence, and the board's findings were collective. CONCENTRATION (agent): lowered from 58 / 0.44 to 55 / 0.40 because the earlier belief is documented only by one brief advice remark and the later acceptance by his own letter quoted in an admiring biography; the board findings were collective."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_reed_dsb, src_reed_chaves, src_reed_kelly | 1900-1901 | reference biography, independent historical article, admiring biography with his letters] He led a four-member board; the DSB says Finlay supplied mosquitoes, eggs and instructions for raising them and helped verify cases, Chaves-Carballo says Reed announced the results in October 1900 acknowledging Finlay's contribution, and his letter says he would call Havana's board of experts (Guiteras, Albertini, Finlay) to diagnose the first controlled case. Kelly's revised preface adds letters about the value of Carroll's work, which suggests the credit given to Carroll and Lazear was an open question. CONCENTRATION (agent): lowered from 62 / 0.48 to 58 / 0.44 because the credit to Finlay rests on his own letter and speech as reported by Kelly and a Finlay-centred essay, and the credit owed to Carroll and Lazear is described as unsettled by Kelly's preface."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_reed_dsb, src_reed_britannica | 1889-1893 | reference biography, reference article] Around age forty he grew restless in garrison life, aware of new work in pathology and bacteriology, applied for leave to study and, ordered instead to Baltimore, took courses at Johns Hopkins and did autopsies, learned new pathological techniques and performed experiments under William Welch, which led to his 1893 posts at the Army Medical Museum and Army Medical School. The two sources describe the same episode. CONCENTRATION (agent): lowered from 62 / 0.46 to 58 / 0.42 because the two sources describe one episode (the Hopkins study around 1889) and draw on the same biographical record."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "월터 리드"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/walter-reed-popular-science-monthly-1915.jpg",
+    "width": 914,
+    "height": 1200,
+    "source": "Vignetted halftone portrait of Dr. Walter Reed, U.S.A., printed as a plate on page 176 of L. O. Howard, 'Some Pioneers in Mosquito Sanitation and Other Mosquito Work', The Popular Science Monthly, volume 87 (July to December 1915), New York, The Science Press; scan at the Internet Archive (popularsciencemo87newy). The printed legend names him president of the U.S. Army Yellow Fever Commission and says the picture 'is evidently from a photograph taken not long before his death' and was given to the writer by the Army Medical School at the request of Surgeon-General Gorgas; photographer not named. The file is the Wikimedia Commons extract of the plate (1750 x 2297 pixels) downscaled to 914 x 1200 with no upscaling; the figure is cut out against white as printed.",
+    "license": "Public domain by age: published in New York in 1915 (before 1931); the photographer is not named and the Internet Archive record states no rights of its own",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unnamed photographer, Dr. Walter Reed, plate in The Popular Science Monthly vol. 87, 1915 (Internet Archive scan; extracted and downscaled).",
+    "attributionUrl": "https://archive.org/details/popularsciencemo87newy",
+    "creator": "Unnamed photographer (photograph supplied by the Army Medical School; reproduced by The Science Press, New York)",
+    "date": "1915 (published; the photograph is undated, taken between about 1900 and 1902)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/popularsciencemo87newy"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED: the lead (Commons 'WalterReed.jpeg', 450 x 581, half-length photograph of Reed as a major in full-dress uniform, 'unidentified photographer', '19th century', source field only 'en:Image:WalterReed.jpeg', rights template PD-old) has no recoverable holder or publication record, so creator, date and rights chain cannot be verified; it is also a different photograph from the one used (compared side by side). REPLACEMENT: vignetted halftone plate on page 176 of The Popular Science Monthly vol. 87 (July-December 1915, New York, The Science Press), in L. O. Howard's article 'Some Pioneers in Mosquito Sanitation and Other Mosquito Work' (Internet Archive popularsciencemo87newy, leaf n179); I looked at the scanned page and read the OCR: the printed legend reads 'Dr. Walter Reed, U. S. A., president of the U. S. Army Yellow Fever Commission, he who is to be given the principal credit for the scientific demonstration of the transmission of yellow fever by a mosquito', says he was loath to have his picture published, that the only one known for years was from his early manhood, and that 'the present picture is evidently from a photograph taken not long before his death' and was given to the writer by the Army Medical School at the request of Surgeon-General Gorgas. Rights basis: published in the United States in 1915 (before 1931); photographer not named; the Internet Archive record carries no rights statement. KIND likeness: halftone of an undated photograph of the sitter taken about 1900-1902 per the caption. Caveat: the figure is cut out against white as printed; the underlying Army Medical School print was not located (the NMHM portrait NCP 000876 of Reed at 25 in 1876, CC BY 2.0 on Flickr, was seen on Commons but not used). Dimensions: Commons extract 1750 x 2297 downscaled to 914 x 1200 (no upscaling). PREFLIGHT: QID VERIFIED LIVE (2026-11-07, Wikidata API) Q613136 label 'Walter Reed', description 'American physician and medical researcher (1851-1902)', human, born 1851-09-13, died 1902-11-22, citizen of the United States, ko label 월터 리드. REGION north_america. ERA 19th_century (died 1902; the yellow-fever work of 1900-01 closes his career, borderline with 20th_century). ZERO POLITICS: primary identity is army physician and bacteriologist; his military rank is context only and nothing about the Spanish-American War or the occupation of Cuba is scored. ATTRIBUTION: attributable but explicitly shared: Finlay proposed the mosquito hypothesis in 1881 and supplied mosquitoes; Carroll and Lazear made the first human exposures in August 1900 while Reed was in Washington; Lazear died; Agramonte was a board member; the typhoid board's conclusions were collective (Vaughan, Shakespeare). The cards say so. CANONICAL SIGNIFICANCE SOURCE: DSB entry by William B. Bean. READ (7 sources besides Wikidata): DSB (full), Britannica (full), Chaves-Carballo on Finlay (full, independent), Gale 'Exposed' article (full), Columbia IRB blog (full, modern-ethics counter-voice), Kelly 1906 biography (read in part by full-text search: self-account via Reed's letters), PBS American Experience article (read, one dated remark). Not opened: Bean's 1982 biography, Truby, Wood, Pierce and Writer, Lederer's 2008 chapter (cited by the Columbia blog), the 1904 typhoid report, UVA Hench collection (site unreachable), DTIC Military Medicine supplement (bot wall). Wikipedia not used. PERSPECTIVES: reference biography, encyclopedia, Finlay-centred historian, popular-science summary, ethics counter-voice, admiring friend's biography with his letters. NON-SELF BEHAVIOURAL SOURCES: DSB, Britannica, Chaves-Carballo, Gale article, Columbia blog. CONTRADICTIONS AND LIMITS: payment figures for volunteers differ between the Gale article and the Columbia blog (not used); the DSB says Reed designed and conducted the experiments while the Gale and Columbia accounts show Lazear and Carroll ran the first phase (cards state the shared credit); the 1896 malaria inference (bad air) was superseded and is used only as method; the Columbia blog is a short office blog and carries only the ethics framing. Sparse 5-row profile by design: no persistence, risk_tolerance, leadership_drive or impact_motivation rows (the sources describe the board's work, not his own risk-taking or motives beyond one private letter). eligibility_v2 is not met (5 scored attributes) and was not scored toward. MAJOR ACHIEVEMENT GATE: PASS (cards: 1900 Yellow Fever Board with shared credit to Finlay, Carroll, Lazear; 1898 typhoid board). SELF-CALIBRATION: all 5 rows lowered (3 for source-family concentration, 2 at self-calibration); see handback."
+  }
+}

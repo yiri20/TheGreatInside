@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ernst-mach",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ernst Mach",
+    "aliases": [
+      "Ernst Waldfried Josef Wenzel Mach",
+      "Ernst Mach"
+    ],
+    "wikidataId": "Q93996",
+    "birthYear": 1838,
+    "deathYear": 1916,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "AT"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "philosopher"
+    ],
+    "fieldIds": [
+      "physics",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mach_wikidata",
+      "kind": "wikidata",
+      "title": "Ernst Mach (Q93996), verified live via the Wikidata API (2026-11-13): English label 'Ernst Mach', description 'Austrian physicist (1838-1916)', instance of human, born 1838-02-18, died 1916-02-19, Korean label 에른스트 마흐. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q93996"
+    },
+    {
+      "id": "src_mach_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Mach, Ernst' by Erwin N. Hiebert (Gale, reproduced on Encyclopedia.com; read in full including its notes). CANONICAL SIGNIFICANCE SOURCE: his critique of Newtonian absolute space, time and motion in Die Mechanik (1883), which Einstein later named 'Mach's principle' while finding it did not hold in his own theory; the shock-wave photographs of 1887 with Peter Salcher (the 'Mach angle' and 'Mach number' were named by others later); Mach bands (1865-68) and his work on sensation and equilibrium; his rejection of atomism, which the author calls dogmatic and probably never abandoned; the 1864 Graz post where he paid for his own laboratory equipment; the 1898 (the entry says 1897) stroke after which he resumed lecturing and writing. Notes that Mach regarded his experimental physics as less important than his criticisms of mechanics and his psychophysiology, and reports Einstein's 1916 and 1946 tributes ('incorruptible skepticism and independence'). Reference-work biography by a historian of physics; critical of the anti-atomism, admiring of the experiments. It treats the 1913 preface to the Optics as Mach's own rejection of relativity, which the 2026 Stanford entry disputes, so that rejection is not used here.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/mach-ernst"
+    },
+    {
+      "id": "src_mach_sep",
+      "kind": "biography",
+      "title": "Pietro Gori and Luca Guzzardi, 'Ernst Mach', Stanford Encyclopedia of Philosophy (first published 15 September 2026; read in full): scholarly overview drawing on Blackmore's biography and later research. Records the stroke in July 1898 which paralysed his right side after which he continued to study, write and experiment with his son Ludwig's help and finished Knowledge and Error (1905); his move from physics into sensory physiology for want of costly equipment (his own recollection as reported by Blackmore); the discovery of Mach bands from rotating discs; the shock-wave programme with assistants, students and Peter Salcher; the relational definition of mass and the critique of absolute space; that his anti-atomism was 'less straightforward than is often claimed'; and that Gereon Wolters argues the foreword to the Optics rejecting relativity was almost certainly altered by his son Ludwig after Mach's death, so Mach's alleged rejection of Einstein is contested. Independent modern scholarly synthesis.",
+      "url": "https://plato.stanford.edu/entries/ernst-mach/"
+    },
+    {
+      "id": "src_mach_bluh",
+      "kind": "biography",
+      "title": "Otto Bluh, 'Ernst Mach as Teacher and Thinker', Physics Today, June 1967 (historian-physicist's article on Mach's teaching, read in full from the AIP PDF). Mach's first textbook for medical students (1863) and its warning about atomism, his desk copy filled with notes, his declining a Salzburg professorship that would have sidetracked him, demonstration apparatus built with his shop assistant F. Hajek, the physics textbooks around 1890 adapted by two high-school teachers, the Vienna chair of 1895, the stroke three years later, and his insisting on retirement in 1901 when he could not fulfil his teaching duties. Notes that Mach has been criticised for carelessness in historical research. Admiring but frank article by a former Prague student.",
+      "url": "https://aip.brightspotcdn.com/PTO.v20.i6.32_1.online.pdf"
+    },
+    {
+      "id": "src_mach_waal",
+      "kind": "biography",
+      "title": "Elske de Waal and Sjang L. ten Hagen, 'The Concept of Fact in German Physics around 1900: A Comparison between Mach and Einstein', Physics in Perspective 22 (2020), 55-80 (open-access history-of-physics article; the sections on Mach, Planck and Einstein read). Describes Mach's descriptionist view that theories only order facts, Planck's 1908 lecture 'The Unity of the Physical World-Picture' as a direct attack on it, and Einstein's initial support for Mach in 1913 followed by his turning to Planck's view. Independent critical-historical article; says little about Mach's personal conduct.",
+      "url": "https://link.springer.com/article/10.1007/s00016-020-00256-y"
+    },
+    {
+      "id": "src_mach_encsci",
+      "kind": "biography",
+      "title": "Encyclopedia.com (Gale), 'Mach, Ernst' history-of-science reference entry (read): calls him best known as a critic of Newton, notes his 1865 Mach bands, 1873 equilibrium function of the inner ear and 1870s-80s shock-wave studies, his 1895 Vienna chair, the stroke three years later and forced resignation in 1901; says Planck's criticism of his anti-atomism so offended Mach that he threatened to 'leave the church of physics' if belief in atoms were required, and (unlike the Stanford entry) treats the 1913 preface rejecting relativity as authentic. Short general reference article; a second, partly conflicting scholarly voice.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mach-ernst"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mach_dsb, src_mach_sep, src_mach_bluh | 1860-1905 | reference biography, scholarly encyclopedia, historian-physicist's article] The DSB says he moved among the Doppler effect, blood-pressure recording, vision, hearing, the sense of balance, shock waves, the history of mechanics and the analysis of sensations and describes an unusual curiosity about nature; the Stanford entry traces Mach bands to a casual observation of rotating discs that he pursued; the DSB says he read Latin, Greek, French, Italian and English sources and corresponded internationally. Several distinct episodes from three sources, though they largely follow one biographical record. SELF-CALIBRATION (agent): lowered from 76 / 0.64 to 72 / 0.58 because the three accounts draw on the same biographical tradition and the 'unusual curiosity' sentence is the DSB author's characterisation. RUBRIC_CORRECTION (Roster67 lead review): 72@0.58 -> 70@0.54. four of five substantive sources are secondary entries that draw on the same Blackmore/DSB record, so the independent support is closer to two families than the row's confidence implied."
+    },
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mach_dsb, src_mach_sep, src_mach_bluh, src_mach_encsci | 1860-1915 | reference biography, scholarly encyclopedia, historian-physicist's article, reference entry] Four sources agree that he produced experimental work in physics, sensory physiology and psychophysics, wrote a critical history of mechanics, heat and optics, and held a Vienna chair in the history and theory of the inductive sciences (1895); the DSB says he wanted to be a physicist unconstrained by the specialists' barriers. The DSB also notes physicists often judged his physiology and philosophy as too far afield. SELF-CALIBRATION (agent): lowered from 80 / 0.66 to 76 / 0.62 because the four accounts share one underlying record (Blackmore) and the DSB and Stanford entries describe the breadth rather than the depth in each field. RUBRIC_CORRECTION (Roster67 lead review): 76@0.62 -> 74@0.56. same source-family concentration as the other Mach rows (DSB, Stanford, Blackmore-derived entries repeat one account)."
+    },
+    "independent_thinking": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mach_dsb, src_mach_sep, src_mach_waal, src_mach_encsci | 1872-1913 | reference biography, scholarly encyclopedia, history-of-physics article, reference entry] He argued that Newton's absolute space and time could not be tied to observation and proposed relating motion to the other bodies of the universe (DSB, Stanford); he refused the atomic-molecular view even as physicists around him accepted it and set his descriptionist view against Planck's 1908 attack (DSB, de Waal and ten Hagen, reference entry); Einstein in 1946 praised his 'incorruptible skepticism and independence' (quoted by the DSB). The DSB adds that his stance was often judged hypercritical and obstreperous, and that the anti-atomism cost him credibility, hence dual-edged. SELF-CALIBRATION (agent): lowered from 82 / 0.66 to 78 / 0.60 because the Einstein tribute is a pupil-side admirer's retrospective view and the critique of mechanics and the anti-atomism are one theme. RUBRIC_CORRECTION (Roster67 lead review): 78@0.6 -> 74@0.56. the Newton-critique episode is retold across DSB, Stanford and an encyclopedia entry from one scholarly lineage; relativity-preface authorship is also contested."
+    },
+    "belief_updating": {
+      "score": 42,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mach_dsb, src_mach_bluh, src_mach_sep, src_mach_waal | 1863-1913 | reference biography, historian-physicist's article, scholarly encyclopedia, history-of-physics article] The DSB and Bluh show he began by using the atomic-molecular theory as a working hypothesis (Compendium, 1863) but within a year treated it as a provisional tool, an early change of view; the DSB then says he stayed 'dogmatic' about anti-atomism even after turn-of-century evidence and softened only in tone, while the Stanford entry calls his position less straightforward and reports that he may have told Einstein in 1910 that atoms were acceptable as an organising hypothesis. Sources disagree, so the score stays below the midpoint with low confidence. His alleged rejection of relativity in the Optics foreword is not used because its authenticity is disputed. SELF-CALIBRATION (agent): confidence lowered from 0.48 to 0.44 because the DSB and Stanford entries conflict on how far his anti-atomism softened; score not changed."
+    },
+    "experimentation": {
+      "score": 74,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mach_dsb, src_mach_sep, src_mach_bluh | 1860-1893 | reference biography, scholarly encyclopedia, historian-physicist's article] The DSB and Stanford entries describe an apparatus for the Doppler effect (1860), a pulse-wave recorder, the rotating-disc experiments behind Mach bands, optical and photographic techniques for sound waves, spark waves and projectiles (1873-93) and the 1887 photographs with Salcher; Bluh adds demonstration apparatus built in his Prague laboratory. Einstein praised his 'extraordinary experimental talent' (DSB). SELF-CALIBRATION (agent): lowered from 80 / 0.66 to 76 / 0.62 because the instances come largely from one biographical record and the 1887 experiments were carried out jointly with Salcher in Fiume (DSB), so his own hands-on share is not isolated. RUBRIC_CORRECTION (Roster67 lead review): 76@0.62 -> 74@0.56. experimental programme is documented in DSB and Stanford which repeat one chronology; independent corroboration is thin."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mach_sep, src_mach_dsb, src_mach_bluh | 1873-1905 | scholarly encyclopedia, reference biography, historian-physicist's article] Two distinct stretches: the shock-wave programme ran from the 1870s to the 1880s and 1893 (DSB), and after the stroke that paralysed his right side he continued to study, write and experiment with Ludwig's help and completed Knowledge and Error in 1905 (Stanford; DSB says he resumed lecturing and writing), although Bluh notes he insisted on retirement in 1901 and that the illness handicapped revision of his views. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 68 / 0.50 because the post-stroke evidence is a few sentences and depended on his son's help."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mach_dsb, src_mach_sep | 1860-1864 | reference biography, scholarly encyclopedia] The DSB says that at Graz, with no promise of an institute or equipment, he used his own funds to secure research facilities, and both the DSB and the Stanford entry report his own recollection that he turned to sensory physiology because it could be investigated without costly physical equipment. The second instance is his own later account reported by two writers. SELF-CALIBRATION (agent): lowered from 66 / 0.52 / strong_inference to 60 / 0.44 / inference because one fact comes from a single DSB sentence and the other is Mach's self-report."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mach_dsb, src_mach_sep, src_mach_bluh | 1873-1893 | reference biography, scholarly encyclopedia, historian-physicist's article] The DSB says that from 1873 to 1893 he worked with various collaborators including his son Ludwig and published the 1887 shock-wave paper with Peter Salcher, and with Johann Odstrcil produced the physics textbooks; the Stanford entry says he launched the shock-wave study with assistants and students; Bluh names his shop assistant F. Hajek and his friendship with Josef Popper. The sources do not describe how the partnerships worked, and Ludwig's later handling of his papers is contested. SELF-CALIBRATION (agent): lowered from 62 / 0.50 / strong_inference to 58 / 0.46 / inference because the partnerships are listed, not described."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mach_dsb, src_mach_bluh | 1860-1901 | reference biography, historian-physicist's article] The DSB says he wanted to be a physicist unconstrained by the conventional barriers of the specialists he met, and Bluh says he declined a Salzburg professorship that would have sidetracked him and insisted on retirement in 1901 when he could not teach. Both are interpretations of choices, with no statement of his own reasons. SELF-CALIBRATION (agent): lowered from 64 / 0.46 to 60 / 0.42 because the 'unconstrained' phrase is the DSB author's paraphrase and the Salzburg reason is Bluh's."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에른스트 마흐"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ernst-mach-synnberg-1898.jpg",
+    "width": 741,
+    "height": 1000,
+    "source": "Photogravure portrait of Ernst Mach, printed with the legend 'Ernst Mach, Born 1838', 'Synnberg Photo-gravure Co., Chicago' and 'Copyright 1898 by the Open Court Publishing Co., Chicago'; Wellcome Collection item 11974i (catalogued 'Ernst Mach. Photogravure by Synnberg Photo-gravure Co., 1898', platemark 27.8 x 20.9 cm, IIIF image L0023068, licence Public Domain Mark). The file is a crop of the Wellcome image (1154 x 1708) around the portrait, excluding the printed legend, downscaled to 741 x 1000 with no upscaling. The original photograph's photographer is not named.",
+    "license": "Public domain: published in Chicago in 1898 (before 1931), the photographer is unnamed, and the Wellcome Collection item record carries the Public Domain Mark",
+    "licenseUrl": "https://creativecommons.org/share-your-work/public-domain/pdm/",
+    "attribution": "Ernst Mach, photogravure by Synnberg Photo-gravure Co., Chicago, for the Open Court Publishing Co., 1898; Wellcome Collection (11974i), Public Domain Mark.",
+    "attributionUrl": "https://wellcomecollection.org/works/ezcpfk5u",
+    "creator": "Synnberg Photo-gravure Co., Chicago (photogravure printer), after a photograph by an unnamed photographer; published by the Open Court Publishing Co.",
+    "date": "1898 (publication; the photograph was taken before 1898)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://wellcomecollection.org/works/ezcpfk5u"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED: the lead, Commons 'Ernst-Mach-1900.jpg' (715 x 787), is credited on Commons to Charles Scolik (1854-1928), c.1910, source 'Osterreichische Nationalbibliothek' with a PD-old-80 tag, but its file history shows it was first uploaded in 2006 from a photo site as 'Ernst Mach, 1900', no author, no source, and the Scolik/ONB attribution was added later with no ONB item number; I could not find the ONB Bildarchiv record (searches returned only Scolik prints at the Leopold Museum and MIT Museum, and one Science Museum Group print licensed CC BY-NC-SA), so creator, date and holder could not be verified and the lead was not used. Replacement: Wellcome Collection item 11974i, 'Ernst Mach. Photogravure by Synnberg Photo-gravure Co., 1898' (works id ezcpfk5u, platemark 27.8 x 20.9 cm, IIIF image L0023068, licence Public Domain Mark, read through the Wellcome catalogue API). The printed legend on the print reads 'Synnberg Photo-gravure Co., Chicago', 'Copyright 1898 by the Open Court Publishing Co., Chicago' and, in large letters, 'ERNST MACH / BORN 1838', so the sitter is named on the object itself. Basis: published in Chicago in 1898 (before 1931 therefore public domain in the United States), photographer unnamed, and the holder's PDM. Crop of the Wellcome 1154 x 1708 image around the portrait, legend excluded, downscaled to 741 x 1000 (no upscaling). KIND likeness: a photogravure reproduction of a photograph of the sitter published in his lifetime when he was about 60 (the original photographer and sitting date are unknown). Other routes seen and not used: Science History Institute undated Engelmann portrait (PDM, not opened), Commons Open Court scan, the Science Museum Group print (CC BY-NC-SA). PREFLIGHT: QID VERIFIED LIVE (2026-11-13, Wikidata API) Q93996 label 'Ernst Mach', description 'Austrian physicist (1838-1916)', instance of human, born 1838-02-18, died 1916-02-19, Korean label 에른스트 마흐; no candidate file or QID collision found. REGION central_europe (Schrodinger precedent), nationality AT, ERA 19th_century. ZERO POLITICS: primary identity is physicist and philosopher of science; his appointment to the upper chamber of the Austrian parliament (1901), his rectorship of the Prague university during its German-Czech split and the Lenin and Vienna Circle receptions are context only and unscored. KO NAME 에른스트 마흐 is the Wikidata Korean label. VOCABULARY: occupations physicist and philosopher; fields physics, philosophy, psychology; tags cross_disciplinary and independent; archetypes scientific_explorer and cross_disciplinary_generalist; impact domains scientific, historical, educational (validator: 0 errors). ATTRIBUTION: attributable (dated papers, instruments, appointments); the claims that depend on his own recollections are flagged. CANONICAL SIGNIFICANCE SOURCE: Complete Dictionary of Scientific Biography entry by Erwin N. Hiebert (https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/mach-ernst). READ (5 sources besides Wikidata): DSB (full); Stanford Encyclopedia of Philosophy by Gori and Guzzardi, first published 2026 (full); Bluh, Physics Today 1967 (full); de Waal and ten Hagen 2020 (sections on Mach, Planck and Einstein); Gale reference entry on Encyclopedia.com. INDEPENDENT BEHAVIOURAL EVIDENCE: all five are secondary historical scholarship, none relies on Mach's writings alone, but several repeat the same underlying record (Blackmore 1972) and Mach's own recollections reported by the DSB and Stanford entries are treated as self-report. NOT OPENED: Blackmore 1972 and 1992, Wolters on the Optics foreword, Siemsen 2010 and Blackmore 1989 (paywalled, abstracts only), Hoffmann 2009 on the Mach-Salcher experiments, Einstein's 1916 obituary of Mach (known only through the DSB quotations); Britannica was blocked by a Cloudflare challenge (bot wall, not a rights issue); Wikipedia not used. CONTRADICTIONS AND LIMITS: (1) the DSB and the Gale entry say Mach rejected relativity in the preface to the Optics, while the 2026 Stanford entry reports Wolters's argument that the preface was almost certainly altered by his son Ludwig; the profile therefore makes no claim about Mach and relativity. (2) The DSB calls his anti-atomism dogmatic and probably unchanged while the Stanford entry calls it less straightforward and notes he may have told Einstein in 1910 that atoms were acceptable as a hypothesis; belief_updating is scored below the midpoint at low confidence for this reason. (3) The stroke is dated 1897 by the DSB and July 1898 by the Stanford entry, Bluh and the Gale entry (1898 used). (4) The Mach number was named by Ackeret in 1929, not by Mach. MAJOR ACHIEVEMENT GATE: PASS (cards: critique of Newtonian mechanics and Mach's principle; 1887 shock-wave photographs; Mach bands and the analysis of sensations). SELF-CALIBRATION: 9 rows; all 9 lowered in at least one of score or confidence (8 scores, 9 confidences); resourcefulness and collaboration were also lowered from strong_inference to inference. No raise flags. Not match-eligible by design (9 rows, coverage 0.27); no eligibility computed or targeted. ernst-mach:curiosity RUBRIC_CORRECTION (Roster67 lead review): 72@0.58 -> 70@0.54. four of five substantive sources are secondary entries that draw on the same Blackmore/DSB record, so the independent support is closer to two families than the row's confidence implied. ernst-mach:cross_domain_range RUBRIC_CORRECTION (Roster67 lead review): 76@0.62 -> 74@0.56. same source-family concentration as the other Mach rows (DSB, Stanford, Blackmore-derived entries repeat one account). ernst-mach:independent_thinking RUBRIC_CORRECTION (Roster67 lead review): 78@0.6 -> 74@0.56. the Newton-critique episode is retold across DSB, Stanford and an encyclopedia entry from one scholarly lineage; relativity-preface authorship is also contested. ernst-mach:experimentation RUBRIC_CORRECTION (Roster67 lead review): 76@0.62 -> 74@0.56. experimental programme is documented in DSB and Stanford which repeat one chronology; independent corroboration is thin."
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-cassatt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mary Cassatt",
+    "aliases": [
+      "Mary Stevenson Cassatt"
+    ],
+    "wikidataId": "Q173223",
+    "birthYear": 1844,
+    "deathYear": 1926,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "artist"
+    ],
+    "fieldIds": [
+      "art"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "independent",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_cassatt_wikidata",
+      "kind": "wikidata",
+      "title": "Mary Cassatt (Q173223), verified live via the Wikidata API (2026-11-07): English label 'Mary Cassatt', description 'American painter and printmaker (1844-1926)', human, born 22 May 1844, died 14 June 1926, citizen of the United States, Korean label 메리 카사트. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q173223"
+    },
+    {
+      "id": "src_cassatt_salem",
+      "kind": "biography",
+      "title": "Michael Witkoski, 'Mary Cassatt', EBSCO Research Starters (History; 2024 revision of a reference-encyclopedia biography; read in full). CANONICAL SIGNIFICANCE SOURCE: the only American painter to exhibit regularly with the French Impressionists; formative study in Paris and Europe, the 1877 invitation from Degas and her acceptance ('I accepted with joy'), her mother-and-child paintings and her pastels and Japanese-inspired colour aquatints (first one-woman show 1891 per this entry); her work as adviser to H. O. and Louisine Havemeyer and to James Stillman that helped build major US collections (the Havemeyer collection went to the Metropolitan Museum in 1929); failing eyesight, cataracts and family deaths curtailed her work after 1900 and ended it by about 1913; the entry's significance section names the quality of her work and her collecting influence. Reference-style biography drawing on Breeskin, Mathews, Pollock and others; admiring in tone; some dates (first one-woman show, Salon years) differ from other sources.",
+      "url": "https://www.ebsco.com/research-starters/history/mary-cassatt"
+    },
+    {
+      "id": "src_cassatt_wiwh",
+      "kind": "biography",
+      "title": "Jeanne A. Ojala, 'Cassatt, Mary (1844-1926)', in Women in World History: A Biographical Encyclopedia (Gale; Encyclopedia.com reproduction; read in full). Biography drawing on Nancy Hale (1987), Frederick Sweet (1966) and William Wiser (1991): her father's reaction to Paris plans, Salon entries and rejections (she toned down a painting judged 'too bright'; after a 1877 rejection she never submitted again), exhibiting with the Impressionists 1879-1886 on the principle of not showing in juried exhibitions, the 1893 Chicago murals and the American reception, buying the Chateau de Beaufresne with her own money, declining the 1904 Lippincott and Harris prizes ('no jury, no medals, no awards'), the Dreyfus Affair split with Degas, her dismissal of the Steins' collection and of Monet's water lilies, her advising of the Havemeyers and Stillman, and her late-life isolation, near blindness and the break with Louisine Havemeyer over unsold plates. A frank biography with unflattering detail (abrasive, rigid, prejudiced); it follows the same biographers as other reference entries and contains date slips (it gives the meeting with Degas as 1877 but quotes his 1874 Salon remark).",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/american-art-biographies/mary-cassatt"
+    },
+    {
+      "id": "src_cassatt_voves",
+      "kind": "press",
+      "title": "Ed Voves, 'Art Eyewitness Review: Mary Cassatt at the Philadelphia Museum of Art' (Art Eyewitness blog, 31 May 2024; read in full). Independent review of the 2024 exhibition 'Mary Cassatt at Work' (curators Jennifer A. Thompson and Laurel Garber): the Fourth Impressionist exhibition of 1879 and her twelve works, her parents' refusal to subsidise her career, her quoted remarks on work and independence, Degas's recruitment of her for the planned engravings journal 'Le Jour et la nuit' that never appeared, the Japanese print exhibition of 1890 that led to her 1890-91 'Set of Ten' colour prints (she hired a professional printer but did much of the work herself), and the conservators' step-by-step re-creation of her printmaking. Review of one curatorial interpretation (work and professionalism); the reviewer notes that major paintings were absent from the show.",
+      "url": "https://arteyewitness.blogspot.com/2024/05/art-eyewitness-review-mary-cassatt-at.html"
+    },
+    {
+      "id": "src_cassatt_artnews",
+      "kind": "press",
+      "title": "Hettie Judah, 'The Big Review: Mary Cassatt at Work at the Philadelphia Museum of Art', The Art Newspaper, 24 May 2024 (five-star exhibition review; read in full). Frames her as a professional who expected to support herself, notes her family's financial advantage, describes the 1890-91 set of ten prints and their debt to Japanese prints, her studies of women and children (a subject the show calls care work, many models being servants), her vocal support for women's suffrage, and that sentiment sometimes slips into 'sugary' work; compares her unfavourably in social engagement with Kathe Kollwitz. Critical-leaning exhibition review sharing the same curatorial material as the other 2024 reviews.",
+      "url": "https://www.theartnewspaper.com/2024/05/24/the-big-review-mary-cassatt-at-work-at-the-philadelphia-museum-of-art"
+    },
+    {
+      "id": "src_cassatt_spectator",
+      "kind": "press",
+      "title": "Lucy Davies, 'Breathtaking: Mary Cassatt at Work, at the Philadelphia Museum of Art, reviewed', The Spectator, 8 June 2024 (read in full). Review reporting from the exhibition catalogue: her parents' refusal to fund her career after the Franco-Prussian War, her decision to join the Impressionists on Degas's invitation, exhibiting with them four times between 1879 and 1886, her telling a friend she was 'ravenous' for money, the claim that she was the first to combine pastel with metallic paint, a dealer's testimony, quoted in the catalogue and named in the review as 'Ambrose Collard', that she 'laboured for the success of her comrades... with a kind of frenzy', her shaping of East Coast collectors' taste including Havemeyer, and the 'Set of Ten' prints; Degas owned at least 58 of her prints. Exhibition review; relies on the show's catalogue.",
+      "url": "https://spectator.co.uk/article/breathtaking-mary-cassatt-at-work-at-the-philadelphia-museum-of-art-reviewed"
+    },
+    {
+      "id": "src_cassatt_shelburne",
+      "kind": "institution",
+      "title": "Shelburne Museum, online exhibition 'Mary Cassatt's Impressions: Assembling the Havemeyer Art Collection' (read through the Cassatt narrative and most of the object entries; the final object entries were not read). Museum exhibition text built on the Havemeyer family archive: Louisine Havemeyer's recollections that Cassatt opened her eyes to art in Paris in 1874 and guided her first modern purchases, her later memoir statement that the best things in her collection were bought on Cassatt's judgement and advice, the 1889 meeting of Cassatt and H. O. Havemeyer, an archive letter from Cassatt to Louisine of 1909 handling purchases and dealers for the family, and Cassatt's urging of Louisine toward the suffrage movement. Museum-owned (the Havemeyers' daughter founded it) and drawing on a friend's own recollections, so admiring and not independent of the collectors.",
+      "url": "https://shelburnemuseum.org/online-exhibitions/mary-cassatts-impressions/"
+    },
+    {
+      "id": "src_cassatt_natreview",
+      "kind": "press",
+      "title": "National Review, review of 'Mary Cassatt at Work' at the Philadelphia Museum of Art, 2024 (the first half is readable, the rest is behind a subscription wall; read as far as available). Counter-voice: notes that her father gave her a lifetime allowance and that she bought her country house with money borrowed from her dealer against future sales; that her parents and sister lived with her in Paris until her mother died in 1895 and that she led the caregiving, so months passed with no art; that she was famous and well regarded in her lifetime in Paris and America; and that her story, as a rich American in Paris, is hard to universalise. Also repeats the quotation that seeing Degas's pastels 'changed my life'.",
+      "url": "https://nationalreview.com/2024/08/mary-cassatt-at-work-at-the-philadelphia-museum-of-art/amp"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cassatt_salem, src_cassatt_wiwh, src_cassatt_voves, src_cassatt_natreview | 1860s-1914 | reference biography, encyclopedia biography, exhibition reviews] Several episodes point the same way: she kept studying and copying across years of Paris and Italy before recognition, kept making art while nursing her parents and sister (the National Review notes months with no art), went back to work in pastel in 1912 after a breakdown and failing eyesight, and her work ended by about 1913 (Salem; the National Review dates her last pastel to 1914). Her own sentences about work being 'the whole secret' of contentment are quoted by the 2024 reviewers. SELF-CALIBRATION (agent): lowered from 76 / 0.60 to 72 / 0.56 because the work-ethic claim leans on her own quoted words and on one exhibition's curatorial theme, while the documented hardships come from two reference biographies that share sources."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_cassatt_salem, src_cassatt_voves, src_cassatt_artnews | 1870s-1910 | reference biography, exhibition reviews] Salem says she could work from dawn until the light faded; the 2024 reviews describe a professional routine of drawing, repeated printing states and preparatory studies. The studio routine itself is not described by a source; it is inferred from the volume (about 225 prints and 617 oils and pastels per Salem) and the surviving states. CONCENTRATION (agent): lowered from 70 / 0.54 to 66 / 0.48 and from strong_inference to inference because the daily-routine claim rests on one sentence in one reference entry and on a single exhibition's framing."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cassatt_salem, src_cassatt_wiwh, src_cassatt_voves, src_cassatt_artnews | 1860s-1891 | reference biography, encyclopedia biography, exhibition reviews] Documented skill-building steps: years of copying old masters in the Louvre and other museums, a course of study in Parma on Correggio and trips to see Velazquez and Rubens (Salem), engraving instruction in 1872, and in 1890-91 a deliberate, laborious learning of colour aquatint for the 'Set of Ten', where she worked with a printer but did much of the exacting work herself (Voves); conservators re-created the process step by step. The encyclopedia entry quotes biographers calling her 'not a very inventive painter' who needed strong influences, which fits a craft-learner profile rather than a pure innovator."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cassatt_salem, src_cassatt_voves, src_cassatt_spectator, src_cassatt_artnews | 1878-1891 | reference biography, exhibition reviews] Three distinct documented departures: turning to pastels and prints on Degas's urging (Salem), the colour aquatints inspired by the 1890 Japanese print exhibition, pursued as a set of ten (Voves, Art Newspaper), and the planned journal of engravings 'Le Jour et la nuit' with Degas, Pissarro and Bracquemond, which was never published (Voves). The Spectator says she was the first to combine pastel with metallic paint, hedged with 'apparently'. SELF-CALIBRATION (agent): lowered from 68 / 0.52 to 64 / 0.50 because the 'first' claim is hedged and three of the four sources are reviews of the same exhibition."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_cassatt_wiwh, src_cassatt_salem, src_cassatt_voves, src_cassatt_natreview | 1877-1904 | encyclopedia biography, reference biography, exhibition reviews] She said that joining the Impressionists meant she could 'work with absolute independence without considering the opinion of a jury' (Salem; the same words recur in other accounts); she stopped sending work to the Salon after 1877 (Salem, Ojala), declined the 1904 Lippincott and Harris prizes on the principle 'no jury, no medals, no awards' (Ojala) and wrote that she was independent and could live alone (Voves). The National Review qualifies the picture: she had a family allowance and borrowed from her dealer to buy a house. CONCENTRATION (agent): lowered from 76 / 0.58 to 72 / 0.52 because the strongest statements are her own words, repeated across sources, and the prize refusal is documented by one encyclopedia entry."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cassatt_wiwh, src_cassatt_salem | 1877-1913 | encyclopedia biography, reference biography] She left the Salon system for a group the critics ridiculed, and in the Dreyfus Affair she slowly came to doubt his guilt while Degas would not, whereas in later life she dismissed the Steins' modern collection and Monet's water lilies in sharp terms (Ojala). The same independence of judgement ran against the new art of her time, hence dual-edged. CONCENTRATION (agent): lowered from 70 / 0.54 to 66 / 0.48 and from strong_inference to inference because both sources repeat the same joining-the-Impressionists statement and the later episodes come from a single entry."
+    },
+    "achievement_drive": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cassatt_wiwh, src_cassatt_spectator, src_cassatt_voves | 1870s-1900s | encyclopedia biography, exhibition reviews] The encyclopedia calls her overtly ambitious and eager for recognition and financial security; the Spectator quotes her telling a friend she was 'ravenous' for money; Voves says she was driven to succeed commercially, and she organised one-woman shows in Paris. Against this she refused prizes and a state commission offer (Ojala), so the drive is better read as drive for her own professional standing than for honours, hence dual-edged. CONCENTRATION (agent): lowered from 68 / 0.52 to 64 / 0.46 and from strong_inference to inference because the ambition is documented by one biographer's characterisation and her own remark, with the refusals pointing the other way."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_cassatt_shelburne, src_cassatt_salem, src_cassatt_wiwh, src_cassatt_spectator | 1874-1909 | museum exhibition text, reference biography, encyclopedia biography, exhibition review] The Havemeyers bought Degas, Manet and other works on her advice (Shelburne quotes Louisine Havemeyer's memoir), and a dealer quoted in the Spectator said she laboured for her comrades 'with a kind of frenzy'; she also advised James Stillman (Salem, Ojala). But the few pictures she persuaded her brothers to buy were later disposed of by their heirs, and the Americans' reception of Impressionism stayed cold for decades (Ojala). SELF-CALIBRATION (agent): lowered from 64 / 0.50 to 60 / 0.44 and from strong_inference to inference because the success story comes mainly from the Havemeyer family's own recollections, collectors who were already receptive, while the encyclopedia records failures."
+    },
+    "social_assertiveness": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_cassatt_wiwh, src_cassatt_salem | 1860s-1920s | encyclopedia biography, reference biography] Salem describes her as direct and forceful, expressing opinions without reserve; Ojala describes her as abrasive, as quickly dismissing people who offended her sensibilities, and as arguing with Degas ('bitter arguments' that they always settled, usually at her initiative per Salem). One biographer tradition supplies the character sketch, and no specific meeting or negotiation is described in the sources. CONCENTRATION (agent): lowered from 68 / 0.48 to 64 / 0.42 because the characterisation comes from one biographical tradition and is general rather than tied to dated episodes."
+    }
+  },
+  "doNotCopyKeys": [],
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메리 카사트"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mary-cassatt-mary-cassatt-1880.jpg",
+    "width": 904,
+    "height": 1200,
+    "source": "Self-portrait by Mary Cassatt, c. 1880, gouache and watercolor over graphite on paper (image 32.7 x 24.6 cm), monogrammed 'M C' at lower centre, National Portrait Gallery, Smithsonian Institution, object NPG.76.33; the NPG record names artist and sitter as Mary Stevenson Cassatt. File is the holder's 904 x 1200 'screen image' (ids.si.edu NPG-NPG_76_33_inex_screen), used as delivered: not resized, cropped or upscaled.",
+    "license": "CC0 1.0 (public domain dedication) as stated on the National Portrait Gallery item record ('CCO - Creative Commons (CC0 1.0): This media is in the public domain'); the work itself is also in the public domain (artist died 1926)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Mary Cassatt, Self-Portrait, c. 1880; National Portrait Gallery, Smithsonian Institution (NPG.76.33), CC0.",
+    "attributionUrl": "https://npg.si.edu/object/npg_NPG.76.33",
+    "creator": "Mary Cassatt (self-portrait)",
+    "date": "c. 1880",
+    "kind": "likeness",
+    "sourcePageUrl": "https://npg.si.edu/object/npg_NPG.76.33"
+  },
+  "provenance": {
+    "createdAt": "2026-11-07T00:00:00Z",
+    "updatedAt": "2026-11-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED: the lead's Commons '1914 Mary Cassatt.jpg' (unknown author, labelled PD-old-70 and PD-Art, credited to Archives of American Art, Frederick A. Sweet papers) did NOT survive. The holder's own item record (Smithsonian AAA, record AAADCD_item_4001: 'Mary Cassatt, Grasse, 1914', unidentified photographer, 1 photographic print, Frederick A. Sweet research material on Mary Cassatt and James A. McNeill Whistler) states 'Current copyright status is undetermined' and 'There are restrictions for re-using this image'; the Commons PD template therefore cannot be relied on. Other Commons photographs not used: Joseph Durand-Ruel 1910 (published in a 1993 Marmottan catalogue, source archive not verifiable) and the 1913 Durand-Ruel seated photograph (Frick Archives item not opened; its Commons PD-1923 basis was not verified at the holder). REPLACEMENT: self-portrait by Mary Cassatt, c. 1880, gouache and watercolor over graphite on paper, National Portrait Gallery, Smithsonian (NPG.76.33). The NPG item page (opened) lists artist and sitter as Mary Stevenson Cassatt (22 May 1844 - 14 Jun 1926), medium, dimensions, credit line 'National Portrait Gallery, Smithsonian Institution', and 'Restrictions & Rights: CC0'; the work is also public domain by the artist's death (1926). The image bears the monogram 'M C' at lower centre. File is the holder's 904 x 1200 screen derivative (168 KB), unmodified, no upscaling. KIND likeness (the sitter's own depiction of herself, c. 1880, during her lifetime). The Smithsonian Open Access page was bot-walled (403) and was not needed. PREFLIGHT: QID VERIFIED LIVE (2026-11-07, Wikidata API) Q173223 label 'Mary Cassatt', description 'American painter and printmaker (1844-1926)', human, born 22 May 1844, died 14 June 1926, citizen of the United States, Korean label 메리 카사트. REGION north_america (US citizen; career in France but North American national precedent as for other expatriate Americans). ERA 19th_century (born 1844; her defining work 1870s-1900). Nationality US. ZERO POLITICS: primary identity is painter and printmaker; her suffrage support is mentioned only in sources and is not scored; the Dreyfus Affair episode is used only as an example of her judgement and is not an activism row. VOCABULARY: occupations painter, artist; field art; tags independent, craft_focused; archetypes creative_creator, independent_creator; impact domains artistic, cultural (all in the existing taxonomy; validator clean). KO NAME 메리 카사트 is the Wikidata label. ATTRIBUTION: attributable (dated works, exhibition records, letters and recollections cited in several biographies). CANONICAL SIGNIFICANCE SOURCE: Salem/EBSCO Research Starter by Michael Witkoski (https://www.ebsco.com/research-starters/history/mary-cassatt). READ: Salem (full), Women in World History/Gale entry by Ojala (full), Art Eyewitness review (full), Art Newspaper review (full), Spectator review (full), Shelburne Museum Havemeyer exhibition text (most), National Review review (first half only; paywalled). Not opened: Mathews's biography, Hale 1987, the Havemeyer memoir itself, the exhibition catalogue, the Met and NGA pages (bot-walled or rate-limited). Wikipedia not used. PERSPECTIVES: reference biography; encyclopedia biography with unflattering detail; the 2024 Philadelphia exhibition as seen by three reviewers (one curatorial family); a museum built on the collector family's archive; a critical counter-voice on her privileges. NON-SELF BEHAVIOURAL SOURCES: Ojala, Salem, the exhibition reviews, the National Review. CONTRADICTIONS AND LIMITS: sources differ on when she met Degas (1874 remark vs 1877 meeting), on the date of her first one-woman show (1891 vs 1893) and on Paris arrival dates, so no dates are carded for these; Ojala quotes biographers calling her not very inventive while Salem calls her vision original (no creative_originality row); the Havemeyer-circle evidence is partly the family's own recollections. No adversarial biography was found beyond the National Review's counter-voice and Ojala's frank portrait. CONCENTRATION: families = (1) Gale/Ojala (drawing on Hale, Sweet, Wiser); (2) Salem/Witkoski (drawing on Breeskin, Mathews, Pollock); (3) the 2024 Philadelphia exhibition and catalogue as relayed by Voves, Judah, Davies and the National Review; (4) the Havemeyer memoir as relayed by Shelburne. Five rows lowered for concentration (discipline, autonomy_need, independent_thinking, achievement_drive, social_assertiveness); self-calibration lowered persistence, experimentation, persuasiveness. MAJOR ACHIEVEMENT GATE: PASS on all (cards: Impressionist membership; women-and-children work with Japanese-print influence and Set of Ten; collecting advice and the Havemeyer collection). Sparse 9-row profile by design."
+  }
+}

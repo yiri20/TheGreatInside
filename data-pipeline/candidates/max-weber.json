@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "max-weber",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Max Weber",
+    "aliases": [
+      "Maximilian Weber",
+      "Maximilian Carl Emil Weber",
+      "Karl Emil Maximilian Weber"
+    ],
+    "wikidataId": "Q9387",
+    "birthYear": 1864,
+    "deathYear": 1920,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "economist",
+      "jurist"
+    ],
+    "fieldIds": [
+      "law",
+      "education",
+      "religion"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "educational",
+      "cultural"
+    ],
+    "tagIds": [
+      "theorist",
+      "cross_disciplinary",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_weber_wikidata",
+      "kind": "wikidata",
+      "title": "Max Weber (Q9387), verified live via the Wikidata API (2026-11-07): English label 'Max Weber', description 'German sociologist, philosopher, and political economist (1864-1920)', Korean label 막스 베버, instance of human, born 1864-04-21, died 1920-06-14. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q9387"
+    },
+    {
+      "id": "src_weber_sep",
+      "kind": "biography",
+      "title": "Stanford Encyclopedia of Philosophy, 'Max Weber' (first published 2007, substantive revision 2022; read in full for the life and career section and the headings on history, modernity, knowledge, politics and ethics). CANONICAL SIGNIFICANCE SOURCE: calls him arguably the foremost social theorist of the twentieth century and a principal architect of modern social science, with the 'rationalization thesis' and the 'Protestant Ethic thesis' as his two most celebrated contributions; life sketch (Heidelberg professorship, the 1904 American trip, the Archiv, co-founding the German Sociological Society in 1909, wartime public writing, Weimar-constitution advisory role, Vienna and Munich 1918-20). Scholarly reference entry, admiring of the work but candid about political misjudgements.",
+      "url": "https://plato.stanford.edu/entries/weber/"
+    },
+    {
+      "id": "src_weber_ndb",
+      "kind": "biography",
+      "title": "Friedrich Wilhelm Graf, 'Weber, Max (eigentlich Carl Emil Maximilian)', Neue Deutsche Biographie vol. 27 (2020), pp. 474-477 (German national biography; read in full in German on Deutsche Biographie). Dated career facts: studies and 1889 doctorate, 1891 habilitation, the 1890s Verein fuer Socialpolitik farm-labour inquiries, chairs at Freiburg (1894) and Heidelberg (1897), leaving his chair in 1903, the 1904-05 Protestant Ethic essays, co-editing the Archiv, the 1909 German Sociological Society and his later resignation, the world-religions studies, the 1918 move to Vienna and 1919 to Munich, and his death in 1920. Reference biography by a specialist; sober in tone.",
+      "url": "https://www.deutsche-biographie.de/sfz6881.html"
+    },
+    {
+      "id": "src_weber_iess",
+      "kind": "biography",
+      "title": "'Weber, Max', International Encyclopedia of the Social Sciences (Gale, reproduced on Encyclopedia.com; the 1968-era entry read in full). Reference-work account of his analysis of social structure (the East-Elbian farm-labour inquiry), the Protestant ethic, social action and types of authority, with a view of his 'extraordinary intellectual tensions' (realist and nationalist who criticised his own country, monarchist who denounced the Kaiser) and his insistence on a value-free social science. Older reference entry, admiring but analytical.",
+      "url": "https://www.encyclopedia.com/people/social-sciences-and-law/sociology-biographies/max-weber"
+    },
+    {
+      "id": "src_weber_lrb",
+      "kind": "press",
+      "title": "Geoffrey Hawthorn, 'Anti-Magician', London Review of Books vol. 31 no. 16 (27 August 2009), review of Joachim Radkau's Max Weber: A Biography (read in full). COUNTER-VOICE from a critical scholarly reviewer drawing on Radkau's use of previously unused letters: the 1895 Freiburg lecture and its reception, his judged lack of talent for practical politics and patience with open-ended events, his learning Russian to follow the 1905 revolution, the Rome stays, the Grundriss handbook project whose contributors drifted away, the 1918-19 attempt to enter politics, and a judgement that he proceeded 'by degrees of rage, romance and intuition more than analysis, and not always with enough evidence'. Private-life material in the review is not used.",
+      "url": "https://www.lrb.co.uk/v31/n16/geoffrey-hawthorn/anti-magician"
+    },
+    {
+      "id": "src_weber_glatzer",
+      "kind": "institution",
+      "title": "Wolfgang Glatzer, 'Die akademische soziologische Vereinigung seit 1909' (history of the German Sociological Society, revising a 1995 chapter; read in full, in German). Independent institutional history: the society's founding at a Berlin hotel on 3 January 1909 by 39 scholars, Weber's claim on the treasurer's post, the dispute with Schmoller of the Verein fuer Socialpolitik, the value-freedom clause in the first statute, and the 1913 resignations of Weber, Simmel and Vierkandt from the board after the disputes of the 1912 congress.",
+      "url": "https://wiki.studiumdigitale.uni-frankfurt.de/SOZFRA/images/8/8b/Glatzer_geschichte.pdf"
+    },
+    {
+      "id": "src_weber_lemo",
+      "kind": "institution",
+      "title": "Deutsches Historisches Museum, LeMO (Lebendiges Museum Online), 'Max Weber 1864-1920' biography timeline (read in full, in German): dated milestones from the 1891-92 farm-labour study to the 1919 lectures and his death in 1920. Short museum timeline; used only for consistent dates.",
+      "url": "https://www.dhm.de/lemo/biografie/Max-Weber"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weber_lrb, src_weber_ndb, src_weber_sep | 1902-1917 | biography review, reference biography, encyclopedia entry] Hawthorn, reviewing Radkau's biography, reports that after the 1905 Russian revolution he learned Russian, read the Russian press and questioned an informed exile before writing on Russia, and that long stays in Rome in 1902-03 revived his youthful interest in religion; the NDB and the SEP record the 1904 journey to the United States and, from about 1911, comparative studies of Confucianism, Hinduism, Buddhism and ancient Judaism. Several self-directed learning episodes across three sources, none framed as a trait by the source. SELF-CALIBRATION (agent): lowered from 76 / 0.62 to 72 / 0.58 because the most behavioral episodes come from a single review of one biography and the rest is the list of topics he wrote on. RUBRIC_CORRECTION (Roster67 lead review): 72@0.58 -> 70@0.54. the language-learning episode rests on a single review of one biography (Radkau via Hawthorn)."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weber_ndb, src_weber_sep, src_weber_iess | 1889-1920 | reference biography, encyclopedia entry, reference-work entry] Trained in law, economics, history and philosophy, he wrote on medieval trading companies, Roman agrarian history, East-Elbian farm labour, the stock exchange, Russian constitutional history, the sociology of music, the comparative economic ethics of the world religions and a general sociology (NDB); the SEP says his work gave impetus to law, economics, political science and religious studies as well as sociology. Documented across three independent reference authors; breadth is documented as output, not as a stated habit of mind. SELF-CALIBRATION (agent): lowered from 78 / 0.64 to 74 / 0.6 because the three reference sources describe the same body of publications and none documents the range through anything beyond output. RUBRIC_CORRECTION (Roster67 lead review): 74@0.6 -> 72@0.56. breadth is attested by reference works (NDB, SEP, IESS) that summarise one canonical account of his oeuvre; breadth of output is partly reputation."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weber_iess, src_weber_ndb, src_weber_sep | 1904-1920 | reference-work entry, reference biography, encyclopedia entry] The reference entries describe his insistence on clear concepts, systematic observation and logical inference, the 1904 'Objectivity' essay setting out a value-free, conceptually exact approach, the ideal-type method and a strict methodological individualism. Method is described from his own methodological writings; the Hawthorn review adds a counter-voice that he proceeded 'by degrees of rage, romance and intuition more than analysis, and not always with enough evidence'. SELF-CALIBRATION (agent): lowered from 76 / 0.6 to 70 / 0.5 because the claim rests on his own methodological statements as relayed by reference works and the Hawthorn review contradicts it in part."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weber_iess, src_weber_ndb, src_weber_sep | 1904-1920 | reference-work entry, reference biography, encyclopedia entry] He built typologies (types of social action, of authority and of legitimate domination) and the 'rationalization' account of Western modernity that link economy, law, religion and state in one framework, and the NDB describes the analysis of domination, law, religion and politics through the interplay of action, structures of coordination and value ideas. The evidence is the conceptual output as credited by reference works; no source describes how he worked at this level. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 68 / 0.5 because the evidence is the credited conceptual output only and largely duplicates what supports analytical_rigor."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weber_ndb, src_weber_iess, src_weber_sep | 1895-1918 | reference biography, reference-work entry, encyclopedia entry] He left the Pan-German League in 1899 because he thought it too lax on the Polish question (NDB), rejected naturalistic, evolutionist and metaphysical explanations of society and argued against Marxist, utilitarian and historicist schools (IESS, NDB), is described as a monarchist who openly denounced the Kaiser and a nationalist who treated national slogans with detachment (IESS), and stayed outside the party lines of 1918-19 (SEP). Several separate episodes, from different authors. SELF-CALIBRATION (agent): lowered from 74 / 0.6 to 72 / 0.56 because each concrete episode (Pan-German League exit, criticism of the Kaiser) rests on a single sentence in one reference entry."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_weber_lrb, src_weber_glatzer, src_weber_ndb, src_weber_sep | 1895-1913 | biography review, institutional history, reference biography, encyclopedia entry] His 1895 Freiburg inaugural lecture aroused general consternation, which he enjoyed (LRB); a 1905 dispute with Gustav Schmoller of the Verein fuer Socialpolitik was only superficially settled and the value-freedom dispute split the new German Sociological Society from the Verein (Glatzer); his value-freedom postulate provoked heavy criticism and he resigned from the society's offices after the quarrels (NDB, Glatzer); in wartime he became a vocal critic of the government (SEP). Hawthorn adds that he will have known he was intolerant and bad tempered, and the disputes cost him posts and allies: dual-edged. SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 68 / 0.52 because the value-freedom dispute is described by three sources that retell one episode and the Freiburg anecdote comes from his own letter."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weber_lrb, src_weber_ndb, src_weber_sep | 1904-1920 | biography review, reference biography, encyclopedia entry] After he gave up his chair in 1903 he continued as a private scholar, took over the editorship of the Archiv fuer Sozialwissenschaft und Sozialpolitik and carried the world-religions studies and the Economy and Society project through to his death (NDB, SEP); when the contributors to the handbook he had agreed to edit dropped out one by one, he was left to produce the work himself (LRB). The deserted-contributors episode rests on one reviewer; the long programme rests on the reference entries. SELF-CALIBRATION (agent): lowered from 70 / 0.58 to 66 / 0.52 because the concrete episode comes from a single review and the rest is output volume."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weber_ndb, src_weber_sep, src_weber_glatzer | 1904-1909 | reference biography, encyclopedia entry, institutional history] He took editorial control of the Archiv fuer Sozialwissenschaft und Sozialpolitik with Jaffe and Sombart in 1904, helped found the German Sociological Society in 1909 and initiated its press and association surveys (NDB), and claimed the treasurer's post at its founding (Glatzer); the SEP describes him as a co-founder. Institution-building is documented; the Glatzer history credits several personalities with pushing the founding through and cites Toennies naming Rudolf Goldscheid as the originator of the idea, so the initiative is shared."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weber_sep, src_weber_ndb, src_weber_glatzer, src_weber_lrb | 1897-1914 | encyclopedia entry, reference biography, institutional history, biography review] He co-edited a journal with Jaffe and Sombart and co-founded a learned society with Toennies, Simmel and Sombart, and the SEP describes the Heidelberg circle he and his wife hosted for scholars. Against this, his friendship with Troeltsch broke in 1914 (NDB), the handbook contributors drifted away (LRB) and he left the society within a few years, so the evidence supports only a moderate lean."
+    },
+    "belief_updating": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weber_sep, src_weber_ndb | 1890s-1918 | encyclopedia entry, reference biography] He judged the prospects of a Christian-inspired social reform increasingly sceptically after the early 1890s (NDB), and he moved from fervent wartime support of German policy to sharp criticism of it and then to calling for democratisation (SEP; the NDB also records his wartime advocacy of German great-power interests alongside demands for parliamentary government). Two documented changes of position from two authors; the reasons are described only briefly and the Hawthorn review (src_weber_lrb) records only that he narrowed what he claimed for the Protestant Ethic thesis, which is not scored as updating."
+    },
+    "leadership_drive": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_weber_sep, src_weber_lrb, src_weber_ndb | 1897-1919 | encyclopedia entry, biography review, reference biography] The SEP describes a lifelong tension between worldly statesmanship and ascetic scholarship; he sought nomination for a parliamentary seat in 1918-19 but Hawthorn says he half-heartedly pursued it and disdained what a candidacy required, and judges him insufficiently determined for practical politics. Mixed evidence, hence a mid score and low confidence; the party-political episode is scored only as evidence about leadership appetite."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "막스 베버"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/max-weber-gottmann-1918.jpg",
+    "width": 708,
+    "height": 1000,
+    "source": "Half-length studio portrait photograph of Max Weber by the Heidelberg photographer Ernst Gottmann, dated 1918. Wikimedia Commons file 'Max Weber in 1918.png' (875 x 1236 PNG; its source field names the Max Weber-Gesamtausgabe digital site of the Bavarian Academy of Sciences and a Google Books volume); the same photograph is also on Commons as 'Max Weber, 1918.jpg' (from Britannica's image server). Downscaled to 708 x 1000 JPEG with no upscaling. A Bayerische Staatsbibliothek Bildarchiv record (bavarikon object BSB-BAR-0000000000069268) credits Ernst Gottmann for a 1947 reproduction of a c.1918 portrait of Weber, but that holder page is behind a bot-check wall (Anubis) and could not be read.",
+    "license": "Public domain: the photographer Ernst Gottmann died in 1932, so the German term of life plus 70 years has expired, and Commons tags the file PD-old; no holder restriction was found, but the Bavarian State Library record could not be opened, and the date and place of first publication are not documented",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Ernst Gottmann, portrait of Max Weber, 1918 (Wikimedia Commons, 'Max Weber in 1918.png'; downscaled).",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Max_Weber_in_1918.png",
+    "creator": "Ernst Gottmann (Heidelberg, 1874-1932)",
+    "date": "1918",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Max_Weber_in_1918.png"
+  },
+  "provenance": {
+    "createdAt": "2026-11-07T00:00:00Z",
+    "updatedAt": "2026-11-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / SURVIVED: the lead was Commons Max Weber in 1918.png by Ernst Gottmann; used as the portrait after verification and downscaling (875x1236 to 708x1000, no upscaling). Verified: creator Ernst Gottmann (Heidelberg photographer, 1874-1932; en.wikipedia profile read), the same photograph on Commons as Max Weber, 1918.jpg (sourced to Britannica image server) and on the World History Encyclopedia page (credits Gottmann, 1918); the Commons Max Weber in 1918.png source field names the MWG-digital site of the Bavarian Academy; the MWG-digital start page was opened and carries an unlabeled Weber image with no photographer, date or rights text (so it neither confirms nor contradicts). HOLDER RECORD: a Bayerische Staatsbibliothek Bildarchiv record on bavarikon (BSB-BAR-0000000000069268) credits Ernst Gottmann for a 1947 reproduction of a c.1918 half-length portrait, per a search-result summary; the page itself was blocked by an Anubis bot-check wall and could not be opened, which is a bot wall and not a rights conflict, and no permission requirement or restriction is known. RIGHTS: Gottmann died 1932 so the German 70-year term ended in 2002; Commons tags PD-old-auto-expired; US status depends on first publication, which is not documented (a 1918 studio portrait first published before 1931 would be public domain). No visible lettering or caption on the image; identity rests on consistent catalogue attributions (Commons, Britannica image, BSB catalogue entry as reported, World History Encyclopedia), not on inscription. KIND likeness (lifetime studio photograph). IDENTITY: QID Q9387 verified live 2026-11-07 via Wikidata API: label Max Weber, description German sociologist, philosopher, and political economist (1864-1920), ko label 막스 베버, human, born 1864-04-21, died 1920-06-14. Region western_europe (German precedent), era 20th_century (main work 1904-1920), nationality DE. ZERO POLITICS: primary identity is scholar and social scientist; his party and constitutional activity of 1918-19, the 1895 nationalist lecture and the wartime writings are context only and are not described as achievements; leadership_drive scores only his appetite for leadership, and the belief_updating row uses his shift of wartime stance only as an instance of changing position. PRIVATE CONDITIONS: the sources record a long illness-related withdrawal from teaching (1897-1903); no condition is named, inferred or scored, and the private-life material in the Hawthorn review is not used. SOURCES READ (6 besides Wikidata): SEP entry (life section and headings); NDB entry by Graf (full, German); Encyclopedia.com IESS entry (full); Hawthorn LRB review of Radkau (full); Glatzer history of the German Sociological Society (full, German); LeMO timeline (full, German). Britannica returned 403 and was not read; a Nova Economia 2025 article on the Schmoller-Weber value-judgment dispute could not be downloaded; Marianne Weber biography excerpts (NYU PDF, romance only) were read but not used; the Radkau and Marianne Weber books themselves were not opened. PERSPECTIVES: (1) specialist national biography (NDB); (2) philosophical reference entry (SEP); (3) mid-century social-science entry (IESS); (4) critical review of a modern biography based on new letters (Hawthorn on Radkau); (5) institutional history of the discipline organisation Weber co-founded (Glatzer). NON-SELF BEHAVIOURAL SOURCES: all six; none is Weber own memoir or letters, though the LRB review quotes his letters through Radkau. CONTRADICTIONS AND LIMITS: sources differ on when he left the German Sociological Society (NDB 1910-11 offices, SEP 1912, Glatzer 1913 board resignation); NDB and IESS differ on the year he began at Heidelberg (1897 vs 1896); the SEP has the breakdown follow his father death in 1897 while IESS says 1898; no row is built on those details. ATTRIBUTION: attributable (extensive publication, editorial and organisational record). CANONICAL SIGNIFICANCE SOURCE: Stanford Encyclopedia of Philosophy entry Max Weber. INITIAL ROWS 11; SELF-CALIBRATION lowered 7 rows (scores and confidences) because of single-biographer, output-only and own-statement concentration; no raise flags. MAJOR ACHIEVEMENT GATE: PASS on all six checks; cards (1) The Protestant Ethic essays, (2) Economy and Society and the comparative sociology of religion and authority, (3) value-free method and the German Sociological Society. max-weber:cross_domain_range RUBRIC_CORRECTION (Roster67 lead review): 74@0.6 -> 72@0.56. breadth is attested by reference works (NDB, SEP, IESS) that summarise one canonical account of his oeuvre; breadth of output is partly reputation. max-weber:curiosity RUBRIC_CORRECTION (Roster67 lead review): 72@0.58 -> 70@0.54. the language-learning episode rests on a single review of one biography (Radkau via Hawthorn)."
+  }
+}

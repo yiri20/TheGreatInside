@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "isaac-singer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Isaac Singer",
+    "aliases": [
+      "Isaac Merritt Singer",
+      "Isaac Merrit Singer",
+      "I. M. Singer"
+    ],
+    "wikidataId": "Q312011",
+    "birthYear": 1811,
+    "deathYear": 1875,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "inventor",
+      "entrepreneur",
+      "industrialist"
+    ],
+    "fieldIds": [
+      "technology",
+      "business",
+      "engineering"
+    ],
+    "impactDomains": [
+      "technological",
+      "industrial",
+      "entrepreneurial",
+      "innovation"
+    ],
+    "tagIds": [
+      "founder",
+      "innovator",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "entrepreneurial_builder",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_singer_wikidata",
+      "kind": "wikidata",
+      "title": "Isaac Singer (Q312011), verified live via the Wikidata API (2026-11-07): English label 'Isaac Singer', description 'American businessman; inventor of the Singer sewing machine (1811-1875)', Korean label 아이작 메릿 싱어, born 1811-10-27, died 1875-07-23, instance of human, citizen of the United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q312011"
+    },
+    {
+      "id": "src_singer_cooper",
+      "kind": "biography",
+      "title": "Grace Rogers Cooper (curator of textiles, National Museum of American History), 'The Invention of the Sewing Machine', Smithsonian Bulletin 254 (1968; Project Gutenberg text, the whole Singer, Howe and 'Sewing-Machine Combination' passages read). CANONICAL SIGNIFICANCE SOURCE: describes Singer as an actor and mechanic who came to Boston in 1850 to promote a wood-type carving machine, turned instead to improving the sewing machine in Orson Phelps's shop with a horizontal cloth table, a yielding presser foot and a vertical needle driven by an overhanging shaft; quotes Singer's own later patent-suit testimony about building the model in eleven days on forty dollars and fixing the thread tension at midnight; US patent 8,294 of 12 August 1851; his habit of demonstrating the machine to church groups and at circuses, which led to the packing-case stand and heel-and-toe treadle; the Howe infringement demand of $25,000, the 1 July 1854 payment of $15,000 for a licence, and the 1856 pooling of patents (the 'Combination') proposed by Orlando Potter; the instalment plan credited to his partner Edward Clark; and a footnote warning that Singer has sometimes been credited with improvements that his company bought. Museum-curator scholarship; partly rests on Singer's own testimony.",
+      "url": "https://www.gutenberg.org/cache/epub/32677/pg32677.txt"
+    },
+    {
+      "id": "src_singer_npg",
+      "kind": "institution",
+      "title": "National Portrait Gallery, Smithsonian Institution, catalogue record and exhibition label for Edward Harrison May's 'Isaac Merrit Singer' (1869, object NPG.75.37), read from the Smithsonian Open Access metadata (the museum's own record pages are behind a bot check). Label text: an actor turned inventor who patented a sewing machine in 1851 that was more reliable than Elias Howe's design; he and his partner Edward Clark built an international commercial empire; he commissioned the portrait in Paris after scandals about his private life drove him to Europe, and was painted in clothing reflecting his wealth and notorious extravagance. Short museum label, admiring of the business and frank about the scandals.",
+      "url": "https://npg.si.edu/object/npg_NPG.75.37"
+    },
+    {
+      "id": "src_singer_lindahall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'Isaac M. Singer', Scientist of the Day, Linda Hall Library (23 July 2025; read in full). COUNTER-VOICE: says Singer developed his own machine with a vertical needle on a horizontal surface and patented it on 12 August 1851, but that Edward Clark was the real genius behind the firm (door-to-door selling, instalment payment, New York showrooms) and Orlando Potter behind the 1856 patent pool; reports sales of about 250,000 machines in 1875, ten times any rival; says Singer was forced out in 1863 and calls him generally unlikeable. Library history-of-science essay; it takes its sales figures from Cooper's book, so it is not independent of it on those points.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/isaac-m-singer/"
+    },
+    {
+      "id": "src_singer_gale",
+      "kind": "biography",
+      "title": "Gale reference entries 'Singer, Isaac Merrit' (Business Leader Profiles for Students, and Gale Encyclopedia of U.S. Economic History), Encyclopedia.com (both read in full). Reference profiles: left home at 12, worked as itinerant actor, mechanic and cabinetmaker; sold his 1839 rock-drilling patent for $2,000 and returned to acting with a troupe that went bankrupt; a machine for carving wood and metal destroyed in an explosion; 1850 sewing machine designed in about twelve hours and built in eleven days; Howe's 1853 suit and the 1854 $15,000 licence; the 1856 trust; the instalment plan, service with sales and advertising credited to Singer's firm (the Gale entry credits Singer, the other sources mostly credit Clark); 1864 incorporation with 40 percent of the stock retained; estate of $13 million. Reference profile; marketing credit differs from Cooper and Linda Hall.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/technology-biographies/isaac-merrit-singer"
+    },
+    {
+      "id": "src_singer_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Isaac Singer' (read): 1839 rock-drilling patent, 1849 carving machine, 1851 sewing machine built in eleven days in a Boston shop after a Lerow and Blodgett machine came in for repair, the overhanging arm that allowed continuous and curved stitching, Howe's 1854 victory in the infringement suit, the June 1851 partnership with Edward Clark, instalment plans, the 1863 company and retirement to England. Short reference article; consistent with the others but with its own date for the Clark partnership.",
+      "url": "https://www.britannica.com/biography/Isaac-Singer"
+    },
+    {
+      "id": "src_singer_ebsco",
+      "kind": "biography",
+      "title": "'Isaac Merrit Singer', EBSCO Research Starters (Salem Press biography, read in full): early life, the 1839 patent whose $2,000 founded his acting troupe, the 1849 carving machine and the boiler explosion that destroyed its prototype, his first reluctance to work on Phelps's sewing machines, the eleven-day redesign, the patent pool and installment plan, the family scandal and the 1862 bigamy arrest, and the 1863 reorganisation after which he no longer ran the company. The 'Impact' section calls him an uncanny improver of impractical devices who knew how to surround himself with lawyers and bankers, and cites Ruth Brandon's biography as portraying him as uninterested in sewing machines except as a route to wealth. Secondary summary that leans on Brandon; admiring in tone on business, frank on private life.",
+      "url": "https://www.ebsco.com/research-starters/history/isaac-merrit-singer"
+    },
+    {
+      "id": "src_singer_funding",
+      "kind": "press",
+      "title": "'The Singer Company N.V. History', FundingUniverse company-history series (read, first section on the founding): says Clark was hired in 1854 to defend the Howe suit in exchange for a third of the business and became an equal partner, with Singer running manufacturing and Clark finance and sales; that Clark broke up the lawsuits and created the first US patent pool (the Singer Machine Combination, which lasted until 1877); that Clark introduced the first consumer instalment plan; and that the partnership was dissolved in 1863 and the firm incorporated after Singer's private life came to light, with Singer fleeing to Europe. Company-history reference; its dates for the Clark partnership differ from Britannica and from Cooper.",
+      "url": "https://www.fundinguniverse.com/company-histories/the-singer-company-n-v-history/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_singer_cooper, src_singer_gale, src_singer_ebsco | 1849-1851 | curator history, reference profile, encyclopedia entry] His first carving-machine prototype was destroyed in a boiler explosion and left him penniless (Gale, EBSCO), after which he kept working on the same machine in Boston, and when the first sewing-machine model failed to sew on its first evening trial he kept trying, found the tension fault at midnight and finished it the next day (Singer's own later testimony as quoted by Cooper). Two distinct episodes, but the night trial is one self-told story. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 64 / 0.50 because the night trial is his own testimony and the same anecdote also supports the resourcefulness row."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_singer_cooper, src_singer_gale | 1850-1851 | curator history, reference profile] With no money of his own he built a working model in Phelps's shop in eleven days on forty dollars put up by his backer Zieber (Cooper quoting his patent-suit testimony; Gale says forty dollars borrowed from a friend), and Cooper adds that he made a packing case that doubled as a machine stand and a treadle for it. The eleven-day build rests on his own account of events. SELF-CALIBRATION (agent): lowered from 68 / 0.52 strong_inference to 64 / 0.44 inference because the main evidence is self-report, retold by the reference works."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_singer_cooper, src_singer_ebsco, src_singer_lindahall | 1850 | curator history, encyclopedia entry, library essay] Cooper says that when the carving machine drew little interest he turned to the sewing machine as a device offering considerable opportunity for improvement and financial reward; EBSCO says he first refused Phelps's request, thinking the machine beneath him, so sources differ on who proposed it; Linda Hall says he 'stumbled into' sewing machines and credits Clark and Potter for the commercial insights. SELF-CALIBRATION (agent): lowered from 66 / 0.46 to 60 / 0.38 because the sources disagree on whether the pivot was his own idea and the later commercial foresight is credited to others."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_singer_gale, src_singer_ebsco, src_singer_cooper | 1839-1850 | reference profile, encyclopedia entry, curator history] He spent the proceeds of his $2,000 patent sale on founding his own acting company, which ran out of money (Gale, EBSCO), and arrived in Boston in 1850 with no money, relying on a backer's forty dollars for the sewing-machine model (Cooper). Both episodes are documented as financial exposure; no source describes how he weighed the odds. SELF-CALIBRATION (agent): lowered from 64 / 0.46 to 60 / 0.40 because the acting-company episode is told in the same few reference lines in two sources."
+    },
+    "persuasiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_singer_cooper, src_singer_lindahall, src_singer_ebsco | 1851-1858 | curator history, library essay, encyclopedia entry] Cooper says Singer enjoyed demonstrating the machine to church and social groups and even at circuses and that his aggressive selling helped overcome the public's suspicion of sewing machines; EBSCO credits his flair for the dramatic in selling it, but Linda Hall and the company history credit Clark with the door-to-door selling, showrooms and instalment plan. SELF-CALIBRATION (agent): lowered from 62 / 0.46 to 58 / 0.40 because selling credit is divided between Singer and Clark and the EBSCO characterisation is a biographer's summary."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_singer_cooper, src_singer_funding, src_singer_ebsco | 1850-1863 | curator history, company history, encyclopedia entry] He worked with a series of partners: Phelps and Zieber on the first machines (Cooper), Clark from the Howe suit onward (Cooper, company history), and EBSCO says he surrounded himself with lawyers and bankers who could help him. The partnership with Clark was dissolved in 1863 after the firm's incorporation, and the sources differ on its start date and terms, so the relationship pattern is documented but not its quality. Reviewed in self-calibration and kept."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_singer_cooper, src_singer_gale, src_singer_funding | 1854-1856 | curator history, reference profile, company history] After a court order stopped sales of his machines while the Howe case was pending, he and Clark paid Howe $15,000 for a licence on 1 July 1854 instead of continuing the fight, and in 1856 his firm joined the patent pool (Cooper; Gale gives the same outcome). The company history credits Clark with the settlements and the pool. SELF-CALIBRATION (agent): lowered from 60 / 0.44 to 56 / 0.38 because the decision is described as joint with Clark and the pool is credited to Potter and Clark."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_singer_cooper, src_singer_gale | 1850-1851 | curator history, reference profile] He came to Boston to promote his carving machine himself, bought out Phelps's interest in the new sewing-machine company in late December 1850 (Cooper) and kept improving the machine and demonstrating it in public; Gale lists three patents in 1852-54. The episodes overlap with the persistence and resourcefulness rows and all come from one family of sources. SELF-CALIBRATION (agent): lowered from 64 / 0.50 strong_inference to 60 / 0.44 inference because the episodes overlap with other rows and rest mostly on Cooper."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아이작 메릿 싱어"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/isaac-singer-may-1869.jpg",
+    "width": 757,
+    "height": 1000,
+    "source": "Oil on canvas portrait 'Isaac Merrit Singer' by Edward Harrison May, 1869, National Portrait Gallery, Smithsonian Institution, object NPG.75.37, gift of the Singer Company (provenance: Singer Company, Elizabeth, New Jersey; gift 1975). The file is the Smithsonian's own 'Screen Image' delivery of the museum photograph (3028 x 4000 original), downloaded from ids.si.edu at 757 x 1000 with no resizing by us and no upscaling; the signature 'MAY 1869' is visible at the left of the canvas.",
+    "license": "CC0 1.0 (Smithsonian Open Access): the National Portrait Gallery record states 'Restrictions & Rights: CC0' and the image media record carries usage access 'CC0'; the painting is also public domain by age (artist Edward Harrison May died 1887)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Edward Harrison May, Isaac Merrit Singer, 1869, oil on canvas, National Portrait Gallery, Smithsonian Institution; gift of the Singer Company (NPG.75.37).",
+    "attributionUrl": "https://npg.si.edu/object/npg_NPG.75.37",
+    "creator": "Edward Harrison May (1824-1887)",
+    "date": "1869",
+    "kind": "likeness",
+    "sourcePageUrl": "https://npg.si.edu/object/npg_NPG.75.37"
+  },
+  "provenance": {
+    "createdAt": "2026-11-07T00:00:00Z",
+    "updatedAt": "2026-11-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / SURVIVED: the lead painting (Edward Harrison May, Isaac Merrit Singer, 1869, National Portrait Gallery, Smithsonian, NPG.75.37) is the final portrait. The Smithsonian record pages return a 403 bot check (recorded as a bot wall, not bypassed), so the holder record was read from the Smithsonian Open Access metadata (public S3 file metadata/edan/npg/b2.txt): sitter Isaac Merrit Singer, artist Edward Harrison May, date 1869, oil on canvas, gift of the Singer Company (provenance Singer Company, Elizabeth NJ, gift 1975), Restrictions and Rights CC0, image usage CC0. No holder or Commons discrepancy. Image: the ids.si.edu screen delivery, 757 x 1000 (original 3028 x 4000), no upscaling. Signature MAY 1869 visible on the canvas; no lettering names the sitter, so identity rests on the holder catalogue and its label (commissioned in Paris). KIND likeness (lifetime portrait by a contemporary painter). IDENTITY: QID VERIFIED LIVE (2026-11-07, Wikidata API) Q312011 label Isaac Singer, description American businessman; inventor of the Singer sewing machine (1811-1875), ko label 아이작 메릿 싱어 (also the Korean Wikipedia title), born 1811-10-27, died 1875-07-23, human, US citizen; no slug or QID collision (Isaac Bashevis Singer is a separate proposal). REGION north_america, ERA 19th_century; nationality US. VOCABULARY: occupations inventor, entrepreneur, industrialist; fields technology, business, engineering; tags founder, innovator, self_taught; archetypes entrepreneurial_builder, technical_innovator. ZERO POLITICS: no political role scored. CANONICAL SIGNIFICANCE SOURCE: Cooper, The Invention of the Sewing Machine (Smithsonian Bulletin 254). READ (7 beyond Wikidata): Cooper (Singer/Howe/Combination passages), NPG label via Open Access metadata, Linda Hall essay, two Gale entries, Britannica, EBSCO Research Starters, FundingUniverse; also read and not cited: Appleton 1900 entry, a RootsWeb local biography, New World Encyclopedia, madehow, a Texas local-news piece judged unreliable. Not opened: Ruth Brandon biography, Bissell, Parton 1872, Hagley finding aid (empty page). Wikipedia not used. PERSPECTIVES: curator history with Singer testimony; library essay that demotes his role; Gale/Britannica reference; Salem biography built on Brandon; company history. COUNTER-VOICES: Linda Hall (Clark the genius; Singer forced out), Cooper footnote that Singer is sometimes credited with improvements the company bought, sources disagree on who proposed the sewing-machine pivot and who invented instalment selling (Gale credits Singer, others Clark), and on dates of the Clark partnership (1851 Britannica, 1854 company history, Cooper at the Howe suit). PRIVATE LIFE (five relationships, 1862 bigamy arrest, move to Europe) deliberately not scored and not carded. SPARSE 8-row profile by design; no creative_originality row (Cooper stresses that the machine combined elements others had patented). SELF-CALIBRATION: seven of eight rows lowered (see rationales; initial scores persisted in scratch notes); collaboration kept. CALIBRATION CODE: all lowerings are self-calibration before eligibility, not eligibility remediation. ATTRIBUTION: limited_but_usable (the sewing-machine patent and firm are firmly documented, but credit for marketing and legal strategy is shared with Clark and Potter)."
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "aurel-stein",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Aurel Stein",
+    "aliases": [
+      "Marc Aurel Stein",
+      "Mark Aurel Stein",
+      "Sir Aurel Stein",
+      "Stein Aurél"
+    ],
+    "wikidataId": "Q313061",
+    "birthYear": 1862,
+    "deathYear": 1943,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "HU",
+      "GB"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "scholar"
+    ],
+    "fieldIds": [
+      "exploration",
+      "linguistics"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_stein_wikidata",
+      "kind": "wikidata",
+      "title": "Aurel Stein (Q313061), verified live via the Wikidata API (2026-11-13): English label 'Aurel Stein', description 'Hungarian-British archaeologist (1862-1943)', Hungarian label Stein Aurél, Korean label 아우렐 스타인, instance of human, born 26 November 1862, died 26 October 1943, citizen of Hungary, the United Kingdom and Austria-Hungary. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q313061"
+    },
+    {
+      "id": "src_stein_oldham",
+      "kind": "biography",
+      "title": "Obituary notice 'Sir Aurel Stein' by C. E. A. W. Oldham, Journal of the Royal Asiatic Society, April 1944 (Cambridge University Press; PDF read in full). CANONICAL SIGNIFICANCE SOURCE: Hungarian by birth, British subject from 1904; principal of the Oriental College, Lahore from 1888; four Central Asian expeditions (1900-01, 1906-08, 1913-16, 1930) disclosing Niya, Miran, Lou-lan and the Dunhuang 'Caves of the Thousand Buddhas' cache of documents and paintings, with the Chinese limes traced for 400 miles; the Mohenjo-daro-related tours of Baluchistan and Iran (1927-38), the 1938-39 air and ground survey of the Roman limes, and the trips of 1941-43 in the Indus gorges and Gedrosia, ending with his death at Kabul on 26 October 1943. A colleague's obituary, so admiring in tone, drawing on his letters, and written without discussion of how the Dunhuang material was obtained.",
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/sir-aurel-stein/554F73AD2018C9AF64CBF68E76F7B5A7"
+    },
+    {
+      "id": "src_stein_terzi",
+      "kind": "biography",
+      "title": "Paschalia Terzi and Susan Whitfield, 'Reconstructing a Medieval Library? The Contents of the Manuscript Bundles in the Dunhuang Library Cave', Silk Roads Archaeology and Heritage 1(1), 2024 (open-access PDF read in full). Scholarly reconstruction of Stein's May-June 1907 visit from his diaries, pocket notebooks, publications and the manuscripts he annotated: how he and his Chinese assistant Jiang Xiaowan examined, selected and numbered bundles brought out by the monk Wang Yuanlu, the clandestine night transport of the selections, his site-mark system (found 'generally meticulous' but incomplete and inconsistent under time pressure), the repeated acquisitions of 1907 and 1914, and evidence that Wang had removed and rearranged material before Stein came. Draws mainly on Stein's own papers, so partly self-derived, but the authors test and criticise his record.",
+      "url": "https://doi.org/10.5334/srah.8"
+    },
+    {
+      "id": "src_stein_jacobs_jas",
+      "kind": "biography",
+      "title": "Justin M. Jacobs, 'Nationalist China's \"Great Game\": Leveraging Foreign Explorers in Xinjiang, 1927-1935', Journal of Asian Studies 73(1), 2014 (Cambridge Core page read through its first 100,000 characters). Archival study of how Nanjing and the Xinjiang governor Jin Shuren handled Stein's 1930 fourth expedition: entry on British advice and a quick visa deal, Cai Yuanpei's demand to bar the removal of antiquities, the censor shadowing him, his insistence that his surveys served scholarship, his reliance on local officials and gifts, the cancelled visa of December 1930 and Chiang Kai-shek's expulsion order of May 1931. Independent of the obituary tradition; the last 7,000 characters (conclusion and notes) were not read.",
+      "url": "https://cambridge.org/core/journals/journal-of-asian-studies/article/nationalist-chinas-great-game-leveraging-foreign-explorers-in-xinjiang-19271935/AFA1B73E1DDD8F2095EA6914497C0BA9"
+    },
+    {
+      "id": "src_stein_jacobs_book",
+      "kind": "press",
+      "title": "Brewminate, 'The Compensations of Plunder: Looting China's Art, 1790-1930' (book excerpt/summary page for Justin M. Jacobs, University of Chicago Press, 2020; the web page was read, not the book). Summarises Jacobs's account of Stein at Dunhuang in 1907 (about 9,000 manuscripts bought from Wang Yuanlu; Stein did not read Chinese and took mostly non-Chinese and secular material), his generally cordial dealings with Chinese magistrates, his friendship with the official Pan Zhen (met 1900, correspondence with Pan's son until September 1943), and Jacobs's judgement that Stein used 'dubious methods' while most scholars outside China weigh his contributions higher. Same author as the Journal of Asian Studies article, so the two count as one source family.",
+      "url": "https://brewminate.com/the-compensations-of-plunder-looting-chinas-art-1790-1930/"
+    },
+    {
+      "id": "src_stein_worldarch",
+      "kind": "press",
+      "title": "World Archaeology magazine, review of Susan Whitfield, 'Aurel Stein on the Silk Road' (British Museum Press) (web page read; short). Describes a 'meticulous adventurer' and linguist who taught himself archaeology from Flinders Petrie's reports, secured expedition funds from backers while holding nominal posts in India, carried silver horseshoes to pay for supplies, bought a first small portion from the Dunhuang custodian for four horseshoes and then bargained for more, suffered frostbite and toe amputation on the return crossing, was barred from China after 1928 and turned to Iraq and Iran, and in his seventies pioneered aerial archaeology. A brief review of a book by an author already represented through Terzi and Whitfield, so not independent of that family.",
+      "url": "https://www.world-archaeology.com/books/aurel-stein-on-the-silk-road/"
+    },
+    {
+      "id": "src_stein_indology",
+      "kind": "biography",
+      "title": "'STEIN, Mark Aurel', Who was who in Indology (reference biography, read): education in Budapest and Dresden, Vienna (Sanskrit, Greek, Iranian), Tubingen (PhD 1883, Avestan nominal inflection) and Oxford and London (1884-87); principal at Lahore 1888-99; the four Central Asian expeditions; work in Baluchistan, Iran and on the Roman limes; honours (CIE 1910, KCIE 1912, FBA 1921); a lifetime based mainly in India, living for long periods in a tent above Srinagar; died at Kabul on 26 October 1943. Compact reference entry with no critical evaluation.",
+      "url": "https://whowaswho-indology.info/5949/stein-mark-aurel/"
+    },
+    {
+      "id": "src_stein_riowang",
+      "kind": "press",
+      "title": "Rio Wang / Studiolum, 'Aurel Stein in China' (web page on the digitisation and exhibition of Stein's photographs, read). Records his 1934 will leaving his library and almost 5,000 archive photographs to the Hungarian Academy of Sciences, the wartime seizure of the London part of the bequest as enemy property, its arrival in Budapest only in 1957, the 2007 Budapest conference and exhibition, and the divided reception of Stein in China (official view of him as a thief, against credit for saving tens of thousands of documents). Context on legacy and reception; not used to score personality.",
+      "url": "https://riowang.com/node/1118"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_stein_oldham, src_stein_jacobs_jas, src_stein_worldarch | 1908-1943 | colleague's obituary, archival journal article, book review] The obituary records forty-odd years of expeditions, a frostbitten foot with all the toes of the right foot amputated after a 20,000 ft Kunlun pass in 1908, a crippling horse fall in 1914, two hard trips into the Indus gorges in 1941-42 close to age 80 (the second cut short by a jihad call) and a last journey in Gedrosia in early 1943; Jacobs documents that in 1930-31 he stayed in Xinjiang after Nanjing cancelled his visa and until Chiang Kai-shek ordered his expulsion, and the World Archaeology review says he turned to Iraq and Iran after being barred from China. Two independent families (the obituary and the Jacobs archival study) support the pattern; the 1941-43 hardships rest on the obituary alone and partly on Stein's own letters as quoted by it. SELF-CALIBRATION (agent): lowered from 78 / 0.68 to 75 / 0.64 because the late-life hardships come from one admiring obituary relaying his own letters, while only the 1930-31 episode is independently documented. RUBRIC_CORRECTION (Roster67 lead review): 75@0.64 -> 72@0.58. the 'documented' episodes come from one admiring colleague obituary (Oldham) and a journal piece that cites it."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_stein_oldham, src_stein_terzi | 1907-1929 | colleague's obituary, scholarly reconstruction] The obituary credits him with meticulous attention to accuracy of detail and surveys, maps and plans in his reports; Terzi and Whitfield show from his diaries and notebooks that he kept a daily record of the bundles he examined at Dunhuang (C.i to C.lvii between 23 and 28 May 1907), annotated finds on the spot with a site-mark and bundle number, counted and photographed the bundles and listed excavated items against a master list, calling his work 'generally meticulous', but also that the Dunhuang numbering was inconsistent and incomplete and that no classification within bundles was attempted for lack of time. CONCENTRATION CORRECTION (agent): lowered from 72 / 0.60 to 66 / 0.52 because the general claim rests on the obituary and the one documented case (Dunhuang) was done in rushed, partly clandestine conditions with acknowledged gaps."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_stein_oldham, src_stein_worldarch, src_stein_jacobs_jas | 1900-1931 | colleague's obituary, book review, archival journal article] The obituary credits careful planning in every detail and economy of time, labour and expenditure, and says hundreds of cases of finds crossed deserts and passes safely because of his packing; the review adds the silver horseshoes carried to pay for supplies and expeditions funded by backers he secured; Jacobs shows the 1930 expedition prepared with British advisers, an advance visa deal in Nanjing and Harvard-backed funds, though that plan was largely the advisers' advice and failed under local opposition. CONCENTRATION CORRECTION (agent): lowered from 72 / 0.58 to 64 / 0.50 because the strong wording is the obituary's characterisation, and the independent evidence is partly advisers' planning that did not work out."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_stein_oldham, src_stein_worldarch, src_stein_indology | 1883-1943 | colleague's obituary, book review, reference biography] Beyond his philology he pursued geography and surveying, anthropometric measurements and local vocabularies on his journeys (obituary), taught himself archaeology from Flinders Petrie's reports (review), followed the routes of Alexander and the Chinese pilgrims to site after site, and took up aerial survey in his seventies; the reference entry shows study in Sanskrit, Greek and Iranian before any fieldwork. The obituary says he had wanted to work in Afghanistan since boyhood. CONCENTRATION CORRECTION (agent): lowered from 74 / 0.58 to 68 / 0.50 because three sources largely retell the same admiring biographical outline rather than separate episodes."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_stein_oldham, src_stein_indology, src_stein_worldarch | 1883-1943 | colleague's obituary, reference biography, book review] Documented, sustained work in philology and Indian and Iranian languages (the Rajatarangini edition), topographical survey and map-making, field archaeology in Central Asia, India and Iran, and aerial archaeology of the Roman frontier. These fields overlap heavily (all serve one programme of tracing ancient routes and settlements), which keeps the score moderate. CONCENTRATION CORRECTION (agent): lowered from 68 / 0.54 to 64 / 0.50 because the fields are linked parts of one programme and the sources share one biographical outline."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_stein_oldham, src_stein_jacobs_jas | 1908-1942 | colleague's obituary, archival journal article] He crossed a 20,000 ft Kunlun pass in foul weather in 1908 (frostbite, toe amputation), explored the Indus gorges in tribal territory in 1941-42, and in 1930 pressed on with an expedition into Xinjiang against known official hostility, which ended in expulsion. The risks were physical and diplomatic and taken in service of a planned programme, so the lean is moderate. SELF-CALIBRATION (agent): lowered from 64 / 0.50 to 60 / 0.46 (evidenceType strong_inference to inference) because the physical-danger episodes come from the obituary relaying his own letters and he was cautious in preparation, so the trait is inferred from outcomes of expeditions rather than direct evidence of weighing risk."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_stein_oldham, src_stein_terzi, src_stein_jacobs_book | 1900-1943 | colleague's obituary, scholarly reconstruction, book summary] Stein relied on his life-long artist friend and collaborator F. H. Andrews for cataloguing and on trained Indian and Pathan surveyors for the surveys (obituary), on his Chinese assistant Jiang Xiaowan at Dunhuang, who transcribed an inscription, carried the selections and numbered manuscripts (Terzi and Whitfield), and on referral of finds to specialists in many countries; Jacobs records his friendship with the official Pan Zhen and letters to Pan's son until September 1943. The evidence shows sustained partnerships, but most partners were subordinates or experts he directed. SELF-CALIBRATION (agent): lowered from 66 / 0.56 to 64 / 0.52 because the partnerships were mostly hierarchical (he led and others assisted) and the closest accounts are the obituary's."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_stein_oldham, src_stein_worldarch, src_stein_terzi, src_stein_jacobs_book, src_stein_jacobs_jas | 1900-1931 | colleague's obituary, book review, scholarly reconstruction, book summary, archival journal article] The obituary credits instinctive tact in dealing with men of all races, the review says he won over superiors and backers for funding, and he persuaded the custodian Wang Yuanlu to sell him manuscripts in 1907 (Terzi and Whitfield, Jacobs), but the price and manner of that sale are disputed, Wang raised prices with each buyer, and Jacobs calls Stein's methods 'dubious'; in 1930-31 his insistence and gifts to local officials did not stop his expulsion. The claim therefore mixes real successes with contested ones. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 60 / 0.46 (evidenceType strong_inference to inference) because the main documented episode, the Dunhuang purchase, is told largely from Stein's own accounts, and the independent 1930 episode shows persuasion failing."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_stein_oldham, src_stein_worldarch, src_stein_indology | 1888-1943 | colleague's obituary, book review, reference biography] He left the Calcutta Madrasa principalship after a few months to pursue exploration (reference entry), had been 'maturing plans' for Central Asian work before obtaining Lord Curzon's government's sanction and support for the first expedition of 1900-01, initiated four Central Asian expeditions and the later survey programme in Baluchistan, Iran and the Roman frontier, and secured funding from backers throughout. CONCENTRATION CORRECTION (agent): lowered from 74 / 0.58 to 70 / 0.54 because the initiative is documented in the same biographical outline in all three sources and the funding story is summarised, not detailed."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아우렐 스타인"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/aurel-stein-thomson-1909.jpg",
+    "width": 755,
+    "height": 1000,
+    "source": "Studio portrait photograph of Aurel Stein, 1909, attributed to John Thomson of The Grosvenor Studios, London; Wellcome Collection work hvb3kf2k (reference 13621i, Miro image V0027218), titled 'Sir Aurel Stein. Photograph by J. Thomson, The Grosvenor Studios, 1909.' Downscaled from the library's 2360 x 3124 IIIF original to 755 x 1000; not cropped and not upscaled.",
+    "license": "Public Domain Mark 1.0 (Wellcome Collection); also public domain by age (photograph made in 1909, so its UK term of copyright expired long ago and it is out of copyright in the United States as a work published before 1931)",
+    "licenseUrl": "https://creativecommons.org/share-your-work/public-domain/pdm/",
+    "attribution": "John Thomson (attributed), The Grosvenor Studios; Wellcome Collection, Public Domain Mark",
+    "attributionUrl": "https://wellcomecollection.org/works/hvb3kf2k",
+    "creator": "John Thomson (attributed), The Grosvenor Studios",
+    "date": "1909",
+    "kind": "likeness",
+    "sourcePageUrl": "https://wellcomecollection.org/works/hvb3kf2k"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / SUCCEEDED, LEAD SURVIVED: the Commons file 'Aurel Stein 1909.jpg' (credit 'Thompson, The Grosvenor Studios', licence tag CC BY 4.0, credit link wellcomeimages.org V0027218) was traced to its holder, the Wellcome Collection, and the original was downloaded from the Wellcome IIIF service instead of the Commons copy. HOLDER RECORD (opened via the Wellcome catalogue API and the work page https://wellcomecollection.org/works/hvb3kf2k): title 'Sir Aurel Stein. Photograph by J. Thomson, The Grosvenor Studios, 1909.', date 1909, contributor John Thomson (library authority n80145771), reference 13621i, subject Aurel Stein (authority n82045000), licence Public Domain Mark 1.0, no separate copyright statement. DISCREPANCIES: Commons says CC BY 4.0 and spells the photographer 'Thompson' (the Commons Wellcome tag itself says it does not indicate copyright status); the holder says Public Domain Mark and 'J. Thomson'; Heritage Images lists it as attributed to John Thomson with a blanket 'All rights reserved' agency footer, which was not relied on (the holder statement and the age of the work govern: made 1909, out of copyright in the UK and, as published before 1931, in the US). The 'Sir' in the title is a later cataloguing label (Stein was knighted in 1912). SITTER IDENTITY: the image carries no lettering naming the sitter (only a fragment of a photographer's signature at lower right); identity rests on the holder's catalogue (Wellcome iconographic collection, authority-linked subject), the Heritage Images caption and use as the lead image on Wikipedia, and consistency with the 1909 Royal Geographical Society medal year; no independent second portrait was found for a face comparison, so identity is catalogue-based, not inscription-based. KIND: likeness (contemporary studio photograph). QID VERIFIED LIVE 2026-11-13 Q313061 (human, born 26 November 1862, died 26 October 1943). REGION central_europe per the frozen assignment (Hungarian-born); nationalities HU and GB; ERA 20th_century (career 1888-1943, expeditions from 1900). ZERO POLITICS: only exploration, scholarship and working methods are scored; imperial context, the contested legality of his Chinese removals and his government links are context, not scored traits. CONTESTED ATTRIBUTION: Dunhuang acquisition handled in editorial text as disputed; Wang Yuanlu's agency and earlier removals (Terzi and Whitfield) noted. NOT OPENED / BLOCKED: Encyclopaedia Iranica entry (Cloudflare challenge on iranicaonline.org, 403 on the alternate URL), Heritage Images licence terms beyond the footer, Hungaricana catalogue pages (403), Spectator 1912 review (empty page), Open University talk transcript (PDF text not extractable), IDP blog (403), Oxford DNB (paywall). Wikipedia read for orientation only and not cited. COUNTER-VOICES: Jacobs on his dubious methods and the Chinese nationalist critique, the Terzi and Whitfield caveats on his incomplete numbering. Sparse-ish profile: 9 rows, several resting on one admiring obituary and lowered accordingly. Concentration and self-calibration lowerings are recorded in the rationale of each row and in the handback. aurel-stein:persistence RUBRIC_CORRECTION (Roster67 lead review): 75@0.64 -> 72@0.58. the 'documented' episodes come from one admiring colleague obituary (Oldham) and a journal piece that cites it."
+  }
+}

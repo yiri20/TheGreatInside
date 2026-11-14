@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "waldemar-haffkine",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Waldemar Haffkine",
+    "aliases": [
+      "Waldemar Mordecai Haffkine",
+      "Waldemar Mordecai Wolff Haffkine",
+      "Vladimir Aaronovich Khavkin"
+    ],
+    "wikidataId": "Q2142351",
+    "birthYear": 1860,
+    "deathYear": 1930,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "RU",
+      "GB"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "medical_researcher"
+    ],
+    "fieldIds": [
+      "biology",
+      "medicine"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_haffkine_wikidata",
+      "kind": "wikidata",
+      "title": "Waldemar Haffkine (Q2142351), verified live via the Wikidata API (2026-11-13): English label 'Waldemar Haffkine', description 'bacteriologist (1856-1930)', Korean label 발데마어 하프킨, instance of human, died 1930-10-25, citizenship Russian Empire and France; birth date carries two conflicting values (1856-03-15 and 1860-03-15). Orientation only; the two biographies below give 15 March 1860, which is used. Not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2142351"
+    },
+    {
+      "id": "src_haffkine_dsb",
+      "kind": "biography",
+      "title": "Edythe Lutzker, 'Haffkine, Waldemar Mordecai Wolfe', Complete Dictionary of Scientific Biography (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: he developed a heat-killed cholera vaccine at the Pasteur Institute (reported July 1892) and tested it on himself; in India from 1893 he inoculated some 45,000 people in two years, recording sex, age, race, religion and caste; in Bombay in 1896-97 he improvised a laboratory in a corridor of Grant Medical College, made a plague vaccine and inoculated himself with four times the later dose; he founded the Plague Research Laboratory (renamed the Haffkine Institute in 1925); the Mulkowal tetanus deaths of October 1902, the commission that blamed him, the 1907 letter to The Times signed by ten bacteriologists, and his exoneration; in 1929 he left his fortune to a foundation for Jewish education. Reference-work biography by a long-time Haffkine researcher (draws on Waksman's 1964 biography); sympathetic, and it is the source of the anecdote about baring his side to a hostile crowd."
+,
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/haffkine-waldemar-mordecai-wolfe"
+    },
+    {
+      "id": "src_haffkine_hawgood",
+      "kind": "biography",
+      "title": "Barbara J. Hawgood, 'Waldemar Mordecai Haffkine, CIE (1860-1930): prophylactic vaccination against cholera and bubonic plague in British India', Journal of Medical Biography 15 (2007), 9-19 (read in full from the James Lind Library PDF). Independent history-of-medicine article by a retired physiologist: the 1894-95 Calcutta household comparisons and the 1898 Undhera trial with matched controls, the quoted account of the improvised Bombay laboratory, the Mulkowal inquiry in detail (the commission found he had changed the vaccine's production method by omitting carbolic acid; the Lister Institute's report was ambiguous and later clarified; the assistant had dropped the forceps and rinsed them in carbolic lotion as the local plague manual said; the India Office letter of 29 November 1907), later work, the 1915 committee, and the obituary tributes. COUNTER-VOICES: the Commission's finding against him, Bullock's critical obituary, the limited or doubtful efficacy of the vaccines, and that Chernin found no proof of antisemitism but thought it naive to rule it out."
+,
+      "url": "https://www.jameslindlibrary.org/wp-data/uploads/2011/08/HaffkinePublished.pdf"
+    },
+    {
+      "id": "src_haffkine_nlm",
+      "kind": "archive",
+      "title": "U.S. National Library of Medicine, finding aid for the 'W.M. Haffkine collection [microfilm]' (MS Film 36; read in full): microfilmed diaries and letters from the Jewish National and University Library and Mulkowal inquiry papers from the National Archives of India, gathered by Edythe Lutzker. Archivists note that his diaries recorded his daily events almost to the minute, with an index of engagements for 1917-1929. The biographical note says the Lister Institute's review overturned the commission's verdict, which Hawgood's detailed account qualifies, so that sentence is not relied on."
+,
+      "url": "https://findingaids.nlm.nih.gov/repositories/ammp/resources/haffkine36"
+    },
+    {
+      "id": "src_haffkine_bbc",
+      "kind": "press",
+      "title": "BBC News Mundo (republished by Prensa Libre, 12 December 2020), article on Haffkine and the vaccines against cholera and plague (read in full, in Spanish): the 1892 self-test, the Calcutta trials, 26 million plague doses sent from Bombay, the Mulkowal deaths and the inquiry's blame, the arguments of Simpson and Ross, Eli Chernin's view on antisemitism, and his later restriction to theoretical research and a fellow bacteriologist's description of him as erudite, solitary and reticent. Journalistic retelling of the same historical record."
+,
+      "url": "https://www.prensalibre.com/?p=7493762"
+    },
+    {
+      "id": "src_haffkine_aish",
+      "kind": "press",
+      "title": "Saul Jay Singer, 'The Forgotten Jew Who Developed the Cholera and Bubonic Plague Vaccines', Aish.com (read in full). Advocacy-leaning retelling for a Jewish readership, drawing on Haffkine's papers and the contemporary press: the Odessa self-defence league, his refusal to convert, self-testing, Mulkowal and the 1907 Times letter. Used only to cross-check dates; it states the Lister Institute exonerated him in November 1907, which Hawgood's detailed account does not support, so that claim is not repeated.",
+      "url": "https://aish.com/the-forgotten-jew-who-developed-the-cholera-and-bubonic-plague-vaccines/"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_haffkine_hawgood, src_haffkine_dsb | 1894-1898 | history-of-medicine article, reference biography] In Calcutta he used households in which some members agreed to inoculation and others did not, and followed attacks and deaths from March 1894 to August 1895, revisiting places to check the records; at Undhera in 1898 half of each household was inoculated and a matching half left untreated, and the village was revisited six weeks later; the DSB adds records of each person's sex, age, race, religion and caste. Two designs and a record-keeping habit are documented by two sources that share a Waksman-based lineage. CONCENTRATION CORRECTION (agent): lowered from 74 / 0.60 because the 'pioneer of controlled field trials' reading is a later historian's characterisation cited by Hawgood, not independent corroboration."
+    },
+    "risk_tolerance": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_haffkine_dsb, src_haffkine_hawgood, src_haffkine_nlm, src_haffkine_bbc | 1892-1897 | reference biography, history-of-medicine article, archival finding aid, press] He inoculated himself with a new cholera vaccine in July 1892 and with the plague vaccine in January 1897 at a dose several times what the public was later given (DSB, Hawgood: 10 cc against 3 cc); he went to India to test the cholera vaccine in the field on a largely privately funded trial. The self-tests are well documented; the DSB's story of baring his side to a hostile crowd rests on that one entry. Dual-edged because the early field trial rested on few animal results and Mulkowal later showed the cost of fast scale-up. CONCENTRATION CORRECTION (agent): lowered from 76 / 0.62 because four sources retell one pair of self-inoculations from the same lineage."
+    },
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_haffkine_dsb, src_haffkine_hawgood, src_haffkine_bbc | 1893-1908 | reference biography, history-of-medicine article, press] He worked two years in India in the face of local opposition (DSB says without pay), and Hawgood records that for two years after Mulkowal he argued his laboratory's case by long letters to the India Office and wrote to the Lister Institute about its contradictory statement; he returned to India in 1908 on research-only terms; he repeatedly asked to test a killed cholera vaccine and was refused. SELF-CALIBRATION (agent): lowered from 74 / 0.60 because the 'without pay' and defence-letter details are each single-source, and the DSB itself says he returned to India in 1907 despite reduced status and at his original pay, which can also be read as constraint rather than choice."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_haffkine_dsb, src_haffkine_hawgood, src_haffkine_nlm | 1894-1929 | reference biography, history-of-medicine article, archival finding aid] The DSB says he kept careful records of every inoculated person; Hawgood says he and Simpson revisited the Calcutta locations to check the accuracy of the records; the NLM archivists describe diaries recording each day almost to the minute, with a 1917-1929 index of engagements. COUNTER-VOICE: the Mulkowal commission found he had changed the vaccine's production method (omitting carbolic acid) without the approval the earlier method had had, and its blame of his laboratory was later disputed by Simpson, Ross and others; the source of the contamination is not settled by the sources read. SELF-CALIBRATION (agent): lowered from 70 / 0.55 because the diary description is an archivist's summary of illegible microfilm and the record-keeping accounts overlap with the same two biographers."
+    },
+    "impact_motivation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_haffkine_dsb, src_haffkine_hawgood, src_haffkine_bbc | 1893-1929 | reference biography, history-of-medicine article, press] He took the cholera trial to India on a largely privately funded basis, offered his vaccine and training in its use to the Russian government free of charge (DSB; the offer was turned down), taught visiting scientists from several countries in Bombay, and gave his savings to a foundation for religious schools (DSB: $500,000; Hawgood: a fund for training Jewish youth). The foundation was for education within his own community, not for public health. CONCENTRATION CORRECTION (agent): lowered from 72 / 0.58 because the free offer to Russia and the unpaid years are told by the DSB alone."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_haffkine_hawgood, src_haffkine_dsb | 1896-1897 | history-of-medicine article, reference biography] On reaching plague-stricken Bombay in 1896 he improvised a laboratory in a corridor of the Grant Medical College with a clerk and three servants and, by December 1896, protected rabbits with a heat-killed broth culture and tested it on himself (Hawgood quoting Bannerman; DSB). SELF-CALIBRATION (agent): lowered from 66 / 0.50 strong_inference to 62 / 0.46 inference because it rests on a single episode, told by a colleague's later account and the DSB."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "발데마어 하프킨"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/waldemar-haffkine-unknown-undated.jpg",
+    "width": 678,
+    "height": 1000,
+    "source": "Studio portrait photograph of Waldemar Mordecai Wolffe Haffkine, Wellcome Collection catalogue record as9gafvt (library reference 12858i, image V0026503, catalogued as 'Waldemar Mordecai Wolffe Haffkine. Photograph.', subject authority Waldemar Haffkine). The file is the holder's own IIIF image (2244 x 3308) downscaled to 678 x 1000; no upscaling and none of the later retouching on the Wikimedia Commons copy. Identity: the holder names him in the title and subject record, and the face matches the portrait printed as Figure 1 of Hawgood (2007) captioned 'Dr Waldemar Mordecai Haffkine' (Royal Society of Medicine); the print itself bears no inscription.",
+    "license": "Public Domain Mark, as stated by the holder (Wellcome Collection catalogue record as9gafvt); photographer and date are not recorded. The Wikimedia Commons file page tags it CC BY 4.0, which is not the holder's statement and is not relied on",
+    "licenseUrl": "https://creativecommons.org/share-your-work/public-domain/pdm/",
+    "attribution": "Photographer unknown; Waldemar Mordecai Wolffe Haffkine, photograph, Wellcome Collection (library reference 12858i). Public Domain Mark.",
+    "attributionUrl": "https://wellcomecollection.org/works/as9gafvt",
+    "creator": "Unknown photographer (not recorded by the holder)",
+    "date": "Undated (not recorded by the holder; taken in the sitter's lifetime)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://wellcomecollection.org/works/as9gafvt"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / SURVIVED with a holder-record correction. The lead was Commons 'Waldemar Haffkine 2.jpg' (CC BY 4.0 tag; Commons author and date blank, edited several times by Commons users). Holder record opened: Wellcome Collection catalogue API (work as9gafvt, redirected from zncvsfym; Sierra b1161103, library reference ICV 12858i, Miro V0026503) names no photographer and no date, 1 photograph in closed stores, and gives the digital image the Public Domain Mark with credit 'Wellcome Collection'; so the holder says public domain, not CC BY, and the Commons tag is only an aggregator assumption. No permission requirement or restricted-reuse statement found at the holder. I used the holder's own IIIF original (2244 x 3308), not the Commons-edited copy, downscaled to 678 x 1000. Weak points kept honest: creator and date are unknown, so the public-domain reading rests on the holder's PDM and the sitter's death in 1930 for a photograph taken in his lifetime. KIND likeness (a studio photograph of the sitter). INSCRIPTION: none on the print; identity rests on the holder's title/subject authority and a visual match to Hawgood's Figure 1, which is a different print of the same man captioned with his name. PREFLIGHT: QID VERIFIED LIVE (2026-11-13) Q2142351 label 'Waldemar Haffkine', description 'bacteriologist (1856-1930)', ko label 발데마어 하프킨, human, died 1930-10-25, two conflicting birth values 1856-03-15 and 1860-03-15, citizenship Russian Empire and France; 1860 used (DSB, Hawgood, NLM: Odessa, 15 March 1860) and the Wikidata description year 1856 is treated as an error. REGION central_europe (Russian-Empire precedent Ilya Mechnikov, Pavlov, Mendeleev; the controlled list has no eastern Europe). ERA 19th_century (cholera vaccine 1892, plague vaccine 1897). NATIONALITY RU and GB (British citizenship granted 1899 per the DSB; Mechnikov's precedent is RU and FR). KOREAN NAME 발데마어 하프킨 is the Wikidata Korean label. ZERO POLITICS: only vaccine science, field trials and institution-building are scored; his youthful Odessa self-defence league activity, arrest and refusal to convert, his later Jewish communal and religious work (the foundation is mentioned only as a charitable act) and any antisemitism question are context and are not scored. THE 1902 MULKOWAL INCIDENT is treated as a counter-voice, not a score driver: 19 people inoculated from one bottle (53N) died of tetanus; the commission found against his laboratory (and noted his unapproved production change); Simpson, Ross and ten bacteriologists argued the contamination occurred at the vaccination site when forceps were dropped; the India Office letter of 29 November 1907 recognized scientific opinion in his favour and offered employment. Sources differ on the word 'exonerated' (NLM and Aish say the Lister Institute exonerated him, Hawgood says its report was ambiguous and later clarified), so the cards say the Secretary of State recognised an important body of scientific opinion in his favour. ATTRIBUTION: attributable (vaccines, trials and the laboratory documented across dated reports; first-vaccine priority claims are historians' characterisations and Ferran's rival claim is noted by Hawgood). CANONICAL SIGNIFICANCE SOURCE: Lutzker's Complete Dictionary of Scientific Biography entry (src_haffkine_dsb). READ (5 besides Wikidata): DSB (full), Hawgood 2007 (full PDF), NLM finding aid (full), BBC Mundo/Prensa Libre article, Aish article; English Wikipedia and the JewishGen page were opened for orientation and are not cited; Britannica and the TIFR Bombay page were unreachable (wall/DNS) and the Jewish Press page returned a stub. NOT OPENED: Waksman 1964, Lowy 1992, Chernin 1991 (all only via Hawgood's citations), Haffkine's own reports. PERSPECTIVES: (1) sympathetic reference biography; (2) independent history-of-medicine article with the inquiry's detail; (3) archival finding aid (non-self diaries description); (4) journalistic retelling; (5) advocacy retelling. NON-SELF BEHAVIOURAL SOURCES: DSB, Hawgood, BBC Mundo (all by others, though rooted in Waksman/Lutzker and his reports). Sparse six-row profile by design (match eligibility not assessed). MAJOR ACHIEVEMENT GATE: PASS (see handback). SELF-CALIBRATION: six rows lowered (analytical_rigor, risk_tolerance, impact_motivation on concentration; persistence, detail_orientation, resourcefulness on self-calibration); none raised. HANDBACK: C:\\Users\\Lenovo\\TGI-r67-scratch\\handback\\waldemar-haffkine.json."
+  }
+}

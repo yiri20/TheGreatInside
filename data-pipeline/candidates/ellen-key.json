@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ellen-key",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ellen Key",
+    "aliases": [
+      "Ellen Karolina Sofia Key",
+      "Ellen Carolina Sophia Key"
+    ],
+    "wikidataId": "Q238443",
+    "birthYear": 1849,
+    "deathYear": 1926,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "SE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "teacher"
+    ],
+    "fieldIds": [
+      "education",
+      "literature",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "educational",
+      "literary",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "advocate",
+      "independent",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_key_wikidata",
+      "kind": "wikidata",
+      "title": "Ellen Key (Q238443), verified live via the Wikidata API (2026-11-13): English label 'Ellen Key', description 'Swedish writer (1849-1926)', Korean label 엘렌 케이, instance of human, born 1849-12-11, died 1926-04-25/26, citizen of Sweden. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q238443"
+    },
+    {
+      "id": "src_key_skbl",
+      "kind": "biography",
+      "title": "Claudia Linden, 'Ellen Karolina Sofia Key', Svenskt kvinnobiografiskt lexikon (SKBL, Gothenburg University; English version published 2018; read in full). CANONICAL SIGNIFICANCE SOURCE: calls her a leading intellectual and important former of public opinion around 1900 whose views on love, marriage, sexuality, childcare, education and aesthetics informed generations; the entry covers her teaching and lecturing from the 1880s, her defence of free speech, her breaks with the Fredrika Bremer circle (1893 and 1896-98), Individualism och socialism (1895), Missbrukad kvinnokraft (1896), the 1898 Ibsen talk, Skonhet for alla (1899), Barnets arhundrade (1900), Livslinjer (1903-06), her lecture travels, the villa Strand and her wartime books. National women's biography lexicon by a literary scholar; admiring but candid about controversy.",
+      "url": "https://skbl.se/en/article/EllenKey"
+    },
+    {
+      "id": "src_key_gale",
+      "kind": "biography",
+      "title": "'Key, Ellen (1849-1926)', in Women in World History: A Biographical Encyclopedia (Gale, reproduced on Encyclopedia.com; read in full). Reference biography: her upbringing at Sundsholm, studies at Rossander's course including Darwin, teaching and twenty years of lecturing at the People's Institute, her rejection of Christianity while keeping her love of Jesus, the enemies who called her a corrupter of youth, her support for Norwegian independence and her changing view of women's suffrage. Contains a date for the loss of the family farm (1888) that conflicts with SKBL (end of the 1870s).",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/key-ellen-1849-1926"
+    },
+    {
+      "id": "src_key_ambjornsson",
+      "kind": "biography",
+      "title": "Ronny Ambjornsson, 'Ellen Key and the concept of Bildung', Confero vol. 2 no. 1 (2014), pp. 133-160 (open-access scholarly article; read in full). INDEPENDENT SCHOLARLY VOICE: places her educational thinking in the European tradition (Rousseau, Montaigne, Goethe, Spencer, Nietzsche), says she was 'not a particularly original thinker' but very well read, reports her long lecture tours in Germany, the more than twenty German editions of Barnets arhundrade, her lectures at the Workers Institute and the Academy of Sciences, and her possible influence on Steiner and Montessori.",
+      "url": "https://confero.ep.liu.se/article/view/3609/2721"
+    },
+    {
+      "id": "src_key_nystrom",
+      "kind": "biography",
+      "title": "Louise Nystrom-Hamilton, 'Ellen Key, Her Life and Her Work' (translated by A. E. B. Fries, introduction by Havelock Ellis; G. P. Putnam's Sons, New York, 1913; Internet Archive full text, read in the passages on her teaching, public lecturing and her authorship). FRIEND'S BIOGRAPHY, admiring and partly drawn from her letters, so not independent of her own account: her teaching at Anna Whitlock's school from 1880, pupils' recollections, her unpaid lecturing for workers, women and children, her shy character and extempore speaking, and the frontispiece photograph 'From a photograph by Becker & Maass, Berlin'.",
+      "url": "https://archive.org/details/ellenkeyherlifeh00nyst"
+    },
+    {
+      "id": "src_key_century",
+      "kind": "biography",
+      "title": "'Century of the Child', Encyclopedia of Children and Childhood in History and Society (Gale, reproduced on Encyclopedia.com; read in full). Reference entry on Barnets arhundrade (published New Year's Eve 1900): little attention in the Swedish press at first, enemies who called her a seducer of young people, support in the adult-education movement, thirteen European translations and seventeen German editions between 1902 and 1926, and its anticipation of later Swedish welfare reforms; notes the book's utopian leanings.",
+      "url": "https://encyclopedia.com/children/encyclopedias-almanacs-transcripts-and-maps/century-child"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_key_skbl, src_key_gale, src_key_century | 1880s-1910s | national women's biography lexicon, women-in-history reference entry, children-and-childhood reference entry] SKBL records that she defended freedom of speech and publication in the blasphemy and contraception controversies of the 1880s, answered Eva Fryxell's 1893 attack on her as a 'naturalist', delivered a 1898 Ibsen talk that contradicted the accepted reading and drew a protest appeal signed by 284 women, and published Missbrukad kvinnokraft (1896), which brought a storm of protest from women intellectuals; the Gale entries add that she was called a corrupter of youth and that her Century of the Child had many enemies. She kept publishing and lecturing after each break, but the disputes cost her the Fredrika Bremer circle: dual-edged. SELF-CALIBRATION (agent): lowered from 76 / 0.64 to 72 / 0.58 because the concrete disputes come from one lexicon article by one author and the other sources only repeat that she had enemies. RUBRIC_CORRECTION (Roster67 lead review): 72@0.58 -> 70@0.54. SKBL, Gale and the Century-of-the-Child entry are one national-lexicon/reference lineage with shared framing."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_key_skbl, src_key_gale, src_key_ambjornsson | 1870s-1905 | national women's biography lexicon, women-in-history reference entry, scholarly article] She gave up her Christian faith by the late 1870s yet kept her love of Jesus (SKBL, Gale), opposed the views of most Swedes on monarchy, religion and morals (Gale), supported Norway's 1905 break from Sweden (Gale, SKBL for the 1899 pamphlet), refused to join the Social Democratic party despite a socialist turn (SKBL), and gave the Ibsen talk against the accepted interpretation. Ambjörnsson adds that she was well-read rather than especially original, so the independence is of position more than of invention. SELF-CALIBRATION (agent): lowered from 74 / 0.62 to 70 / 0.56 because the independent positions are single reference sentences, several from one lexicon, and the one scholarly voice describes her as more widely read than original."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_key_gale, src_key_nystrom, src_key_skbl, src_key_ambjornsson | 1883-1910 | women-in-history reference entry, friend's biography, national women's biography lexicon, scholarly article] The reference entry calls her, though shy in ordinary social life, a highly effective public speaker who drew enthusiastic audiences in Germany; her friend Nyström-Hamilton describes lectures delivered without a script that held large halls silent for two hours; SKBL says her lectures attracted large audiences across Europe; Ambjörnsson records long lecture tours in Germany and the success of The Century of the Child there. Audience size and sales are outcome evidence, and the vivid description comes from an admiring friend. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 64 / 0.48 because the strongest description comes from an admiring friend and the remainder is audience size and book sales, which are outcome evidence."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_key_gale, src_key_ambjornsson, src_key_skbl | 1883-1926 | women-in-history reference entry, scholarly article, national women's biography lexicon] She lectured for about twenty years at the Stockholm People's Institute to working-class audiences (Gale), kept at 'her long labour for general education' (Ambjörnsson), and from 1883 lectured at the workers' institute and women's and student associations (SKBL) while writing steadily until the 1920s. A long consistent programme, but described in a phrase or two by each source. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 62 / 0.46 because the long programme is documented by single phrases and publication lists, not by episodes of continuing under difficulty."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_key_skbl, src_key_ambjornsson, src_key_gale | 1880s-1920s | national women's biography lexicon, scholarly article, women-in-history reference entry] Her published work spans literary criticism (Almqvist, Goethe, George Eliot, Rahel Varnhagen), education, aesthetics, love and marriage, religion, and social comment (SKBL, Gale), and Ambjörnsson describes her as drawing on Spencer, Darwin, Nietzsche, Rousseau, Goethe and Montaigne across the European tradition. The breadth is documented as output and reading; the fields are connected by one life-view programme, which keeps it moderate. SELF-CALIBRATION (agent): lowered from 68 / 0.56 to 64 / 0.52 because breadth is documented only as output and reading and the fields are linked by one programme."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_key_skbl, src_key_gale, src_key_ambjornsson | 1860s-1900s | national women's biography lexicon, women-in-history reference entry, scholarly article] SKBL says her intellectual curiosity was encouraged at home and she had free access to the family library from age 15; Gale records her study of Darwin and the natural sciences at the Rossander course and her private 'Thought Book'; Ambjörnsson shows her reading Spencer, Rousseau, Montaigne, Nietzsche and, in the mid-1890s, Steiner's Philosophy of Freedom. Documented self-directed reading across decades, much of it from childhood accounts that rely on her own later recollections. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 66 / 0.5 because the childhood evidence rests on her own later recollections and the adult reading list comes from one scholar."
+    },
+    "belief_updating": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_key_gale, src_key_skbl | 1860s-1900s | women-in-history reference entry, national women's biography lexicon] Gale records that she was first repelled by evolution but came to feel she could not ignore its facts, that she was only briefly an orthodox Lutheran, and that she first supported women's suffrage and later judged it too narrow a goal; SKBL records that Spencer's evolutionary teaching (through George Eliot) and later Nietzsche reshaped her views on religion, the body and morality. Two separate documented changes of view; the reasons come mostly from her own later accounts."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_key_nystrom, src_key_gale, src_key_ambjornsson | 1880-1910 | friend's biography, women-in-history reference entry, scholarly article] Nyström-Hamilton says she lectured without fee to raise funds and awaken talents among workers, women and children and gave a free lecture whenever engaged in another city; Gale describes her twenty years of lecturing to workers and her devotion to what she considered the public good; Ambjörnsson stresses her labour for general education. The free-lecture detail comes from one admiring friend. SELF-CALIBRATION (agent): lowered from 70 / 0.52 to 64 / 0.46 because the free-lecture evidence rests on one admiring friend's biography and the other sources do not speak to motive."
+    },
+    "adaptability": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_key_skbl, src_key_gale | late 1870s-1880s | national women's biography lexicon, women-in-history reference entry] When her father lost the family farm she moved to Stockholm, took up teaching and lecturing and built an independent working life (SKBL, Gale). A single documented change of circumstance, so only an inference, and the sources disagree on its date."
+    },
+    "aesthetic_sensitivity": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_key_skbl, src_key_gale, src_key_ambjornsson | 1880s-1910s | national women's biography lexicon, women-in-history reference entry, scholarly article] She wrote Skönhet för alla (1899) on beauty in everyday life and gave aesthetics a place beside love and religion in her main work (SKBL), discovered classical art on trips with her father (Gale), and had the art nouveau villa Strand built (SKBL); Ambjörnsson notes the increasingly apparent aesthetic dimension of her view of education. Several separate documented interests, none described as a sensitivity in itself."
+    },
+    "autonomy_need": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_key_skbl, src_key_gale | 1880s-1903 | national women's biography lexicon, women-in-history reference entry] She never formally joined the Social Democratic party despite a socialist tone in her thinking (SKBL), did not join the Fredrika Bremer Society (Gale) and retired from teaching in 1903 to work as an independent writer and lecturer (Gale). Two documented declinations of organisational membership; independence also left her outside the main women's association after the breaks of the 1890s."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "엘렌 케이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ellen-key-becker-maass-1913.jpg",
+    "width": 771,
+    "height": 1000,
+    "source": "Half-length studio portrait photograph of Ellen Key by the Berlin studio Becker and Maass, printed as the frontispiece of Louise Nystrom-Hamilton, 'Ellen Key, Her Life and Her Work' (G. P. Putnam's Sons, New York, 1913) with the printed caption 'From a photograph by Becker & Maass, Berlin'; Internet Archive scan ellenkeyherlifeh00nyst (University of California Libraries), whose catalogue entry carries the status 'NOT_IN_COPYRIGHT'. The file is the Wikimedia Commons crop 'Ellen Key. Becker & Maass, Berlin (cropped).jpg' (1575 x 2044) downscaled to 771 x 1000 with no upscaling. Commons lists Becker and Maass and Marie Boehm as creators and dates it c.1910; the book proves publication by 1913.",
+    "license": "Public domain: published in New York in 1913 (before 1931) and so out of copyright in the United States; the individual photographer at the Berlin studio is not identified in the book, and Commons tags it PD-old-70-expired; the Internet Archive record carries no rights statement beyond NOT_IN_COPYRIGHT",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Becker & Maass, Berlin, portrait of Ellen Key, frontispiece of Nystrom-Hamilton, Ellen Key, Her Life and Her Work (New York, 1913), Internet Archive scan (extracted and downscaled).",
+    "attributionUrl": "https://archive.org/details/ellenkeyherlifeh00nyst",
+    "creator": "Becker & Maass, Berlin (studio)",
+    "date": "c.1910, published by 1913",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ellen_Key._Becker_%26_Maass,_Berlin_(cropped).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-07T00:00:00Z",
+    "updatedAt": "2026-11-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / SURVIVED: the lead was the Commons Becker & Maass, Berlin portrait (c.1910). Verified at the underlying item: the Internet Archive scan of Nystrom-Hamilton Ellen Key, Her Life and Her Work (New York, G. P. Putnam, 1913; ellenkeyherlifeh00nyst) opens with the printed caption FROM A PHOTOGRAPH BY BECKER & MAASS, BERLIN and lists the frontispiece as Ellen Key in its illustrations list, so sitter identity rests on the printed caption in a biography of her; the Internet Archive metadata (opened via its API) carries possible-copyright-status NOT_IN_COPYRIGHT, contributor University of California Libraries, and no restriction. Commons gives creators Becker & Maass and Marie Boehm and a c.1910 date; the book proves publication by 1913 and does not name an individual photographer, so Marie Boehm is not repeated as creator. RIGHTS: published in the United States in 1913 (before 1931), so public domain there; Commons tags PD-old-70-expired; no holder restriction exists because the holder of the item is a library scan of a 1913 book. The Commons crop (1575x2044, clean, no page margin or tissue-guard) was downscaled to 771x1000, no upscaling. KIND likeness (lifetime studio photograph). The Nordic Museum, Portrattarkiv and Wellcome leads were not needed. IDENTITY: QID Q238443 verified live 2026-11-13 via Wikidata API: label Ellen Key, description Swedish writer (1849-1926), ko label 엘렌 케이, human, born 1849-12-11, died 1926-04-25 (a second value 1926-04-26 is also recorded), citizen of Sweden. Region western_europe (Swedish precedent), era 20th_century (main works 1900-1906), nationality SE. ZERO POLITICS: primary identity is writer, educator and cultural essayist; her suffrage, socialist-leaning speeches and Norwegian-independence pamphlet are context only and appear in no achievement card; the Ibsen moment is scored as conflict tolerance. PRIVATE CONDITIONS: nothing about health, relationships or the suicide of her housekeeper is used, named or scored. SOURCES READ (5 besides Wikidata): SKBL entry by Claudia Linden (full, English); Gale Women in World History entry (full); Ambjornsson Confero 2014 (full, open access); Nystrom-Hamilton 1913 biography (passages on teaching, lecturing, authorship and the frontispiece, from the Internet Archive full text); Gale Century of the Child entry (full). Not opened: Svenskt biografiskt lexikon entry (the id tried returned another person), the UNESCO IBE profile (archive challenge page), Landquist 1909, Key own writings, Wikipedia (not used). PERSPECTIVES: (1) national women biography lexicon (SKBL); (2) US women-in-history reference entry; (3) independent scholarly article on her educational thinking, which calls her not a particularly original thinker; (4) admiring friend biography partly based on her letters (self-adjacent); (5) children-and-childhood reference entry on her best-known book. NON-SELF BEHAVIOURAL SOURCES: SKBL, Gale x2 and Ambjornsson; Nystrom-Hamilton leans on her own account and is used only where an anecdote is flagged as hers or a friend. CONTRADICTIONS AND LIMITS: SKBL puts the loss of the family farm at the end of the 1870s and Gale at 1888 (not used for any score); SKBL says she and Anna Whitlock established the co-educational school in 1878 while Nystrom-Hamilton has her joining Whitlock school as a teacher in autumn 1880 (no founding claim is made); Century of the Child entry says the book attracted almost no notice in the Swedish press at first while other sources stress its fame, which is consistent with the later international reception. ATTRIBUTION: attributable (extensive published, lecturing and teaching record) but the evidence base is thinner for private working habits than for public positions. CANONICAL SIGNIFICANCE SOURCE: SKBL entry Ellen Karolina Sofia Key. INITIAL ROWS 11; SELF-CALIBRATION lowered 7 rows (scores and confidences) for single-lexicon, friend-biography, own-recollection and outcome-only concentration; no raise flags. MAJOR ACHIEVEMENT GATE: PASS on all checks; cards (1) The Century of the Child, (2) Livslinjer, Love and Marriage and the quarrel with the women movement, (3) popular-education lecturing and Beauty for All. ellen-key:conflict_tolerance RUBRIC_CORRECTION (Roster67 lead review): 72@0.58 -> 70@0.54. SKBL, Gale and the Century-of-the-Child entry are one national-lexicon/reference lineage with shared framing."
+  }
+}
