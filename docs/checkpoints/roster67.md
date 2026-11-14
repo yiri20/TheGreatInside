@@ -144,7 +144,7 @@ Commons scan, holder records read only secondhand), Dayananda (small greyscale p
 - Eligibility computed only after scoring was frozen: **0 of 27 eligible**; scored rows min/median/max **5 / 8 / 13** (215 total);
   high-confidence row counts 0-10 per person; high-confidence averages 0.50-0.56. Pre-existing eligible set untouched (**114**).
   Cumulative Roster33-67: **591 shipped, 0 eligible**, recorded, not re-investigated, no rescue.
-- Production **816**, visible **815**, eligible **114**, candidate JSON **967**.
+- Production **816**, visible **815**, eligible **114**, candidate JSON **997** (967 + 30; the 3 holds stay on disk as candidates).
 - `categoryCounts.ts` after:
 
 ```
@@ -181,6 +181,13 @@ Category deltas exceed 27 because people count in more than one category by `fie
 - **Source-link sweep** (run before the final build): 232 URLs across the 27 shipped candidates (sources and portrait
   licence/attribution/source-page links): **219 x 200, 12 x 403 bot walls, 1 x 429 (Wellcome rate limit, re-checked 200), 0 x 404,
   0 x 5xx, 0 timeouts/TLS/reset**. No link edits were needed.
+
+## Scoring lock
+
+After the implementation commit `51fa151`: `checkScoringLockIntegrity.ts` checked **997** previously-committed candidate files against
+HEAD, **0 flagged**; legacy scoring lock **22** pre-pipeline production people covered, **0 flagged**. The committed, on-disk and
+checked candidate JSON are identical (the 30 new files were committed before the lock ran). The 30 candidate flags (new files) are
+0; the checker flags only edits to previously committed files.
 
 ## Defects found
 
