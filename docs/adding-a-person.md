@@ -171,6 +171,25 @@ session log to find.
     corepack pnpm@10 exec playwright test
     ```
 
+## Wiring tool and the current-roster manifest (post-Roster67 maintenance)
+
+Steps 6-9 above are no longer done with ad hoc shell/sed/Python helpers. Since the post-Roster67 maintenance task
+(`docs/checkpoints/roster-maintenance-after-67.md`):
+
+- **`src/dev/roster1000/rosterGeneratorCore.ts`** holds the shared rendering and fail-closed promotion checks; a per-roster
+  `generateRosterN.ts` is a thin file with only the literal shipped-slug allowlist.
+- **`src/dev/roster1000/wireRoster.ts`** registers `ROSTER_N` in `seed.ts` and the lineage registry, moves
+  `currentRosterManifest.ts` to the new counts, creates the generator wrapper and the `audits/rosterN.test.ts` skeleton, and (with
+  `--drafts-dir`) inserts validated EN/KO editorial text, `PERSON_EDITORIAL` blocks and Korean names. It is a **dry run by default**
+  (`--write` applies, only when the plan has zero errors), idempotent, and fails loudly on a missing or ambiguous anchor. It never
+  decides ship/hold, edits candidates, or changes fieldIds/regions/taxonomy/editorial prose; if the Directory `>=2 people` field
+  rule fails, curate the field in `directoryTaxonomy.ts` with EN/KO labels instead (Roster67 precedent), never narrow candidates.
+- **`src/dev/roster1000/currentRosterManifest.ts`** is the single pinned copy of the current production / directory-visible /
+  match-eligible / candidate-JSON counts and `latestRoster`; `currentRosterState.test.ts` proves it against the live data. Old audits
+  no longer carry the cumulative count, so a roster cycle edits the manifest (done by the tool), not 40 historical tests.
+- Raw trait ids in editorial prose are guarded by the shared `editorialRawIds.ts` (plain string scanning, no regexes) via
+  `editorialValidation.test.ts`; `noControlCharacters.test.ts` guards against escape-corruption of sources.
+
 ## What NOT to do
 
 - Don't hand-edit an already-promoted `rosterN.ts` file's scores after the

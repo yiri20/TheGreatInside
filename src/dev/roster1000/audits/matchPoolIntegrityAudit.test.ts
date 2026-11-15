@@ -1,5 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { SEED_PEOPLE } from "../../../data/people/seed.js";
+import { CURRENT_ROSTER_MANIFEST } from "../currentRosterManifest.js";
+import { rosterNumber } from "../rosterMembership.js";
 import {
   aggregateCohort,
   buildInventory,
@@ -36,7 +38,7 @@ describe("match-pool integrity audit: cohort counts", () => {
 
   it("classifies every production person exactly once", () => {
     expect(inventory).toHaveLength(SEED_PEOPLE.length);
-    expect(inventory).toHaveLength(816);
+    expect(inventory).toHaveLength(CURRENT_ROSTER_MANIFEST.production);
   });
 
   it("matches the live production/directory/eligible counts", () => {
@@ -82,7 +84,7 @@ describe("match-pool integrity audit: cohort counts", () => {
     // Roster42 (2026-10-05, docs/checkpoints/roster42.md) repeats it a
     // tenth time: 14 new, freshly researched people, none match-eligible --
     // directory-visible rose 349->363, match-eligible held at 114.
-    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(815);
+    expect(inventory.filter((r) => r.isDirectoryVisible)).toHaveLength(CURRENT_ROSTER_MANIFEST.directoryVisible);
     expect(inventory.filter((r) => r.isMatchEligible)).toHaveLength(114);
   });
 
@@ -132,7 +134,10 @@ describe("match-pool integrity audit: lineage classification", () => {
     const map = buildLineageMap();
     for (const p of SEED_PEOPLE) {
       const lineage = classifyLineage(p.slug);
-      expect(lineage).toMatch(/^roster(1|[2-9]|1[0-6]|2[4-9]|3[0-9]|4[0-9]|5[0-9]|6[0-7])$/);
+      const rosterN = rosterNumber(lineage);
+      expect(rosterN, `${p.slug} lineage ${lineage}`).toBeDefined();
+      // Registered rosters: roster1 (original seed), 2-16, and 24 through the latest registered roster.
+      expect(rosterN! <= 16 || (rosterN! >= 24 && rosterN! <= CURRENT_ROSTER_MANIFEST.latestRoster), `${p.slug} lineage ${lineage}`).toBe(true);
       if (lineage !== "roster1") {
         expect(map.get(p.slug)).toBe(lineage);
       } else {
