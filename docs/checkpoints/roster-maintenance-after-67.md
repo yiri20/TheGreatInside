@@ -139,7 +139,8 @@ insertion functions with before-the-closing-brace anchors), silent partial edits
 - Focused Playwright (Person, Editorial, Directory, Compare, Trait Explanation): **142/142** (2.2 min); the Directory spec now imports the manifest. The full suite was
   not run (no product-visible change; all maintenance code is dev/test-only).
 - `categoryCounts.ts` unchanged: production 816 / science 340 / arts 302 / leadership 156 / building 259; visible 815 / 340 / 302 / 155 / 258.
-- Scoring lock after the final commit: see the entry appended below.
+- Scoring lock after the implementation commit `643f953`: **997 committed, 997 on disk, 997 checked, 0 candidate flags**; legacy scoring lock **22 covered, 0 flagged**;
+  `git diff` of `data-pipeline/` and `public/` against `MAINTENANCE_BASE_SHA` is empty.
 
 ## Invariants
 
