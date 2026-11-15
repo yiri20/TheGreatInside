@@ -63,6 +63,16 @@ describe("PROFESSION_CATEGORIES", () => {
     expect(missingProfessionFieldCoverage(en, ko)).toEqual([]);
   });
 
+  it("microbiology and psychology (each used by >=2 people since Roster67) are curated under science_knowledge with EN and KO labels", () => {
+    const science = PROFESSION_CATEGORIES.find((c) => c.id === "science_knowledge")!;
+    for (const id of ["microbiology", "psychology"]) {
+      expect(science.fieldIds, id).toContain(id);
+      expect(SEED_PEOPLE.filter((p) => p.fieldIds.includes(id)).length, `${id} user count`).toBeGreaterThanOrEqual(2);
+      expect(en[`field.${id}` as keyof typeof en], `en field.${id}`).toBeTruthy();
+      expect(ko[`field.${id}` as keyof typeof ko], `ko field.${id}`).toBeTruthy();
+    }
+  });
+
   it("catches a genuinely unauthored field id — the guard is not a no-op", () => {
     const partial: Record<string, string> = { ...en };
     delete partial[`field.${DIRECTORY_FIELD_IDS[0]}`];

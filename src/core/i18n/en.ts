@@ -1038,6 +1038,8 @@ export const en = {
   "field.biology": "Biology",
   "field.engineering": "Engineering",
   "field.medicine": "Medicine",
+  "field.microbiology": "Microbiology",
+  "field.psychology": "Psychology",
   "field.environmental_science": "Environmental Science",
   "field.literature": "Literature",
   "field.music": "Music",

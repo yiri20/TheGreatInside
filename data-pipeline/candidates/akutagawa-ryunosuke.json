@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "akutagawa-ryunosuke",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Akutagawa Ryunosuke",
+    "aliases": [
+      "Ryunosuke Akutagawa",
+      "Ryūnosuke Akutagawa",
+      "芥川龍之介",
+      "芥川竜之介"
+    ],
+    "wikidataId": "Q186326",
+    "birthYear": 1892,
+    "deathYear": 1927,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "craft_focused",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_akutagawa_wikidata",
+      "kind": "wikidata",
+      "title": "Akutagawa Ryunosuke (Q186326), verified live via the Wikidata API (2026-11-13): English label 'Ryūnosuke Akutagawa', English description 'Japanese writer (1892–1927)', Japanese label 芥川龍之介, Korean label 아쿠타가와 류노스케, born 1 March 1892, died 24 July 1927, instance of human, citizen of Japan. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q186326"
+    },
+    {
+      "id": "src_akutagawa_benton",
+      "kind": "biography",
+      "title": "Richard P. Benton, 'Akutagawa Ryunosuke', Reference Guide to Short Fiction (Gale; reproduced on Encyclopedia.com; read in full including the bibliography). CANONICAL SIGNIFICANCE SOURCE: says the modern Japanese short story arose in the 1910s in reaction to naturalism and the I-novel, and that Akutagawa brought it to maturity through intelligence, imagination and close attention to style and form, so that the short story came to be recognised as an important part of Japanese literature; describes his reading of the Konjaku monogatari, the Tales of Uji and the Heike, of Chinese vernacular fiction and of English, Continental and Russian authors (he took Poe's 'Philosophy of Composition' to heart); his three periods and historical story groups (Heian, Christian-century and Meiji-enlightenment); early masterpieces 'Rashomon', 'Hell Screen', 'The Nose' and 'Yam Gruel'; 'In a Grove' with seven points of view; his mentor Natsume Soseki's advice of self-detachment, which kept him out of his own stories and away from naturalism and the I-novel until his late period. The entry also discusses his later state of mind and death; those passages are not used here. Critical-sympathetic reference entry.",
+      "url": "https://encyclopedia.com/arts/encyclopedias-almanacs-transcripts-and-maps/akutagawa-ryunosuke"
+    },
+    {
+      "id": "src_akutagawa_grove",
+      "kind": "biography",
+      "title": "Regina Janes, essay 'In a Grove (Yabo no Naka) by Ryunosuke Akutagawa, 1921', Reference Guide to Short Fiction (Gale; on Encyclopedia.com; read in full). Literary-critical essay on the story: several testimonies assembled in answer to a police commissioner (seven points of view according to Benton), no narrative frame, each account made to fit the external evidence while contradicting the others on who killed the samurai; says Akutagawa acknowledged a debt to Robert Browning (The Ring and the Book), took his story of theft, rape and death from the Konjaku Monogatari, and anticipated multi-voiced narration by American writers by more than a decade; also compares Kurosawa's later film. Same reference series as the Benton entry but a different author.",
+      "url": "https://encyclopedia.com/arts/encyclopedias-almanacs-transcripts-and-maps/grove-yabo-no-naka-ryunosuke-akutagawa-1921"
+    },
+    {
+      "id": "src_akutagawa_rashomon",
+      "kind": "biography",
+      "title": "Carlo Coppola, essay 'Rashomon (Rashomon) by Akutagawa Ryunosuke, 1917', Reference Guide to Short Fiction (Gale; on Encyclopedia.com; read in full). Essay on the story: calls him a prodigious reader of Japanese and Western writing who studied English literature at Tokyo Imperial University, notes that 'Rashomon' appeared in the university's journal Teikoku Bungaku in 1915 (the entry's own heading gives 1917 for the collection) and became perhaps his most famous work, says it was drawn from the Konjaku Monogatari like most of his best writing, and summarises the story of the servant, the old woman and the gate. Different author from the other Gale entries; the date of first publication differs between sources and is not carded.",
+      "url": "https://encyclopedia.com/arts/encyclopedias-almanacs-transcripts-and-maps/rashomon-rashomon-akutagawa-ryunosuke-1917"
+    },
+    {
+      "id": "src_akutagawa_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'AKUTAGAWA Ryunosuke', Portraits of Modern Japanese Historical Figures (English page read, short biography), plus the NDL Digital Collections item record for the 1927 Shinchosha book Akutagawa Ryunosuke shu (pid 1173830) used for the portrait. Short biography: novelist born in Tokyo; published 'Hana' (The Nose) in 1916 while studying at the Imperial University of Tokyo and Natsume Soseki highly regarded the start of his literary career; taught English part-time at the Naval Engineering College; published 'Imogayu', 'Hokyonin no shi' and 'Rashomon'; became a staff writer for the Osaka Mainichi Shimbun in 1919. The page's account of his death is not used.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/224"
+    },
+    {
+      "id": "src_akutagawa_jikihitsu",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'Ano hito no jikihitsu' (Handwriting of Those People), Part 2 chapter 9 section 3, entry on Akutagawa Ryunosuke with his manuscript of 'Hokyonin no shi' (page read in Japanese): says he became Natsume Soseki's pupil around the end of 1915 and that 'Hana' the next year was lavishly praised by Soseki, which opened his way into the literary world; describes the 1918 manuscript of 'Hokyonin no shi' (Mita Bungaku, September 1918) as a representative Christian-theme historical story, and says that the note in the story that it was written from a Christian-edition 'Legenda Aurea' in the author's possession is Akutagawa's invention, yet many people believed that edition existed and some even sent a deposit to buy it. Institutional exhibition text; the entry's remarks on his death are not used.",
+      "url": "https://www.ndl.go.jp/jikihitsu/part2/s9_3"
+    },
+    {
+      "id": "src_akutagawa_tachibana",
+      "kind": "biography",
+      "title": "Tachibana Akinari, 'Akutagawa Ryunosuke no bungeikan: Croce bigaku kara no eikyo kankei o chushin ni' (Akutagawa Ryunosuke's view of literature, centred on the influence of Croce's aesthetics), Machikaneyama Ronso, Aesthetics series 47, Osaka University, 2013 (university research article, read in Japanese from the repository PDF). Scholarly reading of his 1927 essays: at a Shincho round table he said the interest of a story's plot has no artistic value and criticised Tanizaki Junichiro's work; Tanizaki replied in Kaizo and Akutagawa answered in the next issue with 'Bungeiteki na, amari ni bungeiteki na', several rounds followed; the author argues the common reading of this as a defence of the I-novel conflicts with Akutagawa's other criticism, which denied the I-novel genre any artistic standing because it is 'not a lie'; documents that his 1919 diary records reading Croce's Aesthetic, that the 1909 English edition survives in his library with marks, and that he named Croce several times in the 1927 essay. Scholarly article; passages on the end of the debate are not used.",
+      "url": "https://hdl.handle.net/11094/54390"
+    },
+    {
+      "id": "src_akutagawa_li",
+      "kind": "biography",
+      "title": "Li Huijue, 'Akutagawa Ryunosuke no bannen no bungakukan: Taisho makki ni okeru \"shosetsu no suji\" ronso' (Akutagawa Ryunosuke's literary view in his last years: the dispute over 'the plot of the novel' at the end of the Taisho period), Machikaneyama Ronso, Cultural Dynamics series 48, Osaka University, 2014 (university research article, read in Japanese from the repository PDF; English summary also read). Different author and journal from the Tachibana article: sets the 1927 Akutagawa-Tanizaki dispute against the rise of commercial popular fiction at the end of the Taisho period, shows Akutagawa rejecting 'interest of plot' and putting the depth of a writer's 'poetic spirit' (shiteki seishin) as the criterion of artistic value, quotes his praise of Shiga Naoya, notes that his use of the term differed from Sato Haruo's and from the general view of the literary world, and says Tanizaki did not engage his argument directly so that it hardly became a debate. Scholarly article.",
+      "url": "https://hdl.handle.net/11094/56598"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_akutagawa_benton, src_akutagawa_tachibana, src_akutagawa_li | 1917-1927 | reference entry, university article, university article] Benton says he kept to a policy of self-detachment, staying out of his stories and away from the naturalism and I-novel he opposed; Tachibana shows his essays refused the I-novel genre artistic standing merely because it is 'not a lie' (the common reading of his 1927 argument as a defence of the I-novel therefore fails); Li says his 'poetic spirit' criterion departed from the general view of the literary world and from Sato Haruo's use of the term. Two independent scholarly articles and a reference entry converge; the evidence concerns his critical positions, not a documented cost of holding them. CONCENTRATION (agent): two scholarly articles and a reference entry converge, but every claim traces to his own critical essays relayed by scholars, not to an independent account of how he behaved; lowered from 64 / 0.52 (strong_inference) to 60 / 0.46 (inference)."
+    },
+    "aesthetic_sensitivity": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_akutagawa_benton, src_akutagawa_li, src_akutagawa_tachibana | 1917-1927 | reference entry, university article, university article] Benton credits close attention to style and form and says he took Poe's 'Philosophy of Composition' to heart; in 1927 he argued that the depth of a writer's 'poetic spirit' alone sets the artistic value of a work, and he singled out Shiga Naoya for pouring a poetic spirit rooted in Eastern tradition into realist description (Li, Tachibana). The criterion is largely his own statement as relayed by scholars. CONCENTRATION (agent): the criterion is his own statement relayed by two scholars of one university bulletin, and Benton's phrase is an editorial characterisation; lowered from 68 / 0.54 (strong_inference) to 64 / 0.48 (inference)."
+    },
+    "creative_originality": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_akutagawa_grove, src_akutagawa_benton, src_akutagawa_rashomon | 1915-1921 | critical essay, reference entry, critical essay] Janes describes 'In a Grove' as assembling contradictory but evidence-consistent testimonies (seven points of view per Benton) with no narrative frame, anticipating multi-voiced American narration by a decade; Benton says he raised images of 'Rashomon' to symbolic level and worked in three groups of historical subjects as well as modern tales. Counter-weight: Coppola and Janes both note that the plots came from the Konjaku Monogatari (and, for the structure, a Browning model he acknowledged), so the originality lies in treatment rather than invention. CONCENTRATION (agent): all three supporting sources are Gale Reference Guide to Short Fiction essays (one reference series, three authors) and none is an independent critic or historian; lowered from 66 / 0.50 (strong_inference) to 60 / 0.44 (inference)."
+    },
+    "experimentation": {
+      "score": 56,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_akutagawa_grove, src_akutagawa_jikihitsu, src_akutagawa_benton | 1918-1921 | critical essay, institutional exhibition text, reference entry] 'In a Grove' tells one event through incompatible testimonies and leaves the culprit open (Janes); in 'Hokyonin no shi' (1918) he presented the story as taken from a Christian-edition 'Legenda Aurea' he owned, a book he invented, and readers believed it enough to offer deposits (NDL). Benton adds that he worked across three groups of historical subjects as well as modern tales. Two documented formal experiments from two source families; no source describes how he judged their outcome. SELF-CALIBRATION (agent): one structural experiment described by one critic plus a single anecdote from an exhibition text; lowered from 60 / 0.50 (strong_inference) to 56 / 0.44 (inference)."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_akutagawa_benton, src_akutagawa_rashomon, src_akutagawa_tachibana | 1892-1927 | reference entry, critical essay, university article] Benton lists reading in Japanese and Chinese classics and fiction and in English, Continental and Russian authors; Coppola calls him a prodigious reader of Japanese and Western writing; Tachibana documents a concrete instance, a 1919 diary entry on reading Croce's Aesthetic, with the 1909 English edition surviving in his library with marks and Croce named repeatedly in his 1927 essay. The breadth is asserted by reference writers; only the Croce reading is evidenced from his own papers. SELF-CALIBRATION (agent): breadth of reading is asserted by reference writers and only one concrete instance (Croce) is evidenced from his own papers; lowered from 62 / 0.50 (strong_inference) to 58 / 0.46 (inference)."
+    },
+    "conflict_tolerance": {
+      "score": 54,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_akutagawa_tachibana, src_akutagawa_li | 1927 | university article, university article] At a 1927 Shincho round table he said he doubted that the plot-interest in Tanizaki Junichiro's work was true art, answered Tanizaki's rebuttal in the next issue of Kaizo and exchanged several rounds (Tachibana); Li adds that Tanizaki hardly engaged the argument, so it barely became a debate. One public episode with a senior peer in print; his argument is reported to have faded in later rounds, so impact is dual-edged. CONCENTRATION (agent): both articles describe the same single 1927 episode and Li builds on Tachibana; lowered from 58 / 0.44 to 54 / 0.38."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아쿠타가와 류노스케"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/akutagawa-ryunosuke-unknown-1927.jpg",
+    "width": 685,
+    "height": 1000,
+    "source": "Photograph of Akutagawa Ryunosuke (photographer not named) printed as the frontispiece plate, facing the title page 'Akutagawa Ryunosuke shu', of the Shinchosha volume of that title (Tokyo, 1927, 781 pages with a portrait), digitised in the National Diet Library Digital Collections (pid 1173830, page 5; item record rights code 'pdm', Public Domain Mark) and shown first among eleven portraits on the library's site 'Portraits of Modern Japanese Historical Figures' (793 x 1145 pixel file 0224_1.jpg). The file here is that image with a thin scan border cropped and downscaled to 685 x 1000 (no upscaling).",
+    "license": "Public domain: photograph first published in Japan in 1927 (published before 1958, so its Japanese copyright had expired and was not restored in the United States; a work published in 1927 is also out of the US term); National Diet Library item record carries the Public Domain Mark",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photographer unknown; frontispiece of Akutagawa Ryunosuke shu (Shinchosha, 1927); National Diet Library, Japan, Portraits of Modern Japanese Historical Figures",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/e/datas/224",
+    "creator": "Unknown photographer; reproduced in Akutagawa Ryunosuke shu (Shinchosha)",
+    "date": "published 1927",
+    "kind": "likeness",
+    "sourcePageUrl": "https://dl.ndl.go.jp/pid/1173830"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED: the lead was Commons 'Akutagawa Ryunosuke photo.jpg' (credit: a 1940s Akutagawa Ryunosuke sakuhinshu volume, author unknown, PD-Japan-oldphoto, no holder record). It shows a different sitting from the image shipped. The shipped photograph is the frontispiece plate of the 1927 Shinchosha book Akutagawa Ryunosuke shu, shown first among eleven portraits on the NDL site 'Portraits of Modern Japanese Historical Figures' (file 0224_1.jpg, 793 x 1145). HOLDER RECORD: the NDL Digital Collections item record (pid 1173830, read through the NDL item API) gives rights code 'pdm' (Public Domain Mark), permission 'internet', publication year 1927; the IIIF page image of page 5 was opened and shows the plate facing the title page 'Akutagawa Ryunosuke shu'. No printed caption on the plate itself, so identity rests on the book being his own collected volume with a frontispiece portrait and on the NDL Portraits page that lists it under his name; the face matches the other NDL and Commons photographs of him. The NDL page does not name a photographer and no sitting date is given (Commons dates the lead photo to 1926, unconfirmed). Rights basis: photograph first published in Japan in 1927, so Japanese copyright expired (PD-Japan-oldphoto logic, published before 1958) and it is out of the US term (published 1927). The other ten NDL portraits include 1953-1964 book plates and were not used (post-1958). KIND likeness. Dimensions 793 x 1145 cropped of a thin border and downscaled to 685 x 1000 (no upscaling). PREFLIGHT: QID VERIFIED LIVE (2026-11-13, Wikidata API) Q186326 label 'Ryūnosuke Akutagawa', description 'Japanese writer (1892–1927)', ja 芥川龍之介, ko 아쿠타가와 류노스케, instance of human, citizen of Japan, born 1 March 1892, died 24 July 1927. REGION east_asia, ERA 20th_century (precedent Natsume Soseki). Korean name is the Wikidata ko label. EVIDENCE DISCIPLINE: nothing is scored or inferred about his mental condition, family illness, health or death; the Benton entry, the NDL pages and the two scholarly articles all mention his death or later state of mind and those passages were read but not used; the Unseen Japan blog article (private life) was read and is not cited. ATTRIBUTION: attributable (dated publications, mentor relationship, 1927 public essays and debate quoted by two scholars). CANONICAL SIGNIFICANCE SOURCE: Benton, Reference Guide to Short Fiction entry on Akutagawa (https://encyclopedia.com/arts/encyclopedias-almanacs-transcripts-and-maps/akutagawa-ryunosuke). READ: Benton (full), Janes on 'In a Grove' (full), Coppola on 'Rashomon' (full), NDL Portraits biography, NDL Handwriting exhibition page (Japanese), Tachibana 2013 and Li 2014 Osaka University articles (Japanese, extracted with a PDF reader, read substantially; the endnotes were not checked). NOT OPENED: Keene's Dawn to the West, Rubin's translations and introductions, Tokyo or Kanagawa literature-museum chronologies, Britannica (403), Hiroshima University papers (links dead). SOURCE FAMILIES: Gale Reference Guide essays (three authors, one series), Osaka University scholarship (two authors, Li cites Tachibana), NDL institutional texts. All are secondary or institutional; no adversarial or non-Japanese-language independent biography was reached, and evidence of work habits, collaboration and risk is absent, so the profile is a sparse 6-row creative-and-critical profile by design. COUNTER-VOICES AND LIMITS: Coppola and Janes note the plots came from the Konjaku Monogatari and a Browning model; the first publication date of 'Rashomon' differs between sources (1915 versus the 1917 collection) and is not carded; 'Kurosawa film' year differs between sources and is not carded. MAJOR ACHIEVEMENT GATE (PASS on all): cards (1) bringing the short story to maturity, (2) 'Rashomon' and 'In a Grove' reworked Konjaku material and the Kurosawa link, (3) early masterpieces and Soseki's circle. SELF-CALIBRATION: six rows lowered (four for concentration, two for self-calibration), no raise flags; see handback."
+  }
+}

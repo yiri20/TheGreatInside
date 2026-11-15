@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "otto-sverdrup",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Otto Sverdrup",
+    "aliases": [
+      "Otto Neumann Knoph Sverdrup",
+      "Otto Neumann Sverdrup"
+    ],
+    "wikidataId": "Q321261",
+    "birthYear": 1854,
+    "deathYear": 1930,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "NO"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "navigator"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "leader"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sverdrup_wikidata",
+      "kind": "wikidata",
+      "title": "Otto Sverdrup (Q321261), verified live via the Wikidata API (2026-11-07): English label 'Otto Sverdrup', description 'Norwegian sailor and Arctic explorer (1854-1930)', alias Otto Neumann Knoph Sverdrup, no Korean label, born 1854-10-31, died 1930-11-26, instance of human, citizen of Norway. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q321261"
+    },
+    {
+      "id": "src_sverdrup_snl",
+      "kind": "biography",
+      "title": "Per Egil Hegge and Susan Barr, 'Otto Sverdrup', Store norske leksikon (text from Norsk biografisk leksikon; read in full, in Norwegian). CANONICAL SIGNIFICANCE SOURCE: a ship's master who took part in and partly led the three great Norwegian polar expeditions of 1888-1902, regarded as Norway's third great polar explorer after Nansen and Amundsen; the 1888 Greenland ski crossing (he volunteered by letter, was recommended by Nansen's brother, and built the small canvas boat used to reach Godthab); captain and second-in-command of the first Fram expedition (1893-96), closely involved in building the ship and in sole charge of ship and crew after Nansen left in 1895; leader of the second Fram expedition (1898-1902), which found its route north blocked, turned west, wintered four times instead of the planned three and mapped about 150,000 square kilometres including the Sverdrup Islands; his claim for Norway that the government did not pursue; his dispute with Nansen over book rights, the friction caused by placing the scientists under the second-in-command, his failed Cuban plantation and whaling ventures and lifelong money problems; the 1914-15 and 1920 Russian rescue expeditions and his chairmanship of the committee that preserved the Fram. Norwegian national reference biography; admiring and frank about failures.",
+      "url": "https://snl.no/Otto_Sverdrup"
+    },
+    {
+      "id": "src_sverdrup_barr",
+      "kind": "biography",
+      "title": "William Barr, 'Otto Sverdrup (1854-1930)', Arctic Profiles, ARCTIC vol. 37 no. 1 (1984), pp. 12-13 (journal of the Arctic Institute of North America; PDF read in full). Polar historian's profile: his offer to captain the drift ship from the start; three years (1890-93) devoted to building the Fram with every stage personally supervised; sole command of the ship and crew from February 1895 to August 1896; the 1898-1902 expedition, its blocked route, redirection to the area west of Ellesmere Island and the exploration of its west coast and the islands by 'an extremely workmanlike' team 'with a minimum of fuss or fanfare', which he calls one of the most impressive feats of polar exploration; the 1914-15 and 1920-21 Russian expeditions; his work to save the Fram, restored by 1930, and the sovereignty claim he lost. Scholarly profile, admiring of his workmanlike manner; Barr is also a co-author of the Norwegian reference article above.",
+      "url": "https://journalhosting.ucalgary.ca/index.php/arctic/article/view/65221"
+    },
+    {
+      "id": "src_sverdrup_nansen",
+      "kind": "archive",
+      "title": "Fridtjof Nansen, 'Farthest North', volumes I and II (1897; Project Gutenberg texts; the passages naming Sverdrup read, not the whole of both volumes): Nansen's own account of choosing him as commander of the Fram ('I could not place the Fram in better hands'), his 1893-95 diary entries with Sverdrup on watch, making sails for the ship's boats, a bear-trap and a pattern of canvas boots, his written handover of command on 25 February 1895 ('I am certain you will know best yourself what ought to be done in any emergency'), and the Fram's homecoming in 1896. First-hand account by his leader and later rival, so admiring in places and not independent of Nansen's own view; used for what he saw Sverdrup do, not for the book's appendix by Sverdrup himself.",
+      "url": "https://www.gutenberg.org/cache/epub/30197/pg30197.txt"
+    },
+    {
+      "id": "src_sverdrup_fram",
+      "kind": "institution",
+      "title": "Fram Museum, Oslo, 'The Second Fram Expedition 1898-1902' (read in full): Sverdrup, who had captained the Fram on her first voyage, was urged to lead the second expedition; he rebuilt the ship (freeboard raised six feet, a new deck and six extra cabins, a false keel); he took five scientists and ten crew; the first winter at Fram Haven, the ice-blocked route north, his lack of interest in an exploration competition with Robert Peary's Greenland expedition and the turn into Jones Sound; four winters instead of three; the surveying of about 200,000 square kilometres, the names given to islands after the sponsors; the claim 'in the name of the King of Norway' that the government did not follow up. Museum history page; its area figure differs from the 150,000 square kilometres in the Norwegian reference article.",
+      "url": "https://frammuseum.no/polar-history/expeditions/the-second-fram-expedition-1898-1902/"
+    },
+    {
+      "id": "src_sverdrup_harper",
+      "kind": "press",
+      "title": "Kenn Harper, 'The Sverdrup maps and High Arctic sovereignty', Taissumani column, Nunatsiaq News (1 June 2024; read in full). Arctic-historian's newspaper column: he oversaw the Fram's construction, remained aboard as captain and supervised the scientific programme after Nansen left, began planning his own expedition immediately on return, was forced by ice to abandon his plan for northern Greenland in 1898 and 1899 and turned to Ellesmere Island and Jones Sound, explored the west coast and the Sverdrup Islands, and informed King Oscar in 1902 that he had taken possession of the land for Norway; Canada's later settlement and the $67,000 paid for his maps in 1930. Independent Canadian perspective on the same events; narrow on character.",
+      "url": "https://nunatsiaq.com/stories/article/the-sverdrup-maps-and-high-arctic-sovereignty/"
+    },
+    {
+      "id": "src_sverdrup_lifeinnorway",
+      "kind": "press",
+      "title": "Daniel Albert, 'Otto Sverdrup: The Other Norwegian Polar Explorer', Life in Norway (read in full). Popular article: boyhood and sea career, the 1888 Greenland crossing and the boat built to reach Godthab, his three years as consultant on the Fram's construction, the Fram expeditions, the failed Cuban plantation and whaling business, the 1914 Russian rescue, and a 'complicated' relationship with Nansen, including the 1897 accusation that Sverdrup went behind Nansen's back raising funds for the second expedition and Sverdrup's belief that he had been paid too little for the first voyage, ending in a reconciliation in 1926. Journalist's summary, undocumented in places; used only where it agrees with or adds a dated fact to the other sources.",
+      "url": "https://www.lifeinnorway.net/otto-sverdrup"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sverdrup_snl, src_sverdrup_barr, src_sverdrup_fram | 1899-1930 | national reference biography, polar-historian profile, museum history] The second Fram expedition, planned for three winters, lasted four after the ice would not release the ship in 1901, and over the years the sledging parties mapped much of Ellesmere Island's west coast and the Sverdrup Islands (Barr, Fram Museum); at 60 he led an almost six-week dog-sled trip to take 39 stranded Russian seamen back to his ship (Norwegian reference article); and from 1925 he worked for the rest of his life, as chair of the Fram committee, to preserve the old ship, which was restored by 1930 (Norwegian reference article, Barr). Several distinct episodes over three decades, but the extra winter was forced by ice rather than chosen. SELF-CALIBRATION (agent): lowered from 72 / 0.60 to 68 / 0.54 because the reference article and the Barr profile share an author and the museum text follows the same published accounts."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sverdrup_barr, src_sverdrup_snl, src_sverdrup_fram, src_sverdrup_harper | 1898-1899 | polar-historian profile, national reference biography, museum history, historian's column] Four sources agree that ice stopped the Fram from reaching northern Greenland in 1898 and again in the summer of 1899, and that he then dropped that plan and turned west into Jones Sound to explore the unknown area west of Ellesmere Island, which became the expedition's main work. SELF-CALIBRATION (agent): lowered from 72 / 0.60 to 68 / 0.54 because all four accounts rest on the same expedition record and his own published narrative, so they are not four independent observations."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sverdrup_barr, src_sverdrup_snl, src_sverdrup_fram, src_sverdrup_nansen | 1890-1898 | polar-historian profile, national reference biography, museum history, first-hand account] He devoted 1890-93 to supervising every stage of the Fram's construction (Barr; Nansen chose him as commander knowing he could not place the ship 'in better hands'), travelled to Russia and England in 1897 to secure support for the next expedition and oversaw the ship's rebuilding in Larvik (Norwegian reference article), and applied lessons from the first voyage by raising the freeboard, adding a deck and a false keel (Fram Museum). SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 66 / 0.50 because the ship was designed by Colin Archer and the expedition concept was Nansen's, so the credit is shared."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sverdrup_snl, src_sverdrup_nansen, src_sverdrup_lifeinnorway | 1888-1894 | national reference biography, first-hand account, popular article] In 1888 he built the small canvas boat that he and Nansen used to reach Godthab after the Greenland crossing (reference article, popular article); on the Fram Nansen's diary records him making sails for the ship's boats, building a bear-trap with a crewman and devising a pattern of canvas boots the crew copied. The 1888 boat is documented in two sources, the Fram episodes by Nansen alone. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 64 / 0.50 because the Fram episodes rest on one diarist and the boat is retold by two sources."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sverdrup_snl, src_sverdrup_barr, src_sverdrup_harper | 1888-1897 | national reference biography, polar-historian profile, historian's column] He wrote to Nansen volunteering for the 1888 crossing (reference article), offered his services as captain of the drift ship 'right from the start' (Barr), and on returning in 1896 began planning a new expedition at once (Barr, Harper), canvassing Russia and England for support in 1897 (reference article). SELF-CALIBRATION (agent): lowered from 66 / 0.54 strong_inference to 62 / 0.46 inference because the reference article and Barr share an author and the offer to captain the Fram is stated, not described."
+    },
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sverdrup_snl, src_sverdrup_barr, src_sverdrup_fram, src_sverdrup_nansen | 1895-1902 | national reference biography, polar-historian profile, museum history, first-hand account] Nansen handed him written command of the Fram on 25 February 1895, and he was in sole charge of ship and crew until August 1896 (Nansen, Barr); he then led the second Fram expedition himself and began planning it immediately (Barr, Harper). The museum says he was 'urged' to lead it and the reference article says Nansen first suggested a new voyage, and every source calls him quiet and workmanlike, so drive is inferred from the roles he took, not from stated ambition. SELF-CALIBRATION (agent): lowered from 64 / 0.50 to 60 / 0.44 because the roles were offered to him as much as sought."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sverdrup_snl, src_sverdrup_barr, src_sverdrup_nansen, src_sverdrup_lifeinnorway | 1888-1897 | national reference biography, polar-historian profile, first-hand account, popular article] He crossed Greenland and made the Godthab boat journey with Nansen and served as his deputy for three years (Nansen, reference article), and Barr calls his sledging team 'well-knit' and well coordinated. Against that, the reference article records a dispute with Nansen over book rights and friction because the scientists were placed under the second-in-command rather than under him, and the popular article reports Nansen accusing him in 1897 of going behind his back in fund-raising. Reviewed in self-calibration and kept."
+    },
+    "risk_tolerance": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sverdrup_snl, src_sverdrup_nansen, src_sverdrup_lifeinnorway | 1893-1910 | national reference biography, first-hand account, popular article] He joined the drift of a ship into the polar pack ice that many sceptics expected to be crushed (popular article, Barr), and in later life put money into a Cuban plantation and whaling ventures that failed (reference article, popular article); Nansen's diary, however, shows him as the one who 'thought it would be safer to stay' off Cape Chelyuskin, so the picture is mixed. SELF-CALIBRATION (agent): lowered from 58 / 0.42 to 56 / 0.38 because the business losses come from two lines of one reference article and the expedition risk was shared with Nansen's plan."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오토 스베르드루프"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/otto-sverdrup-nansen-1895.jpg",
+    "width": 1000,
+    "height": 764,
+    "source": "Photograph by Fridtjof Nansen of Captain Otto Sverdrup in his cabin aboard the Fram, taken 12 February 1895 in the Arctic Ocean; held by the National Library of Norway (Nasjonalbiblioteket), Bildearkivet, image bldsa_q3c055, 'q3c055. Otto Neumann Knoph Sverdrup, kaptein, i kahytten om bord i Fram' (collodion paper print from the Nansen collection; published in Nansen, Fram over Polhavet, vol. 1, p. 67, Kristiania 1897). The file is the National Library's IIIF image (2226 x 1667), cropped to the photograph itself (the scan also shows the mount, torn edges and a colour bar) and downscaled to 1000 x 764 with no upscaling.",
+    "license": "Public domain: National Library of Norway item record marks the image 'publicdomain' (isPublicDomain true, available everywhere); the photographer Fridtjof Nansen died in 1930, so the Norwegian term has run since 2001, and the photograph was taken in 1895 and published in 1897",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Fridtjof Nansen, Portrait of Captain Otto Sverdrup in the cabin of the Fram, 12 February 1895; National Library of Norway (Nasjonalbiblioteket), bldsa_q3c055.",
+    "attributionUrl": "https://urn.nb.no/URN:NBN:no-nb_digifoto_20200226_00807_bldsa_q03c055",
+    "creator": "Fridtjof Nansen (1861-1930)",
+    "date": "12 February 1895",
+    "kind": "likeness",
+    "sourcePageUrl": "https://urn.nb.no/URN:NBN:no-nb_digifoto_20200226_00807_bldsa_q03c055"
+  },
+  "provenance": {
+    "createdAt": "2026-11-07T00:00:00Z",
+    "updatedAt": "2026-11-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / SURVIVED, with the holder original substituted for the book reproduction: the lead Commons file (Otto Sverdrup - F. Nansen.jpg, 1028 x 631, a halftone from the 1942 reprint of Nansen, Fram over Polhavet, 1897) is the same photograph as the National Library of Norway original used here, which I found by searching the NB catalogue API (api.nb.no): item bldsa_q3c055, title q3c055. Otto Neumann Knoph Sverdrup, kaptein, i kahytten om bord i Fram, photographer Fridtjof Nansen (1861-1930), created 1895-02-12 at Polhavet, depicted person Sverdrup Otto Neumann Knoph (1854-1930), published in vol. 1 p. 67 of Fram over Polhavet (1897), accessInfo isPublicDomain true, license publicdomain, access everywhere, collection PUBLICDOMAIN. No holder-versus-Commons discrepancy (creator, date and sitter agree; Commons says Nansen died 1930 so the Norwegian term ended 2001). Image: NB IIIF image 2226 x 1667, cropped to the photograph (the scan includes the mount, torn edges and a colour bar) and downscaled to 1000 x 764, no upscaling. A handwritten date mark 12/2 shows at the lower left of the negative. KIND likeness (photograph of the actual man, taken during the expedition). IDENTITY: QID VERIFIED LIVE (2026-11-07, Wikidata API) Q321261 label Otto Sverdrup, description Norwegian sailor and Arctic explorer (1854-1930), alias Otto Neumann Knoph Sverdrup, no ko label or ko Wikipedia article, born 1854-10-31, died 1930-11-26, human, citizen of Norway; no candidate or QID collision. KO NAME: 오토 스베르드루프 is a transliteration choice of mine (standard Korean rendering of the Norwegian name; there is no Korean Wikidata label), to be checked by the lead. REGION western_europe (Nansen and Amundsen precedent), ERA 19th_century (Nansen precedent; his expeditions were 1888-1902), nationality NO. VOCABULARY: occupations explorer, navigator; field exploration; impact domains historical, scientific; tags explorer, leader; archetype scientific_explorer. ZERO POLITICS: his 1902 claim of the discovered islands for Norway and the later Canada-Norway settlement are context only and not scored or carded; the Russian rescue voyages (1914-15, 1920) are scored only as maritime work (persistence) and a moment, not as political or military service. CANONICAL SIGNIFICANCE SOURCE: Hegge and Barr, Otto Sverdrup, Store norske leksikon (text from Norsk biografisk leksikon). READ (6 beyond Wikidata): that article (full, Norwegian), Barr Arctic Profile 1984 (full PDF), Nansen Farthest North vols I and II (the passages naming Sverdrup, via local text search, not all of both volumes), Fram Museum page (full), Harper Nunatsiaq column (full), Life in Norway (full); also read and not cited: the Arctic abstract page. Not opened: Hegge biography Otto Sverdrup: aldri radlos (1996), Wisting 2014 biography, Sverdrup own New Land and Under russisk flag, Canadian Encyclopedia (403) and Britannica (403). Wikipedia not used. PERSPECTIVES: Norwegian national reference article; polar-historian profile (Barr, also co-author of the reference article, so not independent of it); Nansen first-hand; museum history; Canadian historian column; popular journalist. NON-SELF BEHAVIOURAL SOURCES: all of the above; Sverdrup own writings were not used. COUNTER-VOICES: friction with Nansen over book rights and fund-raising (reference article, Life in Norway), friction over placing the scientists under the second-in-command, failed Cuban plantation and whaling ventures, lifelong money problems, Nansen diary showing him as the cautious voice at Cape Chelyuskin, the museum noting he was urged to lead, and an area discrepancy (150,000 vs 200,000 sq km). The doctor suicide and a stoker death on the second expedition are not carded. SELF-CALIBRATION: seven of eight rows lowered (see rationales; initial scores persisted in scratch notes); collaboration kept. All lowerings are self-calibration before eligibility, not eligibility remediation. ATTRIBUTION: attributable."
+  }
+}

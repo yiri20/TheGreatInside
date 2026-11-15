@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hantaro-nagaoka",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hantaro Nagaoka",
+    "aliases": [
+      "Nagaoka Hantaro",
+      "Hantaro Nagaoka",
+      "長岡半太郎"
+    ],
+    "wikidataId": "Q1936356",
+    "birthYear": 1865,
+    "deathYear": 1950,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "theorist",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nagaoka_wikidata",
+      "kind": "wikidata",
+      "title": "Hantaro Nagaoka (Q1936356), verified live via the Wikidata API (2026-11-13): English label 'Nagaoka Hantaro', description 'Japanese physicist (1865-1950)', instance of human, born 1865-08-15, died 1950-12-11, citizen of Japan, Korean label 나가오카 한타로. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1936356"
+    },
+    {
+      "id": "src_nagaoka_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Nagaoka, Hantaro' by Eri Yagi (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: graduated in physics at Tokyo in 1887 and worked on magnetostriction under C. G. Knott; studied in Berlin, Munich and Vienna 1893-96, impressed by Boltzmann's course on the kinetic theory of gases; in 1900 the Curies' lecture at the Paris congress stimulated him to study atomic structure; professor of physics at Tokyo 1901-1925, 'primarily responsible for promoting the advancement of physics in Japan' with pupils Honda, Ishiwara, Nishikawa and Nishina; his Saturnian atomic model of 1904, built from his criticism of Kelvin's Aepinus atom and Maxwell's analysis of Saturn's rings, which he renounced before beginning spectroscopic experiments in 1908; work also in geophysics, mathematical physics, spectroscopy and radio waves; National Cultural Prize 1937. Reference-work biography by a historian of Japanese science; admiring of his institutional role, short and light on personal behaviour.",
+      "url": "https://encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/nagaoka-hantaro"
+    },
+    {
+      "id": "src_nagaoka_badash",
+      "kind": "biography",
+      "title": "Lawrence Badash, 'Nagaoka to Rutherford, 22 February 1911', Physics Today, April 1967 (history-of-science article printing Nagaoka's letter from Tokyo University, with Rutherford's reply and a cast of characters; read in full from the AIP PDF). Historian's introduction places Nagaoka as the Japanese delegate to two congresses in Brussels and one in Vienna in 1910 who then visited laboratories in Manchester, Leiden, Berlin, Munich, Heidelberg, Wurzburg, Karlsruhe, Gottingen, Breslau, Geneva, Zurich and elsewhere; the letter is his own account (admiring of Rutherford's simple apparatus, sceptical about Stark's 'phantasies', disagreeing with Japanese seismologists, caught a severe cold on the Siberian return). Badash notes that Nagaoka's Saturnian atom was a precursor of Rutherford's but had no direct influence on it. Letter is self-report; the framing is the historian's.",
+      "url": "https://aip.brightspotcdn.com/PTO.v20.i4.55_1.online.pdf"
+    },
+    {
+      "id": "src_nagaoka_baily",
+      "kind": "biography",
+      "title": "Charles Baily, 'Early Atomic Models - From Mechanical to Quantum (1904-1913)', European Physical Journal H 2013 (arXiv 1208.5262; physics-history article, the passages on Nagaoka and on Rutherford's 1911 paper read; the full text was searched, not read through). Independent assessment of the Saturnian atom: based on Maxwell's calculations; Rutherford's 1911 paper gave Nagaoka credit for conditions of mechanical stability while noting his own conclusions did not depend on the ring form; G. A. Schott pointed out significant sign errors in Nagaoka's paper soon after it appeared; no evidence that it influenced Rutherford, and Nagaoka's 1910 letter to Rutherford does not mention atomic structure. Critical of the textbook story.",
+      "url": "https://arxiv.org/pdf/1208.5262"
+    },
+    {
+      "id": "src_nagaoka_riken",
+      "kind": "institution",
+      "title": "RIKEN, 'A Century of Discovery: The History of RIKEN' (institute history book; the chapters mentioning Nagaoka read). COMPANY-STYLE SOURCE (self-interested institutional history): RIKEN was set up in 1917 with a Department of Physics headed by Nagaoka and a Department of Chemistry headed by Kikunae Ikeda, whose 'constant bickering' shaped its structure; Nagaoka was fond of saying 'First comes researchers, second comes researchers, third comes researchers, and fourth comes equipment'; on his fourth overseas tour in 1920 he took two technicians, Nao Ayabe and Chugoro Ono, who studied industrial technology in the United States, and he went on sending technicians to Germany, establishing the machine shop that grew into RIKEN's instrument department; after retiring from Tokyo in 1925 he headed a chief-scientist laboratory; his 1924 Nature article with colleagues claiming to have transmuted mercury into gold and bismuth by an electric arc 'was never confirmed'.",
+      "url": "https://www.riken.jp/medialibrary/riken/pr/publications/anniv/riken100/centuryofdiscovery.pdf"
+    },
+    {
+      "id": "src_nagaoka_kubo",
+      "kind": "biography",
+      "title": "Ryogo Kubo, 'Yoshio Nishina, the Pioneer of Modern Physics in Japan' (address at the Nishina Centennial Symposium, Tokyo, 5 December 1990; the passages on Nagaoka read, 10 pages). Independent physicist's account of a pupil's career: Nishina studied physics at Tokyo under Nagaoka, 'the most influential person in the scientific community of Japan at that time', and went first to Cambridge in 1921 because Nagaoka introduced him to Rutherford; after Nishina's return in 1928 he joined Nagaoka's RIKEN group; Nagaoka's son Sagane was a member of Nishina's laboratory and passed on word of Lawrence's cyclotron plans. Admiring address; Nagaoka is a minor figure in it.",
+      "url": "https://inspirehep.net/files/4b1639872024c9cbfdb6df5b138eb9c8"
+    },
+    {
+      "id": "src_nagaoka_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'NAGAOKA Hantaro', Portraits of Modern Japanese Historical Figures (English and Japanese pages read; short biography written by library staff): samurai family of the Omura clan, graduated from the Imperial University in 1887, studied in Germany from 1893, professor at the Imperial University of Tokyo, involved in establishing RIKEN, published the atomic-model paper in 1903 and 'pioneered physics studies in Japan', first president of Osaka Imperial University, president of the Imperial Academy, Order of Culture 1937. His later membership of the House of Peers is listed there and is not used in this profile. Orientation-level institutional biography.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/5176"
+    },
+    {
+      "id": "src_nagaoka_jstage",
+      "kind": "institution",
+      "title": "Tetsuro Saso, 'Journals of the Physico-Mathematical Society and Hantaro Nagaoka', J-STAGE Journal Archive Stories No. 2 (2006; read in full): says Nagaoka doubted when young whether Japanese people could study science, studied under Boltzmann and Planck in 1893-96, fostered many scholars at Tokyo, became the first president of the newly established Osaka University in 1931, sat on the Nobel nominating body and recommended Yukawa as the first Japanese Nobel candidate, lectured on the Saturnian atom to the Tokyo Physico-Mathematical Society on 5 December 1903, and notes that the model 'did not perform sufficient quantitative analysis' and was replaced by the Rutherford and Bohr models though well received in Europe. Short society-journal note, admiring.",
+      "url": "https://www.jstage.jst.go.jp/static/pages/Journal@rchiveStories/Physics/01-02/-char/en"
+    },
+    {
+      "id": "src_nagaoka_nobel",
+      "kind": "award_body",
+      "title": "Nobel Prize organisation, Nomination Archive, entry 'Hantaro Nagaoka' (read): lists him as nominator in six physics nominations, 1930 Heisenberg and Schrodinger, 1933 Bridgman, 1934 Chadwick and the Joliot-Curies, 1936 Anderson, 1938 Lawrence and 1940 Yukawa. A record of his nominating acts only; says nothing about motives.",
+      "url": "https://www.nobelprize.org/nomination/archive/show_people.php?id=6592"
+    }
+  ],
+  "rows": {
+    "belief_updating": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_nagaoka_dsb, src_nagaoka_baily, src_nagaoka_jstage | 1904-1908 | reference biography, physics-history article, society note] The Dictionary of Scientific Biography says that having renounced his Saturnian model he began spectroscopic experiments in 1908 to learn the actual arrangement of electrons in the atom; Baily records that Schott found sign errors in the paper soon after it appeared, and the society note says the model was later replaced. One documented act with no account of why he abandoned it or how long he held out, hence inference. SELF-CALIBRATION (agent): lowered from 60 / 0.42 to 56 / 0.38 because the whole claim rests on a single DSB sentence."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nagaoka_dsb, src_nagaoka_badash, src_nagaoka_riken | 1893-1920 | reference biography, historian's edition of his own letter, institute history] The DSB says the Curies' 1900 lecture stimulated him to study atomic structure and that he worked in magnetostriction, atomic structure, geophysics, spectroscopy and radio waves; in 1910 he visited more than a dozen European laboratories after two congresses and wrote Rutherford a long account of the apparatus and results he saw (Badash); the institute history says his 1920 overseas tour was his fourth. Several distinct episodes, but the 1910 evidence is his own letter and the others are brief. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 62 / 0.50 because the best-documented episode is his own letter and the DSB list of fields is one sentence."
+    },
+    "cross_domain_range": {
+      "score": 56,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_nagaoka_dsb, src_nagaoka_badash, src_nagaoka_riken | 1887-1925 | reference biography, historian's edition of his own letter, institute history] The DSB lists magnetostriction, atomic structure, geophysics, mathematical physics, spectroscopy and radio waves, his 1910 letter shows an interest in seismology on which he disagreed with Japanese seismologists, and the institute history reports a 1924 high-voltage transmutation claim. These are all branches of physics and geophysics, the evidence is a list rather than detailed work in each, and the 1924 claim was never confirmed. SELF-CALIBRATION (agent): lowered from 60 / 0.48 / strong_inference to 56 / 0.46 / inference because the range is documented by one reference sentence and his own letter."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_nagaoka_dsb, src_nagaoka_badash, src_nagaoka_baily | 1902-1911 | reference biography, historian's edition of his own letter, physics-history article] The DSB says his criticism of Kelvin's 1902 Aepinus atom was essential to forming his model, in which he rejected interpenetrating charges and placed the electrons outside a central positive charge; in 1910 he wrote that most of his opinions on earthquakes accorded with Benndorf's and differed from those of Japanese seismologists (his own letter). Baily records that the model contained sign errors and had no direct influence on Rutherford, so the independence did not make the work reliable. SELF-CALIBRATION (agent): lowered from 62 / 0.46 to 58 / 0.42 because the second instance is his own remark."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_nagaoka_riken, src_nagaoka_ndl, src_nagaoka_jstage, src_nagaoka_dsb | 1917-1931 | institute history, national library biography, society note, reference biography] He headed the new RIKEN physics department, took technicians abroad in 1920 and kept sending them to Germany, establishing the machine shop that became the instrument department (institute history), and was named first president of Osaka Imperial University in 1931 (library biography, society note); the DSB credits him with promoting physics in Japan. The machine-shop account is the institute's own, and appointments are not the same as self-started action, so this is inference. SELF-CALIBRATION (agent): lowered from 64 / 0.50 to 60 / 0.44 because the shop and tour details come from the self-interested RIKEN history."
+    },
+    "collaboration": {
+      "score": 52,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_nagaoka_kubo, src_nagaoka_riken, src_nagaoka_nobel | 1920-1940 | physicist's address, institute history, award-body archive] Nishina went to Cambridge in 1921 because Nagaoka introduced him to Rutherford (Kubo); Nagaoka took RIKEN technicians abroad and sent more (institute history); the Nobel archive lists him as nominator for foreign and Japanese physicists in 1930-40. These show him connecting others to resources, not working jointly with them; there is no account of how his own research group worked. SELF-CALIBRATION (agent): lowered from 56 / 0.44 to 52 / 0.40 because the Kubo item is a single introduction told in passing."
+    },
+    "risk_tolerance": {
+      "score": 54,
+      "confidence": 0.36,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_nagaoka_riken | 1924 | institute history] The RIKEN history reports that Nagaoka and colleagues published in Nature in 1924 a claim to have transmuted mercury into gold and bismuth, 'never confirmed'; the DSB gives no comparable episode. The claim is a single public, later-unsupported episode, credit for it is shared with colleagues, and no source describes how he weighed the exposure. SELF-CALIBRATION (agent): lowered from 58 / 0.40 to 54 / 0.36 because the 1924 claim rests on one institute sentence."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "나가오카 한타로"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hantaro-nagaoka-ogawa-1904.jpg",
+    "width": 519,
+    "height": 747,
+    "source": "Oval studio portrait of Hantaro Nagaoka (top-left position on the page of ten professors' portraits, plate 32) in the photographic album 'Tokyo Teikoku Daigaku' (Tokyo Imperial University, Meiji 37 = 1904), edited by Ogawa Kazumasa and published by Ogawa Shashin Seihanjo, Tokyo; digitised in the National Diet Library Digital Collections (item 813162, DOI 10.11501/813162, rights code 'pdm', permission rule 'internet'), and the same image is shown on the library's site 'Portraits of Modern Japanese Historical Figures'. The legend on the facing leaf lists 'H. Nagaoka, Professor of Theoretical Physics' first, matching the top-left oval. The file is a crop of the library's full-resolution page image (4961 x 3508) around the oval, 519 x 747 pixels, no resizing and no upscaling.",
+    "license": "Public domain: published in Japan in 1904 (a photograph published before 1958, and the album's editor-photographer Ogawa Kazumasa died in 1929); National Diet Library item record carries rights code 'pdm' (public domain mark)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photographer of the original portrait not named; reproduced in Tokyo Teikoku Daigaku (Meiji 37, 1904), ed. Ogawa Kazumasa, Ogawa Shashin Seihanjo; National Diet Library, Japan (item 813162).",
+    "attributionUrl": "https://dl.ndl.go.jp/pid/813162",
+    "creator": "Original photographer not named; album edited by Ogawa Kazumasa (1860-1929), published by Ogawa Shashin Seihanjo",
+    "date": "1904 (album publication; the photograph was taken in or before 1904)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://dl.ndl.go.jp/pid/813162/1/32"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED: the lead, Commons 'Hantaro Nagaoka.jpg' (400 x 504, author unknown, dated 1930, source link to a RIKEN page, PD-Japan-oldphoto), carries no holder item record I could verify (the RIKEN link is a bare web page and the file is a thumbnail-size copy), so it was not used. Replacement: the oval portrait of Nagaoka in the album 'Tokyo Teikoku Daigaku' (Meiji 37 = 1904), ed. Ogawa Kazumasa (1860-1929), publisher Ogawa Shashin Seihanjo, NDL Digital Collections item 813162 (rights code 'pdm', permission rule 'internet', DOI 10.11501/813162), plate 32, also listed as image 2 on the NDL Portraits page for Nagaoka (the page's source field gives pid 813162, frame 32). Identity: ten oval portraits on the page; the legend on the facing leaf (frame 31) lists 'H. Nagaoka, Professor of Theoretical Physics' first, at the position of the top-left oval; the same face appears as NDL Portraits image 2. Crop 519 x 747 of the NDL 4961 x 3508 page image, no resizing, no upscaling. Original photographer unnamed, so creator is the album editor; legal basis is publication in Japan in 1904 (a photograph published before 1958, and the editor died 1929) plus the NDL 'pdm' code. KIND likeness: a studio portrait of the sitter published in his lifetime when he was about 39. Other NDL Portraits images seen and not used: 1937 magazine plate (pid 11030876), 1953 institute report frontispiece (pid 2308348, published 1953), his own 1951 essay collection (pid 1369972, colour plate), a 1951 Kagaku plate (3217840) and a 1986 magazine halftone (3301051); the 1951-53 plates are likely fine under the pre-1958 Japanese photo rule but their photographers and holders' rights were not checked. PREFLIGHT: QID VERIFIED LIVE (2026-11-13, Wikidata API) Q1936356 label 'Nagaoka Hantaro', description 'Japanese physicist (1865-1950)', instance of human, born 1865-08-15, died 1950-12-11, citizen of Japan, ko label 나가오카 한타로; no candidate file or QID collision found in the worktree candidates. REGION east_asia, ERA 20th_century (career 1901-1950), nationality JP. ZERO POLITICS: primary identity is physicist; his House of Peers membership (listed by NDL), Order of Culture and Imperial Academy presidency are context only and unscored. KO NAME 나가오카 한타로 is the Wikidata Korean label. VOCABULARY: occupation physicist, field physics, tags theorist and mentor, archetype scientific_explorer, impact domains scientific and educational (validator: 0 errors). ATTRIBUTION: attributable (dated papers, dated appointments, letter and institutional records), but behavioural evidence is thin: the Dictionary of Scientific Biography entry is short and the other sources are institutional, so the profile is a deliberately sparse 7-row profile at modest confidence. CANONICAL SIGNIFICANCE SOURCE: Dictionary of Scientific Biography entry by Eri Yagi (https://encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/nagaoka-hantaro). READ (8 sources besides Wikidata): DSB (full); Badash 1967 (full); Baily 2013 (Nagaoka passages); RIKEN 'A Century of Discovery' (Nagaoka passages); Kubo 1990 (Nagaoka passages); NDL Portraits page (English and Japanese); J-STAGE note (full); Nobel nomination archive entry. Britannica was blocked by a Cloudflare challenge (bot wall, not a rights issue) and Nature 1924 (paywall) were not opened; Wikipedia not used. NOT OPENED: Itakura, Kimura and Yagi 1973 Japanese biography (not online), Yagi 1964, Inamura's revisionist paper (abstract only seen in search results), Osaka University's own history page. PERSPECTIVES: reference biography; historian's edition of his own letter; institute history (self-interested); pupil-side physicist's address; physics-history article critical of the textbook story; library and society short biographies; award-body archive. NON-SELF BEHAVIOURAL SOURCES: DSB, Kubo, RIKEN history, Nobel archive; the letter in Badash is self-report. CONTRADICTIONS AND LIMITS: birth date given as 15 August (DSB, Wikidata) and 19 August (NDL), only the year is used; the Saturnian model is credited as a precursor of Rutherford's by Badash and Rutherford's own 1911 mention but Baily finds no evidence of influence and notes Schott's sign-error criticism, so the profile makes no priority claim; the 1924 mercury-to-gold claim is reported unconfirmed (RIKEN) and not carded as an achievement. MAJOR ACHIEVEMENT GATE: PASS (cards: Saturnian model with its limits; leadership of Japanese physics at Tokyo; RIKEN physics, machine shop and Osaka presidency). SELF-CALIBRATION: 7 rows scored, all 7 lowered (scores 7 of 7, confidences 7 of 7; cross_domain_range also strong_inference to inference); see handback. Not match-eligible by design (7 rows); no eligibility computed or targeted."
+  }
+}

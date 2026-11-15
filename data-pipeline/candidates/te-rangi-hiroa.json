@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "te-rangi-hiroa",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Te Rangi Hīroa",
+    "aliases": [
+      "Peter Buck",
+      "Sir Peter Buck",
+      "Peter Henry Buck",
+      "Te Rangihīroa"
+    ],
+    "wikidataId": "Q1396630",
+    "birthYear": 1877,
+    "deathYear": 1951,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NZ"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "scholar",
+      "writer"
+    ],
+    "fieldIds": [
+      "medicine",
+      "education",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "scientific",
+      "cultural",
+      "medical"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "cross_disciplinary",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_trh_wikidata",
+      "kind": "wikidata",
+      "title": "Te Rangi Hīroa (Q1396630), verified live via the Wikidata API (2026-11-13): English and Māori label 'Te Rangi Hīroa', English description 'Māori leader, physician, politician and anthropologist (1877-1951)', instance of human, two birth dates recorded (1877-10-01 and 1880-08-15), died 1951-12-01, citizen of New Zealand. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1396630"
+    },
+    {
+      "id": "src_trh_komako",
+      "kind": "biography",
+      "title": "Komako (bibliographic database of Māori writing in English), 'Te Rangi Hiroa/Peter Henry Buck': biography and annotated bibliography of his writings (read: the biography, the annotated entries from the Native Health Officer reports of 1905-1907 through the Bishop Museum Directors' reports and books to 1953). CANONICAL SIGNIFICANCE SOURCE: medical officer to the Māori from 1905, Director of Māori Hygiene until 1927, Bishop Museum research fellow from 1927, Yale visiting professor of anthropology from 1932 and Director of the Bishop Museum from 1936 to 1951; annotations of Samoan Material Culture (six months in Samoa from September 1927), Ethnology of Tongareva (17 days of field work in 1929), the 1929 Cook Islands expedition, An Introduction to Polynesian Anthropology (1945), The Coming of the Māori (1949, four books on settlement, material culture, social organisation and religion), Vikings of the Sunrise (1938, whose prologue says it is for the general public and 'not intended for critical anthropologists'), his director's reports (for example the 1938 report's photograph catalogue of Polynesian artifacts), a 1930 joint paper standardising terms for Polynesian stone cutting-implements with Emory, Skinner and Stokes, a 1941 paper on pan-pipes, and Alexander Spoehr's foreword saying Explorers of the Pacific grew from a planned section of an annual report. The annotations summarise his own writings, so they show what he wrote and did but not how others judged it; the database page gives his birth year as 1880.",
+      "url": "https://komako.org.nz/person/339"
+    },
+    {
+      "id": "src_trh_pukeariki",
+      "kind": "institution",
+      "title": "Puke Ariki (Taranaki regional museum and library), 'Te Rangi Hīroa: The Life of Sir Peter Buck' (Taranaki stories feature built on the historian Ron Lambert and J. B. Condliffe's 1971 biography; read in full): his upbringing by Ngārongo and Kapuakore, Te Aute College and Otago medical school (first Māori to train there as doctors with Tūtere Wirepa), medical officer to the Māori in 1905 and deputy to Māui Pōmare with whom he covered the North Island, election in 1909 for Northern Māori and defeat in 1914 (context, not scored), medical service at Gallipoli (context), Director of Māori Hygiene from 1921 to improve sanitation and prevent infectious disease, lectures on 'The Coming of the Māori', growing interest in Polynesian culture through medical postings in Rarotonga (1910) and Niue (1912-13), the offer of a Bishop Museum fellowship in 1926 and his move to Hawaii in 1927 after talking to Āpirana Ngata, their 1925-50 correspondence, and the 1954 interment of his ashes at Ōkoki. Museum-run popular biography; admiring; also records that the 1877 school register and the family's 1880 date for his birth conflict.",
+      "url": "https://terangiaoaonunui.pukeariki.com/all-stories/taranaki-stories/te-rangi-hiroa-the-life-of-sir-peter-buck/"
+    },
+    {
+      "id": "src_trh_jps",
+      "kind": "biography",
+      "title": "Rowan Light, review of 'Hei Taonga mā ngā Uri Whakatipu | Treasures for the Rising Generation: The Dominion Museum Ethnological Expeditions 1919-1923' (Te Papa Press, 2021), The Journal of the Polynesian Society 131(1), March 2022, pp. 95-97 (read in full): says the book reframes the Gisborne Hui Aroha (1919), Rotorua (1920), Whanganui River (1921) and East Coast (1923) expeditions around Māori leaders as instigators, with Ngata and Te Rangihiroa central; their purpose was revitalisation, not salvage, directing the collection of songs, games, rites and material culture in notes, film and recordings; says they used the language of loss to win government funding while seeing documentation as a way to sustain Māori arts, and worked alongside Elsdon Best, who took part in the sacking of Parihaka; the reviewer also notes the book's unevenness and that the expeditions' significance is assumed rather than argued. Independent scholarly review of a collective volume.",
+      "url": "https://TePapa.govt.nz/assets/76067/1707869847-jps_v131_mar2022_review_light.pdf"
+    },
+    {
+      "id": "src_trh_metge",
+      "kind": "biography",
+      "title": "Joan Metge, 'Time and the Art of Maori Storytelling', The Journal of New Zealand Studies 8(1), 1998-99 (ABSTRACT ONLY read; full text not downloaded): says Te Rangi Hiroa, examining traditional accounts of the peopling of Aotearoa 'with critical perception', noted 'inconsistencies' in which ancestors of different periods converse (Kupe giving sailing directions to Turi), and that where most scholars of the time took these as evidence that Māori had no sense of history, he explained them as a literary style using direct speech in order to pass information on effectively across generations. Independent comment by a social anthropologist who says she loved his Vikings of the Sunrise and The Coming of the Maori in her youth; admiring, brief.",
+      "url": "https://ojs.victoria.ac.nz/jnzs/article/view/339"
+    },
+    {
+      "id": "src_trh_newsroom",
+      "kind": "press",
+      "title": "Newsroom (ReadingRoom), 'Book of the Week: Of course Māori got here first' (9 November 2023, a reviewer's piece on the Oratia reissue of Vikings of the Sunrise with a new foreword by Paora Tapsell; read in full): describes the book as combining a scholarly approach with a Polynesian perspective, notes Buck's remark when thanking his editors that he was writing in English while thinking in Polynesian, the extensive field work behind it, its use of linguistic evidence (the Quechua 'kumar' and Polynesian 'kumara' for sweet potato) and plant evidence for an Indo-Malay origin of food plants, and contrasts it with Thor Heyerdahl's theory; recounts his daylight-saving filibuster speech from his parliamentary years (context). The review is openly framed by present-day arguments over Māori indigeneity, so it is reception evidence, not a neutral assessment.",
+      "url": "https://newsroom.co.nz/2023/11/09/book-of-the-week-the-maori-vikings-redux/"
+    },
+    {
+      "id": "src_trh_arvin",
+      "kind": "biography",
+      "title": "Mascha Gugganig, review of Maile Arvin, 'Possessing Polynesians: The Science of Settler Colonial Whiteness in Hawai'i and Oceania' (Duke University Press, 2019), Pacific Affairs (University of British Columbia; read in full): COUNTER-VOICE. Summarises Arvin's argument that early twentieth-century science cast Polynesians as descended from but degenerated from a European race, and that the book sets two Hawaiian advocates beside the Māori scholar Te Rangihīroa to show a shared stance on Polynesians' proximity to whiteness and distance from blackness, while noting that, unlike them, his interest in Western science served his wish to better understand Polynesian epistemologies. Second-hand summary of Arvin's critique in a review; the passage-level argument in Arvin's book was not read.",
+      "url": "https://pacificaffairs.ubc.ca/?p=14072"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_trh_komako, src_trh_pukeariki | 1905-1951 | annotated bibliography, museum biography] He moved from clinical and public-health work (medical officer to the Māori from 1905, Director of Māori Hygiene 1921-27) to ethnology (Dominion Museum expeditions, Bishop Museum fellowship from 1927, Yale teaching and the Directorship from 1936), and the bibliography lists his 1910 medical thesis on Māori medicine as well as monographs on material culture, religion and exploration history across Polynesia. The two fields are linked by his Māori health work, and both sources are close to a single career narrative. SELF-CALIBRATION (agent): lowered from 64 / 0.52 strong_inference to 60 / 0.46 inference because the sources are one bibliography of his own writings and one popular biography."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_trh_metge, src_trh_komako, src_trh_jps, src_trh_arvin | 1920s-1940 | scholarly abstract, annotated bibliography, scholarly review, review of a critique] Metge reports that he read the 'inconsistencies' in traditional accounts as a literary device where most scholars of his time saw a lack of historical sense; his 1940 essay (Komako) disputes the theory that native races are doomed after contact; and the JPS reviewer says he and Ngata used the language of loss to win funding while aiming at revival. Against this, the Arvin review places him within a period framework that treated Polynesians as close to whiteness, so the independence is on specific points rather than across his whole frame. SELF-CALIBRATION (agent): lowered from 66 / 0.50 strong_inference to 62 / 0.48 inference and marked dual-edged because the best-documented instance is a single abstract and a critical review qualifies the frame."
+    },
+    "analytical_rigor": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_trh_komako, src_trh_metge | 1930-1945 | annotated bibliography, scholarly abstract] The bibliography summarises a 1930 joint paper with Emory, Skinner and Stokes to standardise terms for Polynesian stone cutting-implements, a 1941 pan-pipe paper that compares museum specimens against an 1834 list and reasons that bamboo was not present in pre-European New Zealand, and a 1942 museum study framed as a procedure for specimens when craftsmen cannot be asked; Metge adds that he examined traditional accounts 'with critical perception'. Method is documented mostly in summaries of his own papers. SELF-CALIBRATION (agent): lowered from 62 / 0.50 strong_inference to 58 / 0.44 inference because the method is evidenced by summaries of his own work and one short abstract."
+    },
+    "proactive_agency": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_trh_jps, src_trh_pukeariki, src_trh_komako | 1919-1938 | scholarly review, museum biography, annotated bibliography] The JPS reviewer presents Ngata and Te Rangihiroa as instigators and directors of the Dominion Museum expeditions, a reading that credits Ngata as well and that the review says assumes significance rather than arguing it; he resigned from his hygiene post and moved to Honolulu in 1927 after the Bishop Museum offered a fellowship (Puke Ariki); as Director he started a photograph catalogue of authentic Polynesian artifacts and revised rules for exchanges and loans (Komako). Which of the leaders originated the expeditions is not settled in these sources. SELF-CALIBRATION (agent): lowered from 64 / 0.52 strong_inference to 60 / 0.48 inference because the origin of the expeditions is shared with Ngata and the other acts are known mostly from his own director's reports."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_trh_jps, src_trh_pukeariki, src_trh_komako | 1905-1947 | scholarly review, museum biography, annotated bibliography] He worked as deputy to Māui Pōmare on a joint sanitation campaign (Puke Ariki), took part in the Dominion Museum expeditions with Best, McDonald and Andersen and in networks the reviewer describes as collaborative (JPS), corresponded extensively with Ngata from 1925 to 1950 (Puke Ariki), co-wrote the 1930 terminology paper and a 1940 paper with Aginsky, and was one of a four-member Bishop Museum team in Kapingamarangi in 1947 (Komako). The roles are documented across three sources, though the working relationships themselves are described only in summary. SELF-CALIBRATION (agent): lowered from 64 / 0.52 to 62 / 0.50 because the Ngata partnership is reported mainly by the museum biography."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_trh_komako, src_trh_pukeariki, src_trh_jps | 1905-1940 | annotated bibliography, museum biography, scholarly review] His 1906-1907 reports as health officer press for more Māori nurses and Māori cottage hospitals (Komako); he and Pōmare campaigned to improve sanitation (Puke Ariki); the JPS reviewer says he and Ngata aimed the expeditions at sustaining Māori arts and culture, and his 1940 essay argues that native peoples need not die out (Komako). The aim is documented in his reports and in third-party descriptions of his purposes, with the 1906 report also taking positions on Māori land tenure that are outside this score. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 64 / 0.50 because the statements of aim are mostly in his own reports and one admiring biography."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_trh_pukeariki, src_trh_komako | 1910-1953 | museum biography, annotated bibliography] The museum biography says his interest in Polynesian cultures grew during his medical postings in the Cook Islands in 1910 and Niue in 1912-13, and Spoehr's foreword quoted in the bibliography says he planned only a section on European explorers for an annual report but became so interested in the early voyagers' reports that he wrote a book (Explorers of the Pacific, published 1953). Two instances, one of them a colleague's remark; no source describes his questions or methods. SELF-CALIBRATION (agent): lowered from 64 / 0.50 strong_inference to 60 / 0.44 inference because the first instance is a popular biography's summary and the second a single foreword."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "테 랑이 히로아"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No portrait with verified sitter AND holder-verified reuse rights. (1) Lead Commons RangiHiroa1904.jpg (Alexander Turnbull Library 1/2-037931-F, photographer unidentified, c.1904, academic robes): Commons says 'Permission: by email, but image is out of copyright', but the National Library/Te Ara item records for sibling Turnbull items (e.g. 1/2-037930-F) state Crown copyright administered through Manatu Taonga and that permission of the Alexander Turnbull Library is required before any reuse; the holder record for 1/2-037931-F itself could not be opened (Te Ara pages and natlib returned 403/redirect walls, the old timeframes link is dead), so the holder's permission requirement is unresolved and overrides the Commons PD-old tag. (2) Alternative: Archives New Zealand 1927 passport photograph (ACGO 8333 IA1 1350 / 15/11/30815; Commons CC BY 2.0 file 'Peter Buck passport photo (1927).jpg'): the Archives NZ item page title confirms the file is 'Passport Files - Passports - Buck, Peter Henry; Buck, Margaret (Mrs)', but the photograph carries only a countersignature ('H. H. Leachy', not the sitter's) so the sitter's identity within the two-person file was not verified (the application page image could not be downloaded: Commons 429 rate limit after retries), the Archives NZ licence page is behind an Incapsula bot wall (not bypassed) and the item is an unpublished 1927 photograph by an unnamed photographer, so a CC BY 2.0 label that comes only from the Commons uploader was not accepted. The other Commons images of him are group photographs, 1914-1918 and 1923 Turnbull or Te Papa-held items with the same holder question, or a 1930s Turnbull portrait (RangiHiroa1930s, 1/2-078259-F) with the same unresolved Turnbull permission requirement."
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / DID NOT SURVIVE; no replacement resolved, so portrait HELD (research kept). The lead's Commons 'RangiHiroa1904.jpg' (Alexander Turnbull Library 1/2-037931-F, photographer unidentified, c.1904) carries 'Permission: by email' and PD-old, but National Library item records for sibling Turnbull items (1/2-037930-F via DigitalNZ) state Crown copyright administered through Manatu Taonga and that permission of the Alexander Turnbull Library is required before reuse; the holder record for 1/2-037931-F could not be opened (Te Ara and natlib pages are walled or redirect, the Commons timeframes link is dead). Holder permission requirement is therefore unresolved and overrides the Commons tag. One bounded retry: the Archives New Zealand 1927 passport photograph (ACGO 8333 IA1 1350 / 15/11/30815; Commons file CC BY 2.0) was downloaded and viewed; the Archives NZ item title confirms the file is Buck, Peter Henry and Buck, Margaret, but the photo bears only a countersignature ('H. H. Leachy'), the application page that would say which photo is whose could not be fetched (Commons 429 rate limit after repeated retries over several minutes), the Archives NZ copyright page is behind an Incapsula bot wall (not bypassed), and the item is an unpublished 1927 photograph of unnamed authorship licensed as CC BY 2.0 only by a Commons uploader's tag; not accepted. NEXT STEP: obtain the Turnbull record or written permission for 1/2-037931-F (or the Archives NZ licence statement plus the application page identifying his photo). PREFLIGHT: QID VERIFIED LIVE (2026-11-13, Wikidata API) Q1396630 label 'Te Rangi Hiroa' (macron form), description 'Maori leader, physician, politician and anthropologist (1877-1951)', human, two birth dates recorded (1877-10-01 and 1880-08-15), died 1951-12-01. BIRTH YEAR 1877 used: the Puke Ariki feature and the Waikato/Komako pages note the family date of 1880 against the 1877 primary-school register (the Te Ara biography, which was walled, is reported by search summaries to prefer October 1877); a Waikato page gives 1860 and is an error. REGION western_europe (NZ precedent: Rutherford, Mansfield; there is no Oceania id). ERA 20th_century. Nationality NZ. KO NAME 테 랑이 히로아: no Wikidata or Korean Wikipedia label, so this is the researcher's transcription (Rangi as 랑이, Hiroa as 히로아); a human Korean check is advisable. SCOPE: scored on medical, anthropological, museum and writing conduct only; his Parliament service for Northern Maori (1909-1914), his military medical service and the 1906 report's views on Maori land tenure are context and not scored. VOCABULARY: no anthropologist occupation or field id exists, so occupations physician, scholar, writer; fields medicine, education, social_reform; tags field_researcher, cross_disciplinary, communicator; archetypes scholarly_specialist, cross_disciplinary_generalist; impact domains scientific, cultural, medical. ATTRIBUTION: attributable (dated reports, monographs, posts). CANONICAL SIGNIFICANCE SOURCE: Komako biography and annotated bibliography (src_trh_komako); the Dictionary of New Zealand Biography entry by Sorrenson, Te Ara, Britannica, the Te Ara 1966 entry and e-tangata were blocked (403) and not read. READ (6 sources besides Wikidata): Komako (biography plus annotated entries, read in large part), Puke Ariki feature (full), Rowan Light's JPS review (full), Metge abstract (abstract only), Newsroom review of the Vikings reissue (full), Gugganig's Pacific Affairs review of Arvin (full). English Wikipedia read for orientation only and not cited. Not opened: Condliffe 1971, Sorrenson's Ngata-Buck letters, Vikings of the Sunrise itself, Ramsden's 1954 memoir, the Metge article body, Arvin's book. PERSPECTIVES: (1) bibliography of his own writing (self-authored, annotated by a database); (2) regional museum popular biography; (3) scholarly review of the Dominion Museum expeditions volume; (4) scholarly abstract on his reading of oral tradition; (5) a partisan modern reception review; (6) a critical review of Arvin on Polynesian racial framing. NON-SELF BEHAVIOURAL SOURCES: Puke Ariki, JPS review, Metge abstract (his own reports and books are summarised in Komako). ADVERSARIAL SOURCE: none read in full; the only critical voice is second-hand (Arvin via Gugganig). CONTRADICTIONS AND LIMITS: birth date 1877 vs 1880; who originated the Dominion Museum expeditions (JPS review centres Ngata and Te Rangihiroa; a book review elsewhere calls Ngata the key figure, not cited); the Waikato 1860 error. Sparse 7-row profile by design: all rows lowered in self-calibration; no mastery, discipline or persistence rows because output volume and honours are not behavioural evidence. MAJOR ACHIEVEMENT GATE: cards (1) Bishop Museum fieldwork and Directorship, (2) Vikings of the Sunrise and The Coming of the Maori, (3) Maori health work. HANDBACK67: see C:/Users/Lenovo/TGI-r67-scratch/handback/te-rangi-hiroa.json."
+  }
+}

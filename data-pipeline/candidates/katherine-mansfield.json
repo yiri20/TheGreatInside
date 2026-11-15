@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "katherine-mansfield",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Katherine Mansfield",
+    "aliases": [
+      "Kathleen Mansfield Beauchamp",
+      "Kathleen Beauchamp"
+    ],
+    "wikidataId": "Q270632",
+    "birthYear": 1888,
+    "deathYear": 1923,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "NZ"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mansfield_wikidata",
+      "kind": "wikidata",
+      "title": "Katherine Mansfield (Q270632), verified live via the Wikidata API (2026-11-07): English label 'Katherine Mansfield', description 'New Zealand author (1888-1923)', human, born 14 October 1888, died 9 January 1923, citizen of New Zealand, Korean label 캐서린 맨스필드. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q270632"
+    },
+    {
+      "id": "src_mansfield_poetry",
+      "kind": "biography",
+      "title": "Poetry Foundation, 'Katherine Mansfield' (biographical profile; read in full). CANONICAL SIGNIFICANCE SOURCE: born Kathleen Mansfield Beauchamp in Wellington in 1888; left New Zealand for England at 19 to become a writer; her short stories pioneered the shape of the genre in the twentieth century; first collection In a German Pension (1911), stories in Rhythm and The Blue Review edited by John Middleton Murry, her brother's death in 1915 and the New Zealand memories behind Bliss and Other Stories (1920) and The Garden Party and Other Stories (1922); tuberculosis in her last five years; died 9 January 1923 with a reputation as a master of compressed short fiction already established; praised for compression and understatement. Short profile; relies in part on Murry's own account of her.",
+      "url": "https://www.poetryfoundation.org/poets/katherine-mansfield"
+    },
+    {
+      "id": "src_mansfield_wiwh",
+      "kind": "biography",
+      "title": "Patricia B. Heaman, 'Mansfield, Katherine (1888-1923)', in Women in World History: A Biographical Encyclopedia (Gale; Encyclopedia.com reproduction; read in full). Detailed encyclopedia biography drawing on Alpers (1980), Meyers (1978) and Tomalin (1987): school magazines and Queen's College editorship, her 1906-08 insistence on returning to London, the 1909 break and publications in A. R. Orage's New Age, In a German Pension (1911), Rhythm and The Blue Review, the 1915 death of her brother and the rewriting of 'The Aloe' at Bandol, 'Prelude' (Hogarth Press, 1918), her reviewing for the Athenaeum, her productive bursts of 1920-21 with the two collections, radium treatments and the Gurdjieff Institute where she died. The entry flags that biographers disagree and that much of 1909-12 is reconstructed from fragmentary evidence because she destroyed her diaries; it also records that Murry shaped her posthumous reputation and that she depended on her father's allowance all her life. Parts of the entry on her private life and health are speculative and are not used for any row.",
+      "url": "https://www.encyclopedia.com/women/dictionaries-thesauruses-pictures-and-press-releases/mansfield-katherine-1888-1923"
+    },
+    {
+      "id": "src_mansfield_londonmag",
+      "kind": "press",
+      "title": "'The Woolfs' Hogarth Press and Katherine Mansfield's Prelude (1918)', The London Magazine (literary-history article built on Mansfield's and Virginia Woolf's letters and journals; read in full). Tracks how Mansfield turned her earlier draft 'The Aloe' into 'Prelude' for the Woolfs' new press in 1917, paying a typist for the fair copy because she was too ill, how the Woolfs probably discussed alterations with her at Asheham, the wrangle over the woodcut cover by J. D. Fergusson, the slow advance orders that worried her, and the mixed contemporary reviews in the Daily News and The Nation and the later Times Literary Supplement review. Scholarly, document-based; much of the evidence is her own letters.",
+      "url": "https://thelondonmagazine.org/article/the-woolfs-hogarth-press-and-katherine-mansfields-prelude-1918/"
+    },
+    {
+      "id": "src_mansfield_nyrb",
+      "kind": "press",
+      "title": "Gabriele Annan, 'Going Every Sort of Hog' (review of Claire Tomalin, Katherine Mansfield: A Secret Life), The New York Review of Books, 17 March 1988 (read in full). Critical review of the Tomalin biography: calls her a brilliant writer who rejected her comfortable background for a hard, Romantic career; quotes Tomalin that her lack of stamina, which kept her from a novel, encouraged speed, economy and clarity; criticises sentimentality in her treatment of children and the poor and some cheap comic devices; records Virginia Woolf's and Leonard Woolf's mixed judgments and the reviewer's view that she was ruthless and manipulative though excellent company; summarises the 1909-10 Chekhov-adaptation controversy and the Tomalin account of her illness (not used). An independent critical voice, but one that retells a single biography.",
+      "url": "https://www.nybooks.com/articles/1988/03/17/going-every-sort-of-hog/"
+    },
+    {
+      "id": "src_mansfield_kimber",
+      "kind": "biography",
+      "title": "Gerri Kimber, excerpt from Katherine Mansfield: A Hidden Life (Reaktion Books, 2025), published as 'Virginia Woolf Thought Katharine Mansfield Stank Like a Civet Cat Taken to Streetwalking', Literary Hub, 17 December 2025 (read in full). Biographer's account of the July 1916 Garsington weekend, Lytton Strachey's and Virginia Woolf's first impressions, Leonard Woolf's later recollection of her wit and of Murry's influence, her fabrication and love of storytelling, and an analysis of her technique: free indirect discourse, scene-based structure, cinematic openings, the 'Prelude method' (her phrase), compression, and the view that writing was her main reason for living. Modern biographer writing about a subject she admires; much of the evidence is her letters.",
+      "url": "https://lithub.com/virginia-woolf-thought-katharine-mansfield-stank-like-a-civet-cat-taken-to-streetwalking"
+    },
+    {
+      "id": "src_mansfield_kirkus",
+      "kind": "press",
+      "title": "Kirkus Reviews, review of Claire Tomalin, Katherine Mansfield: A Secret Life (Knopf, 1988; short trade review, read in full). Describes the biography's new evidence on her relationship with D. H. Lawrence and on her medical record, notes Chekhov's early influence and that she plagiarised an obscure Chekhov story early in her career, an embarrassment she and Murry suppressed. Brief review of the same biography as the NYRB piece, so not independent of it.",
+      "url": "https://www.kirkusreviews.com/book-reviews/claire-tomalin-2/katherine-mansfield-a-secret-life"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mansfield_wiwh, src_mansfield_nyrb, src_mansfield_kimber, src_mansfield_poetry | 1915-1922 | encyclopedia biography, 1988 biography review, 2025 biographer excerpt, poetry-foundation biography] After her brother's death in 1915 she resolved to get well and write about their childhood, rewrote 'The Aloe' at Bandol, and, though increasingly ill and abroad for her health from 1919, produced her best-known stories in bursts in 1920 and 1921 and two collections in her last two years (Heaman). The NYRB reviewer paraphrases Tomalin on her 'dogged determination' to go on writing as illness worsened, and Kimber calls writing her main reason for living. Tomalin is quoted as saying a lack of stamina kept her from writing a novel. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 68 / 0.52 because the illness-and-writing portrait is largely one biographical tradition (Tomalin, Alpers, Meyers) retold by Heaman, Annan and Kimber, and the 'no novel' qualifier cuts against a blanket persistence reading."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mansfield_londonmag, src_mansfield_wiwh, src_mansfield_kimber | 1905-1918 | scholarly article from her letters, encyclopedia biography, 2025 biographer excerpt] Documented craft work: she wrote daily in journals and notebooks as a teenager and gained editorial practice on school magazines (Heaman); in 1915-17 she turned the unfinished draft of 'The Aloe' into the much-revised 'Prelude', paid a typist for a fair copy and probably discussed further editorial changes with Virginia Woolf at Asheham, and she tried to insist on a particular woodcut cover for the Hogarth Press edition (The London Magazine, quoting her letters). Kimber adds that her stories became markedly brief and compressed. SELF-CALIBRATION (agent): lowered from 68 / 0.52 to 64 / 0.50 because the revision history is one project (Aloe to Prelude) and Kimber's praise of her mastery of brevity is critical judgement, not behaviour."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mansfield_kimber, src_mansfield_nyrb, src_mansfield_wiwh, src_mansfield_kirkus | 1910-1922 | 2025 biographer excerpt, 1988 biography review, encyclopedia biography, 1988 trade review] Kimber quotes her calling the form of 'Prelude' 'more or less my own invention' and a critic naming her the most important modernist author who wrote only short stories; Tomalin (as reported by the NYRB) credits speed, economy and clarity that later writers imitated. Against this, her first published story after Bavaria, 'The Child-Who-Was-Tired', was a free adaptation of a Chekhov story printed without acknowledgement (Heaman; Kirkus calls it plagiarism; the NYRB notes the old controversy), and the NYRB reviewer finds some of her devices cheap and her treatment of children and the poor sentimental. CONCENTRATION (agent): lowered from 72 / 0.54 to 66 / 0.46 and from strong_inference to inference because the originality claim rests on her own remark plus critics quoted by one author, the Tomalin family of sources repeats the same judgment, and the Chekhov adaptation is a documented contradiction."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mansfield_kimber, src_mansfield_wiwh, src_mansfield_nyrb | 1915-1922 | 2025 biographer excerpt, encyclopedia biography, 1988 biography review] Kimber describes a deliberate shift to free indirect discourse, stories built from short 'scenes' and openings that cut straight into action, with a cinematic quality, and quotes her calling the 'Prelude method' something that 'just unfolds'; Heaman says the war changed her view of life and art and the rewritten 'Aloe' used a crisp, detached style; the NYRB reviewer gives Tomalin's 'Post-Impressionist' label. CONCENTRATION (agent): lowered from 64 / 0.50 to 60 / 0.44 and from strong_inference to inference because the technical account is essentially Kimber's single critical reading plus Tomalin's label, not independent documentation of her trying different methods."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mansfield_wiwh, src_mansfield_nyrb | 1906-1908 | encyclopedia biography, 1988 biography review] After three years at Queen's College she resisted returning to Wellington, spoke of taking a flat in London, tried to make herself objectionable to her parents, and in 1908 persuaded her father to provide an allowance to live in London and try to make her own way as a musician or writer; the NYRB reviewer says she rejected her family background. Throughout her life she nonetheless remained financially dependent on that allowance (Heaman), so the independence was real in choices and limited in means. CONCENTRATION (agent): lowered from 70 / 0.52 to 66 / 0.46 and from strong_inference to inference because both sources follow the same biographical tradition and the motive is largely her own reported feelings."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mansfield_wiwh, src_mansfield_kimber, src_mansfield_londonmag | 1900-1920 | encyclopedia biography, 2025 biographer excerpt, scholarly article from her letters] She took the initiative as a schoolgirl to start a school magazine, became editor of the Queen's College magazine in 1905, submitted work to the Native Companion before leaving for London, and in London placed stories with Orage's New Age and brought out a first book in 1911 (Heaman); in 1918 she worried about slow advance orders for 'Prelude' and offered to sell it herself (The London Magazine, quoting her letter). Kimber says writing was her main reason for living. CONCENTRATION (agent): lowered from 66 / 0.50 to 62 / 0.44 and from strong_inference to inference because the drive is asserted by one biographer and by one letter, and the career steps are routine for a young writer rather than evidence of unusual ambition."
+    }
+  },
+  "doNotCopyKeys": [],
+  "localization": {
+    "displayNames": {
+      "ko-KR": "캐서린 맨스필드"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/katherine-mansfield-gaudier-brzeska-1910s.jpg",
+    "width": 746,
+    "height": 1000,
+    "source": "Black-chalk portrait drawing 'Katherine Mansfield' by Henri Gaudier-Brzeska (1891-1915), made between 1910 and 1915 (holder's dating), sheet 35.9 x 27 cm, inscribed 'a K.M.' and signed 'Gaudier-Brzeska' at lower left; Yale Center for British Art, Paul Mellon Fund, B1982.26.60 (holder title 'Katherine Mansfield', former title 'Portrait of Katherine Mansfield', sitter given as Katherine Mansfield). A spare, stylised outline drawing, so resemblance cannot be independently checked. The file is the 746 x 1000 rendering of the holder's 'recto, cropped to image' scan (4035 x 5412 pixels) served by the holder's IIIF image service, downscaled with no upscaling.",
+    "license": "Public domain: the holder (Yale Center for British Art) states 'Copyright Statement: Public Domain' and 'Image Use Rights: No Copyright - CC0 1.0'; the artist died in 1915",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Henri Gaudier-Brzeska, Katherine Mansfield, between 1910 and 1915, black chalk; Yale Center for British Art, Paul Mellon Fund (B1982.26.60), public domain (CC0).",
+    "attributionUrl": "https://collections.britishart.yale.edu/catalog/tms:20520",
+    "creator": "Henri Gaudier-Brzeska",
+    "date": "between 1910 and 1915",
+    "kind": "likeness",
+    "sourcePageUrl": "https://collections.britishart.yale.edu/catalog/tms:20520"
+  },
+  "provenance": {
+    "createdAt": "2026-11-07T00:00:00Z",
+    "updatedAt": "2026-11-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED: the lead's Commons 'Katherine Mansfield (no signature).jpg' (a derivative by Carnby of Katherinemansfield.jpg, labelled PD-old and PD-1996, credited on Commons to Charlotte Mary Pickthall, Alexander Turnbull Library 1/4-017274-F) did NOT survive. The holder record (Alexander Turnbull Library, read through the DigitalNZ API: record 23032500, 'Pickthall, Charlotte Mary, 1887-1966 : Katherine Mansfield', 1914) says the photograph was taken by the Adelphi Studio, The Strand, is stamped 'Adelphi Studios Ltd Strand WC', was copied from a print belonging to Mrs Pickthall, is autographed 'Katherine', and gives Copyright: Unknown and Usage: Unknown with no rights statement; so Commons's naming of Pickthall as author contradicts the holder (she supplied the print) and the holder gives no PD or reuse basis: rejected as rights-undetermined. Other photographs considered and not used: the c.1916-17 Ottoline Morrell snapshot (NPG London Ax140568; the NPG record is behind a bot wall, and the photograph appears to be unpublished, for which UK law can run to 2039, so rights not verifiable); the ATL ca.1911-1921 prints (all 'Copyright Unknown', often unknown photographer); an Archives New Zealand Flickr halftone (ABKH W4437 NF 316; underlying photograph and its source unidentified); portraits held by Katherine Mansfield House are all-rights-reserved. REPLACEMENT: black-chalk drawing 'Katherine Mansfield' by Henri Gaudier-Brzeska (d. 1915), Yale Center for British Art B1982.26.60 (holder IIIF manifest and catalogue page read): title 'Katherine Mansfield' (former title 'Portrait of Katherine Mansfield'), between 1910 and 1915, sheet 35.9 x 27 cm, inscribed in chalk 'a K.M.' and signed Gaudier-Brzeska, sitter field gives Katherine Mansfield (writer), Copyright Statement 'Public Domain', Image Use Rights 'No Copyright (CC0 1.0)', credit Paul Mellon Fund. Identity rests on the holder's title and sitter field plus the dedication 'K.M.'; Gaudier-Brzeska and Mansfield did know each other in 1912-13 (they met in June 1912 after he sent drawings to Rhythm; a short article on the friendship was consulted through a page-summary tool and is not cited). The sheet is a spare, stylised outline, so resemblance cannot be checked against a photograph; KIND likeness (made in her lifetime by an acquaintance) with that caveat. File: holder IIIF rendering 746 x 1000 of the 4035 x 5412 scan, downscaled only. The YCBA site is bot-walled for scripts; the catalogue page was read through a fetch tool and the IIIF manifest by direct request. A photograph would be preferable if the lead can obtain a verified rights position for one. PREFLIGHT: QID VERIFIED LIVE (2026-11-07, Wikidata API) Q270632 label 'Katherine Mansfield', description 'New Zealand author (1888-1923)', human, born 14 October 1888, died 9 January 1923, citizen of New Zealand, Korean label 캐서린 맨스필드. REGION western_europe: there is no Oceania region id among the 11; precedent Ernest Rutherford (NZ-born, career in Britain); all of Mansfield's adult career was in England and continental Europe. ERA 20th_century (career 1909-1923). Nationality NZ. ZERO POLITICS: primary identity is writer. PRIVATE LIFE: her sexuality, relationships, pregnancy and the illness diagnoses discussed by Tomalin, Heaman and Kimber are NOT scored and not used as evidence; only her documented work, publishing steps and decisions are used. VOCABULARY: occupation writer; field literature; tags innovator, independent; archetypes creative_creator, independent_creator; impact domains literary, cultural (validator clean). KO NAME 캐서린 맨스필드 is the Wikidata label. ATTRIBUTION: attributable (dated publications, published letters and journals, letters quoted by several scholars). CANONICAL SIGNIFICANCE SOURCE: Poetry Foundation profile (https://www.poetryfoundation.org/poets/katherine-mansfield). READ in full: Poetry Foundation, Heaman (Gale), The London Magazine article on Prelude, Annan's NYRB review of Tomalin, Kimber's Literary Hub excerpt, Kirkus review. Also read but not cited: the NZ Listener review of Kimber by Stead and two short profiles (Owl Eyes, Representative Poetry Online). A search-result page that turned out to be spam was discarded. Not opened (bot walls or not found): Te Ara DNZB, Britannica, NPG London, the Collected Letters, and the Alpers, Meyers, Tomalin and Kimber books in full. Wikipedia not used. PERSPECTIVES: poetry-foundation canonical profile; encyclopedia biography built on Alpers/Meyers/Tomalin; a document-based literary-history article from her letters; a critical 1988 review of Tomalin; a modern biographer's technique analysis; a trade review. NON-SELF BEHAVIOURAL SOURCES: Heaman, Annan, Kirkus, Kimber, The London Magazine (the last two lean on her letters in places). CONTRADICTIONS AND LIMITS: birth date given as 15 October by Heaman, 14 October by Poetry Foundation and Wikidata (14 used); Bliss and Other Stories dated 1920 (Poetry Foundation) or 1921 (Heaman) (1920 used in the card); the Chekhov-adaptation episode is documented by Heaman, Kirkus and Annan and cuts against an unqualified originality row; much of 1909-12 is reconstructed because she destroyed her diaries. CONCENTRATION: families = (1) Gale/Heaman (Alpers, Meyers, Tomalin); (2) Tomalin through Annan and Kirkus; (3) Mansfield's own letters and journals as used by Kimber and The London Magazine; (4) Poetry Foundation/Murry. Four rows lowered for concentration (creative_originality, experimentation, autonomy_need, achievement_drive); self-calibration lowered persistence and mastery_orientation. MAJOR ACHIEVEMENT GATE: PASS on all (cards: modern short story form; the two collections; Prelude and the Hogarth Press). Sparse 6-row profile by design: no sociability, risk or conflict rows because the usable material is mostly private life or one-source anecdote."
+  }
+}

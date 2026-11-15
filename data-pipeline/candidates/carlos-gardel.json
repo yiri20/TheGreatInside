@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "carlos-gardel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Carlos Gardel",
+    "aliases": [
+      "Charles Romuald Gardes",
+      "Carlitos Gardel",
+      "El Zorzal Criollo",
+      "Carlos Gardel Rioplatense"
+    ],
+    "wikidataId": "Q229613",
+    "birthYear": 1890,
+    "deathYear": 1935,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AR",
+      "UY",
+      "FR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer",
+      "songwriter",
+      "actor"
+    ],
+    "fieldIds": [
+      "music",
+      "film"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "self_taught"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gardel_wikidata",
+      "kind": "wikidata",
+      "title": "Carlos Gardel (Q229613), verified live via the Wikidata API (2026-11-13): English label 'Carlos Gardel', description 'Uruguayan-Argentine singer, songwriter, and actor', human, died 24 June 1935, birth recorded as 11 December 1890 (a second statement gives 1887), citizen of Argentina, Uruguay and France, Korean label 카를로스 가르델. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q229613"
+    },
+    {
+      "id": "src_gardel_collier",
+      "kind": "biography",
+      "title": "Simon Collier, 'Carlos Gardel: Su vida, su musica, su epoca' (Plaza & Janes / Editorial Sudamericana; Spanish translation of 'The Life, Music and Times of Carlos Gardel', open-access OAPEN copy mirrored on the Internet Archive; OCR text searched and the passages on the Gardel-Razzano duo, the 1925 split, his working routine, the 1929-30 schedule, rehearsals, wardrobe and the Paramount contracts of 1931 read; not read cover to cover). CANONICAL SIGNIFICANCE SOURCE: scholarly biography by a historian of Latin America that treats him as the figure who made the tango song a popular art, with 1917 'Mi noche triste' as the turning point, then records, theatre, radio and films, and discusses at length the open question of his birthplace; it quotes Razzano, Defino and others and flags where memories are unreliable.",
+      "url": "https://archive.org/details/oapen-20.500.12657-32098"
+    },
+    {
+      "id": "src_gardel_cyc1935",
+      "kind": "press",
+      "title": "Caras y Caretas (Buenos Aires), no. 1919, 13 July 1935, memorial issue on his death (Internet Archive scan of the Biblioteca Nacional de Espana copy; the pages 'La muerte de Carlos Gardel' and the interview piece by Sergio Chiappori read in full): contemporary magazine with photographs of the Medellin accident and a feature in which his companions Jose Razzano, Vicente Padula and the horse trainer Francisco Maschio describe him; they disagree about whether he was withdrawn and sad (Razzano) or cheerful and unpretentious (Padula, Maschio); Padula says he disliked memorising film dialogue and joked through rehearsals, and Razzano says he was driven by an eagerness to succeed. Friends' recollections written in grief, days after his death.",
+      "url": "https://archive.org/details/Caras_y_Caretas_Buenos_Aires_1935-07-13_N_1919"
+    },
+    {
+      "id": "src_gardel_matallana",
+      "kind": "biography",
+      "title": "Andrea Matallana, 'Que saben los pitucos: la experiencia del tango entre 1910 y 1940' (Prometeo Libros, Buenos Aires, 2008; Internet Archive copy; OCR text searched and the passages on his career, recordings, radio, the horse-racing friendships, the 'Cumparsita' lawsuit and the posthumous myth read). Independent Argentine academic study of tango culture: gives his rise from the Gardel-Razzano duo and Odeon records (about 230 recordings in 1920-25, the move to RCA Victor in the United States), his weekly attendance at the racetrack and large losses, his friendship with the jockey Irineo Leguisamo, the lawsuit Razzano brought over a 'La cumparsita' version Gardel recorded, and the evidence of his popularity in 1935 (thousands of requests for a signed photograph, 500 signed on a cable promise).",
+      "url": "https://archive.org/details/que-saben-los-pitucos"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gardel_collier, src_gardel_matallana | 1913-1930 | scholarly biography, academic study] Collier, drawing on Razzano's recollection, describes an early provincial tour with little or no pay in which some cinema owners refused permission to sing and the two returned to Buenos Aires by train as soon as they could pay; the duo nonetheless re-formed. In 1925 Razzano's throat failed in Rafaela and, at Razzano's urging, Gardel went on alone to Spain; Collier traces a routine of recording, theatre and radio through 1929-30 (thirty studio sessions in twelve months) and Matallana places about 230 recordings in 1920-25. Two documented episodes plus a sustained work record, but both authors are retelling one circle of recollections (Razzano, Defino), so the score is moderate. SELF-CALIBRATION (agent): lowered from 66 / 0.54 because both sources draw on the same recollections."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gardel_collier, src_gardel_matallana | 1925-1931 | scholarly biography, academic study] In a 1929 newspaper interview he said he recorded up to twenty songs a month on top of rehearsals and arrangements; Collier checks this against his schedule (thirty recording sessions from June 1929 to June 1930, two shows a night in July 1929, three radio programmes a week) and says that in the late 1920s his three guitarists rehearsed with him at least three hours on most days; Matallana records the volume of his recordings. The working routine is documented partly by his own statement and partly by the biographer's schedule, and the sources are not independent of each other. SELF-CALIBRATION (agent): lowered from 72 / 0.58 because the routine rests on his own interview as read through one biographer."
+    },
+    "perfectionism": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_gardel_collier, src_gardel_cyc1935 | 1913-1935 | scholarly biography, contemporary press] Collier, quoting Razzano, says Gardel was keener than Razzano to polish their duo performances and woke him at night to ask whether a phrase or cadence was right, says he weighed repertoire, accompaniment and stylistic nuance carefully, and calls him obsessively careful about his wardrobe. Against this, a film colleague (Padula, in the 1935 memorial feature) says he did not want to memorise dialogue and would joke in rehearsals, saying he would know it all when shooting began. Finely detailed work on his singing, but not across every task, and the evidence is one friend's recollection plus the biographer's summary. SELF-CALIBRATION (agent): lowered from 64 / 0.5 and from strong_inference to inference because the night-time anecdote is a single recollection and a colleague's account of film rehearsals points the other way."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gardel_collier, src_gardel_cyc1935, src_gardel_matallana | 1913-1935 | scholarly biography, contemporary press, academic study] He worked for more than a decade in a duo with Jose Razzano, who was also his agent and business manager; after Razzano's voice failed the two kept the partnership and for years the record labels still read 'Gardel, of the Gardel-Razzano duo'; he performed with a group of guitarists who rehearsed with him daily, and in Paris in 1931 he pressed the orchestra leader Julio de Caro to join his film. The 1935 memorial feature has Razzano, Padula and Maschio describing a circle of close friends, and Matallana records a later dispute in which Razzano sued over a 'La cumparsita' version Gardel recorded. The partnerships are documented but one friend dominates the record, and the strain between the two men (Collier) keeps the score moderate. SELF-CALIBRATION (agent): lowered from 68 / 0.55 because the evidence leans on Razzano's account."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gardel_collier, src_gardel_matallana | 1917-1935 | scholarly biography, academic study] Collier and Matallana describe him moving from the country-song and duo repertoire to the tango song after 'Mi noche triste' in 1917, from duo to solo with guitars after 1925, and from records and theatre to radio, and then, from 1931, to Paramount films made in Paris and New York, where he also switched from Odeon to RCA Victor; Collier notes he sometimes broke from his usual solo-and-guitars format to record with Canaro's orchestra. Several documented changes of format and setting over two decades, drawn from two sources that overlap heavily on the same career outline. SELF-CALIBRATION (agent): lowered from 70 / 0.52 because the sequence is a career outline that both authors share."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_gardel_cyc1935, src_gardel_collier | 1935 | contemporary press, scholarly biography] Razzano, in the 1935 memorial feature, says that beneath the cheerful public manner Gardel was assaulted by an uncontainable eagerness to succeed; Collier says he had to work hard to reach fame and keep working to hold it. A friend's characterisation written in grief and a biographer's general remark, without a specific cited decision, so an inference only, and Padula's account in the same feature stresses ease rather than ambition. SELF-CALIBRATION (agent): lowered from 66 / 0.46 because it rests on a single characterisation by one friend."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "카를로스 가르델"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/carlos-gardel-unknown-1935.jpg",
+    "width": 978,
+    "height": 1126,
+    "source": "Full-page tinted photograph of Carlos Gardel seated with a guitar, printed under the heading 'Enmudecio una voz del alma popular' and the caption 'La muerte de Carlos Gardel' on the second page of the memorial section of Caras y Caretas (Buenos Aires), no. 1919, 13 July 1935; Internet Archive scan (Caras_y_Caretas_Buenos_Aires_1935-07-13_N_1919) of the Biblioteca Nacional de Espana copy. The page image (991 x 1508) was extracted from the scan and cropped to the photograph (978 x 1126), not resized and not upscaled. The photographer is not named.",
+    "license": "Public domain by age: photograph published in Buenos Aires in 1935, and Argentine copyright in photographs ran 20 years from publication (Law 11.723, art. 34), so it had expired before 1996 and was not restored in the United States. Caveats: the photographer is unnamed and the photograph's first publication may be earlier than this issue; the Biblioteca Nacional de Espana states that public-domain images on its site may be reused freely, but a search snippet also suggested that some of its Caras y Caretas items on Europeana carry a CC BY-NC-SA label (not opened, Europeana returned 403), which would concern the digitisation, not the 1935 photograph.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unnamed photographer; page of Caras y Caretas, Buenos Aires, 13 July 1935 (Internet Archive scan of the Biblioteca Nacional de Espana copy).",
+    "attributionUrl": "https://archive.org/details/Caras_y_Caretas_Buenos_Aires_1935-07-13_N_1919",
+    "creator": "Unknown photographer; published in Caras y Caretas",
+    "date": "before 13 July 1935 (published 1935)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/Caras_y_Caretas_Buenos_Aires_1935-07-13_N_1919"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / lead did NOT survive; REPLACED. Lead: Commons 'Carlos gardel en su casa 1933.jpg' (720 x 900, 'Unknown author', source a Facebook photo page, tagged PD-AR-Photo and PD-1996; no holder named, no archive record), judged too weakly sourced. Other Commons AGN items (Archivo General de la Nacion 'Carlos Gardel y guitarra', 'Carlos Gardel en Paris, ano 1923', inventory 346100 with a Commons accuracy-dispute notice that the signature says Montevideo) were seen but the AGN's own item record could not be opened (the AGN catalogue pages were unreachable; the Wikimedia Argentina GLAM page says only that uploaded material is already public domain in Argentina and does not cite a law or the agreement), so they were not used. Replacement: the full-page tinted photograph in Caras y Caretas no. 1919 (13 July 1935), printed with the caption 'La muerte de Carlos Gardel' (page viewed: seated figure with guitar under that caption; identity matches the sitter named by the caption; the same issue prints other captioned Gardel photographs). Kind likeness. Rights basis: Argentine photograph published 1935, Argentine term 20 years from publication (Law 11.723 art. 34, per the Commons PD-AR-Photo template text), expired before the 1996 URAA date, so not restored in the US; honest caveats are the unnamed photographer and the unverified date of first publication (the image looks like a studio or film-publicity photograph) and the Biblioteca Nacional de Espana digitisation terms (its general notice allows reuse of public-domain images; the item-level Europeana record was bot-walled and not read). Gallica (Agence Rol/Meurisse search) returned a Cloudflare wall and was not bypassed. PREFLIGHT: QID VERIFIED LIVE (2026-11-13) Q229613, human, label 'Carlos Gardel', died 24 June 1935; birth recorded as 11 December 1890 (Wikidata also carries 1887); no candidate or production slug collision found for carlos-gardel. BIRTHPLACE and birth year are contested (Toulouse 1890 versus Tacuarembo 1887; a January 2026 Uruguayan-Argentine commission announced a document supporting Tacuarembo, not verified); the brief's 1890 is kept, nationality codes AR, UY and FR follow Wikidata, and no row depends on the question. REGION latin_america (Piazzolla and the Argentine candidates as precedent). ERA 20th_century. KOREAN NAME 카를로스 가르델 is the Wikidata label. ZERO POLITICS: only singing, recording, rehearsal, partnerships and film work are scored; his private relationships, finances other than racetrack losses, and the paternity and nationality debates are not scored. ATTRIBUTION: limited_but_usable for the personal traits: dated recording and stage records are solid, but most behavioural colour comes from recollections by friends (Razzano, Padula, Defino) recorded by Collier and in a memorial issue. READ: Collier (passages), the Caras y Caretas memorial issue (the feature and photo pages), Matallana (passages), Todotango interview with Alfredo Echaniz (read; used for orientation on documents and the Jean Jaures house only, not cited). NOT OPENED/BLOCKED: Britannica (403), OAPEN PDF (Anubis bot wall; used the Internet Archive mirror), Europeana (403), Gallica (Cloudflare), AGN item record. COUNTER-VOICES: Razzano says he was withdrawn and sad, Padula and Maschio say cheerful and unpretentious (not scored); Collier notes he hesitated over private and financial matters. SELF-CALIBRATION: six rows, all lowered (persistence 66/0.54 to 64/0.50, discipline 72/0.58 to 68/0.52, perfectionism 64/0.5 to 60/0.44 and strong_inference to inference, collaboration 68/0.55 to 66/0.52, adaptability 70/0.52 to 66/0.50, achievement_drive 66/0.46 to 62/0.40). SPARSE six-row profile by design; no creative_originality or aesthetic row because the sources describe musical style change but not his own creative process."
+  }
+}

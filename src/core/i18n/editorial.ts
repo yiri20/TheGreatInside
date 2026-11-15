@@ -13727,6 +13727,472 @@ export const EDITORIAL_EN: Record<string, string> = {
     "In 1905, after years on the Kaiping and other lines under British managers, he became chief engineer of the Peking-Kalgan line, which was to be built without foreign engineers or capital.",
   "zhan-tianyou.interpretation.turning_point.1":
     "This is consistent with taking charge of a large project and delivering it within its limits.",
+  "abanindranath-tagore.achievement.1":
+    "Abanindranath Tagore founded and led the Bengal School, a movement that turned Indian painting away from European academic realism toward Mughal, Rajput and Pahari miniature traditions combined with Japanese ink wash. His Bharat Mata (1905) and The Passing of Shah Jahan (c. 1902) are among the best-known works of the movement.",
+  "abanindranath-tagore.achievement.2":
+    "He taught at the Government School of Art in Calcutta, where he was vice-principal from 1905, and trained the first generation of Bengal School painters, including Nandalal Bose. Around 1907 he helped found the Indian Society of Oriental Art, described as India's first art salon, to exhibit and support the new painting.",
+  "abanindranath-tagore.achievement.3":
+    "He was also a writer. His illustrated children's books and writings on art, including Shakuntala, Kshirer Putul and later treatises on Indian aesthetics, form a second body of work alongside his painting.",
+  "abanindranath-tagore.moment.1":
+    "Around 1903 Okakura Kakuzo's Japanese artists Yokoyama Taikan and Hishida Shunso came to the Tagore house at Jorasanko, and Abanindranath learnt their wash technique from them. The essay describes the method as a radical change in his work, and the wash manner shows in Bharat Mata and later paintings.",
+  "abanindranath-tagore.interpretation.moment.1":
+    "The sequence from Western pastel portraits to miniature styles to Japanese wash is consistent with a willingness to change method, though the sources present it largely through one scholarly reading.",
+  "abanindranath-tagore.moment.2":
+    "In a 1924 letter quoted by Soumik Nandy Majumdar, Abanindranath wrote that much of what was brought forth as 'Indian art' was like stolen goods passed off as one's own, and said he had cautioned Nandalal Bose that following Ajanta, Greek or Japanese models was another man's way.",
+  "abanindranath-tagore.interpretation.moment.2":
+    "The letter is consistent with a reluctance to accept even the school he led as a fixed style, but it is one private statement quoted by a single essay.",
+  "abanindranath-tagore.turning_point.1":
+    "He resigned from the Government School of Art in 1915 and, from the 1920s, moved away from the public, nationalist role the Bengal School had given him. The gallery records that he did not paint from 1930 to 1938, and scholars quoted in the sources describe his later work as a private practice with the nationalist label set aside.",
+  "abanindranath-tagore.interpretation.turning_point.1":
+    "This withdrawal is consistent with the profile's autonomy reading, while the later Visva-Bharati appointment shows he did not leave institutions altogether.",
+  "akutagawa-ryunosuke.achievement.1":
+    "Akutagawa is regarded as the writer who brought the modern Japanese short story to maturity. Writing in reaction to naturalism and the confessional I-novel, he produced compact stories marked by close attention to style and form, and his work helped make the short story a recognised part of Japanese literature.",
+  "akutagawa-ryunosuke.achievement.2":
+    "His best-known stories rework tales from medieval collections such as the Konjaku Monogatari into modern fiction. 'Rashomon', first published in the Tokyo Imperial University journal Teikoku Bungaku and later the title story of his first collection, is perhaps his most famous work. 'In a Grove', told as contradictory testimonies about a single killing, is noted for multi-voiced narration, and Kurosawa's film Rashomon took its title from the first story and its plot from the second.",
+  "akutagawa-ryunosuke.achievement.3":
+    "Stories from his early years, including 'Hana' (The Nose), 'Imogayu' (Yam Gruel) and 'Jigokuhen' (Hell Screen), are counted among his masterpieces. By the end of that period he was regarded as the brightest new star in Japanese letters since his teacher Natsume Soseki and the short-story writer Shiga Naoya.",
+  "akutagawa-ryunosuke.moment.1":
+    "In 1927, at a Shincho round table, Akutagawa said he doubted that the plot-interest found in Tanizaki Junichiro's fiction was truly artistic. Tanizaki answered in the magazine Kaizo, and Akutagawa replied in the next issue with the essay series 'Literary, All Too Literary', arguing that the depth of a writer's 'poetic spirit' alone sets a work's artistic value. A scholar notes that Tanizaki hardly engaged the argument directly.",
+  "akutagawa-ryunosuke.interpretation.moment.1":
+    "This is consistent with a willingness to put a critical position in print against a senior contemporary, although a single episode cannot show how he handled disagreement more generally.",
+  "akutagawa-ryunosuke.moment.2":
+    "When 'Hokyonin no shi' appeared in Mita Bungaku in September 1918, a note in the story said it was written from a Christian-edition 'Legenda Aurea' in the author's possession. The National Diet Library says the book was Akutagawa's invention, yet many readers believed it existed and some even sent a deposit to buy it.",
+  "akutagawa-ryunosuke.interpretation.moment.2":
+    "This offers one example of playing formally with sources and authorship in his fiction; the library's account does not say what he intended by it.",
+  "akutagawa-ryunosuke.turning_point.1":
+    "Akutagawa became a pupil of the novelist Natsume Soseki around the end of 1915. When his story 'Hana' (The Nose) appeared in 1916, Soseki praised it lavishly, and the National Diet Library describes this praise as the opening of his recognition in the literary world. Benton adds that Soseki's advice of self-detachment kept the author out of his own stories for most of his career.",
+  "akutagawa-ryunosuke.interpretation.turning_point.1":
+    "This is consistent with an early link between a mentor's advice on detachment and the observer-like narration of his best-known stories, which is one reading among several of how his style formed.",
+  "aurel-stein.achievement.1":
+    "Stein led expeditions across the Tarim Basin and western China in 1900-01, 1906-08 and 1913-16 that uncovered buried settlements at Niya, Miran and Lou-lan and preserved documents, paintings and textiles that the dry climate had kept intact. He also traced about 400 miles of the early Chinese frontier wall and its forts.",
+  "aurel-stein.achievement.2":
+    "In 1907 Stein reached the sealed library cave at the Mogao caves near Dunhuang and obtained manuscripts and paintings from its custodian, the monk Wang Yuanlu; later acquisitions followed in 1907 and 1914, and the material is now divided between London and New Delhi. How he obtained it remains disputed, and in China he is regarded as a plunderer.",
+  "aurel-stein.achievement.3":
+    "From 1927 to 1938 Stein surveyed Baluchistan and south-western Iran in search of the prehistoric culture found at Mohenjo-daro, and in 1938-39 he surveyed the Roman frontier from the Tigris to the Gulf of Aqaba from the air and on the ground. Earlier he had identified sites from the campaigns of Alexander the Great in north-west India.",
+  "aurel-stein.moment.1":
+    "In 1930 Stein went back to Xinjiang for a fourth expedition although Nanjing's academics demanded limits on his movements and a ban on removing antiquities. A censor was assigned to shadow him, his visa was cancelled in December 1930, and he stayed on until Chiang Kai-shek ordered his expulsion in May 1931.",
+  "aurel-stein.interpretation.moment.1":
+    "This episode is consistent with a strong tendency to keep working under official opposition, though it also shows he did not heed the host government's limits.",
+  "aurel-stein.moment.2":
+    "In July to September 1942, close on 80, Stein made a trip to the gorges east of the Indus involving hard climbing over passes of 14,000 to 15,000 feet. He then went to Gedrosia in early 1943 and, on 13 October 1943, wrote from Peshawar that he was full of plans for work in Afghanistan.",
+  "aurel-stein.interpretation.moment.2":
+    "The pattern is consistent with a curiosity about ancient routes that continued to the end of his life.",
+  "aurel-stein.turning_point.1":
+    "After a few months as principal of the Calcutta Madrasa in 1899, Stein left the post, joined the Archaeological Survey of India in 1904, and carried out his first Central Asian expedition in 1900-01 with the sanction and support of Lord Curzon's government.",
+  "aurel-stein.interpretation.turning_point.1":
+    "This sequence is consistent with a person who built his own route into field exploration rather than waiting for a post to offer it.",
+  "carlos-gardel.achievement.1":
+    "Carlos Gardel was the leading singer who made the tango song, a tango with sung words, a popular art across the Rio de la Plata. After he recorded 'Mi noche triste' for Odeon in 1917, recognised as the first tango song, tangos came to dominate his repertoire; by the study of Andrea Matallana he made about 230 recordings in 1920-25 alone. His birthplace is disputed between France and Uruguay, though his career was made in Buenos Aires.",
+  "carlos-gardel.achievement.2":
+    "In the 1910s Gardel sang in a duo with Jose Razzano, who also acted as his agent, and their Odeon records and theatre appearances made the pair popular in Buenos Aires and in Spain. When Razzano's voice failed in 1925, Gardel went on alone, performing solo with guitar accompaniment, and the duo's name stayed on his record labels for years.",
+  "carlos-gardel.achievement.3":
+    "In 1931 Gardel signed the first of several contracts with Paramount and starred in Spanish-language sound films made in Paris and New York, beginning with 'Luces de Buenos Aires'. On 24 June 1935 he died at Medellin, Colombia, when two aircraft collided on take-off during a tour, and a memorial issue of Caras y Caretas followed within weeks.",
+  "carlos-gardel.moment.1":
+    "In September 1925, during a provincial tour, Jose Razzano could barely finish a song in Rafaela and told Gardel the next morning he could not sing any more. By Collier's account Gardel was stunned and reluctant to leave his friend, but at Razzano's urging he travelled to Spain alone to perform as a solo singer.",
+  "carlos-gardel.interpretation.moment.1":
+    "The episode is consistent with a readiness to carry on a career through the loss of a partner, while keeping the friendship and business partnership; it rests on one biographer's retelling of Razzano's recollection, so it is one reading among others.",
+  "carlos-gardel.moment.2":
+    "In a 1929 newspaper interview Gardel said he recorded up to twenty songs a month and that rehearsals, arrangements and changes to the guitar parts filled the rest of his time. Collier counts thirty recording sessions between June 1929 and June 1930, besides two shows a night at the Suipacha cinema in July 1929 and three radio programmes a week.",
+  "carlos-gardel.interpretation.moment.2":
+    "The routine is consistent with sustained, regular working habits; the first figure is his own statement, and the schedule is one biographer's reconstruction, so the two are not fully independent.",
+  "carlos-gardel.turning_point.1":
+    "On 1 May 1931 Gardel, staying at the Hotel Meurice in Paris, signed the first of his contracts with Paramount, 125,000 francs to star in a two-hour film in 'Hispano-Argentine' Spanish. The film became 'Luces de Buenos Aires', and over the next four years his work moved increasingly to the cinema and to New York, where he also switched to RCA Victor.",
+  "carlos-gardel.interpretation.turning_point.1":
+    "The move is consistent with a willingness to take his stage and record career into a new medium and a new city; the sources describe the steps but not his own reasons.",
+  "dayananda-saraswati.achievement.1":
+    "Dayananda founded the Arya Samaj at Bombay on 10 April 1875, a Hindu reform society that took the Vedas as sole authority, taught one God and rejected image worship, caste by birth and child marriage. It found its largest early audience in the Punjab, where a Lahore branch formed in 1877 and became its headquarters. He left control of the movement to local branches, and its later school network was built by his followers.",
+  "dayananda-saraswati.achievement.2":
+    "Dayananda wrote the Satyarth Prakash, his main statement of doctrine. It was written in Hindi, first published in 1874 or 1875 according to the source, and revised again shortly before his death. It sets out his teaching on God, the Vedas, marriage, education and government, and criticises other Indian creeds and, in sections that a missionary scholar judged unfair, Islam and Christianity.",
+  "dayananda-saraswati.achievement.3":
+    "Dayananda also worked as a Vedic scholar and teacher. He wrote a Sanskrit commentary that covers the whole Yajurveda and much of the Rigveda, together with an introduction rejecting the traditional commentaries, and he argued that Vedic study should be open to all castes. By his will he set up the Paropkarini Sabha, a trust of 23 members, to publish the Vedas, send missionaries and educate orphans and the poor, as a follower's account describes it.",
+  "dayananda-saraswati.moment.1":
+    "In November 1869 Dayananda took part in a public disputation at Benares, the main centre of Sanskrit learning, before a large crowd and some 300 orthodox pandits, with only a few supporters of his own, under the presidency of the Maharaja of Benares. Both sides claimed victory. A missionary who was present wrote that the pandits jeered when he paused over a question about the word Purana and that his Benares appearance was a failure, while Arya Samaj accounts treat it as the effective start of his mission.",
+  "dayananda-saraswati.interpretation.moment.1":
+    "Choosing to argue his case at the stronghold of the scholars he opposed, with few allies, is consistent with the profile's conflict tolerance row; the disputed outcome is one reason that trait is read as dual-edged rather than simply an advantage.",
+  "dayananda-saraswati.turning_point.1":
+    "In early 1873 Dayananda spent four months in Calcutta as a guest of the Brahmo Samaj leader Debendranath Tagore and met Keshab Chandra Sen. On Sen's advice he gave up the loincloth for street clothes and began to lecture and write in Hindi instead of Sanskrit. After Calcutta he founded the Arya Samaj in 1875 on lines that Farquhar says were borrowed from the Brahmo and Prarthana Samajes, and his audience widened beyond orthodox Sanskrit scholars.",
+  "dayananda-saraswati.interpretation.turning_point.1":
+    "Changing his dress, language and way of organising after meeting the Brahmo leaders is consistent with the profile's adaptability row, but the change concerned method, not his doctrine on the Vedas, which stayed fixed.",
+  "ellen-key.achievement.1":
+    "Her two-volume book Barnets arhundrade (The Century of the Child), published on New Year's Eve 1900, argued that every child has a right to a childhood free of economic responsibility, that education and upbringing would become central to family and society, and that older children should attend a common school open to all classes. It was translated into some thirteen European languages and went through seventeen German editions between 1902 and 1926.",
+  "ellen-key.achievement.2":
+    "In Livslinjer (Life Lines, 1903-06), with Karleken och aktenskapet (Love and Marriage), she set out views on love, aesthetics and religion that favoured love without the need for church blessing and held that women could have children outside marriage. The books were translated into English, French, Italian and German and drew serious debate well beyond Sweden. Her earlier Missbrukad kvinnokraft (1896), which argued from the absence of female geniuses that women's past was not only a story of outside oppression, set her at odds with much of the Swedish women's movement.",
+  "ellen-key.achievement.3":
+    "From 1883 she lectured at the Stockholm workers' institute and at women's and student associations, and over some twenty years spoke to working-class audiences at the People's Institute. Her 1899 book Skonhet for alla (Beauty for All) argued for beauty in everyday life, and from the 1900s her lecture tours across Europe drew large audiences, making her a figure in adult education and cultural debate well beyond Sweden.",
+  "ellen-key.moment.1":
+    "In 1898, speaking at the women's celebration of Ibsen's seventieth anniversary under the title 'Torpedo under the ark', Key read Ibsen through her Nietzschean and anti-Christian ideals, against the generally accepted interpretation. Aftonbladet published an appeal signed by 284 women, including prominent members of the Fredrika Bremer association, protesting against the fading of the old ideal among Swedish women; she and the association kept working together for women's suffrage but it marked a definite break.",
+  "ellen-key.interpretation.moment.1":
+    "The episode is consistent with the profile's conflict tolerance row: she held and published a reading that cut against her closest organisational allies, and the cost was real, although the lexicon entry gives the facts rather than her motives.",
+  "ellen-key.moment.2":
+    "Her friend Nyström-Hamilton records that Key was shy and lacked self-confidence, yet learned to speak in public; once, when she had forgotten her manuscript and had to speak without it, she found she did better that way and from then on noted only the main points of her lectures.",
+  "ellen-key.interpretation.moment.2":
+    "The anecdote, told by an admiring friend, offers one example of how she adjusted her method after a setback, and sits alongside the profile's adaptability row, which rests on thinner evidence.",
+  "ellen-key.turning_point.1":
+    "After Barnets arhundrade appeared in 1900 it reached a wider international audience and, as SKBL puts it, opened many doors in Europe for her; in the first decade of the century she travelled and lectured across Europe and wrote Livslinjer. In 1903 she retired from teaching to devote herself to writing and lecturing.",
+  "ellen-key.interpretation.turning_point.1":
+    "The move from teacher and local lecturer to independent author with an international audience is consistent with the profile's autonomy need row, although the sources do not say whether she chose independence over security.",
+  "ernst-mach.achievement.1":
+    "In Die Mechanik (1883) Ernst Mach argued that Newton's absolute space, time and motion could not be tied to anything observable, and proposed that inertia be understood through a body's relation to the other bodies in the universe. Einstein said the book influenced him and in 1918 named the idea 'Mach's principle', although he later found it did not hold in his own general theory of relativity. Mach himself considered his criticisms of mechanics among his most important work.",
+  "ernst-mach.achievement.2":
+    "In 1887 Mach and Peter Salcher of the Marine Academy in Fiume published photographs, taken in Fiume with the support of the Austrian navy, of the compressed-air cone around a projectile moving faster than sound, and related the cone's angle to the ratio of the projectile's speed to the speed of sound. The angle was called the Mach angle after 1907, and the ratio itself was named the Mach number in 1929 by Jakob Ackeret, not by Mach.",
+  "ernst-mach.achievement.3":
+    "Working in Graz and Prague, Mach described in 1865-68 what are now called Mach bands, the exaggerated contrast the eye perceives along a boundary between lighter and darker areas, and showed it to be rooted in the visual apparatus rather than a mere error of judgment. His 1886 Analysis of Sensations later became influential in philosophy, and in 1929 the Verein Ernst Mach, an association named for him whose membership largely overlapped with the Vienna Circle, published that circle's manifesto.",
+  "ernst-mach.moment.1":
+    "After a stroke in 1898 paralysed the right side of his body, Mach could no longer meet his teaching duties and insisted on retiring in 1901, but he went on studying, writing and experimenting with his son Ludwig's help and completed Knowledge and Error in 1905.",
+  "ernst-mach.interpretation.moment.1":
+    "The episode is consistent with a capacity to keep working through disability, although the sources give few details and his son's help was substantial.",
+  "ernst-mach.moment.2":
+    "In 1908 Max Planck gave a lecture, The Unity of the Physical World-Picture, that directly attacked Mach's view that theories merely order facts. According to a general reference entry, Mach was so offended that he threatened to 'leave the church of physics' if belief in the reality of atoms were required of physicists.",
+  "ernst-mach.interpretation.moment.2":
+    "This offers one example of how he held his position against the leading physicist of the day, in a way that the Dictionary of Scientific Biography calls dogmatic; the account of the remark comes from a short secondary entry.",
+  "ernst-mach.turning_point.1":
+    "In 1863 Mach's Compendium of Physics for medical students still used the atomic-molecular theory as a working hypothesis, yet its preface already warned that atomism was not the last word, and the Dictionary of Scientific Biography says that by 1863 he treated the atomic hypothesis as only a provisional tool. In the same years his interest turned from physics to the physiology and psychology of sensation, which he said he entered partly because he lacked the means for physical experiments.",
+  "ernst-mach.interpretation.turning_point.1":
+    "This early revision sits alongside the profile's modest belief-updating score, which reflects that it was followed by decades of resistance to atomism; the sources differ on how far he later softened.",
+  "hantaro-nagaoka.achievement.1":
+    "In 1903-04 Hantaro Nagaoka proposed the Saturnian model of the atom: a heavy, positively charged centre surrounded by a ring of electrons, worked out from James Clerk Maxwell's analysis of the stability of Saturn's rings. Rutherford's 1911 nuclear-atom paper cited it for the mechanical stability conditions, but later historians find no evidence that it influenced Rutherford, and the paper contained sign errors that G. A. Schott pointed out. Nagaoka renounced the model himself by 1908.",
+  "hantaro-nagaoka.achievement.2":
+    "From 1901 to 1925 Nagaoka was a leading physics professor at the University of Tokyo, and the Dictionary of Scientific Biography calls him primarily responsible for promoting the advancement of physics in Japan. His pupils included Kotaro Honda, Jun Ishiwara, Shoji Nishikawa and Yoshio Nishina, and he introduced Nishina to Rutherford in 1921. The Dictionary says Japan's later tradition of experimental and theoretical physics was formed almost entirely by Nagaoka and his successors, a judgement that credits the whole generation and not one man.",
+  "hantaro-nagaoka.achievement.3":
+    "Nagaoka headed the physics department when RIKEN was founded in 1917 and, after retiring from Tokyo in 1925, a chief-scientist laboratory there; RIKEN's own history credits him with establishing the machine shop that grew into its instrument department. In 1931 he became the first president of the newly founded Osaka Imperial University.",
+  "hantaro-nagaoka.moment.1":
+    "Having renounced his Saturnian model, Nagaoka began spectroscopic experiments in 1908 to investigate the actual arrangement of electrons in the atom, according to the Dictionary of Scientific Biography. The entry does not say why he gave the model up.",
+  "hantaro-nagaoka.interpretation.moment.1":
+    "This is consistent with a readiness to set aside an idea he had published rather than defend it, although a single documented episode with no stated reasons is thin evidence for a general pattern.",
+  "hantaro-nagaoka.moment.2":
+    "In the last quarter of 1910, after representing Japan at two congresses in Brussels and one in Vienna, Nagaoka visited laboratories from Manchester to Leiden, Berlin, Munich, Heidelberg and Geneva. On 22 February 1911 he wrote Rutherford a long letter describing what he had seen, admiring Rutherford's simple apparatus and noting that his own views on earthquakes differed from those of Japanese seismologists.",
+  "hantaro-nagaoka.interpretation.moment.2":
+    "The trip and the letter are consistent with a broad curiosity about other laboratories' methods, though the account is largely his own.",
+  "hantaro-nagaoka.turning_point.1":
+    "In 1900 Nagaoka, who had been invited to the first international congress of physics in Paris to deliver a paper on magnetostriction, heard the lecture of the Curies on radioactivity. The Dictionary of Scientific Biography says it stimulated him to study atomic structure to explain radioactivity, the line of work that led to his 1904 atomic model.",
+  "hantaro-nagaoka.interpretation.turning_point.1":
+    "The episode sits alongside the profile's curiosity row as one example of a lecture outside his own specialty redirecting his research, though the account is one sentence in a reference entry.",
+  "hubert-wilkins.achievement.1":
+    "With the pilot Carl Ben Eielson, Wilkins made the first airplane crossing of the Arctic Ocean. On 15 April 1928 their single-engine Lockheed Vega flew about 2,200 miles from Point Barrow, Alaska, to Spitsbergen in some 20 hours, landing on an islet in a storm. The flight found only sea ice in an unexplored area where some geographers had expected land, and it earned Wilkins a knighthood.",
+  "hubert-wilkins.achievement.2":
+    "In 1928-30 Wilkins led aerial expeditions to Antarctica for the Hearst newspapers. On 16 November 1928 he and Eielson made the first powered flight in Antarctica, from Deception Island, and on 20 December they flew along about 600 miles of Graham Land and the Antarctic Peninsula. Some features first reported as channels later proved to be glaciers, and his plan to fly on to the Ross Sea failed when the Deception Island runway melted.",
+  "hubert-wilkins.achievement.3":
+    "In 1931 Wilkins led the Wilkins-Ellsworth Trans-Arctic Submarine Expedition, an attempt to cross beneath the Arctic ice to the North Pole in the Nautilus, a refitted 1916 U.S. Navy submarine. Engine failures and the loss of the diving rudders kept it from the Pole, but on 31 August it dived beneath a floe and the crew carried out oceanographic and gravity work. The boat was scuttled in a Norwegian fjord on 20 November 1931, and Wilkins had spent his savings on it.",
+  "hubert-wilkins.moment.1":
+    "After the 1928 landing on Deadman's Island off Spitsbergen, a storm kept Wilkins and Eielson in the cabin for four to five days. The NASM account says they then dug a runway by hand, failed repeatedly to take off, and agreed that if the next attempt failed one of them would stay behind so the other could fly out and summon help; the next try succeeded and they reached the whaling station at Green Harbor.",
+  "hubert-wilkins.interpretation.moment.1":
+    "Repeated attempts at a risky take-off, with a plan for one man to stay behind, are consistent with persistence and a willingness to accept danger; this episode is told mainly in one museum feature based on his biographer.",
+  "hubert-wilkins.moment.2":
+    "On the 1931 Nautilus voyage, after the diving rudders were found missing at the ice edge on 22 August, the American Philosophical Society exhibition says Wilkins was determined to carry out the scientific work that did not need diving. The crew tested the equipment and, on 31 August, forced the boat beneath a three-foot floe by flooding the ballast tanks, and made further dives before the voyage ended; the exhibition notes that some crew believed the rudders had been broken off on purpose.",
+  "hubert-wilkins.interpretation.moment.2":
+    "Re-planning the voyage around what was still possible is consistent with adaptability under a setback, though the accounts do not show how much of the improvisation was his own and how much the captain's.",
+  "hubert-wilkins.turning_point.1":
+    "In September 1913 Wilkins, on the Canadian Arctic Expedition, was ashore with Stefansson on a caribou hunt when the ship Karluk, frozen in the ice, was carried away and later crushed; eleven men died. Most of his photographic equipment was lost with the ship, but he stayed on, expecting a year and remaining about three years, and learned from Stefansson and the Inuit to travel by dog sled and live off the land. McConnell writes that he began to see the airplane as a better tool for Arctic exploration.",
+  "hubert-wilkins.interpretation.turning_point.1":
+    "Carrying on after losing equipment and learning local travel methods is consistent with adaptability, and the years on the ice helped shape the aircraft-based exploration of his later career; the sources do not say how large his own part was.",
+  "isaac-singer.achievement.1":
+    "In 1850-51 Singer redesigned the sewing machine in Orson Phelps's Boston shop, giving it a horizontal cloth table, a spring-loaded presser foot and a vertical needle driven by an overhanging arm, so that cloth could be sewn continuously and along curves. He received US patent 8,294 for it on 12 August 1851, and his basic layout, with a foot treadle added, became the pattern for later machines.",
+  "isaac-singer.achievement.2":
+    "With his partner Edward Clark, Singer built I. M. Singer & Co. into the largest sewing-machine maker in the world by 1860. Clark is credited in most sources with the instalment plan and showroom selling that put the machine in homes, and the firm joined the 1856 patent pool that ended the sewing-machine lawsuits. The company was incorporated as the Singer Manufacturing Company in 1863, with Singer holding 40 percent of the stock.",
+  "isaac-singer.moment.1":
+    "In testimony given later in a patent suit, and quoted by the Smithsonian curator Grace Rogers Cooper, Singer said he built the first sewing-machine model in eleven days on forty dollars from his backer George Zieber, working day and night. When it would not sew on its first evening trial and his workmen left, he kept trying until midnight, found the thread tension unadjusted, and had the machine finished the next afternoon.",
+  "isaac-singer.interpretation.moment.1":
+    "The account is his own, so it is best read as how he described the episode; it is consistent with the profile's moderate scores for resourcefulness and persistence rather than proof of either.",
+  "isaac-singer.moment.2":
+    "When Elias Howe sued for infringement in 1853, Singer and Zieber decided to fight and brought in the lawyer Edward Clark. After a court order restrained several firms from selling Singer machines while the case was pending, and rivals bought Howe licences, Singer and Clark paid Howe $15,000 on 1 July 1854 and took out a licence. In 1856 the firm joined the patent pool that ended the sewing-machine lawsuits.",
+  "isaac-singer.interpretation.moment.2":
+    "Sources describe the settlement as a joint decision with Clark and credit the pool to Orlando Potter, so this episode is consistent with a modest adaptability lean for Singer rather than a settled picture of how he handled conflict.",
+  "isaac-singer.turning_point.1":
+    "Singer came to Boston in 1850 to sell a machine for carving printers' wood type, an earlier prototype of which had been wrecked in a boiler explosion. The carving machine drew little interest, but it brought him into Orson Phelps's shop, where Lerow and Blodgett sewing machines were being made, and within months he had a new sewing machine and a patent application. His earlier inventions and his acting troupe had brought him no lasting income, and the sewing-machine company he formed in 1851 changed that.",
+  "isaac-singer.interpretation.turning_point.1":
+    "Cooper says he turned to the sewing machine as a device offering opportunity for improvement and reward, while another biography says he first refused the work; the episode is consistent with a modest opportunity-sensing lean but the sources disagree on who proposed it.",
+  "katherine-mansfield.achievement.1":
+    "Mansfield helped shape the modern English short story. Her stories dropped conventional plots for a single revealing moment, told in a compressed, understated style, and her reputation as a master of the form was established before her death at 34.",
+  "katherine-mansfield.achievement.2":
+    "Her best-known collections, Bliss and Other Stories (1920) and The Garden Party and Other Stories (1922), include 'Bliss', 'Miss Brill', 'The Daughters of the Late Colonel', 'At the Bay' and 'The Garden Party'. Many of the strongest draw on her New Zealand childhood.",
+  "katherine-mansfield.achievement.3":
+    "Her long story 'Prelude', rewritten from an unfinished draft called 'The Aloe', was the first work commissioned by Virginia and Leonard Woolf's Hogarth Press and was published in 1918.",
+  "katherine-mansfield.moment.1":
+    "In 1917 Mansfield turned her unfinished 'Aloe' manuscript into 'Prelude' for the Woolfs' new Hogarth Press. She paid a typist for a fair copy rather than doing the copying herself, and she later tried to insist on a woodcut cover by J. D. Fergusson that the Woolfs disliked, leaving Murry to negotiate a compromise.",
+  "katherine-mansfield.interpretation.moment.1":
+    "The episode shows revision and attention to the finished object, and is consistent with the profile's craft-focused reading of her work habits.",
+  "katherine-mansfield.moment.2":
+    "After her brother Leslie was killed in 1915, Mansfield resolved to write about their New Zealand childhood. At Bandol in the south of France she rewrote 'The Aloe' in a more detached, unsentimental style. In the 1920 and 1921 stories she wrote during long periods abroad, she produced much of the work for which she is best known.",
+  "katherine-mansfield.interpretation.moment.2":
+    "This is consistent with sustained effort in demanding circumstances, though sources also record that she never completed a novel.",
+  "katherine-mansfield.turning_point.1":
+    "In 1908, at 19, Mansfield left Wellington for London after persuading her father to give her an allowance. She had spent three years at Queen's College in London, found the prospect of staying in New Zealand dismal, and built her career in England and on the Continent.",
+  "katherine-mansfield.interpretation.turning_point.1":
+    "The move gave her access to London's literary circles and is consistent with a strong need for independence, although she depended on her father's allowance for the rest of her life.",
+  "lesya-ukrainka.achievement.1":
+    "Lesya Ukrainka developed the dramatic poem as a genre in Ukrainian literature, beginning with Oderzhyma (1901). Her dramatic poems, including Cassandra, The Stone Host and The Boyar Woman, set classical, biblical and Ukrainian subjects in philosophical dialogue and are regarded as her greatest legacy.",
+  "lesya-ukrainka.achievement.2":
+    "Her best-known play, The Forest Song (1911), draws on Volhynian folk beliefs in the story of the forest spirit Mavka and the human flute player Lukash. The encyclopedia describes it as a neoromantic drama about the conflict between lofty idealism and everyday life.",
+  "lesya-ukrainka.achievement.3":
+    "She also published lyric collections, On Wings of Songs (1893), Thoughts and Dreams (1899) and Echoes (1902), and translated Gogol, Mickiewicz, Heine, Hugo and Homer into Ukrainian. Because Ukrainian publishing was restricted in the Russian Empire, her first books were printed in Western Ukraine and brought into Kyiv.",
+  "lesya-ukrainka.moment.1":
+    "In 1888, at seventeen, Lesya and her brother Mykhailo organised the Pleiada literary circle in Kyiv to promote Ukrainian literature and translate world classics into Ukrainian, according to the publisher sketch and a popular biography. The encyclopedia entry says only that she joined the group.",
+  "lesya-ukrainka.interpretation.moment.1":
+    "The accounts differ on whether she founded or joined the circle, so this episode is only weakly consistent with the profile's reading of self-directed initiative.",
+  "lesya-ukrainka.moment.2":
+    "In 1903 Lesya insisted that the painter Ivan Trush destroy the replica of her portrait that he had sold to a private collector without her consent, leaving only the version held by the Shevchenko Scientific Society. When he refused, she broke off contact with him, according to a museum director quoted by Radio Svoboda.",
+  "lesya-ukrainka.interpretation.moment.2":
+    "The episode is consistent with a willingness to press a point and accept a broken friendship, though it is a single dispute told in one museum-side account.",
+  "lesya-ukrainka.turning_point.1":
+    "In 1901 she wrote Oderzhyma, which the encyclopedia identifies as the first of her dramatic poems. From this point her main work shifted from lyric collections toward the dramatic poems for which she is best known.",
+  "lesya-ukrainka.interpretation.turning_point.1":
+    "This is consistent with a shift toward a form of her own making, though the sources describe the genre claim more than the process of change.",
+  "maria-orosa.achievement.1":
+    "After studying pharmaceutical and food chemistry in Seattle, Orosa returned to the Philippines in 1922 and helped organize the Bureau of Science's food preservation division, where she worked on canning and preserving local fruits, vegetables and traditional dishes. Her canned native fruits, including whole mangoes, were shown at the 1925 Manila Carnival at a time when canned goods in the Philippines were almost all imported.",
+  "maria-orosa.achievement.2":
+    "She developed foods and preparations from local crops and by-products, among them powdered calamansi for making juice, flour from cassava and bananas, vinegar from pineapple, and darak, a rice-bran product used against thiamine deficiency. She is also widely credited with banana ketchup, though the Universal Food Corporation credits its own version to Magdalo V. Francisco, who was working on a banana ketchup in 1938.",
+  "maria-orosa.achievement.3":
+    "Orosa also took food science to households. She organized 4-H style clubs and a home extension service in which trained demonstrators taught women to plan meals and preserve local produce, and in 1941 she founded the Homemakers Association of the Philippines, which listed 537 member clubs. She also built an oven based on the traditional clay palayok for baking without electricity.",
+  "maria-orosa.moment.1":
+    "After earning her degrees in Seattle, Orosa was offered a post as a chemist by the state of Washington. According to the National Park Service and a popular biography, she declined it and returned to the Philippines in 1922, taking up teaching and then work at the Bureau of Science.",
+  "maria-orosa.interpretation.moment.1":
+    "This is consistent with the profile's impact motivation: the choice to return fits her later work taking food methods to provincial households, though the sources do not record her own reasons.",
+  "maria-orosa.turning_point.1":
+    "In 1928 the government sent Orosa abroad to study food processing and canning, and after returning in 1929 she was made head of the Bureau of Science's home economics division. The National Historical Institute describes this period as the start of her nationwide provincial tours and the later founding of the Homemakers Association; sources differ on the exact dates she headed the food preservation and home economics divisions.",
+  "maria-orosa.interpretation.turning_point.1":
+    "The shift from laboratory preservation work to a wider programme for households is consistent with the profile's proactive agency, although the appointments were made by the government and the sources do not separate her initiative from the institution's.",
+  "mary-cassatt.achievement.1":
+    "Cassatt was the only American to exhibit with the French Impressionists. Invited by Edgar Degas, she showed with the group in four of its exhibitions between 1879 and 1886 and became one of the movement's leading figure painters.",
+  "mary-cassatt.achievement.2":
+    "Her paintings, pastels and prints centred on women and children, often mothers with infants and women at everyday tasks, treated with Impressionist light and with the flattened perspective and strong line she took from Japanese prints. Works such as Little Girl in a Blue Armchair and the 1890-91 Set of Ten colour prints are central to her reputation.",
+  "mary-cassatt.achievement.3":
+    "She advised wealthy American friends, above all Louisine and H. O. Havemeyer, on buying works by Degas, Manet and older masters, and helped bring Impressionist art into American collections. The Havemeyer collection went to the Metropolitan Museum of Art in 1929.",
+  "mary-cassatt.moment.1":
+    "In 1904 the Pennsylvania Academy offered Cassatt its Lippincott Prize for her painting Caress. According to a reference biography, she declined it, writing that she must stick to her principles of no jury, no medals and no awards, and suggested the money go to a young artist; the Art Institute of Chicago's Harris Prize was likewise refused and given to a student.",
+  "mary-cassatt.interpretation.moment.1":
+    "The refusal is consistent with the profile's emphasis on working free of juries and outside approval, though she did accept the Academy's gold medal ten years later.",
+  "mary-cassatt.moment.2":
+    "In 1890 Cassatt visited a large exhibition of Japanese woodblock prints at the Ecole des Beaux-Arts with Degas and set out to make a series of ten colour prints of Parisian women's daily lives, using etching and aquatint on copper. She hired a professional printer but, according to a 2024 exhibition review, did much of the exacting work herself.",
+  "mary-cassatt.interpretation.moment.2":
+    "The episode is consistent with a pattern of learning a demanding technique through repeated work rather than delegating it.",
+  "mary-cassatt.turning_point.1":
+    "In 1877 Degas invited Cassatt to join the Impressionists, after her Salon submissions had been rejected or altered to satisfy the jury. She later said she accepted with joy because she could now work independently, without a jury's opinion. She stopped submitting to the Salon and exhibited with the Impressionists from 1879.",
+  "mary-cassatt.interpretation.turning_point.1":
+    "The move changed her standing and working conditions, and is consistent with a preference for independence from official approval, as recalled in her own later words.",
+  "max-weber.achievement.1":
+    "In two essays of 1904-05, published in the Archiv fuer Sozialwissenschaft und Sozialpolitik, Weber argued that the work ethic of ascetic Protestantism helped shape the 'spirit' of modern rational capitalism. He followed them with a 1906 essay on churches and sects in North America. The thesis set off a long controversy over the cultural significance of ascetic Protestantism and remains one of his two best-known contributions.",
+  "max-weber.achievement.2":
+    "From about 1911 he compared the economic ethics of the world religions, completing studies of Confucianism, Hinduism, Buddhism and ancient Judaism. His contribution to the handbook Grundriss der Sozialoekonomik was published after his death as Economy and Society. It set out an interpretive sociology built on a theory of social action and on types of legitimate authority, and it is central to his standing as a founder of modern social science.",
+  "max-weber.achievement.3":
+    "His 1904 essay on 'objectivity' laid out a conceptually exact, value-free approach to the social sciences, and with Edgar Jaffe and Werner Sombart he took over the Archiv as the journal for that work. In 1909 he was among the founders of the German Sociological Society, whose first statute limited it to purely scientific inquiry and excluded advocacy of ethical, religious, political or aesthetic aims.",
+  "max-weber.moment.1":
+    "After the 1905 Russian revolution Weber learned Russian, read the Russian newspapers and talked with a well-informed Russian liberal who had escaped to Heidelberg, according to Hawthorn's review of Radkau's biography. The studies on the revolution that followed are listed in the German national biography.",
+  "max-weber.interpretation.moment.1":
+    "This is consistent with the profile's curiosity row: a self-directed effort to learn a language in order to follow events at first hand, though the account comes through one reviewer's reading of the biography.",
+  "max-weber.moment.2":
+    "When Weber agreed to take over the publisher Paul Siebeck's handbook of political economy, the 45 contributors deserted one by one, Hawthorn reports, leaving him to carry the project himself. The text he wrote for it was published after his death as Economy and Society.",
+  "max-weber.interpretation.moment.2":
+    "The episode is consistent with the profile's persistence row, though it is reported by a single review and the outcome alone does not show how he decided to continue.",
+  "max-weber.turning_point.1":
+    "In 1903 Weber left his Heidelberg chair at his own request and was made an honorary professor; from then on he lived as a private scholar on private means. In 1904 he travelled to the United States, took over the editorship of the Archiv with Jaffe and Sombart, and began the Protestant Ethic essays, the first of the works for which he is remembered.",
+  "max-weber.interpretation.turning_point.1":
+    "The change from professor to independent scholar and editor is consistent with the profile's proactive agency row, in that he built a new institutional base for his work rather than waiting for one, though the sources do not say how deliberate the choice was.",
+  "nishi-amane.achievement.1":
+    "Nishi coined tetsugaku as the Japanese word for philosophy, settling on it by 1867 at the latest and using it in print in his 1874 Hyakuichi shinron; he deliberately avoided Neo-Confucian vocabulary so that Western philosophy would not be confused with it. Scholars also credit him as the first translator of reason (risei), idea (kannen), subject (shutai) and object (kyakkan), much of which is still in use.",
+  "nishi-amane.achievement.2":
+    "After studying at Leiden in 1863-65 he became the main early introducer of Western philosophy to Japan, lecturing on it and writing Hyakugaku renkan, an encyclopedic overview of the sciences, and Chichi keimo, the first Japanese introduction to logic (1874). He translated J. S. Mill's Utilitarianism and Joseph Haven's Mental Philosophy; the Encyclopedia of Philosophy calls him the pioneer of Western philosophy in Japan, while also judging that he remained chiefly an expositor.",
+  "nishi-amane.achievement.3":
+    "He was one of the main members of the Meirokusha, the Meiji enlightenment society formed in 1873 whose journal spread Western ideas, and of the Tokyo Academy (1879), its successor and the forerunner of today's Japan Academy, of which he served as president. The Encyclopedia of Philosophy lists him as several times president of the Tokyo Academy.",
+  "nishi-amane.moment.1":
+    "Nishi's first rendering of philosophy, kitetsugaku ('learning of loving wisdom'), appears in his writing in 1861-62. Within a few years he dropped it for tetsugaku, and Kanayama reports that he also refused to use Confucian words such as rigaku for the new subject; his friend Tsuda Mamichi, who is thought to have devised the earlier word with him, kept using kitetsugaku as late as 1874.",
+  "nishi-amane.interpretation.moment.1":
+    "Replacing his own first coinage within a few years is consistent with the profile's belief updating row, though the sources describe the change rather than the reasoning behind it.",
+  "nishi-amane.moment.2":
+    "In 1873 Nishi began an essay, Seisei hatsuun, meant to join physiology and psychology into one scheme completing the positivist philosophy of the sciences. He did not finish it; in 1882 he wrote that he lacked the ability to integrate the two, and Takayanagi says he made no further attempt before his death.",
+  "nishi-amane.interpretation.moment.2":
+    "The attempt to build one integrating scheme, and the open acknowledgement that it had not worked, is consistent with the profile's systems abstraction row and with its belief updating row; Takayanagi's explanation of why it failed is one scholar's reading.",
+  "nishi-amane.turning_point.1":
+    "In April 1862 the shogunate chose Nishi and Tsuda Mamichi to study in the Netherlands, where he studied law, economics and politics under Simon Vissering at Leiden from 1863. The Encyclopedia of Philosophy says that in Holland his interest in philosophy was reawakened and he became acquainted with Comte's positivism, Mill's utilitarianism and Kant; he returned to Japan on 1 December 1865.",
+  "nishi-amane.interpretation.turning_point.1":
+    "The assigned study of law turning into a lasting interest in philosophy is consistent with the profile's curiosity row, though the sources do not describe what he read or why beyond this summary.",
+  "otto-sverdrup.achievement.1":
+    "Sverdrup led the second Fram expedition (1898-1902) to the Canadian Arctic. When ice blocked the planned route to northern Greenland, he took the ship west of Ellesmere Island, and his parties sledged over and mapped an estimated 150,000 to 200,000 square kilometres of unknown land, including Axel Heiberg and the Amund and Ellef Ringnes islands, now known as the Sverdrup Islands. His maps were used by Canadian authorities into the 1960s.",
+  "otto-sverdrup.achievement.2":
+    "Sverdrup was captain of the Fram on Nansen's first expedition (1893-96), the drift with the polar ice. He had supervised the ship's construction at Colin Archer's yard, and after Nansen and Hjalmar Johansen left the ship in March 1895 for the north he was in sole charge of the ship and crew until the Fram came out of the ice north of Svalbard in August 1896. Nansen led the expedition; Sverdrup brought the ship home.",
+  "otto-sverdrup.achievement.3":
+    "In 1888 Sverdrup was one of the six men of Nansen's expedition that made the first crossing of the Greenland ice cap, on skis from east to west. He had volunteered for it by letter, and on reaching the west coast he built the small canvas boat that he and Nansen used to reach Godthab (now Nuuk).",
+  "otto-sverdrup.moment.1":
+    "In 1898 and again in the summer of 1899, ice in Smith Sound and Kane Basin stopped the Fram from reaching northern Greenland. Sverdrup gave up that plan and took the ship south and west into Jones Sound, to explore the unmapped area west of Ellesmere Island. The Fram Museum adds that when his expedition met Robert Peary's Greenland expedition he was not interested in an exploration competition.",
+  "otto-sverdrup.interpretation.moment.1":
+    "The turn west is consistent with the profile's above-average adaptability score, though the accounts rest on one expedition record and the new target was chosen under pressure from the ice.",
+  "otto-sverdrup.moment.2":
+    "In 1914, aged 59, Sverdrup was asked by the Russian government to command the ship Eclipse in a search of the Kara Sea for three missing Russian expeditions. He found none of them, but learned that two Russian naval icebreakers were stuck in the ice near Cape Chelyuskin, and in April 1915 he made an almost six-week dog-sled journey from the Eclipse to the Taymyr, after which 39 of the Russian crews were brought across to his ship.",
+  "otto-sverdrup.interpretation.moment.2":
+    "The sled journey at an age when most careers have ended is consistent with a persistent, hands-on working style; the sources describe what he did and not why.",
+  "otto-sverdrup.turning_point.1":
+    "On 25 February 1895 Nansen wrote out instructions handing command of the Fram to Sverdrup before leaving the ship with Johansen on a dog-sled attempt to reach the North Pole. He wrote that he was certain Sverdrup would know best what to do in any emergency and told him to bring the crew home safely before protecting the ship or the scientific work. From March 1895 until August 1896 Sverdrup was in sole command, and after the Fram's return he began planning an expedition of his own.",
+  "otto-sverdrup.interpretation.turning_point.1":
+    "The handover moved him from Nansen's deputy to the person responsible for the whole ship's company; it is consistent with a moderate leadership-drive score, though the command was given to him and the sources call him a quiet leader.",
+  "ronald-ross.achievement.1":
+    "Working in India from 1895 to 1898 to test Patrick Manson's idea that mosquitoes carry malaria, Ronald Ross saw pigmented cysts in the stomach wall of a dappled-winged Anopheles mosquito on 20 August 1897. He then followed the malaria parasite of birds through its life cycle in mosquitoes, including the salivary glands, and showed that mosquitoes could pass it from infected to healthy birds. The human life cycle was worked out by Italian workers in 1898, and Ross received the 1902 Nobel Prize in Physiology or Medicine for his malaria work.",
+  "ronald-ross.achievement.2":
+    "Ross turned the mosquito finding into a quantitative theory of how malaria spreads. In 1904 he published a mathematical critique of a failed larval-control trial at Mian-Mir, in 1908 a model of malaria transmission, and in 1911 a second model in differential equations. Historians of the field credit him with showing that malaria transmission can fall below a critical mosquito density without every mosquito being killed, and describe his models as the starting point of what became the Ross-Macdonald theory.",
+  "ronald-ross.achievement.3":
+    "After leaving India in 1899 Ross joined the new Liverpool School of Tropical Medicine, later holding its chair of tropical medicine, and took the case for mosquito control to many places, among them West Africa, the Suez Canal zone, Mauritius, Greece and Cyprus. He wrote The Prevention of Malaria (1910), served the War Office as consultant in malaria during the First World War, and from 1926 directed the Ross Institute and Hospital for Tropical Diseases, which was created by admirers of his work.",
+  "ronald-ross.moment.1":
+    "In 1904, after a large larval-control trial at Mian-Mir had failed, Ross published a mathematical analysis of how adult mosquitoes spread out around a treated area. He argued that the broad principles of malaria prevention needed a 'more or less mathematical treatment', and that experiment was needed only to supply unknown constants, so that a trial done too briefly or on too small an area could not show whether larval control works.",
+  "ronald-ross.interpretation.moment.1":
+    "The episode is consistent with a preference for reasoning about a problem quantitatively before accepting an empirical result, though a contemporary partisan historian describes him as 'empirical and intuitive' in his entomology, so the pattern is not uniform across his work.",
+  "ronald-ross.moment.2":
+    "From the end of 1900 Ross argued publicly against the Italian workers around Giovanni Battista Grassi over who had solved the malaria problem, and by an Italian historian's account accused Grassi of fraud over the dating of notes. In his 1923 Memoirs he called the Italian group 'pirates' and wrote that they added nothing of fundamental importance. The Swedish committee asked Robert Koch to arbitrate before the 1902 prize went to Ross alone, and a historian quoted by that account calls the dispute 'one of the least attractive episodes' in the history of malariology.",
+  "ronald-ross.interpretation.moment.2":
+    "The dispute is consistent with a willingness to press a contested claim in public at a cost to relationships, as the Dictionary of Scientific Biography's remark on his 'pugnacious streak' also suggests; the best evidence of his stance is largely his own memoir and a historian sympathetic to Grassi, so it should be read as one side's account.",
+  "ronald-ross.turning_point.1":
+    "Ross left the Indian Medical Service in 1899, after his superiors had repeatedly moved him away from his malaria work, and his experimental research largely ended there. He took a post at the new Liverpool School of Tropical Medicine, and the rest of his career was given mainly to malaria prevention, teaching and public-health campaigns rather than laboratory discovery.",
+  "ronald-ross.interpretation.turning_point.1":
+    "The move is consistent with a pattern of acting on his own initiative to find a place where the work could continue; the sources do not say how he weighed leaving experimental research behind.",
+  "rosalia-de-castro.achievement.1":
+    "Rosalía de Castro published Cantares gallegos in 1863, her first collection of poems in Galician. Based on popular Galician refrains, it is credited as a catalyst of the Galician cultural revival and as a turning point for the literary standing of a language that had long been confined to oral tradition.",
+  "rosalia-de-castro.achievement.2":
+    "Her later collections, Follas novas (1880) in Galician and En las orillas del Sar (1884) in Castilian, are counted among the major poetry of her century in Spain. The first used Galician for subjective and metaphysical themes it had been thought unfit for; the second was praised for its metrical experiments and later admired by writers of the Generation of 1898.",
+  "rosalia-de-castro.achievement.3":
+    "She also wrote novels and essays, among them La hija del mar (1859), the satirical El caballero de las botas azules (1867) and the article 'Las literatas', a direct account of what it meant to be a woman writer in nineteenth-century Spain.",
+  "rosalia-de-castro.moment.1":
+    "In a letter of 6 April 1864 to the poet Eduardo Pondal, Rosalía wrote that nothing she had done satisfied her and that she had torn up her recent attempts; she made a similar remark in an article the next year. Shortly before her death in 1885 she asked her daughters to burn her manuscripts, and they did so while her husband was away, against his wishes.",
+  "rosalia-de-castro.interpretation.moment.1":
+    "This is consistent with demanding standards for her own writing, though the sources frame it as modesty and distrust of her work, and the two readings cannot be separated on this evidence.",
+  "rosalia-de-castro.moment.2":
+    "As a young woman in Santiago, Rosalía acted in amateur productions at the Liceo de la Juventud; a surviving volume of twelve staged comedies has her name written in by the stage director. A researcher notes that Santiago society of the time did not accept a girl performing in public, and that an earlier literary society had closed because women refused to join its recital group.",
+  "rosalia-de-castro.interpretation.moment.2":
+    "This sits alongside an early willingness to go against local expectations for women, though the sources do not say how she weighed the disapproval.",
+  "rosalia-de-castro.turning_point.1":
+    "Cantares gallegos appeared in 1863 under her own name. The Women in World History entry says she was reluctant to publish and at first wanted the poems to appear under her husband's name, while another Gale entry says her husband's prompting led her to publish; the book brought her widespread recognition, and she returned to Galician for Follas novas in 1880.",
+  "rosalia-de-castro.interpretation.turning_point.1":
+    "This helps explain how a choice of language shaped her public reputation, while the sources disagree on how willingly she took that step.",
+  "shirase-nobu.achievement.1":
+    "Shirase led the Japanese Antarctic Expedition of 1910-12, the first Japanese expedition to Antarctica. It was funded by private donors and the former prime minister Okuma Shigenobu after the government declined to pay money the Diet had voted. After a first season in the converted 204-ton fisheries ship Kainan Maru ended in March 1911 and the party wintered in Sydney, the ship reached the Ross Ice Shelf at the Bay of Whales in January 1912. Shirase and four others then made the Dash Patrol by dog sledge to 80 degrees 05 minutes south, roughly 250 to 280 kilometres, and named the area Yamato Snow Plain. All members came home in good health.",
+  "shirase-nobu.achievement.2":
+    "The expedition's results were modest: it did not come near the Pole, and part of King Edward VII Land that the Japanese believed unexplored had already been visited by men of Amundsen's party. Historians nevertheless credit it with showing that Japan could organise a polar expedition and with travelling beyond 80 degrees south, one of only four parties to have done so at the time. Shirase's name is now on the Shirase Coast in Antarctica, and Japan's polar research icebreakers were named Shirase in 1981 and 2009.",
+  "shirase-nobu.moment.1":
+    "On 20 January 1912 Shirase and four companions left the Bay of Whales with two dog sledges and 28 dogs. After a week of blizzards and temperatures of about minus 20 degrees or colder, with food running low, they stopped on 28 January at 80 degrees 05 minutes south. They raised the Japanese flag on a bamboo pole, buried a copper box with the names of the sponsors, and were back at the base camp on 31 January.",
+  "shirase-nobu.interpretation.moment.1":
+    "The patrol left with a fixed supply and stopped when it ran short, which is consistent with a willingness to take risks that was bounded by provisions rather than unlimited; the sources do not say how Shirase weighed the decision.",
+  "shirase-nobu.moment.2":
+    "The expedition left Tokyo in November 1910 already 10,000 yen in debt against an estimated budget of 20,000 to 40,000 yen, and costs and debt grew while it was away. Susan Barr reports that it took Shirase until 1935 to repay the last 40,000 yen, with income from many lectures going to the debt while his family lived in relative poverty.",
+  "shirase-nobu.interpretation.moment.2":
+    "A repayment stretched over about two decades is consistent with persistence in a commitment after public attention had faded, though the available sources do not describe his own reasoning.",
+  "shirase-nobu.turning_point.1":
+    "In March 1911 the Kainan Maru reached the Ross Sea too late in the season to land and turned north, arriving in Sydney on 1 May 1911. With Scott and Amundsen already established in Antarctica, the expedition gave up the plan of reaching the Pole and decided to explore in two groups instead. It wintered at Parsley Bay under local suspicion that the Japanese were spies, until Professor Edgeworth David publicly defended it; on 19 November 1911, as the ship sailed, Shirase gave David a samurai sword.",
+  "shirase-nobu.interpretation.turning_point.1":
+    "Changing the aim from the Pole to exploration while waiting out the winter is consistent with an ability to revise plans after the first one failed; the decision was taken by the expedition's leadership and the sources do not separate Shirase's own part.",
+  "shokan-walikhanov.achievement.1":
+    "In 1858-59 Walikhanov travelled to Kashgar with a trade caravan under a merchant's name, stayed about five months, and afterwards wrote a report on the six eastern cities of Chinese Turkestan. Scholars regard it as the first scientific study of the region's geography, history and administration.",
+  "shokan-walikhanov.achievement.2":
+    "On an 1856 expedition to Lake Issyk-Kul he copied down part of the Kyrgyz epic Manas from a performer and wrote an early essay on the Kyrgyz people, both published by the Russian Geographical Society. Later scholars note that his Russian summary changed some details of the performance.",
+  "shokan-walikhanov.achievement.3":
+    "He also wrote on Kazakh history, shamanism, folk tales and customary law, and in 1863-64 contributed to a government project on judicial reform for the steppe. He died in 1865 aged 29, and his papers were collected and published only decades later.",
+  "shokan-walikhanov.moment.1":
+    "On 28 June 1858 Walikhanov joined a caravan of 43 men, 101 camels and 65 horses bound for Kashgar, using the name Alimbay. A year earlier the German geographer Adolph Schlagintweit had been executed in Kashgar, and Walikhanov arrived on 1 October 1858.",
+  "shokan-walikhanov.interpretation.moment.1":
+    "The episode is consistent with a willingness to accept personal danger on a mission, although the journey was proposed and organised by others, so it does not show how he weighed the risk himself.",
+  "shokan-walikhanov.moment.2":
+    "In 1864 Walikhanov joined General Chernyaev's military expedition in southern Kazakhstan and took part in the capture of the Aulie-Ata fortress. In July he left with other officers who disapproved of Chernyaev's treatment of the local population, and in his last year he lived in a relative's aul.",
+  "shokan-walikhanov.interpretation.moment.2":
+    "This is consistent with a person who acted on his own judgement against the course of his superiors, though he left only after taking part in the first operation.",
+  "shokan-walikhanov.turning_point.1":
+    "After joining Colonel Khomentovsky's 1856 expedition to Issyk-Kul and recording part of Manas there, Walikhanov was elected to the Russian Geographical Society on 27 February 1857 on Semyonov's recommendation. Semyonov later proposed him for the Kashgar journey of 1858.",
+  "shokan-walikhanov.interpretation.turning_point.1":
+    "The sequence is consistent with curiosity about folklore and geography that was recognised and then given larger tasks by scholarly patrons.",
+  "tan-kah-kee.achievement.1":
+    "In 1921 Tan Kah Kee opened Xiamen University in Fujian, at the time the only wholly private university in China, and paid for it until the Chinese government took it over in 1937. Dr Lim Boon Keng accepted his invitation to be its president and ran it for sixteen years. The university grew out of the Jimei school complex Tan had begun in his home village in the early 1910s, which later added normal, secondary and other schools.",
+  "tan-kah-kee.achievement.2":
+    "After his father's rice business failed around 1903-04, Tan started a small pineapple cannery in Singapore and built it into a group of enterprises: by 1908 he ran three canneries, a 600-acre plantation and a young rubber estate, and later he moved into rubber manufacturing, rice milling and shipping. He became known as the 'Henry Ford of Malaya'. His company was wound up in February 1934 after the collapse in rubber prices.",
+  "tan-kah-kee.achievement.3":
+    "In Singapore, Tan was among the founders of Tao Nan School in 1907, together with 109 other Hokkien community members, and of Ai Tong School in 1912, and he founded the Chinese High School in 1919 (now Hwa Chong Institution). He also gave 30,000 dollars to the Anglo-Chinese School in 1919 and later campaigned for a teacher-training school that opened in 1941.",
+  "tan-kah-kee.moment.1":
+    "When Tan planned Xiamen University, he is reported to have pledged one million dollars for its first two years and a further 250,000 dollars a year for the next twelve. The university's feature says he also chose its Xiamen site, once the training ground of the national hero Zheng Chenggong.",
+  "tan-kah-kee.interpretation.moment.1":
+    "The pledge, as retold by a scholarly summary and a university feature, is consistent with the profile's reading of him as someone who put business profits to long-term educational use, though the figures come from secondary and promotional accounts.",
+  "tan-kah-kee.moment.2":
+    "After rubber prices collapsed in the late 1920s, Tan had to stop some building at Xiamen University and the Jimei schools, and his company, Tan Kah Kee Ltd, was wound up in February 1934. He kept financing the schools as far as he could with the help of supporters, and the Xiamen government's profile says he later raised more than 10 million yuan for them by selling his Singapore property and seeking donations.",
+  "tan-kah-kee.interpretation.moment.2":
+    "This helps explain the profile's persistence score, with the caveat that the later funding totals come from a promotional local-government profile and the whole episode is told by sources sharing one biographical tradition.",
+  "tan-kah-kee.turning_point.1":
+    "When his father's Singapore rice business collapsed around 1903-04, the Roots biography says Tan worked to wind up the companies and clear their debts, and he then started a small pineapple cannery of his own. By 1908 a trade directory listed him with three canneries and a rubber estate, the start of the business that later funded his schools.",
+  "tan-kah-kee.interpretation.turning_point.1":
+    "The pivot is consistent with a pattern of acting on his own initiative once a family business failed, although the sources give his motives only in outline.",
+  "tiyo-soga.achievement.1":
+    "Soga translated the first part of John Bunyan's The Pilgrim's Progress into isiXhosa as Uhambo lo Mhambi. He began it as a student in Scotland, finished it on 21 November 1866 at Mgwali, and had it printed at the Lovedale press with the Religious Tract Society's woodcuts. The literary historian A. C. Jordan called it an excellent translation with an influence on the Xhosa language almost as great as the Authorized Version's on English.",
+  "tiyo-soga.achievement.2":
+    "Soga was the first African in South Africa ordained to the Christian ministry, by the United Presbyterian Church in Glasgow in December 1856. Back home in 1857 he revived the Mgwali mission station, where he built a church and schools and preached in Xhosa and English. In 1868 he opened a new station at Tutura among the Gcaleka after their chief Sarili asked for a missionary, and he died there in 1871 aged about 42.",
+  "tiyo-soga.achievement.3":
+    "Soga also wrote and edited for a Xhosa readership. At least seven of his hymns appeared in the 1864 hymnbook Incwadi Yamaculo, and one of them, Lizalis' idinga lakho, is still sung in South African churches. He contributed to the Lovedale newspaper Indaba and, from 1869, sat on an interdenominational board of seven translators that had worked through a new Xhosa version of the four Gospels, still unpublished, when he died.",
+  "tiyo-soga.moment.1":
+    "In 1865 his friend and mission colleague John Chalmers published an article suggesting the Xhosa would die out unless they changed. Soga answered in a letter to the King William's Town Gazette signed 'Defensor', arguing that the Xhosa would survive and that their land and history mattered. The friendship continued, and Chalmers later wrote his biography. The sources give different dates for the printings.",
+  "tiyo-soga.interpretation.moment.1":
+    "Disputing a close colleague's premise in a public newspaper under a pen name is consistent with this profile's independent thinking score, though Soga also held the missionary view that Christian civilisation was the way forward, which is why that score stays moderate.",
+  "tiyo-soga.moment.2":
+    "Soga and his Scottish wife Janet reached Mgwali in December 1857, after the cattle-killing had left many Xhosa starving. They wrote to friends in Scotland for help, and Soga reported that he had dug with his own hands the grave of a mother and two children who died of hunger. Scottish churches then sent funds, and the station took in people seeking food while the first church was still unbuilt.",
+  "tiyo-soga.interpretation.moment.2":
+    "Turning a newly founded station into a relief point and appealing abroad for funds is consistent with the profile's impact motivation row, though the account rests mainly on Soga's own letters as preserved by his biographers.",
+  "tiyo-soga.turning_point.1":
+    "When the war of 1850 broke out, the Uniondale station where Soga taught was burned and Soga fled with an elder. At Cape Town he was offered a post as a government interpreter at a good salary, but he declined and went back to Glasgow to prepare for the ministry. He was ordained in December 1856, which opened the path to the Mgwali and Tutura missions and to his later writing.",
+  "tiyo-soga.interpretation.turning_point.1":
+    "Giving up a secure salaried post to study for the ministry is consistent with the profile's impact motivation row; it also fits the persistence row, since the training was hard and interrupted twice by war.",
+  "truong-vinh-ky.achievement.1":
+    "Trương Vĩnh Ký transcribed and annotated major works of Vietnamese literature in the Latin-script quoc ngu, among them Kim Van Kieu, Luc Van Tien and Phan Tran, and translated Confucian texts such as the Tam tu kinh and parts of the Four Books into the same script. Literary historians quoted in a 2024 article say that before him quoc ngu had circulated mainly within Catholic communities and that his books took it into wider Vietnamese society. A contemporary orientalist obituary adds that only part of his Four Books translation reached print.",
+  "truong-vinh-ky.achievement.2":
+    "In 1869 the colonial governor of Cochinchina put Trương Vĩnh Ký in charge of the Gia Dinh bao, the Latin-script Vietnamese newspaper started in 1865 as a mostly official bulletin. Working with Huynh Tinh Cua, Truong Minh Ky and others, he widened it to carry research pieces, folklore, proverbs and general-knowledge articles in plain language. It is often called the first quoc ngu newspaper; accounts differ on whether the handover was in 1868 or 1869, and the paper also served the colonial government's own purposes.",
+  "truong-vinh-ky.achievement.3":
+    "Trương Vĩnh Ký taught oriental languages at the Collège des Interprètes and other Saigon colleges, and wrote grammar books for Chinese, Khmer, Lao, Malay, Siamese, Cham, Burmese, Tamil and Hindustani. He is described as the first Vietnamese scholar to publish in European periodicals, including the Bulletin of the Société de Géographie in Paris, and his Histoire d'Annam is described as the first significant history of Vietnam in a European language. The editor of the orientalist journal T'oung Pao, Henri Cordier, gave him a long obituary.",
+  "truong-vinh-ky.moment.1":
+    "In 1888-89 Trương Vĩnh Ký edited his own periodical, Miscellanees (Thong loai khoa trinh, renamed Su loai thong khao in June 1889), which was framed as a course of study by topic. Its opening words justify adding amusement, saying that reading much teaching material becomes dull. It printed Western humorous tales and the Life of Aesop, which a 2016 literary-history article calls the first such translations in Vietnam, and it later ceased publication.",
+  "truong-vinh-ky.interpretation.moment.1":
+    "The framing is consistent with a publisher who wanted to make learning attractive to readers, though the stated purpose comes from the periodical's own opening words as reported by one article.",
+  "truong-vinh-ky.moment.2":
+    "At his burial on 6 September 1898 a native councillor, Tran Ba Tho, read a farewell that is quoted in the orientalist journal T'oung Pao. It says that even in his last days Trương Vĩnh Ký was still concerned with publishing his final works, among them a translation of Littre's dictionary. The account comes from a pupil's eulogy, not from an independent biographer.",
+  "truong-vinh-ky.interpretation.moment.2":
+    "Taken at face value, the eulogy is consistent with work that continued late in life, but an admiring graveside speech is weak evidence for his working habits.",
+  "truong-vinh-ky.turning_point.1":
+    "In 1869, after working as an interpreter and teacher, Trương Vĩnh Ký was given charge of the Gia Dinh bao by Admiral Ohier, according to a 2024 article (other accounts say 1868). The paper had been a mostly official bulletin run by a French interpreter, and under him it began carrying research, folklore and general-knowledge pieces alongside government notices. His work moved from classroom and translation work into public editing for Vietnamese readers.",
+  "truong-vinh-ky.interpretation.turning_point.1":
+    "The episode is consistent with a person who used an assigned post to widen its scope, though the sources credit a team and the post itself was a colonial appointment.",
+  "waldemar-haffkine.achievement.1":
+    "Working at the Pasteur Institute in Paris, Haffkine developed a heat-killed cholera vaccine, reported it to the Biological Society of Paris in 1892 and tested it on himself. In India from 1893 he took it into the field, and by mid-1895 reported having inoculated more than 42,000 people with records of each. Historians credit these trials as among the first effective preventive vaccinations against a bacterial disease in humans, though the vaccine mainly reduced the number of cases rather than the death rate among those infected.",
+  "waldemar-haffkine.achievement.2":
+    "Sent to plague-stricken Bombay in 1896, Haffkine improvised a laboratory in a corridor of Grant Medical College and within months had a heat-killed plague vaccine, which he tested on himself in January 1897 before it was used on volunteers. His Plague Research Laboratory sent out some 26 million doses by 1925 and was renamed the Haffkine Institute that year. Hawgood notes that the vaccine's real efficacy was probably lower than the early figures from India suggested.",
+  "waldemar-haffkine.moment.1":
+    "In 1898 the Baroda authorities invited Haffkine to test the plague vaccine in the village of Undhera. Using a recent census, he had each household called into the street, inoculated half of its members and, as far as possible, left a matching half untreated, then returned with colleagues six weeks later to visit each house where plague had occurred.",
+  "waldemar-haffkine.interpretation.moment.1":
+    "This is consistent with the profile's analytical rigor, since the design compared treated and untreated people within the same households, though it comes from a single historian's account of one trial.",
+  "waldemar-haffkine.turning_point.1":
+    "In October 1902 nineteen people inoculated at Mulkowal in the Punjab died of tetanus, all from one bottle of Haffkine's plague vaccine. An official commission blamed contamination at his Bombay laboratory, and he was relieved of his post. Ronald Ross and nine other bacteriologists, Simpson among them, argued in 1907 that the bottle was contaminated at Mulkowal when forceps were dropped, and in November 1907 the India Office said an important body of scientific opinion favoured him and offered him work. He returned to India in 1908 in a research-only post, and Hawgood reports that in India the stigma remained.",
+  "waldemar-haffkine.interpretation.turning_point.1":
+    "The episode is consistent with a pattern of persistence, in that he spent years arguing his laboratory's case and later returned to work in India; the sources also record that the commission viewed gravely his change to the vaccine's production method (dropping carbolic acid), and the cause of the contamination was not settled to everyone's satisfaction.",
+  "walter-reed.achievement.1":
+    "In 1900 Walter Reed, a U.S. Army surgeon, led the Yellow Fever Board in Cuba with James Carroll, Jesse Lazear and Aristides Agramonte. Testing an idea that the Cuban physician Carlos Finlay had proposed in 1881 but not proved, the board showed in controlled experiments with volunteers that the bite of an infected Aedes aegypti mosquito transmits yellow fever and that bedding and clothing do not. The finding underlay the mosquito-control campaign that freed Havana of the disease within about a year, although Lazear died of the disease during the work and the credit is shared among the board and Finlay.",
+  "walter-reed.achievement.2":
+    "In 1898, during the Spanish-American War, Reed chaired an army board with Victor Vaughan and Edward Shakespeare that investigated epidemic typhoid fever in the army camps. By the Dictionary of Scientific Biography's account, the board found that water mattered little and that the disease spread through flies and contact with faecal material, and it identified healthy carriers as a source of infection. Its two-volume report, published in 1904, is called a model for epidemiologists.",
+  "walter-reed.moment.1":
+    "After the first controlled mosquito case in Cuba, Reed wrote in a private letter that the mosquito theory was Finlay's and that Finlay deserved great credit for suggesting it, but that it had been rejected by nearly everyone, including Surgeon General Sternberg, because Finlay had done nothing to prove it. Weeks earlier, at the American Public Health Association meeting in Indianapolis, he had announced the board's results while acknowledging Finlay's contribution, according to a historian of Finlay's work.",
+  "walter-reed.interpretation.moment.1":
+    "The episode is consistent with a readiness to credit an earlier idea while keeping the claim that testing it was the board's contribution; the evidence is his own letter and speech as reported by an admiring biographer and a Finlay-centred essay, so it should be read as his own framing of the credit.",
+  "walter-reed.moment.2":
+    "At the hutted Camp Lazear in late 1900, the board tested the competing explanations separately. Volunteers who lived among the bedding and clothing of yellow-fever patients did not fall ill, while volunteers bitten by infected mosquitoes, or injected with blood from early patients, did. The Dictionary of Scientific Biography credits Reed with designing and conducting these experiments, and Britannica says they showed that a house became infectious only through infected mosquitoes.",
+  "walter-reed.interpretation.moment.2":
+    "The design is consistent with a habit of testing rival explanations against one another instead of relying on a single result, though the first human exposures were made by Carroll and Lazear in his absence and the camp design was a board effort.",
+  "walter-reed.turning_point.1":
+    "In August and September 1900, while Reed was in Washington finishing a report, Carroll allowed infected mosquitoes to bite him and became gravely ill, and Lazear was infected and died. Reed returned to Cuba, and the board then set up Camp Lazear and enrolled volunteers under written consent agreements that gave the Commission limited liability and a cash payment; the Gale article calls the terms coercive by today's standards even though the physicians had put themselves first in line.",
+  "walter-reed.interpretation.turning_point.1":
+    "The sequence is consistent with a leader who continued the work after a fatal setback and moved to a more structured design, while the consent terms illustrate how limited the protections for volunteers still were; the sources do not describe how Reed himself weighed continuing.",
+  "wilhelm-steinitz.achievement.1":
+    "In July 1866 Steinitz beat Adolf Anderssen, then regarded as the world's strongest player, by eight games to six in London, and he began to claim the title of world champion. In 1886 he beat Johannes Zukertort in a match played in New York, St. Louis and New Orleans (ten wins to five, with five draws), widely counted as the first official world championship. He defended the title against Mikhail Chigorin in 1889 and 1892 and against Isidor Gunsberg in 1890-91, and held it until he lost to Emanuel Lasker in 1894.",
+  "wilhelm-steinitz.achievement.2":
+    "Steinitz replaced the sacrifice-and-attack style of the 'romantic' masters with a system of positional play, in which each side starts with equal chances and an advantage is built up gradually and cashed in only when the opponent errs. He set out his theory in the two-volume Modern Chess Instructor (1889); Siegbert Tarrasch popularised it in German and it was absorbed into the Vienna school. Reference works call him the 'father of modern chess'.",
+  "wilhelm-steinitz.achievement.3":
+    "Steinitz was also one of the leading chess writers of his day. He wrote annotated columns for The Field from 1873 and for the London Figaro, published and edited the International Chess Magazine from 1885 to 1891, and in 1891 annotated each of the 432 games of the Sixth American Chess Congress in a book. His annotations are described as a clear improvement on those that came before.",
+  "wilhelm-steinitz.moment.1":
+    "In the first official championship match in January 1886, Steinitz lost four of the first five games in New York, then won in St. Louis and New Orleans to take the match ten wins to five. A well-known player quoted before the match is said to have predicted that Steinitz would play the tenth game with the same stubbornness as the first even after losing nine in a row.",
+  "wilhelm-steinitz.interpretation.moment.1":
+    "The comeback is consistent with the profile's persistence score, though a winning outcome is also the kind of episode that is easier to remember than a quiet one, and the prediction comes from a remark quoted second-hand.",
+  "wilhelm-steinitz.moment.2":
+    "From 1881 to 1883 Steinitz and Johannes Zukertort analysed the same games in rival columns in a long public dispute later called the 'Ink War', and Steinitz challenged Zukertort and his co-editor Leopold Hoffer to a match. When Zukertort accepted in the March 1885 issue of his Chess Monthly, he wrote that Steinitz prided himself on the scurrility of his speech and writing and that direct negotiation with him would exhaust human patience.",
+  "wilhelm-steinitz.interpretation.moment.2":
+    "The episode is consistent with a high tolerance for public conflict, which brought him a title match but also, by several accounts, cost him goodwill in London; Zukertort's reply is the voice of an adversary.",
+  "wilhelm-steinitz.turning_point.1":
+    "After finishing second behind Zukertort at London in 1883, Steinitz left London for New York, where the sources say he could no longer bear his alienation from the English chess circle. In the United States he founded the International Chess Magazine in 1885 and, after he insisted that London had become too hostile, played the 1886 world championship match in American cities.",
+  "wilhelm-steinitz.interpretation.turning_point.1":
+    "The move is consistent with an ability to rebuild a career in a new country and language, although the sources present it as a response to being shut out rather than a free choice.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -27307,6 +27773,472 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1905년 그는 카이핑 철도 등에서 영국인 관리자 밑에서 여러 해 일한 끝에, 외국인 기술자와 외국 자본 없이 건설하기로 한 경장철도의 총기사장이 되었다.",
   "zhan-tianyou.interpretation.turning_point.1":
     "이는 대규모 사업의 책임을 맡아 주어진 한도 안에서 완수하는 모습과 일치한다.",
+  "abanindranath-tagore.achievement.1":
+    "아바닌드라나트 타고르는 벵골 화파를 세우고 이끌었다. 이 화파는 유럽 아카데미 사실주의에서 벗어나 무굴, 라지푸트, 파하리 세밀화 전통에 일본의 수묵 담채 기법을 결합한 새로운 인도 회화를 지향했다. 「바라트 마타」(1905)와 「샤 자한의 죽음」(1902년경)은 이 운동의 대표작으로 꼽힌다.",
+  "abanindranath-tagore.achievement.2":
+    "그는 캘커타 정부 미술학교에서 가르쳤으며 1905년부터 부교장을 지냈다. 난달랄 보스를 비롯한 벵골 화파 1세대 화가들을 길러냈고, 1907년경에는 새로운 회화를 전시하고 지원하기 위해 인도 최초의 미술 살롱으로 불리는 인도 동양미술협회의 설립에 참여했다.",
+  "abanindranath-tagore.achievement.3":
+    "그는 작가이기도 했다. 「샤쿤탈라」, 「크시레르 푸툴」 같은 삽화 어린이책과 인도 미학에 관한 후기 저술은 회화와 나란히 그의 또 하나의 작업 영역을 이룬다.",
+  "abanindranath-tagore.moment.1":
+    "1903년경 오카쿠라 가쿠조가 보낸 일본 화가 요코야마 다이칸과 히시다 슌소가 조라산코의 타고르 저택을 찾아왔고, 아바닌드라나트는 이들에게서 담채 기법을 배웠다. 한 에세이는 이 방법이 그의 작업에 근본적인 변화를 가져왔다고 설명하며, 담채 화풍은 「바라트 마타」와 이후 작품에서 확인된다.",
+  "abanindranath-tagore.interpretation.moment.1":
+    "서양식 파스텔 초상화에서 세밀화 양식, 일본 담채로 이어진 흐름은 방법을 바꾸는 데 열려 있었음과 부합하지만, 자료들은 이를 대체로 하나의 학술적 해석을 통해 전한다.",
+  "abanindranath-tagore.moment.2":
+    "수미크 난디 마줌다르가 인용한 1924년 편지에서 아바닌드라나트는 '인도 미술'로 내놓는 작품의 상당수가 남의 장물을 제 것처럼 파는 일과 같다고 썼고, 아잔타나 그리스, 일본을 따르는 것은 남의 길을 가는 것이라고 난달랄 보스에게 경고했다고 말했다.",
+  "abanindranath-tagore.interpretation.moment.2":
+    "이 편지는 자신이 이끈 화파조차 고정된 양식으로 받아들이기를 꺼렸음과 부합하지만, 하나의 에세이가 인용한 개인적 발언 하나에 불과하다.",
+  "abanindranath-tagore.turning_point.1":
+    "그는 1915년 정부 미술학교를 사임했고, 1920년대부터는 벵골 화파가 그에게 맡긴 공적이고 민족주의적인 역할에서 멀어졌다. 화랑 연표에는 1930년부터 1938년까지 그림을 그리지 않았다고 기록되어 있으며, 자료가 인용하는 학자들은 이후의 작업을 민족주의라는 꼬리표를 내려놓은 사적인 작업으로 설명한다.",
+  "abanindranath-tagore.interpretation.turning_point.1":
+    "이러한 물러남은 이 프로필의 자율성 해석과 부합하지만, 이후 비스바바라티 대학 직책을 맡은 일은 그가 제도를 완전히 떠나지는 않았음을 보여준다.",
+  "akutagawa-ryunosuke.achievement.1":
+    "아쿠타가와는 근대 일본 단편소설을 성숙의 단계로 끌어올린 작가로 평가받는다. 자연주의와 고백체 사소설에 맞서 문체와 형식에 세심하게 공을 들인 간결한 단편을 썼고, 그의 작품은 단편소설이 일본 문학의 한 부분으로 자리 잡는 데 기여했다.",
+  "akutagawa-ryunosuke.achievement.2":
+    "그의 대표작들은 『곤자쿠 이야기집』 같은 중세 설화집의 이야기를 근대적 소설로 다시 쓴 것이다. 도쿄제국대학 학술지 『제국문학』에 처음 실린 뒤 첫 소설집의 표제작이 된 「라쇼몽」은 아마도 그의 가장 유명한 작품이다. 하나의 살인 사건을 서로 어긋나는 증언들로 풀어 가는 「덤불 속」은 여러 목소리로 이야기하는 서술 방식으로 주목받으며, 구로사와 아키라의 영화 「라쇼몽」은 제목을 앞의 작품에서, 줄거리를 뒤의 작품에서 가져왔다.",
+  "akutagawa-ryunosuke.achievement.3":
+    "「코」, 「토란죽」, 「지옥변」을 비롯한 초기 단편은 그의 대표작으로 꼽힌다. 그 시기가 끝날 무렵 그는 스승 나쓰메 소세키와 단편 작가 시가 나오야 이후 일본 문단에서 가장 빛나는 새 얼굴로 평가받았다.",
+  "akutagawa-ryunosuke.moment.1":
+    "1927년 『신초』 합평회에서 아쿠타가와는 다니자키 준이치로의 소설에 나오는 줄거리의 재미가 과연 예술적인지 의문이라고 말했다. 다니자키가 잡지 『가이조』에서 반박하자 아쿠타가와는 다음 호에 연재 평론 「문예적인, 너무나 문예적인」으로 답하며, 작품의 예술적 가치는 작가의 '시적 정신'의 깊이로만 정해진다고 주장했다. 한 연구자는 다니자키가 이 주장에 정면으로 맞서지는 않았다고 지적한다.",
+  "akutagawa-ryunosuke.interpretation.moment.1":
+    "이는 선배 작가를 상대로도 자신의 비평적 입장을 지면에 내놓는 태도와 맞아떨어지지만, 한 번의 사례만으로 그가 의견 충돌을 대체로 어떻게 다루었는지까지 말할 수는 없다.",
+  "akutagawa-ryunosuke.moment.2":
+    "1918년 9월 『미타문학』에 「봉교인의 죽음」이 실렸을 때, 작품에는 저자가 소장한 기리시탄판 『레겐다 아우레아』를 바탕으로 썼다는 설명이 붙어 있었다. 일본 국립국회도서관은 이 책이 아쿠타가와가 지어낸 것이라고 설명하지만, 많은 독자가 그런 책이 실재한다고 믿었고 구입하겠다며 계약금을 보낸 사람까지 있었다고 한다.",
+  "akutagawa-ryunosuke.interpretation.moment.2":
+    "이는 그가 소설에서 출처와 저자라는 틀을 놓고 형식적인 실험을 한 한 가지 사례로 볼 수 있으며, 국립국회도서관의 설명은 그의 의도까지는 밝히지 않는다.",
+  "akutagawa-ryunosuke.turning_point.1":
+    "아쿠타가와는 1915년 말 무렵 소설가 나쓰메 소세키의 제자가 되었다. 1916년 단편 「코」가 발표되자 소세키가 이를 극찬했고, 일본 국립국회도서관은 이 칭찬이 그가 문단에서 인정받는 계기가 되었다고 설명한다. 벤턴은 소세키가 권한 자기 초월의 태도 덕분에 그가 활동 기간 대부분 자신의 작품 속에 직접 등장하지 않았다고 덧붙인다.",
+  "akutagawa-ryunosuke.interpretation.turning_point.1":
+    "이는 스승이 권한 초연한 태도와 대표작들의 관찰자적 서술 사이에 일찍부터 연결이 있었다는 해석과 맞아떨어지는데, 이는 그의 문체가 형성된 과정에 대한 여러 해석 가운데 하나일 뿐이다.",
+  "aurel-stein.achievement.1":
+    "스타인은 1900~01년, 1906~08년, 1913~16년 세 차례 탐험대를 이끌고 타림 분지와 중국 서부를 가로지르며 니야, 미란, 누란의 묻힌 정착지를 밝혀냈고, 건조한 기후 덕분에 온전히 남은 문서, 그림, 직물을 찾아냈다. 또한 초기 중국 변경 장성과 요새를 약 640킬로미터에 걸쳐 추적했다.",
+  "aurel-stein.achievement.2":
+    "1907년 스타인은 둔황 근처 막고굴의 봉인된 장경동에 이르러 관리인이던 도사 왕위안루에게서 필사본과 그림을 입수했고, 1907년과 1914년에도 추가로 들여왔다. 이 자료는 지금 런던과 뉴델리에 나뉘어 있다. 입수 방식은 지금도 논쟁 중이며, 중국에서는 그를 약탈자로 본다.",
+  "aurel-stein.achievement.3":
+    "1927년부터 1938년까지 스타인은 모헨조다로에서 발견된 선사 문화를 찾아 발루치스탄과 이란 남서부를 조사했고, 1938~39년에는 티그리스강에서 아카바만에 이르는 로마 국경선을 항공과 지상에서 조사했다. 그보다 앞서 인도 북서부에서 알렉산드로스 대왕의 원정과 관련된 장소들도 확인했다.",
+  "aurel-stein.moment.1":
+    "1930년 스타인은 난징의 학계가 이동 제한과 유물 반출 금지를 요구하는 가운데에도 네 번째 탐험을 위해 신장으로 돌아갔다. 검열관이 그를 따라붙었고 1930년 12월 비자가 취소되었지만, 그는 1931년 5월 장제스가 추방을 명령할 때까지 머물렀다.",
+  "aurel-stein.interpretation.moment.1":
+    "이 일화는 공식적인 반대 속에서도 작업을 이어 가려는 강한 경향과 부합하지만, 동시에 그가 상대국 정부의 제한을 따르지 않았음도 보여 준다.",
+  "aurel-stein.moment.2":
+    "1942년 7월부터 9월까지, 여든을 앞둔 나이에 스타인은 해발 4,300~4,600미터 고개를 여럿 넘는 힘든 등반이 따르는 인더스강 동쪽 협곡 답사에 나섰다. 이어 1943년 초에는 게드로시아로 갔고, 1943년 10월 13일 페샤와르에서 아프가니스탄 조사 계획으로 가득하다고 적어 보냈다.",
+  "aurel-stein.interpretation.moment.2":
+    "이러한 모습은 생의 마지막까지 이어진 고대 경로에 대한 호기심과 부합한다.",
+  "aurel-stein.turning_point.1":
+    "1899년 캘커타 마드라사 교장으로 몇 달을 보낸 뒤 스타인은 그 자리를 떠났고, 1900~01년 커즌 총독 정부의 허가와 지원을 받아 첫 중앙아시아 탐험을 수행했으며 1904년에는 인도 고고학 조사국에 들어갔다.",
+  "aurel-stein.interpretation.turning_point.1":
+    "이러한 흐름은 자리가 주어지기를 기다리기보다 현장 탐험으로 가는 길을 스스로 만들어 간 사람의 모습과 부합한다.",
+  "carlos-gardel.achievement.1":
+    "카를로스 가르델은 가사가 붙은 탱고, 곧 탱고 노래를 리오데라플라타 일대의 대중예술로 만든 대표적인 가수다. 1917년 오데온에서 최초의 탱고 노래로 인정받는 '미 노체 트리스테'를 녹음한 뒤 탱고가 그의 레퍼토리를 차지했고, 안드레아 마탈라나의 연구에 따르면 1920~25년에만 약 230곡을 녹음했다. 출생지는 프랑스와 우루과이 사이에서 논란이 있으나, 그의 경력은 부에노스아이레스에서 쌓였다.",
+  "carlos-gardel.achievement.2":
+    "가르델은 1910년대에 호세 라소와 듀오로 노래했고 라소는 그의 대리인 역할도 맡았다. 두 사람은 오데온 음반과 극장 무대로 부에노스아이레스와 스페인에서 인기를 얻었다. 1925년 라소의 목소리가 나오지 않게 되자 가르델은 혼자 기타 반주로 무대에 올랐고, 듀오의 이름은 이후에도 오랫동안 그의 음반 라벨에 남았다.",
+  "carlos-gardel.achievement.3":
+    "1931년 가르델은 파라마운트와 여러 계약 중 첫 계약을 맺고 '부에노스아이레스의 불빛'을 시작으로 파리와 뉴욕에서 만든 스페인어 발성 영화에 주연으로 출연했다. 1935년 6월 24일 순회공연 중 콜롬비아 메데인에서 두 비행기가 이륙 중 충돌하는 사고로 숨졌고, 몇 주 뒤 카라스 이 카레타스가 추모 특집호를 냈다.",
+  "carlos-gardel.moment.1":
+    "1925년 9월 지방 순회 중 라파엘라에서 호세 라소는 노래 한 곡을 간신히 마쳤고, 다음 날 아침 더는 노래할 수 없다고 가르델에게 말했다. 콜리어의 설명에 따르면 가르델은 큰 충격을 받고 친구를 두고 떠나기를 망설였으나, 라소의 권유로 혼자 스페인으로 건너가 독창자로 무대에 올랐다.",
+  "carlos-gardel.interpretation.moment.1":
+    "이 일화는 동료를 잃고도 우정과 사업상의 동반 관계를 유지하면서 경력을 이어 가려는 태도와 부합한다. 다만 한 전기 작가가 전하는 라소의 회고에 근거하므로 여러 해석 중 하나로 읽어야 한다.",
+  "carlos-gardel.moment.2":
+    "1929년 신문 인터뷰에서 가르델은 한 달에 최대 스무 곡을 녹음하며, 나머지 시간은 리허설과 편곡, 기타 파트 수정으로 채워진다고 말했다. 콜리어는 1929년 6월부터 1930년 6월까지 녹음실 작업이 서른 번이었고, 그 밖에 1929년 7월에는 수이파차 극장에서 하룻밤 두 차례 공연하고 매주 세 번 라디오에 출연했다고 센다.",
+  "carlos-gardel.interpretation.moment.2":
+    "이 일과는 꾸준하고 규칙적인 작업 습관과 부합한다. 앞의 수치는 본인의 말이고 일정은 한 전기 작가의 재구성이므로 두 근거가 완전히 독립적이지는 않다.",
+  "carlos-gardel.turning_point.1":
+    "1931년 5월 1일 파리의 호텔 뫼리스에 묵던 가르델은 파라마운트와 첫 계약을 맺었다. '히스파노-아르헨티나' 스페인어로 만드는 두 시간짜리 영화의 주연을 12만 5천 프랑에 맡는 계약이었다. 이 영화가 '부에노스아이레스의 불빛'이 되었고, 이후 4년간 그의 활동은 영화와 뉴욕으로 옮겨 갔으며 음반도 RCA 빅터로 바꾸었다.",
+  "carlos-gardel.interpretation.turning_point.1":
+    "이 전환은 무대와 음반 경력을 새로운 매체와 낯선 도시로 확장하려는 의지와 부합한다. 다만 자료는 단계만 설명할 뿐 그 자신의 이유는 전하지 않는다.",
+  "dayananda-saraswati.achievement.1":
+    "다야난다는 1875년 4월 10일 봄베이에서 아리아 사마지(Arya Samaj)를 창립했다. 이 힌두 개혁 단체는 베다만을 유일한 권위로 삼고, 유일신을 가르치며 우상 숭배, 태생에 따른 카스트, 조혼을 배격했다. 초기에 가장 큰 호응을 얻은 곳은 펀자브였고, 1877년 라호르 지부가 생겨 본부 역할을 하게 되었다. 그는 운동의 운영을 각 지부에 맡겼으며, 이후의 학교 조직은 그의 추종자들이 만들었다.",
+  "dayananda-saraswati.achievement.2":
+    "다야난다는 자신의 핵심 교리서인 『사티아르트 프라카시(Satyarth Prakash)』를 썼다. 힌디어로 쓰인 이 책은 자료에 따라 1874년 또는 1875년에 처음 나왔고, 죽기 직전에 다시 개정되었다. 신, 베다, 혼인, 교육, 통치에 관한 그의 가르침을 담고 있으며, 인도의 다른 교파를 비판하고, 한 선교사 학자가 부당하다고 평가한 대목에서는 이슬람과 기독교도 비판한다.",
+  "dayananda-saraswati.achievement.3":
+    "다야난다는 베다 학자이자 교사로서도 활동했다. 야주르 베다 전체와 리그 베다의 상당 부분을 다룬 산스크리트어 주석서와, 전통 주석을 배격하는 서문을 썼고, 베다 공부가 모든 카스트에게 열려야 한다고 주장했다. 유언으로는 23명으로 이루어진 신탁 파로파카리니 사바(Paropkarini Sabha)를 세워 베다의 출판, 선교사 파견, 고아와 빈민 교육을 맡기도록 했다고 추종자의 기록은 전한다.",
+  "dayananda-saraswati.moment.1":
+    "1869년 11월 다야난다는 산스크리트 학문의 중심지인 베나레스에서 열린 공개 논쟁에 참여했다. 많은 군중과 정통파 학자 300명가량 앞에서, 자기편은 소수에 불과했고, 논쟁은 베나레스 마하라자가 주재했다. 양측 모두 승리를 주장했다. 현장에 있던 한 선교사는 '푸라나(Purana)'라는 말에 관한 질문에서 그가 잠시 대답을 멈추자 학자들이 야유했고 베나레스에서의 그의 등장은 실패였다고 적었으나, 아리아 사마지 쪽 기록은 이를 그의 사명이 실질적으로 시작된 일로 본다.",
+  "dayananda-saraswati.interpretation.moment.1":
+    "반대하던 학자들의 본거지에서, 동지가 거의 없는 상태로 자기 주장을 펼치기로 한 선택은 이 프로필의 갈등 감내력 점수와 어울린다. 결과에 대한 평가가 엇갈린다는 점도 이 특성을 단순한 장점이 아닌 양면적인 것으로 읽는 이유 중 하나다.",
+  "dayananda-saraswati.turning_point.1":
+    "1873년 초 다야난다는 브라모 사마지 지도자 데벤드라나트 타고르의 손님으로 콜카타에 넉 달간 머물며 케샤브 찬드라 센을 만났다. 센의 조언에 따라 그는 허리 두른 천 대신 일반 의복을 입고, 산스크리트어 대신 힌디어로 강연하고 글을 쓰기 시작했다. 콜카타 이후 1875년에 그가 세운 아리아 사마지는 파쿼의 설명에 따르면 브라모 사마지와 프라르타나 사마지의 방식을 빌린 것이었고, 청중은 정통 산스크리트 학자들을 넘어 넓어졌다.",
+  "dayananda-saraswati.interpretation.turning_point.1":
+    "브라모 지도자들을 만난 뒤 복장, 언어, 조직 방식을 바꾼 것은 이 프로필의 적응력 점수와 어울린다. 다만 바뀐 것은 방법이었고, 베다에 관한 그의 교리는 바뀌지 않았다.",
+  "ellen-key.achievement.1":
+    "1900년 12월 31일에 출간된 두 권짜리 저서 『아동의 세기』에서 케이는 모든 아이에게 경제적 책임에서 벗어난 유년기를 누릴 권리가 있으며, 교육과 양육이 앞으로 가정과 사회의 중심이 되리라고 주장했고, 큰 아이들은 모든 계층에 열린 공통 학교에 다녀야 한다고 보았다. 이 책은 유럽 열세 개 언어로 번역되었고 독일에서만 1902년부터 1926년까지 열일곱 판을 거듭했다.",
+  "ellen-key.achievement.2":
+    "『삶의 선』(1903~06)과 『사랑과 결혼』에서 케이는 사랑, 미학, 종교에 관한 견해를 펼쳤다. 교회의 축복 없는 사랑을 옹호했고, 여성이 결혼 밖에서도 아이를 가질 수 있다고 주장했다. 이 책들은 영어, 프랑스어, 이탈리아어, 독일어로 번역되어 스웨덴 밖에서도 진지한 논쟁을 일으켰다. 앞서 1896년에 낸 『남용된 여성의 힘』은 역사에 여성 천재가 없었다는 점을 들어 과거 여성의 역사가 외부의 억압만으로 설명되지는 않는다고 주장했고, 이로 인해 그녀는 스웨덴 여성운동의 상당 부분과 대립하게 되었다.",
+  "ellen-key.achievement.3":
+    "1883년부터 케이는 스톡홀름의 노동자 학교와 여성 및 학생 단체에서 강연했고, 약 20년 동안 인민학교에서 노동계급 청중에게 강의했다. 1899년 저서 『모두를 위한 아름다움』은 일상 속의 아름다움을 옹호했으며, 1900년대부터 유럽 곳곳에서 이어진 강연 여행은 많은 청중을 모아 그녀를 스웨덴 밖에서도 성인 교육과 문화 논쟁의 한 인물로 만들었다.",
+  "ellen-key.moment.1":
+    "1898년 입센 탄생 70주년을 기념하는 여성들의 행사에서 케이는 '방주 밑의 어뢰'라는 제목으로 강연하며, 니체적이고 반기독교적인 이상에 비추어 입센을 해석했고 이는 통념적 해석과 반대되는 것이었다. 『아프톤블라데트』에는 프레드리카 브레메르 협회의 주요 회원을 포함한 여성 284명이 스웨덴 여성들 사이에서 낡은 전통적 이상이 사라지는 것에 항의하는 호소문을 실었다. 이후에도 여성 참정권을 위해 협력은 이어졌지만, 이 일은 분명한 결별이 되었다.",
+  "ellen-key.interpretation.moment.1":
+    "이 일화는 프로필의 갈등 감내력 항목과 부합한다. 그녀는 가장 가까운 조직적 동지들의 생각과 어긋나는 해석을 견지하고 발표했으며 그 대가도 실제로 치렀다. 다만 사전 항목은 그녀의 동기가 아닌 사실만을 전한다.",
+  "ellen-key.moment.2":
+    "친구인 뉘스트룀-해밀턴은 케이가 수줍음이 많고 자신감이 부족했지만 대중 앞에서 말하는 법을 익혔다고 기록한다. 한번은 원고를 잊고 와서 원고 없이 말해야 했는데 그 편이 더 낫다는 것을 알게 되었고, 그때부터 강연에서는 주요 요점만 적어 두었다고 한다.",
+  "ellen-key.interpretation.moment.2":
+    "이 일화는 호의적인 친구가 전한 것으로, 그녀가 차질 이후 방식을 조정한 한 예를 보여 주며, 근거가 더 얇은 프로필의 적응력 항목과 나란히 놓인다.",
+  "ellen-key.turning_point.1":
+    "1900년 『아동의 세기』가 나온 뒤 이 책은 더 넓은 국제 독자층에 닿았고, 스웨덴 여성 인명사전의 표현대로 유럽 곳곳에서 그녀에게 많은 문을 열어 주었다. 20세기의 첫 10년 동안 그녀는 유럽을 여행하며 강연했고 『삶의 선』을 썼다. 1903년에는 교직에서 물러나 집필과 강연에 전념했다.",
+  "ellen-key.interpretation.turning_point.1":
+    "교사이자 지역 강연자에서 국제 독자를 가진 독립 저술가로 옮겨 간 이 변화는 프로필의 자율성 욕구 항목과 부합하지만, 그녀가 안정보다 독립을 택한 것인지는 출처가 말해 주지 않는다.",
+  "ernst-mach.achievement.1":
+    "마흐는 《역학》(1883)에서 뉴턴의 절대 공간, 시간, 운동이 관측 가능한 어떤 것과도 연결될 수 없다고 주장하고, 관성을 한 물체가 우주의 다른 물체들과 맺는 관계로 이해해야 한다고 제안했다. 아인슈타인은 이 책이 자신에게 영향을 주었다고 말했고 1918년 이 생각에 '마흐의 원리'라는 이름을 붙였지만, 나중에 자신의 일반 상대성 이론에서는 이 원리가 성립하지 않음을 알게 되었다. 마흐 자신은 역학 비판을 자신의 가장 중요한 작업 가운데 하나로 여겼다.",
+  "ernst-mach.achievement.2":
+    "1887년 마흐는 피우메 해군사관학교의 페터 잘허와 함께, 오스트리아 해군의 지원으로 피우메에서 촬영한 사진을 발표했다. 사진에는 음속보다 빠르게 날아가는 탄환 둘레의 압축 공기 원뿔이 담겨 있었고, 두 사람은 이 원뿔의 각도를 탄환 속도와 음속의 비와 연결 지었다. 이 각도는 1907년 이후 '마흐 각'으로 불렸고, 그 비율에 '마흐 수'라는 이름을 붙인 것은 1929년 야코프 아커레트였을 뿐 마흐 자신이 아니었다.",
+  "ernst-mach.achievement.3":
+    "마흐는 그라츠와 프라하에서 일하며 1865~68년에 오늘날 '마흐 띠'라 불리는 현상, 즉 밝은 영역과 어두운 영역의 경계에서 눈이 대비를 과장해 지각하는 현상을 기술하고, 이것이 단순한 판단 착오가 아니라 시각 기관 자체의 성질에 뿌리를 둔다고 보였다. 1886년의 《감각의 분석》은 이후 철학에서 큰 영향력을 가졌고, 1929년에는 그의 이름을 딴 '에른스트 마흐 협회'(회원이 빈 학파와 크게 겹쳤다)가 빈 학파의 선언문을 펴냈다.",
+  "ernst-mach.moment.1":
+    "1898년 뇌졸중으로 몸의 오른쪽이 마비된 뒤 마흐는 강의 의무를 더는 다할 수 없게 되어 1901년 스스로 퇴직을 요구했지만, 아들 루트비히의 도움을 받아 계속 연구하고 글을 쓰고 실험했으며 1905년 《인식과 오류》를 완성했다.",
+  "ernst-mach.interpretation.moment.1":
+    "이 일화는 장애 속에서도 일을 이어 가는 힘과 부합하지만, 자료가 상세하지 않고 아들의 도움이 컸다는 점을 함께 고려해야 한다.",
+  "ernst-mach.moment.2":
+    "1908년 막스 플랑크는 이론은 사실을 정돈할 뿐이라는 마흐의 견해를 정면으로 공격하는 강연 〈물리학적 세계상의 통일〉을 했다. 한 일반 참고 항목에 따르면 마흐는 큰 불쾌감을 느껴, 물리학자에게 원자의 실재를 믿으라고 요구한다면 '물리학이라는 교회'를 떠나겠다고 말했다.",
+  "ernst-mach.interpretation.moment.2":
+    "이는 당대 최고의 물리학자에 맞서 자신의 입장을 지킨 한 사례로, 《과학 전기 사전》은 이런 태도를 교조적이라고 평한다. 다만 이 발언에 대한 서술은 짧은 이차 항목에서 나온 것이다.",
+  "ernst-mach.turning_point.1":
+    "1863년 의대생을 위한 마흐의 《물리학 개요》는 여전히 원자-분자론을 작업 가설로 사용했지만, 서문은 이미 원자론이 마지막 말이 아니라고 경고했고, 《과학 전기 사전》은 1863년에는 그가 원자 가설을 잠정적 도구로만 보았다고 전한다. 같은 시기 그의 관심은 물리학에서 감각의 생리학과 심리학으로 옮겨 갔는데, 그는 물리 실험을 할 수단이 부족했던 것도 이유였다고 말했다.",
+  "ernst-mach.interpretation.turning_point.1":
+    "이 이른 시기의 수정은 이 프로필의 신념 갱신 항목이 낮은 점수에 머무는 사정과 함께 읽어야 한다. 이후 수십 년간 원자론에 저항했고, 그가 나중에 얼마나 누그러졌는지는 자료마다 엇갈리기 때문이다.",
+  "hantaro-nagaoka.achievement.1":
+    "1903~1904년 나가오카 한타로는 무거운 양전하의 중심 주위를 전자 고리가 도는 '토성형 원자 모형'을 제안했다. 이 모형은 제임스 클러크 맥스웰이 토성 고리의 안정성을 분석한 계산에 기대어 만들어졌다. 러더퍼드의 1911년 핵 원자 논문은 이 모형의 역학적 안정성 조건을 언급했지만, 후대 역사가들은 이 모형이 러더퍼드에게 영향을 주었다는 증거가 없다고 보며, 논문에는 G. A. 쇼트가 지적한 부호 오류도 있었다. 나가오카 자신도 1908년까지는 이 모형을 버렸다.",
+  "hantaro-nagaoka.achievement.2":
+    "나가오카는 1901년부터 1925년까지 도쿄대학 물리학의 중심 교수였으며, 《과학 전기 사전》은 그를 일본 물리학의 발전을 이끈 주된 인물로 꼽는다. 제자로는 혼다 고타로, 이시와라 준, 니시카와 쇼지, 니시나 요시오 등이 있고, 1921년에는 니시나를 러더퍼드에게 소개했다. 사전은 일본의 이후 실험·이론 물리학 전통이 거의 전적으로 나가오카와 그 후계자들에 의해 형성되었다고 평하는데, 이는 한 사람이 아니라 한 세대의 공을 함께 인정하는 평가다.",
+  "hantaro-nagaoka.achievement.3":
+    "나가오카는 1917년 이화학연구소(리켄)가 설립될 때 물리학부를 이끌었고, 1925년 도쿄대학을 퇴임한 뒤에는 그곳의 주임연구원 연구실을 맡았다. 리켄 자체의 역사서는 그가 이후 기기 제작부로 성장한 기계 공작실을 세웠다고 기록한다. 1931년에는 새로 설립된 오사카 제국대학의 초대 총장이 되었다.",
+  "hantaro-nagaoka.moment.1":
+    "《과학 전기 사전》에 따르면 나가오카는 자신의 토성형 모형을 버린 뒤 1908년부터 원자 속 전자의 실제 배열을 알아내기 위한 분광 실험에 착수했다. 사전은 그가 모형을 포기한 이유까지는 밝히지 않는다.",
+  "hantaro-nagaoka.interpretation.moment.1":
+    "이는 자신이 발표한 생각을 고수하기보다 내려놓을 줄 알았음을 시사하지만, 이유가 밝혀지지 않은 단일 사례여서 일반적인 성향의 증거로는 얇다.",
+  "hantaro-nagaoka.moment.2":
+    "1910년 하반기에 나가오카는 일본 대표로 브뤼셀에서 열린 두 차례 회의와 빈의 회의에 참석한 뒤, 맨체스터를 시작으로 라이덴, 베를린, 뮌헨, 하이델베르크, 제네바 등의 연구소를 두루 방문했다. 1911년 2월 22일 그는 러더퍼드에게 보낸 긴 편지에서 본 것들을 전하며 러더퍼드의 단순한 장치에 감탄했고, 지진에 관한 자신의 견해가 일본 지진학자들과 다르다고 적었다.",
+  "hantaro-nagaoka.interpretation.moment.2":
+    "이 여행과 편지는 다른 연구소의 방법에 대한 폭넓은 호기심과 부합하지만, 기록의 상당 부분은 그 자신의 서술이다.",
+  "hantaro-nagaoka.turning_point.1":
+    "1900년 나가오카는 파리에서 열린 제1회 국제 물리학회의에 초청되어 자기변형에 관한 논문을 발표했는데, 그곳에서 퀴리 부부의 방사능 강연을 들었다. 《과학 전기 사전》은 이 강연이 방사능을 설명하기 위해 원자 구조를 연구하도록 그를 자극했다고 전하며, 이는 1904년 원자 모형으로 이어진 연구 흐름이다.",
+  "hantaro-nagaoka.interpretation.turning_point.1":
+    "이 일화는 자신의 전문 분야 밖의 강연이 연구 방향을 바꾼 한 사례로서 이 프로필의 호기심 항목과 나란히 놓이지만, 근거는 참고 사전의 한 문장이다.",
+  "hubert-wilkins.achievement.1":
+    "윌킨스는 조종사 칼 벤 아일슨과 함께 비행기로 북극해를 처음 가로질렀습니다. 1928년 4월 15일 단발 엔진 록히드 베가 기는 알래스카 포인트배로에서 스발바르까지 약 2,200마일을 약 20시간 만에 날아갔고, 폭풍 속에서 작은 섬에 내려앉았습니다. 일부 지리학자가 육지가 있으리라 예상했던 미답 지역에서 이 비행은 바다 얼음만 확인했고, 윌킨스는 이 일로 기사 작위를 받았습니다.",
+  "hubert-wilkins.achievement.2":
+    "윌킨스는 1928~30년 허스트 신문사의 후원으로 남극 항공 탐험을 이끌었습니다. 1928년 11월 16일 그는 아일슨과 함께 디셉션 섬에서 남극 최초의 동력 비행을 했고, 12월 20일에는 그레이엄 랜드와 남극 반도 해안 약 600마일을 따라 날았습니다. 처음에 해협으로 보고된 일부 지형은 나중에 빙하로 밝혀졌고, 로스해까지 이어 날겠다는 계획은 디셉션 섬 활주로가 녹아 무산되었습니다.",
+  "hubert-wilkins.achievement.3":
+    "1931년 윌킨스는 1916년에 건조된 미 해군 잠수함을 개조한 노틸러스호로 북극 얼음 밑을 지나 북극점까지 가려는 윌킨스-엘즈워스 북극 횡단 잠수함 탐험을 이끌었습니다. 엔진 고장과 잠항타 분실로 북극점에는 닿지 못했지만, 8월 31일 이 배는 유빙 밑으로 잠항했고 승무원들은 해양 및 중력 관측을 해냈습니다. 배는 1931년 11월 20일 노르웨이의 피오르에 가라앉혀졌고, 윌킨스는 이 탐험에 저축을 모두 쏟아부은 상태였습니다.",
+  "hubert-wilkins.moment.1":
+    "1928년 스발바르 앞 데드맨 섬에 착륙한 뒤, 폭풍 때문에 윌킨스와 아일슨은 나흘에서 닷새 동안 기내에 갇혀 있었습니다. 미국 국립항공우주박물관의 기사에 따르면 그 뒤 두 사람은 활주로를 손으로 파냈고 이륙에 거듭 실패하자, 다음 시도마저 실패하면 한 사람이 남고 다른 사람이 날아가 도움을 청하기로 합의했습니다. 다음 시도는 성공했고 두 사람은 그린하버의 포경기지에 닿았습니다.",
+  "hubert-wilkins.interpretation.moment.1":
+    "위험한 이륙을 거듭 시도하고 한 사람이 남는 계획까지 세운 일은 끈기와 위험을 받아들이는 태도와 어긋나지 않습니다. 다만 이 일화는 주로 그의 전기 작가에 바탕을 둔 박물관 기사 한 편에 실려 있습니다.",
+  "hubert-wilkins.moment.2":
+    "1931년 노틸러스호 항해에서 8월 22일 얼음 가장자리에서 잠항타가 사라진 것이 확인된 뒤, 미국철학회 전시는 윌킨스가 잠항이 필요 없는 과학 관측만이라도 해내겠다고 마음먹었다고 전합니다. 승무원들은 장비를 시험했고 8월 31일 밸러스트 탱크에 물을 채워 두께 3피트의 유빙 밑으로 배를 밀어 넣었으며, 항해가 끝나기 전에 몇 차례 더 잠항했습니다. 이 전시는 일부 승무원이 잠항타가 고의로 부러졌다고 믿었다고도 적고 있습니다.",
+  "hubert-wilkins.interpretation.moment.2":
+    "남은 가능성에 맞춰 항해 계획을 다시 짠 것은 차질 앞에서의 적응력과 어긋나지 않습니다. 다만 즉흥적인 대응 가운데 어디까지가 그 자신의 몫이고 어디까지가 선장의 몫인지는 자료에서 드러나지 않습니다.",
+  "hubert-wilkins.turning_point.1":
+    "1913년 9월 캐나다 북극 탐험대의 윌킨스는 스테판손과 함께 순록 사냥을 나가 육지에 있었고, 그동안 얼음에 갇힌 카를루크호가 떠내려가 결국 부서졌습니다. 열한 명이 목숨을 잃었습니다. 사진 장비 대부분이 배와 함께 사라졌지만 그는 탐험에 남았고, 1년을 예상했던 일정은 약 3년으로 늘어났으며 그 사이 스테판손과 이누이트에게서 개썰매 이동과 현지 자원으로 살아가는 법을 배웠습니다. 맥코넬은 그가 이때부터 비행기를 북극 탐험에 더 나은 수단으로 보기 시작했다고 씁니다.",
+  "hubert-wilkins.interpretation.turning_point.1":
+    "장비를 잃고도 탐험을 이어 가며 현지의 이동 방식을 배운 것은 적응력과 어긋나지 않으며, 얼음 위에서 보낸 세월은 이후 항공기를 쓴 탐험으로 이어진 그의 경력에 영향을 준 것으로 보입니다. 다만 그 자신의 몫이 얼마나 컸는지는 자료에 나타나 있지 않습니다.",
+  "isaac-singer.achievement.1":
+    "싱어는 1850~51년 보스턴의 오슨 펠프스 작업장에서 재봉틀을 새로 설계했습니다. 천을 올려놓는 수평 테이블, 스프링식 누름발, 돌출된 팔로 구동되는 수직 바늘을 갖춰 천을 끊김 없이, 곡선으로도 박을 수 있게 했습니다. 이 기계로 1851년 8월 12일 미국 특허 8,294호를 받았고, 그의 기본 구조는 발판을 더해 이후 재봉틀의 표준이 되었습니다.",
+  "isaac-singer.achievement.2":
+    "싱어는 동업자 에드워드 클라크와 함께 I. M. 싱어 사를 1860년까지 세계 최대의 재봉틀 제조사로 키웠습니다. 대부분의 자료는 재봉틀을 가정에 보급한 할부 판매와 쇼룸 판매를 클라크의 공으로 돌리며, 회사는 재봉틀 소송을 끝낸 1856년 특허 풀에도 참여했습니다. 회사는 1863년 싱어 제조회사로 법인화되었고 싱어는 주식의 40퍼센트를 보유했습니다.",
+  "isaac-singer.moment.1":
+    "싱어는 훗날 특허 소송에서 증언했고, 스미소니언 학예사 그레이스 로저스 쿠퍼가 이를 인용했습니다. 후원자 조지 지버가 내놓은 40달러로 밤낮없이 일하며 11일 만에 첫 재봉틀 시제품을 만들었다고 합니다. 첫 저녁 시험에서 기계가 박히지 않아 일꾼들이 떠났지만 그는 자정까지 계속 시도했고, 실의 장력을 맞추지 않았다는 것을 알아낸 뒤 이튿날 오후 기계를 완성했습니다.",
+  "isaac-singer.interpretation.moment.1":
+    "이 이야기는 본인의 진술이므로 그가 이 일을 어떻게 설명했는지로 읽는 것이 적절하며, 자원 활용력과 끈기에서의 보통 수준의 점수와 부합할 뿐 이를 입증하는 것은 아닙니다.",
+  "isaac-singer.moment.2":
+    "1853년 엘리아스 하우가 특허 침해로 소송을 걸자 싱어와 지버는 맞서기로 하고 변호사 에드워드 클라크를 끌어들였습니다. 소송이 진행되는 동안 법원 명령으로 여러 업체가 싱어 재봉틀을 판매하지 못하게 되고 경쟁사들이 하우의 라이선스를 사들이자, 싱어와 클라크는 1854년 7월 1일 하우에게 1만 5천 달러를 지급하고 라이선스를 받았습니다. 1856년 회사는 재봉틀 소송을 끝낸 특허 풀에 참여했습니다.",
+  "isaac-singer.interpretation.moment.2":
+    "자료들은 합의를 클라크와의 공동 결정으로 설명하고 특허 풀은 올랜도 포터의 공으로 돌리므로, 이 일화는 싱어가 갈등을 어떻게 다뤘는지에 대한 확정적 그림이라기보다 완만한 적응력 경향과 부합하는 정도입니다.",
+  "isaac-singer.turning_point.1":
+    "싱어는 1850년 인쇄용 목활자를 깎는 기계를 팔기 위해 보스턴에 왔고, 이전 시제품은 보일러 폭발로 파손된 상태였습니다. 이 조각기는 관심을 끌지 못했지만 그를 레로·블로젯 재봉틀을 만들던 오슨 펠프스의 작업장으로 이끌었고, 몇 달 만에 새 재봉틀과 특허 출원이 나왔습니다. 이전의 발명품과 극단은 그에게 지속적인 수입을 가져다주지 못했는데, 1851년 세운 재봉틀 회사가 이를 바꿔 놓았습니다.",
+  "isaac-singer.interpretation.turning_point.1":
+    "쿠퍼는 그가 개량과 보상의 기회가 있는 기계로 재봉틀에 눈을 돌렸다고 하지만 다른 전기는 그가 처음에는 그 일을 거절했다고 하므로, 이 일화는 완만한 기회 포착 성향과 부합하되 누가 먼저 제안했는지는 자료마다 다릅니다.",
+  "katherine-mansfield.achievement.1":
+    "맨스필드는 영어권 현대 단편소설의 형식을 빚는 데 기여했다. 그녀의 단편은 전통적인 줄거리 대신 하나의 의미 있는 순간을 압축되고 절제된 문체로 그려냈으며, 34세에 세상을 떠났을 때 이미 이 장르의 대가로 평가받고 있었다.",
+  "katherine-mansfield.achievement.2":
+    "대표 소설집 『행복』(1920)과 『가든 파티』(1922)에는 「행복」, 「미스 브릴」, 「늦은 대령의 딸들」, 「해변에서」, 「가든 파티」 등이 실려 있다. 가장 뛰어난 작품 가운데 상당수는 뉴질랜드에서 보낸 어린 시절의 기억에서 나왔다.",
+  "katherine-mansfield.achievement.3":
+    "미완성 초고 「알로에」를 고쳐 쓴 중편 「서곡」은 버지니아 울프와 레너드 울프 부부가 세운 호가스 출판사가 처음으로 청탁한 작품으로, 1918년에 출간되었다.",
+  "katherine-mansfield.moment.1":
+    "1917년 맨스필드는 미완성 원고 「알로에」를 울프 부부의 새 출판사 호가스 프레스에 낼 「서곡」으로 고쳐 썼다. 필사를 직접 하지 않고 타자수에게 깨끗한 원고를 맡겼으며, 이후 울프 부부가 싫어한 J. D. 퍼거슨의 목판화 표지를 고집하려 했고 머리에게 협상을 맡겨 타협에 이르렀다.",
+  "katherine-mansfield.interpretation.moment.1":
+    "이 일화는 퇴고와 완성된 책의 모양에 대한 관심을 보여 주며, 그녀의 작업 방식을 장인적으로 보는 이 프로필의 해석과 일치한다.",
+  "katherine-mansfield.moment.2":
+    "1915년 남동생 레슬리가 전사한 뒤 맨스필드는 두 사람의 뉴질랜드 유년 시절을 글로 쓰기로 결심했다. 프랑스 남부 방돌에서 「알로에」를 더 담담하고 감상을 덜어낸 문체로 고쳐 썼고, 오랜 기간 해외에 머물던 1920~21년에 대표작 상당수를 써냈다.",
+  "katherine-mansfield.interpretation.moment.2":
+    "이는 힘든 여건 속에서도 작업을 이어 간 끈기와 일치하지만, 자료들은 그녀가 장편소설을 끝내 완성하지 못했다는 점도 함께 전한다.",
+  "katherine-mansfield.turning_point.1":
+    "1908년, 19세의 맨스필드는 아버지를 설득해 생활비를 받기로 하고 웰링턴을 떠나 런던으로 갔다. 런던의 퀸스 칼리지에서 3년을 보낸 뒤 뉴질랜드에 머무는 삶을 답답하게 여겼고, 이후 영국과 유럽 대륙에서 작가로서의 경력을 쌓았다.",
+  "katherine-mansfield.interpretation.turning_point.1":
+    "이 이주로 그녀는 런던의 문학계에 접근할 수 있었으며 독립에 대한 강한 욕구와 일치하지만, 평생 아버지의 생활비에 의존했다는 점은 함께 고려해야 한다.",
+  "lesya-ukrainka.achievement.1":
+    "레샤 우크라인카는 1901년의 「사로잡힌 여인」(오데르쥐마)을 시작으로 우크라이나 문학에서 극시라는 장르를 발전시켰다. 「카산드라」, 「석상의 손님」, 「보야르 부인」 등 그의 극시는 고전, 성서, 우크라이나의 소재를 철학적 대화로 풀어냈으며 그의 가장 큰 유산으로 평가된다.",
+  "lesya-ukrainka.achievement.2":
+    "대표작 「숲속의 노래」(1911)는 볼히니아 민간 신앙을 바탕으로 숲의 정령 마브카와 인간 피리 연주자 루카시의 이야기를 그린다. 백과사전은 이 작품을 숭고한 이상과 일상 사이의 갈등을 다룬 신낭만주의 희곡으로 설명한다.",
+  "lesya-ukrainka.achievement.3":
+    "또한 서정시집 「노래의 날개 위에서」(1893), 「생각과 꿈」(1899), 「메아리」(1902)를 펴냈고, 고골, 미츠키에비치, 하이네, 위고, 호메로스를 우크라이나어로 옮겼다. 러시아 제국에서 우크라이나어 출판이 제한되었기 때문에 그의 첫 책들은 서부 우크라이나에서 인쇄되어 키이우로 들여왔다.",
+  "lesya-ukrainka.moment.1":
+    "출판사 약전과 대중 전기에 따르면 1888년 열일곱 살의 레샤는 오빠 미하일로와 함께 키이우에서 우크라이나 문학을 진흥하고 세계 고전을 우크라이나어로 옮기기 위한 문학 모임 '플레야다'를 조직했다. 백과사전 항목은 그가 이 모임에 참여했다고만 적고 있다.",
+  "lesya-ukrainka.interpretation.moment.1":
+    "자료마다 그가 모임을 만들었는지 참여했는지 다르게 전하므로, 이 일화는 이 프로필의 자발적 주도성 해석과 약하게만 부합한다.",
+  "lesya-ukrainka.moment.2":
+    "1903년 레샤는 화가 이반 트루시가 자신의 동의 없이 개인 수집가에게 판 초상화 복제본을 폐기하고 셰우첸코 학술회가 보관한 그림만 남기라고 요구했다. 라디오 스보보다가 인용한 박물관장의 설명에 따르면, 그가 거절하자 레샤는 그와의 교류를 끊었다.",
+  "lesya-ukrainka.interpretation.moment.2":
+    "이 일화는 요구를 밀어붙이고 우정이 깨지는 것을 감수한 태도와 부합하지만, 박물관 쪽의 한 가지 설명으로 전해지는 단일 사건이다.",
+  "lesya-ukrainka.turning_point.1":
+    "1901년 그는 「오데르쥐마」를 썼고, 백과사전은 이 작품을 그의 첫 극시로 꼽는다. 이후 그의 중심 작업은 서정시집에서 그를 가장 널리 알린 극시로 옮겨 갔다.",
+  "lesya-ukrainka.interpretation.turning_point.1":
+    "이는 스스로 만들어 낸 형식으로의 이동과 부합하지만, 자료는 변화의 과정보다 장르에 대한 평가를 주로 전한다.",
+  "maria-orosa.achievement.1":
+    "오로사는 시애틀에서 약학·식품화학을 공부한 뒤 1922년 필리핀으로 돌아와 과학국 식품보존부 설립을 도왔고, 현지 과일·채소와 전통 요리를 통조림으로 만들고 보존하는 방법을 연구했다. 당시 필리핀의 통조림은 거의 전부 수입품이었는데, 1925년 마닐라 카니발에는 망고를 통째로 담은 것을 비롯한 현지 과일 통조림이 전시되었다.",
+  "maria-orosa.achievement.2":
+    "오로사는 현지 작물과 부산물로 여러 식품을 개발했는데, 주스를 만드는 가루 칼라만시, 카사바·바나나 가루, 파인애플 식초, 티아민 결핍에 쓰인 쌀겨 제품 다락(darak) 등이 그 예다. 바나나 케첩의 창안자로도 널리 알려져 있지만, 유니버설 푸드 코퍼레이션(UFC)은 1938년부터 바나나 케첩을 연구한 마그달로 V. 프란시스코를 자사 제품의 창안자로 내세운다.",
+  "maria-orosa.achievement.3":
+    "오로사는 식품과학을 가정에까지 가져갔다. 4-H 방식의 클럽과 가정 보급 사업을 조직해 훈련받은 시연 요원들이 여성들에게 식단 계획과 현지 농산물 보존법을 가르치게 했고, 1941년에는 537개 회원 클럽을 둔 필리핀주부협회(Homemakers Association of the Philippines)를 설립했다. 또 전통 질그릇 팔라요크를 바탕으로 전기 없이 빵을 구울 수 있는 오븐도 고안했다.",
+  "maria-orosa.moment.1":
+    "시애틀에서 학위를 마친 오로사는 워싱턴주로부터 화학자 자리를 제안받았다. 미국 국립공원관리청과 대중 전기에 따르면 그녀는 이를 거절하고 1922년 필리핀으로 돌아와 교직과 과학국 일을 시작했다.",
+  "maria-orosa.interpretation.moment.1":
+    "이 일화는 영향력 동기 점수와 부합한다. 귀국 결정은 이후 그녀가 지방 가정에 식품 보존 기술을 보급한 활동과 어울리지만, 자료에는 본인이 밝힌 이유가 남아 있지 않다.",
+  "maria-orosa.turning_point.1":
+    "1928년 정부는 오로사를 식품 가공과 통조림 기술 연수를 위해 해외로 보냈고, 1929년 귀국한 뒤 그녀는 과학국 가정경제부 책임자가 되었다. 국립역사연구소는 이 시기를 전국 순회 활동과 이후 주부협회 설립으로 이어진 때로 설명하며, 식품보존부와 가정경제부 책임자였던 정확한 시기는 자료마다 다르다.",
+  "maria-orosa.interpretation.turning_point.1":
+    "실험실 보존 연구에서 가정 대상의 넓은 사업으로 옮겨 간 것은 주도적 행동 점수와 부합하지만, 임명은 정부가 한 것이며 자료는 그녀 개인의 주도권과 기관의 몫을 구분해 주지 않는다.",
+  "mary-cassatt.achievement.1":
+    "카사트는 프랑스 인상파와 함께 전시한 유일한 미국인 화가였다. 에드가 드가의 초청으로 1879년부터 1886년 사이 인상파 전시회 가운데 네 차례에 참여했으며, 이 운동을 대표하는 인물화가 중 한 사람으로 자리 잡았다.",
+  "mary-cassatt.achievement.2":
+    "카사트의 회화, 파스텔, 판화는 여성과 아이들, 특히 아기를 안은 어머니와 일상의 일을 하는 여성들에 집중했다. 인상파의 빛에 일본 판화에서 받아들인 평면적 원근법과 힘 있는 선을 결합했으며, 「파란 안락의자의 소녀」와 1890-91년의 컬러 판화 연작 「열 점 연작」이 대표작으로 꼽힌다.",
+  "mary-cassatt.achievement.3":
+    "카사트는 루이진과 H. O. 해브마이어 부부를 비롯한 부유한 미국인 친구들에게 드가, 마네, 옛 거장의 작품 구입을 조언했고, 인상파 미술이 미국의 컬렉션에 자리 잡는 데 기여했다. 해브마이어 컬렉션은 1929년 메트로폴리탄 미술관에 기증되었다.",
+  "mary-cassatt.moment.1":
+    "1904년 펜실베이니아 미술아카데미는 카사트에게 그림 「애무」로 리핀콧 상을 수여하려 했다. 한 인명 사전의 서술에 따르면 그녀는 심사도, 메달도, 상도 받지 않는다는 원칙을 지키겠다며 이를 거절하고 상금을 젊은 화가에게 주라고 제안했으며, 시카고 미술관의 해리스 상도 같은 방식으로 거절해 학생에게 돌아갔다.",
+  "mary-cassatt.interpretation.moment.1":
+    "이 거절은 심사나 외부의 승인에서 벗어나 작업하려는 이 프로필의 성향과 일치하지만, 그녀는 10년 뒤 같은 아카데미의 금메달은 받아들였다.",
+  "mary-cassatt.moment.2":
+    "1890년 카사트는 드가와 함께 에콜 데 보자르에서 열린 대규모 일본 목판화 전시를 관람한 뒤, 동판 에칭과 아쿠아틴트로 파리 여성들의 일상을 담은 열 점의 컬러 판화 연작을 만들기로 했다. 2024년 전시 리뷰에 따르면 그녀는 전문 인쇄공을 고용했지만 까다로운 작업의 상당 부분을 직접 해냈다.",
+  "mary-cassatt.interpretation.moment.2":
+    "이 일화는 까다로운 기법을 맡기지 않고 반복된 작업으로 익혀 나가는 성향과 일치한다.",
+  "mary-cassatt.turning_point.1":
+    "1877년 드가는 살롱 출품작이 거부되거나 심사위원의 취향에 맞춰 수정되던 카사트에게 인상파 합류를 제안했다. 그녀는 이후 심사위원의 의견에 구애받지 않고 독립적으로 작업할 수 있게 되어 기쁘게 받아들였다고 회고했다. 이후 살롱 출품을 그만두고 1879년부터 인상파 전시회에 참여했다.",
+  "mary-cassatt.interpretation.turning_point.1":
+    "이 합류는 그녀의 위상과 작업 조건을 바꾸었으며, 훗날 본인의 회고에 나타나듯 공식적 승인에서 벗어나려는 성향과 일치한다.",
+  "max-weber.achievement.1":
+    "베버는 1904~05년 『사회과학·사회정책 아카이브』에 발표한 두 편의 논문에서, 금욕적 프로테스탄티즘의 소명 중심 노동 윤리가 근대 합리적 자본주의의 '정신'을 형성하는 데 기여했다고 논증했다. 1906년에는 북미의 교회와 종파를 다룬 글로 이를 이어 갔다. 이 논제는 금욕적 프로테스탄티즘의 문화적 의미를 둘러싼 오랜 논쟁을 불러일으켰고, 지금도 그의 대표적 업적 가운데 하나로 꼽힌다.",
+  "max-weber.achievement.2":
+    "1911년경부터 그는 세계 종교의 경제윤리를 비교하는 연구를 시작해 유교, 힌두교, 불교, 고대 유대교에 관한 연구를 완성했다. 『사회경제학 개요』에 실을 그의 원고는 사후에 『경제와 사회』로 출간되었다. 이 책은 사회적 행위 이론과 정당한 지배의 유형을 바탕으로 한 이해사회학의 틀을 제시했으며, 근대 사회과학의 창시자로서 그의 위상의 핵심을 이룬다.",
+  "max-weber.achievement.3":
+    "1904년의 '객관성' 논문에서 그는 개념적으로 엄밀하고 가치중립적인 사회과학 방법을 제시했으며, 에드가 야페, 베르너 좀바르트와 함께 『아카이브』의 편집을 맡아 이 작업의 지면으로 삼았다. 1909년에는 독일사회학회의 창립에 참여했는데, 학회의 첫 정관은 순수하게 학문적인 연구로 활동을 한정하고 윤리적, 종교적, 정치적, 미학적 목적의 대변을 배제했다.",
+  "max-weber.moment.1":
+    "호손이 라트카우의 전기를 논평한 글에 따르면, 베버는 1905년 러시아 혁명 이후 러시아어를 배우고 러시아 신문을 읽었으며, 하이델베르크로 피신해 온 사정에 밝은 러시아 자유주의자와 이야기를 나누었다. 이어서 나온 러시아 혁명 연구는 독일 국가 인명사전에 수록되어 있다.",
+  "max-weber.interpretation.moment.1":
+    "이는 프로필의 호기심 항목과 부합한다. 사건을 직접 따라가기 위해 스스로 언어를 익힌 노력이지만, 이 서술은 한 논평자가 전기를 읽고 전한 내용에 의존한다.",
+  "max-weber.moment.2":
+    "호손에 따르면, 베버가 출판인 파울 지벡의 정치경제학 편람을 맡기로 하자 필자 45명이 하나둘 떠났고 그는 이 기획을 스스로 떠안게 되었다. 그가 이 편람을 위해 쓴 원고는 사후에 『경제와 사회』로 출간되었다.",
+  "max-weber.interpretation.moment.2":
+    "이 일화는 프로필의 끈기 항목과 부합하지만, 단일 논평에만 보고되어 있고 결과만으로는 그가 어떻게 계속하기로 결정했는지 알 수 없다.",
+  "max-weber.turning_point.1":
+    "1903년 베버는 본인의 요청으로 하이델베르크 대학 교수직에서 물러나 명예교수가 되었고, 이후 사재 수입으로 생활하는 재야 학자로 지냈다. 1904년에는 미국을 여행하고 야페, 좀바르트와 함께 『아카이브』의 편집을 맡았으며, 그가 기억되는 대표 저작 가운데 처음인 『프로테스탄티즘의 윤리』 논문 집필을 시작했다.",
+  "max-weber.interpretation.turning_point.1":
+    "교수에서 독립 학자이자 편집자로의 전환은, 그가 기존 기반을 기다리지 않고 자신의 작업을 위한 새 제도적 기반을 만들었다는 점에서 프로필의 주도적 행동력 항목과 부합하지만, 그 선택이 얼마나 의도적이었는지는 출처가 말해 주지 않는다.",
+  "nishi-amane.achievement.1":
+    "니시 아마네는 철학(哲學, 데쓰가쿠)이라는 말을 만들어 늦어도 1867년까지 이 용어로 정했고, 1874년의 『백일신론』에서 처음 활자로 썼다. 서양 철학이 신유학 용어와 혼동되지 않도록 유학의 어휘를 일부러 피했으며, 이성(理性), 관념(觀念), 주체(主體), 객관(客觀) 같은 번역어도 그가 처음 옮긴 것으로 평가되고 그중 상당수가 지금도 쓰인다.",
+  "nishi-amane.achievement.2":
+    "1863~65년 라이덴에서 공부한 그는 일본에 서양 철학을 소개한 초기의 대표적 인물로, 강의를 하고 학문 전반을 개관한 『백학연환』과 일본 최초의 논리학 입문서 『치지계몽』(1874)을 썼다. 또 J. S. 밀의 『공리주의』와 조지프 헤이븐의 『심리철학』을 번역했다. 『철학 백과사전』은 그를 일본 서양 철학의 선구자로 평가하면서도 본질적으로는 서양 철학의 해설자에 머물렀다고 판단한다.",
+  "nishi-amane.achievement.3":
+    "그는 1873년에 결성되어 기관지로 서양 사상을 퍼뜨린 메이지 계몽 단체 메이로쿠샤의 중심 회원이었고, 그 후신이자 오늘날 일본학사원의 전신인 도쿄학사회원(1879)에서도 활동하며 회장을 맡았다. 『철학 백과사전』은 그가 도쿄학사회원 회장을 여러 차례 지냈다고 기록한다.",
+  "nishi-amane.moment.1":
+    "니시가 처음 만든 철학의 번역어는 '희철학(希哲學, 기테쓰가쿠)'으로, 1861~62년의 글에 나타난다. 몇 해 지나지 않아 그는 이를 버리고 철학(哲學)으로 옮겼고, 가나야마는 그가 이 새 학문에 리가쿠(理學) 같은 유학 용어도 쓰기를 거부했다고 전한다. 그와 함께 앞의 용어를 만들었던 것으로 보이는 친구 쓰다 마미치는 1874년까지도 기테쓰가쿠를 계속 썼다.",
+  "nishi-amane.interpretation.moment.1":
+    "자신이 처음 만든 용어를 몇 해 안에 바꾼 일은 이 프로필의 신념 갱신 점수와 부합하지만, 출처들은 바꾼 사실을 전할 뿐 그 이유까지 밝히지는 않는다.",
+  "nishi-amane.moment.2":
+    "1873년 니시는 생리학과 심리학을 하나로 잇고 실증 철학을 완성하려는 글 「생성발온(生性發蘊)」을 쓰기 시작했다. 그는 이를 끝맺지 못했고, 1882년에는 두 분야를 통합할 능력이 자신에게 없다고 적었으며, 다카야나기에 따르면 이후 죽을 때까지 다시 시도하지 않았다.",
+  "nishi-amane.interpretation.moment.2":
+    "하나의 통합 체계를 세우려 한 시도와 그것이 이루어지지 않았음을 스스로 인정한 점은 이 프로필의 체계적 추상화 점수 및 신념 갱신 점수와 부합하지만, 실패 이유에 대한 다카야나기의 설명은 한 연구자의 해석이다.",
+  "nishi-amane.turning_point.1":
+    "1862년 4월 막부는 니시와 쓰다 마미치를 네덜란드 유학생으로 뽑았고, 그는 1863년부터 라이덴에서 시몬 피서링 아래 법학·경제학·정치학을 공부했다. 『철학 백과사전』은 그가 네덜란드에서 철학에 대한 관심이 되살아나 콩트의 실증주의, 밀의 공리주의, 칸트를 접했다고 전하며, 그는 1865년 12월 1일 일본으로 돌아왔다.",
+  "nishi-amane.interpretation.turning_point.1":
+    "맡겨진 법학 공부가 철학에 대한 지속적 관심으로 이어진 일은 이 프로필의 호기심 점수와 부합하지만, 출처들은 이 요약 외에 그가 무엇을 왜 읽었는지는 전하지 않는다.",
+  "otto-sverdrup.achievement.1":
+    "스베르드루프는 캐나다 북극권을 향한 두 번째 프람호 탐험(1898~1902)을 이끌었습니다. 그린란드 북부로 가려던 항로가 얼음에 막히자 배를 엘즈미어 섬 서쪽으로 돌렸고, 탐험대는 썰매로 누비며 액셀 하이베르 섬과 아문 링네스 섬, 엘레프 링네스 섬을 비롯해 알려지지 않았던 약 15만~20만 제곱킬로미터를 측량했습니다. 이 섬들은 지금 스베르드루프 제도로 불리며, 그의 지도는 캐나다 당국이 1960년대까지 사용했습니다.",
+  "otto-sverdrup.achievement.2":
+    "스베르드루프는 난센의 첫 탐험(1893~96), 곧 극지 해빙과 함께 표류한 항해에서 프람호의 선장이었습니다. 그는 콜린 아처의 조선소에서 배가 지어지는 과정을 감독했고, 1895년 3월 난센과 요한센이 북쪽으로 떠난 뒤 1896년 8월 프람호가 스발바르 북쪽 얼음 밖으로 나올 때까지 배와 선원을 혼자 책임졌습니다. 탐험을 이끈 사람은 난센이었고, 배를 고향으로 데려온 사람은 스베르드루프였습니다.",
+  "otto-sverdrup.achievement.3":
+    "1888년 스베르드루프는 스키로 동쪽에서 서쪽으로 그린란드 내륙 빙원을 처음 횡단한 난센 탐험대 여섯 명 가운데 한 사람이었습니다. 그는 편지로 참가를 자원했고, 서해안에 닿은 뒤에는 자신과 난센이 고트호프(지금의 누크)까지 가는 데 쓴 작은 천막천 보트를 만들었습니다.",
+  "otto-sverdrup.moment.1":
+    "1898년과 1899년 여름 두 번 모두 스미스 해협과 케인 해분의 얼음이 프람호의 그린란드 북부행을 막았습니다. 스베르드루프는 그 계획을 접고 배를 남쪽과 서쪽의 존스 해협으로 돌려 엘즈미어 섬 서쪽의 미지의 지역을 탐사했습니다. 프람 박물관은 그의 탐험대가 로버트 피어리의 그린란드 탐험대를 만났을 때 탐험 경쟁에는 관심이 없었다고 덧붙입니다.",
+  "otto-sverdrup.interpretation.moment.1":
+    "서쪽으로의 방향 전환은 이 프로필의 평균 이상인 적응력 점수와 부합하지만, 이 기록들은 하나의 탐험 기록에 기반하며 새 목표는 얼음의 압박 속에서 정해졌다는 점을 감안해야 합니다.",
+  "otto-sverdrup.moment.2":
+    "1914년 59세의 스베르드루프는 러시아 정부의 요청으로 카라 해에서 실종된 러시아 탐험대 세 팀을 찾는 선박 에클립스호를 지휘했습니다. 그는 세 팀을 하나도 찾지 못했지만 러시아 해군 쇄빙선 두 척이 첼류스킨 곶 근처 얼음에 갇혀 있다는 것을 알게 되었고, 1915년 4월 에클립스호에서 타이미르호까지 거의 6주에 걸친 개썰매 여행을 했으며, 그 뒤 러시아 승무원 39명이 그의 배로 옮겨졌습니다.",
+  "otto-sverdrup.interpretation.moment.2":
+    "대부분의 경력이 끝나는 나이에 한 썰매 여행은 끈기 있고 직접 나서는 업무 방식과 부합하지만, 자료는 그가 무엇을 했는지만 말할 뿐 왜 그랬는지는 말하지 않습니다.",
+  "otto-sverdrup.turning_point.1":
+    "1895년 2월 25일 난센은 요한센과 함께 개썰매로 북극점 도달을 시도하러 배를 떠나기 전, 프람호의 지휘권을 스베르드루프에게 넘기는 지시서를 썼습니다. 난센은 어떤 위급한 상황에서도 스베르드루프가 가장 잘 알 것이라고 확신한다고 쓰고, 배나 과학 연구를 지키기보다 선원들을 안전하게 데려오는 것을 우선하라고 당부했습니다. 1895년 3월부터 1896년 8월까지 스베르드루프가 단독으로 지휘했고, 프람호가 귀환한 뒤에는 자신의 탐험을 계획하기 시작했습니다.",
+  "otto-sverdrup.interpretation.turning_point.1":
+    "이 인수인계로 그는 난센의 부관에서 선단 전체를 책임지는 사람이 되었습니다. 이는 보통 수준의 리더십 욕구 점수와 부합하지만, 지휘권은 그에게 맡겨진 것이며 자료들은 그를 조용한 지도자로 묘사합니다.",
+  "ronald-ross.achievement.1":
+    "로널드 로스는 1895년부터 1898년까지 인도에서 모기가 말라리아를 옮긴다는 패트릭 맨슨의 생각을 검증하는 연구를 이어 갔고, 1897년 8월 20일 얼룩날개 모기의 위벽에서 색소를 띤 낭을 관찰했다. 이어 새의 말라리아 기생충이 모기의 침샘을 포함해 모기 안에서 거치는 생활사를 추적했고, 모기가 감염된 새에서 건강한 새로 병원체를 옮길 수 있음을 보였다. 사람 말라리아의 생활사는 1898년 이탈리아 연구자들이 밝혀냈으며, 로스는 말라리아 연구로 1902년 노벨 생리의학상을 받았다.",
+  "ronald-ross.achievement.2":
+    "로스는 모기에 관한 발견을 말라리아가 퍼지는 방식을 설명하는 정량적 이론으로 발전시켰다. 1904년에는 실패한 미안미르(Mian-Mir) 유충 방제 시험을 수학적으로 비판하는 글을 냈고, 1908년에는 말라리아 전파 모형을, 1911년에는 미분방정식으로 쓴 두 번째 모형을 발표했다. 이 분야의 역사 연구는 모기를 모두 없애지 않아도 모기 밀도가 임계 수준 아래로 내려가면 전파가 이어지지 않는다는 점을 그가 보였다고 평가하며, 그의 모형을 이후 로스-맥도널드 이론의 출발점으로 설명한다.",
+  "ronald-ross.achievement.3":
+    "로스는 1899년 인도를 떠난 뒤 새로 생긴 리버풀 열대의학대학원에 합류해 나중에 열대의학 교수직을 맡았고, 서아프리카, 수에즈 운하 지역, 모리셔스, 그리스, 키프로스 등 여러 곳에서 모기 방제의 필요성을 알렸다. 그는 『말라리아의 예방』(1910)을 썼고, 제1차 세계대전 중에는 육군성의 말라리아 자문역을 맡았으며, 1926년부터는 그의 업적을 기리는 이들이 세운 로스 연구소 및 열대병 병원의 책임자로 일했다.",
+  "ronald-ross.moment.1":
+    "1904년 미안미르에서 진행된 대규모 유충 방제 시험이 실패로 끝나자, 로스는 성충 모기가 처리 구역 주변으로 퍼져 나가는 양상을 수학적으로 분석한 글을 발표했다. 그는 말라리아 예방의 큰 원리를 보이려면 '다소 수학적인 접근'이 필요하고 실험은 아직 알려지지 않은 상수를 얻는 데만 필요하다고 주장했으며, 너무 짧거나 너무 좁은 구역에서 한 시험으로는 유충 방제가 효과가 있는지 판단할 수 없다고 보았다.",
+  "ronald-ross.interpretation.moment.1":
+    "이 일화는 경험적 결과를 받아들이기 전에 문제를 정량적으로 따져 보는 성향과 부합한다. 다만 그의 곤충학적 접근을 '경험적이고 직관적'이라고 평한 당대 분야 역사가의 견해도 있어, 이런 경향이 그의 연구 전반에서 일관되었다고 보기는 어렵다.",
+  "ronald-ross.moment.2":
+    "1900년 말부터 로스는 말라리아 문제를 누가 풀었는지를 두고 조반니 바티스타 그라시를 중심으로 한 이탈리아 연구자들에게 공개적으로 맞섰고, 한 이탈리아 역사가의 서술에 따르면 노트의 날짜를 근거로 그라시에게 사기 혐의까지 제기했다. 1923년의 『회고록』에서는 이탈리아 연구진을 '해적'이라 부르며 근본적으로 중요한 것은 아무것도 더하지 못했다고 적었다. 스웨덴 위원회는 1902년 상이 로스 한 사람에게 돌아가기 전에 로베르트 코흐에게 중재를 맡겼고, 그 서술이 인용한 역사가는 이 논쟁을 말라리아 연구사에서 '가장 보기 좋지 않은 일화 중 하나'라고 평했다.",
+  "ronald-ross.interpretation.moment.2":
+    "이 논쟁은 관계에 부담이 되더라도 다툼이 있는 주장을 공개적으로 밀어붙이는 성향과 부합하며, 과학자 인명사전이 그의 '호전적인 기질'을 언급한 것과도 맞닿아 있다. 다만 그의 태도를 보여 주는 근거는 대부분 본인의 회고록과 그라시에게 우호적인 역사가의 서술이므로, 한쪽의 설명으로 읽어야 한다.",
+  "ronald-ross.turning_point.1":
+    "로스는 상관들이 말라리아 연구에서 거듭 그를 다른 임무로 돌린 끝에 1899년 인도 의무대(Indian Medical Service)를 떠났고, 그의 실험 연구도 대체로 거기서 끝났다. 그는 새로 생긴 리버풀 열대의학대학원에 자리를 잡았고, 이후 경력은 실험실의 발견보다 말라리아 예방, 교육, 공중보건 활동에 주로 쓰였다.",
+  "ronald-ross.interpretation.turning_point.1":
+    "이 이직은 연구를 이어 갈 수 있는 자리를 스스로 찾아 나서는 모습과 부합한다. 다만 실험 연구를 뒤로하는 일을 그가 어떻게 저울질했는지는 자료가 말해 주지 않는다.",
+  "rosalia-de-castro.achievement.1":
+    "로살리아 데 카스트로는 1863년 갈리시아어로 쓴 첫 시집 『갈리시아의 노래』를 펴냈다. 갈리시아의 민간 후렴구를 바탕으로 한 이 시집은 갈리시아 문화 부흥의 도화선이자, 오랫동안 구전에 머물던 언어의 문학적 위상을 바꾼 전환점으로 평가받는다.",
+  "rosalia-de-castro.achievement.2":
+    "이후 시집인 갈리시아어 『새 잎사귀들』(1880)과 카스티야어 『사르 강가에서』(1884)는 그 세기 스페인 시의 주요 작품으로 꼽힌다. 앞의 시집은 갈리시아어로는 다루기 어렵다고 여겨지던 주관적이고 형이상학적인 주제를 담았고, 뒤의 시집은 운율 실험으로 호평받았으며 이후 98세대 작가들의 찬사를 받았다.",
+  "rosalia-de-castro.achievement.3":
+    "그녀는 소설과 산문도 남겼는데, 『바다의 딸』(1859), 풍자소설 『푸른 장화의 신사』(1867), 그리고 19세기 스페인에서 여성 작가로 산다는 것이 어떤 일인지 직접적으로 들려주는 글 「여성 문인들」이 그 예다.",
+  "rosalia-de-castro.moment.1":
+    "1864년 4월 6일 시인 에두아르도 폰달에게 보낸 편지에서 로살리아는 자신이 쓴 어떤 것도 마음에 들지 않아 최근의 시도를 찢어 버렸다고 적었고, 이듬해 한 글에서도 비슷한 말을 했다. 1885년 세상을 떠나기 얼마 전에는 딸들에게 원고를 태워 달라고 부탁했고, 딸들은 남편이 집을 비운 사이 그의 뜻과 달리 원고를 태웠다.",
+  "rosalia-de-castro.interpretation.moment.1":
+    "이는 자신의 글에 엄격한 기준을 적용했다는 해석과 맞아떨어지지만, 자료들은 이를 겸손과 자기 작품에 대한 불신으로 설명하고 있어 이 증거만으로 두 해석을 가르기는 어렵다.",
+  "rosalia-de-castro.moment.2":
+    "산티아고에서 젊은 시절을 보낸 로살리아는 청년 문예회(리세오 데 라 후벤투드)의 아마추어 공연에 배우로 올랐다. 무대 감독이 그녀의 이름을 적어 넣은 희극 열두 편 합본이 지금도 남아 있다. 한 연구자는 당시 산티아고 사회가 소녀가 대중 앞에서 공연하는 것을 받아들이지 않았고, 앞서 있던 문예 모임은 여성들이 낭송단에 들어가기를 거부해 문을 닫았다고 지적한다.",
+  "rosalia-de-castro.interpretation.moment.2":
+    "이는 여성에게 거는 지역 사회의 기대를 거스르는 태도가 일찍부터 있었다는 해석과 어울리지만, 자료들은 그녀가 그런 못마땅한 시선을 어떻게 받아들였는지는 전하지 않는다.",
+  "rosalia-de-castro.turning_point.1":
+    "『갈리시아의 노래』는 1863년 그녀 자신의 이름으로 출간되었다. 『세계사 속 여성』 항목은 그녀가 출간을 망설여 처음에는 남편의 이름으로 내려 했다고 전하고, 또 다른 게일 백과 항목은 남편의 권유 덕분에 출간하게 되었다고 적고 있다. 이 시집은 그녀에게 폭넓은 명성을 안겨 주었고, 그녀는 1880년 『새 잎사귀들』에서 다시 갈리시아어로 시를 썼다.",
+  "rosalia-de-castro.interpretation.turning_point.1":
+    "이는 언어의 선택이 그녀의 대외적 명성을 어떻게 형성했는지 이해하는 데 도움이 되지만, 그녀가 그 걸음을 얼마나 기꺼이 내디뎠는지에 대해서는 자료들의 설명이 엇갈린다.",
+  "shirase-nobu.achievement.1":
+    "시라세는 1910~12년 일본 남극 탐험대를 이끌었습니다. 일본인으로서는 처음 남극을 찾은 탐험이었고, 의회가 의결한 자금을 정부가 내놓지 않자 민간 후원자와 전직 총리 오쿠마 시게노부의 도움으로 비용을 마련했습니다. 개조한 204톤급 어업 지원선 가이난마루로 떠난 첫 항해는 1911년 3월에 끝났고 대원들은 시드니에서 겨울을 났습니다. 1912년 1월 배는 고래만의 로스 빙붕에 닿았고, 시라세는 네 명과 함께 개썰매로 남위 80도 5분까지 약 250~280킬로미터를 나아가는 '돌격대'를 이끌어 그곳을 야마토 설원이라 이름 붙였습니다. 대원 전원이 무사히 돌아왔습니다.",
+  "shirase-nobu.achievement.2":
+    "탐험의 성과는 크지 않았습니다. 남극점 가까이에는 이르지 못했고, 일본 대원들이 미답지로 여겼던 에드워드 7세 랜드 일부에는 이미 아문센 대원들이 다녀간 뒤였습니다. 그럼에도 역사가들은 이 탐험이 일본도 극지 탐험을 꾸릴 수 있음을 보여 주었고, 당시 남위 80도를 넘어선 네 팀 가운데 하나였다고 평가합니다. 지금 남극에는 그의 이름을 딴 시라세 해안이 있고, 일본의 극지 연구용 쇄빙선도 1981년과 2009년에 '시라세'라는 이름을 받았습니다.",
+  "shirase-nobu.moment.1":
+    "1912년 1월 20일 시라세는 동료 네 명과 함께 썰매 두 대와 개 28마리를 끌고 고래만을 떠났습니다. 일주일 동안 눈보라를 맞고 영하 20도 안팎, 때로는 그 이하의 추위를 견디며 식량이 줄어든 가운데, 1월 28일 남위 80도 5분에서 걸음을 멈췄습니다. 그들은 대나무 장대에 일장기를 달고 후원자 이름을 적은 구리 상자를 묻은 뒤, 1월 31일 기지 캠프로 돌아왔습니다.",
+  "shirase-nobu.interpretation.moment.1":
+    "정해진 식량만 싣고 출발해 식량이 줄자 멈춘 일은, 위험을 무릅쓰되 식량이라는 한계 안에서 감수했다는 해석과 어긋나지 않습니다. 다만 시라세가 이 결정을 어떻게 저울질했는지는 자료에 나타나 있지 않습니다.",
+  "shirase-nobu.moment.2":
+    "탐험대는 1910년 11월 예상 예산 2만~4만 엔에 이미 1만 엔의 빚을 진 채 도쿄를 떠났고, 탐험이 이어지는 동안 비용과 빚은 더 늘었습니다. 수전 바는 시라세가 마지막 4만 엔을 갚기까지 1935년까지 걸렸으며, 강연 수입을 빚 상환에 쓰는 동안 가족은 비교적 궁핍하게 살았다고 전합니다.",
+  "shirase-nobu.interpretation.moment.2":
+    "약 20년에 걸친 상환은 세간의 관심이 사라진 뒤에도 책임을 끝까지 이어 갔다는 해석과 어긋나지 않습니다. 다만 그 자신의 생각은 현재 자료에 설명되어 있지 않습니다.",
+  "shirase-nobu.turning_point.1":
+    "1911년 3월 가이난마루는 계절이 너무 늦어 로스해에 상륙하지 못하고 북쪽으로 뱃머리를 돌려 5월 1일 시드니에 닿았습니다. 스콧과 아문센이 이미 남극에 자리 잡은 뒤여서, 탐험대는 남극점 도달 계획을 버리고 두 무리로 나뉘어 탐험하기로 했습니다. 대원들은 일본인이 스파이라는 현지의 의심 속에서 파슬리 만에서 겨울을 났고, 에지워스 데이비드 교수가 공개적으로 이들을 옹호했습니다. 배가 출발하던 1911년 11월 19일 시라세는 데이비드에게 사무라이 검을 선물했습니다.",
+  "shirase-nobu.interpretation.turning_point.1":
+    "겨울을 기다리는 동안 목표를 남극점에서 탐험으로 바꾼 일은 첫 계획이 실패한 뒤 계획을 고쳐 나갈 수 있었다는 해석과 어긋나지 않습니다. 다만 이 결정은 탐험대 지도부가 함께 내린 것이어서, 시라세 개인의 몫은 자료에서 따로 구분되지 않습니다.",
+  "shokan-walikhanov.achievement.1":
+    "1858~59년 왈리하노프는 상인의 이름을 쓰고 무역 대상(隊商)과 함께 카슈가르로 가 약 다섯 달을 머물렀고, 이후 중국령 투르키스탄의 동부 여섯 도시에 관한 보고서를 썼다. 학자들은 이 보고서를 이 지역의 지리, 역사, 행정에 대한 최초의 학술 연구로 평가한다.",
+  "shokan-walikhanov.achievement.2":
+    "1856년 이식쿨 호수 탐사에서 그는 한 구연자에게서 키르기스 서사시 마나스의 일부를 받아 적고 키르기스 민족에 관한 초기 논문을 썼으며, 둘 다 러시아 지리학회에서 출간되었다. 후대 연구자들은 그의 러시아어 요약이 구연의 일부 세부를 바꾸었다고 지적한다.",
+  "shokan-walikhanov.achievement.3":
+    "그는 카자흐 역사, 샤머니즘, 민담, 관습법에 관한 글도 남겼고, 1863~64년에는 초원 지역 사법 개혁을 위한 정부 사업에 참여했다. 1865년 스물아홉 살에 세상을 떠났으며, 그의 원고는 수십 년 뒤에야 모아져 출간되었다.",
+  "shokan-walikhanov.moment.1":
+    "1858년 6월 28일 왈리하노프는 사람 43명, 낙타 101마리, 말 65필로 이루어진 카슈가르행 대상에 합류했고, 알림바이라는 이름을 썼다. 1년 전 독일 지리학자 아돌프 슐라긴트바이트가 카슈가르에서 처형된 터였고, 왈리하노프는 1858년 10월 1일 그곳에 도착했다.",
+  "shokan-walikhanov.interpretation.moment.1":
+    "이 일화는 임무를 위해 개인적 위험을 감수하려는 태도와 부합하지만, 여정은 다른 사람들이 제안하고 조직한 것이어서 그가 위험을 스스로 어떻게 저울질했는지는 보여 주지 않는다.",
+  "shokan-walikhanov.moment.2":
+    "1864년 왈리하노프는 남부 카자흐스탄에서 체르냐예프 장군의 군사 원정에 합류해 아울리에아타 요새 점령에 참여했다. 7월에 그는 체르냐예프가 현지 주민을 대하는 방식에 불만을 가진 다른 장교들과 함께 떠났고, 마지막 한 해는 친척의 아울에서 보냈다.",
+  "shokan-walikhanov.interpretation.moment.2":
+    "이는 상관들의 방침에 맞서 자신의 판단대로 행동한 사람의 모습과 부합하지만, 그는 첫 작전에 참여한 뒤에야 떠났다.",
+  "shokan-walikhanov.turning_point.1":
+    "1856년 호멘톱스키 대령의 이식쿨 탐사에 참여해 그곳에서 마나스의 일부를 기록한 뒤, 왈리하노프는 1857년 2월 27일 세묘노프의 추천으로 러시아 지리학회 회원에 선출되었다. 세묘노프는 이후 1858년 카슈가르 여행에 그를 천거했다.",
+  "shokan-walikhanov.interpretation.turning_point.1":
+    "이러한 흐름은 민속과 지리에 대한 호기심이 학계 후원자들에게 인정받아 더 큰 과제로 이어진 모습과 부합한다.",
+  "tan-kah-kee.achievement.1":
+    "1921년 천자겅은 푸젠성에 샤먼대학을 열었습니다. 당시 중국에서 전적으로 민간 자금으로 운영된 유일한 대학이었고, 그는 1937년 중국 정부가 인수할 때까지 이를 재정적으로 뒷받침했습니다. 린원칭(림분켕) 박사가 그의 초청을 받아들여 16년 동안 총장으로 대학을 이끌었습니다. 이 대학은 천자겅이 1910년대 초 고향 마을에서 시작한 지메이 학교군에서 성장했으며, 지메이에는 이후 사범학교와 중등학교 등이 더해졌습니다.",
+  "tan-kah-kee.achievement.2":
+    "아버지의 쌀 사업이 1903~04년경 실패하자 천자겅은 싱가포르에서 작은 파인애플 통조림 공장을 시작해 이를 여러 사업체로 키웠습니다. 1908년에는 통조림 공장 세 곳과 600에이커의 농장, 어린 고무 농장을 운영했고, 이후 고무 제조, 정미업, 해운으로 사업을 넓혔습니다. 그는 '말라야의 헨리 포드'로 불렸습니다. 그의 회사는 고무 가격 폭락 끝에 1934년 2월 청산되었습니다.",
+  "tan-kah-kee.achievement.3":
+    "싱가포르에서 천자겅은 1907년 다른 푸젠 공동체 구성원 109명과 함께 다오난 학교를, 1912년에는 아이퉁 학교를 세우는 데 참여했고, 1919년에는 화중학교(현 화중학원)를 설립했습니다. 같은 해 앵글로-차이니즈 학교에 3만 달러를 기부했으며, 이후 교사 양성 학교 설립을 위해 활동해 이 학교는 1941년에 문을 열었습니다.",
+  "tan-kah-kee.moment.1":
+    "샤먼대학을 구상하면서 천자겅은 첫 2년의 비용으로 100만 달러를, 이후 12년 동안 매년 25만 달러를 더 내겠다고 약속한 것으로 전해집니다. 대학 측 소개 글은 그가 한때 민족 영웅 정성공의 훈련장이었던 샤먼의 땅을 대학 부지로 골랐다고 전합니다.",
+  "tan-kah-kee.interpretation.moment.1":
+    "학술적 개설서와 대학 소개 기사가 전하는 이 약속은, 사업 이익을 장기적인 교육에 쏟은 인물이라는 이 프로필의 해석과 맞아떨어지지만, 수치는 2차 자료와 홍보성 자료에서 나온 것입니다.",
+  "tan-kah-kee.moment.2":
+    "1920년대 후반 고무 가격이 폭락하자 천자겅은 샤먼대학과 지메이 학교들의 건축 일부를 중단해야 했고, 그의 회사 탄카키 유한회사는 1934년 2월 청산되었습니다. 그는 지지자들의 도움을 받아 가능한 한 학교 재정을 계속 댔으며, 샤먼시 정부의 소개 글은 그가 이후 싱가포르 재산을 팔고 기부를 모아 1,000만 위안이 넘는 돈을 학교에 쏟았다고 전합니다.",
+  "tan-kah-kee.interpretation.moment.2":
+    "이 일화는 이 프로필의 끈기 점수를 이해하는 데 도움이 되지만, 이후의 지원 금액은 홍보성 지방정부 소개 글에서 나온 것이며 전체 일화가 하나의 전기 전통을 공유하는 자료들에 의해 전해진다는 점을 유념해야 합니다.",
+  "tan-kah-kee.turning_point.1":
+    "1903~04년경 아버지의 싱가포르 쌀 사업이 무너지자, 로츠(Roots) 전기에 따르면 천자겅은 회사들을 정리하고 빚을 갚는 데 힘썼고, 이어 자신의 작은 파인애플 통조림 공장을 시작했습니다. 1908년에는 한 상업 인명록이 그를 통조림 공장 세 곳과 고무 농장을 가진 인물로 기록했으며, 이것이 훗날 그의 학교들을 뒷받침한 사업의 출발이었습니다.",
+  "tan-kah-kee.interpretation.turning_point.1":
+    "이 전환은 가업이 무너졌을 때 스스로 나서서 움직이는 양상과 맞아떨어지지만, 자료들은 그의 동기를 대략적으로만 전합니다.",
+  "tiyo-soga.achievement.1":
+    "소가는 존 버니언의 『천로역정』 제1부를 코사어(isiXhosa)로 옮겨 『우함보 로 음함비(Uhambo lo Mhambi)』를 펴냈다. 스코틀랜드 유학 시절에 시작한 번역을 1866년 11월 21일 음그왈리에서 마쳤고, 책은 종교소책자협회의 목판 삽화를 얻어 러브데일 출판부에서 인쇄되었다. 문학사가 A. C. 조던은 이 번역을 훌륭한 번역으로 평가하며, 영어에서 흠정역 성경이 한 역할에 거의 맞먹는 영향을 코사어에 미쳤다고 보았다.",
+  "tiyo-soga.achievement.2":
+    "소가는 1856년 12월 글래스고에서 연합장로교회의 안수를 받아, 남아프리카에서 처음으로 기독교 목사로 안수받은 아프리카인이 되었다. 1857년 귀향한 그는 음그왈리 선교 거점을 되살려 교회와 학교를 세우고 코사어와 영어로 설교했다. 1868년에는 가이칼레(Gcaleka)의 추장 사릴리가 선교사를 요청하자 투투라(Tutura)에 새 선교지를 열었으며, 1871년 그곳에서 42세 무렵에 세상을 떠났다.",
+  "tiyo-soga.achievement.3":
+    "소가는 코사어 독자를 위해 글도 쓰고 엮기도 했다. 그의 찬송가 적어도 일곱 곡이 1864년 찬송가집 『인크위디 야마쿨로(Incwadi Yamaculo)』에 실렸고, 그중 「리잘리스 이딩가 라코(Lizalis' idinga lakho)」는 지금도 남아프리카 교회에서 불린다. 그는 러브데일에서 발행된 신문 『인다바(Indaba)』에 기고했고, 1869년부터는 일곱 교파 번역자로 이루어진 위원회에서 일하여, 그가 세상을 떠날 때 새 코사어 사복음서 번역을 아직 출간 전이지만 모두 검토해 둔 상태였다.",
+  "tiyo-soga.moment.1":
+    "1865년 친구이자 선교 동료인 존 챌머스가 코사인이 변하지 않으면 사라질 것이라는 취지의 글을 발표했다. 소가는 '데펜소르(Defensor)'라는 필명으로 킹윌리엄스타운 가제트에 편지를 보내 코사인은 살아남을 것이며 그들의 땅과 역사가 중요하다고 반박했다. 두 사람의 우정은 이어졌고, 챌머스는 훗날 그의 전기를 썼다. 글이 실린 날짜는 자료마다 다르다.",
+  "tiyo-soga.interpretation.moment.1":
+    "가까운 동료의 전제를 필명으로 공개 신문에서 반박한 일은 이 프로필의 독립적 사고 점수와 어울린다. 다만 소가 자신도 기독교 문명이 나아갈 길이라는 선교사적 관점을 지녔기 때문에 이 점수는 중간 수준에 머문다.",
+  "tiyo-soga.moment.2":
+    "1857년 12월, 소가와 스코틀랜드인 아내 재닛이 음그왈리에 도착했을 때는 소 떼 학살(cattle-killing) 이후 많은 코사인이 굶주리고 있었다. 부부는 스코틀랜드의 지인들에게 도움을 청하는 편지를 썼고, 소가는 굶어 죽은 어머니와 두 아이의 무덤을 직접 팠다고 전했다. 이후 스코틀랜드 교회들이 기금을 보냈고, 선교 거점은 첫 교회가 세워지기 전부터 먹을 것을 찾아온 사람들을 받아들였다.",
+  "tiyo-soga.interpretation.moment.2":
+    "갓 세운 선교 거점을 구호처로 바꾸고 해외에 기금을 호소한 일은 이 프로필의 영향력 동기 점수와 어울린다. 다만 이 이야기는 주로 전기 작가들이 보존한 소가 자신의 편지에 의존한다.",
+  "tiyo-soga.turning_point.1":
+    "1850년 전쟁이 일어나자 소가가 가르치던 우니온데일 선교 거점은 불타 없어졌고, 그는 장로 한 사람과 함께 피신했다. 케이프타운에서 그는 좋은 보수의 정부 통역관 자리를 제안받았지만 거절하고, 목사 수업을 받기 위해 글래스고로 돌아갔다. 1856년 12월 안수를 받으면서 음그왈리와 투투라 선교, 그리고 이후의 저술로 이어지는 길이 열렸다.",
+  "tiyo-soga.interpretation.turning_point.1":
+    "안정된 봉급 일자리를 버리고 목회 공부를 택한 것은 이 프로필의 영향력 동기 점수와 어울리며, 훈련이 어렵고 전쟁으로 두 차례 중단되었다는 점에서 끈기 점수와도 맞는다.",
+  "truong-vinh-ky.achievement.1":
+    "쯔엉빈끼는 『낌번끼에우』, 『룩번띠엔』, 『판쩐』 같은 베트남 문학의 주요 작품을 로마자 표기 문자인 꾸옥응으로 옮겨 주석을 달았고, 『삼자경』과 사서(四書)의 일부 같은 유교 문헌도 같은 문자로 번역했습니다. 2024년 논문에 인용된 문학사가들은 그 이전까지 꾸옥응이 주로 가톨릭 공동체 안에서 쓰였으며 그의 저작이 이 문자를 더 넓은 베트남 사회로 가져갔다고 설명합니다. 같은 시대 동양학자의 추도문은 그의 사서 번역 가운데 일부만 인쇄되었다고 덧붙입니다.",
+  "truong-vinh-ky.achievement.2":
+    "1869년 코친차이나 식민지 총독은 쯔엉빈끼에게 자딘바오 운영을 맡겼습니다. 자딘바오는 1865년에 주로 관보 성격으로 시작된 로마자 베트남어 신문이었습니다. 그는 후인딘꾸아, 쯔엉민끼 등과 함께 쉬운 말로 쓴 연구 기사, 민담, 속담, 일반 상식 기사를 싣도록 지면을 넓혔습니다. 이 신문은 흔히 최초의 꾸옥응 신문으로 불리며, 인수 시점은 1868년과 1869년으로 기록이 엇갈리고, 신문은 식민 정부 자체의 목적에도 쓰였습니다.",
+  "truong-vinh-ky.achievement.3":
+    "쯔엉빈끼는 사이공의 통역학교(콜레주 데 앵테르프레트)를 비롯한 여러 학교에서 동양 언어를 가르쳤고, 중국어, 크메르어, 라오어, 말레이어, 태국어, 참어, 버마어, 타밀어, 힌두스타니어의 문법서를 썼습니다. 그는 파리 지리학회 회보 등 유럽 학술지에 글을 실은 최초의 베트남 학자로 소개되며, 『안남사(Histoire d'Annam)』는 유럽 언어로 쓰인 최초의 본격적인 베트남사로 설명됩니다. 동양학 잡지 『퉁파오』의 편집자 앙리 코르디에는 그에게 긴 추도문을 남겼습니다.",
+  "truong-vinh-ky.moment.1":
+    "1888~89년 쯔엉빈끼는 주제별 학습 과정으로 꾸민 자신의 잡지 『미셀라네(통로이커아찐)』를 직접 편집했습니다. 이 잡지는 1889년 6월 『수로이통카오』로 이름이 바뀌었습니다. 창간사는 가르치는 글만 읽으면 지루해지니 재미를 섞어야 한다고 설명합니다. 잡지에는 서양 유머 이야기와 『이솝 이야기』 번역이 실렸는데, 2016년 문학사 논문은 이를 베트남 최초의 같은 종류의 번역으로 봅니다. 잡지는 이후 발행이 중단되었습니다.",
+  "truong-vinh-ky.interpretation.moment.1":
+    "이런 구성은 독자에게 학습을 매력적으로 만들고자 한 발행인의 태도와 부합하지만, 목적에 관한 설명은 한 논문이 전하는 잡지 자체의 서문에 근거합니다.",
+  "truong-vinh-ky.moment.2":
+    "1898년 9월 6일 장례에서 원주민 의원 쩐바토는 고별사를 낭독했고, 이 내용은 동양학 잡지 『퉁파오』에 인용되었습니다. 고별사에 따르면 쯔엉빈끼는 생의 마지막 무렵에도 리트레 사전의 번역을 비롯한 마지막 저작을 펴내는 일에 마음을 쓰고 있었습니다. 이 기록은 독립된 전기 작가가 아니라 제자의 추도사에 근거합니다.",
+  "truong-vinh-ky.interpretation.moment.2":
+    "추도사를 그대로 받아들이면 만년까지 이어진 작업과 부합하지만, 호의적인 장례 연설은 그의 작업 습관을 보여주는 증거로는 약합니다.",
+  "truong-vinh-ky.turning_point.1":
+    "2024년 논문에 따르면 1869년 통역과 교육 일을 하던 쯔엉빈끼는 오리에 제독에게서 자딘바오의 운영을 맡았습니다(다른 기록은 1868년이라고 합니다). 이 신문은 프랑스인 통역관이 운영하던 주로 관보 성격의 간행물이었고, 그의 지휘 아래 정부 공고와 함께 연구 기사, 민담, 상식 기사를 싣기 시작했습니다. 그의 일은 교실과 번역에서 베트남 독자를 위한 공공 편집으로 옮겨 갔습니다.",
+  "truong-vinh-ky.interpretation.turning_point.1":
+    "이 일화는 맡겨진 자리를 활용해 그 범위를 넓힌 인물의 모습과 부합하지만, 자료는 팀의 몫도 함께 언급하며 그 자리 자체가 식민 정부의 임명이었다는 점도 있습니다.",
+  "waldemar-haffkine.achievement.1":
+    "하프킨은 파리 파스퇴르 연구소에서 열로 죽인 콜레라 균을 이용한 백신을 개발해 1892년 파리 생물학회에 보고하고 자신에게 먼저 접종했다. 1893년부터 인도에서 현장 접종을 시작해 1895년 중반까지 4만 2천 명 넘는 사람에게 접종했다고 기록과 함께 보고했다. 역사가들은 이 시험을 인간에게 쓴 최초의 효과적인 세균성 질환 예방접종의 하나로 평가하지만, 이 백신은 감염자의 사망률보다는 발병 건수를 줄이는 쪽에 효과가 컸다.",
+  "waldemar-haffkine.achievement.2":
+    "1896년 페스트가 퍼진 봄베이에 파견된 하프킨은 그랜트 의과대학 복도에 임시 실험실을 차리고 몇 달 만에 열로 죽인 페스트 백신을 만들었으며, 1897년 1월 먼저 자신에게 접종한 뒤 지원자들에게 쓰기 시작했다. 그가 세운 페스트 연구소는 1925년까지 약 2,600만 회분을 보냈고 같은 해 하프킨 연구소로 개칭되었다. 호가우드는 이 백신의 실제 효과가 인도에서 나온 초기 수치보다 낮았을 가능성이 크다고 지적한다.",
+  "waldemar-haffkine.moment.1":
+    "1898년 바로다 당국은 하프킨에게 우데라 마을에서 페스트 백신을 시험해 달라고 초청했다. 그는 최근 인구조사 자료를 이용해 가구별로 사람들을 거리로 불러 모아 가구원의 절반에게 접종하고 가능한 한 비슷한 나머지 절반은 접종하지 않았으며, 6주 뒤 동료들과 다시 와서 페스트가 발생한 집을 일일이 확인했다.",
+  "waldemar-haffkine.interpretation.moment.1":
+    "같은 가구 안에서 접종자와 비접종자를 비교하는 설계였다는 점에서 분석적 엄밀성 점수와 부합하지만, 한 역사가가 전하는 하나의 시험 사례에 근거한 것이다.",
+  "waldemar-haffkine.turning_point.1":
+    "1902년 10월 펀자브의 물코왈에서 접종받은 19명이 파상풍으로 숨졌고, 모두 하프킨의 페스트 백신 한 병에서 나온 것이었다. 정부 조사위원회는 봄베이 실험실에서의 오염을 지목했고 그는 직위에서 물러났다. 1907년 로널드 로스와 심프슨을 포함한 세균학자 아홉 명은 물코왈에서 집게를 떨어뜨리는 과정에서 병이 오염되었다고 주장했고, 같은 해 11월 인도성은 상당수 과학계 의견이 그에게 우호적이라고 밝히며 일자리를 제안했다. 그는 1908년 연구 전담 자리로 인도에 돌아갔고, 호가우드에 따르면 인도에서는 낙인이 계속 남았다.",
+  "waldemar-haffkine.interpretation.turning_point.1":
+    "수년간 자기 실험실의 입장을 변호하고 이후 다시 인도에서 일했다는 점에서 끈기 점수와 부합하는 사례이다. 다만 위원회가 그가 백신 제조 방식을 바꿔 석탄산을 뺀 점을 중대하게 본 기록도 있고, 오염 원인에 대해 모두가 만족할 만한 결론이 난 것은 아니다.",
+  "walter-reed.achievement.1":
+    "1900년 미 육군 군의관 월터 리드는 쿠바에서 제임스 캐럴, 제시 래지어, 아리스티데스 아그라몬테와 함께 황열병 위원회를 이끌었다. 위원회는 쿠바 의사 카를로스 핀레이가 1881년에 제기했으나 증명하지 못한 생각을 검증해, 자원자를 대상으로 한 통제 실험에서 감염된 이집트숲모기(Aedes aegypti)에 물리면 황열병이 전파되며 환자의 침구와 의복으로는 전파되지 않는다는 점을 보였다. 이 발견은 약 1년 만에 아바나에서 황열병을 몰아낸 모기 방제 운동의 토대가 되었으나, 연구 도중 래지어가 이 병으로 숨졌고 공로는 위원회 구성원과 핀레이가 나누어 가져야 한다.",
+  "walter-reed.achievement.2":
+    "1898년 미국-스페인 전쟁 중 리드는 빅터 본, 에드워드 셰익스피어와 함께 군 위원회를 이끌며 군 야영지에서 번진 장티푸스를 조사했다. 과학자 인명사전의 설명에 따르면 위원회는 물이 큰 요인이 아니며 파리와 분변 접촉을 통해 병이 퍼진다고 보았고, 증상이 없는 보균자가 감염원이 될 수 있음도 밝혔다. 1904년에 간행된 두 권짜리 보고서는 역학 연구의 모범으로 평가된다.",
+  "walter-reed.moment.1":
+    "쿠바에서 첫 통제된 모기 전파 사례가 나온 뒤 리드는 사적인 편지에서, 모기 전파설은 핀레이의 것이며 핀레이가 이를 제안한 공은 크지만 증명하지 못했기 때문에 스턴버그 군의총감을 포함한 거의 모든 사람이 이를 받아들이지 않았다고 썼다. 핀레이 연구사를 다룬 한 역사가에 따르면, 리드는 몇 주 앞서 인디애나폴리스의 미국공중보건협회 학술대회에서 위원회의 결과를 발표하며 핀레이의 기여를 인정하기도 했다.",
+  "walter-reed.interpretation.moment.1":
+    "이 일화는 앞선 아이디어의 공을 인정하면서도 그것을 검증한 것이 위원회의 기여라는 입장을 함께 지키는 모습과 부합한다. 다만 근거가 호의적인 전기 작가와 핀레이 중심 글이 전하는 그의 편지와 발언이므로, 공로에 대한 그 자신의 설명으로 읽어야 한다.",
+  "walter-reed.moment.2":
+    "1900년 말 오두막 야영지인 래지어 진지(Camp Lazear)에서 위원회는 경쟁하는 설명들을 따로 검증했다. 황열병 환자의 침구와 의복 속에서 지낸 자원자는 병에 걸리지 않았고, 감염된 모기에 물리거나 초기 환자의 피를 주사받은 자원자는 병에 걸렸다. 과학자 인명사전은 리드가 이 실험을 설계하고 수행했다고 기록하며, 브리태니커는 이 실험이 집이 감염성을 띠는 것은 감염된 모기가 있을 때뿐임을 보였다고 설명한다.",
+  "walter-reed.interpretation.moment.2":
+    "이 설계는 하나의 결과에 의존하지 않고 경쟁하는 설명들을 서로 맞대어 검증하는 방식과 부합한다. 다만 첫 사람 대상 노출은 리드가 자리를 비운 사이 캐럴과 래지어가 했고, 야영지 설계도 위원회 전체의 작업이었다.",
+  "walter-reed.turning_point.1":
+    "1900년 8월과 9월, 리드가 워싱턴에서 보고서를 마무리하는 동안 캐럴이 감염된 모기에 일부러 물려 위중하게 앓았고 래지어는 감염되어 숨졌다. 리드는 쿠바로 돌아왔고 위원회는 래지어 진지를 세워 위원회의 책임을 제한하고 금전 보수를 정한 서면 동의 계약을 맺은 자원자들을 받았다. 게일의 해설 기사는 의사들이 스스로 먼저 나섰음에도 그 조건이 오늘날의 기준으로는 강압적이라고 평가한다.",
+  "walter-reed.interpretation.turning_point.1":
+    "이 흐름은 치명적인 차질 이후에도 작업을 이어 가며 더 체계적인 설계로 옮겨 간 책임자의 모습과 부합하며, 동의 조건은 당시 자원자 보호가 여전히 얼마나 제한적이었는지를 보여 준다. 다만 리드 자신이 계속할지를 어떻게 저울질했는지는 자료가 말해 주지 않는다.",
+  "wilhelm-steinitz.achievement.1":
+    "슈타이니츠는 1866년 7월 런던에서 당시 세계 최강으로 꼽히던 아돌프 안데르센을 8대 6으로 꺾고 세계 챔피언의 칭호를 주장하기 시작했습니다. 1886년에는 뉴욕, 세인트루이스, 뉴올리언스에서 열린 요하네스 추케르토르트와의 대국에서 10승 5패 5무로 이겨, 흔히 최초의 공식 세계선수권으로 꼽히는 대국의 승자가 되었습니다. 그는 1889년과 1892년에는 미하일 치고린을, 1890~91년에는 이시도르 건스버그를 상대로 타이틀을 지켰고, 1894년 에마누엘 라스커에게 패하기 전까지 그 자리를 유지했습니다.",
+  "wilhelm-steinitz.achievement.2":
+    "슈타이니츠는 '낭만파' 거장들의 희생과 공격 중심의 스타일을 대신해 위치적 플레이의 체계를 제시했습니다. 이 체계에서는 양측이 대등한 조건에서 출발하며, 이점은 조금씩 쌓아 올리다가 상대가 실수할 때에야 현실화됩니다. 그는 이 이론을 두 권으로 된 『현대 체스 교본』(1889)에 정리했고, 지크베르트 타라슈가 독일어권에 널리 알렸으며 이는 빈 학파에 흡수되었습니다. 참고 문헌들은 그를 '현대 체스의 아버지'라고 부릅니다.",
+  "wilhelm-steinitz.achievement.3":
+    "슈타이니츠는 당대를 대표하는 체스 저술가이기도 했습니다. 1873년부터 《더 필드》에, 이어서 런던 《피가로》에 해설 칼럼을 썼고, 1885년부터 1891년까지 《인터내셔널 체스 매거진》을 발행·편집했으며, 1891년에는 제6회 미국 체스 대회의 432개 대국 전부에 해설을 붙인 책을 펴냈습니다. 그의 해설은 이전의 해설보다 크게 나아졌다고 평가됩니다.",
+  "wilhelm-steinitz.moment.1":
+    "1886년 1월의 첫 공식 세계선수권 대국에서 슈타이니츠는 뉴욕에서 처음 다섯 판 중 네 판을 졌지만, 세인트루이스와 뉴올리언스에서 이겨 10승 5패로 대국을 가져갔습니다. 대국 전에 인용된 한 저명한 선수는 슈타이니츠가 아홉 판을 연달아 지더라도 열 번째 판을 첫 판과 같은 끈기로 둘 것이라고 예상했다고 전해집니다.",
+  "wilhelm-steinitz.interpretation.moment.1":
+    "이 역전승은 이 프로필의 끈기 점수와 맥을 같이하지만, 이긴 결과이기 때문에 더 쉽게 기억되는 일화일 수 있으며 예측 발언도 간접 인용이라는 점을 함께 고려해야 합니다.",
+  "wilhelm-steinitz.moment.2":
+    "1881년부터 1883년까지 슈타이니츠와 요하네스 추케르토르트는 서로 맞선 칼럼에서 같은 대국들을 분석하며 훗날 '잉크 전쟁'이라 불린 긴 공개 논쟁을 벌였고, 슈타이니츠는 추케르토르트와 공동 편집자 레오폴트 호퍼에게 대국을 신청했습니다. 1885년 3월호 《체스 먼슬리》에서 이를 수락한 추케르토르트는 슈타이니츠가 거친 말과 글을 자랑으로 여긴다고 쓰고, 그와 직접 협상하는 것은 인내심을 바닥나게 할 것이라고 적었습니다.",
+  "wilhelm-steinitz.interpretation.moment.2":
+    "이 일화는 공개적인 갈등을 감수하는 성향이 강했다는 읽기와 맞아떨어집니다. 그 덕분에 타이틀전을 성사시켰지만 여러 기록에 따르면 런던에서의 호의를 잃기도 했으며, 추케르토르트의 답변은 맞수의 목소리라는 점을 감안해야 합니다.",
+  "wilhelm-steinitz.turning_point.1":
+    "1883년 런던 대회에서 추케르토르트에 이어 2위를 한 뒤, 슈타이니츠는 영국 체스계와의 소외를 더는 견딜 수 없었다고 전해지며 런던을 떠나 뉴욕으로 옮겼습니다. 미국에서 그는 1885년 《인터내셔널 체스 매거진》을 창간했고, 런던이 지나치게 적대적이 되었다고 주장한 끝에 1886년 세계선수권 대국을 미국 도시들에서 치렀습니다.",
+  "wilhelm-steinitz.interpretation.turning_point.1":
+    "이 이주는 새로운 나라와 언어에서 경력을 다시 세울 수 있는 능력과 맞아떨어지지만, 자료들은 이를 자유로운 선택이라기보다 배척에 대한 대응으로 설명합니다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

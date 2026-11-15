@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "feza-gursey",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Feza Gürsey",
+    "aliases": [
+      "Feza Gursey",
+      "Feza Gürsoy"
+    ],
+    "wikidataId": "Q1136035",
+    "birthYear": 1921,
+    "deathYear": 1992,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "TR"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "mathematician"
+    ],
+    "fieldIds": [
+      "physics",
+      "mathematics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "theorist",
+      "mentor",
+      "independent"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_gursey_wikidata",
+      "kind": "wikidata",
+      "title": "Feza Gürsey (Q1136035), verified live via the Wikidata API (2026-11-13): English label 'Feza Gürsey', description 'Turkish physicist (1921-1992)', instance of human, born 1921-04-07, died 1992-04-13, citizenship Turkey, Korean label 페자 귀르세이. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1136035"
+    },
+    {
+      "id": "src_gursey_dsb",
+      "kind": "biography",
+      "title": "Cihan Saclioglu, 'Gürsey, Feza', Complete Dictionary of Scientific Biography (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: describes his work as discovering symmetries in physical systems and expressing them through group theory; the 1959 nonlinear chiral sigma model (the first explicit example of spontaneously broken symmetry, in the entry's words), the 1964 SU(6) proposal with Luigi Radicati (his best-known work), de Sitter and conformal groups, and from 1973 grand unified models on exceptional groups and octonions (E6 and E7); notes that the conformal-group topics he took up in Istanbul in 1951-56 were not mainstream and were appreciated much later, quotes John Wheeler's remark read at his 1992 memorial that he was a largely self-educated physicist with independence of view and originality; gives the Pauli-Gürsey transformation, the METU and Yale posts and the 1977 Oppenheimer Prize; records that the Feza Gürsey Institute was set up in 1996 for the school of theoretical physics his students formed. Written by a physicist who worked in his Turkish circle, so admiring; dates for his METU and Yale posts differ from other sources.",
+      "url": "https://encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/gursey-feza"
+    },
+    {
+      "id": "src_gursey_pt",
+      "kind": "biography",
+      "title": "Samuel W. MacDowell and Charles M. Sommerfield (Yale University), obituary 'Feza Gürsey', Physics Today, March 1993, p. 102 (read from a hosted scan of the printed page; the Physics Today web copy is PDF-only). Colleague obituary: remembered for the originality, elegance and effectiveness of his use of mathematical methods, especially group theory, and as an outstanding teacher dedicated to his students; BS Istanbul 1944, PhD Imperial College 1950, docent at Istanbul 1954-61, METU 1961-64, Yale from 1965 (permanent from 1968); the early chiral-symmetry suggestion, the 1962-64 SU(6) paper with Radicati and the first use of exceptional groups E6 and E7 in unified theories; says he promoted quaternionic analyticity and helped bridge physics and mathematics at Yale; had broad knowledge of history, literature, the arts and the plight of third world nations; 'a very gentle, kind and good man' with a special rapport with the young. Brief tribute by two Yale colleagues; admiring; its Yale dates differ from the Boğaziçi and METU accounts.",
+      "url": "https://physicstoday.aip.org/obituaries/feza-gursey"
+    },
+    {
+      "id": "src_gursey_bogazici",
+      "kind": "institution",
+      "title": "Boğaziçi University Archives, online exhibition 'Science Dervish Feza Gürsey' (Feza Gürsey Archive, Physics Department; page read in full). Memorial-archive narrative with captions, letters and recollections: the 1950s seminars organised in Istanbul with Fikret Kortel and Cahit Arf 'to let the sunshine into Turkey', his 1957 move to Brookhaven where Wolfgang Pauli took notice of his Pauli-Gürsey transformation paper, the 1962 Istanbul summer school on group theory that began a conference series, his return in 1961 at Erdal Inonu's urging, the contested end of his METU post (his own account of why it ended) and move to Yale, the 1968-69 TÜBITAK award speech, the 1977 Oppenheimer Prize, and tributes from Freeman Dyson (his 'unfashionable pursuits' that later proved relevant), Maurice Goldhaber ('Olympian' guided by general principles), Charles Sommerfield, Yoichiro Nambu and Kamesh Wali; also his sketchbooks and poems from youth and his letter to a columnist describing himself modestly. Memorial-institution source, partly his own letters and festschrift tributes; admiring; Dyson, Nambu, Goldhaber and Sommerfield tributes come from one 1984 festschrift and a 1994 memorial conference.",
+      "url": "https://bogaziciarsivleri.bogazici.edu.tr/en/exhibition/gursey.php"
+    },
+    {
+      "id": "src_gursey_metu",
+      "kind": "institution",
+      "title": "Middle East Technical University Department of Physics, 'History' page (read): lists the department's chairs, naming Feza Gürsey among them for 1968-69, records him as thesis supervisor of METU doctoral students from 1971 to the mid-1970s, and credits him as the initiator of High Energy Physics research at the department in 1966. Short departmental record; independent of the memorial sources but very thin.",
+      "url": "https://phys.metu.edu.tr/en/history"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gursey_dsb, src_gursey_bogazici, src_gursey_pt | 1951-1976 | scientific biography, memorial archive, colleague obituary] The scientific biography says the conformal group, quaternions and the classical spinning electron that he worked on in Istanbul in 1951-56 were not mainstream topics and were appreciated much later, and quotes Wheeler on his independent point of view; the archive quotes Dyson's list of his 'unfashionable pursuits' (conformal group, quaternions, octonions, exceptional Lie groups) that proved relevant in the long run, and the Yale obituary calls him a proponent of quaternionic analyticity. The choice of non-mainstream subjects is documented in two sources; the Wheeler and Dyson judgements are tributes. CONCENTRATION CHECK (agent): lowered from 72 / 0.60 to 68 / 0.54 because the 'unconventional' judgement rests on retrospective tributes from one biographer and one festschrift speech."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gursey_dsb, src_gursey_pt, src_gursey_bogazici | 1957-1976 | scientific biography, colleague obituary, memorial archive] Several distinct proposals are documented: the Pauli-Gürsey transformation (1957) and the 1959 nonlinear chiral sigma model, the 1964 SU(6) extension with Radicati and the 1976 E6 unified-gauge-theory model with Ramond and Sikivie; the Yale obituary says the early work 'drew immediate attention'. The sources describe the results and their later significance, not how he came to the ideas, and the sigma model and SU(6) were shared or built on others' work (Pauli, Radicati, Gell-Mann and Zweig's quarks). SELF-CALIBRATION (agent): lowered from 68 / 0.52 to 64 / 0.46 because originality here rests on the later success of the ideas and on tributes, a risk of outcome bias."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gursey_dsb, src_gursey_pt, src_gursey_bogazici | 1957-1990 | scientific biography, colleague obituary, memorial archive] The biography says his work is characterised by skill in finding symmetries in physical systems and expressing them in group-theoretical terms (chiral and SU(6) symmetries, de Sitter and conformal groups, exceptional groups); the Yale obituary praises his use of group theory and his bridging of physics and mathematics; the archive quotes Goldhaber placing him near the 'Olympian' end, guided by general principles. Documented across three kinds of source, but the sources are praise of method rather than accounts of how he reasoned. CONCENTRATION CHECK (agent): lowered from 72 / 0.56 to 68 / 0.50 because the method characterisation is largely the biographer's summary repeated by tributes."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gursey_dsb, src_gursey_pt, src_gursey_bogazici | 1951-1991 | scientific biography, colleague obituary, memorial archive] His own research moved between particle symmetries, general relativity and Mach's principle, de Sitter space, conformal field theory and octonionic algebras (scientific biography); the Yale obituary adds that he helped bridge physics and mathematics at Yale and had broad knowledge of history, literature and the arts; the archive shows sketchbooks, poems and BBC cultural programmes from his student years in England. Most of the documented range stays inside theoretical physics and mathematics, which keeps the score moderate."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gursey_dsb, src_gursey_pt, src_gursey_bogazici | 1952-1990 | scientific biography, colleague obituary, memorial archive] The biography's bibliography lists joint papers with Radicati, Orfanidis, Ramond and Sikivie, Tze, Alhassid and Iachello, and Balakrishna and Wali; the archive documents the 1950s seminars he organised with Kortel and Arf and the 1962 group-theory summer school; the Yale obituary says he was open to people of diverse backgrounds, willing to help and a strong influence in linking the physics and mathematics departments at Yale. Co-authorship and organising are documented; how he worked with others day to day is not."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_gursey_bogazici, src_gursey_dsb, src_gursey_pt, src_gursey_metu | 1954-1976 | memorial archive, scientific biography, colleague obituary, departmental record] The archive describes the 1950s seminars and physics lessons he gave with Arf and Kortel to spread new fields in Turkey, his return in 1961 and METU teaching, and his 1968-69 TÜBITAK award speech arguing that high energy physics should be supported; the METU department record independently credits him with starting high energy physics research there in 1966 and shows him chairing theoretical physics in 1968-69; the biography credits him with starting a school of theoretical physics in Turkey through his students and the Yale obituary notes his concern for third world nations. CONCENTRATION CHECK (agent): lowered from 64 / 0.50 to 60 / 0.44 because the seminar narrative and speech come from the memorial archive built by his students and the Turkish-school claim from a single biographer."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_gursey_dsb, src_gursey_pt | 1951-1996 | scientific biography, colleague obituary] Quaternions appear in his Istanbul papers of 1951-56 and again in a 1980 paper with Tze and a 1996 book on division and Jordan algebras, and he renewed octonionic and exceptional-group work from 1973; the Yale obituary calls him a proponent of quaternionic analyticity. A long-running research programme is documented, but no source describes setbacks or how he kept going, so this is an inference from the publication record."
+    },
+    "aesthetic_sensitivity": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_gursey_bogazici, src_gursey_pt | 1930s-1990 | memorial archive, colleague obituary] The archive shows sketches and small poems he drew and wrote from youth onward and quotes his award speech ending on the beauty of high energy physics; the Yale obituary says his interests extended to literature and the arts and praises the elegance of his methods. The sketchbooks are documented by one memorial archive and the speech is his own words, so this stays a modest inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "페자 귀르세이"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No defensible lifetime or rights-cleared portrait found after one bounded retry. (1) The lead, Commons 'Feza Gürsey.jpg' (864x486, uploaded as 'own work' by Nedim Sancar, dated 2022-09-04, CC BY-SA 4.0), is a black-and-white portrait of a man who died in 1992 and is tagged {{Wrong license}} on Commons, so the claimed 2022 own-work authorship and licence cannot be a valid chain for a lifetime photograph; no real photographer, date or permission is stated. (2) Boğaziçi University Digital Archive item records (family and career photographs of Gürsey) sit behind a bot-verification wall; the records were not read and the wall was not bypassed, and search-snippet 'Open Access' metadata is not a reuse licence or photographer record. The Boğaziçi Archives exhibition page gives no photograph credits or rights statement. (3) AIP Emilio Segre Visual Archives / Niels Bohr Library 'Portrait of Gursey' (Physics Today collection) returned HTTP 403 and no rights statement could be read. (4) Yale physics-department obituary page is no longer served (404) and no Yale open-access image was found. Next step: ask the Boğaziçi Physics Department / Feza Gürsey Archive or the AIP archive for a licensed portrait, or find a dated, credited lifetime photograph with explicit terms."
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (lead) / lead DID NOT SURVIVE; portrait HELD after one bounded retry. The lead (Commons 'Feza Gürsey.jpg', CC BY-SA 4.0, 'own work' by Nedim Sancar dated 2022-09-04) is a black-and-white portrait of a man who died in 1992 and carries a {{Wrong license}} tag on Commons, so the claimed own-work chain is not credible and no real photographer, date or permission is stated. The Boğaziçi Digital Archive item records were behind a bot-verification wall (not bypassed), the AIP Emilio Segre record returned 403, and the Yale obituary page is gone (404); no alternative lifetime image with explicit terms was found. Research is kept; only the portrait is open. PREFLIGHT: QID VERIFIED LIVE (2026-11-13, Wikidata API) Q1136035 label 'Feza Gürsey', description 'Turkish physicist (1921-1992)', instance of human, born 1921-04-07, died 1992-04-13, citizenship Turkey, Korean label 페자 귀르세이; no existing candidate with this slug or QID. REGION west_asia (Turkish precedents Orhan Pamuk, Aziz Sancar, Osman Hamdi Bey, Ataturk). ERA 20th_century. KO NAME 페자 귀르세이 is the Wikidata Korean label. ZERO POLITICS: only physics, mathematics and teaching are scored; his METU department chairmanship is scored only as science institution-building. VOCABULARY: occupations physicist, mathematician; fields physics, mathematics; tags theorist, mentor, independent; archetype scientific_explorer; impact domains scientific, educational. ATTRIBUTION: attributable (dated papers, named collaborators, institutional posts). CANONICAL SIGNIFICANCE SOURCE: Saclioglu, Complete Dictionary of Scientific Biography entry (src_gursey_dsb). READ: DSB entry (full), Physics Today March 1993 obituary (full, hosted scan of the printed page), Boğaziçi Archives online exhibition (full), METU Physics Department history page (read), plus a Turkish-mathematicians blog and a neglected-science page that were read for orientation and are not cited. Not opened: the Physics Today and Boğaziçi item records behind walls/paywalls, the 1992 New York Times obituary (403), Yale page (404), Serdaroglu's book, Wikipedia (not used). PERSPECTIVES: scientific reference biography by a physicist of his Turkish circle; Yale colleagues' obituary; memorial archive of his students; a departmental record. NON-SELF BEHAVIOURAL SOURCES: DSB, Physics Today obituary, METU record; the archive quotes his own letters and speech. LIMITS: all substantive sources are admiring tributes; no adversarial or critical source was found; the DSB, Physics Today and archive disagree on the dates of his METU and Yale posts (1969, 1965/1968 and 1974 respectively) so no post dates are carded. Sparse 8-row profile by design; no diagnosis, family life or health details used (his cancer and family are not scored). MAJOR ACHIEVEMENT GATE PASS: cards (1) SU(6) with Radicati, (2) Pauli-Gürsey transformation and chiral sigma model, (3) exceptional groups and E6 unification. SELF-CALIBRATION: lowered independent_thinking, systems_abstraction, impact_motivation (concentration) and creative_originality (outcome bias), see handback; no raise flags. Candidate status portrait_pending because only the portrait is unresolved."
+  }
+}

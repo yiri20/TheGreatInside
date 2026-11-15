@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ronald-ross",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ronald Ross",
+    "aliases": [
+      "Sir Ronald Ross"
+    ],
+    "wikidataId": "Q102034",
+    "birthYear": 1857,
+    "deathYear": 1932,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "medical_researcher",
+      "poet"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology",
+      "literature"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "field_researcher",
+      "polymath"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ross_wikidata",
+      "kind": "wikidata",
+      "title": "Ronald Ross (Q102034), verified live via the Wikidata API (2026-11-07): English label 'Ronald Ross', description 'British doctor, Nobel laureate, writer, and artist (1857-1932)', instance of human, born 13 May 1857, died 16 September 1932, citizen of the United Kingdom, Korean label 로널드 로스. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q102034"
+    },
+    {
+      "id": "src_ross_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Ross, Ronald' by J. K. Crellin (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: shows how, after Patrick Manson persuaded him in 1894 of Laveran's parasite and the mosquito theory, he worked in India from 1895 to 1898 to prove that mosquitoes carry malaria, saw the pigmented cyst in the stomach wall of an Anopheles on 20 August 1897 and then followed the parasite's life cycle, including the salivary glands, in caged birds; the Italian workers completed the human cycle and a bitter priority dispute followed; afterwards at Liverpool he turned to malaria prevention campaigns, the Ross Institute (1926) and his writings in verse and prose. Reference-work biography; notes his 'pugnacious streak', the bitterness of his autobiography and that Manson always gave him full credit for the practical work, while it also records the questions raised about Manson's share.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/ross-ronald"
+    },
+    {
+      "id": "src_ross_nobel",
+      "kind": "institution",
+      "title": "Nobel Foundation, 'Ronald Ross - Biographical' (NobelPrize.org; text prepared at the time of the 1902 award and reprinted in Nobel Lectures, Physiology or Medicine 1901-1921; read in full): says that after two and a half years of failure he showed the life cycle of the malaria parasites in mosquitoes, lists his posts at Liverpool, King's College Hospital, the War Office and the Ross Institute, describes his prevention surveys in West Africa, the Suez Canal zone, Greece, Mauritius and Cyprus and his mathematical models of malaria epidemiology (1908, 1911, Royal Society papers of 1915-16), and that he was also poet, playwright, writer and painter; says his single-minded search for truth caused friction with some people. Institutional text, admiring, and drawn largely from the laureate's own account.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1902/ross/biographical/"
+    },
+    {
+      "id": "src_ross_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Sir Ronald Ross' (read): British doctor, Nobel Prize 1902; entered the Indian Medical Service, began his malaria investigations in 1895 on Patrick Manson's guidance, found the parasite in an Anopheles mosquito in 1897 and, using sick birds, worked out the life cycle and showed transmission from infected to healthy birds; joined the Liverpool School of Tropical Medicine in 1899; knighted 1911; wrote mathematical papers, poems, fiction and The Prevention of Malaria (1910). Short reference article, celebratory.",
+      "url": "https://www.britannica.com/biography/Ronald-Ross"
+    },
+    {
+      "id": "src_ross_smith2012",
+      "kind": "biography",
+      "title": "David L. Smith and colleagues, 'Ross, Macdonald, and a Theory for the Dynamics and Control of Mosquito-Transmitted Pathogens', PLoS Pathogens 8(4), 2012 (open-access historical review; the sections on Ross, his models, his 1902-1911 writings and the thick film were read). INDEPENDENT SCHOLARSHIP: says Ross 'casts the longest shadow' on mosquito-borne disease through his quantitative theory; describes his 1904 mathematical critique of the failed Mian-Mir larval-control trial, his 1908 Mauritius model and 1911 differential-equation model, his argument that it was not necessary to kill every mosquito to end transmission, his informal cost-effectiveness arguments, his thick-film microscopy and his 1897 letters to Manson reasoning quantitatively; also stresses that the Ross-Macdonald model developed over seventy years with several contributors, that Ross developed no useful entomological metrics and that Macdonald supplied the entomological theory and the quantitative theory of control.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3320609/"
+    },
+    {
+      "id": "src_ross_capanna",
+      "kind": "biography",
+      "title": "Ernesto Capanna (University of Rome), 'Grassi versus Ross: who solved the riddle of malaria?', International Microbiology 9: 69-74, 2006 (read in full). COUNTER-VOICE and partisan toward Grassi: recounts Grassi's 1898 Anopheles experiments, says Ross was 'not a zoologist' and lacked systematics (his 'grey mosquito' and 'dappled-winged' descriptions were not valid names), says that from the end of 1900 Ross began a defamatory campaign to claim priority 'surely with the prospect of the Nobel prize in mind' and even accused Grassi of fraud over note dates, notes that Robert Koch was appointed arbiter, and quotes the historian Bynum that the dispute is 'one of the least attractive episodes in the whole history of malariology'. Says science historians now attribute equal merit to both and that Ross's approach was 'empirical and intuitive'.",
+      "url": "https://revistes.iec.cat/index.php/IM/article/download/9552/9548"
+    },
+    {
+      "id": "src_ross_memoirs",
+      "kind": "biography",
+      "title": "Ronald Ross, 'Memoirs, with a full account of the great malaria problem and its solution' (London: John Murray, 1923; Internet Archive full text; READ IN PART by full-text search: the Mosquito Day passage, his turn to mathematics in Madras in 1882, and the chapter 'Roman Brigandage' on the Grassi controversy). SELF-ACCOUNT, not independent: shows his own polemical voice against Grassi, Bignami and Bastianelli ('pirates'; 'nothing new of fundamental importance was added'), the quotation of Manson's letters, and his self-education in mathematics.",
+      "url": "https://archive.org/details/memoirswithfulla00rossuoft"
+    },
+    {
+      "id": "src_ross_apte",
+      "kind": "biography",
+      "title": "C. V. Apte, 'Sir Ronald Ross (born 13 May 1857, died 16 Sep 1932)', Medical Journal Armed Forces India (History of Medicine), PMC5530821 (read in full). A summary of Ross's Memoirs, so not independent of them: his 1895 mosquito-water drinking experiment, the interruptions from his seniors, his decision to resign from the Indian Medical Service in 1899, and the remark that his experiments continued despite no support in money or material from the organisation he served.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5530821/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ross_dsb, src_ross_nobel, src_ross_apte, src_ross_memoirs | 1895-1899 | reference biography, institutional biography, memoir summary, memoir] The DSB says that Manson's letters sustained him through more than three years of difficulties (technique, obtaining volunteer patients, regimental duties, unsympathetic superiors) and the Nobel biography that he succeeded after two and a half years of failure; the summary of his Memoirs adds that he kept experimenting despite repeated interruptions and no support in money or material from the Indian Medical Service. The pattern is documented, but the accounts of the obstacles come mostly from his own memoir and letters. CONCENTRATION (agent): lowered from 74 / 0.60 to 70 / 0.52 because the obstacles and the self-funding come from one family (his own account in the Nobel text, the Memoirs and a summary of the Memoirs) with the DSB the only other voice."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ross_dsb, src_ross_britannica, src_ross_capanna, src_ross_apte | 1895-1898 | reference biography, reference article, historical article, memoir summary] Three distinct experiments are described: drinking water contaminated with mosquitoes and their larvae to test the water route (DSB, summary of Memoirs), dissecting mosquitoes of different species and spacing the examinations to follow the parasite's development (DSB), and moving to caged birds to follow the whole life cycle and show transmission from infected to healthy birds by bite (DSB, Britannica, Capanna). The sources describe the experiments but not how he chose between designs."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ross_smith2012, src_ross_nobel, src_ross_capanna, src_ross_dsb | 1897-1916 | independent historical review, institutional biography, partisan historical article, reference biography] Smith and colleagues describe quantitative reasoning in his 1897 letters to Manson, his 1904 mathematical critique of the Mian-Mir trial (larval control cannot be judged unless done intensively enough, long enough and at a large enough scale) and models in 1908 and 1911, and the Nobel biography lists his Royal Society papers of 1915-16. Counterweight: Capanna says he was not a zoologist and lacked systematic identification of the mosquitoes, and Smith says he developed no useful entomological metrics. SELF-CALIBRATION (agent): lowered from 68 / 0.56 to 64 / 0.50 because the quantitative-reasoning evidence is mathematical modelling rather than rigour in laboratory identification, and one source (Capanna, partisan) and Smith both record gaps."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ross_smith2012, src_ross_nobel | 1904-1916 | independent historical review, institutional biography] Smith and colleagues say his 1908 and 1911 models related the ratio of mosquitoes to people to the number of infected people, showed a critical mosquito density below which transmission would not be sustained and that killing every mosquito was unnecessary, and that his 'a priori pathometry' helped found the study of disease dynamics; the Nobel biography calls the models perhaps his greatest contribution to epidemiology. Smith also stresses that the later Ross-Macdonald theory had several contributors. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 66 / 0.52 because the strong evidence is one independent review (Smith) and the Nobel text is his own account; the review itself says the theory had many contributors."
+    },
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ross_dsb, src_ross_nobel, src_ross_britannica, src_ross_smith2012 | 1881-1932 | reference biography, institutional biography, reference article, independent historical review] The sources document sustained work in medicine and parasitology, in mathematics (self-taught while in the Indian Medical Service; papers on pure and applied mathematics and epidemiological models), and in literature (plays, poems, fiction), with painting also noted. Independent scholarship confirms the mathematical output; the artistic output is described by the reference biographies and the Nobel text only. CONCENTRATION (agent): lowered from 72 / 0.58 to 70 / 0.54 because the arts side rests on reference-work biographies that draw on the same sources; only the mathematics is independently confirmed."
+    },
+    "aesthetic_sensitivity": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_ross_dsb, src_ross_nobel, src_ross_britannica | 1897-1932 | reference biography, institutional biography, reference article] He wished as a youth to be an artist, published plays, short dramas, romances, fables and poetry that John Masefield approved, wrote the poem 'Exile' that includes verses written on 21 August 1897, and is called poet, playwright, writer and painter by the Nobel text. The sources document the output, not his taste or sensitivity as such, and none is independent of the others in kind. CONCENTRATION (agent): lowered from 68 / 0.52 (strong_inference) to 62 / 0.46 (inference) because one family of reference biographies documents the output and none speaks to taste or sensitivity."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ross_dsb, src_ross_capanna, src_ross_memoirs, src_ross_nobel | 1899-1902 | reference biography, partisan historical article, memoir, institutional biography] The DSB says a pugnacious streak often aroused hostility, the Nobel biography that his single-minded search for truth caused friction, and Capanna says that from late 1900 he campaigned publicly against Grassi and his colleagues over priority and accused Grassi of fraud; in his own chapter on the controversy he calls the Italian workers 'pirates' and writes that 'nothing new of fundamental importance was added'. The Grassi episode is the main evidence and Capanna is partisan. SELF-CALIBRATION (agent): top-risk row; lowered from 76 / 0.58 to 72 / 0.54 because the main episode (the Grassi dispute) is described by a partisan source and by his own memoir, while the DSB and Nobel phrases on his temperament are summary adjectives."
+    },
+    "competitiveness": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ross_capanna, src_ross_memoirs | 1900-1902 | partisan historical article, memoir] The priority dispute shows a strong interest in being credited, and Capanna reads it as made with the Nobel Prize in prospect, which is an interpretation by a historian sympathetic to Grassi; Ross's own account claims the field's later work added nothing of fundamental importance. No independent source describes rivalry outside this episode. SELF-CALIBRATION (agent): lowered from 66 / 0.46 to 62 / 0.40 because the Nobel motive is Capanna's interpretation and the whole row rests on one episode."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ross_apte, src_ross_nobel, src_ross_smith2012, src_ross_dsb | 1895-1926 | memoir summary, institutional biography, independent historical review, reference biography] He pursued the mosquito hypothesis in India largely on his own initiative and, according to the summary of his Memoirs, spent considerable sums of his own; later he carried out surveys and prevention schemes in West Africa, the Suez Canal zone, Greece, Mauritius and Cyprus and set up anti-malaria organisations in the planting industries (Nobel biography), answered the failed Mian-Mir trial with a mathematical critique (Smith), and led the Ross Institute from 1926 (DSB). Most of the early self-funding detail comes from his own memoir. CONCENTRATION (agent): lowered from 72 / 0.56 to 68 / 0.52 because the early self-funding rests on a summary of his own Memoirs and the prevention-scheme list on the Nobel text drawn from his own account; Smith and the DSB are independent only for the Mian-Mir response and the Ross Institute."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ross_dsb, src_ross_nobel, src_ross_smith2012 | 1888-1926 | reference biography, institutional biography, independent historical review] The DSB quotes his later reflection that he had asked what he had attempted towards bettering mankind by finding the causes of diseases; the Nobel text says his interest lay mainly in starting malaria-prevention measures in many countries, and Smith and colleagues describe his arguments for multi-pronged control, including its low cost relative to health benefits. The motive is documented chiefly by his own retrospective statement; his conduct (prevention work) is documented independently. CONCENTRATION (agent): lowered from 70 / 0.54 to 66 / 0.50 because the motive is his own retrospective statement quoted by the DSB; the independent evidence (Smith) documents conduct and cost arguments, not motive."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로널드 로스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ronald-ross-popular-science-monthly-1915.jpg",
+    "width": 858,
+    "height": 1200,
+    "source": "Halftone portrait of Sir Ronald Ross printed as a full-page plate (page 67, caption 'Sir Ronald Ross') in L. O. Howard, 'Some Pioneers in Mosquito Sanitation and Other Mosquito Work', The Popular Science Monthly, volume 87 (July to December 1915), New York, The Science Press; scan at the Internet Archive (popularsciencemo87newy); photographer not named (Howard says he secured the photographs of living workers himself and that 'the faces of the men themselves are like their photographs'). The file is the Wikimedia Commons extract of the plate (1572 x 2199 pixels) downscaled to 858 x 1200 with no upscaling.",
+    "license": "Public domain by age: published in New York in 1915 (before 1931); the photographer is not named and the Internet Archive record states no rights of its own",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unnamed photographer, Sir Ronald Ross, plate in The Popular Science Monthly vol. 87, 1915 (Internet Archive scan; extracted and downscaled).",
+    "attributionUrl": "https://archive.org/details/popularsciencemo87newy",
+    "creator": "Unnamed photographer (reproduced by The Science Press, New York)",
+    "date": "1915 (published; the photograph is undated and was taken before 1915)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/popularsciencemo87newy"
+  },
+  "provenance": {
+    "createdAt": "2026-11-07T00:00:00Z",
+    "updatedAt": "2026-11-07T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED: the lead (Commons 'Ronald Ross.jpg', NLM item 101427700) did not survive. The NLM Digital Collections record (Images from the History of Medicine, 'Dr. Ronald Ross, C.B., The Hero of the Mosquito Theory of Malaria', halftone, no creator, no date, 'NLM believes this item to be in the public domain') gives no publication date or publisher, and the Commons PD-USGov-NIH template is not a basis (the NLM merely holds a reproduction); the NLM page was read, no restriction found, but the date and underlying publication are unknown so it was not used. Other routes checked: Library of Congress print LCCN 93511708 (AB Foto Ost, dated only 'between 1902 and 1932', no rights statement) and Wellcome Collection items (L0028508 CC BY with no creator or date, L0035995 coloured halftone with no creator or date, V0027104 a 1926 photograph after Janko Bragovitch) - none gave a verifiable creator, date and rights chain. REPLACEMENT: full-page halftone plate on page 67 of The Popular Science Monthly vol. 87 (July-December 1915, New York, The Science Press) in L. O. Howard's article 'Some Pioneers in Mosquito Sanitation and Other Mosquito Work' (Internet Archive popularsciencemo87newy, leaf n70); printed caption 'SIR RONALD ROSS' with the line 'Major Sir Ronald Ross, K.C.B. ... professor of tropical sanitation ... received the Nobel prize ... in 1902'; I looked at the scanned page (the plate and caption) and read the OCR. Rights basis: published in the United States in 1915 (before 1931); the photographer is not named and the Internet Archive record carries no rights statement; the sitter was alive and Howard states he secured the photographs of living workers himself and that the faces 'are like their photographs'. KIND likeness: a halftone of a photograph, undated, taken before 1915. Caveat: UK-side rights in an unattributed photograph are not separately established; the basis is US publication before 1931. Dimensions: Commons extract 1572 x 2199 downscaled to 858 x 1200 (no upscaling). PREFLIGHT: QID VERIFIED LIVE (2026-11-07, Wikidata API) Q102034 label 'Ronald Ross', description 'British doctor, Nobel laureate, writer, and artist (1857-1932)', human, born 1857-05-13, died 1932-09-16, citizen of the United Kingdom, ko label 로널드 로스. REGION western_europe (UK; born in Almora, India, as son of a British officer). ERA 20th_century (Nobel 1902 and thirty years of prevention work after the 1897 discovery; borderline with 19th_century). ZERO POLITICS: primary identity is physician and malaria researcher; his consultant posts for the War Office are scored only as prevention work. ATTRIBUTION: attributable, but shared credit is explicit: Laveran found the parasite and Manson proposed the mosquito hypothesis and guided him, Ross showed the avian cycle in mosquitoes, and Grassi's Rome group demonstrated human transmission in 1898; the cards say so. CANONICAL SIGNIFICANCE SOURCE: DSB entry by J. K. Crellin. READ (7 sources besides Wikidata): DSB (full), Nobel Foundation biography (full), Britannica (read), Smith and colleagues 2012 PLoS Pathogens (Ross sections), Capanna 2006 (full, pro-Grassi counter-voice), Ross Memoirs 1923 (read in part, self-account), Apte summary of the Memoirs (full). Wikipedia and a CDC page (bot wall) not used. PERSPECTIVES: reference biography, institutional text (Nobel), independent historical modelling review, partisan counter-historian, self-account. NON-SELF BEHAVIOURAL SOURCES: DSB, Smith, Capanna, Britannica. CONTRADICTIONS AND LIMITS: Capanna (pro-Grassi) says historians now attribute equal merit to Ross and Grassi; the DSB says Manson always gave Ross full credit; the summary of the Memoirs says Ross demonstrated the dapple-winged mosquito carried malaria to humans in 1897, which the DSB, Britannica and Capanna do not support (not used); no adversarial full-length biography (Nye and Gibson 1997) was opened. Sparse 10-row profile by design: no belief_updating or creative_originality row (his stance on Grassi and the Manson-derived hypothesis make both mixed). eligibility_v2 is not met (10 scored attributes) and was not scored toward. MAJOR ACHIEVEMENT GATE: PASS (cards: 1897 discovery and bird cycle with Nobel; models of transmission; prevention campaigns and Ross Institute). SELF-CALIBRATION: see handback (9 rows lowered, 5 of them for source-family concentration)."
+  }
+}

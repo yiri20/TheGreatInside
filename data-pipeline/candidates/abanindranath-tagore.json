@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "abanindranath-tagore",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Abanindranath Tagore",
+    "aliases": [
+      "Abanindra Nath Tagore",
+      "Abanindranath Thakur",
+      "Abanindra Nath Thakur"
+    ],
+    "wikidataId": "Q691796",
+    "birthYear": 1871,
+    "deathYear": 1951,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "IN"
+    ],
+    "regionCode": "south_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "painter",
+      "writer",
+      "teacher"
+    ],
+    "fieldIds": [
+      "art",
+      "literature",
+      "education"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "institution_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_abanindranath_wikidata",
+      "kind": "wikidata",
+      "title": "Abanindranath Tagore (Q691796), verified live via the Wikidata API (2026-11-13): English label 'Abanindranath Tagore', description 'Indian painter and writer (1871-1951)', instance of human, born 1871-08-07, died 1951-12-05, Korean label given only as the English name. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q691796"
+    },
+    {
+      "id": "src_abanindranath_map",
+      "kind": "biography",
+      "title": "MAP Academy Encyclopedia of Art entry on Abanindranath Tagore, reprinted as a book excerpt in ThePrint (13 August 2023; read in full). CANONICAL SIGNIFICANCE SOURCE: founder and leader of the Bengal School, which aimed at a distinctly Indian approach to painting; drew on Japanese ink wash, Mughal, Rajasthani and Pahari miniature; Bharat Mata (1905); Mughal-style paintings of 1902-05 including The Passing of Shah Jahan; ink wash learnt from pupils of Okakura Kakuzo hosted at Jorasanko in 1903; vice-principal of the Government College of Art in 1905 (resigned 1915); Indian Society of Oriental Art around 1907 as the first art salon in India; Rani Bageswari Professor at Calcutta University 1921-29; withdrew from the Bengal School agenda in the 1920s into a personal practice; wrote and illustrated children's books and treatises on art; later work rediscovered by Subramanyan, Guha-Thakurta and Siva Kumar. Non-profit art-history encyclopedia; admiring but notes the later move away from nationalism.",
+      "url": "https://theprint.in/pageturner/excerpt/abindranath-tagore-rejected-european-art-promoted-hindu-spirituality-to-convey-indianness/1712948/"
+    },
+    {
+      "id": "src_abanindranath_majumdar",
+      "kind": "press",
+      "title": "Soumik Nandy Majumdar, 'Abanindranath Tagore: a reappraisal', Aakriti Art Gallery journal (Kolkata, July 2011; read in full, with its notes). Critical-reappraisal essay drawing on Guha-Thakurta, Siva Kumar, Subramanyan and Banerji: his lessons in Western realism in 1891-92 and dissatisfaction with it, Havell and the Mughal miniature route, the wash technique brought by Okakura's artists around 1903, his teaching at the Government School of Art and first pupils (Nandalal Bose, Surendranath Ganguly), his 1924 letter calling mindless 'Indian art' derivation 'burglary', the Arabian Nights series (1930), his late assemblage figures (kutum katam), and the argument that labelling him only a Bengal School leader distorts his work. Gallery-journal essay; shares scholarly sources with the MAP entry.",
+      "url": "https://www.aakritiartgallery.com/issues/31872011/abanindranath-tagore-a-reappraisal"
+    },
+    {
+      "id": "src_abanindranath_cyclopedia",
+      "kind": "biography",
+      "title": "The Cyclopedia of India, vol. I (Calcutta: The Cyclopedia Publishing Company, 1907), page 202, entry 'Abanindra Nath Tagore' (read on the Internet Archive scan; OCR and page image). Contemporary directory biography: Vice-Principal of the Government School of Art, Calcutta, born 1871, great-grandson of Dwarka Nath Tagore; says he followed the Mogul tradition without becoming an imitator and formed his own style, that his work had been reproduced in The Studio 1902-05, and that 'The Last Days of Shah Jehan' gained special notice at the Delhi Durbar. Subject-supplied or compiler-written directory entry, so promotional in tone.",
+      "url": "https://archive.org/details/india.history.resource.100260"
+    },
+    {
+      "id": "src_abanindranath_dag",
+      "kind": "institution",
+      "title": "DAG (art gallery), artist page and timeline for Abanindranath Tagore (read in full). COMMERCIAL GALLERY SOURCE: dated chronology of his training under Ghilardi and Palmer, the Krishna Lila series, the wash technique under Okakura's pupils Taikan and Hishida, Bharat Mata (1905), the Indian School (Society) of Oriental Art in 1907, the Rupam journal with Gaganendranath in 1919, his eight years without painting (1930-38), the 1938 style experiments, kutum katam figures and the Visva-Bharati post; notes Partha Mitter on his distancing from the Bengal School from 1922. Gallery biography; dates are consistent with the other sources except where noted.",
+      "url": "https://dagworld.com/abanindranathtagore.html"
+    },
+    {
+      "id": "src_abanindranath_banglapedia",
+      "kind": "biography",
+      "title": "Banglapedia (Asiatic Society of Bangladesh), 'Tagore, Abanindranath' by Dulal Sarker (read in full). Short national-encyclopedia biography: born 7 August 1871 at Jorasanko, left Sanskrit College in 1890, took lessons from Ghilardi, Palmer and the Japanese Taikan, his paintings Nirbasita Yaksa, Bharatmata and Shahjahaner Mrtyu, wrote Shakuntala (1895), Ksirer Putul (1896), Rajkahini and many later books, Bageshri professor at Calcutta University in 1921, Visva-Bharati in 1942, died 5 December 1951. Contains slips (Indian Society of Oriental Art dated '1970', principal of the Art College in 1898), so only the uncontested facts are used.",
+      "url": "https://en.banglapedia.org/index.php/Tagore,_Abanindranath"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abanindranath_map, src_abanindranath_majumdar, src_abanindranath_cyclopedia, src_abanindranath_dag | 1895-1930 | encyclopedia entry, gallery-journal essay, contemporary directory, gallery chronology] Three distinct episodes: the Krishna Lila series (1895-97) that blended Bengali Vaishnava narrative with miniature composition (DAG, Majumdar), a Mughal-miniature manner of 1902-05 that a 1907 directory says he followed 'without becoming an imitator' (Cyclopedia), and the Arabian Nights series (1930), which recasts the tales in his own Jorasanko neighbourhood and plays with miniature formats (Majumdar, DAG, MAP). CONCENTRATION (agent): lowered from 72 / 0.56 because the later episodes rest on one scholarly tradition (Guha-Thakurta and Siva Kumar, repeated by the MAP entry, the essay and the gallery) and originality is an evaluative judgment, not an observed behaviour."
+    },
+    "experimentation": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abanindranath_dag, src_abanindranath_majumdar, src_abanindranath_map | 1895-1942 | gallery chronology, gallery-journal essay, encyclopedia entry] The documented sequence of manner changes is long: Western pastel and oil portraits, Krishna Lila miniatures, Mughal-style paintings, Japanese wash learnt from Okakura's pupils around 1903, landscapes in watercolour and pastel in the 1920s, the Arabian Nights and Mask series (1929-30), a thick-contoured style in 1938 that the gallery calls his final experiment with style, then toy-like found-object figures (kutum katam). CONCENTRATION (agent): lowered from 72 / 0.56 because the three accounts overlap heavily in sources and dates, and the late-period items are described only in the gallery and essay."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abanindranath_banglapedia, src_abanindranath_map, src_abanindranath_majumdar | 1895-1947 | national encyclopedia, encyclopedia entry, gallery-journal essay] Besides painting he wrote and illustrated children's books (Shakuntala, Kshirer Putul, Bhutpatrir Dese), wrote treatises on art, a theatre-masks series and assemblage figures; Banglapedia lists the long bibliography and the essay says he 'writes art' and 'paints words'. SELF-CALIBRATION (agent): lowered from 66 / 0.52 because nearly all of it lies within visual art, art writing and illustration."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_abanindranath_majumdar, src_abanindranath_map, src_abanindranath_dag | 1924-1930 | gallery-journal essay, encyclopedia entry, gallery chronology] The essay quotes a 1924 letter in which he calls derivative 'Indian art' a form of burglary and says he told Nandalal Bose that following Ajanta, Greek or Japanese models was 'another man's way'; the MAP entry says he rejected academic doctrines and later distanced himself from the Bengal School agenda, and the gallery places this distancing from 1922. CONCENTRATION (agent): lowered from 66 / 0.50 (strong_inference) because the key quotation comes from one essay (his own words) and the distancing story is the same scholarly reading in all three sources."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_abanindranath_majumdar, src_abanindranath_map, src_abanindranath_dag | 1915-1942 | gallery-journal essay, encyclopedia entry, gallery chronology] He resigned from the Government College of Art in 1915, withdrew in the 1920s from public life into a personal practice 'on stubbornly different terms' (Guha-Thakurta, quoted by the essay), did not paint for eight years from 1930 and later made private toy-like figures. CONCENTRATION (agent): lowered from 68 / 0.50 (strong_inference) because the interpretation is one scholar's reading repeated across all three accounts; the later Visva-Bharati post (1942) shows he also accepted institutional roles. Impact is dual-edged: the withdrawal ended his leadership of the school he founded."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_abanindranath_map, src_abanindranath_dag, src_abanindranath_majumdar, src_abanindranath_banglapedia | 1905-1919 | encyclopedia entry, gallery chronology, gallery-journal essay, national encyclopedia] He helped set up the Indian Society of Oriental Art around 1907 as a venue for the new painting (MAP, DAG; Banglapedia gives a garbled date), taught informally at the Society and the Bichitra Sabha at Jorasanko, took the new advanced-design class at the Government School of Art, and with Gaganendranath started the art journal Rupam in 1919 (DAG). The founding acts are consistent across sources, though several describe collective family and expatriate efforts, not his sole initiative."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_abanindranath_majumdar, src_abanindranath_dag, src_abanindranath_map | 1897-1919 | gallery-journal essay, gallery chronology, encyclopedia entry] He worked with E. B. Havell, whom he called his guru (a 1911 letter quoted in the essay), set up the Society with European orientalists, taught with Gaganendranath and co-edited Rupam with him, and the Bichitra Club was a Tagore family venture. SELF-CALIBRATION (agent): lowered from 60 / 0.48 because the partnerships are described institutionally and mostly from the gallery and one essay, with little on how he worked with others day to day."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아바닌드라나트 타고르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/abanindranath-tagore-cyclopedia-of-india-1907.jpg",
+    "width": 629,
+    "height": 901,
+    "source": "Studio photograph of Abanindra Nath Tagore printed in the middle column of page 202 of The Cyclopedia of India, vol. I (Calcutta: The Cyclopedia Publishing Company, 1907), embedded in his own entry (Vice-Principal, Government School of Art, born 1871); I opened the Internet Archive scan (india.history.resource.100260, leaf n215 = printed page 202) and confirmed the same photograph. The file is the Wikimedia Commons extract of that plate (629 x 901), used as is: not resized and not upscaled.",
+    "license": "Public domain: photograph published in Calcutta in 1907 (before 1931, so out of copyright in the United States) in a book by a corporate publisher, photographer unnamed; also out of copyright in India (anonymous or publisher work, 60 years from publication)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photographer not named; plate in The Cyclopedia of India, vol. I, p. 202 (Calcutta: The Cyclopedia Publishing Company, 1907); Internet Archive scan.",
+    "attributionUrl": "https://archive.org/details/india.history.resource.100260",
+    "creator": "Unknown photographer; published by The Cyclopedia Publishing Company, Calcutta",
+    "date": "1907 (published; taken before 1907)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Abanindra_Nath_Tagore.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-13T00:00:00Z",
+    "updatedAt": "2026-11-13T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "QID VERIFIED LIVE (2026-11-13, Wikidata API) Q691796 'Abanindranath Tagore', 'Indian painter and writer (1871-1951)', human, born 1871-08-07, died 1951-12-05. REGION south_asia, ERA 20th_century, nationality IN; Korean name 아바닌드라나트 타고르 is a transliteration choice (the Wikidata ko label is the English name). ZERO POLITICS: only painting, teaching, writing and art-society founding are scored; the Swadeshi/nationalist framing of Bharat Mata is context, not scored. ATTRIBUTION: attributable. CANONICAL SIGNIFICANCE SOURCE: MAP Academy Encyclopedia of Art entry (via ThePrint). READ (5 besides Wikidata): MAP entry, Majumdar essay, Cyclopedia of India 1907 p.202, DAG gallery timeline, Banglapedia. Wikipedia not cited. Sparse 7-row profile by design; sources share one Guha-Thakurta/Siva Kumar scholarly tradition, so four rows were lowered for concentration and two in self-calibration (see handback). Conflicts not carded: his Government School of Art post (principal 1898 per Banglapedia; vice-principal 1905-15 per MAP, DAG and the essay). Not opened: Guha-Thakurta, Siva Kumar, Banerji books. portrait_preflight: plausible (lead) / REPLACED: the lead's Commons 'Abanindranath Tagore.jpg' is a copy from the dagworld.com gallery page with unknown date and author and no holder record, so it was not used; the 1907 Cyclopedia of India plate (Commons 'Abanindra Nath Tagore.jpg', same photograph verified on the Internet Archive page) was used instead. Caveat: the photograph has no printed caption, so identity rests on its placement inside his entry on p. 202 plus the Commons filename; the other portraits on the page carry captions, his does not. Rows not yet written; see handback."
+  }
+}
