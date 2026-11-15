@@ -226,6 +226,9 @@ A final review found two defects in the earlier draft; both were fixed on `feat/
   repair, so the general test freezes them as a ratchet baseline (new or Roster67 people must be clean) and the cleanup is a separate
   content task.
 
+Scoring lock after the repair commit `ea581bc`: committed candidate files 997, on-disk candidate files 997, checked 997, **0 flagged**
+(legacy 22 covered, 0 flagged); the repair changed only `fieldIds` in two candidate files.
+
 Not invalidated by the repair: the source-link sweep (no URL changed). Re-run: tsc, candidate validation, taxonomy tests, Roster67
 audit, full Vitest (8807/8807), calibration x2 (identical), the final build (1656), focused Playwright (142/142) and local QA (54
 shipped page loads at 375x812 with console capture on every navigation: 0 issues, 0 console events, 27 portraits 200).
