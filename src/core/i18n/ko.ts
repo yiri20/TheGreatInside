@@ -719,6 +719,8 @@ export const ko: Partial<Record<MessageKey, string>> & Partial<Record<PersonName
   "field.biology": "생물학",
   "field.engineering": "공학",
   "field.medicine": "의학",
+  "field.microbiology": "미생물학",
+  "field.psychology": "심리학",
   "field.environmental_science": "환경과학",
   "field.literature": "문학",
   "field.music": "음악",

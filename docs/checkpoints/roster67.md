@@ -133,9 +133,9 @@ Commons scan, holder records read only secondhand), Dayananda (small greyscale p
   contribution first in every card set; Singer leads with the sewing-machine redesign, Ross with the malaria finding, Mach with
   Die Mechanik). **0 Achievement corrections.** Editorial wording was patched by the lead to avoid health/private-condition
   language (Mansfield's illness references removed; Mach's documented 1898 stroke retained as a recorded fact).
-- **Taxonomy/region**: Southeast Asia is coded `south_asia` and Oceania `western_europe` (no ids exist); Walter Reed's `microbiology`
-  and Ernst Mach's `psychology` fieldIds were changed to curated ids because the Directory taxonomy requires every fieldId used by
-  >=2 people to be curated (a taxonomy surface change was deliberately avoided).
+- **Taxonomy/region**: Southeast Asia is coded `south_asia` and Oceania `western_europe` (no ids exist). Taxonomy repair (post-review,
+  see "Post-review repair" below): the first draft resolved the Directory `>=2 people` curation rule by *narrowing* Walter Reed's and
+  Ernst Mach's `fieldIds`; that was the wrong resolution and was reversed.
 - Korean display names: several are agent transliterations with no Wikidata ko label and need a Korean reviewer (Walikhanov,
   Rosalia de Castro, Orosa, Tan Kah Kee, Soga, Truong Vinh Ky, Mokhtar, Te Rangi Hiroa).
 
@@ -148,29 +148,30 @@ Commons scan, holder records read only secondhand), Dayananda (small greyscale p
 - `categoryCounts.ts` after:
 
 ```
-current: {"production":816,"visible":815,"categoriesProduction":{"science_knowledge":339,"arts_culture":302,"leadership_society":156,"building_discovery":259},"categoriesVisible":{"science_knowledge":339,"arts_culture":302,"leadership_society":155,"building_discovery":258}}
+current: {"production":816,"visible":815,"categoriesProduction":{"science_knowledge":340,"arts_culture":302,"leadership_society":156,"building_discovery":259},"categoriesVisible":{"science_knowledge":340,"arts_culture":302,"leadership_society":155,"building_discovery":258}}
 ```
 
 | | before prod | after prod | delta | before visible | after visible | delta |
 |---|---|---|---|---|---|---|
-| science_knowledge | 327 | 339 | +12 | 327 | 339 | +12 |
+| science_knowledge | 327 | 340 | +13 | 327 | 340 | +13 |
 | arts_culture | 290 | 302 | +12 | 290 | 302 | +12 |
 | leadership_society | 147 | 156 | +9 | 146 | 155 | +9 |
 | building_discovery | 251 | 259 | +8 | 250 | 258 | +8 |
 
-Category deltas exceed 27 because people count in more than one category by `fieldIds` mapping; production-vs-visible stays one
+Category deltas exceed 27 because people count in more than one category by `fieldIds` mapping; the science delta is +13 = +12 Roster67
+science people plus +1 existing person (Jean Piaget, whose only field `psychology` is now curated into `science_knowledge`); production-vs-visible stays one
 (Zheng He). **Distance to 1000: 184.** The ~750 checkpoint remains EXPANSION_GREEN; the next planned checkpoint is about 1000.
 
 ## Validation, calibration, build, browser QA
 
-- `tsc --noEmit` clean; `validateCandidates.ts` 0 errors, 0 warnings; full Vitest **8801/8801** (97 files; the first run after
-  wiring had 48 failures, all mechanical count-literal assertions plus the two taxonomy fieldId guards above).
+- `tsc --noEmit` clean; `validateCandidates.ts` 0 errors, 0 warnings; full Vitest **8807/8807** (97 files, final repaired state;
+  the first run after wiring had 48 failures, all mechanical count-literal assertions plus the taxonomy guard).
 - Calibration run twice: output identical, `meanSd=11.704`, eligible set unchanged, `dispersion.generated.ts` blob hash equal to
   HEAD (`73e0383...`; line-ending-only noise restored).
-- Final build (after the last production-visible change, the editorial readable-trait-name fix): `Generating static pages ...
+- Final build (from the final repaired data, after the taxonomy/label/fieldIds repair): `Generating static pages ...
   (1656/1656)` = **2 x 816 + 24**.
-- Focused Playwright (Person, Editorial, Directory, Compare, Trait Explanation, 142 tests): first run **142/142** (3.1 min), final
-  run after the last change **142/142** (2.6 min). The full Playwright suite was not run.
+- Focused Playwright (Person, Editorial, Directory, Compare, Trait Explanation, 142 tests): first run **142/142** (3.1 min), run after
+  the readable-id fix **142/142** (2.6 min), final run on the repaired data **142/142** (2.0 min). The full Playwright suite was not run.
 - Local 375x812 QA (Playwright Chromium, mobile emulation, **real sequential navigation through all 54 shipped EN-US/KO-KR
   pages with a console/pageerror/requestfailed listener attached to the one page for the whole run**): 0 horizontal overflow,
   0 broken images, KO display name present, first Achievement card present, portrait attribution present, 0 raw ids or
@@ -191,14 +192,43 @@ checked candidate JSON are identical (the 30 new files were committed before the
 
 ## Defects found
 
-1. **Raw trait ids in public editorial prose**: five profiles (Key, Weber, Nishi, Soga, Dayananda) rendered snake_case trait ids
-   (e.g. `conflict_tolerance`) in EN interpretation text. The agent brief omitted the "write readable trait names" rule from the
-   Roster40 lessons. Fixed in the EN text (9 lines), build and QA rerun. **Open follow-up:** the roster67 audit's raw-id guard did
-   not flag them although an isolated test using the same logic did; the cause was not determined and should be investigated
-   before relying on that guard.
-2. Directory taxonomy >=2 rule tripped by `microbiology` and `psychology` (see above).
+1. **Raw trait ids in public editorial prose**: five profiles (Key, Weber, Nishi, Soga, Dayananda) and Mach rendered snake_case trait ids
+   (e.g. `conflict_tolerance`) in EN interpretation text; the agent brief omitted the "write readable trait names" rule. Fixed in the EN
+   text (9 lines). **Root cause of the missed guard** (found in the post-review repair): the `RAW_ID` regex in the per-roster audits
+   since Roster42 contains literal backspace characters (0x08) where `\b` word boundaries were intended (an authoring-tool escape
+   collapse), so it could never match: the guard was dead in 25 audits (Roster42-67). The rendered surface itself
+   (`editorialText()` for each item's `textKey`/`interpretationKey`, as used by the profile page and the trait-explanation popover)
+   was already the traversed surface; there was no missed UI path.
+2. **Directory taxonomy >=2 rule resolved the wrong way** (reversed in the repair): see below.
 3. Agent portrait leads failed holder checks for 20 of 27 shipped candidates and all 3 holds; no silent upgrade of a grade.
 4. A generator header carried a stale ordinal ("thirty-first") and an assembler insertion mode needed a patch (below).
+
+## Post-review repair (2026-11-14, PR #81 before merge)
+
+A final review found two defects in the earlier draft; both were fixed on `feat/roster67` as an additional commit (no history rewritten):
+
+- **Taxonomy.** `src/core/people/directoryTaxonomy.ts` curates a `fieldId` into a Directory chip when at least 2 production people carry
+  it, and states that this is a UI-curation rule that must not alter `Person.fieldIds`. Roster67 pushed `microbiology` (Louis Pasteur,
+  Walter Reed) and `psychology` (Jean Piaget, Ernst Mach) over the threshold; the first draft narrowed Reed to `biology` and Mach to
+  `physics, philosophy` to avoid the new chips. That hid legitimate semantics. Final: Walter Reed `["medicine", "microbiology"]`, Ernst
+  Mach `["physics", "philosophy", "psychology"]`; `microbiology` and `psychology` added to `science_knowledge` in
+  `PROFESSION_CATEGORIES` (rule and threshold unchanged); labels `field.microbiology` Microbiology / 미생물학 and `field.psychology`
+  Psychology / 심리학 added to `en.ts`/`ko.ts`. Roster67 output and the people index were regenerated from the candidates; scores,
+  confidences, evidence types, impacts and eligibility are unchanged (114 eligible). Directory QA: both chips render with the right EN/KO
+  labels; the Microbiology filter returns Louis Pasteur and Walter Reed (KO: "전체 816명 중 2명"), the Psychology filter returns Jean
+  Piaget and Ernst Mach.
+- **Raw-id guard.** Root cause above (dead regex). Fixes: the Roster67 audit's `RAW_ID` now uses real `\b` boundaries and has a
+  control test (it matches `conflict_tolerance`/`creative_originality`/`proactive_agency`, accepts readable prose, and asserts the regex
+  source contains no backspace character); a general guard in `src/core/people/editorialValidation.test.ts` checks the resolved EN and
+  KO editorial text of every person against the real attribute-id vocabulary, with positive and negative controls, and was verified
+  to fail when a raw id is reintroduced. **Newly discovered pre-existing debt:** with a live guard, 189 older production people
+  (480 EN/KO texts, e.g. "high opportunity_sensing score") also render raw ids in editorial interpretations; they were outside this
+  repair, so the general test freezes them as a ratchet baseline (new or Roster67 people must be clean) and the cleanup is a separate
+  content task.
+
+Not invalidated by the repair: the source-link sweep (no URL changed). Re-run: tsc, candidate validation, taxonomy tests, Roster67
+audit, full Vitest (8807/8807), calibration x2 (identical), the final build (1656), focused Playwright (142/142) and local QA (54
+shipped page loads at 375x812 with console capture on every navigation: 0 issues, 0 console events, 27 portraits 200).
 
 ## Maintenance-friction observations (no maintenance done here)
 

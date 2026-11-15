@@ -7,6 +7,8 @@ import {
   type EditorialIssue,
 } from "./editorialValidation.js";
 import type { Person } from "../types.js";
+import { ATTRIBUTE_IDS } from "../attributes/attributes.js";
+import { editorialText } from "../i18n/editorial.js";
 
 function basePerson(overrides: Partial<Person> = {}): Person {
   return {
@@ -292,5 +294,95 @@ describe("editorialCoverageStats", () => {
     const stats = editorialCoverageStats([basePerson()]);
     expect(stats.koreanCoverage).toBe(1);
     expect(stats.peopleWithEditorial).toBe(0);
+  });
+});
+
+describe("no raw attribute ids in user-visible editorial prose", () => {
+  // The profile page and the trait-explanation popover render editorial text via editorialText(locale, key)
+  // for each item's textKey and interpretationKey (app/[locale]/people/[slug]/page.tsx,
+  // src/core/interpretation/traitExplanation.ts). That resolved text is the guarded surface.
+  // Roster67 QA found `conflict_tolerance`-style ids in rendered EN prose that per-roster audits missed because
+  // their RAW_ID regex had been corrupted into literal backspace characters; this test uses the real
+  // attribute-id vocabulary and has its own positive and negative controls.
+  function rawAttributeIds(text: string): string[] {
+    return ATTRIBUTE_IDS.filter((id) => id.includes("_") && new RegExp(`(^|[^a-z_])${id}($|[^a-z_])`).test(text));
+  }
+
+  it("control: detects representative raw ids as whole tokens", () => {
+    expect(rawAttributeIds("consistent with the profile's conflict_tolerance row")).toEqual(["conflict_tolerance"]);
+    expect(rawAttributeIds("the creative_originality and proactive_agency rows")).toEqual(
+      expect.arrayContaining(["creative_originality", "proactive_agency"]),
+    );
+  });
+
+  it("control: accepts readable prose", () => {
+    expect(rawAttributeIds("consistent with the profile's conflict tolerance row, though the sources disagree")).toEqual([]);
+    expect(rawAttributeIds("a strong creative originality and proactive agency")).toEqual([]);
+  });
+
+  // KNOWN PRE-EXISTING DEBT (found while repairing Roster67, 2026-11-14): these production people's older editorial
+  // interpretations render raw ids such as `opportunity_sensing` in the prose (189 people, 480 locale texts at the
+  // time). Cleaning them up is a separate content task. This list is a RATCHET: it is a frozen snapshot, so any
+  // person NOT on it (every new roster) fails this test if raw ids appear. Remove slugs as their prose is fixed.
+  const LEGACY_RAW_ID_PEOPLE = new Set<string>([
+    "abraham-lincoln", "ada-lovelace", "ahmed-zewail", "akio-morita", "al-biruni", "alan-turing", "albert-einstein",
+    "alexander-hamilton", "amartya-sen", "amelia-earhart", "andrew-carnegie", "anna-pavlova", "anton-chekhov",
+    "antoni-gaudi", "aung-san-suu-kyi", "barbara-mcclintock", "baruch-spinoza", "benjamin-franklin", "bette-davis",
+    "bob-marley", "br-ambedkar", "bruce-lee", "carl-jung", "catherine-the-great", "charles-darwin", "che-guevara",
+    "chien-shiung-wu", "coco-chanel", "desmond-tutu", "diego-rivera", "dorothea-lange", "dorothy-hodgkin",
+    "duke-ellington", "eleanor-roosevelt", "elizabeth-blackwell", "elizabeth-cady-stanton", "elizabeth-i",
+    "emilio-segre", "emmy-noether", "enrico-fermi", "enzo-ferrari", "ernest-hemingway", "ernest-shackleton",
+    "fahrelnissa-zeid", "fidel-castro", "florence-nightingale", "franz-kafka", "frederick-douglass",
+    "frederick-the-great", "fridtjof-nansen", "fyodor-dostoevsky", "gabriel-garcia-marquez", "galileo-galilei",
+    "genghis-khan", "george-bernard-shaw", "george-orwell", "georgia-okeeffe", "gertrude-bell", "giuseppe-garibaldi",
+    "grace-hopper", "gregor-mendel", "harriet-tubman", "hedy-lamarr", "henry-ford", "hildegard-of-bingen",
+    "ho-chi-minh", "homi-bhabha", "hypatia", "ibn-sina", "ida-b-wells", "indira-gandhi", "isaac-newton",
+    "isabella-bird", "james-baldwin", "james-joyce", "jane-goodall", "jawaharlal-nehru", "jean-jacques-rousseau",
+    "joan-of-arc", "john-d-rockefeller", "jorge-luis-borges", "katharine-hepburn", "katherine-dunham",
+    "katherine-johnson", "ken-saro-wiwa", "leo-tolstoy", "leonardo-da-vinci", "linus-pauling", "louis-armstrong",
+    "louis-pasteur", "lu-xun", "ludwig-wittgenstein", "luis-alvarez", "madam-cj-walker", "mahatma-gandhi",
+    "maimonides", "malala-yousafzai", "malcolm-x", "marcus-aurelius", "marie-curie", "marie-tharp", "mark-twain",
+    "marlene-dietrich", "martin-luther-king-jr", "mary-anning", "mary-shelley", "mary-wollstonecraft", "matsuo-basho",
+    "maya-angelou", "michael-faraday", "michelangelo", "miles-davis", "miriam-makeba", "muhammad-ali",
+    "muhammad-ali-jinnah", "murasaki-shikibu", "mustafa-kemal-ataturk", "naguib-mahfouz", "nawal-el-saadawi",
+    "nellie-bly", "nelson-mandela", "nicolaus-copernicus", "niels-bohr", "niki-lauda", "nikola-tesla", "nina-simone",
+    "norman-borlaug", "omar-khayyam", "oprah-winfrey", "oscar-niemeyer", "otto-von-bismarck", "pablo-neruda",
+    "pablo-picasso", "paul-erdos", "rabindranath-tagore", "rachel-carson", "ratan-tata", "rembrandt",
+    "richard-feynman", "roald-amundsen", "robert-falcon-scott", "rosa-parks", "rosalind-franklin", "rosalyn-yalow",
+    "rumi", "ruth-bader-ginsburg", "salvador-allende", "sebastiao-salgado", "seneca", "sequoyah", "serena-williams",
+    "sigmund-freud", "simone-biles", "socrates", "sofia-kovalevskaya", "sojourner-truth", "sor-juana-ines-de-la-cruz",
+    "srinivasa-ramanujan", "stephen-hawking", "steve-jobs", "subrahmanyan-chandrasekhar", "suleiman-the-magnificent",
+    "sun-yat-sen", "susan-b-anthony", "t-e-lawrence", "taha-hussein", "theodore-roosevelt", "thomas-aquinas",
+    "thomas-edison", "thomas-jefferson", "toni-morrison", "ulysses-s-grant", "umm-kulthum", "vera-rubin",
+    "vincent-van-gogh", "virginia-woolf", "wangari-maathai", "warren-buffett", "wilbur-wright", "william-wilberforce",
+    "wilma-rudolph", "winston-churchill", "wole-soyinka", "wolfgang-amadeus-mozart", "wu-zetian", "yayoi-kusama",
+    "yi-sun-sin", "zaha-hadid", "zora-neale-hurston",
+  ]);
+
+  it("the legacy baseline only names real production people", () => {
+    const slugs = new Set(SEED_PEOPLE.map((p) => p.slug));
+    for (const slug of LEGACY_RAW_ID_PEOPLE) expect(slugs.has(slug), slug).toBe(true);
+  });
+
+  it("no person outside the frozen legacy baseline has a raw attribute id in rendered editorial text (EN or KO, fact or interpretation)", () => {
+    const leaks: string[] = [];
+    for (const person of SEED_PEOPLE) {
+      if (LEGACY_RAW_ID_PEOPLE.has(person.slug)) continue;
+      const items = [
+        ...(person.editorial?.achievements ?? []),
+        ...(person.editorial?.moments ?? []),
+        ...(person.editorial?.turningPoints ?? []),
+      ];
+      for (const item of items) {
+        for (const key of [item.textKey, ...(item.interpretationKey ? [item.interpretationKey] : [])]) {
+          for (const locale of ["en-US", "ko-KR"] as const) {
+            const text = editorialText(locale, key);
+            if (!text) continue;
+            for (const id of rawAttributeIds(text)) leaks.push(`${key} (${locale}): ${id}`);
+          }
+        }
+      }
+    }
+    expect(leaks).toEqual([]);
   });
 });

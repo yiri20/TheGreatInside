@@ -496,7 +496,15 @@ describe("Roster67: cross-target identity integrity", () => {
 describe("Roster67: Major Achievement structural checks", () => {
   // Raw internal identifiers must never leak into rendered editorial prose:
   // source ids (src_...), attribute ids (snake_case), or unresolved keys.
-  const RAW_ID = /src_[a-z0-9_]+|[a-z]+_[a-z]+(?:_[a-z]+)*/;
+  const RAW_ID = /\bsrc_[a-z0-9_]+\b|\b[a-z]+_[a-z]+(?:_[a-z]+)*\b/;
+
+  it("the RAW_ID guard is live: it matches representative raw ids and accepts readable prose (control against a dead regex)", () => {
+    expect(RAW_ID.test("consistent with the profile's conflict_tolerance row")).toBe(true);
+    expect(RAW_ID.test("consistent with the creative_originality and proactive_agency rows")).toBe(true);
+    expect(RAW_ID.test("src_example_source")).toBe(true);
+    expect(RAW_ID.test("consistent with the profile's conflict tolerance row, although the sources disagree")).toBe(false);
+    expect(RAW_ID.source).not.toContain(String.fromCharCode(8));
+  });
 
   it.each(TARGETS)("%s has >=1 Achievement whose keys resolve in EN and KO, with no raw internal ids", (slug) => {
     const person = production[slug];
