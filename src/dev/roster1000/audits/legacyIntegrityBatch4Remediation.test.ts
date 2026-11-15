@@ -93,9 +93,8 @@ describe("Legacy integrity batch 4: cross-target identity integrity", () => {
     }
   });
 
-  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (816 people as of Roster47, 2026-10-11 -- this batch itself added none; the count reflects later roster-expansion cycles)", () => {
-    expect(SEED_PEOPLE).toHaveLength(816);
-    expect(PEOPLE_INDEX).toHaveLength(816);
+  it("SEED_PEOPLE and PEOPLE_INDEX remain in agreement (the current roster size, as of the latest roster -- this batch itself added none; the count reflects later roster-expansion cycles)", () => {
+    expect(PEOPLE_INDEX).toHaveLength(SEED_PEOPLE.length);
   });
 });
 

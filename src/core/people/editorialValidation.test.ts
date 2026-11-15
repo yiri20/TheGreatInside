@@ -7,8 +7,8 @@ import {
   type EditorialIssue,
 } from "./editorialValidation.js";
 import type { Person } from "../types.js";
-import { ATTRIBUTE_IDS } from "../attributes/attributes.js";
 import { editorialText } from "../i18n/editorial.js";
+import { applyRawIdRatchet, collectRawIdLeaks, findRawAttributeIds, type EditorialSubject } from "./editorialRawIds.js";
 
 function basePerson(overrides: Partial<Person> = {}): Person {
   return {
@@ -301,29 +301,29 @@ describe("no raw attribute ids in user-visible editorial prose", () => {
   // The profile page and the trait-explanation popover render editorial text via editorialText(locale, key)
   // for each item's textKey and interpretationKey (app/[locale]/people/[slug]/page.tsx,
   // src/core/interpretation/traitExplanation.ts). That resolved text is the guarded surface.
-  // Roster67 QA found `conflict_tolerance`-style ids in rendered EN prose that per-roster audits missed because
-  // their RAW_ID regex had been corrupted into literal backspace characters; this test uses the real
-  // attribute-id vocabulary and has its own positive and negative controls.
-  function rawAttributeIds(text: string): string[] {
-    return ATTRIBUTE_IDS.filter((id) => id.includes("_") && new RegExp(`(^|[^a-z_])${id}($|[^a-z_])`).test(text));
-  }
+  // Detection lives in ./editorialRawIds.ts: built from the real attribute-id list with plain string scanning
+  // (no regular expressions), because the per-roster audits' duplicated RAW_ID regexes (Roster42-67) had their
+  // word boundaries corrupted into literal backspace characters and never matched.
 
   it("control: detects representative raw ids as whole tokens", () => {
-    expect(rawAttributeIds("consistent with the profile's conflict_tolerance row")).toEqual(["conflict_tolerance"]);
-    expect(rawAttributeIds("the creative_originality and proactive_agency rows")).toEqual(
+    expect(findRawAttributeIds("consistent with the profile's conflict_tolerance row")).toEqual(["conflict_tolerance"]);
+    expect(findRawAttributeIds("the creative_originality and proactive_agency rows")).toEqual(
       expect.arrayContaining(["creative_originality", "proactive_agency"]),
     );
+    expect(findRawAttributeIds("(proactive_agency)")).toEqual(["proactive_agency"]);
   });
 
-  it("control: accepts readable prose", () => {
-    expect(rawAttributeIds("consistent with the profile's conflict tolerance row, though the sources disagree")).toEqual([]);
-    expect(rawAttributeIds("a strong creative originality and proactive agency")).toEqual([]);
+  it("control: accepts readable prose and does not match inside longer tokens", () => {
+    expect(findRawAttributeIds("consistent with the profile's conflict tolerance row, though the sources disagree")).toEqual([]);
+    expect(findRawAttributeIds("a strong creative originality and proactive agency")).toEqual([]);
+    expect(findRawAttributeIds("pre_conflict_tolerance_x is not a whole-token attribute id")).toEqual([]);
   });
 
   // KNOWN PRE-EXISTING DEBT (found while repairing Roster67, 2026-11-14): these production people's older editorial
   // interpretations render raw ids such as `opportunity_sensing` in the prose (189 people, 480 locale texts at the
   // time). Cleaning them up is a separate content task. This list is a RATCHET: it is a frozen snapshot, so any
-  // person NOT on it (every new roster) fails this test if raw ids appear. Remove slugs as their prose is fixed.
+  // person NOT on it (every new roster) fails this test if raw ids appear, and the baseline people's leaking texts
+  // may not grow beyond LEGACY_RAW_ID_MAX_TEXTS. Remove slugs / lower the maximum as their prose is fixed.
   const LEGACY_RAW_ID_PEOPLE = new Set<string>([
     "abraham-lincoln", "ada-lovelace", "ahmed-zewail", "akio-morita", "al-biruni", "alan-turing", "albert-einstein",
     "alexander-hamilton", "amartya-sen", "amelia-earhart", "andrew-carnegie", "anna-pavlova", "anton-chekhov",
@@ -358,31 +358,64 @@ describe("no raw attribute ids in user-visible editorial prose", () => {
     "wilma-rudolph", "winston-churchill", "wole-soyinka", "wolfgang-amadeus-mozart", "wu-zetian", "yayoi-kusama",
     "yi-sun-sin", "zaha-hadid", "zora-neale-hurston",
   ]);
+  const LEGACY_RAW_ID_MAX_TEXTS = 480;
+
+  const liveLeaks = () =>
+    collectRawIdLeaks(SEED_PEOPLE as unknown as readonly EditorialSubject[], (locale, key) => editorialText(locale, key));
 
   it("the legacy baseline only names real production people", () => {
     const slugs = new Set(SEED_PEOPLE.map((p) => p.slug));
     for (const slug of LEGACY_RAW_ID_PEOPLE) expect(slugs.has(slug), slug).toBe(true);
   });
 
-  it("no person outside the frozen legacy baseline has a raw attribute id in rendered editorial text (EN or KO, fact or interpretation)", () => {
-    const leaks: string[] = [];
-    for (const person of SEED_PEOPLE) {
-      if (LEGACY_RAW_ID_PEOPLE.has(person.slug)) continue;
-      const items = [
-        ...(person.editorial?.achievements ?? []),
-        ...(person.editorial?.moments ?? []),
-        ...(person.editorial?.turningPoints ?? []),
-      ];
-      for (const item of items) {
-        for (const key of [item.textKey, ...(item.interpretationKey ? [item.interpretationKey] : [])]) {
-          for (const locale of ["en-US", "ko-KR"] as const) {
-            const text = editorialText(locale, key);
-            if (!text) continue;
-            for (const id of rawAttributeIds(text)) leaks.push(`${key} (${locale}): ${id}`);
-          }
-        }
-      }
-    }
-    expect(leaks).toEqual([]);
+  it("no person outside the frozen legacy baseline has a raw attribute id in rendered editorial text (EN or KO, fact or interpretation), and the baseline did not grow", () => {
+    const result = applyRawIdRatchet(liveLeaks(), LEGACY_RAW_ID_PEOPLE, LEGACY_RAW_ID_MAX_TEXTS);
+    expect(result.newLeaks.map((l) => `${l.key} (${l.locale}): ${l.id}`)).toEqual([]);
+    expect(result.baselineGrew, `baseline people now leak in ${result.baselineTextCount} texts (max ${LEGACY_RAW_ID_MAX_TEXTS})`).toBe(false);
+    expect(LEGACY_RAW_ID_PEOPLE.size).toBe(189);
+  });
+
+  it("records the exact current legacy debt: 189 people / 480 locale texts (a lower number is allowed, a higher one fails)", () => {
+    const result = applyRawIdRatchet(liveLeaks(), LEGACY_RAW_ID_PEOPLE, LEGACY_RAW_ID_MAX_TEXTS);
+    expect(result.baselineTextCount).toBeLessThanOrEqual(480);
+    expect(result.baselinePeopleWithLeaks).toBeLessThanOrEqual(189);
+  });
+
+  describe("ratchet behaviour on synthetic data (never depends on the live roster)", () => {
+    const subject = (slug: string, text: string): EditorialSubject => ({
+      slug,
+      editorial: { moments: [{ textKey: `${slug}.m.1`, interpretationKey: `${slug}.i.1` }] },
+    });
+    const bundle: Record<string, string> = {
+      "old.i.1": "consistent with the profile's opportunity_sensing row",
+      "old.m.1": "A readable fact.",
+      "new.i.1": "consistent with the profile's conflict_tolerance row",
+      "new.m.1": "A readable fact.",
+      "ok.i.1": "consistent with the profile's conflict tolerance row",
+      "ok.m.1": "A readable fact.",
+    };
+    const textFor = (_locale: "en-US" | "ko-KR", key: string) => bundle[key];
+    const people = [subject("old", ""), subject("new", ""), subject("ok", "")];
+
+    it("accepts a known baseline person's existing leak", () => {
+      const result = applyRawIdRatchet(collectRawIdLeaks([people[0]!], textFor), new Set(["old"]), 2);
+      expect(result.newLeaks).toEqual([]);
+      expect(result.baselineGrew).toBe(false);
+    });
+
+    it("fails for one synthetic NEW raw trait-id leak by a person outside the baseline", () => {
+      const result = applyRawIdRatchet(collectRawIdLeaks(people, textFor), new Set(["old"]), 2);
+      expect(result.newLeaks.map((l) => `${l.slug}:${l.id}`)).toEqual(["new:conflict_tolerance", "new:conflict_tolerance"]);
+    });
+
+    it("passes readable trait prose", () => {
+      const result = applyRawIdRatchet(collectRawIdLeaks([people[2]!], textFor), new Set<string>(), 0);
+      expect(result.newLeaks).toEqual([]);
+    });
+
+    it("fails when the baseline person's leaking text count grows beyond the frozen maximum", () => {
+      const result = applyRawIdRatchet(collectRawIdLeaks([people[0]!], textFor), new Set(["old"]), 1);
+      expect(result.baselineGrew).toBe(true);
+    });
   });
 });
