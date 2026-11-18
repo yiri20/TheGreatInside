@@ -117,7 +117,7 @@ export const PROFESSION_CATEGORIES: readonly ProfessionCategory[] = [
   {
     id: "science_knowledge",
     labelKey: "people.directory.profession_category.science_knowledge",
-    fieldIds: ["philosophy", "natural_science", "mathematics", "physics", "chemistry", "biology", "engineering", "medicine", "environmental_science", "linguistics", "agriculture", "microbiology", "psychology"],
+    fieldIds: ["philosophy", "natural_science", "mathematics", "physics", "chemistry", "biology", "engineering", "medicine", "environmental_science", "linguistics", "agriculture", "microbiology", "psychology", "anthropology"],
   },
   {
     id: "arts_culture",
@@ -132,7 +132,7 @@ export const PROFESSION_CATEGORIES: readonly ProfessionCategory[] = [
   {
     id: "building_discovery",
     labelKey: "people.directory.profession_category.building_discovery",
-    fieldIds: ["business", "technology", "computing", "sport", "exploration"],
+    fieldIds: ["business", "technology", "computing", "sport", "exploration", "aviation"],
   },
 ];
 

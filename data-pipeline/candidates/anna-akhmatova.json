@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "anna-akhmatova",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Anna Akhmatova",
+    "aliases": [
+      "Anna Andreyevna Gorenko",
+      "Anna Gorenko",
+      "Anna Andreevna Akhmatova",
+      "Анна Ахматова"
+    ],
+    "wikidataId": "Q80440",
+    "birthYear": 1889,
+    "deathYear": 1966,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_akhmatova_wikidata",
+      "kind": "wikidata",
+      "title": "Anna Akhmatova (Q80440), verified live via the Wikidata API (2026-11-18): English label 'Anna Akhmatova', description 'Russian poet (1889-1966)', instance of human, born 11 June 1889 (Gregorian; 23 June in the Julian calendar), died 5 March 1966, Korean label 안나 아흐마토바. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q80440"
+    },
+    {
+      "id": "src_akhmatova_pf",
+      "kind": "biography",
+      "title": "Poetry Foundation, 'Anna Akhmatova' (long biographical and critical essay, read in full). CANONICAL SIGNIFICANCE SOURCE: regards her as one of Russia's greatest poets; her debut collection Evening (1912) brought immediate fame and Rosary (1914) was her most popular; she took part in the Acmeist Guild of Poets; she refused to emigrate after 1917 and held that a poet can only work in his own country; her publications were suppressed from 1925 (the next book appeared in 1940) and she survived on translation and essays on Pushkin; the cycle Requiem (1935-40) was composed under threat of arrest, whispered to friends who memorised it while she burned the paper; the 1946 Party resolution and Zhdanov speech, her expulsion from the Writers' Union and her son's rearrest in 1949; the 1949-50 cycle In Praise of Peace written to save her son; Poem without a Hero (begun 1940, rewritten into the 1960s, published 1965); the 1964 Taormina prize and 1965 Oxford honorary doctorate. Reference essay by an academic Slavist; admiring but names her compromises and her bohemian early life.",
+      "url": "https://www.poetryfoundation.org/poets/anna-akhmatova"
+    },
+    {
+      "id": "src_akhmatova_gale",
+      "kind": "biography",
+      "title": "Gale reference entry 'Akhmatova, Anna' (Encyclopedia.com reproduction, read in full). Encyclopedia-style summary: the nearly sixty-year career, Acmeism, the 1925 ban, the memorised-and-burned composition of Requiem, the wartime Leningrad radio broadcasts and Tashkent evacuation, the 1946 expulsion from the Writers' Union, the twelve patriotic poems written for her son's sake, Poem without a Hero, her later role as patron of younger poets such as Joseph Brodsky, and critical reception. Largely a condensation of the same scholarly tradition as the Poetry Foundation essay.",
+      "url": "https://encyclopedia.com/arts/encyclopedias-almanacs-transcripts-and-maps/akhmatova-anna"
+    },
+    {
+      "id": "src_akhmatova_figes",
+      "kind": "biography",
+      "title": "Orlando Figes, 'Anna the Great', The New York Review of Books, 22 June 2006 (review of Elaine Feinstein's biography Anna of All the Russias; read in full). Independent historian's critical reading drawing on Feinstein, Brodsky, Nadezhda Mandelstam, Nayman and a police report: her choice of pen name as a literary persona, her refusal to leave Russia after 1917, the unofficial ban from 1925 and her poverty, Requiem and the seventeen months in the prison queues, Stalin's reaction to the 1945 meeting with Isaiah Berlin and Zhdanov's 1946 attack, a police description of her as helpless in practical tasks and shy, friends' accusations of vanity and selfishness, her strained relationship with her son Lev after the camps, and Brodsky's view of a split between the poet and the sufferer. Critical and balanced rather than devotional.",
+      "url": "https://www.nybooks.com/articles/2006/06/22/anna-the-great/"
+    },
+    {
+      "id": "src_akhmatova_brown",
+      "kind": "biography",
+      "title": "Clarence Brown, 'Every Slightest Pebble', London Review of Books, vol. 17 no. 10 (May 1995; read in full). Eyewitness memoir by the American Slavist who met her in Komarovo in 1962, in London in 1965 and in Moscow a few days before her death in March 1966: her fast, focused talk about Mandelstam and her insistence on correcting false accounts, a single moment of prima-donna concern about her reputation, her habit of handing gifts to an aide, her view of translation as a chore done from duty, her mockery of the Struve and Lowell editions, her laughter and good spirits, and the circle of friends who wrote down her unwritten verse after her death. Also reviews Lydia Chukovskaya's journals. A named non-self witness with an admiring but candid tone.",
+      "url": "https://www.lrb.co.uk/v17/n10/clarence-brown/every-slightest-pebble"
+    },
+    {
+      "id": "src_akhmatova_puchner",
+      "kind": "biography",
+      "title": "Martin Puchner, 'Writing Poetry Under Stalin: Samizdat and Memorization' (excerpt from The Written World, Random House 2017, published on Literary Hub; read in full). Cultural-history account of how she composed Requiem in the mid-1930s without writing it down permanently: she memorised each section and burned the paper, read it to a dozen close women friends until they knew it by heart, and had a police file of some 900 pages despite taking no part in political activity; notes her plea to Stalin when her son was arrested in 1935. Independent scholarly framing, but its Requiem episode is the same story told by Chukovskaya's journals.",
+      "url": "https://lithub.com/writing-poetry-under-stalin-samizdat-and-memorization"
+    },
+    {
+      "id": "src_akhmatova_conversation",
+      "kind": "biography",
+      "title": "The Conversation, 'Hidden women of history: Lydia Chukovskaya, editor, writer, heroic friend' (2019; read in full). Popular-history article on Lydia Chukovskaya and her journals of Akhmatova: Akhmatova whispered Requiem to her, passed handwritten pages in silence in her bugged flat while saying aloud 'Will you have some tea?', and then burned the pages over an ashtray in what Chukovskaya called a ritual; Chukovskaya brought food to the impractical poet. Rests entirely on Chukovskaya's own diary, so it is a retelling of one eyewitness account.",
+      "url": "https://theconversation.com/hidden-women-of-history-lydia-chukovskaya-editor-writer-heroic-friend-108509"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_akhmatova_pf, src_akhmatova_figes, src_akhmatova_puchner, src_akhmatova_gale | 1925-1966 | reference essay, historian's review, cultural-history excerpt, reference entry] Her publications were suppressed from 1925 and she kept writing through the ban: Requiem was composed between 1935 and 1940 under threat of search and arrest, and Poem without a Hero was begun in 1940 and rewritten until the 1960s. SELF-CALIBRATION (agent): lowered from 78 / 0.62 to 76 / 0.60 because the dating of the rewriting of the later poem rests on the Poetry Foundation essay and the Gale entry (one tradition), though the ban, Requiem and the long rewriting are separate episodes."
+    },
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_akhmatova_pf, src_akhmatova_brown | 1920s-1966 | reference essay, eyewitness memoir] The essay shows a sustained scholarly and translating practice alongside her verse (essays on Pushkin, translations from several languages) and her stated belief in the poet's craft; Brown records her doing translation as a duty to the art of verse and correcting false texts attributed to her. SELF-CALIBRATION (agent): lowered from 72 / 0.54 to 68 / 0.50 because the craft attitude is largely the essay's reading of her own poem, and Brown (a single eyewitness) describes the translating as a chore."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_akhmatova_pf, src_akhmatova_figes, src_akhmatova_gale | 1912-1965 | reference essay, historian's review, reference entry] Sources describe a concise, concrete style and a strong female speaking voice that was new in Russian poetry, and later formally unusual works (Requiem as a mosaic of folk lament, liturgy and lyric; Poem without a Hero with its shifting time and half-quotations). SELF-CALIBRATION (agent): lowered from 74 / 0.58 to 70 / 0.52 because the novelty claim is a critical consensus repeated across the reference sources, not an independently documented act; the same sources stress her roots in Acmeism and the Russian classics."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_akhmatova_conversation, src_akhmatova_puchner, src_akhmatova_pf, src_akhmatova_brown | 1925-1966 | popular-history article, cultural-history excerpt, reference essay, eyewitness memoir] She devised a way to keep Requiem alive without a manuscript (whispering it to friends, silent handing of pages in her bugged flat, burning the paper) and lived through fifteen years without publication on translations, essays and friends' help; Brown notes translation was her livelihood. SELF-CALIBRATION (agent): lowered from 74 / 0.58 to 70 / 0.52 because the Requiem routine reaches us through one eyewitness (Chukovskaya) retold by the Conversation article and Puchner, so the independent support is thinner than four citations suggest."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_akhmatova_pf, src_akhmatova_figes | 1935-1965 | reference essay, historian's review] Requiem was framed as a memorial to all who shared her fate, and she spoke on Leningrad radio in 1941 and recited in Tashkent hospitals; Figes and Brodsky also report a split between the poet and the sufferer and her son's anger at her. SELF-CALIBRATION (agent): lowered from 68 / 0.52 to 64 / 0.46 (strong_inference to inference) because Figes notes she wrote very little civic verse and Brodsky distinguishes the poet from the sufferer, so the motive to serve others is inferred from outputs and from her own framing in the poem."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_akhmatova_pf, src_akhmatova_puchner, src_akhmatova_figes | 1935-1945 | reference essay, cultural-history excerpt, historian's review] She wrote Requiem when a single line could have meant arrest, refused emigration against friends' advice, and received a British diplomat in 1945, an encounter Stalin later treated as contact with a spy. SELF-CALIBRATION (agent): lowered from 62 / 0.48 to 58 / 0.42 because the burning and memorising of Requiem show careful management of danger rather than appetite for it, and the sources do not say whether she foresaw the consequences of the 1945 visit."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_akhmatova_pf, src_akhmatova_figes, src_akhmatova_gale | 1917-1965 | reference essay, historian's review, reference entry] She kept her classical, intimate manner while critics called her an anachronism and the state condemned her, held to her own view that a poet must live in Russia, and refused to annotate Poem without a Hero. SELF-CALIBRATION (agent): lowered from 66 / 0.50 to 62 / 0.46 (strong_inference to inference) because the clearest evidence is the same reference-essay account, and in 1949-50 she wrote conforming verse to try to free her son, which cuts the other way."
+    },
+    "perfectionism": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_akhmatova_pf, src_akhmatova_brown | 1940-1966 | reference essay, eyewitness memoir] Poem without a Hero was rewritten repeatedly over more than twenty years, and Brown records her insistence on getting the text and attributions of her own works right. SELF-CALIBRATION (agent): lowered from 64 / 0.46 to 58 / 0.40 because the rewriting claim has a single source and Brown's examples concern authenticity of attributed texts rather than polish."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "안나 아흐마토바"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "Portrait on hold (rights/holder terms), research complete. Best lead is Kuzma Petrov-Vodkin, 'Portrait of Anna Akhmatova', 1922, oil on canvas 54.5 x 43.5 cm, State Russian Museum, inventory Zh-2407 (acquired 1933 from the artist), a contemporary life portrait; the holder's item page (rusmuseumvrm.ru, opened 2026-11-18) agrees with Commons on creator, date, medium, size and inventory number and states no item-level rights, and the painter died in 1939 so the painting itself is public domain. The blocker is the holder's general Terms of Use page (rusmuseumvrm.ru/terms), which says that to obtain images of works from the Russian Museum collection and the right to publish them an official letter on institutional letterhead must be sent to the Director General. The only usable file, Commons 'Kuzma Petrov-Vodkin. Portrait of Anna Akhmatova. 1922.jpg' (2242 x 2759), is a Commons user's own photograph of the painting in the gallery (Commons template PD-Art, creator d. 1939), not a museum-supplied image, so the terms may not bind it, but the same holder's terms led to a portrait hold for Pyotr Semyonov-Tyan-Shansky and the question is for the lead. Alternatives checked in one bounded retry and rejected: Altman 1914 (Altman d. 1970, not public domain in Russia), Belkin 1941 (same holder), Kruglikova 1916 silhouette (small, source a hobby site, silhouette not a likeness), anonymous 1904/1906/1912 photographs on Commons (sourced from istihi.ru with no publication chain), Luknitsky and TASS photographs (photographers d. 1973 and later). Next step: the lead decides whether the visitor-photo-of-public-domain-painting route is acceptable (as with the Kiprensky Pushkin precedent), in which case save the Commons file downscaled to about 1000 px (no upscaling) as public/portraits/anna-akhmatova-petrov-vodkin-1922.jpg with creator 'Kuzma Petrov-Vodkin', kind 'likeness', sourcePageUrl the Commons file page and holder record https://rusmuseumvrm.ru/data/collections/painting/19_20/zh_2407/index.php?lang=en. The upload server returned HTTP 429 to repeated download attempts during this session, so no copy was saved.",
+    "creator": "Kuzma Petrov-Vodkin",
+    "date": "1922"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B grade, lead Petrov-Vodkin 1922 portrait, Russian Museum Zh-2407) / LEAD DID NOT SURVIVE the holder-terms check: the holder's item record is consistent with Commons (creator, 1922, oil on canvas 54.5 x 43.5, inventory Zh-2407, acquired 1933 from the artist) and carries no item-level rights statement, and the painter died in 1939 (public domain), but the museum's Terms of Use page (rusmuseumvrm.ru/terms, read) requires an official letter to the Director General to obtain images of collection works and the right to publish them; this holder's terms already caused a portrait hold for Pyotr Semyonov-Tyan-Shansky. The Commons file is a user's own photograph of the painting, so the lead may decide to override as with Kiprensky's Pushkin. One bounded retry across alternatives (Altman 1914, Belkin 1941, Kruglikova silhouette, anonymous 1904/1906/1912 photographs from istihi.ru, TASS and Luknitsky photographs) found nothing defensible. The Commons upload server returned HTTP 429 to downloads, so no image copy was saved. IDENTITY: Wikidata API checked live 2026-11-18, Q80440, label 'Anna Akhmatova', description 'Russian poet (1889-1966)', human, born 11 June 1889 (Gregorian; Wikidata also lists 23 June Julian), died 5 March 1966, ko label 안나 아흐마토바; no existing candidate or QID collision seen. REGION central_europe (Russian precedent Pushkin, Dostoevsky). ZERO POLITICS: primary identity is poet; the Stalin-era persecution, the 1946 Party resolution and her son's imprisonment are context, and the 1949-50 conforming cycle is described as written to try to free her son. DIAGNOSIS/PRIVATE LIFE: nothing inferred; sources' remarks on her marriages, affairs, Garshin's family illness and her son's accusations are not scored. READ (6 sources besides Wikidata): Poetry Foundation essay (full), Gale reference entry (Encyclopedia.com, full), Figes's NYRB review of Feinstein (full), Clarence Brown's LRB eyewitness memoir (full), Puchner's Lit Hub excerpt (full), The Conversation article on Chukovskaya (full). Not opened: Chukovskaya's Akhmatova Journals, Feinstein, Haight, Reeder, Berlin's own essay (paywalled; a Berlin Library page and a review were seen only as pointers), Nadezhda Mandelstam's memoirs. Wikipedia not used. INDEPENDENT BEHAVIOURAL FAMILIES: about 4 (reference-essay tradition: Poetry Foundation, Gale; Feinstein/Figes with Brodsky, Mandelstam and a police report; Brown's eyewitness account; the Chukovskaya diary tradition retold by Puchner and The Conversation). SELF-REPORT: the Requiem routine, her stance on emigration and her poems are largely her own and her friends' accounts. ATTRIBUTION: attributable (extensive published record and several eyewitness memoirs). CANONICAL SIGNIFICANCE SOURCE: Poetry Foundation essay (https://www.poetryfoundation.org/poets/anna-akhmatova). ROWS: 8 scored (persistence, mastery orientation, creative originality, resourcefulness, impact motivation, risk tolerance, independent thinking, perfectionism); all 8 were lowered in self-calibration (concentration in the reference tradition, the Requiem story resting on one eyewitness, contradictory evidence such as the 1949-50 conforming poems and Figes's note that she wrote little civic verse); pre-calibration scores are saved in the scratch notes. Sparse by design: no scores for sociability, leadership or competitiveness where evidence was anecdotal. NO raise flags. MAJOR ACHIEVEMENT GATE: PASS on all six checks (cards: Evening and Rosary, Requiem, Poem without a Hero; the 1949-50 cycle and her translation work are not cards). CAVEATS: birth date differs by calendar (11 June Gregorian, 23 June Julian); Poetry Foundation dates the first Russian publication of Requiem to 1989 and a university page to 1987, so the card says only 'late 1980s'. KO NAME: 안나 아흐마토바 is the established Korean form (Wikidata ko label)."
+  }
+}

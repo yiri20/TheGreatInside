@@ -17,7 +17,10 @@
  * Interface (explicit arguments, no text search-and-replace on the command line):
  *   tsx src/dev/roster1000/wireRoster.ts --roster 68 --shipped a,b,c --held d,e \
  *       [--drafts-dir <dir with <slug>.json editorial drafts>] [--after-eligible N] [--candidates-added N] \
- *       [--intro "<generator header text>"] [--write]
+ *       [--intro "<generator header text>"] [--generator-only] [--write]
+ *
+ * Two phases per cycle: (1) `--generator-only` creates just the thin `generateRosterN.ts` wrapper (the roster module
+ * cannot exist before its generator); run the generator; (2) rerun WITHOUT it for the full wiring plan.
  *
  * DEFAULT IS A DRY RUN (`--check` semantics): it prints the intended operations, the count transition and every
  * problem (missing/ambiguous anchors, duplicate registration, missing files) and writes nothing. `--write` applies
@@ -52,6 +55,12 @@ export interface WireOptions {
   candidatesAdded?: number | undefined;
   draftsDir?: string | undefined;
   intro?: string | undefined;
+  /**
+   * Phase 1 of a cycle: plan ONLY the thin `generateRosterN.ts` wrapper (the generated `rosterN.ts` module cannot exist
+   * before its generator does, so the full plan would always fail with "run generateRosterN.ts first"). No seed,
+   * registry, manifest, audit or editorial edit is planned and the roster module is not required.
+   */
+  generatorOnly?: boolean | undefined;
   root: string;
   /** The manifest the roster is being wired FROM (the live `CURRENT_ROSTER_MANIFEST` in normal use). */
   manifest: ManifestValues;
@@ -144,8 +153,10 @@ export function planWiring(opts: WireOptions): WirePlan {
   if (alreadyWired) notes.push(`manifest latestRoster ${manifest.latestRoster} >= ${roster}: treating roster ${roster} as already wired (rerun; every edit must be a no-op)`);
 
   // ---- the generated roster module must exist and list exactly the shipped slugs
-  const rosterModule = tryRead(root, `src/data/people/roster${roster}.ts`);
-  if (rosterModule === null) {
+  const rosterModule = opts.generatorOnly ? undefined : tryRead(root, `src/data/people/roster${roster}.ts`);
+  if (rosterModule === undefined) {
+    // generator-only phase: the module is produced by the generator this phase creates, so it is not required yet
+  } else if (rosterModule === null) {
     errors.push(`src/data/people/roster${roster}.ts does not exist: run generateRoster${roster}.ts first`);
   } else {
     const inModule = new Set(slugsInRosterModule(rosterModule));
@@ -175,6 +186,21 @@ export function planWiring(opts: WireOptions): WirePlan {
     }
   }
 
+  const planGeneratorWrapper = () =>
+    guarded("generator wrapper", () => {
+      const rel = `src/dev/roster1000/generateRoster${roster}.ts`;
+      const existing = tryRead(root, rel);
+      const intro = opts.intro ?? "fresh new-candidate cycle";
+      if (existing !== null) add(rel, "generator wrapper already exists (left untouched)", existing, { source: existing, changed: false });
+      else add(rel, "create thin generator wrapper", null, { source: renderGeneratorWrapper(roster, shipped, intro), changed: true });
+    });
+
+  if (opts.generatorOnly) {
+    planGeneratorWrapper();
+    notes.push(`generator-only phase: nothing but generateRoster${roster}.ts is planned; run it, then rerun this tool without --generator-only for the full wiring`);
+    return { operations, errors, notes, transition };
+  }
+
   // ---- seed.ts, lineage registry
   const previous = alreadyWired ? manifest.latestRoster : manifest.latestRoster;
   guarded("seed.ts", () => {
@@ -197,13 +223,7 @@ export function planWiring(opts: WireOptions): WirePlan {
   });
 
   // ---- generator wrapper and audit skeleton (created only when absent)
-  guarded("generator wrapper", () => {
-    const rel = `src/dev/roster1000/generateRoster${roster}.ts`;
-    const existing = tryRead(root, rel);
-    const intro = opts.intro ?? "fresh new-candidate cycle";
-    if (existing !== null) add(rel, "generator wrapper already exists (left untouched)", existing, { source: existing, changed: false });
-    else add(rel, "create thin generator wrapper", null, { source: renderGeneratorWrapper(roster, shipped, intro), changed: true });
-  });
+  planGeneratorWrapper();
   guarded("audit skeleton", () => {
     const rel = `src/dev/roster1000/audits/roster${roster}.test.ts`;
     const existing = tryRead(root, rel);
@@ -274,6 +294,7 @@ function parseArgs(argv: readonly string[]): { opts: Partial<WireOptions>; write
       candidatesAdded: num(get("--candidates-added")),
       draftsDir: get("--drafts-dir"),
       intro: get("--intro"),
+      generatorOnly: argv.includes("--generator-only"),
     },
     write: argv.includes("--write"),
   };

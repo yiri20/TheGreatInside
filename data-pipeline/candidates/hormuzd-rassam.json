@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hormuzd-rassam",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hormuzd Rassam",
+    "aliases": [
+      "Hurmuzd Rassam",
+      "Hormuzd Rassam F.R.G.S.",
+      "هرمز رسام"
+    ],
+    "wikidataId": "Q1285498",
+    "birthYear": 1826,
+    "deathYear": 1910,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IQ",
+      "GB"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "scholar",
+      "diplomat"
+    ],
+    "fieldIds": [
+      "exploration",
+      "diplomacy"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rassam_wikidata",
+      "kind": "wikidata",
+      "title": "Hormuzd Rassam (Q1285498), verified live via the Wikidata API: English label 'Hormuzd Rassam', description 'Iraqi archaeologist (1826-1910)', instance of human, born 1826, died September 1910, citizenship Ottoman Empire and United Kingdom, born Mosul, died Hove. No Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1285498"
+    },
+    {
+      "id": "src_rassam_dnb",
+      "kind": "biography",
+      "title": "'Rassam, Hormuzd', Dictionary of National Biography, 1912 supplement, vol. 3, by the Assyriologist Theophilus G. Pinches (Wikisource transcription, read in full). CANONICAL SIGNIFICANCE SOURCE: born at Mosul to a Chaldean Christian family; unpaid assistant to Layard from 1845; sent alone by the British Museum trustees in 1852 and found the North Palace of Ashurbanipal at Kouyunjik with the lion-hunt reliefs and tablets containing the Creation and Flood legends; political interpreter and later assistant resident at Aden from 1854; the 1864-68 mission to King Theodore of Abyssinia, his arrest and chains at Magdala and release; British Museum excavations 1876-82 at Nineveh, Nimrud, Balawat, Babylon and Sippar, with the bronze gates of Balawat, the Cyrus cylinder and some 100,000 tablet fragments; the 1893 libel action in which he was awarded 50 pounds. Reference biography by a specialist, drawing partly on Rassam's own books and unpublished autobiography; admiring in tone.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1912_supplement/Rassam,_Hormuzd"
+    },
+    {
+      "id": "src_rassam_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Hormuzd Rassam' (read): assistant to Layard 1845-47 and 1849-51; retained by the British Museum from 1852; the 1853 lion-hunt relief of Ashurbanipal and the royal library tablets at Nineveh; political appointments at Aden and in Abyssinia; supervisor of Mesopotamian excavations again from 1876; the Balawat gates; the 1880 discovery at Sippar of the Nabu-apal-iddin tablet that identified the temple of Shamash, followed by tens of thousands of tablets. Short reference article, celebratory; used for consistent dates and significance.",
+      "url": "https://www.britannica.com/biography/Hormuzd-Rassam"
+    },
+    {
+      "id": "src_rassam_aramco",
+      "kind": "press",
+      "title": "Jane Waldron Grutz, 'Iraq's First Archeologist', Aramco World, May-June 2018 (read in full). Modern narrative biography: Rassam's work as Layard's foreman, the December 1853 night excavation on the north part of Koyunjik that Rawlinson had assigned to the French consul Victor Place, the shipping of reliefs and tablets, the Aden posting, the Abyssinian mission after which the press suggested he was the wrong man, the four expeditions of 1878-82 with 60,000 to 70,000 tablets from Sippar, his baking of unbaked tablets, his own admission that he had no artist or camera and dug 'at haphazard' at Babylon, Budge's conclusion that he colluded with workmen who sold tablets, Layard's public defence, the libel suit of 1893 and his retirement to Brighton. Popular but well-researched magazine article.",
+      "url": "https://www.aramcoworld.com/articles/2018/iraqs-first-archeologist"
+    },
+    {
+      "id": "src_rassam_doganay",
+      "kind": "biography",
+      "title": "Sungur Dogancay, 'Hormuzd Rassam'in Ninova ve Babil'deki Arkeolojik Kesifleri' (Hormuzd Rassam's archaeological discoveries at Nineveh and Babylon), Dicle University Journal of the Institute of Social Sciences no. 28, 2021, pp. 256-275 (Turkish; read in full). COUNTER-VOICE from the Ottoman side, using Ottoman archive files and Reade's 1993 article: Rassam's night digging at Koyunjik and his answer to the French consul, the loss of finds on the Tigris rafts, Ottoman officials' complaints that he did not keep the required registers and had moved finds to a relative's house, his own memoir's account of passing a consignment through Alexandria and Mersin and of Layard's help as ambassador in obtaining firmans, the 1893 Budge accusation and his retirement. Reads him as favoured by British influence and regards the Ottoman regulations as poorly enforced; its tone is critical of the colonial-era export of antiquities.",
+      "url": "https://dergipark.org.tr/en/download/article-file/1783416"
+    },
+    {
+      "id": "src_rassam_blanc",
+      "kind": "biography",
+      "title": "Henry Blanc, 'A Narrative of Captivity in Abyssinia' (London, Smith, Elder, 1868; Internet Archive scan, read in the passages on Rassam). First-hand account by the surgeon who accompanied Rassam on the mission: the year of waiting at Massowah and the messengers he sent, his handling of Theodore's letters and moods, his arrest, his friendly correspondence while in fetters, the intercepted letter and ultimatum from the British side that he destroyed, and the captives' own remarks on his diplomacy. Written by a colleague and fellow captive; sympathetic to Rassam but independent of his own book.",
+      "url": "https://archive.org/details/narrativeofcapti00blan"
+    },
+    {
+      "id": "src_rassam_layard",
+      "kind": "biography",
+      "title": "Austen Henry Layard, 'Discoveries in the Ruins of Nineveh and Babylon' (London, John Murray, 1853; Internet Archive scan, read in the passages on Rassam). Layard's testimony as his employer: Rassam's superintendence of the workmen, payment of wages, settlement of disputes and diplomacy with Arab chiefs, with the verdict that without him it would have been impossible to accomplish half of what had been done. A patron's favourable account written before Rassam's own excavation.",
+      "url": "https://archive.org/details/discoveriesinrui0000laya_q9u1"
+    },
+    {
+      "id": "src_rassam_asshur",
+      "kind": "biography",
+      "title": "Hormuzd Rassam, 'Asshur and the Land of Nimrod' (New York, Eaton and Mains, 1897; Internet Archive scan, read in the passages on the 1853 Kouyunjik excavation). SELF-REPORT: his own account of how he planned the night excavation on the French consul's apportioned ground and of the discovery of Ashurbanipal's palace. Used with care: the memoir is the origin of several later retellings.",
+      "url": "https://archive.org/details/asshurlandofnimr00rass"
+    },
+    {
+      "id": "src_rassam_goodhart",
+      "kind": "institution",
+      "title": "George Goodhart, 'Unburying an Archaeologist: the Forgotten Story of Hormuzd Rassam', Uncomfortable Oxford (Magdalen College research project, read in full). Modern archival essay on his months at Magdalen College, Oxford, Layard's reliance on him, the credit he lost to Rawlinson, his 1893 suit against Budge (50 pounds awarded against 1,000 sought, no malice found, the museum raised a fund for Budge's costs) and the later neglect of his memory. Framed as institutional neglect of an assimilated outsider.",
+      "url": "https://www.uncomfortableoxford.com/unburying-an-archaeologist-the-forgotten-story-of-hormuzd-rassam"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rassam_aramco, src_rassam_doganay, src_rassam_dnb, src_rassam_layard, src_rassam_asshur | 1846-1854 | magazine biography, Ottoman-archive article, reference biography, employer's account, self-report] In December 1853 he chose on his own to dig by night on the north part of Koyunjik that the resident had assigned to the French and found the North Palace; the account rests on his own memoir and on retellings of it. Layard's separate testimony shows him taking on field and organising duties unprompted from 1846. CONCENTRATION: lowered from 72 / 0.60 because the central episode comes from one family (his memoir and its retellings)."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rassam_layard, src_rassam_aramco, src_rassam_doganay, src_rassam_dnb | 1846-1882 | employer's account, magazine biography, Ottoman-archive article, reference biography] Layard credits his knowledge of the Arab workmen and his economy of means; later he baked unbaked tablets in hot ashes so they would survive shipping, hired shrine guardians as site guards, appointed local supervisors across more than thirty digs, and, by his own memoir, sent a consignment through Alexandria by pressing the vice-consul. The same Ottoman-side source reads some of this as evasion of the rules. SELF-CALIBRATION: lowered from 72 / 0.60 because the tablet-baking and Alexandria details come mainly from his own book and the evasion reading is contested."
+    },
+    "persistence": {
+      "score": 67,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rassam_blanc, src_rassam_dnb, src_rassam_aramco | 1864-1868 | fellow captive's narrative, reference biography, magazine biography] He waited at Massowah for about a year, sent repeated messengers and supplies to the captives, kept up courteous correspondence with the king for two years including after being chained at Magdala, and returned to excavating after the mission. The outcome was not his achievement: British troops freed the captives and the press judged him ineffective. SELF-CALIBRATION: lowered from 70 / 0.58 because the colleague's account and the reference biography converge on one episode and the result was not his."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rassam_dnb, src_rassam_goodhart, src_rassam_aramco, src_rassam_layard | 1845-1882 | reference biography, archival essay, magazine biography, employer's account] He moved from Mosul clerk to Layard's overseer, to a months-long stay at Oxford, then to Aden magistrate and interpreter, to envoy in Abyssinia, back to excavation director in Babylonia, and later to writing in Brighton; Goodhart notes he adopted English dress and Protestantism. Four sources describe several distinct role changes; the sources do not describe how he experienced them."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rassam_blanc, src_rassam_layard, src_rassam_aramco | 1850-1868 | fellow captive's narrative, employer's account, magazine biography] The Abyssinian king repeatedly accepted his advice and wrote of his friendship; Blanc describes him winning over the king's messengers and courtiers with hospitality; Layard records him acting as go-between for Arab sheikhs; and he argued the French consul out of a protest in 1853 (his own account). Blanc and others also note that his closeness to the king did not secure the captives' release."
+    },
+    "conflict_tolerance": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rassam_aramco, src_rassam_doganay, src_rassam_goodhart, src_rassam_dnb | 1853-1893 | magazine biography, Ottoman-archive article, archival essay, reference biography] He dug on ground assigned to a rival consul and rebuffed the protest; he sued the British Museum's Budge for libel in 1893 and won 50 pounds, although the museum backed Budge and his reputation suffered; Goodhart and Doganay also record his dispute with Rawlinson over credit for the palace. The disputes are well documented but he did not seek the Budge case, which answered an accusation. SELF-CALIBRATION: lowered from 68 / 0.56 because the libel suit was defensive and the Rawlinson dispute is known only from secondary retellings."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rassam_asshur, src_rassam_aramco, src_rassam_blanc | 1853-1868 | self-report, magazine biography, fellow captive's narrative] By his own account he feared being stopped and blamed if the night dig failed, and dug anyway; he accepted the Abyssinian mission, which Blanc calls a dangerous enterprise, though it was an official assignment. CONCENTRATION: lowered from 64 / 0.50 and relabelled inference because the dig rests on his own memoir and the mission was assigned rather than chosen."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rassam_layard, src_rassam_aramco, src_rassam_blanc | 1846-1882 | employer's account, magazine biography, fellow captive's narrative] Layard says Arab workmen of every sect were attached to him; he organised gangs of men on separate tasks and used local supervisors, and in Abyssinia shared his supplies with his companions. The sources describe him as a manager of workers and an intermediary more than as an equal partner."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rassam_asshur, src_rassam_dnb, src_rassam_doganay | 1853-1877 | self-report, reference biography, Ottoman-archive article] He judged the north corner of Koyunjik to be unexplored and returned to it; in 1876-77 he obtained the firman and, by the Ottoman-side account, Layard's ambassadorship made new permissions and shipments possible. CONCENTRATION: lowered from 66 / 0.50 and relabelled inference because the first instance is his own report and the second is access gained through a patron."
+    },
+    "detail_orientation": {
+      "score": 36,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "[src_rassam_aramco, src_rassam_doganay | 1878-1882 | magazine biography, Ottoman-archive article] On his four later expeditions he had no artist or camera and kept rough sketches, and by his own admission dug 'at haphazard' at Babylon; Ottoman officials complained that he did not keep the registers required of him. Both rest on a few statements and the Ottoman complaint is an accusation, so the row is held low-confidence. SELF-CALIBRATION: confidence lowered from 0.46 to 0.42."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "호르무즈드 라삼"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hormuzd-rassam-lock-whitfield-1881.jpg",
+    "width": 806,
+    "height": 1000,
+    "source": "Woodburytype portrait of Hormuzd Rassam by Lock and Whitfield, printed with the caption 'HORMUZD RASSAM' on the plate facing the memoir 'Hormuzd Rassam, F.R.G.S.' in Men of Mark: a gallery of contemporary portraits (fifth series, London: Sampson Low, Marston, Searle and Rivington, 1881, copyright deposit 1880). The file is a crop of the plate from the Rijksmuseum's open-access scan of the page (object RP-F-2001-7-235.E-27, 7162 x 4570 pixels), downscaled to 806 x 1000 with no upscaling.",
+    "license": "Public domain: photograph published in London in 1880-81; the Rijksmuseum record states copyright 'Public domain' and the museum's image carries the Public Domain Mark",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Lock and Whitfield, Hormuzd Rassam, woodburytype, Men of Mark (1881); Rijksmuseum, Amsterdam, RP-F-2001-7-235.E-27 (public domain; cropped and downscaled).",
+    "attributionUrl": "https://id.rijksmuseum.nl/200648934",
+    "creator": "Lock and Whitfield, London (named on the object)",
+    "date": "1880-1881 (Rijksmuseum: c. 1876 to before 1881; British Library: fifth series, 1880-81)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/nl/collectie/object/RP-F-2001-7-235E-27--5dfd70765012003aa5c3f39dc044efc9"
+  },
+  "provenance": {
+    "createdAt": "2026-11-15T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / REPLACED. The lead, Commons 'Hormuzd.Rassam.reclined.jpg' (attributed on Commons alone to Philip Henry Delamotte, c. 1854), was not used: its only source page (Swansea Heritage) returns nothing, no holder record exists, and the date and photographer rest on the Commons description alone. The BnF Gallica fallback was not pursued (bot-walled 403 at preflight). Replacement: the Lock and Whitfield woodburytype from Men of Mark, fifth series (1881), found through the Rijksmuseum open-access record RP-F-2001-7-235.E-27, which I read through its Linked Art record: title on object 'Hormuzd Rassam, F.R.G.S.', photographer Lock and Whitfield (mentioned on object), woodburytype, c. 1876 to before 1881, rights 'Public domain', Public Domain Mark on the image, data CC0. Identity checked three ways: the Rijksmuseum title on the object, the printed caption 'HORMUZD RASSAM' under the plate on the open-access page scan (read), and the facing memoir page headed 'Hormuzd Rassam, F.R.G.S.' (read); the British Library record (P.P.1931.pch, 5(27)) lists the same plate. I also cross-checked an independent Google-digitised copy at the Internet Archive, where the plate follows the Rassam memoir in the same order as the neighbouring entries. No holder contradiction found. Kind likeness (photograph from life, about age 54). Caveat: the Rijksmuseum dates the print 'c. 1876 to before 1881', whereas the book is the 1880-81 fifth series; both are well before the PD threshold. Photographer is a studio, so no creator-death basis is used; the basis is publication in London in 1880-81. Dimensions: crop 1500 x 1860 downscaled to 806 x 1000. ATTRIBUTION: attributable. The 1853 night excavation, the tablet handling and the Alexandria episode rest largely on his own memoir; independent views come from Layard (patron), Blanc (fellow captive in Abyssinia), Ottoman-archive-based scholarship by Dogancay (critical), the Aramco magazine article and Goodhart's archival essay. CONTESTED MATERIAL: Budge's allegation that Rassam colluded in tablet theft was found to be libel in 1893 (50 pounds, no malice found) but remains discussed in later literature; no row scores honesty or integrity and nothing is asserted beyond the court outcome. KOREAN NAME: no established Korean name or Wikidata Korean label found; 호르무즈드 라삼 is a standard transliteration, flagged for lead review. ZERO POLITICS: primary identity is excavator and envoy; the Abyssinian mission is scored only for conduct as an assigned envoy. Not opened: Reade 1993 (Iraq 55, abstract page only), Rassam's 'Narrative of the British Mission to Theodore' (not cited), the 1893 trial reports (paywalled or bot-walled). SELF-CALIBRATION: initial 10 rows; concentration lowered 3 rows (proactive_agency, risk_tolerance, opportunity_sensing); self-calibration lowered 4 more (resourcefulness, persistence, conflict_tolerance, detail_orientation). Final 10 rows, none raised. Eligibility: fewer than 18 scored attributes by design; sparse profile is valid."
+  }
+}

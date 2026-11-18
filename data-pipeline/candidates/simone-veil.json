@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "simone-veil",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Simone Veil",
+    "aliases": [
+      "Simone Annie Liline Jacob",
+      "Simone Jacob"
+    ],
+    "wikidataId": "Q298180",
+    "birthYear": 1927,
+    "deathYear": 2017,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "jurist",
+      "political_leader"
+    ],
+    "fieldIds": [
+      "law",
+      "politics",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "medical"
+    ],
+    "tagIds": [
+      "advocate",
+      "reconciliation"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_veil_wikidata",
+      "kind": "wikidata",
+      "title": "Simone Veil (Q298180), verified live via the Wikidata API (2026-11-18): English label 'Simone Veil', description 'French politician (1927-2017)', Korean label 시몬 베유, instance of human, born 13 July 1927, died 30 June 2017. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q298180"
+    },
+    {
+      "id": "src_veil_ej",
+      "kind": "biography",
+      "title": "Encyclopaedia Judaica entry 'Veil, Simone' by Nelly Hansson (Gale, reproduced on Encyclopedia.com; read in full). CANONICAL SIGNIFICANCE SOURCE: magistrate from 1956 and adviser in the Ministry of Justice who worked on reform of adoption, adult disability and parental authority law; minister of health in the Chirac government (1974-76) and of health and social security under Barre (1976-79), where she initiated the law legalising abortion; elected the first president of the directly elected European Parliament on 17 July 1979 (president to 1982, member to 1993); minister of social affairs in the Balladur government (1993-95); first president of the Foundation for the Memory of the Shoah. Reference-work biography, admiring in tone.",
+      "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/veil-simone"
+    },
+    {
+      "id": "src_veil_an",
+      "kind": "institution",
+      "title": "French National Assembly, 'Le dossier legislatif' for the 1975 abortion law (read in French): the bill was tabled on 15 November 1974, debated in the Assembly from 26 to 28 November, quotes members attacking it as 'barbarism' comparable to Nazi Germany and as embryos thrown into crematoria, records that she obtained a text only slightly amended, that the abortion provisions were adopted unchanged and the right to life reaffirmed in Article 1, and that the vote was 284 to 189, with most of the support coming from the opposition. The legislature's own record of the debate.",
+      "url": "https://www2.assemblee-nationale.fr/14/evenements/2015/anniversaire-loi-veil/la-loi-du-17-janvier-1975/le-dossier-legislatif"
+    },
+    {
+      "id": "src_veil_ps",
+      "kind": "press",
+      "title": "Laurence Coustal (AFP), 'Il y a un peu plus de 40 ans, le rude combat de Simone Veil en faveur de l'IVG', Public Senat, 30 June 2017 (read in French): a debate of more than 25 hours before an Assembly of 9 women and 481 men, her one-hour opening speech, named opponents and their language, 74 speakers, a vote of 284 to 189 in the night of 28-29 November 1974 in which two thirds of the governing majority voted against, and the five-year trial period made permanent in 1979. Quotes her 2004 interview book with Annick Cojean for her own reaction, so that part is self-report.",
+      "url": "https://www.publicsenat.fr/actualites/politique/il-y-a-un-peu-plus-de-40-ans-le-rude-combat-de-simone-veil-en-faveur-de-l-ivg"
+    },
+    {
+      "id": "src_veil_slate",
+      "kind": "press",
+      "title": "Jean-Marie Pottier, 'IVG: le jour ou Simone Veil a partage sa conviction de femme', Slate.fr, 30 June 2017 (read in French): context of the 1971 manifesto of the 343 and the Bobigny trials, the contents of the bill (decision left to the woman in the first ten weeks after a compulsory medical and social consultation and an eight-day reflection period, no reimbursement until 1982), extracts of her speech, the vote with only a third of the presidential majority in favour, and her own later view that the 1967 contraception law had mattered more. Independent journalism; her reactions again come from the Cojean interview.",
+      "url": "https://www.slate.fr/story/122011/mort-simone-veil-avortement"
+    },
+    {
+      "id": "src_veil_guardian",
+      "kind": "press",
+      "title": "Douglas Johnson, 'Simone Veil obituary', The Guardian, 30 June 2017 (read in full; the Irish Times obituary of the same date carries the same text and is not counted separately). A historian's obituary: her career as a magistrate (adviser to justice ministers, the Boupacha case, first woman secretary general of the magistrates' council in 1970, the 1969 adoption book), the three-day 1974 debate and the role of the opposition in passing the law, her other work as minister (medical-studies reform, an anti-smoking campaign described as largely unsuccessful, humane hospitals, organ-removal rules), her 1979 European Parliament list and presidency, her reluctance to commit to a party, and her opposition as a minister to wider state powers over immigration. Describes her as impatient and over-exacting. Camp deportation and bereavements are described there and are context only, not used for any row.",
+      "url": "https://www.theguardian.com/world/2017/jun/30/simone-veil-obituary"
+    },
+    {
+      "id": "src_veil_epha",
+      "kind": "institution",
+      "title": "European Parliament Historical Archives, 'The Fonds of Simone Veil' (read in full, including the short biography and her own 'Reflections of Former Presidents' text): elected on 17 July 1979 by an absolute majority in the second round; the practical problems of the new directly elected assembly, the 1980 budget she declared adopted although it slightly exceeded the treaty ceiling, after which the French Government brought an action before the Court of Justice; her member-of-parliament posts to 1993. Institutional page; the reflections are her own account, so the budget episode is self-report.",
+      "url": "https://historicalarchives.europarl.europa.eu/en/presidents/simone-veil"
+    },
+    {
+      "id": "src_veil_connexion",
+      "kind": "press",
+      "title": "'Profile: Simone Veil', Connexion France, 30 November 2016 (read in full): career summary with the political abuse she received in 1974, quotations from a review by the former UK minister Denis MacShane of her autobiography Une Vie about male resistance at each stage of her career (as a would-be magistrate and as a minister), a historian's remark on her European role, her election as the first woman president of the European Parliament, her seat on the Constitutional Council (1998-2007) and the Academie francaise (2008). Independent newspaper profile, admiring in tone.",
+      "url": "https://www.connexionfrance.com/article/Archive/Profile-Simone-Veil"
+    },
+    {
+      "id": "src_veil_shoah",
+      "kind": "institution",
+      "title": "Shoah Memorial (Paris), 'Tribute to Simone Veil, who died on 30 June 2017' (read in full): her career as an institution sees it, her roles at the Memorial of the Unknown Jewish Martyr, the Centre de Documentation Juive Contemporaine and, from 2001 to 2007, as first president of the Foundation for the Memory of the Shoah, and a 2005 speech asking that younger generations and political leaders be told how the genocide happened. Institutional tribute; used only for her public memorial roles, not for her wartime experience.",
+      "url": "https://www.memorialdelashoah.org/en/hommage-a-simone-veil-decedee-30-juin-2017-a-89-ans.html"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_veil_an, src_veil_ps, src_veil_slate, src_veil_guardian, src_veil_connexion | 1974 | parliamentary record, news-agency report, news magazine, historian's obituary, newspaper profile] In November 1974 she presented the abortion bill to an Assembly of 9 women and 481 men and stayed through three days of debate in which members, including some of her own majority, compared the bill to Nazi crimes (quoted in the Assembly's own dossier); two thirds of the governing majority voted against and the text passed with opposition votes. The conduct is recorded by independent sources; how she experienced it comes mostly from her own interview book, repeated by two of them. SELF-CALIBRATION (agent): lowered from 78 / 0.70 to 76 / 0.66 because the episode is one extended event and its inner stance rests on one self-report."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_veil_ej, src_veil_guardian, src_veil_connexion, src_veil_an, src_veil_epha | 1957-1995 | reference biography, historian's obituary, newspaper profile, parliamentary record, institutional archive] Documented reform work across several fields over four decades: adoption, disability and parental-authority law and prison conditions as a magistrate (a 1969 book on adoption), contraception and abortion law, medical-studies reform, hospital conditions and an anti-smoking campaign as minister, and later the European Parliament and memorial institutions. The sources describe what she worked on; none states her motives beyond her own memoir remarks."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_veil_guardian, src_veil_ps, src_veil_slate, src_veil_connexion | 1974-1995 | historian's obituary, news-agency report, news magazine, newspaper profile] She carried the abortion bill although two thirds of her own governing majority voted against it (though it was the president's project), is described as reluctant to commit to any party, and as a minister in 1993-95 opposed extending state powers to control immigration. Three separate episodes, mostly from one obituary, so the score stays moderate."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_veil_guardian, src_veil_ej, src_veil_connexion, src_veil_epha | 1957-1980 | historian's obituary, reference biography, newspaper profile, institutional archive] As a magistrate she brought a young woman held in an Algerian prison to safety in France and co-wrote a 1969 book on adoption with two doctors; as minister she reformed the medical-studies syllabus; as President of the European Parliament she declared the 1980 budget adopted despite its slightly exceeding the treaty ceiling, which led the French Government to go to the Court of Justice (her own account). Several of these were roles she was asked to take (the ministry and the European list were offered by the president), so the evidence for self-started action is partial."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_veil_an, src_veil_slate, src_veil_guardian, src_veil_ps | 1974 | parliamentary record, news magazine, historian's obituary, news-agency report] The Assembly dossier says she obtained the abortion provisions unamended after a debate in which most support came from the opposition and a minority of the governing majority; the vote was 284 to 189. The outcome was shared with a president who insisted on the law and an opposition that endorsed it, and no source separates her speech from those factors. SELF-CALIBRATION (agent): lowered from 62 / 0.50 to 60 / 0.46 because the outcome is shared credit and a win by opposition votes is not direct evidence of her own persuasive effect."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_veil_connexion, src_veil_guardian, src_veil_ej | 1956-1979 | newspaper profile, historian's obituary, reference biography] The profile, quoting a review of her autobiography, says she had to overcome resistance at each stage of her career, beginning with her decision to become a magistrate (entered the magistracy in 1956); the obituary adds an anti-smoking campaign she continued although it was largely unsuccessful. SELF-CALIBRATION (agent): lowered from 64 / 0.50 to 62 / 0.46 because the claim leans on one review of her own memoir (source-family concentration) and the smoking campaign is a single line."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "시몬 베유"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/simone-veil-rob-croes-1984.jpg",
+    "width": 663,
+    "height": 1000,
+    "source": "Black-and-white press negative of Simone Veil (head and shoulders) taken by Rob Croes for Anefo at the Four Freedoms Awards ceremony in Middelburg, the Netherlands, on 23 June 1984 (Nationaal Archief, Fotocollectie Anefo, inventory 2.24.01.05, item 933-0124); the file is the Commons restoration by Adam Cuerden (2359 x 3559, greyscale), downscaled to 663 x 1000 with no upscaling and no further retouching.",
+    "license": "CC0 1.0 (public domain dedication): the Nationaal Archief publishes its Anefo press-photo collection as open data under a CC0 waiver; the Commons file carries CC0 and no attribution requirement, and the Commons restoration adds no restriction",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Rob Croes / Anefo, Nationaal Archief (The Netherlands), 1984; restored by Adam Cuerden; CC0 (credit given as a courtesy, not required).",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Simone_Veil_bij_uitreiking_Four_Freedoms_Awards_in_Middelburg,_Bestanddeelnr_933-0124_-_Restoration.jpg",
+    "creator": "Rob Croes (Anefo); restoration by Adam Cuerden",
+    "date": "1984-06-23",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Simone_Veil_bij_uitreiking_Four_Freedoms_Awards_in_Middelburg,_Bestanddeelnr_933-0124_-_Restoration.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead) / LEAD DID NOT SURVIVE, FALLBACK USED: the Stage B lead (Marie-Lan Nguyen/Toony 2008 Gymnase Japy photograph, CC BY 3.0 with a Jastrow-versus-Toony authorship discrepancy and a personality-rights warning, no licence review) was not used; the Stage B fallback was verified instead. It is Rob Croes's 1984 Anefo negative for the Nationaal Archief (item 933-0124), shown in the Commons restoration by Adam Cuerden. Holder: the Nationaal Archief item page (proxy.handle.net/10648/ad3a7ec8-d0b4-102d-bcf8-003048976d84) redirects to nationaalarchief.nl and returned 503 'down for maintenance' on 2026-11-18, and the archive's terms-of-use page was also down, so the holder's own rights field could not be read (a site outage, recorded separately from any rights conflict). The Dutch government open-data record for the archive's photo collection (data.overheid.nl, read) states that most of the open-data photos, including the Fotocollectie Anefo, are available under a CC0 waiver; the Commons file's structured data and template agree (CC0, Credit = the archive's handle link, photographer Rob C. Croes / Anefo, copyright holder Nationaal Archief, material 'negative black/white'); the Commons file page records no rights conflict. Sitter: the holder cataloguing as copied onto Commons gives 'Persoonsnaam: Veil, Simone', 'Simone Veil (Europees Parlement) bij uitreiking Four Freedoms Awards in Middelburg', 23 June 1984; the image has no lettering, so identity rests on catalogue data (other frames of the same event also show Queen Juliana, and the Stage B note says the holder title of the sibling frame names both; this restoration is a single-subject head and shoulders crop whose own title names Veil only); age and appearance are consistent with a woman in her mid-fifties. Kind likeness: a documentary press photograph taken during her lifetime. Dimensions 2359 x 3559 downscaled to 663 x 1000, 116 KB. COMMONS/UPLOAD host returned 429 to a plain script agent, then served the file to a descriptive User-Agent via Special:FilePath. PREFLIGHT: QID VERIFIED LIVE (2026-11-18, Wikidata API) Q298180 label 'Simone Veil', description 'French politician (1927-2017)', Korean label 시몬 베유, instance of human, born 1927-07-13, died 2017-06-30. REGION western_europe (French precedent). ERA 20th_century. ATTRIBUTION: attributable (dated legislative, parliamentary and institutional records). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Judaica entry on Veil (via Encyclopedia.com), supported by the National Assembly's legislative dossier. COMPOSITION NOTE FOR LEAD: she was a magistrate before politics and is profiled here for the 1974-75 health-law reform, the first presidency of the directly elected European Parliament and her reform work, with party politics unscored; the frozen cohort assigned her to the leadership group. ZERO PRIVATE CONDITIONS: her deportation to Auschwitz and Bergen-Belsen, the deaths of her parents and brother, and her later memorial work are historical context only; nothing about trauma, health or psychology is inferred and no row relies on them; the antisemitic abuse she received in 1974 is recorded only as the parliamentary record and press report it. KOREAN NAME 시몬 베유 is the Wikidata/Korean Wikipedia label (established). VOCABULARY: occupations jurist, political_leader; fields law, politics, social_reform; impact domains social, historical, medical; tags advocate, reconciliation; archetype social_influencer. READ (8 sources beside Wikidata): Encyclopaedia Judaica entry; National Assembly legislative dossier; Public Senat/AFP article; Slate.fr article; Guardian obituary (Irish Times duplicate read, not counted); European Parliament Historical Archives page; Connexion profile; Shoah Memorial tribute; also read, not cited: Jewish Chronicle obituary, Fondation Shoah page, Museum of Contraception and Abortion page, cafebabel piece on her autobiography. NOT OPENED: Une Vie (memoir), Cojean interview book, Archives nationales speech drafts, the 2026 conference paper on the speech. PERSPECTIVES: reference biography; the legislature's own record; news-agency and news-magazine reporting (both lean on her Cojean interview); a historian's obituary; an English-language newspaper profile quoting a politician-reviewer; two institutional pages (Parliament archive, Shoah Memorial) which are self-interested. NON-SELF BEHAVIOURAL SOURCES: the Assembly dossier, the Guardian obituary, Slate, Public Senat, Connexion. CONTRADICTIONS AND LIMITS: the date of the vote (28 November sitting per the Assembly dossier, early 29 November per the press); the Encyclopaedia Judaica gives the foundation presidency from 2000 and the Foundation itself 2001 (not carded); her 1979 start in the European Parliament was a role offered by the president, which limits the self-started-action row; no adversarial biography was opened (opponents' words appear only through the parliamentary record). SPARSE PROFILE: 6 rows by design; no row for decisiveness (1980 budget declaration rests on her own reflections), leadership drive (she is described as wielding power without seeking it, by an institution) or detail orientation (one adjective, 'over-exacting', in an obituary). MAJOR ACHIEVEMENT GATE: PASS on all six (cards: the 1974-75 law, the European Parliament presidency, magistracy and social-law reform). SELF-CALIBRATION: conflict_tolerance 78/0.70 to 76/0.66; persuasiveness 62/0.50 to 60/0.46; persistence 64/0.50 to 62/0.46 (concentration). Raise flags: none. Baseline pre-calibration scores are in the scratch file rows_initial.json."
+  }
+}

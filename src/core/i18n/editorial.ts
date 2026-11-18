@@ -14193,6 +14193,500 @@ export const EDITORIAL_EN: Record<string, string> = {
     "After finishing second behind Zukertort at London in 1883, Steinitz left London for New York, where the sources say he could no longer bear his alienation from the English chess circle. In the United States he founded the International Chess Magazine in 1885 and, after he insisted that London had become too hostile, played the 1886 world championship match in American cities.",
   "wilhelm-steinitz.interpretation.turning_point.1":
     "The move is consistent with an ability to rebuild a career in a new country and language, although the sources present it as a response to being shut out rather than a free choice.",
+  "abai-kunanbayev.achievement.1":
+    "Kazakh sources describe him as the founder of written Kazakh literature and its first classic. He began writing poems in the 1860s, published early verses under his pupil Kokbay's name until 1886, and from then signed them himself, among them the four seasons poems, narrative poems such as 'Mas'ud' and 'Iskander', and songs. Ozdemir lists new rhyme patterns he brought to Kazakh verse, and his first collection was printed in St Petersburg in 1909, five years after his death.",
+  "abai-kunanbayev.achievement.2":
+    "He translated Russian poets into Kazakh, among them Lermontov, Krylov's fables and, in 1889, eight passages of Pushkin's Eugene Onegin, including Tatiana's letter. Bukeikhanov, writing in 1905, says a singer from Kokand performed Tatiana's letter for him in 1899 and that singers in different parts of the steppe knew and sang Abai's versions of Pushkin and Lermontov.",
+  "abai-kunanbayev.achievement.3":
+    "The official Abai Institute biography describes his prose Words of Edification, in forty-six chapters, as setting out his humanistic, educational and social ideas, and treats it as a philosophical work for the whole nation. The sources read for this profile give no contemporary account of how the Words were written or first circulated.",
+  "abai-kunanbayev.moment.1":
+    "In 1885 an exile in Semipalatinsk told the American traveller George Kennan about 'a learned old Kirghis' named Ibrahim Konobai who used the town library and read Buckle, Mill and Draper. The exile said the man had once asked him to explain induction and deduction and, after two evenings of questions on Draper's history of Europe's intellectual development, seemed to understand it well. Kennan never met him, and researchers identify the man with Abai.",
+  "abai-kunanbayev.interpretation.moment.1":
+    "The report is consistent with a profile of self-directed intellectual appetite, though it is second-hand and the identification with Abai comes from later researchers.",
+  "abai-kunanbayev.moment.2":
+    "Bukeikhanov says that when his second son, Abdrakhman, finished the town school Abai sent him to a technical school in Tyumen at a cost of several hundred rubles a year, and calls Abai the first Kazakh to sacrifice so much for a child's schooling. The son then went on to St Petersburg and an artillery school, and died in 1895 while preparing for the artillery academy.",
+  "abai-kunanbayev.interpretation.moment.2":
+    "The episode sits alongside his verse about education as one example of him acting at personal cost on what he said he valued, although the account of his motives is largely his own and his biographers'.",
+  "abai-kunanbayev.turning_point.1":
+    "Raised among steppe disputes and Arabic and Persian reading, he met the exiled Michaelis around 1870 and in the 1880s Dolgopolov and Leontiev, and his reading shifted to Russian and European authors. Ozdemir says that from 1882 he wrote poems of real literary weight, and from 1886 he signed them with his own name, after publishing earlier ones under his pupil's.",
+  "abai-kunanbayev.interpretation.turning_point.1":
+    "The sequence is consistent with a profile in which new reading and contacts fed original work in mid-life, though the order of cause and effect is the biographers' reading.",
+  "auguste-piccard.achievement.1":
+    "On 27 May 1931 Piccard and Paul Kipfer reached 15,781 metres in a balloon he had built with Belgian funding, a record altitude. The balloon carried an airtight, pressurised aluminium cabin and a very large envelope launched only partly filled, and Britannica notes that the sealed-cabin technique later became commonplace on aircraft.",
+  "auguste-piccard.achievement.2":
+    "After his balloon flights Piccard designed the bathyscaphe, a deep-diving craft with a pressure-resistant steel cabin hung under a float lighter than water, on the model of a balloon and its gondola. The first, FNRS 2, was built in Belgium and damaged in 1948 trials; the Trieste, built with Italian industry, dived to about 3,150 metres in 1953, and in 1960 his son Jacques took it to 10,916 metres in the Mariana Trench.",
+  "auguste-piccard.achievement.3":
+    "On 18 August 1932 Piccard and Max Cosyns flew from Dubendorf near Zurich to 16,201 metres, a new FAI altitude record. EBSCO says the flight brought back data that filled in the cosmic-ray intensity curve between 9 and 16 kilometres, after the 1931 flight had yielded only one approximate observation.",
+  "auguste-piccard.moment.1":
+    "A few minutes after the 1931 launch, which began early when the ground crew let go without the agreed signal, Piccard found a leak in the gondola and stopped it with a mixture of petroleum jelly and fibres he had prepared for such an accident. The gas valve then jammed, so the two men had to wait for evening to descend, and they came down on a glacier in the Tyrolean Alps.",
+  "auguste-piccard.interpretation.moment.1":
+    "The prepared sealing mixture is consistent with the planning visible elsewhere in this profile, though most details of the flight come from his own memoir, and the early release and jammed valve show the plan did not cover everything.",
+  "auguste-piccard.moment.2":
+    "In October and November 1948 the first bathyscaphe made unmanned trial dives. The cabin withstood the pressure on a dive to about 1,400 metres, but a heavy swell badly damaged the float afterwards. Britannica says the project was troubled by various difficulties until his son Jacques intervened, and the Trieste was built five years later.",
+  "auguste-piccard.interpretation.moment.2":
+    "The sequence is consistent with sustained effort on a long project, though the later success depended on his son, Italian industry and the French Navy taking over the earlier craft, so it is not a one-man story.",
+  "auguste-piccard.turning_point.1":
+    "After the 1932 flight Piccard turned from the stratosphere to the sea. Britannica says that as a child he had been fascinated by accounts of marine fish and thought people should descend into the depths, and StratoCat says that by 1937 he had begun building a deep-sea craft from a modified version of his balloon cabin, work the Second World War interrupted.",
+  "auguste-piccard.interpretation.turning_point.1":
+    "The move is consistent with a habit of carrying one engineering idea, the pressure-resistant cabin, into a new setting, though the childhood interest comes from a single reference account.",
+  "bai-juyi.achievement.1":
+    "He wrote some of the best-known long narrative poems of the Tang dynasty, among them the Song of Everlasting Sorrow, which retells the story of Emperor Xuanzong and Yang Guifei as a romantic tragedy where the traditional histories condemned the emperor, and the Song of the Pipa Player. Over 2,800 of his poems survive, and Waley says no other Tang poet wrote so many that ordinary people could understand.",
+  "bai-juyi.achievement.2":
+    "He argued that poetry should serve its time and wrote satirical poems on the hardships of ordinary people, among them The Old Charcoal Seller and the Fifty New Yuefu Poems, reviving the old ballad tradition of social protest. He sorted his own poems into satirical, leisurely, sentimental and miscellaneous groups and, in a letter to Yuan Zhen, wrote that poetry should influence public affairs.",
+  "bai-juyi.achievement.3":
+    "His poetry travelled far beyond China during his own lifetime: Waley records that copies of his works had reached Japan by 838, and the New World Encyclopedia notes that the Heian-period Tale of Genji and Pillow Book refer to the Song of Everlasting Sorrow. Baidu Baike adds that Japanese scholars see him as a major influence on Heian-period poetry.",
+  "bai-juyi.moment.1":
+    "In 822-824, as prefect of Hangzhou, he took an interest in the lake's water: Waley says the lake dam was raised by several feet under his auspices in early 824, though he did not originate it. In a stone inscription he answered objections to draining the lake for irrigation, asking whether fish or people mattered more, and rebutted the belief that lowering the lake dried the city wells by pointing to springs under the lake and advising that the buried culverts be inspected. He wrote it in plain language, he says, so that it would be easy to understand.",
+  "bai-juyi.interpretation.moment.1":
+    "The inscription is consistent with a hands-on approach to local problems and with the plain, reasoned style his poetry is known for.",
+  "bai-juyi.moment.2":
+    "On the morning in 815 when the chief minister Wu Yuanheng was murdered, Bai sent a memorial to the throne the same day demanding that the killers be caught. According to the Old Book of Tang, officials disliked his remonstrances and he was sent away as assistant prefect of Jiangzhou; Waley adds that he later left this memorial out of his collected works.",
+  "bai-juyi.interpretation.moment.2":
+    "The episode is consistent with a readiness to speak out against official caution, together with the career cost that came with it.",
+  "bai-juyi.turning_point.1":
+    "After the Jiangzhou exile of 815-818 he held posts as prefect of Zhongzhou, Hangzhou and Suzhou. In 829, citing illness, he asked for a post at Luoyang; Waley says that in the seventeen years he still had to live he left the city's neighbourhood only once, and the Old Book of Tang says he avoided factional politics and often asked for light posts. Waley reads several of his late poems as showing that he wondered whether he had been too cautious.",
+  "bai-juyi.interpretation.turning_point.1":
+    "The shift from outspoken remonstrator to a man who stayed clear of factions is consistent with the profile's mix of tolerance for conflict early on and a strong wish for independence later.",
+  "balkrishna-doshi.achievement.1":
+    "Over seven decades and more than a hundred projects, Doshi became a leading figure in India's post-independence modern architecture, adapting what he learned from Le Corbusier and Louis Kahn to Indian climate and tradition. His best-known works include the Institute of Indology, Tagore Memorial Hall, the Indian Institute of Management Bangalore (1977-92) and his half-buried studio Sangath. In 2018 he became the first Indian to win the Pritzker Prize.",
+  "balkrishna-doshi.achievement.2":
+    "Doshi designed the Aranya Low Cost Housing township at Indore (1982-89), a sites-and-services scheme in which each family received a plot with a service core and could build on it over time. About 65 percent of the 6,500 plots were meant for lower-income households, and the township has grown to roughly 80,000 residents. It won the Aga Khan Award for Architecture; a later study found that many plots passed to other buyers and that low-income residents are now a minority.",
+  "balkrishna-doshi.achievement.3":
+    "In the 1960s Doshi founded and designed the School of Architecture and Planning in Ahmedabad, now part of CEPT University, and held leading roles there until 2012. Alongside it he founded the Vastushilpa Foundation in 1978 for research on design standards suited to India.",
+  "balkrishna-doshi.moment.1":
+    "For Aranya, Doshi gave each family a concrete plinth with a service hub and about 80 model designs, then left the building to the residents. On a return visit in 2017 he reported about 35,000 people living there in resident-built homes, and he said they had 'invented better than the architects could have'. This is his own account in an interview; an independent article notes that many of his original intentions were not carried through.",
+  "balkrishna-doshi.interpretation.moment.1":
+    "The choice to hand much of the building to residents is consistent with a willingness to revise the architect's usual role, though the outcome described by independent observers is mixed.",
+  "balkrishna-doshi.moment.2":
+    "A friend recalls that when Doshi visited a new school in the mid-1980s, he sat in a child's chair in every classroom to see the rooms from a child's height. The same friend recalls him taking a pocket notebook to lectures, climbing a construction-site wall for a better view in the 1980s, and climbing a 30-metre water tower at the Bangalore campus in 2011.",
+  "balkrishna-doshi.interpretation.moment.2":
+    "These recollections from a single admiring friend are consistent with a habit of learning by direct observation, and should be read as one acquaintance's picture rather than a full record.",
+  "balkrishna-doshi.turning_point.1":
+    "In 1951, soon after finishing architecture school in Bombay, Doshi went to Paris to work in Le Corbusier's atelier, knowing no one and speaking no French. He returned to India in 1954 to supervise Le Corbusier's projects in Chandigarh and Ahmedabad, and in 1956 founded his own practice, Vastushilpa.",
+  "balkrishna-doshi.interpretation.turning_point.1":
+    "The move is consistent with a readiness to act on his own initiative at an early stage of his career; the account of the move comes mainly from his own telling and from tributes that repeat it.",
+  "fanny-bullock-workman.achievement.1":
+    "With her husband William Hunter Workman she made eight summer seasons of exploration in the Karakoram and Punjab Himalaya between 1898 and 1912, visiting the Biafo, Hispar, Chogo Lungma, Nun Kun and Siachen regions, which were then poorly mapped. The couple photographed and described what they found in a series of illustrated books and in lectures to geographical societies, though their own maps were later criticised as inaccurate.",
+  "fanny-bullock-workman.achievement.2":
+    "In 1911 and 1912 she led a private expedition to the Siachen glacier, naming passes and peaks and reaching the Indira Col and the Silver Throne plateau with her guides. The triangulation of the glacier was carried out by Captain Grant Peterkin and Sarjan Singh of the Survey of India, and one critical biography says it remains the basis of current maps.",
+  "fanny-bullock-workman.achievement.3":
+    "In 1903 she climbed Pyramid Peak (now Spantik) to about 22,400 feet, and in 1906 she reached the summit of Pinnacle Peak in the Nun Kun massif, then estimated at about 23,300 feet and later put near 22,800 feet. Her 1906 climb was the women's altitude record until 1934.",
+  "fanny-bullock-workman.moment.1":
+    "When Annie Smith Peck estimated in 1908 that Huascaran's north peak stood near 24,000 feet, which would have beaten Workman's women's altitude record, Workman hired French surveyors in June 1909 to triangulate the mountain. Their report gave 21,812 feet for the north peak; she circulated it in journals and newspapers and devoted a chapter of her 1910 book to the dispute, while Peck said her figures had only been estimates.",
+  "fanny-bullock-workman.interpretation.moment.1":
+    "The episode is consistent with a readiness to spend money and effort defending a record against a rival, though her own Pinnacle Peak figure was later revised downward as well.",
+  "fanny-bullock-workman.moment.2":
+    "After a hard 1911 season on the Siachen she wrote that she did not mean to come again, but that on the Bilaphond pass she told herself she must return. In 1912, aged 54, she led a second expedition that spent about two months at high altitude, going as high as roughly 21,000 feet.",
+  "fanny-bullock-workman.interpretation.moment.2":
+    "Her own account, retold by an admiring Himalayan Club article, is consistent with a determination to finish work she had started, and a critical biography independently records the length and altitude of the 1912 trip.",
+  "fanny-bullock-workman.turning_point.1":
+    "After years of cycling tours in Europe, North Africa and Asia, the Workmans reached Srinagar in 1898 at the end of a long journey across India and, according to a critical biography, quite suddenly turned to the Himalaya, trekking to Leh and the Karakoram pass. The following year they began the first of the expeditions that became their main work.",
+  "fanny-bullock-workman.interpretation.turning_point.1":
+    "The shift from touring to exploring is consistent with a readiness to redirect a self-funded life toward a new objective, though the sources describe it as a joint decision with her husband.",
+  "hormuzd-rassam.achievement.1":
+    "In 1853-54, working for the British Museum, Rassam found the North Palace of Ashurbanipal at Kouyunjik (Nineveh), with its celebrated lion-hunt reliefs and part of the royal library, whose tablets included Creation and Flood accounts. Those tablets later let George Smith read the Babylonian flood story.",
+  "hormuzd-rassam.achievement.2":
+    "Between 1878 and 1882 he directed four British Museum expeditions across Assyria and Babylonia. They brought back the bronze gates of Balawat, the Cyrus Cylinder, and tens of thousands of tablets, including 60,000 to 70,000 from Sippar, where his 1880 find identified the temple of the sun god Shamash.",
+  "hormuzd-rassam.moment.1":
+    "In December 1853 Rassam had workmen dig by night on the north part of Koyunjik, ground the British resident had assigned to the French consul. After three nights they uncovered a relief of Ashurbanipal in his chariot. When the French consul protested, Rassam answered that the British had been paying the mound's owner. This account comes mainly from his own 1897 memoir and later retellings.",
+  "hormuzd-rassam.interpretation.moment.1":
+    "The episode is consistent with a willingness to act on his own judgment and to accept a dispute with a rival, though a single self-reported episode cannot show how typical it was.",
+  "hormuzd-rassam.moment.2":
+    "Sent in 1864 to obtain the release of British captives held by King Theodore of Abyssinia, Rassam waited about a year at Massowah, sending messengers and supplies to the prisoners. After he was himself chained at Magdala in 1866, his fellow envoy Henry Blanc records that he kept writing courteous letters to the king. British troops, not his mission, ended the captivity in 1868.",
+  "hormuzd-rassam.interpretation.moment.2":
+    "His conduct across these two years is consistent with persistence in a slow diplomatic effort, even though the effort did not secure the captives' release.",
+  "hormuzd-rassam.turning_point.1":
+    "In 1893 Rassam sued the British Museum's Wallis Budge, who had alleged that he colluded with workmen who sold tablets. A jury found for Rassam and awarded 50 pounds against the 1,000 he sought, with no malice found. The museum raised a fund for Budge's costs. Sources describe the case as damaging to Rassam's standing, though they differ on how far.",
+  "hormuzd-rassam.interpretation.turning_point.1":
+    "The choice to contest the accusation in court is consistent with a high tolerance for open conflict, one that cost him the goodwill of the institution he had served.",
+  "john-a-roebling.achievement.1":
+    "Roebling made wire-cable suspension bridges practical for heavy loads. After building the Allegheny aqueduct (1845) and other early suspension structures, he completed the 821-foot double-deck Niagara bridge in 1855, widely described as the first working railway suspension bridge, and the Cincinnati bridge, begun in 1856 and finished in 1867. Later engineers found trusses more efficient for long railway spans, but his bridges showed that suspension could carry trains.",
+  "john-a-roebling.achievement.2":
+    "Roebling developed a twisted wire rope to replace the hemp ropes that hauled cars on the Allegheny Portage Railroad. It was first tested on an incline there in 1842 and patented soon afterwards, and it became the basis of his wire-rope works, which he moved to Trenton, New Jersey, in 1849. The same wire supplied the cables of his bridges.",
+  "john-a-roebling.achievement.3":
+    "Appointed chief engineer of the East River bridge in 1867, Roebling designed the Brooklyn Bridge, a suspension bridge with a central span of 1,595.5 feet, granite and limestone towers, diagonal stays and steel-wire cables. He died of tetanus in 1869 after a ferry-slip accident, before construction began, and the bridge was completed in 1883 under his son Washington Roebling, with his daughter-in-law Emily Warren Roebling playing a major role.",
+  "john-a-roebling.moment.1":
+    "When a Niagara bridge promoter asked leading engineers in 1845-46 whether a suspension bridge could carry railway trains, Roebling replied that Robert Stephenson had not solved the problem and that a properly stiffened wire-cable bridge would. Only four engineers supported the idea. In his own reply he said the only open question was whether the bridge could be made stiff enough.",
+  "john-a-roebling.interpretation.moment.1":
+    "The reply is consistent with a profile of someone willing to disagree with an established authority, although a later engineering historian notes he was wrong that suspension was the best form for long railway spans.",
+  "john-a-roebling.moment.2":
+    "Some engineers called the Brooklyn Bridge a wild experiment. Roebling convened a panel of engineers, including the president of the American Society of Civil Engineers, to scrutinise his plans, according to the society's magazine, which draws on McCullough's history of the bridge. He had also written that it would be the greatest engineering work of the continent and of the age.",
+  "john-a-roebling.interpretation.moment.2":
+    "Convening reviewers is consistent with the profile's analytical rigor, though the account is a single secondary one and the boast about greatness is his own.",
+  "john-a-roebling.turning_point.1":
+    "The German farm community Roebling helped found in Butler County, Pennsylvania, did not become what he planned, and he turned to canal and railway surveying for the state. While surveying routes over the Allegheny Mountains he saw that hemp ropes wore out quickly, and by 1842 he had tested a wire rope on the Portage Railroad. Haw says the idea made his fortune, and in 1849 he moved his works to Trenton to build bridges.",
+  "john-a-roebling.interpretation.turning_point.1":
+    "The shift from farming to engineering and wire rope is consistent with the profile's adaptability, though one biographer also describes him as holding fixed opinions.",
+  "joseph-paxton.achievement.1":
+    "In 1850 Paxton, then head gardener at Chatsworth, offered a design in iron and glass for the Great Exhibition building in Hyde Park after the Commissioners' own competition had produced no accepted scheme. His plan was built from prefabricated parts that could be put up and taken down on site, and the building was completed in about six months; the contractors were Fox and Henderson. He was knighted in 1851, and the building was re-erected at Sydenham in 1852-54.",
+  "joseph-paxton.achievement.2":
+    "At Chatsworth, Paxton built a series of glasshouses for the Duke of Devonshire that led up to the Great Stove (1836-40), then the largest glasshouse in Europe. It used curved ridge-and-furrow glazed roofs on laminated timber arches and cast-iron columns, with sheet glass newly made by Chance Brothers, and it served as a model for his later Exhibition building. The design drew on earlier ridge-and-furrow roofs by John Claudius Loudon, and Decimus Burton advised on the project.",
+  "joseph-paxton.achievement.3":
+    "Paxton laid out Birkenhead Park (1843-47), which Historic England records as the first public park established at public expense in the United Kingdom. Edward Kemp, who had worked with him at Chatsworth, supervised construction and Paxton withdrew in 1845, leaving Kemp to complete it. Curl notes the layout influenced Frederick Law Olmsted, and Paxton went on to design further public parks in Britain.",
+  "joseph-paxton.moment.1":
+    "After the Commissioners had rejected the competition entries, Paxton decided at the last moment to submit a design for the Exhibition building. The 1895 Dictionary of National Biography says his plan was prepared in nine days; in his own 1850 paper to the Society of Arts he gave about ten days, adding that he had the idea of flat ridge-and-furrow roofs already worked out from his earlier glasshouses.",
+  "joseph-paxton.interpretation.moment.1":
+    "The timing is consistent with a profile of someone who acted on his own initiative once an opening appeared, though his own account stresses that the speed rested on a decade of earlier work.",
+  "joseph-paxton.moment.2":
+    "In his own 1850 account, Paxton compared estimates for a hot-house range in 1833: about 1,800 pounds if built in metal, against under 500 pounds in wood under his own supervision. For the Great Conservatory he later said he built a grooving machine for about 20 pounds that saved some 1,400 pounds in making sash bars and won a Society of Arts medal in 1841. These figures come from Paxton himself and were not checked against accounts here.",
+  "joseph-paxton.interpretation.moment.2":
+    "The episode is consistent with the profile's reading of him as practical and cost-conscious, but the evidence is his own report.",
+  "joseph-paxton.turning_point.1":
+    "Before 1850 Paxton was known as the Duke of Devonshire's head gardener, editor of horticultural journals and builder of glasshouses. The Exhibition building brought a knighthood in 1851, and Curl says that from then on he concentrated on architecture, designing Mentmore Towers, Ferrieres and, with George Henry Stokes, the Sydenham gardens.",
+  "joseph-paxton.interpretation.turning_point.1":
+    "The shift is consistent with the profile's cross-domain range, although the new work grew directly out of his glasshouse expertise and was often done with partners.",
+  "josephine-butler.achievement.1":
+    "Butler led the Ladies National Association for the Repeal of the Contagious Diseases Acts from its founding in 1869. The Acts let police in garrison towns and ports have women suspected of prostitution examined and, if found diseased, confined in lock hospitals, while the men involved were untouched. The Acts were suspended in 1883 and repealed in 1886, a result that also depended on parliamentary allies such as James Stansfeld.",
+  "josephine-butler.achievement.2":
+    "Butler took the campaign beyond Britain. After touring France, Italy and Switzerland in 1874, she became a major figure in the federation founded in 1875 that grew into the International Abolitionist Federation, which opposed state regulation of prostitution across Europe. In the 1890s she campaigned against the attempt to reintroduce compulsory examination in India and published the paper The Storm Bell from 1898.",
+  "josephine-butler.achievement.3":
+    "In 1885 Butler supplied evidence on the sexual exploitation of girls to W. T. Stead's Maiden Tribute of Modern Babylon exposure in the Pall Mall Gazette, which helped bring about the Criminal Law Amendment Act of 1885 raising the age of consent from thirteen to sixteen. The exposure was Stead's and the Salvation Army's as much as hers: Stead and Rebecca Jarrett were convicted over the staged purchase of a girl, and Butler defended them.",
+  "josephine-butler.moment.1":
+    "In August 1872 Butler went to Pontefract with other repealers to oppose the return of Hugh Childers, a former First Lord of the Admiralty under whom the Acts had been administered. Her later memoir describes a meeting in a hayloft being broken into by an angry crowd; a letter written at the time by the repeal campaigner Henry Wilson confirms that her meeting was broken into by 'roughs' linked to Childers's campaign, but a scholarly article finds her memoir exaggerates the scene. Childers was re-elected with a majority of 80.",
+  "josephine-butler.interpretation.moment.1":
+    "Going into a hostile by-election and carrying on after her meeting was broken up is consistent with a high tolerance for conflict; the vivid details come from her own memoir, so the episode supports 'she carried on' better than any precise account of the danger.",
+  "josephine-butler.moment.2":
+    "After her family moved to Liverpool in 1866, Butler began visiting the Brownlow Hill workhouse and sitting with the women picking oakum, and she took some of them into her home. The reference entry on her notes that this did little to endear the college headmaster's wife to many of its parents. She later ran a House of Rest and an industrial home for destitute women.",
+  "josephine-butler.interpretation.moment.2":
+    "Starting this work on her own initiative, in a form her community disapproved of, is consistent with strong proactive agency; her own writings link it to grief after her daughter's death, which is her explanation rather than an independent finding.",
+  "josephine-butler.turning_point.1":
+    "In 1869 the new Ladies National Association, formed after women were barred from the men's repeal association, invited Butler to serve as its honorary secretary. The Journal of Liberal History records that she hesitated and wrote to her husband for permission, which he gave. She became the campaign's public figurehead, moving from local rescue work to a national campaign on a subject then not discussed in public, and her husband's career suffered for it.",
+  "josephine-butler.interpretation.turning_point.1":
+    "The move from charity, which was customary for a clergyman's wife, to national political campaigning is consistent with a willingness to lead despite personal and family cost; her initial hesitation and her husband's backing are part of the same story.",
+  "kikunae-ikeda.achievement.1":
+    "In 1908 Ikeda traced the savoury taste of kombu broth to glutamate, and in a 1909 paper he named it umami and proposed it as a basic taste alongside sweet, sour, salty and bitter. Glutamic acid itself had been isolated in Germany in 1866; his contribution was to identify it as the source of that taste and to find that its sodium salt carries the taste strongly.",
+  "kikunae-ikeda.achievement.2":
+    "Ikeda patented a method of making a glutamate seasoning and, with the Suzuki firm, put it on sale as Ajinomoto in May 1909. Monosodium glutamate has since become one of the most widely used seasonings in the world.",
+  "kikunae-ikeda.achievement.3":
+    "A leading theoretical chemist at Tokyo Imperial University from 1901, Ikeda trained younger chemists there. He later took part in founding the Institute of Physical and Chemical Research (RIKEN) in 1917 and became one of its chief researchers.",
+  "kikunae-ikeda.moment.1":
+    "From 1907 Ikeda boiled down large quantities of kombu and removed salts and mannitol step by step. By February 1908 he had crystals that proved to be glutamic acid, and he then compared several glutamate salts before settling on the sodium salt. The widely told story that his wife's purchase of kombu started the work comes from his own later recollection and is now disputed.",
+  "kikunae-ikeda.interpretation.moment.1":
+    "This is consistent with a methodical, stepwise approach to separating and testing one taste component, although the sources describe the steps rather than how he reasoned.",
+  "kikunae-ikeda.moment.2":
+    "The National Diet Library essay quotes the agricultural chemist Suzuki Umetaro, as recalled by the chemist Katayama Masao in a memorial volume, saying the work was of a kind he might have done himself: he had tasted glutamic acid but not its salt. The same essay notes that glutamic acid had been known since 1866.",
+  "kikunae-ikeda.interpretation.moment.2":
+    "It illustrates that the novelty lay partly in testing the salt and in recognising the taste, not in finding a new compound, which sits alongside the library's own caution about the popular version of the story.",
+  "kikunae-ikeda.turning_point.1":
+    "Having patented a glutamate seasoning process, Ikeda decided in September 1908, together with the industrialist Suzuki Saburosuke, to release it; the seasoning went on sale in May 1909. The company sources disagree on whether Ikeda or Suzuki made the first approach.",
+  "kikunae-ikeda.interpretation.turning_point.1":
+    "The shift from a laboratory result to a commercial product is consistent with taking initiative beyond pure research, though the step was shared with Suzuki and the company accounts are self-interested.",
+  "komitas.achievement.1":
+    "He is described as a pioneer of Armenian ethnomusicology. From his seminary years he collected and transcribed folk songs in villages, completed a first collection of 25 pieces in 1895 and published further collections in 1903 and 1905, along with twelve Kurdish songs. A museum-institute researcher puts his collection at about four thousand songs and melodies, and Zakaryan says that of more than 3,000 pieces only about 1,200 survive.",
+  "komitas.achievement.2":
+    "He arranged Armenian folk and church songs for choir in a style that, according to the museum-institute essay, his Berlin teachers called 'Armenian style'. The scholar Ayvazian, quoting Atayan, says he built his polyphony on methods drawn from the folk material rather than on conventional harmony rules. He led the Gevorgian seminary choir until 1906 and in 1910 founded the Gusan choir in Constantinople, described as having up to 300 singers.",
+  "komitas.achievement.3":
+    "He worked on the old khaz neume notation of Armenian church chant. In 1899 he published 'Die armenische Kirchenmusik' for the International Music Society, and in 1914 he presented a paper on medieval khaz notation at the society's Paris congress. Zakaryan says most of his unpublished manuscripts on the notation were lost, while the liturgy he prepared, first published in Paris in 1933, later became the canonical Armenian one.",
+  "komitas.moment.1":
+    "According to the museum-institute essay and a researcher of the same institute, he gathered songs by joining villagers' work, weddings and ceremonies or by listening unseen, because villagers would not sing a work song when they were not working. The essay adds a story that he waited an hour or more inside a hollow tree for a girl to resume the song she had been interrupted in.",
+  "komitas.interpretation.moment.1":
+    "The method is consistent with a profile that goes to the source and is willing to wait for it, although the hollow-tree story comes from a single admiring account.",
+  "komitas.moment.2":
+    "In autumn 1913 he published the article 'The Armenians have their own music' in a Constantinople newspaper, which a museum-institute researcher says ended a debate over whether Armenian music was derivative of Byzantine or Persian-Arabic music. At the 1914 Paris congress he sang examples to show how Turkish and Persian styles had influenced Armenian performance, as the scholar Ayvazian reports from his surviving notes.",
+  "komitas.interpretation.moment.2":
+    "The episode is consistent with a profile that argues a position from the evidence it has gathered, though the sources are sympathetic to that position and the claim that the debate ended is the interviewee's own.",
+  "komitas.turning_point.1":
+    "In 1895 he left Etchmiadzin for Tiflis to study harmony, and in 1896 he went to Berlin, where a benefactor's funding was arranged through the Catholicos. By his own account he studied privately with Richard Schmidt for three years and took university courses in the history of music philosophy, then returned in 1899 and gave his first lecture on Armenian music to the International Music Society, of which he was a founding member. Back in Etchmiadzin he directed the seminary choir and published his collections.",
+  "komitas.interpretation.turning_point.1":
+    "The three years of study abroad are consistent with a profile that invests in formal training to deepen a self-started line of work, though the account of the study is partly his own.",
+  "konstantin-tsiolkovsky.achievement.1":
+    "In 'Exploration of the World Space with Reaction Machines' (1903) and follow-up articles in 1911, 1912 and 1914, he set out a mathematically grounded case for travelling in space by rocket, including the relation between a rocket's final speed, its exhaust velocity and its changing mass that now bears his name. He proposed liquid oxygen and hydrogen as propellants and worked through conditions of life in weightlessness, decades before any rocket flew in space.",
+  "konstantin-tsiolkovsky.achievement.2":
+    "He worked out many ideas that later became standard in rocketry on paper: multistage 'rocket trains' (1929), gas-driven rudders for steering in a vacuum, propellant that also cools the combustion chamber, and a 1926 sixteen-step plan for spreading humanity into space with orbital settlements. He never built a rocket engine, but Valentin Glushko, later the leading Soviet rocket-engine designer, began corresponding with him in 1923 and credited his writings.",
+  "konstantin-tsiolkovsky.achievement.3":
+    "Before turning to rockets he designed aircraft and airships: an all-metal dirigible with a corrugated shell whose volume could vary in flight (1892), a streamlined metal monoplane with a gyroscope for steering (1894), and in the 1890s a wind tunnel, described as the first used for aviation in Russia, in which he measured air resistance on models.",
+  "konstantin-tsiolkovsky.moment.1":
+    "Russian Space Web, drawing on a Kaluga museum scientist, says the 1903 rocket paper reached the magazine Nauchnoe Obozrenie just as it was about to fold, and that only a few copies circulated before the press run was confiscated; a copy turned up in the Library of Congress in the 1960s. Earlier, the Dictionary of Scientific Biography records that his advanced ideas met indifference and disbelief, and he wrote of working for many years alone.",
+  "konstantin-tsiolkovsky.interpretation.moment.1":
+    "The episode is consistent with a pattern of persistence without much outside recognition: the work continued, and he later published further pieces and funded his own booklets. How many copies circulated is told differently in different sources.",
+  "konstantin-tsiolkovsky.moment.2":
+    "Needing measured data on air resistance for his aircraft designs, he built a small wind tunnel in Kaluga with meagre means: a weight-driven blower, a balance and a pointer, with which he measured drag on bodies of different shapes. The Dictionary of Scientific Biography dates it to 1897; Rynin's 1931 biography gives earlier dates for the tunnel and a drawing dated 1896.",
+  "konstantin-tsiolkovsky.interpretation.moment.2":
+    "This is consistent with resourcefulness and a willingness to test calculation against measurement; it rests mainly on a reference entry and a contemporary admiring biography, and the sources disagree on dates.",
+  "konstantin-tsiolkovsky.turning_point.1":
+    "After the 1917 revolution the state granted him a lifelong honorary pension in November 1921, and after Hermann Oberth's 1923 book drew world attention to spaceflight, the Soviet press began presenting him as a pioneer. Scholars Hagemeister and Siddiqi note that real material support stayed small in the 1920s, that he never joined the Communist Party, and that he kept self-publishing philosophical booklets outside the official line.",
+  "konstantin-tsiolkovsky.interpretation.turning_point.1":
+    "The pattern is consistent with independence of thought: recognition arrived late and did not change what he chose to publish. Scholars also document that those self-published writings included eugenic ideas now regarded as harmful, which is why the profile marks this trait as dual-edged.",
+  "lazzaro-spallanzani.achievement.1":
+    "In 1765 Spallanzani repeated the experiments of Needham and Buffon and showed that microscopic organisms did not arise spontaneously in boiled infusions: infusions boiled and sealed from the air stayed barren, while air let in through a crack allowed organisms to multiply. He answered Needham's objections by changing the design of the experiment, and his work was later taken up by Pasteur and bears on heat preservation of food.",
+  "lazzaro-spallanzani.achievement.2":
+    "His 1780 Dissertations on digestion showed the role of gastric juice, which he collected from animals and from himself and tested on food in glass tubes, producing partial digestion outside the body. He wrongly judged the juice neutral, but the work set the study of digestion on an experimental footing.",
+  "lazzaro-spallanzani.achievement.3":
+    "In the same 1780 work he showed with amphibians that physical contact between sperm and egg is needed for fertilisation, using waxed taffeta breeches on frogs, and reported an early, controlled artificial insemination of a mammal, a dog. He missed the role of the spermatozoa themselves and held to an ovist preformationist view of development.",
+  "lazzaro-spallanzani.moment.1":
+    "In 1793-94, in his mid sixties, Spallanzani tested how bats fly in total darkness: he hooded them, blinded them, covered them in varnish and paste, and found they still flew and fed. When Jurine reported that wax plugs in the ears ruined their avoidance of obstacles, Spallanzani fitted plugs with small brass tubes to separate hearing from distress, and accepted that hearing was involved. Cuvier ridiculed the result, and the explanation by echolocation was only demonstrated in the twentieth century.",
+  "lazzaro-spallanzani.interpretation.moment.1":
+    "This is consistent with a habit of answering an objection by redesigning the experiment, even when the result seemed unreasonable to him, though the sources describe the steps rather than his reasoning.",
+  "lazzaro-spallanzani.moment.2":
+    "Returning to Pavia from Constantinople in 1786, Spallanzani found that colleagues, including the curator Serafino Volta and the professors Scopoli, Fontana and Scarpa, had accused him of moving museum specimens to his private collection. He demanded an inquiry, an imperial decree of 1787 cleared him and the accusers were punished, and he then published a pseudonymous satire against Scopoli. The long reference biography adds that a specimen sent to Scopoli as a new intestinal worm was in fact a piece of chicken gullet.",
+  "lazzaro-spallanzani.interpretation.moment.2":
+    "The episode is consistent with a high tolerance for open conflict, here showing up both as a formal defence and as a retaliation; the sources disagree on his manner, with a 1912 entry describing 'gentle courtesy' and the long biography describing a temper that could turn ruthless.",
+  "lazzaro-spallanzani.turning_point.1":
+    "Until 1760 Spallanzani was a teacher of Greek, French and mathematics at Reggio who had published a critique of an Italian translation of the Iliad. From 1761, after being introduced to the works of Buffon and Needham, he turned to biology and set out to test their claims; the result was the 1765 essay against spontaneous generation, which began his long correspondence with Charles Bonnet and preceded his move to Pavia in 1769.",
+  "lazzaro-spallanzani.interpretation.turning_point.1":
+    "This is consistent with a curiosity that redirected a career once a specific open question was in front of him, though the introduction to Buffon and Needham came from outside.",
+  "mansa-musa.achievement.1":
+    "Mansa Musa ruled the Mali Empire from 1312 to 1337, when it controlled much of the gold and salt trade of West Africa and stretched from the Atlantic coast to Gao and the Niger bend. Reference accounts describe an empire of provinces run by governors he appointed, and Timbuktu and Gao were brought within its borders in his reign.",
+  "mansa-musa.achievement.2":
+    "In 1324-1325 he made the pilgrimage to Mecca with a very large entourage and stopped in Cairo, where the Syrian writer al-Umari says his gifts of gold to the sultan's court lowered the price of gold in Egypt. Historians accept the gift-giving and a fall in the price but doubt al-Umari's claim that it lasted twelve years, and many popular figures for his wealth have no historical basis. The journey made Mali famous: the Catalan Atlas of 1375 shows him enthroned and holding a gold orb.",
+  "mansa-musa.achievement.3":
+    "After returning, he brought back books and scholars and is said to have opened Islamic schools across the empire, and architects he brought in are credited with new mosques and palaces. Timbuktu became one of the main centres of Islamic learning in West Africa. Accounts differ on the architect's name and on exactly which buildings he built.",
+  "mansa-musa.moment.1":
+    "According to al-Umari, who heard it from an emir at the Cairo court, Musa at first declined to go up to the Citadel, saying he had come for the pilgrimage and nothing else, and then refused to kiss the ground before the Mamluk sultan. After an aide whispered to him, he said he made obeisance only to God and prostrated himself before going forward. The sultan half rose to greet him and seated him at his side.",
+  "mansa-musa.interpretation.moment.1":
+    "The story, told secondhand and years later, is consistent with a ruler who held on to a point of dignity and then accepted a way of saving face, but one anecdote cannot show how he handled disagreement in general.",
+  "mansa-musa.turning_point.1":
+    "The pilgrimage changed his standing and his policies at home. Before 1324 Mali was known to the Mamluk and Mediterranean worlds mostly as a source of gold; afterwards he was a ruler whose court was talked about in Cairo and drawn on European maps. On his return, reference accounts say, he brought back scholars, books and architects and expanded Islamic schooling, in the same years Timbuktu began to rise as a centre of learning.",
+  "mansa-musa.interpretation.turning_point.1":
+    "This is consistent with a ruler who used an opportunity abroad to recruit people and build institutions at home, though the evidence comes from summaries of later Arabic accounts and the scale of the effects is debated.",
+  "marianne-north.achievement.1":
+    "Between 1871 and 1885 she travelled almost always alone through fifteen countries, from Brazil, Jamaica and California to Japan, Borneo, India, Australia, South Africa, the Seychelles and Chile, painting plants in oil on the spot in their natural settings, often with the landscape, animals and people around them. Because colour photography did not yet exist, the paintings recorded vegetation that most British viewers had never seen.",
+  "marianne-north.achievement.2":
+    "She offered her paintings to Kew in 1879 and paid for a gallery to hold them, choosing the site, engaging the architectural historian James Fergusson to design it and hanging the pictures herself by region. The Marianne North Gallery opened in 1882 with more than 800 paintings and is still displayed at Kew, in the arrangement she made.",
+  "marianne-north.achievement.3":
+    "A giant pitcher plant she painted in Borneo was unknown to science. In her own account, her picture led the nurseryman Veitch to send a collector for seeds, and Joseph Hooker named it Nepenthes northiana; four other plants were also named for her.",
+  "marianne-north.moment.1":
+    "In 1879 she wrote to Joseph Hooker, the director of Kew, offering her paintings and a gallery built at her own expense. She hoped it could also serve tea and coffee to tired visitors; Hooker replied that this was impossible with so many people in the gardens. She chose the site herself, and in her own account asked Fergusson to design and manage the building.",
+  "marianne-north.interpretation.moment.1":
+    "The episode is consistent with a pattern of acting on her own plans and paying for them, though the building itself was designed and managed by others.",
+  "marianne-north.moment.2":
+    "After she met Charles Darwin, she took his advice that she should not attempt to represent the world's vegetation without first seeing Australia, New Zealand and Tasmania, and spent about a year painting there. Her own account says Darwin urged her to go to Australia; a review of a 2024 biography records the same advice.",
+  "marianne-north.interpretation.moment.2":
+    "The trip illustrates a willingness to extend her plans on the advice of a naturalist she respected, which is consistent with a curiosity directed at plants and places.",
+  "marianne-north.turning_point.1":
+    "Her father, with whom she had travelled across Europe and the Near East, died in 1869. About two years later she sold the family house in Hastings and began the solo journeys of 1871 to 1885 that became her life's work, having long dreamed of painting tropical vegetation on the spot.",
+  "marianne-north.interpretation.turning_point.1":
+    "The change from accompanying her father to travelling on her own is consistent with the profile's reading that she valued working to her own plan and schedule, though her inheritance made the change possible.",
+  "niccolo-paganini.achievement.1":
+    "Paganini began his career as a touring soloist in Italy with the Milan concerts of 1813 and from 1828 to 1834 took it across Europe, playing in Vienna, Berlin, Warsaw, Paris and London. Reference works describe the most successful concert career of any instrumentalist before him and credit him with extending violin technique through extensive harmonics, left-hand pizzicato, writing for the G string alone and unusual tunings. The Dictionary of Italian Biography adds that his fame was also built through the press, and that his skill was matched by a showman's presence on stage.",
+  "niccolo-paganini.achievement.2":
+    "His 24 Caprices for solo violin, contracted with the publisher Ricordi in 1817 and published in 1820, are dedicated 'to the artists' and became a foundation of violin technique. Paganini treated them as studies and did not play them in public, but later composers including Chopin, Schumann, Liszt, Brahms and Rachmaninov wrote pieces based on them, notably on Caprices nos. 5, 9 and 24 and the 'Campanella' rondo of his second concerto.",
+  "niccolo-paganini.achievement.3":
+    "Paganini wrote five violin concertos between 1816 and 1830 and a series of variation works for violin and orchestra, among them Le streghe (1813), in which the soloist dominates and the orchestra plays a minimal part. He also wrote chamber music for strings and guitar. Reference works rank the concertos and showpieces next to the Caprices among his main compositions, and the concertos remain in the concert repertoire.",
+  "niccolo-paganini.moment.1":
+    "When Paganini reached London in 1831, he found the press hostile to his manner and rumours about his past circulating, among them that he had learned the violin in prison, and he answered them with articles and statements to the newspapers. He had also charged double the usual ticket prices as on the Continent; after the English press objected, he published a letter in The Courier and The Globe on 2 June 1831 saying he would follow the existing London prices.",
+  "niccolo-paganini.interpretation.moment.1":
+    "This is consistent with an active, hands-on approach to managing his own public image, though the sources do not say how much of the press campaign he planned himself.",
+  "niccolo-paganini.moment.2":
+    "In 1836-37 Paganini lent his name to the Casino Paganini, an entertainment hall in Paris promoted by a friend, with two weekly appearances announced. A throat illness meant he could not play, the venture failed within months, and the partners sued him. In 1840 the Paris court of appeal raised the damages against him to 50,000 francs (Stratton), though it is not known whether they were paid; the Italian national biography says only that the bankruptcy left many legal consequences. Accounts differ on whether he understood the project's real aims.",
+  "niccolo-paganini.interpretation.moment.2":
+    "The episode is one example of a willingness to put his name and money behind a speculative venture, although it may equally reflect trust in a friend, and the sources disagree on how well he understood it.",
+  "niccolo-paganini.turning_point.1":
+    "Paganini joined the Lucca court orchestra of Elisa Baciocchi in 1805 and later became its solo violinist, but in December 1809 he broke with the court and began a career as an independent concert violinist. After the Milan concerts of 1813 he toured Italy as a soloist without a court post, and from 1828 across Europe.",
+  "niccolo-paganini.interpretation.turning_point.1":
+    "The break is consistent with a strong preference for working on his own terms; the Italian national biography records the end of the Lucca relationship without giving his reasons, while older accounts describe him as dissatisfied with the court.",
+  "nikos-kazantzakis.achievement.1":
+    "Kazantzakis began The Odyssey: A Modern Sequel in 1924, rewrote it seven times and published it in Athens in December 1938. The 33,333-line verse epic picks up Homer's Odysseus after his return to Ithaca: he leaves home again, joins revolts in Crete and Egypt, founds an ideal city that an earthquake destroys, and ends alone on a last voyage toward the Antarctic ice. It is the central work of his career as a poet.",
+  "nikos-kazantzakis.achievement.2":
+    "In the years after the Second World War he wrote the novels that made him known outside Greece: Zorba the Greek, begun in 1941 and completed in 1943, then Christ Recrucified (written in 1948), Freedom or Death, The Last Temptation of Christ (finished by 1951) and St. Francis of Assisi (1953). The Last Temptation drew a Vatican edict and a Greek Synod campaign against him, and he is regarded as the best-known modern Greek writer abroad.",
+  "nikos-kazantzakis.achievement.3":
+    "Saviors of God: Spiritual Exercises, drafted in Berlin in the early 1920s and published in 1927, is the philosophical work in which he set out his belief that human creative effort alone can save God. Trakakis calls it his masterpiece of the early period; it led to a charge of atheism in Greece and a trial date that was set in 1930 but never held.",
+  "nikos-kazantzakis.moment.1":
+    "In April 1954 the Vatican issued an edict against The Last Temptation of Christ. Kazantzakis answered with a telegram quoting the early Christian writer Tertullian: 'In Your courtroom, Lord, I appeal.' In Greece the Holy Synod issued an encyclical against the novels Captain Michalis and The Last Temptation, and a campaign for his excommunication followed, which the Patriarchate declined to ratify.",
+  "nikos-kazantzakis.interpretation.moment.1":
+    "The reply is consistent with a willingness to face institutional opposition in public rather than retreat, though the sources report it mainly through his own telegram and a sympathetic Orthodox account.",
+  "nikos-kazantzakis.moment.2":
+    "Kazantzakis was sworn in as a minister without portfolio on 26 November 1945, and on 11 January 1946, after only 46 days, he resigned. He told a friend he had just handed in his resignation and felt 'terribly free', as if recovering from a long illness, and in his letter to the prime minister he said he had entered politics only to help unite the socialist parties and wished to return to solitude. Some detractors said he withdrew because he would not accept a subordinate position.",
+  "nikos-kazantzakis.interpretation.moment.2":
+    "The quick exit is consistent with a strong need for independence, though Bien reads it as relief at a limited goal achieved together with frustration, and accounts of his motives differ.",
+  "nikos-kazantzakis.turning_point.1":
+    "By 1920 Kazantzakis was 37 and, in the Gale entry's words, still undecided about his destiny; he felt he was an Odysseus who would never reach his Ithaca. After two critical years of inner struggle in Vienna and Berlin, in 1924 he completed the play Buddha and began The Odyssey: A Modern Sequel, which he would rewrite until its publication in 1938.",
+  "nikos-kazantzakis.interpretation.turning_point.1":
+    "The long return to one poem is consistent with persistence over many years, although the entry takes its account of this period largely from his wife's biography.",
+  "octave-chanute.achievement.1":
+    "Chanute corresponded with experimenters around the world and gathered what was reliably known about flight research into Progress in Flying Machines (1894). The Smithsonian curator Tom Crouch calls it the 'bible' for the generation of flying-machine pioneers who went on to invent the airplane, and the Wright brothers read it before they began.",
+  "octave-chanute.achievement.2":
+    "In 1896 Chanute, with Augustus Herring and William Avery, tested gliders on the Indiana Dunes of Lake Michigan, and the braced biplane that came out of those trials used a truss borrowed from railroad bridges so that its strength could be calculated. Britannica says the design gave Wilbur and Orville Wright a starting point for their own structures.",
+  "octave-chanute.achievement.3":
+    "Before aviation he was one of the leading American civil engineers: he designed the Hannibal Bridge at Kansas City, opened in 1869 as the first bridge over the Missouri River, laid out the Chicago and Kansas City stockyards, and was chief engineer of the Erie Railroad from 1873 to 1883.",
+  "octave-chanute.moment.1":
+    "In 1901 Chanute invited Wilbur Wright to give a talk to the Western Society of Engineers in Chicago. Tom Crouch says that in the course of giving it Wilbur was re-energised, and so was Orville, at a time when the brothers had been thinking of giving up.",
+  "octave-chanute.interpretation.moment.1":
+    "The invitation is consistent with the pattern in this profile of using his professional standing to connect and encourage other experimenters, though the effect on the brothers rests on Crouch's retelling.",
+  "octave-chanute.moment.2":
+    "In 1909, during the patent suits against Glenn Curtiss, Chanute wrote to Aeronautics magazine that the Wrights' suit might uncover prior patents. After Wilbur sent a scorching letter, Chanute replied that he feared Wilbur's judgment had been 'warped by the desire for great wealth' and aired a long-held complaint that the brothers had given him too little credit. The two had not settled the matter when he died in 1910.",
+  "octave-chanute.interpretation.moment.2":
+    "The exchange offers one example of him engaging in an open disagreement rather than avoiding it, though the same account says he told the press he was neutral while supplying arguments to the other side, so it is not clear evidence of ease with conflict.",
+  "octave-chanute.turning_point.1":
+    "In April 1903, months before the Wrights' first powered flight, Chanute described their wing-warping idea to the French Aero Club and told European researchers in Paris that the brothers were close to success. A German court later treated the talk as a public disclosure that damaged their German patent claim.",
+  "octave-chanute.interpretation.turning_point.1":
+    "The episode illustrates how an open-sharing habit that had helped the Wrights early on could cost them once they needed to protect a patent; it does not settle whether he judged the risk badly or simply valued openness more.",
+  "robert-owen.achievement.1":
+    "From 1800 Owen managed the New Lanark cotton mills in Scotland, which became a famous model community. He improved housing, ran a village store whose profits helped pay for schools, shortened the working day, and opened the Institute for the Formation of Character (1816) and a school and nursery for young children that did not use corporal punishment. The mills stayed profitable, and thousands of visitors came to see them.",
+  "robert-owen.achievement.2":
+    "In 1815 Owen drafted proposals to limit the hours of children in cotton mills, which Sir Robert Peel introduced in Parliament, and he gave evidence to the 1816 committee on factory children. After years of opposition a weakened Factory Act passed in 1819, covering only cotton mills and setting the minimum age at nine, so his own proposal was only partly adopted.",
+  "robert-owen.achievement.3":
+    "In A New View of Society (1813) and later writings Owen argued that human character is formed by circumstances and proposed cooperative villages in place of competition. He bought New Harmony in Indiana in 1825 to try the idea, but the community failed within about three years, and he went on to promote labour exchanges, the Grand National Consolidated Trades Union and the Rational Society. Reference works regard him as a founder of British socialism and of the cooperative movement.",
+  "robert-owen.moment.1":
+    "At a public meeting at the City of London Tavern on 21 August 1817, Owen read a prepared address that first praised his plan for cooperative villages and then declared the existing religions an obstacle to human happiness. He said he was indifferent to what the consequences might be for himself. Reference works say the attack on religion lost him some admirers, and opponents later used it against his factory bill.",
+  "robert-owen.interpretation.moment.1":
+    "The episode is consistent with a willingness to accept social costs for a conviction; Podmore, his sympathetic biographer, nevertheless describes the course as lacking worldly wisdom, so it can be read as stubbornness as well as courage.",
+  "robert-owen.turning_point.1":
+    "Between 1815 and 1817 Owen's work widened from running one model mill to proposing a plan for the whole country. After Parliament weakened his factory proposals and declined to hear his unemployment report, he proposed villages of cooperation, and his attack on religion cost him much establishment support. By 1824 he had left New Lanark to try his ideas at New Harmony, where he lost most of his fortune.",
+  "robert-owen.interpretation.turning_point.1":
+    "This is consistent with a reformer whose aims grew from improving one workplace to remaking society, though the sources differ on how far this was a planned course and how far a response to setbacks.",
+  "rudolf-virchow.achievement.1":
+    "His Cellular Pathology (1858), based on a series of twenty lectures, argued that disease arises in individual cells rather than in organs or body fluids in general, and it helped replace the older humoral and organ-level explanations. The phrase 'every cell from a cell' was not his own coinage and Robert Remak had reached the idea of cell division earlier, but Britannica says he made cellular pathology into a system. Earlier he had shown that masses in blood vessels come from thrombosis and can travel as emboli, and in 1845 he described one of the two earliest reported cases of leukemia.",
+  "rudolf-virchow.achievement.2":
+    "In 1848 he wrote a 190-page report on a typhus epidemic in Upper Silesia that put the weight on social conditions, and he founded the weekly Medical Reform under the banner 'medicine is a social science'. From 1859 he sat on the Berlin City Council, where he worked on the sewer system, hospital design and school hygiene; after his research on trichinosis he campaigned for meat inspection, and a historian of the policy quotes his argument that the public should guard individuals against dangers they cannot foresee.",
+  "rudolf-virchow.achievement.3":
+    "From the 1860s he helped turn German anthropology and prehistoric archaeology into organised fields: he organised the German Anthropological Society and the Berlin Society for Anthropology, Ethnology and Prehistory, helped win state support for the Museum for Ethnology (opened 1886), and took part in field work in Asia Minor, the Caucasus and Egypt. His survey of nearly seven million schoolchildren is reported to have found no pattern that supported distinct Jewish, German or 'Aryan' races.",
+  "rudolf-virchow.moment.1":
+    "In early 1848 the Prussian government sent him to investigate a typhus outbreak in Upper Silesia. His report laid the blame on social conditions and on the government and endorsed remedies such as self-government and agricultural cooperatives; Britannica says the government was annoyed.",
+  "rudolf-virchow.interpretation.moment.1":
+    "The episode is consistent with a strong wish to turn medical findings into social change, although the report also reflects the reform politics of its moment and the sources describe what he wrote rather than why.",
+  "rudolf-virchow.moment.2":
+    "In 1872 he examined the Neanderthal fossils and argued that their distinctive features were the result of pathology and not evidence of a distinct ancient human race; a CDC profile says he put them down to rickets and arthritis. Uncertainty over the fossils lasted for decades, and further finds at the end of the century led scientists to accept Neanderthals as an extinct ancient human.",
+  "rudolf-virchow.interpretation.moment.2":
+    "This helps illustrate the profile's lower score for changing his mind on contested evidence, though the sources report the outcome rather than his reasoning and the debate was open for decades.",
+  "rudolf-virchow.turning_point.1":
+    "On 31 March 1849 he was suspended from his Charite post for his liberal views and reinstated a fortnight later with some privileges lost. Later that year he took the first German chair of pathological anatomy, at Wurzburg, where he began to formulate cellular pathology; in 1856 he returned to Berlin to a chair on condition that a new pathological institute be built.",
+  "rudolf-virchow.interpretation.turning_point.1":
+    "One reading, consistent with the profile's persistence score, is that the setback redirected his research career rather than ending it; the sources do not say how he saw the episode himself.",
+  "sarojini-naidu.achievement.1":
+    "Naidu was a poet who wrote in English. Her first collection, The Golden Threshold (1905), followed advice from the critic Edmund Gosse to set her poems among India's mountains, gardens and temples rather than in English imitation, and was followed by The Bird of Time (1912) and The Broken Wing (1917). She was elected a fellow of the Royal Society of Literature in 1914 and became known as the Nightingale of India, although one reference biography judges that her lasting fame rests more on her public career than on her verse.",
+  "sarojini-naidu.achievement.2":
+    "A speaker for women's education, women's votes, national freedom and Hindu-Muslim unity, Naidu joined the 1917 delegation to the Secretary of State for India and the Viceroy on women's franchise, helped found the Women's India Association, and in 1925 became the first Indian woman president of the Indian National Congress. She was jailed in 1930, 1932 and 1942-43 for her part in the independence movement, and on 21 May 1930 she led the volunteers at the Dharasana Salt Works after Gandhi's arrest.",
+  "sarojini-naidu.achievement.3":
+    "After independence in 1947 Naidu became governor of the United Provinces, renamed Uttar Pradesh, the first woman to govern an Indian state; she held the post until her death in 1949 and was also a member of the constituent assembly that drafted the constitution. Reference accounts say that as governor she worked to bring political opponents together and restrain the majority on questions such as language.",
+  "sarojini-naidu.moment.1":
+    "On 21 May 1930 at the Dharasana Salt Works, the United Press correspondent Webb Miller reported that Naidu opened the raid of 2,500 volunteers with a speech ('Although Gandhi's body is in prison, his soul goes with you'). When police charged with clubs and the volunteers did not resist, she directed the action from near the front until a British official arrested her; Miller counted 260 injured.",
+  "sarojini-naidu.interpretation.moment.1":
+    "The correspondent's account is independent of her admirers and is consistent with an ability to move a crowd and to stay in a confrontation, though it covers one day and the confrontation was a disciplined, non-violent one.",
+  "sarojini-naidu.moment.2":
+    "In 1893 the fourteen-year-old Naidu already had a long poem in print, and as a student in England she showed her early verse to the critics Edmund Gosse and Arthur Symons. Gosse judged it skilful but Western in feeling and advised her to set her poems in the mountains, gardens and temples of her own province; the reference biographies say she followed this advice, and the poems of The Golden Threshold (1905) are the result.",
+  "sarojini-naidu.interpretation.moment.2":
+    "Taking a critic's advice and changing what she wrote about is consistent with some adaptability in her craft, though three reference entries drawing on the same biographers are the only record of how she responded.",
+  "sarojini-naidu.turning_point.1":
+    "After meeting Gandhi in London in 1914 and publishing The Broken Wing in 1917, Naidu wrote little substantial poetry and turned to public work: lecturing for women's rights and Hindu-Muslim unity, joining the 1917 suffrage delegation, and from the 1920s taking a leading place in the Congress, which she headed in 1925.",
+  "sarojini-naidu.interpretation.turning_point.1":
+    "The shift from poetry to politics is consistent with a motivation to work on public causes, although the sources record the change rather than her reasons for it.",
+  "simone-veil.achievement.1":
+    "As minister of health, Veil presented the bill that legalised abortion in France. It was debated in the National Assembly from 26 to 28 November 1974 and passed by 284 votes to 189, mainly with opposition support, and was promulgated in January 1975 for a five-year trial that became permanent in 1979. The law, widely known as the Veil law, left the decision to the woman in the first ten weeks after a medical and social consultation and a reflection period.",
+  "simone-veil.achievement.2":
+    "In 1979 Veil left the government to head a centrist list in the first direct elections to the European Parliament, and on 17 July 1979 she was elected its president by an absolute majority in the second round, the first woman to hold the post. She presided until 1982 over the first years of an assembly that had to adapt its rules and working arrangements to a mandate from voters, and she remained a member until 1993.",
+  "simone-veil.achievement.3":
+    "Before entering politics, Veil became a magistrate in 1956 and worked in the Ministry of Justice, advising successive ministers of justice. She worked on reform of the law on adoption, adult disability and parental authority, co-wrote a 1969 book on the medical, psychological and social sides of adoption, and in 1970 became the first woman secretary general of the council of the magistracy.",
+  "simone-veil.moment.1":
+    "On 26 November 1974 Veil opened the debate on the abortion bill with a one-hour speech to an Assembly of 9 women and 481 men, saying that no woman resorts to abortion lightly. Over the following days members, including some of her own majority, compared the bill to Nazi crimes (quoted in the Assembly's own record); she answered the comparisons in the chamber and the bill passed with its abortion provisions unamended.",
+  "simone-veil.interpretation.moment.1":
+    "The conduct is recorded by the Assembly and several outlets and is consistent with a high tolerance for open conflict; how it felt to her is known mainly from her own later interview, so the profile reads the stance from what she did.",
+  "simone-veil.moment.2":
+    "In her own reflections in the European Parliament's archives, Veil says that the Parliament's 1980 budget slightly exceeded the ceiling the treaties set for it, but because the point at issue was combating world hunger she declared it duly adopted; the French Government then brought an action before the Court of Justice.",
+  "simone-veil.interpretation.moment.2":
+    "Because this is her own account, it offers only one example of acting on her own reading of the presiding officer's role; it is consistent with proactive agency but is not independently documented here.",
+  "simone-veil.turning_point.1":
+    "In May 1974, a week after Valery Giscard d'Estaing won the presidency, Veil was named minister of health in Jacques Chirac's government; only months earlier she had been secretary general of the council of the magistracy and she was not a member of parliament. Press accounts say the president had chosen her to carry through a reform of the abortion law, and she moved from the civil service into national politics.",
+  "simone-veil.interpretation.turning_point.1":
+    "The appointment was the president's choice, so it says little about her own ambition; her earlier work on adoption and justice reform is consistent with a motivation to change how institutions operate, which this profile reads alongside the offer.",
+  "sol-plaatje.achievement.1":
+    "He was chosen first secretary-general of the South African Native National Congress in 1912 (renamed the African National Congress in 1923). After the 1913 Natives' Land Act began evicting Black families from farms, he toured districts to document the effects, joined the 1914 deputation to Britain, and from London wrote Native Life in South Africa (1916), a detailed appeal to the British public against the Act.",
+  "sol-plaatje.achievement.2":
+    "His novel Mhudi, published by the Lovedale Press in 1930, is generally regarded as the first novel in English by a Black South African. It retells events of the 1830s, when the Barolong and Boer trekkers each sought freedom from a stronger power, and is named for its heroine; it was written in 1920 and took ten years to find a publisher.",
+  "sol-plaatje.achievement.3":
+    "In 1901 he started Koranta ea Becoana, the first Setswana-English weekly newspaper, and later edited Tsala ea Batho in Kimberley. He also collected Setswana proverbs, co-produced a phonetic Setswana reader with the London phonetician Daniel Jones (1916), and translated Shakespeare plays into Setswana, including Julius Caesar and The Comedy of Errors.",
+  "sol-plaatje.moment.1":
+    "Willan's archival study records that after finishing Mhudi in London in 1920, Plaatje spent 18 months in North America trying to place it and was declined by Macmillan, Harper, Scribner's and Harcourt; in 1922 Allen and Unwin offered to publish it if he raised a 75-pound subsidy, which he could not; he returned to South Africa in 1923 with it unpublished and approached the Lovedale Press in November 1929, which published it in 1930.",
+  "sol-plaatje.interpretation.moment.1":
+    "The episode is consistent with persistence: a decade of attempts across continents and publishers. It is one scholar's archival account, and the delay also reflects the limited publishing opportunities open to a Black author at the time.",
+  "sol-plaatje.moment.2":
+    "In the prologue to Native Life in South Africa he says that his own inquiry into the effects of the Land Act in the Free State ran out of money at Lady Brand in September 1913 and that a friend then carried him on to the Moroka district; in November, when congress funds would not cover another traveller, he made a six-week tour of the Cape with a friend's offer to bear part of the cost.",
+  "sol-plaatje.interpretation.moment.2":
+    "This is consistent with proactive agency: he carried on the documentation himself when the organisation could not fund it. The account is his own, written in an appeal meant to persuade, and is partly echoed by Parsons's introduction.",
+  "sol-plaatje.turning_point.1":
+    "The 1914 deputation to appeal against the Land Act was cut short by the outbreak of the First World War and achieved little. The other delegates went home, but Plaatje stayed in Britain until February 1917, working at London University, lecturing and writing Native Life in South Africa, a proverb collection and, with Daniel Jones, a Setswana reader, all in 1916; Van der Walt says he did so at his own expense.",
+  "sol-plaatje.interpretation.turning_point.1":
+    "The pivot from delegation to writing and lecturing is consistent with adaptability in method while the aim stayed the same. Sources disagree on how far he later left politics, so the reading is tentative.",
+  "sugita-genpaku.achievement.1":
+    "With Maeno Ryotaku, Nakagawa Jun'an and Katsuragawa Hoshu, Sugita translated a Dutch edition of Kulmus's anatomy tables into Japanese as Kaitai Shinsho (1774), after seeing a dissection at the Kozukappara execution ground in 1771. It is described as the first full-scale translation of a Western medical book in Edo and a starting point of Dutch studies in Japan. Maeno led the translating; reference works credit Sugita as the driving force in bringing it into print.",
+  "sugita-genpaku.achievement.2":
+    "Sugita ran the private school Tenshinro and a regular research meeting, and trained many pupils, among them Otsuki Gentaku and Udagawa Genshin. He also lent them his Dutch books. At his order Otsuki revised Kaitai Shinsho (completed in 1798, printed in 1826), and his son Rikkei and grandson Seikei also became physician-translators.",
+  "sugita-genpaku.achievement.3":
+    "In 1815, in his eighties, he finished the memoir Rangaku Kotohajime, an account of the early days of Dutch studies and of the difficulty of translating and publishing Kaitai Shinsho. It circulated in manuscript until Fukuzawa Yukichi and Sugita Renkei had it printed in 1869, and much of what is told about the translation comes from it.",
+  "sugita-genpaku.moment.1":
+    "On 4 March 1771 Sugita, Maeno Ryotaku and Nakagawa Jun'an watched an execution-ground dissection at Kozukappara and compared what they saw with the plates of their Dutch anatomy book. In his own later account, as retold by a popular history blog, Sugita said he was ashamed not to have known how the human body is built, and the three resolved to translate the book.",
+  "sugita-genpaku.interpretation.moment.1":
+    "Watching the Dutch plates match the body, and then committing to a long translation project, is consistent with a readiness to revise an inherited view when direct observation points the other way. The account of his reaction is his own, retold at second hand.",
+  "sugita-genpaku.moment.2":
+    "In January 1773, a year before the full book, a five-sheet sample called Kaitai Yakuzu was issued. According to Sugita's memoir as retold by a blog, it named only men of the Obama domain so as to keep Maeno Ryotaku, who came from Kyushu, clear of any trouble; the National Diet Library notes that Maeno, the best Dutch scholar of the group, refused to be listed as a translator at all.",
+  "sugita-genpaku.interpretation.moment.2":
+    "Issuing a sample first, and shielding a colleague, is consistent with a cautious, staged way of putting a risky new book before the authorities. The protective motive comes from Sugita's own account.",
+  "sugita-genpaku.turning_point.1":
+    "After Kaitai Shinsho appeared in 1774 and sold out almost at once, Sugita, a clan physician, became the centre of a growing group of Dutch-studies scholars. Pupils gathered around him; over the next decades he kept a medical practice while running Tenshinro, collecting Dutch books and writing essays on medicine, politics and society until his death in 1817.",
+  "sugita-genpaku.interpretation.turning_point.1":
+    "The pattern after 1774 is consistent with a lasting commitment to spreading the new learning rather than treating the book as a single feat. The reference entries are admiring and describe his activities more than his reasons.",
+  "vikram-sarabhai.achievement.1":
+    "Sarabhai is regarded as the father of India's space programme. In 1962 he set up the Indian National Committee for Space Research, later ISRO, and the Thumba Equatorial Rocket Launching Station in Kerala, from which India's first sounding rocket was launched on 21 November 1963. He argued that space technology should serve development, including satellite education for villages.",
+  "vikram-sarabhai.achievement.2":
+    "In 1947, aged 28, he founded the Physical Research Laboratory in Ahmedabad with money from trusts controlled by his family and friends. From 1966, after Homi Bhabha's death, he also chaired India's Atomic Energy Commission and its atomic energy department, and he is credited with helping develop the country's nuclear power programme.",
+  "vikram-sarabhai.achievement.3":
+    "Sarabhai also founded or helped found institutions outside physics, among them the Ahmedabad Textile Industry's Research Association (1947), the Indian Institute of Management Ahmedabad in the early 1960s with other local industrialists, the Community Science Centre and, with his wife, the Darpan Academy for Performing Arts. In September 1969 he and NASA's administrator signed an agreement for a satellite instructional-television experiment for Indian villages, which ran in 1975-76, after his death.",
+  "vikram-sarabhai.moment.1":
+    "In 1962 Sarabhai had been looking for a launch site near the magnetic equator and, as Kalam later recalled, had met politicians and officials without getting the Thumba land. He was sent to the Bishop of Trivandrum, who asked him to come back the next day and then asked his Sunday congregation whether they could give up their church and the bishop's house for a scientific mission; they answered 'Amen'. The church became the young rocket team's design centre and the bishop's house their quarters.",
+  "vikram-sarabhai.interpretation.moment.1":
+    "Winning a site that officials had not given is consistent with an ability to bring unlikely partners on board; the account is Kalam's recollection four decades later, and the decisive appeal to the congregation was the bishop's.",
+  "vikram-sarabhai.moment.2":
+    "In a talk on All India Radio on 16 October 1966, a few months after he took charge of the atomic energy department, Sarabhai said space research should help developing countries 'leap-frog', and that India's immediate space goals were modest and did not include sending a man to the moon. The line became his best-known. Historians cited in a 2025 study describe his thinking on development as technocratic and elitist, with little benefit shown for rural people.",
+  "vikram-sarabhai.interpretation.moment.2":
+    "Framing space work around development rather than prestige is consistent with a motive aimed at public benefit; whether the programme delivered it is a separate and disputed question.",
+  "vikram-sarabhai.turning_point.1":
+    "After Homi Bhabha died in a plane crash in January 1966, Sarabhai was appointed in June 1966 to head India's atomic energy department and then the Atomic Energy Commission. The founder of a laboratory and a space committee now led the whole atomic establishment as well, with space research housed under it, and he began speaking publicly for a peaceful, development-oriented space programme.",
+  "vikram-sarabhai.interpretation.turning_point.1":
+    "The appointment was the government's decision after an unexpected death, so it shows a change of role and platform rather than a trait on its own; what he did with the post is consistent with an interest in leading large institutions.",
+  "williamina-fleming.achievement.1":
+    "In 1886 she was put in charge of the Henry Draper Memorial project to measure and classify the spectra of stars photographed through a prism at Harvard. The 1890 Draper Catalogue of Stellar Spectra, which according to Annie Jump Cannon's obituary classified 10,351 stars, introduced the letter-coded Pickering-Fleming system, and Edward C. Pickering acknowledged in it that she had done most of the work. Cannon later reorganised her classes into the sequence astronomers still use.",
+  "williamina-fleming.achievement.2":
+    "Working through the plates with a magnifying glass, she found that red stars whose spectra show bright emission lines are variable, and used that clue to find more than 300 variable stars and ten novae; a 1907 study described 222 of the variables. Harvard's observatory and the writer Dava Sobel also credit her with picking out the Horsehead Nebula in Orion on an 1888 plate, one of about fifty gaseous nebulae she found (sources give 52 or 59).",
+  "williamina-fleming.achievement.3":
+    "In 1898 she became curator of astronomical photographs, the first woman appointed by Harvard's governing board, and she supervised a staff of mostly women who examined and catalogued nearly 200,000 plates taken at Cambridge and in Peru. She hired assistants, among them Annie Jump Cannon and Antonia Maury, and edited the observatory's publications, although Pickering later acknowledged that the paperwork cut into her research time.",
+  "williamina-fleming.moment.1":
+    "Annie Jump Cannon's 1911 obituary says Fleming examined all the spectrum plates taken at Cambridge and at the Harvard station in Arequipa, Peru, with a magnifying glass and marked every object whose spectrum looked peculiar. From the bright lines she found in some of them she identified ten new stars and more than 300 variable stars.",
+  "williamina-fleming.interpretation.moment.1":
+    "The episode is consistent with the profile's evidence of painstaking, methodical plate work, although the obituary describes her routine rather than the choices she made within it.",
+  "williamina-fleming.moment.2":
+    "In 1893 she spoke at the Congress of Astronomy and Astrophysics held with the Chicago World's Fair, on 'A Field for Woman's Work in Astronomy'. According to Schafer she praised Pickering for hiring women, urged other observatory directors to do the same, and argued that women's patience, perseverance and method could make them men's equals in the science.",
+  "williamina-fleming.interpretation.moment.2":
+    "This helps illustrate the profile's moderate score for acting on her own initiative, though the speech praised her employer and the sources do not say how it was received.",
+  "williamina-fleming.turning_point.1":
+    "In 1898 (some sources say 1899) Harvard named her curator of astronomical photographs, a post Pickering created for her. The job put her in charge of hiring and supervising a team of women and of checking every plate, and Pickering later acknowledged that the administrative work seriously cut into her research time. In a diary she kept in 1900 for a Harvard history project, she wrote that she wanted more scientific work and less administration.",
+  "williamina-fleming.interpretation.turning_point.1":
+    "One reading, consistent with the profile's leadership score, is that the appointment moved her from discovery toward administration, a shift she herself is reported to have found frustrating; the diary entry is her own account and the sources do not show how often she felt this way.",
+  "wis-awa-szymborska.achievement.1":
+    "Szymborska wrote about 350 published poems over her career, from the 1957 volume Calling Out to Yeti to the posthumous Enough (2012), and in 1996 received the Nobel Prize in Literature. The Swedish Academy honoured her as a representative of a poetic outlook of unusual purity and strength, and her collections include Salt (1962), People on a Bridge (1986) and The End and the Beginning (1993). Her poems have been translated into many languages.",
+  "wis-awa-szymborska.achievement.2":
+    "After her first two volumes of the early 1950s, which she later left out of her selections, Szymborska developed a manner of ironic, plain-spoken poems that treat war, history, death and love through concrete everyday situations with a comic turn. Poems such as The End and the Beginning, Cat in an Empty Apartment and Hitler's First Photograph show it. The critic Charles Simic called her poems the equivalent of expository writing in poetry, and Culture.pl describes a language of colloquial speech, paradox and controlled lyricism.",
+  "wis-awa-szymborska.achievement.3":
+    "Alongside her poems Szymborska worked as a poetry editor and columnist at the Krakow weekly Zycie Literackie, where from 1953 to 1981 she wrote the series of short prose pieces on books later collected as Nonrequired Reading. For years she also answered would-be writers, anonymously, in the paper's 'Literary Mailbox' column; those replies are collected in English as How to Start Writing (and When to Stop).",
+  "wis-awa-szymborska.moment.1":
+    "After the 1996 Nobel Prize her telephone rang day and night. According to her secretary Michal Rusinek, who was hired for three months and stayed fifteen years, he cut the phone line with scissors at his job interview and she said he had the job; he then installed an answering machine, redirected faxes to the Writers' Association office and drafted polite refusals to invitations. Her friends called the prize a 'Stockholm tragedy', and she said she wanted to be a person, not a 'personage'.",
+  "wis-awa-szymborska.interpretation.moment.1":
+    "The episode is consistent with a strong need to protect quiet and time to write, though part of the response reflects the volume of requests after the prize and the account comes from her secretary.",
+  "wis-awa-szymborska.moment.2":
+    "Her translator Clare Cavanagh recalls that when Szymborska sent the poems of her last volume, Enough, to an international team of translators through her secretary, she soon sent strict instructions to destroy one lyric and replace it with a revised text, since the final version could not coexist with what had become the penultimate draft. Cavanagh says she deleted the draft unread. This is one translator's recollection of one instance.",
+  "wis-awa-szymborska.interpretation.moment.2":
+    "This is consistent with a perfectionist approach to revision, and sits alongside a friend's secondhand estimate that she discarded most of what she wrote, a figure the sources do not document.",
+  "wis-awa-szymborska.turning_point.1":
+    "Szymborska's first two volumes, That's Why We Are Alive (1952) and Questioning Yourself (1954), were written in the style dictated by the political era of the time, and she did not include poems from them in her later selections. In 1957 her volume Calling Out to Yeti moved away from committed poetry toward a philosophical distance and suspicion of doctrines. Asked about the early poems, she answered that she had been young, naive and unprepared to judge things properly.",
+  "wis-awa-szymborska.interpretation.turning_point.1":
+    "The shift is consistent with a willingness to revise her own stance; her explanation is her own account, and the sources do not say how the change came about.",
+  "yosa-buson.achievement.1":
+    "He was a leading figure of the mid-Edo revival of haikai. Japanese reference works say he criticised the lack of originality in the verse of his day and called for a return to the style of Basho, and in 1770 he took over his teacher's Yahantei school and became a master. His circle published anthologies in 1772, 1773 and 1776, and more than 2,800 of his hokku survive; the Kyodo News glossary says Masaoka Shiki's later haiku reform was greatly influenced by him.",
+  "yosa-buson.achievement.2":
+    "He was, with Ike no Taiga, a founding master of Japanese literati (nanga) painting. With no known teacher, he taught himself from works at temples and shrines and from Chinese painting manuals, and in 1771 he and Taiga made the Juben Jugi album, Taiga painting the ten conveniences and Buson the ten pleasures; it is a National Treasure.",
+  "yosa-buson.achievement.3":
+    "He established haiga, the combination of haiku and brush painting, as an art form; the Kyoto National Museum calls his short, witty haiga sketches among his most distinctive works. His 1779 six-panel screen of Basho's Oku no Hosomichi is described as the only extant screen of the complete text.",
+  "yosa-buson.moment.1":
+    "In 1777 he wrote Shunpu Batei Kyoku, an 18-section sequence that mixes haiku, Chinese-style verse and Sino-Japanese prose and follows a servant girl's homesick visit to her mother. According to the nippon.com essay, he shared such experiments only with close circles.",
+  "yosa-buson.interpretation.moment.1":
+    "The episode is consistent with a profile that is willing to push beyond the conventions of its form, while keeping the experiment inside a trusted circle.",
+  "yosa-buson.moment.2":
+    "In 1776 his circle rebuilt the hut of Basho at Konpukuji in Kyoto, a project his friend Higuchi Doryu is said to have proposed; Buson later asked to be buried there, near Basho.",
+  "yosa-buson.interpretation.moment.2":
+    "The rebuilding sits alongside his other group work, such as the Juben Jugi album and the poetry gatherings he led, as one example of him acting through a circle of people.",
+  "yosa-buson.turning_point.1":
+    "After about ten years of travel following the death of his teacher Hayano Hajin in 1742, he settled in Kyoto in 1751, in his mid-thirties and little known as either poet or painter. There he gave about ten years mainly to painting, formed a haikai association in 1766 and in 1770 became a master of his teacher's school.",
+  "yosa-buson.interpretation.turning_point.1":
+    "The sequence is consistent with a profile in which skill and standing were built slowly, in the second half of life, rather than through early success.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -28239,6 +28733,500 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1883년 런던 대회에서 추케르토르트에 이어 2위를 한 뒤, 슈타이니츠는 영국 체스계와의 소외를 더는 견딜 수 없었다고 전해지며 런던을 떠나 뉴욕으로 옮겼습니다. 미국에서 그는 1885년 《인터내셔널 체스 매거진》을 창간했고, 런던이 지나치게 적대적이 되었다고 주장한 끝에 1886년 세계선수권 대국을 미국 도시들에서 치렀습니다.",
   "wilhelm-steinitz.interpretation.turning_point.1":
     "이 이주는 새로운 나라와 언어에서 경력을 다시 세울 수 있는 능력과 맞아떨어지지만, 자료들은 이를 자유로운 선택이라기보다 배척에 대한 대응으로 설명합니다.",
+  "abai-kunanbayev.achievement.1":
+    "카자흐 쪽 자료들은 그를 카자흐 문어 문학의 창시자이자 첫 고전 작가로 소개한다. 그는 1860년대부터 시를 쓰기 시작했고 1886년까지는 제자 코크바이의 이름으로 초기 시를 발표했으나 그 뒤로는 자기 이름으로 서명했다. 사계절을 노래한 시들, 「마수드」와 「이스칸데르」 같은 서사시, 노래가 그 가운데 있다. 외즈데미르는 그가 카자흐 시에 들여온 새로운 각운 형식을 정리하고 있으며, 그의 첫 시집은 사후 5년이 지난 1909년 상트페테르부르크에서 인쇄되었다.",
+  "abai-kunanbayev.achievement.2":
+    "그는 러시아 시인들을 카자흐어로 옮겼다. 레르몬토프의 시와 크릴로프의 우화를 번역했고, 1889년에는 푸시킨의 『예브게니 오네긴』에서 타티야나의 편지를 포함한 여덟 대목을 옮겼다. 부케이하노프는 1905년의 글에서 1899년 코칸트 출신 가수가 타티야나의 편지를 자신에게 불러 주었고, 초원 곳곳의 가수들이 아바이가 옮긴 푸시킨과 레르몬토프를 알고 불렀다고 적는다.",
+  "abai-kunanbayev.achievement.3":
+    "아바이 연구소의 공식 전기는 그의 산문 『말씀들(카라 소즈데르)』이 46개 장으로 이루어져 있으며 그의 인본주의적·교육적·사회적 사상을 담은 철학적 저작이라고 설명한다. 이 프로필을 위해 읽은 자료에는 이 글이 어떻게 쓰이고 처음 읽혔는지에 대한 당대의 기록이 없다.",
+  "abai-kunanbayev.moment.1":
+    "1885년 세미팔라틴스크의 한 유형수는 미국인 여행가 조지 케넌에게 도서관을 드나들며 버클, 밀, 드레이퍼를 읽는 '학식 있는 늙은 키르기즈인' 이브라힘 코노바이를 이야기했다. 그 유형수에 따르면 그는 한때 귀납과 연역의 차이를 설명해 달라고 청했고, 유럽의 지적 발전을 다룬 드레이퍼의 책을 두고 이틀 저녁 묻는 질문에도 상당히 잘 이해하는 듯했다. 케넌은 이 사람을 직접 만나지 못했고, 연구자들이 그를 아바이로 본다.",
+  "abai-kunanbayev.interpretation.moment.1":
+    "이 보고는 스스로 이끌어 가는 지적 호기심을 가진 프로필과 부합하지만, 전해 들은 이야기이고 아바이와의 동일시는 후대 연구자들의 판단이다.",
+  "abai-kunanbayev.moment.2":
+    "부케이하노프에 따르면 아바이는 둘째 아들 압드라흐만이 시립학교를 마치자 해마다 수백 루블이 드는 튜멘의 실업학교로 보냈고, 아이의 교육을 위해 이만큼 희생한 첫 카자흐인이라고 한다. 아들은 이어 상트페테르부르크로 가 포병학교에 들어갔으나 1895년 포병사관학교 입학을 준비하던 중 세상을 떠났다.",
+  "abai-kunanbayev.interpretation.moment.2":
+    "이 일화는 교육에 관한 그의 시와 함께, 자신이 중요하다고 말한 것을 개인적 비용을 치르며 실행한 한 예이지만, 동기에 대한 설명은 대체로 본인과 전기 작가들의 것이다.",
+  "abai-kunanbayev.turning_point.1":
+    "초원의 분쟁 조정과 아랍어·페르시아어 독서 속에서 자란 그는 1870년 무렵 유형수 미하엘리스를, 1880년대에는 돌고폴로프와 레온티예프를 알게 되었고, 읽는 책이 러시아와 유럽의 저자들로 옮겨 갔다. 외즈데미르는 그가 1882년부터 문학적 무게를 지닌 시를 쓰기 시작했고, 이전에는 제자의 이름으로 발표하던 시를 1886년부터 자기 이름으로 서명했다고 적는다.",
+  "abai-kunanbayev.interpretation.turning_point.1":
+    "이 흐름은 새로운 독서와 교류가 중년의 독창적 작업으로 이어진 프로필과 부합하지만, 인과의 순서는 전기 작가들의 해석이다.",
+  "auguste-piccard.achievement.1":
+    "1931년 5월 27일 피카르는 파울 키퍼와 함께 벨기에의 후원으로 만든 기구를 타고 15,781미터에 올라 당시 최고 고도 기록을 세웠다. 이 기구에는 밀폐된 알루미늄 여압 선실과 일부만 채워 띄우는 아주 큰 기구 주머니가 쓰였으며, 브리태니커는 이 밀폐 선실 기술이 훗날 항공기에서 보편화되었다고 설명한다.",
+  "auguste-piccard.achievement.2":
+    "기구 비행 이후 피카르는 기구와 곤돌라의 원리에 따라, 물보다 가벼운 부력체 아래에 압력에 견디는 강철 선실을 매단 심해 잠수정 바티스카프를 설계했다. 첫 번째 잠수정 FNRS 2는 벨기에에서 제작되어 1948년 시험에서 손상되었고, 이탈리아 산업계의 도움으로 만든 트리에스테호는 1953년 약 3,150미터까지 내려갔으며, 1960년에는 아들 자크가 이 잠수정으로 마리아나 해구 10,916미터에 도달했다.",
+  "auguste-piccard.achievement.3":
+    "1932년 8월 18일 피카르는 막스 코스인스와 함께 취리히 근교 뒤벤도르프에서 이륙해 16,201미터에 올라 국제항공연맹(FAI)의 새 고도 기록을 세웠다. EBSCO는 1931년 비행에서 대략적인 관측 한 번밖에 얻지 못한 뒤, 이 비행이 9~16킬로미터 구간의 우주선 강도 곡선을 메우는 자료를 가져왔다고 전한다.",
+  "auguste-piccard.moment.1":
+    "지상 요원이 약속된 신호 없이 줄을 놓는 바람에 일찍 시작된 1931년 이륙 몇 분 뒤, 피카르는 곤돌라에서 누기를 발견하고 이런 사고에 대비해 준비해 둔 바셀린과 섬유 혼합물로 막았다. 이어 가스 배출 밸브가 걸려 두 사람은 저녁이 될 때까지 기다려서야 내려올 수 있었고, 티롤 알프스의 빙하 위에 착륙했다.",
+  "auguste-piccard.interpretation.moment.1":
+    "미리 준비한 밀봉 혼합물은 이 프로필의 다른 곳에서 보이는 계획성과 맥을 같이하지만, 비행의 세부 내용은 대부분 그 자신의 회고록에서 나오며, 이른 이륙과 걸린 밸브는 계획이 모든 것을 대비하지는 못했음을 보여 준다.",
+  "auguste-piccard.moment.2":
+    "1948년 10월과 11월 첫 바티스카프는 무인 시험 잠수를 했다. 약 1,400미터 잠수에서 선실은 압력을 견뎠지만, 그 뒤 거센 파도에 부력체가 크게 파손되었다. 브리태니커는 아들 자크가 나서기까지 이 사업이 여러 난관을 겪었다고 전하며, 트리에스테호는 5년 뒤에 만들어졌다.",
+  "auguste-piccard.interpretation.moment.2":
+    "이 경과는 장기 사업에 대한 꾸준한 노력과 맥을 같이하지만, 이후의 성공은 아들과 이탈리아 산업계, 그리고 앞선 잠수정을 넘겨받은 프랑스 해군에 힘입은 것이어서 한 사람의 이야기는 아니다.",
+  "auguste-piccard.turning_point.1":
+    "1932년 비행 이후 피카르는 성층권에서 바다로 관심을 돌렸다. 브리태니커는 그가 어린 시절 해양 어류에 관한 이야기에 매료되어 인간도 깊은 곳으로 내려가야 한다고 생각했다고 전하고, 스트라토캣은 1937년까지 기구 선실을 변형한 심해 잠수정의 제작에 착수했으나 제2차 세계대전으로 중단되었다고 설명한다.",
+  "auguste-piccard.interpretation.turning_point.1":
+    "이 전환은 압력에 견디는 선실이라는 하나의 공학적 아이디어를 새로운 환경으로 옮겨 가는 습관과 맥을 같이하지만, 어린 시절의 관심은 하나의 참고 문헌에만 의존한다.",
+  "bai-juyi.achievement.1":
+    "그는 당나라에서 가장 널리 알려진 장편 서사시들을 남겼다. 현종과 양귀비의 이야기를 전통 사서가 황제를 비판한 것과 달리 낭만적 비극으로 그린 「장한가」와 「비파행」이 대표작이다. 그의 시는 2,800수가 넘게 전하며, 웨일리는 평범한 사람도 이해할 수 있는 시를 그만큼 많이 쓴 당대 시인은 없다고 평한다.",
+  "bai-juyi.achievement.2":
+    "그는 시가 시대에 봉사해야 한다고 주장했고, 「숯 파는 노인」과 『신악부 50수』를 비롯해 서민의 고통을 다룬 풍자시를 썼다. 사회적 항의의 오랜 가요 전통을 되살린 것이다. 그는 자신의 시를 풍유, 한적, 감상, 잡률의 네 갈래로 나누었고, 원진에게 보낸 편지에서 시는 공적인 일에 영향을 주어야 한다고 썼다.",
+  "bai-juyi.achievement.3":
+    "그의 시는 생전부터 중국 밖으로 멀리 퍼졌다. 웨일리는 늦어도 838년에는 그의 문집이 일본에 건너가 있었다고 적고, 『뉴월드 백과사전』은 헤이안 시대의 『겐지 이야기』와 『마쿠라노소시』가 「장한가」를 언급한다고 전한다. 바이두 백과는 일본 학자들이 그를 헤이안 시대 시가의 중요한 영향원으로 본다고 덧붙인다.",
+  "bai-juyi.moment.1":
+    "822년부터 824년까지 항저우 자사로 있는 동안 그는 호수의 물 관리에 관심을 기울였다. 웨일리에 따르면 호수의 제방은 그가 처음 쌓은 것은 아니지만 824년 초 그의 관할 아래 몇 자 높아졌다. 그는 석비에 새긴 글에서 관개를 위해 호수의 물을 빼는 데 대한 반대에 물고기와 사람 중 어느 쪽이 더 중요하냐고 되물었고, 호수 물을 빼면 성안 우물이 마른다는 믿음에는 호수 밑에 샘이 있으니 묻힌 수로를 정기적으로 점검하라고 답했다. 이해하기 쉽도록 평이한 말로 썼다고 그는 밝힌다.",
+  "bai-juyi.interpretation.moment.1":
+    "이 석비문은 지역의 문제를 직접 다루려는 태도, 그리고 그의 시로 알려진 평이하고 논리적인 문체와 부합한다.",
+  "bai-juyi.moment.2":
+    "815년 재상 무원형이 살해된 날, 백거이는 그날로 범인을 잡아야 한다는 상소를 올렸다. 『구당서』에 따르면 간언을 못마땅해한 관리들 때문에 그는 강주사마로 좌천되었고, 웨일리는 그가 훗날 이 상소를 자신의 문집에서 뺐다고 덧붙인다.",
+  "bai-juyi.interpretation.moment.2":
+    "이 일화는 관료 사회의 신중론에 맞서 목소리를 내는 태도와, 그에 따른 경력상의 대가를 함께 보여 주는 프로필과 부합한다.",
+  "bai-juyi.turning_point.1":
+    "815년부터 818년까지 강주에서 귀양살이를 한 뒤 그는 충주, 항저우, 쑤저우의 자사를 지냈다. 829년에는 병을 이유로 뤄양의 관직을 청했다. 웨일리는 그가 남은 17년 동안 뤄양 부근을 벗어난 것이 한 번뿐이었다고 전하고, 『구당서』는 그가 당쟁을 피했고 한직을 자주 청했다고 적는다. 웨일리는 만년의 몇몇 시에서 그가 지나치게 몸을 사린 것은 아닌지 되돌아보았다고 읽는다.",
+  "bai-juyi.interpretation.turning_point.1":
+    "직언하던 간관에서 당파를 멀리하는 사람으로 옮겨 간 흐름은, 젊은 시절의 갈등 감수와 뒤이어 강해진 독립에 대한 바람이 함께 나타나는 프로필과 부합한다.",
+  "balkrishna-doshi.achievement.1":
+    "도시는 70년 넘게 100여 건의 프로젝트를 이어 가며 독립 이후 인도 현대 건축을 대표하는 인물이 되었습니다. 르 코르뷔지에와 루이스 칸에게 배운 것을 인도의 기후와 전통에 맞게 풀어냈습니다. 대표작으로 인도학 연구소, 타고르 기념관, 인도경영대학원 방갈로르 캠퍼스(1977~92), 반쯤 땅에 묻힌 자신의 작업실 상가트가 있습니다. 2018년에는 인도인 최초로 프리츠커상을 받았습니다.",
+  "balkrishna-doshi.achievement.2":
+    "도시는 인도르의 아라냐 저비용 주택 단지(1982~89)를 설계했습니다. 각 가구가 배관과 전기 등을 갖춘 기본 구획을 받고 시간이 지나면서 스스로 집을 늘려 가는 방식이었습니다. 6,500개 구획 가운데 약 65퍼센트는 저소득 가구를 위한 것이었고, 단지는 현재 약 8만 명이 사는 곳으로 커졌습니다. 이 사업은 아가 칸 건축상을 받았지만, 이후의 한 조사는 상당수 구획이 다른 구매자에게 넘어갔고 지금은 저소득층이 소수가 되었다고 지적했습니다.",
+  "balkrishna-doshi.achievement.3":
+    "도시는 1960년대 아메다바드에 건축·계획대학을 세우고 직접 설계했으며, 이 학교는 지금 CEPT 대학의 일부입니다. 그는 2012년까지 이 학교에서 지도적 역할을 맡았습니다. 또 1978년에는 인도에 맞는 설계 기준을 연구하는 바스투실파 재단을 세웠습니다.",
+  "balkrishna-doshi.moment.1":
+    "아라냐에서 도시는 각 가구에 배관과 전기 연결부가 달린 콘크리트 기단과 약 80가지 견본 설계를 주고, 집을 짓는 일은 주민에게 맡겼습니다. 2017년 인터뷰에서 그는 다시 찾았을 때 약 3만 5천 명이 주민이 지은 집에 살고 있었다고 했고, 주민들이 건축가보다 더 잘 만들어 냈다고 말했습니다. 이는 인터뷰에 나온 본인의 설명이며, 한 독립적 기사는 그의 애초 구상 가운데 상당수가 실행되지 못했다고 전합니다.",
+  "balkrishna-doshi.interpretation.moment.1":
+    "건축의 상당 부분을 주민에게 맡긴 선택은 건축가의 전형적인 역할을 기꺼이 고치려는 태도와 부합합니다. 다만 독립적인 관찰자들이 전하는 결과는 엇갈립니다.",
+  "balkrishna-doshi.moment.2":
+    "한 친구는 1980년대 중반 도시가 새로 문을 연 한 학교를 찾았을 때 교실마다 어린이용 의자에 앉아 아이의 눈높이로 공간을 살폈다고 회상합니다. 같은 친구는 그가 강연에 주머니 수첩을 들고 갔고, 1980년대에는 더 잘 보려고 공사장 담에 올랐으며 2011년에는 방갈로르 캠퍼스의 30미터 높이 급수탑에 올랐다고도 전합니다.",
+  "balkrishna-doshi.interpretation.moment.2":
+    "한 명의 호의적인 친구가 전하는 이 회상은 직접 보고 배우는 습관과 부합하지만, 한 지인이 그린 모습일 뿐 전체 기록은 아닙니다.",
+  "balkrishna-doshi.turning_point.1":
+    "1951년 봄베이의 건축학교를 마친 직후, 도시는 아는 사람도 없고 프랑스어도 못 하는 채로 파리의 르 코르뷔지에 아틀리에에서 일하러 갔습니다. 1954년 인도로 돌아와 찬디가르와 아메다바드에 있는 르 코르뷔지에의 프로젝트를 감독했고, 1956년에는 자신의 사무소 바스투실파를 세웠습니다.",
+  "balkrishna-doshi.interpretation.turning_point.1":
+    "이 이주는 경력 초기부터 스스로 먼저 움직이는 태도와 부합합니다. 다만 이 이야기는 주로 그 자신의 이야기와 이를 되풀이한 추모글에 근거합니다.",
+  "fanny-bullock-workman.achievement.1":
+    "그녀는 남편 윌리엄 헌터 워크먼과 함께 1898년부터 1912년까지 여덟 번의 여름 동안 카라코람과 펀자브 히말라야를 탐험했다. 당시 지도가 거의 없던 비아포, 히스파르, 초고 룽마, 눈쿤, 시아첸 일대를 돌았다. 부부는 자신들이 본 것을 사진과 삽화가 든 여러 권의 책과 지리학회 강연으로 알렸지만, 두 사람이 만든 지도는 훗날 부정확하다는 비판을 받았다.",
+  "fanny-bullock-workman.achievement.2":
+    "그녀는 1911년과 1912년에 시아첸 빙하로 향하는 사적 원정대를 이끌었고, 가이드들과 함께 인디라 콜과 실버 스론 고원에 올랐으며 여러 고개와 봉우리에 이름을 붙였다. 빙하의 삼각측량은 인도 측량국의 그랜트 피터킨 대위와 사르잔 싱이 맡았고, 한 비판적 평전은 이 측량이 지금도 현행 지도의 바탕이라고 전한다.",
+  "fanny-bullock-workman.achievement.3":
+    "1903년 그녀는 피라미드 피크(현재 이름은 스판틱)에 약 22,400피트까지 올랐고, 1906년에는 눈쿤 산군의 피너클 피크 정상에 섰다. 당시에는 높이가 약 23,300피트로 추정되었으나 훗날 약 22,800피트로 수정되었다. 1906년의 이 등반은 1934년까지 여성 최고 고도 기록으로 남았다.",
+  "fanny-bullock-workman.moment.1":
+    "1908년 애니 스미스 펙이 와스카란 북봉이 약 24,000피트일 것이라고 추정하자, 이는 워크먼의 여성 최고 고도 기록을 넘어서는 것이었다. 워크먼은 1909년 6월 프랑스 측량기사들을 고용해 이 산을 삼각측량하게 했다. 보고서는 북봉이 21,812피트라고 밝혔고, 그녀는 이를 잡지와 신문에 널리 알리고 1910년 저서 한 장을 이 논쟁에 할애했다. 펙은 자신의 수치가 어디까지나 추정치였다고 반박했다.",
+  "fanny-bullock-workman.interpretation.moment.1":
+    "이 일화는 경쟁자에 맞서 자신의 기록을 지키기 위해 돈과 노력을 들이는 태도와 맞아떨어진다. 다만 그녀 자신의 피너클 피크 수치도 훗날 하향 수정되었다.",
+  "fanny-bullock-workman.moment.2":
+    "힘겨웠던 1911년 시아첸 탐사를 마치고 그녀는 다시는 오지 않겠다고 생각했지만, 빌라폰드 고개 위에서 반드시 돌아와야 한다고 다짐했다고 직접 적었다. 1912년 54세의 그녀는 두 번째 원정대를 이끌고 약 두 달 동안 높은 고도에서 지냈으며, 가장 높게는 약 21,000피트까지 올라갔다.",
+  "fanny-bullock-workman.interpretation.moment.2":
+    "히말라얀 클럽의 호의적인 글이 전하는 그녀 자신의 기록은 시작한 일을 끝까지 해내려는 끈기와 맞아떨어지며, 한 비판적 평전도 1912년 원정의 기간과 고도를 별도로 기록하고 있다.",
+  "fanny-bullock-workman.turning_point.1":
+    "수년간 유럽, 북아프리카, 아시아를 자전거로 여행한 워크먼 부부는 1898년 인도 종단 여행 끝에 스리나가르에 도착했고, 한 비판적 평전에 따르면 그곳에서 갑자기 히말라야로 방향을 돌려 레와 카라코람 고개까지 걸었다. 이듬해 부부는 이후 그들의 주된 일이 된 원정을 처음으로 시작했다.",
+  "fanny-bullock-workman.interpretation.turning_point.1":
+    "관광 여행에서 탐험으로 방향이 바뀐 것은 스스로 비용을 대는 삶을 새로운 목표로 돌릴 줄 아는 태도와 맞아떨어진다. 다만 자료들은 이를 남편과 함께 내린 결정으로 서술한다.",
+  "hormuzd-rassam.achievement.1":
+    "라삼은 1853~54년 영국박물관을 위해 일하며 니네베(쿠윤지크)에서 아슈르바니팔의 북궁전을 발견했습니다. 이곳에서 유명한 사자 사냥 부조와 왕립 도서관의 일부가 나왔고, 그 점토판에는 창조와 대홍수 이야기가 담겨 있었습니다. 이 점토판 덕분에 훗날 조지 스미스가 바빌로니아의 홍수 이야기를 읽어 낼 수 있었습니다.",
+  "hormuzd-rassam.achievement.2":
+    "그는 1878년부터 1882년까지 아시리아와 바빌로니아 전역에서 영국박물관의 네 차례 발굴을 이끌었습니다. 이 발굴에서 발라와트의 청동 문, 키루스 원통, 수만 점의 점토판이 나왔고, 특히 시파르에서는 6만~7만 점이 수집되었습니다. 1880년 시파르에서의 발견으로 태양신 샤마시의 신전 터가 확인되었습니다.",
+  "hormuzd-rassam.moment.1":
+    "1853년 12월 라삼은 영국 주재관이 프랑스 영사에게 할당해 둔 쿠윤지크 북쪽 구역에서 인부들에게 밤에 땅을 파게 했습니다. 사흘 밤 뒤 전차에 올라탄 아슈르바니팔 왕의 부조가 드러났습니다. 프랑스 영사가 항의하자 라삼은 영국이 이 언덕의 소유주에게 사용료를 지불해 왔다고 답했습니다. 이 이야기는 주로 그가 1897년에 쓴 회고록과 이를 되풀이한 글에 근거합니다.",
+  "hormuzd-rassam.interpretation.moment.1":
+    "이 일화는 스스로의 판단에 따라 움직이고 경쟁자와의 다툼도 감수하려는 태도와 부합합니다. 다만 본인이 직접 남긴 한 사례만으로 이것이 얼마나 전형적이었는지는 알 수 없습니다.",
+  "hormuzd-rassam.moment.2":
+    "1864년 에티오피아의 테오도로스 왕에게 억류된 영국인들의 석방을 위해 파견된 라삼은 마수아에서 약 1년을 기다리며 포로들에게 전령과 물자를 보냈습니다. 1866년 마그달라에서 자신도 사슬에 묶인 뒤에도 정중한 편지를 계속 썼다고 동행한 헨리 블랑이 기록했습니다. 억류를 끝낸 것은 그의 사절단이 아니라 1868년 영국군이었습니다.",
+  "hormuzd-rassam.interpretation.moment.2":
+    "이 2년 동안의 행동은 느리게 진행되는 외교 노력을 끈기 있게 이어 갔다는 해석과 부합합니다. 그 노력이 포로 석방으로 이어지지는 않았습니다.",
+  "hormuzd-rassam.turning_point.1":
+    "1893년 라삼은 점토판을 내다 판 인부들과 공모했다고 주장한 영국박물관의 월리스 버지를 상대로 소송을 냈습니다. 배심은 라삼의 손을 들어 주어 청구액 1,000파운드 가운데 50파운드의 배상을 인정했고, 악의는 인정하지 않았습니다. 박물관은 버지의 소송비용을 위한 기금을 모았습니다. 이 사건이 라삼의 평판을 훼손했다고 보는 자료들이 있으나, 그 정도에 대해서는 서로 다르게 설명합니다.",
+  "hormuzd-rassam.interpretation.turning_point.1":
+    "공개적인 다툼을 감수하며 소송으로 맞선 선택은 갈등에 대한 높은 내성과 부합하며, 그것은 그가 오래 봉사한 기관의 호의를 잃는 대가를 치르게 했습니다.",
+  "john-a-roebling.achievement.1":
+    "로블링은 강선 케이블 현수교가 무거운 하중을 견딜 수 있음을 실제로 보여 주었다. 1845년 앨러게니 수로교 등 초기 현수 구조물을 지은 뒤, 그는 1855년 길이 821피트의 2층식 나이아가라 다리를 완성했는데, 이 다리는 최초로 실제 운행된 철도 현수교로 널리 알려져 있다. 신시내티 다리는 1856년에 착공해 1867년에 완공했다. 훗날 기술자들은 긴 철도 경간에는 트러스가 더 효율적이라고 판단했지만, 그의 다리는 현수교가 열차를 지탱할 수 있음을 입증했다.",
+  "john-a-roebling.achievement.2":
+    "로블링은 앨러게니 포티지 철도에서 차량을 끌던 삼밧줄을 대체할 꼬은 강선 로프를 개발했다. 이 로프는 1842년 그곳의 경사 구간에서 처음 시험되었고 곧 특허를 받았으며, 1849년 그가 뉴저지 트렌턴으로 옮긴 강선 로프 공장의 토대가 되었다. 같은 강선이 그가 지은 다리의 케이블이 되었다.",
+  "john-a-roebling.achievement.3":
+    "1867년 이스트 강 다리의 수석 기술자로 임명된 로블링은 중앙 경간 1,595.5피트, 화강암과 석회암 주탑, 사선 스테이, 강철 와이어 케이블로 이루어진 브루클린 다리를 설계했다. 그는 1869년 나루터 사고 후 파상풍으로 숨져 공사가 시작되기 전에 세상을 떠났고, 다리는 아들 워싱턴 로블링의 지휘 아래 1883년에 완공되었으며 며느리 에밀리 워런 로블링도 중요한 역할을 맡았다.",
+  "john-a-roebling.moment.1":
+    "1845~46년 나이아가라 다리 추진자가 주요 기술자들에게 현수교가 철도 열차를 견딜 수 있는지 묻자, 로블링은 로버트 스티븐슨이 이 문제를 풀지 못했으며 제대로 보강한 강선 케이블 다리라면 가능하다고 답했다. 이 구상을 지지한 기술자는 네 명뿐이었다. 그는 답신에서 유일하게 남은 문제는 다리를 충분히 뻣뻣하게 만들 수 있느냐 하는 것이라고 말했다.",
+  "john-a-roebling.interpretation.moment.1":
+    "이 답신은 확립된 권위자와 의견이 달라도 물러서지 않는 사람이라는 프로필과 부합하지만, 후대의 공학 역사가는 긴 철도 경간에 현수교가 최선이라는 그의 주장이 틀렸다고 지적한다.",
+  "john-a-roebling.moment.2":
+    "일부 기술자들은 브루클린 다리를 무모한 실험이라고 불렀다. 미국토목학회 잡지는 맥컬러프의 다리 역사를 바탕으로, 로블링이 학회장을 포함한 기술자 위원단을 소집해 자신의 설계를 검토하게 했다고 전한다. 그는 이 다리가 이 대륙과 이 시대 최대의 토목 사업이 될 것이라고도 썼다.",
+  "john-a-roebling.interpretation.moment.2":
+    "검토 위원단을 꾸린 일은 프로필의 분석적 엄밀성과 부합하지만, 이 설명은 하나의 2차 자료에 의존하며 위대함에 대한 호언은 그 자신의 말이다.",
+  "john-a-roebling.turning_point.1":
+    "로블링이 펜실베이니아 버틀러 카운티에서 공동 설립에 참여한 독일인 농업 공동체는 계획대로 되지 않았고, 그는 주 정부의 운하와 철도 측량 일로 돌아섰다. 앨러게니 산맥 노선을 측량하던 중 삼밧줄이 빨리 닳는다는 것을 알게 된 그는 1842년까지 포티지 철도에서 강선 로프를 시험했다. 하우는 이 아이디어가 그에게 부를 안겨 주었다고 쓰며, 그는 1849년 다리 건설을 위해 공장을 트렌턴으로 옮겼다.",
+  "john-a-roebling.interpretation.turning_point.1":
+    "농업에서 공학과 강선 로프로 옮겨 간 이 전환은 프로필의 적응력과 부합하지만, 한 전기 작가는 그가 확고한 의견을 고수한 사람이기도 했다고 묘사한다.",
+  "joseph-paxton.achievement.1":
+    "1850년 채스워스의 수석 정원사였던 팩스턴은 위원회의 설계 공모에서 채택된 안이 나오지 않자 하이드 파크 만국박람회장을 위한 철과 유리 설계안을 제출했다. 이 건물은 현장에서 세우고 해체할 수 있는 조립식 부재로 지어졌고 약 6개월 만에 완공되었으며, 시공은 폭스와 헨더슨이 맡았다. 그는 1851년에 기사 작위를 받았고, 건물은 1852~54년에 시드넘으로 옮겨 다시 세워졌다.",
+  "joseph-paxton.achievement.2":
+    "팩스턴은 채스워스에서 데번셔 공작을 위해 여러 온실을 지었고, 그 끝에 당시 유럽에서 가장 큰 온실이던 대온실(1836~40)이 있었다. 이 건물은 적층 목재 아치와 주철 기둥 위에 곡면 능선-골 유리 지붕을 얹었고, 챈스 브러더스가 새로 만든 판유리를 사용했으며, 훗날 박람회장 설계의 모델이 되었다. 이 설계는 존 클로디어스 라우던의 앞선 능선-골 지붕에 기대고 있었고, 데키무스 버튼이 자문으로 참여했다.",
+  "joseph-paxton.achievement.3":
+    "팩스턴은 버컨헤드 공원(1843~47)을 설계했는데, 잉글랜드 문화유산청은 이곳을 영국에서 공적 비용으로 조성된 최초의 공공 공원으로 기록한다. 채스워스에서 함께 일했던 에드워드 켐프가 시공을 감독했고, 팩스턴은 1845년에 손을 떼어 완공은 켐프에게 맡겨졌다. 컬은 이 배치가 프레더릭 로 옴스테드에게 영향을 주었다고 적으며, 팩스턴은 이후 영국 각지의 공공 공원을 더 설계했다.",
+  "joseph-paxton.moment.1":
+    "위원회가 공모 응모작을 모두 물리친 뒤, 팩스턴은 마지막 순간에 박람회장 설계안을 내기로 결심했다. 1895년판 국가인명사전은 그의 안이 9일 만에 작성되었다고 적고, 그 자신은 1850년 예술협회 발표문에서 약 10일이라고 말하면서 평평한 능선-골 지붕의 구상이 앞선 온실 작업에서 이미 정리되어 있었다고 덧붙였다.",
+  "joseph-paxton.interpretation.moment.1":
+    "이 시점은 기회가 열리자 스스로 나서서 움직인 사람이라는 프로필과 부합하지만, 그 자신은 속도가 10년에 걸친 앞선 작업에 기반했다고 강조한다.",
+  "joseph-paxton.moment.2":
+    "1850년 본인의 발표문에서 팩스턴은 1833년 온실군 견적을 비교했다고 말한다. 금속으로 지으면 약 1,800파운드였지만, 자신이 감독해 목재로 지으면 500파운드 미만이었다는 것이다. 그는 또 대온실을 위해 약 20파운드짜리 홈파기 기계를 만들어 창살 제작비 약 1,400파운드를 아꼈고 1841년 예술협회 메달을 받았다고 한다. 이 수치는 팩스턴 본인의 진술이며 여기서는 회계 기록과 대조하지 못했다.",
+  "joseph-paxton.interpretation.moment.2":
+    "이 일화는 그를 실용적이고 비용에 민감한 사람으로 보는 프로필의 해석과 부합하지만, 근거는 본인의 보고에 머문다.",
+  "joseph-paxton.turning_point.1":
+    "1850년 이전의 팩스턴은 데번셔 공작의 수석 정원사이자 원예 잡지 편집자, 온실 건축가로 알려져 있었다. 박람회장은 1851년의 기사 작위로 이어졌고, 컬에 따르면 그는 이때부터 건축에 집중해 멘트모어 타워스와 페리에르를 설계하고 조지 헨리 스토크스와 함께 시드넘 정원을 조성했다.",
+  "joseph-paxton.interpretation.turning_point.1":
+    "이 전환은 프로필이 보여 주는 분야를 넘나드는 폭과 부합하지만, 새 일은 온실 전문성에서 곧바로 이어진 것이었고 대개 동료와 함께 이루어졌다.",
+  "josephine-butler.achievement.1":
+    "버틀러는 1869년 여성 전국 협회(Ladies National Association)가 만들어진 때부터 이를 이끌며 전염병법(Contagious Diseases Acts) 폐지 운동을 벌였습니다. 이 법은 군 주둔 도시와 항구에서 경찰이 매춘 혐의가 있는 여성을 검사하게 하고 병이 있으면 감금 병원에 수용하게 했지만, 상대 남성은 아무 제재도 받지 않았습니다. 법은 1883년에 시행이 중지되고 1886년에 폐지되었는데, 여기에는 제임스 스탠스펠드 같은 의회 내 협력자들의 역할도 컸습니다.",
+  "josephine-butler.achievement.2":
+    "버틀러는 운동을 영국 밖으로 넓혔습니다. 1874년 프랑스, 이탈리아, 스위스를 순회한 뒤 1875년 설립된 연맹의 중심 인물이 되었고, 이 연맹은 훗날 국제 폐지 연맹(International Abolitionist Federation)으로 이어져 유럽 전역에서 국가의 성매매 규제에 맞섰습니다. 1890년대에는 인도에서 강제 검진을 다시 도입하려는 시도에 반대했고, 1898년부터 소식지 《스톰 벨(The Storm Bell)》을 펴냈습니다.",
+  "josephine-butler.achievement.3":
+    "1885년 버틀러는 W. T. 스테드가 《펠 멜 가제트》에 연재한 「현대 바빌론의 처녀 공물」 폭로 기사에 소녀들의 성적 착취에 관한 증거를 제공했고, 이 기사는 성관계 동의 연령을 열세 살에서 열여섯 살로 올린 1885년 형법 개정법으로 이어지는 데 기여했습니다. 이 폭로는 버틀러만이 아니라 스테드와 구세군의 일이기도 했습니다. 스테드와 레베카 재럿은 소녀를 사들이는 장면을 연출한 일로 유죄 판결을 받았고, 버틀러는 이들을 옹호했습니다.",
+  "josephine-butler.moment.1":
+    "1872년 8월 버틀러는 다른 폐지 운동가들과 함께 폰티프랙트에 가서 휴 칠더스의 재선에 반대했습니다. 칠더스는 해군성 장관으로 있던 시절 전염병법이 집행된 인물입니다. 훗날 회고록은 건초 창고에서 열린 집회에 성난 군중이 난입했다고 서술하는데, 폐지 운동가 헨리 윌슨이 당시 쓴 편지는 그녀의 집회에 칠더스 쪽과 연결된 '불량배'가 난입했다는 점을 확인해 주지만, 한 학술 논문은 회고록이 이 장면을 과장했다고 봅니다. 칠더스는 80표 차로 재선되었습니다.",
+  "josephine-butler.interpretation.moment.1":
+    "적대적인 보궐선거에 뛰어들고 집회가 습격당한 뒤에도 활동을 이어 간 것은 갈등을 견디는 힘이 강했다는 해석과 부합합니다. 다만 생생한 묘사는 그녀 자신의 회고록에서 나온 것이어서, 이 일화는 위험의 구체적 정황보다는 '계속 활동했다'는 점을 뒷받침합니다.",
+  "josephine-butler.moment.2":
+    "1866년 가족이 리버풀로 옮긴 뒤 버틀러는 브라운로 힐 구빈원을 찾아가 뱃밥(낡은 밧줄 풀기) 일을 하는 여성들 곁에 앉았고, 그중 일부를 자기 집에 데려왔습니다. 백과사전 항목은 이 일이 칼리지 교장 부인에 대한 많은 학부모의 호감을 크게 높이지는 못했다고 적습니다. 이후 그녀는 갈 곳 없는 여성들을 위한 휴식의 집과 직업 훈련소를 운영했습니다.",
+  "josephine-butler.interpretation.moment.2":
+    "공동체가 못마땅하게 여기는 방식으로 이 일을 스스로 시작한 것은 강한 주도성과 부합합니다. 그녀 자신의 글은 이를 딸의 죽음 뒤의 슬픔과 연결하는데, 이는 독립적 확인이 아니라 그녀 본인의 설명입니다.",
+  "josephine-butler.turning_point.1":
+    "1869년 여성이 남성 중심의 폐지 협회에 가입할 수 없게 되자 새로 만들어진 여성 전국 협회가 버틀러에게 명예 서기를 맡아 달라고 청했습니다. 『자유주의 역사 저널』은 그녀가 망설이며 남편에게 허락을 구하는 편지를 썼고 남편이 허락했다고 기록합니다. 그녀는 이 운동의 얼굴이 되어, 지역의 구호 활동에서 당시 공개적으로 말하지 않던 주제를 다루는 전국 운동으로 옮겨 갔고, 남편의 경력은 이 때문에 타격을 입었습니다.",
+  "josephine-butler.interpretation.turning_point.1":
+    "성직자의 아내에게 흔한 자선 활동에서 전국적 정치 운동으로 옮겨 간 것은 개인과 가족의 대가를 치르고서도 앞장서려는 의지와 부합합니다. 처음의 망설임과 남편의 지지도 같은 이야기의 일부입니다.",
+  "kikunae-ikeda.achievement.1":
+    "이케다는 1908년 다시마 국물의 감칠맛이 글루탐산에서 비롯됨을 밝혀냈고, 1909년 논문에서 이를 '우마미'라 이름 붙여 단맛·신맛·짠맛·쓴맛에 더해지는 기본 맛으로 제안했다. 글루탐산 자체는 1866년 독일에서 이미 분리되어 있었으며, 그의 기여는 이 물질이 그 맛의 근원임을 밝히고 그 나트륨염이 강한 감칠맛을 낸다는 점을 알아낸 데 있다.",
+  "kikunae-ikeda.achievement.2":
+    "이케다는 글루탐산염 조미료의 제조법으로 특허를 얻었고, 1909년 5월 스즈키 제약소(후의 아지노모토)와 함께 이를 '아지노모토'라는 이름으로 판매하기 시작했다. 글루탐산나트륨은 그 뒤 세계에서 가장 널리 쓰이는 조미료 가운데 하나가 되었다.",
+  "kikunae-ikeda.achievement.3":
+    "이케다는 1901년부터 도쿄제국대학에서 이론화학을 이끈 대표적 학자로서 후학을 길렀다. 이후 1917년 이화학연구소(RIKEN) 창립에 참여했고, 훗날 주임연구원이 되었다.",
+  "kikunae-ikeda.moment.1":
+    "이케다는 1907년부터 다시마를 대량으로 달여 염류와 만니톨을 단계적으로 제거했고, 1908년 2월 무렵 글루탐산으로 확인된 결정을 얻었다. 그 뒤 여러 글루탐산염의 맛과 용해성을 비교해 나트륨염을 택했다. 아내가 사 온 다시마가 연구의 계기였다는 널리 알려진 이야기는 그 자신의 훗날 회고에 바탕을 둔 것이며 지금은 논란이 있다.",
+  "kikunae-ikeda.interpretation.moment.1":
+    "이는 하나의 맛 성분을 단계적으로 분리하고 시험하는 체계적인 접근과 부합한다. 다만 자료는 그가 어떻게 판단했는지보다 절차를 설명하는 데 그친다.",
+  "kikunae-ikeda.moment.2":
+    "국립국회도서관의 해설은 농예화학자 스즈키 우메타로가 이 연구를 두고 자신이 했어야 할 성격의 일이었다고, 글루탐산은 맛본 적이 있지만 그 염은 맛보지 않았다고 말했다고 전한다(기념 문집에 실린 가타야마 마사오의 회고). 같은 해설은 글루탐산이 1866년부터 알려져 있었다는 점도 짚는다.",
+  "kikunae-ikeda.interpretation.moment.2":
+    "이 일화는 새로운 화합물을 찾아낸 것이 아니라 염을 맛보고 그 맛을 알아본 데 독창성의 일부가 있었음을 보여 준다. 이는 대중적인 이야기에 대한 도서관 해설의 신중한 시각과도 맞닿아 있다.",
+  "kikunae-ikeda.turning_point.1":
+    "이케다는 1908년 글루탐산염 조미료 제조법으로 특허를 출원했고, 그해 9월 실업가 스즈키 사부로스케와 함께 이를 시판하기로 결정했으며, 제품은 1909년 5월에 발매되었다. 누가 먼저 접촉했는지에 대해서는 회사 측 자료들의 설명이 엇갈린다.",
+  "kikunae-ikeda.interpretation.turning_point.1":
+    "실험실의 성과를 상품으로 옮겨 간 이 전환은 순수 연구를 넘어 직접 나선 행보와 부합한다. 다만 이 일은 스즈키와 함께한 것이며 회사 측 설명은 이해관계가 있다는 점을 감안해야 한다.",
+  "komitas.achievement.1":
+    "그는 아르메니아 민족음악학의 개척자로 일컬어진다. 신학교 시절부터 마을을 다니며 민요를 채보했고, 1895년에 25곡을 담은 첫 채보집을 완성했으며, 1903년과 1905년에 이어서 채보집을 펴냈고 쿠르드 노래 12곡도 출간했다. 코미타스 박물관·연구소의 한 연구자는 그가 모은 노래와 선율을 약 4천 곡으로 보고, 역사가 자카리안은 3천 곡이 넘는 수집물 가운데 지금 남은 것이 약 1,200곡이라고 적는다.",
+  "komitas.achievement.2":
+    "그는 아르메니아의 민요와 교회 선율을 합창곡으로 편곡했는데, 박물관·연구소 측 글에 따르면 베를린의 스승들은 이를 '아르메니아 양식'이라고 불렀다. 학자 아이바지안은 아타얀을 인용해, 그가 관습적인 화성 규칙보다 민요 자료에서 얻은 방식으로 다성음악을 짰다고 설명한다. 그는 1906년까지 게보르기안 신학교 합창단을 지휘했고, 1910년에는 콘스탄티노플에서 최대 300명 규모로 알려진 구산 합창단을 창설했다.",
+  "komitas.achievement.3":
+    "그는 아르메니아 교회 성가의 옛 기보법인 하즈(khaz) 네우마를 연구했다. 1899년에는 국제음악학회를 위해 「아르메니아 교회음악」을 발표했고, 1914년에는 이 학회의 파리 대회에서 중세 하즈 기보법에 관한 논문을 발표했다. 자카리안에 따르면 이 기보법에 관한 미발표 원고는 대부분 사라졌지만, 그가 준비한 전례곡은 1933년 파리에서 처음 출간된 뒤 아르메니아 교회의 정식 전례곡이 되었다.",
+  "komitas.moment.1":
+    "박물관·연구소의 글과 같은 기관 연구자의 설명에 따르면, 그는 마을 사람들의 일과 혼례, 의식에 함께하거나 몰래 귀를 기울여 노래를 모았다. 마을 사람들은 일하지 않는 때에는 노동요를 부르지 않았기 때문이다. 이 글은 또 그가 어린 소녀의 노래가 끊기자 속이 빈 나무 안에서 한 시간 넘게 기다렸다는 이야기도 전한다.",
+  "komitas.interpretation.moment.1":
+    "이 방식은 현장으로 직접 가서 기다릴 줄 아는 프로필과 부합하지만, 나무 속에서 기다렸다는 이야기는 호의적인 단일 서술에서 나온 것이다.",
+  "komitas.moment.2":
+    "1913년 가을 그는 콘스탄티노플의 신문에 「아르메니아인에게는 고유한 음악이 있다」를 발표했다. 박물관·연구소의 한 연구자는 이 글이 아르메니아 음악이 비잔틴 음악이나 페르시아·아랍 음악에서 파생되었는지를 두고 벌어진 논쟁을 끝냈다고 말한다. 1914년 파리 대회에서는 투르크와 페르시아의 양식이 아르메니아 음악의 연주 방식에 영향을 미쳤음을 직접 노래로 보여 주었다고, 학자 아이바지안이 남아 있는 그의 메모를 근거로 전한다.",
+  "komitas.interpretation.moment.2":
+    "이 일화는 자신이 모은 자료를 근거로 입장을 펼치는 프로필과 부합하지만, 출처들이 그 입장에 호의적이며 논쟁이 끝났다는 말도 인터뷰 대상자 본인의 평가이다.",
+  "komitas.turning_point.1":
+    "1895년 그는 화성학을 배우려고 에치미아진을 떠나 티플리스로 갔고, 1896년에는 총주교를 통해 후원자의 지원을 마련해 베를린으로 갔다. 본인의 기록에 따르면 그는 3년 동안 리하르트 슈미트에게 개인 지도를 받았고 대학에서 음악철학사 과목을 들었다. 1899년에 돌아와 국제음악학회에서 아르메니아 음악에 관한 첫 강연을 했는데, 그는 이 학회의 창립 회원이었다. 에치미아진으로 돌아온 뒤에는 신학교 합창단을 지휘하며 채보집을 펴냈다.",
+  "komitas.interpretation.turning_point.1":
+    "3년간의 해외 수학은 스스로 시작한 작업을 심화하려고 정식 교육에 투자하는 프로필과 부합하지만, 수학 과정에 대한 설명은 일부가 본인의 기록에 기댄다.",
+  "konstantin-tsiolkovsky.achievement.1":
+    "1903년의 『반작용 장치를 이용한 우주 공간 탐사』와 1911·1912·1914년의 후속 논문에서 그는 로켓으로 우주를 여행할 수 있다는 주장을 수학적으로 뒷받침했습니다. 로켓의 최종 속도와 배기 속도, 그리고 변하는 질량 사이의 관계식(오늘날 그의 이름으로 불립니다)이 여기에 담겼고, 액체 산소와 수소를 추진제로 제안하며 무중력 상태의 생활 조건까지 따져 보았습니다. 실제로 로켓이 우주로 날아가기 수십 년 전의 일입니다.",
+  "konstantin-tsiolkovsky.achievement.2":
+    "그는 훗날 로켓 공학의 표준이 된 여러 구상을 종이 위에서 먼저 내놓았습니다. 여러 단으로 이루어진 '로켓 열차'(1929), 진공에서 방향을 잡는 가스 방향타, 추진제로 연소실을 식히는 방식, 궤도 정착지를 포함해 인류가 우주로 퍼져 나가는 1926년의 16단계 계획이 그것입니다. 그는 로켓 엔진을 직접 만든 적은 없지만, 훗날 소련을 대표하는 로켓 엔진 설계자가 된 발렌틴 글루시코가 1923년부터 그와 편지를 주고받았고 그의 저술에서 영향을 받았다고 밝혔습니다.",
+  "konstantin-tsiolkovsky.achievement.3":
+    "로켓에 몰두하기 전에 그는 항공기와 비행선을 설계했습니다. 비행 중에 부피를 바꿀 수 있는 주름진 금속 외피의 전금속 비행선(1892), 자이로스코프로 조종하는 유선형 금속 단엽기(1894), 그리고 1890년대에 만든 풍동이 그것으로, 이 풍동은 러시아 항공 분야에서 처음 쓰인 것으로 설명되며 그는 모형의 공기 저항을 측정했습니다.",
+  "konstantin-tsiolkovsky.moment.1":
+    "러시아 우주 웹(Russian Space Web)은 칼루가 박물관 연구자의 말을 인용해, 1903년의 로켓 논문이 폐간 직전의 잡지 『과학 평론』에 실렸고 인쇄본이 압수되기 전에 소수의 부수만 유통되었으며, 그중 한 부가 1960년대에 미국 의회도서관에서 발견되었다고 전합니다. 앞서 『과학 인명 대사전』은 그의 앞선 아이디어가 무관심과 불신을 받았고 그가 오랫동안 홀로 연구했다고 적고 있습니다.",
+  "konstantin-tsiolkovsky.interpretation.moment.1":
+    "이 일화는 외부의 인정이 거의 없는 가운데서도 연구를 이어 간 끈기의 양상과 부합합니다. 그는 이후에도 논문을 더 내놓았고 자비로 소책자를 펴냈습니다. 유통된 부수에 관해서는 자료마다 설명이 다릅니다.",
+  "konstantin-tsiolkovsky.moment.2":
+    "그는 항공기 설계에 쓸 공기 저항의 측정값이 필요했고, 칼루가에서 변변치 않은 수단으로 작은 풍동을 만들었습니다. 추의 힘으로 돌리는 송풍기와 저울, 지시침으로 이루어진 장치였고, 이것으로 여러 모양의 물체가 받는 항력을 쟀습니다. 『과학 인명 대사전』은 이를 1897년으로 보고, 리닌의 1931년 전기는 풍동의 시기를 더 이르게 적고 1896년 날짜의 도면을 싣고 있습니다.",
+  "konstantin-tsiolkovsky.interpretation.moment.2":
+    "이는 변통의 재주와, 계산을 측정으로 검증하려는 태도와 부합합니다. 다만 근거는 주로 참고 사전 항목과 당대의 호의적인 전기이며, 자료들 사이에 시기 차이가 있습니다.",
+  "konstantin-tsiolkovsky.turning_point.1":
+    "1917년 혁명 이후 국가는 1921년 11월 그에게 평생 명예 연금을 주었고, 1923년 헤르만 오베르트의 저서가 우주 비행에 대한 세계의 관심을 불러일으키자 소련 언론은 그를 선구자로 소개하기 시작했습니다. 학자 하게마이스터와 시디키는 1920년대에 실제 물질적 지원은 작았고, 그가 공산당에 가입한 적이 없으며, 공식 노선 밖에서 철학 소책자를 계속 자비로 펴냈다고 지적합니다.",
+  "konstantin-tsiolkovsky.interpretation.turning_point.1":
+    "이러한 양상은 사고의 독립성과 부합합니다. 인정은 늦게 찾아왔지만 그가 무엇을 펴낼지는 바뀌지 않았습니다. 학자들은 이 자비 출판물에 오늘날 해로운 것으로 평가되는 우생학적 생각이 담겨 있었다고도 기록하며, 그래서 이 프로필은 이 특성을 양면적으로 표시합니다.",
+  "lazzaro-spallanzani.achievement.1":
+    "스팔란차니는 1765년 니덤과 뷔퐁의 실험을 되풀이하여, 끓인 침출액 속의 미생물이 저절로 생겨나는 것이 아님을 보였다. 끓인 뒤 공기를 차단해 봉한 침출액에서는 생물이 자라지 않았고, 금이 간 틈으로 공기가 들어가면 생물이 번식했다. 그는 니덤의 반론에 실험 설계를 바꾸어 답했으며, 이 연구는 훗날 파스퇴르가 이어받았고 열을 이용한 식품 보존과도 관련된다.",
+  "lazzaro-spallanzani.achievement.2":
+    "1780년의 『동식물 생리학 논문집』에서 스팔란차니는 소화에서 위액이 맡는 역할을 밝혔다. 동물과 자기 자신에게서 위액을 얻어 유리관에 든 음식물에 시험했고, 몸 밖에서도 부분적인 소화를 재현했다. 위액을 중성으로 본 것은 잘못이었지만, 이 연구는 소화 연구를 실험의 토대 위에 올려놓았다.",
+  "lazzaro-spallanzani.achievement.3":
+    "같은 1780년의 저작에서 그는 개구리에게 밀랍 먹인 비단 속바지를 입히는 실험 등으로, 수정에는 정액과 난자의 물리적 접촉이 필요함을 양서류에서 보였고, 포유류인 개에서 통제된 조건의 인공수정에 성공한 초기 사례를 보고했다. 그러나 정자 자체의 역할은 놓쳤고, 난자 속에 개체가 미리 들어 있다는 난자 예정설(난원설)을 고수했다.",
+  "lazzaro-spallanzani.moment.1":
+    "1793~94년, 예순 중반의 스팔란차니는 박쥐가 완전한 어둠 속에서 어떻게 나는지를 시험했다. 박쥐에게 두건을 씌우고, 눈을 멀게 하고, 니스와 풀을 발라도 박쥐는 여전히 날고 먹이를 잡았다. 귀를 밀랍으로 막으면 장애물을 피하지 못한다는 쥐린의 보고에 대해서는, 작은 황동관을 낀 마개를 만들어 청각의 차단과 고통의 영향을 구분했고, 청각이 관여한다는 점을 받아들였다. 퀴비에는 이 결과를 조롱했으며, 반향정위로 설명되기까지는 20세기를 기다려야 했다.",
+  "lazzaro-spallanzani.interpretation.moment.1":
+    "이는 결과가 자신에게도 이치에 맞지 않아 보일 때조차 반론을 실험 설계의 수정으로 받아내는 태도와 부합한다. 다만 자료는 그의 생각보다는 실험 절차를 서술한다.",
+  "lazzaro-spallanzani.moment.2":
+    "1786년 콘스탄티노폴리스에서 파비아로 돌아온 스팔란차니는, 박물관 학예원 세라피노 볼타와 스코폴리, 폰타나, 스카르파 등 동료들이 그가 박물관 표본을 자신의 개인 수집품으로 옮겼다고 고발했음을 알게 되었다. 그는 조사를 요구했고 1787년 황제의 칙령으로 혐의를 벗었으며 고발자들은 처벌을 받았다. 그 뒤 그는 필명으로 스코폴리를 겨냥한 풍자문을 펴냈다. 장편 참고 전기는 스코폴리에게 보낸 '새로운 장내 기생충' 표본이 실은 닭의 식도 조각이었다는 이야기도 덧붙인다.",
+  "lazzaro-spallanzani.interpretation.moment.2":
+    "이 사건은 공개적 갈등을 감수하는 성향이 높았다는 해석과 부합하며, 여기서는 정식 방어와 보복의 양면으로 나타난다. 다만 그의 태도에 대한 자료의 설명은 엇갈려, 1912년의 항목은 '부드러운 예의'를, 장편 전기는 가차 없이 변할 수 있는 성미를 말한다.",
+  "lazzaro-spallanzani.turning_point.1":
+    "스팔란차니는 1760년까지 레조에서 그리스어·프랑스어·수학을 가르치며 이탈리아어 『일리아스』 번역을 비평한 글을 낸 교사였다. 1761년 뷔퐁과 니덤의 저작을 접한 뒤 그는 생물학으로 방향을 돌려 그들의 주장을 시험하기 시작했고, 그 결과가 자연발생설을 반박한 1765년의 논문이다. 이 논문은 샤를 보네와의 오랜 서신 교환의 계기가 되었고, 1769년 파비아로 옮기기에 앞선 일이었다.",
+  "lazzaro-spallanzani.interpretation.turning_point.1":
+    "이는 구체적인 미해결 문제를 만나자 경력의 방향이 바뀐 호기심과 부합한다. 다만 뷔퐁과 니덤을 알게 된 계기는 외부에서 왔다.",
+  "mansa-musa.achievement.1":
+    "만사 무사는 1312년부터 1337년까지 말리 제국을 다스렸다. 이 시기 말리는 서아프리카 금·소금 교역의 상당 부분을 장악했고 영토는 대서양 연안에서 가오와 니제르강 만곡부까지 뻗었다. 개설서들은 그가 임명한 총독들이 속주를 다스리는 구조를 설명하며, 그의 재위기에 통북투와 가오가 제국에 편입되었다고 전한다.",
+  "mansa-musa.achievement.2":
+    "1324~1325년 그는 매우 큰 수행단을 거느리고 메카 순례에 나섰으며 카이로에 머물렀다. 시리아 출신 저술가 알우마리는 그가 맘루크 궁정에 베푼 금 선물 때문에 이집트의 금 시세가 떨어졌다고 전한다. 역사가들은 선물과 시세 하락 자체는 받아들이지만 그 효과가 12년간 이어졌다는 알우마리의 주장에는 의문을 제기하며, 그의 재산에 관해 널리 퍼진 수치 대부분은 역사적 근거가 없다. 이 여행으로 말리의 이름이 널리 알려졌고, 1375년의 카탈루냐 지도첩에는 금 구슬을 든 채 왕좌에 앉은 그의 모습이 그려져 있다.",
+  "mansa-musa.achievement.3":
+    "귀국한 뒤 그는 서적과 학자들을 데려왔고 제국 곳곳에 이슬람 학교를 세웠다고 전해지며, 그가 데려온 건축가들이 새 모스크와 궁전을 지은 것으로 알려져 있다. 통북투는 서아프리카 이슬람 학문의 주요 중심지 가운데 하나가 되었다. 다만 건축가의 이름과 그가 정확히 어떤 건물을 지었는지에 대해서는 전하는 바가 엇갈린다.",
+  "mansa-musa.moment.1":
+    "알우마리가 카이로 궁정의 한 아미르에게서 들은 이야기에 따르면, 무사는 처음에 자신은 순례를 위해 왔을 뿐이라며 성채에 올라가기를 사양했고, 이어 맘루크 술탄 앞에서 땅에 입을 맞추라는 요구를 거부했다. 수행원이 귓속말을 하자 그는 오직 신께만 경배한다고 말하고 엎드린 뒤 앞으로 나아갔다. 술탄은 몸을 반쯤 일으켜 그를 맞고 곁에 앉혔다.",
+  "mansa-musa.interpretation.moment.1":
+    "몇 년 뒤 전해 들은 이야기라는 한계가 있지만, 이 일화는 체면의 한 지점을 지키면서도 체면을 살리는 방식을 받아들인 통치자의 모습과 어긋나지 않는다. 다만 한 편의 일화만으로 그가 의견 충돌을 대체로 어떻게 다루었는지를 말할 수는 없다.",
+  "mansa-musa.turning_point.1":
+    "순례는 그의 위상과 국내 정책을 바꿔 놓았다. 1324년 이전의 말리는 맘루크와 지중해 세계에 주로 금 산지로 알려져 있었지만, 그 뒤 그의 궁정은 카이로에서 화제가 되었고 유럽의 지도에도 그려졌다. 개설서들은 귀국한 그가 학자와 서적, 건축가를 데려오고 이슬람 교육을 넓혔다고 전하며, 이는 통북투가 학문의 중심지로 부상하기 시작한 시기와 겹친다.",
+  "mansa-musa.interpretation.turning_point.1":
+    "이는 해외에서 얻은 기회를 활용해 사람을 모으고 국내에 제도를 세운 통치자의 모습과 어긋나지 않는다. 다만 근거가 후대 아랍 기록을 요약한 글들에 의존하며 그 효과의 규모에 대해서도 논쟁이 있다.",
+  "marianne-north.achievement.1":
+    "그녀는 1871년부터 1885년까지 거의 늘 홀로 브라질, 자메이카, 캘리포니아에서 일본, 보르네오, 인도, 오스트레일리아, 남아프리카, 세이셸, 칠레에 이르는 열다섯 나라를 여행하며, 식물을 자생지에서 유화로 그렸다. 주변 풍경과 동물, 사람이 함께 담기는 경우도 많았다. 당시에는 컬러 사진이 없었기 때문에, 그의 그림은 대부분의 영국 관람객이 본 적 없는 식생을 기록하는 역할을 했다.",
+  "marianne-north.achievement.2":
+    "그녀는 1879년 큐 왕립식물원에 자신의 그림을 기증하겠다고 제안하고, 이를 전시할 갤러리 건립 비용도 직접 부담했다. 부지를 직접 고르고 건축사학자 제임스 퍼거슨에게 설계를 맡겼으며, 그림은 지역별로 직접 배치했다. 마리안 노스 갤러리는 1882년 800점이 넘는 그림과 함께 문을 열었고, 지금도 큐에서 그가 정한 배치대로 전시되고 있다.",
+  "marianne-north.achievement.3":
+    "그녀가 보르네오에서 그린 대형 주머니풀은 당시 과학계에 알려지지 않은 식물이었다. 그의 회고에 따르면 이 그림을 본 원예업자 비치가 씨앗을 구해 오도록 채집가를 보냈고, 조지프 후커가 이 종에 네펜테스 노르티아나(Nepenthes northiana)라는 이름을 붙였다. 그의 이름을 딴 식물은 다른 네 종도 있다.",
+  "marianne-north.moment.1":
+    "1879년 그녀는 큐 왕립식물원장 조지프 후커에게 편지를 보내, 자신의 그림과 사비로 지은 갤러리를 기증하겠다고 제안했다. 지친 방문객에게 차와 커피를 내놓는 휴게 공간도 겸하기를 바랐지만, 후커는 방문객이 너무 많아 불가능하다고 답했다. 그녀는 부지를 직접 골랐고, 본인의 회고에 따르면 퍼거슨에게 설계와 공사 관리를 맡겼다.",
+  "marianne-north.interpretation.moment.1":
+    "이 일화는 자신의 계획을 직접 세우고 비용까지 감당하며 실행에 옮기는 경향과 맞아떨어진다. 다만 건물의 설계와 공사 관리는 다른 사람들이 맡았다.",
+  "marianne-north.moment.2":
+    "찰스 다윈을 만난 뒤 그녀는 세계의 식생을 그리려면 먼저 오스트레일리아와 뉴질랜드, 태즈메이니아를 보아야 한다는 그의 조언을 받아들여 약 1년간 그곳에서 그림을 그렸다. 본인의 회고는 다윈이 오스트레일리아에 가 보라고 권했다고 전하며, 2024년 평전을 다룬 서평도 같은 조언을 기록하고 있다.",
+  "marianne-north.interpretation.moment.2":
+    "이 여행은 존경하던 박물학자의 조언을 받아 계획을 넓힌 사례로, 식물과 장소를 향한 호기심과 맞닿아 있다.",
+  "marianne-north.turning_point.1":
+    "유럽과 근동을 함께 여행하던 아버지가 1869년 세상을 떠났다. 약 2년 뒤 그녀는 헤이스팅스의 집을 팔고, 오래 품어온 꿈인 열대 식생을 현지에서 그리기 위해 1871년부터 1885년까지 이어진 홀로 하는 여행에 나섰다. 이 여행이 그의 필생의 작업이 되었다.",
+  "marianne-north.interpretation.turning_point.1":
+    "아버지와 동행하던 여행에서 홀로 하는 여행으로 바뀐 점은, 자신의 계획과 일정에 따라 일하기를 중시했다는 이 프로필의 해석과 맞아떨어진다. 다만 상속받은 재산이 이 전환을 가능하게 한 조건이었다.",
+  "niccolo-paganini.achievement.1":
+    "파가니니는 1813년 밀라노 연주회로 이탈리아에서 순회 독주자로서의 경력을 시작했고, 1828년부터 1834년까지 빈, 베를린, 바르샤바, 파리, 런던 등 유럽 각지에서 연주했다. 참고 문헌들은 그를 이전의 어떤 기악 연주자보다 성공적인 연주 경력을 쌓은 인물로 기술하며, 폭넓은 하모닉스, 왼손 피치카토, G선 하나만을 쓰는 작곡, 특이한 조현법 등으로 바이올린 기법의 영역을 넓혔다고 평가한다. 이탈리아 인물사전은 그의 명성이 언론을 통해서도 쌓였고 무대에서의 쇼맨십이 기량과 함께했다고 덧붙인다.",
+  "niccolo-paganini.achievement.2":
+    "독주 바이올린을 위한 24개의 카프리스는 1817년 출판사 리코르디와 계약해 1820년에 출판되었고, '예술가들에게' 헌정되어 바이올린 기법의 기초가 되었다. 파가니니는 이 곡들을 연습곡으로 여겨 공개 연주하지 않았지만, 쇼팽, 슈만, 리스트, 브람스, 라흐마니노프 등 후대 작곡가들이 이 곡들, 특히 5번, 9번, 24번 카프리스와 제2번 협주곡의 '라 캄파넬라' 론도를 바탕으로 작품을 썼다.",
+  "niccolo-paganini.achievement.3":
+    "파가니니는 1816년부터 1830년 사이에 다섯 곡의 바이올린 협주곡과 '마녀들'(1813)을 비롯한 바이올린과 관현악을 위한 변주곡들을 썼으며, 이 곡들에서는 독주자가 중심이 되고 관현악은 최소한의 역할만 맡는다. 현악기와 기타를 위한 실내악도 남겼다. 참고 문헌들은 협주곡과 기교적 연주곡을 카프리스와 함께 그의 주요 작품으로 꼽으며, 협주곡들은 지금도 연주회 레퍼토리에 남아 있다.",
+  "niccolo-paganini.moment.1":
+    "1831년 런던에 도착한 파가니니는 그의 태도에 비판적인 언론과, 감옥에서 바이올린을 배웠다는 등 과거에 관한 소문에 맞닥뜨렸고, 신문에 기고문과 성명을 내 이에 대응했다. 대륙에서처럼 입장료를 보통의 두 배로 정했으나 영국 언론이 항의하자, 1831년 6월 2일 '더 쿠리어'와 '더 글로브'에 서한을 실어 런던의 기존 가격을 따르겠다고 밝혔다.",
+  "niccolo-paganini.interpretation.moment.1":
+    "이는 자신의 대중적 이미지를 직접 관리하려는 적극적인 태도와 일치하지만, 언론 대응을 얼마나 스스로 기획했는지는 사료가 밝히지 않는다.",
+  "niccolo-paganini.moment.2":
+    "1836~37년 파가니니는 친구가 추진한 파리의 오락 공간 '카지노 파가니니'에 자신의 이름을 빌려주었고, 주 2회 출연이 공고되었다. 후두 질환으로 연주할 수 없게 되자 사업은 몇 달 만에 실패했고 동업자들이 그를 고소했다. 1840년 파리 항소법원은 그에게 물릴 배상금을 5만 프랑으로 높였으나(스트래턴), 실제로 지급되었는지는 알려져 있지 않으며, 이탈리아 인물사전은 파산 절차가 많은 법적 후유증을 남겼다고만 적는다. 그가 사업의 실제 목적을 알았는지에 대해서는 기록마다 설명이 다르다.",
+  "niccolo-paganini.interpretation.moment.2":
+    "이 일화는 투기적인 사업에 이름과 돈을 거는 태도의 한 사례일 수 있으나 친구에 대한 신뢰를 보여 줄 수도 있으며, 그가 얼마나 이해하고 있었는지에 대해 기록이 엇갈린다.",
+  "niccolo-paganini.turning_point.1":
+    "파가니니는 1805년 엘리사 바치오키의 루카 궁정 악단에 들어가 나중에 독주 바이올리니스트가 되었으나, 1809년 12월 궁정과 결별하고 독립적인 연주 바이올리니스트로 활동하기 시작했다. 1813년 밀라노 연주회 이후 그는 궁정 직책 없이 이탈리아 각지를 순회했고, 1828년부터는 유럽 전역을 돌았다.",
+  "niccolo-paganini.interpretation.turning_point.1":
+    "이 결별은 자기 방식대로 일하려는 강한 선호와 일치한다. 이탈리아 인물사전은 이유를 밝히지 않은 채 루카와의 관계가 끝났다고만 적고, 오래된 기록들은 그가 궁정 생활에 불만이었다고 설명한다.",
+  "nikos-kazantzakis.achievement.1":
+    "카잔차키스는 1924년에 『오디세이아: 현대적 속편』을 쓰기 시작해 일곱 번 고쳐 쓴 끝에 1938년 12월 아테네에서 출판했다. 3만 3,333행의 이 서사시는 호메로스의 오디세우스가 이타카에 돌아온 뒤의 이야기를 이어 간다. 그는 다시 집을 떠나 크레타와 이집트의 반란에 가담하고, 지진으로 무너지는 이상 도시를 세웠다가, 마지막에는 홀로 남극의 얼음 쪽으로 마지막 항해에 나선다. 이 작품은 시인으로서 그의 경력의 중심이 되는 작업이다.",
+  "nikos-kazantzakis.achievement.2":
+    "제2차 세계대전을 전후한 시기에 그는 그리스 밖에서 그를 알린 소설들을 썼다. 1941년에 시작해 1943년에 완성한 『그리스인 조르바』에 이어 『그리스도 다시 십자가에 못 박히다』(1948년 집필), 『자유냐 죽음이냐』, 1951년까지 완성한 『그리스도 최후의 유혹』, 1953년의 『성 프란체스코』가 나왔다. 『그리스도 최후의 유혹』은 바티칸의 칙령과 그리스 성직자회의의 반대 운동을 불러왔고, 그는 해외에서 가장 널리 알려진 현대 그리스 작가로 평가된다.",
+  "nikos-kazantzakis.achievement.3":
+    "1920년대 초 베를린에서 초고를 쓰고 1927년에 출판한 『신의 구원자들: 영적 수련』은 인간의 창조적 노력만이 신을 구할 수 있다는 그의 믿음을 밝힌 철학적 저작이다. 트라카키스는 이 책을 초기의 대표작으로 꼽는다. 이 책으로 그는 그리스에서 무신론 혐의로 기소되어 1930년에 재판 날짜가 정해졌으나, 재판은 열리지 않았다.",
+  "nikos-kazantzakis.moment.1":
+    "1954년 4월 바티칸은 『그리스도 최후의 유혹』에 대한 칙령을 내렸다. 카잔차키스는 초기 기독교 저술가 테르툴리아누스의 말을 인용한 전보로 '주여, 당신의 법정에 호소합니다'라고 답했다. 그리스에서는 성직자회의가 소설 『카피탄 미할리스』와 『그리스도 최후의 유혹』을 겨냥한 회칙을 냈고 파문 운동이 뒤따랐으나, 총대주교청은 이를 승인하지 않았다.",
+  "nikos-kazantzakis.interpretation.moment.1":
+    "이 답변은 기관의 반대에 맞서 물러서지 않고 공개적으로 대응하려는 태도와 일치한다. 다만 자료들은 이를 주로 그 자신의 전보와 정교회 쪽의 호의적인 설명을 통해 전한다.",
+  "nikos-kazantzakis.moment.2":
+    "카잔차키스는 1945년 11월 26일 무임소 장관으로 취임했고, 불과 46일 뒤인 1946년 1월 11일에 사임했다. 그는 한 친구에게 방금 사표를 냈으며 오랜 병에서 회복되는 것처럼 '정말 자유로운' 느낌이라고 말했다. 총리에게 보낸 사임서에서는 사회주의 정당들을 하나로 묶는 일을 돕기 위해서만 정치에 뛰어들었고 이제 고독으로 돌아가고 싶다고 밝혔다. 일부 비판자들은 그가 종속적인 자리를 받아들이려 하지 않아서 물러났다고 말했다.",
+  "nikos-kazantzakis.interpretation.moment.2":
+    "이렇게 빨리 물러난 것은 독립성에 대한 강한 욕구와 일치한다. 다만 비엔은 이를 제한된 목표를 이룬 데서 오는 안도감과 좌절감이 함께 작용한 것으로 읽으며, 그의 동기에 대한 설명은 엇갈린다.",
+  "nikos-kazantzakis.turning_point.1":
+    "1920년 무렵 카잔차키스는 37세였고, 게일 사전의 표현대로 자신의 운명을 아직 정하지 못한 채 끝내 이타카에 닿지 못할 오디세우스 같다고 느꼈다. 빈과 베를린에서 내적 갈등을 겪은 두 해의 위기 끝에 그는 1924년 희곡 『붓다』를 완성하고 『오디세이아: 현대적 속편』을 쓰기 시작했으며, 1938년 출판될 때까지 이를 거듭 고쳐 썼다.",
+  "nikos-kazantzakis.interpretation.turning_point.1":
+    "하나의 시에 오랜 세월 되돌아간 것은 여러 해에 걸친 끈기와 일치한다. 다만 이 항목은 이 시기에 관한 서술을 대체로 그의 아내가 쓴 전기에 의존한다.",
+  "octave-chanute.achievement.1":
+    "샤뉘트는 세계 각지의 실험가들과 서신을 주고받으며 비행 연구에 관해 믿을 만한 정보를 모아 《비행기계의 발전》(1894)으로 펴냈다. 스미스소니언의 톰 크라우치 큐레이터는 이 책을 비행기를 발명하게 될 세대의 개척자들에게 '성경'과 같았다고 평했으며, 라이트 형제도 시작 전에 이 책을 읽었다.",
+  "octave-chanute.achievement.2":
+    "1896년 샤뉘트는 오거스터스 헤링, 윌리엄 에이버리와 함께 미시간호 인디애나 사구에서 글라이더를 시험했고, 그 결과 나온 버팀대 복엽 글라이더에는 강도를 계산할 수 있도록 철도 교량의 트러스 구조가 쓰였다. 브리태니커는 이 설계가 윌버와 오빌 라이트 형제가 자신들의 구조를 설계하는 출발점이 되었다고 설명한다.",
+  "octave-chanute.achievement.3":
+    "항공 이전에 그는 미국을 대표하는 토목기술자 가운데 한 사람이었다. 1869년에 개통되어 미주리강에 놓인 첫 다리가 된 캔자스시티의 해니벌 다리를 설계했고, 시카고와 캔자스시티의 가축 수용장을 설계했으며, 1873년부터 1883년까지 이리 철도의 수석 기술자를 지냈다.",
+  "octave-chanute.moment.1":
+    "1901년 샤뉘트는 윌버 라이트를 시카고 서부기술자협회 강연에 초대했다. 톰 크라우치에 따르면 강연을 하는 동안 윌버가 다시 힘을 얻었고 오빌도 마찬가지였으며, 당시 형제는 포기를 생각하던 중이었다.",
+  "octave-chanute.interpretation.moment.1":
+    "이 초대는 자신의 전문가적 지위를 활용해 다른 실험가들을 연결하고 격려했다는 이 프로필의 패턴과 맥을 같이하지만, 형제에게 미친 효과는 크라우치의 전언에 의존한다.",
+  "octave-chanute.moment.2":
+    "1909년 글렌 커티스를 상대로 한 특허 소송 중에 샤뉘트는 《에어로노틱스》지에 라이트 형제의 소송이 선행 특허를 드러낼 수 있다고 썼다. 윌버가 격렬한 편지를 보내오자 샤뉘트는 윌버의 판단이 '큰 부에 대한 욕망 때문에 비뚤어진 듯하다'고 답하며, 형제가 자신의 기여를 너무 적게 인정했다는 오랜 불만을 털어놓았다. 두 사람은 1910년 그가 사망할 때까지 이 문제를 매듭짓지 못했다.",
+  "octave-chanute.interpretation.moment.2":
+    "이 일화는 그가 이견을 피하지 않고 공개적으로 맞선 사례의 하나이지만, 같은 기록에 따르면 그는 중립이라고 말하면서 상대편에 논거를 제공했으므로 갈등에 대한 여유를 분명히 보여 주는 증거는 아니다.",
+  "octave-chanute.turning_point.1":
+    "1903년 4월, 라이트 형제의 첫 동력 비행이 있기 몇 달 전에 샤뉘트는 프랑스 항공클럽에서 형제의 날개 비틀기 구상을 설명했고, 파리에서 유럽 연구자들에게 형제가 성공을 눈앞에 두고 있다고 알렸다. 훗날 독일 법원은 이 강연을 공개로 보아 형제의 독일 특허 주장에 불리하게 판단했다.",
+  "octave-chanute.interpretation.turning_point.1":
+    "이 일은 초기에는 라이트 형제에게 도움이 되었던 개방적 공유의 습관이 형제가 특허를 지켜야 할 때에는 부담이 될 수 있음을 보여 주지만, 그가 위험을 잘못 판단했는지 아니면 단지 개방성을 더 중시했는지는 가려 주지 않는다.",
+  "robert-owen.achievement.1":
+    "오언은 1800년부터 스코틀랜드 뉴래너크 방적 공장을 경영했고, 이곳은 유명한 모범 공동체가 되었다. 그는 주택을 개선하고 수익으로 학교 운영을 뒷받침하는 마을 상점을 운영했으며 노동 시간을 줄이고, 체벌을 쓰지 않는 어린이 학교와 보육 시설, 그리고 '성격 형성 학원'(1816년)을 열었다. 공장은 계속 수익을 냈고 수많은 방문객이 이를 보러 찾아왔다.",
+  "robert-owen.achievement.2":
+    "1815년 오언은 면직 공장 아동의 노동 시간을 제한하는 법안을 구상했고, 이 안은 로버트 필 경이 의회에 제출했다. 그는 1816년 공장 아동 위원회에서도 증언했다. 오랜 반대 끝에 1819년 약화된 공장법이 통과되었으나 면직 공장에만 적용되었고 최저 연령도 9세로 정해져, 그의 제안은 일부만 받아들여졌다.",
+  "robert-owen.achievement.3":
+    "오언은 『사회에 관한 새로운 관점』(1813년)과 이후의 저술에서 인간의 성격은 환경에 의해 형성된다고 주장하며 경쟁 대신 협동 마을을 제안했다. 그는 이 구상을 시험하기 위해 1825년 인디애나의 뉴하모니를 사들였지만 공동체는 3년 남짓 만에 실패했고, 이후에도 노동 교환소, 전국통합노동조합, 합리 협회 등을 추진했다. 개설서들은 그를 영국 사회주의와 협동조합 운동의 선구자로 평가한다.",
+  "robert-owen.moment.1":
+    "1817년 8월 21일 런던 시티 오브 런던 태번에서 열린 공개 집회에서 오언은 미리 써 온 연설문을 읽었다. 그는 먼저 협동 마을 구상을 옹호한 뒤 기존의 종교들이 인간의 행복을 가로막는다고 선언했고, 그 결과가 자신에게 어떠하든 개의치 않겠다고 말했다. 참고 문헌들은 이 종교 비판으로 일부 지지자를 잃었다고 전하며, 반대자들은 이후 그의 공장법안을 공격하는 데 이를 이용했다.",
+  "robert-owen.interpretation.moment.1":
+    "이 일화는 신념을 위해 사회적 대가를 감수하려는 태도와 어긋나지 않는다. 다만 그에게 우호적인 전기 작가 포드모어도 이 행보를 세속적 지혜가 부족한 것이라고 평하므로, 용기뿐 아니라 고집으로도 읽을 수 있다.",
+  "robert-owen.turning_point.1":
+    "1815년에서 1817년 사이 오언의 활동은 모범 공장 하나를 운영하는 일에서 나라 전체를 위한 구상을 제안하는 일로 넓어졌다. 의회가 그의 공장 개혁안을 약화시키고 실업 보고서를 듣지 않자 그는 협동 마을을 제안했고, 종교 비판으로 기성 사회의 지지를 상당 부분 잃었다. 1824년에는 뉴래너크를 떠나 뉴하모니에서 자신의 구상을 시험했고 그곳에서 재산 대부분을 잃었다.",
+  "robert-owen.interpretation.turning_point.1":
+    "이는 한 작업장의 개선에서 사회의 재편으로 목표를 넓혀 간 개혁가의 모습과 어긋나지 않는다. 다만 이것이 계획된 노선이었는지 좌절에 대한 대응이었는지에 대해서는 자료마다 견해가 다르다.",
+  "rudolf-virchow.achievement.1":
+    "1858년 스무 차례의 강의를 토대로 펴낸 『세포병리학』에서 그는 병이 장기나 체액 일반이 아니라 개별 세포에서 생긴다고 주장했고, 이는 체액 병리설과 장기 수준의 옛 설명을 대신하는 데 이바지했다. '모든 세포는 세포에서 나온다'는 표현은 그가 처음 만든 것이 아니고 세포분열에 대한 생각도 로베르트 레마크가 먼저 밝혔지만, 브리태니커는 그가 세포병리학을 하나의 체계로 만들었다고 설명한다. 이에 앞서 그는 혈관 속 덩어리가 혈전증에서 비롯되고 그 조각이 색전으로 이동할 수 있음을 보였고, 1845년에는 보고된 가장 이른 백혈병 사례 두 건 가운데 하나를 기술했다.",
+  "rudolf-virchow.achievement.2":
+    "1848년 그는 오버슐레지엔의 발진티푸스 유행을 조사해 사회적 조건에 무게를 둔 190쪽 분량의 보고서를 썼고, '의학은 사회과학이다'라는 구호 아래 주간지 『의학 개혁』을 창간했다. 1859년부터 베를린 시의회에서 일하며 하수도 체계, 병원 설계, 학교 위생을 다루었고, 선모충증 연구 뒤에는 식육 검사를 위한 운동을 폈다. 이 정책을 연구한 한 역사학자는 대중이 개인이 예견하지 못하는 위험으로부터 개인을 지켜야 한다는 그의 주장을 인용한다.",
+  "rudolf-virchow.achievement.3":
+    "1860년대부터 그는 독일의 인류학과 선사 고고학이 조직된 학문 분야로 자리 잡도록 이끌었다. 독일인류학회와 베를린 인류학·민족학·선사학회를 조직했고, 민족학박물관(1886년 개관)이 국가의 지원을 받도록 도왔으며, 소아시아·캅카스·이집트에서 현지 조사에 참여했다. 그가 약 700만 명의 학령기 아동을 조사한 결과는 유대인, 독일인, '아리아인'이라는 뚜렷이 구별되는 인종을 뒷받침하는 패턴을 찾지 못했다고 전해진다.",
+  "rudolf-virchow.moment.1":
+    "1848년 초 프로이센 정부는 그를 오버슐레지엔의 발진티푸스 유행 조사에 보냈다. 그의 보고서는 책임을 사회적 조건과 정부에 돌렸고 자치와 농업 협동조합 같은 대책을 지지했으며, 브리태니커에 따르면 정부는 이를 못마땅하게 여겼다.",
+  "rudolf-virchow.interpretation.moment.1":
+    "이 일화는 의학적 발견을 사회 변화로 연결하려는 강한 의욕과 어울리지만, 이 보고서에는 당시 개혁 정치의 분위기도 담겨 있고, 자료는 그가 무엇을 썼는지를 전할 뿐 왜 그렇게 썼는지는 말해 주지 않는다.",
+  "rudolf-virchow.moment.2":
+    "1872년 그는 네안데르탈 화석을 살펴보고, 그 특징이 별개의 고대 인류 종족의 증거가 아니라 병리의 결과라고 주장했다. 미국 질병통제예방센터의 한 글은 그가 이를 구루병과 관절염 탓으로 돌렸다고 전한다. 화석의 해석을 둘러싼 불확실성은 수십 년 이어졌고, 19세기 말의 추가 발견 이후에야 네안데르탈인이 멸종한 고대 인류로 받아들여졌다.",
+  "rudolf-virchow.interpretation.moment.2":
+    "이 일화는 논쟁적인 증거 앞에서 생각을 바꾸는 면의 낮은 점수를 보여 주는 한 예로 읽을 수 있지만, 자료는 그의 추론 과정이 아니라 결과를 전하며 논쟁 자체도 수십 년간 열려 있었다.",
+  "rudolf-virchow.turning_point.1":
+    "1849년 3월 31일 그는 자유주의적 견해 때문에 샤리테 병원의 직책에서 정직되었다가 보름 뒤 일부 특권을 잃은 채 복직했다. 같은 해 그는 독일 최초의 병리해부학 교수직을 맡아 뷔르츠부르크로 갔고, 그곳에서 세포병리학을 구상하기 시작했다. 1856년에는 새 병리학 연구소를 지어 준다는 조건으로 베를린 교수직을 받아들여 돌아왔다.",
+  "rudolf-virchow.interpretation.turning_point.1":
+    "이 프로필의 끈기 점수와 어울리는 한 가지 해석은, 이 좌절이 그의 연구 경력을 끝낸 것이 아니라 방향을 바꾸어 놓았다는 것이다. 다만 자료는 그가 이 일을 스스로 어떻게 보았는지는 말해 주지 않는다.",
+  "sarojini-naidu.achievement.1":
+    "나이두는 영어로 시를 쓴 시인이었다. 첫 시집 『황금의 문턱』(1905)은 영국식 모방에서 벗어나 인도의 산과 정원과 사원을 배경으로 시를 쓰라는 비평가 에드먼드 고스의 조언을 따른 것이었고, 이후 『시간의 새』(1912)와 『부러진 날개』(1917)가 이어졌다. 그는 1914년 왕립문학회 회원으로 선출되었고 '인도의 나이팅게일'로 알려졌지만, 한 참고 전기는 그의 오랜 명성이 시보다 공적 활동에 더 기대고 있다고 평가한다.",
+  "sarojini-naidu.achievement.2":
+    "여성 교육, 여성 참정권, 민족의 자유, 힌두·이슬람 화합을 위해 연설한 나이두는 1917년 여성 선거권을 위해 인도 담당 장관과 총독을 만난 대표단에 참여했고, 인도 여성협회 창립에 힘을 보탰으며, 1925년 인도 여성으로는 처음으로 인도국민회의 의장이 되었다. 그는 독립운동에 참여한 일로 1930년, 1932년, 1942~43년에 투옥되었고, 1930년 5월 21일 간디가 체포된 뒤 다라사나 소금 공장에서 자원자들을 이끌었다.",
+  "sarojini-naidu.achievement.3":
+    "1947년 독립 이후 나이두는 연합주(이후 우타르프라데시주로 개칭)의 주지사가 되어 인도에서 여성으로는 처음으로 주를 다스렸고, 1949년 사망할 때까지 그 직을 지켰으며 헌법을 기초한 제헌의회의 의원이기도 했다. 참고 자료들은 그가 주지사로서 정치적 반대자들을 한자리에 모으고 언어 문제 같은 사안에서 다수파를 자제시키려 애썼다고 전한다.",
+  "sarojini-naidu.moment.1":
+    "1930년 5월 21일 다라사나 소금 공장에서 유나이티드프레스 특파원 웹 밀러는 나이두가 2,500명의 자원자가 참여한 소금 공장 습격을 연설로 열었다고 보도했다('간디의 몸은 감옥에 있지만 그의 영혼은 여러분과 함께 갑니다'). 경찰이 곤봉을 휘두르며 돌진해도 자원자들이 저항하지 않는 가운데 그는 최전선 가까이에서 상황을 지휘하다 영국 관리에게 체포되었고, 밀러는 부상자를 260명으로 집계했다.",
+  "sarojini-naidu.interpretation.moment.1":
+    "특파원의 기록은 그를 칭송하는 이들과는 무관한 독립적 증언으로, 군중을 움직이는 힘과 대치 상황에 머무는 태도와 어울린다. 다만 하루의 일을 다룰 뿐이고, 그 대치는 규율 있는 비폭력 방식이었다.",
+  "sarojini-naidu.moment.2":
+    "1893년 열네 살의 나이두는 이미 장시를 출판했고, 영국 유학 시절에는 초기 시를 비평가 에드먼드 고스와 아서 시먼스에게 보였다. 고스는 그 시가 솜씨는 좋지만 감성이 서구적이라고 평하며 자신의 고향 지방의 산과 정원과 사원을 배경으로 쓰라고 조언했다. 참고 전기들은 그가 이 조언을 따랐다고 전하며, 『황금의 문턱』(1905)의 시들이 그 결과이다.",
+  "sarojini-naidu.interpretation.moment.2":
+    "비평가의 조언을 받아들여 글의 소재를 바꾼 일은 작업 방식에서 어느 정도의 적응력과 어울린다. 다만 그가 어떻게 반응했는지는 같은 전기 작가들에 기댄 세 참고 항목에만 기록되어 있다.",
+  "sarojini-naidu.turning_point.1":
+    "1914년 런던에서 간디를 만나고 1917년 『부러진 날개』를 낸 뒤 나이두는 이렇다 할 시를 거의 쓰지 않고 공적 활동으로 옮겨 갔다. 그는 여성의 권리와 힌두·이슬람 화합을 위해 강연했고, 1917년 여성 참정권 대표단에 참여했으며, 1920년대부터 국민회의에서 중심 역할을 맡아 1925년에는 의장이 되었다.",
+  "sarojini-naidu.interpretation.turning_point.1":
+    "시에서 정치로의 전환은 공적 사안을 위해 일하려는 동기와 어울리지만, 자료는 그 변화만 기록할 뿐 그 이유는 밝히지 않는다.",
+  "simone-veil.achievement.1":
+    "보건부 장관이던 베유는 프랑스에서 임신중절을 합법화하는 법안을 제출했다. 이 법안은 1974년 11월 26일부터 28일까지 국민의회에서 논의되어 주로 야당의 지지로 찬성 284표, 반대 189표로 통과되었고, 1975년 1월에 5년 시한으로 공포되었다가 1979년에 영구 법이 되었다. 흔히 '베유 법'으로 불리는 이 법은 의료·사회 상담과 숙고 기간을 거친 뒤 임신 첫 10주 동안 중절 여부를 여성이 결정하도록 했다.",
+  "simone-veil.achievement.2":
+    "1979년 베유는 정부를 떠나 최초의 유럽의회 직접선거에서 중도 명부를 이끌었고, 1979년 7월 17일 2차 투표에서 과반수를 얻어 여성으로서는 처음으로 유럽의회 의장에 선출되었다. 그는 1982년까지 의장을 맡아, 유권자의 위임을 받게 된 의회가 의사규칙과 운영 방식을 새로 맞추어 가야 했던 초기 몇 해를 이끌었으며, 1993년까지 의원으로 남았다.",
+  "simone-veil.achievement.3":
+    "정계에 들어서기 전 베유는 1956년 판사·검사직에 들어가 법무부에서 일하며 여러 법무부 장관의 자문 역할을 했다. 그는 입양, 성인 장애인, 친권에 관한 법 개혁에 참여했고, 1969년에는 입양의 의학적·심리적·사회적 측면을 다룬 책을 공동 집필했으며, 1970년에는 여성으로서 처음으로 사법관 최고회의 사무총장이 되었다.",
+  "simone-veil.moment.1":
+    "1974년 11월 26일 베유는 여성 9명과 남성 481명으로 이루어진 국민의회에서 한 시간 동안 연설하며 낙태법 논의의 문을 열었고, 어떤 여성도 가볍게 낙태를 택하지 않는다고 말했다. 이후 며칠 동안 그가 속한 여당 의원들을 포함한 의원들이 이 법안을 나치의 범죄에 견주었다(국민의회 자체 기록에 인용되어 있다). 그는 의사당에서 이런 비교에 답했고, 법안은 중절 관련 조항이 수정되지 않은 채 통과되었다.",
+  "simone-veil.interpretation.moment.1":
+    "이 행동은 국민의회 기록과 여러 언론에 남아 있으며 갈등을 드러내 놓고 견디는 힘이 높았다는 해석과 어울린다. 그 자리에서 그가 어떻게 느꼈는지는 주로 훗날 본인의 인터뷰로만 알려져 있으므로, 이 프로필은 그의 행동을 바탕으로 태도를 읽는다.",
+  "simone-veil.moment.2":
+    "유럽의회 기록보관소에 실린 회고에서 베유는 유럽의회의 1980년 예산이 조약이 정한 상한을 조금 넘었지만, 쟁점이 세계적 기아 퇴치였기 때문에 이를 정식으로 채택된 것으로 선언했다고 말한다. 이에 프랑스 정부는 즉시 유럽사법재판소에 소송을 제기했다.",
+  "simone-veil.interpretation.moment.2":
+    "이 일화는 본인의 회고에 근거하므로, 의장 직책에 대한 자신의 해석에 따라 움직인 사례 하나를 보여 줄 뿐이다. 주도적으로 행동하는 성향과 어울리지만 여기서는 독립적으로 확인되지 않는다.",
+  "simone-veil.turning_point.1":
+    "1974년 5월, 발레리 지스카르 데스탱이 대통령에 당선된 지 일주일 뒤 베유는 자크 시라크 내각의 보건부 장관에 임명되었다. 불과 몇 달 전까지 그는 사법관 최고회의 사무총장이었고, 국회의원도 아니었다. 언론 보도에 따르면 대통령은 낙태법 개정을 이끌 인물로 그를 택했으며, 그는 공직에서 곧바로 국가 정치의 무대로 옮겨 갔다.",
+  "simone-veil.interpretation.turning_point.1":
+    "이 임명은 대통령의 선택이었으므로 그의 야망에 대해서는 많은 것을 말해 주지 않는다. 이전의 입양·사법 개혁 활동은 제도가 작동하는 방식을 바꾸려는 동기와 어울리며, 이 프로필은 그 점을 임명 제안과 함께 읽는다.",
+  "sol-plaatje.achievement.1":
+    "그는 1912년 남아프리카 원주민 민족회의의 초대 사무총장으로 선출되었습니다(1923년 아프리카 민족회의로 개칭). 1913년 원주민 토지법으로 흑인 가족들이 농장에서 쫓겨나기 시작하자 여러 지역을 돌며 그 실상을 기록했고, 1914년 영국 대표단에 합류한 뒤 런던에서 이 법에 반대하는 상세한 호소문인 『남아프리카의 원주민 생활』(1916)을 썼습니다.",
+  "sol-plaatje.achievement.2":
+    "1930년 러브데일 출판사에서 나온 그의 소설 『므후디』는 일반적으로 남아프리카 흑인이 영어로 쓴 최초의 장편소설로 평가됩니다. 바롤롱족과 보어인 이주민이 각자 더 강한 세력에서 벗어나 자유를 얻으려 했던 1830년대의 사건을 다시 풀어낸 이 작품은 여주인공의 이름을 제목으로 삼았습니다. 1920년에 쓰였지만 출판사를 찾는 데 10년이 걸렸습니다.",
+  "sol-plaatje.achievement.3":
+    "1901년 그는 츠와나어와 영어를 함께 싣는 최초의 주간신문 『코란타 에아 베초아나』를 창간했고, 이후 킴벌리에서 『차라 에아 바토』를 편집했습니다. 또한 츠와나어 속담을 모았고, 런던의 음성학자 대니얼 존스와 함께 츠와나어 음성 표기 독본(1916)을 펴냈으며, 『줄리어스 시저』와 『착오 연발』을 비롯한 셰익스피어 희곡을 츠와나어로 옮겼습니다.",
+  "sol-plaatje.moment.1":
+    "윌런의 문헌 연구에 따르면, 플라체는 1920년 런던에서 『므후디』를 탈고한 뒤 18개월 동안 북미에서 출판사를 찾아다녔지만 맥밀런, 하퍼, 스크리브너스, 하코트에서 모두 거절당했습니다. 1922년 앨런 앤드 언윈이 75파운드의 보조금을 내면 출판하겠다고 했으나 그는 이를 마련하지 못했고, 1923년 원고가 출판되지 못한 채 남아프리카로 돌아왔습니다. 1929년 11월 러브데일 출판사에 문의했고, 이 소설은 1930년에 출간되었습니다.",
+  "sol-plaatje.interpretation.moment.1":
+    "이 일화는 대륙과 출판사를 넘나든 10년간의 시도라는 점에서 끈기와 부합합니다. 다만 한 연구자의 문헌 기록이며, 당시 흑인 작가에게 열려 있던 출판 기회가 제한적이었다는 사정도 지연에 반영되어 있습니다.",
+  "sol-plaatje.moment.2":
+    "『남아프리카의 원주민 생활』의 머리말에서 그는 토지법의 영향을 알아보던 자신의 조사가 1913년 9월 레이디 브랜드에서 자금이 바닥났고, 한 친구가 그를 모로카 지구까지 데려다주었다고 적었습니다. 11월에는 회의 자금이 또 한 명의 조사자를 보낼 여유가 없자, 친구가 비용 일부를 대겠다고 한 데 힘입어 6주 동안 케이프 지방을 돌았다고 합니다.",
+  "sol-plaatje.interpretation.moment.2":
+    "조직이 비용을 댈 수 없을 때 스스로 기록 작업을 이어 갔다는 점에서 주도적 행동과 부합합니다. 다만 이 내용은 설득을 위해 쓴 호소문에 담긴 본인의 서술이며, 파슨스의 서문이 일부를 뒷받침합니다.",
+  "sol-plaatje.turning_point.1":
+    "토지법에 항의하기 위한 1914년의 영국 대표단은 제1차 세계대전 발발로 중단되었고 성과가 거의 없었습니다. 다른 대표들은 귀국했지만 플라체는 1917년 2월까지 영국에 머물며 런던 대학에서 일하고 강연하고 글을 썼고, 1916년에 『남아프리카의 원주민 생활』과 속담집, 그리고 대니얼 존스와 함께한 츠와나어 독본을 펴냈습니다. 반 데르 발트는 그가 자비로 머물렀다고 전합니다.",
+  "sol-plaatje.interpretation.turning_point.1":
+    "대표단 활동에서 집필과 강연으로 방식을 바꾸면서도 목표는 유지했다는 점에서 방법상의 적응력과 부합합니다. 이후 그가 정치에서 얼마나 물러났는지는 자료마다 달라서 이 해석은 잠정적입니다.",
+  "sugita-genpaku.achievement.1":
+    "스기타는 마에노 료타쿠, 나카가와 준안, 가쓰라가와 호슈와 함께 1771년 고즈카하라 형장에서 해부를 본 뒤, 쿨무스의 해부도를 네덜란드어판으로 옮겨 일본어 『해체신서』(1774)로 펴냈습니다. 이 책은 에도에서 나온 서양 의학서의 첫 본격 번역이자 일본 난학(네덜란드 학문)의 출발점으로 평가됩니다. 번역을 이끈 사람은 마에노였고, 사전 자료들은 스기타를 이 책을 출판으로 이끈 추진력으로 꼽습니다.",
+  "sugita-genpaku.achievement.2":
+    "스기타는 사설 학당 덴신로와 정기 연구 모임을 운영하며 오쓰키 겐타쿠, 우다가와 겐신 등 많은 제자를 길렀고, 자신이 모은 네덜란드 책도 제자들이 쓰도록 빌려 주었습니다. 그의 명으로 오쓰키가 『해체신서』를 고쳐 쓴 개정판은 1798년에 완성되어 1826년에 간행되었습니다. 아들 릿케이와 손자 세이케이도 의사 겸 번역가가 되었습니다.",
+  "sugita-genpaku.achievement.3":
+    "1815년 여든을 넘긴 스기타는 난학의 초창기와 『해체신서』를 번역하고 펴내는 과정의 어려움을 적은 회고록 『난학사시(蘭學事始)』를 완성했습니다. 이 글은 필사본으로 돌아다니다가 후쿠자와 유키치와 스기타 렌케이의 손으로 1869년에 인쇄되었고, 번역 과정에 대해 알려진 이야기의 상당 부분이 이 책에서 나옵니다.",
+  "sugita-genpaku.moment.1":
+    "1771년 3월 4일 스기타는 마에노 료타쿠, 나카가와 준안과 함께 고즈카하라 형장에서 시신 해부를 지켜보며 눈앞의 장기를 네덜란드 해부서의 그림과 견주어 보았습니다. 스기타 자신의 훗날 회고를 대중 역사 블로그가 옮긴 바에 따르면, 그는 사람 몸의 구조도 모르고 있었던 것이 부끄러웠다고 했고, 세 사람은 그 책을 번역하기로 뜻을 모았습니다.",
+  "sugita-genpaku.interpretation.moment.1":
+    "네덜란드 해부도가 실제 몸과 맞는 것을 보고 긴 번역 작업에 나선 것은, 직접 관찰이 다른 답을 줄 때 물려받은 생각을 고칠 준비가 되어 있었다는 점과 부합합니다. 그의 반응에 관한 이야기는 본인의 회고를 간접적으로 전한 것입니다.",
+  "sugita-genpaku.moment.2":
+    "전체 책이 나오기 한 해 전인 1773년 1월, 다섯 장짜리 견본 『해체약도』가 먼저 나왔습니다. 스기타의 회고록을 블로그가 옮긴 내용에 따르면 여기에는 오바마번 사람의 이름만 올려, 규슈 출신인 마에노 료타쿠가 혹시 모를 문제에 휘말리지 않게 했다고 합니다. 일본 국립국회도서관은 일행 중 네덜란드어를 가장 잘한 마에노가 번역자로 이름을 올리는 것 자체를 거절했다고 전합니다.",
+  "sugita-genpaku.interpretation.moment.2":
+    "본책에 앞서 견본을 내고 동료를 보호하려 한 것은, 위험할 수 있는 새 책을 당국 앞에 단계적으로 조심스럽게 내놓는 방식과 부합합니다. 보호하려는 동기는 스기타 자신의 설명에서 나온 것입니다.",
+  "sugita-genpaku.turning_point.1":
+    "1774년 『해체신서』가 나와 거의 곧바로 다 팔리면서, 번의 의사였던 스기타는 점점 커지는 난학자 모임의 중심이 되었습니다. 이후 수십 년 동안 그는 진료를 계속하면서 덴신로를 운영하고, 네덜란드 책을 모으고, 의학과 정치, 사회에 관한 글을 쓰다가 1817년에 세상을 떠났습니다.",
+  "sugita-genpaku.interpretation.turning_point.1":
+    "1774년 이후의 행보는 이 책을 한 번의 업적으로 끝내지 않고 새 학문을 널리 퍼뜨리려는 꾸준한 헌신과 부합합니다. 참고한 사전 항목들은 호의적이며, 그의 이유보다는 활동을 서술합니다.",
+  "vikram-sarabhai.achievement.1":
+    "사라바이는 인도 우주 프로그램의 아버지로 불립니다. 1962년 인도 국가우주연구위원회(훗날 인도우주연구기구, ISRO)와 케랄라의 툼바 적도 로켓 발사장을 세웠고, 1963년 11월 21일 이곳에서 인도 최초의 관측 로켓이 발사되었습니다. 그는 우주 기술이 발전에 쓰여야 한다고 보았고, 위성으로 마을에 교육을 전하는 구상도 내놓았습니다.",
+  "vikram-sarabhai.achievement.2":
+    "1947년 28세의 사라바이는 가족과 친지가 관리하던 재단의 기금으로 아메다바드에 물리연구소(PRL)를 세웠습니다. 1966년 호미 바바가 세상을 떠난 뒤에는 인도 원자력위원회와 원자력부를 이끌었고, 인도의 원자력 발전 사업을 키운 인물로 평가됩니다.",
+  "vikram-sarabhai.achievement.3":
+    "사라바이는 물리학 밖에서도 여러 기관을 세우거나 함께 세웠습니다. 1947년 아메다바드 섬유산업연구협회, 1960년대 초 다른 지역 기업인들과 함께한 인도경영대학원 아메다바드 캠퍼스, 지역사회 과학센터, 아내와 함께 만든 다르판 공연예술학원이 그 예입니다. 1969년 9월에는 미국 항공우주국(NASA) 국장과 위성으로 마을에 교육 방송을 보내는 실험 협정에 서명했으며, 이 실험은 그가 세상을 떠난 뒤인 1975~76년에 이루어졌습니다.",
+  "vikram-sarabhai.moment.1":
+    "1962년 사라바이는 지구 자기 적도 부근의 발사 부지를 찾고 있었고, 칼람의 훗날 회고에 따르면 정치인과 관료를 만났지만 툼바의 땅을 얻지 못했습니다. 그는 트리밴드룸 주교를 찾아가게 되었고, 주교는 다음 날 다시 오라고 한 뒤 일요일 예배에서 신자들에게 과학 사업을 위해 성당과 주교관을 내놓을 수 있겠느냐고 물었으며 신자들은 '아멘'으로 답했습니다. 성당은 젊은 로켓 팀의 설계 센터가, 주교관은 그들의 숙소가 되었습니다.",
+  "vikram-sarabhai.interpretation.moment.1":
+    "관료들이 내주지 않던 부지를 얻어 낸 일은 뜻밖의 협력자를 설득해 끌어들이는 능력과 부합합니다. 다만 이 이야기는 40년쯤 뒤의 칼람의 회고이고, 신자들에게 호소해 결정을 이끈 사람은 주교였습니다.",
+  "vikram-sarabhai.moment.2":
+    "1966년 10월 16일 전인도라디오 강연에서 사라바이는 우주 연구가 개발도상국이 '단숨에 도약(leap-frog)'하도록 도와야 한다고 말했고, 인도의 당면한 우주 목표는 소박하며 사람을 달에 보내는 일은 포함하지 않는다고 했습니다. 그가 원자력부를 맡은 지 몇 달 뒤였고, 이 말은 그의 가장 유명한 발언이 되었습니다. 2025년 연구가 인용하는 역사학자들은 그의 개발관이 기술 관료적이고 엘리트적이며 농촌 주민에게 돌아간 이익은 크지 않았다고 평가합니다.",
+  "vikram-sarabhai.interpretation.moment.2":
+    "우주 사업을 위신이 아닌 발전에 맞추어 설명한 것은 공공의 이익을 향한 동기와 부합합니다. 그 사업이 실제로 이를 이루었는지는 별개이며 논란이 있는 문제입니다.",
+  "vikram-sarabhai.turning_point.1":
+    "1966년 1월 호미 바바가 비행기 사고로 숨진 뒤, 사라바이는 그해 6월 인도 원자력부와 원자력위원회의 수장에 임명되었습니다. 연구소와 우주 위원회를 세운 사람이 이제 원자력 체제 전체를 이끌게 되었고 우주 연구도 그 아래에 놓였으며, 그는 평화적이고 발전을 지향하는 우주 프로그램을 공개적으로 이야기하기 시작했습니다.",
+  "vikram-sarabhai.interpretation.turning_point.1":
+    "이 임명은 예기치 못한 죽음 뒤에 정부가 내린 결정이므로 그 자체가 어떤 성향을 보여 주기보다는 역할과 무대가 바뀐 것을 보여 줍니다. 그가 이 자리를 활용한 방식은 큰 기관을 이끄는 일에 대한 관심과 부합합니다.",
+  "williamina-fleming.achievement.1":
+    "1886년 그녀는 프리즘을 통해 하버드에서 찍은 별의 스펙트럼을 측정하고 분류하는 헨리 드레이퍼 기념 사업을 맡았다. 1890년에 나온 『드레이퍼 항성 스펙트럼 목록』은 애니 점프 캐넌의 추모문에 따르면 별 10,351개를 분류했고 글자로 표기하는 피커링-플레밍 체계를 도입했으며, 에드워드 C. 피커링은 이 목록에서 그녀가 작업 대부분을 해냈다고 밝혔다. 캐넌은 훗날 그녀의 분류를 재편해 오늘날 천문학자들이 쓰는 순서를 만들었다.",
+  "williamina-fleming.achievement.2":
+    "그녀는 확대경으로 사진판을 훑으며 스펙트럼에 밝은 방출선이 있는 붉은 별이 변광성이라는 사실을 알아냈고, 이 단서로 300개가 넘는 변광성과 신성 10개를 찾아냈다. 1907년의 연구는 그 가운데 222개를 기술했다. 하버드 천문대와 작가 다바 소벨은 또 그녀가 1888년의 사진판에서 오리온자리의 말머리성운의 모양을 가려낸 것으로 보며, 이는 그녀가 찾은 약 50개의 기체 성운 가운데 하나다(자료에 따라 52개 또는 59개).",
+  "williamina-fleming.achievement.3":
+    "1898년 그녀는 하버드 운영 이사회가 공식 임명한 최초의 여성으로 천체 사진 관리자가 되었고, 케임브리지와 페루에서 찍은 사진판 20만 장 가까이를 검토하고 목록화하는 대부분 여성인 직원들을 감독했다. 그녀는 애니 점프 캐넌과 안토니아 모리 같은 조수를 채용했고 천문대 간행물의 편집도 맡았으나, 피커링은 훗날 사무 업무가 그녀의 연구 시간을 잠식했다고 인정했다.",
+  "williamina-fleming.moment.1":
+    "애니 점프 캐넌의 1911년 추모문에 따르면 플레밍은 케임브리지와 페루 아레키파의 하버드 관측소에서 찍은 스펙트럼 사진판을 모두 확대경으로 살펴보고 스펙트럼이 이상해 보이는 천체마다 표시했다. 일부 스펙트럼에서 발견한 밝은 선을 단서로 그녀는 새로운 별 10개와 300개가 넘는 변광성을 찾아냈다.",
+  "williamina-fleming.interpretation.moment.1":
+    "이 일화는 이 프로필에 나타난 꼼꼼하고 체계적인 사진판 작업의 증거와 어울리지만, 추모문은 그녀가 그 일과 속에서 내린 선택이 아니라 일과 자체를 묘사한다.",
+  "williamina-fleming.moment.2":
+    "1893년 그녀는 시카고 세계박람회와 함께 열린 천문학·천체물리학 회의에서 '천문학에서 여성 일의 영역'을 주제로 발표했다. 샤퍼에 따르면 그녀는 피커링이 여성을 채용한 점을 칭찬하고 다른 천문대 책임자들에게도 그렇게 하도록 촉구했으며, 여성의 인내와 끈기와 방법이 여성을 이 학문에서 남성과 동등하게 만들 수 있다고 주장했다.",
+  "williamina-fleming.interpretation.moment.2":
+    "이 일화는 스스로 나서서 행동하는 면에서 이 프로필이 받은 중간 정도의 점수를 보여 주는 한 예로 읽을 수 있지만, 연설은 고용주를 칭찬하는 내용이었고 자료는 반응이 어땠는지 전하지 않는다.",
+  "williamina-fleming.turning_point.1":
+    "1898년(1899년이라는 자료도 있다) 하버드는 그녀를 천체 사진 관리자로 임명했고, 이는 피커링이 그녀를 위해 마련한 직책이었다. 이 일로 그녀는 여성 팀을 채용·감독하고 모든 사진판을 점검하는 책임을 지게 되었으며, 피커링은 훗날 행정 업무가 그녀의 연구 시간을 심각하게 잠식했다고 인정했다. 1900년 하버드의 역사 기록 사업을 위해 쓴 일기에서 그녀는 과학 업무를 더 맡고 행정은 덜 맡고 싶다고 적었다.",
+  "williamina-fleming.interpretation.turning_point.1":
+    "이 프로필의 리더십 점수와 어울리는 한 가지 해석은, 이 임명이 그녀를 발견 작업에서 행정으로 옮겨 놓았고 그녀 스스로 이를 답답하게 여긴 것으로 전해진다는 것이다. 다만 일기는 그녀 자신의 진술이고, 자료는 그런 심정이 얼마나 자주 있었는지는 보여 주지 않는다.",
+  "wis-awa-szymborska.achievement.1":
+    "심보르스카는 평생 약 350편의 시를 발표했다. 1957년의 시집에서 사후 출간된 『충분하다』(Enough, 2012)에 이르기까지이며, 1996년 노벨 문학상을 받았다. 스웨덴 한림원은 그를 보기 드문 순수함과 강인함을 지닌 시적 세계관의 대표로 기렸다. 그의 시집으로는 『소금』(1962), 『다리 위의 사람들』(1986), 『끝과 시작』(1993) 등이 있으며, 시는 여러 언어로 번역되었다.",
+  "wis-awa-szymborska.achievement.2":
+    "심보르스카는 1950년대 초의 첫 두 시집(이후 선집에서 뺐다) 이후, 전쟁, 역사, 죽음, 사랑을 구체적인 일상의 장면과 익살스러운 반전으로 다루는 아이러니하고 평이한 어법의 시를 발전시켰다. 「끝과 시작」, 「빈 아파트의 고양이」(Cat in an Empty Apartment), 「히틀러의 첫 사진」(Hitler's First Photograph) 같은 시가 이를 보여 준다. 비평가 찰스 시믹은 그의 시를 시의 설명문에 비유했고, 컬처닷피엘은 구어체와 역설, 절제된 서정의 언어라고 설명한다.",
+  "wis-awa-szymborska.achievement.3":
+    "심보르스카는 시와 함께 크라쿠프의 주간지 『지치 리테라츠키에』에서 시 부문 편집자이자 칼럼니스트로 일했으며, 1953년부터 1981년까지 책에 관한 짧은 산문을 연재했다. 이 글들은 훗날 『비필독 독서』(Nonrequired Reading)로 묶였다. 또 오랫동안 이 신문의 '문학 우편함' 코너에서 글쓰기 지망생들에게 익명으로 답했고, 그 답변은 영어로 『글쓰기를 시작하는 법(그리고 그만두는 때)』으로 엮였다.",
+  "wis-awa-szymborska.moment.1":
+    "1996년 노벨상 이후 그의 전화는 밤낮없이 울렸다. 3개월만 일하기로 했다가 15년을 머문 비서 미하우 루시네크의 이야기에 따르면, 그는 면접 자리에서 가위로 전화선을 끊었고 심보르스카는 곧바로 채용을 결정했다. 이후 그는 자동응답기를 설치하고 팩스를 작가협회 사무실로 돌렸으며 초대에 대한 정중한 거절 편지를 썼다. 친구들은 이 상을 '스톡홀름의 비극'이라 불렀고, 심보르스카는 '유명 인사'가 아니라 보통 사람이고 싶다고 말했다.",
+  "wis-awa-szymborska.interpretation.moment.1":
+    "이 일화는 조용함과 글 쓸 시간을 지키려는 강한 욕구와 일치하지만, 대응의 일부는 수상 뒤 쏟아진 요청의 양을 반영하며 이야기는 비서의 전언에 의존한다.",
+  "wis-awa-szymborska.moment.2":
+    "그의 번역가 클레어 커버노는 심보르스카가 마지막 시집 『충분하다』의 시들을 비서를 통해 국제 번역가 팀에 보낸 뒤, 곧 시 한 편을 폐기하고 수정본으로 바꾸라는 엄격한 지시를 보냈다고 회상한다. 최종본은 이미 '끝에서 두 번째 원고'가 된 초고와 공존할 수 없다는 이유였다. 커버노는 그 초고를 읽지 않고 지웠다고 한다. 한 번역가가 기억하는 한 사례다.",
+  "wis-awa-szymborska.interpretation.moment.2":
+    "이는 퇴고에 대한 완벽주의적 태도와 일치하며, 쓴 글의 대부분을 버렸다는 친구의 전언과 맥을 같이하지만 이 수치는 사료로 확인되지 않는다.",
+  "wis-awa-szymborska.turning_point.1":
+    "심보르스카의 첫 두 시집 『그래서 우리는 산다』(1952)와 『자신에게 던지는 질문』(1954)은 당시 정치적 시대가 요구한 양식으로 쓰였고, 그는 이후 선집에 이 시들을 싣지 않았다. 1957년의 시집에서 그는 참여시에서 벗어나 철학적 거리와 교의에 대한 의심으로 옮겨 갔다. 초기 시에 대해 질문받자 그는 자신이 젊고 순진해서 상황을 제대로 판단하지 못했다고 답했다.",
+  "wis-awa-szymborska.interpretation.turning_point.1":
+    "이 전환은 자신의 입장을 고치려는 태도와 일치한다. 그의 설명은 본인의 해명일 뿐이며, 변화가 어떻게 일어났는지는 사료가 밝히지 않는다.",
+  "yosa-buson.achievement.1":
+    "그는 에도 중기 하이카이 부흥을 이끈 중심 인물이었다. 일본의 사전류는 그가 당대 하이카이의 독창성 부족을 비판하며 바쇼의 시풍으로 돌아갈 것을 주창했다고 설명하며, 1770년에는 스승의 야한테이(夜半亭)를 이어받아 종장이 되었다. 그의 문하에서는 1772년, 1773년, 1776년에 선집이 간행되었고, 전하는 홋쿠만 2,800수가 넘는다. 교도통신의 용어 해설은 훗날 마사오카 시키의 하이쿠 혁신이 그에게서 큰 영향을 받았다고 적는다.",
+  "yosa-buson.achievement.2":
+    "그는 이케 노 타이가와 함께 일본 문인화(남화)를 완성한 대가로 꼽힌다. 알려진 스승 없이 사찰과 신사에 전하는 작품과 중국 화보를 보며 독학했고, 1771년에는 타이가와 함께 『십편십의도(十便十宜図)』 화첩을 만들었다. 타이가는 열 가지 편리함을, 부손은 열 가지 즐거움을 그렸으며, 이 화첩은 국보이다.",
+  "yosa-buson.achievement.3":
+    "그는 하이쿠와 그림을 결합한 하이가(俳画)를 하나의 예술 양식으로 확립했다. 교토국립박물관은 짧고 재치 있는 그의 하이가 소묘를 가장 독특한 작품들로 꼽는다. 1779년에 그린 바쇼의 『오쿠노호소미치』 여섯 폭 병풍은 원문 전체를 담은 유일한 현존 병풍으로 소개된다.",
+  "yosa-buson.moment.1":
+    "1777년 그는 하이쿠, 한시풍의 시, 한문 투의 산문을 섞은 18장 구성의 연작 「춘풍마제곡(春風馬堤曲)」을 지었다. 하녀가 고향의 어머니를 찾아가는 향수를 그린 작품이다. nippon.com의 해설에 따르면 그는 이런 실험을 가까운 모임에서만 공개했다.",
+  "yosa-buson.interpretation.moment.1":
+    "이 일화는 형식의 관습을 넘어서 보려는 태도와, 그 실험을 가까운 사람들 사이에 두는 신중함이 함께 나타나는 프로필과 부합한다.",
+  "yosa-buson.moment.2":
+    "1776년 그의 모임은 교토 곤푸쿠지에 있던 바쇼의 암자를 다시 세웠다. 이 일은 친구 히구치 도류가 제안한 것으로 전해지며, 부손은 훗날 바쇼 가까이에 묻히기를 원해 이곳에 잠들었다.",
+  "yosa-buson.interpretation.moment.2":
+    "이 복원은 『십편십의도』 공동 작업이나 그가 이끈 시 모임과 함께, 사람들의 모임을 통해 움직이는 그의 모습을 보여 주는 한 예이다.",
+  "yosa-buson.turning_point.1":
+    "1742년 스승 하야노 하진이 세상을 떠난 뒤 약 10년을 떠돌던 그는 1751년, 서른다섯 살 무렵에 교토에 정착했다. 당시에는 시인으로도 화가로도 거의 알려지지 않았다. 그는 이곳에서 약 10년 동안 주로 그림에 힘썼고, 1766년에 하이카이 모임을 만들었으며, 1770년에는 스승의 문파를 이어받아 종장이 되었다.",
+  "yosa-buson.interpretation.turning_point.1":
+    "이 흐름은 이른 성공이 아니라 인생 후반에 걸쳐 기량과 위상이 천천히 쌓여 간 프로필과 부합한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yosa-buson",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yosa Buson",
+    "aliases": [
+      "Buson",
+      "Taniguchi Buson",
+      "与謝蕪村"
+    ],
+    "wikidataId": "Q31523",
+    "birthYear": 1716,
+    "deathYear": 1784,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.tokugawa_shogunate"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "painter"
+    ],
+    "fieldIds": [
+      "literature",
+      "art"
+    ],
+    "impactDomains": [
+      "literary",
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_buson_wikidata",
+      "kind": "wikidata",
+      "title": "Yosa Buson (Q31523), verified live via the Wikidata API (2026-11-18): labels Yosa Buson, 与謝蕪村 and 요사 부손, English description 'poet and painter from Japan (1716-1784)', born 1716, died 17 January 1784 (Gregorian), citizen of Japan, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q31523"
+    },
+    {
+      "id": "src_buson_kotobank",
+      "kind": "biography",
+      "title": "Kotobank (reference-work aggregator), entry '与謝蕪村', which displays seven Japanese reference entries (read in Japanese): Digital Daijisen (Shogakukan), the Kyodo News glossary, Nihon Kokugo Daijiten (selected edition), Britannica International Encyclopedia (concise edition), Kodansha's Nihon Jinmei Daijiten Plus, Obunsha's Japanese history dictionary and the older Heibonsha World Encyclopedia. CANONICAL SIGNIFICANCE SOURCE: a mid-Edo haiku poet and painter, a central figure of the mid-period haikai revival who criticised the lack of originality in the haikai of his day and called for a return to the style of Basho; succeeded to the Yahantei school in 1770 and published the Akegarasu anthology in 1773; with Ike no Taiga a master of literati (nanga) painting, known for the joint Juben Jugi album; credited with establishing haiga (haiku combined with painting); wrote the new-style sequence Shunpu Batei Kyoku; Masaoka Shiki's haiku reform was greatly influenced by him. Also records that he lost his parents and family property, went to Edo at about 17 or 18, travelled for about ten years after his teacher Hayano Hajin died in 1742, took the name Buson in 1744 and moved to Kyoto in 1751, painting for about ten years. The entries disagree on the death year (1783 or 1784, a lunar-calendar effect). Reference-work consensus; entries share one standard biography.",
+      "url": "https://kotobank.jp/word/%E4%B8%8E%E8%AC%9D%E8%95%AA%E6%9D%91-22116"
+    },
+    {
+      "id": "src_buson_nippon",
+      "kind": "biography",
+      "title": "nippon.com, 'Yosa Buson', in the series 'Shapers of Japanese History' (essay read in full). Born in 1716 near Osaka; went to Edo at about 20 to study haikai under Hayano Hajin; wandered after Hajin's death in 1742; moved to Kyoto in 1751 with no known painting teacher and taught himself from works at temples and shrines and from Chinese painting manuals; formed a Kyoto haikai association in 1766; took the Yahantei name and became a master in 1770; his school's anthologies (1772, 1773, 1776) were edited by his disciple Kito while he mainly guided; collaborated with his rival Ike no Taiga on Juben Jugi Zu (1771); in Rizokuron argued that poets should purge vulgarity from the heart and shape their style to their own taste; made haiga and illustrated Basho's Oku no Hosomichi; wrote the mixed-form sequence Shunpu Batei Kyoku (1777) and shared such experiments only with close circles; restored the Basho hut at Konpukuji, where he is buried. Single-author essay on a Japanese government-backed site; admiring and without direct criticism, though it notes his late start as a master and his priority for painting.",
+      "url": "https://www.nippon.com/en/japan-topics/b07229/"
+    },
+    {
+      "id": "src_buson_miho",
+      "kind": "press",
+      "title": "Asian Art Newspaper, 'Yosa Buson: On the Wings of Art' (review of the Miho Museum retrospective of about 150 objects, read in full). Largely self-taught painter who began painting around age 40; studied Chinese literati painting from technical manuals brought by Shen Nanpin and copied Ming masters (Shen Zhou, Wen Zhengming); the Kyoto folding-screen association commissioned works from 1763; listed in the 1768 Who's Who of Kyoto artists; the 1771 Juben Jugi with Ike no Taiga is a National Treasure; the 1779 six-panel screen of Basho's Oku no Hosomichi is described as the only extant screen of the complete text; friendships with the poets Tan Taigi and Kato Kyotai. The reviewer says he is often called Basho's heir apparent, that his reading of Basho showed startling originality and that his 1782 Landscape is perhaps his finest work. Exhibition review: admiring in tone; it does not say who his students were.",
+      "url": "https://asianartnewspaper.com/yosa-buson/"
+    },
+    {
+      "id": "src_buson_terebess",
+      "kind": "biography",
+      "title": "Terebess Asia Online, 'Buson' compilation page (read): reproduces the Britannica entry, a chronology and a biographical note by Bruce Darling, and quotes critics (Cheryl Crowley, Shoji Kumano, Anita Virgil, Harold Henderson, Calvin French). Gives the dates and disputes among them (Edo apprenticeship 1732 or 1737, Kyoto 1751 or the late 1750s, marriage 1760 or about 1766, death 25 December 1783 or 17 January 1784); the 1770 succession to Yahantei; the 1771 Juben Jugi with Ike no Taiga; the first group publication of 1772 and the 1776 rebuilding of the Basho hut at Konpukuji; the pupils Matsumura Goshun and Tan Taigi; Britannica's statement that he sought to revive Basho's tradition but never reached Basho's humanistic depth and his own advice to 'use the colloquial language to transcend colloquialism'; Darling's count that 113 of the 124 haiga catalogued in the collected works date from his last decade; Crowley's count of over 2,800 surviving hokku. Compilation of scholarly voices, with the compiler's own selection.",
+      "url": "https://terebess.hu/english/haiku/buson.html"
+    },
+    {
+      "id": "src_buson_kyotojournal",
+      "kind": "press",
+      "title": "Kyoto Journal, Edward McFadden, 'Yosa Buson: Haiku Master' (essay read). Born in Kema, apprenticed in Edo at about 21, about ten years of travel after his master's death in 1742 during which he took the name Buson; wrote many haiku honouring Basho and helped restore Basho's hermitage at Konpukuji, a project proposed by his friend Higuchi Doryu; says Buson and Basho treated painting and poetry as two forms of one ideal and that no translation fully captures him. Essayist's appreciation, not a critical biography.",
+      "url": "https://kyotojournal.org/?p=6573"
+    },
+    {
+      "id": "src_buson_kyohaku",
+      "kind": "institution",
+      "title": "Kyoto National Museum, '300th Anniversary Feature Exhibition: Yosa Buson' (English exhibition page, 23 August to 2 October 2016; read). Says he settled in Kyoto after the age of 35 following a long journey on foot through the northern provinces, had full command of Ming and Qing Chinese painting styles, and that some of his most distinctive works are short, witty haiga sketches; names the Narrow Road through the Provinces handscroll (Important Cultural Property). Short museum page; promotional.",
+      "url": "https://www.kyohaku.go.jp/old/eng/project/2016_buson.html"
+    },
+    {
+      "id": "src_buson_haikuoz",
+      "kind": "biography",
+      "title": "Haiku Oz, 'Yosa Buson' (web biography compiled from published sources; read). Used only as corroboration: his parents separated in his boyhood, his mother died and his father died when he was about thirteen; he was self-taught as a painter and studied Chinese literature and art; after his teacher's death he travelled about ten years retracing Basho's route and lived by teaching haiku and staying in temples; settled in Kyoto at 37 when barely known; married in 1760; published a haiku diary in 1777 whose preface says the essence of haiku is to use ordinary words yet become separate from the ordinary; Shiki reportedly judged him the greater poet because he was more objective. Hobbyist compilation; no row rests on it alone.",
+      "url": "https://haikuoz.org/2007/04/yosa_buson_buson.html"
+    },
+    {
+      "id": "src_buson_bunka",
+      "kind": "institution",
+      "title": "Agency for Cultural Affairs, Bunka Isan Online record 'Yosa Buson Zo' (Portrait of Yosa Buson) by Goshun (Matsumura Gekkei), hanging scroll 92.4 x 32.1 cm, Kyoto National Museum (page read in Japanese). Says Goshun, a devoted pupil in haiku and painting who was among those at Buson's deathbed, painted it just before or just after Buson died, that it shows the hollow cheeks of his illness, and records the inscription 'drawn in reverence at Yahantei by Gekkei' with Goshun's seal. Used for the portrait; not used as support for any trait row.",
+      "url": "https://online.bunka.go.jp/heritages/detail/582980"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_buson_nippon, src_buson_kotobank, src_buson_miho | 1774-1777 | essay, reference entries, exhibition review] The nippon.com essay records that in 1774 he illustrated his followers' haiku with scenes that did not directly match their meaning (a scene from the Rashomon noh play for a disciple's verse) and that in 1777 he wrote Shunpu Batei Kyoku, an 18-section sequence mixing haiku, Chinese-style verse and Sino-Japanese prose; the Daijisen entry independently names the same sequence as a new-style poem and the exhibition reviewer speaks of startling originality in his reading of Basho. Both concrete instances come from one essay, while the evaluative language is the reviewer's, so the score stays in the mid-60s. SELF-CALIBRATION (agent): lowered from 72 / 0.55 to 66 / 0.50 because the two instances and the 'newness' framing rest mainly on one essay and one admiring review."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_buson_kotobank, src_buson_nippon, src_buson_terebess, src_buson_kyohaku | 1745-1782 | reference entries, essay, scholarly compilation, museum page] He worked in haikai verse, literati painting and haiga, wrote a Chinese-style mourning poem in 1745 and a sequence mixing haiku, Chinese verse and prose in 1777 (reference entries, essay); the older Heibonsha entry adds that he heard lectures by the Confucian scholar Hattori Nankaku, and the museum notes full command of Ming and Qing painting styles. Most of this range lies inside the literati arts of poetry and painting, so the score is moderate."
+    },
+    "aesthetic_sensitivity": {
+      "score": 68,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_buson_terebess, src_buson_kotobank | 1750s-1780s | scholarly compilation, reference entries] The Britannica entry reproduced by Terebess calls his poetry ornate, sensuous and rich in visual detail, and the Daijisen and Nihon Kokugo Daijiten entries describe it as romantic, painterly and aesthetically refined. These are editors' characterisations of the work rather than recorded behaviour, and the dictionary entries share one scholarly consensus, so the row is an inference. SELF-CALIBRATION (agent): lowered from 70 / 0.48 to 68 / 0.45 because the support is one family of reference-work characterisation with no independent behavioural source."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_buson_nippon, src_buson_miho, src_buson_haikuoz | 1751-1770 | essay, exhibition review, web biography] Three sources agree that he had no known painting teacher and was largely self-taught, and the essay says he took from his teacher Hajin the lesson not to be bound by a teacher's methods and extended it to refuse the rules of any one school, arguing in Rizokuron that poets should shape their style to their own taste, time and place. The essay's reading of motive is interpretive and the self-taught claim is repeated rather than independently shown. SELF-CALIBRATION (agent): lowered from 62 / 0.52 (strong inference) to 58 / 0.46 (inference) because the motive rests on one essay's interpretation and the self-taught claim is repeated across sources."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_buson_nippon, src_buson_miho, src_buson_terebess, src_buson_haikuoz | 1751-1784 | essay, exhibition review, scholarly compilation, web biography] With no teacher he studied works at temples and shrines and Chinese painting manuals (essay), copied Ming masters such as Shen Zhou and Wen Zhengming (exhibition review), and kept painting and writing until his death; Darling's count that 113 of 124 catalogued haiga date from his last decade (Terebess) shows late-life output rather than the pace of effort. Three source types agree, but they are descriptions of study and output rather than first-hand accounts of how he practised."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_buson_nippon, src_buson_terebess, src_buson_kyotojournal, src_buson_miho | 1766-1776 | essay, scholarly compilation, essay, exhibition review] He made the Juben Jugi album with Ike no Taiga in 1771, Taiga painting the conveniences and Buson the pleasures; from 1766 he held regular gatherings where members debated each other's poems; his disciple Kito edited the school's anthologies; and in 1776 his circle rebuilt the Basho hut at Konpukuji, a project proposed by his friend Higuchi Doryu. The division of the Juben Jugi work shows joint production but not how they worked together, and the essay calls Taiga his lifelong rival."
+    },
+    "independent_thinking": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_buson_kotobank, src_buson_nippon, src_buson_terebess | 1766-1777 | reference entries, essay, scholarly compilation] The Kyodo News glossary says he criticised the lack of originality in the haikai of his time, the essay says he rejected being restricted by any school's rules, and Britannica (via Terebess) records his advice to use the colloquial language in order to transcend it; his remedy, however, was a return to Basho's tradition, which limits how far this shows a break from received ideas. SELF-CALIBRATION (agent): lowered from 62 / 0.50 (strong inference) to 58 / 0.46 (inference) because the criticism is a one-line glossary summary and the essay's reading, and the stance was a revival of an earlier master rather than a new position."
+    },
+    "leadership_drive": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_buson_nippon, src_buson_kotobank, src_buson_terebess | 1766-1776 | essay, reference entries, scholarly compilation] He formed a haikai association in Kyoto in 1766 and took over his teacher's Yahantei name and a master's role in 1770, and his circle published anthologies and rebuilt the Basho hut. The essay adds that he became a master late and prioritised painting, and that his disciple did the editing while he mainly offered guidance, so the evidence points to a measured leading role rather than a strong drive to lead."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요사 부손"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/yosa-buson-matsumura-goshun-1784.jpg",
+    "width": 360,
+    "height": 500,
+    "source": "Portrait of Yosa Buson (与謝蕪村像), hanging scroll 92.4 x 32.1 cm, painted by his pupil Matsumura Goshun (Go Shun, 1752-1811) just before or just after Buson's death and inscribed 'drawn in reverence at Yahantei by Gekkei' (於夜半亭月溪拝写) with Goshun's seal; Kyoto National Museum (ColBase item A-ko 894; Agency for Cultural Affairs Bunka Isan Online record 582980, read). The file is the Wikimedia Commons crop of the figure and signature (360 x 500), used as is: not resized and not upscaled; its colour rendering is more purple than the holder's 900-pixel photograph on Bunka Isan Online.",
+    "license": "Public domain: painting by Matsumura Goshun (died 1811), so copyright has long expired in Japan and worldwide; Commons tags it PD-Art (PD-old-100). Holder note: Bunka Isan Online asserts no copyright and says only that terms for use of the museum's images should be asked of the holding museum (the ColBase item page could not be rendered), so a reproduction-terms question remains open at the holder",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Matsumura Goshun (Go Shun), Portrait of Yosa Buson, c. 1783-84, hanging scroll, Kyoto National Museum (via Agency for Cultural Affairs Bunka Isan Online and Wikimedia Commons).",
+    "attributionUrl": "https://online.bunka.go.jp/heritages/detail/582980",
+    "creator": "Matsumura Goshun (Go Shun), pupil of the sitter",
+    "date": "c. 1784 (just before or just after the sitter's death; Edo period)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Yosa_Buson.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / lead SURVIVED: the lead was the Commons file Yosa Buson.jpg (Matsumura Goshun portrait, Kyoto National Museum). The holder's record was read through the Agency for Cultural Affairs Bunka Isan Online record 582980: Goshun, a devoted pupil who sat at Buson's deathbed, drew it just before or just after his death (so a from-life or deathbed likeness), hanging scroll 92.4 x 32.1 cm, inscription 'drawn in reverence at Yahantei by Gekkei' with Goshun's seal. The ColBase item page is script-rendered and its data API needs a key, so ColBase was not read; the Bunka Isan page states no copyright and says only that image-use terms should be asked of the holding museum (a caveat, not a restriction). Rights rest on the painter's death in 1811. KIND likeness (made at or beside the deathbed). The Commons crop (360 x 500) is used as is, no upscaling; the full holder image (283 x 900) shows the whole scroll with inscribed text above the figure, so the Commons crop is the larger rendering of the figure. PREFLIGHT: QID VERIFIED LIVE (2026-11-18, Wikidata API) Q31523 labels Yosa Buson / 与謝蕪村 / 요사 부손, description 'poet and painter from Japan (1716-1784)', human, citizen of Japan. REGION east_asia, ERA early_modern, nationality left empty with polity.tokugawa_shogunate, all following the Matsuo Basho precedent. DEATH YEAR: 1784 per Wikidata (17 January 1784 Gregorian); Japanese and English reference works give 1783 because the lunar year 1783 ended on that date. KOREAN NAME: 요사 부손 is the Wikidata Korean label; no fabricated name. ZERO POLITICS: poet and painter only. ATTRIBUTION: attributable (dated publications, signed and dated paintings, several contemporaries named in the record). CANONICAL SIGNIFICANCE SOURCE: Kotobank's set of Japanese reference entries on Buson (https://kotobank.jp/word/%E4%B8%8E%E8%AC%9D%E8%95%AA%E6%9D%91-22116). READ (8 sources besides Wikidata): Kotobank entries, nippon.com essay, Asian Art Newspaper review, Terebess compilation, Kyoto Journal essay, Kyoto National Museum exhibition page, Haiku Oz web biography, Bunka Isan Online portrait record. Not opened or unreadable: Britannica and Poetry Foundation (403), Met Museum (429), the Worcester Museum letter to Taiga (403), the Kyoto National Museum newsletter PDFs and the Universalis article (public excerpt only, not cited); no first-hand letters or Buson's own prefaces were read beyond what secondary sources quote. PERSPECTIVES: Japanese reference-work consensus, a single-author essay, an exhibition review, a scholarly compilation including critics (Crowley, Virgil, Darling), a literary essay and a museum page. NON-SELF BEHAVIOURAL SOURCES: all of them; no source is Buson's own memoir. CAVEATS: all sources draw on one standard scholarly biography, so independence is limited; a sparse 8-row profile by design (no row on perseverance, risk-taking or self-discipline: the sources describe ten years of travel and late recognition but not how he handled hardship). Date conflicts not carded: Edo start (1732 or 1737), Kyoto move (1751 or late 1750s), marriage (1760 or about 1766), the age at which he started painting. Family and private life not used. MAJOR ACHIEVEMENT GATE: cards (1) the haikai revival and Yahantei school, (2) literati painting and the Juben Jugi album, (3) haiga and the Oku no Hosomichi illustrations; all five checks pass. SELF-CALIBRATION: rows_initial 8; lowered creative originality (72/0.55 to 66/0.50), aesthetic sensitivity (70/0.48 to 68/0.45), need for autonomy (62/0.52 to 58/0.46, now inference), independent thinking (62/0.50 to 58/0.46, now inference); no row raised."
+  }
+}

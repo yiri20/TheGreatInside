@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "konstantin-tsiolkovsky",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Konstantin Tsiolkovsky",
+    "aliases": [
+      "Konstantin Eduardovich Tsiolkovsky",
+      "Konstantin Tsiolkovskii",
+      "Konstantin Ciolkovskij",
+      "Константин Циолковский"
+    ],
+    "wikidataId": "Q41239",
+    "birthYear": 1857,
+    "deathYear": 1935,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "RU"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scientist",
+      "inventor",
+      "teacher",
+      "writer"
+    ],
+    "fieldIds": [
+      "aviation",
+      "engineering",
+      "exploration",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "engineering",
+      "technological",
+      "historical"
+    ],
+    "tagIds": [
+      "self_taught",
+      "theorist",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_tsiolkovsky_wikidata",
+      "kind": "wikidata",
+      "title": "Konstantin Tsiolkovsky (Q41239), verified live via the Wikidata API (2026-11-18): English label 'Konstantin Tsiolkovsky', description 'Russian and Soviet rocket scientist and pioneer of the astronautic theory (1857-1935)', instance of human, born 1857 (5 or 17 September, two values recorded), died 19 September 1935, Korean label 콘스탄틴 치올콥스키. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41239"
+    },
+    {
+      "id": "src_tsiolkovsky_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Tsiolkovsky, Konstantin Eduardovich' by A. T. Grigorian (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: deaf from childhood and self-educated, he passed the teaching examination in 1879 and taught arithmetic and geometry; worked out a design for an all-metal dirigible and a 1894 monoplane project, built Russia's first aviation wind tunnel in 1897; set out the analytical relation between a rocket's velocity, exhaust velocity and mass in 1897 and the theory of rocket flight in 'A Study of Atmospheric Space Using Reactive Devices' (1903); later gas-driven rudders, multistage rockets and cooled combustion chambers; his ideas met indifference and he worked largely alone before 1917 and received a pension in 1921; Hermann Oberth wrote to him in 1929. Soviet-era reference biography, admiring and silent on his philosophy.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/tsiolkovsky-konstantin-eduardovich"
+    },
+    {
+      "id": "src_tsiolkovsky_rsw",
+      "kind": "biography",
+      "title": "Anatoly Zak, RussianSpaceWeb 'Konstantin Tsiolkovsky' biography section, four pages read in full (Biography, Kaluga period, Tsiolkovsky and Bolshevism, Legacy), prepared with help from the Tsiolkovsky museum in Kaluga and his granddaughter. Substantive journalist-historian narrative: suspended from school at 14 and self-educated, studied in a Moscow library on black bread, built a centrifuge to test gravity effects on chickens, his 1883 'Free Space' manuscript unpublished until 1956, failed attempts to sell his airship to the military, the 1903 rocket paper in a magazine whose press run was confiscated, his letter to Oberth asserting priority, his 1926 sixteen-step plan and 'rocket trains' of 1929, his reputation as a good teacher, a Cheka arrest after the revolution, Valentin Glushko's correspondence from 1923 and a post-Soviet debate over his eugenic views. Mixes museum testimony and his own recollections; admiring but candid about limits.",
+      "url": "https://www.russianspaceweb.com/tsiolkovsky_bio.html"
+    },
+    {
+      "id": "src_tsiolkovsky_siddiqi",
+      "kind": "biography",
+      "title": "Asif Siddiqi, 'Tsiolkovskii and the Invention of Russian Cosmism: Science, Mysticism, and the Conquest of Nature at the Birth of Soviet Space Exploration', chapter 6 in Science, Religion and Communism in Cold War Europe (Palgrave Macmillan, 2016; author PDF, read in full for the Tsiolkovsky sections). COUNTER-VOICE and independent scholarly source: he never joined the Communist Party; his 1903 work and its 1911-14 supplements were the first fully coherent mathematical treatment of spaceflight; the legend that Fedorov taught him is not supported by his own handwritten notes; he self-published a large body of philosophical booklets that his admirers in the 1920s and 1930s did not read; his views included eugenic and racist statements; the posthumous cult around him is a construction.",
+      "url": "https://www.asifsiddiqi.com/s/Siddiqi-Tsiolkovskii-and-the-Invention-of-Russian-Cosmism-2016.pdf"
+    },
+    {
+      "id": "src_tsiolkovsky_hagemeister",
+      "kind": "biography",
+      "title": "Michael Hagemeister, 'Konstantin Tsiolkovskii and the Occult Roots of Soviet Space Travel', in The New Age of Russia: Occult and Esoteric Dimensions (Otto Sagner, 2012), pp. 135-150 (read in full from the museum-hosted PDF). Independent critical scholarship: describes the near-deaf Kaluga teacher as an autodidact who financed his research and publications out of his own pocket, was ignored by academic science, built his own network of enthusiasts, and received little state support in the 1920s despite the propaganda image; shows how his cosmic philosophy, including eugenic ideas, drew on Haeckel, Fechner and theosophy and was not original; notes that he added his signature to a letter to Stalin that probably was not his own initiative.",
+      "url": "https://www.tsiolkovsky.org/wp-content/uploads/2021/10/289-tsiolkovsky-hagemeister-konstantin-tsiolkovsky-and-the-occult-roots-of-soviet-space-travel-english.pdf"
+    },
+    {
+      "id": "src_tsiolkovsky_rynin",
+      "kind": "biography",
+      "title": "N. A. Rynin, 'K. E. Tsiolkovskii: Life, Writings, and Rockets' (Interplanetary Flight and Communication vol. III no. 7, Leningrad 1931; NASA translation TT F-640, 1971; machine-read PDF, relevant passages read). Contemporary biography by a space-flight popularizer that includes Tsiolkovsky's own autobiographical text: his metal dirigible manuscript of 120 sheets, early-morning work before school, the Society of Technology's 1890 review of his dirigible paper, and his wind-tunnel experiments with the means at hand. Admiring and partly self-reported; its dates differ from the Dictionary of Scientific Biography for the wind tunnel.",
+      "url": "https://www.tsiolkovsky.org/wp-content/uploads/2021/10/292-tsiolkovsky-rynin-life-writings-and-rockets-1931-1971.pdf"
+    },
+    {
+      "id": "src_tsiolkovsky_spacereview",
+      "kind": "press",
+      "title": "Taylor Dinerman, 'Studying a legend', The Space Review (16 November 2009; read in full), review of James Andrews's 'Red Cosmos: K. E. Tsiolkovskii, Grandfather of Soviet Rocketry' (Texas A&M University Press, 2009). Independent reviewer's reading: neither prophet nor fraud but a man of his time who adapted to the tsarist and then the Soviet system; was an outstanding teacher; was recast by the 1920s Soviet state as a neglected provincial genius; contains errors on dates and on his Moscow circle, so used only for the framing of his reception.",
+      "url": "https://thespacereview.com/article/1508/1"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsiolkovsky_dsb, src_tsiolkovsky_rsw, src_tsiolkovsky_hagemeister, src_tsiolkovsky_rynin | 1880-1930s | reference biography, journalist-historian narrative, critical scholarship, contemporary biography] Several sources describe a four-decade line of work carried on from a provincial teaching post with little recognition: the reference biography says his ideas met indifference and that he worked alone for many years; the narrative history tells of failed attempts to sell his airship to the military and a 1903 paper whose press run was confiscated; the critical scholar says he financed his research and booklets himself and was ignored by academic science into the 1920s; the contemporary biography records his dawn work before school and a 480-page manuscript produced after fire destroyed his models. CONCENTRATION CORRECTION: lowered from 78 / 0.66 because the hardship quotations are mostly his own words and the scholarly sources overlap."
+    },
+    "analytical_rigor": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsiolkovsky_dsb, src_tsiolkovsky_rsw, src_tsiolkovsky_siddiqi | 1883-1914 | reference biography, journalist-historian narrative, scholarly chapter] He derived the dependence of a rocket's final speed on exhaust velocity and mass and a theory of rocket flight with changing mass (reference biography), tested Verne's cannon launch against the force of acceleration instead of accepting it (narrative history), and the scholarly chapter calls the 1903 work and its 1911-14 supplements the first fully coherent mathematical treatment of spaceflight. The sources agree on the method; the date of the equation (1897 notebook, 1903 publication) is told differently. SELF-CALIBRATION: lowered from 78 / 0.66 because two of the three sources are admiring or institutional and the reference entry is a Soviet-era summary."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsiolkovsky_dsb, src_tsiolkovsky_rynin, src_tsiolkovsky_rsw | 1880s-1897 | reference biography, contemporary biography, journalist-historian narrative] He moved from calculation to testing: the reference biography says he built the first wind tunnel used in Russian aviation after realising he needed measured data on air resistance, the contemporary biography describes the apparatus built with meagre means and the drag measurements, and the narrative history adds a centrifuge to test gravity effects on chickens and experiments on gases. Dates and details of the wind tunnel differ between sources (1891, 1896, 1897), and the centrifuge rests on one source. SELF-CALIBRATION: lowered from 70 / 0.58 for the date conflict and the single-source centrifuge."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsiolkovsky_dsb, src_tsiolkovsky_rsw, src_tsiolkovsky_siddiqi, src_tsiolkovsky_hagemeister | 1883-1929 | reference biography, journalist-historian narrative, scholarly chapter, critical scholarship] The reference biography lists a metal dirigible with variable volume, a streamlined metal monoplane with a gyroscope for steering, gas-driven rudders and a cooled combustion chamber; the narrative history adds liquid oxygen and hydrogen as propellants and 'rocket trains'; the scholarly chapter treats his space mathematics as unprecedented. The same scholars note that his philosophy borrowed from Haeckel, Fechner and theosophy and that Oberth reached rocket proposals independently, so originality is strong in engineering concepts and less so in ideas generally. SELF-CALIBRATION: lowered from 74 / 0.6 because reputation as a 'father' of the field inflates how original each single idea is."
+    },
+    "cross_domain_range": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsiolkovsky_dsb, src_tsiolkovsky_rsw, src_tsiolkovsky_siddiqi, src_tsiolkovsky_rynin | 1880s-1935 | reference biography, journalist-historian narrative, scholarly chapter, contemporary biography] Four sources document sustained, separately published work across the kinetic theory of gases, dirigible design, aerodynamics and wind-tunnel testing, aircraft design, rocket theory, astronomy, science fiction, air-cushion transport and, from 1914, a large body of philosophical booklets (68 published in his lifetime, per the scholarly chapter). Output in each field was real, though the philosophical writing is judged derivative by the scholars."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tsiolkovsky_dsb, src_tsiolkovsky_rsw, src_tsiolkovsky_siddiqi, src_tsiolkovsky_hagemeister | 1873-1930s | reference biography, journalist-historian narrative, scholarly chapter, critical scholarship] Self-taught after leaving school at 14, he chose his own problems and pursued them outside institutions; the reference biography says that his advanced ideas found little acceptance, the narrative history that he questioned Verne's cannon launch, and the two scholars that he built his own cosmic philosophy from selected sources and held to it against the official Marxist line until his last year. Dual-edged because the same independence produced the eugenic ideas the scholars document."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_tsiolkovsky_rsw, src_tsiolkovsky_rynin, src_tsiolkovsky_hagemeister, src_tsiolkovsky_dsb | 1873-1932 | journalist-historian narrative, contemporary biography, critical scholarship, reference biography] He taught himself in a Moscow library while spending his small allowance on books and chemicals (his recollection in the narrative history), built a centrifuge and later a wind tunnel with the means at hand (narrative history, contemporary biography), and paid for his own publications and mailed them to scientists and enthusiasts, building his own network (critical scholarship). Part of the account is his own recollection."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tsiolkovsky_dsb, src_tsiolkovsky_siddiqi, src_tsiolkovsky_hagemeister | 1903-1935 | reference biography, scholarly chapter, critical scholarship] He wrote near the end of his life that the main motive of his life had been to move humanity forward even if only slightly (reference biography), and the scholars show that his space writing and self-published philosophy were aimed at the survival and 'perfection' of humanity, including proposals to eliminate 'defective' life that are now regarded as eugenic. The aim is stated and consistent across his writings, but the statements are his own and the content makes the impact dual-edged. CONCENTRATION CORRECTION: lowered from 70 / 0.52 (strong inference) because the motive comes mostly from his own statements and one family of scholarship."
+    },
+    "systems_abstraction": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_tsiolkovsky_rsw, src_tsiolkovsky_dsb | 1903-1929 | journalist-historian narrative, reference biography] He treated spaceflight as an interlinked system: a 1926 sixteen-step program with orbital settlements, plant-based life support and solar energy, and rocket 'trains' (multistage vehicles), alongside conditions of life for plants and animals in space in the reference biography. Two sources describe the plans but neither shows how he derived them, so the score is moderate. SELF-CALIBRATION: lowered from 66 / 0.5 and downgraded to inference because the evidence is two descriptions of plans, not shown reasoning."
+    },
+    "competitiveness": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_tsiolkovsky_rsw, src_tsiolkovsky_siddiqi | 1923-1930s | journalist-historian narrative, scholarly chapter] The narrative history says that after Oberth's 1923 book he wrote to Oberth asserting that he had conceived rocket flight first and that, in the words of his granddaughter, he cared deeply about his priority; the scholarly chapter says Soviet commemoration later structured his claims around priority. It is a concern with credit rather than rivalry in a contest, and rests largely on one source. CONCENTRATION CORRECTION: lowered from 58 / 0.44 because the priority concern comes from one narrative and a family member's testimony."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "콘스탄틴 치올콥스키"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/konstantin-tsiolkovsky-unknown-1924.jpg",
+    "width": 865,
+    "height": 1200,
+    "source": "Seated portrait of Konstantin Tsiolkovsky with a cane and cape, a studio photograph taken in Kaluga in summer 1924 by an unidentified photographer, mounted print held by the State Museum of the History of Cosmonautics (Kaluga, items F-I-288 and F-I-537 per the Wikimedia Commons description citing the museum's 2004 photo catalogue); a copy is also reproduced with an Archive of the Russian Academy of Sciences credit (fond 555, opis 2, delo 126, leaf 5) on a 2020 trade-magazine page. The same photograph is the captioned frontispiece 'Konstantin Eduardovich Tsiolkovskii in 1924' of N. A. Rynin's biography (Leningrad, 1931; NASA translation 1971, page vii, opened and read), and Tsiolkovsky's own letter to Rynin of 11 June 1926 in that book says an enclosed picture of himself was taken in the summer of 1924. File shown is the Wikimedia Commons original (865 x 1200 pixels, 189 KB), used as is: not resized and not upscaled.",
+    "license": "Public domain: unattributed Soviet-era studio photograph (photographer not identified), first published in the USSR by 1931 at the latest (Rynin's 1931 frontispiece is verified; the Commons description also reports the magazine Svyaz, 1925, no. 18, which was not opened); anonymous work more than 70 years after publication and, as a photograph published in the 1920s, outside the short Soviet term before Russia's 1993 law, so public domain in Russia and not restored in the United States. Commons tags it PD-Russia. No holder statement was reachable; see provenance notes for the rights caveat.",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg",
+    "attribution": "Unknown Kaluga studio photographer, 1924; original in the State Museum of the History of Cosmonautics, Kaluga; frontispiece in N. A. Rynin, K. E. Tsiolkovskii (1931); via Wikimedia Commons",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg",
+    "creator": "Unknown photographer (Kaluga photo studio)",
+    "date": "1924",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / lead SURVIVED: the lead file 'Konstantin Tsiolkovsky 1924 seated with cane' (Commons, 865 x 1200, unknown Kaluga studio photographer) was verified further than the preflight: the same photograph is the captioned frontispiece 'Konstantin Eduardovich Tsiolkovskii in 1924' of Rynin's 1931 biography (NASA translation page vii, opened) and Tsiolkovsky's own 11 June 1926 letter in that book says a picture of himself enclosed was taken in the summer of 1924, so sitter and date are firmly established. A copy credited to the Archive of the Russian Academy of Sciences (fond 555, opis 2, delo 126, leaf 5) appears on 21mm.ru; the Commons description cites the State Museum of the History of Cosmonautics (F-I-288, F-I-537) and a first publication in Svyaz 1925 (not opened). NO HOLDER RECORD WAS REACHABLE: the museum item records were not found and the RAS archive site (ras.ru/ktsiolkovskyarchive) gives no per-image rights statement, so no holder restriction or permission requirement was found, but none was confirmed either. RIGHTS CAVEAT FOR LEAD: the PD basis is an unattributed photograph first published in the USSR no later than 1931 (verified: Rynin frontispiece); if the Kaluga photographer is ever identified and died after 1955 the Russian-law argument would need revisiting. kind likeness; file used unmodified (865 x 1200). IDENTITY: QID VERIFIED LIVE (2026-11-18) Q41239 'Konstantin Tsiolkovsky', 'Russian and Soviet rocket scientist and pioneer of the astronautic theory (1857-1935)', human, born 1857, died 19 September 1935, Korean label 콘스탄틴 치올콥스키. REGION central_europe (Russian precedent: Korolev, Gagarin). ERA 20th_century (rocket theory 1903-1935). KOREAN NAME 콘스탄틴 치올콥스키 is the Wikidata label (no flag). ZERO POLITICS: his state pension, Cheka arrest and Soviet commemoration are context only and are not scored. DECEASED SUBJECT: no diagnosis or private-condition inference; his deafness is a documented fact in every source and is used only as context; his claims of messages from higher beings and his family's losses are deliberately not used. DOCUMENTED CAVEAT: his published philosophy included eugenic and racist statements (Siddiqi, Hagemeister); this is why independent thinking and impact motivation are marked dual-edged and why the profile does not use admiring Soviet-era framing. SOURCES READ: Dictionary of Scientific Biography entry (full), Russian Space Web biography section (four pages, full), Siddiqi chapter (Tsiolkovsky sections), Hagemeister chapter (about half read, the rest skimmed), Rynin 1931/NASA 1971 (biography chapter and wind-tunnel passages), Space Review book review (full). NOT OPENED: Britannica (blocked), Andrews 'Red Cosmos', Siddiqi 'Red Rockets Glare', Siddiqi 2004 Goddard article (host unreachable), the Kaluga museum site. Wikipedia-derived translations on tsiolkovsky.org and a left-political magazine article that disagrees with Siddiqi on Fedorov were read but not cited. CONFLICTS: wind-tunnel date (1891/1896/1897) and equation date (1897/1903) differ by source; the Fedorov-mentor story is contested by Siddiqi and is not used. CANONICAL SIGNIFICANCE SOURCE: src_tsiolkovsky_dsb. Ten rows initially; seven lowered (three for source-family concentration, four in self-calibration); no row raised. Non-self behavioural sources: Hagemeister and Siddiqi (independent scholarship), Zak (journalist-historian with museum testimony)."
+  }
+}

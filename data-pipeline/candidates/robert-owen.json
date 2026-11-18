@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "robert-owen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Robert Owen",
+    "aliases": [
+      "Robert Owen of New Lanark"
+    ],
+    "wikidataId": "Q179374",
+    "birthYear": 1771,
+    "deathYear": 1858,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "industrialist",
+      "activist"
+    ],
+    "fieldIds": [
+      "business",
+      "social_reform",
+      "education"
+    ],
+    "impactDomains": [
+      "social",
+      "industrial",
+      "educational"
+    ],
+    "tagIds": [
+      "founder",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "institution_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_owen_wikidata",
+      "kind": "wikidata",
+      "title": "Robert Owen (Q179374), verified live via the Wikidata API (2026-11-18): English label Robert Owen, English description 'Welsh textile manufacturer and social reformer (1771-1858)', instance of human, born 14 May 1771, died 17 November 1858, citizen of the United Kingdom and Great Britain, Korean label 로버트 오언. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q179374"
+    },
+    {
+      "id": "src_owen_claeys",
+      "kind": "biography",
+      "title": "Gregory Claeys, 'Owen, Robert', Encyclopedia of Modern Europe: Europe 1789-1914 (via Encyclopedia.com; read in full). CANONICAL SIGNIFICANCE SOURCE: scholarly entry by the editor of Owen's Selected Works calling him the founder of British socialism; it tells his rise from apprentice to mill manager, the reforms at New Lanark (shorter hours, cheaper goods at the company shop, infant education in the Institute for the Formation of Character opened in 1816), his proposals for 'villages of union', the collapse of the New Harmony community in Indiana by 1828, the short-lived labour exchanges and the Grand National Consolidated Trades Union, and the Tytherly community in Hampshire (an 'unduly expensive' building on poor soil with too little invested in farming); it adds that others wrote more incisively but that his impact in popularising the socialist ideal in Britain and the United States is undisputed. Scholarly and measured, with candid notes on failure.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/owen-robert-0"
+    },
+    {
+      "id": "src_owen_briggs",
+      "kind": "biography",
+      "title": "Asa Briggs, 'Owen, Robert', International Encyclopedia of the Social Sciences (via Encyclopedia.com; read in full). Historian's entry on his rise to fame at New Lanark, his belief that a cooperative community would shape character, his sharp break with the churches in 1817 and anticlerical turn, the New Harmony venture that swallowed most of his fortune, his move into working-class politics after 1829 and the Grand National Consolidated Trades Union, and his turn to a secular religion and to the Harmony Hall community; notes that he was often dismissed as a 'utopian' but did much to develop a critique of industrialism and the socialist vocabulary.",
+      "url": "https://www.encyclopedia.com/social-sciences/applied-and-social-sciences-magazines/owen-robert"
+    },
+    {
+      "id": "src_owen_podmore",
+      "kind": "biography",
+      "title": "Frank Podmore, 'Robert Owen: A Biography', volume 1 (London 1906; New York, D. Appleton, 1907; Internet Archive scan from the New York Public Library; read in part: the preface, the chapters on Manchester, New Lanark and its schools and hours, the first Factory Act, the 1817 plans for the unemployed and the 1817 London meetings, using the OCR text). Fabian biographer's full-length life, sympathetic but critical in places (it says Owen was 'without wisdom of the worldly kind' and could not be kept from preaching his opinions to partners and public); it draws on Owen's own autobiography but also on partners' diaries, Hansard debates, visitors' reports and contemporary pamphlets, and it prints the text of his 21 August 1817 address. Volume 2 (New Harmony and later life) was not read.",
+      "url": "https://archive.org/details/robertowenbiogra01podm"
+    },
+    {
+      "id": "src_owen_britannica",
+      "kind": "biography",
+      "title": "Douglas F. Dowd, 'Robert Owen', Encyclopaedia Britannica (read through the sections on early life, New Lanark and his philosophy of social reform; the page text as retrieved did not include the later sections on New Harmony and the trade union movement). General reference entry: his apprenticeship and early success in Manchester, the improvements at New Lanark (housing, a store at near cost, supervision of drink, an infant school opened in 1816), his decision to pay wages during a four-month shutdown, the 1813 buy-out of his partners, his claim that character is formed by circumstances, the 1815 meeting of manufacturers and the defeat of his proposal to cut children's hours, and his proposals for villages of unity and cooperation.",
+      "url": "https://www.britannica.com/biography/Robert-Owen"
+    },
+    {
+      "id": "src_owen_dwb",
+      "kind": "biography",
+      "title": "J. F. Rees, 'Owen, Robert (1771-1858), Utopian Socialist', Dictionary of Welsh Biography (National Library of Wales, 1959; read in full). Short national-biography entry: born at Newtown, apprenticed to a draper before he was ten, rapid success in cotton-spinning in Manchester, the community experiment at New Lanark on which his fame rests, his advice after the Napoleonic Wars to set up self-sufficient communities, New Harmony, the prejudice his views on religion aroused, his return to Newtown in 1858 and the Co-operative Movement's monument of 1902. Brief and admiring.",
+      "url": "https://biography.wales/article/s-OWEN-ROB-1771"
+    },
+    {
+      "id": "src_owen_newlanark",
+      "kind": "institution",
+      "title": "New Lanark Trust, 'Robert Owen', New Lanark World Heritage Site visitor centre (page read in full). Heritage-site biography: his partnership to buy David Dale's mills in 1799, management systems (report books, stock control, the 'Silent Monitor' behaviour grading), a shorter working day, the village store whose profits funded schools, the Institute for the Formation of Character (1816) and School for Children (1817), the move to New Harmony, his later role in the Grand National Consolidated Trades Union and the Rational Society (about 50,000 members by 1840), and his late turn to spiritualism. The site cites his own words that New Lanark was the most important experiment for human happiness; promotional and admiring, and its figure of a 10.5-hour day differs from the 10.75 hours in Podmore.",
+      "url": "https://newlanark.org/?p=1007"
+    },
+    {
+      "id": "src_owen_undiscovered",
+      "kind": "press",
+      "title": "Undiscovered Scotland, 'Robert Owen: Biography' (page read in full). Regional guide's short life that gives the sceptical side: it says his first moves at New Lanark were to lengthen the day from 13 to 14 hours and tighten discipline, that workers saw him as a harsh outsider, that paying full wages during the 1806 cotton stoppage was also prudent and no more than David Dale had done, that his ideas led to conflict with his partners and in 1813 he bid against them for full control for 114,100 pounds, and that opinions differ on whether he intended a social revolution or was a supremely effective capitalist, concluding that his achievements matter more than his motives. Popular guide-book source.",
+      "url": "https://undiscoveredscotland.co.uk/usbiography/o/robertowen.html"
+    },
+    {
+      "id": "src_owen_gale",
+      "kind": "biography",
+      "title": "Encyclopedia.com (Gale), 'Owen, Robert' in the Industrial Revolution Reference Library, and 'Robert Owen' in the Encyclopedia of World Biography (both read in full). Two general reference entries: the first, written for students, says he borrowed 100 pounds from his brother to start in business, paid workers for four months in 1806 during a cotton embargo, was forced by partners to lengthen the working day to fourteen hours at least for a time before introducing a twelve-hour day in 1816, gave evidence and drafted proposals for factory reform that reached law in 1819 in watered-down form, bought New Harmony for 125,000 dollars and handed it to his sons in 1828 after it ran into trouble whenever he was absent, and led the unions and labour exchange of the 1830s; the second says his attack on religion at a London meeting in 1817 lost him some admirers, that by 1828 he had lost the bulk of his fortune at New Harmony, and that he failed to see that the industry and responsibility that made New Lanark succeed were missing in his later experiments.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/robert-owen"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_owen_podmore, src_owen_britannica, src_owen_claeys, src_owen_gale | 1815-1819 | biography with Hansard and pamphlet evidence, reference entries] Podmore shows from the parliamentary debates and the press of the time that he proposed and drafted the 1815 factory bill that Peel introduced, that opponents blamed him for it, and that he toured, gave evidence to the 1816 committee and wrote to ministers; Britannica adds that he convened a meeting of manufacturers in 1815 and lobbied them on the cotton import duty; Claeys and the Encyclopedia of World Biography show him founding organisations and communities on his own initiative in later years. The pattern is repeated and well attested, but the details of his own initiative are largely told through Podmore and reference entries that rest on him and on Owen's autobiography, and the results were poor. SELF-CALIBRATION (agent): lowered from 76 / 0.60 because the record is mainly one biographer's reading of the parliamentary evidence plus derivative reference entries."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_owen_podmore, src_owen_gale, src_owen_briggs | 1814-1819 | biography with printed address and partner diaries, reference entries] Podmore prints his prepared address of 21 August 1817 at the City of London Tavern, in which he declared that he would speak out whatever it cost him ('what the consequences of this daring deed shall be to myself, I am as indifferent about as whether it shall rain or be fair to-morrow') and went on to condemn the existing religions, after a painful conversation with his Quaker partner William Allen in 1814 and clerical attacks; Gale says the attack lost him some admirers, Briggs says he broke sharply with the churches in 1817, and Podmore adds that opponents of the Factory Bill used his religious views against it. The stance and its costs are documented, but the main evidence of his state of mind is his own speech as printed by a sympathetic biographer, and Podmore himself calls the course lacking in worldly wisdom. SELF-CALIBRATION (agent): lowered from 76 / 0.62 because the central evidence is his own rhetoric."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_owen_britannica, src_owen_briggs, src_owen_claeys, src_owen_podmore | 1813-1820 | reference entries, biography] Britannica says he reasoned from boyhood reading that all religions were flawed and later worked out his own creed that human character is formed by circumstances, which he took to be a new and original discovery; Briggs and Claeys describe a proposal to replace the profit motive with cooperation and say he did much to develop a critique of industrialism; Podmore lists a debt to Godwin and notes that Oberlin and Pestalozzi had earlier or parallel educational ideas (Oberlin had started infant schools before Owen). The independence of his positions is clear, but the originality he claimed is qualified by these debts, and Claeys notes that others wrote more incisively, so the score reflects independent reasoning rather than novelty. SELF-CALIBRATION (agent): lowered from 74 / 0.58 because the 'original discovery' claim reflects his own view as relayed by an encyclopedia."
+    },
+    "impact_motivation": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_owen_podmore, src_owen_newlanark, src_owen_gale, src_owen_undiscovered | 1800-1828 | biography, heritage-site biography, reference entries, regional guide] He paid for the schools from the profits of the village store, cut the actual working day to ten and three-quarter hours from 1816 (against his partners' pressure for longer hours at one point), refused a gift of plate from grateful workers in 1817, spent years and money on his plans, and lost most of his fortune on New Harmony. Against that, the regional guide notes the early lengthening of hours and says people disagree whether he intended social revolution or was simply an effective capitalist, and the heritage site's key quotation about the importance of his experiment is his own. The pattern of sustained effort for social change is well documented; his motives are read from conduct and are disputed. SELF-CALIBRATION (agent): lowered from 78 / 0.60 because the heritage and biographical accounts are admiring and motives are contested."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_owen_claeys, src_owen_briggs, src_owen_gale, src_owen_newlanark | 1824-1850s | reference entries, heritage-site biography] After the factory bill was weakened, he turned to a plan for cooperative villages, then to New Harmony (1824-1828), the labour exchange (1832), the Grand National Consolidated Trades Union (1833-1834), the Rational Society (from 1835, about 50,000 members by 1840) and the Harmony Hall community in Hampshire (1839-1845), and went on writing and lecturing into his last years. The sequence is consistent across the reference entries, but they share one chronology, and the same record could be read as an unwillingness to change course after repeated failure. SELF-CALIBRATION (agent): lowered from 72 / 0.56 because the sources are one family of summaries and the dual reading is open."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_owen_gale, src_owen_undiscovered, src_owen_britannica, src_owen_claeys | 1789-1828 | reference entries, regional guide] Reference entries say he started his own business on 100 pounds borrowed from his brother, that in 1813 he organised a new firm and bid against his partners for control of New Lanark (114,100 pounds), and that he bought New Harmony for 125,000 dollars and had lost the bulk of his fortune there by 1828; Claeys adds the costly Tytherly building. The ventures and the losses are documented, but they are told in summaries with few figures, and the willingness to bet on his ideas is also explained by his conviction and by the large profits of the mills. SELF-CALIBRATION (agent): lowered from 72 / 0.56 and from documented to strong inference because the figures come from summary entries and the cause is mixed."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_owen_newlanark, src_owen_claeys, src_owen_podmore | 1800-1840 | heritage-site biography, reference entry, biography] He took charge of mills of about two thousand people as a young man, set up a council of elected spokespersons at New Lanark, convened meetings of manufacturers and public meetings, and in 1835 founded a national society that the heritage site says had around 50,000 members by 1840; Claeys says he began a large-scale organisation with some fifty branches. These show a repeated willingness to take charge and organise, but they are role-based and the sources do not describe how he handled people beyond New Lanark. SELF-CALIBRATION (agent): lowered from 66 / 0.52 and from strong inference to inference because the evidence is of roles and membership figures rather than behaviour."
+    },
+    "persuasiveness": {
+      "score": 56,
+      "confidence": 0.40,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_owen_podmore, src_owen_britannica, src_owen_gale | 1815-1819 | biography, reference entries] Podmore shows that he won the ear of ministers, bishops and royalty (the future Czar listened to his exposition for more than two hours in 1816), got Peel to introduce his bill and, per Britannica, persuaded manufacturers to support removal of the cotton import duty; but his proposal to cut children's hours was defeated in 1815, the 1819 Act was whittled down, Parliament declined to hear his unemployment report in 1817, and his religious attacks lost him supporters. The record is mixed, and persuasion is judged from outcomes, so the score stays near the middle. SELF-CALIBRATION (agent): lowered from 62 / 0.48 because the evidence mixes successes and failures and is judged from outcomes."
+    },
+    "planning_orientation": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_owen_newlanark, src_owen_claeys, src_owen_gale | 1800-1845 | heritage-site biography, reference entries] At New Lanark he introduced report books, product books and stock control and a daily behaviour grading, which the heritage site describes as part of an efficiency drive; his later community plans were drawn in detail. Against that, Claeys says the Tytherly building was unduly expensive on poor soil with too little invested in farming, and the Gale entries say New Harmony took in unsuited settlers, slid into disorder when he was absent, and that he failed to see what made New Lanark work. The planning is documented in management practice but the large ventures were poorly worked out, so the score stays near the middle. SELF-CALIBRATION (agent): lowered from 58 / 0.48 and from strong inference to inference because the evidence cuts both ways."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "로버트 오언"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/robert-owen-ryall-1835.jpg",
+    "width": 630,
+    "height": 690,
+    "source": "Stipple engraving by Henry Thomas Ryall after the life portrait painted by William Henry Brooke in 1834, published in London on 17 January 1835 (printed lettering under the oval: 'Painted by W. H. Brooke F.R.H.S. 1834', 'Engraved by H. T. Ryall', and the imprint 'London: Published Jan. 17th 1835, for the Proprietors, by B. D. Cousins, Duke Street, Lincoln's Inn Fields'), item 4674544 of the Welsh Portrait Collection at the National Library of Wales, catalogued there as a portrait of Robert Owen (reformer) and shared on Wikimedia Commons as 'Portrait of Robert Owen (4674544).jpg' (1200 x 1731 pixels, whole sheet). Cropped to the oval portrait with its two lettering lines at native resolution (630 x 690); no upscaling. The engraving matches the Brooke painting of 1834 (National Portrait Gallery, London, NPG 943, which Commons lists as a portrait of Robert Owen; a second Brooke portrait of Robert Owen is NMW A 531 at Amgueddfa Cymru, catalogued as a named portrait).",
+    "license": "Public domain: engraving published in London in 1835; the engraver Ryall died in 1867 and the painter Brooke in 1860, so any copyright expired long ago; Commons records it as PD-old-100 with the CC Public Domain Mark in the National Library of Wales / Wikimedia UK collaboration, a release by the holder. Not the NPG or Amgueddfa Cymru photograph of the painting, which are claimed or permission-only reproductions and were not used.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Henry Thomas Ryall (engraver) after William Henry Brooke (painter, 1834), portrait of Robert Owen, published 17 January 1835; Welsh Portrait Collection, National Library of Wales (item 4674544); cropped from the Wikimedia Commons copy.",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Robert_Owen_(4674544).jpg",
+    "creator": "Henry Thomas Ryall (engraver) after William Henry Brooke (painter)",
+    "date": "1835 (published 17 January 1835, after a portrait painted in 1834)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Robert_Owen_(4674544).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: Stage B STRONG / LEAD DID NOT SURVIVE AS PLANNED, REPLACED by the preflight's own fallback: the lead (Brooke's 1834 painting, NPG 943, via Commons) is not usable because the NPG record is behind a Cloudflare bot wall (HTTP 403, recorded as a bot wall, not a rights finding) and Commons carries a notice that third parties have made copyright claims over reproductions of the NPG image; Amgueddfa Cymru's record for its own Brooke portrait of Owen (NMW A 531, read) says the image is reproduced 'by permission', so that photograph is not rights-clear either. The replacement is the 1835 Ryall stipple engraving after the same Brooke painting (a faithful reproduction of the painting's face and fur collar, checked by eye against the Commons image of NPG 943), item 4674544 in the National Library of Wales Welsh Portrait Collection, released by NLW to Wikimedia Commons as public domain. SITTER: the engraving's printed lettering names the painter, engraver, date and publisher but not the sitter; identity rests on (a) the NLW/Commons catalogue as Robert Owen, (b) the engraving reproducing the Brooke painting that NPG (NPG 943) and Amgueddfa Cymru (NMW A 531, 'named portrait') catalogue as Robert Owen, and (c) the contemporary Brooke attribution. HOLDER: the NLW record could not be read (library.wales and damsssl.llgc.org.uk are behind a Cloudflare wall; viewer.library.wales returns only a generic viewer shell), so NLW's own rights wording was not read; no contradiction was found. upload.wikimedia.org returned HTTP 429 to curl, so the image bytes came through a fetch tool saved locally; the file was cropped, not resized. Another candidate was rejected: a Podmore (1907) plate captioned 'Robert Owen, from the portrait by Pickersgill, in the possession of Mr. William Tebb, painted in 1826', whose face does not resemble the Brooke portrait and for which no Pickersgill portrait of Owen could be confirmed. KIND likeness (lifetime painting of 1834 engraved in 1835). PREFLIGHT: QID VERIFIED LIVE (2026-11-18) Q179374, label Robert Owen, description 'Welsh textile manufacturer and social reformer (1771-1858)', human, born 14 May 1771, died 17 November 1858, Korean label 로버트 오언 (established Korean name). REGION western_europe; ERA 19th_century; nationality GB (he was Welsh and worked in Scotland and England). ATTRIBUTION: attributable (dated acts, parliamentary and press records, partners' diaries). CANONICAL SIGNIFICANCE SOURCE: Claeys, Encyclopedia of Modern Europe entry. READ: the sources cited above; NOT READ: Podmore volume 2, Owen's own Life (autobiography, self-source), Cole and Harrison biographies, the Oxford DNB, the UNESCO IBE profile, Engels' Utopian and Scientific Socialism (read only as an excerpt on the Marxists Internet Archive glossary page; not cited). COUNTER-VOICES: the regional guide's note on his early lengthening of the working day and on the dispute over his motives; Podmore's remark that he lacked worldly wisdom; Claeys's note that others wrote more incisively and his account of the Tytherly failure; Gale's remark that he failed to see why New Lanark worked. Discrepancies: working day at New Lanark (10.75 hours of actual work per Podmore and Claeys's eleven-and-three-quarters to ten-and-three-quarters; 10.5 per the heritage site; first lengthened to 13 or 14 hours per the regional guide and Gale); the first infant school claim (Britannica says first in Great Britain; Podmore says first in these islands but notes Oberlin's earlier infant schools in France; Gale says he claimed to be the founder) is hedged in the editorial draft. Religious beliefs are described only as public positions he took; no private conditions are used, and his late spiritualism and family life are not scored. HANDBACK68: concentration check found all nine rows resting on one narrow chronology that the reference entries share with Podmore and Owen's own autobiography; initial 9 rows, 9 lowered (scores and confidences), 3 evidence types lowered. No raise flags."
+  }
+}

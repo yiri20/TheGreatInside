@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "octave-chanute",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Octave Chanute",
+    "aliases": [
+      "Octave Alexandre Chanute"
+    ],
+    "wikidataId": "Q1351565",
+    "birthYear": 1832,
+    "deathYear": 1910,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "US",
+      "FR"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "innovation"
+    ],
+    "tagIds": [
+      "mentor",
+      "communicator",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_chanute_wikidata",
+      "kind": "wikidata",
+      "title": "Octave Chanute (Q1351565), verified live via the Wikidata API (2026-11-15): English label 'Octave Chanute', description 'French-American aviation pioneer (1832-1910)', Korean label 옥타브 샤뉘트, human, born 18 February 1832, died 23 November 1910, citizen of France and the United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q1351565"
+    },
+    {
+      "id": "src_chanute_britannica",
+      "kind": "biography",
+      "title": "Tom D. Crouch, 'Octave Chanute', Encyclopaedia Britannica (read via the print edition of the article). CANONICAL SIGNIFICANCE SOURCE: a leading American civil engineer and aeronautical pioneer; worked up through western railroads, chief engineer of the first bridge across the Missouri River, chief engineer of the Erie Railroad 1873-1883 and a leader of the major engineering societies; corresponded with experimenters worldwide to gather reliable information for Progress in Flying Machines (1894); organised aeronautics sessions at engineering-society meetings and conferences at the 1893 Chicago and 1904 St Louis expositions; with Augustus Herring and William Avery tested gliders in the Indiana Dunes in 1896, using a bridge-style trussing system that let the structure be calculated and that gave the Wright brothers a starting point; befriended and corresponded with the Wrights and visited their camp 1901-1903, and Wilbur Wright's 1910 tribute. Short reference article by the Smithsonian aeronautics curator; admiring in tone.",
+      "url": "https://www.britannica.com/print/article/105919"
+    },
+    {
+      "id": "src_chanute_nps",
+      "kind": "institution",
+      "title": "U.S. National Park Service, 'Octave Chanute' (Wright Brothers National Memorial and Indiana Dunes National Park people page, read in full): his surveying start in 1848, his Kansas City bridge over the Missouri and the Chicago and Kansas City stockyards, his 1888 consulting and wood-preservation firm, the 1894 Progress in Flying Machines, contracting gliders from young enthusiasts, the June to September 1896 camp in the Indiana Dunes with Herring, Avery, Butusov and Dr Ricketts (several hundred flights with the biplane, flights of up to 358 feet; Chanute, aged 64, left the flying to younger men), the Pratt truss he took from railroad bridges, more than 430 letters with the Wrights from 1900, his visits to Kitty Hawk in 1901, 1902 and 1903, the estrangement after 1905 over his open approach versus their need to protect their invention, and Wilbur's 1911 eulogy. Government heritage-site biography listing Short, Launius and Crouch among its sources; admiring but states the disagreement.",
+      "url": "https://www.nps.gov/people/chanute.htm"
+    },
+    {
+      "id": "src_chanute_ebsco",
+      "kind": "biography",
+      "title": "James F. Marchman III, 'Octave Chanute', EBSCO Research Starters, History (2024; read in full): emigrated to the United States as a child; trained by apprenticeship; designed the first bridge across the Missouri; from the 1870s corresponded with experimenters such as Otto Lilienthal; in the 1890s designed and tested gliders in hundreds of flights on the Lake Michigan shore; best remembered for encouraging others and as a communicator; in Paris in 1903 first told European researchers that the Wrights were close to success; a few years later urged the Wrights to give a public demonstration by warning that Europeans were close, and the Wrights replied that no one, Chanute included, could build a flying machine in the next ten years (the first successful European flight followed the next month). Encyclopedia-style overview by an aerospace engineer.",
+      "url": "https://ebsco.com/research-starters/history/octave-chanute"
+    },
+    {
+      "id": "src_chanute_cof",
+      "kind": "institution",
+      "title": "U.S. Centennial of Flight Commission, 'Octave Chanute' (Inventor's Gallery dictionary entry, via the UNT web archive; read in full): talented and successful civil engineer who designed the first railroad bridge over the Missouri and the Union stockyards in Chicago and Kansas City; a 'tireless publicist' for the airplane after early retirement; Progress in Flying Machines (1894); the 1896 craft built in William Avery's shop, including the Katydid with wings that could be moved to make trials easier and the Chanute-Herring biplane with Pratt trussing, which the Wrights copied in basic structure; sponsoring others' gliders; his incomplete understanding of the Wrights' efforts, his urging them to sell their ideas cheaply, the estrangement and the approach to reconciliation near his death. Short federal-commission summary; useful for the critical remarks.",
+      "url": "https://webarchive.library.unt.edu/eot2008/20080916224116/http://centennialofflight.gov/essay/Dictionary/Chanute/DI51.htm"
+    },
+    {
+      "id": "src_chanute_callander",
+      "kind": "press",
+      "title": "Bruce D. Callander, 'The Critical Twist', Air Force Magazine (September 1989; read in full, now on the Air & Space Forces Magazine site). COUNTER-VOICE: describes how Chanute described the Wrights' wing-warping idea to the French Aero Club in April 1903, months before their first flight, and how a German court later treated that talk as a public disclosure that damaged their German patent; how in 1909 he told Aeronautics magazine that the Wrights' suit might expose prior patents, supplied specifics about Louis Mouillard's 1897 patent (which he had helped obtain in Mouillard's name and his own), gave statements to the opposing legal camp and was quoted by the New York World; Wilbur's 'scorching letter', Chanute's reply that the Wrights' judgment had been 'warped by the desire for great wealth', his long-held grievance that they had given him too little credit, Wilbur's equally bitter answer, and the later conciliatory exchange before Chanute's death. Magazine history by an Air Force journalist; sympathetic to the Wrights.",
+      "url": "https://www.airandspaceforces.com/article/0989twist/"
+    },
+    {
+      "id": "src_chanute_wright_letter",
+      "kind": "archive",
+      "title": "Wilbur Wright to Octave Chanute, 18 January 1904, with the editorial footnote (letter and footnote as reproduced on the Mississippi State University 'Invention' site; read in full; the page does not name the editor). The letter shows the Wrights beginning to guard their results; the footnote says Chanute was made to look like the master of the Wrights in a French article of April 1903 and made no attempt to correct it, that the Wrights would have preferred not to have his gliders and 'experts' Huffaker and Herring tested in their camp yet he insisted, that they valued his encouragement and stimulus, and that they kept their reproaches private until 1909 and 1910 when he showed sympathy for their opponents in the patent suits. Primary letter plus an editorial note that is sympathetic to the Wrights.",
+      "url": "https://invention.psychology.msstate.edu/inventors/i/Wrights/library/Chanute_Wright_correspond/1904/Jan18-1904.html"
+    },
+    {
+      "id": "src_chanute_wbez",
+      "kind": "press",
+      "title": "Robert Loerzel, 'Chicago's First Airplane Flight, 100 Years Ago', WBEZ Chicago radio feature with Tom Crouch (Smithsonian) and Seth Shulman (read as a transcript): Chanute's Huron Street house in Chicago with flying-machine models, Progress in Flying Machines as 'the bible' for the generation that invented the airplane, the 1896-97 glider tests at the Dunes, his becoming the Wrights' closest friend in aeronautics, his 1901 invitation to Wilbur to speak to the Western Society of Engineers (after which Crouch says both brothers were re-energised), the November 1903 Kitty Hawk visit, the disagreement about sharing, Crouch's remark that Chanute had himself patented flying-machine ideas with others, and his presence at Curtiss's 1909 Chicago flight. Radio feature; the main voice, Crouch, is the same scholar who wrote the Britannica entry.",
+      "url": "https://www.wbez.org/stories/chicagos-first-airplane-flight-100-years-ago/e46f40bc-d02b-423a-aefb-ecdae6cb7080"
+    },
+    {
+      "id": "src_chanute_lindahall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'Octave Chanute', Scientist of the Day, Linda Hall Library, Kansas City (16 February 2016 entry; read in full): a civil engineer who designed mostly bridges before aviation became his retirement avocation; the Kinzua railroad viaduct; the Hannibal Bridge, the first bridge across the Missouri River, opened for rail traffic in 1869 with a swing truss for steamboats, which turned Kansas City into a rail hub; his published account The Kansas City Bridge (1870). Short historian's note from a library holding a copy he presented to the American Society of Civil Engineers.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/octave-chanute"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_chanute_britannica, src_chanute_nps, src_chanute_ebsco, src_chanute_cof, src_chanute_wbez, src_chanute_wright_letter | 1893-1904 | reference biography, heritage-site biography, encyclopedia overview, federal-commission summary, radio feature, archive letter and note] Several independent sources document specific acts: he organised aeronautics conferences at the 1893 and 1904 expositions and sessions in engineering societies, ran the 1896 dune camp with Herring, Avery and Butusov, invited Wilbur Wright to address the Western Society of Engineers, and exchanged more than 430 letters with the Wrights. The editorial note shows the other side: the Wrights would rather not have his gliders and assistants at their camp, and he pressed them anyway. Admiring tone in several sources is discounted; the pattern of openness, not the praise, carries the score. SELF-CALIBRATION (agent): lowered from 78 / 0.68 to 74 / 0.62 because the eulogy-based praise is not behaviour and the Wrights' own objections show the openness was not always welcome."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chanute_nps, src_chanute_britannica, src_chanute_cof, src_chanute_ebsco | 1888-1903 | heritage-site biography, reference biography, federal-commission summary, encyclopedia overview] Having built a consulting practice by 1888, he turned a long interest in flight into action on his own initiative: he commissioned glider designs from young builders, set up and ran the 1896 camp in the Indiana Dunes, arranged conferences, wrote to experimenters around the world, travelled to Kitty Hawk in 1901 to see the Wrights' work, and went to Paris in 1903 to tell European researchers about it. Four sources agree on the acts; nothing shows how he decided which to start. SELF-CALIBRATION (agent): lowered from 74 / 0.62 to 72 / 0.60 because the same acts are retold in sources that draw on the same biographical literature."
+    },
+    "cross_domain_range": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chanute_nps, src_chanute_britannica, src_chanute_lindahall, src_chanute_cof | 1848-1896 | heritage-site biography, reference biography, historian's note, federal-commission summary] His work ran from railroad surveying and bridges (the Missouri River bridge, the Kinzua viaduct) to stockyards, timber preservation and then aeronautics, where he took the Pratt truss from railroad bridges and used it to make a glider structure whose strength could be calculated. Most of the range is within engineering. CONCENTRATION CHECK (agent): lowered from 70 / 0.58 to 66 / 0.54 because the truss-transfer story rests mainly on the Crouch-linked reference and heritage accounts."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_chanute_britannica, src_chanute_nps, src_chanute_cof | 1893-1896 | reference biography, heritage-site biography, federal-commission summary] He collected reliable information on past flight research into Progress in Flying Machines and used a trussing system that allowed a structure's strength to be calculated; the federal-commission summary adds that he only incompletely understood the Wrights' work. The descriptions are of method and output, not of how he reasoned. CONCENTRATION CHECK (agent): lowered from 68 / 0.56 to 62 / 0.50 because nearly all of the evidence comes from one family of accounts (Crouch and the heritage page that draws on it). SELF-CALIBRATION (agent): lowered further to 60 / 0.48, evidence type changed from strong inference to inference, because the commission summary's remark about his incomplete grasp of the Wrights' results points the other way."
+    },
+    "experimentation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_chanute_nps, src_chanute_cof, src_chanute_ebsco | 1896 | heritage-site biography, federal-commission summary, encyclopedia overview] The 1896 programme tried several craft (a multi-wing machine whose wings could be moved to test positions, a braced multiplane that was cut down to a biplane and had its tail moved, others sponsored from outside) in several hundred dune flights. Herring and Avery flew them and Herring helped design the biplane, so the trial-and-modify work was shared and the sources do not say who proposed each change. SELF-CALIBRATION (agent): lowered from 66 / 0.54 to 62 / 0.50 because credit for the changes is shared and he left the flying to others."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_chanute_britannica, src_chanute_nps, src_chanute_ebsco, src_chanute_callander | 1893-1910 | reference biography, heritage-site biography, encyclopedia overview, magazine history] Sources say he was determined to interest other technical professionals in flight, gave encouragement and publicity freely and contracted gliders partly to give work to young enthusiasts; he is remembered more as an encourager than for his own designs. None gives his own stated reasons except through his published writings, which these sources do not quote. CONCENTRATION CHECK (agent): lowered from 68 / 0.52 to 64 / 0.48 because the motive is inferred from a tone of admiration. SELF-CALIBRATION (agent): lowered to 62 / 0.46 because the magazine history records that he resented being given too little credit for his help, which complicates a purely outward-facing reading of his motive."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_chanute_nps, src_chanute_britannica | 1873-1904 | heritage-site biography, reference biography] He was president of several engineering societies including the American Society of Civil Engineers and the Western Society of Engineers, chief engineer of the Erie Railroad from 1873 to 1883, and led the 1896 dune camp. Holding offices shows he was chosen to lead, not that he sought to. SELF-CALIBRATION (agent): lowered from 62 / 0.50 to 58 / 0.44 and moved from strong inference to inference because the evidence is positions held, reported by two overlapping accounts."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_chanute_nps, src_chanute_ebsco, src_chanute_britannica | 1870s-1894 | heritage-site biography, encyclopedia overview, reference biography] He kept a decades-long interest in the problem of flight, corresponded with experimenters across the world and compiled their results; the interest stayed within one subject. SELF-CALIBRATION (agent): lowered from 64 / 0.52 to 58 / 0.44 and moved from strong inference to inference because the sources describe one long preoccupation rather than a range of inquiries."
+    },
+    "conflict_tolerance": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_chanute_callander, src_chanute_wright_letter, src_chanute_nps | 1909-1910 | magazine history, archive letter and note, heritage-site biography] In the 1909 patent dispute he stated in print that the Wrights' suit might uncover prior patents, wrote a long-held grievance to Wilbur and told him that his judgment had been warped by the desire for great wealth; the Wrights' own reproaches were kept private until then. He did not avoid the disagreement, but the same sources describe him giving the Wrights' opponents arguments while saying he was neutral, which is not clearly tolerance for conflict. SELF-CALIBRATION (agent): lowered from 58 / 0.44 to 54 / 0.40 because one magazine account carries most of the detail and the editorial note and the magazine both favour the Wrights."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "옥타브 샤뉘트"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/octave-chanute-fawcett-1908.jpg",
+    "width": 704,
+    "height": 1000,
+    "source": "Half-length portrait photograph of Octave Chanute, seated, by Waldon Fawcett, c1908; Library of Congress Prints and Photographs Division, item 2005685736 (digital id cph 3a51897, call number BIOG FILE [item] [P&P], reproduction number LC-USZ62-51875, digital file from a b&w film copy negative). The item's note reads 'Photo copyrighted by Waldon Fawcett, Washington, D.C.' and the same copyright line is faintly legible on the sitter's coat in the image. The file is the library's 1083 x 1536 master, cropped by a few pixels at the edges to remove the scan border and downscaled to 704 x 1000, never upscaled.",
+    "license": "Public domain in the United States: published or registered in 1908 (before 1931) by a named photographer who died in 1952; the Library of Congress item record gives the rights advisory 'No known restrictions on publication'",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Waldon Fawcett, Octave Chanute, c1908; Library of Congress, Prints and Photographs Division, LC-USZ62-51875 (cropped and downscaled)",
+    "attributionUrl": "https://www.loc.gov/item/2005685736/",
+    "creator": "Waldon Fawcett (1875-1952)",
+    "date": "c1908",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.loc.gov/item/2005685736/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-15T00:00:00Z",
+    "updatedAt": "2026-11-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead) / LEAD SURVIVED: the lead was the Library of Congress half-length portrait by Waldon Fawcett, c1908. The loc.gov HTML item pages return a bot wall (403), recorded separately from any rights conflict; the library's own JSON item API (loc.gov/item/2005685736/?fo=json) was readable and gives title '[Octave Chanute, 1832-1910, half-length portrait, seated, facing right]', date c1908, note 'Photo copyrighted by Waldon Fawcett, Washington, D.C.', rights advisory and rights information 'No known restrictions on publication', reproduction number LC-USZ62-51875, digital id cph 3a51897, repository Prints and Photographs Division, and a 1083 x 1536 master TIFF (downloaded; the Commons copy is 1049 x 1376). INSCRIPTION: the Fawcett copyright line is faintly legible on the coat, matching the LOC note; there is no caption naming the sitter, so identity rests on the LOC title (a man of about 76, consistent with 1908). No holder/aggregator contradiction found; the preflight note that Commons lists LCCN n91121168 (Fawcett's authority record) is not relied on. KIND likeness (lifetime photograph). RIGHTS: US, c1908, named photographer d.1952; public domain by age whether the print was published or only registered. Shipped file: master cropped a few pixels at the edges and downscaled to 704 x 1000, no upscaling. PREFLIGHT: QID VERIFIED LIVE (2026-11-15, Wikidata API) Q1351565 label 'Octave Chanute', description 'French-American aviation pioneer (1832-1910)', ko label 옥타브 샤뉘트, human, 18 Feb 1832 to 23 Nov 1910, citizenship France and United States. REGION north_america (assigned). ERA 19th_century. Nationality US and FR (Wikidata). ZERO POLITICS: nothing political scored. KOREAN NAME: 옥타브 샤뉘트 is the Wikidata label; no other established Korean form was checked, flagged for the lead. VOCABULARY: occupations engineer, inventor; fields engineering, technology; tags mentor, communicator, cross_disciplinary; archetype technical_innovator. ATTRIBUTION: attributable (dated projects, a large archive of letters, published book). CANONICAL SIGNIFICANCE SOURCE: Britannica (Crouch). READ (8 besides Wikidata count 8 substantive): Britannica print article, NPS people page, EBSCO Research Starter (Marchman), Centennial of Flight Commission entry, Air Force Magazine 'The Critical Twist', Wilbur Wright's 18 Jan 1904 letter with editorial footnote, WBEZ transcript, Linda Hall note. Also read but not cited: Peoria Magazine feature (April 2023), University of Illinois Press and Project MUSE descriptions of Short's biography (publisher copy), Missouri Life note. Wikipedia not used. Not opened: Short's book, the Wright Papers volumes, Progress in Flying Machines, Launius's essay (server unreachable), the LOC Wright Papers essay. PERSPECTIVES: reference (Britannica), heritage-site (NPS), encyclopedia (EBSCO), federal commission, adversarial-leaning magazine history, archive letter with sympathetic editorial note, radio feature, library note. NON-SELF BEHAVIOURAL: all (none is Chanute's own text). Families are not fully independent: Britannica and WBEZ share Crouch, NPS draws on Short, Launius and Crouch. COUNTER-VOICES: Callander and the Wright letter note on his 1903 disclosure, the 1909 dispute and his insistence on sending gliders and assistants to the Wrights. CONFLICTS NOT RESOLVED: Peoria Magazine says he sought no patents, whereas Callander and Crouch say he took out patents (a US patent with Mouillard in 1897, flying-machine ideas with others); the cited sources use the latter and the Peoria claim is not used. Peoria also calls the Hannibal Bridge the first bridge over the Missouri; Linda Hall and Missouri Life agree it was the first rail bridge at Kansas City, and Britannica and NPS give 'first bridge over the Missouri' loosely, so the editorial text says 'first bridge over the Missouri River' as Linda Hall and NPS state it. Dates of Chanute's Erie service 1873-1883 from Britannica. SPARSE 9-row profile by design: no creative originality, persistence, risk or decisiveness rows because the sources describe his role as organiser and communicator rather than as inventor-experimenter (the 1896 gliders were flown and partly designed by Herring and Avery). Not match-eligible by row count; evidence-approved regardless. MAJOR ACHIEVEMENT GATE: PASS on all (cards: Progress in Flying Machines, 1896 dune gliders and trussing, civil engineering career; moments: 1901 invitation to Wilbur, 1909 dispute; turning point: April 1903 Paris disclosure). CONCENTRATION: lowered analytical_rigor, cross_domain_range, impact_motivation for single-family concentration. SELF-CALIBRATION: lowered collaboration, proactive_agency, analytical_rigor, experimentation, impact_motivation, leadership_drive, curiosity, conflict_tolerance; see handback. No raise flags. All score changes are rubric-section-10 type 'concentration/self-calibration before eligibility' (not eligibility-driven)."
+  }
+}

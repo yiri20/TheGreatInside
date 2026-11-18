@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "janusz-korczak",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Janusz Korczak",
+    "aliases": [
+      "Henryk Goldszmit",
+      "Henryk Goldszmidt",
+      "Stary Doktor",
+      "Old Doctor"
+    ],
+    "wikidataId": "Q152441",
+    "birthYear": 1878,
+    "deathYear": 1942,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "PL"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "teacher",
+      "writer"
+    ],
+    "fieldIds": [
+      "education",
+      "medicine",
+      "literature"
+    ],
+    "impactDomains": [
+      "educational",
+      "social",
+      "literary",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "mentor",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_korczak_wikidata",
+      "kind": "wikidata",
+      "title": "Janusz Korczak (Q152441), verified live via the Wikidata API (2026-11-18): instance of human; English description 'Polish-Jewish educator and physician (1878-1942)'; label 'Janusz Korczak' (language-neutral), Korean label 야누쉬 코르챡; born 21 July 1878 (Wikidata date; other sources give 22 July 1878 or 1879), died 7 August 1942; citizenship Poland and the Russian Empire. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q152441"
+    },
+    {
+      "id": "src_korczak_treblinka",
+      "kind": "institution",
+      "title": "Treblinka Museum (Muzeum Treblinka), 'Janusz Korczak - Biography' and 'Janusz Korczak - Education system' (two pages, read in full; chronology built on Falkowska's calendar of his life). CANONICAL SIGNIFICANCE SOURCE: dated life, from medicine (doctorate 1905, children's hospital 1905-12) and military medical service, study visits to Berlin, Paris and London, the directorship of the Dom Sierot orphanage from 1912 with Stefania Wilczynska, Nasz Dom (from 1919), the children's newspaper Maly Przeglad (1926), lectures, court-expert work (1932), the 'Old Doctor' radio talks (1935), the Golden Laurel (1937), his 1940 arrest for not wearing the armband, the ghetto diary of 1942 and the 6 August 1942 deportation of about two hundred children to Treblinka; the education page lists the peer court with its code of forgiveness, the council, the children's parliament, the plebiscite of kindness, the notice board and the letterbox. Memorial-museum text, commemorative and favourable; some details are uncited.",
+      "url": "https://muzeumtreblinka.eu/en/?p=12551"
+    },
+    {
+      "id": "src_korczak_ascherson",
+      "kind": "press",
+      "title": "Neal Ascherson, 'A Polish Hero', The New York Review of Books, 29 September 1988 (review of Betty Jean Lifton's The King of Children and of King Matt the First; read in full). INDEPENDENT AND PARTLY CRITICAL VOICE: calls him a prolific writer for children and adults, a broadcaster and a pioneer of progressive education, 'impossible to categorize', with legendary charm and power to persuade but also 'impossibly difficult' to work with; describes the children's courts at summer camps and the code of articles at Krochmalna, the guardianship and citizenship ratings, the weekly game on bad habits, his absence of beating or withholding of food, his night rounds noting coughing and sleeping positions, the attacks on him from the right, communists and Zionists, the quarrel with Maryna Falska over the court system, his dismissal from the juvenile court, radio and Bielany board in 1936, his refusal of the armband and of several offers of hiding, and the 1942 march; argues that the 'children's republic' was a semblance because his will and authority dominated, and calls the 'saving himself but not his charges' story probably apocryphal.",
+      "url": "https://www.nybooks.com/articles/1988/09/29/a-polish-hero/"
+    },
+    {
+      "id": "src_korczak_nww2",
+      "kind": "institution",
+      "title": "Jacob Flaws, 'Defiance in the Face of Death: Janusz Korczak and the Warsaw Ghetto', The National WWII Museum, 4 September 2025 (article by a historian, read in full; footnotes rely heavily on Lifton's biography, Yad Vashem and the Treblinka Museum, so not independent of them). Records the 1898 pseudonym, medicine and the Russo-Japanese War, the orphanage 'republic for children', the 1937 Golden Laurel, the 1940 move to the ghetto, his refusal of the armband and the arrest and beating after his complaint to the Gestapo, the offers of hiding he refused, begging door to door for food, the diary weights of the children, the 18 July 1942 performance of The Post Office, the 6 August 1942 deportation, and quotations from Szpilman and the poet Szlengel.",
+      "url": "https://www.nationalww2museum.org/node/133108"
+    },
+    {
+      "id": "src_korczak_oelkers",
+      "kind": "biography",
+      "title": "Jurgen Oelkers, 'Korczak's Memoirs: An Educational Interpretation' (scholarly article, University of Zurich; read in full). Reads his 1942 ghetto Memoirs as reflection on his own work rather than a mere diary: the nightly writing from May 1942, weighing the children and the 'five hundred weight and height graphs', his notes on children's sleep, his rejection of educational dogma (he writes the book partly as an answer to Nietzsche), the doubt 'Have I done right or wrong?' and the admission of selfishness at night; quotes Szpilman's account of the march (in which Szpilman says Korczak had to persuade the Germans to take him too, which differs from other accounts and is not used here). Scholarly; its evidence is largely his own text.",
+      "url": "https://www.ife.uzh.ch/dam/jcr:ffffffff-bb47-55f9-0000-000013557731/Oelkers.ER.Korczaks_Tagebuch-def.10.5.12.pdf"
+    },
+    {
+      "id": "src_korczak_hhs",
+      "kind": "institution",
+      "title": "Holocaust Historical Society (UK), 'Janusz Korczak' biography page (read in full; text follows the Yad Vashem biography). Records his early books, summer camps, the 1912 directorship with Wilczynska, the newspaper for children, his removal from posts in the mid-1930s, his refusal in 1939-40 to wear the badge and resulting imprisonment, the ghetto orphanage's routines (duty roster, internal court of honour, Sunday assemblies), Polish friends' offers of asylum that he refused, a July 1942 diary entry on weighing the children, and a witness account of the 6 August 1942 march given to Emanuel Ringelblum. Secondary society page; admiring.",
+      "url": "https://www.holocausthistoricalsociety.org.uk/contents/jewishbiographies/januszkorczak.html"
+    },
+    {
+      "id": "src_korczak_gariwo",
+      "kind": "institution",
+      "title": "Gariwo, The Gardens of the Righteous Worldwide, 'Janusz Korczak - Educator, he followed the Jewish children into the Warsaw Ghetto and in deportation' (biography page, read in full). Records his 1937 letter explaining why he chose not to marry or have children, the 1912 opening of the orphanage and the ban on corporal punishment, King Matt and the 1929 text on the child's right to respect, the black-market food and funds he obtained in the ghetto, and the July 1942 performance. Contains errors and loose claims (for example the origin of his pseudonym and his death 'perhaps of pain' on 5 August) that are not used.",
+      "url": "https://en.gariwo.net/righteous/holocaust/janusz-korczak-17351.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_treblinka, src_korczak_ascherson, src_korczak_nww2, src_korczak_hhs | 1912-1942 | museum chronology, review of biography, historian's article, society biography] He directed the Dom Sierot orphanage from 1912 and returned to it after the First World War; in the ghetto he went on begging for food and fuel, kept the orphanage's routines, school and performances and wrote his diary at night until days before the deportation. Four sources agree on the pattern, but the ghetto detail comes mainly from Lifton's biography via the review and the museum article, and his refusal of rescue is not scored here. SELF-CALIBRATION (agent): lowered from 82 / 0.66 to 78 / 0.62 because the most vivid evidence belongs to one biography family and is easily read through the martyrdom ending."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_treblinka, src_korczak_gariwo, src_korczak_ascherson | 1905-1937 | museum chronology, righteous-foundation biography, review of biography] After years as a hospital doctor he left it in 1912 to run an orphanage, the museum says he resolved in 1911 to devote himself to working with children and not to start a family, and a 1937 letter quoted by Gariwo gives his own reason; the review adds his lifelong writing and lecturing on children's rights. The strongest statements of motive are his own. SELF-CALIBRATION (agent): lowered from 80 / 0.62 to 76 / 0.58 because the motive evidence is mostly his own letters and later tributes."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_treblinka, src_korczak_hhs, src_korczak_ascherson, src_korczak_nww2 | 1936-1940 | museum chronology, society biography, review of biography, historian's article] The museum and the society page record that he was arrested in 1940 for not wearing the required armband and held for about a month; the review says his refusal earned him beating and imprisonment and that he went to protest to the Gestapo, which the museum article places in a dispute over a confiscated cart; the review also records that he stayed in public life through the attacks of the right-wing press in 1936. Details of the Gestapo encounter differ between accounts. SELF-CALIBRATION (agent): lowered from 80 / 0.64 to 76 / 0.6 because the colourful details are one biography's account and the quotation attributed to him is not independently confirmed."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_ascherson, src_korczak_gariwo, src_korczak_oelkers | 1910-1942 | review of biography, righteous-foundation biography, scholarly article] The review says he 'declined to conform to anyone's image' and was attacked from the right, from communists and from Zionists at once; he ran institutions without beating or withholding food when that was ordinary practice (review, Gariwo); Oelkers says he did not follow educational dogma and wrote his Memoirs partly in reply to Nietzsche. CONCENTRATION (agent): lowered from 72 / 0.56 to 68 / 0.52 because the account of attacks from three sides comes from one review of one biography."
+    },
+    "detail_orientation": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_ascherson, src_korczak_oelkers, src_korczak_nww2, src_korczak_hhs | 1912-1942 | review of biography, scholarly article, historian's article, society biography] The review says he prowled the dormitories at night to note coughing and sleeping positions; Oelkers quotes him on the 'five hundred children's weight and height graphs'; his diary records the children's weekly weights, which the historian's article and the society page mention. The practice is described by four sources but two quote his own diary; no source says he was careful about detail in general."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_treblinka, src_korczak_ascherson, src_korczak_oelkers | 1904-1926 | museum chronology, review of biography, scholarly article] He built a children's peer court with a written code, a council, a plebiscite of kindness and a children's newspaper (museum); the review calls his ideas 'idiosyncratic and very influential' and Oelkers says no one else in the history of education planned a study of children's sleep. The review also shows he first tried the court at summer camps and that the republic was partly a semblance of self-rule. CONCENTRATION (agent): lowered from 74 / 0.58 to 68 / 0.52 because the originality claims come from institutional and favourable sources and the review qualifies them."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_ascherson, src_korczak_treblinka | 1904-1930s | review of biography, museum chronology] The review describes a court first tried at summer camps and then extended into a graded system at Krochmalna, plus a weekly game in which children staked sweets on kicking bad habits; the museum lists a letterbox, a plebiscite of kindness, a notice board and a research programme monitoring the pupils' community life. Two sources, both favourable, record trying and revising arrangements; outcomes are not reported."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_treblinka, src_korczak_ascherson, src_korczak_nww2 | 1898-1942 | museum chronology, review of biography, historian's article] He published novels, children's books and journalism, worked as a hospital doctor and military doctor, lectured at the Free Polish University and teacher courses, served as a court expert in children's cases, and broadcast on radio. All of it centres on children and education, which keeps the score moderate."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_korczak_treblinka, src_korczak_ascherson, src_korczak_hhs, src_korczak_gariwo | 1912-1942 | museum chronology, review of biography, society biography, righteous-foundation biography] Four sources describe the 30-year partnership with Stefania Wilczynska and the joint running of Nasz Dom with Maryna Falska; the review adds that Falska disagreed with his court system and that his 'will and personality absolutely dominated' the community. The documented partnership and the documented domination point in different directions, so the evidence is mixed. CONCENTRATION (agent): lowered from 62 / 0.5 strong inference to 58 / 0.46 inference because the domination point and the Falska dispute come from one reviewer's reading of one biography."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_ascherson, src_korczak_nww2 | 1930s-1942 | review of biography, historian's article] The review calls his charm and power to persuade 'legendary', says he drew an enormous radio audience as the 'Old Doctor' and that in the ghetto he pleaded, bargained and cajoled for food and space; the museum article says he begged door to door. CONCENTRATION (agent): lowered from 66 / 0.5 to 62 / 0.46 because 'legendary' is a single summary phrase and both sources rest on the same biography."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_ascherson, src_korczak_gariwo, src_korczak_treblinka, src_korczak_nww2 | 1940-1942 | review of biography, righteous-foundation biography, museum chronology, historian's article] In the ghetto he obtained food, fuel and funds by begging, black-market purchases and appeals (review, Gariwo), kept up secret schooling and staged performances (museum), and the review says his 'genius for begging and scrounging' let the orphans die more slowly than other children. The children still starved, so the score reflects effort rather than success. CONCENTRATION (agent): lowered from 70 / 0.54 to 66 / 0.5 because the begging account is one biography's and Gariwo is loose."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_korczak_treblinka | 1905-1929 | museum chronology] The museum chronology records a year in Berlin (1907-08), half a year in Paris (1910) and a month in London (1911) attending paediatric and special-education lectures and visiting hospitals and institutions, and later lecturing and writing on pedagogy; a single institutional source documents the study trips. CONCENTRATION (agent): lowered from 64 / 0.5 strong inference to 60 / 0.46 inference because one source carries the whole row."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "야누쉬 코르챡"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "Candidate lead, the 1933 Polish postcard held by the Polish National Library (Polona, Commons 'Janusz Korczak.jpg', printed caption 'Janusz Korczak (dr. Henryk Goldszmit) ur. w 1878 r.'), has the right sitter but unresolved rights: (1) the Polona holder record could not be read (JavaScript application; its API returned 401/404 to anonymous requests), so no rights statement or author field was seen at the holder; (2) Commons and Polona list the photographer as unnamed ('portret bezautorski'), but Edward Poznanski (1901-1974) photographed Korczak in 1933 and recalled taking one profile portrait (the Museum of Warsaw print MHW 262/JK, read, is a profile in a cap) and one full-face portrait, and the full-face one was not found, so the postcard may be his; if so it would likely still be protected in Poland (author died 1974) and possibly in the United States as a restored work, which I could not rule out; (3) 1933 publication falls after the US 1931 cutoff, so public-domain status rests on unverified Polish-law analysis plus a Commons template; (4) the Museum of Warsaw states for its Korczak photographs that it does not hold rights or the status is undefined, and a College of Charleston copy of the same postcard says 'copyright status undetermined'. Fallbacks (the 1933 Nasz Przeglad Ilustrowany supplement image and USHMM photo 65010, courtesy credit) have the same or worse rights questions. Hold type: portrait (rights/authorship), not an evidence hold.",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Janusz_Korczak.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / LEAD DID NOT SURVIVE as shippable (portrait HOLD). Lead: Polona 1933 postcard (Commons 'Janusz Korczak.jpg' 4406 x 6035 and crop 3456 x 3979); I viewed the 960-px Commons rendering: the postcard shows a bald, bearded, bespectacled man in a suit and tie and carries the printed caption 'Janusz Korczak (dr. Henryk Goldszmit) ur. w 1878 r. Powiesciopisarz i publicysta. Utwory wydane: Dzieci ulicy, Koszalki opalki, Dziecko salonu, Bobo, Jak kochac dziecko, Jozki Jaski i Franki, Moski Joski i Srule, Slawa, Krol Maciu pierwszy i in.', so sitter identity is confirmed by inscription. Rights could not be confirmed (see portrait.reason): Polona record unreadable, photographer unconfirmed (possible Edward Poznanski, d.1974), Museum of Warsaw states undefined rights for its Korczak photographs, College of Charleston copy says status undetermined. No substitute sitter used. Candidate status therefore portrait_pending, evidence otherwise approved. PREFLIGHT: QID VERIFIED LIVE (2026-11-18, Wikidata API) Q152441, label (language-neutral 'mul') 'Janusz Korczak', Korean label 야누쉬 코르챡, description 'Polish-Jewish educator and physician (1878-1942)', instance of human, born 21 July 1878, died 7 August 1942; no collision in candidates or production. REGION central_europe (Polish precedent Szymborska, Luxemburg). ERA 20th_century (born 1878; career 1905-1942). Nationality PL. ZERO POLITICS: primary identity is physician, educator and writer; his 1909 arrest for pro-independence activity (Gariwo only), military medical service, 1920 war service and the ghetto resistance context are not scored; the refusal of the armband is scored only as tolerance for conflict, and his death in Treblinka is not used as evidence for any row (outcome and martyrdom are not behavioural evidence). KOREAN NAME 야누쉬 코르챡 is the Wikidata Korean label; Korean books may use a different transliteration (flagged for lead review). VOCABULARY: occupations physician, teacher, writer; fields education, medicine, literature; tags founder, mentor, advocate; archetypes social_influencer, creative_creator; impact domains educational, social, literary, historical; all labelled in en.ts and ko.ts. ATTRIBUTION: attributable (dated publications, institutions, ghetto diary, contemporary witnesses), though the death scene and many ghetto anecdotes are legend-prone and are not carded as fact beyond the deportation itself. CANONICAL SIGNIFICANCE SOURCE: Treblinka Museum biography and education-system pages (https://muzeumtreblinka.eu/en/?p=12551). READ (6 sources besides Wikidata): Treblinka Museum (two pages), Ascherson in the NYRB, Flaws at the National WWII Museum, Oelkers (full), Holocaust Historical Society page, Gariwo page. Also read and not cited: Janusz Korczak Association of Canada biography and Child Rights Focus pages (advocacy), Museum of Warsaw and Korczakianum pages and University of Warsaw Korczak repository (used for the portrait), Yad Vashem and USHMM encyclopedia pages (unreadable: script shell and 403), Britannica (403). Wikipedia not used. Not opened: Lifton's biography itself, Korczak's Ghetto Diary or Memoirs in full, Szpilman, Newerly, Silverman, Tyminska. PERSPECTIVES: (1) museum chronology (Polish memorial museum); (2) a critical-leaning review of the main English biography; (3) a historian's museum article based on that biography; (4) a scholarly reading of his own Memoirs; (5) two Holocaust-education and righteous-foundation pages. NON-SELF BEHAVIOURAL SOURCES: Treblinka Museum, Ascherson, Flaws, HHS, Gariwo; Oelkers largely quotes his own text and Szpilman. Independence is limited: Ascherson and Flaws both rest on Lifton, and HHS follows Yad Vashem. CONTRADICTIONS AND LIMITS: birth 21/22 July 1878 or 1879; deportation 5 or 6 August 1942; Gariwo says he may have died of pain before Treblinka while others say he was murdered there; Szpilman (via Oelkers) says Korczak persuaded the Germans to take him too, the poem quoted by Flaws says he refused a release signed by 'Herr Brandt', the review says a 'save himself but not his charges' story is probably apocryphal; the Gestapo encounter is a cart of potatoes (Flaws) or a wagon of coal and potatoes (Ascherson); Dom Sierot was opened in 1912 or February 1913; number of children about 190-200. None of these is carded. COUNTER-VOICES: Ascherson (will dominated the 'republic', he was maddening to work with, Falska's criticism, students' difficulty adapting, he procrastinated over Palestine), Oelkers (self-doubt and ambivalence). MAJOR ACHIEVEMENT GATE (first pass PASS on all six): cards (1) Dom Sierot and the children's republic with its peer court, (2) the writings on children's rights and for children (King Matt, How to Love a Child, The Child's Right to Respect) and the radio talks, (3) the ghetto orphanage and the deportation with the children, credited as a moral example rather than an achievement of results. SELF-CALIBRATION and CONCENTRATION: twelve rows initially scored; nine lowered, three kept (see handback); no row raised. HANDBACK68 in C:\\Users\\Lenovo\\TGI-r68-scratch\\handback\\janusz-korczak.json."
+  }
+}
