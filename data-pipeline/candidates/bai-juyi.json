@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "bai-juyi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Bai Juyi",
+    "aliases": [
+      "Bo Juyi",
+      "Po Chü-i",
+      "Bai Letian",
+      "白居易"
+    ],
+    "wikidataId": "Q313324",
+    "birthYear": 772,
+    "deathYear": 846,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [],
+    "regionCode": "east_asia",
+    "historicalPolityKey": "polity.tang_dynasty"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "prolific",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bai_wikidata",
+      "kind": "wikidata",
+      "title": "Bai Juyi (Q313324), verified live via the Wikidata API (2026-11-18): labels Bai Juyi, 白居易 and 백거이, English description 'Chinese poet of the Tang Dynasty (772-846)', born 28 February 772, died 23 September 846, citizen of the Tang dynasty, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q313324"
+    },
+    {
+      "id": "src_bai_waley",
+      "kind": "biography",
+      "title": "Arthur Waley, The Life and Times of Po Chü-i, 772-846 A.D. (London: George Allen and Unwin, 1949; the first full biography in English, read in the Internet Archive scan of the Digital Library of India copy, full OCR text searched and the relevant chapters read). CANONICAL SIGNIFICANCE SOURCE: says no other Tang poet wrote so many poems that ordinary people could understand and that his popularity has held in China and Japan; narrates his 810 memorials on the Hopei war, his three memorials for Yuan Zhen, his 815 memorial after the murder of the chief minister Wu Yuanheng and the banishment that followed, his Jiangzhou and Hangzhou posts (including the lake dam and its inscription), his Luoyang retirement and garden, the three copies of his works housed in monasteries, and his later doubts about having been too cautious. Scholarly biography, much of it built on Bai's own letters and poems (so partly self-report) and on the Old Book of Tang; it also notes that the story of him reading poems to an old woman first appears in the eleventh century and may not be true.",
+      "url": "https://archive.org/details/in.ernet.dli.2015.186730"
+    },
+    {
+      "id": "src_bai_jts",
+      "kind": "biography",
+      "title": "Old Book of Tang (Jiu Tangshu), juan 166, biography of Bai Juyi (Chinese Wikisource text; read through a machine-assisted English summary of the whole biography, not in the Chinese original). Official dynastic history compiled in the tenth century: dated career from the 798 jinshi to his Luoyang posts; memorials against the appointment of Wang E and the military campaign led by a eunuch commander, in defence of Yuan Zhen and on the Li Shidao house purchase; the 815 memorial after the murder of Wu Yuanheng, the officials' dislike of his remonstrances and his demotion to Jiangzhou; his hermitage on Mount Lu; his avoidance of factions and requests for light-duty posts; his Luoyang house and music hall; copies of his collection placed in temple libraries; and the historians' judgment that his character was the better of Yuan Zhen's and his. Court history, partly drawing on Bai's own letters and prefaces.",
+      "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7166"
+    },
+    {
+      "id": "src_bai_xts",
+      "kind": "biography",
+      "title": "New Book of Tang (Xin Tangshu), juan 119, biography of Bai Juyi (Chinese Wikisource text; read through a machine-assisted English summary of the whole biography, not in the Chinese original). Eleventh-century dynastic history that revises the older one: his 809 memorial during a drought asking tax relief and the release of palace women, his objections to the Yu Di singers' gift and to the Li Shidao purchase, the assassination memorial and demotion, his work as prefect of Hangzhou (a dike to hold back the lake, irrigation of about a thousand qing of land, clearing of the old city wells), his Luoyang garden and the Nine Elders picture, the fourfold classification of his poems, and the historians' praise of his directness and his refusal to advance through factions together with Du Mu's criticism that some of his verse was too sensual. Court history; shares material with the older one.",
+      "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8/%E5%8D%B7119"
+    },
+    {
+      "id": "src_bai_nwe",
+      "kind": "biography",
+      "title": "New World Encyclopedia, 'Bai Juyi' (read in full). Born in 772 to a poor scholarly family; passed the jinshi in 800; Hanlin Academy and Reminder of the Left 807-815; exiled in 815 for remonstrating too forcefully; prefect of Hangzhou (822-824) and Suzhou (825-827), mayor of Luoyang in 829; wrote over 2,800 poems that he had copied and distributed; known for plain language and for sympathy with the hardships of the people; led a literary circle that rejected courtly fashion and revived the ballad tradition of social protest; his Song of Everlasting Sorrow was echoed in Japanese Heian writing. General encyclopedia entry with several internal inconsistencies; used only for corroboration and for the reception in Japan.",
+      "url": "https://www.newworldencyclopedia.org/entry/Bai_Juyi"
+    },
+    {
+      "id": "src_bai_baidu",
+      "kind": "biography",
+      "title": "Baidu Baike (English edition), 'Bai Juyi (Chinese Tang dynasty poet)' (read: the first 100,000 characters). Chinese-compiled reference article with a year-by-year chronology: the Hanlin and Left Reminder memorials and the Fifty New Yuefu Poems; the 815 demotion; Hangzhou works (the Six Wells, West Lake embankments for irrigation, the Stone Record of Qiantang Lake); the Suzhou canal; funding for clearing the Longmen shoals in 844-845; his four categories of poems; his turn toward personal cultivation after the demotion; and a reception history that records praise (the Tang and Song histories, Chen Yinke and Hu Shi) and criticism (Su Zhe, Wei Tai, Yuan Mei, Qian Zhongshu, and the charge that some New Yuefu pieces are dry and moralising). Anonymous compilation; used for dates and reception, with its unique claims flagged.",
+      "url": "https://baike.baidu.com/en/item/Bai%20Juyi/987423"
+    },
+    {
+      "id": "src_bai_cns",
+      "kind": "press",
+      "title": "China News Service report by Ying Ni on the Ming-Qing portrait exhibition at the Shenzhen Museum (dispatched 27 December 2024 and republished by China Daily's Chinese site on 29 December 2024; read in Chinese). Used for the portrait: says the Tang Famous Officials portraits (Tang mingchen xiang) number 22 half-length figures, including Li Bai, Yan Zhenqing, Bai Juyi and Han Xizai, each with a name slip at upper right, that their faces draw on images of earlier dynasties, and that they belong to the portraits the Qianlong emperor had organised and restored and stored in the Nanxun Hall. Not used as support for any trait row.",
+      "url": "https://cn.chinadaily.com.cn/a/202412/29/WS6770944ea310b59111dab608.html"
+    }
+  ],
+  "rows": {
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_bai_jts, src_bai_xts, src_bai_waley | 808-815 | court history, court history, scholarly biography] As Left Remonstrator he argued in memorials against making Wang E chief minister and against the campaign led by a eunuch commander, sent memorials asking that Yuan Zhen's banishment be reversed, and in 815 memorialised the throne the same day that the chief minister Wu Yuanheng was murdered, demanding that the killers be caught; both Tang histories record that officials resented his remonstrances and that he was sent to Jiangzhou, and Waley adds that the Emperor was displeased with his criticism of the eunuch commander and that Bai later left the assassination memorial out of his collected works. After about 820 the same sources show him avoiding factions and asking for light posts, so the pattern is bold early and cautious later, which keeps the score below the extreme band and makes the impact dual-edged. SELF-CALIBRATION (agent): lowered from 74 / 0.62 to 70 / 0.58 because the two Tang histories are one lineage and Waley leans on them and on Bai's own letter for the episodes."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bai_xts, src_bai_waley, src_bai_baidu | 822-845 | court history, scholarly biography, reference compilation] The New Book of Tang says that as prefect of Hangzhou he built a dike to hold back the lake, let its water out to irrigate about a thousand qing of land and dredged the old city wells; Waley says he took a close interest in water storage and irrigation and that the dam was raised by several feet under his auspices in early 824, but that he did not originate it, and he quotes the inscription in which Bai answers objections to draining the lake; Baidu Baike adds a canal at Suzhou and funding for clearing the Longmen shoals in 844-845, which the other sources do not mention. Credit for the dam is disputed and the later works rest on one compilation, so the score is moderate. SELF-CALIBRATION (agent): lowered from 66 / 0.54 to 62 / 0.50 because Waley disputes the 'built' framing and the later works rest on a single compilation."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bai_waley, src_bai_xts, src_bai_baidu | 808-845 | scholarly biography, court history, reference compilation] In a letter quoted by Waley he wrote that the duty of poetry is to influence public affairs and that he wrote ballads so that grievances might reach the Emperor; the New Book of Tang records his memorial of 809 asking for tax relief in a drought and the release of palace women, and the Hangzhou and Longmen works point the same way. The stated purpose is his own, and the later turn to self-cultivation (Waley's account of his 833 conversation about the two possible ways of life, and Baidu Baike's turning point after the demotion) shows the drive weakened. SELF-CALIBRATION (agent): lowered from 70 / 0.58 to 64 / 0.50 because the purpose is mainly self-reported and his own later remarks show it faded after the demotion."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bai_jts, src_bai_waley, src_bai_baidu | 815-842 | court history, scholarly biography, reference compilation] The Old Book of Tang says he avoided factional politics, feared being labelled a partisan because of his wife's family ties and often asked for light-duty posts or left early on sick leave; Waley quotes his own letter that he preferred to remain independent rather than attach himself to one leader and describes his obstinate refusal to side with either party; Baidu Baike says he turned toward personal cultivation after the demotion. Waley notes the cost: by the standard of his fellow Hanlin colleagues, several of whom became chief ministers, his public career was unsuccessful."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bai_jts, src_bai_waley, src_bai_baidu | 815-818 | court history, scholarly biography, reference compilation] The Old Book of Tang says he was accepting and at ease with exile in Jiangzhou, where he built a hermitage on Mount Lu and kept company with monks; Waley quotes his letter presenting the demoted post as one suited to a man content with leisure and adds that he would not have refused a better post, which his friends were already seeking; Baidu Baike says his conduct turned toward personal cultivation. The ease is mostly a historian's summary and his own reframing. SELF-CALIBRATION (agent): lowered from 64 / 0.50 (strong inference) to 60 / 0.44 (inference) because the acceptance rests on a court historian's summary and his own reframing."
+    },
+    "analytical_rigor": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bai_waley, src_bai_jts | 810-824 | scholarly biography, court history] Waley describes his memorials of 810 urging talks with Wang Chengzong, arguing that the generals' reports of success were unreliable and that the troops were disaffected, and his Hangzhou inscription, which answers the objection that draining the lake dried the city wells by pointing to springs under the lake and advises inspecting the buried culverts, in language Waley calls lucid; the Old Book of Tang records his opposition to the same campaign. Both episodes are described mainly by one modern biographer, and the reasoning is summarised rather than reproduced. SELF-CALIBRATION (agent): lowered from 64 / 0.52 (strong inference) to 58 / 0.46 (inference) because the two episodes are known mainly through one biographer's summaries."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bai_xts, src_bai_nwe, src_bai_baidu, src_bai_waley | 800-845 | court history, encyclopedia, reference compilation, scholarly biography] Later tradition paired him with Yuan Zhen and with Liu Yuxi (New Book of Tang); the sources describe a literary circle that shared an ideal of plain, socially useful poetry (New World Encyclopedia), Yuan Zhen's help in compiling his collection and exchanges of poems and letters with both friends (Baidu Baike, Waley), and late gatherings of elderly friends at Luoyang depicted in the Nine Elders picture (New Book of Tang). The exchange of poems and the gatherings show sustained companionship rather than joint projects, so the score is moderate."
+    },
+    "aesthetic_sensitivity": {
+      "score": 60,
+      "confidence": 0.45,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bai_waley, src_bai_xts, src_bai_jts | 824-840s | scholarly biography, court history, court history] At Luoyang he built a house and garden around a pond with pavilions, brought garden rocks, bamboo, white lotuses and cranes from Hangzhou and Suzhou, and kept a troupe of dancers and musicians for a music hall (Waley; both Tang histories describe the garden, the tower and the music hall). The collecting and arranging of garden material is documented, but the sources treat it as leisure and do not describe his reasons."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bai_jts, src_bai_waley, src_bai_baidu | 815-845 | court history, scholarly biography, reference compilation] He sorted his poems into four groups in a preface to his collection, had copies of his collected works placed in temple and monastery libraries (Old Book of Tang) and, according to Waley, housed three copies in Buddhist monasteries for safety; Baidu Baike adds a classified reference work of 1,367 categories. The sources describe the arrangements but not how far ahead he was thinking."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "백거이"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/bai-juyi-unknown-qing.jpg",
+    "width": 710,
+    "height": 1000,
+    "source": "Portrait of Bai Letian (Bai Juyi), number 21 of the album 'Tang mingchen xiang' (Portraits of Famous Tang Officials), a set of 22 half-length portraits on silk (84.4 x 62 cm per Wikidata) with a name slip at upper right; the slip on this page reads 白樂天 (Letian is Bai Juyi's courtesy name). The set belongs to the Qing court's Nanxun Hall portrait tradition and is recorded in the National Museum of China (per Wikidata and Commons; the holder's own item record could not be located). The file is the Wikimedia Commons image 'Tang mingchen xiang 21 Bai Letian' (1293 x 1822, taken from a CCTV News page) downscaled to 710 x 1000 with no cropping and no upscaling.",
+    "license": "Public domain by age: an anonymous Qing-dynasty (before 1912) silk painting, so any copyright has long expired in China and the United States, and a photograph of a flat old painting adds no new copyright; Commons tags it PD-Art (PD-old-100). Holder caveat: the National Museum of China's own item record and image terms were not found online (its site carries only a generic copyright footer), so the holder's position on reproduction is unconfirmed",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Anonymous Qing-dynasty painter, Bai Letian (Bai Juyi), from the album Tang mingchen xiang, silk, National Museum of China (via Wikimedia Commons).",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-21-%E7%99%BD%E6%A8%82%E5%A4%A9.jpg",
+    "creator": "Unknown Qing-dynasty court-tradition painter",
+    "date": "Qing dynasty (exact date not stated)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:%E5%94%90%E5%90%8D%E8%87%A3%E5%83%8F-21-%E7%99%BD%E6%A8%82%E5%A4%A9.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / lead DID NOT SURVIVE: the lead (Commons 'Bai Juyi by Chen Hongshou.jpg', Museum Rietberg) was dropped because Commons' own French caption calls it a portrait of Nan Shenglu in four scenes from Bai Juyi's life, so the sitter is ambiguous and no holder record was located. The Stage B fallback, the Kano Tsunenobu handscroll section (Museum of Fine Arts, Boston 11.6777, inscribed 白居易 with a poem, Commons file only 353 x 468), was tried: the MFA record pages (collections.mfa.org and its emuseum mirror) return 403 to automated requests, which is recorded as a bot wall and was not bypassed, so the MFA's rights wording stays unverified and the image was not used. A third route, the Commons crop of the Wanxiao tang huazhuan page (837 x 1564), was rejected because the crop carries no caption, so the sitter could not be checked from the image. REPLACEMENT: Commons file 'Tang mingchen xiang 21 Bai Letian' (1293 x 1822): the name slip at upper right reads 白樂天, the courtesy name of Bai Juyi; the China News Service report (read) says the 22 Tang famous-official portraits include Bai Juyi with name slips at upper right and belong to the Qing court's Nanxun Hall portrait tradition. Wikidata (Q132570944) records the page in the National Museum of China, silk, 84.4 x 62 cm, Qing dynasty; Commons' own source is a CCTV News page that no longer shows text, and the museum's item record was not located (chnmuseum.cn has no searchable record), so the holder's reuse terms are unverified. Rights rest on age (anonymous Qing painting). KIND historical_depiction: a Qing-period half-length portrait made about a thousand years after the sitter's death from earlier images, not a likeness. Downscaled from 1293 x 1822 to 710 x 1000, no cropping. PREFLIGHT: QID VERIFIED LIVE (2026-11-18, Wikidata API) Q313324 labels Bai Juyi / 白居易 / 백거이, description 'Chinese poet of the Tang Dynasty (772-846)', born 772-02-28, died 846-09-23, human, citizen of the Tang dynasty. REGION east_asia, ERA medieval, historicalPolityKey polity.tang_dynasty, nationality left empty, all following the Du Fu precedent. DEATH YEAR: 846 per Wikidata and the New Book of Tang; the Old Book of Tang as summarised gives 847. KOREAN NAME: 백거이 is the Wikidata Korean label, the standard Korean reading. ZERO POLITICS: primary identity is poet; his posts, memorials and exile are scored only as conduct in office (courage under official displeasure, water works), and the Niu-Li factional struggle is context, not scored. ATTRIBUTION: attributable (dated memorials, dated posts, his own dated letters and prefaces, two dynastic histories and a full modern biography). CANONICAL SIGNIFICANCE SOURCE: Waley, The Life and Times of Po Chü-i (https://archive.org/details/in.ernet.dli.2015.186730). READ (6 sources besides Wikidata): Waley (full OCR text, relevant chapters), Old Book of Tang juan 166 and New Book of Tang juan 119 (Wikisource, via English summaries), New World Encyclopedia, Baidu Baike English edition (first 100,000 characters), China News Service report (portrait only). Britannica, Poetry Foundation and the World History Encyclopedia returned 403; the Spectator review returned no text. Not opened: Bai's own collected works, Owen or Cambridge History chapters. PERSPECTIVES: modern English-language scholarship (Waley), two official dynastic histories (the older is the main source of the later), a Chinese reference compilation with a reception history, a general encyclopedia. NON-SELF BEHAVIOURAL SOURCES: the two Tang histories, Waley's narrative and Baidu Baike; Waley and the histories also quote Bai's own letters and prefaces, so some rows are partly self-report. COUNTER-VOICES: Waley's remark that Bai wondered late in life whether he had been too cautious and that his public career was unsuccessful by his colleagues' standard; the New Book of Tang's report of Du Mu's criticism that some verse is too sensual; Baidu Baike's list of critics (Su Zhe, Wei Tai, Yuan Mei, Qian Zhongshu) and of the charge that some New Yuefu pieces are dry and moralising; Waley on Wang Shizhen calling the verse 'intolerably rustic and common'. Conflicts not carded: birthplace (Xinzheng or Taiyuan), the date of the Hangzhou dam (Waley says he did not originate it), the death year (846 or 847), the old-woman anecdote (first attested in the eleventh century per Waley, so not used). Wealth, household singers (Fan Su and the dismissal after his 839 stroke) and family matters are not scored. A sparse nine-row profile by design: no row on perseverance, self-discipline or intellectual curiosity, because the sources document output (about 2,800 poems) rather than how he worked. MAJOR ACHIEVEMENT GATE: cards (1) the plain-style narrative poems and their reach, (2) socially purposed poetry and the New Yuefu ballads, (3) reach in Japan; Hangzhou water works and the 815 memorial are moments. SELF-CALIBRATION: rows_initial 9; lowered tolerance for conflict (74/0.62 to 70/0.58), proactive agency (66/0.54 to 62/0.50), impact motivation (70/0.58 to 64/0.50), ability to adapt (64/0.50 to 60/0.44, now inference), analytical rigor (64/0.52 to 58/0.46, now inference); no row raised."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mansa-musa",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mansa Musa",
+    "aliases": [
+      "Musa I of Mali",
+      "Mansa Musa I",
+      "Kanku Musa",
+      "Kankan Musa",
+      "Musse Melly"
+    ],
+    "wikidataId": "Q309333",
+    "birthYear": 1280,
+    "deathYear": 1337,
+    "isLiving": false,
+    "era": "medieval",
+    "nationalityCodes": [
+      "ML"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "religion"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural"
+    ],
+    "tagIds": [
+      "leader",
+      "administrator"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_musa_wikidata",
+      "kind": "wikidata",
+      "title": "Mansa Musa (Q309333), verified live via the Wikidata API (2026-11-18): English label Mansa Musa, English description '14th-century emperor (mansa) of the Mali Empire', instance of human, born 1280 (precision year, approximate), died 1337, Korean label 만사 무사. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q309333"
+    },
+    {
+      "id": "src_musa_wikipedia",
+      "kind": "wikipedia",
+      "title": "Wikipedia, 'Mansa Musa' (read in full on 2026-11-18). Orientation only: used to learn the names and the Arabic and later sources the scholarship rests on (al-Umari, Ibn Khaldun, al-Maqrizi, Ibn Battuta, the Timbuktu chronicles, and the 2019 Collet article, which was paywalled and not read), to see that the date of his birth, the story of his accession and the length of the gold-price fall are disputed, and to note that the name Kanku Musa is explained as 'Musa, son of Kanku'. Not cited for any row.",
+      "url": "https://en.wikipedia.org/wiki/Mansa_Musa"
+    },
+    {
+      "id": "src_musa_umari",
+      "kind": "archive",
+      "title": "World History Commons, 'Al-Umari's Account of Mansa Musa's Visit to Cairo' (page read in full; the same excerpt is reproduced by the Boston University African Studies Center and the University of Houston's Digital History). It prints a translated excerpt of the Syrian-born Mamluk writer al-Umari, from Levtzion and Hopkins, Corpus of Early Arabic Sources for West African History (Cambridge University Press, 1981), pp. 269-273: written some years after the 1324 visit from what Cairo residents and an emir told him, it says Musa flooded Cairo with gifts of gold, told the Mamluk emir who met him that he had come for the pilgrimage and nothing else, balked at kissing the ground before the sultan, then prostrated himself 'to God who created me' after an aide whispered to him, and that the price of gold fell in Egypt. The nearest thing to a contemporary account, but secondhand, an official's recollection, and partly admiring.",
+      "url": "https://worldhistorycommons.org/al-umaris-account-mansa-musas-visit-cairo"
+    },
+    {
+      "id": "src_musa_ebsco",
+      "kind": "biography",
+      "title": "S. Sishagne, 'Mansa Musa's Pilgrimage to Mecca', EBSCO Research Starters (2022; full article read). CANONICAL SIGNIFICANCE SOURCE: reference essay presenting him as the best-known ruler of the Mali Empire (r. 1312-1337), whose 1324-1325 pilgrimage, funded by special levies on trading towns and provinces and made with a very large entourage, spread Mali's fame through North Africa, the Middle East and Europe (as early as 1375 European map-makers drew him holding a gold nugget), and who, after it, brought back books and scholars, opened Islamic schools and brought in architects who introduced a new building style; it also summarises an empire of twelve provinces under appointed governors, and says he named his son Maghan deputy during the pilgrimage. A general reference summary of the Arabic chronicles, not an independent source.",
+      "url": "https://ebsco.com/research-starters/history/mansa-musas-pilgrimage-mecca"
+    },
+    {
+      "id": "src_musa_whe",
+      "kind": "biography",
+      "title": "Mark Cartwright, 'Mansa Musa I: The Richest Man in History?', World History Encyclopedia (editorially reviewed; read in full). Encyclopedia article that tells his accession in 1312, the provincial governors he appointed, the stay in Cairo (the sultan's demand that he kiss the ground, the quoted al-Maqrizi description of him as a young man with a pleasant face, the report that he and his people left Cairo in debt, and the claim that gold fell by 20 per cent and took 12 years to recover, which the fact-check page below disputes), the lodging he bought in Arabia for Mali pilgrims, the buildings and the architect credited with them after his return, and his sending of Mali scholars to Fez. Popular reference writing drawing on general histories; several figures are reported as 'in some accounts'.",
+      "url": "https://www.worldhistory.org/Mansa_Musa_I/"
+    },
+    {
+      "id": "src_musa_bl",
+      "kind": "institution",
+      "title": "Eleanor Jackson, 'African kings on medieval and Renaissance maps', British Library medieval manuscripts blog (14 July 2022; read in full). Curator's account of how his 1324 pilgrimage and his gold became a European picture of West Africa: it describes the Catalan Atlas of 1375 (Paris, Bibliotheque nationale de France, MS Espagnol 30, attributed to Abraham Cresques of Majorca) as the earliest surviving map to show him, enthroned with a crown, sceptre and gold orb and captioned 'Musse Melly (Musa of Mali), lord of Guinea', the richest and noblest ruler of the region because of its gold, and shows later maps repeating the emphasis on his wealth.",
+      "url": "https://www.bl.uk/stories/blogs/posts/african-kings-on-medieval-and-renaissance-maps"
+    },
+    {
+      "id": "src_musa_northwestern",
+      "kind": "press",
+      "title": "Stephanie Kulke, 'A Golden Age: King Mansa Musa's Reign', Northwestern Magazine (Spring 2019; read in full), on the Block Museum exhibition Caravans of Gold. Museum-linked feature: repeats al-Umari's account of the gifts that depressed the price of gold, describes the pilgrimage as one of the great Sahara caravans, and relays the exhibition speaker Gus Casely-Hayford's view that Musa 'sought knowledge' and brought scholars and an Andalusian architect back to build the Djinguereber mosque. Exhibition publicity, so celebratory, and the figures given (8,000 courtiers, 12,000 servants) come from the speaker.",
+      "url": "https://magazine.northwestern.edu/features/caravans-of-gold-fragments-in-time/a-golden-age-king-mansa-musas-reign"
+    },
+    {
+      "id": "src_musa_factcheck",
+      "kind": "press",
+      "title": "Aris Manus, 'Fact Check: $400 Billion Mansa Musa Fortune Traces to a 2012 Website List', Ancient Origins (October 2026; read in full). Critical check of the popular claims, drawing on the historian Warren Schultz (2006): says the hajj, the gifts of gold and a fall of gold against silver in Cairo are established; al-Umari wrote at second hand and about twelve years later, and was not in Egypt in 1324; three later Mamluk writers also record a fall, but only al-Umari says it lasted twelve years, which Schultz calls unsupportable; the 'richest person ever' and $400 billion claims have no historical basis; and Ibn Battuta's material on Musa, gathered in 1352-1353 from a governor who had travelled with him, is also secondhand. A skeptical outlet whose fact-check leans on one historian.",
+      "url": "https://www.ancient-origins.net/news-history-archaeology/mansa-musa-400-billion-richest-man-fact-check-00103294"
+    }
+  ],
+  "rows": {
+    "social_assertiveness": {
+      "score": 56,
+      "confidence": 0.34,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_musa_umari, src_musa_whe | 1324 | primary chronicle excerpt, encyclopedia overview] Al-Umari, relaying an emir's account, says Musa declined to go up to the Citadel ('I came for the Pilgrimage and nothing else'), refused at first to kiss the ground before the Mamluk sultan, and then prostrated himself 'to God who created me' on an aide's whispered suggestion; the encyclopedia says the sultan insisted on the ground-kissing. The episode is one hearsay story set down years later by an official who was not there, and it ended in a face-saving compromise rather than a standoff, so the score sits near the middle with low confidence. SELF-CALIBRATION (agent): lowered from 60 / 0.40 because the whole row rests on one secondhand anecdote."
+    },
+    "proactive_agency": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_musa_ebsco, src_musa_whe, src_musa_northwestern | 1324-1330s | reference essay, encyclopedia overview, museum-linked feature] Reference accounts say he used the pilgrimage to bring back books, scholars and architects, opened Islamic schools across the empire, bought lodging in Arabia for Mali pilgrims and sent Mali scholars to Fez to study and return as teachers. The acts are reported consistently, but all three accounts rest on the same Arabic chronicles and later retellings, the architect's role is told in different ways, and the exhibition feature's claim that he 'sought knowledge' is a speaker's view, so this is a pattern read from summaries rather than a documented decision. SELF-CALIBRATION (agent): lowered from 62 / 0.44 and from strong inference to inference because the accounts are one family and are mostly modern summaries."
+    },
+    "planning_orientation": {
+      "score": 52,
+      "confidence": 0.32,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_musa_ebsco, src_musa_whe, src_musa_factcheck | 1324-1325 | reference essay, encyclopedia overview, fact-check page] The reference essay says he raised special contributions from trading towns and provinces for the journey and named his son Maghan deputy before leaving, which points to preparation; the encyclopedia adds that he and his entourage left Cairo in debt, which points to spending that outran the plan, and the fact-check page notes that the best-known figures about his wealth and spending are unverified. The preparation and the shortfall are both reported only in general summaries, so the score stays near the middle with low confidence. SELF-CALIBRATION (agent): lowered from 56 / 0.38 because the evidence is mixed and comes from one chronicle tradition."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "만사 무사"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mansa-musa-cresques-1375.jpg",
+    "width": 1000,
+    "height": 737,
+    "source": "Detail of the Catalan Atlas (Paris, Bibliotheque nationale de France, Departement des Manuscrits, Espagnol 30), the West African sheet (Gallica image view f7): a crowned, enthroned Black ruler holding a gold orb and a sceptre, with the Catalan legend beside him reading, in the manuscript's spelling, 'aquest senyor negre es apellat musse melly senyor dels negres de gyneua; aquest rey es lo pus rich el pus noble senyor de tota esta partida per la abondancia de lor lo qual se recull en la sua terra' (the British Library translates it as 'This Black ruler is named Musse Melly (Musa of Mali), lord of Guinea... the richest and noblest ruler of this whole region because of the abundance of gold'). Cropped (region 3000,12850 by 3120 x 2300 pixels of the 6451 x 15770 pixel image) from the BnF's own Gallica IIIF image service and downscaled to 1000 x 737; no upscaling. Not downloaded through Wikimedia Commons (upload.wikimedia.org answered HTTP 429).",
+    "license": "Public domain: manuscript made around 1375 (BnF dates it 1370-1380; attributed to Abraham Cresques, who died in 1387, or to his workshop), so any copyright expired long ago; the holder's own Gallica metadata record (OAI Dublin Core) states the rights as 'domaine public / public domain'. A faithful photographic reproduction of a flat medieval manuscript page adds no new copyright in the United States.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Attributed to Abraham Cresques or his workshop, Catalan Atlas, c. 1375, Bibliotheque nationale de France, Departement des Manuscrits, Espagnol 30 (Gallica, ark:/12148/btv1b55002481n); detail cropped from the BnF digitisation.",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b55002481n",
+    "creator": "Abraham Cresques (attributed) or his Majorcan workshop",
+    "date": "c. 1375 (BnF: 1370-1380; made about 38 years after his death)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b55002481n"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: Stage B PLAUSIBLE / LEAD SURVIVED with a better route: the lead (Commons 'Kanga Moussa Atlas Catalan.jpg', a 1448 x 2094 detail from Gallica) could not be downloaded from upload.wikimedia.org (HTTP 429) and the Gallica item page itself is bot-walled (HTTP 403, recorded as a bot wall, not a rights conflict), so I used the BnF's own IIIF image service (manifest and image tiles readable, no wall) and cropped the same Atlas panel at higher native resolution (1000 x 737 downscaled from a 3120 x 2300 region). Holder record: the BnF Gallica OAI Dublin Core record for btv1b55002481n (read) gives title 'Abraham Cresques ? Atlas de cartes marines, dit [Atlas catalan]', creator Cresques, date 1370-1380, rights 'domaine public / public domain', shelfmark Espagnol 30, and its description lists among the figures on the map 'le roi Noir Mussa Melly assis sur un trone'; the IIIF manifest's licence link points to a BnF conditions-of-use page that now returns 404, so no restrictive terms could be found. Sitter: the legend beside the figure (read on the image) names Musse Melly, lord of the Black people of Guinea, matching the British Library's translation; identification of Musse Melly with Mansa Musa is the standard one (British Library, BnF-attributed map scholarship) but rests on the map's own wording, not a lifetime portrait. KIND historical_depiction: a stylised Majorcan map vignette made decades after his death for a European audience, not a likeness. Attribution to Cresques is conventional ('attributed to Abraham Cresques or to his workshop'; Northwestern's Caravans database is more cautious). ATTRIBUTION: limited_but_usable: no contemporary West African account of him survives; what we know comes from Arabic writers who wrote at second hand, so the profile is deliberately sparse (3 rows) and every row is low-confidence. PREFLIGHT: QID VERIFIED LIVE (2026-11-18) Q309333, label Mansa Musa, description '14th-century emperor (mansa) of the Mali Empire', human, born 1280 (approx), died 1337, Korean label 만사 무사 (established Korean name, from Wikidata and Korean Wikipedia). REGION sub_saharan_africa; ERA medieval (precedent Genghis Khan); nationality ML (modern Mali) as a convention for the empire's heartland. CANONICAL SIGNIFICANCE SOURCE: EBSCO Research Starters essay 'Mansa Musa's Pilgrimage to Mecca'. READ: the sources cited above (all opened and read); NOT READ: Collet 2019 (paywalled), Levtzion 1963, Schultz 2006 (not retrievable; known only through the Ancient Origins page), Ibn Khaldun, al-Maqrizi and Ibn Battuta texts directly, the Northwestern Caravans catalogue record (unreadable), Britannica and the Metropolitan Museum essay (blocked or not found), a travel-narrative site and the South African History Online page (read, rejected as unreliable or unsourced on points of detail). COUNTER-VOICES: the fact-check page's point that al-Umari wrote at second hand and that the 12-year gold-price claim is unsupported; the encyclopedia article's 20 per cent and 12-year figures are therefore not carded; claims of an exact net worth, 'richest ever', army size, the mosque-every-Friday story and the 60,000-person figure are not carded; the architect's identity and the buildings attributed to him are told differently by different sources and are hedged in the editorial draft. Politics: the zero-politics composition rule is a roster-selection rule; no row scores rule, conquest or statecraft, and the empire's expansion, the enslavement associated with the gold and salt trade and the succession after his death are context, not scored. HANDBACK68: concentration check found all three rows resting on one Arabic-chronicle tradition seen through modern summaries; initial 3 rows, 3 lowered (scores and confidences), 1 evidence type lowered (proactive agency, strong inference to inference). No raise flags."
+  }
+}

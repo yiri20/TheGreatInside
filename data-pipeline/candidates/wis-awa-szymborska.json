@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "wis-awa-szymborska",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Wisława Szymborska",
+    "aliases": [
+      "Wislawa Szymborska",
+      "Maria Wisława Anna Szymborska"
+    ],
+    "wikidataId": "Q42552",
+    "birthYear": 1923,
+    "deathYear": 2012,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "PL"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "perfectionist",
+      "independent"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_szymborska_wikidata",
+      "kind": "wikidata",
+      "title": "Wisława Szymborska (Q42552), verified live via the Wikidata API (2026-11-18): English label 'Wisława Szymborska', description 'Polish poet, Nobel Prize winner (1923-2012)', instance of human, born 2 July 1923, died 1 February 2012, citizen of Poland, Korean label 비스와바 심보르스카. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q42552"
+    },
+    {
+      "id": "src_szymborska_nobel",
+      "kind": "institution",
+      "title": "Nobel Foundation, 'Wislawa Szymborska - Biographical', the 1996 Presentation Speech by Birgitta Trotzig of the Swedish Academy, and Szymborska's Nobel Lecture 'The poet and the world' (7 December 1996) (nobelprize.org; all three read in full). CANONICAL SIGNIFICANCE SOURCE (award body, so institutional praise): the biographical note lists her debut in 1945, her years as poetry editor and columnist at the Krakow weekly Zycie Literackie (1953-1981) and the series Lektury nadobowiazkowe (Nonrequired Reading), her collections from 1952 on and her translations from French; the presentation speech honours her as a representative of a poetic outlook of 'unusual and unyielding purity', 'the perfection of the word-object' and a language that 'starts from scratch'; her own lecture says she has said very little on poetry, that poets cross out lines and hesitate, and that inspiration is born from a continuous 'I don't know'. The lecture is her own words (self-report).",
+      "url": "https://www.nobelprize.org/prizes/literature/1996/ceremony-speech/"
+    },
+    {
+      "id": "src_szymborska_culture_bio",
+      "kind": "biography",
+      "title": "Janusz R. Kowalczyk, 'Wislawa Szymborska - Life and work', Culture.pl (Adam Mickiewicz Institute, November 2012; read in full). Polish state cultural-institute profile quoting her friends and the biography by Anna Bikont and Joanna Szczesna and Jerzy Illg's book of conversations: about 350 published poems in her career, a humble person who enjoyed calm and disliked questions about her private life, the quirky collages and lotteries, the first two volumes (1952, 1954) written in the style dictated by the political era and left out of her later selections with her quoted reply that she was young and naive, her work as poetry editor and her column on non-required reading, and her reaction to the Nobel as a 'Stockholm tragedy'. Admiring institutional profile; the later part is partly reportage of her friends' recollections.",
+      "url": "https://culture.pl/en/artist/wislawa-szymborska"
+    },
+    {
+      "id": "src_szymborska_culture_obit",
+      "kind": "press",
+      "title": "'Wislawa Szymborska Passed Away on Wednesday Evening at her Home in Krakow at the Age of 88', Culture.pl (from PAP, February 2012; read in full). Obituary and career overview: that she never joined a poetic school, her language that keeps a distance from ideologies and stereotypes, her debut volume of 1952 with 'correct' poems later disowned, the breakthrough volume Calling Out to Yeti (1957) moving from committed poetry to philosophical distance, the Goethe and Herder prizes and the 1996 Nobel Prize, and her own epitaph. Press and institutional obituary; overlaps with the Culture.pl profile.",
+      "url": "https://culture.pl/en/article/wislawa-szymborska-passed-away-on-wednesday-evening-at-her-home-in-krakow-at-the-age-of-88"
+    },
+    {
+      "id": "src_szymborska_rusinek_interview",
+      "kind": "press",
+      "title": "'Unpredictable Szymborska: An Interview with Michal Rusinek', Culture.pl (interviewer Eugeniusz Klimakin; read in full). Her personal secretary from 1996 for fifteen years on how she worked with him and lived: she avoided attention, refused autographs and photographs at events, was demanding with translators and disliked anything done collectively, how she prepared for death by putting her archive in order, creating a foundation and finishing her last collection, and that she followed her own path and could not be decided for. Secretary's affectionate recollection (non-self but not neutral).",
+      "url": "https://culture.pl/en/article/unpredictable-szymborska-an-interview-with-michal-rusinek"
+    },
+    {
+      "id": "src_szymborska_rusinek_memoir",
+      "kind": "press",
+      "title": "Mark Ordon in conversation with Michal Rusinek, 'Wislawa Szymborska: Nothing of the Ordinary' (The Thornfield Review, 22 February 2018; excerpt from Rusinek's memoir Nic zwyczajnego, read in full). Rusinek's account of her years after the Nobel: her relief at not drawing the prize in 1995, the 'poetics of the negative response' to invitations, her unwillingness to lend her name to initiatives or to give interviews ('I gave an interview in 1975'), her habit of asking to be left alone for days to make collages, her ritual of dinners and raffles, her plan for a foundation to support writers in need, and her saying she wanted to be a person, not a 'personage'. The same secretary as the Culture.pl interview, so one family of evidence.",
+      "url": "https://thethornfieldreview.org/2018/02/22/nothing-of-the-ordinary-mark-ordon-in-conversation-with-the-nobel-laureates-personal-secretary-michal-rusinek/"
+    },
+    {
+      "id": "src_szymborska_cavanagh",
+      "kind": "press",
+      "title": "Clare Cavanagh, 'On Szymborska's Do's and Don't's for Would-be Writers' (New Directions, 2022; read in full). Her English translator's introduction to the collected 'Literary Mailbox' advice column: the anonymous editor's severe replies to would-be writers, her insistence on drudgery and revision, a friend's report that she threw away at least ninety percent of what she wrote, and Cavanagh's own experience that for the poems of Enough Szymborska sent strict instructions to destroy one lyric and replace it with a revised text. Translator's firsthand and hearsay account; admiring.",
+      "url": "https://www.ndbooks.com/article/clare-cavanagh-on-szymborska-s-do-s-and-don-t-s-for-would-be-writers/"
+    },
+    {
+      "id": "src_szymborska_nation",
+      "kind": "press",
+      "title": "'Wislawa Szymborska, 1923-2012', The Nation (15 February 2012; read in full). A critic's appreciation: only around 400 published poems, her brief socialist-realist phase in youth after which she gave up grand political schemes for irony and skepticism, the poems 'The End and the Beginning', 'Hitler's First Photograph' and 'Cat in an Empty Apartment', and Charles Simic's phrase that her poems are 'poetry's equivalent of expository writing'. Literary appreciation rather than biography.",
+      "url": "https://www.thenation.com/article/archive/wislawa-szymborska-1923-2012/"
+    }
+  ],
+  "rows": {
+    "perfectionism": {
+      "score": 74,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_szymborska_cavanagh, src_szymborska_culture_bio, src_szymborska_nation, src_szymborska_nobel | 1950s-2012 | translator's introduction, cultural-institute profile, critic's obituary essay, award-body lecture] Her translator Cavanagh reports that for the poems of Enough Szymborska sent strict instructions to destroy one lyric and replace it with a revised text, and relays a friend's statement that she threw away at least ninety percent of what she wrote; Culture.pl and The Nation put her published output at only about 350-400 poems; her Nobel Lecture says a poet writes seven lines and crosses one out fifteen minutes later. SELF-CALIBRATION (agent): lowered from 78 / 0.60 to 74 / 0.54 because the ninety percent figure is a friend's secondhand estimate, the output count could also reflect slowness or a small circle of readers, and the lecture line is her own."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_szymborska_culture_obit, src_szymborska_nation, src_szymborska_nobel, src_szymborska_rusinek_memoir | 1957-2012 | press obituary, critic's essay, award-body speech, secretary's memoir] The obituary says she never joined a poetic school and made her own craft and language; Simic is quoted in The Nation calling her poems 'poetry's equivalent of expository writing' and the Swedish Academy speaks of a language that 'starts from scratch'; her secretary describes collages she made for forty years as personal gifts. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 68 / 0.52 because the originality verdict is made by an award body and obituary writers and is reputational, not a documented account of how she departed from other poets."
+    },
+    "cross_domain_range": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_szymborska_nobel, src_szymborska_culture_bio, src_szymborska_rusinek_memoir, src_szymborska_cavanagh | 1945-2012 | award-body biography, cultural-institute profile, secretary's memoir, translator's introduction] Beyond poetry she translated French poetry and wrote a long-running weekly column of short prose pieces on books (Nobel Foundation note), illustrated a textbook and studied literature and then sociology (Culture.pl), made collages over four decades (Rusinek) and wrote the 'Literary Mailbox' advice column (Cavanagh). All of these sit within writing, editing and the visual-literary arts, so the range is modest."
+    },
+    "belief_updating": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_szymborska_culture_bio, src_szymborska_culture_obit, src_szymborska_nation | 1952-1957 | cultural-institute profile, press obituary, critic's essay] Her first two volumes (1952, 1954) were written in the style the political era required and she left them out of later selections, answering a question about them that she had been 'young, naive and clueless'; the 1957 volume Calling Out to Yeti moved away from committed poetry toward philosophical distance, and The Nation describes a brief socialist-realist phase followed by irony and skepticism of grand schemes. Her party and political activity is context and is not scored. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 68 / 0.52 because the two Culture.pl pieces share one lineage (Illg's conversation and her friends), and her stated reason is a self-justification."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_szymborska_culture_obit, src_szymborska_rusinek_interview, src_szymborska_rusinek_memoir, src_szymborska_nobel | 1957-2012 | press obituary, secretary interview, secretary memoir, award-body lecture] The obituary describes a language kept at a distance from ideologies, philosophical systems and stereotypes; her secretary says she disliked anything done collectively (associated with the communist era), refused to let her name be used as the 'engine' of initiatives and followed her own path; in her lecture she contrasts people who 'know' with the value of saying 'I don't know'. SELF-CALIBRATION (agent): lowered from 70 / 0.54 to 66 / 0.50 because the strongest sentences are an obituary summary and her own lecture, and the secretary's evidence is one family."
+    },
+    "autonomy_need": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_szymborska_rusinek_memoir, src_szymborska_rusinek_interview, src_szymborska_culture_bio | 1996-2012 | secretary memoir, secretary interview, cultural-institute profile] After the Nobel she kept an unlisted number, answered invitations with the 'poetics of the negative response', declined interviews for the Polish press, refused honorary roles, asked to be left alone for several days at a time to make collages and said she wanted to be a person, not a 'personage'; her friends recall that she enjoyed calm and disliked questions about her private life. SELF-CALIBRATION (agent): lowered from 74 / 0.56 to 70 / 0.52 because the post-Nobel detail comes almost entirely from one secretary's two accounts, and some of the refusals respond to an overload of requests after the prize."
+    },
+    "ambiguity_tolerance": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_szymborska_nobel, src_szymborska_rusinek_memoir | 1996 | award-body lecture and speech, secretary memoir] In her Nobel Lecture she says she values the phrase 'I don't know' and that each poem is a provisional answer; the presentation speech says her poems approach 'a final enigma'; her secretary recalls that she told journalists a question was good but she needed time to think and asked them to come back in the autumn. Mostly her own statement with one anecdote, so it is held at inference level. Kept after review."
+    },
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_szymborska_nobel, src_szymborska_rusinek_memoir, src_szymborska_nation, src_szymborska_culture_bio | 1953-2012 | award-body lecture, secretary memoir, critic's essay, cultural-institute profile] Her lecture says inspiration is born from a continuous 'I don't know'; the Nobel Foundation and Culture.pl record her long-running column of short prose pieces on books she read; The Nation (quoting Simic) notes her attention to facts, especially odd ones; Rusinek says she was constantly amazed by the world. SELF-CALIBRATION (agent): lowered from 70 / 0.54 to 66 / 0.50 because the strongest statements are her own lecture and a secretary's affectionate impression, with the column titles as the only independent behavior."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "비스와바 심보르스카"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/wis-awa-szymborska-kubik-2009.jpg",
+    "width": 360,
+    "height": 480,
+    "source": "Photograph of Wislawa Szymborska taken by Mariusz Kubik in Cracow (Krakow) on 23 October 2009 (Canon PowerShot S5 IS, EXIF time 11:07), uploaded by the photographer to Wikimedia Commons on 25 October 2009 as 'Wislawa Szymborska 2009.10.23 (1).jpg' (own work; part of his series of that day that also includes group pictures of her with Ko Un and Tomas Venclova, according to the Commons file names). The file is the Commons original at 360 x 480 pixels, used as is: not resized and not upscaled.",
+    "license": "Creative Commons Attribution 3.0 Unported (the photographer also dual-licenses it under GFDL 1.2 or later; the Commons page states that anyone may use it for any purpose with attribution)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "attribution": "Photo: Mariusz Kubik, 23 October 2009 (Wikimedia Commons, CC BY 3.0).",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Wis%C5%82awa_Szymborska_2009.10.23_(1).jpg",
+    "creator": "Mariusz Kubik",
+    "date": "2009-10-23",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Wis%C5%82awa_Szymborska_2009.10.23_(1).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / lead SURVIVED: the lead file 'Wislawa Szymborska 2009.10.23 (1).jpg' by Mariusz Kubik (Commons user Kmarius, own work, uploaded 25 October 2009; Canon PowerShot S5 IS EXIF 23 October 2009 11:07; dual-licensed CC BY 3.0 and GFDL 1.2+; Commons page states anyone may use it for any purpose with attribution) was re-opened and used as is at 360 x 480 (no resizing, no upscaling). The holder is the photographer himself (user page confirms he is Mariusz Kubik); no VRT or licence review is recorded and no model release is stated, which is the residual rights caveat (Commons carries a generic personality-rights note on the other candidate file only). IDENTITY: the Commons description names Szymborska; the same photographer's series of that day includes group pictures captioned with Ko Un and Tomas Venclova in Cracow, which fits the first Milosz Literary Festival of October 2009 (a Wprost search snippet says she planted the Milosz oak with Heaney and was helped by Venclova and Ko Un; that page returned 403 and was not read, and the PAP report on the festival debate (dzieje.pl) does not mention her), so the sitter rests on the photographer's identification plus context. I viewed the image: a close portrait of an elderly woman in a hat, coat and scarf, no lettering. KIND likeness (photograph from life, 2009). Alternatives checked and not used: Juan de Vojnikov's 3888 x 2592 CC BY-SA 3.0 photograph from the Book World Prague fair of 14 May 2010 (original downloaded via the fetch tool because upload.wikimedia.org answered 429 to command-line downloads; it shows two women at a panel table and Szymborska is only the partly cropped listener on the left, so identity depends on the caption and a rp.pl report that she attended and listened to a Czech poet's essay); Michal Kobylinski's 2005 CC BY-SA 2.5 photograph (680 x 510; a group scene in which the sitter is identified only by the uploader). The Edward Knapczyk pastel drawing (copyrighted) was not used. PREFLIGHT: QID VERIFIED LIVE (2026-11-18, Wikidata API) Q42552 label 'Wislawa Szymborska', description 'Polish poet, Nobel Prize winner (1923-2012)', instance of human, born 1923-07-02, died 2012-02-01, citizen of Poland, ko label 비스와바 심보르스카; not already a candidate. REGION central_europe (precedent Bartok; Poland). ERA 20th_century. KOREAN NAME 비스와바 심보르스카 is the Wikidata label (established). ATTRIBUTION: attributable (published poems, columns, letters, close witnesses). ZERO POLITICS: primary identity is poet; her party membership and early socialist-realist volumes are context, and only her later move away from that style is scored as a change of view; no political activity is scored. No private conditions: her health, smoking, family losses and the publisher's remarks about her moods are not used. VOCABULARY: occupations poet, writer; field literature; tags nobel_laureate, perfectionist, independent; archetypes creative_creator, independent_creator. READ (7 sources besides Wikidata): Nobel Foundation biographical note, presentation speech and Nobel Lecture (full); Culture.pl profile (full); Culture.pl PAP obituary (full); Culture.pl interview with Rusinek (full); Thornfield Review excerpt/interview with Rusinek (full); Cavanagh's New Directions introduction (full); The Nation obituary essay (full). Also opened for orientation but not cited: Poets.org, First Things review, Poetry International obituary roundup, a Krakow City of Literature book blurb. Poetry Foundation, the Guardian and the New York Times pages could not be fetched (404/403); Britannica and Wikipedia not used. Not opened: the Bikont and Szczesna biography, Rusinek's book itself, Illg's book of conversations. PERSPECTIVES: award-body text and her own lecture; a state cultural institute; her secretary (two accounts of one source family); her English translator; a critic. INDEPENDENT BEHAVIOURAL FAMILIES: about 4 (secretary Rusinek; translator Cavanagh; the Culture.pl biographical lineage drawing on Illg and Bikont/Szczesna; a critic, with the Nobel texts as self and award body). CONTRADICTIONS AND LIMITS: a First Things review says her first book was blocked by censors while Culture.pl records it published in 1952 (the censored volume was an earlier unpublished 1949 manuscript per a Poetry International summary), so neither is used; sources give about 350, 400 poems; her birthplace is Bnin/Kornik/Prowent depending on source (not used). MAJOR ACHIEVEMENT GATE: PASS on all six (cards: the poetry volumes and the 1996 Nobel Prize, her distinctive ironic style, and the Literary Mailbox/non-required reading prose; collages are a moment, not a card). SELF-CALIBRATION: 8 rows initially; six lowered (perfectionism, creative_originality, belief_updating, independent_thinking, autonomy_need, curiosity), two kept (cross_domain_range, ambiguity_tolerance). Sparse 8-row profile by design; no raise flags. Concentration check done (see handback). HANDBACK68 is in the scratch folder."
+  }
+}

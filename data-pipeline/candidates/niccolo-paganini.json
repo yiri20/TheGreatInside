@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "niccolo-paganini",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Niccolò Paganini",
+    "aliases": [
+      "Nicolò Paganini",
+      "Niccolo Paganini",
+      "Nicolo Paganini"
+    ],
+    "wikidataId": "Q66075",
+    "birthYear": 1782,
+    "deathYear": 1840,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "prodigy"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_paganini_wikidata",
+      "kind": "wikidata",
+      "title": "Niccolo Paganini (Q66075), verified live via the Wikidata API (2026-11-18): English label 'Niccolo Paganini', description 'Italian violinist and composer (1782-1840)', instance of human, born 27 October 1782 (Wikidata also carries 1784 values), died 27 May 1840 (also a 17 May value), Korean label 니콜로 파가니니. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q66075"
+    },
+    {
+      "id": "src_paganini_dbi",
+      "kind": "biography",
+      "title": "Roberto Grisley, 'Paganini, Niccolo', Dizionario Biografico degli Italiani vol. 80 (Treccani, 2014; read in full, in Italian). CANONICAL SIGNIFICANCE SOURCE: scholarly national-biography entry built on the correspondence and archival record; the Milan concert of 29 October 1813 as the true start of his career, the 24 Capricci (contract with Ricordi in 1817, published 1820, never played by him in public), the five violin concertos, the variation sets, his instrumental techniques (harmonics, tremolo with melody, scordatura, work on the single string) and his place in the line of Viotti; his European tour of 1828-34 (Vienna, Berlin, Warsaw, Paris, London); the Lucca court post from 1805 and its end; his legal and financial troubles including a gambling-debt complaint at Venice (1817) and the bankruptcy of the Casino Paganini in Paris (1837-38); his short, contested direction of the Parma ducal orchestra (1836); the gift of 20,000 francs to Berlioz (1838); the refusal of church burial; and a frank discussion of how anecdote and his own press management built his fame. Scholarly, balanced, drawing on letters.",
+      "url": "https://www.treccani.it/enciclopedia/niccolo-paganini_(Dizionario-Biografico)/"
+    },
+    {
+      "id": "src_paganini_baker",
+      "kind": "biography",
+      "title": "Nicolas Slonimsky, Laura Kuhn and Dennis McIntire, 'Paganini, Niccolo', Baker's Biographical Dictionary of Musicians (Gale, reproduced on Encyclopedia.com; read in full). Music-reference biography: his teachers, the Lucca court posts and his break with the court in December 1809, the Milan concerts of 1813 that brought national prominence, the displacement of the rivals Lafont (Milan, 1816) and Lipinski (Piacenza, 1818), the tour from Vienna in 1828, the Paris and London debuts of 1831, the decline of his health from 1834, the loss of his voice in 1838 and death at Nice, the technical tricks he used (retuning the A string a semitone up, playing the Witches' Dance on one string), and the 24 Caprices, Moto perpetuo and concertos as his outstanding works. Standard reference, partly repeating older biographical tradition.",
+      "url": "https://www.encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/paganini-niccolo-0"
+    },
+    {
+      "id": "src_paganini_gooley",
+      "kind": "biography",
+      "title": "Dana Gooley, 'Paganini, Niccolo', Encyclopedia of Modern Europe: Europe 1789-1914 (Gale, reproduced on Encyclopedia.com; read in full). Scholarly reference entry by a historian of virtuosity: the most successful concert career of any instrumentalist before him, the Caprices (dedicated 'to the artists', treated by him as studies and not played in public) as a foundation of violin technique, the Sonata Napoleone for the G string alone, his break from court life as temperamentally unsuited to its restrictions, itinerant concert life interspersed with periods of inactivity through illness and gambling, the tours from 1828 with only his son and an occasional travelling companion who kept his books, how journalists built the 'demonic' image, the failed Casino Paganini, and his technical innovations (harmonics, left-hand pizzicato, mixed textures, G-string composition) and successors. Independent scholarly synthesis.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/paganini-niccolo"
+    },
+    {
+      "id": "src_paganini_mallery",
+      "kind": "biography",
+      "title": "Richard L. Mallery, 'Niccolo Paganini', EBSCO Research Starters (2024; read in full). General-reader biography that leans on Courcy's classic life: his father's demanding training, his move to freelance life at Lucca in 1801, early gambling and the pawned violin, the Milan concerts of 1813, the tours from 1828 with ticket prices twice the usual, the Casino Paganini lawsuits and his death at Nice, and the argument that he defined the role of the freelance concert musician; it also records criticism that he pandered to popular taste. Popular secondary source, partly dependent on one earlier biography.",
+      "url": "https://ebsco.com/research-starters/history/niccolo-paganini"
+    },
+    {
+      "id": "src_paganini_stratton",
+      "kind": "biography",
+      "title": "Stephen S. Stratton, 'Nicolo Paganini: His Life and Work' (London: The Strad Library, 1907; Project Gutenberg text, read in full for the biographical chapters). Early English biography drawing on Fetis, the 1830-31 press and Berlioz's memoirs: his practice of single passages for many hours, his own account of how the Lucca court led him to play on fewer strings and to compose the 'Napoleon' sonata for the G string, the London price dispute and his published letter of June 1831, the Casino Paganini lawsuits of 1839-40 (damages of 50,000 francs on appeal), and Berlioz's account of Paganini's visit to him in 1834 and of the gesture and gift after the concert of December 1838. Dated, anecdotal and partly based on his own statements and one memoir.",
+      "url": "https://www.gutenberg.org/ebooks/39571"
+    },
+    {
+      "id": "src_paganini_kawabata",
+      "kind": "institution",
+      "title": "Maiko Kawabata, 'What does Paganini mean to us today?' (Royal College of Music, 2018 exhibition essay; read in full). Modern scholar's short essay: Paganini's habit of improvising and 'preluding' rather than playing note-perfect, the physicality of his stage manner, his instruments, and the view that being the 'demonic' virtuoso was central to his identity (developed in her 2013 book). Contains personal opinion about modern guitarists and violinists and a closing ethical comment on his private conduct, which is not used here. Used only for the point about improvisation and performance style.",
+      "url": "https://researchonline.rcm.ac.uk/id/eprint/340/1/What%20does%20Paganini%20mean%20to%20us%20today_.pdf"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paganini_stratton, src_paganini_dbi, src_paganini_gooley | 1790s-1830s | early biography, scholarly national biography, scholarly encyclopedia entry] Stratton reports that as a youth he would work on a single passage of his Caprices in a hundred ways for ten or eleven hours at a stretch; the Italian national biography and Gooley document a toolkit he built and kept extending (harmonics, left-hand pizzicato, tremolo combined with melody, G-string writing, scordatura) and a career spent on the instrument. SELF-CALIBRATION (agent): lowered from 76 / 0.60 to 72 / 0.54 because the practice-hours account comes from one early biography resting on his own and his family's stories, and the technical record is an outcome of his career rather than direct evidence of how he pursued mastery."
+    },
+    "creative_originality": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paganini_gooley, src_paganini_baker, src_paganini_dbi | 1805-1830 | scholarly encyclopedia entry, music-reference biography, scholarly national biography] Gooley credits 'compositional originality' and technical innovations (a sonata for the G string alone, extensive harmonics, left-hand pizzicato, mixed textures in rapid alternation); Baker's names the Caprices, Moto perpetuo and concertos as outstanding; the Italian national biography notes that later composers from Chopin and Schumann to Brahms and Rachmaninov reworked the Caprices and the 'Campanella' rondo, while also placing him in the line of Viotti and noting that many pieces rest on borrowed themes (Rossini, Weigl, Sussmayr). SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 68 / 0.52 because the originality verdict is reputational and the national biography stresses inherited forms and borrowed themes."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paganini_stratton, src_paganini_dbi, src_paganini_baker | 1805-1830s | early biography, scholarly national biography, music-reference biography] Stratton gives his own account that at Lucca he removed two strings for a 'love scene' piece and then wrote the Napoleon sonata for the G string alone; the Italian national biography lists scordatura, a wide set of bowings and the single-string work, and Baker's records retuning the A string a semitone up and playing the Witches' Dance on one string. The origin story is his own (told years later at Prague), so the trial-and-error process is not independently documented. Kept after review."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paganini_dbi, src_paganini_gooley, src_paganini_stratton | 1826-1836 | scholarly national biography, scholarly encyclopedia entry, early biography] From his letters the national biography documents a methodical preparation of each new audience (writing ahead to royal and aristocratic figures), the gathering of letters of recommendation and depositing of his instruments with a banker before leaving for Vienna in 1828, the staging of concertos in Italy in 1826 ahead of the European tour, and a written rule-book for the Parma orchestra in 1836; Gooley notes a travelling companion who kept his books and Stratton his published ticket-price policy. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 62 / 0.50 because the specific episodes come mostly from one scholar's reading of the correspondence."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paganini_dbi, src_paganini_gooley, src_paganini_baker, src_paganini_stratton | 1822-1839 | scholarly national biography, scholarly encyclopedia entry, music-reference biography, early biography] The national biography records tours de force across Britain and Ireland from 1831 to 1834, concerts at Prague while suffering severe jaw and tooth trouble, and a continuing round of cures; Gooley and Baker's say he nevertheless continued to give concerts through long illness, and Stratton notes concerts for the poor after a long absence. Mixed picture: he also withdrew from concerts in 1835 and could not perform at the Paris Casino in 1837-38. Kept after review."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_paganini_dbi, src_paganini_mallery, src_paganini_gooley, src_paganini_stratton | 1801-1840 | scholarly national biography, popular biography, scholarly encyclopedia entry, early biography] A complaint at Venice in 1817 over an unpaid gambling debt (national biography), early gambling and a pawned violin (Mallery, resting on an older biography), and his lending of his name to the Casino Paganini in 1837, which ended in bankruptcy proceedings and court damages. Against this, the national biography also shows careful investment through a lawyer and shrewd dealing in instruments, and Stratton doubts he understood the Casino's real purpose. SELF-CALIBRATION (agent): lowered from 62 / 0.50 (strong inference) to 58 / 0.46 (inference) because the Casino episode may reflect misplaced trust in a friend rather than risk-taking, and the gambling accounts rest largely on one older biographical tradition."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paganini_dbi, src_paganini_mallery, src_paganini_stratton, src_paganini_gooley | 1813-1839 | scholarly national biography, popular biography, early biography, scholarly encyclopedia entry] The national biography describes him as a very modern promoter of his own public image, who stimulated expectation through the press, planned his arrival in each city, went to Warsaw for the coronation of Nicholas I, and later dealt in stringed instruments 'with great flair for business'; Mallery and Gooley argue he exploited the new paying concert public and set the model of the freelance virtuoso; Stratton records his doubling of ticket prices on the Continent. Kept after review: several distinct episodes from different authors, though the freelance-pioneer judgement is partly hindsight."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paganini_dbi, src_paganini_stratton, src_paganini_baker, src_paganini_gooley | 1809-1838 | scholarly national biography, early biography, music-reference biography, scholarly encyclopedia entry] He left the Lucca court in December 1809 to make his own career (Baker's, Gooley); in London in 1831 he answered the damaging rumours with articles and statements to the press (national biography) and published a letter on prices (Stratton); he approached Berlioz in 1834 with the idea of a viola work for his Stradivari viola (Stratton, quoting Berlioz); he wrote contracts and organised his own tours. Concentrated mainly on press self-management but across several episodes and authors. Kept after review."
+    },
+    "autonomy_need": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paganini_baker, src_paganini_gooley, src_paganini_mallery, src_paganini_dbi | 1801-1810 | music-reference biography, scholarly encyclopedia entry, popular biography, scholarly national biography] Baker's says he broke with the Lucca court in December 1809, 'dissatisfied with his position'; Gooley calls him temperamentally unsuited to its restrictions; Mallery describes his move to Lucca in 1801 as his escape from his father's control and from then on a freelance life; the national biography records the end of the Lucca relationship and his later refusal to play when terms did not suit him. SELF-CALIBRATION (agent): lowered from 72 / 0.54 to 68 / 0.50 because the three narrative accounts of the break descend from the same older biographical tradition and the national biography is neutral about why he left."
+    },
+    "competitiveness": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_paganini_dbi, src_paganini_baker | 1816-1818 | scholarly national biography, music-reference biography] The national biography records a celebrated contest with the French violinist Lafont at Milan on 11 March 1816 and a meeting with Lipinski at Piacenza; Baker's says he easily displaced both rivals. Only two staged episodes, both reported briefly, so a modest lean only. Kept after review."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "니콜로 파가니니"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/niccolo-paganini-calamatta-1830.jpg",
+    "width": 762,
+    "height": 1000,
+    "source": "Engraving 'Portrait of Niccolo Paganini' by Luigi Calamatta (1801-1869) after Jean-Auguste-Dominique Ingres's drawing made in Rome (the plate is lettered 'Ingres del. Roma 1818', 'Calamatta Sculp.' and 'Paganini'); the Metropolitan Museum of Art dates the print 1830 (backdated '1818'), third state of four, engraving, stipple and roulette work on chine colle, accession 17.3.756-2183, Harris Brisbane Dick Fund, 1917. The file is the museum's 3012 x 3914 pixel Open Access image with the outer sheet margin trimmed and downscaled to 762 x 1000 (no upscaling).",
+    "license": "Public domain (CC0): Metropolitan Museum of Art Open Access; the museum's collection record (read through its public Collection API) states isPublicDomain true; the print dates from 1830 and both artists died before 1870",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Luigi Calamatta after Jean-Auguste-Dominique Ingres, Portrait of Niccolo Paganini, 1830, engraving; The Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1917 (17.3.756-2183). Open Access, CC0; cropped and downscaled.",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/364883",
+    "creator": "Luigi Calamatta (engraver) after Jean-Auguste-Dominique Ingres (drawing)",
+    "date": "1830 (plate lettered 1818; Ingres drawing made in Rome in 1818-19)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/364883"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / lead SURVIVED: the Met Open Access print 'Portrait of Niccolo Paganini' (accession 17.3.756-2183, object 364883) was re-verified through the Met Collection API (isPublicDomain true, Calamatta after Ingres, sitter Paganini, 1830 backdated 1818, third state; the HTML page is bot-walled and was not needed) and by opening the museum image: the plate is lettered 'Ingres del. Roma 1818', 'Calamatta Sculp.' and 'Paganini'. KIND historical_depiction: a lifetime engraving after Ingres's Rome drawing, not a direct portrait of a sitting. Saved the 3012 x 3914 original trimmed and downscaled to 762 x 1000 (no upscaling). The Rijksmuseum prints named as the fallback were not needed or opened. PREFLIGHT: QID VERIFIED LIVE (2026-11-18, Wikidata API) Q66075 label 'Niccolo Paganini', description 'Italian violinist and composer (1782-1840)', instance of human, ko label 니콜로 파가니니, born 1782-10-27 (Wikidata also lists 1784 values), died 1840-05-27 (a 17 May value also exists); not already a candidate. REGION southern_europe (Italian precedent Vivaldi). ERA 19th_century. KOREAN NAME 니콜로 파가니니 is the Wikidata label (established). ATTRIBUTION: attributable (dated concerts, contracts and letters; Italian national biography built on the correspondence); the legend of the 'demonic' virtuoso is documented as press and rumour and is not scored. ZERO POLITICS and no private conditions: his health, his private relationships and the posthumous burial dispute are context only; no diagnosis is used. VOCABULARY: occupations composer, musician; field music; tags innovator, prodigy; archetypes creative_creator, independent_creator. READ (6 sources besides Wikidata): Grisley in the Dizionario Biografico degli Italiani (full); Baker's (full); Gooley in the Encyclopedia of Modern Europe (full); Mallery in EBSCO Research Starters (full); Stratton 1907 (full biographical chapters, via Project Gutenberg text); Kawabata RCM essay (full, short). Britannica could not be fetched (403) and Wikipedia was not used. Not opened: Courcy, Fetis, Berlioz's Memoires directly (read only as quoted by Stratton and the national biography), Kawabata's 2013 book, Neill's letters. PERSPECTIVES: Italian documentary scholarship; two music-reference works; a popular encyclopedia article; an early English biography with quotations from Berlioz; a modern performance-history essay. INDEPENDENT BEHAVIOURAL FAMILIES: about 4 (Italian archival scholarship; reference works that retell the older tradition; Stratton with Berlioz and press quotations; Kawabata). Mallery, Baker's and Stratton overlap through Courcy and Fetis, so two or three sources on one episode are not independent. CONTRADICTIONS AND LIMITS: sources disagree on whether he later gave up gambling (Mallery and Stratton say yes; the national biography records a 1817 gambling complaint and the 1837 Casino); Baker's dates the Caprices 1805 whereas the national biography says composed 1817 and published 1820 (the card says published 1820); Stratton and the national biography differ on whether he understood the Casino's purpose; legends (learned violin in prison, devil) are not used. MAJOR ACHIEVEMENT GATE: PASS on all six (cards: virtuoso career and technique 1813-1834, the 24 Caprices, concertos and showpieces; Casino and gambling are not cards; the 1809 break with Lucca is the turning point). SELF-CALIBRATION: 10 rows initially; five lowered (mastery_orientation, creative_originality, planning_orientation, risk_tolerance, autonomy_need), five kept after review (experimentation, persistence, opportunity_sensing, proactive_agency, competitiveness). Sparse 10-row profile by design; no raise flags. Concentration check done (see handback). HANDBACK68 is in the scratch folder."
+  }
+}

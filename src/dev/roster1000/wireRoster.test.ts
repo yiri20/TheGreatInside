@@ -2,11 +2,10 @@
  * Tests for the checked-in roster wiring tool (`wireRosterCore.ts` pure transformations and `wireRoster.ts`
  * planning/apply on a temporary fixture tree). Nothing here depends on a future roster or on the live roster data.
  */
-import { mkdtempSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from "node:fs";
+import { mkdtempSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
-import { CURRENT_ROSTER_MANIFEST } from "./currentRosterManifest.js";
 import { applyPlan, formatPlan, planWiring } from "./wireRoster.js";
 import {
   WiringError,
@@ -84,8 +83,21 @@ describe("registerInSeed / registerInLineageRegistry", () => {
   });
 });
 
-const manifestSrc = readFileSync(join(process.cwd(), "src/dev/roster1000/currentRosterManifest.ts"), "utf8");
-const before: ManifestValues = { ...CURRENT_ROSTER_MANIFEST };
+// FIXED fixture manifest (NOT the live `CURRENT_ROSTER_MANIFEST`): these tests must keep passing after every real
+// roster bumps the live manifest (Roster68 found the earlier live-file coupling breaking 3 tests the moment the
+// live manifest reached the roster number used by the fixtures).
+const manifestSrc = [
+  "export const CURRENT_ROSTER_MANIFEST = {",
+  "  /** fixture */",
+  "  latestRoster: 67,",
+  "  production: 816,",
+  "  directoryVisible: 815,",
+  "  matchEligible: 114,",
+  "  candidateJson: 997,",
+  "} as const;",
+  "",
+].join("\n");
+const before: ManifestValues = { latestRoster: 67, production: 816, directoryVisible: 815, matchEligible: 114, candidateJson: 997 };
 const after: ManifestValues = { latestRoster: before.latestRoster + 1, production: before.production + 3, directoryVisible: before.directoryVisible + 3, matchEligible: before.matchEligible, candidateJson: before.candidateJson + 4 };
 
 describe("updateManifest", () => {
@@ -320,6 +332,26 @@ describe("planWiring / applyPlan on a fixture tree", () => {
     const root = makeFixtureRoot();
     const plan = planWiring({ ...baseOpts(root), roster: 99 });
     expect(plan.errors.join(" ")).toMatch(/roster99\.ts does not exist/);
+  });
+
+  it("generator-only phase works BEFORE the roster module exists: plans only the wrapper (Roster68 tooling defect)", () => {
+    const root = makeFixtureRoot();
+    rmSync(join(root, "src/data/people/roster68.ts"));
+    // the full plan is blocked (cannot create the wrapper because the module it would generate is absent) ...
+    expect(planWiring(baseOpts(root)).errors.join(" ")).toMatch(/roster68\.ts does not exist/);
+    // ... the generator-only phase plans exactly one file and writes nothing under data-pipeline/
+    const snap = snapshot(root);
+    const plan = planWiring({ ...baseOpts(root), generatorOnly: true });
+    expect(plan.errors).toEqual([]);
+    expect(plan.operations.map((o) => o.file)).toEqual(["src/dev/roster1000/generateRoster68.ts"]);
+    expect(plan.operations[0]!.changed).toBe(true);
+    expect(plan.operations[0]!.after).toContain('"newbie"');
+    expect(snapshot(root)).toEqual(snap);
+    const written = applyPlan(root, plan);
+    expect(written).toEqual(["src/dev/roster1000/generateRoster68.ts"]);
+    // rerun is a no-op; a held or unapproved candidate is still rejected in this phase
+    expect(planWiring({ ...baseOpts(root), generatorOnly: true }).operations.filter((o) => o.changed)).toEqual([]);
+    expect(planWiring({ ...baseOpts(root), generatorOnly: true, shipped: ["newbie", "heldone"], held: [] }).errors.join(" ")).toMatch(/heldone: shipped candidate portrait\.status is held/);
   });
 
   it("without drafts it says plainly that editorial and Korean names were not wired", () => {

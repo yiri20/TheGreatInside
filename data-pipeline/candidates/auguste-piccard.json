@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "auguste-piccard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Auguste Piccard",
+    "aliases": [
+      "Auguste Antoine Piccard",
+      "August Piccard"
+    ],
+    "wikidataId": "Q210719",
+    "birthYear": 1884,
+    "deathYear": 1962,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CH"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "inventor",
+      "explorer"
+    ],
+    "fieldIds": [
+      "physics",
+      "engineering",
+      "exploration"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological",
+      "engineering"
+    ],
+    "tagIds": [
+      "explorer",
+      "innovator",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_piccard_wikidata",
+      "kind": "wikidata",
+      "title": "Auguste Piccard (Q210719), verified live via the Wikidata API (2026-11-15): English label 'Auguste Piccard', description 'Swiss physicist (1884-1962)', Korean label 오귀스트 피카르, human, born 28 January 1884, died 24 March 1962, citizen of Switzerland. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q210719"
+    },
+    {
+      "id": "src_piccard_britannica",
+      "kind": "biography",
+      "title": "Pierre de Latil, 'Auguste Piccard', Encyclopaedia Britannica (read via the print edition of the article). CANONICAL SIGNIFICANCE SOURCE: Swiss-born Belgian physicist known for exploring both the upper stratosphere and the sea in vessels of his own design; studied at the Swiss Federal Institute of Technology in Zurich and took the new chair of applied physics at the University of Brussels in 1922; built a balloon in 1930 with Belgian financing to study cosmic rays, with an airtight pressurised cabin and a very large balloon that did not have to be fully filled at launch; reached 15,781 metres with Paul Kipfer on 27 May 1931 and flew again in 1932 with a new cabin and a radio; wanted since childhood to descend into the depths and designed the bathyscaphe, whose first unmanned trials in October and November 1948 left the float badly damaged; the project 'was subsequently troubled by various difficulties' until his son Jacques intervened and a new craft was built with Italian industry in 1953; retired in 1954. Short reference article, admiring in tone.",
+      "url": "https://www.britannica.com/print/article/459310"
+    },
+    {
+      "id": "src_piccard_britannica_bathyscaphe",
+      "kind": "institution",
+      "title": "'Bathyscaphe', Encyclopaedia Britannica (read; last revised by Amy Tikkanen): the bathyscaphe was developed by Auguste Piccard, with help in later years from his son Jacques; the first, FNRS 2, was built in Belgium in 1946-1948 and damaged in the 1948 trials at the Cape Verde Islands, then rebuilt and improved as FNRS 3; the Trieste was launched on 1 August 1953 and dived to 3,150 metres that year; the United States Navy acquired it in 1958 and on 23 January 1960 Jacques Piccard and Lieutenant Don Walsh reached 10,916 metres in the Mariana Trench; a steel cabin under a gasoline-filled float. Encyclopedia article from the same publisher as the biography, so not an independent family.",
+      "url": "https://www.britannica.com/print/article/56002"
+    },
+    {
+      "id": "src_piccard_ebsco_strato",
+      "kind": "biography",
+      "title": "Nancy M. Gordon, 'Piccard Travels to the Stratosphere by Balloon', EBSCO Research Starters, History (read in full, with its bibliography citing DeVorkin, Stehling and Piccard's own Earth, Sky, and Sea). Event article on the 27 May 1931 flight: his work from 1926 on a balloon and gondola for cosmic-ray research, the aluminium sealed gondola with a German submarine air-purifying apparatus, the partly inflated balloon and band suspension, Belgian FNRS funding, the September 1930 launch called off for weather, the premature release in 1931, a leak from a broken seal that he stopped with petroleum jelly mixed with fibres prepared for such an accident, the unusable gas valve, the landing on a Tyrolean glacier, the lost chance for most measurements and only one approximate cosmic-ray observation, the flight with Max Cosyns in August 1932 that filled in the altitude-intensity curve, and the later use of his cabin design. Encyclopedia-style event article that is frank about the limited scientific return.",
+      "url": "https://ebsco.com/research-starters/history/piccard-travels-stratosphere-balloon"
+    },
+    {
+      "id": "src_piccard_cof",
+      "kind": "institution",
+      "title": "Linda Voss, 'The Race to the Stratosphere' (Record Balloon Flights), U.S. Centennial of Flight Commission (read in full): the death of Hawthorne Gray in 1927 after an open-basket flight, Piccard's 'absolute faith that science could solve anything', his sealed gondola using an apparatus developed by the Germans for submarines, the envelope five times larger than needed to take off, the 1931 and 1932 flights and the American and Soviet balloons that followed his example. Federal-commission history of high-altitude ballooning.",
+      "url": "https://centennialofflight.net/essay/Lighter_than_air/race_to_strato/LTA11.htm"
+    },
+    {
+      "id": "src_piccard_history",
+      "kind": "press",
+      "title": "Kieran Mulvaney, 'The Nearly Fatal 1931 Balloon Journey to the Edge of Space', HISTORY (May 2026; read in full): the 1931 flight told largely from Piccard's own later writing, including the frozen gas valve, the broken gondola motor and rising heat, the leak sealed with petroleum jelly and cloth, the mercury sucked out through a hose, the 17-hour flight, the crash-landing on an Alpine glacier and the search party sent to recover bodies; the cosmic-ray dispute with Robert Millikan, and a claim that the 1932 data helped disprove Millikan's photon view. Popular history; the account of the flight rests on his own memoir, and the claim about a 1926 flight confirming Einstein is not used.",
+      "url": "https://www.history.com/articles/auguste-piccard-balloon-stratosphere"
+    },
+    {
+      "id": "src_piccard_elhuyar",
+      "kind": "press",
+      "title": "Egoitz Etxebeste Aduriz, 'Piccard-en balentriak (I): laino guztien gainetik' (Piccard's feats I: above all the clouds), Elhuyar science magazine no. 269 (1 November 2010, in Basque; read in full): the sealed-cabin design that specialists called impossible because it had never been done (quoting his book Earth, Sky, and Sea), the test of the lead-shot ballast dropped from a chimney at Brussels, the premature 1931 release, the leak sealed with a prepared cotton and petroleum-jelly paste, the jammed valve cord, the heat and thirst, the glacier landing and the warm reception in Switzerland and Brussels, and the 1932 flight with Cosyns that 'went perfectly'. Popular-science article that draws its details from Piccard's own book, so it is a self-report family.",
+      "url": "https://zientzia.eus/artikuluak/piccard-en-balentriak-i-laino-guztien-gainetik/en"
+    },
+    {
+      "id": "src_piccard_tdia",
+      "kind": "press",
+      "title": "Bryan R. Swopes, 'FNRS', This Day in Aviation (entry for 18 August 1932; read in full): the 1932 flight from Dubendorf with Max Cosyns to 16,201 metres, an FAI altitude record, funded by the Belgian FNRS; the aluminium gondola painted half white and half black for heat control, which did not work; the air-recycling system of the type used in submarines; the 1931 landing on the Gurgler Ferner glacier; honours from King Albert; nearly 30 ascents before he turned to the deep ocean. Aviation-history website citing FAI record files.",
+      "url": "https://www.thisdayinaviation.com/tag/fnrs/"
+    },
+    {
+      "id": "src_piccard_stratocat",
+      "kind": "press",
+      "title": "'PICCARD, August A. (1884-1962)', Stratopedia, StratoCat balloon encyclopedia (read in full): twin brother Jean Felix, professor at Brussels from 1922, the spherical pressurised aluminium gondola funded by the Belgian FNRS, the 1931 flight with Kipfer from Augsburg and the 1932 flight with Max Cosyns from Dubendorf, the mid-1930s turn to a deep-sea craft begun in 1937 and interrupted by the Second World War, FNRS-2 resumed in 1945 with unmanned dives in 1948 before it was given to the French Navy in 1950, and a manned dive of 4,176 metres in 1954. Independent non-profit balloon-history site.",
+      "url": "https://stratocat.com.ar/stratopedia/128.htm"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_piccard_britannica, src_piccard_ebsco_strato, src_piccard_cof, src_piccard_tdia, src_piccard_britannica_bathyscaphe | 1930-1953 | reference biography, encyclopedia event article, federal-commission history, aviation-history site, encyclopedia article] Four accounts describe specific design departures: a sealed pressurised aluminium gondola for a stratosphere balloon, a very large envelope launched only partly filled, a horizontal band instead of a net to hang the cabin, and later a bathyscaphe whose cabin hung under a float of a liquid lighter than water, modelled on the balloon. The accounts also say some parts were borrowed, such as the submarine air-purifying apparatus, and that later balloons kept the sealed cabin. SELF-CALIBRATION (agent): lowered from 76 / 0.64 to 72 / 0.60 because several parts were adapted from existing technology, the work was funded and staffed by others, and the biography's praise is admiring."
+    },
+    "risk_tolerance": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_piccard_ebsco_strato, src_piccard_cof, src_piccard_tdia, src_piccard_history, src_piccard_britannica | 1927-1948 | encyclopedia event article, federal-commission history, aviation-history site, popular history, reference biography] He flew into the stratosphere in a craft of his own design only a few years after an open-basket flier died of oxygen lack (1927), made nearly 30 ascents, flew on after the cabin sprang a leak and the gas valve jammed, ended on a glacier landing, and later committed to a pressure-vessel dive craft. His engineering aimed to reduce the hazards, and some dangers (the early release, the frozen valve) were mishaps rather than chosen risks. SELF-CALIBRATION (agent): lowered from 76 / 0.60 to 70 / 0.54 because the sealed cabin was meant to lower the risk, and the popular accounts of near-disaster rest on his own memoir."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_piccard_ebsco_strato, src_piccard_cof, src_piccard_elhuyar, src_piccard_history | 1926-1931 | encyclopedia event article, federal-commission history, popular science article, popular history] He worked on the balloon and cabin from 1926, called off the September 1930 launch for weather and waited until spring, designed an oversized envelope to allow for gas expansion, carried a prepared paste for sealing leaks and, in his own account, tested the lead-shot ballast by dropping it from a chimney. Several of these details come from his memoir, and the flight also went wrong in ways the plan did not cover (the early release, the jammed valve). CONCENTRATION CHECK (agent): lowered from 72 / 0.58 to 66 / 0.52 because the preparation details rest mostly on Piccard's own account as retold by three sources. SELF-CALIBRATION (agent): lowered to 64 / 0.50 because the flight's unplanned failures weigh against the picture of careful control."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_piccard_britannica, src_piccard_ebsco_strato, src_piccard_cof, src_piccard_britannica_bathyscaphe | 1922-1948 | reference biography, encyclopedia event article, federal-commission history, encyclopedia article] A physicist who was also described as a mechanic and an engineer, he learned ballooning with the Swiss Aero-Club and army balloon corps, brought in a German submarine apparatus for the cabin air, and later carried the pressurised-cabin idea from the stratosphere to the ocean depths. The two projects share one engineering idea (a pressure-resistant cabin hung under a buoyant float). SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 68 / 0.54 because the air and sea projects are two applications of one idea, and the biography and the bathyscaphe article share a publisher."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_piccard_ebsco_strato, src_piccard_britannica, src_piccard_stratocat, src_piccard_britannica_bathyscaphe | 1926-1953 | encyclopedia event article, reference biography, balloon-history site, encyclopedia article] The stratosphere balloon took from 1926 to 1931, including an aborted launch and a wait of months; the deep-sea craft was begun in 1937, interrupted by war, resumed in 1945, damaged in 1948 trials, passed to the French Navy and then, after a new craft was built in Italy, reached 3,150 metres in 1953 when he was 69. The biography also says the project was troubled until his son intervened. SELF-CALIBRATION (agent): lowered from 72 / 0.60 to 66 / 0.54 because completion depended on his son, Italian industry and the French Navy taking over the earlier craft, and because success is easy to read backward into a trait."
+    },
+    "independent_thinking": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_piccard_elhuyar, src_piccard_cof, src_piccard_britannica | 1926-1930 | popular science article, federal-commission history, reference biography] A popular-science article quotes his book as saying specialists called a sealed cabin impossible only because it had never been done; the federal-commission history says he had absolute faith that science could solve anything; the biography says earlier ascents had shown the stratosphere could be fatal and a new kind of balloon was needed. The dismissal of the specialists is his own recollection. CONCENTRATION CHECK (agent): lowered from 66 / 0.50 to 62 / 0.44 because the key claim comes from his own book via one article. SELF-CALIBRATION (agent): lowered to 60 / 0.42 because the 'absolute faith' line is an editorial characterisation."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오귀스트 피카르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/auguste-piccard-meiner-1910.jpg",
+    "width": 683,
+    "height": 1000,
+    "source": "Bust-length studio portrait photograph of Auguste Piccard (black and white print on card, 6 x 9 cm) by the Swiss photographer Johannes Meiner (1867-1941), c.1910; ETH-Bibliothek Zurich, Bildarchiv (e-pics), accession Portr_16193-083-AL-FL, DOI 10.3932/ethz-a-000055291, titled by the holder 'Piccard, Auguste (1884-1962)'. The file is the 1424 x 2084 image shared on Wikimedia Commons from the ETH record, downscaled to 683 x 1000 with no upscaling and no cropping.",
+    "license": "Public domain: the photographer died in 1941, more than 70 years ago, so copyright has expired in Switzerland and the United States; the holder's own DataCite record for the DOI carries the note 'Download und Nutzung frei' (free download and use) and the Commons copy of the ETH metadata gives a Public Domain Mark",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Johannes Meiner, Piccard, Auguste (1884-1962), c.1910; ETH-Bibliothek Zurich, Bildarchiv, Portr_16193-083-AL-FL (downscaled)",
+    "attributionUrl": "https://doi.org/10.3932/ethz-a-000055291",
+    "creator": "Johannes Meiner (1867-1941)",
+    "date": "c.1910",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Auguste_Piccard_-_ETH_BIB_Portr_16193-083-AL-FL_(Johannes_Meiner).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-15T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead) / LEAD SURVIVED: the lead was the ETH-Bibliothek Zurich Bildarchiv portrait by Johannes Meiner, c.1910 (accession Portr_16193-083-AL-FL). The e-pics page itself is a script app that does not render, so the holder record was read through its DOI: doi.org/10.3932/ethz-a-000055291 content-negotiated to DataCite JSON, which gives creator 'Meiner, Johannes (1867-1941)', title 'Piccard, Auguste (1884-1962)', date 1910 (type Available), format TIFF, description 'Download und Nutzung frei', publisher ETH-Bibliothek Zuerich, Bildarchiv. Commons copy of the ETH metadata: ca.1910, b/w photo on card 6 x 9 cm, Public Domain Mark; its earlier 'Copyrighted' flag is now False (stale embedded metadata resolved). No rights conflict with the holder. RIGHTS: Meiner died 1941, so life+70 expired in 2011 in Switzerland and the US (US: also pre-1931 if published). KIND likeness. SITTER CAVEAT FOR THE LEAD: Auguste had a twin brother, Jean Felix Piccard (also at the ETH); the holder title names Auguste with his own dates (1884-1962; Jean's were 1884-1963) and ETH curators distinguish the twins in other records (de Quervain 1914 photos), but there is no inscription or caption on the print itself, so identity rests on the holder's title. Shipped file: 1424 x 2084 Commons copy downscaled to 683 x 1000, no upscaling, no crop. PREFLIGHT: QID VERIFIED LIVE (2026-11-15, Wikidata API) Q210719 label 'Auguste Piccard', description 'Swiss physicist (1884-1962)', ko label 오귀스트 피카르, human, 28 Jan 1884 to 24 Mar 1962, citizen of Switzerland. REGION central_europe as assigned in the frozen list (note: Swiss precedent in the repo is mostly western_europe, including Bertrand Piccard; flagged for the lead). ERA 20th_century. Nationality CH only (Britannica calls him Swiss-born Belgian; Wikidata lists only Switzerland). ZERO POLITICS. VOCABULARY: occupations physicist, inventor, explorer; fields physics, engineering, exploration; tags explorer, innovator, cross_disciplinary; archetype scientific_explorer. KOREAN NAME: 오귀스트 피카르 is the Wikidata label, flagged. ATTRIBUTION: attributable (flights logged by the FAI, dated vessels, third-party histories); shared credit with Kipfer, Cosyns, Jean Piccard's balloon work, the Belgian FNRS, his son Jacques, and Italian industry and the French Navy for the bathyscaphes is stated in the cards. CANONICAL SIGNIFICANCE SOURCE: Britannica (Pierre de Latil). READ (8 besides Wikidata): Britannica biography (print), Britannica bathyscaphe article, EBSCO Research Starters event article (Gordon), Centennial of Flight Commission 'Race to the Stratosphere' (Voss), HISTORY (Mulvaney), Elhuyar article in Basque, This Day in Aviation (Swopes), StratoCat. Also read but not cited: Encyclopedia.com Science and Its Times entry (Yancey), Centennial of Flight dictionary entry, San Diego Air and Space Museum hall of fame page, bertrandpiccard.com, a BBVA page (did not render). Wikipedia not used. Not opened: Piccard's Earth, Sky, and Sea, DeVorkin's Race to the Stratosphere, Historisches Lexikon der Schweiz. FAMILIES: Britannica (biography and bathyscaphe article count as one); EBSCO/Gordon (draws on DeVorkin and Piccard's memoir); Voss at the Centennial of Flight; Piccard's own memoir as retold by HISTORY and Elhuyar (one self-report family); Swopes (FAI records); StratoCat. Non-self behavioural sources: Britannica, EBSCO, Voss, Swopes, StratoCat. COUNTER-VOICES AND LIMITS: EBSCO says the 1931 flight lost most planned measurements and gave one approximate cosmic-ray observation; HISTORY claims the 1932 data helped disprove Millikan, which EBSCO does not say; Britannica says the bathyscaphe project was troubled until Jacques intervened. DISCREPANCIES NOT CARDED: 1931 altitude 15,781 (Britannica, EBSCO, HISTORY, Swopes) vs 15,787 and 15,838 elsewhere (the cards use 15,781); 1932 altitude 17,008 (Britannica) vs 16,201 (FAI via Swopes) vs about 16,940 (Encyclopedia.com), the card uses the FAI figure and one source; whether he was the first human in the stratosphere (Encyclopedia.com says so; EBSCO notes Gray flew to 12.7 km in 1927) so the cards say 'record altitude'; the HISTORY claim of a 1926 flight confirming Einstein is not used. SPARSE 6-row profile by design: the sources describe engineering and expedition actions, with little on social conduct, motivation or conflict. Not match-eligible by row count; evidence-approved regardless. MAJOR ACHIEVEMENT GATE: PASS on all (cards: 1931 flight and sealed cabin, bathyscaphe, 1932 flight; moments: 1931 emergency, 1948 trials; turning point: shift to the sea). CONCENTRATION: lowered planning_orientation and independent_thinking (own-memoir concentration). SELF-CALIBRATION: lowered creative_originality, risk_tolerance, planning_orientation, cross_domain_range, persistence, independent_thinking. No raise flags. All changes are pre-eligibility concentration/self-calibration lowerings."
+  }
+}

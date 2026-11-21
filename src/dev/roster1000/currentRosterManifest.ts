@@ -19,15 +19,15 @@
  */
 export const CURRENT_ROSTER_MANIFEST = {
   /** Highest roster number registered in `SEED_PEOPLE` (the `rosterN` label in the lineage registry). */
-  latestRoster: 67,
+  latestRoster: 68,
   /** `SEED_PEOPLE.length` and `PEOPLE_INDEX.length`. */
-  production: 816,
+  production: 844,
   /** People with `isDirectoryVisible` (the Directory's default "N people" count). */
-  directoryVisible: 815,
+  directoryVisible: 843,
   /** People with `isMatchEligible`. */
   matchEligible: 114,
   /** `data-pipeline/candidates/*.json` files (shipped, held and backlog candidates). */
-  candidateJson: 997,
+  candidateJson: 1027,
 } as const;
 
 export type CurrentRosterManifest = typeof CURRENT_ROSTER_MANIFEST;

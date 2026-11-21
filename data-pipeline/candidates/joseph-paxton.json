@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "joseph-paxton",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Joseph Paxton",
+    "aliases": [
+      "Sir Joseph Paxton"
+    ],
+    "wikidataId": "Q318372",
+    "birthYear": 1803,
+    "deathYear": 1865,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect",
+      "engineer"
+    ],
+    "fieldIds": [
+      "architecture",
+      "engineering",
+      "design"
+    ],
+    "impactDomains": [
+      "engineering",
+      "innovation",
+      "technological",
+      "cultural"
+    ],
+    "tagIds": [
+      "self_taught",
+      "innovator",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_paxton_wikidata",
+      "kind": "wikidata",
+      "title": "Joseph Paxton (Q318372), verified live via the Wikidata API (2026-11-15): English label 'Joseph Paxton', description 'English gardener, architect and Member of Parliament (1803-1865)', instance of human, citizen of the United Kingdom; Wikidata carries both 1803 and 1804 as birth years and two June/July 1865 death dates, so the birth year used here follows the Oxford Dictionary of National Biography year (1803) cited by the Victorian Web, not the earlier 1801 of the 1895 Dictionary of National Biography and Britannica. No Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q318372"
+    },
+    {
+      "id": "src_paxton_curl",
+      "kind": "biography",
+      "title": "James Stevens Curl, 'Paxton, Sir Joseph', A Dictionary of Architecture and Landscape Architecture (Oxford reference work, via Encyclopedia.com; read in full). CANONICAL SIGNIFICANCE SOURCE: self-taught head gardener at Chatsworth from 1826; the Great Stove conservatory (1836-40, then the biggest glasshouse in Europe) using ridge-and-furrow glazed roofs and sheet glass; the village of Edensor; Prince's Park, Liverpool (1842-4) and Birkenhead Park (1843-7), an influence on Olmsted; the Victoria regia lily house (1849-50) as a structural step toward the Crystal Palace of 1850-1, designed so its parts could be prefabricated, erected and taken down on site, built in a little over six months and the model for later exhibition buildings; the Sydenham gardens and Mentmore Towers; Ferrieres for the Rothschilds; further public parks. Notes that Decimus Burton advised on the Great Stove and that the draughtsman John Robertson gave essential help on several works. Reference-work entry, admiring but specific on collaborators.",
+      "url": "https://encyclopedia.com/people/literature-and-arts/architecture-biographies/sir-joseph-paxton"
+    },
+    {
+      "id": "src_paxton_dnb",
+      "kind": "biography",
+      "title": "George Simonds Boulger, 'Paxton, Sir Joseph', Dictionary of National Biography vol. 44 (1895; Wikisource transcription, read in full). Older reference biography drawing on a manuscript life by the Duke of Devonshire and 1865 gardening journals: apprenticeship and garden posts from age fifteen, the Horticultural Society at Chiswick (1823), superintendent at Chatsworth (1826), the Great Stove, the Victoria regia flowering of 1849, the Exhibition plan prepared in nine days after 233 other plans had been rejected, knighthood 1851, the Sydenham Crystal Palace, his proposal of a navvy corps for the Crimean works, railway management, and his editorial work and part in founding the Gardeners' Chronicle. Gives 1801 as the birth year (later authorities say 1803). Admiring and compressed.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Paxton,_Joseph"
+    },
+    {
+      "id": "src_paxton_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Sir Joseph Paxton' (read): landscape gardener and designer of hothouses employed by the Duke of Devonshire; Chatsworth conservatory (1840) and Victoria regia lily house (1850); in 1850, after a cumbersome design had been officially accepted, his plan of prefabricated sheet glass and iron elements was substituted; built within six months; knighted 1851; Sydenham re-erection 1852-54; houses and public parks. Short reference article.",
+      "url": "https://www.britannica.com/biography/Joseph-Paxton"
+    },
+    {
+      "id": "src_paxton_iln1865",
+      "kind": "press",
+      "title": "'The Late Sir Joseph Paxton, M.P.', The Illustrated London News, June 1865, p. 601 (obituary transcribed by the Victorian Web; read in full, together with the short notice on p. 591 and the Victorian Web page that carries it). Contemporary press obituary written at his death: his early patronage by the sixth Duke of Devonshire, the Chatsworth conservatory, the Exhibition design, the Sydenham Crystal Palace and its gardens, his horticultural publications (Horticultural Register, Magazine of Botany, dahlia treatise, Botanical Pocket Dictionary), and that 240 other plans had been offered in vain. It states that Sir Charles Barry is credited with inventing the central transept, that Fox and Henderson were the builders, and that Paxton's chief performances were practical and executive rather than scientific. Eulogistic in tone.",
+      "url": "https://victorianweb.org/art/architecture/iron/39.html"
+    },
+    {
+      "id": "src_paxton_lecture1850",
+      "kind": "archive",
+      "title": "Joseph Paxton, 'The Industrial Palace in Hyde-Park', paper read to the Society of Arts, reported in The Illustrated London News, November 1850 (Victorian Web transcription; read in full). PAXTON'S OWN ACCOUNT, so self-report: his trials from 1828 onward with lighter sash bars and ridge-and-furrow roofs, a hot-house estimate of 1800 pounds in metal against under 500 pounds in wood, the sash-bar machine that earned a Society of Arts medal in 1841 and saved 1,400 pounds at the Great Conservatory, his visits to Chance Brothers to obtain longer sheet glass, the Victoria regia house of 1849-50 as a miniature of the Exhibition building, and his statement that his plans were prepared in about ten days after the closing date. Used for dates and technical facts, not as independent evidence of his character.",
+      "url": "https://victorianweb.org/history/1851/paxtonlecture/paxtontalk.html"
+    },
+    {
+      "id": "src_paxton_landow",
+      "kind": "biography",
+      "title": "George P. Landow, review of Kate Colquhoun's 'The Busiest Man in England: A Life of Joseph Paxton' (Victorian Web, read in full) with the excerpt from Jay Clayton's essay 'Paxton's Legacy' (read). Modern biographical commentary quoting Colquhoun: Paxton's rapid rise from garden labourer in 1823, his self-education in the Horticultural Society library, the confidant relationship with the Duke of Devonshire, the stated support of Brunel and Stephenson for his Exhibition plan, his money-making in the 1840s railway boom (which the reviewer finds under-examined), and about 3,400 pounds spent on glasshouse construction in the five years from 1830. The reviewer judges the biography admiring and unbalanced and notes that Paxton's successes came at a heavy cost to his family; Clayton adds that his wife did the household work while he travelled and was celebrated. The two texts rest on one biography and are treated as a single source family.",
+      "url": "https://victorianweb.org/art/architecture/iron/colquhoun.html"
+    },
+    {
+      "id": "src_paxton_schoenefeldt",
+      "kind": "institution",
+      "title": "Henrik Schoenefeldt, 'The Building of the Great Exhibition of 1851, an Environmental Design Experiment', Proceedings of the 25th PLEA Conference (Dublin, 2008; University of Cambridge Martin Centre; Kent Academic Repository PDF, read in full). Independent architectural-history paper: Paxton used the Chatsworth Victoria regia house as a prototype for the Exhibition building, worked with Henderson and Fox and the Chance Brothers glassmakers, proposed lighting, shading and ventilation strategies, and between 1850 and 1852 published hypothetical glasshouse projects; temperature records from the 1851 season show indoor temperatures often above the outdoor peak, and the Commissioners' First Report blamed insufficient ventilation, so that the Sydenham building was redesigned in response. Scholarly and critical of the building's performance.",
+      "url": "https://kar.kent.ac.uk/id/document/10461"
+    },
+    {
+      "id": "src_paxton_historicengland",
+      "kind": "institution",
+      "title": "Historic England, National Heritage List for England, 'Birkenhead Park' (Grade I registered park and garden, list entry 1000994; official list entry read in full). Heritage-body assessment: the first public park established at public expense in the United Kingdom, laid out by Paxton under the 1843 Improvement Act and appointed by Sir William Jackson, with Edward Kemp recruited from Chatsworth to supervise construction and John Robertson designing the lodges with Lewis Hornblower; belts of housing around the boundary were meant to subsidise the park; in 1845 Paxton was asked to alter the plans of unsold building plots and then withdrew, leaving Kemp in charge of completion; judged an outstanding example of Paxton's work. Official register text.",
+      "url": "https://historicengland.org.uk/listing/the-list/list-entry/1000994?section=official-list-entry"
+    }
+  ],
+  "rows": {
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_paxton_lecture1850, src_paxton_landow, src_paxton_curl, src_paxton_schoenefeldt | 1828-1851 | self-account, modern biographical commentary, reference entry, architectural-history paper] From 1828 he repeatedly tested glasshouse construction: bevelled rafters and a grooved sash bar, a ridge-and-furrow pine house in 1833, a larger greenhouse in 1834, a curved wooden roof built in 1836 to show how such roofs could be supported, and a sash-bar machine in 1838; Landow's review of Colquhoun reports about 3,400 pounds spent on trial structures in five years, Curl records the Great Stove as the largest glasshouse in Europe, and Schoenefeldt treats the Victoria regia house as a deliberate prototype for the Exhibition building. Impact is dual-edged because the 1851 temperature records show the scaled-up building overheated. SELF-CALIBRATION (agent): lowered from 76 / 0.64 to 72 / 0.56 because the trial-by-trial account comes mostly from his own 1850 paper, which Colquhoun repeats, so the independent corroboration is thinner than it first looked."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paxton_curl, src_paxton_schoenefeldt, src_paxton_britannica, src_paxton_lecture1850 | 1836-1851 | reference entry, architectural-history paper, reference article, self-account] Curl says the Exhibition building was designed so that all its parts could be prefabricated, erected and dismantled on site; Schoenefeldt shows he planned lighting, shading and ventilation together as one environmental scheme for a building of up to 90,000 visitors at a time, and Britannica describes a plan of prefabricated sheet-glass and iron elements. No source describes how he reasoned about systems, and the contractors Fox and Henderson, Decimus Burton, Charles Barry (transept) and the draughtsman John Robertson all contributed to the built result. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 64 / 0.50 because credit for the system-level engineering is shared and the sources credit the outcome rather than his reasoning."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paxton_lecture1850, src_paxton_curl, src_paxton_iln1865, src_paxton_landow | 1823-1850 | self-account, reference entry, press obituary, modern biographical commentary] He rose from garden labourer to head gardener at Chatsworth by self-education (Landow, Curl), compared a metal hot-house estimate of about 1,800 pounds with a wooden version he could build for under 500, and built a sash-bar machine for about 20 pounds that he says saved 1,400 pounds at the Great Conservatory; the 1865 obituary calls him a self-taught architect and engineer. The cost figures and the machine are in his own 1850 paper, so they are self-reported. SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 68 / 0.52 because the most specific evidence is his own account and the independent sources state self-teaching only in general terms."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paxton_dnb, src_paxton_lecture1850, src_paxton_britannica, src_paxton_schoenefeldt | 1841-1851 | reference biography, self-account, reference article, architectural-history paper] After the Commissioners' closing date, with other plans rejected, he prepared and submitted his own Exhibition design in about nine to ten days (the Dictionary of National Biography, Britannica and his own paper agree on the outcome); he helped found the Gardeners' Chronicle in 1841 and edited several horticultural journals; and between 1850 and 1852 he published his own proposals, including a pamphlet on the future of the Crystal Palace and a letter proposing covered glasshouse 'sanitariums' (Schoenefeldt). The late-entry story appears in three sources but they retell one episode. SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 70 / 0.55 because the best-known instance is a single episode told in largely the same way by his own paper and the reference works."
+    },
+    "opportunity_sensing": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paxton_schoenefeldt, src_paxton_curl, src_paxton_dnb | 1849-1854 | architectural-history paper, reference entry, reference biography] Two separate documented episodes: he turned the lily house built for the Victoria regia into the model for an exhibition hall, and, with a design competition failing, offered the glass-and-iron plan that was accepted; after the Exhibition he had the building re-erected at Sydenham and laid out its gardens (Curl, Dictionary of National Biography). The sources describe what he did, not that he foresaw the openings, and the failure of the Commissioners' own competition created the opening. SELF-CALIBRATION (agent): lowered from 68 / 0.52 to 64 / 0.50 because the two episodes are close in time and overlap with the evidence for proactive agency, and outcome bias is possible."
+    },
+    "execution_speed": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paxton_dnb, src_paxton_lecture1850, src_paxton_britannica, src_paxton_curl | 1849-1854 | reference biography, self-account, reference article, reference entry] His Exhibition plans were prepared in about nine to ten days, the Exhibition building was finished in roughly six months (Britannica, Curl) and the Sydenham building re-erected in 1852-54. The six-month build was carried out by the contractors, and the quick design rested on a decade of earlier glasshouse work he describes himself. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 66 / 0.50 because the speed of building is shared credit and the ten-day figure comes from his own paper and the Dictionary of National Biography."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paxton_historicengland, src_paxton_curl, src_paxton_schoenefeldt, src_paxton_landow | 1832-1854 | heritage-body register entry, reference entry, architectural-history paper, modern biographical commentary] At Birkenhead Park he brought in Edward Kemp to supervise construction and John Robertson to design lodges (Historic England); Curl names Robertson's help on several works and a partnership with George Henry Stokes at Sydenham and Mentmore; Schoenefeldt records work with Henderson and Fox and the Chance Brothers glassmakers; and Landow, summarising Colquhoun, reports a close working friendship with the Duke of Devonshire and the support of Brunel and Stephenson for his plan. The sources say little about how he handled disagreements, and the same review notes his family bore a heavy cost, which is not scored here."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paxton_dnb, src_paxton_curl, src_paxton_iln1865, src_paxton_landow | 1826-1865 | reference biography, reference entry, press obituary, modern biographical commentary] His work ran across horticulture and botanical publishing, estate management at Chatsworth, glasshouse engineering, village and house design (Edensor, Mentmore, Ferrieres), public parks and railway management (Dictionary of National Biography, Curl, 1865 obituary); Landow notes his railway-boom investments. Most of it grew out of a single base in gardening and building glass structures, which keeps the score moderate. SELF-CALIBRATION (agent): lowered from 64 / 0.52 to 60 / 0.50 because the breadth is mostly adjacent work built on one skill and none of the sources treats range as a distinct trait."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "조지프 팩스턴"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/joseph-paxton-last-1842-1887.jpg",
+    "width": 739,
+    "height": 1000,
+    "source": "Lithograph portrait of Joseph Paxton, Rijksmuseum, Amsterdam, object RP-P-OB-29.020 (title 'Portret van Joseph Paxton'; signed 'C.C.A. Last' and 'Steendr. v. P. Blommers', Den Haag; sheet 235 x 185 mm; the Rijksmuseum dates it only to the span 1842-1887). The printed caption under the figure reads 'PAXTON.'. The file is cropped from the Wikimedia Commons copy of the Rijksmuseum image (2538 x 3212 pixels) to the figure and caption and downscaled to 739 x 1000 with no upscaling.",
+    "license": "Public domain (Rijksmuseum rights statement: Public Domain Mark 1.0, with the museum's image data released under CC0 1.0); the printmaker Carel Christiaan Antony Last died in 1876",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Carel Christiaan Antony Last (printmaker) and Steendrukkerij P. Blommers (printer), Portret van Joseph Paxton, lithograph, Rijksmuseum, Amsterdam, RP-P-OB-29.020 (cropped and downscaled).",
+    "attributionUrl": "http://hdl.handle.net/10934/RM0001.COLLECT.136482",
+    "creator": "Carel Christiaan Antony Last (printmaker); printed by Steendrukkerij P. Blommers, The Hague",
+    "date": "undated within 1842-1887 (Rijksmuseum date span)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "http://hdl.handle.net/10934/RM0001.COLLECT.136482"
+  },
+  "provenance": {
+    "createdAt": "2026-11-15T00:00:00Z",
+    "updatedAt": "2026-11-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roster68 (agent). PORTRAIT PREFLIGHT: Stage B grade strong; initial lead (Rijksmuseum lithograph RP-P-OB-29.020 by C.C.A. Last, printed by P. Blommers) SURVIVED and was re-verified: the holder linked-art record (hdl.handle.net/10934/RM0001.COLLECT.136482) gives title 'Portret van Joseph Paxton', printmaker Carel Christiaan Antony Last (born 1808, 'mentioned on object') and printer P. Blommers (The Hague), date span 1842-1887, sheet 235 x 185 mm, Public Domain Mark 1.0 and CC0; the image itself is signed 'C.C.A. Last' and 'Steendr. v. P. Blommers' and carries the printed caption 'PAXTON.'; the face is consistent with the 1865 Illustrated London News engraving that friends called the best likeness. The NPG watercolour fallback (NPG 5565) was NOT used because Commons quotes the NPG as copyrighted with reproduction prohibited. KIND set conservatively to historical_depiction: the Rijksmuseum does not say whether the lithograph was drawn from life or after another image and dates it only to a 45-year span that extends past his death, so lifetime authorship is unverified (lead may upgrade to likeness if desired). Portrait cropped to the figure and caption, 739 x 1000 from 2538 x 3212, no upscaling. IDENTITY: QID Q318372 verified live 2026-11-15 (label 'Joseph Paxton', human, GB, description 1803-1865). BIRTH YEAR: sources disagree (1801 in the 1895 Dictionary of National Biography and Britannica; 1803 in the Oxford DNB as cited by the Victorian Web, the 1865 Illustrated London News and Wikidata; Wikidata also lists 1804, the year in the frozen list); 1803 is used. No Korean Wikidata label or Korean Wikipedia article exists; the Korean display name is a standard transliteration (flagged). REGION western_europe, ERA 19th_century. ZERO POLITICS: his seat as MP for Coventry from 1854 and his liberal affiliation are context only and unscored; his proposal of a labour corps for the Crimean works is not scored or carded. FIELDS: architecture, engineering, design; horticulture/gardening has no field or occupation id in the taxonomy (nearest is agriculture, not used because it would overstate), flagged for lead taxonomy review. ATTRIBUTION: attributable (extensive documentary and built record). CANONICAL SIGNIFICANCE SOURCE: Curl, Dictionary of Architecture and Landscape Architecture (src_paxton_curl). SOURCES READ (8 besides Wikidata): Curl; 1895 DNB; Britannica; 1865 ILN obituary; Paxton's 1850 Society of Arts paper (self); Landow review of Colquhoun with Clayton excerpt (one family); Schoenefeldt 2008 (independent, critical on performance); Historic England Birkenhead Park entry. Also opened but not cited: Victorian Web pages on Dugan 'The Engineers and the Crystal Palace', the Victorian Web Paxton index, Wikisource; Colquhoun's book itself, Chadwick, McKean, Hix and the Oxford DNB were NOT opened. CAVEATS: no adversarial biography; the strongest critical material is Landow's note that the Colquhoun biography is admiring and omits his railway investments, Clayton's note on his wife's burden, and Schoenefeldt's finding that the 1851 building overheated; Fox and Henderson, Barry (transept), Burton, Robertson, Kemp and Stokes share credit for built work. Profile is sparse (8 scored rows) by design; far below the 18-row match-eligibility floor, which is a match diagnostic, not a publication blocker. SELF-CALIBRATION: 7 of 8 rows lowered (experimentation 76/0.64 to 72/0.56; systems 66/0.52 to 64/0.50; resourcefulness 72/0.58 to 68/0.52; proactive 72/0.58 to 70/0.55; opportunity 68/0.52 to 64/0.50; execution speed 70/0.56 to 66/0.50; range 64/0.52 to 60/0.50); collaboration kept. MAJOR ACHIEVEMENT GATE: Crystal Palace, Great Stove, Birkenhead Park all pass."
+  }
+}

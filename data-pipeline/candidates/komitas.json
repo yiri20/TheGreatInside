@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "komitas",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Komitas",
+    "aliases": [
+      "Komitas Vardapet",
+      "Komitas Vartabed",
+      "Gomidas Vartabed",
+      "Soghomon Soghomonian",
+      "Soghomon Gevorki Soghomonyan"
+    ],
+    "wikidataId": "Q351670",
+    "birthYear": 1869,
+    "deathYear": 1935,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AM"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician",
+      "scholar",
+      "teacher"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "scientific"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "founder",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_komitas_wikidata",
+      "kind": "wikidata",
+      "title": "Komitas (Q351670), verified live via the Wikidata API (2026-11-18): English label 'Komitas', description 'Ottoman Armenian priest, musicologist, composer and vardapet (1869-1935)', instance of human, born 26 September 1869, died 22 October 1935; no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q351670"
+    },
+    {
+      "id": "src_komitas_baker",
+      "kind": "biography",
+      "title": "Baker's Biographical Dictionary of Musicians (Slonimsky, Kuhn and McIntire), entry 'Komitas (real name, Sogomonian)' (Gale, reproduced on Encyclopedia.com; read in full with its bibliography). CANONICAL SIGNIFICANCE SOURCE: calls him an Armenian ethnomusicologist and composer, born in Kutahya in 1869, who studied at the Gevorkian Theological Seminary, was made a vardapet and took the name Komitas, studied theory in Tiflis, lived in Berlin 1896-99 (courses with Richard Schmidt and at the university with Bellermann, Fleischer and Friedlaender), 'studiously collected materials on Armenian folk music', published articles and composed works using Armenian motifs, moved to Constantinople in 1910, was affected by 1915, lived from 1919 in a Paris hospital, and was reburied in Yerevan in 1936; his collected compositions were edited by R. Atayan in three volumes (1960-69). Short reference-work biography.",
+      "url": "https://encyclopedia.com/arts/dictionaries-thesauruses-pictures-and-press-releases/komitas-real-name-sogomonian"
+    },
+    {
+      "id": "src_komitas_ort",
+      "kind": "institution",
+      "title": "Tatevik Shakhkulyan, 'My heart is broken: Komitas Vardapet's scream', Music and Genocide Studies, ORT Holocaust Music project (read in full). Essay by a researcher of the Komitas Museum-Institute: his fieldwork method (joining village work, weddings and ceremonies or collecting in secret), the collection of about four thousand Armenian songs plus Kurdish, Assyrian, Arabic, Turkish and Georgian ones for comparative study, his education at the Gevorgian seminary and in Berlin (1896-99), his membership of the International Music Society, the 1910 move to Constantinople, the plan for a conservatory and the 300-voice Gusan choir, his arrest on 24 April 1915 and release after US ambassador Morgenthau intervened, and the unfinished projects and lost manuscripts. Admiring, scholarly in tone; it also repeats an unsourced Debussy anecdote that is NOT used here.",
+      "url": "https://holocaustmusic.ort.org/music-and-genocide/komitas-vardapet/"
+    },
+    {
+      "id": "src_komitas_autobiography",
+      "kind": "archive",
+      "title": "Komitas, 'Autobiography' (written June 1908 at Etchmiadzin; first printed in Hairenik monthly, Boston, 7 May 1924; English translation by Hratch Tchilingirian; read in full). PRIMARY SELF-ACCOUNT: orphaned at 10, sent to the Gevorkian Seminary in 1881 on the choice of the prelate, studied three years in Berlin (July 1896 to July 1899) with Richard Schmidt and at the university thanks to the benefactor Alexandre Mantashian, founding member of the International Music Society, lectures and concerts in Berlin, Paris (1906), Geneva, Lausanne, Zurich, Tiflis, Baku and Etchmiadzin; his stated aim for the 1906 Paris concert was to introduce Armenian religious and popular creations to the French musical world. Self-report only; used for dates and stated intentions, never as sole support for a trait.",
+      "url": "https://oxbridgepartners.com/hratch/index.php/other/notebook/268-komitas-autobiography"
+    },
+    {
+      "id": "src_komitas_zakaryan",
+      "kind": "press",
+      "title": "Tigran Zakaryan, 'Komitas: an Armenian voice in the world symphony', Regional Post, 22 January 2020 (a historian's illustrated article; read in full). Independent narrative biography: his first folk-song collection of 1895 which an ultraconservative faction of the Etchmiadzin clergy mocked as the work of a 'love-singing priest', the 1896-99 study in Berlin with financial difficulty, the 1903-05 published collections and the 1903 collection of Kurdish songs, his clashes with Armenian musicians whom he accused of excessive Europeanisation or Easternisation, the 1910 move to Constantinople (some note harassment by conservative clergy over recording on the gramophone), the Gusan choir and his students, the 1915 arrest and release after intervention by Morgenthau and others, the later years in hospital, the loss of over half of his collection and manuscripts on the neume notation, and the 1933 publication of his liturgy. Journalistic and admiring; the Turkish-nationalist and Halide Edip passages are context and are not used.",
+      "url": "https://regionalpost.org/en/articles/komitas.html"
+    },
+    {
+      "id": "src_komitas_nations",
+      "kind": "press",
+      "title": "Hasmik Barkhudaryan, 'Komitas and the music of nations' (interview with Tatevik Shakhkulyan of the Komitas Museum-Institute), Regional Post, 17 January 2020 (read in full). Describes his collecting from neighbouring peoples to find a 'defining musical formula': Armenian, Kurdish, Turkish and Georgian songs and one Finnish song, the Berlin lecture that compared Kurdish, Persian, Arabic and Turkish singing, the 1913 article 'The Armenians have their own music', his comparative notes on Indian and Chinese notation and on tribal music, and the 1915 end of the plan for a conservatory; the interviewee says some claims (a Berlin diploma on Kurdish music) have no documentary support. Same museum-institute family as the ORT essay: not an independent second source for the collecting claims.",
+      "url": "https://www.regionalpost.org/en/articles/komitas-and-the-music-of-nations.html"
+    },
+    {
+      "id": "src_komitas_haroyan",
+      "kind": "press",
+      "title": "Arpine Haroyan, 'Komitas, the future thinker: the unknown story of an Armenian icon', Ara the Rat (2020; read in full). Journalist's biography: childhood in Kutahya, village song collecting from the seminary years, the church objections to a celibate priest transcribing 'love' songs and his unanswered letter to the Catholicos asking to be freed from church obligations, the objection in Constantinople to a gramophone record of chants, the lack of steady financial support, his friendship and letters with the singer Margarit Babayan, a 1901 wallet anecdote, the 1910 move and the Gusan choir, the 1915 arrest and release, and the note that his post-1915 state was long assumed to be schizophrenia but that some researchers question this. Popular and sympathetic; anecdotes are single-source and are not used as support for a score. Reader comments on the page are spam and were ignored.",
+      "url": "https://www.aratherat.com/blogs/home-page/komitas-the-future-thinker"
+    },
+    {
+      "id": "src_komitas_ayvazian",
+      "kind": "biography",
+      "title": "Alice Ayvazian (Music University of Nicosia), 'Komitas Vardapet and his legacy to Armenian music' (journal article, pp. 85-92; read in full; PDF hosted by the Armenian National Academy of Sciences repository). Scholarly article on his work on the khaz neume notation and on his national style: his stated aims as a collector (to preserve the heritage, to make it available as a living art, to use it for study), the 1914 International Music Society lecture in Paris in which he demonstrated Turkish and Persian influences by singing, his arguments about Armenian tetrachord-based modes and the link between language accent and melody, and the quotation from Atayan on his polyphony. The article accepts that scholars have described his later breakdown as post-traumatic stress; that is context only and is not scored.",
+      "url": "https://arar.sci.am//Content/270661/85-92.pdf"
+    },
+    {
+      "id": "src_komitas_shakhkulyan_book",
+      "kind": "institution",
+      "title": "Tatevik Shakhkulyan, abstract of the monograph 'Komitas: His Early Creative Period' (Yerevan, Amrots Group Press, 2014), published by the Centre for Systematic Musicology, University of Graz (read in full; the book itself was not read). Describes his early compositions of 1891-99 in three stages, the Berlin pieces setting German poems and the Armenian liturgy in German translation, the division of measures by the rhythm of the sung text (called unusual in late 19th-century European music) and his 'personal polyphonic style based on Armenian modes'. Abstract by the book's own author, same family as the museum-institute essays.",
+      "url": "https://static.uni-graz.at/fileadmin/gewi-zentren/Sysmus/Dokumente/Shakhkulyan_Komitas.pdf"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_komitas_zakaryan, src_komitas_ayvazian, src_komitas_ort, src_komitas_nations | 1903-1914 | historian's article, scholarly article, museum-institute essay, museum-institute interview] Beyond Armenian songs he published a collection of twelve Kurdish songs in 1903-04 (Zakaryan), gave a 1914 lecture in which he sang Turkish and Persian variants to show outside influence (Ayvazian), and the museum-institute researcher says he also recorded Georgian, Turkish and one Finnish song and studied tribal and Indian and Chinese notation. CONCENTRATION CHECK: the breadth claims (Finnish song, tribal music, Chinese and Indian notation) rest on one museum-institute family; only the Kurdish collection and the 1914 lecture have independent support. Lowered from 72 / 0.56 to 68 / 0.52."
+    },
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_komitas_autobiography, src_komitas_baker, src_komitas_zakaryan, src_komitas_ayvazian | 1896-1914 | primary self-account, reference biography, historian's article, scholarly article] Three years of formal study in Berlin (July 1896 to July 1899, privately with Schmidt and at the university: autobiography, Baker's, Zakaryan) after earlier harmony study in Tiflis, followed by years of work on deciphering the old khaz notation (Zakaryan, Ayvazian) and repeated fieldwork. SELF-CALIBRATION: lowered from 74 / 0.58 to 72 / 0.54 because the Berlin study is partly his own account and the khaz-decipherment claims come mostly from admiring museum-linked and national-heritage framings."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_komitas_haroyan, src_komitas_zakaryan, src_komitas_ort | 1895-1914 | journalist's article, historian's article, museum-institute essay] He kept collecting and transcribing songs after his 1895 collection was mocked by part of the Etchmiadzin clergy, kept working while short of steady money (Haroyan; Zakaryan notes financial problems in Berlin), and pressed on with the notation research in Constantinople despite objection to the gramophone record. Reviewed in the concentration check and kept: two independent journalistic accounts plus the essay agree on the pattern; the post-1915 end of his work is not read as a signal about this trait."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_komitas_zakaryan, src_komitas_nations, src_komitas_ayvazian | 1899-1914 | historian's article, museum-institute interview, scholarly article] He argued, against the view that Armenian music was derivative, that it had its own character (the 1913 article 'The Armenians have their own music' and the 1914 lecture), and Zakaryan records that he clashed with Armenian musicians whom he criticised for Europeanising or Easternising it. CONCENTRATION CHECK: all accounts share a national-heritage framing and the 'own music' claim is largely from the museum-institute family; lowered from 70 / 0.52 (strong inference) to 66 / 0.48 (inference)."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_komitas_shakhkulyan_book, src_komitas_ayvazian, src_komitas_zakaryan, src_komitas_ort | 1896-1913 | monograph abstract, scholarly article, historian's article, museum-institute essay] A Berlin-period approach of dividing measures by the rhythm of the sung text and a personal polyphony built on Armenian modes (the author's abstract; Atayan quoted by Ayvazian), and Zakaryan adds that some of his songs in folk style were later believed to be genuine folk songs. CONCENTRATION CHECK: the originality claims come from the monograph's author and from admiring essays, with no outside judge named; lowered from 68 / 0.50 (strong inference) to 64 / 0.44 (inference)."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_komitas_haroyan, src_komitas_zakaryan | 1895-1913 | journalist's article, historian's article] Part of the Etchmiadzin clergy called him the 'love-singing priest' and questioned his work; he kept it up and wrote to the Catholicos asking to be released from church obligations (no reply), and in Constantinople he continued with gramophone recordings after the church side objected until intellectuals backed him. He also left Etchmiadzin in 1910, which some sources link to this friction, so the pattern is sticking with the work through a dispute as much as confrontation. SELF-CALIBRATION: lowered from 60 / 0.46 to 58 / 0.42 because it rests on two journalistic pieces and the 1910 move can be read either way."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_komitas_autobiography, src_komitas_zakaryan, src_komitas_haroyan, src_komitas_ort | 1895-1913 | primary self-account, historian's article, journalist's article, museum-institute essay] He left Etchmiadzin in 1895 to study harmony in Tiflis, then went to Berlin with a benefactor's funding arranged through the Catholicos (autobiography, Zakaryan), gave concerts and lectures abroad on his own initiative, helped found a choir in Paris with Margarit Babayan (Haroyan) and in 1910 founded the Gusan choir in Constantinople, with a conservatory plan (Zakaryan, ORT). Reviewed in the concentration check and kept: several accounts agree on the specific initiatives."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_komitas_ayvazian, src_komitas_autobiography, src_komitas_zakaryan | 1899-1914 | scholarly article, primary self-account, historian's article] His stated aims as a collector were to preserve the heritage, make it available as a living part of daily life and use it for study (Ayvazian, citing Nersessian), and he said the 1906 Paris concert was meant to introduce Armenian creations to French musicians (autobiography); Zakaryan describes him as popularising folk music among foreigners and urban Armenians. SELF-CALIBRATION: lowered from 66 / 0.52 to 64 / 0.48 because stated aims are self-report or a secondary paraphrase of his writing, and the helpfulness anecdotes are single-source."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_komitas_ayvazian, src_komitas_nations, src_komitas_ort | 1899-1914 | scholarly article, museum-institute interview, museum-institute essay] His own writing analysed Armenian modes as combinations of tetrachords and tied accentuation in folk songs to the meaning of the khaz signs (Ayvazian quoting him), and he is said to have drawn diagrams relating Armenian modes to Persian, Arabic and Greek ones (museum-institute interview) and to have used a systematic fieldwork method (ORT). CONCENTRATION CHECK: the method claims depend on the museum-institute family and on one scholarly article quoting his own text; lowered from 66 / 0.50 (strong inference) to 62 / 0.46 (inference)."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "코미타스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/komitas-unknown-1896.jpg",
+    "width": 635,
+    "height": 1000,
+    "source": "Studio portrait of Komitas Vardapet in civilian dress captioned 'Komitas Vardapet, Berlin, August 3, 1896' on the photo gallery of the Komitas Museum-Institute, Yerevan (the holder's own 1625 x 2560 pixel file, the first of its two 1896 Berlin portraits); the same photograph is on Wikimedia Commons as 'Komitas01.jpg' (2362 x 3720) with the museum-institute named as source. Downscaled to 635 x 1000 with no upscaling and no other change.",
+    "license": "Public domain by age: a studio photograph made in Berlin in 1896, photographer not named by the holder; the holder's gallery states no item-level credit or reuse terms (its only notice is the site footer '(c) Komitas Museum-Institute')",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photographer unknown (Berlin studio), 3 August 1896; reproduced from the photo gallery of the Komitas Museum-Institute, Yerevan.",
+    "attributionUrl": "https://komitasmuseum.am/en/komitas-vardapet/gallery",
+    "creator": "Unknown studio photographer, Berlin",
+    "date": "1896-08-03",
+    "kind": "likeness",
+    "sourcePageUrl": "https://komitasmuseum.am/en/komitas-vardapet/gallery"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (Stage B) / LEAD DID NOT SURVIVE, REPLACED: the lead Commons file 'Komitas.jpg' (549x716, uploaded 2007 from Armenian Wikipedia, author unknown, undated 'before 1935', retouched, only the generic PD-old template) has no holder, no publication chain and no inscription, so it was dropped. ROUTES TRIED (one bounded retry): (1) the 1909 studio portrait by I. Melikyan of Baku (Commons, 576x900, held per the Lusadaran database record by the Charents Museum of Literature and Art, Yerevan): the Lusadaran practitioner page says 'no biographical details' for the photographer and the database presents its images 'for educational and research purposes only', so the photographer's death date and any publication are unknown and the holder record was not reachable; (2) the 1913 Terlemezian painting (266x410, too small, sitter by title only) and the posthumous 1936 Tadevosyan painting (300x435, National Gallery bot wall, genre scene); (3) searches for a pre-1931 printed portrait (Internet Archive, Commons) found none; (4) the holder route that succeeded: the Komitas Museum-Institute's own gallery (komitasmuseum.am) lists two photographs captioned 'Komitas Vardapet, Berlin, August 3, 1896' without photographer credit or reuse terms; its first one is the same image as Commons 'Komitas01.jpg' (visual comparison of the striped bow tie and pose) and shows the same man as the museum's other captioned photographs of the vardapet in 1896 (Tiflis) and 1901. The Federal Agency for Civic Education (bpb.de) separately says Komitas had several civilian-dress portraits made in Berlin in 1896, one at Atelier Victoria, Leipziger Strasse 47; I could not tie this print to that studio, so no studio is claimed. RIGHTS: an 1896 photograph by an unnamed photographer; public domain by age under any plausible rule (anonymous work, more than 120 years since creation), with the caveats that the photographer and any publication are not documented, the holder gives no item-level rights statement and carries a generic site copyright footer, and the file is a museum-supplied digitisation. KIND likeness: a studio photograph of the sitter from life at age 26. INSCRIPTION/IDENTITY: the print itself carries no lettering in the supplied image; identity rests on the holder's caption, the match with Commons and the visual match with the holder's other captioned photographs. QID VERIFIED LIVE (2026-11-18, Wikidata API) Q351670 label 'Komitas', description 'Ottoman Armenian priest, musicologist, composer and vardapet (1869-1935)', instance of human, born 26 Sep 1869, died 22 Oct 1935; no ko label; not a collision with any existing candidate or production slug. REGION west_asia (Stage B group plan: Ottoman-born Armenian; west_asia is the group-plan assignment, no Armenian precedent checked). ERA 20th_century (career mostly 1899-1915, as for Bartok and Rachmaninoff). Nationality AM. KOREAN NAME: no Korean label on Wikidata and no Korean source found; 코미타스 is a standard transliteration chosen by the agent, lead to confirm. ZERO POLITICS: primary identity is ethnomusicologist, composer and priest-scholar; the 1915 arrest and the genocide are context only and unscored; his priesthood is context and the field is music. He is NOT scored on any post-1915 state: sources variously mention a breakdown, an assumed schizophrenia and a later PTSD reading, and no diagnosis of any kind is used or inferred. ATTRIBUTION: attributable (extensive published collections, lectures and dated letters, plus a 1908 autobiography), though the later hagiographic and national-symbol literature is heavy; rows rest on accounts that agree on specific actions. SOURCES READ (8 besides Wikidata): Baker's (full), ORT essay (full), 1908 autobiography (full), Zakaryan (full), Barkhudaryan interview (full), Haroyan (full), Ayvazian article (full), Shakhkulyan monograph abstract (full; the book not read). NOT OPENED OR BLOCKED: Britannica (HTTP 403), Encyclopaedia Iranica (404), Grove, Kuyumjian's 'Archeology of Madness', Nersessian's and Barsoumian's translations of his essays, the Komitas Museum-Institute biography pages (404 on the guessed path), the Charents Museum record. INDEPENDENT BEHAVIOURAL SOURCE FAMILIES: about 4 (reference dictionary, historian Zakaryan, journalist Haroyan, scholar Ayvazian) plus a museum-institute family (ORT essay, interview, monograph abstract) that counts once, and his own autobiography as self-report. NON-SELF BEHAVIOURAL SOURCES: Zakaryan, Haroyan, Ayvazian and Baker's. CONTRADICTIONS AND LIMITS: sources differ on birth date (26 Sep Old Style or 8 Oct New Style), ordination year (1894 or 1895) and on whether he completed a degree in Berlin; accounts disagree on collection size (about 3,000 to over 4,000; only about 1,200 survive per Zakaryan); a 1901 wallet anecdote, an unsourced Debussy anecdote and the reason for the 1910 move are single-source or contested and are not used as evidence; the rows are sparse (9) and will not meet the numeric match-eligibility floor, which is a match diagnostic and not an evidence defect. MAJOR ACHIEVEMENT GATE: see handback; cards are (1) collecting and publishing Armenian folk song as a founder of Armenian ethnomusicology, (2) the national choral style and compositions, (3) the khaz notation research and liturgy, with the Gusan choir and the conservatory plan folded in where they fit."
+  }
+}

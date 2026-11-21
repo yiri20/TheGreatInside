@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fanny-bullock-workman",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Fanny Bullock Workman",
+    "aliases": [
+      "Fanny Workman",
+      "Fanny Bullock-Workman"
+    ],
+    "wikidataId": "Q522167",
+    "birthYear": 1859,
+    "deathYear": 1925,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "writer"
+    ],
+    "fieldIds": [
+      "exploration",
+      "sport"
+    ],
+    "impactDomains": [
+      "athletic",
+      "historical"
+    ],
+    "tagIds": [
+      "explorer",
+      "competitor"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_workman_wikidata",
+      "kind": "wikidata",
+      "title": "Fanny Bullock Workman (Q522167), verified live via the Wikidata API (2026-11-15): English label 'Fanny Bullock Workman', description 'American geographer, cartographer, explorer, travel writer, and mountaineer (1859-1925)', Korean label 패니 불럭 워크먼, born 1859-01-08, died 1925-01-22, citizen of the United States, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q522167"
+    },
+    {
+      "id": "src_workman_aac",
+      "kind": "institution",
+      "title": "Sallie Greenwood (mountaineering historian), 'Fanny Bullock Workman (1859-1925)' and 'Annie Smith Peck (1850-1935)', exhibit pages in 'Women in High Places, 1880-1950', American Alpine Club Library (both read in full, about 1,000 words and 600 words, with the captions of the archive items they show: the club's 1909 resolution on the height of Huascaran, Workman's telegram and New York Tribune letter, Peck's letters, press clippings, Workman's 1911-13 letters to the club president). CANONICAL SIGNIFICANCE SOURCE: eight seasons exploring glaciers and mountains of the Karakoram and Punjab Himalaya between 1898 and 1912; first ascents in 1899 (Siegfriedhorn, Bullock Workman peak, Koser Gunge) and 1903 and 1906 altitude climbs (Pyramid Peak, Pinnacle Peak); co-authored illustrated books; the 1905 Royal Geographical Society lecture; and the 1908-10 altitude-record dispute in which she hired French surveyors to triangulate Huascaran and published the result against Peck. Library exhibit by a historian, drawing on the club's archives; includes the rival's side through Peck's letters.",
+      "url": "https://library.americanalpineclub.org/exhibits/show/womenclimbing/fannybullockworkman"
+    },
+    {
+      "id": "src_workman_plint",
+      "kind": "biography",
+      "title": "Michael Plint, 'The Workmans: Travellers Extraordinary', The Alpine Journal 1992/93, reprinted in The Himalayan Journal 49 (1993; read in full, about 4,000 words). Independent critical biography by a mountaineer who gained access to the Workman family papers and notebooks: the cycling years, the 1898 start of Himalayan travel, the seven expeditions to 1912, their lecturing careers (a Lyons audience of 1,000 with 700 turned away, her 1905 Royal Geographical Society paper), their attitude to porters, the disputes over their Nun Kun map and over Huascaran, the Survey of India triangulation by Peterkin and Sarjan Singh that underlies the Siachen map, and the 1918 Geographical Journal review that criticised their attacks on other explorers and their temper towards local people. Frank but sympathetic to their endurance.",
+      "url": "https://himalayanclub.org/hj/49/8/the-workmans-travellers-extraordinary"
+    },
+    {
+      "id": "src_workman_gale",
+      "kind": "biography",
+      "title": "'Workman, Fanny (1859-1925)', Women in World History: A Biographical Encyclopedia (Gale), by Drew Walker, read at Encyclopedia.com (about 1,500 words, read in full; it cites American National Biography and Notable American Women). Reference biography: her background and education, the cycling tours, the Karakoram expeditions, altitude records, the Huascaran dispute and the finding that her own record was lower than she claimed, the criticism of the Workmans' inaccurate maps and of their treatment of porters (150 members of one party deserting), her lecturing (first American woman to lecture at the Sorbonne), medals from ten European geographical societies and the bequest to four women's colleges. Includes unfavourable material alongside the praise.",
+      "url": "https://www.encyclopedia.com/women/dictionaries-thesauruses-pictures-and-press-releases/workman-fanny-1859-1925"
+    },
+    {
+      "id": "src_workman_hj78",
+      "kind": "institution",
+      "title": "Ashok Abbey, 'The First Lady of Siachen - Fanny Bullock Workman', The Himalayan Journal 78 (Himalayan Club, 2023; read in full, about 5,500 words). Admiring retelling of the 1911-12 Siachen expeditions, drawing heavily on her own book Two Summers in the Ice-Wilds of Eastern Karakoram: the 1911 reconnaissance, her decision to return, the 1912 'Fanny Bullock Workman Expedition' as a private expedition with Survey of India help for the survey, the guide Savoye's advice to turn back on the Tarim Shehr glacier and her decision to retreat, the logistic crisis she solved, two deaths among the party, the peaks and passes she named. Largely a restatement of her own account, so it is not independent of her book.",
+      "url": "https://www.himalayanclub.org/hj/78/4/the-first-lady-of-siachen-fanny-bullock-workman/"
+    },
+    {
+      "id": "src_workman_scroll",
+      "kind": "press",
+      "title": "'At a time of inequality, Fanny Workman climbed mountains in India and scaled new heights', Scroll.in (journalist's feature in a series on Americans in India; read in full, about 1,800 words). Popular history that draws on the Workmans' books: the preparation of the Siachen expedition (equipment bought in England and shipped to Bombay, porters sent ahead), their complaints about porters and assistants, the pushback from British surveyors over their naming of features, gossip about their imperious treatment of coolies, her 1905 Royal Geographical Society lecture and 1913 admission as one of its first women Fellows, and her own assessment that she was 'a slow climber' with good endurance. Largely secondary and built on their books.",
+      "url": "https://scroll.in/magazine/1042995/in-an-era-of-inequality-fanny-workman-climbed-mountains-in-india-and-scaled-new-heights"
+    },
+    {
+      "id": "src_workman_wie",
+      "kind": "institution",
+      "title": "Women in Exploration, timeline entry 'Fanny Bullock Workman' (read for the first part, about 600 words). Short research-project biography: her background, the cycling tours, the first Himalayan expeditions and altitude records, the founding membership of the American Alpine Club, and the medals from ten European geographical societies. Used only for consistent dates; its account of the 1899 Biafo attempt is not repeated because other sources differ.",
+      "url": "https://womeninexploration.org/timeline/fanny-bullock-workman"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_workman_aac, src_workman_plint, src_workman_hj78, src_workman_gale | 1898-1912 | library exhibit, critical biography, club journal article, reference biography] Four sources agree that she made eight summer seasons of exploration in the Karakoram and Punjab Himalaya between 1898 and 1912, many of them in poor weather (Plint records 60 hours stormbound on the Chogo Lungma in 1902), and the critical biography notes that in 1912 she and her husband, aged 54 and 65, spent about two months in continuous travel never below 15,000 feet and sometimes as high as 21,000 feet; Abbey, from her own book, says she decided on the 1911 return to the Siachen on the pass itself. The long record is independently documented; her own motives are known mostly from her book. REVIEWED (agent): kept at 76 / 0.64 because the sequence of seasons is shown by a library record and a critical biography as well as the admiring article."
+    },
+    "competitiveness": {
+      "score": 78,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_workman_aac, src_workman_plint, src_workman_gale | 1906-1910 | library exhibit with archive items, critical biography, reference biography] When Annie Peck claimed in 1908 an ascent of Huascaran above 23,000 feet, which would have taken Workman's women's altitude record, she hired French surveyors in June 1909 to triangulate the mountain, announced their finding (21,812 feet for the north peak Peck climbed) in telegrams, letters and journals, and devoted a chapter of her 1910 book to it; the American Alpine Club's own 1909 resolution and the exhibit's archive items show the dispute. The critical biography adds that her own Pinnacle Peak claim was later reduced to about 22,810 feet and that her attacks on other explorers drew a critical review in 1918. dual_edged because the survey corrected a real estimate while her own claim was overstated. SELF-CALIBRATION (agent): lowered from 80 / 0.64 to 78 / 0.62 because the competitive motive is partly the historians' reading of the dispute, and the 1909 survey is one episode, not a pattern across years."
+    },
+    "conflict_tolerance": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_workman_plint, src_workman_gale, src_workman_scroll, src_workman_aac | 1906-1918 | critical biography, reference biography, journalist's feature, library exhibit] Beyond the Huascaran dispute, the critical biography records that her husband's Nun Kun map was later rearranged by Dr Arthur Neve in a dispute of 'exceptional bitterness', that the Geographical Journal reviewed her 1917 book in 1918 and criticised her attacks on earlier explorers, and the feature adds British surveyors' objections to her naming of features; the reference biography notes criticism of her treatment of porters. The disputes are documented by several sources, but the Peck episode is also the base of the altitude-record rivalry row. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 68 / 0.52 because the strongest instance is the same Huascaran dispute counted in another row and the other instances are reported mainly by one critical biography."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_workman_plint, src_workman_gale, src_workman_hj78 | 1899-1912 | critical biography, reference biography, club journal article] Plint records that in 1902 the party survived the ascent to a 'hideously dangerous col' thanks to the guide and good fortune and describes the crevasse incidents of 1899; Gale calls the climbs arduous and treacherous; Abbey records that in 1912 a porter died in a crevasse fall and another in a glacial stream, and that the guide advised turning back on the Tarim Shehr glacier and she retreated. They worked with Swiss and Italian guides, surveyors and large crews, which reduced the exposure. SELF-CALIBRATION (agent): lowered from 72 / 0.52 to 68 / 0.48 because the sources show exposure to danger, not how she weighed it, and the guided, well-supplied style of the expeditions limits what the episodes show about her own risk-taking."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_workman_scroll, src_workman_plint, src_workman_hj78 | 1898-1912 | journalist's feature, critical biography, club journal article] The feature says the Siachen expedition was carefully prepared, with tents and clothing bought in England and shipped to Bombay, porters sent ahead and a surveyor from the Survey of India assigned (Abbey, from her own book); Plint records that for an early attempt on Kangchenjunga they ordered a mountain outfit from London and engaged a Zermatt guide, and that by 1908 they had 'got the hang' of organising their journeys, with Italian surveyors for the map. The same critical biography notes that their earlier surveys were unreliable. SELF-CALIBRATION (agent): lowered from 66 / 0.5 to 62 / 0.46 because the detailed preparation reported in the feature and Abbey comes from the Workmans' own books, and the quality of the surveying was repeatedly criticised."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_workman_plint, src_workman_aac, src_workman_hj78 | 1898-1912 | critical biography, library exhibit, club journal article] She and her husband started the Karakoram expeditions at their own expense, built a lecturing career (a paper at the Royal Geographical Society in 1905, talks in three languages), commissioned the 1909 Huascaran survey, and after the 1911 reconnaissance organised the 1912 expedition under her own name with the Royal Geographical Society-linked surveyor and Survey of India assistance; in 1912 she also settled a supply crisis herself (Abbey). Largely a couple's joint initiative, and the Huascaran episode is also used in two other rows. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 68 / 0.5 because the initiative is shared with her husband and the main concrete instance duplicates the altitude-record rivalry row."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "패니 불럭 워크먼"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/fanny-bullock-workman-desgranges-c1908.jpg",
+    "width": 656,
+    "height": 1000,
+    "source": "Studio photograph of Fanny Bullock Workman by André Desgranges (1842-1915), Nice (the mount carries the imprint 'Desgranges, Inaltérable, 14 Avenue Masséna, Nice' and a handwritten caption 'Fanny Bullock Workman'), held in the Bibliothèque nationale de France, département Société de Géographie, shelfmark SG PORTRAIT-2445, digitised on Gallica (ark:/12148/btv1b10500759s). The BnF catalogue notice (ark:/12148/cb405876935) names the photographer Desgranges, André (1842-1915), gives the title and date as handwritten on the back of the print, dates the publication '[Après 1908]' (after 1908), and lists the subject as Workman, Fanny Bullock (1859-1925), portraits. The file is the Wikimedia Commons copy of the Gallica image (3062 x 4090), cropped to the photograph itself (mount, imprint and caption removed) and downscaled to 656 x 1000, with no upscaling.",
+    "license": "Public domain: the photographer André Desgranges died in 1915 (more than 70 years), so the photograph is out of copyright in France and, as a pre-1931 work, in the United States; Commons tags it PD-old-auto-expired (1915), PD-France and PD-US-expired. The Gallica item page itself could not be read (bot wall), so the holder's own reuse wording was not seen; the BnF manifest links Gallica's general terms of use.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "André Desgranges (1842-1915), photograph of Fanny Bullock Workman, Nice, after 1908; Bibliothèque nationale de France, département Société de Géographie, SG PORTRAIT-2445 (Gallica); via Wikimedia Commons, cropped and downscaled.",
+    "attributionUrl": "https://gallica.bnf.fr/ark:/12148/btv1b10500759s",
+    "creator": "André Desgranges (1842-1915), photographer, Nice",
+    "date": "after 1908 (BnF catalogue notice; Gallica and Commons give 1908)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Fanny_Bullock_Workman_-_Desgranges_-_btv1b10500759s_(1_of_2).jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-15T00:00:00Z",
+    "updatedAt": "2026-11-15T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead) / SURVIVED with a date correction: the lead's route was the BnF Societe de Geographie studio photograph by Andre Desgranges (SG PORTRAIT-2445, Gallica). Gallica's item and OAI pages returned a Cloudflare bot wall (403) and were not bypassed; the BnF catalogue notice (catalogue.bnf.fr ark:/12148/cb405876935) was readable and gives the photographer as Desgranges, Andre (1842-1915), title and date handwritten on the back, publication '[Apres 1908]' (the Commons and Gallica metadata say 1908, so the file is dated 'after 1908'), subject Workman, Fanny Bullock (1859-1925), portraits, and shows the physical print is held at the Societe de Geographie with consultation subject to conditions (a handling condition, not a reuse restriction). SITTER: the mount carries the studio imprint 'Desgranges, Inalterable, 14 Avenue Massena, Nice' and a handwritten caption 'Fanny Bullock Workman' (visible on the original scan), consistent with the catalogue subject heading. RIGHTS: photographer died 1915; PD in France and the US; Commons PD tags read; BnF's reuse terms page was not readable. KIND likeness (studio photograph from life). Dimensions: 3062 x 4090 original, cropped to the photograph and downscaled to 656 x 1000 (about 108 KB). The fallback plate from Ice-bound Heights of the Mustagh (1908) was not needed. PREFLIGHT: QID VERIFIED LIVE (2026-11-15, Wikidata API) Q522167 label 'Fanny Bullock Workman', description 'American geographer, cartographer, explorer, travel writer, and mountaineer (1859-1925)', born 1859-01-08, died 1925-01-22, human, ko label 패니 불럭 워크먼 (used for display). REGION north_america. ERA 20th_century (precedent Annie Smith Peck, whose career belongs to the same expedition years). Nationality US. ATTRIBUTION: attributable (dated expeditions, books, archive letters, a documented public dispute); the couple's joint authorship means every action here is credited to her only where a source separates her from her husband. CANONICAL SIGNIFICANCE SOURCE: American Alpine Club Library exhibit by Sallie Greenwood (with the Peck exhibit page). READ: AAC Workman and Peck exhibit pages (full), Plint's Alpine Journal / Himalayan Journal 49 article (full), Gale Women in World History entry (full), Abbey in Himalayan Journal 78 (full), Scroll.in feature (full), Women in Exploration timeline (first part). Wikipedia not used. NOT OPENED: the Workmans' own books (Two Summers in the Ice-Wilds, The Call of the Snowy Hispar), the Alpine Journal 1912 note (the PDF URL did not resolve), the Geographical Journal 1918 review itself (known only through Plint), Gallica item page. PERSPECTIVES: library archive historian; critical biography based on family papers; reference biography with unfavourable material; Himalayan Club admiring retelling; journalist's feature; the rival's side through Peck's archive letters in the AAC exhibit. NON-SELF BEHAVIOURAL SOURCES: AAC, Plint, Gale (Abbey and Scroll both rest on the Workmans' own books). COUNTER-VOICES: Plint on their attitude to porters and the 1918 review; Gale on inaccurate maps, porter desertion and the lowered record; Scroll on surveyors' objections to naming. NOT SCORED: suffrage views (she was photographed with a 'Votes for Women' paper in 1912; context only, not primary identity), family and health matters, her will and bequests as personal conduct, and her husband's separate conduct. ZERO POLITICS/ACTIVISM-PRIMARY: primary identity is explorer and mountaineer. VOCABULARY: occupations explorer, writer; fields exploration, sport; tags explorer, competitor; archetype competitive_performer; impact domains athletic, historical. CONFLICTS NOT CARDED: summit heights (Pinnacle Peak 23,300 / 23,264 / 22,810 / 22,815 feet by source), 'first woman' claims, the number of expeditions (six, seven or eight by source), and the 1899 Biafo versus Hispar chronology. SELF-CALIBRATION: six rows initially scored; five lowered (competitiveness, conflict_tolerance, risk_tolerance, planning_orientation, proactive_agency), persistence reviewed and kept. Sparse 6-row profile by design (no row for porters or team relations: the evidence is critical and one-sided)."
+  }
+}

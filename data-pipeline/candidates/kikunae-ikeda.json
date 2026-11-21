@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kikunae-ikeda",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kikunae Ikeda",
+    "aliases": [
+      "Ikeda Kikunae",
+      "池田菊苗"
+    ],
+    "wikidataId": "Q380575",
+    "birthYear": 1864,
+    "deathYear": 1936,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "inventor",
+      "professor"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "technology"
+    ],
+    "impactDomains": [
+      "scientific",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ikeda_wikidata",
+      "kind": "wikidata",
+      "title": "Kikunae Ikeda (Q380575), verified live via the Wikidata API (2026-11-18): English label 'Kikunae Ikeda', description 'Japanese chemist (1864-1936)', Japanese label 池田菊苗, Korean label 이케다 기쿠나에, instance of human, born 1864-10-08, died 1936-05-03, citizen of Japan. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q380575"
+    },
+    {
+      "id": "src_ikeda_ndl_kaleido",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'Hon no mangekyo' no. 17, chapter 3, 'Umami no hakken' (online exhibition essay on the discovery of umami, read in full in Japanese). CANONICAL SIGNIFICANCE SOURCE: says Ikeda traced the savoury taste of kombu broth to glutamate in 1908, named it umami, and proposed it as a fifth taste distinct from sweet, sour, salty and bitter; describes his hardship as a student, study under Ostwald in Leipzig from 1899, return to a Tokyo Imperial University chair in 1901 as a leading theoretical chemist, his 1907 start of the kombu work, a pause for other duties and a restart in 1908, work with his assistant Kuriwara Yoshikata after many failed trials, and the 1909 launch of the seasoning by the Suzuki firm. Also carries the library's own corrections: the popular story that his wife's purchase of kombu started it rests on his own later recollection and is now disputed; glutamic acid itself had been isolated in Germany in 1866 and was known in Japan; the agricultural chemist Suzuki Umetaro is recorded as saying he had tasted the acid but not its salt. A national-library curated essay; independent of the company, with a critical note on the legend.",
+      "url": "https://www.ndl.go.jp/kaleido/entry/17/3.html"
+    },
+    {
+      "id": "src_ikeda_ndl_portrait",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'Ikeda Kikunae', Portraits of Modern Japanese Historical Figures (entry 6473, short biography read in Japanese): physical chemist, graduate of Tokyo Imperial University in 1889, professor there from 1901, conceived of a taste beyond the four tastes, traced the kombu taste to monosodium glutamate and commercialised it as Ajinomoto, took part in founding the Institute of Physical and Chemical Research (RIKEN) in 1917 and later became a chief researcher there, met Natsume Soseki in London during his European study and kept up the friendship. Library reference biography; short.",
+      "url": "https://www.ndl.go.jp/portrait/datas/6473.html"
+    },
+    {
+      "id": "src_ikeda_shi",
+      "kind": "press",
+      "title": "Sam Kean, 'The Science of Satisfaction', Distillations magazine, Science History Institute (9 October 2015, read in full). Popular-history account: Ikeda came from a samurai family that had fallen on hard times, sold his bed to pay for college and taught Shakespeare in English for spare cash; from 1907 he boiled down about 90 pounds of kelp over months to obtain a small amount of crystals identified as glutamate; he then looked for glutamate in other foods (meat, fish, cheese, tomatoes, asparagus, breast milk), asked why humans taste it, chose wheat rather than kelp for mass production, and by March 1909 had crystals of 85 percent purity. Journalism for a general audience, drawn from earlier accounts; contains a loose 'at the origin of flavor' gloss for the brand name.",
+      "url": "https://www.sciencehistory.org/stories/magazine/the-science-of-satisfaction/"
+    },
+    {
+      "id": "src_ikeda_npr",
+      "kind": "press",
+      "title": "NPR Short Wave, 'Why it took nearly 100 years for umami to be globally accepted as a distinct flavor' (episode transcript, May 2022, read in full), with the food-science historian Sarah Tracy and the historian Victoria Lee. INDEPENDENT HISTORIAN VOICE: describes the dashi origin story as a 'fable' in food journalism; says Ikeda's 1909 paper stayed in Japanese until a 2002 English version, that he presented it at the 1912 International Congress of Applied Chemistry in New York, that American chemists in the 1940s and 1950s argued glutamate had no distinct taste, that acceptance came after glutamate receptors were found on the tongue, and that Ajinomoto's corporate messaging helped drive the later research effort. Broadcast journalism with expert interviews; says little about his personal conduct.",
+      "url": "https://www.npr.org/transcripts/1091053943"
+    },
+    {
+      "id": "src_ikeda_ajinomoto",
+      "kind": "institution",
+      "title": "Ajinomoto Group, 'Ajinomoto Group 100-year history', prologue 'Road to the start of production (to 1908)' (company website, summary page read in Japanese). COMPANY SOURCE (self-interested): says Ikeda, shocked in Germany by the size and nutrition of Germans, resolved to improve Japanese nutrition; that after returning he became convinced of a taste beyond the four tastes, found glutamate in 1908, named umami, patented a manufacturing method and asked the second Suzuki Saburosuke, then a well-known chemicals industrialist, to commercialise it, with the seasoning launched in May 1909. The PDF chapters of the same history could not be decoded (broken font encoding) and were not used.",
+      "url": "https://www.ajinomoto.co.jp/company/jp/aboutus/history/story/01/"
+    },
+    {
+      "id": "src_ikeda_uic",
+      "kind": "institution",
+      "title": "Umami Information Center, 'Who found umami?', Google Arts and Culture online story (read in full). COMPANY-LINKED SOURCE (self-interested; the centre is an industry body): says Ikeda trained under Ostwald in Leipzig, resolved to improve Japanese nutrition, extracted about 30 grams of glutamic acid from 12 kilograms of kelp by February 1908, tested sodium, potassium and other glutamate salts and chose the sodium salt for its solubility and texture, was approached in his laboratory by Suzuki Saburosuke, and with him decided in September 1908 to release the seasoning in May 1909; says his leading pupil Kodama Shintaro later found inosinic acid in dried bonito. Contains an internal dating slip (professorship given as 1896) that is not carried here, and a different account of who first approached whom from the Ajinomoto page.",
+      "url": "https://artsandculture.google.com/story/fAVR-YosF-aaJg"
+    },
+    {
+      "id": "src_ikeda_riken",
+      "kind": "institution",
+      "title": "RIKEN, 'The founding of RIKEN' (Historia pages, read in Japanese): says that after the First World War cut off imports of drugs and industrial raw materials, Shibusawa Eiichi, Sakurai Joji, Ikeda Kikunae and Suzuki Umetaro drafted the plan for a chemistry institute, that a petition was submitted to the Imperial Diet in 1914, and that the proposal widened into the Institute of Physical and Chemical Research approved in 1916 and set up in 1917. Institutional history of the institute; names Ikeda only among the drafters.",
+      "url": "https://www.riken.jp/pr/historia/found/index.html"
+    },
+    {
+      "id": "src_ikeda_bluebacks",
+      "kind": "press",
+      "title": "Blue Backs editorial team (Kodansha), 'Umami discoverer Ikeda Kikunae's achievement' (Science 365 Days column, 3 May 2021, read in full in Japanese): says he left home for Tokyo to study chemistry and studied under Sakurai Joji, took from Ostwald the idea of serving society through chemistry, turned in his later years to applied research, continued working until shortly before his death in 1936, and made a last study of why the hot spring water of Yugawara helps heal cuts, visiting the site two days before he died ('it is said'). Short popular column; the last-days detail is unsourced.",
+      "url": "https://gendai.media/articles/-/81211"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ikeda_ndl_kaleido, src_ikeda_shi, src_ikeda_uic | 1907-1909 | national library essay, popular-history article, company-linked story] He took up the question of what the taste of kombu broth actually is, and after isolating glutamate looked for it in other foods (meat, fish, cheese, tomatoes, asparagus). The library essay says the well-known origin story (his wife's kombu) rests on his own later recollection and is now disputed, and the follow-up work comes from a popular article drawn from earlier accounts. Concentration check: one family (his own account as retold by the company and by journalists); lowered from 66 / 0.52 to 62 / 0.46 and kept at inference."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ikeda_uic, src_ikeda_shi, src_ikeda_npr, src_ikeda_ndl_kaleido | 1907-1909 | company-linked story, popular-history article, broadcast interview, national library essay] He separated the active substance stepwise (removing salts and mannitol from concentrated kombu extract until crystals formed), identified them as glutamic acid, then compared sodium, potassium and other glutamate salts for taste and solubility before choosing the sodium salt; the library essay adds that the point of his insight was tasting the salt, which the agricultural chemist Suzuki Umetaro said he had not done. Concentration check: the method steps all trace to Ikeda's own paper and the company telling, so one family with a library corroboration; lowered from 68 / 0.56 to 64 / 0.50."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ikeda_ndl_kaleido, src_ikeda_npr, src_ikeda_shi | 1908-1912 | national library essay, broadcast interview, popular-history article] He proposed that broth-like savoriness was a taste of its own in a field that recognised four basic tastes, published the 1909 paper in Japanese and presented it at a 1912 congress in New York; the historian interviewed on NPR describes long scientific resistance to a fifth taste. The sources show him holding the proposal, not how he arrived at it independently of others. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 64 / 0.50 because the claim rests partly on the later vindication of the idea (outcome bias) and on one historian's account of reception."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ikeda_ndl_kaleido, src_ikeda_npr, src_ikeda_ajinomoto | 1908-1909 | national library essay, broadcast interview, company history] He named umami as a distinct taste and patented a way of making the seasoning, but the library essay stresses that glutamic acid had been isolated in 1866 and that a senior colleague had tasted the acid without noticing the salt, so the novelty lay in recognising and exploiting the taste rather than in the compound. SELF-CALIBRATION (agent): lowered from 62 / 0.46 to 58 / 0.42 because the credit for novelty is largely outcome-driven and contested in the library essay."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ikeda_ndl_kaleido, src_ikeda_shi, src_ikeda_bluebacks, src_ikeda_npr | 1907-1936 | national library essay, popular-history article, popular science column, broadcast interview] The kombu work took months of extraction in 1907-08, was paused for other duties and resumed in 1908 after repeated failed trials with his assistant; he later carried the idea to a 1912 international congress, and a popular column says he was still doing fieldwork two days before his death. His student years were marked by hardship that he worked through (library essay, popular article). Concentration check: mostly his own and company accounts for 1907-08, with the library essay as independent confirmation of the pause and restart; lowered from 64 / 0.52 to 62 / 0.50."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ikeda_ajinomoto, src_ikeda_uic, src_ikeda_ndl_kaleido, src_ikeda_riken | 1900-1917 | company history, company-linked story, national library essay, institutional history] The company sources say he resolved to improve Japanese nutrition after seeing German diets and designed an inexpensive seasoning for that end; the library essay says his own stated reason was the breadth of what chemical research could open up and lists other proposed motives (service to humanity, Ostwald's influence, family finances); the RIKEN history names him among the drafters of the institute's founding plan. Concentration check: the nutrition motive is self-report relayed by the company; lowered from 66 / 0.50 to 60 / 0.42 and kept at inference."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ikeda_ndl_kaleido, src_ikeda_shi, src_ikeda_bluebacks | 1890s-1936 | national library essay, popular-history article, popular science column] He was a leading theoretical chemist who moved into applied food chemistry; the library essay says the writer Natsume Soseki was impressed by his learning when they shared lodgings in London (citing Soseki's letters and diary), a popular article says he taught Shakespeare in English for money, and a column says his last project concerned the healing effect of a hot spring. The links across fields are moderate and come from three modest sources. Concentration check: lowered from 64 / 0.52 to 60 / 0.50."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ikeda_ndl_kaleido, src_ikeda_ajinomoto, src_ikeda_uic, src_ikeda_riken, src_ikeda_ndl_portrait | 1908-1917 | national library essay, company history, company-linked story, institutional history, library reference biography] He turned the laboratory result into a patented process and a product with the Suzuki firm (launched 1909), and later took part in drafting and founding RIKEN; the company sources disagree on whether Ikeda or Suzuki made the first approach, so the commercial initiative is shared. Concentration check: the commercial steps lean on company sources, with the library essay and RIKEN history as independent confirmation; lowered from 66 / 0.52 to 62 / 0.50."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ikeda_ndl_kaleido, src_ikeda_uic, src_ikeda_riken | 1907-1917 | national library essay, company-linked story, institutional history] The library essay says he worked with his assistant Kuriwara Yoshikata through many failed trials; the company-linked story says he tested salts on Suzuki's advice and trained the pupil Kodama who later found inosinic acid in bonito; the RIKEN history lists him with three others as a drafter of the founding plan. None of the sources describes how the work was shared. Concentration check: lowered from 60 / 0.48 to 56 / 0.44 and kept at inference."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "이케다 기쿠나에"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kikunae-ikeda-unknown-1932.jpg",
+    "width": 362,
+    "height": 490,
+    "source": "Photograph of Ikeda Kikunae (photographer not named) printed as plate 244 with the caption 'Dai 244 zu: Ikeda Kikunae (1864-)' on page 464 of Daiko Yukichi, Tsuzoku kagaku taiwa (Tokyo: Fuzanbo, 1932), digitised by the National Diet Library, Japan (item 1050251; the holder's item record carries rights code 'pdm', public domain mark, and the author Daiko Yukichi died in 1950). The file is cropped from the library's full-size page image (3800 x 2624 pixel spread) to the photograph only, at its native size: not resized, not upscaled. The same photograph appears as the second image in the NDL Portraits entry 6473.",
+    "license": "Public domain: photograph published in Japan in 1932 (before 1958, so its Japanese copyright had long expired and was not restored in the United States); the National Diet Library item record marks the book 'pdm'; the book's author died in 1950",
+    "licenseUrl": "https://dl.ndl.go.jp/pid/1050251",
+    "attribution": "Photographer unknown; plate 244 in Daiko Yukichi, Tsuzoku kagaku taiwa (Fuzanbo, 1932), p. 464; National Diet Library, Japan, Digital Collections",
+    "attributionUrl": "https://dl.ndl.go.jp/pid/1050251",
+    "creator": "Unknown photographer; reproduced in Tsuzoku kagaku taiwa",
+    "date": "before 1932 (published 1932)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://dl.ndl.go.jp/pid/1050251"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / lead did not survive as the primary file but its source did: the Commons lead 'Ikeda Kikunae 1932.jpg' is the second photograph of NDL Portraits entry 6473, taken from plate 244 on p. 464 of Daiko Yukichi, Tsuzoku kagaku taiwa (Fuzanbo, 1932; NDL item 1050251). I opened the library's full page image: the printed caption reads 'Dai 244 zu: Ikeda Kikunae (1864-)' and the text beside it names Ikeda as the glutamate seasoning inventor, so sitter identity is confirmed on the page. The NDL item record (read through the library API) gives rights code 'pdm' and the book's author Daiko Yukichi died in 1950; photographer not named; published in Japan in 1932 so PD-Japan-oldphoto applies. The file is cropped from the library's full-size image at native size (362 x 490, no upscaling), slightly larger than the 331 x 449 file shown on the NDL Portraits site. The NDL Portraits site's main (962 x 1325) photograph comes from a 1984 privately published biography by Hirota Kozo (NDL item 12260401, author died 2002); its own photo provenance and date are not stated, so it was NOT used. The Google Arts and Culture 821 x 1200 photograph (Umami Information Center, 'Original source: Dr. Ikeda') was not used for the same reason. KIND likeness (real photograph of the sitter in old age). PREFLIGHT: QID VERIFIED LIVE (2026-11-18, Wikidata API via fetch) Q380575 label 'Kikunae Ikeda', description 'Japanese chemist (1864-1936)', ja 池田菊苗, ko 이케다 기쿠나에, human, born 1864-10-08, died 1936-05-03, citizen of Japan. REGION east_asia (Japanese precedent). ERA 20th_century (discovery 1908, chair 1901; precedent Nagaoka Hantaro b. 1865). ZERO POLITICS: pure chemistry, invention and institute-building; Soseki friendship and family life are context, not scored. ATTRIBUTION: attributable (dated papers, patent, institutional records, letters quoted by the library). CANONICAL SIGNIFICANCE SOURCE: src_ikeda_ndl_kaleido (National Diet Library essay). READ (8 sources besides Wikidata): NDL essay (full), NDL Portraits biography, Science History Institute article (full), NPR transcript (full), Ajinomoto 100-year history summary page, Umami Information Center story (full), RIKEN founding page, Blue Backs column. Also read but not cited: WNYC Science Diction transcript (popular retelling), President Online interview with biographer Ueyama Akihiro (free portion only), Tohoku University Soseki library catalogue note. NOT READ: Ikeda's 1909 paper (2002 English translation behind a bot wall), Hirota's 1984 biography, Ueyama's biographical novel (paywalled), Ajinomoto's PDF history chapters (font encoding unreadable), Katayama's memorial volume. Wikipedia not used. PERSPECTIVES: (1) national library curation with critical notes; (2) academic food-science historian on reception (NPR); (3) popular-history journalism (SHI); (4) company and company-linked histories (self-interested); (5) RIKEN institutional history. Non-self behavioural sources: NDL essay (cites Soseki's letters and Katayama's recollection), NPR historian, RIKEN history; the process details otherwise trace to Ikeda's own paper as retold by the company and journalists. CONTRADICTIONS: the wife-and-kombu origin story is disputed (NDL); glutamic acid was known since 1866 (NDL); the company sources disagree on who approached whom (Ajinomoto page: Ikeda asked Suzuki; Umami Information Center: Suzuki visited Ikeda); the Umami Information Center gives a professorship year of 1896 against 1901 elsewhere; year of discovery given as 1907-08 depending on source. Soseki friendship and the Bungakuron link not carded. No adversarial biography found; the critical voice is the NDL essay and the NPR historian on the long delay in acceptance. SOURCE-FAMILY CONCENTRATION: 9 scored rows, 7 lowered for concentration (curiosity, analytical rigor, persistence, impact motivation, cross-domain range, proactive agency, collaboration); about 4-5 independent families (NDL essay, NPR historian, RIKEN history, Blue Backs, plus one dominant family of Ikeda's own account as retold by the company and journalists). SELF-CALIBRATION: independent_thinking 66/0.52 to 64/0.50 and creative_originality 62/0.46 to 58/0.42 (outcome bias, contested novelty). No raise flags. MAJOR ACHIEVEMENT GATE: PASS on all six: cards (1) naming umami and glutamate as the source of the taste, (2) patent and Ajinomoto launch, (3) theoretical chemistry and RIKEN. Sparse 9-row profile by design; eligibility not a concern for approval. Korean name 이케다 기쿠나에 is the Wikidata label. HANDBACK68: see TGI-r68-scratch handback/kikunae-ikeda.json."
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "lazzaro-spallanzani",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Lazzaro Spallanzani",
+    "aliases": [
+      "Lazaro Spallanzani",
+      "Abate Spallanzani",
+      "Lazzaro Spalanzani"
+    ],
+    "wikidataId": "Q213351",
+    "birthYear": 1729,
+    "deathYear": 1799,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "biologist",
+      "naturalist",
+      "professor"
+    ],
+    "fieldIds": [
+      "biology",
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "field_researcher",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_spallanzani_wikidata",
+      "kind": "wikidata",
+      "title": "Lazzaro Spallanzani (Q213351), verified live via the Wikidata API (2026-11-18): English label and Italian label 'Lazzaro Spallanzani', Korean label 라차로 스팔란차니, English description 'Italian priest, biologist and physiologist (1729-1799)', instance of human, born 1729-01-12, died 1799-02-12. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q213351"
+    },
+    {
+      "id": "src_spallanzani_dbi",
+      "kind": "biography",
+      "title": "Paolo Mazzarello, 'Spallanzani, Lazzaro', Dizionario Biografico degli Italiani, vol. 93 (Istituto della Enciclopedia Italiana Treccani, 2018; read in full in Italian). CANONICAL SIGNIFICANCE SOURCE: gives his career at Reggio, Modena and Pavia from 1769; the 1765 essay refuting spontaneous generation in infusions after repeating the experiments of Needham and Buffon; the 1768 work on regeneration, circulation and the first sighting of white blood cells; the 1776 and 1780 collections on animalcules, spermatozoa, digestion (the role of gastric juice) and artificial fertilisation including the first controlled case in a mammal (a dog); his museum at Pavia; the long journeys to Constantinople (1785-86) and the Two Sicilies (1788, Etna, Stromboli, Vulcano); the 1793-94 bat experiments; and his late work on respiration. It also records the quarrel with John Hunter over digestion, the 1786-87 plot against him by Pavia colleagues, his acquittal and his satirical pamphlets against Scopoli, the missing proof of a doctorate in 1755, and his partly mistaken view that the spermatozoa played no role. Scholarly national biographical dictionary by a historian of science; balanced.",
+      "url": "https://www.treccani.it/enciclopedia/lazzaro-spallanzani_(Dizionario-Biografico)/"
+    },
+    {
+      "id": "src_spallanzani_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Spallanzani, Lazzaro' (Gale, reproduced on Encyclopedia.com; read in full including the bibliography). Long reference biography: the sealed-flask experiments against Needham in hundreds of trials; counts of 700 decapitated snails and 337 circulation experiments; the digestion work with tubes fed to many animals and to himself; the bat experiments and Jurine's ear-plug result; Etna, Stromboli and Vulcano; the Pavia plot and the hoax on Scopoli; and a frank character sketch (masterful, often resented criticism, canvassed for election to societies, flattered authorities, could become ruthlessly angry, frugal, chess player). Also says he held an ovist preformationist view, wrongly concluded that gastric juice was neutral, welcomed a flawed single experiment to deride the spermatist view, and that Pasteur later repeated his work. Reference biography; admiring on scope, explicit about errors.",
+      "url": "https://encyclopedia.com/people/science-and-technology/biology-biographies/lazzaro-spallanzani"
+    },
+    {
+      "id": "src_spallanzani_britannica",
+      "kind": "biography",
+      "title": "Elizabeth Belmont Gasking, 'Lazzaro Spallanzani', Encyclopaedia Britannica (print version read): short reference article saying he studied law, turned to science under the influence of his kinswoman Laura Bassi, attacked Buffon and Needham's 'vital atoms' with sealed boiled-gravy flasks, studied regeneration, circulation, digestion and animal reproduction (artificial insemination of lower animals and a dog) and, with Bonnet, supported preformation while treating spermatozoa as parasites. Contains a birthplace slip (Modena for Scandiano) and a different ordination date from the Italian dictionary, which are not carried here. Short general reference article.",
+      "url": "https://www.britannica.com/print/article/557970"
+    },
+    {
+      "id": "src_spallanzani_catholic",
+      "kind": "biography",
+      "title": "James J. Walsh, 'Lazzaro Spallanzani', The Catholic Encyclopedia (1912; Catholic Answers online reprint, read in full): admiring early-twentieth-century entry saying he preferred Modena to chairs offered elsewhere, enriched the Pavia museum through journeys, studied volcanoes and regeneration, was 'charming' and had many friends, and 'came off victorious' in the disputes with Needham and Buffon and with Hunter 'with such gentle courtesy as not to offend'. Hagiographic in tone and at odds with the dictionary entries on his temper; used only as a contrast, and its dates for his birth and death differ slightly from the Italian dictionary.",
+      "url": "https://catholic.com/encyclopedia/lazzaro-spallanzani"
+    },
+    {
+      "id": "src_spallanzani_biosonar",
+      "kind": "institution",
+      "title": "University of Bristol biosonar research group, 'The Discovery of Biosonar: 1. Spallanzani and Jurine' (five-page web history, read in full): says that in his sixties he tested bats and owls in total darkness, tried hoods, then blinded the bats, then covered them in varnish and paste, and found they still flew and fed; that Jurine's wax ear-plugs ruined their obstacle avoidance; that he answered with tubes in the plugs to separate hearing from distress; that Cuvier ridiculed the result and favoured touch for over a century. University research-group history; independent of the biographical dictionaries on the bat work.",
+      "url": "https://www.biosonar.bris.ac.uk/chapters/2/spallanzani1.htm"
+    },
+    {
+      "id": "src_spallanzani_gale_sg",
+      "kind": "institution",
+      "title": "'The Spontaneous-Generation Debate' (Gale reference article reproduced on Encyclopedia.com; read in full): says Spallanzani repeated Needham's experiments, claimed Needham had not heated or sealed his flasks adequately, showed that microbes differed in their susceptibility to heat, concluded that the organisms entered from the air, supported an ovist preformationist view of generation, and that the debate was not settled until Pasteur and Tyndall in the nineteenth century. History-of-science reference summary; independent of the two long biographies.",
+      "url": "https://encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/spontaneous-generation-debate"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spallanzani_dbi, src_spallanzani_dsb, src_spallanzani_biosonar, src_spallanzani_gale_sg | 1760-1798 | scholarly dictionary, reference biography, university group history, reference summary] He took up questions from stone skipping on water and the origin of mountain springs (a raft on Lake Ventasso, 1761) to regeneration, blood circulation, digestion, volcanoes, the shock of the torpedo fish and, in his sixties, how bats fly in the dark; the long biography says every aspect of nature intrigued him. Concentration check: the two long biographies share the same documentary base (his own publications and letters); lowered from 76 / 0.64 to 74 / 0.62."
+    },
+    "experimentation": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_spallanzani_dbi, src_spallanzani_dsb, src_spallanzani_biosonar, src_spallanzani_gale_sg | 1765-1796 | scholarly dictionary, reference biography, university group history, reference summary] Four separate source families describe designed trials rather than observation: flasks boiled for different times and sealed by fusing the glass, waxed taffeta breeches on frogs, perforated tubes fed to many animals and to himself, bats hooded, blinded, varnished and fitted with plugs and brass tubes, and the first controlled artificial insemination of a dog. The dictionary also notes that Voltaire and Lavoisier repeated his snail-head experiments. The volume of trials is counted from his own publications, but the designs are described in independent summaries."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spallanzani_dsb, src_spallanzani_dbi, src_spallanzani_gale_sg, src_spallanzani_biosonar | 1765-1794 | reference biography, scholarly dictionary, reference summary, university group history] He answered Needham's objections one by one (a vegetative force destroyed by heat; air weakened in sealed flasks) by changing the experiment, tested how heat affected different organisms, and separated the effects of hearing from the distress of the plugs in the bat work. Against this, the long biography says he wrongly judged gastric juice neutral and held to an ovist preformationist view on thin evidence, so the care was uneven. Concentration check: the experimental details come mostly from one long biography; lowered from 76 / 0.64 to 74 / 0.60. SELF-CALIBRATION (agent): lowered again to 70 / 0.58 because the same biography documents conspicuous lapses (a flawed single experiment welcomed against the spermatist view, the neutral gastric juice)."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spallanzani_dbi, src_spallanzani_dsb, src_spallanzani_biosonar, src_spallanzani_catholic | 1765-1796 | scholarly dictionary, reference biography, university group history, early reference entry] He set his experiments against the doctrines of the eminent Buffon and Needham, contradicted Lavoisier's view that respiration was limited to the lungs, accepted a result about bats that Cuvier ridiculed, and answered Hunter's attack in print (the long biography says with dignity, the Italian dictionary just as harshly). His main theory (ovist preformation) was shared with his closest correspondents Haller and Bonnet, so independence is clearest in the experimental challenges. SELF-CALIBRATION (agent): lowered from 72 / 0.60 to 70 / 0.58 because the standing of his challenges is partly outcome bias (the spontaneous-generation view was later discarded) and his own theory was mainstream among his circle."
+    },
+    "belief_updating": {
+      "score": 56,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_spallanzani_dbi, src_spallanzani_dsb, src_spallanzani_biosonar | 1761-1796 | scholarly dictionary, reference biography, university group history] The Italian dictionary says he began with views favourable to Buffon and Needham and moved to ovist preformation after his experiments; the long biography says he adopted the new chemistry of the later eighteenth century and promptly accepted the ear hypothesis for bats after Jurine's result (the university group likewise says he accepted the evidence that bats rely on hearing), but it also says he welcomed a flawed experiment to protect his preformationist view and never gave spermatozoa their role. Evidence cuts both ways, so the score is near the middle and the confidence low. SELF-CALIBRATION (agent): lowered from 58 / 0.50 to 56 / 0.46 because the changes of view are described in one line each while the counter-example is documented in detail."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spallanzani_dsb, src_spallanzani_dbi, src_spallanzani_gale_sg | 1762-1799 | reference biography, scholarly dictionary, reference summary] He returned to the Needham dispute for some twenty years from 1761, ran hundreds of infusion trials, about 700 snail decapitations and 337 circulation experiments, climbed Etna and Stromboli at 59, descended into the crater of Vulcano and was still deep in research when he died at 70 (the Italian dictionary), discussing experiments with colleagues between bouts of coma in his last days (the long biography). Concentration check: counts and anecdotes come from one reference biography with the Italian dictionary as partial confirmation; lowered from 76 / 0.64 to 74 / 0.62."
+    },
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_spallanzani_dsb, src_spallanzani_dbi | 1773-1788 | reference biography, scholarly dictionary] He swallowed linen bags and tubes and induced vomiting to test digestion on himself, was overcome by gases just short of the crater of Etna, went to within a few feet of flowing lava, descended alone into Vulcano's crater (burned feet, staff afire) and travelled overland home from Constantinople past mountain torrents and brigands. The physical exposure is documented; none of the sources shows how he weighed it. Concentration check: the travel episodes rest on his own published travel accounts as summarised by two reference works; lowered from 72 / 0.58 to 68 / 0.54."
+    },
+    "conflict_tolerance": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_spallanzani_dsb, src_spallanzani_dbi, src_spallanzani_catholic | 1765-1795 | reference biography, scholarly dictionary, early reference entry] He disputed Needham and Buffon openly, answered John Hunter's attack in print, demanded a judicial inquiry when Pavia colleagues accused him of taking museum specimens, and afterwards published a hoax and anonymous satires against Scopoli (the dictionary and the long biography both describe this). The 1912 reprint instead says he won disputes 'with gentle courtesy', which the other two contradict; the long biography adds that he 'could become ruthlessly angry when wronged' and replied with bitterness to Volta. Concentration check: the two long sources share a documentary base and the 1912 entry conflicts with them; lowered from 76 / 0.62 to 72 / 0.58."
+    },
+    "cross_domain_range": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spallanzani_dsb, src_spallanzani_dbi, src_spallanzani_britannica, src_spallanzani_gale_sg, src_spallanzani_biosonar | 1760-1798 | reference biography, scholarly dictionary, reference article, reference summary, university group history] Documented work ran across physics (the skipping of stones), hydrology (springs), microscopy and generation, regeneration, circulation, digestion, respiration and plant reproduction, volcanology, meteorology (waterspouts), marine zoology and sensory physiology (bats), plus a critique of an Italian translation of the Iliad; five source families agree on the breadth. Most of it falls inside natural history, so the score is capped below the 80s."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_spallanzani_dsb, src_spallanzani_dbi, src_spallanzani_catholic | 1771-1788 | reference biography, scholarly dictionary, early reference entry] He took over the Pavia natural history museum from 1771 and built its collections through journeys that, by his own account to the authorities as reported in the long biography, went unrewarded, set up a small marine laboratory at Portovenere (1783), and, when Padua offered him a chair, negotiated a leave for the Constantinople journey and a salary increase from the Austrian authorities. Both long sources describe these steps; the motives are inferred from his own letters."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라차로 스팔란차니"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/lazzaro-spallanzani-piotti-pirola-19c.jpg",
+    "width": 1000,
+    "height": 932,
+    "source": "Engraved and etched portrait 'Portret van bioloog Lazzaro Spallanzani' (object RP-P-1909-5206, 270 x 179 mm, purchased 1905) in the Rijksmuseum, Amsterdam, by Caterina Piotti-Pirola after a drawing by Giovanni Battista Busani. The printed plate reads 'LAZZARO SPALANZANI / Da un disegno fatto sul vivo da Gio. Batta. Busani' with 'C. Piotti-Pirola sculp.' at lower right, read on the full image. The file is the museum's full-size scan (2376 x 3550) cropped to the engraved bust and downscaled to 1000 x 932 with no upscaling; the museum's inventory label at the foot of the scan is cropped out.",
+    "license": "Public domain: the Rijksmuseum record states 'Public domain' (Public Domain Mark 1.0); the print was acquired by the museum in 1905, so it was made and published before 1905 by a maker active in the nineteenth century",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Caterina Piotti-Pirola after Giovanni Battista Busani, portrait of Lazzaro Spallanzani, engraving and etching, 19th century (Rijksmuseum, Amsterdam, RP-P-1909-5206; cropped and downscaled).",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1909-5206",
+    "creator": "Caterina Piotti-Pirola (engraver) after Giovanni Battista Busani (draughtsman)",
+    "date": "after 1799; dated 1810-1900 by the Rijksmuseum",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1909-5206"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / lead SURVIVED: the Rijksmuseum print RP-P-1909-5206 (engraving and etching, 270 x 179 mm, purchased 1905, Public domain at the holder, maker Caterina Piotti-Pirola after a drawing by Giovanni Battista Busani, dated 1810-1900 by the museum). I opened the holder record and downloaded the museum's full-size IIIF scan (2376 x 3550); on the image the printed plate reads 'LAZZARO SPALANZANI / Da un disegno fatto sul vivo da Gio. Batta. Busani' and 'C. Piotti-Pirola sculp.', so sitter and makers are confirmed on the sheet itself (the museum record transcribes none of this, only a collector's mark Lugt 2228). A sibling Rijksmuseum scan (RP-P-1909-5201) turned out to be Ugo Foscolo, so the image was checked by eye, not only by id. Rights: holder states Public domain (Public Domain Mark); acquisition in 1905 fixes publication before that year. I did not rely on the Commons CC0 copy from the Trento library whose metadata is internally ambiguous (JPEG public domain, TIFF 'copyrighted'). Crop to the bust, downscaled 2376-wide scan to 1000 x 932 (no upscaling; museum inventory label cropped out). KIND historical_depiction: the plate is a nineteenth-century engraving made after the sitter's death (1799) whose inscription claims a life drawing by Busani; the life drawing is not independently verified and the print date is uncertain (the 1837 Locatelli Iconografia date in the preflight was not confirmed by me). PREFLIGHT: QID VERIFIED LIVE (2026-11-18, Wikidata API via fetch) Q213351 label 'Lazzaro Spallanzani', description 'Italian priest, biologist and physiologist (1729-1799)', ko 라차로 스팔란차니, human, born 1729-01-12, died 1799-02-12. REGION southern_europe (Italian precedent Galileo, Volta). ERA early_modern (precedent Volta, b. 1745). NATIONALITY IT. ZERO POLITICS: pure natural science; his 1786 intelligence reporting for the Austrian government from Constantinople (DBI) and his church role are context only and unscored. ATTRIBUTION: attributable (dated publications, letters, museum records, multiple replications). CANONICAL SIGNIFICANCE SOURCE: src_spallanzani_dbi (Dizionario Biografico degli Italiani, Mazzarello 2018). READ (6 sources besides Wikidata): DBI (full); Complete DSB entry (full, long); Britannica (print version); Catholic Encyclopedia 1912; Bristol biosonar history (all 5 pages); Gale spontaneous-generation article. Wikipedia not used. Not opened or not available: Rijksmuseum-independent corroboration of the Busani drawing, the Lombardia Beni Culturali print records (PDF, unreadable), the ASU Embryo Project page (404), the Musei Civici Reggio page (404), Spallanzani's own works and the Epistolario, Mazzarello's monograph. PERSPECTIVES: (1) scholarly national dictionary (DBI); (2) long English reference biography (DSB) with explicit criticism of errors; (3) short general reference (Britannica); (4) early-twentieth-century Catholic hagiographic entry (contrast on temperament); (5) university group history on bats; (6) history-of-science summary on the spontaneous-generation debate. NON-SELF BEHAVIOURAL SOURCES: all of them; however the long biographies draw on his own publications and letters and on the same bibliography (Prandi, Epistolario), so they are not fully independent. CONTRADICTIONS AND LIMITS: birthplace (Modena in Britannica, Scandiano elsewhere), ordination date (1757 Britannica, 1762 DBI), exact death and birth day in the 1912 entry, the missing documentation of the 1755 doctorate (DBI), and tone on conflict (1912 entry 'gentle courtesy' vs DSB 'ruthlessly angry'; DSB 'dignity' to Hunter vs DBI 'just as harshly') are not resolved in the cards and are handled in row text. His preformationist errors (neutral gastric juice, role of spermatozoa) are stated, not hidden. His animal experiments (decapitations, blinding) are described in neutral factual terms only. SOURCE-FAMILY CONCENTRATION: 10 scored rows; 5 lowered for concentration (curiosity, analytical rigor, persistence, risk tolerance, conflict tolerance); experimentation and cross-domain range rest on four to five source families and were kept; belief updating is low-confidence inference. SELF-CALIBRATION: analytical_rigor 74/0.60 to 70/0.58, independent_thinking 72/0.60 to 70/0.58, belief_updating 58/0.50 to 56/0.46. No raise flags. MAJOR ACHIEVEMENT GATE: PASS on all six: cards (1) refuting spontaneous generation in infusions (1765), (2) digestion and gastric juice (1780), (3) fertilisation and artificial insemination (1780); bats and regeneration are not carded (bats appear as a moment; regeneration and volcanology are omitted by choice, see handback). Korean name 라차로 스팔란차니 is the Wikidata label and flagged for review. HANDBACK68: see TGI-r68-scratch handback/lazzaro-spallanzani.json."
+  }
+}

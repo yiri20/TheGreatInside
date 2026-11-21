@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "john-a-roebling",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "John A. Roebling",
+    "aliases": [
+      "John Augustus Roebling",
+      "Johann August Röbling"
+    ],
+    "wikidataId": "Q77237",
+    "birthYear": 1806,
+    "deathYear": 1869,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE",
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "inventor",
+      "entrepreneur"
+    ],
+    "fieldIds": [
+      "engineering",
+      "technology",
+      "business"
+    ],
+    "impactDomains": [
+      "engineering",
+      "technological",
+      "industrial",
+      "innovation"
+    ],
+    "tagIds": [
+      "innovator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "entrepreneurial_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_roebling_wikidata",
+      "kind": "wikidata",
+      "title": "John Augustus Roebling (Q77237), verified live via the Wikidata API (2026-11-18): English label 'John Augustus Roebling', description 'German-American engineer', instance of human, born 12 June 1806, died 22 July 1869, citizenship Germany and the United States, Korean label 존 로블링. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q77237"
+    },
+    {
+      "id": "src_roebling_npsupde",
+      "kind": "institution",
+      "title": "National Park Service, Upper Delaware Scenic and Recreational River, 'John Roebling' biography page (read in full). CANONICAL SIGNIFICANCE SOURCE: studied at the Royal Polytechnic (Bauakademie) in Berlin and worked three years on Prussian road projects; left for America in 1831 with his brother to found a German farm community in Butler County, Pennsylvania, which failed because he knew little of farming; state railway surveys from 1837; created twisted wire rope in the early 1840s to replace hemp and patented it in 1843; moved his wire works to Trenton in 1849; won the Allegheny aqueduct contest in 1844-45; four Delaware and Hudson aqueducts 1847-50; the Niagara railway suspension bridge (1851-55) and the Ohio River bridge at Cincinnati (1856-67); appointed chief engineer of the East River bridge in 1867 and died of tetanus after a ferry-slip accident in 1869, with his son Washington completing the Brooklyn Bridge in 1883. Its character description (hardworking, confident, resourceful, tenacious) is attributed to his children, so it is family testimony. Government site, admiring.",
+      "url": "https://www.nps.gov/upde/learn/historyculture/john-roebling.htm"
+    },
+    {
+      "id": "src_roebling_npsalpo",
+      "kind": "institution",
+      "title": "National Park Service, Allegheny Portage Railroad National Historic Site, 'John A. Roebling' (read in full): while surveying routes over the Allegheny Mountains in the late 1830s he saw that a better rope than hemp was needed, invented a twisted metal wire rope first tested on Incline 3 of the Portage Railroad in 1842 and soon used to replace hemp there, and built his first suspension structure, the Allegheny Aqueduct, in 1845. Short government site page.",
+      "url": "https://www.nps.gov/alpo/learn/historyculture/john-a-roebling.htm"
+    },
+    {
+      "id": "src_roebling_appleton",
+      "kind": "biography",
+      "title": "'Roebling, John Augustus', Appletons' Cyclopaedia of American Biography (1900 edition, Wikisource transcription; Roebling's entry read). Older reference biography: graduated in civil engineering in Berlin in 1826 with a thesis on suspension bridges; three years of Prussian road work; Pittsburgh-area farming and a planned village of frontiersmen; canal and railway surveys across the Alleghenies; manufacture of wire; the Allegheny aqueduct of 1844-45 built, it says, in spite of ridicule from the engineering profession; the Monongahela bridge (1846); Delaware and Hudson aqueducts; the Niagara bridge, built in four years; the Cincinnati bridge begun in 1856 and finished in 1867; General Barnard's judgment that Roebling established the sufficiency of the suspension principle for railway bridges; chief engineer of the East River bridge in 1868 and death by lockjaw sixteen days after a crushed foot. Admiring and compressed; one of its sentences on wire rope is an assertion of firsts.",
+      "url": "https://en.wikisource.org/wiki/Appletons%27_Cyclop%C3%A6dia_of_American_Biography/Roebling,_John_Augustus"
+    },
+    {
+      "id": "src_roebling_invtech",
+      "kind": "press",
+      "title": "Emma Cobb, \"Roebling's Bridge of Water\", Invention and Technology magazine, Summer 1986 (read in full): the 1847-49 Delaware Aqueduct at Lackawaxen, Pennsylvania, with its wooden trunk 535 feet long hung from two cables of 2,150 wires each, a continuous helix of wrought-iron wire around each cable described as Roebling's own invention, the company's request for three more aqueducts, and the structure's later neglect and National Park Service restoration (1980-86), whose tests found cable wire stronger than Roebling had specified. Popular history magazine; the restoration facts are not used.",
+      "url": "https://www.inventionandtech.com/node/86809"
+    },
+    {
+      "id": "src_roebling_griggs",
+      "kind": "press",
+      "title": "Frank Griggs Jr., \"John A. Roebling's Niagara River Railroad Suspension Bridge - 1855\", STRUCTURE magazine, June 2016 (read in full). Independent engineering-history article quoting the 1845-46 correspondence in which only four engineers (Ellet, Roebling, Keefer and Serrell) backed a Niagara suspension bridge, Roebling's letter rejecting Robert Stephenson's view that suspension could not carry railways, Ellet's contract and departure, Roebling's takeover in 1850-52, the 821-foot double-deck bridge with stiffening trusses, 64 stays and 56 under-deck cables finished in 1855, and his proud final report. Also states that Roebling was wrong that suspension bridges were best for railway spans over a hundred feet, since trusses later proved more efficient. Professional engineer-historian; balanced.",
+      "url": "https://www.structuremag.org/article/john-a-roeblings-niagara-river-railroad-suspension-bridge-1855/"
+    },
+    {
+      "id": "src_roebling_asce",
+      "kind": "institution",
+      "title": "\"New York's Brooklyn Bridge is an engineering marvel\", Civil Engineering magazine, American Society of Civil Engineers, July 2022 (read in full; draws on David McCullough's The Great Bridge and Erica Wagner's biography of Washington Roebling). Roebling's Berlin training and study of philosophy under Hegel; the hemp-rope problem on Allegheny railways and his 1841-42 wire rope; the Trenton move in 1849; the Cincinnati bridge of 1866 as the longest suspension span of its day; his plan for the East River bridge (central span 1,595.5 feet, granite and limestone towers, diagonal stays, rail tracks and a promenade); his boast that it would be the greatest engineering work of the continent and of the age; engineers' doubts, including the term 'wild experiment'; the review panel he convened; his death in 1869 and the later role of Washington and Emily Warren Roebling. Society magazine, secondary and admiring.",
+      "url": "https://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/issues/magazine-issue/article/2022/07/new-yorks-brooklyn-bridge-is-an-engineering-marvel"
+    },
+    {
+      "id": "src_roebling_haw",
+      "kind": "biography",
+      "title": "Richard Haw, excerpt from 'Engineering America: The Life and Times of John A. Roebling' (Oxford University Press), published as 'How Johann August Röbling became John A. Roebling' (Oxford Academic on Medium, 2020; read in full). Modern academic biography excerpt: his Berlin training and Hegel, the failed Saxonburg community, the 1841 wire rope idea, a decade of daring plans in the 1840s, the first working railway suspension bridge at Niagara, the Cincinnati bridge, his lobbying for the East River bridge since 1857 and contract in 1867, his death in 1869; also contradictions in the man (calm public persona, intense private life, strong self-certainty, credulity about some fads) and the author's warning that his descendants invented or embellished many details of his life to sanitise his image, so that much repeated material is unreliable. Used only for facts that match other sources; the private-life material is not scored.",
+      "url": "https://medium.com/history-uncut/john-a-roebling-63187f8411de"
+    },
+    {
+      "id": "src_roebling_buonopane",
+      "kind": "institution",
+      "title": "Stephen G. Buonopane and Dario A. Gasparini, \"John A. Roebling's 1846 Smithfield Street Bridge: History, Design, and Performance\", Journal of Bridge Engineering vol. 29 no. 2 (2024); abstract read on the Bucknell University repository page (full text not opened). Independent structural study using Roebling's archived calculations and modern analysis: a complex system of cables, pendulum supports, stiffening trusses, inclined stays and underfloor bracing; overall design sound and well beyond the analysis of the day; but pendulum hangers made the cable system very flexible, the stays were likely ineffective, and the truss degraded; Roebling later refined deck stiffening and inclined stays. Peer-reviewed abstract, balanced.",
+      "url": "https://digitalcommons.bucknell.edu/fac_journ/2079"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_roebling_appleton, src_roebling_griggs, src_roebling_haw, src_roebling_asce | 1851-1869 | 1900 reference biography, engineering-history article, modern biography excerpt, engineering-society magazine] He carried the Niagara railway bridge from 1852 to its opening in 1855 and the Cincinnati bridge from 1856 to 1867 (Appleton, Griggs), and Haw says he had actively lobbied for the East River bridge since 1857 before the contract came in 1867. The long durations also reflect financing and construction conditions, and the sources do not separate his own effort from those delays; the ten-year lobbying detail comes from one biography. SELF-CALIBRATION (agent): lowered from 74 / 0.60 to 70 / 0.55 because the multi-year timelines are partly project constraints and the lobbying evidence rests on a single biographer."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_roebling_npsupde, src_roebling_haw, src_roebling_appleton, src_roebling_buonopane | 1831-1860s | park-service biography, modern biography excerpt, 1900 reference biography, engineering journal abstract] His agricultural settlement at Saxonburg did not become the community he planned (park-service biography: he saw he was inexperienced in farming; Haw: it became a humdrum village), and he moved to canal and railway engineering, then wire rope from 1841, and in 1849 moved his wire works to Trenton, New Jersey; the Smithfield Street Bridge study says he went on refining his methods with deck stiffening and inclined stays. Haw also says he clung to fixed opinions, so the adaptation was strongest in engineering practice. SELF-CALIBRATION (agent): lowered from 68 / 0.56 to 64 / 0.50 because the Saxonburg pivot comes from two sources that describe the same episode and the later refinement is one abstract."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_roebling_npsalpo, src_roebling_npsupde, src_roebling_invtech, src_roebling_asce | 1841-1869 | park-service pages, magazine article, engineering-society magazine] He replaced hemp haulage rope with twisted wire rope, first tested on an incline of the Allegheny Portage Railroad in 1842 and patented soon after (the sources give 1842 and 1843), wrapped the aqueduct cables in a continuous helix of wire (described as his own technique), and chose steel wire for the Brooklyn Bridge cables. No source examines priority, and other engineers were already building suspension bridges. SELF-CALIBRATION (agent): lowered from 70 / 0.58 to 64 / 0.50 because the two park-service pages and the magazine account draw on the same lineage of biographical writing and outcome bias is possible."
+    },
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_roebling_griggs, src_roebling_appleton, src_roebling_asce, src_roebling_haw | 1845-1869 | engineering-history article, 1900 reference biography, engineering-society magazine, modern biography excerpt] In a letter answering the Niagara promoter he said Robert Stephenson had not solved the problem of railway suspension bridges and that a properly stiffened wire-cable bridge could carry trains; the 1900 biography says he built the Allegheny aqueduct despite ridicule from engineers, and engineers called his Brooklyn plan a wild experiment. Griggs notes he was wrong that suspension was best for railway spans over a hundred feet, and Haw describes great self-certainty, so the impact is dual-edged. SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 68 / 0.52 because the Niagara claim is in his own letter and the ridicule is a single retrospective sentence."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_roebling_buonopane, src_roebling_griggs, src_roebling_asce | 1846-1869 | engineering journal abstract, engineering-history article, engineering-society magazine] A modern study of his archived calculations for the 1846 Smithfield Street Bridge found a sound design that went beyond the analysis available at the time, although its pendulum hangers made the cable system very flexible and the stays were likely ineffective; Griggs calls his final Niagara report very complete; and he convened a panel of engineers including the ASCE president to scrutinise the Brooklyn plans. His claim that strength was a matter of unerring calculation is his own statement. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 66 / 0.50 because the one modern analysis also found design shortcomings and the Brooklyn review detail is a single magazine account."
+    },
+    "systems_abstraction": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_roebling_buonopane, src_roebling_griggs, src_roebling_asce | 1846-1869 | engineering journal abstract, engineering-history article, engineering-society magazine] The Smithfield Street study describes a design that combined suspension cables, pendulum supports, stiffening trusses, inclined stays and underfloor bracing into one complex structural system; Griggs lists the Niagara bridge's stiffening trusses, stay cables and under-deck river stays on a double deck; and the Brooklyn plan added diagonal stays, rail tracks and a promenade to the cables and towers. Three independent descriptions of built systems; none says how he reasoned about them."
+    },
+    "opportunity_sensing": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_roebling_npsalpo, src_roebling_npsupde, src_roebling_haw | 1841-1857 | park-service pages, modern biography excerpt] While surveying routes over the Allegheny Mountains he saw that hemp ropes needed frequent replacement and developed wire rope for the portage railroad, sold it to several canal and rail lines, moved his works to Trenton in 1849 to build his bridge reputation, and, per Haw, pursued the East River bridge from 1857. The sources describe what he did rather than what he foresaw. SELF-CALIBRATION (agent): lowered from 64 / 0.50 to 60 / 0.46 and evidence type from strong inference to inference because the facts overlap with the evidence for persistence and creative originality and are told by two park-service pages."
+    },
+    "achievement_drive": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_roebling_asce, src_roebling_haw, src_roebling_npsupde | 1857-1869 | engineering-society magazine, modern biography excerpt, park-service biography] He wrote that the Brooklyn Bridge would be the greatest engineering work of the continent and of the age (quoted from McCullough in the ASCE article), Haw says he lobbied for it from 1857, and the park-service biography, drawing on his children, calls him hardworking and tenacious. The boast is his own and the character description is from family. SELF-CALIBRATION (agent): lowered from 70 / 0.52 to 64 / 0.46 and evidence type from strong inference to inference because the statement is self-report, the lobbying is single-source and the family description is not independent."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "존 로블링"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/john-a-roebling-unidentified-1869.jpg",
+    "width": 723,
+    "height": 1000,
+    "source": "Albumen silver print photograph of John Augustus Roebling by an unidentified photographer, c. 1869, National Portrait Gallery, Smithsonian Institution, object NPG.79.222 (gift of Mrs. James Elston; image/sheet 12.6 x 9.9 cm, mounted in an album). The mount carries the handwritten caption 'John A Roebling.' and the holder's sitter field names 'John Augustus Roebling, 12 Jun 1806 - 22 Jul 1869'. The file is cropped from the Wikimedia Commons copy of the Smithsonian's CC0 image (original 4430 x 6083 pixels; a 1920 x 2636 rendering was used) to the photograph and its caption and downscaled to 723 x 1000 with no upscaling.",
+    "license": "Public domain: the Smithsonian record states 'This media is in the public domain (free of copyright restrictions)' with CC0 rights; a photograph of c. 1869 by an unidentified photographer is also public domain by age",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Unidentified photographer, John Augustus Roebling, albumen silver print, c. 1869, National Portrait Gallery, Smithsonian Institution, NPG.79.222, gift of Mrs. James Elston (cropped and downscaled).",
+    "attributionUrl": "https://www.si.edu/object/john-augustus-roebling:npg_NPG.79.222",
+    "creator": "Unidentified photographer",
+    "date": "c. 1869",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.si.edu/object/john-augustus-roebling:npg_NPG.79.222"
+  },
+  "provenance": {
+    "createdAt": "2026-11-18T00:00:00Z",
+    "updatedAt": "2026-11-18T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "Roebling Roster68 (agent). PORTRAIT PREFLIGHT: Stage B grade strong; initial lead (NPG.79.222 albumen print c.1869, unidentified photographer) SURVIVED and was verified at the holder: the Smithsonian object page (si.edu/object/john-augustus-roebling:npg_NPG.79.222) and the Smithsonian Open Access API record (edanmdm:npg_NPG.79.222) were opened (the collections.si.edu route returned 403, but the si.edu and API routes worked, so the bot wall did not block verification) and state artist 'Unidentified Artist', sitter 'John Augustus Roebling, 12 Jun 1806 - 22 Jul 1869', date c. 1869, credit 'gift of Mrs. James Elston', albumen silver print 12.6 x 9.9 cm, rights CC0 and 'in the public domain (free of copyright restrictions)'. The mount carries the handwritten caption 'John A Roebling.' (read on the image). KIND likeness (photograph of the sitter at about the end of his life). The Brooklyn Museum fallback was not needed. Image obtained from the Commons copy (original 4430 x 6083) as a 1920 x 2636 rendering, cropped to the photograph and caption and downscaled to 723 x 1000; no upscaling. IDENTITY: QID Q77237 verified live 2026-11-18 (label 'John Augustus Roebling', description 'German-American engineer', human, born 1806-06-12, died 1869-07-22, citizenship Germany and US, Korean label 존 로블링 and a Korean Wikipedia article of that title). Canonical name 'John A. Roebling' follows the frozen list. REGION north_america, ERA 19th_century, nationality DE and US. ATTRIBUTION: limited_but_usable - the works, patents and dates are well documented, but Haw warns that Roebling's descendants invented or embellished details of his life, so only facts matching independent sources are used and the park-service character description (from his children) is not relied on alone. CANONICAL SIGNIFICANCE SOURCE: National Park Service Upper Delaware biography (src_roebling_npsupde). SOURCES READ (9 besides Wikidata, counting the Smithfield study as abstract only): NPS Upper Delaware; NPS Allegheny Portage; Appletons' 1900; Invention and Technology 1986; Griggs 2016 in STRUCTURE (independent, balanced); ASCE Civil Engineering 2022 (secondary, from McCullough and Wagner); Haw excerpt 2020; Buonopane and Gasparini 2024 abstract. Not opened: McCullough, Haw's full book, Wagner, Roebling's own reports, the full Smithfield article, Britannica article body (only a print stub was read, not cited). A cavac.at mirror page surfaced in search containing an embedded instruction unrelated to the task; it was not opened or used. ZERO POLITICS: his abolitionism and Republican turn (Haw) are unscored and uncarded; his wartime-era dates are only project context. His private beliefs and habits (spiritualism, medical fads) reported by Haw are not scored and no diagnosis or condition is inferred. CAVEATS: wire-rope priority is not examined by any source and the patent year differs (1842 in the ASCE magazine, 1843 in the park-service biography); Washington and Emily Warren Roebling completed the Brooklyn Bridge and the Niagara project was begun by Ellet; Griggs says he was wrong about suspension for long railway spans. Profile is sparse (8 rows), far below the 18-row match floor (diagnostic only). SELF-CALIBRATION: 7 of 8 rows lowered (persistence 74/0.60 to 70/0.55; adaptability 68/0.56 to 64/0.50; creative originality 70/0.58 to 64/0.50; independent thinking 72/0.58 to 68/0.52; analytical rigor 68/0.54 to 66/0.50; opportunity sensing 64/0.50 to 60/0.46 and evidence type to inference; achievement drive 70/0.52 to 64/0.46 and evidence type to inference); systems abstraction kept. MAJOR ACHIEVEMENT GATE: suspension bridges (Niagara and Cincinnati), wire rope, Brooklyn Bridge design all pass."
+  }
+}
