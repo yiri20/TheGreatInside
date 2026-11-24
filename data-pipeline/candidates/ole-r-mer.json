@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ole-r-mer",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ole Rømer",
+    "aliases": [
+      "Ole Christensen Rømer",
+      "Ole Romer",
+      "Ole Roemer",
+      "Olaus Roemer",
+      "Olaus Römer"
+    ],
+    "wikidataId": "Q160187",
+    "birthYear": 1644,
+    "deathYear": 1710,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "DK"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "astronomer",
+      "inventor"
+    ],
+    "fieldIds": [
+      "natural_science",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "technological"
+    ],
+    "tagIds": [
+      "innovator",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "technical_innovator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_romer_wikidata",
+      "kind": "wikidata",
+      "title": "Ole Rømer (Q160187), verified live via the Wikidata API (2026-11-20): instance of human, born 1644-09-25, died 1710-09-19, citizen of Denmark, English description 'Danish astronomer (1644-1710)', Korean label 올레 뢰머. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q160187"
+    },
+    {
+      "id": "src_romer_dbl",
+      "kind": "biography",
+      "title": "'Ole Rømer', Dansk Biografisk Leksikon, 3rd edition (1979-84), online at Lex (read in full, in Danish, including its iconography and literature list). CANONICAL SIGNIFICANCE SOURCE: his 1676 paper in the Journal des Scavans argued that light takes time to travel and gave a method for its speed; the meridian circle and other instruments he described only in letters (Horrebow published them in 1735); in Paris 1672-81 he was an active Academy member; after 1681 he led technical reforms for the Danish king (land survey, the 1683 weights-and-measures ordinance tying the pound to a cubic foot of water, Copenhagen's paving, lighting, water supply, fire and watch services); the 'Adversaria' notebook shows his experiments on salt-solution density and his two-fixed-point thermometer (Fahrenheit visited in 1708); his 1704 Tusculanum observatory, the 1706 three-day observation run that survived the 1728 fire, and his 1703 letter to Leibniz explaining why he published almost nothing, with seventeen notebooks of unworked observations left behind. Scholarly national biography, admiring, drawing on the Adversaria, letters and earlier Danish studies; the claim that the transit formulas should bear his name rather than Tobias Mayer's is the author's view.",
+      "url": "https://biografiskleksikon.lex.dk/Ole_R%C3%B8mer"
+    },
+    {
+      "id": "src_romer_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Römer, Ole Christensen (or Roemer, Olaus)' (Gale, reproduced on Encyclopedia.com; read in full including its bibliography; the page does not show the author's name). Reference biography: study with the Bartholins and the editing of Tycho Brahe's manuscripts, the 1671 Hven expedition with Picard, nine years at the Paris observatory (micrometer, clocks, tutor to the dauphin), the September 1676 prediction that the 9 November eclipse of Io would be ten minutes late and its confirmation, the Cassinis' lasting doubts and Bradley's later confirmation, his 1681 return, the thermometer with two fixed points and Fahrenheit's 1708 visit, the Tusculanum observatory (1704), and the many state offices (mint master, harbour surveyor, tax assessor, mayor, police chief). Balanced on priority; says his light-travel time was too long because of perturbations he had not recognised.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/romer-ole-christensen-or-roemer-olaus"
+    },
+    {
+      "id": "src_romer_bobis",
+      "kind": "institution",
+      "title": "Laurence Bobis and James Lequeux, 'Cassini, Rømer and the velocity of light', Journal of Astronomical History and Heritage 11(2), 2008 (Paris Observatory library; read in full from the author PDF). COUNTER-VOICE: from the Academy of Sciences minutes and a manuscript at the Paris Observatory, Cassini announced the new inequality in Jupiter's satellites on 22 August 1676 and was first to put forward the 'successive motion' of light, then abandoned it because other satellites did not show the delay; Rømer read his account to the Academy on 21 November 1676, published it on 7 December with Cassini's and Picard's agreement, 'threw himself without hesitation' into promoting the hypothesis, and answered his critics only in a letter to Huygens of 30 September 1677, giving four reasons the effect was not visible in the other moons; Huygens first computed a numerical speed. Independent, archive-based historical scholarship; prints the 1735 Wolffgang engraving of Rømer from the library's own collection.",
+      "url": "https://arxiv.org/pdf/0810.3920"
+    },
+    {
+      "id": "src_romer_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Ole Rømer' (read in full): Paris from 1672, Cassini's Io-eclipse problem, his 1676 announcement that the 9 November eclipse would come ten minutes late, Huygens's later use of his ideas, the 1679 mission to England (Newton, Flamsteed, Halley), return in 1681 as royal mathematician and professor, an altitude-azimuth instrument at the university observatory, and several public offices including mayor of Copenhagen in 1705. Short reference article, celebratory.",
+      "url": "https://www.britannica.com/biography/Ole-Romer"
+    },
+    {
+      "id": "src_romer_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Ole Christensen Rømer' (read in full): childhood and education, the Bartholin household and the Tycho manuscripts, Paris years including hydraulics for the Versailles fountains, the planetarium and eclipsarium built to his designs, return to Denmark, city lighting and drains, adoption of the Gregorian calendar in 1700, weights-and-measures reform, the thermometer that inspired Fahrenheit, the Tusculanum, and loss of his papers in the 1728 fire. Popular reference article largely derived from the standard literature; used for consistent facts.",
+      "url": "https://ebsco.com/research-starters/history/ole-christensen-romer"
+    },
+    {
+      "id": "src_romer_lindahall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'Ole Rømer' (Scientist of the Day), Linda Hall Library (read in full): eight years at the Paris Observatory and the finite speed of light from Jupiter's moons, which broke a Cartesian tenet; after 1680 observations with his own transit instrument; unhappy with the windy Round Tower he built a small observatory outside the city; the 1728 fire destroyed his instruments and observations; his pupil Horrebow's 1735 book is the source of the surviving engravings. Short library note by a historian of science; says the portrait of Rømer (about 1700) hangs at Frederiksborg, which the Danish national biography's list of portraits does not confirm.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/ole-romer"
+    },
+    {
+      "id": "src_romer_reitzer",
+      "kind": "archive",
+      "title": "Christian Reitzer, 'Programma in obitum Römeri' (University of Copenhagen rector's funeral notice, October 1710, in Latin), printed at the front of Peder Horrebow's 'Basis astronomiae' (Copenhagen, 1735); Wellcome Library copy digitised at the Internet Archive (Public Domain Mark), read in the OCR text up to the account of his death. Contemporary panegyric: his posts under two kings, his Paris years, the 1687 mission to France, England and the Low Countries, his two marriages, and the university buildings and museum he restored. A funeral eulogy; used only for dates and offices, never for character.",
+      "url": "https://archive.org/details/b30512451"
+    },
+    {
+      "id": "src_romer_rosenborg",
+      "kind": "institution",
+      "title": "The Royal Danish Collection, 'Ole Rømer's Room (room F)', Rosenborg Castle (read in full): says he lived at the Paris observatory 1672-81, presented a planetarium and an eclipsarium to the Academy and Louis XIV in 1680, became Christian V's trusted man in technical matters after 1681 and developed a uniform system of weights and measures; the set shown was acquired by Christian V in 1682. Museum room text; instruments were made in Paris 1678-79 by the royal clockmaker Isaac Thuret to his designs.",
+      "url": "https://denkongeligesamling.dk/en/rosenborg/room/ole-romers-room"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_romer_dbl, src_romer_dsb, src_romer_ebsco, src_romer_rosenborg | 1672-1710 | national biography, reference biography, reference article, museum text] His documented work ran from astronomical observation and instrument design through clockwork and planetaria, hydraulics for the Versailles fountains, thermometry, solution densities and metrology to Copenhagen's paving, lighting, water supply and fire services and the Gregorian calendar change. The sources agree on the spread, but many of the posts were commissions from the king and most sources draw on the same Danish scholarship. SELF-CALIBRATION (agent): lowered from 74 / 0.60 to 70 / 0.56 because breadth that was assigned is weaker evidence of a personal range than breadth that was chosen."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_romer_dsb, src_romer_dbl, src_romer_ebsco, src_romer_rosenborg, src_romer_lindahall | 1672-1708 | reference biography, national biography, reference article, museum text, library note] He invented a micrometer for differential position measurement, a thermometer fixed on two reference points, a planetarium and an eclipsarium, an altitude-azimuth mounted telescope and a transit instrument with a graduated circle (the first model of the meridian circle, per the national biography), and Fahrenheit's letter says his own thermometer followed Rømer's. Several distinct inventions are documented across sources, but credit for particular firsts (the meridian circle, the alt-azimuth mount) rests on Danish scholarship and his instruments were described only after his death by his pupil. CONCENTRATION (agent): lowered from 74 / 0.60 to 70 / 0.56 because the priority claims for his instruments come from one Danish lineage built on his letters and a pupil's account."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_romer_dbl, src_romer_dsb | 1683-1708 | national biography, reference biography] The national biography describes from his surviving 'Adversaria' notebook experiments on the density of salt solutions at different concentrations, with a float he built for the purpose, trials of thermometers against two fixed points, and a modern test showing that his 1683 weight and length originals fit the ordinance when distilled water and air buoyancy are allowed for; the Dictionary of Scientific Biography adds the thermometer and Fahrenheit's visit. The experiments are described almost entirely by one biographer from one notebook. CONCENTRATION (agent): lowered from 64 / 0.48 strong_inference to 60 / 0.44 inference because one notebook read through one biographer carries nearly all of it."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_romer_dsb, src_romer_dbl, src_romer_britannica, src_romer_bobis | 1676-1706 | reference biography, national biography, reference article, historical scholarship] In September 1676 he predicted that the 9 November eclipse of Io would be ten minutes late and the Academy's own record shows it was observed ten minutes late; to Huygens in 1677 he gave four reasons why the delay could not be seen clearly in the other moons; the national biography says his weighing used distilled water with buoyancy correction and that his notebook derives the transit-instrument error corrections later published under Tobias Mayer's name. The prediction is documented by four sources; the later items rest on one Danish biographer, and his light-travel time was too long (reviewed and kept; no change)."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_romer_lindahall, src_romer_dsb, src_romer_bobis, src_romer_dbl | 1676-1703 | library note, reference biography, historical scholarship, national biography] He argued that light takes time to travel when most earlier astronomers, Descartes among them, held it instantaneous, and he kept to the hypothesis after the senior astronomers at the Observatory declined to; in 1703 he also proposed to Leibniz that Easter be fixed to 5-11 April, free of the moon. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 64 / 0.50 because the Academy minutes show Cassini put the idea forward first and Rømer did not publicly rebut his objections, so the independence of the hypothesis is shared."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_romer_dbl, src_romer_dsb, src_romer_lindahall, src_romer_reitzer | 1664-1710 | national biography, reference biography, library note, funeral notice] After four years editing Tycho Brahe's observations he, by his own account to Leibniz quoted in the national biography, resolved to make exact positions of stars and planets his lifelong aim; he fitted a house observatory in 1691, spent a summer in 1704 building the Tusculanum he had wanted for thirty years, and the Dictionary says he made as many observations as Tycho. The aim is partly his own statement, but the Tusculanum, the observations and his leaving the windy Round Tower are confirmed by independent sources (reviewed and kept; no change)."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_romer_dbl, src_romer_dsb, src_romer_britannica, src_romer_lindahall | 1672-1710 | national biography, reference biography, reference article, library note] He followed Io's eclipses for about eight years in Paris before the 1676 result, then observed for three more decades in Copenhagen, ending with the 1706 three-day run copied five times, and the national biography says he never dropped a task until he had a result. The long record is documented, but the 'never let go' judgement is one biographer's summary and the story overlaps the mastery row. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 64 / 0.50 because the evidence is the same observing career as the mastery row."
+    },
+    "perfectionism": {
+      "score": 64,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_romer_dbl | 1703-1710 | national biography] The national biography reports his 1703 letter to Leibniz saying he had not written up his observations partly for lack of time and because writing was hard for him, and that when he tried to describe his work something was always missing or could be done better; he left seventeen notebooks of unworked observations and published almost nothing. The same author adds that growing distrust of his own instruments may also explain it. CONCENTRATION (agent): lowered from 70 / 0.50 to 64 / 0.42 because the claim rests on his own letter as reported by one biographer, who gives other reasons too; impact is dual-edged because his instruments and results became known mostly through others."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_romer_dbl, src_romer_dsb, src_romer_lindahall, src_romer_ebsco | 1681-1710 | national biography, reference biography, library note, reference article] Besides his assigned reforms he fitted out his own observatories, first at his house and then at the Tusculanum, spent most of what the king granted him for his upkeep on astronomy according to the funeral address quoted in the national biography, and carried out the weights-and-measures and city-service reforms in sequence over three decades. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 64 / 0.50 because most of the reforms were royal commissions and the spending detail comes from a funeral address."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "올레 뢰머"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ole-r-mer-unknown-1913.jpg",
+    "width": 762,
+    "height": 1000,
+    "source": "Halftone reproduction of an old oil portrait, printed as Plate XIV with the caption 'Olaus Roemer (1644-1710). The famous Danish Astronomer (By courtesy of Popular Astronomy)' in the Journal of the Royal Astronomical Society of Canada, 1913; Library of Congress Prints and Photographs Division, Miscellaneous Items in High Demand, item 99471891 (LC-USZ62-124161). The file is the 3275 x 4096 pixel Library of Congress master scan, cropped to the picture inside the printed frame (2090 x 2740) and downscaled to 762 x 1000; no upscaling. The painter and date of the underlying painting are not stated on the print.",
+    "license": "Public domain by age: plate published in 1913 (before 1931; the Library of Congress item record says 'No known restrictions on publication') reproducing a painting that is some 300 years old",
+    "licenseUrl": "https://www.loc.gov/pictures/item/99471891/",
+    "attribution": "Unknown artist; portrait of Ole Rømer reproduced in the Journal of the Royal Astronomical Society of Canada, 1913, plate XIV (by courtesy of Popular Astronomy); Library of Congress, Prints and Photographs Division, item 99471891.",
+    "attributionUrl": "https://www.loc.gov/pictures/item/99471891/",
+    "creator": "Unknown painter (portrait reproduced as a halftone plate in the Journal of the Royal Astronomical Society of Canada, 1913)",
+    "date": "painting undated (about 1700 per secondary sources, unverified); reproduction published 1913",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.loc.gov/pictures/item/99471891/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-23T00:00:00Z",
+    "updatedAt": "2026-11-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead; downgraded from strong, holder record and terms unread) / REPLACED: the lead's Frederiksborg 'Coning painting' files on Commons could not be tied to any holder record (no accession number; the Commons source URL is a third-party archive link; the Danish national biography's list of portraits names the original painting at the Copenhagen police headquarters, with copies of 1835 (burnt 1859) and 1882 at Frederiksborg, so the 'c. 1700 Coning at Frederiksborg' label is unverified), and the Commons metadata for the sister files conflicts (author unknown vs Coning; sitter Rømer vs Prince Carl vs Charlotte Amalie). The replacement is the Library of Congress copy of a 1913 halftone plate in the Journal of the Royal Astronomical Society of Canada, whose printed caption names the sitter 'Olaus Roemer (1644-1710)'. HOLDER RECORD: Library of Congress item 99471891 read through the loc.gov JSON API (the HTML item page is behind a bot challenge and was not bypassed): title 'Olaus Roemer [sic] (1644-1710)--The famous Danish astronomer', 1913, 1 photomechanical print, from the Journal of the RASC 1913 plate XIV, call number BIOG FILE Römer, rights advisory 'No known restrictions on publication', master TIFF 3275 x 4096 downloaded from cdn.loc.gov. TERMS READ: the Library's Prints and Photographs rights guide (says 'no known restrictions' means the Library found no evidence of restrictions, not a PD declaration; works published before 1931 are public domain in the US) and the Library's legal page (the Library generally does not own rights; users decide). No permission, fee or reproduction restriction applies. AGE-ONLY PATH: published 1913 (Canada, from a Popular Astronomy plate), US public domain as pre-1931; underlying painting centuries old; photographer or printer unknown. SITTER: printed caption names Olaus Roemer; the pose, wig, lace cravat and embroidered coat match the 1735 Wolffgang engraving of Rømer (reproduced with the Paris Observatory library's attribution in Bobis and Lequeux, and the Commons copy of it), which the national biography says was probably made from the Copenhagen police-headquarters painting; the Commons 'Coning' files could not be fetched (rate limited) for a direct comparison. KIND historical_depiction: a halftone reproduction of an old painting whose painter and date I could not verify at a holder, so it is not claimed as a documented lifetime likeness. CAVEAT: black and white and halftone-derived, softer than a colour painting; a colour holder image (Frederiksborg) would be better if the museum record is found. IDENTITY: QID Q160187 verified live 2026-11-20 (human; born 1644-09-25; died 1710-09-19; citizen of Denmark; description 'Danish astronomer (1644-1710)'; ko label 올레 뢰머); no candidate slug or QID collision. REGION western_europe (Danish precedent Tycho Brahe); ERA early_modern; nationality DK. ZERO POLITICS: primary identity is astronomer and instrument maker; his offices (privy council, judge, tax assessor, mayor, police chief, state councillor) are context and unscored, and the city reforms are scored only as technical and organisational work. VOCABULARY: occupations astronomer, inventor; fields natural_science, physics; tags innovator, cross_disciplinary; archetypes scientific_explorer, technical_innovator; impact domains scientific, technological. KO NAME: 올레 뢰머 is the Korean Wikipedia title and Wikidata ko label (authoritative-label). ATTRIBUTION: attributable (dated Academy minutes, a published paper, surviving notebook and letters, museum instruments). CANONICAL SIGNIFICANCE SOURCE: Dansk Biografisk Leksikon entry on Ole Rømer (https://biografiskleksikon.lex.dk/Ole_R%C3%B8mer), supported by the Dictionary of Scientific Biography. READ (8 sources besides Wikidata): DBL (full, Danish); DSB (full); Bobis and Lequeux 2008 (full); Britannica (full); EBSCO (full); Linda Hall note (full); Royal Danish Collection room text (full); Reitzer's 1710 funeral notice (Latin OCR to the account of his death, partly skimmed). Wikipedia was read only for orientation and not cited. Not opened: Cohen 1940, Pihl 1944, Strömgren 1944, Horrebow's main text, the Adversaria itself, the Frederiksborg collection database. PERSPECTIVES: (1) Danish national biography from the notebook and letters; (2) scientific reference biography; (3) French archive-based historical scholarship that questions the priority; (4) general reference articles; (5) library and museum notes; (6) a 1710 funeral eulogy used only for offices. NON-SELF BEHAVIOURAL SOURCES: DBL, DSB, Bobis and Lequeux, Britannica, EBSCO, Linda Hall; the DBL quotes his own 1703 letter and 1704 letter to Leibniz. CONTRADICTIONS AND LIMITS: Bobis and Lequeux and the Academy minutes show Cassini first proposed the successive motion of light on 22 August 1676 and then abandoned it, which is why independent thinking is held at 64; the speed he derived was too large (DSB); Britannica says he died on 23 September, Wikidata 19 September, and the 1710 notice a day in September; the DBL says he became police chief ('politimester') in 1705 where Britannica and the DSB say mayor; nearly all his own papers were lost in 1728, so his working methods are known from the Adversaria, the 1706 observation run, letters and Horrebow. Sparse 9-row profile by design. MAJOR ACHIEVEMENT GATE: cards (1) the 1676 finite speed of light, (2) instruments and the thermometer, (3) the Copenhagen technical reforms and the weights-and-measures system. SELF-CALIBRATION: see handback (7 of 9 rows lowered; none raised)."
+  }
+}

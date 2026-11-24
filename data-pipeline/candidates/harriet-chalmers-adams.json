@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "harriet-chalmers-adams",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Harriet Chalmers Adams",
+    "aliases": [
+      "Harriet Chalmers",
+      "Mrs. Franklin Pierce Adams",
+      "Mrs. Marco Polo of the Americas"
+    ],
+    "wikidataId": "Q670843",
+    "birthYear": 1875,
+    "deathYear": 1937,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "writer",
+      "photographer"
+    ],
+    "fieldIds": [
+      "exploration",
+      "journalism"
+    ],
+    "impactDomains": [
+      "historical",
+      "cultural",
+      "social"
+    ],
+    "tagIds": [
+      "explorer",
+      "self_taught",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_adams_wikidata",
+      "kind": "wikidata",
+      "title": "Harriet Chalmers Adams (Q670843), verified live via the Wikidata API (2026-11-20): English label 'Harriet Chalmers Adams', description 'American explorer, writer and photographer (1875-1937)', instance of human, born 22 October 1875, died 17 July 1937, citizen of the United States; no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q670843"
+    },
+    {
+      "id": "src_adams_ng_strochlic",
+      "kind": "press",
+      "title": "Nina Strochlic, 'A 40,000-mile journey was nothing for this 19th-century female explorer', National Geographic (16 March 2020; read in full). CANONICAL SIGNIFICANCE SOURCE: says she rode horseback through the Sierra Nevada with her father at eight, left formal schooling at eleven, married Franklin Pierce Adams at twenty-four and with him travelled about 40,000 miles through Latin America over nearly three years by horse, canoe, foot and train, crossing Andean peaks of about 23,000 feet; that her first lecture for the Society began a roughly thirty-year career as a contributor with 21 articles, more than any other woman in the magazine's first half century, in which she criticised injustices she saw, including in Peru; that in 1917 she was the first woman journalist invited to the French front and spent about three months in Lorraine; that in 1930 she announced and carried out a trip to Africa and the Middle East to see Haile Selassie's coronation; that she had no formal geography training yet was invited to speak worldwide, was the third American woman invited to join the Royal Geographical Society, was shut out by the Explorers Club, and with peers founded the Society of Woman Geographers in 1925, leading it until she moved to France in 1933. It also notes that in 1920 she said women should be able to go wherever men go, while a decade earlier she had told a reporter she had no time to think about suffrage. A National Geographic piece about a woman who wrote for the magazine, so admiring, but it records that contradiction.",
+      "url": "https://www.nationalgeographic.com/history/article/40000-mile-journey-was-nothing-for-19th-century-female-explorer"
+    },
+    {
+      "id": "src_adams_ng_keefe",
+      "kind": "press",
+      "title": "Alexa Keefe, 'How a Woman Photographer Paved the Way for Adventure in Latin America', National Geographic (7 March 2016; read in full). Says she first visited Mexico with her husband in 1899, then made a roughly two-to-three-year journey through northern South America and the Andes carrying paper, pencil and three years' worth of film; that she gave the Society's editor about 3,000 photographs; that her first byline appeared in June 1907 followed by twenty more; that she was the first woman to travel overland from the Amazon to French Guiana and to climb El Misti in Peru; that she spent three months in the trenches of France in the First World War; and that she told the New York Times in 1912 she had 'never found my sex a hinderment'. Same publisher as the 2020 article, so not an independent family from it.",
+      "url": "https://www.nationalgeographic.com/photography/article/a-woman-of-passion-courage-and-style-explores-the-world"
+    },
+    {
+      "id": "src_adams_gale",
+      "kind": "biography",
+      "title": "'Adams, Harriet Chalmers (1875-1937)', Women in World History: A Biographical Encyclopedia (Gale, reproduced on Encyclopedia.com; read in full, short entry without a named author). Gives dates and places: born Stockton, California, 22 October 1875, died Nice 17 July 1937; a three-year journey through Central and South America said to cover 40,000 miles; lecturing in the United States 1906-1908; a horseback crossing of Haiti in 1910; travel from Siberia to Sumatra; war correspondent at the French front in 1916-1917; organised the Society of Women Geographers in 1925 and was its first president. Very brief, gives no sources, and its 'first white woman' wording is period language.",
+      "url": "https://encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/adams-harriet-chalmers-1875-1937"
+    },
+    {
+      "id": "src_adams_explorersweb",
+      "kind": "press",
+      "title": "Kristine De Abreu, 'Great Explorers: Harriet Chalmers Adams', ExplorersWeb (22 July 2023; read in full). Independent-voiced profile that largely re-tells the National Geographic record but adds the critical view: it quotes her National Geographic writing about living among local people, sleeping on dirt floors and eating local food, and her line asking what blessing European civilisation had brought to colonised peoples; says the Explorers Club refused her membership and funding but still invited her to lecture; and quotes the writer Kathryn Davis that her lack of formal education and professional training 'diminished her credibility' and that the lack of a book weakened her lasting reputation. Popular secondary source, partly derivative.",
+      "url": "https://explorersweb.com/great-explorers-harriet-chalmers-adams"
+    },
+    {
+      "id": "src_adams_wie",
+      "kind": "institution",
+      "title": "Women in Exploration, 'Harriet Chalmers Adams' (timeline entry, no named author; read in full). Adds that she spoke Spanish and French fluently, kept a journal on the Latin American journey, set herself the goal of visiting every country that was or had been a Spanish colony, visited United States Indian reservations to compare languages and cultures, followed Magellan's route to the Philippines, wrote on the effects of colonialism (which the page says was controversial for its time), and was a Harper's correspondent in Europe in the First World War. Gives two different mileage totals without reconciling them, so the figures are not used.",
+      "url": "https://womeninexploration.org/timeline/harriet-chalmers-adams"
+    },
+    {
+      "id": "src_adams_loc",
+      "kind": "institution",
+      "title": "Elizabeth Novara, 'Founding a Community: The Society of Woman Geographers at 100', Library of Congress Unfolding History blog (11 December 2025; read in full). Independent of the National Geographic family: names four founders (Marguerite Harrison, Blair Niles, Gertrude Emerson Sen and Gertrude Mathews Shelby), says Adams was not one of them but was the society's first president, and quotes Sen's recollection that Adams 'organized the whole thing without us'; says the founders were annoyed at being excluded from the Explorers Club and similar all-male bodies.",
+      "url": "https://blogs.loc.gov/manuscripts/2025/12/founding-a-community-the-society-of-woman-geographers-at-100/"
+    },
+    {
+      "id": "src_adams_ng1908",
+      "kind": "archive",
+      "title": "Harriet Chalmers Adams, 'Some Wonderful Sights in the Andean Highlands', The National Geographic Magazine, vol. 19 (September 1908), pp. 597 ff., with photographs by the author (Internet Archive scan; text read for the first part of the article). Her own first-person account of a visit to Tiahuanaco and Lake Titicaca 'three years ago': she describes the ruins and the dress, food and fiestas of the highland villagers, sails a reed boat on the lake, notes she and her husband escaped mountain sickness, and reflects that 'civilizations rise and fall'. Self-authored, so used only for how she observed and what she attended to, never for outcomes.",
+      "url": "https://archive.org/details/sim_national-geographic_1908-09_19_9"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_adams_ng_strochlic, src_adams_ng_keefe, src_adams_gale, src_adams_ng1908 | 1900-1930 | magazine articles, encyclopedia entry, her own article] The travels are described as lasting nearly three years over about 40,000 miles by horse, canoe, foot and train, with Andean crossings and a storm so cold her eyelids froze; her own 1908 article corroborates a stay on the high plateau; she later pursued a stated plan to visit every former Spanish colony, retraced Columbus's route and in 1930 announced and completed a trip to see Haile Selassie's coronation, and she carried on writing and lecturing for about thirty years while barred from the Explorers Club. The pattern runs across decades, but the hardship details come from one magazine's retelling. CONCENTRATION: the hardship details trace mostly to one magazine's retelling (two National Geographic articles, one family), so lowered from 64 / 0.52 to 60 / 0.50."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_adams_ng_strochlic, src_adams_ng_keefe, src_adams_gale | 1900-1917 | magazine articles, encyclopedia entry] Documented acts: the Andean journey on horseback at altitudes of about 23,000 feet, a 1910 horseback crossing of Haiti, and about three months at the French front in 1917 touring operations in Lorraine. The Women in Exploration and encyclopedia entries repeat the same episodes. Taking these trips is documented; how much danger she actually faced on each is not detailed. CONCENTRATION: the three episodes come from one magazine family and a short encyclopedia entry that cites nothing, and none describes the danger itself, so lowered from 66 / 0.52 strong inference to 60 / 0.44 inference."
+    },
+    "curiosity": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_adams_wie, src_adams_ng_strochlic, src_adams_ng1908, src_adams_explorersweb | 1900-1935 | institutional timeline, magazine article, her own article] She set herself the aim of visiting every country that was or had been a Spanish colony, retraced Columbus's route, followed Magellan's route to the Philippines, visited United States Indian reservations to compare languages and cultures, and learned several languages; her 1908 article shows her attending to ruins, dress, food and fiestas and reflecting on the rise and fall of civilisations. The aims come from secondary retellings and her own account. SELF-CALIBRATION: the aims are told by secondary summaries and her own self-authored article, so lowered from 66 / 0.50 to 62 / 0.50."
+    },
+    "adaptability": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_adams_explorersweb, src_adams_ng_strochlic, src_adams_ng1908, src_adams_wie | 1900-1917 | press profile, magazine article, her own article] She is described as living among local people, sleeping on dirt floors or outdoors and eating local food, travelling by horse, canoe, foot and train, moving from the Andes to Asia to the First World War front, and managing with little equipment; her 1908 article records taking a reed boat across Lake Titicaca and a rough steamer return. The living-among-locals detail traces to her own writing as quoted by a profile. CONCENTRATION: living among local people rests on her own words as quoted by one profile, so lowered from 62 / 0.48 strong inference to 58 / 0.42 inference."
+    },
+    "independent_thinking": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_adams_explorersweb, src_adams_wie, src_adams_ng_strochlic | 1908-1920 | press profile, institutional timeline, magazine article] Sources say she added her own social and political commentary to her National Geographic articles, criticised injustices she saw including in Peru, and wrote critically of colonialism's effects, which Women in Exploration calls controversial for its time; the profile quotes her asking what blessing European civilisation had brought to colonised peoples. The reported criticism is general and the quoted line is one sentence, while the same sources also use period language about 'white' women firsts, so the score stays modest. SELF-CALIBRATION: the criticism is reported in general terms by sources that retell each other, so lowered from 60 / 0.44 to 56 / 0.40."
+    },
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_adams_loc, src_adams_ng_strochlic, src_adams_ng_keefe | 1900-1933 | library blog, magazine articles] Sen's recollection quoted by the Library of Congress is that Adams 'organized the whole thing without us' for the Society of Woman Geographers, and she became its first president and led it until 1933; National Geographic says she had no formal geography training yet built a career of self-planned journeys and lecturing from 1907, and announced and completed the 1930 Africa and Middle East trip to see the coronation. The organising role is independently attested only by the one library blog; the founding itself was shared with four others. SELF-CALIBRATION: the organising role rests on one recollection quoted by one library blog and the founding was shared with four others, so lowered from 70 / 0.54 to 64 / 0.50."
+    },
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_adams_loc, src_adams_ng_strochlic, src_adams_wie | 1925-1933 | library blog, magazine article, institutional timeline] She served as first president of the Society of Woman Geographers from 1925 until she moved to France in 1933, and Women in Exploration says she recruited members from 39 countries; the library blog says she did much of the organising behind the scenes. How she exercised the role day to day is not described. RUBRIC_CORRECTION (agent, before eligibility): evidence type lowered from strong inference to inference because a confidence of 0.46 sits below the strong-inference band and the office is documented without detail on how she led."
+    },
+    "persuasiveness": {
+      "score": 54,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_adams_ng_strochlic, src_adams_ng_keefe, src_adams_explorersweb | 1907-1930 | magazine articles, press profile] Reported: she lectured for the National Geographic Society from 1907 in colour slides (once in a red ball gown), drew audiences often above a thousand, and was invited to speak by groups that had never hosted a woman, despite having no formal training. Demand for her lectures is documented by a few retellings; there is no account of how she persuaded individuals or institutions. SELF-CALIBRATION: lecture demand rests on a few retellings with no account of persuading anyone in particular, so lowered from 58 / 0.42 to 54 / 0.38."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "해리엇 찰머스 애덤스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/harriet-chalmers-adams-national-photo-company-1910s.jpg",
+    "width": 750,
+    "height": 1007,
+    "source": "Glass-negative portrait photograph titled 'Harriet Chalmers Adams' (title taken by the Library of Congress from unverified data on the negative or its sleeve), made by the National Photo Company, a Washington news-photo agency, between 1908 and 1919 per the LOC record; Library of Congress Prints and Photographs Division, National Photo Company Collection, LC-DIG-npcc-19900, call number LC-F81-2665 [P&P], gift of Herbert A. French 1947. The file is cropped from the 4351 x 5949 master scan to remove the negative's black border and torn emulsion edge and downscaled to 750 x 1007; not upscaled.",
+    "license": "Public domain in the United States: made 1908-1919 by a news-photo agency whose pictures were circulated to the press, and the holder's own item record and National Photo Company collection statement say 'No known restrictions on publication'; the Library of Congress does not own or license rights",
+    "licenseUrl": "https://www.loc.gov/item/2016821478/",
+    "attribution": "National Photo Company, portrait of Harriet Chalmers Adams, between 1908 and 1919; Library of Congress, Prints and Photographs Division, National Photo Company Collection (LC-DIG-npcc-19900). No known restrictions on publication.",
+    "attributionUrl": "https://www.loc.gov/item/2016821478/",
+    "creator": "National Photo Company (individual photographer unknown)",
+    "date": "between 1908 and 1919",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.loc.gov/item/2016821478/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B, downgraded from strong because the LOC holder pages were bot-walled) / LEAD SURVIVED: the National Photo Company glass-negative portrait (LC-DIG-npcc-19900) is the shipped image. HOLDER RECORD READ through the LOC JSON item API (https://www.loc.gov/item/2016821478/): title 'Harriet Chalmers Adams', created [between 1908 and 1919], 'Title from unverified data provided by the National Photo Company on the negative or negative sleeve', gift of Herbert A. French 1947, rights advisory 'No known restrictions on publication'; the LOC rights statement for the collection (read from the Prints and Photographs rights table) says 'There are no known restrictions on the photographs in the National Photo Company Collection' and that the Library does not own or license rights. The HTML item and resource pages stayed behind a Cloudflare challenge and were not bypassed. CAVEATS: (1) the sitter name rests on the agency's own negative-sleeve data, which LOC marks unverified; there is no inscription; the face is consistent with the 1912 Harris & Ewing LOC photograph titled with her name (Commons copy compared) but that is a visual consistency check, not proof; (2) the exact publication date and publication of this negative are not documented, so the PD basis is the holder's 'no known restrictions' statement plus a 1908-1919 press-agency origin, not a proven publication year; (3) the file is cropped from the 4351 x 5949 master TIFF to the photographic area and downscaled to 750 x 1007, never upscaled. Kind likeness. KOREAN NAME: no Wikidata ko label, no Korean Wikipedia entry and no Korean-language source found; the name is a transliteration following Korean foreign-name orthography and is flagged for lead review. REGION north_america (US precedent). ERA 20th_century (career 1900-1937). ATTRIBUTION: limited_but_usable (travels and offices are consistently dated, but most accounts retell National Geographic's and the main scholarly sources, Davis 2009 and Rothenberg's American National Biography entry, could not be opened; distance and article counts vary across sources and are not carded; the Society of Woman Geographers founding credit is limited to 'organised and first president' because the Library of Congress says she was not one of the four founders). SPARSE BY DESIGN: 8 rows, average confidence 0.45; the independent behavioural families are few. NOT OPENED: Davis 2009 PDF (dead link), American National Biography, 1912 New York Times article (blocked), Anema's biography, Wikipedia (orientation only, not cited). Zero politics: only exploration, writing and organising are scored; her 1920 and earlier statements on suffrage are context only. SELF-CALIBRATION: all eight rows reviewed, see handback."
+  }
+}

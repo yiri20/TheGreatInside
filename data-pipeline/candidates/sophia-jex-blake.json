@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "sophia-jex-blake",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Sophia Jex-Blake",
+    "aliases": [
+      "Sophia Louisa Jex-Blake",
+      "Dr Sophia Jex-Blake"
+    ],
+    "wikidataId": "Q452029",
+    "birthYear": 1840,
+    "deathYear": 1912,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physician",
+      "teacher",
+      "activist"
+    ],
+    "fieldIds": [
+      "medicine",
+      "education",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "medical",
+      "educational",
+      "social"
+    ],
+    "tagIds": [
+      "founder",
+      "advocate",
+      "organizer",
+      "overcame_adversity"
+    ],
+    "archetypeIds": [
+      "institution_builder",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_jexblake_wikidata",
+      "kind": "wikidata",
+      "title": "Sophia Jex-Blake (Q452029), verified live via the Wikidata API (2026-11-20): English label 'Sophia Jex-Blake', description 'British physician and suffragist (1840-1912)', Korean label 소피아 젝스블레이크, born 21 January 1840, died 7 January 1912, instance of human, citizenship United Kingdom of Great Britain and Ireland. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q452029"
+    },
+    {
+      "id": "src_jexblake_todd",
+      "kind": "biography",
+      "title": "Margaret Todd, 'The Life of Sophia Jex-Blake' (London: Macmillan, 1918; read in the full Project Gutenberg text, concentrating on the Edinburgh campaign, the Surgeons' Hall riot and the Royal Infirmary meeting of January 1871, the libel action, the London School of Medicine for Women, the Russell Gurney Enabling Act, the early Edinburgh practice and the later public-life chapter). CANONICAL SIGNIFICANCE SOURCE (authorised biography by a close colleague who drew on Jex-Blake's diaries and letters and quotes contemporary newspapers and court reports; sympathetic but unusually frank about her faults): the long campaign to open medical education to women, the Edinburgh Seven, the London School, the 1876 Act and her own registration in 1877. Admits she was 'hasty, high-handed, difficult', 'too uncompromising' and that other women found her 'so big and masterful that nobody else got a chance'. Partly her own account, through her quoted letters and diaries.",
+      "url": "https://archive.org/details/thelifeofsophiaj54215gut"
+    },
+    {
+      "id": "src_jexblake_dnb",
+      "kind": "biography",
+      "title": "'Jex-Blake, Sophia Louisa', Dictionary of National Biography, 1927 supplement, by Katharine Jex-Blake (relative; transcribed on Wikisource; read in full). Reference biography that summarises Todd's Life and her own book 'Medical Women' and adds the contributor's personal knowledge: Queen's College and America, the Edinburgh matriculation of 1869, the 1873 Court of Session reversal, the London School opened in October 1874, her work as 'moving spirit behind the scenes' on the Enabling Act of 1876, the Berne MD and Irish licence of 1877, the Edinburgh hospital of 1885 and school of 1886, retirement in 1899. Admiring ('a born combatant and leader'); not independent of Todd.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1927_supplement/Jex-Blake,_Sophia_Louisa"
+    },
+    {
+      "id": "src_jexblake_uoe_seven",
+      "kind": "institution",
+      "title": "University of Edinburgh, College of Medicine and Veterinary Medicine, 'Sophia Jex-Blake and the Edinburgh Seven' (history of women page, read in full). Her 1869 request to the Dean of the Medical Faculty and the faculty vote (Simpson and Syme for, with Syme conditional on obstetrics only; Christison against), reversal by the University Court after a petition from about 200 students, the seven who matriculated, the riot at the anatomy examination, the later careers of each woman, and the closure of her Edinburgh school after the rival Medical College for Women gained access to the Infirmary wards. Candid that her 'powerful nature began to get her into trouble' and that two student sisters found her too domineering. Written by the university that refused the women; self-critical.",
+      "url": "https://medicine-vet-medicine.ed.ac.uk/about/history/women/sophia-jex-blake-and-the-edinburgh-seven"
+    },
+    {
+      "id": "src_jexblake_uoe_alumni",
+      "kind": "institution",
+      "title": "University of Edinburgh, College of Medicine and Veterinary Medicine, 'Sophia Jex-Blake (1840-1912)' historic alumni profile (read in full). Short institutional biography: refused entry to Harvard, recalled from New York by her father's death, gathered four other women who passed the matriculation examination, an eyewitness account of 18 November 1870, her MD at Berne and Irish licence in 1877 as the third woman on the medical register, the Edinburgh dispensary and the 1886 school. Alumni-profile tone; overlaps with the university's other page.",
+      "url": "https://medicine-vet-medicine.ed.ac.uk/about/history/historic-alumni/sophia-jex-blake"
+    },
+    {
+      "id": "src_jexblake_hes",
+      "kind": "institution",
+      "title": "Historic Environment Scotland blog, 'Sophia Jex-Blake and the Edinburgh Seven' (2019; read in full). Her March 1869 application, the University Court's refusal 'in the interest of one lady', her newspaper advertisements that brought six more women, the riot at Surgeons' Hall and the Court of Session decision of 1873, her return to Edinburgh in 1878 as the city's first woman doctor, the Grove Street clinic that became the Edinburgh Hospital and Dispensary for Women, and the 1886 school, where she gained 'a reputation as a rather harsh disciplinarian' and was sued by two sisters who felt unfairly expelled. Heritage-body blog that also repeats her private-life claims, which are not used here.",
+      "url": "https://blog.historicenvironment.scot/2019/03/jex-blake-edinburgh-seven/"
+    },
+    {
+      "id": "src_jexblake_nationalarchives",
+      "kind": "archive",
+      "title": "The National Archives (UK), 'Sophia Jex-Blake, pioneer of women's medicine' (collection story with Treasury Solicitor file TS 18/98, a 1901 letter to Mary Cropper, the 1911 census and the General Medical Council statement PC 8/206; read in full). Her 1869 essay 'Medicine as a Profession for Women', the Edinburgh Seven as the first enrolled women undergraduates at a British university, the London School founded in 1874 with 14 students, her qualification abroad in 1877, 'headstrong' and a dispute with the London School before she founded the Edinburgh School, the Cropper scholarship for Indian women (including her 1901 letter arguing for training in Britain), and the school's closure in 1897 after educating 80 women, 53 of whom reached the register. Private-life passages are not used.",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/sophia-jex-blake/"
+    },
+    {
+      "id": "src_jexblake_sciencemuseum",
+      "kind": "press",
+      "title": "Science Museum Group blog, 'Celebrating the pioneering doctors of the London School of Medicine for Women' (read in full). Calls Jex-Blake the driving force behind the new school: she gathered Blackwell and Garrett Anderson among the governors and lecturers, secured sympathetic donors and rented a building in Bloomsbury; the school opened with fourteen students on 12 October 1874, with a final year at the Royal Free Hospital from 1877; the number of women doctors in Britain rose from 25 in 1881 to 495 in 1911. A museum curator's overview that credits the school to several people.",
+      "url": "https://blog.sciencemuseum.org.uk/celebrating-the-pioneering-doctors-of-the-london-school-of-medicine-for-women-lsmw/"
+    },
+    {
+      "id": "src_jexblake_hektoen",
+      "kind": "press",
+      "title": "Hektoen International, 'Sophia Louisa Jex-Blake, first British woman doctor' (2019 vignette, read in full; cites Lutzker, Women Gain a Place in Medicine, 1969). Short secondary account: a 'rebellious child', Queen's College over her father's objection, her American hospital work, the Edinburgh Seven and the failed lawsuit of 1873, the Berne degree and Irish examination, the outpatient clinic of 1878 and two schools and a women's hospital. Brief and general; adds little beyond the other accounts.",
+      "url": "https://hekint.org/2019/12/11/sophia-louisa-jex-blake-first-british-woman-doctor/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jexblake_todd, src_jexblake_dnb, src_jexblake_uoe_seven, src_jexblake_hes, src_jexblake_nationalarchives, src_jexblake_hektoen | 1869-1877 | biography, reference biography, university page, heritage blog, national archive, secondary article] Six sources agree that after the refusal of 1869, the riot of 1870 and the loss in the Court of Session in 1873 she kept going: she founded a new school in London in 1874, lobbied for the 1876 Enabling Act, took a Berne degree and an Irish licence and was registered in 1877, and by 1878 was practising in Edinburgh. The sequence is documented in outline by independent institutions, though the detail of the parliamentary work comes mostly from Todd. SELF-CALIBRATION (agent): lowered from 82 / 0.70 to 80 / 0.68 because the outcome of the campaign was a shared effort with the other women and with supporters, and an eventual success can read as more persistent than it was. Lead review lowered this row to 78 / 0.64 because the parliamentary and school-founding detail comes mostly from Todd's 1918 biography."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.60,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jexblake_todd, src_jexblake_uoe_seven, src_jexblake_hes, src_jexblake_nationalarchives | 1870-1890 | biography, university page, heritage blog, national archive] She kept up the Edinburgh case through a riot and the hostility of senior professors, and at the Infirmary meeting of 2 January 1871 told the contributors in public that the riot was not due to the students alone and named Professor Christison's assistant; he sued for libel, the jury awarded one farthing but she was left with costs of about 915 pounds (Todd, quoting the Edinburgh Evening Courant and the Glasgow Herald). In the 1880s two students sued her school after an expulsion (heritage blog, university page). The libel episode rests on Todd's account of the court record; the cost to her was real, so the impact is dual-edged. SELF-CALIBRATION (agent): lowered from 78 / 0.66 documented to 74 / 0.60 strong_inference because the speech and libel action come from one biographer and the independent sources confirm only the outline."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_jexblake_hes, src_jexblake_uoe_seven, src_jexblake_sciencemuseum, src_jexblake_nationalarchives, src_jexblake_dnb, src_jexblake_uoe_alumni | 1869-1886 | heritage blog, university pages, museum blog, national archive, reference biography] When her application was refused she placed advertisements in the national press for other women to join her, and six came forward (heritage blog); she then arranged lectures herself when teachers declined (university page); in 1874 she was the driving force of the new London school, finding a dean, lecturers, donors and a building (museum blog, reference biography); in 1878 she opened a practice and a clinic for poor women in Edinburgh and in 1886 a school (heritage blog, national archive). SELF-CALIBRATION (agent): lowered from 82 / 0.70 to 78 / 0.66 because the credit for the London school is shared in the sources (one university news item names her among several founders) and the later institutions are described only in outline. Lead review lowered this row to 74 / 0.62 because most of the organising detail traces to Todd's biography and institutional blogs that retell it."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.60,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jexblake_dnb, src_jexblake_hes, src_jexblake_uoe_seven, src_jexblake_sciencemuseum, src_jexblake_todd | 1869-1899 | reference biography, heritage blog, university page, museum blog, biography] She is called the ring-leader and the virtual leader of the Edinburgh women, the driving force of the London school and Director and Dean of her own Edinburgh school (heritage blog, reference biography, university page, museum blog). Todd records that she hoped to be Honorary Secretary of the London School after registering and that colleagues found her 'so big and masterful that nobody else got a chance'; two sources tie the rival college in Edinburgh to her domineering manner. SELF-CALIBRATION (agent): lowered from 78 / 0.64 documented to 74 / 0.60 strong_inference because the reference biography is derived from Todd and the institutional pages summarise rather than document how she led."
+    },
+    "collaboration": {
+      "score": 42,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jexblake_todd, src_jexblake_uoe_seven, src_jexblake_hes, src_jexblake_nationalarchives | 1873-1890 | biography, university page, heritage blog, national archive] She recruited other women, worked with a circle of supporters in Parliament and the profession, and built the London school with a council of colleagues, but sources record repeated friction: Todd quotes a close friend telling her 'You treat other people like pawns', says Edinburgh women found her too masterful, and describes how she was passed over as Honorary Secretary of the London School; the national archive notes a dispute with the London School before she started her own, and two institutional pages record students who left to found a rival college. The mix is why the score sits slightly below the middle. SELF-CALIBRATION (agent): confidence lowered from 0.56 to 0.52 because the sharpest examples come from Todd alone and the others are brief."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jexblake_uoe_seven, src_jexblake_dnb, src_jexblake_sciencemuseum, src_jexblake_todd | 1869-1877 | university page, reference biography, museum blog, biography] She won a first faculty vote to admit her in 1869, attracted six other women by advertisement, secured donors and staff for the London school, and was the behind-the-scenes source of facts, arguments and a draft Bill for the Enabling Act (reference biography); Todd calls her one of the finest women speakers of her time, which is her own side's judgment. The record also includes losses: the Infirmary vote of 94 to 88 after her speech, the University Court reversal and the 1873 court defeat. SELF-CALIBRATION (agent): lowered from 66 / 0.58 to 62 / 0.52 because the persuasive-skill claim rests on Todd and an outcome (the 1876 Act) with many contributors."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jexblake_dnb, src_jexblake_hektoen, src_jexblake_uoe_alumni, src_jexblake_nationalarchives, src_jexblake_sciencemuseum | 1873-1877 | reference biography, secondary article, university page, national archive, museum blog] Each time one route closed she found another: when Edinburgh refused degrees she set up a school in London, when examiners resigned en masse she helped bring about the Enabling Act, and she then took an MD at Berne and a licence from the Irish College of Physicians, which made her registrable in Britain (several sources agree). The National Archives also shows the school was financed by appeals to wealthy contacts. SELF-CALIBRATION (agent): lowered from 72 / 0.62 to 68 / 0.58 because the individual steps were usually taken with others and the sources do not say who devised the Berne and Irish route."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_jexblake_nationalarchives, src_jexblake_sciencemuseum, src_jexblake_hes, src_jexblake_todd | 1869-1911 | national archive, museum blog, heritage blog, biography] Her 1869 essay argued for a fair field for women in medicine; she then spent decades building schools, a clinic for poor women and a hospital, backed a scholarship fund for Indian women students, and her will left money to women's suffrage and employment societies and to women doctors (national archive). The National Archives also quotes her 1901 letter arguing that women trained only in India were 'half-trained', which shows the limits of her view of the beneficiaries. SELF-CALIBRATION (agent): lowered from 74 / 0.58 to 70 / 0.54 because motive is inferred from outcomes and from her own essay and letters."
+    },
+    "belief_updating": {
+      "score": 40,
+      "confidence": 0.40,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "[src_jexblake_todd | 1873-1874 | biography] Todd records that after she was rejected in the Edinburgh professional examination of October 1873 Jex-Blake never accepted the justice of the rejection (three or four lecturers had told her in writing that her papers reached the pass standard, but a friend had described the examiner Wyville Thomson as a just man), and that her letter to The Times in 1874 questioning the examination was 'the great and crowning mistake of her life'; Todd also says she never realised the 'strain of difficulty' in her own nature. One biographer, partly sympathetic, is the only source, so this stays an inference."
+    },
+    "social_assertiveness": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_jexblake_todd, src_jexblake_uoe_seven, src_jexblake_hes | 1869-1871 | biography, university page, heritage blog] She wrote to the Dean to ask to attend lectures, called openly for other women to join her (heritage blog), and at the Royal Infirmary meeting in St Giles' on 2 January 1871 spoke in public against senior opponents, and replied sharply when Christison objected (Todd, quoting the Scotsman). Todd adds that she made her speech a 'direct personal attack' and that it was a mistake; this makes the assertiveness dual-edged. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 68 / 0.52 because the public speech comes from Todd alone and overlaps the conflict row."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "소피아 젝스블레이크"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/sophia-jex-blake-laurence-1865.jpg",
+    "width": 796,
+    "height": 1000,
+    "source": "Photographic reproduction of Samuel Laurence's portrait painting of Sophia Jex-Blake (1865, 'at the age of 25'), catalogued by Wellcome Collection as 'Sophia Jex-Blake. Photograph by Swaine.' (reference 12976i, image V0026614). Downloaded from the Wellcome IIIF image service at 2362 x 2967 pixels and downscaled to 796 x 1000 with no upscaling. The canvas weave and brushwork are visible, so the image reproduces an oil painting, not a studio sitting; the painting's present location is not confirmed here.",
+    "license": "Public Domain Mark 1.0 stated on the Wellcome Collection item record for this image ('You can use this work for any purpose without restriction under copyright law'); the underlying painting is by Samuel Laurence (1812-1884), whose copyright term has expired, and a photographic reproduction of a two-dimensional public-domain painting adds no new authorship",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Samuel Laurence, portrait of Sophia Jex-Blake, 1865, photographed by Swaine. Wellcome Collection (12976i). Public Domain Mark. Downscaled.",
+    "attributionUrl": "https://wellcomecollection.org/works/gy9wdwvt",
+    "creator": "Samuel Laurence (painter, 1812-1884); photographic reproduction by Swaine (date unknown)",
+    "date": "1865 (painting); photograph undated",
+    "kind": "likeness",
+    "sourcePageUrl": "https://wellcomecollection.org/works/gy9wdwvt"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B, downgraded from strong, terms ambiguous) / LEAD SURVIVED with a CORRECTION: the Wellcome work 'Sophia Jex-Blake. Photograph by Swaine.' (old id rr9fq3qh, now redirected to gy9wdwvt; image V0026614 confirmed on the record) is not a studio photograph of a sitting, as the Stage B note assumed, but a photograph of the 1865 Samuel Laurence oil portrait (canvas weave visible). Identity was checked against the frontispiece of Todd's 1918 Life ('Sophia Jex-Blake at the age of 25', 'Samuel Laurence pinxt', Emery Walker photogravure), which shows the same composition; the Wellcome record also names her as the subject (Library of Congress authority n91083208). KIND likeness: a painting made in her lifetime by a portraitist known to the family (Todd's preface: Laurence made a crayon drawing and then said he must have her 'in oils'). HOLDER TERMS: the Wellcome item record and its IIIF/API record state Public Domain Mark; the Wellcome site-level terms page (wellcome.org privacy and terms) says content is CC BY 4.0 unless otherwise stated and that copyright status 'will vary' and is shown on each item page, so the item statement controls; the Commons file page's CC BY 4.0 label (Stage B) conflicts with the holder's own PDM statement and is not relied on. AGE: Laurence d. 1884; the photographer Swaine and the date of the photograph are unknown (sitter died 1912, so the photograph predates 1912). The owner of the painting (the Royal Society of Medicine per the 1927 Dictionary of National Biography) was not confirmed: Art UK returned HTTP 403 to an automated request (bot wall, not bypassed) and no RSM catalogue record was read. Residual caveat: Wellcome says it takes a 'risk-managed approach' where copyright is unclear, and the photograph's own date is unknown. A different Wellcome record (M0005996, a later photograph of her) is a separate item and was avoided. ATTRIBUTION: attributable (extensive public record, a full authorised biography with letters and court reports). CANONICAL SIGNIFICANCE SOURCE: Todd, The Life of Sophia Jex-Blake (1918). READ: Todd (key chapters of the full text), DNB 1927 supplement, University of Edinburgh two pages, Historic Environment Scotland blog, National Archives story, Science Museum Group blog, Hektoen vignette. Not opened: J. M. Somerville's 2005 article on the Edinburgh School of Medicine for Women (RCPE PDF returned page-not-found), Shirley Roberts's 1993 biography, Jex-Blake's own Medical Women, the Oxford DNB. PERSPECTIVES: (1) partner-biographer drawing on diaries and letters and candid about faults; (2) relative-written reference biography derived from Todd; (3) the university that refused her, now self-critical; (4) heritage and national-archive material including primary documents; (5) museum and medical-history overviews. NON-SELF BEHAVIOURAL SOURCES: the university pages, heritage blog, National Archives and Science Museum blog confirm the outline; the specific episodes (St Giles speech, libel costs, being passed over for the London secretaryship, 'pawns') rest on Todd. CONTRADICTIONS AND LIMITS: sources disagree on the closing date of the Edinburgh school (1897 National Archives, 1898 university page), on the names of the two students who sued (Cadell and Caddell, and Ina or Georgina), on whether the London school was founded by her alone (museum blog 'driving force', one university news item 'alongside' Garrett Anderson), and on the exact damages and costs in the libel case (farthing, with costs of about 915 pounds per Todd). PRIVATE LIFE: several sources discuss her relationships; none of that is used or scored, and nothing about health or private conditions is inferred. ZERO POLITICS: primary identity is physician and founder of medical schools; her suffrage and school-board work is context only and unscored. VOCABULARY: occupations physician, teacher, activist; fields medicine, education, social_reform; tags founder, advocate, organizer, overcame_adversity; archetypes institution_builder, social_influencer. REGION western_europe (British precedent). ERA 19th_century. KO NAME: Wikidata Korean label 소피아 젝스블레이크; no Korean Wikipedia article exists; classed authoritative-label. SELF-CALIBRATION: 10 rows initially; 9 touched (8 scores lowered, 9 confidences lowered, 2 evidence types lowered); none raised; no rows removed."
+  }
+}

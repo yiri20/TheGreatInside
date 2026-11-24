@@ -14687,6 +14687,468 @@ export const EDITORIAL_EN: Record<string, string> = {
     "After about ten years of travel following the death of his teacher Hayano Hajin in 1742, he settled in Kyoto in 1751, in his mid-thirties and little known as either poet or painter. There he gave about ten years mainly to painting, formed a haikai association in 1766 and in 1770 became a master of his teacher's school.",
   "yosa-buson.interpretation.turning_point.1":
     "The sequence is consistent with a profile in which skill and standing were built slowly, in the second half of life, rather than through early success.",
+  "anagarika-dharmapala.achievement.1":
+    "Dharmapala founded the Maha Bodhi Society on 31 May 1891 in Colombo, moved it to Calcutta a year later and began its journal in January 1892, to bring the Buddhist shrine at Bodh Gaya, then in the hands of a Hindu mahant, back into Buddhist hands. The campaign included a suit after the attempted placing of a Japanese Buddha image in February 1895; the Calcutta High Court held that Buddhists as well as Hindus had a right to worship at the temple, but it did not give the Society the shrine. A Buddhist role in managing the temple came only in 1949, after his death.",
+  "anagarika-dharmapala.achievement.2":
+    "At 29 Dharmapala went to Chicago in 1893 as the delegate of Southern (Theravada) Buddhism to the World's Parliament of Religions, where he gave the addresses 'The World's Debt to Buddha' and 'Buddhism and Christianity'. On the way home he met the Hawaiian patron Mary Foster, who funded his work for about four decades, and in the following decades he toured Asia, the United States and Europe and set up the British Buddhist Mission in London in 1926.",
+  "anagarika-dharmapala.achievement.3":
+    "In Sri Lanka and India Dharmapala also built institutions for Buddhist life: rural schools, an industrial school at Sarnath, a free hospital opened in 1914, a Sinhala-language weekly begun in 1906 and a lay code, the Gihivinaya of 1898. The Society built a Vihara in Calcutta between 1915 and 1920, to which the Government of India gave a share of Buddha relics, and the Mulagandhakuti Vihara at Sarnath, begun in 1922 and finished in 1930. Several of his plans failed, among them the 1898 college, and many of the novice monks he trained did not stay the course.",
+  "anagarika-dharmapala.moment.1":
+    "On 25 February 1895, after the attempt to buy out the Bodh Gaya mahant had failed, Dharmapala and three associates tried to place a Japanese Buddha image in the upper chamber of the Mahabodhi Temple; the mahant's men prevented it and had the image removed. He took the matter to court, although supporters in Sri Lanka had urged him to settle. The Calcutta High Court found in August 1895 that Buddhists had a right of worship but also that he had taken the law into his own hands.",
+  "anagarika-dharmapala.interpretation.moment.1":
+    "The episode is consistent with a high tolerance for open confrontation in pursuit of a goal; critics read the same events as needlessly aggressive and the court's finding cuts both ways, so it sits as a dual-edged trait.",
+  "anagarika-dharmapala.moment.2":
+    "After the riots in Ceylon in May 1915 the colonial authorities barred Dharmapala from returning to Sri Lanka, and the Society's chronology records him as interned in Calcutta from June 1915 (another essay says his movements were restricted for about seven years). During those years the Society began its Vihara in Calcutta, received an offer in 1916 of a share of Buddha relics from the Government of India for it, and saw it opened in November 1920 with the relics brought in procession.",
+  "anagarika-dharmapala.interpretation.moment.2":
+    "Carrying on building under restriction is consistent with persistence, though the dates come from the Society's own chronology and the cause of the restriction is not examined in these sources.",
+  "anagarika-dharmapala.turning_point.1":
+    "On 2 January 1891 Dharmapala visited Bodh Gaya and, seeing the neglected temple, vowed before the Bodhi tree to give his life to rescue it. Until then he had worked from Colombo for the Buddhist Section of the Theosophical Society, its schools and its press; within five months he had founded the Maha Bodhi Society, and over the next four decades he moved between Ceylon and India, with long tours abroad to raise funds and preach.",
+  "anagarika-dharmapala.interpretation.turning_point.1":
+    "The vow marks a clear change from local educational work to a self-chosen international campaign and is consistent with strong proactive agency; some scholars read it as modelled on the Buddha's own vow rather than only on concern for the shrine.",
+  "andrea-palladio.achievement.1":
+    "He designed the palaces of Vicenza and a series of villas in the Veneto, including the Villa Rotonda, and adapted the classical temple front as a portico for houses. His first major public commission was the arcaded loggias around Vicenza's town hall, the Basilica, begun in 1549. UNESCO lists 23 of his buildings in Vicenza and 24 villas as a World Heritage site.",
+  "andrea-palladio.achievement.2":
+    "He published I quattro libri dell'architettura (The Four Books of Architecture) in Venice in 1570, setting out the classical orders, house design and his own built work. It became a widely copied pattern book and gave rise to Palladianism, which spread through England, Ireland and the American colonies.",
+  "andrea-palladio.achievement.3":
+    "In Venice he designed the church of San Giorgio Maggiore and the votive church of the Redentore, which the Venetian Senate voted for in 1576 after a plague, alongside a monastery refectory and other commissions for Venetian patrician families.",
+  "andrea-palladio.moment.1":
+    "From autumn 1546 to July 1547 he stayed in Rome for about eight months, studying ruins at Tivoli, Palestrina, Porto and Albano; in 1554 he followed this with a guidebook to Rome's antiquities. In the preface to his treatise he says he measured the ruins part by part on repeated journeys.",
+  "andrea-palladio.interpretation.moment.1":
+    "A long, documented stay given to studying ruins is consistent with a strong drive to master his subject, though his account of how closely he measured is his own.",
+  "andrea-palladio.moment.2":
+    "In 1554 he lost the competition for the Scala d'Oro staircase at the Doge's Palace to Jacopo Sansovino and was passed over for a salaried post in Venice. Venetian patrician clients nevertheless kept giving him villa and church commissions.",
+  "andrea-palladio.interpretation.moment.2":
+    "Continuing to work for the same city after losing a prominent competition sits alongside a pattern of carrying on through setbacks, though the sources say little about how he reacted.",
+  "andrea-palladio.turning_point.1":
+    "From 1538 he is documented in contact with the Vicenza humanist Giangiorgio Trissino, who gave him access to his library and to classical authors. Before this he was a stonecutter's apprentice and then a mason in Vicenza workshops; afterwards he worked increasingly as an architect, though the change was gradual.",
+  "andrea-palladio.interpretation.turning_point.1":
+    "The pairing of a patron's library with his own work is consistent with a profile that learned partly through close working relationships, though the sources do not describe the day-to-day terms of Trissino's teaching.",
+  "angelica-kauffman.achievement.1":
+    "Kauffman was one of the two women among the 36 founding members of the Royal Academy of Arts in 1768 and exhibited there every year until she left for Rome. As a woman she could not attend committee meetings or dinners or draw from life models.",
+  "angelica-kauffman.achievement.2":
+    "She made history painting, then ranked the highest genre, central to her career, and her portraits and mythological pictures made her one of the most sought-after painters in Europe. In London in 1778-80 the Academy commissioned from her four ceiling paintings, the Elements of Art, showing Invention, Design, Composition and Colouring as women.",
+  "angelica-kauffman.achievement.3":
+    "After moving to Rome in 1782 she kept a studio and salon that became a stop for Grand Tourists, and she kept sending paintings to London. After her death in 1807 a bust of her was placed in the Pantheon beside Raphael's.",
+  "angelica-kauffman.moment.1":
+    "In 1775 Kauffman wrote to the Royal Academy's President and Council protesting against the exhibition of Nathaniel Hone's The Conjuror, said to ridicule her alleged relationship with Joshua Reynolds, and offered to withdraw her pictures. The Hanging Committee removed Hone's painting.",
+  "angelica-kauffman.interpretation.moment.1":
+    "The episode is consistent with a willingness to confront the institution she belonged to when she felt wronged, though it is a single documented incident in a career otherwise described as tactful.",
+  "angelica-kauffman.turning_point.1":
+    "In 1766 Kauffman left Italy for London at the invitation of Lady Wentworth, separating from her father for the first time. Within months she had royal patronage and a friendship with Reynolds, and two years later she was a founding member of the Royal Academy.",
+  "angelica-kauffman.interpretation.turning_point.1":
+    "The move sits alongside a documented effort to prepare her arrival, such as sending her Garrick portrait ahead to a London exhibition, and is consistent with initiative as well as good fortune.",
+  "berthe-morisot.achievement.1":
+    "Morisot was a founding exhibitor of the Impressionist group and, by the sources' account, the only woman among the 30 artists in its first exhibition in 1874, where she showed ten works, including The Cradle. She took part in all but one of the eight group exhibitions, and the Musee Marmottan calls her the first woman Impressionist and one of its main members, alongside Monet, Renoir, Degas and Pissarro.",
+  "berthe-morisot.achievement.2":
+    "Her paintings, pastels and watercolours centred on light, outdoor settings and the lives of women and children around her, among them The Cradle (1872), harbour views at Nice and many pictures of her daughter Julie. Her touch grew looser over time, helped by her turn to unprimed canvas around 1880, and the Musee Marmottan holds the largest collection of her work, bequeathed by her descendants.",
+  "berthe-morisot.achievement.3":
+    "In 1886 Morisot was central to the eighth and last Impressionist exhibition. With Caillebotte out and Degas hesitating, she was the one member with the means to finance it, and applications from new exhibitors, among them Seurat and Signac, were put to her. The show opened on 15 May 1886 in rue Laffitte, with 17 exhibitors including Morisot, Degas, Cassatt, Pissarro, Seurat and Signac.",
+  "berthe-morisot.moment.1":
+    "In the spring of 1886 Pissarro wrote that he feared Morisot would not take part without Degas and that, in that case, there would be no exhibition; Degas then relented. Writing to a would-be exhibitor, Pissarro said such approaches should have begun with a visit from Morisot, as had been done for the young Seurat and Signac, and a letter of Guillaumin's mentions that she had seen their studies the year before. The ministry's account describes her as belonging to no clique and judging only the painting.",
+  "berthe-morisot.interpretation.moment.1":
+    "Taking on the funding and vetting of a show that others hesitated to organise is consistent with the profile's proactive agency, though the account rests on friends' letters and a ministry reading of them.",
+  "berthe-morisot.moment.2":
+    "Her husband Eugene Manet died on 13 April 1892 after a long illness. About a month later Morisot held the solo exhibition he had encouraged, and sales and critical notice were good. She painted until she fell ill with pneumonia, caught while nursing her daughter, and died on 2 March 1895.",
+  "berthe-morisot.interpretation.moment.2":
+    "Going ahead with the solo show a month after her husband's death is consistent with the profile's persistence, though the sources do not say how she weighed it.",
+  "berthe-morisot.turning_point.1":
+    "The Salon juries turned Morisot's work down in 1872 and 1873, after she had shown there since 1864. In early 1874 she joined the new independent society of artists at Degas's request, although Manet, who would not exhibit with the group himself, advised her against it, and she stopped sending work to the Salon. She showed ten works in the society's first exhibition that year.",
+  "berthe-morisot.interpretation.turning_point.1":
+    "Leaving the official Salon for the independent group against Manet's advice is consistent with the profile's independent thinking, alongside other factors such as her repeated refusals by the jury.",
+  "charles-sturt.achievement.1":
+    "In 1828-29 Sturt traced the Macquarie, Bogan and Castlereagh rivers and found the Darling, and in 1829-30 he led a party down the Murrumbidgee to its junction with the Murray and on to Lake Alexandrina on the South Australian coast. These journeys showed that the western-flowing rivers of New South Wales drain into the Murray and gave the first European survey of Australia's largest river system.",
+  "charles-sturt.achievement.2":
+    "In 1844-46 he led a party of 15 men with drays, sheep and a boat from Adelaide into the interior, still hoping to find an inland sea. They were stranded by drought at Depot Glen for six months and lost James Poole to scurvy, but the expedition found Strzelecki Creek and Cooper Creek and reached the edge of the Simpson Desert, less than 200 km from the centre of the continent, before dunes turned it back.",
+  "charles-sturt.achievement.3":
+    "He published his findings in Two Expeditions into the Interior of Southern Australia (1833) and a narrative of the Central Australian expedition (1849). The Royal Geographical Society awarded him its Founder's Medal in 1847, and the History Trust of South Australia notes he believed his descriptions of fertile river flats may have influenced the decision to colonise South Australia.",
+  "charles-sturt.moment.1":
+    "In February 1830, after reaching Lake Alexandrina and finding no inland sea, Sturt's party had to row the whaleboat back up the Murray and Murrumbidgee in summer heat on short rations. The Australian Museum records that with failing health, little food and an exhausted crew he turned the boat around and rowed 1,448 km upstream; the reference biography says he and Macleay shared every task at the oar, and that Sturt was nearly blind on reaching the depot in late April.",
+  "charles-sturt.interpretation.moment.1":
+    "Finishing a return of this length in poor condition is consistent with a persistent streak in the profile; the account is drawn mostly from his own narrative, so the reading rests on that record.",
+  "charles-sturt.moment.2":
+    "On 7 September 1845, at the edge of the Simpson Desert, Sturt turned back toward Eyre Creek with what he called 'a feeling of bitter disappointment', but he did not end the search: he rode out again from Fort Grey on 9 October, found Cooper Creek, and followed it before retreating. The Australian Museum says he 'reluctantly' gave up the inland sea only at the end of this series of forays, more than a decade after the 1830 journey first failed to find it.",
+  "charles-sturt.interpretation.moment.2":
+    "Holding the inland-sea idea over fifteen years of mixed evidence is consistent with a slow-to-revise side of the profile, though the idea was widely held in the colony and the evidence is a few retrospective sentences.",
+  "charles-sturt.turning_point.1":
+    "After arriving in Sydney in 1827 with a regiment escorting convicts, Sturt was appointed military secretary to Governor Ralph Darling. The History Trust of South Australia calls this the turning point of his career: within a year he had petitioned for and led an expedition to trace the Macquarie River, and he went on to lead the expeditions for which he is remembered.",
+  "charles-sturt.interpretation.turning_point.1":
+    "The move from regimental duty to expedition leader is consistent with the profile's initiative: he sought the first expedition himself, though the appointment itself opened the door.",
+  "ethel-smyth.achievement.1":
+    "Between 1892 and 1925 Smyth wrote six operas, all of which reached the stage. Der Wald was staged at Covent Garden in 1902 and, in 1903, became the first opera by a woman produced at the Metropolitan Opera in New York. Her best-known opera, The Wreckers, premiered in Leipzig in 1906 and reached London in 1909 and Covent Garden in 1910.",
+  "ethel-smyth.achievement.2":
+    "She composed 'The March of the Women', with words by Cicely Hamilton, in 1910-11 and it was first played at a rally on 21 January 1911. Dedicated to Emmeline Pankhurst and the Women's Social and Political Union, it became the most popular protest anthem of the British suffrage movement.",
+  "ethel-smyth.achievement.3":
+    "Her Mass in D, performed by the Royal Choral Society at the Royal Albert Hall in January 1893, is described by BBC Music Magazine as establishing her reputation as the foremost woman composer of her time. Her 1930 choral symphony The Prison is counted by the same magazine as the third pillar of her reputation with the Mass and The Wreckers.",
+  "ethel-smyth.moment.1":
+    "At the November 1906 Leipzig dress rehearsal of The Wreckers, Smyth found that the opera house's musical director had made extensive cuts to the last act. When her request to restore them for the second performance failed, she took the orchestral parts and the full score from the pit and left by train for Prague, which made further Leipzig performances impossible (Sophie Fuller).",
+  "ethel-smyth.interpretation.moment.1":
+    "The episode is consistent with a high tolerance for conflict when she believed her music's integrity was at stake; Fuller reads it as evidence of her determination. It also cost her performances at a major centre, so the same stance had a price.",
+  "ethel-smyth.moment.2":
+    "According to her own memoir, retold by Haag and BBC Music Magazine, at 19 she overheard her parents planning her coming-out season and instead made home life so unbearable, refusing church, dinners and conversation, that they let her go to the Leipzig Conservatory in 1877.",
+  "ethel-smyth.interpretation.moment.2":
+    "The story comes only from her own account, so it is better read as her version of events; it is consistent with a strong need to direct her own course, but it is not independent evidence of how the household actually behaved.",
+  "ethel-smyth.turning_point.1":
+    "In 1910 Smyth heard Emmeline Pankhurst speak, joined the Women's Social and Political Union and set her professional projects aside for two years. In 1892 she had said she approved of women's suffrage but had not thought much about it; in November 1910 she wrote that she had been lukewarm and was now an unqualified adherent. In March 1912 she gave up an invitation to a Berlin composers' conference and was imprisoned in Holloway for breaking a window.",
+  "ethel-smyth.interpretation.turning_point.1":
+    "The change is consistent with a willingness to revise a position and then act on it at a cost to her own career, though it is a single documented shift, largely in her own published words, prompted by a personal encounter with Pankhurst.",
+  "evangelista-torricelli.achievement.1":
+    "In 1643-44, working in Florence with Vincenzo Viviani, Torricelli filled a glass tube with mercury, inverted it in a bowl of mercury and watched the column settle at about 76 centimetres, leaving an apparently empty space above it. In a letter to Michelangelo Ricci of 11 June 1644 he argued that the weight of the air on the mercury in the bowl, not a force of vacuum inside the tube, holds the column up. The Torricellian tube led to the barometer and to the study of atmospheric pressure.",
+  "evangelista-torricelli.achievement.2":
+    "His only work printed in his lifetime, the Opera geometrica (1644), extended Cavalieri's method of indivisibles with curved indivisibles and used it to show that an infinitely long solid formed by rotating a hyperbola about its asymptote has a finite volume. The same book gave a theory of projectile motion at any angle with firing tables, and a law for the speed of a liquid jet leaving a hole in a vessel that still bears his name. The results made him known to Mersenne, Fermat and Roberval in France.",
+  "evangelista-torricelli.achievement.3":
+    "After arriving at Galileo's house at Arcetri on 10 October 1641 to help prepare additions to the Discorsi, he stayed until Galileo died on 8 January 1642. The Grand Duke of Tuscany then appointed him mathematician and gave him lodging in the Medici palace. In Florence he also ground telescope lenses that matched the best Italian makers of his day and gave lectures to the Accademia della Crusca.",
+  "evangelista-torricelli.moment.1":
+    "When Ricci objected that air presses downward and so could not hold the mercury up, and that a lid on the bowl would block the air's weight, Torricelli answered each of Ricci's three objections in a letter of 28 June 1644. He argued that fluids press in all directions, including upward, and used the example of a loaded wooden cylinder cut by an iron plate to show that a lid does not change the compression of the air beneath it.",
+  "evangelista-torricelli.interpretation.moment.1":
+    "The point-by-point replies are consistent with a habit of testing an explanation against objections before relying on it, though the letters reach us through the reference biographies' summaries.",
+  "evangelista-torricelli.moment.2":
+    "In 1646 Roberval, who claimed earlier results on the cycloid, accused Torricelli of plagiarism. Torricelli rejected the charge, broke off the exchange on Galileo's laws of motion without a conclusive reply to Roberval and Descartes, and began drafting an account of his correspondence with the French mathematicians. He died in October 1647 before finishing it. Roberval's reference entry says his own cycloid claims are not yet objectively proved, and the question of priority was not settled.",
+  "evangelista-torricelli.interpretation.moment.2":
+    "The episode is consistent with a researcher who defended his reputation openly in some disputes while staying silent on others, such as the vacuum and the world system, where the Italian national biography suggests he may have feared Church sanctions.",
+  "evangelista-torricelli.turning_point.1":
+    "In April 1641 Castelli showed Galileo Torricelli's treatise on projectile motion and Galileo invited him to Arcetri. Torricelli, who had spent the previous years as a secretary in the Marches, reached Galileo's house in October and, after Galileo's death three months later, became grand-ducal mathematician in Florence. In the following years he produced the Opera geometrica, the mercury experiment and his lenses.",
+  "evangelista-torricelli.interpretation.turning_point.1":
+    "The move to Florence is consistent with a widening of his activity beyond geometry into experiment, instrument making and lectures, though the sources do not say that this was his own plan.",
+  "gian-lorenzo-bernini.achievement.1":
+    "He was the leading sculptor of 17th-century Rome and is credited with creating Baroque sculpture. For Cardinal Scipione Borghese he carved the life-size groups Aeneas, Anchises and Ascanius, Pluto and Proserpina, Apollo and Daphne and David between about 1618 and 1625, each fixing a single peak moment of action. His Ecstasy of St Teresa in the Cornaro Chapel (c. 1645-52) is called the greatest single example of his mature art.",
+  "gian-lorenzo-bernini.achievement.2":
+    "He also shaped the look of papal Rome as an architect and designer. He made the bronze Baldacchino over the tomb of St Peter (1624-33) with the architects of the basilica works, became architect of St Peter's in 1629, and later planned the colonnaded piazza in front of it (begun 1657), the Scala Regia and the Cathedra Petri. His fountains include the Barcaccia, the Triton in Piazza Barberini and the Fountain of the Four Rivers in Piazza Navona (1648-51).",
+  "gian-lorenzo-bernini.achievement.3":
+    "He changed the portrait bust. The Getty Museum says he and his Roman contemporaries turned it into a speaking likeness in stone, and the Dizionario Biografico points to his 1632 busts of Cardinal Scipione Borghese, in which the sitter seems caught in conversation. His bust of Louis XIV, made in Paris in 1665, is the one work to survive from his French visit, where his designs for the Louvre were preferred but never built.",
+  "gian-lorenzo-bernini.moment.1":
+    "In Paris in 1665, before carving the bust of Louis XIV, Bernini asked for clay to sketch the pose and drew the king's face and profile in the days before he worked on the likeness. The diarist Chantelou, who attended him, records him working on the model for whole days, once until seven in the evening, and being badly put out when a visitor interrupted.",
+  "gian-lorenzo-bernini.interpretation.moment.1":
+    "This is consistent with a planning orientation, with sketching the pose before working on the likeness, and with sustained concentration; both rest on one diary kept during a few months of 1665.",
+  "gian-lorenzo-bernini.moment.2":
+    "From the 1630s he wrote and staged comedies with scenery and machines. In 1633 an envoy of the Duke of Modena reported a comedy he played with his pupils that made fun of the court, and in 1637-38 he staged 'De' due teatri', in which actors in masks resembling the spectators made the audience seem to face a mirror-image house. The Dizionario Biografico adds that his theatre work for the Barberini is poorly documented and partly legend.",
+  "gian-lorenzo-bernini.interpretation.moment.2":
+    "The episode is consistent with a wide creative range and with inventive staging, though the record is thin outside the 1633 letter and the 1637-38 and 1644 accounts.",
+  "gian-lorenzo-bernini.turning_point.1":
+    "In 1637 he began the south bell tower of St Peter's, and in 1646 it was pulled down because, according to the Dizionario Biografico, the design put too much weight on the foundations; Baldinucci's partisan life blames earlier trouble with the facade's foundations. After Urban VIII died in 1644 the Barberini fell from favour and, for the first and only time, his career seemed in danger. He began a Truth Unveiled by Time to answer the attacks (only the figure of Truth was carved), started the Cornaro Chapel, kept his post as architect of St Peter's, and by tradition regained the favour of Innocent X through his model for the Fountain of the Four Rivers.",
+  "gian-lorenzo-bernini.interpretation.turning_point.1":
+    "This turning point is consistent with persistence after a public failure, but patronage and the pope's change of mind explain much of the recovery, and the account of his response comes largely from a partisan biographer.",
+  "harriet-chalmers-adams.achievement.1":
+    "With her husband, Franklin Pierce Adams, she travelled about 40,000 miles through Latin America over nearly three years, mostly by horse, canoe, foot and train, crossing Andean peaks of around 23,000 feet. Her later plans included visiting every country that had been a Spanish colony and retracing Columbus's route to the Americas.",
+  "harriet-chalmers-adams.achievement.2":
+    "She wrote 21 articles for National Geographic over about thirty years, more than any other woman in its first half century, illustrated with her own photographs (she gave the Society about 3,000). Some of her pieces added commentary on colonial injustice, including in Peru.",
+  "harriet-chalmers-adams.achievement.3":
+    "After she and other women explorers were shut out of the all-male Explorers Club, she became the first president of the Society of Woman Geographers in 1925 and led it until she moved to France in 1933. A Library of Congress account credits her with organising the society, whose founders were four other women.",
+  "harriet-chalmers-adams.moment.1":
+    "In 1917 she was the first woman journalist invited to the French front in the First World War, and spent about three months touring operations in Lorraine. She photographed soldiers, trenches and women working on the war effort.",
+  "harriet-chalmers-adams.interpretation.moment.1":
+    "Accepting a long stay near the fighting is consistent with a high tolerance for physical danger, though the sources do not say how close to combat she actually went.",
+  "harriet-chalmers-adams.moment.2":
+    "In 1930 she announced an expedition to Africa and the Middle East to witness Haile Selassie's coronation in Ethiopia, and she carried it out, later visiting him in Europe.",
+  "harriet-chalmers-adams.interpretation.moment.2":
+    "Announcing a trip and then completing it, long after her first expeditions, is consistent with a pattern of acting on her own plans rather than waiting for sponsorship.",
+  "harriet-chalmers-adams.turning_point.1":
+    "After her Latin American journey she gave her first lecture for the National Geographic Society in 1907, which opened a roughly thirty-year relationship with the magazine as a lecturer, photographer and writer. Before it she was a private traveller; afterwards she was a public voice on Latin America.",
+  "harriet-chalmers-adams.interpretation.turning_point.1":
+    "That she turned a private journey into lectures despite no formal geography training sits alongside the profile's reading of her as someone who made opportunities for herself, though the sources do not say who arranged the first lecture.",
+  "henri-becquerel.achievement.1":
+    "In 1896, testing a suggestion that luminescent materials might emit X-rays, Becquerel put uranium salts on photographic plates wrapped in black paper and found that the plates were exposed. He then showed that the effect needed no sunlight, that every uranium compound produced it, and that metallic uranium was more active than the salts, establishing that uranium spontaneously emits penetrating rays. This is the discovery of radioactivity.",
+  "henri-becquerel.achievement.2":
+    "In 1899-1900 Becquerel measured the deflection of radium's rays in magnetic fields and showed that part of the radiation consists of negatively charged particles of the kind J. J. Thomson had identified as electrons. In 1901 he showed that uranium purified by chemical treatment regained its radiation over time, an observation that Rutherford and Soddy soon used in their theory of radioactive transformation. He shared the 1903 Nobel Prize in Physics, with half going to him and half to Pierre and Marie Curie.",
+  "henri-becquerel.moment.1":
+    "Becquerel had prepared several exposures with uranium salt on 26 and 27 February 1896, but the Sun shone only intermittently, so he put the packages in a drawer. When the Sun did not return he developed the plates on 1 March, expecting very faint images, and found the outlines very intense. He reported on 2 March that the action had probably continued in the dark. Sources do not agree on why he developed plates he expected to show little.",
+  "henri-becquerel.interpretation.moment.1":
+    "The episode is consistent with a researcher who let an unexpected plate overturn his working idea, though his own note titles kept the word phosphorescence for some weeks, so the revision of his view was gradual.",
+  "henri-becquerel.moment.2":
+    "After his February 1896 reports Becquerel tested whether other luminescent crystals emitted rays and found that only uranium compounds did. He then tried uranium compounds that do not luminesce, tried warming uranyl nitrate in the dark, and tested a disk of pure uranium metal, which he announced on 18 May as three to four times as intense as the salt he had first used.",
+  "henri-becquerel.interpretation.moment.2":
+    "The sequence of tests, each ruling out one explanation of the effect, is consistent with a methodical experimental habit, one drawn here mostly from a single reference biography.",
+  "henri-becquerel.turning_point.1":
+    "In April 1897 Becquerel ended his study of uranic rays, having used only photographic and gold-leaf electroscope methods, and turned to the newly discovered Zeeman effect. Pierre and Marie Curie then took up the subject: Marie Curie measured the rays quantitatively and found that thorium was also active, and the Curies went on to discover polonium and radium. Becquerel returned to radioactivity after the Curies' work drew his attention, and they lent him radium preparations.",
+  "henri-becquerel.interpretation.turning_point.1":
+    "The shift is consistent with a researcher who moved on to whatever looked more promising, and it left the next stage of radioactivity to others; the historians' judgment that he was drawn by the Zeeman effect is one reading among several.",
+  "hermann-weyl.achievement.1":
+    "Between 1925 and 1927 Weyl worked out the representation theory of the continuous semisimple groups, treating Lie groups as whole global objects rather than through local formulae. It produced the Weyl character formula, the Weyl group and, with Fritz Peter, the Peter-Weyl theorem, and he regarded it as his greatest mathematical work. His 1928 book Group Theory and Quantum Mechanics carried the same symmetry methods into the new quantum physics.",
+  "hermann-weyl.achievement.2":
+    "In Space, Time, Matter (1918) Weyl presented general relativity in the language of differential geometry, and in the same year proposed a unified theory of gravitation and electromagnetism built on a gauge, or scale, that varies from point to point. Einstein objected at once that it would make a particle's properties depend on its history, and Weyl himself dropped the theory around 1927 to 1929. The gauge idea returned in quantum theory, and gauge theories are now the framework of the standard model of particle physics.",
+  "hermann-weyl.achievement.3":
+    "Weyl's first book, The Concept of a Riemann Surface (1913), gave the first rigorous treatment of Riemann surfaces, resting on an abstract definition of a surface by neighbourhoods, and became a model for the later theory of manifolds. In 1916 he proved the criterion for equidistribution modulo 1 and the exponential-sum estimate known as Weyl's inequality, which became a basic tool of analytic number theory.",
+  "hermann-weyl.moment.1":
+    "Einstein criticised Weyl's 1918 gauge theory in an appendix to the paper itself, arguing that the size of a particle would depend on its past history. Weyl published it anyway and defended it against Einstein and Pauli for roughly ten years; in a letter to Einstein he wrote that mathematics rather than physics had driven the theory. He gave it up around 1927 to 1929, when the quantum theory of the electron supplied a different gauge invariance that accounted better for the conservation of charge.",
+  "hermann-weyl.interpretation.moment.1":
+    "Keeping a theory for about ten years against objections from Einstein and Pauli, then dropping it when quantum theory offered a better account, is consistent with a middling, slow-moving pattern of belief updating in this profile: his position did change, but on his own mathematical grounds.",
+  "hermann-weyl.moment.2":
+    "In his 1921 essay On the New Foundations Crisis in Mathematics, Weyl wrote that the old order of analysis was itself untenable and called Brouwer's intuitionism the revolution, joining it against his teacher Hilbert, who was upset and answered with a programme of his own. Weyl never used the axiom of choice in his papers, but by 1949 he wrote that intuitionist mathematics leads to an almost unbearable awkwardness in more general theories.",
+  "hermann-weyl.interpretation.moment.2":
+    "Taking Brouwer's side against his own teacher is consistent with the profile's independent thinking, though it was reasoned from his philosophical convictions, and he later qualified the position himself.",
+  "hermann-weyl.turning_point.1":
+    "Until 1913 Weyl's work at Gottingen was almost entirely on integral equations and spectral problems. His 1911-12 lectures on Riemann surfaces drew him into the topology of manifolds, and in 1913 he took a chair at the ETH in Zurich, where Einstein was then working out general relativity. Newman ties these two causes to the widening of his interests; relativity, differential geometry, group theory and quantum mechanics became his main themes over the following years.",
+  "hermann-weyl.interpretation.turning_point.1":
+    "The shift from a single-theme analyst to relativity, geometry and group theory is consistent with the profile's wide cross-domain range, although a new chair and a colleague such as Einstein were circumstances as well as inclination.",
+  "jean-francois-de-la-perouse.achievement.1":
+    "In 1785 Louis XVI chose him to command a scientific voyage of discovery in the Pacific, and he sailed from Brest with the frigates Boussole and Astrolabe. Over the next three years the expedition surveyed the coast of North America between Mount St Elias and Monterey, sailed into the waters between China and Japan as the first European navigator to do so, and found the strait between Sakhalin and Hokkaido that now bears his name.",
+  "jean-francois-de-la-perouse.achievement.2":
+    "He sent charts, journals and reports home from Macao, Kamchatka and Botany Bay, so that the expedition's findings reached France even though the ships were never seen again after leaving Botany Bay in March 1788. Their wrecks were traced to Vanikoro by Peter Dillon in 1826 and Dumont d'Urville in 1828, and the surviving record was published in 1797 as the Voyage de La Pérouse autour du monde with an atlas of 69 plates.",
+  "jean-francois-de-la-perouse.achievement.3":
+    "In 1782, as a naval captain in the American War of Independence, he led a secret strike on the Hudson's Bay Company posts at Fort Prince of Wales and York Factory. Both posts surrendered without a fight, and the Dictionary of Canadian Biography records that he treated his prisoners with great kindness; the campaign earned him a pension and preceded his Pacific command.",
+  "jean-francois-de-la-perouse.moment.1":
+    "At Tutuila in December 1787, de Langle pressed for a second watering party to collect fresh water against scurvy. In his journal La Pérouse recorded a premonition that sending boats inland was imprudent, but agreed because of de Langle's judgement. On 11 December de Langle and eleven others were killed ashore; La Pérouse wrote that he did not fire on the canoes around his ships because he feared mistaking his victims.",
+  "jean-francois-de-la-perouse.interpretation.moment.1":
+    "His account of yielding to a trusted second-in-command against his own unease is consistent with a collaborative style that carried a heavy cost here. The episode is known largely from his own journal, so this reading rests on his report.",
+  "jean-francois-de-la-perouse.moment.2":
+    "Before the voyage ended he arranged for his maps, journals and letters to be carried home from three ports: by the naturalist Dufresne from Macao in January 1787, by the interpreter de Lesseps overland from Kamchatka, and by Lieutenant Shortland from Botany Bay. These dispatches are why the record of the expedition up to March 1788 survives.",
+  "jean-francois-de-la-perouse.interpretation.moment.2":
+    "Forwarding the record at intervals is consistent with careful planning of how the expedition's findings would reach home, though the three dispatches came from a voyage whose reporting duties the king had set.",
+  "jean-francois-de-la-perouse.turning_point.1":
+    "On 13 July 1786, just as the ships were ready to leave Lituya Bay (Port des Français), a sounding party of three boats went out to finish the chart. Two boats were swept away in the current at the bay's entrance and 21 men, including the two Laborde brothers, were lost. La Pérouse had written warning the officer in charge not to approach the entrance; he stayed about two weeks searching, raised a cenotaph on the island and then sailed on. When the news reached France in 1787 it was seen as breaking the king's pledge of a voyage without the loss of a single man.",
+  "jean-francois-de-la-perouse.interpretation.turning_point.1":
+    "Sailing on after a loss of this size is consistent with a persistent streak in the profile. It was also the expedition's ordered mission, and the aftermath of the first deaths was a hard turn for a voyage that had been promised to cost no lives.",
+  "kate-sheppard.achievement.1":
+    "From 1887 Sheppard led the franchise work of the New Zealand Women's Christian Temperance Union, organising petitions that grew from about 9,000 signatures in 1891 to almost 20,000 in 1892 and almost 32,000 in 1893. Sir John Hall presented the 1893 petitions and the Electoral Act, passed on 19 September 1893, made New Zealand the first self-governing country to give women the vote in parliamentary elections. She worked alongside Hall, local franchise superintendents and other women's bodies, and on the day of assent the Premier telegraphed her the news.",
+  "kate-sheppard.achievement.2":
+    "In April 1896 Sheppard was voted the first president of the National Council of Women of New Zealand, which met in Christchurch from 13 to 18 April and which the library calls a world first as a national meeting of women who could vote in parliamentary elections. Its resolutions took in equal divorce conditions, women jurors, old-age pensions and minimum wages. She stepped down from the presidency in 1903 for reasons of ill health.",
+  "kate-sheppard.achievement.3":
+    "Sheppard carried the campaign in print as well as in meetings. She wrote the pamphlet Ten Reasons Why the Women of New Zealand Should Vote, ran a women's page in the temperance magazine The Prohibitionist from 1891 under the pen name Penelope, and edited the Union's White Ribbon journal from 1895 to 1903.",
+  "kate-sheppard.moment.1":
+    "In 1889 Sir John Hall asked Sheppard whether the Union would accept the vote for women who were ratepayers or property-holders first, since members of the House had been counted at 33 for full suffrage and 27 for a property qualification. She put the question to the principal unions by telegram. Most voted for full women's suffrage, and one union, Napier, preferred the property qualification; the Port Chalmers union would accept it only as a fallback. The Union kept to the claim that women were human beings entitled to self-government. This account comes from W. Sidney Smith's 1905 narrative.",
+  "kate-sheppard.interpretation.moment.1":
+    "Consulting the unions before answering a politician's offer of a partial compromise is consistent with the profile's collaboration, although the account does not say how she herself weighed the offer.",
+  "kate-sheppard.moment.2":
+    "In September 1893, after the Legislative Council passed the Electoral Bill, a minority of councillors petitioned the Governor to withhold assent. Sheppard wrote to the Earl of Glasgow on behalf of the 31,000 women whose petition she had forwarded, arguing that the House had affirmed the principle and that voters had returned supporters of it at the last election, and she telegraphed the unions and franchise leagues to press the same case. Brewers and publicans sent a counter-petition, and the daily papers noted that its names had been duplicated. On 19 September Premier Seddon telegraphed her that the Governor had assented.",
+  "kate-sheppard.interpretation.moment.2":
+    "Writing to the Governor and rallying the unions within days of a hostile protest is consistent with the profile's proactive agency, though the sources for the episode are a single friendly 1905 narrative.",
+  "kate-sheppard.turning_point.1":
+    "In 1887 Sheppard, who had joined the Women's Christian Temperance Union at its founding in 1885, was appointed the Union's national superintendent for franchise and legislation, after the American organiser Mary Leavitt had suggested that the Union take up franchise work. Smith describes public feeling at the time as decidedly hostile to votes for women. The post turned a temperance and women's-causes activist into the national organiser of the suffrage campaign, which she led until the Electoral Act of 1893.",
+  "kate-sheppard.interpretation.turning_point.1":
+    "Taking on a national role in a campaign that public opinion then opposed is consistent with the profile's leadership drive, although the post was created by the Union at an outside organiser's suggestion rather than by her alone.",
+  "langston-hughes.achievement.1":
+    "He was a central figure of the Harlem Renaissance and a major American poet who wrote about the lives of working-class Black people in verse shaped by blues and jazz. His poem \"The Negro Speaks of Rivers\" appeared in The Crisis in 1921, his first book, The Weary Blues, in 1926, and his book-length poem Montage of a Dream Deferred (1951) introduced \"Harlem\", the poem that begins by asking what happens to a dream deferred.",
+  "langston-hughes.achievement.2":
+    "He worked well beyond poetry: the novel Not Without Laughter (1930), the story collection The Ways of White Folks (1934), the play Mulatto, which reached Broadway in 1935, and the lyrics for Kurt Weill's opera Street Scene (1947). From the early 1940s his comic Jesse B. Semple (\"Simple\") columns and stories in the Chicago Defender and New York Post reached a wide readership, and the Poetry Foundation calls him the first Black American to earn his living solely from his writing and public lectures.",
+  "langston-hughes.achievement.3":
+    "He also documented Black history and culture. With Arna Bontemps he co-edited the anthologies The Poetry of the Negro (1949) and The Book of Negro Folklore (1958), with Milton Meltzer he wrote A Pictorial History of the Negro in America (1956), and he wrote histories and biographies for young readers. He translated the poetry of Federico Garcia Lorca and Gabriela Mistral, among others.",
+  "langston-hughes.moment.1":
+    "His second book of poems, Fine Clothes to the Jew (1927), was well received by literary magazines and the white press but attacked in the Black press. The Poetry Foundation prints headlines quoted from his memoir The Big Sea, one calling the book trash and another calling him a sewer dweller; Britannica adds that some objected to its title and frankness, while Hughes himself felt it was another step forward in his writing.",
+  "langston-hughes.interpretation.moment.1":
+    "This episode is consistent with independent thinking: he kept to his chosen subject, ordinary Black life, after hostile reviews. The headlines reach us through his own memoir, so the account reflects how he remembered the attacks.",
+  "langston-hughes.moment.2":
+    "In spring 1930 he and Zora Neale Hurston began writing the play Mule Bone, hiring Louise Thompson as typist, and had a first draft by the fall. After Hurston sent a changed version to others under her own claim, the two argued over authorship, and on his copy Hughes wrote that the play was never done because the authors fell out. It was not produced until 1991, and The Henry Ford's curator says how much each wrote remains debatable.",
+  "langston-hughes.interpretation.moment.2":
+    "The episode illustrates the limits of collaboration. His many other partnerships, such as with Arna Bontemps, sit alongside this one in the profile, and the sources do not settle who was at fault.",
+  "langston-hughes.turning_point.1":
+    "In late 1925, while working as a busboy in a Washington hotel, he left three of his poems beside the plate of the poet Vachel Lindsay. Newspapers around the country reported the next day that Lindsay had discovered a Black busboy poet. That year Carl Van Vechten also introduced his poems to the publisher Alfred A. Knopf, who accepted the collection published as The Weary Blues in 1926, and in early 1926 he began studying at Lincoln University.",
+  "langston-hughes.interpretation.turning_point.1":
+    "Reading the sources together, this turning point is consistent with proactive agency: he put his own work in front of a prominent poet. Accounts do not settle how much the publicity mattered compared with Van Vechten's introduction and his 1925 prize from Opportunity magazine.",
+  "maria-gaetana-agnesi.achievement.1":
+    "In 1748-49 Agnesi published Instituzioni analitiche ad uso della gioventù italiana, two volumes covering algebra, analytic geometry, differential and integral calculus and differential equations, written in Italian for students and printed in her own house in Milan with advice from Ramiro Rampinelli and Jacopo Riccati. A 1749 report of the Paris Academy of Sciences called it the most complete and best-made treatise of its kind, and it was later translated into French (the second volume, 1775) and into English by John Colson (published 1801). It is a systematic exposition of existing results, not a book of new mathematics.",
+  "maria-gaetana-agnesi.achievement.2":
+    "After her father died in March 1752, Agnesi devoted herself to the poor and sick. She turned the family house into a hospice; when her brothers' disputes forced her out, she sold the jewelled box and ring given to her by Empress Maria Theresa to open another. From 1771 until her death in 1799 she directed the women's section of the Pio Albergo Trivulzio in Milan, and she died poor.",
+  "maria-gaetana-agnesi.achievement.3":
+    "As a child Agnesi translated into Latin and recited from memory an oration, probably composed by a tutor, defending women's study of the liberal arts (1727). In 1738 she published the Propositiones philosophicae, 191 theses on logic, mechanics, natural philosophy and other subjects that she defended in disputations with invited scholars at her father's house in Milan.",
+  "maria-gaetana-agnesi.moment.1":
+    "On 16 July 1739 the French visitor Charles de Brosses attended one of Agnesi's disputations in Milan, in Latin with a circle of about thirty guests, and wrote that she spoke with great ease and purity. He added that she told him she was sorry the visit had taken the form of a thesis defence and that she did not like to speak publicly of such things (as quoted by MacTutor).",
+  "maria-gaetana-agnesi.interpretation.moment.1":
+    "The remark is consistent with a reluctance to perform in public. It comes from a single visitor's letter, and she took part in these disputations at her father's request, so it shows a preference more than a refusal.",
+  "maria-gaetana-agnesi.moment.2":
+    "When disputes with her brothers made her leave the hospice she had made of her father's house, Agnesi sold the jewelled box and ring the Empress Maria Theresa had given her for the dedication of her book and used the money to found a new hospice for people with mental disabilities (Treccani).",
+  "maria-gaetana-agnesi.interpretation.moment.2":
+    "The sale is consistent with a motivation to use her resources for others' care, and Treccani and the revised Dictionary of Scientific Biography agree on the wider pattern of giving. The sources also describe the choice in religious terms, so it may reflect devotion as much as a wish for practical impact.",
+  "maria-gaetana-agnesi.turning_point.1":
+    "In September 1750 Benedict XIV had the academic senate of Bologna name Agnesi to the university's mathematics chair, an honour that was confirmed to her; she never went to Bologna. Her father died on 19 March 1752, and from then she gave up mathematics for religious study and charity, running a hospice in her house and later the women's section of the Pio Albergo Trivulzio. Her name stayed on the university rolls for decades.",
+  "maria-gaetana-agnesi.interpretation.turning_point.1":
+    "The shift from mathematics to service is consistent with a reordering of what she valued, which the sources describe as a religious vocation freed by her father's death. They do not agree on how far she held a chair at all, and the change was made once, not as a gradual drift.",
+  "marie-anne-paulze-lavoisier.achievement.1":
+    "For about two decades she worked inside Antoine Lavoisier's laboratory. Historians who have examined his fourteen laboratory registers (1772-1788) find her handwriting more often than anyone's but his: from 1773 she indexed, titled, copied and summarised entries, and from the late 1770s she wrote up whole experiments herself. She also made the thirteen copperplate illustrations for his 1789 Traite elementaire de chimie, the book that set out the new chemistry.",
+  "marie-anne-paulze-lavoisier.achievement.2":
+    "In 1788 she translated Richard Kirwan's Essay on Phlogiston, which defended the older combustion theory, so that the French chemists could answer it point by point. The French edition appeared with her translator's preface and with notes by her husband and five other chemists and mathematicians. Specialists say it is not settled whether the three notes credited to her were hers alone, so her part in the argument is documented for the translation and the preface rather than for the refutations.",
+  "marie-anne-paulze-lavoisier.achievement.3":
+    "After her husband and her father were guillotined in 1794, she was arrested and released that August. She went on to recover the proofs of Lavoisier's unfinished Memoires de physique et de chimie and edited the two-volume edition that she circulated informally in 1805, though the project, planned on a larger scale, stayed incomplete. In 1835, a few months before she died, she sent his fourteen laboratory registers to the Academy of Sciences' secretary, Francois Arago, and they are now in the Academy's archives.",
+  "marie-anne-paulze-lavoisier.moment.1":
+    "Between 1790 and 1792 she drew Lavoisier's experiments on human respiration at the Arsenal, a series planned as illustrations for his collected memoirs. The drawings show the subject and the apparatus, and she places herself at the table taking notes.",
+  "marie-anne-paulze-lavoisier.interpretation.moment.1":
+    "Drawing herself as the note-taker is consistent with a working partnership in which she treated recording as part of the experiment, and it shows how a role that rarely appeared in printed papers could be made visible in an image. The sources do not say why she chose to include herself.",
+  "marie-anne-paulze-lavoisier.moment.2":
+    "In 1835, a few months before her death, she noted that she had sent François Arago, the Academy of Sciences' permanent secretary, three boxes holding fourteen bound laboratory registers of her husband, together with other manuscripts and his printed works. The registers she had helped to fill decades earlier had stayed with her through the Revolution, her second marriage and her widowhood.",
+  "marie-anne-paulze-lavoisier.interpretation.moment.2":
+    "Keeping the registers for decades and then placing them in the hands of the Academy is consistent with the profile's persistence, though the sources do not tell us whether she saw it as protecting his reputation, her own record or both.",
+  "marie-anne-paulze-lavoisier.turning_point.1":
+    "On 8 May 1794 her husband and her father, both former tax farmers, were guillotined during the Terror. She was arrested soon afterwards and released in August 1794, destitute according to one reference biography. Her work as his collaborator in the laboratory ended, and over the following years she turned to recovering his papers and arranging their publication.",
+  "marie-anne-paulze-lavoisier.interpretation.turning_point.1":
+    "One reading, consistent with this profile's persistence, is that she redirected her role from laboratory partner to custodian of his work. Financial need, the political climate and her wish to defend his name also shaped what she did, and the sources describe what she did more than why.",
+  "mary-church-terrell.achievement.1":
+    "In July 1896 the Colored Women's League of Washington, which Terrell had founded in 1892, merged with other regional federations of Black women's clubs to form the National Association of Colored Women, and she was elected its first president. She served until 1901, and museum biographies credit her words 'Lifting as we climb' as the association's motto.",
+  "mary-church-terrell.achievement.2":
+    "In 1950, at age 86, Terrell went to Thompson's cafeteria near the White House with companions, was refused service, and with lawyers pursued the matter under District of Columbia anti-discrimination laws of 1872 and 1873 that had never been repealed. On 8 June 1953 the Supreme Court unanimously held those laws still in force, ending restaurant segregation in the capital. The ruling rested on District of Columbia law rather than the Constitution and came a year before Brown v. Board of Education.",
+  "mary-church-terrell.achievement.3":
+    "Terrell was appointed to the District of Columbia Board of Education in 1895, the first Black woman to serve on it, was a charter member of the NAACP in 1909, and co-founded the College Alumnae Club in 1910. In 1904 she addressed the International Congress of Women in Berlin, where the Library of Congress says she was the only American to speak in German.",
+  "mary-church-terrell.moment.1":
+    "On 13 June 1949 a federal appeals court ruled that the Washington branch of the American Association of University Women could exclude her. Nine days later, speaking in Harlem, she said that patience had become a disgraceful vice and urged the use of every legal means to show that people were tired of being pushed around. Within months she began the test case at Thompson's.",
+  "mary-church-terrell.interpretation.moment.1":
+    "Taking up a new case within months of a court defeat is consistent with persistence, though the Thompson's case used a different legal route from the membership suit she had just lost.",
+  "mary-church-terrell.moment.2":
+    "In early 1950 Terrell entered Thompson's cafeteria with the Rev. William Jernagin, union officer Geneva Brown and David Scull, a white Quaker. The manager refused to serve them, saying it was company policy; the group had expected that answer, because a refusal let them file affidavits to challenge segregated restaurants under the old District laws.",
+  "mary-church-terrell.interpretation.moment.2":
+    "Seeking out a refusal in order to build a test case is consistent with acting to shape events rather than waiting for them, though it was a joint effort planned with allies and lawyers.",
+  "mary-church-terrell.turning_point.1":
+    "After the 1906 Brownsville discharges of 167 Black soldiers, Terrell lobbied Secretary of War William Howard Taft, who briefly delayed the order but did not reverse it. In October 1907 in Cleveland she publicly criticised the Roosevelt administration for deserting Black Americans, and supporters of Booker T. Washington in the Black press attacked the speech. The Library of Congress dates her path as a civil rights activist from this affair, while her biographer says she had often held her tongue before it.",
+  "mary-church-terrell.interpretation.turning_point.1":
+    "The speech is consistent with a willingness to accept public criticism for a stand on principle, even while her husband's judgeship depended on presidential reappointment, though the sources do not show how she weighed that cost.",
+  "matteo-ricci.achievement.1":
+    "Ricci arrived in China in 1583 and, with Michele Ruggieri, helped found the Jesuit mission there; from 1597 he led it. He took up the dress and learning of a Confucian scholar, wrote more than twenty works in Chinese, and in 1601 won permission to live in Beijing, where he died in 1610. His method of presenting European learning and Christianity in Chinese terms is known as accommodation.",
+  "matteo-ricci.achievement.2":
+    "In 1602 Ricci and the Chinese scholar Li Zhizao produced the Kunyu wanguo quantu, a six-panel woodblock world map printed in Chinese. It is the oldest surviving Chinese map to show the Americas, and the Bell Library at the University of Minnesota describes it as a true collaboration between Jesuit and Chinese scholars and artisans.",
+  "matteo-ricci.achievement.3":
+    "Ricci and the Chinese official Xu Guangqi translated the first six books of Euclid's Elements into Chinese, published in 1607 as Jihe yuanben. Wang describes it as the first substantial translation of a European text into Chinese; it was followed by further mathematical works written with Xu and with Li Zhizao up to 1614.",
+  "matteo-ricci.moment.1":
+    "For the Euclid translation Ricci dictated the text, working from a 1574 Latin edition with commentary by his Roman College teacher Christopher Clavius, and Xu Guangqi wrote it down in Chinese. The book carries a preface by each of them; in his own preface Ricci urged readers to use it as a ladder to deeper study.",
+  "matteo-ricci.interpretation.moment.1":
+    "A working method in which Ricci supplied the content and a Chinese scholar the written form is consistent with this profile's strong record of joint projects, though Wang also notes that each partner had different aims for the book.",
+  "matteo-ricci.moment.2":
+    "Ricci first reached the walls of Beijing in September 1598 but was blocked by officials and went back to Nanjing. Two years later, with an imperial summons, he and Diego de Pantoja rode into the capital on 24 January 1601 and were granted the right to live there. This is told by a reference biography based on Jesuit sources.",
+  "matteo-ricci.interpretation.moment.2":
+    "Returning to the same goal after a refusal is consistent with a pattern of persistence in this profile, though the account rests on one Jesuit-lineage reference work.",
+  "matteo-ricci.turning_point.1":
+    "At Zhaoqing the first Jesuits had worn Buddhist monks' dress at the prefect's insistence. In 1589, after moving to Shaozhou, Ricci gave it up because it hindered his dealings with Confucian students and took the silk robes and square bonnet of a scholar, from then known as the Doctor from the Great West. The change set the pattern of his approach to Chinese elites for the rest of his life.",
+  "matteo-ricci.interpretation.turning_point.1":
+    "Dropping a first strategy when it did not work and adopting another is consistent with the adaptability seen elsewhere in this profile, though the account comes mainly from the Jesuit tradition and his own memoirs.",
+  "menelik-ii.achievement.1":
+    "Menelik II led the Ethiopian army that defeated an Italian expeditionary force at Adwa on 1 March 1896. After the Italian claim of a protectorate under the Treaty of Wichale, he mobilized roughly 100,000 men and won a battle that Britannica calls the first overwhelming defeat of a European power by African forces in the colonial era. The Treaty of Addis Ababa of 26 October 1896 then cancelled the Wichale treaty and left Ethiopia independent through the Scramble for Africa.",
+  "menelik-ii.achievement.2":
+    "As king of Shewa and then emperor, he extended Ethiopian rule south and east, taking in Harar in 1887, and between 1896 and 1906 the empire reached roughly its present borders. The campaigns brought revenue for the state and the arms trade but also killing and enslavement in the conquered regions, and historians still dispute whether to describe the process as reunification or as colonial conquest.",
+  "menelik-ii.achievement.3":
+    "Menelik's reign opened Ethiopia to modern institutions. The court settled at the new capital Addis Ababa, a national currency and postage stamps were issued in 1894, the Djibouti railway concession was granted that year, telegraph and telephone lines, a bank, schools and a state press followed, and the first cabinet was formed in 1907. Much of this depended on foreign engineers such as Alfred Ilg and on Empress Taytu, and the railway reached Addis Ababa only after his death.",
+  "menelik-ii.moment.1":
+    "In September 1895 Menelik issued the call for mobilization, saying the enemy had been 'eating into our territory like a mole', and an army estimated at 80,000 to 120,000 men gathered from most regions. He led it north with Empress Taytu on a five-month march of nearly 600 miles. By then he had waited for two good harvests to fill the granaries and had built up stocks of weapons through the earlier expeditions.",
+  "menelik-ii.interpretation.moment.1":
+    "The long preparation and the timing of the march are consistent with the profile's planning orientation, though much of the campaign's success also rested on Italian errors, Taytu's strategy at Mekele and resources won in earlier conquests.",
+  "menelik-ii.moment.2":
+    "When the British mission under Rennell Rodd reached Addis Ababa in 1897, Menelik questioned its physician on recent medical discoveries such as antivenin, took a microscope with great interest and asked about X-ray apparatus. When he was told that the apparatus had been left behind for fear it would be thought magic, he laughed and said the priests might have said so in the days of King Yohannes but the country was now more enlightened. The account comes from a member of the mission, an admiring guest.",
+  "menelik-ii.interpretation.moment.2":
+    "The episode is one example consistent with the profile's curiosity about new knowledge and machines, which other writers also describe, though it comes from a single admiring visitor.",
+  "menelik-ii.turning_point.1":
+    "In 1868 a British expeditionary force defeated Emperor Tewodros II at Magdala. Menelik, who had escaped Tewodros's court in 1865 and ruled Shewa, stayed neutral and did not join the British, and the imperial crown passed to the Tigrayan Kassa, who became Yohannes IV with British arms. His biographer Harold Marcus calls this a serious strategic blunder, and in the years that followed Menelik turned to Italy and France for weapons and to Europeans for technology and engineers.",
+  "menelik-ii.interpretation.turning_point.1":
+    "The shift from missing the moment in 1868 to cultivating European suppliers is consistent with the profile's adaptability, though the learning-from-a-mistake account rests mainly on one biographer.",
+  "mirza-taqi-khan-amir-kabir.achievement.1":
+    "As chief minister to Naser al-Din Shah from October 1848 to November 1851, Amir Kabir took over a bankrupt Qajar state and reorganized it. He set a budget, cut civil-service salaries and idle pensions, made the state collect customs duties directly, enlarged the army to almost 140,000 men on a regular footing, built arms factories and forbade the army's arbitrary requisitioning from civilians. Iranica calls these reforms the major achievement of his brief ministry.",
+  "mirza-taqi-khan-amir-kabir.achievement.2":
+    "He founded the Dar al-Fonun in Tehran, the first institution of modern learning in Iran, and the official newspaper Waqaye-ye Ettefaqiyeh. He sent instructions for recruiting European instructors in 1850 and had the college building started; the instructors reached Tehran two days after his dismissal and the college opened on 29 December 1851 under others. It taught medicine, mathematics and natural sciences and became a lasting monument to him.",
+  "mirza-taqi-khan-amir-kabir.achievement.3":
+    "In foreign policy he refused concessions to both Britain and Russia and avoided alignment with either, a course Iranica calls 'negative equilibrium'. He cancelled a Russian trade centre and hospital at Astarabad, tried to end Russia's occupation of an island in the Caspian and restricted British claims in the Persian Gulf, and sought ties with Austria and the United States, while clashing repeatedly with the Russian and British envoys.",
+  "mirza-taqi-khan-amir-kabir.moment.1":
+    "During about four years on the Ottoman-Iranian frontier commission at Erzurum in the 1840s, Mirza Taqi Khan was, according to Iranica, the most forceful member of the Iranian team. He resisted attempts to exclude Mohammareh from Iranian sovereignty and to make Iran pay compensation, and he acted almost independently of a Tehran government that opposed most of his initiatives. The British commissioner Robert Curzon called him the most interesting person among the commissioners.",
+  "mirza-taqi-khan-amir-kabir.interpretation.moment.1":
+    "The episode is consistent with the profile's tolerance for conflict, as he held a position against several states and against his own capital, though the account follows Iranian scholarship and a British commissioner's praise.",
+  "mirza-taqi-khan-amir-kabir.moment.2":
+    "In the capital Amir Kabir first tried to replace the religious courts by sitting in judgment himself on cases brought before him. According to Iranica he abandoned the attempt when he realized that his limited legal knowledge had led him to pronounce incorrect verdicts, and he then controlled the religious courts indirectly through the state's own tribunal.",
+  "mirza-taqi-khan-amir-kabir.interpretation.moment.2":
+    "Giving up a plan once its flaw was clear is one example consistent with the profile's willingness to revise, though it rests on a single scholarly entry.",
+  "mirza-taqi-khan-amir-kabir.turning_point.1":
+    "On 16 November 1851 the young Naser al-Din Shah dismissed Amir Kabir as chief minister, and five days later he was stripped of his other titles and functions. He was sent under guard to Kashan and put to death in a bathhouse at Fin on 10 January 1852. The reform programme lost its driving figure, and the Dar al-Fonun he had planned opened only after his fall.",
+  "mirza-taqi-khan-amir-kabir.interpretation.turning_point.1":
+    "Sources differ on the causes. Iranica stresses the intrigues of rivals and the queen mother, while a British observer of the time also points to his pride toward the Shah; the profile's assertiveness is consistent with part of the second reading, but court politics and foreign pressure were multi-causal.",
+  "nellie-melba.achievement.1":
+    "Born Helen Porter Mitchell in Melbourne, she took the stage name Melba from her home city, made her opera debut in Brussels in October 1887 and became Covent Garden's leading soprano. After a poorly received first season in 1888 she triumphed there on 15 June 1889 and kept her place for nearly 40 years, giving her Covent Garden farewell on 8 June 1926.",
+  "nellie-melba.achievement.2":
+    "She was one of the first great singers to be preserved on record. From 1904 she made well over a hundred recordings, and on 15 June 1920 she sang in a direct radio broadcast from the Marconi works at Chelmsford. Critics praised the evenness and purity of her voice across nearly three octaves.",
+  "nellie-melba.achievement.3":
+    "Australia's first international classical celebrity, she toured every Australian state in 1902 and in 1909 travelled about 16,000 km through country towns with low ticket prices. During the First World War she raised more than 100,000 pounds for war charities and was made a Dame Commander of the British Empire in 1918.",
+  "nellie-melba.moment.1":
+    "On 30 December 1896 she sang Brunnhilde in Wagner's Siegfried at the Metropolitan Opera, her only role in the Ring cycle. The performance became known as one of the most discussed fiascos in the house's history, left her light voice strained, and was followed by months of vocal rest.",
+  "nellie-melba.interpretation.moment.1":
+    "The episode is consistent with a willingness to take a career risk outside her proven repertoire, though the sources only speculate about why she accepted the role and also describe her later careful handling of her voice.",
+  "nellie-melba.moment.2":
+    "Her May 1888 Covent Garden debut as Lucia drew little publicity and was less successful than hoped, and she left for the Continent saying she would not return. After her patron Lady de Grey wrote to her repeatedly, she came back and, on 15 June 1889, sang Juliette in Roméo et Juliette to a packed house; she later dated her London success to that night.",
+  "nellie-melba.interpretation.moment.2":
+    "The sequence is consistent with sustained drive to establish herself in London, but the return was prompted by a patron's persistence and promises of better arrangements, so it shows her ambition together with the support she relied on.",
+  "nellie-melba.turning_point.1":
+    "In January 1884 Melba boarded a ship from Queensland to Melbourne with her infant son, leaving her husband Charles Armstrong at the plantation after quarrels about her wish for a singing career, and never returned to Mackay. In Melbourne she resumed lessons with Pietro Cecchi and gave her first serious concert in May 1884.",
+  "nellie-melba.interpretation.turning_point.1":
+    "The move redirected her life from a Queensland marriage towards the European career that followed and is consistent with a strong need to direct her own course; the account comes from a single biographical tradition, and her husband's eventual agreement is also recorded.",
+  "ole-r-mer.achievement.1":
+    "While working at the Paris Observatory he studied the eclipses of Jupiter's moon Io. In September 1676 he told the Academy of Sciences that the eclipse due on 9 November would come about ten minutes later than earlier eclipses implied, it did, and he explained the delay as the time light needs to cross the widening distance between Earth and Jupiter. It was the first scientific demonstration that light travels at a finite speed. His own figure was too large, and Academy records show Cassini had floated the same idea in August 1676 before dropping it.",
+  "ole-r-mer.achievement.2":
+    "He designed instruments throughout his career: a micrometer for measuring small differences in position, a planetarium and an eclipsarium made in Paris in 1678-79 to his designs, and in Copenhagen a transit instrument with a graduated circle, the first model of the meridian circle used in later observatories. He also devised a thermometer graduated between two fixed points, the freezing and boiling of water, and Daniel Fahrenheit, who visited him in 1708, said he had adopted many of Rømer's ideas. Most of his observations were lost in the 1728 Copenhagen fire.",
+  "ole-r-mer.achievement.3":
+    "After returning to Copenhagen in 1681 he led a series of technical reforms for King Christian V. They included the 1683 ordinance on weights and measures, which tied the pound to a cubic foot of water, and improvements to Copenhagen's paving, street lighting, water supply and fire service. He also advised on Denmark's move to the Gregorian calendar, in force in 1700.",
+  "ole-r-mer.moment.1":
+    "On 20-23 October 1706 he carried out three days of observations at his Tusculanum observatory and had five copies of the record made. Those copies survived the 1728 Copenhagen fire that destroyed the rest of his notebooks, and in 1760 Tobias Mayer compared them with his own observations to detect the motion of stars across the sky for the first time.",
+  "ole-r-mer.interpretation.moment.1":
+    "Making several copies of a three-day run is consistent with the profile's sustained commitment to exact observation. The sources do not say why he chose that run to copy.",
+  "ole-r-mer.moment.2":
+    "In 1703 Leibniz sent him a diploma as honorary member of the new Berlin academy and urged him to publish. Rømer replied, according to the Danish national biography, that he had not written about his observations partly for lack of time and because writing was hard for him, and that whenever he tried to describe his work something was missing or could be done better. He left seventeen notebooks of unworked observations and published almost nothing after 1676.",
+  "ole-r-mer.interpretation.moment.2":
+    "His reply is consistent with a reluctance to release work he felt was unfinished, though the same biographer also points to lack of time and growing distrust of his own instruments. It rests on one letter reported by one author.",
+  "ole-r-mer.turning_point.1":
+    "In 1671 Rømer helped Jean Picard, sent by the French Academy of Sciences, observe eclipses of Jupiter's first moon from Tycho Brahe's island of Hven to fix the longitude of Tycho's old observatory. Picard persuaded him to come to Paris, where he lived at the new Royal Observatory for nine years, and the 1676 result on the speed of light came out of that work.",
+  "ole-r-mer.interpretation.turning_point.1":
+    "The move placed him inside the Paris observatory's Jupiter-moon programme, which made the 1676 result possible. It is consistent with the profile's mastery-oriented pattern, though the invitation came from Picard and the sources do not show what Rømer weighed in accepting.",
+  "qiu-jin.achievement.1":
+    "In February 1907 Qiu Jin took over the Datong School in Shaoxing, which Xu Xilin had opened as a front for training revolutionaries, drilled its students and activists, and organised the Restoration Army for a rising that she first set for early July and then put back to 19 July. After Xu's failed attempt in Anhui on 6 July, troops raided the school in mid-July; she refused to flee, was captured, would not confess under torture and was beheaded on 15 July 1907. The rising never took place, but her execution made her the best-known woman martyr of the late Qing.",
+  "qiu-jin.achievement.2":
+    "Qiu Jin used speech and print to press for women's education, unbound feet and equal rights. In Tokyo in 1904-05 she spoke at student meetings and wrote against foot-binding for the Vernacular Journal; back in Shanghai she founded the Chinese Women's Journal, whose first issue appeared on 14 January 1907 with her editorial calling on women to lead in civilisation. Funds ran short and only two issues were published, but her friend Xu Zihua helped finance it and it was later folded into a larger women's periodical.",
+  "qiu-jin.achievement.3":
+    "Qiu Jin also wrote poetry, including verses on swords, on the loss of the country and on women's rights. In 1906 she copied out about 150 short pieces for friends in Shanghai, which were printed after her death as her collected remains, and her daughter later edited her poems, which were repeatedly reprinted.",
+  "qiu-jin.moment.1":
+    "In 1904, while saving money for her studies in Japan, Qiu Jin sent a large part of it to help an imprisoned reformer of 1898 whom she did not know, asking the messenger not to give her name. This is recorded in the memoir of her friend Wu Zhiying, discussed in a scholarly study and repeated in an early English biography.",
+  "qiu-jin.interpretation.moment.1":
+    "The episode is consistent with a readiness to give up her own immediate interest for a cause, though it rests on one close friend's memoir.",
+  "qiu-jin.moment.2":
+    "In July 1907, after news arrived of Xu Xilin's failed rising in Anhui, students and visitors urged Qiu Jin to leave Shaoxing, but she stayed at the Datong School. Troops raided it, she was taken prisoner with several others, and before the magistrate she would not answer questions or write a confession, setting down only a line of poetry about autumn rain and wind. This account follows early biographies and a Republican-era chronicle; later retellings added details that scholars treat with caution.",
+  "qiu-jin.interpretation.moment.2":
+    "Staying and keeping silent is consistent with a high tolerance for personal risk, although the martyr tradition shaped how these days were told and her motives are not recorded in her own words.",
+  "qiu-jin.turning_point.1":
+    "In the spring of 1904 Qiu Jin, then married to an official's son and living in Beijing with two children, left her husband, sold her jewellery and travelled to Japan to study. In Tokyo she joined student societies, lectured, and by 1905 had joined a revolutionary league; she later returned to China and turned from study to organising a rising. Before 1904 she had voiced her frustration in verse; afterwards her life was given to women's education and armed conspiracy until her death three years later.",
+  "qiu-jin.interpretation.turning_point.1":
+    "The departure marks a clear change of course from the life arranged for her; it is consistent with a strong need for self-direction, though sources differ on dates and some accounts of her clothing and persona in Japan may be partly strategic.",
+  "sofonisba-anguissola.achievement.1":
+    "Born into a noble family in Cremona, Anguissola trained with Bernardino Campi from about 1545 and then with Bernardino Gatti, and became one of the most celebrated woman painters of her time, mostly through portraits of her family. Vasari, writing in 1568, praised her picture of her sisters playing chess for making them seem alive, and later writers see it as an early example of the conversation piece.",
+  "sofonisba-anguissola.achievement.2":
+    "In 1559 Philip II of Spain invited her to Madrid, where she spent more than a decade as lady-in-waiting and drawing teacher to Queen Elisabeth of Valois and painted portraits of the king and of members of the royal family. After the queen died in 1568 she stayed at the king's request to help educate the infantas. Most of her Spanish work is lost or was long attributed to other painters, so her court portraits survive only in part.",
+  "sofonisba-anguissola.achievement.3":
+    "Anguissola painted more than a dozen self-portraits across a career of about seventy years, from the small panel of around 1554 in which she points to her name in a book to the picture of herself at her easel and a late portrait made around 1620. They are among the best-known parts of her work and an unusually large set for a woman of her time.",
+  "sofonisba-anguissola.moment.1":
+    "According to a 1562 letter from a friend of Michelangelo to Cosimo I de' Medici, Michelangelo, having seen her drawing of a laughing girl, said he would like to see a weeping boy, which is harder, and she sent a drawing of her brother made to cry. Vasari also records that a drawing of hers showing a child laughing at a boy pinched by a crab was sent to Cosimo together with one by Michelangelo. The exchange ran through her father.",
+  "sofonisba-anguissola.interpretation.moment.1":
+    "Answering a master's challenge with a drawing that holds laughter and tears together is consistent with the profile's creative originality, though the exchange was arranged by her father and the reported words come from an intermediary.",
+  "sofonisba-anguissola.moment.2":
+    "In 1624 Anthony van Dyck visited Anguissola in Palermo and drew her in his Italian Sketchbook, noting that she was in her nineties. He wrote that she gave him several hints while he drew, talked about her life and about painting, and that her greatest sorrow was no longer being able to paint because of failing eyesight.",
+  "sofonisba-anguissola.interpretation.moment.2":
+    "Still discussing the principles of painting with a young painter in her nineties is consistent with the profile's mastery orientation, though the account rests on his notes alone.",
+  "sofonisba-anguissola.turning_point.1":
+    "In 1559, on the recommendation of Spanish officials in Milan, Philip II invited Anguissola to his court, and she left Italy for Madrid in the winter of 1559-60. Until then she had worked mainly in Cremona on portraits of family and friends; in Spain she painted formal royal portraits, which a scholarly summary describes as a marked change in style that kept more of the sitter's personality than official models did.",
+  "sofonisba-anguissola.interpretation.turning_point.1":
+    "Moving from family portraits in Cremona to the formal conventions of the Spanish court is consistent with the profile's adaptability, though the move itself came from the king's invitation and not her own initiative.",
+  "sophia-jex-blake.achievement.1":
+    "In 1869 Jex-Blake applied to study medicine at the University of Edinburgh. When the University Court refused to arrange teaching 'in the interest of one lady', she advertised in newspapers for other women, and six came forward. The seven matriculated in 1869, which the National Archives describes as the first group of enrolled women undergraduates at any British university; the University later refused them degrees, and the Court of Session ruled in 1873 that it had not had the power to admit them.",
+  "sophia-jex-blake.achievement.2":
+    "Jex-Blake was the driving force behind the London School of Medicine for Women, which opened with fourteen students on 12 October 1874 and, from 1877, sent its students to the Royal Free Hospital for clinical training. She also worked behind the scenes on the Russell Gurney Enabling Act of 1876, which let examining bodies admit women, and in 1877 took an MD at Berne and a licence from the Irish College of Physicians, becoming the third woman on the British medical register.",
+  "sophia-jex-blake.achievement.3":
+    "From 1878 she practised in Edinburgh and opened a clinic for poor women in Grove Street that grew into the Edinburgh Hospital and Dispensary for Women. In 1886 she founded the Edinburgh School of Medicine for Women; by the time it closed in the late 1890s it had educated about 80 women, 53 of whom reached the medical register (National Archives).",
+  "sophia-jex-blake.moment.1":
+    "On 18 November 1870 Jex-Blake and the other women walked to Surgeons' Hall in Edinburgh for their anatomy examination and found a crowd of several hundred men and onlookers in the road. The gates were shut in their faces and they were pelted with mud, and they were helped inside by others, described in the sources variously as university janitors or friendly male students; they sat the examination.",
+  "sophia-jex-blake.interpretation.moment.1":
+    "The episode is consistent with persistence under open hostility, though it was a group of seven women, helped by others, and not one person's stand.",
+  "sophia-jex-blake.moment.2":
+    "At the Royal Infirmary's annual meeting in St Giles' on 2 January 1871, Jex-Blake spoke against the managers who had refused the women hospital teaching and said that the riot was not due to students alone, adding that Professor Christison's class assistant had been among its leaders. The assistant sued for libel; in 1871 the jury found for him but awarded one farthing in damages, and she was left with legal costs of about 915 pounds, which a public subscription and her brother helped to cover (Todd, quoting contemporary newspapers).",
+  "sophia-jex-blake.interpretation.moment.2":
+    "This is consistent with a high tolerance for conflict, including a readiness to name opponents in public and accept legal and financial consequences. Todd herself calls part of the speech a direct personal attack and Jex-Blake said she had been told of the assistant's conduct, so the episode also shows what the stance could cost her.",
+  "sophia-jex-blake.turning_point.1":
+    "In 1873 the Court of Session reversed a ruling in the women's favour and held that Edinburgh University had acted beyond its powers in admitting them, closing the route to a degree there. Within about a year Jex-Blake had helped found the London School of Medicine for Women, which opened in October 1874; in 1877, after the 1876 Enabling Act, she qualified at Berne and in Ireland and was registered.",
+  "sophia-jex-blake.interpretation.turning_point.1":
+    "The shift from trying to change one university to building parallel institutions and finding qualification routes abroad is consistent with resourcefulness when a route is closed. It was a collective effort with other women, supporters and Parliament, and the sources do not say who proposed each step.",
+  "zitkala-sa.achievement.1":
+    "From 1900 Zitkala-Sa published autobiographical essays and stories in the Atlantic Monthly and Harper's Monthly that described Dakota childhood and the boarding-school experience, and in 1901 she published Old Indian Legends, a collection of Dakota stories retold in English. In 1913 she wrote the libretto and songs for The Sun Dance Opera with William F. Hanson, which the National Park Service calls the first American Indian opera.",
+  "zitkala-sa.achievement.2":
+    "Zitkala-Sa was secretary of the Society of American Indians from 1916 and edited its American Indian Magazine in 1918-19, and she lectured and pressed women's organisations to support citizenship and the vote for Native people. In 1926 she and her husband founded the National Council of American Indians, and she served as its president until her death in 1938. Historian Cathleen Cahill credits the 1924 Indian Citizenship Act to the advocacy of many Native people and to wider political currents, of which her work was one part, and notes that several states went on to block Native voters.",
+  "zitkala-sa.achievement.3":
+    "In 1924 Zitkala-Sa was a co-author, with Charles Fabens and Matthew Sniffen, of Oklahoma's Poor Rich Indians, a pamphlet issued by the Indian Rights Association that reported members of the Five Civilized Tribes were being robbed of their estates through county probate courts. Britannica says her investigation of land swindles led to her appointment as an adviser to the federal Meriam Commission of 1928.",
+  "zitkala-sa.moment.1":
+    "In June 1918 Zitkala-Sa spoke at the National Woman's Party headquarters, and she addressed other women's groups in a buckskin dress with Native accessories that she called her drawing card. Historian Cathleen Cahill reports that she used these talks to describe the powers of reservation superintendents over a people with no say in their own land or money, and to stress the concerns of the Indian woman of today.",
+  "zitkala-sa.interpretation.moment.1":
+    "The episode is consistent with a speaker who shaped her presentation to draw in audiences while steering the content toward her own aims, though it rests on one historian's account.",
+  "zitkala-sa.moment.2":
+    "Zitkala-Sa taught music and speech at the Carlisle Indian School from about 1900 while publishing essays in national magazines that criticised the treatment of Native children in boarding schools. She left in 1901; the National Park Service and EBSCO say she was dismissed after a story in Harper's, while the New-York Historical Society says she left.",
+  "zitkala-sa.interpretation.moment.2":
+    "Publishing criticism while employed by the institution is consistent with a willingness to accept conflict with an employer, though the sources disagree about whether she resigned or was dismissed.",
+  "zitkala-sa.turning_point.1":
+    "Congress passed the Indian Citizenship Act in 1924, but some states used literacy tests, at-large elections and rules about land held in federal trust to keep Native people from voting. In 1926 Zitkala-Sa and her husband formed the National Council of American Indians and for three summers travelled to Native communities to hear concerns, discuss legislation and register voters.",
+  "zitkala-sa.interpretation.turning_point.1":
+    "Founding a new organisation after a partial legislative win is consistent with persistence, though the sources give only a brief account of what the council achieved.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -29227,6 +29689,468 @@ export const EDITORIAL_KO: Record<string, string> = {
     "1742년 스승 하야노 하진이 세상을 떠난 뒤 약 10년을 떠돌던 그는 1751년, 서른다섯 살 무렵에 교토에 정착했다. 당시에는 시인으로도 화가로도 거의 알려지지 않았다. 그는 이곳에서 약 10년 동안 주로 그림에 힘썼고, 1766년에 하이카이 모임을 만들었으며, 1770년에는 스승의 문파를 이어받아 종장이 되었다.",
   "yosa-buson.interpretation.turning_point.1":
     "이 흐름은 이른 성공이 아니라 인생 후반에 걸쳐 기량과 위상이 천천히 쌓여 간 프로필과 부합한다.",
+  "anagarika-dharmapala.achievement.1":
+    "다르마팔라는 힌두교 마한트(사제)의 손에 있던 보드가야의 불교 성지를 불교도에게 되돌리려는 뜻에서, 1891년 5월 31일 콜롬보에서 마하보디 협회를 세우고 이듬해 캘커타로 옮겼으며 1892년 1월 협회지를 창간했다. 1895년 2월 일본에서 온 불상을 사원에 안치하려다 막힌 뒤 소송을 냈고, 캘커타 고등법원은 불교도에게도 힌두교도와 같은 예배의 권리가 있다고 판단했지만 협회에 성지를 넘겨주지는 않았다. 불교도가 사원 관리에 참여하게 된 것은 그가 세상을 떠난 뒤인 1949년이었다.",
+  "anagarika-dharmapala.achievement.2":
+    "다르마팔라는 스물아홉 살이던 1893년 남방(상좌부) 불교의 대표로 시카고 세계종교의회에 참석해 「세계가 붓다에게 진 빚」과 「불교와 기독교」를 연설했다. 귀로에 하와이의 후원자 메리 포스터를 만났고, 그는 약 40년 동안 그의 활동을 후원했다. 이후 수십 년 동안 아시아와 미국, 유럽을 돌며 활동했고 1926년 런던에 영국불교선교회를 세웠다.",
+  "anagarika-dharmapala.achievement.3":
+    "다르마팔라는 스리랑카와 인도에서 불교 생활을 뒷받침할 기관들도 세웠다. 농촌 학교와 사르나트의 실업학교, 1914년 문을 연 무료 병원, 1906년 시작한 싱할라어 주간지, 1898년의 재가자 규범 『기히비나야』가 그것이다. 협회는 1915년부터 1920년까지 캘커타에 비하라를 지었고 인도 정부가 이곳에 붓다의 사리 일부를 건넸으며, 사르나트의 물라간다쿠티 비하라는 1922년에 착공해 1930년에 완공했다. 1898년의 대학 등 그의 계획 여러 가지는 실패했고, 그가 길러 낸 사미 가운데 상당수도 끝까지 남지 못했다.",
+  "anagarika-dharmapala.moment.1":
+    "1895년 2월 25일, 마한트에게서 사원을 사들이려던 시도가 실패하자 다르마팔라는 동료 세 명과 함께 마하보디 사원 위층에 일본 불상을 안치하려 했지만 마한트의 사람들이 막고 불상을 치워 버렸다. 스리랑카의 지지자들이 화해를 권했는데도 그는 법정에 문제를 가져갔다. 캘커타 고등법원은 1895년 8월 불교도에게 예배의 권리가 있다고 판단하면서도, 그가 스스로 법을 자기 손에 쥐었다고 지적했다.",
+  "anagarika-dharmapala.interpretation.moment.1":
+    "이 일화는 목표를 위해 공개적인 대립을 마다하지 않는 성향과 어울린다. 비판자들은 같은 사건을 불필요하게 공격적이었다고 읽고 법원의 판단도 양쪽으로 해석될 수 있어, 양면적인 특성으로 보는 것이 맞다.",
+  "anagarika-dharmapala.moment.2":
+    "1915년 5월 실론에서 폭동이 일어난 뒤 식민 당국은 다르마팔라가 스리랑카로 돌아오지 못하도록 막았고, 협회의 연표는 그가 1915년 6월부터 캘커타에 억류되었다고 기록한다(다른 글은 그의 이동이 약 7년 동안 제한되었다고 쓴다). 그 시기에 협회는 캘커타에서 비하라 건립을 시작했고, 1916년 인도 정부로부터 붓다의 사리 일부를 건네받기로 했고, 1920년 11월 사리를 행렬로 모셔 와 문을 열었다.",
+  "anagarika-dharmapala.interpretation.moment.2":
+    "제약 속에서도 건립을 이어 간 모습은 끈기와 어울리지만, 날짜는 협회 자신의 연표에서 온 것이고 이 자료들은 제약의 원인을 따로 검토하지 않는다.",
+  "anagarika-dharmapala.turning_point.1":
+    "1891년 1월 2일 다르마팔라는 보드가야를 찾아 버려진 사원의 모습을 보고 보리수 앞에서 그곳을 구하는 데 목숨을 바치겠다고 서원했다. 그전까지는 콜롬보에서 신지학회 불교 부문의 학교와 출판 일을 맡아 왔는데, 다섯 달 만에 마하보디 협회를 세웠고 이후 약 40년 동안 그는 실론과 인도를 오가며 모금과 포교를 위해 해외를 길게 순회했다.",
+  "anagarika-dharmapala.interpretation.turning_point.1":
+    "이 서원은 지역의 교육 활동에서 스스로 택한 국제적 운동으로 방향을 바꾼 분명한 전환점이며 강한 주도성과 어울린다. 일부 학자는 이를 성지에 대한 걱정만이 아니라 붓다 자신의 서원을 본뜬 것으로 읽는다.",
+  "andrea-palladio.achievement.1":
+    "그는 비첸차의 궁전들과 빌라 로톤다를 비롯한 베네토 지방의 여러 빌라를 설계했고, 고전 신전의 정면 구성을 주택의 포르티코로 응용했다. 첫 주요 공공 건축 의뢰는 비첸차 시청사(바실리카)를 둘러싼 아케이드 회랑으로, 1549년에 착공되었다. 유네스코는 비첸차에 있는 그의 건물 23채와 빌라 24채를 세계유산으로 등재했다.",
+  "andrea-palladio.achievement.2":
+    "1570년 베네치아에서 『건축 4서(I quattro libri dell'architettura)』를 출간해 고전 오더와 주택 설계, 자신의 건축 작품을 체계적으로 정리했다. 이 책은 널리 모방된 건축 안내서가 되어 팔라디오주의를 낳았고, 이 양식은 잉글랜드와 아일랜드, 미국 식민지로 퍼졌다.",
+  "andrea-palladio.achievement.3":
+    "베네치아에서는 산 조르조 마조레 성당과, 역병 이후 1576년 베네치아 원로원이 건립을 의결한 레덴토레 성당을 설계했으며, 수도원 식당과 베네치아 귀족 가문의 여러 의뢰도 맡았다.",
+  "andrea-palladio.moment.1":
+    "1546년 가을부터 1547년 7월까지 그는 약 8개월간 로마에 머물며 티볼리, 팔레스트리나, 포르토, 알바노의 유적을 연구했고, 1554년에는 이어서 로마 고대 유적 안내서를 펴냈다. 그는 건축서 서문에서 여러 차례의 여행에서 유적을 부분 하나하나 실측했다고 밝힌다.",
+  "andrea-palladio.interpretation.moment.1":
+    "유적 연구에 긴 시간을 들인 기록이 남아 있다는 점은 자기 분야를 깊이 익히려는 강한 의욕과 일치하지만, 얼마나 정밀하게 실측했는지에 관한 설명은 본인의 말이다.",
+  "andrea-palladio.moment.2":
+    "1554년 그는 두칼레 궁전의 황금 계단 설계 경쟁에서 야코포 산소비노에게 패했고 베네치아의 정규직 자리에서도 밀려났다. 그럼에도 베네치아 귀족 의뢰인들은 계속해서 그에게 빌라와 성당 설계를 맡겼다.",
+  "andrea-palladio.interpretation.moment.2":
+    "눈에 띄는 경쟁에서 패한 뒤에도 같은 도시를 위해 계속 일한 점은 좌절 속에서도 일을 이어 간 모습과 나란히 놓이지만, 그가 어떻게 반응했는지는 자료에 거의 나와 있지 않다.",
+  "andrea-palladio.turning_point.1":
+    "1538년부터 그는 비첸차의 인문주의자 잔조르조 트리시노와 교류한 기록이 남아 있으며, 트리시노는 그에게 자신의 서재와 고전 저자들을 접할 기회를 주었다. 그 전까지 그는 석공 도제였다가 비첸차 작업장의 석공으로 일했으나 이후 점차 건축가로서 일하게 되었고, 다만 이 변화는 단계적으로 이루어졌다.",
+  "andrea-palladio.interpretation.turning_point.1":
+    "후원자의 서재와 자신의 작업이 결합된 점은 가까운 관계를 통해 배우는 면이 있었음을 시사하는 이 프로필과 일치하지만, 트리시노가 일상적으로 어떻게 가르쳤는지는 자료에 나와 있지 않다.",
+  "angelica-kauffman.achievement.1":
+    "카우프만은 1768년 왕립미술원 설립 당시 36명의 창립 회원 가운데 두 여성 중 한 명이었고, 로마로 떠나기 전까지 해마다 그곳에 작품을 출품했다. 여성이었기에 위원회 회의와 만찬에 참석하거나 실제 모델을 보고 그릴 수 없었다.",
+  "angelica-kauffman.achievement.2":
+    "그녀는 당시 최고의 장르로 여겨진 역사화를 경력의 중심에 두었고, 초상화와 신화화로 유럽에서 가장 많은 주문을 받는 화가 가운데 한 명이 되었다. 1778~80년 왕립미술원은 그녀에게 '발명', '소묘', '구성', '채색'을 여성으로 형상화한 천장화 네 점 「예술의 요소」를 의뢰했다.",
+  "angelica-kauffman.achievement.3":
+    "1782년 로마로 옮긴 뒤 그녀의 작업실과 살롱은 그랜드 투어 여행자들이 들르는 명소가 되었고, 그녀는 런던에도 계속 그림을 보냈다. 1807년 그녀가 세상을 떠난 뒤 판테온의 라파엘로 흉상 곁에 그녀의 흉상이 놓였다.",
+  "angelica-kauffman.moment.1":
+    "1775년 카우프만은 왕립미술원 원장과 위원회에 편지를 보내, 그녀와 조슈아 레이놀즈의 관계를 조롱한다고 알려진 너새니얼 혼의 「마술사」의 전시에 항의하며 자신의 작품을 철수시키겠다고 밝혔다. 전시 선정 위원회는 혼의 그림을 철거했다.",
+  "angelica-kauffman.interpretation.moment.1":
+    "이 일화는 자신이 부당하게 대우받았다고 느낄 때 소속 기관에 맞설 의지가 있었음과 부합하지만, 대체로 신중했다고 묘사되는 경력 가운데 기록된 단 한 번의 사건이다.",
+  "angelica-kauffman.turning_point.1":
+    "1766년 카우프만은 웬트워스 부인의 초청으로 이탈리아를 떠나 런던으로 갔고, 이때 처음으로 아버지와 떨어졌다. 몇 달 만에 왕실의 후원과 레이놀즈와의 우정을 얻었고, 2년 뒤에는 왕립미술원의 창립 회원이 되었다.",
+  "angelica-kauffman.interpretation.turning_point.1":
+    "이 이주는 가릭 초상을 런던 전시에 미리 보내는 등 도착을 준비한 기록과 함께 놓이며, 행운뿐 아니라 주도성과도 부합한다.",
+  "berthe-morisot.achievement.1":
+    "모리조는 인상주의 그룹의 창립 전시 참여자였고, 1874년 첫 전시에 참여한 화가 30명 가운데 유일한 여성이었다. 그 전시에 <요람>을 비롯해 열 점을 출품했다. 이후 여덟 차례의 그룹전 가운데 한 번을 뺀 모든 전시에 참여했고, 마르모탕 미술관은 그를 모네, 르누아르, 드가, 피사로와 나란히 이 그룹의 주요 구성원이자 최초의 여성 인상주의자로 소개한다.",
+  "berthe-morisot.achievement.2":
+    "모리조의 회화, 파스텔, 수채화는 빛과 야외 풍경, 그리고 주변 여성과 아이들의 삶을 중심으로 했다. <요람>(1872), 니스의 항구 풍경, 딸 쥘리를 그린 많은 그림이 그 예다. 1880년경 밑칠하지 않은 캔버스를 쓰기 시작한 일도 도움이 되어 붓질은 점차 느슨해졌다. 마르모탕 미술관은 그의 후손들이 기증한 세계 최대의 작품 컬렉션을 소장하고 있다.",
+  "berthe-morisot.achievement.3":
+    "1886년 모리조는 여덟 번째이자 마지막 인상주의 전시에서 중심 역할을 했다. 카유보트가 빠지고 드가가 망설이는 상황에서 전시 비용을 댈 수 있는 사람은 그뿐이었고, 쇠라와 시냐크를 비롯한 새 참가자들의 신청도 그에게 올라갔다. 전시는 1886년 5월 15일 라피트 거리에서 열렸고 모리조, 드가, 카사트, 피사로, 쇠라, 시냐크 등 17명이 참여했다.",
+  "berthe-morisot.moment.1":
+    "1886년 봄 피사로는 모리조가 드가 없이는 참여하지 않을까 걱정된다며, 그렇게 되면 전시는 없다고 썼다. 이후 드가가 마음을 돌렸다. 피사로는 참가를 원하던 한 화가에게, 젊은 쇠라와 시냐크에게 그랬듯 처음부터 모리조의 방문을 받는 절차를 밟았어야 했다고 썼고, 기욤맹의 편지에는 모리조가 전해에 이들의 습작을 보았다는 내용이 나온다. 프랑스 문화부의 설명은 그가 어느 파벌에도 속하지 않고 오로지 그림만 보고 판단했다고 쓴다.",
+  "berthe-morisot.interpretation.moment.1":
+    "다른 사람들이 주저하던 전시의 비용과 심사를 맡은 이 일은 이 프로필의 주도적 행동성과 어울린다. 다만 이 설명은 친구들의 편지와 그에 대한 문화부의 해석에 의존한다.",
+  "berthe-morisot.moment.2":
+    "남편 외젠 마네는 오랜 투병 끝에 1892년 4월 13일 세상을 떠났다. 약 한 달 뒤 모리조는 남편이 권했던 개인전을 열었고, 판매와 평론의 반응은 좋았다. 그는 딸을 간호하다 폐렴에 걸려 앓기 전까지 그림을 계속 그렸고 1895년 3월 2일 세상을 떠났다.",
+  "berthe-morisot.interpretation.moment.2":
+    "남편이 세상을 떠난 지 한 달 만에 개인전을 연 일은 이 프로필의 끈기와 어울린다. 다만 자료는 그가 이 결정을 어떻게 저울질했는지는 알려 주지 않는다.",
+  "berthe-morisot.turning_point.1":
+    "모리조는 1864년부터 살롱에 작품을 냈지만 1872년과 1873년에는 심사위원단에게 거절당했다. 1874년 초 그는 드가의 요청으로 새 독립 미술가 협회에 합류했다. 이 그룹과 전시하지 않으려던 마네는 반대 의견을 냈으나 그는 이후 살롱에 작품을 보내지 않았다. 그해 협회의 첫 전시에 열 점을 선보였다.",
+  "berthe-morisot.interpretation.turning_point.1":
+    "마네의 조언에도 공식 살롱을 떠나 독립 그룹으로 옮긴 일은 이 프로필의 독립적 사고와 어울리며, 심사위원단에게 거듭 거절당한 사정 같은 다른 요인도 함께 작용했을 것이다.",
+  "charles-sturt.achievement.1":
+    "1828~29년 스터트는 매쿼리강, 보건강, 캐슬레이강을 따라가 달링강을 발견했고, 1829~30년에는 머럼비지강을 따라 머리강과의 합류점까지 내려간 뒤 남호주 해안의 알렉산드리나호까지 탐사대를 이끌었다. 이 탐사로 뉴사우스웨일스의 서쪽으로 흐르는 강들이 머리강으로 흘러든다는 사실이 밝혀졌고, 호주 최대 하천 수계에 대한 유럽인의 첫 측량이 이루어졌다.",
+  "charles-sturt.achievement.2":
+    "1844~46년 그는 짐수레와 양, 보트를 갖춘 15명의 일행을 이끌고 애들레이드를 떠나 내륙으로 들어갔으며, 여전히 내해를 찾으리라는 기대를 품고 있었다. 일행은 가뭄 때문에 데포 글렌에서 여섯 달 동안 발이 묶였고 제임스 풀이 괴혈병으로 숨졌지만, 탐사대는 스트제레츠키 크리크와 쿠퍼 크리크를 발견하고 심프슨 사막 가장자리, 대륙 중심에서 200km가 채 안 되는 곳까지 갔다가 모래언덕에 막혀 돌아섰다.",
+  "charles-sturt.achievement.3":
+    "그는 탐사 결과를 『남부 오스트레일리아 내륙으로의 두 차례 탐사』(1833)와 중부 오스트레일리아 탐사기(1849)로 펴냈다. 왕립지리학회는 1847년 그에게 창립자 메달을 수여했으며, 남호주 역사 신탁은 그가 묘사한 비옥한 강변 평지가 남호주 식민 결정에 영향을 주었을 수 있다고 스스로 믿었다고 기록한다.",
+  "charles-sturt.moment.1":
+    "1830년 2월 알렉산드리나호에 이르렀으나 내해를 찾지 못한 스터트 일행은 한여름 더위 속에서 적은 식량으로 포경 보트를 저어 머리강과 머럼비지강을 거슬러 올라가야 했다. 호주 박물관은 건강이 나빠지고 식량이 부족하며 일행이 지친 상태에서 그가 보트를 돌려 1,448km를 거슬러 노를 저었다고 기록하고, 인명사전은 그와 맥리가 노 젓기를 함께 나누었으며 4월 말 보급 거점에 도착했을 때 스터트가 거의 앞을 보지 못했다고 전한다.",
+  "charles-sturt.interpretation.moment.1":
+    "건강이 나쁜 상태에서 이만한 거리를 되돌아 완주한 것은 이 프로필의 끈기 있는 면모와 일치한다. 다만 이 서술은 대부분 그 자신의 기록에서 나온 것이므로 해석은 그 기록에 의존한다.",
+  "charles-sturt.moment.2":
+    "1845년 9월 7일 심프슨 사막 가장자리에서 스터트는 '쓰라린 실망감'을 안고 아이어 크리크 쪽으로 돌아섰지만 탐색을 끝내지는 않았다. 그는 10월 9일 포트 그레이에서 다시 말을 타고 나가 쿠퍼 크리크를 발견하고 그 물길을 따라가다가 물러났다. 호주 박물관은 1830년 탐사에서 내해를 찾지 못한 지 10년이 훨씬 지난 뒤, 이 일련의 탐사가 끝나서야 그가 마지못해 내해에 대한 기대를 접었다고 전한다.",
+  "charles-sturt.interpretation.moment.2":
+    "엇갈리는 증거 속에서 15년 동안 내해라는 생각을 붙든 것은 이 프로필에서 생각을 바꾸는 데 시간이 걸리는 면모와 일치한다. 다만 이 생각은 식민지에서 널리 퍼져 있었고, 근거는 회고적인 몇 문장에 불과하다.",
+  "charles-sturt.turning_point.1":
+    "1827년 죄수 호송 연대와 함께 시드니에 도착한 스터트는 랠프 달링 총독의 군사 비서로 임명되었다. 남호주 역사 신탁은 이를 그의 경력의 전환점이라고 부르며, 그는 1년 안에 매쿼리강 탐사를 청원해 이끌었고 이후 그가 기억되는 탐사들을 이끌게 되었다.",
+  "charles-sturt.interpretation.turning_point.1":
+    "연대 근무에서 탐사대 지휘관으로 옮겨 간 것은 이 프로필의 주도성과 일치한다. 그는 첫 탐사를 스스로 청원했지만, 문을 열어 준 것은 총독 비서 임명이었다.",
+  "ethel-smyth.achievement.1":
+    "스마이스는 1892년부터 1925년 사이에 오페라 여섯 편을 썼고, 모두 무대에 올랐다. 「숲(Der Wald)」은 1902년 코번트 가든에서 상연되었고 1903년에는 뉴욕 메트로폴리탄 오페라에서 여성이 쓴 최초의 오페라로 제작되었다. 대표작 「난파꾼들(The Wreckers)」은 1906년 라이프치히에서 초연된 뒤 1909년 런던, 1910년 코번트 가든 무대에 올랐다.",
+  "ethel-smyth.achievement.2":
+    "스마이스는 1910~11년에 시슬리 해밀턴의 가사로 「여성들의 행진(The March of the Women)」을 작곡했고, 이 곡은 1911년 1월 21일 집회에서 처음 연주되었다. 에멀린 팽크허스트와 여성사회정치연맹(WSPU)에 헌정된 이 곡은 영국 여성 참정권 운동에서 가장 널리 불린 저항의 노래가 되었다.",
+  "ethel-smyth.achievement.3":
+    "1893년 1월 왕립 앨버트 홀에서 왕립합창협회가 연주한 「D장조 미사」는 BBC 뮤직 매거진이 그녀를 당대 으뜸가는 여성 작곡가로 자리 잡게 한 작품이라고 평한다. 같은 잡지는 1930년의 합창 교향곡 「감옥(The Prison)」을 「미사」, 「난파꾼들」과 함께 그녀의 명성을 떠받치는 세 번째 기둥으로 꼽는다.",
+  "ethel-smyth.moment.1":
+    "1906년 11월 「난파꾼들」의 라이프치히 총연습에서 스마이스는 극장 음악감독이 마지막 막을 크게 잘라낸 것을 알게 되었다. 두 번째 공연에서 삭제 부분을 복원해 달라는 요청이 받아들여지지 않자, 그녀는 오케스트라 피트에서 파트보와 총보를 가져가 기차로 프라하로 떠났고 그 결과 라이프치히 공연은 더 이어질 수 없었다(소피 풀러).",
+  "ethel-smyth.interpretation.moment.1":
+    "이 일화는 자신의 음악의 온전성이 걸렸다고 믿을 때 갈등을 감수하는 성향이 높았음과 맞아떨어진다. 풀러는 이를 그녀의 결단력을 보여 주는 사례로 읽는다. 다만 중요한 공연장에서의 상연 기회를 잃는 대가도 따랐다.",
+  "ethel-smyth.moment.2":
+    "그녀 자신의 회고록에 따르면(하그와 BBC 뮤직 매거진이 되풀이해 전한다), 열아홉 살의 스마이스는 부모가 사교계 데뷔 시즌을 계획하는 것을 엿듣고, 교회와 만찬, 대화를 거부하며 집안 생활을 견딜 수 없게 만들었고, 결국 부모는 1877년 그녀가 라이프치히 음악원에 가도록 허락했다.",
+  "ethel-smyth.interpretation.moment.2":
+    "이 이야기는 그녀 자신의 서술에서만 나오므로 그녀가 기억하는 판본으로 읽는 편이 낫다. 자기 길을 스스로 정하려는 강한 욕구와 맞아떨어지지만, 가족이 실제로 어떻게 행동했는지에 대한 독립적인 증거는 아니다.",
+  "ethel-smyth.turning_point.1":
+    "1910년 스마이스는 에멀린 팽크허스트의 연설을 듣고 여성사회정치연맹에 가입해 2년 동안 음악가로서의 계획을 접어 두었다. 1892년에는 여성 참정권에 찬성하지만 깊이 생각해 본 적은 없다고 말했으나, 1910년 11월에는 자신이 미온적이었으며 이제는 무조건적인 지지자라고 썼다. 1912년 3월에는 베를린 작곡가 회의 초청을 포기했고, 창문을 깬 일로 홀러웨이 감옥에 수감되었다.",
+  "ethel-smyth.interpretation.turning_point.1":
+    "이 변화는 자신의 입장을 수정하고 경력에 손해를 감수하며 행동에 옮기는 태도와 맞아떨어진다. 다만 이는 대부분 그녀 자신이 발표한 글에 의존하는, 팽크허스트와의 개인적 만남이 계기가 된 한 번의 입장 변화로 기록되어 있을 뿐이다.",
+  "evangelista-torricelli.achievement.1":
+    "1643~44년 토리첼리는 피렌체에서 빈첸초 비비아니와 함께 유리관에 수은을 채워 수은이 담긴 그릇에 거꾸로 세웠고, 수은 기둥이 약 76cm에서 멈추며 그 위에 빈 공간이 생기는 것을 관찰했다. 1644년 6월 11일 미켈란젤로 리치에게 보낸 편지에서 그는 기둥을 떠받치는 것은 관 안의 진공의 힘이 아니라 그릇 속 수은을 누르는 공기의 무게라고 주장했다. 이 토리첼리 관은 기압계와 대기압 연구로 이어졌다.",
+  "evangelista-torricelli.achievement.2":
+    "그의 생전에 인쇄된 유일한 저작인 『기하학 저작』(1644)은 카발리에리의 불가분량 방법을 곡선 불가분량으로 확장했고, 쌍곡선을 점근선을 축으로 회전시켜 얻은 끝없이 긴 입체의 부피가 유한하다는 것을 이 방법으로 보였다. 같은 책에는 임의의 각도로 발사된 포탄의 운동 이론과 사격표, 그리고 용기에 뚫린 구멍에서 나오는 액체 분출 속도에 관한 법칙이 실려 있으며, 이 법칙에는 지금도 그의 이름이 붙어 있다. 이 성과로 그는 프랑스의 메르센, 페르마, 로베르발에게도 알려졌다.",
+  "evangelista-torricelli.achievement.3":
+    "1641년 10월 10일 『새로운 두 과학』의 증보 작업을 돕기 위해 아르체트리의 갈릴레오 집에 도착한 그는 1642년 1월 8일 갈릴레오가 세상을 떠날 때까지 머물렀다. 이후 토스카나 대공은 그를 수학자로 임명하고 메디치 궁에 거처를 마련해 주었다. 피렌체에서 그는 당대 이탈리아 최고의 제작자에 맞먹는 망원경 렌즈를 갈았고 크루스카 아카데미에서 강연했다.",
+  "evangelista-torricelli.moment.1":
+    "리치가 공기는 아래로 누르므로 수은을 떠받칠 수 없고 그릇에 뚜껑을 씌우면 공기의 무게가 막힌다고 반대하자, 토리첼리는 1644년 6월 28일 편지에서 리치의 세 가지 반론에 하나씩 답했다. 그는 유체가 위쪽을 포함해 모든 방향으로 누른다고 주장했고, 무게를 얹은 나무 원통을 쇠판으로 가른 예를 들어 뚜껑이 그 아래 공기의 압축 정도를 바꾸지 않는다고 설명했다.",
+  "evangelista-torricelli.interpretation.moment.1":
+    "반론에 하나씩 답한 이 편지는 설명을 믿기 전에 반론에 비추어 시험하는 습관과 부합한다. 다만 편지의 내용은 인명 사전들의 요약을 통해서만 전해진다.",
+  "evangelista-torricelli.moment.2":
+    "1646년 사이클로이드에 대해 더 앞선 결과를 주장하던 로베르발이 토리첼리를 표절이라고 비난했다. 토리첼리는 이를 부인했고, 로베르발과 데카르트에 결정적으로 반박하지 못한 채 갈릴레오의 운동 법칙을 둘러싼 논쟁을 중단했으며, 프랑스 수학자들과 주고받은 서신을 정리한 글을 쓰기 시작했다. 그는 1647년 10월 이를 끝내지 못하고 숨졌다. 로베르발의 인명 사전 항목은 그의 사이클로이드 주장이 아직 객관적으로 증명되지 않았다고 말하며, 우선권 문제는 정리되지 않았다.",
+  "evangelista-torricelli.interpretation.moment.2":
+    "이 일화는 어떤 논쟁에서는 자신의 명예를 공개적으로 지키면서도, 진공이나 우주 체계처럼 교회의 제재를 두려워했을 수 있다고 이탈리아 인명 사전이 시사하는 문제에서는 침묵한 연구자의 모습과 부합한다.",
+  "evangelista-torricelli.turning_point.1":
+    "1641년 4월 카스텔리가 토리첼리의 포탄 운동 논고를 갈릴레오에게 보였고, 갈릴레오는 그를 아르체트리로 초대했다. 그전 몇 해를 마르케에서 비서로 보낸 토리첼리는 10월에 갈릴레오의 집에 도착했고, 석 달 뒤 갈릴레오가 세상을 떠난 뒤 피렌체의 대공 수학자가 되었다. 이후 몇 해 동안 그는 『기하학 저작』, 수은 실험, 렌즈 제작을 이루어 냈다.",
+  "evangelista-torricelli.interpretation.turning_point.1":
+    "피렌체로의 이동은 그의 활동이 기하학을 넘어 실험, 기구 제작, 강연으로 넓어진 것과 부합한다. 다만 이것이 그 자신의 계획이었다고 말하는 자료는 없다.",
+  "gian-lorenzo-bernini.achievement.1":
+    "그는 17세기 로마를 대표하는 조각가이며 바로크 조각을 만들어 낸 인물로 평가받는다. 1618년경부터 1625년 사이 스키피오네 보르게세 추기경을 위해 실물 크기의 군상 〈아이네아스, 안키세스와 아스카니우스〉, 〈플루토와 프로세르피나〉, 〈아폴론과 다프네〉, 〈다비드〉를 조각했는데, 이 작품들은 모두 행동이 정점에 이른 한순간을 포착한다. 코르나로 예배당의 〈성 테레사의 환희(Ecstasy of St Teresa)〉(1645-52년경)는 그의 원숙기 예술을 가장 잘 보여 주는 단일 작품으로 꼽힌다.",
+  "gian-lorenzo-bernini.achievement.2":
+    "그는 건축가이자 디자이너로서 교황청 로마의 모습도 빚었다. 성 베드로 무덤 위의 청동 발다키노(1624-33)를 대성당 공사의 건축가들과 함께 만들었고, 1629년 성 베드로 대성당의 건축가가 되었으며, 이후 대성당 앞의 열주 광장(1657년 착공), 스칼라 레지아, 베드로의 의자(Cathedra Petri)를 구상했다. 그가 만든 분수로는 바르카치아 분수, 바르베리니 광장의 트리토네 분수, 나보나 광장의 네 강의 분수(1648-51)가 있다.",
+  "gian-lorenzo-bernini.achievement.3":
+    "그는 초상 흉상의 성격을 바꾸어 놓았다. 게티 미술관은 그와 동시대 로마 조각가들이 흉상을 돌로 빚은 '말하는 듯한 초상'으로 변모시켰다고 설명하며, 이탈리아 인물 사전은 대화하는 순간을 포착한 듯한 1632년의 스키피오네 보르게세 추기경 흉상을 대표작으로 든다. 1665년 파리에서 만든 루이 14세 흉상은 프랑스 방문에서 남은 유일한 작품이며, 그때 제출한 루브르 설계안은 다른 건축가들의 안보다 선호되었으나 끝내 지어지지 않았다.",
+  "gian-lorenzo-bernini.moment.1":
+    "1665년 파리에서 그는 루이 14세 흉상을 조각하기에 앞서 자세를 구상하려고 점토를 청해 스케치했고, 닮은 모습을 빚기 전 며칠 동안 왕의 정면과 측면 얼굴을 직접 그렸다. 그를 수행한 샹틀루는 그가 모형 작업에 온종일, 한번은 저녁 일곱 시까지 매달렸으며 방문객이 작업을 방해하자 몹시 불쾌해했다고 기록했다.",
+  "gian-lorenzo-bernini.interpretation.moment.1":
+    "자세를 먼저 구상한 뒤 닮은 모습을 빚는 방식은 계획 지향성과, 오래 한 작업에 몰두하는 모습과 부합한다. 다만 둘 다 1665년 몇 달 동안 쓰인 일기 한 권에 근거한다.",
+  "gian-lorenzo-bernini.moment.2":
+    "1630년대부터 그는 무대 장치와 기계를 갖춘 희극을 직접 쓰고 올렸다. 1633년 모데나 공작의 사절은 그가 제자들과 함께 궁정을 풍자하는 희극을 공연했다고 보고했고, 1637-38년에는 관객을 닮은 가면을 쓴 배우들이 객석과 똑같이 마주 선 또 하나의 객석이 있는 듯한 착각을 일으키는 〈두 극장(De' due teatri)〉을 올렸다. 이탈리아 인물 사전은 바르베리니 가문을 위한 그의 연극 활동은 기록이 부족하고 일부는 전설에 가깝다고 덧붙인다.",
+  "gian-lorenzo-bernini.interpretation.moment.2":
+    "이 일화는 폭넓은 창작 범위와 독창적인 연출 감각과 부합한다. 다만 1633년의 편지와 1637-38년, 1644년의 기록 외에는 자료가 많지 않다.",
+  "gian-lorenzo-bernini.turning_point.1":
+    "1637년 그는 성 베드로 대성당 남쪽 종탑을 짓기 시작했으나, 이탈리아 인물 사전에 따르면 설계가 기초에 비해 너무 무거워 1646년에 철거되었다. 반면 발디누치가 쓴, 그에게 호의적인 전기는 정면부 기초에서 이전에 생긴 문제를 원인으로 든다. 1644년 우르바노 8세가 죽자 바르베리니 가문이 몰락했고, 그는 처음이자 마지막으로 경력이 위태로워 보이는 처지에 놓였다. 그는 공격에 답하려고 〈시간이 드러낸 진실〉 군상에 착수했으나 진실의 인물상만 조각되었으며, 코르나로 예배당 작업을 시작하고 성 베드로 대성당 건축가 직도 지켰다. 전승에 따르면 네 강의 분수 모형으로 인노첸시오 10세의 총애를 되찾았다.",
+  "gian-lorenzo-bernini.interpretation.turning_point.1":
+    "이 전환점은 공개적 실패 이후에도 일을 이어 간 끈기와 부합한다. 다만 회복에는 후원자와 교황의 마음 변화가 크게 작용했고, 그의 대응에 대한 서술은 대부분 한쪽에 치우친 전기 작가에게서 나온다.",
+  "harriet-chalmers-adams.achievement.1":
+    "그녀는 남편 프랭클린 피어스 애덤스와 함께 거의 3년에 걸쳐 중남미를 약 4만 마일(약 6만 4천 km) 여행했다. 주로 말과 카누, 도보, 기차로 이동했고 약 2만 3천 피트에 이르는 안데스 고지대를 넘었다. 이후에는 스페인 식민지였던 모든 나라를 방문하고 콜럼버스의 항로를 되짚겠다는 계획을 세웠다.",
+  "harriet-chalmers-adams.achievement.2":
+    "그녀는 약 30년 동안 내셔널 지오그래픽에 21편의 기사를 썼는데, 이는 잡지 창간 후 첫 반세기 동안 어떤 여성 필자보다도 많은 수였다. 기사에는 직접 찍은 사진을 실었고(협회에 약 3,000장을 건넸다), 일부 글에서는 페루 등지의 식민 지배가 낳은 부당함에 대해서도 논평했다.",
+  "harriet-chalmers-adams.achievement.3":
+    "그녀를 비롯한 여성 탐험가들이 남성 전용인 탐험가 클럽에서 배제되자, 그녀는 1925년 여성 지리학자 협회의 초대 회장을 맡아 1933년 프랑스로 이주할 때까지 이끌었다. 미국 의회도서관의 설명은 그녀가 협회 조직을 맡았다고 전하며, 창립자는 다른 네 명의 여성이었다.",
+  "harriet-chalmers-adams.moment.1":
+    "1917년 그녀는 제1차 세계대전 중 프랑스 전선에 초청받은 최초의 여성 기자로, 약 세 달 동안 로렌 지방의 작전 현장을 돌아보았다. 그녀는 병사와 참호, 전쟁 지원 작업에 나선 여성들을 사진에 담았다.",
+  "harriet-chalmers-adams.interpretation.moment.1":
+    "전투 지역 가까이에서 오래 머무는 일을 받아들인 점은 신체적 위험에 대한 높은 내성과 일치하지만, 실제로 전투에 얼마나 가까이 갔는지는 자료에 나와 있지 않다.",
+  "harriet-chalmers-adams.moment.2":
+    "1930년 그녀는 에티오피아 하일레 셀라시에 황제의 대관식을 보기 위해 아프리카와 중동 탐험을 발표했고, 실제로 이를 실행했으며 나중에 유럽에서 황제를 만나기도 했다.",
+  "harriet-chalmers-adams.interpretation.moment.2":
+    "첫 탐험 이후 오랜 시간이 지나서도 여행을 발표하고 끝까지 완수한 점은, 후원을 기다리기보다 스스로 세운 계획에 따라 움직인 패턴과 일치한다.",
+  "harriet-chalmers-adams.turning_point.1":
+    "중남미 여행을 마친 뒤 그녀는 1907년 내셔널 지오그래픽 협회에서 첫 강연을 했고, 이것이 강연자이자 사진가, 필자로서 약 30년간 이어진 잡지와의 관계의 시작이 되었다. 그 전까지 그녀는 개인 여행자였으나, 이후에는 중남미에 관해 공개적으로 발언하는 인물이 되었다.",
+  "harriet-chalmers-adams.interpretation.turning_point.1":
+    "정규 지리학 교육을 받지 않았음에도 사적인 여행을 강연으로 이어 간 점은 스스로 기회를 만든 인물이라는 이 프로필의 해석과 나란히 놓이지만, 첫 강연을 누가 주선했는지는 자료에 나와 있지 않다.",
+  "henri-becquerel.achievement.1":
+    "1896년 베크렐은 발광 물질이 X선을 낼지도 모른다는 생각을 검증하려고 검은 종이로 싼 사진 건판 위에 우라늄염을 올려 두었고, 건판이 감광된다는 사실을 발견했다. 이어 이 현상에 햇빛이 필요 없고, 모든 우라늄 화합물이 같은 효과를 내며, 금속 우라늄이 우라늄염보다 더 강하다는 것을 보여 우라늄이 투과력 있는 선을 저절로 내놓는다는 점을 밝혔다. 이것이 방사능의 발견이다.",
+  "henri-becquerel.achievement.2":
+    "1899~1900년 베크렐은 라듐에서 나오는 선이 자기장에서 휘는 정도를 측정해, 그 일부가 J. J. 톰슨이 전자로 확인한 것과 같은 음전하 입자로 이루어져 있음을 보였다. 1901년에는 화학 처리로 정제한 우라늄이 시간이 지나면 다시 방사선을 회복한다는 것을 보였으며, 러더퍼드와 소디는 곧 이 관찰을 방사성 변환 이론에 활용했다. 그는 1903년 노벨 물리학상을 받았는데, 절반은 베크렐에게, 나머지 절반은 피에르 퀴리와 마리 퀴리에게 돌아갔다.",
+  "henri-becquerel.moment.1":
+    "베크렐은 1896년 2월 26일과 27일에 우라늄염을 올린 노출 실험 여러 개를 준비했지만 햇빛이 간헐적으로만 비치자 건판 꾸러미를 서랍에 넣어 두었다. 그 뒤로도 해가 나지 않자 3월 1일에 건판을 현상했는데, 아주 희미한 상을 예상했으나 윤곽이 매우 선명하게 나타났다. 그는 3월 2일, 작용이 어둠 속에서도 계속되었던 것으로 보인다고 보고했다. 그가 거의 아무것도 나타나지 않으리라 예상한 건판을 왜 현상했는지에 대해서는 자료마다 설명이 엇갈린다.",
+  "henri-becquerel.interpretation.moment.1":
+    "이 일화는 예상치 못한 건판 결과가 기존 가설을 뒤집도록 내버려 둔 연구자의 모습과 부합한다. 다만 그의 보고서 제목에는 몇 주 동안 인광이라는 말이 남아 있었으므로, 생각의 수정은 점진적이었다.",
+  "henri-becquerel.moment.2":
+    "1896년 2월의 보고 이후 베크렐은 다른 발광 결정도 선을 내는지 시험했고 우라늄 화합물만 그렇다는 것을 확인했다. 이어 빛을 내지 않는 우라늄 화합물을 시험하고, 어둠 속에서 질산우라닐을 가열해 보았으며, 순수한 우라늄 금속 원반도 시험해 5월 18일 처음 쓴 염보다 세 배에서 네 배 강하다고 발표했다.",
+  "henri-becquerel.interpretation.moment.2":
+    "효과에 대한 설명을 하나씩 배제해 나간 이 일련의 시험은 체계적인 실험 습관과 부합한다. 다만 여기서는 대부분 하나의 인명 사전 항목에 근거한 읽기이다.",
+  "henri-becquerel.turning_point.1":
+    "1897년 4월 베크렐은 사진법과 금박 검전기만 사용한 우라늄선 연구를 마치고 새로 발견된 제만 효과 연구로 옮겨 갔다. 그 뒤 피에르 퀴리와 마리 퀴리가 이 주제를 이어받았고, 마리 퀴리는 이 선을 정량적으로 측정해 토륨도 같은 성질이 있음을 알아냈으며, 퀴리 부부는 이어 폴로늄과 라듐을 발견했다. 베크렐은 퀴리 부부의 연구에 관심이 끌려 이 분야로 돌아왔고, 퀴리 부부는 그에게 라듐 시료를 빌려주었다.",
+  "henri-becquerel.interpretation.turning_point.1":
+    "이 전환은 더 전망 있어 보이는 주제로 옮겨 가는 연구자의 모습과 부합하며, 그 결과 방사능 연구의 다음 단계는 다른 사람들의 몫이 되었다. 제만 효과에 끌렸다는 역사가들의 판단은 여러 해석 중 하나이다.",
+  "hermann-weyl.achievement.1":
+    "바일은 1925년부터 1927년 사이에 연속 반단순 군의 표현론을 세웠다. 리 군을 국소적인 공식이 아니라 하나의 전체 대상으로 다룬 것이 특징이다. 이 작업에서 바일 지표 공식과 바일 군이 나왔고, 프리츠 페터와 함께 쓴 논문에서는 페터-바일 정리가 나왔다. 바일 자신도 이를 자신의 가장 큰 수학적 업적으로 여겼다. 1928년의 저서 <군론과 양자역학>은 같은 대칭의 방법을 새로운 양자물리학에 적용했다.",
+  "hermann-weyl.achievement.2":
+    "바일은 1918년 <공간, 시간, 물질>에서 일반상대성이론을 미분기하학의 언어로 설명했고, 같은 해에 중력과 전자기력을 통합하는 이론을 내놓았다. 이 이론은 점마다 달라지는 척도, 곧 게이지에 바탕을 두었다. 아인슈타인은 곧바로 입자의 성질이 그 입자의 과거 이력에 따라 달라지게 된다고 반박했고, 바일 자신도 1927년에서 1929년 무렵 이 이론을 접었다. 그러나 게이지 개념은 양자론에서 다시 살아났고, 오늘날 게이지 이론은 입자물리학 표준모형의 틀이 되었다.",
+  "hermann-weyl.achievement.3":
+    "바일의 첫 저서 <리만 곡면의 개념>(1913)은 근방으로 곡면을 추상적으로 정의하는 방식에 기초해 리만 곡면을 처음으로 엄밀하게 다루었고, 이후 다양체 이론의 본보기가 되었다. 1916년에는 법 1에 대한 균등분포의 판정 기준과 바일 부등식으로 알려진 지수합 추정을 증명했는데, 이는 해석적 수론의 기본 도구가 되었다.",
+  "hermann-weyl.moment.1":
+    "아인슈타인은 바일의 1918년 게이지 이론에 대해, 입자의 크기가 그 입자의 과거 이력에 따라 달라지게 된다는 비판을 논문 부록에 직접 적었다. 그래도 바일은 논문을 발표했고, 이후 약 십 년 동안 아인슈타인과 파울리의 반론에 맞서 이 이론을 옹호했다. 아인슈타인에게 보낸 편지에서는 이 이론을 이끈 것이 물리학이 아니라 수학이었다고 썼다. 그는 전자의 양자론이 전하 보존을 더 잘 설명하는 다른 종류의 게이지 불변성을 내놓은 1927년에서 1929년 무렵에야 이 이론을 포기했다.",
+  "hermann-weyl.interpretation.moment.1":
+    "아인슈타인과 파울리의 반론에도 약 십 년간 이론을 지키다가 양자론이 더 나은 설명을 내놓자 접은 모습은, 이 프로필에서 신념 갱신이 중간 수준이고 더디게 이루어지는 경향과 어울린다. 입장은 실제로 바뀌었지만, 그것은 그 자신의 수학적 근거에 따른 것이었다.",
+  "hermann-weyl.moment.2":
+    "바일은 1921년 논문 <수학의 새로운 기초 위기에 관하여>에서 해석학의 옛 질서가 그 자체로 유지될 수 없다고 쓰고, 브라우어의 직관주의를 혁명이라고 불렀다. 그는 스승 힐베르트에 맞서 직관주의 편에 섰고, 힐베르트는 이에 속상해하며 자신의 프로그램을 내놓는 것으로 응수했다. 바일은 논문에서 선택공리를 쓰지 않았지만, 1949년에는 더 일반적인 이론으로 나아갈수록 직관주의 수학이 거의 견디기 어려운 번거로움에 이른다고 썼다.",
+  "hermann-weyl.interpretation.moment.2":
+    "자신의 스승에 맞서 브라우어의 편에 선 것은 이 프로필의 독립적 사고와 어울린다. 다만 그 입장은 그의 철학적 신념에서 나온 것이었고, 그 자신이 나중에 이를 스스로 단서를 달아 수정하기도 했다.",
+  "hermann-weyl.turning_point.1":
+    "1913년까지 괴팅겐에서 바일의 연구는 거의 전적으로 적분방정식과 스펙트럼 문제에 집중되어 있었다. 1911-12년의 리만 곡면 강의로 그는 다양체의 위상수학에 깊이 들어가게 되었고, 1913년에는 당시 아인슈타인이 일반상대성이론을 다듬고 있던 취리히 연방공대의 교수직을 맡았다. 뉴먼은 이 두 가지 계기가 그의 관심을 넓혔다고 설명한다. 이후 몇 해에 걸쳐 상대성이론, 미분기하학, 군론, 양자역학이 그의 주요 주제가 되었다.",
+  "hermann-weyl.interpretation.turning_point.1":
+    "하나의 주제에 몰두하던 해석학자에서 상대성이론, 기하학, 군론으로 옮겨 간 것은 이 프로필의 넓은 분야 횡단 성향과 어울린다. 다만 새로운 교수직과 아인슈타인 같은 동료라는 상황도 성향 못지않게 작용했다.",
+  "jean-francois-de-la-perouse.achievement.1":
+    "1785년 루이 16세는 그를 태평양 과학 탐사대의 지휘관으로 선택했고, 그는 부솔호와 아스트롤라베호 두 척의 프리깃함을 이끌고 브레스트를 떠났다. 이후 3년 동안 탐사대는 세인트일라이어스산에서 몬터레이에 이르는 북아메리카 해안을 측량했고, 유럽인 항해자로서는 처음으로 중국과 일본 사이의 바다에 들어갔으며, 지금 그의 이름이 붙은 사할린과 홋카이도 사이의 해협을 찾아냈다.",
+  "jean-francois-de-la-perouse.achievement.2":
+    "그는 마카오, 캄차카, 보터니만에서 해도와 항해 일지, 보고서를 본국으로 보냈고, 덕분에 1788년 3월 보터니만을 떠난 뒤 배들이 다시 목격되지 않았는데도 탐사의 성과는 프랑스에 전해졌다. 두 배의 잔해는 1826년 피터 딜런과 1828년 뒤몽 뒤르빌에 의해 바니코로에서 추적되었고, 남은 기록은 1797년 69장의 도판이 담긴 『라페루즈의 세계 일주 항해』로 출간되었다.",
+  "jean-francois-de-la-perouse.achievement.3":
+    "1782년 미국 독립전쟁 중 해군 함장이던 그는 허드슨 베이 회사의 프린스오브웨일스 요새와 요크 팩토리를 비밀리에 공격했다. 두 거점은 모두 싸움 없이 항복했고, 『캐나다 인명사전』은 그가 포로들을 매우 친절하게 대했다고 기록한다. 이 원정으로 그는 연금을 받았고 이어 태평양 탐사의 지휘를 맡게 되었다.",
+  "jean-francois-de-la-perouse.moment.1":
+    "1787년 12월 투투일라에서 드 랑글은 괴혈병을 막기 위해 두 번째 급수 작업대를 보내자고 강하게 주장했다. 라페루즈는 일지에 내륙으로 보트를 보내는 것이 신중하지 못하다는 예감이 있었다고 적었지만 드 랑글의 판단을 믿고 동의했다. 12월 11일 드 랑글과 11명이 육지에서 목숨을 잃었고, 라페루즈는 일지에서 배를 둘러싼 카누들에 포격하지 않은 것은 엉뚱한 사람들을 해칠까 두려웠기 때문이라고 썼다.",
+  "jean-francois-de-la-perouse.interpretation.moment.1":
+    "신뢰하는 부지휘관의 판단에 자신의 불안을 접고 따랐다는 그의 기록은, 이번에는 큰 대가를 치른 협력적 방식과 일치한다. 이 일화는 대부분 그 자신의 일지에서 알려진 것이므로 이 해석은 그의 보고에 의존한다.",
+  "jean-francois-de-la-perouse.moment.2":
+    "항해가 끝나기 전에 그는 세 곳의 항구에서 지도와 일지, 편지를 본국으로 보내도록 조치했다. 1787년 1월 마카오에서는 박물학자 뒤프렌이, 캄차카에서는 통역관 드 레셉스가 육로로, 보터니만에서는 존 쇼틀랜드 중위가 운반했다. 이 보고들 덕분에 1788년 3월까지의 탐사 기록이 전해진다.",
+  "jean-francois-de-la-perouse.interpretation.moment.2":
+    "기록을 일정한 간격으로 본국에 보낸 것은 탐사의 성과가 어떻게 본국에 전달될지를 세심하게 계획했음과 일치한다. 다만 보고 의무는 왕이 정한 항해 임무의 일부였다.",
+  "jean-francois-de-la-perouse.turning_point.1":
+    "1786년 7월 13일, 배들이 리투야만(포르 데 프랑세)을 떠날 채비를 마쳤을 때 해도를 완성하기 위한 측심 작업대 세 척이 나갔다. 만 입구의 조류에 보트 두 척이 휩쓸려 라보르드 형제를 포함해 21명이 목숨을 잃었다. 라페루즈는 책임 장교에게 입구에 접근하지 말라고 서면으로 경고했고, 약 2주 동안 수색한 뒤 섬에 기념비를 세우고 항해를 이어 갔다. 이 소식이 1787년 프랑스에 전해졌을 때 한 명도 잃지 않는 항해라는 왕의 약속이 깨졌다는 반응을 불렀다.",
+  "jean-francois-de-la-perouse.interpretation.turning_point.1":
+    "이만한 손실 뒤에도 항해를 계속한 것은 이 프로필의 끈기 있는 면모와 일치한다. 다만 그것은 탐사대에 부여된 임무이기도 했으며, 한 명도 희생시키지 않겠다는 약속과 함께 출발한 항해에 최초의 큰 희생은 힘겨운 전환점이 되었다.",
+  "kate-sheppard.achievement.1":
+    "셰퍼드는 1887년부터 뉴질랜드 여성기독교절제연합의 참정권 사업을 이끌며 청원 운동을 조직했다. 청원 서명은 1891년 약 9,000명에서 1892년 거의 20,000명, 1893년 거의 32,000명으로 늘었다. 1893년 청원은 존 홀 경이 의회에 제출했고, 1893년 9월 19일 통과된 선거법으로 뉴질랜드는 여성에게 의회 선거 투표권을 준 최초의 자치 국가가 되었다. 그는 홀, 각 지역의 참정권 담당자, 다른 여성 단체들과 함께 일했으며, 재가가 이뤄진 날 총리가 그에게 전보로 소식을 알렸다.",
+  "kate-sheppard.achievement.2":
+    "1896년 4월 셰퍼드는 뉴질랜드 여성 전국 평의회의 초대 회장으로 선출되었다. 평의회는 4월 13일부터 18일까지 크라이스트처치에서 열렸고, 크라이스트처치 시립도서관은 이를 의회 선거권을 가진 여성들의 전국 모임으로서 세계 최초라고 소개한다. 결의안에는 이혼 조건의 평등, 여성 배심원, 노령연금, 최저임금 등이 담겼다. 그는 건강이 나빠져 1903년 회장직에서 물러났다.",
+  "kate-sheppard.achievement.3":
+    "셰퍼드는 집회뿐 아니라 인쇄물로도 운동을 이끌었다. 그는 <뉴질랜드 여성이 투표해야 하는 열 가지 이유>라는 소책자를 썼고, 1891년부터 절제 운동 잡지 <프로히비셔니스트>에 '페넬로페'라는 필명으로 여성란을 운영했으며, 1895년부터 1903년까지 연합의 기관지 <화이트 리본>을 편집했다.",
+  "kate-sheppard.moment.1":
+    "1889년 존 홀 경은 셰퍼드에게, 하원 의원 가운데 33명이 전면적 참정권에, 27명이 재산 자격을 둔 참정권에 찬성하는 상황이니 연합이 먼저 납세자나 재산 소유 여성에게만 투표권을 주는 안을 받아들일 수 있겠느냐고 물었다. 셰퍼드는 주요 지부들에 전보로 의견을 물었다. 대다수가 전면적 여성 참정권에 투표했고, 네이피어 지부는 재산 자격안을 선호했으며, 포트 차머스 지부는 다른 방법이 없을 경우에만 그 안을 받아들이겠다고 했다. 연합은 여성도 자치를 누릴 자격이 있는 인간이라는 주장을 고수했다. 이 이야기는 W. 시드니 스미스가 1905년에 쓴 서술에 나온다.",
+  "kate-sheppard.interpretation.moment.1":
+    "정치인이 내놓은 부분적 타협안에 답하기 전에 지부들의 의견을 먼저 물은 것은 이 프로필의 협업 성향과 어울린다. 다만 이 서술은 그 제안을 그 자신은 어떻게 저울질했는지는 말해 주지 않는다.",
+  "kate-sheppard.moment.2":
+    "1893년 9월 입법위원회가 선거법안을 통과시킨 뒤, 일부 위원들이 총독에게 재가를 보류해 달라고 청원했다. 셰퍼드는 자신이 전달한 청원에 서명한 3만 1천 명의 여성을 대표해 글래스고 백작에게 편지를 보내, 하원이 그 원칙을 확인했고 유권자들도 지난 선거에서 이를 지지하는 후보들을 뽑았다고 주장했다. 그는 지부들과 참정권 연맹에도 전보를 보내 같은 주장을 펴도록 촉구했다. 양조업자와 주점 업자들은 맞청원을 냈고, 일간지들은 그 명단에 이름이 중복되었다고 지적했다. 9월 19일 세든 총리는 총독이 재가했다고 그에게 전보로 알렸다.",
+  "kate-sheppard.interpretation.moment.2":
+    "적대적인 항의가 나오고 며칠 안에 총독에게 편지를 보내고 지부들을 결집한 일은 이 프로필의 주도적 행동과 어울린다. 다만 이 일화의 출처는 호의적인 1905년의 서술 하나뿐이다.",
+  "kate-sheppard.turning_point.1":
+    "1885년 여성기독교절제연합이 창립될 때 가입한 셰퍼드는 1887년 연합의 전국 참정권·입법 담당자로 임명되었다. 미국인 조직가 메리 레빗이 연합에 참정권 사업을 맡아 보라고 제안한 뒤의 일이다. 스미스는 당시 여론이 여성 참정권에 분명히 적대적이었다고 설명한다. 이 직책으로 절제 운동과 여성 문제에 관여하던 활동가는 참정권 운동의 전국 조직자가 되었고, 1893년 선거법이 통과될 때까지 그 운동을 이끌었다.",
+  "kate-sheppard.interpretation.turning_point.1":
+    "당시 여론이 반대하던 운동에서 전국적 역할을 맡은 것은 이 프로필의 리더십 추구와 어울린다. 다만 그 직책은 그 혼자가 아니라 외부 조직가의 제안으로 연합이 만든 것이었다.",
+  "langston-hughes.achievement.1":
+    "그는 할렘 르네상스의 중심 인물이자, 블루스와 재즈의 리듬을 입힌 시로 흑인 노동계층의 삶을 노래한 미국의 대표적 시인이다. 시 「The Negro Speaks of Rivers」는 1921년 《The Crisis》에 실렸고, 첫 시집 『The Weary Blues』는 1926년에 나왔으며, 1951년의 장편 연작시 『Montage of a Dream Deferred』에는 '꿈이 미뤄지면 어떻게 되는가'라고 묻는 시 「할렘」이 실렸다.",
+  "langston-hughes.achievement.2":
+    "그의 활동은 시에 그치지 않았다. 장편소설 『Not Without Laughter』(1930), 단편집 『The Ways of White Folks』(1934), 1935년 브로드웨이에 오른 희곡 『Mulatto』, 쿠르트 바일의 오페라 『Street Scene』(1947) 가사를 썼다. 1940년대 초부터는 《Chicago Defender》와 《New York Post》에 연재한 '제시 B. 셈플(심플)' 칼럼과 이야기가 폭넓은 독자를 얻었으며, 포이트리 파운데이션은 그를 글과 강연만으로 생계를 꾸린 최초의 흑인 미국인이라고 소개한다.",
+  "langston-hughes.achievement.3":
+    "그는 흑인의 역사와 문화를 기록하는 일에도 힘썼다. 아나 본템프스(Arna Bontemps)와 함께 선집 『The Poetry of the Negro』(1949)와 『The Book of Negro Folklore』(1958)을 엮었고, 밀턴 멜처(Milton Meltzer)와 『A Pictorial History of the Negro in America』(1956)를 썼으며, 청소년을 위한 역사서와 전기도 여러 권 남겼다. 또한 페데리코 가르시아 로르카와 가브리엘라 미스트랄 등의 시를 번역했다.",
+  "langston-hughes.moment.1":
+    "두 번째 시집 『Fine Clothes to the Jew』(1927)은 문예지와 백인 언론에서는 호평을 받았지만 흑인 언론에서는 공격을 받았다. 포이트리 파운데이션은 그의 회고록 『The Big Sea』에서 인용한 기사 제목을 싣는데, 이 시집을 쓰레기라고 부르거나 그를 하수구 주민이라고 부르는 것이다. 브리태니커는 일부가 제목과 노골적인 표현을 문제 삼았으나 휴스 자신은 이 시집을 창작의 또 한 걸음 진전이라고 여겼다고 덧붙인다.",
+  "langston-hughes.interpretation.moment.1":
+    "이 일화는 독립적 사고와 부합한다. 그는 혹평을 받고도 자신이 택한 소재, 곧 평범한 흑인의 삶을 그대로 이어 갔다. 다만 기사 제목은 그 자신의 회고록을 통해 전해지므로, 이 서술에는 그가 비판을 어떻게 기억했는지가 반영되어 있다.",
+  "langston-hughes.moment.2":
+    "1930년 봄 그는 조라 닐 허스턴과 함께 희곡 『Mule Bone』를 쓰기 시작했고, 루이즈 톰프슨(Louise Thompson)을 타자수로 고용해 가을에 초고를 마쳤다. 허스턴이 수정본을 자기 작품이라며 다른 이들에게 보낸 뒤 두 사람은 저작권을 두고 다투었고, 휴스는 자기 사본에 작가들이 틀어져서 이 극이 상연되지 못했다고 적었다. 작품은 1991년에야 상연되었으며, 헨리 포드 박물관의 큐레이터는 누가 어디까지 썼는지는 지금도 논란의 여지가 있다고 말한다.",
+  "langston-hughes.interpretation.moment.2":
+    "이 일화는 협업의 한계를 보여 주는 한 사례다. 아나 본템프스와의 작업 등 그의 다른 많은 협업 관계가 이 일과 함께 이 프로필의 바탕을 이루며, 누구의 잘못인지는 자료들이 가려 주지 않는다.",
+  "langston-hughes.turning_point.1":
+    "1925년 말 워싱턴의 한 호텔에서 버스보이로 일하던 그는 시인 베이철 린지(Vachel Lindsay)의 식탁 접시 옆에 자신의 시 세 편을 놓아 두었다. 이튿날 전국의 신문은 린지가 흑인 버스보이 시인을 발굴했다고 보도했다. 같은 해 칼 밴 벡턴(Carl Van Vechten)이 그의 시를 출판인 앨프리드 A. 크노프(Alfred A. Knopf)에게 소개했고, 크노프는 1926년 『The Weary Blues』로 나온 시집을 받아들였다. 그는 1926년 초 링컨 대학에서 공부를 시작했다.",
+  "langston-hughes.interpretation.turning_point.1":
+    "자료를 종합하면 이 전환점은 주도적 행동력과 부합한다. 그는 자기 시를 이름난 시인 앞에 직접 내놓았다. 다만 이 홍보가 반 벡턴의 소개나 1925년 《Opportunity》 시 부문 수상에 비해 얼마나 큰 역할을 했는지는 자료로 가려지지 않는다.",
+  "maria-gaetana-agnesi.achievement.1":
+    "아녜시는 1748~49년에 『이탈리아 청년을 위한 해석학 원리(Instituzioni analitiche)』를 펴냈다. 대수학, 해석기하학, 미분·적분, 미분방정식을 다룬 두 권짜리 책으로, 학생을 위해 이탈리아어로 쓰였고 밀라노의 자기 집에서 라미로 람피넬리와 야코포 리카티의 조언을 받으며 인쇄되었다. 1749년 파리 과학아카데미 보고서는 이 책을 같은 종류의 저작 가운데 가장 완결되고 잘 만들어진 것이라고 평했으며, 이후 프랑스어(둘째 권, 1775년)와 존 콜슨의 영어 번역(1801년 출간)으로 옮겨졌다. 이 책은 이미 알려진 결과를 체계적으로 정리한 것이며 새로운 수학을 담은 책은 아니다.",
+  "maria-gaetana-agnesi.achievement.2":
+    "1752년 3월 아버지가 세상을 떠난 뒤 아녜시는 가난한 이들과 병자를 돌보는 데 몸을 바쳤다. 그녀는 집을 요양소로 바꾸었고, 형제들과의 분쟁으로 그 집을 떠나야 하자 황후 마리아 테레지아에게 받은 보석 상자와 반지를 팔아 또 다른 요양소를 열었다. 1771년부터 1799년 세상을 떠날 때까지 밀라노 트리불지오 구빈원(Pio Albergo Trivulzio)의 여성 구역을 맡아 이끌었고, 가난하게 생을 마쳤다.",
+  "maria-gaetana-agnesi.achievement.3":
+    "아녜시는 어린 시절인 1727년, 아마도 가정교사가 지었을 것으로 보이는 여성의 교양학문 공부를 옹호하는 연설을 라틴어로 옮겨 외워서 낭독했다. 1738년에는 논리학, 역학, 자연철학 등을 아우르는 191개 명제를 『철학 명제집(Propositiones philosophicae)』으로 펴냈고, 밀라노 아버지의 집에서 초청된 학자들과 논쟁하며 이를 변론했다.",
+  "maria-gaetana-agnesi.moment.1":
+    "1739년 7월 16일 프랑스인 방문객 샤를 드 브로스는 밀라노에서 아녜시가 서른 명가량의 손님 앞에서 라틴어로 벌이는 논쟁을 지켜보았고, 그녀가 아주 자연스럽고 정확하게 말했다고 썼다. 그는 또 그녀가, 방문이 학위 논문 변론의 형식이 되어 유감이며 그런 주제를 공개적으로 말하는 것을 좋아하지 않는다고 자신에게 말했다고 적었다(맥튜터의 인용).",
+  "maria-gaetana-agnesi.interpretation.moment.1":
+    "이 발언은 공개 석상에서 자신을 내보이기를 꺼리는 성향과 맞아떨어진다. 다만 한 방문객의 편지에 담긴 기록이고, 그녀가 아버지의 요청으로 이 논쟁에 참여했으므로 거부라기보다 선호를 보여 주는 정도로 읽어야 한다.",
+  "maria-gaetana-agnesi.moment.2":
+    "형제들과의 분쟁으로 아버지의 집에 만든 요양소를 떠나야 하게 되자, 아녜시는 책을 헌정한 대가로 황후 마리아 테레지아에게 받은 보석 상자와 반지를 팔아 그 돈으로 정신적 장애가 있는 이들을 위한 새 요양소를 세웠다(이탈리아 인명사전 트레카니판).",
+  "maria-gaetana-agnesi.interpretation.moment.2":
+    "이 판매는 자신의 자원을 다른 사람의 돌봄에 쓰려는 동기와 맞아떨어지며, 이탈리아 인명사전과 개정된 과학전기사전도 이처럼 베푸는 삶의 전반적 양상에 의견이 일치한다. 다만 자료들은 이 선택을 종교적 언어로 설명하므로, 실질적 영향을 바라는 마음 못지않게 신앙에서 비롯되었을 수도 있다.",
+  "maria-gaetana-agnesi.turning_point.1":
+    "1750년 9월 교황 베네딕토 14세는 볼로냐 학술원 평의회가 아녜시를 대학 수학 석좌에 임명하게 했고, 이 영예는 그녀에게 확정되어 전해졌다. 그러나 그녀는 끝내 볼로냐에 가지 않았다. 1752년 3월 19일 아버지가 세상을 떠난 뒤 그녀는 수학을 접고 종교 공부와 자선에 전념해, 집에서 요양소를 운영하다가 이후 트리불지오 구빈원의 여성 구역을 맡았다. 그녀의 이름은 이후 수십 년간 대학 명부에 남았다.",
+  "maria-gaetana-agnesi.interpretation.turning_point.1":
+    "수학에서 봉사로 옮겨 간 것은 그녀가 중시하는 바가 재편되었음과 맞아떨어지며, 자료들은 이를 아버지의 죽음으로 자유로워진 종교적 소명으로 설명한다. 다만 그녀가 석좌를 실제로 어느 정도까지 보유했는지는 자료마다 다르고, 이 변화는 서서히 이루어진 표류가 아니라 한 번에 이루어진 전환이었다.",
+  "marie-anne-paulze-lavoisier.achievement.1":
+    "마리안 폴즈 라부아지에는 약 20년 동안 앙투안 라부아지에의 실험실 안에서 일했다. 그의 실험실 기록부 열네 권(1772~1788)을 살펴본 역사가들은 그의 필체를 제외하면 그녀의 필체가 가장 자주 나타난다고 본다. 그녀는 1773년부터 항목에 색인과 제목을 달고 베끼고 요약했으며, 1770년대 후반부터는 실험 전체의 기록을 직접 썼다. 또 새로운 화학을 정리한 1789년 『화학 원론』의 동판 삽화 열세 점을 제작했다.",
+  "marie-anne-paulze-lavoisier.achievement.2":
+    "1788년 그녀는 낡은 연소 이론을 옹호한 리처드 커원의 『플로지스톤론』을 번역했고, 덕분에 프랑스 화학자들은 그 책에 항목별로 반박할 수 있었다. 프랑스어판은 그녀가 쓴 역자 서문과 함께, 남편과 다섯 명의 다른 화학자·수학자의 주석을 달고 출간되었다. 전문가들은 그녀의 이름으로 된 주석 세 개가 온전히 그녀의 것인지는 확정되지 않았다고 본다. 따라서 이 논쟁에서의 그녀의 역할은 반박 내용이 아니라 번역과 서문으로 확인된다.",
+  "marie-anne-paulze-lavoisier.achievement.3":
+    "1794년 남편과 아버지가 단두대에서 처형된 뒤 그녀는 체포되었다가 그해 8월에 풀려났다. 이후 그녀는 라부아지에가 끝내지 못한 『물리학과 화학 논문집』의 교정쇄를 되찾아 두 권으로 엮었고, 1805년에 비공식적으로 돌렸다. 다만 더 큰 규모로 계획되었던 이 사업은 미완성으로 남았다. 1835년, 세상을 떠나기 몇 달 전에는 그의 실험실 기록부 열네 권을 과학 아카데미 종신 서기 프랑수아 아라고에게 보냈으며, 이 기록부는 지금 아카데미 문서보관소에 있다.",
+  "marie-anne-paulze-lavoisier.moment.1":
+    "1790년부터 1792년 사이에 그녀는 아르스날에서 이루어진 라부아지에의 인간 호흡 실험을 그림으로 그렸다. 그의 논문집에 삽화로 쓰려고 계획한 연작이었다. 그림에는 실험 대상과 장치가 담겨 있고, 그녀 자신은 탁자에서 기록을 하는 모습으로 들어가 있다.",
+  "marie-anne-paulze-lavoisier.interpretation.moment.1":
+    "스스로를 기록하는 사람으로 그린 것은, 그녀가 기록을 실험의 일부로 여긴 공동 작업의 모습과 어울린다. 또 인쇄된 논문에는 거의 드러나지 않던 역할을 그림으로는 보이게 만들 수 있었음을 보여 준다. 그녀가 왜 자신을 그려 넣었는지는 자료에 나와 있지 않다.",
+  "marie-anne-paulze-lavoisier.moment.2":
+    "1835년, 세상을 떠나기 몇 달 전에 그녀는 과학 아카데미 종신 서기 프랑수아 아라고에게 남편의 제본된 실험실 기록부 열네 권이 든 상자 세 개와 다른 원고, 그의 출간 저작을 보냈다고 적어 두었다. 수십 년 전에 그녀가 함께 채웠던 기록부는 혁명과 재혼, 과부 시절을 거치는 동안 줄곧 그녀 곁에 있었다.",
+  "marie-anne-paulze-lavoisier.interpretation.moment.2":
+    "수십 년 동안 기록부를 지키다가 아카데미에 넘긴 일은 이 프로필의 끈기와 어울린다. 다만 그것이 그의 명성을 지키려는 뜻이었는지, 자신의 기록을 남기려는 뜻이었는지, 둘 다였는지는 자료에 나와 있지 않다.",
+  "marie-anne-paulze-lavoisier.turning_point.1":
+    "1794년 5월 8일 공포 정치 속에서 전직 징세청부인이던 남편과 아버지가 단두대에서 처형되었다. 그녀도 곧 체포되었다가 1794년 8월에 풀려났고, 한 인명사전에 따르면 무일푼이 되어 있었다. 남편과 함께하던 실험실 협업은 끝났고, 이후 몇 해 동안 그녀는 그의 원고를 되찾아 출간을 준비하는 일에 매달렸다.",
+  "marie-anne-paulze-lavoisier.interpretation.turning_point.1":
+    "한 가지 해석은, 그녀가 실험실 동료라는 역할을 그의 업적을 지키는 관리자의 역할로 바꾸었다는 것이며, 이는 이 프로필의 끈기와 어울린다. 재정적 필요와 정치적 분위기, 남편의 이름을 지키려는 마음도 그녀의 행동에 영향을 주었을 것이고, 자료는 이유보다 행동을 더 많이 설명한다.",
+  "mary-church-terrell.achievement.1":
+    "1896년 7월 테럴이 1892년에 세운 워싱턴 유색인여성연맹이 다른 지역의 흑인 여성 클럽 연합들과 합쳐 전미유색인여성협회(NACW)가 출범했고, 그녀는 초대 회장으로 선출되었다. 그녀는 1901년까지 회장을 맡았으며, 박물관 전기들은 '오르면서 함께 끌어올리자'라는 협회의 표어가 그녀의 말에서 나왔다고 전한다.",
+  "mary-church-terrell.achievement.2":
+    "1950년 86세의 테럴은 동료들과 함께 백악관 근처의 톰프슨 구내식당에 들어갔다가 서비스를 거부당했고, 변호사들과 함께 폐지된 적 없는 1872년과 1873년의 워싱턴 D.C. 차별금지 조례에 따라 문제를 제기했다. 1953년 6월 8일 연방대법원은 이 조례가 여전히 유효하다고 만장일치로 판결했고, 그 결과 수도의 식당 인종 분리가 끝났다. 이 판결은 헌법이 아니라 워싱턴 D.C.의 법에 근거한 것이었고, 브라운 대 교육위원회 판결보다 한 해 앞서 나왔다.",
+  "mary-church-terrell.achievement.3":
+    "테럴은 1895년 워싱턴 D.C. 교육위원회 위원으로 임명되어 흑인 여성으로는 처음으로 위원을 지냈고, 1909년에는 NAACP의 창립 회원이 되었으며 1910년에는 대학동창여성클럽(College Alumnae Club)을 공동 설립했다. 1904년 베를린 국제여성회의에서 연설했는데, 미국 의회도서관은 그녀를 독일어로 연설한 유일한 미국인이라고 소개한다.",
+  "mary-church-terrell.moment.1":
+    "1949년 6월 13일 연방항소법원은 미국대학여성협회 워싱턴 지부가 그녀의 가입을 거부할 수 있다고 판결했다. 아흐레 뒤 할렘에서 연설한 그녀는 인내가 부끄러운 악덕이 되었다고 말하며, 사람들이 떠밀리는 데 지쳤음을 알리기 위해 모든 합법적 수단을 쓰자고 촉구했다. 몇 달 뒤 그녀는 톰프슨 식당 시험 소송을 시작했다.",
+  "mary-church-terrell.interpretation.moment.1":
+    "법정에서 패소한 지 몇 달 만에 새 소송에 나선 것은 끈기와 일관되지만, 톰프슨 식당 사건은 방금 패소한 회원 자격 소송과는 다른 법적 경로를 택했다.",
+  "mary-church-terrell.moment.2":
+    "1950년 초 테럴은 윌리엄 저내긴 목사, 노조 간부 제네바 브라운, 백인 퀘이커 교도 데이비드 스컬과 함께 톰프슨 구내식당에 들어갔다. 지배인은 회사 방침이라며 이들에게 음식을 팔지 않았는데, 일행은 이런 답을 예상했고 그 거부 덕분에 옛 워싱턴 D.C. 조례에 따라 인종 분리 식당에 이의를 제기할 진술서를 제출할 수 있었다.",
+  "mary-church-terrell.interpretation.moment.2":
+    "시험 소송의 근거를 만들려고 일부러 거부를 마주한 것은 상황을 기다리기보다 직접 만들어 가는 행동 방식과 일관되지만, 이는 동료와 변호사들과 함께 계획한 공동의 시도였다.",
+  "mary-church-terrell.turning_point.1":
+    "1906년 브라운즈빌 사건으로 흑인 병사 167명이 불명예 제대되자, 테럴은 육군장관 윌리엄 하워드 태프트를 설득했고 태프트는 명령을 잠시 미뤘지만 철회하지는 않았다. 1907년 10월 클리블랜드에서 그녀는 루스벨트 행정부가 흑인 미국인을 저버렸다고 공개적으로 비판했고, 부커 T. 워싱턴 지지자들이 흑인 언론에서 이 연설을 공격했다. 미국 의회도서관은 이 사건을 그녀가 민권 운동가의 길에 들어선 출발점으로 보며, 전기 작가는 그전까지 그녀가 말을 아낀 때가 많았다고 설명한다.",
+  "mary-church-terrell.interpretation.turning_point.1":
+    "남편의 판사직이 대통령의 재지명에 달려 있었음에도 원칙에 따른 입장을 밝히고 공개적 비판을 감수한 이 연설은 갈등을 마다하지 않는 태도와 일관되지만, 그녀가 그 대가를 어떻게 저울질했는지는 자료에 나타나 있지 않다.",
+  "matteo-ricci.achievement.1":
+    "리치는 1583년 중국에 도착해 미켈레 루지에리와 함께 예수회의 중국 선교를 열었고, 1597년부터는 그 책임자로 일했다. 그는 유학자의 복장과 학문을 받아들였고 중국어로 20편이 넘는 저작을 썼으며, 1601년 베이징에 거주할 허가를 얻어 1610년 그곳에서 세상을 떠났다. 유럽의 학문과 그리스도교를 중국의 언어로 풀어 소개한 그의 방식은 적응주의라 불린다.",
+  "matteo-ricci.achievement.2":
+    "1602년 리치는 중국인 학자 이지조와 함께 여섯 폭 목판 세계지도인 「곤여만국전도」를 만들어 한문으로 인쇄했다. 이 지도는 아메리카를 담은 현존 최고(最古)의 중국어 지도이며, 미네소타 대학 벨 도서관은 이를 예수회 학자와 중국 학자·장인의 진정한 협업이라 설명한다.",
+  "matteo-ricci.achievement.3":
+    "리치와 중국 관료 서광계는 유클리드 『원론』의 앞 여섯 권을 중국어로 옮겨 1607년 『기하원본』으로 간행했다. 이 주제를 다룬 학술 논문은 이를 유럽 서적을 중국어로 옮긴 최초의 본격적 번역으로 설명하며, 이후 1614년까지 서광계, 이지조와 함께 쓴 수학 저작이 이어졌다.",
+  "matteo-ricci.moment.1":
+    "유클리드 번역에서 리치는 로마 학원 스승 크리스토퍼 클라비우스의 주석이 붙은 1574년 라틴어판을 바탕으로 내용을 구술했고, 서광계가 이를 중국어로 받아 적었다. 책에는 두 사람이 각각 쓴 서문이 실려 있으며, 리치는 자신의 서문에서 독자들이 이 책을 더 깊은 학문으로 오르는 사다리로 삼기를 권했다.",
+  "matteo-ricci.interpretation.moment.1":
+    "리치가 내용을 대고 중국인 학자가 글로 옮기는 이 작업 방식은 공동 작업이 많이 기록된 이 프로필과 어울리지만, 이 논문은 두 사람이 이 책에 건 목적이 서로 달랐다고도 지적한다.",
+  "matteo-ricci.moment.2":
+    "리치는 1598년 9월 처음 베이징 성벽에 이르렀으나 관리들에게 가로막혀 난징으로 돌아갔다. 2년 뒤 황제의 소환장을 받아 디에고 데 판토하와 함께 1601년 1월 24일 수도에 들어갔고 거주권을 얻었다. 이 이야기는 예수회 자료에 바탕한 인명 사전에 근거한다.",
+  "matteo-ricci.interpretation.moment.2":
+    "거절당한 뒤 같은 목표로 다시 나아간 이 일은 이 프로필의 끈기와 어울리지만, 이 서술은 예수회 계통의 사전 하나에 의존한다.",
+  "matteo-ricci.turning_point.1":
+    "자오칭에서 초기 예수회 선교사들은 지방 장관의 요구에 따라 불교 승려의 복장을 했다. 1589년 사오저우로 옮긴 뒤 리치는 유학자 제자들과의 교류에 방해가 된다는 이유로 이를 버리고 유학자의 비단 도포와 사각 모자를 택했으며, 이후 '대서(大西)에서 온 박사'로 불렸다. 이 변화는 그가 평생 중국 지식인층을 대한 방식의 틀이 되었다.",
+  "matteo-ricci.interpretation.turning_point.1":
+    "처음의 방식이 효과가 없자 이를 버리고 다른 방식을 택한 이 일은 이 프로필의 다른 곳에서 보이는 적응력과 어울리지만, 이 이야기는 주로 예수회 전승과 그 자신의 회고록에서 나온다.",
+  "menelik-ii.achievement.1":
+    "메넬리크 2세는 1896년 3월 1일 아두와에서 이탈리아 원정군을 격파한 에티오피아군을 이끌었다. 이탈리아가 우찰레 조약을 근거로 보호국 지위를 주장하자 그는 약 10만 명을 동원했고, 이 전투는 브리태니커가 식민지 시대에 아프리카 군대가 유럽 열강에 거둔 최초의 압도적 승리라고 평가한 싸움이다. 1896년 10월 26일의 아디스아바바 조약은 우찰레 조약을 폐기했고, 에티오피아는 아프리카 분할 경쟁 속에서도 독립을 유지했다.",
+  "menelik-ii.achievement.2":
+    "그는 쇼아의 왕이자 이후 황제로서 에티오피아의 지배권을 남쪽과 동쪽으로 넓혀 1887년 하라르를 병합했고, 1896년부터 1906년 사이 제국은 대체로 오늘날의 국경에 이르렀다. 이 원정은 국가 수입과 무기 교역의 기반이 되었지만 정복된 지역에서 살상과 노예화도 낳았으며, 이 과정을 재통일로 볼지 식민 정복으로 볼지에 대해서는 역사가들 사이에 지금도 논쟁이 있다.",
+  "menelik-ii.achievement.3":
+    "메넬리크의 치세에 에티오피아는 근대적 제도를 받아들이기 시작했다. 궁정은 새 수도 아디스아바바에 자리 잡았고 1894년에 국가 화폐와 우표가 발행되었으며 같은 해 지부티 철도 부설권이 부여되었다. 이후 전신과 전화, 은행, 학교, 국영 인쇄소가 생겼고 1907년에는 최초의 내각이 구성되었다. 이 가운데 상당 부분은 알프레드 일크 같은 외국인 기술자와 타이투 황후의 역할에 힘입은 것이며, 철도는 그가 세상을 떠난 뒤에야 아디스아바바에 닿았다.",
+  "menelik-ii.moment.1":
+    "1895년 9월 메넬리크는 적이 '두더지처럼 우리 영토를 파먹고 있다'며 동원령을 내렸고, 대부분의 지역에서 8만에서 12만 명으로 추정되는 군대가 모였다. 그는 타이투 황후와 함께 이 군대를 이끌고 약 600마일을 다섯 달에 걸쳐 북상했다. 그전에 그는 두 해 연속의 풍작으로 곡창이 채워지기를 기다렸고 앞선 원정으로 무기를 비축해 두었다.",
+  "menelik-ii.interpretation.moment.1":
+    "오랜 준비와 출정 시기의 선택은 이 프로필의 계획 지향성과 부합하지만, 원정의 성공에는 이탈리아군의 실수와 마켈레에서의 타이투의 전략, 앞선 정복으로 확보한 자원도 크게 작용했다.",
+  "menelik-ii.moment.2":
+    "1897년 레넬 로드가 이끄는 영국 사절단이 아디스아바바에 도착했을 때, 메넬리크는 사절단의 의사에게 항독소 같은 최근의 의학적 발견에 대해 물었고, 현미경을 선물받자 큰 관심을 보였으며 X선 장치에 대해서도 물었다. 마술로 오해받을까 봐 그 장치를 가져오지 않았다는 말을 듣자 그는 웃으며 요한네스 황제 시절에는 사제들이 그렇게 말했을지 몰라도 지금은 더 개명했다고 말했다. 이 기록은 사절단의 일원이 남긴 것으로, 호의적인 손님의 시각이다.",
+  "menelik-ii.interpretation.moment.2":
+    "이 일화는 새로운 지식과 기계에 대한 이 프로필의 호기심과 부합하는 한 가지 사례이며 다른 저자들도 비슷한 관심을 언급하지만, 호의적인 방문자 한 사람의 기록이라는 한계가 있다.",
+  "menelik-ii.turning_point.1":
+    "1868년 영국 원정군이 마그달라에서 테워드로스 2세를 격파했다. 1865년 테워드로스의 궁정을 탈출해 쇼아를 다스리던 메넬리크는 중립을 지켜 영국에 합류하지 않았고, 제관은 영국제 무기를 얻은 티그라이 출신 카사에게 넘어가 그가 요한네스 4세가 되었다. 전기 작가 해럴드 마커스는 이를 중대한 전략적 실책이라고 평가하며, 이후 메넬리크는 무기를 얻기 위해 이탈리아와 프랑스로, 기술과 기술자를 구하기 위해 유럽인들에게로 눈을 돌렸다.",
+  "menelik-ii.interpretation.turning_point.1":
+    "1868년의 기회를 놓친 뒤 유럽 공급선을 적극적으로 확보하는 쪽으로 방향을 바꾼 것은 이 프로필의 적응력과 부합하지만, 실수에서 배웠다는 설명은 주로 한 전기 작가에게 의존한다.",
+  "mirza-taqi-khan-amir-kabir.achievement.1":
+    "아미르 카비르는 1848년 10월부터 1851년 11월까지 나세르 알딘 샤의 총리로서 재정이 바닥난 카자르 왕조 국가를 개편했다. 그는 예산을 세우고 공무원 봉급과 불필요한 연금을 삭감했으며, 관세를 국가가 직접 징수하게 하고 군대를 정규 체계 아래 약 14만 명 규모로 늘렸다. 또 무기 공장을 세우고 군대가 민간인에게서 임의로 물자를 징발하는 것을 금했다. 이란니카는 이러한 개혁을 그의 짧은 재임 기간의 주된 업적으로 평가한다.",
+  "mirza-taqi-khan-amir-kabir.achievement.2":
+    "그는 이란 최초의 근대 교육기관인 테헤란의 다르 알퓨눈과 관보 신문 「와카예 이테파키예」를 설립했다. 1850년에 유럽인 교사 초빙을 지시하고 학교 건물 공사를 시작했으며, 교사들은 그가 해임된 지 이틀 뒤 테헤란에 도착했고 학교는 1851년 12월 29일 다른 이들의 손으로 문을 열었다. 이 학교는 의학, 수학, 자연과학을 가르쳤고 그를 기리는 오래가는 기념물이 되었다.",
+  "mirza-taqi-khan-amir-kabir.achievement.3":
+    "대외 정책에서 그는 영국과 러시아 어느 쪽에도 양보하지 않고 어느 편에도 서지 않았으며, 이란니카는 이를 '소극적 균형'이라고 부른다. 그는 아스타라바드에 러시아가 세우기로 한 무역 거점과 병원 협정을 폐기하고, 러시아의 카스피해 섬 점유를 끝내려 했으며, 페르시아만에서 영국의 권한 주장을 제한했고, 오스트리아와 미국과의 관계를 모색했다. 그 과정에서 러시아와 영국 공사들과 거듭 충돌했다.",
+  "mirza-taqi-khan-amir-kabir.moment.1":
+    "1840년대에 아미르 카비르(당시 미르자 타키 칸)는 약 4년 동안 에르주룸의 오스만-이란 국경 위원회에서 일했고, 이란니카에 따르면 이란 대표단에서 가장 강경한 위원이었다. 그는 모하메라를 이란 주권에서 제외하려는 시도와 이란이 배상금을 내야 한다는 요구에 맞섰으며, 그의 제안 대부분에 반대하던 테헤란 정부로부터 거의 독립적으로 움직였다. 영국 위원 로버트 커즌은 그를 위원들 가운데 가장 흥미로운 인물이라고 평했다.",
+  "mirza-taqi-khan-amir-kabir.interpretation.moment.1":
+    "이 일화는 이 프로필의 갈등 감수성과 부합한다. 그는 여러 국가는 물론 자국 수도에 맞서서도 입장을 지켰지만, 이 서술은 이란 학계와 영국 위원의 칭찬에 의존한다.",
+  "mirza-taqi-khan-amir-kabir.moment.2":
+    "수도에서 아미르 카비르는 처음에 자신에게 제기된 사건을 직접 재판해 종교 법정을 대체하려 했다. 이란니카에 따르면 그는 자신의 법률 지식이 부족해 잘못된 판결을 내렸음을 깨닫고 이 시도를 포기했으며, 이후 국가의 자체 재판소를 통해 종교 법정을 간접적으로 통제했다.",
+  "mirza-taqi-khan-amir-kabir.interpretation.moment.2":
+    "결함이 드러난 계획을 접은 이 일은 이 프로필의 수정 의지와 부합하는 한 사례이지만, 하나의 학술 항목에만 근거한다.",
+  "mirza-taqi-khan-amir-kabir.turning_point.1":
+    "1851년 11월 16일, 젊은 나세르 알딘 샤는 아미르 카비르를 총리직에서 해임했고, 닷새 뒤 그는 다른 직함과 직무도 모두 박탈당했다. 그는 호송되어 카샨으로 보내졌고 1852년 1월 10일 핀의 욕탕에서 처형되었다. 개혁 프로그램은 이를 이끌던 인물을 잃었고, 그가 구상한 다르 알퓨눈은 그가 몰락한 뒤에야 문을 열었다.",
+  "mirza-taqi-khan-amir-kabir.interpretation.turning_point.1":
+    "원인에 대해서는 자료마다 다르다. 이란니카는 정적들과 왕대비의 음모를 강조하는 반면, 당대의 한 영국인 관찰자는 샤에 대한 그의 오만도 지적한다. 이 프로필의 자기주장성은 후자의 일부와 부합하지만, 궁정 정치와 외세의 압력 등 원인은 복합적이었다.",
+  "nellie-melba.achievement.1":
+    "멜버른에서 헬렌 포터 미첼로 태어난 그녀는 고향 도시의 이름을 따 '멜바'라는 예명을 쓰며 1887년 10월 브뤼셀에서 오페라에 데뷔했고, 코번트 가든의 간판 소프라노가 되었다. 1888년 첫 시즌은 반응이 좋지 않았으나 1889년 6월 15일 무대에서 성공을 거두었고, 이후 40년 가까이 그 자리를 지키다 1926년 6월 8일 코번트 가든 고별 무대를 가졌다.",
+  "nellie-melba.achievement.2":
+    "그녀는 음반으로 남은 최초의 위대한 성악가 가운데 한 명이다. 1904년부터 100곡이 넘는 녹음을 남겼고, 1920년 6월 15일에는 첼름스퍼드의 마르코니 공장에서 생방송 라디오 방송에 출연해 노래했다. 비평가들은 거의 3옥타브에 걸친 그녀 목소리의 고른 음색과 순수함을 칭찬했다.",
+  "nellie-melba.achievement.3":
+    "호주 최초의 국제적 클래식 스타였던 그녀는 1902년 호주 모든 주를 순회했고, 1909년에는 낮은 입장료로 지방 소도시를 약 1만 6천 km 돌았다. 제1차 세계대전 중에는 전쟁 자선 기금으로 10만 파운드 넘게 모금했으며, 1918년 대영제국 훈장 데임 커맨더 작위를 받았다.",
+  "nellie-melba.moment.1":
+    "1896년 12월 30일 그녀는 메트로폴리탄 오페라에서 바그너의 「지크프리트」 브륀힐데를 불렀는데, 이는 '니벨룽의 반지'에서 그녀가 맡은 유일한 역이었다. 이 공연은 극장 역사에서 가장 많이 거론되는 실패작 가운데 하나가 되었고, 가벼운 그녀의 목소리는 무리를 입어 몇 달 동안 쉬어야 했다.",
+  "nellie-melba.interpretation.moment.1":
+    "이 일화는 검증된 레퍼토리를 벗어나 경력상의 위험을 감수하려는 태도와 맞아떨어진다. 다만 그녀가 왜 그 역을 맡았는지에 대해서는 자료들이 추측만 내놓을 뿐이며, 이후 목소리를 신중하게 관리했다는 서술도 함께 있다.",
+  "nellie-melba.moment.2":
+    "1888년 5월 코번트 가든 데뷔 무대인 '루치아'는 홍보가 거의 없었고 기대만큼 성공하지 못했으며, 그녀는 다시는 돌아오지 않겠다며 대륙으로 떠났다. 후원자 레이디 드 그레이가 거듭 편지를 보내자 돌아왔고, 1889년 6월 15일 「로미오와 줄리엣」의 줄리엣을 만원 객석 앞에서 불렀다. 그녀는 훗날 런던에서의 성공이 바로 그날 밤부터 시작되었다고 회고했다.",
+  "nellie-melba.interpretation.moment.2":
+    "이 경과는 런던에서 자리를 잡으려는 지속적인 의지와 맞아떨어진다. 다만 복귀는 후원자의 끈질긴 설득과 더 나은 조건에 대한 약속이 계기였으므로, 그녀의 야망과 함께 그녀가 기댄 후원도 보여 준다.",
+  "nellie-melba.turning_point.1":
+    "1884년 1월 멜바는 성악가가 되겠다는 문제로 남편 찰스 암스트롱과 다툰 끝에 그를 농장에 남겨 둔 채 갓난 아들과 함께 퀸즐랜드에서 멜버른행 배에 올랐고, 다시는 매카이로 돌아가지 않았다. 멜버른에서 피에트로 체키와의 레슨을 재개해 1884년 5월 첫 본격 연주회를 열었다.",
+  "nellie-melba.interpretation.turning_point.1":
+    "이 이주는 그녀의 삶을 퀸즐랜드의 결혼 생활에서 이후의 유럽 경력으로 돌려놓았으며, 자기 길을 스스로 정하려는 강한 욕구와 맞아떨어진다. 다만 이 서술은 하나의 전기적 전통에 의존하며, 남편이 결국 동의했다는 기록도 함께 있다.",
+  "ole-r-mer.achievement.1":
+    "그는 파리 천문대에서 일하며 목성의 위성 이오의 식을 연구했다. 1676년 9월 그는 11월 9일의 식이 앞선 식들로 계산한 시각보다 약 10분 늦을 것이라고 아카데미에 알렸고, 실제로 그렇게 되었다. 그는 이 지연을 지구와 목성 사이의 거리가 벌어지는 동안 빛이 이동하는 데 걸리는 시간으로 설명했다. 이것은 빛이 유한한 속도로 움직인다는 사실을 과학적으로 처음 보인 것이었다. 그가 얻은 값은 실제보다 컸고, 학술원 기록에 따르면 카시니도 1676년 8월에 같은 생각을 언급했다가 접었다.",
+  "ole-r-mer.achievement.2":
+    "그는 평생에 걸쳐 기구를 설계했다. 위치의 작은 차이를 재는 마이크로미터, 1678~79년 파리에서 그의 설계로 만든 행성 모형과 식 계산기가 있고, 코펜하겐에서는 눈금 원을 갖춘 자오기를 만들었는데, 이것이 훗날 천문대들이 쓴 자오환의 첫 모형으로 평가된다. 그는 물이 어는점과 끓는점이라는 두 고정점 사이를 눈금으로 나눈 온도계도 고안했고, 1708년 그를 찾은 다니엘 파렌하이트는 자신이 뢰머의 생각을 많이 받아들였다고 밝혔다. 그의 관측 기록 대부분은 1728년 코펜하겐 대화재로 사라졌다.",
+  "ole-r-mer.achievement.3":
+    "1681년 코펜하겐으로 돌아온 그는 크리스티안 5세를 위해 일련의 기술 개혁을 이끌었다. 파운드를 물 1세제곱피트의 무게에 연결한 1683년의 도량형 칙령이 그 하나였고, 코펜하겐의 도로 포장, 가로등, 상수도, 소방도 개선했다. 또 덴마크가 1700년에 시행한 그레고리력 도입에도 조언했다.",
+  "ole-r-mer.moment.1":
+    "1706년 10월 20일부터 23일까지 그는 투스쿨룸 천문대에서 사흘 동안 관측했고 그 기록을 다섯 부 필사하게 했다. 이 사본들은 그의 나머지 기록을 불태운 1728년 코펜하겐 대화재에서 살아남았고, 1760년 토비아스 마이어가 자신의 관측과 비교해 별이 하늘에서 움직이는 것을 처음으로 확인했다.",
+  "ole-r-mer.interpretation.moment.1":
+    "사흘치 관측을 여러 부 필사한 일은 이 프로필의 정밀한 관측에 대한 지속적인 헌신과 어울린다. 왜 그 관측을 골라 필사했는지는 자료에 나와 있지 않다.",
+  "ole-r-mer.moment.2":
+    "1703년 라이프니츠는 그에게 새로 세워진 베를린 학술원의 명예회원 증서를 보내며 연구를 발표하라고 재촉했다. 덴마크 인명사전에 따르면 뢰머는 관측에 대해 쓰지 못한 것이 시간이 부족한 탓도 있고 글쓰기가 어려워서이기도 하며, 연구를 설명하려 하면 늘 무언가 빠졌거나 더 잘할 수 있을 것 같다고 답했다. 그는 정리하지 못한 관측 노트 열일곱 권을 남겼고, 1676년 이후 거의 아무것도 발표하지 않았다.",
+  "ole-r-mer.interpretation.moment.2":
+    "그의 답은 아직 끝나지 않았다고 느끼는 작업을 내놓기 꺼리는 태도와 어울린다. 다만 같은 저자는 시간 부족과 자신의 기구에 대한 불신이 커진 점도 함께 든다. 이는 한 저자가 전하는 편지 한 통에 근거한다.",
+  "ole-r-mer.turning_point.1":
+    "1671년 뢰머는 프랑스 학술원이 보낸 장 피카르를 도와, 티코 브라헤의 옛 천문대가 있던 벤섬에서 목성 첫째 위성의 식을 관측해 그 경도를 정하는 일을 했다. 피카르의 설득으로 그는 파리로 갔고, 새 왕립천문대에서 9년을 살았으며, 1676년 빛의 속도에 관한 결과는 그 작업에서 나왔다.",
+  "ole-r-mer.interpretation.turning_point.1":
+    "이 이동으로 그는 파리 천문대의 목성 위성 관측 사업 한가운데에 들어섰고, 그 덕분에 1676년의 결과가 가능했다. 이는 이 프로필의 숙달을 추구하는 경향과 어울리지만, 초청한 쪽은 피카르였고 뢰머가 무엇을 따져 수락했는지는 자료에 나타나지 않는다.",
+  "qiu-jin.achievement.1":
+    "1907년 2월 추근은 서석린(徐錫麟)이 혁명가 양성의 간판으로 세운 사오싱의 대통학교(大通學校)를 맡아 학생들과 활동가들을 훈련시켰고, 처음에는 7월 초로 잡았다가 7월 19일로 미룬 봉기를 위해 광복군(光復軍)을 조직했다. 7월 6일 서석린이 안후이에서 거사에 실패한 뒤 7월 중순 군대가 학교를 급습했고, 추근은 달아나지 않고 붙잡혀 고문을 받으면서도 자백하지 않았으며 1907년 7월 15일 참수되었다. 봉기는 일어나지 못했지만, 그의 처형은 그를 청말에 가장 잘 알려진 여성 순국자로 만들었다.",
+  "qiu-jin.achievement.2":
+    "추근은 연설과 인쇄물로 여성 교육, 전족 폐지, 남녀평등을 주장했다. 1904~05년 도쿄에서는 학생 집회에서 연설하고 『백화보(白話報)』에 전족에 반대하는 글을 썼으며, 상하이로 돌아와서는 『중국여보(中國女報)』를 창간해 1907년 1월 14일 첫 호에 여성이 문명의 선두에 서자고 촉구하는 사설을 실었다. 자금이 모자라 두 호만 나왔지만, 친구 쉬쯔화(徐自華)가 재정을 도왔고 이 잡지는 이후 더 큰 여성 잡지에 합쳐졌다.",
+  "qiu-jin.achievement.3":
+    "추근은 시도 썼는데, 칼을 노래한 시와 나라를 잃은 슬픔, 여성의 권리를 다룬 시가 있다. 1906년 상하이의 친구들을 위해 짧은 시 약 150편을 손수 옮겨 적었고, 이 시들은 그가 죽은 뒤 유고로 간행되었으며, 이후 딸이 시를 엮어 여러 차례 다시 출간되었다.",
+  "qiu-jin.moment.1":
+    "1904년 일본 유학 자금을 모으던 추근은 1898년 개혁운동으로 투옥된, 알지 못하는 인물을 돕기 위해 그 돈의 상당 부분을 보내면서 전달자에게 자기 이름을 밝히지 말라고 당부했다. 이 일화는 친구 우즈잉(吳芝瑛)의 회고에 실려 있으며, 학술 연구가 이를 다루었고 초기 영어 전기도 되풀이해 전한다.",
+  "qiu-jin.interpretation.moment.1":
+    "이 일화는 자신의 당장의 이익을 대의를 위해 내놓는 태도와 어울리지만, 가까운 친구 한 사람의 회고에 의존하고 있다.",
+  "qiu-jin.moment.2":
+    "1907년 7월 서석린이 안후이에서 일으킨 봉기가 실패했다는 소식이 닿자 학생들과 방문객들이 추근에게 사오싱을 떠나라고 권했지만, 그는 대통학교에 남았다. 군대가 학교를 급습했고 그는 다른 몇 사람과 함께 붙잡혔으며, 관아에서 심문에 답하지도 자백서를 쓰지도 않고 가을비와 가을바람을 노래한 시구 한 줄만 적었다. 이 서술은 초기 전기와 민국 시기 연대기를 따른 것이며, 후대의 이야기에 덧붙은 세부는 학자들이 신중하게 다룬다.",
+  "qiu-jin.interpretation.moment.2":
+    "남아서 침묵을 지킨 행동은 개인적 위험을 크게 감수하는 성향과 어울리지만, 순국자 전승이 이 며칠의 이야기를 빚어냈고 그의 동기는 본인의 말로 기록되어 있지 않다.",
+  "qiu-jin.turning_point.1":
+    "1904년 봄 추근은 관리의 아들과 결혼해 두 아이와 함께 베이징에 살고 있었으나 남편을 떠나 패물을 팔아 일본 유학길에 올랐다. 도쿄에서 학생 단체에 가입하고 강연을 했으며 1905년에는 혁명 조직에 들어갔고, 이후 중국으로 돌아와 공부 대신 봉기 준비에 나섰다. 1904년 이전에는 답답함을 시로 토로했지만, 이후 그의 삶은 죽음에 이르는 3년 동안 여성 교육과 무장 거사 준비에 바쳐졌다.",
+  "qiu-jin.interpretation.turning_point.1":
+    "이 출국은 주어진 삶에서 분명히 방향을 바꾼 일이며 자기 길을 스스로 정하려는 강한 욕구와 어울린다. 다만 출처마다 연도가 다르고, 일본에서의 복장과 인상에 관한 이야기에는 전략적인 면도 있었을 수 있다.",
+  "sofonisba-anguissola.achievement.1":
+    "크레모나의 귀족 가문에서 태어난 안귀솔라는 1545년경부터 베르나르디노 캄피에게, 이어 베르나르디노 가티에게 그림을 배웠고, 주로 가족을 그린 초상화로 당대에 가장 유명한 여성 화가 가운데 한 사람이 되었다. 바사리는 1568년에 쓴 글에서 그가 자매들이 체스를 두는 모습을 그린 그림을 두고 인물들이 살아 있는 것 같다고 칭찬했고, 후대의 저술가들은 이 그림을 대화 장면 그림(컨버세이션 피스)의 이른 사례로 본다.",
+  "sofonisba-anguissola.achievement.2":
+    "1559년 스페인의 펠리페 2세가 안귀솔라를 마드리드로 초청했고, 그는 10년 넘게 엘리자베트 드 발루아 왕비의 시녀이자 그림 교사로 지내며 국왕과 왕실 구성원의 초상화를 그렸다. 1568년 왕비가 세상을 떠난 뒤에는 왕의 요청으로 남아 왕녀들의 교육을 도왔다. 스페인 시기의 작품은 대부분 사라졌거나 오랫동안 다른 화가의 작품으로 여겨져, 궁정 초상화는 일부만 전해진다.",
+  "sofonisba-anguissola.achievement.3":
+    "안귀솔라는 약 70년의 경력 동안 열두 점이 넘는 자화상을 그렸다. 1554년경 책 속의 자기 이름을 가리키는 작은 패널화부터 이젤 앞에 선 자화상, 1620년경의 만년 초상에 이른다. 이 자화상들은 그의 작업 가운데 가장 잘 알려진 부분이며, 당시 여성으로서는 이례적으로 많은 수이다.",
+  "sofonisba-anguissola.moment.1":
+    "미켈란젤로의 친구가 1562년 코시모 1세 데 메디치에게 보낸 편지에 따르면, 미켈란젤로는 웃는 소녀를 그린 그의 드로잉을 보고 더 어려운 주제인 우는 소년을 보고 싶다고 말했고, 안귀솔라는 동생이 울도록 해서 그린 드로잉을 보냈다. 바사리도 아이가 게에게 손가락을 물려 우는 소년을 보고 웃는 아이를 그린 그의 드로잉이 미켈란젤로의 드로잉과 함께 코시모에게 보내졌다고 적었다. 이 교류는 그의 아버지를 통해 이루어졌다.",
+  "sofonisba-anguissola.interpretation.moment.1":
+    "웃음과 눈물을 한 화면에 담은 드로잉으로 거장의 도전에 답한 일은 이 프로필의 창조적 독창성과 어울린다. 다만 이 교류는 아버지가 주선했고, 전해지는 말은 중간 사람의 기록이다.",
+  "sofonisba-anguissola.moment.2":
+    "1624년 안토니 반 다이크는 팔레르모에 있던 안귀솔라를 찾아가 이탈리아 스케치북에 그를 그렸고, 그가 아흔을 넘긴 나이라고 적었다. 반 다이크는 그가 그리는 동안 여러 조언을 건넸고 자신의 삶과 그림에 대해 이야기했으며, 시력이 약해져 더는 그림을 그릴 수 없는 것이 가장 큰 슬픔이라고 말했다고 기록했다.",
+  "sofonisba-anguissola.interpretation.moment.2":
+    "아흔이 넘은 나이에도 젊은 화가와 그림의 원리를 이야기한 모습은 이 프로필의 숙달 지향과 어울린다. 다만 이 이야기는 반 다이크의 기록에만 근거한다.",
+  "sofonisba-anguissola.turning_point.1":
+    "1559년 밀라노의 스페인 관리들의 추천으로 펠리페 2세가 안귀솔라를 궁정에 초청했고, 그는 1559년 겨울부터 1560년에 걸쳐 이탈리아를 떠나 마드리드로 향했다. 그때까지 그는 주로 크레모나에서 가족과 친구의 초상화를 그렸지만, 스페인에서는 공식적인 왕실 초상화를 그렸다. 한 학술 요약은 이를 양식의 뚜렷한 변화로 설명하며, 공식 초상화 관례보다 인물의 개성을 더 살렸다고 평한다.",
+  "sofonisba-anguissola.interpretation.turning_point.1":
+    "크레모나의 가족 초상에서 스페인 궁정의 공식 관례로 옮겨 간 일은 이 프로필의 적응력과 어울린다. 다만 이 이동은 그 자신의 주도가 아니라 국왕의 초청으로 이루어졌다.",
+  "sophia-jex-blake.achievement.1":
+    "1869년 젝스블레이크는 에든버러 대학교에 의학 공부를 신청했다. 대학 이사회가 '한 명의 여성을 위해서는' 수업을 따로 마련할 수 없다며 거절하자, 그녀는 신문에 함께할 여성을 구하는 광고를 냈고 여섯 명이 응했다. 일곱 명은 1869년에 입학 등록을 했는데, 영국 국립문서보관소는 이들을 영국 대학에 정식 등록한 최초의 여성 학부생 집단으로 설명한다. 그러나 대학은 이후 학위 수여를 거부했고, 스코틀랜드 민사최고법원은 1873년 대학에 이들을 받아들일 권한이 없었다고 판결했다.",
+  "sophia-jex-blake.achievement.2":
+    "젝스블레이크는 런던 여성 의과대학(London School of Medicine for Women)을 세우는 데 중심 역할을 했다. 이 학교는 1874년 10월 12일 학생 열네 명으로 문을 열었고, 1877년부터는 학생들이 로열프리 병원에서 임상 수련을 받았다. 그녀는 시험 기관이 여성을 받아들일 수 있게 한 1876년 러셀 거니 허용법을 위해 막후에서 자료와 논거를 대며 힘썼고, 1877년에는 베른 대학에서 의학박사 학위를, 아일랜드 왕립내과의사협회에서 면허를 받아 영국 의사 등록부에 오른 세 번째 여성이 되었다.",
+  "sophia-jex-blake.achievement.3":
+    "1878년부터 그녀는 에든버러에서 개업했고, 그로브가에 가난한 여성을 위한 진료소를 열었다. 이 진료소는 에든버러 여성 병원 및 무료 진료소로 성장했다. 1886년에는 에든버러 여성 의학교를 세웠는데, 영국 국립문서보관소에 따르면 이 학교는 1890년대 말 문을 닫기까지 약 80명의 여성을 교육했고 그중 53명이 의사 등록부에 올랐다.",
+  "sophia-jex-blake.moment.1":
+    "1870년 11월 18일 젝스블레이크와 다른 여성들은 해부학 시험을 보러 에든버러 서전스 홀로 걸어갔다가 길을 메운 수백 명의 남학생과 구경꾼을 맞닥뜨렸다. 그들 앞에서 문이 닫혔고 여성들은 진흙 세례를 받았다. 이후 다른 이들이 도와 안으로 들어갈 수 있었는데, 자료에 따라 대학 수위라고도, 호의적인 남학생들이라고도 한다. 그들은 시험을 치렀다.",
+  "sophia-jex-blake.interpretation.moment.1":
+    "이 일화는 노골적인 적대 속에서도 물러서지 않는 끈기와 맞아떨어진다. 다만 이는 한 사람의 버티기가 아니라 일곱 여성이 다른 사람들의 도움을 받아 해낸 일이다.",
+  "sophia-jex-blake.moment.2":
+    "1871년 1월 2일 세인트자일스 대성당에서 열린 왕립병원 연례 모임에서 젝스블레이크는 여성의 병원 실습을 거부한 운영진을 비판하며, 소동이 학생들만의 탓이 아니고 크리스티슨 교수의 조교가 주동자 가운데 있었다고 말했다. 조교는 명예훼손으로 소송을 냈고, 1871년 배심은 그의 손을 들어 주면서도 손해배상액을 1파딩으로 정했다. 그러나 그녀는 약 915파운드의 소송비용을 떠안았고, 이는 공개 모금과 오빠의 도움으로 충당되었다(토드, 당시 신문 보도를 인용).",
+  "sophia-jex-blake.interpretation.moment.2":
+    "이 일화는 갈등을 감수하는 성향이 높았음과 맞아떨어진다. 반대자를 공개적으로 지목하고 법적·금전적 결과를 받아들일 각오가 있었다는 뜻이다. 다만 토드 자신도 연설의 일부를 직접적인 인신공격으로 평가하고, 젝스블레이크도 조교의 행동을 전해 들었다고 말했으므로, 이 일은 그런 태도의 대가도 함께 보여 준다.",
+  "sophia-jex-blake.turning_point.1":
+    "1873년 스코틀랜드 민사최고법원은 여성들에게 유리했던 판결을 뒤집고, 에든버러 대학이 이들을 받아들인 것은 권한 밖의 일이었다고 판단했다. 이로써 그곳에서 학위를 받는 길이 막혔다. 약 1년 안에 젝스블레이크는 런던 여성 의과대학 설립에 힘을 보탰고, 이 학교는 1874년 10월 문을 열었다. 1877년에는 1876년 허용법이 시행된 뒤 베른과 아일랜드에서 자격을 얻어 의사로 등록되었다.",
+  "sophia-jex-blake.interpretation.turning_point.1":
+    "한 대학을 바꾸려던 데서 병행 기관을 세우고 해외에서 자격을 얻는 길을 찾는 쪽으로 옮겨 간 것은, 길이 막혔을 때 다른 길을 찾아내는 기지와 맞아떨어진다. 다만 이는 다른 여성들과 지지자, 의회가 함께한 일이었고, 각 단계를 누가 제안했는지는 자료에 나와 있지 않다.",
+  "zitkala-sa.achievement.1":
+    "지트칼라샤는 1900년부터 《애틀랜틱 먼슬리》와 《하퍼스 먼슬리》에 다코타인의 어린 시절과 기숙학교 경험을 그린 자전적 에세이와 이야기를 발표했고, 1901년에는 다코타 이야기를 영어로 다시 쓴 《오래된 인디언 전설》을 펴냈다. 1913년에는 윌리엄 F. 핸슨과 함께 《선 댄스 오페라》의 대본과 노래를 썼는데, 미국 국립공원관리청은 이를 최초의 아메리카 원주민 오페라라고 설명한다.",
+  "zitkala-sa.achievement.2":
+    "지트칼라샤는 1916년부터 아메리카 인디언 협회(Society of American Indians)의 서기를 맡았고 1918~19년에는 협회 잡지 《아메리칸 인디언 매거진》을 편집했으며, 전국을 돌며 강연하고 여성 단체들에 원주민의 시민권과 투표권을 지지해 달라고 호소했다. 1926년에는 남편과 함께 전미 아메리카 인디언 평의회(National Council of American Indians)를 세워 1938년 세상을 떠날 때까지 회장을 지냈다. 역사학자 캐스린 케이힐은 1924년 인디언 시민권법을 많은 원주민 활동가의 노력과 폭넓은 정치적 흐름의 결과로 보며 그녀의 활동은 그 일부였다고 설명하고, 이후 여러 주가 원주민의 투표를 막았다고 지적한다.",
+  "zitkala-sa.achievement.3":
+    "1924년 지트칼라샤는 찰스 파벤스, 매슈 스니펜과 함께 인디언 권리 협회가 펴낸 소책자 《오클라호마의 가난한 부자 인디언들》을 공동 집필해, 오대 문명 부족 구성원들의 재산이 카운티 유언검인 법원을 통해 빼앗기고 있다고 보고했다. 브리태니커는 그녀의 토지 사기 조사가 계기가 되어 1928년 연방 메리엄 위원회의 자문위원으로 임명되었다고 설명한다.",
+  "zitkala-sa.moment.1":
+    "1918년 6월 지트칼라샤는 전국여성당(National Woman's Party) 본부에서 연설했고, 다른 여성 단체들 앞에서는 원주민 장신구를 갖춘 사슴가죽 드레스를 입고 강연했는데 그녀는 이 옷을 자신의 '손님을 끄는 미끼'라고 불렀다. 역사학자 캐스린 케이힐에 따르면 그녀는 이런 자리에서 자기 땅과 돈에 대해 발언권이 없는 사람들 위에 군림하는 보호구역 감독관의 권한과 오늘날 인디언 여성의 관심사를 강조했다.",
+  "zitkala-sa.interpretation.moment.1":
+    "이 일화는 청중을 끌어들이기 위해 자신을 보여 주는 방식을 조절하면서도 내용은 자신의 목적에 맞게 이끈 연사의 모습과 일관되지만, 한 역사학자의 설명에 의존하고 있다.",
+  "zitkala-sa.moment.2":
+    "지트칼라샤는 1900년 무렵부터 칼라일 인디언 학교에서 음악과 말하기를 가르치는 한편, 전국 잡지에 기숙학교의 원주민 아동 처우를 비판하는 글을 발표했다. 그녀는 1901년 학교를 떠났는데, 미국 국립공원관리청과 EBSCO는 《하퍼스》에 실린 이야기 직후 해고되었다고 하고, 뉴욕역사학회는 스스로 떠났다고 설명한다.",
+  "zitkala-sa.interpretation.moment.2":
+    "자신이 몸담은 기관을 비판하는 글을 발표한 것은 고용주와의 갈등을 감수하려는 태도와 일관되지만, 사직인지 해고인지에 대해서는 자료마다 설명이 엇갈린다.",
+  "zitkala-sa.turning_point.1":
+    "의회는 1924년 인디언 시민권법을 통과시켰지만, 일부 주는 문자 해독 시험, 전체 선거구 선거, 연방 신탁 토지에 관한 규정 등을 이용해 원주민의 투표를 막았다. 1926년 지트칼라샤와 남편은 전미 아메리카 인디언 평의회를 결성했고, 세 번의 여름 동안 원주민 공동체를 찾아다니며 의견을 듣고 입법을 논의하며 유권자 등록을 도왔다.",
+  "zitkala-sa.interpretation.turning_point.1":
+    "입법상의 부분적 성과 뒤에 새 조직을 만든 것은 끈기와 일관되지만, 평의회가 무엇을 이루었는지에 대해서는 자료가 간략하게만 설명한다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

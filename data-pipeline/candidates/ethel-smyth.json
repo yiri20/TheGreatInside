@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "ethel-smyth",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Ethel Smyth",
+    "aliases": [
+      "Dame Ethel Smyth",
+      "Ethel Mary Smyth"
+    ],
+    "wikidataId": "Q236599",
+    "birthYear": 1858,
+    "deathYear": 1944,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "writer"
+    ],
+    "fieldIds": [
+      "music",
+      "literature"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "nonconformist",
+      "independent",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "creative_creator",
+      "independent_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_smyth_wikidata",
+      "kind": "wikidata",
+      "title": "Ethel Smyth (Q236599), verified live via the Wikidata API (2026-11-20): English label 'Ethel Smyth', description 'English composer and suffragette (1858-1944)', Korean label 에설 스마이스, born 22 April 1858, died 8 May 1944, citizen of the United Kingdom, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q236599"
+    },
+    {
+      "id": "src_smyth_wiw",
+      "kind": "biography",
+      "title": "John Haag, 'Smyth, Ethel (1858-1944)', Women in World History: A Biographical Encyclopedia (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: calls her a British composer whose six operas and many orchestral and choral works differed greatly from other British compositions of the period, all six operas reaching the stage between 1892 and 1925; tells the 1877 standoff with her parents before she left for the Leipzig Conservatory (largely in her own memoir words), her private study of orchestration with Heinrich von Herzogenberg, the exchange with Edvard Grieg, the 1890 Crystal Palace Serenade and 1893 Mass in D, Der Wald at Covent Garden in 1902, the long struggle to place The Wreckers (with Thomas Beecham's remark that she strode around Europe with a cigar trying to sell it), her two years with the Women's Social and Political Union, the Holloway episode as recalled by Beecham, deafness after 1913 and her turn to ten books of memoir, and Virginia Woolf's 1931 diary portrait of her rehearsing The Prison. Reference-work biography, admiring, and partly reliant on her own memoirs and on Beecham's recollections.",
+      "url": "https://encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/smyth-ethel-1858-1944"
+    },
+    {
+      "id": "src_smyth_fuller",
+      "kind": "institution",
+      "title": "Sophie Fuller, 'Dame Ethel Smyth, The Wreckers', programme note for the American Symphony Orchestra concert at Avery Fisher Hall, Lincoln Center, 30 September 2007 (read in full). Independent musicological account: the 1906 Leipzig premiere (extensive cuts to the last act, her removal of the parts and score to a train to Prague), the failed Monte Carlo plan and the German and English translations, the 1909 Beecham performances at His Majesty's Theatre underwritten by Mary Dodge, the Covent Garden performances in 1910, Der Wald at Covent Garden in 1902 and at the Metropolitan Opera in 1903, the observation that Covent Garden would accept a new opera only after some success abroad, her fights for a subsidised national opera and for women orchestral players, and the note that her private diaries record despondency over her neglect by the British musical establishment. Scholarly programme note by an authority on women composers.",
+      "url": "https://americansymphony.org/concert-notes/the-wreckers-1904/"
+    },
+    {
+      "id": "src_smyth_london_museum",
+      "kind": "institution",
+      "title": "London Museum, 'Ethel Smyth: Composer & Suffragette' (museum collection story adapted from a blog by Andrew Millar; read in full). The 1903 Metropolitan Opera performance, her decision to join the Women's Social and Political Union after hearing Emmeline Pankhurst, her two-year break from composing, the March of the Women first played on 21 January 1911, the 1911 presentation of a baton, the March 1912 window-smashing and her time in Holloway Prison with Thomas Beecham's account of her conducting with a toothbrush, the 1913 re-arrest photograph with Pankhurst, her open memoirs, and her damehood in 1922. Public-museum overview, admiring; repeats Beecham's and her own accounts rather than adding independent testimony.",
+      "url": "https://www.londonmuseum.org.uk/collections/london-stories/ethel-smyth-composer-suffragette/"
+    },
+    {
+      "id": "src_smyth_loc_blog",
+      "kind": "institution",
+      "title": "Library of Congress Performing Arts blog 'In the Muse', 'Ethel Smyth and The March of the Women' (March 2022; read in full). Quotes the newspaper Votes for Women: her 1892 interview in which she said she had not given serious thought to suffrage, her November 1910 article 'Better Late Than Never' on her change of view, her January 1911 speech before the first performance, and her reply on declining an invitation to a Berlin composers' conference ('absolutely impossible to keep my self-respect'); also notes that a choir was drilled by her for weeks (from Christopher St John's biography), the folk-song source of the melody, the window-smashing sentence (two months in her memoir, three weeks according to a footnote) and that the toothbrush story is legend. Library blog; draws on contemporary newspaper primary sources.",
+      "url": "https://blogs.loc.gov/music/2022/03/ethel-smyth-and-the-march-of-the-women/"
+    },
+    {
+      "id": "src_smyth_bbcmm",
+      "kind": "press",
+      "title": "BBC Music Magazine, 'Who was Ethel Smyth?' (feature published April 2016; read in full). Anecdotes from her memoirs (the sit-in against her parents, the disguise worn to hear music at a Leipzig restaurant, a lone walk through Italy at 26, tennis, golf and mountaineering), her friendships with Brahms, Grieg and Tchaikovsky, the successes of the Serenade and Mass in D, the Wreckers and The Prison; and a critical verdict that she was a highly erratic composer who rarely achieved a distinctive style of her own and that many consider her prose better than her music. Magazine feature, lively and partly critical; its life stories derive largely from her own memoirs.",
+      "url": "https://www.classical-music.com/features/composers/who-was-ethel-smyth"
+    },
+    {
+      "id": "src_smyth_spectator",
+      "kind": "press",
+      "title": "Richard Bratby, 'Serves Ethel Smyth's opera magnificently: Glyndebourne's The Wreckers reviewed', The Spectator, 4 June 2022 (read in full). Critical review of the 2022 Glyndebourne production, the first in the original French: praises the sea music and choral writing and Smyth's reasoning for composing in French, but says the romantic plot and the two lovers are not memorably characterised, notes a strong Wagner influence, and doubts that The Wreckers is the most important English opera between Purcell and Britten. Contemporary professional review; adversarial on the work's quality.",
+      "url": "https://www.spectator.co.uk/article/serves-ethel-smyth-s-opera-magnificently-glyndebourne-s-the-wreckers-reviewed"
+    },
+    {
+      "id": "src_smyth_cornish",
+      "kind": "institution",
+      "title": "Julia Webb-Harvey, 'Composing a Cornish myth: The Wreckers by Ethel Smyth', Museum of Cornish Life (28 May 2026; read in full). Local-history critique: sets out the 1886 Cornish walking holiday and the 1902 return visit to question old inhabitants, quotes Smyth's disparaging memoir phrase about Cornish people, cites Fuller on the Leipzig episode and the 1909 and 1910 performances, and cites Cathryn Pearce's scholarship finding no evidence that Cornish wreckers deliberately lured ships, so the plot rests on folklore. Counter-voice on the opera's source material.",
+      "url": "https://museumofcornishlife.co.uk/2026/05/28/composing-a-cornish-myth-the-wreckers-by-ethel-smyth/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_smyth_wiw, src_smyth_fuller | 1877-1910 | reference biography, musicological programme note] Fuller documents that she fought for two years to get The Wreckers staged, withdrew it from Leipzig, saw a disastrous under-rehearsed Prague run, and finally reached London in 1909 and Covent Garden in 1910; Haag adds Beecham's remark that she spent five years trying to sell it and that all six of her operas reached the stage. Fuller also says her private diaries record despondency over neglect yet she kept campaigning. The two accounts give different lengths of effort (two versus five years)."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.62,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_smyth_fuller, src_smyth_london_museum, src_smyth_loc_blog, src_smyth_wiw | 1906-1912 | musicological programme note, museum story, library blog, reference biography] Fuller records that she took the parts and score out of the Leipzig orchestra pit when her requested cuts were not restored, making further performances impossible; the museum, library and Haag agree that she threw a stone at the Colonial Secretary's window in March 1912 and went to Holloway, and the library blog quotes her giving up a Berlin conference invitation rather than abandon her colleagues. Haag also tells of a sharp exchange with Grieg. CONCENTRATION: lowered from 80 / 0.66 because the window-smashing is retold by several sources from one chain (her memoir, Votes for Women and Beecham), leaving the Leipzig episode as the only independent behavioural account; impact is dual-edged because the Leipzig withdrawal cost her performances."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_smyth_wiw, src_smyth_bbcmm | 1877-1884 | reference biography, magazine feature] Both sources retell, from her own memoir, how she made home life unbearable until her parents let her go to Leipzig instead of a coming-out season; Haag adds that she left the conservatory after a year and took orchestration lessons privately, and the magazine describes a lone walk across Italy at 26. CONCENTRATION: lowered from 70 / 0.52 and from strong inference to inference because every instance comes from her own memoir through two retellings, with no independent observer."
+    },
+    "risk_tolerance": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_smyth_bbcmm, src_smyth_london_museum, src_smyth_fuller | 1884-1912 | magazine feature, museum story, musicological programme note] The magazine says she saw risk as one of life's spices and describes the lone Italian walk (with a revolver) and her mountaineering; she accepted arrest in 1912 despite her standing and gave up the Leipzig performances over the cuts. CONCENTRATION: lowered from 64 / 0.50 because the physical-risk stories are memoir anecdotes retold by one magazine and the magazine's summary sentence is its own characterisation; the career risks are better documented but less clearly physical or financial risk-taking."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_smyth_london_museum, src_smyth_loc_blog, src_smyth_fuller, src_smyth_wiw | 1902-1930 | museum story, library blog, musicological programme note, reference biography] She stopped composing for two years to work for the Women's Social and Political Union, wrote the March of the Women and drilled a choir for weeks before its first performance, pursued The Wreckers across several European houses, and, according to Fuller, campaigned for a subsidised national opera and for women orchestral players. The sources agree on the self-started campaigns; the choir-drilling detail comes from one biography cited by the library blog."
+    },
+    "achievement_drive": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_smyth_wiw, src_smyth_fuller | 1867-1930 | reference biography, musicological programme note] Haag reports her diary entry at nine that she wished to be made a peeress in her own right because of music and that all six operas reached the stage; Fuller says she fought for performances of her own music throughout her career and records bitterness at being neglected. CONCENTRATION: lowered from 72 / 0.56 because the ambition quote is her own childhood diary, retold once, and the later evidence shows effort to get works performed rather than an independent account of what drove it."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_smyth_wiw, src_smyth_bbcmm, src_smyth_spectator | 1877-1890s | reference biography, magazine feature, review] Haag says she left the conservatory when no one would teach her orchestration and engaged Herzogenberg privately on Tchaikovsky's advice; the magazine describes intensive work in Leipzig and says her orchestration was acknowledged as masterly even by detractors; the Spectator reviewer notes that her Leipzig training went beyond what Elgar received. The evidence is of seeking out training and craft rather than of long-run self-improvement."
+    },
+    "social_assertiveness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_smyth_wiw, src_smyth_fuller, src_smyth_loc_blog | 1880s-1931 | reference biography, musicological programme note, library blog] Haag retells criticising Liszt in front of Grieg until he reprimanded and then apologised to her, reports contemporaries finding her exhausting and obstinate, and quotes Virginia Woolf's 1931 diary of her forthright, self-forgetful conducting; Fuller describes her as assertive and demanding; the library blog quotes her blunt public statements. CONCENTRATION: lowered from 72 / 0.54 because the Grieg story is a single memoir anecdote; Woolf's diary and Fuller's characterisation are independent of it but are general portraits rather than specific episodes. Impact dual-edged because contemporaries found her wearing."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_smyth_london_museum, src_smyth_loc_blog, src_smyth_fuller, src_smyth_wiw | 1910-1930s | museum story, library blog, musicological programme note, reference biography] Two sources record that she put her professional projects on hold for two years to work for the suffrage campaign, which Beecham and the critic Frank Howes thought a waste (Haag); Fuller adds her advocacy for subsidised national opera and women orchestral players. Her motives are described by others and by herself, not tested against other explanations such as loyalty to Emmeline Pankhurst."
+    },
+    "decisiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_smyth_london_museum, src_smyth_fuller, src_smyth_loc_blog | 1906-1912 | museum story, musicological programme note, library blog] The museum says she decided to join the Women's Social and Political Union straight after hearing Pankhurst speak; Fuller says she removed the Leipzig parts and left for Prague after one failed request; the library blog quotes her prompt refusal of the Berlin conference. Quick commitments are documented, but none of the sources describes how she weighed them; impact is dual-edged because the Leipzig departure ended the Leipzig run."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_smyth_wiw, src_smyth_bbcmm | 1913-1930s | reference biography, magazine feature] Haag says that she began to go deaf after 1913, found composing frustrating and turned to writing ten books of memoir and portraits that became bestsellers, while the magazine says her prose gift was already evident before deafness ended her composing and that she wrote The Prison in 1930. SELF-CALIBRATION (agent): lowered from 64 / 0.50 and from strong inference to inference because the two sources disagree on the order of events and neither describes how she adjusted."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_smyth_loc_blog, src_smyth_london_museum | 1892-1911 | library blog, museum story] The library blog quotes the 1892 interview in which she approved of women's suffrage but said she had given it little serious thought and her November 1910 article describing her earlier lukewarmness and her new total commitment; the museum describes the change after hearing Pankhurst. SELF-CALIBRATION (agent): lowered from 64 / 0.52 and from documented to inference because it is a single documented change of view, reported largely in her own words and prompted by a charismatic speaker, which is not a pattern of updating."
+    },
+    "cross_domain_range": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_smyth_wiw, src_smyth_bbcmm, src_smyth_london_museum | 1890s-1930s | reference biography, magazine feature, museum story] She composed chamber, choral and operatic works, conducted her own music, wrote ten books of memoir that Haag calls bestsellers and some critics rate above her music (magazine), and took up public campaigning, golf and mountaineering. Most of this stays within music and writing, which keeps the score moderate."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에설 스마이스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/ethel-smyth-bain-news-service-1920s.jpg",
+    "width": 689,
+    "height": 1000,
+    "source": "Photograph of Ethel Smyth by the Bain News Service, glass negative with the agency's own inscription 'Ethel Smythe' and number 5644-13, Library of Congress Prints and Photographs Division, George Grantham Bain Collection (LC-DIG-ggbain-33693, call number LC-B2- 5644-13 [P&P]); the holder's item record dates it between ca. 1920 and ca. 1925. The file is the Library of Congress master scan (6400 x 8885) cropped to the print area and downscaled to 689 x 1000 with no upscaling and no retouching.",
+    "license": "Public domain in the United States by age and by the holder's statement: a Bain News Service press photograph dated ca. 1920-1925 (before 1931); the Library of Congress item record says 'No known restrictions on publication' and the Library states it does not own rights in its collections. No publication record for this exact image was seen.",
+    "licenseUrl": "https://www.loc.gov/rr/print/res/274_bain.html",
+    "attribution": "Bain News Service, Ethel Smythe [sic], glass negative, ca. 1920-1925; Library of Congress Prints and Photographs Division, George Grantham Bain Collection (LC-DIG-ggbain-33693).",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2014713845/",
+    "creator": "Bain News Service (individual photographer not recorded)",
+    "date": "between ca. 1920 and ca. 1925 (Library of Congress); Wikimedia Commons gives 31 January 1922, which the holder record does not confirm",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.loc.gov/pictures/item/2014713845/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B, downgraded from strong; terms bot-walled) / lead did NOT survive as the shipped image: the Stage A primary lead (Commons 'Portrait of Ethel Smyth.jpg', The Critic 1903, Aime Dupont) was verified at the underlying source (Internet Archive scan of The Critic, April 1903, vol. 42 no. 4, p. 294: caption 'MISS ETHEL M. SMYTH', credit line 'Copyright by Aime Dupont', text about the Metropolitan Opera premiere of Der Wald on 11 March) but the Internet Archive microfilm scan is too dark and streaked for a usable face and the Commons copy returned HTTP 429, so the independent second route was shipped instead: Library of Congress Bain Collection LC-DIG-ggbain-33693, with the holder's item record read (title 'Ethel Smythe' from the Bain negative, summary naming Dame Ethel Mary Smyth, 'No known restrictions on publication', dated between ca. 1920 and ca. 1925) and the LOC legal page read (the Library does not own rights; the user must determine status; no fee or permission requirement stated; a request rate guideline of 10 per minute was respected). The Bain collection rights-statement page is script-rendered and its text could not be read. Sitter evidence: Bain's handwritten title on the negative reads 'ETHEL SMYTHE' (a misspelling of Smyth) and the holder summary names Dame Ethel Mary Smyth; the sitter is an older woman in a tweed jacket and tie consistent with her 1920s photographs. The master TIFF was used, not the Commons restoration, so no Adam Cuerden restoration is involved. KIND likeness. Caveat: no publication of this image before 1931 is documented; PD status rests on the holder's statement and the Bain news-photograph date range. REGION western_europe; ERA 20th_century; nationality GB. COMPOSITION: primary identity is composer; her suffrage activism (two years from 1910) is scored only as behaviour under confrontation, effort and change of view and is not the basis of inclusion. ATTRIBUTION: attributable (extensive memoir and musicological record), though many life anecdotes derive from her own memoirs. CANONICAL SIGNIFICANCE SOURCE: src_smyth_wiw (Women in World History entry by John Haag). READ: 7 sources besides Wikidata (Haag entry in full; Fuller programme note in full; London Museum story; Library of Congress blog; BBC Music Magazine feature; Spectator review; Museum of Cornish Life critique); an ENO web guide was read and discarded because it contains evident errors (birth date, premiere dates). Wikipedia not used as evidence. Not opened: Smyth's memoirs, St John's 1959 biography, Britannica and History Today (bot-walled). KO NAME: no Korean Wikipedia article; Wikidata Korean label used (flag for lead review). Sparse profile: 13 scored rows, not padded."
+  }
+}

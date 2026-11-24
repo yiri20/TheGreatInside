@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "zitkala-sa",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Zitkala-Sa",
+    "aliases": [
+      "Zitkála-Šá",
+      "Gertrude Simmons Bonnin",
+      "Gertrude Bonnin",
+      "Red Bird"
+    ],
+    "wikidataId": "Q2668090",
+    "birthYear": 1876,
+    "deathYear": 1938,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "writer",
+      "activist",
+      "musician"
+    ],
+    "fieldIds": [
+      "literature",
+      "civil_rights",
+      "music"
+    ],
+    "impactDomains": [
+      "literary",
+      "social",
+      "cultural"
+    ],
+    "tagIds": [
+      "advocate",
+      "communicator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_zitkala_wikidata",
+      "kind": "wikidata",
+      "title": "Zitkala-Sa (Q2668090), verified live via the Wikidata API (2026-11-23): English label 'Zitkala-Sa', description 'Yankton Dakota writer (1876-1938)', instance of human, born 22 February 1876, died 28 January 1938 (the Wikidata date differs from the 26 January 1938 given by the National Park Service and Britannica; only the years are used), citizen of the United States; no Korean label and no Korean Wikipedia sitelink. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q2668090"
+    },
+    {
+      "id": "src_zitkala_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Zitkala-Sa' (read; updated November 2026). CANONICAL SIGNIFICANCE SOURCE: calls her a writer and reformer who strove to expand opportunities for Native Americans and to safeguard their cultures; her essays and stories in the Atlantic Monthly and Harper's Monthly; Old Indian Legends (1901); secretary of the Society of American Indians as liaison with the Bureau of Indian Affairs; founder and president of the National Council of American Indians (1926); co-author of 'Oklahoma's Poor Rich Indians' (1924); librettist of The Sun Dance; and, after her investigation of land swindles, adviser to the 1928 Meriam Commission. General reference article, celebratory, with some detail repeated in the Federal Reserve Bank of Minneapolis page (not cited).",
+      "url": "https://www.britannica.com/biography/Zitkala-Sa"
+    },
+    {
+      "id": "src_zitkala_nps",
+      "kind": "institution",
+      "title": "U.S. National Park Service, 'Zitkala-Sa (Red Bird / Gertrude Simmons Bonnin)' profile (read in full). Federal heritage-agency biography drawing on Joanne Barker, Paige Conley and the 1988 article by David Johnson and Raymond Wilson: her boarding-school years, Earlham, the New England Conservatory and the Carlisle school; her criticism of the Carlisle and Bureau of Indian Affairs systems in national magazines; the 1913 Sun Dance opera with William F. Hanson; secretary of the Society of American Indians from 1916 and editor of American Indian Magazine 1918-19; her 1924 voter-registration drive and the General Federation of Women's Clubs Indian welfare committee; the 1924 Oklahoma report; and the National Council of American Indians founded with her husband in 1926. Contains slips (a 1928 death date and a 1936 headstone date) and says she was fired from Carlisle, which other sources dispute.",
+      "url": "https://www.nps.gov/people/zitkala-sa.htm"
+    },
+    {
+      "id": "src_zitkala_cahill",
+      "kind": "institution",
+      "title": "Cathleen D. Cahill (Penn State historian), 'Gertrude Simmons Bonnin (Zitkala-Sa): Advocate for the Indian Vote', first published by the Women's Suffrage Centennial Commission (2020) and republished by the National Park Service (read in full). Scholarly essay: she could be both a citizen of the United States and of the Yankton Sioux Nation, shown by her Arlington tombstone; her work with the Society of American Indians; her suffrage speaking from 1917, including at the National Woman's Party in June 1918 in a buckskin dress she called her 'drawing card'; her proposal of dual citizenship and tribal self-government; the National Woman's Party's turn to the equal rights amendment; the General Federation of Women's Clubs creating an Indian welfare department at her urging; the 1924 citizenship act, which Cahill credits to many Native advocates and political currents; the 1926 National Council of American Indians and three summers of voter registration; and that many Native nations rejected citizenship. Independent academic voice, careful about credit; Cahill's own book on women of color and suffrage is not read.",
+      "url": "https://www.nps.gov/articles/000/gertrude-simmons-bonnin-zitkala-sa-advocate-for-the-indian-vote.htm"
+    },
+    {
+      "id": "src_zitkala_nyhs",
+      "kind": "institution",
+      "title": "New-York Historical Society, Women and the American Story, 'Zitkala-Sa (1876-1938)' life story (read in full). Educational-museum biography: the recruitment to White's Manual Labor Institute at eight and her mother's hesitation; her teaching at Carlisle from about 1900 and her essays in national magazines; her leaving Carlisle in 1901 (said to have left, where the Park Service says fired); the Bureau of Indian Affairs clerk post; the opera with Hanson, who after her death claimed sole authorship; the move to Washington in 1916; the damage her activism did to her relationship with the Bureau; the 1926 council; and her tombstone with a tepee carved on it. Written for students; stresses her boarding-school experience and adds the credit dispute over the opera.",
+      "url": "https://wams.nyhistory.org/modernizing-america/xenophobia-and-racism/zitkala-sa/"
+    },
+    {
+      "id": "src_zitkala_ebsco",
+      "kind": "biography",
+      "title": "Cait Caffrey, 'Zitkala-Sa (Gertrude Simmons Bonnin)', EBSCO Research Starters (2024; read in full). Reference overview: boarding school at eight, Earlham, the Boston conservatory, Carlisle and her articles in the Atlantic Monthly and Harper's (1898-1901), the 1901 story that preceded her dismissal from Carlisle, Old Indian Legends, the Bureau clerk post, the Sun Dance opera, secretary of the Society of American Indians in 1916, the editor's role, American Indian Stories (1921), and the 1926 council; notes that critics have argued her pro-assimilation methods weakened Native traditions while many of her efforts helped preserve them. Short secondary summary; states some details (Standing Rock location, Earlham dates) differently from other sources.",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/zitkala-sa-gertrude-simmons-bonnin"
+    },
+    {
+      "id": "src_zitkala_newmark",
+      "kind": "institution",
+      "title": "Julianne Newmark, review of Tadeusz Lewandowski, 'Red Bird, Red Power: The Life and Legacy of Zitkala-Sa' (University of Oklahoma Press, 2016), Western American Literature 53:2 (Summer 2018; read, Project MUSE). Scholarly review of the first sustained biography: Lewandowski's view of her work as a consistent 'proto-Red Power' vision rather than a liminal or assimilationist one, his caution against reading her peyote opposition and later Catholicism as simply assimilationist, her 1918 congressional testimony against peyote use in ceremonies, for which she has been criticised as opposing Indigenous religious sovereignty, and the thirteen chronological chapters. Independent scholarly voice, but secondhand through one biography (one source family with the Carpenter review).",
+      "url": "https://muse.jhu.edu/article/699692"
+    },
+    {
+      "id": "src_zitkala_carpenter",
+      "kind": "institution",
+      "title": "Cari Carpenter, review of Tadeusz Lewandowski, 'Red Bird, Red Power: The Life and Legacy of Zitkala-Sa', Studies in American Indian Literatures 30:1 (Spring 2018; read, Project MUSE). Scholarly review of the same biography (one source family with the Newmark review): the Carlos Montezuma relationship and the disagreement over what role women should play in a future Indian rights organisation, her conversion to Catholicism while working beside a priest on the Uintah Reservation, her antipeyote campaign conducted on moral rather than religious grounds, her renewed willingness to work with the General Federation of Women's Clubs, and Lewandowski's argument that the Sun Dance Opera reflects a Sun Dance held on the Uintah Reservation in defiance of the federal ban. Notes that Lewandowski is the first biographer of the author.",
+      "url": "https://muse.jhu.edu/article/692232"
+    },
+    {
+      "id": "src_zitkala_report1924",
+      "kind": "archive",
+      "title": "Gertrude Bonnin (Zitkala-Sa), Charles H. Fabens and Matthew K. Sniffen, 'Oklahoma's Poor Rich Indians: An Orgy of Graft and Exploitation of the Five Civilized Tribes, Legalized Robbery' (Philadelphia: Office of the Indian Rights Association, 1924), introductory excerpt read on the University of Nebraska 'Equality Before the Law' teaching site. Primary document, co-authored and partly self-descriptive: states that after a careful first-hand investigation of eastern Oklahoma the authors found the estates of members of the Five Civilized Tribes being robbed through county probate courts after the 1908 act and the 1923 annulment of the state supreme court's protective rules. Shows what the pamphlet said, not its effects.",
+      "url": "https://teachinglegalhistory.unl.edu/s/oer/item/1248"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_nps, src_zitkala_nyhs, src_zitkala_cahill, src_zitkala_newmark, src_zitkala_carpenter | 1900-1926 | federal heritage page, museum biography, historian's essay, scholarly book reviews] While teaching at Carlisle she wrote essays and stories criticising the boarding-school system (NPS, NYHS), she criticised Bureau of Indian Affairs policy from inside the Indian Service (NPS, Cahill), she argued for dual status as a citizen of the United States and of the Yankton Sioux Nation (Cahill), she testified against peyote in 1918, a stand critics read as limiting Indigenous religious sovereignty and Lewandowski's reviewers read as a complex negotiation (Newmark), and she disagreed with Carlos Montezuma about women's role in a future Indian rights organisation (Carpenter). SELF-CALIBRATION (agent): lowered from 74 / 0.58 to 70 / 0.54 because much of her reasoning is known from her own published statements and the scholarly voices all come through the same few historians."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_zitkala_nps, src_zitkala_nyhs, src_zitkala_ebsco, src_zitkala_cahill, src_zitkala_carpenter | 1901-1924 | federal heritage page, museum biography, reference overview, historian's essay, scholarly book review] She published criticism of Carlisle while employed there and left in 1901 (the NPS and EBSCO say she was dismissed after the magazine story and the NYHS says she left, so the sources disagree on the manner), kept criticising the Bureau of Indian Affairs, which the NYHS says damaged her relationship with it, pressed women's organisations to take up Indian citizenship although the National Woman's Party stayed with its own agenda (Cahill), and held her anti-peyote position in the face of criticism (Carpenter). The costs were real, so impact is dual-edged. CONCENTRATION: lowered from 72 / 0.58 to 66 / 0.5 because the Carlisle episode is contested and the other cases rest on one historian."
+    },
+    "cross_domain_range": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_nps, src_zitkala_nyhs, src_zitkala_britannica | 1895-1926 | federal heritage page, museum biography, reference article] She studied and taught music (violin), published essays, stories and a 1901 collection of retold Dakota stories, wrote the libretto and songs for the 1913 Sun Dance opera with a Brigham Young University music professor, worked as a teacher and clerk in the Indian Service, edited American Indian Magazine in 1918-19, and led lobbying and voter-registration organisations. Three source families list the same range; it runs from the arts into advocacy rather than across unrelated fields, which keeps the score moderate."
+    },
+    "persuasiveness": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_cahill, src_zitkala_nps, src_zitkala_nyhs | 1917-1924 | historian's essay, federal heritage page, museum biography] Cahill reports that she spoke at National Woman's Party headquarters in 1918 and to women's clubs, deliberately wearing a buckskin dress she called her 'drawing card' and then pressing the concerns of 'the Indian woman of today', and that at her urging the General Federation of Women's Clubs created an Indian welfare department; the NPS says she lectured across the country and ran a 1924 voter-registration drive. Institutional pages credit her with the 1924 Indian Citizenship Act, while Cahill frames that law as the work of many Native advocates and political currents, and the National Woman's Party did not take up her cause. CONCENTRATION: lowered from 70 / 0.54 strong_inference to 64 / 0.48 inference because the evidence of effect rests largely on one historian and the institutional pages overstate her role in the law."
+    },
+    "leadership_drive": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_nps, src_zitkala_britannica, src_zitkala_cahill | 1916-1938 | federal heritage page, reference article, historian's essay] She was secretary of the Society of American Indians from 1916, edited its American Indian Magazine in 1918-19, founded the National Council of American Indians with her husband in 1926 and served as its president, fundraiser and speaker until 1938, and, according to the NPS, created the Indian welfare committee of the General Federation of Women's Clubs. The offices are documented by three source families; how she won or exercised them is not described. CONCENTRATION: lowered from 72 / 0.58 to 70 / 0.56 because the founder and officer facts repeat across the reference and federal pages."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_britannica, src_zitkala_nps, src_zitkala_cahill, src_zitkala_nyhs | 1900-1938 | reference article, federal heritage page, historian's essay, museum biography] Over nearly four decades her writing, lobbying, voter registration and the 1924 Oklahoma probate report were directed at citizenship, voting rights, education and the protection of Native cultures; Britannica says she strove to expand opportunities and safeguard cultures. The aims are largely stated in her own writing and repeated from source to source. CONCENTRATION: lowered from 76 / 0.6 to 70 / 0.54 because her own statements and the same summary language recur across the pages."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_nps, src_zitkala_cahill, src_zitkala_report1924, src_zitkala_britannica | 1916-1926 | federal heritage page, historian's essay, 1924 pamphlet, reference article] She moved to Washington in 1916-17 to work for Indian citizenship, edited the Society's magazine, pressed women's organisations to act, shared in the first-hand investigation of guardianship abuses in eastern Oklahoma behind the 1924 pamphlet, ran a voter-registration drive, and with her husband founded the National Council of American Indians and spent three summers touring Native communities to register voters. The Oklahoma work was a team effort and the sources do not say who assigned it. CONCENTRATION: lowered from 72 / 0.58 to 70 / 0.56 because several initiating acts rest on Cahill and the federal page, which share a scholarly base."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_nps, src_zitkala_cahill, src_zitkala_report1924, src_zitkala_nyhs | 1910-1926 | federal heritage page, historian's essay, 1924 pamphlet, museum biography] She wrote the Sun Dance opera with Brigham Young University music professor William F. Hanson (the NYHS says he later claimed sole authorship), wrote the Oklahoma report with Charles Fabens and Matthew Sniffen, founded the National Council of American Indians with her husband, worked with white suffrage and club women, and sat among Native women colleagues in the Society (Cahill). The credit dispute and thin detail on how work was shared keep the score moderate. CONCENTRATION: lowered from 66 / 0.52 to 62 / 0.5 because the partnerships are brief mentions and the opera credit is contested."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_cahill, src_zitkala_nps, src_zitkala_nyhs | 1897-1938 | historian's essay, federal heritage page, museum biography] After leaving Earlham for money and health reasons she moved to Boston to study violin (NPS); after Carlisle she kept writing; and when states used Jim Crow-style tactics to keep Native citizens from voting after the 1924 citizenship act, she and her husband formed the National Council of American Indians, registered voters for three summers and kept advocating until her death (Cahill). The late-career persistence rests mainly on Cahill. CONCENTRATION: lowered from 70 / 0.54 to 68 / 0.5 because the post-1924 evidence comes from one historian and the early episodes are thin."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_cahill, src_zitkala_nps, src_zitkala_nyhs | 1897-1926 | historian's essay, federal heritage page, museum biography] She moved between teacher, writer, clerk, librettist, magazine editor and organiser; when the National Woman's Party kept to the equal rights amendment after 1920 she found more success with the General Federation of Women's Clubs (Cahill); and after states restricted Native voting she took her work to voter-registration tours. The shifts are documented, but the sources do not give her reasons. SELF-CALIBRATION (agent): lowered from 66 / 0.5 strong_inference to 62 / 0.46 inference because many role changes were driven by circumstance and the strategic pivots come from one historian."
+    },
+    "ambiguity_tolerance": {
+      "score": 58,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_zitkala_cahill, src_zitkala_nyhs, src_zitkala_newmark | 1900-1938 | historian's essay, museum biography, scholarly book review] Cahill says she explained that she could be both a citizen of the United States and a citizen of the Yankton Sioux Nation and asked for dual membership, her Arlington tombstone reads 'Zitkala-Sa of the Sioux', and Lewandowski's reviewers say he urges reading her positions as complex negotiation. This documents a stated political position and a biographer's framing, not how she handled uncertainty. SELF-CALIBRATION (agent): lowered from 64 / 0.46 to 58 / 0.38 because the evidence is about a position and a framing, not behaviour under uncertainty."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "지트칼라샤"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/zitkala-sa-keiley-1898.jpg",
+    "width": 842,
+    "height": 1000,
+    "source": "Photograph of Zitkala-Sa by Joseph Turner Keiley (1869-1914), 1898, glycerine-developed platinum print (image/sheet 12.4 x 10.3 cm), National Portrait Gallery, Smithsonian Institution, object NPG.2006.10; the holder's own record on si.edu lists sitter 'Zitkala-Sa, 22 Feb 1876 - 26 Jan 1938', artist, date 1898, rights 'CC0' and says the media is in the public domain. The file is the Smithsonian's delivery-service image (3368 x 4000, whole print, not cropped) downscaled to 842 x 1000 with no upscaling.",
+    "license": "CC0 1.0 per the National Portrait Gallery / Smithsonian Open Access record, and independently public domain by age: photographed in 1898 by an artist who died in 1914",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Joseph Turner Keiley, Zitkala-Sa, 1898, glycerine-developed platinum print, National Portrait Gallery, Smithsonian Institution (NPG.2006.10).",
+    "attributionUrl": "https://www.si.edu/object/zitkala-sa:npg_NPG.2006.10",
+    "creator": "Joseph Turner Keiley (1869-1914)",
+    "date": "1898",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.si.edu/object/zitkala-sa:npg_NPG.2006.10"
+  },
+  "provenance": {
+    "createdAt": "2026-11-23T00:00:00Z",
+    "updatedAt": "2026-11-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (downgraded from strong; foreseeable hold risk low; holder bot-walled at Stage B) (Stage B) / SURVIVED and VERIFIED AT THE HOLDER: the lead (NPG.2006.10, Keiley 1898, CC0 per Commons) was kept. The npg.si.edu and collections.si.edu pages and the Smithsonian terms-of-use page are Cloudflare-style bot walls (403, recorded separately), but the same object record is served at https://www.si.edu/object/zitkala-sa:npg_NPG.2006.10 and was read: sitter Zitkala-Sa (22 Feb 1876 - 26 Jan 1938), artist Joseph Turner Keiley (26 Jul 1869 - 21 Jan 1914), date 1898, glycerine-developed platinum print, credit line National Portrait Gallery, Restrictions and Rights 'CC0', Metadata Usage CC0, and the text 'This media is in the public domain (free of copyright restrictions). You can copy, modify, and distribute this work without contacting the Smithsonian'; the page also shows a generic 'Usage Conditions Apply' label that the record's own text and the CC0 field contradict (the holder statement controls, no permission, fee or reproduction restriction is stated). The Smithsonian Open Access page (si.edu/openaccess, read) invites download, sharing and reuse without asking; the terms-of-use page itself could not be read, which is recorded as a bot wall and not as a rights conflict. AGE-ONLY PATH: made in 1898 by Joseph T. Keiley (died 1914), so out of copyright in the United States and under life plus 70 years elsewhere. IMAGE: the Smithsonian delivery-service file NPG-NPG_2006_10_ext (3368 x 4000, whole print including the maker's monogram at the lower right) downscaled to 842 x 1000; no upscaling. IDENTITY: no lettering on the print itself; the sitter is established by the holder catalogue record. As a visual consistency check only, the captioned frontispiece of American Indian Stories ('ZITKALA-SA (Gertrude Bonnin) A Dakota Sioux Indian'; Internet Archive scan americanindianst01zitk, about two decades later) shows the same facial structure, but the likeness comparison is not independent proof. KIND likeness: a photograph made during her lifetime (age 22). FALLBACKS NOT USED: the Gertrude Kasebier c.1898 print at the National Museum of American History (Commons Zitkala-Sa.jpg) and the 1921 frontispiece. PREFLIGHT: QID VERIFIED LIVE (2026-11-23, Wikidata API) Q2668090 label 'Zitkala-Sa', description 'Yankton Dakota writer (1876-1938)', instance of human, born 1876-02-22, died 1938-01-28 (other sources give 26 January), citizen of the United States, no Korean label or Korean Wikipedia article. REGION north_america (Native American, United States; Douglass and Huerta precedent). ERA 20th_century (her work, 1900-1938). KOREAN NAME 지트칼라샤 is a TRANSLITERATION (no Korean source found) of the Yankton/Lakota-derived name pronounced roughly 'zit-kah-lah-shah'; the English orthography would give 지트칼라사; flagged for lead review. COMPOSITION: primary identity is writer, musician and advocate for Native citizenship and cultural survival; the scored behaviour is her writing, organising and lobbying; her Catholic conversion, her marriage and the Montezuma relationship are not scored beyond the one disagreement about women's role in an Indian rights organisation; her anti-peyote testimony is recorded as a documented position that critics dispute, not judged. ATTRIBUTION: attributable (dated publications, a 1924 pamphlet, offices held, scholarly biography and essays). CANONICAL SIGNIFICANCE SOURCE: Encyclopaedia Britannica 'Zitkala-Sa' (src_zitkala_britannica), supported by Cahill's essay. READ (8 sources besides Wikidata): Britannica; NPS profile; Cahill essay (NPS copy of the Suff Buffs article); New-York Historical Society life story; EBSCO Research Starters; Newmark and Carpenter reviews of Lewandowski (Project MUSE excerpts); the 1924 report excerpt (UNL). Also read and not cited: the National Women's History Museum biography (contains errors such as a 1927 date for the Oklahoma report), the Oregon State Archives page, the Federal Reserve Bank of Minneapolis page (repeats the Britannica Meriam Commission claim), the Iowa State Archives of Women's Political Communication page (dates differ). Not opened: Lewandowski's book, Susag, Johnson and Wilson 1988, Zitkala-Sa's own writings beyond the 1924 excerpt, the BYU PDF (403). PERSPECTIVES: (1) general reference; (2) federal heritage summary; (3) independent historian of suffrage and Native women (Cahill); (4) educational-museum biography stressing boarding schools and the credit dispute; (5) scholarly reviews of the first biography discussing the critics' assimilation framing and the peyote controversy; (6) the primary 1924 pamphlet. NON-SELF BEHAVIOURAL SOURCES: Britannica, NPS, Cahill, NYHS, EBSCO, and the two reviews; the 1924 pamphlet is co-authored and used only for what it states. CONTRADICTIONS AND LIMITS: the manner of her 1901 departure from Carlisle (dismissed per NPS and EBSCO, left per NYHS and the National Women's History Museum) is carded neutrally; her death date (26 January 1938 in NPS and Britannica; 28 January in Wikidata; NPS also prints 1928 and 1936 slips); Earlham (NPS says she left six weeks before graduating, Britannica says she graduated in 1897) not carded; the Indian Welfare committee and department of the General Federation of Women's Clubs is dated 1924 by the NPS and around 1920-21 by Cahill, so no date is carded; the 1924 Citizenship Act credit differs (institutional pages say she was instrumental; Cahill credits many advocates and currents) and cards follow Cahill; the opera credit with William F. Hanson is disputed (NYHS). No adversarial biography was found; the critical voices are the assimilation and peyote critiques reported by the reviewers and EBSCO. SOURCE-FAMILY CONCENTRATION: Cahill dominates 1917-1926; the NPS profile and Britannica lean on a few shared scholars; the two reviews are one family (Lewandowski). Seven rows were lowered for concentration and three in self-calibration (details in the handback). MAJOR ACHIEVEMENT GATE (first pass PASS on all six): cards (1) her writings, (2) the Society of American Indians and National Council of American Indians work for citizenship and voting, (3) the 1924 Oklahoma report and the Meriam Commission advisory role; the Sun Dance opera is carried inside card (1). HANDBACK69 is in the scratch directory."
+  }
+}

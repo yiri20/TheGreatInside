@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "marie-anne-paulze-lavoisier",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Marie-Anne Paulze Lavoisier",
+    "aliases": [
+      "Marie-Anne Paulze",
+      "Marie-Anne Pierrette Paulze",
+      "Madame Lavoisier",
+      "Marie Lavoisier",
+      "Madame de Rumford"
+    ],
+    "wikidataId": "Q7229",
+    "birthYear": 1758,
+    "deathYear": 1836,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "artist"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "art"
+    ],
+    "impactDomains": [
+      "scientific",
+      "artistic"
+    ],
+    "tagIds": [
+      "communicator",
+      "detail_oriented"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_paulze_wikidata",
+      "kind": "wikidata",
+      "title": "Marie-Anne Paulze Lavoisier (Q7229), verified live via the Wikidata API (2026-11-20): instance of human, born 1758-01-20, died 1836-02-10, citizen of France, English description 'French chemist and painter (1758-1836)', Korean label 마리안 폴즈 라부아지에 (the English label on the item currently reads 'Mary-Anne Paulzzze Lavoisier', a cosmetic data error). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q7229"
+    },
+    {
+      "id": "src_paulze_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Paulze-Lavoisier, Marie-Anne-Pierette' by Keiko Kawashima (Gale, reproduced on Encyclopedia.com; read in full including its list of her works and bibliography). CANONICAL SIGNIFICANCE SOURCE: calls her an active collaborator across her husband's chemical, administrative and reforming work who especially worked for the success and spread of the chemical revolution; learned chemistry from Bucquet and his colleagues, Latin, Italian and English, drawing with David and print engraving; many volumes of laboratory notes in her hand are in the archives of the Academy of Sciences; thirteen copperplate illustrations for the Traite elementaire de chimie and drawings of the Arsenal laboratory are hers; translated Kirwan's Essay on Phlogiston (published 1788 with her preface) and his paper on the strength of acids (1792) with translator's notes, but the true author of those notes 'remains a mystery'; edited his posthumous Memoires de physique et de chimie (1805); her scientific activity ended about 1805 and she kept a salon until her death. Scholarly reference biography by the specialist on her; admiring but openly flags the authorship question.",
+      "url": "https://encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/paulze-lavoisier-marie-anne-pierette"
+    },
+    {
+      "id": "src_paulze_antonelli",
+      "kind": "institution",
+      "title": "Francesca Antonelli, 'Scrittura, sociabilita e strategie di persuasione: Marie-Anne Paulze-Lavoisier, secretaire (1758-1836)' (doctoral thesis, Universita di Bologna with EHESS Paris, 2020; read in Italian: abstract, introduction, the chapters on the laboratory registers, the Kirwan translation and preface, the drawings and the conclusion). Archive-based study of her handwriting in Lavoisier's fourteen laboratory registers (1772-1788, the most frequent hand after his, per Berthelot and Grimaux): her indices, page numbers, titles, copies, extracts and summary slips from 1773, accounts she wrote entirely from the late 1770s, the gradual thinning of her entries around the mid-1780s, her role in the Essai sur le phlogistique (translator, anonymous; Kawashima's doubt whether the three notes attributed to her are hers alone is judged pertinent), her signed plates and her drawings of the respiration experiments, and her handing the registers to Arago in 1835 shortly before her death. Independent doctoral scholarship on primary archives; argues against the stereotype of the devoted wife who was never a full author.",
+      "url": "https://amsdottorato.unibo.it/id/eprint/9564/1/Antonelli_tesi_Paulze-Lavoisier_2020_def.pdf"
+    },
+    {
+      "id": "src_paulze_womenworld",
+      "kind": "biography",
+      "title": "'Lavoisier, Marie (1758-1836)', Women in World History: A Biographical Encyclopedia (Gale, reproduced on Encyclopedia.com; read in full with its bibliography). Reference biography drawing on Donovan, Holmes, Poirier and Smeaton: the arranged 1771 marriage, her tutoring in chemistry by Bucquet from 1777, English and other translations for her husband, the 1788 Kirwan translation with a few notes of hers, her help with the plates of the 1789 Traite, her records of observations in large registers, her sketches of the respiration experiments (1790, 1791), her soirees at the Arsenal, the working day and the weekly day devoted to experiments, her arrest after the executions of 1794 and release that August, her salon afterwards, her 1805 marriage to Count Rumford (separation 1809) and the Delahante brothers' and Guizot's recollections of her blunt manner. Gale reference article, admiring in tone; carries some romantic detail.",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/lavoisier-marie-1758-1836"
+    },
+    {
+      "id": "src_paulze_sciencemuseum",
+      "kind": "institution",
+      "title": "Rupert Cole, 'Celebrating Madame Lavoisier', Science Museum Group blog (read in full): her thirteen copperplate illustrations for the Traite elementaire de chimie, her laboratory notes, her respiration-experiment illustration c. 1790 showing herself taking notes, her translations of Priestley, Cavendish and Kirwan, her role in spreading the oxygen theory, and the last letter her husband wrote her on 7 May 1794. Museum curator's short blog; contains some claims not repeated here (a two-month Rumford marriage, contradicted by the thesis and the Gale article, and a preface written because a collaborator refused).",
+      "url": "https://blog.sciencemuseum.org.uk/celebrating-madame-lavoisier/"
+    },
+    {
+      "id": "src_paulze_lindahall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'Marie-Anne Paulze' (Scientist of the Day), Linda Hall Library (read in full): calls her his competent assistant in nearly all experiments and the illustrator of most of his published works; says she defended her husband in 1794, was outraged that Monge and Fourcroy did not, kept the name Madame Lavoisier in her second marriage and 'carried on the battle for Antoine's reputation until her death'. Short library biographical note by a historian of science; says she married at twelve (other sources say thirteen) and is not used for that.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/marie-anne-paulze"
+    },
+    {
+      "id": "src_paulze_shi",
+      "kind": "institution",
+      "title": "Science History Institute, 'Revolutionary Instruments: Lavoisier's Tools as Objets d'Art' (magazine article on the 1788 David double portrait; read in full): says she studied painting with David and may have brought husband and painter together, mentions her illustrated inventory of the laboratory equipment for the Traite, and that after his death she retrieved the proofs of his unfinished Memoires de chimie and managed to publish them in 1805. Museum-style institutional feature, mainly about instruments.",
+      "url": "https://www.sciencehistory.org/stories/magazine/revolutionary-instruments-lavoisiers-tools-as-objets-dart/"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paulze_dsb, src_paulze_antonelli, src_paulze_womenworld, src_paulze_sciencemuseum, src_paulze_lindahall | 1772-1792 | reference biography, doctoral thesis, reference biography, museum blog, library note] Across two decades she worked inside her husband's research group: keeping the laboratory registers, translating foreign chemistry he could not read, preparing the plates of the 1789 Traite with him checking the proofs, and sketching the respiration experiments in which she shows herself taking notes. Five sources agree on the partnership, but most draw on the same archive and specialist literature, and it is one working partnership, so the score stays below the top band. SELF-CALIBRATION (agent): lowered from 74 / 0.64 to 70 / 0.58 because the claims share one archival and scholarly lineage and credit is shared between two people."
+    },
+    "detail_orientation": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paulze_antonelli, src_paulze_dsb, src_paulze_womenworld | 1773-1788 | doctoral thesis, reference biography, reference biography] The thesis documents from the registers themselves that from 1773 she added indices, page numbers and titles, copied and extracted other manuscripts, wrote summary slips, and from the late 1770s wrote whole accounts of experiments herself; the Gale entries record the large registers of observations. Several distinct acts across years, but they describe how she kept records in a secretarial role, not how she approached any task, and the sources overlap. CONCENTRATION (agent): lowered from 70 / 0.60 documented to 68 / 0.56 strong_inference because the record-keeping evidence comes from one body of manuscripts read through one scholarly lineage; SELF-CALIBRATION (agent): then lowered to 66 / 0.54 because a clerical role is not proof of a general habit of precision."
+    },
+    "persuasiveness": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_paulze_dsb, src_paulze_antonelli, src_paulze_sciencemuseum | 1788-1792 | reference biography, doctoral thesis, museum blog] She translated Kirwan's anti-Lavoisier essay so that the French chemists could answer it, wrote the translator's preface (the thesis reads it as a short history of chemistry that supports the new system), kept up correspondence with foreign chemists, and the Dictionary of Scientific Biography says the scholars who visited her salon were struck by her clear exposition of her husband's theories. Whether she or others wrote the translator's notes is unresolved, and the exposition claim is one sentence. CONCENTRATION (agent): lowered from 66 / 0.52 to 62 / 0.46 because the authorship of the persuasive notes is disputed and the praise of her exposition is a single retrospective sentence; SELF-CALIBRATION (agent): lowered to 60 / 0.44 and evidenceType to inference because the preface itself is the only firmly attributed persuasive text."
+    },
+    "aesthetic_sensitivity": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paulze_dsb, src_paulze_womenworld, src_paulze_sciencemuseum, src_paulze_antonelli, src_paulze_shi | 1770s-1792 | reference biography, reference biography, museum blog, doctoral thesis, institutional feature] She studied drawing with David, learned print engraving, signed thirteen copperplates for the 1789 Traite, drew an illustrated inventory of the laboratory equipment, and made ink-and-watercolour drawings of the respiration experiments in a Davidian manner. The skill is well attested by several sources, but the plates are technical illustrations made for the book and the sources say little about her taste. SELF-CALIBRATION (agent): lowered from 70 / 0.60 to 64 / 0.52 because documented drawing skill and working as an illustrator are not the same as showing sensitivity to form."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paulze_dsb, src_paulze_womenworld, src_paulze_antonelli | 1771-1788 | reference biography, reference biography, doctoral thesis] After her marriage she learned chemistry from Lavoisier's colleagues (Bucquet tutored her from 1777), Latin so as to read scientific texts, English and Italian, drawing with David, and print engraving, and she kept at it for years: by the late 1780s she could translate a technical polemic and engrave plates. Several distinct skills acquired over time are documented, though the sources do not describe her own motives and the three accounts partly share a lineage."
+    },
+    "cross_domain_range": {
+      "score": 56,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_paulze_dsb, src_paulze_womenworld, src_paulze_antonelli | 1771-1805 | reference biography, reference biography, doctoral thesis] Her working life combined chemistry, languages, drawing and engraving, editing and hosting a scientific salon. All of it served one project, her husband's chemistry, so the breadth is real but narrower than independent careers in unrelated fields. SELF-CALIBRATION (agent): lowered from 60 / 0.50 strong_inference to 56 / 0.44 inference because the same facts already carry the mastery row and the sources do not present breadth as a separate quality."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_paulze_antonelli, src_paulze_dsb, src_paulze_shi, src_paulze_lindahall, src_paulze_womenworld | 1794-1835 | doctoral thesis, reference biography, institutional feature, library note, reference biography] After the executions of 1794 she was arrested and released that August, and over the following decades she retrieved the proofs of his unfinished Memoires, edited and circulated the 1805 edition, kept his laboratory registers for four decades and gave them to Arago in 1835, and (Linda Hall) went on defending his reputation under his name. The 1805 edition stayed incomplete and was circulated only informally, so the effort is documented better than its outcome. SELF-CALIBRATION (agent): lowered from 70 / 0.58 to 66 / 0.54 because the sources largely retell one posthumous-stewardship story and her motives are inferred."
+    },
+    "social_assertiveness": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_paulze_womenworld | 1771-1830s | reference biography] The Gale entry says she called her older suitor 'a fool, an unfeeling rustic and an ogre' at thirteen and quotes Guizot and the Delahante brothers describing her later salon manner as a singular mixture of rudeness and courtesy, with brusque language and authoritarian whims. These are retrospective characterisations by acquaintances and one reference article, not documented behaviour in her scientific work. CONCENTRATION (agent): lowered from 60 / 0.42 to 56 / 0.38 because every claim comes from that one article; her private quarrels in the second marriage are not scored."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마리안 폴즈 라부아지에"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/marie-anne-paulze-lavoisier-david-1788.jpg",
+    "width": 740,
+    "height": 850,
+    "source": "Detail of Jacques-Louis David, 'Antoine Laurent Lavoisier (1743-1794) and Marie Anne Lavoisier (Marie Anne Pierrette Paulze, 1758-1836)', 1788, oil on canvas, 259.7 x 194.6 cm, The Metropolitan Museum of Art, accession 1977.10 (Purchase, Mr. and Mrs. Charles Wrightsman Gift, in honor of Everett Fahy, 1977), Open Access image DP-19709-001 (3038 x 4000). The file is a 740 x 850 pixel crop of the female sitter's head and shoulders cut from the Met's original image at full resolution: cropped only, not resized, not upscaled.",
+    "license": "Public domain / CC0 (Met Open Access, isPublicDomain true in the Met collection API; the 1788 painting is also public domain by age, David died 1825)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Jacques-Louis David, 1788 (detail); The Metropolitan Museum of Art, Purchase, Mr. and Mrs. Charles Wrightsman Gift, in honor of Everett Fahy, 1977, accession 1977.10, Open Access (CC0).",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/436106",
+    "creator": "Jacques-Louis David (1748-1825)",
+    "date": "1788",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/436106"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead, Stage B) / lead SURVIVED: the lead's Met 1977.10 David double portrait is used, as a head-and-shoulders crop of the female sitter. HOLDER RECORD: Met collection API record 436106 read directly (title names both sitters, artist David, date 1788, oil on canvas 259.7 x 194.6 cm, isPublicDomain true, rightsAndReproduction empty, primary image DP-19709-001, 3038 x 4000 downloaded and cropped to 740 x 850). The Met's collection web pages and policy pages answer HTTP 429 to automated requests (bot wall, not bypassed and not a rights conflict); the reuse terms rest on the Met Open Access repository README (read: 'unrestricted commercial and noncommercial use', 'without permission or fee', CC0 icon marks covered items), the API's isPublicDomain flag, and the Met terms wording as returned by a web search of metmuseum.org (Open Access materials may be used for any purpose without permission or fee; do not remove credit lines). AGE-ONLY PATH: painted 1788 in France, creator David died 1825, held in the US, so public domain by age everywhere independently of the holder policy. SITTER: the Met record names Marie Anne Pierrette Paulze as the woman; the Science History Institute article and the Gale entry describe the female figure in the foreground with a folio behind her; a signature/inscription was not checked and the sitter rests on the holder title. KIND likeness (lifetime portrait by a teacher of hers who knew her). CAVEAT FOR THE LEAD: the production-bound candidate antoine-lavoisier uses the same painting (full canvas, antoine-lavoisier-david-1788.jpg), so the two profiles will share a source work; this one is a tight crop of her only. IDENTITY: QID Q7229 verified live 2026-11-20 (human; born 1758-01-20; died 1836-02-10; citizen of France; description 'French chemist and painter (1758-1836)'; English label on the item reads 'Mary-Anne Paulzzze Lavoisier', a cosmetic error, so the canonical name follows the common form Marie-Anne Paulze Lavoisier). No candidate slug or QID collision with another file (antoine-lavoisier is a different person, Q39607). REGION western_europe; ERA early_modern (same as her husband); nationality FR. ZERO POLITICS: only her laboratory, translation, illustration, editing and salon work are scored; the Revolution, the 1794 arrest and her father's and husband's executions are context, the 1795 petition against a deputy is not scored, and her private life and second marriage are not scored (accounts conflict on its length: separation 1809 per the thesis and Gale versus two months per the Science Museum). VOCABULARY: occupations chemist, artist (Wikidata lists chemist and painter; 'translator' and 'illustrator' have no id); fields chemistry, art; tags communicator, detail_oriented; archetypes scientific_explorer, cross_disciplinary_generalist; impact domains scientific, artistic. KO NAME: 마리안 폴즈 라부아지에 is the Korean Wikipedia title and the Wikidata Korean label (authoritative-label). ATTRIBUTION: limited_but_usable: her acts (registers, plates, translation, preface, 1805 edition, 1835 donation) are attributable to archives, but how much of the new chemistry or of the translator's notes was hers is documented as unresolved, and her motives are largely absent; accordingly the profile is sparse (8 rows) and nothing is scored from authorship of the notes. CANONICAL SIGNIFICANCE SOURCE: Complete Dictionary of Scientific Biography entry by Keiko Kawashima (https://encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/paulze-lavoisier-marie-anne-pierette). READ (6 sources besides Wikidata): the DSB entry (full); the Bologna doctoral thesis by Antonelli (abstract, introduction, conclusion and the translation, drawings and registers chapters; Italian); Gale Women in World History (full); Science Museum blog (full); Linda Hall note (full); Science History Institute article (full). NOT FULLY READ: the Chemistry World article (paywalled after its introduction, not cited), Springer abstract of Eagle and Sloan 1998 (abstract only, not cited), the Met policy pages (429), the Cairn article by Antonelli (bot wall), Wikipedia (read for orientation only, not cited). Not opened: Kawashima 2000, Beretta 2001 and 2012, Smeaton, Donovan, Holmes, Poirier. PERSPECTIVES: (1) specialist reference biography (Kawashima in the DSB); (2) archive-based doctoral thesis; (3) Gale women's biography; (4) museum curator blog; (5) library historian's note; (6) institute feature on the portrait. NON-SELF BEHAVIOURAL SOURCES: all six; none is written by her or about a quoted self-account except a few letters the thesis cites. COUNTER-VOICES AND LIMITS: DSB and thesis both say the authorship of the translator's notes is uncertain; Chemistry World's intro says her input to the new chemistry or the new nomenclature is unclear; the 1805 Memoires circulated only informally; sources differ on her age at marriage (12 or 13) and on the Rumford marriage; no adversarial biography was found. MAJOR ACHIEVEMENT GATE: cards (1) laboratory registers, respiration drawings and the plates of the Traite, (2) the Kirwan translation and preface, (3) editing and keeping the posthumous papers; the salon is not a card. SELF-CALIBRATION: see handback (7 of 8 rows lowered; none raised)."
+  }
+}

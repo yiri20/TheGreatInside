@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "gian-lorenzo-bernini",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Gian Lorenzo Bernini",
+    "aliases": [
+      "Gianlorenzo Bernini",
+      "Giovanni Lorenzo Bernini",
+      "Cavaliere Bernini",
+      "Bernino"
+    ],
+    "wikidataId": "Q160538",
+    "birthYear": 1598,
+    "deathYear": 1680,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "artist",
+      "architect"
+    ],
+    "fieldIds": [
+      "art",
+      "architecture"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "leader"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bernini_wikidata",
+      "kind": "wikidata",
+      "title": "Gian Lorenzo Bernini (Q160538), verified live via the Wikidata API (2026-11-20): English label 'Gian Lorenzo Bernini', description 'Italian sculptor and architect (1598-1680)', instance of human, citizen of Italy, Korean label 잔 로렌초 베르니니, born 7 December 1598, died 28 November 1680. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q160538"
+    },
+    {
+      "id": "src_bernini_dbi",
+      "kind": "biography",
+      "title": "Howard Hibbard, 'Bernini, Gian Lorenzo', Dizionario Biografico degli Italiani, vol. 9 (Treccani, 1967; read in full in Italian). CANONICAL SIGNIFICANCE SOURCE: the sculptor and architect who dominated Roman artistic life under Urban VIII and his successors as both executor and entrepreneur; the early Borghese groups (Aeneas and Anchises, Pluto and Proserpina, Apollo and Daphne, David, 1618-25) and portrait busts; the Baldacchino of St Peter's (1624-33, made with the architects of the basilica works including Borromini), his appointment as architect of St Peter's in 1629, the Cornaro Chapel with the Ecstasy of St Teresa (c.1645-52), the Fountain of the Four Rivers (1648-51), the colonnaded piazza of St Peter's begun in 1657, the Scala Regia and the Cathedra Petri; his election as head of the Academy of St Luke in 1621; the collapse of his south bell tower design for St Peter's, pulled down in 1646, and the attacks that followed; the stage comedies and machines he devised from the 1630s; his 1665 visit to France, the Louvre designs that were preferred but never built and the bust of Louis XIV; the late work largely executed by assistants. Quotes his son Domenico's description of him as harsh by nature, fixed in his work and ardent in anger, and the diarist Chantelou's report of his intolerance of French customs and art theory. Scholarly reference biography by a leading Bernini scholar; admiring, with a documented bibliography (Baldinucci, Domenico Bernini, Chantelou, Wittkower).",
+      "url": "https://www.treccani.it/enciclopedia/gian-lorenzo-bernini_(Dizionario-Biografico)/"
+    },
+    {
+      "id": "src_bernini_chantelou",
+      "kind": "archive",
+      "title": "Paul Freart de Chantelou, 'Journal du voyage du Cavalier Bernin en France' (the diary of the months from June to October 1665 when Chantelou attended Bernini in Paris; Ludovic Lalanne's 1885 edition scanned at the Internet Archive; the editor's introduction, the editor's introduction and the entries on the bust of Louis XIV, the Louvre designs, the Academy visit and the weeks before his departure were read in French; the whole diary was not read). PRIMARY OBSERVER SOURCE, not his own account: records him working whole days on the bust and drawing the king from life, asking for clay to sketch the pose before the likeness, advising the painters' Academy on drawing from the nude and from casts, and in the last weeks his angry remarks that the finance minister Colbert treated him like a boy, which Chantelou answered by saying nothing done in anger succeeds. The diarist was his attendant and companion in Paris, so the tone is warm; the editor notes moments of sadness and discouragement and that he presented the finished bust with tears.",
+      "url": "https://archive.org/details/journalduvoyage00lalagoog"
+    },
+    {
+      "id": "src_bernini_baldinucci",
+      "kind": "archive",
+      "title": "Filippo Baldinucci, 'Vita del Cavaliere Gio. Lorenzo Bernino' (first published 1682; the 1812 edition scanned at the Internet Archive, read in part in Italian: the bell-tower dispute, the Four Rivers model, the Louvre invitation, a 1643 letter, the list of busts). FIRST LIFE, written with the cooperation of Bernini's family and so partisan and hagiographic: gives his side of the St Peter's bell-tower crisis (the tests he proposed and the report of the Pope's congregation) and the story that Innocent X was brought to see the Four Rivers model, and prints a 1643 letter in which he writes that his ambition to make himself known would always be very strong. Used for context and for the existence of episodes, never alone for a score.",
+      "url": "https://archive.org/details/vitadelcavalier00baldgoog"
+    },
+    {
+      "id": "src_bernini_getty",
+      "kind": "institution",
+      "title": "J. Paul Getty Museum, 'Bernini and the Birth of Baroque Portrait Sculpture' (Getty Center exhibition page, 2008; read in full): says he and his Roman contemporaries turned the portrait bust into a 'speaking likeness' in stone, is frequently credited with inventing Baroque art, that Urban VIII commissioned the decoration of St Peter's which took ten years, quotes Rudolf Wittkower on the bust of Costanza Bonarelli, and notes that once he took on large architectural projects his time for portrait busts was limited to the most important patrons. Museum exhibition text, admiring and short.",
+      "url": "https://www.getty.edu/art/exhibitions/bernini/"
+    },
+    {
+      "id": "src_bernini_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Gian Lorenzo Bernini' (only the introduction and the sections on his youth and the Borghese period were available to read; later sections were not retrieved): trained by his father Pietro, praised by Annibale Carracci, studied the antique marbles of the Vatican and Michelangelo, carved for Cardinals Maffeo Barberini and Scipione Borghese, the progression from Aeneas, Anchises and Ascanius to Pluto and Proserpina, Apollo and Daphne and David (1619-24) and the portrait busts of the early 1620s; calls the Ecstasy of St Teresa (1645-52) the greatest single example of his mature art and says he created the Baroque style of sculpture. Short reference article, celebratory, partly read.",
+      "url": "https://www.britannica.com/biography/Gian-Lorenzo-Bernini"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernini_dbi, src_bernini_baldinucci, src_bernini_getty | 1620s-1670s | reference biography, first life, museum exhibition text] He worked as sculptor, architect of St Peter's and its piazza, fountain designer, painter and portrait draughtsman, and from the 1630s wrote and staged comedies with scenery and machines; the DBI quotes John Evelyn's 1644 remark that he had painted the scenes, carved the statues, invented the machines, composed the music, written the comedy and built the theatre for one performance, and notes that Urban VIII wanted a universal man. Several families describe the breadth, but the theatrical work is poorly documented and the DBI itself says Barberini theatre activity rests largely on legend. SELF-CALIBRATION (agent): lowered from 76 / 0.62 to 72 / 0.58 because the universal-man picture is partly the patron's ambition and the stage claims are thin."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernini_dbi, src_bernini_getty, src_bernini_britannica | 1620-1650 | reference biography, museum exhibition text, reference article] The DBI documents specific departures: he set aside the Giambologna tradition of statues meant to be seen from every side and chose a single peak moment seen from one viewpoint, turned the official bust into a conversational portrait with the 1632 Scipione Borghese busts, and staged 'De' due teatri' in 1637-38 with masks of spectators so the audience seemed to face a mirror-image house. The claim that he created the Baroque style rests on later reputation (Britannica, Getty). CONCENTRATION CORRECTION (agent): lowered from 76 / 0.56 to 70 / 0.50 because the specific departures come from one scholar's reading and the larger priority claim is reputation."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernini_dbi, src_bernini_getty, src_bernini_chantelou | 1621-1665 | reference biography, museum exhibition text, observer diary] His colleagues elected him head of the Academy of St Luke in 1621; he became architect of St Peter's in 1629 and directed large teams (the DBI says the marble incrustation of the nave for the 1650 jubilee used all the notable sculptors and that the piazza, Scala Regia and Cathedra were carried out almost wholly by assistants under his plans); in Paris he advised the Academy of painters. The DBI also says he was happy to leave execution to specialists, so the drive described is to direct rather than to hold rank. CONCENTRATION CORRECTION (agent): lowered from 70 / 0.56 to 66 / 0.50 because the organisational record comes mainly from one reference biography."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bernini_dbi, src_bernini_chantelou | 1624-1670 | reference biography, observer diary] The Baldacchino was made with the architects of the St Peter's works, among them Borromini, and he relied on pupils and assistants for most late works and staged his comedies with his pupils; in Paris he offered advice to younger artists but the DBI also reports his intolerance of French practice. The evidence is of a large hierarchical workshop with him as the director, not of how he worked with peers. CONCENTRATION CORRECTION (agent): lowered from 64 / 0.50 strong_inference to 58 / 0.42 inference because the sources describe delegation under his direction rather than shared work."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bernini_dbi, src_bernini_britannica, src_bernini_chantelou | 1610s-1665 | reference biography, reference article, observer diary] As a youth he drew almost daily for two years and studied the antique marbles and paintings of Roman collections, and Britannica adds his close study of Michelangelo; in 1665 Chantelou records him advising the Academy that beginners should draw from casts of antique statues because drawing from life alone was not enough. The practice is documented over a lifetime, but the sources are mostly one biographer and one diary. CONCENTRATION CORRECTION (agent): lowered from 68 / 0.55 to 64 / 0.50 because two of the three sources retell the same early training."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bernini_chantelou, src_bernini_dbi | 1633-1665 | observer diary, reference biography] Before carving the bust of Louis XIV he asked for clay to make sketches of the pose while he prepared to work on the likeness and drew the king's face and profile from life in the days before (Chantelou); the DBI says his stage comedies were prepared and rehearsed with great meticulousness and that he valued the freshness of sketches and tried to keep it in his marbles. Two distinct habits, but one diary carries the portrait case. CONCENTRATION CORRECTION (agent): lowered from 62 / 0.50 strong_inference to 60 / 0.46 inference because the portrait preparation rests on one observer."
+    },
+    "deep_focus": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bernini_chantelou | 1665 | observer diary] Chantelou records him working on the bust model for whole days, until seven in the evening before going to prayers, and being extremely displeased and fatigued when a visitor interrupted him at the work. Several entries in one diary over a few months; no second source describes his working habits."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bernini_dbi, src_bernini_baldinucci | 1644-1665 | reference biography, first life] After Urban VIII's death in 1644 the Barberini fell and for a while he lost favour, yet he went on to serve Innocent X, Alexander VII and later popes (the DBI counts eleven popes served) and devoted himself increasingly to architecture under Alexander VII. How much he changed his methods or only kept patrons is not documented, and the Paris visit shows resistance to French practice. SELF-CALIBRATION (agent): lowered from 68 / 0.52 strong_inference to 62 / 0.46 inference because longevity of patronage is outcome evidence and the Innocent X reconciliation rests on a tradition told in a partisan life."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bernini_dbi, src_bernini_baldinucci | 1646-1680 | reference biography, first life] After the south bell tower was pulled down in 1646 and his career seemed in danger for the first time, he began a Truth Unveiled by Time to answer the attacks (only the figure of Truth was carved), kept his post at St Peter's and went on to carve the Cornaro Chapel and the Four Rivers; he was restoring a palace in his last months. The recovery is documented, but the sources do not show what he did day to day. SELF-CALIBRATION (agent): lowered from 62 / 0.48 to 58 / 0.42 because the recovery owes much to patrons and the account of his response is largely his own biographer's."
+    },
+    "social_assertiveness": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bernini_chantelou, src_bernini_dbi | 1665 | observer diary, reference biography] In Paris, Chantelou records him telling his host in anger that the finance minister Colbert treated him like a boy and that he wanted to leave, and the DBI reports his intolerant opposition to French customs and art theory and quotes his son's description of him as ardent in anger; he also stayed longer than planned and left with honours. The sources describe temper and objection more than assertive conduct in general. SELF-CALIBRATION (agent): lowered from 60 / 0.44 to 58 / 0.40 because the observations come from one season of one diary."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bernini_baldinucci, src_bernini_dbi | 1621-1680 | first life, reference biography] A 1643 letter printed by Baldinucci says his ambition to make himself known would always be very strong; the DBI says he dominated Roman art as executor and entrepreneur from 1623 until his death and began the Truth group in 1646 to defend his standing. The ambition is stated in a courtly letter to a patron and inferred from position held. SELF-CALIBRATION (agent): lowered from 66 / 0.44 to 62 / 0.40 because the statement is self-report to a patron and the rest is outcome."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "잔 로렌초 베르니니"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/gian-lorenzo-bernini-ottavio-leoni-1622.jpg",
+    "width": 788,
+    "height": 1000,
+    "source": "Engraving with stipple by Ottavio Leoni (Roman, c.1578-1630), portrait of Bernini in an octagonal frame, impression 2012.96.4 in the National Gallery of Art, Washington (Gift of John O'Brien; sheet 14.5 x 11.6 cm trimmed to platemark; Bartsch 19). The plate's own lettering reads 'Eques Joan.s Laure-tius / Berninus Neapolitan' sculptor' and 'Eques Octauius Leon / Roman' pictor fecit / 1622'. The file is the National Gallery's open-access image (3227 x 4096) downscaled to 788 x 1000 with no upscaling.",
+    "license": "CC0 1.0 (National Gallery of Art Open Access): the item page states 'This object's media is free and in the public domain' and the gallery's open-access policy releases such images under CC0; the work is also public domain by age (Leoni died 1630)",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Ottavio Leoni, Gianlorenzo Bernini, engraving and stipple, plate dated 1622 (catalogued by the museum as 1625). National Gallery of Art, Washington, Gift of John O'Brien, 2012.96.4 (open access; courtesy National Gallery of Art, Washington).",
+    "attributionUrl": "https://www.nga.gov/artworks/159735-gianlorenzo-bernini",
+    "creator": "Ottavio Leoni (Roman painter and engraver, c.1578-1630)",
+    "date": "1622 (plate inscription; the National Gallery catalogues this impression as 1625)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.nga.gov/artworks/159735-gianlorenzo-bernini"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: Stage B PLAUSIBLE / initial lead (Borghese self-portrait c.1623) DID NOT SURVIVE and was replaced by the preflight's fallback route, the Ottavio Leoni engraving at the National Gallery of Art. Borghese: the Galleria Borghese website could not be reached from this environment and the preflight summary says non-commercial reuse only with a concession for other use, so that painting was dropped, not cleared. Leoni: the NGA item page (nga.gov/artworks/159735-gianlorenzo-bernini) was readable this time and states the media is free and in the public domain; the NGA terms-and-notices page was read and gives the open-access policy (CC0, no authorization needed, credit encouraged); the NGA opendata image table marks the image open access; the image was downloaded from the NGA IIIF service. HOLDER DISCREPANCY: the NGA record dates this impression 1625, but its own transcription of the plate lettering gives 'Eques Octauius Leon ... Roman pictor fecit ... 1622'; both recorded. A second NGA impression (1941.8.8, dated 1622) carries a later hand's ink annotation and was not used. Sitter confirmed by the plate lettering ('Eques Joan.s Laure-tius Berninus Neapolitan sculptor': the title of knight and his Neapolitan origin fit Bernini, who was made a knight of Christ under Gregory XV). KIND likeness (a contemporary engraved portrait made when he was about 23; the plate does not say it was drawn from life). QID VERIFIED LIVE (2026-11-20) Q160538. REGION southern_europe (precedent Michelangelo, Caravaggio). ERA early_modern. ATTRIBUTION: limited_but_usable (a heavily documented public career with dated works, a primary observer diary and a scholarly reference biography; the earliest lives by Baldinucci and his son Domenico are hagiographic and their anecdotes, such as the Four Rivers ruse, are used only as flagged traditions, never alone for a score). CANONICAL SIGNIFICANCE SOURCE: Hibbard, Dizionario Biografico degli Italiani. READ: Treccani DBI entry (full, Italian); Chantelou diary in the 1885 Lalanne edition (editor introduction and selected entries, French); Baldinucci Vita (1812 edition, selected passages, Italian); Getty exhibition page (full); Britannica (only the introduction and early sections were retrievable). Wikipedia not used. Not opened: Domenico Bernini's Vita, Wittkower, Mormando, the Met Heilbrunn essay (429), Smarthistory (403), Galleria Borghese site (no connection), full Britannica text. Independent behavioural families are few: Hibbard's reference biography; Chantelou's diary (observer of one season, 1665); Baldinucci (partisan); Getty is interpretive. Sparse 11-row profile by design; behavioural evidence is thinnest on private life and on how he worked with peers. COUNTER-VOICES: the attacks after the 1646 bell-tower demolition, Chantelou's record of his anger at Colbert, Hibbard on his intolerance of French practice and his son Domenico on his temper; the DBI notes the Barberini theatre activity is largely legend. Private conduct (the Bonarelli affair and any violence reported in other sources) was not read in primary documents and is not scored. ZERO POLITICS: papal and court patronage is context only. KO NAME 잔 로렌초 베르니니 is the Wikidata ko label and Korean Wikipedia title (authoritative-label; a web search found no other Korean entry to confirm). Vocabulary note: no sculptor occupation exists in the taxonomy, so occupations are artist and architect and fields art and architecture. SELF-CALIBRATION: 10 of 11 rows lowered (scores 10, confidences 10, evidence type 3); nothing raised; see handback."
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "maria-gaetana-agnesi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Maria Gaetana Agnesi",
+    "aliases": [
+      "Maria Agnesi",
+      "Maria Gaëtana Agnesi",
+      "Donna Maria Gaetana Agnesi"
+    ],
+    "wikidataId": "Q200392",
+    "birthYear": 1718,
+    "deathYear": 1799,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "philanthropist"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational",
+      "social"
+    ],
+    "tagIds": [
+      "prodigy",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_agnesi_wikidata",
+      "kind": "wikidata",
+      "title": "Maria Gaetana Agnesi (Q200392), verified live via the Wikidata API (2026-11-20): label 'Maria Gaetana Agnesi' (shared multilingual label), English description 'Italian mathematician and philanthropist (1718-1799)', Korean label 마리아 가에타 아녜시, born 16 May 1718, died 9 January 1799, instance of human, citizenship Habsburg monarchy. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q200392"
+    },
+    {
+      "id": "src_agnesi_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Maria Agnesi' biography (read in full). CANONICAL SIGNIFICANCE SOURCE (alongside the Dictionary of Scientific Biography): the two-volume Instituzioni analitiche (1748-49) as a teaching text of algebra and calculus, the Paris Academy of Sciences' report praising its order and clarity, Benedict XIV's appointment to the Bologna chair in 1750 that she never took up, and her turn to charity after her father's death in 1752. Quotes the 1739 account of the French visitor de Brosses (she disliked the public disputations), her 1745-47 letters to Jacopo Riccati about printing and advice, and her preface thanking Rampinelli. Draws on Truesdell's biography; also corrects the claim that her father was a Bologna professor and says the book contains no original mathematics by her. Admiring but careful on facts.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Agnesi/"
+    },
+    {
+      "id": "src_agnesi_treccani",
+      "kind": "biography",
+      "title": "'Agnesi, Maria Gaetana', Dizionario Biografico degli Italiani (Istituto della Enciclopedia Italiana Treccani, online edition; read in full, in Italian). Reference biography: the 1727 oration, the 191 theses of 1738, her mathematical study from 1740 with the Olivetan monk Ramiro Rampinelli, the book printed in her own house in Milan with the help of Rampinelli and Riccati, Benedict XIV's offer of the Bologna chair (nominated 16 September 1750, never occupied), the hospice in her house after her father's death in 1752, the lawsuits of her brothers, her sale of the Empress's gifts to found another hospice, and her post at the Pio Albergo Trivulzio from 1771. Notes 25 volumes of unpublished manuscripts at the Ambrosiana. Calls Frisi's 1799 Elogio fundamental but hagiographic; wrongly repeats that her father taught at Bologna.",
+      "url": "https://www.treccani.it/enciclopedia/maria-gaetana-agnesi_(Dizionario-Biografico)/"
+    },
+    {
+      "id": "src_agnesi_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entries on Agnesi (Encyclopedia.com page carrying the original entry, which MacTutor attributes to E. A. Kramer, and a later revised entry that corrects it; read in full). The revised entry, written from recent scholarship, says her father was not a university lecturer, that her education was part of his plan to raise the family's status, that her textbook was written for students and organised around systematising the literature and geometric clarity (with no physical applications), that she refused to go to Bologna, taught poor girls, opened her family palace to sick women and from 1771 directed the women's section of the Pio Albergo Trivulzio, and died poor in 1799 and was buried in a common grave. The older entry adds that she declined in 1762 to referee Lagrange's papers and notes her modesty. The page also reproduces a short derivative encyclopedia summary, not used.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/agnesi-maria-gaetana-0"
+    },
+    {
+      "id": "src_agnesi_frisi",
+      "kind": "biography",
+      "title": "[Antonio Francesco Frisi], 'Elogio storico di D.a Maria Gaetana Agnesi milanese' (Milan: Giuseppe Galeazzi, 1799; ETH-Bibliothek Zurich copy on e-rara, OCR text read selectively: the 1750 papal brief and Bologna appointment, her charitable work and move to the Pio Albergo, the trustees' printed testimonial of 1791 and the passage on Giuseppe Franchi's bust). Contemporary biography by a priest who knew her; hagiographic (Treccani calls it fundamental but agiografico) and it quotes her own letters, so it is not independent of her. Used with caution; the OCR is poor and the book's frontispiece is the portrait used on the site.",
+      "url": "https://doi.org/10.3931/e-rara-10547"
+    },
+    {
+      "id": "src_agnesi_conversation",
+      "kind": "press",
+      "title": "The Conversation, 'Maria Agnesi, the greatest female mathematician you've never heard of' (2018, by an Indiana University professor; read in full). Popular overview: the oration at nine, the 1748 textbook written in Italian for students, the Paris Academy's praise, the Bologna appointment she did not take up, the small hospital in her home, giving away her wealth including the Empress's gifts and burial in a pauper's grave, and a quotation in which she says her studies were 'derived from obedience' to her father's will and that she had found better ways to serve God. Derivative of the scholarship above; includes some contested claims ('first woman appointed to a university chair') that are not repeated.",
+      "url": "https://theconversation.com/maria-agnesi-the-greatest-female-mathematician-youve-never-heard-of-94378"
+    },
+    {
+      "id": "src_agnesi_physicstoday",
+      "kind": "press",
+      "title": "Physics Today (American Institute of Physics), 'Maria Gaetana Agnesi' (short biographical news item, read in full). Born 16 May 1718, eldest of 21 children of a silk merchant; seven languages by eleven; shy and participated in the soirees at her father's instigation; asked to join a convent and her father refused; Propositiones philosophicae (1738) and Instituzioni analitiche (1748) as a compilation of the work of several mathematicians; the 'witch' mistranslation; the Bologna chair she never filled; half a century of helping the poor, especially women; director at the Pio Albergo Trivulzio from 1771. Brief and derivative; used only to confirm outline facts.",
+      "url": "https://physicstoday.aip.org/news/maria-gaetana-agnesi"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_agnesi_treccani, src_agnesi_mactutor, src_agnesi_dsb, src_agnesi_frisi | 1740-1748 | reference biography, university history site, scientific biography, contemporary biography] After meeting Rampinelli in 1740 she worked through Reyneau's Analyse demontrée and recent analysis for about seven years (Treccani; the older Dictionary of Scientific Biography entry says a decade) and produced a thousand-page, two-volume treatise she supervised through the press in her own house; earlier she had written a never-published commentary on de L'Hopital's conics, and 25 volumes of unpublished papers survive at the Ambrosiana (Treccani). Her training was arranged by her father and his tutors. SELF-CALIBRATION (agent): lowered from 80 / 0.68 documented to 76 / 0.62 strong_inference because the study narrative descends from one tradition (Frisi, Anzoletti, Truesdell) and was directed by tutors. Lead review lowered this row to 72 / 0.56 because the study timeline and the arranged training rest on the same single biographical tradition."
+    },
+    "analytical_rigor": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_agnesi_dsb, src_agnesi_treccani, src_agnesi_mactutor | 1748-1749 | scientific biography, reference biography, university history site] The revised Dictionary of Scientific Biography entry says she gave priority to systematising the scattered literature and clarifying its concepts, and preferred geometric evidence to algebraic manipulation; Treccani quotes her preface about bringing scattered discoveries into method; and the Paris Academy report quoted by MacTutor praises its order, clarity and precision. The sources describe design choices in a textbook, not how she reasoned; MacTutor adds that it holds no original mathematics by her. SELF-CALIBRATION (agent): lowered from 74 / 0.60 to 70 / 0.54 because the main praise comes from an academy report and admiring biographers."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_agnesi_treccani, src_agnesi_mactutor, src_agnesi_frisi, src_agnesi_dsb | 1745-1799 | reference biography, university history site, contemporary biography, scientific biography] She carried a very large printing project through with repeated delays (her 1745-47 letters to Riccati, in MacTutor), and after 1752 kept up charitable work for almost half a century: when her brothers' disputes forced her to leave the house she had turned into a hospice she founded another, and she served at the Pio Albergo from 1771 until her death (Treccani, revised Dictionary of Scientific Biography entry); Frisi adds that she put up with difficult patients. SELF-CALIBRATION (agent): lowered from 72 / 0.60 to 68 / 0.54 because the long record of charity is mostly summarised by admiring or derivative sources."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_agnesi_treccani, src_agnesi_mactutor, src_agnesi_frisi, src_agnesi_dsb | 1745-1791 | reference biography, university history site, contemporary biography, scientific biography] She wrote to Riccati to ask for a critical reading of her book, had it printed in her own house, turned the family home into a hospice after her father's death and, when she had to leave it, sold the jewelled box and ring given by the Empress to start another (Treccani); Frisi says she went in person to the Archduke to ask that a suppressed convent be turned into a hospital, and says the archbishop's requests led her to take the Pio Albergo post in 1771 and that a 1791 trustees' statement says she offered to live in it (Treccani likewise says the archbishop called her to the post). SELF-CALIBRATION (agent): lowered from 74 / 0.62 to 70 / 0.56 because several initiatives rest on Frisi and Treccani alone and the sources differ on who prompted her moves."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_agnesi_treccani, src_agnesi_dsb, src_agnesi_mactutor, src_agnesi_frisi, src_agnesi_conversation | 1752-1799 | reference biography, scientific biography, university history site, contemporary biography, popular article] From 1752 she gave her time and money to the poor, sick and elderly: a hospice in the family house, a second hospice financed by selling the Empress's gifts, teaching poor girls, and the Pio Albergo from 1771 (Treccani; revised Dictionary of Scientific Biography entry; MacTutor), after which she lived in poverty and was buried in a common grave. The four sources agree on the pattern and the trustees of the Pio Albergo recorded their thanks in 1791 (Frisi, quoting a printed testimonial). Her stated motive was religious devotion, and she gave up mathematics, so the trait is service to others, not scientific impact. SELF-CALIBRATION (agent): lowered from 84 / 0.70 documented to 80 / 0.64 strong_inference because the sources descend from one tradition (Frisi, Anzoletti, Truesdell) and the hagiographic tone can overstate. Lead review lowered this row to 76 / 0.58 because the hospice and charity detail descends from one tradition (Frisi's eulogy and the Treccani entry built on it)."
+    },
+    "social_assertiveness": {
+      "score": 32,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_agnesi_mactutor, src_agnesi_dsb, src_agnesi_frisi, src_agnesi_physicstoday | 1739-1762 | university history site, scientific biography, contemporary biography, news item] De Brosses reported in 1739 that she was sorry the visit had become a thesis defence and disliked speaking publicly on such matters (MacTutor); after 1738 she withdrew from social life, never went to Bologna and, according to the older Dictionary of Scientific Biography entry, declined in 1762 to referee Lagrange; against this Frisi says that she did talk at length with visiting scholars when pressed and she gave public Latin disputations at her father's request. She held back from public display; the dual-edged impact reflects that this cost her a university chair as well as sparing her the attention. SELF-CALIBRATION (agent): confidence lowered from 0.54 to 0.50 because the 1762 episode comes from one older entry and 'shyness' is a biographers' summary."
+    },
+    "creative_originality": {
+      "score": 44,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_agnesi_mactutor, src_agnesi_dsb, src_agnesi_treccani | 1748 | university history site, scientific biography, reference biography] The sources disagree: MacTutor says the treatise contains no original mathematics by her, the older Dictionary of Scientific Biography entry says she admitted that some methods and generalisations were hers, and Treccani says Cramer later treated curves with far greater originality; the revised entry places her originality in teaching design and organisation rather than in new results, and notes the 'witch' curve was already known to Fermat and Grandi. The score sits just below the middle for that unresolved dispute. SELF-CALIBRATION (agent): confidence lowered from 0.44 to 0.42 because the sources conflict on a point they cannot settle from her text alone."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_agnesi_mactutor, src_agnesi_treccani, src_agnesi_dsb | 1740-1748 | university history site, reference biography, scientific biography] She worked with Rampinelli, thanked him in her preface, sent drafts to Jacopo Riccati who passed them to his sons for comment, and included Riccati's work on integration with acknowledgement (MacTutor); Treccani says Rampinelli and Riccati contributed advice and help, and the older entry says she was inclined to give others too much credit. Most of the mathematical work was done alone and the charitable work was for others, not with peers, so the score is near the middle. SELF-CALIBRATION (agent): score lowered from 58 to 56 and confidence from 0.52 to 0.50 because the evidence is a few letters and a preface from one mathematician-centred narrative."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마리아 아녜시"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/maria-gaetana-agnesi-bordiga-franchi-1799.jpg",
+    "width": 588,
+    "height": 1000,
+    "source": "Engraved frontispiece portrait of Maria Gaetana Agnesi in [Antonio Francesco Frisi], Elogio storico di D.a Maria Gaetana Agnesi milanese (Milan: Giuseppe Galeazzi, 1799), lettered 'DONNA MARIA GAETANA AGNESI MILANESE ... Cesso di vivere in Milano il giorno 9 Gennajo del 1799 in eta d'anni 81' and signed 'Joseph Franchi Scul.' (lower left) and 'F. Bordiga inc.' (lower right). Digitised by ETH-Bibliothek Zurich (copy Rar 5223) on e-rara (IIIF image 3159356, 1481 x 2346 pixels); the plate was cropped out of the page scan and downscaled to 588 x 1000 with no upscaling. Frisi's text reports that the sculptor Giuseppe Franchi, professor at the Brera Academy, modelled the only portrait of Agnesi made from life, a clay bust of 1781, and she thanked him in a letter of 14 January 1782 for imitating her so well; the plate's 'Scul.' signature fits an engraving after that bust, but the plate does not say so.",
+    "license": "Public Domain Mark stated on the e-rara record for the book ('Frei zum Herunterladen'; the library asks for a citation and a note of the persistent identifier); independent age basis: engraving published in Milan in 1799, so every contributor has been dead far more than 70 years",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "F. Bordiga (engraver) after Giuseppe Franchi (sculptor), portrait of Maria Gaetana Agnesi, frontispiece of Elogio storico di Maria Gaetana Agnesi, Milan: Galeazzi, 1799. ETH-Bibliothek Zurich, Rar 5223, https://doi.org/10.3931/e-rara-10547 / Public Domain Mark. Cropped and downscaled.",
+    "attributionUrl": "https://doi.org/10.3931/e-rara-10547",
+    "creator": "F. Bordiga (engraver) and Giuseppe Franchi (sculptor), published by Giuseppe Galeazzi, Milan",
+    "date": "1799 (published the year of her death; based on a bust Franchi made from life in 1781, per Frisi)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.e-rara.ch/zut/doi/10.3931/e-rara-10547"
+  },
+  "provenance": {
+    "createdAt": "2026-11-23T00:00:00Z",
+    "updatedAt": "2026-11-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B, rights-only) / LEAD DID NOT SURVIVE: the Metropolitan Museum drawing 'Portrait of Maria Gaet - Agnesi' by Jean-Baptiste-Francois Bosio (accession 49.19.104, Open Access, isPublicDomain true; Met API re-read 2026-11-23: date 'n.d.', no inscription, abbreviated title) was not used because the sitter rests only on a truncated title, the drawing is undated and made by an artist born 15 years after her prime and not documented as a from-life sitting, so identity and kind could not be defended. The Redenti 1837 and Milesi Mojon 1836 plates in Iconografia italiana (Stage B fallbacks; Trento upload with a 'Copyrighted' metadata conflict) were also not needed. REPLACEMENT: the engraved frontispiece of Frisi's 1799 Elogio storico, found via the Commons category and then taken from the ETH-Bibliothek e-rara scan instead of the BEIC copy named on Commons (the BEIC item record could not be opened: guessed URLs returned 404 and the library catalogue is script-rendered). IDENTITY: the plate is lettered with her full name, academies and the date of her death (9 January 1799, aged 81) and sits in a book about her; creators are named on the plate (Joseph Franchi Scul., F. Bordiga inc.). HOLDER RECORD: e-rara item record opened and read (Public Domain Mark; free download; asks for citation with persistent identifier; ETH copy Rar 5223, 116 pp., 'Milano : Galeazzi, 1799', author given as Frisi); IIIF manifest read and canvas 1 confirmed as the plate; the e-rara site terms page returned a JavaScript bot challenge (not bypassed), so site-wide terms were not read and the item-level statement plus age were relied on. KIND historical_depiction: posthumous engraving published in the year of her death, and the link to Franchi's 1781 life bust is inferred from the signature and Frisi's text, not stated on the plate. Dimensions: crop 1200 x 2040 of a 1481 x 2346 page scan downscaled to 588 x 1000 (no upscaling). The ETH impression shows an older face than the Commons BEIC thumbnail; the difference was not investigated (scan contrast or print state). ATTRIBUTION: attributable (a documented public life, her own printed books and letters, an authorised contemporary biography and modern scholarship). CANONICAL SIGNIFICANCE SOURCE: MacTutor biography together with the Dictionary of Scientific Biography entries. READ: MacTutor, Treccani, Dictionary of Scientific Biography page (both entries), The Conversation, Physics Today, Frisi's Elogio (selected OCR passages). Not opened: Mazzotti's 2007 book and 2001 Isis article (JSTOR/JHU walled), Alexanderson's 2013 Bulletin of the AMS note (PDF downloads were truncated), Dumbaugh 2019, Cupillari's biography, Anzoletti 1900, the Bologna and Ambrosiana archives. PERSPECTIVES: (1) contemporary hagiographic biography; (2) Italian national reference biography; (3) modern scholarly Dictionary of Scientific Biography revision that corrects older errors; (4) mathematics-history university site using letters and a French visitor's 1739 account; (5) popular science articles. NON-SELF BEHAVIOURAL SOURCES: all of the above except her own letters quoted within them; the strongest independent items are de Brosses's 1739 letter and the Pio Albergo trustees' 1791 testimonial, both seen only through MacTutor and Frisi. CONTRADICTIONS AND LIMITS: Treccani and the older Dictionary entry say her father taught at Bologna, which MacTutor and the revised entry reject; Frisi and Treccani agree that the archbishop urged her to take the Pio Albergo post in 1771 and Frisi adds that the trustees later recorded that she volunteered to live there; the plate says she died aged 81 although a birth in May 1718 makes her 80; a PBS NOVA blog item says she died in a convent, which every other source contradicts and was not used; 'first woman appointed to a university chair' is contested because she never took the chair. The Conversation and Physics Today are derivative. ZERO POLITICS and no private conditions inferred: her wish to enter a convent is treated as documented religious devotion only; no mental-health or other private reading is made. VOCABULARY: occupations mathematician, philanthropist; fields mathematics, education; tags prodigy, communicator; archetype scholarly_specialist; impact domains scientific, educational, social. REGION southern_europe (Italian precedent). ERA early_modern. KO NAME: Korean Wikipedia title 마리아 아녜시 (the article lede reads 마리아 가에타나 아녜시; Wikidata ko label is 마리아 가에타 아녜시); classed authoritative-label. SELF-CALIBRATION: 8 rows initially; all 8 touched (6 scores lowered, 8 confidences lowered, 2 evidence types lowered); none raised; no rows removed."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "tom-mboya",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Tom Mboya",
+    "aliases": [
+      "Thomas Joseph Mboya",
+      "Thomas Joseph Odhiambo Mboya",
+      "Tom Joseph Mboya"
+    ],
+    "wikidataId": "Q733180",
+    "birthYear": 1930,
+    "deathYear": 1969,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "KE"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "activist"
+    ],
+    "fieldIds": [
+      "politics",
+      "social_reform",
+      "education"
+    ],
+    "impactDomains": [
+      "social",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "organizer",
+      "young_leader",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "organizational_leader",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_mboya_wikidata",
+      "kind": "wikidata",
+      "title": "Tom Mboya (Q733180), verified live via the Wikidata API (2026-11-20): English label 'Tom Mboya', description 'Kenyan politician and independence activist (1930-1969)', Korean label 톰 음보야, born 15 August 1930, died 5 July 1969, human, citizen of Kenya. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q733180"
+    },
+    {
+      "id": "src_mboya_mccann",
+      "kind": "institution",
+      "title": "Gerard McCann (University of York), 'Possibility and peril: Trade unionism, African Cold War, and the global strands of Kenyan decolonization', Journal of Social History (2019), accepted version deposited at White Rose Research Online (read in full, 48 pages). CANONICAL SIGNIFICANCE SOURCE (scholarly): treats Mboya as the mastermind of Kenyan independence whose career began in trade unionism; draws on International Confederation of Free Trade Unions (ICFTU) files and Kenyan intelligence reports; documents his rise to head the Kenya Federation of Labour in 1953, his handling of the 1955 Mombasa dock strike, his dealings with the ICFTU and American labour leaders, the 1960-61 pan-African trade-union clashes with Ghana, and, critically, his part in building the strong state and curbing trade unions after independence.",
+      "url": "https://eprints.whiterose.ac.uk/id/eprint/144509/"
+    },
+    {
+      "id": "src_mboya_king",
+      "kind": "institution",
+      "title": "Martin Luther King, Jr. Research and Education Institute, Stanford University, 'Mboya, Thomas Joseph' (encyclopedia entry; read in full). Describes his union leadership from 1953, the Mombasa dockworkers' strike of 1955, the 1957 People's Convention Party, the airlift of 81 Kenyan students, and quotes his 8 November 1959 letter to the New York Times on education.",
+      "url": "https://kinginstitute.stanford.edu/mboya-thomas-joseph"
+    },
+    {
+      "id": "src_mboya_gale",
+      "kind": "biography",
+      "title": "'Thomas Joseph Mboya', Encyclopedia of World Biography (Gale reference entry, read in full via Encyclopedia.com). Reference biography: sisal-estate family, mission schools, sanitary-inspector training, union work from 1951, Kenya Federation of Labour secretary general 1953-1963, Mombasa dock strike of 1955, Ruskin College, Legislative Council 1957, minister from independence; lists Alan Rake's 1962 biography and Goldsworthy's 1982 biography as further reading.",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/thomas-joseph-mboya"
+    },
+    {
+      "id": "src_mboya_jfk",
+      "kind": "institution",
+      "title": "John F. Kennedy Presidential Library and Museum, 'John F. Kennedy and the Student Airlift' (institutional history page; read in full). Records the 1959 charter flight of 81 East African students, the funding crisis of summer 1960, Mboya's 26 July 1960 meeting with Senator Kennedy at Cape Cod and the resulting Kennedy Foundation grant, with quotations from Senate floor remarks.",
+      "url": "https://www.jfklibrary.org/JFK/JFK-in-History/JFK-and-the-Student-Airlift.aspx"
+    },
+    {
+      "id": "src_mboya_hoover",
+      "kind": "press",
+      "title": "Tom Shachtman, 'Men with a Mission', Hoover Digest (12 January 2011; read in full). Drawn from the William X. Scheinman papers at the Hoover Institution Archives: the friendship between Mboya and a US philanthropist, the founding of the African American Students Foundation, the 1959 airlift of 81 students and the 1960 expansion, with quotations from their letters.",
+      "url": "https://www.hoover.org/research/men-mission"
+    },
+    {
+      "id": "src_mboya_nation",
+      "kind": "press",
+      "title": "'The African Airlift', The Nation (16 September 2009; read in full): review of Tom Shachtman's book Airlift to America. Independent magazine summary of the airlift and its place in the 1960 US presidential campaign; notes that nearly 800 students were brought to US colleges. Same author-family as the Hoover Digest essay, so counted with it.",
+      "url": "https://www.thenation.com/article/archive/african-airlift"
+    },
+    {
+      "id": "src_mboya_standard",
+      "kind": "press",
+      "title": "Peter Nguli, 'The making of an African icon: Tom Joseph Mboya', The Standard (Kenya), 3 July 2013 (read in full). Kenyan newspaper profile: schooling, 1950 qualification as a sanitary inspector, union founding, the 1953 federation of five unions, the 1957 party, chairing the 1958 All-African Peoples' Conference, KANU secretary-general in 1960, ministerial posts, the 1969 assassination and the absence of a judicial inquiry. Journalistic profile; sourcing not given.",
+      "url": "https://standardmedia.co.ke/amp/article/2000087351/the-making-of-an-african-icon-tom-joseph-mboya"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.68,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mboya_mccann, src_mboya_gale, src_mboya_jfk, src_mboya_hoover, src_mboya_king | 1952-1960 | journal article, reference biography, library history, magazine essay, encyclopedia entry] While still a sanitary inspector he helped found the Kenya Local Government Workers Union and gave up the job for union work; in 1953 he took over the federation of registered unions and rebranded it the Kenya Federation of Labour (McCann, Gale); in 1957 he formed a political party; from 1956 he asked a US philanthropist to buy tickets for individual Kenyan scholarship winners and in 1959 co-founded the foundation that chartered the first student flight (Hoover); and when funding failed in 1960 he flew to Cape Cod to ask Senator Kennedy in person (JFK Library). Several separate self-started initiatives documented by independent sources."
+    },
+    "leadership_drive": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_mboya_mccann, src_mboya_hoover, src_mboya_standard, src_mboya_gale | 1953-1960 | journal article, magazine essay, newspaper profile, reference biography] He headed the local-government workers' union at 23, replaced the sitting federation general secretary in 1953 amid funding accusations against his predecessor, was chairman of the 1958 All-Africa Peoples' Conference, became the de facto leader of the African elected members in 1957 (Hoover, quoting his own report to a US friend), led the Kenyan delegation to the 1960 constitutional conference and was elected secretary-general of the new national party in 1960 (Standard). Repeated, documented moves into the top post; Kenya's intelligence committee in 1955 noted his flair for turning situations to his political advantage (McCann)."
+    },
+    "opportunity_sensing": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mboya_mccann, src_mboya_hoover | 1954-1961 | journal article, magazine essay] McCann, working from ICFTU and Kenyan intelligence files, shows him using the ICFTU's rivalry with American labour leaders, and Cold War anxieties, to win funds and a US platform (a 35,000-pound AFL-CIO gift after his 1956 US tour), and the Hoover essay shows him recognising that an independent Kenya would need an educated cadre that British schooling could not supply. Two documented patterns, but the interpretation of motive rests largely on one scholarly article. SELF-CALIBRATION (agent): lowered from 74 / 0.60 because the account is dominated by one scholarly family."
+    },
+    "resourcefulness": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mboya_hoover, src_mboya_jfk, src_mboya_mccann | 1956-1960 | magazine essay, library history, journal article] With few resources he assembled money and scholarships from many places: a US lecture tour, scholarship offers from American and Canadian colleges, a fundraising letter co-signed by three well-known American entertainers, a self-help rule that each student raise about 300 dollars, and finally a Kennedy Foundation grant covering the 1960 flights after the State Department and large foundations had refused (Hoover, JFK Library); ICFTU accountants complained in 1960 that he lived on the gift of the gab to wheedle money (McCann). SELF-CALIBRATION (agent): lowered from 74 / 0.60 because the airlift evidence is one author's account plus one library page."
+    },
+    "persuasiveness": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mboya_mccann, src_mboya_jfk, src_mboya_king, src_mboya_nation | 1956-1960 | journal article, library history, encyclopedia entry, magazine review] He was invited to speak at a 20,000-strong civil rights rally in Washington in 1959 and honoured by the Southern Christian Leadership Conference the same year (McCann, King Institute); American colleges, three celebrities and a presidential candidate backed his appeals (JFK Library, Nation); but the evidence is mostly the outcomes of his appeals, not the words that won them. SELF-CALIBRATION (agent): lowered from 74 / 0.58 for outcome bias."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_mboya_mccann, src_mboya_hoover | 1953-1962 | journal article, magazine essay] He and the ICFTU's East Africa representative Jim Bury operated 'virtually as one' (McCann); a friendship and working partnership with a US industrialist ran for the rest of his life and produced the student foundation (Hoover); he worked with African-American union leaders such as A. Philip Randolph. Against this, McCann records that he centralised the federation and later curbed unions, and that ICFTU staff thought he used their money for his own priorities, so the score is moderate."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_mboya_mccann, src_mboya_gale | 1953-1966 | journal article, reference biography] Mixed evidence: after taking over the federation he initially flagged harsh emergency policies and later took on the Ghana-backed trade-union bloc in 1960-61 even after a forged pamphlet accused him of a CIA plot, and McCann describes his later rivalry with Oginga Odinga and the expulsion of Odinga from the ruling party; but in 1955 he defused the Mombasa strike by negotiation and soon after 1953 cooperated with the government against a violent bus-workers' strike, so his stance is as much de-escalation as confrontation."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_mboya_king, src_mboya_hoover | 1959-1960 | encyclopedia entry, magazine essay] He wrote to the New York Times in November 1959 that nothing contributed more to the struggle against poverty, disease and political subjection in Africa than educational advancement, and he sustained the airlift for two years (King Institute, Hoover). The purpose is largely stated in his own words and the airlift is one programme, so this is a modest inference. SELF-CALIBRATION (agent): lowered from 70 / 0.54 / strong inference because the statement of purpose is his own and the programme is told chiefly by one author."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "톰 음보야"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No rights-clear portrait: the only Commons image (Israeli Government Press Office, 1962, Digital ID D790-037) is a jurisdiction-only public-domain claim; Commons' own Israel page says GPO-distributed images are copyrighted, a 1962 Israeli state photograph was still protected in Israel on the 1 January 1996 URAA date so its US status is not public domain, and the holder's terms could not be read (gov.il pages render only through script; the GPO collection is described elsewhere as under a non-commercial licence). Alternative routes (Library of Congress 'rights status not evaluated', Smithsonian Elisofon print and Kenya National Archives / Camerapix / Columbia images all rights-held or unstated, no Anefo or open-archive item found) did not resolve."
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (Stage B) / HELD. Lead (Commons 'Tom Mboya Aharon Becker 1962.jpg', GPO Israel D790-037) did NOT survive: holder record not readable (gov.il SPA), Commons Israel rules state GPO images are copyrighted and Israeli expiry does not settle US status (URAA 1 Jan 1996). Bounded retry across Commons category, Library of Congress (LOT 8893 print 'rights status not evaluated', Nixon with Mboya, 1959), Smithsonian open access (no Mboya image), Google Arts (Kenya National Archives, Camerapix, Elisofon: terms unstated or rights-held), Nationaal Archief (none found), JFK Library (none found). No substitute person used. QID VERIFIED LIVE 2026-11-20 Q733180. REGION sub_saharan_africa. ERA 20th_century. KOREAN NAME 톰 음보야 = Wikidata ko label and Korean Wikipedia title (authoritative-label). COMPOSITION FLAG for lead: occupation is trade unionist/politician (frozen group 'building'); scoring is confined to union organising, the student airlift and party/institution building; post-independence ministerial policy, the Kenyatta-Odinga dispute and the assassination are context, not scored; no inference about the unresolved assassination. ATTRIBUTION: attributable (dated organisational acts, archival ICFTU and Scheinman papers, Senate record). SOURCES READ: McCann 2019 (full), King Institute entry, Gale entry, JFK Library page, Hoover Digest (full), The Nation review, Standard profile; NOT cited: Wikipedia, Britannica (403), BlackPast (page text unavailable), CIA reading-room page (not Mboya content), gov.il GPO pages. Independent behavioural families: 5 (McCann/ICFTU-Kenyan intelligence files; Shachtman/Scheinman papers incl. Nation review; JFK Library; Gale/Rake; King Institute/MLK papers; Standard journalism is partly derivative). COUNTER-VOICES: McCann's critical account (curbing unions, Machiavellian use of the ICFTU, strong-executive state), ICFTU accountants, Ghana-backed rivals who called him a 'stooge' of America. CAVEAT: Goldsworthy's 1982 biography and Rake's 1962 biography were not read directly."
+  }
+}

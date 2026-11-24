@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "nellie-melba",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Nellie Melba",
+    "aliases": [
+      "Dame Nellie Melba",
+      "Helen Porter Mitchell",
+      "Helen Porter Armstrong"
+    ],
+    "wikidataId": "Q237607",
+    "birthYear": 1861,
+    "deathYear": 1931,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "AU"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "singer"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "sustained_excellence",
+      "independent"
+    ],
+    "archetypeIds": [
+      "competitive_performer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_melba_wikidata",
+      "kind": "wikidata",
+      "title": "Nellie Melba (Q237607), verified live via the Wikidata API (2026-11-20): English label 'Nellie Melba', description 'Australian opera singer (1861-1931)', Korean label 넬리 멜바 (also the Korean Wikipedia title), born 19 May 1861, died 23 February 1931, citizen of Australia, instance of human. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q237607"
+    },
+    {
+      "id": "src_melba_wiw",
+      "kind": "biography",
+      "title": "Denise Sutherland, 'Melba, Nellie (1861-1931)', Women in World History: A Biographical Encyclopedia (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: calls her the first Australian prima donna, who ruled Covent Garden for nearly 40 years; tells her 1882 marriage to Charles Armstrong, her 1884 return to Melbourne with her son to study singing, her study under Pietro Cecchi and Mathilde Marchesi, the Brussels debut on 13 October 1887, the poorly received Covent Garden debut of May 1888 and her return in June 1889, the Puccini coaching for Mimi, the 1902 and 1909 Australian tours (low ticket prices in 1909 and later Concerts for the People), the 1911 Melba-Williamson Opera Company, wartime fundraising of over 100,000 pounds and her damehood in 1918, over 150 recordings, the 1926 Covent Garden farewell and the disastrous 1896 Wagner attempt; describes her as domineering, outspoken, shrewd with money, kind and generous as well as arrogant, aggressive and ruthless toward rival sopranos, and notes (citing the biographer John Hetherington) that her ghostwritten 1925 autobiography is often inaccurate. Reference-work biography built on Hetherington and her own memoir; admiring but openly critical of her character.",
+      "url": "https://www.encyclopedia.com/women/dictionaries-thesauruses-pictures-and-press-releases/melba-nellie-1861-1931"
+    },
+    {
+      "id": "src_melba_ebsco",
+      "kind": "biography",
+      "title": "Matthew Ryan Hoch, 'Nellie Melba', EBSCO Research Starters (2024; read in full). Independent scholarly overview: describes an extraordinarily ambitious young woman with natural vocal flexibility, her Brussels, Covent Garden and Paris debuts in 1887-88, her association with the Metropolitan Opera from 1903 to 1910, her role as a major early recording artist (148 recordings on Naxos reissues), the brief and unsuccessful Brunnhilde that forced four months of vocal rest, the judgment that she was not a strong actress, and that her memoir is self-mythologizing. Reference overview; sceptical of the autobiography.",
+      "url": "https://www.ebsco.com/research-starters/history/nellie-melba/"
+    },
+    {
+      "id": "src_melba_conversation",
+      "kind": "press",
+      "title": "Rachel M. Campbell, 'Happy 160th birthday Dame Nellie Melba: 5 surprising facts about the canny songstress', The Conversation (University of Canberra, 19 May 2021; read in full). Academic's account of how she shaped her own celebrity and image (commissioning a bust, pursuing a flattering portrait, selling recordings and her own vocal method), her business shrewdness and control of her own interests, her 1915 gift book for Belgian war relief that the author says earned her the damehood, and rests for vocal problems in 1890 and 1897. Short academic feature, written for a general audience; some anecdotes are credited to biographers (Wechsberg, Blainey) and not independently checked here.",
+      "url": "https://theconversation.com/happy-160th-birthday-dame-nellie-melba-5-surprising-facts-about-the-canny-songstress-160993"
+    },
+    {
+      "id": "src_melba_npg",
+      "kind": "institution",
+      "title": "National Portrait Gallery, Canberra, 'Nellie Melba' (Portrait of a Nation biography page; read in full). Describes her family and schooling, her adoption of the stage name Melba on Marchesi's advice, the 1887 Brussels debut and her own dating of her London success to the Covent Garden performance of 15 June 1889, her objection to her name being used on goods from scent to hairpins, the 1902 and 1909 Australian tours, the 15 June 1920 radio broadcast from the Marconi works at Chelmsford, the 1927 Time magazine cover and the phrase 'doing the Melba' for a prolonged farewell. Gives the divorce as 1890, which conflicts with 1900 in other sources and is not used. Museum biography, admiring.",
+      "url": "https://portrait.gov.au/portraitofanation/melba-biography.html"
+    },
+    {
+      "id": "src_melba_rba",
+      "kind": "institution",
+      "title": "Reserve Bank of Australia, 'Dame Nellie Melba (1861-1931)', People on the banknotes (read in full). Central-bank biography chronology: the evenness of her voice over nearly three octaves, her 1887 debut and rise to Covent Garden's prima donna with a permanent dressing room, almost 200 recordings between 1904 and 1926, the 1902 tour of all states and New Zealand, the 1909 outback tour, the Melba-Williamson Opera Company's tours in 1911, 1924 and 1928, wartime fundraising for charities and a singing school she established in Melbourne, and her 1918 damehood. Institutional summary, uncritical.",
+      "url": "https://banknotes.rba.gov.au/australias-banknotes/people-on-the-banknotes/dame-nellie-melba"
+    },
+    {
+      "id": "src_melba_ag",
+      "kind": "press",
+      "title": "John Pickrell and Scarlett Keddie, 'On this day: Death of Australia's first megastar', Australian Geographic (23 February 2010; read in full). Popular history piece quoting the Australian Dictionary of Biography on her 1909 'sentimental tour' of about 16,000 km with a manager, maid, valet and two baby grand pianos, and noting wartime fundraising of over 100,000 pounds, her early part in radio broadcasting, the idiom 'more farewells than Dame Nellie' from her four-year farewell tour ending in November 1928, and unproven claims about her death. Magazine article; the review of her character is thin.",
+      "url": "https://www.australiangeographic.com.au/?p=15286"
+    },
+    {
+      "id": "src_melba_met_history",
+      "kind": "press",
+      "title": "Tamino Autographs, 'The Met's Golden Age in the Gilded Age: 1891-1903' (autograph dealer's history blog; read in full). Describes her Metropolitan Opera debut as Lucia in 1893 and her singing at the Metropolitan in 1893-1899, and tells the 30 December 1896 Brunnhilde in Siegfried, her only Ring role, called one of the most discussed fiascos in the house's history that left her voice seriously strained and her season curtailed, with unproven explanations (misplaced ambition, envy of Lillian Nordica, a plot by Jean de Reszke). Dealer blog drawing on opera histories; the motives offered are speculation.",
+      "url": "https://www.taminoautographs.com/blogs/autograph-blog/the-met-s-golden-age-in-the-gilded-age-1891-1903"
+    }
+  ],
+  "rows": {
+    "achievement_drive": {
+      "score": 72,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_melba_wiw, src_melba_ebsco, src_melba_conversation, src_melba_rba | 1884-1928 | reference biography, scholarly overview, academic feature, institutional chronology] The biography records that she left her husband's plantation in January 1884 to study singing, sailed to Europe in 1886, built a Covent Garden career that lasted nearly 40 years and staged repeated farewell tours until 1928; EBSCO calls her extraordinarily ambitious, and Campbell describes how she shaped her own image with a commissioned bust, portraits, recordings and a published method. CONCENTRATION: lowered from 78 / 0.60 because the word ambitious is a characterisation repeated by reference works drawing on the same biography and on her own memoir, which the sources themselves describe as embroidered; the behaviours are real but are not by themselves proof of the drive behind them."
+    },
+    "competitiveness": {
+      "score": 66,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_melba_wiw, src_melba_met_history | 1889-1896 | reference biography, history blog] Sutherland says she made sure a talented young soprano who threatened her position could not sing at Covent Garden and made many operatic enemies; the Metropolitan history blog says she was granted exclusive rights to Brunnhilde and offers envy of Nordica as one unproven explanation for taking it. SELF-CALIBRATION (agent): lowered from 72 / 0.48 because the rival-blocking claim rests on one biographical sentence with no named case and the Nordica motive is speculation; impact dual-edged because it cost her goodwill."
+    },
+    "mastery_orientation": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_melba_wiw, src_melba_ebsco, src_melba_conversation, src_melba_rba | 1886-1926 | reference biography, scholarly overview, academic feature, institutional chronology] She worked long hours under Marchesi, which the biography says she thrived on, kept her voice by careful treatment of her instrument for about 40 years apart from the Wagner attempt, was praised for evenness and technical command by critics (while others found her cold), coached Mimi with Puccini, and published her own vocal method in 1926 that the academic says is still used. The sources agree on the technical mastery and the discipline behind it; they differ on its artistic warmth."
+    },
+    "autonomy_need": {
+      "score": 64,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_melba_wiw, src_melba_conversation, src_melba_npg | 1882-1925 | reference biography, academic feature, museum biography] She married against her father's opposition, left her husband to pursue singing, controlled her own business interests and objected publicly to her name being put on goods without consent. CONCENTRATION: lowered from 68 / 0.50 and from strong inference to inference because the marriage and departure stories come from the single Hetherington-based chain, the business-control account rests on one academic summary of other biographers' anecdotes, and the name objection concerns commerce rather than her wider choices."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_melba_wiw, src_melba_ebsco, src_melba_met_history | 1884-1896 | reference biography, scholarly overview, history blog] Three sources agree on the 30 December 1896 Brunnhilde that strained her light voice and forced months of rest, and Sutherland adds that she left Queensland with her young son in 1884 while the couple's finances were in very bad shape. SELF-CALIBRATION (agent): lowered from 62 / 0.50 and from strong inference to inference because the Wagner episode is one event retold from one tradition, no source gives her reasoning, and the biography also stresses her later care of her voice."
+    },
+    "social_assertiveness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_melba_wiw, src_melba_npg, src_melba_conversation | 1890s-1927 | reference biography, museum biography, academic feature] Sutherland calls her domineering and outspoken, a law unto herself, who told her sisters how to bring up their children and was impatient with fools; her public statement against the commercial use of her name is quoted by the museum; the academic reports her setting a fee for singing at a dinner. CONCENTRATION: lowered from 74 / 0.56 because the 'domineering' characterisation and the family anecdote come from one biographical chain and the dinner-fee story is a single anecdote; impact dual-edged because the same sources note enemies made."
+    },
+    "impact_motivation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_melba_wiw, src_melba_rba, src_melba_ag, src_melba_conversation | 1909-1918 | reference biography, institutional chronology, magazine article, academic feature] She toured the Australian outback in 1909 with low ticket prices and ran Concerts for the People, helped young Australian artists, raised over 100,000 pounds for war charities and, in 1915, produced a gift book for Belgian war relief. CONCENTRATION: lowered from 66 / 0.54 and from strong inference to inference because the fundraising figure is repeated across sources from one tradition, her public acts were also part of managing her own celebrity (Campbell), and no source separates charitable purpose from publicity."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_melba_wiw, src_melba_rba | 1911-1928 | reference biography, institutional chronology] She set up the Melba-Williamson Opera Company with the theatre manager J. C. Williamson (tours in 1911, 1924 and 1928) and established a singing school in Melbourne during the First World War. SELF-CALIBRATION (agent): lowered from 62 / 0.48 because the company was a partnership with a theatre magnate and the sources do not describe how she led the company or the school."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_melba_wiw, src_melba_npg, src_melba_rba, src_melba_ebsco | 1886-1920 | reference biography, museum biography, institutional chronology, scholarly overview] She took a new stage name on her teacher's advice, returned to Covent Garden after the failed 1888 debut, began recording in 1904 (over 150 recordings), sang in a direct radio broadcast in June 1920 and worked in Australia and North America during the First World War. Four sources agree on the recordings and broadcast; the Covent Garden return was arranged by a patron rather than by her own change of approach."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "넬리 멜바"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/nellie-melba-bain-news-service-1910s.jpg",
+    "width": 688,
+    "height": 1000,
+    "source": "Photograph of Nellie Melba by the Bain News Service, glass negative with the agency's own inscription 'Nellie Melba' and number 4919-10, Library of Congress Prints and Photographs Division, George Grantham Bain Collection (LC-DIG-ggbain-28839, call number LC-B2- 4919-10 [P&P]); the holder's item record dates it between ca. 1915 and ca. 1920 and notes that the title comes from unverified Bain data. The file is the Library of Congress master scan (4222 x 5766) cropped to the print area and downscaled to 688 x 1000 with no upscaling and no retouching.",
+    "license": "Public domain in the United States by age and by the holder's statement: a Bain News Service press photograph dated by the Library of Congress to ca. 1915-1920 (before 1931); the item record says 'No known restrictions on publication' and the Library states it does not own rights in its collections. No publication record for this exact image was seen.",
+    "licenseUrl": "https://www.loc.gov/rr/print/res/274_bain.html",
+    "attribution": "Bain News Service, Nellie Melba, glass negative, ca. 1915-1920; Library of Congress Prints and Photographs Division, George Grantham Bain Collection (LC-DIG-ggbain-28839).",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2014708998/",
+    "creator": "Bain News Service (individual photographer not recorded)",
+    "date": "between ca. 1915 and ca. 1920 (Library of Congress estimate)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.loc.gov/pictures/item/2014708998/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B, downgraded from strong; terms ambiguous; foreseeable hold risk medium) / lead did NOT survive: the Stage A lead (Commons 'Nellie Melba, 1888, by Nadar.jpg', State Library of New South Wales P1/1144) has an unresolved creator (Felix versus Paul Nadar), an internal Commons date conflict (1888 versus 1908), an unreadable holder record (HTTP 403) and holder terms known only second-hand, and the State Library of Victoria 1892 Numa Blanc lead is unreadable; the Cassell's 1895 plate is only 421 x 600 and its caption was never confirmed. I therefore used an independent route: the Library of Congress Bain Collection photograph LC-DIG-ggbain-28839 (found through the loc.gov pictures search API). HOLDER: the item record was read through the loc.gov JSON API (title 'Nellie Melba', creator Bain News Service, [between ca. 1915 and ca. 1920], rights 'No known restrictions on publication', note that the title comes from unverified Bain data) and the Library's legal page was read (it does not own rights, user determines status, no fee or permission requirement stated); the Bain collection rights-statement page is script-rendered and unread; loc.gov HTML item pages returned a Cloudflare 403 (bot wall, not a rights conflict) and were not bypassed. SITTER: Bain's handwritten title on the negative reads 'NELLIE MELBA'; because the holder flags that title as unverified, I compared the face with another Bain negative titled 'Melba & wireless phone' dated by the holder to 15 June 1920, an event the National Portrait Gallery independently describes (her radio broadcast from the Marconi works at Chelmsford on 15 June 1920); the profile, hair and features are consistent, so identity is probable but rests on the agency's caption plus this comparison, not on a verified documentary caption. KIND likeness. Caveat: no publication of this exact image before 1931 is documented; public-domain status rests on the holder statement and the Bain news-photograph date range. REGION western_europe (Australasian precedent: Mawson, Rutherford, Wilkins); ERA 20th_century; nationality AU. ATTRIBUTION: limited_but_usable: the substantive behavioural record is reference-work and journalism level; no full biography (Hetherington, Radic, Wainwright) was opened, her 1925 memoir is ghostwritten and embroidered, and the Australian Dictionary of Biography entry could not be read (script-rendered page). CANONICAL SIGNIFICANCE SOURCE: src_melba_wiw (Women in World History entry by Denise Sutherland). READ: 7 sources besides Wikidata. DISCREPANCIES: the National Portrait Gallery gives the divorce as 1890 while the biography and the Reserve Bank give 1900 (1900 used); the biography gives her final opera performance as August 1927 in text and 1928 in its summary (no date used in editorial). Sparse profile: 9 scored rows, not padded. KO NAME: Korean Wikipedia title and Wikidata ko label agree."
+  }
+}

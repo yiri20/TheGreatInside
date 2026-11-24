@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mirza-taqi-khan-amir-kabir",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mirza Taqi Khan Amir Kabir",
+    "aliases": [
+      "Amir Kabir",
+      "Amir Nizam",
+      "Mirza Taqi Khan Farahani",
+      "Mirza Taqi Khan",
+      "Atabak-e A'zam"
+    ],
+    "wikidataId": "Q472054",
+    "birthYear": 1807,
+    "deathYear": 1852,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "IR"
+    ],
+    "regionCode": "west_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "statesman",
+      "political_leader"
+    ],
+    "fieldIds": [
+      "politics",
+      "military",
+      "education"
+    ],
+    "impactDomains": [
+      "historical",
+      "social",
+      "educational"
+    ],
+    "tagIds": [
+      "administrator",
+      "founder"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_amirkabir_wikidata",
+      "kind": "wikidata",
+      "title": "Amir Kabir (Q472054), verified live via the Wikidata API (2026-11-23): English label 'Amir Kabir', description 'Prime Minister of Iran (1807-1852)', instance of human, born 1807 (a second value 1807-01-09), died January 1852 (values 9 and 10 January), Persian labels including میرزا تقی خان امیرکبیر, Korean label 아미르 카비르. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q472054"
+    },
+    {
+      "id": "src_amirkabir_iranica",
+      "kind": "biography",
+      "title": "Hamid Algar, 'Amir Kabir, Mirza Taqi Khan', Encyclopaedia Iranica vol. I, fasc. 9 (1989; read in full). CANONICAL SIGNIFICANCE SOURCE: chief minister to Naser al-Din Shah from October 1848 to November 1851 and 'one of the most capable and innovative figures' of the Qajar period. Covers his rise from a cook's son through the Azerbaijan administration, the missions to St Petersburg and the Erzurum frontier commission, the 1849 mutiny, the execution of the rebel Hasan Khan Salar and the suppression of the Babi risings, the budget, army, industry, public-works, press and legal reforms, the foundation of the Dar al-Fonun, his foreign policy of refusing concessions to both Britain and Russia, and his dismissal and death in 1851-52. Judges him an unusually loyal servant of the traditional state whose aim was to strengthen the central government, only incidentally a modernizer. Scholarly reference entry based mostly on Adamiyyat's biography; admiring but states the harsh punishments and the unpopularity of his cuts.",
+      "url": "https://iranicaonline.org/articles/amir-e-kabir-mirza-taqi-khan"
+    },
+    {
+      "id": "src_amirkabir_ewb",
+      "kind": "biography",
+      "title": "'Mirza Taqi Khan Amir-e Kabir', Encyclopedia of World Biography (Gale; reproduced on Encyclopedia.com; read in full). General reference account: a cook's son admitted to the household school, the 1829 mission to Russia, praise from the British commissioner Robert Curzon at the Erzurum conference, an 'indefatigable worker' as chief minister who built factories, a modern press, the first newspaper, a postal system and the first modern institution of learning, curbed the clergy and ended the sale of office, and fell through the hostility of the queen mother. Differs from the Iranica entry on some points (it dates the journey with the crown prince to Russia about ten years after 1829 and says the queen mother tricked the Shah into signing the death warrant). Short and sympathetic.",
+      "url": "https://encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/mirza-taqi-khan-amir-e-kabir"
+    },
+    {
+      "id": "src_amirkabir_sheil",
+      "kind": "biography",
+      "title": "Lady Sheil (Mary Sheil), Glimpses of Life and Manners in Persia (John Murray, London, 1856; Internet Archive scan, passages on the Prime Minister in chapters XIII and XVII read). CONTEMPORARY EYEWITNESS from the British legation in Tehran: calls the minister 'remarkable', with a keen desire to raise Persia in the scale of nations and to rescue it from the thraldom of its powerful neighbours, who tried to remedy his lack of experience through conversation with Europeans about systems of government, but who failed for want of instruments and through pride that led him to domineer over the courtiers and the Shah, whom she reports he called 'this young fellow'. Also reports (partly from hearsay) that he governed well and raised army and finances, her account of his seizure in 1851, the mistake of casting off British protection at the last hour, his journey to Kashan, and the horror in Tehran at his murder. Written by the wife of the British minister, who was then bound up with the diplomatic contest; outspoken and critical of Persian customs.",
+      "url": "https://archive.org/details/glimpseslifeand00sheigoog"
+    },
+    {
+      "id": "src_amirkabir_sykes",
+      "kind": "biography",
+      "title": "Sir Percy Sykes, A History of Persia, vol. II (Macmillan, London, 1915; Internet Archive scan, the section 'Mirza Taki Khan, Amir-i-Nizam' and the chapters on the Salar, the Bab and his fall read). Early twentieth-century British history: a minister of humble origin who was 'truthful and incorruptible', whose reforms of appointments, pensions and the pay of soldiers raised enemies including the queen mother, who refused the title of chief minister to disarm jealousy, who wisely yielded to a Russian demand about the governor of Mazandaran, whose popularity with the soldiers frightened the Shah, and whose death the author calls a calamity for Persia. Dated, Eurocentric and admiring; independent of the Iranian scholarly line.",
+      "url": "https://archive.org/details/historyofpersia02sykeuoft"
+    },
+    {
+      "id": "src_amirkabir_darfonun",
+      "kind": "institution",
+      "title": "John D. Gurney and Negin Nabavi, 'Dar al-Fonun', Encyclopaedia Iranica vol. VI, fasc. 6 (1993; read). Scholarly entry on the college founded in Tehran in 1851: his first instruction in August 1850 to the Persian legation in St Petersburg (military and technical subjects), the building in the Arg, his insistence on speed, the contracts signed in Vienna in August 1851, the Austrian, Italian and Czech instructors arriving in Tehran two days after his dismissal, the inauguration on 29 December 1851 under others, and the early curriculum; foreign observers saw the school as part of his military reforms. Independent authors from the main biography, though partly based on the same Persian biography by Adamiyyat.",
+      "url": "https://iranicaonline.org/articles/dar-al-fonun"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_amirkabir_iranica, src_amirkabir_ewb, src_amirkabir_sheil | 1829-1851 | scholarly reference entry, reference biography, contemporary eyewitness] On the 1829-30 mission to St Petersburg he used ten months to visit schools, an arsenal, a mint, factories, an observatory and banks, and on the Erzurum commission he took notice of the Ottoman reforms; his official newspaper reported items from abroad such as the Suez Canal project and the census of England; and the British minister's wife says he tried to make good his lack of experience by conversation with Europeans on systems of government. A Gale anecdote of the boy listening at the door of the schoolroom is reported as hearsay. SELF-CALIBRATION (agent): lowered from 72 / 0.60 to 70 / 0.58 because much of the evidence is what he saw on missions and not his own account, and Iranica says he left no account of his impressions."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_amirkabir_iranica, src_amirkabir_ewb, src_amirkabir_sykes, src_amirkabir_darfonun | 1848-1851 | scholarly reference entry, reference biography, early history, scholarly entry] In about three years he set up a budget committee, cut salaries and pensions, had customs collected by the state, enlarged and re-equipped the army, founded factories and an official newspaper, planned the Dar al-Fonun by letter to St Petersburg in August 1850 and began building it, and launched development work in Khuzestan. Several of these are described in one Iranian biographical tradition reflected in both Iranica entries, so independence is partial. CONCENTRATION (agent): lowered from 76 / 0.62 to 72 / 0.56 because both Iranica entries rest on Adamiyyat and the Gale and Sykes accounts only summarize the same list of reforms."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_amirkabir_iranica, src_amirkabir_sykes, src_amirkabir_darfonun | 1848-1851 | scholarly reference entry, early history, scholarly entry] On taking office he found an empty treasury and had a budget committee estimate the deficit at about a million tomans before deciding on cuts; he linked recruitment to village revenue assessments, sent instructions and detailed specifications for the Dar al-Fonun staff months before the school could open, and proposed development of Khuzestan as a strategic area. The sources record the measures, not his reasoning, and one Persian-language biography stands behind most of them. CONCENTRATION (agent): lowered from 68 / 0.54 strong inference to 62 / 0.46 inference because the evidence is one body of Iranian scholarship and the sources do not show how he planned."
+    },
+    "impact_motivation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_amirkabir_sheil, src_amirkabir_iranica, src_amirkabir_sykes | 1849-1856 | contemporary eyewitness, scholarly reference entry, early history] The British minister's wife, writing within five years of his death, says he had a keen desire to raise Persia in the scale of nations and that his patriotism was remembered after his murder; Iranica reports the stated aim of strengthening the central government and describes him as loyal to the traditional state; Sykes calls him incorruptible and says his death arrested the country's progress. The sources agree on the aim but give no direct statement from him and the legation's wife was partisan. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 64 / 0.50 because the motive is inferred from reforms and from admiring and foreign voices."
+    },
+    "conflict_tolerance": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_amirkabir_iranica, src_amirkabir_sheil, src_amirkabir_ewb, src_amirkabir_sykes | 1843-1851 | scholarly reference entry, contemporary eyewitness, reference biography, early history] At Erzurum he was the most forceful member of the Iranian team and resisted Ottoman claims largely on his own; in office he rode out a mutiny demanding his execution (1849), had the rebel Hasan Khan Salar and his relatives executed, halved many civil-service salaries and cancelled pensions, restricted the powers of the clergy and the sanctuary custom, and repeatedly clashed with the Russian and British envoys. The enmities he made brought his fall, so the impact is dual-edged. SELF-CALIBRATION (agent): top-risk row; lowered from 78 / 0.62 to 74 / 0.58 because the confrontational episodes are told by sources that are admiring of him or hostile to the court, and several are known through one biography."
+    },
+    "social_assertiveness": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_amirkabir_iranica, src_amirkabir_sheil | 1848-1851 | scholarly reference entry, contemporary eyewitness] Iranica reports a 'proud and self-confident bearing' and 'arrogance and disdain for protocol' since his service in Tabriz, which annoyed the queen mother and the young Shah; the British minister's wife says his pride led him to domineer over the courtiers and over the Shah himself. The two sources agree on the manner but not on how much it contributed to his fall. SELF-CALIBRATION (agent): lowered from 74 / 0.54 to 70 / 0.50 because the Shah's nickname comes to the eyewitness second-hand and only two families describe the manner."
+    },
+    "belief_updating": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_amirkabir_iranica | 1849-1851 | scholarly reference entry] Iranica records that he first tried to replace the religious courts in the capital by judging cases himself, and gave up when he realized his legal knowledge was inadequate and had led to wrong verdicts; it also says he relented on his ban of the Muharram passion plays in the face of strong opposition from several cities. Both episodes come from one entry. SELF-CALIBRATION (agent): lowered from 58 / 0.42 to 56 / 0.40 and kept as inference because two episodes from one source support the row."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_amirkabir_iranica, src_amirkabir_ewb | 1848-1851 | scholarly reference entry, reference biography] Faced with an empty treasury and dependence on Britain and Russia for arms, he had arms factories and a cannon foundry built in Iranian cities, took the Caspian fisheries back from a Russian monopoly and gave them to Iranian contractors, moved customs collection from tax farmers to the state, and set up a counter-espionage network with agents in the Russian and British embassies. Almost everything comes from one entry and the Gale summary. CONCENTRATION (agent): lowered from 66 / 0.50 strong inference to 60 / 0.44 inference because the sources are one body of scholarship."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아미르 카비르"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mirza-taqi-khan-amir-kabir-naghashbashi-1849.jpg",
+    "width": 750,
+    "height": 1000,
+    "source": "Oil on canvas portrait (65 x 50.5 cm) of Amir Kabir signed by the court painter Muhammad Ibrahim Naqqashbashi, with a Persian inscription at top left reading in part 'by the blessed command of the sovereign, the portrait of his excellency ... Sarkar Amir Kabir Mirza Taqi Khan ... his devoted servant Muhammad Ibrahim Naqqashbashi 1265 (AH)'. Attributed on Wikimedia Commons and Wikidata to the Golestan Palace, Tehran; the file is a 2013 photograph of the painting by the Commons user Monfie (1500 x 2000) downscaled to 750 x 1000 with no upscaling.",
+    "license": "Public domain by age: a painting made in AH 1265 (1848-49) by a court painter who is dated to 1851 on Commons (Wikidata records a later painter of the same name, born 1861 and died 1915; either date leaves the work out of copyright); the Commons photographer gives a faithful two-dimensional reproduction a public-domain dedication; the Golestan Palace visiting rules read for this review impose no reuse restriction on the collection (see provenance notes).",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Portrait of Amir Kabir by Muhammad Ibrahim Naqqashbashi, 1848-49 (AH 1265), Golestan Palace, Tehran; photograph by Monfie, 2013, via Wikimedia Commons (public domain; downscaled).",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:AmirKabir_naghashbashi.jpg",
+    "creator": "Muhammad Ibrahim Naqqashbashi (court painter)",
+    "date": "AH 1265 (1848-49), inscribed",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:AmirKabir_naghashbashi.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-23T00:00:00Z",
+    "updatedAt": "2026-11-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (downgraded from strong, foreseeable hold risk medium); lead survived. The inscription IS legible on the image and names the sitter ('Sarkar Amir Kabir Mirza Taqi Khan'), the painter and the year 1265, which the preflight had doubted; the Mir Mosavvar and Arjangi portraits at Golestan are different paintings and were not used. Date: AH 1265 is a lunar year, 26 November 1848 to 14 November 1849, within his ministry (1848-51). KIND likeness: a court portrait made during his lifetime by royal command; the sources do not say it was painted from life. HOLDER: no Golestan Palace item record or collection database page was located; Wikidata Q116434678 and Commons give Golestan as the holder, but a 2019 Flickr photograph of the same painting on Commons is categorized under the Negarkhaneh Museum, so the present location is not certain. TERMS: the Golestan Palace website refused connections during this review, so the 2024 archived English pages (visiting rules, visual documentation centre) were read through the Wayback Machine: they allow hand-held photography, require permission for professional or tripod photography and forbid advertising photography, and state no copyright or reuse terms for images of the collection; this is visitor-conduct policy and not a reuse restriction. RIGHTS: age-only (painting of 1848-49); the Commons creator death date 1851 is unsourced and Wikidata links the creator to a painter born 1861 who died 1915, so the death year is not relied on. Wikimedia upload hosts returned HTTP 429, so the original was obtained through WebFetch. Residual risk for lead review: holder item record not found. ATTRIBUTION: attributable (extensive administrative record). IDENTITY: QID Q472054 verified live; Korean label and Korean Wikipedia title 아미르 카비르. REGION west_asia. SOURCES READ (5 besides Wikidata): Iranica Algar, Gale, Lady Sheil 1856, Sykes 1915, Iranica Dar al-Fonun; also read and not cited: Iran Chamber Society article (popular, admiring), House Divided entry (citation to Amanat only), Kojaro news item on a 2023 memorial hall. Not opened: Adamiyyat, Amanat, Lorentz, the IJMES article on his downfall (publisher site unreachable). PERSPECTIVES: (1) Iranian scholarly line via Algar; (2) general encyclopedia (Gale); (3) British legation eyewitness (partisan, critical of his pride); (4) British imperial history (Sykes); (5) institutional history of his college. SOURCE DISAGREEMENTS recorded: Iranica says the Shah ordered his dismissal and execution through the intrigues of the queen mother and Mirza Aqa Khan Nuri, Gale says the queen mother tricked the Shah into signing, Sheil says the Shah was not much blamed while the instigators were execrated; Iranica says he possibly addressed the Tsar in Russian, Gale says he did. CONTENT NOTE: the execution of the founder of Babism (1850) is reported by Iranica as probably politically motivated; it is not scored or used in editorial text. Sparse profile (8 rows, average confidence about 0.50) is deliberate and not expected to meet the match-eligibility floor."
+  }
+}

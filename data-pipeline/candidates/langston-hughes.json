@@ -1,0 +1,207 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "langston-hughes",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Langston Hughes",
+    "aliases": [
+      "James Mercer Langston Hughes",
+      "James Langston Hughes"
+    ],
+    "wikidataId": "Q188093",
+    "birthYear": 1901,
+    "deathYear": 1967,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature",
+      "journalism"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "artistic"
+    ],
+    "tagIds": [
+      "communicator",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_hughes_wikidata",
+      "kind": "wikidata",
+      "title": "Langston Hughes (Q188093), verified live via the Wikidata API (2026-11-20): English label 'Langston Hughes', description 'American writer and social activist (1901-1967)', instance of human, citizen of the United States, Korean label 랭스턴 휴스, died 22 May 1967; birth date given as 1 February 1901 (normal rank) with 1902 held as a deprecated value. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q188093"
+    },
+    {
+      "id": "src_hughes_poetryfoundation",
+      "kind": "institution",
+      "title": "Poetry Foundation, 'Langston Hughes' biography (1901-1967; read in full). CANONICAL SIGNIFICANCE SOURCE: calls him a central figure of the Harlem Renaissance and a major poet who also wrote novels, short stories, essays and plays, who sought to portray the joys and hardships of working-class Black life without sentimentality or stereotype; quotes his 1926 essay 'The Negro Artist and the Racial Mountain' and, from his own memoir The Big Sea, the hostile Black-press headlines on Fine Clothes to the Jew; records that he was the first Black American to earn his living solely from writing and public lectures, the Jesse B. Semple ('Simple') columns in the Chicago Defender and New York Post, critics' praise and reservations (including a reviewer's complaint about his lack of a personal political stance) and that some of his children's poems were 'repeatedly rejected' before publication. Institutional biography drawing heavily on critics and on his own memoir; admiring, but it prints the critics' objections.",
+      "url": "https://www.poetryfoundation.org/poets/langston-hughes"
+    },
+    {
+      "id": "src_hughes_poetsorg",
+      "kind": "institution",
+      "title": "Academy of American Poets, 'Langston Hughes' biography on Poets.org (read in full): his upbringing by his grandmother, years in Mexico and at Columbia University, work as a cook, launderer, busboy and seaman, The Weary Blues (Knopf, 1926, with an introduction by Carl Van Vechten), the Harmon Foundation gold medal for his first novel, the book-length jazz poem Montage of a Dream Deferred (1951), eleven plays, the Simple books, the anthologies co-edited with Arna Bontemps and the play Mule Bone written with Zora Neale Hurston; says he refused to separate his personal experience from that of Black America and notes that his birth year was revised from 1902 to 1901 after 2018 research. Learned-society biography, admiring and short.",
+      "url": "https://poets.org/poet/langston-hughes"
+    },
+    {
+      "id": "src_hughes_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Langston Hughes' (read in full, editors, revised by Rene Ostberg): the 1921 poem 'The Negro Speaks of Rivers' in The Crisis, one unhappy year at Columbia University and his decision to leave, work as a freighter steward and a doorman in Paris, the three poems left at Vachel Lindsay's table in 1925 and the press story that followed, Knopf's publication of The Weary Blues in 1926, the Fire!! magazine of 1926, Fine Clothes to the Jew (1927) and its criticism, the 1930s turn toward racial-justice poetry, the Harlem and Los Angeles theatre companies, Montage of a Dream Deferred and 'Harlem', and the anthologies and histories. Reference article, celebratory but specific.",
+      "url": "https://www.britannica.com/biography/Langston-Hughes"
+    },
+    {
+      "id": "src_hughes_cbb",
+      "kind": "biography",
+      "title": "Michael Mueller, 'Hughes, Langston 1902-1967', Contemporary Black Biography (Gale), reproduced on Encyclopedia.com (read in full): his family background and childhood moves, the 1920 visit to his father in Mexico and the estrangement that followed over his wish to write, his early jobs, years at sea, Paris and Lincoln University, patron Charlotte Mason and why he broke with her, the reading tour of the South in 1931, the Soviet trip, the weekly output in Carmel, the Guggenheim fellowship, the three theatre companies he founded, the Simple tales, the anthologies, translations and history books of the 1940s and 1950s, and the critics' praise and disparagement. Long reference biography listing Rampersad, Berry, Emanuel and other scholarship as sources; gives 1902 as his birth year.",
+      "url": "https://www.encyclopedia.com/education/news-wires-white-papers-and-books/hughes-langston-1902-1967"
+    },
+    {
+      "id": "src_hughes_blackpast",
+      "kind": "institution",
+      "title": "Martin Summers (Boston College), 'Langston Hughes (1902-1967)', BlackPast.org (read in full): his upbringing in Lawrence, Kansas and Cleveland, his refusal of his father's demand that he study mining engineering, the two years as a ship's crewman, his post as personal assistant to Carter G. Woodson in 1925, Lincoln University, the aborted Soviet film project of 1932 and his later travels, the number of his books, and his place among Harlem Renaissance writers. Scholar-authored reference entry; independent of the Gale entry in its framing; gives 1902 as his birth year. The political sections of the entry are context only and are not scored.",
+      "url": "https://www.blackpast.org/african-american-history/hughes-langston-1902-1967/"
+    },
+    {
+      "id": "src_hughes_henryford",
+      "kind": "institution",
+      "title": "Kayla Chenault (The Henry Ford, associate curator), 'A Bone to Pick with the Writing and Fallout of Mule Bone' (museum article, read in full): how Hughes and Zora Neale Hurston met in 1926, co-founded the magazine Fire!! with other young writers, and began the play Mule Bone in 1930; the typist Louise Thompson and the royalty disagreement; Hughes's recent break with patron Charlotte Osgood Mason; Hurston's separate version sent to Carl Van Vechten, the Cleveland production plan, the argument of February 1931 and the note on Hughes's own copy, 'This play was never done because the authors fell out'. States that authorship remains debatable and credits both writers. Curator's balanced account that also tells Hurston's side.",
+      "url": "https://www.thehenryford.org/collections/explore/articles/a-bone-to-pick-with-the-writing-and-fallout-of-mule-bone"
+    },
+    {
+      "id": "src_hughes_nmaahc",
+      "kind": "institution",
+      "title": "Smithsonian National Museum of African American History and Culture, 'Langston Hughes: The People's Poet' (read in full): his focus on the lives of working-class Black Americans, the criticism of his character Simple and of Fine Clothes to the Jew (quoting a contemporary critic's call to present 'our better selves'), reviewers' praise for the Simple stories and for Not Without Laughter, and the hope that runs through poems such as 'I, Too' and 'Let America Be America Again'. Museum interpretive essay, admiring; used for the critics' reception and for how his work is read, not for facts about his conduct.",
+      "url": "https://nmaahc.si.edu/explore/stories/langston-hughes-peoples-poet"
+    }
+  ],
+  "rows": {
+    "independent_thinking": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_cbb, src_hughes_britannica, src_hughes_poetryfoundation, src_hughes_nmaahc | 1920-1927 | reference biography, reference article, institutional biography, museum essay] He chose to write about working-class Black life in blues-based verse and published Fine Clothes to the Jew (1927) although Black critics attacked it; Britannica says he saw it as a step forward, and the Poetry Foundation prints the hostile headlines (taken from his own memoir). He also refused his father's insistence on a practical career (Gale, BlackPast), although he had first studied engineering at Columbia at his father's urging and left after a year (Britannica). The reception is documented by four outlets; his reasoning rests mainly on his 1926 essay, which is his own statement. SELF-CALIBRATION (agent): lowered from 72 / 0.60 because the aesthetic stance is his own essay and the critics' headlines reach us through his memoir."
+    },
+    "autonomy_need": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_cbb, src_hughes_blackpast, src_hughes_henryford | 1919-1930 | reference biography, scholar-authored entry, museum article] Three episodes: he resisted his father's demand that he train for a practical trade or mining engineering, leaving Columbia after a year (Gale, BlackPast, Britannica); as a teenager he stayed on in Cleveland to finish school when his family moved (BlackPast); and he broke with his patron Charlotte Mason, whose income supported his novel, when she objected to the protest tone of some poems (Gale; The Henry Ford says they 'cut ties on bad terms'). The father and patron accounts rest on the same underlying scholarship. CONCENTRATION CORRECTION (agent): lowered from 70 / 0.56 because the two reference entries retell the same biography and the Mason break is given with little detail."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_hughes_poetryfoundation, src_hughes_henryford, src_hughes_cbb | 1927-1931 | institutional biography, museum article, reference biography] He kept to his subject matter in the face of attacks from the Black press (Poetry Foundation, Gale) and, in the Mule Bone dispute, contacted Hurston when a rival version of the play surfaced for a Cleveland production, in a quarrel that ended the friendship (The Henry Ford, whose account also gives Hurston's side). The Mason break also followed a disagreement over tone. Both episodes are documented, but the sources describe outcomes more than how he conducted himself, and the personal cost was real, so impact is dual-edged."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_britannica, src_hughes_cbb, src_hughes_poetryfoundation | 1927-1960s | reference article, reference biography, institutional biography] He continued publishing after the harsh reception of Fine Clothes to the Jew (Britannica), wrote a story or article every week in Carmel in 1933-34 to support his ailing mother (Gale), and saw some children's poems of the 1930s repeatedly rejected before they appeared posthumously (Poetry Foundation). Three separate instances; none shows how he handled a long setback in detail. CONCENTRATION CORRECTION (agent): lowered from 64 / 0.52 because two of the three come from the Gale-based reference lineage."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_britannica, src_hughes_cbb, src_hughes_henryford | 1925-1939 | reference article, reference biography, museum article] He left three poems at Vachel Lindsay's table while working as a hotel busboy in 1925 (Britannica, Gale), helped launch the magazine Fire!! in 1926 (Britannica, The Henry Ford), set out on a reading tour of the South in 1931 with a Rosenwald grant (Gale), and founded theatre companies in Harlem, Los Angeles and Chicago (Britannica names two, Gale three). Four distinct instances reported by more than one author; the Lindsay episode is a widely retold anecdote."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_britannica, src_hughes_cbb, src_hughes_poetsorg, src_hughes_henryford | 1926-1958 | reference article, reference biography, learned-society biography, museum article] A lifelong friendship and repeated joint work with Arna Bontemps (two anthologies, a children's book), the opera Street Scene with Kurt Weill and Elmer Rice, books with Milton Meltzer, co-founding Fire!! and the joint play Mule Bone with Hurston, which ended in a dispute over authorship that The Henry Ford leaves unresolved. Many documented partnerships; the Hurston break shows the limits."
+    },
+    "creative_originality": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_cbb, src_hughes_britannica, src_hughes_poetsorg | 1926-1961 | reference biography, reference article, learned-society biography] The reference entries describe him as one of the first Black writers to use colloquial speech and the structures of blues and jazz (Gale), and cite his own preface to Montage of a Dream Deferred (1951) comparing the poem to bebop (Britannica); Poets.org links him to jazz poetry. The claim of newness is a characterisation by reference works and his own preface rather than a documented comparison with predecessors. CONCENTRATION CORRECTION (agent): lowered from 70 / 0.54 strong_inference to 64 / 0.46 inference because the originality claim is reputation plus his own preface."
+    },
+    "experimentation": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_britannica, src_hughes_cbb | 1951-1961 | reference article, reference biography] The book-length jazz poem Montage of a Dream Deferred (1951), whose preface he describes as modelled on bebop's broken rhythms and interjections (Britannica), and Ask Your Mama: 12 Moods for Jazz (1961), written for musical accompaniment (Gale). These are the same episodes that support the originality row. CONCENTRATION CORRECTION (agent): lowered from 66 / 0.50 strong_inference to 60 / 0.42 inference to avoid counting one set of jazz-poetry works twice."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_britannica, src_hughes_cbb, src_hughes_poetsorg | 1930-1958 | reference article, reference biography, learned-society biography] Work across poetry, a novel, short stories, Broadway and community plays, an opera libretto, newspaper columns, photographic and pictorial histories, folklore anthologies, children's books and translations of Garcia Lorca, Gabriela Mistral, Nicolas Guillen and Jacques Roumain. Documented by three reference sources; almost all of it is writing and publishing, which keeps the score moderate. CONCENTRATION CORRECTION (agent): lowered from 66 / 0.52 because the list of forms comes largely from one Gale-based lineage and stays within literature."
+    },
+    "curiosity": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_cbb, src_hughes_poetryfoundation, src_hughes_britannica | 1920-1930s | reference biography, institutional biography, reference article] Gale describes a lifelong fascination with travel from the early 1920s (West Africa, Europe, later Central Asia and East Asia, Haiti and Cuba), and the Poetry Foundation lists the places he had been before his first book; Britannica and Gale add his translations from Spanish and French. Much of the travel was also work, seafaring or commissioned, and no source records what he asked or studied on the way. SELF-CALIBRATION (agent): lowered from 64 / 0.50 strong_inference to 60 / 0.46 inference because travel and translation work are indirect evidence."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_poetryfoundation, src_hughes_cbb | 1922-1960s | institutional biography, reference biography] Odd jobs as cook, launderer, busboy, seaman and Paris doorman while writing, a move to tutoring and translating in Mexico in the 1930s (Gale), and critics' remarks that his work kept pace with each decade (Gale quoting Kent; Poetry Foundation quoting Lieberman). The critics' remarks are characterisations, and several moves are listed without detail."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_hughes_poetryfoundation, src_hughes_cbb, src_hughes_nmaahc | 1931-1958 | institutional biography, reference biography, museum essay] He wrote for a Black working-class readership (the Poetry Foundation quotes critics on this and his own description of his subjects), toured the South reading to Black audiences, founded community theatre companies and wrote histories and biographies of Black Americans for young readers (Gale). The aim is largely described by critics and by his own statements; the museum essay interprets his hope as belief in the value of ordinary people's work. SELF-CALIBRATION (agent): lowered from 64 / 0.50 strong_inference to 60 / 0.44 inference because his purpose is mostly stated or characterised, not independently documented."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "랭스턴 휴스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/langston-hughes-underwood-and-underwood-1925.jpg",
+    "width": 701,
+    "height": 1000,
+    "source": "Gelatin silver print of Langston Hughes by Underwood & Underwood, 1925, made in Washington, D.C. (image/sheet 22.1 x 15.7 cm), National Portrait Gallery, Smithsonian Institution, object NPG.2011.101, acquired through the generosity of Elizabeth Ann Hylton. The file is the Smithsonian's own high-resolution JPEG (2802 x 4000) served by its image delivery service, downscaled to 701 x 1000 with no upscaling.",
+    "license": "CC0 1.0 Universal (Smithsonian Open Access): the National Portrait Gallery record read through the Smithsonian Open Access API gives 'Restrictions & Rights: CC0' for the object and 'usage access: CC0' for the image",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Underwood & Underwood, Langston Hughes, 1925, gelatin silver print. National Portrait Gallery, Smithsonian Institution; acquired through the generosity of Elizabeth Ann Hylton (Smithsonian Open Access, CC0).",
+    "attributionUrl": "https://npg.si.edu/object/npg_NPG.2011.101",
+    "creator": "Underwood & Underwood (commercial photographic studio, active 1880 to the 1940s)",
+    "date": "1925",
+    "kind": "likeness",
+    "sourcePageUrl": "https://npg.si.edu/object/npg_NPG.2011.101"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: Stage B PLAUSIBLE (downgraded from strong because the holder pages were bot-walled) / lead SURVIVED: the lead was the National Portrait Gallery's Underwood & Underwood 1925 print. The npg.si.edu and si.edu item pages and the si.edu terms and open-access pages returned 403 (bot walls, recorded separately and not bypassed); the holder's own record was instead read through the Smithsonian Open Access API (title 'Langston Hughes', artist Underwood & Underwood, sitter Langston Hughes, date 1925, place Washington, gelatin silver print, credit line Elizabeth Ann Hylton, Restrictions and Rights CC0, media usage CC0) and the AWS Registry of Open Data entry for the Smithsonian Open Access dataset (licence CC0) was read. The original JPEG was downloaded from the Smithsonian image service. The photograph carries no inscription; identity rests on the holder's title and sitter field, and the busboy's uniform is consistent with his 1925 job in a Washington hotel. KIND likeness. QID VERIFIED LIVE (2026-11-20) Q188093. BIRTH YEAR: Wikidata ranks 1901 as normal and 1902 as deprecated; Poetry Foundation, Academy of American Poets and Kansas Historical Society give 1901 (revised after 2018 research), while Gale, BlackPast, NMAAHC and the Smithsonian sitter field give 1902; 1901 is used and flagged for lead review (the frozen list said 1902). REGION north_america. ERA 20th_century. ZERO POLITICS: primary identity is poet and writer; his 1930s political writing, the Soviet trip, the Spanish Civil War reporting and the 1953 Senate testimony are context and are not scored. ATTRIBUTION: attributable (extensive dated publication record, many independent reference biographies). CANONICAL SIGNIFICANCE SOURCE: Poetry Foundation biography. READ (7 sources besides Wikidata): Poetry Foundation, Academy of American Poets, Britannica, Gale Contemporary Black Biography (Encyclopedia.com), BlackPast (Summers), The Henry Ford curator article on Mule Bone, NMAAHC essay. Wikipedia not used. Not opened: Rampersad's two-volume biography, The Big Sea (cited only through quotation in the Poetry Foundation entry), Library of Congress and Beinecke finding aids (LOC 403; Beinecke page carried no usable biography text). PERSPECTIVES: institutional biography; learned-society biography; general reference; Gale reference biography listing Rampersad, Berry and Emanuel; scholar-authored entry; museum curator article that tells both sides of a quarrel; museum interpretive essay. Independent behavioural source families are fewer than the source count: the Poetry Foundation and Gale texts share a reference lineage and all secondary sources ultimately rest on Rampersad and on Hughes's own memoirs. NON-SELF BEHAVIOURAL SOURCES: Britannica, Gale, BlackPast, The Henry Ford. COUNTER-VOICES: critics quoted by the Poetry Foundation and NMAAHC (including the reviewer faulting his lack of a personal political stance), the Mule Bone dispute told from both sides. Conflicts not carded: birth year (1901 versus 1902); date of the first Simple columns (1942 in the Poetry Foundation, 1943 in Gale); Mule Bone authorship. SELF-CALIBRATION: 8 of 12 rows lowered after the concentration and self-calibration passes (scores 8, confidences 8, evidence type 4); nothing raised; see handback. KO NAME 랭스턴 휴스 is the Wikidata Korean label and Korean Wikipedia title (authoritative-label; no other Korean usage checked). SPARSE PROFILE: 12 rows by design; no rows padded for eligibility."
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-church-terrell",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mary Church Terrell",
+    "aliases": [
+      "Mary Eliza Church Terrell",
+      "Mollie Church Terrell",
+      "Mary Eliza Church"
+    ],
+    "wikidataId": "Q3296160",
+    "birthYear": 1863,
+    "deathYear": 1954,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist",
+      "teacher",
+      "writer"
+    ],
+    "fieldIds": [
+      "civil_rights",
+      "education",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "educational"
+    ],
+    "tagIds": [
+      "advocate",
+      "founder",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_terrell_wikidata",
+      "kind": "wikidata",
+      "title": "Mary Church Terrell (Q3296160), verified live via the Wikidata API (2026-11-23): English label 'Mary Church Terrell', description 'American activist and suffragette (1863-1954)', instance of human, born 23 September 1863, died 24 July 1954, citizen of the United States; no Korean label and no Korean Wikipedia sitelink. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q3296160"
+    },
+    {
+      "id": "src_terrell_nwhm",
+      "kind": "institution",
+      "title": "National Women's History Museum, 'Mary Church Terrell' biography by Debra Michals (2017; read in full). CANONICAL SIGNIFICANCE SOURCE: calls her a well-known African American activist who championed racial equality and women's suffrage; first president of the National Association of Colored Women (1896-1901, motto 'Lifting as we climb'); charter member of the NAACP in 1909; co-founder of the College Alumnae Club in 1910; 1948 admission to the American Association of University Women after a lawsuit; the 1950 challenge to segregation at the John R. Thompson restaurant and the 1953 Supreme Court ruling; her activism sparked in 1892 by the lynching of her friend Thomas Moss. Museum biography drawing on Oberlin College Archives and Joan Quigley's book, so partly the same family as other pages; says the Court held segregated eating places 'unconstitutional', which the opinion itself does not (see the Supreme Court record).",
+      "url": "https://www.womenshistory.org/education-resources/biographies/mary-church-terrell"
+    },
+    {
+      "id": "src_terrell_nps",
+      "kind": "institution",
+      "title": "U.S. National Park Service, 'Mary Church Terrell' profile and the companion article 'Places of Mary Church Terrell' (both read in full). Federal heritage-agency summaries: born in Memphis in 1863 to formerly enslaved parents who became business owners; Oberlin degrees; taught at the M Street School from 1887; first African American appointed to the Washington, D.C. Board of Education in 1895; the 1896 merger of the Colored Women's League of Washington, the Woman's Era Club of Boston and the National Federation of Afro-American Women into the National Association of Colored Women led by Josephine St. Pierre Ruffin, Anna Julia Cooper and Terrell; her belief that education and job training would win acceptance; picketing the White House for suffrage; the 1950 Thompson restaurant refusal, lawsuit and later boycotts, pickets and sit-ins. Short, admiring and partly drawn from the same Oberlin and museum material; also says the 1953 court ruled segregated eating places unconstitutional.",
+      "url": "https://www.nps.gov/people/mary-church-terrell.htm"
+    },
+    {
+      "id": "src_terrell_loc",
+      "kind": "institution",
+      "title": "Library of Congress Law Library, 'Mary Church Terrell, Suffragist and Civil Rights Activist' (In Custodia Legis blog, 2020; read in full). Librarian's biography built on Terrell's papers, her memoir, Joan Quigley's book and Willard Gatewood: her classics degree at Oberlin against friends' advice and her Greek that impressed Matthew Arnold; first president of the National Association of Colored Women; her work as a Chautauqua lecturer called 'the female Booker T. Washington'; lobbying Secretary of War Taft after the 1906 Brownsville discharges; the 1904 Berlin congress, where she was the only American to speak in German; the 1950 complaint under the 1872 and 1873 ordinances that were dropped from the 1901 Code but never repealed, and the 1953 ruling that the ordinances were still valid.",
+      "url": "https://blogs.loc.gov/law/2020/03/mary-church-terrell-suffragist-and-civil-rights-activist/"
+    },
+    {
+      "id": "src_terrell_vcu",
+      "kind": "institution",
+      "title": "Virginia Commonwealth University Libraries, Social Welfare History Project, 'Mary Church Terrell (1863-1954): Educator, Writer, Civil Rights Activist' by Jack Hansan (2012; read in full). University encyclopedia entry drawing on her memoir and on Beverly Washington Jones's 1982 articles in the Journal of Negro History and Phylon: her 1892 Colored Women's League of Washington and presidency of the Bethel Literary and Historical Society; election as first president of the National Association of Colored Women in 1896 because women from both merging groups found her fair and trustworthy; her 1904 Berlin speech given in German and French; her 1909 NAACP charter membership 'when many declined for fear of losing their jobs'; the 1950 Thompson lawsuit and the sit-ins, pickets, boycotts and surveys that preceded the 1953 ruling. Secondary entry resting largely on one memoir and one historian; contains errors on dates and on the 1953 ruling's constitutional status (a reader's comment corrects the Delta Sigma Theta date).",
+      "url": "https://socialwelfare.library.vcu.edu/eras/terrell-mary-church/"
+    },
+    {
+      "id": "src_terrell_quigley",
+      "kind": "press",
+      "title": "Joan Quigley, 'The Black Woman Who Led the Fight Against Jim Crow - And Why No One Has Ever Heard of Her', Talking Points Memo (26 July 2016; read in full). Feature by the author of the 2016 Oxford University Press biography 'Just Another Southern Town': Terrell's 1907 Cleveland speech criticising the Roosevelt administration and the hostile reaction in the Washington-aligned Black press, her marginal role in the NAACP, her 1946 rejection by the Washington branch of the American Association of University Women and the 1949 appeals-court loss, her 22 June 1949 speech that patience had become an ugly, disgraceful vice, the January 1950 Thompson's Restaurant visit, the picket at Kresge's, the boycott of Hecht's, the 1951 House Un-American Activities Committee report naming her a 'fellow traveler' (recorded here as an accusation, not a finding), the unanimous 1953 ruling, her later movie-theater campaign, and the note that Thompson was a statutory not a constitutional case. Single-biographer family, sympathetic but candid about her limits.",
+      "url": "https://talkingpointsmemo.com/feature/mary-church-terrell"
+    },
+    {
+      "id": "src_terrell_historynet",
+      "kind": "press",
+      "title": "HistoryNet, 'Plucking Out Jim Crow in the Nation's Capital' (question-and-answer interview with Joan Quigley about 'Just Another Southern Town'; read in full). Same biographer as the Talking Points Memo feature (one source family): Terrell's parents and Oberlin schooling, the tension between her wish to publicise racial equality and her husband Robert Terrell's dependence on presidential reappointment as a judge, her 1908 streetcar confrontation, the lost 1949 university-women suit, the four people who went to Thompson's on 27 January 1950 (Terrell, Rev. William Jernagin, Geneva Brown and the Quaker David Scull), the manager's refusal that they had come to obtain, the losses at every court level before the Supreme Court took the case on an expedited basis, and the legal point that the 1953 decision rested on the old District of Columbia laws, not the Constitution.",
+      "url": "https://historynet.com/plucking-out-jim-crow-in-the-nations-capital-2/"
+    },
+    {
+      "id": "src_terrell_parker_review",
+      "kind": "press",
+      "title": "Malaurie Pilatte, 'The Life and Work of Mary Church Terrell', African American Intellectual History Society blog (25 March 2021; read in full). Scholarly review of Alison M. Parker's 'Unceasing Militant: The Life of Mary Church Terrell' (UNC Press, 2020), the first full-length biography: says earlier scholarship cast her as an elitist club woman out of touch with working-class Black women, and that Parker, working from her papers, diaries and correspondence, shows her as both pragmatic and radically committed, organising cross-class alliances (the Women Wage Earners), lobbying, institution-building, strikes, picketing and boycotts from the 1890s club movement to the 1950s; notes the book is United States-centred and that the Terrells struggled financially despite elite status. Independent academic perspective on the debate over her; secondhand through a reviewer, and her household finances and lecture income are described as a necessity.",
+      "url": "https://www.aaihs.org/the-life-and-work-of-mary-church-terrell/"
+    },
+    {
+      "id": "src_terrell_scotus",
+      "kind": "archive",
+      "title": "District of Columbia v. John R. Thompson Co., Inc., 346 U.S. 100 (decided 8 June 1953), syllabus and opinion of Justice Douglas (read; Justia U.S. Supreme Court Center). Primary legal record: the Court held that the District of Columbia's 1872 and 1873 laws against racial discrimination in restaurants had survived later changes and were enforceable, that they were not repealed by the 1901 Code or by disuse, and reversed the court of appeals; Justice Jackson took no part. The opinion does not name Terrell and decides on District law and congressional delegation, not on the equal protection clause.",
+      "url": "https://supreme.justia.com/cases/federal/us/346/100/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_quigley, src_terrell_historynet, src_terrell_scotus, src_terrell_loc | 1949-1953 | biographer's magazine feature, biographer interview, Supreme Court opinion, library blog] After a federal appeals court sided with the Washington branch of the American Association of University Women against her in June 1949, she took the 1950 Thompson's Restaurant test case, which lost at each court level until the Supreme Court ruled in 1953, and in the meantime she joined picket lines and an eight-month boycott of Hecht's department store; the Supreme Court record independently confirms that the case reached it after the court of appeals held the old ordinances unenforceable. The losses and boycott details are the biographer's; only the case path is independently confirmed. CONCENTRATION: lowered from 74 / 0.62 to 72 / 0.58 because the campaign detail rests on one biographer's account and the case ended in a win."
+    },
+    "conflict_tolerance": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_terrell_quigley, src_terrell_historynet, src_terrell_parker_review | 1907-1951 | biographer's magazine feature, biographer interview, scholarly book review] In October 1907, after the Brownsville discharges, she publicly criticised the Roosevelt administration although her husband's judgeship depended on presidential reappointment, drawing attacks from Booker T. Washington's supporters in the Black press and leaving her without a leadership role in the NAACP despite her charter membership; in June 1949 she told an audience that patience had become a disgraceful vice and that fear of being called an agitator held people back; and a 1951 House committee report named her among alleged 'fellow travelers', an accusation recorded here only as a cost, not as a finding. The cost was real, so impact is dual-edged. CONCENTRATION: lowered from 72 / 0.58 to 66 / 0.52 because the episodes come almost entirely from one biographer and the review adds only a general 'militant' framing."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_vcu, src_terrell_nwhm, src_terrell_nps, src_terrell_quigley | 1892-1952 | university encyclopedia entry, museum biography, federal heritage pages, biographer's magazine feature] She founded the Colored Women's League of Washington in 1892, was the first woman to preside over the Bethel Literary and Historical Society that year, was elected first president of the National Association of Colored Women in 1896 (the VCU entry says women from both merging groups found her fair and trustworthy), co-founded the College Alumnae Club in 1910, and in the early 1950s acted with the Coordinating Committee for the Enforcement of the D.C. Anti-Discrimination Laws in the Hecht's boycott. The offices are well documented; the sources say little about how she sought them. CONCENTRATION: lowered from 72 / 0.6 to 68 / 0.54 because 'first president' is repeated across institutional pages that draw on the same few biographies."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_loc, src_terrell_vcu, src_terrell_quigley | 1896-1907 | library blog, university encyclopedia entry, biographer's magazine feature] She was a sought-after Chautauqua lecturer and magazine writer known as 'the female Booker T. Washington', addressed the 1904 Berlin congress in German (the VCU entry says her speech's content and form won respect), and lobbied the Secretary of War until he briefly paused the Brownsville discharges, though the order was not reversed. Reception is reported by summaries and not measured, and the Brownsville effort failed in the end. SELF-CALIBRATION (agent): lowered from 68 / 0.54 strong_inference to 62 / 0.46 inference because audience effect is asserted by secondary summaries and the one lobbying episode did not succeed."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_nps, src_terrell_vcu, src_terrell_nwhm, src_terrell_historynet, src_terrell_parker_review | 1892-1953 | federal heritage pages, university encyclopedia entry, museum biography, biographer interview, scholarly book review] The National Association of Colored Women was formed in 1896 by merging the Colored Women's League of Washington with other regional federations, and the NPS names her with Ruffin and Cooper as its leaders; she was a charter member of the NAACP and co-founder of the College Alumnae Club; the Thompson's test case was carried out with a minister, a union officer, a white Quaker and two lawyers; and the reviewer of Parker's biography says she built cross-class alliances such as the Women Wage Earners. Most items are one-line institutional mentions. CONCENTRATION: lowered from 66 / 0.54 to 62 / 0.5 because the group memberships are brief and drawn from the same few biographies."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_parker_review, src_terrell_quigley, src_terrell_nps, src_terrell_nwhm | 1896-1953 | scholarly book review, biographer's magazine feature, federal heritage pages, museum biography] The reviewer says Parker shows her as pragmatic and willing to compromise as well as radically committed; her methods moved from club organising, lecturing and an uplift strategy to picketing the Wilson White House and, after losing the 1949 university-women suit, to reviving unrepealed 1870s ordinances and to boycotts and picket lines in her late eighties. The shifts are documented but the sources do not record how she revised her own view. SELF-CALIBRATION (agent): lowered from 64 / 0.5 strong_inference to 60 / 0.44 inference because the 'pragmatic' reading is one reviewer's paraphrase and the change of method is inferred from outcomes."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_quigley, src_terrell_historynet, src_terrell_nps, src_terrell_vcu, src_terrell_nwhm | 1892-1953 | biographer's magazine feature, biographer interview, federal heritage pages, university encyclopedia entry, museum biography] She founded the Colored Women's League in 1892, applied to the university-women's branch and sued when refused, then went to Thompson's Restaurant in January 1950 expecting a refusal that would let the group file affidavits for a test case, enlisted lawyers, took up picket lines at Kresge's and Hecht's, and on her ninetieth birthday announced a drive to integrate Washington's movie theaters; the NPS says she launched a campaign to reinstate the anti-discrimination laws. Three independent source families document the initiating acts; the planning is the biographer's account."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_loc, src_terrell_quigley, src_terrell_scotus, src_terrell_parker_review | 1950-1953 | library blog, biographer's magazine feature, Supreme Court opinion, scholarly book review] She built her test case on 1872 and 1873 ordinances that had been left out of the 1901 Code but never repealed (the Supreme Court held they survived), and Quigley writes that she knew diplomatic embarrassment over refused service gave her leverage; the reviewer adds that lecture income was a household necessity. The leverage claim is the biographer's reading, and no source shows her weighing options. CONCENTRATION: lowered from 64 / 0.48 to 60 / 0.42 because the strategic reading comes from one biographer."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_nwhm, src_terrell_nps, src_terrell_parker_review, src_terrell_vcu | 1892-1954 | museum biography, federal heritage pages, scholarly book review, university encyclopedia entry] Across about sixty years her organising, writing and litigating aimed at racial and gender equality: anti-lynching work after the 1892 murder of her friend Thomas Moss, racial uplift through the National Association of Colored Women, woman suffrage, and the desegregation campaigns; the reviewer says the Parker biography places her within suffrage, peace, anti-lynching and convict-lease reform. The stated motives are largely her own and the institutional summaries repeat one another. CONCENTRATION: lowered from 76 / 0.62 to 70 / 0.54 because mission phrases and her own statements recur across pages that draw on the same material."
+    },
+    "mastery_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_loc, src_terrell_vcu, src_terrell_nps, src_terrell_quigley | 1880-1904 | library blog, university encyclopedia entry, federal heritage pages, biographer's magazine feature] She chose Oberlin's classical course against friends' advice and impressed a visiting Matthew Arnold with her Greek, took a master's degree in 1888, spent two years in France, Switzerland, Italy and Germany to improve her languages, kept diaries in French and German, and later spoke in German at the 1904 Berlin congress. Distinct episodes support the pattern, but family wealth paid for it and the sources present it as preparation for public work, not as craft pursuit."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_terrell_vcu, src_terrell_historynet, src_terrell_quigley | 1907-1953 | university encyclopedia entry, biographer interview, biographer's magazine feature] The VCU entry says she was an NAACP charter member in 1909 when many declined from fear of losing their jobs, and Quigley notes that her public stands came while her husband's judgeship needed presidential reappointment and, later, while a House committee named her among alleged 'fellow travelers'. No source describes how she weighed these costs, and her family's means limited her exposure. SELF-CALIBRATION (agent): lowered from 62 / 0.46 to 58 / 0.4 because the NAACP claim is one line in a secondary entry and the exposure is inferred from context."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_terrell_quigley, src_terrell_historynet, src_terrell_vcu | 1950-1953 | biographer's magazine feature, biographer interview, university encyclopedia entry] Campaigns were sequenced: the affidavits and test case at Thompson's, a Christmas Eve 1950 picket at Kresge's (the store gave in January 1951), a boycott and picket at Hecht's from April 1951 (the store gave in January 1952), and a movie-theater drive from her ninetieth birthday in 1953; the VCU entry says she helped organise sit-ins, pickets, boycotts and surveys. The detail comes from one biographer and the sources do not describe her planning process. CONCENTRATION: lowered from 64 / 0.52 strong_inference to 60 / 0.46 inference because the sequence rests on one biographer's account."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메리 처치 테럴"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mary-church-terrell-unknown-1919.jpg",
+    "width": 607,
+    "height": 1000,
+    "source": "Photographic plate printed with the caption 'MARY CHURCH TERRELL' as the frontispiece to the chapter on her in Benjamin Brawley, Women of Achievement (Chicago: Woman's American Baptist Home Mission Society, 1919, 'Copyright, 1919' on the title page), scan at the Internet Archive (womenofachieveme00brawrich, University of California Libraries). The file is cropped to the plate's image area from the Internet Archive page image (1586 x 2560) and downscaled to 607 x 1000 with no upscaling. No photographer credit is printed on the plate.",
+    "license": "Public domain by age: photograph first printed in the United States in 1919 (before 1931, so out of copyright regardless of renewal); the Internet Archive record lists the book as not in copyright (US) and asserts no rights of its own",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Photographer not credited on the plate (Wikimedia Commons attributes the image to Addison N. Scurlock, not confirmed in the book); plate in Benjamin Brawley, Women of Achievement, Woman's American Baptist Home Mission Society, 1919 (Internet Archive scan; cropped and downscaled).",
+    "attributionUrl": "https://archive.org/details/womenofachieveme00brawrich",
+    "creator": "Unknown photographer (no credit on the plate); published by the Woman's American Baptist Home Mission Society",
+    "date": "before 1919 (published 1919)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/womenofachieveme00brawrich"
+  },
+  "provenance": {
+    "createdAt": "2026-11-23T00:00:00Z",
+    "updatedAt": "2026-11-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (downgraded from strong; foreseeable hold risk medium) (Stage B) / SURVIVED: the lead (Commons 'Mary Church Terrell portrait.jpg', a 566 x 934 crop of the plate in Brawley's Women of Achievement, 1919, held at the Internet Archive) was kept, but the image was re-extracted from the Internet Archive's own page image (leaf 99 of 116, 1586 x 2560) instead of the low-resolution Commons crop, cropped to the plate and downscaled to 607 x 1000 (no upscaling). IDENTITY: the printed caption 'MARY CHURCH TERRELL' stands under the plate, and the next leaf is the chapter title 'Mary Church Terrell' (chapter VI, confirmed in the contents and OCR); Commons names Addison N. Scurlock as photographer but no credit is printed on the plate, so the creator is recorded as unknown and Scurlock only as an unverified Commons attribution. RIGHTS: published in the United States in 1919 with a 1919 copyright notice, so public domain by age (before 1931); the Internet Archive metadata says possible-copyright-status NOT_IN_COPYRIGHT, region US, evidence 'visible notice of copyright; stated date is 1919'. HOLDER TERMS: the Internet Archive's terms of use (version of 31 Dec 2014, read via a 2023 Wayback copy because the live page is script-rendered) make no rights claim over scanned items, say each user answers for lawful use, and honour declared licences; no permission, fee or reproduction restriction applies. Library of Congress alternatives were also read (item 97500102, a later print of an undated 1880-1900 photograph by an unknown photographer, 'No known restrictions on publication'; item 93516449, Harris and Ewing, 1920-1940, 'No known restrictions on publication' with a link to the collection's note) and were not used because their age-only path is less certain (unpublished or unknown publication date, corporate creator). KIND likeness: a photograph of the sitter taken before 1919 (she was in her fifties). PREFLIGHT: QID VERIFIED LIVE (2026-11-23, Wikidata API) Q3296160 label 'Mary Church Terrell', description 'American activist and suffragette (1863-1954)', instance of human, born 1863-09-23, died 1954-07-24, citizen of the United States, no Korean label or Korean Wikipedia article. REGION north_america (Douglass and Huerta precedent). ERA 20th_century (her defining work, from 1896 to 1953, is in the 20th century; Douglass is the only 19th-century precedent because his career ended in 1895). KOREAN NAME 메리 처치 테럴 is a TRANSLITERATION (no Korean Wikipedia title, Wikidata label or Korean source found); flagged for lead review. COMPOSITION: her primary identity is civil-rights organiser, club leader and educator; Republican campaign work (Harding, McCormick, Hoover), her 1951 naming by a House committee as an alleged 'fellow traveler' (recorded as an accusation, never as a finding) and her cross-class and left-leaning affiliations mentioned in the Parker review are context only and not scored; scored behaviour is her organising, litigation, lecturing and study. ATTRIBUTION: attributable (extensive, dated public record, a Supreme Court opinion, scholarly and journalistic biographies). CANONICAL SIGNIFICANCE SOURCE: National Women's History Museum biography (src_terrell_nwhm), corroborated by the Supreme Court record for the Thompson ruling. READ (8 sources besides Wikidata, one of them an additional interview): NWHM, NPS (profile and places article), Library of Congress blog, VCU Social Welfare History Project, Quigley in Talking Points Memo, Quigley interview in HistoryNet (same family), the AAIHS review of Parker's biography, and the Supreme Court syllabus and opinion. Not opened: Parker's book itself, Quigley's book, Terrell's memoir A Colored Woman in a White World, Britannica (403), the Oberlin archive pages (404), Beverly Washington Jones's 1982 articles. PERSPECTIVES: (1) federal and museum summaries; (2) a library biography built on her papers; (3) a university encyclopedia entry drawing on Jones; (4) the journalist-biographer Quigley (single family across two pieces); (5) a scholarly review of Parker that engages the historiography calling her an elitist; (6) the primary legal record. NON-SELF BEHAVIOURAL SOURCES: all of them; her own memoir is reached only through others and is not cited directly. CONTRADICTIONS AND LIMITS: the date of the Thompson's visit (27 January 1950 per Quigley, 28 February per the NPS) is not carded; the NWHM, NPS and VCU pages say the 1953 Court ruled segregation 'unconstitutional' whereas the opinion and Quigley say it rested on District of Columbia law and not the Constitution, so cards follow the opinion; NWHM says she died in Highland Beach and the NPS in Annapolis (not used); the NACW presidential term is 1896-1901 in NWHM and VCU; the first-Black-woman versus first-African-American wording of the 1895 school-board appointment differs (VCU says first Black woman; the cards use that). No adversarial biography was found; the independent critical voices are Quigley's account of the criticism from Booker T. Washington's supporters and the historiography the Parker review says Parker disputes. SOURCE-FAMILY CONCENTRATION: Quigley dominates the 1949-53 campaign detail (two pieces, one family); the Supreme Court record independently confirms only the legal path; the early decades rest on the VCU entry (Jones and her memoir) and thin museum text. Seven rows were lowered for concentration and three more in self-calibration (details in the handback). MAJOR ACHIEVEMENT GATE (first pass PASS on all six): cards (1) first president of the National Association of Colored Women, (2) the Thompson's Restaurant case and the 1953 ruling, (3) school-board seat, NAACP charter membership and the Berlin address. HANDBACK69 is in the scratch directory. ARTIFACT NOTE: the editorial draft and handback are in the scratch folders, not in the repository."
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "fanny-mendelssohn",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Fanny Mendelssohn",
+    "aliases": [
+      "Fanny Hensel",
+      "Fanny Mendelssohn Hensel",
+      "Fanny Cäcilie Mendelssohn Bartholdy"
+    ],
+    "wikidataId": "Q57286",
+    "birthYear": 1805,
+    "deathYear": 1847,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "DE"
+    ],
+    "regionCode": "central_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "prodigy",
+      "late_recognition"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_fanny_wikidata",
+      "kind": "wikidata",
+      "title": "Fanny Mendelssohn (Q57286), verified live via the Wikidata API (2026-11-20): English label 'Fanny Mendelssohn', description 'German pianist and composer (1805-1847)', Korean label 파니 멘델스존, human, born 14 November 1805, died 14 May 1847. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q57286"
+    },
+    {
+      "id": "src_fanny_mace",
+      "kind": "institution",
+      "title": "Angela Regina Mace, 'Fanny Hensel, Felix Mendelssohn Bartholdy, and the Formation of the Mendelssohnian Style' (Duke University doctoral dissertation, 2013, supervised by R. Larry Todd; read in the abstract and in chapter 6 'Bittersweet Authorship', with her quotations of letters and diary entries). CANONICAL SIGNIFICANCE SOURCE: scholarly account of a composer who left about 450 works and saw eleven opus numbers published, hosted the Sonntagsmusiken for audiences of up to 200 and in 1846 began publishing under her own name against her brother's stated view; quotes Felix's June 1837 letter to their mother refusing to encourage her to publish, her July 1846 letter to him, and her late-July 1846 diary entry on the offers from two publishers; includes a table of the concert seasons and the pauses caused by births, deaths and travel. Scholarly thesis, sympathetic to its subject.",
+      "url": "https://dukespace.lib.duke.edu/server/api/core/bitstreams/04cf5106-4e75-4d77-9b38-66799ae3d89f/content"
+    },
+    {
+      "id": "src_fanny_encyclopedia",
+      "kind": "biography",
+      "title": "John Haag, 'Mendelssohn-Hensel, Fanny (1805-1847)', Women in World History: A Biographical Encyclopedia (Gale, reproduced on Encyclopedia.com; read in full): the lessons from her mother, her first composition at eleven, her father's 1820 'ornament' letter, her marriage to Wilhelm Hensel, how she chose performers, music and rehearsed them for the Sunday concerts, the 1839-40 Italian journey, her July 1846 letter announcing she was beginning to publish, and the note that she did not change her work when her brother criticised her departures from standard form. Reference biography drawn from Citron's edition of her letters; admiring.",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/mendelssohn-hensel-fanny-1805-1847"
+    },
+    {
+      "id": "src_fanny_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Fanny Mendelssohn' (read in full): pianist and composer, said to have been as talented as her brother and to have memorised Bach's Well-Tempered Clavier by thirteen, married Wilhelm Hensel in 1829, Italian journey 1839-40, directed the family's Berlin concerts after her mother's death in 1842, about 500 compositions of which six songs appeared under Felix's name and few under her own, most remaining in manuscript. Short reference article.",
+      "url": "https://www.britannica.com/biography/Fanny-Mendelssohn"
+    },
+    {
+      "id": "src_fanny_wam",
+      "kind": "institution",
+      "title": "Rutgers University, Women And Music (WAM!) project, 'Fanny Mendelssohn: An Interview with Dr. Angela Mace Christian' (overview, timeline and transcript; read the overview and timeline): her Berlin training under Zelter from 1818, the Sunday concert series she began in 1831, and the 1846 decision to publish a song collection (Op. 1) without consulting her brother Felix. University outreach page; the interviewee belongs to the same scholarly school as the dissertation above.",
+      "url": "https://wam.rutgers.edu/?p=539"
+    },
+    {
+      "id": "src_fanny_neweuropean",
+      "kind": "press",
+      "title": "'Fanny Mendelssohn: The gifted composer denied a glittering career', The New European (12 May 2022; read in full): the music she wrote for her own wedding, the 1820 'ornament' letter, Felix's June 1837 letter to his mother, Wilhelm Hensel's support for her composing, the 1846 decision to publish and the Gartenlieder review on the day she died. Popular newspaper feature; some colourful anecdotes are unsourced.",
+      "url": "https://theneweuropean.co.uk/fanny-mendelssohn-great-european-lives"
+    },
+    {
+      "id": "src_fanny_bbc",
+      "kind": "press",
+      "title": "Bella Noel, 'Fanny Mendelssohn: an unsung Romantic', BBC Music Magazine / Classical Music (30 May 2024; read in full): her father's letter, Felix calling her 'the Boss' and deferring to her opinions on his compositions, the Sonntagsmusik as the private forum she turned to her advantage and as a festival she directed, the work with Wilhelm Hensel, and the 1839-40 Italian journey behind the piano cycle Das Jahr. Magazine feature, admiring; its remarks on her appearance are not used.",
+      "url": "https://www.classical-music.com/features/composers/fanny-mendelssohn"
+    },
+    {
+      "id": "src_fanny_hensel_family",
+      "kind": "archive",
+      "title": "Sebastian Hensel, 'The Mendelssohn Family (1729-1847) from Letters and Journals', volume I (New York: Harper and Brothers, 1882; Internet Archive scan, read in part: the preface and Abraham Mendelssohn's letter of 16 July 1820 telling Fanny that music may be Felix's profession but for her only an ornament). Family history by her son, built on the family's letters and journals; a primary-source collection with a protective tone.",
+      "url": "https://archive.org/details/mendelssohnfamil010720mbp"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fanny_mace, src_fanny_encyclopedia, src_fanny_wam, src_fanny_neweuropean | 1831-1846 | scholarly thesis, reference biography, university page, newspaper feature] She began her own Sunday concert series in 1831 and ran it largely alone, and in 1846 she arranged for publication of six songs under her own name without her brother's assistance, writing to him that she had proceeded completely on her own. Her diary credits two publishers' offers and the encouragement of her husband and of Robert von Keudell, so the decision was shared. SELF-CALIBRATION (agent): lowered from 68 / 0.56 to 64 / 0.50 because the sources all draw on the same letters and the same scholarly school, and the decision had several prompters."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fanny_mace, src_fanny_encyclopedia, src_fanny_bbc, src_fanny_neweuropean | 1820-1847 | scholarly thesis, reference biography, magazine feature, newspaper feature] She kept composing and hosting concerts for some twenty-seven years after her father's 1820 letter and her brother's 1837 refusal to encourage publication, resumed the concert series after pauses for births, bereavements and travel (the thesis tabulates them), and finally published at forty. The pauses and her ten years of hesitation cut against a stronger reading, and the output count of about 450 works is not itself evidence. SELF-CALIBRATION (agent): lowered from 66 / 0.54 to 60 / 0.50 because the claim leans on one thesis's chronology and on output volume."
+    },
+    "mastery_orientation": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_fanny_britannica, src_fanny_wam, src_fanny_bbc | 1816-1830s | reference article, university page, magazine feature] She is said to have played the whole first book of Bach's Well-Tempered Clavier from memory by thirteen and studied composition with Zelter from 1818; contemporaries, quoted by the magazine, rated her playing above her brother's. The childhood training was arranged by her parents and the claims are reported, not documented from her own practice. SELF-CALIBRATION (agent): lowered from 66 / 0.54 to 58 / 0.46 and from strong inference to inference because the evidence is childhood training and reported feats."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_fanny_britannica, src_fanny_bbc, src_fanny_mace | 1820s-1846 | reference article, magazine feature, scholarly thesis] She was her brother's chief musical adviser until he left home and, by the magazine's account, he deferred to her opinions on his compositions; she and Wilhelm Hensel made joint works combining music and drawing; and in 1846 she says Gounod and Robert von Keudell gave her the steady feedback she needed. The exchange with Felix cooled after 1829. SELF-CALIBRATION (agent): lowered from 64 / 0.52 to 60 / 0.50 because the picture of mutual exchange depends on the thesis and a magazine feature."
+    },
+    "resourcefulness": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_fanny_bbc, src_fanny_mace, src_fanny_encyclopedia | 1831-1846 | magazine feature, scholarly thesis, reference biography] The magazine says she turned the private Sunday concerts into her forum; the thesis shows them growing to audiences of up to 200 with outside musicians hired and the programming largely hers, and the reference biography that she chose the performers, selected the music and rehearsed them. The 'way round the ban' reading is the magazine's interpretation and the concerts also drained the family budget. SELF-CALIBRATION (agent): lowered from 64 / 0.50 to 58 / 0.44 and from strong inference to inference because the central claim is an interpretation by one magazine."
+    },
+    "conflict_tolerance": {
+      "score": 42,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_fanny_mace, src_fanny_encyclopedia, src_fanny_hensel_family | 1820-1846 | scholarly thesis, reference biography, family letters] For some twenty years she acceded to her father's and brother's wishes against publishing, and her July 1846 letter says she was afraid of her brothers at forty as she had been of her father at fourteen and hoped they would not think badly of her; she then went ahead. Avoiding open disagreement for decades is documented, with one late exception. SELF-CALIBRATION (agent): confidence lowered from 0.50 to 0.44 because the letters are quoted by sources with shared lineage."
+    },
+    "leadership_drive": {
+      "score": 52,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_fanny_encyclopedia, src_fanny_mace | 1831-1847 | reference biography, scholarly thesis] The reference biography says she decided who would perform, chose the music, selected the musicians and rehearsed them, and the thesis calls her the only driving force of the Sunday concerts. This is leadership of a family-hosted series, not of an institution. SELF-CALIBRATION (agent): lowered from 56 / 0.42 to 52 / 0.38 because the description of her role comes mainly from one encyclopedia entry."
+    },
+    "independent_thinking": {
+      "score": 54,
+      "confidence": 0.36,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_fanny_encyclopedia | 1830s | reference biography] The reference biography says her brother sometimes criticised her departures from standard form and that, although she admitted she might be wrong, she did not change her work. A single report of her stance. SELF-CALIBRATION (agent): lowered from 60 / 0.42 to 54 / 0.36 because it rests on one source and no letter is quoted for it."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "파니 멘델스존"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "No defensible rights-clear portrait after a bounded retry. (1) Lead, Moritz Daniel Oppenheim 1842 oil, Jewish Museum New York acc. 2009-24: item record states no rights or image-use terms and the museum's terms only free images it labels Public Domain (this one is not labelled), other content personal, educational and non-commercial; no independent open route. (2) Wilhelm Hensel and Eduard Mandel 1847 copper engraving, SUB Hamburg PPN663944058: holder record and terms behind a BunkerWeb CAPTCHA (not bypassed); Commons file tagged only with Commons' own PD-art. (3) Wilhelm Hensel 1829 drawing: the Yale Music Library page cited by Commons no longer exists and no holder or publication chain was found. (4) Sebastian Hensel's 1881-82 book 'The Mendelssohn Family' (US, with eight portraits from Wilhelm Hensel's drawings): its volume I frontispiece is Abraham Mendelssohn and volume II's is Felix; no plate of Fanny was located."
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "HOLD (portrait). Stage B portrait grade PLAUSIBLE (medium hold risk, terms ambiguous); initial lead Oppenheim 1842 oil (Jewish Museum): did not survive, see portrait.reason for the four routes tried. Age-only path for the lead is sound (Oppenheim d.1882; painted 1842) but the holder gives no item-level rights statement and its generic terms restrict non-labelled images to personal, educational, non-commercial use, so no ship without a permission or an independent open copy. Evidence is complete and the candidate is portrait_pending, not an evidence hold. QID VERIFIED LIVE (2026-11-20) Q57286 label 'Fanny Mendelssohn', description 'German pianist and composer (1805-1847)', ko label 파니 멘델스존, born 1805-11-14, died 1847-05-14. REGION central_europe (frozen list; precedent Felix Mendelssohn). ERA 19th_century. Nationality DE. ZERO POLITICS. ATTRIBUTION: attributable (letters, diary, dated publications). CANONICAL SIGNIFICANCE SOURCE: Mace dissertation (Duke 2013) with Britannica. READ: seven sources besides Wikidata (Hensel family book read in part). Wikipedia not used. Not opened: Todd's 2010 monograph, Citron's letters edition, Kimber 2002 article (JSTOR page not readable), the Guardian and Chicago Symphony pieces. COUNTER-VOICES: the thesis quotes Felix offering help once she decided, and the thesis and Britannica record that he published six of her songs under his own name; Kimber's 2002 challenge to the 'suppression' narrative was not read. NOT SCORED: marriage, motherhood, family relationship questions, death. NON-SELF SOURCES: Britannica, encyclopedia, press features, thesis; letters are quoted second-hand. SELF-CALIBRATION: all 8 rows lowered (see rationales). Sparse by design."
+  }
+}

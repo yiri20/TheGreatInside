@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "matteo-ricci",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Matteo Ricci",
+    "aliases": [
+      "Matthaeus Riccius",
+      "Li Madou",
+      "利玛窦",
+      "利瑪竇"
+    ],
+    "wikidataId": "Q233340",
+    "birthYear": 1552,
+    "deathYear": 1610,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "scholar",
+      "writer"
+    ],
+    "fieldIds": [
+      "religion",
+      "education",
+      "literature"
+    ],
+    "impactDomains": [
+      "cultural",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "communicator",
+      "cross_disciplinary",
+      "patient"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist",
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ricci_wikidata",
+      "kind": "wikidata",
+      "title": "Matteo Ricci (Q233340), verified live via the Wikidata API (2026-11-20): English label 'Matteo Ricci', description 'Italian Catholic missionary (1552-1610)', Korean label 마테오 리치, born 6 October 1552, died 11 May 1610, human, citizen of the Papal States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q233340"
+    },
+    {
+      "id": "src_ricci_wang",
+      "kind": "institution",
+      "title": "Wensheng Wang, 'Science, religion, and Sino-Western exchanges: Literati-Jesuit translation of Euclidean geometry and its reception from late Ming to mid-Qing', Journal of Chinese History 8 (2024), doi 10.1017/jch.2022.38 (Cambridge University Press; the relevant sections on Ricci, Xu Guangqi and the 1607 translation read in full). CANONICAL SIGNIFICANCE SOURCE (scholarly): treats Ricci and Xu Guangqi as the two trailblazers of Sino-Western scientific exchange; describes the joint translation of the first six books of Euclid as the first substantial translation of a European text into Chinese, four mathematical books of 1607-1614 written with Xu Guangqi and Li Zhizao, and Ricci's use of mathematics as an opening to the educated elite for his missionary aim; also notes that he was over-optimistic about the immediate effect and that his accommodation strategy was later repudiated by papal decrees.",
+      "url": "https://doi.org/10.1017/jch.2022.38"
+    },
+    {
+      "id": "src_ricci_hosne",
+      "kind": "institution",
+      "title": "Ana Carolina Hosne, 'Friendship among Literati. Matteo Ricci SJ (1552-1610) in Late Ming China', Transcultural Studies (Heidelberg University, 2014; open-access article, read in full via a text copy because the journal site was behind a bot check). Scholarly study of Ricci's Chinese treatise on friendship, his 1608 letter saying he had friends everywhere, and the varied relationships he built with literati and officials; notes that he nonetheless presented Chinese literati to Europeans as strictly Confucian.",
+      "url": "https://heiup.uni-heidelberg.de/journals/transcultural/article/view/11362"
+    },
+    {
+      "id": "src_ricci_loc",
+      "kind": "institution",
+      "title": "Library of Congress (World Digital Library), 'You lun' (Treatise on friendship), catalog record for Matteo Ricci's first Chinese work, with scholarly summary (read in full). Records its origin in his conversations with Prince Zhu Duojie of Jian'an in Nanchang, its 100 maxims drawn from Western authors, its good reception among Chinese scholars who quoted it, and that Qu Rukui, baptized in 1605, recommended it.",
+      "url": "https://www.loc.gov/item/2021666384/"
+    },
+    {
+      "id": "src_ricci_ncatholic",
+      "kind": "biography",
+      "title": "'Ricci, Matteo', New Catholic Encyclopedia (Gale reference entry, read in full via Encyclopedia.com). Jesuit-lineage reference biography: Macerata birth, Roman College under Clavius, Zhaoqing and Shaozhou years, the change from monk's dress to literati dress, the 1597 appointment as superior, the blocked entry to Beijing in 1598 and admission in January 1601, the world map, more than twenty Chinese works and burial by imperial gift. Admiring in tone and drawn largely from Ricci's own memoirs, so used with caution.",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/ricci-matteo"
+    },
+    {
+      "id": "src_ricci_umn",
+      "kind": "institution",
+      "title": "University of Minnesota Libraries, James Ford Bell Library, '1602 World Map of Matteo Ricci' (collection page, read in full). Describes the Kunyu wanguo quantu as the oldest surviving map in Chinese to show the Americas, a six-panel woodblock print made with the Chinese scholar Li Zhizao and printed by Zhang Wentao of Hangzhou, and calls it a true collaboration between Jesuit and Chinese scholars and artisans.",
+      "url": "https://www.lib.umn.edu/bell/collection/riccimap"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ricci_ncatholic, src_ricci_wang, src_ricci_hosne | 1583-1608 | reference biography, journal articles] At Zhaoqing the first Jesuits took Buddhist monks' dress at the prefect's insistence; after finding it a hindrance with Confucian students Ricci moved at Shaozhou in 1589 to the silk robes and square bonnet of a scholar (New Catholic Encyclopedia). Wang describes his accommodation strategy, recasting Christian and scientific ideas in the vocabulary of Neo-Confucian 'investigation of things', and Hosne shows him taking on multiple identities with different kinds of literati friends. Documented changes of posture over time, but the dress change rests on the Jesuit account drawn from his own memoirs. SELF-CALIBRATION / CONCENTRATION (agent): lowered from 78 / 0.64 because the best-documented episode is told through his own memoirs."
+    },
+    "opportunity_sensing": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ricci_hosne, src_ricci_wang, src_ricci_loc | 1595-1607 | journal articles, library record] Hosne argues that he understood early, perhaps first, how much friendship networks mattered to the Chinese literati and used a treatise on friendship as an opening to their circles; the treatise grew from a prince's question at a banquet (Library of Congress); Wang shows him choosing mathematics and geography as the entry point to proud literati and reluctant officials. Two separate, documented moves, but his reasons are read from his own letters and journals as cited by the scholars. SELF-CALIBRATION (agent): lowered from 76 / 0.62 because the intentions behind these moves are inferred."
+    },
+    "collaboration": {
+      "score": 72,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_ricci_wang, src_ricci_umn, src_ricci_hosne | 1602-1614 | journal articles, library collection page] He dictated the first six books of Euclid to Xu Guangqi, who wrote them down in Chinese, and the pair published it in 1607 with a preface by each; four mathematical books of 1607-1614 were made with Xu and with Li Zhizao (Wang); the 1602 world map was made with Li Zhizao, who may have engraved it, and printed by a Hangzhou printer, and the Bell Library calls it a true collaboration of Jesuit and Chinese scholars and artisans (University of Minnesota); Hosne documents his many relationships with literati and the 1608 letter saying friends gave him no peace. Several documented joint projects from independent sources."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ricci_loc, src_ricci_hosne, src_ricci_wang | 1595-1607 | library record, journal articles] His treatise on friendship was well received and quoted by late-Ming scholars, and a baptised official recommended it (Library of Congress); Hosne says it opened doors to literati circles; Wang says he used mathematics as an attraction for proud scholars and was over-optimistic about its immediate effect. The evidence is reception of his writing, not recorded conversion-level persuasion, and some of his persuasion was strategic. SELF-CALIBRATION (agent): lowered from 70 / 0.55 for outcome bias and the over-optimism noted by Wang."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ricci_ncatholic, src_ricci_umn, src_ricci_wang, src_ricci_loc | 1584-1608 | reference biography, library pages, journal article] Works in Chinese ranged over geography (the world map, UMN), mathematics (Euclid, Wang), moral philosophy (the treatise on friendship, Library of Congress) and Christian apologetics (the New Catholic Encyclopedia counts more than twenty Chinese works on mathematics, apologetics, literature and catechetics). Distinct domains documented by separate sources; much of the range was applied to one missionary aim."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ricci_ncatholic, src_ricci_hosne | 1583-1610 | reference biography, journal article] He stayed in China until his death in 1610 (Hosne), reached the walls of Beijing in 1598 but was blocked by officials and withdrew to Nanjing, and rode into the capital with an imperial summons in January 1601 (New Catholic Encyclopedia). Two documented episodes but the Beijing story rests on one reference biography. CONCENTRATION (agent): lowered from 74 / 0.58 because the Beijing attempts come from a single family."
+    },
+    "planning_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ricci_ncatholic, src_ricci_wang | 1589-1614 | reference biography, journal article] The Jesuit strategy of winning the learned first and moving north from the provinces to Nanjing and Beijing was set by the Jesuit visitor Valignano and carried out by Ricci (New Catholic Encyclopedia); Wang shows a sequenced programme in which mathematics, then Euclid, then further mathematical books prepared the ground for religious teaching, drawing on his own stated reasoning. The plan was shared and his reasoning is largely his own testimony. CONCENTRATION (agent): lowered from 70 / 0.56 for shared credit and reliance on his own statements."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ricci_hosne, src_ricci_ncatholic | 1595-1608 | journal article, reference biography] Hosne describes him as immersed in an intense intellectual life at Nanchang from 1595 and writing in classical Chinese; the New Catholic Encyclopedia credits him with singular mastery of Chinese thought. The first is a general description and the second is an admiring summary, with no specific measure of how he pursued mastery. SELF-CALIBRATION (agent): lowered from 68 / 0.52 / strong inference for institutional praise."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "마테오 리치"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/matteo-ricci-snyders-after-1610.jpg",
+    "width": 708,
+    "height": 1000,
+    "source": "Engraved portrait of Matteo Ricci lettered 'P. MATTHAEVS RICCIVS Maceratensis Soc. Iesu' (with the date 1610 and 'Mich. Snyders excud.'), a posthumous single-sitter print published by Michiel Snyders (Flemish publisher, c. 1588 - c. 1630); the plate is the KU Leuven Libraries scan (shelfmark 8B629/3/010) of its heliogravure reproduction in Alfred Hamy, Galerie illustree de la Compagnie de Jesus (Paris, 1893). The file is the Wikimedia Commons copy (1835 x 2675 pixels) cropped to the printed image and downscaled to 708 x 1000; no upscaling.",
+    "license": "Public domain by age: the original print dates from the early 17th century (publisher Snyders died c. 1630), the heliogravure reproduction was published in 1893 (Alfred Hamy died 1904), and a faithful scan adds no new copyright; KU Leuven Libraries state that images of public-domain works in its digitised collections may be copied, modified, distributed and reused without asking permission",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Michiel Snyders (publisher), 'P. Matthaeus Riccius', engraving, after 1610; reproduced in Alfred Hamy, Galerie illustree de la Compagnie de Jesus (Paris, 1893); KU Leuven Libraries (8B629/3/010); cropped and downscaled.",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:P._Matthaeus_Riccius,_8B6293010.jpg",
+    "creator": "Michiel Snyders (publisher of the original print; engraver not named); reproduced by heliogravure in Hamy's Galerie illustree (1893)",
+    "date": "undated, after 1610 (original print); 1893 (reproduction)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:P._Matthaeus_Riccius,_8B6293010.jpg"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: RISKY (Stage B) / SUCCEEDED with a REPLACEMENT. Lead (the You Wenhui / Pereira oil painting of c.1610 in the Gesu, Rome, as photographed by a Chinese news site) was dropped: the painting is held by the Italian state (Fondo Edifici di Culto), the holder catalogue could not be read, Italian art.107-108 reproduction rules may apply, and the Commons copy comes from a news photograph of unknown photographer. The fallback (Kircher 1670 plate, Villanova scan, CC BY-SA 3.0 claim) was also not used. REPLACEMENT: a single-sitter engraving lettered with Ricci's name and the date 1610 (inscription read on the image itself) published by Michiel Snyders, in the KU Leuven Libraries scan of Hamy's 1893 heliogravure album (Commons file read; KU Leuven open-data policy and general terms of use read: public-domain items may be copied, modified, distributed and reused without asking permission, attribution requested). CAVEAT: the item-level 'copyright status' line in the library's catalogue viewer could not be read (script-rendered Primo page), so the legal basis rests on age and the holder's public-domain terms, not an item statement. Kind historical_depiction: posthumous (the inscription records his death at 58), undated, engraver unnamed, almost certainly after the Jesuit portrait type. PORTRAIT TERMS CHECKED: yes (KU Leuven terms, see handback). QID VERIFIED LIVE 2026-11-20 Q233340. REGION southern_europe, ERA early_modern (born 1552, died 1610). KOREAN NAME 마테오 리치 = Wikidata ko label and Korean Wikipedia title (authoritative-label). ATTRIBUTION: limited_but_usable: much behavioural detail (dress change, Beijing entry, strategy) descends from Ricci's own memoirs and letters edited by Jesuits, so rows are capped near 0.64 and the dress/entry episodes are counted once; the map, the treatise and the Euclid translation are documented works with Chinese collaborators. SOURCES READ: Wang 2022 (relevant sections), Hosne 2014 (full, via text copy because the journal site was behind a bot check), LOC You lun record, New Catholic Encyclopedia, UMN Bell Library map page; also read but NOT cited: UBC Society for Ming Studies map transcription, EBSCO research starter (contains errors), Wikipedia. Independent behavioural families: 4 (scholarly Euclid study; scholarly friendship study; Library of Congress / Chinese reception; map artifact record) plus the Jesuit reference biography used with caution. COUNTER-VOICES: Wang (over-optimism, later repudiation of accommodation), Hosne (narrowed Chinese literati to Confucian), mathematics used as an attraction for conversion. NO inference about faith, health or private life. Not scored: religious conviction, Jesuit obedience, the Chinese Rites controversy after his death. Conflicts not carded: 1583 vs 1582 arrival date."
+  }
+}
