@@ -117,12 +117,15 @@ Komitas (risky). Roster67 comparison: 27 shipped, 7 initial leads survived, 20 r
 
 | | Production before -> after | Visible before -> after |
 |---|---|---|
-| science_knowledge | 340 -> 354 (+14) | 340 -> 354 |
+| science_knowledge | 340 -> 355 (+15) | 340 -> 355 |
 | arts_culture | 302 -> 314 (+12) | 302 -> 314 |
 | leadership_society | 156 -> 168 (+12) | 155 -> 167 |
-| building_discovery | 259 -> 269 (+10) | 258 -> 268 |
+| building_discovery | 259 -> 270 (+11) | 258 -> 269 |
 
-Deltas sum to 48 because categories are not exclusive (a person can belong to several via `fieldIds`; 28 people, 48 memberships). The Zheng
+*Correction (recorded in `docs/checkpoints/roster69.md`):* the original table of this checkpoint read science 354 and building 269 / 268, computed before the
+taxonomy curation of `anthropology` (science) and `aviation` (building); the values above are the canonical `categoryCounts.ts` output after the final edit.
+
+Deltas sum to 50 because categories are not exclusive (a person can belong to several via `fieldIds`; 28 people, 50 memberships). The Zheng
 He visible gap (leadership and building one visible below production) is unchanged.
 
 ## Wiring-workflow acceptance (the maintenance objective)
