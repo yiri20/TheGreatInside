@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "jean-francois-de-la-perouse",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Jean-François de La Pérouse",
+    "aliases": [
+      "Jean-François de Galaup, comte de La Pérouse",
+      "Jean-François de Galaup de La Pérouse",
+      "Lapérouse",
+      "La Perouse"
+    ],
+    "wikidataId": "Q294478",
+    "birthYear": 1741,
+    "deathYear": 1788,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "navigator",
+      "naval_commander"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "leader"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_laperouse_wikidata",
+      "kind": "wikidata",
+      "title": "Jean-François de La Pérouse (Q294478), verified live via the Wikidata API (2026-11-20): English label 'Jean-François de Galaup, comte de La Pérouse', description 'French Navy officer and explorer (1741-1788)', Korean label 라페루즈 백작 장프랑수아 드 갈롭, born 1741-08-23, died 1788, instance of human, citizenship France. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q294478"
+    },
+    {
+      "id": "src_laperouse_dcb",
+      "kind": "biography",
+      "title": "Dictionary of Canadian Biography, 'Galaup, Jean-François de, Comte de Lapérouse' by Etienne Taillemite (read in full, with bibliography). CANONICAL SIGNIFICANCE SOURCE: naval career from 1756; the 1782 Hudson Bay expedition (Fort Prince of Wales and York Factory taken without losing a man, prisoners treated with great kindness); chosen by the king for the Pacific expedition for his experience and humanity; left Brest 1 August 1785 with Astrolabe and Boussole; Easter Island, Maui, Mount St Elias, Monterey, Macao, Manila; first European navigator into the waters between China and Japan and discoverer of the strait between Yezo and Sakhalin that bears his name; Kamchatka, Samoa, Botany Bay (January 1788); wrecked near the Santa Cruz Islands in a cyclone in mid-June 1788, wreck traced by Dillon (1826), Dumont d'Urville (1828) and Discombe (1964). Closing character summary (humane leader, prudence and audacity, indefatigable, amiable and firm) is one biographer's admiring assessment. Reference biography by a French naval historian.",
+      "url": "http://www.biographi.ca/en/bio/galaup_jean_francois_de_4E.html"
+    },
+    {
+      "id": "src_laperouse_loc",
+      "kind": "institution",
+      "title": "Library of Congress Maps blog, 'Pérouse-ing the Pacific' (Worlds Revealed; read in full): his Hudson Bay capture of Forts Prince of Wales and York, Louis XVI's five-point instructions (geography, politics and commerce, natural sciences, interaction with indigenous people, crew health), the 1785 departure, the survey between Mount St Elias and Monterey, the strait between Sakhalin and Ezo, the Samoan attack that killed de Langle and eleven others, and the three dispatches of maps and journals sent home from Macao, Kamchatka and Botany Bay; 1797 publication of the Voyage by Milet-Mureau. Library blog; admiring, drawn from published atlas and Dunmore's biography.",
+      "url": "https://blogs.loc.gov/maps/2021/11/prouse-ing-the-pacific/"
+    },
+    {
+      "id": "src_laperouse_versailles",
+      "kind": "institution",
+      "title": "Chateau de Versailles, 'Count of La Pérouse' (great-characters page, read in full): his courage in the American War of Independence drew Louis XVI's attention; appointed in 1785 to lead the voyage; two frigates of about 110 men each, 350 barrels of food and about 1,000 tonnes of equipment and trade goods per ship; no word after Botany Bay in March 1788; a relief mission failed; wrecks found on Vanikoro in 1826; the 16-year-old Napoleon Bonaparte applied and was turned down. Museum page; brief and celebratory.",
+      "url": "https://en.chateauversailles.fr/discover/history/great-characters/count-perouse"
+    },
+    {
+      "id": "src_laperouse_wam",
+      "kind": "institution",
+      "title": "Western Australian Museum, 'Journeys of Enlightenment: The Explorers - Jean-Francois de Galaup, Comte de Lapérouse' (read in full): chosen for seamanship and humanitarian qualities; special orders to survey the Pacific and Indian Ocean and observe other European powers; at Kamchatka he learned of the British settlement in New South Wales and headed promptly to Botany Bay (26 January 1788); his planned itinerary after Botany Bay; the 1791 d'Entrecasteaux search; Dillon's 1827 and Dumont d'Urville's 1828 finds; quotes his 7 February 1788 letter ('I have no teeth and no hair left') from the Bibliotheque nationale de France. Museum exhibition page.",
+      "url": "https://museum.wa.gov.au/exhibitions/journeys/The_Explorers/de_Laperouse.html"
+    },
+    {
+      "id": "src_laperouse_slnsw",
+      "kind": "institution",
+      "title": "State Library of New South Wales, 'The fate of La Perouse' (French in Australia story, read in full): the 1785 sailing with about 225 crew, officers and scientists, regular reports sent home, the progress to September 1787 published as Voyage de La Perouse autour du monde, the First Fleet's sighting of the French ships on 24 January 1788, departure from Botany Bay in March 1788, the d'Entrecasteaux search, Dillon and Dumont d'Urville at Vanikoro, and the 1964 location of the Boussole. Library story page; useful for the Botany Bay and fate chronology.",
+      "url": "https://www.sl.nsw.gov.au/stories/french-australia/fate-la-perouse"
+    },
+    {
+      "id": "src_laperouse_jar",
+      "kind": "press",
+      "title": "Merv O. Ahrens, 'Revolutionary Revenge on Hudson Bay, 1782', Journal of the American Revolution, 7 May 2020 (read in full with footnotes; cites the Dictionary of Canadian Biography, Archives Nationales and Hudson's Bay Company records): La Pérouse's 1780 proposal to take the Hudson Bay posts, the secret 1782 strike with Vaudreuil, the surrender of Fort Prince of Wales and York Factory, a shelter stocked with goods left for local native families during a smallpox outbreak, release of Hearne on his pledge to publish his journal, more than 100 deaths among his own crews from hunger and illness plus 15 drowned, and his reprimand for kindness to prisoners. Popular-history article in a peer-edited online journal; the American side's gain is stressed, and the native communities are described as the main losers.",
+      "url": "https://allthingsliberty.com/2020/05/revolutionary-revenge-on-hudson-bay-1782/"
+    },
+    {
+      "id": "src_laperouse_rodama_samoa",
+      "kind": "press",
+      "title": "Rodama blog of 18th-century and Revolutionary France, 'Massacre Bay - the death of Fleuriot de Langle', 24 June 2018 (read in full): an account of the Samoan landing of December 1787 that quotes long passages of La Pérouse's own journal (Dunmore translation): his misgivings about sending boats ashore, de Langle's insistence on fresh water against scurvy, the killing of de Langle and eleven others, and La Pérouse's statement that he refrained from destroying a hundred canoes for fear of mistaking his victims. Cites Henwood's 1987 article, Guillou and Dunmore. CAUTION: most behavioural detail here is La Pérouse's own report of his own decisions (self-report).",
+      "url": "https://rodama1789.blogspot.com/2018/06/massacre-bay-death-of-fleuriot-de-langle.html"
+    },
+    {
+      "id": "src_laperouse_rodama_lituya",
+      "kind": "press",
+      "title": "Rodama blog, 'Louis-Philippe Crépin: disaster in Lituya Bay, 1786', 21 June 2018 (read in full): the 13 July 1786 loss of two boats and 21 men, including the two Laborde brothers, in the entrance current at Port des Francais; La Pérouse's written warning to the officer in charge not to approach the entrance, the last-minute decision to complete the chart with extra soundings, the cenotaph on the island, and the Seattle Art Museum curatorial note on the Tlingit witnesses; cites Inglis (1997) and Mackie. Online scholarly-amateur blog; behavioural detail again rests mainly on La Pérouse's journal and Dunmore.",
+      "url": "https://rodama1789.blogspot.com/2018/06/la-perouse-in-alaska-disaster-in-lituya.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_laperouse_rodama_lituya, src_laperouse_rodama_samoa, src_laperouse_wam, src_laperouse_loc, src_laperouse_dcb | 1786-1788 | online scholarly blog, online scholarly blog, museum exhibition page, library blog, reference biography] After losing 21 men at Lituya Bay (July 1786) he stayed about two more weeks searching and raised a cenotaph before sailing on; after de Langle and eleven others were killed in Samoa (December 1787) he continued to Botany Bay, forwarded his reports and planned a further route through New Caledonia, the Solomons and the Gulf of Carpentaria (museum page). Two separate episodes of continuing after serious loss support a strong inference. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 66 / 0.50 because the continuation was also the expedition's ordered mission and the narrative rests largely on one body of material (his published journal as retold by Dunmore and the Atlas), and because the outcome (the voyage did go on) invites outcome bias."
+    },
+    "adaptability": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_laperouse_wam, src_laperouse_rodama_lituya, src_laperouse_rodama_samoa, src_laperouse_dcb | 1786-1788 | museum exhibition page, online scholarly blog, online scholarly blog, reference biography] He departed from the suggested itinerary after Cape Horn to take a northern summer season off Alaska (blog drawing on Dunmore); on hearing at Kamchatka of the planned British settlement he headed promptly for Botany Bay; and after the Samoan losses he wrote that the loss of boats and 30 men and the risk of having to burn one ship to man the other shaped his later conduct (his own journal). SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 62 / 0.50 because the Kamchatka rerouting rests on a single museum page and the post-Samoa reasoning is his own report."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_laperouse_jar, src_laperouse_loc, src_laperouse_rodama_lituya, src_laperouse_versailles | 1780-1788 | popular-history article, library blog, online scholarly blog, museum page] He proposed the Hudson Bay raid in 1780, two years before it was carried out (one article citing the Archives Nationales); sent maps, journals and letters home from Macao, Kamchatka and Botany Bay (library blog); and wrote warning instructions for the Lituya Bay sounding party. Provisioning for the voyage (350 barrels of food per ship) belongs to the Navy and is not counted. SELF-CALIBRATION (agent): lowered from 64 / 0.50 strong inference to 60 / 0.46 inference because the 1780 proposal rests on one article, the dispatches are institutional-chronicle material, and the instruction note is from the blog account of his journal; the facts are dispersed rather than several independent documented instances."
+    },
+    "proactive_agency": {
+      "score": 56,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_laperouse_jar, src_laperouse_rodama_lituya | 1780-1786 | popular-history article, online scholarly blog] He proposed the 1780 plan to take the Hudson Bay posts on his own initiative before his superiors backed it (single article citing the Archives Nationales), and chose a northern detour off Alaska beyond his instructions (single blog drawing on Dunmore). SELF-CALIBRATION (agent): lowered from 60 / 0.50 strong inference to 56 / 0.42 inference because each episode rests on a single source and the detour could have been within his commander's discretion."
+    },
+    "collaboration": {
+      "score": 54,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_laperouse_rodama_samoa, src_laperouse_dcb, src_laperouse_wam | 1785-1788 | online scholarly blog, reference biography, museum exhibition page] He called de Langle his friend of thirty years and his second in command, and consented to the second Samoan watering party against his own misgiving because he trusted de Langle's judgement (his own journal); the reference biography calls him amiable and firm with a talent for making everyone like him, and the museum page describes the king choosing him partly for humanitarian qualities. Deferring against his own caution had a heavy cost, hence dual-edged. SELF-CALIBRATION (agent): lowered from 58 / 0.44 to 54 / 0.38 because the key episode is his own report and the character judgement comes from one admiring biographer."
+    },
+    "risk_tolerance": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_laperouse_dcb, src_laperouse_jar, src_laperouse_rodama_lituya | 1782-1786 | reference biography, popular-history article, online scholarly blog] The reference biography says he combined prudence and audacity; he took a 74-gun ship and frigates into Hudson Strait ice and shoal waters in 1782 (more than 100 deaths from hunger and illness among the crews, 15 drowned), and led a boat party up a glacier at Lituya Bay where an ice wave swamped his boat. The blog accounts also show him wary of sending boats ashore and of the Lituya Bay entrance, so the evidence points to a mid-range, mixed pattern. Kept as scored after review; no raise proposed."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "장프랑수아 드 라페루즈"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/jean-francois-de-la-perouse-luigi-rados-undated.jpg",
+    "width": 860,
+    "height": 1470,
+    "source": "Stipple engraving and etching, 148 x 104 mm, signed 'L. Rados inc.' and lettered 'La Perouse', Rijksmuseum Amsterdam, object RP-P-1910-4541 (purchased 1905; holder date 1783-1840; collector's mark Lugt 2228 on the verso). The file is cropped from the holder's own IIIF image (1696 x 2018, iiif.micr.io/Fhkrd) to the portrait, signature and caption, with no upscaling and no resizing. The print is a later engraved depiction, not a documented lifetime likeness.",
+    "license": "Public domain: the Rijksmuseum item record states 'Public domain' (Public Domain Mark 1.0; its open-data record also carries CC0 for the metadata/image record) and the Rijksmuseum data policy allows free use, including commercial, of material marked public domain; independently the engraver Luigi Rados died in 1840",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Luigi Rados, portrait of La Perouse, stipple engraving and etching, undated (1783-1840 per holder), Rijksmuseum, Amsterdam, RP-P-1910-4541 (public domain).",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1910-4541",
+    "creator": "Luigi Rados (printmaker, Italy; 1773-1840; named by the signature on the print)",
+    "date": "undated; holder gives 1783-1840",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1910-4541"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / lead SURVIVED: Rijksmuseum print RP-P-1910-4541 (Luigi Rados, stipple and etching, holder date 1783-1840). Re-verified at the holder: the item record states Public domain, the linked-data record gives Public Domain Mark 1.0, the Rijksmuseum data policy (read) allows free use incl. commercial of material marked public domain with no restriction shown on this item, and the holder's authority record gives Rados 1773-1840. The image was taken from the holder's own IIIF copy (Commons upload host returned 429). The print itself is signed 'L. Rados inc.' and lettered 'La Perouse', so sitter identity rests on printed lettering, not on the museum title alone. KIND historical_depiction: undated engraving of unknown source image; the Stage B caveat stands that no authenticated lifetime likeness of La Pérouse is known to this research, and the likeness fidelity is unverified. Cropped 1696x2018 to 860x1470 (no resizing, no upscaling), the holder's accession label and margins removed. PREFLIGHT: QID VERIFIED LIVE (2026-11-20, Wikidata API) Q294478, English label 'Jean-François de Galaup, comte de La Pérouse', description 'French Navy officer and explorer (1741-1788)', born 1741-08-23, died 1788, instance of human, citizenship France. REGION western_europe (France, existing precedent). ERA early_modern (Cook precedent). KO NAME: 장프랑수아 드 라페루즈 is a shortened form of the Korean Wikipedia title 장프랑수아 드 갈롭 드 라페루즈 백작 (Wikidata ko label 라페루즈 백작 장프랑수아 드 갈롭); shortening is the researcher's choice and is flagged for review. ATTRIBUTION: limited_but_usable - his own journal survives only through the 1797 Milet-Mureau edition and later translations, and most behavioural detail in the sources is his own report. READ (8 sources besides Wikidata): Dictionary of Canadian Biography (full), LOC Maps blog, Chateau de Versailles page, WA Museum page, SLNSW story, Journal of the American Revolution article (full, with footnotes), two Rodama blog articles (full). NOT OPENED (bot-walled or unavailable): the Australian Dictionary of Biography entry (body not served), the Morris-Suzuki ANU article (timed out), Dunmore's biography and the Voyage text itself. SPARSE PROFILE: six rows only; independent behavioural families are few, so no extreme scores. CANONICAL SIGNIFICANCE SOURCE: DCB entry by Taillemite. Zero politics: the Hudson Bay raid and American War service are treated as naval/exploration career only. HANDBACK69: see TGI-r69-scratch handback file for the lowered rows (5 of 6 lowered, 0 raised)."
+  }
+}

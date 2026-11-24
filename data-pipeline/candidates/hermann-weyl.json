@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "hermann-weyl",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Hermann Weyl",
+    "aliases": [
+      "Hermann Klaus Hugo Weyl",
+      "Claus Hugo Hermann Weyl"
+    ],
+    "wikidataId": "Q71029",
+    "birthYear": 1885,
+    "deathYear": 1955,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "DE",
+      "CH",
+      "US"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "physicist"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "theorist",
+      "cross_disciplinary"
+    ],
+    "archetypeIds": [
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_weyl_wikidata",
+      "kind": "wikidata",
+      "title": "Hermann Weyl (Q71029), verified live via the Wikidata API (2026-11-20): English label 'Hermann Weyl', description 'German mathematician (1885-1955)', Korean label 헤르만 바일, instance of human, born 9 November 1885, died December 1955 (the day is given as 8 or 9 December in different records), citizenships Germany, Switzerland and the United States. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q71029"
+    },
+    {
+      "id": "src_weyl_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Weyl, Hermann' by Jean Dieudonne (Gale, reproduced on Encyclopedia.com; read in full). CANONICAL SIGNIFICANCE SOURCE: calls him 'one of the most universal mathematicians of his generation', the most gifted of Hilbert's students, who moved from spectral theory and number theory (equidistribution modulo 1, 1916) to a rigorous theory of Riemann surfaces (1913), to relativity (Raum, Zeit, Materie, 1918) and to the representation theory of Lie groups (1925-27, 'his masterpiece'), and wrote Gruppentheorie und Quantenmechanik (1928); records that he fought on Brouwer's side in the foundations dispute with Hilbert's school and that in 1933 he left Nazi Germany for the Institute for Advanced Study. Reference-work biography by a fellow mathematician; admiring, concerned with the mathematics more than the man.",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/weyl-hermann"
+    },
+    {
+      "id": "src_weyl_atiyah",
+      "kind": "biography",
+      "title": "Michael Atiyah, 'Hermann Weyl, 1885-1955', Biographical Memoirs of the National Academy of Sciences, vol. 82 (2002; read in full). A later-generation assessment that follows Weyl's ideas into modern mathematics and physics: the 1913 Riemann-surface book, the global view of Lie groups and the Weyl character formula, the 1918 gauge idea that Einstein criticised in an appendix to the very paper and that returned as the basis of gauge theories, his generous 1954 speech on the Fields medallists, and his encouragement of younger mathematicians (recollections of Bott and Borel). The author never met Weyl and relies on the Chevalley-Weil and Newman obituaries, so it is partly derivative; admiring in tone.",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/weyl-hermann.pdf"
+    },
+    {
+      "id": "src_weyl_newman",
+      "kind": "biography",
+      "title": "M. H. A. Newman, 'Hermann Weyl', Journal of the London Mathematical Society 33 (1958), pp. 500-511 (St Andrews MacTutor archive copy; read in full), a shortened form of the Royal Society biographical memoir of 1957 written with Davenport, Hall, Reuter and Rosenfeld. Contemporary obituary by a close colleague: his years in Gottingen, Zurich and Princeton, the 1923 refusal and 1930 acceptance of the Gottingen chair 'after still more painful hesitations', his 1933 decision to leave Germany after the dismissal of his colleagues, his late philosophical autobiography (Erkenntnis und Besinnung, quoted), his refusal to use the axiom of choice, and a detailed account of the papers on eigenvalue problems, uniform distribution, Riemann surfaces, relativity and group representations. Draws on Weyl's own accounts for much of the life, so partly self-report; admiring.",
+      "url": "https://mathshistory.st-andrews.ac.uk/LMS/weyl_lms_obit.pdf"
+    },
+    {
+      "id": "src_weyl_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics (University of St Andrews), 'Hermann Klaus Hugo Weyl' biography (read in full). University-hosted history-of-mathematics biography that gathers Weyl's own words ('My work always tried to unite the truth with the beautiful, but when I had to choose one or the other, I usually chose the beautiful'), John Wheeler's recollection that Weyl gave lecture courses on whole subjects to see 'the great lacunae', Coxeter's review of Symmetry, W. J. Moore's portrait of the Zurich circle and the 1933 move to Princeton. A compilation drawing on the same obituaries; used for quotations and the Wheeler recollection.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/"
+    },
+    {
+      "id": "src_weyl_sep",
+      "kind": "institution",
+      "title": "John L. Bell and Herbert Korte, 'Hermann Weyl', Stanford Encyclopedia of Philosophy (read: the life section, the sections on Weyl and Brouwer and on Weyl and Hilbert, and the sections on the 1918 unified field theory and its abandonment). Scholarly, source-based reference essay that quotes Weyl's 1921 manifesto ('Brouwer, that is the revolution!'), his 1949 remark that intuitionist mathematics ends in 'almost unbearable awkwardness', Hilbert's reaction, Einstein's and Pauli's criticisms of the 1918 gauge theory, Weyl's reply that mathematics rather than physics had driven it, and his giving it up with the quantum theory of the electron around 1927-29. The most detailed account of how his positions changed; philosophical rather than biographical in interest.",
+      "url": "https://plato.stanford.edu/entries/weyl/"
+    },
+    {
+      "id": "src_weyl_bea",
+      "kind": "biography",
+      "title": "Frieda A. Stahl, 'Weyl, (Claus Hugo) Hermann', Biographical Encyclopedia of Astronomers (Springer, 2007; three-page entry read in full from the MacTutor copy). Independent short entry from the astronomy side: his years at the Zurich ETH with Einstein, the 1918 unified-field attempt 'abandoned as unsuccessful' though gauge invariance remained, his 1930 cosmology paper on redshift, the 1931 analysis of Dirac's equation and the 1927 two-component equation later seen to anticipate parity violation, and the family's emigration to Princeton (dated 1934 here, 1933 elsewhere). Reference entry; it notes Penrose's description of him as the greatest mathematician of the twentieth century.",
+      "url": "https://mathshistory.st-andrews.ac.uk/BEA/weyl_bea.pdf"
+    }
+  ],
+  "rows": {
+    "cross_domain_range": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weyl_dsb, src_weyl_atiyah, src_weyl_newman, src_weyl_sep | 1908-1952 | reference biography, academy memoir, obituary, philosophy reference] The record shows sustained work in genuinely different areas: singular differential equations and spectral theory (1908-15), analytic number theory (equidistribution modulo 1, 1916), Riemann surfaces and topology (1913), general relativity and cosmology (1918-30), representation theory of Lie groups and its use in quantum mechanics (1925-28), the foundations of mathematics and a series of philosophy books; Atiyah says he deliberately eschewed specialisation and quotes Weyl calling his own works 'unsystematic, without mode or connection'. The breadth is documented by four sources, but all of it lies in mathematics and mathematical physics with philosophy as a companion, and Atiyah says analysis and geometry applied to physics are the core. SELF-CALIBRATION (agent): lowered from 80 / 0.68 to 74 / 0.62 because the claim leans on reputation phrases such as 'most universal mathematicians' and most fields are neighbours."
+    },
+    "systems_abstraction": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weyl_dsb, src_weyl_atiyah, src_weyl_newman, src_weyl_mactutor | 1913-1952 | reference biography, academy memoir, obituary, university biography] He gave Riemann surfaces an abstract definition (the first rigorous abstract manifold, using neighbourhood axioms), treated Lie groups 'in the round' as global objects rather than through local formulae, and framed symmetry as a general principle ('Whenever you have to do with a structure-endowed entity, try to determine its group of automorphisms', quoted by MacTutor from Coxeter's review of Symmetry). The sources agree on his preference for conceptual analysis over computation. They describe the content of his theories more than how he worked, and their praise is admiring. SELF-CALIBRATION (agent): lowered from 78 / 0.64 to 74 / 0.58 because the evidence is mostly assessments of his results by admiring mathematicians rather than records of his own working method."
+    },
+    "independent_thinking": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_weyl_sep, src_weyl_atiyah, src_weyl_dsb, src_weyl_newman | 1918-1921 | philosophy reference, academy memoir, reference biography, obituary] Two documented episodes: in 1918 he published and for years defended a unified gauge theory after Einstein's immediate objection, and in 1920-21 he joined Brouwer's intuitionism, against his teacher Hilbert, who was upset and answered with a programme of his own; the Dictionary of Scientific Biography says he 'actively fought on Brouwer's side' and Newman that he never used the axiom of choice. The two episodes rest largely on the same scholarly synthesis and on his own writings, and the second was reasoned from philosophical conviction (and Atiyah says he sided with Brouwer 'somewhat reluctantly'), so the score is a clear lean rather than a defining trait."
+    },
+    "aesthetic_sensitivity": {
+      "score": 68,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_weyl_atiyah, src_weyl_mactutor, src_weyl_newman | 1927-1955 | academy memoir, university biography, obituary] Two observers describe the form of his work: Atiyah calls his style 'literary, almost poetic' and Newman calls him 'a great mathematical writer' who adorned his work with literary graces and kept illustrative examples; Weyl wrote that 'expression and shape are almost more to me than knowledge itself' and that when he had to choose between truth and the beautiful he usually chose the beautiful. The statements about the beautiful are his own, quoted by three of the sources, and the observers' remarks are general. CONCENTRATION CORRECTION (agent): lowered from 74 / 0.54 strong inference to 68 / 0.46 inference because the evidence is dominated by one self-report repeated in several sources."
+    },
+    "belief_updating": {
+      "score": 54,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_weyl_sep, src_weyl_atiyah, src_weyl_bea | 1918-1949 | philosophy reference, academy memoir, astronomers' encyclopedia] The record is mixed: he held to his 1918 gauge theory for about a decade against Einstein's and Pauli's physical objections (arguing in a letter that mathematics, not physics, drove it) and gave it up only around 1927-29, when the quantum theory of the electron supplied a different gauge invariance; he left his own 1918 analysis for Brouwer's intuitionism by 1921, and by 1949 acknowledged its 'almost unbearable awkwardness'. Positions did change, but slowly and on his own grounds, so the score stays near the middle. CONCENTRATION CORRECTION (agent): confidence lowered from 0.46 to 0.42 because the detail rests on one scholarly synthesis and Weyl's own letters, with the other sources giving one line each."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "헤르만 바일"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/hermann-weyl-franz-schmelhaus-1928.jpg",
+    "width": 924,
+    "height": 1398,
+    "source": "Studio portrait photograph of Hermann Weyl by Franz Schmelhaus (1872-1952), circa 1928, gelatin silver print mounted on card, 9 x 14 cm, ETH Library Zurich, Image Archive (E-Pics), signature Portr_10803-023-AL, titled 'Weyl, Hermann (1885-1955)'. The file is the Wikimedia Commons rendering of the holder's 2939 x 4458 scan downscaled to 960 x 1456, with the cream card border cropped (924 x 1398); no upscaling.",
+    "license": "Public Domain Mark as stated in the holder's own item record (free download and use; ETH Library terms allow all purposes for public-domain-marked images and ask for image credit). By age: the photographer died in 1952, so Swiss protection (life plus 70 years) ended in 2022. Wikimedia Commons labels the same file CC BY-SA 4.0, a stricter label than the holder's own; credit is given either way.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Franz Schmelhaus, portrait of Hermann Weyl, circa 1928. ETH-Bibliothek Zurich, Image Archive, Portr_10803-023-AL (DOI 10.3932/ethz-a-000071719). Public Domain Mark.",
+    "attributionUrl": "https://doi.org/10.3932/ethz-a-000071719",
+    "creator": "Franz Schmelhaus (1872-1952), photographer",
+    "date": "circa 1928",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Weyl,_Hermann_(1885-1955)-Portr_10803-023-AL.tif"
+  },
+  "provenance": {
+    "createdAt": "2026-11-23T00:00:00Z",
+    "updatedAt": "2026-11-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / lead SURVIVED: the ETH-Bibliothek Portr_10803-023-AL photograph. Preflight could not read the holder's item record (script-rendered page); this run rendered it in the browser pane and read it: photographer Schmelhaus, Franz (1872-1952), title 'Weyl, Hermann (1885-1955)', dating ca. 1928, gelatin silver print on cardboard, 9 x 14 cm, signature Portr_10803-023-AL, license 'Public Domain Mark', availability 'Free download and use', copyright notice 'ETH Library Zurich, Image Archive'. HOLDER vs COMMONS CONFLICT: Commons labels the file CC BY-SA 4.0 whereas the holder's own record says Public Domain Mark; the holder's statement is used, and the age basis supports it (photographer died 1952). ETH terms of use (https://e-pics.ethz.ch/en/ba_use/) read: public-domain-marked images may be used for all purposes with a request for image credit; the credit line is given in attribution. Kind likeness (studio photograph of the sitter, c.1928, matching the 'slim young man with a black moustache' of the Zurich years in MacTutor's quotation of Moore); no inscription on the print; sitter rests on the holder's title. Not a bot wall: the plain-HTTP DOI redirect lands on a script-rendered page, readable in the browser pane. PREFLIGHT: QID VERIFIED LIVE (2026-11-20, Wikidata API) Q71029 label 'Hermann Weyl', description 'German mathematician (1885-1955)', ko label 헤르만 바일 (also the Korean Wikipedia title), instance of human, born 9 November 1885, died December 1955 (8 or 9 December). REGION central_europe (assignment; German-Swiss career, precedent Helmholtz and Pauli). ERA 20th_century (precedent Hilbert). KOREAN NAME 헤르만 바일 is the Wikidata ko label and Korean Wikipedia title (authoritative-label). ZERO POLITICS: only mathematics, physics, philosophy and teaching are scored; his 1933 departure from Germany is recorded as context and not scored. ATTRIBUTION: attributable (dated books, papers and lectures, quoted letters and essays). CANONICAL SIGNIFICANCE SOURCE: Dieudonne's Dictionary of Scientific Biography entry. READ (all in full unless noted): DSB entry; Atiyah's NAS memoir; Newman's 1958 LMS obituary (shortened Royal Society memoir); MacTutor biography; Stanford Encyclopedia of Philosophy (life, intuitionism, Hilbert and 1918 gauge sections); Biographical Encyclopedia of Astronomers entry. Britannica was opened (short, orientation only) and is not cited; the IAS biography page returned 403 and was not read; Rowe's 'reluctant revolutionary' and the Chevalley-Weil, Frei-Stammbach and Scholz works were not opened. INDEPENDENT BEHAVIOURAL FAMILIES: about three (Dieudonne; the Newman, Chevalley-Weil, Atiyah obituary lineage; the SEP, which works from Weyl's letters and the Pauli critique), with MacTutor and the astronomers' entry largely derivative. COUNTER-VOICES: Einstein's and Pauli's objections to the 1918 theory, Hilbert's reaction to his intuitionism, Weyl's own 1949 admission of intuitionism's awkwardness; no hostile biography was found. CONFLICTS NOT CARDED: his departure from Germany is dated 1933 (DSB, Newman, SEP) and 1934 (astronomers' entry); the year of Klein's chair offer (1913 in the astronomers' entry, 1923 in SEP and Newman); death date 8 or 9 December. Private life (marriages, Zurich circle) is not used. SPARSE 5-ROW PROFILE by design: the sources are mostly assessments of results; no rows for persistence, discipline, collaboration or leadership. CONCENTRATION: aesthetic_sensitivity lowered 74/0.54 strong_inference to 68/0.46 inference (one self-report echoed in three sources); belief_updating confidence lowered 0.46 to 0.42 (one scholarly synthesis). SELF-CALIBRATION: cross_domain_range lowered 80/0.68 to 74/0.62; systems_abstraction lowered 78/0.64 to 74/0.58; independent_thinking reviewed and kept at 70/0.58. No score or confidence raised. HANDBACK69 file: handback/hermann-weyl.json in the scratch directory."
+  }
+}

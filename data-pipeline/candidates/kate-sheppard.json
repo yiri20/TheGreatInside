@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "kate-sheppard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Kate Sheppard",
+    "aliases": [
+      "Katherine Wilson Sheppard",
+      "Catherine Wilson Malcolm",
+      "Kate Lovell-Smith"
+    ],
+    "wikidataId": "Q455072",
+    "birthYear": 1847,
+    "deathYear": 1934,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "NZ",
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist",
+      "editor"
+    ],
+    "fieldIds": [
+      "civil_rights",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "advocate",
+      "organizer",
+      "grassroots_organizer"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sheppard_wikidata",
+      "kind": "wikidata",
+      "title": "Kate Sheppard (Q455072), verified live via the Wikidata API (2026-11-20): English label 'Kate Sheppard', description 'prominent member of New Zealand's women's suffrage (1848-1934)' (the description's 1848 differs from the structured birth date), instance of human, born 10 March 1847, died 13 July 1934, citizenships United Kingdom of Great Britain and Ireland and New Zealand, Korean label 케이트 셰퍼드. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q455072"
+    },
+    {
+      "id": "src_sheppard_smith1905",
+      "kind": "biography",
+      "title": "W. Sidney Smith, 'Outlines of the Women's Franchise Movement in New Zealand' (Christchurch: Whitcombe and Tombs, 1905; Internet Archive scan, OCR text read in full, with the plate captioned 'Mrs. K. W. Sheppard'). CANONICAL CONTEMPORARY ACCOUNT: the campaign told year by year by an insider-adjacent author (who married her in 1925), with a prefatory letter from Sir John Hall crediting Sheppard and her colleagues for 'judgment and tenacity'. Records her 1887 appointment as the Union's franchise superintendent at Mrs Leavitt's suggestion, the 1888 petition drawn up to catch the Electoral Bill, the 1889 comparison with Hall of members' positions and her consultation of the Unions by telegram on a property-qualification compromise, the local franchise superintendents, the 1891 petition of 10,085 signatures analysed by district, her 1893 telegram to the Legislative Council and letter to Governor Glasgow, and Seddon's telegram of 19 September 1893. Partisan and admiring; not independent of the movement.",
+      "url": "https://archive.org/details/outlinesofwomens00smit"
+    },
+    {
+      "id": "src_sheppard_ccl",
+      "kind": "institution",
+      "title": "Christchurch City Libraries, 'Kate Sheppard (1847-1934)' local-history biography (read in full). Public-library biography that follows the Dictionary of New Zealand Biography: birth in Liverpool 'probably' 10 March 1847, arrival at Lyttelton in 1869, founding membership of the WCTU in 1885 and appointment as national franchise superintendent in 1887, petitions and the pamphlet Ten Reasons, failed bills in 1888, 1891 and 1892, a last petition of nearly 32,000 signatures, the Electoral Act of 19 September 1893, the 1895 White Ribbon newspaper, the 1896 National Council of Women, the resignation from active campaigning after 1902 for health reasons, and the summary that without her 'drive and energy' the vote 'would probably not have' come as soon. Admiring local-history source; derivative of the national biography.",
+      "url": "https://my.christchurchcitylibraries.com/kate-sheppard/"
+    },
+    {
+      "id": "src_sheppard_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Kate Sheppard' (read in full): leader of the WCTU's suffrage campaign from 1887, wrote pamphlets, organised meetings and presented petitions, early causes of dress reform and cycling, first president of the National Council of Women in 1896 and stepped down in 1903 for poor health, later active in suffrage movements in England and the United States. Short reference article; consistent with the other biographies but adds no detail of its own.",
+      "url": "https://www.britannica.com/biography/Kate-Sheppard"
+    },
+    {
+      "id": "src_sheppard_ebsco",
+      "kind": "biography",
+      "title": "Barb Lightner, 'Kate Sheppard', EBSCO Research Starters (2024; read in full). Reference summary built on the Dictionary of New Zealand Biography and NZHistory: her work through letters to newspapers, correspondence with suffragists abroad and a 'strategic alliance' with Sir John Hall; the 1891 women's page in The Prohibitionist written as 'Penelope' for three years; petitions of about 9,000 (1891), 19,000 (1892) and over 30,000 (1893) signatures; editorship of the White Ribbon from 1895 to 1903; first presidency of the National Council of Women in 1896; resignation in 1903 through ill health; the refusal for health reasons of an offered post as franchise superintendent of the World's WCTU. Derivative of the national biography; says a 'team of six hundred volunteers' gathered the 1893 signatures, a figure the library biography gives instead as the Union's membership, so the number is not used.",
+      "url": "https://www.ebsco.com/research-starters/history/kate-sheppard/"
+    },
+    {
+      "id": "src_sheppard_archifacts",
+      "kind": "institution",
+      "title": "Katrina Tamaira, 'Suffrage and Silences: Wahine Maori and the Vote', Archifacts (Archives and Records Association of New Zealand, 2022; read in full). Archival-studies essay that puts the petitions in context: at least seven suffrage petitions between 1888 and 1893 (778 signatures in 1888, about 9,000 in 1891, almost 20,000 in 1892, almost 32,000 in 1893, thirteen documents of which twelve small ones are lost), the petitions 'mainly organised by European women', the WCTU, Salvation Army and Dunedin Tailoresses' Union, and the very few identifiable Maori signatories (about ten) beside Meri Te Tai Mangakahia's parallel 1893 motion at the Kotahitanga parliament. Independent scholarly counter-perspective; not a biography of Sheppard.",
+      "url": "https://ojs.victoria.ac.nz/arch/article/download/10590/9297/17804"
+    },
+    {
+      "id": "src_sheppard_rnz",
+      "kind": "press",
+      "title": "Sonia Sly, 'Women Caught Between Two Worlds', RNZ Beyond Kate (19 October 2018; read in full). Radio-programme feature in which Lizzie Marvelly and Libby Hakaraia discuss Maori suffragists and say that Maori women joining the WCTU-linked movement were presented with a pledge that, besides alcohol and tobacco, required giving up the moko kauae. COUNTER-VOICE on the movement Sheppard led, speaking of the movement and its pledge rather than of her own decisions; interview-based and opinion-led.",
+      "url": "https://www.rnz.co.nz/programmes/beyond-kate/story/2018667532/women-caught-between-two-worlds"
+    },
+    {
+      "id": "src_sheppard_cclncw",
+      "kind": "institution",
+      "title": "Christchurch City Libraries blog, 'First National Council of Women, Christchurch, 1896' (13 April 2016; read in full). Describes the first National Council of Women, which met in Christchurch from 13 to 18 April 1896 as 'a world first - a national meeting of women who could vote in parliamentary elections', with Sheppard voted its first president and resolutions including equal divorce conditions, women jurors, old-age pensions and minimum wages. Library blog post; short.",
+      "url": "https://my.christchurchcitylibraries.com/blogs/post/first-national-council-of-women-christchurch-1896/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sheppard_smith1905, src_sheppard_ccl, src_sheppard_ebsco, src_sheppard_archifacts | 1887-1893 | contemporary account, library biography, reference summary, archival essay] Four sources agree on the pattern: she led the franchise work from 1887 through failed bills in 1888, 1891 and 1892 and kept going with new petitions that grew from 778 signatures on one 1888 petition to about 9,000 (1891), almost 20,000 (1892) and almost 32,000 (1893), until the Electoral Act passed on 19 September 1893. The signature totals reflect the work of many local unions, but the continuing of the campaign after each defeat is documented by independent accounts; the conclusion that this was hers rests on her named role as national superintendent."
+    },
+    "leadership_drive": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sheppard_smith1905, src_sheppard_ccl, src_sheppard_cclncw, src_sheppard_ebsco | 1887-1903 | contemporary account, library biography, library blog, reference summary] She took the national franchise superintendency in 1887, coordinated the local unions, signed the 1893 telegram and letter on behalf of the petitioners, was voted first president of the National Council of Women in 1896, and edited the White Ribbon (1895-1903); Sir John Hall's letter in the 1905 book credits her and her colleagues. Against this, the reference summary says she declined a later offer of the World's WCTU franchise post because of ill health, the campaign was shared with Hall, local superintendents and other groups (the archival essay says the petitions were mainly organised by European women across several bodies), and the best detail comes from a friendly 1905 narrative. CONCENTRATION CORRECTION (agent): lowered from 76 / 0.60 to 72 / 0.54 because the leadership account is dominated by a partisan insider book and a biography lineage, with shared credit across a wider movement."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sheppard_smith1905, src_sheppard_ebsco, src_sheppard_ccl | 1888-1895 | contemporary account, reference summary, library biography] In 1888 she drew up a petition timed to the Electoral Bill so that the interpretation clauses would include women, in 1891 she began a women's page in The Prohibitionist, she wrote the pamphlet Ten Reasons and, in 1893, wrote to the Governor and telegraphed the unions when a minority of the Legislative Council protested against assent. Most of the detail of these initiatives comes from one 1905 narrative. SELF-CALIBRATION (agent): lowered from 74 / 0.58 to 72 / 0.54 because the franchise work was a role the Union created at Mrs Leavitt's suggestion so part of the initiative came from others."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sheppard_smith1905, src_sheppard_ebsco | 1889-1892 | contemporary account, reference summary] In 1889 she and Hall compared their counts of the members of the House (33 for women's suffrage, 27 only for ratepayers, the rest doubtful or opposed) and weighed a compromise; she built a network of local franchise superintendents, the 1891 signatures were analysed by district, and the reference summary describes press coverage 'orchestrated'. The counts and analysis are told by one narrator and it is not stated which steps were her own plan. SELF-CALIBRATION (agent): lowered from 66 / 0.50 strong inference to 62 / 0.46 inference because the planning detail rests on one contemporary narrative, not several independent accounts."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sheppard_smith1905, src_sheppard_ccl, src_sheppard_ebsco | 1887-1896 | contemporary account, library biography, reference summary] In 1889 she asked the principal unions by telegram before answering Hall's proposal of a property qualification, and the unions voted overwhelmingly for full suffrage; she coordinated local unions and local superintendents and made an alliance with Hall and other politicians, and in 1896 helped found the National Council of Women. CONCENTRATION CORRECTION (agent): lowered from 66 / 0.50 strong inference to 64 / 0.46 inference because nearly all the detail of how the work was shared is from Smith's 1905 book."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sheppard_ccl, src_sheppard_ebsco, src_sheppard_smith1905 | 1887-1893 | library biography, reference summary, contemporary account] The library biography calls her an excellent public speaker and writer, the reference summary lists her pamphlet Ten Reasons, letters to newspapers and meetings, and the 1905 account quotes her telegram and letter of 1893; Hall's letter credits the 'judgment and tenacity' of her work. There is no independent record of how audiences or members of Parliament responded to her in particular, and the 1893 result is a movement outcome. SELF-CALIBRATION (agent): lowered from 66 / 0.48 to 62 / 0.42 because the claim is mostly an assertion repeated across one biography lineage and the result cannot be attributed to her persuasion alone."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sheppard_ccl, src_sheppard_ebsco, src_sheppard_britannica, src_sheppard_cclncw, src_sheppard_smith1905 | 1885-1903 | library biography, reference summary, reference article, library blog, contemporary account] Over about two decades she worked, beyond the vote, for equality in marriage, women's property rights, guardianship of children and dress reform, and as first president of the National Council she led a body whose 1896 resolutions ranged from equal divorce to women jurors and old-age pensions; the library biography says she devoted her life to making things better for women and families. The causes and the decades of work are documented across several sources, but the summaries of her motives are admiring and come from one lineage. SELF-CALIBRATION (agent): lowered from 80 / 0.62 to 76 / 0.56 because the 'devoted her life' characterisations are summary praise and the council's resolutions were the product of the whole convention."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "케이트 셰퍼드"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/kate-sheppard-clifford-studio-1905.jpg",
+    "width": 719,
+    "height": 1000,
+    "source": "Oval halftone portrait plate captioned 'Mrs. K. W. Sheppard' (leaf 39, facing page 23) in W. Sidney Smith, Outlines of the Women's Franchise Movement in New Zealand (Christchurch: Whitcombe and Tombs, 1905), read from the Internet Archive scan (identifier outlinesofwomens00smit, leaf scan 2912 x 4368; the 1656 x 2655 derivative was cropped to the oval and downscaled to 719 x 1000, no upscaling). The book credits no photographer; the Canterbury Museum states that its glass-plate negatives of her 1905 portrait session came from the studio of Henry Herbert Clifford (the negative holds six poses, and the museum's item page could not be read to match this plate to a specific negative).",
+    "license": "Public domain by age: first published in Christchurch, New Zealand, in 1905 (United States: published before 1931; New Zealand: photographer Clifford died in 1949, so even a life-plus-50 term ended in 1999, and the 2022 extension to life plus 70 did not revive expired works). The Internet Archive record marks the book NOT_IN_COPYRIGHT (US) with no rights statement. The Canterbury Museum website states a Creative Commons Attribution Non Commercial licence for its own website content; the museum's scan was not used, only the 1905 book plate.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Portrait of Mrs. K. W. Sheppard, plate in W. Sidney Smith, Outlines of the Women's Franchise Movement in New Zealand (Whitcombe and Tombs, Christchurch, 1905); Internet Archive scan. Photograph attributed to the H. H. Clifford studio, Christchurch, by Canterbury Museum.",
+    "attributionUrl": "https://archive.org/details/outlinesofwomens00smit",
+    "creator": "H. H. Clifford (1872-1949) studio, Christchurch, as attributed by Canterbury Museum; the 1905 plate itself carries no photographer credit",
+    "date": "circa 1901-1905 (published 1905)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/outlinesofwomens00smit"
+  },
+  "provenance": {
+    "createdAt": "2026-11-23T00:00:00Z",
+    "updatedAt": "2026-11-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE, downgraded from strong (Stage B) / lead SURVIVED in its safe form: the Stage B lead was the 1905 book plate (Commons 'Kate Sheppard.jpg' and 'Mrs. K. W. Sheppard (cropped).jpg), with the Canterbury Museum negative (object 243177) flagged because the museum's site states CC BY-NC. This run avoided the museum scan entirely and took the plate straight from the Internet Archive leaf scan of the 1905 book, where the printed caption 'MRS. K. W. SHEPPARD.' stands under the oval portrait (leaf 39, facing page 23); the Commons extracts were not used. HOLDER/TERMS: the museum's collection item page for the negative (collection.canterburymuseum.com/objects/243177) returns 403 (bot wall, noted separately from rights, not bypassed); the museum's Terms & Conditions page was read: 'Unless otherwise stated, all content on this website is licensed under a Creative Commons Attribution Non Commercial Licence', which governs its website content and scans, not a photograph published in 1905 and independently available in the book; the museum's own 'Women's Suffrage Campaigner' page states that the $10 note portrait (1905 session, six poses) was produced by H. H. Clifford's studio. No conflict between holder and the age-only route (published 1905, NZ photographer d.1949) was found; the creator attribution to Clifford rests on the museum and Commons and the exact match of this plate to a negative is unconfirmed. Dimensions 1656 x 2655 derivative cropped to 1240 x 1724 then downscaled to 719 x 1000; no upscaling. Kind likeness (period studio portrait of the sitter, caption names her). Sitter rests on the printed caption plus the museum's identification of the portrait session. PREFLIGHT: QID VERIFIED LIVE (2026-11-20, Wikidata API) Q455072 label 'Kate Sheppard', description 'prominent member of New Zealand's women's suffrage (1848-1934)' (the 1848 differs from the structured birth date 10 March 1847, which Britannica and the library biography also give), instance of human, died 13 July 1934, ko label 케이트 셰퍼드 (also the Korean Wikipedia title). BIRTH YEAR 1847 ('probably 10 March 1847' per the library biography). REGION western_europe (assignment; New Zealand precedent Katherine Mansfield and Te Rangi Hiroa). ERA 19th_century (her campaign work 1887-1893). NATIONALITY NZ and GB. KOREAN NAME 케이트 셰퍼드 (authoritative-label). ZERO POLITICS NOTE: she is an activist-primary pick assigned by the lead; only organising, writing and leadership behaviour is scored, not party politics (the political-philosophy views listed by the library biography are not scored). ATTRIBUTION: attributable (dated petitions, dated telegrams and letters, a contemporary book with a prefatory letter from Sir John Hall). CANONICAL SIGNIFICANCE SOURCE: Christchurch City Libraries biography and Britannica (the Dictionary of New Zealand Biography and NZHistory pages returned 403 bot walls and were not read; the nzhistory.net.nz mirror served unrelated spam and was discarded). READ in full: Smith 1905 (OCR), library biography, Britannica, EBSCO Research Starters, Tamaira's Archifacts essay, the RNZ feature, the library NCW blog; also read for portrait only: Canterbury Museum Terms, Clifford Collection and suffrage-campaigner pages. NOT READ: DNZB, NZHistory, Papers Past, the NZ Journal of History review of Devaliant's biography (403), the Listener essay 'The myth of one' (unreadable). INDEPENDENT BEHAVIOURAL FAMILIES: about three (the national-biography lineage behind the library, Britannica and EBSCO pages; Smith 1905 with Hall's letter, a partisan contemporary narrative; the Archifacts archival essay with the RNZ feature as a counter-voice). COUNTER-VOICES: Tamaira (petitions organised by many European women's bodies, very few identifiable Maori signatories), RNZ (WCTU pledge and moko kauae), and the lacking independent record of how her own persuasion worked. CONFLICTS NOT CARDED: the National Council presidency ended in 1903 (Britannica, EBSCO) or after three years (a search summary of Te Ara, unread); the '600 volunteers' figure (EBSCO) conflicts with the library's 600 Union members; Commons dates the portrait c.1901 and the museum 1905; the Wikidata description says 1848. SPARSE 7-ROW PROFILE by design. CONCENTRATION: leadership_drive 76/0.60 to 72/0.54 and collaboration 66/0.50 strong_inference to 64/0.46 inference. SELF-CALIBRATION: impact_motivation 80/0.62 to 76/0.56; persuasiveness 66/0.48 to 62/0.42; proactive_agency 74/0.58 to 72/0.54; planning_orientation 66/0.50 strong_inference to 62/0.46 inference; persistence reviewed and kept at 78/0.64. No score or confidence raised. HANDBACK69 file: handback/kate-sheppard.json in the scratch directory."
+  }
+}

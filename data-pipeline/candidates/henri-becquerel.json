@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "henri-becquerel",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Henri Becquerel",
+    "aliases": [
+      "Antoine Henri Becquerel",
+      "Antoine-Henri Becquerel"
+    ],
+    "wikidataId": "Q41269",
+    "birthYear": 1852,
+    "deathYear": 1908,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "FR"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "craft_focused"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_becquerel_wikidata",
+      "kind": "wikidata",
+      "title": "Henri Becquerel (Q41269), verified live via the Wikidata API (2026-11-20): English label 'Antoine Henri Becquerel', description 'French physicist (1852-1908)', Korean label 앙리 베크렐, born 15 December 1852, died 25 August 1908, a human, citizen of France; Korean Wikipedia title 앙리 베크렐. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q41269"
+    },
+    {
+      "id": "src_becquerel_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Becquerel, Antoine Henri' by Alfred Romer (Gale, reproduced on Encyclopedia.com under the spelling 'Becoquerel'; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: his discovery of radioactivity in 1896 (the 24 February and 2 March reports to the Academy, the tests of other luminescent crystals, non-luminescent uranium compounds and a disk of uranium metal, the announcement of 18 May), his identification of electrons in the rays of radium (1899-1900), his 1901 evidence of the regeneration of uranium's activity after chemical purification, the 1903 Nobel Prize shared with the Curies, and his posts at the Museum of Natural History, the Polytechnique and the Conservatoire. The assessment says he had little taste for physical theory, that much of his effort went on observations of no great significance, and that his greatest asset was a strong, persistent power of critical afterthought. Reference-work biography; admiring but frank about limits.",
+      "url": "https://encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/becoquerel-antoine-henri"
+    },
+    {
+      "id": "src_becquerel_radvanyi",
+      "kind": "institution",
+      "title": "Pierre Radvanyi and Jacques Villain, 'The discovery of radioactivity', Comptes Rendus Physique 18 (2017), pp. 544-550 (open-access historical article in the French Academy of Sciences series; PDF read in full). Independent reading of his notes in the Comptes rendus: he started from a wrong idea (that all luminescent bodies emit penetrating rays) and progressively realised what he was observing; the 26-27 February experiments left in a drawer and developed on 1 March; his careful wording that only the one substance had been shown to emit rays; the retention of the word phosphorescence in note titles until later in 1896; the November 1896 finding that samples kept in the dark since March still emitted rays; his stopping the study in April 1897 for the Zeeman effect; his lifelong reliance on the photographic and gold-leaf methods and never the quantitative electric method; his early scepticism of Villard's penetrating rays; and the 1900-01 purification results he could not explain.",
+      "url": "https://comptes-rendus.academie-sciences.fr/physique/articles/10.1016/j.crhy.2017.10.008"
+    },
+    {
+      "id": "src_becquerel_nobel",
+      "kind": "award_body",
+      "title": "Nobel Foundation, biography of Henri Becquerel and the 1903 Nobel Prize in Physics presentation speech (NobelPrize.org; both read). Biography: born in Paris in a family of scholars, trained at the Polytechnique and the Ponts et Chaussees, professor of applied physics at the Museum of Natural History from 1892 and at the Polytechnique from 1895; early work on polarised light, phosphorescence and absorption by crystals; the 1896 discovery after discussion with Poincare, using uranium salts inherited from his father. Presentation speech: summarises his experiments and says the discoveries of Becquerel and the Curies were closely bound up with each other, with half of the prize to Becquerel. Prize-body copy, celebratory.",
+      "url": "https://www.nobelprize.org/prizes/physics/1903/becquerel/biographical/"
+    },
+    {
+      "id": "src_becquerel_lecture",
+      "kind": "archive",
+      "title": "Henri Becquerel, 'On radioactivity, a new property of matter', Nobel lecture, 11 December 1903 (PDF at NobelPrize.org, read in full). PRIMARY SOURCE (self-report): says that on the day news of Rontgen's experiments reached Paris he thought of testing whether all phosphorescent materials emit similar rays, that the results did not justify this idea, that he soon recognised the emission was independent of light, electricity or heat, and that he was led to attribute the properties of light to the rays until later experiments showed they cannot be reflected or refracted; also credits Schmidt, Marie Curie, Pierre Curie, Giesel, Debierne and Rutherford for later results.",
+      "url": "https://www.nobelprize.org/uploads/2018/06/becquerel-lecture.pdf"
+    },
+    {
+      "id": "src_becquerel_aps",
+      "kind": "press",
+      "title": "Ernie Tretkoff, 'This Month in Physics History: March 1896, Becquerel discovers radioactivity', APS News, 25 February 2008 (read in full). Independent popular account: his 1896 hypothesis that uranium salts re-emit sunlight as X-rays, the plates and crystals put away in a drawer on overcast days, the plates developed on 1 March, the 2 March report, the later finding that the rays differ from X-rays because they are deflected by fields, the earlier observation by Niepce de Saint-Victor, and the article's own note that why he developed the plates is unclear. Short article drawn on secondary histories.",
+      "url": "https://www.aps.org/apsnews/2008/02/becquerel-discovers-radioactivity"
+    },
+    {
+      "id": "src_becquerel_sciam",
+      "kind": "press",
+      "title": "'One Reason Not to Leave Radioactive Fluid in Your Pocket', Scientific American, August 1901 (reproduced online; read). Contemporary report that Becquerel carried a sealed tube of radium-bearing barium chloride in his waistcoat pocket for about six hours, that a red mark appeared about ten days later, and that the skin peeled and took a month to heal; says Pierre Curie reported a similar effect from a weaker sample applied for longer. Short magazine note; his own report, not independent.",
+      "url": "https://www.scientificamerican.com/article/one-reason-not-to-leave-radioactive-fluid-in-your-pocket/"
+    }
+  ],
+  "rows": {
+    "belief_updating": {
+      "score": 66,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_becquerel_dsb, src_becquerel_radvanyi, src_becquerel_lecture | 1896-1901 | reference biography, scholarly history, Nobel lecture] He began from the idea that all luminescence emits X-ray-like rays, and over 1896 he abandoned it step by step: the plates developed after the cloudy days showed emission in the dark, other luminescent crystals showed nothing, non-luminescent uranium compounds and the metal were active, and he later dropped his early claim that the rays were reflected and refracted. The reference biography says his critical afterthought repeatedly corrected his enthusiasms; the historians note he kept the word phosphorescence in his titles for months, so the change was gradual rather than quick. Two secondary readings of the same 1896 notes plus his own account, hence strong inference at a moderate level. SELF-CALIBRATION (agent): lowered from 70 / 0.60 to 66 / 0.56 because the secondary accounts both read the same 1896 notes and the change of framing was slow."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_becquerel_dsb, src_becquerel_radvanyi, src_becquerel_lecture | 1896-1900 | reference biography, scholarly history, Nobel lecture] In 1896 he tried other luminescent crystals, kept crystals in the dark hoping stored energy would dissipate, warmed uranyl nitrate until it dissolved in its water of crystallisation, tested non-luminescent uranium compounds and a disk of uranium metal, and added an electroscope test beside the photographic one; in 1899-1900 he measured the magnetic deflection of radium rays and ran repeated barium precipitations on uranium (reference biography, which praises his versatility in experiment). The historians add that he kept samples in the dark through November 1896 but never took up the quantitative electric method. SELF-CALIBRATION (agent): lowered from 74 / 0.62 to 70 / 0.58 because the experiment list comes mostly from one reference biography and the historians record his reliance on the photographic method."
+    },
+    "analytical_rigor": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_becquerel_dsb, src_becquerel_radvanyi | 1896-1900 | reference biography, scholarly history] The reference biography calls his work descriptive, committed to observation and careful about theorising, and says he conscientiously condemned as unjustified his own speculation that the rays outlasted fluorescence; the historians praise his carefully worded February 1896 claim limited to one substance, while other academicians generalised. The same sources show the limit: he never used the quantitative electric method, was at first sceptical of Villard's penetrating rays, and could not explain the regeneration of uranium's activity, and the reference biography says much of his effort went on observations of no great significance. SELF-CALIBRATION (agent): lowered from 68 / 0.56 to 64 / 0.52 because the praise rests on one reference biography and one historical article that both read the same notes, while the limits cut the other way."
+    },
+    "curiosity": {
+      "score": 54,
+      "confidence": 0.40,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_becquerel_dsb, src_becquerel_radvanyi | 1875-1900 | reference biography, scholarly history] The reference biography lists his successive subjects (magnetic rotation of light, infrared spectra from phosphorescent crystals, absorption in crystals, uranic rays, the magnetic deflection of radium rays), and the historians quote his 1896 remark that one could not yet understand where uranium takes the energy it emits; the same biography says he was nearly inactive in research for several years after his doctorate and that his research was descriptive and not driven by theory. The signal is the range of topics and an openly stated puzzle, not a documented pattern of questions, so the row stays near the middle. SELF-CALIBRATION (agent): lowered from 60 / 0.46 to 54 / 0.40 because the evidence is a list of topics drawn from one biography and overlaps the experimentation row."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "앙리 베크렐"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/henri-becquerel-nadar-undated.jpg",
+    "width": 729,
+    "height": 1000,
+    "source": "Photogravure portrait of Henri Becquerel, printed with the legends 'Nadar, Paris phot.', the number 8882, 'Becquerel' and 'Photographische Gesellschaft Berlin-Charlottenburg 9'; Smithsonian Libraries and Archives, Dibner Library 'Scientific Identity' collection, image SIL-SIL14-B2-08 (holder record library.si.edu/image-gallery/72997, rights statement 'No Copyright - United States', supplied caption 'Photogravure by Photographische Gesellschaft, Berlin, after Paul Nadar'). The file is the holder's own 2974 x 4000 pixel image (ids.si.edu delivery service), cropped to the photograph panel and downscaled to 729 x 1000 with no upscaling. The holder gives no date; Commons gives 'prior to 1908'.",
+    "license": "Public domain: holder rights statement 'No Copyright - United States' (CC0 marker per the Smithsonian Libraries copyright page); photographer Paul Nadar died in 1939 so the French life-plus-70 term has also expired; photogravure of a sitter who died in 1908, undated but not later than that",
+    "licenseUrl": "https://library.si.edu/copyright",
+    "attribution": "Photogravure by Photographische Gesellschaft, Berlin, after a photograph by Paul Nadar; Smithsonian Libraries and Archives, Dibner Library, Scientific Identity collection (SIL14-B2-08)",
+    "attributionUrl": "https://library.si.edu/image-gallery/72997",
+    "creator": "Paul Nadar (photograph); Photographische Gesellschaft, Berlin (photogravure)",
+    "date": "undated (before 1908)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://library.si.edu/image-gallery/72997"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / lead SURVIVED: the Smithsonian Libraries item (SIL14-B2-08) was used. Holder record read (library.si.edu/image-gallery/72997): caption 'Photogravure by Photographische Gesellschaft, Berlin, after Paul Nadar', rights 'No Copyright - United States', no date given. The Libraries' copyright page (library.si.edu/copyright) was read: items marked 'No Copyright - United States' carry the CC0 marker and may be used 'in accordance with Smithsonian's terms of use'; the general si.edu terms-of-use page returned a bot-wall (403) and was not bypassed or read, so the 'any use' wording rests on the Libraries' own page (a bot wall, not a rights conflict). The printed sheet carries 'Nadar, Paris phot.' and the caption 'Becquerel', which fixes the sitter; kind likeness (a photograph of him by Nadar, reproduced as a photogravure). Age basis as well: Paul Nadar died in 1939, and the undated gravure shows an older Becquerel, so not later than 1908. Downloaded from the holder's own delivery service (2974 x 4000), cropped to the print panel and downscaled to 729 x 1000 (112 KB). PREFLIGHT: QID VERIFIED LIVE (2026-11-20) Q41269 label 'Antoine Henri Becquerel', description 'French physicist (1852-1908)', born 15 December 1852, died 25 August 1908, human, French. REGION western_europe; ERA 19th_century (precedent Pierre Curie); KOREAN NAME 앙리 베크렐 is the Wikidata label and Korean Wikipedia title (class authoritative-label). ATTRIBUTION: attributable (dated reports to the Academy, a Nobel lecture, a reference biography and a scholarly reading of the notes). CANONICAL SIGNIFICANCE SOURCE: Complete Dictionary of Scientific Biography entry (Romer). READ: DSB (full), Radvanyi and Villain 2017 (full PDF), Nobel biography, presentation speech and Nobel lecture (full), APS News 2008, Scientific American 1901; also skimmed Britannica and a Chemical Engineer article (not cited). Not opened in full: Badash 1996 Physics Today (PDF only; abstract read), Badash 1965 and 1966 papers, Lodge's 1912 memorial lecture (paywalled), Ranc's biography. PERSPECTIVES: reference biography; scholarly historians of the Comptes rendus; award body; his own lecture; popular and contemporary press. NON-SELF BEHAVIOURAL SOURCES: DSB, Radvanyi and Villain, APS News. LIMITS: the behavioural record is almost entirely his 1896-1901 scientific notes as retold by two secondary readings; nothing on his private conduct or teaching is used; why he developed the plates after the cloudy days is stated as unclear. Dating differences (24 February report in DSB; 26-27 February experiments in the historians) are not carded. Family, marriages and his Academy offices are context only. ZERO POLITICS. VOCABULARY: occupations physicist, teacher; field physics; impact domains scientific, historical; tags nobel_laureate, craft_focused; archetypes scientific_explorer, scholarly_specialist. SELF-CALIBRATION: removed one initial row (collaboration, 54 / 0.42, resting on a single institutional-courtesy sentence in the reference biography); lowered experimentation, analytical_rigor and curiosity; belief_updating lowered from 70 / 0.60 to 66 / 0.56 after the concentration check (two secondary readings of one set of notes plus self-report; the slow shedding of the phosphorescence framing). Sparse 4-row profile by design."
+  }
+}

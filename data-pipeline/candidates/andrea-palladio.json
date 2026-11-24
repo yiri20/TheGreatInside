@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "andrea-palladio",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Andrea Palladio",
+    "aliases": [
+      "Palladio",
+      "Andrea di Pietro della Gondola",
+      "Andreas Palladius Vicentinus"
+    ],
+    "wikidataId": "Q177692",
+    "birthYear": 1508,
+    "deathYear": 1580,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "architect",
+      "writer"
+    ],
+    "fieldIds": [
+      "architecture"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "career_changer",
+      "innovator"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_palladio_wikidata",
+      "kind": "wikidata",
+      "title": "Andrea Palladio (Q177692), verified live via the Wikidata API (2026-11-20): English label 'Andrea Palladio', description 'Italian architect (1508-1580)', Korean label 안드레아 팔라디오, instance of human, born 30 November 1508 (other values 1518 and November 1508 also listed), died 19 August 1580, occupations architect and one further occupation. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q177692"
+    },
+    {
+      "id": "src_palladio_dbi",
+      "kind": "biography",
+      "title": "Guido Beltramini, 'Palladio, Andrea', Dizionario Biografico degli Italiani, vol. 80 (Istituto della Enciclopedia Italiana, Treccani, 2014; the Italian entry read in full through an English rendering). CANONICAL SIGNIFICANCE SOURCE: gives his birth in Padua in 1508 (the day, 30 November, rests only on Paolo Gualdo's early life), his stonecutter apprenticeship from 1521 and Vicenza guild entry in 1524, his documented contact from 1538 with the humanist Giangiorgio Trissino, who gave him access to his library (sixteenth-century sources credit Trissino with the name Palladio), the documented Rome stay of about eight months from autumn 1546 to July 1547, the Vicenza council's 1546 order for a wooden model and the start of the Basilica loggias on 1 May 1549 with a monthly salary until his death (rivals named: Serlio, Sanmicheli, Giulio Romano), his 1554 loss of the Scala d'Oro competition at the Doge's Palace to Sansovino and being passed over for a salaried post, the Venetian patrician villas and churches, I quattro libri dell'architettura published in Venice in 1570, his illustrated editions (Antichita 1554, Caesar's Commentari 1575), his joint work with Daniele Barbaro, the local faction fights over the Basilica works in 1560, and family troubles in 1569-1572. Scholarly reference entry; it treats several traditions as unproven (the 'flight' from his first master, the 1541 Rome trip).",
+      "url": "https://www.treccani.it/enciclopedia/andrea-palladio_(Dizionario-Biografico)/"
+    },
+    {
+      "id": "src_palladio_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Andrea Palladio' (biography article; read in full). Says he was apprenticed to a sculptor in Padua and at sixteen moved to Vicenza and joined the stonemasons' guild; that Trissino noticed him working at the Cricoli villa and expanded his experience with a humanist education; that he designed his first villa and first palace around 1540; that he visited Rome (dated 1541 and 1547 here, which the Dizionario Biografico treats as less secure for 1541) and measured ancient Roman buildings, especially the baths; that in 1554 he published a guidebook to Rome's antiquities and in 1556 worked with Daniele Barbaro on the plates of a Vitruvius edition; that the Basilica design was accepted in 1548; that he built three palace types by 1556 and adapted the classical temple front to villas; and that his Four Books became an influential pattern book. General encyclopedia drawing on the same scholarship.",
+      "url": "https://www.britannica.com/biography/Andrea-Palladio"
+    },
+    {
+      "id": "src_palladio_encyclopedia",
+      "kind": "biography",
+      "title": "'Palladio, Andrea', Encyclopedia.com compilation of reference entries (James Stevens Curl, A Dictionary of Architecture and Landscape Architecture, Oxford; and Gale reference-library entries; read in full). Adds the critical side: it says the treatise on architecture was rushed into print and contains contradictions, that some illustrations contradict his stated rules, that Vincenzo Scamozzi later expanded and clarified it, and that his habit of putting porticoes on villas rested on a mistaken belief about Roman houses; also says he co-founded the Accademia Olimpica in Vicenza in 1555 and gives the Teatro Olimpico as completed by Scamozzi after his design. Several entries disagree on dates, so only the points they agree on are used.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/architecture-biographies/andrea-palladio"
+    },
+    {
+      "id": "src_palladio_magrini",
+      "kind": "biography",
+      "title": "Antonio Magrini, 'Memorie intorno la vita e le opere di Andrea Palladio' (Padua, 1845, with 27 of Palladio's own writings; Internet Archive scan, read in part in Italian: the account of his origins, the Basilica financing and a passage on a letter to a colleague). 19th-century local-archive biography that quotes the near-contemporary life by Paolo Gualdo (written 1616 by a Vicentine born in 1553 who knew him) saying Trissino found the young man spirited and strongly inclined to the mathematical sciences and undertook to explain Vitruvius to him; records Vicenza council decisions on the Basilica works (1550 and 1553) and describes a Palladio letter in which he reported that two colleagues had praised another architect's invention, which the author reads as modest. Older, local and admiring, so used for documented acts, not for character judgments.",
+      "url": "https://archive.org/details/memorieintornola00magruoft"
+    },
+    {
+      "id": "src_palladio_quattro",
+      "kind": "archive",
+      "title": "Andrea Palladio, 'Preface to the Reader', I quattro libri dell'architettura (Venice, 1570), as printed in the English edition 'The Architecture of A. Palladio in Four Books', revised by Giacomo Leoni (London, 1715; Internet Archive scan, preface read in full). His own account: inclined to architecture from childhood, took Vitruvius as master and guide, searched out and measured the ruins of ancient buildings part by part on repeated journeys in Italy and beyond, and published his findings and the rules he followed for the good of others. Self-authored, so used for stated method and motive only, never as proof of outcomes.",
+      "url": "https://archive.org/details/architecturePal00Pall"
+    },
+    {
+      "id": "src_palladio_unesco",
+      "kind": "institution",
+      "title": "UNESCO World Heritage Centre, 'City of Vicenza and the Palladian Villas of the Veneto' (listing text; read in full). States that his work in Vicenza and the Veneto, based on study of classical Roman architecture, inspired Palladianism, a movement destined to last three centuries, and describes the villas as showing his constant trying out of variations on the villa type. Institutional praise written for a heritage listing, so used for significance and influence, not as behavioural evidence.",
+      "url": "https://whc.unesco.org/en/list/712"
+    }
+  ],
+  "rows": {
+    "mastery_orientation": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_palladio_dbi, src_palladio_britannica, src_palladio_magrini, src_palladio_quattro | 1538-1556 | scholarly biography entry, encyclopedia, 19th-century biography, his own preface] The Dizionario Biografico documents Trissino's mentorship from 1538 (his library and classical authors) and a Rome stay of about eight months from autumn 1546 to July 1547 studying ruins at Tivoli, Palestrina, Porto and Albano; Britannica adds that he measured ancient Roman buildings, especially the baths, published a guidebook to Rome's antiquities in 1554 and worked on the plates of a Vitruvius edition in 1556; Magrini quotes Gualdo's 1616 life saying Trissino found him spirited and strongly inclined to the mathematical sciences; his own preface says he took Vitruvius as master and measured the ruins on repeated journeys. The study is documented by several compilers of the same scholarship, and the stated motive comes from his preface. CONCENTRATION: the encyclopedia and scholarly entries retell the same scholarship and the motive is his own preface, so lowered from 72 / 0.56 to 68 / 0.54."
+    },
+    "detail_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_palladio_quattro, src_palladio_britannica, src_palladio_dbi, src_palladio_encyclopedia | 1540s-1570 | his own preface, encyclopedia, scholarly entry, reference compilation] His preface says he began to measure 'the minutest part' of the ancient buildings he found, and Britannica says he measured ancient Roman structures in Rome; the Four Books then published his measured designs. Against this the Gale and Oxford entries say the treatise was rushed into print and has internal contradictions, and that some illustrations contradict his stated rules. The measuring is attested mainly by his own account. CONCENTRATION: the measuring is attested mainly by his own preface and one encyclopedia sentence, and reference entries record contradictions in the treatise, so lowered from 66 / 0.50 strong inference to 60 / 0.44 inference."
+    },
+    "persistence": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_palladio_dbi, src_palladio_magrini | 1546-1580 | scholarly biography entry, 19th-century biography] The Dizionario Biografico records that he held the Vicenza Basilica commission from 1546 and drew a salary on it until his death, lost the Scala d'Oro competition and a salaried Venetian post in 1554 yet went on to steady work for Venetian patricians, was the object of a 1560 proposal in the Vicenza council to halt the Basilica works and his pay that was defeated, and continued to work after the deaths of two sons in 1572; Magrini records the council's funding decisions for the loggias. These show a long working career across setbacks, but little on how he responded to any one of them."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_palladio_dbi, src_palladio_britannica, src_palladio_encyclopedia, src_palladio_magrini | 1538-1580 | scholarly biography entry, encyclopedia, reference compilation, 19th-century biography] He worked closely with his patron Trissino and with Daniele Barbaro (the Dizionario Biografico calls Barbaro a major Venetian collaborator; Britannica says they worked together on the Vitruvius plates in 1556), co-founded the Accademia Olimpica in Vicenza (Gale, 1555), and the Teatro Olimpico was completed by his son Silla and Scamozzi after his death; Magrini describes a letter in which he passed on colleagues' praise of another architect's design and notes a rivalry with Salviati that did not end their friendship. How shared work was divided is not described."
+    },
+    "systems_abstraction": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_palladio_quattro, src_palladio_britannica, src_palladio_encyclopedia | 1540-1570 | his own preface, encyclopedia, reference compilation] His preface says he set down the rules he followed in building so others could practise them, and Britannica and the Gale entries say he systematised house plans and the classical orders in the Four Books and based villa and palace types on recurring plans; the same entries record contradictions in the treatise and a mistaken belief behind his temple-front porticoes. The systematising is attested largely by his own statement and summaries of the book. CONCENTRATION: the systematising rests on his own statement and summaries of the book, so lowered from 62 / 0.46 to 58 / 0.42."
+    },
+    "experimentation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_palladio_britannica, src_palladio_unesco, src_palladio_dbi | 1540-1570 | encyclopedia, heritage-listing text, scholarly biography entry] Britannica describes him producing three distinct palace types by 1556 and many variations on the villa plan, with the tripartite colonnaded front as a new feature, and UNESCO's listing text speaks of his constant trying out of variations on the villa type by reworking classical patterns; the Dizionario Biografico lists the range of villa, palace and church commissions. The description of the experimenting is by later writers and a heritage listing, not from his own accounts of his methods. SELF-CALIBRATION: the key phrase comes from a heritage-listing text (institutional praise), so lowered from 62 / 0.46 to 58 / 0.42."
+    },
+    "impact_motivation": {
+      "score": 54,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_palladio_quattro, src_palladio_dbi | 1554-1575 | his own preface, scholarly biography entry] His preface says he published his designs and rules because a person is 'not born for himself only' but for the good of others, so that people could drop barbarous building habits, and the Dizionario Biografico records that he also prepared illustrated editions (Antichita of Rome 1554, Caesar's Commentari 1575) and the Four Books in 1570. The stated aim is his own and the publishing is documented, but publishing was also a way to build his reputation. SELF-CALIBRATION: the motive is a stated aim in his own preface and publishing also served his reputation, so lowered from 58 / 0.42 to 54 / 0.38."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "안드레아 팔라디오"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/andrea-palladio-bernard-picart-1716.jpg",
+    "width": 710,
+    "height": 1000,
+    "source": "Engraving by Bernard Picart, 1716, 'Portrait of Andrea Palladio in half-length within an oval frame', from an unidentified edition of 'Architecture de Palladio' revised by Giacomo Leoni and translated by Nicholas du Bois; Metropolitan Museum of Art, Drawings and Prints, accession 2012.136.59 (Bequest of Phyllis Massar, 2011), open-access image DP829039. The plate is lettered ANDREAS PALLADIVS VICENTINVS, 'Paulus Caliary Veronensis effigiem pinxit' (Paolo Veronese painted the likeness) and 'B. Picart delineavit et sculpsit 1716'. The file is the museum's 2549 x 3591 original downscaled to 710 x 1000; not upscaled.",
+    "license": "Public domain: 1716 engraving by an artist who died in 1733; the Met's open-access record marks the object public domain (CC0) and its rights field is empty",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Bernard Picart (after Paolo Veronese), Portrait of Andrea Palladio, 1716, engraving; The Metropolitan Museum of Art, Bequest of Phyllis Massar, 2011 (2012.136.59), Open Access CC0.",
+    "attributionUrl": "https://www.metmuseum.org/art/collection/search/399194",
+    "creator": "Bernard Picart (engraver and draughtsman), after Paolo Veronese",
+    "date": "1716",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.metmuseum.org/art/collection/search/399194"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / LEAD SURVIVED: the Bernard Picart 1716 engraving at the Metropolitan Museum of Art (accession 2012.136.59, image DP829039) is the shipped image. HOLDER RECORD READ through the Met public collection API (object 399194): title 'Portrait of Andrea Palladio in half-length within an oval frame ... from an unidentified edition of Architecture de Palladio, revised by Giacomo Leoni and translated by Nicholas du Bois', artists Bernard Picart (French, 1673-1733) and 'after Paolo Veronese', constituent role Sitter = Andrea Palladio (Wikidata Q177692), date 1716, engraving, Bequest of Phyllis Massar 2011, isPublicDomain true, rights field empty; Commons and holder agree. INSCRIPTION READ ON THE ORIGINAL SCAN: 'ANDREAS PALLADIVS VICENTINVS' on the plinth, 'Paulus Caliary Veronensis effigiem pinxit' at lower left and 'B. Picart delineavit et sculpsit 1716' at lower right. TERMS: the Met's Open Access policy page and the collection item page returned an HTTP 429 bot challenge and were not bypassed; the Met's own open-access repository README (raw.githubusercontent.com/metmuseum/openaccess) was read: 'unrestricted commercial and noncommercial use', 'without permission or fee', CC0 icon marks covered artworks; conditions only against misrepresentation and trademark use. Age-only path: engraved 1716, engraver died 1733, so public domain in any case. KIND historical_depiction: the sitter's real face is not documented; the plate says it follows a Veronese painting, which is itself unverified (Veronese is not known from these sources to have portrayed him from life) and the print was made 136 years after his death. No authenticated lifetime portrait of Palladio exists. The 2549 x 3591 original was downscaled to 710 x 1000 (not upscaled). The Commons 'woman' depicts tag on the Met-derived file is a Commons data error, not the holder's. KOREAN NAME: 안드레아 팔라디오 is the Wikidata ko label and the Korean Wikipedia article title (authoritative-label); no other Korean usage was checked. REGION southern_europe, ERA early_modern (Vicenza under Venetian rule), nationality IT (precedent: Galileo, Vivaldi). ATTRIBUTION: attributable (documented by civic and notarial records via the Dizionario Biografico; traditions such as the apprenticeship 'flight' and the 1541 Rome trip are treated as unproven and not used). SOURCES READ: Dizionario Biografico (Treccani, read through an English rendering), Britannica (full), Encyclopedia.com compilation (Oxford/Gale, full), UNESCO listing (full), Palladio's preface (full, in the 1715 Leoni English printing), Magrini 1845 (in part, Italian). NOT OPENED: Met essay on Palladio (429), World History Encyclopedia (403), Palladio Museum pages, Gualdo's own text (only as quoted by Magrini), Ackerman and Wittkower, the Teatro Olimpico page (read but not cited: it gives his death at Maser, which conflicts with the other sources). Dates that vary across sources (Rome trips 1541/1547, the Accademia Olimpica 1555/1556, Rotonda dating) are not carded where they disagree. Zero politics, no inherited-title issue. SPARSE BY DESIGN: 7 rows from a documented but thinly personal record (no letters about his temperament survive in the sources read); the independent behavioural families are the Dizionario Biografico, the encyclopedias and Magrini's archive-based account, with his preface as self-report. SELF-CALIBRATION: see handback."
+  }
+}

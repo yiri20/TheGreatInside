@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "charles-sturt",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Charles Sturt",
+    "aliases": [
+      "Charles Napier Sturt",
+      "Captain Sturt"
+    ],
+    "wikidataId": "Q548928",
+    "birthYear": 1795,
+    "deathYear": 1869,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "leader"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sturt_wikidata",
+      "kind": "wikidata",
+      "title": "Charles Sturt (Q548928), verified live via the Wikidata API (2026-11-20): English label 'Charles Sturt', description 'Australian explorer (1795-1869)', Korean label 찰스 스터트, born 1795-04-28, died 1869-06-16, instance of human, citizenship United Kingdom of Great Britain and Ireland and Great Britain. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q548928"
+    },
+    {
+      "id": "src_sturt_dnb",
+      "kind": "biography",
+      "title": "Dictionary of National Biography (1898), 'Sturt, Charles' (Wikisource transcription, read in full). CANONICAL SIGNIFICANCE SOURCE: army service from 1813 and arrival in Sydney in 1827; the 1828-29 expedition that traced the Macquarie, Castlereagh and Bogan and found the Darling; the 1829-30 expedition down the Murrumbidgee and Murray to Lake Alexandrina and the rowing return; the 1838 overlanding of cattle to South Australia and attempts to enter the Murray mouth; his posts in South Australia; the 1844-46 Central Australian expedition (Depot at Rocky Glen, Poole's death from scurvy, Strzelecki and Cooper's Creeks); the Royal Geographical Society medal of 1847; his two published narratives; and the statement that his fellow explorers Eyre and Harris-Browne wrote with enthusiasm of the qualities that let him travel among Aboriginal people without bloodshed. Late-Victorian reference biography, admiring and close to family sources.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Sturt,_Charles"
+    },
+    {
+      "id": "src_sturt_sahub_bio",
+      "kind": "biography",
+      "title": "Valerie Sitters, 'Captain Charles Sturt', SA History Hub, History Trust of South Australia (first published in S.A.'s Greats, Historical Society of South Australia, 2001; read in full): born in Bengal 1795, schooled in England, ensigncy in the 39th Regiment in 1813; appointed military secretary to Governor Darling; the 1828-29 and 1829-30 expeditions and the 1833 book Two Expeditions; retirement from the army in 1834 on grounds of ill health; the 1838 overlanding of stock to Adelaide and the Surveyor-General and later colonial posts; the 1844 search for the inland sea, which found Cooper's Creek but ended in return through scurvy and failing eyesight; his sympathy for Aboriginal people; the 1847 Royal Geographical Society medal; the remark that his temperament did not suit politics. Short encyclopaedic entry citing Beale's critical biography 'Sturt: The Chipped Idol'.",
+      "url": "https://sahistoryhub.history.sa.gov.au/people/captain-charles-sturt/"
+    },
+    {
+      "id": "src_sturt_sahub_memorial",
+      "kind": "institution",
+      "title": "Jude Elton, 'Captain Charles Sturt Memorial', SA History Hub, History Trust of South Australia (read in full): the dates of the expeditions, the 1844 party of 15 men with six drays, a boat and 200 sheep leaving Adelaide on 10 August 1844, the stranding at Depot Glen from 27 January to 16 July 1845 during which James Poole died of scurvy, the party being turned back by dunes less than 200 km from the centre, his return to Adelaide on 19 January 1846, his proposal of a major expedition and wish to be first to reach the centre, and the 1916 unveiling of the statue with a governor's tribute. Museum-service page; commemorative tone.",
+      "url": "https://sahistoryhub.history.sa.gov.au/things/captain-charles-sturt-memorial/"
+    },
+    {
+      "id": "src_sturt_ausmus",
+      "kind": "institution",
+      "title": "The Australian Museum, 'Charles Sturt' (Trailblazers: Australia's 50 Greatest Explorers exhibition, 2015; read in full): he traced the Macquarie, Bogan and Castlereagh rivers, discovered the Darling and followed the Murray to Lake Alexandrina; with failing health, little food and an exhausted crew he turned the whaleboat around and rowed 1,448 km upstream; the idea of an inland sea still haunted him and in August 1844 he left Adelaide with 15 men; the party was trapped by drought between the Barrier and Grey ranges; he at last reluctantly gave up the inland sea after a 725 km journey into the Sturt Stony Desert and Simpson Desert; respected and liked by his men; and the claim that no Aboriginal person was harmed in his explorations. Exhibition biography; admiring.",
+      "url": "https://australian.museum/about/history/exhibitions/trailblazers/charles-sturt/"
+    },
+    {
+      "id": "src_sturt_explorersweb",
+      "kind": "press",
+      "title": "Andrew Marshall, 'Great Explorers: Charles Sturt', ExplorersWeb, 10 December 2024 (read in full): his petition for his own expedition after arriving in 1827, the first and second expeditions, his handling of encounters with Aboriginal groups by parley, his concern for his men, the party's return without loss of life after about 2,900 km of rowing, loss of eyesight, the 1844 expedition in which the surgeon took over command because of Sturt's condition, his later applications for governorships and a knighthood, and a quotation from the Australian Dictionary of Biography that his capacity for arousing affection made him a family man but a failure in public life. Popular exploration website; summarises older biographies and contains a few loose details.",
+      "url": "https://explorersweb.com/great-explorers-charles-sturt/"
+    },
+    {
+      "id": "src_sturt_corner",
+      "kind": "institution",
+      "title": "Corner Country regional tourism association, 'Charles Sturt's Central Australian Expedition: A summary' (8-page PDF, read in full; a day-by-day retelling of the 1844-46 expedition drawing on Sturt's published narrative and quoting it): the Aboriginal guides arranged by Eyre, accepting Poole's and Browne's advice that no route lay west, the Depot underground room, Poole's illness and death in mid-July 1845, the seepage holes Sturt dug in Strzelecki Creek for the return, the decision to turn back on 7 September 1845 at the Simpson Desert, the later forays to Cooper Creek, and the retreat in December 1845 with Sturt carried on a cot while Browne planned the water carrying. Regional heritage summary; closely follows Sturt's own account, so it is not independent of it.",
+      "url": "https://visitcornercountry.com.au/wp-content/uploads/2022/10/Charles-Sturts-Central-Australian-Expedition-A-Summary.pdf"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sturt_ausmus, src_sturt_sahub_memorial, src_sturt_dnb, src_sturt_corner, src_sturt_explorersweb | 1830-1846 | museum exhibition page, museum-service page, reference biography, regional heritage summary, popular website] In 1830 he turned the whaleboat round and rowed about 1,448 km upstream with failing health and little food; in 1844-46 he stayed about six months trapped by drought at Depot Glen (27 January to 16 July 1845) while Poole sickened and died, then made repeated forays north (turning back at the Simpson Desert on 7 September 1845, setting out again on 9 October for Cooper Creek, and following it further) before the party came home about 19 months after leaving. Two separate expeditions with repeated forays support a strong inference. SELF-CALIBRATION (agent): lowered from 80 / 0.66 to 76 / 0.60 because nearly every account rests on Sturt's own published narratives and the 1844 forays also served a stubborn inland-sea belief, so the same record that shows endurance also shows a cost."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sturt_dnb, src_sturt_ausmus, src_sturt_corner, src_sturt_sahub_memorial | 1830-1845 | reference biography, museum exhibition page, regional heritage summary, museum-service page] He took an open whaleboat down an unmapped river to the sea in 1830, made 'daring attempts' to enter the Murray mouth in a whaleboat in 1838 (reference biography), and set out in 1844 into drought country (the reference biography notes his orders were delayed until dangerously late in a drought year), with the loss of Poole and scurvy among the officers. He also turned back when conditions were clearly lethal (February 1845, September 1845), so the pattern is bold but not reckless. SELF-CALIBRATION (agent): lowered from 70 / 0.54 to 64 / 0.50 because the 1838 boat attempts rest on a single reference biography and the drought timing was set by official delay, not clearly his own choice."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sturt_dnb, src_sturt_corner, src_sturt_ausmus, src_sturt_explorersweb | 1830-1845 | reference biography, regional heritage summary, museum exhibition page, popular website] The reference biography says he and Macleay shared every peril and toiled at the oar; the 1844 summary shows him accepting Poole's and Browne's advice that no route lay west and planning a cot-wagon to send Poole home; museum and web accounts say he was liked by the men under him and showed concern for them. SELF-CALIBRATION (agent): lowered from 66 / 0.52 strong inference to 62 / 0.46 inference because the character statements come from admiring summaries and from colleagues quoted in the reference biography, with few independent behavioural cases."
+    },
+    "planning_orientation": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sturt_dnb, src_sturt_corner, src_sturt_ausmus | 1844-1845 | reference biography, regional heritage summary, museum exhibition page] The reference biography credits his taking sheep with the party as an 'invaluable' precaution; the 1844 summary records that he dug seepage holes in Strzelecki Creek's bed on the outward journey, which later saved the party, and had a stockade and stock yard built before riding out. The outfit of drays, a boat and 200 sheep is documented, but the boat reflected his inland-sea hope rather than prudence. SELF-CALIBRATION (agent): lowered from 62 / 0.50 strong inference to 58 / 0.44 inference because the sheep precaution comes from one reference biography and the seepage-hole detail from a summary that follows his own narrative."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sturt_explorersweb, src_sturt_dnb, src_sturt_sahub_memorial, src_sturt_sahub_bio | 1828-1844 | popular website, reference biography, museum-service page, encyclopaedic entry] After arriving in 1827 he petitioned for his own expedition (popular website); in 1838 he overlanded stock to South Australia and added exploration of the Hume and the Murray mouth on the way (reference biography, encyclopaedic entry); and in January 1843 he volunteered to explore the centre of the continent and later proposed the major 1844 expedition (reference biography, museum-service page). SELF-CALIBRATION (agent): lowered from 66 / 0.54 to 62 / 0.50 because the 1828 petition rests on one popular article and the later initiatives overlap with his own wish for the fame of reaching the centre."
+    },
+    "achievement_drive": {
+      "score": 54,
+      "confidence": 0.36,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sturt_sahub_memorial, src_sturt_explorersweb, src_sturt_sahub_bio | 1843-1852 | museum-service page, popular website, encyclopaedic entry] The museum-service page says he wanted to be the first European to reach the centre; the popular article says he applied for governorships of Victoria and Queensland and for a knighthood; the encyclopaedic entry notes he kept seeking postings in Australia after leaving. These are modest, partly retrospective signals of ambition. SELF-CALIBRATION (agent): lowered from 58 / 0.42 to 54 / 0.36 because the wish to be first is a single museum-page sentence and the applications come from one popular summary of older biographies."
+    },
+    "belief_updating": {
+      "score": 44,
+      "confidence": 0.34,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sturt_ausmus, src_sturt_corner, src_sturt_explorersweb | 1830-1845 | museum exhibition page, regional heritage summary, popular website] After the 1830 expedition found no inland sea, the idea still 'haunted' him and led to the 1844 expedition; in the summary he is quoted saying that the look of the scrub from Stokes Range convinced him an inland sea was near; he gave it up only after the Simpson Desert in September 1845, 'with a feeling of bitter disappointment' and, per the museum page, reluctantly. This is consistent with a tendency to hold a favoured hypothesis for a long time, but the inland sea was a widely held belief in the colony and the evidence is a few retrospective sentences. SELF-CALIBRATION (agent): confidence lowered from 0.38 to 0.34 (score kept at 44) because the reading depends on interpretive words in summaries; no raise proposed."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "찰스 스터트"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/charles-sturt-john-michael-crossland-undated.jpg",
+    "width": 760,
+    "height": 1126,
+    "source": "Glass-plate negative GN00084 'Charles Sturt portrait' by the State Government Photographer (catalogued 1900) in the History Trust of South Australia's South Australian Government Photographic Collection ('South Australia Through the Lens'), showing a printed reproduction of John Michael Crossland's portrait of Sturt lettered with his facsimile signature 'Charles Sturt', 'Aetat suae circa 54' and 'From a painting by Crossland' (imprint partly legible: London, published by Smith, Elder and Co., 15 Waterloo Place, with a printer's imprint that appears to read Walker and Boutall). The file is a crop of the holder's own display image (2000 x 2667, greyscale) to the printed portrait and caption, with the glass-plate border, handwritten negative labels and publisher line removed, downscaled to 760 x 1126 with no upscaling.",
+    "license": "Public domain: the History Trust item record states copyright (image) 'out of copyright', licence 'Public Domain' and shows the CC0 'No rights reserved' notice; independently, the underlying painter John Michael Crossland died in 1858 and the printed reproduction existed by 1900, before 1931",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Photograph of a printed reproduction of J. M. Crossland's portrait of Charles Sturt, State Government Photographer (negative GN00084, catalogued 1900), History Trust of South Australia, public domain / CC0.",
+    "attributionUrl": "https://collections.history.sa.gov.au/nodes/view/24772",
+    "creator": "John Michael Crossland (painter, d. 1858; per the print's caption); reproduction photographed by the State Government Photographer",
+    "date": "painting undated (caption 'circa 54' suggests about 1849; holder says probably the 1850s); negative catalogued 1900",
+    "kind": "likeness",
+    "sourcePageUrl": "https://collections.history.sa.gov.au/nodes/view/24772"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B, downgraded from strong) / lead SURVIVED, with the holder record now read: the History Trust of South Australia item record (collections.history.sa.gov.au/nodes/view/24772, served normally this session although Stage B recorded it as bot-walled) states Copyright (Image) 'out of copyright', License 'Public Domain', CC0 'No rights reserved'; its copyright page says licences are listed per item and that only 'all rights reserved' items need permission; the generic footer 'contact History Trust before any reuse if you are unsure' does not restrict this item. The shipped image was taken from the holder's own display image (not the Commons upload host, which returned HTTP 429). WHAT THE IMAGE IS: not the Crossland oil itself but a 1900-catalogued glass negative of a printed reproduction of Crossland's portrait (third-hand: painting, printed plate, photograph). The printed plate carries Sturt's facsimile signature and the lines 'Aetat suae circa 54' and 'From a painting by Crossland', so sitter identity rests on printed lettering as well as the holder title; the holder text says the series dates from the 1850s whereas the caption implies about 1849, a minor discrepancy that does not affect identity. The Stage B concern that sibling item GN04409 is catalogued as an unidentified man is moot: that item was not used. The NPG London record (painting NPG 3302 and its replica), Art UK and Art Gallery of South Australia pages were bot-walled or not found this session and were not relied on; the AGSA painting is not used because the Flinders cycle found AGSA reuse restrictions. KIND likeness (authentic lifetime portrait by a painter who knew the sitter, reproduced), with the caveat that it is a reproduction. QID VERIFIED LIVE (2026-11-20, Wikidata API) Q548928, English label 'Charles Sturt', description 'Australian explorer (1795-1869)', ko label 찰스 스터트, born 1795-04-28, died 1869-06-16, instance of human. REGION western_europe (Mawson, Flinders and Wilkins precedent for Australia). ERA 19th_century. NATIONALITY GB (Wikidata citizenship Great Britain / United Kingdom; born in India to a British family). KO NAME: 찰스 스터트 is the Wikidata Korean label (no Korean Wikipedia article exists; Wikidata alias 찰스 네이피어 스터트); flagged for lead review. ATTRIBUTION: attributable for his journeys (his own narratives plus later accounts agree on dates and outcomes), but the behavioural detail mostly traces back to his own published narratives and a few colleagues' recollections, so rows are capped. READ (6 sources besides Wikidata): DNB 1898 (Wikisource), SA History Hub person entry, SA History Hub memorial page, Australian Museum Trailblazers page, ExplorersWeb article, Corner Country 1844 summary PDF. NOT OPENED: the Australian Dictionary of Biography and Britannica entries (behind a bot check, not bypassed), SA Memory pages (expired certificate), Project Gutenberg (maintenance), Beale's 1979 biography 'The Chipped Idol' and Sturt's own narratives. No adversarial source was read; the critical framing is the ADB's 'born loser' remark in public life (quoted by ExplorersWeb) and Beale's title, both second-hand. SPARSE PROFILE: seven rows; no extreme scores. Zero politics: his colonial administrative posts are context only and unscored. Aboriginal relations are summarised by admiring sources (no one harmed) and no independent Aboriginal or critical source was read, so no trait row rests on that claim. HANDBACK69: see TGI-r69-scratch handback file (7 of 7 rows lowered, 0 raised)."
+  }
+}

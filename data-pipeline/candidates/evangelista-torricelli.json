@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "evangelista-torricelli",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Evangelista Torricelli",
+    "aliases": [
+      "Torricelli"
+    ],
+    "wikidataId": "Q102490",
+    "birthYear": 1608,
+    "deathYear": 1647,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "mathematician",
+      "physicist",
+      "inventor"
+    ],
+    "fieldIds": [
+      "mathematics",
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific",
+      "historical"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_torricelli_wikidata",
+      "kind": "wikidata",
+      "title": "Evangelista Torricelli (Q102490), verified live via the Wikidata API (2026-11-20): English label 'Evangelista Torricelli', description 'Italian physicist and mathematician (1608-1647)', Korean label 에반젤리스타 토리첼리 (Korean alias 토리첼리), born 15 October 1608, died 25 October 1647, a human, citizen of the Grand Duchy of Tuscany; Korean Wikipedia title 에반젤리스타 토리첼리. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q102490"
+    },
+    {
+      "id": "src_torricelli_dsb",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry 'Torricelli, Evangelista' by Mario Gliozzi (Gale, reproduced on Encyclopedia.com and by the MacTutor archive; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: his early training with Benedetto Castelli, the 1641 move to Galileo's house at Arcetri and his appointment as grand-ducal mathematician after Galileo's death; the 1644 Opera geometrica (his only work printed in his lifetime), with the method of indivisibles, curved indivisibles, the infinitely long hyperbolic solid of finite volume, the cycloid area, the study of projectile motion and the efflux theorem; the mercury-tube experiment and his two June 1644 letters to Michelangelo Ricci on atmospheric pressure; his telescope lenses; his Accademia lectures; and the priority quarrels with Roberval. States that he first mistrusted Cavalieri's method, that his barometric work 'above all' carries his name, and that the engraved portrait by Pietro Anichini is reproduced on the frontispiece of the Lezioni accademiche. Reference-work biography; admiring but notes priority disputes.",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Torricelli.pdf"
+    },
+    {
+      "id": "src_torricelli_dbi",
+      "kind": "biography",
+      "title": "Federica Favino, 'Torricelli, Evangelista', Dizionario Biografico degli Italiani, vol. 96 (Istituto dell'Enciclopedia Italiana, 2019; open PDF, read in Italian). Independent recent reference biography: his Roman and Faenza schooling, six years in Castelli's circle, nine years as secretary to Monsignor Ciampoli, the 1641 invitation to Arcetri, the post of grand-ducal mathematician (not philosopher), the Accademia lectures, the 1644 Opera geometrica, the mercury experiment repeated in Florence with Viviani from the end of 1643, his lens making and the grand duke's order of silence about the method, the 1645 Val di Chiana dispute with Famiano Michelini, the 1646 Roberval dispute and his unfinished plan to publish the French correspondence, and his avoidance of public statements on the vacuum and the world system, possibly from fear of Church sanctions. Notes that sources differ on his birthplace (Rome here, Faenza in the DSB), which is not carded.",
+      "url": "https://doi.org/10.7393/DBIOL-178"
+    },
+    {
+      "id": "src_torricelli_mactutor",
+      "kind": "institution",
+      "title": "J. J. O'Connor and E. F. Robertson, 'Evangelista Torricelli', MacTutor History of Mathematics archive, University of St Andrews (read in full). Popular-scholarly biography drawing largely on the DSB: his 1632 letter to Galileo, his shift towards less controversial mathematics after Galileo's 1633 trial, the Opera geometrica results, the 11 June 1644 letter to Ricci (quoted in translation), the cycloid dispute with Roberval and the death in 1647 with unpublished manuscripts. Not independent of the DSB; used for the quoted letter and as a cross-check.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Torricelli.html"
+    },
+    {
+      "id": "src_torricelli_roberval",
+      "kind": "biography",
+      "title": "Complete Dictionary of Scientific Biography entry on Gilles Personne de Roberval (Gale, reproduced by the MacTutor archive; read, with the parts on the cycloid and on Torricelli). COUNTER-VOICE from the other side of the priority quarrel: says Roberval appears to have squared the cycloid before the end of 1636 and solved the solid of revolution about its axis between 1644 and 1645, and that his claim of having rectified the cycloid before 1640, which would deprive Torricelli of being first, has no objective proof yet; shows Roberval wrote to Torricelli in 1647. Used only to qualify priority claims for Torricelli.",
+      "url": "https://mathshistory.st-andrews.ac.uk/DSB/Roberval.pdf"
+    },
+    {
+      "id": "src_torricelli_lindahall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'Evangelista Torricelli', Scientist of the Day, Linda Hall Library (read). Short library-history note: he studied with Castelli, spent about three months with Galileo and succeeded him as mathematician to the Medici court; in 1644 he reported in a letter to a friend that a column of mercury is held up at about 30 inches, which he attributed to the weight of the atmosphere; notes that he cared more about what supports the mercury and what lies above it than about weather changes, so the apparatus is called a Torricellian tube; and that the 1715 Lezioni accademiche is the source of the library's portrait of him. Popular summary, not independent of the standard biographies.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/evangelista-torricelli"
+    }
+  ],
+  "rows": {
+    "analytical_rigor": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_torricelli_dsb, src_torricelli_dbi, src_torricelli_mactutor | 1641-1646 | reference biographies, university history page] After first mistrusting Cavalieri's indivisibles, he used them in the Opera geometrica as a way of discovering results and then proved each by the classical Greek method of exhaustion (the DSB and the Italian national biography agree; MacTutor adds that this was so readers unfamiliar with the new method would be convinced). The DSB adds that his manuscripts collect paradoxes to which indivisibles lead when used carelessly, and that in a letter of 28 June 1644 he answered Ricci's three objections to his account of atmospheric pressure one by one. MacTutor depends on the DSB, so there are two independent reference accounts. SELF-CALIBRATION (agent): lowered from 76 / 0.62 to 72 / 0.58 because the paradoxes and the Ricci replies come from one biography and the method is mostly known through his published text as summarised by two reference works."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_torricelli_dsb, src_torricelli_dbi, src_torricelli_lindahall | 1641-1644 | reference biographies, library note] To test why suction pumps stop lifting water, he used progressively heavier liquids (sea water, honey, mercury), shortened the tube, and from the end of 1643 repeated the mercury experiment in Florence for about six months with Vincenzo Viviani (Italian national biography); the DSB adds tubes blown into a bulb at the top, which showed that the supporting force was not a force of vacuum, and attempts to see whether small animals lived or sound travelled in the vacuum. The DSB also documents lens-making refinements from 1642 that by 1643 equalled Fontana's. The DSB and MacTutor say Viviani was the first to perform the experiment, so credit was shared. SELF-CALIBRATION (agent): lowered from 76 / 0.62 to 70 / 0.56 because the account is dominated by one biography, MacTutor and the library note derive from it, and the key experiment was done with Viviani."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_torricelli_dsb, src_torricelli_mactutor, src_torricelli_dbi | 1641-1647 | reference biography, university history page, reference biography] The DSB and MacTutor say he began by mistrusting Cavalieri's method and, once convinced, adopted and extended it; the DSB says that in 1644 he rejected his teacher Galileo's 'force of vacuum' explanation of the pump limit and read the mercury experiment as a matter of the weight of the air, as Baliani had argued. Against this, the Italian national biography shows that when Roberval and Descartes questioned Galileo's laws of motion in 1646-47 he held to the laws and broke off the discussion without a conclusive reply. The two changes of view come from one reference family, and the second may be borrowing another's idea. SELF-CALIBRATION (agent): lowered from 64 / 0.52 strong inference to 58 / 0.44 inference because the first fact is single-source and the second is the adoption of Baliani's view."
+    },
+    "conflict_tolerance": {
+      "score": 54,
+      "confidence": 0.40,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_torricelli_dbi, src_torricelli_dsb, src_torricelli_roberval | 1645-1647 | reference biographies] The Italian national biography records that in 1645 he gave the Grand Duke an opinion against the Val di Chiana drainage plan backed by Famiano Michelini, followed by a heated exchange of printed memorials, and that in 1646 Roberval accused him of plagiarism over the cycloid, after which he rejected the charge, ended the exchange on Galileo's laws and began drafting an account of the French correspondence to defend his rights (also in the DSB). Roberval's DSB entry shows the other side's earlier claims, with no objective proof for part of them. The same national biography says he avoided public statements on the vacuum and the world system, possibly from fear of Church sanctions, so his readiness to enter disputes was selective. SELF-CALIBRATION (agent): lowered from 58 / 0.46 to 54 / 0.40 because the disputes are summarised by one biographer and the mixed record does not show a clear lean."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_torricelli_dsb, src_torricelli_dbi | 1641-1647 | reference biographies] The two reference biographies independently list work in pure geometry, ballistics (firing tables and the envelope parabola), hydrodynamics (the efflux theorem), the mercury experiment, meteorology (a lecture proposing that winds arise from differences in air temperature), grinding of telescope and microscope lenses, advice on the drainage of the Val di Chiana, and comedies written for the Accademia dei Percossi (lost). All of it lies within the mathematical-physical programme of Galileo's school and the instrument work was done at court, so the range is real but moderate. SELF-CALIBRATION (agent): lowered from 68 / 0.56 to 64 / 0.52 because most of the range is within one programme and some items (comedies, lectures) are only mentioned."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "에반젤리스타 토리첼리"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/evangelista-torricelli-anichini-after-1647.jpg",
+    "width": 852,
+    "height": 1000,
+    "source": "Line engraving of Evangelista Torricelli in an oval frame with the legend 'En virescit Galilaeus alter. Anagr. Evangelista Torricellius Serenissimi M. Ducis Herruriae Mathem.cus & Philos.us Obijt Anno Dom. MDCXLVII Aet. XL' and a signature ending 'Anichinius f.'; Wellcome Collection, work fgrk8gye (reference 9219i, image V0005861), catalogued 'Evangelista Torricelli. Line engraving by P. Anichini', dated 1640-1649, contributor 'Anichini, Pietro, 1610-1645'. The file is a crop of the oval portrait from the holder's 2439 x 3264 pixel IIIF image, downscaled from 1780 x 2089 to 852 x 1000 with no upscaling. The legend records his death in 1647, so the plate was cut after October 1647 (or the legend added to an earlier plate), which sits uneasily with the catalogued engraver dates; the same engraved portrait is described in the DSB as reproduced on the frontispiece of the 1715 Lezioni accademiche.",
+    "license": "Public Domain Mark (Wellcome Collection item record: 'You can use this work for any purpose without restriction under copyright law'); also public domain by age, a printed engraving of the seventeenth century",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Line engraving signed Anichinius (catalogued as Pietro Anichini), after 1647; Wellcome Collection, London (9219i), Public Domain Mark",
+    "attributionUrl": "https://wellcomecollection.org/works/fgrk8gye",
+    "creator": "Anichini (signature 'Anichinius f.'; catalogued as Pietro Anichini, 1610-1645)",
+    "date": "after October 1647 (legend records his death; Wellcome catalogues 1640-1649)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://wellcomecollection.org/works/fgrk8gye"
+  },
+  "provenance": {
+    "createdAt": "2026-11-20T00:00:00Z",
+    "updatedAt": "2026-11-20T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / lead SURVIVED with an upgrade of the sitter check and a downgrade of the kind: the Wellcome Collection engraving (work fgrk8gye, image V0005861) was used. Holder record read through the Wellcome catalogue API and the work page: 'Evangelista Torricelli. Line engraving by P. Anichini', date 1640-1649, contributor 'Anichini, Pietro, 1610-1645', Burgess 1973 no. 2956.2, Public Domain Mark, full-size download offered. Wellcome's collections page was read (digitised items carry item-level licences; this one is PDM). SITTER: unlike Stage B (which found no inscription) the plate itself carries a legend naming 'Evangelista Torricellius', grand-ducal mathematician and philosopher, 'En virescit Galilaeus alter' (an anagram of his name), and 'Obijt Anno Dom. MDCXLVII Aet. XL'; the DSB independently says the Anichini engraved portrait is reproduced on the frontispiece of the Lezioni accademiche, and the Linda Hall note shows a portrait from that book. DATE CONFLICT: the legend records his death (October 1647), so the plate postdates it, but Wellcome gives the engraver as Pietro Anichini, 1610-1645, and dates the print 1640-1649; the signature on the plate reads '...us Anichinius f.' and I could not settle the engraver's first name or dates (the Italian national catalogue record found in search was unreachable from this environment). KIND historical_depiction: a posthumous engraving, probably after a lifetime portrait, not a documented sitting; this downgrades the lead's 'likeness' label. Rights are clean on every route: item-level PDM and a 17th-century print. PREFLIGHT: QID VERIFIED LIVE (2026-11-20) Q102490 label 'Evangelista Torricelli', description 'Italian physicist and mathematician (1608-1647)', born 15 October 1608, died 25 October 1647, human, citizen of the Grand Duchy of Tuscany. REGION southern_europe and ERA early_modern (precedent Galileo Galilei). KOREAN NAME 에반젤리스타 토리첼리 is the Wikidata label and Korean Wikipedia title (class authoritative-label); the short form 토리첼리 is a Wikidata alias. ATTRIBUTION: attributable (letters, printed works, dated experiments, lectures, court appointments). CANONICAL SIGNIFICANCE SOURCE: Complete Dictionary of Scientific Biography entry (Gliozzi). READ: DSB (full), Dizionario Biografico degli Italiani (full text, Italian), MacTutor, Linda Hall note, the Roberval DSB entry (cycloid parts), Wellcome record. Britannica and Museo Galileo pages were skimmed and are not cited; the Italian national catalogue (ICCD) record, Toscano's biography, the Opere and Mancosu and Vailati 1991 were not opened. PERSPECTIVES: the standard history-of-science reference (DSB), a recent Italian national biography, a university history page that follows the DSB, a library note, and the rival's reference entry. NON-SELF BEHAVIOURAL SOURCES: DSB, Dizionario Biografico, Roberval DSB. LIMITS: his own letters (to Galileo in 1632, to Ricci in 1644) reach us only through these accounts; the birthplace is disputed (Faenza in the DSB, Rome in the Dizionario) and not carded; the cycloid priority (Roberval before 1636) is contested so no first-discoverer claim is carded; who performed the first mercury experiment (Torricelli's design, Viviani's execution or both) differs by source. Family, finances and health are not used. ZERO POLITICS: the Church's censorship of Galileo is context only. VOCABULARY: occupations mathematician, physicist, inventor; fields mathematics, physics; impact domains scientific, historical; tags cross_disciplinary, systematic_thinker; archetype scientific_explorer. SELF-CALIBRATION: removed one initial row (independent_thinking 64 / 0.50: his novel results are mathematical, the vacuum explanation was adopted from Baliani and the lectures report Galileo's ideas); lowered all five kept rows. Sparse 5-row profile by design."
+  }
+}

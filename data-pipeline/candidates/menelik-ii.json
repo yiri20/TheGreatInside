@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "menelik-ii",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Menelik II",
+    "aliases": [
+      "Menilek II",
+      "Menelek II",
+      "Sahle Mariam",
+      "Sahle Maryam"
+    ],
+    "wikidataId": "Q244748",
+    "birthYear": 1844,
+    "deathYear": 1913,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "ET"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "political_leader",
+      "military_leader",
+      "statesman"
+    ],
+    "fieldIds": [
+      "politics",
+      "military",
+      "diplomacy"
+    ],
+    "impactDomains": [
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "leader",
+      "strategist",
+      "conqueror"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_menelik_wikidata",
+      "kind": "wikidata",
+      "title": "Menilek II (Q244748), verified live via the Wikidata API (2026-11-23): English label 'Menilek II', description 'Emperor of Ethiopia and King of Shewa (1844-1913)', instance of human, born 1844-08-17, died 1913-12-12, Korean label 메넬리크 2세. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q244748"
+    },
+    {
+      "id": "src_menelik_ewb",
+      "kind": "biography",
+      "title": "'Menelik II', Encyclopedia of World Biography (Gale; reproduced on Encyclopedia.com; read in full). CANONICAL SIGNIFICANCE SOURCE: preserved Ethiopian independence by defeating a major Italian expedition at Adwa on 1 March 1896 and strengthened the kingdom through expansion and political and economic modernization. Covers his years at the court of Tewodros II, his escape to Shewa in 1865, his neutrality during the British expedition of 1868 (called a strategic blunder by his biographer Harold Marcus), his turn to European arms and technology, the expansion into the south and the emirate of Harar, the 1887 secret arrangement with Italy, his coronation on 3 November 1889, the Treaty of Wichale and its disputed Article XVII, the mobilization of 1895, the later reforms (cabinet in 1907, currency, bank, railway, telegraph, schools, state press) and his stroke-ridden last years. Reference-work biography drawing on Marcus; admiring in tone but names the failure of succession and the plunder of the conquered regions.",
+      "url": "https://encyclopedia.com/people/history/african-history-biographies/menelik-ii"
+    },
+    {
+      "id": "src_menelik_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Ethiopia: Emergence of modern Ethiopia (1855-1916)', sections on Yohannes IV and Menilek II (read). Independent reference account of the same period: the incorporation of Harer in January 1887 while Yohannes faced Italy; the Italian and Amharic texts of Article XVII of the Treaty of Wichale; his diplomatic attempts, then the 1891-93 expeditions south and east for gold, ivory, musk, coffee, hides and slaves to trade for weapons; the move into Tigray in December 1895 after two good harvests; the battle of Adwa; the Treaty of Addis Ababa on 26 October 1896; expansion to roughly the present borders by 1906 and the use of the revenues for the capital, schools, hospitals, communications and the Djibouti railway. Short encyclopaedia text.",
+      "url": "https://www.britannica.com/place/Ethiopia/Emergence-of-modern-Ethiopia-1855-1916"
+    },
+    {
+      "id": "src_menelik_gleichen",
+      "kind": "biography",
+      "title": "Count Gleichen, With the Mission to Menelik, 1897 (Edward Arnold, London, 1898; Internet Archive scan, chapters on the reception, the dinner at court and 'Manners, Customs and Character' read). CONTEMPORARY EYEWITNESS: a British officer of the 1897 Rodd mission describes Menelik rising at 3 a.m., attending chapel, then working through letters and the reports of his secretaries, supervising 'every detail' of government, being accessible to petitioners, asking questions about medical discoveries such as antivenin, receiving a microscope with great interest and laughing at the suggestion that an X-ray apparatus might be taken for magic. A guest's admiring colonial-era account, with the author's own prejudices about the rest of the Ethiopian population; used only for what was observed at court in 1897.",
+      "url": "https://archive.org/details/india.history.resource.88513"
+    },
+    {
+      "id": "src_menelik_pankhurst_capital",
+      "kind": "press",
+      "title": "Richard Pankhurst, 'Menilek and the Founding of Addis Ababa' (Innovation and Change series, Together We Learn Ethiopia; read in full). Dates the move from the old Shewan capital to Entoto in 1881 and the move of Queen Taytu and the court to the plain below, named Addis Ababa, in 1886; describes the tithe for the army in 1892, the first national currency and first postage stamps in 1894, the railway concession granted to Alfred Ilg in 1894, its delays, bankruptcy and second concession in 1906, and the first telephone and telegraph lines. Credits the 'child-like interest in innovations of all kinds' of the Emperor and the ability of Ilg. Historian's popular series on the history of technology; sympathetic to the modernizers.",
+      "url": "https://twlethiopia.org/?p=1625"
+    },
+    {
+      "id": "src_menelik_pankhurst_railway",
+      "kind": "press",
+      "title": "Richard Pankhurst, 'Menilek, the Building of Bridges, Roads, and the Railway' (Innovation and Change series, Together We Learn Ethiopia; read in full). The Awash bridge built by Ilg in 1886 after Menelik tested toy models with his fist (the story comes from Ilg, who may have exaggerated the opposition), the first modern roads, and the Djibouti railway: granted in March 1894, Menelik reportedly having second thoughts, Empress Taytu and Ras Makonnen worried, British reports of nobles opposed, trains reaching the capital only in 1917 thanks to 'perseverance and determination'. Historian's popular series; mixes court chronicler and foreign observers.",
+      "url": "https://twlethiopia.org/article/12-menilek-the-building-of-bridges-roads-and-the-railway/"
+    },
+    {
+      "id": "src_menelik_bahru",
+      "kind": "institution",
+      "title": "Bahru Zewde, 'Adwa: A Milestone in the Creation of Modern Ethiopia', review essay on Raymond Jonas, The Battle of Adwa (Africa Review of Books, CODESRIA, September 2013; read in full). INDEPENDENT SPECIALIST VOICE: an Ethiopian historian corrects Jonas on the Wichale treaty (the Italian encroachment against Article III led to the mobilization of September 1895), calls Menilek 'almost incredulously patient', names Alfred Ilg and Taytu as supports, stresses that resources from the expansion of the preceding two decades and not the Walayta campaign made the victory possible, credits intelligence from the double agent Basha Aw'alom, and notes the mutilation of Italian soldiers (Menilek reportedly told his men 'Bring me the man, not his testicles') and of Eritrean askaris. Scholarly review; critical of the book it discusses.",
+      "url": "https://journals.codesria.org/index.php/arb/article/download/4865/5165"
+    },
+    {
+      "id": "src_menelik_ayele",
+      "kind": "institution",
+      "title": "Ayele Tariku, 'The Annole Monument and Negus Menelik's Expedition towards Arsi: A Bibliographic Essay' (Bahir Dar University, Ethiopian Journal of Social Sciences; read). COUNTER-VOICE: summarises the scholarly dispute over the southern expeditions, with the 'reunification' view (the south was reincorporated) set against the 'colonial' view (Oromia was independent and was conquered), notes that Arsi was incorporated after the battle of Azule in 1886, and records that accounts of mass mutilation at Annole in 1887 and of killing and enslavement are contested by the reunification scholars. The essay explicitly declines to endorse either side. Scholarly article on historiography, not a biography.",
+      "url": "https://journals.bdu.edu.et/index.php/ejss/article/download/91/165?inline=1"
+    },
+    {
+      "id": "src_menelik_history",
+      "kind": "press",
+      "title": "Jesse Greenspan, 'How Ethiopia Beat Back Colonizers in the Battle of Adwa', HISTORY.com (2022, updated 2025; read in full, with comments from Haile Larebo and Raymond Jonas). Popular account of the mobilization of 80,000 to 120,000 men in September 1895, the five-month march of nearly 600 miles led by Menelik with Taytu, the Amba Alage and Mekele actions (Taytu's strategy of cutting off the water supply), the victory on 1 March 1896 and the treatment of Italian prisoners; also records the allegation, stated without a source, that in his rise Menelik had mutilated rivals, branded slaves and destroyed mosques. Journalism built on Jonas; used for the campaign narrative only.",
+      "url": "https://www.history.com/news/battle-adwa-ethiopia-africa-colonization"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_menelik_gleichen, src_menelik_pankhurst_capital, src_menelik_pankhurst_railway, src_menelik_ewb | 1886-1911 | contemporary eyewitness, historian's series, reference biography] Three distinct families describe the same interest in new knowledge and machines: a British officer of the 1897 mission saw him question the physician about antivenin, take a microscope with great interest and ask for an X-ray apparatus; Pankhurst, drawing on court and foreign records, writes of his 'child-like interest in innovations of all kinds' and has him test a bridge by striking toy models with his fist; the reference biography adds personal interest in photography, medicine and mechanical devices. The bridge story comes from Ilg and may be embellished. SELF-CALIBRATION (agent): lowered from 74 / 0.62 to 72 / 0.60 because the court observations are admiring and brief."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_menelik_ewb, src_menelik_britannica, src_menelik_bahru | 1868-1896 | reference biography, reference article, scholarly review] After the failure to join the Europeans against Tewodros II in 1868, which his biographer calls a strategic blunder, he turned to Italian and French arms and European technology, accepted nominal submission to Yohannes IV in 1878 while acting as an independent ruler, and after Adwa settled for recognition of independence rather than driving Italy from Eritrea. The Gale account follows Marcus and the Britannica text partly overlaps it. CONCENTRATION (agent): lowered from 68 / 0.55 to 66 / 0.52 because the learning-from-a-blunder narrative rests on Marcus alone."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_menelik_britannica, src_menelik_ewb | 1887-1896 | reference article, reference biography] Britannica says he used the moment in January 1887, with Yohannes facing the Italians, to take Harar, while Italy was trying to buy his cooperation with rifles; the Gale account describes a secret 1887 arrangement trading neutrality for weapons; after Adwa he used European ideas of effective occupation to secure territory from neighbouring colonies. The two reference works differ on whether he stayed faithful to Yohannes. SELF-CALIBRATION (agent): lowered from 70 / 0.54 to 66 / 0.50 because the sources describe outcomes of diplomacy and not his own reasoning, and the two accounts of 1887 do not agree."
+    },
+    "planning_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_menelik_britannica, src_menelik_pankhurst_capital, src_menelik_bahru, src_menelik_history | 1892-1896 | reference article, historian's series, scholarly review, popular history] He sent expeditions in 1891-93 to gather goods to trade for weapons, introduced a tithe in 1892 to support the army instead of looting by soldiers, waited until two good harvests had filled the granaries before marching into Tigray, issued the mobilization edict of September 1895 and covered the approach with intelligence from a double agent. Taytu's role in the water strategy is shared credit. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 66 / 0.50 because Adwa is a victory story that invites outcome bias, and several of the sources retell the same campaign."
+    },
+    "leadership_drive": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_menelik_ewb, src_menelik_britannica, src_menelik_history, src_menelik_gleichen, src_menelik_bahru | 1865-1909 | reference biography, reference article, popular history, contemporary eyewitness, scholarly review] He fled the court of Tewodros II in 1865 to take the Shewan crown, proclaimed himself emperor after 1868 though he could not enforce it, became emperor in 1889, raised an army of roughly 100,000 from most regions in 1895, replaced hereditary provincial rulers with appointed officials, supervised government in person (a 1897 visitor describes the daily routine) and only created a cabinet in 1907 when his health failed. Centralization and the southern campaigns carried real costs for the people conquered, hence dual-edged. SELF-CALIBRATION (agent): top-risk row; lowered from 76 / 0.62 to 74 / 0.58 because fame and the Adwa victory could be inflating a trait that the sources describe mostly through outcomes."
+    },
+    "persistence": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_menelik_ewb, src_menelik_pankhurst_railway, src_menelik_history | 1865-1917 | reference biography, historian's series, popular history] He built his power in Shewa over about twenty-four years before becoming emperor, kept the railway concession alive through second thoughts, the bankruptcy of the first company and a second concession in 1906 (Pankhurst credits his 'perseverance and determination'), and led the five-month march to Adwa. The railway reached the capital only in 1917, after his death, and credit is shared with Ilg and the French financiers."
+    },
+    "resourcefulness": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_menelik_britannica, src_menelik_ewb, src_menelik_pankhurst_capital | 1880s-1890s | reference article, reference biography, historian's series] Britannica and the Gale account both say the southern and eastern expeditions produced gold, ivory, coffee, hides and slaves traded for modern weapons and tribute; Pankhurst records the new tithe and the national currency of 1894. The two reference works describe one pattern of expansion, so independence is limited, and the revenue came partly from conquest and the slave trade, hence dual-edged. CONCENTRATION (agent): lowered from 66 / 0.50 strong inference to 62 / 0.48 inference because the two reference works tell one story."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_menelik_pankhurst_capital, src_menelik_pankhurst_railway, src_menelik_ewb, src_menelik_britannica | 1881-1911 | historian's series, reference biography, reference article] He moved his base to Entoto in 1881, supported the new settlement that became Addis Ababa, granted the railway concession in 1894, issued a national currency and stamps in 1894, and presided over the telegraph and telephone lines, the Bank of Abyssinia, schools and a state press by 1911. Several of these were driven in large part by Taytu, Ilg and foreign advisers, and Pankhurst is a sympathetic historian. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 66 / 0.52 because credit for the initiatives is shared."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_menelik_bahru, src_menelik_pankhurst_capital, src_menelik_gleichen | 1886-1897 | scholarly review, historian's series, contemporary eyewitness] He worked closely with the Swiss engineer Alfred Ilg (called his dependable barometer of European pressures), relied on Empress Taytu and on Ras Makonnen as his foreign-affairs man, and a visitor in 1897 describes him as accessible to petitioners. The sources describe the partnerships but not how he worked within them; Taytu and Makonnen are also reported as opposing the railway."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_menelik_ewb, src_menelik_britannica | 1865-1906 | reference biography, reference article] He declared himself emperor after the fall of Tewodros II before he could enforce the claim, was blocked and renounced it under pressure in 1878, and, once Yohannes had died, took the imperial crown within months and extended the empire to roughly its present borders by 1906. The ambition is inferred from these actions; no source quotes his own account of his goals. CONCENTRATION (agent): lowered from 66 / 0.46 to 62 / 0.44 because both sources follow the same Marcus-based narrative."
+    },
+    "detail_orientation": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_menelik_gleichen, src_menelik_ewb | 1897-1909 | contemporary eyewitness, reference biography] A visitor in 1897 says he 'supervises every detail of government, no matter being too small', and the Gale account says he increasingly took a direct hand in administration. These describe hands-on rule rather than precision in work. CONCENTRATION (agent): lowered from 60 / 0.42 to 56 / 0.40 because the specific claim rests on one guest's account."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메넬리크 2세"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/menelik-ii-anonymous-c1891.jpg",
+    "width": 806,
+    "height": 1000,
+    "source": "Halftone (zincogravure) plate captioned 'Sa Majeste Menelik II, Roi des Rois d'Ethiopie', facing page 48 of a Paris photography annual (Annuaire general et international de la photographie), photograph by an anonymous photographer, plate by Berg et Chevalier, paper stamped Grosvenor, Chater et Co, Paris; object RP-F-2001-7-1453-8 in the Rijksmuseum, Amsterdam (purchased 2001). The file is the oval portrait cropped from the Rijksmuseum's own image service (6688 x 5132 pixel scan of the 112 x 85 mm print) and downscaled to 806 x 1000 with no upscaling.",
+    "license": "Public domain: the Rijksmuseum object record states 'Copyright: Public domain' with a link to the Public Domain Mark 1.0, its open-data policy (3.7.1) provides such material under PDM or CC0, and the Rijksmuseum scan is also on Wikimedia Commons under CC0; the photographer is anonymous and the plate dates from about 1891 and in or before 1896.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Anonymous photographer; zincogravure plate by Berg et Chevalier, Paris, c. 1891 to 1896; Rijksmuseum, Amsterdam, RP-F-2001-7-1453-8 (public domain; cropped and downscaled).",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-F-2001-7-1453-8",
+    "creator": "Anonymous photographer; plate by Berg et Chevalier (Paris)",
+    "date": "c. 1891, in or before 1896",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-F-2001-7-1453-8"
+  },
+  "provenance": {
+    "createdAt": "2026-11-23T00:00:00Z",
+    "updatedAt": "2026-11-23T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B), lead survived. Holder record (Rijksmuseum object page RP-F-2001-7-1453-8, opened) and the Rijksmuseum information and data policy (read) agree with Commons: public domain, PDM, CC0 on Commons; the printed caption on the plate names the sitter; the 'Reproduction interdite' line is the original 1890s printer's text, not a current rights claim. Caveats: anonymous photographer, halftone reproduction inside a book page so only a modest-resolution crop exists, and the image came from the holder's IIIF service because upload.wikimedia.org returned HTTP 429. KIND likeness: a photograph of the sitter reproduced in halftone. ATTRIBUTION: attributable (extensive records of his reign; none of the scored claims depends on legend). IDENTITY: QID Q244748 verified live; Korean label and Korean Wikipedia title 메넬리크 2세. REGION sub_saharan_africa (Ethiopian precedent Haile Selassie, Abebe Bikila). CONTROLLED CONTEXT: the southern campaigns, the slave trade and mutilation allegations are contested in the scholarship; they are reflected as dual-edged impact, not scored as traits, and no violence claim is repeated without attribution. SOURCES READ (8 besides Wikidata): Gale biography, Britannica Ethiopia history, Gleichen 1898 (relevant chapters), Pankhurst x2, Bahru Zewde review, Ayele Tariku essay, HISTORY.com. Not opened: Marcus's Life and Times of Menelik II, Jonas's book, Prouty on Taytu, Wikipedia. CAVEATS: no independent adversarial biography found; the strongest critical voices are the Oromo-history essay and Bahru Zewde's review. NON-SELF BEHAVIOURAL SOURCES: all; there is no memoir by Menelik. Sparse profile (11 rows, average confidence about 0.5) is deliberate and is not expected to meet the match-eligibility floor."
+  }
+}
