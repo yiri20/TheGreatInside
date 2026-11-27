@@ -33,7 +33,7 @@ and portrait 200; Mboya, E. W. Roebling, Visvesvaraya and Fanny Mendelssohn 404 
 ## Backlog-first pool
 
 * Exclusion set exported before brainstorming: 870 production people plus 209 non-production candidate files (5837 name keys). The QID set
-  was completed from the Roster69 export because 43 production records carry no QID in `SEED_PEOPLE` (16 of them older records with no
+  was completed from the Roster69 export because 43 production records carry no QID in `SEED_PEOPLE` (17 of them older records with no
   candidate file at all; name keys cover those).
 * **221 names brainstormed; 114 were already in production** and were stopped by the early filter (the obvious non-Western names are by now
   largely shipped). 101 clean new names resolved to human Wikidata items (non-humans, unresolved and QID duplicates dropped).
