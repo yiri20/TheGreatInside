@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "austen-henry-layard",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Austen Henry Layard",
+    "aliases": [
+      "Sir Austen Henry Layard",
+      "A. H. Layard"
+    ],
+    "wikidataId": "Q275013",
+    "birthYear": 1817,
+    "deathYear": 1894,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "diplomat"
+    ],
+    "fieldIds": [
+      "exploration",
+      "diplomacy"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_layard_wikidata",
+      "kind": "wikidata",
+      "title": "Austen Henry Layard (Q275013), verified live via the Wikidata API (2026-11-24): English label 'Austen Henry Layard', English description 'British politician (1817-1894)', human, born 5 March 1817, died 5 July 1894, citizenship United Kingdom of Great Britain and Ireland and France, occupations include archaeologist, diplomat and politician; no Korean label. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q275013"
+    },
+    {
+      "id": "src_layard_dnb",
+      "kind": "biography",
+      "title": "Leonard William King, 'Layard, Austen Henry', Dictionary of National Biography, 1901 supplement, vol. 3 (Wikisource transcription, read in full). CANONICAL SIGNIFICANCE SOURCE: excavator of Nimrud and Nineveh; left a London solicitor's office and set out overland for Ceylon in 1839, stayed on in Persia and travelled in Bakhtiyari dress alone or with one servant; in 1842 Stratford Canning, the British ambassador at Constantinople, gave him a stipend and funds and obtained the Turkish firman for the dig at Nimrud (from October 1845); the reliefs were sawn in half and floated down the Tigris; trustees of the British Museum took over the work from November 1846; second campaign 1849-51 at Kuyunjik and Nebi Yunus; Nineveh and its Remains (1848-49) and Nineveh and Babylon (1853). Written by a British Museum Assyriologist, mostly from Layard's own autobiographical fragments and Canning's biography, but openly critical: Layard made a greater reputation as an excavator than as a politician, wrongly identified Nimrud with Nineveh, took no part in decipherment, lacked the true archaeologist's feeling (an Athenaeum obituary is quoted for his giving friends neatly cut tablets), and later became a National Gallery trustee and art authority. His later parliamentary and ambassadorial career is recorded here but is not scored.",
+      "url": "https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1901_supplement/Layard,_Austen_Henry"
+    },
+    {
+      "id": "src_layard_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Sir Austen Henry Layard' (read, short reference article): left a London law office in 1839 for a journey through Anatolia and Syria; in 1842 employed by Canning on unofficial diplomatic missions; excavated Nimrud (mistaken for Nineveh) 1845-51 and then the mound opposite Mosul, finding Sennacherib's palace and large numbers of cuneiform tablets from the state archives; Discoveries in the Ruins of Nineveh and Babylon (1853). Used only for consistent dates and facts.",
+      "url": "https://www.britannica.com/biography/Austen-Henry-Layard"
+    },
+    {
+      "id": "src_layard_iranica",
+      "kind": "biography",
+      "title": "John Curtis, 'Layard, Austen Henry', Encyclopaedia Iranica (published 15 August 2009, read in full). Scholarly reference entry on his Persian years: he stayed in Iran from August 1840 to May 1842 with only two short visits to Baghdad, living with Bakhtiari families and on good terms with their Chahar Lang chief; investigated Rawlinson's suggestion of two cities named Susa and argued convincingly that the ruins at Susan were not Susa; recorded and copied the cuneiform inscription on Elamite and Parthian rock reliefs at Kul-i Farah, Shikaft-i Salman, Shah Savar, Hong-e Nowruzi and Tang-e Botan (the author notes his own memoir claims he was the first European to visit them); also notes that his description of the Shah Savar relief is misleading and that he wrongly assigned many ruins to the Sasanian period. Independent specialist assessment, though the travel facts come largely from Layard's own memoir.",
+      "url": "https://www.iranicaonline.org/articles/layard-austen-henry/"
+    },
+    {
+      "id": "src_layard_oracc",
+      "kind": "institution",
+      "title": "Eleanor Robson, 'Imperial splendour: views of Kalhu in 1850', Nimrud: Materialities of Assyrian Knowledge Production (the Nimrud Project at Oracc, University of Pennsylvania, AHRC-funded, 2019; page read in full, with the project's glossary entry on Layard). Scholarly history of the excavations: Layard was not an archaeologist as the term is now understood, followed the antiquarian practice of tunnelling for portable sculptures, had 'initiative and ambition' and wanted to make a name for himself, saw Nimrud as part of biblical Nineveh, used no camera despite Fox Talbot's request and relied on artists' sketches, wrote 'often self-aggrandising narratives' that sold widely, and regarded Botta as his closest inspiration and rival. Independent historiographic, critical voice.",
+      "url": "https://oracc.museum.upenn.edu/nimrud/modernnimrud/onthemound/1850/index.html"
+    },
+    {
+      "id": "src_layard_brusius",
+      "kind": "institution",
+      "title": "Mirjam Brusius, 'Misfit Objects: Layard's Excavations in Ancient Mesopotamia and the Biblical Imagination in mid-nineteenth Century Britain', Journal of Literature and Science 5 (2012), pp. 38-52 (open-access PDF, read through its conclusion). Scholarly article built on the British Museum trustees' minutes: Layard's reports to the trustees were vague about what he selected; he admitted he was 'not accustomed to the copying of cuneiform inscriptions'; he told the trustees in 1848 that he feared to stop digging because the French consul would take over, and in 1853 urged removal of the Lachish slabs because the agents of another power were near; Rawlinson, not Layard, was the one expected to read the inscriptions, and took over the British excavations when Layard turned to politics in 1853. Independent, institutional-archive-based voice.",
+      "url": "http://www.literatureandscience.org/issues/JLS_5_1/JLS_vol_5_no_1_Brusius.pdf"
+    },
+    {
+      "id": "src_layard_mickel",
+      "kind": "press",
+      "title": "Lehigh University press release carried by Phys.org, 'Better labor practices could improve archaeological output' (22 April 2019, 7-page PDF read in full), reporting Allison Mickel, 'Essential Excavation Experts: Alienation and Agency in the History of Archaeological Labor', Archaeologies 2019 (the journal article itself was not opened). Secondary report of a scholarly reading of Layard's memoirs: his hiring and management of local workers resembled Belzoni's, including low wages; his memoirs suggest he saw the excavation as signifying the superiority of Western civilisation; yet his workmen appear as trusted experts whom he rehired season after season, and one of them, Hormuzd Rassam, went on to lead British Museum excavations of his own. Critical secondary voice; rests on Layard's own memoirs.",
+      "url": "https://phys.org/news/2019-04-labor-archaeological-output.html"
+    }
+  ],
+  "rows": {
+    "curiosity": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_layard_dnb, src_layard_iranica | 1839-1845 | reference biography, scholarly reference entry] He left a London law office for an overland journey in 1839, stayed in Persia until 1842 to investigate Rawlinson's question of the two Susas (arguing the Susan ruins were not Susa), recorded and copied inscriptions on Elamite and Parthian rock reliefs, and in 1842 examined Botta's trenches at Mosul. SELF-CALIBRATION (agent): lowered from 68 / 0.56 to 66 / 0.52 because the Persian itinerary and the 'first European' claim trace to his own memoir, which both sources draw on."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_layard_dnb, src_layard_iranica, src_layard_britannica | 1839-1851 | reference biography, scholarly reference entry, reference article] He abandoned the planned journey to Ceylon, lived among Bakhtiari families, dressed as they did and travelled alone or with one servant, then moved from solicitor's clerk to unofficial diplomatic missions for Canning and on to field excavation. The dress and living details come from his own memoir via the sources; the sequence of changes of role is independently confirmed. SELF-CALIBRATION (agent): lowered from 70 / 0.58 to 66 / 0.52 for memoir concentration."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_layard_dnb, src_layard_iranica | 1840-1842 | reference biography, scholarly reference entry] He travelled in tribal territory of Khuzistan and Luristan for nearly two years, often alone or with one servant, and left law without secure employment. The sources record the circumstances but not how he weighed the dangers, and the account is largely his own. SELF-CALIBRATION (agent): lowered from 62 / 0.46 to 58 / 0.42."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_layard_dnb, src_layard_oracc, src_layard_iranica | 1839-1845 | reference biography, scholarly history, scholarly reference entry] He left the law office to travel in 1839, described to Canning the mounds he had examined with Botta, after which Canning obtained the firman and paid for the first dig, and went to Mosul in October 1845; Robson describes a young man with initiative and ambition making a name. The DNB gives Canning, the patron, the decision to fund the dig, so the credit is shared. SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 70 / 0.54 for shared credit."
+    },
+    "opportunity_sensing": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_layard_dnb, src_layard_oracc | 1842-1845 | reference biography, scholarly history] He used his Mosul visit with Botta and his Persian knowledge to win Canning's employment in 1842, and Canning then backed the Nimrud dig. The patron made the decisive move and Robson's 'good contacts' is a characterisation rather than an episode. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 62 / 0.46 for shared credit and thin episodes."
+    },
+    "resourcefulness": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_layard_dnb, src_layard_mickel, src_layard_oracc | 1845-1851 | reference biography, press report of scholarship, scholarly history] He had the bas-reliefs sawn in half to lighten them and floated them down the Tigris to Basra, worked on Canning's stipend and funds before the British Museum took over, and repeatedly rehired the same experienced workmen (one of them Rassam). The shipping details rest on the DNB alone and the labour account on a secondary report of his memoirs. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 64 / 0.50 for source concentration."
+    },
+    "competitiveness": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_layard_brusius, src_layard_oracc | 1848-1853 | scholarly archive-based article, scholarly history] Trustees' minutes record his 1848 fear of stopping because the French consul would carry on and his 1853 urging that the Lachish slabs be removed because another power's agents were near; Robson calls Botta his closest inspiration and rival. The minutes are one scholar's reading of one archive, and rivalry over sites was a national and institutional contest rather than only a personal one. SELF-CALIBRATION (agent): lowered from 64 / 0.52 strong_inference to 60 / 0.48 inference for single-archive concentration."
+    },
+    "detail_orientation": {
+      "score": 40,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "[src_layard_dnb, src_layard_oracc, src_layard_brusius, src_layard_iranica | 1845-1894 | reference biography, scholarly history, archive-based article, scholarly reference entry] The DNB quotes an obituary on his giving friends neatly cut tablets, Robson notes he tunnelled for sculptures and used no camera despite a request, Brusius that his reports to the trustees were vague and he admitted he could not copy cuneiform, and Iranica that one relief description is misleading; against this, Robson and others treat his methods as typical of the 1840s, and he published drawings of the reliefs. SELF-CALIBRATION (agent): lowered confidence from 0.50 to 0.46 and evidenceType from strong_inference to inference because one anecdote and period norms limit how far this is personal rather than era-wide."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_layard_mickel, src_layard_dnb, src_layard_brusius | 1842-1853 | press report of scholarship, reference biography, archive-based article] He relied on Canning's patronage, on Rawlinson for the inscriptions, on Samuel Birch's help with the book and on Rassam and rehired Mosul workmen in the field; a critical reading of his memoirs also finds low wages and a hierarchical, imperial framing. Cooperation is documented but unevenly; the labour reading is secondary. SELF-CALIBRATION (agent): lowered from 60 / 0.48 to 58 / 0.44 and from strong_inference to inference."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_layard_oracc, src_layard_dnb | 1845-1853 | scholarly history, reference biography] Robson characterises him as a young man wanting to make a name, and the DNB records the books and honours that followed (Oxford honorary doctorate 1848, freedom of the City of London 1853). Characterisation plus outcomes rather than a described episode of striving. SELF-CALIBRATION (agent): lowered from 66 / 0.48 to 62 / 0.42."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_layard_dnb, src_layard_iranica, src_layard_britannica | 1834-1894 | reference biography, scholarly reference entry, reference article] Law clerk, traveller and geographical reporter, excavator, diplomat, and later National Gallery trustee who revised Kugler's Handbook of Painting; the DNB says art was always a subject of close study. The range is of careers more than of depth in each, and the DNB doubts his archaeological feeling."
+    },
+    "aesthetic_sensitivity": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_layard_dnb | 1866-1894 | reference biography] The DNB says he was an authority on art with a deep interest in Italian art, a National Gallery trustee from 1866, and revised Kugler's handbook; the same source says he lacked the archaeologist's feeling for antiquities. Single-source. SELF-CALIBRATION (agent): lowered from 60 / 0.42 to 56 / 0.38."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오스틴 헨리 레이어드"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/austen-henry-layard-lock-whitfield-1871-1876.jpg",
+    "width": 747,
+    "height": 1000,
+    "source": "Woodburytype photograph of Austen Henry Layard by Lock & Whitfield (named on the print), printed on a page of Men of Mark: A Gallery of Contemporary Portraits and captioned 'The Right Hon. Austen Henry Layard'; Rijksmuseum, Amsterdam, object RP-F-2001-7-235.B-16 (record read at id.rijksmuseum.nl/200648643). The file is the oval photograph cropped from the Rijksmuseum's 7318 x 4602 open-access scan of the book opening and downscaled to 747 x 1000 with no upscaling.",
+    "license": "Public Domain Mark per the Rijksmuseum item record (collection data CC0 1.0); photograph made c. 1871 to before 1876 by a commercial London studio, so also out of copyright by age; Rijksmuseum data policy allows free reuse of items marked Public Domain, including commercially, without permission",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Lock & Whitfield, photograph of Austen Henry Layard (Woodburytype, c. 1871 to before 1876), from Men of Mark; Rijksmuseum, Amsterdam, RP-F-2001-7-235.B-16 (public domain; credit requested, not required). Cropped from the page scan.",
+    "attributionUrl": "https://id.rijksmuseum.nl/200648643",
+    "creator": "Lock & Whitfield (London photographic studio)",
+    "date": "c. 1871 - in or before 1876",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/nl/collectie/object/RP-F-2001-7-235B-16--d48424f8867472eada4994bb8eea5d50"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / lead SURVIVED: Rijksmuseum RP-F-2001-7-235.B-16, Woodburytype by Lock & Whitfield from Men of Mark, Public Domain Mark on the item record (id.rijksmuseum.nl/200648643, read) and CC0 linked data; the Rijksmuseum data policy (data.rijksmuseum.nl/policy, read) allows free reuse of items marked Public Domain without permission; sitter confirmed by the printed caption 'The Right Hon. Austen Henry Layard' on the page and the facing letterpress biography (Ambassador at Constantinople) in the 7318 x 4602 scan. Oval photograph cropped from the book-opening scan and downscaled to 747 x 1000 (no upscaling); the oval mount ornament is visible at the edges. KIND likeness (lifetime studio photograph, c. 1871 to before 1876, when he was about 54 to 59). Avoided the NPG Maull & Polyblank photograph (NPG says Copyrighted). IDENTITY: QID Q275013 verified live 2026-11-24 (human; Wikidata English description is 'British politician', but his significance rests on the Mesopotamian excavations). Region western_europe, era 19th_century, nationality GB (born in Paris, English family of Huguenot descent; Wikidata also lists France). ZERO POLITICS: his later parliamentary, under-secretary and ambassadorial career (DNB) is context only and unscored; no row rests on policy or party. KO NAME: no Korean Wikipedia article or Wikidata Korean label found; 오스틴 헨리 레이어드 is a standard transliteration (class transliteration), flagged for lead review. READ (6 sources besides Wikidata): DNB 1901 by L. W. King (full); Britannica (full); Encyclopaedia Iranica by John Curtis (full); Robson on the Oracc Nimrud Project (page and glossary); Brusius JLS 2012 (through the conclusion); Lehigh press release on Mickel 2019 (full; the journal article itself not opened). Not opened: Layard's own books, Waterfield's biography, Larsen's Conquest of Assyria, ODNB, the Met essay (429) and the Robson Museum History Journal article (403). CAVEATS: most behavioural facts about the Persian years trace to Layard's own memoir (DNB, Iranica, Mickel all draw on it), so rows were lowered for memoir concentration; Oxford and Cloudflare walls were not bypassed. Layard misidentified Nimrud as Nineveh and took no part in decipherment (DNB, Brusius), stated in the cards. Sparse 12-row profile; no padding. MAJOR ACHIEVEMENT GATE passed on all six checks. SELF-CALIBRATION: 11 of 12 rows touched, none raised."
+  }
+}

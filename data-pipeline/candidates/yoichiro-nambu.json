@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yoichiro-nambu",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yoichiro Nambu",
+    "aliases": [
+      "Nambu Yoichiro",
+      "南部陽一郎",
+      "Yōichirō Nambu"
+    ],
+    "wikidataId": "Q188120",
+    "birthYear": 1921,
+    "deathYear": 2015,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "JP",
+      "US"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "physics"
+    ],
+    "impactDomains": [
+      "scientific"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "theorist",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_nambu_wikidata",
+      "kind": "wikidata",
+      "title": "Yoichiro Nambu (Q188120), verified live via the Wikidata API (2026-11-24): English label 'Yoichiro Nambu', description 'American theoretical physicist (1921-2015)', instance of human, born 1921-01-18, died 2015-07-05, citizenship United States and Japan, Korean label 난부 요이치로. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q188120"
+    },
+    {
+      "id": "src_nambu_nobel_adv",
+      "kind": "award_body",
+      "title": "Royal Swedish Academy of Sciences, 'Broken Symmetries', Advanced information for the 2008 Nobel Prize in Physics (read in full for the sections on superconductivity, spontaneous symmetry breaking in particle physics and the 1965 colour paper). CANONICAL SIGNIFICANCE SOURCE: Nambu, wanting to understand the new BCS theory of superconductivity in field-theory terms, needed about two years to show that gauge invariance survives in a non-linear form and that the vacuum can break a symmetry; in 1960 he made 'the really bold assumption' that this could also happen in the quantum field theory of elementary particles, with the pion as the signature of broken chiral symmetry (four years before quarks); Goldstone's 1961 calculation, the Nambu-Goldstone boson, and the Higgs, Brout and Englert gauge case followed; in 1965 with Han he proposed an SU(3) gauge theory with a new quantum number later called colour, though with the wrong electric charges; his programme with Jona-Lasinio remains a working low-energy tool. Award-body science-history text; careful about priority and about what was wrong.",
+      "url": "https://www.nobelprize.org/prizes/physics/2008/advanced-information/"
+    },
+    {
+      "id": "src_nambu_nobel_bio",
+      "kind": "award_body",
+      "title": "Yoichiro Nambu, 'Biographical', Nobel Prize in Physics 2008, NobelPrize.org (written by Nambu himself for Les Prix Nobel; read in full). Self-account: born in Tokyo and raised in Fukui; physics at Tokyo Imperial University 1940-42; wartime army radar laboratory; professor at the new Osaka City University; Institute for Advanced Study 1952-54; Chicago from 1954, with the department chair and honorary titles; United States citizen from 1970; says his work on spontaneous symmetry breaking, started around 1959, 'is a result of my experience in both condensed matter and particle physics' and that BCS theory led him to the idea; credits Tomonaga's recommendation and Goldberger for the moves. Self-report, used only for dates and his own account.",
+      "url": "https://www.nobelprize.org/prizes/physics/2008/nambu/biographical/"
+    },
+    {
+      "id": "src_nambu_pt_obit",
+      "kind": "press",
+      "title": "Peter G. O. Freund, Jeffrey Harvey, Emil Martinec and Pierre Ramond, 'Yoichiro Nambu', Physics Today, October 2015 (obituary, read in full). Colleague-written: names spontaneous symmetry breaking, colour gauging and string theory as his three seminal contributions; says he worked out the electron's anomalous magnetic moment alone in postwar Japan, only to find it unpublishable after Schwinger's result reached him through Time magazine; that the Bethe-Salpeter equation and associated production of strange particles appeared in his papers before others' names became attached; that he predicted the omega meson in 1957; the 1969 string result obtained independently of Nielsen and Susskind; his 'deep and creative curiosity', a form of intuition that was hard to trace, and a habit of never saying no outright, which caused 'funny situations' while he chaired the Chicago department. Close colleagues, admiring; their remarks also appear in the University of Chicago pieces, so they are one source family.",
+      "url": "https://physicstoday.aip.org/obituaries/yoichiro-nambu"
+    },
+    {
+      "id": "src_nambu_uchicago_news",
+      "kind": "institution",
+      "title": "Steve Koppes, 'Yoichiro Nambu, Nobel-winning theoretical physicist, 1921-2015', University of Chicago News, 17 July 2015 (read in full). Institutional obituary: Chicago colleagues Freund, Kolb, Martinec and Harvey on the three contributions and his modesty; the superconductivity work that took two years before he and Jona-Lasinio applied it to particle physics; the 1965 forerunner of quantum chromodynamics with Han; strings; Freund's account (given to the Chicago Tribune in 2008) that at the Institute for Advanced Study he found the courage to introduce himself to Einstein; Nambu's own remark that he stayed at Chicago because 'everybody treated everybody else as members of a big family'. Institution's own obituary, admiring.",
+      "url": "https://news.uchicago.edu/story/yoichiro-nambu-nobel-winning-theoretical-physicist-1921-2015"
+    },
+    {
+      "id": "src_nambu_inquiry",
+      "kind": "institution",
+      "title": "Maureen Searcy, 'A fleeting force of physics', University of Chicago Magazine (Inquiry), Fall 2015 (read in full). A collection of dated remarks gathered from other outlets: Harvey (New York Times) that he did not cheerlead for himself for the Nobel Prize; Cronin and Higgs on how much of the Standard Model rests on his work; Mukerjee (a thesis student) on his patient reading of an amateur's relativity paper because Einstein had once read Bose's unsolicited paper; Gell-Mann quoted by Turner (Nature) saying Nambu and Han put most of the colour picture together 'while the rest of us were floundering'; Carroll on the reluctance to say no as department chair; Zumino on needing ten years to understand him. Institutional collection of tributes, uniformly admiring; the remarks are second-hand quotations.",
+      "url": "https://mag.uchicago.edu/science-medicine/fleeting-force-physics"
+    },
+    {
+      "id": "src_nambu_willemsen",
+      "kind": "press",
+      "title": "Jorge Willemsen, 'Obituary of Yoichiro Nambu', Physics Today online, 5 August 2015 (read in full). A former graduate student's account of how Nambu supervised: he assigned no problem and had no agenda for his students, expecting them to formulate their own problem and promising help with it; and, when asked to lobby a laboratory director for a postdoctoral post, answered that he had written his letter and would do no more. Single student's recollection; its personal passages about family are not used.",
+      "url": "https://physicstoday.aip.org/obituaries/obituary-of-yoichiro-nambu"
+    },
+    {
+      "id": "src_nambu_physworld",
+      "kind": "press",
+      "title": "Hamish Johnston, 'Physicist who brought symmetry breaking to particle physics dies at 94', Physics World, 17 July 2015 (read in full). News obituary: his half of the 2008 prize was for applying spontaneous symmetry breaking to particle physics in 1960; Higgs's earlier statement that it was Nambu who showed how fermion masses arise in analogy with the energy gap in a superconductor; Wilczek calling the work an act of imagination far ahead of its time. Outside voices from beyond Chicago, but quoted briefly.",
+      "url": "https://physicsworld.com/a/physicist-who-brought-symmetry-breaking-to-particle-physics-dies-at-94/"
+    },
+    {
+      "id": "src_nambu_franklin",
+      "kind": "award_body",
+      "title": "The Franklin Institute, laureate record for Yoichiro Nambu, Benjamin Franklin Medal in Physics 2005 (read in full). Citation for contributions leading to the Standard Model, broken symmetry, quark colour and early string theory; confirms the 2005 Franklin Institute award at which the portrait was taken. Award-body copy, used only to confirm the ceremony and the medal.",
+      "url": "https://www.fi.edu/laureates/yoichiro-nambu"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nambu_nobel_adv, src_nambu_physworld, src_nambu_pt_obit, src_nambu_inquiry | 1957-1970 | award-body text, news obituary, colleague obituary, tribute collection] The Nobel committee describes his 1960 move of spontaneous symmetry breaking from superconductors to the field theory of elementary particles as a really bold assumption and traces the Higgs, Brout and Englert work to it; Higgs and Wilczek, outside Chicago, credit the idea; colleagues add the 1965 colour proposal with Han and the 1969 string result, obtained independently of Nielsen and Susskind. The committee also notes Goldstone's parallel calculation in 1961 and that the colour paper's charges were wrong. SELF-CALIBRATION (agent): top-risk row; lowered from 84 / 0.70 to 82 / 0.66 because the strongest praise comes from one Chicago circle and the work was partly paralleled by others. LEAD CORRECTION (Roster70, RUBRIC_CORRECTION): lowered from 82/0.66/documented to 76/0.60/strong_inference because the row rests mainly on award-body and obituary praise for a priority claim shared with Goldstone; behaviour of originating the idea is evidenced but not independently adjudicated."
+    },
+    "intuitive_synthesis": {
+      "score": 70,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nambu_nobel_adv, src_nambu_pt_obit, src_nambu_nobel_bio | 1957-1960 | award-body text, colleague obituary, self-account] The committee's table sets superconductivity concepts (energy gap, collective excitations, charge) against strong-interaction counterparts (nucleon mass, mesons, chirality); colleagues call his insight a unique form of intuition that was hard to trace, and he says the idea came from his experience in both condensed matter and particle physics. SELF-CALIBRATION (agent): lowered from 76 / 0.58 to 70 / 0.50; the claim of intuition is a colleague's impression and the origin of the idea is partly his own account."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nambu_nobel_bio, src_nambu_nobel_adv | 1957-1961 | self-account, award-body text] He moved a mechanism from condensed matter to particle physics, and his own account says the work drew on both fields; the range stays inside physics. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 64 / 0.50 because breadth beyond physics is not documented and the link rests partly on self-report."
+    },
+    "systems_abstraction": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nambu_nobel_adv, src_nambu_pt_obit | 1960-1970 | award-body text, colleague obituary] The committee presents his ground-state-breaks-the-symmetry idea as a general structure behind several fields, and colleagues say the string result replaced point particles with extended objects. The same body of work supports the originality row. SELF-CALIBRATION (agent): lowered from 72 / 0.54 to 68 / 0.50 to avoid double-counting the same achievements."
+    },
+    "analytical_rigor": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nambu_nobel_adv, src_nambu_pt_obit | 1958-1960 | award-body text, colleague obituary] The committee describes his treatment of the BCS Hamiltonian with Ward identities that made the Meissner-effect calculation strictly gauge-invariant, which the original BCS treatment had been challenged on; colleagues call his reasoning clear and convincing. SELF-CALIBRATION (agent): lowered from 70 / 0.54 to 66 / 0.50 because this is one episode seen mainly through the committee's summary."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_nambu_pt_obit, src_nambu_willemsen, src_nambu_nobel_adv | 1946-1970 | colleague obituary, student recollection, award-body text] He worked out the electron's anomalous magnetic moment alone in postwar Japan, taught students to choose their own problems, and the committee notes his picture of the pion was very different from Yukawa's. The first claim is one obituary line and the second one student's memory. SELF-CALIBRATION (agent): lowered from 68 / 0.54 (strong inference) to 64 / 0.48 (inference) for single-source anecdotes."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nambu_pt_obit, src_nambu_inquiry, src_nambu_uchicago_news | 1952-1989 | colleague obituary, tribute collection, institutional obituary] Colleagues describe a deep and creative curiosity, a student recalls him patiently reading an unsolicited amateur paper because Einstein had once read Bose's, and Freund says he introduced himself to Einstein at Princeton. Two anecdotes are second-hand recollections. SELF-CALIBRATION (agent): lowered from 70 / 0.52 to 64 / 0.46 because the examples are retold by colleagues and one student."
+    },
+    "persistence": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nambu_nobel_adv, src_nambu_nobel_bio | 1957-1960 | award-body text, self-account] The committee says it took him about two years to understand how gauge invariance works in the BCS theory before he could turn it to particle physics; his own account dates the work from about 1959. One sentence of evidence for a modest lean. SELF-CALIBRATION (agent): lowered from 62 / 0.50 to 58 / 0.44."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_nambu_pt_obit, src_nambu_nobel_adv, src_nambu_uchicago_news | 1955-1965 | colleague obituary, award-body text, institutional obituary] Co-authored the CGLN meson papers with Chew, Goldberger and Low, the dynamical-model papers with Jona-Lasinio and the colour paper with Han, and colleagues call him a kind and understanding colleague; the sources do not describe how the collaborations worked. SELF-CALIBRATION (agent): lowered from 62 / 0.50 to 58 / 0.46 for shared credit and thin process evidence."
+    },
+    "social_assertiveness": {
+      "score": 32,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_nambu_pt_obit, src_nambu_inquiry | 1970s | colleague obituary, tribute collection] Two colleagues who knew him as department chair (the Physics Today authors, and Carroll in the tribute collection) say he avoided saying no outright and signalled disapproval by a long pause, and Harvey says he did not campaign for his own recognition; this is an interpersonal style described by colleagues, with no account from his own side. SELF-CALIBRATION (agent): confidence lowered from 0.52 to 0.46, score kept at 32 so it is not made more extreme."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/yoichiro-nambu-betsy-devine-2005.jpg",
+    "width": 857,
+    "height": 1000,
+    "source": "Photograph of Yoichiro Nambu wearing the Franklin Medal at the Franklin Institute ceremony in Philadelphia, 2005 (Commons description date 2005-05-20), taken by Betsy Devine and published by her on Wikimedia Commons as 'YoichiroNambu.jpg' (own work; the current version was lightly retouched by another user on 2019-01-23). Downloaded at the Commons original 1082 x 1263 and downscaled to 857 x 1000; no upscaling. Sitter identification rests on the uploader's description naming the 2005 Franklin Institute ceremony and the medal he wears, the Wikidata depicts statement, and the Franklin Institute's own record that Nambu received the 2005 Benjamin Franklin Medal in Physics; there is no lettering in the image.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Betsy Devine, 'YoichiroNambu' (2005), Wikimedia Commons, CC BY-SA 3.0; current version retouched (levels, reflections, specks) by WikiPedant, 2019; downscaled.",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:YoichiroNambu.jpg",
+    "creator": "Betsy Devine",
+    "date": "2005",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:YoichiroNambu.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "난부 요이치로"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / lead SURVIVED, no replacement. Lead: Commons 'YoichiroNambu.jpg' by Betsy Devine (Franklin Institute ceremony, Philadelphia, 2005, CC BY-SA 3.0, own work; current version retouched by WikiPedant 2019 for levels and specks only). Re-verified live through the Commons API (author, licence, date 2005-05-20, description, extracted-version note); original 1082 x 1263 downloaded and inspected (elderly man in bow tie wearing the Franklin Medal ribbon); the Franklin Institute's own laureate record confirms the 2005 Benjamin Franklin Medal. Downscaled to 857 x 1000; share-alike attribution required; the uploader's Flickr statement was not verified. No lettering in the image; identification by uploader description, Wikidata depicts and the ceremony record. Kind likeness. IDENTITY: QID Q188120 verified live 2026-11-24 (human, born 1921-01-18, died 2015-07-05, citizenship US and Japan; Korean label 난부 요이치로). ATTRIBUTION: attributable (dated, heavily documented papers). CANONICAL SIGNIFICANCE SOURCE: Royal Swedish Academy advanced information, Broken Symmetries. READ: Nobel advanced information, Nambu's own Nobel biography (self-account), Physics Today obituary (Freund, Harvey, Martinec, Ramond), University of Chicago News obituary, University of Chicago Magazine tribute collection, a former student's Physics Today note, Physics World obituary, Franklin Institute record, Osaka University death notice (read, not cited). The Nature obituary text was paywalled (only its quotation in the Chicago collection was seen); the AIP 2004 oral-history transcript was not retrievable and is not used; the PTEP 2016 memorial article returned a bot wall and was not opened. COUNTER-VOICES/CAVEATS: Goldstone's parallel 1961 calculation and Higgs, Brout and Englert's later gauge case; the 1965 colour paper's wrong electric charges; results he published that others later got credit for; colleague voices (Freund, Harvey, Martinec) recur across three sources and count as one family; praise is admiring throughout. The student's personal family passages are not used. Sparse by design: 10 rows, below the 18-trait match-eligibility threshold; not padded. RUBRIC_CORRECTION (Roster70 lead review, before first commit): creative originality lowered 82/0.66/documented -> 76/0.60/strong_inference (award-body and obituary concentration; priority shared with Goldstone)."
+  }
+}

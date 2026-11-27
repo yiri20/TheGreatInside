@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "max-theiler",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Max Theiler",
+    "wikidataId": "Q46928",
+    "birthYear": 1899,
+    "deathYear": 1972,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "ZA",
+      "US"
+    ],
+    "regionCode": "sub_saharan_africa"
+  },
+  "classification": {
+    "occupationIds": [
+      "medical_researcher",
+      "scientist"
+    ],
+    "fieldIds": [
+      "medicine",
+      "microbiology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "specialist"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_theiler_wikidata",
+      "kind": "wikidata",
+      "title": "Max Theiler (Q46928), verified live via the Wikidata API (2026-11-24): English label 'Max Theiler', description 'South African-American virologist and doctor (1899-1972)', instance of human, born 30 January 1899, died 11 August 1972, citizen of the United States and South Africa, Korean label 막스 타일러. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q46928"
+    },
+    {
+      "id": "src_theiler_nobel_speech",
+      "kind": "award_body",
+      "title": "Nobel Prize in Physiology or Medicine 1951, presentation speech by Professor H. Bergstrand, Chairman of the Nobel Committee for Physiology or Medicine (read in full). CANONICAL SIGNIFICANCE SOURCE: says Theiler found in 1930 that yellow fever can be transmitted to white mice, showed in 1931 that mice given serum from immune humans or monkeys are protected (a test usable for mapping the disease), showed that passage through mice weakens the agent so that monkeys can be inoculated safely, and, with Lloyd, Smith and Ricci, produced the less risky 17D vaccine; adds that the discovery 'does not imply anything fundamentally new' because the idea of inoculating with a harmless variant is more than 150 years old. Award-body speech: admiring about practical value, openly limited on originality.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1951/ceremony-speech/"
+    },
+    {
+      "id": "src_theiler_nobel_bio",
+      "kind": "award_body",
+      "title": "NobelPrize.org, 'Max Theiler - Biographical' (autobiographical note written at the time of the award for Les Prix Nobel; read in full). Gives his schooling in South Africa and London, the 1922 move to the Department of Tropical Medicine at Harvard, early work on amoebic dysentery and rat-bite fever, the 1930 move to the Rockefeller Foundation's International Health Division, the mouse work, the 17D vaccine, later work on Weil's disease, dengue, Japanese encephalitis and the mouse encephalomyelitis virus now called Theiler's disease, and the honours he received. Self-authored and bare of anecdote; used only for dates and the sequence of his posts.",
+      "url": "https://www.nobelprize.org/prizes/medicine/1951/theiler/biographical/"
+    },
+    {
+      "id": "src_theiler_frierson",
+      "kind": "institution",
+      "title": "J. Gordon Frierson, 'The Yellow Fever Vaccine: A History', Yale Journal of Biology and Medicine 83 (2010), 77-85 (history-of-medicine article reviewed by a virologist; read in full). Independent account of the vaccine's development: Noguchi's discredited Leptospira vaccine, the 1926 Theiler and Sellards result that Noguchi's organism matched the Weil's disease leptospire, adaptation of the virus to mouse brain and Theiler's own mild case of yellow fever, the Rockefeller Foundation's laboratory infections (32 cases and five deaths in eight laboratories by 1931), the Theiler and Haagen tissue cultures of 1932, the removal of nervous tissue from the chick embryos, the 17D strain noticed by Hugh Smith at the 100th such subculture, the 1938-39 Brazilian field trials, the 1941 encephalitis cases that produced the seed-lot system, and the 1942 hepatitis outbreak among US servicemen caused by human serum in the vaccine. Balanced; covers the French competing vaccine and the vaccine's later problems.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2892770/"
+    },
+    {
+      "id": "src_theiler_norrby",
+      "kind": "institution",
+      "title": "Erling Norrby, 'Yellow fever and Max Theiler: the only Nobel Prize for a virus vaccine', Journal of Experimental Medicine 204 (2007), 2779-2784 (history-of-science article by a member of the Royal Swedish Academy of Sciences' history centre, based on the opened Nobel Committee archives, the Rockefeller Archive Center and an interview of Theiler by Harriet Zuckerman; read in full). Describes his mouse-brain work, the tissue-culture experiments of 1935-1937, the nominations of 1937, 1948 and 1950, the 1948 reviewer Sven Gard's remark that Theiler 'can not be said to have been pioneering', the check that it was Theiler and not Wray Lloyd who planned the critical experiments, the narrow committee votes, and Theiler's own contradictory remarks about his originality. Archive-based and frank about the limits of the award.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2118520/"
+    },
+    {
+      "id": "src_theiler_lowy",
+      "kind": "institution",
+      "title": "Ilana Lowy, 'The 1942 Massive Contamination of Yellow Fever Vaccine: A Public Health Consequence of Scientific Arrogance', American Journal of Public Health 111 (2021), 1654-1660 (historian's article drawing on Rockefeller Archive Center records and Wilbur Sawyer's diaries; read in full). Critical-leaning counter-voice: says Theiler and Hugh Smith developed 17D in 1937, that Smith and a Brazilian colleague then perfected its culture in eggs, that Brazilian scientists dropped human serum from the vaccine in 1940 while the New York laboratory kept it for the US Army in 1941, and (from a diary entry of 6 April 1942) that Theiler then judged contamination by normal human serum the most plausible explanation for the jaundice outbreak.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8589052"
+    },
+    {
+      "id": "src_theiler_nlm_sawyer",
+      "kind": "institution",
+      "title": "National Library of Medicine, Profiles in Science, finding aid and biographical note for Wilbur A. Sawyer (Rockefeller Foundation yellow-fever laboratory director; read in full). Says Sawyer, Lloyd and Kitchen made a vaccine from the mouse-adapted virus Theiler developed combined with immune human serum, that 17D could be used without modification, that Sawyer chose to combine 17D with human serum 'despite Theiler's insistence' that it could be made without causing encephalitis, and that reports of hepatitis after the combination led to criticism of Sawyer. Archivist's biography of a colleague, not of Theiler; used for the disagreement over serum.",
+      "url": "https://findingaids.nlm.nih.gov/repositories/4/resources/705"
+    },
+    {
+      "id": "src_theiler_pretoria",
+      "kind": "institution",
+      "title": "'Max Theiler 1899-1972', South African memorial notice written on the first anniversary of his death (three-page scan in the University of Pretoria repository; the scan does not show the author or journal; read in full). Tells his childhood as a field naturalist at Onderstepoort, his Harvard years under Andrew Sellards, how Sellards, who held that yellow fever was bacterial, left Theiler to follow his own theory of a virus, the 1937 report with Smith, the field trials in Brazil, the 1950 project he put to the Rockefeller Foundation for a worldwide study of arthropod-borne viruses and his journeys to set up laboratories, and his move to Yale. Admiring obituary by a compatriot; not independent of family and community memory.",
+      "url": "https://repository.up.ac.za/bitstreams/a3284368-6078-4e92-b605-e5edc33ff939/download"
+    },
+    {
+      "id": "src_theiler_encyclopedia",
+      "kind": "biography",
+      "title": "Gale, World of Microbiology and Immunology, 'Theiler, Max (1899-1972)' (reference-work biography on Encyclopedia.com; read in full). Says he was not enthralled with medicine, that he caught a light case of yellow fever from his mice, that his 1930 report on mice in Science was received coldly at Harvard, that he judged the mouse-brain vaccine unsuitable for human use and kept the Asibi strain in tissue culture until strain number 176 before testing it on two monkeys, and that he held several later posts. Used only where it agrees with the other sources; some claims in it (self-vaccination, the 'two years' of annual dating) are not carded.",
+      "url": "https://www.encyclopedia.com/people/medicine/medicine-biographies/max-theiler"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_theiler_frierson, src_theiler_norrby, src_theiler_nobel_speech, src_theiler_encyclopedia | 1932-1937 | history-of-medicine article, Nobel-archive history article, award-body speech, reference biography] After the 1932 tissue cultures with Haagen failed to remove the virus's attack on the brain, he and his colleagues kept the Asibi strain going through minced chick embryos stripped of nervous tissue, testing it repeatedly, until the 17D variant appeared (Frierson counts the 100th such subculture and the 176th overall; Norrby puts the change between the 89th and 114th passage and judges that the experiments show stubborn perseverance in action). Evidence is one long series of experiments retold by two historians and an encyclopedia, so the counts disagree and the claim is a pattern within one project rather than several independent episodes."
+    },
+    "experimentation": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_theiler_nobel_speech, src_theiler_frierson, src_theiler_norrby, src_theiler_nobel_bio | 1926-1937 | award-body speech, history-of-medicine article, Nobel-archive history article, autobiographical note] Distinct experimental designs are documented: moving the virus into mouse brain (1930), the mouse protection test for antibodies (1931), cultivation in mouse and chick-embryo tissue with Haagen (1932), and the nerve-tissue-free embryo cultures that produced 17D; Norrby calls his tissue-culture design ingenious and systematised. The designs are well documented, but the praise comes from one archive historian and the Nobel committee, and the work was shared with Lloyd, Smith, Haagen and others."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_theiler_nobel_bio, src_theiler_nobel_speech, src_theiler_frierson, src_theiler_norrby | 1930-1937 | autobiographical note, award-body speech, history-of-medicine article, Nobel-archive history article] He replaced costly monkeys with white mice, which the award speech says are easy to handle and available by the thousand at small cost; Frierson says he drew on Andervont's growth of herpes virus in mouse brain and Pasteur's attenuation of rabies in nerve tissue; and the chick-embryo route to 17D used existing culture techniques adapted to the problem. The mouse substitution is stated by all four sources, so the claim is well supported as a fact, but it is one family of laboratory solutions and the reasons for each choice are partly the historians' inference."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_theiler_pretoria, src_theiler_frierson, src_theiler_norrby, src_theiler_nlm_sawyer, src_theiler_lowy | 1926-1942 | memorial notice, history-of-medicine article, Nobel-archive history article, archivist's finding aid, historian's article] The memorial notice says Sellards, who believed yellow fever bacterial, left Theiler to follow his own theory of a virus and that Theiler then adapted the virus to mouse brain; in 1926 he and Sellards showed that Noguchi's organism, the basis of a Rockefeller vaccine, matched the Weil's disease leptospire (Frierson, Norrby); later he held that 17D could be made without serum, against Sawyer's choice (finding aid), and a diary entry of April 1942 records him judging serum the likely source of the jaundice (Lowy). The episodes are real but come from four different retellers, one of whom (the memorial) is an admiring obituary, the Noguchi result was joint with Sellards, and the serum disagreement is known only through Sawyer's side of the record."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_theiler_norrby, src_theiler_frierson, src_theiler_encyclopedia | 1932-1937 | Nobel-archive history article, history-of-medicine article, reference biography] After repeated mouse passage lowered the virus's harm to the liver but raised its attack on the brain, Theiler and colleagues tried minimal doses, found that lower doses paradoxically gave more encephalitis in monkeys (Theiler and Whitman), and changed to tissue culture without nervous tissue; the reference biography adds that he judged the mouse vaccine unfit for human use. This is a documented change of method driven by results, but it is told once, by two historians and an encyclopedia, as one episode."
+    },
+    "creative_originality": {
+      "score": 50,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_theiler_nobel_speech, src_theiler_norrby, src_theiler_pretoria | 1937-1951 | award-body speech, Nobel-archive history article, memorial notice] The evidence points both ways: the 1948 Nobel reviewer wrote that Theiler 'can not be said to have been pioneering' and the presenter said the discovery implies nothing fundamentally new, the memorial notice says the committee stressed service rather than originality, Theiler himself said he had done nothing fundamental, yet Norrby calls the idea of passing the virus for hundreds of generations in embryo cultures with and without brain tissue ingenious and says luck supplied the attenuated variant. Score kept near the middle with lowered confidence because the sources disagree."
+    },
+    "proactive_agency": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_theiler_pretoria, src_theiler_norrby, src_theiler_nobel_bio | 1930-1950 | memorial notice, Nobel-archive history article, autobiographical note] Norrby says the Rockefeller Foundation welcomed Theiler when he applied to its International Health Division in 1930; the memorial notice says that after a 1950 tour of Africa he presented the Foundation with a project for a worldwide study of arthropod-borne viruses, which it accepted, and that he then travelled to Africa, India and South America to set up laboratories. The 1950 project rests on one admiring memorial notice and the 1930 application on one sentence."
+    },
+    "intuitive_synthesis": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "neutral",
+      "rationale": "[src_theiler_norrby | 1948-1951 | Nobel-archive history article] The Nobel reviewer Gard wrote in 1948 that Theiler grasped the essentials of observations, his own and others, and followed them 'with safe intuition' to the goal; Norrby agrees that his intuition and sense of the relative weight of many observations came into play, and Theiler himself, in an interview, stressed the role of a hunch and of luck. All three signals come through one archive historian, one of them is Theiler's own comment, so this is a weak signal."
+    },
+    "analytical_rigor": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_theiler_frierson, src_theiler_norrby | 1926-1937 | history-of-medicine article, Nobel-archive history article] In 1926 he and Sellards compared Noguchi's organism with the Weil's disease leptospire by the Pfeiffer reaction in guinea pigs; when 17D appeared, attempts to repeat the change with unpassaged virus failed and more than 100 subcultures of the French strain showed no loss of brain-attacking ability, which led to the reading that a chance mutation was responsible (Frierson); Norrby credits him with a systematised approach in the critical experiments. The checks are documented, but the team (Smith, Lloyd) did much of the testing and the interpretation is the historians'."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "막스 타일러"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/max-theiler-pach-bros-1951.jpg",
+    "width": 803,
+    "height": 1000,
+    "source": "Studio photograph of Max Theiler by Pach Bros., New York, about 1951, held by Wellcome Collection (reference 14125i; work record ykfbefms, title 'Max Theiler. Photograph by Pach Bros., N.Y. about 1951.', subject heading Max Theiler, IIIF image V0027627, 2504 x 3119 pixels). Downscaled to 803 x 1000 pixels; not upscaled or otherwise altered.",
+    "license": "Public Domain Mark 1.0, as stated on the Wellcome Collection item record ('You can use this work for any purpose without restriction under copyright law'); Wellcome's access policy says it does not seek fresh copyright in digitisations of out-of-copyright works",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Max Theiler. Photograph by Pach Bros., N.Y. about 1951. Wellcome Collection. Public Domain Mark.",
+    "attributionUrl": "https://wellcomecollection.org/works/ykfbefms",
+    "creator": "Pach Bros., New York (studio photographers)",
+    "date": "about 1951",
+    "kind": "likeness",
+    "sourcePageUrl": "https://wellcomecollection.org/works/ykfbefms"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / lead SURVIVED: Wellcome Collection work ykfbefms (ref 14125i), 'Max Theiler. Photograph by Pach Bros., N.Y. about 1951.', item-level Public Domain Mark 1.0 read on the live record and via the Wellcome catalogue API (2026-11-24), credit line given; the Wellcome access policy (read) says it does not seek fresh copyright in digitisations of out-of-copyright works. Image taken from the Wellcome IIIF service (2504 x 3119), downscaled to 803 x 1000, not upscaled. Kind likeness (studio photograph of the Nobel laureate; the holder title and subject heading name him and the Smithsonian NPG record agrees per Stage B). CAVEAT: the public-domain status of a c1951 US studio photograph is the holder's own assertion (no copyright-renewal search was made by us; the Commons copy still carries a legacy CC BY 4.0 label from the old Wellcome Images licence, both open); Smithsonian NPG copy (CC0 per Commons) remains a backup and its holder record was not readable (bot wall). PREFLIGHT: QID VERIFIED LIVE (2026-11-24) Q46928 'Max Theiler', 'South African-American virologist and doctor (1899-1972)', instance of human, born 30 January 1899, died 11 August 1972, citizen of the United States and South Africa, Korean label and Korean Wikipedia title 막스 타일러. REGION sub_saharan_africa (frozen-list assignment; born Pretoria, career in the United States). ERA 20th_century. NATIONALITY ZA and US as in Wikidata (one source says he never took US citizenship). ATTRIBUTION: attributable (dated papers, archive-based historians); shared credit with Hugh Smith, Wray Lloyd, Haagen, Ricci and Sellards is stated in the editorial. READ (substantively): Nobel presentation speech, Nobel autobiographical note, Frierson (Yale J Biol Med 2010), Norrby (J Exp Med 2007), Lowy (Am J Public Health 2021), NLM finding aid for Sawyer, a South African memorial notice, the Gale/Encyclopedia.com entry. Tan (Singapore Med J 2017) was read and not cited because it retells Norrby. COUNTER-VOICES: the Nobel reviewer's and presenter's remarks that the work was not pioneering, Norrby's account of the narrow Nobel votes and of Theiler's contradictory comments, Lowy's critique of the 1942 serum-containing vaccine, and the NLM account of the dispute with Sawyer. NOT USED: the 1942 hepatitis outbreak is not scored against Theiler because the decision to keep serum was Sawyer's (finding aid) and sources differ on who knew what; passage-number counts differ between sources (100th/176th versus 89th-114th) so no count is carded. Private life, family and his lack of US citizenship are not used. SPARSE PROFILE BY DESIGN: 9 rows; no rows for inquisitiveness, risk-taking or leadership because the sources describe results and not behaviour. SELF-CALIBRATION: every row lowered once for source concentration and then again for the highest-risk rows, see handback. KOREAN NAME 막스 타일러 is an authoritative-label class (Wikidata ko label and Korean Wikipedia title)."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "amerigo-vespucci",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Amerigo Vespucci",
+    "aliases": [
+      "Americus Vespucius",
+      "Amerigo Vespucio"
+    ],
+    "wikidataId": "Q47674",
+    "birthYear": 1454,
+    "deathYear": 1512,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "navigator",
+      "explorer"
+    ],
+    "fieldIds": [
+      "exploration"
+    ],
+    "impactDomains": [
+      "historical",
+      "scientific"
+    ],
+    "tagIds": [
+      "explorer",
+      "career_changer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_vespucci_wikidata",
+      "kind": "wikidata",
+      "title": "Amerigo Vespucci (Q47674), verified live via the Wikidata API (2026-11-24): English label 'Amerigo Vespucci', description 'Florentine explorer, financier, navigator and cartographer', Korean label 아메리고 베스푸치, instance of human, born 1454-03-09, died 1512-02-22, citizenship Republic of Florence and Crown of Castile. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q47674"
+    },
+    {
+      "id": "src_vespucci_dbi",
+      "kind": "biography",
+      "title": "Luciano Formisano, 'Vespucci, Amerigo', Dizionario Biografico degli Italiani vol. 99 (Treccani, 2020; read in full in Italian up to its bibliography). CANONICAL SIGNIFICANCE SOURCE: born in Florence 9 March 1454; educated by his uncle Giorgio Antonio; secretary on the 1478 Paris embassy; steward and factotum of Lorenzo di Pierfrancesco de' Medici (seventy-one letters to him, 1483-91); in Seville from 1491-92 as factor in Giannotto Berardi's firm, which outfitted ships for Columbus; the firm collapsed after Berardi died in December 1495 and the first four caravels wrecked in February 1496, leaving Vespucci to liquidate it, unemployed at forty-two; voyage of 1499-1500 as pilot (astronomer and cartographer, never a ship's commander) with Ojeda and de la Cosa; Portuguese service and the 1501-02 voyage; summoned to the Spanish court in 1505; naturalised in April 1505; named piloto mayor of the Casa de la Contratacion in March 1508 with the duty to update the official chart and examine pilots; asked in 1509 for opinions on exports and on a signature of Columbus; will of April 1511; died 22 February 1512. Detailed account of the contested printed letters (Mundus novus and the Soderini letter), of Magnaghi's forgery thesis and of its philological refutation: the DBI concludes the printed letters are not purely his and that his role does not depend on them. Authoritative scholarly reference entry.",
+      "url": "https://www.treccani.it/enciclopedia/amerigo-vespucci_(Dizionario-Biografico)/"
+    },
+    {
+      "id": "src_vespucci_britannica",
+      "kind": "biography",
+      "title": "Roberto Almagia, 'Amerigo Vespucci', Encyclopaedia Britannica (read in full): son of a notary, humanist education from his uncle; 1479 trip with a relative sent to the French king by the Medici; Medici 'bank' and Seville agency under Berardi; two series of documents on his voyages (printed letters and private letters to the Medici) and Magnaghi's theory that the printed series are manipulations; the 1499-1500 voyage under Ojeda as navigator 'certainly authentic'; Spain did not welcome his proposals and he entered Portuguese service at the end of 1500; the 1501-02 voyage after which he and scholars became convinced the lands were a 'New World'; Waldseemuller's 1507 proposal of the name America; summoned to Spain in 1505 and made chief navigator of the Casa de Contratacion in 1508 to examine pilots and prepare the official map; scholars' charge that he usurped others' merits, answered with 'a genuine pioneer of Atlantic exploration'. Reference article by a geographer; sympathetic but flags the controversy.",
+      "url": "https://www.britannica.com/biography/Amerigo-Vespucci"
+    },
+    {
+      "id": "src_vespucci_ewb",
+      "kind": "biography",
+      "title": "'Amerigo Vespucci', Encyclopedia of World Biography (Gale, reproduced on Encyclopedia.com; read in full): Florentine navigator and pilot major of Castile; partnership with Berardi until his death at the end of 1495; Columbus's reaction to his 1496 conversations; doubts about the Soderini letter's authenticity and the 'first voyage' (Magnaghi, Pohl against, Arciniegas for); the 1499 voyage with Ojeda documented; the Portuguese voyage; Columbus's 1505 letter to his son calling him a man of good will to whom fortune had been unkind; Waldseemuller's naming, to which Vespucci 'was no party'; first holder of the pilot major office from 1508, training and examining pilots and keeping the Padron Real. Short general-reference entry; notes that biographers differ sharply.",
+      "url": "https://www.encyclopedia.com/people/history/explorers-travelers-and-conquerors-biographies/amerigo-vespucci"
+    },
+    {
+      "id": "src_vespucci_catholic",
+      "kind": "biography",
+      "title": "Gustavo Uzielli, 'Amerigo Vespucci', The Catholic Encyclopedia vol. 15 (New York: Robert Appleton Company, 1912; read in full on New Advent). Early reference biography by Vespucci's Florentine editor and a defender; dates his birth 1451 (the modern standard is 1454) and accepts all four voyages as narrated in the Soderini letter, which later critical scholarship questions; useful for the archival material it cites: letters to the Medici, the 1478-80 Paris embassy reports, the 1505 naturalisation decree and the 1508 appointment as piloto mayor, his marriage to Maria Cerezo and her 1512 pension.",
+      "url": "https://www.newadvent.org/cathen/15384b.htm"
+    },
+    {
+      "id": "src_vespucci_omodeo",
+      "kind": "institution",
+      "title": "Pietro Omodeo, 'The Final Years of Vespucci and His Scientific Merits' (chapter 14 of 'Amerigo Vespucci: The Historical Context of His Explorations and Scientific Contribution', Knowledge Hegemonies series, Edizioni Ca' Foscari, Venice University Press; read in full, 18 pages). PARTISAN DEFENCE: Vespucci made piloto mayor in 1508, taught navigation and map-making and a longitude method at home, was made to swear to give copies of the official chart only to authorised persons, gave his opinion on commerce, left a 1511 will (revoked) with Rondinelli as friend and executor and long unpaid loans owed to him; argues the usurpation charge descends from Pluche, Charlevoix, Munoz, Navarrete and Emerson without documentation; claims a Portuguese damnatio memoriae. Written by a Vespucci sympathiser; used only for facts the DBI also records and flagged as partisan wherever it goes further.",
+      "url": "https://edizionicafoscari.it/media/pdf/books/978-88-6969-403-5/978-88-6969-403-5-ch-16_DGp7mwP.pdf"
+    },
+    {
+      "id": "src_vespucci_mariners",
+      "kind": "institution",
+      "title": "'Amerigo Vespucci', Ages of Exploration, The Mariners' Museum and Park (read in full): a popular museum biography with no named author; Vespucci's education and Medici work, Seville contacts through Berardi, the king's request that he sail as pilot (cartography and astronomy) in 1499, his southern-sky observations, the Portuguese voyages, a longitude method, the pilot-major role (training and licensing pilots, managing maps), Waldseemuller's naming and his death from malaria-weakened health in 1512. General-audience page; repeats the standard narrative including the printed letters.",
+      "url": "https://exploration.marinersmuseum.org/subject/amerigo-vespucci/"
+    }
+  ],
+  "rows": {
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_vespucci_dbi, src_vespucci_britannica, src_vespucci_ewb, src_vespucci_mariners | 1478-1508 | Italian biographical dictionary, reference article, encyclopedia biography, museum page] Documented succession of roles: secretary on a Florentine embassy to Paris (1478), steward and factotum for the Medici, factor and then liquidator of a Seville ship-outfitting firm (1495-96), pilot on a Spanish voyage in 1499, service to Portugal from about 1500-01, summoned back to Spain in 1505 and appointed piloto mayor in 1508. The DBI documents the 1496 collapse and says the 1499 voyage followed; the other sources agree on the sequence. SELF-CALIBRATION (agent): lowered from 68 / 0.56 to 64 / 0.50 because the sequence is largely the DBI's reconstruction and several moves were driven by circumstance or by invitation rather than shown as his choices."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_vespucci_dbi, src_vespucci_britannica, src_vespucci_omodeo | 1478-1509 | Italian biographical dictionary, reference article, partisan scholarly chapter] Tasks recorded for him span secretarial work on a diplomatic mission, estate and household management for the Medici, ship outfitting, ocean navigation as astronomer and cartographer, teaching and examining pilots and keeping the official chart (Britannica), advising on exports and tax evasion, and giving an expert opinion in 1509 on whether a signature was Columbus's (DBI). Most of this lies within commerce and navigation. SELF-CALIBRATION (agent): lowered from 64 / 0.52 strong inference to 60 / 0.46 inference because the full list rests on one entry (the DBI) and the roles cluster in one trade-and-navigation world."
+    },
+    "curiosity": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_vespucci_dbi, src_vespucci_mariners, src_vespucci_ewb | 1496-1502 | Italian biographical dictionary, museum page, encyclopedia biography] The family letters to Lorenzo di Pierfrancesco, which the DBI treats as his, describe a method he devised for finding longitude from the Moon's conjunction with planets and a 27-day stay among the Tupi-Guarani of Brazil; the museum page says he charted southern constellations; the encyclopedia biography says his interest in the new lands was aroused after meeting Columbus. These are largely his own reports and a biographer's reading. SELF-CALIBRATION (agent): lowered from 60 / 0.46 to 56 / 0.40 because self-report is the main basis."
+    },
+    "analytical_rigor": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_vespucci_dbi, src_vespucci_mariners, src_vespucci_omodeo | 1500-1508 | Italian biographical dictionary, museum page, partisan scholarly chapter] The DBI says his first family letter (Seville, July 1500) reports a longitude method he devised from the conjunction of the Moon with planets; the museum page calls it a method he developed, and Omodeo, a strong defender, says he taught it at his pilots' school in Seville and that it came into general use. The DBI documents the post that required him to examine pilots, but no source describes the method's accuracy or any test of it. SELF-CALIBRATION (agent): lowered from 60 / 0.44 to 56 / 0.40 because it is one reported method and the claim of influence comes from a partisan source."
+    },
+    "proactive_agency": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_vespucci_britannica, src_vespucci_dbi | 1500-1507 | reference article, Italian biographical dictionary] Britannica says that on his return to Spain in 1500 he prepared a new expedition toward the Indian Ocean and that the Spanish government did not welcome the proposal; the DBI documents that on 13 March 1505 the Casa's officers were ordered to organise an expedition under Vespucci and Vicente Yanez Pinzon, re-authorised in August 1506 and ended by the king's death in September, and Britannica adds that he helped prepare other expeditions without sailing again. The planning is documented; how far the initiative was his own, rather than royal orders, is less clear. SELF-CALIBRATION (agent): reviewed and kept unchanged."
+    },
+    "opportunity_sensing": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_vespucci_britannica, src_vespucci_dbi, src_vespucci_ewb | 1500-1505 | reference article, Italian biographical dictionary, encyclopedia biography] After Spain did not welcome his proposals he went into Portuguese service at the end of 1500 (Britannica); the DBI reads the move as a consequence of what he had learned on the 1499 voyage, which suited Portugal's wish to establish what Cabral's land was, and says he was summoned to the Spanish court in 1505 on questions of navigation. These are interpretations of motive, not documented statements of it. SELF-CALIBRATION (agent): lowered from 60 / 0.44 to 56 / 0.40 because the motive is the biographers' inference."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_vespucci_dbi, src_vespucci_mariners, src_vespucci_britannica | 1496-1502 | Italian biographical dictionary, museum page, reference article] At forty-two, after the outfitting firm's collapse (its first four ships wrecked off the Spanish coast), he joined an ocean expedition in 1499 and sailed again from Lisbon in 1501; the DBI notes he got no profit from the Portuguese service and never commanded ships. The voyages were hazardous and documented, but no source shows how he weighed the risk. SELF-CALIBRATION (agent): lowered from 62 / 0.46 to 58 / 0.42 because exposure to risk is documented while his attitude to it is inferred."
+    },
+    "collaboration": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_vespucci_dbi, src_vespucci_ewb, src_vespucci_omodeo | 1492-1511 | Italian biographical dictionary, encyclopedia biography, partisan scholarly chapter] The DBI documents his role as factor in Berardi's partnership in Seville, his long friendship with the Florentine merchant Piero Rondinelli (named executor of his 1511 will with Manuel Cataño) and the Florentine merchant communities in Seville and Lisbon through which his letters circulated; Columbus's 1505 letter to his son, quoted in the encyclopedia biography and by Omodeo, calls him a man of good will who always wished to please him. SELF-CALIBRATION (agent): lowered from 60 / 0.46 to 56 / 0.40 because the Columbus remark is one quotation reported twice and the partnership is a commercial fact, not a description of working style."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아메리고 베스푸치"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/amerigo-vespucci-michele-bisi-19th-century.jpg",
+    "width": 752,
+    "height": 1000,
+    "source": "Engraved oval portrait 'Portrait of Amerigo Vespucci' by Michele Bisi (Italian, c. 1788-1874), 19th century; Cleveland Museum of Art, Prints, accession 1949.92 (Bequest of Mrs. Madeleine Hamill in memory of Lawrence Hamill; catalogue raisonne Aloys Apell p. 63.11). The sheet is lettered 'AMERIGO VESPUCCI.' beneath the oval, 'Giuseppe Longhi dis.' at lower left and 'Michele Bisi inc.' at lower right; the Cleveland record names only Bisi, dates the print '1800s' (its structured date range runs 1808-1860) and names no earlier portrait it follows. The file is Cleveland's open-access print image (2502 x 3400), cropped of surplus paper margin and downscaled to 752 x 1000 with no upscaling.",
+    "license": "CC0 1.0 (Cleveland Museum of Art Open Access): the item record is headed 'Public Domain' ('You can copy, modify, and distribute this work, all without asking permission') and the open-access API lists share_license_status CC0 with no copyright; the CMA Open Access page (read) says CC0 works do not require attribution; age basis: 19th-century engraving by an engraver who died in 1874",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "attribution": "Michele Bisi (after a design lettered to Giuseppe Longhi), Portrait of Amerigo Vespucci, 19th-century engraving; Cleveland Museum of Art, Bequest of Mrs. Madeleine Hamill in memory of Lawrence Hamill (1949.92), Open Access CC0. A posthumous 19th-century depiction, not a lifetime likeness; the Cleveland record names no earlier portrait it follows.",
+    "attributionUrl": "https://www.clevelandart.org/art/1949.92",
+    "creator": "Michele Bisi (engraver, c. 1788-1874); lettering names Giuseppe Longhi as designer",
+    "date": "19th century (Cleveland: '1800s')",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.clevelandart.org/art/1949.92"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG / lead SURVIVED. The Stage B lead (Cleveland Museum of Art 1949.92, Bisi engraving) was re-verified at the holder: item record 'Portrait of Amerigo Vespucci', Michele Bisi (c. 1788-1874), 1800s, engraving, Aloys Apell catalogue p. 63.11, headed 'Public Domain'; the CMA open-access API lists share_license_status CC0, copyright none, no restriction, dates 1808-1860; the Open Access page was read (CC0, no permission or fee, attribution not required). Sitter verified from the image itself: printed 'AMERIGO VESPUCCI.' under the oval plus 'Giuseppe Longhi dis.' and 'Michele Bisi inc.' read at full resolution. KIND historical_depiction: a posthumous 19th-century engraving after an unspecified earlier image; the Cleveland record names no source portrait. The encyclopedia biography notes that a Ghirlandaio family portrait gives only an approximate idea of his youthful appearance; no portrait from life is relied on here. ageOnlyPath: earliest publication 19th century (exact year not given), jurisdiction Italy/US, creator death 1874, item rights statement 'Public Domain'/CC0, holder policy checked. IDENTITY: QID Q47674 verified live 2026-11-24 (label Amerigo Vespucci; description 'Florentine explorer, financier, navigator and cartographer'; instance of human; born 1454-03-09; died 1512-02-22; citizenship Republic of Florence and Crown of Castile). BIRTH YEAR 1454 (DBI, Britannica, Wikidata); the 1912 Catholic Encyclopedia gives 1451 and is not followed. Korean name 아메리고 베스푸치 is the Wikidata Korean label (class authoritative-label). REGION southern_europe (Italian precedent Marco Polo, Galileo), nationality IT (Florentine; naturalised in Castile in 1505, ES not listed to follow the Magellan/Marco Polo single-code precedent), ERA early_modern. ATTRIBUTION: limited_but_usable. The authorship of the printed letters (Mundus novus, the Soderini letter) is contested between Magnaghi's forgery thesis and Formisano's 'para-Vespuccian' conclusion, and the existence of a first voyage in 1497-98 is unproven, so NO row relies on those texts; rows rest on archival and documentary facts recorded by the DBI (Seville firm, 1496 liquidation, 1499 voyage as pilot, 1505 summons and expedition order, 1508 piloto mayor, 1509 expert opinions, 1511 will) and on the family letters to Lorenzo di Pierfrancesco, which the DBI treats as his. CANONICAL SIGNIFICANCE SOURCE: Luciano Formisano's entry in the Dizionario Biografico degli Italiani (Treccani 2020). READ in full (7 sources besides Wikidata): DBI entry; Britannica (Almagia); Encyclopedia of World Biography; Catholic Encyclopedia (Uzielli 1912); Omodeo's chapter (Ca' Foscari, partisan); Mariners' Museum page. Opened but unreadable and NOT cited: a Universalis page (compressed binary content). A blog review of Fernandez-Armesto's critical biography and an NPR blurb were opened but are not cited as sources (the book itself was not read). Not opened: Vespucci's letters, Pohl, Arciniegas, Luzzana Caraci, Varela. PERSPECTIVES: (1) authoritative Italian dictionary with philological analysis; (2) Britannica geographer's account that flags the controversy; (3) older pro-Vespucci Florentine editor; (4) modern partisan defence; (5) general-reference and museum pages. NON-SELF BEHAVIOURAL SOURCES: DBI, Britannica, encyclopedia biography; the Catholic Encyclopedia and Omodeo are defenders. CONTRADICTIONS AND LIMITS: appointment date (22 March 1508 in the DBI, 6 August 1508 in the Catholic Encyclopedia); first voyage 1497-98 disputed; DBI says he was never a ship's commander whereas the Soderini letter implies command; the 'usurper' charge (Las Casas, Navarrete, Emerson) is an old controversy and the DBI says the naming was the Saint-Die scholars' act; rows do not score the printed letters' self-presentation or any claim of priority. ZERO POLITICS and no religion scoring: slave dealing in the Berardi firm and a will that freed enslaved people on conditions are context, not scored. ACHIEVEMENT GATE: first pass PASS (cards: the 1499-1502 voyages and recognition of a New World, the naming of America by Waldseemuller, piloto mayor at the Casa de Contratacion; attribution statement that he did not propose the name or command the ships). SELF-CALIBRATION: eight rows scored; seven lowered, one kept (proactive agency); none raised; no row removed. Concentration: the DBI is the base of every row, with the printed-letter material excluded; the other biographies draw on the same documentary tradition and on the contested letters. No row exceeds 64 or 0.50."
+  }
+}

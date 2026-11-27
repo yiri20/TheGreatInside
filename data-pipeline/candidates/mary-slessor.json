@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "mary-slessor",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Mary Slessor",
+    "aliases": [
+      "Mary Mitchell Slessor",
+      "Ma Slessor",
+      "White Queen of Okoyong"
+    ],
+    "wikidataId": "Q6780743",
+    "birthYear": 1848,
+    "deathYear": 1915,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "religion",
+      "education",
+      "social_reform"
+    ],
+    "impactDomains": [
+      "social",
+      "educational",
+      "historical"
+    ],
+    "tagIds": [
+      "advocate",
+      "grassroots_organizer",
+      "overcame_adversity",
+      "nonconformist"
+    ],
+    "archetypeIds": [
+      "social_influencer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_slessor_wikidata",
+      "kind": "wikidata",
+      "title": "Mary Mitchell Slessor (Q6780743), verified live via the Wikidata API (2026-11-24): English label 'Mary Mitchell Slessor', description '(1848-1915) Scottish Presbyterian missionary', no Korean label, instance of human, born 2 December 1848, died 13 January 1915. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q6780743"
+    },
+    {
+      "id": "src_slessor_dacb",
+      "kind": "biography",
+      "title": "Jeanette Hardage, 'Slessor, Mary (A)', Dictionary of African Christian Biography (read in full). CANONICAL SIGNIFICANCE SOURCE: Scottish Presbyterian missionary who spent nearly forty years in Nigeria; the move to Okoyong after a year of negotiation in 1888, where she was helped by Chief Edem's sister Ma Eme; rescue of twins and orphans and an adopted household of eight; appointment as vice-consul of Okoyong in 1892 and vice-president of the native court in 1905; the move to Itu after the 1901 British expedition; the long friendship with District Commissioner Charles Partridge, an agnostic who disliked missionaries but praised her, whose letters she wrote from 1905 to 1914; Mary Kingsley's description of her; the Order of St John honour of 1913. Includes Ogbu Kalu's assessment that her vision was broader than her compatriots imagined. Scholarly reference biography by a biographer of Slessor; sympathetic but notes headstrong conduct that put her at odds with colleagues and the mission board.",
+      "url": "https://dacb.org/stories/nigeria/slessor-mary/"
+    },
+    {
+      "id": "src_slessor_knox",
+      "kind": "biography",
+      "title": "William W. J. Knox, 'Mary Mitchell Slessor: Serving God and Country', chapter 6 in The Lives of Scottish Women: Women and Scottish Society 1800-1980 (Edinburgh University Press, 2006; read in full via the JSTOR copy). CRITICAL SCHOLARSHIP: describes earlier accounts as 'little short of hagiography' and sets her work against empire and race. Documents her letters about her routine and illnesses, the Calabar mission's forty-year presence before her, her disorganised methods ('they could not work with her'), her bush schools (an estimate of over fifty schools and 2,000 pupils), the Governor General's dismissal of them as 'hedge schools' and criticism from some Nigerian historians, her magistrate roles and 1909 dismissal after a clash over labourers' rights, her 'I am NOT your obedient servant' letter, her patronising and racist remarks alongside later anti-imperial ones, and the argument that her move to Itu depended on the 1901 military expedition against the Aro.",
+      "url": "https://www.jstor.org/stable/10.3366/j.ctt1r2b3c.12"
+    },
+    {
+      "id": "src_slessor_livingstone",
+      "kind": "biography",
+      "title": "W. P. Livingstone, Mary Slessor of Calabar: Pioneer Missionary (London: Hodder and Stoughton, 1915; Internet Archive scan from Princeton Theological Seminary Library; OCR text and the frontispiece plate read). CONTEMPORARY ADMIRING BIOGRAPHY by the editor of the United Free Church's Record, published under the auspices of its Women's Foreign Mission Committee; quotes her letters at length. Used for the 1888 reconnaissance to Ekenge and the 'lump in my throat' letter, the Morrison engagement, the 1905 offer of the native court post at a nominal pound a year with the balance passed to the mission, and her resignation from the Ikotobong court; its own admission that she had no gift as an organiser. Not independent of her own letters; read critically.",
+      "url": "https://archive.org/details/maryslessorofcal00livi"
+    },
+    {
+      "id": "src_slessor_kingsley",
+      "kind": "archive",
+      "title": "Mary H. Kingsley, Travels in West Africa: Congo Francais, Corisco and Cameroons (London: Macmillan, 1897; Internet Archive scan, pages on Okoyong and the chapters on fetish and twins read from the OCR text). INDEPENDENT EYEWITNESS: the traveller, a sharp critic of missionaries, stayed with Slessor at Okoyong, describes her as living alone as the only white person there and ruling as a 'veritable white chief', praises her language, knowledge and courage, and narrates the rescue of the first twins in that district, with the hunt for a new path so the polluted route was not used. Contemporary primary account; admiring and written for a general audience.",
+      "url": "https://archive.org/details/cu31924085660581"
+    },
+    {
+      "id": "src_slessor_pulse",
+      "kind": "press",
+      "title": "Temi Iwalaiye, 'Mary Slessor didn't abolish twin killing in Calabar, here's the truth', Pulse Nigeria (15 May 2024; read in full). Nigerian press counter-voice: says many historians dispute that she ended twin killing, credits earlier missionaries (Edgerley, Waddell, Goldie), consuls and the Efik kings' agreements from 1849-1855, and says her own action was enforcement in Okoyong and a sanctuary. Names no historians and has a dating slip (places her Okoyong ban in 1876, when she arrived in Calabar), so used only for the existence of the credit dispute.",
+      "url": "https://www.pulse.ng/story/mary-slessor-didnt-abolish-twin-killing-in-calabar-heres-the-truth-2024072704262150107"
+    },
+    {
+      "id": "src_slessor_bbc",
+      "kind": "press",
+      "title": "'The Queen of Okoyong': The legacy of Mary Slessor, BBC News (Scotland, centenary of her death, January 2015; read in full). Centenary press feature quoting the Moderator of the Church of Scotland and Carly Cooper, curator at the McManus museum in Dundee, which holds her papers: says her early letters speak of 'the heathens' and that over time, as she learned the language and traditions, her work became less about conversion (she had very few converts) and more about improving people's lives; notes her wages were sent home so she ate local food. Popular commemorative piece, partly reverent, but the curator's reading of the letters is first-hand.",
+      "url": "https://www.bbc.com/news/uk-scotland-tayside-central-30577100"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 74,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_slessor_kingsley, src_slessor_dacb, src_slessor_livingstone, src_slessor_knox | 1888-1897 | eyewitness traveller, reference biography, contemporary biography, critical scholarship] In 1888 she went to settle among the Okoyong, where an earlier teacher had fled after a shooting affray and the mission had found no welcome; Kingsley, who stayed with her, found her living alone as the only white person there; the DACB and Livingstone say she admitted fear ('my courage repeatedly threatened to take wings and fly away'); she also went barefoot and bareheaded and refused to filter water, which cost her health (Knox, DACB). SELF-CALIBRATION (agent): lowered from 80 / 0.66 (documented) to 74 / 0.60 (strong_inference) because the danger of Okoyong comes largely from missionary reports and the admiring biography, and Knox notes that the Calabar mission had been established for some forty years, so the stakes were smaller than the legend suggests; the independent corroboration is Kingsley."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slessor_knox, src_slessor_dacb, src_slessor_livingstone | 1888-1910 | critical scholarship, reference biography, contemporary biography] Knox documents several clashes: Knox says she went to Ekenge against the Foreign Mission Board's opposition and a temporary withdrawal of her salary (the DACB says the committee approved her request in 1886, so this point is disputed); she defied the 1891 English-instruction rule so that the Governor General called her schools 'hedge schools'; she wrote 'I am NOT your obedient servant' to a district commissioner in 1910; and she was dismissed from the court after a dispute over labourers' rights (Livingstone says she resigned after a severe illness). She also boxed the ears of men who offended her in court (DACB, Knox). CONCENTRATION CORRECTION (agent): lowered from 74 / 0.60 to 70 / 0.54 because most of the incidents come from Knox's reading of her letters and the sources disagree on the 1909 episode."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slessor_dacb, src_slessor_knox, src_slessor_livingstone, src_slessor_kingsley | 1876-1915 | reference biography, critical scholarship, contemporary biography, eyewitness traveller] She served about forty years in Calabar and the interior despite repeated malaria, boils and blood-poisoning (Knox quotes her letters), returned after each furlough and, in her last years, reportedly kept holding services while gravely ill (DACB); Kingsley found her still at Okoyong after eighteen years. SELF-CALIBRATION (agent): lowered from 76 / 0.64 (documented) to 72 / 0.60 (strong_inference) because the illness and endurance accounts are her own letters relayed by sympathetic biographers, with Kingsley's eyewitness only for one point in time, and Knox notes she used laudanum to keep her schedule, so the picture is not simply of discipline."
+    },
+    "autonomy_need": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_slessor_knox, src_slessor_dacb, src_slessor_livingstone | 1876-1909 | critical scholarship, reference biography, contemporary biography] She repeatedly sought stations away from the base and from supervision, pushed into the interior regardless of the Board's approval, and by 1904 was telling the Board what she expected to happen (DACB); Knox quotes colleagues who said they loved her but could not work with her and says she 'didn't need them'; Miss Ames, quoted by Knox, says there was no routine with 'Ma', and Livingstone says she admitted she had no gift as an organiser. CONCENTRATION CORRECTION (agent): lowered from 76 / 0.58 to 72 / 0.54 because the same colleague remark and her own preferences carry most of the claim, and her need to rely on the Board for salary and the colonial government for access limits the picture."
+    },
+    "proactive_agency": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slessor_knox, src_slessor_dacb, src_slessor_livingstone | 1888-1913 | critical scholarship, reference biography, contemporary biography] She asked to go to Okoyong before her first furlough and made the final arrangements herself in June 1888; opened a string of bush schools and set up homes and vocational training for abused women at Use (1907), Ikot Obong (1908) and Odoro Ikpe (1913) (Knox). CONCENTRATION CORRECTION (agent): lowered from 76 / 0.62 to 72 / 0.58 because the schools and homes rest mainly on Knox's use of Livingstone and an unattributed estimate of over fifty schools and 2,000 pupils, and the same estimate admits that some of the schools closed soon after opening."
+    },
+    "impact_motivation": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slessor_kingsley, src_slessor_dacb, src_slessor_knox, src_slessor_livingstone | 1876-1913 | eyewitness traveller, reference biography, critical scholarship, contemporary biography] She raised eight adopted children, sent part of her small salary to her mother and sisters, accepted the court post but declined payment, and tied schooling to demands for protection of twin mothers and women (Knox, Livingstone); Kingsley, who disliked much of missionary work, praises the good she had done; the agnostic commissioner Partridge, who disapproved of other missionaries, placed her first among the women he knew (DACB). SELF-CALIBRATION (agent): lowered from 80 / 0.64 to 76 / 0.60 because self-sacrifice is the core of the hagiographic image and Knox shows her mission was also an instrument of conversion and of British expansion, so the score reflects concern for local people's welfare but not a verdict on effects."
+    },
+    "resourcefulness": {
+      "score": 70,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slessor_knox, src_slessor_livingstone, src_slessor_dacb | 1876-1913 | critical scholarship, contemporary biography, reference biography] She lived on a small salary by eating local food, built houses and made cement for floors with the children (a fellow missionary's recollection quoted by Knox), ran schools at no cost to the mission using money from her friends and her own pocket, and set up farms and craft workshops for women; the DACB says living like a local let her send more salary home. Mostly documented by sympathetic sources and her letters."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slessor_dacb, src_slessor_knox, src_slessor_kingsley | 1876-1905 | reference biography, critical scholarship, eyewitness traveller] She learned Efik by ear so well that she was said to have an 'Efik mouth', adopted local food, dress and housing, moved between stations, and shifted from the revulsion in her first letters to closer engagement (Knox); Kingsley describes her unmatched grasp of local language, ways of thought and illness. SELF-CALIBRATION (agent): lowered from 72 / 0.58 to 68 / 0.54 because Knox notes that her poor background made the life less of a leap and that she kept patronising and racial remarks in her letters as late as 1905."
+    },
+    "persuasiveness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slessor_livingstone, src_slessor_knox, src_slessor_kingsley | 1888-1907 | contemporary biography, critical scholarship, eyewitness traveller] She won the Okoyong chiefs' promise of ground and of refuge for her house and school in 1888 (Livingstone), exchanged schools for reforms on child marriage, alcohol, Sunday markets and twin mothers (Knox), and Kingsley calls her influence over the people unmatched. She was an anxious public speaker in Britain, who once ran off a platform in Edinburgh (Knox), so the score covers face-to-face negotiation, not oratory."
+    },
+    "collaboration": {
+      "score": 50,
+      "confidence": 0.42,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_slessor_knox, src_slessor_dacb, src_slessor_livingstone | 1888-1913 | critical scholarship, reference biography, contemporary biography] She worked closely with Ma Eme, the chiefs, King Eyo, Partridge and younger missionaries who supported her (DACB), and trained local girls and boys as teachers; but colleagues said they could not work with her, she used idiosyncratic methods and Livingstone says she lacked organising gifts (Knox). The evidence points both ways, so the score stays at the midpoint with low confidence."
+    },
+    "leadership_drive": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_slessor_kingsley, src_slessor_knox, src_slessor_dacb | 1888-1913 | eyewitness traveller, critical scholarship, reference biography] Kingsley describes her ruling as a 'veritable white chief' in Okoyong; she accepted vice-consul and court posts but declined pay and, by the DACB account, was telling the Board to send an ordained missionary so she could move on; Knox notes that she disclaimed organisational ability. Authority came partly through a colonial appointment, so this is a moderate, low-confidence row."
+    },
+    "planning_orientation": {
+      "score": 38,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "risk",
+      "rationale": "[src_slessor_knox, src_slessor_livingstone | 1888-1913 | critical scholarship, contemporary biography] Knox describes her methods as idiosyncratic and her work as 'generally in a state of disorganisation', and Livingstone says she admitted she had no gifts as an organiser and built because there was no one else. SELF-CALIBRATION (agent): confidence lowered from 0.46 (strong_inference) to 0.42 (inference), score unchanged, because the two sources partly share a base (Livingstone's account) and are about her work as a whole, not specific planning decisions."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_slessor_knox, src_slessor_bbc | 1876-1914 | critical scholarship, press feature quoting a museum curator] Knox says that as she learned the language and lived among local people she moved away from an overtly racial view of Africans toward the view that European superiority was only a matter of knowledge of God, and that her late letters shifted from support of British expeditions to hostility to them; he also shows that she kept patronising remarks and an unquestioning belief in the Empire in other letters. The McManus curator quoted by the BBC likewise reads her letters as moving from 'the heathens' to a focus on people's lives. Two readings of the same letters, mixed in direction, so low confidence."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_slessor_kingsley, src_slessor_dacb, src_slessor_livingstone | 1876-1897 | eyewitness traveller, reference biography, contemporary biography] She made the study of Efik her first priority, learned local law, belief and custom (including the Ekpe fraternity and poison-bean ordeals) and helped Kingsley with her inquiries on fetish (Kingsley, DACB); Livingstone quotes a colleague, the Hope Waddell Institute principal J. K. Macgregor, calling her 'a mine of information on mission history and Efik custom'. Her interest served her mission, which limits how much it says about curiosity in general."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "메리 슬레서"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/mary-slessor-unknown-1915.jpg",
+    "width": 607,
+    "height": 1100,
+    "source": "Photographic frontispiece plate of Mary Slessor (half-length, seated, hands folded) printed with the facsimile inscription 'Yours in Royal Service, Mary M. Slessor' below it, in W. P. Livingstone, Mary Slessor of Calabar: Pioneer Missionary (London, New York, Toronto: Hodder and Stoughton, 1915); the plate is listed in the book's illustrations as 'Mary M. Slessor ... Frontispiece'. Source is the Internet Archive scan of the Princeton Theological Seminary Library copy (maryslessorofcal00livi); the plate was cropped from the 1812 x 3112 page render of the scan (no upscaling) and downscaled to 607 x 1100. The photographer and the date of the photograph are not named in the book. The 1910 and 1915 US and UK editions were not compared for an earlier first publication.",
+    "license": "Public domain by age: the book was published in London and New York in 1915 (before 1931) and the plate is reproduced in it; the Internet Archive record flags it 'NOT_IN_COPYRIGHT' and states no licence or rights of its own; the photographer is unknown. The Internet Archive terms page is script-rendered and could not be read, and no restriction is asserted at the item record.",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unnamed photographer; frontispiece of W. P. Livingstone, Mary Slessor of Calabar (Hodder and Stoughton, 1915), Internet Archive scan from Princeton Theological Seminary Library (cropped and downscaled).",
+    "attributionUrl": "https://archive.org/details/maryslessorofcal00livi",
+    "creator": "Unknown photographer (published by Hodder and Stoughton, London)",
+    "date": "undated photograph; published 1915",
+    "kind": "likeness",
+    "sourcePageUrl": "https://archive.org/details/maryslessorofcal00livi"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (lead) / REPLACED: the lead's Centre for the Study of World Christianity / IMPA lantern slide (Commons 'Mary Slessor (1848-1915) (imp-cswc-GB-237-CSWC47-LS2-002).jpg') carries a holder rights field 'Contact the repository for details' and the USC item page returns 404, so the holder has not released it and Commons' Public Domain Mark conflicts with it; NOT used. Replacement: the Livingstone 1915 frontispiece, actually opened and viewed in the Internet Archive scan (page 8 of the PDF): a studio photograph of a woman with short hair, brooch at the collar, hands folded on a book, flowers at the lower right, with the facsimile signature 'Yours in Royal Service, Mary M. Slessor'; the list of illustrations names the frontispiece 'Mary M. Slessor', so sitter identity is confirmed twice. Rights basis is publication in 1915 (before 1931); Internet Archive item record read (possible-copyright-status NOT_IN_COPYRIGHT; contributor Princeton Theological Seminary Library; no licenseurl). The IA terms page is script-rendered and could not be read; recorded as an unread terms page, not as a rights conflict. The photographer is not named, and the photograph may predate 1915, so no creator-death basis is claimed. Kind likeness. REGION sub_saharan_africa (frozen assignment; note the precedent David Livingstone, who is western_europe, flagged for lead review). ERA 19th_century. Nationality GB. KOREAN NAME transliteration 메리 슬레서, flagged. ZERO PRIVATE-CONDITION INFERENCE: only documented conduct is scored. Her faith, her illnesses beyond what the sources record and her one engagement are context. HAGIOGRAPHY CHECK: Knox's critical chapter, Kingsley's eyewitness account and the Nigerian-press dispute over twin-killing credit were read alongside the admiring biography; the cards do not credit her with ending twin killing in Calabar. Her imperial involvement is stated as ambiguous (colonial court roles, dependence on the 1901 expedition, later hostility to expeditions). Conflicting accounts of why she left the Ikotobong court (Livingstone: health; Knox: dismissed after a labour dispute) are hedged in the card. READ (6 sources besides Wikidata): DACB (full), Knox (full), Livingstone (OCR passages and plate), Kingsley (OCR passages), Pulse (full), BBC News 2015 (full); an EBSCO research starter was also read for date-checking and is not cited. Not opened: Hardage's 2010 biography, Buchan 1981, Imbua 2013 in African Economic History (JSTOR, paywalled; only its title and abstract were seen in a search), McEwan, Proctor, the philarchive paper (Cloudflare wall, not bypassed). Gutenberg was down for maintenance. ACHIEVEMENT GATE: all pass, see handback. RAW ROWS 14."
+  }
+}

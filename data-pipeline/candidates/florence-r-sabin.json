@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "florence-r-sabin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Florence R. Sabin",
+    "aliases": [
+      "Florence Rena Sabin"
+    ],
+    "wikidataId": "Q449487",
+    "birthYear": 1871,
+    "deathYear": 1953,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "US"
+    ],
+    "regionCode": "north_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "anatomist",
+      "medical_researcher",
+      "teacher"
+    ],
+    "fieldIds": [
+      "medicine",
+      "biology"
+    ],
+    "impactDomains": [
+      "medical",
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "mentor",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "scientific_explorer"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_sabin_wikidata",
+      "kind": "wikidata",
+      "title": "Florence R. Sabin (Q449487), verified live via the Wikidata API (2026-11-24): English label 'Florence R. Sabin', description 'American medical scientist (1871-1953)', instance of human, born 9 November 1871, died 3 October 1953, citizen of the United States, Korean label 플로렌스 R. 세이빈. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q449487"
+    },
+    {
+      "id": "src_sabin_nlm",
+      "kind": "institution",
+      "title": "National Library of Medicine, Profiles in Science, 'Florence R. Sabin' (four essay pages read in full: Biographical Overview; On the Faculty at 'The Hopkins', 1902-1925; At the Rockefeller Institute for Medical Research, 1925-1938; Sabin's Third Career: Public Health in Colorado, 1939-1951). CANONICAL SIGNIFICANCE SOURCE: first woman on the Johns Hopkins medical faculty (1902) and first woman full professor there (1917), her work showing by dye injection and serial sections that the lymphatic system arises as buds from embryonic veins, her tissue-culture studies of how blood cells arise from the lining of blood vessels and her supravital staining methods, first woman president of the American Association of Anatomists (1924), first woman elected to the National Academy of Sciences (1925), first woman full member of the Rockefeller Institute, her work there on the immune cells in tuberculosis, and the 1944-1951 Colorado public-health campaign (the Sabin program, four of six bills passed in 1947; Denver tuberculosis and syphilis rates). Institutional archive-based biography; admiring in tone but it records the 1917 chair decision, the lymphatic controversy and the two bills that failed.",
+      "url": "https://profiles.nlm.nih.gov/spotlight/rr/feature/biographical-overview"
+    },
+    {
+      "id": "src_sabin_nas",
+      "kind": "biography",
+      "title": "Philip D. McMaster and Michael Heidelberger, 'Florence Rena Sabin, 1871-1953', Biographical Memoirs of the National Academy of Sciences (1960; read in full, with its account of her three careers). Written by a Rockefeller Institute colleague and a coauthor who knew her; draws on Edna Yost's American Women of Science and on first-hand recollections. Describes her teaching and laboratory habits, her role as buffer in departmental rivalries at Hopkins, her lecture arguments for women in research, and in detail the Colorado campaign: the six-bill Sabin program, her trips to all sixty-three counties, her work with legislators, her disagreement with colleagues over the tuberculosis hospital bill, the compromise brucellosis bill two years later, her Denver post and the donation of her salary. Admiring memorial biography by colleagues.",
+      "url": "https://www.nasonline.org/wp-content/uploads/2024/06/sabin-florence.pdf"
+    },
+    {
+      "id": "src_sabin_gale",
+      "kind": "biography",
+      "title": "Gale biographical entry 'Sabin, Florence (1871-1953)' in the women's biography collection on Encyclopedia.com (reference-work biography; read in full; its listed sources are Andriole 1959 and Bluemel's Florence Sabin: Colorado Woman of the Century). Used for the context of her admission to Hopkins, her fellowship under Mall, and the statement that she chose to work quietly and avoid public protest over how male colleagues treated her; it is a secondary retelling and is not independent of the Bluemel and Yost biographical tradition that the memoir also uses.",
+      "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/sabin-florence-1871-1953"
+    },
+    {
+      "id": "src_sabin_rockefeller",
+      "kind": "institution",
+      "title": "The Rockefeller University Hospital Centennial, 'Hematopoietic Stem Cells, and Unraveling the Immune Response to Tuberculosis' (institutional history page on Sabin's 1925-1938 work; read in full). Says that in the 1920s she set out to identify the chemical components of the tuberculosis bacterium that provoke different immune cells, that she found how monocytes become the multinucleated giant cells of tuberculous lesions, and that her studies of blood-cell origin in chick embryos and her staining methods lay behind this; gives her posts and honours and the publications of the work with coworkers (Cunningham, Doan, Kindwall, Sugiyama).",
+      "url": "https://centennial.rucares.org/index.php?page=Tuberculosis"
+    },
+    {
+      "id": "src_sabin_weinstein",
+      "kind": "institution",
+      "title": "Brant M. Weinstein and coauthor, 'Lymphatic development', Birth Defects Research Part C: Embryo Today (2009; open-access review in PubMed Central; read in full). Modern scientific review that names Sabin as a major protagonist of the view that lymphatic vessels bud outward from veins, records that other investigators objected that injection methods can miss lymphatics and that serial-section workers (Huntington and McClure, 1910) favoured an origin in tissue spaces, and reports that later marker and lineage-tracing work in mice supports a mainly venous origin while bird and frog studies suggest an additional contribution from other mesoderm. Counter-voice on the lymphatic claim.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755610/"
+    },
+    {
+      "id": "src_sabin_dpl",
+      "kind": "institution",
+      "title": "Denver Public Library Special Collections, 'Dr. Florence Sabin (1871-1953)' (library biography page in the Colorado Biographies series; read in full). Retells her childhood, schooling, the Smith College physician's advice that she should work for women as women, the chair decision at Hopkins, the Rockefeller years and the Colorado work; says she disliked being called a woman scientist and thought her work should speak for itself; gives the advocacy-era claim that her measures halved Denver's tuberculosis rate. Local-history popular biography; used for context and the Denver claims, which are not independently verified.",
+      "url": "https://history.denverlibrary.org/colorado-biographies/dr-florence-sabin-1871-1953"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_nas, src_sabin_rockefeller | 1917-1947 | institutional biography, memorial biography, institutional history page] When the Hopkins anatomy chair went to a former student in 1917 she accepted it without protest and, asked if she would stay, said she had research in progress and stayed until 1925; she then spent 1925-1938 on one long tuberculosis and immune-cell programme, and in Colorado went to all sixty-three counties for her health bills, kept fighting for the brucellosis bill that failed in 1947 until a compromise passed two years later. The episodes come from two biographical traditions that overlap, and some of the detail (the blizzard trip) is one anecdote."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_nas | 1944-1951 | institutional biography, memorial biography] The governor appointed her in 1944 expecting, in the biography's words, a brilliant little old lady who would not rock the boat; she instead arranged health surveys of every county, had bills drafted, campaigned across the state and lobbied legislators, then took the Denver health post and ran sanitation and tuberculosis campaigns. The acts are documented in both sources, but the reading that this went beyond what was asked rests on the NLM account, and the memorial biography is admiring."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_nas, src_sabin_dpl | 1925-1951 | institutional biography, memorial biography, library biography] She moved from academic laboratory work to a tuberculosis programme aimed at finding how to interfere with tubercle formation, then in retirement to public-health lawmaking, gave her $4,000 Denver salary to the University of Colorado for research, and argued in lectures for women's place in research. The claim that her campaign halved Denver's tuberculosis rate comes from advocacy-era accounts (NLM gives figures, the library says halved) and is not used to raise the score; the motive is inferred from choices, not stated in a primary source we read."
+    },
+    "collaboration": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_nas, src_sabin_rockefeller | 1902-1938 | institutional biography, memorial biography, institutional history page] She accepted the Rockefeller post on the condition that salaries for several of her Hopkins fellows be included, led a team in the inter-institutional tuberculosis programme, worked beside students and refused their help with routine work so they could do research (memoir), and her papers on blood cells and tuberculosis were written with coworkers (Cunningham, Doan, Kindwall, Sugiyama). The portrait is warm and comes from two admiring biographical sources, and how she handled disagreement within the teams is not documented."
+    },
+    "analytical_rigor": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_nas, src_sabin_weinstein | 1902-1925 | institutional biography, memorial biography, scientific review] For the lymphatic work she injected colored material into the vessels of younger pig embryos and made serial sections of injected and uninjected embryos to show that the vessel ends were closed; the biography calls her research meticulous and the memoir quotes her ideals of objectivity and perfected technique (words she wrote of her teacher Mall and that a student later applied to her). A modern review records that critics said injection methods can miss lymphatics, so the method was careful but contested, and the praise of her rigour is partly her own stated ideal."
+    },
+    "creative_originality": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_nas, src_sabin_rockefeller | 1901-1925 | institutional biography, memorial biography, institutional history page] The biography says Mall noticed her skill and originality in classes; she used younger embryos than earlier workers, watched blood cells arise in living chick-embryo cultures and perfected supravital staining, but the two projects that made her name (the brainstem model and the lymphatic study) were suggested by Mall, and the culture and staining methods were adapted from others (Harrison, German laboratories). The originality is real in application but the evidence is a biographer's characterisation plus shared origins of the projects."
+    },
+    "experimentation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_nas, src_sabin_rockefeller | 1902-1938 | institutional biography, memorial biography, institutional history page] Documented, distinct experimental designs: dye injection with serial sections of pig embryos (1902-1909), living hanging-drop cultures of chick blastoderm to watch blood cells arise from vessel lining (after 1917, after trips to Leipzig to learn tissue culture and staining), supravital staining of living cells, and tests of separated chemical fractions of tuberculosis bacteria on animals (1925-1938). The designs are well described, but all three sources are narrative summaries and the tuberculosis fractions programme was shared with other laboratories."
+    },
+    "independent_thinking": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_weinstein, src_sabin_nas | 1902-1947 | institutional biography, scientific review, memorial biography] Her lymphatic results were the opposite of what other anatomists predicted and caused controversy (NLM); a modern review calls her a major protagonist of the venous-origin view against objections from serial-section workers, and later work supports venous origin as the main source but not the only one; in Colorado she did not back the tuberculosis hospital bill that colleagues wanted, judging it would weaken the others (memoir). Held against controversy and later partly vindicated, but the dissent from colleagues rests on one memoir sentence and the lymphatic stand was shared by other injection workers."
+    },
+    "cross_domain_range": {
+      "score": 60,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_nas, src_sabin_rockefeller | 1900-1951 | institutional biography, memorial biography, institutional history page] Three careers with real output in each: embryology and anatomy (lymphatics, blood cells, a brainstem atlas), immunology of tuberculosis, and state and city public-health policy (the Sabin program, Denver health department). The range is documented, but it spans one medical-scientific world and her role in the policy work built on her scientific standing and a large coalition."
+    },
+    "conflict_tolerance": {
+      "score": 54,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_sabin_nas, src_sabin_nlm, src_sabin_gale | 1902-1951 | memorial biography, institutional biography, reference biography] Evidence points both ways: she accepted the 1917 chair decision without protest and, per the reference biography, quietly avoided public protest of her colleagues' treatment, yet she acted as the buffer in rivalries at Hopkins, pressed the cattle and dairy interests on the brucellosis bill and enforced sanitation rules on Denver restaurants and milk suppliers. Kept near the middle with lowered confidence because the sources describe her as forthright in public campaigns and restrained in her own grievances."
+    },
+    "planning_orientation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nlm, src_sabin_nas | 1944-1951 | institutional biography, memorial biography] The Colorado work followed a sequence: consulted public-health experts, ran surveys of all counties, drafted six bills, campaigned across the state, lobbied legislators in 1947, and pushed county health districts afterwards; the memoir adds that she judged the tuberculosis hospital bill should wait so it would not weaken the others. Documented as a sequence, but the strategy is described by one admiring memoir and the team included lawyers and an experienced secretary."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_sabin_nas, src_sabin_nlm | 1944-1947 | memorial biography, institutional biography] Four of six bills passed in 1947 after she spoke across the state and lobbied legislators, the memoir says some legislators who feared her became supporters and that candidates who opposed her program lost in 1946, and she gave public lectures for women in research. The result depended on many allies (medical societies, the governors, newspapers) and the passage of the bills is outcome evidence, so this is a modest inference about her persuasive effect."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "플로렌스 R. 세이빈"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/florence-r-sabin-doris-ulmann-1922.jpg",
+    "width": 749,
+    "height": 1000,
+    "source": "Photogravure portrait 'Florence R. Sabin' by Doris Ulmann (1882-1934), New York, dated c1922 Sept. 1, Library of Congress Prints and Photographs Division, LOT 4552-2, reproduction number LC-USZ62-10273, digital id cph.3a12699 (LOC item 2004672786; the catalog notes 'Copyright Doris Ulmann, N.Y.' and Copyright Office entry J256946; the printed imprint below the picture reads 'Doris Ulmann, N.Y.'). Used from the full-size scan of the same item on Wikimedia Commons (1159 x 1536 pixels); white print margin and imprint line cropped away and the picture downscaled to 749 x 1000 pixels, not upscaled.",
+    "license": "Public domain in the United States: published c1922 with a copyright notice (before 1 January 1931, so out of copyright); photographer Doris Ulmann died in 1934. The Library of Congress record states 'No known restrictions on publication'; the Library says it does not own the rights and that users must assess them, so the conclusion rests on the 1922 date and the photographer's death date.",
+    "licenseUrl": "https://www.loc.gov/pictures/item/2004672786/",
+    "attribution": "Doris Ulmann, Florence R. Sabin, photogravure, c1922. Library of Congress, Prints and Photographs Division, LC-USZ62-10273.",
+    "attributionUrl": "https://www.loc.gov/pictures/item/2004672786/",
+    "creator": "Doris Ulmann (1882-1934), New York",
+    "date": "c1922 (catalog date 1 September 1922)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.loc.gov/pictures/item/2004672786/"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B, bot-walled) / lead did NOT survive as shipped: the 314 x 406 Colorado Club Woman magazine crop was too small and its holder record unread; the second Stage B route, the Library of Congress print cph.3a12699, was used. REPLACEMENT: LOC Prints and Photographs item 2004672786 (read through the Library's JSON API; the HTML item pages are behind a Cloudflare check and were not bypassed): photogravure 'Florence R. Sabin' c1922 Sept. 1, photographer Doris Ulmann (1882-1934) per the LOC creator field (Commons says 'Unknown author', the holder record overrides), notes 'Copyright Doris Ulmann, N.Y.' and Copyright Office entry J256946, rights statement 'No known restrictions on publication', call number LOT 4552-2. The printed imprint below the picture on the full-size scan reads 'Doris Ulmann, N.Y.' (viewed). Full-size scan 1159 x 1536 taken from the Commons copy of the same LOC item (LOC's own cdn offers only a 483 x 640 reduction), cropped to the picture and downscaled to 749 x 1000. LOC guidance page read: the Library does not own the rights, 'no known restrictions' is not a public-domain declaration, and the user must assess rights; our basis is therefore age: published c1922 with a notice (US public domain), photographer died 1934. CAVEAT: the 1922 date is the catalog's registration/creation date and first publication was not independently shown; sitter identity rests on the LOC title (the print carries no sitter lettering) and is consistent with the Rockefeller University history page photograph captioned Sabin. Kind likeness. PREFLIGHT: QID VERIFIED LIVE (2026-11-24) Q449487 'Florence R. Sabin', 'American medical scientist (1871-1953)', instance of human, born 9 November 1871, died 3 October 1953, citizen of the United States, Korean label and Korean Wikipedia title 플로렌스 R. 세이빈. REGION north_america. ERA 20th_century. ATTRIBUTION: attributable (dated papers, archive-based NLM biography, colleague-written NAS memoir). READ (substantively): NLM Profiles in Science (four essay pages), the NAS biographical memoir by McMaster and Heidelberger, the Gale entry, the Rockefeller University history page, Weinstein's lymphatic-development review, the Denver Public Library biography. The Colorado Encyclopedia page returned an empty response (HTTP 202) and was not used; Britannica and Wikipedia were not cited. COUNTER-VOICES: Weinstein's review (objections to the injection method, later partial support for the venous origin), the NLM account of the failed tuberculosis-hospital and brucellosis bills, the 1917 chair decision, the Gale entry's remark that she avoided public protest. ZERO POLITICS RULE: only her scientific work and her public-health campaign are carded; the Sabin program is described as health legislation and the statue, party or electoral matters are not scored. WEAKNESS: nearly all behavioural material comes from one biographical tradition (Bluemel, Yost, Andriole, the colleague-written memoir, and the NLM essays built on her papers), so confidence is capped; her own writings and the Mall biography were not read. 12 rows. SELF-CALIBRATION: every row lowered once, see handback. KOREAN NAME 플로렌스 R. 세이빈 is an authoritative-label class (Wikidata ko label and Korean Wikipedia title)."
+  }
+}

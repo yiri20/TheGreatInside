@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "claudio-monteverdi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Claudio Monteverdi",
+    "aliases": [
+      "Claudio Giovanni Antonio Monteverdi",
+      "Claudio Monteverde"
+    ],
+    "wikidataId": "Q53068",
+    "birthYear": 1567,
+    "deathYear": 1643,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "composer",
+      "musician"
+    ],
+    "fieldIds": [
+      "music"
+    ],
+    "impactDomains": [
+      "artistic",
+      "cultural"
+    ],
+    "tagIds": [
+      "innovator",
+      "mentor"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_monteverdi_wikidata",
+      "kind": "wikidata",
+      "title": "Claudio Monteverdi (Q53068), verified live via the Wikidata API (2026-11-24): English label 'Claudio Monteverdi', description 'Italian composer, string player, choirmaster, and priest (1567-1643)', Korean label 클라우디오 몬테베르디, instance of human, born 15 May 1567, died 29 November 1643. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q53068"
+    },
+    {
+      "id": "src_monteverdi_heller",
+      "kind": "biography",
+      "title": "Encyclopedia.com page carrying two reference entries on Monteverdi, both read in full: Wendy Heller and Mark Kroll, 'Monteverdi, Claudio (1567-1642)', Europe 1450 to 1789: Encyclopedia of the Early Modern World (Gale), and the Baker's Biographical Dictionary of Musicians entry. CANONICAL SIGNIFICANCE SOURCE: the Heller and Kroll entry calls him one of the most pivotal figures in the history of music, whose work was a primary force in the shift from the old contrapuntal style of Palestrina and Lasso to the modern style, and whose Orfeo (1607) 'has long been considered the first great opera'; it records the Artusi dispute, his appointment at San Marco in 1613 where he revitalized a declining institution by hiring musicians, expanding the library and raising standards, the Madrigali guerrieri et amorosi (1638) and the Venetian operas of 1639-43; Baker's adds the 1627 arrest of his son by the Inquisition, his holy orders in 1632, burial in the Frari, and credits him with early use of string tremolo and pizzicato and with the terms prima and seconda prattica. Admiring reference summaries.",
+      "url": "https://www.encyclopedia.com/people/literature-and-arts/music-history-composers-and-performers-biographies/claudio-monteverdi"
+    },
+    {
+      "id": "src_monteverdi_beeks",
+      "kind": "biography",
+      "title": "Graydon Beeks, 'Claudio Monteverdi', EBSCO Research Starters (2024; biographical article read in full): training under Ingegneri in Cremona, five publications before joining the Gonzaga court at about twenty-five, the 1600 Artusi controversy over unprepared dissonance, Orfeo (1607) as the first full-fledged opera, his collapse and complaints after the 1608 festivities, the 1610 Vespers, dismissal in July 1612, the recovery of standards at St Mark's, Venice, from 1613, and the late Venetian operas; also gives a character sketch (serious, made few concessions to colleagues or audiences, sometimes difficult, a good provider and generous teacher) and a closing judgement on his versatility and adaptability. Biographical article of a reference-work type; some character claims are the author's summary without cited incidents.",
+      "url": "https://www.ebsco.com/research-starters/history/claudio-monteverdi/"
+    },
+    {
+      "id": "src_monteverdi_carter_essay",
+      "kind": "institution",
+      "title": "Tim Carter, 'Monteverdi and Some Problems of Biography', Journal of Seventeenth-Century Music vol. 18 no. 1 (Society for Seventeenth-Century Music, open-access scholarly article; read in full except the footnotes). NON-SELF BEHAVIOURAL SOURCE: re-reads his career as negotiation inside the Gonzaga household: the 1601 petition for the maestro post written in unseemly haste, repeated complaints about unpaid salary and ill health, the 1605 preface that named Artusi in print and put the duke's name on the book, the bold or brash tone of his letters, the duke's July 1612 complaint that the Monteverdi brothers treated him with little courtesy and had 'mutinied', his refusal of invitations to return to Mantua in 1619-20 and 1627, and his lifelong effort to collect his pension; also notes friction at St Mark's and a post-1623 anonymous denunciation. Interpretive scholarly essay that explicitly relies on inference; it reads some episodes as strategy.",
+      "url": "https://sscm-jscm.org/jscm-issues/volume-18-no-1/monteverdi-and-some-problems-of-biography/"
+    },
+    {
+      "id": "src_monteverdi_carter_chronology",
+      "kind": "institution",
+      "title": "Tim Carter, 'Claudio Monteverdi: A Chronology', appendix to the same article in the Journal of Seventeenth-Century Music vol. 18 no. 1 (read in full). Dated entries drawn from archival and printed sources: his move to Mantua in 1590, the 1601 petition two days after Pallavicino's death, the 1604 salary complaints, the 1607-08 festivities, the 1608 letters seeking release, the January 1609 pension and raise, the 1610 trip to Rome with the Vespers, the discharge of 29 July 1612, the audition and appointment at St Mark's in August 1613, the 1623 Polish offer, the 1627 refusal to return to Mantua, disputes with singers in 1637 and 1642, the 1639-42 operas, and his six-month trip in 1643 to secure his pension. Same author as the essay, so the two are one scholarly family; used for dates and documented episodes.",
+      "url": "https://sscm-jscm.org/jscm-issues/volume-18-no-1/claudio-monteverdi-a-chronology/"
+    },
+    {
+      "id": "src_monteverdi_siegele",
+      "kind": "institution",
+      "title": "Ulrich Siegele, 'Seconda pratica: Counterpoint and Politics', Journal of Seventeenth-Century Music vol. 18 no. 1 (open-access scholarly article, translated from the German original of 1994; read sections 1-6): reads the Artusi-Monteverdi controversy as a charged exchange in which Artusi wrote with ecclesiastical backing and Monteverdi stayed silent through two attacks, then replied in 1605 through a postscript addressed to readers that minimised the conflict and stressed common ground, promised a treatise he never wrote, and published the attacked madrigal Cruda Amarilli at the head of the volume; a technical analysis of that madrigal finds that each dissonance follows a worked-out procedure. Independent scholarly voice, but the political thesis (an Inquisition threat) is the author's own argument and is not used here as fact.",
+      "url": "https://sscm-jscm.org/jscm-issues/volume-18-no-1/seconda-pratica-counterpoint-and-politics/"
+    },
+    {
+      "id": "src_monteverdi_interlude",
+      "kind": "press",
+      "title": "Georg Predota, 'Claudio Monteverdi (1567-1643)', Interlude.hk, Composers of the Month (4 May 2017; read in full). General-audience overview: precocious first publication at fifteen, deliberate publishing strategy while in an entry-level post at Mantua, the Artusi quarrel and the 1605 preface, Orfeo, the trip to Rome with the 1610 Mass and Vespers, dismissal in 1612, appointment at St Mark's, priesthood in 1632 and the return to opera when public houses opened in Venice. Popular summary consistent with the other accounts; used only for corroboration.",
+      "url": "https://interlude.hk/claudio-monteverdi/"
+    }
+  ],
+  "rows": {
+    "creative_originality": {
+      "score": 76,
+      "confidence": 0.6,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_heller, src_monteverdi_beeks, src_monteverdi_siegele | 1590-1642 | reference biography, biographical article, scholarly article] Heller and Kroll and Baker's say Orfeo moved beyond the Florentine model dominated by recitative by combining monody, madrigal and instrumental music, and Baker's credits him with unprepared dissonant chords and early string tremolo and pizzicato; Siegele's technical analysis of one madrigal finds he worked out new rules for bringing dissonance into a consonant texture. The three accounts agree on what he did, but two are reputation summaries and the analysis covers a single piece, so the score stays below the extreme band. SELF-CALIBRATION (agent): lowered from 78 / 0.64 to 76 / 0.60 because two of the three accounts are reputation summaries and the technical analysis covers one madrigal."
+    },
+    "experimentation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_heller, src_monteverdi_beeks | 1605-1638 | reference biography, biographical article] Beeks says the fifth book of madrigals added an obligatory basso continuo and that Orfeo joined the new monody to his own madrigal techniques and instrumental forms; Heller and Kroll describe the agitated style of the Combattimento, with plucked and bowed-wood string effects, as new in the eighth book. Separate trials in different genres are documented, but both accounts are overview summaries and neither describes how he tried things out. CONCENTRATION (agent): lowered from 68 / 0.54 to 66 / 0.50 because the string-technique claims rest on one reference family."
+    },
+    "aesthetic_sensitivity": {
+      "score": 70,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_heller, src_monteverdi_beeks, src_monteverdi_carter_essay | 1592-1638 | reference biography, biographical article, scholarly article] Beeks records that he chose texts of serious emotional content from Tasso and Guarini and defended unprepared dissonance as needed to express the meaning of the words rather than only illustrate them; Heller and Kroll note his attention to poetic detail in settings of Guarini, Tasso, Petrarch and Marino in the eighth book; Carter records the 1605 statement that the text should govern the music. Three accounts and different decades point the same way."
+    },
+    "adaptability": {
+      "score": 68,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_beeks, src_monteverdi_heller, src_monteverdi_carter_chronology | 1612-1642 | biographical article, reference biography, scholarly chronology] After his discharge from Mantua in July 1612 he took the St Mark's post in Venice in August 1613 and stayed there for thirty years while still writing stage works for Mantua, Parma and Piacenza; when public opera houses opened in Venice in 1637 he wrote operas for them in his seventies. Beeks names versatility and adaptability as the mark of his career. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 68 / 0.52 because the word adaptability is the biographer's and the evidence is mainly career outcomes."
+    },
+    "persistence": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_carter_chronology, src_monteverdi_carter_essay, src_monteverdi_beeks | 1609-1643 | scholarly chronology, scholarly article, biographical article] Carter documents that collecting the Mantuan pension confirmed in January 1609 occupied him for the rest of his life: a probable trip to Mantua in 1616, negotiation with the duke in 1620, a canonry sought in Cremona from 1627, and a six-month journey to Lombardy and Mantua in 1643, months before his death, to secure it; Beeks says he had difficulty collecting it for the rest of his life. He also went on writing after the plague and after taking holy orders, with operas in 1640-42. The pension effort is a money matter, which limits what it says about his creative work."
+    },
+    "proactive_agency": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_carter_chronology, src_monteverdi_carter_essay, src_monteverdi_beeks | 1601-1627 | scholarly chronology, scholarly article, biographical article] Two days after Pallavicino's death in November 1601 he petitioned the absent duke for the maestro post, with a text he had already drafted; in 1610 he travelled to Rome to present the Mass and Vespers to Paul V and to seek a seminary place for his son; in 1608 he sought release from Mantuan service and in 1612 was reported to be doing so again. Beeks reads the Vespers as an advertisement for a new post, while Carter calls that point moot. SELF-CALIBRATION (agent): lowered from 70 / 0.58 to 66 / 0.52 because his motives for the Vespers and the Rome trip are a contested reading."
+    },
+    "social_assertiveness": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_monteverdi_carter_essay, src_monteverdi_carter_chronology, src_monteverdi_beeks | 1601-1612 | scholarly article, scholarly chronology, biographical article] Carter reads a lack of tact in his direct letters to the duke (the 1601 petition, the 1604 salary complaints) and a sense of entitlement in approaching the duke and his family himself; in July 1612 Duke Francesco complained that the Monteverdi brothers treated him with little courtesy; Beeks says he made few concessions to colleagues or audiences. The row rests on one scholar's reading of the same letters and on a hostile party's complaint. CONCENTRATION (agent): lowered from 64 / 0.52 strong inference to 60 / 0.44 inference because Carter's interpretation of the letters carries the row."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_monteverdi_carter_essay, src_monteverdi_siegele, src_monteverdi_heller | 1600-1612 | scholarly article, scholarly article, reference biography] In 1605 he named Artusi in print and put the duke's name on the volume, which Carter calls bold or brash, and Carter says he stood up to the Gonzagas when he could; Siegele finds that he stayed silent through two attacks, then replied in a postscript to readers that played down the differences and left his brother's gloss to carry the argument. Documented confrontation and documented avoidance both appear. CONCENTRATION (agent): lowered from 60 / 0.50 strong inference to 58 / 0.46 inference because the two scholars describe both confrontation and avoidance of it."
+    },
+    "autonomy_need": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_monteverdi_carter_chronology, src_monteverdi_carter_essay | 1608-1627 | scholarly chronology, scholarly article] He sought release from Mantuan service in 1608 (his father petitioned for it), refused invitations to return to Mantua in 1620 and 1627 on the ground that Venice suited him better, and in 1623 took a Polish court offer seriously during disagreements with St Mark's officials; he also kept seeking princely ties (Parma, Vienna) and a Gonzaga pension. Carter reads his independence as bargaining within a web of obligations, so the row is moderate. CONCENTRATION (agent): lowered from 60 / 0.46 to 58 / 0.42 because the whole row rests on one scholarly family."
+    },
+    "leadership_drive": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_heller, src_monteverdi_beeks, src_monteverdi_carter_chronology | 1601-1620 | reference biography, biographical article, scholarly chronology] He petitioned for the head musician's post at Mantua in 1601 and auditioned for St Mark's in 1613; there, Heller and Kroll and Beeks say he restored a declining establishment by recruiting and training singers, regularizing pay, enlarging the library and gradually appointing younger men (Cavalli, Grandi, Rovetta) to share duties. The accounts describe what he did, not how others experienced his leadership."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_beeks, src_monteverdi_carter_chronology, src_monteverdi_heller | 1603-1620 | biographical article, scholarly chronology, reference biography] Beeks calls him a generous teacher and says he handed duties to younger men, many of them former students; he taught the singer Caterina Martinelli, who lived in his household, reported on musicians for Prince Francesco's court in 1609, acted as agent for another patron's print, and his brother Giulio Cesare added the 'Dichiaratione' defending his position to a 1607 book. Carter also records disputes with singers in 1637 and 1642 and friction with St Mark's officials, so the pattern is mixed."
+    },
+    "mastery_orientation": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_beeks, src_monteverdi_siegele, src_monteverdi_heller | 1582-1620 | biographical article, scholarly article, reference biography] Beeks says his early collections were modelled on older composers' pieces, that he named Ingegneri as his teacher through 1590, absorbed the influence of Marenzio and Wert, and had a highly polished technique at about twenty-five; Siegele's analysis finds the care he put into one madrigal. These show serious training and work on craft, but none states a drive to master the craft."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_monteverdi_siegele, src_monteverdi_heller | 1605-1638 | scholarly article, reference biography] Siegele's analysis of Cruda Amarilli says not a single note is left unjustified and nothing was done at random; Heller and Kroll note his attention to poetic detail in the eighth book. The first is one scholar's reading of one madrigal within his own thesis. CONCENTRATION (agent): lowered from 60 / 0.44 to 58 / 0.40 because a single analysis of a single piece carries most of the row."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "클라우디오 몬테베르디"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/claudio-monteverdi-unknown-engraver-1644.jpg",
+    "width": 790,
+    "height": 830,
+    "source": "Engraved oval portrait lettered CLAVDIO MONTEVERDE around the frame, from the engraved title page of Giovanni Battista Marinoni, Fiori poetici raccolti nel funerale del ... signor Clavdio Monteverde, maestro di cappella della ducale di S. Marco (Venice: Francesco Miloco, 1644), the memorial volume for his funeral; Beinecke Rare Book and Manuscript Library, Yale University, call number Vf12m 60b, digitised in Yale Digital Collections (item 11867795, title page image 11867815, 2228 x 3087 pixels). The oval was cropped out of the page scan at native resolution (790 x 830): no resizing, no upscaling. Engraver unnamed.",
+    "license": "Public domain by age: engraved and published in Venice in 1644, engraver unnamed, so far past any copyright term in Italy, the EU and the United States; Yale's item record carries only its general notice that use may be subject to copyright law or other terms, Yale's reuse policy and the Beinecke copyright page state that Yale holds no copyright in this kind of material and cannot grant or deny permission, and Yale's open-access policy covers digital images of public-domain works",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Unnamed engraver, title-page portrait of Claudio Monteverde in Fiori poetici raccolti nel funerale del ... signor Clavdio Monteverde (Venice: Francesco Miloco, 1644), Beinecke Rare Book and Manuscript Library, Yale University (Vf12m 60b). A posthumous engraving made for his funeral volume, not a lifetime likeness. Cropped from the title page, not resized.",
+    "attributionUrl": "https://collections.library.yale.edu/catalog/11867795",
+    "creator": "Unnamed engraver (published by Francesco Miloco, Venice)",
+    "date": "1644 (year after the sitter's death)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://collections.library.yale.edu/catalog/11867795"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / lead NOT survived, REPLACED by the Stage B fallback after verification: the lead (Strozzi, c.1630, Tiroler Landesmuseum Ferdinandeum Gem 503) was not used because the sitter is identified only by comparison with the 1644 engraving and the Ferdinandeum's current reuse terms could not be located (older mirror: reproduction prices on request); the holder item record was never opened. The shipped image is the engraved oval portrait lettered CLAVDIO MONTEVERDE on the title page of Marinoni's Fiori poetici (Venice: Francesco Miloco, 1644), Beinecke Library, Yale (Vf12m 60b). Yale item record read through the IIIF manifest (creator Marinoni, 1644, 'Engraved t.-p. with symbolical border and portrait of Monteverdi'; generic notice that use may be subject to copyright or site terms); Yale's reuse policy page and the Beinecke copyright page read (Yale claims no rights in public-domain works and cannot grant or deny permission); the Yale open-access policy document itself was not opened. Rights basis is age only: Venice 1644, engraver unnamed. KIND historical_depiction: a posthumous engraving made for the funeral volume (he died 29 November 1643), not a lifetime likeness; the image is a native-resolution crop (790 x 830), no upscaling. QID VERIFIED LIVE (2026-11-24) Q53068, human, born 1567-05-15, died 1643-11-29, ko label 클라우디오 몬테베르디 (also the Korean Wikipedia title; class authoritative-label). REGION southern_europe, ERA early_modern, nationality IT. ZERO POLITICS: his priesthood (1631-32), the Habsburg and Gonzaga ties and the anonymous 1620s denunciation are context only and unscored. ATTRIBUTION: attributable (dated publications, letters and archival documents; Poppea's final form may owe something to Sacrati, noted in the card). CANONICAL SIGNIFICANCE SOURCE: Heller and Kroll (with Baker's) on Encyclopedia.com. READ: Heller and Kroll plus Baker's (full), Beeks (full), Carter essay and chronology (full), Siegele (sections 1-6), Interlude (full). NOT OPENED (blocked or script-rendered): Britannica (403), Treccani (script-rendered), Project MUSE abstract page, Yale policy PDF. FAMILIES: four independent behavioural families (Carter archival scholarship; Beeks biographical article; Heller/Kroll and Baker's reference entries; Siegele technical analysis); Interlude is derivative. CONCENTRATION: five rows lowered (experimentation, social assertiveness, conflict tolerance, autonomy need, detail orientation); SELF-CALIBRATION: three more lowered (creative originality, adaptability, proactive agency); no row raised. Initial 13 rows, final 13. Letters were read only through Carter's quotations, never directly; Siegele's Inquisition thesis is not used as fact. MAJOR ACHIEVEMENT GATE: PASS (Orfeo, the new style and the second practice, Venice and the late operas)."
+  }
+}

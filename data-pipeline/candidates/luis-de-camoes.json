@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "luis-de-camoes",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Luís de Camões",
+    "aliases": [
+      "Luís Vaz de Camões",
+      "Luis de Camoens",
+      "Luis Vaz de Camoens",
+      "Camoëns"
+    ],
+    "wikidataId": "Q590",
+    "birthYear": 1524,
+    "deathYear": 1580,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "PT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "poet",
+      "writer"
+    ],
+    "fieldIds": [
+      "literature"
+    ],
+    "impactDomains": [
+      "literary",
+      "cultural",
+      "historical"
+    ],
+    "tagIds": [
+      "overcame_adversity",
+      "renaissance"
+    ],
+    "archetypeIds": [
+      "creative_creator"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_camoes_wikidata",
+      "kind": "wikidata",
+      "title": "Luís de Camões (Q590), verified live via the Wikidata API (2026-11-24): instance of human, label 'Luís de Camões' (multilingual default; no separate English label), English description '16th-century Portuguese poet', Portuguese description 'poeta português (1524-1580)', Korean label 루이스 드 카몽이스, born December 1524 or January 1525 (both recorded), died 10 June 1580, citizenship Kingdom of Portugal. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q590"
+    },
+    {
+      "id": "src_camoes_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Luís de Camões' (read: the summary and the 'Life' section; the 'Literary works' section did not load, and the machine-generated 'top questions' panel was not used). CANONICAL SIGNIFICANCE SOURCE: Portugal's great national poet, author of Os Lusíadas (1572), on Vasco da Gama's voyage to India, with a permanent impact on Portuguese and Brazilian literature through the epic and his posthumously published lyrics. Frankly sceptical about the life: biographers' accounts rest on 17th-century first biographers, a few 19th-century documents and allusions in his works, and 'successive biographers have woven the few concrete facts ... into a bewildering complexity of fantasy and theory'; the Coimbra studies are unproved; the Moroccan youth is supposed; the 1553 royal pardon for a street brawl is a documented fact; none of the nearly 17 years in the East is documented; the historian Diogo do Couto found him penniless in Mozambique and helped pay his passage; he returned in 1570, published in 1572, was granted a pension in July 1572, and the pension was renewed to his mother after his death. Reference article, balanced and cautious.",
+      "url": "https://www.britannica.com/biography/Luis-de-Camoes"
+    },
+    {
+      "id": "src_camoes_wb",
+      "kind": "biography",
+      "title": "Encyclopedia of World Biography (Gale), 'Luis Vaz de Camoëns' (reproduced on Encyclopedia.com; read in full). Narrative reference biography that separates documents from legend more than some: the only document of his early life is the royal 'Carta de perdão' of 7 March 1553 (he wounded a royal servant on Corpus Christi 1552 and was about to leave for India); four extant letters from India; expeditions of 1553-54 against the King of Pepper and up the Arabian coast; a 1558 post in Macao and accusations of maladministration; the 1567-69 stay in Mozambique, where Couto reports friends had to feed him; his return in April 1570 with, as the entry puts it, the manuscript as all he had; the royal licence to print of 24 September 1571 and a pension granted by King Sebastian; death on 10 June 1580. Notes that the Rimas of 1595 and later editions contained false attributions that Storck and Michaëlis de Vasconcelos removed, that the Lusiads treats contemporary or well-documented events, and that he wrote in Spanish as well as Portuguese. Still repeats tradition (a studied-at-Coimbra life, a lost eye at Ceuta 'deduced from his poetry', Goa jail).",
+      "url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/luis-vaz-de-camoens"
+    },
+    {
+      "id": "src_camoes_columbia",
+      "kind": "biography",
+      "title": "The Columbia Encyclopedia, 6th ed., 'Camões, Luís de' (reproduced on Encyclopedia.com; read in full). Short reference entry: poor family, classical learning, imprisoned in 1552 for wounding a court aide in a street fight and released on condition of serving in India, a Macao post and charges of maladministration, shipwreck and rescue of the manuscript, return in 1570 via Mozambique, a meagre royal pension after the Lusiads, 'flawlessly crafted' sonnets and lyrics, early English translation (Fanshawe, 1655). Repeats the romantic tradition (banishment for a court love, loss of an eye in Morocco) as fact.",
+      "url": "https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/camoes-luis-de"
+    },
+    {
+      "id": "src_camoes_biblioasia",
+      "kind": "press",
+      "title": "Isabel Rio Novo, 'Luís de Camões in Asia', BiblioAsia (National Library Board Singapore), 10 October 2025 (read in full; the author is a Portuguese comparative-literature scholar and Camões biographer). Narrative of the Asian years drawn from his letters and poems and from Wilhelm Storck's 1898 biography: arrested in June 1552 for slashing a servant of the king during a procession, pardoned in exchange for service in India and sailing in April 1553, early campaigns and his verses on the vanity and cruelty of war, a claimed imprisonment in Goa for satire, the Maluku voyage, the post of superintendent for the dead and missing at Macao (1562), a shipwreck near the Mekong after which he saved the manuscript and lost his companion and the estate in his charge, Goa, stranded for two years in Mozambique and helped by Diogo do Couto, return to Lisbon in April 1570, a pension of 15,000 réis, and death on 10 June 1580. Says outright that some episodes (the Macao stay, his part in the Ternate events) lack documentary evidence and rest on inference or legend, and calls a miniature of him 'allegedly painted in 1581'. Scholarly but narrative-heavy.",
+      "url": "https://biblioasia.nlb.gov.sg/vol-21/issue-3/oct-dec-2025/luis-de-camoes-portugal-poet-lusiads-os-lusiadas/"
+    },
+    {
+      "id": "src_camoes_ebsco",
+      "kind": "biography",
+      "title": "EBSCO Research Starters, 'Luís de Camões' (read in full). Popular reference retelling that leans heavily on the romantic tradition (a love at first sight in church, a 'swashbuckler' nickname, eight months in prison, rescue of the manuscript in a typhoon, death of plague in a mass grave); several statements here contradict the more cautious Britannica entry (for example the cause of death, which Britannica says is not certain). Used only as an example of how the legend runs, never as the sole support for any row; includes a useful annotated bibliography (Bell 1923, Burton 1881, Hart 1962, Freitas 1963).",
+      "url": "https://ebsco.com/research-starters/history/luis-de-camoes"
+    },
+    {
+      "id": "src_camoes_feed",
+      "kind": "press",
+      "title": "Rita Marnoto, '500 Years of Camões', Feed magazine (published by the Jerónimo Martins group; read in full; the author is a professor at the University of Coimbra and was commissioner of the 2021-24 quincentenary celebrations). A scholar's essay: the 1572 poem was pirated about a decade later (paper of 1581) and translated into Spanish twice in 1580; he was 'drawn to the new'; the structure of the poem (10 cantos, 8,816 lines, 1,102 eight-line stanzas, rhyme ABABABCC), the verb 'to see' as the most frequent after 'to be', the poem as the first epic to explore the oceans, his lyrics' play of opposites, and his being the first poet to praise a Black woman's beauty; also warns that 'poetry is fiction' so the identity of his beloved cannot be fixed, that the swimming-with-the-manuscript story is a legend, and that retold biographies say more about their tellers than about the poet. Sponsored corporate platform but an academic voice; marks the line between record and legend.",
+      "url": "https://feed.jeronimomartins.com/society/500-years-of-camoes"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 66,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_camoes_wb, src_camoes_britannica, src_camoes_biblioasia, src_camoes_columbia | 1569-1572 | reference biography, reference article, library magazine, reference encyclopedia] The documentable end of the story: after about 17 years abroad he was stranded and nearly destitute in Mozambique, where the historian Diogo do Couto, who knew him, helped pay his passage; he reached Lisbon in April 1570 with the epic as all he had, obtained a royal licence to print on 24 September 1571 and published in 1572 although Lisbon was in plague (Gale), and a royal pension followed in July 1572 (Britannica). The better-known story of saving the manuscript from a shipwreck rests on his own verses and later tradition (Britannica says he alludes to it in his epic; the Feed essay calls the swimming detail a legend), and Britannica states that none of his years in the East is documented. SELF-CALIBRATION (agent): lowered from 72 / 0.54 strong inference to 66 / 0.44 inference because persistence is inferred from the outcome and from one contemporary witness, and the shipwreck episode is self-report or legend."
+    },
+    "creative_originality": {
+      "score": 70,
+      "confidence": 0.50,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_camoes_britannica, src_camoes_wb, src_camoes_biblioasia, src_camoes_feed | 1550s-1595 | reference article, reference biography, library magazine, scholar essay] The work is the evidence: the epic sets a modern poem in ottava rima on recent, well-documented events rather than the legendary subjects of its Italian models (Gale) and, as the Feed essay says, leaves the Mediterranean for the oceans; the lyrics combine traditional Peninsular meters with the new Italian forms, and the Feed essay notes that he set a Black woman's beauty beside the Petrarchan standard; Britannica says he gave a tone of yearning fraught with loneliness that is unique in Portuguese literature. These are separate features of the texts, described by four writers, but the verdict of originality is theirs. SELF-CALIBRATION (agent): lowered from 74 / 0.56 to 70 / 0.50 because the sources are reference works and one commissioned essay that praise the poems, the lyric text was unreliable until 19th-century editors removed false attributions (Gale), and nothing shows his working process."
+    },
+    "aesthetic_sensitivity": {
+      "score": 62,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_camoes_wb, src_camoes_columbia, src_camoes_feed | 1550s-1580 | reference biography, reference encyclopedia, scholar essay] The texts are described as formally exact: 'a lyricist of rare perfection' who excels in traditional and Italian forms (Gale), 'flawlessly crafted sonnets' (Columbia), a ten-canto, 8,816-line poem with a fixed stanza rhyme scheme (Feed). The sources infer the attribute from the polish of the verse; none describes his working habits. SELF-CALIBRATION (agent): lowered from 68 / 0.48 strong inference to 62 / 0.42 inference because the claim is a praise judgment of the work from encyclopedias that share one critical tradition."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_camoes_biblioasia, src_camoes_feed, src_camoes_britannica, src_camoes_wb | 1553-1572 | library magazine, scholar essay, reference article, reference biography] The poem records places and customs seen at first hand: the Goan caste system and Hindu practices, the Ternate volcano, the Mekong and the passage by Singapore (BiblioAsia), and the route past Pulo Condor to China, with 'to see' the most frequent verb after 'to be' (Feed essay); Britannica says the works show an intimate knowledge of social conditions in the East, and the Feed essay says he was always drawn to the unknown. SELF-CALIBRATION (agent): lowered from 68 / 0.50 strong inference to 64 / 0.46 inference because the evidence is the content of his own poems read by later scholars, Britannica notes that his years in the East are undocumented apart from such allusions, and one source is a narrative retelling."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.32,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_camoes_wb, src_camoes_britannica, src_camoes_biblioasia, src_camoes_feed, src_camoes_ebsco | 1552-1553 | reference biography, reference article, library magazine, scholar essay, popular reference article] One documented incident: the royal letter of pardon of 7 March 1553 records that on Corpus Christi 1552 he wounded a royal servant with a sword and was arrested, and the pardon was tied to going to India (Gale, Britannica, BiblioAsia). The accounts differ on the circumstances (Britannica: a street brawl; the Feed essay: he defended masked friends who attacked the king's stable chief; the popular reference article alone adds a drunken fight and a 'swashbuckler' nickname). Stories of satires and imprisonment in Goa are contested and not used. SELF-CALIBRATION (agent): lowered from 62 / 0.38 to 58 / 0.32 because the score rests on a single incident whose circumstances are told differently."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "루이스 드 카몽이스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/luis-de-camoes-andries-pauli-1610-1639.jpg",
+    "width": 949,
+    "height": 1000,
+    "source": "Etching and engraving 'Portret van Luis de Camões' by Andries Pauli (named on the object, Antwerp), dated 1610-1639 by the Rijksmuseum, Amsterdam, object number RP-P-1964-507 (Hollstein Dutch 14; Lafuente Ferrari, Iconografía lusitana, 1941, no. 104, as cited in the museum record). The image is the museum's IIIF original (3944 x 5822 pixels) cropped to the framed portrait panel and downscaled to 949 x 1000, with no upscaling. The plate's own lettering reads in Latin 'Musis et Posteritati S. Ludovico de Camoës, equiti Lusitano, Poetae celeberrimo ...' and says that Gaspar Severim de Faria had the true likeness ('veram effigiem') cut on a bronze plate, with the engraver's name below, so the sitter is named on the plate itself.",
+    "license": "Public Domain Mark on the Rijksmuseum item record (image data CC0); the Rijksmuseum Information and Data Policy (read) allows free use, including commercial, of public-domain material with an attribution request; the print is an early 17th-century work, over 380 years old",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Andries Pauli (named on the object), portrait of Luís de Camões, etching and engraving, 1610-1639, Rijksmuseum, Amsterdam, RP-P-1964-507 (public domain). A posthumous engraving (Camões died in 1580) that its caption presents as a true likeness commissioned by Gaspar Severim de Faria: a later depiction, not a lifetime likeness, and no securely authenticated lifetime portrait is established in the sources read.",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1964-507",
+    "creator": "Andries Pauli (named on the object; Antwerp)",
+    "date": "1610-1639 (Rijksmuseum dating; posthumous, the sitter died in 1580)",
+    "kind": "historical_depiction",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/RP-P-1964-507"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / lead REPLACED: the Stage B leads (the 1854 engraving from Mitchell's Lusiad on Internet Archive, whose plate lettering and creator were never verified and whose holder terms were unread, and the 'Fernão Gomes' Commons file of unknown source) were set aside for a better-documented route that Stage B had not searched: the Rijksmuseum (Amsterdam) open collection. Searching the Rijksmuseum data service for 'Camões' returned 10 objects; the earliest is print RP-P-1964-507 (Andries Pauli, 1610-1639), whose linked-art record states Public Domain Mark for the image and CC0 for the data, names the printmaker 'mentioned on object', and cites Hollstein and the Iconografia lusitana. I downloaded the full IIIF image and read the plate: the Latin legend names 'Ludovico de Camoës' and Gaspar Severim de Faria's commissioning of the 'true likeness'. I also read the Rijksmuseum Information and Data Policy page (portraitTermsChecked: true, https://www.rijksmuseum.nl/en/research/conduct-research/data/policy; conclusion: public-domain/CC0 material may be used freely, even commercially, without permission; attribution requested; no restriction applies to this item). Age-only path: made in the early 17th century (Rijksmuseum range 1610-1639; the engraver is recorded as active in Antwerp), place of first publication not established, engraver's death date not established, but the print is over 380 years old; the holder states an open rights status. KIND historical_depiction (posthumous, caption claims a true likeness but the source original is unknown). No holder contradiction found (the Commons Fernão Gomes file, by contrast, has an internal source contradiction and was rejected). PREFLIGHT: QID VERIFIED LIVE (2026-11-24, Wikidata API) Q590 human, born 1524 or 1525, died 10 June 1580, no English label (multilingual label 'Luís de Camões'). REGION southern_europe (frozen list). ERA early_modern. Nationality PT. KO NAME: 루이스 드 카몽이스 is both the Korean Wikipedia title and the Wikidata Korean label (authoritative-label class). ATTRIBUTION: limited_but_usable. Reasons: Britannica says biographers have woven the few concrete facts into 'fantasy and theory' and that none of the 17 years in the East is documented; every reference source repeats legend (lost eye, Goa jail, shipwreck, Macao) to a different degree. Only a handful of items are documentary (the 1553 pardon letter, four letters, Couto's testimony, the 1571 licence and 1572 pension, the extant works), so only five low-to-moderate rows are scored and no episode that rests on legend alone is used as support. CANONICAL SIGNIFICANCE SOURCE: Britannica entry (src_camoes_britannica). READ (6 sources besides Wikidata): Britannica (summary and Life), Gale entry (full), Columbia entry (full), BiblioAsia article (full), EBSCO starter (full, legend-heavy, flagged), Feed essay by Marnoto (full). Wikipedia not used. Not opened: Diogo do Couto's text (the Decada found on Internet Archive did not contain the Camões passage), Storck/Vasconcelos 1898, Bell 1923, Hart 1962, Burton 1881; Infopedia and Library of Congress pages were bot-walled or empty. PERSPECTIVES: (1) cautious reference article (Britannica), (2) narrative reference biographies (Gale, Columbia), (3) scholar-biographer's regional history (BiblioAsia), (4) university scholar commissioner's essay (Feed), (5) popular reference starter (EBSCO). NON-SELF BEHAVIOURAL SOURCES: these five; Couto is reported only second-hand. Self-report: the letters and poems, as quoted by the above. Independent behavioural source families: only two to three (the documentary record as retold by all; the poem as read by scholars; the legend tradition). CONTRADICTIONS AND LIMITS: Britannica doubts the Coimbra studies, Gale asserts them; Britannica and BiblioAsia place the 1552 incident differently from the Feed essay; the lost eye is placed at Ceuta in a battle (EBSCO, Columbia), a cannon spark (BiblioAsia) or 'deduced from poems' (Gale); cause of death is uncertain (Britannica) or plague (EBSCO); birth year is 1524 or 1525; imprisonment in Goa and the Macao maladministration charge are contested. MAJOR ACHIEVEMENT GATE: PASS (cards: Os Lusíadas, and the lyric poetry published posthumously as Rimas; the plays are minor and omitted). SELF-CALIBRATION: 5 rows scored, all 5 lowered (scores and confidences), 4 evidence types lowered, 0 raised. A five-row profile will not meet the match-eligibility floor; that is a match diagnostic, not an evidence defect, and no rows were added to change it."
+  }
+}
