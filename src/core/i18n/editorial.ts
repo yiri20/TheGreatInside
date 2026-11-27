@@ -15506,7 +15506,7 @@ export const EDITORIAL_EN: Record<string, string> = {
   "pedro-alvares-cabral.interpretation.turning_point.1":
     "The reprisal is consistent with a readiness to escalate sharply in a dispute. Greenlee notes that Cabral carried royal instructions to seize Arab ships and that the Portuguese saw the reprisal as justified, while Panikkar reads the same events as the work of a proud and short-tempered commander, so the sources do not let his conduct be separated from his orders.",
   "phan-chau-trinh.achievement.1":
-    "Phan Châu Trinh was one of the two best-known Vietnamese scholar-nationalists of the early 1900s, and the more committed to non-violent reform. He argued that Vietnam should win self-rule through education, civil rights and the end of monarchical rule, not through armed uprising or foreign military help. After leaving the mandarinate in 1904 he made a fact-finding trip through the south and helped found the Dong Kinh Free School in Hanoi, which the French closed by the end of 1907, and he campaigned for modern schools, short hair, Western dress and new-learning societies. His death in 1926 set off nationwide mourning, with a Saigon funeral of about 16,000 by one historian's estimate.",
+    "Phan Châu Trinh was one of the two best-known Vietnamese scholar-nationalists of the early 1900s, and the more committed to non-violent reform. He argued that Vietnam should win self-rule through education, civil rights and the end of monarchical rule, not through armed uprising or foreign military help. After leaving the mandarinate in 1904 he campaigned for modern schools, short hair, Western dress and new-learning societies and helped found the Dong Kinh Free School in Hanoi, which the French closed by the end of 1907; his death in 1926 set off nationwide mourning, with a Saigon funeral of about 16,000 by one historian's estimate.",
   "phan-chau-trinh.achievement.2":
     "Phan made his case in writing and in speech. He sent Governor-General Paul Beau a letter in 1907 describing the abuses of officialdom and the decay of custom, made public charges against Emperor Khai Dinh in 1922, and in 1925 gave two Saigon lectures, on morality and ethics in East and West and on monarchy and democracy, that challenged the existing order. Vinh Sinh, whose translation of these texts is reviewed in the principal source, argues that Phan deserves study as a founder of a Vietnamese style of political argument.",
   "phan-chau-trinh.achievement.3":
@@ -15560,21 +15560,21 @@ export const EDITORIAL_EN: Record<string, string> = {
   "roberto-burle-marx.interpretation.turning_point.1":
     "The pivot is consistent with a painter extending his work into a second discipline without leaving the first, though the account of the Berlin discovery relies on biographical retellings.",
   "rong-hong.achievement.1":
-    "Rong Hong, known in the West as Yung Wing, is credited in nearly all accounts as the originator of the Chinese Educational Mission. After he pressed the idea with Qing officials for years, Zeng Guofan and Li Hongzhang submitted a detailed plan in 1871, and between 1872 and 1875 four contingents, 120 boys in all, were sent to live and study in Connecticut and Massachusetts, with Rong as associate commissioner and a headquarters opened in Hartford in 1874. The Qing government recalled the students in 1881 before they could finish their studies; many later worked as railway engineers, naval officers, diplomats and administrators.",
+    "Rong Hong, known in the West as Yung Wing, is credited in nearly all accounts as the originator of the Chinese Educational Mission. After he pressed the idea with Qing officials for years, Zeng Guofan and Li Hongzhang submitted a detailed plan in 1871, and between 1872 and 1875 four contingents, 120 boys in all, were sent to live and study in Connecticut and Massachusetts, with Rong as associate commissioner and a headquarters opened in Hartford in 1874. The Qing government recalled the students in 1881, before most could finish their studies; many later worked as railway engineers, naval officers, diplomats and administrators.",
   "rong-hong.achievement.2":
     "In 1854 Rong graduated from Yale College and is generally cited as the first Chinese to earn a degree from a Western university; Zeng Laishun had attended an American college earlier without graduating, and Huang Kuan graduated at Edinburgh a year later. Born to a poor farming family near Macau, Rong had been taken to Massachusetts in 1847 by his teacher Samuel Robbins Brown and entered Yale in 1850.",
   "rong-hong.achievement.3":
     "In 1863 Zeng Guofan sent Rong to the United States to buy machinery for China's first modern arsenal, and the successful purchase, which became the basis of the Jiangnan Arsenal, earned him an official rank despite his lack of a classical Chinese education. In 1878 he gave Yale more than 1,200 books, which became the core of its East Asian library.",
   "rong-hong.moment.1":
-    "In the mid-1850s, back in China and short of money, Rong turned down a comprador's post with a foreign trading house in Nagasaki; in his memoir's account he told the manager the job was servile and unworthy of a Yale graduate, and asked instead to work as the firm's agent in the tea districts. He also writes that years earlier he had refused church backers who wanted him to promise to become a missionary.",
+    "In the late 1850s, back in China and short of money, Rong turned down a comprador's post in Nagasaki offered by the trading house Dent & Co.; in his memoir's account he told the manager the job was servile and unworthy of a Yale graduate, and asked instead to work as the firm's agent in the tea districts. He also writes that years earlier he had refused church backers who wanted him to promise to become a missionary.",
   "rong-hong.interpretation.moment.1":
     "This is consistent with a strong preference for working on his own terms, though both episodes come from his own account, so the reading is tentative.",
   "rong-hong.moment.2":
     "In 1870, after the Tianjin massacre, Governor Ding Richang took Rong north as his assistant to help with the dispute with France. Rong used the occasion to remind Ding of the educational scheme he says he had put to him in 1868, and Ding in turn won over Zeng Guofan, whose memorial of October 1870 endorsed sending boys abroad and named Rong as one of two men to run the programme.",
   "rong-hong.interpretation.moment.2":
-    "This is consistent with attaching a long-held proposal to a moment when officials needed his skills; Rhoads tells the chain largely from Rong's autobiography, and a Chinese historian credits Ding Richang rather than Rong with the idea.",
+    "This is consistent with attaching a long-held proposal to a moment when officials needed his skills; Rhoads tells the chain largely from Rong's autobiography, while Zeng's memorial credited the idea to Ding Richang and a Chinese historian plays down Rong's role as originator.",
   "rong-hong.turning_point.1":
-    "In 1881 the Qing government ordered the students home, with the reasons given including their Americanisation, the cost, and the United States' break with the Burlingame Treaty's education provisions; the two commissioners lost their posts. Rong's efforts to keep the programme alive failed, but with Leonard Bacon's help two students, Tan Yaoxun and Rong Kui, found independent support and stayed in the United States.",
+    "In 1881 the Qing government ordered the students home, with the reasons given including their Americanisation, the cost, and the United States' break with the Burlingame Treaty's education provisions, and a reference biography says Rong lost his diplomatic post. Rong's efforts to keep the programme alive failed, but with Leonard Bacon's help two students, Tan Yaoxun and Rong Kui, found independent support and stayed in the United States.",
   "rong-hong.interpretation.turning_point.1":
     "This is consistent with a continued effort to save part of the project after its collapse; the sources describe that effort only briefly, so it carries little weight on its own.",
   "satoshi-omura.achievement.1":
@@ -31008,7 +31008,7 @@ export const EDITORIAL_KO: Record<string, string> = {
   "pedro-alvares-cabral.interpretation.turning_point.1":
     "분쟁에서 강하게 맞서는 태도와 어울리는 대응이다. 그린리는 카브랄이 아랍 선박을 나포하라는 왕의 지시를 받았고 포르투갈 쪽이 보복을 정당하다고 여겼다고 지적하는 반면, 파니카르는 같은 사건을 자존심 강하고 성급한 지휘관의 소행으로 읽는다. 따라서 사료만으로는 그의 행동을 명령과 따로 떼어 볼 수 없다.",
   "phan-chau-trinh.achievement.1":
-    "판쩌우찐(Phan Châu Trinh)은 20세기 초 베트남을 대표하는 두 학자 출신 민족운동가 가운데 한 사람이며, 그중 비폭력 개혁에 더 전념한 인물이다. 그는 베트남이 무장봉기나 외국의 군사 원조가 아니라 교육과 시민의 권리, 군주제의 종식을 통해 자치를 얻어야 한다고 주장했다. 1904년 관직에서 물러난 뒤 남부 지방을 시찰했고, 하노이의 동낀 의숙(Dong Kinh Free School) 설립에 관여했다(프랑스는 이 학교를 1907년 말까지 폐쇄했다). 또 근대식 학교, 단발, 서양식 복장, 신학문 모임을 장려했다. 1926년 그의 죽음은 전국적 애도로 이어졌고, 한 역사가의 추산으로 사이공 장례에는 약 1만 6천 명이 모였다.",
+    "판쩌우찐(Phan Châu Trinh)은 20세기 초 베트남을 대표하는 두 학자 출신 민족운동가 가운데 한 사람이며, 그중 비폭력 개혁에 더 전념한 인물이다. 그는 베트남이 무장봉기나 외국의 군사 원조가 아니라 교육과 시민의 권리, 군주제의 종식을 통해 자치를 얻어야 한다고 주장했다. 1904년 관직에서 물러난 뒤 근대식 학교, 단발, 서양식 복장, 신학문 모임을 장려하고 하노이의 동낀 의숙(Dong Kinh Free School) 설립에 관여했는데(프랑스는 이 학교를 1907년 말까지 폐쇄했다), 1926년 그의 죽음은 전국적 애도로 이어졌고, 한 역사가의 추산으로 사이공 장례에는 약 1만 6천 명이 모였다.",
   "phan-chau-trinh.achievement.2":
     "판쩌우찐은 글과 연설로 자신의 주장을 펼쳤다. 1907년에는 총독 폴 보(Paul Beau)에게 관료 사회의 폐단과 낡은 풍속을 지적하는 편지를 보냈고, 1922년에는 카이딘(Khai Dinh) 황제의 잘못을 공개적으로 규탄했으며, 1925년에는 사이공에서 동서양의 도덕과 윤리, 군주제와 민주주의를 주제로 두 차례 강연해 기존 질서에 도전했다. 이 글들을 영어로 옮긴 빈 신(Vinh Sinh)은 판쩌우찐이 베트남 정치 논쟁 문체의 창시자로서 연구할 가치가 있다고 본다.",
   "phan-chau-trinh.achievement.3":
@@ -31062,21 +31062,21 @@ export const EDITORIAL_KO: Record<string, string> = {
   "roberto-burle-marx.interpretation.turning_point.1":
     "이 전환은 화가가 본래의 분야를 떠나지 않은 채 두 번째 분야로 활동을 넓힌 것과 부합한다. 다만 베를린에서의 발견에 대한 서술은 전기적 회고에 의존한다.",
   "rong-hong.achievement.1":
-    "용굉(容閎, 서양에서는 Yung Wing)은 거의 모든 서술에서 중국 소년들의 미국 유학 사업, 곧 중국교육사절단(Chinese Educational Mission)의 발의자로 꼽힌다. 그가 여러 해 동안 청나라 관리들을 설득한 끝에 증국번과 이홍장이 1871년 구체적인 계획안을 올렸고, 1872년부터 1875년까지 네 차례에 걸쳐 소년 모두 120명이 코네티컷과 매사추세츠에서 생활하며 공부했다. 용굉은 부감독으로 일했고, 하트퍼드에는 1874년 사업 본부가 세워졌다. 청 정부는 1881년 학생들이 학업을 마치기 전에 이들을 소환했으며, 이후 여러 명이 철도 기술자, 해군 장교, 외교관, 행정가로 일했다.",
+    "용굉(容閎, 서양에서는 Yung Wing)은 거의 모든 서술에서 중국 소년들의 미국 유학 사업, 곧 중국교육사절단(Chinese Educational Mission)의 발의자로 꼽힌다. 그가 여러 해 동안 청나라 관리들을 설득한 끝에 증국번과 이홍장이 1871년 구체적인 계획안을 올렸고, 1872년부터 1875년까지 네 차례에 걸쳐 소년 모두 120명이 코네티컷과 매사추세츠에서 생활하며 공부했다. 용굉은 부감독으로 일했고, 하트퍼드에는 1874년 사업 본부가 세워졌다. 청 정부는 대부분이 학업을 마치기 전인 1881년에 학생들을 소환했으며, 이후 여러 명이 철도 기술자, 해군 장교, 외교관, 행정가로 일했다.",
   "rong-hong.achievement.2":
     "1854년 용굉은 예일 대학을 졸업했고, 서양 대학에서 학위를 받은 최초의 중국인으로 흔히 일컬어진다. 다만 Zeng Laishun이 그보다 앞서 미국 대학에 다녔으나 졸업하지는 못했고, Huang Kuan은 1년 뒤 에든버러 대학을 졸업했다. 마카오 근처의 가난한 농가에서 태어난 용굉은 1847년 스승 새뮤얼 로빈스 브라운을 따라 매사추세츠로 건너갔고 1850년 예일에 입학했다.",
   "rong-hong.achievement.3":
     "1863년 증국번은 용굉을 미국에 보내 중국 최초의 근대적 병기창에 쓸 기계를 사 오게 했다. 이 구매는 강남제조국(江南製造局)의 바탕이 되었고, 그 공로로 용굉은 고전 교육을 받지 않았는데도 관직과 품계를 얻었다. 1878년에는 1,200권이 넘는 장서를 예일에 기증했으며, 이 책들은 예일 동아시아 도서관의 핵심이 되었다.",
   "rong-hong.moment.1":
-    "1850년대 중반 중국으로 돌아온 용굉은 형편이 어려웠는데도 일본 나가사키의 외국 무역상사가 제안한 매판(買辦) 자리를 거절했다. 회고록에 따르면 그는 지배인에게 그 일이 굴종적이어서 예일 졸업생에게 어울리지 않는다고 말하고, 대신 찻잎 산지를 다니는 상사의 대리인으로 일하겠다고 청했다. 그는 또 그보다 앞서 선교사가 되겠다는 약속을 조건으로 학비를 대려던 교회 후원자들도 거절했다고 적었다.",
+    "1850년대 후반 중국에 돌아와 있던 용굉은 형편이 어려웠는데도 무역상사 덴트(Dent & Co.)가 제안한 일본 나가사키의 매판(買辦) 자리를 거절했다. 회고록에 따르면 그는 지배인에게 그 일이 굴종적이어서 예일 졸업생에게 어울리지 않는다고 말하고, 대신 찻잎 산지를 다니는 상사의 대리인으로 일하겠다고 청했다. 그는 또 그보다 앞서 선교사가 되겠다는 약속을 조건으로 학비를 대려던 교회 후원자들도 거절했다고 적었다.",
   "rong-hong.interpretation.moment.1":
     "이는 자기 조건으로 일하려는 강한 선호와 부합하지만, 두 일화 모두 그 자신의 기록에서 나온 것이어서 잠정적인 해석이다.",
   "rong-hong.moment.2":
     "1870년 톈진 교안(教案) 뒤 정일창(丁日昌) 순무는 프랑스와의 분쟁 처리를 돕게 하려고 용굉을 조수로 데리고 북쪽으로 갔다. 용굉은 이 기회에 1868년에 올렸다고 하는 유학 계획을 정일창에게 다시 상기시켰고, 정일창이 증국번을 설득했다. 1870년 10월 증국번의 상주문은 소년들을 해외로 보내는 방안을 지지하면서 용굉을 사업을 맡을 두 사람 중 한 명으로 추천했다.",
   "rong-hong.interpretation.moment.2":
-    "이는 오래 품은 제안을 관리들이 그의 능력을 필요로 한 시점에 맞물리게 한 것과 부합한다. 다만 로즈(Rhoads)는 이 경위를 주로 용굉의 자서전에 기대어 서술하며, 한 중국 역사가는 이 구상의 공을 용굉이 아니라 정일창에게 돌린다.",
+    "이는 오래 품은 제안을 관리들이 그의 능력을 필요로 한 시점에 맞물리게 한 것과 부합한다. 다만 로즈(Rhoads)는 이 경위를 주로 용굉의 자서전에 기대어 서술하며, 증국번의 상주문은 이 구상을 정일창의 것으로 돌렸고, 한 중국 역사가는 발의자로서 용굉의 역할을 낮게 평가한다.",
   "rong-hong.turning_point.1":
-    "1881년 청 정부는 학생들에게 귀국을 명했다. 거론된 이유로는 학생들의 미국화, 비용, 그리고 미국이 벌링게임 조약의 교육 조항을 저버린 일 등이 있었으며, 두 감독관은 직위를 잃었다. 용굉은 사업을 살리려 애썼으나 성과를 거두지 못했고, 다만 레너드 베이컨(Leonard Bacon)의 도움으로 학생 두 명(Tan Yaoxun, Rong Kui)이 독자적인 후원을 얻어 미국에 남았다.",
+    "1881년 청 정부는 학생들에게 귀국을 명했다. 거론된 이유로는 학생들의 미국화, 비용, 그리고 미국이 벌링게임 조약의 교육 조항을 저버린 일 등이 있었으며, 한 인물 사전식 전기에 따르면 용굉은 외교관 직위를 잃었다. 용굉은 사업을 살리려 애썼으나 성과를 거두지 못했고, 다만 레너드 베이컨(Leonard Bacon)의 도움으로 학생 두 명(Tan Yaoxun, Rong Kui)이 독자적인 후원을 얻어 미국에 남았다.",
   "rong-hong.interpretation.turning_point.1":
     "이는 사업이 무너진 뒤에도 일부나마 살리려 한 지속적 노력과 부합한다. 다만 자료들은 이 노력을 짧게만 서술하므로 그 자체로는 비중이 크지 않다.",
   "satoshi-omura.achievement.1":
