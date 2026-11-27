@@ -15149,6 +15149,506 @@ export const EDITORIAL_EN: Record<string, string> = {
     "Congress passed the Indian Citizenship Act in 1924, but some states used literacy tests, at-large elections and rules about land held in federal trust to keep Native people from voting. In 1926 Zitkala-Sa and her husband formed the National Council of American Indians and for three summers travelled to Native communities to hear concerns, discuss legislation and register voters.",
   "zitkala-sa.interpretation.turning_point.1":
     "Founding a new organisation after a partial legislative win is consistent with persistence, though the sources give only a brief account of what the council achieved.",
+  "abraham-ortelius.achievement.1":
+    "In 1570 Ortelius published the Theatrum orbis terrarum in Antwerp, widely described as the first modern atlas: maps from many sources reduced to one uniform format, grouped by continent and region, each with descriptive text on the reverse. The first edition had fifty-three sheets carrying seventy copperplate maps, most of them engraved by Frans Hogenberg.",
+  "abraham-ortelius.achievement.2":
+    "He kept enlarging and revising the atlas: between 1570 and 1612 it appeared in 31 editions in seven languages. A list of the mapmakers whose work he used, the Catalogus Auctorum, went with it, and the Dictionary of Scientific Biography says much of what is known about minor sixteenth-century cartographers derives from that list.",
+  "abraham-ortelius.achievement.3":
+    "Ortelius also wrote on ancient geography and antiquities: an illustrated book on ancient gods drawn from his coin collection (1573), the Synonymia geographica (1578) reworked as the Thesaurus geographicus, the Nomenclator Ptolemaicus and the Parergon, a set of maps of the ancient world (1584). Britannica records his appointment as geographer to Philip II of Spain in 1575.",
+  "abraham-ortelius.moment.1":
+    "Between 1574 and 1598 Ortelius collected inscriptions, portraits and drawings from correspondents in an album of friends, now at Pembroke College, Cambridge. Entries include John Dee's, with his coat of arms in a painted border, and a poem by William Camden, both in 1577; contributions were made in Frankfurt, Antwerp, London, Leiden, Vienna and other cities.",
+  "abraham-ortelius.interpretation.moment.1":
+    "Cambridge's account reads the album as evidence of a humanist culture of friendship across borders; this is consistent with a collaborative, network-based way of working, although an album of tributes records friendship rather than joint work.",
+  "abraham-ortelius.moment.2":
+    "The Theatrum was repeatedly supplemented: a first Additamentum of further maps appeared in 1573, and Utrecht's count rises from 53 maps in 1570 to 119 in 1598. The Catholic Encyclopedia adds that outdated maps were replaced by newer ones as more accurate reports reached him.",
+  "abraham-ortelius.interpretation.moment.2":
+    "This pattern of revision across editions is consistent with a willingness to update a published work as better information arrived, though the sources describe the editions rather than his reasoning, and their map counts differ.",
+  "abraham-ortelius.turning_point.1":
+    "In 1559-60 Ortelius travelled through Lorraine and Poitou with Mercator, who encouraged him to draw maps of his own. Until then he had earned his living colouring, buying and selling maps made by others; his first work of his own, an eight-sheet world map, appeared in 1564.",
+  "abraham-ortelius.interpretation.turning_point.1":
+    "The shift is consistent with a move from trading in maps toward mastering the craft of making them, although the sources give Mercator's encouragement as the immediate prompt, so it cannot be credited to his own initiative alone.",
+  "amerigo-vespucci.achievement.1":
+    "In 1499-1500 Vespucci sailed as a pilot, the expedition's astronomer and chart-maker, on a Spanish voyage under Alonso de Ojeda, and in 1501-02 he took part in a Portuguese voyage down the Brazilian coast. Britannica says the second voyage convinced him and other scholars that the lands were a New World rather than Asia. The Italian biographical dictionary stresses that he was never a ship's commander and that the printed letters describing the voyages are disputed.",
+  "amerigo-vespucci.achievement.2":
+    "In 1507 the scholars of Saint-Dié in Lorraine published the Cosmographiae Introductio together with Martin Waldseemüller's world map, which proposed the name America, in Vespucci's honour, for the lands he had coasted. He did not propose the name himself; it was first applied to what is now Brazil and was extended to North America later.",
+  "amerigo-vespucci.achievement.3":
+    "In 1508 the Spanish crown created the post of piloto mayor at the Casa de Contratación in Seville and gave it to Vespucci, who held it until his death in 1512. The post required him to examine pilots and certify them for service, and to keep the official chart of the discoveries up to date.",
+  "amerigo-vespucci.moment.1":
+    "On 13 March 1505 the Casa's officers in Seville were ordered to organise an expedition under Vespucci and Vicente Yáñez Pinzón. It was authorised again in August 1506 but never sailed, ending with the death of King Philip in September; the Italian biographical dictionary records detailed preparations, including the captains' planned salaries.",
+  "amerigo-vespucci.interpretation.moment.1":
+    "This is consistent with sustained involvement in planning exploration rather than only taking part in it, though the orders came from the crown, so how far the initiative was his own is unclear.",
+  "amerigo-vespucci.moment.2":
+    "As piloto mayor Vespucci was officially asked for opinions on matters beyond navigation, among them the export of goods to the New World and how to curb tax evasion. On 9 July 1509 he gave an expert opinion on whether a signature was Columbus's, saying he knew it from having seen the admiral sign many times and having kept his accounts.",
+  "amerigo-vespucci.interpretation.moment.2":
+    "The range of requests is consistent with a reputation for competence beyond one skill, although the roles cluster in the worlds of commerce and navigation and the record does not say how he approached them.",
+  "amerigo-vespucci.turning_point.1":
+    "After Giannotto Berardi died on 15 December 1495, Vespucci and a colleague were left to finish outfitting a fleet of caravels for the crown; the first four sailed in February 1496 and were wrecked off the Spanish coast, and the firm was liquidated. The Italian biographical dictionary says he handled the liquidation, ended his financial ties with Columbus and found himself, at forty-two, without work; by May 1499 he was preparing for the voyage on which he sailed as a pilot.",
+  "amerigo-vespucci.interpretation.turning_point.1":
+    "The move from commerce to navigation after the business failed is consistent with the profile's capacity to adapt; the sources do not say whether the change was planned, and the record for 1497-98 is unclear.",
+  "annie-besant.achievement.1":
+    "From 1914 she campaigned for self-government for India, starting the daily New India and, on 1 September 1916, the All-India Home Rule League, and she helped bring the Congress and the Muslim League together around the 1916 Lucknow Pact. Interned in June 1917, she was released after protests and in December became the first woman president of the Indian National Congress, although her influence on the movement declined within about a year.",
+  "annie-besant.achievement.2":
+    "Elected international president of the Theosophical Society in 1907, she held the office until her death in 1933 and put Helena Blavatsky's teachings into accessible language as a lecturer and writer. In India she founded the Central Hindu College at Varanasi in 1898, later part of Banaras Hindu University, and defended Hinduism against colonial and missionary disparagement, though some of her readings of Indian society were later criticised as idealised.",
+  "annie-besant.achievement.3":
+    "In 1877 she and Charles Bradlaugh republished a birth-control pamphlet and she defended it at a trial that gave contraception unusual public attention; she lost custody of her daughter soon afterward. In 1888 her article on conditions at the Bryant and May match factory preceded the match girls' strike and she helped the workers form a union, although historians stress that the young women themselves began and sustained the strike.",
+  "annie-besant.moment.1":
+    "At the 1877 obscenity trial over the Knowlton pamphlet she argued in her own defence that information on family limitation was a right and that physical facts were not indecent. Most accounts say she and Bradlaugh were convicted and sentenced and that the judgment was overturned on appeal, while one encyclopedia describes the verdict differently; in 1878 her husband won custody of her daughter, citing her activism.",
+  "annie-besant.interpretation.moment.1":
+    "Staking her reputation and custody of her child on the campaign, rather than dropping it, is consistent with a high tolerance for open conflict, and it carried a lasting personal cost.",
+  "annie-besant.moment.2":
+    "In August 1929 Jiddu Krishnamurti, whom she had raised as the expected World Teacher, announced the dissolution of the Order of the Star in the East that had been built around him. A news-agency report quoted her as calling the step 'logical' while saying her fundamental belief in him as a world teacher remained.",
+  "annie-besant.interpretation.moment.2":
+    "Accepting the end of an organisation she had helped found while keeping her underlying conviction is consistent with flexibility about institutions alongside firmness about core belief; the record does not show how she weighed the decision privately.",
+  "annie-besant.turning_point.1":
+    "In 1889, asked by the editor W. T. Stead to review Blavatsky's The Secret Doctrine, she wrote a favourable review, met Blavatsky and joined the Theosophical Society, moving away from the secularist platform she had held since 1874. By 1893 she was lecturing in India, and in 1895 she settled in Benares, where she spent most of the rest of her life.",
+  "annie-besant.interpretation.turning_point.1":
+    "A change of this scale after some fifteen years of public secularist work is consistent with a pattern of rebuilding her life around a new framework when her convictions changed; her new commitments were held as firmly as her old ones, so the profile reads this as openness to revising beliefs only in part.",
+  "austen-henry-layard.achievement.1":
+    "From 1845 Layard dug at Nimrud, which he took to be Nineveh but which was the Assyrian city later identified as Calah (Kalhu). He uncovered palaces of Ashurnasirpal II and later kings, and colossal winged human-headed bulls and many relief slabs were shipped to the British Museum, where they are still among its best-known Assyrian pieces.",
+  "austen-henry-layard.achievement.2":
+    "In a second campaign (1849-51) he opened the mound of Kuyunjik opposite Mosul, the site of Nineveh itself. There he found the palace of Sennacherib and a large archive of cuneiform tablets, from which much of what is now known about Assyrian and Babylonian history was later recovered.",
+  "austen-henry-layard.achievement.3":
+    "His books Nineveh and its Remains (1848-49) and Discoveries in the Ruins of Nineveh and Babylon (1853) sold widely and made ancient Assyria familiar to a general Victorian public. Historians note that his accounts presented the digs as more orderly than they were, and that he took no part in deciphering the inscriptions, which Henry Rawlinson and others did.",
+  "austen-henry-layard.moment.1":
+    "To get the Nimrud sculptures home, Layard had the bas-reliefs sawn in half to lighten them and the carved sections floated down the Tigris to Basra for shipment to England. He had begun on funds and a Turkish permit arranged by the ambassador Stratford Canning, before the British Museum took over the costs in 1846.",
+  "austen-henry-layard.interpretation.moment.1":
+    "The episode is consistent with a practical, improvising approach to logistics. The biography records the method but not his reasoning, and sawing the slabs also shows how readily the period accepted damaging antiquities in order to move them.",
+  "austen-henry-layard.moment.2":
+    "In 1848 Layard told the British Museum trustees that he feared to stop digging because the French consul would take over the work, and in January 1853 he urged them to remove the Lachish sculptures quickly because another power's agents were near the site, according to a study of the trustees' minutes.",
+  "austen-henry-layard.interpretation.moment.2":
+    "This is consistent with a rivalry-driven sense of urgency. It was, however, a contest between national museums and consuls as much as a personal one, and the record comes from a single scholar's reading of one archive.",
+  "austen-henry-layard.turning_point.1":
+    "In 1842, on his way back from Persia and short of money, Layard was about to leave Constantinople for England when the British ambassador Stratford Canning employed him on unofficial missions in the Ottoman provinces. Canning later obtained the Turkish permit for the Nimrud dig and paid him a salary to carry it out, which the Dictionary of National Biography calls the turning point in Layard's fortunes. Before it he was short of funds and without a post; after it he worked for an influential patron.",
+  "austen-henry-layard.interpretation.turning_point.1":
+    "The turn is consistent with a person whose Persian experience and Mosul visit made him useful to a patron at the moment one was needed. The biography gives the decision to fund the dig to Canning, so the credit is shared.",
+  "cesar-pelli.achievement.1":
+    "Pelli's firm won the competition to design the Petronas Towers in Kuala Lumpur, twin 88-storey towers joined by a skybridge, with plans drawn from Islamic geometric patterns. They were the world's tallest buildings until 2004, and the design received an Aga Khan Award for Architecture.",
+  "cesar-pelli.achievement.2":
+    "At Gruen Associates in Los Angeles Pelli designed the Pacific Design Center, whose first building opened in 1975. Its blue glass skin earned it the nickname the Blue Whale and brought him early recognition for lightweight glass-clad buildings. Green and red buildings were added in 1988 and 2012.",
+  "cesar-pelli.achievement.3":
+    "In the 1980s and early 1990s his firm designed the World Financial Center and Winter Garden in New York and the Canary Wharf tower in London, skyscraper commissions that followed his 1984 Museum Tower and the Museum of Modern Art expansion. Earlier he had worked in Eero Saarinen's office, where he developed details for the TWA terminal.",
+  "cesar-pelli.moment.1":
+    "Pelli became dean of the Yale School of Architecture in 1977 and, less than two months after arriving in New Haven, won the commission to enlarge the Museum of Modern Art and design Museum Tower. Without even a drawing board, he opened an office a block from the school. He later recalled that he did not even have a T-square.",
+  "cesar-pelli.interpretation.moment.1":
+    "The sequence is consistent with an ability to adapt when a large commission arrived suddenly, though the recollection is Pelli's own.",
+  "cesar-pelli.moment.2":
+    "The Museum of Modern Art expansion, completed in 1984, received lukewarm reviews. Critic Paul Goldberger called its exterior rather more bland and dull than expected, and later renovations largely removed Pelli's museum work while the residential tower remained.",
+  "cesar-pelli.interpretation.moment.2":
+    "Such a reception sits alongside obituaries that describe an architect valued for coherence and civic manner more than as a great form-maker, so it is read here as mixed evidence on originality.",
+  "cesar-pelli.turning_point.1":
+    "In 1964, after about a decade in Eero Saarinen's office, Pelli moved to Los Angeles, where he became design director at Daniel, Mann, Johnson and Mendenhall and then at Gruen Associates. There he moved from developing another architect's concepts to leading designs of his own, including the Pacific Design Center, which established his reputation.",
+  "cesar-pelli.interpretation.turning_point.1":
+    "The move is consistent with a growing drive to lead design rather than interpret another architect's vision, though sources describe the change only in outline.",
+  "claudio-monteverdi.achievement.1":
+    "Monteverdi's Orfeo, first performed in Mantua in February 1607 to a libretto by Alessandro Striggio, has long been considered the first great opera. Earlier Florentine experiments had put drama to music in recitative; Orfeo joined expressive solo song to dance-like madrigals, short arias and a large instrumental ensemble, and it was published in Venice in 1609.",
+  "claudio-monteverdi.achievement.2":
+    "Across his madrigal books, from the third (1592) to the eighth (1638), he made dissonance and rhythm serve the sense of the poem, and in the 1600s he defended this as a second practice against the Bolognese theorist Giovanni Maria Artusi, who attacked his unprepared dissonances as imperfections of modern music. Reference works treat this change of style, from the old polyphonic ideal to the modern one, as the core of his historical importance.",
+  "claudio-monteverdi.achievement.3":
+    "From 1613 until his death in 1643 he was maestro di cappella of St Mark's in Venice, where Heller and Kroll say he revitalized a declining institution by hiring musicians, enlarging the library and raising standards of performance. After public opera houses opened in Venice in 1637 he returned to opera in his seventies with Il ritorno d'Ulisse in patria (1639-40) and L'incoronazione di Poppea (1642-43); Baker's notes that research suggests the final form of Poppea owes something to Francesco Sacrati.",
+  "claudio-monteverdi.moment.1":
+    "After two attacks by Artusi in 1600 and 1603, to which he did not reply himself, Monteverdi printed a statement at the end of his fifth book of madrigals in 1605 that named Artusi, promised a treatise on the second practice that he never wrote, and dedicated the volume to Duke Vincenzo Gonzaga. Siegele notes that he placed the attacked madrigal, Cruda Amarilli, at the head of the book.",
+  "claudio-monteverdi.interpretation.moment.1":
+    "Carter reads naming his critic in print as bold, while Siegele sees a reply that played down the differences and let the music answer; the episode is consistent with a mixed stance toward open conflict, public in the end but indirect in manner, and the two readings are not easy to reconcile.",
+  "claudio-monteverdi.moment.2":
+    "In the spring and summer of 1643, months before his death in Venice at 76, Monteverdi made a six-month trip to Lombardy and Mantua to guarantee the pension the Gonzaga duke had confirmed in 1609. Carter records that the pension occupied him for the rest of his life and that he used the supply of music as a bargaining chip.",
+  "claudio-monteverdi.interpretation.moment.2":
+    "This is consistent with a long-sustained effort over a practical matter, although the object was money and security rather than his art, and Carter reads such moves as part of a courtly bargaining system rather than as personal stubbornness alone.",
+  "claudio-monteverdi.turning_point.1":
+    "On 29 July 1612, five months after Duke Vincenzo's death, his successor Francesco discharged Monteverdi and his brother Giulio Cesare from Mantuan service. Monteverdi went back to Cremona, and in August 1613, after an audition, the procurators of St Mark's appointed him maestro di cappella in Venice, where he stayed for the rest of his life.",
+  "claudio-monteverdi.interpretation.turning_point.1":
+    "Carter lists several possible readings of the dismissal: court cuts, rivals' manoeuvres, his own presumption, or a release he had sought; the move to Venice is consistent with an ability to rebuild a career after losing a patron, but it was helped by luck, as the St Mark's post had fallen vacant only weeks earlier, after Giulio Cesare Martinengo's death in July 1613.",
+  "david-unaipon.achievement.1":
+    "He is described as the first Aboriginal writer to be published in Australia: articles in the Sydney Daily Telegraph from 1924, a story in The Home in 1925, and the booklets Hungarrda, Kinie Ger and Native Legends in 1927 to 1929. The collection of legends he gathered in 1924 and 1925 was published in 1930 under William Ramsay Smith's name without acknowledgment, and appeared under Unaipon's own name only in 2001.",
+  "david-unaipon.achievement.2":
+    "By 1909 he had patented a modified handpiece for mechanical sheep shearing that converted circular motion into straight-line motion. Between 1909 and 1944 he applied for patents on further inventions, among them a centrifugal motor, a multi-radial wheel and a mechanical propulsion device, but they lapsed because he could not fund them, and sources say he received no credit or payment for the shearing design.",
+  "david-unaipon.achievement.3":
+    "For about fifty years from 1913 he travelled south-eastern Australia as a subscription collector for the Aborigines' Friends' Association, lecturing, preaching and speaking on Aboriginal legends, customs and prospects. He gave evidence to royal commissions in 1913 and 1926 and assisted the 1928 to 1929 Bleakley inquiry, and by the late 1920s he was accepted as his people's best-known public spokesman.",
+  "david-unaipon.moment.1":
+    "A 1919 newspaper report says he had worked on the problem of perpetual motion for many years and that 'disappointments innumerable' had not stopped him; the Australian Dictionary of Biography has him still convinced, in his nineties, that he was close to the secret. No working device is recorded.",
+  "david-unaipon.interpretation.moment.1":
+    "This is consistent with persistence over several decades on a problem that never produced a result; the 1919 account is largely his own claim.",
+  "david-unaipon.moment.2":
+    "In 1919 he began a lecturing campaign across South Australia to raise money for a patent on a device he said harnessed gravitation. Asked whether he had shown it to anyone, he said he had not, because a public demonstration would make it free for anyone to use before he could patent it.",
+  "david-unaipon.interpretation.moment.2":
+    "This is consistent with raising money himself when no backer was available; the device's claimed performance was never verified.",
+  "david-unaipon.turning_point.1":
+    "After the 1924 to 1925 collecting tour under a contract with Angus & Robertson, communication with the publisher broke down in August 1925, and in 1930 the collection appeared under William Ramsay Smith's name with Unaipon's voice and interpretations largely removed. His authorship was restored only in 2001, when the editors returned to the manuscript in the State Library of New South Wales.",
+  "david-unaipon.interpretation.turning_point.1":
+    "Starting the project and touring to gather the stories is consistent with proactive agency; how the book was published was decided by others and says little about his own choices.",
+  "florence-r-sabin.achievement.1":
+    "At Johns Hopkins from 1902, Sabin showed by injecting colored material into the vessels of embryonic pigs, and by serial sections, that the lymphatic system arises as buds from the veins and that its vessel ends are closed, the opposite of what other anatomists predicted. She later watched red and white blood cells arise from the lining of vessels in living chick-embryo cultures and perfected supravital staining of living cells. A modern review names her a major advocate of the venous-origin view, which later work supports as the main source though not the only one.",
+  "florence-r-sabin.achievement.2":
+    "Named the first woman full professor at Johns Hopkins in 1917, first woman president of the American Association of Anatomists in 1924 and the first woman elected to the National Academy of Sciences in 1925, she joined the Rockefeller Institute as its first woman full member. There, from 1925 to 1938, she led work on which chemical components of the tuberculosis bacterium provoke which immune cells, and found how monocytes become the giant cells of tuberculous lesions; the work did not produce a cure but added to knowledge of immune function.",
+  "florence-r-sabin.achievement.3":
+    "After retiring to Colorado in 1938, she chaired the health committee of the governor's post-war planning committee from 1944, had health surveys made of every county, and campaigned for a six-bill program; the legislature passed four of the bills in 1947, including a reorganization of the State Board of Health and aid for county health districts. As manager of the Denver health department from 1947 she campaigned on restaurant and milk sanitation and tuberculosis screening, and in 1951 she received the Lasker Public Service Award.",
+  "florence-r-sabin.moment.1":
+    "In 1917, five months after Sabin was promoted to full professor, Franklin Mall died and the anatomy chair went to Lewis Weed, one of her former students; her students petitioned and a women's educational association complained to the university. Sabin accepted the decision without protest, and asked whether she would stay, said, \"Of course I'll stay. I have research in progress.\" She remained at Johns Hopkins until 1925.",
+  "florence-r-sabin.interpretation.moment.1":
+    "The reply is consistent with keeping her attention on a research programme in the face of an unfair setback, though the episode rests on one quoted remark and the sources describe her as restrained about her own grievances.",
+  "florence-r-sabin.moment.2":
+    "In late 1923 Simon Flexner invited Sabin to head a new Department of Cellular Studies at the Rockefeller Institute, telling her that something fundamental should be done about the anemias and leukemias. She accepted on the condition that salaries for several of her Johns Hopkins laboratory fellows be included, and began there in September 1925.",
+  "florence-r-sabin.interpretation.moment.2":
+    "The condition is consistent with caring for the people who worked with her when she changed posts, though the account comes from a single institutional biography and says nothing of how those fellows saw it.",
+  "florence-r-sabin.turning_point.1":
+    "In December 1944 Colorado's governor, advised that a woman should sit on his health committee and assured that Sabin was a brilliant but unthreatening little old lady, asked her to chair it. She had surveys made of every county, had six bills drafted and, according to the Academy memoir, went to all sixty-three counties and then to the legislature; four bills passed in 1947 and she went on to run Denver's health department until 1951.",
+  "florence-r-sabin.interpretation.turning_point.1":
+    "The turn from laboratory science to a legislative campaign is consistent with proactive agency in taking an advisory post well beyond what was expected, though the program rested on a large coalition and the two accounts that tell it are admiring.",
+  "ignacy-lukasiewicz.achievement.1":
+    "In 1852-53, working in a Lwów pharmacy with the laboratory assistant Jan Zeh, he helped separate a burnable kerosene fraction from crude oil, and with the tinsmith Adam Bratkowski he developed a lamp for it. The lamps lit a Lwów hospital operating room on 31 July 1853, a date later used as a symbolic start of the Polish oil industry. Historians dispute how credit is divided between him and Zeh, and kerosene was also being refined elsewhere at about the same time.",
+  "ignacy-lukasiewicz.achievement.2":
+    "In 1854 he started an oil mine at Bóbrka with Tytus Trzecieski and Karol Klobassa, and in 1856 a distillery at Ulaszowice. Bóbrka moved from hand-dug wells to hand percussion drilling and then to steam-powered drilling, and it is described as among the first modern producing oil fields; the site is now a museum with wells still in use.",
+  "ignacy-lukasiewicz.achievement.3":
+    "He helped build the industry around the field: he co-organised the first Oil Industry Congress in 1877, which led to the National Oil Society, and in the Galician Diet he supported subsidies for exploratory drilling and geological maps. At Bóbrka and his Chorkówka refinery he also trained mining staff.",
+  "ignacy-lukasiewicz.moment.1":
+    "According to the Austrian chemist Hans Gintl's 1873 account, quoted in a modern article, in 1853-54 he sent distillate samples and lamps to a Vienna factory owner and a professor and to Paris, seeking capital and attention after no interest could be raised in Galicia. The efforts did not succeed at the time.",
+  "ignacy-lukasiewicz.interpretation.moment.1":
+    "Reading this episode as one contemporary witness retold by a single author, it is consistent with persistence in promoting an idea that was not yet commercially accepted.",
+  "ignacy-lukasiewicz.moment.2":
+    "From 1866 or 1868 the Bóbrka mine and the Chorkówka refinery ran a workers' fund (the 'Bracka' fund), financed by 3 percent of wages, that paid for sickness care, relief after fires and pensions for families of dead workers. A 1957 historian, citing 19th-century inspectors, reports that Bóbrka was rated among the best-run workplaces in the region.",
+  "ignacy-lukasiewicz.interpretation.moment.2":
+    "The fund is consistent with a concern for the welfare of the people who worked for him; most accounts come from memorial or institutional sources, so the weight should be modest.",
+  "ignacy-lukasiewicz.turning_point.1":
+    "At the turn of 1853 and 1854 he left the Lwów pharmacy for a leased pharmacy in Gorlice, near the oil seeps, and later in 1854 joined Trzecieski and Klobassa in opening the Bóbrka mine. He kept working as a pharmacist until the early 1860s, when a new deposit at Bóbrka led him to leave pharmacy altogether.",
+  "ignacy-lukasiewicz.interpretation.turning_point.1":
+    "The move is consistent with a pattern of acting on an idea before it was proven, though keeping the pharmacy income for years also shows the risk was partly hedged.",
+  "juan-luna.achievement.1":
+    "In 1884 Luna's Spoliarium, a canvas about 4.2 by 7.7 metres showing fallen gladiators being dragged into the spoliarium beneath a Roman arena, won a first-class gold medal at the Madrid national exhibition, and the Gazette des Beaux-Arts review called it the sensation of the show. It is now regarded as the best-known painting of the Philippines, and Philippine reformists in Spain read its stripped, dragged gladiators as an allegory of colonial rule.",
+  "juan-luna.achievement.2":
+    "His first major recognition came in 1881, when The Death of Cleopatra won a second-class medal at the Madrid national exhibition. After Spoliarium, Spanish institutions commissioned him: the Senate's Battle of Lepanto, hung in November 1886 opposite Francisco Pradilla's Surrender of Granada, and the Overseas Ministry's Spain and the Philippines.",
+  "juan-luna.achievement.3":
+    "Luna painted Hymen, oh Hymenee! on his honeymoon trip from Rome to Venice, finishing it most likely in 1887. Sent to the 1889 Exposition Universelle in Paris, it won the bronze medal, which the Inquirer calls the greatest award ever given to a painting by a Filipino. The picture went missing after his death in 1899 and resurfaced in a European family's collection; it was shown in Manila in 2023.",
+  "juan-luna.moment.1":
+    "Although Spoliarium won a first-class medal in 1884, the exhibition's Medal of Honour was withheld. Matibag reports speculation that peninsular chauvinism lay behind this, and that Alfonso XII told Luna in an audience he regretted the jury had not awarded it. Ocampo writes that Luna went on painting for that medal for the rest of his life without winning it.",
+  "juan-luna.interpretation.moment.1":
+    "Going on to seek an honour he had been denied is consistent with a competitive streak, though both accounts are interpretive remarks, and the exclusion was widely read as colonial prejudice as well as rivalry.",
+  "juan-luna.moment.2":
+    "For the 1889 Exposition Universelle in Paris the press pressed for Luna to be shown in the Spanish section, and he was allowed to exhibit. For reasons the Inquirer does not detail, he could not show the paintings he wanted, so he submitted Hymen, oh Hymenee!, a honeymoon picture he had kept in his studio for his own pleasure, and it won the bronze medal.",
+  "juan-luna.interpretation.moment.2":
+    "Substituting a work he had kept for himself when his first choices were unavailable is consistent with a moderate capacity to adjust, though a single news account does not explain why the planned works were withdrawn.",
+  "juan-luna.turning_point.1":
+    "After the 1884 Madrid gold medal Luna left Rome for Paris in October 1884, aristocrats sought him for portraits, younger artists wanted him as a teacher, and the Spanish Senate commissioned the Battle of Lepanto. Matibag adds that even then his own income could not cover the Paris household's costs, which his mother-in-law helped to pay, and that he shuttled between Paris and Madrid for portrait work.",
+  "juan-luna.interpretation.turning_point.1":
+    "The sequence of recognition, a change of base and a shift toward commissioned portraits is consistent with a painter who kept working at the conventions of the Salon and the market, although the sources differ on how far this reflected ambition and how far money pressure.",
+  "kang-youwei.achievement.1":
+    "In 1895 Kang Youwei mobilised provincial graduates in Beijing against the peace terms with Japan and founded the Society for the Study of National Strengthening, which was suppressed in 1896. In 1898 he pressed a reform programme through memorials and books passed up to the Guangxu Emperor, and Mao Haijian counts 8 of that year's 27 reform items as proposed by his group. The reforms were annulled in September 1898; historians still dispute how large his own role was.",
+  "kang-youwei.achievement.2":
+    "Kang argued in The Forged Classics (1891) that texts held sacred by the state cult had been tampered with in the Han period, and in Confucius as a Reformer (1897) that Confucius had stood for change. Britannica says his readings inspired later scholarship on China's past, while critics charged that he invoked Confucius to serve his own aims. In 1894 a censor had already demanded that the first of these books be destroyed.",
+  "kang-youwei.achievement.3":
+    "In exile he wrote the Datongshu, largely in India in 1902 according to Gale's entry, a work imagining a world without national boundaries, with a world parliament, communal property and an end to distinctions of class, sex and race. He held it back because he thought the public unready; its first two parts appeared in 1913 and the whole only in 1935, eight years after his death.",
+  "kang-youwei.moment.1":
+    "Kang's only audience with the Guangxu Emperor took place on 16 June 1898. Kang described it as lasting two and a half hours, but Zhang Yuanji, who was received the same day, wrote in 1930 that Kang went in first and came out after ten-odd minutes. Mao Haijian notes that no record of the conversation survives and that Kang's own later accounts of it are unreliable; the most dependable evidence is a memorial he sent three days later.",
+  "kang-youwei.interpretation.moment.1":
+    "The gap between the two accounts is consistent with a tendency to present his own standing at court in a favourable light, which Mao Haijian and Luke Kwong both flag as a risk in Kang's own accounts of 1898. It is one episode, and his reform memorials themselves are well documented.",
+  "kang-youwei.moment.2":
+    "In 1888, as a junior scholar with no right to petition the throne, Kang wrote a memorial to the Guangxu Emperor urging the court to change its laws, open channels for opinion and choose its attendants with care. The Imperial College and the Censorate would not forward it, and Luke Kwong says its blunt tone toward the Empress Dowager and the Emperor was part of the reason. Kang then drafted five memorials for censors and others to submit, with his own ideas worked in.",
+  "kang-youwei.interpretation.moment.2":
+    "Drafting memorials for officials who did have the right to submit them is consistent with inventiveness in working around a closed channel. Mao Haijian notes that the Emperor knew nothing of these efforts at the time.",
+  "kang-youwei.turning_point.1":
+    "On 21 September 1898 the Empress Dowager Cixi reasserted control, annulled the reform decrees and confined the Emperor; six reform leaders were executed, among them Kang's brother. Kang, warned the day before, left Beijing and escaped abroad, by one account on a British gunboat from Shanghai to Hong Kong. In July 1899 he founded the Baohuanghui, an association to restore the Emperor's power with branches among Chinese communities overseas, and he did not return to China until 1913.",
+  "kang-youwei.interpretation.turning_point.1":
+    "Rebuilding his effort abroad within a year is consistent with the profile's perseverance. The same commitment to the monarchist line carried him into the abortive 1917 restoration, and historians differ on whether it helped or hurt his later influence.",
+  "kazi-nazrul-islam.achievement.1":
+    "In 1921-22 Nazrul wrote 'Bidrohi' (The Rebel) and 'Bhangar Gan' (Song of Destruction), whose language and themes Banglapedia says changed the tenor of Bangla poetry. His 1922 collection Agni-Vina, which includes 'Bidrohi', sold out its first edition soon after publication and was reprinted several times in quick succession; the poem made him known across Bengal as the 'rebel poet'.",
+  "kazi-nazrul-islam.achievement.2":
+    "He wrote and set to music roughly two thousand songs (Britannica gives a range of 2,000 to 4,000), now known as Nazrul Geeti, drawing on north Indian classical ragas, folk tunes and devotional traditions, and he is credited as the main creator of the Bangla ghazal. His songs were recorded by HMV from 1925 and by several other companies; he worked in radio and the stage from 1929 and in film from 1934.",
+  "kazi-nazrul-islam.achievement.3":
+    "As an editor and writer he ran the daily Nabajug (1920), the magazine Dhumketu (1922) and the weekly Langal (1925). A political poem in Dhumketu led to the issue's proscription and to his arrest in November 1922, and at least five of his books were banned by the British authorities between 1922 and 1931.",
+  "kazi-nazrul-islam.moment.1":
+    "On 14 April 1923, the day he was moved to Hooghly jail, Nazrul began a hunger strike against the ill-treatment of political prisoners. A Calcutta weekly noted during the fast that some might call it capricious and others foolish, and Tagore's telegram urging him to stop was reportedly never delivered. After about forty days (Banglapedia says 40, the weekly 38) he ate again; Banglapedia credits the persuasion of the prison inspector Abdullah Suhrawardy, while the weekly credits the request of an older woman, Biraja Sundari Devi.",
+  "kazi-nazrul-islam.interpretation.moment.1":
+    "Fasting against prison conditions after a conviction for his own words is consistent with a high tolerance for conflict and personal cost, though the sources describe the protest on behalf of prisoners generally and say nothing of what he weighed beforehand.",
+  "kazi-nazrul-islam.moment.2":
+    "In 1921 Nazrul joined processions of the non-cooperation movement in Comilla and sang patriotic songs there, though Banglapedia says he had no faith in the philosophy of Gandhi's movement or of the Khilafat movement and believed only armed revolution would free India. He backed Mustafa Kemal's reforms in Turkey and wrote the poem 'Kamal Pasha' that year.",
+  "kazi-nazrul-islam.interpretation.moment.2":
+    "Joining a movement whose method he doubted, for the sake of a united struggle, while publishing a different view of his own, is consistent with independent thinking that did not always mean standing apart; the account of his views is the encyclopedia's summary.",
+  "kazi-nazrul-islam.turning_point.1":
+    "Nazrul served in the 49th Bengal Regiment at Karachi from late 1917, rising to havildar (battalion quartermaster), and published his first prose and verse from the cantonment in 1919. After leaving the army in about March or April 1920 he went to Calcutta, shared rooms at the Bangiya Mussalman Sahitya Samiti with Muzaffar Ahmed, and on 12 July 1920 began work on the evening daily Nabajug.",
+  "kazi-nazrul-islam.interpretation.turning_point.1":
+    "The move from soldier to literary journalist is consistent with an ability to rebuild a working life around a new field, though it followed two years of writing while he served and a Calcutta circle that was already forming.",
+  "kim-jeong-hui.achievement.1":
+    "He renewed Joseon epigraphy, the study of inscribed monuments, after meeting leading Qing scholars such as Weng Fanggang and Ruan Yuan in Beijing in 1809 and keeping up the exchange afterward. His study of the Silla King Jinheung's Hwangchoryeong and Bukhansan monuments, the Geumseok gwaanrok, checked their inscriptions against calendars and dynastic histories and dated the Bukhansan monument to between 568 and 576.",
+  "kim-jeong-hui.achievement.2":
+    "He created the Chusa style of calligraphy, built on clerical script and on study of ancient stele, bronze and brick inscriptions. Developed over his later career and matured during his exile on Jeju, it broke with popular taste, and it is regarded as the most revered calligraphy in Korea.",
+  "kim-jeong-hui.achievement.3":
+    "In 1844, during his exile on Jeju, he painted Sehando (National Treasure No. 180) for his pupil Yi Sang-jeok, who had brought him rare books from Beijing. A nearly bare house between pine trees, with the title taken from the Analects, it became a scroll more than ten meters long once Qing and Joseon scholars added their colophons, and it is often called the greatest literati painting of the Joseon period.",
+  "kim-jeong-hui.moment.1":
+    "According to his own inscription on the work, he promised his friend Yun Jeong-hyeon a clerical-script piece of Yun's pen name 'Chimgye' and then spent over thirty years looking for the right clerical form of the first character, until a study of Northern Dynasties writing gave him the solution.",
+  "kim-jeong-hui.interpretation.moment.1":
+    "The story is consistent with a high standard for getting a single character right, though it comes from his own inscription and is one episode.",
+  "kim-jeong-hui.moment.2":
+    "In 1845, when a British ship, the Samarang, appeared off Jeju, his biographer Yoo Hong-joon says he played down the West's possible future influence on Korea, since he had never imagined that the Qing, which he saw as an ideal state, could fall to Western powers.",
+  "kim-jeong-hui.interpretation.moment.2":
+    "The episode, as one biographer reads it, sits alongside his revised views on the monuments as a reminder that his willingness to change his mind was uneven across subjects.",
+  "kim-jeong-hui.turning_point.1":
+    "In 1840, after the Yun Sang-do affair, he was sent to Jeju and held in confinement for about nine years, after nearly twenty years of a smooth official career. In exile he completed the Chusa style and painted Sehando, and he was released in 1849 before a second exile to Bukcheong in 1851.",
+  "kim-jeong-hui.interpretation.turning_point.1":
+    "The reversal from court career to confinement is consistent with a view, shared by several accounts, that adversity changed both his art and his manner, though the sources differ on how much of the change was the exile itself.",
+  "laura-bassi.achievement.1":
+    "In 1732 Laura Bassi, aged twenty, was admitted to the Academy of Sciences of Bologna in March, defended forty-nine theses in public on 17 April and received her degree on 12 May, and was appointed professor of philosophy at the University of Bologna. Findlen calls her the first woman to pursue a paid scientific career, and the second woman whose graduation from a university is documented.",
+  "laura-bassi.achievement.2":
+    "From 1749 she and her husband, the physician Giuseppe Veratti, taught Newtonian experimental physics in daily lessons at their home in Bologna, with a laboratory that visitors such as Nollet, Volta and Spallanzani frequented. Findlen says her cousin Lazzaro Spallanzani gave up his legal studies to become an experimenter after studying with her, and that a generation of men afterwards said they had gone to her school.",
+  "laura-bassi.achievement.3":
+    "In 1776 the Bologna Senate appointed her to the chair of experimental physics at the Institute of Sciences, after years of requests, with Veratti as her assistant; MacTutor describes her as the first woman appointed to a chair of physics at any university. She died in February 1778; of her papers, a list of 32 presented annually from 1746 survives but only four were printed, and MacTutor notes that they contain little that is original.",
+  "laura-bassi.moment.1":
+    "In 1745 Pope Benedict XIV, her former patron Lambertini, created an elite group of 24 Benedettini at the Bologna Academy, and Bassi was not among them. She wrote to Rome to present her credentials and ask to be made the twenty-fifth member; he agreed, but her male colleagues did not give her the full privileges of voting and attending meetings.",
+  "laura-bassi.interpretation.moment.1":
+    "The request is consistent with a readiness to act on her own behalf when a door closed, though it relied on a papal patron who already favoured her, and the compromise outcome shows the limits of what that initiative could win.",
+  "laura-bassi.moment.2":
+    "After the 1732 appointment, which allowed her to lecture only when asked to 'by reason of sex', Bassi asked for a licence to read books prohibited by the Church, including works by Galileo and Descartes, studied calculus with Gabriele Manfredi, and apprenticed herself to the experimental physicist Jacopo Bartolomeo Beccari. Findlen describes this as a programme of study to raise her value as a scientist.",
+  "laura-bassi.interpretation.moment.2":
+    "This is consistent with an appetite for learning that went beyond what her post required, although Findlen also frames it as a strategy for a career, so the episode shows curiosity and ambition together rather than curiosity alone.",
+  "laura-bassi.turning_point.1":
+    "In February 1738 Bassi married the physician and lecturer Giuseppe Veratti, while some citizens objected and moralists criticised her. MacTutor and Findlen both say the marriage changed her working conditions: she could now receive guests and lecture at home, and in 1739 the university granted her funds for experimental equipment there, though it refused more teaching duties.",
+  "laura-bassi.interpretation.turning_point.1":
+    "The shift from lecturing on occasion to teaching and experimenting at home is consistent with an ability to work around institutional limits; the sources differ on how far the marriage was a strategy and how far a partnership, and the home setting was also a consequence of exclusion.",
+  "luis-de-camoes.achievement.1":
+    "He wrote Os Lusíadas, published in Lisbon in 1572, an epic in ten cantos and 1,102 eight-line stanzas that follows Vasco da Gama's voyage to India and recounts Portuguese history. Unlike its Italian models it deals with recent, well-documented events, and it is regarded as Portugal's national epic. A royal pension followed in 1572.",
+  "luis-de-camoes.achievement.2":
+    "His lyric poetry, circulated in manuscript and first printed after his death as the Rimas (1595), includes sonnets, odes, elegies and songs that combine traditional Peninsular meters with Italian forms. Early editions contained poems falsely attributed to him, which scholars including Wilhelm Storck and Carolina Michaëlis de Vasconcelos later sorted out.",
+  "luis-de-camoes.moment.1":
+    "After about 17 years in the East he was stranded almost destitute on Mozambique island, where the historian Diogo do Couto, who knew him, helped pay for his passage home. He reached Lisbon in April 1570, and on 24 September 1571 obtained a royal licence to print the Lusiads.",
+  "luis-de-camoes.interpretation.moment.1":
+    "The sequence is consistent with persistence in getting the poem into print, although the more famous story of saving the manuscript from a shipwreck rests on his own verses and later tradition.",
+  "luis-de-camoes.moment.2":
+    "The poem describes places and customs he is thought to have seen in Asia, among them the Goan caste system and Hindu practices, the volcano of Ternate, the Mekong and the passage by Singapore. A modern essay notes that 'to see' is the most frequent verb in the poem after 'to be'.",
+  "luis-de-camoes.interpretation.moment.2":
+    "Because his years in the East are documented almost only through his own poems, this is consistent with curiosity about the people and places he met, but it cannot show how he lived there.",
+  "luis-de-camoes.turning_point.1":
+    "A royal letter of pardon dated 7 March 1553 records that on Corpus Christi 1552 he wounded a royal servant with a sword and was arrested; it states that he was about to leave for India. He sailed that spring and spent about 17 years abroad.",
+  "luis-de-camoes.interpretation.turning_point.1":
+    "The accounts differ on how the fight began, so this single documented incident gives only a weak, low-confidence view of how he handled conflict; the pardon also tied his departure to service in India.",
+  "mary-slessor.achievement.1":
+    "In 1888, after about a year of negotiations with the chiefs, she settled at Ekenge in Okoyong, a district the Calabar mission had been unable to enter, and worked there for some fifteen years. She sheltered twins and their outcast mothers, who were otherwise killed or driven out; Mary Kingsley, staying with her, recorded the first twins in the district being saved. Twin killing had been opposed by missionaries and by treaty before she arrived, and later writers dispute how much credit is hers.",
+  "mary-slessor.achievement.2":
+    "She acted as the local arbiter in Okoyong and was appointed vice-consul there in 1892; in 1905 she accepted a seat as vice-president of the Itu native court, which was offered at a nominal pound a year with the rest of the salary for her mission work, and she declined any pay. Historians read the role as double-edged: it protected people in disputes, but the courts also helped extend British legal control.",
+  "mary-slessor.achievement.3":
+    "She opened many small bush schools, one estimate putting the number above fifty with more than 2,000 pupils by her death, and set up homes and training for abused women and girls at Use and Ikot Obong, teaching farming and crafts. Knox notes that her schools kept teaching in the local language after the colonial government required English, which some Nigerian historians have criticised.",
+  "mary-slessor.moment.1":
+    "In June 1888, after earlier mission parties had found the Okoyong armed and unwilling to promise anything, she went up the river and walked four miles inland to Ekenge, where she spent the night and obtained promises of ground for a school and of refuge for her house. She later wrote that her courage had repeatedly threatened to take wings and fly away.",
+  "mary-slessor.interpretation.moment.1":
+    "Going ahead while openly admitting fear is consistent with a willingness to accept risk, although the sources describing the episode are largely sympathetic to her.",
+  "mary-slessor.moment.2":
+    "In 1910, when the people of Akpap complained of being forced to build a road through a sacred yam grove, she wrote to the district commissioner opposing it and ended the letter 'I am NOT your obedient servant'. Accounts differ on why she had left the Ikotobong court: Livingstone says she resigned after a severe illness, while Knox says she was dismissed after a dispute over labourers' rights.",
+  "mary-slessor.interpretation.moment.2":
+    "Putting objections to officials in writing, and in blunt terms, is consistent with a high tolerance for conflict with authority; the differing accounts of her departure from the court show that how far this cost her is not settled.",
+  "mary-slessor.turning_point.1":
+    "After the 1901 British military expedition against the Aro, she told the mission committee that an ordained missionary should take over the church at Akpap so she could move on, and in 1904 she began work at Itu, which became her base. Knox argues that the move into Aro country was possible only because of that expedition, even though she herself disliked such expeditions.",
+  "mary-slessor.interpretation.turning_point.1":
+    "Moving on once the Okoyong work had a successor is consistent with adaptability to changing conditions, while the dependence on colonial force that Knox points out is part of why her record is read as ambiguous rather than simply heroic.",
+  "max-theiler.achievement.1":
+    "In 1937 Theiler and his colleague Hugh Smith reported 17D, a live attenuated yellow fever strain that arose when the Asibi virus, the first isolated from a patient, was carried through many generations in chick-embryo tissue from which nervous tissue had been removed. The variant no longer killed mice or monkeys yet protected them, it was used in field trials in Brazil from 1938, and more than 400 million doses have since been given; the 1951 Nobel Prize in Physiology or Medicine for this work is the only one ever awarded for a virus vaccine. Credit was shared: the Nobel presenter names Lloyd, Smith and Ricci as his collaborators.",
+  "max-theiler.achievement.2":
+    "In 1930 Theiler showed that yellow fever virus could be carried in white mice, which were cheap and easy to handle compared with monkeys, and in 1931 that mice given serum from people or monkeys who had had the disease were protected. The mouse protection test let researchers map where yellow fever had occurred, and passing the virus repeatedly through mouse brain weakened it for monkeys, the basis of a mouse-brain vaccine that the French used in West Africa; mice then became standard for virus work.",
+  "max-theiler.achievement.3":
+    "After the vaccine he became director of the Rockefeller Foundation's virus laboratories. A South African memorial notice says that after a 1950 tour of Africa he proposed a worldwide study of arthropod-borne viruses, which the Foundation accepted, and travelled to Africa, India and South America to set up laboratories; he also found the mouse virus now called Theiler's disease. He retired in 1964 and was professor of epidemiology at Yale until 1967.",
+  "max-theiler.moment.1":
+    "In 1926 Theiler and Andrew Sellards showed that the leptospire Hideyo Noguchi had named as the cause of yellow fever, and had turned into a vaccine used by the Rockefeller Foundation, matched the organism of Weil's disease; the Foundation quietly stopped distributing the vaccine that year. A South African memorial notice adds that when Sellards, who held yellow fever to be bacterial, left on a trip to West Africa, he left Theiler to pursue his own theory that it was a virus.",
+  "max-theiler.interpretation.moment.1":
+    "The episode is consistent with a willingness to follow a view that differed from a senior colleague's and from a prominent institutional claim, though the 1926 result was joint with Sellards, others already doubted Noguchi, and the memorial notice is an admiring source.",
+  "max-theiler.moment.2":
+    "Passing the virus through mouse brain made it less harmful to the liver but more likely to attack the brain, and Theiler and a colleague found that smaller doses paradoxically gave more encephalitis in monkeys. He and his coworkers then turned to tissue culture, and after the Asibi strain was grown in embryo tissue stripped of nervous tissue, the 17D variant appeared.",
+  "max-theiler.interpretation.moment.2":
+    "The change of method after his own results is consistent with revising an approach in light of evidence, but it is told as one episode by two historians, and the final strain also depended on a chance change in the virus.",
+  "max-theiler.turning_point.1":
+    "After his 1930 report that yellow fever could be carried in mouse brain, Theiler left Harvard for the Rockefeller Foundation's International Health Division in New York, which Norrby says welcomed him because of that finding; a reference biography adds that the report was received coldly at Harvard. There he worked until 1964 on the tissue-culture experiments that led to 17D.",
+  "max-theiler.interpretation.turning_point.1":
+    "The move is consistent with taking the initiative to seek a setting that could support his line of work, though it rests on one historian's sentence about his application and a single reference-book remark about Harvard's reaction.",
+  "nazim-hikmet.achievement.1":
+    "He changed Turkish poetry by moving away from inherited syllabic and Ottoman forms toward free verse with broken lines, colloquial language and contemporary subject matter. He is regarded as one of the most influential figures in twentieth-century Turkish literature and as the first Turkish poet to win an international reputation, and his poems have been translated into dozens of languages.",
+  "nazim-hikmet.achievement.2":
+    "He wrote Human Landscapes, a five-volume poem of nearly twenty thousand lines that gives portraits of people from every part of Turkish society across the early twentieth century. He wrote it in prison between 1938 and 1950, it circulated in parts among friends and family, and it was published only after his death, in 1966 and 1967.",
+  "nazim-hikmet.achievement.3":
+    "His 1936 Epic of Shaykh Bedreddin retold the revolt of a fifteenth-century religious leader in Anatolia, and is one of the most celebrated long poems in twentieth-century Turkish literature. He also wrote plays, among them The Forgotten Man (1935), that used unconventional dramatic forms.",
+  "nazim-hikmet.moment.1":
+    "While serving his 1938 sentence in Bursa prison, he began Human Landscapes and sent it out in sections to friends and relatives; the Salem biography says some portions were confiscated by the police or lost, and a Turkish newspaper summary reports that prison poems were smuggled abroad.",
+  "nazim-hikmet.interpretation.moment.1":
+    "The episode is consistent with a pattern of finding ways to keep writing and circulating work under severe restriction, though the smuggling account rests on a single newspaper summary.",
+  "nazim-hikmet.moment.2":
+    "In 1949, according to the Salem biography, he began a hunger strike that lasted seventeen days after he had suffered a heart attack in prison; Turkish accounts also mention hunger strikes during the campaign that led to his release under the 1950 amnesty.",
+  "nazim-hikmet.interpretation.moment.2":
+    "The episode can be read as consistent with a willingness to accept personal risk in a confrontation with the authorities, though the accounts differ on the number and dates of the strikes.",
+  "nazim-hikmet.turning_point.1":
+    "In January 1938 he was arrested again and, after two military trials, sentenced to a combined 28 years and four months; sources differ on the exact charges, which concerned inciting unrest among military cadets. He had worked for years as a writer, journalist and scriptwriter, and now he remained in prison until the 1950 amnesty, with his work banned or published under other names.",
+  "nazim-hikmet.interpretation.turning_point.1":
+    "The sentence ended his ability to publish openly in Turkey; his major long poem was written in the years that followed, which sits alongside accounts of his persistence under confinement.",
+  "niijima-jo.achievement.1":
+    "He founded the Doshisha English School in Kyoto, which opened on 29 November 1875 with eight students and two teachers, himself and the American missionary J. D. Davis, and grew into Doshisha University. The Kyoto governor Makimura Masanao and the governor's adviser Yamamoto Kakuma backed it, and the money came partly from about 5,000 dollars pledged at an American Board meeting in 1874. A girls' school followed in 1877.",
+  "niijima-jo.achievement.2":
+    "He advocated Christian-based liberal education in Japan. In 1888 he published an appeal for a Christian private university in the main national newspapers and magazines, after drafting a prospectus in 1884. He did not live to see it opened: Doshisha became a university under the University Ordinance only in 1920, thirty years after his death.",
+  "niijima-jo.achievement.3":
+    "In 1872-73, while a student at Andover Theological Seminary, he guided and interpreted for the Japanese education commissioner Tanaka Fujimaro during the Iwakura Mission's survey of American schools, and went on with him to Europe, where he also helped prepare the inspection report. Doshisha describes him as the first Japanese to earn a degree from a Western institution of higher education, a Bachelor of Science from Amherst College in 1870.",
+  "niijima-jo.moment.1":
+    "On 13 April 1880, after upper-class students had boycotted classes to protest a decision to merge two entering classes, he told the morning worship that the fault was his as head of the school and struck his own hand with a cane until it broke. One of the students present, Tokutomi Iichiro (later the writer Tokutomi Soho), left the school but afterward worked hard on his university appeal.",
+  "niijima-jo.interpretation.moment.1":
+    "The episode is consistent with an attempt to move students by taking responsibility himself rather than by punishing them, though sources differ on which hand he struck and the account comes from the school and a colleague.",
+  "niijima-jo.moment.2":
+    "From 1886 to 1890 Japan's Presbyterian and Congregational churches negotiated a union. He did not oppose the idea at the start, but he objected to a draft constitution he judged essentially Presbyterian and to a rushed union led by a few pastors, and he held to this against his own former pupils, such as Kozaki Hiromichi, who favoured union. The Congregational churches formally gave up the plan in April 1890.",
+  "niijima-jo.interpretation.moment.2":
+    "His stance is consistent with a willingness to stay in open disagreement with people close to him, though the article that reconstructs it also records contemporaries who blamed him for the failure and credits him with acting as a mediator in the end.",
+  "niijima-jo.turning_point.1":
+    "In July 1864, at 21, he left Japan from Hakodate, against the national ban on overseas travel, disguised as a townsman and hidden in the storeroom of the American ship Berlin. He moved on to another ship in Shanghai and reached Boston in 1865, where the shipowner Alpheus Hardy and his wife took him in, paid for his schooling at Phillips Academy and later Amherst, and witnessed his baptism in 1866.",
+  "niijima-jo.interpretation.turning_point.1":
+    "The flight is consistent with a high tolerance for personal risk, though the surviving accounts of his motives come largely from his own later writing.",
+  "pedro-alvares-cabral.achievement.1":
+    "In March 1500 Cabral led a fleet of 13 ships out of Lisbon, the second Portuguese expedition to India. Sailing southwest, he sighted the coast of what is now Brazil on 22 April, named it the Island of Vera Cruz, and sailed on from Porto Seguro on 2 May after sending a ship home to tell King Manuel. Most scholars now think winds and currents carried him there rather than a plan, and the Spanish captain Vicente Yanez Pinzon may have reached the coast slightly earlier.",
+  "pedro-alvares-cabral.achievement.2":
+    "The fleet reached Calicut on 13 September 1500, where Cabral set up a Portuguese trading post. After it was attacked in December he bombarded the city, then loaded spices at Cochin and Cannanore and sailed home, reaching Portugal in June and July 1501 with only part of the original fleet. The voyage showed that the sea route could carry trade, and it left Calicut an enemy of the Portuguese.",
+  "pedro-alvares-cabral.moment.1":
+    "At Porto Seguro, after the captains came aboard the flagship, Cabral took them aside and asked whether to send word of the new land to King Manuel by the supply ship, so that the king could order it explored. They agreed, and it was decided to leave two convicts ashore when the fleet sailed, according to Caminha's letter.",
+  "pedro-alvares-cabral.interpretation.moment.1":
+    "The episode is consistent with a consultative way of commanding. Royal instructions may have called for such councils, and Caminha was a subordinate writing to the king, so the account may flatter his commander.",
+  "pedro-alvares-cabral.moment.2":
+    "On 24 May 1500 a sudden squall off the Cape of Good Hope sank four of the thirteen ships with all hands and scattered the rest for days. Cabral's ship and two others rounded the Cape and reached Mozambique, where part of the fleet regrouped and spent about ten days on repairs before sailing on to India.",
+  "pedro-alvares-cabral.interpretation.moment.2":
+    "Continuing the voyage is consistent with perseverance under loss, though it was a royal mission and the sources do not separate his own resolve from his instructions. Britannica dates the storm to 29 May, while Greenlee and the eyewitness narrative give 24 May.",
+  "pedro-alvares-cabral.turning_point.1":
+    "On 17 December 1500 the Portuguese trading post at Calicut was stormed and most of the roughly seventy men ashore were killed or captured. Cabral waited a day for an apology from the Zamorin, then seized ten Arab ships in the harbour, killed most of their crews and bombarded the city for a day before sailing to Cochin. Greenlee calls the bombardment a turning point in Portuguese relations in India: Calicut stayed hostile, and Cochin and Cannanore became Portugal's trading partners on the coast.",
+  "pedro-alvares-cabral.interpretation.turning_point.1":
+    "The reprisal is consistent with a readiness to escalate sharply in a dispute. Greenlee notes that Cabral carried royal instructions to seize Arab ships and that the Portuguese saw the reprisal as justified, while Panikkar reads the same events as the work of a proud and short-tempered commander, so the sources do not let his conduct be separated from his orders.",
+  "phan-chau-trinh.achievement.1":
+    "Phan Châu Trinh was one of the two best-known Vietnamese scholar-nationalists of the early 1900s, and the more committed to non-violent reform. He argued that Vietnam should win self-rule through education, civil rights and the end of monarchical rule, not through armed uprising or foreign military help. After leaving the mandarinate in 1904 he made a fact-finding trip through the south and helped found the Dong Kinh Free School in Hanoi, which the French closed by the end of 1907, and he campaigned for modern schools, short hair, Western dress and new-learning societies. His death in 1926 set off nationwide mourning, with a Saigon funeral of about 16,000 by one historian's estimate.",
+  "phan-chau-trinh.achievement.2":
+    "Phan made his case in writing and in speech. He sent Governor-General Paul Beau a letter in 1907 describing the abuses of officialdom and the decay of custom, made public charges against Emperor Khai Dinh in 1922, and in 1925 gave two Saigon lectures, on morality and ethics in East and West and on monarchy and democracy, that challenged the existing order. Vinh Sinh, whose translation of these texts is reviewed in the principal source, argues that Phan deserves study as a founder of a Vietnamese style of political argument.",
+  "phan-chau-trinh.achievement.3":
+    "Phan spent about fourteen years in France, from 1911 to 1925. In 1912 he helped found an association of Vietnamese patriots with the lawyer Phan Van Truong, and after the First World War he joined Phan Van Truong and the young Nguyen Ai Quoc, later Ho Chi Minh, in drafting and distributing a Vietnamese appeal for rights addressed to the peace conference. He was arrested at the start of the war and held in the Sante prison from September 1914 until mid-1915.",
+  "phan-chau-trinh.moment.1":
+    "On 2 April 1907 Phan addressed a letter to Governor-General Beau, which Saigon publishers reprinted in 1926. Writing under his former official rank, he told the colonial government that the country's condition was critical and named the abuses of officialdom, the sickness of civil life and the rot of custom as the root problems.",
+  "phan-chau-trinh.interpretation.moment.1":
+    "This is consistent with a willingness to confront officialdom and to address the colonial authority directly, though he framed the appeal as a request for French-led reform, which critics later called naive.",
+  "phan-chau-trinh.moment.2":
+    "After about fourteen years in France, Phan had grown increasingly disillusioned with French colonial policy by 1925. In 1922 he wrote to Nguyen Ai Quoc, then a young activist in Paris, praising his strong will and, as one reviewer summarises the letter, encouraging him to take new Marxist ideas back to Vietnam and test them, while saying that if he returned home he would work to rally people against the old regime.",
+  "phan-chau-trinh.interpretation.moment.2":
+    "This is consistent with some revision of his earlier trust in French tutelage; he never joined the communist radicals, and historians describe the change as a drift rather than a clean break.",
+  "phan-chau-trinh.turning_point.1":
+    "After the 1908 anti-tax protests in central Vietnam the French blamed the reformist scholars. Phan, who denied any part in the protests, was arrested; his death sentence was commuted to hard labour on Con Dao, and he was amnestied in 1910 after French socialists intervened, which led to his move to France in 1911. His exile and surveillance there lasted until he was allowed back to Saigon in 1925.",
+  "phan-chau-trinh.interpretation.turning_point.1":
+    "This is consistent with continuing to argue for reform through repeated imprisonment and exile, though one historian describes the French decision to let him leave as partly a way of isolating him from the Vietnamese public.",
+  "qian-xuesen.achievement.1":
+    "From 1956 he directed the Fifth Academy of the Chinese Ministry of National Defense, the body that organized China's missile research, and from 1968 the Chinese Academy of Space Technology. He is called the father of Chinese aerospace, although Britannica notes that he did not develop any particular missile, rocket engine or satellite himself and earned the title by training the country's first generation of aerospace engineers.",
+  "qian-xuesen.achievement.2":
+    "At Caltech from 1936 he studied under Theodore von Karman and took part in the rocket experiments of the group that became the Jet Propulsion Laboratory. In 1943, with two colleagues, he drafted the first document to use that name, and in 1949 he became the Robert H. Goddard Professor of Jet Propulsion.",
+  "qian-xuesen.achievement.3":
+    "While restricted to the Los Angeles area in the early 1950s, he wrote Engineering Cybernetics (1954), on the stabilization and control of complex multi-variable systems, which was reviewed at once as a major contribution to control theory. He also developed physical mechanics, a field built on molecular and atomic theory, in his Caltech lecture notes.",
+  "qian-xuesen.moment.1":
+    "From March 1953 he was barred from leaving the Los Angeles area and had to report to the immigration office every month. In those years he kept teaching at Caltech, published Engineering Cybernetics in 1954, and turned part of his research to games and economic behavior.",
+  "qian-xuesen.interpretation.moment.1":
+    "This is consistent with persistence in scientific work under restriction; the account of his inner state comes mostly from an admiring institutional biography.",
+  "qian-xuesen.moment.2":
+    "As a student at Jiaotong University in Shanghai he played the euphonium in the orchestra and brass band, designed his class's graduation emblem and album cover, and learned photography. Before leaving for the United States in 1935 he published music reviews arguing that music should be judged by its content and emotional expression, not just technique.",
+  "qian-xuesen.interpretation.moment.2":
+    "This is consistent with a developed sensitivity to music and design alongside engineering; all of the detail comes from a single biography.",
+  "qian-xuesen.turning_point.1":
+    "In 1955 his travel ban was lifted, and during the Sino-American talks he wrote a letter to a senior Chinese figure asking for help to return. He sailed from Los Angeles with his family on the SS President Cleveland that September, and in 1956 he was made director of the Fifth Academy of the Chinese Ministry of National Defense.",
+  "qian-xuesen.interpretation.turning_point.1":
+    "Writing to ask for help in returning is consistent with proactive agency; the sources do not say how he adapted from research to running a large organization.",
+  "roberto-burle-marx.achievement.1":
+    "He made the modern tropical garden in Brazil. Beginning with a garden for the Schwartz house in Rio in 1932 and hanging gardens for the Ministry of Education and Health, he replaced European-style formal gardens with massed native tropical plants arranged in sinuous forms and bold colour contrasts, in the manner of an abstract painting.",
+  "roberto-burle-marx.achievement.2":
+    "His public landscapes shaped Rio de Janeiro's waterfront: the landscape design of Flamengo Park (1961-65), made by his office within a working group coordinated by Lota de Macedo Soares, and the black, white and red mosaic promenade of Copacabana (1970). He also designed gardens for government buildings in Brasília and the Parque del Este in Caracas.",
+  "roberto-burle-marx.achievement.3":
+    "From 1949 he turned an estate at Barra de Guaratiba into a living laboratory of about 3,500 species, many gathered on collecting expeditions, and in 1985 he donated it to the federal government. Sítio Roberto Burle Marx was inscribed on the UNESCO World Heritage List in 2021 as the first modern tropical garden to be listed.",
+  "roberto-burle-marx.moment.1":
+    "His plant-hunting trips, which he called coletas, took him through Brazil's regions with botanists and friends such as the architect Rino Levi. The plants went to the Sítio to be acclimatised and tested, and in September 1965 he and Levi travelled through Minas Gerais and Bahia, where they were struck by the town of Lençóis as a lesson in urban planning.",
+  "roberto-burle-marx.interpretation.moment.1":
+    "The pattern is consistent with sustained curiosity about plants in their habitats, although the most vivid descriptions of these trips are his own words as quoted by a scholar.",
+  "roberto-burle-marx.moment.2":
+    "According to a 1963 magazine account cited by the author William Howard Adams, he first declined to work on Brasília because President Juscelino Kubitschek, as mayor of Belo Horizonte, had not paid for earlier work there. He became involved after Kubitschek's defeat in 1961.",
+  "roberto-burle-marx.interpretation.moment.2":
+    "The episode is consistent with a willingness to refuse a powerful client, but it rests on a single second-hand account and other reasons were also suggested at the time.",
+  "roberto-burle-marx.turning_point.1":
+    "In 1928, aged 19 and in Berlin with his family to study painting and voice, he discovered Brazil's tropical plants in the Dahlem botanical garden. Back in Brazil in 1930 he turned his home into a place for tropical plants, and in 1932 his first commissioned garden followed through Lúcio Costa.",
+  "roberto-burle-marx.interpretation.turning_point.1":
+    "The pivot is consistent with a painter extending his work into a second discipline without leaving the first, though the account of the Berlin discovery relies on biographical retellings.",
+  "rong-hong.achievement.1":
+    "Rong Hong, known in the West as Yung Wing, is credited in nearly all accounts as the originator of the Chinese Educational Mission. After he pressed the idea with Qing officials for years, Zeng Guofan and Li Hongzhang submitted a detailed plan in 1871, and between 1872 and 1875 four contingents, 120 boys in all, were sent to live and study in Connecticut and Massachusetts, with Rong as associate commissioner and a headquarters opened in Hartford in 1874. The Qing government recalled the students in 1881 before they could finish their studies; many later worked as railway engineers, naval officers, diplomats and administrators.",
+  "rong-hong.achievement.2":
+    "In 1854 Rong graduated from Yale College and is generally cited as the first Chinese to earn a degree from a Western university; Zeng Laishun had attended an American college earlier without graduating, and Huang Kuan graduated at Edinburgh a year later. Born to a poor farming family near Macau, Rong had been taken to Massachusetts in 1847 by his teacher Samuel Robbins Brown and entered Yale in 1850.",
+  "rong-hong.achievement.3":
+    "In 1863 Zeng Guofan sent Rong to the United States to buy machinery for China's first modern arsenal, and the successful purchase, which became the basis of the Jiangnan Arsenal, earned him an official rank despite his lack of a classical Chinese education. In 1878 he gave Yale more than 1,200 books, which became the core of its East Asian library.",
+  "rong-hong.moment.1":
+    "In the mid-1850s, back in China and short of money, Rong turned down a comprador's post with a foreign trading house in Nagasaki; in his memoir's account he told the manager the job was servile and unworthy of a Yale graduate, and asked instead to work as the firm's agent in the tea districts. He also writes that years earlier he had refused church backers who wanted him to promise to become a missionary.",
+  "rong-hong.interpretation.moment.1":
+    "This is consistent with a strong preference for working on his own terms, though both episodes come from his own account, so the reading is tentative.",
+  "rong-hong.moment.2":
+    "In 1870, after the Tianjin massacre, Governor Ding Richang took Rong north as his assistant to help with the dispute with France. Rong used the occasion to remind Ding of the educational scheme he says he had put to him in 1868, and Ding in turn won over Zeng Guofan, whose memorial of October 1870 endorsed sending boys abroad and named Rong as one of two men to run the programme.",
+  "rong-hong.interpretation.moment.2":
+    "This is consistent with attaching a long-held proposal to a moment when officials needed his skills; Rhoads tells the chain largely from Rong's autobiography, and a Chinese historian credits Ding Richang rather than Rong with the idea.",
+  "rong-hong.turning_point.1":
+    "In 1881 the Qing government ordered the students home, with the reasons given including their Americanisation, the cost, and the United States' break with the Burlingame Treaty's education provisions; the two commissioners lost their posts. Rong's efforts to keep the programme alive failed, but with Leonard Bacon's help two students, Tan Yaoxun and Rong Kui, found independent support and stayed in the United States.",
+  "rong-hong.interpretation.turning_point.1":
+    "This is consistent with a continued effort to save part of the project after its collapse; the sources describe that effort only briefly, so it carries little weight on its own.",
+  "satoshi-omura.achievement.1":
+    "Ōmura's team at the Kitasato Institute collected and screened soil bacteria, and a strain from soil near a golf course in Ito, Shizuoka (sampled in 1974), later named Streptomyces avermitilis, was sent to Merck. There William Campbell's group showed that its product, avermectin, was highly active against parasites. Chemically modified into ivermectin, it reached the market as an animal drug in 1981 and later became the basis of mass treatment for river blindness and lymphatic filariasis, and he shared half of the 2015 Nobel Prize in Physiology or Medicine with Campbell.",
+  "satoshi-omura.achievement.2":
+    "Over five decades his group at the Kitasato Institute isolated new microbes and discovered close to 500 compounds, of which about 26 came into use as medicines, animal-health and farm products or research reagents. One of them, staurosporine, became a widely used research tool for studying protein kinases and has been described as a model for later kinase-inhibitor cancer drugs.",
+  "satoshi-omura.achievement.3":
+    "In the 1970s he built a research partnership with Merck, and later other firms, in which the Kitasato Institute screened microbes and the company developed and sold the products, with royalties returning to the institute, a form of industry-university cooperation that was uncommon in Japan then. Royalties from ivermectin, reported at more than 22 billion yen, restored the institute's finances and helped pay for a hospital complex at Kitamoto in Saitama that opened in 1989.",
+  "satoshi-omura.moment.1":
+    "According to the biographer Rensei Baba, as relayed in a Science Portal review, Merck first offered about 300 million yen for use of the ivermectin patents. Ōmura declined and asked for payment in proportion to sales, and Max Tishler helped mediate the final stage of the negotiation. The institute then received royalties that averaged about 1.6 billion yen a year.",
+  "satoshi-omura.interpretation.moment.1":
+    "This episode is consistent with a readiness to hold out for terms he judged fair, though it rests on one biographer's account and the outcome was also shaped by Tishler's mediation.",
+  "satoshi-omura.moment.2":
+    "Using royalties from avermectin, he planned a new hospital at Kitamoto in Saitama Prefecture. A 2015 magazine profile reports that the local medical association objected and that he continued to plead until the complex, with a nursing school and a vaccine plant, opened in 1989.",
+  "satoshi-omura.interpretation.moment.2":
+    "This is consistent with using licensing income for public-facing facilities and with persisting through local opposition, though the opposition is described in a single line of one profile.",
+  "satoshi-omura.turning_point.1":
+    "In 1971 he went to Wesleyan University as a visiting professor under Max Tishler, a former Merck research director, and was recalled to the Kitasato Institute after roughly a year and a half (accounts give 14 to 18 months). Finding research money scarce in Japan, he proposed to drug companies that they fund joint research in return for royalties, and Merck's chief microbiologist visited the institute in 1972 to set up a collaboration.",
+  "satoshi-omura.interpretation.turning_point.1":
+    "This is consistent with proactive agency in turning a funding shortage into a partnership model, although Merck's own visit shows the first step was not his alone.",
+  "uchimura-kanzo.achievement.1":
+    "He founded the Mukyokai, or Non-church, movement of lay Christianity. From September 1900 he published the monthly magazine 'Seisho no kenkyu' (Biblical Studies), which ran to 357 issues until his death in 1930 and, with 2,500 to 5,000 copies a month, became the centre of a movement with no denomination, church buildings, sacraments or formal organisation.",
+  "uchimura-kanzo.achievement.2":
+    "He argued against the Russo-Japanese War from a Christian standpoint. In 1903, when the newspaper Yorozu Choho, where he had written since 1897, moved to support the war, he resigned from it together with his fellow writers Kotoku Shusui and Sakai Toshihiko.",
+  "uchimura-kanzo.achievement.3":
+    "He wrote in English for readers abroad as well as in Japanese. His 'Japan and the Japanese' (1894), later retitled 'Representative Men of Japan', and 'How I Became a Christian' (1895), the story of his conversion, are his best-known books; the library's biography lists both among his main works, and a German translation of the second appeared in 1904.",
+  "uchimura-kanzo.moment.1":
+    "On 2 October 1881 Uchimura and fellow Christian students of the Sapporo Agricultural College held the first service of their own church and issued a four-article declaration of independence, one article of which says that spreading the gospel in Japan without foreign help is a duty of the Japanese. They had borrowed 400 dollars from a Methodist missionary for the building and repaid the whole debt by 28 December 1882.",
+  "uchimura-kanzo.interpretation.moment.1":
+    "The episode is consistent with a strong preference for independence from outside control, though it is a group decision and the church's own history, not a record of his individual choices, is the main source.",
+  "uchimura-kanzo.moment.2":
+    "In 1903 he resigned from the Yorozu Choho, the most widely circulated paper of its day, rather than stay on after its publisher moved to back the government's line before the Russo-Japanese War. A German royalty of 1,000 marks for 'How I Became a Christian' reached him, according to a former student, when he was out of work.",
+  "uchimura-kanzo.interpretation.moment.2":
+    "The resignation is consistent with a willingness to accept personal cost rather than yield on a point of conviction, though the sources describe the decision more than the weighing behind it.",
+  "uchimura-kanzo.turning_point.1":
+    "In January 1891, at a ceremony at the First Higher Middle School where he taught, staff and students were to bow before the emperor's signature on the Imperial Rescript on Education. Accounts differ: one says he alone did not bow, another that he only nodded. Newspapers attacked him, he fell gravely ill, a letter of resignation was submitted, and the affair effectively ended his career as a teacher; from then on he lived by writing.",
+  "uchimura-kanzo.interpretation.turning_point.1":
+    "The episode is consistent with a refusal to join a ritual that conflicted with his religious convictions, though the versions of what he did differ and the sources agree mainly on the consequences.",
+  "yoichiro-nambu.achievement.1":
+    "Starting from the BCS theory of superconductivity, Nambu showed that gauge invariance survives when a ground state breaks a symmetry, then proposed in 1960 that the vacuum of particle physics can break symmetry spontaneously too, so that the nucleon's mass and a nearly massless pion could arise. With Giovanni Jona-Lasinio he developed the idea into a field-theory model, and both the massless Nambu-Goldstone particle and the Higgs, Brout and Englert mechanism build on it. He received half of the 2008 Nobel Prize in Physics for this work.",
+  "yoichiro-nambu.achievement.2":
+    "In 1965, with Moo-Young Han, he proposed that quarks carry a new quantum number, later called colour, governed by a gauge theory with SU(3) symmetry. Their assignment of electric charges turned out to be wrong, but the colour idea became part of quantum chromodynamics and the Standard Model.",
+  "yoichiro-nambu.achievement.3":
+    "Around 1969 he and, independently, Holger Bech Nielsen and Leonard Susskind showed that the Veneziano scattering amplitudes call for replacing point-like particles with extended one-dimensional objects, strings. This work started the field of string theory.",
+  "yoichiro-nambu.moment.1":
+    "According to the Nobel committee, it took Nambu about two years to understand how gauge invariance works in the BCS theory of superconductivity, and he showed that it survives in a non-linear form. Only then did he apply the same ideas to particle physics.",
+  "yoichiro-nambu.interpretation.moment.1":
+    "This is consistent with patiently working through a hard problem before generalising it, though the evidence is a single sentence in the committee's summary.",
+  "yoichiro-nambu.moment.2":
+    "A former thesis student, Madhusree Mukerjee, recalled finding Nambu carefully studying an amateur's hand-written paper on relativity. He explained that Einstein had taken the trouble to read an unsolicited paper from the then unknown Satyendra Nath Bose.",
+  "yoichiro-nambu.interpretation.moment.2":
+    "This is consistent with open-minded curiosity about unsolicited ideas, though it is a single recollection retold in a tribute collection.",
+  "yoichiro-nambu.turning_point.1":
+    "In postwar Japan, where imports of American physics journals were barred, Nambu worked out the electron's anomalous magnetic moment and obtained the alpha over two pi correction, only to read in Time magazine that Julian Schwinger had published the same result, which made his own work unpublishable. In 1952 he went to the Institute for Advanced Study in Princeton and in 1954 to the University of Chicago, where he spent the rest of his career.",
+  "yoichiro-nambu.interpretation.turning_point.1":
+    "This episode is consistent with a habit of working problems out independently, and the later move reflects a recognition that theoretical physics was centred in the United States, though the first claim rests on one obituary line.",
+  "yoshida-shoin.achievement.1":
+    "After the failed Shimoda attempt of 1854 and his release into house confinement in Hagi in 1855, Yoshida Shōin taught at the Shōka Sonjuku, a small private school in Hagi. His students were mostly sons of low-ranking samurai and commoners, and they included Takasugi Shinsaku, Kusaka Genzui, Itō Hirobumi and Yamagata Aritomo. Nippon.com calls the teaching his most significant achievement, and one scholarly count puts the circle at 92 students.",
+  "yoshida-shoin.achievement.2":
+    "Held in Noyama prison in Hagi after 1854, he began reading Mencius with fellow prisoners in a circle where members took turns lecturing, and the discussions became his best-known work, the commentary known as Kōmō yowa. A senior Neo-Confucian scholar of the domain, Yamagata Taika, criticised passages urging that like-minded followers be gathered person by person, which he read as a private raising of men, and the exchange ran for about a year and a half. Maeda Tsutomu describes the book as his representative work.",
+  "yoshida-shoin.achievement.3":
+    "Shōin was executed in Edo on 21 November 1859 during the Ansei Purge, nine years before the shogunate fell. Nippon.com notes that he came to be regarded as a spiritual leader of the Meiji Restoration, a standing that his former students, as they rose in government, did much to build. The first Japanese biography appeared only in the 1890s, and the article says assessments of him have swung with later politics.",
+  "yoshida-shoin.moment.1":
+    "On 25 April 1854, before sunrise, Shōin and his disciple Kaneko Shigenosuke climbed up the ladder of Perry's USS Mississippi at Shimoda and were sent on to the flagship, where they asked through an interpreter to be taken to the United States. Perry declined, they were put ashore, and the shogunate's authorities arrested them; at the time, leaving Japan was punishable by death. The account is Nippon.com's retelling, which also draws on Perry's own report.",
+  "yoshida-shoin.interpretation.moment.1":
+    "Attempting a capital offence before dawn is consistent with this profile's high tolerance for personal risk. The scene says less about caution or planning, and the cost was shared: his companion died in prison the next year.",
+  "yoshida-shoin.moment.2":
+    "In February and March 1859, from Noyama prison, Shōin wrote that he was glad the disciple Irie Sugizō and his brother had been jailed after acting on his plans, and that the deaths of such men would be no loss. Irie wrote back that he could not simply die, because he had an old mother, and told Shōin to break with him if he was wrong. Shōin replied that his earlier words were a mistake, and promised never to force loyalty on Irie at the cost of his filial duty. Tomoda Kentaro reads the harsh words as a sign that Shōin unconsciously took low-ranking disciples' obedience for granted.",
+  "yoshida-shoin.interpretation.moment.2":
+    "The exchange offers one example of his readiness to withdraw a statement when a disciple pushed back, sitting alongside the harshness of the first letters. It is a single episode between two men, so it supports a modest reading of how readily he changed his mind.",
+  "yoshida-shoin.turning_point.1":
+    "After the 1854 failure he was sent to Noyama prison in Hagi and, in 1855, released into confinement at his birth family's home. From then until his death he could not travel; Tomoda notes that he conducted most of his political activity through letters, and he began teaching at the Shōka Sonjuku. Before 1854 he had been a young scholar who covered Japan on foot, and the confinement redirected him toward reading circles, letters and teaching.",
+  "yoshida-shoin.interpretation.turning_point.1":
+    "The sequence is consistent with a capacity to keep going: with travel closed to him, he kept pursuing his aims through the means left, rather than stopping. How far the confinement itself shaped his later influence is a matter on which historians differ.",
 };
 
 export const EDITORIAL_KO: Record<string, string> = {
@@ -30151,6 +30651,506 @@ export const EDITORIAL_KO: Record<string, string> = {
     "의회는 1924년 인디언 시민권법을 통과시켰지만, 일부 주는 문자 해독 시험, 전체 선거구 선거, 연방 신탁 토지에 관한 규정 등을 이용해 원주민의 투표를 막았다. 1926년 지트칼라샤와 남편은 전미 아메리카 인디언 평의회를 결성했고, 세 번의 여름 동안 원주민 공동체를 찾아다니며 의견을 듣고 입법을 논의하며 유권자 등록을 도왔다.",
   "zitkala-sa.interpretation.turning_point.1":
     "입법상의 부분적 성과 뒤에 새 조직을 만든 것은 끈기와 일관되지만, 평의회가 무엇을 이루었는지에 대해서는 자료가 간략하게만 설명한다.",
+  "abraham-ortelius.achievement.1":
+    "1570년 오르텔리우스는 안트베르펜에서 『테아트룸 오르비스 테라룸』(‘세계의 무대’)을 펴냈다. 흔히 최초의 근대적 지도책으로 불리는 이 책은 여러 출처의 지도를 하나의 통일된 규격으로 줄여 대륙과 지역별로 묶고, 지도마다 뒷면에 설명문을 실었다. 초판은 53장의 판에 동판 지도 70점을 담았으며 대부분 프란스 호헨베르흐가 판각했다.",
+  "abraham-ortelius.achievement.2":
+    "그는 이 지도책을 계속 늘리고 고쳤으며, 1570년부터 1612년까지 일곱 개 언어로 31개 판이 나왔다. 그가 참고한 지도 제작자들을 밝힌 목록인 ‘카탈로구스 아욱토룸’이 함께 실렸는데, 『과학 인명 사전』은 16세기 군소 지도 제작자들에 대해 알려진 내용의 상당 부분이 이 목록에서 나온다고 설명한다.",
+  "abraham-ortelius.achievement.3":
+    "오르텔리우스는 고대 지리와 고대 유물에 관한 저술도 남겼다. 자신의 고대 주화 수집품을 바탕으로 한 고대 신들에 관한 도판집(1573), 『지리 동의어 사전』(1578)과 이를 개정한 『지리 보감』, 프톨레마이오스의 지명을 다룬 『노멘클라토르 프톨레마이쿠스』, 고대 세계의 지도 모음 『파레르곤』(1584)이 그것이다. 브리태니커는 그가 1575년 에스파냐 펠리페 2세의 왕실 지리학자로 임명되었다고 기록한다.",
+  "abraham-ortelius.moment.1":
+    "1574년부터 1598년까지 오르텔리우스는 서신을 주고받던 이들의 글귀, 초상, 그림을 한 권의 ‘벗들의 앨범’에 모았고, 이 앨범은 지금 케임브리지 펨브로크 칼리지에 있다. 1577년에 쓴 존 디의 글(자신의 문장을 그려 넣은 장식 테두리 안)과 윌리엄 캠던의 시를 비롯해, 프랑크푸르트, 안트베르펜, 런던, 레이던, 빈 등 여러 도시에서 쓴 기고가 들어 있다.",
+  "abraham-ortelius.interpretation.moment.1":
+    "케임브리지의 설명은 이 앨범을 국경을 넘은 인문주의자들의 우정 문화의 증거로 읽는다. 이는 네트워크에 기대어 협력하는 작업 방식과 부합하지만, 헌사를 모은 앨범은 공동 작업이 아니라 우정을 기록한 것이라는 한계가 있다.",
+  "abraham-ortelius.moment.2":
+    "『테아트룸』은 거듭 보충되었다. 1573년에 추가 지도를 담은 첫 보유편(Additamentum)이 나왔고, 위트레흐트대학교의 집계로는 지도가 1570년 53점에서 1598년 119점으로 늘었다. 『가톨릭 백과사전』은 더 정확한 보고가 들어오면 낡은 지도를 새 지도로 바꾸었다고 덧붙인다.",
+  "abraham-ortelius.interpretation.moment.2":
+    "판을 거듭하며 고쳐 나간 이러한 방식은 더 나은 정보가 들어오면 출간된 작업을 갱신하려는 태도와 부합한다. 다만 자료들은 그의 생각이 아니라 여러 판의 내용을 설명하며, 지도 수 집계도 서로 다르다.",
+  "abraham-ortelius.turning_point.1":
+    "1559~1560년 오르텔리우스는 메르카토르와 함께 로렌과 푸아투를 여행했고, 메르카토르는 그에게 직접 지도를 그려 보라고 권했다. 그때까지 그는 다른 이들이 만든 지도를 채색하고 사고파는 일로 생계를 꾸렸으며, 자신의 첫 작품인 8장짜리 세계 지도는 1564년에 나왔다.",
+  "abraham-ortelius.interpretation.turning_point.1":
+    "이 전환은 지도를 거래하는 일에서 지도를 만드는 기술을 익히는 쪽으로 옮겨 간 것과 부합한다. 그러나 자료는 메르카토르의 권유를 직접적인 계기로 제시하므로, 이를 오로지 그 자신의 주도로 돌릴 수는 없다.",
+  "amerigo-vespucci.achievement.1":
+    "1499~1500년 베스푸치는 알론소 데 오헤다가 이끈 에스파냐 원정대에 천문 관측과 해도 제작을 맡은 항해사로 올랐고, 1501~1502년에는 브라질 해안을 따라 내려간 포르투갈 항해에 참여했다. 브리태니커는 이 두 번째 항해를 통해 그와 학자들이 그 땅이 아시아가 아니라 ‘신세계’라고 확신하게 되었다고 설명한다. 이탈리아 인명 사전은 그가 선박의 지휘관이었던 적이 없으며 항해를 서술한 인쇄된 편지들은 저자 문제가 논쟁 중이라고 강조한다.",
+  "amerigo-vespucci.achievement.2":
+    "1507년 로렌의 생디에 학자들은 『코스모그라피아이 인트로둑티오』를 마르틴 발트제뮐러의 세계 지도와 함께 펴냈고, 이 지도는 베스푸치가 연안을 따라 항해한 땅에 그를 기려 ‘아메리카’라는 이름을 붙일 것을 제안했다. 이름을 제안한 것은 그 자신이 아니었으며, 처음에는 지금의 브라질 일대를 가리켰고 북아메리카로는 나중에 확장되었다.",
+  "amerigo-vespucci.achievement.3":
+    "1508년 에스파냐 왕실은 세비야의 무역원(카사 데 콘트라타시온)에 수석 항해사(피로토 마요르) 직을 신설하고 베스푸치에게 맡겼으며, 그는 1512년 사망할 때까지 이 직을 지켰다. 이 직책은 항해사들을 시험하여 승선 자격을 인증하고, 발견된 땅을 담은 공식 해도를 최신 상태로 유지하는 일을 맡았다.",
+  "amerigo-vespucci.moment.1":
+    "1505년 3월 13일 세비야 무역원의 관리들은 베스푸치와 비센테 야녜스 핀손이 지휘할 원정대를 준비하라는 명령을 받았다. 이 계획은 1506년 8월 다시 승인되었으나 9월 국왕 펠리페가 급사하면서 끝내 출항하지 못했으며, 이탈리아 인명 사전은 선장들의 급여 계획을 포함한 상세한 준비 기록이 남아 있다고 전한다.",
+  "amerigo-vespucci.interpretation.moment.1":
+    "이는 원정에 참여하는 데 그치지 않고 탐사 계획에 꾸준히 관여했음과 부합한다. 다만 명령은 왕실에서 내려온 것이어서 어디까지가 그 자신의 주도였는지는 분명하지 않다.",
+  "amerigo-vespucci.moment.2":
+    "수석 항해사로서 베스푸치는 항해 밖의 문제에 대해서도 공식적으로 의견을 요청받았는데, 신세계로 수출하는 물품의 관리와 탈세를 막는 방안이 그 예이다. 1509년 7월 9일에는 어떤 서명이 콜럼버스의 것인지에 대한 감정 의견을 냈고, 제독이 서명하는 것을 여러 번 보았고 그의 장부를 맡은 적이 있어 서명을 잘 안다고 진술했다.",
+  "amerigo-vespucci.interpretation.moment.2":
+    "이렇게 다양한 요청은 한 가지 기술을 넘어서는 역량에 대한 평판과 부합한다. 다만 이 역할들은 상업과 항해의 세계에 몰려 있으며, 그가 이를 어떻게 다루었는지는 기록에 나타나지 않는다.",
+  "amerigo-vespucci.turning_point.1":
+    "1495년 12월 15일 지안노토 베라르디가 숨지자 베스푸치와 동료는 왕실에 납품할 카라벨선 선단의 의장을 마무리해야 했다. 1496년 2월 먼저 출항한 네 척은 에스파냐 해안에서 난파했고 회사는 청산되었다. 이탈리아 인명 사전에 따르면 그는 청산을 맡았고 콜럼버스와의 금전 관계를 끊었으며 마흔둘에 일자리 없는 처지가 되었고, 1499년 5월에는 항해사로 승선할 항해를 준비하고 있었다.",
+  "amerigo-vespucci.interpretation.turning_point.1":
+    "사업이 무너진 뒤 상업에서 항해로 옮겨 간 것은 이 프로필의 적응력과 부합한다. 그러나 이 전환이 계획된 것이었는지는 자료에 나타나지 않으며, 1497~1498년의 기록도 분명하지 않다.",
+  "annie-besant.achievement.1":
+    "그녀는 1914년부터 인도의 자치를 요구하는 운동을 벌여 일간지 『뉴 인디아』를 펴냈고, 1916년 9월 1일에는 전인도 자치연맹을 세웠으며, 1916년 러크나우 협정을 앞두고 국민회의와 무슬림 연맹이 가까워지는 데에도 기여했다. 1917년 6월 억류되었다가 항의가 이어지자 풀려났고, 그해 12월 여성 최초로 인도 국민회의 의장이 되었지만, 운동에 대한 그녀의 영향력은 1년 안팎으로 줄어들었다.",
+  "annie-besant.achievement.2":
+    "그녀는 1907년 신지학 협회의 국제 회장으로 선출되어 1933년 세상을 떠날 때까지 그 자리를 지켰으며, 강연자이자 저술가로서 헬레나 블라바츠키의 가르침을 알기 쉬운 말로 풀어냈다. 인도에서는 1898년 바라나시에 중앙 힌두 칼리지를 세웠고, 이 학교는 훗날 바라나시 힌두 대학교의 일부가 되었다. 그녀는 식민 당국과 선교사들의 힌두교 폄하에 맞서 힌두교를 옹호했으나, 인도 사회에 대한 그녀의 해석 가운데 일부는 이상화되었다는 비판을 받았다.",
+  "annie-besant.achievement.3":
+    "1877년 그녀는 찰스 브래들로와 함께 산아제한 소책자를 다시 펴냈고 재판에서 직접 이를 변호했는데, 이 재판은 피임 문제를 이례적으로 널리 알렸다. 그 직후 그녀는 딸의 양육권을 잃었다. 1888년에는 브라이언트 앤드 메이 성냥 공장의 노동 실태를 폭로한 그녀의 글이 성냥 노동자 파업에 앞서 나왔고, 그녀는 노동자들이 노동조합을 결성하도록 도왔다. 다만 역사가들은 파업을 시작하고 이어간 것은 젊은 여성 노동자들 자신이었다고 강조한다.",
+  "annie-besant.moment.1":
+    "1877년 놀턴 소책자를 둘러싼 음란물 재판에서 그녀는 가족 수를 조절하는 정보는 권리이며 신체에 관한 사실은 외설이 아니라고 직접 변론했다. 대부분의 기록은 그녀와 브래들로가 유죄 판결과 형을 받았으나 항소심에서 뒤집혔다고 전하지만, 한 백과사전은 판결을 다르게 설명한다. 1878년 남편은 그녀의 활동을 근거로 딸의 양육권을 얻었다.",
+  "annie-besant.interpretation.moment.1":
+    "자신의 평판과 아이의 양육권을 걸고도 캠페인을 포기하지 않은 모습은 공개적인 갈등을 견디는 높은 내성과 어울리며, 그만큼 오래 가는 개인적 대가도 따랐다.",
+  "annie-besant.moment.2":
+    "1929년 8월 그녀가 장차 올 세계의 스승으로 길러 온 지두 크리슈나무르티는 자신을 중심으로 만들어진 '동방의 별 교단'의 해산을 선언했다. 한 통신사 보도는 그녀가 이 조치를 '논리적인' 일이라고 말하면서도 그를 세계의 스승으로 믿는 근본적인 믿음은 그대로라고 밝혔다고 전했다.",
+  "annie-besant.interpretation.moment.2":
+    "스스로 세우는 데 참여한 조직의 해산을 받아들이면서도 핵심 신념은 그대로 유지한 모습은 제도에는 유연하고 핵심 믿음에는 단단했다는 해석과 어울린다. 다만 기록은 그녀가 이 결정을 내면에서 어떻게 저울질했는지는 보여주지 않는다.",
+  "annie-besant.turning_point.1":
+    "1889년 편집자 W. T. 스테드의 요청으로 블라바츠키의 『비전(秘傳) 교리』 서평을 쓴 그녀는 호의적인 평을 내놓았고, 블라바츠키를 만난 뒤 신지학 협회에 가입하여 1874년부터 지켜 온 세속주의 활동의 무대에서 멀어졌다. 1893년에는 인도에서 강연했고, 1895년에는 베나레스에 정착하여 여생의 대부분을 그곳에서 보냈다.",
+  "annie-besant.interpretation.turning_point.1":
+    "15년 가까이 세속주의 운동을 공개적으로 이끌던 뒤에 이런 규모의 전환이 일어났다는 점은 신념이 바뀔 때 삶을 새로운 틀을 중심으로 다시 짜는 경향과 어울린다. 다만 새 신념도 이전 신념만큼 단단히 붙들었기 때문에, 이 프로필은 이를 신념 수정에 대한 열린 태도로 일부만 해석한다.",
+  "austen-henry-layard.achievement.1":
+    "레이어드는 1845년부터 님루드를 발굴했다. 그는 이곳을 니네베로 여겼으나 실제로는 훗날 칼라(칼후)로 확인된 앗시리아 도시였다. 그는 아슈르나시르팔 2세를 비롯한 여러 왕의 궁전을 드러냈고, 거대한 인면 날개 달린 황소상과 수많은 부조 판이 대영박물관으로 옮겨져 지금도 이 박물관의 대표적인 앗시리아 유물로 꼽힌다.",
+  "austen-henry-layard.achievement.2":
+    "1849년부터 1851년까지의 두 번째 발굴에서 그는 모술 맞은편의 쿠윤지크 언덕, 곧 진짜 니네베가 있던 자리를 팠다. 그곳에서 센나케리브의 궁전과 방대한 쐐기문자 점토판 문서고를 찾아냈고, 이 문서들을 통해 앗시리아와 바빌로니아의 역사에 관한 많은 지식이 훗날 복원되었다.",
+  "austen-henry-layard.achievement.3":
+    "『니네베와 그 유적』(1848~49)과 『니네베와 바빌론 유적에서의 발견』(1853)은 널리 팔려 고대 앗시리아를 빅토리아 시대 일반 대중에게 친숙하게 만들었다. 역사가들은 그의 서술이 발굴 과정을 실제보다 질서 있게 보이게 했다고 지적하며, 비문 해독에는 그가 참여하지 않았고 헨리 롤린슨 등이 맡았다고 기록한다.",
+  "austen-henry-layard.moment.1":
+    "님루드의 조각들을 영국으로 보내기 위해 레이어드는 부조를 반으로 잘라 무게를 줄였고, 조각된 부분을 티그리스 강으로 띄워 바스라까지 내려보내 영국행 배에 실었다. 그는 대사 스트랫퍼드 캐닝이 마련한 자금과 오스만 정부의 허가로 작업을 시작했고, 1846년에 대영박물관이 비용을 넘겨받았다.",
+  "austen-henry-layard.interpretation.moment.1":
+    "이 일화는 물류 문제를 실용적으로, 즉흥적으로 풀어 가는 방식과 어울린다. 전기는 방법만 기록할 뿐 그의 생각은 전하지 않으며, 판을 톱으로 자른 일은 유물을 옮기기 위해서라면 훼손도 쉽게 받아들이던 당시의 분위기도 보여 준다.",
+  "austen-henry-layard.moment.2":
+    "1848년 레이어드는 프랑스 영사가 작업을 이어받을 것이 걱정되어 발굴을 멈추기 어렵다고 대영박물관 이사회에 알렸고, 1853년 1월에는 다른 나라의 대리인들이 현장 가까이에 있다는 이유로 라키시 부조를 서둘러 반출하자고 촉구했다. 이사회 회의록을 분석한 연구에 따른 기록이다.",
+  "austen-henry-layard.interpretation.moment.2":
+    "경쟁 의식에서 비롯된 긴박감과 어울리는 기록이다. 다만 이는 개인의 경쟁심만이 아니라 국가 박물관과 영사들 사이의 다툼이기도 했으며, 하나의 문서 보관소를 한 연구자가 읽어 낸 내용에 근거한다.",
+  "austen-henry-layard.turning_point.1":
+    "1842년 페르시아에서 돌아오던 레이어드는 돈이 떨어져 콘스탄티노폴리스에서 영국으로 떠나려던 참에 영국 대사 스트랫퍼드 캐닝에게서 오스만 지방을 다니며 비공식 임무를 맡아 달라는 제안을 받았다. 캐닝은 이후 님루드 발굴 허가를 얻어 내고 봉급을 주어 발굴을 맡겼으며, 영국 인명사전은 이를 레이어드 운명의 전환점이라 부른다. 그 전까지 그는 자금이 바닥나고 자리도 없었지만, 이후에는 영향력 있는 후원자 밑에서 일하게 되었다.",
+  "austen-henry-layard.interpretation.turning_point.1":
+    "페르시아 경험과 모술 방문 덕분에 후원자가 필요한 바로 그 시점에 쓸모 있는 사람이 되었다는 읽기와 어울린다. 전기는 발굴 지원을 결정한 쪽을 캐닝으로 기록하므로 공은 나누어 가져야 한다.",
+  "cesar-pelli.achievement.1":
+    "펠리의 사무소는 쿠알라룸푸르 페트로나스 타워의 설계 공모에서 선정되었다. 하늘다리로 이어진 88층 쌍둥이 빌딩으로, 평면에는 이슬람 기하학 문양이 쓰였다. 이 건물은 2004년까지 세계에서 가장 높은 빌딩이었고 아가 칸 건축상을 받았다.",
+  "cesar-pelli.achievement.2":
+    "펠리는 로스앤젤레스의 그루엔 어소시에이츠에서 퍼시픽 디자인 센터를 설계했으며, 첫 건물은 1975년에 문을 열었다. 푸른 유리 외피 때문에 '푸른 고래'라는 별명을 얻었고, 가볍고 유리로 덮인 건물로 그의 이름을 일찍 알렸다. 1988년과 2012년에 초록색, 붉은색 건물이 더해졌다.",
+  "cesar-pelli.achievement.3":
+    "1980년대와 1990년대 초 그의 사무소는 뉴욕의 월드 파이낸셜 센터와 윈터 가든, 런던의 카나리 워프 타워를 설계했다. 이는 1984년 뮤지엄 타워와 뉴욕 현대미술관 확장에 이어진 고층 건물 의뢰였다. 그 전에는 에로 사리넨의 사무소에서 일하며 TWA 터미널의 세부 설계를 발전시켰다.",
+  "cesar-pelli.moment.1":
+    "펠리는 1977년 예일대 건축대학 학장이 되었고, 뉴헤이븐에 온 지 두 달이 채 되지 않아 뉴욕 현대미술관 확장과 뮤지엄 타워 설계를 맡게 되었다. 제도판조차 없던 그는 학교에서 한 블록 떨어진 곳에 사무소를 열었다. 훗날 그는 자신에게 T자조차 없었다고 회상했다.",
+  "cesar-pelli.interpretation.moment.1":
+    "이 일의 흐름은 큰 의뢰가 갑자기 들어왔을 때 상황에 적응하는 모습과 어울리지만, 회고는 펠리 자신의 것이다.",
+  "cesar-pelli.moment.2":
+    "1984년에 완공된 뉴욕 현대미술관 확장은 평가가 미지근했다. 비평가 폴 골드버거는 외관이 기대보다 밋밋하고 지루하다고 했고, 이후 개조로 펠리가 한 미술관 부분은 대부분 사라졌으며 주거용 타워만 남았다.",
+  "cesar-pelli.interpretation.moment.2":
+    "이런 평가는 위대한 형태 창조자라기보다 일관성과 도시에 대한 태도로 평가받은 건축가라는 부고 기사들의 서술과 함께 놓이며, 여기서는 독창성에 대한 엇갈린 근거로 읽는다.",
+  "cesar-pelli.turning_point.1":
+    "1964년 펠리는 에로 사리넨의 사무소에서 약 10년간 일한 뒤 로스앤젤레스로 옮겨 대니얼 만 존슨 앤드 멘덴홀에서, 이어 그루엔 어소시에이츠에서 설계 책임자가 되었다. 그곳에서 그는 다른 건축가의 구상을 발전시키던 역할에서 자신의 설계를 이끄는 역할로 옮겨 갔고, 퍼시픽 디자인 센터가 그의 명성을 세웠다.",
+  "cesar-pelli.interpretation.turning_point.1":
+    "이 이동은 다른 건축가의 구상을 해석하기보다 설계를 직접 이끌려는 의욕이 커진 것과 어울리지만, 자료는 이 변화를 윤곽만 설명한다.",
+  "claudio-monteverdi.achievement.1":
+    "1607년 2월 만토바에서 알레산드로 스트리조의 대본으로 처음 공연된 몬테베르디의 『오르페오』는 오래도록 최초의 위대한 오페라로 여겨져 왔다. 앞서 피렌체에서 이루어진 시도들이 극을 레치타티보로 음악에 옮겼다면, 『오르페오』는 표현력 있는 독창, 춤곡풍의 마드리갈과 짧은 아리아, 대규모 기악 앙상블을 하나로 엮었고, 1609년 베네치아에서 악보로 출판되었다.",
+  "claudio-monteverdi.achievement.2":
+    "제3권(1592)에서 제8권(1638)에 이르는 마드리갈 모음집에서 그는 불협화음과 리듬이 시의 뜻을 따르게 했고, 1600년대에는 이를 ‘제2의 작법’(seconda pratica)으로 내세워 볼로냐의 이론가 조반니 마리아 아르투시에 맞서 옹호했다. 아르투시는 그의 준비되지 않은 불협화음을 현대 음악의 결함이라고 공격했다. 참고 문헌들은 옛 다성음악의 이상에서 새로운 양식으로 옮겨 간 이 변화를 그의 역사적 중요성의 핵심으로 본다.",
+  "claudio-monteverdi.achievement.3":
+    "1613년부터 1643년 세상을 떠날 때까지 그는 베네치아 산마르코 성당의 악장(maestro di cappella)이었다. 헬러와 크롤은 그가 음악가를 새로 들이고 악보 자료를 늘리며 연주 수준을 끌어올려 쇠퇴하던 이 기관을 되살렸다고 설명한다. 1637년 베네치아에 공공 오페라 극장이 문을 열자 그는 일흔의 나이에 오페라로 돌아와 『오디세우스의 귀향』(1639~40)과 『포페아의 대관』(1642~43)을 썼다. 베이커 사전은 『포페아』의 최종 형태에 프란체스코 사크라티의 손길이 있었을 가능성을 연구가 시사한다고 덧붙인다.",
+  "claudio-monteverdi.moment.1":
+    "1600년과 1603년 아르투시의 두 차례 공격에 직접 응답하지 않던 몬테베르디는 1605년 마드리갈 제5권 끝에 성명을 싣고 아르투시의 이름을 거론했으며, 제2의 작법에 관한 논문을 쓰겠다고 약속했지만 끝내 쓰지 않았다. 이 책은 곤차가 공작 빈첸초에게 헌정되었다. 지겔레는 그가 공격받은 마드리갈 「잔인한 아마릴리」를 이 책의 맨 앞에 놓았다고 지적한다.",
+  "claudio-monteverdi.interpretation.moment.1":
+    "카터는 비판자의 이름을 인쇄물에 거론한 것을 대담한 행동으로 읽고, 지겔레는 차이를 줄이고 음악으로 대답하게 한 응답으로 본다. 이 일화는 공개적이지만 방식은 간접적인, 갈등에 대한 복합적인 태도와 부합하나, 두 해석을 쉽게 하나로 합치기는 어렵다.",
+  "claudio-monteverdi.moment.2":
+    "1643년 봄과 여름, 76세로 베네치아에서 세상을 떠나기 몇 달 전에 몬테베르디는 곤차가 공작이 1609년에 확인해 준 연금을 확보하려고 롬바르디아와 만토바를 6개월 동안 다녀왔다. 카터는 이 연금 문제가 그의 여생 내내 마음을 떠나지 않았고, 그가 곡을 보내거나 보내지 않는 것을 협상 수단으로 썼다고 기록한다.",
+  "claudio-monteverdi.interpretation.moment.2":
+    "이는 실무적인 문제를 오랜 세월 끈질기게 챙긴 노력과 부합한다. 다만 그 대상은 예술이 아니라 돈과 안정이었고, 카터는 이런 행보를 개인의 고집만이 아니라 궁정 후원 체제 속의 협상으로 읽는다.",
+  "claudio-monteverdi.turning_point.1":
+    "빈첸초 공작이 세상을 떠난 지 다섯 달 뒤인 1612년 7월 29일, 후임 공작 프란체스코는 몬테베르디와 그의 형제 줄리오 체사레를 만토바 궁정에서 해임했다. 몬테베르디는 크레모나로 돌아갔고, 1613년 8월 오디션을 거쳐 산마르코 성당 재무관들이 그를 베네치아의 악장으로 임명했으며, 그는 여생을 그곳에서 보냈다.",
+  "claudio-monteverdi.interpretation.turning_point.1":
+    "카터는 이 해임에 대해 궁정의 긴축, 경쟁자들의 책동, 그 자신의 지나친 자신감, 스스로 바라던 해방 등 여러 가능한 해석을 나열한다. 베네치아로의 이동은 후원자를 잃은 뒤 경력을 다시 세우는 능력과 부합하지만, 산마르코 악장 자리가 1613년 7월 줄리오 체사레 마르티넨고의 사망으로 불과 몇 주 전에 비었다는 행운의 도움도 있었다.",
+  "david-unaipon.achievement.1":
+    "그는 호주에서 작품이 출판된 최초의 원주민 작가로 일컬어진다. 1924년부터 시드니 《데일리 텔레그래프》에 글을 실었고, 1925년에는 《더 홈》에 이야기를 발표했으며, 1927년부터 1929년 사이에 『훙가르다』, 『키니 게르』, 『원주민 전설』 소책자를 냈다. 그가 1924~1925년에 모은 전설집은 1930년 윌리엄 램지 스미스의 이름으로 저자 표기 없이 출간되었고, 우나이폰의 이름으로 나온 것은 2001년이 되어서였다.",
+  "david-unaipon.achievement.2":
+    "그는 1909년까지 원운동을 직선운동으로 바꾸는, 기계식 양털 깎기용 개량 핸드피스의 특허를 받았다. 1909년부터 1944년 사이에는 원심 모터, 다중 방사형 바퀴, 기계식 추진 장치 등 다른 발명품의 특허도 출원했으나 비용을 대지 못해 모두 소멸되었고, 양털 깎기 설계에 대해서도 인정이나 대가를 받지 못했다는 설명이 있다.",
+  "david-unaipon.achievement.3":
+    "그는 1913년부터 약 50년 동안 원주민친우협회의 회비 모금원으로 호주 남동부를 돌아다니며 강연하고 설교했고, 원주민의 전설과 관습, 앞날에 대해 이야기했다. 1913년과 1926년에는 왕립위원회에서 증언했고 1928~1929년 블리클리 조사를 도왔으며, 1920년대 말에는 원주민을 대표하는 가장 이름난 공적 대변인으로 받아들여졌다.",
+  "david-unaipon.moment.1":
+    "1919년의 한 신문 보도는 그가 여러 해 동안 영구기관 문제를 연구해 왔으며 '셀 수 없는 실망'에도 포기하지 않았다고 전한다. 『호주인명사전』은 그가 아흔 살이 넘어서도 비밀에 거의 다가섰다고 확신했다고 기록한다. 실제로 작동한 장치는 기록에 없다.",
+  "david-unaipon.interpretation.moment.1":
+    "이는 결과가 나오지 않은 문제를 수십 년 동안 붙들고 있었다는 점에서 끈기와 맞아떨어지지만, 1919년의 설명은 대체로 그 자신의 주장에 의존한다.",
+  "david-unaipon.moment.2":
+    "1919년 그는 중력을 이용한다고 주장한 장치의 특허 비용을 마련하려고 남호주 곳곳에서 강연 활동을 시작했다. 누구에게 시연한 적이 있느냐는 질문에, 공개 시연을 하면 특허를 받기 전에 누구나 쓸 수 있게 되기 때문에 하지 않았다고 답했다.",
+  "david-unaipon.interpretation.moment.2":
+    "이는 후원자가 없을 때 스스로 자금을 마련하려 했다는 점과 맞아떨어지며, 장치의 주장된 성능은 확인된 적이 없다.",
+  "david-unaipon.turning_point.1":
+    "1924~1925년 앵거스 앤드 로버트슨과의 계약에 따라 전설을 수집하는 여행을 마친 뒤, 1925년 8월 출판사와의 연락이 끊겼고, 1930년 이 전집은 윌리엄 램지 스미스의 이름으로 나왔으며 우나이폰의 목소리와 해석은 대부분 지워졌다. 그의 저자 자격은 편집자들이 뉴사우스웨일스 주립도서관의 원고로 돌아간 2001년에야 회복되었다.",
+  "david-unaipon.interpretation.turning_point.1":
+    "프로젝트를 스스로 시작하고 여행하며 이야기를 모은 것은 주도적 행동력과 맞아떨어지지만, 책이 어떻게 출판되었는지는 다른 사람들이 결정한 일이어서 그 자신의 선택에 대해서는 말해 주는 바가 적다.",
+  "florence-r-sabin.achievement.1":
+    "1902년부터 존스홉킨스에서 세이빈은 돼지 배아의 혈관에 색소를 주입하고 연속 절편을 만들어, 림프계가 정맥에서 싹처럼 돋아나 생기며 그 관의 끝이 닫혀 있음을 보였다. 이는 다른 해부학자들의 예측과 반대였다. 그는 이후 살아 있는 닭 배아 배양에서 혈관 안쪽 벽으로부터 적혈구와 백혈구가 생기는 것을 관찰했고, 살아 있는 세포의 생체 염색법을 다듬었다. 최근의 한 종설은 그를 정맥 기원설의 주요 옹호자로 꼽으며, 이후의 연구는 이 견해를 주된 기원으로는 뒷받침하지만 유일한 기원으로 보지는 않는다.",
+  "florence-r-sabin.achievement.2":
+    "1917년 존스홉킨스 최초의 여성 정교수가 되고, 1924년 미국해부학자협회의 첫 여성 회장, 1925년 미국국립과학원의 첫 여성 회원으로 선출된 그는 록펠러 의학연구소에 여성 최초의 정회원으로 들어갔다. 1925년부터 1938년까지 그곳에서 결핵균의 어떤 화학 성분이 어떤 면역세포를 자극하는지 밝히는 연구를 이끌었고, 단핵구가 결핵 병변의 거대세포로 바뀌는 과정을 알아냈다. 이 연구는 치료법으로 이어지지는 않았으나 면역 기능에 관한 지식을 넓혔다.",
+  "florence-r-sabin.achievement.3":
+    "1938년 콜로라도로 은퇴한 뒤 그는 1944년부터 주지사 전후 계획위원회의 보건위원회를 맡아 모든 카운티의 보건 조사를 하게 하고 여섯 건의 법안으로 이루어진 계획을 위해 운동했다. 1947년 의회는 이 가운데 네 건을 통과시켰고, 여기에는 주 보건위원회 개편과 카운티 보건 지구 지원이 들어 있었다. 1947년부터 덴버 보건국장으로서 식당과 우유 위생 및 결핵 검진 운동을 벌였고, 1951년 래스커 공공봉사상을 받았다.",
+  "florence-r-sabin.moment.1":
+    "1917년 세이빈이 정교수로 승진하고 다섯 달 뒤 프랭클린 몰이 세상을 떠났고, 해부학 주임 자리는 그의 제자였던 루이스 위드에게 돌아갔다. 학생들은 청원을 냈고 한 여성 교육 단체는 대학에 항의했다. 세이빈은 그 결정을 항의 없이 받아들였고, 남을 것이냐는 질문에 “물론 남지요. 하던 연구가 있으니까요.”라고 답했다. 그는 1925년까지 존스홉킨스에 남았다.",
+  "florence-r-sabin.interpretation.moment.1":
+    "이 대답은 부당한 좌절 앞에서도 진행 중인 연구에 주의를 두는 태도와 부합한다. 다만 이 일화는 인용된 한마디에 기대고 있고, 출처들은 그가 자신의 불만에는 절제했다고 묘사한다.",
+  "florence-r-sabin.moment.2":
+    "1923년 말 사이먼 플렉스너는 세이빈에게 록펠러 의학연구소의 새 세포연구부를 맡아 달라고 청하며, 빈혈과 백혈병에 관해 근본적인 무언가를 해야 한다고 말했다. 세이빈은 홉킨스 연구실 연구원 몇 명의 급여도 포함해야 한다는 조건으로 수락했고 1925년 9월 그곳에서 일을 시작했다.",
+  "florence-r-sabin.interpretation.moment.2":
+    "이 조건은 자리를 옮기면서 함께 일하던 사람들을 챙기는 태도와 부합한다. 다만 하나의 기관 전기에서 나온 설명이며, 그 연구원들이 이를 어떻게 보았는지는 전하지 않는다.",
+  "florence-r-sabin.turning_point.1":
+    "1944년 12월 콜로라도 주지사는 보건위원회에 여성을 넣는 것이 좋겠다는 조언과, 세이빈이 뛰어나지만 위협적이지 않은 노부인이라는 말을 듣고 그에게 위원장을 맡겼다. 그는 모든 카운티의 조사를 하게 하고 여섯 건의 법안을 만들게 했으며, 미국국립과학원 추모 전기에 따르면 예순세 개 카운티 모두를 돌고 이어 의회를 찾았다. 1947년 네 건이 통과되었고 그는 1951년까지 덴버 보건국을 이끌었다.",
+  "florence-r-sabin.interpretation.turning_point.1":
+    "실험실 과학에서 입법 운동으로 방향을 튼 일은, 자문 성격의 자리를 기대 이상으로 키운 적극적 주도성과 부합한다. 다만 그 계획은 큰 연합에 기대었고, 이를 전하는 두 설명은 우호적인 어조다.",
+  "ignacy-lukasiewicz.achievement.1":
+    "1852~53년 그는 르부프의 약국에서 실험실 조수 얀 제흐와 함께 원유에서 태울 수 있는 등유 성분을 분리하는 일을 했고, 양철공 아담 브라트코프스키와 함께 이를 위한 램프를 개발했다. 이 램프는 1853년 7월 31일 르부프 병원 수술실을 밝혔으며, 이 날짜는 훗날 폴란드 석유 산업의 상징적 출발점으로 쓰인다. 그와 제흐 사이의 공로 배분에 대해서는 역사가들 사이에 논쟁이 있으며, 같은 무렵 다른 곳에서도 등유 정제가 이루어지고 있었다.",
+  "ignacy-lukasiewicz.achievement.2":
+    "1854년 그는 티투스 트제치에스키, 카롤 클로바사와 함께 보브르카에 유전을 열었고, 1856년에는 울라쇼비체에 증류소를 세웠다. 보브르카는 손으로 판 우물에서 손으로 작동하는 타격식 시추를 거쳐 증기기관 시추로 발전했으며, 최초의 근대적 산유 유전 가운데 하나로 평가된다. 현재 이곳은 박물관이 되어 일부 유정이 여전히 사용되고 있다.",
+  "ignacy-lukasiewicz.achievement.3":
+    "그는 이 유전을 중심으로 산업의 기반을 다지는 데에도 기여했다. 1877년 최초의 석유산업 회의를 공동 주최했고, 이 회의는 국가석유협회 설립으로 이어졌다. 갈리치아 지방의회에서는 탐사 시추와 지질도 제작에 대한 보조금을 지지했으며, 보브르카와 코르쿠프카 정유소에서는 광산 인력을 양성했다.",
+  "ignacy-lukasiewicz.moment.1":
+    "오스트리아 화학자 한스 긴틀의 1873년 기록(현대 논문에 인용됨)에 따르면, 1853~54년 그는 갈리치아에서 관심을 얻지 못하자 빈의 공장주와 교수, 그리고 파리로 증류 시료와 램프를 보내 자본과 관심을 구하려 했다. 이 노력은 당시에는 성과를 거두지 못했다.",
+  "ignacy-lukasiewicz.interpretation.moment.1":
+    "이 일화는 한 명의 동시대 증인을 한 저자가 다시 전한 것이므로, 아직 상업적으로 받아들여지지 않은 구상을 끈기 있게 알리려 한 태도와 부합한다고 해석할 수 있다.",
+  "ignacy-lukasiewicz.moment.2":
+    "1866년 또는 1868년부터 보브르카 광산과 코르쿠프카 정유소는 임금의 3퍼센트로 조성한 노동자 기금('브라츠카 기금')을 운영했고, 이 기금은 질병 치료, 화재 구호, 사망한 노동자 가족의 연금을 지급했다. 1957년의 한 역사가는 19세기 시찰관들의 평가를 인용해 보브르카가 지역에서 가장 잘 운영되는 사업장으로 꼽혔다고 전한다.",
+  "ignacy-lukasiewicz.interpretation.moment.2":
+    "이 기금은 함께 일하는 사람들의 복지에 대한 관심과 부합하지만, 대부분의 기록이 기념 기관이나 제도적 출처에서 나온 것이어서 비중은 크지 않게 보아야 한다.",
+  "ignacy-lukasiewicz.turning_point.1":
+    "1853년에서 1854년으로 넘어가던 무렵 그는 르부프의 약국을 떠나 원유가 스며 나오는 지역 가까운 고를리체의 임차 약국으로 옮겼고, 1854년 후반에는 트제치에스키, 클로바사와 함께 보브르카 광산을 열었다. 그는 1860년대 초까지 약사 일을 이어 갔으며, 보브르카에서 새 유전이 발견되면서 약국 일을 완전히 그만두었다.",
+  "ignacy-lukasiewicz.interpretation.turning_point.1":
+    "이 이동은 검증되기 전에 구상을 실행에 옮기는 경향과 부합하지만, 수년간 약국 수입을 유지했다는 점은 위험을 일부 분산했음을 보여 준다.",
+  "juan-luna.achievement.1":
+    "1884년 마드리드 국가미술전에서 루나의 『스폴리아리움』은 일등 금메달을 받았다. 가로 약 7.7미터, 세로 약 4.2미터의 이 대작은 로마 원형경기장 지하의 ‘스폴리아리움’으로 끌려 들어가는 쓰러진 검투사들을 그렸고, 『가제트 데 보자르』의 전시 평은 이 작품을 전시회의 화제작으로 꼽았다. 오늘날 필리핀에서 가장 유명한 그림으로 여겨지며, 스페인에 머물던 필리핀 개혁파는 끌려가며 소지품을 빼앗기는 검투사들에게서 식민 지배의 알레고리를 읽었다.",
+  "juan-luna.achievement.2":
+    "그가 처음 크게 인정받은 것은 1881년으로, 마드리드 국가미술전에서 『클레오파트라의 죽음』이 이등 메달을 받았다. 『스폴리아리움』 이후에는 스페인 기관들이 그에게 작품을 주문했다. 상원이 의뢰한 『레판토 해전』은 1886년 11월 프란시스코 프라딜라의 『그라나다의 항복』 맞은편에 걸렸고, 해외부가 의뢰한 『스페인과 필리핀』도 그려졌다.",
+  "juan-luna.achievement.3":
+    "루나는 로마에서 베네치아로 이어진 신혼여행 중에 『히멘이여, 오 히메네!』를 그렸고, 완성은 1887년경으로 보인다. 1889년 파리 만국박람회에 출품해 동메달을 받았는데, 《인콰이러》는 이를 필리핀인 화가의 그림이 받은 가장 큰 상이라고 소개한다. 이 그림은 1899년 그가 세상을 떠난 뒤 행방이 묘연했다가 유럽의 한 가문 소장품에서 다시 나타났고, 2023년 마닐라에서 공개되었다.",
+  "juan-luna.moment.1":
+    "1884년 『스폴리아리움』이 일등 메달을 받았지만, 그 전시회의 명예 메달은 아무에게도 수여되지 않았다. 마티박은 스페인 본토 출신 화가를 우대한 때문이라는 추측이 있었고, 알폰소 12세가 알현 자리에서 심사위원단이 그 상을 주지 않은 것을 아쉬워했다고 전한다. 오캄포는 루나가 평생 그 명예 메달을 향해 그림을 그렸지만 끝내 받지 못했다고 쓴다.",
+  "juan-luna.interpretation.moment.1":
+    "받지 못한 영예를 계속 좇았다는 점은 경쟁심과 부합한다. 다만 두 설명 모두 해석에 가까운 언급이며, 그가 배제된 이유도 경쟁 못지않게 식민지 출신에 대한 편견으로 널리 읽혔다.",
+  "juan-luna.moment.2":
+    "1889년 파리 만국박람회를 앞두고 언론이 루나를 스페인관에 전시해야 한다고 압박했고, 그는 출품할 수 있게 되었다. 《인콰이러》가 자세히 밝히지 않은 이유로 그는 원래 내고 싶던 그림들을 전시하지 못했고, 대신 자신의 즐거움을 위해 작업실에 두었던 신혼여행 시절의 그림 『히멘이여, 오 히메네!』를 냈으며 이 작품이 동메달을 받았다.",
+  "juan-luna.interpretation.moment.2":
+    "처음 고른 작품을 낼 수 없게 되자 자신이 간직하던 작품으로 바꿔 낸 일은 적당한 수준의 적응력과 부합한다. 다만 단일 보도만으로는 애초에 준비한 작품이 왜 빠졌는지 알 수 없다.",
+  "juan-luna.turning_point.1":
+    "1884년 마드리드 금메달 이후 루나는 그해 10월 로마를 떠나 파리로 옮겼고, 귀족들이 초상화를 청했으며 젊은 화가들은 그를 스승으로 삼고 싶어 했고, 스페인 상원은 『레판토 해전』을 주문했다. 마티박은 그때에도 그의 수입만으로는 파리 살림을 감당하지 못해 장모가 비용을 보탰고, 그가 초상화 작업을 위해 파리와 마드리드를 오갔다고 덧붙인다.",
+  "juan-luna.interpretation.turning_point.1":
+    "인정을 받고 활동 근거지를 옮기고 주문 초상화 쪽으로 기운 이 흐름은 살롱과 시장의 관습을 계속 다듬어 간 화가의 모습과 부합한다. 다만 이것이 어디까지 야망이고 어디까지 돈의 압박이었는지는 자료마다 다르게 본다.",
+  "kang-youwei.achievement.1":
+    "1895년 캉유웨이는 일본과의 강화 조건에 반대하는 베이징의 각 성 거인(擧人)들을 규합했고, 강학회(强學會)를 세웠으나 이 모임은 1896년에 금지되었다. 1898년에는 광서제에게 올린 상소와 저서를 통해 개혁안을 밀어붙였고, 마오하이젠은 그해의 개혁 27개 항목 가운데 8개를 그의 그룹이 제안한 것으로 센다. 개혁은 1898년 9월에 무효화되었으며, 그의 역할이 얼마나 컸는지에 대해서는 지금도 역사가들의 의견이 갈린다.",
+  "kang-youwei.achievement.2":
+    "캉유웨이는 『신학위경고』(1891)에서 국가 제례의 근거로 신성시되던 문헌이 한나라 시기에 손질되었다고 주장했고, 『공자개제고』(1897)에서는 공자가 변화를 지지한 인물이었다고 주장했다. 브리태니커는 그의 해석이 이후 중국의 과거를 다시 평가하는 학문에 영감을 주었다고 하면서, 비판자들은 그가 자신의 목적을 위해 공자를 끌어다 썼다고 비난했다고 전한다. 1894년에는 한 간관이 이미 이 가운데 첫 책을 폐기하라고 요구한 바 있었다.",
+  "kang-youwei.achievement.3":
+    "망명 중 캉유웨이는 『대동서』를 썼다. 게일 백과의 항목에 따르면 대부분 1902년 인도에서 쓴 이 책은 국경 없는 세계, 세계 의회, 공동 재산, 계급·성별·인종 구별의 소멸을 상상한 저작이다. 그는 대중이 아직 받아들일 준비가 되지 않았다고 보아 책을 내놓지 않았고, 일부 편이 1913년에 나온 뒤 전체는 그가 세상을 떠난 지 8년 후인 1935년에야 출간되었다.",
+  "kang-youwei.moment.1":
+    "캉유웨이가 광서제를 알현한 것은 1898년 6월 16일 단 한 번뿐이었다. 캉유웨이는 이 알현이 두 시간 반 동안 이어졌다고 서술했지만, 같은 날 알현한 장위안지는 1930년에 캉유웨이가 먼저 들어가 십여 분 만에 나왔다고 썼다. 마오하이젠은 이 대화의 기록이 전해지지 않으며 이에 대한 캉유웨이의 훗날 서술도 믿기 어렵다고 보고, 가장 믿을 만한 증거는 사흘 뒤 그가 올린 상주문이라고 말한다.",
+  "kang-youwei.interpretation.moment.1":
+    "두 서술 사이의 간극은 궁정에서의 자신의 위상을 유리하게 그리려는 경향과 부합하며, 마오하이젠과 룩 퀑 모두 1898년에 관한 캉유웨이 본인의 서술에서 이런 위험을 지적한다. 다만 이는 한 사건일 뿐이고, 그의 개혁 상주문 자체는 잘 기록되어 있다.",
+  "kang-youwei.moment.2":
+    "1888년 상소할 자격이 없던 젊은 학자 캉유웨이는 조정이 법을 바꾸고, 여론의 통로를 열고, 측근을 신중히 고르라고 촉구하는 상주문을 광서제 앞으로 썼다. 국자감과 도찰원은 이를 올려 주지 않았고, 룩 퀑은 서태후와 황제를 향한 직설적인 어조도 그 이유의 일부였다고 본다. 이후 캉유웨이는 간관 등이 올릴 상주문 다섯 편을 대신 써 주면서 자신의 생각을 녹여 넣었다.",
+  "kang-youwei.interpretation.moment.2":
+    "상주 자격이 있는 관리들을 위해 상주문을 대신 써 준 일은 막힌 통로를 우회하는 기지와 부합한다. 마오하이젠은 당시 황제가 이런 시도를 전혀 알지 못했다고 지적한다.",
+  "kang-youwei.turning_point.1":
+    "1898년 9월 21일 서태후가 다시 권력을 장악해 개혁 칙령을 무효화하고 황제를 연금했으며, 개혁 지도자 여섯 명이 처형되었는데 그중에는 캉유웨이의 동생도 있었다. 하루 전에 경고를 받은 캉유웨이는 베이징을 떠나 해외로 탈출했고, 한 기록에 따르면 상하이에서 영국 포함을 타고 홍콩으로 갔다. 1899년 7월 그는 황제의 권한을 되찾는다는 목표 아래 해외 화교 사회에 지부를 둔 보황회(保皇會)를 창립했고, 1913년에야 중국으로 돌아왔다.",
+  "kang-youwei.interpretation.turning_point.1":
+    "1년도 지나지 않아 해외에서 활동을 다시 세운 것은 이 프로필의 끈기와 부합한다. 같은 군주제 노선에 대한 헌신은 이후 1917년의 실패한 복벽 시도로까지 이어졌으며, 그것이 훗날 그의 영향력에 도움이 되었는지 해가 되었는지에 대해서는 역사가들의 평가가 엇갈린다.",
+  "kazi-nazrul-islam.achievement.1":
+    "1921~22년에 나즈룰은 「비드로히」(‘반항자’)와 「방가르 간」(‘파괴의 노래’)을 썼고, 방글라페디아는 이 시들의 언어와 주제가 벵골어 시의 기조를 바꾸었다고 설명한다. 「비드로히」가 실린 1922년 시집 『아그니비나』(‘불의 비파’)는 초판이 출간 직후 매진되어 짧은 기간에 여러 차례 다시 찍었고, 이 시로 그는 벵골 전역에 ‘반항의 시인’으로 알려졌다.",
+  "kazi-nazrul-islam.achievement.2":
+    "그는 약 2천 곡의 노래를 짓고 곡을 붙였으며(브리태니커는 2천~4천 곡으로 폭을 둔다), 이 노래들은 오늘날 ‘나즈룰 기티’로 불린다. 북인도 고전 라가와 민요 가락, 신앙 노래의 전통을 끌어다 썼고, 벵골어 가잘을 주로 만들어 낸 인물로 평가받는다. 그의 노래는 1925년부터 HMV를 비롯한 여러 음반사에서 취입되었고, 그는 1929년부터 라디오와 무대에서, 1934년부터는 영화에서도 일했다.",
+  "kazi-nazrul-islam.achievement.3":
+    "편집자이자 글쓴이로서 그는 일간지 『나바주그』(1920)와 잡지 『둠케투』(1922), 주간지 『랑갈』(1925)을 이끌었다. 『둠케투』에 실린 정치적인 시 때문에 그 호가 발매 금지되었고 그는 1922년 11월 체포되었으며, 1922~31년 사이에 적어도 다섯 권의 책이 영국 당국에 의해 금서가 되었다.",
+  "kazi-nazrul-islam.moment.1":
+    "1923년 4월 14일, 후글리 감옥으로 옮겨진 그날 나즈룰은 정치범들에 대한 가혹한 처우에 항의하며 단식을 시작했다. 캘커타의 한 주간지는 단식 도중 이를 변덕이라고 할 사람도, 어리석다고 할 사람도 있을 것이라고 적었고, 단식을 멈추라는 타고르의 전보는 전달되지 않았다고 한다. 약 40일이 지난 뒤(방글라페디아는 40일, 이 주간지는 38일이라 한다) 그는 다시 음식을 들었는데, 방글라페디아는 감옥 감찰관 압둘라 수흐라와르디의 설득을, 이 주간지는 연장자인 비라자 순다리 데비의 간청을 그 계기로 든다.",
+  "kazi-nazrul-islam.interpretation.moment.1":
+    "자신의 글 때문에 유죄 판결을 받은 뒤 수감 환경에 항의해 단식한 일은 갈등과 개인적 대가를 크게 감수하는 성향과 부합한다. 다만 자료들은 이 항의를 수감자 전반을 위한 것으로 설명할 뿐, 그가 사전에 무엇을 저울질했는지는 전하지 않는다.",
+  "kazi-nazrul-islam.moment.2":
+    "1921년 나즈룰은 코밀라에서 비협조 운동 행렬에 참여해 애국가를 불렀다. 그러나 방글라페디아에 따르면 그는 간디의 운동이나 칼리파 운동의 철학을 믿지 않았고 무장 혁명으로만 인도가 해방될 수 있다고 생각했다. 그는 튀르키예에서 무스타파 케말이 이룬 개혁을 지지했고 그해 「케말 파샤」라는 시를 썼다.",
+  "kazi-nazrul-islam.interpretation.moment.2":
+    "방법을 믿지 않는 운동에 통일된 투쟁을 위해 함께하면서도 자기 나름의 다른 견해를 발표한 점은, 늘 따로 서지는 않았던 독자적 사고와 부합한다. 그의 견해에 대한 서술은 백과사전의 요약이다.",
+  "kazi-nazrul-islam.turning_point.1":
+    "나즈룰은 1917년 말부터 카라치에서 제49벵골 연대에 복무해 대대 보급 담당인 하빌다르까지 올랐고, 1919년 병영에서 쓴 첫 산문과 시를 발표했다. 1920년 3~4월경 군대를 떠나 캘커타로 가서 벵골 무슬림 문학회 사무실에서 무자파르 아메드와 방을 함께 썼고, 1920년 7월 12일 석간 일간지 『나바주그』 일을 시작했다.",
+  "kazi-nazrul-islam.interpretation.turning_point.1":
+    "군인에서 문필 언론인으로 옮긴 일은 새로운 분야를 중심으로 생업을 다시 세우는 능력과 부합한다. 다만 복무 중 2년 동안 글을 써 온 뒤였고 캘커타의 인맥도 이미 형성되어 가고 있었다.",
+  "kim-jeong-hui.achievement.1":
+    "그는 1809년 베이징에서 옹방강, 완원 등 청의 석학들을 만나고 귀국 후에도 교류를 이어가며 조선의 금석학을 일신했다. 신라 진흥왕의 황초령비와 북한산비를 다룬 『금석과안록』에서는 비문을 역법과 사서에 비추어 검증했고, 북한산비의 건립 시기를 568년에서 576년 사이로 추정했다.",
+  "kim-jeong-hui.achievement.2":
+    "그는 예서를 바탕으로 고대의 비석, 청동기, 벽돌 명문을 연구해 추사체를 만들었다. 이 서체는 후반생에 발전해 제주 유배기를 거치며 완성되었고, 대중적인 취향을 깨뜨렸으며, 한국에서 가장 추앙받는 서예로 평가된다.",
+  "kim-jeong-hui.achievement.3":
+    "1844년 제주 유배 중 그는 베이징에서 귀한 책을 구해다 준 제자 이상적에게 「세한도」(국보 제180호)를 그려 주었다. 논어에서 제목을 딴 이 그림은 소나무 사이의 거의 텅 빈 집을 그렸고, 청과 조선 학자들의 발문이 더해져 10미터가 넘는 두루마리가 되었으며, 조선 시대 문인화의 최고봉으로 자주 꼽힌다.",
+  "kim-jeong-hui.moment.1":
+    "작품에 적힌 그 자신의 관지에 따르면, 그는 친구 윤정현의 호 '침계'를 예서로 써 주겠다고 약속한 뒤 '침' 자의 올바른 예서 용례를 찾느라 30년이 넘는 세월을 보냈고, 북조 글씨를 살피다가 비로소 원리를 깨쳐 글씨를 썼다.",
+  "kim-jeong-hui.interpretation.moment.1":
+    "이 이야기는 글자 하나를 바르게 쓰려는 높은 기준과 부합하지만, 그 자신의 관지에서 나온 단일한 일화이다.",
+  "kim-jeong-hui.moment.2":
+    "1845년 영국 선박 사마랑호가 제주 앞바다에 나타났을 때, 전기 작가 유홍준에 따르면 그는 서양이 앞으로 조선에 미칠 영향을 낮게 보았다. 그는 이상적인 국가로 여긴 청이 서양 열강 앞에 무너질 것이라고는 생각하지 못했다.",
+  "kim-jeong-hui.interpretation.moment.2":
+    "한 전기 작가의 해석에 따르면, 이 일화는 비문에 관한 견해를 고친 사례와 나란히 놓고 볼 때, 그가 생각을 바꾸는 정도가 주제마다 달랐음을 보여 준다.",
+  "kim-jeong-hui.turning_point.1":
+    "1840년 윤상도의 옥사에 연루된 그는 거의 20년간 순탄한 관료 생활을 한 뒤 제주도로 보내져 약 9년 동안 위리안치되었다. 유배 중에 그는 추사체를 완성하고 「세한도」를 그렸으며, 1849년에 풀려났으나 1851년 북청으로 다시 유배되었다.",
+  "kim-jeong-hui.interpretation.turning_point.1":
+    "관직 생활에서 유배 생활로의 급변은 역경이 그의 예술과 태도를 모두 바꾸었다는 여러 글의 견해와 부합하지만, 그 변화에서 유배 자체가 차지한 몫에 대해서는 글마다 의견이 다르다.",
+  "laura-bassi.achievement.1":
+    "1732년 스무 살의 라우라 바시는 3월 볼로냐 과학원(Academy of Sciences)에 받아들여졌고, 4월 17일 공개 석상에서 49개 명제를 방어한 뒤 5월 12일 학위를 받았으며, 볼로냐 대학교의 철학 교수로 임명되었다. 핀들런은 그를 보수를 받는 과학 경력을 추구한 최초의 여성이자, 대학 졸업이 기록으로 확인되는 두 번째 여성이라고 평가한다.",
+  "laura-bassi.achievement.2":
+    "1749년부터 그는 의사인 남편 주세페 베라티와 함께 볼로냐의 자택에서 뉴턴 실험물리학을 매일 가르쳤고, 놀레, 볼타, 스팔란차니 같은 이들이 그 실험실을 드나들었다. 핀들런은 사촌 라차로 스팔란차니가 그에게 배운 뒤 법학 공부를 그만두고 실험가가 되었으며, 이후 한 세대의 남성들이 그의 학교에 다녔다고 말하곤 했다고 전한다.",
+  "laura-bassi.achievement.3":
+    "1776년 볼로냐 원로원은 여러 해에 걸친 요청 끝에 그를 과학 연구소(Institute of Sciences)의 실험물리학 석좌에 임명했고, 남편 베라티가 그의 조수가 되었다. 맥튜터는 그를 세계 어느 대학에서든 물리학 석좌에 임명된 최초의 여성이라고 설명한다. 그는 1778년 2월에 세상을 떠났다. 1746년부터 해마다 발표한 논문 32편의 목록이 남아 있으나 인쇄된 것은 네 편뿐이며, 맥튜터는 이 논문들에 독창적인 내용이 거의 없다고 지적한다.",
+  "laura-bassi.moment.1":
+    "1745년 교황 베네딕토 14세(그의 옛 후원자 람베르티니)는 볼로냐 과학원에 24명의 정예 ‘베네데티니’ 집단을 만들었고, 바시는 그 속에 들지 못했다. 그는 로마에 편지를 보내 자신의 자격을 제시하며 스물다섯 번째 회원으로 삼아 달라고 요청했고, 교황은 이를 받아들였지만 남성 동료들은 투표권과 회의 참석권 같은 온전한 권리를 주지 않았다.",
+  "laura-bassi.interpretation.moment.1":
+    "이 요청은 문이 닫혔을 때 스스로 나서서 움직이려는 태도와 부합한다. 다만 이미 그를 아끼던 교황 후원자에게 기댄 것이었고, 타협으로 끝난 결과는 그 주도성이 얻어 낼 수 있는 한계를 보여 준다.",
+  "laura-bassi.moment.2":
+    "‘성별을 이유로’ 요청받을 때만 강연할 수 있다는 조건이 붙은 1732년 임용 이후, 바시는 갈릴레오와 데카르트의 저작을 포함해 교회가 금서로 지정한 책을 읽을 수 있는 허가를 요청했고, 가브리엘레 만프레디에게 미적분을 배웠으며, 실험물리학자 야코포 바르톨로메오 베카리의 도제로 들어갔다. 핀들런은 이를 과학자로서 자신의 가치를 높이려는 학습 계획으로 설명한다.",
+  "laura-bassi.interpretation.moment.2":
+    "이는 직책이 요구하는 수준을 넘어서는 배움에 대한 욕구와 부합한다. 다만 핀들런은 이를 경력을 위한 전략으로도 해석하므로, 이 일화는 호기심만이 아니라 호기심과 야망이 함께 드러난 예로 보아야 한다.",
+  "laura-bassi.turning_point.1":
+    "1738년 2월 바시는 의사이자 강사인 주세페 베라티와 결혼했는데, 일부 시민은 반대했고 도덕주의자들은 그를 비판했다. 맥튜터와 핀들런은 모두 이 결혼이 그의 작업 조건을 바꾸었다고 말한다. 이제 그는 손님을 맞고 집에서 강의할 수 있었고, 1739년 대학은 집에 둘 실험 장비 구입비를 지원했지만 더 많은 강의를 맡기는 것은 거절했다.",
+  "laura-bassi.interpretation.turning_point.1":
+    "가끔 하는 강의에서 집에서 가르치고 실험하는 방식으로 옮겨 간 것은 제도의 한계를 우회해 일하는 능력과 부합한다. 이 결혼이 어디까지 전략이고 어디까지 동반자 관계였는지에 대해서는 자료마다 달리 보며, 집이라는 환경은 배제의 결과이기도 했다.",
+  "luis-de-camoes.achievement.1":
+    "그는 1572년 리스본에서 출간된 서사시 『우스 루지아다스』를 썼다. 10칸토, 1,102개의 8행 연으로 이루어진 이 작품은 바스쿠 다 가마의 인도 항해를 따라가며 포르투갈의 역사를 서술한다. 이탈리아의 선례들과 달리 비교적 최근의, 잘 기록된 사건을 다루며, 포르투갈의 국민 서사시로 평가받는다. 1572년에는 왕의 연금이 지급되었다.",
+  "luis-de-camoes.achievement.2":
+    "필사본으로 유포되다가 그의 사후 『리마스』(1595)로 처음 인쇄된 그의 서정시에는 소네트, 송가, 비가, 노래가 포함되며, 이베리아 전통 운율과 이탈리아 시 형식이 결합되어 있다. 초기 판본에는 그의 작품이 아닌 시가 섞여 있었으며, 빌헬름 슈토르크와 카롤리나 미카엘리스 드 바스콘셀로스 등의 학자들이 이를 가려냈다.",
+  "luis-de-camoes.moment.1":
+    "동양에서 약 17년을 보낸 뒤 그는 모잠비크 섬에서 거의 무일푼으로 발이 묶였고, 그를 알고 있던 역사가 디오구 두 쿠투가 귀국 뱃삯을 마련하도록 도왔다. 그는 1570년 4월 리스본에 도착했고, 1571년 9월 24일 『루지아다스』의 인쇄를 허가하는 왕실 특허를 받았다.",
+  "luis-de-camoes.interpretation.moment.1":
+    "이 일련의 과정은 시를 인쇄하기까지 끈기를 보였다는 해석과 부합한다. 다만 난파 중에 원고를 구했다는 더 유명한 이야기는 그 자신의 시구와 후대의 전승에 근거한다.",
+  "luis-de-camoes.moment.2":
+    "이 시는 그가 아시아에서 직접 보았을 것으로 여겨지는 장소와 풍습을 묘사한다. 고아의 카스트 제도와 힌두교 관습, 테르나테의 화산, 메콩강, 싱가포르 부근 항로 등이 그것이다. 한 현대 에세이는 이 시에서 '보다'가 '이다' 다음으로 가장 자주 쓰인 동사라고 지적한다.",
+  "luis-de-camoes.interpretation.moment.2":
+    "동양에서의 세월이 거의 그 자신의 시를 통해서만 전해지므로, 이 점은 그가 만난 사람과 장소에 대한 호기심과 부합하지만 그곳에서의 생활을 보여 주지는 못한다.",
+  "luis-de-camoes.turning_point.1":
+    "1553년 3월 7일자 왕실 사면장에는 1552년 성체 축일에 그가 왕실 하인에게 칼로 상처를 입혀 체포되었다고 기록되어 있으며, 그가 곧 인도로 떠날 예정이라고 적혀 있다. 그는 그해 봄 배를 타고 떠나 약 17년을 해외에서 보냈다.",
+  "luis-de-camoes.interpretation.turning_point.1":
+    "싸움의 경위에 대한 기록이 서로 다르므로 이 하나의 기록된 사건은 그가 갈등을 다루는 방식을 약하게, 낮은 확신으로만 보여 준다. 사면은 인도에서의 복무와도 연결되어 있었다.",
+  "mary-slessor.achievement.1":
+    "1888년 그녀는 수장들과 1년가량 협상을 벌인 끝에, 칼라바르 선교단이 들어가지 못하던 오코용 지역의 에켄게에 정착하여 약 15년 동안 활동했다. 그곳에서 그녀는 그대로 두면 살해되거나 쫓겨났을 쌍둥이와 쫓겨난 어머니들을 보호했고, 그녀의 집에 머물던 메리 킹즐리는 그 지역에서 처음으로 쌍둥이가 구해지는 장면을 기록했다. 쌍둥이 살해는 그녀가 오기 전부터 선교사들과 조약을 통해 반대되고 있었으며, 후대의 글쓴이들은 그 공이 얼마나 그녀에게 돌아가야 하는지를 두고 이견을 보인다.",
+  "mary-slessor.achievement.2":
+    "그녀는 오코용에서 현지의 중재자 역할을 했고 1892년 그곳의 부영사로 임명되었다. 1905년에는 이투 원주민 법원의 부원장 자리를 수락했는데, 이 직책은 형식적인 연 1파운드의 봉급에 나머지는 선교 활동에 쓰도록 제안된 것이었고, 그녀는 어떤 보수도 받지 않겠다고 했다. 역사가들은 이 역할을 양면적으로 본다. 분쟁에서 사람들을 보호했지만, 이런 법원은 영국의 법적 통제를 넓히는 데에도 쓰였다.",
+  "mary-slessor.achievement.3":
+    "그녀는 작은 시골 학교를 많이 열었는데, 한 추정에 따르면 그 수가 50곳이 넘고 사망 당시 학생이 2,000명을 넘었다. 또 우세와 이콧 오봉에 학대받은 여성과 소녀를 위한 보호 시설과 직업 교육 시설을 세워 농사와 수공예를 가르쳤다. 녹스는 식민 정부가 영어 교육을 요구한 뒤에도 그녀의 학교가 현지어로 가르쳤고, 일부 나이지리아 역사가들이 이를 비판했다고 지적한다.",
+  "mary-slessor.moment.1":
+    "1888년 6월, 앞서 다녀간 선교단이 무장한 채 아무 약속도 하지 않으려는 오코용 사람들을 만났던 뒤에, 그녀는 강을 거슬러 올라가 내륙으로 4마일을 걸어 에켄게에 도착했고, 거기서 하룻밤을 보내며 학교 부지와 자기 집을 피난처로 삼는 데 대한 약속을 얻어냈다. 훗날 그녀는 용기가 번번이 날개를 달고 달아나려 했다고 적었다.",
+  "mary-slessor.interpretation.moment.1":
+    "두려움을 솔직히 인정하면서도 앞으로 나아간 모습은 위험을 감수하려는 태도와 어울린다. 다만 이 일화를 전하는 자료는 대체로 그녀에게 호의적이다.",
+  "mary-slessor.moment.2":
+    "1910년 아크파프 사람들이 신성한 얌 숲을 가로지르는 도로를 강제로 닦게 되었다고 호소하자, 그녀는 지방 판무관에게 이에 반대하는 편지를 쓰고 '나는 당신의 순종적인 하인이 아닙니다'라는 말로 끝맺었다. 그녀가 이코토봉 법원을 떠난 이유는 기록마다 다르다. 리빙스턴은 중병을 앓은 뒤 사임했다고 하고, 녹스는 노동자 권리를 둘러싼 갈등 끝에 해임되었다고 한다.",
+  "mary-slessor.interpretation.moment.2":
+    "관리들에게 직설적인 표현으로 반대 의견을 서면으로 남긴 모습은 권위와의 갈등을 견디는 높은 내성과 어울린다. 법원을 떠난 사정에 대한 엇갈린 설명은 그것이 그녀에게 얼마나 큰 대가였는지가 확정되지 않았음을 보여준다.",
+  "mary-slessor.turning_point.1":
+    "1901년 영국이 아로 사람들을 상대로 군사 원정을 벌인 뒤, 그녀는 선교 위원회에 안수받은 선교사가 아크파프의 교회를 맡아 달라고, 그래야 자신이 다른 곳으로 옮겨 갈 수 있다고 말했고, 1904년 이투에서 활동을 시작해 그곳이 그녀의 거점이 되었다. 녹스는 그녀 자신은 이런 원정을 싫어했지만, 아로 지역으로의 이동이 그 원정이 있었기에 가능했다고 주장한다.",
+  "mary-slessor.interpretation.turning_point.1":
+    "오코용의 활동이 후임에게 넘어가자 다른 곳으로 옮겨 간 모습은 변하는 상황에 적응하는 태도와 어울린다. 한편 녹스가 지적하는 식민 무력에 대한 의존은 그녀의 기록이 단순한 영웅담이 아니라 모호한 것으로 읽히는 이유의 일부다.",
+  "max-theiler.achievement.1":
+    "1937년 타일러는 동료 휴 스미스와 함께 약독화 생백신 균주 17D를 보고했다. 환자에게서 처음 분리된 아시비(Asibi) 바이러스를 신경 조직을 제거한 닭 배아 조직에서 여러 세대에 걸쳐 배양하는 과정에서 나온 변이주로, 생쥐나 원숭이를 죽이지 않으면서도 면역을 만들었다. 1938년부터 브라질에서 현장 시험이 이루어졌고 이후 4억 회분이 넘게 접종되었으며, 이 업적으로 받은 1951년 노벨 생리의학상은 바이러스 백신에 주어진 유일한 노벨상이다. 공은 나뉘었다. 노벨상 소개 연설은 로이드, 스미스, 리치를 그의 협력자로 든다.",
+  "max-theiler.achievement.2":
+    "1930년 타일러는 황열 바이러스를 흰쥐에게 옮길 수 있음을 보였다. 흰쥐는 원숭이보다 값싸고 다루기 쉬웠다. 1931년에는 이 병을 앓은 사람이나 원숭이의 혈청을 맞은 생쥐가 보호된다는 것을 보였다. 이 생쥐 방어 시험으로 황열이 어디서 발생했는지 지도로 그릴 수 있었고, 바이러스를 생쥐 뇌에서 거듭 계대하면 원숭이에게는 독성이 약해져 프랑스가 서아프리카에서 쓴 생쥐 뇌 백신의 바탕이 되었다. 이후 생쥐는 바이러스 연구의 표준 동물이 되었다.",
+  "max-theiler.achievement.3":
+    "백신 개발 뒤 그는 록펠러 재단 바이러스 연구소의 책임자가 되었다. 남아프리카의 추모 글은 그가 1950년 아프리카를 돌아본 뒤 절지동물 매개 바이러스를 전 세계적으로 연구하는 계획을 재단에 제안해 받아들여졌고, 아프리카, 인도, 남아메리카를 다니며 연구소를 세웠다고 전한다. 지금 타일러병으로 불리는 생쥐 바이러스도 그가 발견했다. 그는 1964년 은퇴했고 1967년까지 예일대학교 역학 교수로 일했다.",
+  "max-theiler.moment.1":
+    "1926년 타일러는 앤드루 셀러즈와 함께, 노구치 히데요가 황열의 원인이라고 명명하고 록펠러 재단이 백신으로 쓰던 렙토스피라가 와일병의 병원체와 같다는 것을 보였고, 재단은 그해 이 백신 배포를 조용히 중단했다. 남아프리카의 추모 글은 황열이 세균성이라고 믿던 셀러즈가 서아프리카로 떠나면서 바이러스 때문이라는 타일러 자신의 이론을 따라가도록 그를 남겨 두었다고 덧붙인다.",
+  "max-theiler.interpretation.moment.1":
+    "이 일화는 선배 동료의 견해나 저명한 기관의 주장과 다른 관점을 따라가려는 태도와 부합한다. 다만 1926년의 결과는 셀러즈와 함께 낸 것이고, 이미 노구치를 의심하던 이들이 있었으며, 추모 글은 우호적인 출처라는 한계가 있다.",
+  "max-theiler.moment.2":
+    "바이러스를 생쥐 뇌에서 계대하자 간에 대한 해는 줄었지만 뇌를 공격하는 성질은 커졌고, 타일러와 동료는 더 적은 용량이 오히려 원숭이에게 뇌염을 더 많이 일으킨다는 것을 발견했다. 그와 동료들은 조직 배양으로 방향을 바꾸었고, 아시비 균주를 신경 조직을 제거한 배아 조직에서 키우자 17D 변이주가 나타났다.",
+  "max-theiler.interpretation.moment.2":
+    "자신의 결과를 본 뒤 방법을 바꾼 것은 증거에 따라 접근을 수정하는 태도와 부합한다. 다만 역사가 두 사람이 한 가지 일화로 전하는 내용이며, 최종 균주는 바이러스에 우연히 일어난 변화에도 힘입었다.",
+  "max-theiler.turning_point.1":
+    "1930년 황열 바이러스를 생쥐 뇌에서 옮길 수 있다는 보고를 낸 뒤 타일러는 하버드를 떠나 뉴욕의 록펠러 재단 국제보건국으로 옮겼다. 노르비는 재단이 이 발견 때문에 그를 환영했다고 하며, 한 백과사전 전기는 이 보고가 하버드에서는 냉랭한 반응을 얻었다고 덧붙인다. 그는 1964년까지 그곳에서 일하며 17D로 이어진 조직 배양 실험을 했다.",
+  "max-theiler.interpretation.turning_point.1":
+    "이 이직은 자신의 연구를 뒷받침할 환경을 스스로 찾아 나선 주도성과 부합한다. 다만 그의 지원에 관한 역사가의 한 문장과, 하버드의 반응에 관한 참고서의 한 마디에 기댄 내용이다.",
+  "nazim-hikmet.achievement.1":
+    "그는 전통적인 음절 운율과 오스만 시대의 형식에서 벗어나, 행을 끊어 쓰는 자유시와 구어체 언어, 동시대의 소재로 터키 시를 바꾸어 놓았다. 그는 20세기 터키 문학에서 가장 영향력 있는 인물 가운데 한 명으로, 국제적인 명성을 얻은 최초의 터키 시인으로 평가되며, 그의 시는 수십 개 언어로 번역되었다.",
+  "nazim-hikmet.achievement.2":
+    "그는 20세기 초 터키 사회 곳곳의 인물들을 그려낸 약 2만 행, 5권 분량의 서사시 『내 조국의 인간 풍경』을 썼다. 이 작품은 1938년부터 1950년까지 수감 중에 쓰였고, 일부씩 친구와 가족 사이에서 돌려 읽혔으며, 그가 세상을 떠난 뒤인 1966~1967년에야 출간되었다.",
+  "nazim-hikmet.achievement.3":
+    "1936년의 『셰이흐 베드레딘 서사시』는 15세기 아나톨리아에서 반란을 일으킨 종교 지도자의 이야기를 다시 풀어낸 작품으로, 20세기 터키 문학에서 가장 유명한 장시 가운데 하나로 꼽힌다. 그는 『잊힌 사람』(1935) 등 관습에서 벗어난 극 형식을 쓴 희곡도 남겼다.",
+  "nazim-hikmet.moment.1":
+    "1938년의 형을 부르사 감옥에서 복역하던 중 그는 『내 조국의 인간 풍경』을 쓰기 시작해 일부씩 친구와 친척에게 보냈다. 세일럼 전기에 따르면 일부는 경찰에 압수되거나 사라졌고, 터키의 한 신문 정리 기사는 감옥에서 쓴 시가 해외로 몰래 반출되었다고 전한다.",
+  "nazim-hikmet.interpretation.moment.1":
+    "이 일화는 극심한 제약 속에서도 글을 쓰고 퍼뜨릴 방법을 찾았다는 해석과 부합하지만, 해외 반출 이야기는 한 신문 정리 기사에만 근거한다.",
+  "nazim-hikmet.moment.2":
+    "세일럼 전기에 따르면 1949년 그는 수감 중 심장마비를 겪은 뒤에도 17일간 단식을 이어갔다. 터키 쪽 기록에도 1950년 사면으로 석방되기까지 이어진 구명 운동 중에 단식이 있었다고 나온다.",
+  "nazim-hikmet.interpretation.moment.2":
+    "이 일화는 당국과의 대립에서 개인적 위험을 감수하려는 태도와 부합하는 것으로 읽을 수 있으나, 단식의 횟수와 시기에 대해서는 기록마다 차이가 있다.",
+  "nazim-hikmet.turning_point.1":
+    "1938년 1월 그는 다시 체포되어 두 차례의 군사 재판 끝에 합산 28년 4개월형을 선고받았다. 기소 내용은 사관생도를 선동했다는 것이었으나 자료마다 세부 내용이 다르다. 그전까지 작가, 기자, 시나리오 작가로 일해 온 그는 이후 1950년 사면까지 수감 생활을 했고, 작품은 금지되거나 다른 이름으로 발표되었다.",
+  "nazim-hikmet.interpretation.turning_point.1":
+    "이 형량으로 그는 터키에서 공개적으로 작품을 발표할 수 없게 되었고, 대표적인 장시는 그 뒤의 세월 동안 쓰였다. 이는 갇힌 상태에서도 작업을 이어갔다는 기록과 나란히 놓고 볼 수 있다.",
+  "niijima-jo.achievement.1":
+    "그는 1875년 11월 29일 교토에서 도시샤 영학교를 열었다. 학생 8명에 교사는 자신과 미국인 선교사 J. D. 데이비스 두 사람이었고, 이 학교가 뒷날 도시샤 대학으로 자랐다. 교토 부지사 마키무라 마사나오와 부 고문 야마모토 가쿠마가 뒷받침했고, 자금 일부는 1874년 아메리칸 보드 연례 대회에서 약속받은 약 5,000달러였다. 1877년에는 여학교가 뒤를 이었다.",
+  "niijima-jo.achievement.2":
+    "그는 일본에서 기독교 정신에 바탕을 둔 자유교육을 주창했다. 1884년에 취지서 초안을 쓴 데 이어 1888년에는 기독교 사립대학 설립을 호소하는 글을 전국의 주요 신문과 잡지에 발표했다. 그러나 그는 대학의 개교를 보지 못했고, 도시샤는 그가 세상을 떠난 지 30년 뒤인 1920년에야 대학령에 따른 대학이 되었다.",
+  "niijima-jo.achievement.3":
+    "1872년부터 1873년까지 앤도버 신학교에 재학 중이던 그는 이와쿠라 사절단의 미국 학교 시찰에서 일본 문부 이사관 다나카 후지마로를 안내하고 통역했으며, 그와 함께 유럽까지 가서 시찰 보고서 작성도 도왔다. 도시샤는 그를 서양 고등교육기관에서 학위를 받은 최초의 일본인으로 소개하는데, 1870년 애머스트 대학에서 이학사 학위를 받았다.",
+  "niijima-jo.moment.1":
+    "1880년 4월 13일, 두 입학 학급을 합치기로 한 결정에 반발해 상급생들이 수업을 거부하자, 그는 아침 예배에서 잘못은 학교의 장인 자신에게 있다고 말하며 지팡이가 부러질 때까지 자기 손을 내리쳤다. 그 자리에 있던 학생 도쿠토미 이이치로(뒷날의 작가 도쿠토미 소호)는 학교를 떠났지만, 이후 그의 대학 설립 호소문 작성에 크게 힘을 보탰다.",
+  "niijima-jo.interpretation.moment.1":
+    "이 일화는 학생을 처벌하기보다 스스로 책임을 지는 방식으로 학생들의 마음을 움직이려 한 시도와 부합하지만, 어느 손을 쳤는지는 자료마다 다르고 서술은 학교와 동료의 기록에서 나온다.",
+  "niijima-jo.moment.2":
+    "1887년부터 1890년까지 일본의 장로교 계통 교회와 회중교회 계통 교회가 합동을 협상했다. 그는 처음부터 합동 자체에 반대한 것은 아니었지만, 사실상 장로교식이라고 본 헌법 초안과 소수 목사가 주도하는 서두른 합동에는 이의를 제기했고, 합동을 지지한 고자키 히로미치 같은 옛 제자들에 맞서 이 입장을 지켰다. 회중교회 쪽은 1890년 4월 합동 중단을 공식 표명했다.",
+  "niijima-jo.interpretation.moment.2":
+    "그의 태도는 가까운 사람들과 공개적인 이견을 감수하는 면과 부합하지만, 이 일을 복원한 논문은 합동 실패의 책임을 그에게 돌린 동시대인들의 평가도 함께 전하고, 그가 결국 중재자로 행동했다고도 평가한다.",
+  "niijima-jo.turning_point.1":
+    "1864년 7월, 21세의 그는 해외 도항 금지령을 어기고 하코다테에서 일본을 떠났다. 마을 사람으로 변장해 미국 선박 베를린호의 창고에 숨어 배에 올랐다. 상하이에서 다른 배로 갈아타 1865년 보스턴에 닿았고, 선주 앨피어스 하디 부부가 그를 받아들여 필립스 아카데미와 이후 애머스트 대학의 학비를 대 주고 1866년 세례에 입회했다.",
+  "niijima-jo.interpretation.turning_point.1":
+    "이 탈출은 개인적 위험을 크게 감수하는 성향과 부합하지만, 그의 동기에 관한 현존 기록은 대부분 그 자신의 훗날 글에서 나온 것이다.",
+  "pedro-alvares-cabral.achievement.1":
+    "1500년 3월 카브랄은 리스본에서 13척의 함대를 이끌고 출항했다. 포르투갈의 두 번째 인도 원정이었다. 남서쪽으로 항해하던 그는 4월 22일 오늘날 브라질 해안을 발견해 베라크루스 섬이라 이름 붙였고, 마누엘 왕에게 소식을 전할 배를 먼저 돌려보낸 뒤 5월 2일 포르투세구루를 떠났다. 현재 학자들 다수는 계획보다 바람과 해류가 그를 그곳으로 데려갔다고 보며, 에스파냐 선장 비센테 야녜스 핀손이 조금 먼저 해안에 닿았을 가능성도 있다.",
+  "pedro-alvares-cabral.achievement.2":
+    "함대는 1500년 9월 13일 캘리컷에 도착했고 카브랄은 그곳에 포르투갈 무역 거점을 세웠다. 12월에 이 거점이 공격당하자 그는 도시를 포격한 뒤 코친과 카나노르에서 향신료를 싣고 귀국길에 올라, 1501년 6월과 7월에 원래 함대의 일부만 이끌고 포르투갈에 닿았다. 이 항해는 바닷길로 교역이 가능함을 보여 주었으나, 캘리컷을 포르투갈의 적으로 만들었다.",
+  "pedro-alvares-cabral.moment.1":
+    "포르투세구루에서 선장들이 기함에 모이자 카브랄은 이들을 따로 불러, 새 땅의 소식을 보급선 편에 마누엘 왕에게 보내 탐사를 명하도록 할지 물었다. 선장들이 동의했고, 함대가 떠날 때 죄수 두 명을 뭍에 남겨 두기로 했다고 카미냐의 편지는 전한다.",
+  "pedro-alvares-cabral.interpretation.moment.1":
+    "의견을 구하며 지휘하는 방식과 어울리는 일화다. 다만 왕의 지시가 이런 회의를 요구했을 수 있고, 카미냐는 왕에게 보고하는 부하였으므로 지휘관을 좋게 썼을 가능성이 있다.",
+  "pedro-alvares-cabral.moment.2":
+    "1500년 5월 24일 희망봉 앞바다에서 갑작스러운 돌풍이 몰아쳐 13척 가운데 4척이 승선자 전원과 함께 가라앉았고 나머지는 며칠 동안 흩어졌다. 카브랄의 배와 다른 두 척은 희망봉을 돌아 모잠비크에 닿았고, 그곳에서 함대 일부가 다시 모여 약 열흘간 수리한 뒤 인도로 향했다.",
+  "pedro-alvares-cabral.interpretation.moment.2":
+    "항해를 이어 간 일은 큰 손실 속에서도 버티는 태도와 어울리지만, 이는 왕이 맡긴 임무였고 사료는 그의 의지와 지시를 구분해 주지 않는다. 브리태니커는 폭풍을 5월 29일로, 그린리와 목격자 서술은 5월 24일로 적는다.",
+  "pedro-alvares-cabral.turning_point.1":
+    "1500년 12월 17일 캘리컷의 포르투갈 무역 거점이 습격당해 뭍에 있던 약 70명 가운데 대부분이 죽거나 붙잡혔다. 카브랄은 사모린의 사과를 기다리며 하루를 보낸 뒤 항구의 아랍 선박 열 척을 빼앗아 승무원 대부분을 죽였고, 도시를 하루 동안 포격한 다음 코친으로 떠났다. 그린리는 이 포격을 인도에서 포르투갈이 맺은 관계의 전환점이라 부른다. 캘리컷은 적대적으로 남았고, 코친과 카나노르는 해안의 교역 상대가 되었다.",
+  "pedro-alvares-cabral.interpretation.turning_point.1":
+    "분쟁에서 강하게 맞서는 태도와 어울리는 대응이다. 그린리는 카브랄이 아랍 선박을 나포하라는 왕의 지시를 받았고 포르투갈 쪽이 보복을 정당하다고 여겼다고 지적하는 반면, 파니카르는 같은 사건을 자존심 강하고 성급한 지휘관의 소행으로 읽는다. 따라서 사료만으로는 그의 행동을 명령과 따로 떼어 볼 수 없다.",
+  "phan-chau-trinh.achievement.1":
+    "판쩌우찐(Phan Châu Trinh)은 20세기 초 베트남을 대표하는 두 학자 출신 민족운동가 가운데 한 사람이며, 그중 비폭력 개혁에 더 전념한 인물이다. 그는 베트남이 무장봉기나 외국의 군사 원조가 아니라 교육과 시민의 권리, 군주제의 종식을 통해 자치를 얻어야 한다고 주장했다. 1904년 관직에서 물러난 뒤 남부 지방을 시찰했고, 하노이의 동낀 의숙(Dong Kinh Free School) 설립에 관여했다(프랑스는 이 학교를 1907년 말까지 폐쇄했다). 또 근대식 학교, 단발, 서양식 복장, 신학문 모임을 장려했다. 1926년 그의 죽음은 전국적 애도로 이어졌고, 한 역사가의 추산으로 사이공 장례에는 약 1만 6천 명이 모였다.",
+  "phan-chau-trinh.achievement.2":
+    "판쩌우찐은 글과 연설로 자신의 주장을 펼쳤다. 1907년에는 총독 폴 보(Paul Beau)에게 관료 사회의 폐단과 낡은 풍속을 지적하는 편지를 보냈고, 1922년에는 카이딘(Khai Dinh) 황제의 잘못을 공개적으로 규탄했으며, 1925년에는 사이공에서 동서양의 도덕과 윤리, 군주제와 민주주의를 주제로 두 차례 강연해 기존 질서에 도전했다. 이 글들을 영어로 옮긴 빈 신(Vinh Sinh)은 판쩌우찐이 베트남 정치 논쟁 문체의 창시자로서 연구할 가치가 있다고 본다.",
+  "phan-chau-trinh.achievement.3":
+    "판쩌우찐은 1911년부터 1925년까지 약 14년을 프랑스에서 보냈다. 1912년에는 변호사 판반쯔엉(Phan Van Truong)과 함께 베트남 애국자 단체를 만들었고, 제1차 세계대전 뒤에는 판반쯔엉, 젊은 응우옌아이꾸옥(훗날의 호찌민)과 함께 강화회의에 보내는 베트남인의 권리 호소문을 작성해 배포했다. 전쟁이 시작되자 체포되어 1914년 9월부터 1915년 중반까지 상테 교도소에 갇혔다.",
+  "phan-chau-trinh.moment.1":
+    "1907년 4월 2일 판쩌우찐은 총독 보(Beau)에게 편지를 보냈고, 이 편지는 1926년 사이공의 출판사가 다시 펴냈다. 그는 예전의 관직 직함으로 글을 쓰면서 식민 정부에 나라의 상태가 위급하다고 말하고, 관료 사회의 폐단과 민간 사회의 병폐, 낡은 풍속을 근본 문제로 꼽았다.",
+  "phan-chau-trinh.interpretation.moment.1":
+    "이는 관료 사회에 맞서고 식민 당국에 직접 호소하려는 태도와 부합한다. 다만 그는 이 호소를 프랑스 주도의 개혁 요청으로 구성했는데, 비판자들은 이를 순진하다고 평했다.",
+  "phan-chau-trinh.moment.2":
+    "약 14년간 프랑스에 머문 뒤 1925년 무렵 판쩌우찐은 프랑스의 식민 정책에 점점 환멸을 느끼고 있었다. 1922년 그는 당시 파리의 젊은 활동가였던 응우옌아이꾸옥에게 편지를 써서 그의 굳센 의지를 칭찬했고, 한 서평자의 요약에 따르면 새로운 마르크스주의 사상을 베트남으로 가져가 시험해 보라고 권했다. 또 자신이 귀국하면 낡은 체제에 맞서도록 사람들을 모으겠다고 말했다.",
+  "phan-chau-trinh.interpretation.moment.2":
+    "이는 프랑스의 후견에 대한 이전의 신뢰를 어느 정도 고쳐 나간 것과 부합한다. 그러나 그는 공산주의 급진파에 합류한 적이 없고, 역사가들은 이 변화를 단절이 아니라 서서히 옮겨 간 것으로 서술한다.",
+  "phan-chau-trinh.turning_point.1":
+    "1908년 중부 베트남에서 조세 항쟁이 일어나자 프랑스는 개혁파 학자들을 배후로 지목했다. 항쟁에 관여하지 않았다고 부인한 판쩌우찐도 체포되었고, 사형 선고는 꼰다오 섬에서의 강제 노역으로 감형되었다. 1910년 프랑스 사회주의자들의 개입으로 사면된 그는 1911년 프랑스로 건너갔으며, 그곳에서의 망명과 감시는 1925년 사이공 귀환이 허락될 때까지 이어졌다.",
+  "phan-chau-trinh.interpretation.turning_point.1":
+    "이는 거듭된 투옥과 망명 속에서도 개혁을 계속 주장한 것과 부합한다. 다만 한 역사가는 프랑스가 그의 출국을 허용한 것을 베트남 대중에게서 그를 떼어 놓으려는 조치로도 설명한다.",
+  "qian-xuesen.achievement.1":
+    "그는 1956년부터 중국 국방부 제5연구원을 이끌며 중국의 미사일 연구를 조직했고, 1968년부터는 중국우주기술연구원을 이끌었다. 그는 '중국 항공우주의 아버지'로 불리지만, 브리태니커는 그가 특정 미사일이나 로켓 엔진, 위성을 직접 개발한 것은 아니며 중국의 1세대 항공우주 기술자를 길러냈기 때문에 그 칭호를 얻었다고 설명한다.",
+  "qian-xuesen.achievement.2":
+    "그는 1936년부터 칼텍에서 시어도어 폰 카르만 밑에서 공부하며, 훗날 제트추진연구소가 된 그룹의 로켓 실험에 참여했다. 1943년에는 동료 두 명과 함께 '제트추진연구소'라는 이름을 처음 쓴 문서를 작성했고, 1949년에는 로버트 H. 고더드 제트추진 교수가 되었다.",
+  "qian-xuesen.achievement.3":
+    "1950년대 초 로스앤젤레스 지역을 벗어나지 못하던 시기에 그는 복잡한 다변수 시스템의 안정화와 제어를 다룬 『공학 사이버네틱스』(1954)를 썼고, 이 책은 곧바로 제어 이론에 대한 중요한 기여로 평가받았다. 또 칼텍 강의 노트에서 분자와 원자 이론에 바탕을 둔 물리역학 분야를 발전시켰다.",
+  "qian-xuesen.moment.1":
+    "1953년 3월부터 그는 로스앤젤레스 지역을 벗어날 수 없었고 매달 이민국에 출두해야 했다. 그 기간에도 그는 칼텍에서 계속 가르쳤고, 1954년 『공학 사이버네틱스』를 출간했으며, 연구의 일부를 게임과 경제 행동 쪽으로 돌렸다.",
+  "qian-xuesen.interpretation.moment.1":
+    "이는 제약 속에서도 과학 연구를 이어간 끈기와 맞아떨어지지만, 그의 내면에 대한 설명은 대부분 우호적인 기관 전기에서 나온 것이다.",
+  "qian-xuesen.moment.2":
+    "상하이 자오퉁대학 학생 시절 그는 관현악단과 취주악단에서 유포니움을 연주했고, 학년 졸업 기념 문장과 앨범 표지를 디자인했으며 사진을 배웠다. 1935년 미국으로 떠나기 전에는 음악을 기교가 아니라 내용과 감정 표현으로 평가해야 한다고 주장하는 음악 평론을 발표했다.",
+  "qian-xuesen.interpretation.moment.2":
+    "이는 공학과 나란히 음악과 디자인에 대한 섬세한 감수성을 키웠다는 점과 맞아떨어지지만, 세부 내용은 모두 하나의 전기에서 나온 것이다.",
+  "qian-xuesen.turning_point.1":
+    "1955년 그의 출국 금지가 풀렸고, 그는 미중 회담이 진행되는 동안 중국의 한 고위 인사에게 귀국을 도와 달라는 편지를 썼다. 그해 9월 그는 가족과 함께 SS 프레지던트 클리블랜드호를 타고 로스앤젤레스를 떠났고, 1956년 중국 국방부 제5연구원 원장이 되었다.",
+  "qian-xuesen.interpretation.turning_point.1":
+    "귀국을 도와 달라고 직접 편지를 쓴 것은 주도적 행동력과 맞아떨어지지만, 그가 연구자에서 대규모 조직의 책임자로 어떻게 적응했는지는 자료에 나와 있지 않다.",
+  "roberto-burle-marx.achievement.1":
+    "그는 브라질의 근대 열대 정원을 만들어 냈다. 1932년 리우의 슈바르츠 주택 정원과 교육보건부 청사의 공중 정원을 시작으로, 유럽식 정형 정원을 걷어 내고 토종 열대 식물을 한데 모아 굽이치는 형태와 대담한 색 대비로 추상화처럼 구성했다.",
+  "roberto-burle-marx.achievement.2":
+    "그의 공공 조경은 리우데자네이루의 해안 풍경을 형성했다. 로타 지 마세두 소아리스가 조정한 작업반 안에서 그의 사무소가 맡은 플라멩구 공원의 조경(1961-65)과, 검정·흰색·붉은색 모자이크로 이루어진 코파카바나 해변 산책로(1970)가 대표적이다. 그는 브라질리아의 정부 청사 정원과 카라카스의 동쪽 공원(Parque del Este)도 설계했다.",
+  "roberto-burle-marx.achievement.3":
+    "1949년부터 그는 바하 지 과라치바의 영지를 약 3,500종의 식물이 자라는 살아 있는 실험실로 만들었고, 그 식물 가운데 상당수는 채집 탐사에서 모은 것이었다. 1985년에는 이 땅을 연방 정부에 기증했다. 시티우 호베르투 부를리 마르크스(Sítio Roberto Burle Marx)는 2021년 근대 열대 정원으로는 처음으로 유네스코 세계유산 목록에 올랐다.",
+  "roberto-burle-marx.moment.1":
+    "그는 식물 채집 여행을 '콜레타스'(coletas)라고 불렀고, 식물학자들과 건축가 리누 레비 같은 친구들과 함께 브라질 각지를 다녔다. 채집한 식물은 시티우로 옮겨 적응시키고 시험했다. 1965년 9월에는 레비와 함께 미나스제라이스와 바이아를 여행하며 렌소이스 마을에서 도시 계획의 교훈을 얻었다.",
+  "roberto-burle-marx.interpretation.moment.1":
+    "이러한 양상은 서식지에서 식물을 관찰하려는 지속적인 호기심과 부합한다. 다만 이 여행에 대한 가장 생생한 묘사는 한 연구자가 인용한 그 자신의 말이다.",
+  "roberto-burle-marx.moment.2":
+    "저술가 윌리엄 하워드 애덤스가 인용한 1963년 잡지 기사에 따르면, 그는 주셀리누 쿠비체키가 벨루오리존치 시장 시절 그곳에서 한 작업의 대금을 지급하지 않았다는 이유로 처음에는 브라질리아 작업을 거절했다. 그는 1961년 쿠비체키가 패배한 뒤에야 참여했다.",
+  "roberto-burle-marx.interpretation.moment.2":
+    "이 일화는 영향력 있는 의뢰인을 거절할 수 있는 태도와 부합한다. 그러나 근거는 전해 들은 한 건의 기록뿐이고, 당시에는 다른 이유도 거론되었다.",
+  "roberto-burle-marx.turning_point.1":
+    "1928년 열아홉 살의 그는 가족과 함께 베를린에서 회화와 성악을 공부하던 중 달렘 식물원에서 브라질의 열대 식물을 새롭게 발견했다. 1930년 브라질로 돌아온 그는 집을 열대 식물을 키우는 곳으로 바꾸었고, 1932년에는 루시우 코스타를 통해 첫 의뢰 정원을 맡았다.",
+  "roberto-burle-marx.interpretation.turning_point.1":
+    "이 전환은 화가가 본래의 분야를 떠나지 않은 채 두 번째 분야로 활동을 넓힌 것과 부합한다. 다만 베를린에서의 발견에 대한 서술은 전기적 회고에 의존한다.",
+  "rong-hong.achievement.1":
+    "용굉(容閎, 서양에서는 Yung Wing)은 거의 모든 서술에서 중국 소년들의 미국 유학 사업, 곧 중국교육사절단(Chinese Educational Mission)의 발의자로 꼽힌다. 그가 여러 해 동안 청나라 관리들을 설득한 끝에 증국번과 이홍장이 1871년 구체적인 계획안을 올렸고, 1872년부터 1875년까지 네 차례에 걸쳐 소년 모두 120명이 코네티컷과 매사추세츠에서 생활하며 공부했다. 용굉은 부감독으로 일했고, 하트퍼드에는 1874년 사업 본부가 세워졌다. 청 정부는 1881년 학생들이 학업을 마치기 전에 이들을 소환했으며, 이후 여러 명이 철도 기술자, 해군 장교, 외교관, 행정가로 일했다.",
+  "rong-hong.achievement.2":
+    "1854년 용굉은 예일 대학을 졸업했고, 서양 대학에서 학위를 받은 최초의 중국인으로 흔히 일컬어진다. 다만 Zeng Laishun이 그보다 앞서 미국 대학에 다녔으나 졸업하지는 못했고, Huang Kuan은 1년 뒤 에든버러 대학을 졸업했다. 마카오 근처의 가난한 농가에서 태어난 용굉은 1847년 스승 새뮤얼 로빈스 브라운을 따라 매사추세츠로 건너갔고 1850년 예일에 입학했다.",
+  "rong-hong.achievement.3":
+    "1863년 증국번은 용굉을 미국에 보내 중국 최초의 근대적 병기창에 쓸 기계를 사 오게 했다. 이 구매는 강남제조국(江南製造局)의 바탕이 되었고, 그 공로로 용굉은 고전 교육을 받지 않았는데도 관직과 품계를 얻었다. 1878년에는 1,200권이 넘는 장서를 예일에 기증했으며, 이 책들은 예일 동아시아 도서관의 핵심이 되었다.",
+  "rong-hong.moment.1":
+    "1850년대 중반 중국으로 돌아온 용굉은 형편이 어려웠는데도 일본 나가사키의 외국 무역상사가 제안한 매판(買辦) 자리를 거절했다. 회고록에 따르면 그는 지배인에게 그 일이 굴종적이어서 예일 졸업생에게 어울리지 않는다고 말하고, 대신 찻잎 산지를 다니는 상사의 대리인으로 일하겠다고 청했다. 그는 또 그보다 앞서 선교사가 되겠다는 약속을 조건으로 학비를 대려던 교회 후원자들도 거절했다고 적었다.",
+  "rong-hong.interpretation.moment.1":
+    "이는 자기 조건으로 일하려는 강한 선호와 부합하지만, 두 일화 모두 그 자신의 기록에서 나온 것이어서 잠정적인 해석이다.",
+  "rong-hong.moment.2":
+    "1870년 톈진 교안(教案) 뒤 정일창(丁日昌) 순무는 프랑스와의 분쟁 처리를 돕게 하려고 용굉을 조수로 데리고 북쪽으로 갔다. 용굉은 이 기회에 1868년에 올렸다고 하는 유학 계획을 정일창에게 다시 상기시켰고, 정일창이 증국번을 설득했다. 1870년 10월 증국번의 상주문은 소년들을 해외로 보내는 방안을 지지하면서 용굉을 사업을 맡을 두 사람 중 한 명으로 추천했다.",
+  "rong-hong.interpretation.moment.2":
+    "이는 오래 품은 제안을 관리들이 그의 능력을 필요로 한 시점에 맞물리게 한 것과 부합한다. 다만 로즈(Rhoads)는 이 경위를 주로 용굉의 자서전에 기대어 서술하며, 한 중국 역사가는 이 구상의 공을 용굉이 아니라 정일창에게 돌린다.",
+  "rong-hong.turning_point.1":
+    "1881년 청 정부는 학생들에게 귀국을 명했다. 거론된 이유로는 학생들의 미국화, 비용, 그리고 미국이 벌링게임 조약의 교육 조항을 저버린 일 등이 있었으며, 두 감독관은 직위를 잃었다. 용굉은 사업을 살리려 애썼으나 성과를 거두지 못했고, 다만 레너드 베이컨(Leonard Bacon)의 도움으로 학생 두 명(Tan Yaoxun, Rong Kui)이 독자적인 후원을 얻어 미국에 남았다.",
+  "rong-hong.interpretation.turning_point.1":
+    "이는 사업이 무너진 뒤에도 일부나마 살리려 한 지속적 노력과 부합한다. 다만 자료들은 이 노력을 짧게만 서술하므로 그 자체로는 비중이 크지 않다.",
+  "satoshi-omura.achievement.1":
+    "오무라의 기타사토 연구소 팀은 토양 세균을 채집해 선별했고, 1974년 시즈오카현 이토의 골프장 근처 흙에서 얻은 균주(나중에 스트렙토미세스 아베르미틸리스로 명명)가 머크사로 보내졌다. 머크의 윌리엄 캠벨 연구진은 이 균이 만든 물질인 아버멕틴이 기생충에 매우 강한 효과를 낸다는 것을 밝혔다. 이 물질을 화학적으로 개량한 이버멕틴은 1981년 동물용 의약품으로 출시되었고, 이후 사상충증(강 실명증)과 림프 사상충증의 집단 치료에 쓰이게 되었다. 그는 2015년 노벨 생리의학상의 절반을 캠벨과 함께 받았다.",
+  "satoshi-omura.achievement.2":
+    "50여 년에 걸쳐 기타사토 연구소의 그의 연구진은 새로운 미생물을 분리하고 500개에 가까운 화합물을 발견했으며, 그중 약 26종이 의약품, 동물 건강·농업용 제품, 연구용 시약으로 쓰이게 되었다. 그 가운데 하나인 스타우로스포린은 단백질 인산화 효소 연구에 널리 쓰이는 도구가 되었고, 이후 인산화 효소 억제 항암제의 모델이 되었다고 설명된다.",
+  "satoshi-omura.achievement.3":
+    "1970년대에 그는 머크사, 이후 다른 제약사들과 연구 협력 체계를 만들었다. 기타사토 연구소가 미생물을 선별하고 기업이 제품을 개발·판매하며 사용료가 연구소로 돌아오는 방식으로, 당시 일본에서는 드문 산학 협력 모델이었다. 이버멕틴에서 나온 사용료는 220억 엔 이상으로 보도되었으며, 연구소 재정을 회복시켰고 1989년 사이타마현 기타모토에 문을 연 병원 단지의 건설에도 쓰였다.",
+  "satoshi-omura.moment.1":
+    "전기 작가 바바 렌세이의 설명을 소개한 사이언스 포털의 서평에 따르면, 머크는 처음에 이버멕틴 특허 사용료로 약 3억 엔을 제안했다. 오무라는 이를 거절하고 매출에 비례한 지급을 요구했으며, 협상 마지막 단계에서는 맥스 티슐러가 중재를 도왔다. 이후 연구소는 연평균 약 16억 엔의 사용료를 받았다.",
+  "satoshi-omura.interpretation.moment.1":
+    "이 일화는 스스로 공정하다고 판단한 조건을 끝까지 요구하는 태도와 어울리지만, 한 전기 작가의 설명에 기댄 것이며 결과에는 티슐러의 중재도 영향을 미쳤다.",
+  "satoshi-omura.moment.2":
+    "그는 아버멕틴에서 나온 사용료로 사이타마현 기타모토에 새 병원을 세울 계획을 세웠다. 2015년 잡지 인터뷰 기사는 지역 의사회가 반대했지만 그가 계속 설득했고, 간호학교와 백신 공장을 갖춘 단지가 1989년에 문을 열었다고 전한다.",
+  "satoshi-omura.interpretation.moment.2":
+    "이는 사용료 수입을 공공 시설에 쓰려 했고 지역의 반대 속에서도 뜻을 굽히지 않았다는 해석과 어울리지만, 반대에 관한 서술은 한 기사의 짧은 한 줄에 그친다.",
+  "satoshi-omura.turning_point.1":
+    "1971년 그는 머크의 전 연구소장이던 맥스 티슐러 밑에서 웨슬리언 대학교 객원 교수로 일했고, 약 1년 반 만에(자료에 따라 14~18개월) 기타사토 연구소로 불려 돌아왔다. 일본에서 연구비가 부족하다는 것을 알게 된 그는 제약사들에 사용료를 대가로 공동 연구를 지원해 달라고 제안했고, 1972년에는 머크의 수석 미생물학자가 연구소를 찾아 협력 체계를 마련했다.",
+  "satoshi-omura.interpretation.turning_point.1":
+    "연구비 부족을 협력 모델로 바꾼 능동적인 행동과 어울리지만, 머크 쪽의 방문이 있었다는 점에서 첫걸음이 그 혼자만의 것은 아니었다.",
+  "uchimura-kanzo.achievement.1":
+    "그는 평신도 기독교인 무교회 운동을 창시했다. 1900년 9월부터 월간지 『성서지연구』를 펴냈고, 이 잡지는 1930년 그가 세상을 떠날 때까지 357호가 나왔다. 매달 2,500부에서 5,000부가 발행된 이 잡지는 교파도 교회 건물도 성례도 공식 조직도 없는 운동의 중심이 되었다.",
+  "uchimura-kanzo.achievement.2":
+    "그는 기독교적 입장에서 러일전쟁에 반대했다. 1897년부터 글을 써 온 신문 『만조보』가 1903년 전쟁 지지로 돌아서자, 동료 필자 고토쿠 슈스이, 사카이 도시히코와 함께 신문사를 떠났다.",
+  "uchimura-kanzo.achievement.3":
+    "그는 일본어뿐 아니라 영어로도 해외 독자를 위해 글을 썼다. 『일본 및 일본인』(1894, 뒤에 『대표적 일본인』으로 제목을 바꿈)과 개종 과정을 쓴 『나는 어떻게 기독교 신자가 되었나』(1895)가 대표작으로, 국립국회도서관의 소개는 둘을 주요 저작으로 꼽으며, 뒤의 책은 1904년 독일어로 번역되었다.",
+  "uchimura-kanzo.moment.1":
+    "1881년 10월 2일 우치무라와 삿포로 농학교의 기독교인 동료 학생들은 자신들의 교회에서 첫 예배를 드리고 4개 조의 독립 선언을 발표했는데, 한 조항은 외국의 도움 없이 일본에서 복음을 전하는 것이 일본인의 의무라고 밝힌다. 그들은 건물을 위해 감리교 선교사에게서 400달러를 빌렸고 1882년 12월 28일까지 빚을 모두 갚았다.",
+  "uchimura-kanzo.interpretation.moment.1":
+    "이 일화는 외부의 통제에서 벗어나려는 강한 선호와 부합하지만, 개인의 선택이 아니라 집단의 결정이며 주된 출처는 교회 자신의 역사 서술이다.",
+  "uchimura-kanzo.moment.2":
+    "1903년 그는 러일전쟁을 앞두고 발행인이 정부 노선을 지지하는 쪽으로 돌아서자, 당시 가장 많이 발행되던 신문 『만조보』에 남지 않고 사직했다. 한 제자에 따르면, 직장을 잃은 그에게 『나는 어떻게 기독교 신자가 되었나』의 독일어판 인세 1,000마르크가 도착했다.",
+  "uchimura-kanzo.interpretation.moment.2":
+    "이 사직은 신념의 문제에서 양보하기보다 개인적 손실을 감수하려는 태도와 부합하지만, 자료는 결정 자체를 서술할 뿐 그 배후의 저울질을 보여 주지는 않는다.",
+  "uchimura-kanzo.turning_point.1":
+    "1891년 1월, 그가 가르치던 제일고등중학교의 의식에서 교직원과 학생들은 교육칙어에 적힌 천황의 서명 앞에 절을 해야 했다. 설명은 엇갈린다. 한 쪽은 그만 절을 하지 않았다고 하고, 다른 쪽은 고개만 끄덕였다고 한다. 신문들이 그를 공격했고, 그는 중병을 앓았으며, 사직서가 제출되었고, 이 사건은 사실상 그의 교사 경력을 끝냈다. 그 뒤로 그는 글을 써서 생계를 꾸렸다.",
+  "uchimura-kanzo.interpretation.turning_point.1":
+    "이 사건은 자신의 종교적 신념과 충돌하는 의식에 참여하기를 거부한 태도와 부합하지만, 그가 실제로 무엇을 했는지에 대한 설명은 엇갈리고 자료들이 주로 일치하는 것은 그 결과이다.",
+  "yoichiro-nambu.achievement.1":
+    "난부는 초전도 현상에 대한 BCS 이론에서 출발해, 바닥 상태가 대칭을 깨뜨려도 게이지 불변성이 유지된다는 것을 보였다. 이어 1960년에는 입자물리학의 진공도 대칭을 자발적으로 깨뜨릴 수 있으며, 그에 따라 핵자의 질량과 질량이 거의 없는 파이온이 생길 수 있다고 제안했다. 그는 조반니 요나라시니오와 함께 이 생각을 장론 모형으로 발전시켰고, 질량 없는 난부-골드스톤 입자와 힉스·브루·앙글레르의 메커니즘이 모두 이 생각 위에 세워졌다. 그는 이 업적으로 2008년 노벨 물리학상의 절반을 받았다.",
+  "yoichiro-nambu.achievement.2":
+    "1965년 그는 한무영과 함께 쿼크가 새로운 양자수(훗날 색깔이라 불림)를 지니며 이것이 SU(3) 대칭을 가진 게이지 이론으로 기술된다고 제안했다. 두 사람이 정한 전하 값은 틀린 것으로 드러났지만, 색깔이라는 착상은 양자색역학과 표준 모형의 일부가 되었다.",
+  "yoichiro-nambu.achievement.3":
+    "1969년 무렵 그는 홀거 베크 닐센, 레너드 서스킨드와 각각 독립적으로, 베네치아노 산란 진폭이 점입자 대신 1차원으로 늘어난 대상인 끈을 필요로 한다는 것을 보였다. 이 연구는 끈 이론 분야의 출발점이 되었다.",
+  "yoichiro-nambu.moment.1":
+    "노벨위원회의 설명에 따르면 난부는 초전도에 대한 BCS 이론에서 게이지 불변성이 어떻게 작동하는지 이해하는 데 약 2년이 걸렸고, 그것이 비선형 형태로 유지된다는 것을 보였다. 같은 생각을 입자물리학에 적용한 것은 그 뒤의 일이다.",
+  "yoichiro-nambu.interpretation.moment.1":
+    "어려운 문제를 끈기 있게 풀어낸 뒤에야 일반화했다는 해석과 어울리지만, 근거는 위원회 요약의 한 문장뿐이다.",
+  "yoichiro-nambu.moment.2":
+    "논문 지도를 받았던 제자 마두스리 무케르지는 난부가 아마추어가 보낸 손글씨 상대성 이론 논문을 꼼꼼히 읽고 있는 모습을 보았다고 회고했다. 난부는 아인슈타인도 당시 무명이던 사티엔드라 나트 보스가 불쑥 보낸 논문을 수고롭게 읽어 주었다고 설명했다.",
+  "yoichiro-nambu.interpretation.moment.2":
+    "청하지 않은 아이디어에도 열린 호기심을 보였다는 해석과 어울리지만, 추모 모음집에 실린 한 사람의 회고일 뿐이다.",
+  "yoichiro-nambu.turning_point.1":
+    "미국 물리학 학술지의 수입이 금지되어 있던 전후 일본에서 난부는 전자의 이상 자기 모멘트를 스스로 계산해 α/2π 보정값을 얻었다. 그러나 줄리언 슈윙거가 같은 결과를 발표했다는 기사를 타임지에서 읽게 되어 자신의 연구는 발표할 수 없게 되었다. 그는 1952년 프린스턴 고등연구소로, 1954년 시카고 대학교로 옮겨 이후 평생을 그곳에서 보냈다.",
+  "yoichiro-nambu.interpretation.turning_point.1":
+    "이 일화는 문제를 독립적으로 풀어 나가는 습관과 어울리고, 이후의 이주는 이론 물리학의 중심이 미국에 있다는 인식을 보여 준다. 다만 앞의 내용은 부고 기사의 한 줄에 근거한다.",
+  "yoshida-shoin.achievement.1":
+    "1854년 시모다에서의 밀항 시도가 실패하고 1855년 하기의 본가에서 근신 처분을 받은 뒤, 요시다 쇼인은 하기의 작은 사설 학교 쇼카손주쿠에서 학생들을 가르쳤다. 제자는 대부분 하급 무사나 평민의 자제였고, 다카스기 신사쿠, 구사카 겐즈이, 이토 히로부미, 야마가타 아리토모가 그 가운데 있었다. 니폰닷컴은 이 가르침을 그의 가장 중요한 업적으로 보며, 한 학술 연구는 제자의 수를 92명으로 센다.",
+  "yoshida-shoin.achievement.2":
+    "1854년 이후 하기의 노야마 감옥에 갇힌 그는 동료 죄수들과 돌아가며 강의하는 방식으로 『맹자』를 읽는 모임을 시작했고, 그 논의가 그의 대표작인 『강맹여화(講孟余話)』가 되었다. 번의 원로 주자학자 야마가타 다이카는 뜻을 같이하는 사람을 한 명씩 모아 가자는 대목을 사적으로 사람을 모으는 일로 보고 비판했고, 논쟁은 1년 반가량 이어졌다. 마에다 쓰토무는 이 책을 그의 대표작이라고 설명한다.",
+  "yoshida-shoin.achievement.3":
+    "쇼인은 1859년 11월 21일 안세이 대옥 중에 에도에서 처형되었고, 막부는 그로부터 9년 뒤에 무너졌다. 니폰닷컴은 그가 메이지 유신의 정신적 지도자로 여겨지게 되었으며, 정부에서 지위가 오른 옛 제자들이 그 평가를 쌓는 데 크게 기여했다고 적는다. 일본어 전기는 1890년대에야 처음 나왔고, 그에 대한 평가는 이후의 정치 상황에 따라 오르내렸다고 이 기사는 말한다.",
+  "yoshida-shoin.moment.1":
+    "1854년 4월 25일 동이 트기 전, 쇼인과 제자 가네코 시게노스케는 시모다에서 페리의 미시시피호 사다리를 타고 올라갔다가 기함으로 보내졌고, 통역을 통해 미국으로 데려가 달라고 청했다. 페리는 이를 거절했고, 두 사람은 해안으로 돌려보내진 뒤 막부 관리에게 체포되었다. 당시 일본을 떠나는 일은 사형에 처할 수 있는 죄였다. 이 서술은 페리의 보고서도 참고한 니폰닷컴의 재구성이다.",
+  "yoshida-shoin.interpretation.moment.1":
+    "동트기 전에 사형에 해당하는 죄를 감행했다는 점은 이 프로필의 높은 위험 감수 성향과 부합한다. 이 장면은 신중함이나 계획성에 대해서는 말해 주는 바가 적으며, 그 대가는 함께 나누어졌다. 동행한 제자는 이듬해 옥중에서 숨졌다.",
+  "yoshida-shoin.moment.2":
+    "1859년 2~3월, 노야마 감옥의 쇼인은 제자 이리에 스기조와 그 동생이 자신의 계획에 따라 움직이다 투옥된 것을 기뻐하며, 그런 사람들이 죽는다 해도 아까울 것이 없다고 썼다. 이리에는 늙은 어머니가 있으니 그냥 죽을 수 없다고 답하며, 자신이 틀렸다고 생각하면 절교하라고 했다. 쇼인은 앞서 한 말이 잘못이었다고 답하고, 효도를 희생시키면서까지 이리에에게 충성을 강요하지 않겠다고 약속했다. 도모다 겐타로는 이 거친 말을 쇼인이 하급 제자의 복종을 무의식중에 당연하게 여긴 표시로 읽는다.",
+  "yoshida-shoin.interpretation.moment.2":
+    "이 편지 교환은 제자가 반발했을 때 자신의 말을 철회할 줄 알았음을 보여 주는 한 예이며, 앞선 편지들의 가혹함과 나란히 놓인다. 두 사람 사이의 한 사건일 뿐이므로, 그가 얼마나 쉽게 생각을 바꾸었는지에 대해서는 절제된 해석만을 뒷받침한다.",
+  "yoshida-shoin.turning_point.1":
+    "1854년의 실패 뒤 그는 하기의 노야마 감옥에 보내졌고, 1855년에는 친가에서의 근신 처분으로 풀려났다. 이후 죽을 때까지 그는 마음대로 여행할 수 없었고, 도모다에 따르면 정치 활동의 대부분을 편지로 이어 갔으며 쇼카손주쿠에서 가르치기 시작했다. 1854년 이전의 그는 일본 곳곳을 걸어 다니던 젊은 학자였으나, 근신은 그의 활동을 독서 모임과 편지, 가르침 쪽으로 돌려놓았다.",
+  "yoshida-shoin.interpretation.turning_point.1":
+    "이 흐름은 꾸준히 밀고 나가는 성향과 부합한다. 여행의 길이 막히자 그는 멈추지 않고 남은 수단으로 뜻을 이어 갔다. 근신이라는 조건 자체가 이후의 영향력을 얼마나 좌우했는지에 대해서는 역사가들 사이에 의견이 갈린다.",
 };
 
 const BUNDLES: Partial<Record<Locale, Record<string, string>>> = {

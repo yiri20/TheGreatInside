@@ -1,0 +1,198 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "yoshida-shoin",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Yoshida Shōin",
+    "aliases": [
+      "Yoshida Shoin",
+      "Shoin Yoshida",
+      "Yoshida Torajiro",
+      "吉田松陰"
+    ],
+    "wikidataId": "Q559747",
+    "birthYear": 1830,
+    "deathYear": 1859,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "teacher",
+      "scholar",
+      "political_activist"
+    ],
+    "fieldIds": [
+      "education",
+      "politics",
+      "philosophy"
+    ],
+    "impactDomains": [
+      "educational",
+      "historical",
+      "social"
+    ],
+    "tagIds": [
+      "mentor",
+      "nonconformist",
+      "endured_imprisonment"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_yoshida_wikidata",
+      "kind": "wikidata",
+      "title": "Yoshida Shōin (Q559747), verified live via the Wikidata API (2026-11-24): English label 'Yoshida Shōin', description 'Japanese politician (1830-1859)', instance of human, born 20 September 1830, died 21 November 1859, citizen of Japan, occupations politician and philosopher, Korean label 요시다 쇼인. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q559747"
+    },
+    {
+      "id": "src_yoshida_nippon",
+      "kind": "press",
+      "title": "Mamiya Jun (Nippon.com editorial department), 'Yoshida Shōin: The Revolutionary and Teacher Who Helped Bring Down the Shogunate', Nippon.com, 4 February 2015 (read in full). CANONICAL SIGNIFICANCE SOURCE: argues that his most significant achievement was teaching local boys, mainly sons of low-ranking samurai, at the Shōka Sonjuku in Hagi, from which many students went on to the Restoration movement and the Meiji government; retells the failed attempt to board Perry's flagship at Shimoda in April 1854 and the imprisonment of Shōin and his disciple Kaneko Shigenosuke (who died in prison in 1855), his house arrest, his part in a failed plot against a senior shogunal official after the 1858 treaty, the Ansei Purge and his execution at 29; warns that his reputation swung with later politics (the first Japanese biography appeared only in the 1890s) and that disciples exalted him more as they rose.",
+      "url": "https://www.nippon.com/en/features/c01801/yoshida-shoin-the-revolutionary-and-teacher-who-helped-bring-down-the-shogunate.html"
+    },
+    {
+      "id": "src_yoshida_ndl_portrait",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'YOSHIDA Shoin', Portraits of Modern Japanese Historical Figures (English page read, short biography): born 1830 to a Hagi samurai father and adopted into the Yoshida house of Yamaga-school military strategy; studied at the Meirinkan and travelled widely; studied gunnery and Dutch learning under Sakuma Shozan; tried to board an American warship at Shimoda in 1854, was caught and sent to the Noyamagoku jail in Hagi; released in 1855 into house confinement with his birth family, where he founded the private school Shoka Sonjuku whose students included Takasugi Shinsaku, Kusaka Genzui, Ito Hirobumi and Yamagata Aritomo; executed in Edo during the Ansei Purge on 21 November 1859.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/217.html"
+    },
+    {
+      "id": "src_yoshida_stevenson",
+      "kind": "biography",
+      "title": "Robert Louis Stevenson, 'Yoshida-Torajiro' (written 1880, after conversations with Masaki Taizo, a former pupil of Shōin; read in Familiar Studies of Men and Books on Wikisource). A 19th-century biographical essay that Stevenson calls an imperfect outline checked by his informant: describes his long journeys on foot, giving up his rank to chase Perry's and a Russian ship (arriving too late at Edo and Nagasaki), the Shimoda attempt, his reports written in prison, teaching boys while under watch, the plot against a shogunal minister, and his open confession and lecture to the court in Edo; also scarred, careless of appearance, gentle in manner but abusive in speech, and over his students' heads at first. Contains dating slips (it says he was executed at 31) and rests on one pupil's memory, so it is used for conduct only and with caution.",
+      "url": "https://en.wikisource.org/wiki/Familiar_Studies_of_Men_and_Books/Yoshida-Torajiro"
+    },
+    {
+      "id": "src_yoshida_maeda",
+      "kind": "institution",
+      "title": "Maeda Tsutomu, 'Yoshida Shoin ni okeru dokusho to seiji' (Reading and Politics in Yoshida Shoin), Bulletin of Aichi University of Education, Humanities and Social Sciences 60, March 2011, pp. 55-63 (read in Japanese). Scholarly paper that quotes his letters and writings: the reading-and-debate groups he joined from 1848 and the Edo study year of 1851, his unauthorised trip to the north in December 1851, the Shimoda failure and the reading circle he led among fellow prisoners, which produced his commentary on Mencius; the 1.5-year dispute with the Neo-Confucian scholar Yamagata Taika over that commentary; the 1857 doubts about forming factions and his change by 1859; the rice-pounding reading sessions at the Shoka Sonjuku; and his 1858 note that reading exists to act and should be shared even with grooms and stable hands. The author treats Shōin as a pioneer of cross-domain political discussion and finds some of his ideas distinctive.",
+      "url": "https://aue.repo.nii.ac.jp/record/123/files/kenjin605563.pdf"
+    },
+    {
+      "id": "src_yoshida_tomoda",
+      "kind": "institution",
+      "title": "Tomoda Kentaro, 'Shokason-juku-sei no kizuna to jishoshi boku: Takasugi Shinsaku, Kusaka Genzui, Irie Sugizo wo rei to shite' (Emotional ties among Shokason-juku students and the self-reference form boku), open-access graduate-programme paper at the Open University of Japan (read in Japanese; sections 1-3 and the conclusion closely). Draws on Umihara Toru's biographies and the collected letters: Shōin's letter debate with Kusaka Genzui in 1856, the circle of 92 students of whom about half joined the political movement, his December 1858 plans (to bring Ohara Shigenori to Hagi, to ambush the shogunal councillor Manabe Akikatsu, and to stop the lord's procession at Fushimi), the disciples who thought the plans reckless, his cold and harsh letters welcoming the imprisonment of Irie Sugizo and his brother, Irie's angry reply, and Shōin's written apology and promise not to force loyalty at the cost of filial duty. The author is sympathetic to the master but criticises his unconscious disregard for low-ranking disciples.",
+      "url": "https://ouj.repo.nii.ac.jp/record/8655/files/1_08.pdf"
+    },
+    {
+      "id": "src_yoshida_ndl_letters",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, online exhibition 'Autographs: Handwriting of Famous Persons' (Part 2, section 1, English page read): short biography and two letters written by Shōin from Noyamagoku prison in March 1859, one to friends including Katsura Kogoro (later Kido Takayoshi), saying he is prepared to be executed and discussing his jailed pupil Irie Kuichi, whom he rebukes for asking release to care for his old mother during a national emergency but tries to understand, the other cutting off contact with disciples who had abandoned the imprisoned brothers Irie Kuichi and Nomura Wasaku, who had acted on his instructions. Curator commentary on primary documents.",
+      "url": "https://www.ndl.go.jp/en/jikihitsu/part2/s1_1"
+    },
+    {
+      "id": "src_yoshida_mjtcs",
+      "kind": "archive",
+      "title": "Letter of Yoshida Shōin to Kitayama Yasuyo, 9 May 1859, translated by Edmund Skrzypczak, in the source collection Meiji Japan Through Contemporary Sources (section 'Collapse of the Bakufu', reproduced as a university course reading; read in full). Primary document written from prison: he gives his own view that the shogunate has no men of talent, asks 'Where is Washington? What kind of a place is London?' and argues that one must see foreign places in person, assesses the American, English and Russian threat and the envoy Harris's arguments, and says he expects little success but has tried what he could since the year before. Used for his own stated reasoning only, never as proof of the facts it describes.",
+      "url": "https://www1.udel.edu/History-old/figal/Hist370/text/er/bakumatsu.pdf"
+    },
+    {
+      "id": "src_yoshida_kyoto",
+      "kind": "archive",
+      "title": "Kyoto University Rare Materials Digital Archive, item record RB00014105 'Portrait of Yoshida Shoin with his inscription' (page and IIIF manifest read, image viewed): record says the portrait by his fellow-disciple, the painter Matsuura Shodo, was drawn in Ansei 6 (1859) while Shōin was being sent to Edo, at his disciples' request, and that Shōin wrote and signed his own inscription five days before he was transferred; the scroll is catalogued as a copy. Item and licence record used for the portrait and for the inscription's date only.",
+      "url": "https://rmda.kulib.kyoto-u.ac.jp/en/item/rb00014105"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yoshida_maeda, src_yoshida_tomoda, src_yoshida_nippon, src_yoshida_stevenson | 1851-1859 | scholarly paper, scholarly paper, press, 19th-century biographical essay] Without waiting for permission he left his domain on a self-organised study trip to the north in December 1851 (and lost his samurai status for it), tried to reach foreign ships at Edo, Nagasaki and finally Shimoda, then from house confinement started teaching and drew up concrete plans of his own (bringing a court noble to Hagi, an ambush of a shogunal councillor, a stop of the lord's procession) and sent disciples off on errands. The acts are documented by four sources; Stevenson's essay rests on one pupil's memory."
+    },
+    "risk_tolerance": {
+      "score": 80,
+      "confidence": 0.66,
+      "evidenceType": "documented",
+      "impact": "dual_edged",
+      "rationale": "[src_yoshida_nippon, src_yoshida_stevenson, src_yoshida_maeda, src_yoshida_tomoda | 1851-1859 | press, 19th-century biographical essay, scholarly paper, scholarly paper] Repeatedly took actions that carried severe penalties: the unauthorised 1851 trip that cost his rank, the 1854 boarding of a foreign warship when leaving Japan was a capital offence, and in 1858-59 plans that disciples themselves called reckless and that led to the imprisonment of several of them. Several independent sources document the three episodes; the cost fell partly on his pupils, hence dual-edged. SELF-CALIBRATION (agent): Only the 1854 boarding is documented by three families; the 1851 trip and the 1858-59 plans rest on two scholarly papers drawing on his own letters and on one biography."
+    },
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yoshida_stevenson, src_yoshida_maeda, src_yoshida_nippon, src_yoshida_ndl_letters | 1853-1859 | 19th-century biographical essay, scholarly paper, press, curated primary letters] After arriving too late for Perry at Edo and for a Russian ship at Nagasaki he tried again at Shimoda; in prison he started a reading circle among fellow inmates and wrote his commentary on Mencius, and after release he taught until re-arrested, and from prison in 1859 he still wrote letters directing plans. The pattern across several setbacks is documented; no single source frames it as perseverance, so it is a strong inference."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yoshida_tomoda, src_yoshida_stevenson, src_yoshida_nippon | 1856-1859 | scholarly paper, 19th-century biographical essay, press] Drew a circle of dozens of students (about half of whom later joined the political movement) and, by writing to young men of every rank as equals, won such followers as Takasugi, Kusaka and Irie; Stevenson says his charm won followers. But Tomoda records that many disciples distanced themselves from his 1858 plans as reckless and that Irie refused to die as he urged, and his early lessons went over students' heads. Evidence is mixed and rests on a few authors."
+    },
+    "conflict_tolerance": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yoshida_maeda, src_yoshida_tomoda, src_yoshida_ndl_letters, src_yoshida_stevenson | 1856-1859 | scholarly paper, scholarly paper, curated primary letters, 19th-century biographical essay] He argued back for about a year and a half against the senior Neo-Confucian scholar Yamagata Taika's critique of his Mencius commentary, ran a two-month heated letter debate with the younger Kusaka in 1856, took Irie's angry written protest in 1859 without breaking, cut off contact with disciples who had abandoned the imprisoned brothers, and, per Stevenson, lectured the Edo court on the illegality of the shogunate. Several independent documents; the court scene rests on Stevenson alone. SELF-CALIBRATION (agent): Each episode (the dispute with Taika, the letter debate with Kusaka, Irie's protest, the court scene) rests on one family, and the court scene on Stevenson's pupil-sourced essay alone, so the pattern is a strong inference."
+    },
+    "belief_updating": {
+      "score": 56,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yoshida_maeda, src_yoshida_tomoda | 1857-1859 | scholarly paper, scholarly paper] After Yamagata Taika's criticism he wrote that his own earlier view of reading was still 'a pedant's talk' and rethought his stance on forming factions; in March 1859 he wrote to Irie admitting his earlier words were mistaken, promising never again to press loyalty at the cost of filial duty. Two independent scholars document revisions on specific points, but on his central plans and convictions he did not yield to critics, so the score is moderate. SELF-CALIBRATION (agent): Both revisions are known from his own letters as quoted by two scholars (his own statement plus a scholar's paraphrase), and on his central plans he did not yield to critics."
+    },
+    "independent_thinking": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_yoshida_maeda, src_yoshida_mjtcs, src_yoshida_stevenson, src_yoshida_nippon | 1851-1859 | scholarly paper, primary letter, 19th-century biographical essay, press] Maeda finds that his 1858 note on reading (doubt arises between book and action; tell it even to grooms) was distinctive against earlier Edo scholars, and that he attacked scholars who dismissed anything off Zhu Xi's commentary; his own letter weighs the shogunate, court, domains and each foreign power by his own reasoning and doubts Harris's claims; Stevenson praises his judgement in seeking Western knowledge. One scholar's reading plus his own letters, so a strong inference. SELF-CALIBRATION (agent): The claim that his ideas were distinctive rests mainly on one scholar's reading plus his own letters."
+    },
+    "curiosity": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_yoshida_maeda, src_yoshida_stevenson, src_yoshida_mjtcs, src_yoshida_nippon | 1848-1859 | scholarly paper, 19th-century biographical essay, primary letter, press] Attended some thirty lectures and reading sessions a month in Edo in 1851, went north to meet Mito scholars, learned Dutch-derived knowledge from interpreters at Nagasaki, wrote in 1859 that without seeing Washington and London one cannot deal with the foreign problem, and told Perry's officers he wanted to see the world (as Perry's report framed it). Several independent sources document the instances; the motive was mixed with defence concerns."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_yoshida_maeda, src_yoshida_tomoda, src_yoshida_mjtcs | 1854-1859 | scholarly paper, scholarly paper, primary letter] Wrote that reading exists to act on the present and should be shared with anyone, set up reading circles in prison, and after 1854 carried on his political activity almost entirely through letters from house arrest or jail; in 1859 he wrote that having had no hope of success he still tried what he could. The orientation toward changing outcomes is documented by two scholars and his own letter; it came at a cost to others, hence dual-edged. SELF-CALIBRATION (agent): The orientation toward effect is read from his own writings by two scholars and his own letter, with no independent third-party account of motive."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "요시다 쇼인"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/yoshida-shoin-matsuura-shodo-1859.jpg",
+    "width": 522,
+    "height": 600,
+    "source": "Kyoto University Rare Materials Digital Archive, item record RB00014105 (Ishin Special Materials Collection, call no. 尊/軸149/貴), hanging scroll 'Portrait of Yoshida Shoin with his inscription', painted by the disciple Matsuura Shodo with Yoshida Shoin's own signed inscription, dated Ansei 6, 5th month, 21st day (1859). The page image (2000 x 3000 px from the archive's IIIF service) was cropped to the seated figure, 522 x 600 px, with no resizing and no upscaling.",
+    "license": "Kyoto University Library 'FREE LICENSE with Attribution': images of the Main Library's holdings may be copied, adapted and redistributed in any medium without application or fee, provided the holding library is credited, changes are disclosed and websites link to the item. The licence text and reuse guide (English and Japanese) neither name nor exclude commercial use. Independent age basis: the painter died in the early 1860s (he took his own life after the failed 1862 plot, per a Yamaguchi tourism page) and the inscription is by Shoin himself (d. 1859), so Japanese copyright in the underlying work has long expired.",
+    "licenseUrl": "https://rmda.kulib.kyoto-u.ac.jp/en/license_icon/free-license",
+    "attribution": "Portrait of Yoshida Shoin by Matsuura Shodo, with Yoshida Shoin's self-inscription, 1859. Photograph courtesy of the Main Library, Kyoto University - Portrait of Yoshida Shoin with his inscription (RB00014105) / Adapted (cropped to the portrait from the full scroll image).",
+    "attributionUrl": "https://rmda.kulib.kyoto-u.ac.jp/en/item/rb00014105",
+    "creator": "Matsuura Shodo (painter); inscription by Yoshida Shoin",
+    "date": "1859",
+    "kind": "likeness",
+    "sourcePageUrl": "https://rmda.kulib.kyoto-u.ac.jp/en/item/rb00014105"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / lead SURVIVED: Kyoto University Rare Materials Digital Archive item RB00014105 (a new route, not a Stage A Commons file). I re-read the item record, the licence page and the reuse guide (EN and JA) and viewed the 2000 x 3000 px image: the scroll's inscription closes with the signature 21-Times Bold Warrior (Shoin's pen name) and a date reading 5th month, 21st day, and the holder's record names Shoin as sitter, Matsuura Shodo as painter, and gives 1859 (Ansei 6). KIND likeness: a portrait drawn from life by a disciple weeks before his execution. Caveat: the record's type field says 'xie', which in Japanese rare-book cataloguing marks a handwritten item and is not stated by the holder to be a later copy; the Stage B file read it as a copy, which I could not confirm. TERMS: no application or fee; credit, change disclosure and link-back required; commercial use is neither named nor excluded, and the conditions are stated without distinction by purpose; independent age basis (creator d. early 1860s, signer d. 1859). Flag for lead: commercial-use silence. Cropped, not upscaled. PREFLIGHT: QID VERIFIED LIVE (2026-11-24, Wikidata API) Q559747 'Yoshida Shōin', 'Japanese politician (1830-1859)', human, b. 1830-09-20, d. 1859-11-21. REGION east_asia. ERA 19th_century. Nationality JP. ATTRIBUTION: attributable (extensive letters, scholarship and disciples' records). BELIEFS UNSCORED: his ideology (imperial-loyalist expulsion doctrine, plans of conquest in his writings) is not scored; only documented conduct (travel, boarding the ship, teaching, plans, correspondence). Nothing here endorses or condemns his doctrine. CANONICAL SIGNIFICANCE SOURCE: Nippon.com article by Mamiya Jun (2015). READ (8 sources besides Wikidata): Nippon.com (full), NDL portrait page, Stevenson's 1880 essay (full, via Wikisource), Maeda 2011 (about 90 percent in Japanese), Tomoda (sections 1-3 and conclusion), NDL autograph-letters page, the translated May 1859 letter, Kyoto item record. Britannica (403), the Cambridge/JAS Timperley article (paywalled, abstract only), the Tasmanian thesis (bot wall) and the Japan Tourism Agency sign text (read, not cited) were not used. CONTRADICTIONS AND LIMITS: sources give different student numbers (more than 50 at Nippon.com, about 80 at NDL, 92 in one scholarly count) so none is printed as fact except attributed; Stevenson's essay has dating slips (executed at 31) and rests on one pupil; the school's teaching years differ across sources. No adversarial biography was read; the critical voice is Tomoda's reading of his treatment of low-ranking disciples. SELF-CALIBRATION: five rows lowered (risk tolerance, tolerance for conflict, belief updating, independent thinking, impact motivation); four of them for source-family concentration. KO NAME: 요시다 쇼인 (Korean Wikipedia title, Wikidata ko label, Korean-language Japan Tourism Agency sign texts)."
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "candido-rondon",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Cândido Rondon",
+    "aliases": [
+      "Cândido Mariano da Silva Rondon",
+      "Candido Rondon",
+      "Marechal Rondon",
+      "Marshal Rondon"
+    ],
+    "wikidataId": "Q961743",
+    "birthYear": 1865,
+    "deathYear": 1958,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "BR"
+    ],
+    "regionCode": "latin_america"
+  },
+  "classification": {
+    "occupationIds": [
+      "explorer",
+      "engineer",
+      "military_leader"
+    ],
+    "fieldIds": [
+      "exploration",
+      "engineering",
+      "military"
+    ],
+    "impactDomains": [
+      "historical",
+      "engineering",
+      "social"
+    ],
+    "tagIds": [
+      "explorer",
+      "field_researcher",
+      "leader"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "institution_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_rondon_wikidata",
+      "kind": "wikidata",
+      "title": "Candido Rondon (Q961743), verified live via the Wikidata API (2026-11-24): English label 'Cândido Rondon', description 'Brazilian explorer and officer (1865-1958)', instance of human, born 1865-05-05, died 1958-01-19, citizenship Brazil, Korean label 칸지두 혼동. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q961743"
+    },
+    {
+      "id": "src_rondon_graham",
+      "kind": "biography",
+      "title": "Laura Graham, 'Rondon, Candido Mariano da Silva (1865-1958)', Encyclopedia of Latin American History and Culture (Gale, on Encyclopedia.com; read in full with its bibliography). CANONICAL SIGNIFICANCE SOURCE: first director of the Indian Protection Service; spokesman among army officers for a humane attitude toward indigenous peoples, influenced by Comte's positivism; the commission he led laid about 1,362 miles of telegraph line, mapped over 20,000 square miles and charted twelve rivers; contacts with the Bororo, Nambikwara and Paresi and the method of peaceful contact later used by the Indian Protection Service and FUNAI; accompanied Roosevelt in 1913-14. Reference-work entry, sympathetic; gives no critical assessment of the service.",
+      "url": "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/rondon-candido-mariano-da-silva-1865-1958"
+    },
+    {
+      "id": "src_rondon_ewb",
+      "kind": "biography",
+      "title": "'Candido Mariano da Silva Rondon', Encyclopedia of World Biography (Gale, on Encyclopedia.com; read in full). Army entry in 1881, substitute professor of mathematics by 1890, then the Telegraphic Commission; outrage at the exploitation of indigenous groups; credited with convincing the government to found the Indian Protection Service, which he headed until 1940; border inspection 1927-30; the 1934 Peru-Colombia commission; promoted marshal in 1955. Notes that a decade after his death the service was wracked by scandals over its mistreatment of those it was meant to protect. General reference biography; this entry's dates for his headship conflict with the critical literature.",
+      "url": "https://www.encyclopedia.com/people/history/brazilian-history-biographies/candido-mariano-da-silva-rondon"
+    },
+    {
+      "id": "src_rondon_sat",
+      "kind": "biography",
+      "title": "Leslie A. Mertz, 'Cândido Mariano da Silva Rondon', Science and Its Times (Gale, on Encyclopedia.com; read in full). Early orphanhood and upbringing by an uncle, primary-school teaching, army entry in 1881, graduation with honours in 1888, involvement in the overthrow of the Emperor (unscored), the telegraph line across Mato Grosso, specimen collecting for the National Museum, the 1914 River of Doubt expedition and its first map, later border and Xingu work. Popular reference article; some details (such as a 1909 discovery of the river) are not repeated here.",
+      "url": "https://encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/candido-mariano-da-silva-rondon"
+    },
+    {
+      "id": "src_rondon_trc",
+      "kind": "institution",
+      "title": "Theodore Roosevelt Center (Dickinson State University), encyclopedia entry 'Cândido Rondon' (read in full): of Bororo, Terena and Portuguese descent, an army engineer laying telegraph lines; the three-month Roosevelt-Rondon Scientific Expedition of February to April 1914, in which he mapped the River of Doubt and his insistence on scientific precision sometimes clashed with Roosevelt's wish to reach the end quickly; the two men respected each other. Short institutional entry, admiring.",
+      "url": "https://www.theodorerooseveltcenter.org/encyclopedia/strenuous-life/candido-rondon"
+    },
+    {
+      "id": "src_rondon_roosevelt",
+      "kind": "biography",
+      "title": "Theodore Roosevelt, 'Through the Brazilian Wilderness' (New York: Scribner, 1914; Internet Archive scan, read in the passages on Rondon, the survey of the River of Doubt, the Nambikwara country and the naming of the river). EYEWITNESS OBSERVER, NOT SELF, BUT ADMIRING AND A DEDICATEE: Roosevelt describes him as of almost pure Indian blood and a Positivist, with 24 years of exploration, some 14,000 miles travelled and 3,000 miles of telegraph; the compass-and-rangefinder survey routine; his praise of ferrymen who fired in the air rather than at attackers; his efforts to persuade Indians to stop blood feuds; the dynamiting of a stream for fish for a starving party, which Roosevelt reports from Rondon's own telling; the formal christening of the Rio Roosevelt. Travel narrative by a famous guest, partly relayed from Rondon.",
+      "url": "https://archive.org/details/throughbrazilian00roos_0"
+    },
+    {
+      "id": "src_rondon_ibge",
+      "kind": "institution",
+      "title": "Virgilio Correia Filho, 'Rondon', in 'Vultos da Geografia do Brasil', Revista Brasileira de Geografia, July-September 1961 (IBGE; read in full, in Portuguese, from a scan with OCR errors). HAGIOGRAPHIC INSTITUTIONAL BIOGRAPHY: his humanitarian formation under Gomes Carneiro, whom he succeeded as a second lieutenant; learning the Bororo language; the Bororo who replaced the soldiers lost to disease in 1901-02, with his report crediting their work; the Nambikwara arrow stopped by his belt and the motto 'kill never, die if need be'; the Letícia border commission of 1934-38 and the glaucoma it left him with; the 104-item publication series; the daily field notebooks. Drawn largely from Rondon's own reports and the commemorative tradition; used only for events that other sources do not contradict.",
+      "url": "https://rbg.ibge.gov.br/index.php/rbg/article/view/2397/1777"
+    },
+    {
+      "id": "src_rondon_nomura",
+      "kind": "institution",
+      "title": "Hitoshi Nomura, 'Centenario da fundacao da Comissao Rondon (1907-2007): personagens, descobertas e producao bibliografica', Cadernos de Historia da Ciencia (Instituto Butantan), vol. 5 no. 1, 2010 (read in full, in Portuguese). Science-history article quoting Rondon's 1907 report on his appointment (he said he was a soldier who had never asked and never refused service), the commission's output as summarised by Amilcar Magalhaes (2,270 km of line, 50,000 linear km surveyed, twelve rivers mapped, 8,837 plants and 5,667 animals collected), and the naturalists he recruited (Hoehne, Miranda Ribeiro, Kuhlmann and others). Admiring and compiled from commission publications; its totals differ from other sources.",
+      "url": "https://periodicos.saude.sp.gov.br/cadernos/article/download/35780/34167/35756"
+    },
+    {
+      "id": "src_rondon_souzalima",
+      "kind": "institution",
+      "title": "Antonio Carlos de Souza Lima, 'Poder tutelar y formacion del Estado en Brasil: notas a partir de la creacion del Servicio de Proteccion a los Indios y Localizacion de Trabajadores Nacionales', Desacatos no. 33, 2010 (read in full, in Spanish). COUNTER-VOICE: a critique of the heroic narrative of the 1910 service; calls Rondon one of the unquestioned myths of republican official history and the subject of apologetic biographies; shows the service's origins in a ministry and a positivist network, with its founding invitation staged in the press; notes that Rondon led the service only briefly although his name stayed attached, and that he also commanded army expeditions against leftist rebels, which admirers rarely mention. Scholarly anthropological critique, not a biography.",
+      "url": "https://www.scielo.org.mx/pdf/desacatos/n33/n33a4.pdf"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rondon_ibge, src_rondon_roosevelt, src_rondon_graham, src_rondon_nomura | 1890-1938 | institutional geography biography, observer's travel book, reference work, science-history article] Four sources describe a field career of more than two decades on telegraph lines and exploration in Mato Grosso and Amazonia (Roosevelt gives 24 years in 1913; Nomura notes service from 1890 with one break in 1899), with malaria, an arrow and a missing toe among the hazards, and IBGE adds a four-year posting on the Letícia border commission that cost him most of his sight. SELF-CALIBRATION (agent): lowered from 74 / 0.58 to 72 / 0.54 because three of the four sources retell one commemorative narrative drawn from his own reports; only Roosevelt is an eyewitness and only for 1913-14."
+    },
+    "discipline": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rondon_ibge, src_rondon_roosevelt, src_rondon_nomura | 1900-1914 | institutional geography biography, observer's travel book, science-history article] IBGE calls him strict in enforcing order over his troops while letting Bororo workers keep their own camp routine; Roosevelt describes a fixed surveying routine and officers in spotless uniform; the commission published 104 reports, though output volume is not counted as evidence. SELF-CALIBRATION (agent): lowered from 66 / 0.50 strong inference to 62 / 0.46 inference because the discipline claim rests on one phrase in a hagiographic biography plus a short observer description."
+    },
+    "detail_orientation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rondon_roosevelt, src_rondon_trc, src_rondon_ibge | 1906-1914 | observer's travel book, institutional encyclopedia, institutional geography biography] On the River of Doubt the party surveyed bend by bend with compass, range finder and sighting pole (Roosevelt), his insistence on scientific precision slowed Roosevelt's wish for speed (Roosevelt Center), and IBGE says he recorded every march in field notebooks sent to the commission office."
+    },
+    "collaboration": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rondon_nomura, src_rondon_ibge, src_rondon_roosevelt, src_rondon_souzalima | 1890-1930s | science-history article, institutional geography biography, observer's travel book, scholarly critique] He accepted and recruited naturalists, geologists and astronomers into the commission (Hoehne was appointed at his acceptance), trained a circle of disciples, and worked with a close network of fellow positivist officers whom Souza Lima describes; the Roosevelt party relied on his Brazilian officers throughout."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_rondon_ibge, src_rondon_nomura, src_rondon_graham, src_rondon_ewb | 1890-1939 | institutional geography biography, science-history article, reference works] He took over the telegraph party as a second lieutenant, was chosen in 1907 to lead the Mato Grosso to Amazonas commission, and later headed the Indian Protection Service and the national indigenous council; the sources mostly narrate this as a heroic career, and Souza Lima shows his time at the head of the service was shorter than the legend says. SELF-CALIBRATION (agent): lowered from 70 / 0.54 to 68 / 0.50 because the sources narrate one heroic career and the critical scholar shows his headship of the service was brief."
+    },
+    "persuasiveness": {
+      "score": 54,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rondon_souzalima, src_rondon_ewb | 1910 | scholarly critique, reference work] Souza Lima records his 1910 lectures in Rio de Janeiro and Sao Paulo that presented indigenous ways of life and argued that persuasion without arms could 'civilise' them, and the Gale entry says he convinced the government to found the service; the credit for the policy is contested, so this is a single weak signal. SELF-CALIBRATION (agent): lowered from 56 / 0.40 to 54 / 0.38 because credit for the policy is contested."
+    },
+    "risk_tolerance": {
+      "score": 58,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rondon_ibge, src_rondon_roosevelt | 1900s-1914 | institutional geography biography, observer's travel book] Reported exposures include a Nambikwara arrow stopped by his belt, malaria and a piranha bite that cost a toe; they come with the work, are retold from his own accounts, and the sources do not describe how he weighed them."
+    },
+    "adaptability": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rondon_ibge, src_rondon_graham, src_rondon_roosevelt | 1890-1938 | institutional geography biography, reference work, observer's travel book] IBGE says he learned to converse with the Bororo in their own language and ran construction alongside their separate camps; the career moved from teaching to telegraph building, boundary inspection and a diplomatic commission. The language claim rests on one hagiographic source. SELF-CALIBRATION (agent): lowered from 64 / 0.50 strong inference to 60 / 0.44 inference because the language-learning evidence is a single hagiographic source."
+    },
+    "impact_motivation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_rondon_graham, src_rondon_ewb, src_rondon_roosevelt, src_rondon_ibge, src_rondon_souzalima | 1900-1950s | reference works, observer's travel book, institutional geography biography, scholarly critique] Reference works say he was outraged at the exploitation of indigenous groups and pressed for a protection service, Roosevelt says he had always zealously served them, and IBGE gives his rule of not killing. Souza Lima shows the 1910 service was a state tutelage project with roots beyond him and the Gale entry notes later scandals, so the effect is dual-edged. SELF-CALIBRATION (agent): lowered from 70 / 0.54 to 66 / 0.50 because the protective motive is told mainly by admiring sources while the critical scholar disputes his role in founding the service."
+    },
+    "curiosity": {
+      "score": 56,
+      "confidence": 0.38,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rondon_ewb, src_rondon_sat | 1890-1914 | reference works] Two reference entries say he studied the flora and fauna of the interior and collected specimens for the National Museum; the naturalists' own work is credited to collaborators in the science-history article, so his own interest in natural history is only weakly evidenced."
+    },
+    "resourcefulness": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_rondon_ibge, src_rondon_roosevelt | 1901-1914 | institutional geography biography, observer's travel book] When disease thinned his conscript soldiers in 1901-02 he enlisted Bororo workers to keep the line going (IBGE, citing his report), and Roosevelt relays his dynamiting a stream to feed a starving party. Both episodes are told from Rondon's own reports or recollection. SELF-CALIBRATION (agent): lowered from 62 / 0.44 to 60 / 0.42 because both episodes originate in Rondon's own reports."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "칸지두 혼동"
+    }
+  },
+  "portrait": {
+    "status": "held",
+    "reason": "HOLD (portrait). No defensible, rights-clear, verified solo likeness was found after one bounded retry. (1) Arquivo Nacional (Brazil) photographs (Commons 'Cândido Mariano da Silva Rondon, General.tif' and the undated Correio da Manhã file): the SIAN item record is bot-walled and was not bypassed, the sitter is evidenced only by title, and the holder's 'Termo de Utilização' (read: gov.br/arquivonacional Termo_de_Utilizao_AN_2023.docx) says reproductions supplied by the Arquivo Nacional may not be passed on to third parties and requires the user to state that the originals belong to the Arquivo Nacional, with no open-licence or public-domain statement for individual items; the Commons 'PD-Arquivo Nacional' tag cannot override this. (2) Roosevelt's 1914 book frontispiece (photograph by George K. Cherrie, 'Colonel Roosevelt and Colonel Rondon at Navaite', 642 x 1000): public domain by age and captioned, but both men wear pith helmets and the faces are about 30 pixels wide, so a crop is not a usable portrait. (3) Library of Congress Roosevelt-Rondon expedition items (for example Photo by Kermit Roosevelt, 1913, 'no known restrictions', LC-DIG-ds-10030 and ds-10018): Rondon appears with Roosevelt and a kill on a riverbank, faces under 50 pixels, identification only by an old caption card. (4) Thomaz Reis 1925 staff group plate (684 x 452, Commons): Rondon is one of eleven men and could only be identified by position. (5) Commons 'Cândido Rondon.jpg' (unknown author, credit a trivia website) and 'Cândido Rondon em Salvador.jpg' (undated, IGHB, no holder record): no verifiable photographer, date or holder terms. No other holder-verified open route was found. Candidate stays portrait_pending; no other person substituted."
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B; termsStatus ambiguous) / lead did NOT survive and no replacement was found, so the portrait is HELD. The Arquivo Nacional lead failed on holder terms (SIAN bot-walled; the holder's Termo de Utilizacao forbids passing reproductions to third parties and no item-level open statement exists) and on sitter evidence (title only); the Cherrie 1914 frontispiece, the Library of Congress expedition photographs and the 1925 Reis group plate are public domain or unrestricted but show Rondon too small or only inside a group. See portrait.reason. QID VERIFIED LIVE (2026-11-24, Wikidata API) Q961743: label 'Cândido Rondon', description 'Brazilian explorer and officer (1865-1958)', human, born 1865-05-05, died 1958-01-19, Brazil, ko label 칸지두 혼동; Britannica gives 5 May 1865 and 19 January 1958 too, IBGE says 20 January 1958 (not used). REGION latin_america (Brazil). ERA 20th_century (born 1865, Kuroda precedent). ZERO POLITICS: primary identity is exploration, telegraph engineering and indigenous protection; his part in the 1889 overthrow of the monarchy, the 1924-25 army campaign against the tenentista rebels, his positivist religion and his later state posts are context only and unscored; the 1934-38 Letícia commission is used only as an example of staying power. NOTE FOR LEAD: occupation military_leader and field military are truthful (he was an army officer throughout and a marshal), but the project's composition rule favours non-military picks; he is included as an explorer and engineer. KO NAME: 칸지두 혼동 is the Korean Wikipedia title and Wikidata ko label (authoritative-label); it is a literal rendering and the final word reads like the unrelated Korean word for confusion, so the lead should confirm it. ATTRIBUTION: attributable (extensive commission publications, dated reports, and eyewitness accounts). CANONICAL SIGNIFICANCE SOURCE: Graham, Encyclopedia of Latin American History and Culture (via Encyclopedia.com). READ (8 sources besides Wikidata): Graham; Encyclopedia of World Biography; Science and Its Times; Theodore Roosevelt Center; Roosevelt 1914 book (passages); IBGE 1961 biography (full, OCR-damaged); Nomura 2010 (full); Souza Lima 2010 (full). Also read but not cited: Britannica, a 2024 paper on the 1924-25 campaign (political, unscored). NOT OPENED: Diacon, Stringing Together a Nation (Project MUSE bot-walled); Kittleson review; Rondon's own reports; the CPDOC entry (404). PERSPECTIVES: (1) reference works (Graham, Gale, Mertz); (2) eyewitness observer (Roosevelt); (3) Brazilian institutional hagiography (IBGE); (4) commission-collaborator science history (Nomura); (5) critical scholarship (Souza Lima). NON-SELF BEHAVIOURAL SOURCES: Roosevelt, IBGE, Nomura, Souza Lima; Rondon's own words appear only through quotations in Nomura, IBGE and Roosevelt. CONTRADICTIONS AND LIMITS: totals for telegraph line differ (1,362 miles in Graham, 2,270 km in Nomura, 3,000 miles in Roosevelt) and no figure is repeated as fact in the cards; the Gale entry says he headed the service until 1940 whereas Souza Lima says he stood at its head only briefly; credit for the 1910 service is contested. SOURCES MOSTLY ADMIRING: the evidence base leans on a single standard narrative, so scores stay at or below 74 and confidence at or below 0.54. MAJOR ACHIEVEMENT GATE: first pass PASS on all five (cards: telegraph and exploration commission, Indian Protection Service and peaceful contact, River of Doubt expedition). HANDBACK70 in TGI-r70-scratch/handback/candido-rondon.json. SELF-CALIBRATION: seven rows lowered (persistence, discipline, leadership drive, persuasiveness, adaptability, impact motivation, resourcefulness); none raised."
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "abraham-ortelius",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Abraham Ortelius",
+    "aliases": [
+      "Abraham Ortels",
+      "Abraham Wortels",
+      "Abrahamus Ortelius"
+    ],
+    "wikidataId": "Q232916",
+    "birthYear": 1527,
+    "deathYear": 1598,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "BE"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "scholar",
+      "editor"
+    ],
+    "fieldIds": [
+      "natural_science"
+    ],
+    "impactDomains": [
+      "scientific",
+      "cultural"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "systematic_thinker"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_ortelius_wikidata",
+      "kind": "wikidata",
+      "title": "Abraham Ortelius (Q232916), verified live via the Wikidata API (2026-11-24): English label 'Abraham Ortelius', description 'Flemish cartographer, geographer and cosmographer (1527-1598)', Korean label 아브라함 오르텔리우스, instance of human, born 1527 and died 1598 (the item carries two candidate day values each for birth and death). Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q232916"
+    },
+    {
+      "id": "src_ortelius_dsb",
+      "kind": "biography",
+      "title": "Olaf Pedersen, 'Ortelius (or Oertel), Abraham', Complete Dictionary of Scientific Biography (Gale, reproduced on Encyclopedia.com; read in full including its bibliography). CANONICAL SIGNIFICANCE SOURCE: born to a Catholic family from Augsburg; admitted as an illuminator of maps to the guild of St Luke at twenty; earned his living buying, colouring and selling maps; travelled to the Frankfurt fair and Italy; in 1559-60 travelled with Mercator, who encouraged him to draw his own maps; the Theatrum orbis terrarum appeared in May 1570 (fifty-three sheets, seventy copperplate maps, most engraved by Frans Hogenberg), a book in which he was 'more an editor of maps than an original mathematical cartographer', reducing maps by others to a uniform size and updating them; the Catalogus cartographorum listing his authorities; continual revision and supplements (an Additamentum from 1573); geographer to Philip II; the 1577 visit to England (Dee, Camden, Hakluyt); later classical and antiquarian works (coin book of 1573, Synonymia geographica 1578, Thesaurus geographicus 1587 and 1596, Nomenclator Ptolemaicus and Parergon 1584, joint work with Welser on the Peutinger map). Reference-work biography; balanced, notes his reliance on legendary material such as Prester John.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/geography-biographies/abraham-ortelius"
+    },
+    {
+      "id": "src_ortelius_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Abraham Ortelius' (read in full): Flemish cartographer and dealer in maps, books and antiquities who published the first modern atlas; trained as an engraver, set up his book and antiquary business about 1554; under Mercator's influence turned to mapmaking about 1560 and compiled a heart-shaped world map (1564), maps of Egypt (1565) and Asia (1567); the first Theatrum had 70 maps derived from 87 authorities in a uniform style, was kept up to date until 1612 and was the most popular atlas of its time; appointed geographer to Philip II of Spain (1575). Short reference article.",
+      "url": "https://www.britannica.com/biography/Abraham-Ortelius"
+    },
+    {
+      "id": "src_ortelius_catholic",
+      "kind": "biography",
+      "title": "Joseph Fischer, 'Abraham Ortelius', The Catholic Encyclopedia vol. 11 (New York: Robert Appleton Company, 1911; read in full on New Advent). Early reference biography, confessional in tone and with dates that differ from the modern standard (birth 4 April 1527, death 28 June 1598): his father's early death and his youthful trade in maps; the great 1564 world map; the Theatrum as the first great modern atlas, in which he chose the most recent and reliable map where several existed, left a named author's map unaltered and changed unsigned ones as he thought necessary, credited the makers of maps he reduced, and replaced antiquated maps in later editions; the appended catalogue of cartographers; his geographical dictionary, the 1575 Itinerarium, the coin book, and his reputation as modest, unmarried and free of scholarly quarrels.",
+      "url": "https://www.newadvent.org/cathen/11328b.htm"
+    },
+    {
+      "id": "src_ortelius_umich",
+      "kind": "institution",
+      "title": "Lynne Raughley, 'Ortelius atlas, part 2: Tracing influence, finding traces', University of Michigan Library (18 March 2026; read in full): describes the Theatrum as a synthesis of the best maps his friends and acquaintances could supply (Mercator, Gastaldi, Gutierrez, Olaus Magnus and others), consolidated into maps of uniform size and aesthetic with engravers commissioned by him, a Catalogus Auctorum crediting contributors, and descriptive text on the back of each map; 31 editions in seven languages between 1570 and 1612 with more than 7,300 copies; also a critical note by the library's map curator that the descriptions carry European assumptions of superiority and that Plantin, a long-time friend, distributed the first edition. Modern library feature; partly interpretive.",
+      "url": "https://www.lib.umich.edu/about-us/news/ortelius-atlas-part-2-tracing-influence-finding-traces"
+    },
+    {
+      "id": "src_ortelius_utrecht",
+      "kind": "institution",
+      "title": "Marco van Egmond, 'The world atlas by Ortelius', Utrecht University Library Special Collections (read in full): places the Theatrum among earlier composite atlases and Ptolemy editions, credits his originality to integrating map and text into one uniform book and to systematic updating and supplements (53 maps in 1570, 119 in 1598, more than thirty editions in all), notes that Hogenberg and others copied or reduced his sources, that the Antwerp merchants had asked for up-to-date maps and that Mercator, who was preparing an atlas and corresponded with him, may have inspired it; describes the 1579 impression, in which the Catalogus names 127 authorities instead of 120 and in which the portrait of Ortelius engraved by Philips Galle appeared for the first time. University special-collections page.",
+      "url": "https://www.uu.nl/en/special-collections/about-special-collections/maps-and-atlases/the-world-atlas-by-ortelius"
+    },
+    {
+      "id": "src_ortelius_cambridge",
+      "kind": "institution",
+      "title": "James Freeman, 'The Album amicorum of Abraham Ortelius', Cambridge University Library Special Collections blog (4 March 2017; read in full): after his father's death when he was twelve his mother sold antiques while he and his sisters coloured maps; admitted to the painters' guild in 1547; dealt in antiques, coins, maps and books and built collections; commerce took him to Frankfurt, Paris, London; the album (Pembroke College MS LC.2.113) collected inscriptions and portraits from correspondents between 1574 and his death in 1598, including Dee and Camden in 1577, with 45 painted cartouches; his archive of letters was dispersed at auction in 1968. Institutional blog, admiring in tone; describes the album as evidence of humanist friendship.",
+      "url": "https://specialcollections-blog.lib.cam.ac.uk/?p=14031"
+    },
+    {
+      "id": "src_ortelius_loc",
+      "kind": "institution",
+      "title": "Library of Congress Geography and Map Division, 'Ortelius: A Legendary Mapmaker', Worlds Revealed blog (read in full): the Theatrum as an atlas of maps of uniform size arranged by continents and regions with descriptions on the reverse of each map and a list of the cartographers whose maps it printed; 31 editions, 25 of them before 1598; examples of the maps and the sources behind them (Jenkinson for Russia, Olaus Magnus and Mercator for the north, Gastaldi for Italy). Short institutional blog by a staff member; descriptive, not analytical.",
+      "url": "https://blogs.loc.gov/maps/2020/04/ortelius-a-legendary-mapmaker/"
+    }
+  ],
+  "rows": {
+    "collaboration": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ortelius_dsb, src_ortelius_cambridge, src_ortelius_umich, src_ortelius_utrecht | 1559-1598 | scientific reference biography, university library blog, university library feature, university special-collections page] Documented joint work: he travelled with Mercator in 1559-60 and was encouraged by him, wrote the 1575 journey report with Vivianus and worked with Welser on the Peutinger map edition (DSB); most atlas maps were engraved by Frans Hogenberg and his sources were listed by name in the Catalogus (DSB, Utrecht); Cambridge describes his album of friends, with contributions from correspondents in many cities between 1574 and 1598, among them Dee and Camden in 1577; Michigan's curator says friends and acquaintances supplied the maps. SELF-CALIBRATION (agent): lowered from 72 / 0.60 to 70 / 0.56 because the album records friendship rather than joint work, the claim that his network made the atlas possible is one curator's interpretation, and the concrete joint projects come mostly from a single reference entry."
+    },
+    "belief_updating": {
+      "score": 60,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ortelius_dsb, src_ortelius_utrecht, src_ortelius_umich, src_ortelius_catholic | 1570-1598 | scientific reference biography, university special-collections page, university library feature, early reference biography] Four sources describe the same pattern: the atlas was revised in successive editions with new maps and supplements (an Additamentum in 1573; 53 maps in 1570 growing to 119 by 1598 in Utrecht's count, other sources give different totals), outdated maps were replaced by newer ones, and the DSB says he continually re-edited old maps, although he still relied on legendary material such as Prester John. SELF-CALIBRATION (agent): lowered from 66 / 0.54 strong inference to 60 / 0.46 inference because the four accounts are one pattern from the publication history (a single source family) and none documents a specific case of him changing a view in response to contrary evidence."
+    },
+    "cross_domain_range": {
+      "score": 64,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_ortelius_dsb, src_ortelius_catholic, src_ortelius_cambridge, src_ortelius_britannica | 1547-1598 | scientific reference biography, early reference biography, university library blog, reference article] He began as a map colourist and became a dealer in maps, books, prints and antiquities (Britannica, Cambridge), built a collection of ancient coins described in a printed catalogue of 1573, wrote on ancient geography (Synonymia, Thesaurus, Nomenclator Ptolemaicus, Parergon), and the DSB lists an edition of Caesar (1593) among his works and his work with Welser on the Peutinger map; the Catholic Encyclopedia calls him cartographer, geographer and archaeologist. The fields are neighbouring parts of one humanist programme (geography as 'the eye of history'), so the score stays moderate. SELF-CALIBRATION (agent): reviewed and kept unchanged."
+    },
+    "curiosity": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ortelius_dsb, src_ortelius_catholic, src_ortelius_cambridge | 1550s-1598 | scientific reference biography, early reference biography, university library blog] He travelled widely to book fairs and across Germany, Italy, France and England, visited Dee, Camden and Hakluyt in 1577, and kept collecting antiquities and coins; Cambridge says the collecting was probably inspired by the cabinets of curiosities he met. Much of the travel was for the map trade and the motive for collecting is the curators' inference. SELF-CALIBRATION (agent): lowered from 62 / 0.48 to 58 / 0.42 because the travel was commercial and the motive is inferred rather than documented."
+    },
+    "systems_abstraction": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ortelius_utrecht, src_ortelius_umich, src_ortelius_loc, src_ortelius_dsb | 1570 | university special-collections page, university library feature, national library blog, scientific reference biography] Three institutions describe one design choice: maps reduced to a uniform format, grouped by continent and region, each paired with descriptive text on the reverse and a list of sources; Utrecht calls the integration of map and text into one unit his originality. SELF-CALIBRATION (agent): lowered from 64 / 0.50 strong inference to 60 / 0.44 inference because these are three descriptions of one product design, not evidence of how he reasoned, and the DSB describes him as an editor of existing maps rather than an original theorist."
+    },
+    "creative_originality": {
+      "score": 56,
+      "confidence": 0.4,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_ortelius_utrecht, src_ortelius_dsb, src_ortelius_umich | 1564-1570 | university special-collections page, scientific reference biography, university library feature] Utrecht credits him with the pioneering idea of composing the best contemporary maps in one uniform book, while the DSB stresses that he was more an editor than an original cartographer, devised no new projections, and acquired the rights to others' maps; Utrecht notes that Italian composite atlases already existed. The sources agree on synthesis of existing material; invention is not documented. SELF-CALIBRATION (agent): lowered from 60 / 0.46 to 56 / 0.40 because the sources disagree about how original the work was."
+    },
+    "detail_orientation": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ortelius_catholic, src_ortelius_dsb, src_ortelius_utrecht | 1570-1601 | early reference biography, scientific reference biography, university special-collections page] The Catholic Encyclopedia says he credited the makers of the maps he reduced, left a named author's map unaltered and altered unsigned ones; the list of authorities grew from 87 names in 1570 to 183 by 1601 (DSB), and Utrecht notes that the 1579 impression lists 127 names instead of 120. Bibliographic care is documented but rests on one record, the catalogue of authorities. SELF-CALIBRATION (agent): lowered from 60 / 0.46 to 58 / 0.42 because a single published list is the basis."
+    },
+    "mastery_orientation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_ortelius_dsb, src_ortelius_catholic | 1573-1596 | scientific reference biography, early reference biography] Later in life he spent much time on classical studies; his Synonymia geographica (1578) was reworked as the Thesaurus geographicus (1587, 1596), and he added the Nomenclator Ptolemaicus and the Parergon of historical maps (1584) and, according to the DSB's list, an edition of Caesar (1593). Repeated reworking of his own reference books is documented, but the DSB and the Catholic Encyclopedia list the same publications. SELF-CALIBRATION (agent): lowered from 62 / 0.48 to 60 / 0.44 because the two accounts are one publication record."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "아브라함 오르텔리우스"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/abraham-ortelius-philips-galle-1579.jpg",
+    "width": 703,
+    "height": 1000,
+    "source": "Engraved portrait of Abraham Ortelius by Philips Galle, published in Antwerp by Christoffel Plantijn in the 1579 edition of the Theatrum orbis terrarum; Rijksmuseum, Amsterdam, object RP-P-2021-4631 (print, engraving with letterpress on the verso, 323 x 215 mm). The Rijksmuseum record says the portrait was made at Plantijn's request as a copy of the portrait Galle made of the cartographer in 1572 and was first published in the 1579 Theatrum; the engraving itself carries a Latin distich naming Ortelius and Galle (followed by the name 'Papius'). The file is the museum's own 4333 x 6162 IIIF download, cropped to remove the mount edge and the museum's number and handwritten label strips, and downscaled to 703 x 1000 with no upscaling.",
+    "license": "Public Domain Mark 1.0 at the holder: the Rijksmuseum record states 'Public domain' for the item and its Information and Data Policy (read) provides such images under the Public Domain Mark or CC0 with attribution as good practice only; age basis: engraved and published in Antwerp in 1579, Philips Galle died in 1612",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Philips Galle, Portret van Abraham Ortelius, 1579, engraving, published by Christoffel Plantijn, Antwerp; Rijksmuseum, Amsterdam, RP-P-2021-4631 (public domain). A lifetime portrait engraving made in the sitter's lifetime by his publisher's printmaker.",
+    "attributionUrl": "https://www.rijksmuseum.nl/en/collection/object/Portret+van+Abraham+Ortelius--9227af774d02d1e6bfc9bd3010e16420",
+    "creator": "Philips Galle (printmaker), commissioned and published by Christoffel Plantijn",
+    "date": "1579 (a copy of Galle's 1572 portrait of Ortelius, per the Rijksmuseum)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/en/collection/object/Portret+van+Abraham+Ortelius--9227af774d02d1e6bfc9bd3010e16420"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG / lead SURVIVED. The Stage B lead (Rijksmuseum RP-P-2021-4631, Philips Galle engraving of 1579) was re-verified at the holder: the item record gives title 'Portret van Abraham Ortelius', printmaker Galle, commissioner and publisher Plantijn, dated 1579, 323 x 215 mm, Copyright 'Public domain' (Public Domain Mark; the linked-art record also lists CC0 as a possible licence), inscriptions only a collector's mark Lugt 2233. The Information and Data Policy was read (Public Domain Mark or CC0, attribution good practice, no user-group restrictions). Sitter verified: the engraving carries the lettered distich 'Spectandum dedit Ortelius mortalib. orbem, Orbi spectandum Galleus Ortelium' (read on the 4333 x 6162 download), and the Utrecht University Library page independently says the 1579 impression of the Theatrum carried, for the first time, a portrait of Ortelius engraved by Philip Galle. Rijksmuseum's explanatory note (Dutch) says it is a copy of the portrait Galle made of Ortelius in 1572, made at Plantijn's request; so a lifetime likeness, kind likeness. Caveats: the record describes the sheet as a print 'from an unknown publication' (a leaf, not a bound book) and the Commons copy of a 1584 impression from a dealer was not used. Wikipedia was not used for the sitter or the after-Key attribution (not verified). ageOnlyPath: earliest publication Antwerp 1579; creator death 1612; item rights statement public domain; holder policy checked. IDENTITY: QID Q232916 verified live 2026-11-24 (label Abraham Ortelius; description 'Flemish cartographer, geographer and cosmographer (1527-1598)'; instance of human; born 1527, died 1598; two day values each for birth and death, sources differ: Britannica 14 April / 4 July, Catholic Encyclopedia 4 April / 28 June). Korean name 아브라함 오르텔리우스 is the Wikidata Korean label (class authoritative-label). REGION western_europe (Mercator precedent), nationality BE (Antwerp), ERA early_modern. ATTRIBUTION: attributable (large published output, many independent institutional descriptions of the Theatrum). CANONICAL SIGNIFICANCE SOURCE: Olaf Pedersen's Complete Dictionary of Scientific Biography entry. READ in full (7 sources besides Wikidata): DSB entry; Britannica; Catholic Encyclopedia (Fischer 1911); University of Michigan Library feature (2026); Utrecht University Library page; Cambridge University Library blog on the album amicorum; Library of Congress map-division blog. Not opened: Ortelius's own letters and the Puraye album facsimile, Koeman/Meurer/Karrow scholarship, Rijksmuseum verso text; the National Library of Scotland and Library of Congress collection pages were bot-walled and are not cited. PERSPECTIVES: (1) scholarly reference biography (DSB) that calls him more an editor than an original cartographer; (2) early confessional encyclopedia entry; (3) three modern library curators (Michigan, Utrecht, Cambridge) emphasising synthesis, friendship network and market; (4) a national-library staff blog. NON-SELF BEHAVIOURAL SOURCES: all; his own letters and prefaces were not read. CONTRADICTIONS AND LIMITS: map and sheet counts differ across sources (53 maps vs 53 sheets with 70 maps; 119, 161, 166 or 167 maps in later editions); birth and death days differ; Britannica dates the royal geographer title 1575; DSB says the title followed the dedication and that Arias Montanus vouched for his orthodoxy; Michigan's curator stresses Eurocentric assumptions in his descriptions; no adversarial biography was found. ZERO POLITICS and no religion scoring: his Catholic orthodoxy, suspected earlier, and the Spanish royal title are context only. ACHIEVEMENT GATE: first pass PASS (cards: Theatrum as the first modern atlas, its continuous expansion and the Catalogus of authorities, ancient-geography and antiquarian works). SELF-CALIBRATION: eight rows scored from 8 initial; seven lowered, one kept (cross-domain range); none raised; no row removed. Concentration: the Theatrum edition history is one source family behind belief-updating, systems and originality rows. No row exceeds 70 or 0.56."
+  }
+}

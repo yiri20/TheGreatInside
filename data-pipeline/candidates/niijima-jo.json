@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "niijima-jo",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Niijima Jō",
+    "aliases": [
+      "Niijima Jo",
+      "Jo Niijima",
+      "Joseph Hardy Neesima",
+      "Joseph Neesima",
+      "Niijima Shimeta",
+      "新島襄"
+    ],
+    "wikidataId": "Q905142",
+    "birthYear": 1843,
+    "deathYear": 1890,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "religious_leader",
+      "teacher"
+    ],
+    "fieldIds": [
+      "education",
+      "religion"
+    ],
+    "impactDomains": [
+      "educational",
+      "social",
+      "historical"
+    ],
+    "tagIds": [
+      "founder",
+      "advocate"
+    ],
+    "archetypeIds": [
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_niijima_wikidata",
+      "kind": "wikidata",
+      "title": "Niijima Jo (Q905142), verified live via the Wikidata API (2026-11-24): English label 'Joseph Hardy Neesima', English description 'Japanese missionary (1843-1890)', instance of human, born 1843-02-12, died 1890-01-23, citizen of Japan, Japanese label 新島襄, Korean label 니지마 조. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q905142"
+    },
+    {
+      "id": "src_niijima_ndl",
+      "kind": "institution",
+      "title": "National Diet Library, Japan, 'NIIJIMA Jo', Portraits of Modern Japanese Historical Figures (English and Japanese pages read, short biography by library staff). CANONICAL SIGNIFICANCE SOURCE: educator and practitioner of religion, son of an Annaka domain samurai; entered the shogunate's warship training institute in 1860; went as a stowaway from Hakodate to the United States in 1864 and studied science and theology; baptised in Boston in 1866; went round the Western countries with the Iwakura Mission in 1872 to study education systems; returned in 1874 to spread Christianity; founded the Doshisha English School in Kyoto in November 1875 and a girls' school in 1877; advocated liberal education based on Christianity. Short reference biography, neutral in tone.",
+      "url": "https://www.ndl.go.jp/portrait/e/datas/157"
+    },
+    {
+      "id": "src_niijima_doshisha_chrono",
+      "kind": "institution",
+      "title": "Doshisha University, 'Chronology: from the birth of Niijima Jo to the present' (page read in full in Japanese for 1843-1890). Institutional chronology of the school he founded, so admiring: flight from Hakodate in July 1864, Boston in 1865, baptism 1866, Amherst graduation 1870, work with the Iwakura mission's education commissioner Tanaka Fujimaro from 1872, the American Board speech of October 1874 that won a promise of 5,000 dollars, the opening of the Doshisha English School on 29 November 1875 with the approval of Kyoto governor Makimura Masanao and adviser Yamamoto Kakuma, the 1880 'self-reproach with a cane' incident, the 1884 prospectus for a university, the second trip abroad of 1884-85, the November 1888 national appeal for a Doshisha University, and his collapse while fundraising in Maebashi and death at Oiso on 23 January 1890.",
+      "url": "https://www.doshisha.ac.jp/information/chronology/index.html"
+    },
+    {
+      "id": "src_niijima_doshisha_intl",
+      "kind": "institution",
+      "title": "Doshisha University, 'History' page for prospective international students (English, read in full). Institutional account of the founder: born in Edo in 1843 as the first son of an Annaka domain retainer, stowed away to the United States in 1864 in violation of the national ban, supported in Boston by the shipowner Alpheus Hardy and his wife who also witnessed his baptism, graduated from Amherst College with a Bachelor of Science in 1870 and, per the school, became the first Japanese national to earn a degree from a Western institution of higher education, opened Doshisha in 1875 and published the purpose of a Doshisha University in 1888. School-authored promotional history, so its 'first' claim is the school's own.",
+      "url": "https://one-purpose.doshisha.ac.jp/en/history/index.html"
+    },
+    {
+      "id": "src_niijima_ikkan",
+      "kind": "institution",
+      "title": "Doshisha Integrated Education Committee (Wild Rover Project), 'Niijima Jo no shogai' (The Life of Niijima Jo), school booklet, version 1.0, 61 pages (text layer of the PDF read in full, in Japanese). Narrative of his youth, flight from Hakodate disguised as a townsman, years at Phillips Academy, Amherst and Andover, the Iwakura-mission education survey with Tanaka Fujimaro, the October 1874 speech at Rutland, Vermont, the refusal of the Osaka governor and the approval of the Kyoto governor, the Buddhist and Shinto opposition and the written promise not to teach the Bible in the school, the Kumamoto Band, the 1880 cane incident, the Miyagi school of 1886, the Doshisha hospital and nursing school of 1887, the 1884-85 trip and the 1888 university appeal, and his death. School-authored and admiring; it repeats the same founding sources as the chronology.",
+      "url": "http://www.doshisha-ikkan.info/wp/wp-content/uploads/2024/05/book.pdf"
+    },
+    {
+      "id": "src_niijima_davis",
+      "kind": "biography",
+      "title": "J. D. Davis, 'A Maker of New Japan: Rev. Joseph Hardy Neesima, LL.D., President of Doshisha University, Kyoto' (New York: Fleming H. Revell, 1894 edition with a 1904 preface; Internet Archive scan, read in the chapters on the Kyoto foundation, the marriage and early trials, the second tour and the university campaign, and the last years). COLLEAGUE'S MEMOIR, EYEWITNESS BUT HAGIOGRAPHIC: written by the American missionary who was his first fellow teacher and worked closely with him for about fourteen years, drawing on his diary, his letters and his journal; gives the refusal of the Osaka governor, the approval via Yamamoto Kakuma and the education commissioner, the priests' petition to Tokyo, the promise not to teach the Bible as such, the 1888 appeal and the July 1888 evening when 31,000 yen was pledged, and his opposition to the church-union plan in 1888-89 even though friends warned it would harm the university.",
+      "url": "https://archive.org/details/makerofnewjapanr00davi"
+    },
+    {
+      "id": "src_niijima_hardy",
+      "kind": "biography",
+      "title": "Arthur Sherburne Hardy, 'Life and Letters of Joseph Hardy Neesima' (Boston and New York: Houghton, Mifflin, 1891; Internet Archive scan, read in the passages on his refusal of Japanese government support in 1871-72 and his meeting with the education commissioner Tanaka Fujimaro). Compiled by the son of his American patron largely from Neesima's own letters, so the behavioural content is self-report, as when he writes that he would rather remain a free Japanese citizen than be bound to the Japanese government by repaying his educational costs, and describes standing erect while other students bowed to the commissioner and offering to interpret only by agreement.",
+      "url": "https://archive.org/details/lifelettersofjos00hardiala"
+    },
+    {
+      "id": "src_niijima_motoi",
+      "kind": "press",
+      "title": "Motoi Yasuhiro (former professor, Doshisha University), 'Doshisha University Founder Niijima Jo: Pastor and Missionary', Kyodan News, United Church of Christ in Japan, 25 March 2014 (English and Japanese text read in full). Independent, nuanced essay: he was a missionary sent by the American Board and supported by the mission (in practice by the Hardy family) rather than paid a salary by Doshisha, his American Board colleagues complained that he put too much into education at the expense of evangelism, and he held a motto of freedom of education and a self-governing church, 'both parallel'. Written by a Doshisha scholar, so not fully outside the school world, but it corrects the school's own picture.",
+      "url": "https://uccj.org/knl/18782.html"
+    },
+    {
+      "id": "src_niijima_kanda",
+      "kind": "institution",
+      "title": "Kanda Tomomi, 'Nihon Kirisuto Itchi Kyokai / Nihon Kumiai Kyokai godo undo e no ichi-kosatsu: Niijima Jo no kyoha-shugi o chushin ni' (A study of the 1886-1890 Presbyterian-Congregational church union movement, centred on Niijima Jo's denominationalism), Kirisutokyo Shigaku (Journal of the Society for the History of Christianity in Japan) vol. 76, 2022, pp. 78-97 (open-access PDF read in full, in Japanese). SCHOLARLY RE-EXAMINATION: tests the common charge that his narrow sectarianism wrecked the union against letters of Ibuka Kajinosuke, Kozaki Hiromichi, Tamura Naomi and Ebina Danjo, Davis's biography, his own letters and newly published letters from the American theologian A. H. Ross; reports that he did not oppose union at the outset, objected to a draft constitution he judged essentially Presbyterian and to a rushed union led by a few pastors, studied Congregational church government and asked Ross for texts, and in the end acted as a mediator; also records contemporaries who blamed him, so it carries both sides.",
+      "url": "https://www.jstage.jst.go.jp/article/shsc/76/0/76_78/_article/-char/ja"
+    }
+  ],
+  "rows": {
+    "risk_tolerance": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "documented",
+      "impact": "advantage",
+      "rationale": "[src_niijima_doshisha_chrono, src_niijima_ikkan, src_niijima_davis | 1864-1889 | institutional chronology, school booklet, colleague's memoir] In July 1864 he left Japan from Hakodate against the national ban on overseas travel, disguised as a townsman and hidden in a ship's storeroom (school booklet), with the flight itself also recorded in the chronology and the colleague's memoir; the colleague's memoir adds that in 1888-89 he held to his opposition to the church-union plan although friends warned it would ruin his hopes for a university. The 1864 flight is a clear documented risk; the later episode is reported by one colleague. SELF-CALIBRATION (agent): The decisive documented risk is one episode (the 1864 flight), told from his own account via the school and a loyal colleague; the later union-dispute risk rests on one colleague's report."
+    },
+    "proactive_agency": {
+      "score": 74,
+      "confidence": 0.62,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_doshisha_chrono, src_niijima_ikkan, src_niijima_davis, src_niijima_hardy | 1864-1888 | institutional chronology, school booklet, colleague's memoir, patron's son's letters volume] He planned and carried out his own departure from Japan; sought out the education commissioner in 1872 and offered terms for his help; at the October 1874 American Board meeting in Rutland, Vermont, asked for money for a Christian college (a 5,000-dollar pledge, per the chronology and booklet); on return went himself to the governors of Osaka and Kyoto and to Tokyo for permission; and from 1884 circulated the prospectus and appeal for a university. The sequence is documented across four sources, though two come from the school itself and one from a loyal colleague. SELF-CALIBRATION (agent): Three of the four supporting sources are the school's own accounts or a hagiographic colleague, and the Rutland speech is retold from witnesses decades later."
+    },
+    "persistence": {
+      "score": 74,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_davis, src_niijima_ikkan, src_niijima_motoi, src_niijima_doshisha_chrono | 1874-1890 | colleague's memoir, school booklet, independent essay, institutional chronology] After the Osaka governor refused a missionary-taught school he tried Kyoto, kept the school open under the Buddhist priests' petition and the promise not to teach the Bible as such, worked for fourteen years on the university plan (prospectus 1884, appeal 1888) through heart disease and weakness, and collapsed while speaking at Maebashi in November 1889; the independent essay adds that he took no salary from Doshisha. The sources agree on the long effort; the detail on his health comes mostly from the colleague and his own letters."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_doshisha_chrono, src_niijima_ikkan, src_niijima_davis | 1874-1888 | institutional chronology, school booklet, colleague's memoir] His speech to about a thousand people at the American Board meeting in October 1874 brought roughly 5,000 dollars in pledges (chronology, booklet, memoir), and at a dinner in Tokyo in July 1888 given by Inoue Kaoru he spoke on the university and 31,000 yen was pledged (memoir, quoting his own last letter). The pledges are documented, but both come from supporters of the school and a fundraising result is only a rough measure of persuasion. SELF-CALIBRATION (agent): Pledge totals are an outcome measure given by supporters of the school (outcome bias), and the 1888 figure comes from his own last letter quoted by one colleague."
+    },
+    "independent_thinking": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_hardy, src_niijima_kanda, src_niijima_davis, src_niijima_ikkan | 1871-1889 | patron's son's letters volume, scholarly article, colleague's memoir, school booklet] In 1871-72 he refused to be treated as a government-funded student and would act as the education commissioner's interpreter only by agreement (his own letters in the Hardy volume); in 1887-89 he opposed the church-union draft against the wishes of his own former students and several pastors, as Kanda's article and the colleague's memoir record, and studied Congregational church government to ground his position; the booklet adds that he said his knees were too stiff to kneel to the Pope. Mostly his own words and loyal accounts, but the union dispute is independently documented. SELF-CALIBRATION (agent): The 1871-72 refusal is self-report in a patron's-family volume, and the stiff-knees remark is a school-retold anecdote."
+    },
+    "conflict_tolerance": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_niijima_kanda, src_niijima_davis, src_niijima_motoi | 1875-1890 | scholarly article, colleague's memoir, independent essay] In the church-union dispute he stayed opposed for months although former pupils such as Kozaki Hiromichi and the Presbyterian Ibuka Kajinosuke pressed the other way and, per the memoir, friends said he would ruin his hopes for a university; American Board colleagues also complained about how much he put into education. Against this, Kanda reports he finally acted as a mediator, and in 1875 he accepted a written promise not to teach the Bible in the school rather than fight the governor."
+    },
+    "collaboration": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_doshisha_chrono, src_niijima_ikkan, src_niijima_davis, src_niijima_kanda | 1875-1889 | institutional chronology, school booklet, colleague's memoir, scholarly article] He founded the school as a two-man company with the blind Aizu samurai Yamamoto Kakuma, who sold the land and backed the plan, and opened it with the American missionary J. D. Davis as the other teacher; in 1887 he set up the hospital and nursing school with the American Board physician J. C. Berry (school booklet), and took in about forty students of the closed Kumamoto school. Kanda describes his aim in the union dispute as fellowship rather than absorption. Collaboration is documented, but little shows how disagreement within the team was handled."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_motoi, src_niijima_ikkan, src_niijima_doshisha_chrono, src_niijima_davis | 1872-1890 | independent essay, school booklet, institutional chronology, colleague's memoir] The independent essay says he drew no salary from Doshisha in more than ten years but lived on the mission's support; the booklet records the Miyagi school of 1886, the hospital and nursing school of 1887 and his name among the founders of the Kyoaisha in Gunma; the chronology and booklet show him travelling to raise funds until he collapsed; the memoir quotes a letter in which he says he would do more good educating many young people than taking a government post. Behaviour is documented from several sides; his stated motive comes from his own letter. SELF-CALIBRATION (agent): His stated motive rests on a letter quoted by one colleague, and the strongest behavioural point (no salary) comes from a single essay."
+    },
+    "leadership_drive": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_doshisha_chrono, src_niijima_ikkan, src_niijima_motoi | 1875-1890 | institutional chronology, school booklet, independent essay] He became the first head of the school in 1875 and ran it until his death, founded and headed the Miyagi English School in 1886 and the nursing school in 1887, and is described as shaping Doshisha as a Christian educational enterprise in spite of his American Board colleagues' wish for more direct evangelism. The roles are documented; two of the three sources are the school's own."
+    },
+    "resourcefulness": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_davis, src_niijima_ikkan, src_niijima_doshisha_chrono | 1874-1876 | colleague's memoir, school booklet, institutional chronology] Turned down in Osaka, he found a way into Kyoto through Yamamoto Kakuma and the governor, travelled to Tokyo to win the education commissioner's consent, bought the former Satsuma mansion site from Yamamoto, taught the Bible in his home and later in a bought bean-curd shop to keep to his written promise, and started the school on money pledged in America. The workaround is documented by three sources, but they share the founders' own telling."
+    },
+    "planning_orientation": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_doshisha_chrono, src_niijima_davis, src_niijima_ikkan | 1883-1888 | institutional chronology, colleague's memoir, school booklet] He drafted a university prospectus in 1884, circulated it quietly for two to three years, organised a meeting of about 650 Kyoto notables in a temple, secured the July 1888 pledges and then issued a published appeal in twenty papers in November 1888. This step-by-step campaign is documented, but only through the school and a close colleague."
+    },
+    "autonomy_need": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_niijima_hardy, src_niijima_motoi, src_niijima_kanda | 1871-1889 | patron's son's letters volume, independent essay, scholarly article] He refused to be bound to the Japanese government by repaying his educational costs (own letter), is quoted as holding to freedom of education and a self-governing church, and in the union dispute defended the right of each congregation to govern itself, as the Oberlin declaration of 1871 describes. The first is self-report; the second and third are independent descriptions of a consistent stance. SELF-CALIBRATION (agent): One of three sources is his own letter and the stance is also described through the school's motto, so independence of the evidence is limited."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "니지마 조"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/niijima-jo-unknown-before-1890.jpg",
+    "width": 773,
+    "height": 1000,
+    "source": "Studio portrait photograph of Niijima Jo as a young man, photographer not named, printed as a mounted plate with the embossed caption 新島襄先生 ('Niijima Jo, teacher') on the facing page, in the picture book Kinsei Meishi Shashin (Modern Famous Persons, Photographs), vol. 2 (Osaka: Kinsei Meishi Shashin Hanpukai, 1935; plate on page 51, caption on page 52), digitised in the National Diet Library Digital Collections (item 3514947, publication range 'internet', rights code 'pdm' public-domain mark) and shown on the library's site 'Portraits of Modern Japanese Historical Figures' as file 0157_1.jpg (1024 x 1324 pixels). The shipped file is that image downscaled to 773 x 1000, no cropping beyond the file itself and no upscaling. The library's own record gives no date or photographer; the portrait shows him as a young adult and so was taken before his death in January 1890.",
+    "license": "Public domain: the National Diet Library states that all images in its 'Portraits of Modern Japanese Historical Figures' exhibition are in the public domain and may be reused, including commercially, with source citation; the digital-collection item record carries the public-domain mark (rights code pdm). Independent age basis: photograph of unknown authorship taken before 1890 and published in Japan by 1935, so protection under Japanese law (published before 1958) has expired and was not restored in the United States.",
+    "licenseUrl": "https://www.ndl.go.jp/portrait/e/about/index.html",
+    "attribution": "Photographer unknown; plate in Kinsei Meishi Shashin vol. 2 (1935); source: National Diet Library, Japan, 'Portraits of Modern Japanese Historical Figures' (https://www.ndl.go.jp/portrait/). Downscaled for display.",
+    "attributionUrl": "https://www.ndl.go.jp/portrait/e/datas/157",
+    "creator": "Unknown photographer; reproduced in Kinsei Meishi Shashin vol. 2",
+    "date": "before 1890 (undated studio photograph; published in the 1935 plate book)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://dl.ndl.go.jp/pid/3514947"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: Stage B grade STRONG; the lead (NDL Portraits record 157, Commons 'Niijima Jo.jpg' 1024x1324) SURVIVED unchanged and was verified at the holder: NDL Portraits page (English and Japanese) read, image file 0157_1.jpg downloaded from the NDL site (1024x1324 matches Commons); the portrait page's data file gives the source as digital-collection item 3514947 page 51; the NDL item API says publication 'internet', rights 'pdm', title Kinsei Meishi Shashin vol. 2 (Kinsei Meishi Shashin Hanpukai, Osaka, 1935); the plate image at page 51 was viewed and the facing page 52 carries the embossed caption 新島襄先生, which settles the sitter. NDL 'About this site' terms read: all images in the exhibition are in the public domain, reuse including commercial allowed without application, cite source; NDL site Terms of Use (Public Data License 1.0 default) read; the page footer's 'all rights reserved' is site-wide for the library's own content. No photographer or photo date is given anywhere at the holder (NDL notes some exhibit portraits are photographs of paintings; this one looks like a photograph but that is not stated). Kind likeness (lifetime image). The Commons 'Jo Niijima.jpg' (266x384, 1933-34) fallback and the Kubota Beisen deathbed painting were not needed. IDENTITY: QID verified live (2026-11-24) as Q905142, a human, born 1843-02-12, died 1890-01-23, Korean label 니지마 조 (also the Korean Wikipedia title). Canonical name follows the lead's frozen list ('Niijima Jō'); ASCII form and 'Joseph Hardy Neesima' in aliases. REGION east_asia, ERA 19th_century (1843-1890). Fields education and religion are the nearest truthful ids (no missionary field). ATTRIBUTION: attributable (dated founding events, institutional chronology, colleague's eyewitness biography, letters, plus an independent scholarly article on the church-union dispute). READ: NDL biography, Doshisha chronology, Doshisha international-students history page, Doshisha school booklet (text layer, full), Davis memoir (principal chapters), Hardy volume (Iwakura-mission passages), Motoi essay, Kanda 2022 article (full). NOT OPENED: Amherst College archives and 'Firsts' pages (403/405 bot wall, not bypassed), the Doshisha-published Collected Works, Majstorac-Kobiljski dissertation (not retrievable), the J-STAGE PDF of Doi Akio 1993. COUNTER-VOICES: Kozaki, Ibuka and Tamura on his role in the union failure (via Kanda), American Board colleagues' complaints (Motoi). CAVEATS: sources on his behaviour are largely Doshisha's own and a loyal colleague's; the claim that he was the first Japanese to graduate from a Western college rests on Doshisha's statement and is worded as such in editorial. Nine-source profile (including Wikidata), 12 rows, sparse by design: no creative-originality, no analytical or aesthetic rows."
+  }
+}

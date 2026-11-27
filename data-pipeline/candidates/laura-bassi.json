@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "laura-bassi",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Laura Bassi",
+    "aliases": [
+      "Laura Maria Caterina Bassi",
+      "Laura Bassi Veratti",
+      "Laura Maria Catharina Bassia"
+    ],
+    "wikidataId": "Q541652",
+    "birthYear": 1711,
+    "deathYear": 1778,
+    "isLiving": false,
+    "era": "early_modern",
+    "nationalityCodes": [
+      "IT"
+    ],
+    "regionCode": "southern_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "physicist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "physics",
+      "education"
+    ],
+    "impactDomains": [
+      "scientific",
+      "educational"
+    ],
+    "tagIds": [
+      "mentor",
+      "communicator"
+    ],
+    "archetypeIds": [
+      "scholarly_specialist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_bassi_wikidata",
+      "kind": "wikidata",
+      "title": "Laura Bassi (Q541652), verified live via the Wikidata API (2026-11-24): English label 'Laura Bassi', description 'Italian physicist (1711-1778)', Korean label 라우라 바시, instance of human, born 1711 (three October-November dates are recorded), died 20 February 1778. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q541652"
+    },
+    {
+      "id": "src_bassi_findlen_encyclopedia",
+      "kind": "biography",
+      "title": "Paula Findlen, 'Bassi, Laura (1711-1778)', Europe 1450 to 1789: Encyclopedia of the Early Modern World (Gale, on Encyclopedia.com; read in full with its bibliography). CANONICAL SIGNIFICANCE SOURCE: calls her the first woman to pursue a paid scientific career; after a public defence of forty-nine theses on 17 April 1732 she received her degree on 12 May (the second woman whose graduation is documented), became professor of philosophy at Bologna on 29 October 1732 and taught philosophy, mathematics and physics there until her death; by 1776 she also held a chair in experimental physics at the Academy of the Institute for Sciences; with her husband Giuseppe Veratti she gave private physics lessons and ran experiments at home; praised by Algarotti, Nollet and Voltaire, and her cousin Spallanzani said he would never have become an experimenter without her. Short reference entry by a leading Bassi scholar; admiring.",
+      "url": "https://www.encyclopedia.com/people/science-and-technology/physics-biographies/laura-bassi"
+    },
+    {
+      "id": "src_bassi_findlen_physicsworld",
+      "kind": "press",
+      "title": "Paula Findlen, 'Laura Bassi and the city of learning', Physics World (29 August 2013; feature read in full). Same scholar as the encyclopedia entry, so the two are one family. Recounts that her 1732 professorship carried an injunction to lecture only occasionally 'by reason of sex'; that she politely but firmly asked for the restriction to be lifted, then asked for a licence to read prohibited books, studied calculus with Gabriele Manfredi and apprenticed herself to Jacopo Bartolomeo Beccari; her 1738 marriage and her answer to critics; her 1745 letter to Rome asking to be the twenty-fifth Benedictine, granted without the others' privileges; her domestic school from 1749; the Senate's pay rise in return for continuing it; the 1776 chair; that only four of her papers were printed although a list of 32 annual papers survives; and Spallanzani's and Veratti's recollections. Findlen calls her contributions incremental and notes her colleagues' grumbling that she always asked for more than was her due.",
+      "url": "https://physicsworld.com/a/laura-bassi-and-the-city-of-learning/"
+    },
+    {
+      "id": "src_bassi_mactutor",
+      "kind": "institution",
+      "title": "MacTutor History of Mathematics, University of St Andrews, 'Laura Bassi (1711-1778)' (biography read in full, with quotations from Frize, Cavazza, Logan, Elena and Findlen and from Bassi's own 1755 letter). Gives her education under Tacconi and Stegani, her disputes with Tacconi over topics, the 1732 events, the 1738 marriage and the objection of some citizens, her 1739 request for more teaching that brought only funds for equipment, the 1745 Benedettini compromise, the 1749 domestic lessons which she paid for herself, a count of 28 surviving papers (13 physics, 11 hydraulics) and the 1757 printed mechanics and hydraulics papers with Logan's account of her method, the home laboratory with Veratti, the 1776 chair granted only after lengthy debate, and her death. Says her papers 'contain little that is original'. Scholarly biography page compiled from secondary literature, partly overlapping Findlen.",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bassi/"
+    },
+    {
+      "id": "src_bassi_unibo",
+      "kind": "institution",
+      "title": "University of Bologna, 'Laura Bassi', Our history: famous people and students (institutional page read in full). Gives her 1732 sequence (academy membership in March, degree in April, a teaching qualification in June, an honorary natural-philosophy post in October and first lecture in December), says the university used her for self-promotion while excluding her from public teaching and paying an annual award of 500 lire instead of a salary, her marriage to Veratti after gossip, her place among the Benedettini only as an extra, the home laboratory from 1749 frequented by Spallanzani, Volta, Nollet and others, the repeated increases of her award, and the 1776 chair. University institutional history that is critical of its own institution.",
+      "url": "https://www.unibo.it/en/university/who-we-are/our-history/famous-people-and-students/laura-bassi"
+    },
+    {
+      "id": "src_bassi_shethoughtit",
+      "kind": "press",
+      "title": "Irina G. Goryacheva, 'Laura Bassi', She Thought It (online biography series on women thinkers; read in full). Short account with quotations from Findlen's 1993 Isis article: the 1732 theses and academy membership, the Benedettini compromise, that she lectured for forty years in experimental and theoretical physics, researched air and hydrostatic pressure, hydrodynamics, magnetism and electricity, that none of her works brought significant advances, a 1776 Senate record noting that she had asked for the chair for over three years, and Findlen's judgement that Bassi was best at inserting herself within the academic world of science. Derivative of Findlen, so not independent of her.",
+      "url": "https://shethoughtit.ilcml.com/biography/laura-bassi/"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor, src_bassi_unibo, src_bassi_shethoughtit | 1732-1776 | feature article, biography page, university history, online biography] Over four decades she kept asking for what the 1732 appointment withheld: she asked for the teaching restriction to be lifted, in 1739 for more duties (which brought only funds for experiments), in 1745 for a place among the Benedettini, and in the 1770s for the chair, which a 1776 Senate record says she had requested for over three years; the Senate raised her pay several times and finally appointed her. Four sources describe the sequence, but most trace to Findlen's scholarship. CONCENTRATION (agent): lowered from 76 / 0.64 to 72 / 0.58 because the sequence and the 1776 quotation come mainly from one scholarly family."
+    },
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor, src_bassi_unibo | 1732-1749 | feature article, biography page, university history] When she was left out of the 24 Benedettini in 1745 she wrote to Rome to present her credentials and ask to be made the twenty-fifth; she asked for a licence to read prohibited books, took up calculus and experimental work with Manfredi and Beccari, and opened her own domestic school in 1749, paying for the equipment herself according to her 1755 letter. These are documented acts that she initiated; her patron Lambertini's help in several of them is also recorded. CONCENTRATION (agent): lowered from 74 / 0.62 to 70 / 0.56 because the Benedettini and banned-book episodes rest chiefly on Findlen."
+    },
+    "social_assertiveness": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor | 1732-1755 | feature article, biography page] Findlen records that she debated the city's leading professors in public at twenty, politely but firmly asked for her teaching restrictions to be lifted, answered moralist critics of her marriage 'tartly' in a 1738 letter, and declared in 1755 that her private lessons had done more for experimental physics than the institutions that employed her; MacTutor adds that she moved away from her tutor's advice on thesis topics. Most of the quoted words come through Findlen. CONCENTRATION (agent): lowered from 70 / 0.56 to 66 / 0.50 because the letters and the 1755 claim are known mainly through one scholar's reading."
+    },
+    "conflict_tolerance": {
+      "score": 58,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor, src_bassi_unibo | 1732-1776 | feature article, biography page, university history] She pressed repeatedly against restrictions set by the Senate and academy despite grumbling that she always asked for more than was her due, and the 1776 chair came only after a lengthy debate; but Findlen also shows her working through patrons and polite requests, and accepting compromises such as the unvoting twenty-fifth place and a 1738 marriage that eased the gossip. The evidence shows persistent pressure rather than open confrontation. SELF-CALIBRATION (agent): lowered from 62 / 0.50 strong inference to 58 / 0.44 inference because she mostly pressed through patrons and compromises, which fits a moderate lean only."
+    },
+    "mastery_orientation": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor, src_bassi_findlen_encyclopedia | 1732-1770s | feature article, biography page, reference biography] After 1732 she added calculus and experimental training to fill the gaps in her education, apprenticed herself to the professor of experimental physics, and by Findlen's account insisted that experiment without a mathematical and philosophical foundation was only half of what physics after Newton required; Veratti later said she published little because she expected so much of her work. The study programme is documented; the last point is a husband's explanation reported by Findlen. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 66 / 0.50 because the claim about her standards rests on Veratti's recollection and Findlen's judgement."
+    },
+    "curiosity": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor, src_bassi_shethoughtit | 1732-1778 | feature article, biography page, online biography] Findlen records that she asked for a licence to read works the Church had prohibited, including Galileo and Descartes, and that her papers moved among refraction, electricity, hydraulics and the composition of air; MacTutor counts papers on physics, hydraulics, mathematics, mechanics, technology and chemistry, and says her main experimental work was on electricity though she wrote nothing on it. The range is documented by three accounts, but only a handful of her papers survive."
+    },
+    "collaboration": {
+      "score": 68,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor, src_bassi_unibo, src_bassi_findlen_encyclopedia | 1738-1778 | feature article, biography page, university history, reference biography] She and Veratti ran the home laboratory and lessons together for about forty years, with Veratti later her assistant in the chair; visitors including Nollet, Volta and Spallanzani came to see or join experiments; Spallanzani asked her to confirm some of his experiments and dedicated a publication to her, and Frize and Cavazza (quoted by MacTutor) describe a partnership of equals. Four accounts across different families support the pattern."
+    },
+    "discipline": {
+      "score": 68,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor | 1746-1777 | feature article, biography page] Her 1755 letter says she had given daily physics lessons at home for eight months of the year for six years, paying for the equipment; Findlen says the Academy keeps a list of 32 papers she presented annually from 1746 to 1777 to meet her duty as a Benedictine, and MacTutor counts 28 surviving papers. The routine is documented from her own letter and an archival list, while the two sources disagree on the paper count."
+    },
+    "adaptability": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_unibo, src_bassi_mactutor | 1738-1776 | feature article, university history, biography page] Barred from regular university lecturing, she turned her home into a laboratory and school after 1738 and 1749, where the marriage let her receive guests and teach; she moved from the philosophical theses of 1732 to experimental physics, and Findlen describes her as determined to keep up with the science of her time, following Hales, Franklin and Priestley. The workaround is documented, but the sources do not say how far it was chosen rather than forced."
+    },
+    "achievement_drive": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_shethoughtit | 1745-1776 | feature article, online biography] Findlen speaks of her ambition and of her goal of being respected for what she did rather than who she was, and notes colleagues' complaints that she always asked for more than was her due; the 1776 record says she had sought the chair for years. The evidence is one scholar's characterisation with repeated requests as support. CONCENTRATION (agent): lowered from 66 / 0.50 strong inference to 62 / 0.44 inference because Findlen's characterisation carries the row and the second source is derivative of her."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor | 1745-1776 | feature article, biography page] She persuaded Benedict XIV to add her as a twenty-fifth Benedictine by invoking her exceptional position, and in 1755 argued that her lessons mattered for the common good, after which the Senate gave her a pay rise on condition she continue them; both moves depended partly on patrons who already favoured her. Persuasion is documented in a few instances but the outcomes had other causes."
+    },
+    "analytical_rigor": {
+      "score": 60,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_mactutor, src_bassi_findlen_physicsworld | 1746-1757 | biography page, feature article] MacTutor quotes Logan's account that in her 1757 mechanics paper she used the calculus to find the motion of the centre of mass of bodies on curved paths, and in the hydraulics paper reduced an equation to one unknown by an analytic method; Findlen says she held that experiment needed a mathematical foundation. MacTutor adds that her papers contain little that is original. CONCENTRATION (agent): lowered from 62 / 0.46 to 60 / 0.42 because the method claim rests on one scholar's reading of two printed papers."
+    },
+    "impact_motivation": {
+      "score": 60,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_bassi_findlen_physicsworld, src_bassi_mactutor | 1732-1755 | feature article, biography page] Findlen says she felt from the start that she had been offered a chance to contribute to the betterment of society with her knowledge, and her 1755 letter notes that her lessons were attended by well-educated people, including foreigners; the Senate accepted that she did something that mattered for the greater good. This is a scholar's reading of her motives plus one letter."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "라우라 바시"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/laura-bassi-johann-jacob-haid-1741.jpg",
+    "width": 618,
+    "height": 1000,
+    "source": "Mezzotint portrait lettered 'LAVRA MARIA CATHARINA BASSIA, Uxor Ios. Verati M.D. et P.P. Bononiensis, Philosophiae Doctrix, Collegii Lectrix publica, Instituti Scientiarum Socia' (her name, her husband Giuseppe Veratti, her doctorate, public lectureship and academy membership), signed 'Litters pinx.' (after a painting by Litters) and 'I. Jac. Haid excud. Aug. Vind.' (published by Johann Jacob Haid, Augsburg); plate for Jacob Brucker's Bilder-sal heutiges Tages lebender und durch Gelahrheit beruehmter Schrifft-steller (Augsburg: Haid, from 1741). Rijksmuseum, Amsterdam, RP-P-1999-1025 (plate 310 x 192 mm), image downloaded at full size from the museum (3692 x 5754 pixels), cropped to the plate and downscaled to 618 x 1000 with no upscaling. The printed birth date (11 October 1711) differs from the 29 or 31 October given in other sources; this does not affect the sitter's identity.",
+    "license": "Public domain by age and by the holder's statement: printed in Augsburg in the 1740s, printmaker and painter long dead (Haid died 1767); Rijksmuseum record lists copyright 'Public domain' with the Public Domain Mark, and the museum's information and data policy provides non-copyrighted material with PDM or CC0 and makes images of such objects available as public property",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "attribution": "Johann Jacob Haid (printmaker, possibly, and publisher, Augsburg) after a painting by Litters, portrait of Laura Maria Catharina Bassia, mezzotint, 1741, Rijksmuseum, Amsterdam (RP-P-1999-1025), Public Domain Mark. Cropped and downscaled. A print issued in her lifetime after a painting, not itself a drawing from life.",
+    "attributionUrl": "https://id.rijksmuseum.nl/200497708",
+    "creator": "Johann Jacob Haid (possibly printmaker; named as publisher on the plate) after a painting by Litters",
+    "date": "1741 (Rijksmuseum date; the Louvre copy of the volume dates its plates 1741-1746)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://www.rijksmuseum.nl/nl/collectie/object/RP-P-1999-1025--5a066744b3ce036b04437be514e231b3"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B, downgraded from strong) / lead NOT survived, REPLACED with a better, lifetime-era item: the Stage B lead (undated Wellcome lithograph by A. di Lorenzo, a later depiction) was not used. The shipped image is a mezzotint lettered 'LAVRA MARIA CATHARINA BASSIA, Uxor Ios. Verati ... Philosophiae Doctrix, Collegii Lectrix publica, Instituti Scientiarum Socia', signed 'Litters pinx.' and 'I. Jac. Haid excud. Aug. Vind.', plate for Brucker's Bilder-sal (Augsburg, from 1741), found through the Rijksmuseum linked-art search and held as RP-P-1999-1025 (Rijksmuseum date 1741; the Louvre copy of the volume dates its plates 1741-1746). Holder record and item page read (copyright 'Public domain', Public Domain Mark, CC0 on the record; printmaker 'possibly' Haid); the Rijksmuseum information and data policy was read (non-copyrighted material is released as PDM or CC0). The Louvre record was read to confirm the plate belongs to Brucker's decades. Sitter confirmed by the printed lettering (name, husband, degree, public lectureship, academy membership); the printed birth date (11 October 1711) differs from the 29 or 31 October of other sources, noted and not material. KIND likeness: a print issued in her lifetime after a painting by Litters (not independently confirmed as drawn from life). Image: full holder file 3692 x 5754 cropped to the plate and downscaled to 618 x 1000, no upscaling. QID VERIFIED LIVE (2026-11-24) Q541652, human, born 1711 (29 and 31 October and 29 November are all recorded), died 1778-02-20, ko label 라우라 바시 (also the Korean Wikipedia title; class authoritative-label). REGION southern_europe, ERA early_modern, nationality IT. ZERO POLITICS (her papal patronage is scored only as career strategy). ATTRIBUTION: attributable (dated degree, academy and Senate records, her own 1755 letter, archival paper list). CANONICAL SIGNIFICANCE SOURCE: Findlen's entry in Europe 1450 to 1789. READ: Findlen encyclopedia entry (full), Findlen Physics World feature (full), MacTutor (full), University of Bologna page (full), She Thought It (full). NOT OPENED: Britannica (403 to curl and WebFetch), Stanford Bassi-Veratti collection (bot wall, not bypassed), Cavazza's article (Cloudflare wall, not bypassed), Findlen's 1993 Isis article (JSTOR). FAMILIES: three (Findlen scholarship, which also underlies She Thought It and much of MacTutor's quotation; MacTutor's compilation of Cavazza, Frize, Logan and Elena plus Bassi's own letter; University of Bologna institutional history); the family count is low, so the profile is held at moderate confidence. Source conflicts: the date of her degree (12 May per the encyclopedia, 17 April per Physics World), the paper count (28 per MacTutor, 32 per Findlen) and her children (eight or nine or twelve) are not carded. CONCENTRATION: five rows lowered (persistence, proactive agency, social assertiveness, achievement drive, analytical rigor); SELF-CALIBRATION: two more lowered (conflict tolerance, mastery orientation); no row raised. Initial 13 rows, final 13. MAJOR ACHIEVEMENT GATE: PASS (1732 degree and academy membership as the professional-career breakthrough, Newtonian teaching and the home laboratory, the 1776 chair with an honest note that her papers were little original)."
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "annie-besant",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Annie Besant",
+    "aliases": [
+      "Annie Wood Besant",
+      "Annie Wood",
+      "Mrs Besant"
+    ],
+    "wikidataId": "Q464318",
+    "birthYear": 1847,
+    "deathYear": 1933,
+    "isLiving": false,
+    "era": "19th_century",
+    "nationalityCodes": [
+      "GB"
+    ],
+    "regionCode": "western_europe"
+  },
+  "classification": {
+    "occupationIds": [
+      "activist",
+      "writer",
+      "religious_leader"
+    ],
+    "fieldIds": [
+      "social_reform",
+      "religion",
+      "politics",
+      "education"
+    ],
+    "impactDomains": [
+      "social",
+      "historical",
+      "cultural",
+      "educational"
+    ],
+    "tagIds": [
+      "advocate",
+      "communicator",
+      "nonconformist",
+      "organizer"
+    ],
+    "archetypeIds": [
+      "social_influencer",
+      "organizational_leader"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_besant_wikidata",
+      "kind": "wikidata",
+      "title": "Annie Besant (Q464318), verified live via the Wikidata API (2026-11-24): English label 'Annie Besant', description 'British socialist, theosophist, women's rights activist, writer and orator (1847-1933)', Korean label 애니 베전트, instance of human, born 1 October 1847, died 20 September 1933. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q464318"
+    },
+    {
+      "id": "src_besant_britannica",
+      "kind": "biography",
+      "title": "Encyclopaedia Britannica, 'Annie Besant' by Charles Preston (read in full; last updated October 2026). CANONICAL SIGNIFICANCE SOURCE: social reformer, political organizer and religious leader whose career spanned England and India; the 1877 republication of Knowlton's birth-control pamphlet and the prosecution, with the conviction overturned on appeal; loss of custody of her daughter in 1878; election to the London School Board in 1888; her article 'White Slavery in London' and the match girls' strike; joining the Theosophical Society in 1889, moving to India (settled in Benares 1895), founding the Central Hindu College in 1898, international president of the Society from 1907; the training of Krishnamurti and the Order of the Star, which he dissolved in 1929; the All-India Home Rule League (1916), the Lucknow Pact, internment and the Congress presidency in 1917, and her later loss of favour to Gandhi's non-cooperation. Balanced: notes that some of her views of Hinduism were idealised and that her early Indian social views defended hierarchy before shifting.",
+      "url": "https://www.britannica.com/biography/Annie-Besant"
+    },
+    {
+      "id": "src_besant_framke",
+      "kind": "biography",
+      "title": "Maria Framke, 'Besant, Annie', 1914-1918-online: International Encyclopedia of the First World War (Freie Universitat Berlin, 2014; read in full). Scholarly reference entry: Home Rule campaign from 1914, the two newspapers Commonweal and New India, the All-India Home Rule League of 1 September 1916 beside Tilak's of April 1916, internment in June 1917 and the nationalist outcry, the Congress presidency in December 1917, and her decline within a year, which the author attributes to an authoritarian presidential address, a reform programme shaped by Theosophical ideas, inability to keep Congress united and 'highly ambivalent, changing views' on the reform scheme, the war and Amritsar. Critical-leaning on her Congress record.",
+      "url": "https://encyclopedia.1914-1918-online.net/article/besant-annie/"
+    },
+    {
+      "id": "src_besant_humanists",
+      "kind": "institution",
+      "title": "Humanists UK, Humanist Heritage, 'Annie Besant (1847-1933)' by Robert Forder (read in full; includes the recollection of Hypatia Bradlaugh Bonner, daughter of Charles Bradlaugh and a contemporary colleague). Secularist-movement biography: her break with her husband and Christianity, the National Secular Society from 1874, the Knowlton pamphlet and loss of custody of her daughter, the Malthusian League, the Fabian Society from 1885, Bloody Sunday in 1887, the match girls' strike and the 1890 dock strike, and secularists' dismay at her move to Theosophy; Bonner calls her a tireless worker and forceful speaker but 'not an original thinker'. Admiring but candid; an interested movement source.",
+      "url": "https://heritage.humanists.uk/annie-besant/"
+    },
+    {
+      "id": "src_besant_eh",
+      "kind": "institution",
+      "title": "English Heritage, blue plaque page 'Match Girls' Strike' at the Bryant and May works, Bow (read in full; plaque erected 2022). Heritage-body account: Besant, as editor of The Link, attended a June 1888 meeting on conditions at Bryant and May, leafleted the workers at the factory gate with Herbert Burrows and published an article on wages, fines and phosphorus necrosis; the company dismissed women it took to be troublemakers, about 1,400 workers struck, the fines were abolished on 17 July and the Union of Women Match Makers followed. States that Besant 'is often credited with having organised the strike' but that the young working-class women initiated it, and that there had been at least four earlier strikes at the works since 1881.",
+      "url": "https://www.english-heritage.org.uk/visit/blue-plaques/match-girls-strike/"
+    },
+    {
+      "id": "src_besant_kent",
+      "kind": "institution",
+      "title": "Dr Claire Jones, 'Women, Work and Health: The Match-Girls Strike of 1888', University of Kent School of History blog (21 March 2018; read in full). Short historiographical note: early accounts presented the women as passive and led by Besant and middle-class Fabians, relying largely on Besant's autobiography and company documents; more recent work (Louise Raw, Barbara Harrison) argues the workers themselves were central. Counter-voice on attribution of the strike; secondary, not a primary study.",
+      "url": "https://blogs.kent.ac.uk/history/2018/03/21/women-work-and-health-the-match-girls-strike-of-1888/"
+    },
+    {
+      "id": "src_besant_embryo",
+      "kind": "biography",
+      "title": "Caroline Meek and Claudia Nunez-Eddy, 'Annie Wood Besant (1847-1933)', Embryo Project Encyclopedia, Arizona State University (7 December 2017; read in full). Scholarly encyclopedia entry drawing heavily on her autobiography: her marriage and legal separation in 1873, National Secular Society and National Reformer from 1874, her first lecture on women's political status, the 1877 Knowlton trial where she argued the right to family-planning information, her university study of botany and physiology from 1879 that ended without a degree, the Malthusian League, the Fabian Society, the School Board of 1888 and the move to Theosophy. Its account of the trial verdict differs from other reference works (it says she was told to stop publication rather than convicted), so the verdict is treated as disputed.",
+      "url": "https://embryo.asu.edu/pages/annie-wood-besant-1847-1933"
+    },
+    {
+      "id": "src_besant_gale",
+      "kind": "biography",
+      "title": "Catherine Wessinger, 'Besant, Annie', Encyclopedia of Religion (Gale, 2005; read via Encyclopedia.com together with the short Oxford Companion to British History and World Encyclopedia entries on the same page). Reference biography: second president of the Theosophical Society 1907-1933 who put Blavatsky's ideas in accessible language; first woman prosecuted for disseminating birth-control information; the conviction overturned on a technicality; study of science at London University in the late 1870s without a degree; a magazine she founded in 1883 with a lively interest in world religions; the messianic turn of 1908 and the raising of Krishnamurti; her career as an Indian politician quickly eclipsed by Gandhi, whose demand for full independence she opposed. Scholarly entry in a religion reference work, sympathetic on motives.",
+      "url": "https://www.encyclopedia.com/people/social-sciences-and-law/social-reformers/annie-besant"
+    },
+    {
+      "id": "src_besant_press1929",
+      "kind": "press",
+      "title": "'Star of the East: Order Dissolved. Krishnamurti's Decision', The Press (Christchurch, New Zealand), 7 August 1929, page 11 (Papers Past; read in full). Contemporary news-agency report from London, 5 August 1929: Krishnamurti announces at the congress in Holland that the Order of the Star in the East is dissolved; Besant is reported as saying that dissolution 'appears a logical step' and that her fundamental belief in him as a world teacher makes her 'more inclined to observe and study than pronounce an opinion'. Short wire report, partly her own words as relayed by a press agency.",
+      "url": "https://paperspast.natlib.govt.nz/newspapers/CHP19290807.2.90"
+    },
+    {
+      "id": "src_besant_orlando",
+      "kind": "biography",
+      "title": "Orlando: Women's Writing in the British Isles, 'Annie Besant' (Cambridge University Press; only the free public overview, highlights and milestones were read, the full biography is subscription-only). Used only for the observation, citing Rosemary Dinnage's 1986 biography, that during 1878-1879, while trying to regain custody of her children, she was also writing on the French Revolution, translating a book from French, keeping up weekly journalism and pamphlets and sitting on committees; also lists over one hundred pamphlets, lectures and essays on topics from women's rights and religion to politics and science.",
+      "url": "https://orlando.cambridge.org/index.php/profiles/besaan"
+    }
+  ],
+  "rows": {
+    "persuasiveness": {
+      "score": 72,
+      "confidence": 0.55,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_besant_humanists, src_besant_gale, src_besant_britannica, src_besant_framke | 1874-1917 | secularist-movement biography, religion reference biography, general encyclopedia, scholarly reference entry] A colleague of the 1870s (Hypatia Bradlaugh Bonner, quoted by Humanists UK) calls her a forceful speaker with a wonderful power of absorbing and transmuting others' thoughts into glowing language; the Gale entry says the 1877 trial established her reputation as one of England's finest orators and that she put Blavatsky's ideas into accessible language, and Framke records lectures and pamphlets in several languages for the Home Rule campaign. Counter-evidence: Framke says her 1917 Congress address, with its authoritarian remarks, disappointed many. CONCENTRATION CORRECTION (agent): lowered from 76 / 0.60 to 72 / 0.55 because the oratory claim rests on one partisan colleague's memory and reference works drawing on the same biographical tradition, and her effect on Congress colleagues was mixed."
+    },
+    "conflict_tolerance": {
+      "score": 76,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_besant_britannica, src_besant_embryo, src_besant_humanists, src_besant_eh, src_besant_framke | 1877-1917 | general encyclopedia, scholarly encyclopedia, secularist-movement biography, heritage body, scholarly reference entry] She republished a banned birth-control pamphlet and defended it herself at a trial in 1877, at the price of her daughter's custody (Britannica, Humanists UK, Embryo); in 1888 she named the company's dividends beside women's wages in print and leafleted at the factory gate (English Heritage); she spoke at the 1887 Trafalgar Square protest (Humanists UK) and was interned by the Indian government in 1917 for Home Rule agitation (Framke, Britannica). The trial is described in slightly different ways by the sources, but the costs were real and recur across independent episodes, so impact is dual-edged."
+    },
+    "risk_tolerance": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_besant_britannica, src_besant_embryo, src_besant_framke | 1877-1917 | general encyclopedia, scholarly encyclopedia, scholarly reference entry] The 1877 prosecution carried a prison sentence and cost her custody; in 1914-17 she pressed a Home Rule campaign that led to internment. These are documented exposures, but the sources describe the stakes rather than how she weighed them and the trial episode is largely one account. SELF-CALIBRATION (agent): lowered from 68 / 0.52 (strong_inference) to 64 / 0.46 (inference) because most of the support is the same single trial episode and no source describes her weighing of the risk."
+    },
+    "proactive_agency": {
+      "score": 78,
+      "confidence": 0.64,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_besant_eh, src_besant_framke, src_besant_britannica, src_besant_humanists | 1888-1917 | heritage body, scholarly reference entry, general encyclopedia, secularist-movement biography] She turned a June 1888 meeting into a leafleting campaign and a published exposure of conditions at Bryant and May (English Heritage); sought and won a School Board seat the same year (Britannica); founded the Central Hindu College (1898), two Indian newspapers (1914), the All-India Home Rule League (1916) and, in 1917, the Women's Indian Association (Framke, Britannica). Starting projects herself is documented across four sources and two continents; outcomes varied (the strike was begun by the workers, Home Rule was overtaken by Gandhi), which is not what this row measures."
+    },
+    "leadership_drive": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_besant_britannica, src_besant_framke, src_besant_gale | 1907-1917 | general encyclopedia, scholarly reference entry, religion reference biography] She was elected international president of the Theosophical Society in 1907 and held it until 1933, set up her own Home Rule League when Congress would not adopt the cause, and became Congress president in 1917; Framke says her presidential address was full of authoritarian remarks that portrayed the presidency as a benediction and claimed extended authority, and that she could not keep Congress united. SELF-CALIBRATION (agent): lowered from 72 / 0.56 to 68 / 0.50 because holding office is partly an outcome of election and the account of how she led is thin and critical, so office is weak evidence of drive."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_besant_humanists, src_besant_framke, src_besant_britannica | 1874-1917 | secularist-movement biography, scholarly reference entry, general encyclopedia] She worked in partnership with Bradlaugh (a publishing company, the Knowlton case, the National Reformer), with Herbert Burrows on the match-girl campaign, with Shaw in the Fabians, and with Tilak and the Muslim League around the 1916 Lucknow Pact; but Humanists UK records growing tensions with Bradlaugh and his successor over her socialism, and Framke says she could not keep Congress united. CONCENTRATION CORRECTION (agent): lowered from 62 / 0.50 to 58 / 0.46 because the partnerships are listed by two or three reference sources and none describes how she shared the work."
+    },
+    "impact_motivation": {
+      "score": 74,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_besant_eh, src_besant_britannica, src_besant_framke, src_besant_humanists | 1874-1917 | heritage body, general encyclopedia, scholarly reference entry, secularist-movement biography] Her campaigns repeatedly aimed at others' welfare: the match-girls' wages and illness, free meals and medical inspections for poor children on the School Board, women's education and the Women's Indian Association, schools in India (English Heritage, Britannica, Framke). The Gale entry names a desire to serve humanity as the thread of her efforts. SELF-CALIBRATION (agent): lowered from 78 / 0.62 to 74 / 0.58 because the unifying 'service' reading is partly her own framing and Britannica notes that her early Indian social positions defended hierarchy, so the motive is inferred from actions in different directions."
+    },
+    "persistence": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_besant_britannica, src_besant_embryo, src_besant_orlando | 1877-1879 | general encyclopedia, scholarly encyclopedia, biography overview] After the 1877 prosecution she published her own birth-control pamphlet (Britannica), the case was reopened in 1878 and she carried on (Embryo), and during 1878-79, while seeking to regain custody, she was also lecturing, writing and studying (Orlando). Sustained campaigning is documented in outline. CONCENTRATION CORRECTION (agent): lowered from 70 / 0.52 (strong_inference) to 66 / 0.46 (inference) because the support is one episode told by three works from the same biographical tradition."
+    },
+    "belief_updating": {
+      "score": 58,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_besant_britannica, src_besant_framke | 1871-1917 | general encyclopedia, scholarly reference entry] She moved from evangelical Christianity (through doubts about suffering and the Gospels) to atheism, socialism and Theosophy, and in India shifted from defending caste hierarchy and seclusion to calling for caste to be abolished and women's equality, while Framke says her 'highly ambivalent, changing views' on reform, the war and Amritsar disappointed followers. Revision is documented, but the sources show conversions to new comprehensive frameworks and later firm conviction in them (she kept her belief in Krishnamurti as a world teacher in 1929), so the score stays near the middle and impact is dual-edged."
+    },
+    "independent_thinking": {
+      "score": 62,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_besant_humanists, src_besant_britannica, src_besant_embryo | 1873-1909 | secularist-movement biography, general encyclopedia, scholarly encyclopedia] She left her marriage, her church and respectable standing over her doubts and argued unpopular positions in public (Britannica, Embryo); but Bonner, quoted by Humanists UK, calls her 'not an original thinker' though a skilled absorber of others' ideas, and Britannica says she accepted Leadbeater's assessment of Krishnamurti. The evidence points both ways, so the row stays moderate with low confidence."
+    },
+    "discipline": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_besant_humanists, src_besant_orlando | 1874-1879 | secularist-movement biography, biography overview] Bonner, who worked with her in the 1870s, recalls that she could write and study longer without rest than anyone she knew; Orlando records that in 1878-79 she kept up weekly journalism, translations, pamphlets, committees and lectures at once. Output volume itself is not counted. CONCENTRATION CORRECTION (agent): lowered from 70 / 0.52 (strong_inference) to 66 / 0.46 (inference) because the claim rests on one colleague's recollection and a one-paragraph overview of a single period."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_besant_britannica, src_besant_framke, src_besant_gale | 1893-1917 | general encyclopedia, scholarly reference entry, religion reference biography] After her move to India in 1893-95 she learned Sanskrit, translated the Bhagavad Gita, adopted Indian dress and customs, moved from Benares to Madras and into Congress politics, and used the campaigning methods she had learned in Britain for Home Rule. Her readings of Hindu society were sometimes criticised as idealised and Theosophical, which limits the score."
+    },
+    "cross_domain_range": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_besant_embryo, src_besant_gale, src_besant_orlando, src_besant_britannica | 1874-1925 | scholarly encyclopedia, religion reference biography, biography overview, general encyclopedia] She worked across freethought journalism, birth-control advocacy, socialism, school administration, trade unionism, Theosophy, Hindu education and Indian politics, and studied botany and physiology at London University in 1879; Orlando lists writings on science and the French Revolution alongside religion and politics. Bonner's remark that she was not an original thinker means the range is of activity and writing rather than of new ideas, so the score is moderate."
+    },
+    "curiosity": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_besant_britannica, src_besant_gale, src_besant_embryo | 1879-1893 | general encyclopedia, religion reference biography, scholarly encyclopedia] In the late 1870s she studied science at London University; as an avowed atheist she kept a lively interest in world religions and ran a magazine she founded in 1883 with myths and reviews of books on Indian religion; she later studied Hinduism and learned Sanskrit. Interest in new fields is documented at three points, mostly in Britannica and the Gale entry."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "애니 베전트"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/annie-besant-unknown-wellcome-L0000779.jpg",
+    "width": 800,
+    "height": 1192,
+    "source": "Photographic portrait of Annie Besant (half-length, seated, hand to her head, fur wrap), Wellcome Collection image L0000779, work record https://wellcomecollection.org/works/u7kcygnt (Wellcome title 'Portrait of Annie Besant (1849-1933)', description 'Supporter of the Bryant and May Matchgirls strike, 1888'; no creator and no production date are recorded; Wellcome's birth year 1849 is a catalogue error, she was born 1847). The scan is Wellcome's 1172 x 1746 IIIF master (it shows the edge printing of a copy-negative film strip and the script inscription 'Annie Besant' at the foot of the print), downscaled to 800 x 1192 with no upscaling and no other change.",
+    "license": "CC BY 4.0 as stated on Wellcome Collection's item record (access 'Open', credit 'Wellcome Collection'). Wellcome's access policy says it does not seek fresh copyright on its digitisations of out-of-copyright works; the creator and date of the underlying photograph are not recorded, so the item-level licence is the stated basis. Independent age-based backstop: the Library of Congress holds a separate c1897 portrait of her (LC-USZ62-103990, copyright registered by Hollinger and Rockey, New York).",
+    "licenseUrl": "http://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Photograph, photographer and date not recorded; Portrait of Annie Besant, Wellcome Collection (image L0000779), CC BY 4.0. Downscaled; no other changes.",
+    "attributionUrl": "https://wellcomecollection.org/works/u7kcygnt",
+    "creator": "Unknown photographer (none recorded by Wellcome Collection)",
+    "date": "undated (not recorded by Wellcome; a secondary web caption dates it c.1888)",
+    "kind": "likeness",
+    "sourcePageUrl": "https://wellcomecollection.org/works/u7kcygnt"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (lead) / lead SURVIVED: Wellcome Collection L0000779. Re-verified: catalogue API record u7kcygnt read (title 'Portrait of Annie Besant (1849-1933)', no contributors, no production date, item licence CC BY 4.0, access Open, credit Wellcome Collection); Wellcome access policy page read (no fresh copyright is sought on digitisations of previously out-of-copyright works); the 1172 x 1746 IIIF master was downloaded and viewed: a studio portrait of a woman of middle age with a script inscription 'Annie Besant' at the foot of the print and film-edge printing along the bottom (a copy negative), so sitter identity is confirmed by the inscription and by the Wellcome title, and the 1914-1918-online entry reproduces the same Wellcome image under her name. LOC BIOG FILE c1897 portrait (LC-USZ62-103990, copyright by Hollinger and Rockey NY, rights field empty) re-read as age-based backstop; the LOC photograph was not used because its holder record states no open licence. Caveats: Wellcome records no photographer or date, so the CC BY 4.0 licence applies to the digitisation and the creator cannot be credited; kind likeness. Wellcome catalogue errors (birth year 1849, description typo 1849-4933) do not affect identity. REGION south_asia (frozen assignment; precedent Mother Teresa, Pandita Ramabai; she lived in India 1893-1933). ERA 19th_century. Nationality GB. ZERO PRIVATE-CONDITION INFERENCE: only documented public conduct is scored. Her Theosophical beliefs and the messianic Krishnamurti project are context, not scored as truth or error; her marriage, the custody loss and Leadbeater controversies are used only as documented episodes. Her Indian political ideology is unscored; only organising conduct and documented costs are scored. HAGIOGRAPHY CHECK: the strike is attributed to the women themselves (English Heritage, Kent) and not to her; the verdict in the 1877 trial differs between Embryo and Britannica/Orlando and is hedged. READ (9 sources besides Wikidata): Britannica (full), Framke 1914-1918-online (full), Humanists UK (full), English Heritage (full), Kent blog (full), Embryo (full), Gale/Wessinger via Encyclopedia.com (full), The Press 7 Aug 1929 (full), Orlando (public overview only). Not opened: Taylor's 1992 biography, Nethercot, Raw's Striking a Light, Mortimer 1983, Anderson 2002, her autobiography. PERSPECTIVES: reference encyclopedias, a scholarly reference entry critical of her Congress record, a freethought-movement biography with a contemporary colleague's memory, a heritage body and a university blog correcting the strike's attribution, and a contemporary press report. NON-SELF BEHAVIOURAL SOURCES: all; her own writings are cited only as quoted in these. COUNTER-VOICES: Framke on authoritarian presidency and ambivalent views; Britannica on idealised views of Hinduism and early defence of hierarchy; Bonner on 'not an original thinker'; EH and Kent on the workers' role. ACHIEVEMENT GATE: all five checks pass, see handback. KOREAN NAME: 애니 베전트 (Wikidata ko label, Korean Wikipedia title). RAW ROWS 14."
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "qian-xuesen",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Qian Xuesen",
+    "aliases": [
+      "Hsue-Shen Tsien",
+      "Tsien Hsue-shen",
+      "Qian Hsue-shen",
+      "錢學森",
+      "钱学森"
+    ],
+    "wikidataId": "Q333500",
+    "birthYear": 1911,
+    "deathYear": 2009,
+    "isLiving": false,
+    "era": "20th_century",
+    "nationalityCodes": [
+      "CN"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "engineer",
+      "scientist"
+    ],
+    "fieldIds": [
+      "engineering",
+      "aviation"
+    ],
+    "impactDomains": [
+      "scientific",
+      "engineering",
+      "technological"
+    ],
+    "tagIds": [
+      "cross_disciplinary",
+      "systematic_thinker",
+      "founder"
+    ],
+    "archetypeIds": [
+      "technical_innovator",
+      "cross_disciplinary_generalist"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_qian_wikidata",
+      "kind": "wikidata",
+      "title": "Qian Xuesen (Q333500), verified live via the Wikidata API (2026-11-24): English label 'Qian Xuesen', description 'Chinese rocket scientist (1911-2009)', instance of human, born 11 December 1911, died 31 October 2009, citizenship People's Republic of China, Korean label and Korean Wikipedia title 첸쉐썬, aliases include Hsue-Shen Tsien and the Chinese form 錢學森. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q333500"
+    },
+    {
+      "id": "src_qian_britannica",
+      "kind": "biography",
+      "title": "Gregory Kulacki, 'Qian Xuesen', Encyclopaedia Britannica (read in full). CANONICAL SIGNIFICANCE SOURCE: engineer and research scientist widely called the 'father of Chinese aerospace' for his role in establishing China's ballistic missile program; studied at MIT and Caltech under Theodore von Karman and became an expert in aerodynamics and jet propulsion; helped analyse the German rocket program and debriefed German scientists in 1945; detained in 1950 and kept under house arrest for five years before returning to China in 1955; director of the Fifth Academy of the Ministry of National Defense from 1956 and of the Chinese Academy of Space Technology from 1968. The entry stresses that he was not directly responsible for any specific missile, rocket engine or satellite and earned his title by training China's first generation of aerospace engineers. Reference biography by a scholar of Chinese space policy; sympathetic but corrective of the legend.",
+      "url": "https://www.britannica.com/biography/Qian-Xuesen"
+    },
+    {
+      "id": "src_qian_lv",
+      "kind": "biography",
+      "title": "Chengdong Lv, 'Return to China One Day: The Learning Life of Qian Xuesen' (Springer and Zhejiang Science and Technology Publishing House, 2023, open access; translated by Yingchun Zhang; chapters 2 to 4 and 6 read, covering his schooling, his musical and design interests, his Caltech and MIT years and his 1950 to 1955 detention and return; the author is at the Qian Xuesen Library of Shanghai Jiao Tong University). Admiring institutional biography built on archival documents, letters of recommendation by von Karman, diaries and student recollections (including a former MIT student's account of his lectures); the account of the 1950 case is told from his side.",
+      "url": "https://doi.org/10.1007/978-981-19-5755-0"
+    },
+    {
+      "id": "src_qian_galcit",
+      "kind": "institution",
+      "title": "Caltech Division of Engineering and Applied Science, 'Qian Xuesen (Tsien Hsue-Shen)', Legends of GALCIT (read in full): aerodynamicist and cyberneticist recruited from MIT to von Karman's group at Caltech; involved in the rocket experiments of the founding team of the Jet Propulsion Laboratory and, in 1943, with two colleagues drafted the first document to use the name 'Jet Propulsion Laboratory'; Robert H. Goddard Professor of Jet Propulsion from 1949; five years of surveillance during which he published 'Engineering Cybernetics' (1954), reviewed at once as a major contribution to control theory; his travel ban lifted on 4 August 1955; return to China and his role in its missile and space program. Department history page; admiring of its alumnus, but frank about the security case.",
+      "url": "https://aerospace.caltech.edu/about/legends-of-galcit/qian-xuesen-tsien-hsue-shen"
+    },
+    {
+      "id": "src_qian_archives",
+      "kind": "institution",
+      "title": "Caltech Archives and Special Collections, 'Death of JPL co-founder' (Caltech Library blog, 1 December 2009; read in full): says he came to the United States in 1935, was a key figure in the transition from propeller aircraft to jet engines and rockets, collaborated with von Karman and Frank Malina in founding the Jet Propulsion Laboratory, was invited in 1948 to be the Goddard Professor and head of the Guggenheim Jet Propulsion Center, lost his security clearance in 1950 over alleged Communist associations despite Lee DuBridge's defence, and decided himself in 1955 to return to China, where he led its space and military rocketry programs. Archive blog written for his obituary; same institution as the department page above.",
+      "url": "https://library.caltech.edu/blog/Death-of-JPL-co-founder"
+    },
+    {
+      "id": "src_qian_lindahall",
+      "kind": "institution",
+      "title": "William B. Ashworth Jr., 'Hsue-Shen Tsien', Scientist of the Day, Linda Hall Library (31 October 2023; read in full): historian's short account that he studied at MIT and Caltech under von Karman, was among the founders of the Jet Propulsion Laboratory, went with von Karman in 1945 to interview German rocket experts including Wernher von Braun, was stripped of his clearance in 1950 and effectively under house arrest for five years while still allowed to teach, left in 1955 in an exchange of prisoners, and led the Chinese rocket, nuclear-weapons and space programs; also calls him one of the founders of systems engineering. Short, admiring and critical of the US treatment of him; the systems engineering claim is not repeated by the other sources.",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/hsue-shen-tsien/"
+    },
+    {
+      "id": "src_qian_rfa",
+      "kind": "press",
+      "title": "Radio Free Asia, \"'Father' of China's Nuke Dies\" (obituary and commentary, 2 November 2009; read in full): reports that he was credited with leading China's first missile project and its first satellite, that in 1958 he published articles claiming China's crop harvest could reach as much as 5,000 kilos per mu and that this assessment fed the disastrous agricultural policy of that year, with commentators disagreeing whether it was his own error or the product of political pressure, and that he later supported the study of qigong. Independent news source and a counter-voice to the state obituary; the commentary is opinion and is not used for any trait.",
+      "url": "https://www.rfa.org/english/news/china/scientistdead-11022009180056.html"
+    }
+  ],
+  "rows": {
+    "persistence": {
+      "score": 72,
+      "confidence": 0.56,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_qian_galcit, src_qian_lv, src_qian_lindahall, src_qian_britannica | 1950-1955 | department history, institutional biography, historian's note, reference biography] After his clearance was revoked in 1950 he spent five years under surveillance, from March 1953 barred from leaving the Los Angeles area and required to report monthly, yet kept teaching at Caltech and wrote 'Engineering Cybernetics' (1954) and lecture notes on physical mechanics (Caltech, the 2023 biography, Britannica on the five years). The output under restriction is documented by several sources; the interior account of his motives comes mainly from the admiring biography. CONCENTRATION CHECK (agent): lowered from 74 / 0.60 to 72 / 0.56 because the Caltech pages tell one narrative and the details of the restrictions come mostly from the SJTU-affiliated biography."
+    },
+    "analytical_rigor": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "dual_edged",
+      "rationale": "[src_qian_galcit, src_qian_lv, src_qian_britannica, src_qian_rfa | 1939-1958 | department history, institutional biography, reference biography, news report] Caltech says a reviewer found it 'difficult to overstate the value' of 'Engineering Cybernetics' to control theory; Britannica says his ability to perform complex calculations flawlessly was an asset to von Karman's group; and the biography quotes von Karman's 1947 letter praising his mathematical skill and 'intellectual honesty'. Against this, Radio Free Asia reports his 1958 articles on crop yields, which commentators call a serious mistake outside his field, whatever pressure he was under. SELF-CALIBRATION (agent): top-risk row; lowered from 74 / 0.58 to 68 / 0.50 and impact set to dual-edged because the praise is a mentor's recommendation quoted by an admiring biography and the 1958 episode is a documented counter-example."
+    },
+    "systems_abstraction": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_qian_galcit, src_qian_lv, src_qian_britannica, src_qian_lindahall | 1954-1968 | department history, institutional biography, reference biography, historian's note] 'Engineering Cybernetics' treats the stabilisation of servomechanisms and control of many-variable systems (Caltech); von Karman's 1947 letter says he had 'a talent for organization'; Britannica records him directing the Fifth Academy from 1956 and the space technology academy from 1968; Linda Hall calls him one of the founders of systems engineering. Britannica also says he did not himself develop any particular missile, engine or satellite. SELF-CALIBRATION (agent): lowered from 70 / 0.52 to 64 / 0.46 because the founding-of-systems-engineering claim comes from one short historian's note and the organising role is documented by position, not by described method."
+    },
+    "cross_domain_range": {
+      "score": 72,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_qian_galcit, src_qian_lv, src_qian_britannica | 1936-1955 | department history, institutional biography, reference biography] His research moved from aerodynamics and thin-shell theory to rocket propulsion, engineering cybernetics and physical mechanics (Caltech, 2023 biography), the biography adds that during the years of restriction he worked on games and economic behaviour, and it documents serious activity in music, design and photography. Most of the scientific range lies within engineering mechanics, and the arts material comes from one biography. CONCENTRATION CHECK (agent): lowered from 74 / 0.58 to 72 / 0.54 because the non-science range rests on a single institutional biography."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.46,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_qian_lv | 1930-1935 | institutional biography] At Jiaotong University he played the euphonium in the orchestra and brass band, was listed in several student music groups, designed the graduation emblem and album cover for his class, and learned photography with a Rolleiflex camera; before leaving for the United States he published three music reviews arguing that music should be judged by its content and emotional expression, and the biography quotes a classmate's recollection of listening to records with him. The episodes are specific and distinct but all come from one admiring biography. CONCENTRATION CHECK (agent): lowered from 72 / 0.54 to 66 / 0.46 because only one source family documents these interests."
+    },
+    "creative_originality": {
+      "score": 66,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_qian_galcit, src_qian_lv, src_qian_britannica | 1947-1954 | department history, institutional biography, reference biography] In 1947 he proposed 'engineering science' as a discipline between natural science and engineering, and in the 1950s he wrote 'Engineering Cybernetics' and lecture notes on physical mechanics, which Caltech and the biography present as founding new fields (the biography adds that von Karman told him he had surpassed his teacher). The 'new field' framing comes from admiring sources and the concepts built on others' work. SELF-CALIBRATION (agent): lowered from 70 / 0.52 to 66 / 0.48 because 'founder of a field' language is institutional praise."
+    },
+    "proactive_agency": {
+      "score": 68,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_qian_britannica, src_qian_galcit, src_qian_lv, src_qian_archives | 1936-1956 | reference biography, department history, institutional biography, archive blog] He left MIT for Caltech in 1936 because MIT's practical focus did not suit him, joined the rocketry group's experiments, drafted with two colleagues the 1943 document that named the Jet Propulsion Laboratory, and in 1955 wrote a letter to a senior Chinese figure during the Sino-American talks asking for help to return; Britannica and the biography agree on the Caltech move, the Caltech page alone gives the 1943 document, and the biography alone describes the 1955 letter. The motives come mainly from his own later recollections and the biographers' reading."
+    },
+    "adaptability": {
+      "score": 64,
+      "confidence": 0.46,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_qian_lv, src_qian_galcit, src_qian_britannica | 1936-1956 | institutional biography, department history, reference biography] He moved from MIT to Caltech, to MIT and back to Caltech, shifted his research from aerodynamics to cybernetics, physical mechanics and games under restriction, and after 1956 changed from professor to director of a defence research academy; Britannica notes his difficulty adjusting to American culture. The shifts are documented but the sources say little about how he handled them."
+    },
+    "collaboration": {
+      "score": 58,
+      "confidence": 0.42,
+      "evidenceType": "inference",
+      "impact": "dual_edged",
+      "rationale": "[src_qian_galcit, src_qian_lv, src_qian_britannica | 1936-1948 | department history, institutional biography, reference biography] He worked in von Karman's group and its rocketry experiments, was one of about thirty-one writers of the 1945 'Toward New Horizons' report series, and instructed Army and Navy technical staff in a 1942 jet-propulsion course; against this, a former MIT student recalls that he refused questions in class and set a test unrelated to the lectures, an account the biography relays without comment. Team membership is documented, but the one detailed account of his working with others is a single student anecdote."
+    }
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "첸쉐썬"
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/qian-xuesen-los-angeles-times-1950.jpg",
+    "width": 840,
+    "height": 900,
+    "source": "Photograph by Los Angeles Times staff, 16 November 1950, at the Immigration and Naturalization Service hearing in Los Angeles, from the Los Angeles Times Photographic Collection, UCLA Library Special Collections (Collection 1429), item 'Deportation hearing for California Institute of Technology scientist, Dr. Hsue-shen Tsien, 1950' (local identifier uclalat_1429_b110_67269, ARK ark:/21198/zz0002r6xw, b&w negative 10 x 12.5 cm). The UCLA Digital Library item record (read) carries the original caption naming 'Dr. Hsue-shen Tsien' with his attorney Grant B. Cooper, a hearing reporter, examining officer Albert Del Guercio and hearing officer Ray Waddell, and states: rights statement 'copyrighted', rights holder The Regents of the University of California, licence 'Creative Commons BY Attribution 4.0 International'. The file is the 4932 x 3721 original from the Commons copy of that item, cropped to a head-and-shoulders view of the sitter (840 x 900 pixels at native scale, converted to a standard JPEG; not resized and not upscaled).",
+    "license": "CC BY 4.0, granted at item level by the holder: the UCLA Library Digital Collections record for this photograph states 'This work is licensed under a Creative Commons BY Attribution 4.0 International' with The Regents of the University of California as rights holder. The collection-level finding aid says copyright to portions of the collection is assigned to UCLA and that permission to publish must be requested in writing and credit given as 'The Regents of the University of California on behalf of the UCLA Library Special Collections'; the item-level licence is the specific and later statement for this digitised image, and the finding aid's credit line is followed here.",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Los Angeles Times staff photographer, 'Deportation hearing for California Institute of Technology scientist, Dr. Hsue-shen Tsien', 16 November 1950; Los Angeles Times Photographic Collection (Collection 1429), UCLA Library Special Collections. Credit: The Regents of the University of California on behalf of the UCLA Library Special Collections. Licensed CC BY 4.0. Changes: cropped from a five-person group photograph to a head-and-shoulders view and converted to JPEG. Lifetime photograph of the sitter.",
+    "attributionUrl": "https://digital.library.ucla.edu/catalog/ark:/21198/zz0002r6xw",
+    "creator": "Los Angeles Times staff photographer (name not recorded)",
+    "date": "1950-11-16",
+    "kind": "likeness",
+    "sourcePageUrl": "https://digital.library.ucla.edu/catalog/ark:/21198/zz0002r6xw"
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: PLAUSIBLE (Stage B) / LEAD SURVIVED AND CONFLICT RESOLVED: the lead was the two UCLA Los Angeles Times photographs tagged CC BY 4.0 on Commons, with an unresolved conflict against the Los Angeles Times Photographic Archive finding aid (written permission to publish). At the holder: the UCLA Library Digital Collections item pages for both photographs (hearing 1950, ARK zz0002r6xw; SS President Cleveland 1955, ARK zz0002t44x) loaded normally this time (the earlier bot wall did not recur; nothing was bypassed) and both read: rights statement 'copyrighted', rights holder The Regents of the University of California, rights country US, 'This work is licensed under a Creative Commons BY Attribution 4.0 International'. The OAC finding aid (collection level, read) says copyright to PORTIONS of the collection is assigned to UCLA Library Special Collections, the Library can grant permission to publish materials it holds copyright in, requests must be written, and credit must read 'The Regents of the University of California on behalf of the UCLA Library Special Collections'. Reconciliation: the finding aid is a generic collection-level access statement for the physical archive; the item records for the digitised images carry an explicit holder-issued CC BY 4.0 licence, which is the specific statement; the finding aid's credit line is used in the attribution as a belt-and-braces measure. The UCLA collection page and the UCLA digital collections use page add no contrary condition. Commons' own wording ('the bulk of images digitized from the archive have been published by UCLA under a CC BY 4.0 license') was treated as a pointer only. SITTER: caption on the UCLA record names Dr. Hsue-shen Tsien and the other four people in order from the left (Cooper, a hearing reporter, Del Guercio, Waddell); in the photograph the Chinese man second from the left is the only person not named among 'the others', so he is Tsien (checked visually). Ship photograph (1955) not used: it shows his wife and two children and the faces of minors. CROP: 840 x 900 crop of the 4932 x 3721 original, native scale, no upscaling; a crop is an adaptation permitted by CC BY and is declared in the attribution. KIND likeness (lifetime press photograph, photographer unrecorded). PREFLIGHT: QID VERIFIED LIVE (2026-11-24, Wikidata API) Q333500 label 'Qian Xuesen', description 'Chinese rocket scientist (1911-2009)', instance of human, born 1911-12-11, died 2009-10-31, citizenship PRC, Korean label and Korean Wikipedia title 첸쉐썬, aliases Hsue-Shen Tsien, 錢學森. REGION east_asia. ERA 20th_century. ATTRIBUTION: attributable (dated publications, archive documents, institutional records). CANONICAL SIGNIFICANCE SOURCE: Gregory Kulacki's Britannica entry. READ: Britannica (full), Caltech GALCIT Legends page (full), Caltech Archives blog (full), Linda Hall Library Scientist of the Day (full), Radio Free Asia obituary (full), Chengdong Lv's open-access biography 'Return to China One Day' (chapters 2 to 4 and 6; chapter 1 and 5 on family and marriage not used), China Digital Times (read, not cited), Atomic Heritage Foundation profile (read, not cited), the National Museum of Nuclear Science profile text, the Frank Marble memoir (read, not cited), the Inquirer obituary (read, not cited). Wikipedia not used. NOT AVAILABLE: Air University CASI report on the Qian Xuesen school of systems engineering (bot wall, not bypassed), Iris Chang's 'Thread of the Silkworm', von Karman's memoir. ZERO POLITICS: his Communist Party membership, the 1950 security case, the deportation proceedings and his service to the Chinese state are context only; no belief, loyalty or ideology is inferred or scored, and rows rest on scientific, teaching, artistic and organising behaviours only; the 1958 crop-yield articles appear only as a counter-voice on analytical rigor. CONTRADICTIONS AND LIMITS: Britannica and Caltech give different accounts of his 1946 to 1949 moves (MIT from 1946 in the biography; Caltech's Goddard chair in 1948 or 1949); Caltech's blog says he decided himself to return in 1955 while the department page and Britannica describe a negotiated release; the 1950 detention is described as espionage (Britannica) and as a Communist-association case (Caltech); Linda Hall's 'founder of systems engineering' and the 'father of Chinese rocketry' labels are not carded as fact because Britannica says he did not develop any specific missile. PERSPECTIVES: (1) scholarly reference biography (Kulacki); (2) Caltech department and archive pages; (3) Chinese-institution archival biography (Lv); (4) historian's popular note (Ashworth); (5) independent news report and counter-voice (RFA). INDEPENDENT BEHAVIOURAL FAMILIES: five (Kulacki, Caltech, Lv/SJTU, Ashworth, RFA); the Caltech pages and the Caltech Archives blog are one institution. SPARSE PROFILE BY DESIGN: 9 rows, confidences 0.42-0.56. MAJOR ACHIEVEMENT GATE: cards (1) leading and organising China's missile and aerospace programs from 1956 and training its first engineers (with Britannica's caveat), (2) Caltech rocketry and the founding of the Jet Propulsion Laboratory, (3) Engineering Cybernetics and physical mechanics. SELF-CALIBRATION: see handback; nothing raised. HANDBACK70: see TGI-r70-scratch/handback/qian-xuesen.json."
+  }
+}

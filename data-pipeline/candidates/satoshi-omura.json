@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "candidate_v1",
+  "processingVersion": "scoring_rubric_v1",
+  "slug": "satoshi-omura",
+  "status": "evidence_approved",
+  "identity": {
+    "canonicalName": "Satoshi Ōmura",
+    "aliases": [
+      "Satoshi Omura",
+      "Omura Satoshi",
+      "Ōmura Satoshi",
+      "大村智"
+    ],
+    "wikidataId": "Q21061207",
+    "birthYear": 1935,
+    "isLiving": true,
+    "era": "contemporary",
+    "nationalityCodes": [
+      "JP"
+    ],
+    "regionCode": "east_asia"
+  },
+  "classification": {
+    "occupationIds": [
+      "chemist",
+      "biologist",
+      "teacher"
+    ],
+    "fieldIds": [
+      "chemistry",
+      "biology",
+      "microbiology",
+      "medicine"
+    ],
+    "impactDomains": [
+      "scientific",
+      "medical"
+    ],
+    "tagIds": [
+      "nobel_laureate",
+      "innovator",
+      "administrator"
+    ],
+    "archetypeIds": [
+      "scientific_explorer",
+      "institution_builder"
+    ],
+    "newTagProposals": []
+  },
+  "sources": [
+    {
+      "id": "src_omura_wikidata",
+      "kind": "wikidata",
+      "title": "Satoshi Omura (Q21061207), verified live via the Wikidata API (2026-11-24): English label 'Satoshi Omura' (with macron), description 'Japanese biochemist, microbiologist, and university teacher (born 1935)', instance of human, born 1935-07-12, no date of death (living), citizenship Japan, Korean label 오무라 사토시. Orientation only; not used as support for any row.",
+      "url": "https://www.wikidata.org/wiki/Q21061207"
+    },
+    {
+      "id": "src_omura_nobel_adv",
+      "kind": "award_body",
+      "title": "Nobel Assembly at Karolinska Institutet, press release and 'Advanced information' for the 2015 Nobel Prize in Physiology or Medicine (both read in full). CANONICAL SIGNIFICANCE SOURCE: the prize honours Campbell and Omura for avermectin; Omura, a microbiologist and natural-products expert, isolated new Streptomyces strains from Japanese soil, cultured them and selected about 50 promising cultures, one of which (from soil near a golf course in Ito) became Streptomyces avermitilis; Campbell, a parasite biologist at Merck, tested the culture broths under the agreement with the Kitasato Institute and showed one was strongly active against parasites in animals; the compound was purified, named avermectin and chemically modified to ivermectin; the committee notes that Omura then refined the culture conditions to remove a toxic contaminant, that Merck's chief microbiologist Woodruff travelled to the Kitasato Institute in 1972 to set up the collaboration, that Max Tishler was a catalyst for the meeting, and that credit is due to Merck's chief executive Vagelos for making ivermectin freely available. Award-body science-history text; admiring of the prize, but it separates the roles of the two laureates.",
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/advanced-information/"
+    },
+    {
+      "id": "src_omura_nobel_bio",
+      "kind": "award_body",
+      "title": "Andy Crump, 'Satoshi Omura - Biographical', Nobel Prize in Physiology or Medicine 2015, NobelPrize.org (read in full). Written for the Nobel Foundation by a long-time collaborator, so partly Omura's own account and admiring: farming family in Nirasaki, evening-school teaching while studying, five years to a master's degree, night-time NMR work, joining the Kitasato Institute in 1965, 14 months at Wesleyan under Tishler before being recalled, the industry-funding idea he took to the NIH and drug companies, the Merck partnership and its division of labour, the 1989 Kitamoto hospital complex funded by royalties, screening methods (Dragendorff test for alkaloids, cell-based assays), about 500 new compounds of which 26 became widely used, presidency of the Kitasato Institute from 1990. Not an independent behavioural source on its own.",
+      "url": "https://www.nobelprize.org/prizes/medicine/2015/omura/biographical/"
+    },
+    {
+      "id": "src_omura_nippon",
+      "kind": "press",
+      "title": "Asako Tsukasaki, 'The Nobel Discovery Protecting 300 Million People from the Risk of Blindness', Nippon.com, 21 October 2015 (all three pages read). Journalist's profile: hired in 1965 at the Kitasato Institute as an assistant technician; the 1971 Wesleyan stay under Tishler; on return (1973 in this account) he proposed joint research with drug companies at a time when academic-industry ties were viewed sceptically, aiming at animal drugs because his small group could not compete in human medicine; team members collected a spoonful of soil on their way to work; the 1974 golf-course soil sample sent to Merck; the Kitasato Institute's finances were in shambles and the royalties (over 22 billion yen from this one drug, on animal use only) restored them; his approach of first finding new compounds and then testing their activity, with a team of over 100 including students. Same author as the 2018 Bluebacks article below, so the two are one source family.",
+      "url": "https://www.nippon.com/en/column/g00321/"
+    },
+    {
+      "id": "src_omura_bluebacks",
+      "kind": "press",
+      "title": "Asako Tsukasaki, 'Heisei no Noguchi Hideyo \"Omura Satoshi\" no nani ga sugoi no ka?' (What is so remarkable about Omura Satoshi?), Gendai Business / Bluebacks (Kodansha), 11 June 2018 (read in full, in Japanese). Calls him a strategist: on returning from the United States he proposed joint research to drug companies, targeted animal medicines because human medicines were a losing contest, obtained research funding of 80,000 US dollars a year from Merck and later contracts with Pfizer and others; the soil sample taken near a golf course in Ito in 1974; royalties limited to animal use still rescued the then 'burning' Kitasato Institute; staurosporine as a research tool that led to later cancer drugs. Same author as the Nippon.com profile, so one source family.",
+      "url": "https://gendai.media/articles/-/55640"
+    },
+    {
+      "id": "src_omura_jst",
+      "kind": "press",
+      "title": "Tadamichi Koiwai, 'Sangyo-gakuren demo senku-teki na gyoseki: Nobel-sho jusho no Omura Satoshi-shi' (Pioneering work in industry-university cooperation), Science Portal (Japan Science and Technology Agency), 14 October 2015 (read in full, in Japanese). Review of the biography by the science journalist Rensei Baba, who visited Ghana with him: reports that Merck first offered about 300 million yen for ivermectin patent use, that Omura refused and insisted on payment according to sales, that the institute then received about 1.6 billion yen a year on average, that Tishler mediated the final stage at his request, and quotes him on working through legal English with a dictionary. Secondary review of one biographer's account.",
+      "url": "https://scienceportal.jst.go.jp/stories/20151014_01/"
+    },
+    {
+      "id": "src_omura_toyo",
+      "kind": "press",
+      "title": "Takashi Hasegawa, 'Nobel Prize Winner and Hot Spring Owner', Toyo Keizai (The Oriental Economist), 12 October 2015 (read in full). Describes a background 'far from the intellectual elite' (farm family, cross-country skiing, a technical assistant's post at the Kitasato Institute that included erasing the blackboard), his Nirasaki art museum and hot-spring facility, and quotes the biographer Rensei Baba on four 'faces' presented at a 2014 party: researcher (about 25 billion yen of royalties returned to research), corporate manager (rebuilt the institute and built a new hospital), leader of circles (14 years as president of Joshibi University of Art and Design) and developer of people (31 students became professors). Business-press profile that leans on the same biographer.",
+      "url": "https://toyokeizai.net/articles/-/87892"
+    },
+    {
+      "id": "src_omura_nordic",
+      "kind": "press",
+      "title": "Malin Otmani, 'Satoshi Omura: The power of art and science', Nordic Life Science, 20 December 2015 (read in full). Magazine profile written around the Nobel week: his remark that he 'merely borrowed the power of microbes'; the Wesleyan offer that was the lowest he had received but which he took because 'there must be something else behind it'; the deal with Merck made through Tishler's connections; the Kitamoto hospital that went ahead in 1989 after objections from the local medical association; a 1995 fund in Yamanashi and the 2007 Nirasaki Omura Art Museum. Largely rests on the Nobel Foundation material and his own interview remarks.",
+      "url": "https://nordiclifescience.org/nobel-laureate-medicine-2015-satoshi-omura"
+    },
+    {
+      "id": "src_omura_museum",
+      "kind": "press",
+      "title": "Nippon.com staff, 'Omura Satoshi's Art Museum: A Nobel Winner's Generosity', Nippon.com blog, 6 October 2015 (read in full). Reports that in 2007 he donated a collection (estimated at about 3,500 pieces, over 1,500 shown) and a new museum to his home city of Nirasaki, at a cost of as much as 500 million yen, paid mostly from patent licensing fees, calls it 'an investment in young people', and says he let most of the licensing income stay with the university for its finances and a hospital ('I only need enough to get by', reported). Short news blog.",
+      "url": "https://nippon.com/en/nipponblog/m00094"
+    }
+  ],
+  "rows": {
+    "proactive_agency": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_omura_nobel_bio, src_omura_nippon, src_omura_bluebacks, src_omura_jst, src_omura_nobel_adv | 1971-1989 | Nobel biography, journalist profiles, review of a biography, award-body text] The Nobel biography, the Nippon.com profile and the Bluebacks article say that after being recalled from Wesleyan he toured the NIH and drug companies for funds, proposed industry-funded joint research, and had his team collect a spoonful of soil on their way to work; the Nordic profile says he pushed on with the Kitamoto hospital despite the local medical association's objections. The Nobel committee records that Merck's Woodruff came to the Kitasato Institute in 1972 to set up the collaboration, so the first move was not his alone. SELF-CALIBRATION (agent): lowered from 74 / 0.62 to 70 / 0.58 because the two journalist pieces are one author, the Nobel biography is by a collaborator, and the committee shows Merck also initiated contact."
+    },
+    "opportunity_sensing": {
+      "score": 66,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_omura_nippon, src_omura_bluebacks, src_omura_nobel_bio | 1973-1974 | journalist profiles, Nobel biography] Both journalist pieces (one author) say he aimed at animal drugs because a small group could not win in human medicine and a veterinary drug might also work in people; the Nobel biography adds his plan to find compounds first and test uses later. The reasoning is told after ivermectin succeeded. SELF-CALIBRATION (agent): top-risk row; lowered from 72 / 0.58 to 66 / 0.50 for outcome bias and one dominant author."
+    },
+    "resourcefulness": {
+      "score": 66,
+      "confidence": 0.52,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_omura_nobel_bio, src_omura_nippon, src_omura_bluebacks | 1960s-1970s | Nobel biography, journalist profiles] The Nobel biography says he was allowed to use the single national NMR machine at night while teaching by day; the journalist pieces say his team collected soil by the spoonful on commutes and that he secured research funding from Merck (80,000 US dollars a year) and later Pfizer. SELF-CALIBRATION (agent): lowered from 70 / 0.56 to 66 / 0.52; the night-time NMR account has only the collaborator-written biography behind it."
+    },
+    "persuasiveness": {
+      "score": 62,
+      "confidence": 0.44,
+      "evidenceType": "inference",
+      "impact": "advantage",
+      "rationale": "[src_omura_jst, src_omura_nordic, src_omura_nobel_bio | 1973-1989 | review of a biography, magazine profile, Nobel biography] One biographer's account, relayed by the Science Portal review, says he refused Merck's 300 million yen offer and obtained payment tied to sales, with Tishler mediating; the Nordic profile says he kept pleading until the Kitamoto hospital was approved over objections. Other sources show the outcome (royalties, hospital) but not how it was argued. SELF-CALIBRATION (agent): lowered from 68 / 0.50 (strong inference) to 62 / 0.44 (inference): the negotiation story is a single biographer family and the hospital claim is one magazine line."
+    },
+    "persistence": {
+      "score": 62,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_omura_nobel_bio, src_omura_nippon, src_omura_bluebacks | 1958-1968 | Nobel biography, journalist profiles] The Nobel biography and the journalist pieces agree that he took five years to finish a master's degree while teaching evening classes, with NMR work through the night; the pattern after 1974 is a decades-long screening programme. SELF-CALIBRATION (agent): lowered from 66 / 0.54 to 62 / 0.50 because the schedule detail comes from the collaborator-written biography."
+    },
+    "impact_motivation": {
+      "score": 70,
+      "confidence": 0.58,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_omura_nobel_bio, src_omura_museum, src_omura_toyo, src_omura_nordic, src_omura_nippon | 1989-2007 | Nobel biography, news blog, business-press profile, magazine profile, journalist profile] Documented actions: royalty income went to the Kitamoto hospital complex and to research funding at the institute, and he gave a museum and collection to his home city at a reported cost of up to 500 million yen; the news blog reports that he let most of the licensing income stay with the university. His stated motives rest on his own remarks. SELF-CALIBRATION (agent): lowered from 72 / 0.60 to 70 / 0.58 because the motive reading leans on self-description."
+    },
+    "collaboration": {
+      "score": 60,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_omura_nobel_adv, src_omura_nobel_bio, src_omura_nippon | 1971-2005 | award-body text, Nobel biography, journalist profile] He worked with Tishler, Merck's laboratories (the Nobel committee assigns the parasite testing to Campbell's group), Bloch on cerulenin and Hopwood on a hybrid antibiotic, and led a team of over 100. Shared credit is large here, and the collaborations are listed mainly in the collaborator-written biography. SELF-CALIBRATION (agent): lowered from 64 / 0.52 to 60 / 0.48 for shared-credit inflation."
+    },
+    "aesthetic_sensitivity": {
+      "score": 66,
+      "confidence": 0.54,
+      "evidenceType": "strong_inference",
+      "impact": "neutral",
+      "rationale": "[src_omura_museum, src_omura_toyo, src_omura_nordic | 2007 | news blog, business-press profile, magazine profile] Three sources report that he collected art over many years (about 3,500 pieces by one estimate), built the Nirasaki museum and put artworks in the hospital he founded; they record the collecting, not his inner response to art. SELF-CALIBRATION (agent): evidence type lowered from documented to strong inference and score from 68 / 0.56 to 66 / 0.54, since collecting and funding show interest but not sensitivity itself."
+    },
+    "experimentation": {
+      "score": 64,
+      "confidence": 0.5,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_omura_nobel_bio, src_omura_nobel_adv, src_omura_nippon | 1970s-1980s | Nobel biography, award-body text, journalist profile] The Nobel committee credits unique methods for large-scale culturing; the biography adds an alkaloid colour test and cell-based assays, and the journalist profile says he reversed the usual order by finding new compounds first and testing activity afterwards. SELF-CALIBRATION (agent): lowered from 68 / 0.54 to 64 / 0.50 because the method detail is mostly from the collaborator-written biography."
+    },
+    "leadership_drive": {
+      "score": 62,
+      "confidence": 0.48,
+      "evidenceType": "strong_inference",
+      "impact": "advantage",
+      "rationale": "[src_omura_toyo, src_omura_nobel_bio, src_omura_nippon | 1973-2012 | business-press profile, Nobel biography, journalist profile] Headed antibiotic research at the Kitasato Institute from 1973, was its president from 1990, led a group of over 100 and, in the biographer's account relayed by Toyo Keizai, saw 31 students become professors. The biographer family dominates the managerial claims. SELF-CALIBRATION (agent): lowered from 66 / 0.52 to 62 / 0.48."
+    }
+  },
+  "portrait": {
+    "status": "found",
+    "url": "/portraits/satoshi-omura-bengt-nyman-2015.jpg",
+    "width": 1000,
+    "height": 1000,
+    "source": "Photograph of Satoshi Omura at a Nobel-week event in Stockholm, taken 6 December 2015 (EXIF capture time 15:14:27) by Bengt Nyman and published by him on Wikimedia Commons as 'Satoshi Omura 5040-2015.jpg' (own work). Downloaded at the original 3161 x 3161 pixels and downscaled to 1000 x 1000; no cropping beyond the original frame, no upscaling. Sitter checked against the Commons description ('Satoshi Omura Nobel Laureate in medicine in Stockholm December 2015'), the Wikidata depicts statement, the Nobel Prize 2015 category and the capture date, and visually against the Japan Academy official member portrait (same face, glasses and ears); there is no lettering in the image.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Bengt Nyman, 'Satoshi Omura 5040-2015' (6 December 2015), Wikimedia Commons, CC BY-SA 4.0; downscaled from the original.",
+    "attributionUrl": "https://commons.wikimedia.org/wiki/File:Satoshi_%C5%8Cmura_5040-2015.jpg",
+    "creator": "Bengt Nyman",
+    "date": "2015-12-06",
+    "kind": "likeness",
+    "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Satoshi_%C5%8Cmura_5040-2015.jpg"
+  },
+  "localization": {
+    "displayNames": {
+      "ko-KR": "오무라 사토시"
+    }
+  },
+  "provenance": {
+    "createdAt": "2026-11-24T00:00:00Z",
+    "updatedAt": "2026-11-24T00:00:00Z",
+    "processedBy": "agent",
+    "notes": "portrait_preflight: STRONG (Stage B) / lead SURVIVED, no replacement. Lead: Commons 'Satoshi Omura 5040-2015.jpg' by Bengt Nyman (Nobel week, Stockholm, 2015-12-06, CC BY-SA 4.0, uploader = photographer, own work). Re-verified live through the Commons API (author, licence, EXIF capture date, description, categories, structured depicts) and the original 3161 x 3161 file downloaded and inspected: an elderly man with rimless glasses speaking at a lectern with a microphone, matching the Japan Academy official member portrait (Commons CC BY 4.0 tag, holder site terms unread, not relied on). Downscaled to 1000 x 1000; share-alike attribution required. No lettering in the image. Kind likeness. LIVING PERSON: only documented public conduct (research, partnership, administration, philanthropy, art collecting) is scored; no family, health or private-life inference, and his family, his hot-spring business and his private finances are not used. IDENTITY: QID Q21061207 verified live 2026-11-24 (human, born 1935-07-12, no death date, Japan; Korean label 오무라 사토시). ATTRIBUTION: attributable (dated compound discoveries, institutions and a documented collaboration), but shared credit is large: the Nobel committee gives Campbell's Merck group the parasite testing and ivermectin work. CANONICAL SIGNIFICANCE SOURCE: Nobel Assembly advanced information. READ: Nobel advanced information and press release, Nobel biography (written by a collaborator), Nippon.com profile (3 pages), Bluebacks article, Science Portal review of Baba's biography, Toyo Keizai profile, Nordic Life Science profile, Nippon.com museum blog, Gairdner page and Japanese government PR leaflet (read, not cited). Wikipedia and Wikidata orientation only. COUNTER-VOICES/CAVEATS: Merck's Woodruff initiated the 1972 visit; Merck tested and developed ivermectin; royalty figures differ across sources (over 22 billion, about 25 billion, about 1.6 billion a year) and the Gairdner page says the institute forwent human-use royalties; the Nippon.com and Bluebacks pieces share one author and the two business profiles lean on one biographer, so independent behavioural families are few (about four). Sparse by design: 10 rows, below the 18-trait match-eligibility threshold; not padded. ROW REMOVED: mastery orientation (single collaborator-written source, no independent behavioural evidence)."
+  }
+}
